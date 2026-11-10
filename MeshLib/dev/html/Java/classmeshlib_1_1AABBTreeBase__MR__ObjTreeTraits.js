@@ -4,6 +4,8 @@ var classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits =
     [ "AABBTreeBase_MR_ObjTreeTraits", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a714058983368aa6241185f8e6b3a1458", null ],
     [ "AABBTreeBase_MR_ObjTreeTraits", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#af318f7eac60b2958e5ea7deb1d0a24a5", null ],
     [ "assignFromAnother", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#ac8ba0d769d9e15d0fbdabbc0baa860d2", null ],
+    [ "box", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a34b97af6b823fe50083c9fb39d36c840", null ],
+    [ "empty", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a11585ab592d09fd927ded47a20c7d2d1", null ],
     [ "getBoundingBox", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a5ce1c2300030a77a10f9604a5afd52ac", null ],
     [ "getLeafOrder", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a46692e1cb591abda7417cf6701bad338", null ],
     [ "getLeafOrderAndReset", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#adc51f86b67c85ac7d79ddeb609ce58f0", null ],
@@ -12,6 +14,10 @@ var classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits =
     [ "getSubtrees", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a2e4fbbedac45ab1f4363f68700d3239e", null ],
     [ "heapBytes", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#ae173a66fd9b717e22ba551053fe57e27", null ],
     [ "index", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a38d0c4f540654681268d54675022ca13", null ],
+    [ "leaf", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a3f0e00383f2b7abba8662412844adbe6", null ],
+    [ "leafId", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#afa90b68db5329b4d2d55c6103be250f3", null ],
+    [ "leaves", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a4e96645d1b2f45d0eb6cc7eb3748fb5b", null ],
     [ "nodes", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a9fed576d79e714ac3d61ca5425e0e986", null ],
-    [ "numLeaves", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#ac50452c8d59977ec9ebf8e9c1dc5cc5d", null ]
+    [ "numLeaves", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#ac50452c8d59977ec9ebf8e9c1dc5cc5d", null ],
+    [ "rootNodeId", "classmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#af4d7cedaa11619a5756a996a650631a0", null ]
 ];

@@ -162,7 +162,7 @@ $(function(){initNavTree('ExampleViewer.html','',''); });
 <div class="line"><span class="comment"># Setup parameters</span></div>
 <div class="line">params = mm.OffsetParameters()</div>
 <div class="line">params.voxelSize = mesh.computeBoundingBox().<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a>() * 5e-3  <span class="comment"># offset grid precision (algorithm is voxel based)</span></div>
-<div class="line"><span class="keywordflow">if</span> mm.findRightBoundary(mesh.topology).<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga639284e16d0d26e25ac330e5e04651ca">empty</a>():</div>
+<div class="line"><span class="keywordflow">if</span> mm.findRightBoundary(mesh.topology).<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadfd2bdcac093b71694cd1bab1ce47087">empty</a>():</div>
 <div class="line">    params.signDetectionMode = mm.SignDetectionMode.HoleWindingRule  <span class="comment"># use if you have holes in mesh</span></div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Make offset mesh</span></div>
@@ -198,8 +198,8 @@ $(function(){initNavTree('ExampleViewer.html','',''); });
 <div class="line"><span class="comment"># keep the window until the user closes it</span></div>
 <div class="line">mv.showViewer()</div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga364466ea8c305b40ce349b90f040c873"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a></div><div class="ttdeci">static constexpr SymMatrix2 diagonal(T diagVal) noexcept</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga639284e16d0d26e25ac330e5e04651ca"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga639284e16d0d26e25ac330e5e04651ca">empty</a></div><div class="ttdeci">bool empty() const</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gac4a5309ed19fd012a50b4fc912d52782"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gac4a5309ed19fd012a50b4fc912d52782">preciseFitDataViewport</a></div><div class="ttdeci">void preciseFitDataViewport(MR::ViewportMask vpList=MR::ViewportMask::all())</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gadfd2bdcac093b71694cd1bab1ce47087"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gadfd2bdcac093b71694cd1bab1ce47087">empty</a></div><div class="ttdeci">bool empty() const</div></div>
 </div><!-- fragment --> Viewer with scene tree <div class="image">
 <img src="Viewer_with_scene_tree.png" alt=""/>
 </div>

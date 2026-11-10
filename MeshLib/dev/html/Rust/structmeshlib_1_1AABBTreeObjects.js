@@ -1,6 +1,7 @@
 var structmeshlib_1_1AABBTreeObjects =
 [
     [ "assign_from_another", "structmeshlib_1_1AABBTreeObjects.html#ab38d1ba7d6721498612e3920871674da", null ],
+    [ "empty", "structmeshlib_1_1AABBTreeObjects.html#a0125c11775b3e67ca37a5645a1fbe5c3", null ],
     [ "get_bounding_box", "structmeshlib_1_1AABBTreeObjects.html#ad6e318d535e58c95992aa0b9e3b41ffe", null ],
     [ "get_leaf_order", "structmeshlib_1_1AABBTreeObjects.html#a461c107cb188a86af33a9bbe51423a92", null ],
     [ "get_leaf_order_and_reset", "structmeshlib_1_1AABBTreeObjects.html#ac589fb425f620064fbec7f5f8bf34df2", null ],
@@ -9,9 +10,13 @@ var structmeshlib_1_1AABBTreeObjects =
     [ "get_subtrees", "structmeshlib_1_1AABBTreeObjects.html#a3770792984b414c4fb5e961ed95722f1", null ],
     [ "heap_bytes", "structmeshlib_1_1AABBTreeObjects.html#ace5afec7bb88729014ce811cbef39140", null ],
     [ "index", "structmeshlib_1_1AABBTreeObjects.html#a68063385e5b6a483855d2e5609174fe4", null ],
+    [ "leaf", "structmeshlib_1_1AABBTreeObjects.html#a8c643e1901b3d83a010c43853702b0a5", null ],
+    [ "leaf_id", "structmeshlib_1_1AABBTreeObjects.html#a9e6c7c878f4930717e1df4774923aab6", null ],
+    [ "leaves", "structmeshlib_1_1AABBTreeObjects.html#a8243ed8828747da7c2e50ffd46d2ed19", null ],
     [ "nodes", "structmeshlib_1_1AABBTreeObjects.html#a8d163c78d4d53366637681aa25ee8054", null ],
     [ "num_leaves", "structmeshlib_1_1AABBTreeObjects.html#ac0b2c01022bdf145106be1e568046e21", null ],
     [ "obj", "structmeshlib_1_1AABBTreeObjects.html#adc6975a2f1a5532b64c25cd0cedb7582", null ],
+    [ "root_node_id", "structmeshlib_1_1AABBTreeObjects.html#a2f704915d6c74aa8f7580cdd32b75b50", null ],
     [ "to_local_0", "structmeshlib_1_1AABBTreeObjects.html#aaf36fdcd5ae4b5c6b3f0c8dee5e9f25c", null ],
     [ "to_local_1", "structmeshlib_1_1AABBTreeObjects.html#a99ff33ae3ec0874b4836d5774d2a44c1", null ],
     [ "to_world", "structmeshlib_1_1AABBTreeObjects.html#a52f0a83a1b433351efec4a7e9b760db6", null ],

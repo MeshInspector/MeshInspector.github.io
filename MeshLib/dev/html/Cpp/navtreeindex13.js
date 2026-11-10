@@ -1,5 +1,9 @@
 var NAVTREEINDEX13 =
 {
+"classMR_1_1VarBigInt.html#a9928ab8806d0fc8257f49534b1270d4f":[9,0,0,0,5,4,12],
+"classMR_1_1VarBigInt.html#ab029a72d5a9f6ccfb3964cd80ad164b0":[9,0,0,0,5,4,15],
+"classMR_1_1VarBigInt.html#ab75ac807114214cf70e4766d353fd1b3":[9,0,0,0,5,4,1],
+"classMR_1_1VarBigInt.html#ab7b9f4291c1de63001796f9dbf0acbc9":[9,0,0,0,5,4,4],
 "classMR_1_1VarBigInt.html#abfc2d0c56498c6d85f3877dc1334c1db":[9,0,0,0,5,4,9],
 "classMR_1_1VarBigInt.html#ac4d08b145590570a9a82286378a9bf64":[9,0,0,0,5,4,6],
 "classMR_1_1VarBigInt.html#ad462c9e6e50985bbda0b4c4be217be43":[9,0,0,0,5,4,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX13 =
 "conceptMR_1_1UI_1_1detail_1_1Scalar.html":[9,0,0,19,47],
 "conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html":[9,0,0,19,49],
 "conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html":[9,0,0,19,50],
-"conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html":[9,0,0,19,48],
-"conceptMR_1_1UnitEnum.html":[9,0,0,19,45],
-"conceptMR_1_1detail_1_1Units_1_1Scalar.html":[9,0,0,19,46],
-"dir_0cc3bc4bf87f190d6580fb811ae42f71.html":[9,0,3,0,7],
-"dir_1b5fde6d84c504af4a8aa0c6b6985b0f.html":[9,0,3,0,6]
+"conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html":[9,0,0,19,48]
 };

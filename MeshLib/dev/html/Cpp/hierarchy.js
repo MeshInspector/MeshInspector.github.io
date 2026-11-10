@@ -10,7 +10,14 @@ var hierarchy =
     [ "MR::AABBTreeBase< ObjTreeTraits >", "classMR_1_1AABBTreeBase.html", [
       [ "MR::AABBTreeObjects", "classMR_1_1AABBTreeObjects.html", null ]
     ] ],
-    [ "MR::AABBTreeNode< T >", "structMR_1_1AABBTreeNode.html", null ],
+    [ "MR::AABBTreeChildEncoding", "structMR_1_1AABBTreeChildEncoding.html", [
+      [ "MR::AABBTreeNode< T >", "structMR_1_1AABBTreeNode.html", null ],
+      [ "MR::FaceTreeNode", "structMR_1_1FaceTreeNode.html", null ]
+    ] ],
+    [ "MR::AABBTreeLeaf< T >", "structMR_1_1AABBTreeLeaf.html", null ],
+    [ "MR::AABBTreeLeaf< FaceTreeTraits3 >", "structMR_1_1AABBTreeLeaf_3_01FaceTreeTraits3_01_4.html", null ],
+    [ "MR::AABBTreeNodeType< T >", "structMR_1_1AABBTreeNodeType.html", null ],
+    [ "MR::AABBTreeNodeType< FaceTreeTraits3 >", "structMR_1_1AABBTreeNodeType_3_01FaceTreeTraits3_01_4.html", null ],
     [ "MR::AABBTreePoints", "classMR_1_1AABBTreePoints.html", null ],
     [ "MR::AABBTreeTraits< L, B >", "structMR_1_1AABBTreeTraits.html", null ],
     [ "MR::SpaceMouse::Action", "structMR_1_1SpaceMouse_1_1Action.html", null ],
@@ -414,6 +421,7 @@ var hierarchy =
     [ "MR::FaceDistancesSettings", "structMR_1_1FaceDistancesSettings.html", null ],
     [ "MR::FaceFace", "structMR_1_1FaceFace.html", null ],
     [ "MR::FaceFaceFace", "structMR_1_1FaceFaceFace.html", null ],
+    [ "MR::FaceLeaf", "structMR_1_1FaceLeaf.html", null ],
     [ "std::false_type", null, [
       [ "MR::IsVisualizeMaskEnum< DimensionsVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01DimensionsVisualizePropertyType_01_4.html", null ],
       [ "MR::IsVisualizeMaskEnum< FeatureVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01FeatureVisualizePropertyType_01_4.html", null ],

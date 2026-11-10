@@ -153,7 +153,7 @@ $(function(){initNavTree('MRProcessSelfTreeSubtasks_8h_source.html','',''); });
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordflow">if</span> ( processNodes( c ) != <a class="code hl_enumvalue" href="group__GeneralGroup.html#ggae9fc4543eb3302ae33b7843707485149aa0bfb8e59e6c13fc8d990781f77694fe">Processing::Continue</a> )</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordflow">if</span> ( !tree[c.<a class="code hl_variable" href="structMR_1_1NodeNode.html#aa37922a5069e7815141f8eac1dd07ea2">aNode</a>].leaf() || !tree[c.<a class="code hl_variable" href="structMR_1_1NodeNode.html#a79a5205b5b3afdb4525f05a356ec8a18">bNode</a>].leaf() )</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordflow">if</span> ( !tree.<a class="code hl_function" href="group__GeneralGroup.html#gad01024c8a7555cc96e984f456a450928">isLeaf</a>( c.<a class="code hl_variable" href="structMR_1_1NodeNode.html#aa37922a5069e7815141f8eac1dd07ea2">aNode</a> ) || !tree.<a class="code hl_function" href="group__GeneralGroup.html#gad01024c8a7555cc96e984f456a450928">isLeaf</a>( c.<a class="code hl_variable" href="structMR_1_1NodeNode.html#a79a5205b5b3afdb4525f05a356ec8a18">bNode</a> ) )</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        nextSubtasks.push_back( c );</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordflow">else</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        leafPairs[numLeafPairs++] = c;</div>
@@ -175,56 +175,61 @@ $(function(){initNavTree('MRProcessSelfTreeSubtasks_8h_source.html','',''); });
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keyword">const</span> <span class="keyword">auto</span> s = subtasks.back();</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        subtasks.pop_back();</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        numLeafPairs = 0;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; aNode = tree[s.aNode];</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keyword">const</span> <span class="keywordtype">bool</span> aLeaf = tree.<a class="code hl_function" href="group__GeneralGroup.html#gad01024c8a7555cc96e984f456a450928">isLeaf</a>( s.aNode );</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordflow">if</span> ( s.aNode == s.bNode )</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        {</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>            <span class="keywordflow">if</span> ( aNode.leaf() )</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>            <span class="keywordflow">if</span> ( aLeaf )</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>            nextSubtasks.push_back( { aNode.l, aNode.l } );</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            nextSubtasks.push_back( { aNode.r, aNode.r } );</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            <a class="code hl_function" href="group__GeneralGroup.html#gaa23ffbf600bd834cfdc4d416d0f4f704">processChildrenPair</a>( tree, { aNode.l, aNode.r }, processNodes, nextSubtasks, leafPairs, numLeafPairs );</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        }</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        {</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>            <span class="keyword">const</span> <span class="keyword">auto</span>&amp; bNode = tree[s.bNode];</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            <span class="keywordflow">if</span> ( aNode.leaf() &amp;&amp; bNode.leaf() )</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>            {</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>                leafPairs[numLeafPairs++] = s;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>            }</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( !aNode.leaf() &amp;&amp; ( bNode.leaf() || aNode.box.volume() &gt;= bNode.box.volume() ) )</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>            {</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>                <a class="code hl_function" href="group__GeneralGroup.html#gaa23ffbf600bd834cfdc4d416d0f4f704">processChildrenPair</a>( tree, { aNode.l, s.bNode }, processNodes, nextSubtasks, leafPairs, numLeafPairs );</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>                <a class="code hl_function" href="group__GeneralGroup.html#gaa23ffbf600bd834cfdc4d416d0f4f704">processChildrenPair</a>( tree, { aNode.r, s.bNode }, processNodes, nextSubtasks, leafPairs, numLeafPairs );</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            }</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>            <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>            {</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>                assert( !bNode.leaf() );</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>                <a class="code hl_function" href="group__GeneralGroup.html#gaa23ffbf600bd834cfdc4d416d0f4f704">processChildrenPair</a>( tree, { s.aNode, bNode.l }, processNodes, nextSubtasks, leafPairs, numLeafPairs );</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>                <a class="code hl_function" href="group__GeneralGroup.html#gaa23ffbf600bd834cfdc4d416d0f4f704">processChildrenPair</a>( tree, { s.aNode, bNode.r }, processNodes, nextSubtasks, leafPairs, numLeafPairs );</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>            }</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        }</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; numLeafPairs; ++i )</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            <span class="keywordflow">if</span> ( processLeaf( leafPairs[i] ) == <a class="code hl_enumvalue" href="group__GeneralGroup.html#ggae9fc4543eb3302ae33b7843707485149a11a755d598c0c417f9a36758c3da7481">Processing::Stop</a> )</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>                <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    }</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>}</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>            <span class="keyword">const</span> <span class="keyword">auto</span>&amp; aNode = tree[s.aNode];</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            nextSubtasks.push_back( { aNode.l, aNode.l } );</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            nextSubtasks.push_back( { aNode.r, aNode.r } );</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            <a class="code hl_function" href="group__GeneralGroup.html#gaa23ffbf600bd834cfdc4d416d0f4f704">processChildrenPair</a>( tree, { aNode.l, aNode.r }, processNodes, nextSubtasks, leafPairs, numLeafPairs );</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        }</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        {</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            <span class="keyword">const</span> <span class="keywordtype">bool</span> bLeaf = tree.<a class="code hl_function" href="group__GeneralGroup.html#gad01024c8a7555cc96e984f456a450928">isLeaf</a>( s.bNode );</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>            <span class="keywordflow">if</span> ( aLeaf &amp;&amp; bLeaf )</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            {</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>                leafPairs[numLeafPairs++] = s;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>            }</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( !aLeaf &amp;&amp; ( bLeaf || tree.<a class="code hl_function" href="classMR_1_1AABBTree.html#a3907cc8a12d242e81a7ede5137fbca6b">box</a>( s.aNode ).volume() &gt;= tree.<a class="code hl_function" href="classMR_1_1AABBTree.html#a3907cc8a12d242e81a7ede5137fbca6b">box</a>( s.bNode ).volume() ) )</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>            {</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>                <span class="keyword">const</span> <span class="keyword">auto</span>&amp; aNode = tree[s.aNode];</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>                <a class="code hl_function" href="group__GeneralGroup.html#gaa23ffbf600bd834cfdc4d416d0f4f704">processChildrenPair</a>( tree, { aNode.l, s.bNode }, processNodes, nextSubtasks, leafPairs, numLeafPairs );</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>                <a class="code hl_function" href="group__GeneralGroup.html#gaa23ffbf600bd834cfdc4d416d0f4f704">processChildrenPair</a>( tree, { aNode.r, s.bNode }, processNodes, nextSubtasks, leafPairs, numLeafPairs );</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>            }</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            {</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>                assert( !bLeaf );</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>                <span class="keyword">const</span> <span class="keyword">auto</span>&amp; bNode = tree[s.bNode];</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>                <a class="code hl_function" href="group__GeneralGroup.html#gaa23ffbf600bd834cfdc4d416d0f4f704">processChildrenPair</a>( tree, { s.aNode, bNode.l }, processNodes, nextSubtasks, leafPairs, numLeafPairs );</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>                <a class="code hl_function" href="group__GeneralGroup.html#gaa23ffbf600bd834cfdc4d416d0f4f704">processChildrenPair</a>( tree, { s.aNode, bNode.r }, processNodes, nextSubtasks, leafPairs, numLeafPairs );</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            }</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        }</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; numLeafPairs; ++i )</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>            <span class="keywordflow">if</span> ( processLeaf( leafPairs[i] ) == <a class="code hl_enumvalue" href="group__GeneralGroup.html#ggae9fc4543eb3302ae33b7843707485149a11a755d598c0c417f9a36758c3da7481">Processing::Stop</a> )</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    }</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>}</div>
 </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>}</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>}</div>
 <div class="ttc" id="aMRAABBTree_8h_html"><div class="ttname"><a href="MRAABBTree_8h.html">MRAABBTree.h</a></div></div>
 <div class="ttc" id="aMREnums_8h_html"><div class="ttname"><a href="MREnums_8h.html">MREnums.h</a></div></div>
 <div class="ttc" id="aMRMacros_8h_html"><div class="ttname"><a href="MRMacros_8h.html">MRMacros.h</a></div></div>
 <div class="ttc" id="aMRMacros_8h_html_ab046fc4170c43e2643920e9039d7357e"><div class="ttname"><a href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a></div><div class="ttdeci">#define MR_FORCE_INLINE</div><div class="ttdef"><b>Definition</b> MRMacros.h:47</div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1AABBTree_html"><div class="ttname"><a href="classMR_1_1AABBTree.html">MR::AABBTree</a></div><div class="ttdef"><b>Definition</b> MRAABBTree.h:18</div></div>
+<div class="ttc" id="aclassMR_1_1AABBTree_html"><div class="ttname"><a href="classMR_1_1AABBTree.html">MR::AABBTree</a></div><div class="ttdef"><b>Definition</b> MRAABBTree.h:20</div></div>
+<div class="ttc" id="aclassMR_1_1AABBTree_html_a3907cc8a12d242e81a7ede5137fbca6b"><div class="ttname"><a href="classMR_1_1AABBTree.html#a3907cc8a12d242e81a7ede5137fbca6b">MR::AABBTree::box</a></div><div class="ttdeci">const Box3f &amp; box(NodeId n) const</div><div class="ttdoc">returns the bounding box of given node or leaf</div><div class="ttdef"><b>Definition</b> MRAABBTree.h:43</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga70a491da3a38943ffbe9d8a99c340824"><div class="ttname"><a href="group__GeneralGroup.html#ga70a491da3a38943ffbe9d8a99c340824">MR::processSelfSubtasks</a></div><div class="ttdeci">void processSelfSubtasks(const AABBTree &amp;tree, std::vector&lt; NodeNode &gt; &amp;subtasks, std::vector&lt; NodeNode &gt; &amp;nextSubtasks, ProcessLeaf &amp;&amp;processLeaf, ProcessNodes &amp;&amp;processNodes)</div><div class="ttdoc">This function process all subtasks in one tree left/right == right/left in this case,...</div><div class="ttdef"><b>Definition</b> MRProcessSelfTreeSubtasks.h:42</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaa23ffbf600bd834cfdc4d416d0f4f704"><div class="ttname"><a href="group__GeneralGroup.html#gaa23ffbf600bd834cfdc4d416d0f4f704">MR::processChildrenPair</a></div><div class="ttdeci">MR_FORCE_INLINE void processChildrenPair(const AABBTree &amp;tree, const NodeNode &amp;c, ProcessNodes &amp;processNodes, std::vector&lt; NodeNode &gt; &amp;nextSubtasks, NodeNode *leafPairs, int &amp;numLeafPairs)</div><div class="ttdoc">tests a pair of children by processNodes: an accepted pair is added to nextSubtasks,...</div><div class="ttdef"><b>Definition</b> MRProcessSelfTreeSubtasks.h:18</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gad01024c8a7555cc96e984f456a450928"><div class="ttname"><a href="group__GeneralGroup.html#gad01024c8a7555cc96e984f456a450928">MR::AABBTreeBase::isLeaf</a></div><div class="ttdeci">static bool isLeaf(NodeId n)</div><div class="ttdoc">returns true if given node id is in fact a leaf (encoded as negative number)</div><div class="ttdef"><b>Definition</b> MRAABBTreeBase.h:41</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ggae9fc4543eb3302ae33b7843707485149a11a755d598c0c417f9a36758c3da7481"><div class="ttname"><a href="group__GeneralGroup.html#ggae9fc4543eb3302ae33b7843707485149a11a755d598c0c417f9a36758c3da7481">MR::Processing::Stop</a></div><div class="ttdeci">@ Stop</div><div class="ttdef"><b>Definition</b> MREnums.h:65</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ggae9fc4543eb3302ae33b7843707485149aa0bfb8e59e6c13fc8d990781f77694fe"><div class="ttname"><a href="group__GeneralGroup.html#ggae9fc4543eb3302ae33b7843707485149aa0bfb8e59e6c13fc8d990781f77694fe">MR::Processing::Continue</a></div><div class="ttdeci">@ Continue</div><div class="ttdef"><b>Definition</b> MREnums.h:64</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="astructMR_1_1NodeNode_html"><div class="ttname"><a href="structMR_1_1NodeNode.html">MR::NodeNode</a></div><div class="ttdef"><b>Definition</b> MRAABBTreeNode.h:53</div></div>
-<div class="ttc" id="astructMR_1_1NodeNode_html_a79a5205b5b3afdb4525f05a356ec8a18"><div class="ttname"><a href="structMR_1_1NodeNode.html#a79a5205b5b3afdb4525f05a356ec8a18">MR::NodeNode::bNode</a></div><div class="ttdeci">NodeId bNode</div><div class="ttdef"><b>Definition</b> MRAABBTreeNode.h:55</div></div>
-<div class="ttc" id="astructMR_1_1NodeNode_html_aa37922a5069e7815141f8eac1dd07ea2"><div class="ttname"><a href="structMR_1_1NodeNode.html#aa37922a5069e7815141f8eac1dd07ea2">MR::NodeNode::aNode</a></div><div class="ttdeci">NodeId aNode</div><div class="ttdef"><b>Definition</b> MRAABBTreeNode.h:54</div></div>
+<div class="ttc" id="astructMR_1_1NodeNode_html"><div class="ttname"><a href="structMR_1_1NodeNode.html">MR::NodeNode</a></div><div class="ttdef"><b>Definition</b> MRAABBTreeNode.h:107</div></div>
+<div class="ttc" id="astructMR_1_1NodeNode_html_a79a5205b5b3afdb4525f05a356ec8a18"><div class="ttname"><a href="structMR_1_1NodeNode.html#a79a5205b5b3afdb4525f05a356ec8a18">MR::NodeNode::bNode</a></div><div class="ttdeci">NodeId bNode</div><div class="ttdef"><b>Definition</b> MRAABBTreeNode.h:109</div></div>
+<div class="ttc" id="astructMR_1_1NodeNode_html_aa37922a5069e7815141f8eac1dd07ea2"><div class="ttname"><a href="structMR_1_1NodeNode.html#aa37922a5069e7815141f8eac1dd07ea2">MR::NodeNode::aNode</a></div><div class="ttdeci">NodeId aNode</div><div class="ttdef"><b>Definition</b> MRAABBTreeNode.h:108</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

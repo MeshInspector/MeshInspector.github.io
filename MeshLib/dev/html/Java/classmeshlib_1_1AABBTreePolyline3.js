@@ -6,6 +6,8 @@ var classmeshlib_1_1AABBTreePolyline3 =
     [ "AABBTreePolyline3", "classmeshlib_1_1AABBTreePolyline3.html#ae0f1d4789a214746b833d7437b897aba", null ],
     [ "AABBTreePolyline3", "classmeshlib_1_1AABBTreePolyline3.html#a0eacec5da650913930cf6f25ddc912fd", null ],
     [ "assignFromAnother", "classmeshlib_1_1AABBTreePolyline3.html#a20f59f57632ea8e2f92150a788d23bbc", null ],
+    [ "box", "classmeshlib_1_1AABBTreePolyline3.html#a1742ff0bf581062554e6ddccb7e1543a", null ],
+    [ "empty", "classmeshlib_1_1AABBTreePolyline3.html#af9b68565e88b54d5f888b26d8a5b5c83", null ],
     [ "getBoundingBox", "classmeshlib_1_1AABBTreePolyline3.html#aca1cfb8b50fb54211ad24a8883dd5413", null ],
     [ "getLeafOrder", "classmeshlib_1_1AABBTreePolyline3.html#a57834bf4f1d0f4412dc4507d5a76626d", null ],
     [ "getLeafOrderAndReset", "classmeshlib_1_1AABBTreePolyline3.html#af52f1340abd0a553709b6da76e50a062", null ],
@@ -14,7 +16,11 @@ var classmeshlib_1_1AABBTreePolyline3 =
     [ "getSubtrees", "classmeshlib_1_1AABBTreePolyline3.html#af3e384bc2cb6c1c7d13ba4c218980739", null ],
     [ "heapBytes", "classmeshlib_1_1AABBTreePolyline3.html#a818b9b96ff21e1d0be15354da23a7a35", null ],
     [ "index", "classmeshlib_1_1AABBTreePolyline3.html#a1569be48843aaddfc6c7114da3c3cbaa", null ],
+    [ "leaf", "classmeshlib_1_1AABBTreePolyline3.html#a49ba9e391e2990e9fdbd27c8127e6695", null ],
+    [ "leafId", "classmeshlib_1_1AABBTreePolyline3.html#aa8986648b01065188f1f756f14ade801", null ],
+    [ "leaves", "classmeshlib_1_1AABBTreePolyline3.html#ab4d01ce8298658899c856037dce20af2", null ],
     [ "nodes", "classmeshlib_1_1AABBTreePolyline3.html#a428778457550d65ae7b84217c8aec2ab", null ],
     [ "numLeaves", "classmeshlib_1_1AABBTreePolyline3.html#a92218b3221a50917f39dc4faa852ca51", null ],
+    [ "rootNodeId", "classmeshlib_1_1AABBTreePolyline3.html#aa4a993b8f1d43df8e4b3138b296d6175", null ],
     [ "upcastToAABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f", "classmeshlib_1_1AABBTreePolyline3.html#af401ce811a54b2926d5774339a051a48", null ]
 ];

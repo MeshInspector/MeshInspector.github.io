@@ -1,7 +1,9 @@
 var structmeshlib_1_1AABBTree =
 [
     [ "add_split_faces", "structmeshlib_1_1AABBTree.html#a91df2dcf6250da37a2ee702988df5a5e", null ],
-    [ "assign_from_another", "structmeshlib_1_1AABBTree.html#ad0ef414426460ecd6ff4a1cc6367d8a1", null ],
+    [ "assign_from_another", "structmeshlib_1_1AABBTree.html#a33b78b4871c54852eea3bde3cd2d3dd9", null ],
+    [ "boxes", "structmeshlib_1_1AABBTree.html#aaef006179f9dd412536e375fbc8546b0", null ],
+    [ "empty", "structmeshlib_1_1AABBTree.html#a0d3b5690d3aebc370ba58ce52c99cf9c", null ],
     [ "flip_orientation", "structmeshlib_1_1AABBTree.html#a04efbc617e4407373eb0b88dea9202e3", null ],
     [ "get_bounding_box", "structmeshlib_1_1AABBTree.html#af12da134dcd637315a8dbe6280b20295", null ],
     [ "get_leaf_order", "structmeshlib_1_1AABBTree.html#a8df7d12c344558a8f1dc62be8ef00ee7", null ],
@@ -10,14 +12,18 @@ var structmeshlib_1_1AABBTree =
     [ "get_subtree_leaves", "structmeshlib_1_1AABBTree.html#ab88349ab4781a6286316c4305b2e9cb8", null ],
     [ "get_subtrees", "structmeshlib_1_1AABBTree.html#a0ce2cb15a8397698c05ef8c83738008c", null ],
     [ "heap_bytes", "structmeshlib_1_1AABBTree.html#ae0b572eff8592efad780830c4beb0aff", null ],
-    [ "index", "structmeshlib_1_1AABBTree.html#a5a0e09242fd7915c8f091aa7472fa2cb", null ],
-    [ "leaf_tri_points", "structmeshlib_1_1AABBTree.html#a10cedb1ba21aad4d2cf24b502e93f106", null ],
-    [ "leaf_tri_verts", "structmeshlib_1_1AABBTree.html#ab3f054a2ef8d532b6c551d99ff711f85", null ],
-    [ "leaf_triangulation", "structmeshlib_1_1AABBTree.html#a230cea9a632c68a8d9f8a9c566618355", null ],
-    [ "nodes", "structmeshlib_1_1AABBTree.html#abe6eaa31cb11bb54cd108d3232af8955", null ],
+    [ "index", "structmeshlib_1_1AABBTree.html#a19a41dec29e52f9eae1cef683e690f6b", null ],
+    [ "leaf", "structmeshlib_1_1AABBTree.html#a4d920698d2f52410c42a0e4402a71e4a", null ],
+    [ "leaf_box", "structmeshlib_1_1AABBTree.html#a86cd97d3cf365ba1a634deb6ac5bf729", null ],
+    [ "leaf_id", "structmeshlib_1_1AABBTree.html#aaad7865700a0c156c5dbe24737259e0c", null ],
+    [ "leaf_tri_points", "structmeshlib_1_1AABBTree.html#a81b63fb5b5cc70af33a7bc98cbb2fced", null ],
+    [ "leaf_verts", "structmeshlib_1_1AABBTree.html#a65e30137e54175e6d2f11af79f0f9a9a", null ],
+    [ "leaves", "structmeshlib_1_1AABBTree.html#abeebe69b488cc2151636da6fd476ce1c", null ],
+    [ "nodes", "structmeshlib_1_1AABBTree.html#a94d62279d72afe48e77132a27b84c685", null ],
     [ "num_leaves", "structmeshlib_1_1AABBTree.html#a4d281ec0a5748d4344cee4902586651b", null ],
     [ "refit", "structmeshlib_1_1AABBTree.html#a4209b5c51f8ccb18f94e259399f6cf01", null ],
+    [ "root_node_id", "structmeshlib_1_1AABBTree.html#ac7ab8b61501f9d1c778e312398dad467", null ],
     [ "upcast_to_aabb_tree_base_mr_aabb_tree_traits_mr_face_tag_mr_box3f", "structmeshlib_1_1AABBTree.html#a7ddc20e56fc8966df50713379d622cb3", null ],
     [ "upcast_to_aabb_tree_base_mr_aabb_tree_traits_mr_face_tag_mr_box3f_mut", "structmeshlib_1_1AABBTree.html#a6421cc0e18e40553599ec6fe446ebd4c", null ],
-    [ "update_triangulation", "structmeshlib_1_1AABBTree.html#ae2d18dd80d33106801726a7294a3478a", null ]
+    [ "update_leaf_verts", "structmeshlib_1_1AABBTree.html#ac44aa1a4c6d6d74457fbb70679d33aca", null ]
 ];

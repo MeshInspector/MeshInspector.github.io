@@ -483,9 +483,6 @@ var hierarchy =
     [ "mrmeshpy.Const_std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag", "classmrmeshpy_1_1Const__std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__f8e47332f524dd41cd6ab6aca5bc480d.html", [
       [ "mrmeshpy.std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag", "classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3.html", null ]
     ] ],
-    [ "mrmeshpy.Const_std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float_Allocator_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float", "classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float_af3e4f6f1e9720645d1f3c4371c9ffe0.html", [
-      [ "mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float_Allocator_AABBTreeNode_AABBTreeTraits_FaceTag_Box_Vector3_float", "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float__Alloca687c8508738ed9d0756f9a579fb6e116.html", null ]
-    ] ],
     [ "mrmeshpy.Const_std_vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box_Vector2_float_Allocator_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box_Vector2_float", "classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vecto7f114e7b95fdae6fd263c464e1ec5430.html", [
       [ "mrmeshpy.std_vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box_Vector2_float_Allocator_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box_Vector2_float", "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__flo03a1ee1d063916e356afef987c7a14cd.html", null ]
     ] ],
@@ -515,6 +512,21 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.Const_std_vector_Box_Vector3_float", "classmrmeshpy_1_1Const__std__vector__Box__Vector3__float.html", [
       [ "mrmeshpy.std_vector_Box_Vector3_float", "classmrmeshpy_1_1std__vector__Box__Vector3__float.html", null ]
+    ] ],
+    [ "mrmeshpy.Const_std_vector_Box_Vector3_float_Allocator_Box_Vector3_float", "classmrmeshpy_1_1Const__std__vector__Box__Vector3__float__Allocator__Box__Vector3__float.html", [
+      [ "mrmeshpy.std_vector_Box_Vector3_float_Allocator_Box_Vector3_float", "classmrmeshpy_1_1std__vector__Box__Vector3__float__Allocator__Box__Vector3__float.html", null ]
+    ] ],
+    [ "mrmeshpy.Const_std_vector_BoxedLeaf_AABBTreeTraits_FaceTag_Box_Vector3_float_Allocator_BoxedLeaf_AABBTreeTraits_FaceTag_Box_Vector3_float", "classmrmeshpy_1_1Const__std__vector__BoxedLeaf__AABBTreeTraits__FaceTag__Box__Vector3__float__Al7748b5d6565387f8c2fcc5ec52e449ef.html", [
+      [ "mrmeshpy.std_vector_BoxedLeaf_AABBTreeTraits_FaceTag_Box_Vector3_float_Allocator_BoxedLeaf_AABBTreeTraits_FaceTag_Box_Vector3_float", "classmrmeshpy_1_1std__vector__BoxedLeaf__AABBTreeTraits__FaceTag__Box__Vector3__float__Allocator7ef118e427e44a8d3f2d48920a2ecfef.html", null ]
+    ] ],
+    [ "mrmeshpy.Const_std_vector_BoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box_Vector2_float_Allocator_BoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box_Vector2_float", "classmrmeshpy_1_1Const__std__vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2_c02098727ba5c0235d1ab476c82c9a39.html", [
+      [ "mrmeshpy.std_vector_BoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box_Vector2_float_Allocator_BoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box_Vector2_float", "classmrmeshpy_1_1std__vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__float_5039eaef602343b4c9b93f150d506dd6.html", null ]
+    ] ],
+    [ "mrmeshpy.Const_std_vector_BoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box_Vector3_float_Allocator_BoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box_Vector3_float", "classmrmeshpy_1_1Const__std__vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box__Vector3_829354aab7083e06a5c1157fafc8dfc9.html", [
+      [ "mrmeshpy.std_vector_BoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box_Vector3_float_Allocator_BoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box_Vector3_float", "classmrmeshpy_1_1std__vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box__Vector3__float_952ad30c72c318cb594dc1856ce0a6bb.html", null ]
+    ] ],
+    [ "mrmeshpy.Const_std_vector_BoxedLeaf_ObjTreeTraits_Allocator_BoxedLeaf_ObjTreeTraits", "classmrmeshpy_1_1Const__std__vector__BoxedLeaf__ObjTreeTraits__Allocator__BoxedLeaf__ObjTreeTraits.html", [
+      [ "mrmeshpy.std_vector_BoxedLeaf_ObjTreeTraits_Allocator_BoxedLeaf_ObjTreeTraits", "classmrmeshpy_1_1std__vector__BoxedLeaf__ObjTreeTraits__Allocator__BoxedLeaf__ObjTreeTraits.html", null ]
     ] ],
     [ "mrmeshpy.Const_std_vector_char", "classmrmeshpy_1_1Const__std__vector__char.html", [
       [ "mrmeshpy.std_vector_char", "classmrmeshpy_1_1std__vector__char.html", null ]
@@ -563,6 +575,12 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.Const_std_vector_FaceFaceFace", "classmrmeshpy_1_1Const__std__vector__FaceFaceFace.html", [
       [ "mrmeshpy.std_vector_FaceFaceFace", "classmrmeshpy_1_1std__vector__FaceFaceFace.html", null ]
+    ] ],
+    [ "mrmeshpy.Const_std_vector_FaceLeaf_Allocator_FaceLeaf", "classmrmeshpy_1_1Const__std__vector__FaceLeaf__Allocator__FaceLeaf.html", [
+      [ "mrmeshpy.std_vector_FaceLeaf_Allocator_FaceLeaf", "classmrmeshpy_1_1std__vector__FaceLeaf__Allocator__FaceLeaf.html", null ]
+    ] ],
+    [ "mrmeshpy.Const_std_vector_FaceTreeNode_Allocator_FaceTreeNode", "classmrmeshpy_1_1Const__std__vector__FaceTreeNode__Allocator__FaceTreeNode.html", [
+      [ "mrmeshpy.std_vector_FaceTreeNode_Allocator_FaceTreeNode", "classmrmeshpy_1_1std__vector__FaceTreeNode__Allocator__FaceTreeNode.html", null ]
     ] ],
     [ "mrmeshpy.Const_std_vector_FanRecord_Allocator_FanRecord", "classmrmeshpy_1_1Const__std__vector__FanRecord__Allocator__FanRecord.html", [
       [ "mrmeshpy.std_vector_FanRecord_Allocator_FanRecord", "classmrmeshpy_1_1std__vector__FanRecord__Allocator__FanRecord.html", null ]
@@ -1088,17 +1106,49 @@ var hierarchy =
         [ "mrmeshpy.AABBTreeObjects", "classmrmeshpy_1_1AABBTreeObjects.html", null ]
       ] ]
     ] ],
-    [ "mrmeshpy.ConstAABBTreeNode_AABBTreeTraits_FaceTag_Box3f", "classmrmeshpy_1_1ConstAABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html", [
-      [ "mrmeshpy.AABBTreeNode_AABBTreeTraits_FaceTag_Box3f", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html", null ]
+    [ "mrmeshpy.ConstAABBTreeChildEncoding", "classmrmeshpy_1_1ConstAABBTreeChildEncoding.html", [
+      [ "mrmeshpy.AABBTreeChildEncoding", "classmrmeshpy_1_1AABBTreeChildEncoding.html", [
+        [ "mrmeshpy.AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html", null ],
+        [ "mrmeshpy.AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f.html", null ],
+        [ "mrmeshpy.AABBTreeNode_ObjTreeTraits", "classmrmeshpy_1_1AABBTreeNode__ObjTreeTraits.html", null ],
+        [ "mrmeshpy.FaceTreeNode", "classmrmeshpy_1_1FaceTreeNode.html", null ]
+      ] ],
+      [ "mrmeshpy.ConstAABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f", "classmrmeshpy_1_1ConstAABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html", [
+        [ "mrmeshpy.AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html", null ]
+      ] ],
+      [ "mrmeshpy.ConstAABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f", "classmrmeshpy_1_1ConstAABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f.html", [
+        [ "mrmeshpy.AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f.html", null ]
+      ] ],
+      [ "mrmeshpy.ConstAABBTreeNode_ObjTreeTraits", "classmrmeshpy_1_1ConstAABBTreeNode__ObjTreeTraits.html", [
+        [ "mrmeshpy.AABBTreeNode_ObjTreeTraits", "classmrmeshpy_1_1AABBTreeNode__ObjTreeTraits.html", null ]
+      ] ],
+      [ "mrmeshpy.ConstFaceTreeNode", "classmrmeshpy_1_1ConstFaceTreeNode.html", [
+        [ "mrmeshpy.FaceTreeNode", "classmrmeshpy_1_1FaceTreeNode.html", null ]
+      ] ]
     ] ],
-    [ "mrmeshpy.ConstAABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f", "classmrmeshpy_1_1ConstAABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html", [
-      [ "mrmeshpy.AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html", null ]
+    [ "mrmeshpy.ConstAABBTreeLeaf_AABBTreeTraits_FaceTag_Box3f", "classmrmeshpy_1_1ConstAABBTreeLeaf__AABBTreeTraits__FaceTag__Box3f.html", [
+      [ "mrmeshpy.AABBTreeLeaf_AABBTreeTraits_FaceTag_Box3f", "classmrmeshpy_1_1AABBTreeLeaf__AABBTreeTraits__FaceTag__Box3f.html", null ]
     ] ],
-    [ "mrmeshpy.ConstAABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f", "classmrmeshpy_1_1ConstAABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f.html", [
-      [ "mrmeshpy.AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f.html", null ]
+    [ "mrmeshpy.ConstAABBTreeLeaf_AABBTreeTraits_UndirectedEdgeTag_Box2f", "classmrmeshpy_1_1ConstAABBTreeLeaf__AABBTreeTraits__UndirectedEdgeTag__Box2f.html", [
+      [ "mrmeshpy.AABBTreeLeaf_AABBTreeTraits_UndirectedEdgeTag_Box2f", "classmrmeshpy_1_1AABBTreeLeaf__AABBTreeTraits__UndirectedEdgeTag__Box2f.html", null ]
     ] ],
-    [ "mrmeshpy.ConstAABBTreeNode_ObjTreeTraits", "classmrmeshpy_1_1ConstAABBTreeNode__ObjTreeTraits.html", [
-      [ "mrmeshpy.AABBTreeNode_ObjTreeTraits", "classmrmeshpy_1_1AABBTreeNode__ObjTreeTraits.html", null ]
+    [ "mrmeshpy.ConstAABBTreeLeaf_AABBTreeTraits_UndirectedEdgeTag_Box3f", "classmrmeshpy_1_1ConstAABBTreeLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html", [
+      [ "mrmeshpy.AABBTreeLeaf_AABBTreeTraits_UndirectedEdgeTag_Box3f", "classmrmeshpy_1_1AABBTreeLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstAABBTreeLeaf_ObjTreeTraits", "classmrmeshpy_1_1ConstAABBTreeLeaf__ObjTreeTraits.html", [
+      [ "mrmeshpy.AABBTreeLeaf_ObjTreeTraits", "classmrmeshpy_1_1AABBTreeLeaf__ObjTreeTraits.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstAABBTreeNodeType_AABBTreeTraits_FaceTag_Box3f", "classmrmeshpy_1_1ConstAABBTreeNodeType__AABBTreeTraits__FaceTag__Box3f.html", [
+      [ "mrmeshpy.AABBTreeNodeType_AABBTreeTraits_FaceTag_Box3f", "classmrmeshpy_1_1AABBTreeNodeType__AABBTreeTraits__FaceTag__Box3f.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstAABBTreeNodeType_AABBTreeTraits_UndirectedEdgeTag_Box2f", "classmrmeshpy_1_1ConstAABBTreeNodeType__AABBTreeTraits__UndirectedEdgeTag__Box2f.html", [
+      [ "mrmeshpy.AABBTreeNodeType_AABBTreeTraits_UndirectedEdgeTag_Box2f", "classmrmeshpy_1_1AABBTreeNodeType__AABBTreeTraits__UndirectedEdgeTag__Box2f.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstAABBTreeNodeType_AABBTreeTraits_UndirectedEdgeTag_Box3f", "classmrmeshpy_1_1ConstAABBTreeNodeType__AABBTreeTraits__UndirectedEdgeTag__Box3f.html", [
+      [ "mrmeshpy.AABBTreeNodeType_AABBTreeTraits_UndirectedEdgeTag_Box3f", "classmrmeshpy_1_1AABBTreeNodeType__AABBTreeTraits__UndirectedEdgeTag__Box3f.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstAABBTreeNodeType_ObjTreeTraits", "classmrmeshpy_1_1ConstAABBTreeNodeType__ObjTreeTraits.html", [
+      [ "mrmeshpy.AABBTreeNodeType_ObjTreeTraits", "classmrmeshpy_1_1AABBTreeNodeType__ObjTreeTraits.html", null ]
     ] ],
     [ "mrmeshpy.ConstAABBTreePoints", "classmrmeshpy_1_1ConstAABBTreePoints.html", [
       [ "mrmeshpy.AABBTreePoints", "classmrmeshpy_1_1AABBTreePoints.html", null ]
@@ -1494,6 +1544,18 @@ var hierarchy =
       [ "mrmeshpy.ConstSimpleVolumeMinMaxU16", "classmrmeshpy_1_1ConstSimpleVolumeMinMaxU16.html", [
         [ "mrmeshpy.SimpleVolumeMinMaxU16", "classmrmeshpy_1_1SimpleVolumeMinMaxU16.html", null ]
       ] ]
+    ] ],
+    [ "mrmeshpy.ConstBoxedLeaf_AABBTreeTraits_FaceTag_Box3f", "classmrmeshpy_1_1ConstBoxedLeaf__AABBTreeTraits__FaceTag__Box3f.html", [
+      [ "mrmeshpy.BoxedLeaf_AABBTreeTraits_FaceTag_Box3f", "classmrmeshpy_1_1BoxedLeaf__AABBTreeTraits__FaceTag__Box3f.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstBoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box2f", "classmrmeshpy_1_1ConstBoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box2f.html", [
+      [ "mrmeshpy.BoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box2f", "classmrmeshpy_1_1BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box2f.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstBoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box3f", "classmrmeshpy_1_1ConstBoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html", [
+      [ "mrmeshpy.BoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box3f", "classmrmeshpy_1_1BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstBoxedLeaf_ObjTreeTraits", "classmrmeshpy_1_1ConstBoxedLeaf__ObjTreeTraits.html", [
+      [ "mrmeshpy.BoxedLeaf_ObjTreeTraits", "classmrmeshpy_1_1BoxedLeaf__ObjTreeTraits.html", null ]
     ] ],
     [ "mrmeshpy.Nesting.ConstBoxNestingCorner", "classmrmeshpy_1_1Nesting_1_1ConstBoxNestingCorner.html", [
       [ "mrmeshpy.Nesting.BoxNestingCorner", "classmrmeshpy_1_1Nesting_1_1BoxNestingCorner.html", null ]
@@ -1968,6 +2030,9 @@ var hierarchy =
       [ "mrmeshpy.FaceId", "classmrmeshpy_1_1FaceId.html", [
         [ "mrmeshpy.NoDefInit_FaceId", "classmrmeshpy_1_1NoDefInit__FaceId.html", null ]
       ] ]
+    ] ],
+    [ "mrmeshpy.ConstFaceLeaf", "classmrmeshpy_1_1ConstFaceLeaf.html", [
+      [ "mrmeshpy.FaceLeaf", "classmrmeshpy_1_1FaceLeaf.html", null ]
     ] ],
     [ "mrmeshpy.ConstFaceMap", "classmrmeshpy_1_1ConstFaceMap.html", [
       [ "mrmeshpy.FaceMap", "classmrmeshpy_1_1FaceMap.html", null ]
@@ -4152,9 +4217,6 @@ var hierarchy =
     [ "mrmeshpy.ConstVector4i64", "classmrmeshpy_1_1ConstVector4i64.html", [
       [ "mrmeshpy.Vector4i64", "classmrmeshpy_1_1Vector4i64.html", null ]
     ] ],
-    [ "mrmeshpy.ConstVector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId", "classmrmeshpy_1_1ConstVector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html", [
-      [ "mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f_NodeId", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html", null ]
-    ] ],
     [ "mrmeshpy.ConstVector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f_NodeId", "classmrmeshpy_1_1ConstVector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html", [
       [ "mrmeshpy.Vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f_NodeId", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html", null ]
     ] ],
@@ -4176,6 +4238,21 @@ var hierarchy =
     [ "mrmeshpy.ConstVector_BallPivotCandidate", "classmrmeshpy_1_1ConstVector__BallPivotCandidate.html", [
       [ "mrmeshpy.Vector_BallPivotCandidate", "classmrmeshpy_1_1Vector__BallPivotCandidate.html", null ]
     ] ],
+    [ "mrmeshpy.ConstVector_Box3f", "classmrmeshpy_1_1ConstVector__Box3f.html", [
+      [ "mrmeshpy.Vector_Box3f", "classmrmeshpy_1_1Vector__Box3f.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstVector_BoxedLeaf_AABBTreeTraits_FaceTag_Box3f", "classmrmeshpy_1_1ConstVector__BoxedLeaf__AABBTreeTraits__FaceTag__Box3f.html", [
+      [ "mrmeshpy.Vector_BoxedLeaf_AABBTreeTraits_FaceTag_Box3f", "classmrmeshpy_1_1Vector__BoxedLeaf__AABBTreeTraits__FaceTag__Box3f.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstVector_BoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box2f", "classmrmeshpy_1_1ConstVector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box2f.html", [
+      [ "mrmeshpy.Vector_BoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box2f", "classmrmeshpy_1_1Vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box2f.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstVector_BoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box3f", "classmrmeshpy_1_1ConstVector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html", [
+      [ "mrmeshpy.Vector_BoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box3f", "classmrmeshpy_1_1Vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstVector_BoxedLeaf_ObjTreeTraits", "classmrmeshpy_1_1ConstVector__BoxedLeaf__ObjTreeTraits.html", [
+      [ "mrmeshpy.Vector_BoxedLeaf_ObjTreeTraits", "classmrmeshpy_1_1Vector__BoxedLeaf__ObjTreeTraits.html", null ]
+    ] ],
     [ "mrmeshpy.ConstVector_char_VertId", "classmrmeshpy_1_1ConstVector__char__VertId.html", [
       [ "mrmeshpy.Vector_char_VertId", "classmrmeshpy_1_1Vector__char__VertId.html", null ]
     ] ],
@@ -4190,6 +4267,12 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ConstVector_FaceBitSet_GraphVertId", "classmrmeshpy_1_1ConstVector__FaceBitSet__GraphVertId.html", [
       [ "mrmeshpy.Vector_FaceBitSet_GraphVertId", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstVector_FaceLeaf", "classmrmeshpy_1_1ConstVector__FaceLeaf.html", [
+      [ "mrmeshpy.Vector_FaceLeaf", "classmrmeshpy_1_1Vector__FaceLeaf.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstVector_FaceTreeNode_NodeId", "classmrmeshpy_1_1ConstVector__FaceTreeNode__NodeId.html", [
+      [ "mrmeshpy.Vector_FaceTreeNode_NodeId", "classmrmeshpy_1_1Vector__FaceTreeNode__NodeId.html", null ]
     ] ],
     [ "mrmeshpy.ConstVector_FanRecord_VertId", "classmrmeshpy_1_1ConstVector__FanRecord__VertId.html", [
       [ "mrmeshpy.Vector_FanRecord_VertId", "classmrmeshpy_1_1Vector__FanRecord__VertId.html", null ]
@@ -4289,9 +4372,6 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ConstVector_std_array_VertId_2", "classmrmeshpy_1_1ConstVector__std__array__VertId__2.html", [
       [ "mrmeshpy.Vector_std_array_VertId_2", "classmrmeshpy_1_1Vector__std__array__VertId__2.html", null ]
-    ] ],
-    [ "mrmeshpy.ConstVector_std_array_VertId_3", "classmrmeshpy_1_1ConstVector__std__array__VertId__3.html", [
-      [ "mrmeshpy.Vector_std_array_VertId_3", "classmrmeshpy_1_1Vector__std__array__VertId__3.html", null ]
     ] ],
     [ "mrmeshpy.ConstVector_std_filesystem_path_TextureId", "classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html", [
       [ "mrmeshpy.Vector_std_filesystem_path_TextureId", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html", null ]

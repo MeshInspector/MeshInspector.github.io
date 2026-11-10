@@ -141,6 +141,7 @@ $(function(){initNavTree('MRAABBTree_8h.html','',''); });
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="std__array__MR__Vector3f__3_8h_source.html">MRCMisc/std_array_MR_Vector3f_3.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRAABBTree_8h_source.html">Go to the source code of this file.</a></p>
@@ -148,14 +149,16 @@ $(function(){initNavTree('MRAABBTree_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:ab121f74c134e0f22cce8049e7dd0bf74" id="r_ab121f74c134e0f22cce8049e7dd0bf74"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab121f74c134e0f22cce8049e7dd0bf74">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab121f74c134e0f22cce8049e7dd0bf74">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a></td></tr>
-<tr class="memitem:a1393a5d741da9c6edd04b0105efe0727" id="r_a1393a5d741da9c6edd04b0105efe0727"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1393a5d741da9c6edd04b0105efe0727">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1393a5d741da9c6edd04b0105efe0727">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a></td></tr>
 <tr class="memitem:af977d78366b2e3f513265191e2207539" id="r_af977d78366b2e3f513265191e2207539"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af977d78366b2e3f513265191e2207539">MR_FaceBMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af977d78366b2e3f513265191e2207539">MR_FaceBMap</a></td></tr>
 <tr class="memitem:aba7bc6ac732c34fd4721c543fa3445ea" id="r_aba7bc6ac732c34fd4721c543fa3445ea"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td></tr>
+<tr class="memitem:a01713925bcece37516d1f96db946ed56" id="r_a01713925bcece37516d1f96db946ed56"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a01713925bcece37516d1f96db946ed56">MR_FaceLeaf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01713925bcece37516d1f96db946ed56">MR_FaceLeaf</a></td></tr>
+<tr class="memitem:a2d25d2f7aa2cc25e6e9b032c4cdc0520" id="r_a2d25d2f7aa2cc25e6e9b032c4cdc0520"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a2d25d2f7aa2cc25e6e9b032c4cdc0520">MR_FaceTreeNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d25d2f7aa2cc25e6e9b032c4cdc0520">MR_FaceTreeNode</a></td></tr>
 <tr class="memitem:af1ba30a3fa8a895c1f72e182f3e73e17" id="r_af1ba30a3fa8a895c1f72e182f3e73e17"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a></td></tr>
 <tr class="memitem:ad396cf7d4433c5ba7924776f5b379c9b" id="r_ad396cf7d4433c5ba7924776f5b379c9b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a></td></tr>
 <tr class="memitem:aa94c1c7260ea012c8bea78aa4477d504" id="r_aa94c1c7260ea012c8bea78aa4477d504"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa94c1c7260ea012c8bea78aa4477d504">MR_NodeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa94c1c7260ea012c8bea78aa4477d504">MR_NodeBitSet</a></td></tr>
-<tr class="memitem:ac80f2e9c6e2917cfe358b8825a0608ac" id="r_ac80f2e9c6e2917cfe358b8825a0608ac"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac80f2e9c6e2917cfe358b8825a0608ac">MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac80f2e9c6e2917cfe358b8825a0608ac">MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId</a></td></tr>
-<tr class="memitem:a7bb105f36947a8d693562a0c69f6b5f9" id="r_a7bb105f36947a8d693562a0c69f6b5f9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7bb105f36947a8d693562a0c69f6b5f9">MR_Vector_std_array_MR_VertId_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bb105f36947a8d693562a0c69f6b5f9">MR_Vector_std_array_MR_VertId_3</a></td></tr>
+<tr class="memitem:a3cb84b7a268cf487139c3e687ad38153" id="r_a3cb84b7a268cf487139c3e687ad38153"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3cb84b7a268cf487139c3e687ad38153">MR_Vector_MR_Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cb84b7a268cf487139c3e687ad38153">MR_Vector_MR_Box3f</a></td></tr>
+<tr class="memitem:a81261bc6fa9b105a1b6751989079d0e4" id="r_a81261bc6fa9b105a1b6751989079d0e4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a81261bc6fa9b105a1b6751989079d0e4">MR_Vector_MR_FaceLeaf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81261bc6fa9b105a1b6751989079d0e4">MR_Vector_MR_FaceLeaf</a></td></tr>
+<tr class="memitem:afbd7828e02c4ff0610597814f8fb41e4" id="r_afbd7828e02c4ff0610597814f8fb41e4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#afbd7828e02c4ff0610597814f8fb41e4">MR_Vector_MR_FaceTreeNode_MR_NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbd7828e02c4ff0610597814f8fb41e4">MR_Vector_MR_FaceTreeNode_MR_NodeId</a></td></tr>
 <tr class="memitem:a3df50e76b078a1626dd994e1df803764" id="r_a3df50e76b078a1626dd994e1df803764"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td></tr>
 <tr class="memitem:a249fd9254c0c3395567807936ad32641" id="r_a249fd9254c0c3395567807936ad32641"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td></tr>
 <tr class="memitem:ab1926229439b25a1ba80d9b53229d2ac" id="r_ab1926229439b25a1ba80d9b53229d2ac"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab1926229439b25a1ba80d9b53229d2ac">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId_phmap_Hash_MR_FaceId_phmap_EqualTo_MR_FaceId_MR_Allocator_std_pair_const_MR_FaceId_MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1926229439b25a1ba80d9b53229d2ac">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId_phmap_Hash_MR_FaceId_phmap_EqualTo_MR_FaceId_MR_Allocator_std_pair_const_MR_FaceId_MR_FaceId</a></td></tr>
@@ -165,6 +168,7 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ae23e7a1a6044abcd565f960ff3081052" id="r_ae23e7a1a6044abcd565f960ff3081052"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae23e7a1a6044abcd565f960ff3081052">MR_AABBTree_Get_leavesHaveBoxes</a> (void)</td></tr>
 <tr class="memitem:a262711363854c05f6cd64c80d5f6044b" id="r_a262711363854c05f6cd64c80d5f6044b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a262711363854c05f6cd64c80d5f6044b">MR_AABBTree_DefaultConstruct</a> (void)</td></tr>
 <tr class="memitem:ab43290a7912783fef4d1fc5e7c9be46d" id="r_ab43290a7912783fef4d1fc5e7c9be46d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab43290a7912783fef4d1fc5e7c9be46d">MR_AABBTree_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="memitem:a06270a2cc48943580bbc8e0fe10123e5" id="r_a06270a2cc48943580bbc8e0fe10123e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06270a2cc48943580bbc8e0fe10123e5">MR_AABBTree_OffsetPtr</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *ptr, ptrdiff_t i)</td></tr>
@@ -173,25 +177,32 @@ Functions</h2></td></tr>
 <tr class="memitem:a1b92fe948e771f7d5bc506bd4a3e6285" id="r_a1b92fe948e771f7d5bc506bd4a3e6285"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ab121f74c134e0f22cce8049e7dd0bf74">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b92fe948e771f7d5bc506bd4a3e6285">MR_AABBTree_MutableUpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a> (<a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *object)</td></tr>
 <tr class="memitem:ac6c164ae32cc1708febbbf13ca34f59c" id="r_ac6c164ae32cc1708febbbf13ca34f59c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6c164ae32cc1708febbbf13ca34f59c">MR_AABBTree_StaticDowncastFrom_MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a> (const <a class="el" href="#ab121f74c134e0f22cce8049e7dd0bf74">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a> *object)</td></tr>
 <tr class="memitem:a1e8e7bf5963ec55e9948c13c7d321293" id="r_a1e8e7bf5963ec55e9948c13c7d321293"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e8e7bf5963ec55e9948c13c7d321293">MR_AABBTree_MutableStaticDowncastFrom_MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a> (<a class="el" href="#ab121f74c134e0f22cce8049e7dd0bf74">MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a> *object)</td></tr>
-<tr class="memitem:a642e9a3502f389c022f720d6c1a8dd53" id="r_a642e9a3502f389c022f720d6c1a8dd53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a642e9a3502f389c022f720d6c1a8dd53">MR_AABBTree_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_other)</td></tr>
+<tr class="memitem:a9a8ce1bdf6fd29c8037421a169a94e20" id="r_a9a8ce1bdf6fd29c8037421a169a94e20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a8ce1bdf6fd29c8037421a169a94e20">MR_AABBTree_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> b_pass_by, <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *b)</td></tr>
 <tr class="memitem:a347987182db574d0e48cb2b0544115db" id="r_a347987182db574d0e48cb2b0544115db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a347987182db574d0e48cb2b0544115db">MR_AABBTree_Construct</a> (const <a class="el" href="#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp)</td></tr>
 <tr class="memitem:a1953e54b1e33ee5ac3b3d8af29f52035" id="r_a1953e54b1e33ee5ac3b3d8af29f52035"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1953e54b1e33ee5ac3b3d8af29f52035">MR_AABBTree_Destroy</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this)</td></tr>
 <tr class="memdesc:a1953e54b1e33ee5ac3b3d8af29f52035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a95d1f0cac31796969fee7aa32f972cc5" id="r_a95d1f0cac31796969fee7aa32f972cc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95d1f0cac31796969fee7aa32f972cc5">MR_AABBTree_DestroyArray</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this)</td></tr>
 <tr class="memdesc:a95d1f0cac31796969fee7aa32f972cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a9d35efe2cf99e373340a280ae2fa3120" id="r_a9d35efe2cf99e373340a280ae2fa3120"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d35efe2cf99e373340a280ae2fa3120">MR_AABBTree_AssignFromAnother</a> (<a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_other)</td></tr>
+<tr class="memitem:a00c8e70b6a6d28c7ab7f6302a95705ec" id="r_a00c8e70b6a6d28c7ab7f6302a95705ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00c8e70b6a6d28c7ab7f6302a95705ec">MR_AABBTree_AssignFromAnother</a> (<a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> b_pass_by, <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *b)</td></tr>
+<tr class="memitem:a014fbfa7b584988e229863598720c009" id="r_a014fbfa7b584988e229863598720c009"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a014fbfa7b584988e229863598720c009">MR_AABBTree_leafVerts</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, <a class="el" href="structMR__NodeId.html">MR_NodeId</a> n)</td></tr>
+<tr class="memitem:a1b15754dd9682840eefdc540c2e4f050" id="r_a1b15754dd9682840eefdc540c2e4f050"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b15754dd9682840eefdc540c2e4f050">MR_AABBTree_leafTriPoints</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, const <a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, <a class="el" href="structMR__NodeId.html">MR_NodeId</a> n)</td></tr>
+<tr class="memitem:aac00573ebe9cc461ac633ddd4b649046" id="r_aac00573ebe9cc461ac633ddd4b649046"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a3cb84b7a268cf487139c3e687ad38153">MR_Vector_MR_Box3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac00573ebe9cc461ac633ddd4b649046">MR_AABBTree_boxes</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this)</td></tr>
+<tr class="memitem:af05c949938d33b6abce3ac2a809daa1b" id="r_af05c949938d33b6abce3ac2a809daa1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af05c949938d33b6abce3ac2a809daa1b">MR_AABBTree_box</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, <a class="el" href="structMR__NodeId.html">MR_NodeId</a> n)</td></tr>
+<tr class="memitem:add09d59dde72af5e9b417ca808e0ce71" id="r_add09d59dde72af5e9b417ca808e0ce71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add09d59dde72af5e9b417ca808e0ce71">MR_AABBTree_leafBox</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, <a class="el" href="structMR__NodeId.html">MR_NodeId</a> n)</td></tr>
+<tr class="memitem:aa17173446230398e16b8ee085127c34a" id="r_aa17173446230398e16b8ee085127c34a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box3f.html">MR_Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa17173446230398e16b8ee085127c34a">MR_AABBTree_getBoundingBox</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this)</td></tr>
+<tr class="memitem:ab7216a758497ffa737d5ab242180c829" id="r_ab7216a758497ffa737d5ab242180c829"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7216a758497ffa737d5ab242180c829">MR_AABBTree_heapBytes</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this)</td></tr>
 <tr class="memitem:a9b359063a63a9a93ff01475cbd92bd83" id="r_a9b359063a63a9a93ff01475cbd92bd83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b359063a63a9a93ff01475cbd92bd83">MR_AABBTree_refit</a> (<a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *changedVerts)</td></tr>
 <tr class="memitem:a46833d5c7532e939f3f3491a69e0e071" id="r_a46833d5c7532e939f3f3491a69e0e071"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46833d5c7532e939f3f3491a69e0e071">MR_AABBTree_addSplitFaces</a> (<a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ab1926229439b25a1ba80d9b53229d2ac">MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId_phmap_Hash_MR_FaceId_phmap_EqualTo_MR_FaceId_MR_Allocator_std_pair_const_MR_FaceId_MR_FaceId</a> *new2Old)</td></tr>
-<tr class="memitem:ae59b7699f284750812ae2c8bbc0a8e9f" id="r_ae59b7699f284750812ae2c8bbc0a8e9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7bb105f36947a8d693562a0c69f6b5f9">MR_Vector_std_array_MR_VertId_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae59b7699f284750812ae2c8bbc0a8e9f">MR_AABBTree_leafTriangulation</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this)</td></tr>
-<tr class="memitem:a2a9091905e2edada47e001576069893b" id="r_a2a9091905e2edada47e001576069893b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a9091905e2edada47e001576069893b">MR_AABBTree_leafTriVerts</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, const <a class="el" href="#a1393a5d741da9c6edd04b0105efe0727">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a> *leaf)</td></tr>
-<tr class="memitem:a9c88d23d4843d9bb1784013b3b269612" id="r_a9c88d23d4843d9bb1784013b3b269612"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c88d23d4843d9bb1784013b3b269612">MR_AABBTree_leafTriPoints</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, const <a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="#a1393a5d741da9c6edd04b0105efe0727">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a> *leaf)</td></tr>
-<tr class="memitem:abc2fe13a5a1619067b04c4534e3648ca" id="r_abc2fe13a5a1619067b04c4534e3648ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc2fe13a5a1619067b04c4534e3648ca">MR_AABBTree_updateTriangulation</a> (<a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, const <a class="el" href="#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology)</td></tr>
+<tr class="memitem:a2cf75213f70e3c4ba4d47753b6918dad" id="r_a2cf75213f70e3c4ba4d47753b6918dad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cf75213f70e3c4ba4d47753b6918dad">MR_AABBTree_updateLeafVerts</a> (<a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, const <a class="el" href="#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology)</td></tr>
 <tr class="memitem:aae93b5c25984df7a58826f7e0ce126be" id="r_aae93b5c25984df7a58826f7e0ce126be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae93b5c25984df7a58826f7e0ce126be">MR_AABBTree_flipOrientation</a> (<a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, const <a class="el" href="#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
-<tr class="memitem:ab7216a758497ffa737d5ab242180c829" id="r_ab7216a758497ffa737d5ab242180c829"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7216a758497ffa737d5ab242180c829">MR_AABBTree_heapBytes</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this)</td></tr>
-<tr class="memitem:a39634445d02045d8a9bfd9b69d28246d" id="r_a39634445d02045d8a9bfd9b69d28246d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac80f2e9c6e2917cfe358b8825a0608ac">MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39634445d02045d8a9bfd9b69d28246d">MR_AABBTree_nodes</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this)</td></tr>
-<tr class="memitem:a0f40875e91188b96aa3f88c9d1c9cc51" id="r_a0f40875e91188b96aa3f88c9d1c9cc51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a1393a5d741da9c6edd04b0105efe0727">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f40875e91188b96aa3f88c9d1c9cc51">MR_AABBTree_index</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, <a class="el" href="structMR__NodeId.html">MR_NodeId</a> nid)</td></tr>
-<tr class="memitem:a005ec9d26797f7e4897d5cdd34642597" id="r_a005ec9d26797f7e4897d5cdd34642597"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__NodeId.html">MR_NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a005ec9d26797f7e4897d5cdd34642597">MR_AABBTree_rootNodeId</a> (void)</td></tr>
-<tr class="memitem:aa17173446230398e16b8ee085127c34a" id="r_aa17173446230398e16b8ee085127c34a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box3f.html">MR_Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa17173446230398e16b8ee085127c34a">MR_AABBTree_getBoundingBox</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this)</td></tr>
+<tr class="memitem:aac1b17c655dc9549fe65f6d1b136ebc6" id="r_aac1b17c655dc9549fe65f6d1b136ebc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#afbd7828e02c4ff0610597814f8fb41e4">MR_Vector_MR_FaceTreeNode_MR_NodeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac1b17c655dc9549fe65f6d1b136ebc6">MR_AABBTree_nodes</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this)</td></tr>
+<tr class="memitem:a59b3762e55ca5ee9a6db3d55b36c63b6" id="r_a59b3762e55ca5ee9a6db3d55b36c63b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a2d25d2f7aa2cc25e6e9b032c4cdc0520">MR_FaceTreeNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59b3762e55ca5ee9a6db3d55b36c63b6">MR_AABBTree_index</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, <a class="el" href="structMR__NodeId.html">MR_NodeId</a> nid)</td></tr>
+<tr class="memitem:ac56871014117588202a3f82c4ec7d924" id="r_ac56871014117588202a3f82c4ec7d924"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a81261bc6fa9b105a1b6751989079d0e4">MR_Vector_MR_FaceLeaf</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac56871014117588202a3f82c4ec7d924">MR_AABBTree_leaves</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this)</td></tr>
+<tr class="memitem:a2000533f57aa3f020773cd135fe3b2de" id="r_a2000533f57aa3f020773cd135fe3b2de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2000533f57aa3f020773cd135fe3b2de">MR_AABBTree_isLeaf</a> (<a class="el" href="structMR__NodeId.html">MR_NodeId</a> n)</td></tr>
+<tr class="memitem:a1d7e98321f13b841e996a92a8726ed14" id="r_a1d7e98321f13b841e996a92a8726ed14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a01713925bcece37516d1f96db946ed56">MR_FaceLeaf</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d7e98321f13b841e996a92a8726ed14">MR_AABBTree_leaf</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, <a class="el" href="structMR__NodeId.html">MR_NodeId</a> n)</td></tr>
+<tr class="memitem:ab86908af1a3edf9d4d874e95bc24fce1" id="r_ab86908af1a3edf9d4d874e95bc24fce1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__FaceId.html">MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab86908af1a3edf9d4d874e95bc24fce1">MR_AABBTree_leafId</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, <a class="el" href="structMR__NodeId.html">MR_NodeId</a> n)</td></tr>
+<tr class="memitem:a0f52b2efaed40ff0552e8f34c64c5eeb" id="r_a0f52b2efaed40ff0552e8f34c64c5eeb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f52b2efaed40ff0552e8f34c64c5eeb">MR_AABBTree_empty</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this)</td></tr>
+<tr class="memitem:a1c115e0b70ea7b2c817eb17509447dee" id="r_a1c115e0b70ea7b2c817eb17509447dee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__NodeId.html">MR_NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c115e0b70ea7b2c817eb17509447dee">MR_AABBTree_rootNodeId</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this)</td></tr>
 <tr class="memitem:a7c885c734c9dfdef6a90e6b0b1cf5790" id="r_a7c885c734c9dfdef6a90e6b0b1cf5790"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c885c734c9dfdef6a90e6b0b1cf5790">MR_AABBTree_numLeaves</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this)</td></tr>
 <tr class="memitem:acf80988a6a9c50e1b571326f335000cc" id="r_acf80988a6a9c50e1b571326f335000cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1158aa6b6ad18c6b9a857e3db9a7722a">MR_std_vector_MR_NodeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf80988a6a9c50e1b571326f335000cc">MR_AABBTree_getSubtrees</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, int minNum)</td></tr>
 <tr class="memitem:aa2c1af090e88b80deac2c0a124f7dcd6" id="r_aa2c1af090e88b80deac2c0a124f7dcd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2c1af090e88b80deac2c0a124f7dcd6">MR_AABBTree_getSubtreeLeaves</a> (const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *_this, <a class="el" href="structMR__NodeId.html">MR_NodeId</a> subtreeRoot)</td></tr>
@@ -211,7 +222,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>bounding volume hierarchy of mesh triangles; it keeps the vertex ids of its triangles, so a change of mesh topology requires either Mesh::invalidateCaches() or updateTriangulation(), and MeshTopology::flipOrientation() requires flipOrientation() here (as Mesh::flipOrientation() does) Generated from class <span class="tt">MR::AABBTree</span>. Base classes: Direct: (non-virtual) <span class="tt">MR::AABBTreeBase&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</span> Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+<p>bounding volume hierarchy of mesh triangles; the leaves store the vertices of their triangles, and the boxes of nodes and of leaves are kept in one array boxes(), so a change of mesh topology requires either Mesh::invalidateCaches() or updateLeafVerts(), and MeshTopology::flipOrientation() requires flipOrientation() here (as Mesh::flipOrientation() does) Generated from class <span class="tt">MR::AABBTree</span>. Base classes: Direct: (non-virtual) <span class="tt">MR::AABBTreeBase&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</span> Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -227,21 +238,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>base class for most AABB-trees (except for AABBTreePoints) Generated from class <span class="tt">MR::AABBTreeBase&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</span>. Derived classes: Direct: (non-virtual) <span class="tt">MR::AABBTree</span> Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
-
-</div>
-</div>
-<a id="a1393a5d741da9c6edd04b0105efe0727" name="a1393a5d741da9c6edd04b0105efe0727"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1393a5d741da9c6edd04b0105efe0727">&#9670;&#160;</a></span>MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="#a1393a5d741da9c6edd04b0105efe0727">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a> <a class="el" href="#a1393a5d741da9c6edd04b0105efe0727">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Generated from class <span class="tt">MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -272,6 +268,36 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>flat map: I -&gt; T Generated from class <span class="tt">MR::FaceBMap</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a01713925bcece37516d1f96db946ed56" name="a01713925bcece37516d1f96db946ed56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01713925bcece37516d1f96db946ed56">&#9670;&#160;</a></span>MR_FaceLeaf</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a01713925bcece37516d1f96db946ed56">MR_FaceLeaf</a> <a class="el" href="#a01713925bcece37516d1f96db946ed56">MR_FaceLeaf</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>a leaf of the AABB-tree of a mesh: the face with the vertices of its triangle, the box of the triangle is not stored Generated from class <span class="tt">MR::FaceLeaf</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a2d25d2f7aa2cc25e6e9b032c4cdc0520" name="a2d25d2f7aa2cc25e6e9b032c4cdc0520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d25d2f7aa2cc25e6e9b032c4cdc0520">&#9670;&#160;</a></span>MR_FaceTreeNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a2d25d2f7aa2cc25e6e9b032c4cdc0520">MR_FaceTreeNode</a> <a class="el" href="#a2d25d2f7aa2cc25e6e9b032c4cdc0520">MR_FaceTreeNode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>a node of the AABB-tree of a mesh: only the children, the boxes of nodes and leaves are in one array AABBTree::boxes() Generated from class <span class="tt">MR::FaceTreeNode</span>. Base classes: Direct: (non-virtual) <span class="tt">MR::AABBTreeChildEncoding</span> Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -364,33 +390,48 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac80f2e9c6e2917cfe358b8825a0608ac" name="ac80f2e9c6e2917cfe358b8825a0608ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac80f2e9c6e2917cfe358b8825a0608ac">&#9670;&#160;</a></span>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId</h2>
+<a id="a3cb84b7a268cf487139c3e687ad38153" name="a3cb84b7a268cf487139c3e687ad38153"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cb84b7a268cf487139c3e687ad38153">&#9670;&#160;</a></span>MR_Vector_MR_Box3f</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="#ac80f2e9c6e2917cfe358b8825a0608ac">MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId</a> <a class="el" href="#ac80f2e9c6e2917cfe358b8825a0608ac">MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId</a></td>
+          <td class="memname">typedef struct <a class="el" href="#a3cb84b7a268cf487139c3e687ad38153">MR_Vector_MR_Box3f</a> <a class="el" href="#a3cb84b7a268cf487139c3e687ad38153">MR_Vector_MR_Box3f</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&lt;MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;, MR::NodeId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&lt;MR::Box3f&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
-<a id="a7bb105f36947a8d693562a0c69f6b5f9" name="a7bb105f36947a8d693562a0c69f6b5f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bb105f36947a8d693562a0c69f6b5f9">&#9670;&#160;</a></span>MR_Vector_std_array_MR_VertId_3</h2>
+<a id="a81261bc6fa9b105a1b6751989079d0e4" name="a81261bc6fa9b105a1b6751989079d0e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81261bc6fa9b105a1b6751989079d0e4">&#9670;&#160;</a></span>MR_Vector_MR_FaceLeaf</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="#a7bb105f36947a8d693562a0c69f6b5f9">MR_Vector_std_array_MR_VertId_3</a> <a class="el" href="#a7bb105f36947a8d693562a0c69f6b5f9">MR_Vector_std_array_MR_VertId_3</a></td>
+          <td class="memname">typedef struct <a class="el" href="#a81261bc6fa9b105a1b6751989079d0e4">MR_Vector_MR_FaceLeaf</a> <a class="el" href="#a81261bc6fa9b105a1b6751989079d0e4">MR_Vector_MR_FaceLeaf</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&lt;std::array&lt;MR::VertId, 3&gt;&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&lt;MR::FaceLeaf&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="afbd7828e02c4ff0610597814f8fb41e4" name="afbd7828e02c4ff0610597814f8fb41e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbd7828e02c4ff0610597814f8fb41e4">&#9670;&#160;</a></span>MR_Vector_MR_FaceTreeNode_MR_NodeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#afbd7828e02c4ff0610597814f8fb41e4">MR_Vector_MR_FaceTreeNode_MR_NodeId</a> <a class="el" href="#afbd7828e02c4ff0610597814f8fb41e4">MR_Vector_MR_FaceTreeNode_MR_NodeId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&lt;MR::FaceTreeNode, MR::NodeId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -458,8 +499,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9d35efe2cf99e373340a280ae2fa3120" name="a9d35efe2cf99e373340a280ae2fa3120"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d35efe2cf99e373340a280ae2fa3120">&#9670;&#160;</a></span>MR_AABBTree_AssignFromAnother()</h2>
+<a id="a00c8e70b6a6d28c7ab7f6302a95705ec" name="a00c8e70b6a6d28c7ab7f6302a95705ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00c8e70b6a6d28c7ab7f6302a95705ec">&#9670;&#160;</a></span>MR_AABBTree_AssignFromAnother()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -472,16 +513,56 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>b_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <span class="tt">MR::AABBTree::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it held previously. </p>
+<p>Generated from method <span class="tt">MR::AABBTree::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">b</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="af05c949938d33b6abce3ac2a809daa1b" name="af05c949938d33b6abce3ac2a809daa1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af05c949938d33b6abce3ac2a809daa1b">&#9670;&#160;</a></span>MR_AABBTree_box()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> * MR_AABBTree_box </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__NodeId.html">MR_NodeId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the bounding box of given node or leaf Generated from method <span class="tt">MR::AABBTree::box</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aac00573ebe9cc461ac633ddd4b649046" name="aac00573ebe9cc461ac633ddd4b649046"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac00573ebe9cc461ac633ddd4b649046">&#9670;&#160;</a></span>MR_AABBTree_boxes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a3cb84b7a268cf487139c3e687ad38153">MR_Vector_MR_Box3f</a> * MR_AABBTree_boxes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::AABBTree::boxes</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -503,8 +584,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a642e9a3502f389c022f720d6c1a8dd53" name="a642e9a3502f389c022f720d6c1a8dd53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a642e9a3502f389c022f720d6c1a8dd53">&#9670;&#160;</a></span>MR_AABBTree_ConstructFromAnother()</h2>
+<a id="a9a8ce1bdf6fd29c8037421a169a94e20" name="a9a8ce1bdf6fd29c8037421a169a94e20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a8ce1bdf6fd29c8037421a169a94e20">&#9670;&#160;</a></span>MR_AABBTree_ConstructFromAnother()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -512,16 +593,16 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> * MR_AABBTree_ConstructFromAnother </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>b_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <span class="tt">MR::AABBTree::AABBTree</span>. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a1953e54b1e33ee5ac3b3d8af29f52035" title="Destroys a heap-allocated instance of MR_AABBTree. Does nothing if the pointer is null.">MR_AABBTree_Destroy()</a></span> to free it when you're done using it. </p>
+<p>Generated from constructor <span class="tt">MR::AABBTree::AABBTree</span>. The reference to things referred to by the parameter <span class="tt">b</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a1953e54b1e33ee5ac3b3d8af29f52035" title="Destroys a heap-allocated instance of MR_AABBTree. Does nothing if the pointer is null.">MR_AABBTree_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -599,6 +680,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0f52b2efaed40ff0552e8f34c64c5eeb" name="a0f52b2efaed40ff0552e8f34c64c5eeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f52b2efaed40ff0552e8f34c64c5eeb">&#9670;&#160;</a></span>MR_AABBTree_empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_AABBTree_empty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if the tree has no leaves Generated from method <span class="tt">MR::AABBTree::empty</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="aae93b5c25984df7a58826f7e0ce126be" name="aae93b5c25984df7a58826f7e0ce126be"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aae93b5c25984df7a58826f7e0ce126be">&#9670;&#160;</a></span>MR_AABBTree_flipOrientation()</h2>
 
@@ -621,6 +720,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae23e7a1a6044abcd565f960ff3081052" name="ae23e7a1a6044abcd565f960ff3081052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae23e7a1a6044abcd565f960ff3081052">&#9670;&#160;</a></span>MR_AABBTree_Get_leavesHaveBoxes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_AABBTree_Get_leavesHaveBoxes </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether the boxes of leaves are stored in the tree (all trees except AABBTree of a mesh) Returns a pointer to a member variable of class <span class="tt">MR::AABBTree</span> named <span class="tt">leavesHaveBoxes</span>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="aa17173446230398e16b8ee085127c34a" name="aa17173446230398e16b8ee085127c34a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa17173446230398e16b8ee085127c34a">&#9670;&#160;</a></span>MR_AABBTree_getBoundingBox()</h2>
 
@@ -635,7 +752,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the root node bounding box Generated from method <span class="tt">MR::AABBTree::getBoundingBox</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+<p>returns the bounding box of the whole tree Generated from method <span class="tt">MR::AABBTree::getBoundingBox</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -701,7 +818,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns set of nodes containing among direct or indirect children given leaves Generated from method <span class="tt">MR::AABBTree::getNodesFromLeaves</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">leaves</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRBitSet_8h.html#af75fdf51c2ce2929f92108607d9edcd1" title="Destroys a heap-allocated instance of MR_NodeBitSet. Does nothing if the pointer is null.">MR_NodeBitSet_Destroy()</a></span> to free it when you're done using it. </p>
+<p>returns set of not-leaf nodes containing among direct or indirect children given leaves Generated from method <span class="tt">MR::AABBTree::getNodesFromLeaves</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">leaves</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRBitSet_8h.html#af75fdf51c2ce2929f92108607d9edcd1" title="Destroys a heap-allocated instance of MR_NodeBitSet. Does nothing if the pointer is null.">MR_NodeBitSet_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -723,7 +840,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns all leaves in the subtree with given root Generated from method <span class="tt">MR::AABBTree::getSubtreeLeaves</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></span> to free it when you're done using it. </p>
+<p>returns all leaves in the subtree with given root (can be a leaf) Generated from method <span class="tt">MR::AABBTree::getSubtreeLeaves</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -745,7 +862,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns at least given number of top-level not-intersecting subtrees, union of which contain all tree leaves Generated from method <span class="tt">MR::AABBTree::getSubtrees</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__MR__NodeId_8h.html#ac34c3da88a1dd1af54b01878951b35c9" title="Destroys a heap-allocated instance of MR_std_vector_MR_NodeId. Does nothing if the pointer is null.">MR_std_vector_MR_NodeId_Destroy()</a></span> to free it when you're done using it. </p>
+<p>returns at least given number of top-level not-intersecting subtrees (some can be leaves), union of which contain all tree leaves Generated from method <span class="tt">MR::AABBTree::getSubtrees</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__MR__NodeId_8h.html#ac34c3da88a1dd1af54b01878951b35c9" title="Destroys a heap-allocated instance of MR_std_vector_MR_NodeId. Does nothing if the pointer is null.">MR_std_vector_MR_NodeId_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -767,14 +884,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0f40875e91188b96aa3f88c9d1c9cc51" name="a0f40875e91188b96aa3f88c9d1c9cc51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f40875e91188b96aa3f88c9d1c9cc51">&#9670;&#160;</a></span>MR_AABBTree_index()</h2>
+<a id="a59b3762e55ca5ee9a6db3d55b36c63b6" name="a59b3762e55ca5ee9a6db3d55b36c63b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59b3762e55ca5ee9a6db3d55b36c63b6">&#9670;&#160;</a></span>MR_AABBTree_index()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a1393a5d741da9c6edd04b0105efe0727">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a> * MR_AABBTree_index </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a2d25d2f7aa2cc25e6e9b032c4cdc0520">MR_FaceTreeNode</a> * MR_AABBTree_index </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -785,30 +902,96 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>const-access to any node Generated from method <span class="tt">MR::AABBTree::operator[]</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>const-access to any not-leaf node Generated from method <span class="tt">MR::AABBTree::operator[]</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
-<a id="ae59b7699f284750812ae2c8bbc0a8e9f" name="ae59b7699f284750812ae2c8bbc0a8e9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae59b7699f284750812ae2c8bbc0a8e9f">&#9670;&#160;</a></span>MR_AABBTree_leafTriangulation()</h2>
+<a id="a2000533f57aa3f020773cd135fe3b2de" name="a2000533f57aa3f020773cd135fe3b2de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2000533f57aa3f020773cd135fe3b2de">&#9670;&#160;</a></span>MR_AABBTree_isLeaf()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7bb105f36947a8d693562a0c69f6b5f9">MR_Vector_std_array_MR_VertId_3</a> * MR_AABBTree_leafTriangulation </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_AABBTree_isLeaf </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structMR__NodeId.html">MR_NodeId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>vertex ids of the faces of all leaves in the order of Node::leafPos(), which is the order of leaf nodes after construction Generated from method <span class="tt">MR::AABBTree::leafTriangulation</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>returns true if given node id is in fact a leaf (encoded as negative number) Generated from method <span class="tt">MR::AABBTree::isLeaf</span>. </p>
 
 </div>
 </div>
-<a id="a9c88d23d4843d9bb1784013b3b269612" name="a9c88d23d4843d9bb1784013b3b269612"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c88d23d4843d9bb1784013b3b269612">&#9670;&#160;</a></span>MR_AABBTree_leafTriPoints()</h2>
+<a id="a1d7e98321f13b841e996a92a8726ed14" name="a1d7e98321f13b841e996a92a8726ed14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d7e98321f13b841e996a92a8726ed14">&#9670;&#160;</a></span>MR_AABBTree_leaf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a01713925bcece37516d1f96db946ed56">MR_FaceLeaf</a> * MR_AABBTree_leaf </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__NodeId.html">MR_NodeId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the leaf encoded in given node id Generated from method <span class="tt">MR::AABBTree::leaf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="add09d59dde72af5e9b417ca808e0ce71" name="add09d59dde72af5e9b417ca808e0ce71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add09d59dde72af5e9b417ca808e0ce71">&#9670;&#160;</a></span>MR_AABBTree_leafBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> * MR_AABBTree_leafBox </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__NodeId.html">MR_NodeId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the bounding box of the triangle of given leaf Generated from method <span class="tt">MR::AABBTree::leafBox</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab86908af1a3edf9d4d874e95bc24fce1" name="ab86908af1a3edf9d4d874e95bc24fce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab86908af1a3edf9d4d874e95bc24fce1">&#9670;&#160;</a></span>MR_AABBTree_leafId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__FaceId.html">MR_FaceId</a> MR_AABBTree_leafId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__NodeId.html">MR_NodeId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the id of the leaf encoded in given node id Generated from method <span class="tt">MR::AABBTree::leafId</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a1b15754dd9682840eefdc540c2e4f050" name="a1b15754dd9682840eefdc540c2e4f050"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b15754dd9682840eefdc540c2e4f050">&#9670;&#160;</a></span>MR_AABBTree_leafTriPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -826,33 +1009,51 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a1393a5d741da9c6edd04b0105efe0727">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a> *</td>          <td class="paramname"><span class="paramname"><em>leaf</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="structMR__NodeId.html">MR_NodeId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the coordinates of the vertices of the face of given leaf node in the order of leafTriVerts() Generated from method <span class="tt">MR::AABBTree::leafTriPoints</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">points</span> can not be null. It is a single object. Parameter <span class="tt">leaf</span> can not be null. It is a single object. </p>
+<p>returns the coordinates of the vertices of the triangle of given leaf in the order of leafVerts( n ) Generated from method <span class="tt">MR::AABBTree::leafTriPoints</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">points</span> can not be null. It is a single object. </p>
 
 </div>
 </div>
-<a id="a2a9091905e2edada47e001576069893b" name="a2a9091905e2edada47e001576069893b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a9091905e2edada47e001576069893b">&#9670;&#160;</a></span>MR_AABBTree_leafTriVerts()</h2>
+<a id="a014fbfa7b584988e229863598720c009" name="a014fbfa7b584988e229863598720c009"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a014fbfa7b584988e229863598720c009">&#9670;&#160;</a></span>MR_AABBTree_leafVerts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> * MR_AABBTree_leafTriVerts </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> * MR_AABBTree_leafVerts </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a1393a5d741da9c6edd04b0105efe0727">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a> *</td>          <td class="paramname"><span class="paramname"><em>leaf</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="structMR__NodeId.html">MR_NodeId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns vertex ids of the face of given leaf node Generated from method <span class="tt">MR::AABBTree::leafTriVerts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">leaf</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>returns the vertices of the triangle of given leaf Generated from method <span class="tt">MR::AABBTree::leafVerts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac56871014117588202a3f82c4ec7d924" name="ac56871014117588202a3f82c4ec7d924"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac56871014117588202a3f82c4ec7d924">&#9670;&#160;</a></span>MR_AABBTree_leaves()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a81261bc6fa9b105a1b6751989079d0e4">MR_Vector_MR_FaceLeaf</a> * MR_AABBTree_leaves </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>all leaves in the order of the tree right after its construction Generated from method <span class="tt">MR::AABBTree::leaves</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -892,21 +1093,21 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a39634445d02045d8a9bfd9b69d28246d" name="a39634445d02045d8a9bfd9b69d28246d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39634445d02045d8a9bfd9b69d28246d">&#9670;&#160;</a></span>MR_AABBTree_nodes()</h2>
+<a id="aac1b17c655dc9549fe65f6d1b136ebc6" name="aac1b17c655dc9549fe65f6d1b136ebc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac1b17c655dc9549fe65f6d1b136ebc6">&#9670;&#160;</a></span>MR_AABBTree_nodes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac80f2e9c6e2917cfe358b8825a0608ac">MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId</a> * MR_AABBTree_nodes </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#afbd7828e02c4ff0610597814f8fb41e4">MR_Vector_MR_FaceTreeNode_MR_NodeId</a> * MR_AABBTree_nodes </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>const-access to all nodes Generated from method <span class="tt">MR::AABBTree::nodes</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>const-access to all not-leaf nodes, a tree with N leaves has N-1 nodes Generated from method <span class="tt">MR::AABBTree::nodes</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -1005,8 +1206,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a005ec9d26797f7e4897d5cdd34642597" name="a005ec9d26797f7e4897d5cdd34642597"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a005ec9d26797f7e4897d5cdd34642597">&#9670;&#160;</a></span>MR_AABBTree_rootNodeId()</h2>
+<a id="a1c115e0b70ea7b2c817eb17509447dee" name="a1c115e0b70ea7b2c817eb17509447dee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c115e0b70ea7b2c817eb17509447dee">&#9670;&#160;</a></span>MR_AABBTree_rootNodeId()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1014,12 +1215,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__NodeId.html">MR_NodeId</a> MR_AABBTree_rootNodeId </td>
           <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns root node id Generated from method <span class="tt">MR::AABBTree::rootNodeId</span>. </p>
+<p>returns root node id: 0 if the tree has at least two leaves, or the only leaf; must not be called for empty tree Generated from method <span class="tt">MR::AABBTree::rootNodeId</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1059,14 +1260,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abc2fe13a5a1619067b04c4534e3648ca" name="abc2fe13a5a1619067b04c4534e3648ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc2fe13a5a1619067b04c4534e3648ca">&#9670;&#160;</a></span>MR_AABBTree_updateTriangulation()</h2>
+<a id="a2cf75213f70e3c4ba4d47753b6918dad" name="a2cf75213f70e3c4ba4d47753b6918dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cf75213f70e3c4ba4d47753b6918dad">&#9670;&#160;</a></span>MR_AABBTree_updateLeafVerts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_AABBTree_updateTriangulation </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_AABBTree_updateLeafVerts </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a5f65578b8ae684c98e7ad038c8b419e0">MR_AABBTree</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1077,7 +1278,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>takes vertex ids of all tree's faces from given topology, e.g. after its vertices were renumbered Generated from method <span class="tt">MR::AABBTree::updateTriangulation</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">topology</span> can not be null. It is a single object. </p>
+<p>takes the vertices of all leaves from given topology, e.g. after it was packed Generated from method <span class="tt">MR::AABBTree::updateLeafVerts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">topology</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

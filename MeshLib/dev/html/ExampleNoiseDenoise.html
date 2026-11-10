@@ -245,9 +245,9 @@ $(function(){initNavTree('ExampleNoiseDenoise.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Add noise to the mesh</span></div>
-<div class="line">    MR_Box3f <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a> = MR_Mesh_computeBoundingBox( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, NULL );</div>
+<div class="line">    MR_Box3f <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaa8e870a285baf5773930c9add1a3e52f">box</a> = MR_Mesh_computeBoundingBox( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, NULL );</div>
 <div class="line">    MR_NoiseSettings* noiseSettings = MR_NoiseSettings_DefaultConstruct();</div>
-<div class="line">    MR_NoiseSettings_Set_sigma( noiseSettings, MR_Box3f_diagonal( &amp;<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a> ) * 0.0001f );</div>
+<div class="line">    MR_NoiseSettings_Set_sigma( noiseSettings, MR_Box3f_diagonal( &amp;<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaa8e870a285baf5773930c9add1a3e52f">box</a> ) * 0.0001f );</div>
 <div class="line">    MR_expected_void_std_string* noiseEx = MR_addNoise_MR_Mesh( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, NULL, noiseSettings );</div>
 <div class="line">    MR_NoiseSettings_Destroy( noiseSettings );</div>
 <div class="line"> </div>
@@ -291,7 +291,7 @@ $(function(){initNavTree('ExampleNoiseDenoise.html','',''); });
 <div class="line">    MR_expected_MR_Mesh_std_string_Destroy( meshEx );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga0ea02f370dc76e349984c62b5a3f6557"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a></div><div class="ttdeci">const Box3f &amp; box() const</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaa8e870a285baf5773930c9add1a3e52f"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaa8e870a285baf5773930c9add1a3e52f">box</a></div><div class="ttdeci">const BoxT &amp; box(NodeId n) const</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>NoiseDenoiseExample</div>
 <div class="line">{</div>

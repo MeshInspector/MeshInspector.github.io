@@ -131,7 +131,6 @@ $(function(){initNavTree('MRAABBTreeMaker_8h.html','',''); });
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
@@ -144,10 +143,6 @@ $(function(){initNavTree('MRAABBTreeMaker_8h.html','',''); });
 </div>
 <p><a href="MRAABBTreeMaker_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:MR_3A_3ABoxedLeaf_3C_20T_20_3E" id="r_MR_3A_3ABoxedLeaf_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BoxedLeaf.html">MR::BoxedLeaf&lt; T &gt;</a></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
@@ -155,15 +150,15 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ga723507d4b52845e8de2fe14f0a71b040" id="r_ga723507d4b52845e8de2fe14f0a71b040"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:ga723507d4b52845e8de2fe14f0a71b040 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga723507d4b52845e8de2fe14f0a71b040">MR::OnLeafCallback</a> = <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt;typename T::LeafId( typename T::LeafId id, int pos )&gt;</td></tr>
+<tr class="memitem:ga95f912058ca6db2505244c6dbc2dd52f" id="r_ga95f912058ca6db2505244c6dbc2dd52f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga95f912058ca6db2505244c6dbc2dd52f">MR::OnLeafCallback</a> = <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt;void( size_t leafIndex, size_t boxedLeafIndex )&gt;</td></tr>
+<tr class="memdesc:ga95f912058ca6db2505244c6dbc2dd52f"><td class="mdescLeft">&#160;</td><td class="mdescRight">called in parallel for every leaf with its index in the order of the tree and its index in the given boxed leaves  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga3c1bb6417aaa769fa4156f2edac91749" id="r_ga3c1bb6417aaa769fa4156f2edac91749"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga3c1bb6417aaa769fa4156f2edac91749">MR::getNumNodes</a> (int numLeaves)</td></tr>
-<tr class="memdesc:ga3c1bb6417aaa769fa4156f2edac91749"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of nodes in the binary tree with given number of leaves  <br /></td></tr>
-<tr class="memitem:gae85538e92c1c3663643e8179f21e5c9d" id="r_gae85538e92c1c3663643e8179f21e5c9d"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:gae85538e92c1c3663643e8179f21e5c9d template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__AABBTreeGroup.html#ga01c75e3c26967a90edbe075a77cb2ca9">AABBTreeNodeVec</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gae85538e92c1c3663643e8179f21e5c9d">MR::makeAABBTreeNodeVec</a> (<a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt; boxedLeaves, const <a class="el" href="group__AABBTreeGroup.html#ga723507d4b52845e8de2fe14f0a71b040">OnLeafCallback</a>&lt; T &gt; *onLeaf=nullptr)</td></tr>
+<tr class="memdesc:ga3c1bb6417aaa769fa4156f2edac91749"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of not-leaf nodes in the binary tree with given number of leaves  <br /></td></tr>
+<tr class="memitem:ga87f28795d79e8fef8e93dd7d48c05e9f" id="r_ga87f28795d79e8fef8e93dd7d48c05e9f"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ga87f28795d79e8fef8e93dd7d48c05e9f template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__AABBTreeGroup.html#ga28324e5e739fe4a563a83658a672810f">AABBTreeNodeVec</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga87f28795d79e8fef8e93dd7d48c05e9f">MR::makeAABBTreeNodeVec</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt; &amp;boxedLeaves, <a class="el" href="group__AABBTreeGroup.html#ga95f912058ca6db2505244c6dbc2dd52f">OnLeafCallback</a> onLeaf, typename T::BoxT *nodeBoxes=nullptr)</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -155,6 +155,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a10ffd65f476543ff0b34c92d70ce26ce" id="r_a10ffd65f476543ff0b34c92d70ce26ce"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10ffd65f476543ff0b34c92d70ce26ce">assign_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html">meshlib::AABBTreeBase_MR_ObjTreeTraits</a>) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html">meshlib::AABBTreeBase_MR_ObjTreeTraits</a></td></tr>
 <tr class="memitem:a96f4dc89eb5e4d6184a560eef91f8127" id="r_a96f4dc89eb5e4d6184a560eef91f8127"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96f4dc89eb5e4d6184a560eef91f8127">nodes</a> () const -&gt; &amp;<a class="el" href="structmeshlib_1_1Vector__MR__AABBTreeNode__MR__ObjTreeTraits__MR__NodeId.html">meshlib::Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId</a></td></tr>
 <tr class="memitem:a677222a5168bc016f6f6cbacc85a6bec" id="r_a677222a5168bc016f6f6cbacc85a6bec"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a677222a5168bc016f6f6cbacc85a6bec">index</a> (nid:meshlib::NodeId) const -&gt; &amp;<a class="el" href="structmeshlib_1_1AABBTreeNode__MR__ObjTreeTraits.html">meshlib::AABBTreeNode_MR_ObjTreeTraits</a></td></tr>
+<tr class="memitem:a4afb5590415dd42288016eb511a2e899" id="r_a4afb5590415dd42288016eb511a2e899"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4afb5590415dd42288016eb511a2e899">leaves</a> () const -&gt; &amp;<a class="el" href="structmeshlib_1_1Vector__MR__BoxedLeaf__MR__ObjTreeTraits.html">meshlib::Vector_MR_BoxedLeaf_MR_ObjTreeTraits</a></td></tr>
+<tr class="memitem:a475b9c5f6fc4dc0666dad91a7cd34d4e" id="r_a475b9c5f6fc4dc0666dad91a7cd34d4e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a475b9c5f6fc4dc0666dad91a7cd34d4e">leaf</a> (n:meshlib::NodeId) const -&gt; &amp;<a class="el" href="structmeshlib_1_1BoxedLeaf__MR__ObjTreeTraits.html">meshlib::BoxedLeaf_MR_ObjTreeTraits</a></td></tr>
+<tr class="memitem:ae7541050092facd44630a2ca8b0468b6" id="r_ae7541050092facd44630a2ca8b0468b6"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7541050092facd44630a2ca8b0468b6">leaf_id</a> (n:meshlib::NodeId) const -&gt; <a class="el" href="structmeshlib_1_1ObjId.html">meshlib::ObjId</a></td></tr>
+<tr class="memitem:a9336f68a5bb4a1160f4209e8d03f0d4c" id="r_a9336f68a5bb4a1160f4209e8d03f0d4c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9336f68a5bb4a1160f4209e8d03f0d4c">empty</a> () const -&gt; bool</td></tr>
+<tr class="memitem:ae4e0f0f9af86fa9a4a87395d6ca3e82a" id="r_ae4e0f0f9af86fa9a4a87395d6ca3e82a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4e0f0f9af86fa9a4a87395d6ca3e82a">root_node_id</a> () const -&gt; <a class="el" href="structmeshlib_1_1NodeId.html">meshlib::NodeId</a></td></tr>
 <tr class="memitem:af3412a9f88b722114f43126aaefc819b" id="r_af3412a9f88b722114f43126aaefc819b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3412a9f88b722114f43126aaefc819b">get_bounding_box</a> () const -&gt; <a class="el" href="structmeshlib_1_1Box3f.html">meshlib::Box3f</a></td></tr>
 <tr class="memitem:a874b6fb43d6e0c3633f87580e22b30f3" id="r_a874b6fb43d6e0c3633f87580e22b30f3"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a874b6fb43d6e0c3633f87580e22b30f3">heap_bytes</a> () const -&gt; usize</td></tr>
 <tr class="memitem:ad507ce8459929b57755b72ea4a078d05" id="r_ad507ce8459929b57755b72ea4a078d05"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad507ce8459929b57755b72ea4a078d05">num_leaves</a> () const -&gt; usize</td></tr>
@@ -168,7 +173,9 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a27bc514c6e8c0c3ac73c247d31190953" id="r_a27bc514c6e8c0c3ac73c247d31190953"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27bc514c6e8c0c3ac73c247d31190953">new</a> () -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html">meshlib::AABBTreeBase_MR_ObjTreeTraits</a> &gt;</td></tr>
 <tr class="memitem:aa78fbdccc8866dc2d4b6ddd26b4a5bb9" id="r_aa78fbdccc8866dc2d4b6ddd26b4a5bb9"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa78fbdccc8866dc2d4b6ddd26b4a5bb9">construct_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html">meshlib::AABBTreeBase_MR_ObjTreeTraits</a>) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html">meshlib::AABBTreeBase_MR_ObjTreeTraits</a> &gt;</td></tr>
-<tr class="memitem:a15495fe26aef0cd28178d2f0c8c9a09a" id="r_a15495fe26aef0cd28178d2f0c8c9a09a"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15495fe26aef0cd28178d2f0c8c9a09a">root_node_id</a> () -&gt; <a class="el" href="structmeshlib_1_1NodeId.html">meshlib::NodeId</a></td></tr>
+<tr class="memitem:a54d70e9c7db0cd00fb41428cc1ae5142" id="r_a54d70e9c7db0cd00fb41428cc1ae5142"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54d70e9c7db0cd00fb41428cc1ae5142">is_leaf</a> (n:meshlib::NodeId) -&gt; bool</td></tr>
+<tr class="memitem:adbb94eaf497faa0a10403f3157fd66c2" id="r_adbb94eaf497faa0a10403f3157fd66c2"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbb94eaf497faa0a10403f3157fd66c2">r</a> (n:meshlib::NodeId) -&gt; &amp;<a class="el" href="structmeshlib_1_1Box3f.html">meshlib::Box3f</a></td></tr>
+<tr class="memitem:a08c4ace611a143974b94c0f9598e80fd" id="r_a08c4ace611a143974b94c0f9598e80fd"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08c4ace611a143974b94c0f9598e80fd">leaves_have_boxes</a> () -&gt; *const bool</td></tr>
 <tr class="inherit_header pub_static_methods_structmeshlib_1_1CppClass"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_structmeshlib_1_1CppClass')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="structmeshlib_1_1CppClass.html">meshlib::CppClass</a></td></tr>
 <tr class="memitem:a11dc1e7c254dc595480cb0454755385e inherit pub_static_methods_structmeshlib_1_1CppClass" id="r_a11dc1e7c254dc595480cb0454755385e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1CppClass.html#a11dc1e7c254dc595480cb0454755385e">destroy</a> (ptr:*mut Self)</td></tr>
 <tr class="inherit_header pub_static_methods_structmeshlib_1_1CppCopy"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_structmeshlib_1_1CppCopy')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="structmeshlib_1_1CppCopy.html">meshlib::CppCopy</a></td></tr>
@@ -221,6 +228,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Generated from constructor <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::AABBTreeBase</span>.</p>
 <p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_ConstructFromAnother()</span>. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. </p>
+
+</div>
+</div>
+<a id="a9336f68a5bb4a1160f4209e8d03f0d4c" name="a9336f68a5bb4a1160f4209e8d03f0d4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9336f68a5bb4a1160f4209e8d03f0d4c">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::AABBTreeBase_MR_ObjTreeTraits::empty </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if the tree has no leaves Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::empty</span>.</p>
+<p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_empty()</span>. </p>
 
 </div>
 </div>
@@ -295,7 +321,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns set of nodes containing among direct or indirect children given leaves Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::getNodesFromLeaves</span>.</p>
+<p>returns set of not-leaf nodes containing among direct or indirect children given leaves Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::getNodesFromLeaves</span>.</p>
 <p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_getNodesFromLeaves()</span>. </p>
 
 </div>
@@ -314,7 +340,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns all leaves in the subtree with given root Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::getSubtreeLeaves</span>.</p>
+<p>returns all leaves in the subtree with given root (can be a leaf) Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::getSubtreeLeaves</span>.</p>
 <p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_getSubtreeLeaves()</span>. </p>
 
 </div>
@@ -333,7 +359,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns at least given number of top-level not-intersecting subtrees, union of which contain all tree leaves Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::getSubtrees</span>.</p>
+<p>returns at least given number of top-level not-intersecting subtrees (some can be leaves), union of which contain all tree leaves Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::getSubtrees</span>.</p>
 <p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_getSubtrees()</span>. </p>
 
 </div>
@@ -371,8 +397,119 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>const-access to any node Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::operator[]</span>.</p>
+<p>const-access to any not-leaf node Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::operator[]</span>.</p>
 <p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_index()</span>. </p>
+
+</div>
+</div>
+<a id="a54d70e9c7db0cd00fb41428cc1ae5142" name="a54d70e9c7db0cd00fb41428cc1ae5142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54d70e9c7db0cd00fb41428cc1ae5142">&#9670;&#160;</a></span>is_leaf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::AABBTreeBase_MR_ObjTreeTraits::is_leaf </td>
+          <td>(</td>
+          <td class="paramtype">n:meshlib::NodeId</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  bool</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>returns true if given node id is in fact a leaf (encoded as negative number) Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::isLeaf</span>.</p>
+<p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_isLeaf()</span>. </p>
+
+</div>
+</div>
+<a id="a475b9c5f6fc4dc0666dad91a7cd34d4e" name="a475b9c5f6fc4dc0666dad91a7cd34d4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a475b9c5f6fc4dc0666dad91a7cd34d4e">&#9670;&#160;</a></span>leaf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::AABBTreeBase_MR_ObjTreeTraits::leaf </td>
+          <td>(</td>
+          <td class="paramtype">n:meshlib::NodeId</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  &amp;<a class="el" href="structmeshlib_1_1BoxedLeaf__MR__ObjTreeTraits.html">meshlib::BoxedLeaf_MR_ObjTreeTraits</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the leaf encoded in given node id Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::leaf</span>.</p>
+<p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_leaf()</span>. </p>
+
+</div>
+</div>
+<a id="ae7541050092facd44630a2ca8b0468b6" name="ae7541050092facd44630a2ca8b0468b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7541050092facd44630a2ca8b0468b6">&#9670;&#160;</a></span>leaf_id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::AABBTreeBase_MR_ObjTreeTraits::leaf_id </td>
+          <td>(</td>
+          <td class="paramtype">n:meshlib::NodeId</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  <a class="el" href="structmeshlib_1_1ObjId.html">meshlib::ObjId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the id of the leaf encoded in given node id Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::leafId</span>.</p>
+<p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_leafId()</span>. </p>
+
+</div>
+</div>
+<a id="a4afb5590415dd42288016eb511a2e899" name="a4afb5590415dd42288016eb511a2e899"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4afb5590415dd42288016eb511a2e899">&#9670;&#160;</a></span>leaves()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::AABBTreeBase_MR_ObjTreeTraits::leaves </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  &amp;<a class="el" href="structmeshlib_1_1Vector__MR__BoxedLeaf__MR__ObjTreeTraits.html">meshlib::Vector_MR_BoxedLeaf_MR_ObjTreeTraits</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>all leaves in the order of the tree right after its construction Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::leaves</span>.</p>
+<p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_leaves()</span>. </p>
+
+</div>
+</div>
+<a id="a08c4ace611a143974b94c0f9598e80fd" name="a08c4ace611a143974b94c0f9598e80fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08c4ace611a143974b94c0f9598e80fd">&#9670;&#160;</a></span>leaves_have_boxes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::AABBTreeBase_MR_ObjTreeTraits::leaves_have_boxes </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *const bool</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>whether the boxes of leaves are stored in the tree (all trees except <a class="el" href="structmeshlib_1_1AABBTree.html">AABBTree</a> of a mesh) Returns a pointer to a member variable of class <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;</span> named <span class="tt">leavesHaveBoxes</span>.</p>
+<p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_Get_leavesHaveBoxes()</span>. </p>
 
 </div>
 </div>
@@ -417,7 +554,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>const-access to all nodes Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::nodes</span>.</p>
+<p>const-access to all not-leaf nodes, a tree with N leaves has N-1 nodes Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::nodes</span>.</p>
 <p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_nodes()</span>. </p>
 
 </div>
@@ -441,8 +578,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a15495fe26aef0cd28178d2f0c8c9a09a" name="a15495fe26aef0cd28178d2f0c8c9a09a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15495fe26aef0cd28178d2f0c8c9a09a">&#9670;&#160;</a></span>root_node_id()</h2>
+<a id="adbb94eaf497faa0a10403f3157fd66c2" name="adbb94eaf497faa0a10403f3157fd66c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbb94eaf497faa0a10403f3157fd66c2">&#9670;&#160;</a></span>r()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -451,10 +588,10 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto meshlib::AABBTreeBase_MR_ObjTreeTraits::root_node_id </td>
+          <td class="memname">auto meshlib::AABBTreeBase_MR_ObjTreeTraits::r </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> -&gt;  <a class="el" href="structmeshlib_1_1NodeId.html">meshlib::NodeId</a></td>
+          <td class="paramtype">n:meshlib::NodeId</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  &amp;<a class="el" href="structmeshlib_1_1Box3f.html">meshlib::Box3f</a></td>
         </tr>
       </table>
   </td>
@@ -463,7 +600,26 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>returns root node id Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::rootNodeId</span>.</p>
+<p>returns the bounding box of given node or leaf Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::box</span>.</p>
+<p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_box()</span>. </p>
+
+</div>
+</div>
+<a id="ae4e0f0f9af86fa9a4a87395d6ca3e82a" name="ae4e0f0f9af86fa9a4a87395d6ca3e82a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4e0f0f9af86fa9a4a87395d6ca3e82a">&#9670;&#160;</a></span>root_node_id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::AABBTreeBase_MR_ObjTreeTraits::root_node_id </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  <a class="el" href="structmeshlib_1_1NodeId.html">meshlib::NodeId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns root node id: 0 if the tree has at least two leaves, or the only leaf; must not be called for empty tree Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::rootNodeId</span>.</p>
 <p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_rootNodeId()</span>. </p>
 
 </div>

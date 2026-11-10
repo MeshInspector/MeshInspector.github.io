@@ -7,12 +7,9 @@ var classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR_
     [ "assignFromAnother", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a9c74ecbbccfb2847643e5c027d280659", null ],
     [ "box", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a0bb82751233d9b6f6bef6dfa162b6860", null ],
     [ "l", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#ae1234d7475baf8854a5cd47faf5661eb", null ],
-    [ "leaf", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#afafcfff98d3a6a6ced76726375e3fa9c", null ],
-    [ "leafId", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a15dbc2f0288e020751cc03a284735bd0", null ],
-    [ "leafPos", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#ace1201debc6e7e0bffeb2407221c9b4c", null ],
     [ "r", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a620e42c9063535eeea160e0f9c184242", null ],
     [ "setBox", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a0e9e160d1731dcd7664b9ec5bdd108df", null ],
     [ "setL", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a5b4c8101e5ea096fbe1f4f3bac2eff8f", null ],
-    [ "setLeafId", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#adaccde9eae51e488b5d9f66f7b7a0a86", null ],
-    [ "setR", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a1107cfe4985eb3025d5484658737bd19", null ]
+    [ "setR", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a1107cfe4985eb3025d5484658737bd19", null ],
+    [ "upcastToAABBTreeChildEncoding", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a21f14d76b970dca97b7714cf4be40cf2", null ]
 ];

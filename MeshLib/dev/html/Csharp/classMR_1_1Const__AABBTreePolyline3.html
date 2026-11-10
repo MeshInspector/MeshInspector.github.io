@@ -135,6 +135,7 @@ $(function(){initNavTree('classMR_1_1Const__AABBTreePolyline3.html','','classMR_
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__AABBTreePolyline3-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_AABBTreePolyline3 Class Reference</div></div>
@@ -170,7 +171,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3ebb0bc8d73cedb1f78e4a3dca58950d" id="r_a3ebb0bc8d73cedb1f78e4a3dca58950d"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ebb0bc8d73cedb1f78e4a3dca58950d">Const_AABBTreePolyline3</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a> edgeSet)</td></tr>
 <tr class="memdesc:a3ebb0bc8d73cedb1f78e4a3dca58950d"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for selected edges on the mesh (only for 3d tree) Generated from constructor <span class="tt"><a class="el" href="classMR_1_1AABBTreePolyline3.html#ae7a5a9ae560eae461f3414ae2ae2bff3" title="Constructs an empty (default-constructed) instance.">MR.AABBTreePolyline3.AABBTreePolyline3</a></span>.  <br /></td></tr>
 <tr class="memitem:a4449cb208cf9f816238511d30137ff2c" id="r_a4449cb208cf9f816238511d30137ff2c"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId.html">MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4449cb208cf9f816238511d30137ff2c">nodes</a> ()</td></tr>
-<tr class="memdesc:a4449cb208cf9f816238511d30137ff2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">const-access to all nodes Generated from method <span class="tt"><a class="el" href="#a4449cb208cf9f816238511d30137ff2c" title="const-access to all nodes Generated from method MR.AABBTreePolyline3.nodes.">MR.AABBTreePolyline3.nodes</a></span>.  <br /></td></tr>
+<tr class="memdesc:a4449cb208cf9f816238511d30137ff2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">const-access to all not-leaf nodes, a tree with N leaves has N-1 nodes Generated from method <span class="tt"><a class="el" href="#a4449cb208cf9f816238511d30137ff2c" title="const-access to all not-leaf nodes, a tree with N leaves has N-1 nodes Generated from method MR....">MR.AABBTreePolyline3.nodes</a></span>.  <br /></td></tr>
+<tr class="memitem:a612faf69e9ccdf3168b9ba8808e7cfef" id="r_a612faf69e9ccdf3168b9ba8808e7cfef"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__Vector__MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html">MR.Const_Vector_MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a612faf69e9ccdf3168b9ba8808e7cfef">leaves</a> ()</td></tr>
+<tr class="memdesc:a612faf69e9ccdf3168b9ba8808e7cfef"><td class="mdescLeft">&#160;</td><td class="mdescRight">all leaves in the order of the tree right after its construction Generated from method <span class="tt"><a class="el" href="#a612faf69e9ccdf3168b9ba8808e7cfef" title="all leaves in the order of the tree right after its construction Generated from method MR....">MR.AABBTreePolyline3.leaves</a></span>.  <br /></td></tr>
+<tr class="memitem:a2c169cfd976656432e576aeec223167e" id="r_a2c169cfd976656432e576aeec223167e"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html">MR.Const_BoxedLeaf_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c169cfd976656432e576aeec223167e">leaf</a> (<a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> n)</td></tr>
+<tr class="memdesc:a2c169cfd976656432e576aeec223167e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the leaf encoded in given node id Generated from method <span class="tt"><a class="el" href="#a2c169cfd976656432e576aeec223167e" title="returns the leaf encoded in given node id Generated from method MR.AABBTreePolyline3....">MR.AABBTreePolyline3.leaf</a></span>.  <br /></td></tr>
+<tr class="memitem:a18b77085b25b402d6056aa258ccd9f7d" id="r_a18b77085b25b402d6056aa258ccd9f7d"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18b77085b25b402d6056aa258ccd9f7d">leafId</a> (<a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> n)</td></tr>
+<tr class="memdesc:a18b77085b25b402d6056aa258ccd9f7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the id of the leaf encoded in given node id Generated from method <span class="tt"><a class="el" href="#a18b77085b25b402d6056aa258ccd9f7d" title="returns the id of the leaf encoded in given node id Generated from method MR.AABBTreePolyline3....">MR.AABBTreePolyline3.leafId</a></span>.  <br /></td></tr>
+<tr class="memitem:acd54a4746ee8e5664c49aedffa7e020a" id="r_acd54a4746ee8e5664c49aedffa7e020a"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd54a4746ee8e5664c49aedffa7e020a">box</a> (<a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> n)</td></tr>
+<tr class="memdesc:acd54a4746ee8e5664c49aedffa7e020a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the bounding box of given node or leaf Generated from method <span class="tt"><a class="el" href="#acd54a4746ee8e5664c49aedffa7e020a" title="returns the bounding box of given node or leaf Generated from method MR.AABBTreePolyline3....">MR.AABBTreePolyline3.box</a></span>.  <br /></td></tr>
+<tr class="memitem:a6822321442505c7d758b456a6aefd095" id="r_a6822321442505c7d758b456a6aefd095"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6822321442505c7d758b456a6aefd095">empty</a> ()</td></tr>
+<tr class="memdesc:a6822321442505c7d758b456a6aefd095"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the tree has no leaves Generated from method <span class="tt"><a class="el" href="#a6822321442505c7d758b456a6aefd095" title="returns true if the tree has no leaves Generated from method MR.AABBTreePolyline3....">MR.AABBTreePolyline3.empty</a></span>.  <br /></td></tr>
+<tr class="memitem:aae7038dca3d5e8b092a374636aeaf5a4" id="r_aae7038dca3d5e8b092a374636aeaf5a4"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae7038dca3d5e8b092a374636aeaf5a4">rootNodeId</a> ()</td></tr>
+<tr class="memdesc:aae7038dca3d5e8b092a374636aeaf5a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns root node id: 0 if the tree has at least two leaves, or the only leaf; must not be called for empty tree Generated from method <span class="tt"><a class="el" href="#aae7038dca3d5e8b092a374636aeaf5a4" title="returns root node id: 0 if the tree has at least two leaves, or the only leaf; must not be called for...">MR.AABBTreePolyline3.rootNodeId</a></span>.  <br /></td></tr>
 <tr class="memitem:a51e2f51183f29d97cf9e57f7d655f270" id="r_a51e2f51183f29d97cf9e57f7d655f270"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51e2f51183f29d97cf9e57f7d655f270">getBoundingBox</a> ()</td></tr>
 <tr class="memdesc:a51e2f51183f29d97cf9e57f7d655f270"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the root node bounding box Generated from method <span class="tt"><a class="el" href="#a51e2f51183f29d97cf9e57f7d655f270" title="returns the root node bounding box Generated from method MR.AABBTreePolyline3.getBoundingBox.">MR.AABBTreePolyline3.getBoundingBox</a></span>.  <br /></td></tr>
 <tr class="memitem:abfb401fc8e06ccc3f6bcc2a34b0fc293" id="r_abfb401fc8e06ccc3f6bcc2a34b0fc293"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfb401fc8e06ccc3f6bcc2a34b0fc293">heapBytes</a> ()</td></tr>
@@ -178,28 +191,34 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a091babb84c371433dc12a72483338546" id="r_a091babb84c371433dc12a72483338546"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a091babb84c371433dc12a72483338546">numLeaves</a> ()</td></tr>
 <tr class="memdesc:a091babb84c371433dc12a72483338546"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of leaves in whole tree Generated from method <span class="tt"><a class="el" href="#a091babb84c371433dc12a72483338546" title="returns the number of leaves in whole tree Generated from method MR.AABBTreePolyline3....">MR.AABBTreePolyline3.numLeaves</a></span>.  <br /></td></tr>
 <tr class="memitem:ab636686283d3f347bbdf82d6d984b550" id="r_ab636686283d3f347bbdf82d6d984b550"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRNodeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab636686283d3f347bbdf82d6d984b550">getSubtrees</a> (int minNum)</td></tr>
-<tr class="memdesc:ab636686283d3f347bbdf82d6d984b550"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns at least given number of top-level not-intersecting subtrees, union of which contain all tree leaves Generated from method <span class="tt"><a class="el" href="#ab636686283d3f347bbdf82d6d984b550" title="returns at least given number of top-level not-intersecting subtrees, union of which contain all tree...">MR.AABBTreePolyline3.getSubtrees</a></span>.  <br /></td></tr>
+<tr class="memdesc:ab636686283d3f347bbdf82d6d984b550"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns at least given number of top-level not-intersecting subtrees (some can be leaves), union of which contain all tree leaves Generated from method <span class="tt"><a class="el" href="#ab636686283d3f347bbdf82d6d984b550" title="returns at least given number of top-level not-intersecting subtrees (some can be leaves),...">MR.AABBTreePolyline3.getSubtrees</a></span>.  <br /></td></tr>
 <tr class="memitem:a6f78f4427f51487307050bcc2d6c1863" id="r_a6f78f4427f51487307050bcc2d6c1863"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f78f4427f51487307050bcc2d6c1863">getSubtreeLeaves</a> (<a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> subtreeRoot)</td></tr>
-<tr class="memdesc:a6f78f4427f51487307050bcc2d6c1863"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all leaves in the subtree with given root Generated from method <span class="tt"><a class="el" href="#a6f78f4427f51487307050bcc2d6c1863" title="returns all leaves in the subtree with given root Generated from method MR.AABBTreePolyline3....">MR.AABBTreePolyline3.getSubtreeLeaves</a></span>.  <br /></td></tr>
-<tr class="memitem:ab89fa9a81c60cb0e83ee18b90971cb0b" id="r_ab89fa9a81c60cb0e83ee18b90971cb0b"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1NodeBitSet.html">MR.NodeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab89fa9a81c60cb0e83ee18b90971cb0b">getNodesFromLeaves</a> (<a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a> leaves)</td></tr>
-<tr class="memdesc:ab89fa9a81c60cb0e83ee18b90971cb0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns set of nodes containing among direct or indirect children given leaves Generated from method <span class="tt"><a class="el" href="#ab89fa9a81c60cb0e83ee18b90971cb0b" title="returns set of nodes containing among direct or indirect children given leaves Generated from method ...">MR.AABBTreePolyline3.getNodesFromLeaves</a></span>.  <br /></td></tr>
+<tr class="memdesc:a6f78f4427f51487307050bcc2d6c1863"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all leaves in the subtree with given root (can be a leaf) Generated from method <span class="tt"><a class="el" href="#a6f78f4427f51487307050bcc2d6c1863" title="returns all leaves in the subtree with given root (can be a leaf) Generated from method MR....">MR.AABBTreePolyline3.getSubtreeLeaves</a></span>.  <br /></td></tr>
+<tr class="memitem:ab89fa9a81c60cb0e83ee18b90971cb0b" id="r_ab89fa9a81c60cb0e83ee18b90971cb0b"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1NodeBitSet.html">MR.NodeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab89fa9a81c60cb0e83ee18b90971cb0b">getNodesFromLeaves</a> (<a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a> <a class="el" href="#a612faf69e9ccdf3168b9ba8808e7cfef">leaves</a>)</td></tr>
+<tr class="memdesc:ab89fa9a81c60cb0e83ee18b90971cb0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns set of not-leaf nodes containing among direct or indirect children given leaves Generated from method <span class="tt"><a class="el" href="#ab89fa9a81c60cb0e83ee18b90971cb0b" title="returns set of not-leaf nodes containing among direct or indirect children given leaves Generated fro...">MR.AABBTreePolyline3.getNodesFromLeaves</a></span>.  <br /></td></tr>
 <tr class="memitem:a270cc82447e1521e309ba57345c3a719" id="r_a270cc82447e1521e309ba57345c3a719"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a270cc82447e1521e309ba57345c3a719">getLeafOrder</a> (<a class="el" href="classMR_1_1UndirectedEdgeBMap.html">MR.UndirectedEdgeBMap</a> leafMap)</td></tr>
 <tr class="memdesc:a270cc82447e1521e309ba57345c3a719"><td class="mdescLeft">&#160;</td><td class="mdescRight">fills map: LeafId -&gt; leaf#; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <span class="tt"><a class="el" href="#a270cc82447e1521e309ba57345c3a719" title="fills map: LeafId -&gt; leaf#; buffer in leafMap must be resized before the call, and caller is responsi...">MR.AABBTreePolyline3.getLeafOrder</a></span>.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a59d265bf2d1210d8663d4a99a0e5c65e" id="r_a59d265bf2d1210d8663d4a99a0e5c65e"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59d265bf2d1210d8663d4a99a0e5c65e">operator MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</a> (<a class="el" href="classMR_1_1Const__AABBTreePolyline3.html">Const_AABBTreePolyline3</a> self)</td></tr>
-<tr class="memitem:a64c0fb9927b0962030110ff7a21d2d1c" id="r_a64c0fb9927b0962030110ff7a21d2d1c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64c0fb9927b0962030110ff7a21d2d1c">rootNodeId</a> ()</td></tr>
-<tr class="memdesc:a64c0fb9927b0962030110ff7a21d2d1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns root node id Generated from method <span class="tt"><a class="el" href="#a64c0fb9927b0962030110ff7a21d2d1c" title="returns root node id Generated from method MR.AABBTreePolyline3.rootNodeId.">MR.AABBTreePolyline3.rootNodeId</a></span>.  <br /></td></tr>
+<tr class="memitem:abd34931af1957e83a821360665ad9fe3" id="r_abd34931af1957e83a821360665ad9fe3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd34931af1957e83a821360665ad9fe3">isLeaf</a> (<a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> n)</td></tr>
+<tr class="memdesc:abd34931af1957e83a821360665ad9fe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given node id is in fact a leaf (encoded as negative number) Generated from method <span class="tt"><a class="el" href="#abd34931af1957e83a821360665ad9fe3" title="returns true if given node id is in fact a leaf (encoded as negative number) Generated from method MR...">MR.AABBTreePolyline3.isLeaf</a></span>.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:aec28cf9dbbf860bf176208eeee3cf35b" id="r_aec28cf9dbbf860bf176208eeee3cf35b"><td class="memItemLeft" align="right" valign="top">virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec28cf9dbbf860bf176208eeee3cf35b">Dispose</a> (bool disposing)</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:ae56a2d912792e1bee79778bbc83fbb07" id="r_ae56a2d912792e1bee79778bbc83fbb07"><td class="memItemLeft" align="right" valign="top">static unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae56a2d912792e1bee79778bbc83fbb07">__ref_storage_LeavesHaveBoxes</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:ad02b6da30c5be88a44de70d8dba8f345" id="r_ad02b6da30c5be88a44de70d8dba8f345"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad02b6da30c5be88a44de70d8dba8f345">LeavesHaveBoxes</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad02b6da30c5be88a44de70d8dba8f345"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the boxes of leaves are stored in the tree (all trees except <a class="el" href="classMR_1_1AABBTree.html" title="bounding volume hierarchy of mesh triangles; the leaves store the vertices of their triangles,...">AABBTree</a> of a mesh)  <br /></td></tr>
 <tr class="memitem:ab8ab05d7df98cd436c81603e228bfbed" id="r_ab8ab05d7df98cd436c81603e228bfbed"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html">MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8ab05d7df98cd436c81603e228bfbed">this[MR.NodeId nid]</a><code> [get]</code></td></tr>
-<tr class="memdesc:ab8ab05d7df98cd436c81603e228bfbed"><td class="mdescLeft">&#160;</td><td class="mdescRight">const-access to any node Generated from method <span class="tt">MR::AABBTreePolyline3::operator[]</span>.  <br /></td></tr>
+<tr class="memdesc:ab8ab05d7df98cd436c81603e228bfbed"><td class="mdescLeft">&#160;</td><td class="mdescRight">const-access to any not-leaf node Generated from method <span class="tt">MR::AABBTreePolyline3::operator[]</span>.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>bounding volume hierarchy for line segments Generated from class <span class="tt"><a class="el" href="classMR_1_1AABBTreePolyline3.html" title="bounding volume hierarchy for line segments Generated from class MR.AABBTreePolyline3....">MR.AABBTreePolyline3</a></span>. Base classes: Direct: (non-virtual) <span class="tt">MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::UndirectedEdgeTag, <a class="el" href="structMR_1_1Box3f.html" title="Box given by its min- and max- corners Generated from class MR.Box3f. This is the by-value version of...">MR.Box3f</a>&amp;gt;&amp;gt;</span> This is the const half of the class. </p>
@@ -317,6 +336,33 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="acd54a4746ee8e5664c49aedffa7e020a" name="acd54a4746ee8e5664c49aedffa7e020a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd54a4746ee8e5664c49aedffa7e020a">&#9670;&#160;</a></span>box()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe ref readonly <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a> MR.Const_AABBTreePolyline3.box </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the bounding box of given node or leaf Generated from method <span class="tt"><a class="el" href="#acd54a4746ee8e5664c49aedffa7e020a" title="returns the bounding box of given node or leaf Generated from method MR.AABBTreePolyline3....">MR.AABBTreePolyline3.box</a></span>. </p>
+
+</div>
+</div>
 <a id="a4e4ebd7ef5939f47fb6ca142f25028a5" name="a4e4ebd7ef5939f47fb6ca142f25028a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e4ebd7ef5939f47fb6ca142f25028a5">&#9670;&#160;</a></span>Dispose() <span class="overload">[1/2]</span></h2>
 
@@ -364,6 +410,33 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6822321442505c7d758b456a6aefd095" name="a6822321442505c7d758b456a6aefd095"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6822321442505c7d758b456a6aefd095">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe bool MR.Const_AABBTreePolyline3.empty </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if the tree has no leaves Generated from method <span class="tt"><a class="el" href="#a6822321442505c7d758b456a6aefd095" title="returns true if the tree has no leaves Generated from method MR.AABBTreePolyline3....">MR.AABBTreePolyline3.empty</a></span>. </p>
 
 </div>
 </div>
@@ -444,7 +517,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns set of nodes containing among direct or indirect children given leaves Generated from method <span class="tt"><a class="el" href="#ab89fa9a81c60cb0e83ee18b90971cb0b" title="returns set of nodes containing among direct or indirect children given leaves Generated from method ...">MR.AABBTreePolyline3.getNodesFromLeaves</a></span>. </p>
+<p>returns set of not-leaf nodes containing among direct or indirect children given leaves Generated from method <span class="tt"><a class="el" href="#ab89fa9a81c60cb0e83ee18b90971cb0b" title="returns set of not-leaf nodes containing among direct or indirect children given leaves Generated fro...">MR.AABBTreePolyline3.getNodesFromLeaves</a></span>. </p>
 
 </div>
 </div>
@@ -471,7 +544,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns all leaves in the subtree with given root Generated from method <span class="tt"><a class="el" href="#a6f78f4427f51487307050bcc2d6c1863" title="returns all leaves in the subtree with given root Generated from method MR.AABBTreePolyline3....">MR.AABBTreePolyline3.getSubtreeLeaves</a></span>. </p>
+<p>returns all leaves in the subtree with given root (can be a leaf) Generated from method <span class="tt"><a class="el" href="#a6f78f4427f51487307050bcc2d6c1863" title="returns all leaves in the subtree with given root (can be a leaf) Generated from method MR....">MR.AABBTreePolyline3.getSubtreeLeaves</a></span>. </p>
 
 </div>
 </div>
@@ -498,7 +571,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns at least given number of top-level not-intersecting subtrees, union of which contain all tree leaves Generated from method <span class="tt"><a class="el" href="#ab636686283d3f347bbdf82d6d984b550" title="returns at least given number of top-level not-intersecting subtrees, union of which contain all tree...">MR.AABBTreePolyline3.getSubtrees</a></span>. </p>
+<p>returns at least given number of top-level not-intersecting subtrees (some can be leaves), union of which contain all tree leaves Generated from method <span class="tt"><a class="el" href="#ab636686283d3f347bbdf82d6d984b550" title="returns at least given number of top-level not-intersecting subtrees (some can be leaves),...">MR.AABBTreePolyline3.getSubtrees</a></span>. </p>
 
 </div>
 </div>
@@ -529,6 +602,114 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="abd34931af1957e83a821360665ad9fe3" name="abd34931af1957e83a821360665ad9fe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd34931af1957e83a821360665ad9fe3">&#9670;&#160;</a></span>isLeaf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR.Const_AABBTreePolyline3.isLeaf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if given node id is in fact a leaf (encoded as negative number) Generated from method <span class="tt"><a class="el" href="#abd34931af1957e83a821360665ad9fe3" title="returns true if given node id is in fact a leaf (encoded as negative number) Generated from method MR...">MR.AABBTreePolyline3.isLeaf</a></span>. </p>
+
+</div>
+</div>
+<a id="a2c169cfd976656432e576aeec223167e" name="a2c169cfd976656432e576aeec223167e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c169cfd976656432e576aeec223167e">&#9670;&#160;</a></span>leaf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1Const__BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html">MR.Const_BoxedLeaf_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</a> MR.Const_AABBTreePolyline3.leaf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the leaf encoded in given node id Generated from method <span class="tt"><a class="el" href="#a2c169cfd976656432e576aeec223167e" title="returns the leaf encoded in given node id Generated from method MR.AABBTreePolyline3....">MR.AABBTreePolyline3.leaf</a></span>. </p>
+
+</div>
+</div>
+<a id="a18b77085b25b402d6056aa258ccd9f7d" name="a18b77085b25b402d6056aa258ccd9f7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18b77085b25b402d6056aa258ccd9f7d">&#9670;&#160;</a></span>leafId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> MR.Const_AABBTreePolyline3.leafId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the id of the leaf encoded in given node id Generated from method <span class="tt"><a class="el" href="#a18b77085b25b402d6056aa258ccd9f7d" title="returns the id of the leaf encoded in given node id Generated from method MR.AABBTreePolyline3....">MR.AABBTreePolyline3.leafId</a></span>. </p>
+
+</div>
+</div>
+<a id="a612faf69e9ccdf3168b9ba8808e7cfef" name="a612faf69e9ccdf3168b9ba8808e7cfef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a612faf69e9ccdf3168b9ba8808e7cfef">&#9670;&#160;</a></span>leaves()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1Const__Vector__MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html">MR.Const_Vector_MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</a> MR.Const_AABBTreePolyline3.leaves </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>all leaves in the order of the tree right after its construction Generated from method <span class="tt"><a class="el" href="#a612faf69e9ccdf3168b9ba8808e7cfef" title="all leaves in the order of the tree right after its construction Generated from method MR....">MR.AABBTreePolyline3.leaves</a></span>. </p>
+
+</div>
+</div>
 <a id="a4449cb208cf9f816238511d30137ff2c" name="a4449cb208cf9f816238511d30137ff2c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4449cb208cf9f816238511d30137ff2c">&#9670;&#160;</a></span>nodes()</h2>
 
@@ -552,7 +733,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>const-access to all nodes Generated from method <span class="tt"><a class="el" href="#a4449cb208cf9f816238511d30137ff2c" title="const-access to all nodes Generated from method MR.AABBTreePolyline3.nodes.">MR.AABBTreePolyline3.nodes</a></span>. </p>
+<p>const-access to all not-leaf nodes, a tree with N leaves has N-1 nodes Generated from method <span class="tt"><a class="el" href="#a4449cb208cf9f816238511d30137ff2c" title="const-access to all not-leaf nodes, a tree with N leaves has N-1 nodes Generated from method MR....">MR.AABBTreePolyline3.nodes</a></span>. </p>
 
 </div>
 </div>
@@ -608,8 +789,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a64c0fb9927b0962030110ff7a21d2d1c" name="a64c0fb9927b0962030110ff7a21d2d1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64c0fb9927b0962030110ff7a21d2d1c">&#9670;&#160;</a></span>rootNodeId()</h2>
+<a id="aae7038dca3d5e8b092a374636aeaf5a4" name="aae7038dca3d5e8b092a374636aeaf5a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae7038dca3d5e8b092a374636aeaf5a4">&#9670;&#160;</a></span>rootNodeId()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -618,7 +799,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> MR.Const_AABBTreePolyline3.rootNodeId </td>
+          <td class="memname">unsafe <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> MR.Const_AABBTreePolyline3.rootNodeId </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -626,16 +807,63 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns root node id Generated from method <span class="tt"><a class="el" href="#a64c0fb9927b0962030110ff7a21d2d1c" title="returns root node id Generated from method MR.AABBTreePolyline3.rootNodeId.">MR.AABBTreePolyline3.rootNodeId</a></span>. </p>
+<p>returns root node id: 0 if the tree has at least two leaves, or the only leaf; must not be called for empty tree Generated from method <span class="tt"><a class="el" href="#aae7038dca3d5e8b092a374636aeaf5a4" title="returns root node id: 0 if the tree has at least two leaves, or the only leaf; must not be called for...">MR.AABBTreePolyline3.rootNodeId</a></span>. </p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="ae56a2d912792e1bee79778bbc83fbb07" name="ae56a2d912792e1bee79778bbc83fbb07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae56a2d912792e1bee79778bbc83fbb07">&#9670;&#160;</a></span>__ref_storage_LeavesHaveBoxes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe bool* MR.Const_AABBTreePolyline3.__ref_storage_LeavesHaveBoxes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">Property Documentation</h2>
+<a id="ad02b6da30c5be88a44de70d8dba8f345" name="ad02b6da30c5be88a44de70d8dba8f345"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad02b6da30c5be88a44de70d8dba8f345">&#9670;&#160;</a></span>LeavesHaveBoxes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe bool MR.Const_AABBTreePolyline3.LeavesHaveBoxes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>whether the boxes of leaves are stored in the tree (all trees except <a class="el" href="classMR_1_1AABBTree.html" title="bounding volume hierarchy of mesh triangles; the leaves store the vertices of their triangles,...">AABBTree</a> of a mesh) </p>
+
+</div>
+</div>
 <a id="ab8ab05d7df98cd436c81603e228bfbed" name="ab8ab05d7df98cd436c81603e228bfbed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab8ab05d7df98cd436c81603e228bfbed">&#9670;&#160;</a></span>this[MR.NodeId nid]</h2>
 
@@ -656,7 +884,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>const-access to any node Generated from method <span class="tt">MR::AABBTreePolyline3::operator[]</span>. </p>
+<p>const-access to any not-leaf node Generated from method <span class="tt">MR::AABBTreePolyline3::operator[]</span>. </p>
 
 </div>
 </div>
