@@ -128,7 +128,7 @@ var searchData=
   ['selectedtemporarymeasurements_125',['SelectedTemporaryMeasurements',['../structmeshlib_1_1SceneColors__Type.html#ad9b5fa20d871a4b66bf64c5bed38ada4',1,'meshlib::SceneColors_Type']]],
   ['selectedvertices_126',['SelectedVertices',['../structmeshlib_1_1PointsVisualizePropertyType.html#a38d10975200698cc3a3ec335d67a268a',1,'meshlib::PointsVisualizePropertyType']]],
   ['selection_127',['selection',['../structmeshlib_1_1ChangeMeshEdgeSelectionAction.html#a402666e1841e41a2e47d30fbbe7dfb54',1,'meshlib::ChangeMeshEdgeSelectionAction::selection()'],['../structmeshlib_1_1ChangeMeshFaceSelectionAction.html#a3c584078c8867a6b2dc68c82c6a40cba',1,'meshlib::ChangeMeshFaceSelectionAction::selection()'],['../structmeshlib_1_1ChangePointPointSelectionAction.html#a8583cc31a54a6eae9dd0265bffdd4961',1,'meshlib::ChangePointPointSelectionAction::selection()'],['../structmeshlib_1_1ChangVoxelSelectionAction.html#ae5399fba63d9916991e53eb85e2c9a60',1,'meshlib::ChangVoxelSelectionAction::selection()']]],
-  ['self_5fboolean_128',['self_boolean',['../namespacemeshlib.html#a62795a57b9a3d2b6cd1a4dc02b725405',1,'meshlib']]],
+  ['self_5fboolean_128',['self_boolean',['../namespacemeshlib.html#a9eaab2b908367534af47215b05ca742c',1,'meshlib']]],
   ['separate_5fclosed_5fcontour_129',['separate_closed_contour',['../namespacemeshlib.html#a9f9f1d23cbcb20881371846ea22e0507',1,'meshlib']]],
   ['separationpointstorage_130',['SeparationPointStorage',['../structmeshlib_1_1SeparationPointStorage.html',1,'meshlib']]],
   ['separationpointstorage_5fblock_131',['SeparationPointStorage_Block',['../structmeshlib_1_1SeparationPointStorage__Block.html',1,'meshlib']]],

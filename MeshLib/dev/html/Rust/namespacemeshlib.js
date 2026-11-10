@@ -3987,7 +3987,7 @@ var namespacemeshlib =
     [ "segment_volume", "namespacemeshlib.html#a5b73c8c6de4189691974e697673f466b", null ],
     [ "segment_volume_by_graph_cut", "namespacemeshlib.html#ae83b706b0180c328fd1e60e8fdfae3fa", null ],
     [ "segment_voxel_mask_to_instances", "namespacemeshlib.html#aa64920915c7e84efdaae087b6ed26b20", null ],
-    [ "self_boolean", "namespacemeshlib.html#a62795a57b9a3d2b6cd1a4dc02b725405", null ],
+    [ "self_boolean", "namespacemeshlib.html#a9eaab2b908367534af47215b05ca742c", null ],
     [ "separate_closed_contour", "namespacemeshlib.html#a9f9f1d23cbcb20881371846ea22e0507", null ],
     [ "serialize_mesh", "namespacemeshlib.html#a554f0fbbbf8c97a8c9777578b439431f", null ],
     [ "serialize_object_tree_3", "namespacemeshlib.html#a2b7ab68cc7b73ea017d7baa1dc21ddd9", null ],

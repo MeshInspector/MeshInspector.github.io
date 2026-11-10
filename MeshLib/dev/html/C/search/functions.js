@@ -24678,7 +24678,7 @@ var searchData=
   ['mr_5fsegmpointf_5fset_5fa_24675',['MR_SegmPointf_Set_a',['../MRSegmPoint_8h.html#a5df392e93245decf685001fb773aed3f',1,'MRSegmPoint.h']]],
   ['mr_5fsegmpointf_5fsym_24676',['MR_SegmPointf_sym',['../MRSegmPoint_8h.html#a1c872cd6b7849b6e69e3751a4ef063b8',1,'MRSegmPoint.h']]],
   ['mr_5fsegpoints_24677',['MR_segPoints',['../MRTriDist_8h.html#aea74db1d5d50b61bd996e02c99695a10',1,'MRTriDist.h']]],
-  ['mr_5fselfboolean_24678',['MR_selfBoolean',['../MRMeshBoolean_8h.html#a29b6f563c5d3e460ce7e5132ff71aeb2',1,'MRMeshBoolean.h']]],
+  ['mr_5fselfboolean_24678',['MR_selfBoolean',['../MRMeshBoolean_8h.html#abace306741b0d0f0af9007aa1945b7fd',1,'MRMeshBoolean.h']]],
   ['mr_5fselfintersections_5ffix_24679',['MR_SelfIntersections_fix',['../MRFixSelfIntersections_8h.html#a0a8392004ff0f8819b4dee45d9eee44a',1,'MRFixSelfIntersections.h']]],
   ['mr_5fselfintersections_5fgetfaces_24680',['MR_SelfIntersections_getFaces',['../MRFixSelfIntersections_8h.html#aa2d2e0fe8097c58666f9396e14a135f5',1,'MRFixSelfIntersections.h']]],
   ['mr_5fselfintersections_5fsettings_5fassignfromanother_24681',['MR_SelfIntersections_Settings_AssignFromAnother',['../MRFixSelfIntersections_8h.html#a127edd9f28fbcf6a4b0809dfcdde4346',1,'MRFixSelfIntersections.h']]],

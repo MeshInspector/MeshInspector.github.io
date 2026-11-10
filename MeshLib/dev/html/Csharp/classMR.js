@@ -3857,7 +3857,7 @@ var classMR =
     [ "segmentVolumeByGraphCut", "classMR.html#a923cb919bc0ecb481be1168e2e016228", null ],
     [ "segmentVoxelMaskToInstances", "classMR.html#a1ff37ac3150b01b63a216e2b257385ab", null ],
     [ "segPoints", "classMR.html#a2c3c348aed536bce85261fa0f7822725", null ],
-    [ "selfBoolean", "classMR.html#ad0c75e19fdeb0f2b1455d00b6464d826", null ],
+    [ "selfBoolean", "classMR.html#a5760bf4810bccd45dadf48c6bf26d36e", null ],
     [ "separateClosedContour", "classMR.html#ae386b79ef0c05dbddb2ddbf14fd303b5", null ],
     [ "serializeMesh", "classMR.html#ad02456448a04959c5b886d2dae32efad", null ],
     [ "serializeObjectTree", "classMR.html#a91868bc1255b7cc4a0593bdb2b6747d2", null ],

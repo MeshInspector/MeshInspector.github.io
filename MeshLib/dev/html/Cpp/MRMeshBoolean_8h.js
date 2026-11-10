@@ -10,5 +10,5 @@ var MRMeshBoolean_8h =
     [ "MR::findIntersectionContours", "group__BooleanGroup.html#ga0b6ca259502ac9cd412a6d3b42249201", null ],
     [ "MR::forceBoolean", "group__BooleanGroup.html#ga52bfb35f8321bd4301244ba7f839bbdc", null ],
     [ "MR::getBooleanPoints", "group__BooleanGroup.html#gac5ed86269f5cf1022e94d272e28f73b7", null ],
-    [ "MR::selfBoolean", "group__BooleanGroup.html#ga6d540f90dc1f346721c02d850438ed29", null ]
+    [ "MR::selfBoolean", "group__BooleanGroup.html#gaa9f8521f3babb180bd5aa04c02d04209", null ]
 ];

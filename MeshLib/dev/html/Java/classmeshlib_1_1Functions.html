@@ -1652,7 +1652,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac91b71965f1f40d6bc5e6598ae23daad" id="r_ac91b71965f1f40d6bc5e6598ae23daad"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1BooleanResult.html">meshlib.BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac91b71965f1f40d6bc5e6598ae23daad">boolean_</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> meshA, <a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> meshB, <a class="el" href="classmeshlib_1_1BooleanOperation.html">meshlib.BooleanOperation</a> operation, <a class="el" href="classmeshlib_1_1BooleanParameters.html">meshlib.BooleanParameters</a> params)</td></tr>
 <tr class="memitem:a0662530e7794cb3df95b271946977bbb" id="r_a0662530e7794cb3df95b271946977bbb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1BooleanResult.html">meshlib.BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0662530e7794cb3df95b271946977bbb">boolean_move</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> meshA, <a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> meshB, <a class="el" href="classmeshlib_1_1BooleanOperation.html">meshlib.BooleanOperation</a> operation, <a class="el" href="classmeshlib_1_1BooleanParameters.html">meshlib.BooleanParameters</a> params)</td></tr>
 <tr class="memitem:ae03512866fa03eff9808636d840dcd34" id="r_ae03512866fa03eff9808636d840dcd34"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1BooleanResult.html">meshlib.BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae03512866fa03eff9808636d840dcd34">forceBoolean</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> meshA, <a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> meshB, <a class="el" href="classmeshlib_1_1BooleanOperation.html">meshlib.BooleanOperation</a> operation, <a class="el" href="classmeshlib_1_1BooleanParameters.html">meshlib.BooleanParameters</a> params)</td></tr>
-<tr class="memitem:a1dfac9cbbf2b1ba811af3e8f6598957d" id="r_a1dfac9cbbf2b1ba811af3e8f6598957d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dfac9cbbf2b1ba811af3e8f6598957d">selfBoolean</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> mesh)</td></tr>
+<tr class="memitem:a9bc1216ad69f0b2a0ed95760d1d4b3c7" id="r_a9bc1216ad69f0b2a0ed95760d1d4b3c7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bc1216ad69f0b2a0ed95760d1d4b3c7">selfBoolean</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> mesh, <a class="el" href="classmeshlib_1_1FaceMap.html">meshlib.FaceMap</a> new2Old)</td></tr>
 <tr class="memitem:a39d43c0dd1f322cd84c44888e2c12d7b" id="r_a39d43c0dd1f322cd84c44888e2c12d7b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1std__vector__std__vector__MR__Vector3f.html">meshlib.std_vector_std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39d43c0dd1f322cd84c44888e2c12d7b">findIntersectionContours</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> meshA, <a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> meshB, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> rigidB2A)</td></tr>
 <tr class="memitem:ad5154acbf18cfc384810585e8e7be6a0" id="r_ad5154acbf18cfc384810585e8e7be6a0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1BooleanResultPoints.html">meshlib.BooleanResultPoints</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5154acbf18cfc384810585e8e7be6a0">getBooleanPoints</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> meshA, <a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> meshB, <a class="el" href="classmeshlib_1_1BooleanOperation.html">meshlib.BooleanOperation</a> operation, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> rigidB2A)</td></tr>
 <tr class="memdesc:ad5154acbf18cfc384810585e8e7be6a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the points of mesh boolean's result mesh.  <br /></td></tr>
@@ -44185,8 +44185,8 @@ All new faces should be parallel to given direction It is measured in squared le
 <div class="line">    meshParams.texturePerFace = &amp;texturePerFace;</div>
 <div class="line">subs.onEdgeSplit = <a class="code hl_function" href="#aa382a636f7160ba96b64a8f8c637e570">meshOnEdgeSplitAttribute</a>( *obj_-&gt;varMesh(), meshParams );</div>
 <div class="line"><a class="code hl_function" href="#af5dddfa988210f3dc5340ef6cf87dad8">subdivideMesh</a>( *obj_-&gt;varMesh(), subs );</div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:40696</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:40581</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:40699</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:40584</div></div>
 <div class="ttc" id="aclassmeshlib_1_1MeshAttributesToUpdate_html"><div class="ttname"><a href="classmeshlib_1_1MeshAttributesToUpdate.html">meshlib.MeshAttributesToUpdate</a></div><div class="ttdef"><b>Definition</b> MeshAttributesToUpdate.java:11</div></div>
 </div><!-- fragment --><p>Generated from function <span class="tt">MR::meshOnEdgeSplitAttribute</span>.</p>
 <p>Calls <span class="tt">MR_meshOnEdgeSplitAttribute()</span>. </p>
@@ -44353,8 +44353,8 @@ All new faces should be parallel to given direction It is measured in squared le
 <div class="line">auto preCollapse = <a class="code hl_function" href="#a166299cba3c97de3a69adc7140487547">meshPreCollapseVertAttribute</a>( mesh, meshParams );</div>
 <div class="line"><a class="code hl_function" href="#a9376f6e96aa742bea4a4257595c70838">decimateMesh</a>( mesh, <a class="code hl_class" href="classmeshlib_1_1DecimateSettings.html">DecimateSettings</a>{ .preCollapse = preCollapse } );</div>
 <div class="ttc" id="aclassmeshlib_1_1DecimateSettings_html"><div class="ttname"><a href="classmeshlib_1_1DecimateSettings.html">meshlib.DecimateSettings</a></div><div class="ttdef"><b>Definition</b> DecimateSettings.java:17</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_a166299cba3c97de3a69adc7140487547"><div class="ttname"><a href="#a166299cba3c97de3a69adc7140487547">meshlib.Functions.meshPreCollapseVertAttribute</a></div><div class="ttdeci">static meshlib.std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref meshPreCollapseVertAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:37744</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_a9376f6e96aa742bea4a4257595c70838"><div class="ttname"><a href="#a9376f6e96aa742bea4a4257595c70838">meshlib.Functions.decimateMesh</a></div><div class="ttdeci">static meshlib.DecimateResult decimateMesh(meshlib.Mesh mesh, meshlib.DecimateSettings settings)</div><div class="ttdoc">Performs mesh simplification in mesh region according to the settings.</div><div class="ttdef"><b>Definition</b> Functions.java:37509</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_a166299cba3c97de3a69adc7140487547"><div class="ttname"><a href="#a166299cba3c97de3a69adc7140487547">meshlib.Functions.meshPreCollapseVertAttribute</a></div><div class="ttdeci">static meshlib.std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref meshPreCollapseVertAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:37747</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_a9376f6e96aa742bea4a4257595c70838"><div class="ttname"><a href="#a9376f6e96aa742bea4a4257595c70838">meshlib.Functions.decimateMesh</a></div><div class="ttdeci">static meshlib.DecimateResult decimateMesh(meshlib.Mesh mesh, meshlib.DecimateSettings settings)</div><div class="ttdoc">Performs mesh simplification in mesh region according to the settings.</div><div class="ttdef"><b>Definition</b> Functions.java:37512</div></div>
 </div><!-- fragment --><p>Generated from function <span class="tt">MR::meshPreCollapseVertAttribute</span>.</p>
 <p>Calls <span class="tt">MR_meshPreCollapseVertAttribute()</span>. </p>
 
@@ -76580,8 +76580,8 @@ do not really keeps volume but tries hard </p><dl class="section return"><dt>Ret
 
 </div>
 </div>
-<a id="a1dfac9cbbf2b1ba811af3e8f6598957d" name="a1dfac9cbbf2b1ba811af3e8f6598957d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1dfac9cbbf2b1ba811af3e8f6598957d">&#9670;&#160;</a></span>selfBoolean()</h2>
+<a id="a9bc1216ad69f0b2a0ed95760d1d4b3c7" name="a9bc1216ad69f0b2a0ed95760d1d4b3c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bc1216ad69f0b2a0ed95760d1d4b3c7">&#9670;&#160;</a></span>selfBoolean()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -76592,8 +76592,12 @@ do not really keeps volume but tries hard </p><dl class="section return"><dt>Ret
         <tr>
           <td class="memname"><a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> meshlib.Functions.selfBoolean </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1FaceMap.html">meshlib.FaceMap</a></td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -76602,7 +76606,12 @@ do not really keeps volume but tries hard </p><dl class="section return"><dt>Ret
   </tr>
 </table>
 </div><div class="memdoc">
-<p>performs boolean operation on mesh with itself, cutting its self-intersection contours and flipping their connectivity; the contours may cross one another where three sheets of the mesh meet at a point (nested intersections); two triangles with the same vertices glued along two edges or all three (a part without volume) that cross other parts are eliminated, see eliminateDoubleTris this function is experimental and likely to change signature and/or behavior in future Generated from function <span class="tt">MR::selfBoolean</span>.</p>
+<p>performs boolean operation on mesh with itself, cutting its self-intersection contours and flipping their connectivity; the contours may cross one another where three sheets of the mesh meet at a point (nested intersections); two triangles with the same vertices glued along two edges or all three (a part without volume) that cross other parts are eliminated, see eliminateDoubleTris this function is experimental and likely to change signature and/or behavior in future </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new2Old</td><td>optional output, set on success: for every valid face of the result, the face of the input mesh that it is or is a part of; the faces with new ids (not less than the face size of the input mesh) are the parts of the cut input faces Generated from function <span class="tt">MR::selfBoolean</span>.</td></tr>
+  </table>
+  </dd>
+</dl>
 <p>Calls <span class="tt">MR_selfBoolean()</span>. The C++ function returns <span class="tt">expected&lt;MR::Mesh, std::string&gt;</span>: the value is returned and an error is thrown as <span class="tt"><a class="el" href="classmeshlib_1_1UnexpectedResultException.html">UnexpectedResultException</a></span>. </p>
 
 </div>

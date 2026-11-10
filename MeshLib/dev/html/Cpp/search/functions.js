@@ -2253,7 +2253,7 @@ var searchData=
   ['selectobjectbyclick_84',['SelectObjectByClick',['../group__GeneralGroup.html#gaf233d2ee48f41e6835cdf6896f6c9676',1,'MR::SelectObjectByClick']]],
   ['selectpoints_85',['selectPoints',['../group__GeneralGroup.html#gab4590c20e3453fd49b62915f266c4c79',1,'MR::ObjectPointsHolder']]],
   ['selectvoxels_86',['selectVoxels',['../group__GeneralGroup.html#ga4333c77a23030251df09a35b3432fdd6',1,'MR::ObjectVoxels']]],
-  ['selfboolean_87',['selfBoolean',['../group__BooleanGroup.html#ga6d540f90dc1f346721c02d850438ed29',1,'MR']]],
+  ['selfboolean_87',['selfBoolean',['../group__BooleanGroup.html#gaa9f8521f3babb180bd5aa04c02d04209',1,'MR']]],
   ['selfintersectionsmemory_88',['selfIntersectionsMemory',['../group__GeneralGroup.html#ga1ef2d3f6b02b98c6e246b17431752127',1,'MR::CudaAccessor']]],
   ['send_89',['send',['../group__GeneralGroup.html#ga3663d114b5408bc5e876e61b447ff841',1,'MR::WebRequest::send(std::string url, std::string logName, ResponseCallback callback, bool async=true)'],['../group__GeneralGroup.html#ga79f66c4f274d80572bb5d712246bf4d5',1,'MR::WebRequest::send(ResponseCallback callback)']]],
   ['sendworldxfchangedsignal_5f_90',['sendWorldXfChangedSignal_',['../classMR_1_1Object.html#a51befbcd75bb0e8dabe65ab428c0ca61',1,'MR::Object']]],

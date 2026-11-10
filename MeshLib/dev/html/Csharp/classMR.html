@@ -10345,8 +10345,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a631bac54cdc6217f4e5aaa1f65a92a52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a6e41979b347d16015b72249770957a48" title="Performs CSG operation on two meshes Makes new mesh - result of boolean operation on mesh A and mesh ...">MR.boolean</a></span>. Parameter <span class="tt">params_</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a3111b23641d917bcea29b413a78b4dec" id="r_a3111b23641d917bcea29b413a78b4dec"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1BooleanResult.html">MR.BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3111b23641d917bcea29b413a78b4dec">forceBoolean</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> meshA, <a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> meshB, <a class="el" href="#ad89c5fb7af9da0df04973fb2cd54e934">MR.BooleanOperation</a> operation, <a class="el" href="classMR_1_1Const__BooleanParameters.html">MR.Const_BooleanParameters</a>? params_=null)</td></tr>
 <tr class="memdesc:a3111b23641d917bcea29b413a78b4dec"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls boolean in force mode, also unites close vertices and fills holes afterwards  <br /></td></tr>
-<tr class="memitem:ad0c75e19fdeb0f2b1455d00b6464d826" id="r_ad0c75e19fdeb0f2b1455d00b6464d826"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0c75e19fdeb0f2b1455d00b6464d826">selfBoolean</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh)</td></tr>
-<tr class="memdesc:ad0c75e19fdeb0f2b1455d00b6464d826"><td class="mdescLeft">&#160;</td><td class="mdescRight">performs boolean operation on mesh with itself, cutting its self-intersection contours and flipping their connectivity; the contours may cross one another where three sheets of the mesh meet at a point (nested intersections); two triangles with the same vertices glued along two edges or all three (a part without volume) that cross other parts are eliminated, see eliminateDoubleTris this function is experimental and likely to change signature and/or behavior in future Generated from function <span class="tt"><a class="el" href="#ad0c75e19fdeb0f2b1455d00b6464d826" title="performs boolean operation on mesh with itself, cutting its self-intersection contours and flipping t...">MR.selfBoolean</a></span>.  <br /></td></tr>
+<tr class="memitem:a5760bf4810bccd45dadf48c6bf26d36e" id="r_a5760bf4810bccd45dadf48c6bf26d36e"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5760bf4810bccd45dadf48c6bf26d36e">selfBoolean</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>? new2Old=null)</td></tr>
+<tr class="memdesc:a5760bf4810bccd45dadf48c6bf26d36e"><td class="mdescLeft">&#160;</td><td class="mdescRight">performs boolean operation on mesh with itself, cutting its self-intersection contours and flipping their connectivity; the contours may cross one another where three sheets of the mesh meet at a point (nested intersections); two triangles with the same vertices glued along two edges or all three (a part without volume) that cross other parts are eliminated, see eliminateDoubleTris this function is experimental and likely to change signature and/or behavior in future  <br /></td></tr>
 <tr class="memitem:a5d2dd1a7f0b9d450f6da372ac294d92b" id="r_a5d2dd1a7f0b9d450f6da372ac294d92b"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_StdVectorMRVector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d2dd1a7f0b9d450f6da372ac294d92b">findIntersectionContours</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> meshA, <a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> meshB, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? rigidB2A=null)</td></tr>
 <tr class="memdesc:a5d2dd1a7f0b9d450f6da372ac294d92b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns intersection contours of given meshes Generated from function <span class="tt"><a class="el" href="#a5d2dd1a7f0b9d450f6da372ac294d92b" title="returns intersection contours of given meshes Generated from function MR.findIntersectionContours.">MR.findIntersectionContours</a></span>.  <br /></td></tr>
 <tr class="memitem:a364d394f9479def1e09031deca28ac58" id="r_a364d394f9479def1e09031deca28ac58"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1BooleanResultPoints.html">MR.BooleanResultPoints</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a364d394f9479def1e09031deca28ac58">getBooleanPoints</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> meshA, <a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> meshB, <a class="el" href="#ad89c5fb7af9da0df04973fb2cd54e934">MR.BooleanOperation</a> operation, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? rigidB2A=null)</td></tr>
@@ -64551,8 +64551,8 @@ do not really keeps volume but tries hard </p>
 
 </div>
 </div>
-<a id="ad0c75e19fdeb0f2b1455d00b6464d826" name="ad0c75e19fdeb0f2b1455d00b6464d826"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0c75e19fdeb0f2b1455d00b6464d826">&#9670;&#160;</a></span>selfBoolean()</h2>
+<a id="a5760bf4810bccd45dadf48c6bf26d36e" name="a5760bf4810bccd45dadf48c6bf26d36e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5760bf4810bccd45dadf48c6bf26d36e">&#9670;&#160;</a></span>selfBoolean()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -64563,8 +64563,12 @@ do not really keeps volume but tries hard </p>
         <tr>
           <td class="memname">unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> MR.selfBoolean </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>?</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -64574,7 +64578,13 @@ do not really keeps volume but tries hard </p>
 </table>
 </div><div class="memdoc">
 
-<p>performs boolean operation on mesh with itself, cutting its self-intersection contours and flipping their connectivity; the contours may cross one another where three sheets of the mesh meet at a point (nested intersections); two triangles with the same vertices glued along two edges or all three (a part without volume) that cross other parts are eliminated, see eliminateDoubleTris this function is experimental and likely to change signature and/or behavior in future Generated from function <span class="tt"><a class="el" href="#ad0c75e19fdeb0f2b1455d00b6464d826" title="performs boolean operation on mesh with itself, cutting its self-intersection contours and flipping t...">MR.selfBoolean</a></span>. </p>
+<p>performs boolean operation on mesh with itself, cutting its self-intersection contours and flipping their connectivity; the contours may cross one another where three sheets of the mesh meet at a point (nested intersections); two triangles with the same vertices glued along two edges or all three (a part without volume) that cross other parts are eliminated, see eliminateDoubleTris this function is experimental and likely to change signature and/or behavior in future </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new2Old</td><td>optional output, set on success: for every valid face of the result, the face of the input mesh that it is or is a part of; the faces with new ids (not less than the face size of the input mesh) are the parts of the cut input faces Generated from function <span class="tt"><a class="el" href="#a5760bf4810bccd45dadf48c6bf26d36e" title="performs boolean operation on mesh with itself, cutting its self-intersection contours and flipping t...">MR.selfBoolean</a></span>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -107,7 +107,7 @@ var group__BooleanGroup =
     [ "MR::offsetSurfaceLineToMeshContours", "group__BooleanGroup.html#gac67a5b20bb2312590785d6dca7473866", null ],
     [ "MR::offsetSurfaceLineToMeshContours", "group__BooleanGroup.html#ga2cc55b5541f2ceaaf75cd0e0d48c8292", null ],
     [ "MR::reserveForCut", "group__BooleanGroup.html#ga45763dcfb85a706096c0ac879ae352cc", null ],
-    [ "MR::selfBoolean", "group__BooleanGroup.html#ga6d540f90dc1f346721c02d850438ed29", null ],
+    [ "MR::selfBoolean", "group__BooleanGroup.html#gaa9f8521f3babb180bd5aa04c02d04209", null ],
     [ "MR::surfaceLineToClosedMeshContour", "group__BooleanGroup.html#ga3a22b60786ebca45162b3cdc5d713ff0", null ],
     [ "MR::surfaceLineToMeshContour", "group__BooleanGroup.html#ga7fed136c28333b302ad4ead34092388d", null ],
     [ "MR::surfaceLineToMeshContour", "group__BooleanGroup.html#ga2e24ce065ef7d94e723ba08376773c39", null ],

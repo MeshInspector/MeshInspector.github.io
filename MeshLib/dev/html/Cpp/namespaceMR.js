@@ -3530,7 +3530,7 @@ var namespaceMR =
     [ "SegmPoint< float >", "group__GeneralGroup.html#ga2ab7486d501ce047d28cf8208b6c8501", null ],
     [ "segPoints", "group__GeneralGroup.html#ga973831babbbe4c9395f8304e8b980d8a", null ],
     [ "SelectCurvaturePreference", "group__GeneralGroup.html#gac00a59cfbebecb4b57bf00a5edffb993", null ],
-    [ "selfBoolean", "group__BooleanGroup.html#ga6d540f90dc1f346721c02d850438ed29", null ],
+    [ "selfBoolean", "group__BooleanGroup.html#gaa9f8521f3babb180bd5aa04c02d04209", null ],
     [ "separateClosedContour", "group__GeneralGroup.html#ga41199d0cddfedc2e7a079524081c570e", null ],
     [ "serializeJsonValue", "group__SerializerGroup.html#ga1edcbab8181af7aca7d614a91965677c", null ],
     [ "serializeJsonValue", "group__SerializerGroup.html#ga50539cfe8f960607feeace50210a0a16", null ],

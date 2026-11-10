@@ -4486,7 +4486,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.segmentVolumeByGraphCut", "namespacemrmeshpy.html#ac1028a8da24792a905551265ca4d1365", null ],
     [ "mrmeshpy.segmentVoxelMaskToInstances", "namespacemrmeshpy.html#ada5b323b1be7e72e891def166a2225d9", null ],
     [ "mrmeshpy.segPoints", "namespacemrmeshpy.html#a9eae0926371f773073b4b3cdb955cb3d", null ],
-    [ "mrmeshpy.selfBoolean", "namespacemrmeshpy.html#a6c34d38ed5077254ba07bf32736b531b", null ],
+    [ "mrmeshpy.selfBoolean", "namespacemrmeshpy.html#a75845bd7253fe72781bc956fbe2ce39f", null ],
     [ "mrmeshpy.separateClosedContour", "namespacemrmeshpy.html#a0a5c159473eb1c19c9559679c2d5e7a5", null ],
     [ "mrmeshpy.serializeMesh", "namespacemrmeshpy.html#a2d0a38ea49ab02d82697eaabed13bdd1", null ],
     [ "mrmeshpy.serializeObjectTree", "namespacemrmeshpy.html#a9defc449d144324d8a76cf9943f00930", null ],

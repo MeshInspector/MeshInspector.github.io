@@ -110,7 +110,7 @@ var searchData=
   ['selection_107',['selection',['../classmeshlib_1_1ChangeMeshEdgeSelectionAction.html#a4a219a9b8f75ab54bb9d36c302656be6',1,'meshlib.ChangeMeshEdgeSelectionAction.selection()'],['../classmeshlib_1_1ChangeMeshFaceSelectionAction.html#a9175963a7a67b7ff10c8120a8d366a31',1,'meshlib.ChangeMeshFaceSelectionAction.selection()'],['../classmeshlib_1_1ChangePointPointSelectionAction.html#ad143de4afee2aa6b805b33ef96bc5996',1,'meshlib.ChangePointPointSelectionAction.selection()'],['../classmeshlib_1_1ChangVoxelSelectionAction.html#ac1c81a7259bd6fcd6ef1bd37174cb04e',1,'meshlib.ChangVoxelSelectionAction.selection()']]],
   ['selectpoints_108',['selectPoints',['../classmeshlib_1_1ObjectPoints.html#aafa3f56086ae15e52fe20349b4f69454',1,'meshlib.ObjectPoints.selectPoints()'],['../classmeshlib_1_1ObjectPointsHolder.html#ad411059c6e959bef37ae5424a2f9faf5',1,'meshlib.ObjectPointsHolder.selectPoints()']]],
   ['selectvoxels_109',['selectVoxels',['../classmeshlib_1_1ObjectVoxels.html#a523ddaac0d4bcd5ba95b4b89af84df45',1,'meshlib::ObjectVoxels']]],
-  ['selfboolean_110',['selfBoolean',['../classmeshlib_1_1Functions.html#a1dfac9cbbf2b1ba811af3e8f6598957d',1,'meshlib::Functions']]],
+  ['selfboolean_110',['selfBoolean',['../classmeshlib_1_1Functions.html#a9bc1216ad69f0b2a0ed95760d1d4b3c7',1,'meshlib::Functions']]],
   ['selfintersections_2ffunctions_2ejava_111',['Functions.java',['../selfintersections_2Functions_8java.html',1,'']]],
   ['selfintersections_2fsettings_2ejava_112',['Settings.java',['../selfintersections_2Settings_8java.html',1,'']]],
   ['separateclosedcontour_113',['separateClosedContour',['../classmeshlib_1_1Functions.html#a2cb9c0f0947e871995d4c1b5c6d4aa0a',1,'meshlib::Functions']]],
