@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"group__VisualObjectGroup.html":[9,0,0,11,2],
 "group__VisualObjectGroup.html#ga03255e831f4895337e7cf27d64e51269":[9,0,0,11,2,7],
 "group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f":[9,0,0,11,2,6],
 "group__VisualObjectGroup.html#ga5c32800ec075fcf4f9b3eb8e2d5ac6ca":[9,0,0,11,2,8],
@@ -162,7 +163,7 @@ var NAVTREEINDEX60 =
 "namespaceMR.html#a93bff7f59121c9c61175744b11326824":[9,0,1,0,1,1007],
 "namespaceMR.html#a94d7093d57cb27ac9abdfb241ddb6bc0":[9,0,1,0,1,1067],
 "namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11":[9,0,1,0,1,2503],
-"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3190],
+"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3191],
 "namespaceMR.html#af57a9e992da58c4255497330494f5790":[9,0,1,0,1,2502],
 "namespaceMR_1_1AsyncObjectLoad.html":[9,0,1,0,1,0],
 "namespaceMR_1_1AsyncObjectLoad.html#a00566fda9bf4c9254ac5d2d9ffe7208d":[9,0,1,0,1,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1FloatGridComponents.html":[9,0,1,0,1,10],
 "namespaceMR_1_1GcodeLoad.html":[9,0,1,0,1,11],
 "namespaceMR_1_1GcodeSave.html":[9,0,1,0,1,12],
-"namespaceMR_1_1ImGuiMV.html":[9,0,1,0,1,18],
-"namespaceMR_1_1ImGuiMV.html#a25c1731b42aaa9848d5fd54a996c4caf":[9,0,1,0,1,18,3]
+"namespaceMR_1_1ImGuiMV.html":[9,0,1,0,1,18]
 };

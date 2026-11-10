@@ -3399,6 +3399,7 @@ var namespaceMR =
     [ "printStacktraceOnCrash", "group__GeneralGroup.html#ga71227976536400c198b13a60878f53d2", null ],
     [ "printTimingTree", "group__BasicGroup.html#gaa062fb28e95de030cde47eb792db4270", null ],
     [ "printTimingTreeAtEnd", "group__BasicGroup.html#gaea0c8b01358b57ffcc2ca74961b6a912", null ],
+    [ "processChildrenPair", "group__GeneralGroup.html#gaa23ffbf600bd834cfdc4d416d0f4f704", null ],
     [ "processCloseTriangles", "group__AABBTreeGroup.html#ga751dcb67fc6f5cf0f46116fcf9cefd9c", null ],
     [ "processSelfSubtasks", "group__GeneralGroup.html#ga70a491da3a38943ffbe9d8a99c340824", null ],
     [ "projArea", "group__GeneralGroup.html#gae30079b3e504dbf30692fe9116d1cc0a", null ],

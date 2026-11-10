@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a4c52dc063bae4dcacd4b598c59cc3be2":[9,0,1,0,1,17,3,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a4c52dc063bae4dcacd4b598c59cc3be2":[9,0,2,0,1,7,3,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a64963bd2f3582a91eab34d7a28323d5f":[9,0,1,0,1,17,3,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a64963bd2f3582a91eab34d7a28323d5f":[9,0,2,0,1,7,3,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1IntersectionPrecomputes.html#a1e89bb11cf7c4693e1c8839963994a08":[9,0,0,19,368,3],
 "structMR_1_1IntersectionPrecomputes.html#a21465bc7d67177777744f39ac171940c":[9,0,0,1,15,7],
 "structMR_1_1IntersectionPrecomputes.html#a21465bc7d67177777744f39ac171940c":[9,0,0,19,368,7],
-"structMR_1_1IntersectionPrecomputes.html#a28372a635ba67b43220bc9067be6560d":[9,0,0,1,15,6],
-"structMR_1_1IntersectionPrecomputes.html#a28372a635ba67b43220bc9067be6560d":[9,0,0,19,368,6]
+"structMR_1_1IntersectionPrecomputes.html#a28372a635ba67b43220bc9067be6560d":[9,0,0,1,15,6]
 };

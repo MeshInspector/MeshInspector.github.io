@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1SmoothCameraMeshDepthSettings.html":[9,0,0,19,155],
 "structMR_1_1SmoothFillingSettings.html":[9,0,0,19,270],
 "structMR_1_1SomeLocalTriangulations.html":[9,0,0,19,336],
 "structMR_1_1SortIntersectionsData.html":[9,0,0,19,435],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html":[9,0,1,0,1,53,2,4],
 "structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html":[9,0,2,0,1,35,0,4],
 "structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html#a695d48555d359194959f202492b508cb":[9,0,1,0,1,53,2,4,1],
-"structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html#a695d48555d359194959f202492b508cb":[9,0,2,0,1,35,0,4,1],
-"structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html#ae3e69d330fabb3b2d376e4c801e960d5":[9,0,1,0,1,53,2,4,0]
+"structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html#a695d48555d359194959f202492b508cb":[9,0,2,0,1,35,0,4,1]
 };

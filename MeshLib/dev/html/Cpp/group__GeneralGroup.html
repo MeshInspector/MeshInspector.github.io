@@ -7542,6 +7542,9 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gada44a589fd04a828763560decb38cdf8" id="r_gada44a589fd04a828763560decb38cdf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gada44a589fd04a828763560decb38cdf8">MR::PriorityQueue&lt; T, P &gt;::pop</a> ()</td></tr>
 <tr class="memdesc:gada44a589fd04a828763560decb38cdf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes the top element from the priority queue  <br /></td></tr>
 <tr class="memitem:gad908c34d45a5e5b13755322db1cb9889" id="r_gad908c34d45a5e5b13755322db1cb9889"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad908c34d45a5e5b13755322db1cb9889">MR::makePrism</a> (float baseLength, float leftAngle, float rightAngle, float <a class="el" href="group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae">height</a>=1.0f)</td></tr>
+<tr class="memitem:gaa23ffbf600bd834cfdc4d416d0f4f704" id="r_gaa23ffbf600bd834cfdc4d416d0f4f704"><td class="memTemplParams" colspan="2">template&lt;typename ProcessNodes&gt; </td></tr>
+<tr class="memitem:gaa23ffbf600bd834cfdc4d416d0f4f704 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa23ffbf600bd834cfdc4d416d0f4f704">MR::processChildrenPair</a> (const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, const <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &amp;c, ProcessNodes &amp;processNodes, std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;nextSubtasks, <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> *leafPairs, int &amp;numLeafPairs)</td></tr>
+<tr class="memdesc:gaa23ffbf600bd834cfdc4d416d0f4f704"><td class="mdescLeft">&#160;</td><td class="mdescRight">tests a pair of children by processNodes: an accepted pair is added to nextSubtasks, or to leafPairs if both are leaves  <br /></td></tr>
 <tr class="memitem:ga70a491da3a38943ffbe9d8a99c340824" id="r_ga70a491da3a38943ffbe9d8a99c340824"><td class="memTemplParams" colspan="2">template&lt;typename ProcessLeaf, typename ProcessNodes&gt; </td></tr>
 <tr class="memitem:ga70a491da3a38943ffbe9d8a99c340824 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga70a491da3a38943ffbe9d8a99c340824">MR::processSelfSubtasks</a> (const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;subtasks, std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;nextSubtasks, ProcessLeaf &amp;&amp;processLeaf, ProcessNodes &amp;&amp;processNodes)</td></tr>
 <tr class="memdesc:ga70a491da3a38943ffbe9d8a99c340824"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function process all subtasks in one tree<br  />
@@ -154540,6 +154543,53 @@ template&lt;typename T, typename P&gt; </div>
 
 </div>
 </div>
+<a id="gaa23ffbf600bd834cfdc4d416d0f4f704" name="gaa23ffbf600bd834cfdc4d416d0f4f704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa23ffbf600bd834cfdc4d416d0f4f704">&#9670;&#160;</a></span>processChildrenPair()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ProcessNodes&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> void MR::processChildrenPair </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ProcessNodes &amp;</td>          <td class="paramname"><span class="paramname"><em>processNodes</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>nextSubtasks</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> *</td>          <td class="paramname"><span class="paramname"><em>leafPairs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;</td>          <td class="paramname"><span class="paramname"><em>numLeafPairs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRProcessSelfTreeSubtasks_8h.html">MRMesh/MRProcessSelfTreeSubtasks.h</a>&gt;</code></p>
+
+<p>tests a pair of children by processNodes: an accepted pair is added to nextSubtasks, or to leafPairs if both are leaves </p>
+
+</div>
+</div>
 <a id="ga608f3b3e1415777cf598629aa0b73681" name="ga608f3b3e1415777cf598629aa0b73681"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga608f3b3e1415777cf598629aa0b73681">&#9670;&#160;</a></span>processCommands()</h2>
 
@@ -154684,14 +154734,15 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">tree</td><td>the AABB tree</td></tr>
-    <tr><td class="paramname">subtasks</td><td>initial tasks to process</td></tr>
+    <tr><td class="paramname">subtasks</td><td>initial tasks to process: a node with itself, or two nodes already accepted by <span class="tt">processNodes</span></td></tr>
     <tr><td class="paramname">nextSubtasks</td><td>subtasks to process next, could be same as <span class="tt">subtasks</span></td></tr>
-    <tr><td class="paramname">processLeaf</td><td>function that is called for two different leafs</td></tr>
-    <tr><td class="paramname">processNodes</td><td>function that determines how to process two different nodes (e.g. whether their boxes intersect)</td></tr>
+    <tr><td class="paramname">processLeaf</td><td>function that is called for two different leafs accepted by <span class="tt">processNodes</span></td></tr>
+    <tr><td class="paramname">processNodes</td><td>function that determines how to process two different nodes (e.g. whether their boxes intersect); it is called for a pair before the pair is added to <span class="tt">nextSubtasks</span>, and an accepted pair of leaves goes to <span class="tt">processLeaf</span> without being added</td></tr>
   </table>
   </dd>
 </dl>
 <p>the callbacks are template parameters to be inlined in this hot loop </p>
+<p>the pair of children is added to nextSubtasks if processNodes accepts it, and the accepted pairs of leaves are given to processLeaf from one call site: more call sites were slower with MSVC and on Apple M1</p>
 <p>split aNode</p>
 <p>split bNode</p>
 <dl class="params"><dt>Parameters</dt><dd>

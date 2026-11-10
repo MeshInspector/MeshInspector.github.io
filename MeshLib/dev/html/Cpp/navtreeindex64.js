@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Box.html#a5edd7e58dce05a67482b2c179f6abc6e":[9,0,0,0,2,0,9],
 "structMR_1_1Box.html#a6fa5434776a3bb7b53014edc67295ec8":[9,0,0,0,2,0,17],
 "structMR_1_1Box.html#a71c94df372502f935a239c62e591a70c":[9,0,0,0,2,0,29],
 "structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0":[9,0,0,0,2,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1EmbeddedStructureParameters.html":[9,0,0,19,227],
 "structMR_1_1EndMillCutter.html":[9,0,0,19,228],
 "structMR_1_1EndMillTool.html":[9,0,0,19,229],
-"structMR_1_1FaceDistancesSettings.html":[9,0,0,19,232],
-"structMR_1_1FaceFace.html":[9,0,0,1,12]
+"structMR_1_1FaceDistancesSettings.html":[9,0,0,19,232]
 };

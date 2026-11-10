@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1PolylineSubdivideSettings.html#abaf36082a394e79118a87b09054964e3":[9,0,0,14,0,0,7],
 "structMR_1_1PolylineSubdivideSettings.html#afd1b05e15df328d6581de39d05ef0ba2":[9,0,0,14,0,0,5],
 "structMR_1_1PolylineSubdivideSettings.html#afd93804f4deac58fb3c9851426d2d9a3":[9,0,0,14,0,0,1],
 "structMR_1_1PolylineToDistanceVolumeParams.html":[9,0,0,19,895],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1SimpleTimeRecord.html#a783bd5b3455191ffcbf6c59363d9e81e":[9,0,0,3,12,2],
 "structMR_1_1SkyPatch.html":[9,0,0,19,520],
 "structMR_1_1SliceInfo.html":[9,0,0,19,900],
-"structMR_1_1SliceInfoBase.html":[9,0,0,19,899],
-"structMR_1_1SmoothCameraMeshDepthSettings.html":[9,0,0,19,155]
+"structMR_1_1SliceInfoBase.html":[9,0,0,19,899]
 };

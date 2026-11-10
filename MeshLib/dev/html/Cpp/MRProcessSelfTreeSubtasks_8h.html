@@ -139,6 +139,7 @@ $(function(){initNavTree('MRProcessSelfTreeSubtasks_8h.html','',''); });
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRAABBTree_8h_source.html">MRAABBTree.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MREnums_8h_source.html">MREnums.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMacros_8h_source.html">MRMacros.h</a>&quot;</code><br />
 <code>#include &lt;cassert&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 </div>
@@ -151,6 +152,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:gaa23ffbf600bd834cfdc4d416d0f4f704" id="r_gaa23ffbf600bd834cfdc4d416d0f4f704"><td class="memTemplParams" colspan="2">template&lt;typename ProcessNodes&gt; </td></tr>
+<tr class="memitem:gaa23ffbf600bd834cfdc4d416d0f4f704 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa23ffbf600bd834cfdc4d416d0f4f704">MR::processChildrenPair</a> (const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, const <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &amp;c, ProcessNodes &amp;processNodes, std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;nextSubtasks, <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> *leafPairs, int &amp;numLeafPairs)</td></tr>
+<tr class="memdesc:gaa23ffbf600bd834cfdc4d416d0f4f704"><td class="mdescLeft">&#160;</td><td class="mdescRight">tests a pair of children by processNodes: an accepted pair is added to nextSubtasks, or to leafPairs if both are leaves  <br /></td></tr>
 <tr class="memitem:ga70a491da3a38943ffbe9d8a99c340824" id="r_ga70a491da3a38943ffbe9d8a99c340824"><td class="memTemplParams" colspan="2">template&lt;typename ProcessLeaf, typename ProcessNodes&gt; </td></tr>
 <tr class="memitem:ga70a491da3a38943ffbe9d8a99c340824 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga70a491da3a38943ffbe9d8a99c340824">MR::processSelfSubtasks</a> (const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;subtasks, std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;nextSubtasks, ProcessLeaf &amp;&amp;processLeaf, ProcessNodes &amp;&amp;processNodes)</td></tr>
 <tr class="memdesc:ga70a491da3a38943ffbe9d8a99c340824"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function process all subtasks in one tree<br  />

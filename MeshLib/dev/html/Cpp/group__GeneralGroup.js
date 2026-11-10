@@ -15211,6 +15211,7 @@ var group__GeneralGroup =
     [ "MR::PriorityQueue::PriorityQueue", "group__GeneralGroup.html#gaebd81e426914ebd5fa07ba5e4bfa0142", null ],
     [ "MR::PriorityQueue::PriorityQueue", "group__GeneralGroup.html#ga7bf03b4612ec1dfe18e90b99153030cc", null ],
     [ "MR::PolylineMaker::proceed", "group__GeneralGroup.html#gabaa25d6997f93c9797a20cf3975b2eef", null ],
+    [ "MR::processChildrenPair", "group__GeneralGroup.html#gaa23ffbf600bd834cfdc4d416d0f4f704", null ],
     [ "MR::CommandLoop::processCommands", "group__GeneralGroup.html#ga608f3b3e1415777cf598629aa0b73681", null ],
     [ "MR::SceneObjectsListDrawer::processItemClick_", "group__GeneralGroup.html#ga6b49bb69e16897b2b6e18f9a69651f70", null ],
     [ "MR::GcodeProcessor::processLine", "group__GeneralGroup.html#gaf9d3821f5999c61b5577a1224611e68c", null ],
