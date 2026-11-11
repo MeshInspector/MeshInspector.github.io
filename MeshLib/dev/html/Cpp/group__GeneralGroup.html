@@ -10886,6 +10886,10 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memdesc:gaaef133295e612ebeb0b2d3286d560f43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws multiline text input, should be used instead of <span class="tt">ImGui::InputTextMultiline()</span>.  <br /></td></tr>
 <tr class="memitem:gad3a22ba617eb135e3d33c413f0ed69cb" id="r_gad3a22ba617eb135e3d33c413f0ed69cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad3a22ba617eb135e3d33c413f0ed69cb">MR::UI::inputTextIntoArrayMultiline</a> (const char *label, char *buf, size_t buf_size, const ImVec2 &amp;<a class="el" href="#ga306ff1f62992b3eb33c446913b64188a">size</a>=ImVec2(), ImGuiInputTextFlags flags=0, ImGuiInputTextCallback callback=nullptr, void *user_data=nullptr)</td></tr>
 <tr class="memdesc:gad3a22ba617eb135e3d33c413f0ed69cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">This overload is for arrays, as opposed to <span class="tt">std::string</span>s.  <br /></td></tr>
+<tr class="memitem:ga88665ed611febf297256684cbbc454e5" id="r_ga88665ed611febf297256684cbbc454e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga88665ed611febf297256684cbbc454e5">MR::UI::inputTextMultilineWithHint</a> (const char *label, const char *hint, std::string &amp;str, const ImVec2 &amp;<a class="el" href="#ga306ff1f62992b3eb33c446913b64188a">size</a>=ImVec2(), ImGuiInputTextFlags flags=0, ImGuiInputTextCallback callback=nullptr, void *user_data=nullptr)</td></tr>
+<tr class="memdesc:ga88665ed611febf297256684cbbc454e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <span class="tt"><a class="el" href="#gaaef133295e612ebeb0b2d3286d560f43" title="Draws multiline text input, should be used instead of ImGui::InputTextMultiline().">inputTextMultiline()</a></span>, but shows the given hint in the field while the text is empty.  <br /></td></tr>
+<tr class="memitem:ga0241bd9f8e1f4378528ee8b076099a6b" id="r_ga0241bd9f8e1f4378528ee8b076099a6b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0241bd9f8e1f4378528ee8b076099a6b">MR::UI::inputTextIntoArrayMultilineWithHint</a> (const char *label, const char *hint, char *buf, size_t buf_size, const ImVec2 &amp;<a class="el" href="#ga306ff1f62992b3eb33c446913b64188a">size</a>=ImVec2(), ImGuiInputTextFlags flags=0, ImGuiInputTextCallback callback=nullptr, void *user_data=nullptr)</td></tr>
+<tr class="memdesc:ga0241bd9f8e1f4378528ee8b076099a6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This overload is for arrays, as opposed to <span class="tt">std::string</span>s.  <br /></td></tr>
 <tr class="memitem:ga7312b1606a282f1ad4353afcc7d20b0e" id="r_ga7312b1606a282f1ad4353afcc7d20b0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7312b1606a282f1ad4353afcc7d20b0e">MR::UI::inputTextMultilineFullyScrollable</a> (<a class="el" href="structMR_1_1UI_1_1CachedTextSize.html">CachedTextSize</a> &amp;cache, const char *label, std::string &amp;str, const ImVec2 &amp;<a class="el" href="#ga306ff1f62992b3eb33c446913b64188a">size</a>=ImVec2(), ImGuiInputTextFlags flags=0, ImGuiInputTextCallback callback=nullptr, void *user_data=nullptr)</td></tr>
 <tr class="memdesc:ga7312b1606a282f1ad4353afcc7d20b0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This version adds a horizontal scrollbar. Also it never draws the label, and uses full window width by default (so you can pass <span class="tt">0</span> as width).  <br /></td></tr>
 <tr class="memitem:ga13a9f801e26e30dff13981ea3479195f" id="r_ga13a9f801e26e30dff13981ea3479195f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga13a9f801e26e30dff13981ea3479195f">MR::UI::inputTextIntoArrayMultilineFullyScrollable</a> (<a class="el" href="structMR_1_1UI_1_1CachedTextSize.html">CachedTextSize</a> &amp;cache, const char *label, char *buf, size_t buf_size, const ImVec2 &amp;<a class="el" href="#ga306ff1f62992b3eb33c446913b64188a">size</a>=ImVec2(), ImGuiInputTextFlags flags=0, ImGuiInputTextCallback callback=nullptr, void *user_data=nullptr)</td></tr>
@@ -111005,6 +111009,61 @@ template&lt;UnitEnum E, detail::Scalar T, typename F = std::nullptr_t&gt; </div>
 
 </div>
 </div>
+<a id="ga0241bd9f8e1f4378528ee8b076099a6b" name="ga0241bd9f8e1f4378528ee8b076099a6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0241bd9f8e1f4378528ee8b076099a6b">&#9670;&#160;</a></span>inputTextIntoArrayMultilineWithHint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UI::inputTextIntoArrayMultilineWithHint </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>label</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>hint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>buf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>buf_size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ImVec2 &amp;</td>          <td class="paramname"><span class="paramname"><em>size</em></span><span class="paramdefsep"> = </span><span class="paramdefval">ImVec2()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImGuiInputTextFlags</td>          <td class="paramname"><span class="paramname"><em>flags</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImGuiInputTextCallback</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>user_data</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRUIStyle_8h.html">MRViewer/MRUIStyle.h</a>&gt;</code></p>
+
+<p>This overload is for arrays, as opposed to <span class="tt">std::string</span>s. </p>
+
+</div>
+</div>
 <a id="gaaef133295e612ebeb0b2d3286d560f43" name="gaaef133295e612ebeb0b2d3286d560f43"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaaef133295e612ebeb0b2d3286d560f43">&#9670;&#160;</a></span>inputTextMultiline()</h2>
 
@@ -111097,6 +111156,56 @@ template&lt;UnitEnum E, detail::Scalar T, typename F = std::nullptr_t&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRUIStyle_8h.html">MRViewer/MRUIStyle.h</a>&gt;</code></p>
 
 <p>This version adds a horizontal scrollbar. Also it never draws the label, and uses full window width by default (so you can pass <span class="tt">0</span> as width). </p>
+
+</div>
+</div>
+<a id="ga88665ed611febf297256684cbbc454e5" name="ga88665ed611febf297256684cbbc454e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga88665ed611febf297256684cbbc454e5">&#9670;&#160;</a></span>inputTextMultilineWithHint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UI::inputTextMultilineWithHint </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>label</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>hint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ImVec2 &amp;</td>          <td class="paramname"><span class="paramname"><em>size</em></span><span class="paramdefsep"> = </span><span class="paramdefval">ImVec2()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImGuiInputTextFlags</td>          <td class="paramname"><span class="paramname"><em>flags</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImGuiInputTextCallback</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>user_data</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRUIStyle_8h.html">MRViewer/MRUIStyle.h</a>&gt;</code></p>
+
+<p>Same as <span class="tt"><a class="el" href="#gaaef133295e612ebeb0b2d3286d560f43" title="Draws multiline text input, should be used instead of ImGui::InputTextMultiline().">inputTextMultiline()</a></span>, but shows the given hint in the field while the text is empty. </p>
 
 </div>
 </div>

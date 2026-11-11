@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a2a5ed27f2a108a9b941bb2672a552ec6":[9,0,2,0,1,7,10,1,5],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a2a82331b336fe5a2fc8e7f5a209c07e1":[9,0,1,0,1,17,10,1,6],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a2a82331b336fe5a2fc8e7f5a209c07e1":[9,0,2,0,1,7,10,1,6],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a30668d188aa89e39c19a9360ebcb62f1":[9,0,1,0,1,17,10,1,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a30668d188aa89e39c19a9360ebcb62f1":[9,0,2,0,1,7,10,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1Mcp_1_1Server_1_1Params.html#acaf116a4e061c5d70d4b14aa4790a368":[9,0,2,0,1,10,1,0,4],
 "structMR_1_1MenuItemCaptionSize.html":[9,0,0,19,710],
 "structMR_1_1MenuItemInfo.html":[9,0,0,19,712],
-"structMR_1_1MenuItemShortcut.html":[9,0,0,19,711],
-"structMR_1_1MergeVolumePartSettings.html":[9,0,0,16,4],
-"structMR_1_1MergeVolumePartSettings.html":[9,0,0,19,922]
+"structMR_1_1MenuItemShortcut.html":[9,0,0,19,711]
 };

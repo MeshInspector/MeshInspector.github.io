@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1MergeVolumePartSettings.html":[9,0,0,16,4],
+"structMR_1_1MergeVolumePartSettings.html":[9,0,0,19,922],
 "structMR_1_1Mesh.html":[9,0,0,7,1],
 "structMR_1_1Mesh.html#a017bf9ba11329c4596f14d33cbc8a654":[9,0,0,7,1,97],
 "structMR_1_1Mesh.html#a029d8d453e90f13a14ae22b25a71db47":[9,0,0,7,1,28],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1MeshToDistanceMapParams.html#a75bd2c39b7abd536c01547fccc4a18b1":[9,0,0,5,3,9],
 "structMR_1_1MeshToDistanceMapParams.html#a7f9d8b8e94b257b2bf65aa10104459c9":[9,0,0,5,3,16],
 "structMR_1_1MeshToDistanceMapParams.html#aa581e3154ca47d52f8cc418e27121f0f":[9,0,0,5,3,11],
-"structMR_1_1MeshToDistanceMapParams.html#aac1ab78936263c419b3c72a94c08ea99":[9,0,0,5,3,15],
-"structMR_1_1MeshToDistanceMapParams.html#aca3b29afef50e241d1f0cb88665f5f9b":[9,0,0,5,3,3],
-"structMR_1_1MeshToDistanceMapParams.html#acbd0c885022ae4d52662d581094cee10":[9,0,0,5,3,18]
+"structMR_1_1MeshToDistanceMapParams.html#aac1ab78936263c419b3c72a94c08ea99":[9,0,0,5,3,15]
 };

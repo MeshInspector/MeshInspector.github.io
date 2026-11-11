@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1UI_1_1SaveChangesPopupSettings.html":[9,0,0,19,777],
+"structMR_1_1UI_1_1SeparatorParams.html":[9,0,0,19,784],
 "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html":[9,0,1,0,1,53,2,2],
 "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html":[9,0,2,0,1,35,0,2],
 "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html#a09f3fe261438edd0071ac8dd34a503a1":[9,0,1,0,1,53,2,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1VoxelsSave_1_1SavingSettings.html":[9,0,2,0,1,37,0],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323":[9,0,1,0,1,57,0,0],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323":[9,0,2,0,1,37,0,0],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#a8194c36117ac4d7ace9f1070ce398953":[9,0,1,0,1,57,0,3],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#a8194c36117ac4d7ace9f1070ce398953":[9,0,2,0,1,37,0,3],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#a8415f6dc84ccf8061fd256e2420cd4fd":[9,0,1,0,1,57,0,2]
+"structMR_1_1VoxelsSave_1_1SavingSettings.html#a8194c36117ac4d7ace9f1070ce398953":[9,0,1,0,1,57,0,3]
 };
