@@ -871,8 +871,8 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRTriangleIntersection_8h.html">MRMesh/MRTriangleIntersection.h</a>&gt;</code></p>
-<p>due to fused multiply-add (FMA): (A*B-A*B) can be different from zero, so we need epsilon</p>
-<p>U,V,W have clearly different signs, so the ray misses the triangle</p>
+<p>bound of rounding errors in U,V,W, e.g. due to fused multiply-add (FMA) (A*B-A*B) can be different from zero</p>
+<p>U,V,W have clearly different signs (the ray misses the triangle), or all are within rounding errors (the triangle is degenerate in the projection)</p>
 
 </div>
 </div>
