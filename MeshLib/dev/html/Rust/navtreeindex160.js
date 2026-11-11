@@ -1,5 +1,6 @@
 var NAVTREEINDEX160 =
 {
+"structmeshlib_1_1Vector__MR__VertBitSet__MR__ObjId.html":[9,5,0,0,0,1656],
 "structmeshlib_1_1Vector__MR__VertBitSet__MR__ObjId.html":[9,5,1,0,0,1643],
 "structmeshlib_1_1Vector__MR__VertBitSet__MR__ObjId.html#a012c6aedf226b8e78eff309d7d07dd3b":[9,5,0,0,0,1656,4],
 "structmeshlib_1_1Vector__MR__VertBitSet__MR__ObjId.html#a012c6aedf226b8e78eff309d7d07dd3b":[9,5,1,0,0,1643,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX160 =
 "structmeshlib_1_1Vector__MR__VoxelId__MR__FaceId.html#a1d4923bb94e40c0a8f61881042d6d7b6":[9,5,0,0,0,1659,8],
 "structmeshlib_1_1Vector__MR__VoxelId__MR__FaceId.html#a1d4923bb94e40c0a8f61881042d6d7b6":[9,5,1,0,0,1646,8],
 "structmeshlib_1_1Vector__MR__VoxelId__MR__FaceId.html#a271f9aa1339243bb67a17ad500893f69":[9,5,0,0,0,1659,29],
-"structmeshlib_1_1Vector__MR__VoxelId__MR__FaceId.html#a271f9aa1339243bb67a17ad500893f69":[9,5,1,0,0,1646,29],
-"structmeshlib_1_1Vector__MR__VoxelId__MR__FaceId.html#a310cf76e0d05f5a308998899bacc9a54":[9,5,0,0,0,1659,4]
+"structmeshlib_1_1Vector__MR__VoxelId__MR__FaceId.html#a271f9aa1339243bb67a17ad500893f69":[9,5,1,0,0,1646,29]
 };

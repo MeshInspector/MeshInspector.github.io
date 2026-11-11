@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"structmeshlib_1_1MakeSignedByWindingNumberSettings.html#a0d32cfeca8fc340cfeb294a663b2cbc5":[9,5,1,0,0,558,1],
 "structmeshlib_1_1MakeSignedByWindingNumberSettings.html#a18ef49d2bc3e74119e25474edef4b902":[9,5,0,0,0,571,10],
 "structmeshlib_1_1MakeSignedByWindingNumberSettings.html#a18ef49d2bc3e74119e25474edef4b902":[9,5,1,0,0,558,10],
 "structmeshlib_1_1MakeSignedByWindingNumberSettings.html#a2a7ea28249bb45341b39c321b1bd12a5":[9,5,0,0,0,571,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "structmeshlib_1_1MarchingCubesParams.html#af03583fd43a668c658b6cedf203e854e":[9,5,1,0,0,565,14],
 "structmeshlib_1_1MarchingCubesParams__CachingMode.html":[9,5,0,0,0,579],
 "structmeshlib_1_1MarchingCubesParams__CachingMode.html":[9,5,1,0,0,566],
-"structmeshlib_1_1MarkedContour3f.html":[9,5,0,0,0,580],
-"structmeshlib_1_1MarkedContour3f.html":[9,5,1,0,0,567]
+"structmeshlib_1_1MarkedContour3f.html":[9,5,0,0,0,580]
 };

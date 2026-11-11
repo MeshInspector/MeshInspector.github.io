@@ -1,5 +1,6 @@
 var NAVTREEINDEX129 =
 {
+"classMR_1_1Plane3f.html#aaad7960a976c1146e872b02d609ab7d0":[9,3,0,0,0,1602,0],
 "classMR_1_1Plane3f.html#ab093c1655d56d96885533f562ea4c98b":[9,3,0,0,0,1602,2],
 "classMR_1_1Plane3f.html#ab1c823a4ee6b55c4b921cc9f6974bea7":[9,3,0,0,0,1602,1],
 "classMR_1_1PlaneAccumulator.html":[9,3,0,0,0,1603],
@@ -248,6 +249,5 @@ var NAVTREEINDEX129 =
 "classMR_1_1PointObject.html#a3fbf673917c42cb4ab30b1be06c6037e":[9,3,0,0,0,1614,29],
 "classMR_1_1PointObject.html#a40db7113ae62bee57afbbbd7e069217d":[9,3,0,0,0,1614,44],
 "classMR_1_1PointObject.html#a45cf69602b277536625551cf17b26c03":[9,3,0,0,0,1614,7],
-"classMR_1_1PointObject.html#a45ebe8f82b94223d5b50299ad6d5b192":[9,3,0,0,0,1614,50],
-"classMR_1_1PointObject.html#a48535c6d7155b56645243eca362ca266":[9,3,0,0,0,1614,62]
+"classMR_1_1PointObject.html#a45ebe8f82b94223d5b50299ad6d5b192":[9,3,0,0,0,1614,50]
 };

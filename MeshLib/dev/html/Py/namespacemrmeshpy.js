@@ -3556,6 +3556,7 @@ var namespacemrmeshpy =
     [ "getInnerVerts", "namespacemrmeshpy.html#a48431f5e48932b68c78d7396d81907af", null ],
     [ "getLeftTriPoints", "namespacemrmeshpy.html#a3d2e801a6543a774ba7f7ba860c2962d", null ],
     [ "getLeftTriPoints", "namespacemrmeshpy.html#a896d93c4bc1a2a023ec7fefb3c3b58b4", null ],
+    [ "getLocalTimeZone", "namespacemrmeshpy.html#a9ef3167d3268f38987048b8f4987d66d", null ],
     [ "getMaxDihedralAngleMetric", "namespacemrmeshpy.html#a104b8f54ebbcef8f8219021bfed06c21", null ],
     [ "getMeanSqDistToPlane", "namespacemrmeshpy.html#a50d55aabb567eadabcb2090267b568c2", null ],
     [ "getMeanSqDistToPoint", "namespacemrmeshpy.html#a38b8ee5888c60334865289a230776619", null ],

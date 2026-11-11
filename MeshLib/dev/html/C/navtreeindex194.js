@@ -1,5 +1,6 @@
 var NAVTREEINDEX194 =
 {
+"std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a3f2683c01215ddcf6446014f318d64c0":[9,2,2,0,0,0,0,2,617,6],
 "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a4204b60e9216fb50b6ef06ef91bbfb16":[9,2,2,0,0,0,0,2,617,14],
 "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a4b222b3788b8c5d6301d2dac568327fb":[9,2,2,0,0,0,0,2,617,11],
 "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a5d3bc1c632d3ace90591be040cde47c1":[9,2,2,0,0,0,0,2,617,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX194 =
 "structMR__std__array__float__4.html#a6656f49627d6fc9b89308049d9f77783":[9,2,1,0,46,0],
 "structMR__std__array__int__4.html":[9,2,1,0,47],
 "structMR__std__array__int__4.html#a5415f23b52c08121e579b70138926996":[9,2,1,0,47,0],
-"structmrbindc__details_1_1ClassArgGuard.html":[9,2,0,0,0,0],
-"structmrbindc__details_1_1ClassArgGuard.html":[9,2,1,0,0,0]
+"structmrbindc__details_1_1ClassArgGuard.html":[9,2,0,0,0,0]
 };

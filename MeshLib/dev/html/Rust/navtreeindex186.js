@@ -1,5 +1,6 @@
 var NAVTREEINDEX186 =
 {
+"structmeshlib_1_1nesting_1_1BoxNestingOptions.html#ada546b0e2f8beb533b0ded262dc1961f":[9,5,0,0,0,19,1,7],
 "structmeshlib_1_1nesting_1_1BoxNestingOptions.html#ada546b0e2f8beb533b0ded262dc1961f":[9,5,1,0,0,8,1,7],
 "structmeshlib_1_1nesting_1_1BoxNestingOptions.html#adcf39f77a1b1dff7e1c75fd9911fd700":[9,5,0,0,0,19,1,30],
 "structmeshlib_1_1nesting_1_1BoxNestingOptions.html#adcf39f77a1b1dff7e1c75fd9911fd700":[9,5,1,0,0,8,1,30],
@@ -248,6 +249,5 @@ var NAVTREEINDEX186 =
 "structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__EdgeId__MR__EdgeId__phmap__Hash__MR__EdgeI291f2d2132d79e2139a874f426beb3d9.html#a713d9b0e4abc89183d429870a34f88dc":[9,5,0,0,0,22,2,0],
 "structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__EdgeId__MR__EdgeId__phmap__Hash__MR__EdgeI291f2d2132d79e2139a874f426beb3d9.html#a713d9b0e4abc89183d429870a34f88dc":[9,5,1,0,0,11,2,0],
 "structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__EdgeId__MR__EdgeId__phmap__Hash__MR__EdgeI291f2d2132d79e2139a874f426beb3d9.html#a930dcde02a328bf98463de4c4f746cb7":[9,5,0,0,0,22,2,2],
-"structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__EdgeId__MR__EdgeId__phmap__Hash__MR__EdgeI291f2d2132d79e2139a874f426beb3d9.html#a930dcde02a328bf98463de4c4f746cb7":[9,5,1,0,0,11,2,2],
-"structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__EdgeId__MR__EdgeId__phmap__Hash__MR__EdgeI291f2d2132d79e2139a874f426beb3d9.html#aae9198093ba6cb018d009ceb05c29855":[9,5,0,0,0,22,2,3]
+"structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__EdgeId__MR__EdgeId__phmap__Hash__MR__EdgeI291f2d2132d79e2139a874f426beb3d9.html#a930dcde02a328bf98463de4c4f746cb7":[9,5,1,0,0,11,2,2]
 };

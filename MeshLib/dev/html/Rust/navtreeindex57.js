@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"structmeshlib_1_1FeatureObject.html#afb409f674037ec1ef43c88a79b25f4bf":[9,5,1,0,0,415,86],
 "structmeshlib_1_1FeatureObject.html#afd5e8721d9b3405fb0c4de7a17da121d":[9,5,0,0,0,428,3],
 "structmeshlib_1_1FeatureObject.html#afd5e8721d9b3405fb0c4de7a17da121d":[9,5,1,0,0,415,3],
 "structmeshlib_1_1FeatureObject.html#afdd9f6560012549a6b1f75c232f24905":[9,5,0,0,0,428,111],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "structmeshlib_1_1FindDisorientationParams.html#ad6e694b336ed2e77f6061f270fa62a3f":[9,5,1,0,0,429,7],
 "structmeshlib_1_1FindDisorientationParams__RayMode.html":[9,5,0,0,0,443],
 "structmeshlib_1_1FindDisorientationParams__RayMode.html":[9,5,1,0,0,430],
-"structmeshlib_1_1FindInnerShellSettings.html":[9,5,0,0,0,444],
-"structmeshlib_1_1FindInnerShellSettings.html":[9,5,1,0,0,431]
+"structmeshlib_1_1FindInnerShellSettings.html":[9,5,0,0,0,444]
 };

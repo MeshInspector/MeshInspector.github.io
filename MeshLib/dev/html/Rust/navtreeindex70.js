@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"structmeshlib_1_1LoadedMeshData.html#a9237949a081cff91a4fc4fef79754b36":[9,5,1,0,0,548,5],
 "structmeshlib_1_1LoadedMeshData.html#a930519d8dbe07e18fdf8d0d77c7efb41":[9,5,0,0,0,561,13],
 "structmeshlib_1_1LoadedMeshData.html#a930519d8dbe07e18fdf8d0d77c7efb41":[9,5,1,0,0,548,13],
 "structmeshlib_1_1LoadedMeshData.html#a967bcb9da98997afd608c43f6119c0ed":[9,5,0,0,0,561,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "structmeshlib_1_1MakeDegenerateBandAroundRegionParams.html#af1d0b99fcabe545a310b6e6f0ea83212":[9,5,1,0,0,557,10],
 "structmeshlib_1_1MakeSignedByWindingNumberSettings.html":[9,5,0,0,0,571],
 "structmeshlib_1_1MakeSignedByWindingNumberSettings.html":[9,5,1,0,0,558],
-"structmeshlib_1_1MakeSignedByWindingNumberSettings.html#a0d32cfeca8fc340cfeb294a663b2cbc5":[9,5,0,0,0,571,1],
-"structmeshlib_1_1MakeSignedByWindingNumberSettings.html#a0d32cfeca8fc340cfeb294a663b2cbc5":[9,5,1,0,0,558,1]
+"structmeshlib_1_1MakeSignedByWindingNumberSettings.html#a0d32cfeca8fc340cfeb294a663b2cbc5":[9,5,0,0,0,571,1]
 };

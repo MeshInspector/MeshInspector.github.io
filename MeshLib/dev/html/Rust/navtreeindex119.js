@@ -1,5 +1,6 @@
 var NAVTREEINDEX119 =
 {
+"structmeshlib_1_1RasterLoadSettings.html#aea92599da8a89c7d7946bace89a5aa25":[9,5,0,0,0,881,6],
 "structmeshlib_1_1RasterLoadSettings.html#aea92599da8a89c7d7946bace89a5aa25":[9,5,1,0,0,868,6],
 "structmeshlib_1_1RasterSaveSettings.html":[9,5,0,0,0,882],
 "structmeshlib_1_1RasterSaveSettings.html":[9,5,1,0,0,869],
@@ -248,6 +249,5 @@ var NAVTREEINDEX119 =
 "structmeshlib_1_1RegionBitSet.html#a4add9107a5a5467b2a59a8ff603ad5be":[9,5,0,0,0,888,4],
 "structmeshlib_1_1RegionBitSet.html#a4add9107a5a5467b2a59a8ff603ad5be":[9,5,1,0,0,875,4],
 "structmeshlib_1_1RegionBitSet.html#a4f2b718dbbd7a2be6441ebefa6d3232a":[9,5,0,0,0,888,50],
-"structmeshlib_1_1RegionBitSet.html#a4f2b718dbbd7a2be6441ebefa6d3232a":[9,5,1,0,0,875,50],
-"structmeshlib_1_1RegionBitSet.html#a510b4da75fb8ef877e19ff07571924ac":[9,5,0,0,0,888,35]
+"structmeshlib_1_1RegionBitSet.html#a4f2b718dbbd7a2be6441ebefa6d3232a":[9,5,1,0,0,875,50]
 };

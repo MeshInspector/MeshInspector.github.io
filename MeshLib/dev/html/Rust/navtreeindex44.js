@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"structmeshlib_1_1DecimateSettings.html#aff3b41e4cb0e8ced8ce9a9573ee0fc86":[9,5,1,0,0,259,36],
 "structmeshlib_1_1DecimateStrategy.html":[9,5,0,0,0,273],
 "structmeshlib_1_1DecimateStrategy.html":[9,5,1,0,0,260],
 "structmeshlib_1_1DeloneFlipsCache.html":[9,5,0,0,0,274],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "structmeshlib_1_1DetectTunnelSettings.html#ad81a0f100c2b6ae9e44d9ba6b2ac1d43":[9,5,1,0,0,268,20],
 "structmeshlib_1_1DetectTunnelSettings.html#ada1c841ef16665bbd89168433efc6615":[9,5,0,0,0,281,0],
 "structmeshlib_1_1DetectTunnelSettings.html#ada1c841ef16665bbd89168433efc6615":[9,5,1,0,0,268,0],
-"structmeshlib_1_1DetectTunnelSettings.html#ae282a833e3de9f44da4d503cfe6f83ba":[9,5,0,0,0,281,13],
-"structmeshlib_1_1DetectTunnelSettings.html#ae282a833e3de9f44da4d503cfe6f83ba":[9,5,1,0,0,268,13]
+"structmeshlib_1_1DetectTunnelSettings.html#ae282a833e3de9f44da4d503cfe6f83ba":[9,5,0,0,0,281,13]
 };

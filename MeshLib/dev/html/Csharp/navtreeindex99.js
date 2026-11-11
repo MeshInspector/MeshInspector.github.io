@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1Const__VisualObject.html#a43760fdf44cbd9b12b5a4da57d3820f7":[9,3,0,0,0,1086,33],
 "classMR_1_1Const__VisualObject.html#a4f1cd300ec0a46c2610bcc10d0364a25":[9,3,0,0,0,1086,10],
 "classMR_1_1Const__VisualObject.html#a4fad371794fef31c6a644558a5ce25cc":[9,3,0,0,0,1086,52],
 "classMR_1_1Const__VisualObject.html#a5619cebf853898931dec28a12cec2ffb":[9,3,0,0,0,1086,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html#a20cb65e8b04885b3481d6843cd40f631":[9,3,0,0,0,1107,0],
 "classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html#a38dae6ae589296f802787bf82b064aba":[9,3,0,0,0,1107,4],
 "classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html#a63b445f8d2812178bca7cbeac62ed285":[9,3,0,0,0,1107,1],
-"classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html#ab073619b0e677e525aaaf4d0451f4351":[9,3,0,0,0,1107,2],
-"classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html":[9,3,0,0,0,1108]
+"classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html#ab073619b0e677e525aaaf4d0451f4351":[9,3,0,0,0,1107,2]
 };

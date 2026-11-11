@@ -1,5 +1,6 @@
 var NAVTREEINDEX214 =
 {
+"structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3da08a965a4a063591a9db3c317974b37.html#ac7ff31abe7e105584103c84310dc7b3c":[9,5,0,0,0,1317,9],
 "structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3da08a965a4a063591a9db3c317974b37.html#ac7ff31abe7e105584103c84310dc7b3c":[9,5,1,0,0,1304,9],
 "structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3da08a965a4a063591a9db3c317974b37.html#ac8efd6e5daec83206a4a96d9bd9d1a15":[9,5,0,0,0,1317,0],
 "structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3da08a965a4a063591a9db3c317974b37.html#ac8efd6e5daec83206a4a96d9bd9d1a15":[9,5,1,0,0,1304,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX214 =
 "structmeshlib_1_1std__vector__MR__DistanceMap.html#a902646e9f9187f2fbecda034b12f6e49":[9,5,0,0,0,1324,10],
 "structmeshlib_1_1std__vector__MR__DistanceMap.html#a902646e9f9187f2fbecda034b12f6e49":[9,5,1,0,0,1311,10],
 "structmeshlib_1_1std__vector__MR__DistanceMap.html#a9a9174ca46c3d0de6e8871f8f4c53e26":[9,5,0,0,0,1324,11],
-"structmeshlib_1_1std__vector__MR__DistanceMap.html#a9a9174ca46c3d0de6e8871f8f4c53e26":[9,5,1,0,0,1311,11],
-"structmeshlib_1_1std__vector__MR__DistanceMap.html#ad0cb7ca9a6c2b5632f7b319732c2baa5":[9,5,0,0,0,1324,9]
+"structmeshlib_1_1std__vector__MR__DistanceMap.html#a9a9174ca46c3d0de6e8871f8f4c53e26":[9,5,1,0,0,1311,11]
 };

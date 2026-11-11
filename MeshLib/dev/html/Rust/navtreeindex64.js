@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structmeshlib_1_1IComputePointsToDistanceVolume.html#a0cd4f2a1e6504a86fba36b6faf7666a7":[9,5,1,0,0,475,0],
 "structmeshlib_1_1IComputePointsToDistanceVolume.html#a5780e58816f45c856730cc3d98afcf60":[9,5,0,0,0,488,1],
 "structmeshlib_1_1IComputePointsToDistanceVolume.html#a5780e58816f45c856730cc3d98afcf60":[9,5,1,0,0,475,1],
 "structmeshlib_1_1IComputePointsToDistanceVolumeByParts.html":[9,5,0,0,0,489],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structmeshlib_1_1ImproveSamplingSettings.html#a6345ad56ff408f948bc965f6865ac17b":[9,5,1,0,0,493,12],
 "structmeshlib_1_1ImproveSamplingSettings.html#a653e2093bc56d77b52e829d1727e5855":[9,5,0,0,0,506,17],
 "structmeshlib_1_1ImproveSamplingSettings.html#a653e2093bc56d77b52e829d1727e5855":[9,5,1,0,0,493,17],
-"structmeshlib_1_1ImproveSamplingSettings.html#a6867e30b32cb349d5888301201d00849":[9,5,0,0,0,506,20],
-"structmeshlib_1_1ImproveSamplingSettings.html#a6867e30b32cb349d5888301201d00849":[9,5,1,0,0,493,20]
+"structmeshlib_1_1ImproveSamplingSettings.html#a6867e30b32cb349d5888301201d00849":[9,5,0,0,0,506,20]
 };

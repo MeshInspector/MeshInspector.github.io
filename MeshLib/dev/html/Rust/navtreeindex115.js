@@ -1,5 +1,6 @@
 var NAVTREEINDEX115 =
 {
+"structmeshlib_1_1PolylineTopology.html":[9,5,1,0,0,825],
 "structmeshlib_1_1PolylineTopology.html#a0060e74c3620bd0d62aa6f4160a00ca0":[9,5,0,0,0,838,10],
 "structmeshlib_1_1PolylineTopology.html#a0060e74c3620bd0d62aa6f4160a00ca0":[9,5,1,0,0,825,10],
 "structmeshlib_1_1PolylineTopology.html#a025228529edc5d52efc2f3a1cd52c971":[9,5,0,0,0,838,1],
@@ -118,7 +119,7 @@ var NAVTREEINDEX115 =
 "structmeshlib_1_1PolylineTraits__MR__Vector3f.html#a82f3502e3ef23bd87a7516d88a57ad84":[9,5,1,0,0,828,0],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html":[9,5,0,0,0,842],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html":[9,5,1,0,0,829],
-"structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a051565ec6f85b8b1b8b0796637b71559":[9,5,0,0,0,3251],
+"structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a051565ec6f85b8b1b8b0796637b71559":[9,5,0,0,0,3252],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a051565ec6f85b8b1b8b0796637b71559":[9,5,0,0,0,842,3],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a051565ec6f85b8b1b8b0796637b71559":[9,5,1,0,0,829,3],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a524104fe078d3d9c604e42cb75065808":[9,5,0,0,0,842,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX115 =
 "structmeshlib_1_1Polynomial__float__1.html":[9,5,0,0,0,851],
 "structmeshlib_1_1Polynomial__float__1.html":[9,5,1,0,0,838],
 "structmeshlib_1_1Polynomial__float__1.html#a1cc1a7b79186c9c890d4146ec99a4c1b":[9,5,0,0,0,851,3],
-"structmeshlib_1_1Polynomial__float__1.html#a1cc1a7b79186c9c890d4146ec99a4c1b":[9,5,1,0,0,838,3],
-"structmeshlib_1_1Polynomial__float__1.html#a2b6c3eb660c50f567dde6cfc0e71a19c":[9,5,0,0,0,851,0]
+"structmeshlib_1_1Polynomial__float__1.html#a1cc1a7b79186c9c890d4146ec99a4c1b":[9,5,1,0,0,838,3]
 };

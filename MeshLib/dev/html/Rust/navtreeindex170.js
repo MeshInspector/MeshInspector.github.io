@@ -1,5 +1,6 @@
 var NAVTREEINDEX170 =
 {
+"structmeshlib_1_1VertMap.html#ab5f8b4082d5d4fabdf5fc55ba104fde2":[9,5,0,0,0,1684,5],
 "structmeshlib_1_1VertMap.html#ab5f8b4082d5d4fabdf5fc55ba104fde2":[9,5,1,0,0,1671,5],
 "structmeshlib_1_1VertMap.html#ac6f7f76fcc8dc2e219b3426598535b1e":[9,5,0,0,0,1684,11],
 "structmeshlib_1_1VertMap.html#ac6f7f76fcc8dc2e219b3426598535b1e":[9,5,1,0,0,1671,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX170 =
 "structmeshlib_1_1ViewportProperty__MR__Color.html#acb50c2b1f543c2e46ccf9bd93ca0aa28":[9,5,0,0,0,1694,3],
 "structmeshlib_1_1ViewportProperty__MR__Color.html#acb50c2b1f543c2e46ccf9bd93ca0aa28":[9,5,1,0,0,1681,3],
 "structmeshlib_1_1ViewportProperty__MR__Color.html#acc0fb8dd18262a510a31dce78bd47756":[9,5,0,0,0,1694,7],
-"structmeshlib_1_1ViewportProperty__MR__Color.html#acc0fb8dd18262a510a31dce78bd47756":[9,5,1,0,0,1681,7],
-"structmeshlib_1_1ViewportProperty__MR__Color.html#acd944a43c0bc25ca3f0ece323db569b1":[9,5,0,0,0,1694,4]
+"structmeshlib_1_1ViewportProperty__MR__Color.html#acc0fb8dd18262a510a31dce78bd47756":[9,5,1,0,0,1681,7]
 };

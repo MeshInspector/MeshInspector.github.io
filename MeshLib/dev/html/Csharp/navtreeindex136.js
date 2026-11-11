@@ -1,5 +1,6 @@
 var NAVTREEINDEX136 =
 {
+"classMR_1_1ShellVertexInfo.html#adb81a03e579833c96ec39a703b96e723":[9,3,0,0,0,1727,0],
 "classMR_1_1ShellVertexInfo.html#afb436060e4924e982bfa05d14b595141":[9,3,0,0,0,1727,1],
 "classMR_1_1ShrinkwrapParameters.html":[9,3,0,0,0,1728],
 "classMR_1_1ShrinkwrapParameters.html#a27270182f29153a0e5fae1edf6604572":[9,3,0,0,0,1728,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX136 =
 "classMR_1_1SphereObject.html#a94a177221c7546d57872998583aba600":[9,3,0,0,0,1748,16],
 "classMR_1_1SphereObject.html#a98522bd32b95e0412600ad52815204ce":[9,3,0,0,0,1748,57],
 "classMR_1_1SphereObject.html#a9bef222fc4ca63aa138a7818c6092f8c":[9,3,0,0,0,1748,32],
-"classMR_1_1SphereObject.html#aa06822e2ea90fa08984ff8f583a979d7":[9,3,0,0,0,1748,22],
-"classMR_1_1SphereObject.html#aa329d42ed1ece62bd48684cad84b127b":[9,3,0,0,0,1748,0]
+"classMR_1_1SphereObject.html#aa06822e2ea90fa08984ff8f583a979d7":[9,3,0,0,0,1748,22]
 };

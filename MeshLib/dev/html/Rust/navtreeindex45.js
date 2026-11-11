@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"structmeshlib_1_1DetectTunnelSettings.html#ae282a833e3de9f44da4d503cfe6f83ba":[9,5,1,0,0,268,13],
 "structmeshlib_1_1DetectTunnelSettings.html#afe7278fd11283dbc8f6095a5c81e0ab4":[9,5,0,0,0,281,10],
 "structmeshlib_1_1DetectTunnelSettings.html#afe7278fd11283dbc8f6095a5c81e0ab4":[9,5,1,0,0,268,10],
 "structmeshlib_1_1DihedralAngleProcessParams.html":[9,5,0,0,0,282],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "structmeshlib_1_1DistanceMap.html#a1dbb011416c5c8acf42b035aec529713":[9,5,1,0,0,277,7],
 "structmeshlib_1_1DistanceMap.html#a1ed8f91860faf8dbe9d71d544f2cdecd":[9,5,0,0,0,290,0],
 "structmeshlib_1_1DistanceMap.html#a1ed8f91860faf8dbe9d71d544f2cdecd":[9,5,1,0,0,277,0],
-"structmeshlib_1_1DistanceMap.html#a25a4f42c5949eb84087e38e8e6240e65":[9,5,0,0,0,290,18],
-"structmeshlib_1_1DistanceMap.html#a25a4f42c5949eb84087e38e8e6240e65":[9,5,1,0,0,277,18]
+"structmeshlib_1_1DistanceMap.html#a25a4f42c5949eb84087e38e8e6240e65":[9,5,0,0,0,290,18]
 };

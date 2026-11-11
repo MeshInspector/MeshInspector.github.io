@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1BooleanResultPoints.html":[9,0,1,0,1,114],
 "structMR_1_1BooleanResultPoints.html":[9,0,2,0,1,94],
 "structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[9,0,1,0,1,114,2],
 "structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[9,0,2,0,1,94,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1DividePointCloudOptionalOutput.html":[9,0,0,19,460],
 "structMR_1_1DividePolylineParameters.html":[9,0,0,19,477],
 "structMR_1_1DoubleOffsetSettings.html":[9,0,0,19,918],
-"structMR_1_1DracoSaveOptions.html":[9,0,0,19,96],
-"structMR_1_1DragDropListener.html":[9,0,0,19,814]
+"structMR_1_1DracoSaveOptions.html":[9,0,0,19,96]
 };

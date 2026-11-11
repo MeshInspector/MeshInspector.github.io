@@ -5,6 +5,7 @@ var MRSystem_8rs =
     [ "meshlib::get_current_process_id", "namespacemeshlib.html#ad07c017ffbd7efbea0fea007613564ac", null ],
     [ "meshlib::get_detailed_os_name", "namespacemeshlib.html#a99991b603f1eb1c23c901c84b53e1427", null ],
     [ "meshlib::get_home_directory", "namespacemeshlib.html#a75f8d5ba6e59ab74a8fd543de453742d", null ],
+    [ "meshlib::get_local_time_zone", "namespacemeshlib.html#a4924d640f960bf620d08fc83634be3f2", null ],
     [ "meshlib::get_mr_version_string", "namespacemeshlib.html#a42e2453ebbe049177d57d0c3497211a6", null ],
     [ "meshlib::get_os_no_spaces", "namespacemeshlib.html#aac8008b2e20061d7ca005cb9369a9813", null ],
     [ "meshlib::get_system_memory", "namespacemeshlib.html#ad84b92ade71da97f9f564d90e5f1597e", null ],

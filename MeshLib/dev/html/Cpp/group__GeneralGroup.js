@@ -13043,6 +13043,7 @@ var group__GeneralGroup =
     [ "MR::RadiusMeasurementObject::getLocalRadiusAsVector", "group__GeneralGroup.html#ga64eae7cb6548248506b28b18644c77a1", null ],
     [ "MR::AngleMeasurementObject::getLocalRay", "group__GeneralGroup.html#gac0941779288a1d4fec0eb20217cbbeeb", null ],
     [ "MR::PlaneWidget::getLocalShift", "group__GeneralGroup.html#ga5cf8968515531c2adac47a2f1b342235", null ],
+    [ "MR::getLocalTimeZone", "group__GeneralGroup.html#gae7ae6fd884aa14ad630ce7697ef256a3", null ],
     [ "MR::FeatureObject::getMainFeatureAlpha", "group__GeneralGroup.html#gabf3a0ac79e071b74aea4108d42d433cd", null ],
     [ "MR::CommandLoop::getMainThreadId", "group__GeneralGroup.html#ga838c1c9734a5dcffc951811fbf442a3b", null ],
     [ "MR::MapOrHashMap::getMap", "group__GeneralGroup.html#ga1061c0b8db208cf5af14eb2760cb3703", null ],

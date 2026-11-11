@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"classMR_1_1Const__Pdf_1_1TextCellParams.html#a4dda07b1ccd83d912dbb527cd7404e8a":[9,3,0,0,0,760,10,3],
 "classMR_1_1Const__Pdf_1_1TextCellParams.html#a4f63e9ef01f8432900162cd97246d1fd":[9,3,0,0,0,760,10,8],
 "classMR_1_1Const__Pdf_1_1TextCellParams.html#a5606546020df237cc3f78cff4b8fc38a":[9,3,0,0,0,760,10,4],
 "classMR_1_1Const__Pdf_1_1TextCellParams.html#aa1ef2b8a34ea02d61e590caffb9fe986":[9,3,0,0,0,760,10,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "classMR_1_1Const__PointAccumulator.html#a4a0c7378f84b372c38ed64d9db10a2a1":[9,3,0,0,0,768,1],
 "classMR_1_1Const__PointAccumulator.html#a508dcd8c6d2da3ee94f442a0781abf1f":[9,3,0,0,0,768,4],
 "classMR_1_1Const__PointAccumulator.html#a533432b8f6cc0c3ee9efbcc34663aba4":[9,3,0,0,0,768,13],
-"classMR_1_1Const__PointAccumulator.html#a7acbd748e3aa4a47a3e463bdcd538e27":[9,3,0,0,0,768,7],
-"classMR_1_1Const__PointAccumulator.html#a8e41a5439a623311242863efbeb38c61":[9,3,0,0,0,768,12]
+"classMR_1_1Const__PointAccumulator.html#a7acbd748e3aa4a47a3e463bdcd538e27":[9,3,0,0,0,768,7]
 };

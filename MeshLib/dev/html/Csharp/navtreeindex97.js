@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"classMR_1_1Const__Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html#af6ac4944dece2bb893247a8bab763ef7":[9,3,0,0,0,1060,7],
 "classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag.html":[9,3,0,0,0,1061],
 "classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag.html#a071d06bd77b4be2588a9e8447dc4e141":[9,3,0,0,0,1061,11],
 "classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag.html#a07367e8490d4dba136255c4fdc51c39d":[9,3,0,0,0,1061,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "classMR_1_1Const__VertCoordsDiff.html#af847c3e423d768a18e7066521571bcbf":[9,3,0,0,0,1071,4],
 "classMR_1_1Const__VertDistance.html":[9,3,0,0,0,1072],
 "classMR_1_1Const__VertDistance.html#a0d6f3cce27810bc469e5e0f5cd984c22":[9,3,0,0,0,1072,9],
-"classMR_1_1Const__VertDistance.html#a10a30816cedaf6739c52dc02385dd4d1":[9,3,0,0,0,1072,11],
-"classMR_1_1Const__VertDistance.html#a2acedad7ef555d21965c813f18e12f20":[9,3,0,0,0,1072,13]
+"classMR_1_1Const__VertDistance.html#a10a30816cedaf6739c52dc02385dd4d1":[9,3,0,0,0,1072,11]
 };

@@ -2762,6 +2762,7 @@ var namespaceMR =
     [ "getLinesJointVertexShader", "group__GeneralGroup.html#ga381bab48f8eb8c16fd656799bd1e7903", null ],
     [ "getLinesPickerVertexShader", "group__GeneralGroup.html#ga7efc626eb10d4d8242cc43d8ec82bd8b", null ],
     [ "getLinesVertexShader", "group__GeneralGroup.html#ga266e4beb4d8066ce8371b96a2c258464", null ],
+    [ "getLocalTimeZone", "group__GeneralGroup.html#gae7ae6fd884aa14ad630ce7697ef256a3", null ],
     [ "getMaxDihedralAngleMetric", "group__FillHoleGroup.html#ga1f3fb15ec3fb81a9c3fa31b16c08b6fa", null ],
     [ "getMeanSqDistToPlane", "group__GeneralGroup.html#ga2f004671404b2a06e56c484d5e5a3e40", null ],
     [ "getMeanSqDistToPoint", "group__GeneralGroup.html#ga8fac39607138c4e9d594cffbdf5f28d7", null ],

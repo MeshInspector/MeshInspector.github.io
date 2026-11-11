@@ -1,5 +1,6 @@
 var NAVTREEINDEX195 =
 {
+"structmrbindc__details_1_1ClassArgGuard.html":[9,2,1,0,0,0],
 "structmrbindc__details_1_1ClassArgGuard.html#a0dad56557fcc1e4c7b63a06538832113":[9,2,0,0,0,0,1],
 "structmrbindc__details_1_1ClassArgGuard.html#a0dad56557fcc1e4c7b63a06538832113":[9,2,1,0,0,0,1],
 "structmrbindc__details_1_1ClassArgGuard.html#a4c2a978d3b8a0ad741031073f089eb89":[9,2,0,0,0,0,4],

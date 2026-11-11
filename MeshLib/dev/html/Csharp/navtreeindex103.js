@@ -1,5 +1,6 @@
 var NAVTREEINDEX103 =
 {
+"classMR_1_1DecimatePolylineResult.html#a7b610e6ff6bb17c3fe5917060054e0c9":[9,3,0,0,0,1207,0],
 "classMR_1_1DecimatePolylineResult.html#a85ef9dca091b8bcdcd68043324e5019c":[9,3,0,0,0,1207,3],
 "classMR_1_1DecimatePolylineResult.html#addfe4e10968d02c38ccd2a83b77afccb":[9,3,0,0,0,1207,1],
 "classMR_1_1DecimatePolylineSettings__MRVector2f.html":[9,3,0,0,0,1208],
@@ -248,6 +249,5 @@ var NAVTREEINDEX103 =
 "classMR_1_1DistanceFromWeightedPointsParams.html#a96188ebf306435a55b659202539742ff":[9,3,0,0,0,1224,0],
 "classMR_1_1DistanceFromWeightedPointsParams.html#aa6f3702d082fd63d614e575e2a7d9780":[9,3,0,0,0,1224,8],
 "classMR_1_1DistanceFromWeightedPointsParams.html#ace31d883bb8d4dc6b2d464a52d0ba433":[9,3,0,0,0,1224,3],
-"classMR_1_1DistanceFromWeightedPointsParams.html#aecf1dc9237e6cf846042942d2fac45b5":[9,3,0,0,0,1224,5],
-"classMR_1_1DistanceFromWeightedPointsParams.html#aefb44a12e7094e4a1bb5e334affb715e":[9,3,0,0,0,1224,1]
+"classMR_1_1DistanceFromWeightedPointsParams.html#aecf1dc9237e6cf846042942d2fac45b5":[9,3,0,0,0,1224,5]
 };

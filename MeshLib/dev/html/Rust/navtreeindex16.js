@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8rs.html":[9,5,2,0,0,1,3,541],
 "std__vector__MR__VdbVolume_8rs.html":[9,5,2,0,0,1,3,542],
 "std__vector__MR__Vector2d_8rs.html":[9,5,2,0,0,1,3,543],
 "std__vector__MR__Vector2d__MR__Allocator__MR__Vector2d_8rs.html":[9,5,2,0,0,1,3,544],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a10ffd65f476543ff0b34c92d70ce26ce":[9,5,1,0,0,28,0],
 "structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a27acfb2b6de3a53c74a1823eaffcab75":[9,5,0,0,0,41,3],
 "structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a27acfb2b6de3a53c74a1823eaffcab75":[9,5,1,0,0,28,3],
-"structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a3f4b2d58a904703b48bfa8b52435ccf9":[9,5,0,0,0,41,5],
-"structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a3f4b2d58a904703b48bfa8b52435ccf9":[9,5,1,0,0,28,5]
+"structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a3f4b2d58a904703b48bfa8b52435ccf9":[9,5,0,0,0,41,5]
 };

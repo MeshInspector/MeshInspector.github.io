@@ -3797,6 +3797,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a5764dfc83fac45fde033064b0f7aaaa4" id="r_a5764dfc83fac45fde033064b0f7aaaa4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5764dfc83fac45fde033064b0f7aaaa4">set_new_handler_if_needed</a> ()</td></tr>
 <tr class="memitem:ad84b92ade71da97f9f564d90e5f1597e" id="r_ad84b92ade71da97f9f564d90e5f1597e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad84b92ade71da97f9f564d90e5f1597e">get_system_memory</a> () -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1SystemMemory.html">meshlib::SystemMemory</a> &gt;</td></tr>
 <tr class="memitem:ad07c017ffbd7efbea0fea007613564ac" id="r_ad07c017ffbd7efbea0fea007613564ac"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad07c017ffbd7efbea0fea007613564ac">get_current_process_id</a> () -&gt; core::ffi::c_uint</td></tr>
+<tr class="memitem:a4924d640f960bf620d08fc83634be3f2" id="r_a4924d640f960bf620d08fc83634be3f2"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4924d640f960bf620d08fc83634be3f2">get_local_time_zone</a> () -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1std__string.html">meshlib::std_string</a> &gt;</td></tr>
 <tr class="memitem:ae275b8f701a89ae1dcc9044cb848483c" id="r_ae275b8f701a89ae1dcc9044cb848483c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae275b8f701a89ae1dcc9044cb848483c">setup_logger_by_default</a> (customLogSinkAdder:Option&lt;&amp;<a class="el" href="structmeshlib_1_1std__function__void.html">meshlib::std_function_void</a> &gt;)</td></tr>
 <tr class="memitem:a344a0d3cda3a33e2ea4021dc990b3116" id="r_a344a0d3cda3a33e2ea4021dc990b3116"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a344a0d3cda3a33e2ea4021dc990b3116">int_log2</a> (n:usize) -&gt; core::ffi::c_int</td></tr>
 <tr class="memitem:aa0efa73b1abbdb1336ffa38cba7d082d" id="r_aa0efa73b1abbdb1336ffa38cba7d082d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0efa73b1abbdb1336ffa38cba7d082d">find_vertex_uv</a> (topology:&amp;<a class="el" href="structmeshlib_1_1MeshTopology.html">meshlib::MeshTopology</a>, v:meshlib::VertId, triCornerUvCoords:&amp;<a class="el" href="structmeshlib_1_1TriCornerUVCoords.html">meshlib::TriCornerUVCoords</a>) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1std__optional__MR__Vector2f.html">meshlib::std_optional_MR_Vector2f</a> &gt;</td></tr>
@@ -28578,6 +28579,25 @@ Simple metric minimizing edge length It is measured in length units. Generated f
 </div><div class="memdoc">
 <p>returns three points of left face of e: v0 = orgPnt( e ), v1 = destPnt( e ) Generated from function <span class="tt">MR::getLeftTriPoints</span>.</p>
 <p>Calls <span class="tt">MR_getLeftTriPoints_6()</span>. </p>
+
+</div>
+</div>
+<a id="a4924d640f960bf620d08fc83634be3f2" name="a4924d640f960bf620d08fc83634be3f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4924d640f960bf620d08fc83634be3f2">&#9670;&#160;</a></span>get_local_time_zone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::get_local_time_zone </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1std__string.html">meshlib::std_string</a> &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the current offset of the local time zone from UTC, e.g. "UTC+03:00", or an empty string if it is unknown Generated from function <span class="tt">MR::getLocalTimeZone</span>.</p>
+<p>Calls <span class="tt">MR_getLocalTimeZone()</span>. </p>
 
 </div>
 </div>

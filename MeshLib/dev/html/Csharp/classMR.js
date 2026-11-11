@@ -3376,6 +3376,7 @@ var classMR =
     [ "getInnerVerts", "classMR.html#aeb87fe44ab912638655cbe33d64e1470", null ],
     [ "getLeftTriPoints", "classMR.html#a29944b16131e85e88658ff400721822a", null ],
     [ "getLeftTriPoints", "classMR.html#a23ff1ade0616d7647a3b6b53d7add30d", null ],
+    [ "getLocalTimeZone", "classMR.html#a8a683d9178c18b386188271a04faa6f8", null ],
     [ "getMaxDihedralAngleMetric", "classMR.html#a1de6e106ee6ac51fda400b64db85971c", null ],
     [ "getMeanSqDistToPlane", "classMR.html#aa4765a91fe576c48e8563e4d956abcd5", null ],
     [ "getMeanSqDistToPoint", "classMR.html#a5322e2a224f61cce1a56949a4ab9b7af", null ],

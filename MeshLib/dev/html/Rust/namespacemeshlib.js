@@ -2704,6 +2704,7 @@ var namespacemeshlib =
     [ "get_inner_verts_mr_undirected_edge_bit_set", "namespacemeshlib.html#a41d6e8e17cb316c62c562c4f470f5bed", null ],
     [ "get_left_tri_points_3", "namespacemeshlib.html#a1f8660ef77fc68f22af559347604a9bd", null ],
     [ "get_left_tri_points_6", "namespacemeshlib.html#a27d6bb9f5ea7017e64ee4bbd0812693c", null ],
+    [ "get_local_time_zone", "namespacemeshlib.html#a4924d640f960bf620d08fc83634be3f2", null ],
     [ "get_max_dihedral_angle_metric", "namespacemeshlib.html#abb32a06ea0feaf1d4159438227d85015", null ],
     [ "get_mean_sq_dist_to_plane", "namespacemeshlib.html#a31bd218db1ba85011ad395cd629bb0c4", null ],
     [ "get_mean_sq_dist_to_point", "namespacemeshlib.html#a57872da944a4897bebb71ff8b82ae919", null ],

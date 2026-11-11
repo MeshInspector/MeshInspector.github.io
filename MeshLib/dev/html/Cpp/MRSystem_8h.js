@@ -9,6 +9,7 @@ var MRSystem_8h =
     [ "MR::GetFontsDirectory", "group__GeneralGroup.html#gad6bb5e19b070dcbc9a5a85783f9e8beb", null ],
     [ "MR::GetHomeDirectory", "group__GeneralGroup.html#gaede3ee4fa7cd6dac98eec3af0fc694e6", null ],
     [ "MR::GetLibsDirectory", "group__GeneralGroup.html#ga8a4e28206b347ee9ff0adf2aedf490dd", null ],
+    [ "MR::getLocalTimeZone", "group__GeneralGroup.html#gae7ae6fd884aa14ad630ce7697ef256a3", null ],
     [ "MR::GetMRVersionString", "group__GeneralGroup.html#ga343fc892898b015c184b43cac5b57252", null ],
     [ "MR::getOSNoSpaces", "group__GeneralGroup.html#gaf97917cdaf8f4b86b0ec6e9dddc55cbf", null ],
     [ "MR::getProductName", "group__GeneralGroup.html#ga9a5c53044fe97027656ba49e68fee1ff", null ],

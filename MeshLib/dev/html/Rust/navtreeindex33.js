@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"structmeshlib_1_1ChangeFacesColorMapAction.html#a784519450d0eea1a048357b6ee537622":[9,5,1,0,0,158,3],
 "structmeshlib_1_1ChangeFacesColorMapAction.html#ad32a2348c8244b8d066d898305b33c64":[9,5,0,0,0,171,2],
 "structmeshlib_1_1ChangeFacesColorMapAction.html#ad32a2348c8244b8d066d898305b33c64":[9,5,1,0,0,158,2],
 "structmeshlib_1_1ChangeFacesColorMapAction.html#adb29b3e806db2c8f783adad00e3249d9":[9,5,0,0,0,171,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "structmeshlib_1_1ChangeOneNormalInCloudAction.html#a9c37d7fbcf735def6d41597f4dff87bc":[9,5,1,0,0,178,3],
 "structmeshlib_1_1ChangeOneNormalInCloudAction.html#ac1df50391a35ae3ad87dfea715becb96":[9,5,0,0,0,191,4],
 "structmeshlib_1_1ChangeOneNormalInCloudAction.html#ac1df50391a35ae3ad87dfea715becb96":[9,5,1,0,0,178,4],
-"structmeshlib_1_1ChangeOnePointInCloudAction.html":[9,5,0,0,0,192],
-"structmeshlib_1_1ChangeOnePointInCloudAction.html":[9,5,1,0,0,179]
+"structmeshlib_1_1ChangeOnePointInCloudAction.html":[9,5,0,0,0,192]
 };

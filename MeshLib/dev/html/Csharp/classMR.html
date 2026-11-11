@@ -11943,6 +11943,8 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:a34d0923d10cae0f85d0f3dbf27b15198"><td class="mdescLeft">&#160;</td><td class="mdescRight">return information about memory available in the system Generated from function <span class="tt"><a class="el" href="#a34d0923d10cae0f85d0f3dbf27b15198" title="return information about memory available in the system Generated from function MR....">MR.getSystemMemory</a></span>.  <br /></td></tr>
 <tr class="memitem:a2d6658d918a640d40a180cd391f1d9cc" id="r_a2d6658d918a640d40a180cd391f1d9cc"><td class="memItemLeft" align="right" valign="top">static uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d6658d918a640d40a180cd391f1d9cc">getCurrentProcessId</a> ()</td></tr>
 <tr class="memdesc:a2d6658d918a640d40a180cd391f1d9cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the current process's id (or 0 for Wasm) Generated from function <span class="tt"><a class="el" href="#a2d6658d918a640d40a180cd391f1d9cc" title="return the current process&#39;s id (or 0 for Wasm) Generated from function MR.getCurrentProcessId.">MR.getCurrentProcessId</a></span>.  <br /></td></tr>
+<tr class="memitem:a8a683d9178c18b386188271a04faa6f8" id="r_a8a683d9178c18b386188271a04faa6f8"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a683d9178c18b386188271a04faa6f8">getLocalTimeZone</a> ()</td></tr>
+<tr class="memdesc:a8a683d9178c18b386188271a04faa6f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the current offset of the local time zone from UTC, e.g. &quot;UTC+03:00&quot;, or an empty string if it is unknown Generated from function <span class="tt"><a class="el" href="#a8a683d9178c18b386188271a04faa6f8" title="returns the current offset of the local time zone from UTC, e.g. &quot;UTC+03:00&quot;, or an empty string if i...">MR.getLocalTimeZone</a></span>.  <br /></td></tr>
 <tr class="memitem:a3f2c3d315f40543d82d16bd8d0911243" id="r_a3f2c3d315f40543d82d16bd8d0911243"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f2c3d315f40543d82d16bd8d0911243">setupLoggerByDefault</a> (MR.Std.Const_Function_Void? customLogSinkAdder=null)</td></tr>
 <tr class="memdesc:a3f2c3d315f40543d82d16bd8d0911243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setups logger: 1) makes stdout sink 2) makes file sink (MRLog.txt) 3) redirect std streams to logger 4) add custom sink if provided 5) print stacktrace on crash (not in wasm) log level - trace Generated from function <span class="tt"><a class="el" href="#a3f2c3d315f40543d82d16bd8d0911243" title="Setups logger: 1) makes stdout sink 2) makes file sink (MRLog.txt) 3) redirect std streams to logger ...">MR.setupLoggerByDefault</a></span>. Parameter <span class="tt">customLogSinkAdder</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:af56b42ffdbd35c6375425f81128cc625" id="r_af56b42ffdbd35c6375425f81128cc625"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af56b42ffdbd35c6375425f81128cc625">intLog2</a> (nuint n)</td></tr>
@@ -46201,6 +46203,33 @@ Simple metric minimizing edge length It is measured in length units. Generated f
 </div><div class="memdoc">
 
 <p>returns three points of left face of e: v0 = orgPnt( e ), v1 = destPnt( e ) Generated from function <span class="tt"><a class="el" href="#a23ff1ade0616d7647a3b6b53d7add30d" title="returns three points of left face of e: v0 = orgPnt( e ), v1 = destPnt( e ) Generated from function M...">MR.getLeftTriPoints</a></span>. </p>
+
+</div>
+</div>
+<a id="a8a683d9178c18b386188271a04faa6f8" name="a8a683d9178c18b386188271a04faa6f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a683d9178c18b386188271a04faa6f8">&#9670;&#160;</a></span>getLocalTimeZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.String MR.getLocalTimeZone </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the current offset of the local time zone from UTC, e.g. &quot;UTC+03:00&quot;, or an empty string if it is unknown Generated from function <span class="tt"><a class="el" href="#a8a683d9178c18b386188271a04faa6f8" title="returns the current offset of the local time zone from UTC, e.g. &quot;UTC+03:00&quot;, or an empty string if i...">MR.getLocalTimeZone</a></span>. </p>
 
 </div>
 </div>

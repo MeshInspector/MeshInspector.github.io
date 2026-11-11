@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"structmeshlib_1_1MergeVolumePartSettings.html#ad13a781b8100dd8961d1cef38adbc652":[9,5,1,0,0,594,3],
 "structmeshlib_1_1MergeVolumePartSettings.html#ae9c51a6feda0b0d2abfccf53ab896ded":[9,5,0,0,0,607,9],
 "structmeshlib_1_1MergeVolumePartSettings.html#ae9c51a6feda0b0d2abfccf53ab896ded":[9,5,1,0,0,594,9],
 "structmeshlib_1_1MergeVolumePartSettings.html#af8c578614465f2172168a19ffa541a44":[9,5,0,0,0,607,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "structmeshlib_1_1Mesh.html#ae85e9940f88fffcbe1bf5c472c00d9d5":[9,5,1,0,0,595,20],
 "structmeshlib_1_1Mesh.html#aee498b607bce666da169e02056181b97":[9,5,0,0,0,608,47],
 "structmeshlib_1_1Mesh.html#aee498b607bce666da169e02056181b97":[9,5,1,0,0,595,47],
-"structmeshlib_1_1Mesh.html#aef1b8ce125e8bf4cc0e2aeb39293cdf3":[9,5,0,0,0,608,54],
-"structmeshlib_1_1Mesh.html#aef1b8ce125e8bf4cc0e2aeb39293cdf3":[9,5,1,0,0,595,54]
+"structmeshlib_1_1Mesh.html#aef1b8ce125e8bf4cc0e2aeb39293cdf3":[9,5,0,0,0,608,54]
 };

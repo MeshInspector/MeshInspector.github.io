@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html":[9,0,1,0,1,53,2,2],
 "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html":[9,0,2,0,1,35,0,2],
 "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html#a09f3fe261438edd0071ac8dd34a503a1":[9,0,1,0,1,53,2,2,1],
 "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html#a09f3fe261438edd0071ac8dd34a503a1":[9,0,2,0,1,35,0,2,1],
@@ -122,7 +123,7 @@ var NAVTREEINDEX72 =
 "structMR_1_1Vector2.html":[9,0,0,0,12,0],
 "structMR_1_1Vector2.html#a030ced735e97176e4977b93e9f92bcfd":[9,0,0,0,12,0,24],
 "structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[9,0,0,0,12,0,42],
-"structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[9,0,1,0,1,2992],
+"structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[9,0,1,0,1,2993],
 "structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c":[9,0,0,0,12,0,43],
 "structMR_1_1Vector2.html#a0537b0cb50cc7b0605e0fc95ffaf6b0b":[9,0,0,0,12,0,4],
 "structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d":[9,0,0,0,12,0,22],
@@ -160,7 +161,7 @@ var NAVTREEINDEX72 =
 "structMR_1_1Vector2.html#aa7e0a1754fac4de39eb88fc3f1e2db46":[9,0,1,0,1,1679],
 "structMR_1_1Vector2.html#aad35960bf4d5a0eefd7945e6e6bf768c":[9,0,0,0,12,0,1],
 "structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6":[9,0,0,0,12,0,26],
-"structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6":[9,0,1,0,1,2555],
+"structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6":[9,0,1,0,1,2556],
 "structMR_1_1Vector2.html#aaf2a2fdd2ea258a5a0ce7d885042aa6a":[9,0,0,0,12,0,30],
 "structMR_1_1Vector2.html#ab4e40155ff2cca5786fd9aa586efb49c":[9,0,0,0,12,0,12],
 "structMR_1_1Vector2.html#ab5e3fce397a1b385c1dc504acf936aea":[9,0,0,0,12,0,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323":[9,0,2,0,1,37,0,0],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html#a8194c36117ac4d7ace9f1070ce398953":[9,0,1,0,1,57,0,3],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html#a8194c36117ac4d7ace9f1070ce398953":[9,0,2,0,1,37,0,3],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#a8415f6dc84ccf8061fd256e2420cd4fd":[9,0,1,0,1,57,0,2],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#a8415f6dc84ccf8061fd256e2420cd4fd":[9,0,2,0,1,37,0,2]
+"structMR_1_1VoxelsSave_1_1SavingSettings.html#a8415f6dc84ccf8061fd256e2420cd4fd":[9,0,1,0,1,57,0,2]
 };

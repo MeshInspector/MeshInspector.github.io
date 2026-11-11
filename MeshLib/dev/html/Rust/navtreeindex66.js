@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structmeshlib_1_1IntersectionPrecomputes2__double.html#afd7518b35e4f5550ef4726a5e3bd9f89":[9,5,1,0,0,504,8],
 "structmeshlib_1_1IntersectionPrecomputes2__float.html":[9,5,0,0,0,518],
 "structmeshlib_1_1IntersectionPrecomputes2__float.html":[9,5,1,0,0,505],
 "structmeshlib_1_1IntersectionPrecomputes2__float.html#a0a0fd8a8d65cb031aaff33f177cd484a":[9,5,0,0,0,518,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structmeshlib_1_1IteratorRange__MR__RingIterator__MR__NextEdgeSameOrigin.html#ac50ccf122484b04b474168e2b838bb16":[9,5,1,0,0,528,1],
 "structmeshlib_1_1IteratorRange__MR__RingIterator__MR__NextEdgeSameOrigin.html#ac545d7e76379832a101b5edd49aac914":[9,5,0,0,0,541,0],
 "structmeshlib_1_1IteratorRange__MR__RingIterator__MR__NextEdgeSameOrigin.html#ac545d7e76379832a101b5edd49aac914":[9,5,1,0,0,528,0],
-"structmeshlib_1_1IteratorRange__MR__RingIterator__MR__NextEdgeSameOrigin.html#ac621f2c3452ca77475b92a61343dd9f4":[9,5,0,0,0,541,3],
-"structmeshlib_1_1IteratorRange__MR__RingIterator__MR__NextEdgeSameOrigin.html#ac621f2c3452ca77475b92a61343dd9f4":[9,5,1,0,0,528,3]
+"structmeshlib_1_1IteratorRange__MR__RingIterator__MR__NextEdgeSameOrigin.html#ac621f2c3452ca77475b92a61343dd9f4":[9,5,0,0,0,541,3]
 };

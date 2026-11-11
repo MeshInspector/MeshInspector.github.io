@@ -1,5 +1,6 @@
 var NAVTREEINDEX173 =
 {
+"structmeshlib_1_1VoxelBitSet.html#ab1c0cfc4ecb2ee27bb2f4125fcf11ed0":[9,5,0,0,0,1707,52],
 "structmeshlib_1_1VoxelBitSet.html#ab1c0cfc4ecb2ee27bb2f4125fcf11ed0":[9,5,1,0,0,1694,52],
 "structmeshlib_1_1VoxelBitSet.html#ab3315be763d06bc0a134f9405e1e80e1":[9,5,0,0,0,1707,23],
 "structmeshlib_1_1VoxelBitSet.html#ab3315be763d06bc0a134f9405e1e80e1":[9,5,1,0,0,1694,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX173 =
 "structmeshlib_1_1VoxelsVolumeAccessor__MR__SimpleVolumeMinMax.html#abf5a8ad324ac55d7e65121e927e8f968":[9,5,0,0,0,1716,1],
 "structmeshlib_1_1VoxelsVolumeAccessor__MR__SimpleVolumeMinMax.html#abf5a8ad324ac55d7e65121e927e8f968":[9,5,1,0,0,1703,1],
 "structmeshlib_1_1VoxelsVolumeAccessor__MR__VdbVolume.html":[9,5,0,0,0,1717],
-"structmeshlib_1_1VoxelsVolumeAccessor__MR__VdbVolume.html":[9,5,1,0,0,1704],
-"structmeshlib_1_1VoxelsVolumeAccessor__MR__VdbVolume.html#a13a848c5a91af4942cb67c9f34273c93":[9,5,0,0,0,1717,3]
+"structmeshlib_1_1VoxelsVolumeAccessor__MR__VdbVolume.html":[9,5,1,0,0,1704]
 };

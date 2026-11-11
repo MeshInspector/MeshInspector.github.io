@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"structmeshlib_1_1MeshLoadSettings.html#af398d51a33af5847988059b30081401d":[9,5,1,0,0,602,11],
 "structmeshlib_1_1MeshLoadSettings.html#af3aad203f701612de8f0794267eba023":[9,5,0,0,0,615,5],
 "structmeshlib_1_1MeshLoadSettings.html#af3aad203f701612de8f0794267eba023":[9,5,1,0,0,602,5],
 "structmeshlib_1_1MeshMeshCollisionStatus.html":[9,5,0,0,0,616],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "structmeshlib_1_1MeshOnVoxelsT__const__MR__Mesh__MR__VdbVolume.html#ad4e17a29295c9cef3895d72e3cd2196c":[9,5,1,0,0,610,11],
 "structmeshlib_1_1MeshOnVoxelsT__const__MR__Mesh__MR__VdbVolume.html#aeb4c692b1bdd804074391add278c2a6d":[9,5,0,0,0,623,4],
 "structmeshlib_1_1MeshOnVoxelsT__const__MR__Mesh__MR__VdbVolume.html#aeb4c692b1bdd804074391add278c2a6d":[9,5,1,0,0,610,4],
-"structmeshlib_1_1MeshOnVoxelsT__const__MR__Mesh__MR__VdbVolume.html#af6b538b4f22980fa2504114220431614":[9,5,0,0,0,623,6],
-"structmeshlib_1_1MeshOnVoxelsT__const__MR__Mesh__MR__VdbVolume.html#af6b538b4f22980fa2504114220431614":[9,5,1,0,0,610,6]
+"structmeshlib_1_1MeshOnVoxelsT__const__MR__Mesh__MR__VdbVolume.html#af6b538b4f22980fa2504114220431614":[9,5,0,0,0,623,6]
 };

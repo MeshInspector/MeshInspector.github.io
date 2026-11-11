@@ -1,5 +1,6 @@
 var NAVTREEINDEX198 =
 {
+"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a1b346a141a64ee21909a6fc0d7dd04e5":[9,5,0,0,0,1098,3],
 "structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a1b346a141a64ee21909a6fc0d7dd04e5":[9,5,1,0,0,1085,3],
 "structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a3b7f40d71034cfa1707ae98f78bad0a4":[9,5,0,0,0,1098,1],
 "structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a3b7f40d71034cfa1707ae98f78bad0a4":[9,5,1,0,0,1085,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX198 =
 "structmeshlib_1_1std__pair__MR__DistanceMap__MR__DistanceMap.html#ab115b01a5e37767343e0646079ac1810":[9,5,0,0,0,1144,3],
 "structmeshlib_1_1std__pair__MR__DistanceMap__MR__DistanceMap.html#ab115b01a5e37767343e0646079ac1810":[9,5,1,0,0,1131,3],
 "structmeshlib_1_1std__pair__MR__DistanceMap__MR__DistanceMap.html#abb45f7194f19e95cf03a790759a88119":[9,5,0,0,0,1144,2],
-"structmeshlib_1_1std__pair__MR__DistanceMap__MR__DistanceMap.html#abb45f7194f19e95cf03a790759a88119":[9,5,1,0,0,1131,2],
-"structmeshlib_1_1std__pair__MR__EdgeId__MR__EdgeId.html":[9,5,0,0,0,1145]
+"structmeshlib_1_1std__pair__MR__DistanceMap__MR__DistanceMap.html#abb45f7194f19e95cf03a790759a88119":[9,5,1,0,0,1131,2]
 };

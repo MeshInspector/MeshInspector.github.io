@@ -2216,6 +2216,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a954c4607fb74551724a598f287a89410" id="r_a954c4607fb74551724a598f287a89410"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a954c4607fb74551724a598f287a89410">setNewHandlerIfNeeded</a> ()</td></tr>
 <tr class="memitem:a37c329db2cd54d5f18acfeb8b7916ff1" id="r_a37c329db2cd54d5f18acfeb8b7916ff1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1SystemMemory.html">meshlib.SystemMemory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37c329db2cd54d5f18acfeb8b7916ff1">getSystemMemory</a> ()</td></tr>
 <tr class="memitem:a9a66cd6be9e3579e6a95d27e1fd2d2c7" id="r_a9a66cd6be9e3579e6a95d27e1fd2d2c7"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a66cd6be9e3579e6a95d27e1fd2d2c7">getCurrentProcessId</a> ()</td></tr>
+<tr class="memitem:aba05cde1c5a3da819893b787f4000af2" id="r_aba05cde1c5a3da819893b787f4000af2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1std__string.html">meshlib.std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba05cde1c5a3da819893b787f4000af2">getLocalTimeZone</a> ()</td></tr>
 <tr class="memitem:a0af0d7646f26a8f1983ef46452e4276c" id="r_a0af0d7646f26a8f1983ef46452e4276c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0af0d7646f26a8f1983ef46452e4276c">setupLoggerByDefault</a> (<a class="el" href="classmeshlib_1_1std__function__void.html">meshlib.std_function_void</a> customLogSinkAdder)</td></tr>
 <tr class="memitem:ae050dafe699c3b076ef543ba1170c893" id="r_ae050dafe699c3b076ef543ba1170c893"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae050dafe699c3b076ef543ba1170c893">intLog2</a> (long n)</td></tr>
 <tr class="memitem:a4af06e64ddb7a4f71fd143cc34f69a71" id="r_a4af06e64ddb7a4f71fd143cc34f69a71"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1std__optional__MR__Vector2f.html">meshlib.std_optional_MR_Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4af06e64ddb7a4f71fd143cc34f69a71">findVertexUV</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> topology, <a class="el" href="classmeshlib_1_1VertId.html">meshlib.VertId</a> v, <a class="el" href="classmeshlib_1_1TriCornerUVCoords.html">meshlib.TriCornerUVCoords</a> triCornerUvCoords)</td></tr>
@@ -33775,6 +33776,33 @@ Simple metric minimizing edge length It is measured in length units. Generated f
 </div><div class="memdoc">
 <p>returns three points of left face of e: v0 = orgPnt( e ), v1 = destPnt( e ) Generated from function <span class="tt">MR::getLeftTriPoints</span>.</p>
 <p>Calls <span class="tt">MR_getLeftTriPoints_6()</span>. </p>
+
+</div>
+</div>
+<a id="aba05cde1c5a3da819893b787f4000af2" name="aba05cde1c5a3da819893b787f4000af2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba05cde1c5a3da819893b787f4000af2">&#9670;&#160;</a></span>getLocalTimeZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmeshlib_1_1std__string.html">meshlib.std_string</a> meshlib.Functions.getLocalTimeZone </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>returns the current offset of the local time zone from UTC, e.g. "UTC+03:00", or an empty string if it is unknown Generated from function <span class="tt">MR::getLocalTimeZone</span>.</p>
+<p>Calls <span class="tt">MR_getLocalTimeZone()</span>. </p>
 
 </div>
 </div>

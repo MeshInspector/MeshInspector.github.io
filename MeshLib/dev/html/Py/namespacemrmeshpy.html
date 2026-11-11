@@ -3704,6 +3704,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a48431f5e48932b68c78d7396d81907af" id="r_a48431f5e48932b68c78d7396d81907af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48431f5e48932b68c78d7396d81907af">getInnerVerts</a> (<a class="el" href="classmrmeshpy_1_1ConstMeshTopology.html">ConstMeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeBitSet.html">ConstUndirectedEdgeBitSet</a> edges)</td></tr>
 <tr class="memitem:a896d93c4bc1a2a023ec7fefb3c3b58b4" id="r_a896d93c4bc1a2a023ec7fefb3c3b58b4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a896d93c4bc1a2a023ec7fefb3c3b58b4">getLeftTriPoints</a> (<a class="el" href="classmrmeshpy_1_1ConstMeshTopology.html">ConstMeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1ConstVertCoords.html">ConstVertCoords</a> points, <a class="el" href="classmrmeshpy_1_1ConstEdgeId.html">ConstEdgeId</a> e, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> v0, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> v1, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> v2)</td></tr>
 <tr class="memitem:a3d2e801a6543a774ba7f7ba860c2962d" id="r_a3d2e801a6543a774ba7f7ba860c2962d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__array__Vector3__float__3.html">std_array_Vector3_float_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d2e801a6543a774ba7f7ba860c2962d">getLeftTriPoints</a> (<a class="el" href="classmrmeshpy_1_1ConstMeshTopology.html">ConstMeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1ConstVertCoords.html">ConstVertCoords</a> points, <a class="el" href="classmrmeshpy_1_1ConstEdgeId.html">ConstEdgeId</a> e)</td></tr>
+<tr class="memitem:a9ef3167d3268f38987048b8f4987d66d" id="r_a9ef3167d3268f38987048b8f4987d66d"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ef3167d3268f38987048b8f4987d66d">getLocalTimeZone</a> ()</td></tr>
 <tr class="memitem:a104b8f54ebbcef8f8219021bfed06c21" id="r_a104b8f54ebbcef8f8219021bfed06c21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FillHoleMetric.html">FillHoleMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a104b8f54ebbcef8f8219021bfed06c21">getMaxDihedralAngleMetric</a> (<a class="el" href="classmrmeshpy_1_1ConstMesh.html">ConstMesh</a> mesh)</td></tr>
 <tr class="memitem:a50d55aabb567eadabcb2090267b568c2" id="r_a50d55aabb567eadabcb2090267b568c2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50d55aabb567eadabcb2090267b568c2">getMeanSqDistToPlane</a> (<a class="el" href="classmrmeshpy_1_1ConstIPointPairs.html">ConstIPointPairs</a> pairs)</td></tr>
 <tr class="memitem:a38b8ee5888c60334865289a230776619" id="r_a38b8ee5888c60334865289a230776619"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38b8ee5888c60334865289a230776619">getMeanSqDistToPoint</a> (<a class="el" href="classmrmeshpy_1_1ConstIPointPairs.html">ConstIPointPairs</a> pairs)</td></tr>
@@ -28457,6 +28458,24 @@ otherwise performs store = getIncidentVerts( topology, *edges ) and returns refe
       </table>
 </div><div class="memdoc">
 <pre class="fragment">returns three points of left face of e: v0 = orgPnt( e ), v1 = destPnt( e )
+</pre> 
+</div>
+</div>
+<a id="a9ef3167d3268f38987048b8f4987d66d" name="a9ef3167d3268f38987048b8f4987d66d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ef3167d3268f38987048b8f4987d66d">&#9670;&#160;</a></span>getLocalTimeZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> str mrmeshpy.getLocalTimeZone </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the current offset of the local time zone from UTC, e.g. "UTC+03:00", or an empty string if it is unknown
 </pre> 
 </div>
 </div>

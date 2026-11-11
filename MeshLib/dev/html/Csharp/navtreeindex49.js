@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"classMR_1_1Const__FindOverlappingSettings.html#a8e4d8e4c014e4118a9c818a7c816b68e":[9,3,0,0,0,505,2],
 "classMR_1_1Const__FindOverlappingSettings.html#a9a4c13f593c180e7a50d3720e42d3f77":[9,3,0,0,0,505,10],
 "classMR_1_1Const__FindOverlappingSettings.html#aa06d4b25f76765507889ae6a10e2f9f7":[9,3,0,0,0,505,6],
 "classMR_1_1Const__FindOverlappingSettings.html#abc4d0aa767e52c2af2bba4c1cedc0d97":[9,3,0,0,0,505,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector2f.html#a8ae4822a3d1deae4589ac48ef0f8e2f8":[9,3,0,0,0,516,3,5],
 "classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector2f.html#a8c6c995e0db6823f8b3620e4e92ef6f0":[9,3,0,0,0,516,3,6],
 "classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector2f.html#add4e8260ea2892a279c1413e2a52af2f":[9,3,0,0,0,516,3,2],
-"classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector3f.html":[9,3,0,0,0,516,4],
-"classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector3f.html#a082b5651aef2bd4606efdb322b6d21a8":[9,3,0,0,0,516,4,5]
+"classMR_1_1Const__GcodeProcessor_1_1Const__BaseAction__MRVector3f.html":[9,3,0,0,0,516,4]
 };

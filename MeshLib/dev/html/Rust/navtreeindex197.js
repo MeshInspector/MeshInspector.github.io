@@ -1,5 +1,6 @@
 var NAVTREEINDEX197 =
 {
+"structmeshlib_1_1std__optional__MR__Box1f.html#abe5b447a9b95efd450b190bbecdb5048":[9,5,0,0,0,1076,3],
 "structmeshlib_1_1std__optional__MR__Box1f.html#abe5b447a9b95efd450b190bbecdb5048":[9,5,1,0,0,1063,3],
 "structmeshlib_1_1std__optional__MR__Box1f.html#ac0caae1c9f1b69fc22e2dd5e4b602590":[9,5,0,0,0,1076,4],
 "structmeshlib_1_1std__optional__MR__Box1f.html#ac0caae1c9f1b69fc22e2dd5e4b602590":[9,5,1,0,0,1063,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX197 =
 "structmeshlib_1_1std__optional__MR__TriIntersectResult.html":[9,5,0,0,0,1098],
 "structmeshlib_1_1std__optional__MR__TriIntersectResult.html":[9,5,1,0,0,1085],
 "structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a0c508d8b402f144997f5b0a3484b8df4":[9,5,0,0,0,1098,4],
-"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a0c508d8b402f144997f5b0a3484b8df4":[9,5,1,0,0,1085,4],
-"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a1b346a141a64ee21909a6fc0d7dd04e5":[9,5,0,0,0,1098,3]
+"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a0c508d8b402f144997f5b0a3484b8df4":[9,5,1,0,0,1085,4]
 };

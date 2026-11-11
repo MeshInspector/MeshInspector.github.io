@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1Const__DistanceToMeshOptions.html#add84d0f1da763e42d71dc232daf3209d":[9,3,0,0,0,443,7],
 "classMR_1_1Const__DistanceToMeshOptions.html#ae0e310e529bd04bcc184037e0569382c":[9,3,0,0,0,443,14],
 "classMR_1_1Const__DistanceToMeshOptions.html#af5ed58bfd0d9ae1962f09c3f1dc19a18":[9,3,0,0,0,443,13],
 "classMR_1_1Const__DistanceVolumeParams.html":[9,3,0,0,0,444],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1Const__EdgeMap.html#aaf19c14e5b626bee50b5458a08383327":[9,3,0,0,0,454,1],
 "classMR_1_1Const__EdgeMap.html#ab6b12226dcc9430ceeb9c2f31964012a":[9,3,0,0,0,454,12],
 "classMR_1_1Const__EdgeMap.html#acf14a57ced463f056d6a74badeb4181b":[9,3,0,0,0,454,6],
-"classMR_1_1Const__EdgeMap.html#ae07fbb5f3c95e27ff0d7bf2c08698105":[9,3,0,0,0,454,17],
-"classMR_1_1Const__EdgeMap.html#ae8d7605009408a0a3542454cd0411140":[9,3,0,0,0,454,10]
+"classMR_1_1Const__EdgeMap.html#ae07fbb5f3c95e27ff0d7bf2c08698105":[9,3,0,0,0,454,17]
 };

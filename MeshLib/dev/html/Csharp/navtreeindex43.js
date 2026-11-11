@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1Const__Dipoles.html#aea533e9afca68fe096af0ebb1a20d5db":[9,3,0,0,0,434,0],
 "classMR_1_1Const__Dipoles.html#af142d87a1ff4a562d150d063191d1601":[9,3,0,0,0,434,17],
 "classMR_1_1Const__Dipoles.html#af68ededddea7a353279e3bde78bf03ea":[9,3,0,0,0,434,6],
 "classMR_1_1Const__Dipoles.html#afbcaeb3cec17950a1589ca113f30e985":[9,3,0,0,0,434,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1Const__DistanceToMeshOptions.html#a79cb23f65839d8cc4c77c31f174a3205":[9,3,0,0,0,443,4],
 "classMR_1_1Const__DistanceToMeshOptions.html#a99ba440754fd69e4f49ae37a170eeedc":[9,3,0,0,0,443,2],
 "classMR_1_1Const__DistanceToMeshOptions.html#aa8c756a75bf8756c64c0bb9fe9a5a0c3":[9,3,0,0,0,443,8],
-"classMR_1_1Const__DistanceToMeshOptions.html#aca1e0c1049b4590e37958cc89b391092":[9,3,0,0,0,443,6],
-"classMR_1_1Const__DistanceToMeshOptions.html#add84d0f1da763e42d71dc232daf3209d":[9,3,0,0,0,443,7]
+"classMR_1_1Const__DistanceToMeshOptions.html#aca1e0c1049b4590e37958cc89b391092":[9,3,0,0,0,443,6]
 };
