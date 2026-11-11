@@ -160,6 +160,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a315007b91b7181a96c4671b5424cdc07" id="r_a315007b91b7181a96c4671b5424cdc07"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a315007b91b7181a96c4671b5424cdc07">maxExpand</a> (self)</td></tr>
 <tr class="memitem:ab322988d5687ff81ccfb413d53a33404" id="r_ab322988d5687ff81ccfb413d53a33404"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html">SelfIntersections.Settings.Method</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab322988d5687ff81ccfb413d53a33404">method</a> (self)</td></tr>
 <tr class="memitem:a394996aa3e06e3d2f759a9c1c67d7f58" id="r_a394996aa3e06e3d2f759a9c1c67d7f58"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a394996aa3e06e3d2f759a9c1c67d7f58">mimicPatch</a> (self)</td></tr>
+<tr class="memitem:a3996aa80007833e308bef8377013cb97" id="r_a3996aa80007833e308bef8377013cb97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3996aa80007833e308bef8377013cb97">new2Old</a> (self)</td></tr>
 <tr class="memitem:a59f85b364b9a997b9378568675867466" id="r_a59f85b364b9a997b9378568675867466"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59f85b364b9a997b9378568675867466">relaxIterations</a> (self)</td></tr>
 <tr class="memitem:a346f6afcb3db690375f15c9b17d33855" id="r_a346f6afcb3db690375f15c9b17d33855"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a346f6afcb3db690375f15c9b17d33855">subdivideEdgeLen</a> (self)</td></tr>
 <tr class="memitem:a6790e5b32054cebc06a9fcd9cd79042b" id="r_a6790e5b32054cebc06a9fcd9cd79042b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6790e5b32054cebc06a9fcd9cd79042b">touchIsIntersection</a> (self)</td></tr>
@@ -170,6 +171,7 @@ Static Protected Attributes</h2></td></tr>
 <tr class="memitem:aef6a5f533a04f04c6061afab1ebcaa9a" id="r_aef6a5f533a04f04c6061afab1ebcaa9a"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef6a5f533a04f04c6061afab1ebcaa9a">_offsetof_maxExpand</a> = 12</td></tr>
 <tr class="memitem:ab3238ca83998d28e58cfc0ef8a3e828a" id="r_ab3238ca83998d28e58cfc0ef8a3e828a"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3238ca83998d28e58cfc0ef8a3e828a">_offsetof_method</a> = 4</td></tr>
 <tr class="memitem:ae92ea31abb268b94bbf52bd4000b97e7" id="r_ae92ea31abb268b94bbf52bd4000b97e7"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae92ea31abb268b94bbf52bd4000b97e7">_offsetof_mimicPatch</a> = 20</td></tr>
+<tr class="memitem:af0a8b9f845c3fef011ec53cb7d6f9328" id="r_af0a8b9f845c3fef011ec53cb7d6f9328"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0a8b9f845c3fef011ec53cb7d6f9328">_offsetof_new2Old</a> = 56</td></tr>
 <tr class="memitem:af38e5c903681f1048783306f7646c160" id="r_af38e5c903681f1048783306f7646c160"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af38e5c903681f1048783306f7646c160">_offsetof_relaxIterations</a> = 8</td></tr>
 <tr class="memitem:a85448526c7a6e5828a3b3b8243d00ac7" id="r_a85448526c7a6e5828a3b3b8243d00ac7"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85448526c7a6e5828a3b3b8243d00ac7">_offsetof_subdivideEdgeLen</a> = 16</td></tr>
 <tr class="memitem:ab8e7763b54fd7838ad151a8cd992dbee" id="r_ab8e7763b54fd7838ad151a8cd992dbee"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8e7763b54fd7838ad151a8cd992dbee">_offsetof_touchIsIntersection</a> = 0</td></tr>
@@ -211,7 +213,7 @@ Overloaded function.
 
 Implicit copy constructor.
 
-3. __init__(self: meshlib.mrmeshpy.SelfIntersections.ConstSettings, touchIsIntersection: bool, method: meshlib.mrmeshpy.SelfIntersections.Settings.Method, relaxIterations: int, maxExpand: int, subdivideEdgeLen: float, mimicPatch: bool, callback: meshlib.mrmeshpy.Const_func_bool_from_float) -&gt; None
+3. __init__(self: meshlib.mrmeshpy.SelfIntersections.ConstSettings, touchIsIntersection: bool, method: meshlib.mrmeshpy.SelfIntersections.Settings.Method, relaxIterations: int, maxExpand: int, subdivideEdgeLen: float, mimicPatch: bool, callback: meshlib.mrmeshpy.Const_func_bool_from_float, new2Old: meshlib.mrmeshpy.FaceMap) -&gt; None
 
 Implicit aggregate constructor.
 
@@ -294,6 +296,27 @@ Implicit aggregate constructor.
 <pre class="fragment">trying to stay close to initial surface when patching
 </pre> 
 <p>Reimplemented in <a class="el" href="classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a3d840d58eeaf4a06629c28ee797a45da">mrmeshpy.SelfIntersections.Settings</a>, and <a class="el" href="classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a77c2636b21a009dc25c8d103a8763d6c">mrmeshpy.SelfIntersections.Settings</a>.</p>
+
+</div>
+</div>
+<a id="a3996aa80007833e308bef8377013cb97" name="a3996aa80007833e308bef8377013cb97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3996aa80007833e308bef8377013cb97">&#9670;&#160;</a></span>new2Old()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a> mrmeshpy.SelfIntersections.ConstSettings.new2Old </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">optional output of `Method::SelfBoolean`: for every face of the fixed mesh, the face of the original mesh that it is (a part of);
+not set by the other methods
+</pre> 
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a5b4950acfa73f19f1c8c4db8fe94eceb">mrmeshpy.SelfIntersections.Settings</a>, and <a class="el" href="classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a1b177d5c780b89ba99b35a5fe524d2bb">mrmeshpy.SelfIntersections.Settings</a>.</p>
 
 </div>
 </div>
@@ -436,6 +459,28 @@ FLT_MAX to disable subdivision
       <table class="memname">
         <tr>
           <td class="memname">typing mrmeshpy.SelfIntersections.ConstSettings._offsetof_mimicPatch = 20</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0a8b9f845c3fef011ec53cb7d6f9328" name="af0a8b9f845c3fef011ec53cb7d6f9328"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0a8b9f845c3fef011ec53cb7d6f9328">&#9670;&#160;</a></span>_offsetof_new2Old</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.SelfIntersections.ConstSettings._offsetof_new2Old = 56</td>
         </tr>
       </table>
   </td>

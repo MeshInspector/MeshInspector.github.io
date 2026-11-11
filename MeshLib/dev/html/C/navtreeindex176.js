@@ -1,5 +1,9 @@
 var NAVTREEINDEX176 =
 {
+"std__vector__MR__CurvePoint_8h.html#ae839a6960796ce5fcb4c5210dc95ccb6":[9,2,2,0,0,0,0,2,452,7],
+"std__vector__MR__CurvePoint_8h.html#afa1739829f55ca67563124185ce71ef7":[9,2,2,0,0,0,0,2,452,21],
+"std__vector__MR__CurvePoint_8h_source.html":[9,2,2,0,0,0,0,2,452],
+"std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html":[9,2,2,0,0,0,0,2,453],
 "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#a2abd03daeee18a97e900263e5dca6772":[9,2,2,0,0,0,0,2,453,3],
 "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#a505787ab376d073e1a688af29996e471":[9,2,2,0,0,0,0,2,453,7],
 "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#a670feb1724fbe2469519e799ac3ebcdc":[9,2,2,0,0,0,0,2,453,17],
@@ -245,9 +249,5 @@ var NAVTREEINDEX176 =
 "std__vector__MR__FaceBitSet_8h.html#ac0769573766bb8d681ec6d2abcf48268":[9,2,2,0,0,0,0,2,462,16],
 "std__vector__MR__FaceBitSet_8h.html#ac0a17a5b8549b940920637af0d671baa":[9,2,2,0,0,0,0,2,462,15],
 "std__vector__MR__FaceBitSet_8h.html#ac65c3328530ed224e520c1252cf20172":[9,2,2,0,0,0,0,2,462,5],
-"std__vector__MR__FaceBitSet_8h.html#adc77ed1685964f79f9e85ec68d1bb229":[9,2,2,0,0,0,0,2,462,22],
-"std__vector__MR__FaceBitSet_8h.html#addea67b40a79918e7fa31be4ae57abfd":[9,2,2,0,0,0,0,2,462,3],
-"std__vector__MR__FaceBitSet_8h.html#ae1fc823f8e97416aca425899c2671d20":[9,2,2,0,0,0,0,2,462,17],
-"std__vector__MR__FaceBitSet_8h.html#ae63f25abe8b830164da9d4ebef2edb4d":[9,2,2,0,0,0,0,2,462,4],
-"std__vector__MR__FaceBitSet_8h.html#af122c4e1cfb8844ca8979a1f9e3cad4f":[9,2,2,0,0,0,0,2,462,14]
+"std__vector__MR__FaceBitSet_8h.html#adc77ed1685964f79f9e85ec68d1bb229":[9,2,2,0,0,0,0,2,462,22]
 };

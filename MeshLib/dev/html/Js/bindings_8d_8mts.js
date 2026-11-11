@@ -186,7 +186,8 @@ var bindings_8d_8mts =
     ] ],
     [ "SelfIntersectionsMethod", "bindings_8d_8mts.html#a4d26d0aad1f3f52c1561995b518db0aa", [
       [ "Relax", "bindings_8d_8mts.html#a4d26d0aad1f3f52c1561995b518db0aaaad005dc0def4b7d034a8aa92ff0d1f4f", null ],
-      [ "CutAndFill", "bindings_8d_8mts.html#a4d26d0aad1f3f52c1561995b518db0aaaa54b2ac5a2d44bf78a7b4f9da0bcba3a", null ]
+      [ "CutAndFill", "bindings_8d_8mts.html#a4d26d0aad1f3f52c1561995b518db0aaaa54b2ac5a2d44bf78a7b4f9da0bcba3a", null ],
+      [ "SelfBoolean", "bindings_8d_8mts.html#a4d26d0aad1f3f52c1561995b518db0aaae0ee5cb1ed8689aba7345c28faba5283", null ]
     ] ],
     [ "SignDetectionMode", "bindings_8d_8mts.html#a3a1c46c77f4561d4e907577f24e085ae", [
       [ "Unsigned", "bindings_8d_8mts.html#ad995f406d908cf33a64c3a0da079f906a37795ea23b5d1837d4f1915d0bc99e38", null ],

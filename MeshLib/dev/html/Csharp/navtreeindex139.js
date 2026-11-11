@@ -1,5 +1,9 @@
 var NAVTREEINDEX139 =
 {
+"classMR_1_1TerminalVertex.html#a0823965994927a3e0494f2d817ea8b76":[9,3,0,0,0,1778,1],
+"classMR_1_1TerminalVertex.html#aa7af4b813af06aededf24f58a0a58d1c":[9,3,0,0,0,1778,5],
+"classMR_1_1TerminalVertex.html#ab2b3864a778536de7dd9531ab8a13ce7":[9,3,0,0,0,1778,0],
+"classMR_1_1TerminalVertex.html#abcd603269ac4508509b61cde18b0d582":[9,3,0,0,0,1778,3],
 "classMR_1_1TerminalVertex.html#ace20d92284c3b50713cd1a6d360df74c":[9,3,0,0,0,1778,4],
 "classMR_1_1TerminalVertex.html#ae18378732663c73099460edc080101d5":[9,3,0,0,0,1778,6],
 "classMR_1_1TextMeshAlignParams.html":[9,3,0,0,0,1779],
@@ -245,9 +249,5 @@ var NAVTREEINDEX139 =
 "classMR_1_1TriPointf.html#a8a681c01191ae7f91df1806c09ce141b":[9,3,0,0,0,1802,1],
 "classMR_1_1TriPointf.html#a9803168c047e00a439381462e7c088c3":[9,3,0,0,0,1802,0],
 "classMR_1_1TriPointf.html#a99ab871ded4eab62300e2689fcc9d9a9":[9,3,0,0,0,1802,2],
-"classMR_1_1TriPointf.html#aeda0c60d6d06c3ad7e78c32519c7dc40":[9,3,0,0,0,1802,4],
-"classMR_1_1TriTriDistanceParams__Double.html":[9,3,0,0,0,1803],
-"classMR_1_1TriTriDistanceParams__Double.html#a53a0ba50e31fe140a37f71f56b2383bb":[9,3,0,0,0,1803,0],
-"classMR_1_1TriTriDistanceParams__Double.html#a5d13754ea9bf2cda981b82606468c349":[9,3,0,0,0,1803,6],
-"classMR_1_1TriTriDistanceParams__Double.html#aaae9997fd16a4ef687103bd4990c43f8":[9,3,0,0,0,1803,1]
+"classMR_1_1TriPointf.html#aeda0c60d6d06c3ad7e78c32519c7dc40":[9,3,0,0,0,1802,4]
 };

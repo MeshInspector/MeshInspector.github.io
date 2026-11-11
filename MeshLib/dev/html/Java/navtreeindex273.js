@@ -1,5 +1,9 @@
 var NAVTREEINDEX273 =
 {
+"std__optional__MR__Triangulation_8java.html":[9,6,2,0,0,1,0,0,1108],
+"std__optional__MR__Vector2d_8java.html":[9,6,2,0,0,1,0,0,1110],
+"std__optional__MR__Vector2f_8java.html":[9,6,2,0,0,1,0,0,1111],
+"std__optional__MR__Vector3d_8java.html":[9,6,2,0,0,1,0,0,1112],
 "std__optional__MR__Vector3f_8java.html":[9,6,2,0,0,1,0,0,1113],
 "std__optional__MR__Vector3i_8java.html":[9,6,2,0,0,1,0,0,1114],
 "std__optional__MR__VertBitSet_8java.html":[9,6,2,0,0,1,0,0,1115],
@@ -245,9 +249,5 @@ var NAVTREEINDEX273 =
 "std__vector__MR__Heap__float__MR__GraphVertId__std__greater__float__Element_8java.html":[9,6,2,0,0,1,0,0,1364],
 "std__vector__MR__HoleFillPlan_8java.html":[9,6,2,0,0,1,0,0,1365],
 "std__vector__MR__ICPGroupPair_8java.html":[9,6,2,0,0,1,0,0,1366],
-"std__vector__MR__ICPGroupPairs__MR__Allocator__MR__ICPGroupPairs_8java.html":[9,6,2,0,0,1,0,0,1367],
-"std__vector__MR__IOFilter_8java.html":[9,6,2,0,0,1,0,0,1371],
-"std__vector__MR__Id__MR__ICPElemtTag__MR__Allocator__MR__Id__MR__ICPElemtTag_8java.html":[9,6,2,0,0,1,0,0,1368],
-"std__vector__MR__Id__MR__SurfaceDistanceStartTag__MR__Allocator__MR__Id__MR__SurfaceDistanceStartTag_8java.html":[9,6,2,0,0,1,0,0,1369],
-"std__vector__MR__Image_8java.html":[9,6,2,0,0,1,0,0,1370]
+"std__vector__MR__ICPGroupPairs__MR__Allocator__MR__ICPGroupPairs_8java.html":[9,6,2,0,0,1,0,0,1367]
 };

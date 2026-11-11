@@ -1,5 +1,11 @@
 var NAVTREEINDEX197 =
 {
+"structmeshlib_1_1std__optional__MR__Box1f.html#af83954a7a495ad9f5c19b548ea0e8e1f":[9,5,1,0,0,1063,1],
+"structmeshlib_1_1std__optional__MR__Box3f.html":[9,5,0,0,0,1077],
+"structmeshlib_1_1std__optional__MR__Box3f.html":[9,5,1,0,0,1064],
+"structmeshlib_1_1std__optional__MR__Box3f.html#a233a1fae3cd13c1483f7b3c3aabf0206":[9,5,0,0,0,1077,4],
+"structmeshlib_1_1std__optional__MR__Box3f.html#a233a1fae3cd13c1483f7b3c3aabf0206":[9,5,1,0,0,1064,4],
+"structmeshlib_1_1std__optional__MR__Box3f.html#a893ef211f31a3af8bd6bd7c7cd6657fb":[9,5,0,0,0,1077,1],
 "structmeshlib_1_1std__optional__MR__Box3f.html#a893ef211f31a3af8bd6bd7c7cd6657fb":[9,5,1,0,0,1064,1],
 "structmeshlib_1_1std__optional__MR__Box3f.html#a91bb12a42cb20f8b11a0d272a768830b":[9,5,0,0,0,1077,0],
 "structmeshlib_1_1std__optional__MR__Box3f.html#a91bb12a42cb20f8b11a0d272a768830b":[9,5,1,0,0,1064,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX197 =
 "structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a1b346a141a64ee21909a6fc0d7dd04e5":[9,5,1,0,0,1085,3],
 "structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a3b7f40d71034cfa1707ae98f78bad0a4":[9,5,0,0,0,1098,1],
 "structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a3b7f40d71034cfa1707ae98f78bad0a4":[9,5,1,0,0,1085,1],
-"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a86b2061fe86ae811afbbc6ce4f732fe4":[9,5,0,0,0,1098,2],
-"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a86b2061fe86ae811afbbc6ce4f732fe4":[9,5,1,0,0,1085,2],
-"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#ae20da911560813c08bd5b5bdeb82de45":[9,5,0,0,0,1098,0],
-"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#ae20da911560813c08bd5b5bdeb82de45":[9,5,1,0,0,1085,0],
-"structmeshlib_1_1std__optional__MR__Triangulation.html":[9,5,0,0,0,1097],
-"structmeshlib_1_1std__optional__MR__Triangulation.html":[9,5,1,0,0,1084],
-"structmeshlib_1_1std__optional__MR__Triangulation.html#a08086a0af848f3dd0c582172ea95e96f":[9,5,0,0,0,1097,4]
+"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a86b2061fe86ae811afbbc6ce4f732fe4":[9,5,0,0,0,1098,2]
 };

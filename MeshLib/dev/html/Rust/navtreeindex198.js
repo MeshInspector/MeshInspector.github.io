@@ -1,5 +1,11 @@
 var NAVTREEINDEX198 =
 {
+"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a86b2061fe86ae811afbbc6ce4f732fe4":[9,5,1,0,0,1085,2],
+"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#ae20da911560813c08bd5b5bdeb82de45":[9,5,0,0,0,1098,0],
+"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#ae20da911560813c08bd5b5bdeb82de45":[9,5,1,0,0,1085,0],
+"structmeshlib_1_1std__optional__MR__Triangulation.html":[9,5,0,0,0,1097],
+"structmeshlib_1_1std__optional__MR__Triangulation.html":[9,5,1,0,0,1084],
+"structmeshlib_1_1std__optional__MR__Triangulation.html#a08086a0af848f3dd0c582172ea95e96f":[9,5,0,0,0,1097,4],
 "structmeshlib_1_1std__optional__MR__Triangulation.html#a08086a0af848f3dd0c582172ea95e96f":[9,5,1,0,0,1084,4],
 "structmeshlib_1_1std__optional__MR__Triangulation.html#a116c1e67d231501568fac9f3c6738cb1":[9,5,0,0,0,1097,1],
 "structmeshlib_1_1std__optional__MR__Triangulation.html#a116c1e67d231501568fac9f3c6738cb1":[9,5,1,0,0,1084,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX198 =
 "structmeshlib_1_1std__pair__MR__EdgeId__MR__EdgeId.html":[9,5,1,0,0,1132],
 "structmeshlib_1_1std__pair__MR__EdgeId__MR__EdgeId.html#a1d812f13e78231ca5dae3de76ddff82d":[9,5,0,0,0,1145,2],
 "structmeshlib_1_1std__pair__MR__EdgeId__MR__EdgeId.html#a1d812f13e78231ca5dae3de76ddff82d":[9,5,1,0,0,1132,2],
-"structmeshlib_1_1std__pair__MR__EdgeId__MR__EdgeId.html#a3aac2fc7eeed8c3dbbb1818ad607f191":[9,5,0,0,0,1145,1],
-"structmeshlib_1_1std__pair__MR__EdgeId__MR__EdgeId.html#a3aac2fc7eeed8c3dbbb1818ad607f191":[9,5,1,0,0,1132,1],
-"structmeshlib_1_1std__pair__MR__EdgeId__MR__EdgeId.html#a5237fa8dfb99c078958f66c74e6e803f":[9,5,0,0,0,1145,4],
-"structmeshlib_1_1std__pair__MR__EdgeId__MR__EdgeId.html#a5237fa8dfb99c078958f66c74e6e803f":[9,5,1,0,0,1132,4],
-"structmeshlib_1_1std__pair__MR__EdgeId__MR__EdgeId.html#abba8bd040f3db31cbfc501437a9b8c64":[9,5,0,0,0,1145,0],
-"structmeshlib_1_1std__pair__MR__EdgeId__MR__EdgeId.html#abba8bd040f3db31cbfc501437a9b8c64":[9,5,1,0,0,1132,0],
-"structmeshlib_1_1std__pair__MR__EdgeId__MR__EdgeId.html#ad44bbc391015a2e5af4a058e5e99b79a":[9,5,0,0,0,1145,3]
+"structmeshlib_1_1std__pair__MR__EdgeId__MR__EdgeId.html#a3aac2fc7eeed8c3dbbb1818ad607f191":[9,5,0,0,0,1145,1]
 };

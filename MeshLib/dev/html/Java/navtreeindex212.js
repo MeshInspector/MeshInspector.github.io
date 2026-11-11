@@ -1,5 +1,9 @@
 var NAVTREEINDEX212 =
 {
+"classmeshlib_1_1std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId.html":[9,6,0,0,0,1068],
+"classmeshlib_1_1std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId.html":[9,6,1,0,0,1068],
+"classmeshlib_1_1std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId.html#a568c6f981569c2126ab102774b565b24":[9,6,0,0,0,1068,5],
+"classmeshlib_1_1std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId.html#a568c6f981569c2126ab102774b565b24":[9,6,1,0,0,1068,5],
 "classmeshlib_1_1std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId.html#a57aed51f28f05b7bc4e9132cdc94a630":[9,6,0,0,0,1068,7],
 "classmeshlib_1_1std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId.html#a57aed51f28f05b7bc4e9132cdc94a630":[9,6,1,0,0,1068,7],
 "classmeshlib_1_1std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId.html#a632d56f4f1d13dd239ad8ffd90da8b4b":[9,6,0,0,0,1068,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX212 =
 "classmeshlib_1_1std__function__void__from__MR__VertId__const__MR__Vector3f__ref.html#ae5c647a0fd045ad16bbfa1e00b468447":[9,6,0,0,0,1081,6],
 "classmeshlib_1_1std__function__void__from__MR__VertId__const__MR__Vector3f__ref.html#ae5c647a0fd045ad16bbfa1e00b468447":[9,6,1,0,0,1081,6],
 "classmeshlib_1_1std__function__void__from__MR__VertId__const__MR__Vector3f__ref.html#aec3fc0b1d20867aa48f4685b69826cc2":[9,6,0,0,0,1081,2],
-"classmeshlib_1_1std__function__void__from__MR__VertId__const__MR__Vector3f__ref.html#aec3fc0b1d20867aa48f4685b69826cc2":[9,6,1,0,0,1081,2],
-"classmeshlib_1_1std__function__void__from__MR__VertId__const__MR__Vector3f__ref.html#aeedf8791807c833091869a508e793c09":[9,6,0,0,0,1081,7],
-"classmeshlib_1_1std__function__void__from__MR__VertId__const__MR__Vector3f__ref.html#aeedf8791807c833091869a508e793c09":[9,6,1,0,0,1081,7],
-"classmeshlib_1_1std__function__void__from__const__MR__EdgePoint__ref.html":[9,6,0,0,0,1058],
-"classmeshlib_1_1std__function__void__from__const__MR__EdgePoint__ref.html":[9,6,1,0,0,1058]
+"classmeshlib_1_1std__function__void__from__MR__VertId__const__MR__Vector3f__ref.html#aec3fc0b1d20867aa48f4685b69826cc2":[9,6,1,0,0,1081,2]
 };

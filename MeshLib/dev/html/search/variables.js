@@ -1691,7 +1691,7 @@ var searchData=
   ['nested_30',['nested',['.././Cpp/group__GeneralGroup.html#gad2ca6cbc05de79bee8739cc5d9c30c29',1,'MR::Nesting::NestingResult']]],
   ['nestedcomponentsmode_31',['nestedComponentsMode',['.././Cpp/group__GeneralGroup.html#ga28a4b396128672937ced813919301558',1,'MR::UniteManyMeshesParams']]],
   ['nestvoxelscache_32',['nestVoxelsCache',['.././Cpp/group__GeneralGroup.html#ga9aa9eca3f4fabca2c8ac7cfa9bdfe5e8',1,'MR::Nesting::TetrisDensifyOptions']]],
-  ['new2old_33',['new2Old',['.././Cpp/group__GeneralGroup.html#ga95f7939b3615030e5bcc1dd29d3552c1',1,'MR::TrimOptionalOutput']]],
+  ['new2old_33',['new2Old',['.././Cpp/group__GeneralGroup.html#gab181aeb8494acac8aa7393da3026d43d',1,'MR::SelfIntersections::Settings::new2Old'],['.././Cpp/group__GeneralGroup.html#ga95f7939b3615030e5bcc1dd29d3552c1',1,'MR::TrimOptionalOutput::new2Old']]],
   ['new2oldedgesmap_34',['new2oldEdgesMap',['.././Cpp/group__GeneralGroup.html#gae4b1e4cc599311ec4eaa5e0d7f90518b',1,'MR::CutMeshParameters']]],
   ['new2oldfaces_35',['new2oldFaces',['.././Cpp/group__GeneralGroup.html#ga4c436c958ad19cd19e927c74c26329f5',1,'MR::EmbeddedStructureParameters::new2oldFaces'],['.././Cpp/group__GeneralGroup.html#gae5f4a946802c18b394f735cd557b0ce1',1,'MR::UniteManyMeshesParams::new2oldFaces']]],
   ['new2oldmap_36',['new2OldMap',['.././Cpp/group__GeneralGroup.html#ga75222f670fe00aaef7a945b8ccbb3ea9',1,'MR::CutMeshParameters::new2OldMap'],['.././Cpp/group__GeneralGroup.html#ga89ef3c78f83d43c17a9dc7939b7d90e7',1,'MR::MakeDegenerateBandAroundRegionParams::new2OldMap']]],

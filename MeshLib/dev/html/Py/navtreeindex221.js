@@ -1,5 +1,11 @@
 var NAVTREEINDEX221 =
 {
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a83ede0df339b9d365f36a18d7fef3f79":[9,1,0,0,2,2671,1,9],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a83ede0df339b9d365f36a18d7fef3f79":[9,1,1,0,1,2671,1,9],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a84b17a3cd7a6eed5db54718fda543ab9":[9,1,0,0,2,2671,1,2],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a84b17a3cd7a6eed5db54718fda543ab9":[9,1,1,0,1,2671,1,2],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a89652fbcdca261bb20b423a36f07ffbb":[9,1,0,0,2,2671,1,7],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a89652fbcdca261bb20b423a36f07ffbb":[9,1,1,0,1,2671,1,7],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a8ed9f0b27a9db078e2963613c8bba3b4":[9,1,0,0,2,2671,1,6],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a8ed9f0b27a9db078e2963613c8bba3b4":[9,1,1,0,1,2671,1,6],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#ab12864794cb82a5420d5e48c2bc5903c":[9,1,0,0,2,2671,1,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX221 =
 "classmrmeshpy_1_1WeightedShell_1_1ConstParametersBase.html#aa780f2e2f2a7e5d0cec274beabc219b4":[9,1,0,0,2,2687,1,3],
 "classmrmeshpy_1_1WeightedShell_1_1ConstParametersBase.html#aa780f2e2f2a7e5d0cec274beabc219b4":[9,1,1,0,1,2687,1,3],
 "classmrmeshpy_1_1WeightedShell_1_1ConstParametersBase.html#aacc0e7dc22ae6b18d6f6ba06e80a736f":[9,1,0,0,2,2687,1,0],
-"classmrmeshpy_1_1WeightedShell_1_1ConstParametersBase.html#aacc0e7dc22ae6b18d6f6ba06e80a736f":[9,1,1,0,1,2687,1,0],
-"classmrmeshpy_1_1WeightedShell_1_1ConstParametersBase.html#ad9dc26b479fd216b7bc5e149cc60eb79":[9,1,0,0,2,2687,1,4],
-"classmrmeshpy_1_1WeightedShell_1_1ConstParametersBase.html#ad9dc26b479fd216b7bc5e149cc60eb79":[9,1,1,0,1,2687,1,4],
-"classmrmeshpy_1_1WeightedShell_1_1ConstParametersBase.html#afa0f63df43d5c5f0d99fc30590d3eeb0":[9,1,0,0,2,2687,1,1],
-"classmrmeshpy_1_1WeightedShell_1_1ConstParametersBase.html#afa0f63df43d5c5f0d99fc30590d3eeb0":[9,1,1,0,1,2687,1,1],
-"classmrmeshpy_1_1WeightedShell_1_1ConstParametersMetric.html":[9,1,0,0,2,2687,2],
-"classmrmeshpy_1_1WeightedShell_1_1ConstParametersMetric.html":[9,1,1,0,1,2687,2]
+"classmrmeshpy_1_1WeightedShell_1_1ConstParametersBase.html#aacc0e7dc22ae6b18d6f6ba06e80a736f":[9,1,1,0,1,2687,1,0]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX155 =
 {
+"std__function__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____dc87_8h.html#a6da1b6028e4dccd5d53d1f1e5af86819":[9,2,2,0,0,0,0,2,182,2],
+"std__function__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____dc87_8h.html#a7879a8aed11c9574169ad6d45ad2369b":[9,2,2,0,0,0,0,2,182,7],
+"std__function__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____dc87_8h.html#a80ecd9d3f2bb83d817f73210939a4e68":[9,2,2,0,0,0,0,2,182,0],
+"std__function__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____dc87_8h.html#a82db64a3832f91042ea9bf02cab9c3ea":[9,2,2,0,0,0,0,2,182,11],
 "std__function__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____dc87_8h.html#ab84d002a0c337c14925f54724ba666f5":[9,2,2,0,0,0,0,2,182,10],
 "std__function__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____dc87_8h.html#acf48a78656fabe684430b2a8bc4f7c79":[9,2,2,0,0,0,0,2,182,13],
 "std__function__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____dc87_8h.html#ad891d9ed15fb5744232c4320e820019c":[9,2,2,0,0,0,0,2,182,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX155 =
 "std__function__void__from__MR__SceneLoad__Result_8h.html#ab5f0129838c2d0acec8b357a31bfbc24":[9,2,2,0,0,0,0,2,201,14],
 "std__function__void__from__MR__SceneLoad__Result_8h.html#ac75e0361b0e16a4f707f9eaac53d8221":[9,2,2,0,0,0,0,2,201,11],
 "std__function__void__from__MR__SceneLoad__Result_8h.html#ad072dfd94e70e8a5c764b95ced2f113d":[9,2,2,0,0,0,0,2,201,0],
-"std__function__void__from__MR__SceneLoad__Result_8h_source.html":[9,2,2,0,0,0,0,2,201],
-"std__function__void__from__MR__SignDetectionMode_8h.html":[9,2,2,0,0,0,0,2,202],
-"std__function__void__from__MR__SignDetectionMode_8h.html#a0689ce074b110ec7cb05a7f64b542215":[9,2,2,0,0,0,0,2,202,13],
-"std__function__void__from__MR__SignDetectionMode_8h.html#a0b8b9efab7865c2eeaf14ef884ff9149":[9,2,2,0,0,0,0,2,202,15],
-"std__function__void__from__MR__SignDetectionMode_8h.html#a22d2ec9cd17ac887031de93b58b597b7":[9,2,2,0,0,0,0,2,202,0]
+"std__function__void__from__MR__SceneLoad__Result_8h_source.html":[9,2,2,0,0,0,0,2,201]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX168 =
 {
+"std__shared__ptr__MR__HistoryAction_8h.html#accf5ea7448bb76b4144d37af46e95f00":[9,2,2,0,0,0,0,2,364,8],
+"std__shared__ptr__MR__HistoryAction_8h.html#acdd672e8115c66f62c864d60781b6ba8":[9,2,2,0,0,0,0,2,364,10],
+"std__shared__ptr__MR__HistoryAction_8h.html#ae511cda0ccfaa605d2d68c553f72a963":[9,2,2,0,0,0,0,2,364,16],
+"std__shared__ptr__MR__HistoryAction_8h.html#afc8042950cc4ba5df75bd2fa0b76956b":[9,2,2,0,0,0,0,2,364,19],
 "std__shared__ptr__MR__HistoryAction_8h.html#afeef1aa7bdc83c4cd5e239134fb2fc94":[9,2,2,0,0,0,0,2,364,2],
 "std__shared__ptr__MR__HistoryAction_8h_source.html":[9,2,2,0,0,0,0,2,364],
 "std__shared__ptr__MR__IComputePointsToDistanceFunctionVolume_8h.html":[9,2,2,0,0,0,0,2,365],
@@ -245,9 +249,5 @@ var NAVTREEINDEX168 =
 "std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a1baeb944cd565a0d90a617b882a308d3":[9,2,2,0,0,0,0,2,375,4],
 "std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a2b5cefb321f363d1154a8735e75a4707":[9,2,2,0,0,0,0,2,375,0],
 "std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a4b410659c720854c46ac601e2ada710b":[9,2,2,0,0,0,0,2,375,8],
-"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a5ad494fa45b37c89419f1557fe34a76b":[9,2,2,0,0,0,0,2,375,2],
-"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a6f3f3f661ec2f7e91b61d08657ea7b5b":[9,2,2,0,0,0,0,2,375,12],
-"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a79049cfa4f2112bdf109a96fe85884cc":[9,2,2,0,0,0,0,2,375,1],
-"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a835aadb81f85293e57109af3dc9f5a24":[9,2,2,0,0,0,0,2,375,17],
-"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a8d91ef1b2275d546f488b09af4d919d8":[9,2,2,0,0,0,0,2,375,7]
+"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a5ad494fa45b37c89419f1557fe34a76b":[9,2,2,0,0,0,0,2,375,2]
 };

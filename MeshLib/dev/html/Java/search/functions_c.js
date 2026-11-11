@@ -32,7 +32,7 @@ var searchData=
   ['nestmesh_29',['nestMesh',['../classmeshlib_1_1nesting_1_1SequentialNester.html#a4e1dc6449a39530f2a532daa6b053426',1,'meshlib::nesting::SequentialNester']]],
   ['nestmeshes_30',['nestMeshes',['../classmeshlib_1_1nesting_1_1SequentialNester.html#af442f97a6a2b31c80a1383179e132318',1,'meshlib::nesting::SequentialNester']]],
   ['nestvoxelscache_31',['nestVoxelsCache',['../classmeshlib_1_1nesting_1_1TetrisDensifyOptions.html#a442daa55563b0439ef2b8c55c7b2e4fa',1,'meshlib::nesting::TetrisDensifyOptions']]],
-  ['new2old_32',['new2Old',['../classmeshlib_1_1TrimOptionalOutput.html#a2a7c26bac40f840349c712960b7e2074',1,'meshlib::TrimOptionalOutput']]],
+  ['new2old_32',['new2Old',['../classmeshlib_1_1selfintersections_1_1Settings.html#a472ddd9cca7b740c23b9c4d71738bf8e',1,'meshlib.selfintersections.Settings.new2Old()'],['../classmeshlib_1_1TrimOptionalOutput.html#a2a7c26bac40f840349c712960b7e2074',1,'meshlib.TrimOptionalOutput.new2Old()']]],
   ['new2oldedgesmap_33',['new2oldEdgesMap',['../classmeshlib_1_1CutMeshParameters.html#a38fb734ec87c11e3c1bb200606ae443e',1,'meshlib::CutMeshParameters']]],
   ['new2oldfaces_34',['new2oldFaces',['../classmeshlib_1_1EmbeddedStructureParameters.html#a09a2029fd0b73d491dbd3def3359707c',1,'meshlib.EmbeddedStructureParameters.new2oldFaces()'],['../classmeshlib_1_1UniteManyMeshesParams.html#a9bc1112f801ab1dfc41673d872088053',1,'meshlib.UniteManyMeshesParams.new2oldFaces()']]],
   ['new2oldmap_35',['new2OldMap',['../classmeshlib_1_1CutMeshParameters.html#a8fed08de768ea0d98c81af3316b23248',1,'meshlib.CutMeshParameters.new2OldMap()'],['../classmeshlib_1_1MakeDegenerateBandAroundRegionParams.html#ae8a82b1c1b09ca562432f97dd7ea9606',1,'meshlib.MakeDegenerateBandAroundRegionParams.new2OldMap()']]],

@@ -1813,12 +1813,14 @@ var group__GeneralGroup =
     [ "MR::SelfIntersections::Settings", "structMR_1_1SelfIntersections_1_1Settings.html", [
       [ "Method", "group__GeneralGroup.html#ga89959b4882d33598d9220db080145bc5", [
         [ "Relax", "group__GeneralGroup.html#gga89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4", null ],
-        [ "CutAndFill", "group__GeneralGroup.html#gga89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7", null ]
+        [ "CutAndFill", "group__GeneralGroup.html#gga89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7", null ],
+        [ "SelfBoolean", "group__GeneralGroup.html#gga89959b4882d33598d9220db080145bc5a0c18fa34d12c5edabfd43e2380aa0f2b", null ]
       ] ],
       [ "callback", "group__GeneralGroup.html#gad3d19d62f4659d2ff0a0415ffecba3c4", null ],
       [ "maxExpand", "group__GeneralGroup.html#ga7798ca5ce166d10f94b4f994252918f8", null ],
       [ "method", "group__GeneralGroup.html#gaface1dd6cc60f50dd76186b73d130994", null ],
       [ "mimicPatch", "group__GeneralGroup.html#ga7bfc384755edd125c08bc81a9f993114", null ],
+      [ "new2Old", "group__GeneralGroup.html#gab181aeb8494acac8aa7393da3026d43d", null ],
       [ "relaxIterations", "group__GeneralGroup.html#gaca7a5619c15bc97f529b69737ac12bb6", null ],
       [ "subdivideEdgeLen", "group__GeneralGroup.html#ga27581dba0d20048070937e95346b4224", null ],
       [ "touchIsIntersection", "group__GeneralGroup.html#gae5606c4ebbd1f6f3acf27a76862219b0", null ]
@@ -10184,7 +10186,8 @@ var group__GeneralGroup =
     ] ],
     [ "MR::SelfIntersections::Settings::Method", "group__GeneralGroup.html#ga89959b4882d33598d9220db080145bc5", [
       [ "MR::SelfIntersections::Settings::Method::Relax", "group__GeneralGroup.html#gga89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4", null ],
-      [ "MR::SelfIntersections::Settings::Method::CutAndFill", "group__GeneralGroup.html#gga89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7", null ]
+      [ "MR::SelfIntersections::Settings::Method::CutAndFill", "group__GeneralGroup.html#gga89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7", null ],
+      [ "MR::SelfIntersections::Settings::Method::SelfBoolean", "group__GeneralGroup.html#gga89959b4882d33598d9220db080145bc5a0c18fa34d12c5edabfd43e2380aa0f2b", null ]
     ] ],
     [ "MR::WebRequest::Method", "group__GeneralGroup.html#gace710e20f931b5a3da04f21f16c5ab0c", [
       [ "MR::WebRequest::Method::Get", "group__GeneralGroup.html#ggace710e20f931b5a3da04f21f16c5ab0cac55582518cba2c464f29f5bae1c68def", null ],
@@ -18352,6 +18355,7 @@ var group__GeneralGroup =
     [ "MR::Nesting::NestingResult::nested", "group__GeneralGroup.html#gad2ca6cbc05de79bee8739cc5d9c30c29", null ],
     [ "MR::UniteManyMeshesParams::nestedComponentsMode", "group__GeneralGroup.html#ga28a4b396128672937ced813919301558", null ],
     [ "MR::Nesting::TetrisDensifyOptions::nestVoxelsCache", "group__GeneralGroup.html#ga9aa9eca3f4fabca2c8ac7cfa9bdfe5e8", null ],
+    [ "MR::SelfIntersections::Settings::new2Old", "group__GeneralGroup.html#gab181aeb8494acac8aa7393da3026d43d", null ],
     [ "MR::TrimOptionalOutput::new2Old", "group__GeneralGroup.html#ga95f7939b3615030e5bcc1dd29d3552c1", null ],
     [ "MR::CutMeshParameters::new2oldEdgesMap", "group__GeneralGroup.html#gae4b1e4cc599311ec4eaa5e0d7f90518b", null ],
     [ "MR::EmbeddedStructureParameters::new2oldFaces", "group__GeneralGroup.html#ga4c436c958ad19cd19e927c74c26329f5", null ],

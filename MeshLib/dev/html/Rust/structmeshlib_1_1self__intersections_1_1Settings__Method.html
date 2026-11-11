@@ -150,6 +150,7 @@ Static Public Attributes</h2></td></tr>
 <tr class="memdesc:ac38438c1d4ad4f1f58fc939b2ae521dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Relax mesh around self-intersections.  <br /></td></tr>
 <tr class="memitem:ae6d6dc4242824d466258ccf2cb84c604" id="r_ae6d6dc4242824d466258ccf2cb84c604"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="structmeshlib_1_1self__intersections_1_1Settings__Method.html">meshlib::self_intersections::Settings_Method</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6d6dc4242824d466258ccf2cb84c604">CutAndFill</a></td></tr>
 <tr class="memdesc:ae6d6dc4242824d466258ccf2cb84c604"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cut and re-fill regions around self-intersections (may fall back to <span class="tt">Relax</span>)  <br /></td></tr>
+<tr class="memitem:a93e005046fea8f789a3a5054e4808cfe" id="r_a93e005046fea8f789a3a5054e4808cfe"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="structmeshlib_1_1self__intersections_1_1Settings__Method.html">meshlib::self_intersections::Settings_Method</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93e005046fea8f789a3a5054e4808cfe">SelfBoolean</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Fix method</p>
@@ -200,6 +201,29 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Relax mesh around self-intersections. </p>
+
+</div>
+</div>
+<a id="a93e005046fea8f789a3a5054e4808cfe" name="a93e005046fea8f789a3a5054e4808cfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93e005046fea8f789a3a5054e4808cfe">&#9670;&#160;</a></span>SelfBoolean</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structmeshlib_1_1self__intersections_1_1Settings__Method.html">meshlib::self_intersections::Settings_Method</a> meshlib::self_intersections::Settings_Method::SelfBoolean</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Cut the mesh along the exact contours of its self-intersections (see selfBoolean) and keep only the largest by area part of every connected component; colliding components get united, and the holes that the contours reach are closed for the cut. The cut is made once and can leave degenerate faces and tiny self-intersections: call fixMeshDegeneracies after it, and repeat both if needed. Of the other settings only <span class="tt">callback</span> and <span class="tt">new2Old</span> are used </p>
 
 </div>
 </div>

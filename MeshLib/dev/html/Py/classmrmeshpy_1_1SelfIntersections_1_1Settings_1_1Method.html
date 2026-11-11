@@ -157,6 +157,7 @@ Public Member Functions</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a0e37025e1325bc18d2cd1ca1672149f4" id="r_a0e37025e1325bc18d2cd1ca1672149f4"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e37025e1325bc18d2cd1ca1672149f4">CutAndFill</a> .ClassVar[<a class="el" href="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html">SelfIntersections.Settings.Method</a>]</td></tr>
 <tr class="memitem:a98030f6bd006322bd6e3efab6bcb58ec" id="r_a98030f6bd006322bd6e3efab6bcb58ec"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98030f6bd006322bd6e3efab6bcb58ec">Relax</a> .ClassVar[<a class="el" href="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html">SelfIntersections.Settings.Method</a>]</td></tr>
+<tr class="memitem:a2f4e726981cb8a13d1edd769bdb3ad64" id="r_a2f4e726981cb8a13d1edd769bdb3ad64"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f4e726981cb8a13d1edd769bdb3ad64">SelfBoolean</a> .ClassVar[<a class="el" href="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html">SelfIntersections.Settings.Method</a>]</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -169,7 +170,7 @@ Static Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
 <tr class="memitem:a5fb366e1d43926456049a484e28dfa9d" id="r_a5fb366e1d43926456049a484e28dfa9d"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fb366e1d43926456049a484e28dfa9d">_member_map_</a> .ClassVar[dict]</td></tr>
-<tr class="memitem:a8445a8390cc00ded0beaf189a565ee02" id="r_a8445a8390cc00ded0beaf189a565ee02"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8445a8390cc00ded0beaf189a565ee02">_member_names_</a> = ['<a class="el" href="#a98030f6bd006322bd6e3efab6bcb58ec">Relax</a>', '<a class="el" href="#a0e37025e1325bc18d2cd1ca1672149f4">CutAndFill</a>']</td></tr>
+<tr class="memitem:a8445a8390cc00ded0beaf189a565ee02" id="r_a8445a8390cc00ded0beaf189a565ee02"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8445a8390cc00ded0beaf189a565ee02">_member_names_</a> = ['<a class="el" href="#a98030f6bd006322bd6e3efab6bcb58ec">Relax</a>', '<a class="el" href="#a0e37025e1325bc18d2cd1ca1672149f4">CutAndFill</a>', '<a class="el" href="#a2f4e726981cb8a13d1edd769bdb3ad64">SelfBoolean</a>']</td></tr>
 <tr class="memitem:a7a8c7942e6f09f4aa25252b0878ca492" id="r_a7a8c7942e6f09f4aa25252b0878ca492"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a8c7942e6f09f4aa25252b0878ca492">_value2member_map_</a> .ClassVar[dict]</td></tr>
 <tr class="memitem:a45e4e4805888a5839949587f709b4443" id="r_a45e4e4805888a5839949587f709b4443"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45e4e4805888a5839949587f709b4443">_member_type_</a> = builtins.int</td></tr>
 </table>
@@ -179,6 +180,11 @@ Static Protected Attributes</h2></td></tr>
   Relax : Relax mesh around self-intersections
 
   CutAndFill : Cut and re-fill regions around self-intersections (may fall back to `Relax`)
+
+  SelfBoolean : Cut the mesh along the exact contours of its self-intersections (see selfBoolean) and keep only the largest by area part
+of every connected component; colliding components get united, and the holes that the contours reach are closed for the cut.
+The cut is made once and can leave degenerate faces and tiny self-intersections: call fixMeshDegeneracies after it,
+and repeat both if needed. Of the other settings only `callback` and `new2Old` are used
 </pre> </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a6a7d31a6c57de9c89467262acc96f975" name="a6a7d31a6c57de9c89467262acc96f975"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6a7d31a6c57de9c89467262acc96f975">&#9670;&#160;</a></span>__new__()</h2>
@@ -325,7 +331,7 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">list mrmeshpy.SelfIntersections.Settings.Method._member_names_ = ['<a class="el" href="#a98030f6bd006322bd6e3efab6bcb58ec">Relax</a>', '<a class="el" href="#a0e37025e1325bc18d2cd1ca1672149f4">CutAndFill</a>']</td>
+          <td class="memname">list mrmeshpy.SelfIntersections.Settings.Method._member_names_ = ['<a class="el" href="#a98030f6bd006322bd6e3efab6bcb58ec">Relax</a>', '<a class="el" href="#a0e37025e1325bc18d2cd1ca1672149f4">CutAndFill</a>', '<a class="el" href="#a2f4e726981cb8a13d1edd769bdb3ad64">SelfBoolean</a>']</td>
         </tr>
       </table>
   </td>
@@ -414,6 +420,28 @@ Static Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typing mrmeshpy.SelfIntersections.Settings.Method.Relax .ClassVar[<a class="el" href="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html">SelfIntersections.Settings.Method</a>]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2f4e726981cb8a13d1edd769bdb3ad64" name="a2f4e726981cb8a13d1edd769bdb3ad64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f4e726981cb8a13d1edd769bdb3ad64">&#9670;&#160;</a></span>SelfBoolean</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typing mrmeshpy.SelfIntersections.Settings.Method.SelfBoolean .ClassVar[<a class="el" href="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html">SelfIntersections.Settings.Method</a>]</td>
         </tr>
       </table>
   </td>

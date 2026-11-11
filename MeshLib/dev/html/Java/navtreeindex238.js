@@ -1,5 +1,9 @@
 var NAVTREEINDEX238 =
 {
+"classmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f4196d7f198761e9b2d375d8b837149e0.html#abcd6d9bf75de122a465cb563d0142fed":[9,6,0,0,0,1327,0],
+"classmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f4196d7f198761e9b2d375d8b837149e0.html#abcd6d9bf75de122a465cb563d0142fed":[9,6,1,0,0,1327,0],
+"classmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f4196d7f198761e9b2d375d8b837149e0.html#ac93b0d169fd6162fad232204067a54e2":[9,6,0,0,0,1327,4],
+"classmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f4196d7f198761e9b2d375d8b837149e0.html#ac93b0d169fd6162fad232204067a54e2":[9,6,1,0,0,1327,4],
 "classmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f4196d7f198761e9b2d375d8b837149e0.html#acd1025d1ddb83a957c592215717da9f5":[9,6,0,0,0,1327,7],
 "classmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f4196d7f198761e9b2d375d8b837149e0.html#acd1025d1ddb83a957c592215717da9f5":[9,6,1,0,0,1327,7],
 "classmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f4196d7f198761e9b2d375d8b837149e0.html#af3c96ae53219a9ccda9fdc2e8a941aca":[9,6,0,0,0,1327,18],
@@ -245,9 +249,5 @@ var NAVTREEINDEX238 =
 "classmeshlib_1_1std__vector__MR__CurvePoint.html#a8dff2fee320ae52432177689af038ec1":[9,6,0,0,0,1333,1],
 "classmeshlib_1_1std__vector__MR__CurvePoint.html#a8dff2fee320ae52432177689af038ec1":[9,6,1,0,0,1333,1],
 "classmeshlib_1_1std__vector__MR__CurvePoint.html#ab0221c946a35e0aa1f17c6416d3e22e9":[9,6,0,0,0,1333,18],
-"classmeshlib_1_1std__vector__MR__CurvePoint.html#ab0221c946a35e0aa1f17c6416d3e22e9":[9,6,1,0,0,1333,18],
-"classmeshlib_1_1std__vector__MR__CurvePoint.html#ab978ea8c98fec437ed28b190ee0bfec5":[9,6,0,0,0,1333,5],
-"classmeshlib_1_1std__vector__MR__CurvePoint.html#ab978ea8c98fec437ed28b190ee0bfec5":[9,6,1,0,0,1333,5],
-"classmeshlib_1_1std__vector__MR__CurvePoint.html#abedb39cca85b06f5a4d60ccad5f65a32":[9,6,0,0,0,1333,10],
-"classmeshlib_1_1std__vector__MR__CurvePoint.html#abedb39cca85b06f5a4d60ccad5f65a32":[9,6,1,0,0,1333,10]
+"classmeshlib_1_1std__vector__MR__CurvePoint.html#ab0221c946a35e0aa1f17c6416d3e22e9":[9,6,1,0,0,1333,18]
 };

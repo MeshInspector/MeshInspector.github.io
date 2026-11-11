@@ -1,5 +1,11 @@
 var NAVTREEINDEX214 =
 {
+"structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3da08a965a4a063591a9db3c317974b37.html#aec75ae120754a823f9a76e96686acb48":[9,5,1,0,0,1304,7],
+"structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3da08a965a4a063591a9db3c317974b37.html#afdaf05aa531d1bbcd96c4c9c14361d7a":[9,5,0,0,0,1317,15],
+"structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3da08a965a4a063591a9db3c317974b37.html#afdaf05aa531d1bbcd96c4c9c14361d7a":[9,5,1,0,0,1304,15],
+"structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__ObjTreeTraits__MR__Allocator__MR__BoxedLeaf__MR__ObjTreeTraits.html":[9,5,0,0,0,1318],
+"structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__ObjTreeTraits__MR__Allocator__MR__BoxedLeaf__MR__ObjTreeTraits.html":[9,5,1,0,0,1305],
+"structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__ObjTreeTraits__MR__Allocator__MR__BoxedLeaf__MR__ObjTreeTraits.html#a2bf608a41e1b66862d20c1d26a9af11b":[9,5,0,0,0,1318,9],
 "structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__ObjTreeTraits__MR__Allocator__MR__BoxedLeaf__MR__ObjTreeTraits.html#a2bf608a41e1b66862d20c1d26a9af11b":[9,5,1,0,0,1305,9],
 "structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__ObjTreeTraits__MR__Allocator__MR__BoxedLeaf__MR__ObjTreeTraits.html#a31c39f0576d300510017b96fb3d494d1":[9,5,0,0,0,1318,8],
 "structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__ObjTreeTraits__MR__Allocator__MR__BoxedLeaf__MR__ObjTreeTraits.html#a31c39f0576d300510017b96fb3d494d1":[9,5,1,0,0,1305,8],
@@ -243,11 +249,5 @@ var NAVTREEINDEX214 =
 "structmeshlib_1_1std__vector__MR__DistanceMap.html#ad0cb7ca9a6c2b5632f7b319732c2baa5":[9,5,1,0,0,1311,9],
 "structmeshlib_1_1std__vector__MR__DistanceMap.html#adcd6e8af45ddc7c5c8ec1a8fe88eac72":[9,5,0,0,0,1324,3],
 "structmeshlib_1_1std__vector__MR__DistanceMap.html#adcd6e8af45ddc7c5c8ec1a8fe88eac72":[9,5,1,0,0,1311,3],
-"structmeshlib_1_1std__vector__MR__DistanceMap.html#ae12c4706fefc3430ff2498157bcc06a2":[9,5,0,0,0,1324,15],
-"structmeshlib_1_1std__vector__MR__DistanceMap.html#ae12c4706fefc3430ff2498157bcc06a2":[9,5,1,0,0,1311,15],
-"structmeshlib_1_1std__vector__MR__DistanceMap.html#af5284451968c1400d2a0fe0e1f42f5b7":[9,5,0,0,0,1324,4],
-"structmeshlib_1_1std__vector__MR__DistanceMap.html#af5284451968c1400d2a0fe0e1f42f5b7":[9,5,1,0,0,1311,4],
-"structmeshlib_1_1std__vector__MR__EdgeBitSet.html":[9,5,0,0,0,1325],
-"structmeshlib_1_1std__vector__MR__EdgeBitSet.html":[9,5,1,0,0,1312],
-"structmeshlib_1_1std__vector__MR__EdgeBitSet.html#a05b086d489bcf1d0f9ab79ad7aff469a":[9,5,0,0,0,1325,11]
+"structmeshlib_1_1std__vector__MR__DistanceMap.html#ae12c4706fefc3430ff2498157bcc06a2":[9,5,0,0,0,1324,15]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX270 =
 {
+"expected__MR__CurveFunc__std__string_8java.html":[9,6,2,0,0,1,0,0,338],
+"expected__MR__DistanceMap__std__string_8java.html":[9,6,2,0,0,1,0,0,339],
+"expected__MR__FaceBitSet__std__string_8java.html":[9,6,2,0,0,1,0,0,340],
+"expected__MR__FloatGrid__std__string_8java.html":[9,6,2,0,0,1,0,0,341],
 "expected__MR__FunctionVolume__std__string_8java.html":[9,6,2,0,0,1,0,0,342],
 "expected__MR__HoleFillPlan__std__string_8java.html":[9,6,2,0,0,1,0,0,343],
 "expected__MR__Image__std__string_8java.html":[9,6,2,0,0,1,0,0,344],
@@ -245,9 +249,5 @@ var NAVTREEINDEX270 =
 "interfacemeshlib_1_1std__function__MR__Vector3f__from__size__t__size__t_1_1Fn.html":[9,6,1,0,0,1052,0],
 "interfacemeshlib_1_1std__function__MR__Vector3f__from__size__t__size__t_1_1Fn.html#aba1b87bec547c4fd4be00852313814db":[9,6,0,0,0,1052,0,0],
 "interfacemeshlib_1_1std__function__MR__Vector3f__from__size__t__size__t_1_1Fn.html#aba1b87bec547c4fd4be00852313814db":[9,6,1,0,0,1052,0,0],
-"interfacemeshlib_1_1std__function__bool__from__MR__EdgeId_1_1Fn.html":[9,6,0,0,0,1006,0],
-"interfacemeshlib_1_1std__function__bool__from__MR__EdgeId_1_1Fn.html":[9,6,1,0,0,1006,0],
-"interfacemeshlib_1_1std__function__bool__from__MR__EdgeId_1_1Fn.html#a80a3e97d96805ac060b0b04b9ec256c5":[9,6,0,0,0,1006,0,0],
-"interfacemeshlib_1_1std__function__bool__from__MR__EdgeId_1_1Fn.html#a80a3e97d96805ac060b0b04b9ec256c5":[9,6,1,0,0,1006,0,0],
-"interfacemeshlib_1_1std__function__bool__from__MR__EdgeId__const__MR__Vector2f__ref_1_1Fn.html":[9,6,0,0,0,1007,0]
+"interfacemeshlib_1_1std__function__bool__from__MR__EdgeId_1_1Fn.html":[9,6,0,0,0,1006,0]
 };

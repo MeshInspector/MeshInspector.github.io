@@ -2305,6 +2305,7 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memitem:ga89959b4882d33598d9220db080145bc5" id="r_ga89959b4882d33598d9220db080145bc5"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga89959b4882d33598d9220db080145bc5">MR::SelfIntersections::Settings::Method</a> { <a class="el" href="#gga89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4">MR::SelfIntersections::Settings::Method::Relax</a>
 , <a class="el" href="#gga89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7">MR::SelfIntersections::Settings::Method::CutAndFill</a>
+, <a class="el" href="#gga89959b4882d33598d9220db080145bc5a0c18fa34d12c5edabfd43e2380aa0f2b">MR::SelfIntersections::Settings::Method::SelfBoolean</a>
  }</td></tr>
 <tr class="memdesc:ga89959b4882d33598d9220db080145bc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fix method.  <a href="#ga89959b4882d33598d9220db080145bc5">More...</a><br /></td></tr>
 <tr class="memitem:ga46d7f5e53476c23ef05251179f3e15f0" id="r_ga46d7f5e53476c23ef05251179f3e15f0"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga46d7f5e53476c23ef05251179f3e15f0">MR::GridSettings::EdgeType</a> { <a class="el" href="#gga46d7f5e53476c23ef05251179f3e15f0ac1b5fa03ecdb95d4a45dd1c40b02527f">MR::GridSettings::EdgeType::Horizontal</a>
@@ -12694,6 +12695,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga7bfc384755edd125c08bc81a9f993114"><td class="mdescLeft">&#160;</td><td class="mdescRight">trying to stay close to initial surface when patching  <br /></td></tr>
 <tr class="memitem:gad3d19d62f4659d2ff0a0415ffecba3c4" id="r_gad3d19d62f4659d2ff0a0415ffecba3c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad3d19d62f4659d2ff0a0415ffecba3c4">MR::SelfIntersections::Settings::callback</a> = {}</td></tr>
 <tr class="memdesc:gad3d19d62f4659d2ff0a0415ffecba3c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback function.  <br /></td></tr>
+<tr class="memitem:gab181aeb8494acac8aa7393da3026d43d" id="r_gab181aeb8494acac8aa7393da3026d43d"><td class="memItemLeft" align="right" valign="top">FaceMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab181aeb8494acac8aa7393da3026d43d">MR::SelfIntersections::Settings::new2Old</a> = nullptr</td></tr>
 <tr class="memitem:ga3c7b474aeb8051a9fb1afb927f011f45" id="r_ga3c7b474aeb8051a9fb1afb927f011f45"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Vec &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3c7b474aeb8051a9fb1afb927f011f45">MR::GcodeProcessor::BaseAction&lt; Vec &gt;::path</a></td></tr>
 <tr class="memdesc:ga3c7b474aeb8051a9fb1afb927f011f45"><td class="mdescLeft">&#160;</td><td class="mdescRight">tool movement parsed from gcode  <br /></td></tr>
 <tr class="memitem:ga9270868b501d221ffbe92fc1d7c8916e" id="r_ga9270868b501d221ffbe92fc1d7c8916e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9270868b501d221ffbe92fc1d7c8916e">MR::GcodeProcessor::BaseAction&lt; Vec &gt;::warning</a></td></tr>
@@ -26345,6 +26347,8 @@ template&lt;typename Tag&gt; </div>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4" name="gga89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4"></a>Relax&#160;</td><td class="fielddoc"><p>Relax mesh around self-intersections. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="gga89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7" name="gga89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7"></a>CutAndFill&#160;</td><td class="fielddoc"><p>Cut and re-fill regions around self-intersections (may fall back to <span class="tt">Relax</span>) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga89959b4882d33598d9220db080145bc5a0c18fa34d12c5edabfd43e2380aa0f2b" name="gga89959b4882d33598d9220db080145bc5a0c18fa34d12c5edabfd43e2380aa0f2b"></a>SelfBoolean&#160;</td><td class="fielddoc"><p>Cut the mesh along the exact contours of its self-intersections (see selfBoolean) and keep only the largest by area part of every connected component; colliding components get united, and the holes that the contours reach are closed for the cut. The cut is made once and can leave degenerate faces and tiny self-intersections: call fixMeshDegeneracies after it, and repeat both if needed. Of the other settings only <span class="tt">callback</span> and <span class="tt">new2Old</span> are used </p>
 </td></tr>
 </table>
 
@@ -229307,8 +229311,23 @@ template&lt;typename A, typename B&gt; </div>
 
 </div>
 </div>
+<a id="gab181aeb8494acac8aa7393da3026d43d" name="gab181aeb8494acac8aa7393da3026d43d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab181aeb8494acac8aa7393da3026d43d">&#9670;&#160;</a></span>new2Old <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FaceMap* MR::SelfIntersections::Settings::new2Old = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional output of <span class="tt"><a class="el" href="#gga89959b4882d33598d9220db080145bc5a0c18fa34d12c5edabfd43e2380aa0f2b">Method::SelfBoolean</a></span>: for every face of the fixed mesh, the face of the original mesh that it is (a part of); not set by the other methods </p>
+
+</div>
+</div>
 <a id="ga95f7939b3615030e5bcc1dd29d3552c1" name="ga95f7939b3615030e5bcc1dd29d3552c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga95f7939b3615030e5bcc1dd29d3552c1">&#9670;&#160;</a></span>new2Old</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga95f7939b3615030e5bcc1dd29d3552c1">&#9670;&#160;</a></span>new2Old <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

@@ -1,5 +1,11 @@
 var NAVTREEINDEX179 =
 {
+"classmrmeshpy_1_1ShellVertexInfo.html#aa30bb064a389941d6af1786b61226bc2":[9,1,0,0,2,2171,1],
+"classmrmeshpy_1_1ShellVertexInfo.html#aa30bb064a389941d6af1786b61226bc2":[9,1,1,0,1,2171,1],
+"classmrmeshpy_1_1ShellVertexInfo.html#aa3ebb7ba92b1824fc34103cdb66dc649":[9,1,0,0,2,2171,2],
+"classmrmeshpy_1_1ShellVertexInfo.html#aa3ebb7ba92b1824fc34103cdb66dc649":[9,1,1,0,1,2171,2],
+"classmrmeshpy_1_1ShellVertexInfo.html#aa6f3b79ef58e520ec73e91a5281dd87a":[9,1,0,0,2,2171,0],
+"classmrmeshpy_1_1ShellVertexInfo.html#aa6f3b79ef58e520ec73e91a5281dd87a":[9,1,1,0,1,2171,0],
 "classmrmeshpy_1_1ShellVertexInfo.html#ac1a3a24d7ee08d4bf91ebcf422b0b7f3":[9,1,0,0,2,2171,6],
 "classmrmeshpy_1_1ShellVertexInfo.html#ac1a3a24d7ee08d4bf91ebcf422b0b7f3":[9,1,1,0,1,2171,6],
 "classmrmeshpy_1_1ShellVertexInfo.html#aca43c354a8cde25e1419d1119e499573":[9,1,0,0,2,2171,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX179 =
 "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a9a102ae546725c6cecd23958272e67ad":[9,1,0,0,2,2187,3],
 "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a9a102ae546725c6cecd23958272e67ad":[9,1,1,0,1,2187,3],
 "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#aa9426a9fc530c1fa65dd8c7c07fd3b09":[9,1,0,0,2,2187,4],
-"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#aa9426a9fc530c1fa65dd8c7c07fd3b09":[9,1,1,0,1,2187,4],
-"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#abeb6ea6ae0cd827bc95521e57a13414b":[9,1,0,0,2,2187,6],
-"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#abeb6ea6ae0cd827bc95521e57a13414b":[9,1,1,0,1,2187,6],
-"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#ac9e3ec238fade0dc4bd1fb720c556b6c":[9,1,0,0,2,2187,10],
-"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#ac9e3ec238fade0dc4bd1fb720c556b6c":[9,1,1,0,1,2187,10],
-"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#ace40c9aa42f986aaa72979b801c4a50e":[9,1,0,0,2,2187,1],
-"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#ace40c9aa42f986aaa72979b801c4a50e":[9,1,1,0,1,2187,1]
+"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#aa9426a9fc530c1fa65dd8c7c07fd3b09":[9,1,1,0,1,2187,4]
 };

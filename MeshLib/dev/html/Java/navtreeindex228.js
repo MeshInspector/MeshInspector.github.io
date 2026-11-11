@@ -1,5 +1,9 @@
 var NAVTREEINDEX228 =
 {
+"classmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceVolume.html#afade65b0dda760e36a44d10c183671fb":[9,6,0,0,0,1246,1],
+"classmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceVolume.html#afade65b0dda760e36a44d10c183671fb":[9,6,1,0,0,1246,1],
+"classmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts.html":[9,6,0,0,0,1247],
+"classmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts.html":[9,6,1,0,0,1247],
 "classmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts.html#a1164fc5a2c12b922bd635a4db7444622":[9,6,0,0,0,1247,11],
 "classmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts.html#a1164fc5a2c12b922bd635a4db7444622":[9,6,1,0,0,1247,11],
 "classmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts.html#a2001ddbc173e00271d5fd5a0af6753b7":[9,6,0,0,0,1247,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX228 =
 "classmeshlib_1_1std__shared__ptr__MR__Nesting__IBoxNestingPriority.html#a07762e0e8ae496ed107431d2936d66e5":[9,6,0,0,0,1255,4],
 "classmeshlib_1_1std__shared__ptr__MR__Nesting__IBoxNestingPriority.html#a07762e0e8ae496ed107431d2936d66e5":[9,6,1,0,0,1255,4],
 "classmeshlib_1_1std__shared__ptr__MR__Nesting__IBoxNestingPriority.html#a0963c9fabf89b85c63200887ac7103db":[9,6,0,0,0,1255,3],
-"classmeshlib_1_1std__shared__ptr__MR__Nesting__IBoxNestingPriority.html#a0963c9fabf89b85c63200887ac7103db":[9,6,1,0,0,1255,3],
-"classmeshlib_1_1std__shared__ptr__MR__Nesting__IBoxNestingPriority.html#a145027df1ba652de1be598cac07a5e0d":[9,6,0,0,0,1255,9],
-"classmeshlib_1_1std__shared__ptr__MR__Nesting__IBoxNestingPriority.html#a145027df1ba652de1be598cac07a5e0d":[9,6,1,0,0,1255,9],
-"classmeshlib_1_1std__shared__ptr__MR__Nesting__IBoxNestingPriority.html#a1d5a5c86e0ef254f0aad29f28fab1f04":[9,6,0,0,0,1255,5],
-"classmeshlib_1_1std__shared__ptr__MR__Nesting__IBoxNestingPriority.html#a1d5a5c86e0ef254f0aad29f28fab1f04":[9,6,1,0,0,1255,5]
+"classmeshlib_1_1std__shared__ptr__MR__Nesting__IBoxNestingPriority.html#a0963c9fabf89b85c63200887ac7103db":[9,6,1,0,0,1255,3]
 };

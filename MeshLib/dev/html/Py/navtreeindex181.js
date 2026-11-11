@@ -1,5 +1,11 @@
 var NAVTREEINDEX181 =
 {
+"classmrmeshpy_1_1StitchHolesParams.html#a359d46a5b8d0e13d8cf2d4cbffeb5d1a":[9,1,0,0,2,2451,6],
+"classmrmeshpy_1_1StitchHolesParams.html#a359d46a5b8d0e13d8cf2d4cbffeb5d1a":[9,1,1,0,1,2451,6],
+"classmrmeshpy_1_1StitchHolesParams.html#a637af66f468196550fb18e65363e9384":[9,1,0,0,2,2451,5],
+"classmrmeshpy_1_1StitchHolesParams.html#a637af66f468196550fb18e65363e9384":[9,1,1,0,1,2451,5],
+"classmrmeshpy_1_1StitchHolesParams.html#a80c89d23010b03273c2375a90ce6b94d":[9,1,0,0,2,2451,3],
+"classmrmeshpy_1_1StitchHolesParams.html#a80c89d23010b03273c2375a90ce6b94d":[9,1,1,0,1,2451,3],
 "classmrmeshpy_1_1StitchHolesParams.html#a8a820486685fbd0c17a2a75f27cc0303":[9,1,0,0,2,2451,2],
 "classmrmeshpy_1_1StitchHolesParams.html#a8a820486685fbd0c17a2a75f27cc0303":[9,1,1,0,1,2451,2],
 "classmrmeshpy_1_1StitchHolesParams.html#a96b1b683216d46071341ee6fcae641ba":[9,1,0,0,2,2451,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX181 =
 "classmrmeshpy_1_1SymMatrix2f.html#ae1602f22be20392b2e117b7c0854311d":[9,1,0,0,2,2458,4],
 "classmrmeshpy_1_1SymMatrix2f.html#ae1602f22be20392b2e117b7c0854311d":[9,1,1,0,1,2458,4],
 "classmrmeshpy_1_1SymMatrix2i.html":[9,1,0,0,2,2459],
-"classmrmeshpy_1_1SymMatrix2i.html":[9,1,1,0,1,2459],
-"classmrmeshpy_1_1SymMatrix2i.html#a18b40934355a8ae5853dd4cad2e4a766":[9,1,0,0,2,2459,9],
-"classmrmeshpy_1_1SymMatrix2i.html#a18b40934355a8ae5853dd4cad2e4a766":[9,1,1,0,1,2459,9],
-"classmrmeshpy_1_1SymMatrix2i.html#a2e0a727f283d5ca451d568d929ef9eb9":[9,1,0,0,2,2459,7],
-"classmrmeshpy_1_1SymMatrix2i.html#a2e0a727f283d5ca451d568d929ef9eb9":[9,1,1,0,1,2459,7],
-"classmrmeshpy_1_1SymMatrix2i.html#a6d02a6bfe0be8d9c79afafdb3907baa8":[9,1,0,0,2,2459,8],
-"classmrmeshpy_1_1SymMatrix2i.html#a6d02a6bfe0be8d9c79afafdb3907baa8":[9,1,1,0,1,2459,8]
+"classmrmeshpy_1_1SymMatrix2i.html":[9,1,1,0,1,2459]
 };

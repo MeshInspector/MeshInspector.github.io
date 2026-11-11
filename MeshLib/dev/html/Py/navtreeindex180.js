@@ -1,5 +1,11 @@
 var NAVTREEINDEX180 =
 {
+"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#abeb6ea6ae0cd827bc95521e57a13414b":[9,1,0,0,2,2187,6],
+"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#abeb6ea6ae0cd827bc95521e57a13414b":[9,1,1,0,1,2187,6],
+"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#ac9e3ec238fade0dc4bd1fb720c556b6c":[9,1,0,0,2,2187,10],
+"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#ac9e3ec238fade0dc4bd1fb720c556b6c":[9,1,1,0,1,2187,10],
+"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#ace40c9aa42f986aaa72979b801c4a50e":[9,1,0,0,2,2187,1],
+"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#ace40c9aa42f986aaa72979b801c4a50e":[9,1,1,0,1,2187,1],
 "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#ae38f0154d20a2979beef3a96ce2711e5":[9,1,0,0,2,2187,11],
 "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#ae38f0154d20a2979beef3a96ce2711e5":[9,1,1,0,1,2187,11],
 "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#af285de24c5d34767250bed0227091119":[9,1,0,0,2,2187,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX180 =
 "classmrmeshpy_1_1StitchHolesParams.html":[9,1,0,0,2,2451],
 "classmrmeshpy_1_1StitchHolesParams.html":[9,1,1,0,1,2451],
 "classmrmeshpy_1_1StitchHolesParams.html#a19570f6ab1308b13d150c25ee857b646":[9,1,0,0,2,2451,7],
-"classmrmeshpy_1_1StitchHolesParams.html#a19570f6ab1308b13d150c25ee857b646":[9,1,1,0,1,2451,7],
-"classmrmeshpy_1_1StitchHolesParams.html#a359d46a5b8d0e13d8cf2d4cbffeb5d1a":[9,1,0,0,2,2451,6],
-"classmrmeshpy_1_1StitchHolesParams.html#a359d46a5b8d0e13d8cf2d4cbffeb5d1a":[9,1,1,0,1,2451,6],
-"classmrmeshpy_1_1StitchHolesParams.html#a637af66f468196550fb18e65363e9384":[9,1,0,0,2,2451,5],
-"classmrmeshpy_1_1StitchHolesParams.html#a637af66f468196550fb18e65363e9384":[9,1,1,0,1,2451,5],
-"classmrmeshpy_1_1StitchHolesParams.html#a80c89d23010b03273c2375a90ce6b94d":[9,1,0,0,2,2451,3],
-"classmrmeshpy_1_1StitchHolesParams.html#a80c89d23010b03273c2375a90ce6b94d":[9,1,1,0,1,2451,3]
+"classmrmeshpy_1_1StitchHolesParams.html#a19570f6ab1308b13d150c25ee857b646":[9,1,1,0,1,2451,7]
 };

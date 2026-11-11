@@ -1,5 +1,9 @@
 var NAVTREEINDEX229 =
 {
+"classmeshlib_1_1std__shared__ptr__MR__Nesting__IBoxNestingPriority.html#a145027df1ba652de1be598cac07a5e0d":[9,6,0,0,0,1255,9],
+"classmeshlib_1_1std__shared__ptr__MR__Nesting__IBoxNestingPriority.html#a145027df1ba652de1be598cac07a5e0d":[9,6,1,0,0,1255,9],
+"classmeshlib_1_1std__shared__ptr__MR__Nesting__IBoxNestingPriority.html#a1d5a5c86e0ef254f0aad29f28fab1f04":[9,6,0,0,0,1255,5],
+"classmeshlib_1_1std__shared__ptr__MR__Nesting__IBoxNestingPriority.html#a1d5a5c86e0ef254f0aad29f28fab1f04":[9,6,1,0,0,1255,5],
 "classmeshlib_1_1std__shared__ptr__MR__Nesting__IBoxNestingPriority.html#a21829940207d999ed237f38aa0e035d3":[9,6,0,0,0,1255,10],
 "classmeshlib_1_1std__shared__ptr__MR__Nesting__IBoxNestingPriority.html#a21829940207d999ed237f38aa0e035d3":[9,6,1,0,0,1255,10],
 "classmeshlib_1_1std__shared__ptr__MR__Nesting__IBoxNestingPriority.html#a3bc592aab768c305630bfd89f08bc4f9":[9,6,0,0,0,1255,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX229 =
 "classmeshlib_1_1std__shared__ptr__MR__ObjectLinesHolder.html#a81ee1f6bb9fca721aa9f331eedb93c7a":[9,6,0,0,0,1263,12],
 "classmeshlib_1_1std__shared__ptr__MR__ObjectLinesHolder.html#a81ee1f6bb9fca721aa9f331eedb93c7a":[9,6,1,0,0,1263,12],
 "classmeshlib_1_1std__shared__ptr__MR__ObjectLinesHolder.html#aa09b4c3b6de83bf0f30338f46629a4c9":[9,6,0,0,0,1263,3],
-"classmeshlib_1_1std__shared__ptr__MR__ObjectLinesHolder.html#aa09b4c3b6de83bf0f30338f46629a4c9":[9,6,1,0,0,1263,3],
-"classmeshlib_1_1std__shared__ptr__MR__ObjectLinesHolder.html#aa2fe54bf443debd72de18a8bb07755f0":[9,6,0,0,0,1263,5],
-"classmeshlib_1_1std__shared__ptr__MR__ObjectLinesHolder.html#aa2fe54bf443debd72de18a8bb07755f0":[9,6,1,0,0,1263,5],
-"classmeshlib_1_1std__shared__ptr__MR__ObjectLinesHolder.html#aa46f879d244e7abe35e516983b7fd486":[9,6,0,0,0,1263,13],
-"classmeshlib_1_1std__shared__ptr__MR__ObjectLinesHolder.html#aa46f879d244e7abe35e516983b7fd486":[9,6,1,0,0,1263,13]
+"classmeshlib_1_1std__shared__ptr__MR__ObjectLinesHolder.html#aa09b4c3b6de83bf0f30338f46629a4c9":[9,6,1,0,0,1263,3]
 };
