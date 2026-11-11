@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1BooleanResultMapper_1_1Maps.html#a759f148ae9dcef7ecb6908d19f726e7c":[9,0,0,8,0,0,0],
 "structMR_1_1BooleanResultMapper_1_1Maps.html#a854bf26bb7bda5effd4d5f1be56f0aa9":[9,0,0,8,0,0,1],
 "structMR_1_1BooleanResultMapper_1_1Maps.html#accfdff73b6e9b6265313ff04878b8973":[9,0,0,8,0,0,3],
 "structMR_1_1BooleanResultPoints.html":[9,0,1,0,1,114],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1DistanceToMeshOptions.html":[9,0,0,19,212],
 "structMR_1_1DistanceVolumeParams.html":[9,0,0,19,866],
 "structMR_1_1DivideMeshWithPlaneParams.html":[9,0,0,19,357],
-"structMR_1_1DividePointCloudOptionalOutput.html":[9,0,0,19,460],
-"structMR_1_1DividePolylineParameters.html":[9,0,0,19,477]
+"structMR_1_1DividePointCloudOptionalOutput.html":[9,0,0,19,460]
 };

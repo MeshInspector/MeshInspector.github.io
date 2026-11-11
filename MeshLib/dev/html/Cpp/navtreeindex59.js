@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"group__SerializerGroup.html#ga4466031d05f4eb56868dc88105bc5248":[9,0,0,2,18,3],
 "group__SerializerGroup.html#ga4a175d8a8e417663622148510dd390ba":[9,0,0,2,18,4],
 "group__SerializerGroup.html#ga4c43041da49b3a3c7547c3f12ffb0ab2":[9,0,0,2,18,42],
 "group__SerializerGroup.html#ga50539cfe8f960607feeace50210a0a16":[9,0,0,2,18,35],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "group__TupleBindingsGroup.html":[9,0,0,0,11],
 "group__TupleBindingsGroup.html#ga01413673c815bd0bfc3dea53829bb94b":[9,0,0,0,11,10],
 "group__TupleBindingsGroup.html#ga27575a581409754718e3440d21583420":[9,0,0,0,11,11],
-"group__TupleBindingsGroup.html#ga28ca9a61313c194fdd1d8bd54eb71cbc":[9,0,0,0,11,5],
-"group__TupleBindingsGroup.html#ga28e92a7fd124a5ea679bd55bac165135":[9,0,0,0,11,16]
+"group__TupleBindingsGroup.html#ga28ca9a61313c194fdd1d8bd54eb71cbc":[9,0,0,0,11,5]
 };

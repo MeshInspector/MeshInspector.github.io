@@ -3884,6 +3884,7 @@ var namespaceMR =
     [ "cScrollBarSize", "group__GeneralGroup.html#ga617cd90c338d4e739823f0bf7bc42ee4", null ],
     [ "cSeparateBlocksSpacing", "group__GeneralGroup.html#ga3111d6c67340775339a2b320ca618a6a", null ],
     [ "cSeparatorIndentMultiplier", "group__GeneralGroup.html#ga27ab0aa461b99e7829305e508180f40c", null ],
+    [ "cShowSplashScreenKey", "group__GeneralGroup.html#ga5e1306f204051fbe0997532e54abcdbd", null ],
     [ "cSmallFontSize", "group__GeneralGroup.html#ga16a2551ae713d02409e67a85df426fd5", null ],
     [ "cSmallIconSize", "group__GeneralGroup.html#ga3751389d3e765404fee965fe7e4d5114", null ],
     [ "cSmallItemDropSizeModifier", "group__GeneralGroup.html#ga5c83bbfbdb840f0b895746f9904ec159", null ],

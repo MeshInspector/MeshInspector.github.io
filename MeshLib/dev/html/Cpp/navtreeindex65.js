@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1DividePolylineParameters.html":[9,0,0,19,477],
 "structMR_1_1DoubleOffsetSettings.html":[9,0,0,19,918],
 "structMR_1_1DracoSaveOptions.html":[9,0,0,19,96],
 "structMR_1_1DragDropListener.html":[9,0,0,19,814],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1ImGuiMath_1_1CompareAny.html":[9,0,1,0,1,16,3],
 "structMR_1_1ImGuiMath_1_1CompareAny.html":[9,0,2,0,1,6,3],
 "structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize.html":[9,0,1,0,1,16,0,0],
-"structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize.html":[9,0,2,0,1,6,0,0],
-"structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html":[9,0,1,0,1,16,0,1]
+"structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize.html":[9,0,2,0,1,6,0,0]
 };

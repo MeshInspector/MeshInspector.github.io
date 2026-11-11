@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1MenuItemShortcut.html":[9,0,0,19,711],
 "structMR_1_1MergeVolumePartSettings.html":[9,0,0,16,4],
 "structMR_1_1MergeVolumePartSettings.html":[9,0,0,19,922],
 "structMR_1_1Mesh.html":[9,0,0,7,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1MeshToDistanceMapParams.html#a564c1336e2a73c39aed0b35f500f1ff6":[9,0,0,5,3,1],
 "structMR_1_1MeshToDistanceMapParams.html#a75bd2c39b7abd536c01547fccc4a18b1":[9,0,0,5,3,9],
 "structMR_1_1MeshToDistanceMapParams.html#a7f9d8b8e94b257b2bf65aa10104459c9":[9,0,0,5,3,16],
-"structMR_1_1MeshToDistanceMapParams.html#aa581e3154ca47d52f8cc418e27121f0f":[9,0,0,5,3,11],
-"structMR_1_1MeshToDistanceMapParams.html#aac1ab78936263c419b3c72a94c08ea99":[9,0,0,5,3,15]
+"structMR_1_1MeshToDistanceMapParams.html#aa581e3154ca47d52f8cc418e27121f0f":[9,0,0,5,3,11]
 };
