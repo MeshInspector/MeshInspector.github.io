@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1SceneLoad_1_1Settings.html#af5b8ca73e0491595900574e2c8ab17d8":[9,0,2,0,1,30,1,3],
 "structMR_1_1SceneReorder.html":[9,0,0,19,728],
 "structMR_1_1SceneSave_1_1Settings.html":[9,0,1,0,1,48,0],
 "structMR_1_1SceneSave_1_1Settings.html":[9,0,2,0,1,31,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[9,0,1,0,1,53,14,0,0],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[9,0,2,0,1,35,12,0,0],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[9,0,1,0,1,53,14,0,1],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[9,0,2,0,1,35,12,0,1],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a97ed99b906b672210756ad692b5a3a2a":[9,0,1,0,1,53,14,0,2]
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[9,0,2,0,1,35,12,0,1]
 };

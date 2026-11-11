@@ -7685,6 +7685,7 @@ var group__GeneralGroup =
     ] ],
     [ "MR::UI::ButtonIconCustomizationParams", "structMR_1_1UI_1_1ButtonIconCustomizationParams.html", [
       [ "baseParams", "group__GeneralGroup.html#gae70b40fe67c4360ea6328d4d514217ea", null ],
+      [ "iconColor", "group__GeneralGroup.html#ga37767313f4a291f277070015ea10b7f6", null ],
       [ "textUnderImage", "group__GeneralGroup.html#gaa7755d0cc192563e2f8641d447160b10", null ]
     ] ],
     [ "MR::UI::PlotAxis", "structMR_1_1UI_1_1PlotAxis.html", [
@@ -17967,6 +17968,7 @@ var group__GeneralGroup =
     [ "MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::hoveredLineWidth", "group__GeneralGroup.html#gaf1899a0952daad52f5218d45bf7d61a9", null ],
     [ "MR::MenuItemInfo::icon", "group__GeneralGroup.html#ga7ae92cc9abaa72fdd49fb11994a79ecb", null ],
     [ "MR::UI::SeparatorParams::icon", "group__GeneralGroup.html#ga56193ffd27a298bf344d8ca87e0a41e0", null ],
+    [ "MR::UI::ButtonIconCustomizationParams::iconColor", "group__GeneralGroup.html#ga37767313f4a291f277070015ea10b7f6", null ],
     [ "MR::DrawButtonParams::iconSize", "group__GeneralGroup.html#gab74f8d9df1de54c37cd0803d64f01b34", null ],
     [ "MR::UI::SeparatorParams::iconSize", "group__GeneralGroup.html#ga9566bcbe86e1d94a70ecba64961edb29", null ],
     [ "MR::CustomButtonParameters::iconType", "group__GeneralGroup.html#gac4659ddd4f1cc193ad87ef0c017e00eb", null ],
