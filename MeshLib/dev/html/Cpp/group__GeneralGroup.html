@@ -6261,7 +6261,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:gab2810fe9c6b38f4a0926069ab58120ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates new face-id not associated with any edge yet  <br /></td></tr>
 <tr class="memitem:ga9cec8fcb3700270debd8b9cdc9fa6cf7" id="r_ga9cec8fcb3700270debd8b9cdc9fa6cf7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9cec8fcb3700270debd8b9cdc9fa6cf7">MR::MeshTopology::deleteFace</a> (FaceId f, const UndirectedEdgeBitSet *keepEdges=nullptr)</td></tr>
 <tr class="memdesc:ga9cec8fcb3700270debd8b9cdc9fa6cf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes the face, also deletes its edges and vertices if they were not shared by other faces and not in <code class="param">keepEdges</code>  <br /></td></tr>
-<tr class="memitem:ga381fd334af76605898ec97a371babf04" id="r_ga381fd334af76605898ec97a371babf04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1VacantElements.html">VacantElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga381fd334af76605898ec97a371babf04">MR::MeshTopology::deleteFaces</a> (const FaceBitSet &amp;fs, const UndirectedEdgeBitSet *keepEdges=nullptr)</td></tr>
+<tr class="memitem:ga174947af8d66dad68b06697175088d25" id="r_ga174947af8d66dad68b06697175088d25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga174947af8d66dad68b06697175088d25">MR::MeshTopology::deleteFaces</a> (const FaceBitSet &amp;fs, const UndirectedEdgeBitSet *keepEdges=nullptr)</td></tr>
+<tr class="memitem:ga1b01021c59a4b6a595260236e548e6a9" id="r_ga1b01021c59a4b6a595260236e548e6a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1VacantElements.html">VacantElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1b01021c59a4b6a595260236e548e6a9">MR::MeshTopology::deleteFacesFindVacant</a> (const FaceBitSet &amp;fs, const UndirectedEdgeBitSet *keepEdges=nullptr)</td></tr>
 <tr class="memitem:ga31777501998845c89531cd21895458b5" id="r_ga31777501998845c89531cd21895458b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga31777501998845c89531cd21895458b5">MR::MeshTopology::deleteFacesKeepEdges</a> (const FaceBitSet &amp;fs)</td></tr>
 <tr class="memdesc:ga31777501998845c89531cd21895458b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes the given valid faces (in parallel), keeping all their edges and vertices, which get no face on that side  <br /></td></tr>
 <tr class="memitem:ga2a22972e251180aa6466d2ea6c6f6b80" id="r_ga2a22972e251180aa6466d2ea6c6f6b80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2a22972e251180aa6466d2ea6c6f6b80">MR::MeshTopology::faceResize</a> (size_t newSize)</td></tr>
@@ -57227,14 +57228,14 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga381fd334af76605898ec97a371babf04" name="ga381fd334af76605898ec97a371babf04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga381fd334af76605898ec97a371babf04">&#9670;&#160;</a></span>deleteFaces()</h2>
+<a id="ga174947af8d66dad68b06697175088d25" name="ga174947af8d66dad68b06697175088d25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga174947af8d66dad68b06697175088d25">&#9670;&#160;</a></span>deleteFaces()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1VacantElements.html">VacantElements</a> MR::MeshTopology::deleteFaces </td>
+          <td class="memname">void MR::MeshTopology::deleteFaces </td>
           <td>(</td>
           <td class="paramtype">const FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>fs</em></span>, </td>
         </tr>
@@ -57247,7 +57248,31 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshTopology_8h.html">MRMesh/MRMeshTopology.h</a>&gt;</code></p>
-<p>deletes from this topology: 1) all the gives faces, 2) all the vertices, which had incident only deleted faces and no edges from <code class="param">keepEdges</code>, 3) make lone all the edges, which had to the left/right only deleted faces except for the edges from <code class="param">keepEdges</code>; return bit sets of all vacant elements in this topology after deletion </p>
+<p>deletes the given faces, also deletes their edges and vertices if they were not shared by other faces and not in <code class="param">keepEdges</code>; unlike <a class="el" href="#ga1b01021c59a4b6a595260236e548e6a9">deleteFacesFindVacant</a>, the edges that had no left and no right face before the call are not touched; few faces (up to 64 or 1/128 of all faces, whichever is larger) are deleted one by one, without a pass over all mesh elements </p>
+
+</div>
+</div>
+<a id="ga1b01021c59a4b6a595260236e548e6a9" name="ga1b01021c59a4b6a595260236e548e6a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1b01021c59a4b6a595260236e548e6a9">&#9670;&#160;</a></span>deleteFacesFindVacant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1VacantElements.html">VacantElements</a> MR::MeshTopology::deleteFacesFindVacant </td>
+          <td>(</td>
+          <td class="paramtype">const FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>fs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const UndirectedEdgeBitSet *</td>          <td class="paramname"><span class="paramname"><em>keepEdges</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshTopology_8h.html">MRMesh/MRMeshTopology.h</a>&gt;</code></p>
+<p>deletes from this topology: 1) all the given faces, 2) all the vertices, which had incident only deleted faces and no edges from <code class="param">keepEdges</code>, 3) make lone all the edges, which had to the left/right only deleted faces or no faces at all (unlike <a class="el" href="#ga174947af8d66dad68b06697175088d25">deleteFaces</a>), except for the edges from <code class="param">keepEdges</code>; return bit sets of all vacant elements in this topology after deletion; it takes a pass over the whole mesh for any number of faces </p>
 
 </div>
 </div>

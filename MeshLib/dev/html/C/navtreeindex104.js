@@ -1,5 +1,7 @@
 var NAVTREEINDEX104 =
 {
+"MRSphereObject_8h.html#aaba6eda6a8863c59b3a413b8e90a3088":[9,2,2,0,0,0,0,1,339,172],
+"MRSphereObject_8h.html#aacdfdeef846d04e2c56d27c75b7595f6":[9,2,2,0,0,0,0,1,339,63],
 "MRSphereObject_8h.html#aad6a631e1fde2ee78dd7ac9c873f4f26":[9,2,2,0,0,0,0,1,339,53],
 "MRSphereObject_8h.html#aad833a7dde2946ebf63636ba96a626ec":[9,2,2,0,0,0,0,1,339,55],
 "MRSphereObject_8h.html#aadb5cdccd5728c07abced578e0f8cce8":[9,2,2,0,0,0,0,1,339,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX104 =
 "MRSurfaceDistanceBuilder_8h.html#a5a369594526fe4bc6cf192edab1d8d02":[9,2,2,0,0,0,0,1,346,18],
 "MRSurfaceDistanceBuilder_8h.html#a5ddcc7f254249008465670f61f6bb6fb":[9,2,2,0,0,0,0,1,346,22],
 "MRSurfaceDistanceBuilder_8h.html#a654b35b398eadb6e05bbe5b6ad024e1d":[9,2,2,0,0,0,0,1,346,25],
-"MRSurfaceDistanceBuilder_8h.html#a66b42416ecaa56aacea346a06a2e79dc":[9,2,2,0,0,0,0,1,346,16],
-"MRSurfaceDistanceBuilder_8h.html#a715f015deeb1227fe9733fb9a1e17bcd":[9,2,2,0,0,0,0,1,346,4],
-"MRSurfaceDistanceBuilder_8h.html#a76e8064d68fa68fd46b25f28bec17e29":[9,2,2,0,0,0,0,1,346,23]
+"MRSurfaceDistanceBuilder_8h.html#a66b42416ecaa56aacea346a06a2e79dc":[9,2,2,0,0,0,0,1,346,16]
 };

@@ -166,7 +166,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae202ea88dcd9f19a94139671395a5050" id="r_ae202ea88dcd9f19a94139671395a5050"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae202ea88dcd9f19a94139671395a5050">collapseEdge</a> (self, <a class="el" href="classmrmeshpy_1_1ConstEdgeId.html">ConstEdgeId</a> e, <a class="el" href="classmrmeshpy_1_1Const__func__void__from__Id__EdgeTag__Id__EdgeTag.html">Const_func_void_from_Id_EdgeTag_Id_EdgeTag</a> onEdgeDel)</td></tr>
 <tr class="memitem:a5398b77d9923cb08913cabce587dc0b9" id="r_a5398b77d9923cb08913cabce587dc0b9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5398b77d9923cb08913cabce587dc0b9">computeValidsFromEdges</a> (self, <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> cb='{}')</td></tr>
 <tr class="memitem:abed5ce53d9acee9ef4837087a2531d82" id="r_abed5ce53d9acee9ef4837087a2531d82"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abed5ce53d9acee9ef4837087a2531d82">deleteFace</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> f, <a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeBitSet.html">ConstUndirectedEdgeBitSet</a> keepEdges=None)</td></tr>
-<tr class="memitem:ab72019206510bd18daf6ba5f61e65beb" id="r_ab72019206510bd18daf6ba5f61e65beb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VacantElements.html">VacantElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab72019206510bd18daf6ba5f61e65beb">deleteFaces</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceBitSet.html">ConstFaceBitSet</a> fs, <a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeBitSet.html">ConstUndirectedEdgeBitSet</a> keepEdges=None)</td></tr>
+<tr class="memitem:a484dac5fd67d91866cb828771f563160" id="r_a484dac5fd67d91866cb828771f563160"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a484dac5fd67d91866cb828771f563160">deleteFaces</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceBitSet.html">ConstFaceBitSet</a> fs, <a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeBitSet.html">ConstUndirectedEdgeBitSet</a> keepEdges=None)</td></tr>
+<tr class="memitem:afd7bf8794b63c49abf8390d3f96aa09d" id="r_afd7bf8794b63c49abf8390d3f96aa09d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VacantElements.html">VacantElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd7bf8794b63c49abf8390d3f96aa09d">deleteFacesFindVacant</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceBitSet.html">ConstFaceBitSet</a> fs, <a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeBitSet.html">ConstUndirectedEdgeBitSet</a> keepEdges=None)</td></tr>
 <tr class="memitem:a1ebed2154bcce25ec3236a401bfe751c" id="r_a1ebed2154bcce25ec3236a401bfe751c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ebed2154bcce25ec3236a401bfe751c">deleteFacesKeepEdges</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceBitSet.html">ConstFaceBitSet</a> fs)</td></tr>
 <tr class="memitem:a7ff11d3482237c41569573522ae22ae9" id="r_a7ff11d3482237c41569573522ae22ae9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ff11d3482237c41569573522ae22ae9">edgeReserve</a> (self, int newCapacity)</td></tr>
 <tr class="memitem:ae7b503fb097cfe67e38b0bd8ec87cc76" id="r_ae7b503fb097cfe67e38b0bd8ec87cc76"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7b503fb097cfe67e38b0bd8ec87cc76">faceReserve</a> (self, int newCapacity)</td></tr>
@@ -808,14 +809,43 @@ and activates their auto-update
 </pre> 
 </div>
 </div>
-<a id="ab72019206510bd18daf6ba5f61e65beb" name="ab72019206510bd18daf6ba5f61e65beb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab72019206510bd18daf6ba5f61e65beb">&#9670;&#160;</a></span>deleteFaces()</h2>
+<a id="a484dac5fd67d91866cb828771f563160" name="a484dac5fd67d91866cb828771f563160"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a484dac5fd67d91866cb828771f563160">&#9670;&#160;</a></span>deleteFaces()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VacantElements.html">VacantElements</a> mrmeshpy.MeshTopology.deleteFaces </td>
+          <td class="memname"> None mrmeshpy.MeshTopology.deleteFaces </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceBitSet.html">ConstFaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>fs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeBitSet.html">ConstUndirectedEdgeBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>keepEdges</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">deletes the given faces, also deletes their edges and vertices if they were not shared by other faces and not in \\p keepEdges;
+unlike \\ref deleteFacesFindVacant, the edges that had no left and no right face before the call are not touched;
+few faces (up to 64 or 1/128 of all faces, whichever is larger) are deleted one by one, without a pass over all mesh elements
+</pre> 
+</div>
+</div>
+<a id="afd7bf8794b63c49abf8390d3f96aa09d" name="afd7bf8794b63c49abf8390d3f96aa09d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd7bf8794b63c49abf8390d3f96aa09d">&#9670;&#160;</a></span>deleteFacesFindVacant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VacantElements.html">VacantElements</a> mrmeshpy.MeshTopology.deleteFacesFindVacant </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
@@ -832,10 +862,10 @@ and activates their auto-update
       </table>
 </div><div class="memdoc">
 <pre class="fragment">deletes from this topology:
-1) all the gives faces,
+1) all the given faces,
 2) all the vertices, which had incident only deleted faces and no edges from \\p keepEdges,
-3) make lone all the edges, which had to the left/right only deleted faces except for the edges from \\p keepEdges;
-return bit sets of all vacant elements in this topology after deletion
+3) make lone all the edges, which had to the left/right only deleted faces or no faces at all (unlike \\ref deleteFaces), except for the edges from \\p keepEdges;
+return bit sets of all vacant elements in this topology after deletion; it takes a pass over the whole mesh for any number of faces
 </pre> 
 </div>
 </div>

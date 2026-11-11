@@ -1,5 +1,9 @@
 var NAVTREEINDEX122 =
 {
+"structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#a8dc030c2572bdb51b4e680fb8e4e9411":[9,5,1,0,0,891,5],
+"structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#ab2e134be7a277673c5206f458cc6d820":[9,5,0,0,0,904,3],
+"structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#ab2e134be7a277673c5206f458cc6d820":[9,5,1,0,0,891,3],
+"structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#ab4b6c43596113a61ab954c8469cae76a":[9,5,0,0,0,904,2],
 "structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#ab4b6c43596113a61ab954c8469cae76a":[9,5,1,0,0,891,2],
 "structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#af284bdc6506c83309c8bac83bb5488a7":[9,5,0,0,0,904,1],
 "structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#af284bdc6506c83309c8bac83bb5488a7":[9,5,1,0,0,891,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX122 =
 "structmeshlib_1_1SearchPathSettings.html#adce3c99987a84a752b411030b35ff44c":[9,5,1,0,0,903,4],
 "structmeshlib_1_1SearchPathSettings.html#adff38aacc7e8118206173e0978241fb8":[9,5,0,0,0,916,0],
 "structmeshlib_1_1SearchPathSettings.html#adff38aacc7e8118206173e0978241fb8":[9,5,1,0,0,903,0],
-"structmeshlib_1_1SegmPointd.html":[9,5,0,0,0,918],
-"structmeshlib_1_1SegmPointd.html":[9,5,1,0,0,905],
-"structmeshlib_1_1SegmPointd.html#a374fb6712643c2e375ade5253c43d365":[9,5,0,0,0,918,11],
-"structmeshlib_1_1SegmPointd.html#a374fb6712643c2e375ade5253c43d365":[9,5,1,0,0,905,11],
-"structmeshlib_1_1SegmPointd.html#a4c22d629b88611d774f0e83d3822b891":[9,5,0,0,0,918,10]
+"structmeshlib_1_1SegmPointd.html":[9,5,0,0,0,918]
 };

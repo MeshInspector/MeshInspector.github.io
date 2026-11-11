@@ -1,5 +1,7 @@
 var NAVTREEINDEX168 =
 {
+"std__shared__ptr__MR__HistoryAction_8h.html#aa87f55be1d8f3fddfb36e4a8156db63a":[9,2,2,0,0,0,0,2,364,5],
+"std__shared__ptr__MR__HistoryAction_8h.html#ab1424c4e6b882f8662adef3a174415ba":[9,2,2,0,0,0,0,2,364,14],
 "std__shared__ptr__MR__HistoryAction_8h.html#accf5ea7448bb76b4144d37af46e95f00":[9,2,2,0,0,0,0,2,364,8],
 "std__shared__ptr__MR__HistoryAction_8h.html#acdd672e8115c66f62c864d60781b6ba8":[9,2,2,0,0,0,0,2,364,10],
 "std__shared__ptr__MR__HistoryAction_8h.html#ae511cda0ccfaa605d2d68c553f72a963":[9,2,2,0,0,0,0,2,364,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX168 =
 "std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a11592751fadfb60476fd6de0d82d0e30":[9,2,2,0,0,0,0,2,375,15],
 "std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a142de862c10f9f447b16c48f5364988d":[9,2,2,0,0,0,0,2,375,9],
 "std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a1baeb944cd565a0d90a617b882a308d3":[9,2,2,0,0,0,0,2,375,4],
-"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a2b5cefb321f363d1154a8735e75a4707":[9,2,2,0,0,0,0,2,375,0],
-"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a4b410659c720854c46ac601e2ada710b":[9,2,2,0,0,0,0,2,375,8],
-"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a5ad494fa45b37c89419f1557fe34a76b":[9,2,2,0,0,0,0,2,375,2]
+"std__shared__ptr__MR__Nesting__IBoxNestingPriority_8h.html#a2b5cefb321f363d1154a8735e75a4707":[9,2,2,0,0,0,0,2,375,0]
 };

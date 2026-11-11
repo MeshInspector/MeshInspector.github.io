@@ -1,5 +1,9 @@
 var NAVTREEINDEX178 =
 {
+"classmrmeshpy_1_1SegmentSegmentIntersectResult.html#a90ff2609f5bf88e9589b868674fa8121":[9,1,0,0,2,2163,7],
+"classmrmeshpy_1_1SegmentSegmentIntersectResult.html#a90ff2609f5bf88e9589b868674fa8121":[9,1,1,0,1,2163,7],
+"classmrmeshpy_1_1SelfIntersections.html":[9,1,0,0,2,2166],
+"classmrmeshpy_1_1SelfIntersections.html":[9,1,1,0,1,2166],
 "classmrmeshpy_1_1SelfIntersections_1_1ConstSettings.html":[9,1,0,0,2,2166,0],
 "classmrmeshpy_1_1SelfIntersections_1_1ConstSettings.html":[9,1,1,0,1,2166,0],
 "classmrmeshpy_1_1SelfIntersections_1_1ConstSettings.html#a315007b91b7181a96c4671b5424cdc07":[9,1,0,0,2,2166,0,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX178 =
 "classmrmeshpy_1_1ShellVertexInfo.html#a366d62d1f90ced72e9c243c37cce93ac":[9,1,0,0,2,2171,9],
 "classmrmeshpy_1_1ShellVertexInfo.html#a366d62d1f90ced72e9c243c37cce93ac":[9,1,1,0,1,2171,9],
 "classmrmeshpy_1_1ShellVertexInfo.html#a756ac7a9792a325c52eba100d1e54746":[9,1,0,0,2,2171,3],
-"classmrmeshpy_1_1ShellVertexInfo.html#a756ac7a9792a325c52eba100d1e54746":[9,1,1,0,1,2171,3],
-"classmrmeshpy_1_1ShellVertexInfo.html#a762bc455398b2eae6578c17cde345bec":[9,1,0,0,2,2171,4],
-"classmrmeshpy_1_1ShellVertexInfo.html#a762bc455398b2eae6578c17cde345bec":[9,1,1,0,1,2171,4],
-"classmrmeshpy_1_1ShellVertexInfo.html#a9a68e128ba699812a4892a4d01680b3b":[9,1,0,0,2,2171,8],
-"classmrmeshpy_1_1ShellVertexInfo.html#a9a68e128ba699812a4892a4d01680b3b":[9,1,1,0,1,2171,8]
+"classmrmeshpy_1_1ShellVertexInfo.html#a756ac7a9792a325c52eba100d1e54746":[9,1,1,0,1,2171,3]
 };

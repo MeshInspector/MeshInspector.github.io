@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"namespacemembers_func_h.html":[9,0,1,1,1,8],
 "namespacemembers_func_i.html":[9,0,1,1,1,9],
 "namespacemembers_func_j.html":[9,0,1,1,1,10],
 "namespacemembers_func_l.html":[9,0,1,1,1,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1BooleanResultMapper_1_1Maps.html#a759f148ae9dcef7ecb6908d19f726e7c":[9,0,0,8,0,0,0],
 "structMR_1_1BooleanResultMapper_1_1Maps.html#a854bf26bb7bda5effd4d5f1be56f0aa9":[9,0,0,8,0,0,1],
 "structMR_1_1BooleanResultMapper_1_1Maps.html#accfdff73b6e9b6265313ff04878b8973":[9,0,0,8,0,0,3],
-"structMR_1_1BooleanResultPoints.html":[9,0,1,0,1,114],
-"structMR_1_1BooleanResultPoints.html":[9,0,2,0,1,94]
+"structMR_1_1BooleanResultPoints.html":[9,0,1,0,1,114]
 };

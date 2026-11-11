@@ -1,5 +1,9 @@
 var NAVTREEINDEX148 =
 {
+"structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html#a2b73cf5537cd375dd28e73d1d86b4162":[9,5,1,0,0,1603,2],
+"structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html#a337389c80024f32712466d417cef1fb6":[9,5,0,0,0,1616,33],
+"structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html#a337389c80024f32712466d417cef1fb6":[9,5,1,0,0,1603,33],
+"structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html#a3ae37b4de8632c9a52fc99721d1a197c":[9,5,0,0,0,1616,0],
 "structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html#a3ae37b4de8632c9a52fc99721d1a197c":[9,5,1,0,0,1603,0],
 "structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html#a437e1d9e2787b910e2adecaceefd0967":[9,5,0,0,0,1616,17],
 "structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html#a437e1d9e2787b910e2adecaceefd0967":[9,5,1,0,0,1603,17],
@@ -245,9 +249,5 @@ var NAVTREEINDEX148 =
 "structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId.html#a6ad33861ff8a3edb0e8627f1a3a30139":[9,5,1,0,0,1606,34],
 "structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId.html#a706ca72d2918b1cfc7b8ae45a50c4b29":[9,5,0,0,0,1619,33],
 "structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId.html#a706ca72d2918b1cfc7b8ae45a50c4b29":[9,5,1,0,0,1606,33],
-"structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId.html#a758c2c9acf1769770ff3dcc773ec59ea":[9,5,0,0,0,1619,32],
-"structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId.html#a758c2c9acf1769770ff3dcc773ec59ea":[9,5,1,0,0,1606,32],
-"structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId.html#a779ad3e6661f1eb23213e4dd1e0527a2":[9,5,0,0,0,1619,16],
-"structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId.html#a779ad3e6661f1eb23213e4dd1e0527a2":[9,5,1,0,0,1606,16],
-"structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId.html#a7813e5bbafc1197a0a4459fc23515b67":[9,5,0,0,0,1619,11]
+"structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId.html#a758c2c9acf1769770ff3dcc773ec59ea":[9,5,0,0,0,1619,32]
 };

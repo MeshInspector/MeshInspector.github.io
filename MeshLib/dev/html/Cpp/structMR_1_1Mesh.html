@@ -307,7 +307,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3aab49091b051347cde5a30a3f9ccbcc" id="r_a3aab49091b051347cde5a30a3f9ccbcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3aab49091b051347cde5a30a3f9ccbcc">pack</a> (const <a class="el" href="structMR_1_1PackMapping.html">PackMapping</a> &amp;map, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memitem:a065ab2187cbcc73a21aa4bab438dc7fa" id="r_a065ab2187cbcc73a21aa4bab438dc7fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PackMapping.html">PackMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a065ab2187cbcc73a21aa4bab438dc7fa">packOptimally</a> (bool preserveAABBTree=true)</td></tr>
 <tr class="memitem:abdde9d2b2de53657f20a2739ed8c9bea" id="r_abdde9d2b2de53657f20a2739ed8c9bea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PackMapping.html">PackMapping</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdde9d2b2de53657f20a2739ed8c9bea">packOptimally</a> (bool preserveAABBTree, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb)</td></tr>
-<tr class="memitem:ab99ceed390edc2e712434bc216331ac0" id="r_ab99ceed390edc2e712434bc216331ac0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1VacantElements.html">VacantElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab99ceed390edc2e712434bc216331ac0">deleteFaces</a> (const FaceBitSet &amp;fs, const UndirectedEdgeBitSet *keepEdges=nullptr)</td></tr>
+<tr class="memitem:ad9c18290c667b3b1636e3a077afccf1c" id="r_ad9c18290c667b3b1636e3a077afccf1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9c18290c667b3b1636e3a077afccf1c">deleteFaces</a> (const FaceBitSet &amp;fs, const UndirectedEdgeBitSet *keepEdges=nullptr)</td></tr>
+<tr class="memitem:a4ac54f36804f66b3f9cb8c7ca20b70be" id="r_a4ac54f36804f66b3f9cb8c7ca20b70be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1VacantElements.html">VacantElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ac54f36804f66b3f9cb8c7ca20b70be">deleteFacesFindVacant</a> (const FaceBitSet &amp;fs, const UndirectedEdgeBitSet *keepEdges=nullptr)</td></tr>
 <tr class="memitem:a017bf9ba11329c4596f14d33cbc8a654" id="r_a017bf9ba11329c4596f14d33cbc8a654"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a017bf9ba11329c4596f14d33cbc8a654">projectPoint</a> (const Vector3f &amp;point, <a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> &amp;res, float maxDistSq=FLT_MAX, const FaceBitSet *region=nullptr, const AffineXf3f *xf=nullptr) const</td></tr>
 <tr class="memitem:aca0ea331ec5aeb3272f57d67aef2572a" id="r_aca0ea331ec5aeb3272f57d67aef2572a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca0ea331ec5aeb3272f57d67aef2572a">projectPoint</a> (const Vector3f &amp;point, <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;res, float maxDistSq=FLT_MAX, const FaceBitSet *region=nullptr, const AffineXf3f *xf=nullptr) const</td></tr>
 <tr class="memitem:a6b35787713d43cba7a9e486296170bd1" id="r_a6b35787713d43cba7a9e486296170bd1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b35787713d43cba7a9e486296170bd1">findClosestPoint</a> (const Vector3f &amp;point, <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;res, float maxDistSq=FLT_MAX, const FaceBitSet *region=nullptr, const AffineXf3f *xf=nullptr) const</td></tr>
@@ -962,14 +963,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab99ceed390edc2e712434bc216331ac0" name="ab99ceed390edc2e712434bc216331ac0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab99ceed390edc2e712434bc216331ac0">&#9670;&#160;</a></span>deleteFaces()</h2>
+<a id="ad9c18290c667b3b1636e3a077afccf1c" name="ad9c18290c667b3b1636e3a077afccf1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9c18290c667b3b1636e3a077afccf1c">&#9670;&#160;</a></span>deleteFaces()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1VacantElements.html">VacantElements</a> MR::Mesh::deleteFaces </td>
+          <td class="memname">void MR::Mesh::deleteFaces </td>
           <td>(</td>
           <td class="paramtype">const FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>fs</em></span>, </td>
         </tr>
@@ -982,10 +983,32 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by remaining faces and not in</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">keepEdges</td><td>return bit sets of all vacant elements in this mesh after deletion </td></tr>
+    <tr><td class="paramname">keepEdges;</td><td>the edges that had no left and no right face before the call are not touched, see <a class="el" href="group__GeneralGroup.html#ga174947af8d66dad68b06697175088d25">MeshTopology::deleteFaces</a> </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a4ac54f36804f66b3f9cb8c7ca20b70be" name="a4ac54f36804f66b3f9cb8c7ca20b70be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ac54f36804f66b3f9cb8c7ca20b70be">&#9670;&#160;</a></span>deleteFacesFindVacant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1VacantElements.html">VacantElements</a> MR::Mesh::deleteFacesFindVacant </td>
+          <td>(</td>
+          <td class="paramtype">const FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>fs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const UndirectedEdgeBitSet *</td>          <td class="paramname"><span class="paramname"><em>keepEdges</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>same as <a class="el" href="#ad9c18290c667b3b1636e3a077afccf1c">deleteFaces</a>, but also makes lone all edges without faces in this mesh, and returns bit sets of all vacant elements in this mesh after deletion, see <a class="el" href="group__GeneralGroup.html#ga1b01021c59a4b6a595260236e548e6a9">MeshTopology::deleteFacesFindVacant</a> </p>
 
 </div>
 </div>

@@ -201,8 +201,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a57a1d23b8ef40eeaf0069cb2e09db3e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">packs tightly and rearranges vertices, triangles and edges to put close in space elements in close indices  <br /></td></tr>
 <tr class="memitem:a9c4cfb232ff407171f36e98165b1ba51" id="r_a9c4cfb232ff407171f36e98165b1ba51"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1PackMapping.html">MR.PackMapping</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c4cfb232ff407171f36e98165b1ba51">packOptimally</a> (bool preserveAABBTree, MR.Std._ByValue_Function_Bool_From_Float cb)</td></tr>
 <tr class="memdesc:a9c4cfb232ff407171f36e98165b1ba51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a57a1d23b8ef40eeaf0069cb2e09db3e6" title="packs tightly and rearranges vertices, triangles and edges to put close in space elements in close in...">MR.Mesh.packOptimally</a></span>.  <br /></td></tr>
-<tr class="memitem:adad0b8879defc6c7855060282f4e79eb" id="r_adad0b8879defc6c7855060282f4e79eb"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adad0b8879defc6c7855060282f4e79eb">deleteFaces</a> (<a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> fs, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? keepEdges=null)</td></tr>
-<tr class="memdesc:adad0b8879defc6c7855060282f4e79eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by remaining faces and not in  <br /></td></tr>
+<tr class="memitem:aabb94b993864e79fad870695416a38af" id="r_aabb94b993864e79fad870695416a38af"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabb94b993864e79fad870695416a38af">deleteFaces</a> (<a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> fs, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? keepEdges=null)</td></tr>
+<tr class="memdesc:aabb94b993864e79fad870695416a38af"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by remaining faces and not in  <br /></td></tr>
+<tr class="memitem:a22dede067bdc181b8e7a07b7582568cb" id="r_a22dede067bdc181b8e7a07b7582568cb"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22dede067bdc181b8e7a07b7582568cb">deleteFacesFindVacant</a> (<a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> fs, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? keepEdges=null)</td></tr>
+<tr class="memdesc:a22dede067bdc181b8e7a07b7582568cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as <a class="el" href="#aabb94b993864e79fad870695416a38af">deleteFaces</a>, but also makes lone all edges without faces in this mesh, and returns bit sets of all vacant elements in this mesh after deletion, see <a class="el" href="classMR_1_1MeshTopology.html#a94564a5cbb2c83868c10e28b3d44bd88" title="deletes from this topology: 1) all the given faces, 2) all the vertices, which had incident only dele...">MeshTopology.deleteFacesFindVacant</a> Generated from method <span class="tt"><a class="el" href="#a22dede067bdc181b8e7a07b7582568cb" title="same as deleteFaces, but also makes lone all edges without faces in this mesh, and returns bit sets o...">MR.Mesh.deleteFacesFindVacant</a></span>.  <br /></td></tr>
 <tr class="memitem:a2456faa5acbeb85adca2cf5b496df684" id="r_a2456faa5acbeb85adca2cf5b496df684"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2456faa5acbeb85adca2cf5b496df684">invalidateCaches</a> (bool? pointsChanged=null)</td></tr>
 <tr class="memdesc:a2456faa5acbeb85adca2cf5b496df684"><td class="mdescLeft">&#160;</td><td class="mdescRight">invalidates caches (aabb-trees) after any change in mesh geometry or topology  <br /></td></tr>
 <tr class="memitem:a82df6cc87a7a9ed397253a2ff13abc44" id="r_a82df6cc87a7a9ed397253a2ff13abc44"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82df6cc87a7a9ed397253a2ff13abc44">updateCaches</a> (<a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? changedVerts)</td></tr>
@@ -880,8 +882,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="adad0b8879defc6c7855060282f4e79eb" name="adad0b8879defc6c7855060282f4e79eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adad0b8879defc6c7855060282f4e79eb">&#9670;&#160;</a></span>deleteFaces()</h2>
+<a id="aabb94b993864e79fad870695416a38af" name="aabb94b993864e79fad870695416a38af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabb94b993864e79fad870695416a38af">&#9670;&#160;</a></span>deleteFaces()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -890,7 +892,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a> MR.Mesh.deleteFaces </td>
+          <td class="memname">unsafe void MR.Mesh.deleteFaces </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>fs</em></span>, </td>
         </tr>
@@ -910,10 +912,41 @@ Additional Inherited Members</h2></td></tr>
 <p>deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by remaining faces and not in </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">keepEdges</td><td>return bit sets of all vacant elements in this mesh after deletion Generated from method <span class="tt"><a class="el" href="#adad0b8879defc6c7855060282f4e79eb" title="deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by rem...">MR.Mesh.deleteFaces</a></span>. </td></tr>
+    <tr><td class="paramname">keepEdges;</td><td>the edges that had no left and no right face before the call are not touched, see <a class="el" href="classMR_1_1MeshTopology.html#a877289bbfc2c5c17342785bfccba71f5" title="deletes the given faces, also deletes their edges and vertices if they were not shared by other faces...">MeshTopology.deleteFaces</a> Generated from method <span class="tt"><a class="el" href="#aabb94b993864e79fad870695416a38af" title="deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by rem...">MR.Mesh.deleteFaces</a></span>. </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a22dede067bdc181b8e7a07b7582568cb" name="a22dede067bdc181b8e7a07b7582568cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22dede067bdc181b8e7a07b7582568cb">&#9670;&#160;</a></span>deleteFacesFindVacant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a> MR.Mesh.deleteFacesFindVacant </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>fs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>keepEdges</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>same as <a class="el" href="#aabb94b993864e79fad870695416a38af">deleteFaces</a>, but also makes lone all edges without faces in this mesh, and returns bit sets of all vacant elements in this mesh after deletion, see <a class="el" href="classMR_1_1MeshTopology.html#a94564a5cbb2c83868c10e28b3d44bd88" title="deletes from this topology: 1) all the given faces, 2) all the vertices, which had incident only dele...">MeshTopology.deleteFacesFindVacant</a> Generated from method <span class="tt"><a class="el" href="#a22dede067bdc181b8e7a07b7582568cb" title="same as deleteFaces, but also makes lone all edges without faces in this mesh, and returns bit sets o...">MR.Mesh.deleteFacesFindVacant</a></span>. </p>
 
 </div>
 </div>

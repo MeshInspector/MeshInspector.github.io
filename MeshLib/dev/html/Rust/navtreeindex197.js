@@ -1,5 +1,9 @@
 var NAVTREEINDEX197 =
 {
+"structmeshlib_1_1std__optional__MR__Box1f.html#abe5b447a9b95efd450b190bbecdb5048":[9,5,1,0,0,1063,3],
+"structmeshlib_1_1std__optional__MR__Box1f.html#ac0caae1c9f1b69fc22e2dd5e4b602590":[9,5,0,0,0,1076,4],
+"structmeshlib_1_1std__optional__MR__Box1f.html#ac0caae1c9f1b69fc22e2dd5e4b602590":[9,5,1,0,0,1063,4],
+"structmeshlib_1_1std__optional__MR__Box1f.html#af83954a7a495ad9f5c19b548ea0e8e1f":[9,5,0,0,0,1076,1],
 "structmeshlib_1_1std__optional__MR__Box1f.html#af83954a7a495ad9f5c19b548ea0e8e1f":[9,5,1,0,0,1063,1],
 "structmeshlib_1_1std__optional__MR__Box3f.html":[9,5,0,0,0,1077],
 "structmeshlib_1_1std__optional__MR__Box3f.html":[9,5,1,0,0,1064],
@@ -245,9 +249,5 @@ var NAVTREEINDEX197 =
 "structmeshlib_1_1std__optional__MR__TriIntersectResult.html":[9,5,1,0,0,1085],
 "structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a0c508d8b402f144997f5b0a3484b8df4":[9,5,0,0,0,1098,4],
 "structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a0c508d8b402f144997f5b0a3484b8df4":[9,5,1,0,0,1085,4],
-"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a1b346a141a64ee21909a6fc0d7dd04e5":[9,5,0,0,0,1098,3],
-"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a1b346a141a64ee21909a6fc0d7dd04e5":[9,5,1,0,0,1085,3],
-"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a3b7f40d71034cfa1707ae98f78bad0a4":[9,5,0,0,0,1098,1],
-"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a3b7f40d71034cfa1707ae98f78bad0a4":[9,5,1,0,0,1085,1],
-"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a86b2061fe86ae811afbbc6ce4f732fe4":[9,5,0,0,0,1098,2]
+"structmeshlib_1_1std__optional__MR__TriIntersectResult.html#a1b346a141a64ee21909a6fc0d7dd04e5":[9,5,0,0,0,1098,3]
 };

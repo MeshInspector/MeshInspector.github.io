@@ -1,5 +1,9 @@
 var NAVTREEINDEX273 =
 {
+"std__optional__MR__PointCloud_8java.html":[9,6,2,0,0,1,0,0,1105],
+"std__optional__MR__PolylineIntersectionResult2_8java.html":[9,6,2,0,0,1,0,0,1106],
+"std__optional__MR__SignedDistanceToMeshResult_8java.html":[9,6,2,0,0,1,0,0,1107],
+"std__optional__MR__TriIntersectResult_8java.html":[9,6,2,0,0,1,0,0,1109],
 "std__optional__MR__Triangulation_8java.html":[9,6,2,0,0,1,0,0,1108],
 "std__optional__MR__Vector2d_8java.html":[9,6,2,0,0,1,0,0,1110],
 "std__optional__MR__Vector2f_8java.html":[9,6,2,0,0,1,0,0,1111],
@@ -245,9 +249,5 @@ var NAVTREEINDEX273 =
 "std__vector__MR__GraphEdgeId_8java.html":[9,6,2,0,0,1,0,0,1361],
 "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8java.html":[9,6,2,0,0,1,0,0,1362],
 "std__vector__MR__GraphVertId__MR__Allocator__MR__GraphVertId_8java.html":[9,6,2,0,0,1,0,0,1363],
-"std__vector__MR__Graph__EndVertices__MR__Allocator__MR__Graph__EndVertices_8java.html":[9,6,2,0,0,1,0,0,1360],
-"std__vector__MR__Heap__float__MR__GraphVertId__std__greater__float__Element_8java.html":[9,6,2,0,0,1,0,0,1364],
-"std__vector__MR__HoleFillPlan_8java.html":[9,6,2,0,0,1,0,0,1365],
-"std__vector__MR__ICPGroupPair_8java.html":[9,6,2,0,0,1,0,0,1366],
-"std__vector__MR__ICPGroupPairs__MR__Allocator__MR__ICPGroupPairs_8java.html":[9,6,2,0,0,1,0,0,1367]
+"std__vector__MR__Graph__EndVertices__MR__Allocator__MR__Graph__EndVertices_8java.html":[9,6,2,0,0,1,0,0,1360]
 };

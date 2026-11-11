@@ -1,5 +1,9 @@
 var NAVTREEINDEX179 =
 {
+"classmrmeshpy_1_1ShellVertexInfo.html#a762bc455398b2eae6578c17cde345bec":[9,1,0,0,2,2171,4],
+"classmrmeshpy_1_1ShellVertexInfo.html#a762bc455398b2eae6578c17cde345bec":[9,1,1,0,1,2171,4],
+"classmrmeshpy_1_1ShellVertexInfo.html#a9a68e128ba699812a4892a4d01680b3b":[9,1,0,0,2,2171,8],
+"classmrmeshpy_1_1ShellVertexInfo.html#a9a68e128ba699812a4892a4d01680b3b":[9,1,1,0,1,2171,8],
 "classmrmeshpy_1_1ShellVertexInfo.html#aa30bb064a389941d6af1786b61226bc2":[9,1,0,0,2,2171,1],
 "classmrmeshpy_1_1ShellVertexInfo.html#aa30bb064a389941d6af1786b61226bc2":[9,1,1,0,1,2171,1],
 "classmrmeshpy_1_1ShellVertexInfo.html#aa3ebb7ba92b1824fc34103cdb66dc649":[9,1,0,0,2,2171,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX179 =
 "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a5df1a6286fe19d1fa5cab16edda2de09":[9,1,0,0,2,2187,8],
 "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a5df1a6286fe19d1fa5cab16edda2de09":[9,1,1,0,1,2187,8],
 "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a9164d2f395294087af1bc8ca2294bc27":[9,1,0,0,2,2187,13],
-"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a9164d2f395294087af1bc8ca2294bc27":[9,1,1,0,1,2187,13],
-"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a9a102ae546725c6cecd23958272e67ad":[9,1,0,0,2,2187,3],
-"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a9a102ae546725c6cecd23958272e67ad":[9,1,1,0,1,2187,3],
-"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#aa9426a9fc530c1fa65dd8c7c07fd3b09":[9,1,0,0,2,2187,4],
-"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#aa9426a9fc530c1fa65dd8c7c07fd3b09":[9,1,1,0,1,2187,4]
+"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a9164d2f395294087af1bc8ca2294bc27":[9,1,1,0,1,2187,13]
 };

@@ -1,13 +1,15 @@
 var NAVTREEINDEX77 =
 {
-"structmeshlib_1_1Mesh.html#af2a058156175eb234f5e6a61d8040a4f":[9,5,0,0,0,608,85],
-"structmeshlib_1_1Mesh.html#af2a058156175eb234f5e6a61d8040a4f":[9,5,1,0,0,595,85],
-"structmeshlib_1_1Mesh.html#af4672adcc2774583c63e637957647ed0":[9,5,0,0,0,608,55],
-"structmeshlib_1_1Mesh.html#af4672adcc2774583c63e637957647ed0":[9,5,1,0,0,595,55],
+"structmeshlib_1_1Mesh.html#aef6d3f287f491581b88885625108ffac":[9,5,0,0,0,608,107],
+"structmeshlib_1_1Mesh.html#aef6d3f287f491581b88885625108ffac":[9,5,1,0,0,595,107],
+"structmeshlib_1_1Mesh.html#af2a058156175eb234f5e6a61d8040a4f":[9,5,0,0,0,608,86],
+"structmeshlib_1_1Mesh.html#af2a058156175eb234f5e6a61d8040a4f":[9,5,1,0,0,595,86],
+"structmeshlib_1_1Mesh.html#af4672adcc2774583c63e637957647ed0":[9,5,0,0,0,608,56],
+"structmeshlib_1_1Mesh.html#af4672adcc2774583c63e637957647ed0":[9,5,1,0,0,595,56],
 "structmeshlib_1_1Mesh.html#af5c2fa8928de9a70fc91d0e7a2a797fe":[9,5,0,0,0,608,4],
 "structmeshlib_1_1Mesh.html#af5c2fa8928de9a70fc91d0e7a2a797fe":[9,5,1,0,0,595,4],
-"structmeshlib_1_1Mesh.html#afec46ea63ed73f9529ba199d3d2aed37":[9,5,0,0,0,608,70],
-"structmeshlib_1_1Mesh.html#afec46ea63ed73f9529ba199d3d2aed37":[9,5,1,0,0,595,70],
+"structmeshlib_1_1Mesh.html#afec46ea63ed73f9529ba199d3d2aed37":[9,5,0,0,0,608,71],
+"structmeshlib_1_1Mesh.html#afec46ea63ed73f9529ba199d3d2aed37":[9,5,1,0,0,595,71],
 "structmeshlib_1_1MeshApproxRelaxParams.html":[9,5,0,0,0,609],
 "structmeshlib_1_1MeshApproxRelaxParams.html":[9,5,1,0,0,596],
 "structmeshlib_1_1MeshApproxRelaxParams.html#a23f423ebd505680cab5494f37e3b7838":[9,5,0,0,0,609,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structmeshlib_1_1MeshLoadSettings.html#ae377c82c6afdfc9dd9ac08b686c294ee":[9,5,0,0,0,615,16],
 "structmeshlib_1_1MeshLoadSettings.html#ae377c82c6afdfc9dd9ac08b686c294ee":[9,5,1,0,0,602,16],
 "structmeshlib_1_1MeshLoadSettings.html#af398d51a33af5847988059b30081401d":[9,5,0,0,0,615,11],
-"structmeshlib_1_1MeshLoadSettings.html#af398d51a33af5847988059b30081401d":[9,5,1,0,0,602,11],
-"structmeshlib_1_1MeshLoadSettings.html#af3aad203f701612de8f0794267eba023":[9,5,0,0,0,615,5],
-"structmeshlib_1_1MeshLoadSettings.html#af3aad203f701612de8f0794267eba023":[9,5,1,0,0,602,5]
+"structmeshlib_1_1MeshLoadSettings.html#af398d51a33af5847988059b30081401d":[9,5,1,0,0,602,11]
 };

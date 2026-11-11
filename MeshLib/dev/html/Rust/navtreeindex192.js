@@ -1,5 +1,9 @@
 var NAVTREEINDEX192 =
 {
+"structmeshlib_1_1self__intersections_1_1Settings.html#a3f2da4a9d29a9a3d82c0482cadd63c19":[9,5,1,0,0,19,0,20],
+"structmeshlib_1_1self__intersections_1_1Settings.html#a406e7da5388c9af3c0f38e3a671621d9":[9,5,0,0,0,32,0,1],
+"structmeshlib_1_1self__intersections_1_1Settings.html#a406e7da5388c9af3c0f38e3a671621d9":[9,5,1,0,0,19,0,1],
+"structmeshlib_1_1self__intersections_1_1Settings.html#a52c9963f21a069d8cf2479ff70dd8b05":[9,5,0,0,0,32,0,23],
 "structmeshlib_1_1self__intersections_1_1Settings.html#a52c9963f21a069d8cf2479ff70dd8b05":[9,5,1,0,0,19,0,23],
 "structmeshlib_1_1self__intersections_1_1Settings.html#a5e86dbd4504b4cd73e46ca8a1e470ce0":[9,5,0,0,0,32,0,17],
 "structmeshlib_1_1self__intersections_1_1Settings.html#a5e86dbd4504b4cd73e46ca8a1e470ce0":[9,5,1,0,0,19,0,17],
@@ -245,9 +249,5 @@ var NAVTREEINDEX192 =
 "structmeshlib_1_1std__function__MR__AABBTreePoints.html":[9,5,1,0,0,1011],
 "structmeshlib_1_1std__function__MR__AABBTreePoints.html#a2615f59718b7ac3cea53953c2d7b293b":[9,5,0,0,0,1024,4],
 "structmeshlib_1_1std__function__MR__AABBTreePoints.html#a2615f59718b7ac3cea53953c2d7b293b":[9,5,1,0,0,1011,4],
-"structmeshlib_1_1std__function__MR__AABBTreePoints.html#a317247834330ba08122167abd08f919e":[9,5,0,0,0,1024,0],
-"structmeshlib_1_1std__function__MR__AABBTreePoints.html#a317247834330ba08122167abd08f919e":[9,5,1,0,0,1011,0],
-"structmeshlib_1_1std__function__MR__AABBTreePoints.html#a75d1d872a473f2c7831059045b5e4cea":[9,5,0,0,0,1024,1],
-"structmeshlib_1_1std__function__MR__AABBTreePoints.html#a75d1d872a473f2c7831059045b5e4cea":[9,5,1,0,0,1011,1],
-"structmeshlib_1_1std__function__MR__AABBTreePoints.html#abbcfd50c39af539c09856275622efa40":[9,5,0,0,0,1024,3]
+"structmeshlib_1_1std__function__MR__AABBTreePoints.html#a317247834330ba08122167abd08f919e":[9,5,0,0,0,1024,0]
 };

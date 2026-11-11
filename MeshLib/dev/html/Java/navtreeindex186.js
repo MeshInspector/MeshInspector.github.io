@@ -1,5 +1,9 @@
 var NAVTREEINDEX186 =
 {
+"classmeshlib_1_1cuda_1_1DeviceInfo.html#a76e4fbfb27f9f2711c83bb2e54ef4470":[9,6,0,0,0,0,2,16],
+"classmeshlib_1_1cuda_1_1DeviceInfo.html#a76e4fbfb27f9f2711c83bb2e54ef4470":[9,6,1,0,0,0,2,16],
+"classmeshlib_1_1cuda_1_1DeviceInfo.html#aaaad96980f38e00f2c7b72d4edbb21e3":[9,6,0,0,0,0,2,9],
+"classmeshlib_1_1cuda_1_1DeviceInfo.html#aaaad96980f38e00f2c7b72d4edbb21e3":[9,6,1,0,0,0,2,9],
 "classmeshlib_1_1cuda_1_1DeviceInfo.html#aac206ddbf35497e3216c60fa8fa4c8b7":[9,6,0,0,0,0,2,2],
 "classmeshlib_1_1cuda_1_1DeviceInfo.html#aac206ddbf35497e3216c60fa8fa4c8b7":[9,6,1,0,0,0,2,2],
 "classmeshlib_1_1cuda_1_1DeviceInfo.html#aade9bd8061f0522e3f36c64f36ae3d69":[9,6,0,0,0,0,2,14],
@@ -245,9 +249,5 @@ var NAVTREEINDEX186 =
 "classmeshlib_1_1expected__MR__FloatGrid__std__string.html#a9764691ffb8629d821e86ab8daf1f515":[9,6,0,0,0,341,2],
 "classmeshlib_1_1expected__MR__FloatGrid__std__string.html#a9764691ffb8629d821e86ab8daf1f515":[9,6,1,0,0,341,2],
 "classmeshlib_1_1expected__MR__FloatGrid__std__string.html#a9bb78ccfdd91b52a63dd9d502e1f3fd2":[9,6,0,0,0,341,3],
-"classmeshlib_1_1expected__MR__FloatGrid__std__string.html#a9bb78ccfdd91b52a63dd9d502e1f3fd2":[9,6,1,0,0,341,3],
-"classmeshlib_1_1expected__MR__FloatGrid__std__string.html#aa78b01f361844cc9d5d4f517f1c8a9eb":[9,6,0,0,0,341,8],
-"classmeshlib_1_1expected__MR__FloatGrid__std__string.html#aa78b01f361844cc9d5d4f517f1c8a9eb":[9,6,1,0,0,341,8],
-"classmeshlib_1_1expected__MR__FloatGrid__std__string.html#accc33dc5ae037f2654cb6007d53aeea7":[9,6,0,0,0,341,4],
-"classmeshlib_1_1expected__MR__FloatGrid__std__string.html#accc33dc5ae037f2654cb6007d53aeea7":[9,6,1,0,0,341,4]
+"classmeshlib_1_1expected__MR__FloatGrid__std__string.html#a9bb78ccfdd91b52a63dd9d502e1f3fd2":[9,6,1,0,0,341,3]
 };

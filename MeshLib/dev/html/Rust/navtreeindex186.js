@@ -1,5 +1,9 @@
 var NAVTREEINDEX186 =
 {
+"structmeshlib_1_1nesting_1_1BoxNestingOptions.html#ada546b0e2f8beb533b0ded262dc1961f":[9,5,1,0,0,8,1,7],
+"structmeshlib_1_1nesting_1_1BoxNestingOptions.html#adcf39f77a1b1dff7e1c75fd9911fd700":[9,5,0,0,0,19,1,30],
+"structmeshlib_1_1nesting_1_1BoxNestingOptions.html#adcf39f77a1b1dff7e1c75fd9911fd700":[9,5,1,0,0,8,1,30],
+"structmeshlib_1_1nesting_1_1BoxNestingOptions.html#ae05034e47b086b7505a7df19435ddae9":[9,5,0,0,0,19,1,29],
 "structmeshlib_1_1nesting_1_1BoxNestingOptions.html#ae05034e47b086b7505a7df19435ddae9":[9,5,1,0,0,8,1,29],
 "structmeshlib_1_1nesting_1_1BoxNestingOptions.html#ae13a8377e7d5b4449b5869eaf3f359bb":[9,5,0,0,0,19,1,25],
 "structmeshlib_1_1nesting_1_1BoxNestingOptions.html#ae13a8377e7d5b4449b5869eaf3f359bb":[9,5,1,0,0,8,1,25],
@@ -245,9 +249,5 @@ var NAVTREEINDEX186 =
 "structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__EdgeId__MR__EdgeId__phmap__Hash__MR__EdgeI291f2d2132d79e2139a874f426beb3d9.html#a713d9b0e4abc89183d429870a34f88dc":[9,5,1,0,0,11,2,0],
 "structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__EdgeId__MR__EdgeId__phmap__Hash__MR__EdgeI291f2d2132d79e2139a874f426beb3d9.html#a930dcde02a328bf98463de4c4f746cb7":[9,5,0,0,0,22,2,2],
 "structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__EdgeId__MR__EdgeId__phmap__Hash__MR__EdgeI291f2d2132d79e2139a874f426beb3d9.html#a930dcde02a328bf98463de4c4f746cb7":[9,5,1,0,0,11,2,2],
-"structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__EdgeId__MR__EdgeId__phmap__Hash__MR__EdgeI291f2d2132d79e2139a874f426beb3d9.html#aae9198093ba6cb018d009ceb05c29855":[9,5,0,0,0,22,2,3],
-"structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__EdgeId__MR__EdgeId__phmap__Hash__MR__EdgeI291f2d2132d79e2139a874f426beb3d9.html#aae9198093ba6cb018d009ceb05c29855":[9,5,1,0,0,11,2,3],
-"structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__EdgeId__MR__EdgeId__phmap__Hash__MR__EdgeI291f2d2132d79e2139a874f426beb3d9.html#ab082fd5b8094b02cc0b6bc93a4eb7bff":[9,5,0,0,0,22,2,11],
-"structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__EdgeId__MR__EdgeId__phmap__Hash__MR__EdgeI291f2d2132d79e2139a874f426beb3d9.html#ab082fd5b8094b02cc0b6bc93a4eb7bff":[9,5,1,0,0,11,2,11],
-"structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__EdgeId__MR__EdgeId__phmap__Hash__MR__EdgeI291f2d2132d79e2139a874f426beb3d9.html#ac4fb545b0be0272700acaf8b56fe79cf":[9,5,0,0,0,22,2,7]
+"structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__EdgeId__MR__EdgeId__phmap__Hash__MR__EdgeI291f2d2132d79e2139a874f426beb3d9.html#aae9198093ba6cb018d009ceb05c29855":[9,5,0,0,0,22,2,3]
 };

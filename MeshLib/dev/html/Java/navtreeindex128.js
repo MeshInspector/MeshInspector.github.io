@@ -1,5 +1,9 @@
 var NAVTREEINDEX128 =
 {
+"classmeshlib_1_1SetBitIteratorT__MR__VoxelBitSet.html#aff499a8efd983527ca6ad75064999ae0":[9,6,0,0,0,942,0],
+"classmeshlib_1_1SetBitIteratorT__MR__VoxelBitSet.html#aff499a8efd983527ca6ad75064999ae0":[9,6,1,0,0,942,0],
+"classmeshlib_1_1SetNew.html":[9,6,0,0,0,943],
+"classmeshlib_1_1SetNew.html":[9,6,1,0,0,943],
 "classmeshlib_1_1SetNew.html#a1c29c9fe174d367ec79382c23da3fe71":[9,6,0,0,0,943,3],
 "classmeshlib_1_1SetNew.html#a1c29c9fe174d367ec79382c23da3fe71":[9,6,1,0,0,943,3],
 "classmeshlib_1_1SetNew.html#a312c1c8e8d7859658dfe857ae1e4fc2b":[9,6,0,0,0,943,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX128 =
 "classmeshlib_1_1SignDetectionModeShort.html#a94ec9d30adbaa17b5d5944da2c3521b3":[9,6,0,0,0,950,3],
 "classmeshlib_1_1SignDetectionModeShort.html#a94ec9d30adbaa17b5d5944da2c3521b3":[9,6,1,0,0,950,3],
 "classmeshlib_1_1SignedDistanceToMeshOptions.html":[9,6,0,0,0,951],
-"classmeshlib_1_1SignedDistanceToMeshOptions.html":[9,6,1,0,0,951],
-"classmeshlib_1_1SignedDistanceToMeshOptions.html#a155ca1f038628cbe14161ef57063789d":[9,6,0,0,0,951,9],
-"classmeshlib_1_1SignedDistanceToMeshOptions.html#a155ca1f038628cbe14161ef57063789d":[9,6,1,0,0,951,9],
-"classmeshlib_1_1SignedDistanceToMeshOptions.html#a1860797bbdc8dded7ca0eb294c094ccc":[9,6,0,0,0,951,0],
-"classmeshlib_1_1SignedDistanceToMeshOptions.html#a1860797bbdc8dded7ca0eb294c094ccc":[9,6,1,0,0,951,0]
+"classmeshlib_1_1SignedDistanceToMeshOptions.html":[9,6,1,0,0,951]
 };

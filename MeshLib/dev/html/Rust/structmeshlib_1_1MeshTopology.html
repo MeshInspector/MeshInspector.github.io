@@ -226,7 +226,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a46705844bf6c00aea13f06db734a32b1" id="r_a46705844bf6c00aea13f06db734a32b1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46705844bf6c00aea13f06db734a32b1">last_valid_face</a> () const -&gt; <a class="el" href="structmeshlib_1_1FaceId.html">meshlib::FaceId</a></td></tr>
 <tr class="memitem:ae8fd6ffc8561110e45f73a068e7fc2d4" id="r_ae8fd6ffc8561110e45f73a068e7fc2d4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8fd6ffc8561110e45f73a068e7fc2d4">add_face_id</a> () -&gt; <a class="el" href="structmeshlib_1_1FaceId.html">meshlib::FaceId</a></td></tr>
 <tr class="memitem:a1fcf023c3a5d3cdce9e72a8499e8d0f7" id="r_a1fcf023c3a5d3cdce9e72a8499e8d0f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fcf023c3a5d3cdce9e72a8499e8d0f7">delete_face</a> (f:meshlib::FaceId, keepEdges:Option&lt;&amp;<a class="el" href="structmeshlib_1_1UndirectedEdgeBitSet.html">meshlib::UndirectedEdgeBitSet</a> &gt;)</td></tr>
-<tr class="memitem:ab0bd84f7f56a1911cd73bf31b32b4519" id="r_ab0bd84f7f56a1911cd73bf31b32b4519"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0bd84f7f56a1911cd73bf31b32b4519">delete_faces</a> (fs:&amp;<a class="el" href="structmeshlib_1_1FaceBitSet.html">meshlib::FaceBitSet</a>, keepEdges:Option&lt;&amp;<a class="el" href="structmeshlib_1_1UndirectedEdgeBitSet.html">meshlib::UndirectedEdgeBitSet</a> &gt;) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1VacantElements.html">meshlib::VacantElements</a> &gt;</td></tr>
+<tr class="memitem:a99753350b50d4c2d494e185437eea58f" id="r_a99753350b50d4c2d494e185437eea58f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99753350b50d4c2d494e185437eea58f">delete_faces</a> (fs:&amp;<a class="el" href="structmeshlib_1_1FaceBitSet.html">meshlib::FaceBitSet</a>, keepEdges:Option&lt;&amp;<a class="el" href="structmeshlib_1_1UndirectedEdgeBitSet.html">meshlib::UndirectedEdgeBitSet</a> &gt;)</td></tr>
+<tr class="memitem:ad7abfb42f57455aa2b7aed644fbbb203" id="r_ad7abfb42f57455aa2b7aed644fbbb203"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7abfb42f57455aa2b7aed644fbbb203">delete_faces_find_vacant</a> (fs:&amp;<a class="el" href="structmeshlib_1_1FaceBitSet.html">meshlib::FaceBitSet</a>, keepEdges:Option&lt;&amp;<a class="el" href="structmeshlib_1_1UndirectedEdgeBitSet.html">meshlib::UndirectedEdgeBitSet</a> &gt;) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1VacantElements.html">meshlib::VacantElements</a> &gt;</td></tr>
 <tr class="memitem:aa8f76b5994ee671c41bd3c9394e7d7df" id="r_aa8f76b5994ee671c41bd3c9394e7d7df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8f76b5994ee671c41bd3c9394e7d7df">delete_faces_keep_edges</a> (fs:&amp;<a class="el" href="structmeshlib_1_1FaceBitSet.html">meshlib::FaceBitSet</a>)</td></tr>
 <tr class="memitem:ab5b5f1ddf6ed48febf66a894381848c8" id="r_ab5b5f1ddf6ed48febf66a894381848c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5b5f1ddf6ed48febf66a894381848c8">face_resize</a> (newSize:usize)</td></tr>
 <tr class="memitem:a451592811ec06cc6542d7c006f0696f4" id="r_a451592811ec06cc6542d7c006f0696f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a451592811ec06cc6542d7c006f0696f4">face_resize_with_reserve</a> (newSize:usize)</td></tr>
@@ -872,14 +873,37 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab0bd84f7f56a1911cd73bf31b32b4519" name="ab0bd84f7f56a1911cd73bf31b32b4519"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0bd84f7f56a1911cd73bf31b32b4519">&#9670;&#160;</a></span>delete_faces()</h2>
+<a id="a99753350b50d4c2d494e185437eea58f" name="a99753350b50d4c2d494e185437eea58f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99753350b50d4c2d494e185437eea58f">&#9670;&#160;</a></span>delete_faces()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">auto meshlib::MeshTopology::delete_faces </td>
+          <td class="memname">void meshlib::MeshTopology::delete_faces </td>
+          <td>(</td>
+          <td class="paramtype">fs:&amp;<a class="el" href="structmeshlib_1_1FaceBitSet.html">meshlib::FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">keepEdges:Option&lt;&amp;<a class="el" href="structmeshlib_1_1UndirectedEdgeBitSet.html">meshlib::UndirectedEdgeBitSet</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>deletes the given faces, also deletes their edges and vertices if they were not shared by other faces and not in <code class="param">keepEdges</code>; unlike deleteFacesFindVacant, the edges that had no left and no right face before the call are not touched; few faces (up to 64 or 1/128 of all faces, whichever is larger) are deleted one by one, without a pass over all mesh elements Generated from method <span class="tt">MR::MeshTopology::deleteFaces</span>.</p>
+<p>Calls <span class="tt">MR_MeshTopology_deleteFaces()</span>. </p>
+
+</div>
+</div>
+<a id="ad7abfb42f57455aa2b7aed644fbbb203" name="ad7abfb42f57455aa2b7aed644fbbb203"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7abfb42f57455aa2b7aed644fbbb203">&#9670;&#160;</a></span>delete_faces_find_vacant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::MeshTopology::delete_faces_find_vacant </td>
           <td>(</td>
           <td class="paramtype">fs:&amp;<a class="el" href="structmeshlib_1_1FaceBitSet.html">meshlib::FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
@@ -890,8 +914,8 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>deletes from this topology: 1) all the gives faces, 2) all the vertices, which had incident only deleted faces and no edges from <code class="param">keepEdges</code>, 3) make lone all the edges, which had to the left/right only deleted faces except for the edges from <code class="param">keepEdges</code>; return bit sets of all vacant elements in this topology after deletion Generated from method <span class="tt">MR::MeshTopology::deleteFaces</span>.</p>
-<p>Calls <span class="tt">MR_MeshTopology_deleteFaces()</span>. </p>
+<p>deletes from this topology: 1) all the given faces, 2) all the vertices, which had incident only deleted faces and no edges from <code class="param">keepEdges</code>, 3) make lone all the edges, which had to the left/right only deleted faces or no faces at all (unlike deleteFaces), except for the edges from <code class="param">keepEdges</code>; return bit sets of all vacant elements in this topology after deletion; it takes a pass over the whole mesh for any number of faces Generated from method <span class="tt">MR::MeshTopology::deleteFacesFindVacant</span>.</p>
+<p>Calls <span class="tt">MR_MeshTopology_deleteFacesFindVacant()</span>. </p>
 
 </div>
 </div>
