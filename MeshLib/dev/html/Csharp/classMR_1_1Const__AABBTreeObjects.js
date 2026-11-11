@@ -27,7 +27,5 @@ var classMR_1_1Const__AABBTreeObjects =
     [ "toLocal", "classMR_1_1Const__AABBTreeObjects.html#af62a4b2efac4b11b8a3d879bca9c166b", null ],
     [ "toLocal", "classMR_1_1Const__AABBTreeObjects.html#ae797e01dddb74671e2a6a4934d6435cf", null ],
     [ "toWorld", "classMR_1_1Const__AABBTreeObjects.html#ac0cb3db4c9618b41ecd7cc6fe7db34b9", null ],
-    [ "__ref_storage_LeavesHaveBoxes", "classMR_1_1Const__AABBTreeObjects.html#a27e08f9a4f79972d1b49e78ec6dd4a0b", null ],
-    [ "LeavesHaveBoxes", "classMR_1_1Const__AABBTreeObjects.html#a56e10aecb800d6a50f1ee45fd5b53beb", null ],
     [ "this[MR.NodeId nid]", "classMR_1_1Const__AABBTreeObjects.html#ac585e16cbdac4630e345526fe9c0a639", null ]
 ];

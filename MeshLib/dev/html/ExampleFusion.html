@@ -239,8 +239,8 @@ $(function(){initNavTree('ExampleFusion.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    MR_PointsToMeshParameters* params = MR_PointsToMeshParameters_DefaultConstruct();</div>
-<div class="line">    MR_Box3f <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaa8e870a285baf5773930c9add1a3e52f">box</a> = MR_PointCloud_computeBoundingBox( pc, NULL );</div>
-<div class="line">    <span class="keywordtype">float</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga15d13587d3a07d097c841db2c9face4d">voxelSize</a> = MR_Box3f_diagonal( &amp;<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaa8e870a285baf5773930c9add1a3e52f">box</a> ) * 1e-2f;</div>
+<div class="line">    MR_Box3f <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaae24ed3bd6b6375f02e71ca6035883e7">box</a> = MR_PointCloud_computeBoundingBox( pc, NULL );</div>
+<div class="line">    <span class="keywordtype">float</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga15d13587d3a07d097c841db2c9face4d">voxelSize</a> = MR_Box3f_diagonal( &amp;<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaae24ed3bd6b6375f02e71ca6035883e7">box</a> ) * 1e-2f;</div>
 <div class="line">    MR_PointsToMeshParameters_Set_voxelSize( params, <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga15d13587d3a07d097c841db2c9face4d">voxelSize</a> );</div>
 <div class="line">    MR_PointsToMeshParameters_Set_sigma( params, fmaxf( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga15d13587d3a07d097c841db2c9face4d">voxelSize</a>, MR_findAvgPointsRadius( pc, 50, NULL ) ) );</div>
 <div class="line">    MR_PointsToMeshParameters_Set_minWeight( params, 1.0f );</div>
@@ -271,7 +271,7 @@ $(function(){initNavTree('ExampleFusion.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga15d13587d3a07d097c841db2c9face4d"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga15d13587d3a07d097c841db2c9face4d">voxelSize</a></div><div class="ttdeci">const Vector3f &amp; voxelSize() const</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_gaa8e870a285baf5773930c9add1a3e52f"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaa8e870a285baf5773930c9add1a3e52f">box</a></div><div class="ttdeci">const BoxT &amp; box(NodeId n) const</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaae24ed3bd6b6375f02e71ca6035883e7"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaae24ed3bd6b6375f02e71ca6035883e7">box</a></div><div class="ttdeci">const BoxT &amp; box(NodeId n) const</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>FusionExample</div>

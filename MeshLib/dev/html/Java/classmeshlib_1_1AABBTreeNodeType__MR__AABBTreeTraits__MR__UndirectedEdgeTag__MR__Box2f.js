@@ -1,7 +1,0 @@
-var classmeshlib_1_1AABBTreeNodeType__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f =
-[
-    [ "AABBTreeNodeType_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f", "classmeshlib_1_1AABBTreeNodeType__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html#ad0f439d26c12601e552c47d366f9b93e", null ],
-    [ "AABBTreeNodeType_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f", "classmeshlib_1_1AABBTreeNodeType__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html#a9fc91fe1c1b0a4cdbc714d273095d80f", null ],
-    [ "AABBTreeNodeType_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f", "classmeshlib_1_1AABBTreeNodeType__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html#a2e93c88d8119afe871cc0ee37354e837", null ],
-    [ "assignFromAnother", "classmeshlib_1_1AABBTreeNodeType__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html#a3c857580a743f804ae3fac93544d367d", null ]
-];

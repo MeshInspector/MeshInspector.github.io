@@ -22,7 +22,5 @@ var classMR_1_1Const__AABBTreePolyline3 =
     [ "numLeaves", "classMR_1_1Const__AABBTreePolyline3.html#a091babb84c371433dc12a72483338546", null ],
     [ "operator MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Const__AABBTreePolyline3.html#a59d265bf2d1210d8663d4a99a0e5c65e", null ],
     [ "rootNodeId", "classMR_1_1Const__AABBTreePolyline3.html#aae7038dca3d5e8b092a374636aeaf5a4", null ],
-    [ "__ref_storage_LeavesHaveBoxes", "classMR_1_1Const__AABBTreePolyline3.html#ae56a2d912792e1bee79778bbc83fbb07", null ],
-    [ "LeavesHaveBoxes", "classMR_1_1Const__AABBTreePolyline3.html#ad02b6da30c5be88a44de70d8dba8f345", null ],
     [ "this[MR.NodeId nid]", "classMR_1_1Const__AABBTreePolyline3.html#ab8ab05d7df98cd436c81603e228bfbed", null ]
 ];

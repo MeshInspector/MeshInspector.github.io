@@ -133,6 +133,7 @@ $(function(){initNavTree('classMR_1_1AABBTree.html','','classMR_1_1AABBTree-memb
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classMR_1_1AABBTree-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::AABBTree Class Reference<div class="ingroups"><a class="el" href="group__AABBTreeGroup.html">AABB Tree overview</a></div></div></div>
@@ -140,123 +141,82 @@ $(function(){initNavTree('classMR_1_1AABBTree.html','','classMR_1_1AABBTree-memb
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="MRAABBTree_8h_source.html">MRMesh/MRAABBTree.h</a>&gt;</code></p>
-<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR::AABBTree:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classMR_1_1AABBTree.png" usemap="#MR_3A_3AAABBTree_map" alt=""/>
-  <map id="MR_3A_3AAABBTree_map" name="MR_3A_3AAABBTree_map">
-<area href="classMR_1_1AABBTreeBase.html" alt="MR::AABBTreeBase&lt; FaceTreeTraits3 &gt;" shape="rect" coords="0,0,242,24"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a58b4c172a565de364c877922e0c16bab" id="r_a58b4c172a565de364c877922e0c16bab"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58b4c172a565de364c877922e0c16bab">Boxes</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;Box3f&gt;</td></tr>
-<tr class="inherit_header pub_types_classMR_1_1AABBTreeBase"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_classMR_1_1AABBTreeBase')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Types inherited from <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase&lt; FaceTreeTraits3 &gt;</a></td></tr>
-<tr class="memitem:ga66e27ff8d7cb865904647479f715a7f3 inherit pub_types_classMR_1_1AABBTreeBase" id="r_ga66e27ff8d7cb865904647479f715a7f3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga66e27ff8d7cb865904647479f715a7f3">Traits</a></td></tr>
-<tr class="memitem:ga03938360ec35eef70423f9b0cc9c2275 inherit pub_types_classMR_1_1AABBTreeBase" id="r_ga03938360ec35eef70423f9b0cc9c2275"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga03938360ec35eef70423f9b0cc9c2275">Node</a></td></tr>
-<tr class="memitem:ga7a0335fa16114969e7f5e031192bf45b inherit pub_types_classMR_1_1AABBTreeBase" id="r_ga7a0335fa16114969e7f5e031192bf45b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7a0335fa16114969e7f5e031192bf45b">NodeVec</a></td></tr>
-<tr class="memitem:ga8174ff3f06b05cb213378de264fdcb57 inherit pub_types_classMR_1_1AABBTreeBase" id="r_ga8174ff3f06b05cb213378de264fdcb57"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8174ff3f06b05cb213378de264fdcb57">LeafTag</a></td></tr>
-<tr class="memitem:gaf22ebd659b66011e2ce0b16d3abc0e60 inherit pub_types_classMR_1_1AABBTreeBase" id="r_gaf22ebd659b66011e2ce0b16d3abc0e60"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf22ebd659b66011e2ce0b16d3abc0e60">LeafId</a></td></tr>
-<tr class="memitem:gaa68c6e8f36c8a52617b624e91f11568d inherit pub_types_classMR_1_1AABBTreeBase" id="r_gaa68c6e8f36c8a52617b624e91f11568d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa68c6e8f36c8a52617b624e91f11568d">LeafBitSet</a></td></tr>
-<tr class="memitem:ga6fd4a54abb1c4fe946e503bcb14d15c4 inherit pub_types_classMR_1_1AABBTreeBase" id="r_ga6fd4a54abb1c4fe946e503bcb14d15c4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6fd4a54abb1c4fe946e503bcb14d15c4">LeafBMap</a></td></tr>
-<tr class="memitem:ga380c83540a90e46211318ad9752c2fd2 inherit pub_types_classMR_1_1AABBTreeBase" id="r_ga380c83540a90e46211318ad9752c2fd2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga380c83540a90e46211318ad9752c2fd2">BoxT</a></td></tr>
-<tr class="memitem:ga3675522535be37c7d0dee05ab736465f inherit pub_types_classMR_1_1AABBTreeBase" id="r_ga3675522535be37c7d0dee05ab736465f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3675522535be37c7d0dee05ab736465f">Leaf</a></td></tr>
-<tr class="memitem:ga96425944755a5d59d3357a9a0c1b4d53 inherit pub_types_classMR_1_1AABBTreeBase" id="r_ga96425944755a5d59d3357a9a0c1b4d53"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga96425944755a5d59d3357a9a0c1b4d53">Leaves</a></td></tr>
+<tr class="memitem:a3ced22d7db5495fbff999b8437a1a6de" id="r_a3ced22d7db5495fbff999b8437a1a6de"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ced22d7db5495fbff999b8437a1a6de">Node</a> = <a class="el" href="structMR_1_1AABBTreeWideNode.html">AABBTreeWideNode</a></td></tr>
+<tr class="memitem:aea729bed7bef611e2d9969b404cbafe1" id="r_aea729bed7bef611e2d9969b404cbafe1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea729bed7bef611e2d9969b404cbafe1">LeafTri</a> = <a class="el" href="structMR_1_1AABBTreeWideLeafTri.html">AABBTreeWideLeafTri</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abea29a2d21e3807703a04574779d3d71" id="r_abea29a2d21e3807703a04574779d3d71"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abea29a2d21e3807703a04574779d3d71">AABBTree</a> (const MeshPart &amp;mp)</td></tr>
 <tr class="memdesc:abea29a2d21e3807703a04574779d3d71"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for given mesh or its part  <br /></td></tr>
 <tr class="memitem:a23b6f58682ec54006a8fb8d00ca4a191" id="r_a23b6f58682ec54006a8fb8d00ca4a191"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23b6f58682ec54006a8fb8d00ca4a191">AABBTree</a> ()=default</td></tr>
-<tr class="memitem:a8c181e0faee84c8251172e8762079252" id="r_a8c181e0faee84c8251172e8762079252"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c181e0faee84c8251172e8762079252">AABBTree</a> (<a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&amp;b) noexcept</td></tr>
-<tr class="memitem:a20d0a2c1755d779500f022c09feaf3d7" id="r_a20d0a2c1755d779500f022c09feaf3d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20d0a2c1755d779500f022c09feaf3d7">operator=</a> (<a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&amp;b) noexcept</td></tr>
-<tr class="memitem:aebe464cbfbffd347c058817b76732c2e" id="r_aebe464cbfbffd347c058817b76732c2e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__GeneralGroup.html#ga9fa45e8860a645c31bc2c7f1a2abf56b">ThreeVertIds</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebe464cbfbffd347c058817b76732c2e">leafVerts</a> (NodeId n) const</td></tr>
-<tr class="memdesc:aebe464cbfbffd347c058817b76732c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the vertices of the triangle of given leaf  <br /></td></tr>
-<tr class="memitem:abcde5e4270a51b079f9f3bae2a10bb3a" id="r_abcde5e4270a51b079f9f3bae2a10bb3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcde5e4270a51b079f9f3bae2a10bb3a">leafTriPoints</a> (const VertCoords &amp;points, NodeId n) const</td></tr>
-<tr class="memdesc:abcde5e4270a51b079f9f3bae2a10bb3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the coordinates of the vertices of the triangle of given leaf in the order of leafVerts( n )  <br /></td></tr>
-<tr class="memitem:a9a3ee55df7b008233dcea3d1b6a52a8c" id="r_a9a3ee55df7b008233dcea3d1b6a52a8c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a58b4c172a565de364c877922e0c16bab">Boxes</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a3ee55df7b008233dcea3d1b6a52a8c">boxes</a> () const</td></tr>
-<tr class="memitem:a3907cc8a12d242e81a7ede5137fbca6b" id="r_a3907cc8a12d242e81a7ede5137fbca6b"><td class="memItemLeft" align="right" valign="top">const Box3f &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3907cc8a12d242e81a7ede5137fbca6b">box</a> (NodeId n) const</td></tr>
-<tr class="memdesc:a3907cc8a12d242e81a7ede5137fbca6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the bounding box of given node or leaf  <br /></td></tr>
-<tr class="memitem:a5c94892abe28f9d99179ad8d8d5bf75d" id="r_a5c94892abe28f9d99179ad8d8d5bf75d"><td class="memItemLeft" align="right" valign="top">const Box3f &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c94892abe28f9d99179ad8d8d5bf75d">leafBox</a> (NodeId n) const</td></tr>
-<tr class="memdesc:a5c94892abe28f9d99179ad8d8d5bf75d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the bounding box of the triangle of given leaf  <br /></td></tr>
+<tr class="memitem:a299be175c35406bc5c624c524a3221e7" id="r_a299be175c35406bc5c624c524a3221e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a299be175c35406bc5c624c524a3221e7">AABBTree</a> (<a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&amp;) noexcept=default</td></tr>
+<tr class="memitem:a3d03064881df6e739bd9f815c909abe5" id="r_a3d03064881df6e739bd9f815c909abe5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d03064881df6e739bd9f815c909abe5">operator=</a> (<a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&amp;) noexcept=default</td></tr>
+<tr class="memitem:a45060882cc649af6c6c2ae01dffbdf61" id="r_a45060882cc649af6c6c2ae01dffbdf61"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#a3ced22d7db5495fbff999b8437a1a6de">Node</a>, NodeId &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45060882cc649af6c6c2ae01dffbdf61">nodes</a> () const</td></tr>
+<tr class="memdesc:a45060882cc649af6c6c2ae01dffbdf61"><td class="mdescLeft">&#160;</td><td class="mdescRight">the root is the first node, if any  <br /></td></tr>
 <tr class="memitem:a32fb8d6b891ed1e97bf4532552caa7a4" id="r_a32fb8d6b891ed1e97bf4532552caa7a4"><td class="memItemLeft" align="right" valign="top">Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32fb8d6b891ed1e97bf4532552caa7a4">getBoundingBox</a> () const</td></tr>
-<tr class="memdesc:a32fb8d6b891ed1e97bf4532552caa7a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the bounding box of the whole tree  <br /></td></tr>
+<tr class="memdesc:a32fb8d6b891ed1e97bf4532552caa7a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the bounding box of the whole tree (empty for an empty tree)  <br /></td></tr>
+<tr class="memitem:a184121f6c86d9e7b15869d4e573f1179" id="r_a184121f6c86d9e7b15869d4e573f1179"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#aea729bed7bef611e2d9969b404cbafe1">LeafTri</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a184121f6c86d9e7b15869d4e573f1179">leafTris</a> () const</td></tr>
+<tr class="memdesc:a184121f6c86d9e7b15869d4e573f1179"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangles of all leaves, the triangles of each leaf are contiguous  <br /></td></tr>
+<tr class="memitem:a3eefd04b2277f8268e1069c8103457fd" id="r_a3eefd04b2277f8268e1069c8103457fd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Box3f &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3eefd04b2277f8268e1069c8103457fd">leafBoxes</a> () const</td></tr>
+<tr class="memdesc:a3eefd04b2277f8268e1069c8103457fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the bounding boxes of the triangles in the order of <a class="el" href="#a184121f6c86d9e7b15869d4e573f1179" title="triangles of all leaves, the triangles of each leaf are contiguous">leafTris()</a>, slightly expanded for robust searches  <br /></td></tr>
 <tr class="memitem:a658bcca5c4309476b0a7b99eeced5036" id="r_a658bcca5c4309476b0a7b99eeced5036"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a658bcca5c4309476b0a7b99eeced5036">heapBytes</a> () const</td></tr>
 <tr class="memdesc:a658bcca5c4309476b0a7b99eeced5036"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
+<tr class="memitem:a414b993676aacdb7667e9f62135f5769" id="r_a414b993676aacdb7667e9f62135f5769"><td class="memItemLeft" align="right" valign="top">std::vector&lt; NodeId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a414b993676aacdb7667e9f62135f5769">getSubtrees</a> (int minNum) const</td></tr>
+<tr class="memdesc:a414b993676aacdb7667e9f62135f5769"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns at least given number of top-level not-intersecting subtrees, union of which contain all tree leaves  <br /></td></tr>
+<tr class="memitem:a2256edd876bfb56706235966c7b68eae" id="r_a2256edd876bfb56706235966c7b68eae"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2256edd876bfb56706235966c7b68eae">getSubtreeFaces</a> (NodeId subtreeRoot) const</td></tr>
+<tr class="memdesc:a2256edd876bfb56706235966c7b68eae"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all triangles in the subtree with given root  <br /></td></tr>
+<tr class="memitem:a208f4c3b39a80720476b8dd087cd4cf7" id="r_a208f4c3b39a80720476b8dd087cd4cf7"><td class="memItemLeft" align="right" valign="top">NodeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a208f4c3b39a80720476b8dd087cd4cf7">getNodesFromFaces</a> (const FaceBitSet &amp;faces) const</td></tr>
+<tr class="memdesc:a208f4c3b39a80720476b8dd087cd4cf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the nodes having at least one of given triangles in their subtrees  <br /></td></tr>
+<tr class="memitem:af07900ced098314b7b78c8c92249492d" id="r_af07900ced098314b7b78c8c92249492d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af07900ced098314b7b78c8c92249492d">getLeafOrder</a> (FaceBMap &amp;faceMap) const</td></tr>
+<tr class="memitem:aee31388a25d9a396031744a4b936013c" id="r_aee31388a25d9a396031744a4b936013c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee31388a25d9a396031744a4b936013c">renumber</a> (const FaceBMap &amp;faceMap, const VertBMap &amp;vertMap)</td></tr>
+<tr class="memdesc:aee31388a25d9a396031744a4b936013c"><td class="mdescLeft">&#160;</td><td class="mdescRight">renumbers the triangles and their vertices after the mesh was packed with given maps from old to new ids  <br /></td></tr>
+<tr class="memitem:a429f4cbc9eb05dca2deba0b5b1a74097" id="r_a429f4cbc9eb05dca2deba0b5b1a74097"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a429f4cbc9eb05dca2deba0b5b1a74097">flipOrientation</a> (const FaceBitSet *region=nullptr)</td></tr>
 <tr class="memitem:ad45eb520762fef375722fd1e51317b85" id="r_ad45eb520762fef375722fd1e51317b85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad45eb520762fef375722fd1e51317b85">refit</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet *changedVerts)</td></tr>
 <tr class="memitem:aebe936e844503aa620a92af3a0ed22b5" id="r_aebe936e844503aa620a92af3a0ed22b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebe936e844503aa620a92af3a0ed22b5">addSplitFaces</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga93482f559c684be16c718d5acd291d3e">FaceHashMap</a> &amp;new2Old)</td></tr>
-<tr class="memitem:add77fe9ccc32cf3f4b60b3384cfa76c6" id="r_add77fe9ccc32cf3f4b60b3384cfa76c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add77fe9ccc32cf3f4b60b3384cfa76c6">updateLeafVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology)</td></tr>
-<tr class="memdesc:add77fe9ccc32cf3f4b60b3384cfa76c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">takes the vertices of all leaves from given topology, e.g. after it was packed  <br /></td></tr>
-<tr class="memitem:a429f4cbc9eb05dca2deba0b5b1a74097" id="r_a429f4cbc9eb05dca2deba0b5b1a74097"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a429f4cbc9eb05dca2deba0b5b1a74097">flipOrientation</a> (const FaceBitSet *region=nullptr)</td></tr>
-<tr class="inherit_header pub_methods_classMR_1_1AABBTreeBase"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1AABBTreeBase')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase&lt; FaceTreeTraits3 &gt;</a></td></tr>
-<tr class="memitem:ga58f8dd538965bde14c46c2ed60aac1f9 inherit pub_methods_classMR_1_1AABBTreeBase" id="r_ga58f8dd538965bde14c46c2ed60aac1f9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__GeneralGroup.html#ga7a0335fa16114969e7f5e031192bf45b">NodeVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga58f8dd538965bde14c46c2ed60aac1f9">nodes</a> () const</td></tr>
-<tr class="memdesc:ga58f8dd538965bde14c46c2ed60aac1f9 inherit pub_methods_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">const-access to all not-leaf nodes, a tree with N leaves has N-1 nodes  <br /></td></tr>
-<tr class="memitem:gac94f623e90a49fd07aeb61722ab8e7f1 inherit pub_methods_classMR_1_1AABBTreeBase" id="r_gac94f623e90a49fd07aeb61722ab8e7f1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__GeneralGroup.html#ga03938360ec35eef70423f9b0cc9c2275">Node</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac94f623e90a49fd07aeb61722ab8e7f1">operator[]</a> (NodeId nid) const</td></tr>
-<tr class="memdesc:gac94f623e90a49fd07aeb61722ab8e7f1 inherit pub_methods_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">const-access to any not-leaf node  <br /></td></tr>
-<tr class="memitem:ga8cd6a79eeb08f416d080e6777aeba4a3 inherit pub_methods_classMR_1_1AABBTreeBase" id="r_ga8cd6a79eeb08f416d080e6777aeba4a3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__GeneralGroup.html#ga96425944755a5d59d3357a9a0c1b4d53">Leaves</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8cd6a79eeb08f416d080e6777aeba4a3">leaves</a> () const</td></tr>
-<tr class="memdesc:ga8cd6a79eeb08f416d080e6777aeba4a3 inherit pub_methods_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">all leaves in the order of the tree right after its construction  <br /></td></tr>
-<tr class="memitem:gab350cbc5f1583b0386249db45d20cb64 inherit pub_methods_classMR_1_1AABBTreeBase" id="r_gab350cbc5f1583b0386249db45d20cb64"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__GeneralGroup.html#ga3675522535be37c7d0dee05ab736465f">Leaf</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab350cbc5f1583b0386249db45d20cb64">leaf</a> (NodeId n) const</td></tr>
-<tr class="memdesc:gab350cbc5f1583b0386249db45d20cb64 inherit pub_methods_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the leaf encoded in given node id  <br /></td></tr>
-<tr class="memitem:gaabe26156e422f72cb22533c06af85797 inherit pub_methods_classMR_1_1AABBTreeBase" id="r_gaabe26156e422f72cb22533c06af85797"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gaf22ebd659b66011e2ce0b16d3abc0e60">LeafId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaabe26156e422f72cb22533c06af85797">leafId</a> (NodeId n) const</td></tr>
-<tr class="memdesc:gaabe26156e422f72cb22533c06af85797 inherit pub_methods_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the id of the leaf encoded in given node id  <br /></td></tr>
-<tr class="memitem:gaa8e870a285baf5773930c9add1a3e52f inherit pub_methods_classMR_1_1AABBTreeBase" id="r_gaa8e870a285baf5773930c9add1a3e52f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__GeneralGroup.html#ga380c83540a90e46211318ad9752c2fd2">BoxT</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa8e870a285baf5773930c9add1a3e52f">box</a> (NodeId n) const</td></tr>
-<tr class="memdesc:gaa8e870a285baf5773930c9add1a3e52f inherit pub_methods_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the bounding box of given node or leaf  <br /></td></tr>
-<tr class="memitem:gadfd2bdcac093b71694cd1bab1ce47087 inherit pub_methods_classMR_1_1AABBTreeBase" id="r_gadfd2bdcac093b71694cd1bab1ce47087"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gadfd2bdcac093b71694cd1bab1ce47087">empty</a> () const</td></tr>
-<tr class="memdesc:gadfd2bdcac093b71694cd1bab1ce47087 inherit pub_methods_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the tree has no leaves  <br /></td></tr>
-<tr class="memitem:gac572af30374a9ea5db7a175250e52241 inherit pub_methods_classMR_1_1AABBTreeBase" id="r_gac572af30374a9ea5db7a175250e52241"><td class="memItemLeft" align="right" valign="top">NodeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac572af30374a9ea5db7a175250e52241">rootNodeId</a> () const</td></tr>
-<tr class="memitem:ga2f24992370db9583449500b714ff32d4 inherit pub_methods_classMR_1_1AABBTreeBase" id="r_ga2f24992370db9583449500b714ff32d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga380c83540a90e46211318ad9752c2fd2">BoxT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2f24992370db9583449500b714ff32d4">getBoundingBox</a> () const</td></tr>
-<tr class="memdesc:ga2f24992370db9583449500b714ff32d4 inherit pub_methods_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the root node bounding box  <br /></td></tr>
-<tr class="memitem:gaeb7792254b27842c6c5e0572db29d2f2 inherit pub_methods_classMR_1_1AABBTreeBase" id="r_gaeb7792254b27842c6c5e0572db29d2f2"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaeb7792254b27842c6c5e0572db29d2f2">heapBytes</a> () const</td></tr>
-<tr class="memdesc:gaeb7792254b27842c6c5e0572db29d2f2 inherit pub_methods_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
-<tr class="memitem:ga444c40a8f2e0206606d5abe15c0f506f inherit pub_methods_classMR_1_1AABBTreeBase" id="r_ga444c40a8f2e0206606d5abe15c0f506f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga444c40a8f2e0206606d5abe15c0f506f">numLeaves</a> () const</td></tr>
-<tr class="memdesc:ga444c40a8f2e0206606d5abe15c0f506f inherit pub_methods_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of leaves in whole tree  <br /></td></tr>
-<tr class="memitem:ga8beb98c6522542a6df46ec28ba925be3 inherit pub_methods_classMR_1_1AABBTreeBase" id="r_ga8beb98c6522542a6df46ec28ba925be3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; NodeId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8beb98c6522542a6df46ec28ba925be3">getSubtrees</a> (int minNum) const</td></tr>
-<tr class="memdesc:ga8beb98c6522542a6df46ec28ba925be3 inherit pub_methods_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns at least given number of top-level not-intersecting subtrees (some can be leaves), union of which contain all tree leaves  <br /></td></tr>
-<tr class="memitem:gaaa9d7127e1af794b18fb161cc7c4f547 inherit pub_methods_classMR_1_1AABBTreeBase" id="r_gaaa9d7127e1af794b18fb161cc7c4f547"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gaa68c6e8f36c8a52617b624e91f11568d">LeafBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaaa9d7127e1af794b18fb161cc7c4f547">getSubtreeLeaves</a> (NodeId subtreeRoot) const</td></tr>
-<tr class="memdesc:gaaa9d7127e1af794b18fb161cc7c4f547 inherit pub_methods_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all leaves in the subtree with given root (can be a leaf)  <br /></td></tr>
-<tr class="memitem:ga21d2ab5d1c4af20b36617537428ebdf1 inherit pub_methods_classMR_1_1AABBTreeBase" id="r_ga21d2ab5d1c4af20b36617537428ebdf1"><td class="memItemLeft" align="right" valign="top">NodeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga21d2ab5d1c4af20b36617537428ebdf1">getNodesFromLeaves</a> (const <a class="el" href="group__GeneralGroup.html#gaa68c6e8f36c8a52617b624e91f11568d">LeafBitSet</a> &amp;<a class="el" href="group__GeneralGroup.html#ga8cd6a79eeb08f416d080e6777aeba4a3">leaves</a>) const</td></tr>
-<tr class="memdesc:ga21d2ab5d1c4af20b36617537428ebdf1 inherit pub_methods_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns set of not-leaf nodes containing among direct or indirect children given leaves  <br /></td></tr>
-<tr class="memitem:ga66dc2af667b0dec92a27e4448ab69258 inherit pub_methods_classMR_1_1AABBTreeBase" id="r_ga66dc2af667b0dec92a27e4448ab69258"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga66dc2af667b0dec92a27e4448ab69258">getLeafOrder</a> (<a class="el" href="group__GeneralGroup.html#ga6fd4a54abb1c4fe946e503bcb14d15c4">LeafBMap</a> &amp;leafMap) const</td></tr>
-<tr class="memitem:ga2c764df0b0d0265bc339eb12f5eb69b9 inherit pub_methods_classMR_1_1AABBTreeBase" id="r_ga2c764df0b0d0265bc339eb12f5eb69b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2c764df0b0d0265bc339eb12f5eb69b9">getLeafOrderAndReset</a> (<a class="el" href="group__GeneralGroup.html#ga6fd4a54abb1c4fe946e503bcb14d15c4">LeafBMap</a> &amp;leafMap)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a1710d8a6c83ac9f440eeded39109dffe" id="r_a1710d8a6c83ac9f440eeded39109dffe"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1710d8a6c83ac9f440eeded39109dffe">MaxChildren</a> = 4</td></tr>
+<tr class="memitem:ac5426cce068e55a61fb3c3e63d0b353d" id="r_ac5426cce068e55a61fb3c3e63d0b353d"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5426cce068e55a61fb3c3e63d0b353d">MaxLeafTris</a> = 4</td></tr>
+<tr class="memitem:a1d6d9a5a1bc77577a3b48f18cf70c962" id="r_a1d6d9a5a1bc77577a3b48f18cf70c962"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d6d9a5a1bc77577a3b48f18cf70c962">MaxDepth</a> = 16</td></tr>
+<tr class="memdesc:a1d6d9a5a1bc77577a3b48f18cf70c962"><td class="mdescLeft">&#160;</td><td class="mdescRight">the deepest level of a node (the root is at 0): the stacks of the traversals are sized for it, and addSplitFaces rebuilds a deeper tree  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
 <tr class="memitem:aed6e78485032d75bf97587de91224aaf" id="r_aed6e78485032d75bf97587de91224aaf"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed6e78485032d75bf97587de91224aaf">UniqueThreadSafeOwner&lt; AABBTree &gt;</a></td></tr>
 <tr class="memitem:a1c7a27ff83b86c0c4b27ab51c59cdedb" id="r_a1c7a27ff83b86c0c4b27ab51c59cdedb"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c7a27ff83b86c0c4b27ab51c59cdedb">SharedThreadSafeOwner&lt; AABBTree &gt;</a></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_methods_classMR_1_1AABBTreeBase"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1AABBTreeBase')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase&lt; FaceTreeTraits3 &gt;</a></td></tr>
-<tr class="memitem:gad01024c8a7555cc96e984f456a450928 inherit pub_static_methods_classMR_1_1AABBTreeBase" id="r_gad01024c8a7555cc96e984f456a450928"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gad01024c8a7555cc96e984f456a450928">isLeaf</a> (NodeId n)</td></tr>
-<tr class="memdesc:gad01024c8a7555cc96e984f456a450928 inherit pub_static_methods_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given node id is in fact a leaf (encoded as negative number)  <br /></td></tr>
-<tr class="inherit_header pub_static_attribs_classMR_1_1AABBTreeBase"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_attribs_classMR_1_1AABBTreeBase')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Attributes inherited from <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase&lt; FaceTreeTraits3 &gt;</a></td></tr>
-<tr class="memitem:ga7647cfbc08b2bf065e1c5e99b561c49e inherit pub_static_attribs_classMR_1_1AABBTreeBase" id="r_ga7647cfbc08b2bf065e1c5e99b561c49e"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7647cfbc08b2bf065e1c5e99b561c49e">leavesHaveBoxes</a></td></tr>
-<tr class="memdesc:ga7647cfbc08b2bf065e1c5e99b561c49e inherit pub_static_attribs_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the boxes of leaves are stored in the tree (all trees except <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> of a mesh)  <br /></td></tr>
-<tr class="inherit_header pro_methods_classMR_1_1AABBTreeBase"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classMR_1_1AABBTreeBase')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase&lt; FaceTreeTraits3 &gt;</a></td></tr>
-<tr class="memitem:ga5f3a4972dd3d379d21a6c8c06ef4e986 inherit pro_methods_classMR_1_1AABBTreeBase" id="r_ga5f3a4972dd3d379d21a6c8c06ef4e986"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga5f3a4972dd3d379d21a6c8c06ef4e986">build_</a> (<a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; <a class="el" href="group__AABBTreeGroup.html#ga2d9f9e10f5365b971c9f7300264be632">FaceTreeTraits3</a> &gt; &gt; <a class="el" href="group__GeneralGroup.html#ga8cd6a79eeb08f416d080e6777aeba4a3">leaves</a>)</td></tr>
-<tr class="memdesc:ga5f3a4972dd3d379d21a6c8c06ef4e986 inherit pro_methods_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds the tree from given leaves with their boxes  <br /></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1AABBTreeBase"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1AABBTreeBase')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Attributes inherited from <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase&lt; FaceTreeTraits3 &gt;</a></td></tr>
-<tr class="memitem:ga11f524576ba6c686729f0173615bc190 inherit pro_attribs_classMR_1_1AABBTreeBase" id="r_ga11f524576ba6c686729f0173615bc190"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga7a0335fa16114969e7f5e031192bf45b">NodeVec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga11f524576ba6c686729f0173615bc190">nodes_</a></td></tr>
-<tr class="memitem:ga2e019d6353720c5557a6e3e48e496fc6 inherit pro_attribs_classMR_1_1AABBTreeBase" id="r_ga2e019d6353720c5557a6e3e48e496fc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga96425944755a5d59d3357a9a0c1b4d53">Leaves</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2e019d6353720c5557a6e3e48e496fc6">leaves_</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>bounding volume hierarchy of mesh triangles; the leaves store the vertices of their triangles, and the boxes of nodes and of leaves are kept in one array <a class="el" href="#a9a3ee55df7b008233dcea3d1b6a52a8c">boxes()</a>, so a change of mesh topology requires either <a class="el" href="structMR_1_1Mesh.html#a47afb5a6c704c55128ab6c07680ebaf4">Mesh::invalidateCaches()</a> or <a class="el" href="#add77fe9ccc32cf3f4b60b3384cfa76c6" title="takes the vertices of all leaves from given topology, e.g. after it was packed">updateLeafVerts()</a>, and <a class="el" href="group__GeneralGroup.html#ga5a84b9039b6fb046ebf4ea974748c4e6">MeshTopology::flipOrientation()</a> requires <a class="el" href="#a429f4cbc9eb05dca2deba0b5b1a74097">flipOrientation()</a> here (as <a class="el" href="structMR_1_1Mesh.html#a6800ddc484384e7ced6d508567a2dd12">Mesh::flipOrientation()</a> does) </p>
+<div class="textblock"><p>bounding volume hierarchy of mesh triangles with up to 4 children per node and up to 4 triangles per leaf; the children of a node are stored contiguously, and every leaf keeps the vertices and the boxes of its triangles </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a58b4c172a565de364c877922e0c16bab" name="a58b4c172a565de364c877922e0c16bab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58b4c172a565de364c877922e0c16bab">&#9670;&#160;</a></span>Boxes</h2>
+<a id="aea729bed7bef611e2d9969b404cbafe1" name="aea729bed7bef611e2d9969b404cbafe1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea729bed7bef611e2d9969b404cbafe1">&#9670;&#160;</a></span>LeafTri</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a58b4c172a565de364c877922e0c16bab">MR::AABBTree::Boxes</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;Box3f&gt;</td>
+          <td class="memname">using <a class="el" href="#aea729bed7bef611e2d9969b404cbafe1">MR::AABBTree::LeafTri</a> = <a class="el" href="structMR_1_1AABBTreeWideLeafTri.html">AABBTreeWideLeafTri</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the bounding boxes of all leaves (the triangles) in the reverse order of <a class="el" href="group__GeneralGroup.html#ga8cd6a79eeb08f416d080e6777aeba4a3">leaves()</a> followed by the boxes of all nodes, so that the box of a node or leaf n is <a class="el" href="#a9a3ee55df7b008233dcea3d1b6a52a8c">boxes()</a>[<a class="el" href="group__GeneralGroup.html#ga444c40a8f2e0206606d5abe15c0f506f">numLeaves()</a> + n] (a leaf is encoded as negative n = ~leafIndex) </p>
+
+</div>
+</div>
+<a id="a3ced22d7db5495fbff999b8437a1a6de" name="a3ced22d7db5495fbff999b8437a1a6de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ced22d7db5495fbff999b8437a1a6de">&#9670;&#160;</a></span>Node</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a3ced22d7db5495fbff999b8437a1a6de">MR::AABBTree::Node</a> = <a class="el" href="structMR_1_1AABBTreeWideNode.html">AABBTreeWideNode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -313,8 +273,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a8c181e0faee84c8251172e8762079252" name="a8c181e0faee84c8251172e8762079252"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c181e0faee84c8251172e8762079252">&#9670;&#160;</a></span>AABBTree() <span class="overload">[3/3]</span></h2>
+<a id="a299be175c35406bc5c624c524a3221e7" name="a299be175c35406bc5c624c524a3221e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a299be175c35406bc5c624c524a3221e7">&#9670;&#160;</a></span>AABBTree() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -325,13 +285,13 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">MR::AABBTree::AABBTree </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -357,65 +317,13 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>adds to the tree the faces that appeared after splitting some of its faces into parts (e.g. by <a class="el" href="structMR_1_1Mesh.html#a9f365e654b9b4a4584293c3add2fdb05">Mesh::splitFace</a> or <a class="el" href="structMR_1_1Mesh.html#a0426a1ac11c53b02a2756afa0c205105">Mesh::splitEdge</a>): the leaf of each split face is replaced with a subtree of that face and its new parts; this is a faster alternative to full tree rebuild (but the tree after the update might be less efficient) </p><dl class="params"><dt>Parameters</dt><dd>
+<p>adds to the tree the faces that appeared after splitting some of its faces into parts (e.g. by <a class="el" href="structMR_1_1Mesh.html#a9f365e654b9b4a4584293c3add2fdb05">Mesh::splitFace</a> or <a class="el" href="structMR_1_1Mesh.html#a0426a1ac11c53b02a2756afa0c205105">Mesh::splitEdge</a>): the leaf of each split face gets a subtree with its old triangles and the new parts; this is a faster alternative to full tree rebuild (but the tree after the update might be less efficient) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mesh</td><td>same mesh for which this tree was constructed, but after the splits </td></tr>
-    <tr><td class="paramname">new2Old</td><td>maps every new face (not present in the tree) to the face of this tree it was split from; it must contain only the splits made since the tree was built or last updated: a map accumulated over several calls would add the earlier faces to the tree once more </td></tr>
+    <tr><td class="paramname">new2Old</td><td>maps every new face (not present in the tree) to the face of this tree it was split from; it must contain only the splits made since the tree was built or last updated </td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a3907cc8a12d242e81a7ede5137fbca6b" name="a3907cc8a12d242e81a7ede5137fbca6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3907cc8a12d242e81a7ede5137fbca6b">&#9670;&#160;</a></span>box()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const Box3f &amp; MR::AABBTree::box </td>
-          <td>(</td>
-          <td class="paramtype">NodeId</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns the bounding box of given node or leaf </p>
-
-</div>
-</div>
-<a id="a9a3ee55df7b008233dcea3d1b6a52a8c" name="a9a3ee55df7b008233dcea3d1b6a52a8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a3ee55df7b008233dcea3d1b6a52a8c">&#9670;&#160;</a></span>boxes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="#a58b4c172a565de364c877922e0c16bab">Boxes</a> &amp; MR::AABBTree::boxes </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -460,7 +368,106 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns the bounding box of the whole tree </p>
+<p>returns the bounding box of the whole tree (empty for an empty tree) </p>
+
+</div>
+</div>
+<a id="af07900ced098314b7b78c8c92249492d" name="af07900ced098314b7b78c8c92249492d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af07900ced098314b7b78c8c92249492d">&#9670;&#160;</a></span>getLeafOrder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::AABBTree::getLeafOrder </td>
+          <td>(</td>
+          <td class="paramtype">FaceBMap &amp;</td>          <td class="paramname"><span class="paramname"><em>faceMap</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>fills map: FaceId -&gt; its position in <a class="el" href="#a184121f6c86d9e7b15869d4e573f1179" title="triangles of all leaves, the triangles of each leaf are contiguous">leafTris()</a>; buffer in faceMap must be resized before the call, and caller is responsible for filling missing face elements </p>
+
+</div>
+</div>
+<a id="a208f4c3b39a80720476b8dd087cd4cf7" name="a208f4c3b39a80720476b8dd087cd4cf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a208f4c3b39a80720476b8dd087cd4cf7">&#9670;&#160;</a></span>getNodesFromFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">NodeBitSet MR::AABBTree::getNodesFromFaces </td>
+          <td>(</td>
+          <td class="paramtype">const FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>faces</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the nodes having at least one of given triangles in their subtrees </p>
+
+</div>
+</div>
+<a id="a2256edd876bfb56706235966c7b68eae" name="a2256edd876bfb56706235966c7b68eae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2256edd876bfb56706235966c7b68eae">&#9670;&#160;</a></span>getSubtreeFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FaceBitSet MR::AABBTree::getSubtreeFaces </td>
+          <td>(</td>
+          <td class="paramtype">NodeId</td>          <td class="paramname"><span class="paramname"><em>subtreeRoot</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns all triangles in the subtree with given root </p>
+
+</div>
+</div>
+<a id="a414b993676aacdb7667e9f62135f5769" name="a414b993676aacdb7667e9f62135f5769"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a414b993676aacdb7667e9f62135f5769">&#9670;&#160;</a></span>getSubtrees()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; NodeId &gt; MR::AABBTree::getSubtrees </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>minNum</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns at least given number of top-level not-intersecting subtrees, union of which contain all tree leaves </p>
 
 </div>
 </div>
@@ -491,8 +498,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a5c94892abe28f9d99179ad8d8d5bf75d" name="a5c94892abe28f9d99179ad8d8d5bf75d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c94892abe28f9d99179ad8d8d5bf75d">&#9670;&#160;</a></span>leafBox()</h2>
+<a id="a3eefd04b2277f8268e1069c8103457fd" name="a3eefd04b2277f8268e1069c8103457fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eefd04b2277f8268e1069c8103457fd">&#9670;&#160;</a></span>leafBoxes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -501,9 +508,9 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const Box3f &amp; MR::AABBTree::leafBox </td>
+          <td class="memname">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Box3f &gt; &amp; MR::AABBTree::leafBoxes </td>
           <td>(</td>
-          <td class="paramtype">NodeId</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -514,12 +521,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns the bounding box of the triangle of given leaf </p>
+<p>the bounding boxes of the triangles in the order of <a class="el" href="#a184121f6c86d9e7b15869d4e573f1179" title="triangles of all leaves, the triangles of each leaf are contiguous">leafTris()</a>, slightly expanded for robust searches </p>
 
 </div>
 </div>
-<a id="abcde5e4270a51b079f9f3bae2a10bb3a" name="abcde5e4270a51b079f9f3bae2a10bb3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcde5e4270a51b079f9f3bae2a10bb3a">&#9670;&#160;</a></span>leafTriPoints()</h2>
+<a id="a184121f6c86d9e7b15869d4e573f1179" name="a184121f6c86d9e7b15869d4e573f1179"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a184121f6c86d9e7b15869d4e573f1179">&#9670;&#160;</a></span>leafTris()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -528,40 +535,9 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> MR::AABBTree::leafTriPoints </td>
+          <td class="memname">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#aea729bed7bef611e2d9969b404cbafe1">LeafTri</a> &gt; &amp; MR::AABBTree::leafTris </td>
           <td>(</td>
-          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">NodeId</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;) const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns the coordinates of the vertices of the triangle of given leaf in the order of leafVerts( n ) </p>
-
-</div>
-</div>
-<a id="aebe464cbfbffd347c058817b76732c2e" name="aebe464cbfbffd347c058817b76732c2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebe464cbfbffd347c058817b76732c2e">&#9670;&#160;</a></span>leafVerts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="group__GeneralGroup.html#ga9fa45e8860a645c31bc2c7f1a2abf56b">ThreeVertIds</a> &amp; MR::AABBTree::leafVerts </td>
-          <td>(</td>
-          <td class="paramtype">NodeId</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -572,12 +548,39 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns the vertices of the triangle of given leaf </p>
+<p>triangles of all leaves, the triangles of each leaf are contiguous </p>
 
 </div>
 </div>
-<a id="a20d0a2c1755d779500f022c09feaf3d7" name="a20d0a2c1755d779500f022c09feaf3d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20d0a2c1755d779500f022c09feaf3d7">&#9670;&#160;</a></span>operator=()</h2>
+<a id="a45060882cc649af6c6c2ae01dffbdf61" name="a45060882cc649af6c6c2ae01dffbdf61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45060882cc649af6c6c2ae01dffbdf61">&#9670;&#160;</a></span>nodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#a3ced22d7db5495fbff999b8437a1a6de">Node</a>, NodeId &gt; &amp; MR::AABBTree::nodes </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the root is the first node, if any </p>
+
+</div>
+</div>
+<a id="a3d03064881df6e739bd9f815c909abe5" name="a3d03064881df6e739bd9f815c909abe5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d03064881df6e739bd9f815c909abe5">&#9670;&#160;</a></span>operator=()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -588,13 +591,13 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp; MR::AABBTree::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -619,7 +622,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>updates bounding boxes of the nodes containing changed vertices; this is a faster alternative to full tree rebuild (but the tree after refit might be less efficient) </p><dl class="params"><dt>Parameters</dt><dd>
+<p>updates the boxes of the triangles with changed vertices and of their ancestors; this is a faster alternative to full tree rebuild (but the tree after refit might be less efficient) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mesh</td><td>same mesh for which this tree was constructed but with updated coordinates; </td></tr>
     <tr><td class="paramname">changedVerts</td><td>vertex ids with modified coordinates (since tree construction or last refit), nullptr means all vertices </td></tr>
@@ -629,22 +632,26 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="add77fe9ccc32cf3f4b60b3384cfa76c6" name="add77fe9ccc32cf3f4b60b3384cfa76c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add77fe9ccc32cf3f4b60b3384cfa76c6">&#9670;&#160;</a></span>updateLeafVerts()</h2>
+<a id="aee31388a25d9a396031744a4b936013c" name="aee31388a25d9a396031744a4b936013c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee31388a25d9a396031744a4b936013c">&#9670;&#160;</a></span>renumber()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::AABBTree::updateLeafVerts </td>
+          <td class="memname">void MR::AABBTree::renumber </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
+          <td class="paramtype">const FaceBMap &amp;</td>          <td class="paramname"><span class="paramname"><em>faceMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const VertBMap &amp;</td>          <td class="paramname"><span class="paramname"><em>vertMap</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>takes the vertices of all leaves from given topology, e.g. after it was packed </p>
+<p>renumbers the triangles and their vertices after the mesh was packed with given maps from old to new ids </p>
 
 </div>
 </div>
@@ -687,6 +694,75 @@ Additional Inherited Members</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel friend">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a1710d8a6c83ac9f440eeded39109dffe" name="a1710d8a6c83ac9f440eeded39109dffe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1710d8a6c83ac9f440eeded39109dffe">&#9670;&#160;</a></span>MaxChildren</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::AABBTree::MaxChildren = 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d6d9a5a1bc77577a3b48f18cf70c962" name="a1d6d9a5a1bc77577a3b48f18cf70c962"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d6d9a5a1bc77577a3b48f18cf70c962">&#9670;&#160;</a></span>MaxDepth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::AABBTree::MaxDepth = 16</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the deepest level of a node (the root is at 0): the stacks of the traversals are sized for it, and addSplitFaces rebuilds a deeper tree </p>
+
+</div>
+</div>
+<a id="ac5426cce068e55a61fb3c3e63d0b353d" name="ac5426cce068e55a61fb3c3e63d0b353d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5426cce068e55a61fb3c3e63d0b353d">&#9670;&#160;</a></span>MaxLeafTris</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::AABBTree::MaxLeafTris = 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

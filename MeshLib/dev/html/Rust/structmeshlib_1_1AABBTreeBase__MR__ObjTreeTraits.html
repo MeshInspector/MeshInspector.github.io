@@ -175,14 +175,13 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa78fbdccc8866dc2d4b6ddd26b4a5bb9" id="r_aa78fbdccc8866dc2d4b6ddd26b4a5bb9"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa78fbdccc8866dc2d4b6ddd26b4a5bb9">construct_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html">meshlib::AABBTreeBase_MR_ObjTreeTraits</a>) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html">meshlib::AABBTreeBase_MR_ObjTreeTraits</a> &gt;</td></tr>
 <tr class="memitem:a54d70e9c7db0cd00fb41428cc1ae5142" id="r_a54d70e9c7db0cd00fb41428cc1ae5142"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54d70e9c7db0cd00fb41428cc1ae5142">is_leaf</a> (n:meshlib::NodeId) -&gt; bool</td></tr>
 <tr class="memitem:adbb94eaf497faa0a10403f3157fd66c2" id="r_adbb94eaf497faa0a10403f3157fd66c2"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbb94eaf497faa0a10403f3157fd66c2">r</a> (n:meshlib::NodeId) -&gt; &amp;<a class="el" href="structmeshlib_1_1Box3f.html">meshlib::Box3f</a></td></tr>
-<tr class="memitem:a08c4ace611a143974b94c0f9598e80fd" id="r_a08c4ace611a143974b94c0f9598e80fd"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08c4ace611a143974b94c0f9598e80fd">leaves_have_boxes</a> () -&gt; *const bool</td></tr>
 <tr class="inherit_header pub_static_methods_structmeshlib_1_1CppClass"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_structmeshlib_1_1CppClass')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="structmeshlib_1_1CppClass.html">meshlib::CppClass</a></td></tr>
 <tr class="memitem:a11dc1e7c254dc595480cb0454755385e inherit pub_static_methods_structmeshlib_1_1CppClass" id="r_a11dc1e7c254dc595480cb0454755385e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1CppClass.html#a11dc1e7c254dc595480cb0454755385e">destroy</a> (ptr:*mut Self)</td></tr>
 <tr class="inherit_header pub_static_methods_structmeshlib_1_1CppCopy"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_structmeshlib_1_1CppCopy')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="structmeshlib_1_1CppCopy.html">meshlib::CppCopy</a></td></tr>
 <tr class="memitem:a2c4715cd1a6e14728d887fe5fc1964cd inherit pub_static_methods_structmeshlib_1_1CppCopy" id="r_a2c4715cd1a6e14728d887fe5fc1964cd"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1CppCopy.html#a2c4715cd1a6e14728d887fe5fc1964cd">copy</a> (ptr:*const Self) -&gt; *mut Self</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>base class for most AABB-trees (except for <a class="el" href="structmeshlib_1_1AABBTreePoints.html">AABBTreePoints</a>) Generated from class <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;</span>. Derived classes: Direct: (non-virtual) <span class="tt">MR::AABBTreeObjects</span></p>
+<div class="textblock"><p>base class for the AABB-trees of polylines and objects Generated from class <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;</span>. Derived classes: Direct: (non-virtual) <span class="tt">MR::AABBTreeObjects</span></p>
 <p>Generated from class <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;</span>. Heap-allocated instances are held in <span class="tt"><a class="el" href="structmeshlib_1_1Owned.html">Owned</a>&lt;<a class="el" href="structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html">AABBTreeBase_MR_ObjTreeTraits</a>&gt;</span>. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a10ffd65f476543ff0b34c92d70ce26ce" name="a10ffd65f476543ff0b34c92d70ce26ce"></a>
@@ -483,33 +482,6 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>all leaves in the order of the tree right after its construction Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::leaves</span>.</p>
 <p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_leaves()</span>. </p>
-
-</div>
-</div>
-<a id="a08c4ace611a143974b94c0f9598e80fd" name="a08c4ace611a143974b94c0f9598e80fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08c4ace611a143974b94c0f9598e80fd">&#9670;&#160;</a></span>leaves_have_boxes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto meshlib::AABBTreeBase_MR_ObjTreeTraits::leaves_have_boxes </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> -&gt;  *const bool</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>whether the boxes of leaves are stored in the tree (all trees except <a class="el" href="structmeshlib_1_1AABBTree.html">AABBTree</a> of a mesh) Returns a pointer to a member variable of class <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;</span> named <span class="tt">leavesHaveBoxes</span>.</p>
-<p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_Get_leavesHaveBoxes()</span>. </p>
 
 </div>
 </div>

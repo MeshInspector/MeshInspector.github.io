@@ -1753,7 +1753,7 @@ Calls <span class="tt">MR_Mesh_calcFastWindingNumber()</span>. </li>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns cached aabb-tree for this mesh, creating it if it did not exist in a thread-safe manner Generated from method <span class="tt">MR::Mesh::getAABBTree</span>.</p>
+<p>returns cached aabb-tree of this mesh's triangles, creating it if it did not exist in a thread-safe manner Generated from method <span class="tt">MR::Mesh::getAABBTree</span>.</p>
 <p>Calls <span class="tt">MR_Mesh_getAABBTree()</span>. </p>
 
 </div>
@@ -1772,7 +1772,7 @@ Calls <span class="tt">MR_Mesh_calcFastWindingNumber()</span>. </li>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns cached aabb-tree for this mesh, but does not create it if it did not exist Generated from method <span class="tt">MR::Mesh::getAABBTreeNotCreate</span>.</p>
+<p>returns cached aabb-tree of this mesh's triangles, but does not create it if it did not exist Generated from method <span class="tt">MR::Mesh::getAABBTreeNotCreate</span>.</p>
 <p>Calls <span class="tt">MR_Mesh_getAABBTreeNotCreate()</span>. </p>
 
 </div>
@@ -1829,7 +1829,7 @@ Calls <span class="tt">MR_Mesh_calcFastWindingNumber()</span>. </li>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the bounding box containing all valid vertices (implemented via <a class="el" href="#a1af89ce8af55093090d1f5e9db4fb523">getAABBTree()</a>) this bounding box is insignificantly bigger that minimal box due to AABB algorithms precision Generated from method <span class="tt">MR::Mesh::getBoundingBox</span>.</p>
+<p>returns the bounding box containing all valid vertices (the root box of <a class="el" href="classmeshlib_1_1AABBTree.html">AABBTree</a>) this bounding box is insignificantly bigger that minimal box due to AABB algorithms precision Generated from method <span class="tt">MR::Mesh::getBoundingBox</span>.</p>
 <p>Calls <span class="tt">MR_Mesh_getBoundingBox()</span>. </p>
 
 </div>

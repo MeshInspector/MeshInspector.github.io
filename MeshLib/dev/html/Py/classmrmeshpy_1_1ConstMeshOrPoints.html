@@ -299,7 +299,7 @@ Implicit copy constructor.
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">if AABBTree is already built does nothing otherwise builds and caches it
+<pre class="fragment">if the tree used by projections (AABBTree of a mesh, AABBTreePoints of a cloud) is already built does nothing otherwise builds and caches it
 </pre> 
 </div>
 </div>
@@ -341,7 +341,7 @@ if toWorld transformation is given then returns minimal bounding box in world sp
       </table>
 </div><div class="memdoc">
 <pre class="fragment">returns the minimal bounding box containing all valid vertices of the object (and not only part of mesh);
-implemented via obj.getAABBTree()
+implemented via obj.getBoundingBox()
 </pre> 
 </div>
 </div>

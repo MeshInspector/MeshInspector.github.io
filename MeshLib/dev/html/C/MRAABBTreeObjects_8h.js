@@ -14,7 +14,6 @@ var MRAABBTreeObjects_8h =
     [ "MR_AABBTreeObjects_Destroy", "MRAABBTreeObjects_8h.html#a5cd671fd8c4124801eb0d6e022769132", null ],
     [ "MR_AABBTreeObjects_DestroyArray", "MRAABBTreeObjects_8h.html#a534b574a5a797e07c91f0c2690cc599c", null ],
     [ "MR_AABBTreeObjects_empty", "MRAABBTreeObjects_8h.html#a7aa56a42b6477b9da8e3228e0e31152f", null ],
-    [ "MR_AABBTreeObjects_Get_leavesHaveBoxes", "MRAABBTreeObjects_8h.html#a7f0541a1b917a9cd62417e1ab41ec576", null ],
     [ "MR_AABBTreeObjects_getBoundingBox", "MRAABBTreeObjects_8h.html#a94c61b97f66d6fd974b45e495e334b26", null ],
     [ "MR_AABBTreeObjects_getLeafOrder", "MRAABBTreeObjects_8h.html#af2ba74065200bc312e0a904459c7caca", null ],
     [ "MR_AABBTreeObjects_getLeafOrderAndReset", "MRAABBTreeObjects_8h.html#aacc60556e8f359437045e6850126ff81", null ],

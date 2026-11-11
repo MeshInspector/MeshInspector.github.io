@@ -278,7 +278,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if <a class="el" href="structmeshlib_1_1AABBTree.html">AABBTree</a> is already built does nothing otherwise builds and caches it Generated from method <span class="tt">MR::MeshOrPoints::cacheAABBTree</span>.</p>
+<p>if the tree used by projections (<a class="el" href="structmeshlib_1_1AABBTree.html">AABBTree</a> of a mesh, <a class="el" href="structmeshlib_1_1AABBTreePoints.html">AABBTreePoints</a> of a cloud) is already built does nothing otherwise builds and caches it Generated from method <span class="tt">MR::MeshOrPoints::cacheAABBTree</span>.</p>
 <p>Calls <span class="tt">MR_MeshOrPoints_cacheAABBTree()</span>. </p>
 
 </div>
@@ -451,7 +451,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the minimal bounding box containing all valid vertices of the object (and not only part of mesh); implemented via obj.getAABBTree() Generated from method <span class="tt">MR::MeshOrPoints::getObjBoundingBox</span>.</p>
+<p>returns the minimal bounding box containing all valid vertices of the object (and not only part of mesh); implemented via obj.getBoundingBox() Generated from method <span class="tt">MR::MeshOrPoints::getObjBoundingBox</span>.</p>
 <p>Calls <span class="tt">MR_MeshOrPoints_getObjBoundingBox()</span>. </p>
 
 </div>

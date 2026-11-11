@@ -180,7 +180,6 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:abcc562bfa6319700d01b226842977c0e" id="r_abcc562bfa6319700d01b226842977c0e"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcc562bfa6319700d01b226842977c0e">isLeaf</a> (<a class="el" href="classmeshlib_1_1NodeId.html">meshlib.NodeId</a> n)</td></tr>
-<tr class="memitem:aac965891c01066260eebefed8fbbca07" id="r_aac965891c01066260eebefed8fbbca07"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac965891c01066260eebefed8fbbca07">leavesHaveBoxes</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -188,7 +187,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:adfe5714b8689726b49285101e59afb90 inherit pro_methods_classmeshlib_1_1CppObject" id="r_adfe5714b8689726b49285101e59afb90"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1CppObject.html#adfe5714b8689726b49285101e59afb90">CppObject</a> (java.lang.foreign.MemorySegment ptr, java.util.function.Consumer&lt; java.lang.foreign.MemorySegment &gt; destroy, java.lang.Object owner)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>base class for most AABB-trees (except for <a class="el" href="classmeshlib_1_1AABBTreePoints.html">AABBTreePoints</a>) Generated from class <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;</span>. Derived classes: Direct: (non-virtual) <span class="tt">MR::AABBTreeObjects</span></p>
+<div class="textblock"><p>base class for the AABB-trees of polylines and objects Generated from class <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;</span>. Derived classes: Direct: (non-virtual) <span class="tt">MR::AABBTreeObjects</span></p>
 <p>Instances created here own their C++ objects, see <span class="tt"><a class="el" href="classmeshlib_1_1CppObject.html">CppObject</a></span>. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aaa0d00e3d5a43739e3d116ad9dfe395f" name="aaa0d00e3d5a43739e3d116ad9dfe395f"></a>
@@ -547,33 +546,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>all leaves in the order of the tree right after its construction Generated from method <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;::leaves</span>.</p>
 <p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_leaves()</span>. </p>
-
-</div>
-</div>
-<a id="aac965891c01066260eebefed8fbbca07" name="aac965891c01066260eebefed8fbbca07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac965891c01066260eebefed8fbbca07">&#9670;&#160;</a></span>leavesHaveBoxes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">boolean meshlib.AABBTreeBase_MR_ObjTreeTraits.leavesHaveBoxes </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>whether the boxes of leaves are stored in the tree (all trees except <a class="el" href="classmeshlib_1_1AABBTree.html">AABBTree</a> of a mesh) Returns a pointer to a member variable of class <span class="tt">MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;</span> named <span class="tt">leavesHaveBoxes</span>.</p>
-<p>Calls <span class="tt">MR_AABBTreeBase_MR_ObjTreeTraits_Get_leavesHaveBoxes()</span>. </p>
 
 </div>
 </div>

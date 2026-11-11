@@ -256,7 +256,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>calculates dipoles for given mesh and AABB-tree Generated from function <span class="tt">MR::calcDipoles</span>. Parameter <span class="tt">dipoles</span> can not be null. It is a single object. Parameter <span class="tt">tree</span> can not be null. It is a single object. Parameter <span class="tt">mesh</span> can not be null. It is a single object. </p>
+<p>calculates the dipoles of all nodes of given AABBTree of the mesh, a leaf has one dipole for all its triangles Generated from function <span class="tt">MR::calcDipoles</span>. Parameter <span class="tt">dipoles</span> can not be null. It is a single object. Parameter <span class="tt">tree</span> can not be null. It is a single object. Parameter <span class="tt">mesh</span> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -300,7 +300,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>compute approximate winding number at <code class="param">q</code>; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more; if distance from q to the center of some triangle group is more than beta times the distance from the center to most distance triangle in the group then we use approximate formula </td></tr>
+    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more; if distance from q to the center of some triangle group is more than beta times the distance from the center to most distance triangle in the group then we use approximate formula the triangles of a leaf with not good enough approximation by its dipole are summed exactly; </td></tr>
     <tr><td class="paramname">skipFace</td><td>this triangle (if it is close to <code class="param">q</code>) will be skipped from summation Generated from function <span class="tt">MR::calcFastWindingNumber</span>. Parameter <span class="tt">dipoles</span> can not be null. It is a single object. Parameter <span class="tt">tree</span> can not be null. It is a single object. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">q</span> can not be null. It is a single object. </td></tr>
   </table>
   </dd>

@@ -176,7 +176,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:acdd1d467a186cbb401d0cc6b2590eb70" id="r_acdd1d467a186cbb401d0cc6b2590eb70"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdd1d467a186cbb401d0cc6b2590eb70">construct</a> (polyline:&amp;<a class="el" href="structmeshlib_1_1Polyline2.html">meshlib::Polyline2</a>) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1AABBTreePolyline2.html">meshlib::AABBTreePolyline2</a> &gt;</td></tr>
 <tr class="memitem:a55896abf33c89ac1563605ad314ded06" id="r_a55896abf33c89ac1563605ad314ded06"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55896abf33c89ac1563605ad314ded06">is_leaf</a> (n:meshlib::NodeId) -&gt; bool</td></tr>
 <tr class="memitem:a6ba0cc0ea77e39c4b846521089c65b5b" id="r_a6ba0cc0ea77e39c4b846521089c65b5b"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ba0cc0ea77e39c4b846521089c65b5b">r</a> (n:meshlib::NodeId) -&gt; &amp;<a class="el" href="structmeshlib_1_1Box2f.html">meshlib::Box2f</a></td></tr>
-<tr class="memitem:a1e48887af74e62ea5490520e34f9b86b" id="r_a1e48887af74e62ea5490520e34f9b86b"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e48887af74e62ea5490520e34f9b86b">leaves_have_boxes</a> () -&gt; *const bool</td></tr>
 <tr class="memitem:af6589e700c34234341075279613bebef" id="r_af6589e700c34234341075279613bebef"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6589e700c34234341075279613bebef">static_downcast_from_aabb_tree_base_mr_aabb_tree_traits_mr_undirected_edge_tag_mr_box2f</a> (object:&amp;<a class="el" href="structmeshlib_1_1AABBTreeBase__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html">meshlib::AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</a>) -&gt; &amp;Self</td></tr>
 <tr class="memitem:a19a01a524e689478ca87c8076b6cc198" id="r_a19a01a524e689478ca87c8076b6cc198"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19a01a524e689478ca87c8076b6cc198">static_downcast_from_aabb_tree_base_mr_aabb_tree_traits_mr_undirected_edge_tag_mr_box2f_mut</a> (object:&amp;mut <a class="el" href="structmeshlib_1_1AABBTreeBase__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html">meshlib::AABBTreeBase_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</a>) -&gt; &amp;mut Self</td></tr>
 <tr class="inherit_header pub_static_methods_structmeshlib_1_1CppClass"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_structmeshlib_1_1CppClass')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="structmeshlib_1_1CppClass.html">meshlib::CppClass</a></td></tr>
@@ -511,33 +510,6 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>all leaves in the order of the tree right after its construction Generated from method <span class="tt">MR::AABBTreePolyline2::leaves</span>.</p>
 <p>Calls <span class="tt">MR_AABBTreePolyline2_leaves()</span>. </p>
-
-</div>
-</div>
-<a id="a1e48887af74e62ea5490520e34f9b86b" name="a1e48887af74e62ea5490520e34f9b86b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e48887af74e62ea5490520e34f9b86b">&#9670;&#160;</a></span>leaves_have_boxes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto meshlib::AABBTreePolyline2::leaves_have_boxes </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> -&gt;  *const bool</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>whether the boxes of leaves are stored in the tree (all trees except <a class="el" href="structmeshlib_1_1AABBTree.html">AABBTree</a> of a mesh) Returns a pointer to a member variable of class <span class="tt">MR::AABBTreePolyline2</span> named <span class="tt">leavesHaveBoxes</span>.</p>
-<p>Calls <span class="tt">MR_AABBTreePolyline2_Get_leavesHaveBoxes()</span>. </p>
 
 </div>
 </div>

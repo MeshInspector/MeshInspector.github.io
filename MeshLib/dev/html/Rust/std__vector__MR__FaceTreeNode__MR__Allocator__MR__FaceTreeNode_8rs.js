@@ -1,4 +1,0 @@
-var std__vector__MR__FaceTreeNode__MR__Allocator__MR__FaceTreeNode_8rs =
-[
-    [ "meshlib::std_vector_MR_FaceTreeNode_MR_Allocator_MR_FaceTreeNode", "structmeshlib_1_1std__vector__MR__FaceTreeNode__MR__Allocator__MR__FaceTreeNode.html", "structmeshlib_1_1std__vector__MR__FaceTreeNode__MR__Allocator__MR__FaceTreeNode" ]
-];

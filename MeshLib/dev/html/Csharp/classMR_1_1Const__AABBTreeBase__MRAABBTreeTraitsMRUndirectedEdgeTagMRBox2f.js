@@ -21,7 +21,5 @@ var classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f =
     [ "nodes", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html#a6b0245844794e9d375aef15415becd83", null ],
     [ "numLeaves", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html#a19d39d40f12e2628a73ec8f6a4fbb8de", null ],
     [ "rootNodeId", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html#a60c2248aec504c681e29e74d25d91444", null ],
-    [ "__ref_storage_LeavesHaveBoxes", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html#adeb9222aa1b3e547b8879abc5daceb0f", null ],
-    [ "LeavesHaveBoxes", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html#abaf52e16de3ab83964443708fc1ac09b", null ],
     [ "this[MR.NodeId nid]", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html#aee6e097e55b96fc49289c1212d4d2f4a", null ]
 ];

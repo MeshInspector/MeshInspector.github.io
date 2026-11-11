@@ -1525,7 +1525,7 @@ unlike simple fromTriangles() it tries to resolve non-manifold vertices by creat
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns cached aabb-tree for this mesh, creating it if it did not exist in a thread-safe manner
+<pre class="fragment">returns cached aabb-tree of this mesh's triangles, creating it if it did not exist in a thread-safe manner
 </pre> 
 </div>
 </div>
@@ -1543,7 +1543,7 @@ unlike simple fromTriangles() it tries to resolve non-manifold vertices by creat
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns cached aabb-tree for this mesh, but does not create it if it did not exist
+<pre class="fragment">returns cached aabb-tree of this mesh's triangles, but does not create it if it did not exist
 </pre> 
 </div>
 </div>
@@ -1597,7 +1597,7 @@ unlike simple fromTriangles() it tries to resolve non-manifold vertices by creat
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns the bounding box containing all valid vertices (implemented via getAABBTree())
+<pre class="fragment">returns the bounding box containing all valid vertices (the root box of AABBTree)
 this bounding box is insignificantly bigger that minimal box due to AABB algorithms precision
 </pre> 
 </div>

@@ -295,7 +295,7 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3APlanarTriangulation_3A_3ATriangulationParameters" id="r_MR_3A_3APlanarTriangulation_3A_3ATriangulationParameters"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PlanarTriangulation_1_1TriangulationParameters.html">MR::PlanarTriangulation::TriangulationParameters</a></td></tr>
 <tr class="memitem:MR_3A_3APlanarTriangulation_3A_3AISweepLineCache" id="r_MR_3A_3APlanarTriangulation_3A_3AISweepLineCache"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">MR::PlanarTriangulation::ISweepLineCache</a></td></tr>
 <tr class="memitem:MR_3A_3AAABBTreeBase_3C_20T_20_3E" id="r_MR_3A_3AAABBTreeBase_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for most AABB-trees (except for <a class="el" href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy for point cloud structure">AABBTreePoints</a>)  <a href="classMR_1_1AABBTreeBase.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for the AABB-trees of polylines and objects  <a href="classMR_1_1AABBTreeBase.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AObjTreeTraits" id="r_MR_3A_3AObjTreeTraits"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ObjTreeTraits.html">MR::ObjTreeTraits</a></td></tr>
 <tr class="memitem:MR_3A_3AAABBTreeObjects" id="r_MR_3A_3AAABBTreeObjects"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTreeObjects.html">MR::AABBTreeObjects</a></td></tr>
 <tr class="memitem:MR_3A_3ANoiseSettings" id="r_MR_3A_3ANoiseSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NoiseSettings.html">MR::NoiseSettings</a></td></tr>
@@ -1493,15 +1493,15 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga15dafb65753964c596e32bd173142aba" id="r_ga15dafb65753964c596e32bd173142aba"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga15dafb65753964c596e32bd173142aba">MR::PlanarTriangulation::ContourIdMap</a> = std::vector&lt;<a class="el" href="structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html">IntersectionInfo</a>&gt;</td></tr>
 <tr class="memitem:ga2861b59a4ea1236fc77b874053b4245a" id="r_ga2861b59a4ea1236fc77b874053b4245a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2861b59a4ea1236fc77b874053b4245a">MR::PlanarTriangulation::ContoursIdMap</a> = std::vector&lt;<a class="el" href="#ga15dafb65753964c596e32bd173142aba">ContourIdMap</a>&gt;</td></tr>
 <tr class="memitem:ga66e27ff8d7cb865904647479f715a7f3" id="r_ga66e27ff8d7cb865904647479f715a7f3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga66e27ff8d7cb865904647479f715a7f3">MR::AABBTreeBase&lt; T &gt;::Traits</a> = T</td></tr>
-<tr class="memitem:ga03938360ec35eef70423f9b0cc9c2275" id="r_ga03938360ec35eef70423f9b0cc9c2275"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga03938360ec35eef70423f9b0cc9c2275">MR::AABBTreeBase&lt; T &gt;::Node</a> = typename <a class="el" href="structMR_1_1AABBTreeNodeType.html">AABBTreeNodeType</a>&lt;<a class="el" href="#ga66e27ff8d7cb865904647479f715a7f3">Traits</a>&gt;::type</td></tr>
-<tr class="memitem:ga7a0335fa16114969e7f5e031192bf45b" id="r_ga7a0335fa16114969e7f5e031192bf45b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7a0335fa16114969e7f5e031192bf45b">MR::AABBTreeBase&lt; T &gt;::NodeVec</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="#ga03938360ec35eef70423f9b0cc9c2275">Node</a>, NodeId&gt;</td></tr>
+<tr class="memitem:ga4a87e995071aa1a99752d3f3f32a72b3" id="r_ga4a87e995071aa1a99752d3f3f32a72b3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4a87e995071aa1a99752d3f3f32a72b3">MR::AABBTreeBase&lt; T &gt;::Node</a> = <a class="el" href="structMR_1_1AABBTreeNode.html">AABBTreeNode</a>&lt;<a class="el" href="#ga66e27ff8d7cb865904647479f715a7f3">Traits</a>&gt;</td></tr>
+<tr class="memitem:ga7a0335fa16114969e7f5e031192bf45b" id="r_ga7a0335fa16114969e7f5e031192bf45b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7a0335fa16114969e7f5e031192bf45b">MR::AABBTreeBase&lt; T &gt;::NodeVec</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="#ga4a87e995071aa1a99752d3f3f32a72b3">Node</a>, NodeId&gt;</td></tr>
 <tr class="memitem:ga8174ff3f06b05cb213378de264fdcb57" id="r_ga8174ff3f06b05cb213378de264fdcb57"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8174ff3f06b05cb213378de264fdcb57">MR::AABBTreeBase&lt; T &gt;::LeafTag</a> = typename T::LeafTag</td></tr>
 <tr class="memitem:gaf22ebd659b66011e2ce0b16d3abc0e60" id="r_gaf22ebd659b66011e2ce0b16d3abc0e60"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf22ebd659b66011e2ce0b16d3abc0e60">MR::AABBTreeBase&lt; T &gt;::LeafId</a> = typename T::LeafId</td></tr>
 <tr class="memitem:gaa68c6e8f36c8a52617b624e91f11568d" id="r_gaa68c6e8f36c8a52617b624e91f11568d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa68c6e8f36c8a52617b624e91f11568d">MR::AABBTreeBase&lt; T &gt;::LeafBitSet</a> = TaggedBitSet&lt;<a class="el" href="#ga8174ff3f06b05cb213378de264fdcb57">LeafTag</a>&gt;</td></tr>
 <tr class="memitem:ga6fd4a54abb1c4fe946e503bcb14d15c4" id="r_ga6fd4a54abb1c4fe946e503bcb14d15c4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6fd4a54abb1c4fe946e503bcb14d15c4">MR::AABBTreeBase&lt; T &gt;::LeafBMap</a> = <a class="el" href="structMR_1_1BMap.html">BMap</a>&lt;<a class="el" href="#gaf22ebd659b66011e2ce0b16d3abc0e60">LeafId</a>, <a class="el" href="#gaf22ebd659b66011e2ce0b16d3abc0e60">LeafId</a>&gt;</td></tr>
 <tr class="memitem:ga380c83540a90e46211318ad9752c2fd2" id="r_ga380c83540a90e46211318ad9752c2fd2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga380c83540a90e46211318ad9752c2fd2">MR::AABBTreeBase&lt; T &gt;::BoxT</a> = typename T::BoxT</td></tr>
-<tr class="memitem:ga3675522535be37c7d0dee05ab736465f" id="r_ga3675522535be37c7d0dee05ab736465f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3675522535be37c7d0dee05ab736465f">MR::AABBTreeBase&lt; T &gt;::Leaf</a> = typename <a class="el" href="structMR_1_1AABBTreeLeaf.html">AABBTreeLeaf</a>&lt;T&gt;::type</td></tr>
-<tr class="memitem:ga96425944755a5d59d3357a9a0c1b4d53" id="r_ga96425944755a5d59d3357a9a0c1b4d53"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga96425944755a5d59d3357a9a0c1b4d53">MR::AABBTreeBase&lt; T &gt;::Leaves</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="#ga3675522535be37c7d0dee05ab736465f">Leaf</a>&gt;</td></tr>
+<tr class="memitem:ga94ca56c6d3c06405f7a8345bf6c4350c" id="r_ga94ca56c6d3c06405f7a8345bf6c4350c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga94ca56c6d3c06405f7a8345bf6c4350c">MR::AABBTreeBase&lt; T &gt;::Leaf</a> = <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt;T&gt;</td></tr>
+<tr class="memitem:ga96425944755a5d59d3357a9a0c1b4d53" id="r_ga96425944755a5d59d3357a9a0c1b4d53"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga96425944755a5d59d3357a9a0c1b4d53">MR::AABBTreeBase&lt; T &gt;::Leaves</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="#ga94ca56c6d3c06405f7a8345bf6c4350c">Leaf</a>&gt;</td></tr>
 <tr class="memitem:ga5517b355b3a51538470f957d6a23bff1" id="r_ga5517b355b3a51538470f957d6a23bff1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5517b355b3a51538470f957d6a23bff1">MR::ObjTreeTraits::LeafTag</a> = ObjTag</td></tr>
 <tr class="memitem:ga7208b3ed4cbf6a7db7c03785856d5131" id="r_ga7208b3ed4cbf6a7db7c03785856d5131"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7208b3ed4cbf6a7db7c03785856d5131">MR::ObjTreeTraits::LeafId</a> = ObjId</td></tr>
 <tr class="memitem:gae8c8c6d7c93de2cba91378f547c50a8e" id="r_gae8c8c6d7c93de2cba91378f547c50a8e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae8c8c6d7c93de2cba91378f547c50a8e">MR::ObjTreeTraits::BoxT</a> = Box3f</td></tr>
@@ -3665,23 +3665,23 @@ Functions</h2></td></tr>
 <tr class="memitem:ga6153a7ef1b8a82c3fb936a7ee38c5c39" id="r_ga6153a7ef1b8a82c3fb936a7ee38c5c39"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6153a7ef1b8a82c3fb936a7ee38c5c39">MR::PlanarTriangulation::hasCrossing</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#ga18500a3df20aa256325c44e2c5b2b499">TwoVertIds</a> &gt; &amp;segments, const VertCoords &amp;points, const Vector3f &amp;<a class="el" href="#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>, <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> *cache=nullptr)</td></tr>
 <tr class="memitem:ga58f8dd538965bde14c46c2ed60aac1f9" id="r_ga58f8dd538965bde14c46c2ed60aac1f9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga7a0335fa16114969e7f5e031192bf45b">NodeVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga58f8dd538965bde14c46c2ed60aac1f9">MR::AABBTreeBase&lt; T &gt;::nodes</a> () const</td></tr>
 <tr class="memdesc:ga58f8dd538965bde14c46c2ed60aac1f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">const-access to all not-leaf nodes, a tree with N leaves has N-1 nodes  <br /></td></tr>
-<tr class="memitem:gac94f623e90a49fd07aeb61722ab8e7f1" id="r_gac94f623e90a49fd07aeb61722ab8e7f1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga03938360ec35eef70423f9b0cc9c2275">Node</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac94f623e90a49fd07aeb61722ab8e7f1">MR::AABBTreeBase&lt; T &gt;::operator[]</a> (NodeId nid) const</td></tr>
+<tr class="memitem:gac94f623e90a49fd07aeb61722ab8e7f1" id="r_gac94f623e90a49fd07aeb61722ab8e7f1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga4a87e995071aa1a99752d3f3f32a72b3">Node</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac94f623e90a49fd07aeb61722ab8e7f1">MR::AABBTreeBase&lt; T &gt;::operator[]</a> (NodeId nid) const</td></tr>
 <tr class="memdesc:gac94f623e90a49fd07aeb61722ab8e7f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">const-access to any not-leaf node  <br /></td></tr>
 <tr class="memitem:ga8cd6a79eeb08f416d080e6777aeba4a3" id="r_ga8cd6a79eeb08f416d080e6777aeba4a3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga96425944755a5d59d3357a9a0c1b4d53">Leaves</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8cd6a79eeb08f416d080e6777aeba4a3">MR::AABBTreeBase&lt; T &gt;::leaves</a> () const</td></tr>
 <tr class="memdesc:ga8cd6a79eeb08f416d080e6777aeba4a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">all leaves in the order of the tree right after its construction  <br /></td></tr>
 <tr class="memitem:gad01024c8a7555cc96e984f456a450928" id="r_gad01024c8a7555cc96e984f456a450928"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad01024c8a7555cc96e984f456a450928">MR::AABBTreeBase&lt; T &gt;::isLeaf</a> (NodeId n)</td></tr>
 <tr class="memdesc:gad01024c8a7555cc96e984f456a450928"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given node id is in fact a leaf (encoded as negative number)  <br /></td></tr>
-<tr class="memitem:gab350cbc5f1583b0386249db45d20cb64" id="r_gab350cbc5f1583b0386249db45d20cb64"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga3675522535be37c7d0dee05ab736465f">Leaf</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab350cbc5f1583b0386249db45d20cb64">MR::AABBTreeBase&lt; T &gt;::leaf</a> (NodeId n) const</td></tr>
+<tr class="memitem:gab350cbc5f1583b0386249db45d20cb64" id="r_gab350cbc5f1583b0386249db45d20cb64"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga94ca56c6d3c06405f7a8345bf6c4350c">Leaf</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab350cbc5f1583b0386249db45d20cb64">MR::AABBTreeBase&lt; T &gt;::leaf</a> (NodeId n) const</td></tr>
 <tr class="memdesc:gab350cbc5f1583b0386249db45d20cb64"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the leaf encoded in given node id  <br /></td></tr>
 <tr class="memitem:gaabe26156e422f72cb22533c06af85797" id="r_gaabe26156e422f72cb22533c06af85797"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gaf22ebd659b66011e2ce0b16d3abc0e60">LeafId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaabe26156e422f72cb22533c06af85797">MR::AABBTreeBase&lt; T &gt;::leafId</a> (NodeId n) const</td></tr>
 <tr class="memdesc:gaabe26156e422f72cb22533c06af85797"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the id of the leaf encoded in given node id  <br /></td></tr>
-<tr class="memitem:gaa8e870a285baf5773930c9add1a3e52f" id="r_gaa8e870a285baf5773930c9add1a3e52f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga380c83540a90e46211318ad9752c2fd2">BoxT</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa8e870a285baf5773930c9add1a3e52f">MR::AABBTreeBase&lt; T &gt;::box</a> (NodeId n) const</td></tr>
-<tr class="memdesc:gaa8e870a285baf5773930c9add1a3e52f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the bounding box of given node or leaf  <br /></td></tr>
+<tr class="memitem:gaae24ed3bd6b6375f02e71ca6035883e7" id="r_gaae24ed3bd6b6375f02e71ca6035883e7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga380c83540a90e46211318ad9752c2fd2">BoxT</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaae24ed3bd6b6375f02e71ca6035883e7">MR::AABBTreeBase&lt; T &gt;::box</a> (NodeId n) const</td></tr>
+<tr class="memdesc:gaae24ed3bd6b6375f02e71ca6035883e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the bounding box of given node or leaf  <br /></td></tr>
 <tr class="memitem:gadfd2bdcac093b71694cd1bab1ce47087" id="r_gadfd2bdcac093b71694cd1bab1ce47087"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadfd2bdcac093b71694cd1bab1ce47087">MR::AABBTreeBase&lt; T &gt;::empty</a> () const</td></tr>
 <tr class="memdesc:gadfd2bdcac093b71694cd1bab1ce47087"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the tree has no leaves  <br /></td></tr>
 <tr class="memitem:gac572af30374a9ea5db7a175250e52241" id="r_gac572af30374a9ea5db7a175250e52241"><td class="memItemLeft" align="right" valign="top">NodeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac572af30374a9ea5db7a175250e52241">MR::AABBTreeBase&lt; T &gt;::rootNodeId</a> () const</td></tr>
-<tr class="memitem:ga2f24992370db9583449500b714ff32d4" id="r_ga2f24992370db9583449500b714ff32d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga380c83540a90e46211318ad9752c2fd2">BoxT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2f24992370db9583449500b714ff32d4">MR::AABBTreeBase&lt; T &gt;::getBoundingBox</a> () const</td></tr>
-<tr class="memdesc:ga2f24992370db9583449500b714ff32d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the root node bounding box  <br /></td></tr>
+<tr class="memitem:gaac02049340231922a6b175c0900d88c9" id="r_gaac02049340231922a6b175c0900d88c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga380c83540a90e46211318ad9752c2fd2">BoxT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaac02049340231922a6b175c0900d88c9">MR::AABBTreeBase&lt; T &gt;::getBoundingBox</a> () const</td></tr>
+<tr class="memdesc:gaac02049340231922a6b175c0900d88c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the root node bounding box  <br /></td></tr>
 <tr class="memitem:gaeb7792254b27842c6c5e0572db29d2f2" id="r_gaeb7792254b27842c6c5e0572db29d2f2"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeb7792254b27842c6c5e0572db29d2f2">MR::AABBTreeBase&lt; T &gt;::heapBytes</a> () const</td></tr>
 <tr class="memdesc:gaeb7792254b27842c6c5e0572db29d2f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="memitem:ga444c40a8f2e0206606d5abe15c0f506f" id="r_ga444c40a8f2e0206606d5abe15c0f506f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga444c40a8f2e0206606d5abe15c0f506f">MR::AABBTreeBase&lt; T &gt;::numLeaves</a> () const</td></tr>
@@ -3694,8 +3694,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga21d2ab5d1c4af20b36617537428ebdf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns set of not-leaf nodes containing among direct or indirect children given leaves  <br /></td></tr>
 <tr class="memitem:ga66dc2af667b0dec92a27e4448ab69258" id="r_ga66dc2af667b0dec92a27e4448ab69258"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga66dc2af667b0dec92a27e4448ab69258">MR::AABBTreeBase&lt; T &gt;::getLeafOrder</a> (<a class="el" href="#ga6fd4a54abb1c4fe946e503bcb14d15c4">LeafBMap</a> &amp;leafMap) const</td></tr>
 <tr class="memitem:ga2c764df0b0d0265bc339eb12f5eb69b9" id="r_ga2c764df0b0d0265bc339eb12f5eb69b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2c764df0b0d0265bc339eb12f5eb69b9">MR::AABBTreeBase&lt; T &gt;::getLeafOrderAndReset</a> (<a class="el" href="#ga6fd4a54abb1c4fe946e503bcb14d15c4">LeafBMap</a> &amp;leafMap)</td></tr>
-<tr class="memitem:ga5f3a4972dd3d379d21a6c8c06ef4e986" id="r_ga5f3a4972dd3d379d21a6c8c06ef4e986"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5f3a4972dd3d379d21a6c8c06ef4e986">MR::AABBTreeBase&lt; T &gt;::build_</a> (<a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt; <a class="el" href="#ga8cd6a79eeb08f416d080e6777aeba4a3">leaves</a>)</td></tr>
-<tr class="memdesc:ga5f3a4972dd3d379d21a6c8c06ef4e986"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds the tree from given leaves with their boxes  <br /></td></tr>
+<tr class="memitem:gaa2de43a775dd23ddf9f78b224c158080" id="r_gaa2de43a775dd23ddf9f78b224c158080"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa2de43a775dd23ddf9f78b224c158080">MR::AABBTreeBase&lt; T &gt;::build_</a> (<a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt; <a class="el" href="#ga8cd6a79eeb08f416d080e6777aeba4a3">leaves</a>)</td></tr>
+<tr class="memdesc:gaa2de43a775dd23ddf9f78b224c158080"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds the tree from given leaves with their boxes  <br /></td></tr>
 <tr class="memitem:gaa38c8faf49a02e3d7be46e67ca93605c" id="r_gaa38c8faf49a02e3d7be46e67ca93605c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa38c8faf49a02e3d7be46e67ca93605c">MR::AABBTreeObjects::AABBTreeObjects</a> ()=default</td></tr>
 <tr class="memitem:gaec3a344c532422551b9c0b890b5f309e" id="r_gaec3a344c532422551b9c0b890b5f309e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaec3a344c532422551b9c0b890b5f309e">MR::AABBTreeObjects::AABBTreeObjects</a> (<a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a>, ObjId &gt; objs)</td></tr>
 <tr class="memdesc:gaec3a344c532422551b9c0b890b5f309e"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for given set of objects each with its own transformation  <br /></td></tr>
@@ -4512,7 +4512,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga1d968d6262ca4a19b4f5610ef49dfdee"><td class="mdescLeft">&#160;</td><td class="mdescRight">transform world space to box space  <br /></td></tr>
 <tr class="memitem:ga94e65877ccc74f50e4cf0028f9ae95ae" id="r_ga94e65877ccc74f50e4cf0028f9ae95ae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga94e65877ccc74f50e4cf0028f9ae95ae">MR::Dipole::addIfGoodApprox</a> (const Vector3f &amp;q, float betaSq, float &amp;addTo) const</td></tr>
 <tr class="memitem:ga8fedddf735f8ee4a84207200eb0d9b6a" id="r_ga8fedddf735f8ee4a84207200eb0d9b6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8fedddf735f8ee4a84207200eb0d9b6a">MR::calcDipoles</a> (Dipoles &amp;dipoles, const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
-<tr class="memdesc:ga8fedddf735f8ee4a84207200eb0d9b6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates dipoles for given mesh and AABB-tree  <br /></td></tr>
+<tr class="memdesc:ga8fedddf735f8ee4a84207200eb0d9b6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the dipoles of all nodes of given <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> of the mesh, a leaf has one dipole for all its triangles  <br /></td></tr>
 <tr class="memitem:ga6183b53e85b58b3c7c8e78c383c4be15" id="r_ga6183b53e85b58b3c7c8e78c383c4be15"><td class="memItemLeft" align="right" valign="top">Dipoles&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6183b53e85b58b3c7c8e78c383c4be15">MR::calcDipoles</a> (const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memitem:gac27f9510340528d33d307b37dfa40ade" id="r_gac27f9510340528d33d307b37dfa40ade"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac27f9510340528d33d307b37dfa40ade">MR::calcFastWindingNumber</a> (const Dipoles &amp;dipoles, const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Vector3f &amp;q, float beta, FaceId skipFace)</td></tr>
 <tr class="memitem:ga97ffa4ef6cc99e6cfa211a4bed48c6f4" id="r_ga97ffa4ef6cc99e6cfa211a4bed48c6f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1DirectoryIterator.html">DirectoryIterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga97ffa4ef6cc99e6cfa211a4bed48c6f4">MR::DirectoryIterator::operator++</a> ()</td></tr>
@@ -6043,7 +6043,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:ga309a7ce32b89e73177a05d07a93d3103"><td class="mdescLeft">&#160;</td><td class="mdescRight">if this object holds a point cloud part then returns pointer on it, otherwise returns nullptr  <br /></td></tr>
 <tr class="memitem:ga95332399d23d48455d443fe886e2d182" id="r_ga95332399d23d48455d443fe886e2d182"><td class="memItemLeft" align="right" valign="top">Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga95332399d23d48455d443fe886e2d182">MR::MeshOrPoints::getObjBoundingBox</a> () const</td></tr>
 <tr class="memitem:ga53548c1592a1cf4ca3d5ada70ea4b2b4" id="r_ga53548c1592a1cf4ca3d5ada70ea4b2b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga53548c1592a1cf4ca3d5ada70ea4b2b4">MR::MeshOrPoints::cacheAABBTree</a> () const</td></tr>
-<tr class="memdesc:ga53548c1592a1cf4ca3d5ada70ea4b2b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> is already built does nothing otherwise builds and caches it  <br /></td></tr>
+<tr class="memdesc:ga53548c1592a1cf4ca3d5ada70ea4b2b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">if the tree used by projections (<a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> of a mesh, <a class="el" href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy for point cloud structure">AABBTreePoints</a> of a cloud) is already built does nothing otherwise builds and caches it  <br /></td></tr>
 <tr class="memitem:gae39e25d2f6a1e52e1f3d0a95a1169d0e" id="r_gae39e25d2f6a1e52e1f3d0a95a1169d0e"><td class="memItemLeft" align="right" valign="top">Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae39e25d2f6a1e52e1f3d0a95a1169d0e">MR::MeshOrPoints::computeBoundingBox</a> (const AffineXf3f *toWorld=nullptr) const</td></tr>
 <tr class="memitem:ga16a856ae65c5d9209685c97037e9af9a" id="r_ga16a856ae65c5d9209685c97037e9af9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga16a856ae65c5d9209685c97037e9af9a">MR::MeshOrPoints::accumulate</a> (<a class="el" href="classMR_1_1PointAccumulator.html">PointAccumulator</a> &amp;accum, const AffineXf3f *xf=nullptr) const</td></tr>
 <tr class="memdesc:ga16a856ae65c5d9209685c97037e9af9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds in existing <a class="el" href="classMR_1_1PointAccumulator.html" title="Class to accumulate points and make best line / plane approximation.">PointAccumulator</a> the elements of the contained object.  <br /></td></tr>
@@ -7559,14 +7559,6 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gada44a589fd04a828763560decb38cdf8" id="r_gada44a589fd04a828763560decb38cdf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gada44a589fd04a828763560decb38cdf8">MR::PriorityQueue&lt; T, P &gt;::pop</a> ()</td></tr>
 <tr class="memdesc:gada44a589fd04a828763560decb38cdf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes the top element from the priority queue  <br /></td></tr>
 <tr class="memitem:gad908c34d45a5e5b13755322db1cb9889" id="r_gad908c34d45a5e5b13755322db1cb9889"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad908c34d45a5e5b13755322db1cb9889">MR::makePrism</a> (float baseLength, float leftAngle, float rightAngle, float <a class="el" href="group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae">height</a>=1.0f)</td></tr>
-<tr class="memitem:gaa23ffbf600bd834cfdc4d416d0f4f704" id="r_gaa23ffbf600bd834cfdc4d416d0f4f704"><td class="memTemplParams" colspan="2">template&lt;typename ProcessNodes&gt; </td></tr>
-<tr class="memitem:gaa23ffbf600bd834cfdc4d416d0f4f704 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa23ffbf600bd834cfdc4d416d0f4f704">MR::processChildrenPair</a> (const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, const <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &amp;c, ProcessNodes &amp;processNodes, std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;nextSubtasks, <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> *leafPairs, int &amp;numLeafPairs)</td></tr>
-<tr class="memdesc:gaa23ffbf600bd834cfdc4d416d0f4f704"><td class="mdescLeft">&#160;</td><td class="mdescRight">tests a pair of children by processNodes: an accepted pair is added to nextSubtasks, or to leafPairs if both are leaves  <br /></td></tr>
-<tr class="memitem:ga70a491da3a38943ffbe9d8a99c340824" id="r_ga70a491da3a38943ffbe9d8a99c340824"><td class="memTemplParams" colspan="2">template&lt;typename ProcessLeaf, typename ProcessNodes&gt; </td></tr>
-<tr class="memitem:ga70a491da3a38943ffbe9d8a99c340824 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga70a491da3a38943ffbe9d8a99c340824">MR::processSelfSubtasks</a> (const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;subtasks, std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;nextSubtasks, ProcessLeaf &amp;&amp;processLeaf, ProcessNodes &amp;&amp;processNodes)</td></tr>
-<tr class="memdesc:ga70a491da3a38943ffbe9d8a99c340824"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function process all subtasks in one tree<br  />
-left/right == right/left in this case, so on same non-leaf nodes it only adds 3 next subtasks,<br  />
-same leafs are skipped and different leafs area processed with <span class="tt">processLeaf</span> callback.  <br /></td></tr>
 <tr class="memitem:ga0250568975d79b3b0da56e95a15280e4" id="r_ga0250568975d79b3b0da56e95a15280e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0250568975d79b3b0da56e95a15280e4">MR::reportProgress</a> (const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb, float v)</td></tr>
 <tr class="memdesc:ga0250568975d79b3b0da56e95a15280e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">safely invokes  <br /></td></tr>
 <tr class="memitem:gaec39cb3fe59abe04aaf824bbfdf39891" id="r_gaec39cb3fe59abe04aaf824bbfdf39891"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaec39cb3fe59abe04aaf824bbfdf39891">MR::reportProgress</a> (const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb, float v, size_t counter, int divider)</td></tr>
@@ -12260,8 +12252,6 @@ Variables</h2></td></tr>
 <tr class="memitem:gae9a3578068a8a12a4e3f251b9f2824e3" id="r_gae9a3578068a8a12a4e3f251b9f2824e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html">IntersectionsMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae9a3578068a8a12a4e3f251b9f2824e3">MR::PlanarTriangulation::TriangulationParameters::outInterMap</a> { nullptr }</td></tr>
 <tr class="memitem:ga7c3537adfba23ebaf54fedc6f9301ba8" id="r_ga7c3537adfba23ebaf54fedc6f9301ba8"><td class="memItemLeft" align="right" valign="top">constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7c3537adfba23ebaf54fedc6f9301ba8">MR::PlanarTriangulation::cMaxSegmentsInPairs</a> = 32</td></tr>
 <tr class="memdesc:ga7c3537adfba23ebaf54fedc6f9301ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="#ga5b85bd1b838abfda7bd38936039e6c3c">hasCrossing</a> tests up to this many segments in pairs, which is faster for them than the sweep, the only user of its cache with the exact predicates  <br /></td></tr>
-<tr class="memitem:ga7647cfbc08b2bf065e1c5e99b561c49e" id="r_ga7647cfbc08b2bf065e1c5e99b561c49e"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7647cfbc08b2bf065e1c5e99b561c49e">MR::AABBTreeBase&lt; T &gt;::leavesHaveBoxes</a> = !std::is_same_v&lt;<a class="el" href="#ga3675522535be37c7d0dee05ab736465f">Leaf</a>, <a class="el" href="structMR_1_1FaceLeaf.html">FaceLeaf</a>&gt;</td></tr>
-<tr class="memdesc:ga7647cfbc08b2bf065e1c5e99b561c49e"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the boxes of leaves are stored in the tree (all trees except <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> of a mesh)  <br /></td></tr>
 <tr class="memitem:ga11f524576ba6c686729f0173615bc190" id="r_ga11f524576ba6c686729f0173615bc190"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga7a0335fa16114969e7f5e031192bf45b">NodeVec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga11f524576ba6c686729f0173615bc190">MR::AABBTreeBase&lt; T &gt;::nodes_</a></td></tr>
 <tr class="memitem:ga2e019d6353720c5557a6e3e48e496fc6" id="r_ga2e019d6353720c5557a6e3e48e496fc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga96425944755a5d59d3357a9a0c1b4d53">Leaves</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2e019d6353720c5557a6e3e48e496fc6">MR::AABBTreeBase&lt; T &gt;::leaves_</a></td></tr>
 <tr class="memitem:ga737d9ffe78cecf476dbba17c7a68e40d" id="r_ga737d9ffe78cecf476dbba17c7a68e40d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga737d9ffe78cecf476dbba17c7a68e40d">MR::NoiseSettings::sigma</a> = 0.01f</td></tr>
@@ -19433,8 +19423,8 @@ template&lt;typename K, typename V&gt; </div>
 
 </div>
 </div>
-<a id="ga3675522535be37c7d0dee05ab736465f" name="ga3675522535be37c7d0dee05ab736465f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3675522535be37c7d0dee05ab736465f">&#9670;&#160;</a></span>Leaf</h2>
+<a id="ga94ca56c6d3c06405f7a8345bf6c4350c" name="ga94ca56c6d3c06405f7a8345bf6c4350c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga94ca56c6d3c06405f7a8345bf6c4350c">&#9670;&#160;</a></span>Leaf</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -19442,7 +19432,7 @@ template&lt;typename K, typename V&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase</a>&lt; T &gt;::Leaf = typename <a class="el" href="structMR_1_1AABBTreeLeaf.html">AABBTreeLeaf</a>&lt;T&gt;::type</td>
+          <td class="memname">using <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase</a>&lt; T &gt;::Leaf = <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt;T&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -19630,7 +19620,7 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase</a>&lt; T &gt;::Leaves = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="#ga3675522535be37c7d0dee05ab736465f">Leaf</a>&gt;</td>
+          <td class="memname">using <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase</a>&lt; T &gt;::Leaves = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="#ga94ca56c6d3c06405f7a8345bf6c4350c">Leaf</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -20239,8 +20229,8 @@ template&lt;typename ... Connectables&gt; </div>
 
 </div>
 </div>
-<a id="ga03938360ec35eef70423f9b0cc9c2275" name="ga03938360ec35eef70423f9b0cc9c2275"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga03938360ec35eef70423f9b0cc9c2275">&#9670;&#160;</a></span>Node</h2>
+<a id="ga4a87e995071aa1a99752d3f3f32a72b3" name="ga4a87e995071aa1a99752d3f3f32a72b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4a87e995071aa1a99752d3f3f32a72b3">&#9670;&#160;</a></span>Node</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -20248,7 +20238,7 @@ template&lt;typename ... Connectables&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase</a>&lt; T &gt;::Node = typename <a class="el" href="structMR_1_1AABBTreeNodeType.html">AABBTreeNodeType</a>&lt;<a class="el" href="#ga66e27ff8d7cb865904647479f715a7f3">Traits</a>&gt;::type</td>
+          <td class="memname">using <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase</a>&lt; T &gt;::Node = <a class="el" href="structMR_1_1AABBTreeNode.html">AABBTreeNode</a>&lt;<a class="el" href="#ga66e27ff8d7cb865904647479f715a7f3">Traits</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -20264,7 +20254,7 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase</a>&lt; T &gt;::NodeVec = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="#ga03938360ec35eef70423f9b0cc9c2275">Node</a>, NodeId&gt;</td>
+          <td class="memname">using <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase</a>&lt; T &gt;::NodeVec = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="#ga4a87e995071aa1a99752d3f3f32a72b3">Node</a>, NodeId&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -39477,8 +39467,8 @@ template&lt;typename To, typename From&gt; </div>
 
 </div>
 </div>
-<a id="gaa8e870a285baf5773930c9add1a3e52f" name="gaa8e870a285baf5773930c9add1a3e52f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa8e870a285baf5773930c9add1a3e52f">&#9670;&#160;</a></span>box() <span class="overload">[1/3]</span></h2>
+<a id="gaae24ed3bd6b6375f02e71ca6035883e7" name="gaae24ed3bd6b6375f02e71ca6035883e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaae24ed3bd6b6375f02e71ca6035883e7">&#9670;&#160;</a></span>box() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -39840,8 +39830,8 @@ template&lt;typename V, typename I&gt; </div>
 
 </div>
 </div>
-<a id="ga5f3a4972dd3d379d21a6c8c06ef4e986" name="ga5f3a4972dd3d379d21a6c8c06ef4e986"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5f3a4972dd3d379d21a6c8c06ef4e986">&#9670;&#160;</a></span>build_()</h2>
+<a id="gaa2de43a775dd23ddf9f78b224c158080" name="gaa2de43a775dd23ddf9f78b224c158080"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa2de43a775dd23ddf9f78b224c158080">&#9670;&#160;</a></span>build_()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -40952,7 +40942,7 @@ if all even edges are consistently oriented, then the output contours will be or
 
 <p><code>#include &lt;<a class="el" href="MRMeshOrPoints_8h.html">MRMesh/MRMeshOrPoints.h</a>&gt;</code></p>
 
-<p>if <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> is already built does nothing otherwise builds and caches it </p>
+<p>if the tree used by projections (<a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> of a mesh, <a class="el" href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy for point cloud structure">AABBTreePoints</a> of a cloud) is already built does nothing otherwise builds and caches it </p>
 
 </div>
 </div>
@@ -41132,7 +41122,7 @@ if all even edges are consistently oriented, then the output contours will be or
 
 <p><code>#include &lt;<a class="el" href="MRDipole_8h.html">MRMesh/MRDipole.h</a>&gt;</code></p>
 
-<p>calculates dipoles for given mesh and AABB-tree </p>
+<p>calculates the dipoles of all nodes of given <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> of the mesh, a leaf has one dipole for all its triangles </p>
 
 </div>
 </div>
@@ -41234,7 +41224,7 @@ if all even edges are consistently oriented, then the output contours will be or
 <p><code>#include &lt;<a class="el" href="MRDipole_8h.html">MRMesh/MRDipole.h</a>&gt;</code></p>
 <p>compute approximate winding number at <code class="param">q</code>; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more; if distance from q to the center of some triangle group is more than beta times the distance from the center to most distance triangle in the group then we use approximate formula </td></tr>
+    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more; if distance from q to the center of some triangle group is more than beta times the distance from the center to most distance triangle in the group then we use approximate formula the triangles of a leaf with not good enough approximation by its dipole are summed exactly; </td></tr>
     <tr><td class="paramname">skipFace</td><td>this triangle (if it is close to <code class="param">q</code>) will be skipped from summation </td></tr>
   </table>
   </dd>
@@ -84706,8 +84696,8 @@ template&lt;typename T, size_t degree&gt; </div>
 
 </div>
 </div>
-<a id="ga2f24992370db9583449500b714ff32d4" name="ga2f24992370db9583449500b714ff32d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2f24992370db9583449500b714ff32d4">&#9670;&#160;</a></span>getBoundingBox()</h2>
+<a id="gaac02049340231922a6b175c0900d88c9" name="gaac02049340231922a6b175c0900d88c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaac02049340231922a6b175c0900d88c9">&#9670;&#160;</a></span>getBoundingBox()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -94821,7 +94811,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshOrPoints_8h.html">MRMesh/MRMeshOrPoints.h</a>&gt;</code></p>
-<p>returns the minimal bounding box containing all valid vertices of the object (and not only part of mesh); implemented via obj.getAABBTree() </p>
+<p>returns the minimal bounding box containing all valid vertices of the object (and not only part of mesh); implemented via obj.getBoundingBox() </p>
 
 </div>
 </div>
@@ -118295,7 +118285,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="#ga3675522535be37c7d0dee05ab736465f">Leaf</a> &amp; <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase</a>&lt; T &gt;::leaf </td>
+          <td class="memname">const <a class="el" href="#ga94ca56c6d3c06405f7a8345bf6c4350c">Leaf</a> &amp; <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase</a>&lt; T &gt;::leaf </td>
           <td>(</td>
           <td class="paramtype">NodeId</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
           <td> const</td>
@@ -147155,7 +147145,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="#ga03938360ec35eef70423f9b0cc9c2275">Node</a> &amp; <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase</a>&lt; T &gt;::operator[] </td>
+          <td class="memname">const <a class="el" href="#ga4a87e995071aa1a99752d3f3f32a72b3">Node</a> &amp; <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase</a>&lt; T &gt;::operator[] </td>
           <td>(</td>
           <td class="paramtype">NodeId</td>          <td class="paramname"><span class="paramname"><em>nid</em></span></td><td>)</td>
           <td> const</td>
@@ -154983,53 +154973,6 @@ template&lt;typename T, typename P&gt; </div>
 
 </div>
 </div>
-<a id="gaa23ffbf600bd834cfdc4d416d0f4f704" name="gaa23ffbf600bd834cfdc4d416d0f4f704"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa23ffbf600bd834cfdc4d416d0f4f704">&#9670;&#160;</a></span>processChildrenPair()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ProcessNodes&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> void MR::processChildrenPair </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ProcessNodes &amp;</td>          <td class="paramname"><span class="paramname"><em>processNodes</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>nextSubtasks</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> *</td>          <td class="paramname"><span class="paramname"><em>leafPairs</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int &amp;</td>          <td class="paramname"><span class="paramname"><em>numLeafPairs</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRProcessSelfTreeSubtasks_8h.html">MRMesh/MRProcessSelfTreeSubtasks.h</a>&gt;</code></p>
-
-<p>tests a pair of children by processNodes: an accepted pair is added to nextSubtasks, or to leafPairs if both are leaves </p>
-
-</div>
-</div>
 <a id="ga608f3b3e1415777cf598629aa0b73681" name="ga608f3b3e1415777cf598629aa0b73681"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga608f3b3e1415777cf598629aa0b73681">&#9670;&#160;</a></span>processCommands()</h2>
 
@@ -155124,70 +155067,6 @@ template&lt;typename ProcessNodes&gt; </div>
 <p>process all commands from one line g-code source and generate corresponding move action; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">externalStorage</td><td>to avoid memory allocation on each line </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ga70a491da3a38943ffbe9d8a99c340824" name="ga70a491da3a38943ffbe9d8a99c340824"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga70a491da3a38943ffbe9d8a99c340824">&#9670;&#160;</a></span>processSelfSubtasks()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ProcessLeaf, typename ProcessNodes&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::processSelfSubtasks </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>subtasks</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>nextSubtasks</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ProcessLeaf &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>processLeaf</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ProcessNodes &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>processNodes</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRProcessSelfTreeSubtasks_8h.html">MRMesh/MRProcessSelfTreeSubtasks.h</a>&gt;</code></p>
-
-<p>This function process all subtasks in one tree<br  />
-left/right == right/left in this case, so on same non-leaf nodes it only adds 3 next subtasks,<br  />
-same leafs are skipped and different leafs area processed with <span class="tt">processLeaf</span> callback. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">tree</td><td>the AABB tree</td></tr>
-    <tr><td class="paramname">subtasks</td><td>initial tasks to process: a node with itself, or two nodes already accepted by <span class="tt">processNodes</span></td></tr>
-    <tr><td class="paramname">nextSubtasks</td><td>subtasks to process next, could be same as <span class="tt">subtasks</span></td></tr>
-    <tr><td class="paramname">processLeaf</td><td>function that is called for two different leafs accepted by <span class="tt">processNodes</span></td></tr>
-    <tr><td class="paramname">processNodes</td><td>function that determines how to process two different nodes (e.g. whether their boxes intersect); it is called for a pair before the pair is added to <span class="tt">nextSubtasks</span>, and an accepted pair of leaves goes to <span class="tt">processLeaf</span> without being added</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>the callbacks are template parameters to be inlined in this hot loop </p>
-<p>the pair of children is added to nextSubtasks if processNodes accepts it, and the accepted pairs of leaves are given to processLeaf from one call site: more call sites were slower with MSVC and on Apple M1</p>
-<p>split aNode</p>
-<p>split bNode</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">nextSubtasks</td><td>may be same as subtasks </td></tr>
   </table>
   </dd>
 </dl>
@@ -225017,32 +224896,6 @@ template&lt;typename T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga7647cfbc08b2bf065e1c5e99b561c49e" name="ga7647cfbc08b2bf065e1c5e99b561c49e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7647cfbc08b2bf065e1c5e99b561c49e">&#9670;&#160;</a></span>leavesHaveBoxes</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase</a>&lt; T &gt;::leavesHaveBoxes = !std::is_same_v&lt;<a class="el" href="#ga3675522535be37c7d0dee05ab736465f">Leaf</a>, <a class="el" href="structMR_1_1FaceLeaf.html">FaceLeaf</a>&gt;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>whether the boxes of leaves are stored in the tree (all trees except <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> of a mesh) </p>
 
 </div>
 </div>

@@ -135,14 +135,13 @@ $(function(){initNavTree('classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html',
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_AABBTreeBase_MRObjTreeTraits Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>base class for most AABB-trees (except for <a class="el" href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy for point cloud structure Generated from class MR.AABBTreePoints....">AABBTreePoints</a>) Generated from class <span class="tt">MR::AABBTreeBase&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;</span>. Derived classes: Direct: (non-virtual) <span class="tt"><a class="el" href="classMR_1_1AABBTreeObjects.html" title="tree containing world bounding boxes of individual objects having individual local-to-world transform...">MR.AABBTreeObjects</a></span> This is the const half of the class.  
+<p>base class for the AABB-trees of polylines and objects Generated from class <span class="tt">MR::AABBTreeBase&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;</span>. Derived classes: Direct: (non-virtual) <span class="tt"><a class="el" href="classMR_1_1AABBTreeObjects.html" title="tree containing world bounding boxes of individual objects having individual local-to-world transform...">MR.AABBTreeObjects</a></span> This is the const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.Const_AABBTreeBase_MRObjTreeTraits:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -151,7 +150,7 @@ $(function(){initNavTree('classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html',
  <div class="center">
   <img src="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.png" usemap="#MR_2EConst_5FAABBTreeBase_5FMRObjTreeTraits_map" alt=""/>
   <map id="MR_2EConst_5FAABBTreeBase_5FMRObjTreeTraits_map" name="MR_2EConst_5FAABBTreeBase_5FMRObjTreeTraits_map">
-<area href="classMR_1_1AABBTreeBase__MRObjTreeTraits.html" title="base class for most AABB-trees (except for AABBTreePoints) Generated from class MR...." alt="MR.AABBTreeBase_MRObjTreeTraits" shape="rect" coords="137,112,402,136"/>
+<area href="classMR_1_1AABBTreeBase__MRObjTreeTraits.html" title="base class for the AABB-trees of polylines and objects Generated from class MR.AABBTreeBase&lt;MR...." alt="MR.AABBTreeBase_MRObjTreeTraits" shape="rect" coords="137,112,402,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -208,19 +207,13 @@ Static Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:abccb3883b171ac6cc47e4e0efc903563" id="r_abccb3883b171ac6cc47e4e0efc903563"><td class="memItemLeft" align="right" valign="top">virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abccb3883b171ac6cc47e4e0efc903563">Dispose</a> (bool disposing)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:ade2cb167acb02192b82cf68acfdace66" id="r_ade2cb167acb02192b82cf68acfdace66"><td class="memItemLeft" align="right" valign="top">static unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade2cb167acb02192b82cf68acfdace66">__ref_storage_LeavesHaveBoxes</a></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a1291208991475946f634dda75b703f70" id="r_a1291208991475946f634dda75b703f70"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1291208991475946f634dda75b703f70">LeavesHaveBoxes</a><code> [get]</code></td></tr>
-<tr class="memdesc:a1291208991475946f634dda75b703f70"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the boxes of leaves are stored in the tree (all trees except <a class="el" href="classMR_1_1AABBTree.html" title="bounding volume hierarchy of mesh triangles; the leaves store the vertices of their triangles,...">AABBTree</a> of a mesh)  <br /></td></tr>
 <tr class="memitem:ae40c038d377c1605290c4a32eaecba79" id="r_ae40c038d377c1605290c4a32eaecba79"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits.html">MR.Const_AABBTreeNode_MRObjTreeTraits</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae40c038d377c1605290c4a32eaecba79">this[MR.NodeId nid]</a><code> [get]</code></td></tr>
 <tr class="memdesc:ae40c038d377c1605290c4a32eaecba79"><td class="mdescLeft">&#160;</td><td class="mdescRight">const-access to any not-leaf node Generated from method <span class="tt">MR::AABBTreeBase&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;::operator[]</span>.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>base class for most AABB-trees (except for <a class="el" href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy for point cloud structure Generated from class MR.AABBTreePoints....">AABBTreePoints</a>) Generated from class <span class="tt">MR::AABBTreeBase&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;</span>. Derived classes: Direct: (non-virtual) <span class="tt"><a class="el" href="classMR_1_1AABBTreeObjects.html" title="tree containing world bounding boxes of individual objects having individual local-to-world transform...">MR.AABBTreeObjects</a></span> This is the const half of the class. </p>
+<div class="textblock"><p>base class for the AABB-trees of polylines and objects Generated from class <span class="tt">MR::AABBTreeBase&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;</span>. Derived classes: Direct: (non-virtual) <span class="tt"><a class="el" href="classMR_1_1AABBTreeObjects.html" title="tree containing world bounding boxes of individual objects having individual local-to-world transform...">MR.AABBTreeObjects</a></span> This is the const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a08af00e88651090a8c702669ba289148" name="a08af00e88651090a8c702669ba289148"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a08af00e88651090a8c702669ba289148">&#9670;&#160;</a></span>Const_AABBTreeBase_MRObjTreeTraits() <span class="overload">[1/4]</span></h2>
@@ -786,54 +779,7 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ade2cb167acb02192b82cf68acfdace66" name="ade2cb167acb02192b82cf68acfdace66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade2cb167acb02192b82cf68acfdace66">&#9670;&#160;</a></span>__ref_storage_LeavesHaveBoxes</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe bool* MR.Const_AABBTreeBase_MRObjTreeTraits.__ref_storage_LeavesHaveBoxes</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">Property Documentation</h2>
-<a id="a1291208991475946f634dda75b703f70" name="a1291208991475946f634dda75b703f70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1291208991475946f634dda75b703f70">&#9670;&#160;</a></span>LeavesHaveBoxes</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe bool MR.Const_AABBTreeBase_MRObjTreeTraits.LeavesHaveBoxes</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>whether the boxes of leaves are stored in the tree (all trees except <a class="el" href="classMR_1_1AABBTree.html" title="bounding volume hierarchy of mesh triangles; the leaves store the vertices of their triangles,...">AABBTree</a> of a mesh) </p>
-
-</div>
-</div>
 <a id="ae40c038d377c1605290c4a32eaecba79" name="ae40c038d377c1605290c4a32eaecba79"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae40c038d377c1605290c4a32eaecba79">&#9670;&#160;</a></span>this[MR.NodeId nid]</h2>
 

@@ -1,9 +1,7 @@
 var hierarchy =
 [
+    [ "MR::AABBTree", "classMR_1_1AABBTree.html", null ],
     [ "MR::AABBTreeBase< T >", "classMR_1_1AABBTreeBase.html", null ],
-    [ "MR::AABBTreeBase< FaceTreeTraits3 >", "classMR_1_1AABBTreeBase.html", [
-      [ "MR::AABBTree", "classMR_1_1AABBTree.html", null ]
-    ] ],
     [ "MR::AABBTreeBase< LineTreeTraits< V > >", "classMR_1_1AABBTreeBase.html", [
       [ "MR::AABBTreePolyline< V >", "classMR_1_1AABBTreePolyline.html", null ]
     ] ],
@@ -11,15 +9,13 @@ var hierarchy =
       [ "MR::AABBTreeObjects", "classMR_1_1AABBTreeObjects.html", null ]
     ] ],
     [ "MR::AABBTreeChildEncoding", "structMR_1_1AABBTreeChildEncoding.html", [
-      [ "MR::AABBTreeNode< T >", "structMR_1_1AABBTreeNode.html", null ],
-      [ "MR::FaceTreeNode", "structMR_1_1FaceTreeNode.html", null ]
+      [ "MR::AABBTreeNode< Traits >", "structMR_1_1AABBTreeNode.html", null ],
+      [ "MR::AABBTreeNode< T >", "structMR_1_1AABBTreeNode.html", null ]
     ] ],
-    [ "MR::AABBTreeLeaf< T >", "structMR_1_1AABBTreeLeaf.html", null ],
-    [ "MR::AABBTreeLeaf< FaceTreeTraits3 >", "structMR_1_1AABBTreeLeaf_3_01FaceTreeTraits3_01_4.html", null ],
-    [ "MR::AABBTreeNodeType< T >", "structMR_1_1AABBTreeNodeType.html", null ],
-    [ "MR::AABBTreeNodeType< FaceTreeTraits3 >", "structMR_1_1AABBTreeNodeType_3_01FaceTreeTraits3_01_4.html", null ],
     [ "MR::AABBTreePoints", "classMR_1_1AABBTreePoints.html", null ],
     [ "MR::AABBTreeTraits< L, B >", "structMR_1_1AABBTreeTraits.html", null ],
+    [ "MR::AABBTreeWideLeafTri", "structMR_1_1AABBTreeWideLeafTri.html", null ],
+    [ "MR::AABBTreeWideNode", "structMR_1_1AABBTreeWideNode.html", null ],
     [ "MR::SpaceMouse::Action", "structMR_1_1SpaceMouse_1_1Action.html", null ],
     [ "MR::AffineXf< V >", "structMR_1_1AffineXf.html", null ],
     [ "MR::AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", null ],
@@ -421,7 +417,6 @@ var hierarchy =
     [ "MR::FaceDistancesSettings", "structMR_1_1FaceDistancesSettings.html", null ],
     [ "MR::FaceFace", "structMR_1_1FaceFace.html", null ],
     [ "MR::FaceFaceFace", "structMR_1_1FaceFaceFace.html", null ],
-    [ "MR::FaceLeaf", "structMR_1_1FaceLeaf.html", null ],
     [ "std::false_type", null, [
       [ "MR::IsVisualizeMaskEnum< DimensionsVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01DimensionsVisualizePropertyType_01_4.html", null ],
       [ "MR::IsVisualizeMaskEnum< FeatureVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01FeatureVisualizePropertyType_01_4.html", null ],
