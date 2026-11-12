@@ -2140,6 +2140,7 @@ var annotated_dup =
       [ "RemeshSettings", "classmrmeshpy_1_1RemeshSettings.html", "classmrmeshpy_1_1RemeshSettings" ],
       [ "RenderModelPassMask", "classmrmeshpy_1_1RenderModelPassMask.html", "classmrmeshpy_1_1RenderModelPassMask" ],
       [ "Reorder", "classmrmeshpy_1_1Reorder.html", "classmrmeshpy_1_1Reorder" ],
+      [ "ReserveMode", "classmrmeshpy_1_1ReserveMode.html", "classmrmeshpy_1_1ReserveMode" ],
       [ "ResolveMeshDegenSettings", "classmrmeshpy_1_1ResolveMeshDegenSettings.html", "classmrmeshpy_1_1ResolveMeshDegenSettings" ],
       [ "RigidScaleXf3d", "classmrmeshpy_1_1RigidScaleXf3d.html", "classmrmeshpy_1_1RigidScaleXf3d" ],
       [ "RigidScaleXf3f", "classmrmeshpy_1_1RigidScaleXf3f.html", "classmrmeshpy_1_1RigidScaleXf3f" ],

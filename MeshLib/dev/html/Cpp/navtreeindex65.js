@@ -1,5 +1,8 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1DividePointCloudOptionalOutput.html":[9,0,0,19,460],
+"structMR_1_1DividePolylineParameters.html":[9,0,0,19,477],
+"structMR_1_1DoubleOffsetSettings.html":[9,0,0,19,918],
 "structMR_1_1DracoSaveOptions.html":[9,0,0,19,96],
 "structMR_1_1DragDropListener.html":[9,0,0,19,814],
 "structMR_1_1DragEndListener.html":[9,0,0,19,804],
@@ -246,8 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html#a27c3f4fb399c5305651f2dd9386238c3":[9,0,2,0,1,6,0,3,0],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html":[9,0,1,0,1,16,0,4],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html":[9,0,2,0,1,6,0,4],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html#adfc0ecae222770b0db30cfc9c46495ca":[9,0,1,0,1,16,0,4,0],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html#adfc0ecae222770b0db30cfc9c46495ca":[9,0,2,0,1,6,0,4,0],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecSize.html":[9,0,1,0,1,16,0,5],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecSize.html":[9,0,2,0,1,6,0,5]
+"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html#adfc0ecae222770b0db30cfc9c46495ca":[9,0,1,0,1,16,0,4,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"structmeshlib_1_1GeneralOffsetParameters.html#ac12572878319d0e6c645c39154dc6539":[9,5,1,0,0,443,0],
 "structmeshlib_1_1GeneralOffsetParameters.html#ac80422a40763f55c9c7d71e4c62a05e4":[9,5,0,0,0,456,52],
 "structmeshlib_1_1GeneralOffsetParameters.html#ac80422a40763f55c9c7d71e4c62a05e4":[9,5,1,0,0,443,52],
 "structmeshlib_1_1GeneralOffsetParameters.html#aca86a7c8d2b37d6b10ecbe268e0c1c66":[9,5,0,0,0,456,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structmeshlib_1_1GraphVertBitSet.html#a02ae10b7c21dd0bfd91bba427b79f912":[9,5,1,0,0,450,24],
 "structmeshlib_1_1GraphVertBitSet.html#a035a7e93cc286debc0961857ec896e7e":[9,5,0,0,0,463,58],
 "structmeshlib_1_1GraphVertBitSet.html#a035a7e93cc286debc0961857ec896e7e":[9,5,1,0,0,450,58],
-"structmeshlib_1_1GraphVertBitSet.html#a0adfdff614af089f3cf2273ae90f0b7d":[9,5,0,0,0,463,52],
-"structmeshlib_1_1GraphVertBitSet.html#a0adfdff614af089f3cf2273ae90f0b7d":[9,5,1,0,0,450,52]
+"structmeshlib_1_1GraphVertBitSet.html#a0adfdff614af089f3cf2273ae90f0b7d":[9,5,0,0,0,463,52]
 };

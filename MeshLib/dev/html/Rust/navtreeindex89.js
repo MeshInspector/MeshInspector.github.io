@@ -1,5 +1,6 @@
 var NAVTREEINDEX89 =
 {
+"structmeshlib_1_1ObjectComparableWithReference.html#a905f090fce462a69564ccd34dd660123":[9,5,1,0,0,693,1],
 "structmeshlib_1_1ObjectComparableWithReference.html#a976305b6a5a2650b740f21fc171331f5":[9,5,0,0,0,706,4],
 "structmeshlib_1_1ObjectComparableWithReference.html#a976305b6a5a2650b740f21fc171331f5":[9,5,1,0,0,693,4],
 "structmeshlib_1_1ObjectComparableWithReference.html#ab3759c83d27803b0d23cc16f44207ee2":[9,5,0,0,0,706,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX89 =
 "structmeshlib_1_1ObjectDistanceMap.html#a6affd0814fa05a49f89d93f805130ad6":[9,5,1,0,0,697,8],
 "structmeshlib_1_1ObjectDistanceMap.html#a6d56c84d08ec62fcc7f80906abc4898a":[9,5,0,0,0,710,123],
 "structmeshlib_1_1ObjectDistanceMap.html#a6d56c84d08ec62fcc7f80906abc4898a":[9,5,1,0,0,697,123],
-"structmeshlib_1_1ObjectDistanceMap.html#a6d9c5e9c0fd75764f83e086e43e0bfcd":[9,5,0,0,0,710,193],
-"structmeshlib_1_1ObjectDistanceMap.html#a6d9c5e9c0fd75764f83e086e43e0bfcd":[9,5,1,0,0,697,193]
+"structmeshlib_1_1ObjectDistanceMap.html#a6d9c5e9c0fd75764f83e086e43e0bfcd":[9,5,0,0,0,710,193]
 };

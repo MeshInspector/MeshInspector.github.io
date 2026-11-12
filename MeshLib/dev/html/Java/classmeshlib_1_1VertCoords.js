@@ -34,7 +34,7 @@ var classmeshlib_1_1VertCoords =
     [ "reserve", "classmeshlib_1_1VertCoords.html#ad02e74d21c3afd9f47e723d7c1bc0800", null ],
     [ "resize", "classmeshlib_1_1VertCoords.html#a014cbacba5e402e9135c6b8e6011e2b2", null ],
     [ "resize", "classmeshlib_1_1VertCoords.html#a1e25387b075f7a1da0b274b4171c1ee2", null ],
-    [ "resizeNoInit", "classmeshlib_1_1VertCoords.html#a48f826bd4603191c9487f0784db5a9e8", null ],
+    [ "resizeNoInit", "classmeshlib_1_1VertCoords.html#aad807b4fbb5f7fd0a22b25418905a07b", null ],
     [ "resizeWithReserve", "classmeshlib_1_1VertCoords.html#a80eec7a8b0ebd93f9f5f00a1637a8150", null ],
     [ "resizeWithReserve", "classmeshlib_1_1VertCoords.html#ad382ce0eb7bdde7f980f2147d049f494", null ],
     [ "setVec", "classmeshlib_1_1VertCoords.html#af0da1c866d518762e847421b3463c513", null ],

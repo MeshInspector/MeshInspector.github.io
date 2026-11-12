@@ -21,7 +21,7 @@ var classMR_1_1UndirectedEdgeColors =
     [ "reserve", "classMR_1_1UndirectedEdgeColors.html#a1f2f33d8cd2e5442151e16a179cfd02f", null ],
     [ "resize", "classMR_1_1UndirectedEdgeColors.html#af36dca43837f32b9e16cb6b04abba3b4", null ],
     [ "resize", "classMR_1_1UndirectedEdgeColors.html#a4fc8642aa1b56fbf48f6c8329f9f0d25", null ],
-    [ "resizeNoInit", "classMR_1_1UndirectedEdgeColors.html#a871fd2789e965ab36a7eba3658cb853c", null ],
+    [ "resizeNoInit", "classMR_1_1UndirectedEdgeColors.html#a6402c75a4376c628254aa53c21c65e0c", null ],
     [ "resizeWithReserve", "classMR_1_1UndirectedEdgeColors.html#a181f49079c294007d1adef2996ed07de", null ],
     [ "resizeWithReserve", "classMR_1_1UndirectedEdgeColors.html#a5cad4ca40c5f39f4b64f66db2bea3075", null ],
     [ "shrinkToFit", "classMR_1_1UndirectedEdgeColors.html#a818c3a80bfd0cbbc75d2d297b639d290", null ],

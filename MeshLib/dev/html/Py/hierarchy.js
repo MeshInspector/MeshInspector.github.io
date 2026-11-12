@@ -4801,6 +4801,7 @@ var hierarchy =
       [ "mrmeshpy.RelaxApproxType", "classmrmeshpy_1_1RelaxApproxType.html", null ],
       [ "mrmeshpy.RememberShape", "classmrmeshpy_1_1RememberShape.html", null ],
       [ "mrmeshpy.Reorder", "classmrmeshpy_1_1Reorder.html", null ],
+      [ "mrmeshpy.ReserveMode", "classmrmeshpy_1_1ReserveMode.html", null ],
       [ "mrmeshpy.ScalarType", "classmrmeshpy_1_1ScalarType.html", null ],
       [ "mrmeshpy.SceneColors.Type", "classmrmeshpy_1_1SceneColors_1_1Type.html", null ],
       [ "mrmeshpy.SceneSettings.BoolType", "classmrmeshpy_1_1SceneSettings_1_1BoolType.html", null ],

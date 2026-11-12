@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"structmeshlib_1_1MeshEqualizeTriAreasParams.html#ad0769e580debabcf90ac019f33fcdcca":[9,5,1,0,0,588,4],
 "structmeshlib_1_1MeshEqualizeTriAreasParams.html#ae06b3804f1b1b37d87c7039f42ac0e8c":[9,5,0,0,0,601,25],
 "structmeshlib_1_1MeshEqualizeTriAreasParams.html#ae06b3804f1b1b37d87c7039f42ac0e8c":[9,5,1,0,0,588,25],
 "structmeshlib_1_1MeshEqualizeTriAreasParams.html#ae6aa954bc0f1c54c852e903e8c49d23f":[9,5,0,0,0,601,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "structmeshlib_1_1MeshOnVoxelsT__MR__Mesh__MR__FunctionVolume.html#aee7cd8aa838439c95569d48267ae2748":[9,5,1,0,0,600,8],
 "structmeshlib_1_1MeshOnVoxelsT__MR__Mesh__MR__SimpleVolumeMinMax.html":[9,5,0,0,0,614],
 "structmeshlib_1_1MeshOnVoxelsT__MR__Mesh__MR__SimpleVolumeMinMax.html":[9,5,1,0,0,601],
-"structmeshlib_1_1MeshOnVoxelsT__MR__Mesh__MR__SimpleVolumeMinMax.html#a0e27806bf07f0bff4860e1740d0d4aba":[9,5,0,0,0,614,12],
-"structmeshlib_1_1MeshOnVoxelsT__MR__Mesh__MR__SimpleVolumeMinMax.html#a0e27806bf07f0bff4860e1740d0d4aba":[9,5,1,0,0,601,12]
+"structmeshlib_1_1MeshOnVoxelsT__MR__Mesh__MR__SimpleVolumeMinMax.html#a0e27806bf07f0bff4860e1740d0d4aba":[9,5,0,0,0,614,12]
 };

@@ -1696,6 +1696,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.RemeshSettings", "classmrmeshpy_1_1RemeshSettings.html", "classmrmeshpy_1_1RemeshSettings" ],
     [ "mrmeshpy.RenderModelPassMask", "classmrmeshpy_1_1RenderModelPassMask.html", "classmrmeshpy_1_1RenderModelPassMask" ],
     [ "mrmeshpy.Reorder", "classmrmeshpy_1_1Reorder.html", "classmrmeshpy_1_1Reorder" ],
+    [ "mrmeshpy.ReserveMode", "classmrmeshpy_1_1ReserveMode.html", "classmrmeshpy_1_1ReserveMode" ],
     [ "mrmeshpy.ConstResolveMeshDegenSettings", "classmrmeshpy_1_1ConstResolveMeshDegenSettings.html", "classmrmeshpy_1_1ConstResolveMeshDegenSettings" ],
     [ "mrmeshpy.ResolveMeshDegenSettings", "classmrmeshpy_1_1ResolveMeshDegenSettings.html", "classmrmeshpy_1_1ResolveMeshDegenSettings" ],
     [ "mrmeshpy.ConstRigidScaleXf3d", "classmrmeshpy_1_1ConstRigidScaleXf3d.html", "classmrmeshpy_1_1ConstRigidScaleXf3d" ],

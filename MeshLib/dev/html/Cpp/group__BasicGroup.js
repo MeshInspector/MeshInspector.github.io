@@ -362,7 +362,7 @@ var group__BasicGroup =
       [ "reserve", "group__GeneralGroup.html#ga74f2d276465f6183ec4068d124cbb596", null ],
       [ "resize", "group__GeneralGroup.html#gacd99deedcb9bcc81fa5eb3ba36cf13d1", null ],
       [ "resize", "group__GeneralGroup.html#gadf40b3783f92dfcaf4a65c1a9686b386", null ],
-      [ "resizeNoInit", "group__GeneralGroup.html#ga77f581e48148a907daa10f7ba1b4dbe2", null ],
+      [ "resizeNoInit", "group__GeneralGroup.html#ga4d13da450de3934fc9b3d9fc75c5f097", null ],
       [ "resizeWithReserve", "group__GeneralGroup.html#ga3464de487f7675ec46a9dbde42f9350c", null ],
       [ "resizeWithReserve", "group__GeneralGroup.html#gaad801c686b116f50bcacd26b96b12774", null ],
       [ "shrink_to_fit", "group__GeneralGroup.html#ga2b66f63d92e131e8ee6df2470f185356", null ],

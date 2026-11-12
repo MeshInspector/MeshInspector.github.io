@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"classmeshlib_1_1DistanceMeasurementObject.html#ab85cd784c9c1f9b54df82b6dad9a5297":[9,6,1,0,0,288,36],
 "classmeshlib_1_1DistanceMeasurementObject.html#abc5e099cae1d39b2ac33dece5e4181b7":[9,6,0,0,0,288,123],
 "classmeshlib_1_1DistanceMeasurementObject.html#abc5e099cae1d39b2ac33dece5e4181b7":[9,6,1,0,0,288,123],
 "classmeshlib_1_1DistanceMeasurementObject.html#abd75c0cd7bada9a6815f37c701b5025d":[9,6,0,0,0,288,89],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "classmeshlib_1_1DividePolylineParameters.html#af0c5cc51f1f3340e8f94e07172e54a25":[9,6,1,0,0,294,4],
 "classmeshlib_1_1DividePolylineParameters.html#af9fe0db62ba06d9b4154f3015eda7ff5":[9,6,0,0,0,294,10],
 "classmeshlib_1_1DividePolylineParameters.html#af9fe0db62ba06d9b4154f3015eda7ff5":[9,6,1,0,0,294,10],
-"classmeshlib_1_1DoubleOffsetSettings.html":[9,6,0,0,0,296],
-"classmeshlib_1_1DoubleOffsetSettings.html":[9,6,1,0,0,296]
+"classmeshlib_1_1DoubleOffsetSettings.html":[9,6,0,0,0,296]
 };

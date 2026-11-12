@@ -2799,7 +2799,7 @@ var group__GeneralGroup =
       [ "reserve", "group__GeneralGroup.html#ga74f2d276465f6183ec4068d124cbb596", null ],
       [ "resize", "group__GeneralGroup.html#gacd99deedcb9bcc81fa5eb3ba36cf13d1", null ],
       [ "resize", "group__GeneralGroup.html#gadf40b3783f92dfcaf4a65c1a9686b386", null ],
-      [ "resizeNoInit", "group__GeneralGroup.html#ga77f581e48148a907daa10f7ba1b4dbe2", null ],
+      [ "resizeNoInit", "group__GeneralGroup.html#ga4d13da450de3934fc9b3d9fc75c5f097", null ],
       [ "resizeWithReserve", "group__GeneralGroup.html#ga3464de487f7675ec46a9dbde42f9350c", null ],
       [ "resizeWithReserve", "group__GeneralGroup.html#gaad801c686b116f50bcacd26b96b12774", null ],
       [ "shrink_to_fit", "group__GeneralGroup.html#ga2b66f63d92e131e8ee6df2470f185356", null ],
@@ -10398,6 +10398,10 @@ var group__GeneralGroup =
       [ "MR::FileLoadOptions::ReplaceMode::ForceReplace", "group__GeneralGroup.html#gga4febf8fb2b21426b895c77148a5ed6f4ac2dfc039a4d2a8f153df8c92aedbd450", null ],
       [ "MR::FileLoadOptions::ReplaceMode::ForceAdd", "group__GeneralGroup.html#gga4febf8fb2b21426b895c77148a5ed6f4ac721f662f0a128ee25ff11f554667a27", null ]
     ] ],
+    [ "MR::ReserveMode", "group__GeneralGroup.html#gaec1ceadfda242e618b3321a869222946", [
+      [ "MR::ReserveMode::Exact", "group__GeneralGroup.html#ggaec1ceadfda242e618b3321a869222946a1649aed298f99d587e2eb30c1db5946b", null ],
+      [ "MR::ReserveMode::Grow", "group__GeneralGroup.html#ggaec1ceadfda242e618b3321a869222946a8c9660e13feab2278a3b528bb4dd8f24", null ]
+    ] ],
     [ "MR::ColorTheme::RibbonColorsType", "group__GeneralGroup.html#gaeb576da7973c6ccabb036634b3d878b0", [
       [ "MR::ColorTheme::RibbonColorsType::Background", "group__GeneralGroup.html#ggaeb576da7973c6ccabb036634b3d878b0aa9ded1e5ce5d75814730bb4caaf49419", null ],
       [ "MR::ColorTheme::RibbonColorsType::BackgroundSecStyle", "group__GeneralGroup.html#ggaeb576da7973c6ccabb036634b3d878b0a5c6096c5bd502c82f62242293e9a0ecd", null ],
@@ -15536,8 +15540,8 @@ var group__GeneralGroup =
     [ "MR::resizeAttributesToMesh", "group__GeneralGroup.html#ga72798ab7c805da2fe840f2648569b52f", null ],
     [ "MR::MeshTopology::resizeBeforeParallelAdd", "group__GeneralGroup.html#ga365a012f4cca05d6ad5abd4570b993cd", null ],
     [ "MR::Palette::resizeCallback_", "group__GeneralGroup.html#ga1e4aa8e46a3709d8d7d4a228cde69c11", null ],
-    [ "MR::resizeNoInit", "group__GeneralGroup.html#ga982da1cdce0ab77e2dd92dd1057da73c", null ],
-    [ "MR::Vector::resizeNoInit", "group__GeneralGroup.html#ga77f581e48148a907daa10f7ba1b4dbe2", null ],
+    [ "MR::resizeNoInit", "group__GeneralGroup.html#ga161ef4160e6c7c38a714a322d18376b0", null ],
+    [ "MR::Vector::resizeNoInit", "group__GeneralGroup.html#ga4d13da450de3934fc9b3d9fc75c5f097", null ],
     [ "MR::MapOrHashMap::resizeReserve", "group__GeneralGroup.html#ga7a15020a8ce32845565aeffab264051d", null ],
     [ "MR::Vector::resizeWithReserve", "group__GeneralGroup.html#ga3464de487f7675ec46a9dbde42f9350c", null ],
     [ "MR::Vector::resizeWithReserve", "group__GeneralGroup.html#gaad801c686b116f50bcacd26b96b12774", null ],

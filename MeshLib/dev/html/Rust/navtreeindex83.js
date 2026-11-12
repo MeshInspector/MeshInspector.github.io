@@ -1,5 +1,6 @@
 var NAVTREEINDEX83 =
 {
+"structmeshlib_1_1MoveMeshToVoxelMaxDerivSettings.html#a8fc3f992285b2cc6df65ffbdae98592d":[9,5,1,0,0,634,5],
 "structmeshlib_1_1MoveMeshToVoxelMaxDerivSettings.html#a9035abba0ea4b20093a3af9b3921507f":[9,5,0,0,0,647,3],
 "structmeshlib_1_1MoveMeshToVoxelMaxDerivSettings.html#a9035abba0ea4b20093a3af9b3921507f":[9,5,1,0,0,634,3],
 "structmeshlib_1_1MoveMeshToVoxelMaxDerivSettings.html#a9261c48bce81ab574cff3e4f5382f7e9":[9,5,0,0,0,647,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX83 =
 "structmeshlib_1_1NewEdgesMap.html":[9,5,1,0,0,646],
 "structmeshlib_1_1NewEdgesMap.html#a27ec70d981dbdfb91e4b48c6baede4f2":[9,5,0,0,0,659,2],
 "structmeshlib_1_1NewEdgesMap.html#a27ec70d981dbdfb91e4b48c6baede4f2":[9,5,1,0,0,646,2],
-"structmeshlib_1_1NewEdgesMap.html#a4e988ce9e774399b5134e0f6c8229a48":[9,5,0,0,0,659,6],
-"structmeshlib_1_1NewEdgesMap.html#a4e988ce9e774399b5134e0f6c8229a48":[9,5,1,0,0,646,6]
+"structmeshlib_1_1NewEdgesMap.html#a4e988ce9e774399b5134e0f6c8229a48":[9,5,0,0,0,659,6]
 };

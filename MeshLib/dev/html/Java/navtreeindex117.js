@@ -1,5 +1,6 @@
 var NAVTREEINDEX117 =
 {
+"classmeshlib_1_1PolylineTraits__MR__Vector2f.html#a6351c3c88512011d85a15717b2c15d36":[9,6,1,0,0,838,3],
 "classmeshlib_1_1PolylineTraits__MR__Vector3f.html":[9,6,0,0,0,839],
 "classmeshlib_1_1PolylineTraits__MR__Vector3f.html":[9,6,1,0,0,839],
 "classmeshlib_1_1PolylineTraits__MR__Vector3f.html#a0b3d52a22ad86582707c1a0338d39f09":[9,6,0,0,0,839,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX117 =
 "classmeshlib_1_1Polynomial__float__3.html#abef2b13480e737fe74c961613d16bbdd":[9,6,1,0,0,851,5],
 "classmeshlib_1_1Polynomial__float__3.html#ad580ae4647651ff72c12fe01beb4188e":[9,6,0,0,0,851,1],
 "classmeshlib_1_1Polynomial__float__3.html#ad580ae4647651ff72c12fe01beb4188e":[9,6,1,0,0,851,1],
-"classmeshlib_1_1Polynomial__float__3.html#af76e9e3a3ee2b5ab9479361a47cfad83":[9,6,0,0,0,851,6],
-"classmeshlib_1_1Polynomial__float__3.html#af76e9e3a3ee2b5ab9479361a47cfad83":[9,6,1,0,0,851,6]
+"classmeshlib_1_1Polynomial__float__3.html#af76e9e3a3ee2b5ab9479361a47cfad83":[9,6,0,0,0,851,6]
 };

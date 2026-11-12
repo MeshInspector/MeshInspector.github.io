@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"structmeshlib_1_1DividePolylineParameters.html#aefdd89b88990bd004855b6d2458f8499":[9,5,1,0,0,278,12],
 "structmeshlib_1_1DoubleOffsetSettings.html":[9,5,0,0,0,292],
 "structmeshlib_1_1DoubleOffsetSettings.html":[9,5,1,0,0,279],
 "structmeshlib_1_1DoubleOffsetSettings.html#a167d8e89b7b25212bbf4621a4c89a9db":[9,5,0,0,0,292,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "structmeshlib_1_1EdgeBitSet.html#a89c53279e3653bc7ad59a51d676c14db":[9,5,1,0,0,281,36],
 "structmeshlib_1_1EdgeBitSet.html#a8d25feb3f7e3d7668648056aa137d1df":[9,5,0,0,0,294,22],
 "structmeshlib_1_1EdgeBitSet.html#a8d25feb3f7e3d7668648056aa137d1df":[9,5,1,0,0,281,22],
-"structmeshlib_1_1EdgeBitSet.html#a90476922e722779cf5a42f6778040f49":[9,5,0,0,0,294,50],
-"structmeshlib_1_1EdgeBitSet.html#a90476922e722779cf5a42f6778040f49":[9,5,1,0,0,281,50]
+"structmeshlib_1_1EdgeBitSet.html#a90476922e722779cf5a42f6778040f49":[9,5,0,0,0,294,50]
 };

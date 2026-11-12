@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"classmeshlib_1_1NoiseSettings.html#afc64f9b104c662a2c01cca5fbb5b62bc":[9,6,1,0,0,707,8],
 "classmeshlib_1_1NormalsToPoints.html":[9,6,0,0,0,708],
 "classmeshlib_1_1NormalsToPoints.html":[9,6,1,0,0,708],
 "classmeshlib_1_1NormalsToPoints.html#a107ce8c2f85a2ed278ebb282a75c18f0":[9,6,0,0,0,708,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "classmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Circle.html#a677908b88c44962fda5c7b6d6b7f7d82":[9,6,1,0,0,740,2],
 "classmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Circle.html#af9195228ee7bc67855914747c55f6f4b":[9,6,0,0,0,740,0],
 "classmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Circle.html#af9195228ee7bc67855914747c55f6f4b":[9,6,1,0,0,740,0],
-"classmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Cone.html":[9,6,0,0,0,741],
-"classmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Cone.html":[9,6,1,0,0,741]
+"classmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Cone.html":[9,6,0,0,0,741]
 };

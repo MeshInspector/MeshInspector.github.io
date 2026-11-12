@@ -29,7 +29,7 @@ var structmeshlib_1_1EdgeColors =
     [ "reserve", "structmeshlib_1_1EdgeColors.html#a04a5c9956141c0507e46eb2de8b15865", null ],
     [ "resize_1", "structmeshlib_1_1EdgeColors.html#aeb6dabd1aaf70513c9cb9d00d6c91a41", null ],
     [ "resize_2", "structmeshlib_1_1EdgeColors.html#a2b531f5684e6774c83ad2fe194f6ebec", null ],
-    [ "resize_no_init", "structmeshlib_1_1EdgeColors.html#a75be03bbee8eb61e7f4d54b83c31d1db", null ],
+    [ "resize_no_init", "structmeshlib_1_1EdgeColors.html#ad879f6bb74b9705826f9f214b39cf74b", null ],
     [ "resize_with_reserve_1", "structmeshlib_1_1EdgeColors.html#ac47424a8e9598e5eac4f2789d4321263", null ],
     [ "resize_with_reserve_2", "structmeshlib_1_1EdgeColors.html#af8495ac6bdcc879bfa4777288ba2a761", null ],
     [ "set_vec", "structmeshlib_1_1EdgeColors.html#a47e083bd59dc588e3cbc92c7e5375160", null ],

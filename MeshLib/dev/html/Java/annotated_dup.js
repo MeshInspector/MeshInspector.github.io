@@ -1127,6 +1127,7 @@ var annotated_dup =
       [ "RemeshSettings", "classmeshlib_1_1RemeshSettings.html", "classmeshlib_1_1RemeshSettings" ],
       [ "RenderModelPassMask", "classmeshlib_1_1RenderModelPassMask.html", "classmeshlib_1_1RenderModelPassMask" ],
       [ "Reorder", "classmeshlib_1_1Reorder.html", "classmeshlib_1_1Reorder" ],
+      [ "ReserveMode", "classmeshlib_1_1ReserveMode.html", "classmeshlib_1_1ReserveMode" ],
       [ "ResolveMeshDegenSettings", "classmeshlib_1_1ResolveMeshDegenSettings.html", "classmeshlib_1_1ResolveMeshDegenSettings" ],
       [ "RigidScaleXf3d", "classmeshlib_1_1RigidScaleXf3d.html", "classmeshlib_1_1RigidScaleXf3d" ],
       [ "RigidScaleXf3f", "classmeshlib_1_1RigidScaleXf3f.html", "classmeshlib_1_1RigidScaleXf3f" ],

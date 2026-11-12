@@ -34,7 +34,7 @@ var classmeshlib_1_1UndirectedEdgeColors =
     [ "reserve", "classmeshlib_1_1UndirectedEdgeColors.html#aa8897d044aa89edb8eb497d8963af578", null ],
     [ "resize", "classmeshlib_1_1UndirectedEdgeColors.html#a9a9cde5efabfb76eb4ffd4beed450c9a", null ],
     [ "resize", "classmeshlib_1_1UndirectedEdgeColors.html#a9cd51245dd8dc06dd3248e24682640b1", null ],
-    [ "resizeNoInit", "classmeshlib_1_1UndirectedEdgeColors.html#a289fd356303a4c555fea22cf8b457865", null ],
+    [ "resizeNoInit", "classmeshlib_1_1UndirectedEdgeColors.html#a42514d369b8b7d7aacbcc82346d59245", null ],
     [ "resizeWithReserve", "classmeshlib_1_1UndirectedEdgeColors.html#a59b1d224f8649e9cfd36c67ad7c871d7", null ],
     [ "resizeWithReserve", "classmeshlib_1_1UndirectedEdgeColors.html#a5dc0d4efb56e33a6ffe16942eb6bc002", null ],
     [ "setVec", "classmeshlib_1_1UndirectedEdgeColors.html#ad44f21f1e1c9bed0fa43e65ec9fb2538", null ],

@@ -160,7 +160,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6b855d57f30a67bffd52b6102c40d816" id="r_a6b855d57f30a67bffd52b6102c40d816"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b855d57f30a67bffd52b6102c40d816">max_size</a> () const -&gt; usize</td></tr>
 <tr class="memitem:a90913ecbd3c1c1bf62988bcfe1c3aa5b" id="r_a90913ecbd3c1c1bf62988bcfe1c3aa5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90913ecbd3c1c1bf62988bcfe1c3aa5b">resize_1</a> (newSize:usize)</td></tr>
 <tr class="memitem:a673c5122d9bf1762c80f4e6d03bb18ff" id="r_a673c5122d9bf1762c80f4e6d03bb18ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a673c5122d9bf1762c80f4e6d03bb18ff">resize_2</a> (newSize:usize, t:&amp;<a class="el" href="structmeshlib_1_1BoxedLeaf__MR__ObjTreeTraits.html">meshlib::BoxedLeaf_MR_ObjTreeTraits</a>)</td></tr>
-<tr class="memitem:acd0467a965fee27bce8760840944d9b9" id="r_acd0467a965fee27bce8760840944d9b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd0467a965fee27bce8760840944d9b9">resize_no_init</a> (targetSize:usize)</td></tr>
+<tr class="memitem:ae9edbbb378732ceffdd3ec1320bb7abe" id="r_ae9edbbb378732ceffdd3ec1320bb7abe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9edbbb378732ceffdd3ec1320bb7abe">resize_no_init</a> (targetSize:usize, mode:Option&lt; <a class="el" href="structmeshlib_1_1ReserveMode.html">meshlib::ReserveMode</a> &gt;)</td></tr>
 <tr class="memitem:a43767039fbb46e107aea3186a99ea414" id="r_a43767039fbb46e107aea3186a99ea414"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43767039fbb46e107aea3186a99ea414">capacity</a> () const -&gt; usize</td></tr>
 <tr class="memitem:a126df87f88e28d6f14cf9591fa2bdbb3" id="r_a126df87f88e28d6f14cf9591fa2bdbb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a126df87f88e28d6f14cf9591fa2bdbb3">reserve</a> (capacity:usize)</td></tr>
 <tr class="memitem:aed92f386bed444fd33e2c39fb6fc1500" id="r_aed92f386bed444fd33e2c39fb6fc1500"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed92f386bed444fd33e2c39fb6fc1500">shrink_to_fit</a> ()</td></tr>
@@ -850,8 +850,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acd0467a965fee27bce8760840944d9b9" name="acd0467a965fee27bce8760840944d9b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd0467a965fee27bce8760840944d9b9">&#9670;&#160;</a></span>resize_no_init()</h2>
+<a id="ae9edbbb378732ceffdd3ec1320bb7abe" name="ae9edbbb378732ceffdd3ec1320bb7abe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9edbbb378732ceffdd3ec1320bb7abe">&#9670;&#160;</a></span>resize_no_init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -859,8 +859,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void meshlib::Vector_MR_BoxedLeaf_MR_ObjTreeTraits::resize_no_init </td>
           <td>(</td>
-          <td class="paramtype">targetSize:usize</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">targetSize:usize</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">mode:Option&lt; <a class="el" href="structmeshlib_1_1ReserveMode.html">meshlib::ReserveMode</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

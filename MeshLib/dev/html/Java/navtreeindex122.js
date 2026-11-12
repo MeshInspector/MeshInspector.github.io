@@ -1,5 +1,6 @@
 var NAVTREEINDEX122 =
 {
+"classmeshlib_1_1ReduceTotalAngleParams.html#a143a5b4663352c99f767e54cd1756a92":[9,6,1,0,0,884,16],
 "classmeshlib_1_1ReduceTotalAngleParams.html#a1d2f40359ccf0203e5f3f655cc784afb":[9,6,0,0,0,884,6],
 "classmeshlib_1_1ReduceTotalAngleParams.html#a1d2f40359ccf0203e5f3f655cc784afb":[9,6,1,0,0,884,6],
 "classmeshlib_1_1ReduceTotalAngleParams.html#a540f4bbe498ddcdf6e54c67116ec43da":[9,6,0,0,0,884,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX122 =
 "classmeshlib_1_1RegularMapMesher.html#a212cba4b0bdaf1e1af65c28c6f0aabd4":[9,6,1,0,0,888,4],
 "classmeshlib_1_1RegularMapMesher.html#a7c40385f438213f39f277e5bb1f3de34":[9,6,0,0,0,888,7],
 "classmeshlib_1_1RegularMapMesher.html#a7c40385f438213f39f277e5bb1f3de34":[9,6,1,0,0,888,7],
-"classmeshlib_1_1RegularMapMesher.html#a7e379c96acd6e404bba00340a2fc1db4":[9,6,0,0,0,888,5],
-"classmeshlib_1_1RegularMapMesher.html#a7e379c96acd6e404bba00340a2fc1db4":[9,6,1,0,0,888,5]
+"classmeshlib_1_1RegularMapMesher.html#a7e379c96acd6e404bba00340a2fc1db4":[9,6,0,0,0,888,5]
 };

@@ -34,7 +34,7 @@ var classmeshlib_1_1TexturePerFace =
     [ "reserve", "classmeshlib_1_1TexturePerFace.html#a221fd3717306417a177f7f73c94527a8", null ],
     [ "resize", "classmeshlib_1_1TexturePerFace.html#a5612b0a36e8f1e45ad924d957831d9a0", null ],
     [ "resize", "classmeshlib_1_1TexturePerFace.html#a7aa712d9c51af4130e31b70e606e830d", null ],
-    [ "resizeNoInit", "classmeshlib_1_1TexturePerFace.html#a79527f734c4e72becf92be80e990f4c7", null ],
+    [ "resizeNoInit", "classmeshlib_1_1TexturePerFace.html#a422f781ecba95019a3eb5e2c66c0f090", null ],
     [ "resizeWithReserve", "classmeshlib_1_1TexturePerFace.html#a88b2d4a51a56e4df96abd7643f636514", null ],
     [ "resizeWithReserve", "classmeshlib_1_1TexturePerFace.html#ac5d97abf6441df87735707e5baa00201", null ],
     [ "setVec", "classmeshlib_1_1TexturePerFace.html#a1f6732852d82c292b9baa6ba46818703", null ],

@@ -1747,6 +1747,10 @@ var namespaceMR =
       [ "Lexicographically", "group__GeneralGroup.html#ggafedf1467ef6a61af5a59eafa50a41bf9a011f8c8ff21179c288b0492878ac5954", null ],
       [ "AABBTree", "group__GeneralGroup.html#ggafedf1467ef6a61af5a59eafa50a41bf9a220dce5b9731e80b3b1d4a59a9bbe8d8", null ]
     ] ],
+    [ "ReserveMode", "group__GeneralGroup.html#gaec1ceadfda242e618b3321a869222946", [
+      [ "Exact", "group__GeneralGroup.html#ggaec1ceadfda242e618b3321a869222946a1649aed298f99d587e2eb30c1db5946b", null ],
+      [ "Grow", "group__GeneralGroup.html#ggaec1ceadfda242e618b3321a869222946a8c9660e13feab2278a3b528bb4dd8f24", null ]
+    ] ],
     [ "RibbonItemType", "group__GeneralGroup.html#ga1478e43a90bad95d9ef709807606688a", [
       [ "Button", "group__GeneralGroup.html#gga1478e43a90bad95d9ef709807606688aa87b7760f14fbff78d8819291f36ab9a0", null ],
       [ "ButtonWithDrop", "group__GeneralGroup.html#gga1478e43a90bad95d9ef709807606688aa07135ce637b7ec7f4963b6d3ae3977f4", null ]
@@ -3494,7 +3498,7 @@ var namespaceMR =
     [ "reserveForCut", "group__BooleanGroup.html#ga45763dcfb85a706096c0ac879ae352cc", null ],
     [ "reserveKeyEvent", "group__GeneralGroup.html#gaf47bd4d66fa353bf995946804d75af4f", null ],
     [ "resizeAttributesToMesh", "group__GeneralGroup.html#ga72798ab7c805da2fe840f2648569b52f", null ],
-    [ "resizeNoInit", "group__GeneralGroup.html#ga982da1cdce0ab77e2dd92dd1057da73c", null ],
+    [ "resizeNoInit", "group__GeneralGroup.html#ga161ef4160e6c7c38a714a322d18376b0", null ],
     [ "resolveMeshDegenerations", "group__DecimateGroup.html#ga819efdab20db83df5180d339b4ed6196", null ],
     [ "reverse", "group__SurfacePathGroup.html#gae1c98eba979eff47ecbc85819055f406", null ],
     [ "reverse", "group__SurfacePathGroup.html#gac4206d9b8cd70351f464480a31eb6991", null ],

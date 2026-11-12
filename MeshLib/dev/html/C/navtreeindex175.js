@@ -1,5 +1,11 @@
 var NAVTREEINDEX175 =
 {
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a749aeff7273b4f1c979570681c52b4ee":[9,2,2,0,0,0,0,2,450,24],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a7bc9761ba3a322725c925b20e5537b60":[9,2,2,0,0,0,0,2,450,15],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a83a422399e8fcd0e99630f7a26da55be":[9,2,2,0,0,0,0,2,450,11],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a893cba94d9a3a069a61df572db54dc60":[9,2,2,0,0,0,0,2,450,5],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a8affdc7363c9cc84b548a34552b49779":[9,2,2,0,0,0,0,2,450,14],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a91d83ead0ce56e0b201e7c611eccb730":[9,2,2,0,0,0,0,2,450,23],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#ab10efc8850ee27aa9a771cce56a48db8":[9,2,2,0,0,0,0,2,450,13],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#ab6a76d5f141e3da9a3aadff0df0411d5":[9,2,2,0,0,0,0,2,450,17],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#abcb7553464eb754ba0683073d763cebb":[9,2,2,0,0,0,0,2,450,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX175 =
 "std__vector__MR__EdgePointPair_8h.html#aeb7d91278242b16e4ace5dabcec1e26a":[9,2,2,0,0,0,0,2,460,15],
 "std__vector__MR__EdgePointPair_8h.html#afe38f89539a0819982ab0a8b19dd0e52":[9,2,2,0,0,0,0,2,460,10],
 "std__vector__MR__EdgePointPair_8h_source.html":[9,2,2,0,0,0,0,2,460],
-"std__vector__MR__EdgePoint_8h.html":[9,2,2,0,0,0,0,2,459],
-"std__vector__MR__EdgePoint_8h.html#a0b8a85515435ba621bbf3cc72189c62a":[9,2,2,0,0,0,0,2,459,5],
-"std__vector__MR__EdgePoint_8h.html#a0c4810b460115f638c10b15aa8b20841":[9,2,2,0,0,0,0,2,459,4],
-"std__vector__MR__EdgePoint_8h.html#a1e7201f281f7836514be503ebfb46ab4":[9,2,2,0,0,0,0,2,459,19],
-"std__vector__MR__EdgePoint_8h.html#a203d2caa4b6da05ca86f5b4dd79b7678":[9,2,2,0,0,0,0,2,459,17],
-"std__vector__MR__EdgePoint_8h.html#a242dfef3f746616b8bf6b2f1f9de29cb":[9,2,2,0,0,0,0,2,459,3],
-"std__vector__MR__EdgePoint_8h.html#a2433f566226fa6ff51052e4466db966b":[9,2,2,0,0,0,0,2,459,18]
+"std__vector__MR__EdgePoint_8h.html":[9,2,2,0,0,0,0,2,459]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"classmeshlib_1_1MeshMeshDistanceResult.html#a930a5b8bb428f66dd664278e5ccf4dbf":[9,6,1,0,0,615,8],
 "classmeshlib_1_1MeshMeshDistanceResult.html#a9be5b7f8ce2da8eb0fb2536bb106e4f8":[9,6,0,0,0,615,9],
 "classmeshlib_1_1MeshMeshDistanceResult.html#a9be5b7f8ce2da8eb0fb2536bb106e4f8":[9,6,1,0,0,615,9],
 "classmeshlib_1_1MeshMeshDistanceResult.html#aa2807c74cc1313247db97ce1996c7a09":[9,6,0,0,0,615,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "classmeshlib_1_1MeshOnVoxelsT__const__MR__Mesh__MR__VdbVolume.html#a77c422e87f88be7f7cb4cd9d632c07f5":[9,6,1,0,0,620,5],
 "classmeshlib_1_1MeshOnVoxelsT__const__MR__Mesh__MR__VdbVolume.html#a8b0aa9f020ab603e99e2cfcb5ee9083b":[9,6,0,0,0,620,9],
 "classmeshlib_1_1MeshOnVoxelsT__const__MR__Mesh__MR__VdbVolume.html#a8b0aa9f020ab603e99e2cfcb5ee9083b":[9,6,1,0,0,620,9],
-"classmeshlib_1_1MeshOnVoxelsT__const__MR__Mesh__MR__VdbVolume.html#a917f68af9e28cb0d36bf86f25b3bdff6":[9,6,0,0,0,620,4],
-"classmeshlib_1_1MeshOnVoxelsT__const__MR__Mesh__MR__VdbVolume.html#a917f68af9e28cb0d36bf86f25b3bdff6":[9,6,1,0,0,620,4]
+"classmeshlib_1_1MeshOnVoxelsT__const__MR__Mesh__MR__VdbVolume.html#a917f68af9e28cb0d36bf86f25b3bdff6":[9,6,0,0,0,620,4]
 };

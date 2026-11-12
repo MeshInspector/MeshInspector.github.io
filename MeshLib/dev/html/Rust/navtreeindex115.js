@@ -1,10 +1,11 @@
 var NAVTREEINDEX115 =
 {
+"structmeshlib_1_1PolylineTraits__MR__Vector3f.html":[9,5,1,0,0,817],
 "structmeshlib_1_1PolylineTraits__MR__Vector3f.html#a82f3502e3ef23bd87a7516d88a57ad84":[9,5,0,0,0,830,0],
 "structmeshlib_1_1PolylineTraits__MR__Vector3f.html#a82f3502e3ef23bd87a7516d88a57ad84":[9,5,1,0,0,817,0],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html":[9,5,0,0,0,831],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html":[9,5,1,0,0,818],
-"structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a051565ec6f85b8b1b8b0796637b71559":[9,5,0,0,0,3239],
+"structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a051565ec6f85b8b1b8b0796637b71559":[9,5,0,0,0,3240],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a051565ec6f85b8b1b8b0796637b71559":[9,5,0,0,0,831,3],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a051565ec6f85b8b1b8b0796637b71559":[9,5,1,0,0,818,3],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a524104fe078d3d9c604e42cb75065808":[9,5,0,0,0,831,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX115 =
 "structmeshlib_1_1PositionedText.html#a92bee076e9a4236f0bd13f4606883d2a":[9,5,0,0,0,848,3],
 "structmeshlib_1_1PositionedText.html#a92bee076e9a4236f0bd13f4606883d2a":[9,5,1,0,0,835,3],
 "structmeshlib_1_1PositionedText.html#aacd48ff8bdac0cc1d2cd3d2afa896fdd":[9,5,0,0,0,848,6],
-"structmeshlib_1_1PositionedText.html#aacd48ff8bdac0cc1d2cd3d2afa896fdd":[9,5,1,0,0,835,6],
-"structmeshlib_1_1PositionedText.html#ae9b4ebc5db792c7d6612bfa9465dab15":[9,5,0,0,0,848,5]
+"structmeshlib_1_1PositionedText.html#aacd48ff8bdac0cc1d2cd3d2afa896fdd":[9,5,1,0,0,835,6]
 };

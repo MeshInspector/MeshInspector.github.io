@@ -28,7 +28,7 @@ var classmrmeshpy_1_1Vector__Box3f =
     [ "reserve", "classmrmeshpy_1_1Vector__Box3f.html#a247d4bd34ed1afc4300dcf9a2c612a84", null ],
     [ "resize", "classmrmeshpy_1_1Vector__Box3f.html#a0114c4de2159823a9c0687f2303e1408", null ],
     [ "resize", "classmrmeshpy_1_1Vector__Box3f.html#aeb8f92b364da060375109eff39ab4e76", null ],
-    [ "resizeNoInit", "classmrmeshpy_1_1Vector__Box3f.html#a88b2b00be1ec72dc0ee8e5ab02a839f1", null ],
+    [ "resizeNoInit", "classmrmeshpy_1_1Vector__Box3f.html#aede902297d2d7be98d5fef09b26d8689", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__Box3f.html#a8c42c410926707da9e1bd8057d87d376", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__Box3f.html#a7cc731796d80f3ed533eb554536380a0", null ],
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__Box3f.html#a9e02576797d1ad3af8a30e16af595aeb", null ],

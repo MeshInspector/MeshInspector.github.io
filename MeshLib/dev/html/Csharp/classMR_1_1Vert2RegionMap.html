@@ -175,8 +175,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1288b7be1babd2104fac6f98de31e20a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a1288b7be1babd2104fac6f98de31e20a" title="Generated from method MR.Vert2RegionMap.resize.">MR.Vert2RegionMap.resize</a></span>.  <br /></td></tr>
 <tr class="memitem:aa10eed6e5cc9ceb6b0bb5ba99c476160" id="r_aa10eed6e5cc9ceb6b0bb5ba99c476160"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa10eed6e5cc9ceb6b0bb5ba99c476160">resize</a> (nuint newSize, in <a class="el" href="structMR_1_1RegionId.html">MR.RegionId</a> t)</td></tr>
 <tr class="memdesc:aa10eed6e5cc9ceb6b0bb5ba99c476160"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a1288b7be1babd2104fac6f98de31e20a" title="Generated from method MR.Vert2RegionMap.resize.">MR.Vert2RegionMap.resize</a></span>.  <br /></td></tr>
-<tr class="memitem:a1f8385cc4db56147aedab19f4e993eba" id="r_a1f8385cc4db56147aedab19f4e993eba"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f8385cc4db56147aedab19f4e993eba">resizeNoInit</a> (nuint targetSize)</td></tr>
-<tr class="memdesc:a1f8385cc4db56147aedab19f4e993eba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a1f8385cc4db56147aedab19f4e993eba" title="Generated from method MR.Vert2RegionMap.resizeNoInit.">MR.Vert2RegionMap.resizeNoInit</a></span>.  <br /></td></tr>
+<tr class="memitem:a1f4a990c0e96b060b8e8a78ad933d07c" id="r_a1f4a990c0e96b060b8e8a78ad933d07c"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f4a990c0e96b060b8e8a78ad933d07c">resizeNoInit</a> (nuint targetSize, <a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706">MR.ReserveMode</a>? mode=null)</td></tr>
+<tr class="memdesc:a1f4a990c0e96b060b8e8a78ad933d07c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a1f4a990c0e96b060b8e8a78ad933d07c" title="Generated from method MR.Vert2RegionMap.resizeNoInit. Parameter mode defaults to MR....">MR.Vert2RegionMap.resizeNoInit</a></span>. Parameter <span class="tt">mode</span> defaults to <span class="tt"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706a1649aed298f99d587e2eb30c1db5946b" title="exactly the target size: for a vector resized once">MR.ReserveMode.Exact</a></span>.  <br /></td></tr>
 <tr class="memitem:a04b000b881bd1bfb875bad605936e8ae" id="r_a04b000b881bd1bfb875bad605936e8ae"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04b000b881bd1bfb875bad605936e8ae">reserve</a> (nuint <a class="el" href="classMR_1_1Const__Vert2RegionMap.html#a65232bff9c3f9a2145b0a92ba073d90c">capacity</a>)</td></tr>
 <tr class="memdesc:a04b000b881bd1bfb875bad605936e8ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a04b000b881bd1bfb875bad605936e8ae" title="Generated from method MR.Vert2RegionMap.reserve.">MR.Vert2RegionMap.reserve</a></span>.  <br /></td></tr>
 <tr class="memitem:a4b89ebc706d018b5299a29c00939862a" id="r_a4b89ebc706d018b5299a29c00939862a"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b89ebc706d018b5299a29c00939862a">shrinkToFit</a> ()</td></tr>
@@ -865,8 +865,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a1f8385cc4db56147aedab19f4e993eba" name="a1f8385cc4db56147aedab19f4e993eba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f8385cc4db56147aedab19f4e993eba">&#9670;&#160;</a></span>resizeNoInit()</h2>
+<a id="a1f4a990c0e96b060b8e8a78ad933d07c" name="a1f4a990c0e96b060b8e8a78ad933d07c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f4a990c0e96b060b8e8a78ad933d07c">&#9670;&#160;</a></span>resizeNoInit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -877,8 +877,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.Vert2RegionMap.resizeNoInit </td>
           <td>(</td>
-          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span></td><td>)</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706">MR.ReserveMode</a>?</td>          <td class="paramname"><span class="paramname"><em>mode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -888,7 +892,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from method <span class="tt"><a class="el" href="#a1f8385cc4db56147aedab19f4e993eba" title="Generated from method MR.Vert2RegionMap.resizeNoInit.">MR.Vert2RegionMap.resizeNoInit</a></span>. </p>
+<p>Generated from method <span class="tt"><a class="el" href="#a1f4a990c0e96b060b8e8a78ad933d07c" title="Generated from method MR.Vert2RegionMap.resizeNoInit. Parameter mode defaults to MR....">MR.Vert2RegionMap.resizeNoInit</a></span>. Parameter <span class="tt">mode</span> defaults to <span class="tt"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706a1649aed298f99d587e2eb30c1db5946b" title="exactly the target size: for a vector resized once">MR.ReserveMode.Exact</a></span>. </p>
 
 </div>
 </div>

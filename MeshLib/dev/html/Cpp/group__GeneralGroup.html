@@ -2447,6 +2447,10 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="memdesc:ga712ee084e6055ce8fadbbe8cf8b3f6ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Various passes of the 3D rendering.  <a href="#ga712ee084e6055ce8fadbbe8cf8b3f6ce">More...</a><br /></td></tr>
+<tr class="memitem:gaec1ceadfda242e618b3321a869222946" id="r_gaec1ceadfda242e618b3321a869222946"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaec1ceadfda242e618b3321a869222946">MR::ReserveMode</a> { <a class="el" href="#ggaec1ceadfda242e618b3321a869222946a1649aed298f99d587e2eb30c1db5946b">MR::ReserveMode::Exact</a>
+, <a class="el" href="#ggaec1ceadfda242e618b3321a869222946a8c9660e13feab2278a3b528bb4dd8f24">MR::ReserveMode::Grow</a>
+ }</td></tr>
+<tr class="memdesc:gaec1ceadfda242e618b3321a869222946"><td class="mdescLeft">&#160;</td><td class="mdescRight">how resizeNoInit reserves the memory when the capacity is short  <a href="#gaec1ceadfda242e618b3321a869222946">More...</a><br /></td></tr>
 <tr class="memitem:ga5d528348b4d27cfa92a1b565755099c8" id="r_ga5d528348b4d27cfa92a1b565755099c8"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5d528348b4d27cfa92a1b565755099c8">MR::ScalarType</a> { <br />
 &#160;&#160;<a class="el" href="#gga5d528348b4d27cfa92a1b565755099c8ab31df9c476d20e85ff898121efe11b5a">MR::ScalarType::UInt8</a>
 , <a class="el" href="#gga5d528348b4d27cfa92a1b565755099c8a7d839b2c12bfd40ac121b4cc9e81c539">MR::ScalarType::Int8</a>
@@ -7769,8 +7773,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga65df6f08609eca59bd1831503bf815c5" id="r_ga65df6f08609eca59bd1831503bf815c5"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga65df6f08609eca59bd1831503bf815c5">MR::TransparencyMode::getBGDepthPeelingDepthTextureId</a> () const</td></tr>
 <tr class="memitem:gace104b53c144673ddef1e4151a3a1cf0" id="r_gace104b53c144673ddef1e4151a3a1cf0"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gace104b53c144673ddef1e4151a3a1cf0">MR::TransparencyMode::getFGDepthPeelingColorTextureId</a> () const</td></tr>
 <tr class="memitem:ga4e77adaf3e1aa2e86d6f1158bf0841d6" id="r_ga4e77adaf3e1aa2e86d6f1158bf0841d6"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4e77adaf3e1aa2e86d6f1158bf0841d6">MR::TransparencyMode::getFGDepthPeelingDepthTextureId</a> () const</td></tr>
-<tr class="memitem:ga982da1cdce0ab77e2dd92dd1057da73c" id="r_ga982da1cdce0ab77e2dd92dd1057da73c"><td class="memTemplParams" colspan="2">template&lt;typename T, typename A&gt; </td></tr>
-<tr class="memitem:ga982da1cdce0ab77e2dd92dd1057da73c template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga982da1cdce0ab77e2dd92dd1057da73c">MR::resizeNoInit</a> (std::vector&lt; T, A &gt; &amp;vec, size_t targetSize)</td></tr>
+<tr class="memitem:ga161ef4160e6c7c38a714a322d18376b0" id="r_ga161ef4160e6c7c38a714a322d18376b0"><td class="memTemplParams" colspan="2">template&lt;typename T, typename A&gt; </td></tr>
+<tr class="memitem:ga161ef4160e6c7c38a714a322d18376b0 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga161ef4160e6c7c38a714a322d18376b0">MR::resizeNoInit</a> (std::vector&lt; T, A &gt; &amp;vec, size_t targetSize, <a class="el" href="#gaec1ceadfda242e618b3321a869222946">ReserveMode</a> mode=<a class="el" href="#ggaec1ceadfda242e618b3321a869222946a1649aed298f99d587e2eb30c1db5946b">ReserveMode::Exact</a>)</td></tr>
 <tr class="memitem:ga7a23e297ae39af803b4a249aed7ff8b5" id="r_ga7a23e297ae39af803b4a249aed7ff8b5"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7a23e297ae39af803b4a249aed7ff8b5">MR::RigidScaleXf3&lt; T &gt;::RigidScaleXf3</a> () noexcept=default</td></tr>
 <tr class="memitem:ga997f09f418f6e779a0a511288d316a06" id="r_ga997f09f418f6e779a0a511288d316a06"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga997f09f418f6e779a0a511288d316a06">MR::RigidScaleXf3&lt; T &gt;::RigidScaleXf3</a> (const <a class="el" href="#ga6c4d0f89f0f64deb44bea0f257bbf755">V</a> &amp;<a class="el" href="#gac7250fbdfd02baf9936e263ed527779e">a</a>, const <a class="el" href="#ga6c4d0f89f0f64deb44bea0f257bbf755">V</a> &amp;<a class="el" href="#gaab41cf4d5be1d1a224a24a5b484e3a1d">b</a>, T <a class="el" href="#ga89ce25c6f6b3805955c04f054a2fb0a7">s</a>) noexcept</td></tr>
 <tr class="memitem:gacd29039623f95b68b2c1cdce22cdba76" id="r_gacd29039623f95b68b2c1cdce22cdba76"><td class="memTemplParams" colspan="2">template&lt;typename U&gt; </td></tr>
@@ -8435,8 +8439,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gae3158ed964751c2b65e7a8530072595f" id="r_gae3158ed964751c2b65e7a8530072595f"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae3158ed964751c2b65e7a8530072595f">MR::Vector&lt; T, I &gt;::max_size</a> () const</td></tr>
 <tr class="memitem:gacd99deedcb9bcc81fa5eb3ba36cf13d1" id="r_gacd99deedcb9bcc81fa5eb3ba36cf13d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacd99deedcb9bcc81fa5eb3ba36cf13d1">MR::Vector&lt; T, I &gt;::resize</a> (size_t newSize)</td></tr>
 <tr class="memitem:gadf40b3783f92dfcaf4a65c1a9686b386" id="r_gadf40b3783f92dfcaf4a65c1a9686b386"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadf40b3783f92dfcaf4a65c1a9686b386">MR::Vector&lt; T, I &gt;::resize</a> (size_t newSize, const T &amp;t)</td></tr>
-<tr class="memitem:ga77f581e48148a907daa10f7ba1b4dbe2" id="r_ga77f581e48148a907daa10f7ba1b4dbe2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga77f581e48148a907daa10f7ba1b4dbe2">MR::Vector&lt; T, I &gt;::resizeNoInit</a> (size_t targetSize)</td></tr>
-<tr class="memdesc:ga77f581e48148a907daa10f7ba1b4dbe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">resizes the vector skipping initialization of its elements (more precisely initializing them using ( noInit ) constructor )  <br /></td></tr>
+<tr class="memitem:ga4d13da450de3934fc9b3d9fc75c5f097" id="r_ga4d13da450de3934fc9b3d9fc75c5f097"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4d13da450de3934fc9b3d9fc75c5f097">MR::Vector&lt; T, I &gt;::resizeNoInit</a> (size_t targetSize, <a class="el" href="#gaec1ceadfda242e618b3321a869222946">ReserveMode</a> mode=<a class="el" href="#ggaec1ceadfda242e618b3321a869222946a1649aed298f99d587e2eb30c1db5946b">ReserveMode::Exact</a>)</td></tr>
+<tr class="memdesc:ga4d13da450de3934fc9b3d9fc75c5f097"><td class="mdescLeft">&#160;</td><td class="mdescRight">resizes the vector skipping initialization of its elements (more precisely initializing them using ( noInit ) constructor )  <br /></td></tr>
 <tr class="memitem:ga291f08448069b69e4286d064907e6fdd" id="r_ga291f08448069b69e4286d064907e6fdd"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga291f08448069b69e4286d064907e6fdd">MR::Vector&lt; T, I &gt;::capacity</a> () const</td></tr>
 <tr class="memitem:ga74f2d276465f6183ec4068d124cbb596" id="r_ga74f2d276465f6183ec4068d124cbb596"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga74f2d276465f6183ec4068d124cbb596">MR::Vector&lt; T, I &gt;::reserve</a> (size_t <a class="el" href="#ga291f08448069b69e4286d064907e6fdd">capacity</a>)</td></tr>
 <tr class="memitem:ga2b66f63d92e131e8ee6df2470f185356" id="r_ga2b66f63d92e131e8ee6df2470f185356"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2b66f63d92e131e8ee6df2470f185356">MR::Vector&lt; T, I &gt;::shrink_to_fit</a> ()</td></tr>
@@ -27472,6 +27476,38 @@ template&lt;typename Tag&gt; </div>
 </td></tr>
 <tr><td class="fieldname"><a id="gga4febf8fb2b21426b895c77148a5ed6f4ac2dfc039a4d2a8f153df8c92aedbd450" name="gga4febf8fb2b21426b895c77148a5ed6f4ac2dfc039a4d2a8f153df8c92aedbd450"></a>ForceReplace&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga4febf8fb2b21426b895c77148a5ed6f4ac721f662f0a128ee25ff11f554667a27" name="gga4febf8fb2b21426b895c77148a5ed6f4ac721f662f0a128ee25ff11f554667a27"></a>ForceAdd&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="gaec1ceadfda242e618b3321a869222946" name="gaec1ceadfda242e618b3321a869222946"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaec1ceadfda242e618b3321a869222946">&#9670;&#160;</a></span>ReserveMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#gaec1ceadfda242e618b3321a869222946">MR::ReserveMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRResizeNoInit_8h.html">MRMesh/MRResizeNoInit.h</a>&gt;</code></p>
+
+<p>how resizeNoInit reserves the memory when the capacity is short </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaec1ceadfda242e618b3321a869222946a1649aed298f99d587e2eb30c1db5946b" name="ggaec1ceadfda242e618b3321a869222946a1649aed298f99d587e2eb30c1db5946b"></a>Exact&#160;</td><td class="fielddoc"><p>exactly the target size: for a vector resized once </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggaec1ceadfda242e618b3321a869222946a8c9660e13feab2278a3b528bb4dd8f24" name="ggaec1ceadfda242e618b3321a869222946a8c9660e13feab2278a3b528bb4dd8f24"></a>Grow&#160;</td><td class="fielddoc"><p>at least twice the capacity, as push_back does, so repeated small growths copy the elements only O(log) times </p>
+</td></tr>
 </table>
 
 </div>
@@ -163561,8 +163597,8 @@ template&lt;typename T, typename I&gt; </div>
 
 </div>
 </div>
-<a id="ga982da1cdce0ab77e2dd92dd1057da73c" name="ga982da1cdce0ab77e2dd92dd1057da73c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga982da1cdce0ab77e2dd92dd1057da73c">&#9670;&#160;</a></span>resizeNoInit() <span class="overload">[1/2]</span></h2>
+<a id="ga161ef4160e6c7c38a714a322d18376b0" name="ga161ef4160e6c7c38a714a322d18376b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga161ef4160e6c7c38a714a322d18376b0">&#9670;&#160;</a></span>resizeNoInit() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163577,7 +163613,12 @@ template&lt;typename T, typename A&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>&#160;)</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#gaec1ceadfda242e618b3321a869222946">ReserveMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#ggaec1ceadfda242e618b3321a869222946a1649aed298f99d587e2eb30c1db5946b">ReserveMode::Exact</a></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -163590,8 +163631,8 @@ template&lt;typename T, typename A&gt; </div>
 
 </div>
 </div>
-<a id="ga77f581e48148a907daa10f7ba1b4dbe2" name="ga77f581e48148a907daa10f7ba1b4dbe2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga77f581e48148a907daa10f7ba1b4dbe2">&#9670;&#160;</a></span>resizeNoInit() <span class="overload">[2/2]</span></h2>
+<a id="ga4d13da450de3934fc9b3d9fc75c5f097" name="ga4d13da450de3934fc9b3d9fc75c5f097"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4d13da450de3934fc9b3d9fc75c5f097">&#9670;&#160;</a></span>resizeNoInit() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163604,8 +163645,12 @@ template&lt;typename T, typename I&gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, I &gt;::resizeNoInit </td>
           <td>(</td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span></td><td>)</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="#gaec1ceadfda242e618b3321a869222946">ReserveMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#ggaec1ceadfda242e618b3321a869222946a1649aed298f99d587e2eb30c1db5946b">ReserveMode::Exact</a></span>&#160;)</td>
         </tr>
       </table>
   </td>

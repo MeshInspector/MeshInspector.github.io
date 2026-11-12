@@ -34,7 +34,7 @@ var classmeshlib_1_1FaceColors =
     [ "reserve", "classmeshlib_1_1FaceColors.html#af75a65343ee38d10070627b0a767e3f4", null ],
     [ "resize", "classmeshlib_1_1FaceColors.html#aa5df3dcb50c14dc8d618e66aeca29c80", null ],
     [ "resize", "classmeshlib_1_1FaceColors.html#a942eb9ffe36ec78f18f8f2311b161771", null ],
-    [ "resizeNoInit", "classmeshlib_1_1FaceColors.html#a13d324b0d7d802c060e8789d1671d42f", null ],
+    [ "resizeNoInit", "classmeshlib_1_1FaceColors.html#abedaa79a432f16fe93366773c9c31fc9", null ],
     [ "resizeWithReserve", "classmeshlib_1_1FaceColors.html#afe1833c25be9aa3d458a38a3713531e3", null ],
     [ "resizeWithReserve", "classmeshlib_1_1FaceColors.html#abc6c236bfbdec3f6970935ce40e1078f", null ],
     [ "setVec", "classmeshlib_1_1FaceColors.html#a7180f2f422e24f38e77dce0cbea256e6", null ],

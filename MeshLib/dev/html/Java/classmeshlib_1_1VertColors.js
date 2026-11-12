@@ -34,7 +34,7 @@ var classmeshlib_1_1VertColors =
     [ "reserve", "classmeshlib_1_1VertColors.html#a5d634b4f789dc63bdeee4eb90651173a", null ],
     [ "resize", "classmeshlib_1_1VertColors.html#acac7dfd649de81cb27ea5e83e8ee15d1", null ],
     [ "resize", "classmeshlib_1_1VertColors.html#a0adc61e109d910cabb8d36116c4451f9", null ],
-    [ "resizeNoInit", "classmeshlib_1_1VertColors.html#a12e3065665b48dfeacea8b58cbd10cd8", null ],
+    [ "resizeNoInit", "classmeshlib_1_1VertColors.html#abd019b40bc963c21042a864753d2ef34", null ],
     [ "resizeWithReserve", "classmeshlib_1_1VertColors.html#ad88bb9e8a05ef700c4d40ede3beeb3a6", null ],
     [ "resizeWithReserve", "classmeshlib_1_1VertColors.html#a59485a0ddcea0f025f18fde17fa094ed", null ],
     [ "setVec", "classmeshlib_1_1VertColors.html#af32c88819b6d429f3bfe22d2a165d47f", null ],

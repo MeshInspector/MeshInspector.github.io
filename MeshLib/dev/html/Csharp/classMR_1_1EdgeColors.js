@@ -21,7 +21,7 @@ var classMR_1_1EdgeColors =
     [ "reserve", "classMR_1_1EdgeColors.html#ac9fb317f392ce5f7264ce43b78a32cae", null ],
     [ "resize", "classMR_1_1EdgeColors.html#aedc8ac34e2bd732dd21e84ebb04c10a9", null ],
     [ "resize", "classMR_1_1EdgeColors.html#a228c602555964a514698ce41ee1c10bb", null ],
-    [ "resizeNoInit", "classMR_1_1EdgeColors.html#abf2a80a0c7eb6d77a39d6029e76c3246", null ],
+    [ "resizeNoInit", "classMR_1_1EdgeColors.html#a7f644b77f91f8a9b3d666397f8b242bf", null ],
     [ "resizeWithReserve", "classMR_1_1EdgeColors.html#a78dbe0a122ae6ac00a7bf237383f9f79", null ],
     [ "resizeWithReserve", "classMR_1_1EdgeColors.html#ac210c64b19e5698b01d280486ccc510a", null ],
     [ "shrinkToFit", "classMR_1_1EdgeColors.html#ae087abfa4decdb54cf487136fbf3d30f", null ],

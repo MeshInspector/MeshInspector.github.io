@@ -1949,6 +1949,7 @@ var hierarchy =
     [ "meshlib.RememberShape", "classmeshlib_1_1RememberShape.html", null ],
     [ "meshlib.RenderModelPassMask", "classmeshlib_1_1RenderModelPassMask.html", null ],
     [ "meshlib.Reorder", "classmeshlib_1_1Reorder.html", null ],
+    [ "meshlib.ReserveMode", "classmeshlib_1_1ReserveMode.html", null ],
     [ "java.lang.RuntimeException", null, [
       [ "meshlib.CppException", "classmeshlib_1_1CppException.html", null ],
       [ "meshlib.UnexpectedResultException", "classmeshlib_1_1UnexpectedResultException.html", null ]

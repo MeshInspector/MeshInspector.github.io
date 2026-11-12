@@ -28,7 +28,7 @@ var classmrmeshpy_1_1Vector__BoxedLeaf__ObjTreeTraits =
     [ "reserve", "classmrmeshpy_1_1Vector__BoxedLeaf__ObjTreeTraits.html#a69b1e7bce418bc93faaf9f4b00310a91", null ],
     [ "resize", "classmrmeshpy_1_1Vector__BoxedLeaf__ObjTreeTraits.html#a2a1d06b897cbc9bd5739234b218e7574", null ],
     [ "resize", "classmrmeshpy_1_1Vector__BoxedLeaf__ObjTreeTraits.html#a32c41f00dc2aeb4f82da45e8d6796ad4", null ],
-    [ "resizeNoInit", "classmrmeshpy_1_1Vector__BoxedLeaf__ObjTreeTraits.html#a60f772803765d4cbe8abe46536a43871", null ],
+    [ "resizeNoInit", "classmrmeshpy_1_1Vector__BoxedLeaf__ObjTreeTraits.html#aef878efc0351cb6664bd2a20d30b8b5a", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__BoxedLeaf__ObjTreeTraits.html#ad49cfa7d1d2c3c50de359a02dfb33f0b", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__BoxedLeaf__ObjTreeTraits.html#a30102e0c3626c540bdbafb92d1b8f2c7", null ],
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__BoxedLeaf__ObjTreeTraits.html#acd74048afa9b9ba5e4195242021c00c8", null ],

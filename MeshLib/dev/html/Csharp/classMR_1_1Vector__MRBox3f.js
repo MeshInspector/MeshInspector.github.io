@@ -21,7 +21,7 @@ var classMR_1_1Vector__MRBox3f =
     [ "reserve", "classMR_1_1Vector__MRBox3f.html#a6ce349c65d91d3c161ab175606fc1f7d", null ],
     [ "resize", "classMR_1_1Vector__MRBox3f.html#a203e3f43615b4488356080a4bf374a4e", null ],
     [ "resize", "classMR_1_1Vector__MRBox3f.html#a317ee02c3ecfd919a74a6dcf22acf8d0", null ],
-    [ "resizeNoInit", "classMR_1_1Vector__MRBox3f.html#afe37baa89b49be059ad14069c4c96f82", null ],
+    [ "resizeNoInit", "classMR_1_1Vector__MRBox3f.html#ad617649c169465fde75e2c9a3e438014", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRBox3f.html#ac824a57548f86cf57f7ce0e2041a498b", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRBox3f.html#ae58855c7e295da46bdd7ecc8bf4f96c2", null ],
     [ "shrinkToFit", "classMR_1_1Vector__MRBox3f.html#a36be687b9a636fa37349b5e5cece6595", null ],

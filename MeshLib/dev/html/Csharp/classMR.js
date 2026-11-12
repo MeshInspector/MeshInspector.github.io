@@ -2350,6 +2350,10 @@ var classMR =
       [ "Lexicographically", "classMR.html#a03d4edadbdc62c017d82e673d2a01d6ba011f8c8ff21179c288b0492878ac5954", null ],
       [ "AABBTree", "classMR.html#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8", null ]
     ] ],
+    [ "ReserveMode", "classMR.html#a0c944d981410e88c76f9aa0f222c0706", [
+      [ "Exact", "classMR.html#a0c944d981410e88c76f9aa0f222c0706a1649aed298f99d587e2eb30c1db5946b", null ],
+      [ "Grow", "classMR.html#a0c944d981410e88c76f9aa0f222c0706a8c9660e13feab2278a3b528bb4dd8f24", null ]
+    ] ],
     [ "ScalarType", "classMR.html#a84b05c595bca2e76755d6b627c5b940e", [
       [ "UInt8", "classMR.html#a84b05c595bca2e76755d6b627c5b940eab31df9c476d20e85ff898121efe11b5a", null ],
       [ "Int8", "classMR.html#a84b05c595bca2e76755d6b627c5b940ea7d839b2c12bfd40ac121b4cc9e81c539", null ],

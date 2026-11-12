@@ -175,8 +175,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa221523ba8d9e5ef29f6788f4101fc09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aa221523ba8d9e5ef29f6788f4101fc09" title="Generated from method MR.TexturePerFace.resize.">MR.TexturePerFace.resize</a></span>.  <br /></td></tr>
 <tr class="memitem:a43f0afd286ae567560acb3d2d0679197" id="r_a43f0afd286ae567560acb3d2d0679197"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43f0afd286ae567560acb3d2d0679197">resize</a> (nuint newSize, in <a class="el" href="structMR_1_1TextureId.html">MR.TextureId</a> t)</td></tr>
 <tr class="memdesc:a43f0afd286ae567560acb3d2d0679197"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aa221523ba8d9e5ef29f6788f4101fc09" title="Generated from method MR.TexturePerFace.resize.">MR.TexturePerFace.resize</a></span>.  <br /></td></tr>
-<tr class="memitem:a9b0795cfcaa1a05b9055a7fd05d2cbd4" id="r_a9b0795cfcaa1a05b9055a7fd05d2cbd4"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b0795cfcaa1a05b9055a7fd05d2cbd4">resizeNoInit</a> (nuint targetSize)</td></tr>
-<tr class="memdesc:a9b0795cfcaa1a05b9055a7fd05d2cbd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a9b0795cfcaa1a05b9055a7fd05d2cbd4" title="Generated from method MR.TexturePerFace.resizeNoInit.">MR.TexturePerFace.resizeNoInit</a></span>.  <br /></td></tr>
+<tr class="memitem:ab2b2f415bb2b21ee803e4a9eb58a0a90" id="r_ab2b2f415bb2b21ee803e4a9eb58a0a90"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2b2f415bb2b21ee803e4a9eb58a0a90">resizeNoInit</a> (nuint targetSize, <a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706">MR.ReserveMode</a>? mode=null)</td></tr>
+<tr class="memdesc:ab2b2f415bb2b21ee803e4a9eb58a0a90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ab2b2f415bb2b21ee803e4a9eb58a0a90" title="Generated from method MR.TexturePerFace.resizeNoInit. Parameter mode defaults to MR....">MR.TexturePerFace.resizeNoInit</a></span>. Parameter <span class="tt">mode</span> defaults to <span class="tt"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706a1649aed298f99d587e2eb30c1db5946b" title="exactly the target size: for a vector resized once">MR.ReserveMode.Exact</a></span>.  <br /></td></tr>
 <tr class="memitem:aef0a8d4e016a6cba4266f8357cfd8938" id="r_aef0a8d4e016a6cba4266f8357cfd8938"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef0a8d4e016a6cba4266f8357cfd8938">reserve</a> (nuint <a class="el" href="classMR_1_1Const__TexturePerFace.html#ab18e4fcf43da76cd0b45711d5c09453f">capacity</a>)</td></tr>
 <tr class="memdesc:aef0a8d4e016a6cba4266f8357cfd8938"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aef0a8d4e016a6cba4266f8357cfd8938" title="Generated from method MR.TexturePerFace.reserve.">MR.TexturePerFace.reserve</a></span>.  <br /></td></tr>
 <tr class="memitem:a4f50904e5ff0a1eebb22caed26c846a7" id="r_a4f50904e5ff0a1eebb22caed26c846a7"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f50904e5ff0a1eebb22caed26c846a7">shrinkToFit</a> ()</td></tr>
@@ -865,8 +865,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a9b0795cfcaa1a05b9055a7fd05d2cbd4" name="a9b0795cfcaa1a05b9055a7fd05d2cbd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b0795cfcaa1a05b9055a7fd05d2cbd4">&#9670;&#160;</a></span>resizeNoInit()</h2>
+<a id="ab2b2f415bb2b21ee803e4a9eb58a0a90" name="ab2b2f415bb2b21ee803e4a9eb58a0a90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2b2f415bb2b21ee803e4a9eb58a0a90">&#9670;&#160;</a></span>resizeNoInit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -877,8 +877,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.TexturePerFace.resizeNoInit </td>
           <td>(</td>
-          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span></td><td>)</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706">MR.ReserveMode</a>?</td>          <td class="paramname"><span class="paramname"><em>mode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -888,7 +892,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from method <span class="tt"><a class="el" href="#a9b0795cfcaa1a05b9055a7fd05d2cbd4" title="Generated from method MR.TexturePerFace.resizeNoInit.">MR.TexturePerFace.resizeNoInit</a></span>. </p>
+<p>Generated from method <span class="tt"><a class="el" href="#ab2b2f415bb2b21ee803e4a9eb58a0a90" title="Generated from method MR.TexturePerFace.resizeNoInit. Parameter mode defaults to MR....">MR.TexturePerFace.resizeNoInit</a></span>. Parameter <span class="tt">mode</span> defaults to <span class="tt"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706a1649aed298f99d587e2eb30c1db5946b" title="exactly the target size: for a vector resized once">MR.ReserveMode.Exact</a></span>. </p>
 
 </div>
 </div>

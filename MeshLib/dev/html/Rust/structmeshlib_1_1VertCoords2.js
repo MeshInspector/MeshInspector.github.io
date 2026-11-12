@@ -29,7 +29,7 @@ var structmeshlib_1_1VertCoords2 =
     [ "reserve", "structmeshlib_1_1VertCoords2.html#ae45cabbf5aa4ffbb2dcd21808e86f1de", null ],
     [ "resize_1", "structmeshlib_1_1VertCoords2.html#a2f5da1d6f1495f7f14e319b7d7075db8", null ],
     [ "resize_2", "structmeshlib_1_1VertCoords2.html#a6116e87048b1ca5a063682bc5073c3d4", null ],
-    [ "resize_no_init", "structmeshlib_1_1VertCoords2.html#a578e41a28829d9085e5f7439e9c3a463", null ],
+    [ "resize_no_init", "structmeshlib_1_1VertCoords2.html#a8efde8f4a4f8ab67914c4fcd5af7fcc3", null ],
     [ "resize_with_reserve_1", "structmeshlib_1_1VertCoords2.html#a36fbedcad8167231d7e2b25b840aea5b", null ],
     [ "resize_with_reserve_2", "structmeshlib_1_1VertCoords2.html#aa051284ab80188e1df059b67259bed3e", null ],
     [ "set_vec", "structmeshlib_1_1VertCoords2.html#a1692d0d98c31385856dba80a9746e064", null ],

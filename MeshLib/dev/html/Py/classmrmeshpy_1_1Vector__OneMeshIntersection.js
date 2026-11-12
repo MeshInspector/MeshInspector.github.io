@@ -28,7 +28,7 @@ var classmrmeshpy_1_1Vector__OneMeshIntersection =
     [ "reserve", "classmrmeshpy_1_1Vector__OneMeshIntersection.html#aed45934056fb1a47ef514a6542ef0b76", null ],
     [ "resize", "classmrmeshpy_1_1Vector__OneMeshIntersection.html#a194ce74fa5b30e22b3bc8529f1b17823", null ],
     [ "resize", "classmrmeshpy_1_1Vector__OneMeshIntersection.html#a49e7959bacd8f04c3df978444bb03c25", null ],
-    [ "resizeNoInit", "classmrmeshpy_1_1Vector__OneMeshIntersection.html#a24f0c8991a8f85fc9648ab09b8d14126", null ],
+    [ "resizeNoInit", "classmrmeshpy_1_1Vector__OneMeshIntersection.html#af27b04b6f0a8d8e7d3f0efacf6d3b478", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__OneMeshIntersection.html#ad57b8336180730d3c87bbe1f74bc8f79", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__OneMeshIntersection.html#a399c48f0b5e742e9d4589cc46b05038f", null ],
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__OneMeshIntersection.html#a24459e73138e2b40211d15a1953c3b1a", null ],

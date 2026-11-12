@@ -29,7 +29,7 @@ var structmeshlib_1_1TexturePerFace =
     [ "reserve", "structmeshlib_1_1TexturePerFace.html#a5faf8f8f07eff8fdd037a21639e4a4ec", null ],
     [ "resize_1", "structmeshlib_1_1TexturePerFace.html#a83fdd354659e7bfc25cc00a20d73c8d5", null ],
     [ "resize_2", "structmeshlib_1_1TexturePerFace.html#a9bb25bc30e230c553260d57afd67cab9", null ],
-    [ "resize_no_init", "structmeshlib_1_1TexturePerFace.html#af38b4ee00145ddfb3b8738b23fce2bd9", null ],
+    [ "resize_no_init", "structmeshlib_1_1TexturePerFace.html#a8ebe82d03bc3fe6c5aaf068c2b0463e9", null ],
     [ "resize_with_reserve_1", "structmeshlib_1_1TexturePerFace.html#ab9ad895c8e927c5766115c737594d992", null ],
     [ "resize_with_reserve_2", "structmeshlib_1_1TexturePerFace.html#acf465b370468f0ce8e83a5c62bf2dfb6", null ],
     [ "set_vec", "structmeshlib_1_1TexturePerFace.html#a9fad7003b54aab6203d0119a6929cafd", null ],

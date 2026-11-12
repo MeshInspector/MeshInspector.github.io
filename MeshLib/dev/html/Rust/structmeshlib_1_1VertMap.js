@@ -29,7 +29,7 @@ var structmeshlib_1_1VertMap =
     [ "reserve", "structmeshlib_1_1VertMap.html#ada94bd0f68c94c88c8c1988d6951c361", null ],
     [ "resize_1", "structmeshlib_1_1VertMap.html#aea0ce402d2c0fe7faa418a1cd29552fb", null ],
     [ "resize_2", "structmeshlib_1_1VertMap.html#a244ea4bec65661ae48270201e0c1d844", null ],
-    [ "resize_no_init", "structmeshlib_1_1VertMap.html#a3d05a9cacd6fea685d27c51598160559", null ],
+    [ "resize_no_init", "structmeshlib_1_1VertMap.html#a032167bfe8e89a378213b1fde814837d", null ],
     [ "resize_with_reserve_1", "structmeshlib_1_1VertMap.html#a1b250acbd35fa76f6c501ea8c53c8caf", null ],
     [ "resize_with_reserve_2", "structmeshlib_1_1VertMap.html#a5832dd17c776f2a752ca71cb91e83428", null ],
     [ "set_vec", "structmeshlib_1_1VertMap.html#a7184dd24d6c4bdee6a94e77f6edc4e64", null ],

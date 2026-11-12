@@ -175,8 +175,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:acf5f46de5ddd0a906ac418bffadcbf4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#acf5f46de5ddd0a906ac418bffadcbf4a" title="Generated from method MR.EdgeMap.resize.">MR.EdgeMap.resize</a></span>.  <br /></td></tr>
 <tr class="memitem:af6ab9f2cff75bac620c9b30128883ca5" id="r_af6ab9f2cff75bac620c9b30128883ca5"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6ab9f2cff75bac620c9b30128883ca5">resize</a> (nuint newSize, in <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> t)</td></tr>
 <tr class="memdesc:af6ab9f2cff75bac620c9b30128883ca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#acf5f46de5ddd0a906ac418bffadcbf4a" title="Generated from method MR.EdgeMap.resize.">MR.EdgeMap.resize</a></span>.  <br /></td></tr>
-<tr class="memitem:a85ee924748cbe5b78ad7700c5a025f09" id="r_a85ee924748cbe5b78ad7700c5a025f09"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85ee924748cbe5b78ad7700c5a025f09">resizeNoInit</a> (nuint targetSize)</td></tr>
-<tr class="memdesc:a85ee924748cbe5b78ad7700c5a025f09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a85ee924748cbe5b78ad7700c5a025f09" title="Generated from method MR.EdgeMap.resizeNoInit.">MR.EdgeMap.resizeNoInit</a></span>.  <br /></td></tr>
+<tr class="memitem:a3f9d8fb1c91bfcc7a5ea8cad65ef6e48" id="r_a3f9d8fb1c91bfcc7a5ea8cad65ef6e48"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f9d8fb1c91bfcc7a5ea8cad65ef6e48">resizeNoInit</a> (nuint targetSize, <a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706">MR.ReserveMode</a>? mode=null)</td></tr>
+<tr class="memdesc:a3f9d8fb1c91bfcc7a5ea8cad65ef6e48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a3f9d8fb1c91bfcc7a5ea8cad65ef6e48" title="Generated from method MR.EdgeMap.resizeNoInit. Parameter mode defaults to MR.ReserveMode....">MR.EdgeMap.resizeNoInit</a></span>. Parameter <span class="tt">mode</span> defaults to <span class="tt"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706a1649aed298f99d587e2eb30c1db5946b" title="exactly the target size: for a vector resized once">MR.ReserveMode.Exact</a></span>.  <br /></td></tr>
 <tr class="memitem:ae1e40c3baee158b932a035f4a901c628" id="r_ae1e40c3baee158b932a035f4a901c628"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1e40c3baee158b932a035f4a901c628">reserve</a> (nuint <a class="el" href="classMR_1_1Const__EdgeMap.html#a15bc2414fd3280e5d8306f3360d18969">capacity</a>)</td></tr>
 <tr class="memdesc:ae1e40c3baee158b932a035f4a901c628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ae1e40c3baee158b932a035f4a901c628" title="Generated from method MR.EdgeMap.reserve.">MR.EdgeMap.reserve</a></span>.  <br /></td></tr>
 <tr class="memitem:af8f021a1eddde1047111a6084cbc2e37" id="r_af8f021a1eddde1047111a6084cbc2e37"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8f021a1eddde1047111a6084cbc2e37">shrinkToFit</a> ()</td></tr>
@@ -865,8 +865,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a85ee924748cbe5b78ad7700c5a025f09" name="a85ee924748cbe5b78ad7700c5a025f09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85ee924748cbe5b78ad7700c5a025f09">&#9670;&#160;</a></span>resizeNoInit()</h2>
+<a id="a3f9d8fb1c91bfcc7a5ea8cad65ef6e48" name="a3f9d8fb1c91bfcc7a5ea8cad65ef6e48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f9d8fb1c91bfcc7a5ea8cad65ef6e48">&#9670;&#160;</a></span>resizeNoInit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -877,8 +877,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.EdgeMap.resizeNoInit </td>
           <td>(</td>
-          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span></td><td>)</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706">MR.ReserveMode</a>?</td>          <td class="paramname"><span class="paramname"><em>mode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -888,7 +892,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from method <span class="tt"><a class="el" href="#a85ee924748cbe5b78ad7700c5a025f09" title="Generated from method MR.EdgeMap.resizeNoInit.">MR.EdgeMap.resizeNoInit</a></span>. </p>
+<p>Generated from method <span class="tt"><a class="el" href="#a3f9d8fb1c91bfcc7a5ea8cad65ef6e48" title="Generated from method MR.EdgeMap.resizeNoInit. Parameter mode defaults to MR.ReserveMode....">MR.EdgeMap.resizeNoInit</a></span>. Parameter <span class="tt">mode</span> defaults to <span class="tt"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706a1649aed298f99d587e2eb30c1db5946b" title="exactly the target size: for a vector resized once">MR.ReserveMode.Exact</a></span>. </p>
 
 </div>
 </div>

@@ -175,8 +175,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1af4fec47c16a7a23581b3993a4e6000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a1af4fec47c16a7a23581b3993a4e6000" title="Generated from method MR.FaceColors.resize.">MR.FaceColors.resize</a></span>.  <br /></td></tr>
 <tr class="memitem:a1aa9189a806679670ff97d009c072043" id="r_a1aa9189a806679670ff97d009c072043"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1aa9189a806679670ff97d009c072043">resize</a> (nuint newSize, in <a class="el" href="structMR_1_1Color.html">MR.Color</a> t)</td></tr>
 <tr class="memdesc:a1aa9189a806679670ff97d009c072043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a1af4fec47c16a7a23581b3993a4e6000" title="Generated from method MR.FaceColors.resize.">MR.FaceColors.resize</a></span>.  <br /></td></tr>
-<tr class="memitem:a9991954e97e320f09747b5e7a1830cc6" id="r_a9991954e97e320f09747b5e7a1830cc6"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9991954e97e320f09747b5e7a1830cc6">resizeNoInit</a> (nuint targetSize)</td></tr>
-<tr class="memdesc:a9991954e97e320f09747b5e7a1830cc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a9991954e97e320f09747b5e7a1830cc6" title="Generated from method MR.FaceColors.resizeNoInit.">MR.FaceColors.resizeNoInit</a></span>.  <br /></td></tr>
+<tr class="memitem:aa53c402d6015aeb435bb90706477987e" id="r_aa53c402d6015aeb435bb90706477987e"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa53c402d6015aeb435bb90706477987e">resizeNoInit</a> (nuint targetSize, <a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706">MR.ReserveMode</a>? mode=null)</td></tr>
+<tr class="memdesc:aa53c402d6015aeb435bb90706477987e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aa53c402d6015aeb435bb90706477987e" title="Generated from method MR.FaceColors.resizeNoInit. Parameter mode defaults to MR.ReserveMode....">MR.FaceColors.resizeNoInit</a></span>. Parameter <span class="tt">mode</span> defaults to <span class="tt"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706a1649aed298f99d587e2eb30c1db5946b" title="exactly the target size: for a vector resized once">MR.ReserveMode.Exact</a></span>.  <br /></td></tr>
 <tr class="memitem:aa74e817331f3a680a8fae1c79ca97420" id="r_aa74e817331f3a680a8fae1c79ca97420"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa74e817331f3a680a8fae1c79ca97420">reserve</a> (nuint <a class="el" href="classMR_1_1Const__FaceColors.html#a19c0048e4bafb35ed21173e5f0312676">capacity</a>)</td></tr>
 <tr class="memdesc:aa74e817331f3a680a8fae1c79ca97420"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aa74e817331f3a680a8fae1c79ca97420" title="Generated from method MR.FaceColors.reserve.">MR.FaceColors.reserve</a></span>.  <br /></td></tr>
 <tr class="memitem:ad91d805d9ca073115be4577de7c53ca0" id="r_ad91d805d9ca073115be4577de7c53ca0"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad91d805d9ca073115be4577de7c53ca0">shrinkToFit</a> ()</td></tr>
@@ -865,8 +865,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a9991954e97e320f09747b5e7a1830cc6" name="a9991954e97e320f09747b5e7a1830cc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9991954e97e320f09747b5e7a1830cc6">&#9670;&#160;</a></span>resizeNoInit()</h2>
+<a id="aa53c402d6015aeb435bb90706477987e" name="aa53c402d6015aeb435bb90706477987e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa53c402d6015aeb435bb90706477987e">&#9670;&#160;</a></span>resizeNoInit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -877,8 +877,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.FaceColors.resizeNoInit </td>
           <td>(</td>
-          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span></td><td>)</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706">MR.ReserveMode</a>?</td>          <td class="paramname"><span class="paramname"><em>mode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -888,7 +892,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from method <span class="tt"><a class="el" href="#a9991954e97e320f09747b5e7a1830cc6" title="Generated from method MR.FaceColors.resizeNoInit.">MR.FaceColors.resizeNoInit</a></span>. </p>
+<p>Generated from method <span class="tt"><a class="el" href="#aa53c402d6015aeb435bb90706477987e" title="Generated from method MR.FaceColors.resizeNoInit. Parameter mode defaults to MR.ReserveMode....">MR.FaceColors.resizeNoInit</a></span>. Parameter <span class="tt">mode</span> defaults to <span class="tt"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706a1649aed298f99d587e2eb30c1db5946b" title="exactly the target size: for a vector resized once">MR.ReserveMode.Exact</a></span>. </p>
 
 </div>
 </div>

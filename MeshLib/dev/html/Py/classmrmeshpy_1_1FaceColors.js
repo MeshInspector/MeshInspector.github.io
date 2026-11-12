@@ -28,7 +28,7 @@ var classmrmeshpy_1_1FaceColors =
     [ "reserve", "classmrmeshpy_1_1FaceColors.html#ac5afef8661007fbcddde8f9788f3fd7f", null ],
     [ "resize", "classmrmeshpy_1_1FaceColors.html#aeb80e34d05363a36dfbbc0d4b71b51ca", null ],
     [ "resize", "classmrmeshpy_1_1FaceColors.html#abddfd3b83908518c48997c1f69bc4b41", null ],
-    [ "resizeNoInit", "classmrmeshpy_1_1FaceColors.html#abf5150812bf76905f7da1a3d01b324a4", null ],
+    [ "resizeNoInit", "classmrmeshpy_1_1FaceColors.html#a7a2579268d853d9ce13a9e423ee002af", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1FaceColors.html#ae4708c977e07b865717e80ef81cd6991", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1FaceColors.html#a80b0d2af861920cf2ab374ce95c099f3", null ],
     [ "shrink_to_fit", "classmrmeshpy_1_1FaceColors.html#a7bd879be11d5197d1c99b2368a1432f1", null ],

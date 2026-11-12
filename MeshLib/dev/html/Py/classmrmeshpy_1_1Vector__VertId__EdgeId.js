@@ -28,7 +28,7 @@ var classmrmeshpy_1_1Vector__VertId__EdgeId =
     [ "reserve", "classmrmeshpy_1_1Vector__VertId__EdgeId.html#aa464170a70b42adc541b9244bdb809a6", null ],
     [ "resize", "classmrmeshpy_1_1Vector__VertId__EdgeId.html#aecc06d9cf3c77b4d6edb8509f630c926", null ],
     [ "resize", "classmrmeshpy_1_1Vector__VertId__EdgeId.html#aeab4456b465e538fc7ce509fc279de89", null ],
-    [ "resizeNoInit", "classmrmeshpy_1_1Vector__VertId__EdgeId.html#af2f9feb375f1722a1e6f230043fd4b40", null ],
+    [ "resizeNoInit", "classmrmeshpy_1_1Vector__VertId__EdgeId.html#a970315d9b7b803504215a322b2b7d44f", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__VertId__EdgeId.html#ace3061502d9dc88bfcb57bb8cbbc3cb0", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__VertId__EdgeId.html#a9e28f9b9b7be180dfc1aab3c8774724d", null ],
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__VertId__EdgeId.html#a6edd042e3dc988ba92eefd24e3032c67", null ],

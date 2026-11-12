@@ -160,7 +160,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4f37127357c3a0b1fdf2cbb64791c200" id="r_a4f37127357c3a0b1fdf2cbb64791c200"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f37127357c3a0b1fdf2cbb64791c200">max_size</a> () const -&gt; usize</td></tr>
 <tr class="memitem:a47e819216cd730d34983f139a37caba9" id="r_a47e819216cd730d34983f139a37caba9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47e819216cd730d34983f139a37caba9">resize_1</a> (newSize:usize)</td></tr>
 <tr class="memitem:a5fe6550e91bf09a96051d5b458f255e1" id="r_a5fe6550e91bf09a96051d5b458f255e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fe6550e91bf09a96051d5b458f255e1">resize_2</a> (newSize:usize, t:&amp;<a class="el" href="structmeshlib_1_1BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html">meshlib::BoxedLeaf_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</a>)</td></tr>
-<tr class="memitem:a134a58c81af7950f6a6e2cb629f03cc8" id="r_a134a58c81af7950f6a6e2cb629f03cc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a134a58c81af7950f6a6e2cb629f03cc8">resize_no_init</a> (targetSize:usize)</td></tr>
+<tr class="memitem:a444c9a1db39b28fab71338e2ce3e4d90" id="r_a444c9a1db39b28fab71338e2ce3e4d90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a444c9a1db39b28fab71338e2ce3e4d90">resize_no_init</a> (targetSize:usize, mode:Option&lt; <a class="el" href="structmeshlib_1_1ReserveMode.html">meshlib::ReserveMode</a> &gt;)</td></tr>
 <tr class="memitem:ae2c4cd41378c474b6fccc3b6b4c70f62" id="r_ae2c4cd41378c474b6fccc3b6b4c70f62"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2c4cd41378c474b6fccc3b6b4c70f62">capacity</a> () const -&gt; usize</td></tr>
 <tr class="memitem:a56ad9e3b6e332b47413958cf792605d4" id="r_a56ad9e3b6e332b47413958cf792605d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56ad9e3b6e332b47413958cf792605d4">reserve</a> (capacity:usize)</td></tr>
 <tr class="memitem:a78db48afff085802094e8db7dd6f22a8" id="r_a78db48afff085802094e8db7dd6f22a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78db48afff085802094e8db7dd6f22a8">shrink_to_fit</a> ()</td></tr>
@@ -850,8 +850,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a134a58c81af7950f6a6e2cb629f03cc8" name="a134a58c81af7950f6a6e2cb629f03cc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a134a58c81af7950f6a6e2cb629f03cc8">&#9670;&#160;</a></span>resize_no_init()</h2>
+<a id="a444c9a1db39b28fab71338e2ce3e4d90" name="a444c9a1db39b28fab71338e2ce3e4d90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a444c9a1db39b28fab71338e2ce3e4d90">&#9670;&#160;</a></span>resize_no_init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -859,8 +859,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void meshlib::Vector_MR_BoxedLeaf_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f::resize_no_init </td>
           <td>(</td>
-          <td class="paramtype">targetSize:usize</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">targetSize:usize</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">mode:Option&lt; <a class="el" href="structmeshlib_1_1ReserveMode.html">meshlib::ReserveMode</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

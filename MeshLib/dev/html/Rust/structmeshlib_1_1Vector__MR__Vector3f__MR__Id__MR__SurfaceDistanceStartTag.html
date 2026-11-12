@@ -162,7 +162,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8c8ee485309684bf3937c42ecf1bd761" id="r_a8c8ee485309684bf3937c42ecf1bd761"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c8ee485309684bf3937c42ecf1bd761">max_size</a> () const -&gt; usize</td></tr>
 <tr class="memitem:aa10ef520e62e5786ea68d7dc5dd28ac8" id="r_aa10ef520e62e5786ea68d7dc5dd28ac8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa10ef520e62e5786ea68d7dc5dd28ac8">resize_1</a> (newSize:usize)</td></tr>
 <tr class="memitem:a22ff16c552276646b9eb18656d2b5238" id="r_a22ff16c552276646b9eb18656d2b5238"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22ff16c552276646b9eb18656d2b5238">resize_2</a> (newSize:usize, t:&amp;<a class="el" href="structmeshlib_1_1Vector3f.html">meshlib::Vector3f</a>)</td></tr>
-<tr class="memitem:a8df5f22eb88259217f6e6aed49881ff5" id="r_a8df5f22eb88259217f6e6aed49881ff5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8df5f22eb88259217f6e6aed49881ff5">resize_no_init</a> (targetSize:usize)</td></tr>
+<tr class="memitem:ac616844d44bef7ba8cfa52acc7978507" id="r_ac616844d44bef7ba8cfa52acc7978507"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac616844d44bef7ba8cfa52acc7978507">resize_no_init</a> (targetSize:usize, mode:Option&lt; <a class="el" href="structmeshlib_1_1ReserveMode.html">meshlib::ReserveMode</a> &gt;)</td></tr>
 <tr class="memitem:ac57e4aeeae20f965c562dd6729414e28" id="r_ac57e4aeeae20f965c562dd6729414e28"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac57e4aeeae20f965c562dd6729414e28">capacity</a> () const -&gt; usize</td></tr>
 <tr class="memitem:a0fdf4c5ac61c44a5ca61020084922a4c" id="r_a0fdf4c5ac61c44a5ca61020084922a4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fdf4c5ac61c44a5ca61020084922a4c">reserve</a> (capacity:usize)</td></tr>
 <tr class="memitem:aae9f733ef23c325fd6d97bdada605b91" id="r_aae9f733ef23c325fd6d97bdada605b91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae9f733ef23c325fd6d97bdada605b91">shrink_to_fit</a> ()</td></tr>
@@ -890,8 +890,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8df5f22eb88259217f6e6aed49881ff5" name="a8df5f22eb88259217f6e6aed49881ff5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8df5f22eb88259217f6e6aed49881ff5">&#9670;&#160;</a></span>resize_no_init()</h2>
+<a id="ac616844d44bef7ba8cfa52acc7978507" name="ac616844d44bef7ba8cfa52acc7978507"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac616844d44bef7ba8cfa52acc7978507">&#9670;&#160;</a></span>resize_no_init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -899,8 +899,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void meshlib::Vector_MR_Vector3f_MR_Id_MR_SurfaceDistanceStartTag::resize_no_init </td>
           <td>(</td>
-          <td class="paramtype">targetSize:usize</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">targetSize:usize</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">mode:Option&lt; <a class="el" href="structmeshlib_1_1ReserveMode.html">meshlib::ReserveMode</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

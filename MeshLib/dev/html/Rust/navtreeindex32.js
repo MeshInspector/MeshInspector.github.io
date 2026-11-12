@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"structmeshlib_1_1Buffer__uint64__t.html#a0daebf2b37e7ebf7669bee23fe79bd3a":[9,5,1,0,0,142,0],
 "structmeshlib_1_1Buffer__uint64__t.html#a2f422a89b1297f5e2857ee803056864b":[9,5,0,0,0,155,7],
 "structmeshlib_1_1Buffer__uint64__t.html#a2f422a89b1297f5e2857ee803056864b":[9,5,1,0,0,142,7],
 "structmeshlib_1_1Buffer__uint64__t.html#a6c514b9de4348874ffffa23a326c00eb":[9,5,0,0,0,155,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "structmeshlib_1_1ChangeMeshCreasesAction.html#a69d5860ca37be9813896d82a59e0b86a":[9,5,1,0,0,155,4],
 "structmeshlib_1_1ChangeMeshCreasesAction.html#ab3b34a2d48cd0b2763219f72ab5db74e":[9,5,0,0,0,168,1],
 "structmeshlib_1_1ChangeMeshCreasesAction.html#ab3b34a2d48cd0b2763219f72ab5db74e":[9,5,1,0,0,155,1],
-"structmeshlib_1_1ChangeMeshCreasesAction.html#acdc26c61f6e953d40c559fdc53c91135":[9,5,0,0,0,168,0],
-"structmeshlib_1_1ChangeMeshCreasesAction.html#acdc26c61f6e953d40c559fdc53c91135":[9,5,1,0,0,155,0]
+"structmeshlib_1_1ChangeMeshCreasesAction.html#acdc26c61f6e953d40c559fdc53c91135":[9,5,0,0,0,168,0]
 };

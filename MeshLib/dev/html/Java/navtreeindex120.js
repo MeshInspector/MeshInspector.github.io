@@ -1,5 +1,6 @@
 var NAVTREEINDEX120 =
 {
+"classmeshlib_1_1Quaternionf.html#a50654f5244b14f2bb97b753b8516a6e9":[9,6,1,0,0,875,7],
 "classmeshlib_1_1Quaternionf.html#a51106aa30d233287d7b70c0ab4cf92e4":[9,6,0,0,0,875,21],
 "classmeshlib_1_1Quaternionf.html#a51106aa30d233287d7b70c0ab4cf92e4":[9,6,1,0,0,875,21],
 "classmeshlib_1_1Quaternionf.html#a5135796c25d9e88ebe5d6650e896ea12":[9,6,0,0,0,875,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX120 =
 "classmeshlib_1_1RadiusMeasurementObject.html#acd73ac6f2d9842b85bbfaa0d9df0c74e":[9,6,1,0,0,876,48],
 "classmeshlib_1_1RadiusMeasurementObject.html#ad5f9e961c4ec7c7771c06f43ffd6af3e":[9,6,0,0,0,876,9],
 "classmeshlib_1_1RadiusMeasurementObject.html#ad5f9e961c4ec7c7771c06f43ffd6af3e":[9,6,1,0,0,876,9],
-"classmeshlib_1_1RadiusMeasurementObject.html#ad6adf9ab44e8f891e94cfb1ff749ebd2":[9,6,0,0,0,876,29],
-"classmeshlib_1_1RadiusMeasurementObject.html#ad6adf9ab44e8f891e94cfb1ff749ebd2":[9,6,1,0,0,876,29]
+"classmeshlib_1_1RadiusMeasurementObject.html#ad6adf9ab44e8f891e94cfb1ff749ebd2":[9,6,0,0,0,876,29]
 };

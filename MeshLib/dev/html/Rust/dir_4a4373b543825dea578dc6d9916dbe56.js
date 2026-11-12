@@ -319,6 +319,7 @@ var dir_4a4373b543825dea578dc6d9916dbe56 =
     [ "MRRegularMapMesher.rs", "MRRegularMapMesher_8rs.html", "MRRegularMapMesher_8rs" ],
     [ "MRRelaxParams.rs", "MRRelaxParams_8rs.html", "MRRelaxParams_8rs" ],
     [ "MRRenderModelParameters.rs", "MRRenderModelParameters_8rs.html", "MRRenderModelParameters_8rs" ],
+    [ "MRResizeNoInit.rs", "MRResizeNoInit_8rs.html", "MRResizeNoInit_8rs" ],
     [ "MRRigidScaleXf3.rs", "MRRigidScaleXf3_8rs.html", "MRRigidScaleXf3_8rs" ],
     [ "MRRigidXf3.rs", "MRRigidXf3_8rs.html", "MRRigidXf3_8rs" ],
     [ "MRRigidXfRansac.rs", "MRRigidXfRansac_8rs.html", "MRRigidXfRansac_8rs" ],

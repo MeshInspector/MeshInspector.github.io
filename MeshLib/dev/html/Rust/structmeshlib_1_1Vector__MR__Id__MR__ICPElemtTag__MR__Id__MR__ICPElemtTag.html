@@ -162,7 +162,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af3c0cbea7845b026c6451b4eb129e3f0" id="r_af3c0cbea7845b026c6451b4eb129e3f0"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3c0cbea7845b026c6451b4eb129e3f0">max_size</a> () const -&gt; usize</td></tr>
 <tr class="memitem:a7fe84d81234d519efcc2e945a51d0792" id="r_a7fe84d81234d519efcc2e945a51d0792"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fe84d81234d519efcc2e945a51d0792">resize_1</a> (newSize:usize)</td></tr>
 <tr class="memitem:a98297c9535dae43fbafb25227f2c7c73" id="r_a98297c9535dae43fbafb25227f2c7c73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98297c9535dae43fbafb25227f2c7c73">resize_2</a> (newSize:usize, t:&amp;<a class="el" href="structmeshlib_1_1Id__MR__ICPElemtTag.html">meshlib::Id_MR_ICPElemtTag</a>)</td></tr>
-<tr class="memitem:a16b2ec66e6d800d5b8bc059b39fe10c4" id="r_a16b2ec66e6d800d5b8bc059b39fe10c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16b2ec66e6d800d5b8bc059b39fe10c4">resize_no_init</a> (targetSize:usize)</td></tr>
+<tr class="memitem:aee1e8c98d9c7f11afe2ac9bb542bb6b2" id="r_aee1e8c98d9c7f11afe2ac9bb542bb6b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee1e8c98d9c7f11afe2ac9bb542bb6b2">resize_no_init</a> (targetSize:usize, mode:Option&lt; <a class="el" href="structmeshlib_1_1ReserveMode.html">meshlib::ReserveMode</a> &gt;)</td></tr>
 <tr class="memitem:ab6a83fa7a808f9c6e81daab2bdd90625" id="r_ab6a83fa7a808f9c6e81daab2bdd90625"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6a83fa7a808f9c6e81daab2bdd90625">capacity</a> () const -&gt; usize</td></tr>
 <tr class="memitem:add7b3b954075c6bc2545d271a364983f" id="r_add7b3b954075c6bc2545d271a364983f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add7b3b954075c6bc2545d271a364983f">reserve</a> (capacity:usize)</td></tr>
 <tr class="memitem:ac54131d3b805c29ab7961ff78cf80091" id="r_ac54131d3b805c29ab7961ff78cf80091"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac54131d3b805c29ab7961ff78cf80091">shrink_to_fit</a> ()</td></tr>
@@ -890,8 +890,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a16b2ec66e6d800d5b8bc059b39fe10c4" name="a16b2ec66e6d800d5b8bc059b39fe10c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16b2ec66e6d800d5b8bc059b39fe10c4">&#9670;&#160;</a></span>resize_no_init()</h2>
+<a id="aee1e8c98d9c7f11afe2ac9bb542bb6b2" name="aee1e8c98d9c7f11afe2ac9bb542bb6b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee1e8c98d9c7f11afe2ac9bb542bb6b2">&#9670;&#160;</a></span>resize_no_init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -899,8 +899,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void meshlib::Vector_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag::resize_no_init </td>
           <td>(</td>
-          <td class="paramtype">targetSize:usize</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">targetSize:usize</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">mode:Option&lt; <a class="el" href="structmeshlib_1_1ReserveMode.html">meshlib::ReserveMode</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

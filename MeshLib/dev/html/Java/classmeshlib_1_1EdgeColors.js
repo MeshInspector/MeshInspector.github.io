@@ -34,7 +34,7 @@ var classmeshlib_1_1EdgeColors =
     [ "reserve", "classmeshlib_1_1EdgeColors.html#a67ddcf33acd87ccda3c66d3b53f916f6", null ],
     [ "resize", "classmeshlib_1_1EdgeColors.html#a20b5e4504635439f1ba8274080c9b3f2", null ],
     [ "resize", "classmeshlib_1_1EdgeColors.html#a0ce83c524db6566b94a9749379f082bc", null ],
-    [ "resizeNoInit", "classmeshlib_1_1EdgeColors.html#aea3f7a469968ab46a586fa48b4d21adf", null ],
+    [ "resizeNoInit", "classmeshlib_1_1EdgeColors.html#aedabc3e32f6a93ae2ea7678701911e44", null ],
     [ "resizeWithReserve", "classmeshlib_1_1EdgeColors.html#ab1dc190036605beeefc92700c89f7e01", null ],
     [ "resizeWithReserve", "classmeshlib_1_1EdgeColors.html#a8c5609c9159855117fbbcf1da85fe737", null ],
     [ "setVec", "classmeshlib_1_1EdgeColors.html#a6706221ebf8045119f13f10978d7deb0", null ],

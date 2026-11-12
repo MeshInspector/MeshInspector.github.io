@@ -162,7 +162,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac598c353c7737fd574be60500111bd4d" id="r_ac598c353c7737fd574be60500111bd4d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac598c353c7737fd574be60500111bd4d">max_size</a> () const -&gt; usize</td></tr>
 <tr class="memitem:a77687eef06008451f4075e399e05cb99" id="r_a77687eef06008451f4075e399e05cb99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77687eef06008451f4075e399e05cb99">resize_1</a> (newSize:usize)</td></tr>
 <tr class="memitem:a660ff85ce9ed11cdabd5b15fc1b55ece" id="r_a660ff85ce9ed11cdabd5b15fc1b55ece"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a660ff85ce9ed11cdabd5b15fc1b55ece">resize_2</a> (newSize:usize, t:&amp;<a class="el" href="structmeshlib_1_1EdgeId.html">meshlib::EdgeId</a>)</td></tr>
-<tr class="memitem:aa31dd36a76da034390b31b18b300452f" id="r_aa31dd36a76da034390b31b18b300452f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa31dd36a76da034390b31b18b300452f">resize_no_init</a> (targetSize:usize)</td></tr>
+<tr class="memitem:afcba06c0ba88e3df0290ed105a7e4900" id="r_afcba06c0ba88e3df0290ed105a7e4900"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcba06c0ba88e3df0290ed105a7e4900">resize_no_init</a> (targetSize:usize, mode:Option&lt; <a class="el" href="structmeshlib_1_1ReserveMode.html">meshlib::ReserveMode</a> &gt;)</td></tr>
 <tr class="memitem:a3435c76defb2d437063bd0bbe1a9099d" id="r_a3435c76defb2d437063bd0bbe1a9099d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3435c76defb2d437063bd0bbe1a9099d">capacity</a> () const -&gt; usize</td></tr>
 <tr class="memitem:a4bcb28762b773469baa583b825d22325" id="r_a4bcb28762b773469baa583b825d22325"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bcb28762b773469baa583b825d22325">reserve</a> (capacity:usize)</td></tr>
 <tr class="memitem:a3c0ef1866fcb884a8127301245591050" id="r_a3c0ef1866fcb884a8127301245591050"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c0ef1866fcb884a8127301245591050">shrink_to_fit</a> ()</td></tr>
@@ -890,8 +890,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa31dd36a76da034390b31b18b300452f" name="aa31dd36a76da034390b31b18b300452f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa31dd36a76da034390b31b18b300452f">&#9670;&#160;</a></span>resize_no_init()</h2>
+<a id="afcba06c0ba88e3df0290ed105a7e4900" name="afcba06c0ba88e3df0290ed105a7e4900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcba06c0ba88e3df0290ed105a7e4900">&#9670;&#160;</a></span>resize_no_init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -899,8 +899,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void meshlib::EdgeMap::resize_no_init </td>
           <td>(</td>
-          <td class="paramtype">targetSize:usize</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">targetSize:usize</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">mode:Option&lt; <a class="el" href="structmeshlib_1_1ReserveMode.html">meshlib::ReserveMode</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

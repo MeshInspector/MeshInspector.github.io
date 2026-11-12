@@ -1,5 +1,11 @@
 var NAVTREEINDEX187 =
 {
+"std__vector__MR__WeightedVertex_8h.html#a8beadd8b5519e42309cb1a6ab3a2e86a":[9,2,2,0,0,0,0,2,567,16],
+"std__vector__MR__WeightedVertex_8h.html#a958e0e43d05e1c029d0f4cbf63cc5593":[9,2,2,0,0,0,0,2,567,3],
+"std__vector__MR__WeightedVertex_8h.html#ab63037db119259dd8570ed76b29e4691":[9,2,2,0,0,0,0,2,567,6],
+"std__vector__MR__WeightedVertex_8h.html#ab6cc89d541a10f4e1a5f37eb9fa4fb56":[9,2,2,0,0,0,0,2,567,9],
+"std__vector__MR__WeightedVertex_8h.html#abf0b213e811f74f092e5ae9e528755cb":[9,2,2,0,0,0,0,2,567,7],
+"std__vector__MR__WeightedVertex_8h.html#ac4d5d6aec3e6d8793b21b3a57a096ef0":[9,2,2,0,0,0,0,2,567,18],
 "std__vector__MR__WeightedVertex_8h.html#adf3d860868b1fda490efe79f164b0617":[9,2,2,0,0,0,0,2,567,4],
 "std__vector__MR__WeightedVertex_8h.html#aeef9b9ff4aa6e588173b6d019b6d500a":[9,2,2,0,0,0,0,2,567,22],
 "std__vector__MR__WeightedVertex_8h.html#af10b0adb0331d10716f9f921300c997d":[9,2,2,0,0,0,0,2,567,20],
@@ -243,11 +249,5 @@ var NAVTREEINDEX187 =
 "std__vector__float__MR__Allocator__float_8h.html#accd2f0132906f824fe28794038abf901":[9,2,2,0,0,0,0,2,431,11],
 "std__vector__float__MR__Allocator__float_8h.html#ad40dc94e1e766122a1797b66f9ee7eba":[9,2,2,0,0,0,0,2,431,22],
 "std__vector__float__MR__Allocator__float_8h.html#aeb6916f9e8db47517f510f2ebbedfb8e":[9,2,2,0,0,0,0,2,431,13],
-"std__vector__float__MR__Allocator__float_8h.html#aedfcd1fa1d3cc62f34068df3514e98ce":[9,2,2,0,0,0,0,2,431,23],
-"std__vector__float__MR__Allocator__float_8h.html#afb16f61ced435121caaa3293aa259e07":[9,2,2,0,0,0,0,2,431,5],
-"std__vector__float__MR__Allocator__float_8h.html#afb9b2f764bea776d1d43ca76d7345ac7":[9,2,2,0,0,0,0,2,431,21],
-"std__vector__float__MR__Allocator__float_8h_source.html":[9,2,2,0,0,0,0,2,431],
-"std__vector__int_8h.html":[9,2,2,0,0,0,0,2,432],
-"std__vector__int_8h.html#a0188c170b1ce63438fd76ad5ab04e99e":[9,2,2,0,0,0,0,2,432,4],
-"std__vector__int_8h.html#a0309cda31839d84f8dbf98cbb7603d7e":[9,2,2,0,0,0,0,2,432,7]
+"std__vector__float__MR__Allocator__float_8h.html#aedfcd1fa1d3cc62f34068df3514e98ce":[9,2,2,0,0,0,0,2,431,23]
 };

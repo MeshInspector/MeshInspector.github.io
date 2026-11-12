@@ -178,7 +178,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a37da201e1b3b3ef1f843a410c6b27138" id="r_a37da201e1b3b3ef1f843a410c6b27138"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37da201e1b3b3ef1f843a410c6b27138">reserve</a> (self, int <a class="el" href="classmrmeshpy_1_1ConstVector__GraphVertId__GraphVertId.html#a4e307e91174278b501488c95fd57a6bb">capacity</a>)</td></tr>
 <tr class="memitem:ac387c7c72feab5cbbcb3fcd83761ba83" id="r_ac387c7c72feab5cbbcb3fcd83761ba83"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac387c7c72feab5cbbcb3fcd83761ba83">resize</a> (self, int newSize)</td></tr>
 <tr class="memitem:a89d886914bd373e4fc0fbfdacf65d512" id="r_a89d886914bd373e4fc0fbfdacf65d512"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89d886914bd373e4fc0fbfdacf65d512">resize</a> (self, int newSize, <a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a> t)</td></tr>
-<tr class="memitem:a6dc4848d46be0856b315f8a868605b0a" id="r_a6dc4848d46be0856b315f8a868605b0a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dc4848d46be0856b315f8a868605b0a">resizeNoInit</a> (self, int targetSize)</td></tr>
+<tr class="memitem:aedaf09687dca80c71463c413eb2fe822" id="r_aedaf09687dca80c71463c413eb2fe822"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedaf09687dca80c71463c413eb2fe822">resizeNoInit</a> (self, int targetSize, <a class="el" href="classmrmeshpy_1_1ReserveMode.html">ReserveMode</a> mode='MR::ReserveMode::Exact')</td></tr>
 <tr class="memitem:a92f5fa646cd9b65ef35122c0b7f792e2" id="r_a92f5fa646cd9b65ef35122c0b7f792e2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92f5fa646cd9b65ef35122c0b7f792e2">resizeWithReserve</a> (self, int newSize)</td></tr>
 <tr class="memitem:aeff09a28e32f7f3cdf0899c9aed968c9" id="r_aeff09a28e32f7f3cdf0899c9aed968c9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeff09a28e32f7f3cdf0899c9aed968c9">resizeWithReserve</a> (self, int newSize, <a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a> value)</td></tr>
 <tr class="memitem:a594da62997d0522fbfb0f5457bcff503" id="r_a594da62997d0522fbfb0f5457bcff503"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a594da62997d0522fbfb0f5457bcff503">shrink_to_fit</a> (self)</td></tr>
@@ -858,8 +858,8 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
 
 </div>
 </div>
-<a id="a6dc4848d46be0856b315f8a868605b0a" name="a6dc4848d46be0856b315f8a868605b0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6dc4848d46be0856b315f8a868605b0a">&#9670;&#160;</a></span>resizeNoInit()</h2>
+<a id="aedaf09687dca80c71463c413eb2fe822" name="aedaf09687dca80c71463c413eb2fe822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedaf09687dca80c71463c413eb2fe822">&#9670;&#160;</a></span>resizeNoInit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -872,7 +872,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ReserveMode.html">ReserveMode</a> </td>          <td class="paramname"><span class="paramname"><em>mode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::ReserveMode::Exact'</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

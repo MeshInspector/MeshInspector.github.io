@@ -9096,6 +9096,10 @@ Public Types</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="memdesc:a2cfe11534ca643c46387ccc93c6822d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Various passes of the 3D rendering.  <a href="#a2cfe11534ca643c46387ccc93c6822d4">More...</a><br /></td></tr>
+<tr class="memitem:a0c944d981410e88c76f9aa0f222c0706" id="r_a0c944d981410e88c76f9aa0f222c0706"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c944d981410e88c76f9aa0f222c0706">ReserveMode</a> : int { <a class="el" href="#a0c944d981410e88c76f9aa0f222c0706a1649aed298f99d587e2eb30c1db5946b">Exact</a> = 0
+, <a class="el" href="#a0c944d981410e88c76f9aa0f222c0706a8c9660e13feab2278a3b528bb4dd8f24">Grow</a> = 1
+ }</td></tr>
+<tr class="memdesc:a0c944d981410e88c76f9aa0f222c0706"><td class="mdescLeft">&#160;</td><td class="mdescRight">how resizeNoInit reserves the memory when the capacity is short  <a href="#a0c944d981410e88c76f9aa0f222c0706">More...</a><br /></td></tr>
 <tr class="memitem:a84b05c595bca2e76755d6b627c5b940e" id="r_a84b05c595bca2e76755d6b627c5b940e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84b05c595bca2e76755d6b627c5b940e">ScalarType</a> : int { <br />
 &#160;&#160;<a class="el" href="#a84b05c595bca2e76755d6b627c5b940eab31df9c476d20e85ff898121efe11b5a">UInt8</a> = 0
 , <a class="el" href="#a84b05c595bca2e76755d6b627c5b940ea7d839b2c12bfd40ac121b4cc9e81c539">Int8</a> = 1
@@ -13861,6 +13865,28 @@ Related Symbols</h2></td></tr>
 <tr><td class="fieldname"><a id="a03d4edadbdc62c017d82e673d2a01d6ba011f8c8ff21179c288b0492878ac5954" name="a03d4edadbdc62c017d82e673d2a01d6ba011f8c8ff21179c288b0492878ac5954"></a>Lexicographically&#160;</td><td class="fielddoc"><p>the order is determined by lexicographical sorting by coordinates (optimal for uniform sampling) </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" name="a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8"></a>AABBTree&#160;</td><td class="fielddoc"><p>the order is determined so to put close in space points in close indices (optimal for compression) </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a0c944d981410e88c76f9aa0f222c0706" name="a0c944d981410e88c76f9aa0f222c0706"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c944d981410e88c76f9aa0f222c0706">&#9670;&#160;</a></span>ReserveMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a0c944d981410e88c76f9aa0f222c0706">MR.ReserveMode</a> : int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>how resizeNoInit reserves the memory when the capacity is short </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0c944d981410e88c76f9aa0f222c0706a1649aed298f99d587e2eb30c1db5946b" name="a0c944d981410e88c76f9aa0f222c0706a1649aed298f99d587e2eb30c1db5946b"></a>Exact&#160;</td><td class="fielddoc"><p>exactly the target size: for a vector resized once </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a0c944d981410e88c76f9aa0f222c0706a8c9660e13feab2278a3b528bb4dd8f24" name="a0c944d981410e88c76f9aa0f222c0706a8c9660e13feab2278a3b528bb4dd8f24"></a>Grow&#160;</td><td class="fielddoc"><p>at least twice the capacity, as push_back does, so repeated small growths copy the elements only O(log) times </p>
 </td></tr>
 </table>
 

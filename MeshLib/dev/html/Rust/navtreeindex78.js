@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"structmeshlib_1_1MeshOnVoxelsT__MR__Mesh__MR__SimpleVolumeMinMax.html#a0e27806bf07f0bff4860e1740d0d4aba":[9,5,1,0,0,601,12],
 "structmeshlib_1_1MeshOnVoxelsT__MR__Mesh__MR__SimpleVolumeMinMax.html#a260de5478bf3102cd624b739119b9c63":[9,5,0,0,0,614,6],
 "structmeshlib_1_1MeshOnVoxelsT__MR__Mesh__MR__SimpleVolumeMinMax.html#a260de5478bf3102cd624b739119b9c63":[9,5,1,0,0,601,6],
 "structmeshlib_1_1MeshOnVoxelsT__MR__Mesh__MR__SimpleVolumeMinMax.html#a2bb8b9be0caa63637dc9688b77377338":[9,5,0,0,0,614,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "structmeshlib_1_1MeshOrPoints__ProjectionResult.html#ad644e6e07547dec64aca6d4be22f4c44":[9,5,1,0,0,604,15],
 "structmeshlib_1_1MeshOrPoints__ProjectionResult.html#ae3c2f8550dcb713c44653193bcae4201":[9,5,0,0,0,617,17],
 "structmeshlib_1_1MeshOrPoints__ProjectionResult.html#ae3c2f8550dcb713c44653193bcae4201":[9,5,1,0,0,604,17],
-"structmeshlib_1_1MeshOrPoints__ProjectionResult.html#ae4e28977e63342da76bac1b45b810c36":[9,5,0,0,0,617,13],
-"structmeshlib_1_1MeshOrPoints__ProjectionResult.html#ae4e28977e63342da76bac1b45b810c36":[9,5,1,0,0,604,13]
+"structmeshlib_1_1MeshOrPoints__ProjectionResult.html#ae4e28977e63342da76bac1b45b810c36":[9,5,0,0,0,617,13]
 };

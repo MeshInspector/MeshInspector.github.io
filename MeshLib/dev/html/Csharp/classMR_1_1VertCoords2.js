@@ -21,7 +21,7 @@ var classMR_1_1VertCoords2 =
     [ "reserve", "classMR_1_1VertCoords2.html#aa50611c904390de741f778efdee9213b", null ],
     [ "resize", "classMR_1_1VertCoords2.html#abe556153763522dc7af308111f5c0053", null ],
     [ "resize", "classMR_1_1VertCoords2.html#aa663c311a19f4761dcbc2396455d4d90", null ],
-    [ "resizeNoInit", "classMR_1_1VertCoords2.html#ac468fdd342b9e362b236e46c963209c9", null ],
+    [ "resizeNoInit", "classMR_1_1VertCoords2.html#a12b0dcde5b7730d30237cd5871c95953", null ],
     [ "resizeWithReserve", "classMR_1_1VertCoords2.html#ad68998e5cd0e38b95b3dadcef8e59d32", null ],
     [ "resizeWithReserve", "classMR_1_1VertCoords2.html#a568a99ea9710983e712ce7eedd296bba", null ],
     [ "shrinkToFit", "classMR_1_1VertCoords2.html#a2a674be5f797167165c01f4c4ca1d535", null ],

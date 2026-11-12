@@ -165,7 +165,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acb58351e6ec516f518dfc87ff2d66407" id="r_acb58351e6ec516f518dfc87ff2d66407"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb58351e6ec516f518dfc87ff2d66407">max_size</a> ()</td></tr>
 <tr class="memitem:acac7dfd649de81cb27ea5e83e8ee15d1" id="r_acac7dfd649de81cb27ea5e83e8ee15d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acac7dfd649de81cb27ea5e83e8ee15d1">resize</a> (long newSize)</td></tr>
 <tr class="memitem:a0adc61e109d910cabb8d36116c4451f9" id="r_a0adc61e109d910cabb8d36116c4451f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0adc61e109d910cabb8d36116c4451f9">resize</a> (long newSize, <a class="el" href="classmeshlib_1_1Color.html">meshlib.Color</a> t)</td></tr>
-<tr class="memitem:a12e3065665b48dfeacea8b58cbd10cd8" id="r_a12e3065665b48dfeacea8b58cbd10cd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12e3065665b48dfeacea8b58cbd10cd8">resizeNoInit</a> (long targetSize)</td></tr>
+<tr class="memitem:abd019b40bc963c21042a864753d2ef34" id="r_abd019b40bc963c21042a864753d2ef34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd019b40bc963c21042a864753d2ef34">resizeNoInit</a> (long targetSize, <a class="el" href="classmeshlib_1_1ReserveMode.html">meshlib.ReserveMode</a> mode)</td></tr>
 <tr class="memitem:a3d9a464cb9bcd9a0913cd0ee262c05f9" id="r_a3d9a464cb9bcd9a0913cd0ee262c05f9"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d9a464cb9bcd9a0913cd0ee262c05f9">capacity</a> ()</td></tr>
 <tr class="memitem:a5d634b4f789dc63bdeee4eb90651173a" id="r_a5d634b4f789dc63bdeee4eb90651173a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d634b4f789dc63bdeee4eb90651173a">reserve</a> (long <a class="el" href="#a3d9a464cb9bcd9a0913cd0ee262c05f9">capacity</a>)</td></tr>
 <tr class="memitem:a8c228aca22f17f22d092c5b33f1364d0" id="r_a8c228aca22f17f22d092c5b33f1364d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c228aca22f17f22d092c5b33f1364d0">shrink_to_fit</a> ()</td></tr>
@@ -887,8 +887,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a12e3065665b48dfeacea8b58cbd10cd8" name="a12e3065665b48dfeacea8b58cbd10cd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12e3065665b48dfeacea8b58cbd10cd8">&#9670;&#160;</a></span>resizeNoInit()</h2>
+<a id="abd019b40bc963c21042a864753d2ef34" name="abd019b40bc963c21042a864753d2ef34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd019b40bc963c21042a864753d2ef34">&#9670;&#160;</a></span>resizeNoInit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -896,8 +896,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void meshlib.VertColors.resizeNoInit </td>
           <td>(</td>
-          <td class="paramtype">long</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span></td><td>)</td>
+          <td class="paramtype">long</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1ReserveMode.html">meshlib.ReserveMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

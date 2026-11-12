@@ -1,5 +1,9 @@
 var NAVTREEINDEX108 =
 {
+"classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html#a98da7f89fccf695884de35dc929079ba":[9,3,0,0,0,1263,5,4,3],
+"classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html#aae77106d64901c6debe3adb9524a8cd2":[9,3,0,0,0,1263,5,4,1],
+"classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html#ae3f0b897643239872e57d18a889342ec":[9,3,0,0,0,1263,5,4,2],
+"classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f.html":[9,3,0,0,0,1263,5,5],
 "classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f.html#a210e033a7f53c9ef30eb42c335356fc5":[9,3,0,0,0,1263,5,5,3],
 "classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f.html#a877825b50aac3f3393ed3d9e0c6337ff":[9,3,0,0,0,1263,5,5,0],
 "classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f.html#a9640b01c63cdbf74f5fd1df8d9c2b98d":[9,3,0,0,0,1263,5,5,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX108 =
 "classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html#ad1674c599cf851a6bac3d1c091e1a71e":[9,3,0,0,0,1269,1,3,4],
 "classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html#ae3a38c44f82c03d998889ab45c4bc7c5":[9,3,0,0,0,1269,1,3,6],
 "classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html#afacae52dbf665d0f90ede419db089c8b":[9,3,0,0,0,1269,1,3,3],
-"classMR_1_1FindDisorientationParams.html":[9,3,0,0,0,1270],
-"classMR_1_1FindDisorientationParams.html#a22f525f95365f524c74f821d3f2d946a":[9,3,0,0,0,1270,5],
-"classMR_1_1FindDisorientationParams.html#a5a8334df1e9ecf84c6bea4f4d2180f2e":[9,3,0,0,0,1270,0],
-"classMR_1_1FindDisorientationParams.html#a6706010e3fdf4bceda30e36a3cd017ea":[9,3,0,0,0,1270,4],
-"classMR_1_1FindDisorientationParams.html#a7c8b77fe078d4351170c27bde91cf33d":[9,3,0,0,0,1270,8]
+"classMR_1_1FindDisorientationParams.html":[9,3,0,0,0,1270]
 };

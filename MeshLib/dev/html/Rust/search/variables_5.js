@@ -8,5 +8,6 @@ var searchData=
   ['equivalent_5',['equivalent',['../structmeshlib_1_1std__partial__ordering.html#a28212824cf6dc2fd4ae6e9d5e6246464',1,'meshlib::std_partial_ordering']]],
   ['euclidean_6',['euclidean',['../structmeshlib_1_1DistanceMeasurementObject__DistanceMode.html#a732541bcd30a3008d9f399d5e261389f',1,'meshlib::DistanceMeasurementObject_DistanceMode']]],
   ['euclideanwithabsolutedeltasperaxis_7',['euclideanWithAbsoluteDeltasPerAxis',['../structmeshlib_1_1DistanceMeasurementObject__DistanceMode.html#a6be460af6a5d7dbd0cfb6439a44a143c',1,'meshlib::DistanceMeasurementObject_DistanceMode']]],
-  ['euclideanwithsigneddeltasperaxis_8',['euclideanWithSignedDeltasPerAxis',['../structmeshlib_1_1DistanceMeasurementObject__DistanceMode.html#a059bc1128c64a2c6c4a9325fd891b3bf',1,'meshlib::DistanceMeasurementObject_DistanceMode']]]
+  ['euclideanwithsigneddeltasperaxis_8',['euclideanWithSignedDeltasPerAxis',['../structmeshlib_1_1DistanceMeasurementObject__DistanceMode.html#a059bc1128c64a2c6c4a9325fd891b3bf',1,'meshlib::DistanceMeasurementObject_DistanceMode']]],
+  ['exact_9',['Exact',['../structmeshlib_1_1ReserveMode.html#a9fbfe83e776e4224772edd66e244c396',1,'meshlib::ReserveMode']]]
 ];

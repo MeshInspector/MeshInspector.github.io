@@ -318,6 +318,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRRegularMapMesher.cs", "MRRegularMapMesher_8cs.html", "MRRegularMapMesher_8cs" ],
     [ "MRRelaxParams.cs", "MRRelaxParams_8cs.html", "MRRelaxParams_8cs" ],
     [ "MRRenderModelParameters.cs", "MRRenderModelParameters_8cs.html", "MRRenderModelParameters_8cs" ],
+    [ "MRResizeNoInit.cs", "MRResizeNoInit_8cs.html", "MRResizeNoInit_8cs" ],
     [ "MRRigidScaleXf3.cs", "MRRigidScaleXf3_8cs.html", "MRRigidScaleXf3_8cs" ],
     [ "MRRigidXf3.cs", "MRRigidXf3_8cs.html", "MRRigidXf3_8cs" ],
     [ "MRRigidXfRansac.cs", "MRRigidXfRansac_8cs.html", "MRRigidXfRansac_8cs" ],

@@ -29,7 +29,7 @@ var structmeshlib_1_1FaceNormals =
     [ "reserve", "structmeshlib_1_1FaceNormals.html#aef74604fe25dfabe7258e522b8513531", null ],
     [ "resize_1", "structmeshlib_1_1FaceNormals.html#afc874eca864c352df0f2f2af2d237101", null ],
     [ "resize_2", "structmeshlib_1_1FaceNormals.html#ac8750e47d1a87590938434575a8bef36", null ],
-    [ "resize_no_init", "structmeshlib_1_1FaceNormals.html#ad5acd4363792171debb2a922b89c5f24", null ],
+    [ "resize_no_init", "structmeshlib_1_1FaceNormals.html#afd4f22a6bdbb629c868727cc63e1691d", null ],
     [ "resize_with_reserve_1", "structmeshlib_1_1FaceNormals.html#a87bace6a8b62cecb656385a33c980ba9", null ],
     [ "resize_with_reserve_2", "structmeshlib_1_1FaceNormals.html#a3571e3c1cb951b8ae148c7ba568ac3fc", null ],
     [ "set_vec", "structmeshlib_1_1FaceNormals.html#a01583d35c43d3e24e7f5ced615b6e1c9", null ],

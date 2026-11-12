@@ -162,7 +162,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a687d277f73057304a755a28c9e33e8d2" id="r_a687d277f73057304a755a28c9e33e8d2"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a687d277f73057304a755a28c9e33e8d2">max_size</a> () const -&gt; usize</td></tr>
 <tr class="memitem:a426b690f13649c5815d50f5023dd2e66" id="r_a426b690f13649c5815d50f5023dd2e66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a426b690f13649c5815d50f5023dd2e66">resize_1</a> (newSize:usize)</td></tr>
 <tr class="memitem:a911eb013324a17cccbbbb26cd7e5933d" id="r_a911eb013324a17cccbbbb26cd7e5933d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a911eb013324a17cccbbbb26cd7e5933d">resize_2</a> (newSize:usize, t:&amp;<a class="el" href="structmeshlib_1_1Id__MR__SurfaceDistanceStartTag.html">meshlib::Id_MR_SurfaceDistanceStartTag</a>)</td></tr>
-<tr class="memitem:afe571db2cffeab0a6d4d5e432e2c92cb" id="r_afe571db2cffeab0a6d4d5e432e2c92cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe571db2cffeab0a6d4d5e432e2c92cb">resize_no_init</a> (targetSize:usize)</td></tr>
+<tr class="memitem:a610a10ca4f64e487b1c830ce4e85cdd3" id="r_a610a10ca4f64e487b1c830ce4e85cdd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a610a10ca4f64e487b1c830ce4e85cdd3">resize_no_init</a> (targetSize:usize, mode:Option&lt; <a class="el" href="structmeshlib_1_1ReserveMode.html">meshlib::ReserveMode</a> &gt;)</td></tr>
 <tr class="memitem:a1fa654f37a8e6c93151a7007c070ecc6" id="r_a1fa654f37a8e6c93151a7007c070ecc6"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fa654f37a8e6c93151a7007c070ecc6">capacity</a> () const -&gt; usize</td></tr>
 <tr class="memitem:a1cafe980cf3696847c43cc5c0b35f0eb" id="r_a1cafe980cf3696847c43cc5c0b35f0eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cafe980cf3696847c43cc5c0b35f0eb">reserve</a> (capacity:usize)</td></tr>
 <tr class="memitem:ae7769c08cca8af4e77a9702a3c50e452" id="r_ae7769c08cca8af4e77a9702a3c50e452"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7769c08cca8af4e77a9702a3c50e452">shrink_to_fit</a> ()</td></tr>
@@ -890,8 +890,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="afe571db2cffeab0a6d4d5e432e2c92cb" name="afe571db2cffeab0a6d4d5e432e2c92cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe571db2cffeab0a6d4d5e432e2c92cb">&#9670;&#160;</a></span>resize_no_init()</h2>
+<a id="a610a10ca4f64e487b1c830ce4e85cdd3" name="a610a10ca4f64e487b1c830ce4e85cdd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a610a10ca4f64e487b1c830ce4e85cdd3">&#9670;&#160;</a></span>resize_no_init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -899,8 +899,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void meshlib::Vector_MR_Id_MR_SurfaceDistanceStartTag_MR_VertId::resize_no_init </td>
           <td>(</td>
-          <td class="paramtype">targetSize:usize</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">targetSize:usize</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">mode:Option&lt; <a class="el" href="structmeshlib_1_1ReserveMode.html">meshlib::ReserveMode</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

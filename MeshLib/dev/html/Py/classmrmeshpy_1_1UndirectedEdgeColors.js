@@ -28,7 +28,7 @@ var classmrmeshpy_1_1UndirectedEdgeColors =
     [ "reserve", "classmrmeshpy_1_1UndirectedEdgeColors.html#a0058d1414d6a69b6b9d65e50d67025cc", null ],
     [ "resize", "classmrmeshpy_1_1UndirectedEdgeColors.html#afc00db4cbed3f25e03a8e9509b06d21c", null ],
     [ "resize", "classmrmeshpy_1_1UndirectedEdgeColors.html#ac6e1832cd6a52ba8fe664d54d1efd685", null ],
-    [ "resizeNoInit", "classmrmeshpy_1_1UndirectedEdgeColors.html#a98a45fadc0e06d0804431462e455e40e", null ],
+    [ "resizeNoInit", "classmrmeshpy_1_1UndirectedEdgeColors.html#a0759880df5e9ec1e64d9e3b54b0eb176", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1UndirectedEdgeColors.html#a71a96ab19e73d3702a65e7f6f8298b55", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1UndirectedEdgeColors.html#a9256258e8a8f4e5437b281e8e680cb66", null ],
     [ "shrink_to_fit", "classmrmeshpy_1_1UndirectedEdgeColors.html#ae6fec26952459b3a9684bb7f7642e2b4", null ],

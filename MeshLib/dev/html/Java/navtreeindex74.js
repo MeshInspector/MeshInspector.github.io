@@ -1,5 +1,6 @@
 var NAVTREEINDEX74 =
 {
+"classmeshlib_1_1Mesh.html#a3a8d77e8bbeaeb17c39f5600799c589c":[9,6,1,0,0,605,109],
 "classmeshlib_1_1Mesh.html#a3aa3b3379362bd1f5694fd00e98d024e":[9,6,0,0,0,605,89],
 "classmeshlib_1_1Mesh.html#a3aa3b3379362bd1f5694fd00e98d024e":[9,6,1,0,0,605,89],
 "classmeshlib_1_1Mesh.html#a3bb3f16dc0ee5bbe4aea8f5448544cbb":[9,6,0,0,0,605,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX74 =
 "classmeshlib_1_1MeshApproxRelaxParams.html#aef1cc6bb34f8afb134073c8352cf8ef6":[9,6,1,0,0,606,11],
 "classmeshlib_1_1MeshAttributesToUpdate.html":[9,6,0,0,0,607],
 "classmeshlib_1_1MeshAttributesToUpdate.html":[9,6,1,0,0,607],
-"classmeshlib_1_1MeshAttributesToUpdate.html#a01b017d9d4f1794e50364916fb034885":[9,6,0,0,0,607,11],
-"classmeshlib_1_1MeshAttributesToUpdate.html#a01b017d9d4f1794e50364916fb034885":[9,6,1,0,0,607,11]
+"classmeshlib_1_1MeshAttributesToUpdate.html#a01b017d9d4f1794e50364916fb034885":[9,6,0,0,0,607,11]
 };

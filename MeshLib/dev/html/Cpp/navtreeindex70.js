@@ -1,5 +1,8 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1Polyline.html#adcd14ead7b771006dcdc733950976288":[9,0,0,14,1,35],
+"structMR_1_1Polyline.html#ae04ad0d4adb7dd9912ec74fd39fcbad8":[9,0,0,14,1,23],
+"structMR_1_1Polyline.html#ae20e023266eab775d1ee6a336c27d7cd":[9,0,0,14,1,26],
 "structMR_1_1Polyline.html#ae6187af336b61283c5118d9aca6f0a12":[9,0,0,14,1,20],
 "structMR_1_1Polyline.html#aeaa90b34cd74ab76a35694d438baaf65":[9,0,0,14,1,29],
 "structMR_1_1Polyline.html#aee0339a19861aa52dd86eceea3e805b8":[9,0,0,14,1,32],
@@ -246,8 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1SearchPathSettings.html":[9,0,0,19,441],
 "structMR_1_1SegmEndColors.html":[9,0,0,19,842],
 "structMR_1_1SegmPoint.html":[9,0,0,0,25],
-"structMR_1_1SegmPoint.html":[9,0,0,19,515],
-"structMR_1_1SegmentSegmentIntersectResult.html":[9,0,0,19,487],
-"structMR_1_1SelfIntersections_1_1Settings.html":[9,0,0,19,274],
-"structMR_1_1SeparationPointStorage_1_1Block.html":[9,0,0,19,517]
+"structMR_1_1SegmPoint.html":[9,0,0,19,515]
 };

@@ -34,7 +34,7 @@ var classmeshlib_1_1FaceNormals =
     [ "reserve", "classmeshlib_1_1FaceNormals.html#a4e2f6e42e77b33a1a99b100196360e92", null ],
     [ "resize", "classmeshlib_1_1FaceNormals.html#a8ca8752f3f6d58320f9262803c0ee221", null ],
     [ "resize", "classmeshlib_1_1FaceNormals.html#a9e1f6ab9fc435138a372ee7d05b80864", null ],
-    [ "resizeNoInit", "classmeshlib_1_1FaceNormals.html#a92c2176ad39ab14275082c64e3b6f8b1", null ],
+    [ "resizeNoInit", "classmeshlib_1_1FaceNormals.html#a07eaafffbb1b133666ee74381c35110f", null ],
     [ "resizeWithReserve", "classmeshlib_1_1FaceNormals.html#a9b3cfbfa01a6693afd2e94863fc07f6b", null ],
     [ "resizeWithReserve", "classmeshlib_1_1FaceNormals.html#a6d79495f41d948b03a313c7ef8d50850", null ],
     [ "setVec", "classmeshlib_1_1FaceNormals.html#aabb15d5175ce6e5f366f3f684a1a29a0", null ],

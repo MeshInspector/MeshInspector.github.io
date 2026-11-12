@@ -895,6 +895,7 @@ var dir_e09892e4a4fe1e1db812108bb7b7ae9b =
     [ "RemeshSettings.java", "RemeshSettings_8java.html", "RemeshSettings_8java" ],
     [ "RenderModelPassMask.java", "RenderModelPassMask_8java.html", "RenderModelPassMask_8java" ],
     [ "Reorder.java", "Reorder_8java.html", "Reorder_8java" ],
+    [ "ReserveMode.java", "ReserveMode_8java.html", "ReserveMode_8java" ],
     [ "ResolveMeshDegenSettings.java", "ResolveMeshDegenSettings_8java.html", "ResolveMeshDegenSettings_8java" ],
     [ "RigidScaleXf3d.java", "RigidScaleXf3d_8java.html", "RigidScaleXf3d_8java" ],
     [ "RigidScaleXf3f.java", "RigidScaleXf3f_8java.html", "RigidScaleXf3f_8java" ],

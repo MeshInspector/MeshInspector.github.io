@@ -34,7 +34,7 @@ var classmeshlib_1_1WholeEdgeMap =
     [ "reserve", "classmeshlib_1_1WholeEdgeMap.html#aa7ae499c5250b23183781c260452358d", null ],
     [ "resize", "classmeshlib_1_1WholeEdgeMap.html#a0a38d11d96c149e22c925569d82f1909", null ],
     [ "resize", "classmeshlib_1_1WholeEdgeMap.html#a3a1039750f6584c3bc9c175785a9cc80", null ],
-    [ "resizeNoInit", "classmeshlib_1_1WholeEdgeMap.html#a6dbe153d32387c174f73267f6b72f120", null ],
+    [ "resizeNoInit", "classmeshlib_1_1WholeEdgeMap.html#aba15b1a1c69eae9de69b3f2af0bbe925", null ],
     [ "resizeWithReserve", "classmeshlib_1_1WholeEdgeMap.html#af11715d3bb351a2e9bd03ec5e6d85f10", null ],
     [ "resizeWithReserve", "classmeshlib_1_1WholeEdgeMap.html#a65dbcc6d3b01c2c28294437de2941db0", null ],
     [ "setVec", "classmeshlib_1_1WholeEdgeMap.html#a31c48e68e2a991f02a3c58f16e134236", null ],

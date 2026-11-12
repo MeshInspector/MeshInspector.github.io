@@ -29,7 +29,7 @@ var structmeshlib_1_1EdgeMap =
     [ "reserve", "structmeshlib_1_1EdgeMap.html#a4bcb28762b773469baa583b825d22325", null ],
     [ "resize_1", "structmeshlib_1_1EdgeMap.html#a77687eef06008451f4075e399e05cb99", null ],
     [ "resize_2", "structmeshlib_1_1EdgeMap.html#a660ff85ce9ed11cdabd5b15fc1b55ece", null ],
-    [ "resize_no_init", "structmeshlib_1_1EdgeMap.html#aa31dd36a76da034390b31b18b300452f", null ],
+    [ "resize_no_init", "structmeshlib_1_1EdgeMap.html#afcba06c0ba88e3df0290ed105a7e4900", null ],
     [ "resize_with_reserve_1", "structmeshlib_1_1EdgeMap.html#a87775739bbf4b39c516c8e02e793a899", null ],
     [ "resize_with_reserve_2", "structmeshlib_1_1EdgeMap.html#a071c0893c58511a4e273a27b766b393f", null ],
     [ "set_vec", "structmeshlib_1_1EdgeMap.html#a0fb91652b04b9bb2836840141f22e5a8", null ],
