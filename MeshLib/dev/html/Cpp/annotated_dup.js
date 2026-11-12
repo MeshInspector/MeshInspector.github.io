@@ -29,6 +29,7 @@ var annotated_dup =
         [ "FuncCallHelper", "classMR_1_1detail_1_1FuncCallHelper.html", "classMR_1_1detail_1_1FuncCallHelper" ],
         [ "HashMapSlots", "structMR_1_1detail_1_1HashMapSlots.html", "structMR_1_1detail_1_1HashMapSlots" ],
         [ "MakeScopeGuard", "structMR_1_1detail_1_1MakeScopeGuard.html", "structMR_1_1detail_1_1MakeScopeGuard" ],
+        [ "NoInitIterator", "structMR_1_1detail_1_1NoInitIterator.html", "structMR_1_1detail_1_1NoInitIterator" ],
         [ "PerturbationStagesOf", "classMR_1_1detail_1_1PerturbationStagesOf.html", "classMR_1_1detail_1_1PerturbationStagesOf" ],
         [ "PointDegree", "structMR_1_1detail_1_1PointDegree.html", "structMR_1_1detail_1_1PointDegree" ],
         [ "ScopeGuard", "classMR_1_1detail_1_1ScopeGuard.html", "classMR_1_1detail_1_1ScopeGuard" ]

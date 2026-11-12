@@ -184,7 +184,7 @@ Enumerations</h2></td></tr>
 <p>how resizeNoInit reserves the memory when the capacity is short </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a579dbb43746ee623b714e36a2c01dbaaa052d1054c5b40f69da65454bf3c701c9" name="a579dbb43746ee623b714e36a2c01dbaaa052d1054c5b40f69da65454bf3c701c9"></a>MR_ReserveMode_Exact&#160;</td><td class="fielddoc"><p>exactly the target size: for a vector resized once </p>
-<p>at least twice the capacity, as push_back does, so repeated small growths copy the elements only O(log) times </p>
+<p>the vector grows the capacity geometrically by its own policy, as push_back does, so repeated small growths copy the elements only O(log) times </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a579dbb43746ee623b714e36a2c01dbaaa3ca2599b4bbe5d77ec1b294d1710f900" name="a579dbb43746ee623b714e36a2c01dbaaa3ca2599b4bbe5d77ec1b294d1710f900"></a>MR_ReserveMode_Grow&#160;</td><td class="fielddoc"></td></tr>
 </table>

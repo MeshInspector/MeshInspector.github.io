@@ -932,7 +932,10 @@ var hierarchy =
     [ "MR::NoCtor< T >", "structMR_1_1NoCtor_3_01T_01_4.html", null ],
     [ "MR::AABBTreePoints::Node", "structMR_1_1AABBTreePoints_1_1Node.html", null ],
     [ "MR::NodeNode", "structMR_1_1NodeNode.html", null ],
-    [ "MR::NoInit", "structMR_1_1NoInit.html", null ],
+    [ "MR::NoInit", "structMR_1_1NoInit.html", [
+      [ "MR::detail::NoInitIterator< T >::Ref", "structMR_1_1detail_1_1NoInitIterator_1_1Ref.html", null ]
+    ] ],
+    [ "MR::detail::NoInitIterator< T >", "structMR_1_1detail_1_1NoInitIterator.html", null ],
     [ "MR::NoiseSettings", "structMR_1_1NoiseSettings.html", null ],
     [ "MR::NoModelCheck", "structMR_1_1NoModelCheck.html", null ],
     [ "MR::NormalsToPoints", "classMR_1_1NormalsToPoints.html", null ],
