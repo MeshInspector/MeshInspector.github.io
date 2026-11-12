@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -214,8 +207,8 @@ $(function(){initNavTree('MRMeshSave_8h_source.html','',''); });
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span></div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="group__MeshSaveGroup.html#ga8c9353b4703d4a74cbc6abf109e2f329">   94</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="group__MeshSaveGroup.html#ga8c9353b4703d4a74cbc6abf109e2f329">to3mf</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a> &amp; mesh, <span class="keyword">const</span> std::filesystem::path&amp; file, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp; settings = {} );</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span></div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">   97</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">toAnySupportedFormat</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a> &amp; mesh, <span class="keyword">const</span> std::filesystem::path &amp; file, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp; settings = {} );</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="group__MeshSaveGroup.html#gae312c46875e32db543db5c77bdc1d1df">   99</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">toAnySupportedFormat</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a> &amp; mesh, <span class="keyword">const</span> std::string&amp; extension, std::ostream&amp; out, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp; settings = {} );</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">   97</a></span>MR_BIND_OVERLOAD_SUFFIX() <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;<span class="keywordtype">void</span>&gt; <a class="code hl_function" href="group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">toAnySupportedFormat</a>( const <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a> &amp; mesh, const std::filesystem::path &amp; file, const <a class="code hl_struct" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp; settings = {} );</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="group__MeshSaveGroup.html#gae312c46875e32db543db5c77bdc1d1df">   99</a></span>MR_BIND_OVERLOAD_SUFFIX(stream) <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">toAnySupportedFormat</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a> &amp; mesh, <span class="keyword">const</span> std::string&amp; extension, std::ostream&amp; out, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp; settings = {} );</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span></div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>}</div>
@@ -243,7 +236,7 @@ $(function(){initNavTree('MRMeshSave_8h_source.html','',''); });
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga9513ef1ff3f501a7e44ca11e8020add4"><div class="ttname"><a href="group__MeshSaveGroup.html#ga9513ef1ff3f501a7e44ca11e8020add4">MR::MeshSave::toMrmesh</a></div><div class="ttdeci">Expected&lt; void &gt; toMrmesh(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_gac7864ffe508d7d2a043b6e5006080939"><div class="ttname"><a href="group__MeshSaveGroup.html#gac7864ffe508d7d2a043b6e5006080939">MR::MeshSave::toModel3mf</a></div><div class="ttdeci">Expected&lt; void &gt; toModel3mf(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div><div class="ttdoc">saves in 3mf .model file</div></div>
 <div class="ttc" id="anamespaceMR_1_1MeshSave_html"><div class="ttname"><a href="namespaceMR_1_1MeshSave.html">MR::MeshSave</a></div><div class="ttdef"><b>Definition</b> MRCtm.h:30</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh.h:24</div></div>
 <div class="ttc" id="astructMR_1_1SaveSettings_html"><div class="ttname"><a href="structMR_1_1SaveSettings.html">MR::SaveSettings</a></div><div class="ttdoc">determines how to save points/lines/mesh</div><div class="ttdef"><b>Definition</b> MRSaveSettings.h:20</div></div>
 <div class="ttc" id="astructMR_1_1TriMesh_html"><div class="ttname"><a href="structMR_1_1TriMesh.html">MR::TriMesh</a></div><div class="ttdef"><b>Definition</b> MRTriMesh.h:16</div></div>

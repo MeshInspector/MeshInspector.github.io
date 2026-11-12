@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -144,9 +137,9 @@ $(function(){initNavTree('classmrcudapy_1_1ComputeToolDistance.html','',''); });
 <p>This is the complete list of members for <a class="el" href="classmrcudapy_1_1ComputeToolDistance.html">mrcudapy.ComputeToolDistance</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classmrcudapy_1_1ComputeToolDistance.html#aeb4d3e4516c175d6d8e4c71fd4c8a0b5">__init__</a>(self)</td><td class="entry"><a class="el" href="classmrcudapy_1_1ComputeToolDistance.html">mrcudapy.ComputeToolDistance</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrcudapy_1_1ComputeToolDistance.html#a6c9ed90d622c75042e03434f2022639f">computeToolDistance</a>(self, meshlib.mrmeshpy.std_vector_float output, meshlib.mrmeshpy.Vector3i dims, float voxelSize, meshlib.mrmeshpy.Vector3f origin, float padding)</td><td class="entry"><a class="el" href="classmrcudapy_1_1ComputeToolDistance.html">mrcudapy.ComputeToolDistance</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrcudapy_1_1ComputeToolDistance.html#a416c48b0737aa904ef8e9586100aa4aa">prepare</a>(self, meshlib.mrmeshpy.Vector3i dims, meshlib.mrmeshpy.Polyline3 toolpath, meshlib.mrmeshpy.EndMillTool toolSpec)</td><td class="entry"><a class="el" href="classmrcudapy_1_1ComputeToolDistance.html">mrcudapy.ComputeToolDistance</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrcudapy_1_1ComputeToolDistance.html#ab354603bc9af1b7128aad60ecb88bc86">prepare</a>(self, meshlib.mrmeshpy.Vector3i dims, meshlib.mrmeshpy.Polyline3 toolpath, meshlib.mrmeshpy.Polyline2 toolProfile)</td><td class="entry"><a class="el" href="classmrcudapy_1_1ComputeToolDistance.html">mrcudapy.ComputeToolDistance</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrcudapy_1_1ConstComputeToolDistance.html#a37bf611810e83bbc06c389037bcc18e1">computeToolDistance</a>(self, meshlib.mrmeshpy.VoxelScalars output, meshlib.mrmeshpy.ConstVector3i dims, float voxelSize, meshlib.mrmeshpy.ConstVector3f origin, float padding)</td><td class="entry"><a class="el" href="classmrcudapy_1_1ConstComputeToolDistance.html">mrcudapy.ConstComputeToolDistance</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrcudapy_1_1ComputeToolDistance.html#a715d0fea7d7ca9ec9e462e6178f8eb56">prepare</a>(self, meshlib.mrmeshpy.ConstVector3i dims, meshlib.mrmeshpy.ConstPolyline3 toolpath, meshlib.mrmeshpy.ConstEndMillTool toolSpec)</td><td class="entry"><a class="el" href="classmrcudapy_1_1ComputeToolDistance.html">mrcudapy.ComputeToolDistance</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrcudapy_1_1ComputeToolDistance.html#acfd1c440f8a9dfa33548501739f578e0">prepare</a>(self, meshlib.mrmeshpy.ConstVector3i dims, meshlib.mrmeshpy.ConstPolyline3 toolpath, meshlib.mrmeshpy.ConstPolyline2 toolProfile)</td><td class="entry"><a class="el" href="classmrcudapy_1_1ComputeToolDistance.html">mrcudapy.ComputeToolDistance</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

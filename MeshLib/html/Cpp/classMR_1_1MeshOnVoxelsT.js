@@ -3,7 +3,7 @@ var classMR_1_1MeshOnVoxelsT =
     [ "MeshOnVoxelsT", "classMR_1_1MeshOnVoxelsT.html#aa2522900e56fc562b5695d5404ce54cf", null ],
     [ "MeshOnVoxelsT", "classMR_1_1MeshOnVoxelsT.html#a9c0013195051faeaea923c01ec680ab7", null ],
     [ "getOffsetVector", "classMR_1_1MeshOnVoxelsT.html#a29875bbb25aa6021a264a34721ca973b", null ],
-    [ "getPoints", "classMR_1_1MeshOnVoxelsT.html#a215560abd21a5fb626da225aae99c716", null ],
+    [ "getPoints", "classMR_1_1MeshOnVoxelsT.html#af58ef77dad414cc3d972d8af48ce149a", null ],
     [ "getValue", "classMR_1_1MeshOnVoxelsT.html#abdf80c44a70a73db372963471d7ad729", null ],
     [ "getValues", "classMR_1_1MeshOnVoxelsT.html#a6f94dc801e80cd28838910efea41b179", null ],
     [ "mesh", "classMR_1_1MeshOnVoxelsT.html#a11e86fffc23f0249974ea8afce2f6a52", null ],

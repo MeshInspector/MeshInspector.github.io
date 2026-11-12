@@ -13,7 +13,7 @@ var MRIRenderObject_8h =
       [ "MR::DepthFunction::Always", "group__GeneralGroup.html#ggaa1ff587f4ced1a1f1f1be9787830ef93a68eec46437c384d8dad18d5464ebc35c", null ],
       [ "MR::DepthFunction::Default", "group__GeneralGroup.html#ggaa1ff587f4ced1a1f1f1be9787830ef93a7a1920d61156abc05a60135aefe8bc67", null ]
     ] ],
-    [ "MR::createRenderObject", "group__GeneralGroup.html#gad5939add708452e0f1d36d597997afb1", null ],
-    [ "MR::createRenderObject", "group__GeneralGroup.html#ga2b57f8c854e9b524065d67dae1326d4c", null ],
-    [ "MR::makeRenderObjectConstructor", "group__GeneralGroup.html#ga914fb714c0f1a8f97d100a16c3d33af1", null ]
+    [ "MR::createRenderObject", "group__GeneralGroup.html#gaf018240f68014eb87767e7f67a9064f7", null ],
+    [ "MR::createRenderObject", "group__GeneralGroup.html#gaf37b578e79370926e91c874d3925889b", null ],
+    [ "MR::makeRenderObjectConstructor", "group__GeneralGroup.html#ga328bb54e142966b09b529c5ed868e453", null ]
 ];

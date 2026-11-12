@@ -1,16 +1,12 @@
 var classmrmeshpy_1_1Line3d =
 [
     [ "__init__", "classmrmeshpy_1_1Line3d.html#ab3be08ff96df256b8c7f026ce56ff118", null ],
-    [ "__init__", "classmrmeshpy_1_1Line3d.html#ad04120f553461f2f477756df6af8d917", null ],
-    [ "__init__", "classmrmeshpy_1_1Line3d.html#a7f237d20c1aa373e1e138890597fe2e3", null ],
-    [ "__call__", "classmrmeshpy_1_1Line3d.html#ab2737a02b21bfe6cf0719e3aa67dcc55", null ],
-    [ "__neg__", "classmrmeshpy_1_1Line3d.html#a8655a8ace33ca8e60f11dc86e9ca478c", null ],
-    [ "__pos__", "classmrmeshpy_1_1Line3d.html#a1996ed1a6377589128d4fdc564213ac4", null ],
-    [ "__repr__", "classmrmeshpy_1_1Line3d.html#ac9d4980501e63e4d343a800da36b4cf0", null ],
-    [ "__rlshift__", "classmrmeshpy_1_1Line3d.html#a948fe7b5256bc6250f9a785cd587547f", null ],
+    [ "__init__", "classmrmeshpy_1_1Line3d.html#a4e9d758ad26391388f48843a527b26df", null ],
+    [ "__init__", "classmrmeshpy_1_1Line3d.html#acf635eac5d2f2dd91ff24fe19e743e28", null ],
     [ "__rrshift__", "classmrmeshpy_1_1Line3d.html#a72c781da2e21cf0fb73bd77c00e5b3e3", null ],
-    [ "distanceSq", "classmrmeshpy_1_1Line3d.html#a3d600a5451411ad4ef9cd0005c93ec48", null ],
-    [ "normalized", "classmrmeshpy_1_1Line3d.html#a6a908a42e8f6cb10517c68243bf1dc6e", null ],
-    [ "project", "classmrmeshpy_1_1Line3d.html#aee02b302b746fb9e9704b7a4e35ff885", null ],
-    [ "projectionParam", "classmrmeshpy_1_1Line3d.html#ab0f5fcd8b63084a066a959a81a52cc15", null ]
+    [ "assign", "classmrmeshpy_1_1Line3d.html#a33a640a37894378a61e78c837a2cc090", null ],
+    [ "d", "classmrmeshpy_1_1Line3d.html#ad1dec24f27eaf38ad87785533d91fcae", null ],
+    [ "d", "classmrmeshpy_1_1Line3d.html#a7ab25439d315cd1f5498fb4d54ff3894", null ],
+    [ "p", "classmrmeshpy_1_1Line3d.html#af3a66e1fd5e13d0b9a824171ca06f5b2", null ],
+    [ "p", "classmrmeshpy_1_1Line3d.html#a044c332552afe2bede191f0778fa242c", null ]
 ];

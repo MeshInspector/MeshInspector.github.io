@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -141,7 +134,8 @@ $(function(){initNavTree('namespaceMR_1_1PlanarTriangulation.html','',''); });
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">MR::PlanarTriangulation Namespace Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
 </div><!--header-->
 <div class="contents">
@@ -187,9 +181,19 @@ Functions</h2></td></tr>
 <tr class="memitem:ga818dcd39c8d72c4d2a32fc940d6ad524" id="r_ga818dcd39c8d72c4d2a32fc940d6ad524"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga818dcd39c8d72c4d2a32fc940d6ad524">triangulateDisjointContours</a> (const <a class="el" href="group__GeneralGroup.html#ga8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;contours, <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> *cache=nullptr)</td></tr>
 <tr class="memitem:ga3b3c6c939868a97b44c3b77793d46515" id="r_ga3b3c6c939868a97b44c3b77793d46515"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3b3c6c939868a97b44c3b77793d46515">triangulateDisjointContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const Vector3f &amp;<a class="el" href="group__GeneralGroup.html#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>, WholeEdgeMap *outPatchMap=nullptr, <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> *cache=nullptr)</td></tr>
 <tr class="memdesc:ga3b3c6c939868a97b44c3b77793d46515"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulate hole boundary loops of <code class="param">mesh</code> in the mesh's own 3d space, orienting faces around <code class="param">normal</code> combinatorics run on the dominant-axis projection of <code class="param">normal</code>; output vertices keep the exact mesh coordinates (no projection round-trip), and loops sharing a mesh vertex are merged by identity.  <br /></td></tr>
-<tr class="memitem:ga2f9e9b49c88ebf29c5a8a41b0659b9a4" id="r_ga2f9e9b49c88ebf29c5a8a41b0659b9a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2f9e9b49c88ebf29c5a8a41b0659b9a4">triangulateDisjointContoursTopology</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const Vector3f &amp;<a class="el" href="group__GeneralGroup.html#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>, WholeEdgeMap &amp;outPatchMap, <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> &amp;cache)</td></tr>
+<tr class="memitem:ga670a4a3be38a53ff2d5cfb234592370d" id="r_ga670a4a3be38a53ff2d5cfb234592370d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga670a4a3be38a53ff2d5cfb234592370d">triangulateDisjointContoursTopology</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const Vector3f &amp;<a class="el" href="group__GeneralGroup.html#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>, WholeEdgeMap &amp;outPatchMap, <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> &amp;cache)</td></tr>
 <tr class="memitem:ga6bf92ff9850bc3bd73ec9926a31dcfed" id="r_ga6bf92ff9850bc3bd73ec9926a31dcfed"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6bf92ff9850bc3bd73ec9926a31dcfed">getMonotonePlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const Vector3f &amp;<a class="el" href="group__GeneralGroup.html#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>)</td></tr>
 <tr class="memdesc:ga6bf92ff9850bc3bd73ec9926a31dcfed"><td class="mdescLeft">&#160;</td><td class="mdescRight">splits the near-planar region bounded by <code class="param">loops</code> in monotone parts, without triangulating them this is the sweep-line triangulation stopped right after monotonation  <br /></td></tr>
+<tr class="memitem:ga4e1ca29ea8784415b917d52fea22c44d" id="r_ga4e1ca29ea8784415b917d52fea22c44d"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4e1ca29ea8784415b917d52fea22c44d">getMonotonePlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 3 &gt; &amp;tri, const std::function&lt; <a class="el" href="structMR_1_1PreciseCutPoint.html">PreciseCutPoint</a>(VertId)&gt; &amp;pointOf)</td></tr>
+<tr class="memitem:gaf4ebcc59118a772e43a75252ef34fa0c" id="r_gaf4ebcc59118a772e43a75252ef34fa0c"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="group__GeneralGroup.html#gab355986e338097e97435c68b33987055">EdgePair</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf4ebcc59118a772e43a75252ef34fa0c">findCrossings</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 3 &gt; &amp;tri, const std::function&lt; <a class="el" href="structMR_1_1PreciseCutPoint.html">PreciseCutPoint</a>(VertId)&gt; &amp;pointOf, const std::function&lt; std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 3 &gt;(UndirectedEdgeId)&gt; &amp;cutOf)</td></tr>
+<tr class="memitem:ga8bc0152e5ced5f2f43ae9d9ab1f243e1" id="r_ga8bc0152e5ced5f2f43ae9d9ab1f243e1"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="group__GeneralGroup.html#gab355986e338097e97435c68b33987055">EdgePair</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8bc0152e5ced5f2f43ae9d9ab1f243e1">findCrossings</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const Vector3f &amp;<a class="el" href="group__GeneralGroup.html#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>)</td></tr>
+<tr class="memitem:ga5b85bd1b838abfda7bd38936039e6c3c" id="r_ga5b85bd1b838abfda7bd38936039e6c3c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga5b85bd1b838abfda7bd38936039e6c3c">hasCrossing</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="group__GeneralGroup.html#ga18500a3df20aa256325c44e2c5b2b499">TwoVertIds</a> &gt; &amp;segments, const <a class="el" href="classMR_1_1CutTrianglePredicates.html">CutTrianglePredicates</a> &amp;preds, <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> *cache=nullptr)</td></tr>
+<tr class="memitem:ga6153a7ef1b8a82c3fb936a7ee38c5c39" id="r_ga6153a7ef1b8a82c3fb936a7ee38c5c39"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6153a7ef1b8a82c3fb936a7ee38c5c39">hasCrossing</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="group__GeneralGroup.html#ga18500a3df20aa256325c44e2c5b2b499">TwoVertIds</a> &gt; &amp;segments, const VertCoords &amp;points, const Vector3f &amp;<a class="el" href="group__GeneralGroup.html#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>, <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> *cache=nullptr)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ga7c3537adfba23ebaf54fedc6f9301ba8" id="r_ga7c3537adfba23ebaf54fedc6f9301ba8"><td class="memItemLeft" align="right" valign="top">constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7c3537adfba23ebaf54fedc6f9301ba8">cMaxSegmentsInPairs</a> = 32</td></tr>
+<tr class="memdesc:ga7c3537adfba23ebaf54fedc6f9301ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="group__GeneralGroup.html#ga5b85bd1b838abfda7bd38936039e6c3c">hasCrossing</a> tests up to this many segments in pairs, which is faster for them than the sweep, the only user of its cache with the exact predicates  <br /></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

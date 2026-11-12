@@ -14,18 +14,15 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="description" content="Convert text into a 3D mesh with MeshLib and get solid geometry from a string. Code samples in C++, Python and C."/>
 <title>MeshLib Documentation: Convert text to mesh</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -64,10 +61,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +70,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Documentation
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -143,9 +137,9 @@ $(function(){initNavTree('ExampleMeshFromText.html','',''); });
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2MeshFromText"></a></p>
 <p>Following code presents example of converting text to mesh</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRSymbolMesh/MRSymbolMesh.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRSymbolMesh_8h.html">MRSymbolMesh/MRSymbolMesh.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
@@ -160,20 +154,20 @@ $(function(){initNavTree('ExampleMeshFromText.html','',''); });
 <div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span>* text = argv[2];</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// set text-to-mesh parameters</span></div>
-<div class="line">    MR::SymbolMeshParams params {</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1SymbolMeshParams.html">MR::SymbolMeshParams</a> params {</div>
 <div class="line">        <span class="comment">// input text</span></div>
 <div class="line">        .text = text,</div>
 <div class="line">        <span class="comment">// font file name</span></div>
 <div class="line">        .pathToFontFile = fontPath,</div>
 <div class="line">    };</div>
-<div class="line">    <span class="keyword">auto</span> convRes = MR::createSymbolsMesh( params );</div>
+<div class="line">    <span class="keyword">auto</span> convRes = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga141a61d44641c538f45c2c292f7c2e59">MR::createSymbolsMesh</a>( params );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !convRes )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; <span class="stringliteral">&quot;Failed to convert text to mesh: &quot;</span> &lt;&lt; convRes.error() &lt;&lt; std::endl;</div>
 <div class="line">        <span class="keywordflow">return</span> EXIT_FAILURE;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( *convRes, <span class="stringliteral">&quot;mesh.ply&quot;</span> );</div>
+<div class="line">    <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a>( *convRes, <span class="stringliteral">&quot;mesh.ply&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !saveRes )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; <span class="stringliteral">&quot;Failed to save result: &quot;</span> &lt;&lt; saveRes.error() &lt;&lt; std::endl;</div>
@@ -183,7 +177,13 @@ $(function(){initNavTree('ExampleMeshFromText.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
-</div><!-- fragment --> <dl class="section see"><dt>See also</dt><dd>MR::createSymbolsMesh</dd></dl>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aMRSymbolMesh_8h_html"><div class="ttname"><a href="./Cpp/MRSymbolMesh_8h.html">MRSymbolMesh.h</a></div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga141a61d44641c538f45c2c292f7c2e59"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga141a61d44641c538f45c2c292f7c2e59">MR::createSymbolsMesh</a></div><div class="ttdeci">Expected&lt; Mesh &gt; createSymbolsMesh(const SymbolMeshParams &amp;params)</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_ga8c3547484d9f9d64e8d1d967225e190f"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+<div class="ttc" id="astructMR_1_1SymbolMeshParams_html"><div class="ttname"><a href="./Cpp/structMR_1_1SymbolMeshParams.html">MR::SymbolMeshParams</a></div></div>
+</div><!-- fragment --> <dl class="section see"><dt>See also</dt><dd><a class="elRef" href="./Cpp/group__GeneralGroup.html#ga141a61d44641c538f45c2c292f7c2e59">MR::createSymbolsMesh</a></dd></dl>
 </li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> sys</div>
 <div class="line"> </div>
@@ -222,7 +222,7 @@ $(function(){initNavTree('ExampleMeshFromText.html','',''); });
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line">    <span class="keywordflow">if</span> ( argc &lt; 3 )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Usage: MeshFromText fontpath text&quot;</span> );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Usage: MeshFromText fontpath text\n&quot;</span> );</div>
 <div class="line">        <span class="keywordflow">goto</span> bad_usage;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
@@ -231,14 +231,14 @@ $(function(){initNavTree('ExampleMeshFromText.html','',''); });
 <div class="line">    MR_SymbolMeshParams_Set_pathToFontFile( params, argv[1], NULL );</div>
 <div class="line"> </div>
 <div class="line">    MR_expected_MR_Mesh_std_string* convRes = MR_createSymbolsMesh( params );</div>
-<div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( convRes );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
+<div class="line">    MR_Mesh* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = MR_expected_MR_Mesh_std_string_value_mut( convRes );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to convert text to mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( convRes ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_conv;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;mesh.ply&quot;</span>, NULL, NULL );</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
@@ -254,6 +254,89 @@ $(function(){initNavTree('ExampleMeshFromText.html','',''); });
 <div class="line">    MR_SymbolMeshParams_Destroy( params );</div>
 <div class="line">bad_usage:</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
+<div class="line">}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>MeshFromTextExample</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (args.Length &lt; 2)</div>
+<div class="line">        {</div>
+<div class="line">            Console.Error.WriteLine(<span class="stringliteral">&quot;Usage: MeshFromText fontpath text&quot;</span>);</div>
+<div class="line">            Environment.Exit(1);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordtype">string</span> fontPath = args[0];</div>
+<div class="line">        <span class="keywordtype">string</span> text = args[1];</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// set text-to-mesh parameters</span></div>
+<div class="line">        <a class="code hl_structRef" href="./Cpp/structMR_1_1SymbolMeshParams.html">MR.SymbolMeshParams</a> parameters = <span class="keyword">new</span>();</div>
+<div class="line">        <span class="comment">// input text</span></div>
+<div class="line">        parameters.text.assign(text);</div>
+<div class="line">        <span class="comment">// font file name</span></div>
+<div class="line">        parameters.pathToFontFile.assign(fontPath);</div>
+<div class="line"> </div>
+<div class="line">        var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.createSymbolsMesh(parameters);</div>
+<div class="line"> </div>
+<div class="line">        <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;mesh.ply&quot;</span>);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="anamespaceMR_1_1MeshSave_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshSave.html">MR::MeshSave</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">use meshlib::SymbolMeshParams;</div>
+<div class="line"> </div>
+<div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
+<div class="line">{</div>
+<div class="line">    let args: Vec&lt;String&gt; = std::env::args().collect();</div>
+<div class="line">    if args.len() &lt; 3</div>
+<div class="line">    {</div>
+<div class="line">        return Err(&quot;Usage: MeshFromText fontpath text&quot;.to_string());</div>
+<div class="line">    }</div>
+<div class="line">    let font_path = &amp;args[1];</div>
+<div class="line">    let text = &amp;args[2];</div>
+<div class="line"> </div>
+<div class="line">    // set text-to-mesh parameters</div>
+<div class="line">    let mut params = SymbolMeshParams::new();</div>
+<div class="line">    // input text</div>
+<div class="line">    params.set_text(text);</div>
+<div class="line">    // font file name</div>
+<div class="line">    params.set_path_to_font_file(font_path);</div>
+<div class="line">    let mesh = meshlib::create_symbols_mesh(&amp;params).into_result().map_err(|error| format!(&quot;Failed to convert text to mesh: {error}&quot;))?;</div>
+<div class="line"> </div>
+<div class="line">    meshlib::mesh_save::to_any_supported_format(&amp;mesh, &quot;mesh.ply&quot;, None).into_result().map_err(|error| format!(&quot;Failed to save result: {error}&quot;))?;</div>
+<div class="line"> </div>
+<div class="line">    Ok(())</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.Functions;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.SymbolMeshParams;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>MeshFromText</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (args.length &lt; 2)</div>
+<div class="line">        {</div>
+<div class="line">            System.err.println(<span class="stringliteral">&quot;Usage: MeshFromText fontpath text&quot;</span>);</div>
+<div class="line">            System.exit(1);</div>
+<div class="line">        }</div>
+<div class="line">        String fontPath = args[0];</div>
+<div class="line">        String text = args[1];</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// set text-to-mesh parameters</span></div>
+<div class="line">        SymbolMeshParams params = <span class="keyword">new</span> SymbolMeshParams();</div>
+<div class="line">        <span class="comment">// input text</span></div>
+<div class="line">        params.setText(text);</div>
+<div class="line">        <span class="comment">// font file name</span></div>
+<div class="line">        params.setPathToFontFile(fontPath);</div>
+<div class="line">        <span class="comment">// An error is thrown as `UnexpectedResultException`.</span></div>
+<div class="line">        Mesh <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = Functions.createSymbolsMesh(params);</div>
+<div class="line"> </div>
+<div class="line">        meshlib.meshsave.Functions.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;mesh.ply&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
 </ul>

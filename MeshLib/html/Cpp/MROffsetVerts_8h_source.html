@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -191,8 +184,8 @@ $(function(){initNavTree('MROffsetVerts_8h_source.html','',''); });
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:85</div></div>
 <div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:759</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga036c60a88f141a437ffed0bc572fce6d"><div class="ttname"><a href="group__GeneralGroup.html#ga036c60a88f141a437ffed0bc572fce6d">MR::VertMetric</a></div><div class="ttdeci">std::function&lt; float(VertId)&gt; VertMetric</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:582</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:789</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga036c60a88f141a437ffed0bc572fce6d"><div class="ttname"><a href="group__GeneralGroup.html#ga036c60a88f141a437ffed0bc572fce6d">MR::VertMetric</a></div><div class="ttdeci">std::function&lt; float(VertId)&gt; VertMetric</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:606</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga34f71b57fc7b583b62d9b1eac40249b7"><div class="ttname"><a href="group__GeneralGroup.html#ga34f71b57fc7b583b62d9b1eac40249b7">MR::makeThickMesh</a></div><div class="ttdeci">Mesh makeThickMesh(const Mesh &amp;m, const ThickenParams &amp;params)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga54b1cc2d39c3846c72ff586818e3647d"><div class="ttname"><a href="group__GeneralGroup.html#ga54b1cc2d39c3846c72ff586818e3647d">MR::zCompensate</a></div><div class="ttdeci">bool zCompensate(Mesh &amp;mesh, const ZCompensateParams &amp;params)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga578b7a52eef31fdc9d31452210309bc2"><div class="ttname"><a href="group__GeneralGroup.html#ga578b7a52eef31fdc9d31452210309bc2">MR::expandHoles</a></div><div class="ttdeci">bool expandHoles(Mesh &amp;mesh, float expansion, const ProgressCallback &amp;cb={})</div></div>
@@ -206,7 +199,7 @@ $(function(){initNavTree('MROffsetVerts_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gac42c225e2b59dab20e2cbbea477458b1"><div class="ttname"><a href="group__GeneralGroup.html#gac42c225e2b59dab20e2cbbea477458b1">MR::ThickenParams::normalsTrustFactor</a></div><div class="ttdeci">float normalsTrustFactor</div><div class="ttdef"><b>Definition</b> MROffsetVerts.h:33</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gace23d61165b2d32752b31667f44c5306"><div class="ttname"><a href="group__GeneralGroup.html#gace23d61165b2d32752b31667f44c5306">MR::ZCompensateParams::maxShift</a></div><div class="ttdeci">float maxShift</div><div class="ttdef"><b>Definition</b> MROffsetVerts.h:45</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gad3160267e2d1fe91584968a7cf1387ff"><div class="ttname"><a href="group__GeneralGroup.html#gad3160267e2d1fe91584968a7cf1387ff">MR::findZcompensatedPositions</a></div><div class="ttdeci">std::optional&lt; VertCoords &gt; findZcompensatedPositions(const Mesh &amp;mesh, const ZCompensateParams &amp;params)</div><div class="ttdoc">finds vertices positions of the mesh after z-compensation without modifying the mesh</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh.h:24</div></div>
 <div class="ttc" id="astructMR_1_1ThickenParams_html"><div class="ttname"><a href="structMR_1_1ThickenParams.html">MR::ThickenParams</a></div><div class="ttdef"><b>Definition</b> MROffsetVerts.h:23</div></div>
 <div class="ttc" id="astructMR_1_1ZCompensateParams_html"><div class="ttname"><a href="structMR_1_1ZCompensateParams.html">MR::ZCompensateParams</a></div><div class="ttdef"><b>Definition</b> MROffsetVerts.h:42</div></div>

@@ -16,6 +16,8 @@ var namespaceMR_1_1MeshLoad =
     [ "fromBinaryStl", "namespaceMR_1_1MeshLoad.html#a0f49ad0b21c3acc94cbd3a39acd9b285", null ],
     [ "fromCtm", "group__GeneralGroup.html#ga5e70a0f21347569fd4dd9ebb7554f8fd", null ],
     [ "fromCtm", "group__GeneralGroup.html#gaab397c33ed047fb5ccbb545c3940957d", null ],
+    [ "fromDrc", "group__GeneralGroup.html#gafce514409e214aad754da493867e1929", null ],
+    [ "fromDrc", "group__GeneralGroup.html#ga94ca62ab59127307bb6e550c824ae036", null ],
     [ "fromDxf", "namespaceMR_1_1MeshLoad.html#a0889ea8de881e47d230b6958335bcd64", null ],
     [ "fromDxf", "namespaceMR_1_1MeshLoad.html#a237ce93a6f674962c499c791476e1839", null ],
     [ "fromMrmesh", "namespaceMR_1_1MeshLoad.html#a49d00efe33bc30d02b7d948b82e8c33e", null ],
@@ -34,5 +36,5 @@ var namespaceMR_1_1MeshLoad =
     [ "fromStep", "namespaceMR_1_1MeshLoad.html#af8cb15148c8421e06a2fb126237416d4", null ],
     [ "fromStep", "namespaceMR_1_1MeshLoad.html#a949d7b6686c5cb76b565854e32918ea5", null ],
     [ "loadObjectFromObj", "group__MeshLoadObjGroup.html#ga1050c330b0ab72a1f904d39a3297d93f", null ],
-    [ "telemetryLogSize", "namespaceMR_1_1MeshLoad.html#a56ffb5ceb885e2f5e2b965ce19ba299f", null ]
+    [ "telemetryLogSize", "namespaceMR_1_1MeshLoad.html#aa65ded146354439af8235dd0b03d898f", null ]
 ];

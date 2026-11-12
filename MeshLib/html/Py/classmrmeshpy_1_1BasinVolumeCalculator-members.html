@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -145,11 +138,10 @@ $(function(){initNavTree('classmrmeshpy_1_1BasinVolumeCalculator.html','',''); }
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html#acafc36561914b433ab058a766d8b784a">__init__</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html">mrmeshpy.BasinVolumeCalculator</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html#affe11b57e51dde09dd3a5f04cae674b4">__init__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html">mrmeshpy.BasinVolumeCalculator</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html#a79067136b45a3bf71ba3eab5057ffb87">__init__</a>(self, BasinVolumeCalculator arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html">mrmeshpy.BasinVolumeCalculator</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html#a28574059e11ebb76f3f34746d1d24284">addTerrainTri</a>(self, std_array_Vector3_float_3 t, float level)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html">mrmeshpy.BasinVolumeCalculator</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html#ac57ca0bc5a7c56a32e7a1e1788588029">getVolume</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html">mrmeshpy.BasinVolumeCalculator</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html#a7f541f5344bfb5d74afd283f0824f960">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html">mrmeshpy.BasinVolumeCalculator</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html#a7f541f5344bfb5d74afd283f0824f960">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html">mrmeshpy.BasinVolumeCalculator</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html#a74eeb8b0db4c6b7c5308d573f21992c1">__init__</a>(self, ConstBasinVolumeCalculator arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html">mrmeshpy.BasinVolumeCalculator</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html#a61325a99d095aa039f7ba638bc9a2c14">addTerrainTri</a>(self, Const_std_array_Vector3_float_3 t, float level)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html">mrmeshpy.BasinVolumeCalculator</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html#a86ca8abd91c6b6233aa0a8d19c0eb355">assign</a>(self, ConstBasinVolumeCalculator other)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1BasinVolumeCalculator.html">mrmeshpy.BasinVolumeCalculator</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstBasinVolumeCalculator.html#a00467ce21d6317d45d758bf57235b3a8">getVolume</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstBasinVolumeCalculator.html">mrmeshpy.ConstBasinVolumeCalculator</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

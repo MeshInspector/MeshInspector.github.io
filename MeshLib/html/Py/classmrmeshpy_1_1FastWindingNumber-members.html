@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -144,13 +137,13 @@ $(function(){initNavTree('classmrmeshpy_1_1FastWindingNumber.html','',''); });
 <p>This is the complete list of members for <a class="el" href="classmrmeshpy_1_1FastWindingNumber.html">mrmeshpy.FastWindingNumber</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#aa85a21a76fe829f3a9e2a62878a4e4ac">__init__</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html">mrmeshpy.FastWindingNumber</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a7ba6dc3984126638f82aa0b41ae1d3dc">__init__</a>(self, Mesh mesh)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html">mrmeshpy.FastWindingNumber</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a67eb4f9f380a5c4b35014233769e5838">__init__</a>(self, FastWindingNumber arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html">mrmeshpy.FastWindingNumber</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a1341c2a7d571acb031383a94d2e879be">calcFromGrid</a>(self, std_vector_float res, Vector3i dims, AffineXf3f gridToMeshXf, float beta, func_bool_from_float cb)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html">mrmeshpy.FastWindingNumber</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a8ef6b7c72e518ec149318e10b52c2517">calcFromGridWithDistances</a>(self, std_vector_float res, Vector3i dims, AffineXf3f gridToMeshXf, DistanceToMeshOptions options, func_bool_from_float cb)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html">mrmeshpy.FastWindingNumber</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a87c475e7b6d11e7db7a552e728557daf">calcFromVector</a>(self, std_vector_float res, std_vector_Vector3_float points, float beta, FaceId skipFace, func_bool_from_float cb)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html">mrmeshpy.FastWindingNumber</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a7985e3bad1020ca466fa56c9ba56ed87">calcSelfIntersections</a>(self, FaceBitSet res, float beta, func_bool_from_float cb)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html">mrmeshpy.FastWindingNumber</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a4bf8776d4a5e0e605528916a0705d638">calcWithDistances</a>(self, Vector3f p, DistanceToMeshOptions options)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html">mrmeshpy.FastWindingNumber</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a1c3ff8bbb982f04065a591209af09166">__init__</a>(self, ConstMesh mesh)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html">mrmeshpy.FastWindingNumber</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a78af478aad83eaeaaf70478abb9bbe21">__init__</a>(self, ConstFastWindingNumber arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html">mrmeshpy.FastWindingNumber</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a02d8789edba3f6e09fdd88bdb1a7ef9c">calcFromGrid</a>(self, std_vector_float res, ConstVector3i dims, ConstAffineXf3f gridToMeshXf, float beta, Const_func_bool_from_float cb)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html">mrmeshpy.FastWindingNumber</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a4fd4cb9a037437efa0190feed223e9a7">calcFromGridWithDistances</a>(self, VoxelScalars res, ConstVector3i dims, ConstAffineXf3f gridToMeshXf, ConstDistanceToMeshOptions options, Const_func_bool_from_float cb)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html">mrmeshpy.FastWindingNumber</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a2e5863ed7c18e1c706ac9be52b5a6340">calcFromVector</a>(self, std_vector_float res, Const_std_vector_Vector3_float points, float beta, ConstFaceId skipFace, Const_func_bool_from_float cb)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html">mrmeshpy.FastWindingNumber</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a6efc5be6c880e492bc50711fde81d5c7">calcSelfIntersections</a>(self, FaceBitSet res, float beta, Const_func_bool_from_float cb)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html">mrmeshpy.FastWindingNumber</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a8c552f7c1a0da2a3efaeb864cf92fe30">calcWithDistances</a>(self, ConstVector3f p, ConstDistanceToMeshOptions options)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FastWindingNumber.html">mrmeshpy.FastWindingNumber</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

@@ -6,7 +6,6 @@ var classMR_1_1Const__Vector__Double__MRRegionId =
     [ "Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html#aa3f7fc3bad2e8b8f321a7ae8cabfb1b4", null ],
     [ "Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html#a6c0ecf4777c756e6c499ff7eb09a5c91", null ],
     [ "Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html#a6d651b83a3380b81dbc59f46e5518f4b", null ],
-    [ "Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html#a7b4cb64d7c7e48ac3a4ee951e365e575", null ],
     [ "back", "classMR_1_1Const__Vector__Double__MRRegionId.html#a2d1332c8098ef24f02c1026bdc20296c", null ],
     [ "backId", "classMR_1_1Const__Vector__Double__MRRegionId.html#a1f8aa50349421b95cb910f066ae56385", null ],
     [ "beginId", "classMR_1_1Const__Vector__Double__MRRegionId.html#ae0e440e850ebc50db3745c72f8bc30bc", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__Vector__Double__MRRegionId =
     [ "Equals", "classMR_1_1Const__Vector__Double__MRRegionId.html#a821720d57606502737d562e779cb1cb4", null ],
     [ "Equals", "classMR_1_1Const__Vector__Double__MRRegionId.html#a6a5013707458bb1e5debef3bae6c2afe", null ],
     [ "front", "classMR_1_1Const__Vector__Double__MRRegionId.html#ab92df0aa0a8db4ad2a0e785379f8c5b0", null ],
-    [ "GetEnumerator", "classMR_1_1Const__Vector__Double__MRRegionId.html#addc7a6548e1ba18ea1b5199f1f195be9", null ],
     [ "heapBytes", "classMR_1_1Const__Vector__Double__MRRegionId.html#a213c96a16cd50b3efa6e0b5779b968b5", null ],
-    [ "operator Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html#af6bbff58d263f42f54dc3df960f88d59", null ],
+    [ "maxSize", "classMR_1_1Const__Vector__Double__MRRegionId.html#a388dc6295f91939891c42dbd92ae8bc1", null ],
     [ "operator!=", "classMR_1_1Const__Vector__Double__MRRegionId.html#a70a83e7aeaebc9460283ce1cd6121d1e", null ],
     [ "operator==", "classMR_1_1Const__Vector__Double__MRRegionId.html#aa26a44e3d0626d63a99f770a20f7d5d6", null ],
     [ "size", "classMR_1_1Const__Vector__Double__MRRegionId.html#a1b84e7f044e58423bf306db459d25702", null ],
     [ "this[MR.RegionId i]", "classMR_1_1Const__Vector__Double__MRRegionId.html#ab41586243cb34ad5684e05d7bfc69bb0", null ],
-    [ "vec", "classMR_1_1Const__Vector__Double__MRRegionId.html#a1d7d1fdf9161013ec588ef959738168b", null ]
+    [ "vec", "classMR_1_1Const__Vector__Double__MRRegionId.html#a7ad0a844eb7af3d3c47527e7054917b5", null ]
 ];

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,7 +133,6 @@ $(function(){initNavTree('classmrmeshpy_1_1ICPPairData.html','','classmrmeshpy_1
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1ICPPairData-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.ICPPairData Class Reference</div></div>
 </div><!--header-->
@@ -152,44 +144,49 @@ $(function(){initNavTree('classmrmeshpy_1_1ICPPairData.html','','classmrmeshpy_1
  <div class="center">
   <img src="classmrmeshpy_1_1ICPPairData.png" usemap="#mrmeshpy_2EICPPairData_map" alt=""/>
   <map id="mrmeshpy_2EICPPairData_map" name="mrmeshpy_2EICPPairData_map">
-<area href="classmrmeshpy_1_1ICPGroupPair.html" alt="mrmeshpy.ICPGroupPair" shape="rect" coords="0,56,151,80"/>
-<area href="classmrmeshpy_1_1PointPair.html" alt="mrmeshpy.PointPair" shape="rect" coords="161,56,312,80"/>
+<area href="classmrmeshpy_1_1ConstICPPairData.html" alt="mrmeshpy.ConstICPPairData" shape="rect" coords="92,0,266,24"/>
+<area href="classmrmeshpy_1_1ICPGroupPair.html" alt="mrmeshpy.ICPGroupPair" shape="rect" coords="0,112,174,136"/>
+<area href="classmrmeshpy_1_1PointPair.html" alt="mrmeshpy.PointPair" shape="rect" coords="184,112,358,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab146480efc1ea9a30c3d8ca77e86519e" id="r_ab146480efc1ea9a30c3d8ca77e86519e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab146480efc1ea9a30c3d8ca77e86519e">__init__</a> (self)</td></tr>
-<tr class="memitem:a2edf225bad86490514eda1a00647fbf9" id="r_a2edf225bad86490514eda1a00647fbf9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2edf225bad86490514eda1a00647fbf9">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ICPPairData.html">ICPPairData</a> arg0)</td></tr>
-<tr class="memitem:aad2944fb50aa2e5e9b87ac6456aa9a06" id="r_aad2944fb50aa2e5e9b87ac6456aa9a06"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad2944fb50aa2e5e9b87ac6456aa9a06">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> <a class="el" href="#a30219ca3196957a77bb962d99a1fa358">srcPoint</a>, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> <a class="el" href="#a89482cc3aa04a939129275e013cec31d">srcNorm</a>, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> <a class="el" href="#a8fd5cbb59c667c22d5b48c5e0a3fe81e">tgtPoint</a>, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> <a class="el" href="#a962a452004d14db0007b9ce46984b430">tgtNorm</a>, float <a class="el" href="#a81a16851930b610d0f2da952f2e9dfb2">distSq</a>, float <a class="el" href="#a9a47e51ee552fd10d2b79ed1b21ef4f4">weight</a>)</td></tr>
+<tr class="memitem:a759cad82734b503657792b9efffa0f96" id="r_a759cad82734b503657792b9efffa0f96"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a759cad82734b503657792b9efffa0f96">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstICPPairData.html">ConstICPPairData</a> arg0)</td></tr>
+<tr class="memitem:a4afe6f1a13cf4023a33400ed0e689a8c" id="r_a4afe6f1a13cf4023a33400ed0e689a8c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4afe6f1a13cf4023a33400ed0e689a8c">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> <a class="el" href="#a30219ca3196957a77bb962d99a1fa358">srcPoint</a>, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> <a class="el" href="#a89482cc3aa04a939129275e013cec31d">srcNorm</a>, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> <a class="el" href="#a8fd5cbb59c667c22d5b48c5e0a3fe81e">tgtPoint</a>, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> <a class="el" href="#a962a452004d14db0007b9ce46984b430">tgtNorm</a>, float <a class="el" href="#a81a16851930b610d0f2da952f2e9dfb2">distSq</a>, float <a class="el" href="#a9a47e51ee552fd10d2b79ed1b21ef4f4">weight</a>)</td></tr>
+<tr class="memitem:a4f166bc58d6797c26881b465b92182e1" id="r_a4f166bc58d6797c26881b465b92182e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ICPPairData.html">ICPPairData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f166bc58d6797c26881b465b92182e1">assign</a> (self, <a class="el" href="classmrmeshpy_1_1ConstICPPairData.html">ConstICPPairData</a> other)</td></tr>
 <tr class="memitem:a81a16851930b610d0f2da952f2e9dfb2" id="r_a81a16851930b610d0f2da952f2e9dfb2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81a16851930b610d0f2da952f2e9dfb2">distSq</a> (self)</td></tr>
 <tr class="memitem:ad0bc3f78c9ae7c4183be09dfdde928b0" id="r_ad0bc3f78c9ae7c4183be09dfdde928b0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0bc3f78c9ae7c4183be09dfdde928b0">distSq</a> (self, float arg1)</td></tr>
 <tr class="memitem:a89482cc3aa04a939129275e013cec31d" id="r_a89482cc3aa04a939129275e013cec31d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89482cc3aa04a939129275e013cec31d">srcNorm</a> (self)</td></tr>
-<tr class="memitem:a515d9cd8b7997e018b8a5beac3198fa0" id="r_a515d9cd8b7997e018b8a5beac3198fa0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a515d9cd8b7997e018b8a5beac3198fa0">srcNorm</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> arg1)</td></tr>
+<tr class="memitem:a7529c680fb28e149486a568a888c23b2" id="r_a7529c680fb28e149486a568a888c23b2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7529c680fb28e149486a568a888c23b2">srcNorm</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> arg1)</td></tr>
 <tr class="memitem:a30219ca3196957a77bb962d99a1fa358" id="r_a30219ca3196957a77bb962d99a1fa358"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30219ca3196957a77bb962d99a1fa358">srcPoint</a> (self)</td></tr>
-<tr class="memitem:afda2b1f35f010bc4ec2c329159ea9bb7" id="r_afda2b1f35f010bc4ec2c329159ea9bb7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afda2b1f35f010bc4ec2c329159ea9bb7">srcPoint</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> arg1)</td></tr>
+<tr class="memitem:ad453e7dae8de8e3cbe5989d567121331" id="r_ad453e7dae8de8e3cbe5989d567121331"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad453e7dae8de8e3cbe5989d567121331">srcPoint</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> arg1)</td></tr>
 <tr class="memitem:a962a452004d14db0007b9ce46984b430" id="r_a962a452004d14db0007b9ce46984b430"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a962a452004d14db0007b9ce46984b430">tgtNorm</a> (self)</td></tr>
-<tr class="memitem:a06e2f5b153ceba9f49471637a8b885f4" id="r_a06e2f5b153ceba9f49471637a8b885f4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06e2f5b153ceba9f49471637a8b885f4">tgtNorm</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> arg1)</td></tr>
+<tr class="memitem:a0e4c73b5edd1edc13bba7773d7643cac" id="r_a0e4c73b5edd1edc13bba7773d7643cac"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e4c73b5edd1edc13bba7773d7643cac">tgtNorm</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> arg1)</td></tr>
 <tr class="memitem:a8fd5cbb59c667c22d5b48c5e0a3fe81e" id="r_a8fd5cbb59c667c22d5b48c5e0a3fe81e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fd5cbb59c667c22d5b48c5e0a3fe81e">tgtPoint</a> (self)</td></tr>
-<tr class="memitem:ae3543d2260c7847ebf61a1b2bd780d4b" id="r_ae3543d2260c7847ebf61a1b2bd780d4b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3543d2260c7847ebf61a1b2bd780d4b">tgtPoint</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> arg1)</td></tr>
+<tr class="memitem:af75d7bfd77d3624e956e8c7622647672" id="r_af75d7bfd77d3624e956e8c7622647672"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af75d7bfd77d3624e956e8c7622647672">tgtPoint</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> arg1)</td></tr>
 <tr class="memitem:a9a47e51ee552fd10d2b79ed1b21ef4f4" id="r_a9a47e51ee552fd10d2b79ed1b21ef4f4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a47e51ee552fd10d2b79ed1b21ef4f4">weight</a> (self)</td></tr>
 <tr class="memitem:a81e6a858233d91201b69b2364f6e675e" id="r_a81e6a858233d91201b69b2364f6e675e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81e6a858233d91201b69b2364f6e675e">weight</a> (self, float arg1)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstICPPairData"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstICPPairData')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstICPPairData.html">mrmeshpy.ConstICPPairData</a></td></tr>
+<tr class="memitem:a7566b14d863e1492bacd2079bf830f54 inherit pub_methods_classmrmeshpy_1_1ConstICPPairData" id="r_a7566b14d863e1492bacd2079bf830f54"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#a7566b14d863e1492bacd2079bf830f54">__init__</a> (self, *args, **kwargs)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a024a604081665729f2ae92aee9077513" id="r_a024a604081665729f2ae92aee9077513"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a024a604081665729f2ae92aee9077513">__eq__</a> (*args, **kwargs)</td></tr>
 <tr class="memitem:a7bc2607b710a53fc42a83a85f0d80a59" id="r_a7bc2607b710a53fc42a83a85f0d80a59"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bc2607b710a53fc42a83a85f0d80a59">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:aa82b32c73f27dd62a59416feeef2d4b6" id="r_aa82b32c73f27dd62a59416feeef2d4b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ICPPairData.html">ICPPairData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa82b32c73f27dd62a59416feeef2d4b6">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:aa82b32c73f27dd62a59416feeef2d4b6" id="r_aa82b32c73f27dd62a59416feeef2d4b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ICPPairData.html">ICPPairData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa82b32c73f27dd62a59416feeef2d4b6">operator</a> (*args, **kwargs)</td></tr>
+<tr class="inherit_header pub_static_methods_classmrmeshpy_1_1ConstICPPairData"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classmrmeshpy_1_1ConstICPPairData')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstICPPairData.html">mrmeshpy.ConstICPPairData</a></td></tr>
+<tr class="memitem:ad4fcd3a604b7dfed62858e0ba11da16c inherit pub_static_methods_classmrmeshpy_1_1ConstICPPairData" id="r_ad4fcd3a604b7dfed62858e0ba11da16c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#ad4fcd3a604b7dfed62858e0ba11da16c">__eq__</a> (*args, **kwargs)</td></tr>
+<tr class="memitem:aec8bdc8695f216edb0b99c2ea43364b9 inherit pub_static_methods_classmrmeshpy_1_1ConstICPPairData" id="r_aec8bdc8695f216edb0b99c2ea43364b9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#aec8bdc8695f216edb0b99c2ea43364b9">__ne__</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a975ad0f4fbf56b0b696b016bb5459394" id="r_a975ad0f4fbf56b0b696b016bb5459394"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a975ad0f4fbf56b0b696b016bb5459394">_offsetof_distSq</a> = 48</td></tr>
-<tr class="memitem:a2b21da77be31bc7aefe9d51008c2cf1c" id="r_a2b21da77be31bc7aefe9d51008c2cf1c"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b21da77be31bc7aefe9d51008c2cf1c">_offsetof_srcNorm</a> = 12</td></tr>
-<tr class="memitem:a9be727a0422ad006449afad101e0841d" id="r_a9be727a0422ad006449afad101e0841d"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9be727a0422ad006449afad101e0841d">_offsetof_srcPoint</a> = 0</td></tr>
-<tr class="memitem:a507276f8b26de9a904d2ec49bf33c393" id="r_a507276f8b26de9a904d2ec49bf33c393"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a507276f8b26de9a904d2ec49bf33c393">_offsetof_tgtNorm</a> = 36</td></tr>
-<tr class="memitem:a53baaf24a2f082c08ab6834b7a741adc" id="r_a53baaf24a2f082c08ab6834b7a741adc"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53baaf24a2f082c08ab6834b7a741adc">_offsetof_tgtPoint</a> = 24</td></tr>
-<tr class="memitem:a94e12fe9d68b29a4f4ac5fca26ae40b9" id="r_a94e12fe9d68b29a4f4ac5fca26ae40b9"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94e12fe9d68b29a4f4ac5fca26ae40b9">_offsetof_weight</a> = 52</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_static_attribs_classmrmeshpy_1_1ConstICPPairData"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classmrmeshpy_1_1ConstICPPairData')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Attributes inherited from <a class="el" href="classmrmeshpy_1_1ConstICPPairData.html">mrmeshpy.ConstICPPairData</a></td></tr>
+<tr class="memitem:aac1d500f58eed9873052b67e6c8858d8 inherit pro_static_attribs_classmrmeshpy_1_1ConstICPPairData" id="r_aac1d500f58eed9873052b67e6c8858d8"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#aac1d500f58eed9873052b67e6c8858d8">_offsetof_distSq</a> = 48</td></tr>
+<tr class="memitem:a3e24bda4aab54830c29fed43c8f04102 inherit pro_static_attribs_classmrmeshpy_1_1ConstICPPairData" id="r_a3e24bda4aab54830c29fed43c8f04102"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#a3e24bda4aab54830c29fed43c8f04102">_offsetof_srcNorm</a> = 12</td></tr>
+<tr class="memitem:aaf876bdaaeb609647c05ac29f6a0ddce inherit pro_static_attribs_classmrmeshpy_1_1ConstICPPairData" id="r_aaf876bdaaeb609647c05ac29f6a0ddce"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#aaf876bdaaeb609647c05ac29f6a0ddce">_offsetof_srcPoint</a> = 0</td></tr>
+<tr class="memitem:abdfd902192bc992b1b74d871082c6bb2 inherit pro_static_attribs_classmrmeshpy_1_1ConstICPPairData" id="r_abdfd902192bc992b1b74d871082c6bb2"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#abdfd902192bc992b1b74d871082c6bb2">_offsetof_tgtNorm</a> = 36</td></tr>
+<tr class="memitem:ac5fbf1287196fe8eb5b6859f0bbdcbca inherit pro_static_attribs_classmrmeshpy_1_1ConstICPPairData" id="r_ac5fbf1287196fe8eb5b6859f0bbdcbca"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#ac5fbf1287196fe8eb5b6859f0bbdcbca">_offsetof_tgtPoint</a> = 24</td></tr>
+<tr class="memitem:ad9dc9cc16cf46ec4e7f4763a6383d6ab inherit pro_static_attribs_classmrmeshpy_1_1ConstICPPairData" id="r_ad9dc9cc16cf46ec4e7f4763a6383d6ab"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#ad9dc9cc16cf46ec4e7f4763a6383d6ab">_offsetof_weight</a> = 52</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::ICPPairData
@@ -240,8 +237,8 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2edf225bad86490514eda1a00647fbf9" name="a2edf225bad86490514eda1a00647fbf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2edf225bad86490514eda1a00647fbf9">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+<a id="a759cad82734b503657792b9efffa0f96" name="a759cad82734b503657792b9efffa0f96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a759cad82734b503657792b9efffa0f96">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -254,7 +251,7 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ICPPairData.html">ICPPairData</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstICPPairData.html">ConstICPPairData</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -262,8 +259,8 @@ Static Protected Attributes</h2></td></tr>
 </pre> 
 </div>
 </div>
-<a id="aad2944fb50aa2e5e9b87ac6456aa9a06" name="aad2944fb50aa2e5e9b87ac6456aa9a06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad2944fb50aa2e5e9b87ac6456aa9a06">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
+<a id="a4afe6f1a13cf4023a33400ed0e689a8c" name="a4afe6f1a13cf4023a33400ed0e689a8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4afe6f1a13cf4023a33400ed0e689a8c">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -276,22 +273,22 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>srcPoint</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>srcPoint</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>srcNorm</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>srcNorm</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>tgtPoint</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>tgtPoint</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>tgtNorm</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>tgtNorm</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -310,32 +307,26 @@ Static Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a024a604081665729f2ae92aee9077513" name="a024a604081665729f2ae92aee9077513"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a024a604081665729f2ae92aee9077513">&#9670;&#160;</a></span>__eq__()</h2>
+<a id="a4f166bc58d6797c26881b465b92182e1" name="a4f166bc58d6797c26881b465b92182e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f166bc58d6797c26881b465b92182e1">&#9670;&#160;</a></span>assign()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"> bool mrmeshpy.ICPPairData.__eq__ </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1ICPPairData.html">ICPPairData</a> mrmeshpy.ICPPairData.assign </td>
           <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstICPPairData.html">ConstICPPairData</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1ICPGroupPair.html#a59aff3094a30c205fe65fa69b331fd51">mrmeshpy.ICPGroupPair</a>, and <a class="el" href="classmrmeshpy_1_1PointPair.html#a2234159ebcd7ab0abde33caad4eabfe0">mrmeshpy.PointPair</a>.</p>
 
 </div>
 </div>
@@ -355,6 +346,8 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <pre class="fragment">squared distance between source and target points
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#ac59cf6c30498c53875fd7665f29399a1">mrmeshpy.ConstICPPairData</a>.</p>
+
 </div>
 </div>
 <a id="ad0bc3f78c9ae7c4183be09dfdde928b0" name="ad0bc3f78c9ae7c4183be09dfdde928b0"></a>
@@ -375,68 +368,9 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa82b32c73f27dd62a59416feeef2d4b6" name="aa82b32c73f27dd62a59416feeef2d4b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa82b32c73f27dd62a59416feeef2d4b6">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1ICPPairData.html">ICPPairData</a> mrmeshpy.ICPPairData.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1ICPGroupPair.html#a7e1902a08bc33e478b1278f1264895a9">mrmeshpy.ICPGroupPair</a>, <a class="el" href="classmrmeshpy_1_1ICPGroupPair.html#a7e1902a08bc33e478b1278f1264895a9">mrmeshpy.ICPGroupPair</a>, <a class="el" href="classmrmeshpy_1_1PointPair.html#a2f4f5258029727ebf7a7082d37eb65f9">mrmeshpy.PointPair</a>, and <a class="el" href="classmrmeshpy_1_1PointPair.html#a2f4f5258029727ebf7a7082d37eb65f9">mrmeshpy.PointPair</a>.</p>
-
-</div>
-</div>
-<a id="aa82b32c73f27dd62a59416feeef2d4b6" name="aa82b32c73f27dd62a59416feeef2d4b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa82b32c73f27dd62a59416feeef2d4b6">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1ICPPairData.html">ICPPairData</a> mrmeshpy.ICPPairData.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1ICPGroupPair.html#a7e1902a08bc33e478b1278f1264895a9">mrmeshpy.ICPGroupPair</a>, <a class="el" href="classmrmeshpy_1_1ICPGroupPair.html#a7e1902a08bc33e478b1278f1264895a9">mrmeshpy.ICPGroupPair</a>, <a class="el" href="classmrmeshpy_1_1PointPair.html#a2f4f5258029727ebf7a7082d37eb65f9">mrmeshpy.PointPair</a>, and <a class="el" href="classmrmeshpy_1_1PointPair.html#a2f4f5258029727ebf7a7082d37eb65f9">mrmeshpy.PointPair</a>.</p>
+<pre class="fragment">squared distance between source and target points
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#ac59cf6c30498c53875fd7665f29399a1">mrmeshpy.ConstICPPairData</a>.</p>
 
 </div>
 </div>
@@ -456,10 +390,12 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <pre class="fragment">normal in source point after transforming in world space
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#a9d8342ec697e48a7ec4b5713ee171105">mrmeshpy.ConstICPPairData</a>.</p>
+
 </div>
 </div>
-<a id="a515d9cd8b7997e018b8a5beac3198fa0" name="a515d9cd8b7997e018b8a5beac3198fa0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a515d9cd8b7997e018b8a5beac3198fa0">&#9670;&#160;</a></span>srcNorm() <span class="overload">[2/2]</span></h2>
+<a id="a7529c680fb28e149486a568a888c23b2" name="a7529c680fb28e149486a568a888c23b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7529c680fb28e149486a568a888c23b2">&#9670;&#160;</a></span>srcNorm() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -472,10 +408,13 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">normal in source point after transforming in world space
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#a9d8342ec697e48a7ec4b5713ee171105">mrmeshpy.ConstICPPairData</a>.</p>
 
 </div>
 </div>
@@ -495,10 +434,12 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <pre class="fragment">coordinates of the source point after transforming in world space
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#a4cdcf15ae04e4f6bbb494c2c3c9796ca">mrmeshpy.ConstICPPairData</a>.</p>
+
 </div>
 </div>
-<a id="afda2b1f35f010bc4ec2c329159ea9bb7" name="afda2b1f35f010bc4ec2c329159ea9bb7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afda2b1f35f010bc4ec2c329159ea9bb7">&#9670;&#160;</a></span>srcPoint() <span class="overload">[2/2]</span></h2>
+<a id="ad453e7dae8de8e3cbe5989d567121331" name="ad453e7dae8de8e3cbe5989d567121331"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad453e7dae8de8e3cbe5989d567121331">&#9670;&#160;</a></span>srcPoint() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -511,10 +452,13 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">coordinates of the source point after transforming in world space
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#a4cdcf15ae04e4f6bbb494c2c3c9796ca">mrmeshpy.ConstICPPairData</a>.</p>
 
 </div>
 </div>
@@ -534,10 +478,12 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <pre class="fragment">normal in the target point after transforming in world space
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#a23fd04f73a6faa36a5a1471f236114d2">mrmeshpy.ConstICPPairData</a>.</p>
+
 </div>
 </div>
-<a id="a06e2f5b153ceba9f49471637a8b885f4" name="a06e2f5b153ceba9f49471637a8b885f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06e2f5b153ceba9f49471637a8b885f4">&#9670;&#160;</a></span>tgtNorm() <span class="overload">[2/2]</span></h2>
+<a id="a0e4c73b5edd1edc13bba7773d7643cac" name="a0e4c73b5edd1edc13bba7773d7643cac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e4c73b5edd1edc13bba7773d7643cac">&#9670;&#160;</a></span>tgtNorm() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -550,10 +496,13 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">normal in the target point after transforming in world space
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#a23fd04f73a6faa36a5a1471f236114d2">mrmeshpy.ConstICPPairData</a>.</p>
 
 </div>
 </div>
@@ -573,10 +522,12 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <pre class="fragment">coordinates of the closest point on target after transforming in world space
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#ad1020d3976c283eb59651f4f8cf707bb">mrmeshpy.ConstICPPairData</a>.</p>
+
 </div>
 </div>
-<a id="ae3543d2260c7847ebf61a1b2bd780d4b" name="ae3543d2260c7847ebf61a1b2bd780d4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3543d2260c7847ebf61a1b2bd780d4b">&#9670;&#160;</a></span>tgtPoint() <span class="overload">[2/2]</span></h2>
+<a id="af75d7bfd77d3624e956e8c7622647672" name="af75d7bfd77d3624e956e8c7622647672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af75d7bfd77d3624e956e8c7622647672">&#9670;&#160;</a></span>tgtPoint() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -589,10 +540,13 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">coordinates of the closest point on target after transforming in world space
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#ad1020d3976c283eb59651f4f8cf707bb">mrmeshpy.ConstICPPairData</a>.</p>
 
 </div>
 </div>
@@ -612,6 +566,8 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <pre class="fragment">weight of the pair (to prioritize over other pairs)
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#a7a02e87c1616d8e8d01daf2652bc4444">mrmeshpy.ConstICPPairData</a>.</p>
+
 </div>
 </div>
 <a id="a81e6a858233d91201b69b2364f6e675e" name="a81e6a858233d91201b69b2364f6e675e"></a>
@@ -632,139 +588,9 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a975ad0f4fbf56b0b696b016bb5459394" name="a975ad0f4fbf56b0b696b016bb5459394"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a975ad0f4fbf56b0b696b016bb5459394">&#9670;&#160;</a></span>_offsetof_distSq</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.ICPPairData._offsetof_distSq = 48</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2b21da77be31bc7aefe9d51008c2cf1c" name="a2b21da77be31bc7aefe9d51008c2cf1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b21da77be31bc7aefe9d51008c2cf1c">&#9670;&#160;</a></span>_offsetof_srcNorm</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.ICPPairData._offsetof_srcNorm = 12</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9be727a0422ad006449afad101e0841d" name="a9be727a0422ad006449afad101e0841d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9be727a0422ad006449afad101e0841d">&#9670;&#160;</a></span>_offsetof_srcPoint</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.ICPPairData._offsetof_srcPoint = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a507276f8b26de9a904d2ec49bf33c393" name="a507276f8b26de9a904d2ec49bf33c393"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a507276f8b26de9a904d2ec49bf33c393">&#9670;&#160;</a></span>_offsetof_tgtNorm</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.ICPPairData._offsetof_tgtNorm = 36</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a53baaf24a2f082c08ab6834b7a741adc" name="a53baaf24a2f082c08ab6834b7a741adc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53baaf24a2f082c08ab6834b7a741adc">&#9670;&#160;</a></span>_offsetof_tgtPoint</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.ICPPairData._offsetof_tgtPoint = 24</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a94e12fe9d68b29a4f4ac5fca26ae40b9" name="a94e12fe9d68b29a4f4ac5fca26ae40b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94e12fe9d68b29a4f4ac5fca26ae40b9">&#9670;&#160;</a></span>_offsetof_weight</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.ICPPairData._offsetof_weight = 52</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<pre class="fragment">weight of the pair (to prioritize over other pairs)
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstICPPairData.html#a7a02e87c1616d8e8d01daf2652bc4444">mrmeshpy.ConstICPPairData</a>.</p>
 
 </div>
 </div>

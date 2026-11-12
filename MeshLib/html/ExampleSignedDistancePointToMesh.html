@@ -14,18 +14,15 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="description" content="Signed distance from a point to a mesh with MeshLib: how far the point is and on which side of the surface it lies. Code in C++, Python, C and JavaScript."/>
 <title>MeshLib Documentation: Signed Distance Point To Mesh</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -64,10 +61,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +70,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Documentation
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -144,14 +138,18 @@ $(function(){initNavTree('ExampleSignedDistancePointToMesh.html','',''); });
 <p>Example of usage to get signed distance from point to mesh</p>
 <p>▶ <a href="https://demo.meshlib.io/#closest-points">See it live in the browser</a></p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMeshLoad.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMeshProject.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMesh.h&quot;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRMeshProject_8h.html">MRMesh/MRMeshProject.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRIOExtras_8h.html">MRIOExtras/MRIOExtras.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">auto</span> mesh1Res = MR::MeshLoad::fromAnySupportedFormat( <span class="stringliteral">&quot;mesh1.ctm&quot;</span> );</div>
+<div class="line">    <span class="comment">// CTM, JPEG and other formats beyond the basic ones come with the MRIOExtras library</span></div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga9da69906a8753c1bbec83769cf687367">MR::loadIOExtras</a>();</div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">auto</span> mesh1Res = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh1.ctm&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh1Res.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; mesh1Res.error();</div>
@@ -159,12 +157,20 @@ $(function(){initNavTree('ExampleSignedDistancePointToMesh.html','',''); });
 <div class="line">    }</div>
 <div class="line">    <span class="keyword">auto</span> point = MR::Vector3f( 1.5f, 1.0f, 0.5f );</div>
 <div class="line"> </div>
-<div class="line">    <span class="keyword">auto</span> dist = MR::findSignedDistance( point, *mesh1Res );</div>
-<div class="line">    <span class="keywordflow">if</span> ( dist )</div>
-<div class="line">        std::cout &lt;&lt; <span class="stringliteral">&quot;Signed distance from point to mesh &quot;</span> &lt;&lt; dist-&gt;dist &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line">    <span class="keyword">auto</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a> = <a class="code hl_functionRef" href="./Cpp/group__AABBTreeGroup.html#gab642f8e551c4fcc0af6b2301e55e3a85">MR::findSignedDistance</a>( point, *mesh1Res );</div>
+<div class="line">    <span class="keywordflow">if</span> ( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a> )</div>
+<div class="line">        std::cout &lt;&lt; <span class="stringliteral">&quot;Signed distance from point to mesh &quot;</span> &lt;&lt; <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a>-&gt;dist &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRIOExtras_8h_html"><div class="ttname"><a href="./Cpp/MRIOExtras_8h.html">MRIOExtras.h</a></div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./Cpp/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
+<div class="ttc" id="aMRMeshProject_8h_html"><div class="ttname"><a href="./Cpp/MRMeshProject_8h.html">MRMeshProject.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="agroup__AABBTreeGroup_html_gab642f8e551c4fcc0af6b2301e55e3a85"><div class="ttname"><a href="./Cpp/group__AABBTreeGroup.html#gab642f8e551c4fcc0af6b2301e55e3a85">MR::findSignedDistance</a></div><div class="ttdeci">MeshMeshSignedDistanceResult findSignedDistance(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr, float upDistLimitSq=FLT_MAX)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga4d5b1deffdaf0a9520c4eb1bd4664877"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a></div><div class="ttdeci">float dist() const</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga9da69906a8753c1bbec83769cf687367"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga9da69906a8753c1bbec83769cf687367">MR::loadIOExtras</a></div><div class="ttdeci">void loadIOExtras()</div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html_aa115a0d8b8efd585125c07693565388b"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy</div>
 <div class="line"> </div>
@@ -191,16 +197,16 @@ $(function(){initNavTree('ExampleSignedDistancePointToMesh.html','',''); });
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshRes = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;mesh1.ctm&quot;</span>, NULL, NULL );</div>
-<div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshRes );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshRes = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;mesh1.ctm&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_Mesh* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = MR_expected_MR_Mesh_std_string_value_mut( meshRes );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( meshRes ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_load;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    MR_Vector3f point = MR_Vector3f_Construct_3( 1.5f, 1.0f, 0.5f );</div>
-<div class="line">    MR_MeshPart* mp = MR_MeshPart_Construct( mesh, NULL );</div>
+<div class="line">    MR_Vector3f point = MR_Vector3f_Construct( 1.5f, 1.0f, 0.5f );</div>
+<div class="line">    MR_MeshPart* mp = MR_MeshPart_Construct( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, NULL );</div>
 <div class="line"> </div>
 <div class="line">    MR_std_optional_MR_SignedDistanceToMeshResult* resOpt = MR_findSignedDistance_MR_Vector3f( &amp;point, mp, NULL, NULL );</div>
 <div class="line">    MR_SignedDistanceToMeshResult* res = MR_std_optional_MR_SignedDistanceToMeshResult_value_mut( resOpt );</div>
@@ -215,6 +221,22 @@ $(function(){initNavTree('ExampleSignedDistancePointToMesh.html','',''); });
 <div class="line">    MR_expected_MR_Mesh_std_string_Destroy( meshRes );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>SignedDistancePointToMeshExample</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    {</div>
+<div class="line">        var mesh1 = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh1.ctm&quot;</span>);</div>
+<div class="line">        var point = <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3f(1.5f, 1.0f, 0.5f);</div>
+<div class="line"> </div>
+<div class="line">        var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findSignedDistance(point, mesh1).value();</div>
+<div class="line">        <span class="keywordflow">if</span> (<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a> is not <span class="keyword">null</span>)</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Signed distance from point to mesh {0}&quot;</span>, <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a>.dist);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html">MR::MeshLoad</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
@@ -228,8 +250,45 @@ $(function(){initNavTree('ExampleSignedDistancePointToMesh.html','',''); });
 <div class="line">  console.log(`Signed distance from point to mesh ${result.dist}`);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">use meshlib::{MeshPart, Vector3f};</div>
+<div class="line"> </div>
+<div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
+<div class="line">{</div>
+<div class="line">    let mesh1 = meshlib::mesh_load::from_any_supported_format(&quot;mesh1.ctm&quot;, None).into_result()?;</div>
+<div class="line">    let point = Vector3f {x: 1.5, y: 1.0, z: 0.5};</div>
+<div class="line"> </div>
+<div class="line">    let dist = meshlib::find_signed_distance_mr_vector3f(&amp;point, &amp;MeshPart::construct(&amp;mesh1, None), None, None);</div>
+<div class="line">    if let Some(dist) = dist.value()</div>
+<div class="line">    {</div>
+<div class="line">        println!(&quot;Signed distance from point to mesh {}&quot;, dist.dist());</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    Ok(())</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.Functions;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.MeshPart;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Vector3f;</div>
+<div class="line"><span class="keyword">import</span> meshlib.std_optional_MR_SignedDistanceToMeshResult;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>SignedDistancePointToMesh</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// An error is thrown as `UnexpectedResultException`.</span></div>
+<div class="line">        Mesh mesh1 = meshlib.meshload.Functions.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh1.ctm&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line">        Vector3f point = <span class="keyword">new</span> Vector3f(1.5f, 1.0f, 0.5f);</div>
+<div class="line"> </div>
+<div class="line">        std_optional_MR_SignedDistanceToMeshResult <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a> = Functions.findSignedDistance(point, <span class="keyword">new</span> MeshPart(mesh1, <span class="keyword">null</span>), <span class="keyword">null</span>, <span class="keyword">null</span>);</div>
+<div class="line">        <span class="keywordflow">if</span> (<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a>.has_value())</div>
+<div class="line">            System.out.println(<span class="stringliteral">&quot;Signed distance from point to mesh &quot;</span> + <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a>.value().dist());</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
 </ul>
-</div> </div></div><!-- contents -->
+</div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->

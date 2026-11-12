@@ -22,6 +22,7 @@ var classMR_1_1GLStaticHolder =
       [ "AdditionalPointsNoOffset", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a9803632f2ffd6df4b9c59affbd0ee7c9", null ],
       [ "AdditionalQuad", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a7ad2916ddd2b56f175adb1d02889d8e8", null ],
       [ "ViewportBorder", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a5bc4ec66f8a611b115c0cbc051229e9e", null ],
+      [ "ViewportBackground", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a1299aa40ac4d4fff7eb7dc38dc2bfa44", null ],
       [ "AlphaSortOverlayQuad", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748af448014484bd7a149f086a8cc030daff", null ],
       [ "ShadowOverlayQuad", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a878764d5da2f9dcefa74fe1d43db0896", null ],
       [ "SimpleOverlayQuad", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a6efd2be0f88716d1ecd218c3c506e07b", null ],

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -162,16 +155,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:gae5b8ac0b6c0e0a39fc6983c0fea0a016" id="r_gae5b8ac0b6c0e0a39fc6983c0fea0a016"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gae5b8ac0b6c0e0a39fc6983c0fea0a016">Vector4</a> () noexcept</td></tr>
 <tr class="memitem:ga366f9f44e9b5375e2716d7559fea8033" id="r_ga366f9f44e9b5375e2716d7559fea8033"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga366f9f44e9b5375e2716d7559fea8033">Vector4</a> (<a class="el" href="structMR_1_1NoInit.html">NoInit</a>) noexcept</td></tr>
 <tr class="memitem:ga66a8f1480a9225ab25c5a97cf5c24c0a" id="r_ga66a8f1480a9225ab25c5a97cf5c24c0a"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga66a8f1480a9225ab25c5a97cf5c24c0a">Vector4</a> (T <a class="el" href="group__GeneralGroup.html#ga2430707dabdc5933eb1c27e622a73c04">x</a>, T <a class="el" href="group__GeneralGroup.html#ga0e6c5be3afc64d0b545923575087bb78">y</a>, T <a class="el" href="group__GeneralGroup.html#ga15c59e2cece13e2ed0b5dbb20533b922">z</a>, T <a class="el" href="group__GeneralGroup.html#ga2a2d849b18944213202e305115b457a6">w</a>) noexcept</td></tr>
-<tr class="memitem:ga5f960e7bc138e3478db0bab2c88846a7" id="r_ga5f960e7bc138e3478db0bab2c88846a7"><td class="memTemplParams" colspan="2">template&lt;typename U&gt; </td></tr>
-<tr class="memitem:ga5f960e7bc138e3478db0bab2c88846a7 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga5f960e7bc138e3478db0bab2c88846a7">MR_REQUIRES_IF_SUPPORTED</a> (!std::is_same_v&lt; T, U &gt;) const expr explicit <a class="el" href="structMR_1_1Vector4.html">Vector4</a>(const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; U &gt; &amp;v) noexcept</td></tr>
+<tr class="memitem:ga67f187692acd3476394b8db347e86843" id="r_ga67f187692acd3476394b8db347e86843"><td class="memTemplParams" colspan="2">template&lt;typename U&gt; </td></tr>
+<tr class="memitem:ga67f187692acd3476394b8db347e86843 template"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga67f187692acd3476394b8db347e86843">Vector4</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; U &gt; &amp;v) noexcept</td></tr>
 <tr class="memitem:gaad7806510075ef51fd4cb0c1cee64742" id="r_gaad7806510075ef51fd4cb0c1cee64742"><td class="memItemLeft" align="right" valign="top">constexpr const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaad7806510075ef51fd4cb0c1cee64742">operator[]</a> (int e) const noexcept</td></tr>
 <tr class="memitem:ga26c8c6c0e41d80c33f348e16acb5ea40" id="r_ga26c8c6c0e41d80c33f348e16acb5ea40"><td class="memItemLeft" align="right" valign="top">constexpr T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga26c8c6c0e41d80c33f348e16acb5ea40">operator[]</a> (int e) noexcept</td></tr>
 <tr class="memitem:ga569e6612540d74cb89cc24227f7d3f4e" id="r_ga569e6612540d74cb89cc24227f7d3f4e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga569e6612540d74cb89cc24227f7d3f4e">lengthSq</a> () const -&gt; decltype(std::declval&lt; T &gt;() *std::declval&lt; T &gt;())</td></tr>
 <tr class="memitem:gaa635f4c17f51f760f9c4f9d0e5c56aae" id="r_gaa635f4c17f51f760f9c4f9d0e5c56aae"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa635f4c17f51f760f9c4f9d0e5c56aae">length</a> () const</td></tr>
-<tr class="memitem:gadc44955f85b32da55a4f43ea11cd257f" id="r_gadc44955f85b32da55a4f43ea11cd257f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector4.html">Vector4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gadc44955f85b32da55a4f43ea11cd257f">normalized</a> () const <a class="el" href="group__GeneralGroup.html#ga5f960e7bc138e3478db0bab2c88846a7">MR_REQUIRES_IF_SUPPORTED</a>(!std</td></tr>
-<tr class="memitem:ga2078626fc09d25075fcc070bcf03b2dd" id="r_ga2078626fc09d25075fcc070bcf03b2dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2078626fc09d25075fcc070bcf03b2dd">proj3d</a> () const <a class="el" href="group__GeneralGroup.html#ga5f960e7bc138e3478db0bab2c88846a7">MR_REQUIRES_IF_SUPPORTED</a>(!std</td></tr>
-<tr class="memdesc:ga2078626fc09d25075fcc070bcf03b2dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">assuming this is a point represented in homogeneous 4D coordinates, returns the point as 3D-vector  <br /></td></tr>
-<tr class="memitem:gabd30ce902168b47bc8aaee4415d19b03" id="r_gabd30ce902168b47bc8aaee4415d19b03"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gabd30ce902168b47bc8aaee4415d19b03">isFinite</a> () const <a class="el" href="group__GeneralGroup.html#ga5f960e7bc138e3478db0bab2c88846a7">MR_REQUIRES_IF_SUPPORTED</a>(std</td></tr>
+<tr class="memitem:ga01847c57031abdd928c1f61744041cb9" id="r_ga01847c57031abdd928c1f61744041cb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector4.html">Vector4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga01847c57031abdd928c1f61744041cb9">normalized</a> () const</td></tr>
+<tr class="memitem:ga50bac4033d0f4d0e5c92933a5eda6883" id="r_ga50bac4033d0f4d0e5c92933a5eda6883"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga50bac4033d0f4d0e5c92933a5eda6883">proj3d</a> () const</td></tr>
+<tr class="memdesc:ga50bac4033d0f4d0e5c92933a5eda6883"><td class="mdescLeft">&#160;</td><td class="mdescRight">assuming this is a point represented in homogeneous 4D coordinates, returns the point as 3D-vector  <br /></td></tr>
+<tr class="memitem:gab6d60f18c69d659dc87d4b8be84a073b" id="r_gab6d60f18c69d659dc87d4b8be84a073b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab6d60f18c69d659dc87d4b8be84a073b">isFinite</a> () const</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -206,10 +199,10 @@ Friends</h2></td></tr>
 <tr class="memitem:gaca06a481c53bf7bef1d1f701851ce9de" id="r_gaca06a481c53bf7bef1d1f701851ce9de"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaca06a481c53bf7bef1d1f701851ce9de">operator/=</a> (<a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; &amp;a, T b)</td></tr>
 <tr class="memitem:ga3789873acec0961558649d59f6de2825" id="r_ga3789873acec0961558649d59f6de2825"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3789873acec0961558649d59f6de2825">operator&lt;&lt;</a> (std::ostream &amp;s, const <a class="el" href="structMR_1_1Vector4.html">Vector4</a> &amp;vec)</td></tr>
 <tr class="memitem:ga27e081f75b4813615258a92cc851597b" id="r_ga27e081f75b4813615258a92cc851597b"><td class="memItemLeft" align="right" valign="top">std::istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga27e081f75b4813615258a92cc851597b">operator&gt;&gt;</a> (std::istream &amp;s, <a class="el" href="structMR_1_1Vector4.html">Vector4</a> &amp;vec)</td></tr>
-<tr class="memitem:ga37fcdbc6e2c737a4a6cab14ef52dd794" id="r_ga37fcdbc6e2c737a4a6cab14ef52dd794"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> friend auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga37fcdbc6e2c737a4a6cab14ef52dd794">begin</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a> &amp;v)</td></tr>
-<tr class="memitem:gaa8566e057813e830215faa299cc06d01" id="r_gaa8566e057813e830215faa299cc06d01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> friend auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa8566e057813e830215faa299cc06d01">begin</a> (<a class="el" href="structMR_1_1Vector4.html">Vector4</a> &amp;v)</td></tr>
-<tr class="memitem:gabd29b7582168608aaab1305e0bffaab4" id="r_gabd29b7582168608aaab1305e0bffaab4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> friend auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gabd29b7582168608aaab1305e0bffaab4">end</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a> &amp;v)</td></tr>
-<tr class="memitem:ga7608b91cd7e3aa970b7a7bfd0a9e8477" id="r_ga7608b91cd7e3aa970b7a7bfd0a9e8477"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> friend auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7608b91cd7e3aa970b7a7bfd0a9e8477">end</a> (<a class="el" href="structMR_1_1Vector4.html">Vector4</a> &amp;v)</td></tr>
+<tr class="memitem:gaad8f9a84cbfce052b08dc99cf09f31f4" id="r_gaad8f9a84cbfce052b08dc99cf09f31f4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaad8f9a84cbfce052b08dc99cf09f31f4">begin</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a> &amp;v)</td></tr>
+<tr class="memitem:ga9d2b84b6a982c9fb6580ba9ee6b1a592" id="r_ga9d2b84b6a982c9fb6580ba9ee6b1a592"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9d2b84b6a982c9fb6580ba9ee6b1a592">begin</a> (<a class="el" href="structMR_1_1Vector4.html">Vector4</a> &amp;v)</td></tr>
+<tr class="memitem:ga341f6b722bfdf713278f211b9066fd70" id="r_ga341f6b722bfdf713278f211b9066fd70"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga341f6b722bfdf713278f211b9066fd70">end</a> (const <a class="el" href="structMR_1_1Vector4.html">Vector4</a> &amp;v)</td></tr>
+<tr class="memitem:ga9b3c10d5310c465ea6e44aef727e32bb" id="r_ga9b3c10d5310c465ea6e44aef727e32bb"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9b3c10d5310c465ea6e44aef727e32bb">end</a> (<a class="el" href="structMR_1_1Vector4.html">Vector4</a> &amp;v)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-related" class="groupheader"><a id="related" name="related"></a>
 Related Symbols</h2></td></tr>

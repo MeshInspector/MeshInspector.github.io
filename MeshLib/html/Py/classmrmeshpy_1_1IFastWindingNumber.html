@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -150,24 +143,25 @@ $(function(){initNavTree('classmrmeshpy_1_1IFastWindingNumber.html','','classmrm
  <div class="center">
   <img src="classmrmeshpy_1_1IFastWindingNumber.png" usemap="#mrmeshpy_2EIFastWindingNumber_map" alt=""/>
   <map id="mrmeshpy_2EIFastWindingNumber_map" name="mrmeshpy_2EIFastWindingNumber_map">
-<area href="classmrmeshpy_1_1FastWindingNumber.html" alt="mrmeshpy.FastWindingNumber" shape="rect" coords="0,56,189,80"/>
+<area href="classmrmeshpy_1_1ConstIFastWindingNumber.html" alt="mrmeshpy.ConstIFastWindingNumber" shape="rect" coords="0,0,221,24"/>
+<area href="classmrmeshpy_1_1FastWindingNumber.html" alt="mrmeshpy.FastWindingNumber" shape="rect" coords="0,112,221,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5d368442bd4a019e50adacc23099b4ba" id="r_a5d368442bd4a019e50adacc23099b4ba"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d368442bd4a019e50adacc23099b4ba">calcFromGrid</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> res, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> dims, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> gridToMeshXf, float beta, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
-<tr class="memitem:a9abbdfdad45943314155c587e2f9c488" id="r_a9abbdfdad45943314155c587e2f9c488"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9abbdfdad45943314155c587e2f9c488">calcFromGridWithDistances</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> res, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> dims, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> gridToMeshXf, <a class="el" href="classmrmeshpy_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> options, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb)</td></tr>
-<tr class="memitem:af8a85c57bc104c36e949eb444c9ca7db" id="r_af8a85c57bc104c36e949eb444c9ca7db"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8a85c57bc104c36e949eb444c9ca7db">calcFromVector</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> res, <a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a> points, float beta, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> skipFace=..., <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
-<tr class="memitem:a898b12e02f113538c5d54bf9af0d7bd9" id="r_a898b12e02f113538c5d54bf9af0d7bd9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a898b12e02f113538c5d54bf9af0d7bd9">calcSelfIntersections</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> res, float beta, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
+<tr class="memitem:ab31e5a7fc616ebbb4905cebb833ccbad" id="r_ab31e5a7fc616ebbb4905cebb833ccbad"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab31e5a7fc616ebbb4905cebb833ccbad">calcFromGrid</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> res, <a class="el" href="classmrmeshpy_1_1ConstVector3i.html">ConstVector3i</a> dims, <a class="el" href="classmrmeshpy_1_1ConstAffineXf3f.html">ConstAffineXf3f</a> gridToMeshXf, float beta, <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> cb='{}')</td></tr>
+<tr class="memitem:a9245edb42f4e641da323944f828921cc" id="r_a9245edb42f4e641da323944f828921cc"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9245edb42f4e641da323944f828921cc">calcFromGridWithDistances</a> (self, <a class="el" href="classmrmeshpy_1_1VoxelScalars.html">VoxelScalars</a> res, <a class="el" href="classmrmeshpy_1_1ConstVector3i.html">ConstVector3i</a> dims, <a class="el" href="classmrmeshpy_1_1ConstAffineXf3f.html">ConstAffineXf3f</a> gridToMeshXf, <a class="el" href="classmrmeshpy_1_1ConstDistanceToMeshOptions.html">ConstDistanceToMeshOptions</a> options, <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> cb)</td></tr>
+<tr class="memitem:a564108cd40d3a9cbef6eb1ce983f18ad" id="r_a564108cd40d3a9cbef6eb1ce983f18ad"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a564108cd40d3a9cbef6eb1ce983f18ad">calcFromVector</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> res, <a class="el" href="classmrmeshpy_1_1Const__std__vector__Vector3__float.html">Const_std_vector_Vector3_float</a> points, float beta, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> skipFace=..., <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> cb='{}')</td></tr>
+<tr class="memitem:a8dcf3e63f588abda61634adb1b672fec" id="r_a8dcf3e63f588abda61634adb1b672fec"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dcf3e63f588abda61634adb1b672fec">calcSelfIntersections</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> res, float beta, <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> cb='{}')</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::IFastWindingNumber
 
 Abstract class for fast approximate computation of generalized winding number for a mesh (using its AABB tree)
 </pre> </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a5d368442bd4a019e50adacc23099b4ba" name="a5d368442bd4a019e50adacc23099b4ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d368442bd4a019e50adacc23099b4ba">&#9670;&#160;</a></span>calcFromGrid()</h2>
+<a id="ab31e5a7fc616ebbb4905cebb833ccbad" name="ab31e5a7fc616ebbb4905cebb833ccbad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab31e5a7fc616ebbb4905cebb833ccbad">&#9670;&#160;</a></span>calcFromGrid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185,12 +179,12 @@ Abstract class for fast approximate computation of generalized winding number fo
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3i.html">ConstVector3i</a></td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>gridToMeshXf</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstAffineXf3f.html">ConstAffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>gridToMeshXf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -200,7 +194,7 @@ Abstract class for fast approximate computation of generalized winding number fo
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -210,12 +204,12 @@ Abstract class for fast approximate computation of generalized winding number fo
 \\param gridToMeshXf transform from integer grid locations to voxel's centers in mesh reference frame
 \\param beta determines the precision of the approximation: the more the better, recommended value 2 or more
 </pre> 
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a1341c2a7d571acb031383a94d2e879be">mrmeshpy.FastWindingNumber</a>.</p>
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a02d8789edba3f6e09fdd88bdb1a7ef9c">mrmeshpy.FastWindingNumber</a>.</p>
 
 </div>
 </div>
-<a id="a9abbdfdad45943314155c587e2f9c488" name="a9abbdfdad45943314155c587e2f9c488"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9abbdfdad45943314155c587e2f9c488">&#9670;&#160;</a></span>calcFromGridWithDistances()</h2>
+<a id="a9245edb42f4e641da323944f828921cc" name="a9245edb42f4e641da323944f828921cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9245edb42f4e641da323944f828921cc">&#9670;&#160;</a></span>calcFromGridWithDistances()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228,27 +222,27 @@ Abstract class for fast approximate computation of generalized winding number fo
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a></td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VoxelScalars.html">VoxelScalars</a></td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3i.html">ConstVector3i</a></td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>gridToMeshXf</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstAffineXf3f.html">ConstAffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>gridToMeshXf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a></td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstDistanceToMeshOptions.html">ConstDistanceToMeshOptions</a></td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -257,12 +251,12 @@ if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for
 \\param res resulting signed distances, will be resized automatically
 \\param dims dimensions of the grid
 </pre> 
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a8ef6b7c72e518ec149318e10b52c2517">mrmeshpy.FastWindingNumber</a>.</p>
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a4fd4cb9a037437efa0190feed223e9a7">mrmeshpy.FastWindingNumber</a>.</p>
 
 </div>
 </div>
-<a id="af8a85c57bc104c36e949eb444c9ca7db" name="af8a85c57bc104c36e949eb444c9ca7db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8a85c57bc104c36e949eb444c9ca7db">&#9670;&#160;</a></span>calcFromVector()</h2>
+<a id="a564108cd40d3a9cbef6eb1ce983f18ad" name="a564108cd40d3a9cbef6eb1ce983f18ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a564108cd40d3a9cbef6eb1ce983f18ad">&#9670;&#160;</a></span>calcFromVector()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -280,7 +274,7 @@ if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__std__vector__Vector3__float.html">Const_std_vector_Vector3_float</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -290,12 +284,12 @@ if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> </td>          <td class="paramname"><span class="paramname"><em>skipFace</em></span><span class="paramdefsep"> = </span><span class="paramdefval">...</span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> </td>          <td class="paramname"><span class="paramname"><em>skipFace</em></span><span class="paramdefsep"> = </span><span class="paramdefval">...</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -305,12 +299,12 @@ if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for
 \\param beta determines the precision of the approximation: the more the better, recommended value 2 or more
 \\param skipFace this triangle (if it is close to `q`) will be skipped from summation
 </pre> 
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a87c475e7b6d11e7db7a552e728557daf">mrmeshpy.FastWindingNumber</a>.</p>
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a2e5863ed7c18e1c706ac9be52b5a6340">mrmeshpy.FastWindingNumber</a>.</p>
 
 </div>
 </div>
-<a id="a898b12e02f113538c5d54bf9af0d7bd9" name="a898b12e02f113538c5d54bf9af0d7bd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a898b12e02f113538c5d54bf9af0d7bd9">&#9670;&#160;</a></span>calcSelfIntersections()</h2>
+<a id="a8dcf3e63f588abda61634adb1b672fec" name="a8dcf3e63f588abda61634adb1b672fec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dcf3e63f588abda61634adb1b672fec">&#9670;&#160;</a></span>calcSelfIntersections()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -333,7 +327,7 @@ if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> </td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -341,7 +335,7 @@ if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for
 \\param res resulting bit set
 \\param beta determines the precision of the approximation: the more the better, recommended value 2 or more
 </pre> 
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a7985e3bad1020ca466fa56c9ba56ed87">mrmeshpy.FastWindingNumber</a>.</p>
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a6efc5be6c880e492bc50711fde81d5c7">mrmeshpy.FastWindingNumber</a>.</p>
 
 </div>
 </div>

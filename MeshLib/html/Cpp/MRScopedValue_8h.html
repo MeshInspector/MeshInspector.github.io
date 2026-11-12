@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -171,7 +164,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keyword">auto</span> <a class="code hl_define" href="MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a>( _prev_value_, __LINE__ ) = std::move( var ); ( var ) = ( __VA_ARGS__ ); <a class="code hl_define" href="MRFinally_8h.html#ad10d1a8c04c5722bf0d42b1ddd493aad">MR_FINALLY</a> { ( var ) = std::move( <a class="code hl_define" href="MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a>( _prev_value_, __LINE__ ) ); }</div>
-<div class="ttc" id="aMRFinally_8h_html_ad10d1a8c04c5722bf0d42b1ddd493aad"><div class="ttname"><a href="MRFinally_8h.html#ad10d1a8c04c5722bf0d42b1ddd493aad">MR_FINALLY</a></div><div class="ttdeci">#define MR_FINALLY</div><div class="ttdoc">Usage: MR_FINALLY{...};. Runs the code in braces when exiting the current scope, either normally or v...</div><div class="ttdef"><b>Definition</b> MRFinally.h:11</div></div>
+<div class="ttc" id="aMRFinally_8h_html_ad10d1a8c04c5722bf0d42b1ddd493aad"><div class="ttname"><a href="MRFinally_8h.html#ad10d1a8c04c5722bf0d42b1ddd493aad">MR_FINALLY</a></div><div class="ttdeci">#define MR_FINALLY</div><div class="ttdef"><b>Definition</b> MRFinally.h:10</div></div>
 <div class="ttc" id="aMRMacros_8h_html_a4cb6de717e0b06df733796fec2da272a"><div class="ttname"><a href="MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a></div><div class="ttdeci">#define MR_CONCAT(a, b)</div><div class="ttdoc">Concat strings.</div><div class="ttdef"><b>Definition</b> MRMacros.h:17</div></div>
 </div><!-- fragment -->
 <p>change a variable's value until the current scope's end </p>

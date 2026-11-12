@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -170,16 +163,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a33096156ede16571509f914ca2debd18" id="r_a33096156ede16571509f914ca2debd18"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33096156ede16571509f914ca2debd18">Dispose</a> ()</td></tr>
 <tr class="memitem:a10de6f9ad3efd2d7ef86e9dc7994b32a" id="r_a10de6f9ad3efd2d7ef86e9dc7994b32a"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10de6f9ad3efd2d7ef86e9dc7994b32a">Const_AlphaShapeData</a> ()</td></tr>
 <tr class="memdesc:a10de6f9ad3efd2d7ef86e9dc7994b32a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
-<tr class="memitem:ae577629a8f298054184df894282e467e" id="r_ae577629a8f298054184df894282e467e"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae577629a8f298054184df894282e467e">Const_AlphaShapeData</a> (<a class="el" href="classMR_1_1Const__ConvertToIntVector.html">MR.Const_ConvertToIntVector</a> <a class="el" href="#ab982712aee7062bf35fedbc17112559f">toInt</a>, MR._ByValue_Vector_MRVector3i_MRVertId <a class="el" href="#aa0e3a30b72bbd9de0440edcca0c68bf0">intPoints</a>, long <a class="el" href="#a95d3924b79eaf9777967d9777a9d5c4c">intRadiusSq</a>, float <a class="el" href="#a349eeed9c4b16c2c61ce324bfeef66c2">searchRadius</a>)</td></tr>
-<tr class="memdesc:ae577629a8f298054184df894282e467e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <span class="tt"><a class="el" href="classMR_1_1AlphaShapeData.html" title="a point cloud and a ball radius prepared for the search of alpha-shape triangles; the emptiness of a ...">MR.AlphaShapeData</a></span> elementwise.  <br /></td></tr>
+<tr class="memitem:a38e7b45dd10a4dc715d9a1d80dd90a9a" id="r_a38e7b45dd10a4dc715d9a1d80dd90a9a"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38e7b45dd10a4dc715d9a1d80dd90a9a">Const_AlphaShapeData</a> (<a class="el" href="classMR_1_1Const__ConvertToIntVector.html">MR.Const_ConvertToIntVector</a> <a class="el" href="#ab982712aee7062bf35fedbc17112559f">toInt</a>, MR._ByValue_Vector_MRVector3i_MRVertId <a class="el" href="#aa0e3a30b72bbd9de0440edcca0c68bf0">intPoints</a>, MR._ByValue_VertBitSet <a class="el" href="#ad16a1194d9dfc334ee6da4f5c4d9f156">twins</a>, long <a class="el" href="#a95d3924b79eaf9777967d9777a9d5c4c">intRadiusSq</a>, float <a class="el" href="#a349eeed9c4b16c2c61ce324bfeef66c2">searchRadius</a>)</td></tr>
+<tr class="memdesc:a38e7b45dd10a4dc715d9a1d80dd90a9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <span class="tt"><a class="el" href="classMR_1_1AlphaShapeData.html" title="a point cloud and a ball radius prepared for the search of alpha-shape triangles; the emptiness of a ...">MR.AlphaShapeData</a></span> elementwise.  <br /></td></tr>
 <tr class="memitem:a1b1f4a2f2ef3354eff617e8e8f72339f" id="r_a1b1f4a2f2ef3354eff617e8e8f72339f"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b1f4a2f2ef3354eff617e8e8f72339f">Const_AlphaShapeData</a> (MR._ByValue_AlphaShapeData _other)</td></tr>
 <tr class="memdesc:a1b1f4a2f2ef3354eff617e8e8f72339f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1AlphaShapeData.html#a4c3b291e8340a0c14ad4e78546e1872d" title="Constructs an empty (default-constructed) instance.">MR.AlphaShapeData.AlphaShapeData</a></span>.  <br /></td></tr>
 <tr class="memitem:a1fdd3cc663845fef7ea7b194e35c6758" id="r_a1fdd3cc663845fef7ea7b194e35c6758"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fdd3cc663845fef7ea7b194e35c6758">Const_AlphaShapeData</a> (<a class="el" href="classMR_1_1Const__AlphaShapeData.html">Const_AlphaShapeData</a> _other)</td></tr>
 <tr class="memdesc:a1fdd3cc663845fef7ea7b194e35c6758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1AlphaShapeData.html#a4c3b291e8340a0c14ad4e78546e1872d" title="Constructs an empty (default-constructed) instance.">MR.AlphaShapeData.AlphaShapeData</a></span>.  <br /></td></tr>
 <tr class="memitem:acdec9b5eebfdbe40b24b693f149a2488" id="r_acdec9b5eebfdbe40b24b693f149a2488"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdec9b5eebfdbe40b24b693f149a2488">Const_AlphaShapeData</a> (<a class="el" href="classMR_1_1AlphaShapeData.html">AlphaShapeData</a> _other)</td></tr>
 <tr class="memdesc:acdec9b5eebfdbe40b24b693f149a2488"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1AlphaShapeData.html#a4c3b291e8340a0c14ad4e78546e1872d" title="Constructs an empty (default-constructed) instance.">MR.AlphaShapeData.AlphaShapeData</a></span>.  <br /></td></tr>
+<tr class="memitem:a505da08ffdf25a47375c9ff166a41d7f" id="r_a505da08ffdf25a47375c9ff166a41d7f"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a505da08ffdf25a47375c9ff166a41d7f">knowsTwins</a> ()</td></tr>
+<tr class="memdesc:a505da08ffdf25a47375c9ff166a41d7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the twins are known, i.e. the data was prepared with allPoints=true (for a cloud with valid points) Generated from method <span class="tt"><a class="el" href="#a505da08ffdf25a47375c9ff166a41d7f" title="whether the twins are known, i.e. the data was prepared with allPoints=true (for a cloud with valid p...">MR.AlphaShapeData.knowsTwins</a></span>.  <br /></td></tr>
 <tr class="memitem:a609791188abbaa58462e8ffbd2408b93" id="r_a609791188abbaa58462e8ffbd2408b93"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1PreciseVertCoords.html">MR.PreciseVertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a609791188abbaa58462e8ffbd2408b93">coords</a> (<a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a> cloud, <a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v)</td></tr>
-<tr class="memdesc:a609791188abbaa58462e8ffbd2408b93"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns point #v of the cloud (which must be the cloud given to getAlphaShapeData) together with its integer coordinates Generated from method <span class="tt"><a class="el" href="#a609791188abbaa58462e8ffbd2408b93" title="returns point v of the cloud (which must be the cloud given to getAlphaShapeData) together with its i...">MR.AlphaShapeData.coords</a></span>.  <br /></td></tr>
+<tr class="memdesc:a609791188abbaa58462e8ffbd2408b93"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns point v of the cloud (which must be the cloud given to getAlphaShapeData) together with its integer coordinates Generated from method <span class="tt"><a class="el" href="#a609791188abbaa58462e8ffbd2408b93" title="returns point v of the cloud (which must be the cloud given to getAlphaShapeData) together with its i...">MR.AlphaShapeData.coords</a></span>.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -196,6 +191,8 @@ Properties</h2></td></tr>
 <tr class="memdesc:ab982712aee7062bf35fedbc17112559f"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts cloud's points in integer coordinates  <br /></td></tr>
 <tr class="memitem:aa0e3a30b72bbd9de0440edcca0c68bf0" id="r_aa0e3a30b72bbd9de0440edcca0c68bf0"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__Vector__MRVector3i__MRVertId.html">MR.Const_Vector_MRVector3i_MRVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0e3a30b72bbd9de0440edcca0c68bf0">intPoints</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:aa0e3a30b72bbd9de0440edcca0c68bf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">integer coordinates of all valid points of the cloud, or empty if they have to be computed on the fly by toInt  <br /></td></tr>
+<tr class="memitem:ad16a1194d9dfc334ee6da4f5c4d9f156" id="r_ad16a1194d9dfc334ee6da4f5c4d9f156"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad16a1194d9dfc334ee6da4f5c4d9f156">twins</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:ad16a1194d9dfc334ee6da4f5c4d9f156"><td class="mdescLeft">&#160;</td><td class="mdescRight">the valid points sharing their position in the integer grid with a point of a smaller id, which take part in no search: only the smallest id of a position does; filled together with intPoints, so empty if allPoints was false, and empty if there are no such points  <br /></td></tr>
 <tr class="memitem:a95d3924b79eaf9777967d9777a9d5c4c" id="r_a95d3924b79eaf9777967d9777a9d5c4c"><td class="memItemLeft" align="right" valign="top">unsafe long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95d3924b79eaf9777967d9777a9d5c4c">intRadiusSq</a><code> [get]</code></td></tr>
 <tr class="memdesc:a95d3924b79eaf9777967d9777a9d5c4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared ball radius in the units of toInt's integer grid, not larger than the squared original radius (so that no point inside a ball can be farther than searchRadius from the ball's points), and small enough for the predicates not to overflow  <br /></td></tr>
 <tr class="memitem:a349eeed9c4b16c2c61ce324bfeef66c2" id="r_a349eeed9c4b16c2c61ce324bfeef66c2"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a349eeed9c4b16c2c61ce324bfeef66c2">searchRadius</a><code> [get]</code></td></tr>
@@ -231,8 +228,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ae577629a8f298054184df894282e467e" name="ae577629a8f298054184df894282e467e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae577629a8f298054184df894282e467e">&#9670;&#160;</a></span>Const_AlphaShapeData() <span class="overload">[2/5]</span></h2>
+<a id="a38e7b45dd10a4dc715d9a1d80dd90a9a" name="a38e7b45dd10a4dc715d9a1d80dd90a9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38e7b45dd10a4dc715d9a1d80dd90a9a">&#9670;&#160;</a></span>Const_AlphaShapeData() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249,6 +246,11 @@ Properties</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">MR._ByValue_Vector_MRVector3i_MRVertId</td>          <td class="paramname"><span class="paramname"><em>intPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR._ByValue_VertBitSet</td>          <td class="paramname"><span class="paramname"><em>twins</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -381,7 +383,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns point #v of the cloud (which must be the cloud given to getAlphaShapeData) together with its integer coordinates Generated from method <span class="tt"><a class="el" href="#a609791188abbaa58462e8ffbd2408b93" title="returns point v of the cloud (which must be the cloud given to getAlphaShapeData) together with its i...">MR.AlphaShapeData.coords</a></span>. </p>
+<p>returns point v of the cloud (which must be the cloud given to getAlphaShapeData) together with its integer coordinates Generated from method <span class="tt"><a class="el" href="#a609791188abbaa58462e8ffbd2408b93" title="returns point v of the cloud (which must be the cloud given to getAlphaShapeData) together with its i...">MR.AlphaShapeData.coords</a></span>. </p>
 
 </div>
 </div>
@@ -432,6 +434,33 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a505da08ffdf25a47375c9ff166a41d7f" name="a505da08ffdf25a47375c9ff166a41d7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a505da08ffdf25a47375c9ff166a41d7f">&#9670;&#160;</a></span>knowsTwins()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe bool MR.Const_AlphaShapeData.knowsTwins </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>whether the twins are known, i.e. the data was prepared with allPoints=true (for a cloud with valid points) Generated from method <span class="tt"><a class="el" href="#a505da08ffdf25a47375c9ff166a41d7f" title="whether the twins are known, i.e. the data was prepared with allPoints=true (for a cloud with valid p...">MR.AlphaShapeData.knowsTwins</a></span>. </p>
 
 </div>
 </div>
@@ -574,6 +603,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>converts cloud's points in integer coordinates </p>
+
+</div>
+</div>
+<a id="ad16a1194d9dfc334ee6da4f5c4d9f156" name="ad16a1194d9dfc334ee6da4f5c4d9f156"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad16a1194d9dfc334ee6da4f5c4d9f156">&#9670;&#160;</a></span>twins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a> MR.Const_AlphaShapeData.twins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel protected-set">protected set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the valid points sharing their position in the integer grid with a point of a smaller id, which take part in no search: only the smallest id of a position does; filled together with intPoints, so empty if allPoints was false, and empty if there are no such points </p>
 
 </div>
 </div>

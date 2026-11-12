@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,7 +133,6 @@ $(function(){initNavTree('classmrmeshpy_1_1ChangeLinesColorMapAction.html','','c
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classmrmeshpy_1_1ChangeLinesColorMapAction-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.ChangeLinesColorMapAction Class Reference</div></div>
 </div><!--header-->
@@ -152,27 +144,35 @@ $(function(){initNavTree('classmrmeshpy_1_1ChangeLinesColorMapAction.html','','c
  <div class="center">
   <img src="classmrmeshpy_1_1ChangeLinesColorMapAction.png" usemap="#mrmeshpy_2EChangeLinesColorMapAction_map" alt=""/>
   <map id="mrmeshpy_2EChangeLinesColorMapAction_map" name="mrmeshpy_2EChangeLinesColorMapAction_map">
-<area href="classmrmeshpy_1_1HistoryAction.html" alt="mrmeshpy.HistoryAction" shape="rect" coords="0,0,239,24"/>
+<area href="classmrmeshpy_1_1ConstChangeLinesColorMapAction.html" alt="mrmeshpy.ConstChangeLinesColorMapAction" shape="rect" coords="0,56,271,80"/>
+<area href="classmrmeshpy_1_1HistoryAction.html" alt="mrmeshpy.HistoryAction" shape="rect" coords="281,56,552,80"/>
+<area href="classmrmeshpy_1_1ConstHistoryAction.html" alt="mrmeshpy.ConstHistoryAction" shape="rect" coords="0,0,271,24"/>
+<area href="classmrmeshpy_1_1ConstHistoryAction.html" alt="mrmeshpy.ConstHistoryAction" shape="rect" coords="281,0,552,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a77dc9fd464ddbb23bb16e403a663b138" id="r_a77dc9fd464ddbb23bb16e403a663b138"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77dc9fd464ddbb23bb16e403a663b138">__init__</a> (self, str <a class="el" href="#a6390c639f7f0eceae0f46136af4b99e1">name</a>, <a class="el" href="classmrmeshpy_1_1ObjectLinesHolder.html">ObjectLinesHolder</a> obj)</td></tr>
-<tr class="memitem:a34c86b8cac3c67a546f2e2c5bd32cec1" id="r_a34c86b8cac3c67a546f2e2c5bd32cec1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34c86b8cac3c67a546f2e2c5bd32cec1">__init__</a> (self, str <a class="el" href="#a6390c639f7f0eceae0f46136af4b99e1">name</a>, <a class="el" href="classmrmeshpy_1_1ObjectLinesHolder.html">ObjectLinesHolder</a> obj, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeColors.html">UndirectedEdgeColors</a> newColorMap)</td></tr>
-<tr class="memitem:a0221e61415e41e2045fac146e141da6d" id="r_a0221e61415e41e2045fac146e141da6d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0221e61415e41e2045fac146e141da6d">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ChangeLinesColorMapAction.html">ChangeLinesColorMapAction</a> arg0)</td></tr>
-<tr class="memitem:a94964295defbafbf62c8f7dd9b5ba4cf" id="r_a94964295defbafbf62c8f7dd9b5ba4cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94964295defbafbf62c8f7dd9b5ba4cf">heapBytes</a> (self)</td></tr>
-<tr class="memitem:a6390c639f7f0eceae0f46136af4b99e1" id="r_a6390c639f7f0eceae0f46136af4b99e1"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6390c639f7f0eceae0f46136af4b99e1">name</a> (self)</td></tr>
+<tr class="memitem:a77dc9fd464ddbb23bb16e403a663b138" id="r_a77dc9fd464ddbb23bb16e403a663b138"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77dc9fd464ddbb23bb16e403a663b138">__init__</a> (self, str <a class="el" href="classmrmeshpy_1_1ConstChangeLinesColorMapAction.html#a4022301bf82aa196d2b3a6fd54fa34e1">name</a>, <a class="el" href="classmrmeshpy_1_1ObjectLinesHolder.html">ObjectLinesHolder</a> obj)</td></tr>
+<tr class="memitem:a34c86b8cac3c67a546f2e2c5bd32cec1" id="r_a34c86b8cac3c67a546f2e2c5bd32cec1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34c86b8cac3c67a546f2e2c5bd32cec1">__init__</a> (self, str <a class="el" href="classmrmeshpy_1_1ConstChangeLinesColorMapAction.html#a4022301bf82aa196d2b3a6fd54fa34e1">name</a>, <a class="el" href="classmrmeshpy_1_1ObjectLinesHolder.html">ObjectLinesHolder</a> obj, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeColors.html">UndirectedEdgeColors</a> newColorMap)</td></tr>
+<tr class="memitem:a7fc70b4f8f50f7fc6265b36824339b66" id="r_a7fc70b4f8f50f7fc6265b36824339b66"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fc70b4f8f50f7fc6265b36824339b66">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstChangeLinesColorMapAction.html">ConstChangeLinesColorMapAction</a> arg0)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstChangeLinesColorMapAction"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstChangeLinesColorMapAction')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstChangeLinesColorMapAction.html">mrmeshpy.ConstChangeLinesColorMapAction</a></td></tr>
+<tr class="memitem:aeab90f09a34d06cc89bf69731746e807 inherit pub_methods_classmrmeshpy_1_1ConstChangeLinesColorMapAction" id="r_aeab90f09a34d06cc89bf69731746e807"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstChangeLinesColorMapAction.html#aeab90f09a34d06cc89bf69731746e807">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:a9f6958ff5ca06abc332724afb6f261a9 inherit pub_methods_classmrmeshpy_1_1ConstChangeLinesColorMapAction" id="r_a9f6958ff5ca06abc332724afb6f261a9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstChangeLinesColorMapAction.html#a9f6958ff5ca06abc332724afb6f261a9">heapBytes</a> (self)</td></tr>
+<tr class="memitem:a4022301bf82aa196d2b3a6fd54fa34e1 inherit pub_methods_classmrmeshpy_1_1ConstChangeLinesColorMapAction" id="r_a4022301bf82aa196d2b3a6fd54fa34e1"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstChangeLinesColorMapAction.html#a4022301bf82aa196d2b3a6fd54fa34e1">name</a> (self)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a42c8e0a7054ad42eea11aa7c4b683a52" id="r_a42c8e0a7054ad42eea11aa7c4b683a52"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42c8e0a7054ad42eea11aa7c4b683a52">__init__</a> (*args, **kwargs)</td></tr>
 <tr class="memitem:a1bafdbdc32a5b6e465bf220986390481" id="r_a1bafdbdc32a5b6e465bf220986390481"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bafdbdc32a5b6e465bf220986390481">action</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:ade9e26d9e5aab93c95ac8d86a24bf98e" id="r_ade9e26d9e5aab93c95ac8d86a24bf98e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade9e26d9e5aab93c95ac8d86a24bf98e">setObjectDirty</a> (<a class="el" href="classmrmeshpy_1_1ObjectLinesHolder.html">ObjectLinesHolder</a> obj)</td></tr>
+<tr class="inherit_header pub_static_methods_classmrmeshpy_1_1ConstChangeLinesColorMapAction"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classmrmeshpy_1_1ConstChangeLinesColorMapAction')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstChangeLinesColorMapAction.html">mrmeshpy.ConstChangeLinesColorMapAction</a></td></tr>
+<tr class="memitem:a9258a8cb6445dd49213238cfa3349ce8 inherit pub_static_methods_classmrmeshpy_1_1ConstChangeLinesColorMapAction" id="r_a9258a8cb6445dd49213238cfa3349ce8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstChangeLinesColorMapAction.html#a9258a8cb6445dd49213238cfa3349ce8">setObjectDirty</a> (<a class="el" href="classmrmeshpy_1_1ObjectLinesHolder.html">ObjectLinesHolder</a> obj)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:aeb907c8e2d73ffae20e2b23463e90563" id="r_aeb907c8e2d73ffae20e2b23463e90563"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb907c8e2d73ffae20e2b23463e90563">Obj</a> = <a class="el" href="classmrmeshpy_1_1ObjectLinesHolder.html">ObjectLinesHolder</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_classmrmeshpy_1_1ConstChangeLinesColorMapAction"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_attribs_classmrmeshpy_1_1ConstChangeLinesColorMapAction')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Attributes inherited from <a class="el" href="classmrmeshpy_1_1ConstChangeLinesColorMapAction.html">mrmeshpy.ConstChangeLinesColorMapAction</a></td></tr>
+<tr class="memitem:ae9c18a9d741b401855a1cb89055be269 inherit pub_static_attribs_classmrmeshpy_1_1ConstChangeLinesColorMapAction" id="r_ae9c18a9d741b401855a1cb89055be269"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstChangeLinesColorMapAction.html#ae9c18a9d741b401855a1cb89055be269">ConstObj</a> = <a class="el" href="classmrmeshpy_1_1ConstObjectLinesHolder.html">ConstObjectLinesHolder</a></td></tr>
+<tr class="memitem:acf3502b492f6fe598d7de28f4bfce34b inherit pub_static_attribs_classmrmeshpy_1_1ConstChangeLinesColorMapAction" id="r_acf3502b492f6fe598d7de28f4bfce34b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstChangeLinesColorMapAction.html#acf3502b492f6fe598d7de28f4bfce34b">Obj</a> = <a class="el" href="classmrmeshpy_1_1ObjectLinesHolder.html">ObjectLinesHolder</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::ChangeLinesColorMapAction
@@ -267,8 +267,8 @@ History action for lines color map change
 </pre> 
 </div>
 </div>
-<a id="a0221e61415e41e2045fac146e141da6d" name="a0221e61415e41e2045fac146e141da6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0221e61415e41e2045fac146e141da6d">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
+<a id="a7fc70b4f8f50f7fc6265b36824339b66" name="a7fc70b4f8f50f7fc6265b36824339b66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fc70b4f8f50f7fc6265b36824339b66">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -281,7 +281,7 @@ History action for lines color map change
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ChangeLinesColorMapAction.html">ChangeLinesColorMapAction</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstChangeLinesColorMapAction.html">ConstChangeLinesColorMapAction</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -319,93 +319,6 @@ History action for lines color map change
 <pre class="fragment">This function is called on history action (undo, redo, etc.)
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1HistoryAction.html#a2199dde1385a22cd938f9112386930a9">mrmeshpy.HistoryAction</a>.</p>
-
-</div>
-</div>
-<a id="a94964295defbafbf62c8f7dd9b5ba4cf" name="a94964295defbafbf62c8f7dd9b5ba4cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94964295defbafbf62c8f7dd9b5ba4cf">&#9670;&#160;</a></span>heapBytes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int mrmeshpy.ChangeLinesColorMapAction.heapBytes </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns the amount of memory this object occupies on heap
-</pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1HistoryAction.html#a264e20dd6ab37f662580467faa52b10d">mrmeshpy.HistoryAction</a>.</p>
-
-</div>
-</div>
-<a id="a6390c639f7f0eceae0f46136af4b99e1" name="a6390c639f7f0eceae0f46136af4b99e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6390c639f7f0eceae0f46136af4b99e1">&#9670;&#160;</a></span>name()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> str mrmeshpy.ChangeLinesColorMapAction.name </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1HistoryAction.html#ae7381d8eabc34dc5007f597956d64c2a">mrmeshpy.HistoryAction</a>.</p>
-
-</div>
-</div>
-<a id="ade9e26d9e5aab93c95ac8d86a24bf98e" name="ade9e26d9e5aab93c95ac8d86a24bf98e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade9e26d9e5aab93c95ac8d86a24bf98e">&#9670;&#160;</a></span>setObjectDirty()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> None mrmeshpy.ChangeLinesColorMapAction.setObjectDirty </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ObjectLinesHolder.html">ObjectLinesHolder</a></td>          <td class="paramname"><span class="paramname"><em>obj</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="aeb907c8e2d73ffae20e2b23463e90563" name="aeb907c8e2d73ffae20e2b23463e90563"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb907c8e2d73ffae20e2b23463e90563">&#9670;&#160;</a></span>Obj</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">mrmeshpy.ChangeLinesColorMapAction.Obj = <a class="el" href="classmrmeshpy_1_1ObjectLinesHolder.html">ObjectLinesHolder</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

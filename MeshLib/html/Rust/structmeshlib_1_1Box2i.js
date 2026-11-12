@@ -1,0 +1,28 @@
+var structmeshlib_1_1Box2i =
+[
+    [ "center", "structmeshlib_1_1Box2i.html#a72dd9795cc86df60cfb0a69610acabbe", null ],
+    [ "contains_mr_box2i", "structmeshlib_1_1Box2i.html#a76b0d78001f040a5249ab7137eb61d91", null ],
+    [ "contains_mr_vector2i", "structmeshlib_1_1Box2i.html#a3638a902bdbd72e26fd6f0b5b8865c04", null ],
+    [ "corner", "structmeshlib_1_1Box2i.html#a056b9e02c4073f793dded0ae0e62773f", null ],
+    [ "diagonal", "structmeshlib_1_1Box2i.html#acce1f21937f9b989a91399017fa7dff0", null ],
+    [ "expanded", "structmeshlib_1_1Box2i.html#ade21530b942678be9a58dccc68aa9d04", null ],
+    [ "get_box_closest_point_to", "structmeshlib_1_1Box2i.html#a36b09f4b7b1d34c5a0f8f06584bc8446", null ],
+    [ "get_distance_sq_mr_box2i", "structmeshlib_1_1Box2i.html#a6f2fb05012923fe0249a848846561142", null ],
+    [ "get_distance_sq_mr_vector2i", "structmeshlib_1_1Box2i.html#a608707460ac70533d0a22522036e0f13", null ],
+    [ "get_projection", "structmeshlib_1_1Box2i.html#adad49ffc46590df7bdfb376b251d7f09", null ],
+    [ "include_mr_box2i", "structmeshlib_1_1Box2i.html#a5c8f936cab143ab22f409ace4ac187fc", null ],
+    [ "include_mr_vector2i", "structmeshlib_1_1Box2i.html#a3c35d2d2f8715d1de81d7eacea490abb", null ],
+    [ "index", "structmeshlib_1_1Box2i.html#a31e0d211814fc8d65d47dbcff094feaa", null ],
+    [ "index_mut", "structmeshlib_1_1Box2i.html#a6a1ba1f6063c3da597299844f19da93a", null ],
+    [ "insignificantly_expanded", "structmeshlib_1_1Box2i.html#a9c86a5c19221df149d55c821c2baf8fc", null ],
+    [ "intersect", "structmeshlib_1_1Box2i.html#ad561ef467a4a2b8e774665aa4b51b911", null ],
+    [ "intersection", "structmeshlib_1_1Box2i.html#a151432288acbfeebb6eab1148495b4e6", null ],
+    [ "intersects", "structmeshlib_1_1Box2i.html#a09c6a20e8da7584bc830403b1db9315f", null ],
+    [ "op_equal", "structmeshlib_1_1Box2i.html#a92fb3f82089adada7855a338e37c87bd", null ],
+    [ "op_not_equal", "structmeshlib_1_1Box2i.html#a928ee94d6b96e00a68f64925840a04b1", null ],
+    [ "size", "structmeshlib_1_1Box2i.html#a8abd5d286743ffaa2761e12568259d93", null ],
+    [ "valid", "structmeshlib_1_1Box2i.html#a33c3943f49ba120953a12aee23d378b4", null ],
+    [ "volume", "structmeshlib_1_1Box2i.html#abe19c86604dc6cf8c17531f458f656f8", null ],
+    [ "max", "structmeshlib_1_1Box2i.html#adeaae731554d637c1aadee347595f34b", null ],
+    [ "min", "structmeshlib_1_1Box2i.html#af5abd81e1b418e6f79c2f900b132fbe4", null ]
+];

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -156,8 +149,8 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ga0d7b116cb57858e0b068a33b81aed7a7" id="r_ga0d7b116cb57858e0b068a33b81aed7a7"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0d7b116cb57858e0b068a33b81aed7a7">SymMatrix2</a> () noexcept=default</td></tr>
-<tr class="memitem:ga1eca71ad89169309ec28fa552e31cba8" id="r_ga1eca71ad89169309ec28fa552e31cba8"><td class="memTemplParams" colspan="2">template&lt;typename U&gt; </td></tr>
-<tr class="memitem:ga1eca71ad89169309ec28fa552e31cba8 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga1eca71ad89169309ec28fa552e31cba8">MR_REQUIRES_IF_SUPPORTED</a> (!std::is_same_v&lt; T, U &gt;) const expr explicit <a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a>(const <a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a>&lt; U &gt; &amp;m)</td></tr>
+<tr class="memitem:gaa8f1ff6e1f39c591d1ca7dd6c12baa91" id="r_gaa8f1ff6e1f39c591d1ca7dd6c12baa91"><td class="memTemplParams" colspan="2">template&lt;typename U&gt; </td></tr>
+<tr class="memitem:gaa8f1ff6e1f39c591d1ca7dd6c12baa91 template"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa8f1ff6e1f39c591d1ca7dd6c12baa91">SymMatrix2</a> (const <a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a>&lt; U &gt; &amp;m)</td></tr>
 <tr class="memitem:ga261caca745c8a5998fe4599fd9031b43" id="r_ga261caca745c8a5998fe4599fd9031b43"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga261caca745c8a5998fe4599fd9031b43">trace</a> () const noexcept</td></tr>
 <tr class="memdesc:ga261caca745c8a5998fe4599fd9031b43"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes trace of the matrix  <br /></td></tr>
 <tr class="memitem:gac088520c9f121e179524c9eb9b86ff3b" id="r_gac088520c9f121e179524c9eb9b86ff3b"><td class="memItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac088520c9f121e179524c9eb9b86ff3b">normSq</a> () const noexcept</td></tr>
@@ -170,8 +163,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ga4ec338b96049194a96390245466b6a46"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes inverse matrix given determinant of this  <br /></td></tr>
 <tr class="memitem:gaadb5fa684446a94e5c5b1148543e7761" id="r_gaadb5fa684446a94e5c5b1148543e7761"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaadb5fa684446a94e5c5b1148543e7761">operator+=</a> (const <a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="memitem:ga00825772702cbd97018eca7af85866ad" id="r_ga00825772702cbd97018eca7af85866ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga00825772702cbd97018eca7af85866ad">operator-=</a> (const <a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a>&lt; T &gt; &amp;b)</td></tr>
-<tr class="memitem:ga55a77d7f0bbf6b2221a68f1b76439079" id="r_ga55a77d7f0bbf6b2221a68f1b76439079"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga55a77d7f0bbf6b2221a68f1b76439079">operator*=</a> (T b)</td></tr>
-<tr class="memitem:ga841408afb3b039fd491f2c3078d9ad99" id="r_ga841408afb3b039fd491f2c3078d9ad99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga841408afb3b039fd491f2c3078d9ad99">operator/=</a> (T b)</td></tr>
+<tr class="memitem:gabc2969db7ce02a40611724cbddd9b535" id="r_gabc2969db7ce02a40611724cbddd9b535"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gabc2969db7ce02a40611724cbddd9b535">operator*=</a> (T b)</td></tr>
+<tr class="memitem:ga2ee4ab5ba4047edc22941456526e9147" id="r_ga2ee4ab5ba4047edc22941456526e9147"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2ee4ab5ba4047edc22941456526e9147">operator/=</a> (T b)</td></tr>
+<tr class="memitem:ga60e49e5bc0d3433cc7f57f72dd639257" id="r_ga60e49e5bc0d3433cc7f57f72dd639257"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga60e49e5bc0d3433cc7f57f72dd639257">eigens</a> (<a class="el" href="structMR_1_1Matrix2.html">Matrix2</a>&lt; T &gt; *eigenvectors=nullptr) const</td></tr>
+<tr class="memitem:ga3f11254bd96f9ca0ab9b93bcb11a7506" id="r_ga3f11254bd96f9ca0ab9b93bcb11a7506"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3f11254bd96f9ca0ab9b93bcb11a7506">eigenvector</a> (T eigenvalue) const</td></tr>
+<tr class="memdesc:ga3f11254bd96f9ca0ab9b93bcb11a7506"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes not-unit eigenvector corresponding to a not-repeating eigenvalue  <br /></td></tr>
+<tr class="memitem:gaea478c28fc2be9fcd87992baf88fe6c6" id="r_gaea478c28fc2be9fcd87992baf88fe6c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaea478c28fc2be9fcd87992baf88fe6c6">maxEigenvector</a> () const</td></tr>
+<tr class="memdesc:gaea478c28fc2be9fcd87992baf88fe6c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes not-unit eigenvector corresponding to maximum eigenvalue  <br /></td></tr>
+<tr class="memitem:gae4989d2ea045d9df73cfe6c4795293a8" id="r_gae4989d2ea045d9df73cfe6c4795293a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SymMatrix2.html">SymMatrix2</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gae4989d2ea045d9df73cfe6c4795293a8">pseudoinverse</a> (T tol=std::numeric_limits&lt; T &gt;::epsilon(), int *rank=nullptr, <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; *space=nullptr) const</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>

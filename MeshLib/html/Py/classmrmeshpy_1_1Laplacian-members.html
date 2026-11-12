@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -144,22 +137,22 @@ $(function(){initNavTree('classmrmeshpy_1_1Laplacian.html','',''); });
 <p>This is the complete list of members for <a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#a01c18de522ef5d4337a86a271591e9d9">__init__</a>(self, Mesh mesh)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#ab24751ee0b489bd8995949094969da0e">__init__</a>(self, MeshTopology topology, VertCoords points)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#ab9e15cb10cc81c0cd98ad5971c643e9f">addAttractor</a>(self, Laplacian.Attractor a)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#a03fe3f5ba3eeb9a12b2c0600ac99f808">__init__</a>(self, ConstMeshTopology topology, VertCoords points)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#a21464412f97d7bfdda2863ed19bd610f">addAttractor</a>(self, Laplacian.ConstAttractor a)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#a74976cdf1db0e786256d485745725a78">apply</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#a798fff826171aeae8b689297df7b874f">applyToScalar</a>(self, VertScalars scalarField)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#acc40634927ba1072289ae3b471c87854">applyToVector</a>(self, VertCoords points)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#a7d9e2d2d3aacf175b748364a640c240a">firstLayerFixedVerts</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#a4f8471107ab24c092d9f4433137a7123">fixVertex</a>(self, VertId v, bool smooth=True)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#a6d27c2a94043d2a8efae6288902a9e5d">fixVertex</a>(self, VertId v, Vector3f fixedPos, bool smooth=True)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#a3679c8f277694985b452a72ea9a5cd3f">freeVerts</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#afd2dcc2371805915752e4d3122f459c5">init</a>(self, VertBitSet freeVerts, EdgeWeights weights, VertexMass vmass='MR::VertexMass::Unit', RememberShape rem='MR::RememberShape::Yes')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#a1f5544862adcf69a8d4b4c8eb235f93b">initFromPoints</a>(self, VertCoords points, VertBitSet freeVerts, EdgeWeights weights, VertexMass vmass='MR::VertexMass::Unit', RememberShape rem='MR::RememberShape::Yes')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#a19194855335e38994790a25008570eaf">multVertexWeight</a>(self, VertId v, float factor)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#a473d35ed5b906e7e9fafc06fff258143">points</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#a397e9c7782643cb024e4dc759bae415a">region</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLaplacian.html#a941799b7ca891be0481cda1bbc2302a7">firstLayerFixedVerts</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLaplacian.html">mrmeshpy.ConstLaplacian</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#ab14fcbd2256ddb5fab78a8cc2386e197">fixVertex</a>(self, ConstVertId v, bool smooth=True)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#a4992aca0091aaf5d17b8c86446a7ea97">fixVertex</a>(self, ConstVertId v, ConstVector3f fixedPos, bool smooth=True)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLaplacian.html#aeb25495065a12ddce2b4b8bb448a23f8">freeVerts</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLaplacian.html">mrmeshpy.ConstLaplacian</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#ac266dcd2cbdb4ce383b1018f9e7738fb">init</a>(self, ConstVertBitSet freeVerts, EdgeWeights weights, VertexMass vmass='MR::VertexMass::Unit', RememberShape rem='MR::RememberShape::Yes')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#aaf24a38ad6c82f932d464da86bc67a2a">initFromPoints</a>(self, ConstVertCoords points, ConstVertBitSet freeVerts, EdgeWeights weights, VertexMass vmass='MR::VertexMass::Unit', RememberShape rem='MR::RememberShape::Yes')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#abd69d82a6afb4cee074ceac1a5b39fe7">multVertexWeight</a>(self, ConstVertId v, float factor)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLaplacian.html#a061571aabeb259e44fdaf9e71d0cf4c5">points</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLaplacian.html">mrmeshpy.ConstLaplacian</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLaplacian.html#afd6c71effbd02c77353fb7ac8fa3a9c3">region</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLaplacian.html">mrmeshpy.ConstLaplacian</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#aa41072443163d8150b3249b9e5b63329">removeAllAttractors</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#ab2de54cbe949f98f111b0c2f1966e8af">topology</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLaplacian.html#abfaa7f156a0ac504cf2c4a56eb313188">topology</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLaplacian.html">mrmeshpy.ConstLaplacian</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html#a2f08ce89d085f4800192cfc97ea15938">updateSolver</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Laplacian.html">mrmeshpy.Laplacian</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->

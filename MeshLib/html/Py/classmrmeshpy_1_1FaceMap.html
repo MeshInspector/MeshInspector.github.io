@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,75 +133,88 @@ $(function(){initNavTree('classmrmeshpy_1_1FaceMap.html','','classmrmeshpy_1_1Fa
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1FaceMap-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.FaceMap Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for mrmeshpy.FaceMap:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmrmeshpy_1_1FaceMap.png" usemap="#mrmeshpy_2EFaceMap_map" alt=""/>
+  <map id="mrmeshpy_2EFaceMap_map" name="mrmeshpy_2EFaceMap_map">
+<area href="classmrmeshpy_1_1ConstFaceMap.html" alt="mrmeshpy.ConstFaceMap" shape="rect" coords="0,0,159,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a038cd86e6f3c77ac204b1086362e0d2f" id="r_a038cd86e6f3c77ac204b1086362e0d2f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a038cd86e6f3c77ac204b1086362e0d2f">__eq__</a> (self, <a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a> b)</td></tr>
-<tr class="memitem:af0d5a0fe74b4bdeb0d54e78863e81f29" id="r_af0d5a0fe74b4bdeb0d54e78863e81f29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0d5a0fe74b4bdeb0d54e78863e81f29">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> i)</td></tr>
-<tr class="memitem:af0d5a0fe74b4bdeb0d54e78863e81f29" id="r_af0d5a0fe74b4bdeb0d54e78863e81f29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0d5a0fe74b4bdeb0d54e78863e81f29">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> i)</td></tr>
+<tr class="memitem:a6a83df3082220b59a82a1e2d5fa8cb15" id="r_a6a83df3082220b59a82a1e2d5fa8cb15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a83df3082220b59a82a1e2d5fa8cb15">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> i)</td></tr>
+<tr class="memitem:a62aa73a61250e852b576c95c0c8ca542" id="r_a62aa73a61250e852b576c95c0c8ca542"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62aa73a61250e852b576c95c0c8ca542">__getitem__</a> (<a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">ConstFaceMap</a> self, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> i)</td></tr>
 <tr class="memitem:aa85f07e5c63b751b12a33060577c0d01" id="r_aa85f07e5c63b751b12a33060577c0d01"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa85f07e5c63b751b12a33060577c0d01">__init__</a> (self)</td></tr>
-<tr class="memitem:a935ef8998d96624cfcf5aa480459098f" id="r_a935ef8998d96624cfcf5aa480459098f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a935ef8998d96624cfcf5aa480459098f">__init__</a> (self, int <a class="el" href="#ac4ba9d3206dbf20dd6940cdf78215482">size</a>)</td></tr>
-<tr class="memitem:ae5fc72234504bc46ed274c9f8c87110c" id="r_ae5fc72234504bc46ed274c9f8c87110c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5fc72234504bc46ed274c9f8c87110c">__init__</a> (self, int <a class="el" href="#ac4ba9d3206dbf20dd6940cdf78215482">size</a>, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> val)</td></tr>
-<tr class="memitem:adf9586e914fa8497b8e4b91b1a45fa81" id="r_adf9586e914fa8497b8e4b91b1a45fa81"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf9586e914fa8497b8e4b91b1a45fa81">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__Id__FaceTag.html">std_vector_Id_FaceTag</a> <a class="el" href="#afc4a1c5e8f1c69a27fb13f15a807af05">vec</a>)</td></tr>
-<tr class="memitem:a37f7206d29e4072c1143e2498bbf6006" id="r_a37f7206d29e4072c1143e2498bbf6006"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37f7206d29e4072c1143e2498bbf6006">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a> arg0)</td></tr>
+<tr class="memitem:a935ef8998d96624cfcf5aa480459098f" id="r_a935ef8998d96624cfcf5aa480459098f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a935ef8998d96624cfcf5aa480459098f">__init__</a> (self, int <a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#aa1706c86118b9cab024a5513128b23ac">size</a>)</td></tr>
+<tr class="memitem:addafa797d2723278e40b9b64dd667178" id="r_addafa797d2723278e40b9b64dd667178"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addafa797d2723278e40b9b64dd667178">__init__</a> (self, int <a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#aa1706c86118b9cab024a5513128b23ac">size</a>, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> val)</td></tr>
+<tr class="memitem:ae27f7667d78e47e5941234624d4b9e64" id="r_ae27f7667d78e47e5941234624d4b9e64"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae27f7667d78e47e5941234624d4b9e64">__init__</a> (self, list arg0)</td></tr>
+<tr class="memitem:aed26ef1ca64145802273f355f909ec74" id="r_aed26ef1ca64145802273f355f909ec74"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed26ef1ca64145802273f355f909ec74">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">ConstFaceMap</a> arg0)</td></tr>
 <tr class="memitem:af815bcdd368a444f6da5dfd8b6eb0262" id="r_af815bcdd368a444f6da5dfd8b6eb0262"><td class="memItemLeft" align="right" valign="top">typing.Iterator[<a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af815bcdd368a444f6da5dfd8b6eb0262">__iter__</a> (self)</td></tr>
-<tr class="memitem:ade61066ad806affd557432e7cc4faa63" id="r_ade61066ad806affd557432e7cc4faa63"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade61066ad806affd557432e7cc4faa63">__ne__</a> (self, <a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a> b)</td></tr>
-<tr class="memitem:a242c8da1fce436f9ee268f9c8ebd2fbc" id="r_a242c8da1fce436f9ee268f9c8ebd2fbc"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a242c8da1fce436f9ee268f9c8ebd2fbc">__setitem__</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> arg0, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> arg1)</td></tr>
-<tr class="memitem:aa95ffbe168ace47c1e78b9bfc8805b43" id="r_aa95ffbe168ace47c1e78b9bfc8805b43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa95ffbe168ace47c1e78b9bfc8805b43">autoResizeAt</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> i)</td></tr>
-<tr class="memitem:a698ac051699d157b9ee0c7af8b836955" id="r_a698ac051699d157b9ee0c7af8b836955"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a698ac051699d157b9ee0c7af8b836955">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> pos, int len, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> val)</td></tr>
-<tr class="memitem:a831fd4c8b25ea4a2068bb91c4b4363f0" id="r_a831fd4c8b25ea4a2068bb91c4b4363f0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a831fd4c8b25ea4a2068bb91c4b4363f0">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> i, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> val)</td></tr>
+<tr class="memitem:a02911c5a7441ac121e09de3a2998664a" id="r_a02911c5a7441ac121e09de3a2998664a"><td class="memItemLeft" align="right" valign="top">typing.Iterator[<a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a>]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02911c5a7441ac121e09de3a2998664a">__iter__</a> (<a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">ConstFaceMap</a> self)</td></tr>
+<tr class="memitem:afc106abf12ff04fd15c620507fb89320" id="r_afc106abf12ff04fd15c620507fb89320"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc106abf12ff04fd15c620507fb89320">__setitem__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> arg0, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> arg1)</td></tr>
+<tr class="memitem:aca99fd4851842be08437129a988ad0e6" id="r_aca99fd4851842be08437129a988ad0e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca99fd4851842be08437129a988ad0e6">assign</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">ConstFaceMap</a> other)</td></tr>
+<tr class="memitem:a25b00586c83d3c7b3b300fadafc5efc8" id="r_a25b00586c83d3c7b3b300fadafc5efc8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25b00586c83d3c7b3b300fadafc5efc8">assign</a> (self, int count, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> val)</td></tr>
+<tr class="memitem:a7a56cf9b35d433a2f66adecb16b01752" id="r_a7a56cf9b35d433a2f66adecb16b01752"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a56cf9b35d433a2f66adecb16b01752">autoResizeAt</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> i)</td></tr>
+<tr class="memitem:a4e99e9dc69f7e3efb7d00ba51e1db020" id="r_a4e99e9dc69f7e3efb7d00ba51e1db020"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e99e9dc69f7e3efb7d00ba51e1db020">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> pos, int len, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> val)</td></tr>
+<tr class="memitem:a38ae569cd15a3a295af26c52bf423677" id="r_a38ae569cd15a3a295af26c52bf423677"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38ae569cd15a3a295af26c52bf423677">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> i, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> val)</td></tr>
 <tr class="memitem:aefe15b8f3fdc60231405fe6bcc245592" id="r_aefe15b8f3fdc60231405fe6bcc245592"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefe15b8f3fdc60231405fe6bcc245592">back</a> (self)</td></tr>
-<tr class="memitem:aefe15b8f3fdc60231405fe6bcc245592" id="r_aefe15b8f3fdc60231405fe6bcc245592"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefe15b8f3fdc60231405fe6bcc245592">back</a> (self)</td></tr>
-<tr class="memitem:a17467645b60bf6f85e577f0552921e69" id="r_a17467645b60bf6f85e577f0552921e69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17467645b60bf6f85e577f0552921e69">backId</a> (self)</td></tr>
-<tr class="memitem:a300c4f306cea87c071d1791982c2b4d6" id="r_a300c4f306cea87c071d1791982c2b4d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a300c4f306cea87c071d1791982c2b4d6">beginId</a> (self)</td></tr>
-<tr class="memitem:a05b288f483417496979b6996a54e64ca" id="r_a05b288f483417496979b6996a54e64ca"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05b288f483417496979b6996a54e64ca">capacity</a> (self)</td></tr>
+<tr class="memitem:aa068838fec16b6f8cca694f81e915327" id="r_aa068838fec16b6f8cca694f81e915327"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa068838fec16b6f8cca694f81e915327">back</a> (<a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">ConstFaceMap</a> self)</td></tr>
 <tr class="memitem:a57ee501fd87487b7116efbb469477e39" id="r_a57ee501fd87487b7116efbb469477e39"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57ee501fd87487b7116efbb469477e39">clear</a> (self)</td></tr>
 <tr class="memitem:a843544d819c00d2fdf1a4a90c8100bfe" id="r_a843544d819c00d2fdf1a4a90c8100bfe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a843544d819c00d2fdf1a4a90c8100bfe">data</a> (self)</td></tr>
-<tr class="memitem:a843544d819c00d2fdf1a4a90c8100bfe" id="r_a843544d819c00d2fdf1a4a90c8100bfe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a843544d819c00d2fdf1a4a90c8100bfe">data</a> (self)</td></tr>
-<tr class="memitem:a5188d8ff16ae62a831df613159ce491e" id="r_a5188d8ff16ae62a831df613159ce491e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5188d8ff16ae62a831df613159ce491e">empty</a> (self)</td></tr>
-<tr class="memitem:a1f32bab02d765ec1602bb6ab26fb250f" id="r_a1f32bab02d765ec1602bb6ab26fb250f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f32bab02d765ec1602bb6ab26fb250f">endId</a> (self)</td></tr>
+<tr class="memitem:a51d3a7fe13eb0ee31e2b771c9cc31060" id="r_a51d3a7fe13eb0ee31e2b771c9cc31060"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51d3a7fe13eb0ee31e2b771c9cc31060">data</a> (<a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">ConstFaceMap</a> self)</td></tr>
 <tr class="memitem:aa689719da001f1780eb2e1102585962b" id="r_aa689719da001f1780eb2e1102585962b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa689719da001f1780eb2e1102585962b">front</a> (self)</td></tr>
-<tr class="memitem:aa689719da001f1780eb2e1102585962b" id="r_aa689719da001f1780eb2e1102585962b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa689719da001f1780eb2e1102585962b">front</a> (self)</td></tr>
-<tr class="memitem:a9ec65af41bb5ecae6aa21fd962a4a7ef" id="r_a9ec65af41bb5ecae6aa21fd962a4a7ef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ec65af41bb5ecae6aa21fd962a4a7ef">heapBytes</a> (self)</td></tr>
+<tr class="memitem:a9e6a1978bf2c035830708d2df6bc2d64" id="r_a9e6a1978bf2c035830708d2df6bc2d64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e6a1978bf2c035830708d2df6bc2d64">front</a> (<a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">ConstFaceMap</a> self)</td></tr>
 <tr class="memitem:a1042f2f0573f4a5d121658b23b0cb8eb" id="r_a1042f2f0573f4a5d121658b23b0cb8eb"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1042f2f0573f4a5d121658b23b0cb8eb">pop_back</a> (self)</td></tr>
+<tr class="memitem:aed54893343483730601a18cd458e0468" id="r_aed54893343483730601a18cd458e0468"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed54893343483730601a18cd458e0468">push_back</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> t)</td></tr>
 <tr class="memitem:a9f5256cad5b656e28d9ec8f99763add2" id="r_a9f5256cad5b656e28d9ec8f99763add2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f5256cad5b656e28d9ec8f99763add2">push_back</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> t)</td></tr>
-<tr class="memitem:a9f5256cad5b656e28d9ec8f99763add2" id="r_a9f5256cad5b656e28d9ec8f99763add2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f5256cad5b656e28d9ec8f99763add2">push_back</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> t)</td></tr>
-<tr class="memitem:a16d66a7eb54e39b1e61895f02e85e33a" id="r_a16d66a7eb54e39b1e61895f02e85e33a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16d66a7eb54e39b1e61895f02e85e33a">reserve</a> (self, int <a class="el" href="#a05b288f483417496979b6996a54e64ca">capacity</a>)</td></tr>
+<tr class="memitem:a16d66a7eb54e39b1e61895f02e85e33a" id="r_a16d66a7eb54e39b1e61895f02e85e33a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16d66a7eb54e39b1e61895f02e85e33a">reserve</a> (self, int <a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#a770a0547c55381b71c8f6644035cec80">capacity</a>)</td></tr>
 <tr class="memitem:a33ef2f03a1924d10cb3355d2816ea377" id="r_a33ef2f03a1924d10cb3355d2816ea377"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33ef2f03a1924d10cb3355d2816ea377">resize</a> (self, int newSize)</td></tr>
-<tr class="memitem:af562366d865388e21f93e8efbf491291" id="r_af562366d865388e21f93e8efbf491291"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af562366d865388e21f93e8efbf491291">resize</a> (self, int newSize, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> t)</td></tr>
-<tr class="memitem:a25d39f0cc043dc43a0e30e1093eaa828" id="r_a25d39f0cc043dc43a0e30e1093eaa828"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25d39f0cc043dc43a0e30e1093eaa828">resizeNoInit</a> (self, int targetSize)</td></tr>
+<tr class="memitem:a04849db9c1615c837dda5eb7d1c9ce9b" id="r_a04849db9c1615c837dda5eb7d1c9ce9b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04849db9c1615c837dda5eb7d1c9ce9b">resize</a> (self, int newSize, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> t)</td></tr>
+<tr class="memitem:a622bf0eec5977ad8736635c5170f888d" id="r_a622bf0eec5977ad8736635c5170f888d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a622bf0eec5977ad8736635c5170f888d">resizeNoInit</a> (self, int targetSize, <a class="el" href="classmrmeshpy_1_1ReserveMode.html">ReserveMode</a> mode='MR::ReserveMode::Exact')</td></tr>
 <tr class="memitem:a38642430f2c6ebe325a3e14bebcd1316" id="r_a38642430f2c6ebe325a3e14bebcd1316"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38642430f2c6ebe325a3e14bebcd1316">resizeWithReserve</a> (self, int newSize)</td></tr>
-<tr class="memitem:a1d8aa78c01d069c864463655fc612a3c" id="r_a1d8aa78c01d069c864463655fc612a3c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d8aa78c01d069c864463655fc612a3c">resizeWithReserve</a> (self, int newSize, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> value)</td></tr>
-<tr class="memitem:ac4ba9d3206dbf20dd6940cdf78215482" id="r_ac4ba9d3206dbf20dd6940cdf78215482"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4ba9d3206dbf20dd6940cdf78215482">size</a> (self)</td></tr>
+<tr class="memitem:a3e7b57cd520569a707b6a5643c31a43c" id="r_a3e7b57cd520569a707b6a5643c31a43c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e7b57cd520569a707b6a5643c31a43c">resizeWithReserve</a> (self, int newSize, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> value)</td></tr>
+<tr class="memitem:a5acc31bac35ec9afc9eaa0a3029ead6c" id="r_a5acc31bac35ec9afc9eaa0a3029ead6c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5acc31bac35ec9afc9eaa0a3029ead6c">shrink_to_fit</a> (self)</td></tr>
 <tr class="memitem:a53db47c69385366a4119c34ad8f2991d" id="r_a53db47c69385366a4119c34ad8f2991d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53db47c69385366a4119c34ad8f2991d">swap</a> (self, <a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a> b)</td></tr>
-<tr class="memitem:afc4a1c5e8f1c69a27fb13f15a807af05" id="r_afc4a1c5e8f1c69a27fb13f15a807af05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__Id__FaceTag.html">std_vector_Id_FaceTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc4a1c5e8f1c69a27fb13f15a807af05">vec</a> (self)</td></tr>
-<tr class="memitem:a4322a8f2a8d7eaaa1ca58f62d5720013" id="r_a4322a8f2a8d7eaaa1ca58f62d5720013"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4322a8f2a8d7eaaa1ca58f62d5720013">vec</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__Id__FaceTag.html">std_vector_Id_FaceTag</a> arg1)</td></tr>
-<tr class="memitem:a070a1b3d7877dfda9cf8687f83da5611" id="r_a070a1b3d7877dfda9cf8687f83da5611"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__Id__FaceTag.html">std_vector_Id_FaceTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a070a1b3d7877dfda9cf8687f83da5611">vec_</a> (self)</td></tr>
-<tr class="memitem:a69cc538455270578281546fb7d5c7876" id="r_a69cc538455270578281546fb7d5c7876"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69cc538455270578281546fb7d5c7876">vec_</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__Id__FaceTag.html">std_vector_Id_FaceTag</a> arg1)</td></tr>
+<tr class="memitem:a50ef30e71144dee65d09c50f302e3721" id="r_a50ef30e71144dee65d09c50f302e3721"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__Id__FaceTag__Allocator__Id__FaceTag.html">std_vector_Id_FaceTag_Allocator_Id_FaceTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50ef30e71144dee65d09c50f302e3721">vec</a> (self)</td></tr>
+<tr class="memitem:ae07428e6b1cd1174597abd96b43ab380" id="r_ae07428e6b1cd1174597abd96b43ab380"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae07428e6b1cd1174597abd96b43ab380">vec</a> (self, <a class="el" href="classmrmeshpy_1_1Const__std__vector__Id__FaceTag__Allocator__Id__FaceTag.html">Const_std_vector_Id_FaceTag_Allocator_Id_FaceTag</a> arg1)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstFaceMap"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstFaceMap')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">mrmeshpy.ConstFaceMap</a></td></tr>
+<tr class="memitem:a489e042a0abc193493d8c771fff18125 inherit pub_methods_classmrmeshpy_1_1ConstFaceMap" id="r_a489e042a0abc193493d8c771fff18125"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#a489e042a0abc193493d8c771fff18125">__eq__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">ConstFaceMap</a> b)</td></tr>
+<tr class="memitem:ab1bbbe3d6133a8196ed54f882149289f inherit pub_methods_classmrmeshpy_1_1ConstFaceMap" id="r_ab1bbbe3d6133a8196ed54f882149289f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#ab1bbbe3d6133a8196ed54f882149289f">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> i)</td></tr>
+<tr class="memitem:acd2fb40a1716c099a4ee991703153cb0 inherit pub_methods_classmrmeshpy_1_1ConstFaceMap" id="r_acd2fb40a1716c099a4ee991703153cb0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#acd2fb40a1716c099a4ee991703153cb0">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:a7ea1c8d1b26e0d61a27458554ee955fc inherit pub_methods_classmrmeshpy_1_1ConstFaceMap" id="r_a7ea1c8d1b26e0d61a27458554ee955fc"><td class="memItemLeft" align="right" valign="top">typing.Iterator[<a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a>]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#a7ea1c8d1b26e0d61a27458554ee955fc">__iter__</a> (self)</td></tr>
+<tr class="memitem:a89bc326d7c35f8041936da78b1128bf5 inherit pub_methods_classmrmeshpy_1_1ConstFaceMap" id="r_a89bc326d7c35f8041936da78b1128bf5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#a89bc326d7c35f8041936da78b1128bf5">__len__</a> (self)</td></tr>
+<tr class="memitem:a180daea981b4701206a0c86cf02b478b inherit pub_methods_classmrmeshpy_1_1ConstFaceMap" id="r_a180daea981b4701206a0c86cf02b478b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#a180daea981b4701206a0c86cf02b478b">__ne__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">ConstFaceMap</a> b)</td></tr>
+<tr class="memitem:a724889cb2ef89eb59b002d0edf6b52a2 inherit pub_methods_classmrmeshpy_1_1ConstFaceMap" id="r_a724889cb2ef89eb59b002d0edf6b52a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#a724889cb2ef89eb59b002d0edf6b52a2">backId</a> (self)</td></tr>
+<tr class="memitem:ad9e8eb1a60048f14d64983b4792f398e inherit pub_methods_classmrmeshpy_1_1ConstFaceMap" id="r_ad9e8eb1a60048f14d64983b4792f398e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#ad9e8eb1a60048f14d64983b4792f398e">beginId</a> (self)</td></tr>
+<tr class="memitem:a770a0547c55381b71c8f6644035cec80 inherit pub_methods_classmrmeshpy_1_1ConstFaceMap" id="r_a770a0547c55381b71c8f6644035cec80"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#a770a0547c55381b71c8f6644035cec80">capacity</a> (self)</td></tr>
+<tr class="memitem:a42a7a6711118eed934a63cea8622df35 inherit pub_methods_classmrmeshpy_1_1ConstFaceMap" id="r_a42a7a6711118eed934a63cea8622df35"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#a42a7a6711118eed934a63cea8622df35">empty</a> (self)</td></tr>
+<tr class="memitem:a7483521c45b2a36c1eea5daf1bce70fd inherit pub_methods_classmrmeshpy_1_1ConstFaceMap" id="r_a7483521c45b2a36c1eea5daf1bce70fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#a7483521c45b2a36c1eea5daf1bce70fd">endId</a> (self)</td></tr>
+<tr class="memitem:aebaeaa101140a40d9dd6a3be61866481 inherit pub_methods_classmrmeshpy_1_1ConstFaceMap" id="r_aebaeaa101140a40d9dd6a3be61866481"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#aebaeaa101140a40d9dd6a3be61866481">heapBytes</a> (self)</td></tr>
+<tr class="memitem:aaf1f9353bc4dca6252b258e36df41927 inherit pub_methods_classmrmeshpy_1_1ConstFaceMap" id="r_aaf1f9353bc4dca6252b258e36df41927"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#aaf1f9353bc4dca6252b258e36df41927">max_size</a> (self)</td></tr>
+<tr class="memitem:aa1706c86118b9cab024a5513128b23ac inherit pub_methods_classmrmeshpy_1_1ConstFaceMap" id="r_aa1706c86118b9cab024a5513128b23ac"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#aa1706c86118b9cab024a5513128b23ac">size</a> (self)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a57442d6c59be0a1908ea65a8fbdd5501" id="r_a57442d6c59be0a1908ea65a8fbdd5501"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57442d6c59be0a1908ea65a8fbdd5501">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a991e75073c3c374ed55bcf07dd984270" id="r_a991e75073c3c374ed55bcf07dd984270"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a991e75073c3c374ed55bcf07dd984270">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a991e75073c3c374ed55bcf07dd984270" id="r_a991e75073c3c374ed55bcf07dd984270"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a991e75073c3c374ed55bcf07dd984270">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a94861f2440714d9f8d177f6c5f455b2a" id="r_a94861f2440714d9f8d177f6c5f455b2a"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94861f2440714d9f8d177f6c5f455b2a">_offsetof_vec_</a> = 0</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_static_attribs_classmrmeshpy_1_1ConstFaceMap"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classmrmeshpy_1_1ConstFaceMap')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Attributes inherited from <a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">mrmeshpy.ConstFaceMap</a></td></tr>
+<tr class="memitem:ad8dcc2dfa527bae0f4ca0908aab30c67 inherit pro_static_attribs_classmrmeshpy_1_1ConstFaceMap" id="r_ad8dcc2dfa527bae0f4ca0908aab30c67"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#ad8dcc2dfa527bae0f4ca0908aab30c67">_offsetof_vec</a> = 0</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::FaceMap
 Aliases:  MapOrHashMap_FaceId_FaceId.Dense
 
-
- \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
- \\tparam T type of stored elements
- \\tparam I type of index (shall be convertible to size_t)
+Vector&lt;T&gt; is indexed by size_t
 </pre> </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a57442d6c59be0a1908ea65a8fbdd5501" name="a57442d6c59be0a1908ea65a8fbdd5501"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a57442d6c59be0a1908ea65a8fbdd5501">&#9670;&#160;</a></span>__init__() <span class="overload">[1/6]</span></h2>
@@ -279,8 +285,8 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
 </pre> 
 </div>
 </div>
-<a id="ae5fc72234504bc46ed274c9f8c87110c" name="ae5fc72234504bc46ed274c9f8c87110c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5fc72234504bc46ed274c9f8c87110c">&#9670;&#160;</a></span>__init__() <span class="overload">[4/6]</span></h2>
+<a id="addafa797d2723278e40b9b64dd667178" name="addafa797d2723278e40b9b64dd667178"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addafa797d2723278e40b9b64dd667178">&#9670;&#160;</a></span>__init__() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -298,7 +304,7 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -306,8 +312,8 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
 </pre> 
 </div>
 </div>
-<a id="adf9586e914fa8497b8e4b91b1a45fa81" name="adf9586e914fa8497b8e4b91b1a45fa81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf9586e914fa8497b8e4b91b1a45fa81">&#9670;&#160;</a></span>__init__() <span class="overload">[5/6]</span></h2>
+<a id="ae27f7667d78e47e5941234624d4b9e64" name="ae27f7667d78e47e5941234624d4b9e64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae27f7667d78e47e5941234624d4b9e64">&#9670;&#160;</a></span>__init__() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -320,16 +326,15 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__Id__FaceTag.html">std_vector_Id_FaceTag</a></td>          <td class="paramname"><span class="paramname"><em>vec</em></span>&#160;)</td>
+          <td class="paramtype">list</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">moves data from the given std::vector&lt;T&gt;
-</pre> 
+
 </div>
 </div>
-<a id="a37f7206d29e4072c1143e2498bbf6006" name="a37f7206d29e4072c1143e2498bbf6006"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37f7206d29e4072c1143e2498bbf6006">&#9670;&#160;</a></span>__init__() <span class="overload">[6/6]</span></h2>
+<a id="aed26ef1ca64145802273f355f909ec74" name="aed26ef1ca64145802273f355f909ec74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed26ef1ca64145802273f355f909ec74">&#9670;&#160;</a></span>__init__() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -342,7 +347,7 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">ConstFaceMap</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -351,29 +356,29 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a038cd86e6f3c77ac204b1086362e0d2f" name="a038cd86e6f3c77ac204b1086362e0d2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a038cd86e6f3c77ac204b1086362e0d2f">&#9670;&#160;</a></span>__eq__()</h2>
+<a id="a62aa73a61250e852b576c95c0c8ca542" name="a62aa73a61250e852b576c95c0c8ca542"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62aa73a61250e852b576c95c0c8ca542">&#9670;&#160;</a></span>__getitem__() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> bool mrmeshpy.FaceMap.__eq__ </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> mrmeshpy.FaceMap.__getitem__ </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">ConstFaceMap</a></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af0d5a0fe74b4bdeb0d54e78863e81f29" name="af0d5a0fe74b4bdeb0d54e78863e81f29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0d5a0fe74b4bdeb0d54e78863e81f29">&#9670;&#160;</a></span>__getitem__() <span class="overload">[1/2]</span></h2>
+<a id="a6a83df3082220b59a82a1e2d5fa8cb15" name="a6a83df3082220b59a82a1e2d5fa8cb15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a83df3082220b59a82a1e2d5fa8cb15">&#9670;&#160;</a></span>__getitem__() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -386,28 +391,24 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af0d5a0fe74b4bdeb0d54e78863e81f29" name="af0d5a0fe74b4bdeb0d54e78863e81f29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0d5a0fe74b4bdeb0d54e78863e81f29">&#9670;&#160;</a></span>__getitem__() <span class="overload">[2/2]</span></h2>
+<a id="a02911c5a7441ac121e09de3a2998664a" name="a02911c5a7441ac121e09de3a2998664a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02911c5a7441ac121e09de3a2998664a">&#9670;&#160;</a></span>__iter__() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> mrmeshpy.FaceMap.__getitem__ </td>
+          <td class="memname"> typing.Iterator[<a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a>] mrmeshpy.FaceMap.__iter__ </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">ConstFaceMap</a></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -415,7 +416,7 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
 </div>
 </div>
 <a id="af815bcdd368a444f6da5dfd8b6eb0262" name="af815bcdd368a444f6da5dfd8b6eb0262"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af815bcdd368a444f6da5dfd8b6eb0262">&#9670;&#160;</a></span>__iter__()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af815bcdd368a444f6da5dfd8b6eb0262">&#9670;&#160;</a></span>__iter__() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -431,29 +432,8 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
 
 </div>
 </div>
-<a id="ade61066ad806affd557432e7cc4faa63" name="ade61066ad806affd557432e7cc4faa63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade61066ad806affd557432e7cc4faa63">&#9670;&#160;</a></span>__ne__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.FaceMap.__ne__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a242c8da1fce436f9ee268f9c8ebd2fbc" name="a242c8da1fce436f9ee268f9c8ebd2fbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a242c8da1fce436f9ee268f9c8ebd2fbc">&#9670;&#160;</a></span>__setitem__()</h2>
+<a id="afc106abf12ff04fd15c620507fb89320" name="afc106abf12ff04fd15c620507fb89320"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc106abf12ff04fd15c620507fb89320">&#9670;&#160;</a></span>__setitem__()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -466,20 +446,68 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aa95ffbe168ace47c1e78b9bfc8805b43" name="aa95ffbe168ace47c1e78b9bfc8805b43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa95ffbe168ace47c1e78b9bfc8805b43">&#9670;&#160;</a></span>autoResizeAt()</h2>
+<a id="aca99fd4851842be08437129a988ad0e6" name="aca99fd4851842be08437129a988ad0e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca99fd4851842be08437129a988ad0e6">&#9670;&#160;</a></span>assign() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a> mrmeshpy.FaceMap.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">ConstFaceMap</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25b00586c83d3c7b3b300fadafc5efc8" name="a25b00586c83d3c7b3b300fadafc5efc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25b00586c83d3c7b3b300fadafc5efc8">&#9670;&#160;</a></span>assign() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.FaceMap.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>count</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">replaces the contents with \\p count copies of \\p val
+</pre> 
+</div>
+</div>
+<a id="a7a56cf9b35d433a2f66adecb16b01752" name="a7a56cf9b35d433a2f66adecb16b01752"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a56cf9b35d433a2f66adecb16b01752">&#9670;&#160;</a></span>autoResizeAt()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -492,7 +520,7 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -500,8 +528,8 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
 </pre> 
 </div>
 </div>
-<a id="a831fd4c8b25ea4a2068bb91c4b4363f0" name="a831fd4c8b25ea4a2068bb91c4b4363f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a831fd4c8b25ea4a2068bb91c4b4363f0">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
+<a id="a38ae569cd15a3a295af26c52bf423677" name="a38ae569cd15a3a295af26c52bf423677"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38ae569cd15a3a295af26c52bf423677">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -514,21 +542,21 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">sets the element #i to the given value, adjusting the size of the vector to include new element
+<pre class="fragment">sets the element i to the given value, adjusting the size of the vector to include new element
 </pre> 
 </div>
 </div>
-<a id="a698ac051699d157b9ee0c7af8b836955" name="a698ac051699d157b9ee0c7af8b836955"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a698ac051699d157b9ee0c7af8b836955">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
+<a id="a4e99e9dc69f7e3efb7d00ba51e1db020" name="a4e99e9dc69f7e3efb7d00ba51e1db020"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e99e9dc69f7e3efb7d00ba51e1db020">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -541,7 +569,7 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -551,7 +579,7 @@ Aliases:  MapOrHashMap_FaceId_FaceId.Dense
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -560,20 +588,22 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
 </pre> 
 </div>
 </div>
-<a id="aefe15b8f3fdc60231405fe6bcc245592" name="aefe15b8f3fdc60231405fe6bcc245592"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefe15b8f3fdc60231405fe6bcc245592">&#9670;&#160;</a></span>back() <span class="overload">[1/2]</span></h2>
+<a id="aa068838fec16b6f8cca694f81e915327" name="aa068838fec16b6f8cca694f81e915327"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa068838fec16b6f8cca694f81e915327">&#9670;&#160;</a></span>back() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> mrmeshpy.FaceMap.back </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> mrmeshpy.FaceMap.back </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">ConstFaceMap</a></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#a9b267559c76ce918da199b094ebb0b92">mrmeshpy.ConstFaceMap</a>.</p>
 
 </div>
 </div>
@@ -592,58 +622,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a17467645b60bf6f85e577f0552921e69" name="a17467645b60bf6f85e577f0552921e69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17467645b60bf6f85e577f0552921e69">&#9670;&#160;</a></span>backId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> mrmeshpy.FaceMap.backId </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns the identifier of the back() element
-</pre> 
-</div>
-</div>
-<a id="a300c4f306cea87c071d1791982c2b4d6" name="a300c4f306cea87c071d1791982c2b4d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a300c4f306cea87c071d1791982c2b4d6">&#9670;&#160;</a></span>beginId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> mrmeshpy.FaceMap.beginId </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns the identifier of the first element
-</pre> 
-</div>
-</div>
-<a id="a05b288f483417496979b6996a54e64ca" name="a05b288f483417496979b6996a54e64ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05b288f483417496979b6996a54e64ca">&#9670;&#160;</a></span>capacity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int mrmeshpy.FaceMap.capacity </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#a9b267559c76ce918da199b094ebb0b92">mrmeshpy.ConstFaceMap</a>.</p>
 
 </div>
 </div>
@@ -664,20 +643,22 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
 
 </div>
 </div>
-<a id="a843544d819c00d2fdf1a4a90c8100bfe" name="a843544d819c00d2fdf1a4a90c8100bfe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a843544d819c00d2fdf1a4a90c8100bfe">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
+<a id="a51d3a7fe13eb0ee31e2b771c9cc31060" name="a51d3a7fe13eb0ee31e2b771c9cc31060"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51d3a7fe13eb0ee31e2b771c9cc31060">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> mrmeshpy.FaceMap.data </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> mrmeshpy.FaceMap.data </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">ConstFaceMap</a></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#a848d52c3f8a885d7aae4a2fd785a68d5">mrmeshpy.ConstFaceMap</a>.</p>
 
 </div>
 </div>
@@ -696,57 +677,26 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       </table>
 </div><div class="memdoc">
 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#a848d52c3f8a885d7aae4a2fd785a68d5">mrmeshpy.ConstFaceMap</a>.</p>
+
 </div>
 </div>
-<a id="a5188d8ff16ae62a831df613159ce491e" name="a5188d8ff16ae62a831df613159ce491e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5188d8ff16ae62a831df613159ce491e">&#9670;&#160;</a></span>empty()</h2>
+<a id="a9e6a1978bf2c035830708d2df6bc2d64" name="a9e6a1978bf2c035830708d2df6bc2d64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e6a1978bf2c035830708d2df6bc2d64">&#9670;&#160;</a></span>front() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> bool mrmeshpy.FaceMap.empty </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> mrmeshpy.FaceMap.front </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceMap.html">ConstFaceMap</a></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a1f32bab02d765ec1602bb6ab26fb250f" name="a1f32bab02d765ec1602bb6ab26fb250f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f32bab02d765ec1602bb6ab26fb250f">&#9670;&#160;</a></span>endId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> mrmeshpy.FaceMap.endId </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns backId() + 1
-</pre> 
-</div>
-</div>
-<a id="aa689719da001f1780eb2e1102585962b" name="aa689719da001f1780eb2e1102585962b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa689719da001f1780eb2e1102585962b">&#9670;&#160;</a></span>front() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> mrmeshpy.FaceMap.front </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#ace7c599b1e2d89e456979024c21c6110">mrmeshpy.ConstFaceMap</a>.</p>
 
 </div>
 </div>
@@ -765,81 +715,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a9ec65af41bb5ecae6aa21fd962a4a7ef" name="a9ec65af41bb5ecae6aa21fd962a4a7ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ec65af41bb5ecae6aa21fd962a4a7ef">&#9670;&#160;</a></span>heapBytes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int mrmeshpy.FaceMap.heapBytes </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns the amount of memory this object occupies on heap
-</pre> 
-</div>
-</div>
-<a id="a991e75073c3c374ed55bcf07dd984270" name="a991e75073c3c374ed55bcf07dd984270"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a991e75073c3c374ed55bcf07dd984270">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a> mrmeshpy.FaceMap.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a991e75073c3c374ed55bcf07dd984270" name="a991e75073c3c374ed55bcf07dd984270"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a991e75073c3c374ed55bcf07dd984270">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a> mrmeshpy.FaceMap.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#ace7c599b1e2d89e456979024c21c6110">mrmeshpy.ConstFaceMap</a>.</p>
 
 </div>
 </div>
@@ -860,8 +736,8 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
 
 </div>
 </div>
-<a id="a9f5256cad5b656e28d9ec8f99763add2" name="a9f5256cad5b656e28d9ec8f99763add2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f5256cad5b656e28d9ec8f99763add2">&#9670;&#160;</a></span>push_back() <span class="overload">[1/2]</span></h2>
+<a id="aed54893343483730601a18cd458e0468" name="aed54893343483730601a18cd458e0468"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed54893343483730601a18cd458e0468">&#9670;&#160;</a></span>push_back() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -874,7 +750,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -944,8 +820,8 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
 
 </div>
 </div>
-<a id="af562366d865388e21f93e8efbf491291" name="af562366d865388e21f93e8efbf491291"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af562366d865388e21f93e8efbf491291">&#9670;&#160;</a></span>resize() <span class="overload">[2/2]</span></h2>
+<a id="a04849db9c1615c837dda5eb7d1c9ce9b" name="a04849db9c1615c837dda5eb7d1c9ce9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04849db9c1615c837dda5eb7d1c9ce9b">&#9670;&#160;</a></span>resize() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -963,15 +839,15 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a25d39f0cc043dc43a0e30e1093eaa828" name="a25d39f0cc043dc43a0e30e1093eaa828"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25d39f0cc043dc43a0e30e1093eaa828">&#9670;&#160;</a></span>resizeNoInit()</h2>
+<a id="a622bf0eec5977ad8736635c5170f888d" name="a622bf0eec5977ad8736635c5170f888d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a622bf0eec5977ad8736635c5170f888d">&#9670;&#160;</a></span>resizeNoInit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -984,7 +860,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ReserveMode.html">ReserveMode</a> </td>          <td class="paramname"><span class="paramname"><em>mode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::ReserveMode::Exact'</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1010,12 +891,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+<pre class="fragment">same as resize(newSize), which already grows the capacity geometrically
 </pre> 
 </div>
 </div>
-<a id="a1d8aa78c01d069c864463655fc612a3c" name="a1d8aa78c01d069c864463655fc612a3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d8aa78c01d069c864463655fc612a3c">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[2/2]</span></h2>
+<a id="a3e7b57cd520569a707b6a5643c31a43c" name="a3e7b57cd520569a707b6a5643c31a43c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e7b57cd520569a707b6a5643c31a43c">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1033,22 +914,22 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">doubles reserved memory until resize(newSize, value) can be done without reallocation
+<pre class="fragment">same as resize(newSize, value), which already grows the capacity geometrically
 </pre> 
 </div>
 </div>
-<a id="ac4ba9d3206dbf20dd6940cdf78215482" name="ac4ba9d3206dbf20dd6940cdf78215482"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4ba9d3206dbf20dd6940cdf78215482">&#9670;&#160;</a></span>size()</h2>
+<a id="a5acc31bac35ec9afc9eaa0a3029ead6c" name="a5acc31bac35ec9afc9eaa0a3029ead6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5acc31bac35ec9afc9eaa0a3029ead6c">&#9670;&#160;</a></span>shrink_to_fit()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int mrmeshpy.FaceMap.size </td>
+          <td class="memname"> None mrmeshpy.FaceMap.shrink_to_fit </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
@@ -1079,14 +960,14 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
 
 </div>
 </div>
-<a id="afc4a1c5e8f1c69a27fb13f15a807af05" name="afc4a1c5e8f1c69a27fb13f15a807af05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc4a1c5e8f1c69a27fb13f15a807af05">&#9670;&#160;</a></span>vec() <span class="overload">[1/2]</span></h2>
+<a id="a50ef30e71144dee65d09c50f302e3721" name="a50ef30e71144dee65d09c50f302e3721"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50ef30e71144dee65d09c50f302e3721">&#9670;&#160;</a></span>vec() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__vector__Id__FaceTag.html">std_vector_Id_FaceTag</a> mrmeshpy.FaceMap.vec </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__vector__Id__FaceTag__Allocator__Id__FaceTag.html">std_vector_Id_FaceTag_Allocator_Id_FaceTag</a> mrmeshpy.FaceMap.vec </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
@@ -1095,10 +976,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
 </div><div class="memdoc">
 <pre class="fragment">The user can directly manipulate the vector, they can't break anything anyway.
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#a34bb72a22d6d9f715f1c0d0af3ff771f">mrmeshpy.ConstFaceMap</a>.</p>
+
 </div>
 </div>
-<a id="a4322a8f2a8d7eaaa1ca58f62d5720013" name="a4322a8f2a8d7eaaa1ca58f62d5720013"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4322a8f2a8d7eaaa1ca58f62d5720013">&#9670;&#160;</a></span>vec() <span class="overload">[2/2]</span></h2>
+<a id="ae07428e6b1cd1174597abd96b43ab380" name="ae07428e6b1cd1174597abd96b43ab380"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae07428e6b1cd1174597abd96b43ab380">&#9670;&#160;</a></span>vec() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1111,72 +994,13 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__Id__FaceTag.html">std_vector_Id_FaceTag</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a070a1b3d7877dfda9cf8687f83da5611" name="a070a1b3d7877dfda9cf8687f83da5611"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a070a1b3d7877dfda9cf8687f83da5611">&#9670;&#160;</a></span>vec_() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__vector__Id__FaceTag.html">std_vector_Id_FaceTag</a> mrmeshpy.FaceMap.vec_ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__std__vector__Id__FaceTag__Allocator__Id__FaceTag.html">Const_std_vector_Id_FaceTag_Allocator_Id_FaceTag</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <pre class="fragment">The user can directly manipulate the vector, they can't break anything anyway.
 </pre> 
-</div>
-</div>
-<a id="a69cc538455270578281546fb7d5c7876" name="a69cc538455270578281546fb7d5c7876"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69cc538455270578281546fb7d5c7876">&#9670;&#160;</a></span>vec_() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> None mrmeshpy.FaceMap.vec_ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__Id__FaceTag.html">std_vector_Id_FaceTag</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a94861f2440714d9f8d177f6c5f455b2a" name="a94861f2440714d9f8d177f6c5f455b2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94861f2440714d9f8d177f6c5f455b2a">&#9670;&#160;</a></span>_offsetof_vec_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.FaceMap._offsetof_vec_ = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstFaceMap.html#a34bb72a22d6d9f715f1c0d0af3ff771f">mrmeshpy.ConstFaceMap</a>.</p>
 
 </div>
 </div>

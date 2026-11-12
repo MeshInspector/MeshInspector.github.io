@@ -6,8 +6,8 @@ var classMR_1_1Vector__Int__MRUndirectedEdgeId =
     [ "Vector_Int_MRUndirectedEdgeId", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a89d62db51c412a7fb01017e346d5bbce", null ],
     [ "Vector_Int_MRUndirectedEdgeId", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#aeb2f0dfa98adbde3d6fd7c8dc7523ac2", null ],
     [ "Vector_Int_MRUndirectedEdgeId", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#ac4a1d1aafbfa448b58c4fcfcb5056fe6", null ],
-    [ "Vector_Int_MRUndirectedEdgeId", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a4ee24d923c390d871979a90c13263f7d", null ],
     [ "assign", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#aa8aec09e0bd622cea5743f329344de8e", null ],
+    [ "assign", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#ac44747401f7da3074b82f2c409d918af", null ],
     [ "autoResizeAt", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#ab341545cf2a18d6840dbfaae72805b18", null ],
     [ "autoResizeSet", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a0065ce837f67f943bebc10564eaf4333", null ],
     [ "autoResizeSet", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a8d2ed6bf2362ebc469d926a7f1f5dbc7", null ],
@@ -15,8 +15,6 @@ var classMR_1_1Vector__Int__MRUndirectedEdgeId =
     [ "clear", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a4895d399afb52ab2630cc48cd21921c0", null ],
     [ "data", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#ad6af08918c7ddf7e267ebaa741e0c3db", null ],
     [ "front", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#ae2db3e286f0d39ef056c6c8dfd97dc95", null ],
-    [ "GetEnumerator", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a053d13e2e4a622539722ec6c62bae220", null ],
-    [ "operator Vector_Int_MRUndirectedEdgeId", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a8d169f8dfbfc92b3510c53b156db94e9", null ],
     [ "popBack", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#aa29677fd947b3bfe042ea762683b9b95", null ],
     [ "pushBack", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a0056f2789f09f7b33afbb3008b1d5015", null ],
     [ "pushBack", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#aea37f54a9f8ff86f17ccf6dc1c3f3166", null ],
@@ -25,7 +23,8 @@ var classMR_1_1Vector__Int__MRUndirectedEdgeId =
     [ "resize", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a91b55e0956bd561adc8c0f85b957b73e", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#ae9730cb95c0ecd2048adff51306b5167", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a77c9f42bc1e6c6239a4068f789eb95a8", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a90192435de126d0e938a7150576a29f3", null ],
     [ "swap", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a8ce375e8c4524d5e08f6e2b82eceb1cf", null ],
     [ "this[MR.UndirectedEdgeId i]", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a26586bd20060570d862bdf144ae23ee6", null ],
-    [ "vec", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a1eeddbf1e6dde2514bb5cd31b19aa1ad", null ]
+    [ "vec", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html#ab8ae8d1fea0900c93221f1eaf825bcd4", null ]
 ];

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -148,15 +141,20 @@ $(function(){initNavTree('classmrcudapy_1_1ComputeToolDistance.html','','classmr
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
-  <img src="classmrcudapy_1_1ComputeToolDistance.png" alt=""/>
- </div></div>
+  <img src="classmrcudapy_1_1ComputeToolDistance.png" usemap="#mrcudapy_2EComputeToolDistance_map" alt=""/>
+  <map id="mrcudapy_2EComputeToolDistance_map" name="mrcudapy_2EComputeToolDistance_map">
+<area href="classmrcudapy_1_1ConstComputeToolDistance.html" alt="mrcudapy.ConstComputeToolDistance" shape="rect" coords="0,56,276,80"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aeb4d3e4516c175d6d8e4c71fd4c8a0b5" id="r_aeb4d3e4516c175d6d8e4c71fd4c8a0b5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb4d3e4516c175d6d8e4c71fd4c8a0b5">__init__</a> (self)</td></tr>
-<tr class="memitem:a6c9ed90d622c75042e03434f2022639f" id="r_a6c9ed90d622c75042e03434f2022639f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c9ed90d622c75042e03434f2022639f">computeToolDistance</a> (self, meshlib.mrmeshpy.std_vector_float output, meshlib.mrmeshpy.Vector3i dims, float voxelSize, meshlib.mrmeshpy.Vector3f origin, float padding)</td></tr>
-<tr class="memitem:a416c48b0737aa904ef8e9586100aa4aa" id="r_a416c48b0737aa904ef8e9586100aa4aa"><td class="memItemLeft" align="right" valign="top">meshlib.mrmeshpy.Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a416c48b0737aa904ef8e9586100aa4aa">prepare</a> (self, meshlib.mrmeshpy.Vector3i dims, meshlib.mrmeshpy.Polyline3 toolpath, meshlib.mrmeshpy.EndMillTool toolSpec)</td></tr>
-<tr class="memitem:ab354603bc9af1b7128aad60ecb88bc86" id="r_ab354603bc9af1b7128aad60ecb88bc86"><td class="memItemLeft" align="right" valign="top">meshlib.mrmeshpy.Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab354603bc9af1b7128aad60ecb88bc86">prepare</a> (self, meshlib.mrmeshpy.Vector3i dims, meshlib.mrmeshpy.Polyline3 toolpath, meshlib.mrmeshpy.Polyline2 toolProfile)</td></tr>
+<tr class="memitem:a715d0fea7d7ca9ec9e462e6178f8eb56" id="r_a715d0fea7d7ca9ec9e462e6178f8eb56"><td class="memItemLeft" align="right" valign="top">meshlib.mrmeshpy.Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a715d0fea7d7ca9ec9e462e6178f8eb56">prepare</a> (self, meshlib.mrmeshpy.ConstVector3i dims, meshlib.mrmeshpy.ConstPolyline3 toolpath, meshlib.mrmeshpy.ConstEndMillTool toolSpec)</td></tr>
+<tr class="memitem:acfd1c440f8a9dfa33548501739f578e0" id="r_acfd1c440f8a9dfa33548501739f578e0"><td class="memItemLeft" align="right" valign="top">meshlib.mrmeshpy.Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfd1c440f8a9dfa33548501739f578e0">prepare</a> (self, meshlib.mrmeshpy.ConstVector3i dims, meshlib.mrmeshpy.ConstPolyline3 toolpath, meshlib.mrmeshpy.ConstPolyline2 toolProfile)</td></tr>
+<tr class="inherit_header pub_methods_classmrcudapy_1_1ConstComputeToolDistance"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrcudapy_1_1ConstComputeToolDistance')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrcudapy_1_1ConstComputeToolDistance.html">mrcudapy.ConstComputeToolDistance</a></td></tr>
+<tr class="memitem:a27b5d2341649f95ebe7b690f01f61f4e inherit pub_methods_classmrcudapy_1_1ConstComputeToolDistance" id="r_a27b5d2341649f95ebe7b690f01f61f4e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrcudapy_1_1ConstComputeToolDistance.html#a27b5d2341649f95ebe7b690f01f61f4e">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:a37bf611810e83bbc06c389037bcc18e1 inherit pub_methods_classmrcudapy_1_1ConstComputeToolDistance" id="r_a37bf611810e83bbc06c389037bcc18e1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrcudapy_1_1ConstComputeToolDistance.html#a37bf611810e83bbc06c389037bcc18e1">computeToolDistance</a> (self, meshlib.mrmeshpy.VoxelScalars output, meshlib.mrmeshpy.ConstVector3i dims, float voxelSize, meshlib.mrmeshpy.ConstVector3f origin, float padding)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::Cuda::ComputeToolDistance
@@ -181,49 +179,8 @@ CUDA implementation of tool distance computation
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a6c9ed90d622c75042e03434f2022639f" name="a6c9ed90d622c75042e03434f2022639f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c9ed90d622c75042e03434f2022639f">&#9670;&#160;</a></span>computeToolDistance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> None mrcudapy.ComputeToolDistance.computeToolDistance </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.std_vector_float</td>          <td class="paramname"><span class="paramname"><em>output</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.Vector3i</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>voxelSize</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.Vector3f</td>          <td class="paramname"><span class="paramname"><em>origin</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>padding</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a416c48b0737aa904ef8e9586100aa4aa" name="a416c48b0737aa904ef8e9586100aa4aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a416c48b0737aa904ef8e9586100aa4aa">&#9670;&#160;</a></span>prepare() <span class="overload">[1/2]</span></h2>
+<a id="a715d0fea7d7ca9ec9e462e6178f8eb56" name="a715d0fea7d7ca9ec9e462e6178f8eb56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a715d0fea7d7ca9ec9e462e6178f8eb56">&#9670;&#160;</a></span>prepare() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236,25 +193,25 @@ CUDA implementation of tool distance computation
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.Vector3i</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstVector3i</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.Polyline3</td>          <td class="paramname"><span class="paramname"><em>toolpath</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstPolyline3</td>          <td class="paramname"><span class="paramname"><em>toolpath</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.EndMillTool</td>          <td class="paramname"><span class="paramname"><em>toolSpec</em></span>&#160;)</td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstEndMillTool</td>          <td class="paramname"><span class="paramname"><em>toolSpec</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ab354603bc9af1b7128aad60ecb88bc86" name="ab354603bc9af1b7128aad60ecb88bc86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab354603bc9af1b7128aad60ecb88bc86">&#9670;&#160;</a></span>prepare() <span class="overload">[2/2]</span></h2>
+<a id="acfd1c440f8a9dfa33548501739f578e0" name="acfd1c440f8a9dfa33548501739f578e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfd1c440f8a9dfa33548501739f578e0">&#9670;&#160;</a></span>prepare() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -267,17 +224,17 @@ CUDA implementation of tool distance computation
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.Vector3i</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstVector3i</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.Polyline3</td>          <td class="paramname"><span class="paramname"><em>toolpath</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstPolyline3</td>          <td class="paramname"><span class="paramname"><em>toolpath</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.Polyline2</td>          <td class="paramname"><span class="paramname"><em>toolProfile</em></span>&#160;)</td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstPolyline2</td>          <td class="paramname"><span class="paramname"><em>toolProfile</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

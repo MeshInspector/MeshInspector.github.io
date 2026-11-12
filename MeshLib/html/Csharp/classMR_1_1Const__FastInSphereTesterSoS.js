@@ -9,5 +9,6 @@ var classMR_1_1Const__FastInSphereTesterSoS =
     [ "Dispose", "classMR_1_1Const__FastInSphereTesterSoS.html#aafedd9cdd20b8dd2ebfe9c76a51f76d5", null ],
     [ "operator MR.Const_InSphereTester_Int", "classMR_1_1Const__FastInSphereTesterSoS.html#a7e18d8375d8edae533496269033ba784", null ],
     [ "operator MR.Const_InSphereTesterSoS", "classMR_1_1Const__FastInSphereTesterSoS.html#af59c1d4948d02ac6968de6e27c084cbd", null ],
-    [ "outsideBothSpheres", "classMR_1_1Const__FastInSphereTesterSoS.html#adfa929c13ca8c18b94a4c747602c2aa0", null ]
+    [ "outsideBothSpheres", "classMR_1_1Const__FastInSphereTesterSoS.html#adfa929c13ca8c18b94a4c747602c2aa0", null ],
+    [ "sphereExists", "classMR_1_1Const__FastInSphereTesterSoS.html#ab8d9c244131a666d0e6959dba7fb8590", null ]
 ];

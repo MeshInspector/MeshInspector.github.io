@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -138,16 +131,14 @@ $(function(){initNavTree('classMR_1_1UndirectedEdgeScalars.html','','classMR_1_1
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1UndirectedEdgeScalars-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.UndirectedEdgeScalars Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type,  
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt"><a class="el" href="classMR_1_1UndirectedEdgeScalars.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.UndirectedEdgeScalars. This is the non-const h...">MR.UndirectedEdgeScalars</a></span>. This is the non-const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.UndirectedEdgeScalars:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -156,33 +147,28 @@ $(function(){initNavTree('classMR_1_1UndirectedEdgeScalars.html','','classMR_1_1
  <div class="center">
   <img src="classMR_1_1UndirectedEdgeScalars.png" usemap="#MR_2EUndirectedEdgeScalars_map" alt=""/>
   <map id="MR_2EUndirectedEdgeScalars_map" name="MR_2EUndirectedEdgeScalars_map">
-<area href="classMR_1_1Const__UndirectedEdgeScalars.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type," alt="MR.Const_UndirectedEdgeScalars" shape="rect" coords="325,56,532,80"/>
+<area href="classMR_1_1Const__UndirectedEdgeScalars.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.UndirectedEdgeScalars. This is the const half ..." alt="MR.Const_UndirectedEdgeScalars" shape="rect" coords="217,56,424,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:_5FEnumerator" id="r__5FEnumerator"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_Enumerator</b></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af25a352575d5a768b28786d5da4c6817" id="r_af25a352575d5a768b28786d5da4c6817"><td class="memItemLeft" align="right" valign="top">new IEnumerator&lt; MR.Misc.Ref&lt; float &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af25a352575d5a768b28786d5da4c6817">GetEnumerator</a> ()</td></tr>
 <tr class="memitem:ab9025d751a8112846cc0dbe327b0fa7f" id="r_ab9025d751a8112846cc0dbe327b0fa7f"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f">UndirectedEdgeScalars</a> ()</td></tr>
-<tr class="memdesc:ab9025d751a8112846cc0dbe327b0fa7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
+<tr class="memdesc:ab9025d751a8112846cc0dbe327b0fa7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="memitem:a3d8e93d46b3c766d949c1ed1fe4f82c4" id="r_a3d8e93d46b3c766d949c1ed1fe4f82c4"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d8e93d46b3c766d949c1ed1fe4f82c4">UndirectedEdgeScalars</a> (MR._ByValue_UndirectedEdgeScalars _other)</td></tr>
-<tr class="memdesc:a3d8e93d46b3c766d949c1ed1fe4f82c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
+<tr class="memdesc:a3d8e93d46b3c766d949c1ed1fe4f82c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="creates empty vector">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
 <tr class="memitem:ada79c039330fc7f1ae073285df6a9708" id="r_ada79c039330fc7f1ae073285df6a9708"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada79c039330fc7f1ae073285df6a9708">UndirectedEdgeScalars</a> (<a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html">Const_UndirectedEdgeScalars</a> _other)</td></tr>
-<tr class="memdesc:ada79c039330fc7f1ae073285df6a9708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
+<tr class="memdesc:ada79c039330fc7f1ae073285df6a9708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="creates empty vector">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
 <tr class="memitem:aa98b1bbad4bd812a6aefbecbc5dd6e2b" id="r_aa98b1bbad4bd812a6aefbecbc5dd6e2b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa98b1bbad4bd812a6aefbecbc5dd6e2b">UndirectedEdgeScalars</a> (<a class="el" href="classMR_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a> _other)</td></tr>
-<tr class="memdesc:aa98b1bbad4bd812a6aefbecbc5dd6e2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
+<tr class="memdesc:aa98b1bbad4bd812a6aefbecbc5dd6e2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="creates empty vector">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
 <tr class="memitem:af331b188a67cbc09c5b9e040ad26b482" id="r_af331b188a67cbc09c5b9e040ad26b482"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af331b188a67cbc09c5b9e040ad26b482">UndirectedEdgeScalars</a> (nuint <a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a7fdd79110438d9a4d4bd2a0ce0bf09c5">size</a>)</td></tr>
-<tr class="memdesc:af331b188a67cbc09c5b9e040ad26b482"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
+<tr class="memdesc:af331b188a67cbc09c5b9e040ad26b482"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="creates empty vector">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
 <tr class="memitem:a126f207e8a66bcc9aab15a2452b5c0e9" id="r_a126f207e8a66bcc9aab15a2452b5c0e9"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a126f207e8a66bcc9aab15a2452b5c0e9">UndirectedEdgeScalars</a> (nuint <a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a7fdd79110438d9a4d4bd2a0ce0bf09c5">size</a>, float val)</td></tr>
-<tr class="memdesc:a126f207e8a66bcc9aab15a2452b5c0e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
-<tr class="memitem:acffbc8061851b994dd234aa2f316ef2c" id="r_acffbc8061851b994dd234aa2f316ef2c"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acffbc8061851b994dd234aa2f316ef2c">UndirectedEdgeScalars</a> (MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; <a class="el" href="#ab0bd941faa7e993bcc565ff2abd66fcb">vec</a>)</td></tr>
-<tr class="memdesc:acffbc8061851b994dd234aa2f316ef2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
+<tr class="memdesc:a126f207e8a66bcc9aab15a2452b5c0e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="creates empty vector">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
 <tr class="memitem:a6ea2433cc2b79d00af2174ebb5bf56fd" id="r_a6ea2433cc2b79d00af2174ebb5bf56fd"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1UndirectedEdgeScalars.html">MR.UndirectedEdgeScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ea2433cc2b79d00af2174ebb5bf56fd">assign</a> (MR._ByValue_UndirectedEdgeScalars _other)</td></tr>
 <tr class="memdesc:a6ea2433cc2b79d00af2174ebb5bf56fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::UndirectedEdgeScalars::operator=</span>.  <br /></td></tr>
+<tr class="memitem:a6749717488a2409c8596d6ac28d8eb2e" id="r_a6749717488a2409c8596d6ac28d8eb2e"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6749717488a2409c8596d6ac28d8eb2e">assign</a> (nuint count, float val)</td></tr>
+<tr class="memdesc:a6749717488a2409c8596d6ac28d8eb2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">replaces the contents with <code class="param">count</code> copies of <code class="param">val</code> Generated from method <span class="tt"><a class="el" href="#a6ea2433cc2b79d00af2174ebb5bf56fd" title="Generated from method MR.UndirectedEdgeScalars.operator=.">MR.UndirectedEdgeScalars.assign</a></span>.  <br /></td></tr>
 <tr class="memitem:a77c39662b2a218710a978067e81ec8e4" id="r_a77c39662b2a218710a978067e81ec8e4"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77c39662b2a218710a978067e81ec8e4">clear</a> ()</td></tr>
 <tr class="memdesc:a77c39662b2a218710a978067e81ec8e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a77c39662b2a218710a978067e81ec8e4" title="Generated from method MR.UndirectedEdgeScalars.clear.">MR.UndirectedEdgeScalars.clear</a></span>.  <br /></td></tr>
 <tr class="memitem:a0469c8ac5592a6217259af6e4060705d" id="r_a0469c8ac5592a6217259af6e4060705d"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0469c8ac5592a6217259af6e4060705d">resize</a> (nuint newSize)</td></tr>
@@ -191,14 +177,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aaabcc575ce05edab992badac28323658"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a0469c8ac5592a6217259af6e4060705d" title="Generated from method MR.UndirectedEdgeScalars.resize.">MR.UndirectedEdgeScalars.resize</a></span>.  <br /></td></tr>
 <tr class="memitem:a376876b629cab0f38064e6eb749b2de5" id="r_a376876b629cab0f38064e6eb749b2de5"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a376876b629cab0f38064e6eb749b2de5">reserve</a> (nuint <a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a3cb0de65f147e37d996eb6432733a0b7">capacity</a>)</td></tr>
 <tr class="memdesc:a376876b629cab0f38064e6eb749b2de5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a376876b629cab0f38064e6eb749b2de5" title="Generated from method MR.UndirectedEdgeScalars.reserve.">MR.UndirectedEdgeScalars.reserve</a></span>.  <br /></td></tr>
+<tr class="memitem:a64a368a5aed3504bc0e28c1522034114" id="r_a64a368a5aed3504bc0e28c1522034114"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64a368a5aed3504bc0e28c1522034114">shrinkToFit</a> ()</td></tr>
+<tr class="memdesc:a64a368a5aed3504bc0e28c1522034114"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::UndirectedEdgeScalars::shrink_to_fit</span>.  <br /></td></tr>
 <tr class="memitem:acca3bf4828615a54aa542b962436d459" id="r_acca3bf4828615a54aa542b962436d459"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acca3bf4828615a54aa542b962436d459">resizeWithReserve</a> (nuint newSize)</td></tr>
-<tr class="memdesc:acca3bf4828615a54aa542b962436d459"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#acca3bf4828615a54aa542b962436d459" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.UndirectedEdgeScalars.resizeWithReserve</a></span>.  <br /></td></tr>
+<tr class="memdesc:acca3bf4828615a54aa542b962436d459"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as resize(newSize), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#acca3bf4828615a54aa542b962436d459" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.UndirectedEdgeScalars.resizeWithReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:aa1ac23f10e3e79ab7adc3c43132d0fcf" id="r_aa1ac23f10e3e79ab7adc3c43132d0fcf"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1ac23f10e3e79ab7adc3c43132d0fcf">resizeWithReserve</a> (nuint newSize, float value)</td></tr>
-<tr class="memdesc:aa1ac23f10e3e79ab7adc3c43132d0fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#acca3bf4828615a54aa542b962436d459" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.UndirectedEdgeScalars.resizeWithReserve</a></span>.  <br /></td></tr>
+<tr class="memdesc:aa1ac23f10e3e79ab7adc3c43132d0fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as resize(newSize, value), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#acca3bf4828615a54aa542b962436d459" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.UndirectedEdgeScalars.resizeWithReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:aa1fdf6ee3929301ddec83b21379bfe97" id="r_aa1fdf6ee3929301ddec83b21379bfe97"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1fdf6ee3929301ddec83b21379bfe97">autoResizeSet</a> (<a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> pos, nuint len, float val)</td></tr>
 <tr class="memdesc:aa1fdf6ee3929301ddec83b21379bfe97"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <code class="param">pos</code> are also set to <code class="param">val</code> (for faster implementation) Generated from method <span class="tt"><a class="el" href="#aa1fdf6ee3929301ddec83b21379bfe97" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">MR.UndirectedEdgeScalars.autoResizeSet</a></span>.  <br /></td></tr>
 <tr class="memitem:ad2cd34c237207d1a920883f01b8e0005" id="r_ad2cd34c237207d1a920883f01b8e0005"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2cd34c237207d1a920883f01b8e0005">autoResizeSet</a> (<a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> i, float val)</td></tr>
-<tr class="memdesc:ad2cd34c237207d1a920883f01b8e0005"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <span class="tt"><a class="el" href="#aa1fdf6ee3929301ddec83b21379bfe97" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">MR.UndirectedEdgeScalars.autoResizeSet</a></span>.  <br /></td></tr>
+<tr class="memdesc:ad2cd34c237207d1a920883f01b8e0005"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the element i to the given value, adjusting the size of the vector to include new element Generated from method <span class="tt"><a class="el" href="#aa1fdf6ee3929301ddec83b21379bfe97" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">MR.UndirectedEdgeScalars.autoResizeSet</a></span>.  <br /></td></tr>
 <tr class="memitem:a72c33a6f096ab78de0c36414c473a326" id="r_a72c33a6f096ab78de0c36414c473a326"><td class="memItemLeft" align="right" valign="top">unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72c33a6f096ab78de0c36414c473a326">autoResizeAt</a> (<a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> i)</td></tr>
 <tr class="memdesc:a72c33a6f096ab78de0c36414c473a326"><td class="mdescLeft">&#160;</td><td class="mdescRight">this accessor automatically adjusts the size of the vector Generated from method <span class="tt"><a class="el" href="#a72c33a6f096ab78de0c36414c473a326" title="this accessor automatically adjusts the size of the vector Generated from method MR....">MR.UndirectedEdgeScalars.autoResizeAt</a></span>.  <br /></td></tr>
 <tr class="memitem:a5e28164c1a57cbdabef179b3ff62c1e8" id="r_a5e28164c1a57cbdabef179b3ff62c1e8"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e28164c1a57cbdabef179b3ff62c1e8">pushBack</a> (float t)</td></tr>
@@ -217,25 +205,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a05386dc65aefb36a235688fb610b3038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a05386dc65aefb36a235688fb610b3038" title="Generated from method MR.UndirectedEdgeScalars.swap.">MR.UndirectedEdgeScalars.swap</a></span>.  <br /></td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1Const__UndirectedEdgeScalars')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html">MR.Const_UndirectedEdgeScalars</a></td></tr>
 <tr class="memitem:a5f1d12deabd84f4549b85931fe82200f inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_a5f1d12deabd84f4549b85931fe82200f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a5f1d12deabd84f4549b85931fe82200f">Dispose</a> ()</td></tr>
-<tr class="memitem:a09f0db2370570119b6f0f1ce41e83d6e inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_a09f0db2370570119b6f0f1ce41e83d6e"><td class="memItemLeft" align="right" valign="top">IEnumerator&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a09f0db2370570119b6f0f1ce41e83d6e">GetEnumerator</a> ()</td></tr>
 <tr class="memitem:a70a2c6abed62dffc36c76a9bbb7395c9 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_a70a2c6abed62dffc36c76a9bbb7395c9"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a70a2c6abed62dffc36c76a9bbb7395c9">Const_UndirectedEdgeScalars</a> ()</td></tr>
-<tr class="memdesc:a70a2c6abed62dffc36c76a9bbb7395c9 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
+<tr class="memdesc:a70a2c6abed62dffc36c76a9bbb7395c9 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="memitem:a4d7755bee913df8eed415f5522a5b3ac inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_a4d7755bee913df8eed415f5522a5b3ac"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a4d7755bee913df8eed415f5522a5b3ac">Const_UndirectedEdgeScalars</a> (MR._ByValue_UndirectedEdgeScalars _other)</td></tr>
-<tr class="memdesc:a4d7755bee913df8eed415f5522a5b3ac inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
+<tr class="memdesc:a4d7755bee913df8eed415f5522a5b3ac inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="creates empty vector">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
 <tr class="memitem:a878a1da0c33e3d7638a71bc6840a6ad7 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_a878a1da0c33e3d7638a71bc6840a6ad7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a878a1da0c33e3d7638a71bc6840a6ad7">Const_UndirectedEdgeScalars</a> (<a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html">Const_UndirectedEdgeScalars</a> _other)</td></tr>
-<tr class="memdesc:a878a1da0c33e3d7638a71bc6840a6ad7 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
+<tr class="memdesc:a878a1da0c33e3d7638a71bc6840a6ad7 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="creates empty vector">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
 <tr class="memitem:a322731d77e0e5f09a44cef6f2d1c2d5a inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_a322731d77e0e5f09a44cef6f2d1c2d5a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a322731d77e0e5f09a44cef6f2d1c2d5a">Const_UndirectedEdgeScalars</a> (<a class="el" href="classMR_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a> _other)</td></tr>
-<tr class="memdesc:a322731d77e0e5f09a44cef6f2d1c2d5a inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
+<tr class="memdesc:a322731d77e0e5f09a44cef6f2d1c2d5a inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="creates empty vector">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
 <tr class="memitem:a227313e06f3b6bac17b0c0945c4e15cc inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_a227313e06f3b6bac17b0c0945c4e15cc"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a227313e06f3b6bac17b0c0945c4e15cc">Const_UndirectedEdgeScalars</a> (nuint <a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a7fdd79110438d9a4d4bd2a0ce0bf09c5">size</a>)</td></tr>
-<tr class="memdesc:a227313e06f3b6bac17b0c0945c4e15cc inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
+<tr class="memdesc:a227313e06f3b6bac17b0c0945c4e15cc inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="creates empty vector">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
 <tr class="memitem:a58720543879e63f89d6dfe58f3187ae6 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_a58720543879e63f89d6dfe58f3187ae6"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a58720543879e63f89d6dfe58f3187ae6">Const_UndirectedEdgeScalars</a> (nuint <a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a7fdd79110438d9a4d4bd2a0ce0bf09c5">size</a>, float val)</td></tr>
-<tr class="memdesc:a58720543879e63f89d6dfe58f3187ae6 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
-<tr class="memitem:a200bd683eed583473255a4ceff5dd4a5 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_a200bd683eed583473255a4ceff5dd4a5"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a200bd683eed583473255a4ceff5dd4a5">Const_UndirectedEdgeScalars</a> (MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; <a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a74fe801a62408a1271115fbc62822fcc">vec</a>)</td></tr>
-<tr class="memdesc:a200bd683eed583473255a4ceff5dd4a5 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
+<tr class="memdesc:a58720543879e63f89d6dfe58f3187ae6 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="creates empty vector">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
 <tr class="memitem:a6a9c22d6a4968b9c1f5cf1a01903d9b4 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_a6a9c22d6a4968b9c1f5cf1a01903d9b4"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a6a9c22d6a4968b9c1f5cf1a01903d9b4">empty</a> ()</td></tr>
 <tr class="memdesc:a6a9c22d6a4968b9c1f5cf1a01903d9b4 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a6a9c22d6a4968b9c1f5cf1a01903d9b4" title="Generated from method MR.UndirectedEdgeScalars.empty.">MR.UndirectedEdgeScalars.empty</a></span>.  <br /></td></tr>
 <tr class="memitem:a7fdd79110438d9a4d4bd2a0ce0bf09c5 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_a7fdd79110438d9a4d4bd2a0ce0bf09c5"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a7fdd79110438d9a4d4bd2a0ce0bf09c5">size</a> ()</td></tr>
 <tr class="memdesc:a7fdd79110438d9a4d4bd2a0ce0bf09c5 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a7fdd79110438d9a4d4bd2a0ce0bf09c5" title="Generated from method MR.UndirectedEdgeScalars.size.">MR.UndirectedEdgeScalars.size</a></span>.  <br /></td></tr>
+<tr class="memitem:aae1338fcf5e770af4ee06dab2e021606 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_aae1338fcf5e770af4ee06dab2e021606"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#aae1338fcf5e770af4ee06dab2e021606">maxSize</a> ()</td></tr>
+<tr class="memdesc:aae1338fcf5e770af4ee06dab2e021606 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::UndirectedEdgeScalars::max_size</span>.  <br /></td></tr>
 <tr class="memitem:a3cb0de65f147e37d996eb6432733a0b7 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_a3cb0de65f147e37d996eb6432733a0b7"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a3cb0de65f147e37d996eb6432733a0b7">capacity</a> ()</td></tr>
 <tr class="memdesc:a3cb0de65f147e37d996eb6432733a0b7 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a3cb0de65f147e37d996eb6432733a0b7" title="Generated from method MR.UndirectedEdgeScalars.capacity.">MR.UndirectedEdgeScalars.capacity</a></span>.  <br /></td></tr>
 <tr class="memitem:a168eb83b0f620ef82ca2c432b7f8a269 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_a168eb83b0f620ef82ca2c432b7f8a269"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a168eb83b0f620ef82ca2c432b7f8a269">front</a> ()</td></tr>
@@ -255,46 +242,32 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ea0638bbee3370182318d0a1ac751d1 inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_a4ea0638bbee3370182318d0a1ac751d1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a4ea0638bbee3370182318d0a1ac751d1">Equals</a> (<a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html">MR.Const_UndirectedEdgeScalars</a>? b)</td></tr>
 <tr class="memitem:abfc1b725a506e88512ffccfcb2e9420f inherit pub_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_abfc1b725a506e88512ffccfcb2e9420f"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#abfc1b725a506e88512ffccfcb2e9420f">Equals</a> (object? other)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aa6efeb93aa9bc7a34fe53d83f175fbf1" id="r_aa6efeb93aa9bc7a34fe53d83f175fbf1"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6efeb93aa9bc7a34fe53d83f175fbf1">operator UndirectedEdgeScalars</a> (MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; <a class="el" href="#ab0bd941faa7e993bcc565ff2abd66fcb">vec</a>)</td></tr>
-<tr class="memdesc:aa6efeb93aa9bc7a34fe53d83f175fbf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
-<tr class="inherit_header pub_static_methods_classMR_1_1Const__UndirectedEdgeScalars"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1Const__UndirectedEdgeScalars')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html">MR.Const_UndirectedEdgeScalars</a></td></tr>
-<tr class="memitem:acc4c2dd9d5a87693ec5f0d8bab5572ae inherit pub_static_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_acc4c2dd9d5a87693ec5f0d8bab5572ae"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#acc4c2dd9d5a87693ec5f0d8bab5572ae">operator Const_UndirectedEdgeScalars</a> (MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; <a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a74fe801a62408a1271115fbc62822fcc">vec</a>)</td></tr>
-<tr class="memdesc:acc4c2dd9d5a87693ec5f0d8bab5572ae inherit pub_static_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>.  <br /></td></tr>
-<tr class="memitem:a4d69561c36408d73177ce97be19d9556 inherit pub_static_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_a4d69561c36408d73177ce97be19d9556"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a4d69561c36408d73177ce97be19d9556">operator==</a> (<a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html">MR.Const_UndirectedEdgeScalars</a> _this, <a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html">MR.Const_UndirectedEdgeScalars</a> b)</td></tr>
-<tr class="memdesc:a4d69561c36408d73177ce97be19d9556 inherit pub_static_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::UndirectedEdgeScalars::operator==</span>.  <br /></td></tr>
-<tr class="memitem:aca0fea97ce8c63cd14ad70d28ba71948 inherit pub_static_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_aca0fea97ce8c63cd14ad70d28ba71948"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#aca0fea97ce8c63cd14ad70d28ba71948">operator!=</a> (<a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html">MR.Const_UndirectedEdgeScalars</a> _this, <a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html">MR.Const_UndirectedEdgeScalars</a> b)</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:ab0bd941faa7e993bcc565ff2abd66fcb" id="r_ab0bd941faa7e993bcc565ff2abd66fcb"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Vector_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0bd941faa7e993bcc565ff2abd66fcb">vec</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:ab0bd941faa7e993bcc565ff2abd66fcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
+<tr class="memitem:aa0082daee2d5044610bd73194d6564d3" id="r_aa0082daee2d5044610bd73194d6564d3"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Vector_Float_MRAllocatorFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0082daee2d5044610bd73194d6564d3">vec</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:aa0082daee2d5044610bd73194d6564d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
 <tr class="memitem:aaaab3ecdde26ac3dc81d2bfbd6c7d0bd" id="r_aaaab3ecdde26ac3dc81d2bfbd6c7d0bd"><td class="memItemLeft" align="right" valign="top">unsafe new ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaab3ecdde26ac3dc81d2bfbd6c7d0bd">this[MR.UndirectedEdgeId i]</a><code> [get]</code></td></tr>
 <tr class="memdesc:aaaab3ecdde26ac3dc81d2bfbd6c7d0bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::UndirectedEdgeScalars::operator[]</span>.  <br /></td></tr>
 <tr class="inherit_header properties_classMR_1_1Const__UndirectedEdgeScalars"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1Const__UndirectedEdgeScalars')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Properties inherited from <a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html">MR.Const_UndirectedEdgeScalars</a></td></tr>
-<tr class="memitem:a74fe801a62408a1271115fbc62822fcc inherit properties_classMR_1_1Const__UndirectedEdgeScalars" id="r_a74fe801a62408a1271115fbc62822fcc"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a74fe801a62408a1271115fbc62822fcc">vec</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a74fe801a62408a1271115fbc62822fcc inherit properties_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
+<tr class="memitem:aaa6013c1bf44f23daaf882d479819c0b inherit properties_classMR_1_1Const__UndirectedEdgeScalars" id="r_aaa6013c1bf44f23daaf882d479819c0b"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_Float_MRAllocatorFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#aaa6013c1bf44f23daaf882d479819c0b">vec</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:aaa6013c1bf44f23daaf882d479819c0b inherit properties_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
 <tr class="memitem:a91479f963bd102273c4854340809d54b inherit properties_classMR_1_1Const__UndirectedEdgeScalars" id="r_a91479f963bd102273c4854340809d54b"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a91479f963bd102273c4854340809d54b">this[MR.UndirectedEdgeId i]</a><code> [get]</code></td></tr>
 <tr class="memdesc:a91479f963bd102273c4854340809d54b inherit properties_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::UndirectedEdgeScalars::operator[]</span>.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classMR_1_1Const__UndirectedEdgeScalars"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1Const__UndirectedEdgeScalars')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html">MR.Const_UndirectedEdgeScalars</a></td></tr>
+<tr class="memitem:a4d69561c36408d73177ce97be19d9556 inherit pub_static_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_a4d69561c36408d73177ce97be19d9556"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a4d69561c36408d73177ce97be19d9556">operator==</a> (<a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html">MR.Const_UndirectedEdgeScalars</a> _this, <a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html">MR.Const_UndirectedEdgeScalars</a> b)</td></tr>
+<tr class="memdesc:a4d69561c36408d73177ce97be19d9556 inherit pub_static_methods_classMR_1_1Const__UndirectedEdgeScalars"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::UndirectedEdgeScalars::operator==</span>.  <br /></td></tr>
+<tr class="memitem:aca0fea97ce8c63cd14ad70d28ba71948 inherit pub_static_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_aca0fea97ce8c63cd14ad70d28ba71948"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#aca0fea97ce8c63cd14ad70d28ba71948">operator!=</a> (<a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html">MR.Const_UndirectedEdgeScalars</a> _this, <a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html">MR.Const_UndirectedEdgeScalars</a> b)</td></tr>
 <tr class="inherit_header pro_methods_classMR_1_1Const__UndirectedEdgeScalars"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classMR_1_1Const__UndirectedEdgeScalars')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html">MR.Const_UndirectedEdgeScalars</a></td></tr>
 <tr class="memitem:a66e6351ebc843c2c7f49ba6f16472362 inherit pro_methods_classMR_1_1Const__UndirectedEdgeScalars" id="r_a66e6351ebc843c2c7f49ba6f16472362"><td class="memItemLeft" align="right" valign="top">virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UndirectedEdgeScalars.html#a66e6351ebc843c2c7f49ba6f16472362">Dispose</a> (bool disposing)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt"><a class="el" href="classMR_1_1UndirectedEdgeScalars.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type,">MR.UndirectedEdgeScalars</a></span>. This is the non-const half of the class. </td></tr>
-  </table>
-  </dd>
-</dl>
+<div class="textblock"><p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt"><a class="el" href="classMR_1_1UndirectedEdgeScalars.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.UndirectedEdgeScalars. This is the non-const h...">MR.UndirectedEdgeScalars</a></span>. This is the non-const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab9025d751a8112846cc0dbe327b0fa7f" name="ab9025d751a8112846cc0dbe327b0fa7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9025d751a8112846cc0dbe327b0fa7f">&#9670;&#160;</a></span>UndirectedEdgeScalars() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9025d751a8112846cc0dbe327b0fa7f">&#9670;&#160;</a></span>UndirectedEdgeScalars() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -316,12 +289,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs an empty (default-constructed) instance. </p>
+<p>creates empty vector </p>
 
 </div>
 </div>
 <a id="a3d8e93d46b3c766d949c1ed1fe4f82c4" name="a3d8e93d46b3c766d949c1ed1fe4f82c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d8e93d46b3c766d949c1ed1fe4f82c4">&#9670;&#160;</a></span>UndirectedEdgeScalars() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d8e93d46b3c766d949c1ed1fe4f82c4">&#9670;&#160;</a></span>UndirectedEdgeScalars() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -343,12 +316,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="creates empty vector">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>. </p>
 
 </div>
 </div>
 <a id="ada79c039330fc7f1ae073285df6a9708" name="ada79c039330fc7f1ae073285df6a9708"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada79c039330fc7f1ae073285df6a9708">&#9670;&#160;</a></span>UndirectedEdgeScalars() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ada79c039330fc7f1ae073285df6a9708">&#9670;&#160;</a></span>UndirectedEdgeScalars() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -370,12 +343,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="creates empty vector">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>. </p>
 
 </div>
 </div>
 <a id="aa98b1bbad4bd812a6aefbecbc5dd6e2b" name="aa98b1bbad4bd812a6aefbecbc5dd6e2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa98b1bbad4bd812a6aefbecbc5dd6e2b">&#9670;&#160;</a></span>UndirectedEdgeScalars() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa98b1bbad4bd812a6aefbecbc5dd6e2b">&#9670;&#160;</a></span>UndirectedEdgeScalars() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -397,12 +370,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="creates empty vector">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>. </p>
 
 </div>
 </div>
 <a id="af331b188a67cbc09c5b9e040ad26b482" name="af331b188a67cbc09c5b9e040ad26b482"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af331b188a67cbc09c5b9e040ad26b482">&#9670;&#160;</a></span>UndirectedEdgeScalars() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af331b188a67cbc09c5b9e040ad26b482">&#9670;&#160;</a></span>UndirectedEdgeScalars() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -424,12 +397,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>. </p>
+<p>creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="creates empty vector">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>. </p>
 
 </div>
 </div>
 <a id="a126f207e8a66bcc9aab15a2452b5c0e9" name="a126f207e8a66bcc9aab15a2452b5c0e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a126f207e8a66bcc9aab15a2452b5c0e9">&#9670;&#160;</a></span>UndirectedEdgeScalars() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a126f207e8a66bcc9aab15a2452b5c0e9">&#9670;&#160;</a></span>UndirectedEdgeScalars() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -455,40 +428,13 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>. </p>
-
-</div>
-</div>
-<a id="acffbc8061851b994dd234aa2f316ef2c" name="acffbc8061851b994dd234aa2f316ef2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acffbc8061851b994dd234aa2f316ef2c">&#9670;&#160;</a></span>UndirectedEdgeScalars() <span class="overload">[7/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe MR.UndirectedEdgeScalars.UndirectedEdgeScalars </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_Float &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>. </p>
+<p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="creates empty vector">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>. </p>
 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a6ea2433cc2b79d00af2174ebb5bf56fd" name="a6ea2433cc2b79d00af2174ebb5bf56fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ea2433cc2b79d00af2174ebb5bf56fd">&#9670;&#160;</a></span>assign()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ea2433cc2b79d00af2174ebb5bf56fd">&#9670;&#160;</a></span>assign() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -511,6 +457,37 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt">MR::UndirectedEdgeScalars::operator=</span>. </p>
+
+</div>
+</div>
+<a id="a6749717488a2409c8596d6ac28d8eb2e" name="a6749717488a2409c8596d6ac28d8eb2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6749717488a2409c8596d6ac28d8eb2e">&#9670;&#160;</a></span>assign() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.UndirectedEdgeScalars.assign </td>
+          <td>(</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>count</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>replaces the contents with <code class="param">count</code> copies of <code class="param">val</code> Generated from method <span class="tt"><a class="el" href="#a6ea2433cc2b79d00af2174ebb5bf56fd" title="Generated from method MR.UndirectedEdgeScalars.operator=.">MR.UndirectedEdgeScalars.assign</a></span>. </p>
 
 </div>
 </div>
@@ -568,7 +545,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <span class="tt"><a class="el" href="#aa1fdf6ee3929301ddec83b21379bfe97" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">MR.UndirectedEdgeScalars.autoResizeSet</a></span>. </p>
+<p>sets the element i to the given value, adjusting the size of the vector to include new element Generated from method <span class="tt"><a class="el" href="#aa1fdf6ee3929301ddec83b21379bfe97" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">MR.UndirectedEdgeScalars.autoResizeSet</a></span>. </p>
 
 </div>
 </div>
@@ -713,58 +690,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt"><a class="el" href="#af75ca527e81666b3d178e589c3b5df05" title="Generated from method MR.UndirectedEdgeScalars.front.">MR.UndirectedEdgeScalars.front</a></span>. </p>
-
-</div>
-</div>
-<a id="af25a352575d5a768b28786d5da4c6817" name="af25a352575d5a768b28786d5da4c6817"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af25a352575d5a768b28786d5da4c6817">&#9670;&#160;</a></span>GetEnumerator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">new IEnumerator&lt; MR.Misc.Ref&lt; float &gt; &gt; MR.UndirectedEdgeScalars.GetEnumerator </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa6efeb93aa9bc7a34fe53d83f175fbf1" name="aa6efeb93aa9bc7a34fe53d83f175fbf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6efeb93aa9bc7a34fe53d83f175fbf1">&#9670;&#160;</a></span>operator UndirectedEdgeScalars()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe implicit MR.UndirectedEdgeScalars.operator <a class="el" href="classMR_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a> </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_Float &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#ab9025d751a8112846cc0dbe327b0fa7f" title="Constructs an empty (default-constructed) instance.">MR.UndirectedEdgeScalars.UndirectedEdgeScalars</a></span>. </p>
 
 </div>
 </div>
@@ -961,7 +886,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#acca3bf4828615a54aa542b962436d459" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.UndirectedEdgeScalars.resizeWithReserve</a></span>. </p>
+<p>same as resize(newSize), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#acca3bf4828615a54aa542b962436d459" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.UndirectedEdgeScalars.resizeWithReserve</a></span>. </p>
 
 </div>
 </div>
@@ -992,7 +917,34 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#acca3bf4828615a54aa542b962436d459" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.UndirectedEdgeScalars.resizeWithReserve</a></span>. </p>
+<p>same as resize(newSize, value), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#acca3bf4828615a54aa542b962436d459" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.UndirectedEdgeScalars.resizeWithReserve</a></span>. </p>
+
+</div>
+</div>
+<a id="a64a368a5aed3504bc0e28c1522034114" name="a64a368a5aed3504bc0e28c1522034114"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64a368a5aed3504bc0e28c1522034114">&#9670;&#160;</a></span>shrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.UndirectedEdgeScalars.shrinkToFit </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt">MR::UndirectedEdgeScalars::shrink_to_fit</span>. </p>
 
 </div>
 </div>
@@ -1048,8 +1000,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ab0bd941faa7e993bcc565ff2abd66fcb" name="ab0bd941faa7e993bcc565ff2abd66fcb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0bd941faa7e993bcc565ff2abd66fcb">&#9670;&#160;</a></span>vec</h2>
+<a id="aa0082daee2d5044610bd73194d6564d3" name="aa0082daee2d5044610bd73194d6564d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0082daee2d5044610bd73194d6564d3">&#9670;&#160;</a></span>vec</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1058,7 +1010,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">new unsafe MR.Std.Vector_Float MR.UndirectedEdgeScalars.vec</td>
+          <td class="memname">new unsafe MR.Std.Vector_Float_MRAllocatorFloat MR.UndirectedEdgeScalars.vec</td>
         </tr>
       </table>
   </td>

@@ -8,5 +8,6 @@ var classMR_1_1CombinedHistoryAction =
     [ "filter", "classMR_1_1CombinedHistoryAction.html#a90fd5fe8930164bcbb34442c2905749e", null ],
     [ "getStack", "classMR_1_1CombinedHistoryAction.html#a85b30407745962bc5a2675fb77325ef9", null ],
     [ "operator CombinedHistoryAction?", "classMR_1_1CombinedHistoryAction.html#a2938f49edeee08cfe10804d89af8d3f9", null ],
-    [ "operator MR.HistoryAction", "classMR_1_1CombinedHistoryAction.html#a0d3a6d4cefc8d1d0490713cf45ecfbd5", null ]
+    [ "operator MR.HistoryAction", "classMR_1_1CombinedHistoryAction.html#a0d3a6d4cefc8d1d0490713cf45ecfbd5", null ],
+    [ "setName", "classMR_1_1CombinedHistoryAction.html#a9dfaddd71ec6c7ae3ea2226fbf0cf2ae", null ]
 ];

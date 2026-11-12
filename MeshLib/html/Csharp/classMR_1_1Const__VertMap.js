@@ -6,7 +6,6 @@ var classMR_1_1Const__VertMap =
     [ "Const_VertMap", "classMR_1_1Const__VertMap.html#a2e1c4af561f70f33eb353e95a948148e", null ],
     [ "Const_VertMap", "classMR_1_1Const__VertMap.html#a37b1b62e6e689c7c2bcb1b86359b59ea", null ],
     [ "Const_VertMap", "classMR_1_1Const__VertMap.html#a813e3ac5a2d6b85b9588f595955fb61e", null ],
-    [ "Const_VertMap", "classMR_1_1Const__VertMap.html#abc9ca8dd8c997ed7e6a426036cb65524", null ],
     [ "back", "classMR_1_1Const__VertMap.html#a5fc2a00f8672dfacdbd3a043814233b0", null ],
     [ "backId", "classMR_1_1Const__VertMap.html#a35ae652ddf4af50c0221221374f5e3da", null ],
     [ "beginId", "classMR_1_1Const__VertMap.html#a21c116ca03a80416c1899f88a4ea4176", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__VertMap =
     [ "Equals", "classMR_1_1Const__VertMap.html#a5413dfcdba1f71b9aca80e55647880c6", null ],
     [ "Equals", "classMR_1_1Const__VertMap.html#ab4a08557fb262260a79f9103140088d2", null ],
     [ "front", "classMR_1_1Const__VertMap.html#afa76033715eff2905577c7da3f895371", null ],
-    [ "GetEnumerator", "classMR_1_1Const__VertMap.html#abf779cc145a625bf7845799480dd3fe7", null ],
     [ "heapBytes", "classMR_1_1Const__VertMap.html#a52d248d5543e99e904c1372ff58831f7", null ],
-    [ "operator Const_VertMap", "classMR_1_1Const__VertMap.html#a3802112fa4fb32d8456ac2757be0fe3f", null ],
+    [ "maxSize", "classMR_1_1Const__VertMap.html#ace0e1c6225f7f894540a41cf1a7a1d7f", null ],
     [ "operator!=", "classMR_1_1Const__VertMap.html#a3233a5a27da5738b761137fe0a78c4c1", null ],
     [ "operator==", "classMR_1_1Const__VertMap.html#af2d45f39af84d36e17eb2f0649ad1e7f", null ],
     [ "size", "classMR_1_1Const__VertMap.html#ab78fdf8907848042a0b2442348d02bf9", null ],
     [ "this[MR.VertId i]", "classMR_1_1Const__VertMap.html#afd72136e0d6547fbabf39ad504fd3d6c", null ],
-    [ "vec", "classMR_1_1Const__VertMap.html#a529d4f4b68efe5910427c6e49f0b0b3c", null ]
+    [ "vec", "classMR_1_1Const__VertMap.html#a70370e7eda8206aa92077c8b02b7a9e5", null ]
 ];

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -395,8 +388,8 @@ $(function(){initNavTree('MRPdf_8h_source.html','',''); });
 <div class="ttc" id="aMRImage_8h_html"><div class="ttname"><a href="MRImage_8h.html">MRImage.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRVector2_8h_html"><div class="ttname"><a href="MRVector2_8h.html">MRVector2.h</a></div></div>
-<div class="ttc" id="agroup__BoxGroup_html_ga03ccb991cf0d9c433fd5a054a5d026af"><div class="ttname"><a href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">MR::width</a></div><div class="ttdeci">auto width(const Box&lt; V &gt; &amp;box)</div><div class="ttdoc">returns size along x axis</div><div class="ttdef"><b>Definition</b> MRBox.h:354</div></div>
-<div class="ttc" id="agroup__BoxGroup_html_ga61ed695588449d6c852c0bbe38b273ae"><div class="ttname"><a href="group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae">MR::height</a></div><div class="ttdeci">auto height(const Box&lt; V &gt; &amp;box)</div><div class="ttdoc">returns size along y axis</div><div class="ttdef"><b>Definition</b> MRBox.h:361</div></div>
+<div class="ttc" id="agroup__BoxGroup_html_ga03ccb991cf0d9c433fd5a054a5d026af"><div class="ttname"><a href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">MR::width</a></div><div class="ttdeci">auto width(const Box&lt; V &gt; &amp;box)</div><div class="ttdoc">returns size along x axis</div><div class="ttdef"><b>Definition</b> MRBox.h:376</div></div>
+<div class="ttc" id="agroup__BoxGroup_html_ga61ed695588449d6c852c0bbe38b273ae"><div class="ttname"><a href="group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae">MR::height</a></div><div class="ttdeci">auto height(const Box&lt; V &gt; &amp;box)</div><div class="ttdoc">returns size along y axis</div><div class="ttdef"><b>Definition</b> MRBox.h:383</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga014a28da293c9397a11d389e7e6659f0"><div class="ttname"><a href="group__GeneralGroup.html#ga014a28da293c9397a11d389e7e6659f0">MR::Pdf::ImageParams::caption</a></div><div class="ttdeci">std::string caption</div><div class="ttdoc">caption if not empty - add caption under marks (if exist) or image.</div><div class="ttdef"><b>Definition</b> MRPdf.h:136</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga01f53b3d9e1d43e6470addb360f2e893"><div class="ttname"><a href="group__GeneralGroup.html#ga01f53b3d9e1d43e6470addb360f2e893">MR::Pdf::AlignmentHorizontal</a></div><div class="ttdeci">AlignmentHorizontal</div><div class="ttdef"><b>Definition</b> MRPdf.h:81</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga059a69f5238fa686b0c063d87ebecf40"><div class="ttname"><a href="group__GeneralGroup.html#ga059a69f5238fa686b0c063d87ebecf40">MR::Color::transparent</a></div><div class="ttdeci">static constexpr Color transparent() noexcept</div><div class="ttdef"><b>Definition</b> MRColor.h:37</div></div>
@@ -505,7 +498,7 @@ $(function(){initNavTree('MRPdf_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_ggaccc7bf1ce246f1fbd6e61ebc148608daa2ad9d63b69c4a10a5cc9cad923133bc4"><div class="ttname"><a href="group__GeneralGroup.html#ggaccc7bf1ce246f1fbd6e61ebc148608daa2ad9d63b69c4a10a5cc9cad923133bc4">MR::Pdf::ImageParams::AlignmentVertical::Bottom</a></div><div class="ttdeci">@ Bottom</div><div class="ttdef"><b>Definition</b> MRPdf.h:149</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ggaccc7bf1ce246f1fbd6e61ebc148608daa4f1f6016fc9f3f2353c0cc7c67b292bd"><div class="ttname"><a href="group__GeneralGroup.html#ggaccc7bf1ce246f1fbd6e61ebc148608daa4f1f6016fc9f3f2353c0cc7c67b292bd">MR::Pdf::ImageParams::AlignmentVertical::Center</a></div><div class="ttdeci">@ Center</div><div class="ttdef"><b>Definition</b> MRPdf.h:148</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ggaccc7bf1ce246f1fbd6e61ebc148608daaa4ffdcf0dc1f31b9acaf295d75b51d00"><div class="ttname"><a href="group__GeneralGroup.html#ggaccc7bf1ce246f1fbd6e61ebc148608daaa4ffdcf0dc1f31b9acaf295d75b51d00">MR::Pdf::ImageParams::AlignmentVertical::Top</a></div><div class="ttdeci">@ Top</div><div class="ttdef"><b>Definition</b> MRPdf.h:147</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Color_html"><div class="ttname"><a href="structMR_1_1Color.html">MR::Color</a></div><div class="ttdef"><b>Definition</b> MRColor.h:12</div></div>
 <div class="ttc" id="astructMR_1_1Image_html"><div class="ttname"><a href="structMR_1_1Image.html">MR::Image</a></div><div class="ttdef"><b>Definition</b> MRImage.h:19</div></div>
 <div class="ttc" id="astructMR_1_1PdfParameters_html"><div class="ttname"><a href="structMR_1_1PdfParameters.html">MR::PdfParameters</a></div><div class="ttdoc">Parameters of document style.</div><div class="ttdef"><b>Definition</b> MRPdf.h:51</div></div>

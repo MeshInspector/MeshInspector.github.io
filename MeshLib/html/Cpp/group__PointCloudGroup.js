@@ -22,6 +22,7 @@ var group__PointCloudGroup =
       [ "pack", "structMR_1_1PointCloud.html#a9fee9a45c5a54797c40fb2c7c9ed646e", null ],
       [ "pack", "structMR_1_1PointCloud.html#af70413bd36eefbb8ce26cf2a52addf33", null ],
       [ "transform", "structMR_1_1PointCloud.html#a050308043ec1ab0b5b1170e045463514", null ],
+      [ "updateCaches", "structMR_1_1PointCloud.html#af87c45e1d1e2193c2f42933aa2ba646e", null ],
       [ "normals", "structMR_1_1PointCloud.html#a25c1039968a5dc3a24591ac5b74148ad", null ],
       [ "points", "structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4", null ],
       [ "validPoints", "structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03", null ]
@@ -39,7 +40,12 @@ var group__PointCloudGroup =
       [ "setDistances", "group__GeneralGroup.html#ga90ece5219c787eed6781187069122d11", null ],
       [ "setSurfacePC", "group__GeneralGroup.html#gacd2901166038dd400decaf6d3dac1bb9", null ]
     ] ],
+    [ "MR::computeFPFH", "group__PointCloudGroup.html#ga4e33b70d66490482edd3fef7120b0a04", null ],
+    [ "MR::computeFPFHUniqueness", "group__PointCloudGroup.html#ga7b87c280e97b75790cecec7202b03c73", null ],
     [ "MR::findAvgPointsRadius", "group__PointCloudGroup.html#gad170a186634adcea1422a0bcb701584d", null ],
+    [ "MR::findFPFHMatches", "group__PointCloudGroup.html#gabcec15ad6215343b3e74c4a213f6e8a1", null ],
+    [ "MR::findUniqueFPFHPoints", "group__PointCloudGroup.html#ga70346bb651583d4cbde24b58798afb7b", null ],
+    [ "MR::findUniqueFPFHPoints", "group__PointCloudGroup.html#ga4d9ae8f046bb54aa45a5eda1dc0a24e1", null ],
     [ "MR::improveSampling", "group__PointCloudGroup.html#gaac1c0003890912dca03aafa624951ad4", null ],
     [ "MR::makeNormals", "group__PointCloudGroup.html#ga15578cc0c068a55121b279b4d0b9e7cb", null ],
     [ "MR::makeOrientedNormals", "group__PointCloudGroup.html#ga117dbe61fc1c56b7b7ba25d6514ac35d", null ],

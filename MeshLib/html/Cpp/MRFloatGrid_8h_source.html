@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -150,7 +143,7 @@ $(function(){initNavTree('MRFloatGrid_8h_source.html','',''); });
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="group__BasicStructuresGroup.html#gaaa4989f3d8e88d20b6cbebc9f51db434">   17</a></span><span class="keyword">struct </span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a9f036b05518b862a538b52711d41d242">MRVOXELS_CLASS</a> <a class="code hl_struct" href="structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">struct </span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a9f036b05518b862a538b52711d41d242">MRVOXELS_CLASS</a> <a class="code hl_struct" href="structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a>;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span></div>
 <div class="foldopen" id="foldopen00020" data-start="{" data-end="};">
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="classMR_1_1FloatGrid.html">   20</a></span><span class="keyword">class </span><a class="code hl_define" href="MRVoxelsFwd_8h.html#a9f036b05518b862a538b52711d41d242">MRVOXELS_CLASS</a> <a class="code hl_function" href="classMR_1_1FloatGrid.html#a53d10307e884f2a1d98fbb92e86d819c">FloatGrid</a></div>
@@ -237,23 +230,23 @@ $(function(){initNavTree('MRFloatGrid_8h_source.html','',''); });
 <div class="ttc" id="aclassMR_1_1FloatGrid_html_a6a578732811baea1528731daa6c889ec"><div class="ttname"><a href="classMR_1_1FloatGrid.html#a6a578732811baea1528731daa6c889ec">MR::FloatGrid::deepCopy</a></div><div class="ttdeci">static FloatGrid deepCopy(const FloatGrid &amp;other) noexcept</div></div>
 <div class="ttc" id="aclassMR_1_1FloatGrid_html_ae1df5fdac1a03f7e347a9b7c48b7229d"><div class="ttname"><a href="classMR_1_1FloatGrid.html#ae1df5fdac1a03f7e347a9b7c48b7229d">MR::FloatGrid::toVdb</a></div><div class="ttdeci">std::shared_ptr&lt; OpenVdbFloatGrid &gt; toVdb() const noexcept</div></div>
 <div class="ttc" id="aclassMR_1_1FloatGrid_html_af8d34216336615815311c279c1f5ea36"><div class="ttname"><a href="classMR_1_1FloatGrid.html#af8d34216336615815311c279c1f5ea36">MR::FloatGrid::FloatGrid</a></div><div class="ttdeci">FloatGrid(std::shared_ptr&lt; OpenVdbFloatGrid &gt; ptr)</div></div>
-<div class="ttc" id="agroup__BasicGroup_html_gacfd51356fbcb71948b1ef3f058ac75c7"><div class="ttname"><a href="group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7">MR::heapBytes</a></div><div class="ttdeci">size_t heapBytes(const BitSet &amp;bs)</div><div class="ttdoc">returns the amount of memory given BitSet occupies on heap</div><div class="ttdef"><b>Definition</b> MRBitSet.h:377</div></div>
+<div class="ttc" id="agroup__BasicGroup_html_gacfd51356fbcb71948b1ef3f058ac75c7"><div class="ttname"><a href="group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7">MR::heapBytes</a></div><div class="ttdeci">size_t heapBytes(const BitSet &amp;bs)</div><div class="ttdoc">returns the amount of memory given BitSet occupies on heap</div><div class="ttdef"><b>Definition</b> MRBitSet.h:392</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga1322ac706e673ed930bc4c32c05fa2d3"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga1322ac706e673ed930bc4c32c05fa2d3">MR::countVoxelsWithValueLess</a></div><div class="ttdeci">size_t countVoxelsWithValueLess(const FloatGrid &amp;grid, float value)</div><div class="ttdoc">returns number of voxels in the grid with value less than given</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga1bfdecc867ada4fd3525c717441a44ce"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga1bfdecc867ada4fd3525c717441a44ce">MR::resampled</a></div><div class="ttdeci">FloatGrid resampled(const FloatGrid &amp;grid, float voxelScale, ProgressCallback cb={})</div><div class="ttdoc">resample this grid to fit voxelScale</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga1d3651fa5e9662f55a9a4512df2f3faf"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga1d3651fa5e9662f55a9a4512df2f3faf">MR::setValues</a></div><div class="ttdeci">void setValues(FloatGrid &amp;grid, const VoxelBitSet &amp;region, const std::vector&lt; float &gt; &amp;values)</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga228e41b0a57baa8fb525f4aeec502554"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga228e41b0a57baa8fb525f4aeec502554">MR::gaussianFiltered</a></div><div class="ttdeci">FloatGrid gaussianFiltered(const FloatGrid &amp;grid, int width, int iters, ProgressCallback cb={})</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga24e9cfbbad1dbef4e985c5351f7863fe"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga24e9cfbbad1dbef4e985c5351f7863fe">MR::setValue</a></div><div class="ttdeci">void setValue(FloatGrid &amp;grid, const Vector3i &amp;p, float value)</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga31ae4b6e3ced3e32c00e186c5888dbd6"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga31ae4b6e3ced3e32c00e186c5888dbd6">MR::countVoxelsWithValueGreater</a></div><div class="ttdeci">size_t countVoxelsWithValueGreater(const FloatGrid &amp;grid, float value)</div><div class="ttdoc">returns number of voxels in the grid with value greater than given</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:759</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:789</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga5c9d5ece99325ae854e7ea6641867e05"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga5c9d5ece99325ae854e7ea6641867e05">MR::gaussianFilter</a></div><div class="ttdeci">void gaussianFilter(FloatGrid &amp;grid, int width, int iters, ProgressCallback cb={})</div><div class="ttdoc">returns grid with gaussian filter applied</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga5ccf9f11a87d554ea33bc5ee074032f2"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga5ccf9f11a87d554ea33bc5ee074032f2">MR::countVoxelsWithValuePred</a></div><div class="ttdeci">size_t countVoxelsWithValuePred(const FloatGrid &amp;grid, const std::function&lt; bool(float)&gt; &amp;pred)</div><div class="ttdoc">returns number of velxes in the grid with pred(value) == true</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga9a2627798d685fc7e535ab8f8d9daced"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga9a2627798d685fc7e535ab8f8d9daced">MR::setLevelSetType</a></div><div class="ttdeci">void setLevelSetType(FloatGrid &amp;grid)</div><div class="ttdoc">sets type of this grid as LEVEL SET (for normal flipping)</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_gab91d72c223381e73edff31cc3b8405e4"><div class="ttname"><a href="group__BasicStructuresGroup.html#gab91d72c223381e73edff31cc3b8405e4">MR::getValue</a></div><div class="ttdeci">float getValue(const FloatGrid &amp;grid, const Vector3i &amp;p)</div><div class="ttdoc">returns the value at given voxel</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_gae4a0d8b7bd4d17ddbbfe338314714867"><div class="ttname"><a href="group__BasicStructuresGroup.html#gae4a0d8b7bd4d17ddbbfe338314714867">MR::findActiveBounds</a></div><div class="ttdeci">Box3i findActiveBounds(const FloatGrid &amp;grid)</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_gafe5c0e6c9a49fbd709c7243c3892e270"><div class="ttname"><a href="group__BasicStructuresGroup.html#gafe5c0e6c9a49fbd709c7243c3892e270">MR::cropped</a></div><div class="ttdeci">FloatGrid cropped(const FloatGrid &amp;grid, const Box3i &amp;box, ProgressCallback cb={})</div><div class="ttdoc">returns cropped grid</div></div>
-<div class="ttc" id="agroup__BoxGroup_html_ga03ccb991cf0d9c433fd5a054a5d026af"><div class="ttname"><a href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">MR::width</a></div><div class="ttdeci">auto width(const Box&lt; V &gt; &amp;box)</div><div class="ttdoc">returns size along x axis</div><div class="ttdef"><b>Definition</b> MRBox.h:354</div></div>
+<div class="ttc" id="agroup__BoxGroup_html_ga03ccb991cf0d9c433fd5a054a5d026af"><div class="ttname"><a href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">MR::width</a></div><div class="ttdeci">auto width(const Box&lt; V &gt; &amp;box)</div><div class="ttdoc">returns size along x axis</div><div class="ttdef"><b>Definition</b> MRBox.h:376</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf"><div class="ttname"><a href="group__GeneralGroup.html#gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">MR::FeaturePropertyKind::other</a></div><div class="ttdeci">@ other</div><div class="ttdoc">Angle, normally float. Measure in radians.</div><div class="ttdef"><b>Definition</b> MRFeatureObject.h:27</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1OpenVdbFloatGrid_html"><div class="ttname"><a href="structMR_1_1OpenVdbFloatGrid.html">MR::OpenVdbFloatGrid</a></div><div class="ttdoc">this class just hides very complex type of typedef openvdb::FloatGrid</div><div class="ttdef"><b>Definition</b> MRVDBFloatGrid.h:22</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

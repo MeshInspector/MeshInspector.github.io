@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -148,7 +141,7 @@ $(function(){initNavTree('classMR_1_1Const__ObjMap.html','','classMR_1_1Const__O
 </div><!--header-->
 <div class="contents">
 
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type,  
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt"><a class="el" href="classMR_1_1ObjMap.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.ObjMap. This is the non-const half of the clas...">MR.ObjMap</a></span>. This is the const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.Const_ObjMap:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -157,37 +150,35 @@ $(function(){initNavTree('classMR_1_1Const__ObjMap.html','','classMR_1_1Const__O
  <div class="center">
   <img src="classMR_1_1Const__ObjMap.png" usemap="#MR_2EConst_5FObjMap_map" alt=""/>
   <map id="MR_2EConst_5FObjMap_map" name="MR_2EConst_5FObjMap_map">
-<area href="classMR_1_1ObjMap.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type," alt="MR.ObjMap" shape="rect" coords="196,112,317,136"/>
+<area href="classMR_1_1ObjMap.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.ObjMap. This is the non-const half of the clas..." alt="MR.ObjMap" shape="rect" coords="131,112,252,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:_5FEnumerator" id="r__5FEnumerator"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_Enumerator</b></td></tr>
 <tr class="memitem:_5FUnderlying" id="r__5FUnderlying"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>_Underlying</b></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab83b69d3be5f43abf733503009008d45" id="r_ab83b69d3be5f43abf733503009008d45"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab83b69d3be5f43abf733503009008d45">Dispose</a> ()</td></tr>
-<tr class="memitem:a4cd6a63466f5572bd2ef695cbe6a94ec" id="r_a4cd6a63466f5572bd2ef695cbe6a94ec"><td class="memItemLeft" align="right" valign="top">IEnumerator&lt; MR.Misc.ConstRef&lt; <a class="el" href="structMR_1_1ObjId.html">MR.ObjId</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cd6a63466f5572bd2ef695cbe6a94ec">GetEnumerator</a> ()</td></tr>
 <tr class="memitem:acde6f15a78862d58b67c2f37f1a1dc09" id="r_acde6f15a78862d58b67c2f37f1a1dc09"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acde6f15a78862d58b67c2f37f1a1dc09">Const_ObjMap</a> ()</td></tr>
-<tr class="memdesc:acde6f15a78862d58b67c2f37f1a1dc09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
+<tr class="memdesc:acde6f15a78862d58b67c2f37f1a1dc09"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="memitem:a4bd2f63e8fa5203578f764bd4f917a30" id="r_a4bd2f63e8fa5203578f764bd4f917a30"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bd2f63e8fa5203578f764bd4f917a30">Const_ObjMap</a> (MR._ByValue_ObjMap _other)</td></tr>
-<tr class="memdesc:a4bd2f63e8fa5203578f764bd4f917a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="Constructs an empty (default-constructed) instance.">MR.ObjMap.ObjMap</a></span>.  <br /></td></tr>
+<tr class="memdesc:a4bd2f63e8fa5203578f764bd4f917a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="creates empty vector">MR.ObjMap.ObjMap</a></span>.  <br /></td></tr>
 <tr class="memitem:a031050bcaac04ad60270561b38b43426" id="r_a031050bcaac04ad60270561b38b43426"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a031050bcaac04ad60270561b38b43426">Const_ObjMap</a> (<a class="el" href="classMR_1_1Const__ObjMap.html">Const_ObjMap</a> _other)</td></tr>
-<tr class="memdesc:a031050bcaac04ad60270561b38b43426"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="Constructs an empty (default-constructed) instance.">MR.ObjMap.ObjMap</a></span>.  <br /></td></tr>
+<tr class="memdesc:a031050bcaac04ad60270561b38b43426"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="creates empty vector">MR.ObjMap.ObjMap</a></span>.  <br /></td></tr>
 <tr class="memitem:abd6b5439d561e5e99400b08bfb445d3b" id="r_abd6b5439d561e5e99400b08bfb445d3b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd6b5439d561e5e99400b08bfb445d3b">Const_ObjMap</a> (<a class="el" href="classMR_1_1ObjMap.html">ObjMap</a> _other)</td></tr>
-<tr class="memdesc:abd6b5439d561e5e99400b08bfb445d3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="Constructs an empty (default-constructed) instance.">MR.ObjMap.ObjMap</a></span>.  <br /></td></tr>
+<tr class="memdesc:abd6b5439d561e5e99400b08bfb445d3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="creates empty vector">MR.ObjMap.ObjMap</a></span>.  <br /></td></tr>
 <tr class="memitem:a6a9c071ebac0abff2c141b4d8ac8eab6" id="r_a6a9c071ebac0abff2c141b4d8ac8eab6"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a9c071ebac0abff2c141b4d8ac8eab6">Const_ObjMap</a> (nuint <a class="el" href="#a3c260aa25b54da19b6a28913442298fd">size</a>)</td></tr>
-<tr class="memdesc:a6a9c071ebac0abff2c141b4d8ac8eab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="Constructs an empty (default-constructed) instance.">MR.ObjMap.ObjMap</a></span>.  <br /></td></tr>
+<tr class="memdesc:a6a9c071ebac0abff2c141b4d8ac8eab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="creates empty vector">MR.ObjMap.ObjMap</a></span>.  <br /></td></tr>
 <tr class="memitem:a997f6f05d820e42f5f0097bf8f786a1e" id="r_a997f6f05d820e42f5f0097bf8f786a1e"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a997f6f05d820e42f5f0097bf8f786a1e">Const_ObjMap</a> (nuint <a class="el" href="#a3c260aa25b54da19b6a28913442298fd">size</a>, in <a class="el" href="structMR_1_1ObjId.html">MR.ObjId</a> val)</td></tr>
-<tr class="memdesc:a997f6f05d820e42f5f0097bf8f786a1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="Constructs an empty (default-constructed) instance.">MR.ObjMap.ObjMap</a></span>.  <br /></td></tr>
-<tr class="memitem:a91f963654e8845c33e97c6e03324e357" id="r_a91f963654e8845c33e97c6e03324e357"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91f963654e8845c33e97c6e03324e357">Const_ObjMap</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRObjId &gt; <a class="el" href="#af1d4125c88b71707a722fb50631d5d01">vec</a>)</td></tr>
-<tr class="memdesc:a91f963654e8845c33e97c6e03324e357"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="Constructs an empty (default-constructed) instance.">MR.ObjMap.ObjMap</a></span>.  <br /></td></tr>
+<tr class="memdesc:a997f6f05d820e42f5f0097bf8f786a1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="creates empty vector">MR.ObjMap.ObjMap</a></span>.  <br /></td></tr>
 <tr class="memitem:a4586af04edcdca2ab0d3cc907e4cddf2" id="r_a4586af04edcdca2ab0d3cc907e4cddf2"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4586af04edcdca2ab0d3cc907e4cddf2">empty</a> ()</td></tr>
 <tr class="memdesc:a4586af04edcdca2ab0d3cc907e4cddf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a4586af04edcdca2ab0d3cc907e4cddf2" title="Generated from method MR.ObjMap.empty.">MR.ObjMap.empty</a></span>.  <br /></td></tr>
 <tr class="memitem:a3c260aa25b54da19b6a28913442298fd" id="r_a3c260aa25b54da19b6a28913442298fd"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c260aa25b54da19b6a28913442298fd">size</a> ()</td></tr>
 <tr class="memdesc:a3c260aa25b54da19b6a28913442298fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a3c260aa25b54da19b6a28913442298fd" title="Generated from method MR.ObjMap.size.">MR.ObjMap.size</a></span>.  <br /></td></tr>
+<tr class="memitem:a40e59a87eb542f43a435887a6bcbb60b" id="r_a40e59a87eb542f43a435887a6bcbb60b"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40e59a87eb542f43a435887a6bcbb60b">maxSize</a> ()</td></tr>
+<tr class="memdesc:a40e59a87eb542f43a435887a6bcbb60b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::ObjMap::max_size</span>.  <br /></td></tr>
 <tr class="memitem:a7f201532aacef44f2056220cbdb1c59c" id="r_a7f201532aacef44f2056220cbdb1c59c"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f201532aacef44f2056220cbdb1c59c">capacity</a> ()</td></tr>
 <tr class="memdesc:a7f201532aacef44f2056220cbdb1c59c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a7f201532aacef44f2056220cbdb1c59c" title="Generated from method MR.ObjMap.capacity.">MR.ObjMap.capacity</a></span>.  <br /></td></tr>
 <tr class="memitem:a9f4c17a4ff18b68b98657d319b771b65" id="r_a9f4c17a4ff18b68b98657d319b771b65"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly <a class="el" href="structMR_1_1ObjId.html">MR.ObjId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f4c17a4ff18b68b98657d319b771b65">front</a> ()</td></tr>
@@ -209,8 +200,6 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a4b4862622bc5429e787715055d0746da" id="r_a4b4862622bc5429e787715055d0746da"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b4862622bc5429e787715055d0746da">operator Const_ObjMap</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRObjId &gt; <a class="el" href="#af1d4125c88b71707a722fb50631d5d01">vec</a>)</td></tr>
-<tr class="memdesc:a4b4862622bc5429e787715055d0746da"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="Constructs an empty (default-constructed) instance.">MR.ObjMap.ObjMap</a></span>.  <br /></td></tr>
 <tr class="memitem:ad0509224daa290bfc5b2af16f8eba6ab" id="r_ad0509224daa290bfc5b2af16f8eba6ab"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0509224daa290bfc5b2af16f8eba6ab">operator==</a> (<a class="el" href="classMR_1_1Const__ObjMap.html">MR.Const_ObjMap</a> _this, <a class="el" href="classMR_1_1Const__ObjMap.html">MR.Const_ObjMap</a> b)</td></tr>
 <tr class="memdesc:ad0509224daa290bfc5b2af16f8eba6ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::ObjMap::operator==</span>.  <br /></td></tr>
 <tr class="memitem:ab1d3a6f5da1067ead0bde8fdc24a591c" id="r_ab1d3a6f5da1067ead0bde8fdc24a591c"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1d3a6f5da1067ead0bde8fdc24a591c">operator!=</a> (<a class="el" href="classMR_1_1Const__ObjMap.html">MR.Const_ObjMap</a> _this, <a class="el" href="classMR_1_1Const__ObjMap.html">MR.Const_ObjMap</a> b)</td></tr>
@@ -221,23 +210,16 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:af1d4125c88b71707a722fb50631d5d01" id="r_af1d4125c88b71707a722fb50631d5d01"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRObjId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1d4125c88b71707a722fb50631d5d01">vec</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:af1d4125c88b71707a722fb50631d5d01"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
+<tr class="memitem:a9a7086668ca3eea27f8061bc9c7ca4a2" id="r_a9a7086668ca3eea27f8061bc9c7ca4a2"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRObjId_MRAllocatorMRObjId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a7086668ca3eea27f8061bc9c7ca4a2">vec</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a9a7086668ca3eea27f8061bc9c7ca4a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
 <tr class="memitem:ad0fb4fbb62aaaa22ddb6f8c2353138ce" id="r_ad0fb4fbb62aaaa22ddb6f8c2353138ce"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly <a class="el" href="structMR_1_1ObjId.html">MR.ObjId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0fb4fbb62aaaa22ddb6f8c2353138ce">this[MR.ObjId i]</a><code> [get]</code></td></tr>
 <tr class="memdesc:ad0fb4fbb62aaaa22ddb6f8c2353138ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::ObjMap::operator[]</span>.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt"><a class="el" href="classMR_1_1ObjMap.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type,">MR.ObjMap</a></span>. This is the const half of the class. </td></tr>
-  </table>
-  </dd>
-</dl>
+<div class="textblock"><p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt"><a class="el" href="classMR_1_1ObjMap.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.ObjMap. This is the non-const half of the clas...">MR.ObjMap</a></span>. This is the const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acde6f15a78862d58b67c2f37f1a1dc09" name="acde6f15a78862d58b67c2f37f1a1dc09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acde6f15a78862d58b67c2f37f1a1dc09">&#9670;&#160;</a></span>Const_ObjMap() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acde6f15a78862d58b67c2f37f1a1dc09">&#9670;&#160;</a></span>Const_ObjMap() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,12 +241,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs an empty (default-constructed) instance. </p>
+<p>creates empty vector </p>
 
 </div>
 </div>
 <a id="a4bd2f63e8fa5203578f764bd4f917a30" name="a4bd2f63e8fa5203578f764bd4f917a30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bd2f63e8fa5203578f764bd4f917a30">&#9670;&#160;</a></span>Const_ObjMap() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bd2f63e8fa5203578f764bd4f917a30">&#9670;&#160;</a></span>Const_ObjMap() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,12 +268,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="Constructs an empty (default-constructed) instance.">MR.ObjMap.ObjMap</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="creates empty vector">MR.ObjMap.ObjMap</a></span>. </p>
 
 </div>
 </div>
 <a id="a031050bcaac04ad60270561b38b43426" name="a031050bcaac04ad60270561b38b43426"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a031050bcaac04ad60270561b38b43426">&#9670;&#160;</a></span>Const_ObjMap() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a031050bcaac04ad60270561b38b43426">&#9670;&#160;</a></span>Const_ObjMap() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -313,12 +295,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="Constructs an empty (default-constructed) instance.">MR.ObjMap.ObjMap</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="creates empty vector">MR.ObjMap.ObjMap</a></span>. </p>
 
 </div>
 </div>
 <a id="abd6b5439d561e5e99400b08bfb445d3b" name="abd6b5439d561e5e99400b08bfb445d3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd6b5439d561e5e99400b08bfb445d3b">&#9670;&#160;</a></span>Const_ObjMap() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abd6b5439d561e5e99400b08bfb445d3b">&#9670;&#160;</a></span>Const_ObjMap() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,12 +322,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="Constructs an empty (default-constructed) instance.">MR.ObjMap.ObjMap</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="creates empty vector">MR.ObjMap.ObjMap</a></span>. </p>
 
 </div>
 </div>
 <a id="a6a9c071ebac0abff2c141b4d8ac8eab6" name="a6a9c071ebac0abff2c141b4d8ac8eab6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a9c071ebac0abff2c141b4d8ac8eab6">&#9670;&#160;</a></span>Const_ObjMap() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a9c071ebac0abff2c141b4d8ac8eab6">&#9670;&#160;</a></span>Const_ObjMap() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,12 +349,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="Constructs an empty (default-constructed) instance.">MR.ObjMap.ObjMap</a></span>. </p>
+<p>creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="creates empty vector">MR.ObjMap.ObjMap</a></span>. </p>
 
 </div>
 </div>
 <a id="a997f6f05d820e42f5f0097bf8f786a1e" name="a997f6f05d820e42f5f0097bf8f786a1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a997f6f05d820e42f5f0097bf8f786a1e">&#9670;&#160;</a></span>Const_ObjMap() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a997f6f05d820e42f5f0097bf8f786a1e">&#9670;&#160;</a></span>Const_ObjMap() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -398,34 +380,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="Constructs an empty (default-constructed) instance.">MR.ObjMap.ObjMap</a></span>. </p>
-
-</div>
-</div>
-<a id="a91f963654e8845c33e97c6e03324e357" name="a91f963654e8845c33e97c6e03324e357"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91f963654e8845c33e97c6e03324e357">&#9670;&#160;</a></span>Const_ObjMap() <span class="overload">[7/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe MR.Const_ObjMap.Const_ObjMap </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRObjId &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="Constructs an empty (default-constructed) instance.">MR.ObjMap.ObjMap</a></span>. </p>
+<p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="creates empty vector">MR.ObjMap.ObjMap</a></span>. </p>
 
 </div>
 </div>
@@ -746,31 +701,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a4cd6a63466f5572bd2ef695cbe6a94ec" name="a4cd6a63466f5572bd2ef695cbe6a94ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cd6a63466f5572bd2ef695cbe6a94ec">&#9670;&#160;</a></span>GetEnumerator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">IEnumerator&lt; MR.Misc.ConstRef&lt; <a class="el" href="structMR_1_1ObjId.html">MR.ObjId</a> &gt; &gt; MR.Const_ObjMap.GetEnumerator </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a8a9e63006173f066b64517d47d6c47b2" name="a8a9e63006173f066b64517d47d6c47b2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8a9e63006173f066b64517d47d6c47b2">&#9670;&#160;</a></span>heapBytes()</h2>
 
@@ -798,8 +728,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a4b4862622bc5429e787715055d0746da" name="a4b4862622bc5429e787715055d0746da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b4862622bc5429e787715055d0746da">&#9670;&#160;</a></span>operator Const_ObjMap()</h2>
+<a id="a40e59a87eb542f43a435887a6bcbb60b" name="a40e59a87eb542f43a435887a6bcbb60b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40e59a87eb542f43a435887a6bcbb60b">&#9670;&#160;</a></span>maxSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -808,20 +738,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe implicit MR.Const_ObjMap.operator <a class="el" href="classMR_1_1Const__ObjMap.html">Const_ObjMap</a> </td>
+          <td class="memname">unsafe nuint MR.Const_ObjMap.maxSize </td>
           <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRObjId &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjMap.html#a9881e043a2558892bb96672b2ba1ed5b" title="Constructs an empty (default-constructed) instance.">MR.ObjMap.ObjMap</a></span>. </p>
+<p>Generated from method <span class="tt">MR::ObjMap::max_size</span>. </p>
 
 </div>
 </div>
@@ -937,8 +867,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="af1d4125c88b71707a722fb50631d5d01" name="af1d4125c88b71707a722fb50631d5d01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1d4125c88b71707a722fb50631d5d01">&#9670;&#160;</a></span>vec</h2>
+<a id="a9a7086668ca3eea27f8061bc9c7ca4a2" name="a9a7086668ca3eea27f8061bc9c7ca4a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a7086668ca3eea27f8061bc9c7ca4a2">&#9670;&#160;</a></span>vec</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -947,7 +877,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe MR.Std.Const_Vector_MRObjId MR.Const_ObjMap.vec</td>
+          <td class="memname">unsafe MR.Std.Const_Vector_MRObjId_MRAllocatorMRObjId MR.Const_ObjMap.vec</td>
         </tr>
       </table>
   </td>

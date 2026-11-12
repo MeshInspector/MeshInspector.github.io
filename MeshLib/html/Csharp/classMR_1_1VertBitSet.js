@@ -8,6 +8,7 @@ var classMR_1_1VertBitSet =
     [ "VertBitSet", "classMR_1_1VertBitSet.html#a6c681ec6cdd9d7cb0438c0d717561f69", null ],
     [ "VertBitSet", "classMR_1_1VertBitSet.html#a5ddfe0d859731534167ec5c0e78384be", null ],
     [ "assign", "classMR_1_1VertBitSet.html#a998efcbf6bf176225593e9de106194d7", null ],
+    [ "atomicTestSet", "classMR_1_1VertBitSet.html#ae94fc0f0e110370923be35807baff861", null ],
     [ "autoResizeSet", "classMR_1_1VertBitSet.html#a04fd4f3e4eafd424481579dc4364d86c", null ],
     [ "autoResizeSet", "classMR_1_1VertBitSet.html#aa2f2481c89d25d163046e5c4df1a4f7b", null ],
     [ "autoResizeTestSet", "classMR_1_1VertBitSet.html#ab8fe47449258c69425b01d153203f994", null ],

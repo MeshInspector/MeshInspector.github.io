@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -152,7 +145,7 @@ $(function(){initNavTree('structMR_1_1MapOrHashMap.html','','structMR_1_1MapOrHa
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:gac2b84418d93cdedba84fe87ce2595e2e" id="r_gac2b84418d93cdedba84fe87ce2595e2e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac2b84418d93cdedba84fe87ce2595e2e">Dense</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;V, K&gt;</td></tr>
-<tr class="memitem:ga9b9b3bd19e1e1187943ce7850bcf6ee0" id="r_ga9b9b3bd19e1e1187943ce7850bcf6ee0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9b9b3bd19e1e1187943ce7850bcf6ee0">Hash</a> = <a class="el" href="group__GeneralGroup.html#gaf8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt;K, V&gt;</td></tr>
+<tr class="memitem:ga9b9b3bd19e1e1187943ce7850bcf6ee0" id="r_ga9b9b3bd19e1e1187943ce7850bcf6ee0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9b9b3bd19e1e1187943ce7850bcf6ee0">Hash</a> = <a class="el" href="group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552">HashMap</a>&lt;K, V&gt;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -163,10 +156,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ga99f74cd2edd6dab050ffad6466cdf191" id="r_ga99f74cd2edd6dab050ffad6466cdf191"><td class="memTemplParams" colspan="2">template&lt;typename F&gt; </td></tr>
 <tr class="memitem:ga99f74cd2edd6dab050ffad6466cdf191 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga99f74cd2edd6dab050ffad6466cdf191">forEach</a> (F &amp;&amp;f) const</td></tr>
 <tr class="memdesc:ga99f74cd2edd6dab050ffad6466cdf191"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function for all pairs (key, value) with valid value for dense map  <br /></td></tr>
-<tr class="memitem:ga60c491f3b471bedb23f0615dc24f0fc5" id="r_ga60c491f3b471bedb23f0615dc24f0fc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac2b84418d93cdedba84fe87ce2595e2e">Dense</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga60c491f3b471bedb23f0615dc24f0fc5">getMap</a> () <a class="el" href="MRMacros_8h.html#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
-<tr class="memitem:gabfe1d6849d40b95fb756affcd2a49f49" id="r_gabfe1d6849d40b95fb756affcd2a49f49"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__GeneralGroup.html#gac2b84418d93cdedba84fe87ce2595e2e">Dense</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gabfe1d6849d40b95fb756affcd2a49f49">getMap</a> () const <a class="el" href="MRMacros_8h.html#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
-<tr class="memitem:gad24c7a779069c7e074b47d8e3d3400ae" id="r_gad24c7a779069c7e074b47d8e3d3400ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga9b9b3bd19e1e1187943ce7850bcf6ee0">Hash</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gad24c7a779069c7e074b47d8e3d3400ae">getHashMap</a> () <a class="el" href="MRMacros_8h.html#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
-<tr class="memitem:ga0c1e6a6e4c0590ec6918e29c93d59b8e" id="r_ga0c1e6a6e4c0590ec6918e29c93d59b8e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__GeneralGroup.html#ga9b9b3bd19e1e1187943ce7850bcf6ee0">Hash</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0c1e6a6e4c0590ec6918e29c93d59b8e">getHashMap</a> () const <a class="el" href="MRMacros_8h.html#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
+<tr class="memitem:ga18aaf7359920f8f53e60eca10b93680d" id="r_ga18aaf7359920f8f53e60eca10b93680d"><td class="memTemplParams" colspan="2">template&lt;typename F&gt; </td></tr>
+<tr class="memitem:ga18aaf7359920f8f53e60eca10b93680d template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga18aaf7359920f8f53e60eca10b93680d">forEachParallel</a> (F &amp;&amp;f) const</td></tr>
+<tr class="memitem:ga1061c0b8db208cf5af14eb2760cb3703" id="r_ga1061c0b8db208cf5af14eb2760cb3703"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac2b84418d93cdedba84fe87ce2595e2e">Dense</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga1061c0b8db208cf5af14eb2760cb3703">getMap</a> ()</td></tr>
+<tr class="memitem:ga9027fa8effc674e94506993cc5c1ee2e" id="r_ga9027fa8effc674e94506993cc5c1ee2e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__GeneralGroup.html#gac2b84418d93cdedba84fe87ce2595e2e">Dense</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9027fa8effc674e94506993cc5c1ee2e">getMap</a> () const</td></tr>
+<tr class="memitem:ga3bc5077bb60649a52a86a2736ff6a57e" id="r_ga3bc5077bb60649a52a86a2736ff6a57e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga9b9b3bd19e1e1187943ce7850bcf6ee0">Hash</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3bc5077bb60649a52a86a2736ff6a57e">getHashMap</a> ()</td></tr>
+<tr class="memitem:ga2aded678aafca023ae711c2dcad233e5" id="r_ga2aded678aafca023ae711c2dcad233e5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__GeneralGroup.html#ga9b9b3bd19e1e1187943ce7850bcf6ee0">Hash</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2aded678aafca023ae711c2dcad233e5">getHashMap</a> () const</td></tr>
 <tr class="memitem:gab6a52148cc818bc6c42e287a95ef61b8" id="r_gab6a52148cc818bc6c42e287a95ef61b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab6a52148cc818bc6c42e287a95ef61b8">clear</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -143,13 +136,13 @@ $(function(){initNavTree('classmrmeshpy_1_1WeightedShell.html','',''); });
 
 <p>This is the complete list of members for <a class="el" href="classmrmeshpy_1_1WeightedShell.html">mrmeshpy.WeightedShell</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html#a60d7fab143066fe31def99ff2210fcca">calculateShellWeightsFromRegions</a>(Mesh mesh, std_vector_WeightedShell_ParametersRegions_Region regions, float interpolationDist)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html">mrmeshpy.WeightedShell</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html#a2d83e61538adb64e6794f50777edbf4a">meshShell</a>(Mesh mesh, WeightedShell.ParametersRegions params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html">mrmeshpy.WeightedShell</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html#a54793092d9968066699373eb04976556">meshShell</a>(Mesh mesh, WeightedShell.ParametersRegions params, func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams volumeBuilder)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html">mrmeshpy.WeightedShell</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html#a4a099d2c4672b96f37fcb36f88c56fd5">meshShell</a>(Mesh mesh, VertScalars vertWeights, WeightedShell.ParametersMetric params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html">mrmeshpy.WeightedShell</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html#a0900ecdf72988176191ce3e0ac1a754c">meshToDistanceVolume</a>(Mesh mesh, WeightedShell.DistanceVolumeCreationParams params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html">mrmeshpy.WeightedShell</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html#a8278229855cfaa3d63cd86fea7b45ebe">pointsShell</a>(PointCloud cloud, VertScalars pointWeights, WeightedShell.ParametersMetric params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html">mrmeshpy.WeightedShell</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html#a686d03d220cb47f14b4e8c22942203a0">pointsToDistanceVolume</a>(PointCloud cloud, WeightedShell.DistanceVolumeCreationParams params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html">mrmeshpy.WeightedShell</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html#ac38bafd992c964eed70f7474fe4ba0c5">calculateShellWeightsFromRegions</a>(ConstMesh mesh, Const_std_vector_WeightedShell_ParametersRegions_Region regions, float interpolationDist)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html">mrmeshpy.WeightedShell</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html#ad61f79ff61129ca3f0d2b51502fec84f">meshShell</a>(ConstMesh mesh, ConstVertScalars vertWeights, WeightedShell.ConstParametersMetric params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html">mrmeshpy.WeightedShell</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html#a1618ce97a0326a7b76107e97126b56c7">meshShell</a>(ConstMesh mesh, WeightedShell.ConstParametersRegions params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html">mrmeshpy.WeightedShell</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html#a582371cdb815d2dbc09c822549624a51">meshShell</a>(ConstMesh mesh, WeightedShell.ConstParametersRegions params, Const_func_VoxelsVolume_std_function_float_Vector3_int_const_from_Mesh_WeightedShell_DistanceVolumeCreationParams volumeBuilder)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html">mrmeshpy.WeightedShell</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html#a88753a3d5460c3fee01625b87dfde2a5">meshToDistanceVolume</a>(ConstMesh mesh, WeightedShell.ConstDistanceVolumeCreationParams params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html">mrmeshpy.WeightedShell</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html#a580730f72d4b5cdd8db7682496a198ed">pointsShell</a>(ConstPointCloud cloud, ConstVertScalars pointWeights, WeightedShell.ConstParametersMetric params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html">mrmeshpy.WeightedShell</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html#a54e5f617290ff1ba3518953b77e4e7ce">pointsToDistanceVolume</a>(ConstPointCloud cloud, WeightedShell.ConstDistanceVolumeCreationParams params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1WeightedShell.html">mrmeshpy.WeightedShell</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

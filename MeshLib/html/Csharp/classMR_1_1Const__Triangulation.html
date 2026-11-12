@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -148,7 +141,7 @@ $(function(){initNavTree('classMR_1_1Const__Triangulation.html','','classMR_1_1C
 </div><!--header-->
 <div class="contents">
 
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type,  
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt"><a class="el" href="classMR_1_1Triangulation.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.Triangulation. This is the non-const half of t...">MR.Triangulation</a></span>. This is the const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.Const_Triangulation:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -157,37 +150,35 @@ $(function(){initNavTree('classMR_1_1Const__Triangulation.html','','classMR_1_1C
  <div class="center">
   <img src="classMR_1_1Const__Triangulation.png" usemap="#MR_2EConst_5FTriangulation_map" alt=""/>
   <map id="MR_2EConst_5FTriangulation_map" name="MR_2EConst_5FTriangulation_map">
-<area href="classMR_1_1Triangulation.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type," alt="MR.Triangulation" shape="rect" coords="235,112,382,136"/>
+<area href="classMR_1_1Triangulation.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.Triangulation. This is the non-const half of t..." alt="MR.Triangulation" shape="rect" coords="157,112,304,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:_5FEnumerator" id="r__5FEnumerator"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_Enumerator</b></td></tr>
 <tr class="memitem:_5FUnderlying" id="r__5FUnderlying"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>_Underlying</b></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aac372780bef0b65d5d66497c7bf44a05" id="r_aac372780bef0b65d5d66497c7bf44a05"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac372780bef0b65d5d66497c7bf44a05">Dispose</a> ()</td></tr>
-<tr class="memitem:adcb3952328ce50fdb40faa3f0a0d20d5" id="r_adcb3952328ce50fdb40faa3f0a0d20d5"><td class="memItemLeft" align="right" valign="top">IEnumerator&lt; MR.Misc.ConstRef&lt; MR.Std.Array_MRVertId_3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcb3952328ce50fdb40faa3f0a0d20d5">GetEnumerator</a> ()</td></tr>
 <tr class="memitem:aef81bb30334e9496650d8883191cf8b9" id="r_aef81bb30334e9496650d8883191cf8b9"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef81bb30334e9496650d8883191cf8b9">Const_Triangulation</a> ()</td></tr>
-<tr class="memdesc:aef81bb30334e9496650d8883191cf8b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
+<tr class="memdesc:aef81bb30334e9496650d8883191cf8b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="memitem:a119b089974d93773e2c81efe086448d5" id="r_a119b089974d93773e2c81efe086448d5"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a119b089974d93773e2c81efe086448d5">Const_Triangulation</a> (MR._ByValue_Triangulation _other)</td></tr>
-<tr class="memdesc:a119b089974d93773e2c81efe086448d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="Constructs an empty (default-constructed) instance.">MR.Triangulation.Triangulation</a></span>.  <br /></td></tr>
+<tr class="memdesc:a119b089974d93773e2c81efe086448d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="creates empty vector">MR.Triangulation.Triangulation</a></span>.  <br /></td></tr>
 <tr class="memitem:af9aebb6e937d2a1e3b4e918761d392f4" id="r_af9aebb6e937d2a1e3b4e918761d392f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9aebb6e937d2a1e3b4e918761d392f4">Const_Triangulation</a> (<a class="el" href="classMR_1_1Const__Triangulation.html">Const_Triangulation</a> _other)</td></tr>
-<tr class="memdesc:af9aebb6e937d2a1e3b4e918761d392f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="Constructs an empty (default-constructed) instance.">MR.Triangulation.Triangulation</a></span>.  <br /></td></tr>
+<tr class="memdesc:af9aebb6e937d2a1e3b4e918761d392f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="creates empty vector">MR.Triangulation.Triangulation</a></span>.  <br /></td></tr>
 <tr class="memitem:a9ad0ac790ec93a88d55e72365ee33635" id="r_a9ad0ac790ec93a88d55e72365ee33635"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ad0ac790ec93a88d55e72365ee33635">Const_Triangulation</a> (<a class="el" href="classMR_1_1Triangulation.html">Triangulation</a> _other)</td></tr>
-<tr class="memdesc:a9ad0ac790ec93a88d55e72365ee33635"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="Constructs an empty (default-constructed) instance.">MR.Triangulation.Triangulation</a></span>.  <br /></td></tr>
+<tr class="memdesc:a9ad0ac790ec93a88d55e72365ee33635"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="creates empty vector">MR.Triangulation.Triangulation</a></span>.  <br /></td></tr>
 <tr class="memitem:a71a3b314d04d1e5212501321d99e626d" id="r_a71a3b314d04d1e5212501321d99e626d"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71a3b314d04d1e5212501321d99e626d">Const_Triangulation</a> (nuint <a class="el" href="#a2fdc6fff56bfe359e919939dab0dc3a4">size</a>)</td></tr>
-<tr class="memdesc:a71a3b314d04d1e5212501321d99e626d"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="Constructs an empty (default-constructed) instance.">MR.Triangulation.Triangulation</a></span>.  <br /></td></tr>
+<tr class="memdesc:a71a3b314d04d1e5212501321d99e626d"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="creates empty vector">MR.Triangulation.Triangulation</a></span>.  <br /></td></tr>
 <tr class="memitem:a686bb9fbe620caeaece6b610de1884b6" id="r_a686bb9fbe620caeaece6b610de1884b6"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a686bb9fbe620caeaece6b610de1884b6">Const_Triangulation</a> (nuint <a class="el" href="#a2fdc6fff56bfe359e919939dab0dc3a4">size</a>, in MR.Std.Array_MRVertId_3 val)</td></tr>
-<tr class="memdesc:a686bb9fbe620caeaece6b610de1884b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="Constructs an empty (default-constructed) instance.">MR.Triangulation.Triangulation</a></span>.  <br /></td></tr>
-<tr class="memitem:aa4341e3ff4b18674528bfea972893789" id="r_aa4341e3ff4b18674528bfea972893789"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4341e3ff4b18674528bfea972893789">Const_Triangulation</a> (MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVertId3 &gt; <a class="el" href="#a277bfa165bce6079f4dd295439501b6e">vec</a>)</td></tr>
-<tr class="memdesc:aa4341e3ff4b18674528bfea972893789"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="Constructs an empty (default-constructed) instance.">MR.Triangulation.Triangulation</a></span>.  <br /></td></tr>
+<tr class="memdesc:a686bb9fbe620caeaece6b610de1884b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="creates empty vector">MR.Triangulation.Triangulation</a></span>.  <br /></td></tr>
 <tr class="memitem:a95ebe235d988e0d0a789cd66bc92b8f4" id="r_a95ebe235d988e0d0a789cd66bc92b8f4"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95ebe235d988e0d0a789cd66bc92b8f4">empty</a> ()</td></tr>
 <tr class="memdesc:a95ebe235d988e0d0a789cd66bc92b8f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a95ebe235d988e0d0a789cd66bc92b8f4" title="Generated from method MR.Triangulation.empty.">MR.Triangulation.empty</a></span>.  <br /></td></tr>
 <tr class="memitem:a2fdc6fff56bfe359e919939dab0dc3a4" id="r_a2fdc6fff56bfe359e919939dab0dc3a4"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fdc6fff56bfe359e919939dab0dc3a4">size</a> ()</td></tr>
 <tr class="memdesc:a2fdc6fff56bfe359e919939dab0dc3a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a2fdc6fff56bfe359e919939dab0dc3a4" title="Generated from method MR.Triangulation.size.">MR.Triangulation.size</a></span>.  <br /></td></tr>
+<tr class="memitem:a9287d86a43b68b491cf9707c089153b8" id="r_a9287d86a43b68b491cf9707c089153b8"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9287d86a43b68b491cf9707c089153b8">maxSize</a> ()</td></tr>
+<tr class="memdesc:a9287d86a43b68b491cf9707c089153b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Triangulation::max_size</span>.  <br /></td></tr>
 <tr class="memitem:ac29890b89fca2c6f233aa9830fc33225" id="r_ac29890b89fca2c6f233aa9830fc33225"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac29890b89fca2c6f233aa9830fc33225">capacity</a> ()</td></tr>
 <tr class="memdesc:ac29890b89fca2c6f233aa9830fc33225"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ac29890b89fca2c6f233aa9830fc33225" title="Generated from method MR.Triangulation.capacity.">MR.Triangulation.capacity</a></span>.  <br /></td></tr>
 <tr class="memitem:a4b50d26fd62467b2f1ee275d2383cf96" id="r_a4b50d26fd62467b2f1ee275d2383cf96"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly MR.Std.Array_MRVertId_3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b50d26fd62467b2f1ee275d2383cf96">front</a> ()</td></tr>
@@ -209,8 +200,6 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:af4f0d1b92dcd354e3f04d9759474f72b" id="r_af4f0d1b92dcd354e3f04d9759474f72b"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4f0d1b92dcd354e3f04d9759474f72b">operator Const_Triangulation</a> (MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVertId3 &gt; <a class="el" href="#a277bfa165bce6079f4dd295439501b6e">vec</a>)</td></tr>
-<tr class="memdesc:af4f0d1b92dcd354e3f04d9759474f72b"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="Constructs an empty (default-constructed) instance.">MR.Triangulation.Triangulation</a></span>.  <br /></td></tr>
 <tr class="memitem:a3aee9c6ad04d3b626e15c9a828448ade" id="r_a3aee9c6ad04d3b626e15c9a828448ade"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3aee9c6ad04d3b626e15c9a828448ade">operator==</a> (<a class="el" href="classMR_1_1Const__Triangulation.html">MR.Const_Triangulation</a> _this, <a class="el" href="classMR_1_1Const__Triangulation.html">MR.Const_Triangulation</a> b)</td></tr>
 <tr class="memdesc:a3aee9c6ad04d3b626e15c9a828448ade"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Triangulation::operator==</span>.  <br /></td></tr>
 <tr class="memitem:a6cf019c0550f5bdb44ac413e5a3a7629" id="r_a6cf019c0550f5bdb44ac413e5a3a7629"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cf019c0550f5bdb44ac413e5a3a7629">operator!=</a> (<a class="el" href="classMR_1_1Const__Triangulation.html">MR.Const_Triangulation</a> _this, <a class="el" href="classMR_1_1Const__Triangulation.html">MR.Const_Triangulation</a> b)</td></tr>
@@ -221,23 +210,16 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a277bfa165bce6079f4dd295439501b6e" id="r_a277bfa165bce6079f4dd295439501b6e"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_StdArrayMRVertId3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a277bfa165bce6079f4dd295439501b6e">vec</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a277bfa165bce6079f4dd295439501b6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
+<tr class="memitem:ad7cd75c6361ac6e8fb87c2f0f29245d3" id="r_ad7cd75c6361ac6e8fb87c2f0f29245d3"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_StdArrayMRVertId3_MRAllocatorStdArrayMRVertId3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7cd75c6361ac6e8fb87c2f0f29245d3">vec</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:ad7cd75c6361ac6e8fb87c2f0f29245d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
 <tr class="memitem:a2e2ec3acd1b6e3c4b48abeba6292bef0" id="r_a2e2ec3acd1b6e3c4b48abeba6292bef0"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly MR.Std.Array_MRVertId_3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e2ec3acd1b6e3c4b48abeba6292bef0">this[MR.FaceId i]</a><code> [get]</code></td></tr>
 <tr class="memdesc:a2e2ec3acd1b6e3c4b48abeba6292bef0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Triangulation::operator[]</span>.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt"><a class="el" href="classMR_1_1Triangulation.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type,">MR.Triangulation</a></span>. This is the const half of the class. </td></tr>
-  </table>
-  </dd>
-</dl>
+<div class="textblock"><p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt"><a class="el" href="classMR_1_1Triangulation.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.Triangulation. This is the non-const half of t...">MR.Triangulation</a></span>. This is the const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aef81bb30334e9496650d8883191cf8b9" name="aef81bb30334e9496650d8883191cf8b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef81bb30334e9496650d8883191cf8b9">&#9670;&#160;</a></span>Const_Triangulation() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aef81bb30334e9496650d8883191cf8b9">&#9670;&#160;</a></span>Const_Triangulation() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,12 +241,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs an empty (default-constructed) instance. </p>
+<p>creates empty vector </p>
 
 </div>
 </div>
 <a id="a119b089974d93773e2c81efe086448d5" name="a119b089974d93773e2c81efe086448d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a119b089974d93773e2c81efe086448d5">&#9670;&#160;</a></span>Const_Triangulation() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a119b089974d93773e2c81efe086448d5">&#9670;&#160;</a></span>Const_Triangulation() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,12 +268,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="Constructs an empty (default-constructed) instance.">MR.Triangulation.Triangulation</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="creates empty vector">MR.Triangulation.Triangulation</a></span>. </p>
 
 </div>
 </div>
 <a id="af9aebb6e937d2a1e3b4e918761d392f4" name="af9aebb6e937d2a1e3b4e918761d392f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9aebb6e937d2a1e3b4e918761d392f4">&#9670;&#160;</a></span>Const_Triangulation() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af9aebb6e937d2a1e3b4e918761d392f4">&#9670;&#160;</a></span>Const_Triangulation() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -313,12 +295,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="Constructs an empty (default-constructed) instance.">MR.Triangulation.Triangulation</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="creates empty vector">MR.Triangulation.Triangulation</a></span>. </p>
 
 </div>
 </div>
 <a id="a9ad0ac790ec93a88d55e72365ee33635" name="a9ad0ac790ec93a88d55e72365ee33635"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ad0ac790ec93a88d55e72365ee33635">&#9670;&#160;</a></span>Const_Triangulation() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ad0ac790ec93a88d55e72365ee33635">&#9670;&#160;</a></span>Const_Triangulation() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,12 +322,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="Constructs an empty (default-constructed) instance.">MR.Triangulation.Triangulation</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="creates empty vector">MR.Triangulation.Triangulation</a></span>. </p>
 
 </div>
 </div>
 <a id="a71a3b314d04d1e5212501321d99e626d" name="a71a3b314d04d1e5212501321d99e626d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71a3b314d04d1e5212501321d99e626d">&#9670;&#160;</a></span>Const_Triangulation() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a71a3b314d04d1e5212501321d99e626d">&#9670;&#160;</a></span>Const_Triangulation() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,12 +349,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="Constructs an empty (default-constructed) instance.">MR.Triangulation.Triangulation</a></span>. </p>
+<p>creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="creates empty vector">MR.Triangulation.Triangulation</a></span>. </p>
 
 </div>
 </div>
 <a id="a686bb9fbe620caeaece6b610de1884b6" name="a686bb9fbe620caeaece6b610de1884b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a686bb9fbe620caeaece6b610de1884b6">&#9670;&#160;</a></span>Const_Triangulation() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a686bb9fbe620caeaece6b610de1884b6">&#9670;&#160;</a></span>Const_Triangulation() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -398,34 +380,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="Constructs an empty (default-constructed) instance.">MR.Triangulation.Triangulation</a></span>. </p>
-
-</div>
-</div>
-<a id="aa4341e3ff4b18674528bfea972893789" name="aa4341e3ff4b18674528bfea972893789"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4341e3ff4b18674528bfea972893789">&#9670;&#160;</a></span>Const_Triangulation() <span class="overload">[7/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe MR.Const_Triangulation.Const_Triangulation </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVertId3 &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="Constructs an empty (default-constructed) instance.">MR.Triangulation.Triangulation</a></span>. </p>
+<p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="creates empty vector">MR.Triangulation.Triangulation</a></span>. </p>
 
 </div>
 </div>
@@ -746,31 +701,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="adcb3952328ce50fdb40faa3f0a0d20d5" name="adcb3952328ce50fdb40faa3f0a0d20d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcb3952328ce50fdb40faa3f0a0d20d5">&#9670;&#160;</a></span>GetEnumerator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">IEnumerator&lt; MR.Misc.ConstRef&lt; MR.Std.Array_MRVertId_3 &gt; &gt; MR.Const_Triangulation.GetEnumerator </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aad841c052f78d6bd218b54c815a5ffc7" name="aad841c052f78d6bd218b54c815a5ffc7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aad841c052f78d6bd218b54c815a5ffc7">&#9670;&#160;</a></span>heapBytes()</h2>
 
@@ -798,8 +728,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="af4f0d1b92dcd354e3f04d9759474f72b" name="af4f0d1b92dcd354e3f04d9759474f72b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4f0d1b92dcd354e3f04d9759474f72b">&#9670;&#160;</a></span>operator Const_Triangulation()</h2>
+<a id="a9287d86a43b68b491cf9707c089153b8" name="a9287d86a43b68b491cf9707c089153b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9287d86a43b68b491cf9707c089153b8">&#9670;&#160;</a></span>maxSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -808,20 +738,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe implicit MR.Const_Triangulation.operator <a class="el" href="classMR_1_1Const__Triangulation.html">Const_Triangulation</a> </td>
+          <td class="memname">unsafe nuint MR.Const_Triangulation.maxSize </td>
           <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVertId3 &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f" title="Constructs an empty (default-constructed) instance.">MR.Triangulation.Triangulation</a></span>. </p>
+<p>Generated from method <span class="tt">MR::Triangulation::max_size</span>. </p>
 
 </div>
 </div>
@@ -937,8 +867,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a277bfa165bce6079f4dd295439501b6e" name="a277bfa165bce6079f4dd295439501b6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a277bfa165bce6079f4dd295439501b6e">&#9670;&#160;</a></span>vec</h2>
+<a id="ad7cd75c6361ac6e8fb87c2f0f29245d3" name="ad7cd75c6361ac6e8fb87c2f0f29245d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7cd75c6361ac6e8fb87c2f0f29245d3">&#9670;&#160;</a></span>vec</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -947,7 +877,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe MR.Std.Const_Vector_StdArrayMRVertId3 MR.Const_Triangulation.vec</td>
+          <td class="memname">unsafe MR.Std.Const_Vector_StdArrayMRVertId3_MRAllocatorStdArrayMRVertId3 MR.Const_Triangulation.vec</td>
         </tr>
       </table>
   </td>

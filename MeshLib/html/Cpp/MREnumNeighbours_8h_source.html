@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -189,13 +182,13 @@ $(function(){initNavTree('MREnumNeighbours_8h_source.html','',''); });
 <div class="ttc" id="aclassMR_1_1EnumNeihbourVertices_html"><div class="ttname"><a href="classMR_1_1EnumNeihbourVertices.html">MR::EnumNeihbourVertices</a></div><div class="ttdef"><b>Definition</b> MREnumNeighbours.h:13</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html"><div class="ttname"><a href="classMR_1_1MeshTopology.html">MR::MeshTopology</a></div><div class="ttdef"><b>Definition</b> MRMeshTopology.h:30</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga0f5eb553cbf47775aa2a9325696ca9da"><div class="ttname"><a href="group__GeneralGroup.html#ga0f5eb553cbf47775aa2a9325696ca9da">MR::EnumNeihbourVertices::run</a></div><div class="ttdeci">void run(const MeshTopology &amp;topology, VertId start, const VertPredicate &amp;pred)</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga2b15c0d875f91b8c0da03e651251832b"><div class="ttname"><a href="group__GeneralGroup.html#ga2b15c0d875f91b8c0da03e651251832b">MR::FacePredicate</a></div><div class="ttdeci">std::function&lt; bool(FaceId)&gt; FacePredicate</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:569</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga2b15c0d875f91b8c0da03e651251832b"><div class="ttname"><a href="group__GeneralGroup.html#ga2b15c0d875f91b8c0da03e651251832b">MR::FacePredicate</a></div><div class="ttdeci">std::function&lt; bool(FaceId)&gt; FacePredicate</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:593</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga64b329cfce6e97b4dbf37b031815e913"><div class="ttname"><a href="group__GeneralGroup.html#ga64b329cfce6e97b4dbf37b031815e913">MR::EnumNeihbourFaces::run</a></div><div class="ttdeci">void run(const MeshTopology &amp;topology, VertId start, const FacePredicate &amp;pred)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga65449d4756ca8415fcdee1a1cb68a390"><div class="ttname"><a href="group__GeneralGroup.html#ga65449d4756ca8415fcdee1a1cb68a390">MR::EnumNeihbourVertices::run</a></div><div class="ttdeci">void run(const MeshTopology &amp;topology, const std::vector&lt; MeshTriPoint &gt; &amp;start, const VertPredicate &amp;pred)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga9e8830660926d34e3892489e81919bd3"><div class="ttname"><a href="group__GeneralGroup.html#ga9e8830660926d34e3892489e81919bd3">MR::computeSpaceDistances</a></div><div class="ttdeci">VertScalars computeSpaceDistances(const Mesh &amp;mesh, const PointOnFace &amp;start, float range)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gab1421ec24db86f8e4775fee7e41e8ecc"><div class="ttname"><a href="group__GeneralGroup.html#gab1421ec24db86f8e4775fee7e41e8ecc">MR::EnumNeihbourVertices::run</a></div><div class="ttdeci">void run(const MeshTopology &amp;topology, const VertBitSet &amp;start, const VertPredicate &amp;pred)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gae0cc9a186e07d77672ce8c5a7c20df51"><div class="ttname"><a href="group__GeneralGroup.html#gae0cc9a186e07d77672ce8c5a7c20df51">MR::findNeighborVerts</a></div><div class="ttdeci">VertBitSet findNeighborVerts(const Mesh &amp;mesh, const PointOnFace &amp;start, float rangeSq)</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh.h:24</div></div>
 <div class="ttc" id="astructMR_1_1PointOnFace_html"><div class="ttname"><a href="structMR_1_1PointOnFace.html">MR::PointOnFace</a></div><div class="ttdoc">a point located on some mesh&#39;s face</div><div class="ttdef"><b>Definition</b> MRPointOnFace.h:16</div></div>
 </div><!-- fragment --></div><!-- contents -->

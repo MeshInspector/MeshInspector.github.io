@@ -6,7 +6,6 @@ var classMR_1_1Const__Vector__MREdgeId__MRVertId =
     [ "Const_Vector_MREdgeId_MRVertId", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#a2dc0c405647fb9b3648959e8ed95a6a3", null ],
     [ "Const_Vector_MREdgeId_MRVertId", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#ab5746e55824fff161e2d1139f3ce92f0", null ],
     [ "Const_Vector_MREdgeId_MRVertId", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#a3b3dc61ab23a54aa98560f9bdbe79488", null ],
-    [ "Const_Vector_MREdgeId_MRVertId", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#a65ecd256a8607c44c5d4b10c148c3398", null ],
     [ "back", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#a5caf3104ce99a55c7926206020fa9d32", null ],
     [ "backId", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#a5384fa8b79b927f3f2cba1cca1cb27d6", null ],
     [ "beginId", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#ad2d5c957fe42d1c5c55461dd681817ef", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__Vector__MREdgeId__MRVertId =
     [ "Equals", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#affc5f7c54d3583f26b5654e6949bd5e4", null ],
     [ "Equals", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#a5f5d9b3fd1684425045fe125d6c8bd0e", null ],
     [ "front", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#a0c0429e789731a8e16d54b3314ae862e", null ],
-    [ "GetEnumerator", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#ad151772c788fd1a6e29b7fa0d85dc973", null ],
     [ "heapBytes", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#a680497d7d75575a1370c8bdf60da8ba5", null ],
-    [ "operator Const_Vector_MREdgeId_MRVertId", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#af0087965c3bd1238265affcdaa9873f3", null ],
+    [ "maxSize", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#ab44e5cd07a473e0a158dc36193883f7d", null ],
     [ "operator!=", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#aceba4a7fee78906d7547948204fd548d", null ],
     [ "operator==", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#afd873203b0995a720f4ec1ccd01a8b2f", null ],
     [ "size", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#a3352f4c0cac64e233e1dc3562f8c7527", null ],
     [ "this[MR.VertId i]", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#a39b6018ef706dbb964416f151043a2e7", null ],
-    [ "vec", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#a8c624ce053da610afe42406a10f3a21f", null ]
+    [ "vec", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html#ae403e8c93575b91a5991a543696866aa", null ]
 ];

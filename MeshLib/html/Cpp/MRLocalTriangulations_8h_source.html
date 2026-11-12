@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -221,9 +214,9 @@ $(function(){initNavTree('MRLocalTriangulations_8h_source.html','',''); });
 <div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:85</div></div>
 <div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="MRVector_8h.html">MRVector.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1Buffer_html"><div class="ttname"><a href="classMR_1_1Buffer.html">MR::Buffer</a></div><div class="ttdoc">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements,...</div><div class="ttdef"><b>Definition</b> MRBuffer.h:58</div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRVector.h:23</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:759</div></div>
+<div class="ttc" id="aclassMR_1_1Buffer_html"><div class="ttname"><a href="classMR_1_1Buffer.html">MR::Buffer</a></div><div class="ttdoc">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements,...</div><div class="ttdef"><b>Definition</b> MRBuffer.h:60</div></div>
+<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">Vector&lt;T&gt; is indexed by size_t.</div><div class="ttdef"><b>Definition</b> MRVector.h:24</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:789</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga010e9445541af4e90e90d34acc98220e"><div class="ttname"><a href="group__GeneralGroup.html#ga010e9445541af4e90e90d34acc98220e">MR::FanRecordWithCenter::FanRecordWithCenter</a></div><div class="ttdeci">FanRecordWithCenter(VertId c={}, VertId b={}, std::uint32_t fn=0)</div><div class="ttdef"><b>Definition</b> MRLocalTriangulations.h:37</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga066cda1cd4ae46c8b3236007bf1033b1"><div class="ttname"><a href="group__GeneralGroup.html#ga066cda1cd4ae46c8b3236007bf1033b1">MR::FanRecordWithCenter::center</a></div><div class="ttdeci">VertId center</div><div class="ttdoc">center point in the fan</div><div class="ttdef"><b>Definition</b> MRLocalTriangulations.h:35</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga088ce72aeaa455614704fae504ddce2d"><div class="ttname"><a href="group__GeneralGroup.html#ga088ce72aeaa455614704fae504ddce2d">MR::uniteLocalTriangulations</a></div><div class="ttdeci">std::optional&lt; AllLocalTriangulations &gt; uniteLocalTriangulations(const std::vector&lt; SomeLocalTriangulations &gt; &amp;in, const ProgressCallback &amp;progress={})</div></div>
@@ -246,7 +239,7 @@ $(function(){initNavTree('MRLocalTriangulations_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gaef144aa4430effb527153589ec292535"><div class="ttname"><a href="group__GeneralGroup.html#gaef144aa4430effb527153589ec292535">MR::findRepeatedOrientedTriangles</a></div><div class="ttdeci">Triangulation findRepeatedOrientedTriangles(const AllLocalTriangulations &amp;triangs, int repetitions)</div><div class="ttdoc">from local triangulations returns all oriented triangles with given number of repetitions each in [1,...</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gafdf05e8b0d0790c4feea524b2d3cf936"><div class="ttname"><a href="group__GeneralGroup.html#gafdf05e8b0d0790c4feea524b2d3cf936">MR::FanRecord::FanRecord</a></div><div class="ttdeci">FanRecord(VertId b={}, std::uint32_t fn=0)</div><div class="ttdef"><b>Definition</b> MRLocalTriangulations.h:27</div></div>
 <div class="ttc" id="amodule__nullptr_html"><div class="ttname"><a href="module__nullptr.html">nullptr</a></div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1AllLocalTriangulations_html"><div class="ttname"><a href="structMR_1_1AllLocalTriangulations.html">MR::AllLocalTriangulations</a></div><div class="ttdoc">triangulations for all points, with easy access by VertId</div><div class="ttdef"><b>Definition</b> MRLocalTriangulations.h:51</div></div>
 <div class="ttc" id="astructMR_1_1NoInit_html"><div class="ttname"><a href="structMR_1_1NoInit.html">MR::NoInit</a></div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:102</div></div>
 <div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="structMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition</b> MRPointCloud.h:17</div></div>

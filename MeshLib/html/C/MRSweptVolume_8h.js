@@ -28,7 +28,7 @@ var MRSweptVolume_8h =
     [ "MR_computeSweptVolumeWithDistanceVolume", "MRSweptVolume_8h.html#a25ba9dfdf305100acf48fab4bf5b665c", null ],
     [ "MR_computeSweptVolumeWithMeshMovement", "MRSweptVolume_8h.html#a12dc478e9164163cceba0a5d5c972d16", null ],
     [ "MR_computeWorkArea", "MRSweptVolume_8h.html#a0bf426c293ef97f9b96d232e439c8fda", null ],
-    [ "MR_IComputeToolDistance_computeToolDistance", "MRSweptVolume_8h.html#a1665f84626f30cf9f57e77b47736c959", null ],
+    [ "MR_IComputeToolDistance_computeToolDistance", "MRSweptVolume_8h.html#a20f8904cef265ceca96af62d9d71ab91", null ],
     [ "MR_IComputeToolDistance_Destroy", "MRSweptVolume_8h.html#ab514042fe1a1eef6256390c716a35606", null ],
     [ "MR_IComputeToolDistance_DestroyArray", "MRSweptVolume_8h.html#a79a44c28caf773ec0c9aa799736513bc", null ],
     [ "MR_IComputeToolDistance_OffsetMutablePtr", "MRSweptVolume_8h.html#a374c5b53dbaf93e25aee28954bff434b", null ],

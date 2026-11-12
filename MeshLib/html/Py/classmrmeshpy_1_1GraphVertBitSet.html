@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -151,86 +144,99 @@ $(function(){initNavTree('classmrmeshpy_1_1GraphVertBitSet.html','','classmrmesh
  <div class="center">
   <img src="classmrmeshpy_1_1GraphVertBitSet.png" usemap="#mrmeshpy_2EGraphVertBitSet_map" alt=""/>
   <map id="mrmeshpy_2EGraphVertBitSet_map" name="mrmeshpy_2EGraphVertBitSet_map">
-<area href="classmrmeshpy_1_1BitSet.html" alt="mrmeshpy.BitSet" shape="rect" coords="0,0,164,24"/>
+<area href="classmrmeshpy_1_1ConstGraphVertBitSet.html" alt="mrmeshpy.ConstGraphVertBitSet" shape="rect" coords="0,56,196,80"/>
+<area href="classmrmeshpy_1_1BitSet.html" alt="mrmeshpy.BitSet" shape="rect" coords="206,56,402,80"/>
+<area href="classmrmeshpy_1_1ConstBitSet.html" alt="mrmeshpy.ConstBitSet" shape="rect" coords="0,0,196,24"/>
+<area href="classmrmeshpy_1_1ConstBitSet.html" alt="mrmeshpy.ConstBitSet" shape="rect" coords="206,0,402,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0ed597f34b83f6bca59b46a178908099" id="r_a0ed597f34b83f6bca59b46a178908099"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ed597f34b83f6bca59b46a178908099">__and__</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> b)</td></tr>
-<tr class="memitem:a284dcd5ddaa7cafa8779d5141c7c3d01" id="r_a284dcd5ddaa7cafa8779d5141c7c3d01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a284dcd5ddaa7cafa8779d5141c7c3d01">__iand__</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> b)</td></tr>
+<tr class="memitem:ae0a1b06790b21199e9337b065057d240" id="r_ae0a1b06790b21199e9337b065057d240"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0a1b06790b21199e9337b065057d240">__iand__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a> b)</td></tr>
 <tr class="memitem:a6f6ac87cd94c97add7f004320ced8092" id="r_a6f6ac87cd94c97add7f004320ced8092"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f6ac87cd94c97add7f004320ced8092">__init__</a> (self)</td></tr>
 <tr class="memitem:a48c434d0d27828aae0112220c618858d" id="r_a48c434d0d27828aae0112220c618858d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48c434d0d27828aae0112220c618858d">__init__</a> (self, int numBits, bool fillValue=False)</td></tr>
+<tr class="memitem:a65c6bc704808a45783522cf57ed97788" id="r_a65c6bc704808a45783522cf57ed97788"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65c6bc704808a45783522cf57ed97788">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstBitSet.html">ConstBitSet</a> src)</td></tr>
 <tr class="memitem:acfd5bbeb3c88c2877adef0cbbd013746" id="r_acfd5bbeb3c88c2877adef0cbbd013746"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfd5bbeb3c88c2877adef0cbbd013746">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> src)</td></tr>
-<tr class="memitem:acfd5bbeb3c88c2877adef0cbbd013746" id="r_acfd5bbeb3c88c2877adef0cbbd013746"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfd5bbeb3c88c2877adef0cbbd013746">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> src)</td></tr>
-<tr class="memitem:ac08d5ba4fdcb5f6c291aa492cab5529d" id="r_ac08d5ba4fdcb5f6c291aa492cab5529d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac08d5ba4fdcb5f6c291aa492cab5529d">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> arg0)</td></tr>
-<tr class="memitem:ae5be9f989aad8f10f1428f5d0acd1819" id="r_ae5be9f989aad8f10f1428f5d0acd1819"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5be9f989aad8f10f1428f5d0acd1819">__ior__</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> b)</td></tr>
-<tr class="memitem:a77cd1d78dee2c916b16768b9424ddaa7" id="r_a77cd1d78dee2c916b16768b9424ddaa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77cd1d78dee2c916b16768b9424ddaa7">__isub__</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> b)</td></tr>
-<tr class="memitem:ab441e659e190c7636523fb9bd1e9447e" id="r_ab441e659e190c7636523fb9bd1e9447e"><td class="memItemLeft" align="right" valign="top">typing.Iterator[<a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab441e659e190c7636523fb9bd1e9447e">__iter__</a> (self)</td></tr>
-<tr class="memitem:a20ea96ad1ae77d86fd2f8856eace9be1" id="r_a20ea96ad1ae77d86fd2f8856eace9be1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20ea96ad1ae77d86fd2f8856eace9be1">__ixor__</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> b)</td></tr>
-<tr class="memitem:ade311a053d6f0c1ad73804cf2b3457b4" id="r_ade311a053d6f0c1ad73804cf2b3457b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade311a053d6f0c1ad73804cf2b3457b4">__or__</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> b)</td></tr>
-<tr class="memitem:a6b9fb75f61fbd7df29a36b5b39f60953" id="r_a6b9fb75f61fbd7df29a36b5b39f60953"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b9fb75f61fbd7df29a36b5b39f60953">__repr__</a> (self)</td></tr>
-<tr class="memitem:a7f141be9b58552f19936c74d79e518eb" id="r_a7f141be9b58552f19936c74d79e518eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f141be9b58552f19936c74d79e518eb">__sub__</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> b)</td></tr>
-<tr class="memitem:af7997f27ec53915b99b7ec6e08d400d2" id="r_af7997f27ec53915b99b7ec6e08d400d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7997f27ec53915b99b7ec6e08d400d2">__xor__</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> b)</td></tr>
-<tr class="memitem:a19282e51a096b4b8d402fac992e573f8" id="r_a19282e51a096b4b8d402fac992e573f8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19282e51a096b4b8d402fac992e573f8">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> pos, int len, bool val=True)</td></tr>
-<tr class="memitem:a22ce6dd468011768390f3eb2469827ee" id="r_a22ce6dd468011768390f3eb2469827ee"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22ce6dd468011768390f3eb2469827ee">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> pos, bool val=True)</td></tr>
-<tr class="memitem:af0643ad3506269f2793f17dcf3f5ce40" id="r_af0643ad3506269f2793f17dcf3f5ce40"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0643ad3506269f2793f17dcf3f5ce40">autoResizeTestSet</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> pos, bool val=True)</td></tr>
-<tr class="memitem:ac0d747ef2b15e0f063dc4acacd2bb7e8" id="r_ac0d747ef2b15e0f063dc4acacd2bb7e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0d747ef2b15e0f063dc4acacd2bb7e8">backId</a> (self)</td></tr>
-<tr class="memitem:ab5584447ddcf4bb79d15300b8e67b2bb" id="r_ab5584447ddcf4bb79d15300b8e67b2bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5584447ddcf4bb79d15300b8e67b2bb">endId</a> (self)</td></tr>
-<tr class="memitem:aaba7f817f9b3677517c9c0625303782d" id="r_aaba7f817f9b3677517c9c0625303782d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaba7f817f9b3677517c9c0625303782d">find_first</a> (self)</td></tr>
-<tr class="memitem:a099ed91453d7776ce12ab92894ff25e1" id="r_a099ed91453d7776ce12ab92894ff25e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a099ed91453d7776ce12ab92894ff25e1">find_first_not_set</a> (self)</td></tr>
-<tr class="memitem:a7a92107f11a2b0e7b0d12974f9fb53c8" id="r_a7a92107f11a2b0e7b0d12974f9fb53c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a92107f11a2b0e7b0d12974f9fb53c8">find_last</a> (self)</td></tr>
-<tr class="memitem:a948ddf1da0df67feab78d7f8ff784ec8" id="r_a948ddf1da0df67feab78d7f8ff784ec8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a948ddf1da0df67feab78d7f8ff784ec8">find_last_not_set</a> (self)</td></tr>
-<tr class="memitem:abcdb32afecad1a99cc336bffd68cb22c" id="r_abcdb32afecad1a99cc336bffd68cb22c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcdb32afecad1a99cc336bffd68cb22c">find_next</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> pos)</td></tr>
-<tr class="memitem:a8195abf86c018c447975e234129e57f1" id="r_a8195abf86c018c447975e234129e57f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8195abf86c018c447975e234129e57f1">find_next_not_set</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> pos)</td></tr>
-<tr class="memitem:a9026177a05f676bd1789ce3d8fe6b6ac" id="r_a9026177a05f676bd1789ce3d8fe6b6ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9026177a05f676bd1789ce3d8fe6b6ac">flip</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> n, int len)</td></tr>
-<tr class="memitem:a8d67d4ecf7086b4645ec9c6e05f55e61" id="r_a8d67d4ecf7086b4645ec9c6e05f55e61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d67d4ecf7086b4645ec9c6e05f55e61">flip</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> n)</td></tr>
+<tr class="memitem:a45ee1dc3884bf0b13e0b48594d33ca3b" id="r_a45ee1dc3884bf0b13e0b48594d33ca3b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45ee1dc3884bf0b13e0b48594d33ca3b">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a> arg0)</td></tr>
+<tr class="memitem:a0c59fb95db022622149f4cb8b7c7989b" id="r_a0c59fb95db022622149f4cb8b7c7989b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c59fb95db022622149f4cb8b7c7989b">__ior__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a> b)</td></tr>
+<tr class="memitem:a9f9c584a4c50971b96884211a484bf5f" id="r_a9f9c584a4c50971b96884211a484bf5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f9c584a4c50971b96884211a484bf5f">__isub__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a> b)</td></tr>
+<tr class="memitem:aa3192742bbc1817eef3fda5a21c8c86c" id="r_aa3192742bbc1817eef3fda5a21c8c86c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3192742bbc1817eef3fda5a21c8c86c">__ixor__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a> b)</td></tr>
+<tr class="memitem:a444f5a94d79aa3c39e9a968742f605fa" id="r_a444f5a94d79aa3c39e9a968742f605fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a444f5a94d79aa3c39e9a968742f605fa">assign</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a> other)</td></tr>
+<tr class="memitem:a748f45128c534dc956133a5e3777095f" id="r_a748f45128c534dc956133a5e3777095f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a748f45128c534dc956133a5e3777095f">atomicTestSet</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a> n)</td></tr>
+<tr class="memitem:a1a175a1bd15955085a0680f36b50085d" id="r_a1a175a1bd15955085a0680f36b50085d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a175a1bd15955085a0680f36b50085d">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a> pos, int len, bool val=True)</td></tr>
+<tr class="memitem:a09eed62f1412b0172945ff58df4cf23e" id="r_a09eed62f1412b0172945ff58df4cf23e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09eed62f1412b0172945ff58df4cf23e">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a> pos, bool val=True)</td></tr>
+<tr class="memitem:a5c91c5f0a77cd92ba9d0c6725ff21444" id="r_a5c91c5f0a77cd92ba9d0c6725ff21444"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c91c5f0a77cd92ba9d0c6725ff21444">autoResizeTestSet</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a> pos, bool val=True)</td></tr>
+<tr class="memitem:ad7bcf8170013f80c651b39571926d99b" id="r_ad7bcf8170013f80c651b39571926d99b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7bcf8170013f80c651b39571926d99b">flip</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a> n, int len)</td></tr>
+<tr class="memitem:a5caafa38884885c50de8a9b5c9dd1a75" id="r_a5caafa38884885c50de8a9b5c9dd1a75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5caafa38884885c50de8a9b5c9dd1a75">flip</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a> n)</td></tr>
 <tr class="memitem:ac2b89910dc691cb54fb45b582ecb4479" id="r_ac2b89910dc691cb54fb45b582ecb4479"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2b89910dc691cb54fb45b582ecb4479">flip</a> (self)</td></tr>
-<tr class="memitem:a5c3871a65d3da2b2920dc499923feb05" id="r_a5c3871a65d3da2b2920dc499923feb05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c3871a65d3da2b2920dc499923feb05">getMapping</a> (self, <a class="el" href="classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html">Vector_GraphVertId_GraphVertId</a> map)</td></tr>
-<tr class="memitem:a4cd0201dc8bf0c7acc6ce82cd68c0e9d" id="r_a4cd0201dc8bf0c7acc6ce82cd68c0e9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cd0201dc8bf0c7acc6ce82cd68c0e9d">getMapping</a> (self, <a class="el" href="classmrmeshpy_1_1BMap__GraphVertId__GraphVertId.html">BMap_GraphVertId_GraphVertId</a> map)</td></tr>
-<tr class="memitem:a2b9e2020a6f03f2e284324617d88e160" id="r_a2b9e2020a6f03f2e284324617d88e160"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b9e2020a6f03f2e284324617d88e160">getMapping</a> (self, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag.html">phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag</a> map)</td></tr>
-<tr class="memitem:a523acc86619193559facb6e47e4b6103" id="r_a523acc86619193559facb6e47e4b6103"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a523acc86619193559facb6e47e4b6103">getMapping</a> (self, <a class="el" href="classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html">Vector_GraphVertId_GraphVertId</a> map, int resSize)</td></tr>
-<tr class="memitem:ad6738bcc739ff6ee6933396beb9bf99f" id="r_ad6738bcc739ff6ee6933396beb9bf99f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6738bcc739ff6ee6933396beb9bf99f">getMapping</a> (self, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag.html">phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag</a> map, int resSize)</td></tr>
-<tr class="memitem:a08791cac9afc384e0ccbeb2e15d14c9d" id="r_a08791cac9afc384e0ccbeb2e15d14c9d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08791cac9afc384e0ccbeb2e15d14c9d">intersects</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> a)</td></tr>
-<tr class="memitem:a2c7deb1da06e051622b50ddcc392a3a9" id="r_a2c7deb1da06e051622b50ddcc392a3a9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c7deb1da06e051622b50ddcc392a3a9">is_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> a)</td></tr>
-<tr class="memitem:ac14c371028f639bedc6ba2f4692d6f2b" id="r_ac14c371028f639bedc6ba2f4692d6f2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac14c371028f639bedc6ba2f4692d6f2b">nthSetBit</a> (self, int n)</td></tr>
-<tr class="memitem:a73747a9e534d9c0f54cb55eb5656c7bf" id="r_a73747a9e534d9c0f54cb55eb5656c7bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73747a9e534d9c0f54cb55eb5656c7bf">reset</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> n, int len)</td></tr>
-<tr class="memitem:a87353d12c29bc814ad785607be2377b3" id="r_a87353d12c29bc814ad785607be2377b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87353d12c29bc814ad785607be2377b3">reset</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> n)</td></tr>
+<tr class="memitem:aee825bb0d0e41e5d9fc5acb2f14f0e66" id="r_aee825bb0d0e41e5d9fc5acb2f14f0e66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee825bb0d0e41e5d9fc5acb2f14f0e66">reset</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a> n, int len)</td></tr>
+<tr class="memitem:a755701ab97c896c45bbefadaa3612360" id="r_a755701ab97c896c45bbefadaa3612360"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a755701ab97c896c45bbefadaa3612360">reset</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a> n)</td></tr>
 <tr class="memitem:a1d237f734362530906bb32b8dadd5424" id="r_a1d237f734362530906bb32b8dadd5424"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d237f734362530906bb32b8dadd5424">reset</a> (self)</td></tr>
-<tr class="memitem:a4fa1e9e24be8819e449abb30bd6c05ac" id="r_a4fa1e9e24be8819e449abb30bd6c05ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fa1e9e24be8819e449abb30bd6c05ac">set</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> n, int len, bool val)</td></tr>
-<tr class="memitem:a632ee7e810e76e2277d901eacea556be" id="r_a632ee7e810e76e2277d901eacea556be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a632ee7e810e76e2277d901eacea556be">set</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> n, bool val)</td></tr>
-<tr class="memitem:ae66cc02f3be4d83d75072f8c210903d1" id="r_ae66cc02f3be4d83d75072f8c210903d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae66cc02f3be4d83d75072f8c210903d1">set</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> n)</td></tr>
+<tr class="memitem:aa40f749d337cd466771debdcb0c89cc9" id="r_aa40f749d337cd466771debdcb0c89cc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa40f749d337cd466771debdcb0c89cc9">set</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a> n, int len, bool val)</td></tr>
+<tr class="memitem:ae92670a789bfdc29f14af032c8af2f80" id="r_ae92670a789bfdc29f14af032c8af2f80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae92670a789bfdc29f14af032c8af2f80">set</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a> n, bool val)</td></tr>
+<tr class="memitem:a46e0e807b732ca8bb8cfe89c61682780" id="r_a46e0e807b732ca8bb8cfe89c61682780"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46e0e807b732ca8bb8cfe89c61682780">set</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a> n)</td></tr>
 <tr class="memitem:aeacbaef5df83d17070ba4f99e455d0b6" id="r_aeacbaef5df83d17070ba4f99e455d0b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeacbaef5df83d17070ba4f99e455d0b6">set</a> (self)</td></tr>
-<tr class="memitem:a0d218d12ec07113916303f586d037319" id="r_a0d218d12ec07113916303f586d037319"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d218d12ec07113916303f586d037319">subtract</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> b, int bShiftInBlocks)</td></tr>
-<tr class="memitem:a57ce07e345661f02ec922dcb31dff438" id="r_a57ce07e345661f02ec922dcb31dff438"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57ce07e345661f02ec922dcb31dff438">test</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> n)</td></tr>
-<tr class="memitem:a33225a4fb38b271a5d5c9e888846af99" id="r_a33225a4fb38b271a5d5c9e888846af99"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33225a4fb38b271a5d5c9e888846af99">test_set</a> (self, <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> n, bool val=True)</td></tr>
+<tr class="memitem:a3b1a80f8e74c109a939a9bc0d3b82b8f" id="r_a3b1a80f8e74c109a939a9bc0d3b82b8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b1a80f8e74c109a939a9bc0d3b82b8f">subtract</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a> b, int bShiftInBlocks)</td></tr>
+<tr class="memitem:a22969a441754497beb9b2c798d53d980" id="r_a22969a441754497beb9b2c798d53d980"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22969a441754497beb9b2c798d53d980">test_set</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a> n, bool val=True)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">mrmeshpy.ConstGraphVertBitSet</a></td></tr>
+<tr class="memitem:a220b7745da5b6d5ab9b3624cc7666024 inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_a220b7745da5b6d5ab9b3624cc7666024"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#a220b7745da5b6d5ab9b3624cc7666024">__and__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a> b)</td></tr>
+<tr class="memitem:a0dfcb60d15dbc6fb576814845bcd0581 inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_a0dfcb60d15dbc6fb576814845bcd0581"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#a0dfcb60d15dbc6fb576814845bcd0581">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:a084e775713a4070d9d676192128076b9 inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_a084e775713a4070d9d676192128076b9"><td class="memItemLeft" align="right" valign="top">typing.Iterator[<a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#a084e775713a4070d9d676192128076b9">__iter__</a> (self)</td></tr>
+<tr class="memitem:a938268ca2d2e0220da38f725f51f44aa inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_a938268ca2d2e0220da38f725f51f44aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#a938268ca2d2e0220da38f725f51f44aa">__or__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a> b)</td></tr>
+<tr class="memitem:ac58ec79cfc483f3693c52dd4ce591cfb inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_ac58ec79cfc483f3693c52dd4ce591cfb"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#ac58ec79cfc483f3693c52dd4ce591cfb">__repr__</a> (self)</td></tr>
+<tr class="memitem:aca4c2820848c8ce2f19d505066065c42 inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_aca4c2820848c8ce2f19d505066065c42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#aca4c2820848c8ce2f19d505066065c42">__sub__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a> b)</td></tr>
+<tr class="memitem:a45884d05037c762b9efc653d5b4ca398 inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_a45884d05037c762b9efc653d5b4ca398"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#a45884d05037c762b9efc653d5b4ca398">__xor__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a> b)</td></tr>
+<tr class="memitem:a0bb96e970d6aff5c46ef148342250f37 inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_a0bb96e970d6aff5c46ef148342250f37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#a0bb96e970d6aff5c46ef148342250f37">backId</a> (self)</td></tr>
+<tr class="memitem:ac4b175cca35409d8b530d4c382ff0c8c inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_ac4b175cca35409d8b530d4c382ff0c8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#ac4b175cca35409d8b530d4c382ff0c8c">endId</a> (self)</td></tr>
+<tr class="memitem:aafa7278ff806a3c9bb83159e71733801 inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_aafa7278ff806a3c9bb83159e71733801"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#aafa7278ff806a3c9bb83159e71733801">find_first</a> (self)</td></tr>
+<tr class="memitem:a3a29006df8a8678a342a1b03b0e4a633 inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_a3a29006df8a8678a342a1b03b0e4a633"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#a3a29006df8a8678a342a1b03b0e4a633">find_first_not_set</a> (self)</td></tr>
+<tr class="memitem:a5921e6258fd76f7cb9d23c314ca503fa inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_a5921e6258fd76f7cb9d23c314ca503fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#a5921e6258fd76f7cb9d23c314ca503fa">find_last</a> (self)</td></tr>
+<tr class="memitem:a4e0f5980b604b08e74335b21dcaaea4b inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_a4e0f5980b604b08e74335b21dcaaea4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#a4e0f5980b604b08e74335b21dcaaea4b">find_last_not_set</a> (self)</td></tr>
+<tr class="memitem:a0d63cd51668cfacb94337a3e40bfae7d inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_a0d63cd51668cfacb94337a3e40bfae7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#a0d63cd51668cfacb94337a3e40bfae7d">find_next</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a> pos)</td></tr>
+<tr class="memitem:a0574b8d868dc42795db99aed4b8fca36 inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_a0574b8d868dc42795db99aed4b8fca36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#a0574b8d868dc42795db99aed4b8fca36">find_next_not_set</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a> pos)</td></tr>
+<tr class="memitem:a669cc3e73226532602e26506ca1d881e inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_a669cc3e73226532602e26506ca1d881e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#a669cc3e73226532602e26506ca1d881e">getMapping</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector__GraphVertId__GraphVertId.html">ConstVector_GraphVertId_GraphVertId</a> map)</td></tr>
+<tr class="memitem:aba8b97ba13a19aabbc2724dc62d955c8 inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_aba8b97ba13a19aabbc2724dc62d955c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#aba8b97ba13a19aabbc2724dc62d955c8">getMapping</a> (self, <a class="el" href="classmrmeshpy_1_1ConstBMap__GraphVertId__GraphVertId.html">ConstBMap_GraphVertId_GraphVertId</a> map)</td></tr>
+<tr class="memitem:ab6cfc71860be937c7be08e9137c6c997 inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_ab6cfc71860be937c7be08e9137c6c997"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#ab6cfc71860be937c7be08e9137c6c997">getMapping</a> (self, <a class="el" href="classmrmeshpy_1_1Const__phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash_5d9b103a83ef784907a1d12f34c23d18.html">Const_phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</a> map)</td></tr>
+<tr class="memitem:ae187a3f991b7f65c422e19af91538994 inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_ae187a3f991b7f65c422e19af91538994"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#ae187a3f991b7f65c422e19af91538994">getMapping</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector__GraphVertId__GraphVertId.html">ConstVector_GraphVertId_GraphVertId</a> map, int resSize)</td></tr>
+<tr class="memitem:a12405050a25cd915cec4967f7c2ccc52 inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_a12405050a25cd915cec4967f7c2ccc52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#a12405050a25cd915cec4967f7c2ccc52">getMapping</a> (self, <a class="el" href="classmrmeshpy_1_1Const__phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash_5d9b103a83ef784907a1d12f34c23d18.html">Const_phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</a> map, int resSize)</td></tr>
+<tr class="memitem:a4bd21ac7d89d9a129fac9a949efa2a3b inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_a4bd21ac7d89d9a129fac9a949efa2a3b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#a4bd21ac7d89d9a129fac9a949efa2a3b">intersects</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a> a)</td></tr>
+<tr class="memitem:a72dfc88e7ab8c296469f149c11e5a8f9 inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_a72dfc88e7ab8c296469f149c11e5a8f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#a72dfc88e7ab8c296469f149c11e5a8f9">is_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a> a)</td></tr>
+<tr class="memitem:a2eebac1506ac125891807e207309380c inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_a2eebac1506ac125891807e207309380c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#a2eebac1506ac125891807e207309380c">nthSetBit</a> (self, int n)</td></tr>
+<tr class="memitem:a9bf633b7757722b3f5823db0400ae551 inherit pub_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_a9bf633b7757722b3f5823db0400ae551"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#a9bf633b7757722b3f5823db0400ae551">test</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a> n)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstBitSet"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstBitSet')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstBitSet.html">mrmeshpy.ConstBitSet</a></td></tr>
+<tr class="memitem:ac34413a211fe19cf0c2743781556259a inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_ac34413a211fe19cf0c2743781556259a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#ac34413a211fe19cf0c2743781556259a">__and__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstBitSet.html">ConstBitSet</a> b)</td></tr>
+<tr class="memitem:a44c0747a2de64059b5fb902650d77780 inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_a44c0747a2de64059b5fb902650d77780"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#a44c0747a2de64059b5fb902650d77780">__eq__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstBitSet.html">ConstBitSet</a> b)</td></tr>
+<tr class="memitem:aa8f13d2409a2075748c471948127e435 inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_aa8f13d2409a2075748c471948127e435"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#aa8f13d2409a2075748c471948127e435">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:ab17d0d9c972d5eb0141c47f587aa2ccb inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_ab17d0d9c972d5eb0141c47f587aa2ccb"><td class="memItemLeft" align="right" valign="top">typing.Iterator[int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#ab17d0d9c972d5eb0141c47f587aa2ccb">__iter__</a> (self)</td></tr>
+<tr class="memitem:aacb345b7303c40182a490a251bb1e503 inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_aacb345b7303c40182a490a251bb1e503"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#aacb345b7303c40182a490a251bb1e503">__ne__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstBitSet.html">ConstBitSet</a> b)</td></tr>
+<tr class="memitem:aa3ca0c7bce58c789f6707514f2af7058 inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_aa3ca0c7bce58c789f6707514f2af7058"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#aa3ca0c7bce58c789f6707514f2af7058">__or__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstBitSet.html">ConstBitSet</a> b)</td></tr>
+<tr class="memitem:a9e440b43673a74a0d9dceced52eb695a inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_a9e440b43673a74a0d9dceced52eb695a"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#a9e440b43673a74a0d9dceced52eb695a">__repr__</a> (self)</td></tr>
+<tr class="memitem:a7360bc38862e65a572272e5bc90fd9e4 inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_a7360bc38862e65a572272e5bc90fd9e4"><td class="memItemLeft" align="right" valign="top">typing.Any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#a7360bc38862e65a572272e5bc90fd9e4">__rlshift__</a> (self, typing.Any bs)</td></tr>
+<tr class="memitem:a46a6c9f7bf046b82459261e22ba92540 inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_a46a6c9f7bf046b82459261e22ba92540"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#a46a6c9f7bf046b82459261e22ba92540">__sub__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstBitSet.html">ConstBitSet</a> b)</td></tr>
+<tr class="memitem:ad8cf1e2e65c2002c470d3aef6c1afcdf inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_ad8cf1e2e65c2002c470d3aef6c1afcdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#ad8cf1e2e65c2002c470d3aef6c1afcdf">__xor__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstBitSet.html">ConstBitSet</a> b)</td></tr>
+<tr class="memitem:ac3285bec3fce1a73402703ab805b2c9f inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_ac3285bec3fce1a73402703ab805b2c9f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#ac3285bec3fce1a73402703ab805b2c9f">all</a> (self)</td></tr>
+<tr class="memitem:ab01873a580089e89e47dbf4fc4ba5946 inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_ab01873a580089e89e47dbf4fc4ba5946"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#ab01873a580089e89e47dbf4fc4ba5946">any</a> (self)</td></tr>
+<tr class="memitem:abf8755df28a25377500ec6d8aa57683d inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_abf8755df28a25377500ec6d8aa57683d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Const__std__vector__unsigned__long__Allocator__unsigned__long.html">Const_std_vector_unsigned_long_Allocator_unsigned_long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#abf8755df28a25377500ec6d8aa57683d">bits</a> (self)</td></tr>
+<tr class="memitem:aa3d69fac4afa395fe0419e7ee2ca700e inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_aa3d69fac4afa395fe0419e7ee2ca700e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#aa3d69fac4afa395fe0419e7ee2ca700e">capacity</a> (self)</td></tr>
+<tr class="memitem:ab83c6f4f026bdff44c328696635c1632 inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_ab83c6f4f026bdff44c328696635c1632"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#ab83c6f4f026bdff44c328696635c1632">count</a> (self)</td></tr>
+<tr class="memitem:aace364cb5869a707bbcc94ffaa0e0659 inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_aace364cb5869a707bbcc94ffaa0e0659"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet_1_1Counts.html">BitSet.Counts</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#aace364cb5869a707bbcc94ffaa0e0659">countBitsAndBlocks</a> (self, int maxBits='~MR::BitSet::size_type{}')</td></tr>
+<tr class="memitem:a2975de8f8306811b68d7b36a0d462cec inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_a2975de8f8306811b68d7b36a0d462cec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#a2975de8f8306811b68d7b36a0d462cec">empty</a> (self)</td></tr>
+<tr class="memitem:a0e3c58ca0e3dc5f1c10ce5565a2395f6 inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_a0e3c58ca0e3dc5f1c10ce5565a2395f6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#a0e3c58ca0e3dc5f1c10ce5565a2395f6">heapBytes</a> (self)</td></tr>
+<tr class="memitem:a7dba8b82dd07f4991e1a296906ef7845 inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_a7dba8b82dd07f4991e1a296906ef7845"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#a7dba8b82dd07f4991e1a296906ef7845">none</a> (self)</td></tr>
+<tr class="memitem:a389f9793a518639f545a0e1e7bbae792 inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_a389f9793a518639f545a0e1e7bbae792"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#a389f9793a518639f545a0e1e7bbae792">num_blocks</a> (self)</td></tr>
+<tr class="memitem:aac4bcb5a15ad3f07b496f617e26d9fd3 inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_aac4bcb5a15ad3f07b496f617e26d9fd3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#aac4bcb5a15ad3f07b496f617e26d9fd3">size</a> (self)</td></tr>
+<tr class="memitem:aef8e52828ce564913e4cc5e3de065c0c inherit pub_methods_classmrmeshpy_1_1ConstBitSet" id="r_aef8e52828ce564913e4cc5e3de065c0c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#aef8e52828ce564913e4cc5e3de065c0c">uncheckedTest</a> (self, int n)</td></tr>
 <tr class="inherit_header pub_methods_classmrmeshpy_1_1BitSet"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1BitSet')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1BitSet.html">mrmeshpy.BitSet</a></td></tr>
-<tr class="memitem:a5d5a1bb5839863d7c2b6c396ee4d6ec2 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a5d5a1bb5839863d7c2b6c396ee4d6ec2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
-<tr class="memitem:af06e5b8bd598633ae38015e4ef438a97 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_af06e5b8bd598633ae38015e4ef438a97"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#af06e5b8bd598633ae38015e4ef438a97">__eq__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
-<tr class="memitem:a6c0e67571d2dda445e00a7a3f0b8fa03 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a6c0e67571d2dda445e00a7a3f0b8fa03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
+<tr class="memitem:a9df7f61dee3a9414da25d54600eb84cf inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a9df7f61dee3a9414da25d54600eb84cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a9df7f61dee3a9414da25d54600eb84cf">__iand__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstBitSet.html">ConstBitSet</a> b)</td></tr>
 <tr class="memitem:a39db448937a80d8ee2b6227341b4108b inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a39db448937a80d8ee2b6227341b4108b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a39db448937a80d8ee2b6227341b4108b">__init__</a> (self)</td></tr>
 <tr class="memitem:af2c732bf4be38bf0ad895b491101afb8 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_af2c732bf4be38bf0ad895b491101afb8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#af2c732bf4be38bf0ad895b491101afb8">__init__</a> (self, int numBits, bool fillValue=False)</td></tr>
-<tr class="memitem:a8ce6ced7f4569123c79ba3d86cbb9546 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a8ce6ced7f4569123c79ba3d86cbb9546"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a8ce6ced7f4569123c79ba3d86cbb9546">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> arg0)</td></tr>
-<tr class="memitem:a7925948c890b93c25339224dac3d62b5 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a7925948c890b93c25339224dac3d62b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a7925948c890b93c25339224dac3d62b5">__ior__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
-<tr class="memitem:a929da8ae8fc04abf1bc5844cec7f2a2f inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a929da8ae8fc04abf1bc5844cec7f2a2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
-<tr class="memitem:ab27310e0d97ac0e5d5d6eb3cf73d5702 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_ab27310e0d97ac0e5d5d6eb3cf73d5702"><td class="memItemLeft" align="right" valign="top">typing.Iterator[int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</a> (self)</td></tr>
-<tr class="memitem:a02b92f6054c36b6fe27b4b8063e999ed inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a02b92f6054c36b6fe27b4b8063e999ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
-<tr class="memitem:a6080707aa8d309a258a5f70519543e50 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a6080707aa8d309a258a5f70519543e50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a6080707aa8d309a258a5f70519543e50">__or__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
-<tr class="memitem:a04fe2114fcc0ece2af5b884855857feb inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a04fe2114fcc0ece2af5b884855857feb"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a04fe2114fcc0ece2af5b884855857feb">__repr__</a> (self)</td></tr>
-<tr class="memitem:a98282e643a9a65e1c6109bb7e5d7bb0f inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a98282e643a9a65e1c6109bb7e5d7bb0f"><td class="memItemLeft" align="right" valign="top">typing.Any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a98282e643a9a65e1c6109bb7e5d7bb0f">__rlshift__</a> (self, typing.Any bs)</td></tr>
+<tr class="memitem:aca3df56c9953f7d556f3d8921089f28d inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_aca3df56c9953f7d556f3d8921089f28d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#aca3df56c9953f7d556f3d8921089f28d">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstBitSet.html">ConstBitSet</a> arg0)</td></tr>
+<tr class="memitem:ae67f10850ff250311ac890408cf10fd1 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_ae67f10850ff250311ac890408cf10fd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#ae67f10850ff250311ac890408cf10fd1">__ior__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstBitSet.html">ConstBitSet</a> b)</td></tr>
+<tr class="memitem:ae3d2ec6e0fc936059251480ece253d8d inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_ae3d2ec6e0fc936059251480ece253d8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#ae3d2ec6e0fc936059251480ece253d8d">__isub__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstBitSet.html">ConstBitSet</a> b)</td></tr>
+<tr class="memitem:a907af6364e61dd61b694d00e38b81cd0 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a907af6364e61dd61b694d00e38b81cd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a907af6364e61dd61b694d00e38b81cd0">__ixor__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstBitSet.html">ConstBitSet</a> b)</td></tr>
 <tr class="memitem:a180dc7a7e3b1484cbc0655607c27948d inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a180dc7a7e3b1484cbc0655607c27948d"><td class="memItemLeft" align="right" valign="top">typing.Any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a180dc7a7e3b1484cbc0655607c27948d">__rrshift__</a> (self, typing.Any bs)</td></tr>
-<tr class="memitem:a770c5dfc082a8ca3befff15e617900e7 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a770c5dfc082a8ca3befff15e617900e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a770c5dfc082a8ca3befff15e617900e7">__sub__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
-<tr class="memitem:adda895cc3e159e7135adb63efdc4e5d7 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_adda895cc3e159e7135adb63efdc4e5d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#adda895cc3e159e7135adb63efdc4e5d7">__xor__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
-<tr class="memitem:a7791a54179bcc02c9e8d46ccd467d1df inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a7791a54179bcc02c9e8d46ccd467d1df"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a7791a54179bcc02c9e8d46ccd467d1df">all</a> (self)</td></tr>
-<tr class="memitem:a72e64427ab6f98e8ffeb422c97588e62 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a72e64427ab6f98e8ffeb422c97588e62"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a72e64427ab6f98e8ffeb422c97588e62">any</a> (self)</td></tr>
-<tr class="memitem:ab1c92776adea9f7d4a8aa71b4db8585e inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_ab1c92776adea9f7d4a8aa71b4db8585e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long.html">std_vector_unsigned_long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#ab1c92776adea9f7d4a8aa71b4db8585e">bits</a> (self)</td></tr>
-<tr class="memitem:a2335e90bc299cbaa4f87a7e2157f869a inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a2335e90bc299cbaa4f87a7e2157f869a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a2335e90bc299cbaa4f87a7e2157f869a">capacity</a> (self)</td></tr>
 <tr class="memitem:a640d1f443a7ea30d50a532de2cdf90b4 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a640d1f443a7ea30d50a532de2cdf90b4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a640d1f443a7ea30d50a532de2cdf90b4">clear</a> (self)</td></tr>
-<tr class="memitem:a4b8a47eb3cd9dc19a7448b1a3b1765e2 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a4b8a47eb3cd9dc19a7448b1a3b1765e2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a4b8a47eb3cd9dc19a7448b1a3b1765e2">count</a> (self)</td></tr>
-<tr class="memitem:aab954a31474723788e2aeee311325c15 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_aab954a31474723788e2aeee311325c15"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#aab954a31474723788e2aeee311325c15">empty</a> (self)</td></tr>
-<tr class="memitem:a10adcfbaa8c04e4fbb97920b8a7bd60a inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a10adcfbaa8c04e4fbb97920b8a7bd60a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a10adcfbaa8c04e4fbb97920b8a7bd60a">heapBytes</a> (self)</td></tr>
-<tr class="memitem:aba96890a6af8d454cea1e755d03af8db inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_aba96890a6af8d454cea1e755d03af8db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#aba96890a6af8d454cea1e755d03af8db">none</a> (self)</td></tr>
-<tr class="memitem:a33fe73fcaf13f4fe52d1fe72379ba764 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a33fe73fcaf13f4fe52d1fe72379ba764"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a33fe73fcaf13f4fe52d1fe72379ba764">num_blocks</a> (self)</td></tr>
 <tr class="memitem:a204e188214d1fd66553951c4a6c9888b inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a204e188214d1fd66553951c4a6c9888b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a204e188214d1fd66553951c4a6c9888b">pop_back</a> (self)</td></tr>
 <tr class="memitem:af016fdece4d1e0fcefadce98dff1b478 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_af016fdece4d1e0fcefadce98dff1b478"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#af016fdece4d1e0fcefadce98dff1b478">push_back</a> (self, bool val)</td></tr>
 <tr class="memitem:a289c8f64f552d93f25d60aae2140354a inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a289c8f64f552d93f25d60aae2140354a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a289c8f64f552d93f25d60aae2140354a">reserve</a> (self, int numBits)</td></tr>
@@ -238,25 +244,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8f011a2d79e0769e54a51148de3d2dec inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a8f011a2d79e0769e54a51148de3d2dec"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a8f011a2d79e0769e54a51148de3d2dec">resizeWithReserve</a> (self, int newSize)</td></tr>
 <tr class="memitem:a6e10a386d264b1d2ac5153c7eda3452e inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a6e10a386d264b1d2ac5153c7eda3452e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a6e10a386d264b1d2ac5153c7eda3452e">reverse</a> (self)</td></tr>
 <tr class="memitem:a394f9a9633d44001a7cab69dbd3815e8 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a394f9a9633d44001a7cab69dbd3815e8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a394f9a9633d44001a7cab69dbd3815e8">shrink_to_fit</a> (self)</td></tr>
-<tr class="memitem:aae04e046bab014f7e687c1010d5386eb inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_aae04e046bab014f7e687c1010d5386eb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#aae04e046bab014f7e687c1010d5386eb">size</a> (self)</td></tr>
-<tr class="memitem:aae49ff1ea465f9b7185a328d08806e08 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_aae49ff1ea465f9b7185a328d08806e08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#aae49ff1ea465f9b7185a328d08806e08">uncheckedTest</a> (self, int n)</td></tr>
 <tr class="memitem:a908f2b141bba37ea2f49d8dd1938c711 inherit pub_methods_classmrmeshpy_1_1BitSet" id="r_a908f2b141bba37ea2f49d8dd1938c711"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a908f2b141bba37ea2f49d8dd1938c711">uncheckedTestSet</a> (self, int n, bool val=True)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae1474c2d1fec63dbc745f21c825353ce" id="r_ae1474c2d1fec63dbc745f21c825353ce"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1474c2d1fec63dbc745f21c825353ce">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:ae460b47f27471d1147024b6ef524c91a" id="r_ae460b47f27471d1147024b6ef524c91a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae460b47f27471d1147024b6ef524c91a">beginId</a> ()</td></tr>
-<tr class="memitem:ae2fcdc87f5b2e061a1cb0cb49be5cf44" id="r_ae2fcdc87f5b2e061a1cb0cb49be5cf44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2fcdc87f5b2e061a1cb0cb49be5cf44">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:ae2fcdc87f5b2e061a1cb0cb49be5cf44" id="r_ae2fcdc87f5b2e061a1cb0cb49be5cf44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2fcdc87f5b2e061a1cb0cb49be5cf44">operator</a> (*args, **kwargs)</td></tr>
+<tr class="inherit_header pub_static_methods_classmrmeshpy_1_1ConstGraphVertBitSet"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classmrmeshpy_1_1ConstGraphVertBitSet')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">mrmeshpy.ConstGraphVertBitSet</a></td></tr>
+<tr class="memitem:aabec0c25232c6d2c23aee40241ff3097 inherit pub_static_methods_classmrmeshpy_1_1ConstGraphVertBitSet" id="r_aabec0c25232c6d2c23aee40241ff3097"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html#aabec0c25232c6d2c23aee40241ff3097">beginId</a> ()</td></tr>
+<tr class="inherit_header pub_static_methods_classmrmeshpy_1_1ConstBitSet"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classmrmeshpy_1_1ConstBitSet')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstBitSet.html">mrmeshpy.ConstBitSet</a></td></tr>
+<tr class="memitem:a0e912149857e20a49fa03e1a8bd16e94 inherit pub_static_methods_classmrmeshpy_1_1ConstBitSet" id="r_a0e912149857e20a49fa03e1a8bd16e94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#a0e912149857e20a49fa03e1a8bd16e94">fromBlocks</a> (<a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long__Allocator__unsigned__long.html">std_vector_unsigned_long_Allocator_unsigned_long</a> blocks)</td></tr>
 <tr class="inherit_header pub_static_methods_classmrmeshpy_1_1BitSet"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classmrmeshpy_1_1BitSet')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1BitSet.html">mrmeshpy.BitSet</a></td></tr>
 <tr class="memitem:aec2d31c5842b18f1ef3a2e3e1de0ddf3 inherit pub_static_methods_classmrmeshpy_1_1BitSet" id="r_aec2d31c5842b18f1ef3a2e3e1de0ddf3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:ab52de9f1462e6d83e5b7191d4396df74 inherit pub_static_methods_classmrmeshpy_1_1BitSet" id="r_ab52de9f1462e6d83e5b7191d4396df74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#ab52de9f1462e6d83e5b7191d4396df74">fromBlocks</a> (<a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long.html">std_vector_unsigned_long</a> blocks)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_attribs_classmrmeshpy_1_1BitSet"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_attribs_classmrmeshpy_1_1BitSet')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Attributes inherited from <a class="el" href="classmrmeshpy_1_1BitSet.html">mrmeshpy.BitSet</a></td></tr>
-<tr class="memitem:a59b26e0abde0aeed833933ad5058adfe inherit pub_static_attribs_classmrmeshpy_1_1BitSet" id="r_a59b26e0abde0aeed833933ad5058adfe"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#a59b26e0abde0aeed833933ad5058adfe">bits_per_block</a> = 64</td></tr>
-<tr class="memitem:aa0a7d1ede8a4702ab5421d151412dfc9 inherit pub_static_attribs_classmrmeshpy_1_1BitSet" id="r_aa0a7d1ede8a4702ab5421d151412dfc9"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet.html#aa0a7d1ede8a4702ab5421d151412dfc9">npos</a> = 18446744073709551615</td></tr>
+<tr class="inherit_header pub_static_attribs_classmrmeshpy_1_1ConstBitSet"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_attribs_classmrmeshpy_1_1ConstBitSet')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Attributes inherited from <a class="el" href="classmrmeshpy_1_1ConstBitSet.html">mrmeshpy.ConstBitSet</a></td></tr>
+<tr class="memitem:a4be2794ff07740dabf4378510198457d inherit pub_static_attribs_classmrmeshpy_1_1ConstBitSet" id="r_a4be2794ff07740dabf4378510198457d"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#a4be2794ff07740dabf4378510198457d">bits_per_block</a> = 64</td></tr>
+<tr class="memitem:ad385fddcc2ecfd8784405609f79ea8ae inherit pub_static_attribs_classmrmeshpy_1_1ConstBitSet" id="r_ad385fddcc2ecfd8784405609f79ea8ae"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#ad385fddcc2ecfd8784405609f79ea8ae">npos</a> = 18446744073709551615</td></tr>
+<tr class="memitem:a0017504e4a838ec9ba58c9a745799b5a inherit pub_static_attribs_classmrmeshpy_1_1ConstBitSet" id="r_a0017504e4a838ec9ba58c9a745799b5a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#a0017504e4a838ec9ba58c9a745799b5a">Blocks</a> = <a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long__Allocator__unsigned__long.html">std_vector_unsigned_long_Allocator_unsigned_long</a></td></tr>
+<tr class="memitem:ad3e003c7666ce98bd4c8cf0a31bcca4e inherit pub_static_attribs_classmrmeshpy_1_1ConstBitSet" id="r_ad3e003c7666ce98bd4c8cf0a31bcca4e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html#ad3e003c7666ce98bd4c8cf0a31bcca4e">ConstBlocks</a> = <a class="el" href="classmrmeshpy_1_1Const__std__vector__unsigned__long__Allocator__unsigned__long.html">Const_std_vector_unsigned_long_Allocator_unsigned_long</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::GraphVertBitSet
@@ -338,8 +344,8 @@ with all bits after size() considered off during testing
 </pre> 
 </div>
 </div>
-<a id="acfd5bbeb3c88c2877adef0cbbd013746" name="acfd5bbeb3c88c2877adef0cbbd013746"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfd5bbeb3c88c2877adef0cbbd013746">&#9670;&#160;</a></span>__init__() <span class="overload">[4/6]</span></h2>
+<a id="a65c6bc704808a45783522cf57ed97788" name="a65c6bc704808a45783522cf57ed97788"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65c6bc704808a45783522cf57ed97788">&#9670;&#160;</a></span>__init__() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -352,11 +358,11 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>src</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstBitSet.html">ConstBitSet</a></td>          <td class="paramname"><span class="paramname"><em>src</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">copies all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+<pre class="fragment">copies all bits from another BitSet (or a descending class, e.g. `TypedBitSet&lt;U&gt;`)
 </pre> 
 </div>
 </div>
@@ -378,12 +384,12 @@ with all bits after size() considered off during testing
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">moves all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+<pre class="fragment">moves all bits from another BitSet (or a descending class, e.g. `TypedBitSet&lt;U&gt;`)
 </pre> 
 </div>
 </div>
-<a id="ac08d5ba4fdcb5f6c291aa492cab5529d" name="ac08d5ba4fdcb5f6c291aa492cab5529d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac08d5ba4fdcb5f6c291aa492cab5529d">&#9670;&#160;</a></span>__init__() <span class="overload">[6/6]</span></h2>
+<a id="a45ee1dc3884bf0b13e0b48594d33ca3b" name="a45ee1dc3884bf0b13e0b48594d33ca3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45ee1dc3884bf0b13e0b48594d33ca3b">&#9670;&#160;</a></span>__init__() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -396,7 +402,7 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -405,29 +411,8 @@ with all bits after size() considered off during testing
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a0ed597f34b83f6bca59b46a178908099" name="a0ed597f34b83f6bca59b46a178908099"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ed597f34b83f6bca59b46a178908099">&#9670;&#160;</a></span>__and__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> mrmeshpy.GraphVertBitSet.__and__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a284dcd5ddaa7cafa8779d5141c7c3d01" name="a284dcd5ddaa7cafa8779d5141c7c3d01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a284dcd5ddaa7cafa8779d5141c7c3d01">&#9670;&#160;</a></span>__iand__()</h2>
+<a id="ae0a1b06790b21199e9337b065057d240" name="ae0a1b06790b21199e9337b065057d240"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0a1b06790b21199e9337b065057d240">&#9670;&#160;</a></span>__iand__()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -440,15 +425,15 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ae5be9f989aad8f10f1428f5d0acd1819" name="ae5be9f989aad8f10f1428f5d0acd1819"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5be9f989aad8f10f1428f5d0acd1819">&#9670;&#160;</a></span>__ior__()</h2>
+<a id="a0c59fb95db022622149f4cb8b7c7989b" name="a0c59fb95db022622149f4cb8b7c7989b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c59fb95db022622149f4cb8b7c7989b">&#9670;&#160;</a></span>__ior__()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -461,15 +446,15 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a77cd1d78dee2c916b16768b9424ddaa7" name="a77cd1d78dee2c916b16768b9424ddaa7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77cd1d78dee2c916b16768b9424ddaa7">&#9670;&#160;</a></span>__isub__()</h2>
+<a id="a9f9c584a4c50971b96884211a484bf5f" name="a9f9c584a4c50971b96884211a484bf5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f9c584a4c50971b96884211a484bf5f">&#9670;&#160;</a></span>__isub__()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -482,32 +467,15 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ab441e659e190c7636523fb9bd1e9447e" name="ab441e659e190c7636523fb9bd1e9447e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab441e659e190c7636523fb9bd1e9447e">&#9670;&#160;</a></span>__iter__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> typing.Iterator[<a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a>] mrmeshpy.GraphVertBitSet.__iter__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a20ea96ad1ae77d86fd2f8856eace9be1" name="a20ea96ad1ae77d86fd2f8856eace9be1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20ea96ad1ae77d86fd2f8856eace9be1">&#9670;&#160;</a></span>__ixor__()</h2>
+<a id="aa3192742bbc1817eef3fda5a21c8c86c" name="aa3192742bbc1817eef3fda5a21c8c86c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3192742bbc1817eef3fda5a21c8c86c">&#9670;&#160;</a></span>__ixor__()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -520,95 +488,63 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ade311a053d6f0c1ad73804cf2b3457b4" name="ade311a053d6f0c1ad73804cf2b3457b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade311a053d6f0c1ad73804cf2b3457b4">&#9670;&#160;</a></span>__or__()</h2>
+<a id="a444f5a94d79aa3c39e9a968742f605fa" name="a444f5a94d79aa3c39e9a968742f605fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a444f5a94d79aa3c39e9a968742f605fa">&#9670;&#160;</a></span>assign()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> mrmeshpy.GraphVertBitSet.__or__ </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> mrmeshpy.GraphVertBitSet.assign </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#abc138ec17a11c269d64d516b56f22528">mrmeshpy.BitSet</a>.</p>
+
 </div>
 </div>
-<a id="a6b9fb75f61fbd7df29a36b5b39f60953" name="a6b9fb75f61fbd7df29a36b5b39f60953"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b9fb75f61fbd7df29a36b5b39f60953">&#9670;&#160;</a></span>__repr__()</h2>
+<a id="a748f45128c534dc956133a5e3777095f" name="a748f45128c534dc956133a5e3777095f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a748f45128c534dc956133a5e3777095f">&#9670;&#160;</a></span>atomicTestSet()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> str mrmeshpy.GraphVertBitSet.__repr__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7f141be9b58552f19936c74d79e518eb" name="a7f141be9b58552f19936c74d79e518eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f141be9b58552f19936c74d79e518eb">&#9670;&#160;</a></span>__sub__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> mrmeshpy.GraphVertBitSet.__sub__ </td>
+          <td class="memname"> bool mrmeshpy.GraphVertBitSet.atomicTestSet </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">sets n-th bit and returns its previous value; it is safe to call simultaneously from several threads for any bits of the same bitset,
+provided no other modification of the bitset (including resizing) is performed in parallel
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#ab180a8d812e38d6017ae181b145ee402">mrmeshpy.BitSet</a>.</p>
 
 </div>
 </div>
-<a id="af7997f27ec53915b99b7ec6e08d400d2" name="af7997f27ec53915b99b7ec6e08d400d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7997f27ec53915b99b7ec6e08d400d2">&#9670;&#160;</a></span>__xor__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> mrmeshpy.GraphVertBitSet.__xor__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a22ce6dd468011768390f3eb2469827ee" name="a22ce6dd468011768390f3eb2469827ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22ce6dd468011768390f3eb2469827ee">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
+<a id="a09eed62f1412b0172945ff58df4cf23e" name="a09eed62f1412b0172945ff58df4cf23e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09eed62f1412b0172945ff58df4cf23e">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -621,7 +557,7 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -636,8 +572,8 @@ with all bits after size() considered off during testing
 
 </div>
 </div>
-<a id="a19282e51a096b4b8d402fac992e573f8" name="a19282e51a096b4b8d402fac992e573f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19282e51a096b4b8d402fac992e573f8">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
+<a id="a1a175a1bd15955085a0680f36b50085d" name="a1a175a1bd15955085a0680f36b50085d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a175a1bd15955085a0680f36b50085d">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -650,7 +586,7 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -670,8 +606,8 @@ with all bits after size() considered off during testing
 
 </div>
 </div>
-<a id="af0643ad3506269f2793f17dcf3f5ce40" name="af0643ad3506269f2793f17dcf3f5ce40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0643ad3506269f2793f17dcf3f5ce40">&#9670;&#160;</a></span>autoResizeTestSet()</h2>
+<a id="a5c91c5f0a77cd92ba9d0c6725ff21444" name="a5c91c5f0a77cd92ba9d0c6725ff21444"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c91c5f0a77cd92ba9d0c6725ff21444">&#9670;&#160;</a></span>autoResizeTestSet()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -684,7 +620,7 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -696,201 +632,6 @@ with all bits after size() considered off during testing
 <pre class="fragment">same as \\ref autoResizeSet and returns previous value of pos-bit
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#ad1d43b5793a3dce9511fd445d695aa83">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="ac0d747ef2b15e0f063dc4acacd2bb7e8" name="ac0d747ef2b15e0f063dc4acacd2bb7e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0d747ef2b15e0f063dc4acacd2bb7e8">&#9670;&#160;</a></span>backId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> mrmeshpy.GraphVertBitSet.backId </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns the identifier of the back() element
-</pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a71d144899c501363ec1fc3aa7f745b2d">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="ae460b47f27471d1147024b6ef524c91a" name="ae460b47f27471d1147024b6ef524c91a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae460b47f27471d1147024b6ef524c91a">&#9670;&#160;</a></span>beginId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> mrmeshpy.GraphVertBitSet.beginId </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<pre class="fragment">[beginId(), endId()) is the range of all bits in the set
-</pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#ae529e168da2a1905ad02819146ae8274">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="ab5584447ddcf4bb79d15300b8e67b2bb" name="ab5584447ddcf4bb79d15300b8e67b2bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5584447ddcf4bb79d15300b8e67b2bb">&#9670;&#160;</a></span>endId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> mrmeshpy.GraphVertBitSet.endId </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a9f71200c981f11d2ec5f7c797de269e5">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="aaba7f817f9b3677517c9c0625303782d" name="aaba7f817f9b3677517c9c0625303782d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaba7f817f9b3677517c9c0625303782d">&#9670;&#160;</a></span>find_first()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> mrmeshpy.GraphVertBitSet.find_first </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">return the smallest index i such that bit i is set, or npos if *this has no on bits.
-</pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#aac9c41ec6addef5012e587e850a8d006">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="a099ed91453d7776ce12ab92894ff25e1" name="a099ed91453d7776ce12ab92894ff25e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a099ed91453d7776ce12ab92894ff25e1">&#9670;&#160;</a></span>find_first_not_set()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> mrmeshpy.GraphVertBitSet.find_first_not_set </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">return the smallest index i such that bit i is NOT set, or npos if *this has no off bits.
-</pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a15e32e17fea4f662f8a0f55fd1bcd0b6">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="a7a92107f11a2b0e7b0d12974f9fb53c8" name="a7a92107f11a2b0e7b0d12974f9fb53c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a92107f11a2b0e7b0d12974f9fb53c8">&#9670;&#160;</a></span>find_last()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> mrmeshpy.GraphVertBitSet.find_last </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">return the highest index i such that bit i is set, or npos if *this has no on bits.
-</pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a4ab474551b7e0e4e7daab1c8b5eefa77">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="a948ddf1da0df67feab78d7f8ff784ec8" name="a948ddf1da0df67feab78d7f8ff784ec8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a948ddf1da0df67feab78d7f8ff784ec8">&#9670;&#160;</a></span>find_last_not_set()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> mrmeshpy.GraphVertBitSet.find_last_not_set </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">return the highest index i such that bit i is NOT set, or npos if *this has no off bits.
-</pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#aa50056294318a1e11be2d832bdbd6329">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="abcdb32afecad1a99cc336bffd68cb22c" name="abcdb32afecad1a99cc336bffd68cb22c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcdb32afecad1a99cc336bffd68cb22c">&#9670;&#160;</a></span>find_next()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> mrmeshpy.GraphVertBitSet.find_next </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">return the smallest index i&gt;n such that bit i is set, or npos if *this has no on bits.
-</pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#acd501b4c783e055396bf0665ead0566f">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="a8195abf86c018c447975e234129e57f1" name="a8195abf86c018c447975e234129e57f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8195abf86c018c447975e234129e57f1">&#9670;&#160;</a></span>find_next_not_set()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> mrmeshpy.GraphVertBitSet.find_next_not_set </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">return the smallest index i&gt;n such that bit i is NOT set, or npos if *this has no off bits.
-</pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#aedde9c4ef90198acb1ddb7874ed1d491">mrmeshpy.BitSet</a>.</p>
 
 </div>
 </div>
@@ -913,8 +654,8 @@ with all bits after size() considered off during testing
 
 </div>
 </div>
-<a id="a8d67d4ecf7086b4645ec9c6e05f55e61" name="a8d67d4ecf7086b4645ec9c6e05f55e61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d67d4ecf7086b4645ec9c6e05f55e61">&#9670;&#160;</a></span>flip() <span class="overload">[2/3]</span></h2>
+<a id="a5caafa38884885c50de8a9b5c9dd1a75" name="a5caafa38884885c50de8a9b5c9dd1a75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5caafa38884885c50de8a9b5c9dd1a75">&#9670;&#160;</a></span>flip() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -927,7 +668,7 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -936,8 +677,8 @@ with all bits after size() considered off during testing
 
 </div>
 </div>
-<a id="a9026177a05f676bd1789ce3d8fe6b6ac" name="a9026177a05f676bd1789ce3d8fe6b6ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9026177a05f676bd1789ce3d8fe6b6ac">&#9670;&#160;</a></span>flip() <span class="overload">[3/3]</span></h2>
+<a id="ad7bcf8170013f80c651b39571926d99b" name="ad7bcf8170013f80c651b39571926d99b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7bcf8170013f80c651b39571926d99b">&#9670;&#160;</a></span>flip() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -950,7 +691,7 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -961,255 +702,6 @@ with all bits after size() considered off during testing
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#aa40c92a91b8d1c7040d794c24ad648f2">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="a4cd0201dc8bf0c7acc6ce82cd68c0e9d" name="a4cd0201dc8bf0c7acc6ce82cd68c0e9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cd0201dc8bf0c7acc6ce82cd68c0e9d">&#9670;&#160;</a></span>getMapping() <span class="overload">[1/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> mrmeshpy.GraphVertBitSet.getMapping </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1BMap__GraphVertId__GraphVertId.html">BMap_GraphVertId_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2b9e2020a6f03f2e284324617d88e160" name="a2b9e2020a6f03f2e284324617d88e160"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b9e2020a6f03f2e284324617d88e160">&#9670;&#160;</a></span>getMapping() <span class="overload">[2/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> mrmeshpy.GraphVertBitSet.getMapping </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag.html">phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad6738bcc739ff6ee6933396beb9bf99f" name="ad6738bcc739ff6ee6933396beb9bf99f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6738bcc739ff6ee6933396beb9bf99f">&#9670;&#160;</a></span>getMapping() <span class="overload">[3/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> mrmeshpy.GraphVertBitSet.getMapping </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag.html">phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>resSize</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5c3871a65d3da2b2920dc499923feb05" name="a5c3871a65d3da2b2920dc499923feb05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c3871a65d3da2b2920dc499923feb05">&#9670;&#160;</a></span>getMapping() <span class="overload">[4/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> mrmeshpy.GraphVertBitSet.getMapping </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html">Vector_GraphVertId_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a523acc86619193559facb6e47e4b6103" name="a523acc86619193559facb6e47e4b6103"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a523acc86619193559facb6e47e4b6103">&#9670;&#160;</a></span>getMapping() <span class="overload">[5/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> mrmeshpy.GraphVertBitSet.getMapping </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html">Vector_GraphVertId_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>map</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>resSize</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a08791cac9afc384e0ccbeb2e15d14c9d" name="a08791cac9afc384e0ccbeb2e15d14c9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08791cac9afc384e0ccbeb2e15d14c9d">&#9670;&#160;</a></span>intersects()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.GraphVertBitSet.intersects </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false.
-</pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#ad4b757b117afb3db5c7fca16e82d790a">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="a2c7deb1da06e051622b50ddcc392a3a9" name="a2c7deb1da06e051622b50ddcc392a3a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c7deb1da06e051622b50ddcc392a3a9">&#9670;&#160;</a></span>is_subset_of()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.GraphVertBitSet.is_subset_of </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
-</pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a2be8e340e3ee4b2e1fc14c24833d2a99">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="ac14c371028f639bedc6ba2f4692d6f2b" name="ac14c371028f639bedc6ba2f4692d6f2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac14c371028f639bedc6ba2f4692d6f2b">&#9670;&#160;</a></span>nthSetBit()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a> mrmeshpy.GraphVertBitSet.nthSetBit </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
-</pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#ad25bdd5a49f4648994cef1ae56864c3f">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="ae2fcdc87f5b2e061a1cb0cb49be5cf44" name="ae2fcdc87f5b2e061a1cb0cb49be5cf44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2fcdc87f5b2e061a1cb0cb49be5cf44">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> mrmeshpy.GraphVertBitSet.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a7ab42866fcda21519f73a78064f1e881">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="ae2fcdc87f5b2e061a1cb0cb49be5cf44" name="ae2fcdc87f5b2e061a1cb0cb49be5cf44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2fcdc87f5b2e061a1cb0cb49be5cf44">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a> mrmeshpy.GraphVertBitSet.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a7ab42866fcda21519f73a78064f1e881">mrmeshpy.BitSet</a>.</p>
 
 </div>
 </div>
@@ -1232,8 +724,8 @@ with all bits after size() considered off during testing
 
 </div>
 </div>
-<a id="a87353d12c29bc814ad785607be2377b3" name="a87353d12c29bc814ad785607be2377b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87353d12c29bc814ad785607be2377b3">&#9670;&#160;</a></span>reset() <span class="overload">[2/3]</span></h2>
+<a id="a755701ab97c896c45bbefadaa3612360" name="a755701ab97c896c45bbefadaa3612360"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a755701ab97c896c45bbefadaa3612360">&#9670;&#160;</a></span>reset() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1246,7 +738,7 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1255,8 +747,8 @@ with all bits after size() considered off during testing
 
 </div>
 </div>
-<a id="a73747a9e534d9c0f54cb55eb5656c7bf" name="a73747a9e534d9c0f54cb55eb5656c7bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73747a9e534d9c0f54cb55eb5656c7bf">&#9670;&#160;</a></span>reset() <span class="overload">[3/3]</span></h2>
+<a id="aee825bb0d0e41e5d9fc5acb2f14f0e66" name="aee825bb0d0e41e5d9fc5acb2f14f0e66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee825bb0d0e41e5d9fc5acb2f14f0e66">&#9670;&#160;</a></span>reset() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1269,7 +761,7 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1302,8 +794,8 @@ with all bits after size() considered off during testing
 
 </div>
 </div>
-<a id="ae66cc02f3be4d83d75072f8c210903d1" name="ae66cc02f3be4d83d75072f8c210903d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae66cc02f3be4d83d75072f8c210903d1">&#9670;&#160;</a></span>set() <span class="overload">[2/4]</span></h2>
+<a id="a46e0e807b732ca8bb8cfe89c61682780" name="a46e0e807b732ca8bb8cfe89c61682780"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46e0e807b732ca8bb8cfe89c61682780">&#9670;&#160;</a></span>set() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1316,7 +808,7 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1325,8 +817,8 @@ with all bits after size() considered off during testing
 
 </div>
 </div>
-<a id="a632ee7e810e76e2277d901eacea556be" name="a632ee7e810e76e2277d901eacea556be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a632ee7e810e76e2277d901eacea556be">&#9670;&#160;</a></span>set() <span class="overload">[3/4]</span></h2>
+<a id="ae92670a789bfdc29f14af032c8af2f80" name="ae92670a789bfdc29f14af032c8af2f80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae92670a789bfdc29f14af032c8af2f80">&#9670;&#160;</a></span>set() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1339,7 +831,7 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1353,8 +845,8 @@ with all bits after size() considered off during testing
 
 </div>
 </div>
-<a id="a4fa1e9e24be8819e449abb30bd6c05ac" name="a4fa1e9e24be8819e449abb30bd6c05ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fa1e9e24be8819e449abb30bd6c05ac">&#9670;&#160;</a></span>set() <span class="overload">[4/4]</span></h2>
+<a id="aa40f749d337cd466771debdcb0c89cc9" name="aa40f749d337cd466771debdcb0c89cc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa40f749d337cd466771debdcb0c89cc9">&#9670;&#160;</a></span>set() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1367,7 +859,7 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1386,8 +878,8 @@ with all bits after size() considered off during testing
 
 </div>
 </div>
-<a id="a0d218d12ec07113916303f586d037319" name="a0d218d12ec07113916303f586d037319"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d218d12ec07113916303f586d037319">&#9670;&#160;</a></span>subtract()</h2>
+<a id="a3b1a80f8e74c109a939a9bc0d3b82b8f" name="a3b1a80f8e74c109a939a9bc0d3b82b8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b1a80f8e74c109a939a9bc0d3b82b8f">&#9670;&#160;</a></span>subtract()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1400,7 +892,7 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html">GraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertBitSet.html">ConstGraphVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1411,36 +903,12 @@ with all bits after size() considered off during testing
 </div><div class="memdoc">
 <pre class="fragment">subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block
 </pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a7435650982cc9c6c561ddf84cccd998d">mrmeshpy.BitSet</a>.</p>
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a65eb9de7b9dd97b1c935e0cb3a84b94e">mrmeshpy.BitSet</a>.</p>
 
 </div>
 </div>
-<a id="a57ce07e345661f02ec922dcb31dff438" name="a57ce07e345661f02ec922dcb31dff438"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57ce07e345661f02ec922dcb31dff438">&#9670;&#160;</a></span>test()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.GraphVertBitSet.test </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">all bits after size() we silently consider as not-set
-</pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#afe9b7c78f712014eb7a54b278d4fdc27">mrmeshpy.BitSet</a>.</p>
-
-</div>
-</div>
-<a id="a33225a4fb38b271a5d5c9e888846af99" name="a33225a4fb38b271a5d5c9e888846af99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33225a4fb38b271a5d5c9e888846af99">&#9670;&#160;</a></span>test_set()</h2>
+<a id="a22969a441754497beb9b2c798d53d980" name="a22969a441754497beb9b2c798d53d980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22969a441754497beb9b2c798d53d980">&#9670;&#160;</a></span>test_set()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1453,7 +921,7 @@ with all bits after size() considered off during testing
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphVertId.html">GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGraphVertId.html">ConstGraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -149,19 +142,24 @@ $(function(){initNavTree('classmrcudapy_1_1FastWindingNumber.html','','classmrcu
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
-  <img src="classmrcudapy_1_1FastWindingNumber.png" alt=""/>
- </div></div>
+  <img src="classmrcudapy_1_1FastWindingNumber.png" usemap="#mrcudapy_2EFastWindingNumber_map" alt=""/>
+  <map id="mrcudapy_2EFastWindingNumber_map" name="mrcudapy_2EFastWindingNumber_map">
+<area href="classmrcudapy_1_1ConstFastWindingNumber.html" alt="mrcudapy.ConstFastWindingNumber" shape="rect" coords="160,56,471,80"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6d96e6a54e561488ac8e75a3db57c289" id="r_a6d96e6a54e561488ac8e75a3db57c289"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d96e6a54e561488ac8e75a3db57c289">__init__</a> (self, meshlib.mrmeshpy.Mesh mesh)</td></tr>
-<tr class="memitem:a4b83d09ad2d66fa7d43e6c9d658fcde7" id="r_a4b83d09ad2d66fa7d43e6c9d658fcde7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b83d09ad2d66fa7d43e6c9d658fcde7">__init__</a> (self, <a class="el" href="classmrcudapy_1_1FastWindingNumber.html">FastWindingNumber</a> arg0)</td></tr>
-<tr class="memitem:aeb8b41d05598fc70538563ce64efb0f2" id="r_aeb8b41d05598fc70538563ce64efb0f2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb8b41d05598fc70538563ce64efb0f2">calcFromGrid</a> (self, meshlib.mrmeshpy.std_vector_float res, meshlib.mrmeshpy.Vector3i dims, meshlib.mrmeshpy.AffineXf3f gridToMeshXf, float beta, meshlib.mrmeshpy.func_bool_from_float cb)</td></tr>
-<tr class="memitem:a79f1b2f8b30d09facf58170613773ada" id="r_a79f1b2f8b30d09facf58170613773ada"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79f1b2f8b30d09facf58170613773ada">calcFromGridByParts</a> (self, meshlib.mrmeshpy.func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int resFunc, meshlib.mrmeshpy.Vector3i dims, meshlib.mrmeshpy.AffineXf3f gridToMeshXf, float beta, int layerOverlap, meshlib.mrmeshpy.func_bool_from_float cb)</td></tr>
-<tr class="memitem:a36e07c5949e8e58a6f20420f8a0202c8" id="r_a36e07c5949e8e58a6f20420f8a0202c8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36e07c5949e8e58a6f20420f8a0202c8">calcFromGridWithDistances</a> (self, meshlib.mrmeshpy.std_vector_float res, meshlib.mrmeshpy.Vector3i dims, meshlib.mrmeshpy.AffineXf3f gridToMeshXf, meshlib.mrmeshpy.DistanceToMeshOptions options, meshlib.mrmeshpy.func_bool_from_float cb)</td></tr>
-<tr class="memitem:ad5ad9834bc94fda9b02b5a0ee5af7c3c" id="r_ad5ad9834bc94fda9b02b5a0ee5af7c3c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5ad9834bc94fda9b02b5a0ee5af7c3c">calcFromGridWithDistancesByParts</a> (self, meshlib.mrmeshpy.func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int resFunc, meshlib.mrmeshpy.Vector3i dims, meshlib.mrmeshpy.AffineXf3f gridToMeshXf, meshlib.mrmeshpy.DistanceToMeshOptions options, int layerOverlap, meshlib.mrmeshpy.func_bool_from_float cb)</td></tr>
-<tr class="memitem:a7ee4623a45ba71e0d805bd475b9808c5" id="r_a7ee4623a45ba71e0d805bd475b9808c5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ee4623a45ba71e0d805bd475b9808c5">calcFromVector</a> (self, meshlib.mrmeshpy.std_vector_float res, meshlib.mrmeshpy.std_vector_Vector3_float points, float beta, meshlib.mrmeshpy.FaceId skipFace, meshlib.mrmeshpy.func_bool_from_float cb)</td></tr>
-<tr class="memitem:ad7feb91d3a3cef77741220cd46fc814c" id="r_ad7feb91d3a3cef77741220cd46fc814c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7feb91d3a3cef77741220cd46fc814c">calcSelfIntersections</a> (self, meshlib.mrmeshpy.FaceBitSet res, float beta, meshlib.mrmeshpy.func_bool_from_float cb)</td></tr>
+<tr class="memitem:a24708f776186441a33f751695c0fa124" id="r_a24708f776186441a33f751695c0fa124"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24708f776186441a33f751695c0fa124">__init__</a> (self, meshlib.mrmeshpy.ConstMesh mesh)</td></tr>
+<tr class="memitem:a766baf7973589d382a36a70b7eca590f" id="r_a766baf7973589d382a36a70b7eca590f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a766baf7973589d382a36a70b7eca590f">__init__</a> (self, <a class="el" href="classmrcudapy_1_1ConstFastWindingNumber.html">ConstFastWindingNumber</a> arg0)</td></tr>
+<tr class="memitem:a6eebfe26e72b1d92295af72c104b98e3" id="r_a6eebfe26e72b1d92295af72c104b98e3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6eebfe26e72b1d92295af72c104b98e3">calcFromGrid</a> (self, meshlib.mrmeshpy.std_vector_float res, meshlib.mrmeshpy.ConstVector3i dims, meshlib.mrmeshpy.ConstAffineXf3f gridToMeshXf, float beta, meshlib.mrmeshpy.Const_func_bool_from_float cb)</td></tr>
+<tr class="memitem:a3cf073076fd9afb2e1502a4f0ab91a7c" id="r_a3cf073076fd9afb2e1502a4f0ab91a7c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cf073076fd9afb2e1502a4f0ab91a7c">calcFromGridByParts</a> (self, meshlib.mrmeshpy.Const_func_tl_expected_void_std_string_from_Vector_float_Id_VoxelTag_Vector3_int_int resFunc, meshlib.mrmeshpy.ConstVector3i dims, meshlib.mrmeshpy.ConstAffineXf3f gridToMeshXf, float beta, int layerOverlap, meshlib.mrmeshpy.Const_func_bool_from_float cb)</td></tr>
+<tr class="memitem:acce53f6d3704791e4c63273108379966" id="r_acce53f6d3704791e4c63273108379966"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acce53f6d3704791e4c63273108379966">calcFromGridWithDistances</a> (self, meshlib.mrmeshpy.VoxelScalars res, meshlib.mrmeshpy.ConstVector3i dims, meshlib.mrmeshpy.ConstAffineXf3f gridToMeshXf, meshlib.mrmeshpy.ConstDistanceToMeshOptions options, meshlib.mrmeshpy.Const_func_bool_from_float cb)</td></tr>
+<tr class="memitem:a4b3b4108822e7ef2e892ca6b3a412330" id="r_a4b3b4108822e7ef2e892ca6b3a412330"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b3b4108822e7ef2e892ca6b3a412330">calcFromGridWithDistancesByParts</a> (self, meshlib.mrmeshpy.Const_func_tl_expected_void_std_string_from_Vector_float_Id_VoxelTag_Vector3_int_int resFunc, meshlib.mrmeshpy.ConstVector3i dims, meshlib.mrmeshpy.ConstAffineXf3f gridToMeshXf, meshlib.mrmeshpy.ConstDistanceToMeshOptions options, int layerOverlap, meshlib.mrmeshpy.Const_func_bool_from_float cb)</td></tr>
+<tr class="memitem:a2568cfe2ba5cd69561fa192b51a8c921" id="r_a2568cfe2ba5cd69561fa192b51a8c921"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2568cfe2ba5cd69561fa192b51a8c921">calcFromVector</a> (self, meshlib.mrmeshpy.std_vector_float res, meshlib.mrmeshpy.Const_std_vector_Vector3_float points, float beta, meshlib.mrmeshpy.ConstFaceId skipFace, meshlib.mrmeshpy.Const_func_bool_from_float cb)</td></tr>
+<tr class="memitem:a6c3eed25e6ce06ceac91048e4b49d2e5" id="r_a6c3eed25e6ce06ceac91048e4b49d2e5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c3eed25e6ce06ceac91048e4b49d2e5">calcSelfIntersections</a> (self, meshlib.mrmeshpy.FaceBitSet res, float beta, meshlib.mrmeshpy.Const_func_bool_from_float cb)</td></tr>
+<tr class="inherit_header pub_methods_classmrcudapy_1_1ConstFastWindingNumber"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrcudapy_1_1ConstFastWindingNumber')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrcudapy_1_1ConstFastWindingNumber.html">mrcudapy.ConstFastWindingNumber</a></td></tr>
+<tr class="memitem:a1a1da953da2c88496bafaa73e1fdd29d inherit pub_methods_classmrcudapy_1_1ConstFastWindingNumber" id="r_a1a1da953da2c88496bafaa73e1fdd29d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrcudapy_1_1ConstFastWindingNumber.html#a1a1da953da2c88496bafaa73e1fdd29d">__init__</a> (self, *args, **kwargs)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -201,8 +199,8 @@ the class for fast approximate computation of winding number for a mesh (using i
 
 </div>
 </div>
-<a id="a6d96e6a54e561488ac8e75a3db57c289" name="a6d96e6a54e561488ac8e75a3db57c289"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d96e6a54e561488ac8e75a3db57c289">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+<a id="a24708f776186441a33f751695c0fa124" name="a24708f776186441a33f751695c0fa124"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24708f776186441a33f751695c0fa124">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215,7 +213,7 @@ the class for fast approximate computation of winding number for a mesh (using i
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>&#160;)</td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstMesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -223,8 +221,8 @@ the class for fast approximate computation of winding number for a mesh (using i
 </pre> 
 </div>
 </div>
-<a id="a4b83d09ad2d66fa7d43e6c9d658fcde7" name="a4b83d09ad2d66fa7d43e6c9d658fcde7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b83d09ad2d66fa7d43e6c9d658fcde7">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+<a id="a766baf7973589d382a36a70b7eca590f" name="a766baf7973589d382a36a70b7eca590f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a766baf7973589d382a36a70b7eca590f">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237,7 +235,7 @@ the class for fast approximate computation of winding number for a mesh (using i
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrcudapy_1_1FastWindingNumber.html">FastWindingNumber</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrcudapy_1_1ConstFastWindingNumber.html">ConstFastWindingNumber</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -246,8 +244,8 @@ the class for fast approximate computation of winding number for a mesh (using i
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="aeb8b41d05598fc70538563ce64efb0f2" name="aeb8b41d05598fc70538563ce64efb0f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb8b41d05598fc70538563ce64efb0f2">&#9670;&#160;</a></span>calcFromGrid()</h2>
+<a id="a6eebfe26e72b1d92295af72c104b98e3" name="a6eebfe26e72b1d92295af72c104b98e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eebfe26e72b1d92295af72c104b98e3">&#9670;&#160;</a></span>calcFromGrid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,12 +263,12 @@ the class for fast approximate computation of winding number for a mesh (using i
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.Vector3i</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstVector3i</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.AffineXf3f</td>          <td class="paramname"><span class="paramname"><em>gridToMeshXf</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstAffineXf3f</td>          <td class="paramname"><span class="paramname"><em>gridToMeshXf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -280,15 +278,15 @@ the class for fast approximate computation of winding number for a mesh (using i
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.func_bool_from_float</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+          <td class="paramtype">meshlib.mrmeshpy.Const_func_bool_from_float</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a79f1b2f8b30d09facf58170613773ada" name="a79f1b2f8b30d09facf58170613773ada"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79f1b2f8b30d09facf58170613773ada">&#9670;&#160;</a></span>calcFromGridByParts()</h2>
+<a id="a3cf073076fd9afb2e1502a4f0ab91a7c" name="a3cf073076fd9afb2e1502a4f0ab91a7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cf073076fd9afb2e1502a4f0ab91a7c">&#9670;&#160;</a></span>calcFromGridByParts()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -301,17 +299,17 @@ the class for fast approximate computation of winding number for a mesh (using i
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int</td>          <td class="paramname"><span class="paramname"><em>resFunc</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.Const_func_tl_expected_void_std_string_from_Vector_float_Id_VoxelTag_Vector3_int_int</td>          <td class="paramname"><span class="paramname"><em>resFunc</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.Vector3i</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstVector3i</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.AffineXf3f</td>          <td class="paramname"><span class="paramname"><em>gridToMeshXf</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstAffineXf3f</td>          <td class="paramname"><span class="paramname"><em>gridToMeshXf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -326,7 +324,7 @@ the class for fast approximate computation of winding number for a mesh (using i
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.func_bool_from_float</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+          <td class="paramtype">meshlib.mrmeshpy.Const_func_bool_from_float</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -334,8 +332,8 @@ the class for fast approximate computation of winding number for a mesh (using i
 </pre> 
 </div>
 </div>
-<a id="a36e07c5949e8e58a6f20420f8a0202c8" name="a36e07c5949e8e58a6f20420f8a0202c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36e07c5949e8e58a6f20420f8a0202c8">&#9670;&#160;</a></span>calcFromGridWithDistances()</h2>
+<a id="acce53f6d3704791e4c63273108379966" name="acce53f6d3704791e4c63273108379966"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acce53f6d3704791e4c63273108379966">&#9670;&#160;</a></span>calcFromGridWithDistances()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -348,35 +346,35 @@ the class for fast approximate computation of winding number for a mesh (using i
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.std_vector_float</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.VoxelScalars</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.Vector3i</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstVector3i</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.AffineXf3f</td>          <td class="paramname"><span class="paramname"><em>gridToMeshXf</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstAffineXf3f</td>          <td class="paramname"><span class="paramname"><em>gridToMeshXf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.DistanceToMeshOptions</td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstDistanceToMeshOptions</td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.func_bool_from_float</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+          <td class="paramtype">meshlib.mrmeshpy.Const_func_bool_from_float</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ad5ad9834bc94fda9b02b5a0ee5af7c3c" name="ad5ad9834bc94fda9b02b5a0ee5af7c3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5ad9834bc94fda9b02b5a0ee5af7c3c">&#9670;&#160;</a></span>calcFromGridWithDistancesByParts()</h2>
+<a id="a4b3b4108822e7ef2e892ca6b3a412330" name="a4b3b4108822e7ef2e892ca6b3a412330"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b3b4108822e7ef2e892ca6b3a412330">&#9670;&#160;</a></span>calcFromGridWithDistancesByParts()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -389,22 +387,22 @@ the class for fast approximate computation of winding number for a mesh (using i
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int</td>          <td class="paramname"><span class="paramname"><em>resFunc</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.Const_func_tl_expected_void_std_string_from_Vector_float_Id_VoxelTag_Vector3_int_int</td>          <td class="paramname"><span class="paramname"><em>resFunc</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.Vector3i</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstVector3i</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.AffineXf3f</td>          <td class="paramname"><span class="paramname"><em>gridToMeshXf</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstAffineXf3f</td>          <td class="paramname"><span class="paramname"><em>gridToMeshXf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.DistanceToMeshOptions</td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstDistanceToMeshOptions</td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -414,15 +412,15 @@ the class for fast approximate computation of winding number for a mesh (using i
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.func_bool_from_float</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+          <td class="paramtype">meshlib.mrmeshpy.Const_func_bool_from_float</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a7ee4623a45ba71e0d805bd475b9808c5" name="a7ee4623a45ba71e0d805bd475b9808c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ee4623a45ba71e0d805bd475b9808c5">&#9670;&#160;</a></span>calcFromVector()</h2>
+<a id="a2568cfe2ba5cd69561fa192b51a8c921" name="a2568cfe2ba5cd69561fa192b51a8c921"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2568cfe2ba5cd69561fa192b51a8c921">&#9670;&#160;</a></span>calcFromVector()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -440,7 +438,7 @@ the class for fast approximate computation of winding number for a mesh (using i
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.std_vector_Vector3_float</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.Const_std_vector_Vector3_float</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -450,12 +448,12 @@ the class for fast approximate computation of winding number for a mesh (using i
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.FaceId</td>          <td class="paramname"><span class="paramname"><em>skipFace</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.ConstFaceId</td>          <td class="paramname"><span class="paramname"><em>skipFace</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.func_bool_from_float</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+          <td class="paramtype">meshlib.mrmeshpy.Const_func_bool_from_float</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -463,8 +461,8 @@ the class for fast approximate computation of winding number for a mesh (using i
 </pre> 
 </div>
 </div>
-<a id="ad7feb91d3a3cef77741220cd46fc814c" name="ad7feb91d3a3cef77741220cd46fc814c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7feb91d3a3cef77741220cd46fc814c">&#9670;&#160;</a></span>calcSelfIntersections()</h2>
+<a id="a6c3eed25e6ce06ceac91048e4b49d2e5" name="a6c3eed25e6ce06ceac91048e4b49d2e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c3eed25e6ce06ceac91048e4b49d2e5">&#9670;&#160;</a></span>calcSelfIntersections()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -487,7 +485,7 @@ the class for fast approximate computation of winding number for a mesh (using i
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.func_bool_from_float</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+          <td class="paramtype">meshlib.mrmeshpy.Const_func_bool_from_float</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

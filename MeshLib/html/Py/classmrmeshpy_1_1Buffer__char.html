@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -143,36 +136,48 @@ $(function(){initNavTree('classmrmeshpy_1_1Buffer__char.html','','classmrmeshpy_
   <div class="headertitle"><div class="title">mrmeshpy.Buffer_char Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for mrmeshpy.Buffer_char:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmrmeshpy_1_1Buffer__char.png" usemap="#mrmeshpy_2EBuffer_5Fchar_map" alt=""/>
+  <map id="mrmeshpy_2EBuffer_5Fchar_map" name="mrmeshpy_2EBuffer_5Fchar_map">
+<area href="classmrmeshpy_1_1ConstBuffer__char.html" alt="mrmeshpy.ConstBuffer_char" shape="rect" coords="0,0,173,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abc538c0142e48b6ebf3676f10332deaf" id="r_abc538c0142e48b6ebf3676f10332deaf"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc538c0142e48b6ebf3676f10332deaf">__getitem__</a> (self, int i)</td></tr>
-<tr class="memitem:abc538c0142e48b6ebf3676f10332deaf" id="r_abc538c0142e48b6ebf3676f10332deaf"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc538c0142e48b6ebf3676f10332deaf">__getitem__</a> (self, int i)</td></tr>
+<tr class="memitem:a592a5facf9a8234b397871aaf9778011" id="r_a592a5facf9a8234b397871aaf9778011"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a592a5facf9a8234b397871aaf9778011">__getitem__</a> (<a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html">ConstBuffer_char</a> self, int i)</td></tr>
 <tr class="memitem:aae864dfaf0aea5b8b1f08496e4ff9ab6" id="r_aae864dfaf0aea5b8b1f08496e4ff9ab6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae864dfaf0aea5b8b1f08496e4ff9ab6">__init__</a> (self)</td></tr>
-<tr class="memitem:ab54f5b87dabf10305641350c7a612323" id="r_ab54f5b87dabf10305641350c7a612323"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab54f5b87dabf10305641350c7a612323">__init__</a> (self, int <a class="el" href="#a73c0be0fd46899063e09ceb777db4a75">size</a>)</td></tr>
-<tr class="memitem:afc65361a54879ccb9867def20b7c6e18" id="r_afc65361a54879ccb9867def20b7c6e18"><td class="memItemLeft" align="right" valign="top">typing.Iterator[str]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc65361a54879ccb9867def20b7c6e18">__iter__</a> (self)</td></tr>
+<tr class="memitem:ab54f5b87dabf10305641350c7a612323" id="r_ab54f5b87dabf10305641350c7a612323"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab54f5b87dabf10305641350c7a612323">__init__</a> (self, int <a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html#ad3c9381f52b6b4ac909fdeab106a5556">size</a>)</td></tr>
 <tr class="memitem:a883db2fc613361c157ee583714015af3" id="r_a883db2fc613361c157ee583714015af3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a883db2fc613361c157ee583714015af3">__setitem__</a> (self, int arg0, str arg1)</td></tr>
-<tr class="memitem:a42e641487c6b685ee573457a1994e59c" id="r_a42e641487c6b685ee573457a1994e59c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42e641487c6b685ee573457a1994e59c">backId</a> (self)</td></tr>
-<tr class="memitem:abd41d3ab5b8f2a1c50568121ff73bf4c" id="r_abd41d3ab5b8f2a1c50568121ff73bf4c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd41d3ab5b8f2a1c50568121ff73bf4c">beginId</a> (self)</td></tr>
-<tr class="memitem:a2b8fa582d854db4963e4aba0e980e770" id="r_a2b8fa582d854db4963e4aba0e980e770"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b8fa582d854db4963e4aba0e980e770">capacity</a> (self)</td></tr>
 <tr class="memitem:a4553dc4f1d54ce58cfe8cca12e09b9cc" id="r_a4553dc4f1d54ce58cfe8cca12e09b9cc"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4553dc4f1d54ce58cfe8cca12e09b9cc">clear</a> (self)</td></tr>
 <tr class="memitem:ad1147e3c3978f8d10c90d9cc7c9c669f" id="r_ad1147e3c3978f8d10c90d9cc7c9c669f"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1147e3c3978f8d10c90d9cc7c9c669f">data</a> (self)</td></tr>
-<tr class="memitem:ad1147e3c3978f8d10c90d9cc7c9c669f" id="r_ad1147e3c3978f8d10c90d9cc7c9c669f"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1147e3c3978f8d10c90d9cc7c9c669f">data</a> (self)</td></tr>
-<tr class="memitem:ab1c78053bc7f524580e4e1c84c3fe1bb" id="r_ab1c78053bc7f524580e4e1c84c3fe1bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1c78053bc7f524580e4e1c84c3fe1bb">empty</a> (self)</td></tr>
-<tr class="memitem:a23894f77d3a42dcceb16b0ca1e9dc8c6" id="r_a23894f77d3a42dcceb16b0ca1e9dc8c6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23894f77d3a42dcceb16b0ca1e9dc8c6">endId</a> (self)</td></tr>
-<tr class="memitem:accb9ba8a6126e28cc008ba710ba7d4bf" id="r_accb9ba8a6126e28cc008ba710ba7d4bf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accb9ba8a6126e28cc008ba710ba7d4bf">heapBytes</a> (self)</td></tr>
+<tr class="memitem:af4990e91ff2b657c2fae4a69063e723d" id="r_af4990e91ff2b657c2fae4a69063e723d"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4990e91ff2b657c2fae4a69063e723d">data</a> (<a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html">ConstBuffer_char</a> self)</td></tr>
 <tr class="memitem:a2c4ea088b0fe149910ab9346dc7ad539" id="r_a2c4ea088b0fe149910ab9346dc7ad539"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c4ea088b0fe149910ab9346dc7ad539">resize</a> (self, int newSize)</td></tr>
-<tr class="memitem:a73c0be0fd46899063e09ceb777db4a75" id="r_a73c0be0fd46899063e09ceb777db4a75"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73c0be0fd46899063e09ceb777db4a75">size</a> (self)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstBuffer__char"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstBuffer__char')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html">mrmeshpy.ConstBuffer_char</a></td></tr>
+<tr class="memitem:a8e3673e96896af9da03ac8835838170d inherit pub_methods_classmrmeshpy_1_1ConstBuffer__char" id="r_a8e3673e96896af9da03ac8835838170d"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html#a8e3673e96896af9da03ac8835838170d">__getitem__</a> (self, int i)</td></tr>
+<tr class="memitem:ac9837f0c30f9646eba31bcafc7d676b1 inherit pub_methods_classmrmeshpy_1_1ConstBuffer__char" id="r_ac9837f0c30f9646eba31bcafc7d676b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html#ac9837f0c30f9646eba31bcafc7d676b1">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:aaf9d68bcce62e242072356ce9b6b5cd5 inherit pub_methods_classmrmeshpy_1_1ConstBuffer__char" id="r_aaf9d68bcce62e242072356ce9b6b5cd5"><td class="memItemLeft" align="right" valign="top">typing.Iterator[str]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html#aaf9d68bcce62e242072356ce9b6b5cd5">__iter__</a> (self)</td></tr>
+<tr class="memitem:aadbaf3fecc1659f6069b316d34575ae5 inherit pub_methods_classmrmeshpy_1_1ConstBuffer__char" id="r_aadbaf3fecc1659f6069b316d34575ae5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html#aadbaf3fecc1659f6069b316d34575ae5">backId</a> (self)</td></tr>
+<tr class="memitem:a04b1d38967cccabfad47098fbbcb526c inherit pub_methods_classmrmeshpy_1_1ConstBuffer__char" id="r_a04b1d38967cccabfad47098fbbcb526c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html#a04b1d38967cccabfad47098fbbcb526c">beginId</a> (self)</td></tr>
+<tr class="memitem:a65a3cdf73379c16408632de91bca98d7 inherit pub_methods_classmrmeshpy_1_1ConstBuffer__char" id="r_a65a3cdf73379c16408632de91bca98d7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html#a65a3cdf73379c16408632de91bca98d7">capacity</a> (self)</td></tr>
+<tr class="memitem:a67938fac87d676b77e81c7daf51ee7e0 inherit pub_methods_classmrmeshpy_1_1ConstBuffer__char" id="r_a67938fac87d676b77e81c7daf51ee7e0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html#a67938fac87d676b77e81c7daf51ee7e0">empty</a> (self)</td></tr>
+<tr class="memitem:ac61cd5b2d24c7ab31ef04bbbf428ef06 inherit pub_methods_classmrmeshpy_1_1ConstBuffer__char" id="r_ac61cd5b2d24c7ab31ef04bbbf428ef06"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html#ac61cd5b2d24c7ab31ef04bbbf428ef06">endId</a> (self)</td></tr>
+<tr class="memitem:a68da8f9267cbc25e66cc97b75bf4439f inherit pub_methods_classmrmeshpy_1_1ConstBuffer__char" id="r_a68da8f9267cbc25e66cc97b75bf4439f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html#a68da8f9267cbc25e66cc97b75bf4439f">heapBytes</a> (self)</td></tr>
+<tr class="memitem:ad3c9381f52b6b4ac909fdeab106a5556 inherit pub_methods_classmrmeshpy_1_1ConstBuffer__char" id="r_ad3c9381f52b6b4ac909fdeab106a5556"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html#ad3c9381f52b6b4ac909fdeab106a5556">size</a> (self)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::Buffer&lt;char&gt;
 
-
- \\brief std::vector&lt;V&gt;-like container that is
-  1) resized without initialization of its elements,
-  2) much simplified: no push_back and many other methods
- \\tparam V type of stored elements
- \\tparam I type of index (shall be convertible to size_t)
+\\brief std::vector&lt;V&gt;-like container that is
+ 1) resized without initialization of its elements,
+ 2) much simplified: no push_back and many other methods
+\\tparam V type of stored elements
+\\tparam I type of index (shall be convertible to size_t)
 </pre> </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aae864dfaf0aea5b8b1f08496e4ff9ab6" name="aae864dfaf0aea5b8b1f08496e4ff9ab6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aae864dfaf0aea5b8b1f08496e4ff9ab6">&#9670;&#160;</a></span>__init__() <span class="overload">[1/2]</span></h2>
@@ -213,8 +218,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="abc538c0142e48b6ebf3676f10332deaf" name="abc538c0142e48b6ebf3676f10332deaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc538c0142e48b6ebf3676f10332deaf">&#9670;&#160;</a></span>__getitem__() <span class="overload">[1/2]</span></h2>
+<a id="a592a5facf9a8234b397871aaf9778011" name="a592a5facf9a8234b397871aaf9778011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a592a5facf9a8234b397871aaf9778011">&#9670;&#160;</a></span>__getitem__() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -222,7 +227,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"> str mrmeshpy.Buffer_char.__getitem__ </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html">ConstBuffer_char</a></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -255,23 +260,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="afc65361a54879ccb9867def20b7c6e18" name="afc65361a54879ccb9867def20b7c6e18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc65361a54879ccb9867def20b7c6e18">&#9670;&#160;</a></span>__iter__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> typing.Iterator[str] mrmeshpy.Buffer_char.__iter__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a883db2fc613361c157ee583714015af3" name="a883db2fc613361c157ee583714015af3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a883db2fc613361c157ee583714015af3">&#9670;&#160;</a></span>__setitem__()</h2>
 
@@ -298,59 +286,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a42e641487c6b685ee573457a1994e59c" name="a42e641487c6b685ee573457a1994e59c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42e641487c6b685ee573457a1994e59c">&#9670;&#160;</a></span>backId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int mrmeshpy.Buffer_char.backId </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns the identifier of the back() element
-</pre> 
-</div>
-</div>
-<a id="abd41d3ab5b8f2a1c50568121ff73bf4c" name="abd41d3ab5b8f2a1c50568121ff73bf4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd41d3ab5b8f2a1c50568121ff73bf4c">&#9670;&#160;</a></span>beginId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int mrmeshpy.Buffer_char.beginId </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns the identifier of the first element
-</pre> 
-</div>
-</div>
-<a id="a2b8fa582d854db4963e4aba0e980e770" name="a2b8fa582d854db4963e4aba0e980e770"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b8fa582d854db4963e4aba0e980e770">&#9670;&#160;</a></span>capacity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int mrmeshpy.Buffer_char.capacity </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a4553dc4f1d54ce58cfe8cca12e09b9cc" name="a4553dc4f1d54ce58cfe8cca12e09b9cc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4553dc4f1d54ce58cfe8cca12e09b9cc">&#9670;&#160;</a></span>clear()</h2>
 
@@ -368,8 +303,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad1147e3c3978f8d10c90d9cc7c9c669f" name="ad1147e3c3978f8d10c90d9cc7c9c669f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1147e3c3978f8d10c90d9cc7c9c669f">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
+<a id="af4990e91ff2b657c2fae4a69063e723d" name="af4990e91ff2b657c2fae4a69063e723d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4990e91ff2b657c2fae4a69063e723d">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -377,11 +312,13 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"> str mrmeshpy.Buffer_char.data </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html">ConstBuffer_char</a></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html#a6f5bb3f91763cd7574941676d0bd671a">mrmeshpy.ConstBuffer_char</a>.</p>
 
 </div>
 </div>
@@ -400,59 +337,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="ab1c78053bc7f524580e4e1c84c3fe1bb" name="ab1c78053bc7f524580e4e1c84c3fe1bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1c78053bc7f524580e4e1c84c3fe1bb">&#9670;&#160;</a></span>empty()</h2>
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstBuffer__char.html#a6f5bb3f91763cd7574941676d0bd671a">mrmeshpy.ConstBuffer_char</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.Buffer_char.empty </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a23894f77d3a42dcceb16b0ca1e9dc8c6" name="a23894f77d3a42dcceb16b0ca1e9dc8c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23894f77d3a42dcceb16b0ca1e9dc8c6">&#9670;&#160;</a></span>endId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int mrmeshpy.Buffer_char.endId </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns backId() + 1
-</pre> 
-</div>
-</div>
-<a id="accb9ba8a6126e28cc008ba710ba7d4bf" name="accb9ba8a6126e28cc008ba710ba7d4bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accb9ba8a6126e28cc008ba710ba7d4bf">&#9670;&#160;</a></span>heapBytes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int mrmeshpy.Buffer_char.heapBytes </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns the amount of memory this object occupies on heap
-</pre> 
 </div>
 </div>
 <a id="a2c4ea088b0fe149910ab9346dc7ad539" name="a2c4ea088b0fe149910ab9346dc7ad539"></a>
@@ -470,23 +356,6 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a73c0be0fd46899063e09ceb777db4a75" name="a73c0be0fd46899063e09ceb777db4a75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73c0be0fd46899063e09ceb777db4a75">&#9670;&#160;</a></span>size()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int mrmeshpy.Buffer_char.size </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">

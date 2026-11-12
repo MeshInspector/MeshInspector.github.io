@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -191,8 +184,8 @@ $(function(){initNavTree('MRTetrisNesting_8h_source.html','',''); });
 <div class="ttc" id="aMRVolumeIndexer_8h_html"><div class="ttname"><a href="MRVolumeIndexer_8h.html">MRVolumeIndexer.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html_a5a563214874b42adf9d3bbba08988cad"><div class="ttname"><a href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a></div><div class="ttdeci">#define MRVOXELS_API</div><div class="ttdoc">see explanation in MRMesh/MRMeshFwd.h</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:14</div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRVector.h:23</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:759</div></div>
+<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">Vector&lt;T&gt; is indexed by size_t.</div><div class="ttdef"><b>Definition</b> MRVector.h:24</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:789</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga2cbe87a23074d994591bf8ff7998359a"><div class="ttname"><a href="group__GeneralGroup.html#ga2cbe87a23074d994591bf8ff7998359a">MR::Nesting::tetrisNestingDensify</a></div><div class="ttdeci">Expected&lt; Vector&lt; AffineXf3f, ObjId &gt; &gt; tetrisNestingDensify(const Vector&lt; MeshXf, ObjId &gt; &amp;meshes, const TetrisDensifyParams &amp;params)</div><div class="ttdoc">make nested meshes more compact by representing them via voxels and pushing to nest zero</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga2f011ee43797dfd41b3cf45ef8f73cd3"><div class="ttname"><a href="group__GeneralGroup.html#ga2f011ee43797dfd41b3cf45ef8f73cd3">MR::Nesting::TetrisDensifyOptions::densificationSequence</a></div><div class="ttdeci">std::vector&lt; OutEdge &gt; densificationSequence</div><div class="ttdoc">tetris box will be densify in these directions one by one</div><div class="ttdef"><b>Definition</b> MRTetrisNesting.h:25</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga558380f5544f18c8eef21feef0149630"><div class="ttname"><a href="group__GeneralGroup.html#ga558380f5544f18c8eef21feef0149630">MR::Nesting::TetrisDensifyParams::options</a></div><div class="ttdeci">TetrisDensifyOptions options</div><div class="ttdef"><b>Definition</b> MRTetrisNesting.h:37</div></div>
@@ -207,7 +200,7 @@ $(function(){initNavTree('MRTetrisNesting_8h_source.html','',''); });
 <div class="ttc" id="agroup__VolumeIndexerGroup_html_ggaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454"><div class="ttname"><a href="group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454">MR::OutEdge::MinusX</a></div><div class="ttdeci">@ MinusX</div><div class="ttdef"><b>Definition</b> MRVolumeIndexer.h:28</div></div>
 <div class="ttc" id="agroup__VolumeIndexerGroup_html_ggaa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565"><div class="ttname"><a href="group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565">MR::OutEdge::MinusY</a></div><div class="ttdeci">@ MinusY</div><div class="ttdef"><b>Definition</b> MRVolumeIndexer.h:26</div></div>
 <div class="ttc" id="anamespaceMR_1_1Nesting_html"><div class="ttname"><a href="namespaceMR_1_1Nesting.html">MR::Nesting</a></div><div class="ttdef"><b>Definition</b> MRNesting3mfExport.h:20</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Nesting_1_1NestingBaseParams_html"><div class="ttname"><a href="structMR_1_1Nesting_1_1NestingBaseParams.html">MR::Nesting::NestingBaseParams</a></div><div class="ttdef"><b>Definition</b> MRNestingStructures.h:33</div></div>
 <div class="ttc" id="astructMR_1_1Nesting_1_1TetrisDensifyOptions_html"><div class="ttname"><a href="structMR_1_1Nesting_1_1TetrisDensifyOptions.html">MR::Nesting::TetrisDensifyOptions</a></div><div class="ttdef"><b>Definition</b> MRTetrisNesting.h:20</div></div>
 <div class="ttc" id="astructMR_1_1Nesting_1_1TetrisDensifyParams_html"><div class="ttname"><a href="structMR_1_1Nesting_1_1TetrisDensifyParams.html">MR::Nesting::TetrisDensifyParams</a></div><div class="ttdef"><b>Definition</b> MRTetrisNesting.h:35</div></div>

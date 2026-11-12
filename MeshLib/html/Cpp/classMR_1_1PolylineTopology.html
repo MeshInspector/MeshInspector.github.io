@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -157,7 +150,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ga033fa53955636a7d40a7a37dd5a263ab" id="r_ga033fa53955636a7d40a7a37dd5a263ab"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga033fa53955636a7d40a7a37dd5a263ab">makeEdge</a> ()</td></tr>
 <tr class="memdesc:ga033fa53955636a7d40a7a37dd5a263ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates an edge not associated with any vertex  <br /></td></tr>
 <tr class="memitem:gac116a959de25e8596abded56752f580d" id="r_gac116a959de25e8596abded56752f580d"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac116a959de25e8596abded56752f580d">makeEdge</a> (VertId a, VertId b, EdgeId e={})</td></tr>
-<tr class="memitem:ga8a4fbc8fedb7d97bff82911cce15609a" id="r_ga8a4fbc8fedb7d97bff82911cce15609a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8a4fbc8fedb7d97bff82911cce15609a">makeEdges</a> (const <a class="el" href="group__GeneralGroup.html#ga29d14b75d26970bc256e90bf11c3f0e5">Edges</a> &amp;edges)</td></tr>
+<tr class="memitem:ga8a4fbc8fedb7d97bff82911cce15609a" id="r_ga8a4fbc8fedb7d97bff82911cce15609a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8a4fbc8fedb7d97bff82911cce15609a">makeEdges</a> (const <a class="el" href="group__GeneralGroup.html#gga7e37fa1740b5f4c708f5716eeb5f7f7ea484afb8d54ec549700b1fe96417519a9">Edges</a> &amp;edges)</td></tr>
 <tr class="memitem:ga340d1c3c2700cc5e1f3e470e2b04e0ca" id="r_ga340d1c3c2700cc5e1f3e470e2b04e0ca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga340d1c3c2700cc5e1f3e470e2b04e0ca">isLoneEdge</a> (EdgeId a) const</td></tr>
 <tr class="memdesc:ga340d1c3c2700cc5e1f3e470e2b04e0ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether the edge is disconnected from all other edges and disassociated from all vertices (as if after makeEdge)  <br /></td></tr>
 <tr class="memitem:ga40e8d81723bd6eb788fb7a2f51478ff8" id="r_ga40e8d81723bd6eb788fb7a2f51478ff8"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga40e8d81723bd6eb788fb7a2f51478ff8">lastNotLoneUndirectedEdge</a> () const</td></tr>

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -164,13 +157,13 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
-<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only strictly necessary for the bindings (to make <span class="tt"><a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a></span> a complete type). <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gaf6d3efe947b644fef660853b7e04af48" id="r_gaf6d3efe947b644fef660853b7e04af48"><td class="memItemLeft" align="right" valign="top">std::optional&lt; VertScalars &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf6d3efe947b644fef660853b7e04af48">MR::computeRayThicknessAtVertices</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
 <tr class="memdesc:gaf6d3efe947b644fef660853b7e04af48"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the distance from each vertex along minus normal to the nearest mesh intersection (or FLT_MAX if no intersection found)  <br /></td></tr>
-<tr class="memitem:gaf7ec2d97bf7b58faf0c849207487aad4" id="r_gaf7ec2d97bf7b58faf0c849207487aad4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf7ec2d97bf7b58faf0c849207487aad4">MR::computeThicknessAtVertices</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memitem:ga5e2827e893913cd78c58f7d5841bcf6e" id="r_ga5e2827e893913cd78c58f7d5841bcf6e"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga5e2827e893913cd78c58f7d5841bcf6e">MR::computeThicknessAtVertices</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memitem:gaa9c5c0b26cba97383d5a1063ca76ba5c" id="r_gaa9c5c0b26cba97383d5a1063ca76ba5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa9c5c0b26cba97383d5a1063ca76ba5c">MR::rayInsideIntersect</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshPoint.html">MeshPoint</a> &amp;m, float rayEnd=FLT_MAX)</td></tr>
 <tr class="memdesc:gaa9c5c0b26cba97383d5a1063ca76ba5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the nearest intersection between the mesh and the ray from given point along minus normal (inside the mesh)  <br /></td></tr>
 <tr class="memitem:ga4414d873b4a14b339aa9f7ab170b740d" id="r_ga4414d873b4a14b339aa9f7ab170b740d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4414d873b4a14b339aa9f7ab170b740d">MR::rayInsideIntersect</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, VertId v, float rayEnd=FLT_MAX)</td></tr>

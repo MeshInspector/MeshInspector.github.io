@@ -13,7 +13,7 @@ var classMR_1_1PointsSave_1_1CtmSavePointsOptions =
     [ "materialName", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#aec2ec8ae788170b3211073792734e9b9", null ],
     [ "onlyValidPoints", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#aea9f2c0246e653d9d34e5112e6467105", null ],
     [ "packPrimitives", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#ad2a37dc08ee30995324e0f9e2c6f1c21", null ],
-    [ "primitiveColors", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a77ed3275c62b39b389b88d6d9be8b773", null ],
+    [ "primitiveColors", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a69bcdc70536ed2f0896314e699c64c5a", null ],
     [ "progress", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a419c111e1407e323211bf1ca29107474", null ],
     [ "saveTriCornerUVCoords", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a5adae3e123efa75fe80e89c0abde1b26", null ],
     [ "solidColor", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#af59ed457415d359be9c6e9fd8e256c56", null ],

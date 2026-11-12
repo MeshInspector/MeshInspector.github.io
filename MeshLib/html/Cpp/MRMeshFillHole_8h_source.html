@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -187,11 +180,11 @@ $(function(){initNavTree('MRMeshFillHole_8h_source.html','',''); });
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>};</div>
 </div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span></div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="group__FillHoleGroup.html#ga1411d5a294195af4ea96f30d4e47a108">  118</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="group__FillHoleGroup.html#ga1411d5a294195af4ea96f30d4e47a108">stitchHoles</a>( <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, EdgeId a, EdgeId b, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1StitchHolesParams.html">StitchHolesParams</a>&amp; params = {} );</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="group__FillHoleGroup.html#ga1411d5a294195af4ea96f30d4e47a108">  118</a></span>MR_BIND_OVERLOAD_SUFFIX() <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="group__FillHoleGroup.html#ga1411d5a294195af4ea96f30d4e47a108">stitchHoles</a>( <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, EdgeId a, EdgeId b, const <a class="code hl_struct" href="structMR_1_1StitchHolesParams.html">StitchHolesParams</a>&amp; params = {} );</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>[[deprecated( <span class="stringliteral">&quot;Use stitchHoles( mesh, a, b, params )&quot;</span> )]]</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="group__FillHoleGroup.html#ga2f24ede2ab1d007b775443aff87d052a">  120</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="group__FillHoleGroup.html#ga2f24ede2ab1d007b775443aff87d052a">buildCylinderBetweenTwoHoles</a>( <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a> &amp; mesh, EdgeId a, EdgeId b, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1StitchHolesParams.html">StitchHolesParams</a>&amp; params = {} );</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span></div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="group__FillHoleGroup.html#ga1d5c1c9ce33580b95bdf4834f022ed3e">  123</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__FillHoleGroup.html#ga1411d5a294195af4ea96f30d4e47a108">stitchHoles</a>( <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1StitchHolesParams.html">StitchHolesParams</a>&amp; params = {} );</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="group__FillHoleGroup.html#ga1d5c1c9ce33580b95bdf4834f022ed3e">  123</a></span>MR_BIND_OVERLOAD_SUFFIX(<span class="keyword">auto</span>) <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__FillHoleGroup.html#ga1411d5a294195af4ea96f30d4e47a108">stitchHoles</a>( <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, const <a class="code hl_struct" href="structMR_1_1StitchHolesParams.html">StitchHolesParams</a>&amp; params = {} );</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>[[deprecated( <span class="stringliteral">&quot;Use stitchHoles( mesh, params )&quot;</span> )]]</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="group__FillHoleGroup.html#ga9de831741793790088bcc1af9358c25c">  125</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__FillHoleGroup.html#ga2f24ede2ab1d007b775443aff87d052a">buildCylinderBetweenTwoHoles</a>( <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a> &amp; mesh, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1StitchHolesParams.html">StitchHolesParams</a>&amp; params = {} );</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
@@ -285,7 +278,7 @@ $(function(){initNavTree('MRMeshFillHole_8h_source.html','',''); });
 <div class="ttc" id="agroup__FillHoleGroup_html_gaedeea912acd0e1829ff8da9d845c8f69"><div class="ttname"><a href="group__FillHoleGroup.html#gaedeea912acd0e1829ff8da9d845c8f69">MR::makeInterHoleBridgeEdges</a></div><div class="ttdeci">std::vector&lt; EdgeId &gt; makeInterHoleBridgeEdges(Mesh &amp;mesh, const std::vector&lt; EdgeId &gt; &amp;holeRepresentativeEdges)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga099da1b4cb4b8348ee3fed0588b01aa3"><div class="ttname"><a href="group__GeneralGroup.html#ga099da1b4cb4b8348ee3fed0588b01aa3">MR::EdgeLoop</a></div><div class="ttdeci">std::vector&lt; EdgeId &gt; EdgeLoop</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:156</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga6b8606e6618471611100352ed5a178a7"><div class="ttname"><a href="group__GeneralGroup.html#ga6b8606e6618471611100352ed5a178a7">MR::Plane3f</a></div><div class="ttdeci">Plane3f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:391</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1FillHoleMetric_html"><div class="ttname"><a href="structMR_1_1FillHoleMetric.html">MR::FillHoleMetric</a></div><div class="ttdoc">Holds metrics for fillHole and stitchHoles triangulation .</div><div class="ttdef"><b>Definition</b> MRMeshMetrics.h:40</div></div>
 <div class="ttc" id="astructMR_1_1FillHoleParams_html"><div class="ttname"><a href="structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></div><div class="ttdoc">Parameters structure for MR::fillHole Structure has some options to control MR::fillHole.</div><div class="ttdef"><b>Definition</b> MRMeshFillHole.h:27</div></div>
 <div class="ttc" id="astructMR_1_1FillHoleParams_html_a1789bd574d007a370fe6164d4f5ca7c4"><div class="ttname"><a href="structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4">MR::FillHoleParams::outNewFaces</a></div><div class="ttdeci">FaceBitSet * outNewFaces</div><div class="ttdoc">If not nullptr accumulate new faces.</div><div class="ttdef"><b>Definition</b> MRMeshFillHole.h:42</div></div>

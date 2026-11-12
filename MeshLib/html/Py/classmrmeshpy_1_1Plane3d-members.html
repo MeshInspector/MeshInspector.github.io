@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -145,22 +138,24 @@ $(function(){initNavTree('classmrmeshpy_1_1Plane3d.html','',''); });
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#ad7a96040aff5b49d8a374844cf3c45d2">__init__</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a49bdd21570dad52482d66335477ab483">__init__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a4b76dc5822ce23f643e44854620b5e95">__init__</a>(self, Vector3d n, float d)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a8a882c73fecc9ba56ab250bb4111a563">__init__</a>(self, Plane3f p)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#ab29f950ae96bc327ed53ef41c6032072">__init__</a>(self, Plane3d arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a56b9de6327ab66d7415af7905c1773bf">__neg__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#ad4c52f864107ea736949498305c18b9f">__pos__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a2012644425cecdf88da76cde809b9e0f">__repr__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a1afd3be37f3d287e5eda4ea62598f24c">__rlshift__</a>(self, typing.Any pl)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a0d7d8f5abdb856a441e962a499d544d8">__init__</a>(self, ConstVector3d n, float d)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a1f7b45f6dd01ace07b8ee2618df568e9">__init__</a>(self, ConstPlane3f p)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#afcac9ce10d1c2686d0cb94644b6f119f">__init__</a>(self, ConstPlane3d arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html#a20334488f75d013bfeaad8ed436e524a">__neg__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html">mrmeshpy.ConstPlane3d</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html#a8c0ae3b216a45cb936eb7dea54fc961d">__pos__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html">mrmeshpy.ConstPlane3d</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html#af4f8bd99bcca82618bc561e7972ed9c8">__repr__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html">mrmeshpy.ConstPlane3d</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html#a0dcce522c9a395d3e1229307d082f589">__rlshift__</a>(self, typing.Any pl)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html">mrmeshpy.ConstPlane3d</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a316e8647db15da17b4c40f36e0573f9f">__rrshift__</a>(self, typing.Any pl)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a59bf42fb5736f617560ee21cde7b83bb">_offsetof_d</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a291c57425b131685c79080ab47b5827f">_offsetof_n</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a46b56cf9734a49537fa5bd347181cace">distance</a>(self, Vector3d x)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a8eb1044a1c3295a7f90ce8565a9bf647">fromDirAndPt</a>(Vector3d n, Vector3d p)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#ae7be54f300aa350bfc0db5249ce73d39">normalized</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a2fdde9e6333c7b5cf4562c34582a45c7">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a2fdde9e6333c7b5cf4562c34582a45c7">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a9237b6fdf901325105efb5bf06e60cb4">project</a>(self, Vector3d p)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html#a146a1cbe07a2c0541ba1a10c0bf64716">_offsetof_d</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html">mrmeshpy.ConstPlane3d</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html#af7fda8a000cde70165921ee59468202d">_offsetof_n</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html">mrmeshpy.ConstPlane3d</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a020060762afd1171049b8029f4efadd4">assign</a>(self, ConstPlane3d other)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html#a595ecccb8432c08c7fd1363bf2b78595">d</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html">mrmeshpy.ConstPlane3d</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html#a3f7795f87b4960f56783ebee20a88175">distance</a>(self, ConstVector3d x)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html">mrmeshpy.ConstPlane3d</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html#aac68335de606bcc0e7a85c3fc81d8cb3">fromDirAndPt</a>(ConstVector3d n, ConstVector3d p)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html">mrmeshpy.ConstPlane3d</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#a919a779ae3b95abfefc36e8434d41196">n</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html#aa4a40da163157e5ef45df18a58c4d97d">n</a>(self, ConstVector3d arg1)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Plane3d.html">mrmeshpy.Plane3d</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html#a488194cb060d27eed9aa9b4c326f6df2">normalized</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html">mrmeshpy.ConstPlane3d</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html#a93c416830b5cde413ceb4b4f496d5edf">project</a>(self, ConstVector3d p)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPlane3d.html">mrmeshpy.ConstPlane3d</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

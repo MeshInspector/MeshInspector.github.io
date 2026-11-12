@@ -6,7 +6,6 @@ var classMR_1_1Const__UndirectedEdgeMap =
     [ "Const_UndirectedEdgeMap", "classMR_1_1Const__UndirectedEdgeMap.html#ac5bf42ba55d4d27912c89b24797f12e2", null ],
     [ "Const_UndirectedEdgeMap", "classMR_1_1Const__UndirectedEdgeMap.html#a492ebb2745424e88acb5a795d13e3ffa", null ],
     [ "Const_UndirectedEdgeMap", "classMR_1_1Const__UndirectedEdgeMap.html#a449a7cb40c89a8d8569c6d530eaabd94", null ],
-    [ "Const_UndirectedEdgeMap", "classMR_1_1Const__UndirectedEdgeMap.html#a1c1a37d896c732c7e86ac04c370d3f0a", null ],
     [ "back", "classMR_1_1Const__UndirectedEdgeMap.html#a763f547537a912325b3e065eabd31d9b", null ],
     [ "backId", "classMR_1_1Const__UndirectedEdgeMap.html#a3b607169adfc4cdfa7b4378afc6864a8", null ],
     [ "beginId", "classMR_1_1Const__UndirectedEdgeMap.html#a0c4dd91e168306681dc2ee5a8bac6bed", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__UndirectedEdgeMap =
     [ "Equals", "classMR_1_1Const__UndirectedEdgeMap.html#a78404d9582134a40177803fd1aaa31fe", null ],
     [ "Equals", "classMR_1_1Const__UndirectedEdgeMap.html#a6f8284767a211001551d50f3fd8ba8fc", null ],
     [ "front", "classMR_1_1Const__UndirectedEdgeMap.html#ac6eab1e85c51bd68c6bfc7f9114907be", null ],
-    [ "GetEnumerator", "classMR_1_1Const__UndirectedEdgeMap.html#a162688c2c53c99d50bb733eaa27014e8", null ],
     [ "heapBytes", "classMR_1_1Const__UndirectedEdgeMap.html#a85b4c0c14beaa8029f54111a2a1bee5b", null ],
-    [ "operator Const_UndirectedEdgeMap", "classMR_1_1Const__UndirectedEdgeMap.html#a8ed3fb3fe95c45e354b31bb0388b9625", null ],
+    [ "maxSize", "classMR_1_1Const__UndirectedEdgeMap.html#aaa1fb57fe24764215823e7d4fa8d3b66", null ],
     [ "operator!=", "classMR_1_1Const__UndirectedEdgeMap.html#a0b585b99bc79630ab29dfbb1bf780147", null ],
     [ "operator==", "classMR_1_1Const__UndirectedEdgeMap.html#ab77c237c6176dc6d67a588243d7977f9", null ],
     [ "size", "classMR_1_1Const__UndirectedEdgeMap.html#a38f9f8d6e1b1a778ccdcd10f567028d3", null ],
     [ "this[MR.UndirectedEdgeId i]", "classMR_1_1Const__UndirectedEdgeMap.html#aa5686423dc8487164350cebd8dda5405", null ],
-    [ "vec", "classMR_1_1Const__UndirectedEdgeMap.html#a25c2a33f7c616ce06861b2ca6da7467d", null ]
+    [ "vec", "classMR_1_1Const__UndirectedEdgeMap.html#ae3055fd9b252b85db3c46824dde4ceb9", null ]
 ];

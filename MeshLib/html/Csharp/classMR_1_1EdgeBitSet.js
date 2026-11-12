@@ -8,6 +8,7 @@ var classMR_1_1EdgeBitSet =
     [ "EdgeBitSet", "classMR_1_1EdgeBitSet.html#a4b6427f8d905a473fef3decd9ad86dc4", null ],
     [ "EdgeBitSet", "classMR_1_1EdgeBitSet.html#ad1f73f88d4aacf19ed38df454f494326", null ],
     [ "assign", "classMR_1_1EdgeBitSet.html#adfa61eae58c142f689555398b2a21f14", null ],
+    [ "atomicTestSet", "classMR_1_1EdgeBitSet.html#ab4d59e48367ac36e6cb13a802a9d1f7a", null ],
     [ "autoResizeSet", "classMR_1_1EdgeBitSet.html#a80aace917a28a4f596e635a59a615538", null ],
     [ "autoResizeSet", "classMR_1_1EdgeBitSet.html#a30d27f0ef290d36490c15ff4e2c1b0e7", null ],
     [ "autoResizeTestSet", "classMR_1_1EdgeBitSet.html#a7c7225ccd8b4717a063443f569042318", null ],

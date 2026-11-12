@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -145,12 +138,15 @@ $(function(){initNavTree('classmrmeshpy_1_1Matrix3__int__QR.html','',''); });
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html#aeedd300cf722380396eadd337e4c7b21">__init__</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html">mrmeshpy.Matrix3_int_QR</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html#a4baa26f87118050321dee5e6c96b968c">__init__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html">mrmeshpy.Matrix3_int_QR</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html#a137e23e61462da3038470765bce4664b">__init__</a>(self, Matrix3_int_QR arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html">mrmeshpy.Matrix3_int_QR</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html#ae61e013bbb1c40ceba9bb214c9d709aa">__init__</a>(self, Matrix3i q, Matrix3i r)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html">mrmeshpy.Matrix3_int_QR</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html#a38015b332c1201a1db1cd802252dd749">_offsetof_q</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html">mrmeshpy.Matrix3_int_QR</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html#aa62748d558ef21a0a1d43c8835cdf129">_offsetof_r</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html">mrmeshpy.Matrix3_int_QR</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html#a18638d9314527503446dea38a64ffa62">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html">mrmeshpy.Matrix3_int_QR</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html#a18638d9314527503446dea38a64ffa62">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html">mrmeshpy.Matrix3_int_QR</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html#a29c72200a1ec28dcc9144b4a50eaeded">__init__</a>(self, ConstMatrix3_int_QR arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html">mrmeshpy.Matrix3_int_QR</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html#a496a1adfffac5e0b334c1fb3488b8eff">__init__</a>(self, ConstMatrix3i q, ConstMatrix3i r)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html">mrmeshpy.Matrix3_int_QR</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstMatrix3__int__QR.html#ae1c28d8d15b79985f41d8315504ed9af">_offsetof_q</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstMatrix3__int__QR.html">mrmeshpy.ConstMatrix3_int_QR</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstMatrix3__int__QR.html#a283b951e21c425c1fd2c6ac7788e5017">_offsetof_r</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstMatrix3__int__QR.html">mrmeshpy.ConstMatrix3_int_QR</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html#a168dba98135d760d51e8c8458893105f">assign</a>(self, ConstMatrix3_int_QR other)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html">mrmeshpy.Matrix3_int_QR</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html#aca3e411cde78d534551eb998f50773b0">q</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html">mrmeshpy.Matrix3_int_QR</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html#a307a84dea98f472a6fb8c188a167adf2">q</a>(self, ConstMatrix3i arg1)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html">mrmeshpy.Matrix3_int_QR</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html#a7e1ff8a3194eb8cf1454503ea3732b6d">r</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html">mrmeshpy.Matrix3_int_QR</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html#afcd1acab065594ccbd3d812a149ec9e7">r</a>(self, ConstMatrix3i arg1)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Matrix3__int__QR.html">mrmeshpy.Matrix3_int_QR</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

@@ -1,6 +1,7 @@
 var classmrviewerpy_1_1UiValueUint =
 [
-    [ "max", "classmrviewerpy_1_1UiValueUint.html#a73a9d0f5d94f4e88bb6b3aef017d8fbe", null ],
-    [ "min", "classmrviewerpy_1_1UiValueUint.html#a37ec6e0673dc6f543b6b3cbe1612d071", null ],
-    [ "value", "classmrviewerpy_1_1UiValueUint.html#a83190b9cd00678bf5757932aba930764", null ]
+    [ "__init__", "classmrviewerpy_1_1UiValueUint.html#a8a8f29a0f3ddabfbb38fa12021f2befc", null ],
+    [ "__init__", "classmrviewerpy_1_1UiValueUint.html#ac951dff2418b32abca1a2788bf30b283", null ],
+    [ "__init__", "classmrviewerpy_1_1UiValueUint.html#a6a282bfe764020dc157b4750d45d229a", null ],
+    [ "assign", "classmrviewerpy_1_1UiValueUint.html#ad9dc02cca7e9922c42a5f86702ce4a86", null ]
 ];

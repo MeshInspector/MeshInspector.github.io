@@ -1,8 +1,9 @@
 var classmrmeshpy_1_1DetectTunnelSettings =
 [
     [ "__init__", "classmrmeshpy_1_1DetectTunnelSettings.html#a4780f054b8c777b9fc1023365b0a2954", null ],
-    [ "__init__", "classmrmeshpy_1_1DetectTunnelSettings.html#a317de0ed166625210cc55aa260efd286", null ],
-    [ "__init__", "classmrmeshpy_1_1DetectTunnelSettings.html#adefd0656372765f402da9cdfe43930a4", null ],
+    [ "__init__", "classmrmeshpy_1_1DetectTunnelSettings.html#a991e49c4de46807ec8f35f15d395930f", null ],
+    [ "__init__", "classmrmeshpy_1_1DetectTunnelSettings.html#a8663236f9416b3e0756dfd1f6419b38e", null ],
+    [ "assign", "classmrmeshpy_1_1DetectTunnelSettings.html#a28f3d77614aaa556731f7176efa4b12a", null ],
     [ "buildCoLoops", "classmrmeshpy_1_1DetectTunnelSettings.html#a4cc87e8cc6903205f7e0419e8f0ada2e", null ],
     [ "buildCoLoops", "classmrmeshpy_1_1DetectTunnelSettings.html#aeaafe0839a6317a6a5893315c22418a4", null ],
     [ "filterEquivalentCoLoops", "classmrmeshpy_1_1DetectTunnelSettings.html#ab2b764fcd6384fe60130983cf88c129c", null ],
@@ -14,7 +15,7 @@ var classmrmeshpy_1_1DetectTunnelSettings =
     [ "maxTunnelLength", "classmrmeshpy_1_1DetectTunnelSettings.html#a3793d92955cebfc52e5703a3b362415d", null ],
     [ "maxTunnelLength", "classmrmeshpy_1_1DetectTunnelSettings.html#ae91060c41c254aa10739d96b18c5b8be", null ],
     [ "metric", "classmrmeshpy_1_1DetectTunnelSettings.html#af4c7b8303b5a65af64911206cbce8c5b", null ],
-    [ "metric", "classmrmeshpy_1_1DetectTunnelSettings.html#a95925c956233579872e5d4d2ba529f9f", null ],
+    [ "metric", "classmrmeshpy_1_1DetectTunnelSettings.html#ab3bbd9006e057ab30aea650edd04ff17", null ],
     [ "progress", "classmrmeshpy_1_1DetectTunnelSettings.html#abae1388d40047094fc6f5ebf31ffa28c", null ],
-    [ "progress", "classmrmeshpy_1_1DetectTunnelSettings.html#a06978cd60b53f9f59c14e265e51bf7ef", null ]
+    [ "progress", "classmrmeshpy_1_1DetectTunnelSettings.html#aa96cc35e6687ca3f5b2bbdbce8acf2d4", null ]
 ];

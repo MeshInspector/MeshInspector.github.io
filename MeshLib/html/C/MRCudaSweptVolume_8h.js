@@ -1,7 +1,7 @@
 var MRCudaSweptVolume_8h =
 [
     [ "MR_Cuda_ComputeToolDistance", "MRCudaSweptVolume_8h.html#af43f022acf425284b603e852e10ec22f", null ],
-    [ "MR_Cuda_ComputeToolDistance_computeToolDistance", "MRCudaSweptVolume_8h.html#ae666def08ec348c5db58a099496a41c4", null ],
+    [ "MR_Cuda_ComputeToolDistance_computeToolDistance", "MRCudaSweptVolume_8h.html#ab5458b237abb7f949265ff2c7aa4813c", null ],
     [ "MR_Cuda_ComputeToolDistance_DefaultConstruct", "MRCudaSweptVolume_8h.html#a7617e5ebceeef016729107fafa5557a4", null ],
     [ "MR_Cuda_ComputeToolDistance_DefaultConstructArray", "MRCudaSweptVolume_8h.html#a893e2634c18195bc83bd8dd56e08543f", null ],
     [ "MR_Cuda_ComputeToolDistance_Destroy", "MRCudaSweptVolume_8h.html#a6230b3a6c708fc69ee65290369594dd5", null ],

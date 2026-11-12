@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Documentation
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -143,47 +136,56 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html','',''); });
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2CollisionSelf"></a></p>
 <p>Following code presents example of finding self-intersecting triangles of single mesh</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;MRMesh/MRTorus.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMesh.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMatrix3.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;MRMesh/MRAffineXf.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMeshCollide.h&quot;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRTorus_8h.html">MRMesh/MRTorus.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRMatrix3_8h.html">MRMesh/MRMatrix3.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRAffineXf_8h.html">MRMesh/MRAffineXf.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRMeshCollide_8h.html">MRMesh/MRMeshCollide.h</a>&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">auto</span> mesh = MR::makeTorusWithSelfIntersections(); <span class="comment">// make torus with self-intersections</span></div>
+<div class="line">    <span class="keyword">auto</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaefe2a3413e9ffcfb9ee62b40c3eb6f90">MR::makeTorusWithSelfIntersections</a>(); <span class="comment">// make torus with self-intersections</span></div>
 <div class="line"> </div>
-<div class="line">    <span class="keyword">auto</span> selfCollidingParis = MR::findSelfCollidingTriangles( mesh ); <span class="comment">// find self-intersecting faces pairs</span></div>
+<div class="line">    <span class="keyword">auto</span> selfCollidingParis = <a class="code hl_functionRef" href="./Cpp/group__AABBTreeGroup.html#ga8311349cbf854a8a56407def83e4342d">MR::findSelfCollidingTriangles</a>( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> ); <span class="comment">// find self-intersecting faces pairs</span></div>
 <div class="line">    <span class="keywordflow">if</span> ( !selfCollidingParis.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="comment">// check error</span></div>
-<div class="line">        std::cerr &lt;&lt; selfCollidingParis.error();</div>
+<div class="line">        std::cerr &lt;&lt; selfCollidingParis.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keyword">auto</span> [fl, fr] : *selfCollidingParis )</div>
 <div class="line">        std::cout &lt;&lt; int( fl ) &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; int( fr ) &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <span class="comment">// print each pair</span></div>
 <div class="line"> </div>
-<div class="line">    <span class="keyword">auto</span> selfCollidingBitSet = MR::findSelfCollidingTrianglesBS( mesh ); <span class="comment">// find bitset of self-intersecting faces</span></div>
+<div class="line">    <span class="keyword">auto</span> selfCollidingBitSet = <a class="code hl_functionRef" href="./Cpp/group__AABBTreeGroup.html#gaa34db2c0df1550c7f166893dbf581953">MR::findSelfCollidingTrianglesBS</a>( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> ); <span class="comment">// find bitset of self-intersecting faces</span></div>
 <div class="line">    <span class="keywordflow">if</span> ( !selfCollidingBitSet.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="comment">// check error</span></div>
-<div class="line">        std::cerr &lt;&lt; selfCollidingBitSet.error();</div>
+<div class="line">        std::cerr &lt;&lt; selfCollidingBitSet.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
 <div class="line">    std::cout &lt;&lt; selfCollidingBitSet-&gt;count() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <span class="comment">// print number of self-intersecting faces</span></div>
 <div class="line"> </div>
-<div class="line">    <span class="keyword">auto</span> isSelfColliding = MR::findSelfCollidingTriangles( mesh, <span class="keyword">nullptr</span> ); <span class="comment">// fast check if mesh has self-intersections</span></div>
+<div class="line">    <span class="keyword">auto</span> isSelfColliding = <a class="code hl_functionRef" href="./Cpp/group__AABBTreeGroup.html#ga8311349cbf854a8a56407def83e4342d">MR::findSelfCollidingTriangles</a>( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="keyword">nullptr</span> ); <span class="comment">// fast check if mesh has self-intersections</span></div>
 <div class="line">    <span class="keywordflow">if</span> ( !isSelfColliding.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="comment">// check error</span></div>
-<div class="line">        std::cerr &lt;&lt; isSelfColliding.error();</div>
+<div class="line">        std::cerr &lt;&lt; isSelfColliding.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
 <div class="line">    std::cout &lt;&lt; *isSelfColliding &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRAffineXf_8h_html"><div class="ttname"><a href="./Cpp/MRAffineXf_8h.html">MRAffineXf.h</a></div></div>
+<div class="ttc" id="aMRMatrix3_8h_html"><div class="ttname"><a href="./Cpp/MRMatrix3_8h.html">MRMatrix3.h</a></div></div>
+<div class="ttc" id="aMRMeshCollide_8h_html"><div class="ttname"><a href="./Cpp/MRMeshCollide_8h.html">MRMeshCollide.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aMRTorus_8h_html"><div class="ttname"><a href="./Cpp/MRTorus_8h.html">MRTorus.h</a></div></div>
+<div class="ttc" id="agroup__AABBTreeGroup_html_ga8311349cbf854a8a56407def83e4342d"><div class="ttname"><a href="./Cpp/group__AABBTreeGroup.html#ga8311349cbf854a8a56407def83e4342d">MR::findSelfCollidingTriangles</a></div><div class="ttdeci">Expected&lt; bool &gt; findSelfCollidingTriangles(const MeshPart &amp;mp, std::vector&lt; FaceFace &gt; *outCollidingPairs, ProgressCallback cb={}, const Face2RegionMap *regionMap=nullptr, bool touchIsIntersection=false)</div></div>
+<div class="ttc" id="agroup__AABBTreeGroup_html_gaa34db2c0df1550c7f166893dbf581953"><div class="ttname"><a href="./Cpp/group__AABBTreeGroup.html#gaa34db2c0df1550c7f166893dbf581953">MR::findSelfCollidingTrianglesBS</a></div><div class="ttdeci">Expected&lt; FaceBitSet &gt; findSelfCollidingTrianglesBS(const MeshPart &amp;mp, ProgressCallback cb={}, const Face2RegionMap *regionMap=nullptr, bool touchIsIntersection=false)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaefe2a3413e9ffcfb9ee62b40c3eb6f90"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaefe2a3413e9ffcfb9ee62b40c3eb6f90">MR::makeTorusWithSelfIntersections</a></div><div class="ttdeci">Mesh makeTorusWithSelfIntersections(float primaryRadius=1.0f, float secondaryRadius=0.1f, int primaryResolution=16, int secondaryResolution=16, std::vector&lt; Vector3f &gt; *points=nullptr)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
 <div class="line"> </div>
@@ -221,11 +223,11 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html','',''); });
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// make torus with self-intersections</span></div>
-<div class="line">    MR_Mesh* mesh = MR_makeTorusWithSelfIntersections( NULL, NULL, NULL, NULL, NULL );</div>
-<div class="line">    MR_MeshPart* mp = MR_MeshPart_Construct( mesh, NULL );</div>
+<div class="line">    MR_Mesh* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = MR_makeTorusWithSelfIntersections( NULL, NULL, NULL, NULL, NULL );</div>
+<div class="line">    MR_MeshPart* mp = MR_MeshPart_Construct( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// find self-intersecting faces pairs</span></div>
-<div class="line">    MR_expected_std_vector_MR_FaceFace_std_string* selfCollidingPairsRes = MR_findSelfCollidingTriangles_4( mp, MR_PassBy_DefaultArgument, NULL, NULL, NULL );</div>
+<div class="line">    MR_expected_std_vector_MR_FaceFace_std_string* selfCollidingPairsRes = MR_findSelfCollidingTriangles( mp, MR_PassBy_DefaultArgument, NULL, NULL, NULL );</div>
 <div class="line">    MR_std_vector_MR_FaceFace* selfCollidingPairs = MR_expected_std_vector_MR_FaceFace_std_string_value_mut( selfCollidingPairsRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !selfCollidingPairs )</div>
 <div class="line">    {</div>
@@ -254,7 +256,7 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html','',''); });
 <div class="line">    fprintf( stdout, <span class="stringliteral">&quot;%zu\n&quot;</span>, (<span class="keywordtype">size_t</span>)MR_FaceBitSet_count( selfCollidingBitSet ) );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// fast check if mesh has self-intersections</span></div>
-<div class="line">    MR_expected_bool_std_string* isSelfCollidingRes = MR_findSelfCollidingTriangles_5( mp, NULL, MR_PassBy_DefaultArgument, NULL, NULL, NULL );</div>
+<div class="line">    MR_expected_bool_std_string* isSelfCollidingRes = MR_findSelfCollidingTriangles_outPairs( mp, NULL, MR_PassBy_DefaultArgument, NULL, NULL, NULL );</div>
 <div class="line">    <span class="keywordtype">bool</span>* isSelfColliding = MR_expected_bool_std_string_value_mut( isSelfCollidingRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !isSelfColliding )</div>
 <div class="line">    {</div>
@@ -262,7 +264,6 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html','',''); });
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;%s\n&quot;</span>, MR_std_string_data( MR_expected_bool_std_string_error( isSelfCollidingRes ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_self_collision_fast;</div>
 <div class="line">    }</div>
-<div class="line">    <span class="comment">// print number of self-intersecting faces</span></div>
 <div class="line">    fprintf( stdout, <span class="stringliteral">&quot;%d\n&quot;</span>, *isSelfColliding );</div>
 <div class="line"> </div>
 <div class="line">    rc = EXIT_SUCCESS;</div>
@@ -273,35 +274,28 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html','',''); });
 <div class="line">fail_self_collision_pairs:</div>
 <div class="line">    MR_expected_std_vector_MR_FaceFace_std_string_Destroy( selfCollidingPairsRes );</div>
 <div class="line">    MR_MeshPart_Destroy( mp );</div>
-<div class="line">    MR_Mesh_Destroy( mesh );</div>
+<div class="line">    MR_Mesh_Destroy( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>static MR;</div>
-<div class="line"> </div>
-<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>CollisionSelfExample</div>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>CollisionSelfExample</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
-<div class="line">        var mesh = <span class="keyword">new</span> MeshPart(MR.makeTorusWithSelfIntersections()); <span class="comment">// make torus with self-intersections</span></div>
+<div class="line">        var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.makeTorusWithSelfIntersections(); <span class="comment">// make torus with self-intersections</span></div>
 <div class="line"> </div>
-<div class="line">        <span class="comment">// find self-intersecting faces pairs</span></div>
-<div class="line">        var selfCollidingPairs = findSelfCollidingTriangles(mesh);</div>
-<div class="line">        <span class="keywordflow">for</span> (nuint i = 0; i &lt; selfCollidingPairs.size(); i++)</div>
-<div class="line">        {</div>
-<div class="line">            var pair = selfCollidingPairs[i];</div>
-<div class="line">            Console.WriteLine($<span class="stringliteral">&quot;{pair.aFace.id} {pair.bFace.id}&quot;</span>); <span class="comment">// print each pair</span></div>
-<div class="line">        }</div>
+<div class="line">        var selfCollidingPairs = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findSelfCollidingTriangles(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>); <span class="comment">// find self-intersecting faces pairs</span></div>
+<div class="line">        <span class="keywordflow">for</span> (nuint i = 0; i &lt; selfCollidingPairs.size(); ++i)</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;{0} {1}&quot;</span>, selfCollidingPairs[i].aFace.id, selfCollidingPairs[i].bFace.id); <span class="comment">// print each pair</span></div>
 <div class="line"> </div>
-<div class="line">        <span class="comment">// find bitset of self-intersecting faces</span></div>
-<div class="line">        var selfCollidingBitSet = MR.findSelfCollidingTrianglesBS(mesh);</div>
+<div class="line">        var selfCollidingBitSet = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findSelfCollidingTrianglesBS(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>); <span class="comment">// find bitset of self-intersecting faces</span></div>
 <div class="line">        Console.WriteLine(selfCollidingBitSet.count()); <span class="comment">// print number of self-intersecting faces</span></div>
 <div class="line"> </div>
-<div class="line">        <span class="comment">// fast check if mesh has self-intersections</span></div>
-<div class="line">        var isSelfColliding = MR.findSelfCollidingTriangles(mesh, outCollidingPairs: <span class="keyword">null</span>);</div>
+<div class="line">        var isSelfColliding = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findSelfCollidingTriangles(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, outCollidingPairs: <span class="keyword">null</span>); <span class="comment">// fast check if mesh has self-intersections</span></div>
 <div class="line">        Console.WriteLine(isSelfColliding);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
@@ -319,8 +313,62 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html','',''); });
 <div class="line">console.log(selfCollidingFaces.count()); // number of self-intersecting faces</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">use meshlib::MeshPart;</div>
+<div class="line"> </div>
+<div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
+<div class="line">{</div>
+<div class="line">    let mesh = meshlib::make_torus_with_self_intersections(None, None, None, None, None); // make torus with self-intersections</div>
+<div class="line">    let part = MeshPart::construct(&amp;mesh, None);</div>
+<div class="line"> </div>
+<div class="line">    let self_colliding_pairs = meshlib::find_self_colliding_triangles(&amp;part, None, None, None).into_result()?; // find self-intersecting faces pairs</div>
+<div class="line">    for i in 0..self_colliding_pairs.size()</div>
+<div class="line">    {</div>
+<div class="line">        let pair = self_colliding_pairs.at(i);</div>
+<div class="line">        println!(&quot;{} {}&quot;, pair.a_face().id_, pair.b_face().id_); // print each pair</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    let self_colliding_bit_set = meshlib::find_self_colliding_triangles_bs(&amp;part, None, None, None).into_result()?; // find bitset of self-intersecting faces</div>
+<div class="line">    println!(&quot;{}&quot;, self_colliding_bit_set.count()); // print number of self-intersecting faces</div>
+<div class="line"> </div>
+<div class="line">    let is_self_colliding = meshlib::find_self_colliding_triangles_out_pairs(&amp;part, None, None, None, None).into_result()?; // fast check if mesh has self-intersections</div>
+<div class="line">    println!(&quot;{is_self_colliding}&quot;);</div>
+<div class="line"> </div>
+<div class="line">    Ok(())</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.FaceBitSet;</div>
+<div class="line"><span class="keyword">import</span> meshlib.FaceFace;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Functions;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.MeshPart;</div>
+<div class="line"><span class="keyword">import</span> meshlib.std_vector_MR_FaceFace;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>CollisionSelf</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        Mesh <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = Functions.makeTorusWithSelfIntersections(<span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>); <span class="comment">// make torus with self-intersections</span></div>
+<div class="line">        MeshPart part = <span class="keyword">new</span> MeshPart(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// An error is thrown as `UnexpectedResultException`.</span></div>
+<div class="line">        std_vector_MR_FaceFace selfCollidingPairs = Functions.findSelfCollidingTriangles(part, <span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>); <span class="comment">// find self-intersecting faces pairs</span></div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">long</span> i = 0; i &lt; selfCollidingPairs.size(); i++)</div>
+<div class="line">        {</div>
+<div class="line">            FaceFace ff = selfCollidingPairs.at(i);</div>
+<div class="line">            System.out.println(ff.aFace().id_() + <span class="stringliteral">&quot; &quot;</span> + ff.bFace().id_()); <span class="comment">// print each pair</span></div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        FaceBitSet selfCollidingBitSet = Functions.findSelfCollidingTrianglesBS(part, <span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>); <span class="comment">// find bitset of self-intersecting faces</span></div>
+<div class="line">        System.out.println(selfCollidingBitSet.count()); <span class="comment">// print number of self-intersecting faces</span></div>
+<div class="line"> </div>
+<div class="line">        <span class="keywordtype">boolean</span> isSelfColliding = Functions.findSelfCollidingTriangles(part, <span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>); <span class="comment">// fast check if mesh has self-intersections</span></div>
+<div class="line">        System.out.println(isSelfColliding);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
 </ul>
-</div> </div></div><!-- contents -->
+</div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->

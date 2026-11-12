@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -138,16 +131,14 @@ $(function(){initNavTree('classMR_1_1VertCoords.html','','classMR_1_1VertCoords-
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1VertCoords-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.VertCoords Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type,  
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt"><a class="el" href="classMR_1_1VertCoords.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.VertCoords. This is the non-const half of the ...">MR.VertCoords</a></span>. This is the non-const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.VertCoords:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -156,51 +147,48 @@ $(function(){initNavTree('classMR_1_1VertCoords.html','','classMR_1_1VertCoords-
  <div class="center">
   <img src="classMR_1_1VertCoords.png" usemap="#MR_2EVertCoords_map" alt=""/>
   <map id="MR_2EVertCoords_map" name="MR_2EVertCoords_map">
-<area href="classMR_1_1Const__VertCoords.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type," alt="MR.Const_VertCoords" shape="rect" coords="223,56,362,80"/>
+<area href="classMR_1_1Const__VertCoords.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.VertCoords. This is the const half of the clas..." alt="MR.Const_VertCoords" shape="rect" coords="149,56,288,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:_5FEnumerator" id="r__5FEnumerator"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_Enumerator</b></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7d1609b7e7f2069609c6832c0c7be123" id="r_a7d1609b7e7f2069609c6832c0c7be123"><td class="memItemLeft" align="right" valign="top">new IEnumerator&lt; MR.Misc.Ref&lt; <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d1609b7e7f2069609c6832c0c7be123">GetEnumerator</a> ()</td></tr>
 <tr class="memitem:a17d2cf5ae63b450645b98d17a8c6f587" id="r_a17d2cf5ae63b450645b98d17a8c6f587"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587">VertCoords</a> ()</td></tr>
-<tr class="memdesc:a17d2cf5ae63b450645b98d17a8c6f587"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
+<tr class="memdesc:a17d2cf5ae63b450645b98d17a8c6f587"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="memitem:accf90894e8da1669c4f034727baa77cc" id="r_accf90894e8da1669c4f034727baa77cc"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accf90894e8da1669c4f034727baa77cc">VertCoords</a> (MR._ByValue_VertCoords _other)</td></tr>
-<tr class="memdesc:accf90894e8da1669c4f034727baa77cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
+<tr class="memdesc:accf90894e8da1669c4f034727baa77cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="creates empty vector">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
 <tr class="memitem:a4be78995acb8e67b4aa8bb54ce8703cf" id="r_a4be78995acb8e67b4aa8bb54ce8703cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4be78995acb8e67b4aa8bb54ce8703cf">VertCoords</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">Const_VertCoords</a> _other)</td></tr>
-<tr class="memdesc:a4be78995acb8e67b4aa8bb54ce8703cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
+<tr class="memdesc:a4be78995acb8e67b4aa8bb54ce8703cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="creates empty vector">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
 <tr class="memitem:aa8879e60fde99aa8338404e64105b944" id="r_aa8879e60fde99aa8338404e64105b944"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8879e60fde99aa8338404e64105b944">VertCoords</a> (<a class="el" href="classMR_1_1VertCoords.html">VertCoords</a> _other)</td></tr>
-<tr class="memdesc:aa8879e60fde99aa8338404e64105b944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
+<tr class="memdesc:aa8879e60fde99aa8338404e64105b944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="creates empty vector">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
 <tr class="memitem:aa6e33d880d4ef5c073e1f1b8a63c83fa" id="r_aa6e33d880d4ef5c073e1f1b8a63c83fa"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6e33d880d4ef5c073e1f1b8a63c83fa">VertCoords</a> (nuint <a class="el" href="classMR_1_1Const__VertCoords.html#a7fc4d081ab3e09cf87f9d95e559ea724">size</a>)</td></tr>
-<tr class="memdesc:aa6e33d880d4ef5c073e1f1b8a63c83fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
+<tr class="memdesc:aa6e33d880d4ef5c073e1f1b8a63c83fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="creates empty vector">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
 <tr class="memitem:aacb9461d3e06aac176cb6d772cfa6b6f" id="r_aacb9461d3e06aac176cb6d772cfa6b6f"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacb9461d3e06aac176cb6d772cfa6b6f">VertCoords</a> (nuint <a class="el" href="classMR_1_1Const__VertCoords.html#a7fc4d081ab3e09cf87f9d95e559ea724">size</a>, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> val)</td></tr>
-<tr class="memdesc:aacb9461d3e06aac176cb6d772cfa6b6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
-<tr class="memitem:a3dc474851239754de2550636bc2442b1" id="r_a3dc474851239754de2550636bc2442b1"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dc474851239754de2550636bc2442b1">VertCoords</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRVector3f &gt; <a class="el" href="#a4263ac26a88b5931799ae81e96f3b207">vec</a>)</td></tr>
-<tr class="memdesc:a3dc474851239754de2550636bc2442b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
+<tr class="memdesc:aacb9461d3e06aac176cb6d772cfa6b6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="creates empty vector">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
 <tr class="memitem:a06fbd4c0fbdac0e8a5ba29fbe3587bca" id="r_a06fbd4c0fbdac0e8a5ba29fbe3587bca"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1VertCoords.html">MR.VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06fbd4c0fbdac0e8a5ba29fbe3587bca">assign</a> (MR._ByValue_VertCoords _other)</td></tr>
 <tr class="memdesc:a06fbd4c0fbdac0e8a5ba29fbe3587bca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::VertCoords::operator=</span>.  <br /></td></tr>
+<tr class="memitem:a7949ed0438352b527f450f1e435e5a58" id="r_a7949ed0438352b527f450f1e435e5a58"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7949ed0438352b527f450f1e435e5a58">assign</a> (nuint count, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> val)</td></tr>
+<tr class="memdesc:a7949ed0438352b527f450f1e435e5a58"><td class="mdescLeft">&#160;</td><td class="mdescRight">replaces the contents with <code class="param">count</code> copies of <code class="param">val</code> Generated from method <span class="tt"><a class="el" href="#a06fbd4c0fbdac0e8a5ba29fbe3587bca" title="Generated from method MR.VertCoords.operator=.">MR.VertCoords.assign</a></span>.  <br /></td></tr>
 <tr class="memitem:ab5d5ae4b8cfe09f947d7174788b2f879" id="r_ab5d5ae4b8cfe09f947d7174788b2f879"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5d5ae4b8cfe09f947d7174788b2f879">clear</a> ()</td></tr>
 <tr class="memdesc:ab5d5ae4b8cfe09f947d7174788b2f879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ab5d5ae4b8cfe09f947d7174788b2f879" title="Generated from method MR.VertCoords.clear.">MR.VertCoords.clear</a></span>.  <br /></td></tr>
 <tr class="memitem:a427c2c96aee52dc9c207a9a8207d0ab8" id="r_a427c2c96aee52dc9c207a9a8207d0ab8"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a427c2c96aee52dc9c207a9a8207d0ab8">resize</a> (nuint newSize)</td></tr>
 <tr class="memdesc:a427c2c96aee52dc9c207a9a8207d0ab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a427c2c96aee52dc9c207a9a8207d0ab8" title="Generated from method MR.VertCoords.resize.">MR.VertCoords.resize</a></span>.  <br /></td></tr>
 <tr class="memitem:a5565dc229b1cd4b8bca349958830e422" id="r_a5565dc229b1cd4b8bca349958830e422"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5565dc229b1cd4b8bca349958830e422">resize</a> (nuint newSize, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> t)</td></tr>
 <tr class="memdesc:a5565dc229b1cd4b8bca349958830e422"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a427c2c96aee52dc9c207a9a8207d0ab8" title="Generated from method MR.VertCoords.resize.">MR.VertCoords.resize</a></span>.  <br /></td></tr>
-<tr class="memitem:af6def684220720d8468b8e9b7310bd08" id="r_af6def684220720d8468b8e9b7310bd08"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6def684220720d8468b8e9b7310bd08">resizeNoInit</a> (nuint targetSize)</td></tr>
-<tr class="memdesc:af6def684220720d8468b8e9b7310bd08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#af6def684220720d8468b8e9b7310bd08" title="Generated from method MR.VertCoords.resizeNoInit.">MR.VertCoords.resizeNoInit</a></span>.  <br /></td></tr>
+<tr class="memitem:aa478968e93f5fa3513e9dfd8f4dd510e" id="r_aa478968e93f5fa3513e9dfd8f4dd510e"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa478968e93f5fa3513e9dfd8f4dd510e">resizeNoInit</a> (nuint targetSize, <a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706">MR.ReserveMode</a>? mode=null)</td></tr>
+<tr class="memdesc:aa478968e93f5fa3513e9dfd8f4dd510e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aa478968e93f5fa3513e9dfd8f4dd510e" title="Generated from method MR.VertCoords.resizeNoInit. Parameter mode defaults to MR.ReserveMode....">MR.VertCoords.resizeNoInit</a></span>. Parameter <span class="tt">mode</span> defaults to <span class="tt"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706a1649aed298f99d587e2eb30c1db5946b" title="exactly the target size: for a vector resized once">MR.ReserveMode.Exact</a></span>.  <br /></td></tr>
 <tr class="memitem:ad770f8495050d630f3be84906c81c0c5" id="r_ad770f8495050d630f3be84906c81c0c5"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad770f8495050d630f3be84906c81c0c5">reserve</a> (nuint <a class="el" href="classMR_1_1Const__VertCoords.html#a2d68ecc99d7e8d5bed481197468af041">capacity</a>)</td></tr>
 <tr class="memdesc:ad770f8495050d630f3be84906c81c0c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ad770f8495050d630f3be84906c81c0c5" title="Generated from method MR.VertCoords.reserve.">MR.VertCoords.reserve</a></span>.  <br /></td></tr>
+<tr class="memitem:aeb4338bd3a2e9d3b8d46e43c5f354af2" id="r_aeb4338bd3a2e9d3b8d46e43c5f354af2"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb4338bd3a2e9d3b8d46e43c5f354af2">shrinkToFit</a> ()</td></tr>
+<tr class="memdesc:aeb4338bd3a2e9d3b8d46e43c5f354af2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::VertCoords::shrink_to_fit</span>.  <br /></td></tr>
 <tr class="memitem:aa12da505a8d5fd80ed199432d4744a12" id="r_aa12da505a8d5fd80ed199432d4744a12"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa12da505a8d5fd80ed199432d4744a12">resizeWithReserve</a> (nuint newSize)</td></tr>
-<tr class="memdesc:aa12da505a8d5fd80ed199432d4744a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#aa12da505a8d5fd80ed199432d4744a12" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.VertCoords.resizeWithReserve</a></span>.  <br /></td></tr>
+<tr class="memdesc:aa12da505a8d5fd80ed199432d4744a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as resize(newSize), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#aa12da505a8d5fd80ed199432d4744a12" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.VertCoords.resizeWithReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:aea4c4f44fdce53e414f9273d74858071" id="r_aea4c4f44fdce53e414f9273d74858071"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea4c4f44fdce53e414f9273d74858071">resizeWithReserve</a> (nuint newSize, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> value)</td></tr>
-<tr class="memdesc:aea4c4f44fdce53e414f9273d74858071"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#aa12da505a8d5fd80ed199432d4744a12" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.VertCoords.resizeWithReserve</a></span>.  <br /></td></tr>
+<tr class="memdesc:aea4c4f44fdce53e414f9273d74858071"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as resize(newSize, value), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#aa12da505a8d5fd80ed199432d4744a12" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.VertCoords.resizeWithReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:aa0c11fdc064fdc1082d74260fad4c17c" id="r_aa0c11fdc064fdc1082d74260fad4c17c"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0c11fdc064fdc1082d74260fad4c17c">autoResizeSet</a> (<a class="el" href="structMR_1_1VertId.html">MR.VertId</a> pos, nuint len, <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> val)</td></tr>
 <tr class="memdesc:aa0c11fdc064fdc1082d74260fad4c17c"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <code class="param">pos</code> are also set to <code class="param">val</code> (for faster implementation) Generated from method <span class="tt"><a class="el" href="#aa0c11fdc064fdc1082d74260fad4c17c" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">MR.VertCoords.autoResizeSet</a></span>.  <br /></td></tr>
 <tr class="memitem:ac98db0e0b80187adfa8cb39dfff26453" id="r_ac98db0e0b80187adfa8cb39dfff26453"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac98db0e0b80187adfa8cb39dfff26453">autoResizeSet</a> (<a class="el" href="structMR_1_1VertId.html">MR.VertId</a> i, <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> val)</td></tr>
-<tr class="memdesc:ac98db0e0b80187adfa8cb39dfff26453"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <span class="tt"><a class="el" href="#aa0c11fdc064fdc1082d74260fad4c17c" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">MR.VertCoords.autoResizeSet</a></span>.  <br /></td></tr>
+<tr class="memdesc:ac98db0e0b80187adfa8cb39dfff26453"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the element i to the given value, adjusting the size of the vector to include new element Generated from method <span class="tt"><a class="el" href="#aa0c11fdc064fdc1082d74260fad4c17c" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">MR.VertCoords.autoResizeSet</a></span>.  <br /></td></tr>
 <tr class="memitem:a9935f9a3027c1031344da48b3a96b379" id="r_a9935f9a3027c1031344da48b3a96b379"><td class="memItemLeft" align="right" valign="top">unsafe ref <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9935f9a3027c1031344da48b3a96b379">autoResizeAt</a> (<a class="el" href="structMR_1_1VertId.html">MR.VertId</a> i)</td></tr>
 <tr class="memdesc:a9935f9a3027c1031344da48b3a96b379"><td class="mdescLeft">&#160;</td><td class="mdescRight">this accessor automatically adjusts the size of the vector Generated from method <span class="tt"><a class="el" href="#a9935f9a3027c1031344da48b3a96b379" title="this accessor automatically adjusts the size of the vector Generated from method MR....">MR.VertCoords.autoResizeAt</a></span>.  <br /></td></tr>
 <tr class="memitem:a352232521d9a3adbcf2ed820a0110f72" id="r_a352232521d9a3adbcf2ed820a0110f72"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a352232521d9a3adbcf2ed820a0110f72">pushBack</a> (in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> t)</td></tr>
@@ -219,25 +207,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:adc93aecbb432141b1c26858eae294989"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#adc93aecbb432141b1c26858eae294989" title="Generated from method MR.VertCoords.swap.">MR.VertCoords.swap</a></span>.  <br /></td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1Const__VertCoords"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1Const__VertCoords')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td></tr>
 <tr class="memitem:a3f732e42971156de5dc658440a279341 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_a3f732e42971156de5dc658440a279341"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a3f732e42971156de5dc658440a279341">Dispose</a> ()</td></tr>
-<tr class="memitem:a565c5ba1cbc3e61a96bf3d62235fc2e5 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_a565c5ba1cbc3e61a96bf3d62235fc2e5"><td class="memItemLeft" align="right" valign="top">IEnumerator&lt; MR.Misc.ConstRef&lt; <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a565c5ba1cbc3e61a96bf3d62235fc2e5">GetEnumerator</a> ()</td></tr>
 <tr class="memitem:afcddffe36ea456401144986a13cf921a inherit pub_methods_classMR_1_1Const__VertCoords" id="r_afcddffe36ea456401144986a13cf921a"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#afcddffe36ea456401144986a13cf921a">Const_VertCoords</a> ()</td></tr>
-<tr class="memdesc:afcddffe36ea456401144986a13cf921a inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
+<tr class="memdesc:afcddffe36ea456401144986a13cf921a inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="memitem:af6102d6003cde0f2c8c81af62b487113 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_af6102d6003cde0f2c8c81af62b487113"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#af6102d6003cde0f2c8c81af62b487113">Const_VertCoords</a> (MR._ByValue_VertCoords _other)</td></tr>
-<tr class="memdesc:af6102d6003cde0f2c8c81af62b487113 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
+<tr class="memdesc:af6102d6003cde0f2c8c81af62b487113 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="creates empty vector">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
 <tr class="memitem:aaf50334d2364521cc2649a1d9f656149 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_aaf50334d2364521cc2649a1d9f656149"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#aaf50334d2364521cc2649a1d9f656149">Const_VertCoords</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">Const_VertCoords</a> _other)</td></tr>
-<tr class="memdesc:aaf50334d2364521cc2649a1d9f656149 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
+<tr class="memdesc:aaf50334d2364521cc2649a1d9f656149 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="creates empty vector">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
 <tr class="memitem:a069031ed202ccf40d49d2e48ebc69205 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_a069031ed202ccf40d49d2e48ebc69205"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a069031ed202ccf40d49d2e48ebc69205">Const_VertCoords</a> (<a class="el" href="classMR_1_1VertCoords.html">VertCoords</a> _other)</td></tr>
-<tr class="memdesc:a069031ed202ccf40d49d2e48ebc69205 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
+<tr class="memdesc:a069031ed202ccf40d49d2e48ebc69205 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="creates empty vector">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
 <tr class="memitem:a8404c325e796e2f9fb298ca5df0252a7 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_a8404c325e796e2f9fb298ca5df0252a7"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a8404c325e796e2f9fb298ca5df0252a7">Const_VertCoords</a> (nuint <a class="el" href="classMR_1_1Const__VertCoords.html#a7fc4d081ab3e09cf87f9d95e559ea724">size</a>)</td></tr>
-<tr class="memdesc:a8404c325e796e2f9fb298ca5df0252a7 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
+<tr class="memdesc:a8404c325e796e2f9fb298ca5df0252a7 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="creates empty vector">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
 <tr class="memitem:ae157b2118b08ffd3a5623177d03cf8f8 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_ae157b2118b08ffd3a5623177d03cf8f8"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#ae157b2118b08ffd3a5623177d03cf8f8">Const_VertCoords</a> (nuint <a class="el" href="classMR_1_1Const__VertCoords.html#a7fc4d081ab3e09cf87f9d95e559ea724">size</a>, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> val)</td></tr>
-<tr class="memdesc:ae157b2118b08ffd3a5623177d03cf8f8 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
-<tr class="memitem:a31bf59075cfa4e501f76fb1f7a5a22d1 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_a31bf59075cfa4e501f76fb1f7a5a22d1"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a31bf59075cfa4e501f76fb1f7a5a22d1">Const_VertCoords</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRVector3f &gt; <a class="el" href="classMR_1_1Const__VertCoords.html#ad452d076af610bfc52a8f4cf4a569c72">vec</a>)</td></tr>
-<tr class="memdesc:a31bf59075cfa4e501f76fb1f7a5a22d1 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
+<tr class="memdesc:ae157b2118b08ffd3a5623177d03cf8f8 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="creates empty vector">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
 <tr class="memitem:aad16662b3ad1a87baa21a1147f4bbe93 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_aad16662b3ad1a87baa21a1147f4bbe93"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#aad16662b3ad1a87baa21a1147f4bbe93">empty</a> ()</td></tr>
 <tr class="memdesc:aad16662b3ad1a87baa21a1147f4bbe93 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__VertCoords.html#aad16662b3ad1a87baa21a1147f4bbe93" title="Generated from method MR.VertCoords.empty.">MR.VertCoords.empty</a></span>.  <br /></td></tr>
 <tr class="memitem:a7fc4d081ab3e09cf87f9d95e559ea724 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_a7fc4d081ab3e09cf87f9d95e559ea724"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a7fc4d081ab3e09cf87f9d95e559ea724">size</a> ()</td></tr>
 <tr class="memdesc:a7fc4d081ab3e09cf87f9d95e559ea724 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__VertCoords.html#a7fc4d081ab3e09cf87f9d95e559ea724" title="Generated from method MR.VertCoords.size.">MR.VertCoords.size</a></span>.  <br /></td></tr>
+<tr class="memitem:af703824548c261c38dea073f24a82aa9 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_af703824548c261c38dea073f24a82aa9"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#af703824548c261c38dea073f24a82aa9">maxSize</a> ()</td></tr>
+<tr class="memdesc:af703824548c261c38dea073f24a82aa9 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::VertCoords::max_size</span>.  <br /></td></tr>
 <tr class="memitem:a2d68ecc99d7e8d5bed481197468af041 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_a2d68ecc99d7e8d5bed481197468af041"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a2d68ecc99d7e8d5bed481197468af041">capacity</a> ()</td></tr>
 <tr class="memdesc:a2d68ecc99d7e8d5bed481197468af041 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__VertCoords.html#a2d68ecc99d7e8d5bed481197468af041" title="Generated from method MR.VertCoords.capacity.">MR.VertCoords.capacity</a></span>.  <br /></td></tr>
 <tr class="memitem:a37a2d5ebc8b907c9f060987c49a9fc91 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_a37a2d5ebc8b907c9f060987c49a9fc91"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a37a2d5ebc8b907c9f060987c49a9fc91">front</a> ()</td></tr>
@@ -257,46 +244,32 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae325552947e651f32f3b175ecd031775 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_ae325552947e651f32f3b175ecd031775"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#ae325552947e651f32f3b175ecd031775">Equals</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a>? b)</td></tr>
 <tr class="memitem:a38f080735367c627cff0ad1071cb0d67 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_a38f080735367c627cff0ad1071cb0d67"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a38f080735367c627cff0ad1071cb0d67">Equals</a> (object? other)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad4b5d9d161fbcd86e02067a2f90488d7" id="r_ad4b5d9d161fbcd86e02067a2f90488d7"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4b5d9d161fbcd86e02067a2f90488d7">operator VertCoords</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRVector3f &gt; <a class="el" href="#a4263ac26a88b5931799ae81e96f3b207">vec</a>)</td></tr>
-<tr class="memdesc:ad4b5d9d161fbcd86e02067a2f90488d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
-<tr class="inherit_header pub_static_methods_classMR_1_1Const__VertCoords"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1Const__VertCoords')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td></tr>
-<tr class="memitem:a9fd9102a685e437291ed4dcbd0a5222b inherit pub_static_methods_classMR_1_1Const__VertCoords" id="r_a9fd9102a685e437291ed4dcbd0a5222b"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a9fd9102a685e437291ed4dcbd0a5222b">operator Const_VertCoords</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRVector3f &gt; <a class="el" href="classMR_1_1Const__VertCoords.html#ad452d076af610bfc52a8f4cf4a569c72">vec</a>)</td></tr>
-<tr class="memdesc:a9fd9102a685e437291ed4dcbd0a5222b inherit pub_static_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
-<tr class="memitem:ad0283e95c8d83e7f84f4045134da811f inherit pub_static_methods_classMR_1_1Const__VertCoords" id="r_ad0283e95c8d83e7f84f4045134da811f"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#ad0283e95c8d83e7f84f4045134da811f">operator==</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> _this, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> b)</td></tr>
-<tr class="memdesc:ad0283e95c8d83e7f84f4045134da811f inherit pub_static_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::VertCoords::operator==</span>.  <br /></td></tr>
-<tr class="memitem:a81ebb18cc86624af36d88a256917add3 inherit pub_static_methods_classMR_1_1Const__VertCoords" id="r_a81ebb18cc86624af36d88a256917add3"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a81ebb18cc86624af36d88a256917add3">operator!=</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> _this, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> b)</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a4263ac26a88b5931799ae81e96f3b207" id="r_a4263ac26a88b5931799ae81e96f3b207"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Vector_MRVector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4263ac26a88b5931799ae81e96f3b207">vec</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a4263ac26a88b5931799ae81e96f3b207"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
+<tr class="memitem:afc8ec64e6ae89eeb5ce0db95cec31e1d" id="r_afc8ec64e6ae89eeb5ce0db95cec31e1d"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Vector_MRVector3f_MRAllocatorMRVector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc8ec64e6ae89eeb5ce0db95cec31e1d">vec</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:afc8ec64e6ae89eeb5ce0db95cec31e1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
 <tr class="memitem:ab9427392fa600690e7970455656c7c5e" id="r_ab9427392fa600690e7970455656c7c5e"><td class="memItemLeft" align="right" valign="top">unsafe new ref <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9427392fa600690e7970455656c7c5e">this[MR.VertId i]</a><code> [get]</code></td></tr>
 <tr class="memdesc:ab9427392fa600690e7970455656c7c5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::VertCoords::operator[]</span>.  <br /></td></tr>
 <tr class="inherit_header properties_classMR_1_1Const__VertCoords"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1Const__VertCoords')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Properties inherited from <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td></tr>
-<tr class="memitem:ad452d076af610bfc52a8f4cf4a569c72 inherit properties_classMR_1_1Const__VertCoords" id="r_ad452d076af610bfc52a8f4cf4a569c72"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRVector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#ad452d076af610bfc52a8f4cf4a569c72">vec</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:ad452d076af610bfc52a8f4cf4a569c72 inherit properties_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
+<tr class="memitem:ac997057773fa6ca24d481c764e30699a inherit properties_classMR_1_1Const__VertCoords" id="r_ac997057773fa6ca24d481c764e30699a"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRVector3f_MRAllocatorMRVector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#ac997057773fa6ca24d481c764e30699a">vec</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:ac997057773fa6ca24d481c764e30699a inherit properties_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
 <tr class="memitem:a186755ae27511dd5832b6ba5ad6d2e33 inherit properties_classMR_1_1Const__VertCoords" id="r_a186755ae27511dd5832b6ba5ad6d2e33"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a186755ae27511dd5832b6ba5ad6d2e33">this[MR.VertId i]</a><code> [get]</code></td></tr>
 <tr class="memdesc:a186755ae27511dd5832b6ba5ad6d2e33 inherit properties_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::VertCoords::operator[]</span>.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classMR_1_1Const__VertCoords"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1Const__VertCoords')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td></tr>
+<tr class="memitem:ad0283e95c8d83e7f84f4045134da811f inherit pub_static_methods_classMR_1_1Const__VertCoords" id="r_ad0283e95c8d83e7f84f4045134da811f"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#ad0283e95c8d83e7f84f4045134da811f">operator==</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> _this, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> b)</td></tr>
+<tr class="memdesc:ad0283e95c8d83e7f84f4045134da811f inherit pub_static_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::VertCoords::operator==</span>.  <br /></td></tr>
+<tr class="memitem:a81ebb18cc86624af36d88a256917add3 inherit pub_static_methods_classMR_1_1Const__VertCoords" id="r_a81ebb18cc86624af36d88a256917add3"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a81ebb18cc86624af36d88a256917add3">operator!=</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> _this, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> b)</td></tr>
 <tr class="inherit_header pro_methods_classMR_1_1Const__VertCoords"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classMR_1_1Const__VertCoords')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td></tr>
 <tr class="memitem:a8bba24802fb736d8b01a3f58dd3a3a86 inherit pro_methods_classMR_1_1Const__VertCoords" id="r_a8bba24802fb736d8b01a3f58dd3a3a86"><td class="memItemLeft" align="right" valign="top">virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a8bba24802fb736d8b01a3f58dd3a3a86">Dispose</a> (bool disposing)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt"><a class="el" href="classMR_1_1VertCoords.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type,">MR.VertCoords</a></span>. This is the non-const half of the class. </td></tr>
-  </table>
-  </dd>
-</dl>
+<div class="textblock"><p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt"><a class="el" href="classMR_1_1VertCoords.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.VertCoords. This is the non-const half of the ...">MR.VertCoords</a></span>. This is the non-const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a17d2cf5ae63b450645b98d17a8c6f587" name="a17d2cf5ae63b450645b98d17a8c6f587"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17d2cf5ae63b450645b98d17a8c6f587">&#9670;&#160;</a></span>VertCoords() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a17d2cf5ae63b450645b98d17a8c6f587">&#9670;&#160;</a></span>VertCoords() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -318,12 +291,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs an empty (default-constructed) instance. </p>
+<p>creates empty vector </p>
 
 </div>
 </div>
 <a id="accf90894e8da1669c4f034727baa77cc" name="accf90894e8da1669c4f034727baa77cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accf90894e8da1669c4f034727baa77cc">&#9670;&#160;</a></span>VertCoords() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#accf90894e8da1669c4f034727baa77cc">&#9670;&#160;</a></span>VertCoords() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -345,12 +318,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="creates empty vector">MR.VertCoords.VertCoords</a></span>. </p>
 
 </div>
 </div>
 <a id="a4be78995acb8e67b4aa8bb54ce8703cf" name="a4be78995acb8e67b4aa8bb54ce8703cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4be78995acb8e67b4aa8bb54ce8703cf">&#9670;&#160;</a></span>VertCoords() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4be78995acb8e67b4aa8bb54ce8703cf">&#9670;&#160;</a></span>VertCoords() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -372,12 +345,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="creates empty vector">MR.VertCoords.VertCoords</a></span>. </p>
 
 </div>
 </div>
 <a id="aa8879e60fde99aa8338404e64105b944" name="aa8879e60fde99aa8338404e64105b944"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8879e60fde99aa8338404e64105b944">&#9670;&#160;</a></span>VertCoords() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8879e60fde99aa8338404e64105b944">&#9670;&#160;</a></span>VertCoords() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -399,12 +372,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="creates empty vector">MR.VertCoords.VertCoords</a></span>. </p>
 
 </div>
 </div>
 <a id="aa6e33d880d4ef5c073e1f1b8a63c83fa" name="aa6e33d880d4ef5c073e1f1b8a63c83fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6e33d880d4ef5c073e1f1b8a63c83fa">&#9670;&#160;</a></span>VertCoords() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6e33d880d4ef5c073e1f1b8a63c83fa">&#9670;&#160;</a></span>VertCoords() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -426,12 +399,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>. </p>
+<p>creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="creates empty vector">MR.VertCoords.VertCoords</a></span>. </p>
 
 </div>
 </div>
 <a id="aacb9461d3e06aac176cb6d772cfa6b6f" name="aacb9461d3e06aac176cb6d772cfa6b6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacb9461d3e06aac176cb6d772cfa6b6f">&#9670;&#160;</a></span>VertCoords() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aacb9461d3e06aac176cb6d772cfa6b6f">&#9670;&#160;</a></span>VertCoords() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -457,40 +430,13 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>. </p>
-
-</div>
-</div>
-<a id="a3dc474851239754de2550636bc2442b1" name="a3dc474851239754de2550636bc2442b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3dc474851239754de2550636bc2442b1">&#9670;&#160;</a></span>VertCoords() <span class="overload">[7/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe MR.VertCoords.VertCoords </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRVector3f &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>. </p>
+<p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="creates empty vector">MR.VertCoords.VertCoords</a></span>. </p>
 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a06fbd4c0fbdac0e8a5ba29fbe3587bca" name="a06fbd4c0fbdac0e8a5ba29fbe3587bca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06fbd4c0fbdac0e8a5ba29fbe3587bca">&#9670;&#160;</a></span>assign()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a06fbd4c0fbdac0e8a5ba29fbe3587bca">&#9670;&#160;</a></span>assign() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -513,6 +459,37 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt">MR::VertCoords::operator=</span>. </p>
+
+</div>
+</div>
+<a id="a7949ed0438352b527f450f1e435e5a58" name="a7949ed0438352b527f450f1e435e5a58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7949ed0438352b527f450f1e435e5a58">&#9670;&#160;</a></span>assign() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.VertCoords.assign </td>
+          <td>(</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>count</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>replaces the contents with <code class="param">count</code> copies of <code class="param">val</code> Generated from method <span class="tt"><a class="el" href="#a06fbd4c0fbdac0e8a5ba29fbe3587bca" title="Generated from method MR.VertCoords.operator=.">MR.VertCoords.assign</a></span>. </p>
 
 </div>
 </div>
@@ -570,7 +547,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <span class="tt"><a class="el" href="#aa0c11fdc064fdc1082d74260fad4c17c" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">MR.VertCoords.autoResizeSet</a></span>. </p>
+<p>sets the element i to the given value, adjusting the size of the vector to include new element Generated from method <span class="tt"><a class="el" href="#aa0c11fdc064fdc1082d74260fad4c17c" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">MR.VertCoords.autoResizeSet</a></span>. </p>
 
 </div>
 </div>
@@ -715,58 +692,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt"><a class="el" href="#afc0c4940ff9169622bf196e88c4b5e8c" title="Generated from method MR.VertCoords.front.">MR.VertCoords.front</a></span>. </p>
-
-</div>
-</div>
-<a id="a7d1609b7e7f2069609c6832c0c7be123" name="a7d1609b7e7f2069609c6832c0c7be123"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d1609b7e7f2069609c6832c0c7be123">&#9670;&#160;</a></span>GetEnumerator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">new IEnumerator&lt; MR.Misc.Ref&lt; <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> &gt; &gt; MR.VertCoords.GetEnumerator </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad4b5d9d161fbcd86e02067a2f90488d7" name="ad4b5d9d161fbcd86e02067a2f90488d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4b5d9d161fbcd86e02067a2f90488d7">&#9670;&#160;</a></span>operator VertCoords()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe implicit MR.VertCoords.operator <a class="el" href="classMR_1_1VertCoords.html">VertCoords</a> </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRVector3f &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>. </p>
 
 </div>
 </div>
@@ -940,8 +865,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af6def684220720d8468b8e9b7310bd08" name="af6def684220720d8468b8e9b7310bd08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6def684220720d8468b8e9b7310bd08">&#9670;&#160;</a></span>resizeNoInit()</h2>
+<a id="aa478968e93f5fa3513e9dfd8f4dd510e" name="aa478968e93f5fa3513e9dfd8f4dd510e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa478968e93f5fa3513e9dfd8f4dd510e">&#9670;&#160;</a></span>resizeNoInit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -952,8 +877,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.VertCoords.resizeNoInit </td>
           <td>(</td>
-          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span></td><td>)</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706">MR.ReserveMode</a>?</td>          <td class="paramname"><span class="paramname"><em>mode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -963,7 +892,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from method <span class="tt"><a class="el" href="#af6def684220720d8468b8e9b7310bd08" title="Generated from method MR.VertCoords.resizeNoInit.">MR.VertCoords.resizeNoInit</a></span>. </p>
+<p>Generated from method <span class="tt"><a class="el" href="#aa478968e93f5fa3513e9dfd8f4dd510e" title="Generated from method MR.VertCoords.resizeNoInit. Parameter mode defaults to MR.ReserveMode....">MR.VertCoords.resizeNoInit</a></span>. Parameter <span class="tt">mode</span> defaults to <span class="tt"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706a1649aed298f99d587e2eb30c1db5946b" title="exactly the target size: for a vector resized once">MR.ReserveMode.Exact</a></span>. </p>
 
 </div>
 </div>
@@ -990,7 +919,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#aa12da505a8d5fd80ed199432d4744a12" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.VertCoords.resizeWithReserve</a></span>. </p>
+<p>same as resize(newSize), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#aa12da505a8d5fd80ed199432d4744a12" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.VertCoords.resizeWithReserve</a></span>. </p>
 
 </div>
 </div>
@@ -1021,7 +950,34 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#aa12da505a8d5fd80ed199432d4744a12" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.VertCoords.resizeWithReserve</a></span>. </p>
+<p>same as resize(newSize, value), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#aa12da505a8d5fd80ed199432d4744a12" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.VertCoords.resizeWithReserve</a></span>. </p>
+
+</div>
+</div>
+<a id="aeb4338bd3a2e9d3b8d46e43c5f354af2" name="aeb4338bd3a2e9d3b8d46e43c5f354af2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb4338bd3a2e9d3b8d46e43c5f354af2">&#9670;&#160;</a></span>shrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.VertCoords.shrinkToFit </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt">MR::VertCoords::shrink_to_fit</span>. </p>
 
 </div>
 </div>
@@ -1077,8 +1033,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a4263ac26a88b5931799ae81e96f3b207" name="a4263ac26a88b5931799ae81e96f3b207"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4263ac26a88b5931799ae81e96f3b207">&#9670;&#160;</a></span>vec</h2>
+<a id="afc8ec64e6ae89eeb5ce0db95cec31e1d" name="afc8ec64e6ae89eeb5ce0db95cec31e1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc8ec64e6ae89eeb5ce0db95cec31e1d">&#9670;&#160;</a></span>vec</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1087,7 +1043,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">new unsafe MR.Std.Vector_MRVector3f MR.VertCoords.vec</td>
+          <td class="memname">new unsafe MR.Std.Vector_MRVector3f_MRAllocatorMRVector3f MR.VertCoords.vec</td>
         </tr>
       </table>
   </td>

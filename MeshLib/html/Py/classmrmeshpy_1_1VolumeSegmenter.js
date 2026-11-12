@@ -1,14 +1,10 @@
 var classmrmeshpy_1_1VolumeSegmenter =
 [
     [ "SeedType", "classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html", "classmrmeshpy_1_1VolumeSegmenter_1_1SeedType" ],
-    [ "__init__", "classmrmeshpy_1_1VolumeSegmenter.html#a6b9d2546a9283194ceb8f41abdbaf1f4", null ],
-    [ "__init__", "classmrmeshpy_1_1VolumeSegmenter.html#a013ea3d2d9706c64a2d2e6e6c5e4cba9", null ],
-    [ "addPathSeeds", "classmrmeshpy_1_1VolumeSegmenter.html#abe21b19d285902c9de6af963bea11073", null ],
-    [ "addSeeds", "classmrmeshpy_1_1VolumeSegmenter.html#a9c1721c2d96d451f5962a4b11a51eb44", null ],
-    [ "createMeshFromSegmentation", "classmrmeshpy_1_1VolumeSegmenter.html#ad70a18a50e034880f7e2b1fd04ab962b", null ],
-    [ "getMinVoxel", "classmrmeshpy_1_1VolumeSegmenter.html#a3294010a643ca39c7fb5ea0ca641d42e", null ],
-    [ "getSeeds", "classmrmeshpy_1_1VolumeSegmenter.html#ac2a3d36ede1c1386e9e70d8b124dcfed", null ],
-    [ "getVolumePartDimensions", "classmrmeshpy_1_1VolumeSegmenter.html#a3c3475282c2a602d2f7a50d0c629df9a", null ],
-    [ "segmentVolume", "classmrmeshpy_1_1VolumeSegmenter.html#a0b06b635daa58e4559682648ee9ed67b", null ],
-    [ "setSeeds", "classmrmeshpy_1_1VolumeSegmenter.html#a29e348e4928c82001b6a621223041a10", null ]
+    [ "__init__", "classmrmeshpy_1_1VolumeSegmenter.html#a35d6cd40b5bf5388ac2dfc429a446799", null ],
+    [ "__init__", "classmrmeshpy_1_1VolumeSegmenter.html#a92977b27723c44175a6838aa6cbf45e5", null ],
+    [ "addPathSeeds", "classmrmeshpy_1_1VolumeSegmenter.html#afdaf0d6ccb2b64de410cc8017e06ae03", null ],
+    [ "addSeeds", "classmrmeshpy_1_1VolumeSegmenter.html#aed1bf82c2f1527f6c41e8974367a3ce1", null ],
+    [ "segmentVolume", "classmrmeshpy_1_1VolumeSegmenter.html#adba145cd6b9d85c581f727071be5ec73", null ],
+    [ "setSeeds", "classmrmeshpy_1_1VolumeSegmenter.html#acd071b92c4183f12b3fb7e85375902f2", null ]
 ];

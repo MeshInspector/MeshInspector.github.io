@@ -10,6 +10,7 @@ var structMR_1_1FixMeshDegeneraciesParams =
     [ "maxAngleChange", "structMR_1_1FixMeshDegeneraciesParams.html#a27e58d6d674f40a1d627ba6f034ef140", null ],
     [ "maxDeviation", "structMR_1_1FixMeshDegeneraciesParams.html#a1288492f43aeb3ebd3709f7eaed006ec", null ],
     [ "mimicPatch", "structMR_1_1FixMeshDegeneraciesParams.html#a39c6c7eb9bf8c2a75b88975d8f434101", null ],
+    [ "protectAttributeBorders", "structMR_1_1FixMeshDegeneraciesParams.html#a2f58b5b52ce3c9588255ffc814220198", null ],
     [ "region", "structMR_1_1FixMeshDegeneraciesParams.html#a03fabfe38c70165440f7eaf7677e07ce", null ],
     [ "Remesh", "structMR_1_1FixMeshDegeneraciesParams.html#a53fef689c0014c588a5990ec1626c5a7", null ],
     [ "stabilizer", "structMR_1_1FixMeshDegeneraciesParams.html#adbf34724488c4de119231db46448de01", null ],

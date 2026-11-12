@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -169,7 +162,7 @@ $(function(){initNavTree('MRMeshOverhangs_8h_source.html','',''); });
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:85</div></div>
 <div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:759</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:789</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga047ea47c16c17b322c9ae6ec9bd817ad"><div class="ttname"><a href="group__GeneralGroup.html#ga047ea47c16c17b322c9ae6ec9bd817ad">MR::FindOverhangsSettings::axis</a></div><div class="ttdeci">Vector3f axis</div><div class="ttdoc">base axis marking the up direction</div><div class="ttdef"><b>Definition</b> MRMeshOverhangs.h:17</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga0533f2a781c49812b0d5cbe4fbfbaa21"><div class="ttname"><a href="group__GeneralGroup.html#ga0533f2a781c49812b0d5cbe4fbfbaa21">MR::FindOverhangsSettings::progressCb</a></div><div class="ttdeci">ProgressCallback progressCb</div><div class="ttdef"><b>Definition</b> MRMeshOverhangs.h:26</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga3d1a3266302b03fd65361e652890be0e"><div class="ttname"><a href="group__GeneralGroup.html#ga3d1a3266302b03fd65361e652890be0e">MR::FindOverhangsSettings::xf</a></div><div class="ttdeci">const AffineXf3f * xf</div><div class="ttdoc">mesh transform</div><div class="ttdef"><b>Definition</b> MRMeshOverhangs.h:25</div></div>
@@ -178,7 +171,7 @@ $(function(){initNavTree('MRMeshOverhangs_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_ga9b3da08af6167e0e5b5f9d6b44329945"><div class="ttname"><a href="group__GeneralGroup.html#ga9b3da08af6167e0e5b5f9d6b44329945">MR::findOverhangs</a></div><div class="ttdeci">Expected&lt; std::vector&lt; FaceBitSet &gt; &gt; findOverhangs(const Mesh &amp;mesh, const FindOverhangsSettings &amp;settings)</div><div class="ttdoc">Find face regions that might create overhangs.</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gac75bce161a3fcc60e706c3cd85ae4b16"><div class="ttname"><a href="group__GeneralGroup.html#gac75bce161a3fcc60e706c3cd85ae4b16">MR::FindOverhangsSettings::layerHeight</a></div><div class="ttdeci">float layerHeight</div><div class="ttdoc">height of a layer</div><div class="ttdef"><b>Definition</b> MRMeshOverhangs.h:19</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gad8a04bc86c5792e55e9c000d38d5e42b"><div class="ttname"><a href="group__GeneralGroup.html#gad8a04bc86c5792e55e9c000d38d5e42b">MR::FindOverhangsSettings::hops</a></div><div class="ttdeci">int hops</div><div class="ttdoc">number of hops used to smooth out the overhang regions (0 - disable smoothing)</div><div class="ttdef"><b>Definition</b> MRMeshOverhangs.h:23</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1FindOverhangsSettings_html"><div class="ttname"><a href="structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></div><div class="ttdoc">parameters for MR::findOverhangs</div><div class="ttdef"><b>Definition</b> MRMeshOverhangs.h:15</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -188,7 +181,7 @@ $(function(){initNavTree('MRSystem_8h_source.html','',''); });
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="comment">// returns string with OS name with details</span></div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="MRSystem_8h.html#a763282bac1d140525911aa5346e1fe25">   68</a></span><a class="code hl_define" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="code hl_typedef" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="MRSystem_8h.html#a763282bac1d140525911aa5346e1fe25">MR_GetDetailedOSName</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="comment">// returns string identification of the OS</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="comment">// returns string identification of the OS and, on Arm (or any macOS), of the CPU architecture, e.g. Windows_arm64</span></div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="MRSystem_8h.html#afa5ff2cec02b5e4df57d3abdbc5a01d2">   73</a></span><a class="code hl_define" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="code hl_typedef" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="MRSystem_8h.html#afa5ff2cec02b5e4df57d3abdbc5a01d2">MR_getOSNoSpaces</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="comment">// sets new handler for operator new if needed for some platforms</span></div>
@@ -228,12 +221,14 @@ $(function(){initNavTree('MRSystem_8h_source.html','',''); });
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span></div>
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno"><a class="line" href="MRSystem_8h.html#a9a43e46fe2268859f543a7cd006fc421">  172</a></span><a class="code hl_define" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_function" href="MRSystem_8h.html#a9a43e46fe2268859f543a7cd006fc421">MR_getCurrentProcessId</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span></div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno"><a class="line" href="MRSystem_8h.html#ab5ac5767203d81a18b7d3fa6e2b027e1">  184</a></span><a class="code hl_define" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="MRSystem_8h.html#ab5ac5767203d81a18b7d3fa6e2b027e1">MR_setupLoggerByDefault</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRProtectedRun_8h.html#a6271d7bfd9eac1863a0a9da93022599c">MR_std_function_void</a> *customLogSinkAdder);</div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span><span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>} <span class="comment">// extern &quot;C&quot;</span></div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aMRCtm_8h_html_a69dc6868c10c92fb8b8a255b0130d289"><div class="ttname"><a href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></div><div class="ttdeci">struct MR_std_string MR_std_string</div><div class="ttdef"><b>Definition</b> MRCtm.h:32</div></div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno"><a class="line" href="MRSystem_8h.html#a255a346ff510f05b04e6e03c5999686d">  177</a></span><a class="code hl_define" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="code hl_typedef" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="MRSystem_8h.html#a255a346ff510f05b04e6e03c5999686d">MR_getLocalTimeZone</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span></div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno"><a class="line" href="MRSystem_8h.html#ab5ac5767203d81a18b7d3fa6e2b027e1">  189</a></span><a class="code hl_define" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="MRSystem_8h.html#ab5ac5767203d81a18b7d3fa6e2b027e1">MR_setupLoggerByDefault</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRProtectedRun_8h.html#a6271d7bfd9eac1863a0a9da93022599c">MR_std_function_void</a> *customLogSinkAdder);</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRCtm_8h_html_a69dc6868c10c92fb8b8a255b0130d289"><div class="ttname"><a href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></div><div class="ttdeci">struct MR_std_string MR_std_string</div><div class="ttdef"><b>Definition</b> MRCtm.h:33</div></div>
 <div class="ttc" id="aMRPly_8h_html_a006d61fd2048bba5b5622d42cbe72526"><div class="ttname"><a href="MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a></div><div class="ttdeci">struct MR_std_filesystem_path MR_std_filesystem_path</div><div class="ttdef"><b>Definition</b> MRPly.h:20</div></div>
 <div class="ttc" id="aMRProtectedRun_8h_html_a6271d7bfd9eac1863a0a9da93022599c"><div class="ttname"><a href="MRProtectedRun_8h.html#a6271d7bfd9eac1863a0a9da93022599c">MR_std_function_void</a></div><div class="ttdeci">struct MR_std_function_void MR_std_function_void</div><div class="ttdef"><b>Definition</b> MRProtectedRun.h:11</div></div>
 <div class="ttc" id="aMRSystem_8h_html_a0abf5a90af969389df783f83762346c2"><div class="ttname"><a href="MRSystem_8h.html#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a></div><div class="ttdeci">struct MR_SystemMemory MR_SystemMemory</div><div class="ttdef"><b>Definition</b> MRSystem.h:19</div></div>
@@ -241,6 +236,7 @@ $(function(){initNavTree('MRSystem_8h_source.html','',''); });
 <div class="ttc" id="aMRSystem_8h_html_a1586290577baacf2cfea38be130eb60e"><div class="ttname"><a href="MRSystem_8h.html#a1586290577baacf2cfea38be130eb60e">MR_GetCpuId</a></div><div class="ttdeci">MRC_API MR_std_string * MR_GetCpuId(void)</div></div>
 <div class="ttc" id="aMRSystem_8h_html_a178344f70409b0a8db4916244bae17de"><div class="ttname"><a href="MRSystem_8h.html#a178344f70409b0a8db4916244bae17de">MR_SystemMemory_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_SystemMemory_DestroyArray(const MR_SystemMemory *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_SystemMemory. Does nothing if the pointer is null.</div></div>
 <div class="ttc" id="aMRSystem_8h_html_a194122b50524a35b6173d07b76c6bee2"><div class="ttname"><a href="MRSystem_8h.html#a194122b50524a35b6173d07b76c6bee2">MR_SetCurrentThreadName</a></div><div class="ttdeci">MRC_API void MR_SetCurrentThreadName(const char *name)</div><div class="ttdoc">Generated from function MR::SetCurrentThreadName.</div></div>
+<div class="ttc" id="aMRSystem_8h_html_a255a346ff510f05b04e6e03c5999686d"><div class="ttname"><a href="MRSystem_8h.html#a255a346ff510f05b04e6e03c5999686d">MR_getLocalTimeZone</a></div><div class="ttdeci">MRC_API MR_std_string * MR_getLocalTimeZone(void)</div></div>
 <div class="ttc" id="aMRSystem_8h_html_a2cf96490566ebace32c25bdeaf337d57"><div class="ttname"><a href="MRSystem_8h.html#a2cf96490566ebace32c25bdeaf337d57">MR_getUserConfigDir</a></div><div class="ttdeci">MRC_API MR_std_filesystem_path * MR_getUserConfigDir(void)</div></div>
 <div class="ttc" id="aMRSystem_8h_html_a34ff570c4c9bc0b771a6cf8f75002347"><div class="ttname"><a href="MRSystem_8h.html#a34ff570c4c9bc0b771a6cf8f75002347">MR_SystemMemory_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_SystemMemory * MR_SystemMemory_ConstructFromAnother(const MR_SystemMemory *_other)</div></div>
 <div class="ttc" id="aMRSystem_8h_html_a3c0fa8ad45de39c222ce798912032f71"><div class="ttname"><a href="MRSystem_8h.html#a3c0fa8ad45de39c222ce798912032f71">MR_getUserConfigFilePath</a></div><div class="ttdeci">MRC_API MR_std_filesystem_path * MR_getUserConfigFilePath(void)</div></div>

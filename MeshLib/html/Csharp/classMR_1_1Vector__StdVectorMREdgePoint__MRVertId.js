@@ -6,8 +6,8 @@ var classMR_1_1Vector__StdVectorMREdgePoint__MRVertId =
     [ "Vector_StdVectorMREdgePoint_MRVertId", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#a446327bcf25510f9fe936958e4e739a4", null ],
     [ "Vector_StdVectorMREdgePoint_MRVertId", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#a5075e94d4df9c6ecbcdcdcdcf5975cb3", null ],
     [ "Vector_StdVectorMREdgePoint_MRVertId", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#a6cbfd6367328e948147623d8a3ddd9e0", null ],
-    [ "Vector_StdVectorMREdgePoint_MRVertId", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#acab668fb818e1f3520da1657cbdcc0e7", null ],
     [ "assign", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#abc485bdb27c43307ebd890973c448a63", null ],
+    [ "assign", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#a70460e28c235f8ed27991a000e4a4aa1", null ],
     [ "autoResizeAt", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#acf0059fb78c22e401e036e4239fbc9f2", null ],
     [ "autoResizeSet", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#aa296494ee312b199f6c4fea9f820d449", null ],
     [ "autoResizeSet", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#aa60734e2f5c7fe0170ee8ddd287f9839", null ],
@@ -15,8 +15,6 @@ var classMR_1_1Vector__StdVectorMREdgePoint__MRVertId =
     [ "clear", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#a273ca196952c263a93edf4f6483c0200", null ],
     [ "data", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#a6be958ba38eea8e133b62af1af43cfaf", null ],
     [ "front", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#ab1351a466ce68d06c7d282e103b63cb7", null ],
-    [ "GetEnumerator", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#acb9bcb0dd59c2705260ed1191b324419", null ],
-    [ "operator Vector_StdVectorMREdgePoint_MRVertId", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#a121a802e8ff2a2e292477211ccf1f349", null ],
     [ "popBack", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#ac1f837fc24a4056b4b7b95ad58894e1e", null ],
     [ "pushBack", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#af29052d5d2ab8df0ac517837d6454f88", null ],
     [ "pushBack", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#a656f4ffa41863af543fc24799b1274d6", null ],
@@ -25,7 +23,8 @@ var classMR_1_1Vector__StdVectorMREdgePoint__MRVertId =
     [ "resize", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#a99ab7920823df14f8c3dedc7c38ebf42", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#a64162003be742521710d76303c8c215d", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#ae2e31df9e6bc6ea0626da5fd1e2b6f1a", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#ac15a8c2dfceae610a88556c34ed75496", null ],
     [ "swap", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#a7ae8aadd11deb037760ede7bb008c9eb", null ],
     [ "this[MR.VertId i]", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#a77abd8d8d3a9a166b5897a3da3e4c1aa", null ],
-    [ "vec", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#ad9f95b1589ba2755092026dee5a08dfa", null ]
+    [ "vec", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#ae32b85bf0a24bc31a86a04280c9d7a12", null ]
 ];

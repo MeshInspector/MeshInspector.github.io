@@ -12,7 +12,7 @@ var MRSurfacePath_8h =
       [ "MR_PathError_StartEndNotConnected", "MRSurfacePath_8h.html#a8bfed38b4b059ca6a135597d4cc8c7dbacfa2b7ebb649261d791fa2ec89ba1761", null ],
       [ "MR_PathError_InternalError", "MRSurfacePath_8h.html#a8bfed38b4b059ca6a135597d4cc8c7dba2c025f79a5115e54d72850eb6a7633ab", null ]
     ] ],
-    [ "MR_computeClosestSurfacePathTargets", "MRSurfacePath_8h.html#a2b3860ef5a0e61bc98d1d993fed19bcb", null ],
+    [ "MR_computeClosestSurfacePathTargets", "MRSurfacePath_8h.html#a58383469f1c42f8fa78449f4a032aecb", null ],
     [ "MR_computeFastMarchingPath", "MRSurfacePath_8h.html#aa4e76ecf741aafad8b6664a66e8fc3b6", null ],
     [ "MR_computeGeodesicPath", "MRSurfacePath_8h.html#a3b790d24bfa6db54dee79a34e217d582", null ],
     [ "MR_computeGeodesicPathApprox", "MRSurfacePath_8h.html#aa272ea660d4f95b948bd43fccfed1fa5", null ],

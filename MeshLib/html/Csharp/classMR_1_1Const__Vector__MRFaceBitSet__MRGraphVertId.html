@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -148,7 +141,7 @@ $(function(){initNavTree('classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.
 </div><!--header-->
 <div class="contents">
 
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type,  
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;</span>. This is the const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.Const_Vector_MRFaceBitSet_MRGraphVertId:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -157,21 +150,19 @@ $(function(){initNavTree('classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.
  <div class="center">
   <img src="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.png" usemap="#MR_2EConst_5FVector_5FMRFaceBitSet_5FMRGraphVertId_map" alt=""/>
   <map id="MR_2EConst_5FVector_5FMRFaceBitSet_5FMRGraphVertId_map" name="MR_2EConst_5FVector_5FMRFaceBitSet_5FMRGraphVertId_map">
-<area href="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type," alt="MR.Vector_MRFaceBitSet_MRGraphVertId" shape="rect" coords="456,112,750,136"/>
+<area href="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.Vector&lt;MR.FaceBitSet, MR.GraphVertId&gt;...." alt="MR.Vector_MRFaceBitSet_MRGraphVertId" shape="rect" coords="304,112,598,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:_5FEnumerator" id="r__5FEnumerator"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_Enumerator</b></td></tr>
 <tr class="memitem:_5FUnderlying" id="r__5FUnderlying"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>_Underlying</b></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aaa42ec9d0c430107f647e86bb8d538c9" id="r_aaa42ec9d0c430107f647e86bb8d538c9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa42ec9d0c430107f647e86bb8d538c9">Dispose</a> ()</td></tr>
-<tr class="memitem:ac6b873fe86c415f0d49340a57c675470" id="r_ac6b873fe86c415f0d49340a57c675470"><td class="memItemLeft" align="right" valign="top">IEnumerator&lt; <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6b873fe86c415f0d49340a57c675470">GetEnumerator</a> ()</td></tr>
 <tr class="memitem:a0b0450429f62a6fa8868c142c803d046" id="r_a0b0450429f62a6fa8868c142c803d046"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b0450429f62a6fa8868c142c803d046">Const_Vector_MRFaceBitSet_MRGraphVertId</a> ()</td></tr>
-<tr class="memdesc:a0b0450429f62a6fa8868c142c803d046"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
+<tr class="memdesc:a0b0450429f62a6fa8868c142c803d046"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="memitem:afe2b80c39fa5ad943e11e75d7fa2ede8" id="r_afe2b80c39fa5ad943e11e75d7fa2ede8"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe2b80c39fa5ad943e11e75d7fa2ede8">Const_Vector_MRFaceBitSet_MRGraphVertId</a> (MR._ByValue_Vector_MRFaceBitSet_MRGraphVertId _other)</td></tr>
 <tr class="memdesc:afe2b80c39fa5ad943e11e75d7fa2ede8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a087e368ffda657a5b9d0f102c7d32d5b" id="r_a087e368ffda657a5b9d0f102c7d32d5b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a087e368ffda657a5b9d0f102c7d32d5b">Const_Vector_MRFaceBitSet_MRGraphVertId</a> (<a class="el" href="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html">Const_Vector_MRFaceBitSet_MRGraphVertId</a> _other)</td></tr>
@@ -182,12 +173,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:adb760f124af3882dc3455ddd32943388"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a7cc155a20dca20366b528a52d070b86f" id="r_a7cc155a20dca20366b528a52d070b86f"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc155a20dca20366b528a52d070b86f">Const_Vector_MRFaceBitSet_MRGraphVertId</a> (nuint <a class="el" href="#abe5f05e8d630887a783172877c7be838">size</a>, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> val)</td></tr>
 <tr class="memdesc:a7cc155a20dca20366b528a52d070b86f"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
-<tr class="memitem:a442d629fe25942b7db7ac3b91ae08165" id="r_a442d629fe25942b7db7ac3b91ae08165"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a442d629fe25942b7db7ac3b91ae08165">Const_Vector_MRFaceBitSet_MRGraphVertId</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRFaceBitSet &gt; <a class="el" href="#ab004dee1af6f69b6006b0b9e89e17a01">vec</a>)</td></tr>
-<tr class="memdesc:a442d629fe25942b7db7ac3b91ae08165"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a50a41e3e9b8e406d7ab2ac5e99167444" id="r_a50a41e3e9b8e406d7ab2ac5e99167444"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50a41e3e9b8e406d7ab2ac5e99167444">empty</a> ()</td></tr>
 <tr class="memdesc:a50a41e3e9b8e406d7ab2ac5e99167444"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;<a class="el" href="#a50a41e3e9b8e406d7ab2ac5e99167444" title="Generated from method MR.Vector&lt;MR.FaceBitSet, MR.GraphVertId&gt;empty.">empty</a></span>.  <br /></td></tr>
 <tr class="memitem:abe5f05e8d630887a783172877c7be838" id="r_abe5f05e8d630887a783172877c7be838"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe5f05e8d630887a783172877c7be838">size</a> ()</td></tr>
 <tr class="memdesc:abe5f05e8d630887a783172877c7be838"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;<a class="el" href="#abe5f05e8d630887a783172877c7be838" title="Generated from method MR.Vector&lt;MR.FaceBitSet, MR.GraphVertId&gt;size.">size</a></span>.  <br /></td></tr>
+<tr class="memitem:a503b0e94fa4022b507ed9ad56d690263" id="r_a503b0e94fa4022b507ed9ad56d690263"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a503b0e94fa4022b507ed9ad56d690263">maxSize</a> ()</td></tr>
+<tr class="memdesc:a503b0e94fa4022b507ed9ad56d690263"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;::max_size</span>.  <br /></td></tr>
 <tr class="memitem:a54f7e0bc06e07bdcc489d3ce62e62e60" id="r_a54f7e0bc06e07bdcc489d3ce62e62e60"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54f7e0bc06e07bdcc489d3ce62e62e60">capacity</a> ()</td></tr>
 <tr class="memdesc:a54f7e0bc06e07bdcc489d3ce62e62e60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;<a class="el" href="#a54f7e0bc06e07bdcc489d3ce62e62e60" title="Generated from method MR.Vector&lt;MR.FaceBitSet, MR.GraphVertId&gt;capacity.">capacity</a></span>.  <br /></td></tr>
 <tr class="memitem:a856f7daab62081919eee9d3b1a98944a" id="r_a856f7daab62081919eee9d3b1a98944a"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a856f7daab62081919eee9d3b1a98944a">front</a> ()</td></tr>
@@ -209,8 +200,6 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ab7f43f3951f6f818a1c328c33c257666" id="r_ab7f43f3951f6f818a1c328c33c257666"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7f43f3951f6f818a1c328c33c257666">operator Const_Vector_MRFaceBitSet_MRGraphVertId</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRFaceBitSet &gt; <a class="el" href="#ab004dee1af6f69b6006b0b9e89e17a01">vec</a>)</td></tr>
-<tr class="memdesc:ab7f43f3951f6f818a1c328c33c257666"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a82ea29d02b51ab6c635cd525c78cb043" id="r_a82ea29d02b51ab6c635cd525c78cb043"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82ea29d02b51ab6c635cd525c78cb043">operator==</a> (<a class="el" href="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html">MR.Const_Vector_MRFaceBitSet_MRGraphVertId</a> _this, <a class="el" href="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html">MR.Const_Vector_MRFaceBitSet_MRGraphVertId</a> b)</td></tr>
 <tr class="memdesc:a82ea29d02b51ab6c635cd525c78cb043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;<a class="el" href="#a82ea29d02b51ab6c635cd525c78cb043" title="Generated from method MR.Vector&lt;MR.FaceBitSet, MR.GraphVertId&gt;operator==.">operator==</a></span>.  <br /></td></tr>
 <tr class="memitem:ab20fbb91b9e29dd3e2c3049c3b39ea4e" id="r_ab20fbb91b9e29dd3e2c3049c3b39ea4e"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab20fbb91b9e29dd3e2c3049c3b39ea4e">operator!=</a> (<a class="el" href="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html">MR.Const_Vector_MRFaceBitSet_MRGraphVertId</a> _this, <a class="el" href="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html">MR.Const_Vector_MRFaceBitSet_MRGraphVertId</a> b)</td></tr>
@@ -221,23 +210,16 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:ab004dee1af6f69b6006b0b9e89e17a01" id="r_ab004dee1af6f69b6006b0b9e89e17a01"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRFaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab004dee1af6f69b6006b0b9e89e17a01">vec</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:ab004dee1af6f69b6006b0b9e89e17a01"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
+<tr class="memitem:af3e253aa311c87498d6b4ee471404fc0" id="r_af3e253aa311c87498d6b4ee471404fc0"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRFaceBitSet_MRAllocatorMRFaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3e253aa311c87498d6b4ee471404fc0">vec</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:af3e253aa311c87498d6b4ee471404fc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
 <tr class="memitem:a5662d62046f36d0e63426e99aaa2c500" id="r_a5662d62046f36d0e63426e99aaa2c500"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5662d62046f36d0e63426e99aaa2c500">this[MR.GraphVertId i]</a><code> [get]</code></td></tr>
 <tr class="memdesc:a5662d62046f36d0e63426e99aaa2c500"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;::operator[]</span>.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;</span>. This is the const half of the class. </td></tr>
-  </table>
-  </dd>
-</dl>
+<div class="textblock"><p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;</span>. This is the const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0b0450429f62a6fa8868c142c803d046" name="a0b0450429f62a6fa8868c142c803d046"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b0450429f62a6fa8868c142c803d046">&#9670;&#160;</a></span>Const_Vector_MRFaceBitSet_MRGraphVertId() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b0450429f62a6fa8868c142c803d046">&#9670;&#160;</a></span>Const_Vector_MRFaceBitSet_MRGraphVertId() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,12 +241,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs an empty (default-constructed) instance. </p>
+<p>creates empty vector </p>
 
 </div>
 </div>
 <a id="afe2b80c39fa5ad943e11e75d7fa2ede8" name="afe2b80c39fa5ad943e11e75d7fa2ede8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe2b80c39fa5ad943e11e75d7fa2ede8">&#9670;&#160;</a></span>Const_Vector_MRFaceBitSet_MRGraphVertId() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afe2b80c39fa5ad943e11e75d7fa2ede8">&#9670;&#160;</a></span>Const_Vector_MRFaceBitSet_MRGraphVertId() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -291,7 +273,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a087e368ffda657a5b9d0f102c7d32d5b" name="a087e368ffda657a5b9d0f102c7d32d5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a087e368ffda657a5b9d0f102c7d32d5b">&#9670;&#160;</a></span>Const_Vector_MRFaceBitSet_MRGraphVertId() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a087e368ffda657a5b9d0f102c7d32d5b">&#9670;&#160;</a></span>Const_Vector_MRFaceBitSet_MRGraphVertId() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -318,7 +300,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a663a2c82653ac3f50dff1b4934f33d7a" name="a663a2c82653ac3f50dff1b4934f33d7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a663a2c82653ac3f50dff1b4934f33d7a">&#9670;&#160;</a></span>Const_Vector_MRFaceBitSet_MRGraphVertId() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a663a2c82653ac3f50dff1b4934f33d7a">&#9670;&#160;</a></span>Const_Vector_MRFaceBitSet_MRGraphVertId() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -345,7 +327,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="adb760f124af3882dc3455ddd32943388" name="adb760f124af3882dc3455ddd32943388"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb760f124af3882dc3455ddd32943388">&#9670;&#160;</a></span>Const_Vector_MRFaceBitSet_MRGraphVertId() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adb760f124af3882dc3455ddd32943388">&#9670;&#160;</a></span>Const_Vector_MRFaceBitSet_MRGraphVertId() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -372,7 +354,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a7cc155a20dca20366b528a52d070b86f" name="a7cc155a20dca20366b528a52d070b86f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7cc155a20dca20366b528a52d070b86f">&#9670;&#160;</a></span>Const_Vector_MRFaceBitSet_MRGraphVertId() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc155a20dca20366b528a52d070b86f">&#9670;&#160;</a></span>Const_Vector_MRFaceBitSet_MRGraphVertId() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -399,33 +381,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;::Vector</span>. </p>
-
-</div>
-</div>
-<a id="a442d629fe25942b7db7ac3b91ae08165" name="a442d629fe25942b7db7ac3b91ae08165"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a442d629fe25942b7db7ac3b91ae08165">&#9670;&#160;</a></span>Const_Vector_MRFaceBitSet_MRGraphVertId() <span class="overload">[7/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe MR.Const_Vector_MRFaceBitSet_MRGraphVertId.Const_Vector_MRFaceBitSet_MRGraphVertId </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRFaceBitSet &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;::Vector</span>. </p>
 
 </div>
 </div>
@@ -746,31 +701,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ac6b873fe86c415f0d49340a57c675470" name="ac6b873fe86c415f0d49340a57c675470"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6b873fe86c415f0d49340a57c675470">&#9670;&#160;</a></span>GetEnumerator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">IEnumerator&lt; <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> &gt; MR.Const_Vector_MRFaceBitSet_MRGraphVertId.GetEnumerator </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a67242b5b081d48e61860db9ed8b668d0" name="a67242b5b081d48e61860db9ed8b668d0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a67242b5b081d48e61860db9ed8b668d0">&#9670;&#160;</a></span>heapBytes()</h2>
 
@@ -798,8 +728,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ab7f43f3951f6f818a1c328c33c257666" name="ab7f43f3951f6f818a1c328c33c257666"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7f43f3951f6f818a1c328c33c257666">&#9670;&#160;</a></span>operator Const_Vector_MRFaceBitSet_MRGraphVertId()</h2>
+<a id="a503b0e94fa4022b507ed9ad56d690263" name="a503b0e94fa4022b507ed9ad56d690263"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a503b0e94fa4022b507ed9ad56d690263">&#9670;&#160;</a></span>maxSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -808,20 +738,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe implicit MR.Const_Vector_MRFaceBitSet_MRGraphVertId.operator <a class="el" href="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html">Const_Vector_MRFaceBitSet_MRGraphVertId</a> </td>
+          <td class="memname">unsafe nuint MR.Const_Vector_MRFaceBitSet_MRGraphVertId.maxSize </td>
           <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRFaceBitSet &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;::Vector</span>. </p>
+<p>Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1FaceBitSet.html" title="Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after...">MR.FaceBitSet</a>, <a class="el" href="structMR_1_1GraphVertId.html" title="Generated from class MR.GraphVertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.GraphVertId</a>&amp;gt;::max_size</span>. </p>
 
 </div>
 </div>
@@ -937,8 +867,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ab004dee1af6f69b6006b0b9e89e17a01" name="ab004dee1af6f69b6006b0b9e89e17a01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab004dee1af6f69b6006b0b9e89e17a01">&#9670;&#160;</a></span>vec</h2>
+<a id="af3e253aa311c87498d6b4ee471404fc0" name="af3e253aa311c87498d6b4ee471404fc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3e253aa311c87498d6b4ee471404fc0">&#9670;&#160;</a></span>vec</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -947,7 +877,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe MR.Std.Const_Vector_MRFaceBitSet MR.Const_Vector_MRFaceBitSet_MRGraphVertId.vec</td>
+          <td class="memname">unsafe MR.Std.Const_Vector_MRFaceBitSet_MRAllocatorMRFaceBitSet MR.Const_Vector_MRFaceBitSet_MRGraphVertId.vec</td>
         </tr>
       </table>
   </td>

@@ -5,6 +5,7 @@ var classMR_1_1ConstBox__Vector3i64 =
     [ "ConstBox_Vector3i64", "classMR_1_1ConstBox__Vector3i64.html#a999e24a8601d97ed2d1122fc3dd1b126", null ],
     [ "ConstBox_Vector3i64", "classMR_1_1ConstBox__Vector3i64.html#a2d788faf308d5ebd5080c93035be64da", null ],
     [ "ConstBox_Vector3i64", "classMR_1_1ConstBox__Vector3i64.html#a951468d3771678b54f6e18fca6f641de", null ],
+    [ "ConstBox_Vector3i64", "classMR_1_1ConstBox__Vector3i64.html#a288824e28ab4ab56cf8674a8dd195f23", null ],
     [ "diagonal", "classMR_1_1ConstBox__Vector3i64.html#a5c773414d61b6f1dee4b978e5341162b", null ],
     [ "Dispose", "classMR_1_1ConstBox__Vector3i64.html#aa2b3b84debe730f592e97ea8e44821bb", null ],
     [ "Dispose", "classMR_1_1ConstBox__Vector3i64.html#a26bb7cb927ef78fbed5fc762dd02df85", null ],

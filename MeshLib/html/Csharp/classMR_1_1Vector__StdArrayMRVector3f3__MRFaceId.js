@@ -6,8 +6,8 @@ var classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId =
     [ "Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a4fbb99c7c7429526aca85ce26fc8bc34", null ],
     [ "Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a67dc6aa80921443c010d9eef9a62047d", null ],
     [ "Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a52ea95ee5ff103aebf11c38265238d1f", null ],
-    [ "Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a8db0e8aafeb4c1abf69e9ff7803f5aa6", null ],
     [ "assign", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#ae02152ec6496973a367cc338f64ce485", null ],
+    [ "assign", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#ac5d0070cff73fa1e95ce33f8bcce5cb6", null ],
     [ "autoResizeAt", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#afc127cfaf2f511134f4f82468d52cbbb", null ],
     [ "autoResizeSet", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a136db8d9b3bffdd9cc8bf5dc568b6e0b", null ],
     [ "autoResizeSet", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a36f46f3d2fc5e16e59a7c70e4adceed6", null ],
@@ -15,8 +15,6 @@ var classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId =
     [ "clear", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#ab5d7048d46711ddc0c6afaa49b432c91", null ],
     [ "data", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a4a35d7495d32a084d7498a0ea1627c94", null ],
     [ "front", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#aee03bc06ca6f74f53d36608457f79067", null ],
-    [ "GetEnumerator", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a886c4101b2e8300abd7f37deab90c555", null ],
-    [ "operator Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a4d96130a613004782677cb6537fb1eae", null ],
     [ "popBack", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#ab0c4909eadfb01ccb6e0c8f0917ad656", null ],
     [ "pushBack", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#ad5d9532b0c1b1790932d525ff002b65f", null ],
     [ "pushBack", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a6d5855a1f1a26da74f28680418481bdd", null ],
@@ -25,7 +23,8 @@ var classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId =
     [ "resize", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a6835e711f9e16da19a7c29158f87cf8b", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a0e9bf83be9ffc5adf2b3737fc90a5189", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a09bd4e3e4b715d50f9512dcab1e9281e", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a1b4a7814769db8cfc00660893c89f37d", null ],
     [ "swap", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a2a6c9b97ca2d08dfe819fbda1f5fe153", null ],
     [ "this[MR.FaceId i]", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#ad4ee9de6a1a7d3a7941a4242dc72ed28", null ],
-    [ "vec", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a9c57e662e0bf80ff5be50f9d577ec29d", null ]
+    [ "vec", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#ab7f81bb8536b2fd3a0de1253825213eb", null ]
 ];

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -179,7 +172,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a56715982039eac569ef53b82b086b1e3" id="r_a56715982039eac569ef53b82b086b1e3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56715982039eac569ef53b82b086b1e3">getAvailableLocales</a> ()</td></tr>
 <tr class="memdesc:a56715982039eac569ef53b82b086b1e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of the names of locales with available .mo files. "en" is always included as the default locale. The returned list is always sorted alphabetically.  <br /></td></tr>
 <tr class="memitem:a2b32ebd2b8467813962ef412cc56a1f3" id="r_a2b32ebd2b8467813962ef412cc56a1f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b32ebd2b8467813962ef412cc56a1f3">addCatalogPath</a> (const std::filesystem::path &amp;path)</td></tr>
-<tr class="memdesc:a2b32ebd2b8467813962ef412cc56a1f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a path to .mo files. The path is expected to have the following directory structure: &lt;locale name&gt;/LC_MESSAGES/&lt;domain name&gt;.mo The active locale is reloaded on every call.  <br /></td></tr>
+<tr class="memdesc:a2b32ebd2b8467813962ef412cc56a1f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a path to .mo files. The path is expected to have the following directory structure: <span class="tt">&lt;locale name&gt;/LC_MESSAGES/&lt;domain name&gt;.mo</span> The active locale is reloaded on every call.  <br /></td></tr>
 <tr class="memitem:a3e7da85aeeba196e0530b5014197fee8" id="r_a3e7da85aeeba196e0530b5014197fee8"><td class="memItemLeft" align="right" valign="top">LocaleDomainId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e7da85aeeba196e0530b5014197fee8">addDomain</a> (const char *domainName, bool generic=false)</td></tr>
 <tr class="memdesc:a3e7da85aeeba196e0530b5014197fee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new domain. The active locale is reloaded on every call.  <br /></td></tr>
 <tr class="memitem:a1033b99691304b7bf5dbac4565186c0a" id="r_a1033b99691304b7bf5dbac4565186c0a"><td class="memItemLeft" align="right" valign="top">LocaleDomainId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1033b99691304b7bf5dbac4565186c0a">addDomain</a> (const std::string &amp;domainName, bool generic=false)</td></tr>
@@ -220,7 +213,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Adds a path to .mo files. The path is expected to have the following directory structure: &lt;locale name&gt;/LC_MESSAGES/&lt;domain name&gt;.mo The active locale is reloaded on every call. </p>
+<p>Adds a path to .mo files. The path is expected to have the following directory structure: <span class="tt">&lt;locale name&gt;/LC_MESSAGES/&lt;domain name&gt;.mo</span> The active locale is reloaded on every call. </p>
 
 </div>
 </div>

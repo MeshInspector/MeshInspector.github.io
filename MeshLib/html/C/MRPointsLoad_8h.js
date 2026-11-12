@@ -1,7 +1,7 @@
 var MRPointsLoad_8h =
 [
-    [ "MR_PointsLoad_fromAnySupportedFormat_2", "MRPointsLoad_8h.html#aef738c6568d3615b58a044596a5f47df", null ],
-    [ "MR_PointsLoad_fromAnySupportedFormat_3", "MRPointsLoad_8h.html#a106641323e0fff08bb96cfd0526ff52b", null ],
+    [ "MR_PointsLoad_fromAnySupportedFormat", "MRPointsLoad_8h.html#a12bd8f4fd45b3e78af9ac2f25599932d", null ],
+    [ "MR_PointsLoad_fromAnySupportedFormat_stream", "MRPointsLoad_8h.html#aae2e94d4acbcd259936e23b4c843952a", null ],
     [ "MR_PointsLoad_fromDxf_std_filesystem_path", "MRPointsLoad_8h.html#a092519e3e0e72b23978b4bc89bddc2f5", null ],
     [ "MR_PointsLoad_fromDxf_std_istream", "MRPointsLoad_8h.html#ad9d2b0585ab1086c6653546c2e8f1bc7", null ],
     [ "MR_PointsLoad_fromObj_std_filesystem_path", "MRPointsLoad_8h.html#a87d4930d384956d111aeeb372d6499b4", null ],

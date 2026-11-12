@@ -1,0 +1,28 @@
+var structmeshlib_1_1PolylineSubdivideSettings =
+[
+    [ "assign_from_another", "structmeshlib_1_1PolylineSubdivideSettings.html#a864c5fd84e8d647146a17da8347b3ddb", null ],
+    [ "max_edge_len", "structmeshlib_1_1PolylineSubdivideSettings.html#a45c8a0d1d263f5baff008339e69ba70e", null ],
+    [ "max_edge_len_mut", "structmeshlib_1_1PolylineSubdivideSettings.html#afb7495acf95115d80f2452b751b8b0ae", null ],
+    [ "max_edge_splits", "structmeshlib_1_1PolylineSubdivideSettings.html#a36563d2ebcd05cccbde0f37a4d1a2f87", null ],
+    [ "max_edge_splits_mut", "structmeshlib_1_1PolylineSubdivideSettings.html#ac7c8b76d4976cb7c6900b0dbd9ecbe9c", null ],
+    [ "new_verts", "structmeshlib_1_1PolylineSubdivideSettings.html#aaf31b9d5f3e8a5f4b550b01e470782b0", null ],
+    [ "new_verts_mut", "structmeshlib_1_1PolylineSubdivideSettings.html#ade324a82f723f128ba3359824e136cd3", null ],
+    [ "on_edge_split", "structmeshlib_1_1PolylineSubdivideSettings.html#aed6e516cbbb58a2d45a6e7315841b3c2", null ],
+    [ "on_edge_split_mut", "structmeshlib_1_1PolylineSubdivideSettings.html#a2a78bbd1fc0aa986dc3361e3ca386a77", null ],
+    [ "on_vert_created", "structmeshlib_1_1PolylineSubdivideSettings.html#a88e0a4b9cf7c9b9d957834da626341f8", null ],
+    [ "on_vert_created_mut", "structmeshlib_1_1PolylineSubdivideSettings.html#a8c455fb8f78ac9378c7cac3d56c681af", null ],
+    [ "progress_callback", "structmeshlib_1_1PolylineSubdivideSettings.html#af71bb3af10a3f22fe81dcc378447e45d", null ],
+    [ "progress_callback_mut", "structmeshlib_1_1PolylineSubdivideSettings.html#a983085de395496a655a9a57336ef3532", null ],
+    [ "region", "structmeshlib_1_1PolylineSubdivideSettings.html#a44ad7d8fa9c37d5052bd212b1220b892", null ],
+    [ "region_mut", "structmeshlib_1_1PolylineSubdivideSettings.html#a2a859bb0da49c7fa0259132fbc132ba9", null ],
+    [ "set_max_edge_len", "structmeshlib_1_1PolylineSubdivideSettings.html#abb70a1ba2960cffa0005a873e25c67c5", null ],
+    [ "set_max_edge_splits", "structmeshlib_1_1PolylineSubdivideSettings.html#aa64b5dea68c30d339c413bd06c266239", null ],
+    [ "set_new_verts", "structmeshlib_1_1PolylineSubdivideSettings.html#a71e4def2d29790616dbcca1d455bbd9d", null ],
+    [ "set_on_edge_split", "structmeshlib_1_1PolylineSubdivideSettings.html#a5a2f3109c141a95c60caba81dc82357c", null ],
+    [ "set_on_vert_created", "structmeshlib_1_1PolylineSubdivideSettings.html#a03a4dd8f331d9e6a2bb9de58d0e0f7b1", null ],
+    [ "set_progress_callback", "structmeshlib_1_1PolylineSubdivideSettings.html#af9b322fe79f436dede97966493645c3c", null ],
+    [ "set_region", "structmeshlib_1_1PolylineSubdivideSettings.html#a8ecb75db7193ce984ddceb942baa3e46", null ],
+    [ "set_use_curvature", "structmeshlib_1_1PolylineSubdivideSettings.html#ad41961b18ca9442edab5cab6c3911868", null ],
+    [ "use_curvature", "structmeshlib_1_1PolylineSubdivideSettings.html#a6ff2e1ed0fd013994165a6ab48f510f8", null ],
+    [ "use_curvature_mut", "structmeshlib_1_1PolylineSubdivideSettings.html#a974a84e3991e284b1522d04a64346b84", null ]
+];

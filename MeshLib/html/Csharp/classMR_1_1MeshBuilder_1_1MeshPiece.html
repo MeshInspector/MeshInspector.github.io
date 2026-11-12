@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -188,7 +181,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a21f72d90a9a226245f83228584085476" id="r_a21f72d90a9a226245f83228584085476"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21f72d90a9a226245f83228584085476">fmap</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a21f72d90a9a226245f83228584085476"><td class="mdescLeft">&#160;</td><td class="mdescRight">face of part -&gt; face of whole mesh  <br /></td></tr>
+<tr class="memdesc:a21f72d90a9a226245f83228584085476"><td class="mdescLeft">&#160;</td><td class="mdescRight">face of part -&gt; face of whole mesh (before settings.shiftFaceId is added)  <br /></td></tr>
 <tr class="memitem:afd72df44775808f5a501afc1db24a767" id="r_afd72df44775808f5a501afc1db24a767"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd72df44775808f5a501afc1db24a767">vmap</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:afd72df44775808f5a501afc1db24a767"><td class="mdescLeft">&#160;</td><td class="mdescRight">vert of part -&gt; vert of whole mesh  <br /></td></tr>
 <tr class="memitem:ab02d104cd9429ba4f9ba62099d5c8dd8" id="r_ab02d104cd9429ba4f9ba62099d5c8dd8"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1MeshTopology.html">MR.MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab02d104cd9429ba4f9ba62099d5c8dd8">topology</a><code> [get, protected set]</code></td></tr>
@@ -196,7 +189,7 @@ Properties</h2></td></tr>
 <tr class="memdesc:a14624a9d40e77e0ef15da04cf2114998"><td class="mdescLeft">&#160;</td><td class="mdescRight">remaining triangles of part, not in topology  <br /></td></tr>
 <tr class="inherit_header properties_classMR_1_1MeshBuilder_1_1Const__MeshPiece"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1MeshBuilder_1_1Const__MeshPiece')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Properties inherited from <a class="el" href="classMR_1_1MeshBuilder_1_1Const__MeshPiece.html">MR.MeshBuilder.Const_MeshPiece</a></td></tr>
 <tr class="memitem:a7f073fbc9e6ec9840429713ec6192eff inherit properties_classMR_1_1MeshBuilder_1_1Const__MeshPiece" id="r_a7f073fbc9e6ec9840429713ec6192eff"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__FaceMap.html">MR.Const_FaceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshBuilder_1_1Const__MeshPiece.html#a7f073fbc9e6ec9840429713ec6192eff">fmap</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a7f073fbc9e6ec9840429713ec6192eff inherit properties_classMR_1_1MeshBuilder_1_1Const__MeshPiece"><td class="mdescLeft">&#160;</td><td class="mdescRight">face of part -&gt; face of whole mesh  <br /></td></tr>
+<tr class="memdesc:a7f073fbc9e6ec9840429713ec6192eff inherit properties_classMR_1_1MeshBuilder_1_1Const__MeshPiece"><td class="mdescLeft">&#160;</td><td class="mdescRight">face of part -&gt; face of whole mesh (before settings.shiftFaceId is added)  <br /></td></tr>
 <tr class="memitem:ae91af9eb6c7c622835f2f5158f5921b7 inherit properties_classMR_1_1MeshBuilder_1_1Const__MeshPiece" id="r_ae91af9eb6c7c622835f2f5158f5921b7"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__VertMap.html">MR.Const_VertMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshBuilder_1_1Const__MeshPiece.html#ae91af9eb6c7c622835f2f5158f5921b7">vmap</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:ae91af9eb6c7c622835f2f5158f5921b7 inherit properties_classMR_1_1MeshBuilder_1_1Const__MeshPiece"><td class="mdescLeft">&#160;</td><td class="mdescRight">vert of part -&gt; vert of whole mesh  <br /></td></tr>
 <tr class="memitem:af9b4303a1c15ff4c342a81034239fa37 inherit properties_classMR_1_1MeshBuilder_1_1Const__MeshPiece" id="r_af9b4303a1c15ff4c342a81034239fa37"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshBuilder_1_1Const__MeshPiece.html#af9b4303a1c15ff4c342a81034239fa37">topology</a><code> [get, protected set]</code></td></tr>
@@ -409,7 +402,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>face of part -&gt; face of whole mesh </p>
+<p>face of part -&gt; face of whole mesh (before settings.shiftFaceId is added) </p>
 
 </div>
 </div>

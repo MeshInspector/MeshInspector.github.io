@@ -4,6 +4,7 @@ var MRPolyline2Intersect_8h =
     [ "MR_std_function_MR_Processing_from_const_MR_EdgePoint_ref_double_double_ref_double_ref", "MRPolyline2Intersect_8h.html#a86a322fd0d6145e9282cc5dbadc12ece", null ],
     [ "MR_std_function_MR_Processing_from_const_MR_EdgePoint_ref_float_float_ref_float_ref", "MRPolyline2Intersect_8h.html#a9b3eb01056e3e3d7af16c8a419dc8bc5", null ],
     [ "MR_std_optional_MR_PolylineIntersectionResult2", "MRPolyline2Intersect_8h.html#ab703fb0e787f91fc7194e3fe95e9c09a", null ],
+    [ "MR_findGridPointsInsidePolyline", "MRPolyline2Intersect_8h.html#aacf369ee5c11c4481921d779278b1e68", null ],
     [ "MR_isPointInsidePolyline", "MRPolyline2Intersect_8h.html#acf93cf3a1f5ba3084dba6820c954ff9a", null ],
     [ "MR_PolylineIntersectionResult2_AssignFromAnother", "MRPolyline2Intersect_8h.html#a49c6b5d1289d4f63c0663e46ad93a58e", null ],
     [ "MR_PolylineIntersectionResult2_ConstructFrom", "MRPolyline2Intersect_8h.html#a89cbe80580572815041b0cbbd8619eb5", null ],

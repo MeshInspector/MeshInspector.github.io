@@ -1,7 +1,7 @@
 var classmrviewerpy_1_1UiEntry =
 [
-    [ "__repr__", "classmrviewerpy_1_1UiEntry.html#a339ffa1c03cb90632e3e73ef791d94d0", null ],
-    [ "name", "classmrviewerpy_1_1UiEntry.html#a1467e0e2eabb67df9d978e167464cc86", null ],
-    [ "status", "classmrviewerpy_1_1UiEntry.html#a0dd1d37a87132b65fa0756a76b4163a9", null ],
-    [ "type", "classmrviewerpy_1_1UiEntry.html#a90c564ce79faf100620c0b22fcaebed0", null ]
+    [ "__init__", "classmrviewerpy_1_1UiEntry.html#aa78a65a1bfde0021dd33e68142bee12e", null ],
+    [ "__init__", "classmrviewerpy_1_1UiEntry.html#a49e70651f4247dc5895fd1a9b8216eca", null ],
+    [ "__init__", "classmrviewerpy_1_1UiEntry.html#ad97a3a997bb1a9ac4f0eba1acfda11ed", null ],
+    [ "assign", "classmrviewerpy_1_1UiEntry.html#a257b2ffd9e04ff5fb5ff6e3a6d6df5dc", null ]
 ];

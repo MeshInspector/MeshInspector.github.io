@@ -8,7 +8,7 @@ var classMR_1_1SimpleVolumeMinMax =
     [ "intersect", "classMR_1_1SimpleVolumeMinMax.html#af9aeac3aa596ff28935aed59c300976c", null ],
     [ "operator MR.Box_Box1f", "classMR_1_1SimpleVolumeMinMax.html#a80511b3be1bfb2705c43727c32ea296f", null ],
     [ "operator MR.SimpleVolume", "classMR_1_1SimpleVolumeMinMax.html#a7d23100be34e54522523bb6f38fa5507", null ],
-    [ "data", "classMR_1_1SimpleVolumeMinMax.html#a020af3e0157de6ab3f2b42f2491e139e", null ],
+    [ "data", "classMR_1_1SimpleVolumeMinMax.html#ab2b75e35100c1a6cd9317d91fa4ee6fe", null ],
     [ "dims", "classMR_1_1SimpleVolumeMinMax.html#a1d715afbd7b2e289d7a5f25a8c080e4c", null ],
     [ "max", "classMR_1_1SimpleVolumeMinMax.html#a42c2b6f5e28a5989e4d0fc4272980814", null ],
     [ "min", "classMR_1_1SimpleVolumeMinMax.html#a328ae87e15f99470c262ca8292fd4b52", null ],

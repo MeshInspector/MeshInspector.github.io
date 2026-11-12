@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -246,7 +239,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a185747a5c9c62d5f7c3aba0eecd967e2" id="r_a185747a5c9c62d5f7c3aba0eecd967e2"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a185747a5c9c62d5f7c3aba0eecd967e2">heapBytes</a> ()</td></tr>
 <tr class="memdesc:a185747a5c9c62d5f7c3aba0eecd967e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt"><a class="el" href="#a185747a5c9c62d5f7c3aba0eecd967e2" title="returns the amount of memory this object occupies on heap Generated from method MR....">MR.ObjectVoxels.heapBytes</a></span>.  <br /></td></tr>
 <tr class="memitem:a5f77269d2d517010afd2d5681eeee79f" id="r_a5f77269d2d517010afd2d5681eeee79f"><td class="memItemLeft" align="right" valign="top">unsafe? byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f77269d2d517010afd2d5681eeee79f">serializeFormat</a> ()</td></tr>
-<tr class="memdesc:a5f77269d2d517010afd2d5681eeee79f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize voxels inside this object, nullptr means <a class="el" href="classMR.html#a20ce6dc9e83f0b6c131eaf3c17a512da" title="returns file extension used to serialize ObjectVoxels by default (if not overridden in specific objec...">defaultSerializeVoxelsFormat()</a> Generated from method <span class="tt"><a class="el" href="#a5f77269d2d517010afd2d5681eeee79f" title="returns overriden file extension used to serialize voxels inside this object, nullptr means defaultSe...">MR.ObjectVoxels.serializeFormat</a></span>.  <br /></td></tr>
+<tr class="memdesc:a5f77269d2d517010afd2d5681eeee79f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize voxels inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::VoxelsSerializeFormat ) Generated from method <span class="tt"><a class="el" href="#a5f77269d2d517010afd2d5681eeee79f" title="returns overriden file extension used to serialize voxels inside this object, nullptr means SceneSett...">MR.ObjectVoxels.serializeFormat</a></span>.  <br /></td></tr>
 <tr class="memitem:ad84232e38f12ea6440b45d6ee2c15437" id="r_ad84232e38f12ea6440b45d6ee2c15437"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__Mesh.html">Const_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad84232e38f12ea6440b45d6ee2c15437">meshPtr</a> ()</td></tr>
 <tr class="memdesc:ad84232e38f12ea6440b45d6ee2c15437"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the mesh of this object, or nullptr if it is not set Generated from method <span class="tt"><a class="el" href="#ad84232e38f12ea6440b45d6ee2c15437" title="returns the mesh of this object, or nullptr if it is not set Generated from method MR....">MR.ObjectVoxels.meshPtr</a></span>.  <br /></td></tr>
 <tr class="memitem:a29dd0587df04558e1c880007aa59a7ab" id="r_a29dd0587df04558e1c880007aa59a7ab"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_SharedPtr_ConstMRMesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29dd0587df04558e1c880007aa59a7ab">mesh</a> ()</td></tr>
@@ -270,7 +263,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a009239dbffa98baeaacfee03b134f224" id="r_a009239dbffa98baeaacfee03b134f224"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__ViewportProperty__MRColor.html">MR.Const_ViewportProperty_MRColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a009239dbffa98baeaacfee03b134f224">getBordersColorsForAllViewports</a> ()</td></tr>
 <tr class="memdesc:a009239dbffa98baeaacfee03b134f224"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a009239dbffa98baeaacfee03b134f224" title="Generated from method MR.ObjectVoxels.getBordersColorsForAllViewports.">MR.ObjectVoxels.getBordersColorsForAllViewports</a></span>.  <br /></td></tr>
 <tr class="memitem:aea56313bd9544f6334e381fcb6a06c00" id="r_aea56313bd9544f6334e381fcb6a06c00"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea56313bd9544f6334e381fcb6a06c00">creases</a> ()</td></tr>
-<tr class="memdesc:aea56313bd9544f6334e381fcb6a06c00"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMR_1_1Edges.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type,">Edges</a> on mesh, that will have sharp visualization even with smooth shading Generated from method <span class="tt"><a class="el" href="#aea56313bd9544f6334e381fcb6a06c00" title="Edges on mesh, that will have sharp visualization even with smooth shading Generated from method MR....">MR.ObjectVoxels.creases</a></span>.  <br /></td></tr>
+<tr class="memdesc:aea56313bd9544f6334e381fcb6a06c00"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMR_1_1Edges.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.Edges. This is the non-const half of the class...">Edges</a> on mesh, that will have sharp visualization even with smooth shading Generated from method <span class="tt"><a class="el" href="#aea56313bd9544f6334e381fcb6a06c00" title="Edges on mesh, that will have sharp visualization even with smooth shading Generated from method MR....">MR.ObjectVoxels.creases</a></span>.  <br /></td></tr>
 <tr class="memitem:abed5439817944dd8c342f5bfc4b2c03c" id="r_abed5439817944dd8c342f5bfc4b2c03c"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abed5439817944dd8c342f5bfc4b2c03c">flatShading</a> ()</td></tr>
 <tr class="memdesc:abed5439817944dd8c342f5bfc4b2c03c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#abed5439817944dd8c342f5bfc4b2c03c" title="Generated from method MR.ObjectVoxels.flatShading.">MR.ObjectVoxels.flatShading</a></span>.  <br /></td></tr>
 <tr class="memitem:a5a1222b617db2a7c14aac7ebfe559ff1" id="r_a5a1222b617db2a7c14aac7ebfe559ff1"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a1222b617db2a7c14aac7ebfe559ff1">supportsVisualizeProperty</a> (<a class="el" href="classMR_1_1Const__AnyVisualizeMaskEnum.html">MR.Const_AnyVisualizeMaskEnum</a> type)</td></tr>
@@ -338,7 +331,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a799cfd91667fb3dbb90d05815bf9b4ca" id="r_a799cfd91667fb3dbb90d05815bf9b4ca"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a799cfd91667fb3dbb90d05815bf9b4ca">numHandles</a> ()</td></tr>
 <tr class="memdesc:a799cfd91667fb3dbb90d05815bf9b4ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached information about the number of handles in the mesh Generated from method <span class="tt"><a class="el" href="#a799cfd91667fb3dbb90d05815bf9b4ca" title="returns cached information about the number of handles in the mesh Generated from method MR....">MR.ObjectVoxels.numHandles</a></span>.  <br /></td></tr>
 <tr class="memitem:a5d8f80437fb31de91405824f89ef9963" id="r_a5d8f80437fb31de91405824f89ef9963"><td class="memItemLeft" align="right" valign="top">unsafe? byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d8f80437fb31de91405824f89ef9963">actualSerializeFormat</a> ()</td></tr>
-<tr class="memdesc:a5d8f80437fb31de91405824f89ef9963"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize mesh inside this object if set, or <a class="el" href="classMR.html#a6e35f563f3a1ec0489286ea6543c0ee3" title="returns file extension used to serialize ObjectMeshHolder by default (if not overridden in specific o...">defaultSerializeMeshFormat()</a>.c_str() otherwise; never returns nullptr Generated from method <span class="tt"><a class="el" href="#a5d8f80437fb31de91405824f89ef9963" title="returns overriden file extension used to serialize mesh inside this object if set,...">MR.ObjectVoxels.actualSerializeFormat</a></span>.  <br /></td></tr>
+<tr class="memdesc:a5d8f80437fb31de91405824f89ef9963"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize mesh inside this object if set, or SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) otherwise; never returns nullptr Generated from method <span class="tt"><a class="el" href="#a5d8f80437fb31de91405824f89ef9963" title="returns overriden file extension used to serialize mesh inside this object if set,...">MR.ObjectVoxels.actualSerializeFormat</a></span>.  <br /></td></tr>
 <tr class="memitem:a65f22a3e6edeaad1ed6a9cd5f55288c6" id="r_a65f22a3e6edeaad1ed6a9cd5f55288c6"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65f22a3e6edeaad1ed6a9cd5f55288c6">getModelHash</a> ()</td></tr>
 <tr class="memdesc:a65f22a3e6edeaad1ed6a9cd5f55288c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a65f22a3e6edeaad1ed6a9cd5f55288c6" title="Generated from method MR.ObjectVoxels.getModelHash.">MR.ObjectVoxels.getModelHash</a></span>.  <br /></td></tr>
 <tr class="memitem:a32cbbed54b024c43fdcf211c4ac31dca" id="r_a32cbbed54b024c43fdcf211c4ac31dca"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32cbbed54b024c43fdcf211c4ac31dca">sameModels</a> (<a class="el" href="classMR_1_1Const__Object.html">MR.Const_Object</a> other)</td></tr>
@@ -558,7 +551,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns overriden file extension used to serialize mesh inside this object if set, or <a class="el" href="classMR.html#a6e35f563f3a1ec0489286ea6543c0ee3" title="returns file extension used to serialize ObjectMeshHolder by default (if not overridden in specific o...">defaultSerializeMeshFormat()</a>.c_str() otherwise; never returns nullptr Generated from method <span class="tt"><a class="el" href="#a5d8f80437fb31de91405824f89ef9963" title="returns overriden file extension used to serialize mesh inside this object if set,...">MR.ObjectVoxels.actualSerializeFormat</a></span>. </p>
+<p>returns overriden file extension used to serialize mesh inside this object if set, or SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) otherwise; never returns nullptr Generated from method <span class="tt"><a class="el" href="#a5d8f80437fb31de91405824f89ef9963" title="returns overriden file extension used to serialize mesh inside this object if set,...">MR.ObjectVoxels.actualSerializeFormat</a></span>. </p>
 
 </div>
 </div>
@@ -747,7 +740,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="classMR_1_1Edges.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type,">Edges</a> on mesh, that will have sharp visualization even with smooth shading Generated from method <span class="tt"><a class="el" href="#aea56313bd9544f6334e381fcb6a06c00" title="Edges on mesh, that will have sharp visualization even with smooth shading Generated from method MR....">MR.ObjectVoxels.creases</a></span>. </p>
+<p><a class="el" href="classMR_1_1Edges.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.Edges. This is the non-const half of the class...">Edges</a> on mesh, that will have sharp visualization even with smooth shading Generated from method <span class="tt"><a class="el" href="#aea56313bd9544f6334e381fcb6a06c00" title="Edges on mesh, that will have sharp visualization even with smooth shading Generated from method MR....">MR.ObjectVoxels.creases</a></span>. </p>
 
 </div>
 </div>
@@ -3753,7 +3746,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns overriden file extension used to serialize voxels inside this object, nullptr means <a class="el" href="classMR.html#a20ce6dc9e83f0b6c131eaf3c17a512da" title="returns file extension used to serialize ObjectVoxels by default (if not overridden in specific objec...">defaultSerializeVoxelsFormat()</a> Generated from method <span class="tt"><a class="el" href="#a5f77269d2d517010afd2d5681eeee79f" title="returns overriden file extension used to serialize voxels inside this object, nullptr means defaultSe...">MR.ObjectVoxels.serializeFormat</a></span>. </p>
+<p>returns overriden file extension used to serialize voxels inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::VoxelsSerializeFormat ) Generated from method <span class="tt"><a class="el" href="#a5f77269d2d517010afd2d5681eeee79f" title="returns overriden file extension used to serialize voxels inside this object, nullptr means SceneSett...">MR.ObjectVoxels.serializeFormat</a></span>. </p>
 
 </div>
 </div>

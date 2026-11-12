@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -143,18 +136,25 @@ $(function(){initNavTree('MRAABBTree_8h.html','',''); });
   <div class="headertitle"><div class="title">MRAABBTree.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRAABBTreeBase_8h_source.html">MRAABBTreeBase.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRBox_8h_source.html">MRBox.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRId_8h_source.html">MRId.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRVector_8h_source.html">MRVector.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMeshPart_8h_source.html">MRMeshPart.h</a>&quot;</code><br />
 </div>
 <p><a href="MRAABBTree_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:MR_3A_3AAABBTreeWideNode" id="r_MR_3A_3AAABBTreeWideNode"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeWideNode.html">MR::AABBTreeWideNode</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">node of <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> (outside of the class to be default-constructible in its members)  <a href="structMR_1_1AABBTreeWideNode.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AAABBTreeWideLeafTri" id="r_MR_3A_3AAABBTreeWideLeafTri"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeWideLeafTri.html">MR::AABBTreeWideLeafTri</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangle in a leaf of <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a>  <a href="structMR_1_1AABBTreeWideLeafTri.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AAABBTree" id="r_MR_3A_3AAABBTree"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTree.html">MR::AABBTree</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
-<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only strictly necessary for the bindings (to make <span class="tt"><a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a></span> a complete type). <br /></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -144,12 +137,11 @@ $(function(){initNavTree('classmrmeshpy_1_1IRenderObject.html','',''); });
 <p>This is the complete list of members for <a class="el" href="classmrmeshpy_1_1IRenderObject.html">mrmeshpy.IRenderObject</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html#ae43a262e9866f86ded71a23b8e097ffb">forceBindAll</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html">mrmeshpy.IRenderObject</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html#aca30738714bd1f43d6116899221d018a">glBytes</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html">mrmeshpy.IRenderObject</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html#ab153ad40338c8732fc40d439f31a2fa5">heapBytes</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html">mrmeshpy.IRenderObject</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html#ad84439b139b52334ca1cf83d12997026">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html">mrmeshpy.IRenderObject</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html#ae60291fffa2408ee74b35bd2fed48921">render</a>(self, ModelRenderParams params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html">mrmeshpy.IRenderObject</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html#a5402922398fb1b28d1c687cedec8dd0f">renderPicker</a>(self, ModelBaseRenderParams params, int geomId)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html">mrmeshpy.IRenderObject</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html#a6b4078888ac54d2565abe69ce2d4bb74">renderUi</a>(self, UiRenderParams params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html">mrmeshpy.IRenderObject</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstIRenderObject.html#a5cbefb308a46ccb790fa8c1407b8d5ce">glBytes</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstIRenderObject.html">mrmeshpy.ConstIRenderObject</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstIRenderObject.html#aa58708a9794269f39b202241f9abc9c4">heapBytes</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstIRenderObject.html">mrmeshpy.ConstIRenderObject</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html#a444bb8074d903ce920a74512ec7a1363">render</a>(self, ConstModelRenderParams params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html">mrmeshpy.IRenderObject</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html#a073268072274d63a03862462ded5655e">renderPicker</a>(self, ConstModelBaseRenderParams params, int geomId)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html">mrmeshpy.IRenderObject</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html#add0512c23bfcf452a1c89aecdc617c55">renderUi</a>(self, ConstUiRenderParams params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1IRenderObject.html">mrmeshpy.IRenderObject</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

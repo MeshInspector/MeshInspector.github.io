@@ -17,6 +17,7 @@ var hierarchy =
     [ "MR.FixUndercuts", "classMR_1_1FixUndercuts.html", null ],
     [ "MR.FloatGridComponents", "classMR_1_1FloatGridComponents.html", null ],
     [ "MR.GcodeLoad", "classMR_1_1GcodeLoad.html", null ],
+    [ "MR.GcodeSave", "classMR_1_1GcodeSave.html", null ],
     [ "System.IDisposable", null, [
       [ "MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap", "classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap.html", [
         [ "MR.ColorMapAggregator_MRFaceTag.PartialColorMap", "classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap.html", null ]
@@ -141,6 +142,9 @@ var hierarchy =
       [ "MR.ConstBox_NodeId", "classMR_1_1ConstBox__NodeId.html", [
         [ "MR.Box_NodeId", "classMR_1_1Box__NodeId.html", null ]
       ] ],
+      [ "MR.ConstBox_ObjFaceId", "classMR_1_1ConstBox__ObjFaceId.html", [
+        [ "MR.Box_ObjFaceId", "classMR_1_1Box__ObjFaceId.html", null ]
+      ] ],
       [ "MR.ConstBox_ObjId", "classMR_1_1ConstBox__ObjId.html", [
         [ "MR.Box_ObjId", "classMR_1_1Box__ObjId.html", null ]
       ] ],
@@ -216,9 +220,6 @@ var hierarchy =
       [ "MR.Const_AABBTree", "classMR_1_1Const__AABBTree.html", [
         [ "MR.AABBTree", "classMR_1_1AABBTree.html", null ]
       ] ],
-      [ "MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f.html", [
-        [ "MR.AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f", "classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f.html", null ]
-      ] ],
       [ "MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", [
         [ "MR.AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", null ]
       ] ],
@@ -228,8 +229,8 @@ var hierarchy =
       [ "MR.Const_AABBTreeBase_MRObjTreeTraits", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html", [
         [ "MR.AABBTreeBase_MRObjTreeTraits", "classMR_1_1AABBTreeBase__MRObjTreeTraits.html", null ]
       ] ],
-      [ "MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f.html", [
-        [ "MR.AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f", "classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f.html", null ]
+      [ "MR.Const_AABBTreeChildEncoding", "classMR_1_1Const__AABBTreeChildEncoding.html", [
+        [ "MR.AABBTreeChildEncoding", "classMR_1_1AABBTreeChildEncoding.html", null ]
       ] ],
       [ "MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", [
         [ "MR.AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", null ]
@@ -258,14 +259,17 @@ var hierarchy =
       [ "MR.Const_AABBTreePolyline3", "classMR_1_1Const__AABBTreePolyline3.html", [
         [ "MR.AABBTreePolyline3", "classMR_1_1AABBTreePolyline3.html", null ]
       ] ],
-      [ "MR.Const_AABBTreeTraits_MRFaceTag_MRBox3f", "classMR_1_1Const__AABBTreeTraits__MRFaceTag__MRBox3f.html", [
-        [ "MR.AABBTreeTraits_MRFaceTag_MRBox3f", "classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f.html", null ]
-      ] ],
       [ "MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f", "classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f.html", [
         [ "MR.AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f", "classMR_1_1AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f.html", null ]
       ] ],
       [ "MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f", "classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f.html", [
         [ "MR.AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f", "classMR_1_1AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f.html", null ]
+      ] ],
+      [ "MR.Const_AABBTreeWideLeafTri", "classMR_1_1Const__AABBTreeWideLeafTri.html", [
+        [ "MR.AABBTreeWideLeafTri", "classMR_1_1AABBTreeWideLeafTri.html", null ]
+      ] ],
+      [ "MR.Const_AABBTreeWideNode", "classMR_1_1Const__AABBTreeWideNode.html", [
+        [ "MR.AABBTreeWideNode", "classMR_1_1AABBTreeWideNode.html", null ]
       ] ],
       [ "MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html", [
         [ "MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter", "classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html", null ]
@@ -309,6 +313,9 @@ var hierarchy =
       [ "MR.Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", [
         [ "MR.BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ]
       ] ],
+      [ "MR.Const_BMap_MRIdMRSurfaceDistanceStartTag_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__BMap__MRIdMRSurfaceDistanceStartTag__MRIdMRSurfaceDistanceStartTag.html", [
+        [ "MR.BMap_MRIdMRSurfaceDistanceStartTag_MRIdMRSurfaceDistanceStartTag", "classMR_1_1BMap__MRIdMRSurfaceDistanceStartTag__MRIdMRSurfaceDistanceStartTag.html", null ]
+      ] ],
       [ "MR.Const_BMap_MRNodeId_MRNodeId", "classMR_1_1Const__BMap__MRNodeId__MRNodeId.html", [
         [ "MR.BMap_MRNodeId_MRNodeId", "classMR_1_1BMap__MRNodeId__MRNodeId.html", null ]
       ] ],
@@ -351,6 +358,9 @@ var hierarchy =
       [ "MR.Const_Ball3f", "classMR_1_1Const__Ball3f.html", [
         [ "MR.Ball3f", "classMR_1_1Ball3f.html", null ]
       ] ],
+      [ "MR.Const_BallPivotCandidate", "classMR_1_1Const__BallPivotCandidate.html", [
+        [ "MR.BallPivotCandidate", "classMR_1_1BallPivotCandidate.html", null ]
+      ] ],
       [ "MR.Const_BaseRenderParams", "classMR_1_1Const__BaseRenderParams.html", [
         [ "MR.BaseRenderParams", "classMR_1_1BaseRenderParams.html", null ]
       ] ],
@@ -359,6 +369,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_BaseUnionFind_MRFaceId", "classMR_1_1Const__BaseUnionFind__MRFaceId.html", [
         [ "MR.BaseUnionFind_MRFaceId", "classMR_1_1BaseUnionFind__MRFaceId.html", null ]
+      ] ],
+      [ "MR.Const_BaseUnionFind_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__BaseUnionFind__MRIdMRSurfaceDistanceStartTag.html", [
+        [ "MR.BaseUnionFind_MRIdMRSurfaceDistanceStartTag", "classMR_1_1BaseUnionFind__MRIdMRSurfaceDistanceStartTag.html", null ]
       ] ],
       [ "MR.Const_BaseUnionFind_MRUndirectedEdgeId", "classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId.html", [
         [ "MR.BaseUnionFind_MRUndirectedEdgeId", "classMR_1_1BaseUnionFind__MRUndirectedEdgeId.html", null ]
@@ -390,6 +403,9 @@ var hierarchy =
       [ "MR.Const_BitSet", "classMR_1_1Const__BitSet.html", [
         [ "MR.BitSet", "classMR_1_1BitSet.html", null ]
       ] ],
+      [ "MR.Const_BitSet.Const_Counts", "classMR_1_1Const__BitSet_1_1Const__Counts.html", [
+        [ "MR.Const_BitSet.Counts", "classMR_1_1Const__BitSet_1_1Counts.html", null ]
+      ] ],
       [ "MR.Const_BooleanInternalParameters", "classMR_1_1Const__BooleanInternalParameters.html", [
         [ "MR.BooleanInternalParameters", "classMR_1_1BooleanInternalParameters.html", null ]
       ] ],
@@ -414,6 +430,15 @@ var hierarchy =
       [ "MR.Const_Box_UnsignedShort", "classMR_1_1Const__Box__UnsignedShort.html", [
         [ "MR.Box_UnsignedShort", "classMR_1_1Box__UnsignedShort.html", null ]
       ] ],
+      [ "MR.Const_BoxedLeaf_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Const__BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", [
+        [ "MR.BoxedLeaf_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", null ]
+      ] ],
+      [ "MR.Const_BoxedLeaf_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Const__BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html", [
+        [ "MR.BoxedLeaf_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html", null ]
+      ] ],
+      [ "MR.Const_BoxedLeaf_MRObjTreeTraits", "classMR_1_1Const__BoxedLeaf__MRObjTreeTraits.html", [
+        [ "MR.BoxedLeaf_MRObjTreeTraits", "classMR_1_1BoxedLeaf__MRObjTreeTraits.html", null ]
+      ] ],
       [ "MR.Const_Buffer_Char", "classMR_1_1Const__Buffer__Char.html", [
         [ "MR.Buffer_Char", "classMR_1_1Buffer__Char.html", null ]
       ] ],
@@ -437,6 +462,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", [
         [ "MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ]
+      ] ],
+      [ "MR.Const_Buffer_MRIdMRSurfaceDistanceStartTag_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Buffer__MRIdMRSurfaceDistanceStartTag__MRIdMRSurfaceDistanceStartTag.html", [
+        [ "MR.Buffer_MRIdMRSurfaceDistanceStartTag_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Buffer__MRIdMRSurfaceDistanceStartTag__MRIdMRSurfaceDistanceStartTag.html", null ]
       ] ],
       [ "MR.Const_Buffer_MRNodeId_MRNodeId", "classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html", [
         [ "MR.Buffer_MRNodeId_MRNodeId", "classMR_1_1Buffer__MRNodeId__MRNodeId.html", null ]
@@ -627,6 +655,9 @@ var hierarchy =
       [ "MR.Const_CompressZipSettings", "classMR_1_1Const__CompressZipSettings.html", [
         [ "MR.CompressZipSettings", "classMR_1_1CompressZipSettings.html", null ]
       ] ],
+      [ "MR.Const_ComputePointsToDistanceVolume", "classMR_1_1Const__ComputePointsToDistanceVolume.html", [
+        [ "MR.ComputePointsToDistanceVolume", "classMR_1_1ComputePointsToDistanceVolume.html", null ]
+      ] ],
       [ "MR.Const_ComputeSteepestDescentPathSettings", "classMR_1_1Const__ComputeSteepestDescentPathSettings.html", [
         [ "MR.ComputeSteepestDescentPathSettings", "classMR_1_1ComputeSteepestDescentPathSettings.html", null ]
       ] ],
@@ -696,6 +727,9 @@ var hierarchy =
       [ "MR.Const_CurvePoint", "classMR_1_1Const__CurvePoint.html", [
         [ "MR.CurvePoint", "classMR_1_1CurvePoint.html", null ]
       ] ],
+      [ "MR.Const_CutAroundVertSetsParams", "classMR_1_1Const__CutAroundVertSetsParams.html", [
+        [ "MR.CutAroundVertSetsParams", "classMR_1_1CutAroundVertSetsParams.html", null ]
+      ] ],
       [ "MR.Const_CutByProjectionSettings", "classMR_1_1Const__CutByProjectionSettings.html", [
         [ "MR.CutByProjectionSettings", "classMR_1_1CutByProjectionSettings.html", null ]
       ] ],
@@ -737,6 +771,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html", [
         [ "MR.DenoiseViaNormalsSettings", "classMR_1_1DenoiseViaNormalsSettings.html", null ]
+      ] ],
+      [ "MR.Const_DenoiseWithCreasesSettings", "classMR_1_1Const__DenoiseWithCreasesSettings.html", [
+        [ "MR.DenoiseWithCreasesSettings", "classMR_1_1DenoiseWithCreasesSettings.html", null ]
       ] ],
       [ "MR.Const_DenseBox", "classMR_1_1Const__DenseBox.html", [
         [ "MR.DenseBox", "classMR_1_1DenseBox.html", null ]
@@ -798,6 +835,9 @@ var hierarchy =
       [ "MR.Const_DoubleOffsetSettings", "classMR_1_1Const__DoubleOffsetSettings.html", [
         [ "MR.DoubleOffsetSettings", "classMR_1_1DoubleOffsetSettings.html", null ]
       ] ],
+      [ "MR.Const_DracoSaveOptions", "classMR_1_1Const__DracoSaveOptions.html", [
+        [ "MR.DracoSaveOptions", "classMR_1_1DracoSaveOptions.html", null ]
+      ] ],
       [ "MR.Const_EdgeBMap", "classMR_1_1Const__EdgeBMap.html", [
         [ "MR.EdgeBMap", "classMR_1_1EdgeBMap.html", null ]
       ] ],
@@ -834,11 +874,17 @@ var hierarchy =
       [ "MR.Const_EdgePointPair", "classMR_1_1Const__EdgePointPair.html", [
         [ "MR.EdgePointPair", "classMR_1_1EdgePointPair.html", null ]
       ] ],
+      [ "MR.Const_EdgePointd", "classMR_1_1Const__EdgePointd.html", [
+        [ "MR.EdgePointd", "classMR_1_1EdgePointd.html", null ]
+      ] ],
       [ "MR.Const_EdgeScalars", "classMR_1_1Const__EdgeScalars.html", [
         [ "MR.EdgeScalars", "classMR_1_1EdgeScalars.html", null ]
       ] ],
       [ "MR.Const_EdgeSegment", "classMR_1_1Const__EdgeSegment.html", [
         [ "MR.EdgeSegment", "classMR_1_1EdgeSegment.html", null ]
+      ] ],
+      [ "MR.Const_EdgeSegmentd", "classMR_1_1Const__EdgeSegmentd.html", [
+        [ "MR.EdgeSegmentd", "classMR_1_1EdgeSegmentd.html", null ]
       ] ],
       [ "MR.Const_EdgeSetBitIterator", "classMR_1_1Const__EdgeSetBitIterator.html", [
         [ "MR.EdgeSetBitIterator", "classMR_1_1EdgeSetBitIterator.html", null ]
@@ -866,6 +912,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_Expected_MRCudaDeviceInfo_StdString", "classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString.html", [
         [ "MR.Expected_MRCudaDeviceInfo_StdString", "classMR_1_1Expected__MRCudaDeviceInfo__StdString.html", null ]
+      ] ],
+      [ "MR.Const_ExtraFormatSettings", "classMR_1_1Const__ExtraFormatSettings.html", [
+        [ "MR.ExtraFormatSettings", "classMR_1_1ExtraFormatSettings.html", null ]
       ] ],
       [ "MR.Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html", [
         [ "MR.Face2RegionMap", "classMR_1_1Face2RegionMap.html", null ]
@@ -1063,6 +1112,15 @@ var hierarchy =
       [ "MR.Const_ICPProperties", "classMR_1_1Const__ICPProperties.html", [
         [ "MR.ICPProperties", "classMR_1_1ICPProperties.html", null ]
       ] ],
+      [ "MR.Const_IComputePointsToDistanceFunctionVolume", "classMR_1_1Const__IComputePointsToDistanceFunctionVolume.html", [
+        [ "MR.IComputePointsToDistanceFunctionVolume", "classMR_1_1IComputePointsToDistanceFunctionVolume.html", null ]
+      ] ],
+      [ "MR.Const_IComputePointsToDistanceVolume", "classMR_1_1Const__IComputePointsToDistanceVolume.html", [
+        [ "MR.IComputePointsToDistanceVolume", "classMR_1_1IComputePointsToDistanceVolume.html", null ]
+      ] ],
+      [ "MR.Const_IComputePointsToDistanceVolumeByParts", "classMR_1_1Const__IComputePointsToDistanceVolumeByParts.html", [
+        [ "MR.IComputePointsToDistanceVolumeByParts", "classMR_1_1IComputePointsToDistanceVolumeByParts.html", null ]
+      ] ],
       [ "MR.Const_IComputeToolDistance", "classMR_1_1Const__IComputeToolDistance.html", [
         [ "MR.IComputeToolDistance", "classMR_1_1IComputeToolDistance.html", null ]
       ] ],
@@ -1095,6 +1153,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_Id_MRICPElemtTag", "classMR_1_1Const__Id__MRICPElemtTag.html", [
         [ "MR.Id_MRICPElemtTag", "classMR_1_1Id__MRICPElemtTag.html", null ]
+      ] ],
+      [ "MR.Const_Id_MRSurfaceDistanceStartTag", "classMR_1_1Const__Id__MRSurfaceDistanceStartTag.html", [
+        [ "MR.Id_MRSurfaceDistanceStartTag", "classMR_1_1Id__MRSurfaceDistanceStartTag.html", null ]
       ] ],
       [ "MR.Const_Image", "classMR_1_1Const__Image.html", [
         [ "MR.Image", "classMR_1_1Image.html", null ]
@@ -1417,6 +1478,9 @@ var hierarchy =
       [ "MR.Const_MeshTriPoint", "classMR_1_1Const__MeshTriPoint.html", [
         [ "MR.MeshTriPoint", "classMR_1_1MeshTriPoint.html", null ]
       ] ],
+      [ "MR.Const_MeshTriPointd", "classMR_1_1Const__MeshTriPointd.html", [
+        [ "MR.MeshTriPointd", "classMR_1_1MeshTriPointd.html", null ]
+      ] ],
       [ "MR.Const_MeshVertPart", "classMR_1_1Const__MeshVertPart.html", [
         [ "MR.MeshVertPart", "classMR_1_1MeshVertPart.html", null ]
       ] ],
@@ -1492,6 +1556,9 @@ var hierarchy =
       [ "MR.Const_NoCtor_MRIdMRICPElemtTag", "classMR_1_1Const__NoCtor__MRIdMRICPElemtTag.html", [
         [ "MR.NoCtor_MRIdMRICPElemtTag", "classMR_1_1NoCtor__MRIdMRICPElemtTag.html", null ]
       ] ],
+      [ "MR.Const_NoCtor_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__NoCtor__MRIdMRSurfaceDistanceStartTag.html", [
+        [ "MR.NoCtor_MRIdMRSurfaceDistanceStartTag", "classMR_1_1NoCtor__MRIdMRSurfaceDistanceStartTag.html", null ]
+      ] ],
       [ "MR.Const_NoCtor_MRNodeId", "classMR_1_1Const__NoCtor__MRNodeId.html", [
         [ "MR.NoCtor_MRNodeId", "classMR_1_1NoCtor__MRNodeId.html", null ]
       ] ],
@@ -1536,6 +1603,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_NoDefInit_MRIdMRICPElemtTag", "classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag.html", [
         [ "MR.NoDefInit_MRIdMRICPElemtTag", "classMR_1_1NoDefInit__MRIdMRICPElemtTag.html", null ]
+      ] ],
+      [ "MR.Const_NoDefInit_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__NoDefInit__MRIdMRSurfaceDistanceStartTag.html", [
+        [ "MR.NoDefInit_MRIdMRSurfaceDistanceStartTag", "classMR_1_1NoDefInit__MRIdMRSurfaceDistanceStartTag.html", null ]
       ] ],
       [ "MR.Const_NoDefInit_MRNodeId", "classMR_1_1Const__NoDefInit__MRNodeId.html", [
         [ "MR.NoDefInit_MRNodeId", "classMR_1_1NoDefInit__MRNodeId.html", null ]
@@ -1695,6 +1765,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_OneMeshContour", "classMR_1_1Const__OneMeshContour.html", [
         [ "MR.OneMeshContour", "classMR_1_1OneMeshContour.html", null ]
+      ] ],
+      [ "MR.Const_OneMeshContours", "classMR_1_1Const__OneMeshContours.html", [
+        [ "MR.OneMeshContours", "classMR_1_1OneMeshContours.html", null ]
       ] ],
       [ "MR.Const_OneMeshIntersection", "classMR_1_1Const__OneMeshIntersection.html", [
         [ "MR.OneMeshIntersection", "classMR_1_1OneMeshIntersection.html", null ]
@@ -1990,6 +2063,18 @@ var hierarchy =
       [ "MR.Const_RadiusMeasurementObject", "classMR_1_1Const__RadiusMeasurementObject.html", [
         [ "MR.RadiusMeasurementObject", "classMR_1_1RadiusMeasurementObject.html", null ]
       ] ],
+      [ "MR.Const_Raster", "classMR_1_1Const__Raster.html", [
+        [ "MR.Raster", "classMR_1_1Raster.html", null ]
+      ] ],
+      [ "MR.Const_RasterInfo", "classMR_1_1Const__RasterInfo.html", [
+        [ "MR.RasterInfo", "classMR_1_1RasterInfo.html", null ]
+      ] ],
+      [ "MR.Const_RasterLoadSettings", "classMR_1_1Const__RasterLoadSettings.html", [
+        [ "MR.RasterLoadSettings", "classMR_1_1RasterLoadSettings.html", null ]
+      ] ],
+      [ "MR.Const_RasterSaveSettings", "classMR_1_1Const__RasterSaveSettings.html", [
+        [ "MR.RasterSaveSettings", "classMR_1_1RasterSaveSettings.html", null ]
+      ] ],
       [ "MR.Const_RebuildMeshSettings", "classMR_1_1Const__RebuildMeshSettings.html", [
         [ "MR.RebuildMeshSettings", "classMR_1_1RebuildMeshSettings.html", null ]
       ] ],
@@ -2028,6 +2113,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_RigidXf3f", "classMR_1_1Const__RigidXf3f.html", [
         [ "MR.RigidXf3f", "classMR_1_1RigidXf3f.html", null ]
+      ] ],
+      [ "MR.Const_RigidXfRansacParams", "classMR_1_1Const__RigidXfRansacParams.html", [
+        [ "MR.RigidXfRansacParams", "classMR_1_1RigidXfRansacParams.html", null ]
       ] ],
       [ "MR.Const_RingIterator_MRNextEdgeSameLeft", "classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html", [
         [ "MR.RingIterator_MRNextEdgeSameLeft", "classMR_1_1RingIterator__MRNextEdgeSameLeft.html", null ]
@@ -2088,6 +2176,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag", "classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html", [
         [ "MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag", "classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html", null ]
+      ] ],
+      [ "MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRSurfaceDistanceStartTag.html", [
+        [ "MR.SetBitIteratorT_MRTypedBitSetMRIdMRSurfaceDistanceStartTag", "classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRSurfaceDistanceStartTag.html", null ]
       ] ],
       [ "MR.Const_SetBitIteratorT_MRVoxelBitSet", "classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet.html", [
         [ "MR.SetBitIteratorT_MRVoxelBitSet", "classMR_1_1SetBitIteratorT__MRVoxelBitSet.html", null ]
@@ -2273,6 +2364,9 @@ var hierarchy =
       [ "MR.Const_ThickenParams", "classMR_1_1Const__ThickenParams.html", [
         [ "MR.ThickenParams", "classMR_1_1ThickenParams.html", null ]
       ] ],
+      [ "MR.Const_TiffSaveSettings", "classMR_1_1Const__TiffSaveSettings.html", [
+        [ "MR.TiffSaveSettings", "classMR_1_1TiffSaveSettings.html", null ]
+      ] ],
       [ "MR.Const_ToolPathParams", "classMR_1_1Const__ToolPathParams.html", [
         [ "MR.ToolPathParams", "classMR_1_1ToolPathParams.html", null ]
       ] ],
@@ -2344,6 +2438,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html", [
         [ "MR.TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html", null ]
+      ] ],
+      [ "MR.Const_TypedBitSet_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__TypedBitSet__MRIdMRSurfaceDistanceStartTag.html", [
+        [ "MR.TypedBitSet_MRIdMRSurfaceDistanceStartTag", "classMR_1_1TypedBitSet__MRIdMRSurfaceDistanceStartTag.html", null ]
       ] ],
       [ "MR.Const_UiRenderManager", "classMR_1_1Const__UiRenderManager.html", [
         [ "MR.UiRenderManager", "classMR_1_1UiRenderManager.html", null ]
@@ -2435,20 +2532,26 @@ var hierarchy =
       [ "MR.Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html", [
         [ "MR.Vector_Double_MRRegionId", "classMR_1_1Vector__Double__MRRegionId.html", null ]
       ] ],
-      [ "MR.Const_Vector_Float_MRVoxelId", "classMR_1_1Const__Vector__Float__MRVoxelId.html", [
-        [ "MR.Vector_Float_MRVoxelId", "classMR_1_1Vector__Float__MRVoxelId.html", null ]
+      [ "MR.Const_Vector_Float_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Vector__Float__MRIdMRSurfaceDistanceStartTag.html", [
+        [ "MR.Vector_Float_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Vector__Float__MRIdMRSurfaceDistanceStartTag.html", null ]
+      ] ],
+      [ "MR.Const_Vector_Int", "classMR_1_1Const__Vector__Int.html", [
+        [ "MR.Vector_Int", "classMR_1_1Vector__Int.html", null ]
       ] ],
       [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", [
         [ "MR.Vector_Int_MRFaceId", "classMR_1_1Vector__Int__MRFaceId.html", null ]
+      ] ],
+      [ "MR.Const_Vector_Int_MRGraphVertId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html", [
+        [ "MR.Vector_Int_MRGraphVertId", "classMR_1_1Vector__Int__MRGraphVertId.html", null ]
+      ] ],
+      [ "MR.Const_Vector_Int_MRRegionId", "classMR_1_1Const__Vector__Int__MRRegionId.html", [
+        [ "MR.Vector_Int_MRRegionId", "classMR_1_1Vector__Int__MRRegionId.html", null ]
       ] ],
       [ "MR.Const_Vector_Int_MRUndirectedEdgeId", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html", [
         [ "MR.Vector_Int_MRUndirectedEdgeId", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html", null ]
       ] ],
       [ "MR.Const_Vector_Int_MRVertId", "classMR_1_1Const__Vector__Int__MRVertId.html", [
         [ "MR.Vector_Int_MRVertId", "classMR_1_1Vector__Int__MRVertId.html", null ]
-      ] ],
-      [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html", [
-        [ "MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_MRNodeId", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html", null ]
       ] ],
       [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html", [
         [ "MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html", null ]
@@ -2462,8 +2565,32 @@ var hierarchy =
       [ "MR.Const_Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId.html", [
         [ "MR.Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html", null ]
       ] ],
+      [ "MR.Const_Vector_MRAABBTreeWideLeafTri", "classMR_1_1Const__Vector__MRAABBTreeWideLeafTri.html", [
+        [ "MR.Vector_MRAABBTreeWideLeafTri", "classMR_1_1Vector__MRAABBTreeWideLeafTri.html", null ]
+      ] ],
+      [ "MR.Const_Vector_MRAABBTreeWideNode_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeWideNode__MRNodeId.html", [
+        [ "MR.Vector_MRAABBTreeWideNode_MRNodeId", "classMR_1_1Vector__MRAABBTreeWideNode__MRNodeId.html", null ]
+      ] ],
       [ "MR.Const_Vector_MRAffineXf3f_MRObjId", "classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html", [
         [ "MR.Vector_MRAffineXf3f_MRObjId", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html", null ]
+      ] ],
+      [ "MR.Const_Vector_MRAlphaShapeNei", "classMR_1_1Const__Vector__MRAlphaShapeNei.html", [
+        [ "MR.Vector_MRAlphaShapeNei", "classMR_1_1Vector__MRAlphaShapeNei.html", null ]
+      ] ],
+      [ "MR.Const_Vector_MRBallPivotCandidate", "classMR_1_1Const__Vector__MRBallPivotCandidate.html", [
+        [ "MR.Vector_MRBallPivotCandidate", "classMR_1_1Vector__MRBallPivotCandidate.html", null ]
+      ] ],
+      [ "MR.Const_Vector_MRBox3f", "classMR_1_1Const__Vector__MRBox3f.html", [
+        [ "MR.Vector_MRBox3f", "classMR_1_1Vector__MRBox3f.html", null ]
+      ] ],
+      [ "MR.Const_Vector_MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Const__Vector__MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", [
+        [ "MR.Vector_MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Vector__MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", null ]
+      ] ],
+      [ "MR.Const_Vector_MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Const__Vector__MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html", [
+        [ "MR.Vector_MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Vector__MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html", null ]
+      ] ],
+      [ "MR.Const_Vector_MRBoxedLeafMRObjTreeTraits", "classMR_1_1Const__Vector__MRBoxedLeafMRObjTreeTraits.html", [
+        [ "MR.Vector_MRBoxedLeafMRObjTreeTraits", "classMR_1_1Vector__MRBoxedLeafMRObjTreeTraits.html", null ]
       ] ],
       [ "MR.Const_Vector_MREdgeId_MRFaceId", "classMR_1_1Const__Vector__MREdgeId__MRFaceId.html", [
         [ "MR.Vector_MREdgeId_MRFaceId", "classMR_1_1Vector__MREdgeId__MRFaceId.html", null ]
@@ -2492,6 +2619,12 @@ var hierarchy =
       [ "MR.Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", [
         [ "MR.Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ]
       ] ],
+      [ "MR.Const_Vector_MRIdMRSurfaceDistanceStartTag_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Vector__MRIdMRSurfaceDistanceStartTag__MRIdMRSurfaceDistanceStartTag.html", [
+        [ "MR.Vector_MRIdMRSurfaceDistanceStartTag_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Vector__MRIdMRSurfaceDistanceStartTag__MRIdMRSurfaceDistanceStartTag.html", null ]
+      ] ],
+      [ "MR.Const_Vector_MRIdMRSurfaceDistanceStartTag_MRVertId", "classMR_1_1Const__Vector__MRIdMRSurfaceDistanceStartTag__MRVertId.html", [
+        [ "MR.Vector_MRIdMRSurfaceDistanceStartTag_MRVertId", "classMR_1_1Vector__MRIdMRSurfaceDistanceStartTag__MRVertId.html", null ]
+      ] ],
       [ "MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId", "classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId.html", [
         [ "MR.Vector_MRMeshBuilderVertSpan_MRFaceId", "classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId.html", null ]
       ] ],
@@ -2513,8 +2646,17 @@ var hierarchy =
       [ "MR.Const_Vector_MRNodeId_MRNodeId", "classMR_1_1Const__Vector__MRNodeId__MRNodeId.html", [
         [ "MR.Vector_MRNodeId_MRNodeId", "classMR_1_1Vector__MRNodeId__MRNodeId.html", null ]
       ] ],
+      [ "MR.Const_Vector_MRObjFaceId_MRFaceId", "classMR_1_1Const__Vector__MRObjFaceId__MRFaceId.html", [
+        [ "MR.Vector_MRObjFaceId_MRFaceId", "classMR_1_1Vector__MRObjFaceId__MRFaceId.html", null ]
+      ] ],
       [ "MR.Const_Vector_MRObjId_MRVoxelId", "classMR_1_1Const__Vector__MRObjId__MRVoxelId.html", [
         [ "MR.Vector_MRObjId_MRVoxelId", "classMR_1_1Vector__MRObjId__MRVoxelId.html", null ]
+      ] ],
+      [ "MR.Const_Vector_MROneMeshContour", "classMR_1_1Const__Vector__MROneMeshContour.html", [
+        [ "MR.Vector_MROneMeshContour", "classMR_1_1Vector__MROneMeshContour.html", null ]
+      ] ],
+      [ "MR.Const_Vector_MROneMeshIntersection", "classMR_1_1Const__Vector__MROneMeshIntersection.html", [
+        [ "MR.Vector_MROneMeshIntersection", "classMR_1_1Vector__MROneMeshIntersection.html", null ]
       ] ],
       [ "MR.Const_Vector_MRPixelId_MRPixelId", "classMR_1_1Const__Vector__MRPixelId__MRPixelId.html", [
         [ "MR.Vector_MRPixelId_MRPixelId", "classMR_1_1Vector__MRPixelId__MRPixelId.html", null ]
@@ -2531,11 +2673,23 @@ var hierarchy =
       [ "MR.Const_Vector_MRTextureId_MRTextureId", "classMR_1_1Const__Vector__MRTextureId__MRTextureId.html", [
         [ "MR.Vector_MRTextureId_MRTextureId", "classMR_1_1Vector__MRTextureId__MRTextureId.html", null ]
       ] ],
+      [ "MR.Const_Vector_MRVarEdgeTri", "classMR_1_1Const__Vector__MRVarEdgeTri.html", [
+        [ "MR.Vector_MRVarEdgeTri", "classMR_1_1Vector__MRVarEdgeTri.html", null ]
+      ] ],
+      [ "MR.Const_Vector_MRVector2d_MRVertId", "classMR_1_1Const__Vector__MRVector2d__MRVertId.html", [
+        [ "MR.Vector_MRVector2d_MRVertId", "classMR_1_1Vector__MRVector2d__MRVertId.html", null ]
+      ] ],
+      [ "MR.Const_Vector_MRVector3f_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Vector__MRVector3f__MRIdMRSurfaceDistanceStartTag.html", [
+        [ "MR.Vector_MRVector3f_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Vector__MRVector3f__MRIdMRSurfaceDistanceStartTag.html", null ]
+      ] ],
       [ "MR.Const_Vector_MRVector3i_MRVertId", "classMR_1_1Const__Vector__MRVector3i__MRVertId.html", [
         [ "MR.Vector_MRVector3i_MRVertId", "classMR_1_1Vector__MRVector3i__MRVertId.html", null ]
       ] ],
       [ "MR.Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html", [
         [ "MR.Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ]
+      ] ],
+      [ "MR.Const_Vector_MRVectorMRVarEdgeTri", "classMR_1_1Const__Vector__MRVectorMRVarEdgeTri.html", [
+        [ "MR.Vector_MRVectorMRVarEdgeTri", "classMR_1_1Vector__MRVectorMRVarEdgeTri.html", null ]
       ] ],
       [ "MR.Const_Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html", [
         [ "MR.Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag_Int", "classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html", null ]
@@ -2549,6 +2703,9 @@ var hierarchy =
       [ "MR.Const_Vector_MRVertId_MREdgeId", "classMR_1_1Const__Vector__MRVertId__MREdgeId.html", [
         [ "MR.Vector_MRVertId_MREdgeId", "classMR_1_1Vector__MRVertId__MREdgeId.html", null ]
       ] ],
+      [ "MR.Const_Vector_MRVertId_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Vector__MRVertId__MRIdMRSurfaceDistanceStartTag.html", [
+        [ "MR.Vector_MRVertId_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Vector__MRVertId__MRIdMRSurfaceDistanceStartTag.html", null ]
+      ] ],
       [ "MR.Const_Vector_MRVoxelId_MRFaceId", "classMR_1_1Const__Vector__MRVoxelId__MRFaceId.html", [
         [ "MR.Vector_MRVoxelId_MRFaceId", "classMR_1_1Vector__MRVoxelId__MRFaceId.html", null ]
       ] ],
@@ -2561,14 +2718,20 @@ var hierarchy =
       [ "MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId", "classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId.html", [
         [ "MR.Vector_MRWatershedGraphBdInfo_MRGraphEdgeId", "classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId.html", null ]
       ] ],
-      [ "MR.Const_Vector_SizeT_MRGraphVertId", "classMR_1_1Const__Vector__SizeT__MRGraphVertId.html", [
-        [ "MR.Vector_SizeT_MRGraphVertId", "classMR_1_1Vector__SizeT__MRGraphVertId.html", null ]
+      [ "MR.Const_Vector_StdArrayFloat33_MRVertId", "classMR_1_1Const__Vector__StdArrayFloat33__MRVertId.html", [
+        [ "MR.Vector_StdArrayFloat33_MRVertId", "classMR_1_1Vector__StdArrayFloat33__MRVertId.html", null ]
       ] ],
       [ "MR.Const_Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Const__Vector__StdArrayMRVector3f3__MRFaceId.html", [
         [ "MR.Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html", null ]
       ] ],
+      [ "MR.Const_Vector_StdArrayMRVertId2", "classMR_1_1Const__Vector__StdArrayMRVertId2.html", [
+        [ "MR.Vector_StdArrayMRVertId2", "classMR_1_1Vector__StdArrayMRVertId2.html", null ]
+      ] ],
       [ "MR.Const_Vector_StdFilesystemPath_MRTextureId", "classMR_1_1Const__Vector__StdFilesystemPath__MRTextureId.html", [
         [ "MR.Vector_StdFilesystemPath_MRTextureId", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html", null ]
+      ] ],
+      [ "MR.Const_Vector_StdPairMREdgeIdMREdgeId", "classMR_1_1Const__Vector__StdPairMREdgeIdMREdgeId.html", [
+        [ "MR.Vector_StdPairMREdgeIdMREdgeId", "classMR_1_1Vector__StdPairMREdgeIdMREdgeId.html", null ]
       ] ],
       [ "MR.Const_Vector_StdVectorMREdgePoint_MRVertId", "classMR_1_1Const__Vector__StdVectorMREdgePoint__MRVertId.html", [
         [ "MR.Vector_StdVectorMREdgePoint_MRVertId", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html", null ]
@@ -2675,17 +2838,20 @@ var hierarchy =
       [ "MR.Const_VoxelMetricParameters", "classMR_1_1Const__VoxelMetricParameters.html", [
         [ "MR.VoxelMetricParameters", "classMR_1_1VoxelMetricParameters.html", null ]
       ] ],
+      [ "MR.Const_VoxelScalars", "classMR_1_1Const__VoxelScalars.html", [
+        [ "MR.VoxelScalars", "classMR_1_1VoxelScalars.html", null ]
+      ] ],
       [ "MR.Const_VoxelTraits_MRFloatGrid", "classMR_1_1Const__VoxelTraits__MRFloatGrid.html", [
         [ "MR.VoxelTraits_MRFloatGrid", "classMR_1_1VoxelTraits__MRFloatGrid.html", null ]
-      ] ],
-      [ "MR.Const_VoxelTraits_MRVectorFloatMRVoxelId", "classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId.html", [
-        [ "MR.VoxelTraits_MRVectorFloatMRVoxelId", "classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId.html", null ]
       ] ],
       [ "MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId", "classMR_1_1Const__VoxelTraits__MRVectorUnsignedShortMRVoxelId.html", [
         [ "MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId", "classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId.html", null ]
       ] ],
       [ "MR.Const_VoxelTraits_MRVoxelBitSet", "classMR_1_1Const__VoxelTraits__MRVoxelBitSet.html", [
         [ "MR.VoxelTraits_MRVoxelBitSet", "classMR_1_1VoxelTraits__MRVoxelBitSet.html", null ]
+      ] ],
+      [ "MR.Const_VoxelTraits_MRVoxelScalars", "classMR_1_1Const__VoxelTraits__MRVoxelScalars.html", [
+        [ "MR.VoxelTraits_MRVoxelScalars", "classMR_1_1VoxelTraits__MRVoxelScalars.html", null ]
       ] ],
       [ "MR.Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef", "classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html", [
         [ "MR.VoxelTraits_StdFunctionFloatFromConstMRVector3iRef", "classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html", null ]
@@ -2732,6 +2898,9 @@ var hierarchy =
       [ "MR.Const_WeightedVertex", "classMR_1_1Const__WeightedVertex.html", [
         [ "MR.WeightedVertex", "classMR_1_1WeightedVertex.html", null ]
       ] ],
+      [ "MR.Const_WeightedVertexd", "classMR_1_1Const__WeightedVertexd.html", [
+        [ "MR.WeightedVertexd", "classMR_1_1WeightedVertexd.html", null ]
+      ] ],
       [ "MR.Const_WholeEdgeBMap", "classMR_1_1Const__WholeEdgeBMap.html", [
         [ "MR.WholeEdgeBMap", "classMR_1_1WholeEdgeBMap.html", null ]
       ] ],
@@ -2755,6 +2924,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_ZlibParams", "classMR_1_1Const__ZlibParams.html", [
         [ "MR.ZlibParams", "classMR_1_1ZlibParams.html", null ]
+      ] ],
+      [ "MR.Cuda.Const_ComputePointsToDistanceVolume", "classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume.html", [
+        [ "MR.Cuda.ComputePointsToDistanceVolume", "classMR_1_1Cuda_1_1ComputePointsToDistanceVolume.html", null ]
       ] ],
       [ "MR.Cuda.Const_ComputeToolDistance", "classMR_1_1Cuda_1_1Const__ComputeToolDistance.html", [
         [ "MR.Cuda.ComputeToolDistance", "classMR_1_1Cuda_1_1ComputeToolDistance.html", null ]
@@ -2885,6 +3057,9 @@ var hierarchy =
       [ "MR.MeshBuilder.Const_VertexIdentifier", "classMR_1_1MeshBuilder_1_1Const__VertexIdentifier.html", [
         [ "MR.MeshBuilder.VertexIdentifier", "classMR_1_1MeshBuilder_1_1VertexIdentifier.html", null ]
       ] ],
+      [ "MR.MeshComponents.Const_ComponentsFaces", "classMR_1_1MeshComponents_1_1Const__ComponentsFaces.html", [
+        [ "MR.MeshComponents.ComponentsFaces", "classMR_1_1MeshComponents_1_1ComponentsFaces.html", null ]
+      ] ],
       [ "MR.MeshComponents.Const_ExpandToComponentsParams", "classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams.html", [
         [ "MR.MeshComponents.ExpandToComponentsParams", "classMR_1_1MeshComponents_1_1ExpandToComponentsParams.html", null ]
       ] ],
@@ -2984,6 +3159,9 @@ var hierarchy =
       [ "MR.PolylineComponents.Const_LargeByLengthComponentsSettings", "classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html", [
         [ "MR.PolylineComponents.LargeByLengthComponentsSettings", "classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html", null ]
       ] ],
+      [ "MR.RasterLoad.Const_TiffLoadSettings", "classMR_1_1RasterLoad_1_1Const__TiffLoadSettings.html", [
+        [ "MR.RasterLoad.TiffLoadSettings", "classMR_1_1RasterLoad_1_1TiffLoadSettings.html", null ]
+      ] ],
       [ "MR.SceneLoad.Const_Result", "classMR_1_1SceneLoad_1_1Const__Result.html", [
         [ "MR.SceneLoad.Result", "classMR_1_1SceneLoad_1_1Result.html", null ]
       ] ],
@@ -2995,6 +3173,9 @@ var hierarchy =
       ] ],
       [ "MR.SelfIntersections.Const_Settings", "classMR_1_1SelfIntersections_1_1Const__Settings.html", [
         [ "MR.SelfIntersections.Settings", "classMR_1_1SelfIntersections_1_1Settings.html", null ]
+      ] ],
+      [ "MR.Std.Const_SharedPtr_MRCudaComputePointsToDistanceVolume", "classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume.html", [
+        [ "MR.Std.SharedPtr_MRCudaComputePointsToDistanceVolume", "classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html", null ]
       ] ],
       [ "MR.Std.Const_SharedPtr_MRCudaFastWindingNumber", "classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber.html", [
         [ "MR.Std.SharedPtr_MRCudaFastWindingNumber", "classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html", null ]
@@ -3020,8 +3201,8 @@ var hierarchy =
       [ "MR.VoxelsLoad.Const_DicomVolumeAsVdb", "classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb.html", [
         [ "MR.VoxelsLoad.DicomVolumeAsVdb", "classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html", null ]
       ] ],
-      [ "MR.VoxelsLoad.Const_LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html", [
-        [ "MR.VoxelsLoad.LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", null ]
+      [ "MR.VoxelsLoad.Const_RasterFolderLoadSettings", "classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings.html", [
+        [ "MR.VoxelsLoad.RasterFolderLoadSettings", "classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html", null ]
       ] ],
       [ "MR.VoxelsLoad.Const_RawParameters", "classMR_1_1VoxelsLoad_1_1Const__RawParameters.html", [
         [ "MR.VoxelsLoad.RawParameters", "classMR_1_1VoxelsLoad_1_1RawParameters.html", null ]
@@ -3054,6 +3235,7 @@ var hierarchy =
       [ "MR.Buffer_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Buffer__MRGraphEdgeId__MRGraphEdgeId.html", null ],
       [ "MR.Buffer_MRGraphVertId_MRGraphVertId", "classMR_1_1Buffer__MRGraphVertId__MRGraphVertId.html", null ],
       [ "MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
+      [ "MR.Buffer_MRIdMRSurfaceDistanceStartTag_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Buffer__MRIdMRSurfaceDistanceStartTag__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Buffer_MRNodeId_MRNodeId", "classMR_1_1Buffer__MRNodeId__MRNodeId.html", null ],
       [ "MR.Buffer_MRObjId_MRObjId", "classMR_1_1Buffer__MRObjId__MRObjId.html", null ],
       [ "MR.Buffer_MRPixelId_MRPixelId", "classMR_1_1Buffer__MRPixelId__MRPixelId.html", null ],
@@ -3075,6 +3257,7 @@ var hierarchy =
       [ "MR.Const_Buffer_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId.html", null ],
       [ "MR.Const_Buffer_MRGraphVertId_MRGraphVertId", "classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId.html", null ],
       [ "MR.Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
+      [ "MR.Const_Buffer_MRIdMRSurfaceDistanceStartTag_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Buffer__MRIdMRSurfaceDistanceStartTag__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_Buffer_MRNodeId_MRNodeId", "classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html", null ],
       [ "MR.Const_Buffer_MRObjId_MRObjId", "classMR_1_1Const__Buffer__MRObjId__MRObjId.html", null ],
       [ "MR.Const_Buffer_MRPixelId_MRPixelId", "classMR_1_1Const__Buffer__MRPixelId__MRPixelId.html", null ],
@@ -3088,18 +3271,8 @@ var hierarchy =
       [ "MR.Const_Buffer_Uint64T", "classMR_1_1Const__Buffer__Uint64T.html", null ],
       [ "MR.Const_Buffer_UnsignedChar", "classMR_1_1Const__Buffer__UnsignedChar.html", null ],
       [ "MR.Const_ConstChildren", "classMR_1_1Const__ConstChildren.html", null ],
-      [ "MR.Const_Dipoles", "classMR_1_1Const__Dipoles.html", null ],
       [ "MR.Const_EdgeBitSet", "classMR_1_1Const__EdgeBitSet.html", null ],
-      [ "MR.Const_EdgeColors", "classMR_1_1Const__EdgeColors.html", null ],
-      [ "MR.Const_EdgeMap", "classMR_1_1Const__EdgeMap.html", null ],
-      [ "MR.Const_EdgeScalars", "classMR_1_1Const__EdgeScalars.html", null ],
-      [ "MR.Const_Edges", "classMR_1_1Const__Edges.html", null ],
-      [ "MR.Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html", null ],
       [ "MR.Const_FaceBitSet", "classMR_1_1Const__FaceBitSet.html", null ],
-      [ "MR.Const_FaceColors", "classMR_1_1Const__FaceColors.html", null ],
-      [ "MR.Const_FaceMap", "classMR_1_1Const__FaceMap.html", null ],
-      [ "MR.Const_FaceNormals", "classMR_1_1Const__FaceNormals.html", null ],
-      [ "MR.Const_FaceScalars", "classMR_1_1Const__FaceScalars.html", null ],
       [ "MR.Const_GraphEdgeBitSet", "classMR_1_1Const__GraphEdgeBitSet.html", null ],
       [ "MR.Const_GraphVertBitSet", "classMR_1_1Const__GraphVertBitSet.html", null ],
       [ "MR.Const_IteratorRange_MRChunkIterator", "classMR_1_1Const__IteratorRange__MRChunkIterator.html", null ],
@@ -3109,163 +3282,18 @@ var hierarchy =
       [ "MR.Const_IteratorRange_MRUndirectedEdgeIterator", "classMR_1_1Const__IteratorRange__MRUndirectedEdgeIterator.html", null ],
       [ "MR.Const_NodeBitSet", "classMR_1_1Const__NodeBitSet.html", null ],
       [ "MR.Const_ObjBitSet", "classMR_1_1Const__ObjBitSet.html", null ],
-      [ "MR.Const_ObjMap", "classMR_1_1Const__ObjMap.html", null ],
       [ "MR.Const_PixelBitSet", "classMR_1_1Const__PixelBitSet.html", null ],
       [ "MR.Const_RegionBitSet", "classMR_1_1Const__RegionBitSet.html", null ],
       [ "MR.Const_TextureBitSet", "classMR_1_1Const__TextureBitSet.html", null ],
-      [ "MR.Const_TexturePerFace", "classMR_1_1Const__TexturePerFace.html", null ],
-      [ "MR.Const_TriCornerUVCoords", "classMR_1_1Const__TriCornerUVCoords.html", null ],
-      [ "MR.Const_Triangulation", "classMR_1_1Const__Triangulation.html", null ],
       [ "MR.Const_TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Const_UndirectedEdge2RegionMap", "classMR_1_1Const__UndirectedEdge2RegionMap.html", null ],
+      [ "MR.Const_TypedBitSet_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__TypedBitSet__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_UndirectedEdgeBitSet", "classMR_1_1Const__UndirectedEdgeBitSet.html", null ],
-      [ "MR.Const_UndirectedEdgeColors", "classMR_1_1Const__UndirectedEdgeColors.html", null ],
-      [ "MR.Const_UndirectedEdgeMap", "classMR_1_1Const__UndirectedEdgeMap.html", null ],
-      [ "MR.Const_UndirectedEdgeScalars", "classMR_1_1Const__UndirectedEdgeScalars.html", null ],
-      [ "MR.Const_Vector_Char_MRVertId", "classMR_1_1Const__Vector__Char__MRVertId.html", null ],
-      [ "MR.Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html", null ],
-      [ "MR.Const_Vector_Float_MRVoxelId", "classMR_1_1Const__Vector__Float__MRVoxelId.html", null ],
-      [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", null ],
-      [ "MR.Const_Vector_Int_MRUndirectedEdgeId", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html", null ],
-      [ "MR.Const_Vector_Int_MRVertId", "classMR_1_1Const__Vector__Int__MRVertId.html", null ],
-      [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html", null ],
-      [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html", null ],
-      [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId.html", null ],
-      [ "MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html", null ],
-      [ "MR.Const_Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId.html", null ],
-      [ "MR.Const_Vector_MRAffineXf3f_MRObjId", "classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html", null ],
-      [ "MR.Const_Vector_MREdgeId_MRFaceId", "classMR_1_1Const__Vector__MREdgeId__MRFaceId.html", null ],
-      [ "MR.Const_Vector_MREdgeId_MRVertId", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html", null ],
-      [ "MR.Const_Vector_MRFaceBitSet_MRGraphVertId", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html", null ],
-      [ "MR.Const_Vector_MRFanRecord_MRVertId", "classMR_1_1Const__Vector__MRFanRecord__MRVertId.html", null ],
-      [ "MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId.html", null ],
-      [ "MR.Const_Vector_MRGraphEndVertices_MRGraphEdgeId", "classMR_1_1Const__Vector__MRGraphEndVertices__MRGraphEdgeId.html", null ],
-      [ "MR.Const_Vector_MRGraphVertId_MRGraphVertId", "classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId.html", null ],
-      [ "MR.Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId", "classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId.html", null ],
-      [ "MR.Const_Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html", null ],
-      [ "MR.Const_Vector_MRMeshTexture_MRTextureId", "classMR_1_1Const__Vector__MRMeshTexture__MRTextureId.html", null ],
-      [ "MR.Const_Vector_MRModelPointsData_MRObjId", "classMR_1_1Const__Vector__MRModelPointsData__MRObjId.html", null ],
-      [ "MR.Const_Vector_MRNestingMeshXf_MRObjId", "classMR_1_1Const__Vector__MRNestingMeshXf__MRObjId.html", null ],
-      [ "MR.Const_Vector_MRNestingNestingResult_MRObjId", "classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId.html", null ],
-      [ "MR.Const_Vector_MRNodeId_MRNodeId", "classMR_1_1Const__Vector__MRNodeId__MRNodeId.html", null ],
-      [ "MR.Const_Vector_MRObjId_MRVoxelId", "classMR_1_1Const__Vector__MRObjId__MRVoxelId.html", null ],
-      [ "MR.Const_Vector_MRPixelId_MRPixelId", "classMR_1_1Const__Vector__MRPixelId__MRPixelId.html", null ],
-      [ "MR.Const_Vector_MRQuadraticForm2f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId.html", null ],
-      [ "MR.Const_Vector_MRQuadraticForm3f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.html", null ],
-      [ "MR.Const_Vector_MRRegionId_MRRegionId", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html", null ],
-      [ "MR.Const_Vector_MRTextureId_MRTextureId", "classMR_1_1Const__Vector__MRTextureId__MRTextureId.html", null ],
-      [ "MR.Const_Vector_MRVector3i_MRVertId", "classMR_1_1Const__Vector__MRVector3i__MRVertId.html", null ],
-      [ "MR.Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Const_Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html", null ],
-      [ "MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html", null ],
-      [ "MR.Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html", null ],
-      [ "MR.Const_Vector_MRVertId_MREdgeId", "classMR_1_1Const__Vector__MRVertId__MREdgeId.html", null ],
-      [ "MR.Const_Vector_MRVoxelId_MRFaceId", "classMR_1_1Const__Vector__MRVoxelId__MRFaceId.html", null ],
-      [ "MR.Const_Vector_MRVoxelId_MRVoxelId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html", null ],
-      [ "MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId", "classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId.html", null ],
-      [ "MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId", "classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId.html", null ],
-      [ "MR.Const_Vector_SizeT_MRGraphVertId", "classMR_1_1Const__Vector__SizeT__MRGraphVertId.html", null ],
-      [ "MR.Const_Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Const__Vector__StdArrayMRVector3f3__MRFaceId.html", null ],
-      [ "MR.Const_Vector_StdFilesystemPath_MRTextureId", "classMR_1_1Const__Vector__StdFilesystemPath__MRTextureId.html", null ],
-      [ "MR.Const_Vector_StdVectorMREdgePoint_MRVertId", "classMR_1_1Const__Vector__StdVectorMREdgePoint__MRVertId.html", null ],
-      [ "MR.Const_Vector_StdVectorMRGraphEdgeId_MRGraphVertId", "classMR_1_1Const__Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html", null ],
-      [ "MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Const_Vector_UnsignedShort_MRVoxelId", "classMR_1_1Const__Vector__UnsignedShort__MRVoxelId.html", null ],
-      [ "MR.Const_Vert2RegionMap", "classMR_1_1Const__Vert2RegionMap.html", null ],
       [ "MR.Const_VertBitSet", "classMR_1_1Const__VertBitSet.html", null ],
-      [ "MR.Const_VertColors", "classMR_1_1Const__VertColors.html", null ],
-      [ "MR.Const_VertCoords", "classMR_1_1Const__VertCoords.html", null ],
-      [ "MR.Const_VertCoords2", "classMR_1_1Const__VertCoords2.html", null ],
-      [ "MR.Const_VertMap", "classMR_1_1Const__VertMap.html", null ],
-      [ "MR.Const_VertScalars", "classMR_1_1Const__VertScalars.html", null ],
       [ "MR.Const_ViewportMask", "classMR_1_1Const__ViewportMask.html", null ],
-      [ "MR.Const_VoxelBitSet", "classMR_1_1Const__VoxelBitSet.html", null ],
-      [ "MR.Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html", null ],
-      [ "MR.Dipoles", "classMR_1_1Dipoles.html", null ],
-      [ "MR.EdgeColors", "classMR_1_1EdgeColors.html", null ],
-      [ "MR.EdgeMap", "classMR_1_1EdgeMap.html", null ],
-      [ "MR.EdgeScalars", "classMR_1_1EdgeScalars.html", null ],
-      [ "MR.Edges", "classMR_1_1Edges.html", null ],
-      [ "MR.Face2RegionMap", "classMR_1_1Face2RegionMap.html", null ],
-      [ "MR.FaceColors", "classMR_1_1FaceColors.html", null ],
-      [ "MR.FaceMap", "classMR_1_1FaceMap.html", null ],
-      [ "MR.FaceNormals", "classMR_1_1FaceNormals.html", null ],
-      [ "MR.FaceScalars", "classMR_1_1FaceScalars.html", null ],
-      [ "MR.ObjMap", "classMR_1_1ObjMap.html", null ],
-      [ "MR.TexturePerFace", "classMR_1_1TexturePerFace.html", null ],
-      [ "MR.TriCornerUVCoords", "classMR_1_1TriCornerUVCoords.html", null ],
-      [ "MR.Triangulation", "classMR_1_1Triangulation.html", null ],
-      [ "MR.UndirectedEdge2RegionMap", "classMR_1_1UndirectedEdge2RegionMap.html", null ],
-      [ "MR.UndirectedEdgeColors", "classMR_1_1UndirectedEdgeColors.html", null ],
-      [ "MR.UndirectedEdgeMap", "classMR_1_1UndirectedEdgeMap.html", null ],
-      [ "MR.UndirectedEdgeScalars", "classMR_1_1UndirectedEdgeScalars.html", null ],
-      [ "MR.Vector_Char_MRVertId", "classMR_1_1Vector__Char__MRVertId.html", null ],
-      [ "MR.Vector_Double_MRRegionId", "classMR_1_1Vector__Double__MRRegionId.html", null ],
-      [ "MR.Vector_Float_MRVoxelId", "classMR_1_1Vector__Float__MRVoxelId.html", null ],
-      [ "MR.Vector_Int_MRFaceId", "classMR_1_1Vector__Int__MRFaceId.html", null ],
-      [ "MR.Vector_Int_MRUndirectedEdgeId", "classMR_1_1Vector__Int__MRUndirectedEdgeId.html", null ],
-      [ "MR.Vector_Int_MRVertId", "classMR_1_1Vector__Int__MRVertId.html", null ],
-      [ "MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_MRNodeId", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html", null ],
-      [ "MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html", null ],
-      [ "MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId.html", null ],
-      [ "MR.Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId", "classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html", null ],
-      [ "MR.Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html", null ],
-      [ "MR.Vector_MRAffineXf3f_MRObjId", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html", null ],
-      [ "MR.Vector_MREdgeId_MRFaceId", "classMR_1_1Vector__MREdgeId__MRFaceId.html", null ],
-      [ "MR.Vector_MREdgeId_MRVertId", "classMR_1_1Vector__MREdgeId__MRVertId.html", null ],
-      [ "MR.Vector_MRFaceBitSet_MRGraphVertId", "classMR_1_1Vector__MRFaceBitSet__MRGraphVertId.html", null ],
-      [ "MR.Vector_MRFanRecord_MRVertId", "classMR_1_1Vector__MRFanRecord__MRVertId.html", null ],
-      [ "MR.Vector_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId.html", null ],
-      [ "MR.Vector_MRGraphEndVertices_MRGraphEdgeId", "classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId.html", null ],
-      [ "MR.Vector_MRGraphVertId_MRGraphVertId", "classMR_1_1Vector__MRGraphVertId__MRGraphVertId.html", null ],
-      [ "MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag", "classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Vector_MRMeshBuilderVertSpan_MRFaceId", "classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId.html", null ],
-      [ "MR.Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId.html", null ],
-      [ "MR.Vector_MRMeshTexture_MRTextureId", "classMR_1_1Vector__MRMeshTexture__MRTextureId.html", null ],
-      [ "MR.Vector_MRModelPointsData_MRObjId", "classMR_1_1Vector__MRModelPointsData__MRObjId.html", null ],
-      [ "MR.Vector_MRNestingMeshXf_MRObjId", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html", null ],
-      [ "MR.Vector_MRNestingNestingResult_MRObjId", "classMR_1_1Vector__MRNestingNestingResult__MRObjId.html", null ],
-      [ "MR.Vector_MRNodeId_MRNodeId", "classMR_1_1Vector__MRNodeId__MRNodeId.html", null ],
-      [ "MR.Vector_MRObjId_MRVoxelId", "classMR_1_1Vector__MRObjId__MRVoxelId.html", null ],
-      [ "MR.Vector_MRPixelId_MRPixelId", "classMR_1_1Vector__MRPixelId__MRPixelId.html", null ],
-      [ "MR.Vector_MRQuadraticForm2f_MRVertId", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId.html", null ],
-      [ "MR.Vector_MRQuadraticForm3f_MRVertId", "classMR_1_1Vector__MRQuadraticForm3f__MRVertId.html", null ],
-      [ "MR.Vector_MRRegionId_MRRegionId", "classMR_1_1Vector__MRRegionId__MRRegionId.html", null ],
-      [ "MR.Vector_MRTextureId_MRTextureId", "classMR_1_1Vector__MRTextureId__MRTextureId.html", null ],
-      [ "MR.Vector_MRVector3i_MRVertId", "classMR_1_1Vector__MRVector3i__MRVertId.html", null ],
-      [ "MR.Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag_Int", "classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html", null ],
-      [ "MR.Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int", "classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html", null ],
-      [ "MR.Vector_MRVertBitSet_MRObjId", "classMR_1_1Vector__MRVertBitSet__MRObjId.html", null ],
-      [ "MR.Vector_MRVertId_MREdgeId", "classMR_1_1Vector__MRVertId__MREdgeId.html", null ],
-      [ "MR.Vector_MRVoxelId_MRFaceId", "classMR_1_1Vector__MRVoxelId__MRFaceId.html", null ],
-      [ "MR.Vector_MRVoxelId_MRVoxelId", "classMR_1_1Vector__MRVoxelId__MRVoxelId.html", null ],
-      [ "MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId", "classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId.html", null ],
-      [ "MR.Vector_MRWatershedGraphBdInfo_MRGraphEdgeId", "classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId.html", null ],
-      [ "MR.Vector_SizeT_MRGraphVertId", "classMR_1_1Vector__SizeT__MRGraphVertId.html", null ],
-      [ "MR.Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html", null ],
-      [ "MR.Vector_StdFilesystemPath_MRTextureId", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html", null ],
-      [ "MR.Vector_StdVectorMREdgePoint_MRVertId", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html", null ],
-      [ "MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId", "classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html", null ],
-      [ "MR.Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag", "classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag.html", null ],
-      [ "MR.Vector_UnsignedShort_MRVoxelId", "classMR_1_1Vector__UnsignedShort__MRVoxelId.html", null ],
-      [ "MR.Vert2RegionMap", "classMR_1_1Vert2RegionMap.html", null ],
-      [ "MR.VertColors", "classMR_1_1VertColors.html", null ],
-      [ "MR.VertCoords", "classMR_1_1VertCoords.html", null ],
-      [ "MR.VertCoords2", "classMR_1_1VertCoords2.html", null ],
-      [ "MR.VertMap", "classMR_1_1VertMap.html", null ],
-      [ "MR.VertScalars", "classMR_1_1VertScalars.html", null ],
-      [ "MR.WholeEdgeMap", "classMR_1_1WholeEdgeMap.html", null ]
+      [ "MR.Const_VoxelBitSet", "classMR_1_1Const__VoxelBitSet.html", null ]
     ] ],
     [ "IEnumerator", null, [
-      [ "MR.Const_EdgeBitSet._Enumerator", "classMR_1_1Const__EdgeBitSet_1_1__Enumerator.html", null ],
-      [ "MR.Const_EdgeColors._Enumerator", "classMR_1_1Const__EdgeColors_1_1__Enumerator.html", null ],
-      [ "MR.Const_EdgeMap._Enumerator", "classMR_1_1Const__EdgeMap_1_1__Enumerator.html", null ],
-      [ "MR.Const_EdgeScalars._Enumerator", "classMR_1_1Const__EdgeScalars_1_1__Enumerator.html", null ],
-      [ "MR.Const_Edges._Enumerator", "classMR_1_1Const__Edges_1_1__Enumerator.html", null ]
+      [ "MR.Const_EdgeBitSet._Enumerator", "classMR_1_1Const__EdgeBitSet_1_1__Enumerator.html", null ]
     ] ],
     [ "System.IEquatable", null, [
       [ "MR.AffineXf2d", "structMR_1_1AffineXf2d.html", null ],
@@ -3324,6 +3352,7 @@ var hierarchy =
       [ "MR.ConstBox_Matrix4i", "classMR_1_1ConstBox__Matrix4i.html", null ],
       [ "MR.ConstBox_Matrix4i64", "classMR_1_1ConstBox__Matrix4i64.html", null ],
       [ "MR.ConstBox_NodeId", "classMR_1_1ConstBox__NodeId.html", null ],
+      [ "MR.ConstBox_ObjFaceId", "classMR_1_1ConstBox__ObjFaceId.html", null ],
       [ "MR.ConstBox_ObjId", "classMR_1_1ConstBox__ObjId.html", null ],
       [ "MR.ConstBox_ObjVertId", "classMR_1_1ConstBox__ObjVertId.html", null ],
       [ "MR.ConstBox_PixelId", "classMR_1_1ConstBox__PixelId.html", null ],
@@ -3352,35 +3381,45 @@ var hierarchy =
       [ "MR.Const_Box_UnsignedShort", "classMR_1_1Const__Box__UnsignedShort.html", null ],
       [ "MR.Const_ChunkIterator", "classMR_1_1Const__ChunkIterator.html", null ],
       [ "MR.Const_ConstChildren.Const_Iterator", "classMR_1_1Const__ConstChildren_1_1Const__Iterator.html", null ],
+      [ "MR.Const_DentalId", "classMR_1_1Const__DentalId.html", null ],
       [ "MR.Const_EdgeColors", "classMR_1_1Const__EdgeColors.html", null ],
       [ "MR.Const_EdgeMap", "classMR_1_1Const__EdgeMap.html", null ],
       [ "MR.Const_EdgePoint", "classMR_1_1Const__EdgePoint.html", null ],
       [ "MR.Const_EdgePointPair", "classMR_1_1Const__EdgePointPair.html", null ],
+      [ "MR.Const_EdgePointd", "classMR_1_1Const__EdgePointd.html", null ],
       [ "MR.Const_EdgeScalars", "classMR_1_1Const__EdgeScalars.html", null ],
       [ "MR.Const_EdgeSegment", "classMR_1_1Const__EdgeSegment.html", null ],
+      [ "MR.Const_EdgeSegmentd", "classMR_1_1Const__EdgeSegmentd.html", null ],
       [ "MR.Const_EdgeSetBitIterator", "classMR_1_1Const__EdgeSetBitIterator.html", null ],
       [ "MR.Const_EdgeTri", "classMR_1_1Const__EdgeTri.html", null ],
       [ "MR.Const_Edges", "classMR_1_1Const__Edges.html", null ],
       [ "MR.Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html", null ],
       [ "MR.Const_FaceBitSet", "classMR_1_1Const__FaceBitSet.html", null ],
       [ "MR.Const_FaceColors", "classMR_1_1Const__FaceColors.html", null ],
+      [ "MR.Const_FaceFace", "classMR_1_1Const__FaceFace.html", null ],
+      [ "MR.Const_FaceFaceFace", "classMR_1_1Const__FaceFaceFace.html", null ],
       [ "MR.Const_FaceMap", "classMR_1_1Const__FaceMap.html", null ],
       [ "MR.Const_FaceNormals", "classMR_1_1Const__FaceNormals.html", null ],
       [ "MR.Const_FaceScalars", "classMR_1_1Const__FaceScalars.html", null ],
       [ "MR.Const_FaceSetBitIterator", "classMR_1_1Const__FaceSetBitIterator.html", null ],
+      [ "MR.Const_Graph.Const_EndVertices", "classMR_1_1Const__Graph_1_1Const__EndVertices.html", null ],
       [ "MR.Const_ICPPairData", "classMR_1_1Const__ICPPairData.html", null ],
+      [ "MR.Const_IOFilter", "classMR_1_1Const__IOFilter.html", null ],
       [ "MR.Const_Id_MRICPElemtTag", "classMR_1_1Const__Id__MRICPElemtTag.html", null ],
+      [ "MR.Const_Id_MRSurfaceDistanceStartTag", "classMR_1_1Const__Id__MRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_Matrix3_UnsignedChar", "classMR_1_1Const__Matrix3__UnsignedChar.html", null ],
       [ "MR.Const_Matrix4_UnsignedChar", "classMR_1_1Const__Matrix4__UnsignedChar.html", null ],
       [ "MR.Const_Mesh", "classMR_1_1Const__Mesh.html", null ],
       [ "MR.Const_MeshOrPointsObject", "classMR_1_1Const__MeshOrPointsObject.html", null ],
       [ "MR.Const_MeshTopology", "classMR_1_1Const__MeshTopology.html", null ],
       [ "MR.Const_MeshTriPoint", "classMR_1_1Const__MeshTriPoint.html", null ],
+      [ "MR.Const_MeshTriPointd", "classMR_1_1Const__MeshTriPointd.html", null ],
       [ "MR.Const_NoDefInit_MREdgeId", "classMR_1_1Const__NoDefInit__MREdgeId.html", null ],
       [ "MR.Const_NoDefInit_MRFaceId", "classMR_1_1Const__NoDefInit__MRFaceId.html", null ],
       [ "MR.Const_NoDefInit_MRGraphEdgeId", "classMR_1_1Const__NoDefInit__MRGraphEdgeId.html", null ],
       [ "MR.Const_NoDefInit_MRGraphVertId", "classMR_1_1Const__NoDefInit__MRGraphVertId.html", null ],
       [ "MR.Const_NoDefInit_MRIdMRICPElemtTag", "classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag.html", null ],
+      [ "MR.Const_NoDefInit_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__NoDefInit__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_NoDefInit_MRNodeId", "classMR_1_1Const__NoDefInit__MRNodeId.html", null ],
       [ "MR.Const_NoDefInit_MRObjId", "classMR_1_1Const__NoDefInit__MRObjId.html", null ],
       [ "MR.Const_NoDefInit_MRPixelId", "classMR_1_1Const__NoDefInit__MRPixelId.html", null ],
@@ -3393,9 +3432,11 @@ var hierarchy =
       [ "MR.Const_ObjMap", "classMR_1_1Const__ObjMap.html", null ],
       [ "MR.Const_ObjectVoxels.Const_VolumeRenderingParams", "classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams.html", null ],
       [ "MR.Const_PointPair", "classMR_1_1Const__PointPair.html", null ],
+      [ "MR.Const_PointsProjectionResult", "classMR_1_1Const__PointsProjectionResult.html", null ],
       [ "MR.Const_PolylineTopology", "classMR_1_1Const__PolylineTopology.html", null ],
       [ "MR.Const_PolylineUndirectedEdgeIterator", "classMR_1_1Const__PolylineUndirectedEdgeIterator.html", null ],
       [ "MR.Const_PositionedText", "classMR_1_1Const__PositionedText.html", null ],
+      [ "MR.Const_RasterInfo", "classMR_1_1Const__RasterInfo.html", null ],
       [ "MR.Const_RingIterator_MRNextEdgeSameLeft", "classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html", null ],
       [ "MR.Const_RingIterator_MRNextEdgeSameOrigin", "classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin.html", null ],
       [ "MR.Const_SegmPointd", "classMR_1_1Const__SegmPointd.html", null ],
@@ -3411,9 +3452,12 @@ var hierarchy =
       [ "MR.Const_SetBitIteratorT_MRRegionBitSet", "classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html", null ],
       [ "MR.Const_SetBitIteratorT_MRTextureBitSet", "classMR_1_1Const__SetBitIteratorT__MRTextureBitSet.html", null ],
       [ "MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag", "classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html", null ],
+      [ "MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_SetBitIteratorT_MRVoxelBitSet", "classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet.html", null ],
       [ "MR.Const_SimpleVolumeMinMax", "classMR_1_1Const__SimpleVolumeMinMax.html", null ],
       [ "MR.Const_SimpleVolumeMinMaxU16", "classMR_1_1Const__SimpleVolumeMinMaxU16.html", null ],
+      [ "MR.Const_SliceInfo", "classMR_1_1Const__SliceInfo.html", null ],
+      [ "MR.Const_SliceInfoBase", "classMR_1_1Const__SliceInfoBase.html", null ],
       [ "MR.Const_Sphere2d", "classMR_1_1Const__Sphere2d.html", null ],
       [ "MR.Const_Sphere2f", "classMR_1_1Const__Sphere2f.html", null ],
       [ "MR.Const_Sphere3d", "classMR_1_1Const__Sphere3d.html", null ],
@@ -3435,6 +3479,7 @@ var hierarchy =
       [ "MR.Const_UndirectedEdgeMap", "classMR_1_1Const__UndirectedEdgeMap.html", null ],
       [ "MR.Const_UndirectedEdgeScalars", "classMR_1_1Const__UndirectedEdgeScalars.html", null ],
       [ "MR.Const_UndirectedEdgeSetBitIterator", "classMR_1_1Const__UndirectedEdgeSetBitIterator.html", null ],
+      [ "MR.Const_UndirectedEdgeUndirectedEdge", "classMR_1_1Const__UndirectedEdgeUndirectedEdge.html", null ],
       [ "MR.Const_UnorientedTriangle", "classMR_1_1Const__UnorientedTriangle.html", null ],
       [ "MR.Const_VarEdgeTri", "classMR_1_1Const__VarEdgeTri.html", null ],
       [ "MR.Const_VarEdgeTri.Const_FlaggedTri", "classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri.html", null ],
@@ -3443,11 +3488,15 @@ var hierarchy =
       [ "MR.Const_Vector4_UnsignedChar", "classMR_1_1Const__Vector4__UnsignedChar.html", null ],
       [ "MR.Const_Vector_Char_MRVertId", "classMR_1_1Const__Vector__Char__MRVertId.html", null ],
       [ "MR.Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html", null ],
-      [ "MR.Const_Vector_Float_MRVoxelId", "classMR_1_1Const__Vector__Float__MRVoxelId.html", null ],
+      [ "MR.Const_Vector_Float_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Vector__Float__MRIdMRSurfaceDistanceStartTag.html", null ],
+      [ "MR.Const_Vector_Int", "classMR_1_1Const__Vector__Int.html", null ],
       [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", null ],
+      [ "MR.Const_Vector_Int_MRGraphVertId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html", null ],
+      [ "MR.Const_Vector_Int_MRRegionId", "classMR_1_1Const__Vector__Int__MRRegionId.html", null ],
       [ "MR.Const_Vector_Int_MRUndirectedEdgeId", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html", null ],
       [ "MR.Const_Vector_Int_MRVertId", "classMR_1_1Const__Vector__Int__MRVertId.html", null ],
       [ "MR.Const_Vector_MRAffineXf3f_MRObjId", "classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html", null ],
+      [ "MR.Const_Vector_MRBox3f", "classMR_1_1Const__Vector__MRBox3f.html", null ],
       [ "MR.Const_Vector_MREdgeId_MRFaceId", "classMR_1_1Const__Vector__MREdgeId__MRFaceId.html", null ],
       [ "MR.Const_Vector_MREdgeId_MRVertId", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html", null ],
       [ "MR.Const_Vector_MRFaceBitSet_MRGraphVertId", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html", null ],
@@ -3455,20 +3504,30 @@ var hierarchy =
       [ "MR.Const_Vector_MRGraphEndVertices_MRGraphEdgeId", "classMR_1_1Const__Vector__MRGraphEndVertices__MRGraphEdgeId.html", null ],
       [ "MR.Const_Vector_MRGraphVertId_MRGraphVertId", "classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId.html", null ],
       [ "MR.Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
+      [ "MR.Const_Vector_MRIdMRSurfaceDistanceStartTag_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Vector__MRIdMRSurfaceDistanceStartTag__MRIdMRSurfaceDistanceStartTag.html", null ],
+      [ "MR.Const_Vector_MRIdMRSurfaceDistanceStartTag_MRVertId", "classMR_1_1Const__Vector__MRIdMRSurfaceDistanceStartTag__MRVertId.html", null ],
       [ "MR.Const_Vector_MRNodeId_MRNodeId", "classMR_1_1Const__Vector__MRNodeId__MRNodeId.html", null ],
+      [ "MR.Const_Vector_MRObjFaceId_MRFaceId", "classMR_1_1Const__Vector__MRObjFaceId__MRFaceId.html", null ],
       [ "MR.Const_Vector_MRObjId_MRVoxelId", "classMR_1_1Const__Vector__MRObjId__MRVoxelId.html", null ],
       [ "MR.Const_Vector_MRPixelId_MRPixelId", "classMR_1_1Const__Vector__MRPixelId__MRPixelId.html", null ],
       [ "MR.Const_Vector_MRRegionId_MRRegionId", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html", null ],
       [ "MR.Const_Vector_MRTextureId_MRTextureId", "classMR_1_1Const__Vector__MRTextureId__MRTextureId.html", null ],
+      [ "MR.Const_Vector_MRVarEdgeTri", "classMR_1_1Const__Vector__MRVarEdgeTri.html", null ],
+      [ "MR.Const_Vector_MRVector2d_MRVertId", "classMR_1_1Const__Vector__MRVector2d__MRVertId.html", null ],
+      [ "MR.Const_Vector_MRVector3f_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Vector__MRVector3f__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_Vector_MRVector3i_MRVertId", "classMR_1_1Const__Vector__MRVector3i__MRVertId.html", null ],
+      [ "MR.Const_Vector_MRVectorMRVarEdgeTri", "classMR_1_1Const__Vector__MRVectorMRVarEdgeTri.html", null ],
       [ "MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html", null ],
       [ "MR.Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html", null ],
       [ "MR.Const_Vector_MRVertId_MREdgeId", "classMR_1_1Const__Vector__MRVertId__MREdgeId.html", null ],
+      [ "MR.Const_Vector_MRVertId_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Vector__MRVertId__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_Vector_MRVoxelId_MRFaceId", "classMR_1_1Const__Vector__MRVoxelId__MRFaceId.html", null ],
       [ "MR.Const_Vector_MRVoxelId_MRVoxelId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html", null ],
-      [ "MR.Const_Vector_SizeT_MRGraphVertId", "classMR_1_1Const__Vector__SizeT__MRGraphVertId.html", null ],
+      [ "MR.Const_Vector_StdArrayFloat33_MRVertId", "classMR_1_1Const__Vector__StdArrayFloat33__MRVertId.html", null ],
       [ "MR.Const_Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Const__Vector__StdArrayMRVector3f3__MRFaceId.html", null ],
+      [ "MR.Const_Vector_StdArrayMRVertId2", "classMR_1_1Const__Vector__StdArrayMRVertId2.html", null ],
       [ "MR.Const_Vector_StdFilesystemPath_MRTextureId", "classMR_1_1Const__Vector__StdFilesystemPath__MRTextureId.html", null ],
+      [ "MR.Const_Vector_StdPairMREdgeIdMREdgeId", "classMR_1_1Const__Vector__StdPairMREdgeIdMREdgeId.html", null ],
       [ "MR.Const_Vector_StdVectorMREdgePoint_MRVertId", "classMR_1_1Const__Vector__StdVectorMREdgePoint__MRVertId.html", null ],
       [ "MR.Const_Vector_StdVectorMRGraphEdgeId_MRGraphVertId", "classMR_1_1Const__Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html", null ],
       [ "MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag.html", null ],
@@ -3488,6 +3547,7 @@ var hierarchy =
       [ "MR.Const_ViewportProperty_MRMatrix3f", "classMR_1_1Const__ViewportProperty__MRMatrix3f.html", null ],
       [ "MR.Const_ViewportProperty_MRVector4UnsignedChar", "classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar.html", null ],
       [ "MR.Const_ViewportProperty_UnsignedChar", "classMR_1_1Const__ViewportProperty__UnsignedChar.html", null ],
+      [ "MR.Const_VoxelScalars", "classMR_1_1Const__VoxelScalars.html", null ],
       [ "MR.Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html", null ],
       [ "MR.EdgeId", "structMR_1_1EdgeId.html", null ],
       [ "MR.FaceId", "structMR_1_1FaceId.html", null ],
@@ -3513,6 +3573,7 @@ var hierarchy =
       [ "MR.Matrix4i64", "structMR_1_1Matrix4i64.html", null ],
       [ "MR.MeshBuilder.Const_Triangle", "classMR_1_1MeshBuilder_1_1Const__Triangle.html", null ],
       [ "MR.NodeId", "structMR_1_1NodeId.html", null ],
+      [ "MR.ObjFaceId", "structMR_1_1ObjFaceId.html", null ],
       [ "MR.ObjId", "structMR_1_1ObjId.html", null ],
       [ "MR.ObjVertId", "structMR_1_1ObjVertId.html", null ],
       [ "MR.PixelId", "structMR_1_1PixelId.html", null ],
@@ -3599,6 +3660,7 @@ var hierarchy =
       [ "MR.ConstBox_Matrix4i", "classMR_1_1ConstBox__Matrix4i.html", null ],
       [ "MR.ConstBox_Matrix4i64", "classMR_1_1ConstBox__Matrix4i64.html", null ],
       [ "MR.ConstBox_NodeId", "classMR_1_1ConstBox__NodeId.html", null ],
+      [ "MR.ConstBox_ObjFaceId", "classMR_1_1ConstBox__ObjFaceId.html", null ],
       [ "MR.ConstBox_ObjId", "classMR_1_1ConstBox__ObjId.html", null ],
       [ "MR.ConstBox_ObjVertId", "classMR_1_1ConstBox__ObjVertId.html", null ],
       [ "MR.ConstBox_PixelId", "classMR_1_1ConstBox__PixelId.html", null ],
@@ -3624,11 +3686,10 @@ var hierarchy =
       [ "MR.ConstBox_ViewportId", "classMR_1_1ConstBox__ViewportId.html", null ],
       [ "MR.ConstBox_VoxelId", "classMR_1_1ConstBox__VoxelId.html", null ],
       [ "MR.Const_AABBTree", "classMR_1_1Const__AABBTree.html", null ],
-      [ "MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f.html", null ],
       [ "MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", null ],
       [ "MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html", null ],
       [ "MR.Const_AABBTreeBase_MRObjTreeTraits", "classMR_1_1Const__AABBTreeBase__MRObjTreeTraits.html", null ],
-      [ "MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f.html", null ],
+      [ "MR.Const_AABBTreeChildEncoding", "classMR_1_1Const__AABBTreeChildEncoding.html", null ],
       [ "MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", null ],
       [ "MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html", null ],
       [ "MR.Const_AABBTreeNode_MRObjTreeTraits", "classMR_1_1Const__AABBTreeNode__MRObjTreeTraits.html", null ],
@@ -3638,9 +3699,10 @@ var hierarchy =
       [ "MR.Const_AABBTreePoints.Const_Point", "classMR_1_1Const__AABBTreePoints_1_1Const__Point.html", null ],
       [ "MR.Const_AABBTreePolyline2", "classMR_1_1Const__AABBTreePolyline2.html", null ],
       [ "MR.Const_AABBTreePolyline3", "classMR_1_1Const__AABBTreePolyline3.html", null ],
-      [ "MR.Const_AABBTreeTraits_MRFaceTag_MRBox3f", "classMR_1_1Const__AABBTreeTraits__MRFaceTag__MRBox3f.html", null ],
       [ "MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f", "classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f.html", null ],
       [ "MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f", "classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f.html", null ],
+      [ "MR.Const_AABBTreeWideLeafTri", "classMR_1_1Const__AABBTreeWideLeafTri.html", null ],
+      [ "MR.Const_AABBTreeWideNode", "classMR_1_1Const__AABBTreeWideNode.html", null ],
       [ "MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html", null ],
       [ "MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameteb6b978ab28f6303e8ea184c630bc7d8d.html", null ],
       [ "MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html", null ],
@@ -3655,6 +3717,7 @@ var hierarchy =
       [ "MR.Const_BMap_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Const__BMap__MRGraphEdgeId__MRGraphEdgeId.html", null ],
       [ "MR.Const_BMap_MRGraphVertId_MRGraphVertId", "classMR_1_1Const__BMap__MRGraphVertId__MRGraphVertId.html", null ],
       [ "MR.Const_BMap_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__BMap__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
+      [ "MR.Const_BMap_MRIdMRSurfaceDistanceStartTag_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__BMap__MRIdMRSurfaceDistanceStartTag__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_BMap_MRNodeId_MRNodeId", "classMR_1_1Const__BMap__MRNodeId__MRNodeId.html", null ],
       [ "MR.Const_BMap_MRObjId_MRObjId", "classMR_1_1Const__BMap__MRObjId__MRObjId.html", null ],
       [ "MR.Const_BMap_MRPixelId_MRPixelId", "classMR_1_1Const__BMap__MRPixelId__MRPixelId.html", null ],
@@ -3669,9 +3732,11 @@ var hierarchy =
       [ "MR.Const_Ball2f", "classMR_1_1Const__Ball2f.html", null ],
       [ "MR.Const_Ball3d", "classMR_1_1Const__Ball3d.html", null ],
       [ "MR.Const_Ball3f", "classMR_1_1Const__Ball3f.html", null ],
+      [ "MR.Const_BallPivotCandidate", "classMR_1_1Const__BallPivotCandidate.html", null ],
       [ "MR.Const_BaseRenderParams", "classMR_1_1Const__BaseRenderParams.html", null ],
       [ "MR.Const_BaseShellParameters", "classMR_1_1Const__BaseShellParameters.html", null ],
       [ "MR.Const_BaseUnionFind_MRFaceId", "classMR_1_1Const__BaseUnionFind__MRFaceId.html", null ],
+      [ "MR.Const_BaseUnionFind_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__BaseUnionFind__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_BaseUnionFind_MRUndirectedEdgeId", "classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId.html", null ],
       [ "MR.Const_BaseUnionFind_MRVertId", "classMR_1_1Const__BaseUnionFind__MRVertId.html", null ],
       [ "MR.Const_BasicUiRenderTask", "classMR_1_1Const__BasicUiRenderTask.html", null ],
@@ -3682,6 +3747,7 @@ var hierarchy =
       [ "MR.Const_BestFitParabolad", "classMR_1_1Const__BestFitParabolad.html", null ],
       [ "MR.Const_BestFitParabolaf", "classMR_1_1Const__BestFitParabolaf.html", null ],
       [ "MR.Const_BitSet", "classMR_1_1Const__BitSet.html", null ],
+      [ "MR.Const_BitSet.Const_Counts", "classMR_1_1Const__BitSet_1_1Const__Counts.html", null ],
       [ "MR.Const_BooleanInternalParameters", "classMR_1_1Const__BooleanInternalParameters.html", null ],
       [ "MR.Const_BooleanParameters", "classMR_1_1Const__BooleanParameters.html", null ],
       [ "MR.Const_BooleanPreCutResult", "classMR_1_1Const__BooleanPreCutResult.html", null ],
@@ -3690,6 +3756,9 @@ var hierarchy =
       [ "MR.Const_BooleanResultMapper.Const_Maps", "classMR_1_1Const__BooleanResultMapper_1_1Const__Maps.html", null ],
       [ "MR.Const_BooleanResultPoints", "classMR_1_1Const__BooleanResultPoints.html", null ],
       [ "MR.Const_Box_UnsignedShort", "classMR_1_1Const__Box__UnsignedShort.html", null ],
+      [ "MR.Const_BoxedLeaf_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Const__BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", null ],
+      [ "MR.Const_BoxedLeaf_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Const__BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html", null ],
+      [ "MR.Const_BoxedLeaf_MRObjTreeTraits", "classMR_1_1Const__BoxedLeaf__MRObjTreeTraits.html", null ],
       [ "MR.Const_Buffer_Char", "classMR_1_1Const__Buffer__Char.html", null ],
       [ "MR.Const_Buffer_MREdgeId_MREdgeId", "classMR_1_1Const__Buffer__MREdgeId__MREdgeId.html", null ],
       [ "MR.Const_Buffer_MREdgeId_MRUndirectedEdgeId", "classMR_1_1Const__Buffer__MREdgeId__MRUndirectedEdgeId.html", null ],
@@ -3698,6 +3767,7 @@ var hierarchy =
       [ "MR.Const_Buffer_MRGraphEdgeId_MRGraphEdgeId", "classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId.html", null ],
       [ "MR.Const_Buffer_MRGraphVertId_MRGraphVertId", "classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId.html", null ],
       [ "MR.Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
+      [ "MR.Const_Buffer_MRIdMRSurfaceDistanceStartTag_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Buffer__MRIdMRSurfaceDistanceStartTag__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_Buffer_MRNodeId_MRNodeId", "classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html", null ],
       [ "MR.Const_Buffer_MRObjId_MRObjId", "classMR_1_1Const__Buffer__MRObjId__MRObjId.html", null ],
       [ "MR.Const_Buffer_MRPixelId_MRPixelId", "classMR_1_1Const__Buffer__MRPixelId__MRPixelId.html", null ],
@@ -3761,6 +3831,7 @@ var hierarchy =
       [ "MR.Const_CombinedHistoryAction", "classMR_1_1Const__CombinedHistoryAction.html", null ],
       [ "MR.Const_CompensateRadiusParams", "classMR_1_1Const__CompensateRadiusParams.html", null ],
       [ "MR.Const_CompressZipSettings", "classMR_1_1Const__CompressZipSettings.html", null ],
+      [ "MR.Const_ComputePointsToDistanceVolume", "classMR_1_1Const__ComputePointsToDistanceVolume.html", null ],
       [ "MR.Const_ComputeSteepestDescentPathSettings", "classMR_1_1Const__ComputeSteepestDescentPathSettings.html", null ],
       [ "MR.Const_ComputeSweptVolumeParameters", "classMR_1_1Const__ComputeSweptVolumeParameters.html", null ],
       [ "MR.Const_Cone3ApproximationParams", "classMR_1_1Const__Cone3ApproximationParams.html", null ],
@@ -3784,6 +3855,7 @@ var hierarchy =
       [ "MR.Const_CubicBezierCurve3f", "classMR_1_1Const__CubicBezierCurve3f.html", null ],
       [ "MR.Const_CurveFunc", "classMR_1_1Const__CurveFunc.html", null ],
       [ "MR.Const_CurvePoint", "classMR_1_1Const__CurvePoint.html", null ],
+      [ "MR.Const_CutAroundVertSetsParams", "classMR_1_1Const__CutAroundVertSetsParams.html", null ],
       [ "MR.Const_CutByProjectionSettings", "classMR_1_1Const__CutByProjectionSettings.html", null ],
       [ "MR.Const_CutMeshParameters", "classMR_1_1Const__CutMeshParameters.html", null ],
       [ "MR.Const_CutMeshResult", "classMR_1_1Const__CutMeshResult.html", null ],
@@ -3798,6 +3870,7 @@ var hierarchy =
       [ "MR.Const_DeloneFlipsCache", "classMR_1_1Const__DeloneFlipsCache.html", null ],
       [ "MR.Const_DeloneSettings", "classMR_1_1Const__DeloneSettings.html", null ],
       [ "MR.Const_DenoiseViaNormalsSettings", "classMR_1_1Const__DenoiseViaNormalsSettings.html", null ],
+      [ "MR.Const_DenoiseWithCreasesSettings", "classMR_1_1Const__DenoiseWithCreasesSettings.html", null ],
       [ "MR.Const_DenseBox", "classMR_1_1Const__DenseBox.html", null ],
       [ "MR.Const_DentalId", "classMR_1_1Const__DentalId.html", null ],
       [ "MR.Const_DetectTunnelSettings", "classMR_1_1Const__DetectTunnelSettings.html", null ],
@@ -3818,6 +3891,7 @@ var hierarchy =
       [ "MR.Const_DividePointCloudOptionalOutput", "classMR_1_1Const__DividePointCloudOptionalOutput.html", null ],
       [ "MR.Const_DividePolylineParameters", "classMR_1_1Const__DividePolylineParameters.html", null ],
       [ "MR.Const_DoubleOffsetSettings", "classMR_1_1Const__DoubleOffsetSettings.html", null ],
+      [ "MR.Const_DracoSaveOptions", "classMR_1_1Const__DracoSaveOptions.html", null ],
       [ "MR.Const_EdgeBMap", "classMR_1_1Const__EdgeBMap.html", null ],
       [ "MR.Const_EdgeBitSet", "classMR_1_1Const__EdgeBitSet.html", null ],
       [ "MR.Const_EdgeColors", "classMR_1_1Const__EdgeColors.html", null ],
@@ -3830,8 +3904,10 @@ var hierarchy =
       [ "MR.Const_EdgePathsBuilderT_MRTrivialMetricToPenalty.Const_ReachedVert", "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty_1_1Const__ReachedVert.html", null ],
       [ "MR.Const_EdgePoint", "classMR_1_1Const__EdgePoint.html", null ],
       [ "MR.Const_EdgePointPair", "classMR_1_1Const__EdgePointPair.html", null ],
+      [ "MR.Const_EdgePointd", "classMR_1_1Const__EdgePointd.html", null ],
       [ "MR.Const_EdgeScalars", "classMR_1_1Const__EdgeScalars.html", null ],
       [ "MR.Const_EdgeSegment", "classMR_1_1Const__EdgeSegment.html", null ],
+      [ "MR.Const_EdgeSegmentd", "classMR_1_1Const__EdgeSegmentd.html", null ],
       [ "MR.Const_EdgeSetBitIterator", "classMR_1_1Const__EdgeSetBitIterator.html", null ],
       [ "MR.Const_EdgeTri", "classMR_1_1Const__EdgeTri.html", null ],
       [ "MR.Const_Edges", "classMR_1_1Const__Edges.html", null ],
@@ -3841,6 +3917,7 @@ var hierarchy =
       [ "MR.Const_EnumNeihbourFaces", "classMR_1_1Const__EnumNeihbourFaces.html", null ],
       [ "MR.Const_EnumNeihbourVertices", "classMR_1_1Const__EnumNeihbourVertices.html", null ],
       [ "MR.Const_Expected_MRCudaDeviceInfo_StdString", "classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString.html", null ],
+      [ "MR.Const_ExtraFormatSettings", "classMR_1_1Const__ExtraFormatSettings.html", null ],
       [ "MR.Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html", null ],
       [ "MR.Const_FaceBMap", "classMR_1_1Const__FaceBMap.html", null ],
       [ "MR.Const_FaceBitSet", "classMR_1_1Const__FaceBitSet.html", null ],
@@ -3907,6 +3984,9 @@ var hierarchy =
       [ "MR.Const_ICPGroupPairs", "classMR_1_1Const__ICPGroupPairs.html", null ],
       [ "MR.Const_ICPPairData", "classMR_1_1Const__ICPPairData.html", null ],
       [ "MR.Const_ICPProperties", "classMR_1_1Const__ICPProperties.html", null ],
+      [ "MR.Const_IComputePointsToDistanceFunctionVolume", "classMR_1_1Const__IComputePointsToDistanceFunctionVolume.html", null ],
+      [ "MR.Const_IComputePointsToDistanceVolume", "classMR_1_1Const__IComputePointsToDistanceVolume.html", null ],
+      [ "MR.Const_IComputePointsToDistanceVolumeByParts", "classMR_1_1Const__IComputePointsToDistanceVolumeByParts.html", null ],
       [ "MR.Const_IComputeToolDistance", "classMR_1_1Const__IComputeToolDistance.html", null ],
       [ "MR.Const_IFastWindingNumber", "classMR_1_1Const__IFastWindingNumber.html", null ],
       [ "MR.Const_IFastWindingNumberByParts", "classMR_1_1Const__IFastWindingNumberByParts.html", null ],
@@ -3918,6 +3998,7 @@ var hierarchy =
       [ "MR.Const_IPointsToMeshProjector", "classMR_1_1Const__IPointsToMeshProjector.html", null ],
       [ "MR.Const_IRenderObject", "classMR_1_1Const__IRenderObject.html", null ],
       [ "MR.Const_Id_MRICPElemtTag", "classMR_1_1Const__Id__MRICPElemtTag.html", null ],
+      [ "MR.Const_Id_MRSurfaceDistanceStartTag", "classMR_1_1Const__Id__MRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_Image", "classMR_1_1Const__Image.html", null ],
       [ "MR.Const_ImproveSamplingSettings", "classMR_1_1Const__ImproveSamplingSettings.html", null ],
       [ "MR.Const_InSphere", "classMR_1_1Const__InSphere.html", null ],
@@ -4025,6 +4106,7 @@ var hierarchy =
       [ "MR.Const_MeshTopology", "classMR_1_1Const__MeshTopology.html", null ],
       [ "MR.Const_MeshTopologyDiff", "classMR_1_1Const__MeshTopologyDiff.html", null ],
       [ "MR.Const_MeshTriPoint", "classMR_1_1Const__MeshTriPoint.html", null ],
+      [ "MR.Const_MeshTriPointd", "classMR_1_1Const__MeshTriPointd.html", null ],
       [ "MR.Const_MeshVertPart", "classMR_1_1Const__MeshVertPart.html", null ],
       [ "MR.Const_MeshVoxelsConverter", "classMR_1_1Const__MeshVoxelsConverter.html", null ],
       [ "MR.Const_MetricToAStarPenalty", "classMR_1_1Const__MetricToAStarPenalty.html", null ],
@@ -4050,6 +4132,7 @@ var hierarchy =
       [ "MR.Const_NoCtor_MRGraphEdgeId", "classMR_1_1Const__NoCtor__MRGraphEdgeId.html", null ],
       [ "MR.Const_NoCtor_MRGraphVertId", "classMR_1_1Const__NoCtor__MRGraphVertId.html", null ],
       [ "MR.Const_NoCtor_MRIdMRICPElemtTag", "classMR_1_1Const__NoCtor__MRIdMRICPElemtTag.html", null ],
+      [ "MR.Const_NoCtor_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__NoCtor__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_NoCtor_MRNodeId", "classMR_1_1Const__NoCtor__MRNodeId.html", null ],
       [ "MR.Const_NoCtor_MRObjId", "classMR_1_1Const__NoCtor__MRObjId.html", null ],
       [ "MR.Const_NoCtor_MRPixelId", "classMR_1_1Const__NoCtor__MRPixelId.html", null ],
@@ -4065,6 +4148,7 @@ var hierarchy =
       [ "MR.Const_NoDefInit_MRGraphEdgeId", "classMR_1_1Const__NoDefInit__MRGraphEdgeId.html", null ],
       [ "MR.Const_NoDefInit_MRGraphVertId", "classMR_1_1Const__NoDefInit__MRGraphVertId.html", null ],
       [ "MR.Const_NoDefInit_MRIdMRICPElemtTag", "classMR_1_1Const__NoDefInit__MRIdMRICPElemtTag.html", null ],
+      [ "MR.Const_NoDefInit_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__NoDefInit__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_NoDefInit_MRNodeId", "classMR_1_1Const__NoDefInit__MRNodeId.html", null ],
       [ "MR.Const_NoDefInit_MRObjId", "classMR_1_1Const__NoDefInit__MRObjId.html", null ],
       [ "MR.Const_NoDefInit_MRPixelId", "classMR_1_1Const__NoDefInit__MRPixelId.html", null ],
@@ -4118,6 +4202,7 @@ var hierarchy =
       [ "MR.Const_OffsetContoursRestoreZParams", "classMR_1_1Const__OffsetContoursRestoreZParams.html", null ],
       [ "MR.Const_OffsetParameters", "classMR_1_1Const__OffsetParameters.html", null ],
       [ "MR.Const_OneMeshContour", "classMR_1_1Const__OneMeshContour.html", null ],
+      [ "MR.Const_OneMeshContours", "classMR_1_1Const__OneMeshContours.html", null ],
       [ "MR.Const_OneMeshIntersection", "classMR_1_1Const__OneMeshIntersection.html", null ],
       [ "MR.Const_OpenVdbFloatGrid", "classMR_1_1Const__OpenVdbFloatGrid.html", null ],
       [ "MR.Const_OriginAndDimensions", "classMR_1_1Const__OriginAndDimensions.html", null ],
@@ -4216,6 +4301,10 @@ var hierarchy =
       [ "MR.Const_Quaterniond", "classMR_1_1Const__Quaterniond.html", null ],
       [ "MR.Const_Quaternionf", "classMR_1_1Const__Quaternionf.html", null ],
       [ "MR.Const_RadiusMeasurementObject", "classMR_1_1Const__RadiusMeasurementObject.html", null ],
+      [ "MR.Const_Raster", "classMR_1_1Const__Raster.html", null ],
+      [ "MR.Const_RasterInfo", "classMR_1_1Const__RasterInfo.html", null ],
+      [ "MR.Const_RasterLoadSettings", "classMR_1_1Const__RasterLoadSettings.html", null ],
+      [ "MR.Const_RasterSaveSettings", "classMR_1_1Const__RasterSaveSettings.html", null ],
       [ "MR.Const_RebuildMeshSettings", "classMR_1_1Const__RebuildMeshSettings.html", null ],
       [ "MR.Const_RectIndexer", "classMR_1_1Const__RectIndexer.html", null ],
       [ "MR.Const_ReduceTotalAngleParams", "classMR_1_1Const__ReduceTotalAngleParams.html", null ],
@@ -4229,6 +4318,7 @@ var hierarchy =
       [ "MR.Const_RigidScaleXf3f", "classMR_1_1Const__RigidScaleXf3f.html", null ],
       [ "MR.Const_RigidXf3d", "classMR_1_1Const__RigidXf3d.html", null ],
       [ "MR.Const_RigidXf3f", "classMR_1_1Const__RigidXf3f.html", null ],
+      [ "MR.Const_RigidXfRansacParams", "classMR_1_1Const__RigidXfRansacParams.html", null ],
       [ "MR.Const_RingIterator_MRNextEdgeSameLeft", "classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html", null ],
       [ "MR.Const_RingIterator_MRNextEdgeSameOrigin", "classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin.html", null ],
       [ "MR.Const_SaveSettings", "classMR_1_1Const__SaveSettings.html", null ],
@@ -4255,6 +4345,7 @@ var hierarchy =
       [ "MR.Const_SetBitIteratorT_MRRegionBitSet", "classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html", null ],
       [ "MR.Const_SetBitIteratorT_MRTextureBitSet", "classMR_1_1Const__SetBitIteratorT__MRTextureBitSet.html", null ],
       [ "MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag", "classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html", null ],
+      [ "MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_SetBitIteratorT_MRVoxelBitSet", "classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet.html", null ],
       [ "MR.Const_SetNew", "classMR_1_1Const__SetNew.html", null ],
       [ "MR.Const_SharpOffsetParameters", "classMR_1_1Const__SharpOffsetParameters.html", null ],
@@ -4317,6 +4408,7 @@ var hierarchy =
       [ "MR.Const_TexturePerFace", "classMR_1_1Const__TexturePerFace.html", null ],
       [ "MR.Const_Tgt2SrcMaps", "classMR_1_1Const__Tgt2SrcMaps.html", null ],
       [ "MR.Const_ThickenParams", "classMR_1_1Const__ThickenParams.html", null ],
+      [ "MR.Const_TiffSaveSettings", "classMR_1_1Const__TiffSaveSettings.html", null ],
       [ "MR.Const_ToolPathParams", "classMR_1_1Const__ToolPathParams.html", null ],
       [ "MR.Const_ToolPathResult", "classMR_1_1Const__ToolPathResult.html", null ],
       [ "MR.Const_TransformVdbVolumeResult", "classMR_1_1Const__TransformVdbVolumeResult.html", null ],
@@ -4341,6 +4433,7 @@ var hierarchy =
       [ "MR.Const_TwoLineSegmClosestPoints_Double", "classMR_1_1Const__TwoLineSegmClosestPoints__Double.html", null ],
       [ "MR.Const_TwoLineSegmClosestPoints_Float", "classMR_1_1Const__TwoLineSegmClosestPoints__Float.html", null ],
       [ "MR.Const_TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html", null ],
+      [ "MR.Const_TypedBitSet_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__TypedBitSet__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_UiRenderManager", "classMR_1_1Const__UiRenderManager.html", null ],
       [ "MR.Const_UiRenderParams", "classMR_1_1Const__UiRenderParams.html", null ],
       [ "MR.Const_UndirEdgeColorMapAggregator", "classMR_1_1Const__UndirEdgeColorMapAggregator.html", null ],
@@ -4371,16 +4464,26 @@ var hierarchy =
       [ "MR.Const_Vector4_UnsignedChar", "classMR_1_1Const__Vector4__UnsignedChar.html", null ],
       [ "MR.Const_Vector_Char_MRVertId", "classMR_1_1Const__Vector__Char__MRVertId.html", null ],
       [ "MR.Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html", null ],
-      [ "MR.Const_Vector_Float_MRVoxelId", "classMR_1_1Const__Vector__Float__MRVoxelId.html", null ],
+      [ "MR.Const_Vector_Float_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Vector__Float__MRIdMRSurfaceDistanceStartTag.html", null ],
+      [ "MR.Const_Vector_Int", "classMR_1_1Const__Vector__Int.html", null ],
       [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", null ],
+      [ "MR.Const_Vector_Int_MRGraphVertId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html", null ],
+      [ "MR.Const_Vector_Int_MRRegionId", "classMR_1_1Const__Vector__Int__MRRegionId.html", null ],
       [ "MR.Const_Vector_Int_MRUndirectedEdgeId", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html", null ],
       [ "MR.Const_Vector_Int_MRVertId", "classMR_1_1Const__Vector__Int__MRVertId.html", null ],
-      [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html", null ],
       [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html", null ],
       [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId.html", null ],
       [ "MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html", null ],
       [ "MR.Const_Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId.html", null ],
+      [ "MR.Const_Vector_MRAABBTreeWideLeafTri", "classMR_1_1Const__Vector__MRAABBTreeWideLeafTri.html", null ],
+      [ "MR.Const_Vector_MRAABBTreeWideNode_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeWideNode__MRNodeId.html", null ],
       [ "MR.Const_Vector_MRAffineXf3f_MRObjId", "classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html", null ],
+      [ "MR.Const_Vector_MRAlphaShapeNei", "classMR_1_1Const__Vector__MRAlphaShapeNei.html", null ],
+      [ "MR.Const_Vector_MRBallPivotCandidate", "classMR_1_1Const__Vector__MRBallPivotCandidate.html", null ],
+      [ "MR.Const_Vector_MRBox3f", "classMR_1_1Const__Vector__MRBox3f.html", null ],
+      [ "MR.Const_Vector_MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Const__Vector__MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", null ],
+      [ "MR.Const_Vector_MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Const__Vector__MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html", null ],
+      [ "MR.Const_Vector_MRBoxedLeafMRObjTreeTraits", "classMR_1_1Const__Vector__MRBoxedLeafMRObjTreeTraits.html", null ],
       [ "MR.Const_Vector_MREdgeId_MRFaceId", "classMR_1_1Const__Vector__MREdgeId__MRFaceId.html", null ],
       [ "MR.Const_Vector_MREdgeId_MRVertId", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html", null ],
       [ "MR.Const_Vector_MRFaceBitSet_MRGraphVertId", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html", null ],
@@ -4390,6 +4493,8 @@ var hierarchy =
       [ "MR.Const_Vector_MRGraphVertId_MRGraphVertId", "classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId.html", null ],
       [ "MR.Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag.html", null ],
       [ "MR.Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
+      [ "MR.Const_Vector_MRIdMRSurfaceDistanceStartTag_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Vector__MRIdMRSurfaceDistanceStartTag__MRIdMRSurfaceDistanceStartTag.html", null ],
+      [ "MR.Const_Vector_MRIdMRSurfaceDistanceStartTag_MRVertId", "classMR_1_1Const__Vector__MRIdMRSurfaceDistanceStartTag__MRVertId.html", null ],
       [ "MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId", "classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId.html", null ],
       [ "MR.Const_Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html", null ],
       [ "MR.Const_Vector_MRMeshTexture_MRTextureId", "classMR_1_1Const__Vector__MRMeshTexture__MRTextureId.html", null ],
@@ -4397,25 +4502,35 @@ var hierarchy =
       [ "MR.Const_Vector_MRNestingMeshXf_MRObjId", "classMR_1_1Const__Vector__MRNestingMeshXf__MRObjId.html", null ],
       [ "MR.Const_Vector_MRNestingNestingResult_MRObjId", "classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId.html", null ],
       [ "MR.Const_Vector_MRNodeId_MRNodeId", "classMR_1_1Const__Vector__MRNodeId__MRNodeId.html", null ],
+      [ "MR.Const_Vector_MRObjFaceId_MRFaceId", "classMR_1_1Const__Vector__MRObjFaceId__MRFaceId.html", null ],
       [ "MR.Const_Vector_MRObjId_MRVoxelId", "classMR_1_1Const__Vector__MRObjId__MRVoxelId.html", null ],
+      [ "MR.Const_Vector_MROneMeshContour", "classMR_1_1Const__Vector__MROneMeshContour.html", null ],
+      [ "MR.Const_Vector_MROneMeshIntersection", "classMR_1_1Const__Vector__MROneMeshIntersection.html", null ],
       [ "MR.Const_Vector_MRPixelId_MRPixelId", "classMR_1_1Const__Vector__MRPixelId__MRPixelId.html", null ],
       [ "MR.Const_Vector_MRQuadraticForm2f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId.html", null ],
       [ "MR.Const_Vector_MRQuadraticForm3f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.html", null ],
       [ "MR.Const_Vector_MRRegionId_MRRegionId", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html", null ],
       [ "MR.Const_Vector_MRTextureId_MRTextureId", "classMR_1_1Const__Vector__MRTextureId__MRTextureId.html", null ],
+      [ "MR.Const_Vector_MRVarEdgeTri", "classMR_1_1Const__Vector__MRVarEdgeTri.html", null ],
+      [ "MR.Const_Vector_MRVector2d_MRVertId", "classMR_1_1Const__Vector__MRVector2d__MRVertId.html", null ],
+      [ "MR.Const_Vector_MRVector3f_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Vector__MRVector3f__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_Vector_MRVector3i_MRVertId", "classMR_1_1Const__Vector__MRVector3i__MRVertId.html", null ],
       [ "MR.Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
+      [ "MR.Const_Vector_MRVectorMRVarEdgeTri", "classMR_1_1Const__Vector__MRVectorMRVarEdgeTri.html", null ],
       [ "MR.Const_Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html", null ],
       [ "MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html", null ],
       [ "MR.Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html", null ],
       [ "MR.Const_Vector_MRVertId_MREdgeId", "classMR_1_1Const__Vector__MRVertId__MREdgeId.html", null ],
+      [ "MR.Const_Vector_MRVertId_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Vector__MRVertId__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_Vector_MRVoxelId_MRFaceId", "classMR_1_1Const__Vector__MRVoxelId__MRFaceId.html", null ],
       [ "MR.Const_Vector_MRVoxelId_MRVoxelId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html", null ],
       [ "MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId", "classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId.html", null ],
       [ "MR.Const_Vector_MRWatershedGraphBdInfo_MRGraphEdgeId", "classMR_1_1Const__Vector__MRWatershedGraphBdInfo__MRGraphEdgeId.html", null ],
-      [ "MR.Const_Vector_SizeT_MRGraphVertId", "classMR_1_1Const__Vector__SizeT__MRGraphVertId.html", null ],
+      [ "MR.Const_Vector_StdArrayFloat33_MRVertId", "classMR_1_1Const__Vector__StdArrayFloat33__MRVertId.html", null ],
       [ "MR.Const_Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Const__Vector__StdArrayMRVector3f3__MRFaceId.html", null ],
+      [ "MR.Const_Vector_StdArrayMRVertId2", "classMR_1_1Const__Vector__StdArrayMRVertId2.html", null ],
       [ "MR.Const_Vector_StdFilesystemPath_MRTextureId", "classMR_1_1Const__Vector__StdFilesystemPath__MRTextureId.html", null ],
+      [ "MR.Const_Vector_StdPairMREdgeIdMREdgeId", "classMR_1_1Const__Vector__StdPairMREdgeIdMREdgeId.html", null ],
       [ "MR.Const_Vector_StdVectorMREdgePoint_MRVertId", "classMR_1_1Const__Vector__StdVectorMREdgePoint__MRVertId.html", null ],
       [ "MR.Const_Vector_StdVectorMRGraphEdgeId_MRGraphVertId", "classMR_1_1Const__Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html", null ],
       [ "MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag.html", null ],
@@ -4451,10 +4566,11 @@ var hierarchy =
       [ "MR.Const_VoxelBitSet", "classMR_1_1Const__VoxelBitSet.html", null ],
       [ "MR.Const_VoxelLocation", "classMR_1_1Const__VoxelLocation.html", null ],
       [ "MR.Const_VoxelMetricParameters", "classMR_1_1Const__VoxelMetricParameters.html", null ],
+      [ "MR.Const_VoxelScalars", "classMR_1_1Const__VoxelScalars.html", null ],
       [ "MR.Const_VoxelTraits_MRFloatGrid", "classMR_1_1Const__VoxelTraits__MRFloatGrid.html", null ],
-      [ "MR.Const_VoxelTraits_MRVectorFloatMRVoxelId", "classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId.html", null ],
       [ "MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId", "classMR_1_1Const__VoxelTraits__MRVectorUnsignedShortMRVoxelId.html", null ],
       [ "MR.Const_VoxelTraits_MRVoxelBitSet", "classMR_1_1Const__VoxelTraits__MRVoxelBitSet.html", null ],
+      [ "MR.Const_VoxelTraits_MRVoxelScalars", "classMR_1_1Const__VoxelTraits__MRVoxelScalars.html", null ],
       [ "MR.Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef", "classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html", null ],
       [ "MR.Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef", "classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html", null ],
       [ "MR.Const_VoxelsVolumeAccessor_MRFunctionVolume", "classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume.html", null ],
@@ -4470,6 +4586,7 @@ var hierarchy =
       [ "MR.Const_WatershedGraph.Const_BdInfo", "classMR_1_1Const__WatershedGraph_1_1Const__BdInfo.html", null ],
       [ "MR.Const_WatershedGraph.Const_OverflowPoint", "classMR_1_1Const__WatershedGraph_1_1Const__OverflowPoint.html", null ],
       [ "MR.Const_WeightedVertex", "classMR_1_1Const__WeightedVertex.html", null ],
+      [ "MR.Const_WeightedVertexd", "classMR_1_1Const__WeightedVertexd.html", null ],
       [ "MR.Const_WholeEdgeBMap", "classMR_1_1Const__WholeEdgeBMap.html", null ],
       [ "MR.Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html", null ],
       [ "MR.Const_XfBasedCache_MRBox3f", "classMR_1_1Const__XfBasedCache__MRBox3f.html", null ],
@@ -4478,6 +4595,7 @@ var hierarchy =
       [ "MR.Const_ZlibCompressParams", "classMR_1_1Const__ZlibCompressParams.html", null ],
       [ "MR.Const_ZlibCompressStats", "classMR_1_1Const__ZlibCompressStats.html", null ],
       [ "MR.Const_ZlibParams", "classMR_1_1Const__ZlibParams.html", null ],
+      [ "MR.Cuda.Const_ComputePointsToDistanceVolume", "classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume.html", null ],
       [ "MR.Cuda.Const_ComputeToolDistance", "classMR_1_1Cuda_1_1Const__ComputeToolDistance.html", null ],
       [ "MR.Cuda.Const_DeviceInfo", "classMR_1_1Cuda_1_1Const__DeviceInfo.html", null ],
       [ "MR.Cuda.Const_FastWindingNumber", "classMR_1_1Cuda_1_1Const__FastWindingNumber.html", null ],
@@ -4521,6 +4639,7 @@ var hierarchy =
       [ "MR.MeshBuilder.Const_VertSpan", "classMR_1_1MeshBuilder_1_1Const__VertSpan.html", null ],
       [ "MR.MeshBuilder.Const_VertTri", "classMR_1_1MeshBuilder_1_1Const__VertTri.html", null ],
       [ "MR.MeshBuilder.Const_VertexIdentifier", "classMR_1_1MeshBuilder_1_1Const__VertexIdentifier.html", null ],
+      [ "MR.MeshComponents.Const_ComponentsFaces", "classMR_1_1MeshComponents_1_1Const__ComponentsFaces.html", null ],
       [ "MR.MeshComponents.Const_ExpandToComponentsParams", "classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams.html", null ],
       [ "MR.MeshComponents.Const_LargeByAreaComponentsSettings", "classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings.html", null ],
       [ "MR.MeshLoad.Const_NamedMesh", "classMR_1_1MeshLoad_1_1Const__NamedMesh.html", null ],
@@ -4554,10 +4673,12 @@ var hierarchy =
       [ "MR.PointsLoad.Const_NamedCloud", "classMR_1_1PointsLoad_1_1Const__NamedCloud.html", null ],
       [ "MR.PointsSave.Const_CtmSavePointsOptions", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html", null ],
       [ "MR.PolylineComponents.Const_LargeByLengthComponentsSettings", "classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html", null ],
+      [ "MR.RasterLoad.Const_TiffLoadSettings", "classMR_1_1RasterLoad_1_1Const__TiffLoadSettings.html", null ],
       [ "MR.SceneLoad.Const_Result", "classMR_1_1SceneLoad_1_1Const__Result.html", null ],
       [ "MR.SceneLoad.Const_Settings", "classMR_1_1SceneLoad_1_1Const__Settings.html", null ],
       [ "MR.SceneSave.Const_Settings", "classMR_1_1SceneSave_1_1Const__Settings.html", null ],
       [ "MR.SelfIntersections.Const_Settings", "classMR_1_1SelfIntersections_1_1Const__Settings.html", null ],
+      [ "MR.Std.Const_SharedPtr_MRCudaComputePointsToDistanceVolume", "classMR_1_1Std_1_1Const__SharedPtr__MRCudaComputePointsToDistanceVolume.html", null ],
       [ "MR.Std.Const_SharedPtr_MRCudaFastWindingNumber", "classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber.html", null ],
       [ "MR.Std.Const_SharedPtr_MRCudaPointsToMeshProjector", "classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector.html", null ],
       [ "MR.TriangulationHelpers.Const_FanOptimizerQueueElement", "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html", null ],
@@ -4566,7 +4687,7 @@ var hierarchy =
       [ "MR.VoxelsLoad.Const_DicomStatus", "classMR_1_1VoxelsLoad_1_1Const__DicomStatus.html", null ],
       [ "MR.VoxelsLoad.Const_DicomVolume", "classMR_1_1VoxelsLoad_1_1Const__DicomVolume.html", null ],
       [ "MR.VoxelsLoad.Const_DicomVolumeAsVdb", "classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb.html", null ],
-      [ "MR.VoxelsLoad.Const_LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html", null ],
+      [ "MR.VoxelsLoad.Const_RasterFolderLoadSettings", "classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings.html", null ],
       [ "MR.VoxelsLoad.Const_RawParameters", "classMR_1_1VoxelsLoad_1_1Const__RawParameters.html", null ],
       [ "MR.VoxelsSave.Const_SavingSettings", "classMR_1_1VoxelsSave_1_1Const__SavingSettings.html", null ],
       [ "MR.WeightedShell.Const_DistanceVolumeCreationParams", "classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams.html", null ],
@@ -4583,6 +4704,8 @@ var hierarchy =
     [ "MR.PointsSave", "classMR_1_1PointsSave.html", null ],
     [ "MR.PolylineComponents", "classMR_1_1PolylineComponents.html", null ],
     [ "MR.Features.Primitives", "classMR_1_1Features_1_1Primitives.html", null ],
+    [ "MR.RasterLoad", "classMR_1_1RasterLoad.html", null ],
+    [ "MR.RasterSave", "classMR_1_1RasterSave.html", null ],
     [ "MR.SceneLoad", "classMR_1_1SceneLoad.html", null ],
     [ "MR.SceneSave", "classMR_1_1SceneSave.html", null ],
     [ "MR.SelfIntersections", "classMR_1_1SelfIntersections.html", null ],

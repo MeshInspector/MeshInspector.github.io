@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -146,6 +139,7 @@ $(function(){initNavTree('MRClosestWeightedPoint_8h.html','',''); });
 <div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="compare_8h_source.html">MRCMisc/compare.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
@@ -210,6 +204,11 @@ Functions</h2></td></tr>
 <tr class="memitem:aa3b73f3a3a48e073ac901980ee484d46" id="r_aa3b73f3a3a48e073ac901980ee484d46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3b73f3a3a48e073ac901980ee484d46">MR_MeshPointAndDistance_AssignFromAnother</a> (<a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *_this, const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *_other)</td></tr>
 <tr class="memitem:a974e43e3319902585fa93904c9776a91" id="r_a974e43e3319902585fa93904c9776a91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a974e43e3319902585fa93904c9776a91">MR_MeshPointAndDistance_bidirDist</a> (const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *_this)</td></tr>
 <tr class="memitem:a081b40bf96f151e6a8e80c5f2a1c553b" id="r_a081b40bf96f151e6a8e80c5f2a1c553b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a081b40bf96f151e6a8e80c5f2a1c553b">MR_MeshPointAndDistance_dist</a> (const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *_this)</td></tr>
+<tr class="memitem:a54a70832bb82d37a3d094dff97bf3a33" id="r_a54a70832bb82d37a3d094dff97bf3a33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="compare_8h.html#ac9f41a802c982c5fc9233acbc7493cce">MR_std_partial_ordering</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54a70832bb82d37a3d094dff97bf3a33">MR_compare_three_way_MR_MeshPointAndDistance</a> (const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *_this, const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *other)</td></tr>
+<tr class="memitem:a22536767872b86f7c4688876402e1788" id="r_a22536767872b86f7c4688876402e1788"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22536767872b86f7c4688876402e1788">MR_less_MR_MeshPointAndDistance</a> (const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *_this, const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *other)</td></tr>
+<tr class="memitem:aa79e3648c4860600d639ce616baf3acf" id="r_aa79e3648c4860600d639ce616baf3acf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa79e3648c4860600d639ce616baf3acf">MR_greater_MR_MeshPointAndDistance</a> (const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *_this, const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *other)</td></tr>
+<tr class="memitem:a23fbd13cd22306d19673f956758a2e8f" id="r_a23fbd13cd22306d19673f956758a2e8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23fbd13cd22306d19673f956758a2e8f">MR_less_equal_MR_MeshPointAndDistance</a> (const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *_this, const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *other)</td></tr>
+<tr class="memitem:ab5f887d253f746c64c0d5818e5970a9e" id="r_ab5f887d253f746c64c0d5818e5970a9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5f887d253f746c64c0d5818e5970a9e">MR_greater_equal_MR_MeshPointAndDistance</a> (const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *_this, const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *other)</td></tr>
 <tr class="memitem:ac38c9f9bc966e9e0c8e47e6a6ff0a446" id="r_ac38c9f9bc966e9e0c8e47e6a6ff0a446"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac38c9f9bc966e9e0c8e47e6a6ff0a446">MR_MeshPointAndDistance_valid</a> (const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *_this)</td></tr>
 <tr class="memitem:a4122b8b078af6e75d8ce3954e4ccd867" id="r_a4122b8b078af6e75d8ce3954e4ccd867"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4122b8b078af6e75d8ce3954e4ccd867">MR_DistanceFromWeightedPointsParams_Get_pointWeight</a> (const <a class="el" href="#a342aeaf84a0230885a70e136c94b01b5">MR_DistanceFromWeightedPointsParams</a> *_this)</td></tr>
 <tr class="memitem:ab9d9cd2a4257220e89a677e2b9d22fec" id="r_ab9d9cd2a4257220e89a677e2b9d22fec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9d9cd2a4257220e89a677e2b9d22fec">MR_DistanceFromWeightedPointsParams_Set_pointWeight</a> (<a class="el" href="#a342aeaf84a0230885a70e136c94b01b5">MR_DistanceFromWeightedPointsParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *value)</td></tr>
@@ -352,6 +351,28 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a54a70832bb82d37a3d094dff97bf3a33" name="a54a70832bb82d37a3d094dff97bf3a33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54a70832bb82d37a3d094dff97bf3a33">&#9670;&#160;</a></span>MR_compare_three_way_MR_MeshPointAndDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="compare_8h.html#ac9f41a802c982c5fc9233acbc7493cce">MR_std_partial_ordering</a> MR_compare_three_way_MR_MeshPointAndDistance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>comparison telling which point is closer to the location Generated from method <span class="tt">MR::MeshPointAndDistance::operator&lt;=&gt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">other</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="ad3c43a91b4d9c25dcf8006ef34bcc55b" name="ad3c43a91b4d9c25dcf8006ef34bcc55b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad3c43a91b4d9c25dcf8006ef34bcc55b">&#9670;&#160;</a></span>MR_DistanceFromWeightedPointsComputeParams_AssignFromAnother()</h2>
 
@@ -1557,6 +1578,94 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>consider a point cloud where each point has additive weight, and the distance to a point is considered equal to (euclidean distance - weight), finds the point with minimal distance to given 3D location Generated from function <span class="tt">MR::findClosestWeightedPoint</span>. Parameter <span class="tt">loc</span> can not be null. It is a single object. Parameter <span class="tt">tree</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#aa0997187637a37eef606131d58b1cca7" title="Destroys a heap-allocated instance of MR_PointAndDistance. Does nothing if the pointer is null.">MR_PointAndDistance_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab5f887d253f746c64c0d5818e5970a9e" name="ab5f887d253f746c64c0d5818e5970a9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5f887d253f746c64c0d5818e5970a9e">&#9670;&#160;</a></span>MR_greater_equal_MR_MeshPointAndDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_greater_equal_MR_MeshPointAndDistance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>comparison telling which point is closer to the location Generated from method <span class="tt">MR::MeshPointAndDistance::operator&gt;=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">other</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aa79e3648c4860600d639ce616baf3acf" name="aa79e3648c4860600d639ce616baf3acf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa79e3648c4860600d639ce616baf3acf">&#9670;&#160;</a></span>MR_greater_MR_MeshPointAndDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_greater_MR_MeshPointAndDistance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>comparison telling which point is closer to the location Generated from method <span class="tt">MR::MeshPointAndDistance::operator&gt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">other</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a23fbd13cd22306d19673f956758a2e8f" name="a23fbd13cd22306d19673f956758a2e8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23fbd13cd22306d19673f956758a2e8f">&#9670;&#160;</a></span>MR_less_equal_MR_MeshPointAndDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_less_equal_MR_MeshPointAndDistance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>comparison telling which point is closer to the location Generated from method <span class="tt">MR::MeshPointAndDistance::operator&lt;=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">other</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a22536767872b86f7c4688876402e1788" name="a22536767872b86f7c4688876402e1788"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22536767872b86f7c4688876402e1788">&#9670;&#160;</a></span>MR_less_MR_MeshPointAndDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_less_MR_MeshPointAndDistance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a08429cd182a6764ccc44eda594f8e618">MR_MeshPointAndDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>comparison telling which point is closer to the location Generated from method <span class="tt">MR::MeshPointAndDistance::operator&lt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">other</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

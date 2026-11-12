@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -182,7 +175,7 @@ $(function(){initNavTree('MRRecentFilesStore_8h_source.html','',''); });
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>}</div>
 <div class="ttc" id="aMRSignal_8h_html"><div class="ttname"><a href="MRSignal_8h.html">MRSignal.h</a></div></div>
 <div class="ttc" id="aMRViewerFwd_8h_html"><div class="ttname"><a href="MRViewerFwd_8h.html">MRViewerFwd.h</a></div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga0ca61d3fae40bcd7a9e8ce848bf0362d"><div class="ttname"><a href="group__GeneralGroup.html#ga0ca61d3fae40bcd7a9e8ce848bf0362d">MR::position</a></div><div class="ttdeci">ImVec2 position(const ViewportRectangle &amp;rect)</div><div class="ttdef"><b>Definition</b> MRViewport.h:27</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga0ca61d3fae40bcd7a9e8ce848bf0362d"><div class="ttname"><a href="group__GeneralGroup.html#ga0ca61d3fae40bcd7a9e8ce848bf0362d">MR::position</a></div><div class="ttdeci">ImVec2 position(const ViewportRectangle &amp;rect)</div><div class="ttdef"><b>Definition</b> MRViewport.h:54</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga1b8d341b91feead104f04f3951f2f50e"><div class="ttname"><a href="group__GeneralGroup.html#ga1b8d341b91feead104f04f3951f2f50e">MR::RecentFilesStore::onUpdate</a></div><div class="ttdeci">boost::signals2::connection onUpdate(const boost::function&lt; void(const FileNamesStack &amp;files)&gt; &amp;slot, boost::signals2::connect_position position=boost::signals2::at_back)</div><div class="ttdoc">Connects given slot to receive signal on every update of this store.</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga1f48973b157bca4ee2c0e34407310654"><div class="ttname"><a href="group__GeneralGroup.html#ga1f48973b157bca4ee2c0e34407310654">MR::RecentFilesStore::getCapacity</a></div><div class="ttdeci">int getCapacity() const</div><div class="ttdoc">Returns maximum size of recently opened files stack.</div><div class="ttdef"><b>Definition</b> MRRecentFilesStore.h:36</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga230eadaf39638e9cec8fb6d95f662964"><div class="ttname"><a href="group__GeneralGroup.html#ga230eadaf39638e9cec8fb6d95f662964">MR::RecentFilesStore::RecentFilesStore</a></div><div class="ttdeci">RecentFilesStore(std::string appName, int capacity=10)</div><div class="ttdef"><b>Definition</b> MRRecentFilesStore.h:25</div></div>
@@ -190,7 +183,7 @@ $(function(){initNavTree('MRRecentFilesStore_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gab3bdf57745bbf11b5ac6fd1b27edcb68"><div class="ttname"><a href="group__GeneralGroup.html#gab3bdf57745bbf11b5ac6fd1b27edcb68">MR::RecentFilesStore::RecentFilesStore</a></div><div class="ttdeci">RecentFilesStore()=default</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gabf9e7451b5087b4485b6207161438dc3"><div class="ttname"><a href="group__GeneralGroup.html#gabf9e7451b5087b4485b6207161438dc3">MR::FileNamesStack</a></div><div class="ttdeci">std::vector&lt; std::filesystem::path &gt; FileNamesStack</div><div class="ttdef"><b>Definition</b> MRIOFilesMenuItems.h:17</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaf325fa995ff9551866e03d07958c41db"><div class="ttname"><a href="group__GeneralGroup.html#gaf325fa995ff9551866e03d07958c41db">MR::RecentFilesStore::storeFile</a></div><div class="ttdeci">void storeFile(const std::filesystem::path &amp;file) const</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

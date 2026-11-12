@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -149,7 +142,7 @@ $(function(){initNavTree('MRMeshBuilderTypes_8h_source.html','',''); });
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">   13</a></span><span class="keyword">using </span>ThreePoints [[deprecated]] <a class="code hl_typedef" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> = std::array&lt;Vector3f, 3&gt;;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">using </span>ThreePoints [[deprecated]] MR_BIND_IGNORE = std::array&lt;Vector3f, 3&gt;;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1MeshBuilder.html">MeshBuilder</a></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
@@ -199,8 +192,7 @@ $(function(){initNavTree('MRMeshBuilderTypes_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_ga1fdb51404a12dafa32d295e97234ce4f"><div class="ttname"><a href="group__GeneralGroup.html#ga1fdb51404a12dafa32d295e97234ce4f">MR::MeshBuilder::BuildSettings::region</a></div><div class="ttdeci">FaceBitSet * region</div><div class="ttdoc">if region is given then on input it contains the faces to be added, and on output the faces failed to...</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:35</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga20d73314208590b5844d5d8bf5b3f37f"><div class="ttname"><a href="group__GeneralGroup.html#ga20d73314208590b5844d5d8bf5b3f37f">MR::MeshBuilder::BuildSettings::skippedFaceCount</a></div><div class="ttdeci">int * skippedFaceCount</div><div class="ttdoc">optional output: counter of skipped faces during mesh creation</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:44</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga67c89067a48e2a3d29e24b6a36d57de7"><div class="ttname"><a href="group__GeneralGroup.html#ga67c89067a48e2a3d29e24b6a36d57de7">MR::MeshBuilder::Triangle::Triangle</a></div><div class="ttdeci">Triangle() noexcept=default</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga9fa45e8860a645c31bc2c7f1a2abf56b"><div class="ttname"><a href="group__GeneralGroup.html#ga9fa45e8860a645c31bc2c7f1a2abf56b">MR::ThreeVertIds</a></div><div class="ttdeci">std::array&lt; VertId, 3 &gt; ThreeVertIds</div><div class="ttdoc">three vertex ids describing a triangle with the corners in vertices given by their ids</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:519</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_gac8d05498d66775361b0d0d2996604348"><div class="ttname"><a href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR::MR_BIND_IGNORE</a></div><div class="ttdeci">std::array&lt; Vector3f, 3 &gt; MR_BIND_IGNORE</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:13</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga9fa45e8860a645c31bc2c7f1a2abf56b"><div class="ttname"><a href="group__GeneralGroup.html#ga9fa45e8860a645c31bc2c7f1a2abf56b">MR::ThreeVertIds</a></div><div class="ttdeci">std::array&lt; VertId, 3 &gt; ThreeVertIds</div><div class="ttdoc">three vertex ids describing a triangle with the corners in vertices given by their ids</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:540</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gad10a4f5f3fd6df3f484d8b95ef501285"><div class="ttname"><a href="group__GeneralGroup.html#gad10a4f5f3fd6df3f484d8b95ef501285">MR::MeshBuilder::BuildSettings::shiftFaceId</a></div><div class="ttdeci">int shiftFaceId</div><div class="ttdoc">this value to be added to every faceId before its inclusion in the topology</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:38</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gad3a0063941eb7c51389f4baeaae1d36f"><div class="ttname"><a href="group__GeneralGroup.html#gad3a0063941eb7c51389f4baeaae1d36f">MR::MeshBuilder::Triangle::operator==</a></div><div class="ttdeci">bool operator==(const Triangle &amp;other) const</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:26</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gae1a5aa6c5e37175f3bebd45ab1014e5b"><div class="ttname"><a href="group__GeneralGroup.html#gae1a5aa6c5e37175f3bebd45ab1014e5b">MR::MeshBuilder::Triangle::f</a></div><div class="ttdeci">FaceId f</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:24</div></div>
@@ -210,7 +202,7 @@ $(function(){initNavTree('MRMeshBuilderTypes_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gaf483f48c26d9bb2d28b92af0b477712b"><div class="ttname"><a href="group__GeneralGroup.html#gaf483f48c26d9bb2d28b92af0b477712b">MR::MeshBuilder::VertSpan::firstVertex</a></div><div class="ttdeci">int firstVertex</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:50</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf"><div class="ttname"><a href="group__GeneralGroup.html#gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">MR::FeaturePropertyKind::other</a></div><div class="ttdeci">@ other</div><div class="ttdoc">Angle, normally float. Measure in radians.</div><div class="ttdef"><b>Definition</b> MRFeatureObject.h:27</div></div>
 <div class="ttc" id="anamespaceMR_1_1MeshBuilder_html"><div class="ttname"><a href="namespaceMR_1_1MeshBuilder.html">MR::MeshBuilder</a></div><div class="ttdoc">Building topologies by triangles.</div><div class="ttdef"><b>Definition</b> MRIdentifyVertices.h:16</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1MeshBuilder_1_1BuildSettings_html"><div class="ttname"><a href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MR::MeshBuilder::BuildSettings</a></div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:33</div></div>
 <div class="ttc" id="astructMR_1_1MeshBuilder_1_1VertSpan_html"><div class="ttname"><a href="structMR_1_1MeshBuilder_1_1VertSpan.html">MR::MeshBuilder::VertSpan</a></div><div class="ttdoc">each face is surrounded by a closed contour of vertices [fistVertex, lastVertex)</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:49</div></div>
 </div><!-- fragment --></div><!-- contents -->

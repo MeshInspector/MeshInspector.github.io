@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -143,24 +136,27 @@ $(function(){initNavTree('classmrmeshpy_1_1Line2f.html','',''); });
 
 <p>This is the complete list of members for <a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a7a66298a88f985d8fae44c3365c29c6e">__call__</a>(self, float param)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html#a690e16fa2c50f244608ec0c051da33e6">__call__</a>(self, float param)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html">mrmeshpy.ConstLine2f</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#ac139642a20e3ab4a522f5005d9952a10">__init__</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a0f399abf8d7e407652588d5772437ea4">__init__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#adcb233342ee5113186645e9e1fb062d1">__init__</a>(self, Vector2f p, Vector2f d)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a60b86cfa3d4cb2e18f17a97ccfa3e3e9">__init__</a>(self, Line2f arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#abeffddb7d12fffec9da52d954870c3bc">__neg__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a62b7e47d3f4f78850d970045435e60b9">__pos__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a963e4c866490ffa58ec14877210d5192">__repr__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a7a063ee741e8f8978a5ea037365e75c7">__rlshift__</a>(self, typing.Any l)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a12e5b51614e352b662ff1bb9cadff9ff">__init__</a>(self, ConstVector2f p, ConstVector2f d)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a70e8cbef0a5a2ba66c20d3e1ac360796">__init__</a>(self, ConstLine2f arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html#a8874d3b16747b40940207eb7d92afa4f">__neg__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html">mrmeshpy.ConstLine2f</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html#a4fb1d4fc929edbb5d0a2e81f18efd2d6">__pos__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html">mrmeshpy.ConstLine2f</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html#a3ea8f8ce4f113737ab88b6b869402345">__repr__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html">mrmeshpy.ConstLine2f</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html#a04d4f3710a0961919b72861c2ddf56b0">__rlshift__</a>(self, typing.Any l)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html">mrmeshpy.ConstLine2f</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a2b3cb11af5a814ace3d5f718947bf524">__rrshift__</a>(self, typing.Any l)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#aa36c5b11a1a925c2b601fd5fe01e944d">_offsetof_d</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a85bf7d26d9ffae63d42cac9cc8888b1c">_offsetof_p</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a6832204d5129bfcae84c5210c891b704">distanceSq</a>(self, Vector2f x)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a4918df32de15c113c1ea95b86620903d">normalized</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#aca2daffed872b45ac5efa01787bbeefa">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#aca2daffed872b45ac5efa01787bbeefa">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a12de223898992d9b4bbd58d7a389710e">project</a>(self, Vector2f x)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a5c488a7433cc52e6a88c3f80e0a78c7c">projectionParam</a>(self, Vector2f x)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html#a71a9411baac3197392180721d854399f">_offsetof_d</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html">mrmeshpy.ConstLine2f</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html#a0aff45be1ca0dc3170b6a28d22c110fe">_offsetof_p</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html">mrmeshpy.ConstLine2f</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a0c4901bc017a6f654d26eaf08a9cca24">assign</a>(self, ConstLine2f other)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a84281e78725abf1737055771d83eeee9">d</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a8c97faff0029680a1f92f9d8614ce2ec">d</a>(self, ConstVector2f arg1)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html#a1ff088034fd8c4a1de71edf6d98ebf9e">distanceSq</a>(self, ConstVector2f x)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html">mrmeshpy.ConstLine2f</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html#a47a4ef311e5b7de37b632da09315e83c">normalized</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html">mrmeshpy.ConstLine2f</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#aa34b75f388652ad7accc09d9a01ab7ec">p</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html#a111af7061ac64c690470d44cc82f3135">p</a>(self, ConstVector2f arg1)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Line2f.html">mrmeshpy.Line2f</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html#a083cb70ef244bc71ea02f46602cd04d5">project</a>(self, ConstVector2f x)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html">mrmeshpy.ConstLine2f</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html#a5c659ef3f2f33d22e860d2a2eeed27e3">projectionParam</a>(self, ConstVector2f x)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstLine2f.html">mrmeshpy.ConstLine2f</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

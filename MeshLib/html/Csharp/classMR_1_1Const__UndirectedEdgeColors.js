@@ -6,7 +6,6 @@ var classMR_1_1Const__UndirectedEdgeColors =
     [ "Const_UndirectedEdgeColors", "classMR_1_1Const__UndirectedEdgeColors.html#a98140eaa7df5c2ffeaea6776d776ffb4", null ],
     [ "Const_UndirectedEdgeColors", "classMR_1_1Const__UndirectedEdgeColors.html#a071023a60536a6a89d101a69e3f71a12", null ],
     [ "Const_UndirectedEdgeColors", "classMR_1_1Const__UndirectedEdgeColors.html#a968aadc93723ffdef6e7da47d2b54673", null ],
-    [ "Const_UndirectedEdgeColors", "classMR_1_1Const__UndirectedEdgeColors.html#a62364eaf2eba9ab689fdd8778f087cfe", null ],
     [ "back", "classMR_1_1Const__UndirectedEdgeColors.html#a549b10626f1c1f968e4f6e9fa5f91425", null ],
     [ "backId", "classMR_1_1Const__UndirectedEdgeColors.html#aff62ef26035458cf46a21b807c628a4e", null ],
     [ "beginId", "classMR_1_1Const__UndirectedEdgeColors.html#a19e477cef18e5434382d9f8e8b780496", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__UndirectedEdgeColors =
     [ "Equals", "classMR_1_1Const__UndirectedEdgeColors.html#a6d8d07774ea4cefb94a9348d6e54b86a", null ],
     [ "Equals", "classMR_1_1Const__UndirectedEdgeColors.html#a5399e151af50625084f2f9d7bcfe07ea", null ],
     [ "front", "classMR_1_1Const__UndirectedEdgeColors.html#a39b3f3aa1bb1012586e379ca00fd1dc6", null ],
-    [ "GetEnumerator", "classMR_1_1Const__UndirectedEdgeColors.html#abcc37047223d5963c65f2ba19cd3165b", null ],
     [ "heapBytes", "classMR_1_1Const__UndirectedEdgeColors.html#abfc78fd79d5d6b39bd3ef882d356f91a", null ],
-    [ "operator Const_UndirectedEdgeColors", "classMR_1_1Const__UndirectedEdgeColors.html#af17efb09159b3eaf66c7784cc34de899", null ],
+    [ "maxSize", "classMR_1_1Const__UndirectedEdgeColors.html#a8638b291905254a1e5d4960a955deb80", null ],
     [ "operator!=", "classMR_1_1Const__UndirectedEdgeColors.html#aaef01f9fd009139f74f86008e33f2f70", null ],
     [ "operator==", "classMR_1_1Const__UndirectedEdgeColors.html#a5109561197e51824964bb7366d2c9459", null ],
     [ "size", "classMR_1_1Const__UndirectedEdgeColors.html#a3a86196294fcdbec56bca0bdcbed72e6", null ],
     [ "this[MR.UndirectedEdgeId i]", "classMR_1_1Const__UndirectedEdgeColors.html#a8d81251c234523f32cbb2828bc943f7a", null ],
-    [ "vec", "classMR_1_1Const__UndirectedEdgeColors.html#a3fea673ba5b41905f47619e701adfc4d", null ]
+    [ "vec", "classMR_1_1Const__UndirectedEdgeColors.html#ab653d0dc8729eff9ac6e98bd5da7abe8", null ]
 ];

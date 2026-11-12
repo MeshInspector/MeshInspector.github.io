@@ -6,7 +6,6 @@ var classMR_1_1Const__FaceMap =
     [ "Const_FaceMap", "classMR_1_1Const__FaceMap.html#a7fb3cf9e38bc050497c2476fe8ac7563", null ],
     [ "Const_FaceMap", "classMR_1_1Const__FaceMap.html#a23db98159e3c3af92bbd39301e21c763", null ],
     [ "Const_FaceMap", "classMR_1_1Const__FaceMap.html#aa871358da1b1777b8096b185a9cad8cd", null ],
-    [ "Const_FaceMap", "classMR_1_1Const__FaceMap.html#a83954d181b04fd92a5ffc9bd3b394cef", null ],
     [ "back", "classMR_1_1Const__FaceMap.html#a904a0057b7b9ca1400a314e18b5f0c5b", null ],
     [ "backId", "classMR_1_1Const__FaceMap.html#a60f2f79b77aafba2ec24798ed8f9b685", null ],
     [ "beginId", "classMR_1_1Const__FaceMap.html#a21edbe76fb59538119a2ac7b3fbf9ad4", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__FaceMap =
     [ "Equals", "classMR_1_1Const__FaceMap.html#ab34ed5ff9d22e013b1bb49203784ce51", null ],
     [ "Equals", "classMR_1_1Const__FaceMap.html#a2830861fddfd88f40d6694fe1b902d44", null ],
     [ "front", "classMR_1_1Const__FaceMap.html#ac7b21ffec1139620b0b55d445d792841", null ],
-    [ "GetEnumerator", "classMR_1_1Const__FaceMap.html#aeafc8558adb455624eaae3acad3acf61", null ],
     [ "heapBytes", "classMR_1_1Const__FaceMap.html#a34b9370703986c21004984bfc31dfe59", null ],
-    [ "operator Const_FaceMap", "classMR_1_1Const__FaceMap.html#a24eee0052d14f1f1f1d42f0a3e9660b3", null ],
+    [ "maxSize", "classMR_1_1Const__FaceMap.html#abad93e7278331194b1ab395b7bd3e630", null ],
     [ "operator!=", "classMR_1_1Const__FaceMap.html#a17953370b2e3c17de64e4165420423f7", null ],
     [ "operator==", "classMR_1_1Const__FaceMap.html#ac18d7e9a389e5eb320a2c50879b4040e", null ],
     [ "size", "classMR_1_1Const__FaceMap.html#a42ae8067f1df947f48a55702392c55c3", null ],
     [ "this[MR.FaceId i]", "classMR_1_1Const__FaceMap.html#acd98e502422320c462f7bec6c5e1703d", null ],
-    [ "vec", "classMR_1_1Const__FaceMap.html#a637c7b378fc62e64a236e64ceab8f25c", null ]
+    [ "vec", "classMR_1_1Const__FaceMap.html#ae9990e3ab8dbe8014b0a6fd4e5181a3d", null ]
 ];

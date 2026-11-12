@@ -4,6 +4,7 @@ var group__IOGroup =
     [ "DistanceMap Load", "group__DistanceMapLoadGroup.html", "group__DistanceMapLoadGroup" ],
     [ "DistanceMap Save", "group__DistanceMapSaveGroup.html", "group__DistanceMapSaveGroup" ],
     [ "Gcode Load", "group__GcodeLoadGroup.html", "group__GcodeLoadGroup" ],
+    [ "Gcode Save", "group__GcodeSaveGroup.html", "group__GcodeSaveGroup" ],
     [ "Image Load", "group__ImageLoadGroup.html", "group__ImageLoadGroup" ],
     [ "Image Save", "group__ImageSaveGroup.html", "group__ImageSaveGroup" ],
     [ "IO Filters", "group__IOFiltersGroup.html", "group__IOFiltersGroup" ],
@@ -15,6 +16,8 @@ var group__IOGroup =
     [ "Mesh Save", "group__MeshSaveGroup.html", "group__MeshSaveGroup" ],
     [ "Mesh Save Obj", "group__MeshSaveObjGroup.html", "group__MeshSaveObjGroup" ],
     [ "Points Save", "group__PointsSaveGroup.html", "group__PointsSaveGroup" ],
+    [ "Raster Load", "group__RasterLoadGroup.html", "group__RasterLoadGroup" ],
+    [ "Raster Save", "group__RasterSaveGroup.html", "group__RasterSaveGroup" ],
     [ "Serializer", "group__SerializerGroup.html", "group__SerializerGroup" ],
     [ "Voxels Load", "group__VoxelsLoadGroup.html", "group__VoxelsLoadGroup" ],
     [ "Voxels Save", "group__VoxelsSaveGroup.html", "group__VoxelsSaveGroup" ],
@@ -30,5 +33,5 @@ var group__IOGroup =
     [ "MR::PointsLoad::fromPts", "group__IOGroup.html#ga756bfbe6cede3121408e2ef95f428411", null ],
     [ "MR::PointsLoad::fromText", "group__IOGroup.html#ga1c3cebd38d164d456af80671f7250fbf", null ],
     [ "MR::PointsLoad::fromText", "group__IOGroup.html#gacc3b6b39e72f9a09af6653f353e66998", null ],
-    [ "MR::PointsLoad::telemetryLogSize", "group__IOGroup.html#ga56f3c968fa0da7592fff9bf39304344e", null ]
+    [ "MR::PointsLoad::telemetryLogSize", "group__IOGroup.html#ga73b82c2c44e08cd0223e959e6173af7b", null ]
 ];

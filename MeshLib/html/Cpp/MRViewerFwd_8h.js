@@ -8,6 +8,5 @@ var MRViewerFwd_8h =
     [ "MR::RequirementsFunction", "group__GeneralGroup.html#ga55cd176bca8ea774ad922ad2876e0f0d", null ],
     [ "MR::StatePlugin", "group__GeneralGroup.html#gab03e30b3d478dc602964140a67391c49", null ],
     [ "MR::ViewerEventCallback", "group__GeneralGroup.html#gaf677bfbbed9f6c283d0a3101b5e91aea", null ],
-    [ "MR::ViewportRectangle", "group__GeneralGroup.html#gae679240dc1c3cb46bbffe4002f1f48e5", null ],
-    [ "MR::WebRequest", "group__GeneralGroup.html#gad94e4d4dcae262fbf618c54cbdbdf4aa", null ]
+    [ "MR::ViewportRectangle", "group__GeneralGroup.html#gae679240dc1c3cb46bbffe4002f1f48e5", null ]
 ];

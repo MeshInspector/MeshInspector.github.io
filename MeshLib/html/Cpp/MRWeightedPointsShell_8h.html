@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -168,22 +161,22 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
-<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only strictly necessary for the bindings (to make <span class="tt"><a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a></span> a complete type). <br /></td></tr>
 <tr class="memitem:MR_3A_3AWeightedShell" id="r_MR_3A_3AWeightedShell"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1WeightedShell.html">MR::WeightedShell</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ad2ba4e4f0e0175fc0608e172a0619984" id="r_ad2ba4e4f0e0175fc0608e172a0619984"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1WeightedShell.html#ad2ba4e4f0e0175fc0608e172a0619984">MR::WeightedShell::meshToDistanceVolumeT</a> = std::function&lt;<a class="el" href="group__GeneralGroup.html#ga5874284dcde0853181cfc5bf3366981d">FunctionVolume</a>(const <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&amp;, const <a class="el" href="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html">DistanceVolumeCreationParams</a>&amp;)&gt;</td></tr>
+<tr class="memitem:ad2ba4e4f0e0175fc0608e172a0619984" id="r_ad2ba4e4f0e0175fc0608e172a0619984"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1WeightedShell.html#ad2ba4e4f0e0175fc0608e172a0619984">MR::WeightedShell::meshToDistanceVolumeT</a> = std::function&lt;<a class="el" href="group__GeneralGroup.html#gaf5e12b5511f0ccaffdaa09477d3a83a8">FunctionVolume</a>(const <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&amp;, const <a class="el" href="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html">DistanceVolumeCreationParams</a>&amp;)&gt;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad1ffa222355f35085c885b87e8d27df8" id="r_ad1ffa222355f35085c885b87e8d27df8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga5874284dcde0853181cfc5bf3366981d">FunctionVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1WeightedShell.html#ad1ffa222355f35085c885b87e8d27df8">MR::WeightedShell::pointsToDistanceVolume</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html">DistanceVolumeCreationParams</a> &amp;params)</td></tr>
+<tr class="memitem:ad1ffa222355f35085c885b87e8d27df8" id="r_ad1ffa222355f35085c885b87e8d27df8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gaf5e12b5511f0ccaffdaa09477d3a83a8">FunctionVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1WeightedShell.html#ad1ffa222355f35085c885b87e8d27df8">MR::WeightedShell::pointsToDistanceVolume</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html">DistanceVolumeCreationParams</a> &amp;params)</td></tr>
 <tr class="memdesc:ad1ffa222355f35085c885b87e8d27df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes FunctionVolume representing minimal distance to weighted points  <br /></td></tr>
-<tr class="memitem:a1828e77e08ab2c06e1b4bffe5866270f" id="r_a1828e77e08ab2c06e1b4bffe5866270f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga5874284dcde0853181cfc5bf3366981d">FunctionVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1WeightedShell.html#a1828e77e08ab2c06e1b4bffe5866270f">MR::WeightedShell::meshToDistanceVolume</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html">DistanceVolumeCreationParams</a> &amp;params)</td></tr>
+<tr class="memitem:a1828e77e08ab2c06e1b4bffe5866270f" id="r_a1828e77e08ab2c06e1b4bffe5866270f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gaf5e12b5511f0ccaffdaa09477d3a83a8">FunctionVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1WeightedShell.html#a1828e77e08ab2c06e1b4bffe5866270f">MR::WeightedShell::meshToDistanceVolume</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html">DistanceVolumeCreationParams</a> &amp;params)</td></tr>
 <tr class="memdesc:a1828e77e08ab2c06e1b4bffe5866270f"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes FunctionVolume representing minimal distance to mesh with weighted vertices  <br /></td></tr>
-<tr class="memitem:a2d9e4d1c9f007cc1087818a3740c5653" id="r_a2d9e4d1c9f007cc1087818a3740c5653"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1WeightedShell.html#a2d9e4d1c9f007cc1087818a3740c5653">MR::WeightedShell::pointsShell</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1WeightedShell_1_1ParametersMetric.html">ParametersMetric</a> &amp;params)</td></tr>
+<tr class="memitem:adfe2a6920af02df96b61bbdee024dfe0" id="r_adfe2a6920af02df96b61bbdee024dfe0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1WeightedShell.html#adfe2a6920af02df96b61bbdee024dfe0">MR::WeightedShell::pointsShell</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1WeightedShell_1_1ParametersMetric.html">ParametersMetric</a> &amp;params)</td></tr>
 <tr class="memitem:a27dc07084bd9d7ba531af503ee26ecaa" id="r_a27dc07084bd9d7ba531af503ee26ecaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1WeightedShell.html#a27dc07084bd9d7ba531af503ee26ecaa">MR::WeightedShell::pointsShell</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const VertScalars &amp;pointWeights, const <a class="el" href="structMR_1_1WeightedShell_1_1ParametersMetric.html">ParametersMetric</a> &amp;params)</td></tr>
-<tr class="memitem:a6c11500f809bc486096500b727e6cbbe" id="r_a6c11500f809bc486096500b727e6cbbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1WeightedShell.html#a6c11500f809bc486096500b727e6cbbe">MR::WeightedShell::meshShell</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1WeightedShell_1_1ParametersMetric.html">ParametersMetric</a> &amp;params)</td></tr>
+<tr class="memitem:a0a1a97bb2e01d6e33cc69b5e0295543e" id="r_a0a1a97bb2e01d6e33cc69b5e0295543e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1WeightedShell.html#a0a1a97bb2e01d6e33cc69b5e0295543e">MR::WeightedShell::meshShell</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1WeightedShell_1_1ParametersMetric.html">ParametersMetric</a> &amp;params)</td></tr>
 <tr class="memitem:aa73cc71df322e6863d94e7f237875475" id="r_aa73cc71df322e6863d94e7f237875475"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1WeightedShell.html#aa73cc71df322e6863d94e7f237875475">MR::WeightedShell::meshShell</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertScalars &amp;vertWeights, const <a class="el" href="structMR_1_1WeightedShell_1_1ParametersMetric.html">ParametersMetric</a> &amp;params)</td></tr>
 <tr class="memitem:a521af3e40765a04b00069fa14da9a3fa" id="r_a521af3e40765a04b00069fa14da9a3fa"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1WeightedShell.html#a521af3e40765a04b00069fa14da9a3fa">MR::WeightedShell::calculateShellWeightsFromRegions</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html">ParametersRegions::Region</a> &gt; &amp;regions, float interpolationDist)</td></tr>
 <tr class="memdesc:a521af3e40765a04b00069fa14da9a3fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">interpolate set of regions and assign weight to each vertex of the mesh  <br /></td></tr>

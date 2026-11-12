@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,33 +133,44 @@ $(function(){initNavTree('classmrmeshpy_1_1OffsetContourIndex.html','','classmrm
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1OffsetContourIndex-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.OffsetContourIndex Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for mrmeshpy.OffsetContourIndex:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmrmeshpy_1_1OffsetContourIndex.png" usemap="#mrmeshpy_2EOffsetContourIndex_map" alt=""/>
+  <map id="mrmeshpy_2EOffsetContourIndex_map" name="mrmeshpy_2EOffsetContourIndex_map">
+<area href="classmrmeshpy_1_1ConstOffsetContourIndex.html" alt="mrmeshpy.ConstOffsetContourIndex" shape="rect" coords="0,0,214,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a86ae0a7ec781856bf110242d202a8e68" id="r_a86ae0a7ec781856bf110242d202a8e68"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86ae0a7ec781856bf110242d202a8e68">__init__</a> (self)</td></tr>
-<tr class="memitem:a213c3af248977b2dca97166c4d5e4c76" id="r_a213c3af248977b2dca97166c4d5e4c76"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a213c3af248977b2dca97166c4d5e4c76">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1OffsetContourIndex.html">OffsetContourIndex</a> arg0)</td></tr>
+<tr class="memitem:ab8067d3bcffbe14e3808905561028e22" id="r_ab8067d3bcffbe14e3808905561028e22"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8067d3bcffbe14e3808905561028e22">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstOffsetContourIndex.html">ConstOffsetContourIndex</a> arg0)</td></tr>
 <tr class="memitem:af5e36b447476b07a196dee32a298cdbf" id="r_af5e36b447476b07a196dee32a298cdbf"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5e36b447476b07a196dee32a298cdbf">__init__</a> (self, int <a class="el" href="#ab94a28f68e6e9380027519b83c28d425">contourId</a>, int <a class="el" href="#a83d8a7fcc8e16d9d7dfef51c4fa5cb43">vertId</a>)</td></tr>
-<tr class="memitem:a506c7a79611584fdb115e5fb6b23c44b" id="r_a506c7a79611584fdb115e5fb6b23c44b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a506c7a79611584fdb115e5fb6b23c44b">valid</a> (self)</td></tr>
+<tr class="memitem:a207bb6c0e87081834d3ebd85f1d68776" id="r_a207bb6c0e87081834d3ebd85f1d68776"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1OffsetContourIndex.html">OffsetContourIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a207bb6c0e87081834d3ebd85f1d68776">assign</a> (self, <a class="el" href="classmrmeshpy_1_1ConstOffsetContourIndex.html">ConstOffsetContourIndex</a> other)</td></tr>
 <tr class="memitem:ab94a28f68e6e9380027519b83c28d425" id="r_ab94a28f68e6e9380027519b83c28d425"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab94a28f68e6e9380027519b83c28d425">contourId</a> (self)</td></tr>
 <tr class="memitem:a22ea697847fad3aa4e3193333900f07a" id="r_a22ea697847fad3aa4e3193333900f07a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22ea697847fad3aa4e3193333900f07a">contourId</a> (self, int arg1)</td></tr>
 <tr class="memitem:a83d8a7fcc8e16d9d7dfef51c4fa5cb43" id="r_a83d8a7fcc8e16d9d7dfef51c4fa5cb43"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83d8a7fcc8e16d9d7dfef51c4fa5cb43">vertId</a> (self)</td></tr>
 <tr class="memitem:a38d72ba1ed412d043bc1104168f311f9" id="r_a38d72ba1ed412d043bc1104168f311f9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38d72ba1ed412d043bc1104168f311f9">vertId</a> (self, int arg1)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstOffsetContourIndex"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstOffsetContourIndex')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstOffsetContourIndex.html">mrmeshpy.ConstOffsetContourIndex</a></td></tr>
+<tr class="memitem:a376c542f558ce1839cb680d5fbb6851b inherit pub_methods_classmrmeshpy_1_1ConstOffsetContourIndex" id="r_a376c542f558ce1839cb680d5fbb6851b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstOffsetContourIndex.html#a376c542f558ce1839cb680d5fbb6851b">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:ad4be3057f0b627c120b0fb59cc7a8286 inherit pub_methods_classmrmeshpy_1_1ConstOffsetContourIndex" id="r_ad4be3057f0b627c120b0fb59cc7a8286"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstOffsetContourIndex.html#ad4be3057f0b627c120b0fb59cc7a8286">valid</a> (self)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a03f2cacbf4dd55b3401e486f17d12e5e" id="r_a03f2cacbf4dd55b3401e486f17d12e5e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03f2cacbf4dd55b3401e486f17d12e5e">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a2ae37a10b7115d575b7f1ef0652bfef6" id="r_a2ae37a10b7115d575b7f1ef0652bfef6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1OffsetContourIndex.html">OffsetContourIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ae37a10b7115d575b7f1ef0652bfef6">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a2ae37a10b7115d575b7f1ef0652bfef6" id="r_a2ae37a10b7115d575b7f1ef0652bfef6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1OffsetContourIndex.html">OffsetContourIndex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ae37a10b7115d575b7f1ef0652bfef6">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:abe2ae2e51eb4ccead9bca5eb824e2f5d" id="r_abe2ae2e51eb4ccead9bca5eb824e2f5d"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe2ae2e51eb4ccead9bca5eb824e2f5d">_offsetof_contourId</a> = 0</td></tr>
-<tr class="memitem:a4128660f941a59da5d230771fd848e66" id="r_a4128660f941a59da5d230771fd848e66"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4128660f941a59da5d230771fd848e66">_offsetof_vertId</a> = 4</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_static_attribs_classmrmeshpy_1_1ConstOffsetContourIndex"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classmrmeshpy_1_1ConstOffsetContourIndex')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Attributes inherited from <a class="el" href="classmrmeshpy_1_1ConstOffsetContourIndex.html">mrmeshpy.ConstOffsetContourIndex</a></td></tr>
+<tr class="memitem:a6315a23ae6798e8ce2ca06c05afa55de inherit pro_static_attribs_classmrmeshpy_1_1ConstOffsetContourIndex" id="r_a6315a23ae6798e8ce2ca06c05afa55de"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstOffsetContourIndex.html#a6315a23ae6798e8ce2ca06c05afa55de">_offsetof_contourId</a> = 0</td></tr>
+<tr class="memitem:a553c64733bb0baf91d7bd8279eea0c12 inherit pro_static_attribs_classmrmeshpy_1_1ConstOffsetContourIndex" id="r_a553c64733bb0baf91d7bd8279eea0c12"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstOffsetContourIndex.html#a553c64733bb0baf91d7bd8279eea0c12">_offsetof_vertId</a> = 4</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::OffsetContourIndex
@@ -217,8 +221,8 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a213c3af248977b2dca97166c4d5e4c76" name="a213c3af248977b2dca97166c4d5e4c76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a213c3af248977b2dca97166c4d5e4c76">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+<a id="ab8067d3bcffbe14e3808905561028e22" name="ab8067d3bcffbe14e3808905561028e22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8067d3bcffbe14e3808905561028e22">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -231,7 +235,7 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1OffsetContourIndex.html">OffsetContourIndex</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstOffsetContourIndex.html">ConstOffsetContourIndex</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -267,6 +271,27 @@ Static Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a207bb6c0e87081834d3ebd85f1d68776" name="a207bb6c0e87081834d3ebd85f1d68776"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a207bb6c0e87081834d3ebd85f1d68776">&#9670;&#160;</a></span>assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1OffsetContourIndex.html">OffsetContourIndex</a> mrmeshpy.OffsetContourIndex.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstOffsetContourIndex.html">ConstOffsetContourIndex</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab94a28f68e6e9380027519b83c28d425" name="ab94a28f68e6e9380027519b83c28d425"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab94a28f68e6e9380027519b83c28d425">&#9670;&#160;</a></span>contourId() <span class="overload">[1/2]</span></h2>
 
@@ -283,6 +308,8 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <pre class="fragment">-1 means unknown index
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstOffsetContourIndex.html#acff88cca0a12c33155cfd3255e998cd3">mrmeshpy.ConstOffsetContourIndex</a>.</p>
+
 </div>
 </div>
 <a id="a22ea697847fad3aa4e3193333900f07a" name="a22ea697847fad3aa4e3193333900f07a"></a>
@@ -303,81 +330,9 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2ae37a10b7115d575b7f1ef0652bfef6" name="a2ae37a10b7115d575b7f1ef0652bfef6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ae37a10b7115d575b7f1ef0652bfef6">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1OffsetContourIndex.html">OffsetContourIndex</a> mrmeshpy.OffsetContourIndex.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2ae37a10b7115d575b7f1ef0652bfef6" name="a2ae37a10b7115d575b7f1ef0652bfef6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ae37a10b7115d575b7f1ef0652bfef6">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1OffsetContourIndex.html">OffsetContourIndex</a> mrmeshpy.OffsetContourIndex.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a506c7a79611584fdb115e5fb6b23c44b" name="a506c7a79611584fdb115e5fb6b23c44b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a506c7a79611584fdb115e5fb6b23c44b">&#9670;&#160;</a></span>valid()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.OffsetContourIndex.valid </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<pre class="fragment">-1 means unknown index
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstOffsetContourIndex.html#acff88cca0a12c33155cfd3255e998cd3">mrmeshpy.ConstOffsetContourIndex</a>.</p>
 
 </div>
 </div>
@@ -397,6 +352,8 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <pre class="fragment">-1 means unknown index
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstOffsetContourIndex.html#a3f3eddcc9113c258c08b3504365aa233">mrmeshpy.ConstOffsetContourIndex</a>.</p>
+
 </div>
 </div>
 <a id="a38d72ba1ed412d043bc1104168f311f9" name="a38d72ba1ed412d043bc1104168f311f9"></a>
@@ -417,51 +374,9 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="abe2ae2e51eb4ccead9bca5eb824e2f5d" name="abe2ae2e51eb4ccead9bca5eb824e2f5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe2ae2e51eb4ccead9bca5eb824e2f5d">&#9670;&#160;</a></span>_offsetof_contourId</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.OffsetContourIndex._offsetof_contourId = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4128660f941a59da5d230771fd848e66" name="a4128660f941a59da5d230771fd848e66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4128660f941a59da5d230771fd848e66">&#9670;&#160;</a></span>_offsetof_vertId</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.OffsetContourIndex._offsetof_vertId = 4</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<pre class="fragment">-1 means unknown index
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstOffsetContourIndex.html#a3f3eddcc9113c258c08b3504365aa233">mrmeshpy.ConstOffsetContourIndex</a>.</p>
 
 </div>
 </div>

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -304,6 +297,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:add61237bc2a74e12e5be8ab83ac63d6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes discrete mean curvature in given edge, measures in length^-1; 0 for planar regions, positive for convex surface, negative for concave surface Generated from method <span class="tt"><a class="el" href="#a1dc6d4be764deabf0008ccc6e05eeb33" title="computes discrete mean curvature in given vertex, measures in length^-1; 0 for planar regions,...">MR.Mesh.discreteMeanCurvature</a></span>.  <br /></td></tr>
 <tr class="memitem:a4cbc3986a13f34d9d4a2cd88e29d71e3" id="r_a4cbc3986a13f34d9d4a2cd88e29d71e3"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cbc3986a13f34d9d4a2cd88e29d71e3">discreteGaussianCurvature</a> (<a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v, MR.Misc.InOut&lt; bool &gt;? outBoundaryVert=null)</td></tr>
 <tr class="memdesc:a4cbc3986a13f34d9d4a2cd88e29d71e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes discrete Gaussian curvature (or angle defect) at given vertex, which 0 in inner vertices on planar mesh parts and reaches 2*pi on needle's tip, see <a href="http://math.uchicago.edu/~may/REU2015/REUPapers/Upadhyay.pdf">http://math.uchicago.edu/~may/REU2015/REUPapers/Upadhyay.pdf</a> optionally returns whether the vertex is on boundary Generated from method <span class="tt"><a class="el" href="#a4cbc3986a13f34d9d4a2cd88e29d71e3" title="computes discrete Gaussian curvature (or angle defect) at given vertex, which 0 in inner vertices on ...">MR.Mesh.discreteGaussianCurvature</a></span>.  <br /></td></tr>
+<tr class="memitem:ac098ac9d11dd4d84dce7621fe0960011" id="r_ac098ac9d11dd4d84dce7621fe0960011"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1VertScalars.html">MR.VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac098ac9d11dd4d84dce7621fe0960011">discreteMeanCurvatures</a> (<a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:ac098ac9d11dd4d84dce7621fe0960011"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes discrete mean curvature (see discreteMeanCurvature( v )) in the vertices of given region (or in all valid vertices if region is null), and puts 0 in all other vertices Generated from method <span class="tt"><a class="el" href="#ac098ac9d11dd4d84dce7621fe0960011" title="computes discrete mean curvature (see discreteMeanCurvature( v )) in the vertices of given region (or...">MR.Mesh.discreteMeanCurvatures</a></span>.  <br /></td></tr>
+<tr class="memitem:a132e859068873f73bb57190d17f241da" id="r_a132e859068873f73bb57190d17f241da"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1VertScalars.html">MR.VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a132e859068873f73bb57190d17f241da">discreteGaussianCurvatures</a> (<a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:a132e859068873f73bb57190d17f241da"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes discrete Gaussian curvature (see discreteGaussianCurvature( v )) in the vertices of given region (or in all valid vertices if region is null), and puts 0 in all other vertices Generated from method <span class="tt"><a class="el" href="#a132e859068873f73bb57190d17f241da" title="computes discrete Gaussian curvature (see discreteGaussianCurvature( v )) in the vertices of given re...">MR.Mesh.discreteGaussianCurvatures</a></span>.  <br /></td></tr>
+<tr class="memitem:a4ad52d28f5f3ff1d4add1d39a452f3d2" id="r_a4ad52d28f5f3ff1d4add1d39a452f3d2"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ad52d28f5f3ff1d4add1d39a452f3d2">findSharpEdges</a> (float minSharpCos, float maxSharpCos)</td></tr>
+<tr class="memdesc:a4ad52d28f5f3ff1d4add1d39a452f3d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos, maxSharpCos] Generated from method <span class="tt"><a class="el" href="#a4ad52d28f5f3ff1d4add1d39a452f3d2" title="finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos,...">MR.Mesh.findSharpEdges</a></span>.  <br /></td></tr>
 <tr class="memitem:acaa1a323b359755f854bacd4b19e17bb" id="r_acaa1a323b359755f854bacd4b19e17bb"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acaa1a323b359755f854bacd4b19e17bb">findCreaseEdges</a> (float angleFromPlanar)</td></tr>
 <tr class="memdesc:acaa1a323b359755f854bacd4b19e17bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all mesh edges where dihedral angle is distinct from planar PI angle on at least given value Generated from method <span class="tt"><a class="el" href="#acaa1a323b359755f854bacd4b19e17bb" title="finds all mesh edges where dihedral angle is distinct from planar PI angle on at least given value Ge...">MR.Mesh.findCreaseEdges</a></span>.  <br /></td></tr>
 <tr class="memitem:a20c8a63eeb72631629308e8cc708af1b" id="r_a20c8a63eeb72631629308e8cc708af1b"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20c8a63eeb72631629308e8cc708af1b">leftCotan</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e)</td></tr>
@@ -313,7 +312,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af2a78c63afa8b0bd3a1439ef7fabfdd3" id="r_af2a78c63afa8b0bd3a1439ef7fabfdd3"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1QuadraticForm3f.html">MR.QuadraticForm3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2a78c63afa8b0bd3a1439ef7fabfdd3">quadraticForm</a> (<a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v, bool angleWeigted, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? creases=null)</td></tr>
 <tr class="memdesc:af2a78c63afa8b0bd3a1439ef7fabfdd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes quadratic form in the vertex as the sum of squared distances from 1) planes of adjacent triangles, with the weight equal to the angle of adjacent triangle at this vertex divided on PI in case of angleWeigted=true; 2) lines of adjacent boundary and crease edges Generated from method <span class="tt"><a class="el" href="#af2a78c63afa8b0bd3a1439ef7fabfdd3" title="computes quadratic form in the vertex as the sum of squared distances from 1) planes of adjacent tria...">MR.Mesh.quadraticForm</a></span>.  <br /></td></tr>
 <tr class="memitem:aa1654d814f61165be1ddd4083a245aff" id="r_aa1654d814f61165be1ddd4083a245aff"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1654d814f61165be1ddd4083a245aff">getBoundingBox</a> ()</td></tr>
-<tr class="memdesc:aa1654d814f61165be1ddd4083a245aff"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the bounding box containing all valid vertices (implemented via <a class="el" href="#a232c5316959b5bcdbbb06547b60442d1" title="returns cached aabb-tree for this mesh, creating it if it did not exist in a thread-safe manner Gener...">getAABBTree()</a>) this bounding box is insignificantly bigger that minimal box due to AABB algorithms precision Generated from method <span class="tt"><a class="el" href="#aa1654d814f61165be1ddd4083a245aff" title="returns the bounding box containing all valid vertices (implemented via getAABBTree()) this bounding ...">MR.Mesh.getBoundingBox</a></span>.  <br /></td></tr>
+<tr class="memdesc:aa1654d814f61165be1ddd4083a245aff"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the bounding box containing all valid vertices (the root box of <a class="el" href="classMR_1_1AABBTree.html" title="bounding volume hierarchy of mesh triangles with up to 4 children per node and up to 4 triangles per ...">AABBTree</a>) this bounding box is insignificantly bigger that minimal box due to AABB algorithms precision Generated from method <span class="tt"><a class="el" href="#aa1654d814f61165be1ddd4083a245aff" title="returns the bounding box containing all valid vertices (the root box of AABBTree) this bounding box i...">MR.Mesh.getBoundingBox</a></span>.  <br /></td></tr>
 <tr class="memitem:a025e311b955c43433140e6caddc5073d" id="r_a025e311b955c43433140e6caddc5073d"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a025e311b955c43433140e6caddc5073d">computeBoundingBox</a> (<a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? toWorld=null)</td></tr>
 <tr class="memdesc:a025e311b955c43433140e6caddc5073d"><td class="mdescLeft">&#160;</td><td class="mdescRight">passes through all valid vertices and finds the minimal bounding box containing all of them; if toWorld transformation is given then returns minimal bounding box in world space Generated from method <span class="tt"><a class="el" href="#a025e311b955c43433140e6caddc5073d" title="passes through all valid vertices and finds the minimal bounding box containing all of them; if toWor...">MR.Mesh.computeBoundingBox</a></span>.  <br /></td></tr>
 <tr class="memitem:acdb0f7b3bcc3dbc950fbfabf8d12ae83" id="r_acdb0f7b3bcc3dbc950fbfabf8d12ae83"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdb0f7b3bcc3dbc950fbfabf8d12ae83">computeBoundingBox</a> (<a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? toWorld=null)</td></tr>
@@ -339,9 +338,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8988e64555843fbf2d2f10e2d74558a7" id="r_a8988e64555843fbf2d2f10e2d74558a7"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1MeshProjectionResult.html">MR.MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8988e64555843fbf2d2f10e2d74558a7">findClosestPoint</a> (in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> point, float? maxDistSq=null, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? xf=null)</td></tr>
 <tr class="memdesc:a8988e64555843fbf2d2f10e2d74558a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aa2775c4f611750504e110740b9a2143f" title="Generated from method MR.Mesh.findClosestPoint. Parameter maxDistSq defaults to 3....">MR.Mesh.findClosestPoint</a></span>. Parameter <span class="tt">maxDistSq</span> defaults to <span class="tt">3.40282347e38f</span>.  <br /></td></tr>
 <tr class="memitem:a232c5316959b5bcdbbb06547b60442d1" id="r_a232c5316959b5bcdbbb06547b60442d1"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a232c5316959b5bcdbbb06547b60442d1">getAABBTree</a> ()</td></tr>
-<tr class="memdesc:a232c5316959b5bcdbbb06547b60442d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached aabb-tree for this mesh, creating it if it did not exist in a thread-safe manner Generated from method <span class="tt"><a class="el" href="#a232c5316959b5bcdbbb06547b60442d1" title="returns cached aabb-tree for this mesh, creating it if it did not exist in a thread-safe manner Gener...">MR.Mesh.getAABBTree</a></span>.  <br /></td></tr>
+<tr class="memdesc:a232c5316959b5bcdbbb06547b60442d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached aabb-tree of this mesh's triangles, creating it if it did not exist in a thread-safe manner Generated from method <span class="tt"><a class="el" href="#a232c5316959b5bcdbbb06547b60442d1" title="returns cached aabb-tree of this mesh&#39;s triangles, creating it if it did not exist in a thread-safe m...">MR.Mesh.getAABBTree</a></span>.  <br /></td></tr>
 <tr class="memitem:a01752e171353dffd57de43469be9efda" id="r_a01752e171353dffd57de43469be9efda"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__AABBTree.html">Const_AABBTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01752e171353dffd57de43469be9efda">getAABBTreeNotCreate</a> ()</td></tr>
-<tr class="memdesc:a01752e171353dffd57de43469be9efda"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached aabb-tree for this mesh, but does not create it if it did not exist Generated from method <span class="tt"><a class="el" href="#a01752e171353dffd57de43469be9efda" title="returns cached aabb-tree for this mesh, but does not create it if it did not exist Generated from met...">MR.Mesh.getAABBTreeNotCreate</a></span>.  <br /></td></tr>
+<tr class="memdesc:a01752e171353dffd57de43469be9efda"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached aabb-tree of this mesh's triangles, but does not create it if it did not exist Generated from method <span class="tt"><a class="el" href="#a01752e171353dffd57de43469be9efda" title="returns cached aabb-tree of this mesh&#39;s triangles, but does not create it if it did not exist Generat...">MR.Mesh.getAABBTreeNotCreate</a></span>.  <br /></td></tr>
 <tr class="memitem:ae647cdc83884264b0523796c728be17d" id="r_ae647cdc83884264b0523796c728be17d"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__AABBTreePoints.html">MR.Const_AABBTreePoints</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae647cdc83884264b0523796c728be17d">getAABBTreePoints</a> ()</td></tr>
 <tr class="memdesc:ae647cdc83884264b0523796c728be17d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached aabb-tree for points of this mesh, creating it if it did not exist in a thread-safe manner Generated from method <span class="tt"><a class="el" href="#ae647cdc83884264b0523796c728be17d" title="returns cached aabb-tree for points of this mesh, creating it if it did not exist in a thread-safe ma...">MR.Mesh.getAABBTreePoints</a></span>.  <br /></td></tr>
 <tr class="memitem:a62d9bcb019d6c5fe421ec697395b9159" id="r_a62d9bcb019d6c5fe421ec697395b9159"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__AABBTreePoints.html">Const_AABBTreePoints</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62d9bcb019d6c5fe421ec697395b9159">getAABBTreePointsNotCreate</a> ()</td></tr>
@@ -1063,6 +1062,33 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a132e859068873f73bb57190d17f241da" name="a132e859068873f73bb57190d17f241da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a132e859068873f73bb57190d17f241da">&#9670;&#160;</a></span>discreteGaussianCurvatures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1VertScalars.html">MR.VertScalars</a> MR.Const_Mesh.discreteGaussianCurvatures </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes discrete Gaussian curvature (see discreteGaussianCurvature( v )) in the vertices of given region (or in all valid vertices if region is null), and puts 0 in all other vertices Generated from method <span class="tt"><a class="el" href="#a132e859068873f73bb57190d17f241da" title="computes discrete Gaussian curvature (see discreteGaussianCurvature( v )) in the vertices of given re...">MR.Mesh.discreteGaussianCurvatures</a></span>. </p>
+
+</div>
+</div>
 <a id="add61237bc2a74e12e5be8ab83ac63d6c" name="add61237bc2a74e12e5be8ab83ac63d6c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#add61237bc2a74e12e5be8ab83ac63d6c">&#9670;&#160;</a></span>discreteMeanCurvature() <span class="overload">[1/2]</span></h2>
 
@@ -1114,6 +1140,33 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>computes discrete mean curvature in given vertex, measures in length^-1; 0 for planar regions, positive for convex surface, negative for concave surface Generated from method <span class="tt"><a class="el" href="#a1dc6d4be764deabf0008ccc6e05eeb33" title="computes discrete mean curvature in given vertex, measures in length^-1; 0 for planar regions,...">MR.Mesh.discreteMeanCurvature</a></span>. </p>
+
+</div>
+</div>
+<a id="ac098ac9d11dd4d84dce7621fe0960011" name="ac098ac9d11dd4d84dce7621fe0960011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac098ac9d11dd4d84dce7621fe0960011">&#9670;&#160;</a></span>discreteMeanCurvatures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1VertScalars.html">MR.VertScalars</a> MR.Const_Mesh.discreteMeanCurvatures </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes discrete mean curvature (see discreteMeanCurvature( v )) in the vertices of given region (or in all valid vertices if region is null), and puts 0 in all other vertices Generated from method <span class="tt"><a class="el" href="#ac098ac9d11dd4d84dce7621fe0960011" title="computes discrete mean curvature (see discreteMeanCurvature( v )) in the vertices of given region (or...">MR.Mesh.discreteMeanCurvatures</a></span>. </p>
 
 </div>
 </div>
@@ -1632,6 +1685,37 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a4ad52d28f5f3ff1d4add1d39a452f3d2" name="a4ad52d28f5f3ff1d4add1d39a452f3d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ad52d28f5f3ff1d4add1d39a452f3d2">&#9670;&#160;</a></span>findSharpEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a> MR.Const_Mesh.findSharpEdges </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minSharpCos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxSharpCos</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos, maxSharpCos] Generated from method <span class="tt"><a class="el" href="#a4ad52d28f5f3ff1d4add1d39a452f3d2" title="finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos,...">MR.Mesh.findSharpEdges</a></span>. </p>
+
+</div>
+</div>
 <a id="a202c18bfd4a011ddcfc9274a041ff995" name="a202c18bfd4a011ddcfc9274a041ff995"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a202c18bfd4a011ddcfc9274a041ff995">&#9670;&#160;</a></span>findSpikeVertices()</h2>
 
@@ -1897,7 +1981,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns cached aabb-tree for this mesh, creating it if it did not exist in a thread-safe manner Generated from method <span class="tt"><a class="el" href="#a232c5316959b5bcdbbb06547b60442d1" title="returns cached aabb-tree for this mesh, creating it if it did not exist in a thread-safe manner Gener...">MR.Mesh.getAABBTree</a></span>. </p>
+<p>returns cached aabb-tree of this mesh's triangles, creating it if it did not exist in a thread-safe manner Generated from method <span class="tt"><a class="el" href="#a232c5316959b5bcdbbb06547b60442d1" title="returns cached aabb-tree of this mesh&#39;s triangles, creating it if it did not exist in a thread-safe m...">MR.Mesh.getAABBTree</a></span>. </p>
 
 </div>
 </div>
@@ -1924,7 +2008,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns cached aabb-tree for this mesh, but does not create it if it did not exist Generated from method <span class="tt"><a class="el" href="#a01752e171353dffd57de43469be9efda" title="returns cached aabb-tree for this mesh, but does not create it if it did not exist Generated from met...">MR.Mesh.getAABBTreeNotCreate</a></span>. </p>
+<p>returns cached aabb-tree of this mesh's triangles, but does not create it if it did not exist Generated from method <span class="tt"><a class="el" href="#a01752e171353dffd57de43469be9efda" title="returns cached aabb-tree of this mesh&#39;s triangles, but does not create it if it did not exist Generat...">MR.Mesh.getAABBTreeNotCreate</a></span>. </p>
 
 </div>
 </div>
@@ -2005,7 +2089,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns the bounding box containing all valid vertices (implemented via <a class="el" href="#a232c5316959b5bcdbbb06547b60442d1" title="returns cached aabb-tree for this mesh, creating it if it did not exist in a thread-safe manner Gener...">getAABBTree()</a>) this bounding box is insignificantly bigger that minimal box due to AABB algorithms precision Generated from method <span class="tt"><a class="el" href="#aa1654d814f61165be1ddd4083a245aff" title="returns the bounding box containing all valid vertices (implemented via getAABBTree()) this bounding ...">MR.Mesh.getBoundingBox</a></span>. </p>
+<p>returns the bounding box containing all valid vertices (the root box of <a class="el" href="classMR_1_1AABBTree.html" title="bounding volume hierarchy of mesh triangles with up to 4 children per node and up to 4 triangles per ...">AABBTree</a>) this bounding box is insignificantly bigger that minimal box due to AABB algorithms precision Generated from method <span class="tt"><a class="el" href="#aa1654d814f61165be1ddd4083a245aff" title="returns the bounding box containing all valid vertices (the root box of AABBTree) this bounding box i...">MR.Mesh.getBoundingBox</a></span>. </p>
 
 </div>
 </div>

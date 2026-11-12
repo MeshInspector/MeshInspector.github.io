@@ -1,8 +1,9 @@
 var classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams =
 [
     [ "__init__", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html#a5e96b5da2253b996ca788a4fd87e5b24", null ],
-    [ "__init__", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html#a29632bc8819c78a0c4d0260ff9262bc2", null ],
+    [ "__init__", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html#a76fa8c4f57ab4b919c64096217c61a99", null ],
     [ "__init__", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html#a242c72517378225a5c125a56e6ab3fe2", null ],
+    [ "assign", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html#ad10bacfc88316eed6e87da79c290d911", null ],
     [ "decimate", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html#a79f64bf61d86faa1a12c8d6c48b83b71", null ],
     [ "decimate", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html#ae608d8067a515f4af07660928ee89d32", null ],
     [ "reduceAngleNumIters", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html#a8a88c100b1d540bcbcb5f5b93f9ef631", null ],

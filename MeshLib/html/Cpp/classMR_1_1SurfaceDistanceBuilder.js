@@ -3,6 +3,7 @@ var classMR_1_1SurfaceDistanceBuilder =
     [ "SurfaceDistanceBuilder", "classMR_1_1SurfaceDistanceBuilder.html#ad953af191b66e04789699c3707a47b18", null ],
     [ "SurfaceDistanceBuilder", "classMR_1_1SurfaceDistanceBuilder.html#ae5aba85dbb1efdefdea87c31c4c4a624", null ],
     [ "addStart", "classMR_1_1SurfaceDistanceBuilder.html#a5189e1622e0103bd98faa67445fbbf74", null ],
+    [ "addStartEdgesAndPoints", "classMR_1_1SurfaceDistanceBuilder.html#a23f26648434d61fe3b63f5dc33107ae9", null ],
     [ "addStartRegion", "classMR_1_1SurfaceDistanceBuilder.html#a2d6c34cebbd8117d07b73bd3a514627d", null ],
     [ "addStartVertices", "classMR_1_1SurfaceDistanceBuilder.html#ac6c258764fe276b1cf23bbba8bffe0a2", null ],
     [ "done", "classMR_1_1SurfaceDistanceBuilder.html#ac10dab2b68dd9de618eeb1ce16471e23", null ],

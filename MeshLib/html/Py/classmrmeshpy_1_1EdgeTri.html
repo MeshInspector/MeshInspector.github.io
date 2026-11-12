@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,29 +133,45 @@ $(function(){initNavTree('classmrmeshpy_1_1EdgeTri.html','','classmrmeshpy_1_1Ed
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1EdgeTri-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.EdgeTri Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for mrmeshpy.EdgeTri:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmrmeshpy_1_1EdgeTri.png" usemap="#mrmeshpy_2EEdgeTri_map" alt=""/>
+  <map id="mrmeshpy_2EEdgeTri_map" name="mrmeshpy_2EEdgeTri_map">
+<area href="classmrmeshpy_1_1ConstEdgeTri.html" alt="mrmeshpy.ConstEdgeTri" shape="rect" coords="0,0,149,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a67dac3ebb636fc816e5aa332b1e62170" id="r_a67dac3ebb636fc816e5aa332b1e62170"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67dac3ebb636fc816e5aa332b1e62170">__eq__</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeTri.html">EdgeTri</a> b)</td></tr>
 <tr class="memitem:a45320cc09685c589b0bde5e1434b31c0" id="r_a45320cc09685c589b0bde5e1434b31c0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45320cc09685c589b0bde5e1434b31c0">__init__</a> (self)</td></tr>
-<tr class="memitem:a25bdd7982efe33dc3e3bd63fabf2c646" id="r_a25bdd7982efe33dc3e3bd63fabf2c646"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25bdd7982efe33dc3e3bd63fabf2c646">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> e, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> t)</td></tr>
-<tr class="memitem:ab163312d373ee65023bb5dfbbf8908fd" id="r_ab163312d373ee65023bb5dfbbf8908fd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab163312d373ee65023bb5dfbbf8908fd">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeTri.html">EdgeTri</a> arg0)</td></tr>
+<tr class="memitem:adbb23d81bbe15857272a61fa4ef543b4" id="r_adbb23d81bbe15857272a61fa4ef543b4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbb23d81bbe15857272a61fa4ef543b4">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstEdgeId.html">ConstEdgeId</a> e, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> t)</td></tr>
+<tr class="memitem:a6d58dc8bd7c8ad1e08a4689771fb7752" id="r_a6d58dc8bd7c8ad1e08a4689771fb7752"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d58dc8bd7c8ad1e08a4689771fb7752">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstEdgeTri.html">ConstEdgeTri</a> arg0)</td></tr>
+<tr class="memitem:a026f5d9dc33aa3d4fc3101c587fa7474" id="r_a026f5d9dc33aa3d4fc3101c587fa7474"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeTri.html">EdgeTri</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a026f5d9dc33aa3d4fc3101c587fa7474">assign</a> (self, <a class="el" href="classmrmeshpy_1_1ConstEdgeTri.html">ConstEdgeTri</a> other)</td></tr>
+<tr class="memitem:a1b405ee095a206e5de0f3febff4bbb7c" id="r_a1b405ee095a206e5de0f3febff4bbb7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b405ee095a206e5de0f3febff4bbb7c">edge</a> (self)</td></tr>
+<tr class="memitem:ab7faa40d95f6fe94a39a1064f3ad6ab4" id="r_ab7faa40d95f6fe94a39a1064f3ad6ab4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7faa40d95f6fe94a39a1064f3ad6ab4">edge</a> (self, <a class="el" href="classmrmeshpy_1_1ConstEdgeId.html">ConstEdgeId</a> arg1)</td></tr>
+<tr class="memitem:a26791ada41ceab62ab0027dbecf1b1e0" id="r_a26791ada41ceab62ab0027dbecf1b1e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26791ada41ceab62ab0027dbecf1b1e0">tri</a> (self)</td></tr>
+<tr class="memitem:a79515e8a42a7d99d69811def01a03742" id="r_a79515e8a42a7d99d69811def01a03742"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79515e8a42a7d99d69811def01a03742">tri</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a> arg1)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstEdgeTri"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstEdgeTri')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstEdgeTri.html">mrmeshpy.ConstEdgeTri</a></td></tr>
+<tr class="memitem:abc7c4748edb910b572f427d0243e793b inherit pub_methods_classmrmeshpy_1_1ConstEdgeTri" id="r_abc7c4748edb910b572f427d0243e793b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstEdgeTri.html#abc7c4748edb910b572f427d0243e793b">__eq__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstEdgeTri.html">ConstEdgeTri</a> b)</td></tr>
+<tr class="memitem:a5abe9c8c51f9d918ec96f083930e7c91 inherit pub_methods_classmrmeshpy_1_1ConstEdgeTri" id="r_a5abe9c8c51f9d918ec96f083930e7c91"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstEdgeTri.html#a5abe9c8c51f9d918ec96f083930e7c91">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:a8990c0e2569939726d812b21275da293 inherit pub_methods_classmrmeshpy_1_1ConstEdgeTri" id="r_a8990c0e2569939726d812b21275da293"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstEdgeTri.html#a8990c0e2569939726d812b21275da293">__ne__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstEdgeTri.html">ConstEdgeTri</a> b)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad30e73613bb6b27d851db4ac738a8a9a" id="r_ad30e73613bb6b27d851db4ac738a8a9a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad30e73613bb6b27d851db4ac738a8a9a">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a16256d1328f02af32371449c02c7a1e7" id="r_a16256d1328f02af32371449c02c7a1e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeTri.html">EdgeTri</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16256d1328f02af32371449c02c7a1e7">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a16256d1328f02af32371449c02c7a1e7" id="r_a16256d1328f02af32371449c02c7a1e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeTri.html">EdgeTri</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16256d1328f02af32371449c02c7a1e7">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:adaa8d1eb66918379e3be42fda367404c" id="r_adaa8d1eb66918379e3be42fda367404c"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaa8d1eb66918379e3be42fda367404c">_offsetof_edge</a> = 0</td></tr>
-<tr class="memitem:a849eb84d4408bfb791e57fda9a10e5c9" id="r_a849eb84d4408bfb791e57fda9a10e5c9"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a849eb84d4408bfb791e57fda9a10e5c9">_offsetof_tri</a> = 4</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_static_attribs_classmrmeshpy_1_1ConstEdgeTri"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classmrmeshpy_1_1ConstEdgeTri')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Attributes inherited from <a class="el" href="classmrmeshpy_1_1ConstEdgeTri.html">mrmeshpy.ConstEdgeTri</a></td></tr>
+<tr class="memitem:ace8160bfb0429dd8a7f089b22eb59436 inherit pro_static_attribs_classmrmeshpy_1_1ConstEdgeTri" id="r_ace8160bfb0429dd8a7f089b22eb59436"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstEdgeTri.html#ace8160bfb0429dd8a7f089b22eb59436">_offsetof_edge</a> = 0</td></tr>
+<tr class="memitem:a22596b5f9e457b02583d8980f651d31b inherit pro_static_attribs_classmrmeshpy_1_1ConstEdgeTri" id="r_a22596b5f9e457b02583d8980f651d31b"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstEdgeTri.html#a22596b5f9e457b02583d8980f651d31b">_offsetof_tri</a> = 4</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::EdgeTri
@@ -215,8 +224,8 @@ edge from one mesh and triangle from another mesh
 
 </div>
 </div>
-<a id="a25bdd7982efe33dc3e3bd63fabf2c646" name="a25bdd7982efe33dc3e3bd63fabf2c646"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25bdd7982efe33dc3e3bd63fabf2c646">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+<a id="adbb23d81bbe15857272a61fa4ef543b4" name="adbb23d81bbe15857272a61fa4ef543b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbb23d81bbe15857272a61fa4ef543b4">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229,20 +238,20 @@ edge from one mesh and triangle from another mesh
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstEdgeId.html">ConstEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ab163312d373ee65023bb5dfbbf8908fd" name="ab163312d373ee65023bb5dfbbf8908fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab163312d373ee65023bb5dfbbf8908fd">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
+<a id="a6d58dc8bd7c8ad1e08a4689771fb7752" name="a6d58dc8bd7c8ad1e08a4689771fb7752"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d58dc8bd7c8ad1e08a4689771fb7752">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -255,7 +264,7 @@ edge from one mesh and triangle from another mesh
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1EdgeTri.html">EdgeTri</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstEdgeTri.html">ConstEdgeTri</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -264,127 +273,108 @@ edge from one mesh and triangle from another mesh
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a67dac3ebb636fc816e5aa332b1e62170" name="a67dac3ebb636fc816e5aa332b1e62170"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67dac3ebb636fc816e5aa332b1e62170">&#9670;&#160;</a></span>__eq__()</h2>
+<a id="a026f5d9dc33aa3d4fc3101c587fa7474" name="a026f5d9dc33aa3d4fc3101c587fa7474"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a026f5d9dc33aa3d4fc3101c587fa7474">&#9670;&#160;</a></span>assign()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> bool mrmeshpy.EdgeTri.__eq__ </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeTri.html">EdgeTri</a> mrmeshpy.EdgeTri.assign </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1EdgeTri.html">EdgeTri</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstEdgeTri.html">ConstEdgeTri</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a16256d1328f02af32371449c02c7a1e7" name="a16256d1328f02af32371449c02c7a1e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16256d1328f02af32371449c02c7a1e7">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
+<a id="a1b405ee095a206e5de0f3febff4bbb7c" name="a1b405ee095a206e5de0f3febff4bbb7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b405ee095a206e5de0f3febff4bbb7c">&#9670;&#160;</a></span>edge() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeTri.html">EdgeTri</a> mrmeshpy.EdgeTri.operator </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> mrmeshpy.EdgeTri.edge </td>
           <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstEdgeTri.html#ad8edab95f1795d7a04c77db3afa71ef6">mrmeshpy.ConstEdgeTri</a>.</p>
+
+</div>
+</div>
+<a id="ab7faa40d95f6fe94a39a1064f3ad6ab4" name="ab7faa40d95f6fe94a39a1064f3ad6ab4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7faa40d95f6fe94a39a1064f3ad6ab4">&#9670;&#160;</a></span>edge() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.EdgeTri.edge </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstEdgeId.html">ConstEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstEdgeTri.html#ad8edab95f1795d7a04c77db3afa71ef6">mrmeshpy.ConstEdgeTri</a>.</p>
 
 </div>
 </div>
-<a id="a16256d1328f02af32371449c02c7a1e7" name="a16256d1328f02af32371449c02c7a1e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16256d1328f02af32371449c02c7a1e7">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
+<a id="a26791ada41ceab62ab0027dbecf1b1e0" name="a26791ada41ceab62ab0027dbecf1b1e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26791ada41ceab62ab0027dbecf1b1e0">&#9670;&#160;</a></span>tri() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeTri.html">EdgeTri</a> mrmeshpy.EdgeTri.operator </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> mrmeshpy.EdgeTri.tri </td>
           <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstEdgeTri.html#a49b086143fd3e31ec08d7b0745647e2f">mrmeshpy.ConstEdgeTri</a>.</p>
+
+</div>
+</div>
+<a id="a79515e8a42a7d99d69811def01a03742" name="a79515e8a42a7d99d69811def01a03742"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79515e8a42a7d99d69811def01a03742">&#9670;&#160;</a></span>tri() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.EdgeTri.tri </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="adaa8d1eb66918379e3be42fda367404c" name="adaa8d1eb66918379e3be42fda367404c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adaa8d1eb66918379e3be42fda367404c">&#9670;&#160;</a></span>_offsetof_edge</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.EdgeTri._offsetof_edge = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a849eb84d4408bfb791e57fda9a10e5c9" name="a849eb84d4408bfb791e57fda9a10e5c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a849eb84d4408bfb791e57fda9a10e5c9">&#9670;&#160;</a></span>_offsetof_tri</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.EdgeTri._offsetof_tri = 4</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstEdgeTri.html#a49b086143fd3e31ec08d7b0745647e2f">mrmeshpy.ConstEdgeTri</a>.</p>
 
 </div>
 </div>

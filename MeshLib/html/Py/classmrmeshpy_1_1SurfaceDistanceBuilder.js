@@ -1,13 +1,12 @@
 var classmrmeshpy_1_1SurfaceDistanceBuilder =
 [
-    [ "__init__", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#ae417ef8b41fe1c2574270cbea1646a2a", null ],
-    [ "__init__", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#ac77e229ecf2592b3bd0bdc0a30cd91dc", null ],
-    [ "__init__", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a7908c48c27aaea3d5eacd2f7220a7c87", null ],
-    [ "addStart", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a899ecce4a68cb83a247d44e4a0920bba", null ],
-    [ "addStartRegion", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a706065fc4de0683ac42ed595eca30cd0", null ],
-    [ "addStartVertices", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a91258a202e454588b189efb3aeb48881", null ],
-    [ "done", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a4be43df4f4a1263b879a7093232ef735", null ],
-    [ "doneDistance", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a118fd53e95258820d0c8e6998f32401a", null ],
+    [ "__init__", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#adcd4f838e34e12d021539e19a0c595d2", null ],
+    [ "__init__", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a9f780d6e17e3a0d66f91240a222b86a5", null ],
+    [ "__init__", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a38cb628586d6e3e75cdb05d0016eb03d", null ],
+    [ "addStart", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#adb8fc078cb01996eb9d5e55793ddf5ae", null ],
+    [ "addStartEdgesAndPoints", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a69a049d061264ec9fe9c0a0869fe32ef", null ],
+    [ "addStartRegion", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a876e55f1d867457f937a86b1de2c0e02", null ],
+    [ "addStartVertices", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a64428a655bc03738174596ca1f70c00b", null ],
     [ "growOne", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a2bb2a7e3dbffedf2935ab9b42fa502c4", null ],
     [ "setMaxVertUpdates", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a9d0b36ce3fa8d4bd286b19fcec392b8b", null ],
     [ "takeDistanceMap", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a5fb8aac644301a4d71835344c4403590", null ]

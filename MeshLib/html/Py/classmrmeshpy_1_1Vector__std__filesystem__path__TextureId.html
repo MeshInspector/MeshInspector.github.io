@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,71 +133,87 @@ $(function(){initNavTree('classmrmeshpy_1_1Vector__std__filesystem__path__Textur
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.Vector_std_filesystem_path_TextureId Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for mrmeshpy.Vector_std_filesystem_path_TextureId:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.png" usemap="#mrmeshpy_2EVector_5Fstd_5Ffilesystem_5Fpath_5FTextureId_map" alt=""/>
+  <map id="mrmeshpy_2EVector_5Fstd_5Ffilesystem_5Fpath_5FTextureId_map" name="mrmeshpy_2EVector_5Fstd_5Ffilesystem_5Fpath_5FTextureId_map">
+<area href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html" alt="mrmeshpy.ConstVector_std_filesystem_path_TextureId" shape="rect" coords="0,0,318,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae62277285df162ea7678e3f89e31590c" id="r_ae62277285df162ea7678e3f89e31590c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae62277285df162ea7678e3f89e31590c">__eq__</a> (self, <a class="el" href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html">Vector_std_filesystem_path_TextureId</a> b)</td></tr>
-<tr class="memitem:a96a9ae7fff26c1811f304c0ceae76975" id="r_a96a9ae7fff26c1811f304c0ceae76975"><td class="memItemLeft" align="right" valign="top">pathlib.Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96a9ae7fff26c1811f304c0ceae76975">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a> i)</td></tr>
-<tr class="memitem:a96a9ae7fff26c1811f304c0ceae76975" id="r_a96a9ae7fff26c1811f304c0ceae76975"><td class="memItemLeft" align="right" valign="top">pathlib.Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96a9ae7fff26c1811f304c0ceae76975">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a> i)</td></tr>
+<tr class="memitem:a676ba7bd6804efc558a4e41c186aa6b1" id="r_a676ba7bd6804efc558a4e41c186aa6b1"><td class="memItemLeft" align="right" valign="top">pathlib.Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a676ba7bd6804efc558a4e41c186aa6b1">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstTextureId.html">ConstTextureId</a> i)</td></tr>
+<tr class="memitem:aec2e42b7825c53646a0c7f9477ddd9c1" id="r_aec2e42b7825c53646a0c7f9477ddd9c1"><td class="memItemLeft" align="right" valign="top">pathlib.Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec2e42b7825c53646a0c7f9477ddd9c1">__getitem__</a> (<a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a> self, <a class="el" href="classmrmeshpy_1_1ConstTextureId.html">ConstTextureId</a> i)</td></tr>
 <tr class="memitem:a39dffe501cb9c1f12e6d269c56da1454" id="r_a39dffe501cb9c1f12e6d269c56da1454"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39dffe501cb9c1f12e6d269c56da1454">__init__</a> (self)</td></tr>
-<tr class="memitem:a0a374724ce5794029693fc366a5bdf22" id="r_a0a374724ce5794029693fc366a5bdf22"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a374724ce5794029693fc366a5bdf22">__init__</a> (self, int <a class="el" href="#a406eb0a083ba1e7b89dd0bb954e84c38">size</a>)</td></tr>
-<tr class="memitem:a4abe31a9b966ada0219b9f0b169e6ed3" id="r_a4abe31a9b966ada0219b9f0b169e6ed3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4abe31a9b966ada0219b9f0b169e6ed3">__init__</a> (self, int <a class="el" href="#a406eb0a083ba1e7b89dd0bb954e84c38">size</a>, os.PathLike|str|bytes val)</td></tr>
-<tr class="memitem:a24a5ce7548dd09bef2609324327f94a4" id="r_a24a5ce7548dd09bef2609324327f94a4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24a5ce7548dd09bef2609324327f94a4">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__std__filesystem__path.html">std_vector_std_filesystem_path</a> vec)</td></tr>
-<tr class="memitem:a91789358846daeecf963381f75b16a45" id="r_a91789358846daeecf963381f75b16a45"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91789358846daeecf963381f75b16a45">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html">Vector_std_filesystem_path_TextureId</a> arg0)</td></tr>
-<tr class="memitem:af906a84b6cd8a768e8a54e78b4bd7518" id="r_af906a84b6cd8a768e8a54e78b4bd7518"><td class="memItemLeft" align="right" valign="top">typing.Iterator[pathlib.Path]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af906a84b6cd8a768e8a54e78b4bd7518">__iter__</a> (self)</td></tr>
-<tr class="memitem:aed373261ba70383020de1aac1d9e173f" id="r_aed373261ba70383020de1aac1d9e173f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed373261ba70383020de1aac1d9e173f">__ne__</a> (self, <a class="el" href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html">Vector_std_filesystem_path_TextureId</a> b)</td></tr>
-<tr class="memitem:a7794c1808919fccd42c77d7e96184d60" id="r_a7794c1808919fccd42c77d7e96184d60"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7794c1808919fccd42c77d7e96184d60">__setitem__</a> (self, <a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a> arg0, os.PathLike|str|bytes arg1)</td></tr>
-<tr class="memitem:a6fa5c99aa847683151c856d326e18e43" id="r_a6fa5c99aa847683151c856d326e18e43"><td class="memItemLeft" align="right" valign="top">pathlib.Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fa5c99aa847683151c856d326e18e43">autoResizeAt</a> (self, <a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a> i)</td></tr>
-<tr class="memitem:a4b5f9355323265f6e144f06c33e55b29" id="r_a4b5f9355323265f6e144f06c33e55b29"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b5f9355323265f6e144f06c33e55b29">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a> pos, int len, os.PathLike|str|bytes val)</td></tr>
-<tr class="memitem:a1d1183c983bdd92944c625683894864e" id="r_a1d1183c983bdd92944c625683894864e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d1183c983bdd92944c625683894864e">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a> i, os.PathLike|str|bytes val)</td></tr>
+<tr class="memitem:a0a374724ce5794029693fc366a5bdf22" id="r_a0a374724ce5794029693fc366a5bdf22"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a374724ce5794029693fc366a5bdf22">__init__</a> (self, int <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#a0b54ce350152f5d591a0393b3c0c5a9d">size</a>)</td></tr>
+<tr class="memitem:a4abe31a9b966ada0219b9f0b169e6ed3" id="r_a4abe31a9b966ada0219b9f0b169e6ed3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4abe31a9b966ada0219b9f0b169e6ed3">__init__</a> (self, int <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#a0b54ce350152f5d591a0393b3c0c5a9d">size</a>, os.PathLike|str|bytes val)</td></tr>
+<tr class="memitem:aa4032d1abc407f6765b45d588719badb" id="r_aa4032d1abc407f6765b45d588719badb"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4032d1abc407f6765b45d588719badb">__init__</a> (self, list arg0)</td></tr>
+<tr class="memitem:aa097acdc50915adfabb6a218c88855ba" id="r_aa097acdc50915adfabb6a218c88855ba"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa097acdc50915adfabb6a218c88855ba">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a> arg0)</td></tr>
+<tr class="memitem:aa10493bfd7eb3f42e85dd88268c51075" id="r_aa10493bfd7eb3f42e85dd88268c51075"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa10493bfd7eb3f42e85dd88268c51075">__setitem__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstTextureId.html">ConstTextureId</a> arg0, os.PathLike|str|bytes arg1)</td></tr>
+<tr class="memitem:a41d23ca22c64dada85ac7f32e199fcdb" id="r_a41d23ca22c64dada85ac7f32e199fcdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html">Vector_std_filesystem_path_TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41d23ca22c64dada85ac7f32e199fcdb">assign</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a> other)</td></tr>
+<tr class="memitem:a9a780ce25348f81466f5d3e02e44c8cd" id="r_a9a780ce25348f81466f5d3e02e44c8cd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a780ce25348f81466f5d3e02e44c8cd">assign</a> (self, int count, os.PathLike|str|bytes val)</td></tr>
+<tr class="memitem:aaf5efe9d687b175b7b80a742a4818817" id="r_aaf5efe9d687b175b7b80a742a4818817"><td class="memItemLeft" align="right" valign="top">pathlib.Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf5efe9d687b175b7b80a742a4818817">autoResizeAt</a> (self, <a class="el" href="classmrmeshpy_1_1ConstTextureId.html">ConstTextureId</a> i)</td></tr>
+<tr class="memitem:a293aa6df6abb7ac83ad0fa7733fcab6d" id="r_a293aa6df6abb7ac83ad0fa7733fcab6d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a293aa6df6abb7ac83ad0fa7733fcab6d">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1ConstTextureId.html">ConstTextureId</a> pos, int len, os.PathLike|str|bytes val)</td></tr>
+<tr class="memitem:a4ff7560120da8a5052ce2c9807900b10" id="r_a4ff7560120da8a5052ce2c9807900b10"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ff7560120da8a5052ce2c9807900b10">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1ConstTextureId.html">ConstTextureId</a> i, os.PathLike|str|bytes val)</td></tr>
 <tr class="memitem:a73a1af4cad26035a244bb48bdd2e1734" id="r_a73a1af4cad26035a244bb48bdd2e1734"><td class="memItemLeft" align="right" valign="top">pathlib.Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73a1af4cad26035a244bb48bdd2e1734">back</a> (self)</td></tr>
-<tr class="memitem:a73a1af4cad26035a244bb48bdd2e1734" id="r_a73a1af4cad26035a244bb48bdd2e1734"><td class="memItemLeft" align="right" valign="top">pathlib.Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73a1af4cad26035a244bb48bdd2e1734">back</a> (self)</td></tr>
-<tr class="memitem:afcaf2a1c3108977a5f8eab2ddfe092ff" id="r_afcaf2a1c3108977a5f8eab2ddfe092ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcaf2a1c3108977a5f8eab2ddfe092ff">backId</a> (self)</td></tr>
-<tr class="memitem:af08ad595f12e4b42de009d2ca69f0254" id="r_af08ad595f12e4b42de009d2ca69f0254"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af08ad595f12e4b42de009d2ca69f0254">beginId</a> (self)</td></tr>
-<tr class="memitem:abd9dbce8018d98eb5235ef801362f310" id="r_abd9dbce8018d98eb5235ef801362f310"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd9dbce8018d98eb5235ef801362f310">capacity</a> (self)</td></tr>
+<tr class="memitem:a79b9c6f6565f286a7e953148648e4778" id="r_a79b9c6f6565f286a7e953148648e4778"><td class="memItemLeft" align="right" valign="top">pathlib.Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79b9c6f6565f286a7e953148648e4778">back</a> (<a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a> self)</td></tr>
 <tr class="memitem:a91e4caa168aa172ac0b51b729b108cb3" id="r_a91e4caa168aa172ac0b51b729b108cb3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91e4caa168aa172ac0b51b729b108cb3">clear</a> (self)</td></tr>
 <tr class="memitem:a6f7f293ed015e1fc08f932c6ee249e61" id="r_a6f7f293ed015e1fc08f932c6ee249e61"><td class="memItemLeft" align="right" valign="top">pathlib.Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f7f293ed015e1fc08f932c6ee249e61">data</a> (self)</td></tr>
-<tr class="memitem:a6f7f293ed015e1fc08f932c6ee249e61" id="r_a6f7f293ed015e1fc08f932c6ee249e61"><td class="memItemLeft" align="right" valign="top">pathlib.Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f7f293ed015e1fc08f932c6ee249e61">data</a> (self)</td></tr>
-<tr class="memitem:ab3b4eb3ed41f0bce738d8d9b7c47896d" id="r_ab3b4eb3ed41f0bce738d8d9b7c47896d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3b4eb3ed41f0bce738d8d9b7c47896d">empty</a> (self)</td></tr>
-<tr class="memitem:a0593a9e7352463b9f6d2d14b84dec717" id="r_a0593a9e7352463b9f6d2d14b84dec717"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0593a9e7352463b9f6d2d14b84dec717">endId</a> (self)</td></tr>
+<tr class="memitem:a6480899fbb93e136a327834b0bb03039" id="r_a6480899fbb93e136a327834b0bb03039"><td class="memItemLeft" align="right" valign="top">pathlib.Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6480899fbb93e136a327834b0bb03039">data</a> (<a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a> self)</td></tr>
 <tr class="memitem:af40dab31690f4d2869f9cc39cf571477" id="r_af40dab31690f4d2869f9cc39cf571477"><td class="memItemLeft" align="right" valign="top">pathlib.Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af40dab31690f4d2869f9cc39cf571477">front</a> (self)</td></tr>
-<tr class="memitem:af40dab31690f4d2869f9cc39cf571477" id="r_af40dab31690f4d2869f9cc39cf571477"><td class="memItemLeft" align="right" valign="top">pathlib.Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af40dab31690f4d2869f9cc39cf571477">front</a> (self)</td></tr>
-<tr class="memitem:a1b13a774e90ab8bd29011e8cd8a93756" id="r_a1b13a774e90ab8bd29011e8cd8a93756"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b13a774e90ab8bd29011e8cd8a93756">heapBytes</a> (self)</td></tr>
+<tr class="memitem:a270a1dae3f1d995284fc13eff91bee21" id="r_a270a1dae3f1d995284fc13eff91bee21"><td class="memItemLeft" align="right" valign="top">pathlib.Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a270a1dae3f1d995284fc13eff91bee21">front</a> (<a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a> self)</td></tr>
 <tr class="memitem:a4fa8e56bf4260f227fcbe2870565cbdf" id="r_a4fa8e56bf4260f227fcbe2870565cbdf"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fa8e56bf4260f227fcbe2870565cbdf">pop_back</a> (self)</td></tr>
 <tr class="memitem:a2791e814331cb670e7cd04edab836823" id="r_a2791e814331cb670e7cd04edab836823"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2791e814331cb670e7cd04edab836823">push_back</a> (self, os.PathLike|str|bytes t)</td></tr>
 <tr class="memitem:a2791e814331cb670e7cd04edab836823" id="r_a2791e814331cb670e7cd04edab836823"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2791e814331cb670e7cd04edab836823">push_back</a> (self, os.PathLike|str|bytes t)</td></tr>
-<tr class="memitem:a5eeaf4dc153b67f2c81c35b69e0968af" id="r_a5eeaf4dc153b67f2c81c35b69e0968af"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5eeaf4dc153b67f2c81c35b69e0968af">reserve</a> (self, int <a class="el" href="#abd9dbce8018d98eb5235ef801362f310">capacity</a>)</td></tr>
+<tr class="memitem:a5eeaf4dc153b67f2c81c35b69e0968af" id="r_a5eeaf4dc153b67f2c81c35b69e0968af"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5eeaf4dc153b67f2c81c35b69e0968af">reserve</a> (self, int <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#a2930b36fbaf715421413995c8a91925d">capacity</a>)</td></tr>
 <tr class="memitem:a91680e29318a9febbd0e13a73950ddd8" id="r_a91680e29318a9febbd0e13a73950ddd8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91680e29318a9febbd0e13a73950ddd8">resize</a> (self, int newSize)</td></tr>
 <tr class="memitem:af0ef5b2663c5b60027cf2112c3c1c3e9" id="r_af0ef5b2663c5b60027cf2112c3c1c3e9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0ef5b2663c5b60027cf2112c3c1c3e9">resize</a> (self, int newSize, os.PathLike|str|bytes t)</td></tr>
 <tr class="memitem:a777f7d23ad18d24265c2bab7fcdcf861" id="r_a777f7d23ad18d24265c2bab7fcdcf861"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a777f7d23ad18d24265c2bab7fcdcf861">resizeWithReserve</a> (self, int newSize)</td></tr>
 <tr class="memitem:a180b87ce5589283cf889a5bbd727ee99" id="r_a180b87ce5589283cf889a5bbd727ee99"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a180b87ce5589283cf889a5bbd727ee99">resizeWithReserve</a> (self, int newSize, os.PathLike|str|bytes value)</td></tr>
-<tr class="memitem:a406eb0a083ba1e7b89dd0bb954e84c38" id="r_a406eb0a083ba1e7b89dd0bb954e84c38"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a406eb0a083ba1e7b89dd0bb954e84c38">size</a> (self)</td></tr>
+<tr class="memitem:adeec73523df642f92c063f945c8a7f68" id="r_adeec73523df642f92c063f945c8a7f68"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adeec73523df642f92c063f945c8a7f68">shrink_to_fit</a> (self)</td></tr>
 <tr class="memitem:a437931c3ff329920c14eecd39e58687e" id="r_a437931c3ff329920c14eecd39e58687e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a437931c3ff329920c14eecd39e58687e">swap</a> (self, <a class="el" href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html">Vector_std_filesystem_path_TextureId</a> b)</td></tr>
-<tr class="memitem:a34643a1ea62c14625e9ee634ef66ad69" id="r_a34643a1ea62c14625e9ee634ef66ad69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__std__filesystem__path.html">std_vector_std_filesystem_path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34643a1ea62c14625e9ee634ef66ad69">vec_</a> (self)</td></tr>
-<tr class="memitem:afbb7223446970318ce2bc056aad2e5c1" id="r_afbb7223446970318ce2bc056aad2e5c1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbb7223446970318ce2bc056aad2e5c1">vec_</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__std__filesystem__path.html">std_vector_std_filesystem_path</a> arg1)</td></tr>
+<tr class="memitem:a6aab7e0387cd5cc135ec07fc537bed84" id="r_a6aab7e0387cd5cc135ec07fc537bed84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__std__filesystem__path__Allocator__std__filesystem__path.html">std_vector_std_filesystem_path_Allocator_std_filesystem_path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aab7e0387cd5cc135ec07fc537bed84">vec</a> (self)</td></tr>
+<tr class="memitem:a4d2547389abc441272c03b6b0b9c6ed6" id="r_a4d2547389abc441272c03b6b0b9c6ed6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d2547389abc441272c03b6b0b9c6ed6">vec</a> (self, <a class="el" href="classmrmeshpy_1_1Const__std__vector__std__filesystem__path__Allocator__std__filesystem__path.html">Const_std_vector_std_filesystem_path_Allocator_std_filesystem_path</a> arg1)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">mrmeshpy.ConstVector_std_filesystem_path_TextureId</a></td></tr>
+<tr class="memitem:a4350f41c3eae3b19b223fa90d06eb417 inherit pub_methods_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId" id="r_a4350f41c3eae3b19b223fa90d06eb417"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#a4350f41c3eae3b19b223fa90d06eb417">__eq__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a> b)</td></tr>
+<tr class="memitem:a97e2a9741c51de9b534268d1fe7dd7c6 inherit pub_methods_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId" id="r_a97e2a9741c51de9b534268d1fe7dd7c6"><td class="memItemLeft" align="right" valign="top">pathlib.Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#a97e2a9741c51de9b534268d1fe7dd7c6">__getitem__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstTextureId.html">ConstTextureId</a> i)</td></tr>
+<tr class="memitem:aac3f203d9147d83f349394a00ad321c5 inherit pub_methods_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId" id="r_aac3f203d9147d83f349394a00ad321c5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#aac3f203d9147d83f349394a00ad321c5">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:adddd747b3314241129fda3189288796e inherit pub_methods_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId" id="r_adddd747b3314241129fda3189288796e"><td class="memItemLeft" align="right" valign="top">typing.Iterator[pathlib.Path]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#adddd747b3314241129fda3189288796e">__iter__</a> (self)</td></tr>
+<tr class="memitem:ad9c769e366e2de64e09fd895bbf4aa0c inherit pub_methods_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId" id="r_ad9c769e366e2de64e09fd895bbf4aa0c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#ad9c769e366e2de64e09fd895bbf4aa0c">__len__</a> (self)</td></tr>
+<tr class="memitem:a6fad592aa4bf0ef70ee3c6154ba5e767 inherit pub_methods_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId" id="r_a6fad592aa4bf0ef70ee3c6154ba5e767"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#a6fad592aa4bf0ef70ee3c6154ba5e767">__ne__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a> b)</td></tr>
+<tr class="memitem:a874ff3471d87683c84799d6ae348f613 inherit pub_methods_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId" id="r_a874ff3471d87683c84799d6ae348f613"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#a874ff3471d87683c84799d6ae348f613">backId</a> (self)</td></tr>
+<tr class="memitem:ae78b22f414b08350c3ef06dd5821622d inherit pub_methods_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId" id="r_ae78b22f414b08350c3ef06dd5821622d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#ae78b22f414b08350c3ef06dd5821622d">beginId</a> (self)</td></tr>
+<tr class="memitem:a2930b36fbaf715421413995c8a91925d inherit pub_methods_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId" id="r_a2930b36fbaf715421413995c8a91925d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#a2930b36fbaf715421413995c8a91925d">capacity</a> (self)</td></tr>
+<tr class="memitem:a574b983ec5aa871eea367fb4a2d6e60f inherit pub_methods_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId" id="r_a574b983ec5aa871eea367fb4a2d6e60f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#a574b983ec5aa871eea367fb4a2d6e60f">empty</a> (self)</td></tr>
+<tr class="memitem:ad9357f3b18351769a6abdfdbf417a882 inherit pub_methods_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId" id="r_ad9357f3b18351769a6abdfdbf417a882"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#ad9357f3b18351769a6abdfdbf417a882">endId</a> (self)</td></tr>
+<tr class="memitem:a5a52fd16f840f7580de07ad370e1e50f inherit pub_methods_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId" id="r_a5a52fd16f840f7580de07ad370e1e50f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#a5a52fd16f840f7580de07ad370e1e50f">heapBytes</a> (self)</td></tr>
+<tr class="memitem:aa0b7d171a6f0d6f700479f5e1c0b65e7 inherit pub_methods_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId" id="r_aa0b7d171a6f0d6f700479f5e1c0b65e7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#aa0b7d171a6f0d6f700479f5e1c0b65e7">max_size</a> (self)</td></tr>
+<tr class="memitem:a0b54ce350152f5d591a0393b3c0c5a9d inherit pub_methods_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId" id="r_a0b54ce350152f5d591a0393b3c0c5a9d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#a0b54ce350152f5d591a0393b3c0c5a9d">size</a> (self)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad9e6268b826fe8c90e517ca51997b354" id="r_ad9e6268b826fe8c90e517ca51997b354"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9e6268b826fe8c90e517ca51997b354">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a7ed1ae1ad5ec10d60659d788500bc273" id="r_a7ed1ae1ad5ec10d60659d788500bc273"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html">Vector_std_filesystem_path_TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ed1ae1ad5ec10d60659d788500bc273">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a7ed1ae1ad5ec10d60659d788500bc273" id="r_a7ed1ae1ad5ec10d60659d788500bc273"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html">Vector_std_filesystem_path_TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ed1ae1ad5ec10d60659d788500bc273">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a5c249452023a7ca1c28267371d42d4e7" id="r_a5c249452023a7ca1c28267371d42d4e7"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c249452023a7ca1c28267371d42d4e7">_offsetof_vec_</a> = 0</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_attribs_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Attributes inherited from <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">mrmeshpy.ConstVector_std_filesystem_path_TextureId</a></td></tr>
+<tr class="memitem:abb5aacdcb4db4f4fc187aedee8aed2a5 inherit pub_static_attribs_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId" id="r_abb5aacdcb4db4f4fc187aedee8aed2a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#abb5aacdcb4db4f4fc187aedee8aed2a5">ConstStdVector</a> = <a class="el" href="classmrmeshpy_1_1Const__std__vector__std__filesystem__path__Allocator__std__filesystem__path.html">Const_std_vector_std_filesystem_path_Allocator_std_filesystem_path</a></td></tr>
+<tr class="memitem:a031ace33bc421c3a0fb421f7d61eb2c5 inherit pub_static_attribs_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId" id="r_a031ace33bc421c3a0fb421f7d61eb2c5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#a031ace33bc421c3a0fb421f7d61eb2c5">StdVector</a> = <a class="el" href="classmrmeshpy_1_1std__vector__std__filesystem__path__Allocator__std__filesystem__path.html">std_vector_std_filesystem_path_Allocator_std_filesystem_path</a></td></tr>
+<tr class="inherit_header pro_static_attribs_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Attributes inherited from <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">mrmeshpy.ConstVector_std_filesystem_path_TextureId</a></td></tr>
+<tr class="memitem:af47bdcf3846e7edeacac41f7274c5167 inherit pro_static_attribs_classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId" id="r_af47bdcf3846e7edeacac41f7274c5167"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#af47bdcf3846e7edeacac41f7274c5167">_offsetof_vec</a> = 0</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::Vector&lt;std::filesystem::path, MR::TextureId&gt;
 
-
- \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
- \\tparam T type of stored elements
- \\tparam I type of index (shall be convertible to size_t)
+Vector&lt;T&gt; is indexed by size_t
 </pre> </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad9e6268b826fe8c90e517ca51997b354" name="ad9e6268b826fe8c90e517ca51997b354"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad9e6268b826fe8c90e517ca51997b354">&#9670;&#160;</a></span>__init__() <span class="overload">[1/6]</span></h2>
@@ -302,8 +311,8 @@ Static Protected Attributes</h2></td></tr>
 </pre> 
 </div>
 </div>
-<a id="a24a5ce7548dd09bef2609324327f94a4" name="a24a5ce7548dd09bef2609324327f94a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24a5ce7548dd09bef2609324327f94a4">&#9670;&#160;</a></span>__init__() <span class="overload">[5/6]</span></h2>
+<a id="aa4032d1abc407f6765b45d588719badb" name="aa4032d1abc407f6765b45d588719badb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4032d1abc407f6765b45d588719badb">&#9670;&#160;</a></span>__init__() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -316,16 +325,15 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__std__filesystem__path.html">std_vector_std_filesystem_path</a></td>          <td class="paramname"><span class="paramname"><em>vec</em></span>&#160;)</td>
+          <td class="paramtype">list</td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">moves data from the given std::vector&lt;T&gt;
-</pre> 
+
 </div>
 </div>
-<a id="a91789358846daeecf963381f75b16a45" name="a91789358846daeecf963381f75b16a45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91789358846daeecf963381f75b16a45">&#9670;&#160;</a></span>__init__() <span class="overload">[6/6]</span></h2>
+<a id="aa097acdc50915adfabb6a218c88855ba" name="aa097acdc50915adfabb6a218c88855ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa097acdc50915adfabb6a218c88855ba">&#9670;&#160;</a></span>__init__() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -338,7 +346,7 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html">Vector_std_filesystem_path_TextureId</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -347,29 +355,29 @@ Static Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="ae62277285df162ea7678e3f89e31590c" name="ae62277285df162ea7678e3f89e31590c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae62277285df162ea7678e3f89e31590c">&#9670;&#160;</a></span>__eq__()</h2>
+<a id="aec2e42b7825c53646a0c7f9477ddd9c1" name="aec2e42b7825c53646a0c7f9477ddd9c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec2e42b7825c53646a0c7f9477ddd9c1">&#9670;&#160;</a></span>__getitem__() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> bool mrmeshpy.Vector_std_filesystem_path_TextureId.__eq__ </td>
+          <td class="memname"> pathlib.Path mrmeshpy.Vector_std_filesystem_path_TextureId.__getitem__ </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html">Vector_std_filesystem_path_TextureId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstTextureId.html">ConstTextureId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a96a9ae7fff26c1811f304c0ceae76975" name="a96a9ae7fff26c1811f304c0ceae76975"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96a9ae7fff26c1811f304c0ceae76975">&#9670;&#160;</a></span>__getitem__() <span class="overload">[1/2]</span></h2>
+<a id="a676ba7bd6804efc558a4e41c186aa6b1" name="a676ba7bd6804efc558a4e41c186aa6b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a676ba7bd6804efc558a4e41c186aa6b1">&#9670;&#160;</a></span>__getitem__() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -382,74 +390,15 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstTextureId.html">ConstTextureId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a96a9ae7fff26c1811f304c0ceae76975" name="a96a9ae7fff26c1811f304c0ceae76975"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96a9ae7fff26c1811f304c0ceae76975">&#9670;&#160;</a></span>__getitem__() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> pathlib.Path mrmeshpy.Vector_std_filesystem_path_TextureId.__getitem__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af906a84b6cd8a768e8a54e78b4bd7518" name="af906a84b6cd8a768e8a54e78b4bd7518"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af906a84b6cd8a768e8a54e78b4bd7518">&#9670;&#160;</a></span>__iter__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> typing.Iterator[pathlib.Path] mrmeshpy.Vector_std_filesystem_path_TextureId.__iter__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aed373261ba70383020de1aac1d9e173f" name="aed373261ba70383020de1aac1d9e173f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed373261ba70383020de1aac1d9e173f">&#9670;&#160;</a></span>__ne__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.Vector_std_filesystem_path_TextureId.__ne__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html">Vector_std_filesystem_path_TextureId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7794c1808919fccd42c77d7e96184d60" name="a7794c1808919fccd42c77d7e96184d60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7794c1808919fccd42c77d7e96184d60">&#9670;&#160;</a></span>__setitem__()</h2>
+<a id="aa10493bfd7eb3f42e85dd88268c51075" name="aa10493bfd7eb3f42e85dd88268c51075"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa10493bfd7eb3f42e85dd88268c51075">&#9670;&#160;</a></span>__setitem__()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -462,7 +411,7 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstTextureId.html">ConstTextureId</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -474,8 +423,56 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6fa5c99aa847683151c856d326e18e43" name="a6fa5c99aa847683151c856d326e18e43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fa5c99aa847683151c856d326e18e43">&#9670;&#160;</a></span>autoResizeAt()</h2>
+<a id="a41d23ca22c64dada85ac7f32e199fcdb" name="a41d23ca22c64dada85ac7f32e199fcdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41d23ca22c64dada85ac7f32e199fcdb">&#9670;&#160;</a></span>assign() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html">Vector_std_filesystem_path_TextureId</a> mrmeshpy.Vector_std_filesystem_path_TextureId.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a780ce25348f81466f5d3e02e44c8cd" name="a9a780ce25348f81466f5d3e02e44c8cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a780ce25348f81466f5d3e02e44c8cd">&#9670;&#160;</a></span>assign() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Vector_std_filesystem_path_TextureId.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>count</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">os.PathLike | str | bytes</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">replaces the contents with \\p count copies of \\p val
+</pre> 
+</div>
+</div>
+<a id="aaf5efe9d687b175b7b80a742a4818817" name="aaf5efe9d687b175b7b80a742a4818817"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf5efe9d687b175b7b80a742a4818817">&#9670;&#160;</a></span>autoResizeAt()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -488,7 +485,7 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstTextureId.html">ConstTextureId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -496,8 +493,8 @@ Static Protected Attributes</h2></td></tr>
 </pre> 
 </div>
 </div>
-<a id="a1d1183c983bdd92944c625683894864e" name="a1d1183c983bdd92944c625683894864e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d1183c983bdd92944c625683894864e">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
+<a id="a4ff7560120da8a5052ce2c9807900b10" name="a4ff7560120da8a5052ce2c9807900b10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ff7560120da8a5052ce2c9807900b10">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -510,7 +507,7 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstTextureId.html">ConstTextureId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -519,12 +516,12 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">sets the element #i to the given value, adjusting the size of the vector to include new element
+<pre class="fragment">sets the element i to the given value, adjusting the size of the vector to include new element
 </pre> 
 </div>
 </div>
-<a id="a4b5f9355323265f6e144f06c33e55b29" name="a4b5f9355323265f6e144f06c33e55b29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b5f9355323265f6e144f06c33e55b29">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
+<a id="a293aa6df6abb7ac83ad0fa7733fcab6d" name="a293aa6df6abb7ac83ad0fa7733fcab6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a293aa6df6abb7ac83ad0fa7733fcab6d">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -537,7 +534,7 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstTextureId.html">ConstTextureId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -556,8 +553,8 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
 </pre> 
 </div>
 </div>
-<a id="a73a1af4cad26035a244bb48bdd2e1734" name="a73a1af4cad26035a244bb48bdd2e1734"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73a1af4cad26035a244bb48bdd2e1734">&#9670;&#160;</a></span>back() <span class="overload">[1/2]</span></h2>
+<a id="a79b9c6f6565f286a7e953148648e4778" name="a79b9c6f6565f286a7e953148648e4778"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79b9c6f6565f286a7e953148648e4778">&#9670;&#160;</a></span>back() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -565,11 +562,13 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <tr>
           <td class="memname"> pathlib.Path mrmeshpy.Vector_std_filesystem_path_TextureId.back </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#a549be2dc563f66e87671276029b43a17">mrmeshpy.ConstVector_std_filesystem_path_TextureId</a>.</p>
 
 </div>
 </div>
@@ -588,58 +587,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="afcaf2a1c3108977a5f8eab2ddfe092ff" name="afcaf2a1c3108977a5f8eab2ddfe092ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcaf2a1c3108977a5f8eab2ddfe092ff">&#9670;&#160;</a></span>backId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a> mrmeshpy.Vector_std_filesystem_path_TextureId.backId </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns the identifier of the back() element
-</pre> 
-</div>
-</div>
-<a id="af08ad595f12e4b42de009d2ca69f0254" name="af08ad595f12e4b42de009d2ca69f0254"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af08ad595f12e4b42de009d2ca69f0254">&#9670;&#160;</a></span>beginId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a> mrmeshpy.Vector_std_filesystem_path_TextureId.beginId </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns the identifier of the first element
-</pre> 
-</div>
-</div>
-<a id="abd9dbce8018d98eb5235ef801362f310" name="abd9dbce8018d98eb5235ef801362f310"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd9dbce8018d98eb5235ef801362f310">&#9670;&#160;</a></span>capacity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int mrmeshpy.Vector_std_filesystem_path_TextureId.capacity </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#a549be2dc563f66e87671276029b43a17">mrmeshpy.ConstVector_std_filesystem_path_TextureId</a>.</p>
 
 </div>
 </div>
@@ -660,8 +608,8 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
 
 </div>
 </div>
-<a id="a6f7f293ed015e1fc08f932c6ee249e61" name="a6f7f293ed015e1fc08f932c6ee249e61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f7f293ed015e1fc08f932c6ee249e61">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
+<a id="a6480899fbb93e136a327834b0bb03039" name="a6480899fbb93e136a327834b0bb03039"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6480899fbb93e136a327834b0bb03039">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -669,11 +617,13 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <tr>
           <td class="memname"> pathlib.Path mrmeshpy.Vector_std_filesystem_path_TextureId.data </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#ae2bfd292764f9551f0573dd3bca82928">mrmeshpy.ConstVector_std_filesystem_path_TextureId</a>.</p>
 
 </div>
 </div>
@@ -692,45 +642,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="ab3b4eb3ed41f0bce738d8d9b7c47896d" name="ab3b4eb3ed41f0bce738d8d9b7c47896d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3b4eb3ed41f0bce738d8d9b7c47896d">&#9670;&#160;</a></span>empty()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.Vector_std_filesystem_path_TextureId.empty </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#ae2bfd292764f9551f0573dd3bca82928">mrmeshpy.ConstVector_std_filesystem_path_TextureId</a>.</p>
 
 </div>
 </div>
-<a id="a0593a9e7352463b9f6d2d14b84dec717" name="a0593a9e7352463b9f6d2d14b84dec717"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0593a9e7352463b9f6d2d14b84dec717">&#9670;&#160;</a></span>endId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1TextureId.html">TextureId</a> mrmeshpy.Vector_std_filesystem_path_TextureId.endId </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns backId() + 1
-</pre> 
-</div>
-</div>
-<a id="af40dab31690f4d2869f9cc39cf571477" name="af40dab31690f4d2869f9cc39cf571477"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af40dab31690f4d2869f9cc39cf571477">&#9670;&#160;</a></span>front() <span class="overload">[1/2]</span></h2>
+<a id="a270a1dae3f1d995284fc13eff91bee21" name="a270a1dae3f1d995284fc13eff91bee21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a270a1dae3f1d995284fc13eff91bee21">&#9670;&#160;</a></span>front() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -738,11 +655,13 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <tr>
           <td class="memname"> pathlib.Path mrmeshpy.Vector_std_filesystem_path_TextureId.front </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#a26b722ed4e0b6448e4b82c626eb337e7">mrmeshpy.ConstVector_std_filesystem_path_TextureId</a>.</p>
 
 </div>
 </div>
@@ -761,81 +680,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a1b13a774e90ab8bd29011e8cd8a93756" name="a1b13a774e90ab8bd29011e8cd8a93756"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b13a774e90ab8bd29011e8cd8a93756">&#9670;&#160;</a></span>heapBytes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int mrmeshpy.Vector_std_filesystem_path_TextureId.heapBytes </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns the amount of memory this object occupies on heap
-</pre> 
-</div>
-</div>
-<a id="a7ed1ae1ad5ec10d60659d788500bc273" name="a7ed1ae1ad5ec10d60659d788500bc273"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ed1ae1ad5ec10d60659d788500bc273">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html">Vector_std_filesystem_path_TextureId</a> mrmeshpy.Vector_std_filesystem_path_TextureId.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7ed1ae1ad5ec10d60659d788500bc273" name="a7ed1ae1ad5ec10d60659d788500bc273"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ed1ae1ad5ec10d60659d788500bc273">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html">Vector_std_filesystem_path_TextureId</a> mrmeshpy.Vector_std_filesystem_path_TextureId.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#a26b722ed4e0b6448e4b82c626eb337e7">mrmeshpy.ConstVector_std_filesystem_path_TextureId</a>.</p>
 
 </div>
 </div>
@@ -984,7 +829,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+<pre class="fragment">same as resize(newSize), which already grows the capacity geometrically
 </pre> 
 </div>
 </div>
@@ -1011,18 +856,18 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">doubles reserved memory until resize(newSize, value) can be done without reallocation
+<pre class="fragment">same as resize(newSize, value), which already grows the capacity geometrically
 </pre> 
 </div>
 </div>
-<a id="a406eb0a083ba1e7b89dd0bb954e84c38" name="a406eb0a083ba1e7b89dd0bb954e84c38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a406eb0a083ba1e7b89dd0bb954e84c38">&#9670;&#160;</a></span>size()</h2>
+<a id="adeec73523df642f92c063f945c8a7f68" name="adeec73523df642f92c063f945c8a7f68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adeec73523df642f92c063f945c8a7f68">&#9670;&#160;</a></span>shrink_to_fit()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int mrmeshpy.Vector_std_filesystem_path_TextureId.size </td>
+          <td class="memname"> None mrmeshpy.Vector_std_filesystem_path_TextureId.shrink_to_fit </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
@@ -1053,14 +898,14 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
 
 </div>
 </div>
-<a id="a34643a1ea62c14625e9ee634ef66ad69" name="a34643a1ea62c14625e9ee634ef66ad69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34643a1ea62c14625e9ee634ef66ad69">&#9670;&#160;</a></span>vec_() <span class="overload">[1/2]</span></h2>
+<a id="a6aab7e0387cd5cc135ec07fc537bed84" name="a6aab7e0387cd5cc135ec07fc537bed84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aab7e0387cd5cc135ec07fc537bed84">&#9670;&#160;</a></span>vec() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__vector__std__filesystem__path.html">std_vector_std_filesystem_path</a> mrmeshpy.Vector_std_filesystem_path_TextureId.vec_ </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__vector__std__filesystem__path__Allocator__std__filesystem__path.html">std_vector_std_filesystem_path_Allocator_std_filesystem_path</a> mrmeshpy.Vector_std_filesystem_path_TextureId.vec </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
@@ -1069,49 +914,31 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
 </div><div class="memdoc">
 <pre class="fragment">The user can directly manipulate the vector, they can't break anything anyway.
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#ae030cf3161239206dbdef7f2953a7b6a">mrmeshpy.ConstVector_std_filesystem_path_TextureId</a>.</p>
+
 </div>
 </div>
-<a id="afbb7223446970318ce2bc056aad2e5c1" name="afbb7223446970318ce2bc056aad2e5c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbb7223446970318ce2bc056aad2e5c1">&#9670;&#160;</a></span>vec_() <span class="overload">[2/2]</span></h2>
+<a id="a4d2547389abc441272c03b6b0b9c6ed6" name="a4d2547389abc441272c03b6b0b9c6ed6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d2547389abc441272c03b6b0b9c6ed6">&#9670;&#160;</a></span>vec() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> None mrmeshpy.Vector_std_filesystem_path_TextureId.vec_ </td>
+          <td class="memname"> None mrmeshpy.Vector_std_filesystem_path_TextureId.vec </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__std__filesystem__path.html">std_vector_std_filesystem_path</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__std__vector__std__filesystem__path__Allocator__std__filesystem__path.html">Const_std_vector_std_filesystem_path_Allocator_std_filesystem_path</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a5c249452023a7ca1c28267371d42d4e7" name="a5c249452023a7ca1c28267371d42d4e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c249452023a7ca1c28267371d42d4e7">&#9670;&#160;</a></span>_offsetof_vec_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.Vector_std_filesystem_path_TextureId._offsetof_vec_ = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<pre class="fragment">The user can directly manipulate the vector, they can't break anything anyway.
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html#ae030cf3161239206dbdef7f2953a7b6a">mrmeshpy.ConstVector_std_filesystem_path_TextureId</a>.</p>
 
 </div>
 </div>

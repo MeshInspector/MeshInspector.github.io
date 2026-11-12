@@ -1,5 +1,6 @@
 var structMR_1_1SharpOffsetParameters =
 [
+    [ "maxDeletedComponentFaces", "group__GeneralGroup.html#ga6b3908329f86376bec4f0acd0218025b", null ],
     [ "maxNewRank2VertDev", "group__GeneralGroup.html#ga431f430b0b5458fce3c73fddbb6428a4", null ],
     [ "maxNewRank3VertDev", "group__GeneralGroup.html#ga482a50c8e7ad39898c7dafff5c92474e", null ],
     [ "maxOldVertPosCorrection", "group__GeneralGroup.html#gafb1d63d46e98d00f4c3560f3eb55b99b", null ],

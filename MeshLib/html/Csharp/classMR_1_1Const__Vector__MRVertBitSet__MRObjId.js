@@ -6,7 +6,6 @@ var classMR_1_1Const__Vector__MRVertBitSet__MRObjId =
     [ "Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#af367722ba7871debd2c9a0d84546ec0e", null ],
     [ "Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#a37d359d107eee9995dd854c7b1eb3397", null ],
     [ "Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#af8551196761332f26fe91cb7e47d16d9", null ],
-    [ "Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#a12657e058f0ce0adb20e6b949d8c40f3", null ],
     [ "back", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#ada5cf9884218912b083e8c02251664d8", null ],
     [ "backId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#a81d18b16f21fd8a101a2cee43e8de17d", null ],
     [ "beginId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#a1d667783aa36b62f387fb20c6f903d50", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__Vector__MRVertBitSet__MRObjId =
     [ "Equals", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#ab0e38321a12582581ca25d3f0ea00d1a", null ],
     [ "Equals", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#afe091a9f6fb5a228560e58f5df1272f2", null ],
     [ "front", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#a62b1ca07ae3a457d69c735b25c9545f2", null ],
-    [ "GetEnumerator", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#a4a38681a1e7ceef54be8dc88e9e13a0f", null ],
     [ "heapBytes", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#ab9e763fb034e066d63c850318cc42299", null ],
-    [ "operator Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#a9c224867fffae0a1c04204a13017870b", null ],
+    [ "maxSize", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#acf3f7efc666540efde2ac14903a9b60b", null ],
     [ "operator!=", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#afad634430eaba2c5c5765664960bbe35", null ],
     [ "operator==", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#ad85340bbc483f6ba3ffd8806e432c3f4", null ],
     [ "size", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#a907adc65be5ddb4564616b7d56b98287", null ],
     [ "this[MR.ObjId i]", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#a8c2aa2a29d355dca030e83658fbfaebc", null ],
-    [ "vec", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#a82344cc37d039b0edfd1c8b5045326c8", null ]
+    [ "vec", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html#af1daae9e565dc5fcdb1e9f86fb8efe9f", null ]
 ];

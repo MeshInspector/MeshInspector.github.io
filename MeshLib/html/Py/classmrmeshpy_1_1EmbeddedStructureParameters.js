@@ -1,8 +1,9 @@
 var classmrmeshpy_1_1EmbeddedStructureParameters =
 [
     [ "__init__", "classmrmeshpy_1_1EmbeddedStructureParameters.html#ad9891f52a5df8c17eb40c7580d3848be", null ],
-    [ "__init__", "classmrmeshpy_1_1EmbeddedStructureParameters.html#a38b91e78bf6501fd0daed2647a85f12f", null ],
+    [ "__init__", "classmrmeshpy_1_1EmbeddedStructureParameters.html#a14395c06f6fc6bc6d6171f438ee4d773", null ],
     [ "__init__", "classmrmeshpy_1_1EmbeddedStructureParameters.html#af50ec37fa5bfa2fe4a67cae9e928520c", null ],
+    [ "assign", "classmrmeshpy_1_1EmbeddedStructureParameters.html#a13266cb7bbd864341a712b75d81ec685", null ],
     [ "cutAngle", "classmrmeshpy_1_1EmbeddedStructureParameters.html#aed47e638b269c80cca0f2b45cadaa4a8", null ],
     [ "cutAngle", "classmrmeshpy_1_1EmbeddedStructureParameters.html#abdb7675a15e65ce3be186c7c88ff0e42", null ],
     [ "fillAngle", "classmrmeshpy_1_1EmbeddedStructureParameters.html#ae4941f3c48a97b62a219e4b32551ad82", null ],

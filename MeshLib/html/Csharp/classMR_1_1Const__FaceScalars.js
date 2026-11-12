@@ -6,7 +6,6 @@ var classMR_1_1Const__FaceScalars =
     [ "Const_FaceScalars", "classMR_1_1Const__FaceScalars.html#af97c4a585c0833386402794ec74c0f0d", null ],
     [ "Const_FaceScalars", "classMR_1_1Const__FaceScalars.html#acca25531ced9e5e752597a5d6399d531", null ],
     [ "Const_FaceScalars", "classMR_1_1Const__FaceScalars.html#ad60f64a370c6fc521aac443773e9a7dd", null ],
-    [ "Const_FaceScalars", "classMR_1_1Const__FaceScalars.html#aa7c7102eb2e1331f56183d70c6ab0f53", null ],
     [ "back", "classMR_1_1Const__FaceScalars.html#aed116ea92508d03a89416782948eea3b", null ],
     [ "backId", "classMR_1_1Const__FaceScalars.html#a1b1e0edaf64953f9dffcd5d2cb2e4dab", null ],
     [ "beginId", "classMR_1_1Const__FaceScalars.html#a10ea7d63b1be29c46bfedde211fe3e40", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__FaceScalars =
     [ "Equals", "classMR_1_1Const__FaceScalars.html#adaf10b70c04ca2ac14512294eff0f478", null ],
     [ "Equals", "classMR_1_1Const__FaceScalars.html#a345bf640b1ef3f64df49325e785b7b68", null ],
     [ "front", "classMR_1_1Const__FaceScalars.html#a83508a50248ff17677b5de3837545e4e", null ],
-    [ "GetEnumerator", "classMR_1_1Const__FaceScalars.html#a20b425a7f98e00bd67c2c31ec951b624", null ],
     [ "heapBytes", "classMR_1_1Const__FaceScalars.html#a5ed1ca927e555148111375801b8e7005", null ],
-    [ "operator Const_FaceScalars", "classMR_1_1Const__FaceScalars.html#a416caada32a15089db1d9572e5e01342", null ],
+    [ "maxSize", "classMR_1_1Const__FaceScalars.html#ab95ea2d798643107565e9bfc0f2c40f9", null ],
     [ "operator!=", "classMR_1_1Const__FaceScalars.html#a7c6c1cce96ec8d18e03334842f03692d", null ],
     [ "operator==", "classMR_1_1Const__FaceScalars.html#abb020408dbf31a1468511e3584ed6590", null ],
     [ "size", "classMR_1_1Const__FaceScalars.html#a903e4b34b4d62f6347eaaabad2e06001", null ],
     [ "this[MR.FaceId i]", "classMR_1_1Const__FaceScalars.html#a3b51e3b679f8363f96938e19dc6a2fc9", null ],
-    [ "vec", "classMR_1_1Const__FaceScalars.html#ad989fd5d5ae54b94b101768aed5a4e30", null ]
+    [ "vec", "classMR_1_1Const__FaceScalars.html#a97d8c251108ba4838bc19c6eacdb0649", null ]
 ];

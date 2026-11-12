@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -144,7 +137,7 @@ $(function(){initNavTree('classMR_1_1UniqueThreadSafeOwner__MRAABBTreePoints.htm
 </div><!--header-->
 <div class="contents">
 
-<p>This class is base class for unique thread safe owning of some objects, for example <a class="el" href="classMR_1_1AABBTree.html" title="bounding volume hierarchy Generated from class MR.AABBTree. Base classes: Direct: (non-virtual) MR....">AABBTree</a> classes derived from this one should have function like getOrCreate Generated from class <span class="tt">MR::UniqueThreadSafeOwner&amp;lt;<a class="el" href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy for point cloud structure Generated from class MR.AABBTreePoints....">MR.AABBTreePoints</a>&amp;gt;</span>. This is the non-const half of the class.  
+<p>This class is base class for unique thread safe owning of some objects, for example <a class="el" href="classMR_1_1AABBTree.html" title="bounding volume hierarchy of mesh triangles with up to 4 children per node and up to 4 triangles per ...">AABBTree</a> classes derived from this one should have function like getOrCreate Generated from class <span class="tt">MR::UniqueThreadSafeOwner&amp;lt;<a class="el" href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy for point cloud structure Generated from class MR.AABBTreePoints....">MR.AABBTreePoints</a>&amp;gt;</span>. This is the non-const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.UniqueThreadSafeOwner_MRAABBTreePoints:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -196,7 +189,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:aa438c95dc55f6e9a938fc41fc514781b inherit pro_methods_classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints" id="r_aa438c95dc55f6e9a938fc41fc514781b"><td class="memItemLeft" align="right" valign="top">virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__UniqueThreadSafeOwner__MRAABBTreePoints.html#aa438c95dc55f6e9a938fc41fc514781b">Dispose</a> (bool disposing)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This class is base class for unique thread safe owning of some objects, for example <a class="el" href="classMR_1_1AABBTree.html" title="bounding volume hierarchy Generated from class MR.AABBTree. Base classes: Direct: (non-virtual) MR....">AABBTree</a> classes derived from this one should have function like getOrCreate Generated from class <span class="tt">MR::UniqueThreadSafeOwner&amp;lt;<a class="el" href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy for point cloud structure Generated from class MR.AABBTreePoints....">MR.AABBTreePoints</a>&amp;gt;</span>. This is the non-const half of the class. </p>
+<div class="textblock"><p>This class is base class for unique thread safe owning of some objects, for example <a class="el" href="classMR_1_1AABBTree.html" title="bounding volume hierarchy of mesh triangles with up to 4 children per node and up to 4 triangles per ...">AABBTree</a> classes derived from this one should have function like getOrCreate Generated from class <span class="tt">MR::UniqueThreadSafeOwner&amp;lt;<a class="el" href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy for point cloud structure Generated from class MR.AABBTreePoints....">MR.AABBTreePoints</a>&amp;gt;</span>. This is the non-const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a71233dd249a625094860a0db9893156b" name="a71233dd249a625094860a0db9893156b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a71233dd249a625094860a0db9893156b">&#9670;&#160;</a></span>UniqueThreadSafeOwner_MRAABBTreePoints() <span class="overload">[1/4]</span></h2>

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,40 +133,56 @@ $(function(){initNavTree('classmrmeshpy_1_1AffineXf2d.html','','classmrmeshpy_1_
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1AffineXf2d-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.AffineXf2d Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for mrmeshpy.AffineXf2d:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmrmeshpy_1_1AffineXf2d.png" usemap="#mrmeshpy_2EAffineXf2d_map" alt=""/>
+  <map id="mrmeshpy_2EAffineXf2d_map" name="mrmeshpy_2EAffineXf2d_map">
+<area href="classmrmeshpy_1_1ConstAffineXf2d.html" alt="mrmeshpy.ConstAffineXf2d" shape="rect" coords="0,0,166,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a117a4f8603321601076ca81cc03baaf6" id="r_a117a4f8603321601076ca81cc03baaf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a117a4f8603321601076ca81cc03baaf6">__call__</a> (self, <a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a> x)</td></tr>
-<tr class="memitem:ad4903b884cd24bb146b3b0210514bef8" id="r_ad4903b884cd24bb146b3b0210514bef8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4903b884cd24bb146b3b0210514bef8">__eq__</a> (self, <a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a> b)</td></tr>
 <tr class="memitem:aa11aae13c1fcbe874294e29710d303e9" id="r_aa11aae13c1fcbe874294e29710d303e9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa11aae13c1fcbe874294e29710d303e9">__init__</a> (self)</td></tr>
-<tr class="memitem:a8718e3e412b7c6aa3ab4cd7f463857ee" id="r_a8718e3e412b7c6aa3ab4cd7f463857ee"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8718e3e412b7c6aa3ab4cd7f463857ee">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Matrix2d.html">Matrix2d</a> A, <a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a> b)</td></tr>
+<tr class="memitem:adaada01a411e056247d668f9a16c1c8e" id="r_adaada01a411e056247d668f9a16c1c8e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaada01a411e056247d668f9a16c1c8e">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstMatrix2d.html">ConstMatrix2d</a> <a class="el" href="#acd278e352c97012cca37d6979b53c0e3">A</a>, <a class="el" href="classmrmeshpy_1_1ConstVector2d.html">ConstVector2d</a> <a class="el" href="#a9b1b71997ac3f8ee739be39e0de2b66e">b</a>)</td></tr>
 <tr class="memitem:a76807e6d6c3d85038cd28b01cccd4ec2" id="r_a76807e6d6c3d85038cd28b01cccd4ec2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76807e6d6c3d85038cd28b01cccd4ec2">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a> arg0)</td></tr>
-<tr class="memitem:a376de98df2efc2399f6d5f74b9d51e79" id="r_a376de98df2efc2399f6d5f74b9d51e79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a376de98df2efc2399f6d5f74b9d51e79">__mul__</a> (self, <a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a> v)</td></tr>
-<tr class="memitem:aadb638402e15648bb4de6a6f06bfeedb" id="r_aadb638402e15648bb4de6a6f06bfeedb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadb638402e15648bb4de6a6f06bfeedb">__ne__</a> (self, <a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a> b)</td></tr>
-<tr class="memitem:a42d5a12630d36817d2f05caed451260c" id="r_a42d5a12630d36817d2f05caed451260c"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42d5a12630d36817d2f05caed451260c">__repr__</a> (self)</td></tr>
-<tr class="memitem:a4e8ecb62dffd204848cf346a2146e31c" id="r_a4e8ecb62dffd204848cf346a2146e31c"><td class="memItemLeft" align="right" valign="top">typing.Any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e8ecb62dffd204848cf346a2146e31c">__rlshift__</a> (self, typing.Any xf)</td></tr>
 <tr class="memitem:afa98a09c8ef83133323f0a0a66dafcba" id="r_afa98a09c8ef83133323f0a0a66dafcba"><td class="memItemLeft" align="right" valign="top">typing.Any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa98a09c8ef83133323f0a0a66dafcba">__rrshift__</a> (self, typing.Any xf)</td></tr>
-<tr class="memitem:af623a41ab2b2fa557ad2aa534fd75212" id="r_af623a41ab2b2fa557ad2aa534fd75212"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af623a41ab2b2fa557ad2aa534fd75212">inverse</a> (self)</td></tr>
-<tr class="memitem:afabee5f8ca0662b83e1dbfd185cd8e81" id="r_afabee5f8ca0662b83e1dbfd185cd8e81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afabee5f8ca0662b83e1dbfd185cd8e81">linearOnly</a> (self, <a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a> x)</td></tr>
+<tr class="memitem:a71f93a97d38181e91b5919df0b0ed4c1" id="r_a71f93a97d38181e91b5919df0b0ed4c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71f93a97d38181e91b5919df0b0ed4c1">assign</a> (self, <a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html">ConstAffineXf2d</a> other)</td></tr>
+<tr class="memitem:acd278e352c97012cca37d6979b53c0e3" id="r_acd278e352c97012cca37d6979b53c0e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Matrix2d.html">Matrix2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd278e352c97012cca37d6979b53c0e3">A</a> (self)</td></tr>
+<tr class="memitem:a4606af4497fda5d2aa5bbf50351a7f0a" id="r_a4606af4497fda5d2aa5bbf50351a7f0a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4606af4497fda5d2aa5bbf50351a7f0a">A</a> (self, <a class="el" href="classmrmeshpy_1_1ConstMatrix2d.html">ConstMatrix2d</a> arg1)</td></tr>
+<tr class="memitem:a9b1b71997ac3f8ee739be39e0de2b66e" id="r_a9b1b71997ac3f8ee739be39e0de2b66e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b1b71997ac3f8ee739be39e0de2b66e">b</a> (self)</td></tr>
+<tr class="memitem:a3c5dcc1d0c7c73b3d46ce70dfe84a0f6" id="r_a3c5dcc1d0c7c73b3d46ce70dfe84a0f6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c5dcc1d0c7c73b3d46ce70dfe84a0f6">b</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector2d.html">ConstVector2d</a> arg1)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstAffineXf2d"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstAffineXf2d')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html">mrmeshpy.ConstAffineXf2d</a></td></tr>
+<tr class="memitem:af0e6eca31caec6a4a92cf6190aa04daf inherit pub_methods_classmrmeshpy_1_1ConstAffineXf2d" id="r_af0e6eca31caec6a4a92cf6190aa04daf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#af0e6eca31caec6a4a92cf6190aa04daf">__call__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector2d.html">ConstVector2d</a> x)</td></tr>
+<tr class="memitem:aa81288c61c8d3607a8cc0197abf435cf inherit pub_methods_classmrmeshpy_1_1ConstAffineXf2d" id="r_aa81288c61c8d3607a8cc0197abf435cf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#aa81288c61c8d3607a8cc0197abf435cf">__eq__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html">ConstAffineXf2d</a> <a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#a9ef6f31ebb770e8a9035cd4f8cd3c91e">b</a>)</td></tr>
+<tr class="memitem:ac698872c48ecccf75d92ae8b5a2fb5d4 inherit pub_methods_classmrmeshpy_1_1ConstAffineXf2d" id="r_ac698872c48ecccf75d92ae8b5a2fb5d4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#ac698872c48ecccf75d92ae8b5a2fb5d4">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:a88120f5a75f9996ca9160eb414b7cf16 inherit pub_methods_classmrmeshpy_1_1ConstAffineXf2d" id="r_a88120f5a75f9996ca9160eb414b7cf16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#a88120f5a75f9996ca9160eb414b7cf16">__mul__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html">ConstAffineXf2d</a> v)</td></tr>
+<tr class="memitem:a42dc3d8ec855fe397c332046cf5c75d0 inherit pub_methods_classmrmeshpy_1_1ConstAffineXf2d" id="r_a42dc3d8ec855fe397c332046cf5c75d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#a42dc3d8ec855fe397c332046cf5c75d0">__ne__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html">ConstAffineXf2d</a> <a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#a9ef6f31ebb770e8a9035cd4f8cd3c91e">b</a>)</td></tr>
+<tr class="memitem:a25c69aaa8580f04748b1342cc0cd6eae inherit pub_methods_classmrmeshpy_1_1ConstAffineXf2d" id="r_a25c69aaa8580f04748b1342cc0cd6eae"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#a25c69aaa8580f04748b1342cc0cd6eae">__repr__</a> (self)</td></tr>
+<tr class="memitem:ab74d496d713bf87be3098ceb7cedbf68 inherit pub_methods_classmrmeshpy_1_1ConstAffineXf2d" id="r_ab74d496d713bf87be3098ceb7cedbf68"><td class="memItemLeft" align="right" valign="top">typing.Any&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#ab74d496d713bf87be3098ceb7cedbf68">__rlshift__</a> (self, typing.Any xf)</td></tr>
+<tr class="memitem:ad2a078e5663738f126e639a7c4da7978 inherit pub_methods_classmrmeshpy_1_1ConstAffineXf2d" id="r_ad2a078e5663738f126e639a7c4da7978"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#ad2a078e5663738f126e639a7c4da7978">inverse</a> (self)</td></tr>
+<tr class="memitem:a3ea15dcc829b87921ad7db44032b1a68 inherit pub_methods_classmrmeshpy_1_1ConstAffineXf2d" id="r_a3ea15dcc829b87921ad7db44032b1a68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#a3ea15dcc829b87921ad7db44032b1a68">linearOnly</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector2d.html">ConstVector2d</a> x)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:adffb8cddcc34a5cfa8c08390d0dbaab3" id="r_adffb8cddcc34a5cfa8c08390d0dbaab3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adffb8cddcc34a5cfa8c08390d0dbaab3">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a59708a4c96a3e3bf2b290713d55bc0c3" id="r_a59708a4c96a3e3bf2b290713d55bc0c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59708a4c96a3e3bf2b290713d55bc0c3">linear</a> (<a class="el" href="classmrmeshpy_1_1Matrix2d.html">Matrix2d</a> A)</td></tr>
-<tr class="memitem:a46f6b23a90b393f2f91cfe9502b58f53" id="r_a46f6b23a90b393f2f91cfe9502b58f53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46f6b23a90b393f2f91cfe9502b58f53">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a46f6b23a90b393f2f91cfe9502b58f53" id="r_a46f6b23a90b393f2f91cfe9502b58f53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46f6b23a90b393f2f91cfe9502b58f53">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a1af55ce2a370425a3e0c886f5649a84b" id="r_a1af55ce2a370425a3e0c886f5649a84b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1af55ce2a370425a3e0c886f5649a84b">translation</a> (<a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a> b)</td></tr>
-<tr class="memitem:a301c2a684ffbbb3280e7da183433d2ea" id="r_a301c2a684ffbbb3280e7da183433d2ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a301c2a684ffbbb3280e7da183433d2ea">xfAround</a> (<a class="el" href="classmrmeshpy_1_1Matrix2d.html">Matrix2d</a> A, <a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a> stable)</td></tr>
+<tr class="inherit_header pub_static_methods_classmrmeshpy_1_1ConstAffineXf2d"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classmrmeshpy_1_1ConstAffineXf2d')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html">mrmeshpy.ConstAffineXf2d</a></td></tr>
+<tr class="memitem:ac39dca01d8b00a44a8ed12d9e73e28ca inherit pub_static_methods_classmrmeshpy_1_1ConstAffineXf2d" id="r_ac39dca01d8b00a44a8ed12d9e73e28ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#ac39dca01d8b00a44a8ed12d9e73e28ca">linear</a> (<a class="el" href="classmrmeshpy_1_1ConstMatrix2d.html">ConstMatrix2d</a> <a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#a89885f2aa9e02098db2b227e0b211057">A</a>)</td></tr>
+<tr class="memitem:a421302c51614c652a53fcc6dba539d56 inherit pub_static_methods_classmrmeshpy_1_1ConstAffineXf2d" id="r_a421302c51614c652a53fcc6dba539d56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#a421302c51614c652a53fcc6dba539d56">translation</a> (<a class="el" href="classmrmeshpy_1_1ConstVector2d.html">ConstVector2d</a> <a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#a9ef6f31ebb770e8a9035cd4f8cd3c91e">b</a>)</td></tr>
+<tr class="memitem:a3aa33817043d2a4bb83cabaee815f381 inherit pub_static_methods_classmrmeshpy_1_1ConstAffineXf2d" id="r_a3aa33817043d2a4bb83cabaee815f381"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#a3aa33817043d2a4bb83cabaee815f381">xfAround</a> (<a class="el" href="classmrmeshpy_1_1ConstMatrix2d.html">ConstMatrix2d</a> <a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#a89885f2aa9e02098db2b227e0b211057">A</a>, <a class="el" href="classmrmeshpy_1_1ConstVector2d.html">ConstVector2d</a> stable)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:aae7727a1b96823c9e2056321eb074c5a" id="r_aae7727a1b96823c9e2056321eb074c5a"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae7727a1b96823c9e2056321eb074c5a">_offsetof_A</a> = 0</td></tr>
-<tr class="memitem:a6e4b3901aa2204c7cfd31f47712fd6a1" id="r_a6e4b3901aa2204c7cfd31f47712fd6a1"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e4b3901aa2204c7cfd31f47712fd6a1">_offsetof_b</a> = 32</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_static_attribs_classmrmeshpy_1_1ConstAffineXf2d"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classmrmeshpy_1_1ConstAffineXf2d')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Attributes inherited from <a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html">mrmeshpy.ConstAffineXf2d</a></td></tr>
+<tr class="memitem:a6527c5474dc63ecaef26aa70af4b3ea2 inherit pro_static_attribs_classmrmeshpy_1_1ConstAffineXf2d" id="r_a6527c5474dc63ecaef26aa70af4b3ea2"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#a6527c5474dc63ecaef26aa70af4b3ea2">_offsetof_A</a> = 0</td></tr>
+<tr class="memitem:a82a7515d4658444a3d8ca5e9bf84805e inherit pro_static_attribs_classmrmeshpy_1_1ConstAffineXf2d" id="r_a82a7515d4658444a3d8ca5e9bf84805e"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#a82a7515d4658444a3d8ca5e9bf84805e">_offsetof_b</a> = 32</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::AffineXf2d
@@ -226,8 +235,8 @@ affine transformation: y = A*x + b, where A in VxV, and b in V
 
 </div>
 </div>
-<a id="a8718e3e412b7c6aa3ab4cd7f463857ee" name="a8718e3e412b7c6aa3ab4cd7f463857ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8718e3e412b7c6aa3ab4cd7f463857ee">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+<a id="adaada01a411e056247d668f9a16c1c8e" name="adaada01a411e056247d668f9a16c1c8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaada01a411e056247d668f9a16c1c8e">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240,12 +249,12 @@ affine transformation: y = A*x + b, where A in VxV, and b in V
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Matrix2d.html">Matrix2d</a></td>          <td class="paramname"><span class="paramname"><em>A</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstMatrix2d.html">ConstMatrix2d</a></td>          <td class="paramname"><span class="paramname"><em>A</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector2d.html">ConstVector2d</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -275,131 +284,6 @@ affine transformation: y = A*x + b, where A in VxV, and b in V
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a117a4f8603321601076ca81cc03baaf6" name="a117a4f8603321601076ca81cc03baaf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a117a4f8603321601076ca81cc03baaf6">&#9670;&#160;</a></span>__call__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a> mrmeshpy.AffineXf2d.__call__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">application of the transformation to a point
-</pre> 
-</div>
-</div>
-<a id="ad4903b884cd24bb146b3b0210514bef8" name="ad4903b884cd24bb146b3b0210514bef8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4903b884cd24bb146b3b0210514bef8">&#9670;&#160;</a></span>__eq__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.AffineXf2d.__eq__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a376de98df2efc2399f6d5f74b9d51e79" name="a376de98df2efc2399f6d5f74b9d51e79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a376de98df2efc2399f6d5f74b9d51e79">&#9670;&#160;</a></span>__mul__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a> mrmeshpy.AffineXf2d.__mul__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">composition of two transformations:
-\\f( y = (u * v) ( x ) = u( v( x ) ) = ( u.A * ( v.A * x + v.b ) + u.b ) = ( u.A * v.A ) * x + ( u.A * v.b + u.b ) \\f)
-</pre> 
-</div>
-</div>
-<a id="aadb638402e15648bb4de6a6f06bfeedb" name="aadb638402e15648bb4de6a6f06bfeedb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadb638402e15648bb4de6a6f06bfeedb">&#9670;&#160;</a></span>__ne__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.AffineXf2d.__ne__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a42d5a12630d36817d2f05caed451260c" name="a42d5a12630d36817d2f05caed451260c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42d5a12630d36817d2f05caed451260c">&#9670;&#160;</a></span>__repr__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> str mrmeshpy.AffineXf2d.__repr__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4e8ecb62dffd204848cf346a2146e31c" name="a4e8ecb62dffd204848cf346a2146e31c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e8ecb62dffd204848cf346a2146e31c">&#9670;&#160;</a></span>__rlshift__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> typing.Any mrmeshpy.AffineXf2d.__rlshift__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="afa98a09c8ef83133323f0a0a66dafcba" name="afa98a09c8ef83133323f0a0a66dafcba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afa98a09c8ef83133323f0a0a66dafcba">&#9670;&#160;</a></span>__rrshift__()</h2>
 
@@ -421,229 +305,108 @@ affine transformation: y = A*x + b, where A in VxV, and b in V
 
 </div>
 </div>
-<a id="af623a41ab2b2fa557ad2aa534fd75212" name="af623a41ab2b2fa557ad2aa534fd75212"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af623a41ab2b2fa557ad2aa534fd75212">&#9670;&#160;</a></span>inverse()</h2>
+<a id="acd278e352c97012cca37d6979b53c0e3" name="acd278e352c97012cca37d6979b53c0e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd278e352c97012cca37d6979b53c0e3">&#9670;&#160;</a></span>A() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a> mrmeshpy.AffineXf2d.inverse </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Matrix2d.html">Matrix2d</a> mrmeshpy.AffineXf2d.A </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">computes inverse transformation
-</pre> 
-</div>
-</div>
-<a id="a59708a4c96a3e3bf2b290713d55bc0c3" name="a59708a4c96a3e3bf2b290713d55bc0c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59708a4c96a3e3bf2b290713d55bc0c3">&#9670;&#160;</a></span>linear()</h2>
 
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a> mrmeshpy.AffineXf2d.linear </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Matrix2d.html">Matrix2d</a></td>          <td class="paramname"><span class="paramname"><em>A</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<pre class="fragment">creates linear-only transformation (without translation)
-</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#a89885f2aa9e02098db2b227e0b211057">mrmeshpy.ConstAffineXf2d</a>.</p>
+
 </div>
 </div>
-<a id="afabee5f8ca0662b83e1dbfd185cd8e81" name="afabee5f8ca0662b83e1dbfd185cd8e81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afabee5f8ca0662b83e1dbfd185cd8e81">&#9670;&#160;</a></span>linearOnly()</h2>
+<a id="a4606af4497fda5d2aa5bbf50351a7f0a" name="a4606af4497fda5d2aa5bbf50351a7f0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4606af4497fda5d2aa5bbf50351a7f0a">&#9670;&#160;</a></span>A() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a> mrmeshpy.AffineXf2d.linearOnly </td>
+          <td class="memname"> None mrmeshpy.AffineXf2d.A </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a></td>          <td class="paramname"><span class="paramname"><em>x</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstMatrix2d.html">ConstMatrix2d</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">applies only linear part of the transformation to given vector (e.g. to normal) skipping adding shift (b)
-for example if this is a rigid transformation, then only rotates input vector
-</pre> 
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#a89885f2aa9e02098db2b227e0b211057">mrmeshpy.ConstAffineXf2d</a>.</p>
+
 </div>
 </div>
-<a id="a46f6b23a90b393f2f91cfe9502b58f53" name="a46f6b23a90b393f2f91cfe9502b58f53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46f6b23a90b393f2f91cfe9502b58f53">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
+<a id="a71f93a97d38181e91b5919df0b0ed4c1" name="a71f93a97d38181e91b5919df0b0ed4c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71f93a97d38181e91b5919df0b0ed4c1">&#9670;&#160;</a></span>assign()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a> mrmeshpy.AffineXf2d.operator </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a> mrmeshpy.AffineXf2d.assign </td>
           <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html">ConstAffineXf2d</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a46f6b23a90b393f2f91cfe9502b58f53" name="a46f6b23a90b393f2f91cfe9502b58f53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46f6b23a90b393f2f91cfe9502b58f53">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
+<a id="a9b1b71997ac3f8ee739be39e0de2b66e" name="a9b1b71997ac3f8ee739be39e0de2b66e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b1b71997ac3f8ee739be39e0de2b66e">&#9670;&#160;</a></span>b() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a> mrmeshpy.AffineXf2d.operator </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a> mrmeshpy.AffineXf2d.b </td>
           <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#a9ef6f31ebb770e8a9035cd4f8cd3c91e">mrmeshpy.ConstAffineXf2d</a>.</p>
+
+</div>
+</div>
+<a id="a3c5dcc1d0c7c73b3d46ce70dfe84a0f6" name="a3c5dcc1d0c7c73b3d46ce70dfe84a0f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c5dcc1d0c7c73b3d46ce70dfe84a0f6">&#9670;&#160;</a></span>b() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.AffineXf2d.b </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector2d.html">ConstVector2d</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a1af55ce2a370425a3e0c886f5649a84b" name="a1af55ce2a370425a3e0c886f5649a84b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1af55ce2a370425a3e0c886f5649a84b">&#9670;&#160;</a></span>translation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a> mrmeshpy.AffineXf2d.translation </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<pre class="fragment">creates translation-only transformation (with identity linear component)
-</pre> 
-</div>
-</div>
-<a id="a301c2a684ffbbb3280e7da183433d2ea" name="a301c2a684ffbbb3280e7da183433d2ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a301c2a684ffbbb3280e7da183433d2ea">&#9670;&#160;</a></span>xfAround()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1AffineXf2d.html">AffineXf2d</a> mrmeshpy.AffineXf2d.xfAround </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Matrix2d.html">Matrix2d</a></td>          <td class="paramname"><span class="paramname"><em>A</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector2d.html">Vector2d</a></td>          <td class="paramname"><span class="paramname"><em>stable</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<pre class="fragment">creates transformation with given linear part with given stable point
-</pre> 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="aae7727a1b96823c9e2056321eb074c5a" name="aae7727a1b96823c9e2056321eb074c5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae7727a1b96823c9e2056321eb074c5a">&#9670;&#160;</a></span>_offsetof_A</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.AffineXf2d._offsetof_A = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6e4b3901aa2204c7cfd31f47712fd6a1" name="a6e4b3901aa2204c7cfd31f47712fd6a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e4b3901aa2204c7cfd31f47712fd6a1">&#9670;&#160;</a></span>_offsetof_b</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.AffineXf2d._offsetof_b = 32</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstAffineXf2d.html#a9ef6f31ebb770e8a9035cd4f8cd3c91e">mrmeshpy.ConstAffineXf2d</a>.</p>
 
 </div>
 </div>

@@ -1,0 +1,5 @@
+var classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__Plane__Features__Primitives__Plane =
+[
+    [ "__init__", "classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__Plane__Features__Primitives__Plane.html#a500fb355ffc640af118c5d820c57e394", null ],
+    [ "measure", "classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__Plane__Features__Primitives__Plane.html#ac519cd04e18491a09ddc93e45c08b126", null ]
+];

@@ -44,6 +44,7 @@ var MRChunkIterator_8h =
     [ "MR_deref_MR_ChunkIterator", "MRChunkIterator_8h.html#af5d34485827c5b5529ec0cc58bb41fa3", null ],
     [ "MR_equal_MR_ChunkIterator", "MRChunkIterator_8h.html#a529085e4bbfa58e55a968be3336ef889", null ],
     [ "MR_incr_MR_ChunkIterator", "MRChunkIterator_8h.html#ad75f9e9ee7cd56fb66248ec9c187368c", null ],
+    [ "MR_not_equal_MR_ChunkIterator", "MRChunkIterator_8h.html#abda78968b2bd88aade300e8b96408b25", null ],
     [ "MR_post_incr_MR_ChunkIterator", "MRChunkIterator_8h.html#a339688755ae103527d862e618d96d87e", null ],
     [ "MR_splitByChunks", "MRChunkIterator_8h.html#a9d3ed5f134fb11193b4a13c085b07b9e", null ]
 ];

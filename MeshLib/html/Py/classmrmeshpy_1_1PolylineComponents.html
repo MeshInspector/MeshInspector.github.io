@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -147,25 +140,26 @@ $(function(){initNavTree('classmrmeshpy_1_1PolylineComponents.html','','classmrm
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:ConstLargeByLengthComponentsSettings" id="r_ConstLargeByLengthComponentsSettings"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1PolylineComponents_1_1ConstLargeByLengthComponentsSettings.html">ConstLargeByLengthComponentsSettings</a></td></tr>
 <tr class="memitem:LargeByLengthComponentsSettings" id="r_LargeByLengthComponentsSettings"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html">LargeByLengthComponentsSettings</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ae4c0e5485d9ae94c5311c9ff3751789f" id="r_ae4c0e5485d9ae94c5311c9ff3751789f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html">std_vector_TypedBitSet_Id_UndirectedEdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4c0e5485d9ae94c5311c9ff3751789f">getAllComponents</a> (<a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a> topology)</td></tr>
-<tr class="memitem:a9ac8e17e32d9f8be8ed437ba481b2c9c" id="r_a9ac8e17e32d9f8be8ed437ba481b2c9c"><td class="memItemLeft" align="right" valign="top">tuple[<a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html">std_vector_TypedBitSet_Id_UndirectedEdgeTag</a>, int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ac8e17e32d9f8be8ed437ba481b2c9c">getAllComponents</a> (<a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a> topology, int maxComponentCount)</td></tr>
-<tr class="memitem:a0751b2be93de2423443acd3ebbc742a6" id="r_a0751b2be93de2423443acd3ebbc742a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0751b2be93de2423443acd3ebbc742a6">getComponent</a> (<a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a> topology, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> id)</td></tr>
-<tr class="memitem:a25a2c10c91f10d11c42c4512d1a9b3bf" id="r_a25a2c10c91f10d11c42c4512d1a9b3bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25a2c10c91f10d11c42c4512d1a9b3bf">getLargestComponent</a> (<a class="el" href="classmrmeshpy_1_1Polyline2.html">Polyline2</a> polyline, float minLength=0, <a class="el" href="classmrmeshpy_1_1int__output.html">int_output</a> numSmallerComponents=None)</td></tr>
-<tr class="memitem:a99488fcfbe9e63b90b9ee7c64be319b4" id="r_a99488fcfbe9e63b90b9ee7c64be319b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99488fcfbe9e63b90b9ee7c64be319b4">getLargestComponent</a> (<a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a> polyline, float minLength=0, <a class="el" href="classmrmeshpy_1_1int__output.html">int_output</a> numSmallerComponents=None)</td></tr>
-<tr class="memitem:a679007ee4675b5cd03be9ac0290c7894" id="r_a679007ee4675b5cd03be9ac0290c7894"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html">std_vector_TypedBitSet_Id_UndirectedEdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a679007ee4675b5cd03be9ac0290c7894">getNLargeByLengthComponents</a> (<a class="el" href="classmrmeshpy_1_1Polyline2.html">Polyline2</a> polyline, <a class="el" href="classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html">PolylineComponents.LargeByLengthComponentsSettings</a> settings)</td></tr>
-<tr class="memitem:ac7b732efa2e637248f9f0d3ec0fd819b" id="r_ac7b732efa2e637248f9f0d3ec0fd819b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html">std_vector_TypedBitSet_Id_UndirectedEdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7b732efa2e637248f9f0d3ec0fd819b">getNLargeByLengthComponents</a> (<a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a> polyline, <a class="el" href="classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html">PolylineComponents.LargeByLengthComponentsSettings</a> settings)</td></tr>
-<tr class="memitem:a365d405efc70c5bac46665018da8c1bc" id="r_a365d405efc70c5bac46665018da8c1bc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a365d405efc70c5bac46665018da8c1bc">getNumComponents</a> (<a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a> topology)</td></tr>
-<tr class="memitem:a01a36542aef1f40a46a2fe7eb4f3724a" id="r_a01a36542aef1f40a46a2fe7eb4f3724a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html">UnionFind_UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01a36542aef1f40a46a2fe7eb4f3724a">getUnionFindStructure</a> (<a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a> topology)</td></tr>
+<tr class="memitem:a9ce721823df2a9b661af1d148c2c651f" id="r_a9ce721823df2a9b661af1d148c2c651f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html">std_vector_TypedBitSet_Id_UndirectedEdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ce721823df2a9b661af1d148c2c651f">getAllComponents</a> (<a class="el" href="classmrmeshpy_1_1ConstPolylineTopology.html">ConstPolylineTopology</a> topology)</td></tr>
+<tr class="memitem:a4450a364196794b83f3c91b15bd50e20" id="r_a4450a364196794b83f3c91b15bd50e20"><td class="memItemLeft" align="right" valign="top">tuple[<a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html">std_vector_TypedBitSet_Id_UndirectedEdgeTag</a>, int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4450a364196794b83f3c91b15bd50e20">getAllComponents</a> (<a class="el" href="classmrmeshpy_1_1ConstPolylineTopology.html">ConstPolylineTopology</a> topology, int maxComponentCount)</td></tr>
+<tr class="memitem:a68a319f4d74297618ffc20b6bf46133a" id="r_a68a319f4d74297618ffc20b6bf46133a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68a319f4d74297618ffc20b6bf46133a">getComponent</a> (<a class="el" href="classmrmeshpy_1_1ConstPolylineTopology.html">ConstPolylineTopology</a> topology, <a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeId.html">ConstUndirectedEdgeId</a> id)</td></tr>
+<tr class="memitem:a0a1e0a74b21c907f72406de36ec673bc" id="r_a0a1e0a74b21c907f72406de36ec673bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a1e0a74b21c907f72406de36ec673bc">getLargestComponent</a> (<a class="el" href="classmrmeshpy_1_1ConstPolyline2.html">ConstPolyline2</a> polyline, float minLength=0, <a class="el" href="classmrmeshpy_1_1int__output.html">int_output</a> numSmallerComponents=None)</td></tr>
+<tr class="memitem:ac54b68e92ee9f49e0dcfef7d3c004f7c" id="r_ac54b68e92ee9f49e0dcfef7d3c004f7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac54b68e92ee9f49e0dcfef7d3c004f7c">getLargestComponent</a> (<a class="el" href="classmrmeshpy_1_1ConstPolyline3.html">ConstPolyline3</a> polyline, float minLength=0, <a class="el" href="classmrmeshpy_1_1int__output.html">int_output</a> numSmallerComponents=None)</td></tr>
+<tr class="memitem:a258395c0191b86bfd0078aa3177dbf54" id="r_a258395c0191b86bfd0078aa3177dbf54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html">std_vector_TypedBitSet_Id_UndirectedEdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a258395c0191b86bfd0078aa3177dbf54">getNLargeByLengthComponents</a> (<a class="el" href="classmrmeshpy_1_1ConstPolyline2.html">ConstPolyline2</a> polyline, <a class="el" href="classmrmeshpy_1_1PolylineComponents_1_1ConstLargeByLengthComponentsSettings.html">PolylineComponents.ConstLargeByLengthComponentsSettings</a> settings)</td></tr>
+<tr class="memitem:a6bca87d4a2977e4dbd1533ad6ccfbc4a" id="r_a6bca87d4a2977e4dbd1533ad6ccfbc4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html">std_vector_TypedBitSet_Id_UndirectedEdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bca87d4a2977e4dbd1533ad6ccfbc4a">getNLargeByLengthComponents</a> (<a class="el" href="classmrmeshpy_1_1ConstPolyline3.html">ConstPolyline3</a> polyline, <a class="el" href="classmrmeshpy_1_1PolylineComponents_1_1ConstLargeByLengthComponentsSettings.html">PolylineComponents.ConstLargeByLengthComponentsSettings</a> settings)</td></tr>
+<tr class="memitem:a3eab4352235c167107baccb1396df536" id="r_a3eab4352235c167107baccb1396df536"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3eab4352235c167107baccb1396df536">getNumComponents</a> (<a class="el" href="classmrmeshpy_1_1ConstPolylineTopology.html">ConstPolylineTopology</a> topology)</td></tr>
+<tr class="memitem:a7806c3147b1c8ee4bd5ec063981a89b3" id="r_a7806c3147b1c8ee4bd5ec063981a89b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html">UnionFind_UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7806c3147b1c8ee4bd5ec063981a89b3">getUnionFindStructure</a> (<a class="el" href="classmrmeshpy_1_1ConstPolylineTopology.html">ConstPolylineTopology</a> topology)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">This is a namespace.
 </pre> </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="ae4c0e5485d9ae94c5311c9ff3751789f" name="ae4c0e5485d9ae94c5311c9ff3751789f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4c0e5485d9ae94c5311c9ff3751789f">&#9670;&#160;</a></span>getAllComponents() <span class="overload">[1/2]</span></h2>
+<a id="a9ce721823df2a9b661af1d148c2c651f" name="a9ce721823df2a9b661af1d148c2c651f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ce721823df2a9b661af1d148c2c651f">&#9670;&#160;</a></span>getAllComponents() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -176,7 +170,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html">std_vector_TypedBitSet_Id_UndirectedEdgeTag</a> mrmeshpy.PolylineComponents.getAllComponents </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstPolylineTopology.html">ConstPolylineTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -191,8 +185,8 @@ Static Public Member Functions</h2></td></tr>
 </pre> 
 </div>
 </div>
-<a id="a9ac8e17e32d9f8be8ed437ba481b2c9c" name="a9ac8e17e32d9f8be8ed437ba481b2c9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ac8e17e32d9f8be8ed437ba481b2c9c">&#9670;&#160;</a></span>getAllComponents() <span class="overload">[2/2]</span></h2>
+<a id="a4450a364196794b83f3c91b15bd50e20" name="a4450a364196794b83f3c91b15bd50e20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4450a364196794b83f3c91b15bd50e20">&#9670;&#160;</a></span>getAllComponents() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,7 +197,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"> tuple[<a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html">std_vector_TypedBitSet_Id_UndirectedEdgeTag</a>, int] mrmeshpy.PolylineComponents.getAllComponents </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstPolylineTopology.html">ConstPolylineTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -218,14 +212,14 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <pre class="fragment">gets all connected components of polyline topology
-\\detail if components  number more than the maxComponentCount, they will be combined into groups of the same size 
+\\details if components  number more than the maxComponentCount, they will be combined into groups of the same size
 \\param maxComponentCount should be more than 1
 \\return pair components bitsets vector and number components in one group if components number more than maxComponentCount
 </pre> 
 </div>
 </div>
-<a id="a0751b2be93de2423443acd3ebbc742a6" name="a0751b2be93de2423443acd3ebbc742a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0751b2be93de2423443acd3ebbc742a6">&#9670;&#160;</a></span>getComponent()</h2>
+<a id="a68a319f4d74297618ffc20b6bf46133a" name="a68a319f4d74297618ffc20b6bf46133a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68a319f4d74297618ffc20b6bf46133a">&#9670;&#160;</a></span>getComponent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236,12 +230,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"> <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> mrmeshpy.PolylineComponents.getComponent </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstPolylineTopology.html">ConstPolylineTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeId.html">ConstUndirectedEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -250,13 +244,13 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<pre class="fragment">returns one connected component containing given undirected edge id, 
+<pre class="fragment">returns one connected component containing given undirected edge id,
 not effective to call more than once, if several components are needed use getAllComponents
 </pre> 
 </div>
 </div>
-<a id="a25a2c10c91f10d11c42c4512d1a9b3bf" name="a25a2c10c91f10d11c42c4512d1a9b3bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25a2c10c91f10d11c42c4512d1a9b3bf">&#9670;&#160;</a></span>getLargestComponent() <span class="overload">[1/2]</span></h2>
+<a id="a0a1e0a74b21c907f72406de36ec673bc" name="a0a1e0a74b21c907f72406de36ec673bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a1e0a74b21c907f72406de36ec673bc">&#9670;&#160;</a></span>getLargestComponent() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -267,7 +261,7 @@ not effective to call more than once, if several components are needed use getAl
         <tr>
           <td class="memname"> <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> mrmeshpy.PolylineComponents.getLargestComponent </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Polyline2.html">Polyline2</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstPolyline2.html">ConstPolyline2</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -290,8 +284,8 @@ not effective to call more than once, if several components are needed use getAl
 </pre> 
 </div>
 </div>
-<a id="a99488fcfbe9e63b90b9ee7c64be319b4" name="a99488fcfbe9e63b90b9ee7c64be319b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99488fcfbe9e63b90b9ee7c64be319b4">&#9670;&#160;</a></span>getLargestComponent() <span class="overload">[2/2]</span></h2>
+<a id="ac54b68e92ee9f49e0dcfef7d3c004f7c" name="ac54b68e92ee9f49e0dcfef7d3c004f7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac54b68e92ee9f49e0dcfef7d3c004f7c">&#9670;&#160;</a></span>getLargestComponent() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -302,7 +296,7 @@ not effective to call more than once, if several components are needed use getAl
         <tr>
           <td class="memname"> <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> mrmeshpy.PolylineComponents.getLargestComponent </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstPolyline3.html">ConstPolyline3</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -325,8 +319,8 @@ not effective to call more than once, if several components are needed use getAl
 </pre> 
 </div>
 </div>
-<a id="a679007ee4675b5cd03be9ac0290c7894" name="a679007ee4675b5cd03be9ac0290c7894"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a679007ee4675b5cd03be9ac0290c7894">&#9670;&#160;</a></span>getNLargeByLengthComponents() <span class="overload">[1/2]</span></h2>
+<a id="a258395c0191b86bfd0078aa3177dbf54" name="a258395c0191b86bfd0078aa3177dbf54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a258395c0191b86bfd0078aa3177dbf54">&#9670;&#160;</a></span>getNLargeByLengthComponents() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -337,12 +331,12 @@ not effective to call more than once, if several components are needed use getAl
         <tr>
           <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html">std_vector_TypedBitSet_Id_UndirectedEdgeTag</a> mrmeshpy.PolylineComponents.getNLargeByLengthComponents </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Polyline2.html">Polyline2</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstPolyline2.html">ConstPolyline2</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html">PolylineComponents.LargeByLengthComponentsSettings</a></td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PolylineComponents_1_1ConstLargeByLengthComponentsSettings.html">PolylineComponents.ConstLargeByLengthComponentsSettings</a></td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -355,8 +349,8 @@ not effective to call more than once, if several components are needed use getAl
 </pre> 
 </div>
 </div>
-<a id="ac7b732efa2e637248f9f0d3ec0fd819b" name="ac7b732efa2e637248f9f0d3ec0fd819b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7b732efa2e637248f9f0d3ec0fd819b">&#9670;&#160;</a></span>getNLargeByLengthComponents() <span class="overload">[2/2]</span></h2>
+<a id="a6bca87d4a2977e4dbd1533ad6ccfbc4a" name="a6bca87d4a2977e4dbd1533ad6ccfbc4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bca87d4a2977e4dbd1533ad6ccfbc4a">&#9670;&#160;</a></span>getNLargeByLengthComponents() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,12 +361,12 @@ not effective to call more than once, if several components are needed use getAl
         <tr>
           <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html">std_vector_TypedBitSet_Id_UndirectedEdgeTag</a> mrmeshpy.PolylineComponents.getNLargeByLengthComponents </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstPolyline3.html">ConstPolyline3</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html">PolylineComponents.LargeByLengthComponentsSettings</a></td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PolylineComponents_1_1ConstLargeByLengthComponentsSettings.html">PolylineComponents.ConstLargeByLengthComponentsSettings</a></td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -385,8 +379,8 @@ not effective to call more than once, if several components are needed use getAl
 </pre> 
 </div>
 </div>
-<a id="a365d405efc70c5bac46665018da8c1bc" name="a365d405efc70c5bac46665018da8c1bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a365d405efc70c5bac46665018da8c1bc">&#9670;&#160;</a></span>getNumComponents()</h2>
+<a id="a3eab4352235c167107baccb1396df536" name="a3eab4352235c167107baccb1396df536"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eab4352235c167107baccb1396df536">&#9670;&#160;</a></span>getNumComponents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -397,7 +391,7 @@ not effective to call more than once, if several components are needed use getAl
         <tr>
           <td class="memname"> int mrmeshpy.PolylineComponents.getNumComponents </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstPolylineTopology.html">ConstPolylineTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -411,8 +405,8 @@ not effective to call more than once, if several components are needed use getAl
 </pre> 
 </div>
 </div>
-<a id="a01a36542aef1f40a46a2fe7eb4f3724a" name="a01a36542aef1f40a46a2fe7eb4f3724a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01a36542aef1f40a46a2fe7eb4f3724a">&#9670;&#160;</a></span>getUnionFindStructure()</h2>
+<a id="a7806c3147b1c8ee4bd5ec063981a89b3" name="a7806c3147b1c8ee4bd5ec063981a89b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7806c3147b1c8ee4bd5ec063981a89b3">&#9670;&#160;</a></span>getUnionFindStructure()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -423,7 +417,7 @@ not effective to call more than once, if several components are needed use getAl
         <tr>
           <td class="memname"> <a class="el" href="classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html">UnionFind_UndirectedEdgeId</a> mrmeshpy.PolylineComponents.getUnionFindStructure </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstPolylineTopology.html">ConstPolylineTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

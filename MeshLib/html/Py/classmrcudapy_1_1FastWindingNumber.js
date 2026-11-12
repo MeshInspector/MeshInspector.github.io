@@ -1,11 +1,11 @@
 var classmrcudapy_1_1FastWindingNumber =
 [
-    [ "__init__", "classmrcudapy_1_1FastWindingNumber.html#a6d96e6a54e561488ac8e75a3db57c289", null ],
-    [ "__init__", "classmrcudapy_1_1FastWindingNumber.html#a4b83d09ad2d66fa7d43e6c9d658fcde7", null ],
-    [ "calcFromGrid", "classmrcudapy_1_1FastWindingNumber.html#aeb8b41d05598fc70538563ce64efb0f2", null ],
-    [ "calcFromGridByParts", "classmrcudapy_1_1FastWindingNumber.html#a79f1b2f8b30d09facf58170613773ada", null ],
-    [ "calcFromGridWithDistances", "classmrcudapy_1_1FastWindingNumber.html#a36e07c5949e8e58a6f20420f8a0202c8", null ],
-    [ "calcFromGridWithDistancesByParts", "classmrcudapy_1_1FastWindingNumber.html#ad5ad9834bc94fda9b02b5a0ee5af7c3c", null ],
-    [ "calcFromVector", "classmrcudapy_1_1FastWindingNumber.html#a7ee4623a45ba71e0d805bd475b9808c5", null ],
-    [ "calcSelfIntersections", "classmrcudapy_1_1FastWindingNumber.html#ad7feb91d3a3cef77741220cd46fc814c", null ]
+    [ "__init__", "classmrcudapy_1_1FastWindingNumber.html#a24708f776186441a33f751695c0fa124", null ],
+    [ "__init__", "classmrcudapy_1_1FastWindingNumber.html#a766baf7973589d382a36a70b7eca590f", null ],
+    [ "calcFromGrid", "classmrcudapy_1_1FastWindingNumber.html#a6eebfe26e72b1d92295af72c104b98e3", null ],
+    [ "calcFromGridByParts", "classmrcudapy_1_1FastWindingNumber.html#a3cf073076fd9afb2e1502a4f0ab91a7c", null ],
+    [ "calcFromGridWithDistances", "classmrcudapy_1_1FastWindingNumber.html#acce53f6d3704791e4c63273108379966", null ],
+    [ "calcFromGridWithDistancesByParts", "classmrcudapy_1_1FastWindingNumber.html#a4b3b4108822e7ef2e892ca6b3a412330", null ],
+    [ "calcFromVector", "classmrcudapy_1_1FastWindingNumber.html#a2568cfe2ba5cd69561fa192b51a8c921", null ],
+    [ "calcSelfIntersections", "classmrcudapy_1_1FastWindingNumber.html#a6c3eed25e6ce06ceac91048e4b49d2e5", null ]
 ];

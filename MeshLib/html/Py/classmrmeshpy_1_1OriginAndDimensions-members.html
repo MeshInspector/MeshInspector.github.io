@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -145,12 +138,15 @@ $(function(){initNavTree('classmrmeshpy_1_1OriginAndDimensions.html','',''); });
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html#ab8bcdf390de0e946c23ced5f8058493c">__init__</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html">mrmeshpy.OriginAndDimensions</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html#a2fd1b6fc62d2d65aa9cf92f4bf311e42">__init__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html">mrmeshpy.OriginAndDimensions</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html#af5fa0aef217f582a7af49ad449d1ca6a">__init__</a>(self, OriginAndDimensions arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html">mrmeshpy.OriginAndDimensions</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html#a4dff56b94ca8d85c5bdfe09d190c8ae6">__init__</a>(self, Vector3f origin, Vector3i dimensions)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html">mrmeshpy.OriginAndDimensions</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html#a626ea69c5ae30ae29ae0659d6556510b">_offsetof_dimensions</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html">mrmeshpy.OriginAndDimensions</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html#ac1749a644ec3b4ed24c52abdcfaeaabb">_offsetof_origin</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html">mrmeshpy.OriginAndDimensions</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html#a6e995f4be023488aa3efbb7d1cac6c4f">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html">mrmeshpy.OriginAndDimensions</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html#a6e995f4be023488aa3efbb7d1cac6c4f">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html">mrmeshpy.OriginAndDimensions</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html#a5b440118447b992ae9863708503ff717">__init__</a>(self, ConstOriginAndDimensions arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html">mrmeshpy.OriginAndDimensions</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html#a335a8b8237969950769a3e3886c9a410">__init__</a>(self, ConstVector3f origin, ConstVector3i dimensions)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html">mrmeshpy.OriginAndDimensions</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstOriginAndDimensions.html#adae9ce3c015445d145fc018bb65e42d6">_offsetof_dimensions</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstOriginAndDimensions.html">mrmeshpy.ConstOriginAndDimensions</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstOriginAndDimensions.html#a6fcfa204fa12dc62718795f08e01c8d8">_offsetof_origin</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstOriginAndDimensions.html">mrmeshpy.ConstOriginAndDimensions</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html#ac4b8cb98e08140f6af67b5b22af559d9">assign</a>(self, ConstOriginAndDimensions other)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html">mrmeshpy.OriginAndDimensions</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html#a044abdec755526c647f124e12f7b4460">dimensions</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html">mrmeshpy.OriginAndDimensions</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html#a9c773233deb5fde30d2f9e2625f8733c">dimensions</a>(self, ConstVector3i arg1)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html">mrmeshpy.OriginAndDimensions</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html#a1e9563430ad8649619a25f824384606f">origin</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html">mrmeshpy.OriginAndDimensions</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html#ad06b45504082d05dee48b91c0ce71624">origin</a>(self, ConstVector3f arg1)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1OriginAndDimensions.html">mrmeshpy.OriginAndDimensions</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

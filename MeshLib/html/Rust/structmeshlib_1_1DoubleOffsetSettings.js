@@ -1,0 +1,28 @@
+var structmeshlib_1_1DoubleOffsetSettings =
+[
+    [ "adaptivity", "structmeshlib_1_1DoubleOffsetSettings.html#a1b808036e5ca02ad6b6e30508b7ee75c", null ],
+    [ "adaptivity_mut", "structmeshlib_1_1DoubleOffsetSettings.html#a3d353db7842a454574702c28541d95a0", null ],
+    [ "assign_from_another", "structmeshlib_1_1DoubleOffsetSettings.html#a650a31938159ef6625d0537d4fbd8649", null ],
+    [ "fwn", "structmeshlib_1_1DoubleOffsetSettings.html#ab23618ada3e729356fdd49c27c5ed502", null ],
+    [ "fwn_mut", "structmeshlib_1_1DoubleOffsetSettings.html#a251a1619bee509586b848070766e397a", null ],
+    [ "offset_a", "structmeshlib_1_1DoubleOffsetSettings.html#af9a3d1f9b5659b0e8ee70fccf7cb47da", null ],
+    [ "offset_a_mut", "structmeshlib_1_1DoubleOffsetSettings.html#a933278c2041506a95fee620432aa73a4", null ],
+    [ "offset_b", "structmeshlib_1_1DoubleOffsetSettings.html#aaa9a613124c8ecf40087b404a52883c6", null ],
+    [ "offset_b_mut", "structmeshlib_1_1DoubleOffsetSettings.html#af408eec04c0da97814453101a1a40475", null ],
+    [ "progress", "structmeshlib_1_1DoubleOffsetSettings.html#ab653eb101a2dd12f950eb6e2e71c8bcb", null ],
+    [ "progress_mut", "structmeshlib_1_1DoubleOffsetSettings.html#aacd87ceaa9ff9950136054ebb8f02a12", null ],
+    [ "set_adaptivity", "structmeshlib_1_1DoubleOffsetSettings.html#a412fab22e8005748b367ee0c5c3c7118", null ],
+    [ "set_fwn", "structmeshlib_1_1DoubleOffsetSettings.html#ad21e6ad126c5c9609b9648b12e27cf72", null ],
+    [ "set_offset_a", "structmeshlib_1_1DoubleOffsetSettings.html#ab6b94d3b131c8211f9d6659910302132", null ],
+    [ "set_offset_b", "structmeshlib_1_1DoubleOffsetSettings.html#a4744021252b567cfc32a8f3b65ddb9f0", null ],
+    [ "set_progress", "structmeshlib_1_1DoubleOffsetSettings.html#a50461292251705a89292adedf05ca700", null ],
+    [ "set_voxel_size", "structmeshlib_1_1DoubleOffsetSettings.html#a25c722f3f57f9be0a4ce005485b33c07", null ],
+    [ "set_winding_number_beta", "structmeshlib_1_1DoubleOffsetSettings.html#a818916035880d69ff654ed652f652089", null ],
+    [ "set_winding_number_threshold", "structmeshlib_1_1DoubleOffsetSettings.html#a167d8e89b7b25212bbf4621a4c89a9db", null ],
+    [ "voxel_size", "structmeshlib_1_1DoubleOffsetSettings.html#a966d4984ce3d222c026f07907dcb2681", null ],
+    [ "voxel_size_mut", "structmeshlib_1_1DoubleOffsetSettings.html#a4c40fa297b47f3be61f81a620a06d999", null ],
+    [ "winding_number_beta", "structmeshlib_1_1DoubleOffsetSettings.html#adc09cc59ff9780103f36db64a6660977", null ],
+    [ "winding_number_beta_mut", "structmeshlib_1_1DoubleOffsetSettings.html#af9d4c2aed90ec957dc7d3ec156aaa162", null ],
+    [ "winding_number_threshold", "structmeshlib_1_1DoubleOffsetSettings.html#a64c59d7f1880627c27072d8763d98ff3", null ],
+    [ "winding_number_threshold_mut", "structmeshlib_1_1DoubleOffsetSettings.html#afb6b16e7dcf5f5fce31129f361853d70", null ]
+];

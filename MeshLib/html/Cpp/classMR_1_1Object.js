@@ -65,7 +65,7 @@ var classMR_1_1Object =
     [ "sendWorldXfChangedSignal_", "classMR_1_1Object.html#a51befbcd75bb0e8dabe65ab428c0ca61", null ],
     [ "serializeFields_", "classMR_1_1Object.html#af1776b0b1ac82e06055823a9cac2eafa", null ],
     [ "serializeModel_", "classMR_1_1Object.html#a50700fd5697a12cef45947f3b26adc2b", null ],
-    [ "serializeRecursive", "classMR_1_1Object.html#a816a99fe61e3ee86b2dddb57fc65aef9", null ],
+    [ "serializeRecursive", "classMR_1_1Object.html#a8c460ed38b0bffaa4135c99b575d3886", null ],
     [ "setAncillary", "classMR_1_1Object.html#aff1c500650f7ae09501f12d0830ebe69", null ],
     [ "setGlobalVisibility", "classMR_1_1Object.html#a2d67075395231ca81600bcf6241a6e24", null ],
     [ "setLocked", "classMR_1_1Object.html#ac427b5b1a99a87eac1305683801fc850", null ],

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -148,7 +141,7 @@ $(function(){initNavTree('classMR_1_1Const__EdgeScalars.html','','classMR_1_1Con
 </div><!--header-->
 <div class="contents">
 
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type,  
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.EdgeScalars. This is the non-const half of the...">MR.EdgeScalars</a></span>. This is the const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.Const_EdgeScalars:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -157,37 +150,35 @@ $(function(){initNavTree('classMR_1_1Const__EdgeScalars.html','','classMR_1_1Con
  <div class="center">
   <img src="classMR_1_1Const__EdgeScalars.png" usemap="#MR_2EConst_5FEdgeScalars_map" alt=""/>
   <map id="MR_2EConst_5FEdgeScalars_map" name="MR_2EConst_5FEdgeScalars_map">
-<area href="classMR_1_1EdgeScalars.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type," alt="MR.EdgeScalars" shape="rect" coords="234,112,380,136"/>
+<area href="classMR_1_1EdgeScalars.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.EdgeScalars. This is the non-const half of the..." alt="MR.EdgeScalars" shape="rect" coords="156,112,302,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:_5FEnumerator" id="r__5FEnumerator"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeScalars_1_1__Enumerator.html">_Enumerator</a></td></tr>
 <tr class="memitem:_5FUnderlying" id="r__5FUnderlying"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>_Underlying</b></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af751ea02a4e630ab3240809d0be33006" id="r_af751ea02a4e630ab3240809d0be33006"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af751ea02a4e630ab3240809d0be33006">Dispose</a> ()</td></tr>
-<tr class="memitem:a2180a0cd67970afbd6d09e0f79d1909f" id="r_a2180a0cd67970afbd6d09e0f79d1909f"><td class="memItemLeft" align="right" valign="top">IEnumerator&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2180a0cd67970afbd6d09e0f79d1909f">GetEnumerator</a> ()</td></tr>
 <tr class="memitem:a48eb2ff7375b4822cc5d4fa3700e870a" id="r_a48eb2ff7375b4822cc5d4fa3700e870a"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48eb2ff7375b4822cc5d4fa3700e870a">Const_EdgeScalars</a> ()</td></tr>
-<tr class="memdesc:a48eb2ff7375b4822cc5d4fa3700e870a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
+<tr class="memdesc:a48eb2ff7375b4822cc5d4fa3700e870a"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="memitem:a07d22ab826ebdc65a29624615b285948" id="r_a07d22ab826ebdc65a29624615b285948"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07d22ab826ebdc65a29624615b285948">Const_EdgeScalars</a> (MR._ByValue_EdgeScalars _other)</td></tr>
-<tr class="memdesc:a07d22ab826ebdc65a29624615b285948"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="Constructs an empty (default-constructed) instance.">MR.EdgeScalars.EdgeScalars</a></span>.  <br /></td></tr>
+<tr class="memdesc:a07d22ab826ebdc65a29624615b285948"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="creates empty vector">MR.EdgeScalars.EdgeScalars</a></span>.  <br /></td></tr>
 <tr class="memitem:aaa4ef0a830aae5e226456feba9f6ad54" id="r_aaa4ef0a830aae5e226456feba9f6ad54"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa4ef0a830aae5e226456feba9f6ad54">Const_EdgeScalars</a> (<a class="el" href="classMR_1_1Const__EdgeScalars.html">Const_EdgeScalars</a> _other)</td></tr>
-<tr class="memdesc:aaa4ef0a830aae5e226456feba9f6ad54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="Constructs an empty (default-constructed) instance.">MR.EdgeScalars.EdgeScalars</a></span>.  <br /></td></tr>
+<tr class="memdesc:aaa4ef0a830aae5e226456feba9f6ad54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="creates empty vector">MR.EdgeScalars.EdgeScalars</a></span>.  <br /></td></tr>
 <tr class="memitem:ac1eaeac3f8e1f55b1288b061fca1275c" id="r_ac1eaeac3f8e1f55b1288b061fca1275c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1eaeac3f8e1f55b1288b061fca1275c">Const_EdgeScalars</a> (<a class="el" href="classMR_1_1EdgeScalars.html">EdgeScalars</a> _other)</td></tr>
-<tr class="memdesc:ac1eaeac3f8e1f55b1288b061fca1275c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="Constructs an empty (default-constructed) instance.">MR.EdgeScalars.EdgeScalars</a></span>.  <br /></td></tr>
+<tr class="memdesc:ac1eaeac3f8e1f55b1288b061fca1275c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="creates empty vector">MR.EdgeScalars.EdgeScalars</a></span>.  <br /></td></tr>
 <tr class="memitem:a3d142edd4beb3cbe926aa1ea8d347703" id="r_a3d142edd4beb3cbe926aa1ea8d347703"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d142edd4beb3cbe926aa1ea8d347703">Const_EdgeScalars</a> (nuint <a class="el" href="#a676ba5e667f77f8ede73aa3b295f268b">size</a>)</td></tr>
-<tr class="memdesc:a3d142edd4beb3cbe926aa1ea8d347703"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="Constructs an empty (default-constructed) instance.">MR.EdgeScalars.EdgeScalars</a></span>.  <br /></td></tr>
+<tr class="memdesc:a3d142edd4beb3cbe926aa1ea8d347703"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="creates empty vector">MR.EdgeScalars.EdgeScalars</a></span>.  <br /></td></tr>
 <tr class="memitem:a1f9272c47fc4749fc5db9fc8d654376d" id="r_a1f9272c47fc4749fc5db9fc8d654376d"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f9272c47fc4749fc5db9fc8d654376d">Const_EdgeScalars</a> (nuint <a class="el" href="#a676ba5e667f77f8ede73aa3b295f268b">size</a>, float val)</td></tr>
-<tr class="memdesc:a1f9272c47fc4749fc5db9fc8d654376d"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="Constructs an empty (default-constructed) instance.">MR.EdgeScalars.EdgeScalars</a></span>.  <br /></td></tr>
-<tr class="memitem:a95f36c182f7edd870ba2210fd0f92dc2" id="r_a95f36c182f7edd870ba2210fd0f92dc2"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95f36c182f7edd870ba2210fd0f92dc2">Const_EdgeScalars</a> (MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; <a class="el" href="#a5cfa5c38b4269d9a8ff49e9789a7b275">vec</a>)</td></tr>
-<tr class="memdesc:a95f36c182f7edd870ba2210fd0f92dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="Constructs an empty (default-constructed) instance.">MR.EdgeScalars.EdgeScalars</a></span>.  <br /></td></tr>
+<tr class="memdesc:a1f9272c47fc4749fc5db9fc8d654376d"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="creates empty vector">MR.EdgeScalars.EdgeScalars</a></span>.  <br /></td></tr>
 <tr class="memitem:a7d3839ccd98d01ef43cab6c16f2b41b2" id="r_a7d3839ccd98d01ef43cab6c16f2b41b2"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d3839ccd98d01ef43cab6c16f2b41b2">empty</a> ()</td></tr>
 <tr class="memdesc:a7d3839ccd98d01ef43cab6c16f2b41b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a7d3839ccd98d01ef43cab6c16f2b41b2" title="Generated from method MR.EdgeScalars.empty.">MR.EdgeScalars.empty</a></span>.  <br /></td></tr>
 <tr class="memitem:a676ba5e667f77f8ede73aa3b295f268b" id="r_a676ba5e667f77f8ede73aa3b295f268b"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a676ba5e667f77f8ede73aa3b295f268b">size</a> ()</td></tr>
 <tr class="memdesc:a676ba5e667f77f8ede73aa3b295f268b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a676ba5e667f77f8ede73aa3b295f268b" title="Generated from method MR.EdgeScalars.size.">MR.EdgeScalars.size</a></span>.  <br /></td></tr>
+<tr class="memitem:a9dbdde4236c3bc38486e4ee712ab1088" id="r_a9dbdde4236c3bc38486e4ee712ab1088"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dbdde4236c3bc38486e4ee712ab1088">maxSize</a> ()</td></tr>
+<tr class="memdesc:a9dbdde4236c3bc38486e4ee712ab1088"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::EdgeScalars::max_size</span>.  <br /></td></tr>
 <tr class="memitem:afadc5ea6f9ec9b75274fee0667bcc0f5" id="r_afadc5ea6f9ec9b75274fee0667bcc0f5"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afadc5ea6f9ec9b75274fee0667bcc0f5">capacity</a> ()</td></tr>
 <tr class="memdesc:afadc5ea6f9ec9b75274fee0667bcc0f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#afadc5ea6f9ec9b75274fee0667bcc0f5" title="Generated from method MR.EdgeScalars.capacity.">MR.EdgeScalars.capacity</a></span>.  <br /></td></tr>
 <tr class="memitem:a2ec21158e26c8189a3c6a945c8b95f04" id="r_a2ec21158e26c8189a3c6a945c8b95f04"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ec21158e26c8189a3c6a945c8b95f04">front</a> ()</td></tr>
@@ -209,8 +200,6 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:adeef7336a8fe90f376526f5d92819039" id="r_adeef7336a8fe90f376526f5d92819039"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adeef7336a8fe90f376526f5d92819039">operator Const_EdgeScalars</a> (MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; <a class="el" href="#a5cfa5c38b4269d9a8ff49e9789a7b275">vec</a>)</td></tr>
-<tr class="memdesc:adeef7336a8fe90f376526f5d92819039"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="Constructs an empty (default-constructed) instance.">MR.EdgeScalars.EdgeScalars</a></span>.  <br /></td></tr>
 <tr class="memitem:ab7b84a092c884735f77a661fff16b681" id="r_ab7b84a092c884735f77a661fff16b681"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7b84a092c884735f77a661fff16b681">operator==</a> (<a class="el" href="classMR_1_1Const__EdgeScalars.html">MR.Const_EdgeScalars</a> _this, <a class="el" href="classMR_1_1Const__EdgeScalars.html">MR.Const_EdgeScalars</a> b)</td></tr>
 <tr class="memdesc:ab7b84a092c884735f77a661fff16b681"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::EdgeScalars::operator==</span>.  <br /></td></tr>
 <tr class="memitem:a855817d09e78b8523c4c370da582644a" id="r_a855817d09e78b8523c4c370da582644a"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a855817d09e78b8523c4c370da582644a">operator!=</a> (<a class="el" href="classMR_1_1Const__EdgeScalars.html">MR.Const_EdgeScalars</a> _this, <a class="el" href="classMR_1_1Const__EdgeScalars.html">MR.Const_EdgeScalars</a> b)</td></tr>
@@ -221,23 +210,16 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a5cfa5c38b4269d9a8ff49e9789a7b275" id="r_a5cfa5c38b4269d9a8ff49e9789a7b275"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cfa5c38b4269d9a8ff49e9789a7b275">vec</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a5cfa5c38b4269d9a8ff49e9789a7b275"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
+<tr class="memitem:a5cb968f94b91bc347fb412f88ce4ca83" id="r_a5cb968f94b91bc347fb412f88ce4ca83"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_Float_MRAllocatorFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cb968f94b91bc347fb412f88ce4ca83">vec</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a5cb968f94b91bc347fb412f88ce4ca83"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
 <tr class="memitem:a6a7dee672de7562558d98168cde8f458" id="r_a6a7dee672de7562558d98168cde8f458"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a7dee672de7562558d98168cde8f458">this[MR.EdgeId i]</a><code> [get]</code></td></tr>
 <tr class="memdesc:a6a7dee672de7562558d98168cde8f458"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::EdgeScalars::operator[]</span>.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type,">MR.EdgeScalars</a></span>. This is the const half of the class. </td></tr>
-  </table>
-  </dd>
-</dl>
+<div class="textblock"><p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.EdgeScalars. This is the non-const half of the...">MR.EdgeScalars</a></span>. This is the const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a48eb2ff7375b4822cc5d4fa3700e870a" name="a48eb2ff7375b4822cc5d4fa3700e870a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48eb2ff7375b4822cc5d4fa3700e870a">&#9670;&#160;</a></span>Const_EdgeScalars() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a48eb2ff7375b4822cc5d4fa3700e870a">&#9670;&#160;</a></span>Const_EdgeScalars() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,12 +241,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs an empty (default-constructed) instance. </p>
+<p>creates empty vector </p>
 
 </div>
 </div>
 <a id="a07d22ab826ebdc65a29624615b285948" name="a07d22ab826ebdc65a29624615b285948"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07d22ab826ebdc65a29624615b285948">&#9670;&#160;</a></span>Const_EdgeScalars() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a07d22ab826ebdc65a29624615b285948">&#9670;&#160;</a></span>Const_EdgeScalars() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,12 +268,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="Constructs an empty (default-constructed) instance.">MR.EdgeScalars.EdgeScalars</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="creates empty vector">MR.EdgeScalars.EdgeScalars</a></span>. </p>
 
 </div>
 </div>
 <a id="aaa4ef0a830aae5e226456feba9f6ad54" name="aaa4ef0a830aae5e226456feba9f6ad54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa4ef0a830aae5e226456feba9f6ad54">&#9670;&#160;</a></span>Const_EdgeScalars() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa4ef0a830aae5e226456feba9f6ad54">&#9670;&#160;</a></span>Const_EdgeScalars() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -313,12 +295,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="Constructs an empty (default-constructed) instance.">MR.EdgeScalars.EdgeScalars</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="creates empty vector">MR.EdgeScalars.EdgeScalars</a></span>. </p>
 
 </div>
 </div>
 <a id="ac1eaeac3f8e1f55b1288b061fca1275c" name="ac1eaeac3f8e1f55b1288b061fca1275c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1eaeac3f8e1f55b1288b061fca1275c">&#9670;&#160;</a></span>Const_EdgeScalars() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1eaeac3f8e1f55b1288b061fca1275c">&#9670;&#160;</a></span>Const_EdgeScalars() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,12 +322,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="Constructs an empty (default-constructed) instance.">MR.EdgeScalars.EdgeScalars</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="creates empty vector">MR.EdgeScalars.EdgeScalars</a></span>. </p>
 
 </div>
 </div>
 <a id="a3d142edd4beb3cbe926aa1ea8d347703" name="a3d142edd4beb3cbe926aa1ea8d347703"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d142edd4beb3cbe926aa1ea8d347703">&#9670;&#160;</a></span>Const_EdgeScalars() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d142edd4beb3cbe926aa1ea8d347703">&#9670;&#160;</a></span>Const_EdgeScalars() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,12 +349,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="Constructs an empty (default-constructed) instance.">MR.EdgeScalars.EdgeScalars</a></span>. </p>
+<p>creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="creates empty vector">MR.EdgeScalars.EdgeScalars</a></span>. </p>
 
 </div>
 </div>
 <a id="a1f9272c47fc4749fc5db9fc8d654376d" name="a1f9272c47fc4749fc5db9fc8d654376d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f9272c47fc4749fc5db9fc8d654376d">&#9670;&#160;</a></span>Const_EdgeScalars() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f9272c47fc4749fc5db9fc8d654376d">&#9670;&#160;</a></span>Const_EdgeScalars() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -398,34 +380,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="Constructs an empty (default-constructed) instance.">MR.EdgeScalars.EdgeScalars</a></span>. </p>
-
-</div>
-</div>
-<a id="a95f36c182f7edd870ba2210fd0f92dc2" name="a95f36c182f7edd870ba2210fd0f92dc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95f36c182f7edd870ba2210fd0f92dc2">&#9670;&#160;</a></span>Const_EdgeScalars() <span class="overload">[7/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe MR.Const_EdgeScalars.Const_EdgeScalars </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_Float &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="Constructs an empty (default-constructed) instance.">MR.EdgeScalars.EdgeScalars</a></span>. </p>
+<p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="creates empty vector">MR.EdgeScalars.EdgeScalars</a></span>. </p>
 
 </div>
 </div>
@@ -746,31 +701,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a2180a0cd67970afbd6d09e0f79d1909f" name="a2180a0cd67970afbd6d09e0f79d1909f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2180a0cd67970afbd6d09e0f79d1909f">&#9670;&#160;</a></span>GetEnumerator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">IEnumerator&lt; float &gt; MR.Const_EdgeScalars.GetEnumerator </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a6f0c64bbc2ef71d54c6d306fdcf0892a" name="a6f0c64bbc2ef71d54c6d306fdcf0892a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6f0c64bbc2ef71d54c6d306fdcf0892a">&#9670;&#160;</a></span>heapBytes()</h2>
 
@@ -798,8 +728,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="adeef7336a8fe90f376526f5d92819039" name="adeef7336a8fe90f376526f5d92819039"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adeef7336a8fe90f376526f5d92819039">&#9670;&#160;</a></span>operator Const_EdgeScalars()</h2>
+<a id="a9dbdde4236c3bc38486e4ee712ab1088" name="a9dbdde4236c3bc38486e4ee712ab1088"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dbdde4236c3bc38486e4ee712ab1088">&#9670;&#160;</a></span>maxSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -808,20 +738,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe implicit MR.Const_EdgeScalars.operator <a class="el" href="classMR_1_1Const__EdgeScalars.html">Const_EdgeScalars</a> </td>
+          <td class="memname">unsafe nuint MR.Const_EdgeScalars.maxSize </td>
           <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_Float &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="classMR_1_1EdgeScalars.html#a01cec13e41e8c7d1f8b78ea66d2be658" title="Constructs an empty (default-constructed) instance.">MR.EdgeScalars.EdgeScalars</a></span>. </p>
+<p>Generated from method <span class="tt">MR::EdgeScalars::max_size</span>. </p>
 
 </div>
 </div>
@@ -937,8 +867,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a5cfa5c38b4269d9a8ff49e9789a7b275" name="a5cfa5c38b4269d9a8ff49e9789a7b275"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5cfa5c38b4269d9a8ff49e9789a7b275">&#9670;&#160;</a></span>vec</h2>
+<a id="a5cb968f94b91bc347fb412f88ce4ca83" name="a5cb968f94b91bc347fb412f88ce4ca83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cb968f94b91bc347fb412f88ce4ca83">&#9670;&#160;</a></span>vec</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -947,7 +877,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe MR.Std.Const_Vector_Float MR.Const_EdgeScalars.vec</td>
+          <td class="memname">unsafe MR.Std.Const_Vector_Float_MRAllocatorFloat MR.Const_EdgeScalars.vec</td>
         </tr>
       </table>
   </td>

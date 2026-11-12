@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -184,6 +177,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad53224adbf0edaf75f2a3dc52d4e2396 inherit pub_methods_classMR_1_1Const__MeshPointAndDistance"><td class="mdescLeft">&#160;</td><td class="mdescRight">bidirectional distance from input location to mtp considering point's weight Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshPointAndDistance.html#ad53224adbf0edaf75f2a3dc52d4e2396" title="bidirectional distance from input location to mtp considering point&#39;s weight Generated from method MR...">MR.MeshPointAndDistance.bidirDist</a></span>.  <br /></td></tr>
 <tr class="memitem:a5c8168b353316f0c9b5b6ba9654d223a inherit pub_methods_classMR_1_1Const__MeshPointAndDistance" id="r_a5c8168b353316f0c9b5b6ba9654d223a"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshPointAndDistance.html#a5c8168b353316f0c9b5b6ba9654d223a">dist</a> ()</td></tr>
 <tr class="memdesc:a5c8168b353316f0c9b5b6ba9654d223a inherit pub_methods_classMR_1_1Const__MeshPointAndDistance"><td class="mdescLeft">&#160;</td><td class="mdescRight">the distance from input location to mtp considering point's weight and location inside/outside; <a class="el" href="classMR_1_1Const__MeshPointAndDistance.html#a5c8168b353316f0c9b5b6ba9654d223a" title="the distance from input location to mtp considering point&#39;s weight and location inside/outside; dist(...">dist()</a> is continuous function of location unlike innerDist(), which makes 2*weight jump if the location moves through the surface Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshPointAndDistance.html#a5c8168b353316f0c9b5b6ba9654d223a" title="the distance from input location to mtp considering point&#39;s weight and location inside/outside; dist(...">MR.MeshPointAndDistance.dist</a></span>.  <br /></td></tr>
+<tr class="memitem:a50a24f633159c65c420b3c55adc11dfb inherit pub_methods_classMR_1_1Const__MeshPointAndDistance" id="r_a50a24f633159c65c420b3c55adc11dfb"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.PartialOrdering&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshPointAndDistance.html#a50a24f633159c65c420b3c55adc11dfb">compareThreeWay</a> (<a class="el" href="classMR_1_1Const__MeshPointAndDistance.html">MR.Const_MeshPointAndDistance</a> other)</td></tr>
+<tr class="memdesc:a50a24f633159c65c420b3c55adc11dfb inherit pub_methods_classMR_1_1Const__MeshPointAndDistance"><td class="mdescLeft">&#160;</td><td class="mdescRight">comparison telling which point is closer to the location Generated from method <span class="tt">MR::MeshPointAndDistance::operator&amp;lt;=&amp;gt;</span>.  <br /></td></tr>
 <tr class="memitem:a8521321503db377e060ae14db7afc149 inherit pub_methods_classMR_1_1Const__MeshPointAndDistance" id="r_a8521321503db377e060ae14db7afc149"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshPointAndDistance.html#a8521321503db377e060ae14db7afc149">valid</a> ()</td></tr>
 <tr class="memdesc:a8521321503db377e060ae14db7afc149 inherit pub_methods_classMR_1_1Const__MeshPointAndDistance"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for validity, otherwise there is no point closer than maxBidirDist Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__MeshPointAndDistance.html#a8521321503db377e060ae14db7afc149" title="check for validity, otherwise there is no point closer than maxBidirDist Generated from method MR....">MR.MeshPointAndDistance.valid</a></span>.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -216,6 +211,11 @@ Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_methods_classMR_1_1Const__MeshPointAndDistance"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1Const__MeshPointAndDistance')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classMR_1_1Const__MeshPointAndDistance.html">MR.Const_MeshPointAndDistance</a></td></tr>
 <tr class="memitem:a90f32ba0d02c3a0b6ac60c1f2cd95063 inherit pub_static_methods_classMR_1_1Const__MeshPointAndDistance" id="r_a90f32ba0d02c3a0b6ac60c1f2cd95063"><td class="memItemLeft" align="right" valign="top">static unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshPointAndDistance.html#a90f32ba0d02c3a0b6ac60c1f2cd95063">operator bool</a> (<a class="el" href="classMR_1_1Const__MeshPointAndDistance.html">MR.Const_MeshPointAndDistance</a> _this)</td></tr>
 <tr class="memdesc:a90f32ba0d02c3a0b6ac60c1f2cd95063 inherit pub_static_methods_classMR_1_1Const__MeshPointAndDistance"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from conversion operator <span class="tt">MR::MeshPointAndDistance::operator bool</span>.  <br /></td></tr>
+<tr class="memitem:adb3c4b912d57cf22ce062c4eb4607f53 inherit pub_static_methods_classMR_1_1Const__MeshPointAndDistance" id="r_adb3c4b912d57cf22ce062c4eb4607f53"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshPointAndDistance.html#adb3c4b912d57cf22ce062c4eb4607f53">operator&lt;</a> (<a class="el" href="classMR_1_1Const__MeshPointAndDistance.html">MR.Const_MeshPointAndDistance</a> _this, <a class="el" href="classMR_1_1Const__MeshPointAndDistance.html">MR.Const_MeshPointAndDistance</a> other)</td></tr>
+<tr class="memdesc:adb3c4b912d57cf22ce062c4eb4607f53 inherit pub_static_methods_classMR_1_1Const__MeshPointAndDistance"><td class="mdescLeft">&#160;</td><td class="mdescRight">comparison telling which point is closer to the location Generated from method <span class="tt">MR::MeshPointAndDistance::operator&amp;lt;</span>.  <br /></td></tr>
+<tr class="memitem:a7b9cfe8b6873a2d84644176ec4ee89c7 inherit pub_static_methods_classMR_1_1Const__MeshPointAndDistance" id="r_a7b9cfe8b6873a2d84644176ec4ee89c7"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshPointAndDistance.html#a7b9cfe8b6873a2d84644176ec4ee89c7">operator&gt;</a> (<a class="el" href="classMR_1_1Const__MeshPointAndDistance.html">MR.Const_MeshPointAndDistance</a> _this, <a class="el" href="classMR_1_1Const__MeshPointAndDistance.html">MR.Const_MeshPointAndDistance</a> other)</td></tr>
+<tr class="memitem:a98287227fc4029d8dbfb27cd7a8233dd inherit pub_static_methods_classMR_1_1Const__MeshPointAndDistance" id="r_a98287227fc4029d8dbfb27cd7a8233dd"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshPointAndDistance.html#a98287227fc4029d8dbfb27cd7a8233dd">operator&lt;=</a> (<a class="el" href="classMR_1_1Const__MeshPointAndDistance.html">MR.Const_MeshPointAndDistance</a> _this, <a class="el" href="classMR_1_1Const__MeshPointAndDistance.html">MR.Const_MeshPointAndDistance</a> other)</td></tr>
+<tr class="memitem:ada0e54eb64e49f231b2eb06f52d57697 inherit pub_static_methods_classMR_1_1Const__MeshPointAndDistance" id="r_ada0e54eb64e49f231b2eb06f52d57697"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshPointAndDistance.html#ada0e54eb64e49f231b2eb06f52d57697">operator&gt;=</a> (<a class="el" href="classMR_1_1Const__MeshPointAndDistance.html">MR.Const_MeshPointAndDistance</a> _this, <a class="el" href="classMR_1_1Const__MeshPointAndDistance.html">MR.Const_MeshPointAndDistance</a> other)</td></tr>
 <tr class="inherit_header pro_methods_classMR_1_1Const__MeshPointAndDistance"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classMR_1_1Const__MeshPointAndDistance')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classMR_1_1Const__MeshPointAndDistance.html">MR.Const_MeshPointAndDistance</a></td></tr>
 <tr class="memitem:ac324bbd927ce5301f19f0efb779b458a inherit pro_methods_classMR_1_1Const__MeshPointAndDistance" id="r_ac324bbd927ce5301f19f0efb779b458a"><td class="memItemLeft" align="right" valign="top">virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__MeshPointAndDistance.html#ac324bbd927ce5301f19f0efb779b458a">Dispose</a> (bool disposing)</td></tr>
 <tr class="inherit_header pro_attribs_classMR_1_1Const__MeshPointAndDistance"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Const__MeshPointAndDistance')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Attributes inherited from <a class="el" href="classMR_1_1Const__MeshPointAndDistance.html">MR.Const_MeshPointAndDistance</a></td></tr>

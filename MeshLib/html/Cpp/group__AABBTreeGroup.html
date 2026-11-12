@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -152,9 +145,16 @@ $(function(){initNavTree('group__AABBTreeGroup.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ACuda_3A_3AFastWindingNumber" id="r_MR_3A_3ACuda_3A_3AFastWindingNumber"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR::Cuda::FastWindingNumber</a></td></tr>
+<tr class="memitem:MR_3A_3AAABBTreeWideNode" id="r_MR_3A_3AAABBTreeWideNode"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeWideNode.html">MR::AABBTreeWideNode</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">node of <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> (outside of the class to be default-constructible in its members)  <a href="structMR_1_1AABBTreeWideNode.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AAABBTreeWideLeafTri" id="r_MR_3A_3AAABBTreeWideLeafTri"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeWideLeafTri.html">MR::AABBTreeWideLeafTri</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangle in a leaf of <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a>  <a href="structMR_1_1AABBTreeWideLeafTri.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AAABBTree" id="r_MR_3A_3AAABBTree"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTree.html">MR::AABBTree</a></td></tr>
-<tr class="memitem:MR_3A_3ABoxedLeaf_3C_20T_20_3E" id="r_MR_3A_3ABoxedLeaf_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BoxedLeaf.html">MR::BoxedLeaf&lt; T &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3AAABBTreeTraits_3C_20L_2C_20B_20_3E" id="r_MR_3A_3AAABBTreeTraits_3C_20L_2C_20B_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeTraits.html">MR::AABBTreeTraits&lt; L, B &gt;</a></td></tr>
+<tr class="memitem:MR_3A_3ABoxedLeaf_3C_20T_20_3E" id="r_MR_3A_3ABoxedLeaf_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BoxedLeaf.html">MR::BoxedLeaf&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a leaf of AABB-tree: the id of an object (e.g. face) with its bounding box  <a href="structMR_1_1BoxedLeaf.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AAABBTreeChildEncoding" id="r_MR_3A_3AAABBTreeChildEncoding"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeChildEncoding.html">MR::AABBTreeChildEncoding</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">the encoding of the children of AABB-tree nodes  <a href="structMR_1_1AABBTreeChildEncoding.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AAABBTreeNode_3C_20T_20_3E" id="r_MR_3A_3AAABBTreeNode_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeNode.html">MR::AABBTreeNode&lt; T &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3ANodeNode" id="r_MR_3A_3ANodeNode"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NodeNode.html">MR::NodeNode</a></td></tr>
 <tr class="memitem:MR_3A_3AAABBTreeObjects" id="r_MR_3A_3AAABBTreeObjects"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTreeObjects.html">MR::AABBTreeObjects</a></td></tr>
@@ -186,7 +186,7 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ASignedDistanceToMeshResult" id="r_MR_3A_3ASignedDistanceToMeshResult"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SignedDistanceToMeshResult.html">MR::SignedDistanceToMeshResult</a></td></tr>
 <tr class="memitem:MR_3A_3APointsProjectionResult" id="r_MR_3A_3APointsProjectionResult"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointsProjectionResult.html">MR::PointsProjectionResult</a></td></tr>
 <tr class="memitem:MR_3A_3AFindProjectionOnPointsSettings" id="r_MR_3A_3AFindProjectionOnPointsSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FindProjectionOnPointsSettings.html">MR::FindProjectionOnPointsSettings</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">settings for <a class="el" href="classMR_1_1IPointsProjector.html#a73d0b887b876f110e3fb6554422f9a31">IPointsProjector::findProjections</a>  <a href="structMR_1_1FindProjectionOnPointsSettings.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">settings for <a class="el" href="classMR_1_1IPointsProjector.html#ab55d9f3ad796f98b2fb49a11850282b2">IPointsProjector::findProjections</a>  <a href="structMR_1_1FindProjectionOnPointsSettings.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AIPointsProjector" id="r_MR_3A_3AIPointsProjector"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IPointsProjector.html">MR::IPointsProjector</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">abstract class for computing the closest points of point clouds  <a href="classMR_1_1IPointsProjector.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3APointsProjector" id="r_MR_3A_3APointsProjector"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PointsProjector.html">MR::PointsProjector</a></td></tr>
@@ -200,23 +200,25 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ga2d9f9e10f5365b971c9f7300264be632" id="r_ga2d9f9e10f5365b971c9f7300264be632"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2d9f9e10f5365b971c9f7300264be632">MR::FaceTreeTraits3</a> = <a class="el" href="structMR_1_1AABBTreeTraits.html">AABBTreeTraits</a>&lt;<a class="el" href="group__GeneralGroup.html#ga7a4a96848eb4b1524be699a7adcd8017">FaceTag</a>, Box3f&gt;</td></tr>
+<tr class="memitem:ga95f912058ca6db2505244c6dbc2dd52f" id="r_ga95f912058ca6db2505244c6dbc2dd52f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga95f912058ca6db2505244c6dbc2dd52f">MR::OnLeafCallback</a> = <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt;void( size_t leafIndex, size_t boxedLeafIndex )&gt;</td></tr>
+<tr class="memdesc:ga95f912058ca6db2505244c6dbc2dd52f"><td class="mdescLeft">&#160;</td><td class="mdescRight">called in parallel for every leaf with its index in the order of the tree and its index in the given boxed leaves  <br /></td></tr>
 <tr class="memitem:ga876e325460f0c5460c1e453324ca329c" id="r_ga876e325460f0c5460c1e453324ca329c"><td class="memTemplParams" colspan="2">template&lt;typename V&gt; </td></tr>
-<tr class="memitem:ga876e325460f0c5460c1e453324ca329c template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga876e325460f0c5460c1e453324ca329c">MR::LineTreeTraits</a> = <a class="el" href="structMR_1_1AABBTreeTraits.html">AABBTreeTraits</a>&lt;<a class="el" href="group__GeneralGroup.html#ga1bbe6aa7d7136f740286af86f591c19b">UndirectedEdgeTag</a>, <a class="el" href="structMR_1_1Box.html">Box</a>&lt;V&gt;&gt;</td></tr>
+<tr class="memitem:ga876e325460f0c5460c1e453324ca329c template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga876e325460f0c5460c1e453324ca329c">MR::LineTreeTraits</a> = <a class="el" href="structMR_1_1AABBTreeTraits.html">AABBTreeTraits</a>&lt;UndirectedEdgeTag, <a class="el" href="structMR_1_1Box.html">Box</a>&lt;V&gt;&gt;</td></tr>
 <tr class="memitem:ga346d2e7774495e3e4ca05a2325f11aaf" id="r_ga346d2e7774495e3e4ca05a2325f11aaf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga346d2e7774495e3e4ca05a2325f11aaf">MR::LineTreeTraits2</a> = <a class="el" href="#ga876e325460f0c5460c1e453324ca329c">LineTreeTraits</a>&lt;Vector2f&gt;</td></tr>
 <tr class="memitem:gacf6e57b5e87718397acc1762969ad77a" id="r_gacf6e57b5e87718397acc1762969ad77a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacf6e57b5e87718397acc1762969ad77a">MR::LineTreeTraits3</a> = <a class="el" href="#ga876e325460f0c5460c1e453324ca329c">LineTreeTraits</a>&lt;Vector3f&gt;</td></tr>
 <tr class="memitem:ga01c75e3c26967a90edbe075a77cb2ca9" id="r_ga01c75e3c26967a90edbe075a77cb2ca9"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga01c75e3c26967a90edbe075a77cb2ca9 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga01c75e3c26967a90edbe075a77cb2ca9">MR::AABBTreeNodeVec</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1AABBTreeNode.html">AABBTreeNode</a>&lt;T&gt;, NodeId&gt;</td></tr>
-<tr class="memitem:ga457b7bb3a129cf50a82586b670a93148" id="r_ga457b7bb3a129cf50a82586b670a93148"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga457b7bb3a129cf50a82586b670a93148">MR::PreciseCollisionResult</a> = std::vector&lt;<a class="el" href="structMR_1_1VarEdgeTri.html">VarEdgeTri</a>&gt;</td></tr>
+<tr class="memitem:gabe6f25bc80391d73c9e217bdcd4769d3" id="r_gabe6f25bc80391d73c9e217bdcd4769d3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabe6f25bc80391d73c9e217bdcd4769d3">MR::PreciseCollisionResult</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1VarEdgeTri.html">VarEdgeTri</a>&gt;</td></tr>
 <tr class="memitem:ga285ea5cd9fb638c90fec0099f526c057" id="r_ga285ea5cd9fb638c90fec0099f526c057"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga285ea5cd9fb638c90fec0099f526c057">MR::TriangleCallback</a> = std::function&lt;<a class="el" href="#ga3dd2fd9fcc06b6502d22a9ea3eb63e47">ProcessOneResult</a>( const Vector3f &amp; p, FaceId f, const Vector3f &amp; q, float distSq )&gt;</td></tr>
 <tr class="memitem:ga9222ec2d954badb7ee5874321a084eb6" id="r_ga9222ec2d954badb7ee5874321a084eb6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9222ec2d954badb7ee5874321a084eb6">MR::Line3fMesh</a> = <a class="el" href="structMR_1_1Line3Mesh.html">Line3Mesh</a>&lt;float&gt;</td></tr>
 <tr class="memitem:ga8ba650839d7806773bb542b986ac4283" id="r_ga8ba650839d7806773bb542b986ac4283"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8ba650839d7806773bb542b986ac4283">MR::Line3dMesh</a> = <a class="el" href="structMR_1_1Line3Mesh.html">Line3Mesh</a>&lt;double&gt;</td></tr>
 <tr class="memitem:gac20cf6ba073a7db1e2df313fb87d9517" id="r_gac20cf6ba073a7db1e2df313fb87d9517"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac20cf6ba073a7db1e2df313fb87d9517">MR::MeshIntersectionCallback</a> = std::function&lt;bool(const <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a> &amp;)&gt;</td></tr>
+<tr class="memitem:ga9aa9e0fd7fa1a5029ec19df149069464" id="r_ga9aa9e0fd7fa1a5029ec19df149069464"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9aa9e0fd7fa1a5029ec19df149069464">MR::MeshIntersectionWithSideCallback</a> = std::function&lt;bool( const <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a> &amp;, bool fromFront )&gt;</td></tr>
 <tr class="memitem:ga4349e23b1c03bbeb120c81f3cbb8b615" id="r_ga4349e23b1c03bbeb120c81f3cbb8b615"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4349e23b1c03bbeb120c81f3cbb8b615">MR::FoundBoxedTriCallback</a> = std::function&lt;<a class="el" href="group__GeneralGroup.html#gae9fc4543eb3302ae33b7843707485149">Processing</a>( FaceId found, Ball3f &amp; ball )&gt;</td></tr>
 <tr class="memitem:ga3fa10deed3f5f765a28d62f2a9667c0f" id="r_ga3fa10deed3f5f765a28d62f2a9667c0f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3fa10deed3f5f765a28d62f2a9667c0f">MR::FoundTriCallback</a> = std::function&lt;<a class="el" href="group__GeneralGroup.html#gae9fc4543eb3302ae33b7843707485149">Processing</a>( const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp; found, Ball3f &amp; ball )&gt;</td></tr>
 <tr class="memdesc:ga3fa10deed3f5f765a28d62f2a9667c0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">this callback is invoked on every triangle at least partially in the ball, and allows changing (shrinking only) the ball  <br /></td></tr>
 <tr class="memitem:ga80d1c820a9a9983c511c6785b2c8ed94" id="r_ga80d1c820a9a9983c511c6785b2c8ed94"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:ga80d1c820a9a9983c511c6785b2c8ed94 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga80d1c820a9a9983c511c6785b2c8ed94">MR::PolylineIntersectionCallback2</a> = std::function&lt;<a class="el" href="group__GeneralGroup.html#gae9fc4543eb3302ae33b7843707485149">Processing</a>(const <a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a> &amp; polylinePoint, T rayPos, T &amp; rayStart, T &amp; rayEnd)&gt;</td></tr>
+<tr class="memitem:ga80d1c820a9a9983c511c6785b2c8ed94 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga80d1c820a9a9983c511c6785b2c8ed94">MR::PolylineIntersectionCallback2</a> = std::function&lt;<a class="el" href="group__GeneralGroup.html#gae9fc4543eb3302ae33b7843707485149">Processing</a>(const <a class="el" href="group__GeneralGroup.html#ga2184a4ebcef7a214ba981313f3637935">EdgePoint</a> &amp; polylinePoint, T rayPos, T &amp; rayStart, T &amp; rayEnd)&gt;</td></tr>
 <tr class="memitem:gae0b1767f78412a4100c7baa4ae2cb2de" id="r_gae0b1767f78412a4100c7baa4ae2cb2de"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae0b1767f78412a4100c7baa4ae2cb2de">MR::PolylineIntersectionCallback2f</a> = <a class="el" href="#ga80d1c820a9a9983c511c6785b2c8ed94">PolylineIntersectionCallback2</a>&lt;float&gt;</td></tr>
 <tr class="memitem:gaba7cace2c59d8ea1874ea0223d3c3d42" id="r_gaba7cace2c59d8ea1874ea0223d3c3d42"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaba7cace2c59d8ea1874ea0223d3c3d42">MR::PolylineIntersectionCallback2d</a> = <a class="el" href="#ga80d1c820a9a9983c511c6785b2c8ed94">PolylineIntersectionCallback2</a>&lt;double&gt;</td></tr>
 <tr class="memitem:gac2b944209dd41b786a30b1d537639470" id="r_gac2b944209dd41b786a30b1d537639470"><td class="memTemplParams" colspan="2">template&lt;typename V&gt; </td></tr>
@@ -244,9 +246,9 @@ Enumerations</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga3c1bb6417aaa769fa4156f2edac91749" id="r_ga3c1bb6417aaa769fa4156f2edac91749"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3c1bb6417aaa769fa4156f2edac91749">MR::getNumNodes</a> (int numLeaves)</td></tr>
-<tr class="memdesc:ga3c1bb6417aaa769fa4156f2edac91749"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of nodes in the binary tree with given number of leaves  <br /></td></tr>
-<tr class="memitem:ga364302ddaf673e7f00c6745f4172d6c0" id="r_ga364302ddaf673e7f00c6745f4172d6c0"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:ga364302ddaf673e7f00c6745f4172d6c0 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga01c75e3c26967a90edbe075a77cb2ca9">AABBTreeNodeVec</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga364302ddaf673e7f00c6745f4172d6c0">MR::makeAABBTreeNodeVec</a> (<a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt; boxedLeaves)</td></tr>
+<tr class="memdesc:ga3c1bb6417aaa769fa4156f2edac91749"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of not-leaf nodes in the binary tree with given number of leaves  <br /></td></tr>
+<tr class="memitem:ga7f69eef56c20304d24a15cc76ef830a2" id="r_ga7f69eef56c20304d24a15cc76ef830a2"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ga7f69eef56c20304d24a15cc76ef830a2 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga01c75e3c26967a90edbe075a77cb2ca9">AABBTreeNodeVec</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7f69eef56c20304d24a15cc76ef830a2">MR::makeAABBTreeNodeVec</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt; &amp;boxedLeaves, <a class="el" href="#ga95f912058ca6db2505244c6dbc2dd52f">OnLeafCallback</a> onLeaf)</td></tr>
 <tr class="memitem:ga47032a5f420080191bd8d3600c3c24ef" id="r_ga47032a5f420080191bd8d3600c3c24ef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga47032a5f420080191bd8d3600c3c24ef">MR::getNumNodesPoints</a> (int numPoints)</td></tr>
 <tr class="memdesc:ga47032a5f420080191bd8d3600c3c24ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of nodes in the binary tree with given number of points  <br /></td></tr>
 <tr class="memitem:ga27f3ab649f42f8c32266636ea1e4a672" id="r_ga27f3ab649f42f8c32266636ea1e4a672"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga27f3ab649f42f8c32266636ea1e4a672">MR::findDirMax</a> (const Vector3f &amp;dir, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;m, <a class="el" href="group__GeneralGroup.html#gafb67fe49bcb6006882e7b08e51b2eeff">UseAABBTree</a> u=<a class="el" href="group__GeneralGroup.html#ggafb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435">UseAABBTree::Yes</a>)</td></tr>
@@ -275,12 +277,16 @@ Functions</h2></td></tr>
 <tr class="memitem:ga7892dab0d0fdaed07c3c16c0b4ccc6e9" id="r_ga7892dab0d0fdaed07c3c16c0b4ccc6e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7892dab0d0fdaed07c3c16c0b4ccc6e9">MR::isInside</a> (const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr)</td></tr>
 <tr class="memdesc:ga7892dab0d0fdaed07c3c16c0b4ccc6e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh part A is inside of closed mesh part B  <br /></td></tr>
 <tr class="memitem:ga20e0c10db7c46b127cf4b5446101f894" id="r_ga20e0c10db7c46b127cf4b5446101f894"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga20e0c10db7c46b127cf4b5446101f894">MR::isNonIntersectingInside</a> (const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr)</td></tr>
-<tr class="memdesc:ga20e0c10db7c46b127cf4b5446101f894"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh part A is inside of closed mesh part B The version of <span class="tt">isInside</span> without collision check; it is user's responsibility to guarantee that the meshes don't collide  <br /></td></tr>
+<tr class="memdesc:ga20e0c10db7c46b127cf4b5446101f894"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh part A is inside of closed mesh part B The version of <span class="tt">isInside</span> without collision check; it is user's responsibility to guarantee that the meshes don't collide If B is open, A is outside of B when the point of A tested projects on the boundary of B  <br /></td></tr>
 <tr class="memitem:gac22748b9e5c563d95321d66315116084" id="r_gac22748b9e5c563d95321d66315116084"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac22748b9e5c563d95321d66315116084">MR::isNonIntersectingInside</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;a, FaceId partFace, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr)</td></tr>
-<tr class="memdesc:gac22748b9e5c563d95321d66315116084"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh A part (whole part is represented by one face <span class="tt">partFace</span>) is inside of closed mesh part B The version of <span class="tt">isInside</span> without collision check; it is user's responsibility to guarantee that the meshes don't collide  <br /></td></tr>
+<tr class="memdesc:gac22748b9e5c563d95321d66315116084"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh A part (whole part is represented by one face <span class="tt">partFace</span>) is inside of closed mesh part B The version of <span class="tt">isInside</span> without collision check; it is user's responsibility to guarantee that the meshes don't collide If B is open, A is outside of B when the point of A tested projects on the boundary of B  <br /></td></tr>
+<tr class="memitem:ga908e44352951a11a559011e12312a299" id="r_ga908e44352951a11a559011e12312a299"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga908e44352951a11a559011e12312a299">MR::isNonIntersectingInsidePrecise</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;a, FaceId partFace, const MeshPart &amp;b, const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;conv, int aVertShift, int bVertShift, const AffineXf3f *xfA=nullptr, const AffineXf3f *xfB=nullptr)</td></tr>
+<tr class="memdesc:ga908e44352951a11a559011e12312a299"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh A part (whole part is represented by one face <span class="tt">partFace</span>) is inside of closed mesh part B The version of <span class="tt">isNonIntersectingInside</span> deciding by the precise orient3d predicate, which is never undefined, unlike the sign of the distance in the area where the meshes touch one another If B is open, A is outside of B when the vertex of A tested projects on the boundary of B  <br /></td></tr>
 <tr class="memitem:ga8f7cfd40975f9648e9785f72d75ff92d" id="r_ga8f7cfd40975f9648e9785f72d75ff92d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8f7cfd40975f9648e9785f72d75ff92d">MR::operator==</a> (const <a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a> &amp;a, const <a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a> &amp;b)</td></tr>
-<tr class="memitem:ga7b104a00c60718368c988029510bf8ba" id="r_ga7b104a00c60718368c988029510bf8ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga457b7bb3a129cf50a82586b670a93148">PreciseCollisionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7b104a00c60718368c988029510bf8ba">MR::findCollidingEdgeTrisPrecise</a> (const MeshPart &amp;a, const MeshPart &amp;b, <a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> conv, const AffineXf3f *rigidB2A=nullptr, bool anyIntersection=false)</td></tr>
+<tr class="memitem:ga7b104a00c60718368c988029510bf8ba" id="r_ga7b104a00c60718368c988029510bf8ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gabe6f25bc80391d73c9e217bdcd4769d3">PreciseCollisionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7b104a00c60718368c988029510bf8ba">MR::findCollidingEdgeTrisPrecise</a> (const MeshPart &amp;a, const MeshPart &amp;b, <a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> conv, const AffineXf3f *rigidB2A=nullptr, bool anyIntersection=false)</td></tr>
 <tr class="memdesc:ga7b104a00c60718368c988029510bf8ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from one mesh and triangle from another mesh  <br /></td></tr>
+<tr class="memitem:ga91e422710464a72aa3c6bb6894527e72" id="r_ga91e422710464a72aa3c6bb6894527e72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga91e422710464a72aa3c6bb6894527e72">MR::updateCollidingEdgeTrisPrecise</a> (<a class="el" href="#gabe6f25bc80391d73c9e217bdcd4769d3">PreciseCollisionResult</a> &amp;res, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;a, VertId aFirstNewVert, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;b, VertId bFirstNewVert, <a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> conv, const AffineXf3f *rigidB2A=nullptr)</td></tr>
+<tr class="memdesc:ga91e422710464a72aa3c6bb6894527e72"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the result of findCollidingEdgeTrisPrecise( a, b, conv, rigidB2A ) after some faces or edges of the meshes were split (e.g. in subdivideLoneContours) with no other changes in the meshes: removes all intersections with the triangles around new vertices (the split triangles and their new parts) and with their edges, and finds them again, which is much faster than new search if few faces were split, but slower if many were split: so if more than 1/32 of all vertices are new, the function makes new search instead; the AABB trees of the meshes must be updated after the splits (e.g. by <a class="el" href="structMR_1_1Mesh.html#a09a97bb00b1eac52db441f32170cbcc6">Mesh::updateCachesAfterSplits</a>) or invalidated  <br /></td></tr>
 <tr class="memitem:gaa06a012aef3a0273d36e471fda3beb02" id="r_gaa06a012aef3a0273d36e471fda3beb02"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa06a012aef3a0273d36e471fda3beb02">MR::findSelfCollidingEdgeTrisPrecise</a> (const MeshPart &amp;mp, <a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> conv, bool anyIntersection=false, const AffineXf3f *rigidB2A=nullptr, int aVertSizes=0)</td></tr>
 <tr class="memdesc:gaa06a012aef3a0273d36e471fda3beb02"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges and triangle within one mesh  <br /></td></tr>
 <tr class="memitem:ga2194d3a8c576623325dfcb218caed7e0" id="r_ga2194d3a8c576623325dfcb218caed7e0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2194d3a8c576623325dfcb218caed7e0">MR::findCollidingEdgeTrisPrecise</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;a, const std::vector&lt; EdgeId &gt; &amp;edgesA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;b, const std::vector&lt; FaceId &gt; &amp;facesB, <a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> conv, const AffineXf3f *rigidB2A=nullptr)</td></tr>
@@ -302,6 +308,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga04cf3416b5e94ef81eefafbad1a4a814" id="r_ga04cf3416b5e94ef81eefafbad1a4a814"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga04cf3416b5e94ef81eefafbad1a4a814">MR::rayMeshIntersectAll</a> (const MeshPart &amp;meshPart, const Line3f &amp;line, <a class="el" href="#gac20cf6ba073a7db1e2df313fb87d9517">MeshIntersectionCallback</a> callback, float rayStart=0.0f, float rayEnd=FLT_MAX, const <a class="el" href="structMR_1_1IntersectionPrecomputes.html">IntersectionPrecomputes</a>&lt; float &gt; *prec=nullptr)</td></tr>
 <tr class="memitem:ga0748a541fe122677a587562720e71f2e" id="r_ga0748a541fe122677a587562720e71f2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0748a541fe122677a587562720e71f2e">MR::rayMeshIntersectAll</a> (const MeshPart &amp;meshPart, const Line3d &amp;line, <a class="el" href="#gac20cf6ba073a7db1e2df313fb87d9517">MeshIntersectionCallback</a> callback, double rayStart=0.0, double rayEnd=DBL_MAX, const <a class="el" href="structMR_1_1IntersectionPrecomputes.html">IntersectionPrecomputes</a>&lt; double &gt; *prec=nullptr)</td></tr>
 <tr class="memdesc:ga0748a541fe122677a587562720e71f2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="#rayMeshIntersectAllF">rayMeshIntersectAllF</a>, but use double precision.  <br /></td></tr>
+<tr class="memitem:ga92153083b04ab55fc9b8c21d293bb79a" id="r_ga92153083b04ab55fc9b8c21d293bb79a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga92153083b04ab55fc9b8c21d293bb79a">MR::rayMeshIntersectAll</a> (const MeshPart &amp;meshPart, const Line3d &amp;line, <a class="el" href="#ga9aa9e0fd7fa1a5029ec19df149069464">MeshIntersectionWithSideCallback</a> callback, double rayStart=0.0, double rayEnd=DBL_MAX, const <a class="el" href="structMR_1_1IntersectionPrecomputes.html">IntersectionPrecomputes</a>&lt; double &gt; *prec=nullptr)</td></tr>
 <tr class="memitem:ga832764c6cc9e48dbef001e22786ddc99" id="r_ga832764c6cc9e48dbef001e22786ddc99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga832764c6cc9e48dbef001e22786ddc99">MR::planeMeshIntersect</a> (const MeshPart &amp;meshPart, const <a class="el" href="group__GeneralGroup.html#ga6b8606e6618471611100352ed5a178a7">Plane3f</a> &amp;plane, FaceBitSet *fs, UndirectedEdgeBitSet *ues, VertBitSet *vs, std::vector&lt; FaceId &gt; *fsVec=nullptr)</td></tr>
 <tr class="memitem:gaaca7d2972259949e2583eb7ddb97d335" id="r_gaaca7d2972259949e2583eb7ddb97d335"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaca7d2972259949e2583eb7ddb97d335">MR::xyPlaneMeshIntersect</a> (const MeshPart &amp;meshPart, float zLevel, FaceBitSet *fs, UndirectedEdgeBitSet *ues, VertBitSet *vs, std::vector&lt; FaceId &gt; *fsVec=nullptr)</td></tr>
 <tr class="memitem:ga34f61c1aafa08f324c2dee292bf3f326" id="r_ga34f61c1aafa08f324c2dee292bf3f326"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshMeshDistanceResult.html">MeshMeshDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga34f61c1aafa08f324c2dee292bf3f326">MR::findDistance</a> (const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr, float upDistLimitSq=FLT_MAX)</td></tr>
@@ -327,11 +334,11 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa589ad702e6b1f7b5abcdba92a673997" id="r_gaa589ad702e6b1f7b5abcdba92a673997"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1SignedDistanceToMeshResult.html">SignedDistanceToMeshResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa589ad702e6b1f7b5abcdba92a673997">MR::findSignedDistance</a> (const Vector3f &amp;pt, const MeshPart &amp;mp, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0)</td></tr>
 <tr class="memdesc:gaa589ad702e6b1f7b5abcdba92a673997"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point, and finds the distance with sign to it (positive - outside, negative - inside the mesh)  <br /></td></tr>
 <tr class="memitem:gac87637032fa2f500e6eb4f64bd08ce77" id="r_gac87637032fa2f500e6eb4f64bd08ce77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac87637032fa2f500e6eb4f64bd08ce77">MR::findPointsInBall</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const Ball3f &amp;ball, const <a class="el" href="group__GeneralGroup.html#ga421af22aea174a88968edea770000bbc">OnPointInBallFound</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
-<tr class="memitem:gaa8ca1746fb8260dd095e22333110b010" id="r_gaa8ca1746fb8260dd095e22333110b010"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa8ca1746fb8260dd095e22333110b010">MR::findPointsInBall</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const Ball3f &amp;ball, const <a class="el" href="group__GeneralGroup.html#ga30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
+<tr class="memitem:ga8572be74b0b780e3b744c43e7634239d" id="r_ga8572be74b0b780e3b744c43e7634239d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8572be74b0b780e3b744c43e7634239d">MR::findPointsInBall</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const Ball3f &amp;ball, const <a class="el" href="group__GeneralGroup.html#ga30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
 <tr class="memitem:ga0f18f1e1141d9a2fe88bd4434417c046" id="r_ga0f18f1e1141d9a2fe88bd4434417c046"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0f18f1e1141d9a2fe88bd4434417c046">MR::findPointsInBall</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Ball3f &amp;ball, const <a class="el" href="group__GeneralGroup.html#ga421af22aea174a88968edea770000bbc">OnPointInBallFound</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
-<tr class="memitem:gacc909bcd5d7fe92e054ab2abb3d8975e" id="r_gacc909bcd5d7fe92e054ab2abb3d8975e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacc909bcd5d7fe92e054ab2abb3d8975e">MR::findPointsInBall</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Ball3f &amp;ball, const <a class="el" href="group__GeneralGroup.html#ga30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
+<tr class="memitem:gab66f3abee00e9a5f320653aa909276ea" id="r_gab66f3abee00e9a5f320653aa909276ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab66f3abee00e9a5f320653aa909276ea">MR::findPointsInBall</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Ball3f &amp;ball, const <a class="el" href="group__GeneralGroup.html#ga30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
 <tr class="memitem:ga14a7a9877009b22b322668d4afa1d55b" id="r_ga14a7a9877009b22b322668d4afa1d55b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga14a7a9877009b22b322668d4afa1d55b">MR::findPointsInBall</a> (const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;tree, Ball3f ball, const <a class="el" href="group__GeneralGroup.html#ga421af22aea174a88968edea770000bbc">OnPointInBallFound</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
-<tr class="memitem:gab7f2d64a3a73b473757e9505a0905a38" id="r_gab7f2d64a3a73b473757e9505a0905a38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab7f2d64a3a73b473757e9505a0905a38">MR::findPointsInBall</a> (const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;tree, const Ball3f &amp;ball, const <a class="el" href="group__GeneralGroup.html#ga30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
+<tr class="memitem:ga50f776e1865fa559ee69ce66a23b1062" id="r_ga50f776e1865fa559ee69ce66a23b1062"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga50f776e1865fa559ee69ce66a23b1062">MR::findPointsInBall</a> (const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;tree, const Ball3f &amp;ball, const <a class="el" href="group__GeneralGroup.html#ga30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
 <tr class="memitem:gab32c13d31593c4f1ca10935b021714dc" id="r_gab32c13d31593c4f1ca10935b021714dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab32c13d31593c4f1ca10935b021714dc">MR::findPointsInBox</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const Box3f &amp;box, const <a class="el" href="group__GeneralGroup.html#ga30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
 <tr class="memitem:ga72179dbd00c267bc382ace2fcd0782f5" id="r_ga72179dbd00c267bc382ace2fcd0782f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga72179dbd00c267bc382ace2fcd0782f5">MR::findPointsInBox</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const Box3f &amp;box, const <a class="el" href="group__GeneralGroup.html#ga30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
 <tr class="memitem:gaa96619ba551ab32e6ead614ba614c2ba" id="r_gaa96619ba551ab32e6ead614ba614c2ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa96619ba551ab32e6ead614ba614c2ba">MR::findPointsInBox</a> (const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;tree, const Box3f &amp;box, const <a class="el" href="group__GeneralGroup.html#ga30cd2d38272cf5fb35c10a421b4d2045">FoundPointCallback</a> &amp;foundCallback, const AffineXf3f *xf=nullptr)</td></tr>
@@ -361,6 +368,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:gaf5614c6f47e495a7aa4513078b1b2ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary 2d polyline A is inside of closed 2d polyline B  <br /></td></tr>
 <tr class="memitem:ga8cdd94e81e6095b86dbd245ec23e9657" id="r_ga8cdd94e81e6095b86dbd245ec23e9657"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8cdd94e81e6095b86dbd245ec23e9657">MR::isPointInsidePolyline</a> (const <a class="el" href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">Polyline2</a> &amp;polyline, const Vector2f &amp;point)</td></tr>
 <tr class="memdesc:ga8cdd94e81e6095b86dbd245ec23e9657"><td class="mdescLeft">&#160;</td><td class="mdescRight">detect if given point is inside polyline, by counting ray intersections  <br /></td></tr>
+<tr class="memitem:ga2702a14aa9e44b83e9a85d4d1aea1136" id="r_ga2702a14aa9e44b83e9a85d4d1aea1136"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2702a14aa9e44b83e9a85d4d1aea1136">MR::findGridPointsInsidePolyline</a> (const <a class="el" href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">Polyline2</a> &amp;polyline, const Vector2i &amp;dims, const Vector2f &amp;origin={}, const Vector2f &amp;step=Vector2f::diagonal(1.f))</td></tr>
 <tr class="memitem:ga33dfe4d49b343eca892fe35c75826f0b" id="r_ga33dfe4d49b343eca892fe35c75826f0b"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1PolylineIntersectionResult2.html">PolylineIntersectionResult2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga33dfe4d49b343eca892fe35c75826f0b">MR::rayPolylineIntersect</a> (const <a class="el" href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">Polyline2</a> &amp;polyline, const <a class="el" href="group__GeneralGroup.html#gabba178f9dab92a53239aa80045aa3ae5">Line2f</a> &amp;line, float rayStart=0, float rayEnd=FLT_MAX, const <a class="el" href="structMR_1_1IntersectionPrecomputes2.html">IntersectionPrecomputes2</a>&lt; float &gt; *prec=nullptr, bool closestIntersect=true)</td></tr>
 <tr class="memitem:ga40c1b0b4821dfe2acb66ec335a638cdc" id="r_ga40c1b0b4821dfe2acb66ec335a638cdc"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1PolylineIntersectionResult2.html">PolylineIntersectionResult2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga40c1b0b4821dfe2acb66ec335a638cdc">MR::rayPolylineIntersect</a> (const <a class="el" href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">Polyline2</a> &amp;polyline, const Line2d &amp;line, double rayStart=0, double rayEnd=DBL_MAX, const <a class="el" href="structMR_1_1IntersectionPrecomputes2.html">IntersectionPrecomputes2</a>&lt; double &gt; *prec=nullptr, bool closestIntersect=true)</td></tr>
 <tr class="memitem:ga6334c9f41d88763fea47f1a1af491d7a" id="r_ga6334c9f41d88763fea47f1a1af491d7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6334c9f41d88763fea47f1a1af491d7a">MR::rayPolylineIntersectAll</a> (const <a class="el" href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">Polyline2</a> &amp;polyline, const <a class="el" href="group__GeneralGroup.html#gabba178f9dab92a53239aa80045aa3ae5">Line2f</a> &amp;line, const <a class="el" href="#gae0b1767f78412a4100c7baa4ae2cb2de">PolylineIntersectionCallback2f</a> &amp;callback, float rayStart=0.0f, float rayEnd=FLT_MAX, const <a class="el" href="structMR_1_1IntersectionPrecomputes2.html">IntersectionPrecomputes2</a>&lt; float &gt; *prec=nullptr)</td></tr>
@@ -401,22 +409,6 @@ template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="#ga01c75e3c26967a90edbe075a77cb2ca9">MR::AABBTreeNodeVec</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1AABBTreeNode.html">AABBTreeNode</a>&lt;T&gt;, NodeId&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRAABBTreeNode_8h.html">MRMesh/MRAABBTreeNode.h</a>&gt;</code></p>
-
-</div>
-</div>
-<a id="ga2d9f9e10f5365b971c9f7300264be632" name="ga2d9f9e10f5365b971c9f7300264be632"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2d9f9e10f5365b971c9f7300264be632">&#9670;&#160;</a></span>FaceTreeTraits3</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#ga2d9f9e10f5365b971c9f7300264be632">MR::FaceTreeTraits3</a> = <a class="el" href="structMR_1_1AABBTreeTraits.html">AABBTreeTraits</a>&lt;<a class="el" href="group__GeneralGroup.html#ga7a4a96848eb4b1524be699a7adcd8017">FaceTag</a>, Box3f&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -551,7 +543,7 @@ template&lt;typename V&gt; </div>
 template&lt;typename V&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#ga876e325460f0c5460c1e453324ca329c">MR::LineTreeTraits</a> = <a class="el" href="structMR_1_1AABBTreeTraits.html">AABBTreeTraits</a>&lt;<a class="el" href="group__GeneralGroup.html#ga1bbe6aa7d7136f740286af86f591c19b">UndirectedEdgeTag</a>, <a class="el" href="structMR_1_1Box.html">Box</a>&lt;V&gt;&gt;</td>
+          <td class="memname">using <a class="el" href="#ga876e325460f0c5460c1e453324ca329c">MR::LineTreeTraits</a> = <a class="el" href="structMR_1_1AABBTreeTraits.html">AABBTreeTraits</a>&lt;UndirectedEdgeTag, <a class="el" href="structMR_1_1Box.html">Box</a>&lt;V&gt;&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -609,6 +601,41 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga9aa9e0fd7fa1a5029ec19df149069464" name="ga9aa9e0fd7fa1a5029ec19df149069464"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9aa9e0fd7fa1a5029ec19df149069464">&#9670;&#160;</a></span>MeshIntersectionWithSideCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga9aa9e0fd7fa1a5029ec19df149069464">MR::MeshIntersectionWithSideCallback</a> = std::function&lt;bool( const <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a> &amp;, bool fromFront )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshIntersect_8h.html">MRMesh/MRMeshIntersect.h</a>&gt;</code></p>
+<p>this callback is envoked for each encountered ray-mesh intersection, fromFront is true if the ray crosses the triangle from its front side (where the triangle's normal points) to its back, i.e. enters a closed mesh with outward normals; if it returns false, then the search immediately terminates </p>
+
+</div>
+</div>
+<a id="ga95f912058ca6db2505244c6dbc2dd52f" name="ga95f912058ca6db2505244c6dbc2dd52f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga95f912058ca6db2505244c6dbc2dd52f">&#9670;&#160;</a></span>OnLeafCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga95f912058ca6db2505244c6dbc2dd52f">MR::OnLeafCallback</a> = <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt;void( size_t leafIndex, size_t boxedLeafIndex )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRAABBTreeMaker_8h.html">MRMesh/MRAABBTreeMaker.h</a>&gt;</code></p>
+
+<p>called in parallel for every leaf with its index in the order of the tree and its index in the given boxed leaves </p>
+
+</div>
+</div>
 <a id="ga80d1c820a9a9983c511c6785b2c8ed94" name="ga80d1c820a9a9983c511c6785b2c8ed94"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga80d1c820a9a9983c511c6785b2c8ed94">&#9670;&#160;</a></span>PolylineIntersectionCallback2</h2>
 
@@ -618,7 +645,7 @@ template&lt;typename V&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#ga80d1c820a9a9983c511c6785b2c8ed94">MR::PolylineIntersectionCallback2</a> = std::function&lt;<a class="el" href="group__GeneralGroup.html#gae9fc4543eb3302ae33b7843707485149">Processing</a>(const <a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a> &amp; polylinePoint, T rayPos, T &amp; rayStart, T &amp; rayEnd)&gt;</td>
+          <td class="memname">using <a class="el" href="#ga80d1c820a9a9983c511c6785b2c8ed94">MR::PolylineIntersectionCallback2</a> = std::function&lt;<a class="el" href="group__GeneralGroup.html#gae9fc4543eb3302ae33b7843707485149">Processing</a>(const <a class="el" href="group__GeneralGroup.html#ga2184a4ebcef7a214ba981313f3637935">EdgePoint</a> &amp; polylinePoint, T rayPos, T &amp; rayStart, T &amp; rayEnd)&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -660,14 +687,14 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga457b7bb3a129cf50a82586b670a93148" name="ga457b7bb3a129cf50a82586b670a93148"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga457b7bb3a129cf50a82586b670a93148">&#9670;&#160;</a></span>PreciseCollisionResult</h2>
+<a id="gabe6f25bc80391d73c9e217bdcd4769d3" name="gabe6f25bc80391d73c9e217bdcd4769d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe6f25bc80391d73c9e217bdcd4769d3">&#9670;&#160;</a></span>PreciseCollisionResult</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#ga457b7bb3a129cf50a82586b670a93148">MR::PreciseCollisionResult</a> = std::vector&lt;<a class="el" href="structMR_1_1VarEdgeTri.html">VarEdgeTri</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#gabe6f25bc80391d73c9e217bdcd4769d3">MR::PreciseCollisionResult</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1VarEdgeTri.html">VarEdgeTri</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1052,7 +1079,7 @@ template&lt;typename T&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ga457b7bb3a129cf50a82586b670a93148">PreciseCollisionResult</a> MR::findCollidingEdgeTrisPrecise </td>
+          <td class="memname"><a class="el" href="#gabe6f25bc80391d73c9e217bdcd4769d3">PreciseCollisionResult</a> MR::findCollidingEdgeTrisPrecise </td>
           <td>(</td>
           <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -1173,7 +1200,7 @@ template&lt;typename T&gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">firstIntersectionOnly</td><td>if true then the function returns at most one pair of intersecting triangles and returns faster </td></tr>
+    <tr><td class="paramname">firstIntersectionOnly</td><td>if true then the function returns at most one pair of intersecting triangles (the same in every run), testing the triangles during the tree traversal and stopping it as soon as an intersection is found </td></tr>
   </table>
   </dd>
 </dl>
@@ -1704,6 +1731,54 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga2702a14aa9e44b83e9a85d4d1aea1136" name="ga2702a14aa9e44b83e9a85d4d1aea1136"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2702a14aa9e44b83e9a85d4d1aea1136">&#9670;&#160;</a></span>findGridPointsInsidePolyline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::findGridPointsInsidePolyline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">Polyline2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector2f &amp;</td>          <td class="paramname"><span class="paramname"><em>origin</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector2f &amp;</td>          <td class="paramname"><span class="paramname"><em>step</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Vector2f::diagonal(1.f)</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPolyline2Intersect_8h.html">MRMesh/MRPolyline2Intersect.h</a>&gt;</code></p>
+<p>checks every point ( step.x * x + origin.x, step.y * y + origin.y ) of a regular grid with 0 &lt;= x &lt; dims.x, 0 &lt;= y &lt; dims.y; gives the same results as isPointInsidePolyline, but traces only one ray per row of points </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">step</td><td>step.x must be positive </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bit set with dims.x * dims.y bits, where the bit ( x + y * dims.x ) is set if the point is inside </dd></dl>
+
+</div>
+</div>
 <a id="ga45e61b0f865d15d2172777953f29b4b1" name="ga45e61b0f865d15d2172777953f29b4b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga45e61b0f865d15d2172777953f29b4b1">&#9670;&#160;</a></span>findMaxDistanceSq()</h2>
 
@@ -1864,7 +1939,7 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRIntersectionPrecomputes2_8h.html">MRMesh/MRIntersectionPrecomputes2.h</a>&gt;</code></p>
 
 <p>finds index of maximum axis and stores it into dimY </p>
-<p><a href="http:///">http:///</a> jcgt.org/published/0002/01/05/paper.pdf Example input: dir = (1,-2). Result: dimY = 1, dimX = 0. </p><dl class="params"><dt>Parameters</dt><dd>
+<p><a href="http://jcgt.org/published/0002/01/05/paper.pdf">http://jcgt.org/published/0002/01/05/paper.pdf</a> Example input: dir = (1,-2). Result: dimY = 1, dimX = 0. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">dimX</td><td>index of minimum axis </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">dimY</td><td>index of maximum axis </td></tr>
@@ -1908,7 +1983,7 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRIntersectionPrecomputes_8h.html">MRMesh/MRIntersectionPrecomputes.h</a>&gt;</code></p>
 
 <p>finds index of maximum axis and stores it into dimZ </p>
-<p><a href="http:///">http:///</a> jcgt.org/published/0002/01/05/paper.pdf Example input: dir = (1,1,-2). Result: dimZ = 2, dimX = 1, dimY = 0. </p><dl class="params"><dt>Parameters</dt><dd>
+<p><a href="http://jcgt.org/published/0002/01/05/paper.pdf">http://jcgt.org/published/0002/01/05/paper.pdf</a> Example input: dir = (1,1,-2). Result: dimZ = 2, dimX = 1, dimY = 0. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">dimX</td><td>are filled by right-hand rule from dimZ </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">dimY</td><td>are filled by right-hand rule from dimZ </td></tr>
@@ -2055,14 +2130,14 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gab7f2d64a3a73b473757e9505a0905a38" name="gab7f2d64a3a73b473757e9505a0905a38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab7f2d64a3a73b473757e9505a0905a38">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[2/6]</span></h2>
+<a id="ga50f776e1865fa559ee69ce66a23b1062" name="ga50f776e1865fa559ee69ce66a23b1062"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga50f776e1865fa559ee69ce66a23b1062">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void MR::findPointsInBall </td>
+          <td class="memname">void MR::findPointsInBall </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
         </tr>
@@ -2095,14 +2170,14 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gacc909bcd5d7fe92e054ab2abb3d8975e" name="gacc909bcd5d7fe92e054ab2abb3d8975e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacc909bcd5d7fe92e054ab2abb3d8975e">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[3/6]</span></h2>
+<a id="gab66f3abee00e9a5f320653aa909276ea" name="gab66f3abee00e9a5f320653aa909276ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab66f3abee00e9a5f320653aa909276ea">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void MR::findPointsInBall </td>
+          <td class="memname">void MR::findPointsInBall </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -2175,14 +2250,14 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gaa8ca1746fb8260dd095e22333110b010" name="gaa8ca1746fb8260dd095e22333110b010"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa8ca1746fb8260dd095e22333110b010">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[5/6]</span></h2>
+<a id="ga8572be74b0b780e3b744c43e7634239d" name="ga8572be74b0b780e3b744c43e7634239d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8572be74b0b780e3b744c43e7634239d">&#9670;&#160;</a></span>findPointsInBall() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void MR::findPointsInBall </td>
+          <td class="memname">void MR::findPointsInBall </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pointCloud</em></span>, </td>
         </tr>
@@ -3109,7 +3184,7 @@ template&lt;typename T&gt; </div>
   <table class="params">
     <tr><td class="paramname">anyIntersection</td><td>if true then the function returns as fast as it finds any intersection </td></tr>
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation, might be useful to obtain same result as in boolean operation would for mesh B </td></tr>
-    <tr><td class="paramname">aVertsSize</td><td>used in float to int conversion, might be useful to obtain same result as in boolean operation would for mesh B </td></tr>
+    <tr><td class="paramname">aVertSizes</td><td>used in float to int conversion, might be useful to obtain same result as in boolean operation would for mesh B </td></tr>
   </table>
   </dd>
 </dl>
@@ -3457,7 +3532,7 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRAABBTreeMaker_8h.html">MRMesh/MRAABBTreeMaker.h</a>&gt;</code></p>
 
-<p>returns the number of nodes in the binary tree with given number of leaves </p>
+<p>returns the number of not-leaf nodes in the binary tree with given number of leaves </p>
 
 </div>
 </div>
@@ -3666,7 +3741,7 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRMeshCollide_8h.html">MRMesh/MRMeshCollide.h</a>&gt;</code></p>
 
-<p>checks that arbitrary mesh A part (whole part is represented by one face <span class="tt">partFace</span>) is inside of closed mesh part B The version of <span class="tt">isInside</span> without collision check; it is user's responsibility to guarantee that the meshes don't collide </p>
+<p>checks that arbitrary mesh A part (whole part is represented by one face <span class="tt">partFace</span>) is inside of closed mesh part B The version of <span class="tt">isInside</span> without collision check; it is user's responsibility to guarantee that the meshes don't collide If B is open, A is outside of B when the point of A tested projects on the boundary of B </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
@@ -3710,10 +3785,83 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRMeshCollide_8h.html">MRMesh/MRMeshCollide.h</a>&gt;</code></p>
 
-<p>checks that arbitrary mesh part A is inside of closed mesh part B The version of <span class="tt">isInside</span> without collision check; it is user's responsibility to guarantee that the meshes don't collide </p>
+<p>checks that arbitrary mesh part A is inside of closed mesh part B The version of <span class="tt">isInside</span> without collision check; it is user's responsibility to guarantee that the meshes don't collide If B is open, A is outside of B when the point of A tested projects on the boundary of B </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga908e44352951a11a559011e12312a299" name="ga908e44352951a11a559011e12312a299"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga908e44352951a11a559011e12312a299">&#9670;&#160;</a></span>isNonIntersectingInsidePrecise()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::isNonIntersectingInsidePrecise </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>partFace</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>conv</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>aVertShift</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>bVertShift</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>xfA</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>xfB</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshCollide_8h.html">MRMesh/MRMeshCollide.h</a>&gt;</code></p>
+
+<p>checks that arbitrary mesh A part (whole part is represented by one face <span class="tt">partFace</span>) is inside of closed mesh part B The version of <span class="tt">isNonIntersectingInside</span> deciding by the precise orient3d predicate, which is never undefined, unlike the sign of the distance in the area where the meshes touch one another If B is open, A is outside of B when the vertex of A tested projects on the boundary of B </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">conv</td><td>float-to-int converter valid for the points of both meshes after the transformations below </td></tr>
+    <tr><td class="paramname">aVertShift</td><td>the value added to the vertex ids of mesh a, and</td></tr>
+    <tr><td class="paramname">bVertShift</td><td>- of mesh b; the shifted ids must be distinct, and every call on the same meshes must shift them equally, because the simulation of simplicity of orient3d depends on them </td></tr>
+    <tr><td class="paramname">xfA</td><td>transformation of mesh a into the space of conv, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">xfB</td><td>transformation of mesh b into the space of conv, nullptr considered as identity transformation </td></tr>
   </table>
   </dd>
 </dl>
@@ -3760,8 +3908,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga364302ddaf673e7f00c6745f4172d6c0" name="ga364302ddaf673e7f00c6745f4172d6c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga364302ddaf673e7f00c6745f4172d6c0">&#9670;&#160;</a></span>makeAABBTreeNodeVec()</h2>
+<a id="ga7f69eef56c20304d24a15cc76ef830a2" name="ga7f69eef56c20304d24a15cc76ef830a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7f69eef56c20304d24a15cc76ef830a2">&#9670;&#160;</a></span>makeAABBTreeNodeVec()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3771,13 +3919,18 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="#ga01c75e3c26967a90edbe075a77cb2ca9">AABBTreeNodeVec</a>&lt; T &gt; MR::makeAABBTreeNodeVec </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>boxedLeaves</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>boxedLeaves</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="#ga95f912058ca6db2505244c6dbc2dd52f">OnLeafCallback</a></td>          <td class="paramname"><span class="paramname"><em>onLeaf</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRAABBTreeMaker_8h.html">MRMesh/MRAABBTreeMaker.h</a>&gt;</code></p>
+<p>constructs the nodes of the tree with given leaves; the children of the nodes reference the leaves by their indices in the order of the tree, which the caller receives in onLeaf to fill its leaves </p>
 
 </div>
 </div>
@@ -4079,7 +4232,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga0748a541fe122677a587562720e71f2e" name="ga0748a541fe122677a587562720e71f2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0748a541fe122677a587562720e71f2e">&#9670;&#160;</a></span>rayMeshIntersectAll() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0748a541fe122677a587562720e71f2e">&#9670;&#160;</a></span>rayMeshIntersectAll() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4123,8 +4276,52 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga92153083b04ab55fc9b8c21d293bb79a" name="ga92153083b04ab55fc9b8c21d293bb79a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga92153083b04ab55fc9b8c21d293bb79a">&#9670;&#160;</a></span>rayMeshIntersectAll() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::rayMeshIntersectAll </td>
+          <td>(</td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Line3d &amp;</td>          <td class="paramname"><span class="paramname"><em>line</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga9aa9e0fd7fa1a5029ec19df149069464">MeshIntersectionWithSideCallback</a></td>          <td class="paramname"><span class="paramname"><em>callback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>rayStart</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>rayEnd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">DBL_MAX</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1IntersectionPrecomputes.html">IntersectionPrecomputes</a>&lt; double &gt; *</td>          <td class="paramname"><span class="paramname"><em>prec</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshIntersect_8h.html">MRMesh/MRMeshIntersect.h</a>&gt;</code></p>
+<p>Same as <a class="el" href="#rayMeshIntersectAllF">rayMeshIntersectAllF</a> in double precision, also reporting the side from which the ray crosses each triangle; both the intersections and the sides are decided by precise predicates, so for a closed mesh every infinite ray has the same number of crossings from front and from back </p>
+
+</div>
+</div>
 <a id="ga04cf3416b5e94ef81eefafbad1a4a814" name="ga04cf3416b5e94ef81eefafbad1a4a814"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga04cf3416b5e94ef81eefafbad1a4a814">&#9670;&#160;</a></span>rayMeshIntersectAll() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga04cf3416b5e94ef81eefafbad1a4a814">&#9670;&#160;</a></span>rayMeshIntersectAll() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4467,7 +4664,64 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshDistance_8h.html">MRMesh/MRMeshDistance.h</a>&gt;</code></p>
-<p>computes signed distance from point (p) to mesh part (mp) following options (op); returns std::nullopt if distance is smaller than op.minDist or larger than op.maxDist (except for op.signMode == HoleWindingRule) </p>
+<p>computes signed distance from point (p) to mesh part (mp) following options (op); returns std::nullopt if distance is smaller than op.minDist or larger than op.maxDist (except for op.signMode == HoleWindingRule); for op.signMode == OddCrossings it casts a ray from the point; for all points of a grid, meshToDistanceVolume is much faster, since it casts one ray per row of voxels </p>
+
+</div>
+</div>
+<a id="ga91e422710464a72aa3c6bb6894527e72" name="ga91e422710464a72aa3c6bb6894527e72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga91e422710464a72aa3c6bb6894527e72">&#9670;&#160;</a></span>updateCollidingEdgeTrisPrecise()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::updateCollidingEdgeTrisPrecise </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gabe6f25bc80391d73c9e217bdcd4769d3">PreciseCollisionResult</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>aFirstNewVert</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>bFirstNewVert</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a></td>          <td class="paramname"><span class="paramname"><em>conv</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshCollidePrecise_8h.html">MRMesh/MRMeshCollidePrecise.h</a>&gt;</code></p>
+
+<p>updates the result of findCollidingEdgeTrisPrecise( a, b, conv, rigidB2A ) after some faces or edges of the meshes were split (e.g. in subdivideLoneContours) with no other changes in the meshes: removes all intersections with the triangles around new vertices (the split triangles and their new parts) and with their edges, and finds them again, which is much faster than new search if few faces were split, but slower if many were split: so if more than 1/32 of all vertices are new, the function makes new search instead; the AABB trees of the meshes must be updated after the splits (e.g. by <a class="el" href="structMR_1_1Mesh.html#a09a97bb00b1eac52db441f32170cbcc6">Mesh::updateCachesAfterSplits</a>) or invalidated </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">res</td><td>the result of findCollidingEdgeTrisPrecise with the same conv and rigidB2A before the splits </td></tr>
+    <tr><td class="paramname">aFirstNewVert</td><td>(bFirstNewVert) all vertices of mesh A (B) with this or larger ids appeared in the splits </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

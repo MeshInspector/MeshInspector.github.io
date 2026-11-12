@@ -12,5 +12,5 @@ var MRPointsLoad_8h =
     [ "MR::PointsLoad::fromPts", "group__IOGroup.html#ga756bfbe6cede3121408e2ef95f428411", null ],
     [ "MR::PointsLoad::fromText", "group__IOGroup.html#ga1c3cebd38d164d456af80671f7250fbf", null ],
     [ "MR::PointsLoad::fromText", "group__IOGroup.html#gacc3b6b39e72f9a09af6653f353e66998", null ],
-    [ "MR::PointsLoad::telemetryLogSize", "group__IOGroup.html#ga56f3c968fa0da7592fff9bf39304344e", null ]
+    [ "MR::PointsLoad::telemetryLogSize", "group__IOGroup.html#ga73b82c2c44e08cd0223e959e6173af7b", null ]
 ];

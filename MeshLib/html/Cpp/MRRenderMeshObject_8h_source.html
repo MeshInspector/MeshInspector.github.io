@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -275,7 +268,7 @@ $(function(){initNavTree('MRRenderMeshObject_8h_source.html','',''); });
 <div class="ttc" id="aclassMR_1_1GlTexture2DArray_html"><div class="ttname"><a href="classMR_1_1GlTexture2DArray.html">MR::GlTexture2DArray</a></div><div class="ttdoc">represents OpenGL array texture 2D owner, and allows uploading data in it remembering texture size</div><div class="ttdef"><b>Definition</b> MRRenderGLHelpers.h:91</div></div>
 <div class="ttc" id="aclassMR_1_1GlTexture2_html"><div class="ttname"><a href="classMR_1_1GlTexture2.html">MR::GlTexture2</a></div><div class="ttdoc">represents OpenGL 2D texture owner, and allows uploading data in it remembering texture size</div><div class="ttdef"><b>Definition</b> MRRenderGLHelpers.h:68</div></div>
 <div class="ttc" id="aclassMR_1_1IRenderObject_html"><div class="ttname"><a href="classMR_1_1IRenderObject.html">MR::IRenderObject</a></div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:141</div></div>
-<div class="ttc" id="aclassMR_1_1ObjectMeshHolder_html"><div class="ttname"><a href="classMR_1_1ObjectMeshHolder.html">MR::ObjectMeshHolder</a></div><div class="ttdef"><b>Definition</b> MRObjectMeshHolder.h:37</div></div>
+<div class="ttc" id="aclassMR_1_1ObjectMeshHolder_html"><div class="ttname"><a href="classMR_1_1ObjectMeshHolder.html">MR::ObjectMeshHolder</a></div><div class="ttdef"><b>Definition</b> MRObjectMeshHolder.h:38</div></div>
 <div class="ttc" id="aclassMR_1_1RenderBufferRef_html"><div class="ttname"><a href="classMR_1_1RenderBufferRef.html">MR::RenderBufferRef</a></div><div class="ttdoc">provides access to shared buffer with type casting</div><div class="ttdef"><b>Definition</b> MRRenderHelpers.h:19</div></div>
 <div class="ttc" id="aclassMR_1_1ViewportId_html"><div class="ttname"><a href="classMR_1_1ViewportId.html">MR::ViewportId</a></div><div class="ttdef"><b>Definition</b> MRViewportId.h:16</div></div>
 <div class="ttc" id="aclassMR_1_1ViewportMask_html"><div class="ttname"><a href="classMR_1_1ViewportMask.html">MR::ViewportMask</a></div><div class="ttdoc">stores mask of viewport unique identifiers</div><div class="ttdef"><b>Definition</b> MRViewportId.h:42</div></div>
@@ -357,7 +350,7 @@ $(function(){initNavTree('MRRenderMeshObject_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gaf99f6b1103fb8791d9d8a2fbd0275213"><div class="ttname"><a href="group__GeneralGroup.html#gaf99f6b1103fb8791d9d8a2fbd0275213">MR::RenderMeshObject::faceColorsTex_</a></div><div class="ttdeci">GlTexture2 faceColorsTex_</div><div class="ttdef"><b>Definition</b> MRRenderMeshObject.h:73</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gafc117a9ecbdf0dd6793d43b12f1d659d"><div class="ttname"><a href="group__GeneralGroup.html#gafc117a9ecbdf0dd6793d43b12f1d659d">MR::RenderMeshObject::renderEdges_</a></div><div class="ttdeci">virtual void renderEdges_(const ModelRenderParams &amp;parameters, RenderModelPassMask desiredPass, GLuint vao, const Color &amp;color, uint32_t dirtyFlag)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaff9381c0a788f2d2f7bbc0dd802aa0f9"><div class="ttname"><a href="group__GeneralGroup.html#gaff9381c0a788f2d2f7bbc0dd802aa0f9">MR::RenderMeshObject::loadVertColorsBuffer_</a></div><div class="ttdeci">RenderBufferRef&lt; Color &gt; loadVertColorsBuffer_()</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Color_html"><div class="ttname"><a href="structMR_1_1Color.html">MR::Color</a></div><div class="ttdef"><b>Definition</b> MRColor.h:12</div></div>
 <div class="ttc" id="astructMR_1_1ModelBaseRenderParams_html"><div class="ttname"><a href="structMR_1_1ModelBaseRenderParams.html">MR::ModelBaseRenderParams</a></div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:46</div></div>
 <div class="ttc" id="astructMR_1_1ModelRenderParams_html"><div class="ttname"><a href="structMR_1_1ModelRenderParams.html">MR::ModelRenderParams</a></div><div class="ttdoc">Mesh rendering parameters for primary rendering (as opposed to the picker).</div><div class="ttdef"><b>Definition</b> MRIRenderObject.h:54</div></div>

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -225,7 +218,7 @@ $(function(){initNavTree('MRChangeXfAction_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gadc90b8207a85c52060b965692645d95b"><div class="ttname"><a href="group__GeneralGroup.html#gadc90b8207a85c52060b965692645d95b">MR::ChangeXfAction::ChangeXfAction</a></div><div class="ttdeci">ChangeXfAction(const std::string &amp;name, const std::shared_ptr&lt; Object &gt; &amp;obj)</div><div class="ttdoc">use this constructor to remember object&#39;s transformation before making any changes in it</div><div class="ttdef"><b>Definition</b> MRChangeXfAction.h:19</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gae00d8fe206eb19a46974a6a237d80eab"><div class="ttname"><a href="group__GeneralGroup.html#gae00d8fe206eb19a46974a6a237d80eab">MR::HistoryAction::HistoryAction</a></div><div class="ttdeci">HistoryAction()=default</div><div class="ttdoc">explicitly define ctors to avoid warning C5267: definition of implicit copy constructor is deprecated...</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gae0205231d9c1c0389daaa03a05b302e2"><div class="ttname"><a href="group__GeneralGroup.html#gae0205231d9c1c0389daaa03a05b302e2">MR::ChangeXfAction::action</a></div><div class="ttdeci">virtual void action(HistoryAction::Type) override</div><div class="ttdoc">This function is called on history action (undo, redo, etc.)</div><div class="ttdef"><b>Definition</b> MRChangeXfAction.h:41</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

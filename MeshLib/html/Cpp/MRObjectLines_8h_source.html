@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -159,10 +152,10 @@ $(function(){initNavTree('MRObjectLines_8h_source.html','',''); });
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga5f0a420e9235dc6956353413deba5d78">   20</a></span>    <span class="keyword">constexpr</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#ga5f0a420e9235dc6956353413deba5d78">StaticTypeName</a>() noexcept { <span class="keywordflow">return</span> <span class="stringliteral">&quot;ObjectLines&quot;</span>; }</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga069fc0b9496c10738c79ed84e458c729">   21</a></span>    <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#ga069fc0b9496c10738c79ed84e458c729">typeName</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="group__GeneralGroup.html#ga5f0a420e9235dc6956353413deba5d78">StaticTypeName</a>(); }</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gac4306bbdc9b9359cda67de7cfa601eb3">   23</a></span>    <span class="keyword">constexpr</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#gac4306bbdc9b9359cda67de7cfa601eb3">StaticClassName</a>() noexcept { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Polyline&quot;</span>; }</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gac4306bbdc9b9359cda67de7cfa601eb3">   23</a></span>    <span class="keyword">constexpr</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#gac4306bbdc9b9359cda67de7cfa601eb3">StaticClassName</a>() noexcept { <span class="keywordflow">return</span> <a class="code hl_define" href="MRMeshFwd_8h.html#a9ffd0813b79cbb98d3f71fa5adb2a408">_t</a>( <span class="stringliteral">&quot;Polyline&quot;</span> ); }</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gab6d75bcbb8337be4911605be69fe113c">   24</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="group__GeneralGroup.html#gab6d75bcbb8337be4911605be69fe113c">className</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="group__GeneralGroup.html#gac4306bbdc9b9359cda67de7cfa601eb3">StaticClassName</a>(); }</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gad8dcb8c811a0b151cdff6d645e341b23">   26</a></span>    <span class="keyword">constexpr</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#gad8dcb8c811a0b151cdff6d645e341b23">StaticClassNameInPlural</a>() noexcept { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Polylines&quot;</span>; }</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gad8dcb8c811a0b151cdff6d645e341b23">   26</a></span>    <span class="keyword">constexpr</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#gad8dcb8c811a0b151cdff6d645e341b23">StaticClassNameInPlural</a>() noexcept { <span class="keywordflow">return</span> <a class="code hl_define" href="MRMeshFwd_8h.html#a9ffd0813b79cbb98d3f71fa5adb2a408">_t</a>( <span class="stringliteral">&quot;Polylines&quot;</span> ); }</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga7f81cb2ef99bce186ed664ce7b4a219b">   27</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="group__GeneralGroup.html#ga7f81cb2ef99bce186ed664ce7b4a219b">classNameInPlural</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="group__GeneralGroup.html#gad8dcb8c811a0b151cdff6d645e341b23">StaticClassNameInPlural</a>(); }</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga9a72e4e5407b679376d48dd7088a7ab3">   29</a></span>    <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> std::shared_ptr&lt;Object&gt; <a class="code hl_function" href="group__GeneralGroup.html#ga9a72e4e5407b679376d48dd7088a7ab3">clone</a>() <span class="keyword">const override</span>;</div>
@@ -193,6 +186,7 @@ $(function(){initNavTree('MRObjectLines_8h_source.html','',''); });
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>}</div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:85</div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a45ed33a118705bfd4aac6d294495276a"><div class="ttname"><a href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a></div><div class="ttdeci">#define MRMESH_CLASS</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:92</div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a9ffd0813b79cbb98d3f71fa5adb2a408"><div class="ttname"><a href="MRMeshFwd_8h.html#a9ffd0813b79cbb98d3f71fa5adb2a408">_t</a></div><div class="ttdeci">#define _t(...)</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:869</div></div>
 <div class="ttc" id="aMRObjectLinesHolder_8h_html"><div class="ttname"><a href="MRObjectLinesHolder_8h.html">MRObjectLinesHolder.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Object_html"><div class="ttname"><a href="classMR_1_1Object.html">MR::Object</a></div><div class="ttdoc">named object in the data model</div><div class="ttdef"><b>Definition</b> MRObject.h:61</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga069fc0b9496c10738c79ed84e458c729"><div class="ttname"><a href="group__GeneralGroup.html#ga069fc0b9496c10738c79ed84e458c729">MR::ObjectLines::typeName</a></div><div class="ttdeci">virtual const char * typeName() const override</div><div class="ttdef"><b>Definition</b> MRObjectLines.h:21</div></div>
@@ -220,7 +214,7 @@ $(function(){initNavTree('MRObjectLines_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gafba90d7f156c0d8bb20a9daa74a003ce"><div class="ttname"><a href="group__GeneralGroup.html#gafba90d7f156c0d8bb20a9daa74a003ce">MR::ObjectLinesHolder::polyline_</a></div><div class="ttdeci">std::shared_ptr&lt; Polyline3 &gt; polyline_</div><div class="ttdef"><b>Definition</b> MRObjectLinesHolder.h:183</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gafde3584751268c2baaa025c66a11d10c"><div class="ttname"><a href="group__GeneralGroup.html#gafde3584751268c2baaa025c66a11d10c">MR::ObjectLines::ObjectLines</a></div><div class="ttdeci">ObjectLines(const ObjectLines &amp;other)=default</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf"><div class="ttname"><a href="group__GeneralGroup.html#gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">MR::FeaturePropertyKind::other</a></div><div class="ttdeci">@ other</div><div class="ttdoc">Angle, normally float. Measure in radians.</div><div class="ttdef"><b>Definition</b> MRFeatureObject.h:27</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Object_1_1ProtectedStruct_html"><div class="ttname"><a href="structMR_1_1Object_1_1ProtectedStruct.html">MR::Object::ProtectedStruct</a></div><div class="ttdef"><b>Definition</b> MRObject.h:289</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -108,6 +108,10 @@ var bindings_8d_8mts =
       [ "Sequential", "bindings_8d_8mts.html#a70f6b13a312f3117a59433bec8606bf0a3e43c0262698131c52c4f95dbd7f6709", null ],
       [ "AABBTreeBased", "bindings_8d_8mts.html#a70f6b13a312f3117a59433bec8606bf0a35b3e9a4e631ad33fad2015827cfcb6a", null ]
     ] ],
+    [ "DecimatePartsMode", "bindings_8d_8mts.html#ad1b68ac93afc03c8e0d5aae50bf2fa55", [
+      [ "PackedMesh", "bindings_8d_8mts.html#ad1b68ac93afc03c8e0d5aae50bf2fa55ac06e02bb0595d709ea6cda74b40c838e", null ],
+      [ "AABBTree", "bindings_8d_8mts.html#ad1b68ac93afc03c8e0d5aae50bf2fa55ac70643a827f9368cbea9120720ba4e2d", null ]
+    ] ],
     [ "DecimateStrategy", "bindings_8d_8mts.html#aae3b7ed557d4233548d7966f0951e8fb", [
       [ "MinimizeError", "bindings_8d_8mts.html#aae3b7ed557d4233548d7966f0951e8fbac9f66cbc4953783cde6144ea9e4ea7fd", null ],
       [ "ShortestEdgeFirst", "bindings_8d_8mts.html#aae3b7ed557d4233548d7966f0951e8fba7dd8eb61d5d609641c4916ad48bd3726", null ]
@@ -128,7 +132,6 @@ var bindings_8d_8mts =
     ] ],
     [ "ForceFill", "bindings_8d_8mts.html#a75f068e980a90347613fde4449884ee4", [
       [ "None", "bindings_8d_8mts.html#affcedbbb6a1acf807f0cfc008c6dbe11ac7485dcc8d256a6f197ed7802687f252", null ],
-      [ "Good", "bindings_8d_8mts.html#a75f068e980a90347613fde4449884ee4aa9e10f610083e262e7aa4004c9b68fe9", null ],
       [ "All", "bindings_8d_8mts.html#a75f068e980a90347613fde4449884ee4a54991d225c58ce0af43461d4e9a82312", null ]
     ] ],
     [ "ICPExitType", "bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85", [
@@ -183,13 +186,15 @@ var bindings_8d_8mts =
     ] ],
     [ "SelfIntersectionsMethod", "bindings_8d_8mts.html#a4d26d0aad1f3f52c1561995b518db0aa", [
       [ "Relax", "bindings_8d_8mts.html#a4d26d0aad1f3f52c1561995b518db0aaaad005dc0def4b7d034a8aa92ff0d1f4f", null ],
-      [ "CutAndFill", "bindings_8d_8mts.html#a4d26d0aad1f3f52c1561995b518db0aaaa54b2ac5a2d44bf78a7b4f9da0bcba3a", null ]
+      [ "CutAndFill", "bindings_8d_8mts.html#a4d26d0aad1f3f52c1561995b518db0aaaa54b2ac5a2d44bf78a7b4f9da0bcba3a", null ],
+      [ "SelfBoolean", "bindings_8d_8mts.html#a4d26d0aad1f3f52c1561995b518db0aaae0ee5cb1ed8689aba7345c28faba5283", null ]
     ] ],
     [ "SignDetectionMode", "bindings_8d_8mts.html#a3a1c46c77f4561d4e907577f24e085ae", [
       [ "Unsigned", "bindings_8d_8mts.html#ad995f406d908cf33a64c3a0da079f906a37795ea23b5d1837d4f1915d0bc99e38", null ],
       [ "OpenVDB", "bindings_8d_8mts.html#a3a1c46c77f4561d4e907577f24e085aeafb35f6b4995c1c5fcf308006ac31f7b1", null ],
       [ "ProjectionNormal", "bindings_8d_8mts.html#a3a1c46c77f4561d4e907577f24e085aea89aba2570635eeaf58b335fcd90407bf", null ],
       [ "WindingRule", "bindings_8d_8mts.html#a3a1c46c77f4561d4e907577f24e085aea5f44b72607792afaa4a0175adb4d929c", null ],
+      [ "OddCrossings", "bindings_8d_8mts.html#a3a1c46c77f4561d4e907577f24e085aea7aed141052e1150ff2a1060fd6fb8734", null ],
       [ "HoleWindingRule", "bindings_8d_8mts.html#a3a1c46c77f4561d4e907577f24e085aea831fd92e27f978a1573736876e7b0aa7", null ]
     ] ],
     [ "VertexMass", "bindings_8d_8mts.html#a82166a6381ef88adc0a9ccac4000cc6b", [
@@ -199,6 +204,7 @@ var bindings_8d_8mts =
     [ "addNoise", "bindings_8d_8mts.html#aa998e2180b06b68d30727c99aaf29503", null ],
     [ "boolean", "bindings_8d_8mts.html#ab327118a7dc64c2db1605682331342bb", null ],
     [ "boolean", "bindings_8d_8mts.html#a085dcbdcc1053af6bf37f9a0cdb25afd", null ],
+    [ "booleanWithXf", "bindings_8d_8mts.html#a36f888809615c00751057876c69026f1", null ],
     [ "calcCombinedFillMetric", "bindings_8d_8mts.html#acae9cac1b516889f23a3f9c3d51fb22c", null ],
     [ "computePerFaceNormals", "bindings_8d_8mts.html#a198fde9c306b5fa6066f3ee6bd17963c", null ],
     [ "computePerVertNormals", "bindings_8d_8mts.html#a0f2b375b88caa40460c9d930bee99833", null ],

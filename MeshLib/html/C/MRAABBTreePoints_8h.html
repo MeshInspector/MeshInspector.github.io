@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -156,10 +149,7 @@ $(function(){initNavTree('MRAABBTreePoints_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:ab2a7de4aa3afd6ac2dbca1388a451783" id="r_ab2a7de4aa3afd6ac2dbca1388a451783"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab2a7de4aa3afd6ac2dbca1388a451783">MR_Vector_MR_AABBTreePoints_Node_MR_NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2a7de4aa3afd6ac2dbca1388a451783">MR_Vector_MR_AABBTreePoints_Node_MR_NodeId</a></td></tr>
-<tr class="memdesc:ab2a7de4aa3afd6ac2dbca1388a451783"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
-<tr class="memitem:aa7b9116fbd7f68728817ec9e0d331d91" id="r_aa7b9116fbd7f68728817ec9e0d331d91"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a></td></tr>
 <tr class="memitem:a249fd9254c0c3395567807936ad32641" id="r_a249fd9254c0c3395567807936ad32641"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td></tr>
-<tr class="memdesc:a249fd9254c0c3395567807936ad32641"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a3ad79c88fa1e467d5ccd88cbcf762ae3" id="r_a3ad79c88fa1e467d5ccd88cbcf762ae3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3ad79c88fa1e467d5ccd88cbcf762ae3">MR_std_pair_int_int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ad79c88fa1e467d5ccd88cbcf762ae3">MR_std_pair_int_int</a></td></tr>
 <tr class="memitem:a73ecbd814e9edb9c62f4f57cbbf98cb6" id="r_a73ecbd814e9edb9c62f4f57cbbf98cb6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a></td></tr>
 <tr class="memitem:aed23cf43b6fbab4bac207419ea0d1d7a" id="r_aed23cf43b6fbab4bac207419ea0d1d7a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aed23cf43b6fbab4bac207419ea0d1d7a">MR_AABBTreePoints_Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed23cf43b6fbab4bac207419ea0d1d7a">MR_AABBTreePoints_Node</a></td></tr>
@@ -186,8 +176,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a1121b6687ee852eed3bc958222bc449a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::AABBTreePoints::rootNodeId</span>.  <br /></td></tr>
 <tr class="memitem:a4905ba9533ad4b3de079026bdbefd97a" id="r_a4905ba9533ad4b3de079026bdbefd97a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box3f.html">MR_Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4905ba9533ad4b3de079026bdbefd97a">MR_AABBTreePoints_getBoundingBox</a> (const <a class="el" href="#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> *_this)</td></tr>
 <tr class="memitem:a2870ed70e076a16d0717419106ad00a6" id="r_a2870ed70e076a16d0717419106ad00a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2870ed70e076a16d0717419106ad00a6">MR_AABBTreePoints_orderedPoints</a> (const <a class="el" href="#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> *_this)</td></tr>
-<tr class="memitem:ac774351d1624e4ecf0e491b1e2dfd053" id="r_ac774351d1624e4ecf0e491b1e2dfd053"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac774351d1624e4ecf0e491b1e2dfd053">MR_AABBTreePoints_getLeafOrder</a> (const <a class="el" href="#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> *_this, <a class="el" href="#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a> *vertMap)</td></tr>
-<tr class="memitem:ac42dcc57173073e41fce7055494c46bc" id="r_ac42dcc57173073e41fce7055494c46bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac42dcc57173073e41fce7055494c46bc">MR_AABBTreePoints_getLeafOrderAndReset</a> (<a class="el" href="#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> *_this, <a class="el" href="#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a> *vertMap)</td></tr>
+<tr class="memitem:ac774351d1624e4ecf0e491b1e2dfd053" id="r_ac774351d1624e4ecf0e491b1e2dfd053"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac774351d1624e4ecf0e491b1e2dfd053">MR_AABBTreePoints_getLeafOrder</a> (const <a class="el" href="#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> *_this, <a class="el" href="MRAABBTree_8h.html#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a> *vertMap)</td></tr>
+<tr class="memitem:ac42dcc57173073e41fce7055494c46bc" id="r_ac42dcc57173073e41fce7055494c46bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac42dcc57173073e41fce7055494c46bc">MR_AABBTreePoints_getLeafOrderAndReset</a> (<a class="el" href="#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> *_this, <a class="el" href="MRAABBTree_8h.html#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a> *vertMap)</td></tr>
 <tr class="memitem:a38a8bfb1a4a06a33fd0c4fce1b0c39af" id="r_a38a8bfb1a4a06a33fd0c4fce1b0c39af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38a8bfb1a4a06a33fd0c4fce1b0c39af">MR_AABBTreePoints_heapBytes</a> (const <a class="el" href="#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> *_this)</td></tr>
 <tr class="memitem:aa06ff8bd5342fec197db747fb90c5fe7" id="r_aa06ff8bd5342fec197db747fb90c5fe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa06ff8bd5342fec197db747fb90c5fe7">MR_AABBTreePoints_refit</a> (<a class="el" href="#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> *_this, const <a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *newCoords, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *changedVerts)</td></tr>
 <tr class="memitem:a4bd5e977044062c54dc0aff24932fdb5" id="r_a4bd5e977044062c54dc0aff24932fdb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bd5e977044062c54dc0aff24932fdb5">MR_AABBTreePoints_Node_Get_box</a> (const <a class="el" href="#aed23cf43b6fbab4bac207419ea0d1d7a">MR_AABBTreePoints_Node</a> *_this)</td></tr>
@@ -320,30 +310,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;MR::AABBTreePoints::Node, MR::NodeId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="aa7b9116fbd7f68728817ec9e0d331d91" name="aa7b9116fbd7f68728817ec9e0d331d91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7b9116fbd7f68728817ec9e0d331d91">&#9670;&#160;</a></span>MR_VertBMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a> <a class="el" href="#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>flat map: I -&gt; T Generated from class <span class="tt">MR::VertBMap</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&lt;MR::AABBTreePoints::Node, MR::NodeId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -358,15 +325,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::VertCoords</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::VertCoords</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -566,7 +525,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a> *</td>          <td class="paramname"><span class="paramname"><em>vertMap</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRAABBTree_8h.html#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a> *</td>          <td class="paramname"><span class="paramname"><em>vertMap</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -588,7 +547,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a> *</td>          <td class="paramname"><span class="paramname"><em>vertMap</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRAABBTree_8h.html#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a> *</td>          <td class="paramname"><span class="paramname"><em>vertMap</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1459,7 +1418,7 @@ Functions</h2></td></tr>
 <p>updates bounding boxes of the nodes containing changed vertices; this is a faster alternative to full tree rebuild (but the tree after refit might be less efficient) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">newCoords</td><td>coordinates of all vertices including changed ones; </td></tr>
-    <tr><td class="paramname">changedVerts</td><td>vertex ids with modified coordinates (since tree construction or last refit) Generated from method <span class="tt">MR::AABBTreePoints::refit</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">newCoords</span> can not be null. It is a single object. Parameter <span class="tt">changedVerts</span> can not be null. It is a single object. bounding box of whole subtree Returns a pointer to a member variable of class <span class="tt">MR::AABBTreePoints::Node</span> named <span class="tt">box</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </td></tr>
+    <tr><td class="paramname">changedVerts</td><td>vertex ids with modified coordinates (since tree construction or last refit), nullptr means all vertices Generated from method <span class="tt">MR::AABBTreePoints::refit</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">newCoords</span> can not be null. It is a single object. bounding box of whole subtree Returns a pointer to a member variable of class <span class="tt">MR::AABBTreePoints::Node</span> named <span class="tt">box</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </td></tr>
   </table>
   </dd>
 </dl>

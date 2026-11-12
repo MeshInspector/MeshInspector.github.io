@@ -1,0 +1,4 @@
+var ColorMapAggregator__MR__UndirectedEdgeTag__AggregateMode_8java =
+[
+    [ "meshlib.ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode", "classmeshlib_1_1ColorMapAggregator__MR__UndirectedEdgeTag__AggregateMode.html", "classmeshlib_1_1ColorMapAggregator__MR__UndirectedEdgeTag__AggregateMode" ]
+];

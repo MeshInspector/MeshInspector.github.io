@@ -1,0 +1,27 @@
+var classmeshlib_1_1features_1_1MeasureResult__Angle =
+[
+    [ "MeasureResult_Angle", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#a4ebe3b91a0d00ac0fde69b33bbc1fbd7", null ],
+    [ "MeasureResult_Angle", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#af6a1b533d3f19e57c448bd3a40a8a99a", null ],
+    [ "MeasureResult_Angle", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#ab970714a9a8487c17696be1440423104", null ],
+    [ "assignFromAnother", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#a8765586565b6c7cf84e994e33f91d86b", null ],
+    [ "computeAngleInRadians", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#a7859ec75830d78cf6520d8504f7ee7fd", null ],
+    [ "convertTo_bool", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#af1f71b76403292263c7409e3f51c0171", null ],
+    [ "dirA", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#af3634591d8e78077b181e2136a054b20", null ],
+    [ "dirB", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#ad256286be1b92721091165eadc371fe1", null ],
+    [ "dirFor", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#aae7da66d245083b984b9ef82354e5ced", null ],
+    [ "isSurfaceNormalA", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#a24c00dd965433698d7e6ad915b4948cc", null ],
+    [ "isSurfaceNormalB", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#a64487f36c9c3f8a88b961236b8b945e1", null ],
+    [ "isSurfaceNormalFor", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#a78230e0bfb88ca9fc5ea5987887d4d8c", null ],
+    [ "pointA", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#aece337b28e77b51fe1fab6ba2abcc894", null ],
+    [ "pointB", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#ae1bbcad7a23cfdd51e8b39372dd6f202", null ],
+    [ "pointFor", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#ac9deaab9de717e8889b211e511edd816", null ],
+    [ "setDirA", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#a1b83dbf939e726076735461807506681", null ],
+    [ "setDirB", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#a506b95586da9de7995202d931d67ec6b", null ],
+    [ "setIsSurfaceNormalA", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#a46ca92444db9b34a94b08ce2c29d64ae", null ],
+    [ "setIsSurfaceNormalB", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#aef6b08cf47a8fc406d58a17aea7d167c", null ],
+    [ "setPointA", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#a43a6ef69f0ae51c6be81879fe82f41e7", null ],
+    [ "setPointB", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#a44e14654f36b06edfeff8e50a0262e62", null ],
+    [ "setStatus", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#a44452e305500bbac1ccad6a7c6cbb96e", null ],
+    [ "status", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#a94f2fc9d91c34a02b50a9ae59072ad00", null ],
+    [ "upcastToMeasureResult_BasicPart", "classmeshlib_1_1features_1_1MeasureResult__Angle.html#af50ef895f3c8a94b3d6c878d54225ddc", null ]
+];

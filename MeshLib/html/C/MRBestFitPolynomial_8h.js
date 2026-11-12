@@ -16,7 +16,6 @@ var MRBestFitPolynomial_8h =
     [ "MR_Polynomial_float_6", "MRBestFitPolynomial_8h.html#aadada3d9f38e3e169f929403bfdfa233", null ],
     [ "MR_PolynomialWrapper_double", "MRBestFitPolynomial_8h.html#ac3af30efe5819f24c220d3352532dc42", null ],
     [ "MR_PolynomialWrapper_float", "MRBestFitPolynomial_8h.html#ab0e7e49f1c53ebc35d3931e6577b95cb", null ],
-    [ "MR_std_optional_double", "MRBestFitPolynomial_8h.html#ae0c6104dcd799a946e4e2ddc8214d24c", null ],
     [ "MR_std_optional_float", "MRBestFitPolynomial_8h.html#a55e42a260ef15081eb6a47c600bd1f4b", null ],
     [ "MR_std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomial_double_3_MR_Polynomial_double_4_MR_Polynomial_double_5_MR_Polynomial_double_6", "MRBestFitPolynomial_8h.html#abed0a03c3cb54fae5ccae629e374b64f", null ],
     [ "MR_std_variant_MR_Polynomial_float_0_MR_Polynomial_float_1_MR_Polynomial_float_2_MR_Polynomial_float_3_MR_Polynomial_float_4_MR_Polynomial_float_5_MR_Polynomial_float_6", "MRBestFitPolynomial_8h.html#a27bc416448c93f18df2f616b9809c7fc", null ],

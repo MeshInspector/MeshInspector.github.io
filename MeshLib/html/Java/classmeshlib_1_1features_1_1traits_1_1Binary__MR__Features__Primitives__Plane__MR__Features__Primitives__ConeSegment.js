@@ -1,0 +1,8 @@
+var classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment =
+[
+    [ "Binary_MR_Features_Primitives_Plane_MR_Features_Primitives_ConeSegment", "classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#aacb9efe26c3d10b5321957c76c5d73c8", null ],
+    [ "Binary_MR_Features_Primitives_Plane_MR_Features_Primitives_ConeSegment", "classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#ac705f216e31aba9d13f5ea682bb28c01", null ],
+    [ "Binary_MR_Features_Primitives_Plane_MR_Features_Primitives_ConeSegment", "classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#aa248e1c773148b69a458d1be4f3f4f09", null ],
+    [ "assignFromAnother", "classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#a5fe5074c02fc73f00854984e1e705597", null ],
+    [ "measure", "classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#afc6f3fbf485ca10645df02bfce860b5c", null ]
+];

@@ -1,13 +1,12 @@
 var classmrmeshpy_1_1SymMatrix4__unsigned__char =
 [
     [ "__init__", "classmrmeshpy_1_1SymMatrix4__unsigned__char.html#ad26b9465f57d852269d70e8a76a92d21", null ],
-    [ "__init__", "classmrmeshpy_1_1SymMatrix4__unsigned__char.html#ad98f5e633f37d8c61a725919815bb24a", null ],
-    [ "__iadd__", "classmrmeshpy_1_1SymMatrix4__unsigned__char.html#accb793322389fc3f6838023fb2292efe", null ],
-    [ "__imatmul__", "classmrmeshpy_1_1SymMatrix4__unsigned__char.html#abdbed3e97772887c3c1d48d051fa5e46", null ],
-    [ "__isub__", "classmrmeshpy_1_1SymMatrix4__unsigned__char.html#a0252311451d0c0a2225f7a058d3c71ac", null ],
+    [ "__init__", "classmrmeshpy_1_1SymMatrix4__unsigned__char.html#ad651e4ede7ecec8657a403aa2ca3399b", null ],
+    [ "__iadd__", "classmrmeshpy_1_1SymMatrix4__unsigned__char.html#a303b405ca1cbfc84bd4e13c30cf9d647", null ],
+    [ "__imul__", "classmrmeshpy_1_1SymMatrix4__unsigned__char.html#a5cee2bb80406a3761202d699caa2e6ea", null ],
+    [ "__isub__", "classmrmeshpy_1_1SymMatrix4__unsigned__char.html#a454cd379646c5a32e078ecbc751efa6c", null ],
     [ "__itruediv__", "classmrmeshpy_1_1SymMatrix4__unsigned__char.html#a78e8ba63209b26a46646a72ef9e24085", null ],
-    [ "normSq", "classmrmeshpy_1_1SymMatrix4__unsigned__char.html#adb6878162a090a7ecc108c928208470e", null ],
-    [ "trace", "classmrmeshpy_1_1SymMatrix4__unsigned__char.html#a011c594189ee308bb6997b2411cf895a", null ],
+    [ "assign", "classmrmeshpy_1_1SymMatrix4__unsigned__char.html#a9c26393ad62f7029a5ab49b34b95754c", null ],
     [ "ww", "classmrmeshpy_1_1SymMatrix4__unsigned__char.html#a5d373df3c1f018d2e5721fa8d47d2f31", null ],
     [ "ww", "classmrmeshpy_1_1SymMatrix4__unsigned__char.html#a62fcc76ce1f3d82935198d81adf2e5e5", null ],
     [ "xw", "classmrmeshpy_1_1SymMatrix4__unsigned__char.html#aa1a0e1f4083e5394670ff3760f25c805", null ],

@@ -1,0 +1,25 @@
+var structmeshlib_1_1DetectTunnelSettings =
+[
+    [ "assign_from_another", "structmeshlib_1_1DetectTunnelSettings.html#ada1c841ef16665bbd89168433efc6615", null ],
+    [ "build_co_loops", "structmeshlib_1_1DetectTunnelSettings.html#a8b73190c6e96e090ae764eb90b550e6d", null ],
+    [ "build_co_loops_mut", "structmeshlib_1_1DetectTunnelSettings.html#a36ed3dd99961c8f95d05967a2a3ea181", null ],
+    [ "filter_equivalent_co_loops", "structmeshlib_1_1DetectTunnelSettings.html#a0ac7a93c7377fb10b137c4e864eccf5b", null ],
+    [ "filter_equivalent_co_loops_mut", "structmeshlib_1_1DetectTunnelSettings.html#a22dcf5f1ba5e233cf20041679f872023", null ],
+    [ "loop_type", "structmeshlib_1_1DetectTunnelSettings.html#a970404b53bcce55569bd2f5248daa945", null ],
+    [ "loop_type_mut", "structmeshlib_1_1DetectTunnelSettings.html#a5dd47c7951a64b134b59bf5062a56300", null ],
+    [ "max_iters", "structmeshlib_1_1DetectTunnelSettings.html#a4b8b0fa6ffc05a27199c688a4ddfc60f", null ],
+    [ "max_iters_mut", "structmeshlib_1_1DetectTunnelSettings.html#a4dd3a2334be46352cf9470fdab61c8b8", null ],
+    [ "max_tunnel_length", "structmeshlib_1_1DetectTunnelSettings.html#a8be77599c6dccc9e5d5b89481d22ba9b", null ],
+    [ "max_tunnel_length_mut", "structmeshlib_1_1DetectTunnelSettings.html#afe7278fd11283dbc8f6095a5c81e0ab4", null ],
+    [ "metric", "structmeshlib_1_1DetectTunnelSettings.html#ac2d5d7c204f9d6912ed81fd5e3c7d668", null ],
+    [ "metric_mut", "structmeshlib_1_1DetectTunnelSettings.html#a17b7c320971c1d1e6ded59b698ce246b", null ],
+    [ "progress", "structmeshlib_1_1DetectTunnelSettings.html#ae282a833e3de9f44da4d503cfe6f83ba", null ],
+    [ "progress_mut", "structmeshlib_1_1DetectTunnelSettings.html#a75c9e7b3678d156fa896f9dd006ea398", null ],
+    [ "set_build_co_loops", "structmeshlib_1_1DetectTunnelSettings.html#a61ac0b323b0df7f6a6b474c82760668c", null ],
+    [ "set_filter_equivalent_co_loops", "structmeshlib_1_1DetectTunnelSettings.html#aae6d169a1ebac498d4e66fb34c3ff1b9", null ],
+    [ "set_loop_type", "structmeshlib_1_1DetectTunnelSettings.html#a00b5b129e67de824789d76a90fb20ddd", null ],
+    [ "set_max_iters", "structmeshlib_1_1DetectTunnelSettings.html#a7562c25f5f811761e399d351717c428c", null ],
+    [ "set_max_tunnel_length", "structmeshlib_1_1DetectTunnelSettings.html#a228401e6562b8bda585db9a0edfccaef", null ],
+    [ "set_metric", "structmeshlib_1_1DetectTunnelSettings.html#ad81a0f100c2b6ae9e44d9ba6b2ac1d43", null ],
+    [ "set_progress", "structmeshlib_1_1DetectTunnelSettings.html#ac5b9d0d833d671555bfde9323e32612d", null ]
+];

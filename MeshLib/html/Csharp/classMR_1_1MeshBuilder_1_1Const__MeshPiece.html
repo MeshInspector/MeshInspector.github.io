@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -185,7 +178,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a7f073fbc9e6ec9840429713ec6192eff" id="r_a7f073fbc9e6ec9840429713ec6192eff"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__FaceMap.html">MR.Const_FaceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f073fbc9e6ec9840429713ec6192eff">fmap</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a7f073fbc9e6ec9840429713ec6192eff"><td class="mdescLeft">&#160;</td><td class="mdescRight">face of part -&gt; face of whole mesh  <br /></td></tr>
+<tr class="memdesc:a7f073fbc9e6ec9840429713ec6192eff"><td class="mdescLeft">&#160;</td><td class="mdescRight">face of part -&gt; face of whole mesh (before settings.shiftFaceId is added)  <br /></td></tr>
 <tr class="memitem:ae91af9eb6c7c622835f2f5158f5921b7" id="r_ae91af9eb6c7c622835f2f5158f5921b7"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__VertMap.html">MR.Const_VertMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae91af9eb6c7c622835f2f5158f5921b7">vmap</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:ae91af9eb6c7c622835f2f5158f5921b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">vert of part -&gt; vert of whole mesh  <br /></td></tr>
 <tr class="memitem:af9b4303a1c15ff4c342a81034239fa37" id="r_af9b4303a1c15ff4c342a81034239fa37"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9b4303a1c15ff4c342a81034239fa37">topology</a><code> [get, protected set]</code></td></tr>
@@ -416,7 +409,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>face of part -&gt; face of whole mesh </p>
+<p>face of part -&gt; face of whole mesh (before settings.shiftFaceId is added) </p>
 
 </div>
 </div>

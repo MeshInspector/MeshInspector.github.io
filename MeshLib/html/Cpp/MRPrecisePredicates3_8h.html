@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -145,6 +138,7 @@ $(function(){initNavTree('MRPrecisePredicates3_8h.html','',''); });
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRVector3_8h_source.html">MRVector3.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRId_8h_source.html">MRId.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRRound_8h_source.html">MRRound.h</a>&quot;</code><br />
 <code>#include &lt;array&gt;</code><br />
 <code>#include &lt;optional&gt;</code><br />
 </div>
@@ -164,7 +158,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
-<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only strictly necessary for the bindings (to make <span class="tt"><a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a></span> a complete type). <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -186,6 +180,7 @@ Functions</h2></td></tr>
 <tr class="memitem:gabad3bcfedc022e24fc08968b846a21b5" id="r_gabad3bcfedc022e24fc08968b846a21b5"><td class="memItemLeft" align="right" valign="top">VertCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#gabad3bcfedc022e24fc08968b846a21b5">MR::computeFloatCoords</a> (const <a class="el" href="structMR_1_1ConvertToFloatVector.html">ConvertToFloatVector</a> &amp;conv, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3i, VertId &gt; &amp;intCoords, const VertBitSet *valid=nullptr)</td></tr>
 <tr class="memitem:ga4a25b52ef9a47a48d91540efe6f61bcd" id="r_ga4a25b52ef9a47a48d91540efe6f61bcd"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Vector3i &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga4a25b52ef9a47a48d91540efe6f61bcd">MR::findTwoSegmentsIntersection</a> (const Vector3i &amp;ai, const Vector3i &amp;bi, const Vector3i &amp;ci, const Vector3i &amp;di)</td></tr>
 <tr class="memitem:gaab6e7e21a9eac612957d5e6b91637769" id="r_gaab6e7e21a9eac612957d5e6b91637769"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#gaab6e7e21a9eac612957d5e6b91637769">MR::findTriangleSegmentIntersectionPrecise</a> (const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d, const Vector3f &amp;e, <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> converters)</td></tr>
+<tr class="memitem:ga67bcae2090ea4cb7ddaa3649e817b040" id="r_ga67bcae2090ea4cb7ddaa3649e817b040"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Vector3i &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga67bcae2090ea4cb7ddaa3649e817b040">MR::findTriangleSegmentIntersectionPreciseInt</a> (const Vector3i &amp;ai, const Vector3i &amp;bi, const Vector3i &amp;ci, const Vector3i &amp;di, const Vector3i &amp;ei)</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

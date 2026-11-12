@@ -1,6 +1,6 @@
 var structMR_1_1Cuda_1_1DeviceInfo =
 [
-    [ "fitForComputations", "group__GeneralGroup.html#ga21bae6d1641c967366def5e2475f2e94", null ],
+    [ "fitForComputations", "group__GeneralGroup.html#gacdbb9a85a2263ab63d61ef3a7be2fd7e", null ],
     [ "computeMajor", "group__GeneralGroup.html#gaeeefc5e3461137c787635a4a579cc44d", null ],
     [ "computeMinor", "group__GeneralGroup.html#gaaaaff9928be57291afb423fae668e49e", null ],
     [ "driverVersion", "group__GeneralGroup.html#ga4ef6286e641f9aa2862522e9783b1759", null ],

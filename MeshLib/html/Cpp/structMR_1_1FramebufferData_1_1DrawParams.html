@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -157,6 +150,10 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:gab8f2d431e39a794c2f26c90a41d076fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">filter type of underlaying textures  <br /></td></tr>
 <tr class="memitem:ga3c746d4b6d8c92e796c2c1f1080a5d79" id="r_ga3c746d4b6d8c92e796c2c1f1080a5d79"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3c746d4b6d8c92e796c2c1f1080a5d79">simpleDepth</a> = 0.5f</td></tr>
 <tr class="memdesc:ga3c746d4b6d8c92e796c2c1f1080a5d79"><td class="mdescLeft">&#160;</td><td class="mdescRight">force using <span class="tt">simpleDepth</span> for all fragments even if depth texture is present  <br /></td></tr>
+<tr class="memitem:ga75e83e3a5bcbba1d87163e434d8647a7" id="r_ga75e83e3a5bcbba1d87163e434d8647a7"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga75e83e3a5bcbba1d87163e434d8647a7">depthTexture</a> = 0</td></tr>
+<tr class="memdesc:ga75e83e3a5bcbba1d87163e434d8647a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">depth that is used if this framebuffer does not store depth component texture  <br /></td></tr>
+<tr class="memitem:ga6e94e0808fcddbdf07ea951084fb7406" id="r_ga6e94e0808fcddbdf07ea951084fb7406"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6e94e0808fcddbdf07ea951084fb7406">maxDepth</a> = 0.999f</td></tr>
+<tr class="memdesc:ga6e94e0808fcddbdf07ea951084fb7406"><td class="mdescLeft">&#160;</td><td class="mdescRight">if not zero, this depth texture is used instead of the framebuffer's own one  <br /></td></tr>
 </table>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>MRViewer/<a class="el" href="MRRenderGLHelpers_8h_source.html">MRRenderGLHelpers.h</a></li>

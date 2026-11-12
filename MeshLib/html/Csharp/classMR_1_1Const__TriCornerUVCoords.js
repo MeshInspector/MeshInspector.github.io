@@ -6,7 +6,6 @@ var classMR_1_1Const__TriCornerUVCoords =
     [ "Const_TriCornerUVCoords", "classMR_1_1Const__TriCornerUVCoords.html#a1805d5ccc1f249ff123e5ea55a0cc5e5", null ],
     [ "Const_TriCornerUVCoords", "classMR_1_1Const__TriCornerUVCoords.html#a41bc99f703e09017a8b13bac112a4ea1", null ],
     [ "Const_TriCornerUVCoords", "classMR_1_1Const__TriCornerUVCoords.html#aaf5f14570074b97ae63acfcbaceea4c1", null ],
-    [ "Const_TriCornerUVCoords", "classMR_1_1Const__TriCornerUVCoords.html#a53ad8b24ce08421df8b6619f0262ddb2", null ],
     [ "back", "classMR_1_1Const__TriCornerUVCoords.html#addf800dc6a9e85c87ed09f626c054ee3", null ],
     [ "backId", "classMR_1_1Const__TriCornerUVCoords.html#aa4c05638d58b2441665e5607bdb8fdc8", null ],
     [ "beginId", "classMR_1_1Const__TriCornerUVCoords.html#aee33573799dd90998b6e3173054c31e6", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__TriCornerUVCoords =
     [ "Equals", "classMR_1_1Const__TriCornerUVCoords.html#a0fde53e3bed15d42a2fc07b8210399ca", null ],
     [ "Equals", "classMR_1_1Const__TriCornerUVCoords.html#ad84e4d506a00971b3919f813217af064", null ],
     [ "front", "classMR_1_1Const__TriCornerUVCoords.html#ad91795cf326dc9006480712da469f278", null ],
-    [ "GetEnumerator", "classMR_1_1Const__TriCornerUVCoords.html#a8a1fc592b4f7b52abcf2a693d1c1fd79", null ],
     [ "heapBytes", "classMR_1_1Const__TriCornerUVCoords.html#a02fb73653c2523b0618678e12896cf31", null ],
-    [ "operator Const_TriCornerUVCoords", "classMR_1_1Const__TriCornerUVCoords.html#aab0b7db4aac3233fd8eb4a0cef48ee98", null ],
+    [ "maxSize", "classMR_1_1Const__TriCornerUVCoords.html#acc3d95594de6c5d4bae5300cf7f05fe1", null ],
     [ "operator!=", "classMR_1_1Const__TriCornerUVCoords.html#add192d2dc00fd65fe7381cb4726f95b5", null ],
     [ "operator==", "classMR_1_1Const__TriCornerUVCoords.html#a759ff63a7d9732f5096d88bf2046b963", null ],
     [ "size", "classMR_1_1Const__TriCornerUVCoords.html#aa750f784ff4fdd07f87e8b22e3071ba4", null ],
     [ "this[MR.FaceId i]", "classMR_1_1Const__TriCornerUVCoords.html#a5b88ce7a3ebcc67c003b1e109c5b41b8", null ],
-    [ "vec", "classMR_1_1Const__TriCornerUVCoords.html#a6a655b050244dc035cf5f9cfa663e279", null ]
+    [ "vec", "classMR_1_1Const__TriCornerUVCoords.html#a7905a5a9ffc4173cb1ab1232897b5ff5", null ]
 ];

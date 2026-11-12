@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -179,7 +172,7 @@ $(function(){initNavTree('MRRadiusCompensation_8h_source.html','',''); });
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:85</div></div>
 <div class="ttc" id="aMRVector2_8h_html"><div class="ttname"><a href="MRVector2_8h.html">MRVector2.h</a></div></div>
 <div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:759</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:789</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga05af941103d0a3f88ddcf7383bf82c67"><div class="ttname"><a href="group__GeneralGroup.html#ga05af941103d0a3f88ddcf7383bf82c67">MR::CompensateRadiusParams::relaxIterations</a></div><div class="ttdeci">int relaxIterations</div><div class="ttdoc">how many iterations of relax is applied on each compensation iteration</div><div class="ttdef"><b>Definition</b> MRRadiusCompensation.h:34</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga3becc371ebe70ab58e91982390945d41"><div class="ttname"><a href="group__GeneralGroup.html#ga3becc371ebe70ab58e91982390945d41">MR::CompensateRadiusParams::maxIterations</a></div><div class="ttdeci">int maxIterations</div><div class="ttdoc">maximum iteration of applying algorithm (each iteration improves result a little bit)</div><div class="ttdef"><b>Definition</b> MRRadiusCompensation.h:28</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga3dd2fe92b7669c20647e3ff3405df52f"><div class="ttname"><a href="group__GeneralGroup.html#ga3dd2fe92b7669c20647e3ff3405df52f">MR::compensateRadius</a></div><div class="ttdeci">Expected&lt; void &gt; compensateRadius(Mesh &amp;mesh, const CompensateRadiusParams &amp;params)</div></div>
@@ -190,7 +183,7 @@ $(function(){initNavTree('MRRadiusCompensation_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gadb2072e359a12815d6285187b399591d"><div class="ttname"><a href="group__GeneralGroup.html#gadb2072e359a12815d6285187b399591d">MR::CompensateRadiusParams::callback</a></div><div class="ttdeci">ProgressCallback callback</div><div class="ttdef"><b>Definition</b> MRRadiusCompensation.h:39</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gadee28415a6ac7b943071cce3515545a2"><div class="ttname"><a href="group__GeneralGroup.html#gadee28415a6ac7b943071cce3515545a2">MR::CompensateRadiusParams::relaxExpansion</a></div><div class="ttdeci">int relaxExpansion</div><div class="ttdoc">how many hops to expand around each moved vertex for relaxation</div><div class="ttdef"><b>Definition</b> MRRadiusCompensation.h:31</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gae42deb31a3f4aa352b4df19396131a28"><div class="ttname"><a href="group__GeneralGroup.html#gae42deb31a3f4aa352b4df19396131a28">MR::CompensateRadiusParams::toolRadius</a></div><div class="ttdeci">float toolRadius</div><div class="ttdoc">radius of spherical tool</div><div class="ttdef"><b>Definition</b> MRRadiusCompensation.h:20</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1CompensateRadiusParams_html"><div class="ttname"><a href="structMR_1_1CompensateRadiusParams.html">MR::CompensateRadiusParams</a></div><div class="ttdoc">structure with parameters for compensateRadius function</div><div class="ttdef"><b>Definition</b> MRRadiusCompensation.h:15</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->

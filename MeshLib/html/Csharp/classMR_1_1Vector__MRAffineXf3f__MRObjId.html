@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -138,16 +131,14 @@ $(function(){initNavTree('classMR_1_1Vector__MRAffineXf3f__MRObjId.html','','cla
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Vector__MRAffineXf3f__MRObjId-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Vector_MRAffineXf3f_MRObjId Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type,  
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;</span>. This is the non-const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.Vector_MRAffineXf3f_MRObjId:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -156,19 +147,14 @@ $(function(){initNavTree('classMR_1_1Vector__MRAffineXf3f__MRObjId.html','','cla
  <div class="center">
   <img src="classMR_1_1Vector__MRAffineXf3f__MRObjId.png" usemap="#MR_2EVector_5FMRAffineXf3f_5FMRObjId_map" alt=""/>
   <map id="MR_2EVector_5FMRAffineXf3f_5FMRObjId_map" name="MR_2EVector_5FMRAffineXf3f_5FMRObjId_map">
-<area href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type," alt="MR.Const_Vector_MRAffineXf3f_MRObjId" shape="rect" coords="393,56,645,80"/>
+<area href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.Vector&lt;MR.AffineXf3f, MR.ObjId&gt;...." alt="MR.Const_Vector_MRAffineXf3f_MRObjId" shape="rect" coords="262,56,514,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:_5FEnumerator" id="r__5FEnumerator"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_Enumerator</b></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3d86aa1963bdd592cb7e9ecd21b92b0d" id="r_a3d86aa1963bdd592cb7e9ecd21b92b0d"><td class="memItemLeft" align="right" valign="top">new IEnumerator&lt; MR.Misc.Ref&lt; <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d86aa1963bdd592cb7e9ecd21b92b0d">GetEnumerator</a> ()</td></tr>
 <tr class="memitem:a84c1576ccf62eb509e003b449444cbf8" id="r_a84c1576ccf62eb509e003b449444cbf8"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84c1576ccf62eb509e003b449444cbf8">Vector_MRAffineXf3f_MRObjId</a> ()</td></tr>
-<tr class="memdesc:a84c1576ccf62eb509e003b449444cbf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
+<tr class="memdesc:a84c1576ccf62eb509e003b449444cbf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="memitem:ac789d6f4d571368d741cbd1888e5298d" id="r_ac789d6f4d571368d741cbd1888e5298d"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac789d6f4d571368d741cbd1888e5298d">Vector_MRAffineXf3f_MRObjId</a> (MR._ByValue_Vector_MRAffineXf3f_MRObjId _other)</td></tr>
 <tr class="memdesc:ac789d6f4d571368d741cbd1888e5298d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a6d06c23e080c58bef37ba998019554c8" id="r_a6d06c23e080c58bef37ba998019554c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d06c23e080c58bef37ba998019554c8">Vector_MRAffineXf3f_MRObjId</a> (<a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html">Const_Vector_MRAffineXf3f_MRObjId</a> _other)</td></tr>
@@ -179,10 +165,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a30b1a96553008e490179c2bd26b5420a"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a4ae71895cfc3a28c9ff9f1e0ffbb8781" id="r_a4ae71895cfc3a28c9ff9f1e0ffbb8781"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ae71895cfc3a28c9ff9f1e0ffbb8781">Vector_MRAffineXf3f_MRObjId</a> (nuint <a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a7b7e8fe4e858a94d3743e81b1150235e">size</a>, in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> val)</td></tr>
 <tr class="memdesc:a4ae71895cfc3a28c9ff9f1e0ffbb8781"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
-<tr class="memitem:aa7718dcf7334ad20f734678a1b628337" id="r_aa7718dcf7334ad20f734678a1b628337"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7718dcf7334ad20f734678a1b628337">Vector_MRAffineXf3f_MRObjId</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRAffineXf3f &gt; <a class="el" href="#af1a405ad88d18a792e41eb268f8c7b01">vec</a>)</td></tr>
-<tr class="memdesc:aa7718dcf7334ad20f734678a1b628337"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:add3766c6bb782ce9764bb14df20786a2" id="r_add3766c6bb782ce9764bb14df20786a2"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Vector__MRAffineXf3f__MRObjId.html">MR.Vector_MRAffineXf3f_MRObjId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add3766c6bb782ce9764bb14df20786a2">assign</a> (MR._ByValue_Vector_MRAffineXf3f_MRObjId _other)</td></tr>
 <tr class="memdesc:add3766c6bb782ce9764bb14df20786a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::operator=</span>.  <br /></td></tr>
+<tr class="memitem:a58d3ada8646c69f4c0cb4568beca2734" id="r_a58d3ada8646c69f4c0cb4568beca2734"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58d3ada8646c69f4c0cb4568beca2734">assign</a> (nuint count, in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> val)</td></tr>
+<tr class="memdesc:a58d3ada8646c69f4c0cb4568beca2734"><td class="mdescLeft">&#160;</td><td class="mdescRight">replaces the contents with <code class="param">count</code> copies of <code class="param">val</code> Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#add3766c6bb782ce9764bb14df20786a2" title="Generated from method MR.Vector&lt;MR.AffineXf3f, MR.ObjId&gt;operator=.">assign</a></span>.  <br /></td></tr>
 <tr class="memitem:a6fa1bf5d0a5c1bd0f2bc4d969503b678" id="r_a6fa1bf5d0a5c1bd0f2bc4d969503b678"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fa1bf5d0a5c1bd0f2bc4d969503b678">clear</a> ()</td></tr>
 <tr class="memdesc:a6fa1bf5d0a5c1bd0f2bc4d969503b678"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#a6fa1bf5d0a5c1bd0f2bc4d969503b678" title="Generated from method MR.Vector&lt;MR.AffineXf3f, MR.ObjId&gt;clear.">clear</a></span>.  <br /></td></tr>
 <tr class="memitem:a1b1abaae21d1b8099556567ad796c5dd" id="r_a1b1abaae21d1b8099556567ad796c5dd"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b1abaae21d1b8099556567ad796c5dd">resize</a> (nuint newSize)</td></tr>
@@ -191,14 +177,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae025e4a29a08ba9ea8e2064c27e1a10a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#a1b1abaae21d1b8099556567ad796c5dd" title="Generated from method MR.Vector&lt;MR.AffineXf3f, MR.ObjId&gt;resize.">resize</a></span>.  <br /></td></tr>
 <tr class="memitem:a8ec26b2c4e072424ae8772cbdf415621" id="r_a8ec26b2c4e072424ae8772cbdf415621"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ec26b2c4e072424ae8772cbdf415621">reserve</a> (nuint <a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a6179df849da3a21c2f7c38c10c19e533">capacity</a>)</td></tr>
 <tr class="memdesc:a8ec26b2c4e072424ae8772cbdf415621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#a8ec26b2c4e072424ae8772cbdf415621" title="Generated from method MR.Vector&lt;MR.AffineXf3f, MR.ObjId&gt;reserve.">reserve</a></span>.  <br /></td></tr>
+<tr class="memitem:a87d10040caeb87cc9879cab21bb19d29" id="r_a87d10040caeb87cc9879cab21bb19d29"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87d10040caeb87cc9879cab21bb19d29">shrinkToFit</a> ()</td></tr>
+<tr class="memdesc:a87d10040caeb87cc9879cab21bb19d29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::shrink_to_fit</span>.  <br /></td></tr>
 <tr class="memitem:af1ae074e7e3c4e0181e9f2f576592941" id="r_af1ae074e7e3c4e0181e9f2f576592941"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1ae074e7e3c4e0181e9f2f576592941">resizeWithReserve</a> (nuint newSize)</td></tr>
-<tr class="memdesc:af1ae074e7e3c4e0181e9f2f576592941"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#af1ae074e7e3c4e0181e9f2f576592941" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">resizeWithReserve</a></span>.  <br /></td></tr>
+<tr class="memdesc:af1ae074e7e3c4e0181e9f2f576592941"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as resize(newSize), which already grows the capacity geometrically Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#af1ae074e7e3c4e0181e9f2f576592941" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">resizeWithReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:a85ffd116ea8741f6a6c2912c3ac51244" id="r_a85ffd116ea8741f6a6c2912c3ac51244"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85ffd116ea8741f6a6c2912c3ac51244">resizeWithReserve</a> (nuint newSize, in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> value)</td></tr>
-<tr class="memdesc:a85ffd116ea8741f6a6c2912c3ac51244"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#af1ae074e7e3c4e0181e9f2f576592941" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">resizeWithReserve</a></span>.  <br /></td></tr>
+<tr class="memdesc:a85ffd116ea8741f6a6c2912c3ac51244"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as resize(newSize, value), which already grows the capacity geometrically Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#af1ae074e7e3c4e0181e9f2f576592941" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">resizeWithReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:a8cf0050b75cc075d14d2c3d36ceba79b" id="r_a8cf0050b75cc075d14d2c3d36ceba79b"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cf0050b75cc075d14d2c3d36ceba79b">autoResizeSet</a> (<a class="el" href="structMR_1_1ObjId.html">MR.ObjId</a> pos, nuint len, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> val)</td></tr>
 <tr class="memdesc:a8cf0050b75cc075d14d2c3d36ceba79b"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <code class="param">pos</code> are also set to <code class="param">val</code> (for faster implementation) Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#a8cf0050b75cc075d14d2c3d36ceba79b" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">autoResizeSet</a></span>.  <br /></td></tr>
 <tr class="memitem:ae399c3c1fdf13e3eea81167f2bdf6a4d" id="r_ae399c3c1fdf13e3eea81167f2bdf6a4d"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae399c3c1fdf13e3eea81167f2bdf6a4d">autoResizeSet</a> (<a class="el" href="structMR_1_1ObjId.html">MR.ObjId</a> i, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> val)</td></tr>
-<tr class="memdesc:ae399c3c1fdf13e3eea81167f2bdf6a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#a8cf0050b75cc075d14d2c3d36ceba79b" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">autoResizeSet</a></span>.  <br /></td></tr>
+<tr class="memdesc:ae399c3c1fdf13e3eea81167f2bdf6a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the element i to the given value, adjusting the size of the vector to include new element Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#a8cf0050b75cc075d14d2c3d36ceba79b" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">autoResizeSet</a></span>.  <br /></td></tr>
 <tr class="memitem:a94dc23de76f5e4069965e50362eceb7a" id="r_a94dc23de76f5e4069965e50362eceb7a"><td class="memItemLeft" align="right" valign="top">unsafe ref <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94dc23de76f5e4069965e50362eceb7a">autoResizeAt</a> (<a class="el" href="structMR_1_1ObjId.html">MR.ObjId</a> i)</td></tr>
 <tr class="memdesc:a94dc23de76f5e4069965e50362eceb7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">this accessor automatically adjusts the size of the vector Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#a94dc23de76f5e4069965e50362eceb7a" title="this accessor automatically adjusts the size of the vector Generated from method MR....">autoResizeAt</a></span>.  <br /></td></tr>
 <tr class="memitem:a7acb19129f30eb0027ef902c16a598ec" id="r_a7acb19129f30eb0027ef902c16a598ec"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7acb19129f30eb0027ef902c16a598ec">pushBack</a> (in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> t)</td></tr>
@@ -217,9 +205,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad05ab7644ffda2d502d4d31bdd797113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#ad05ab7644ffda2d502d4d31bdd797113" title="Generated from method MR.Vector&lt;MR.AffineXf3f, MR.ObjId&gt;swap.">swap</a></span>.  <br /></td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html">MR.Const_Vector_MRAffineXf3f_MRObjId</a></td></tr>
 <tr class="memitem:abd1bec1ee8b6f065019b851aac4f7926 inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_abd1bec1ee8b6f065019b851aac4f7926"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#abd1bec1ee8b6f065019b851aac4f7926">Dispose</a> ()</td></tr>
-<tr class="memitem:a7ec6980538381e7d0cbdfecc89872767 inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a7ec6980538381e7d0cbdfecc89872767"><td class="memItemLeft" align="right" valign="top">IEnumerator&lt; MR.Misc.ConstRef&lt; <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a7ec6980538381e7d0cbdfecc89872767">GetEnumerator</a> ()</td></tr>
 <tr class="memitem:a739b52478570a243d8bb5184d6c9f19b inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a739b52478570a243d8bb5184d6c9f19b"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a739b52478570a243d8bb5184d6c9f19b">Const_Vector_MRAffineXf3f_MRObjId</a> ()</td></tr>
-<tr class="memdesc:a739b52478570a243d8bb5184d6c9f19b inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
+<tr class="memdesc:a739b52478570a243d8bb5184d6c9f19b inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="memitem:a093f22267fa902215fba20e3a3e17650 inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a093f22267fa902215fba20e3a3e17650"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a093f22267fa902215fba20e3a3e17650">Const_Vector_MRAffineXf3f_MRObjId</a> (MR._ByValue_Vector_MRAffineXf3f_MRObjId _other)</td></tr>
 <tr class="memdesc:a093f22267fa902215fba20e3a3e17650 inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a99dc37c348d166edc96da1ce086eacfe inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a99dc37c348d166edc96da1ce086eacfe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a99dc37c348d166edc96da1ce086eacfe">Const_Vector_MRAffineXf3f_MRObjId</a> (<a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html">Const_Vector_MRAffineXf3f_MRObjId</a> _other)</td></tr>
@@ -230,12 +217,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a170fce9a06538fda3585de325504569f inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a56348194342b817d6bb357670c6c8202 inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a56348194342b817d6bb357670c6c8202"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a56348194342b817d6bb357670c6c8202">Const_Vector_MRAffineXf3f_MRObjId</a> (nuint <a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a7b7e8fe4e858a94d3743e81b1150235e">size</a>, in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> val)</td></tr>
 <tr class="memdesc:a56348194342b817d6bb357670c6c8202 inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
-<tr class="memitem:aab683c5788c7b541d9cd032e9a8f5cf5 inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_aab683c5788c7b541d9cd032e9a8f5cf5"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#aab683c5788c7b541d9cd032e9a8f5cf5">Const_Vector_MRAffineXf3f_MRObjId</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRAffineXf3f &gt; <a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#aafae1063530acb3c23384f96f13a1583">vec</a>)</td></tr>
-<tr class="memdesc:aab683c5788c7b541d9cd032e9a8f5cf5 inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a0e0dea538628ba39acd1ef07b5aab4d3 inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a0e0dea538628ba39acd1ef07b5aab4d3"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a0e0dea538628ba39acd1ef07b5aab4d3">empty</a> ()</td></tr>
 <tr class="memdesc:a0e0dea538628ba39acd1ef07b5aab4d3 inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a0e0dea538628ba39acd1ef07b5aab4d3" title="Generated from method MR.Vector&lt;MR.AffineXf3f, MR.ObjId&gt;empty.">empty</a></span>.  <br /></td></tr>
 <tr class="memitem:a7b7e8fe4e858a94d3743e81b1150235e inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a7b7e8fe4e858a94d3743e81b1150235e"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a7b7e8fe4e858a94d3743e81b1150235e">size</a> ()</td></tr>
 <tr class="memdesc:a7b7e8fe4e858a94d3743e81b1150235e inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a7b7e8fe4e858a94d3743e81b1150235e" title="Generated from method MR.Vector&lt;MR.AffineXf3f, MR.ObjId&gt;size.">size</a></span>.  <br /></td></tr>
+<tr class="memitem:a0f0f8abbdceeaf50939b7febe549fd43 inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a0f0f8abbdceeaf50939b7febe549fd43"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a0f0f8abbdceeaf50939b7febe549fd43">maxSize</a> ()</td></tr>
+<tr class="memdesc:a0f0f8abbdceeaf50939b7febe549fd43 inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::max_size</span>.  <br /></td></tr>
 <tr class="memitem:a6179df849da3a21c2f7c38c10c19e533 inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a6179df849da3a21c2f7c38c10c19e533"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a6179df849da3a21c2f7c38c10c19e533">capacity</a> ()</td></tr>
 <tr class="memdesc:a6179df849da3a21c2f7c38c10c19e533 inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a6179df849da3a21c2f7c38c10c19e533" title="Generated from method MR.Vector&lt;MR.AffineXf3f, MR.ObjId&gt;capacity.">capacity</a></span>.  <br /></td></tr>
 <tr class="memitem:a9c42217510e38ecad0d73364883d4dca inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a9c42217510e38ecad0d73364883d4dca"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a9c42217510e38ecad0d73364883d4dca">front</a> ()</td></tr>
@@ -255,46 +242,32 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9249463472ae89be7a7fe3a8019245c0 inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a9249463472ae89be7a7fe3a8019245c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a9249463472ae89be7a7fe3a8019245c0">Equals</a> (<a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html">MR.Const_Vector_MRAffineXf3f_MRObjId</a>? b)</td></tr>
 <tr class="memitem:a29e9df8bf72f31a5411864d944296c68 inherit pub_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a29e9df8bf72f31a5411864d944296c68"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a29e9df8bf72f31a5411864d944296c68">Equals</a> (object? other)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a10290ba7e53cb5616f75bda046ec04f3" id="r_a10290ba7e53cb5616f75bda046ec04f3"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10290ba7e53cb5616f75bda046ec04f3">operator Vector_MRAffineXf3f_MRObjId</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRAffineXf3f &gt; <a class="el" href="#af1a405ad88d18a792e41eb268f8c7b01">vec</a>)</td></tr>
-<tr class="memdesc:a10290ba7e53cb5616f75bda046ec04f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
-<tr class="inherit_header pub_static_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html">MR.Const_Vector_MRAffineXf3f_MRObjId</a></td></tr>
-<tr class="memitem:a71e359652db822c856548ddc92c59310 inherit pub_static_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a71e359652db822c856548ddc92c59310"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a71e359652db822c856548ddc92c59310">operator Const_Vector_MRAffineXf3f_MRObjId</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRAffineXf3f &gt; <a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#aafae1063530acb3c23384f96f13a1583">vec</a>)</td></tr>
-<tr class="memdesc:a71e359652db822c856548ddc92c59310 inherit pub_static_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
-<tr class="memitem:a1036937bed60f57f0ef64214e4ec2b3e inherit pub_static_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a1036937bed60f57f0ef64214e4ec2b3e"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a1036937bed60f57f0ef64214e4ec2b3e">operator==</a> (<a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html">MR.Const_Vector_MRAffineXf3f_MRObjId</a> _this, <a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html">MR.Const_Vector_MRAffineXf3f_MRObjId</a> b)</td></tr>
-<tr class="memdesc:a1036937bed60f57f0ef64214e4ec2b3e inherit pub_static_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a1036937bed60f57f0ef64214e4ec2b3e" title="Generated from method MR.Vector&lt;MR.AffineXf3f, MR.ObjId&gt;operator==.">operator==</a></span>.  <br /></td></tr>
-<tr class="memitem:a024036281389afac254060848c7650c6 inherit pub_static_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a024036281389afac254060848c7650c6"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a024036281389afac254060848c7650c6">operator!=</a> (<a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html">MR.Const_Vector_MRAffineXf3f_MRObjId</a> _this, <a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html">MR.Const_Vector_MRAffineXf3f_MRObjId</a> b)</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:af1a405ad88d18a792e41eb268f8c7b01" id="r_af1a405ad88d18a792e41eb268f8c7b01"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Vector_MRAffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1a405ad88d18a792e41eb268f8c7b01">vec</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:af1a405ad88d18a792e41eb268f8c7b01"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
+<tr class="memitem:ace1ede89161fe0b50b0b8dcccff9f7ac" id="r_ace1ede89161fe0b50b0b8dcccff9f7ac"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Vector_MRAffineXf3f_MRAllocatorMRAffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace1ede89161fe0b50b0b8dcccff9f7ac">vec</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:ace1ede89161fe0b50b0b8dcccff9f7ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
 <tr class="memitem:ac8de3166285153d865dbcec4fcc26ab6" id="r_ac8de3166285153d865dbcec4fcc26ab6"><td class="memItemLeft" align="right" valign="top">unsafe new ref <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8de3166285153d865dbcec4fcc26ab6">this[MR.ObjId i]</a><code> [get]</code></td></tr>
 <tr class="memdesc:ac8de3166285153d865dbcec4fcc26ab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::operator[]</span>.  <br /></td></tr>
 <tr class="inherit_header properties_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Properties inherited from <a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html">MR.Const_Vector_MRAffineXf3f_MRObjId</a></td></tr>
-<tr class="memitem:aafae1063530acb3c23384f96f13a1583 inherit properties_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_aafae1063530acb3c23384f96f13a1583"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRAffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#aafae1063530acb3c23384f96f13a1583">vec</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:aafae1063530acb3c23384f96f13a1583 inherit properties_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
+<tr class="memitem:a0b870cedd09efe24bf06c5cd00815455 inherit properties_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a0b870cedd09efe24bf06c5cd00815455"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRAffineXf3f_MRAllocatorMRAffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a0b870cedd09efe24bf06c5cd00815455">vec</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a0b870cedd09efe24bf06c5cd00815455 inherit properties_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
 <tr class="memitem:a7d1dc3b53b6dc72f33233aa464716ef4 inherit properties_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a7d1dc3b53b6dc72f33233aa464716ef4"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a7d1dc3b53b6dc72f33233aa464716ef4">this[MR.ObjId i]</a><code> [get]</code></td></tr>
 <tr class="memdesc:a7d1dc3b53b6dc72f33233aa464716ef4 inherit properties_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::operator[]</span>.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html">MR.Const_Vector_MRAffineXf3f_MRObjId</a></td></tr>
+<tr class="memitem:a1036937bed60f57f0ef64214e4ec2b3e inherit pub_static_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a1036937bed60f57f0ef64214e4ec2b3e"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a1036937bed60f57f0ef64214e4ec2b3e">operator==</a> (<a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html">MR.Const_Vector_MRAffineXf3f_MRObjId</a> _this, <a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html">MR.Const_Vector_MRAffineXf3f_MRObjId</a> b)</td></tr>
+<tr class="memdesc:a1036937bed60f57f0ef64214e4ec2b3e inherit pub_static_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a1036937bed60f57f0ef64214e4ec2b3e" title="Generated from method MR.Vector&lt;MR.AffineXf3f, MR.ObjId&gt;operator==.">operator==</a></span>.  <br /></td></tr>
+<tr class="memitem:a024036281389afac254060848c7650c6 inherit pub_static_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_a024036281389afac254060848c7650c6"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#a024036281389afac254060848c7650c6">operator!=</a> (<a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html">MR.Const_Vector_MRAffineXf3f_MRObjId</a> _this, <a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html">MR.Const_Vector_MRAffineXf3f_MRObjId</a> b)</td></tr>
 <tr class="inherit_header pro_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html">MR.Const_Vector_MRAffineXf3f_MRObjId</a></td></tr>
 <tr class="memitem:ae280dcbbfc67f25f2b3ce82274850ce5 inherit pro_methods_classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" id="r_ae280dcbbfc67f25f2b3ce82274850ce5"><td class="memItemLeft" align="right" valign="top">virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html#ae280dcbbfc67f25f2b3ce82274850ce5">Dispose</a> (bool disposing)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;</span>. This is the non-const half of the class. </td></tr>
-  </table>
-  </dd>
-</dl>
+<div class="textblock"><p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;</span>. This is the non-const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a84c1576ccf62eb509e003b449444cbf8" name="a84c1576ccf62eb509e003b449444cbf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84c1576ccf62eb509e003b449444cbf8">&#9670;&#160;</a></span>Vector_MRAffineXf3f_MRObjId() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a84c1576ccf62eb509e003b449444cbf8">&#9670;&#160;</a></span>Vector_MRAffineXf3f_MRObjId() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -316,12 +289,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs an empty (default-constructed) instance. </p>
+<p>creates empty vector </p>
 
 </div>
 </div>
 <a id="ac789d6f4d571368d741cbd1888e5298d" name="ac789d6f4d571368d741cbd1888e5298d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac789d6f4d571368d741cbd1888e5298d">&#9670;&#160;</a></span>Vector_MRAffineXf3f_MRObjId() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac789d6f4d571368d741cbd1888e5298d">&#9670;&#160;</a></span>Vector_MRAffineXf3f_MRObjId() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -348,7 +321,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a6d06c23e080c58bef37ba998019554c8" name="a6d06c23e080c58bef37ba998019554c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d06c23e080c58bef37ba998019554c8">&#9670;&#160;</a></span>Vector_MRAffineXf3f_MRObjId() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d06c23e080c58bef37ba998019554c8">&#9670;&#160;</a></span>Vector_MRAffineXf3f_MRObjId() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -375,7 +348,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a7ef23bf05c54c6e93cf96925a78ac4f2" name="a7ef23bf05c54c6e93cf96925a78ac4f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ef23bf05c54c6e93cf96925a78ac4f2">&#9670;&#160;</a></span>Vector_MRAffineXf3f_MRObjId() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ef23bf05c54c6e93cf96925a78ac4f2">&#9670;&#160;</a></span>Vector_MRAffineXf3f_MRObjId() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -402,7 +375,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a30b1a96553008e490179c2bd26b5420a" name="a30b1a96553008e490179c2bd26b5420a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30b1a96553008e490179c2bd26b5420a">&#9670;&#160;</a></span>Vector_MRAffineXf3f_MRObjId() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a30b1a96553008e490179c2bd26b5420a">&#9670;&#160;</a></span>Vector_MRAffineXf3f_MRObjId() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -429,7 +402,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a4ae71895cfc3a28c9ff9f1e0ffbb8781" name="a4ae71895cfc3a28c9ff9f1e0ffbb8781"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ae71895cfc3a28c9ff9f1e0ffbb8781">&#9670;&#160;</a></span>Vector_MRAffineXf3f_MRObjId() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ae71895cfc3a28c9ff9f1e0ffbb8781">&#9670;&#160;</a></span>Vector_MRAffineXf3f_MRObjId() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -459,36 +432,9 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aa7718dcf7334ad20f734678a1b628337" name="aa7718dcf7334ad20f734678a1b628337"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7718dcf7334ad20f734678a1b628337">&#9670;&#160;</a></span>Vector_MRAffineXf3f_MRObjId() <span class="overload">[7/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe MR.Vector_MRAffineXf3f_MRObjId.Vector_MRAffineXf3f_MRObjId </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRAffineXf3f &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>. </p>
-
-</div>
-</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="add3766c6bb782ce9764bb14df20786a2" name="add3766c6bb782ce9764bb14df20786a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add3766c6bb782ce9764bb14df20786a2">&#9670;&#160;</a></span>assign()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#add3766c6bb782ce9764bb14df20786a2">&#9670;&#160;</a></span>assign() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -511,6 +457,37 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::operator=</span>. </p>
+
+</div>
+</div>
+<a id="a58d3ada8646c69f4c0cb4568beca2734" name="a58d3ada8646c69f4c0cb4568beca2734"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58d3ada8646c69f4c0cb4568beca2734">&#9670;&#160;</a></span>assign() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.Vector_MRAffineXf3f_MRObjId.assign </td>
+          <td>(</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>count</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>replaces the contents with <code class="param">count</code> copies of <code class="param">val</code> Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#add3766c6bb782ce9764bb14df20786a2" title="Generated from method MR.Vector&lt;MR.AffineXf3f, MR.ObjId&gt;operator=.">assign</a></span>. </p>
 
 </div>
 </div>
@@ -568,7 +545,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#a8cf0050b75cc075d14d2c3d36ceba79b" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">autoResizeSet</a></span>. </p>
+<p>sets the element i to the given value, adjusting the size of the vector to include new element Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#a8cf0050b75cc075d14d2c3d36ceba79b" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">autoResizeSet</a></span>. </p>
 
 </div>
 </div>
@@ -713,58 +690,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#a96bad5c71272615e7dbaf7cfd6bd5381" title="Generated from method MR.Vector&lt;MR.AffineXf3f, MR.ObjId&gt;front.">front</a></span>. </p>
-
-</div>
-</div>
-<a id="a3d86aa1963bdd592cb7e9ecd21b92b0d" name="a3d86aa1963bdd592cb7e9ecd21b92b0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d86aa1963bdd592cb7e9ecd21b92b0d">&#9670;&#160;</a></span>GetEnumerator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">new IEnumerator&lt; MR.Misc.Ref&lt; <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> &gt; &gt; MR.Vector_MRAffineXf3f_MRObjId.GetEnumerator </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a10290ba7e53cb5616f75bda046ec04f3" name="a10290ba7e53cb5616f75bda046ec04f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10290ba7e53cb5616f75bda046ec04f3">&#9670;&#160;</a></span>operator Vector_MRAffineXf3f_MRObjId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe implicit MR.Vector_MRAffineXf3f_MRObjId.operator <a class="el" href="classMR_1_1Vector__MRAffineXf3f__MRObjId.html">Vector_MRAffineXf3f_MRObjId</a> </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRAffineXf3f &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>. </p>
 
 </div>
 </div>
@@ -961,7 +886,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#af1ae074e7e3c4e0181e9f2f576592941" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">resizeWithReserve</a></span>. </p>
+<p>same as resize(newSize), which already grows the capacity geometrically Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#af1ae074e7e3c4e0181e9f2f576592941" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">resizeWithReserve</a></span>. </p>
 
 </div>
 </div>
@@ -992,7 +917,34 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#af1ae074e7e3c4e0181e9f2f576592941" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">resizeWithReserve</a></span>. </p>
+<p>same as resize(newSize, value), which already grows the capacity geometrically Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#af1ae074e7e3c4e0181e9f2f576592941" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">resizeWithReserve</a></span>. </p>
+
+</div>
+</div>
+<a id="a87d10040caeb87cc9879cab21bb19d29" name="a87d10040caeb87cc9879cab21bb19d29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87d10040caeb87cc9879cab21bb19d29">&#9670;&#160;</a></span>shrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.Vector_MRAffineXf3f_MRObjId.shrinkToFit </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1AffineXf3f.html" title="affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class MR....">MR.AffineXf3f</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::shrink_to_fit</span>. </p>
 
 </div>
 </div>
@@ -1048,8 +1000,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af1a405ad88d18a792e41eb268f8c7b01" name="af1a405ad88d18a792e41eb268f8c7b01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1a405ad88d18a792e41eb268f8c7b01">&#9670;&#160;</a></span>vec</h2>
+<a id="ace1ede89161fe0b50b0b8dcccff9f7ac" name="ace1ede89161fe0b50b0b8dcccff9f7ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace1ede89161fe0b50b0b8dcccff9f7ac">&#9670;&#160;</a></span>vec</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1058,7 +1010,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">new unsafe MR.Std.Vector_MRAffineXf3f MR.Vector_MRAffineXf3f_MRObjId.vec</td>
+          <td class="memname">new unsafe MR.Std.Vector_MRAffineXf3f_MRAllocatorMRAffineXf3f MR.Vector_MRAffineXf3f_MRObjId.vec</td>
         </tr>
       </table>
   </td>

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Documentation
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -144,10 +137,8 @@ $(function(){initNavTree('ExampleViewerVolumeRender.html','',''); });
 <p>Example of using Viewer for Volume Rendering</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">Python</b> <dl class="section note"><dt>Note</dt><dd>Python API version 3 and later</dd></dl>
-<div class="fragment"><div class="line"><span class="keyword">import</span> sys</div>
-<div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
+<div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
 <div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrviewerpy <span class="keyword">as</span> mv</div>
-<div class="line"><span class="keyword">import</span> os</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># load volume file</span></div>
 <div class="line">volume = mm.loadVoxels(<span class="stringliteral">&quot;stag_beetle.dcm&quot;</span>)[0]</div>
@@ -168,7 +159,7 @@ $(function(){initNavTree('ExampleViewerVolumeRender.html','',''); });
 <div class="line"><span class="comment"># enable volume rendering (important to do in GUI thread)</span></div>
 <div class="line">mv.runFromGUIThread( <span class="keyword">lambda</span> : ov.enableVolumeRendering(<span class="keyword">True</span>) )</div>
 <div class="line"> </div>
-<div class="line">mv.Viewer().preciseFitDataViewport()</div>
+<div class="line">mv.Viewer().<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gac4a5309ed19fd012a50b4fc912d52782">preciseFitDataViewport</a>()</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># setup volume rendering settings</span></div>
 <div class="line">vrp = mm.ObjectVoxels.VolumeRenderingParams()</div>
@@ -183,13 +174,15 @@ $(function(){initNavTree('ExampleViewerVolumeRender.html','',''); });
 <div class="line">mv.runFromGUIThread( <span class="keyword">lambda</span> : ov.setVolumeRenderingParams(vrp) )</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># fit camera</span></div>
-<div class="line">mv.Viewer().preciseFitDataViewport()</div>
+<div class="line">mv.Viewer().<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gac4a5309ed19fd012a50b4fc912d52782">preciseFitDataViewport</a>()</div>
 <div class="line"> </div>
-<div class="line">os.system(<span class="stringliteral">&quot;pause&quot;</span>)</div>
+<div class="line"><span class="comment"># keep the window until the user closes it</span></div>
+<div class="line">mv.showViewer()</div>
+<div class="ttc" id="agroup__GeneralGroup_html_gac4a5309ed19fd012a50b4fc912d52782"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gac4a5309ed19fd012a50b4fc912d52782">preciseFitDataViewport</a></div><div class="ttdeci">void preciseFitDataViewport(MR::ViewportMask vpList=MR::ViewportMask::all())</div></div>
 </div><!-- fragment --> <div class="image">
 <img src="Volume_rendering.png" alt=""/>
 </div>
- <dl class="section note"><dt>Note</dt><dd>This example does not work on macOS: <span class="tt">mv.launch()</span> raises <span class="tt">RuntimeError: MeshLib Viewer is not supported on macOS yet</span>. In releases before 3.1.3.566 it terminated the Python process instead (SIGTRAP, exit code 133, no exception raised).</dd></dl>
+ <dl class="section note"><dt>Note</dt><dd>On macOS, MeshLib releases before 3.1.3.566 crash in <span class="tt">mv.launch()</span>.</dd></dl>
 </li>
 </ul>
 </div> </div></div><!-- contents -->

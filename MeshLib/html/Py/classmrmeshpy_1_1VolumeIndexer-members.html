@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -144,28 +137,27 @@ $(function(){initNavTree('classmrmeshpy_1_1VolumeIndexer.html','',''); });
 <p>This is the complete list of members for <a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#a7c82f8f2cee6cf99634aea67782f8fb3">__init__</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#a79cadf2f92f6110af67d8722acf8715d">__init__</a>(self, Vector3i dims)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#a3c1125afb0f09b71ee8d9f5f9c56fe8c">__init__</a>(self, VolumeIndexer arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#ad4da5334bc7f5b675c432c15d0f8a19b">areNeigbors</a>(self, VoxelId v0, VoxelId v1)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#a61107622223c9d5a817b4b14d448bd19">areNeigbors</a>(self, Vector3i pos0, Vector3i pos1)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#afabf9705c1b6d7911634a5bc1d536485">dims</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#ad294f7b10374b3a5af9088cfed027fbf">endId</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#a82137cdd5d805d72974516175ca5c9c3">getExistingNeighbor</a>(self, VoxelId v, OutEdge toNei)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#a65cbc4f95ffc7de6b8d31bc2a0301bef">getNeighbor</a>(self, VoxelId v, OutEdge toNei)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#adc8559fcc96610e700d3c34830a1fe6e">getNeighbor</a>(self, VoxelId v, Vector3i pos, OutEdge toNei)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#aaec79578ede05e01e9d013ae63adb30f">getNeighbor</a>(self, VoxelLocation loc, OutEdge toNei)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#a7c9cec0de5b43f326560e74a8ea2382c">getNeighbor</a>(self, VoxelId v, Vector3i pos, bool bdPos, OutEdge toNei)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#ae1440d01ec5512f6e2f54cefe35c6a4d">hasNeighbour</a>(self, Vector3i pos, OutEdge toNei)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#aecf126e5ead305f4117f199f09131a1c">isBdVoxel</a>(self, Vector3i pos)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#aa4c92fc65aaee46249491a8e33ad0b0a">isInDims</a>(self, Vector3i pos)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#a41f3c1b2af84a9570488d6fe181d2323">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#a41f3c1b2af84a9570488d6fe181d2323">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#a63effda0babaa3d4d0c9aa7355be7cc3">size</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#a248716c8f08af83988fe67a0e881b8f9">sizeXY</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#a1685991f2a3a0f29ddd030ea24c1329e">toLoc</a>(self, VoxelId id)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#a0bab3c154527214f99784a2c458afa96">toLoc</a>(self, Vector3i pos)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#a2c2aa0eba5ee7cb3705abe51c4c5a4bc">toPos</a>(self, VoxelId id)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#af822cad2f45ce27a1d069b4b9e6bfb46">toVoxelId</a>(self, Vector3i pos)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#aa657b269891fae17198f19eb69a1c0ce">__init__</a>(self, ConstVector3i dims)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#ae7f91debd97b8c77e9d267ad929e8652">__init__</a>(self, ConstVolumeIndexer arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#ae9fd08b67346add89d1cb14e2a8debf5">areNeigbors</a>(self, ConstVoxelId v0, ConstVoxelId v1)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#a20a35062425ec09d995b72b0ebea2e0a">areNeigbors</a>(self, ConstVector3i pos0, ConstVector3i pos1)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html#ad037e18e362b3baaa9806d4f6fe44c73">assign</a>(self, ConstVolumeIndexer other)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1VolumeIndexer.html">mrmeshpy.VolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#ae3b7266f6878690c2ce9c0cada47fa98">dims</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#a93d37f6de1e4d6932c4734c2f00e5346">endId</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#a900f0968d9fd1a8a3f97ef43b6910760">getExistingNeighbor</a>(self, ConstVoxelId v, OutEdge toNei)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#a80a200bafc6a2061ac07a6f97b954d6b">getNeighbor</a>(self, ConstVoxelId v, OutEdge toNei)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#a234b9788cb786d69bd4e6960dd91e9f6">getNeighbor</a>(self, ConstVoxelId v, ConstVector3i pos, OutEdge toNei)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#a0914aac87926306507a2119b62a1ac91">getNeighbor</a>(self, ConstVoxelLocation loc, OutEdge toNei)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#acb41ea0fd6a76e4c153a01b3141d913d">getNeighbor</a>(self, ConstVoxelId v, ConstVector3i pos, bool bdPos, OutEdge toNei)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#ad49f2c0b0fee3a07e91a00dafd580353">hasNeighbour</a>(self, ConstVector3i pos, OutEdge toNei)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#a9f99ae2c1fceaf27332e954d57c71de7">isBdVoxel</a>(self, ConstVector3i pos)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#a06f270fc402a86897d07f96986f426f9">isInDims</a>(self, ConstVector3i pos)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#ac982e082218a8a473a0015c3414b25a5">size</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#a959b0e2f1f088c10e234f3287816042d">sizeXY</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#aeb0a268a4bb6d7d04a6c1037cadbf866">toLoc</a>(self, ConstVoxelId id)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#abe635e50315cedd3ab7f13904d8f85b9">toLoc</a>(self, ConstVector3i pos)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#a9c3baeef040b1a569a1617a67b00ee63">toPos</a>(self, ConstVoxelId id)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html#ac4de6e276fdf4b06c839167f1885c840">toVoxelId</a>(self, ConstVector3i pos)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVolumeIndexer.html">mrmeshpy.ConstVolumeIndexer</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

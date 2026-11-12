@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -151,7 +144,7 @@ $(function(){initNavTree('MRMCPGatewayCache_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
-<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only strictly necessary for the bindings (to make <span class="tt"><a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a></span> a complete type). <br /></td></tr>
 <tr class="memitem:MR_3A_3AMcpGateway" id="r_MR_3A_3AMcpGateway"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1McpGateway.html">MR::McpGateway</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
@@ -159,6 +152,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a492feeb41d07c965ac23ee0076d73f14" id="r_a492feeb41d07c965ac23ee0076d73f14"><td class="memItemLeft" align="right" valign="top">std::vector&lt; nlohmann::json &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1McpGateway.html#a492feeb41d07c965ac23ee0076d73f14">MR::McpGateway::getCachedTools</a> ()</td></tr>
 <tr class="memitem:a7233b4a48f42fac23e3288ae84c19ed8" id="r_a7233b4a48f42fac23e3288ae84c19ed8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1McpGateway.html#a7233b4a48f42fac23e3288ae84c19ed8">MR::McpGateway::ensureFreshCache</a> (const <a class="el" href="structMR_1_1McpGateway_1_1Config.html">Config</a> &amp;cfg)</td></tr>
 <tr class="memitem:af9483605d5022a0931882af143fee33e" id="r_af9483605d5022a0931882af143fee33e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1McpGateway.html#af9483605d5022a0931882af143fee33e">MR::McpGateway::loadCachedTools</a> (const <a class="el" href="structMR_1_1McpGateway_1_1Config.html">Config</a> &amp;cfg)</td></tr>
+<tr class="memitem:ab808cd892649dff970cc4fedd3d1249c" id="r_ab808cd892649dff970cc4fedd3d1249c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1McpGateway.html#ab808cd892649dff970cc4fedd3d1249c">MR::McpGateway::updateCachedTools</a> (const <a class="el" href="structMR_1_1McpGateway_1_1Config.html">Config</a> &amp;cfg, const std::vector&lt; nlohmann::json &gt; &amp;tools)</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

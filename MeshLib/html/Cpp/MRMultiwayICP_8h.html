@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -163,14 +156,14 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
-<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only strictly necessary for the bindings (to make <span class="tt"><a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a></span> a complete type). <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:gacc39cd0582abbbb48612bd904fe74210" id="r_gacc39cd0582abbbb48612bd904fe74210"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gacc39cd0582abbbb48612bd904fe74210">MR::ICPObjects</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a>, ObjId&gt;</td></tr>
 <tr class="memitem:gadd4fa046bbf16a56e7eae86658185885" id="r_gadd4fa046bbf16a56e7eae86658185885"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gadd4fa046bbf16a56e7eae86658185885">MR::ICPLayer</a> = int</td></tr>
 <tr class="memitem:gab448f2e256aabf3e97eaaef010380fb1" id="r_gab448f2e256aabf3e97eaaef010380fb1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab448f2e256aabf3e97eaaef010380fb1">MR::ICPElementId</a> = <a class="el" href="classMR_1_1Id.html">Id</a>&lt;ICPElemtTag&gt;</td></tr>
-<tr class="memitem:gae9eff2bf5026577153e17f3ff0ae801c" id="r_gae9eff2bf5026577153e17f3ff0ae801c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gae9eff2bf5026577153e17f3ff0ae801c">MR::ICPElementBitSet</a> = <a class="el" href="group__GeneralGroup.html#ga9207b1f3250a9361a3af49d2c3581e0d">TaggedBitSet</a>&lt;ICPElemtTag&gt;</td></tr>
+<tr class="memitem:gae9eff2bf5026577153e17f3ff0ae801c" id="r_gae9eff2bf5026577153e17f3ff0ae801c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gae9eff2bf5026577153e17f3ff0ae801c">MR::ICPElementBitSet</a> = TaggedBitSet&lt;ICPElemtTag&gt;</td></tr>
 <tr class="memitem:ga331d6b27226046972c32b7d946f0624b" id="r_ga331d6b27226046972c32b7d946f0624b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga331d6b27226046972c32b7d946f0624b">MR::ICPGroupProjector</a> = std::function&lt;void( const Vector3f&amp; p, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">MeshOrPoints::ProjectionResult</a>&amp; res, ObjId&amp; resId )&gt;</td></tr>
 <tr class="memitem:ga3d0081672e0ccdc9545b8df2b84c3663" id="r_ga3d0081672e0ccdc9545b8df2b84c3663"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3d0081672e0ccdc9545b8df2b84c3663">MR::ICPPairsGrid</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1ICPGroupPairs.html">ICPGroupPairs</a>, <a class="el" href="group__GeneralGroup.html#gab448f2e256aabf3e97eaaef010380fb1">ICPElementId</a>&gt;, <a class="el" href="group__GeneralGroup.html#gab448f2e256aabf3e97eaaef010380fb1">ICPElementId</a>&gt;</td></tr>
 </table><table class="memberdecls">

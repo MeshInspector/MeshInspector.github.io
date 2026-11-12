@@ -8,6 +8,7 @@ var classMR_1_1NodeBitSet =
     [ "NodeBitSet", "classMR_1_1NodeBitSet.html#a5756bb578ef07a0bf9bbab626743c8d8", null ],
     [ "NodeBitSet", "classMR_1_1NodeBitSet.html#ae0bb0f6cb68cd48b2fd063abd222a35f", null ],
     [ "assign", "classMR_1_1NodeBitSet.html#a686c61e69d95f6a3350a3cf1032c05cc", null ],
+    [ "atomicTestSet", "classMR_1_1NodeBitSet.html#afc6c502a70bd05d4cd33e88843e79870", null ],
     [ "autoResizeSet", "classMR_1_1NodeBitSet.html#aa53befcd95062b61ab26ca4c3118b5c6", null ],
     [ "autoResizeSet", "classMR_1_1NodeBitSet.html#a251f5f0f1f206d248f7a0345d82f428a", null ],
     [ "autoResizeTestSet", "classMR_1_1NodeBitSet.html#a19e8c920824c2e2c03a309d5e0afd8d1", null ],

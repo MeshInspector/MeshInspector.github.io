@@ -1,0 +1,4 @@
+var std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref_8rs =
+[
+    [ "meshlib::std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector3f_ref", "structmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref.html", "structmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref" ]
+];

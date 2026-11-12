@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,7 +133,6 @@ $(function(){initNavTree('classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId-members.html">List of all members</a>  </div>
@@ -148,7 +140,7 @@ $(function(){initNavTree('classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.
 </div><!--header-->
 <div class="contents">
 
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type,  
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;</span>. This is the const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.Const_Vector_MRQuadraticForm3f_MRVertId:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -157,21 +149,19 @@ $(function(){initNavTree('classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.
  <div class="center">
   <img src="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.png" usemap="#MR_2EConst_5FVector_5FMRQuadraticForm3f_5FMRVertId_map" alt=""/>
   <map id="MR_2EConst_5FVector_5FMRQuadraticForm3f_5FMRVertId_map" name="MR_2EConst_5FVector_5FMRQuadraticForm3f_5FMRVertId_map">
-<area href="classMR_1_1Vector__MRQuadraticForm3f__MRVertId.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type," alt="MR.Vector_MRQuadraticForm3f_MRVertId" shape="rect" coords="304,112,598,136"/>
+<area href="classMR_1_1Vector__MRQuadraticForm3f__MRVertId.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.Vector&lt;MR.QuadraticForm3f,..." alt="MR.Vector_MRQuadraticForm3f_MRVertId" shape="rect" coords="152,112,446,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:_5FEnumerator" id="r__5FEnumerator"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_Enumerator</b></td></tr>
 <tr class="memitem:_5FUnderlying" id="r__5FUnderlying"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>_Underlying</b></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab80625dc23178bdcb45d3c52a323c9f2" id="r_ab80625dc23178bdcb45d3c52a323c9f2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab80625dc23178bdcb45d3c52a323c9f2">Dispose</a> ()</td></tr>
-<tr class="memitem:a4b3c2796dae084bac0da1403720fa71d" id="r_a4b3c2796dae084bac0da1403720fa71d"><td class="memItemLeft" align="right" valign="top">IEnumerator&lt; <a class="el" href="classMR_1_1Const__QuadraticForm3f.html">MR.Const_QuadraticForm3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b3c2796dae084bac0da1403720fa71d">GetEnumerator</a> ()</td></tr>
 <tr class="memitem:a94def4d4657ca82db294785f9c2af9af" id="r_a94def4d4657ca82db294785f9c2af9af"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94def4d4657ca82db294785f9c2af9af">Const_Vector_MRQuadraticForm3f_MRVertId</a> ()</td></tr>
-<tr class="memdesc:a94def4d4657ca82db294785f9c2af9af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
+<tr class="memdesc:a94def4d4657ca82db294785f9c2af9af"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="memitem:a66a0c162229948d4060f1667f1289b62" id="r_a66a0c162229948d4060f1667f1289b62"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66a0c162229948d4060f1667f1289b62">Const_Vector_MRQuadraticForm3f_MRVertId</a> (MR._ByValue_Vector_MRQuadraticForm3f_MRVertId _other)</td></tr>
 <tr class="memdesc:a66a0c162229948d4060f1667f1289b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a5973dd5e44aee1d01746655d5e06b7d0" id="r_a5973dd5e44aee1d01746655d5e06b7d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5973dd5e44aee1d01746655d5e06b7d0">Const_Vector_MRQuadraticForm3f_MRVertId</a> (<a class="el" href="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.html">Const_Vector_MRQuadraticForm3f_MRVertId</a> _other)</td></tr>
@@ -182,12 +172,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5ecc64b3c172bbd79a9c95bb034e55be"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a0afcc1ce40280414d554ede48ad93638" id="r_a0afcc1ce40280414d554ede48ad93638"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0afcc1ce40280414d554ede48ad93638">Const_Vector_MRQuadraticForm3f_MRVertId</a> (nuint <a class="el" href="#a66e82407d96ceca526a22eff30eecce0">size</a>, <a class="el" href="classMR_1_1Const__QuadraticForm3f.html">MR.Const_QuadraticForm3f</a> val)</td></tr>
 <tr class="memdesc:a0afcc1ce40280414d554ede48ad93638"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
-<tr class="memitem:a171f429effb1007c8dabcc319a1db0f4" id="r_a171f429effb1007c8dabcc319a1db0f4"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a171f429effb1007c8dabcc319a1db0f4">Const_Vector_MRQuadraticForm3f_MRVertId</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRQuadraticForm3f &gt; <a class="el" href="#a923e02795f61734edd80970749abefb4">vec</a>)</td></tr>
-<tr class="memdesc:a171f429effb1007c8dabcc319a1db0f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:ab4e3c244e193ad104851e5586f1dc64f" id="r_ab4e3c244e193ad104851e5586f1dc64f"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4e3c244e193ad104851e5586f1dc64f">empty</a> ()</td></tr>
 <tr class="memdesc:ab4e3c244e193ad104851e5586f1dc64f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;<a class="el" href="#ab4e3c244e193ad104851e5586f1dc64f" title="Generated from method MR.Vector&lt;MR.QuadraticForm3f, MR.VertId&gt;empty.">empty</a></span>.  <br /></td></tr>
 <tr class="memitem:a66e82407d96ceca526a22eff30eecce0" id="r_a66e82407d96ceca526a22eff30eecce0"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66e82407d96ceca526a22eff30eecce0">size</a> ()</td></tr>
 <tr class="memdesc:a66e82407d96ceca526a22eff30eecce0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;<a class="el" href="#a66e82407d96ceca526a22eff30eecce0" title="Generated from method MR.Vector&lt;MR.QuadraticForm3f, MR.VertId&gt;size.">size</a></span>.  <br /></td></tr>
+<tr class="memitem:afdb94f3a3594dd8458e9e906b178437a" id="r_afdb94f3a3594dd8458e9e906b178437a"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdb94f3a3594dd8458e9e906b178437a">maxSize</a> ()</td></tr>
+<tr class="memdesc:afdb94f3a3594dd8458e9e906b178437a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;::max_size</span>.  <br /></td></tr>
 <tr class="memitem:a04ed4119ca589419915139c065833c87" id="r_a04ed4119ca589419915139c065833c87"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04ed4119ca589419915139c065833c87">capacity</a> ()</td></tr>
 <tr class="memdesc:a04ed4119ca589419915139c065833c87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;<a class="el" href="#a04ed4119ca589419915139c065833c87" title="Generated from method MR.Vector&lt;MR.QuadraticForm3f, MR.VertId&gt;capacity.">capacity</a></span>.  <br /></td></tr>
 <tr class="memitem:a7cc52bd1ba54d2c400d743d630b39961" id="r_a7cc52bd1ba54d2c400d743d630b39961"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__QuadraticForm3f.html">MR.Const_QuadraticForm3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc52bd1ba54d2c400d743d630b39961">front</a> ()</td></tr>
@@ -205,34 +195,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ada9cb97a6c9412d6b13764fb4b54c2e4" id="r_ada9cb97a6c9412d6b13764fb4b54c2e4"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada9cb97a6c9412d6b13764fb4b54c2e4">heapBytes</a> ()</td></tr>
 <tr class="memdesc:ada9cb97a6c9412d6b13764fb4b54c2e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;<a class="el" href="#ada9cb97a6c9412d6b13764fb4b54c2e4" title="returns the amount of memory this object occupies on heap Generated from method MR....">heapBytes</a></span>.  <br /></td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:adb2c833e8e157424652434fc4f87b0bb" id="r_adb2c833e8e157424652434fc4f87b0bb"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb2c833e8e157424652434fc4f87b0bb">operator Const_Vector_MRQuadraticForm3f_MRVertId</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRQuadraticForm3f &gt; <a class="el" href="#a923e02795f61734edd80970749abefb4">vec</a>)</td></tr>
-<tr class="memdesc:adb2c833e8e157424652434fc4f87b0bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:ad10bfe2f6d554661878126e296144b0a" id="r_ad10bfe2f6d554661878126e296144b0a"><td class="memItemLeft" align="right" valign="top">virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad10bfe2f6d554661878126e296144b0a">Dispose</a> (bool disposing)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a923e02795f61734edd80970749abefb4" id="r_a923e02795f61734edd80970749abefb4"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRQuadraticForm3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a923e02795f61734edd80970749abefb4">vec</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a923e02795f61734edd80970749abefb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
+<tr class="memitem:a31c1f30d029e1e4701cb9a70b9c80e4c" id="r_a31c1f30d029e1e4701cb9a70b9c80e4c"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRQuadraticForm3f_MRAllocatorMRQuadraticForm3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31c1f30d029e1e4701cb9a70b9c80e4c">vec</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a31c1f30d029e1e4701cb9a70b9c80e4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
 <tr class="memitem:a2d2fd8163b81500bcdfa3c0c320127f5" id="r_a2d2fd8163b81500bcdfa3c0c320127f5"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__QuadraticForm3f.html">MR.Const_QuadraticForm3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d2fd8163b81500bcdfa3c0c320127f5">this[MR.VertId i]</a><code> [get]</code></td></tr>
 <tr class="memdesc:a2d2fd8163b81500bcdfa3c0c320127f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;::operator[]</span>.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;</span>. This is the const half of the class. </td></tr>
-  </table>
-  </dd>
-</dl>
+<div class="textblock"><p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;</span>. This is the const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a94def4d4657ca82db294785f9c2af9af" name="a94def4d4657ca82db294785f9c2af9af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94def4d4657ca82db294785f9c2af9af">&#9670;&#160;</a></span>Const_Vector_MRQuadraticForm3f_MRVertId() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a94def4d4657ca82db294785f9c2af9af">&#9670;&#160;</a></span>Const_Vector_MRQuadraticForm3f_MRVertId() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -254,12 +232,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs an empty (default-constructed) instance. </p>
+<p>creates empty vector </p>
 
 </div>
 </div>
 <a id="a66a0c162229948d4060f1667f1289b62" name="a66a0c162229948d4060f1667f1289b62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66a0c162229948d4060f1667f1289b62">&#9670;&#160;</a></span>Const_Vector_MRQuadraticForm3f_MRVertId() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a66a0c162229948d4060f1667f1289b62">&#9670;&#160;</a></span>Const_Vector_MRQuadraticForm3f_MRVertId() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,7 +264,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a5973dd5e44aee1d01746655d5e06b7d0" name="a5973dd5e44aee1d01746655d5e06b7d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5973dd5e44aee1d01746655d5e06b7d0">&#9670;&#160;</a></span>Const_Vector_MRQuadraticForm3f_MRVertId() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5973dd5e44aee1d01746655d5e06b7d0">&#9670;&#160;</a></span>Const_Vector_MRQuadraticForm3f_MRVertId() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -313,7 +291,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a3affa4e0dab2e50480ef8917d8581cc3" name="a3affa4e0dab2e50480ef8917d8581cc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3affa4e0dab2e50480ef8917d8581cc3">&#9670;&#160;</a></span>Const_Vector_MRQuadraticForm3f_MRVertId() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3affa4e0dab2e50480ef8917d8581cc3">&#9670;&#160;</a></span>Const_Vector_MRQuadraticForm3f_MRVertId() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,7 +318,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a5ecc64b3c172bbd79a9c95bb034e55be" name="a5ecc64b3c172bbd79a9c95bb034e55be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ecc64b3c172bbd79a9c95bb034e55be">&#9670;&#160;</a></span>Const_Vector_MRQuadraticForm3f_MRVertId() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ecc64b3c172bbd79a9c95bb034e55be">&#9670;&#160;</a></span>Const_Vector_MRQuadraticForm3f_MRVertId() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,7 +345,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a0afcc1ce40280414d554ede48ad93638" name="a0afcc1ce40280414d554ede48ad93638"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0afcc1ce40280414d554ede48ad93638">&#9670;&#160;</a></span>Const_Vector_MRQuadraticForm3f_MRVertId() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0afcc1ce40280414d554ede48ad93638">&#9670;&#160;</a></span>Const_Vector_MRQuadraticForm3f_MRVertId() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -394,33 +372,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;::Vector</span>. </p>
-
-</div>
-</div>
-<a id="a171f429effb1007c8dabcc319a1db0f4" name="a171f429effb1007c8dabcc319a1db0f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a171f429effb1007c8dabcc319a1db0f4">&#9670;&#160;</a></span>Const_Vector_MRQuadraticForm3f_MRVertId() <span class="overload">[7/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe MR.Const_Vector_MRQuadraticForm3f_MRVertId.Const_Vector_MRQuadraticForm3f_MRVertId </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRQuadraticForm3f &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;::Vector</span>. </p>
 
 </div>
 </div>
@@ -691,31 +642,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a4b3c2796dae084bac0da1403720fa71d" name="a4b3c2796dae084bac0da1403720fa71d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b3c2796dae084bac0da1403720fa71d">&#9670;&#160;</a></span>GetEnumerator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">IEnumerator&lt; <a class="el" href="classMR_1_1Const__QuadraticForm3f.html">MR.Const_QuadraticForm3f</a> &gt; MR.Const_Vector_MRQuadraticForm3f_MRVertId.GetEnumerator </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ada9cb97a6c9412d6b13764fb4b54c2e4" name="ada9cb97a6c9412d6b13764fb4b54c2e4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ada9cb97a6c9412d6b13764fb4b54c2e4">&#9670;&#160;</a></span>heapBytes()</h2>
 
@@ -743,8 +669,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="adb2c833e8e157424652434fc4f87b0bb" name="adb2c833e8e157424652434fc4f87b0bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb2c833e8e157424652434fc4f87b0bb">&#9670;&#160;</a></span>operator Const_Vector_MRQuadraticForm3f_MRVertId()</h2>
+<a id="afdb94f3a3594dd8458e9e906b178437a" name="afdb94f3a3594dd8458e9e906b178437a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdb94f3a3594dd8458e9e906b178437a">&#9670;&#160;</a></span>maxSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -753,20 +679,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe implicit MR.Const_Vector_MRQuadraticForm3f_MRVertId.operator <a class="el" href="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId.html">Const_Vector_MRQuadraticForm3f_MRVertId</a> </td>
+          <td class="memname">unsafe nuint MR.Const_Vector_MRQuadraticForm3f_MRVertId.maxSize </td>
           <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRQuadraticForm3f &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;::Vector</span>. </p>
+<p>Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1QuadraticForm3f.html" title="quadratic form: f = x^T A x + c Generated from class MR.QuadraticForm3f. This is the non-const half o...">MR.QuadraticForm3f</a>, <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;::max_size</span>. </p>
 
 </div>
 </div>
@@ -822,8 +748,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a923e02795f61734edd80970749abefb4" name="a923e02795f61734edd80970749abefb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a923e02795f61734edd80970749abefb4">&#9670;&#160;</a></span>vec</h2>
+<a id="a31c1f30d029e1e4701cb9a70b9c80e4c" name="a31c1f30d029e1e4701cb9a70b9c80e4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31c1f30d029e1e4701cb9a70b9c80e4c">&#9670;&#160;</a></span>vec</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -832,7 +758,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe MR.Std.Const_Vector_MRQuadraticForm3f MR.Const_Vector_MRQuadraticForm3f_MRVertId.vec</td>
+          <td class="memname">unsafe MR.Std.Const_Vector_MRQuadraticForm3f_MRAllocatorMRQuadraticForm3f MR.Const_Vector_MRQuadraticForm3f_MRVertId.vec</td>
         </tr>
       </table>
   </td>

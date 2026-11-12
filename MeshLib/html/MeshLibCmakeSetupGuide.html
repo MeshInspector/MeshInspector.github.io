@@ -14,18 +14,15 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="description" content="Link MeshLib in a CMake project: native CMake integration on Linux and macOS, example configuration files and a separate integration guide for Windows."/>
 <title>MeshLib Documentation: MeshLib CMake Setup Guide</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -64,10 +61,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +70,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Documentation
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -200,7 +194,7 @@ Include the MeshLib Headers</h3>
 <p>Add <b>both</b> include directories from the installed MeshLib package to your project. In your CMake configuration (<span class="tt">CMakeLists.txt</span>): </p><div class="fragment"><div class="line">include_directories(${MESHLIB_INCLUDE_DIR} ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</div>
 <div class="line"># or</div>
 <div class="line">target_include_directories(your_project_name PUBLIC ${MESHLIB_INCLUDE_DIR} ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</div>
-</div><!-- fragment --><p><span class="tt">MESHLIB_THIRDPARTY_INCLUDE_DIR</span> is required, not optional: MeshLib's public headers include third-party headers directly — <span class="tt">MRMesh/MRMeshFwd.h</span>, pulled in by essentially every MeshLib header, includes <span class="tt">&lt;parallel_hashmap/phmap_fwd_decl.h&gt;</span>. Without it even a hello-world fails to compile.</p>
+</div><!-- fragment --><p><span class="tt">MESHLIB_THIRDPARTY_INCLUDE_DIR</span> is required, not optional: MeshLib's public headers include third-party headers directly — <span class="tt"><a class="elRef" href="./Cpp/MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a></span>, pulled in by essentially every MeshLib header, includes <span class="tt">&lt;parallel_hashmap/phmap_fwd_decl.h&gt;</span>. Without it even a hello-world fails to compile.</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md18"></a>
 Link the MeshLib Libraries</h3>
 <p>Specify which MeshLib libraries to link with your project: </p><div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MRMesh)</div>
@@ -210,7 +204,7 @@ Link the MeshLib Libraries</h3>
 <div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
 </div><!-- fragment --><p>The package defines the following targets, each guarded by the variable in parentheses. A distribution sets it to <span class="tt">ON</span> for every module it ships, and only those targets exist.</p><ul>
 <li><span class="tt">MeshLib::MRMesh</span>: core data structures and algorithms, needed by every C++ project.</li>
-<li><span class="tt">MeshLib::MRIOExtras</span> (<span class="tt">MESHLIB_BUILD_EXTRA_IO_FORMATS</span>): additional file formats such as 3MF, CTM, E57, glTF, LAS, and STEP.</li>
+<li><span class="tt">MeshLib::MRIOExtras</span> (<span class="tt">MESHLIB_BUILD_EXTRA_IO_FORMATS</span>): additional file formats such as 3MF, CTM, Draco, E57, glTF, LAS, and STEP.</li>
 <li><span class="tt">MeshLib::MRSymbolMesh</span> (<span class="tt">MESHLIB_BUILD_SYMBOLMESH</span>): text converted to meshes.</li>
 <li><span class="tt">MeshLib::MRVoxels</span> (<span class="tt">MESHLIB_BUILD_VOXELS</span>): voxel volumes and the algorithms built on them: offsets, fusion, marching cubes.</li>
 <li><span class="tt">MeshLib::MRCuda</span> (<span class="tt">MESHLIB_BUILD_MRCUDA</span>): CUDA implementations of several algorithms; unavailable for macOS and Emscripten.</li>
@@ -219,7 +213,7 @@ Link the MeshLib Libraries</h3>
 </ul>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md19"></a>
 A Complete Minimal Example</h3>
-<p>Putting the steps above together, this is a complete <span class="tt">CMakeLists.txt</span> that compiles, links and runs a program including <span class="tt">&lt;MRMesh/MRMesh.h&gt;</span>. The <b>Linking Additional Third-Party Libraries</b> section below is not needed for it:</p>
+<p>Putting the steps above together, this is a complete <span class="tt">CMakeLists.txt</span> that compiles, links and runs a program including <span class="tt">&lt;<a class="elRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span>. The <b>Linking Additional Third-Party Libraries</b> section below is not needed for it:</p>
 <div class="fragment"><div class="line">cmake_minimum_required(VERSION 3.18)</div>
 <div class="line">set(CMAKE_CXX_STANDARD 20)</div>
 <div class="line">set(CMAKE_CXX_STANDARD_REQUIRED ON)</div>
@@ -253,6 +247,10 @@ Windows Integration Guide</h2>
 <p>MeshLib supports <b>Windows</b> via CMake, including integration with <b>Visual Studio</b>: ensure the <b>CMake component</b> is installed in your Visual Studio setup.</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md21"></a>
 Prebuilt archive from GitHub Releases</h3>
+<p><span class="tt">MeshLibDistClangCl_&lt;version&gt;.zip</span> (and its <span class="tt">-arm64</span> sibling) is a CMake install prefix, so <span class="tt">find_package(MeshLib CONFIG REQUIRED)</span> works with it as in the sections above. Extracted to <span class="tt">C:/meshlib-built</span>, point CMake at it and build your project in Release, the only configuration it ships:</p>
+<div class="fragment"><div class="line">cmake -S . -B build -A x64 -D CMAKE_PREFIX_PATH=C:/meshlib-built/install</div>
+<div class="line">cmake --build build --config Release</div>
+</div><!-- fragment --><p>To run the result, put <span class="tt">C:/meshlib-built/install/bin</span> on <span class="tt">PATH</span> or copy its DLLs next to your executable.</p>
 <p>The <span class="tt">MeshLibDistVS*.zip</span> archives contain no CMake config files, so <span class="tt">find_package(MeshLib CONFIG REQUIRED)</span> fails at <b>configure</b> time. Point CMake at the extracted tree instead — assuming the archive was extracted to <span class="tt">C:/meshlib-built</span> as described in the <a class="el" href="MeshLibCppSetupGuide.html">C++ Setup Guide</a>:</p>
 <div class="fragment"><div class="line">cmake -S . -B build -A x64 ^</div>
 <div class="line">  -D MESHLIB_INCLUDE_DIRS=C:/meshlib-built/install/include ^</div>

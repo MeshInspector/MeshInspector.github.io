@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -143,15 +136,15 @@ $(function(){initNavTree('classmrmeshpy_1_1TriangulationHelpers.html','',''); })
 
 <p>This is the complete list of members for <a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#a2176cce296a48397337e66cb5552159d">buildLocalTriangulation</a>(PointCloud cloud, VertId v, TriangulationHelpers.Settings settings, TriangulationHelpers.TriangulatedFanData fanData)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#a4b6b9342669f423513de6b0af026e323">buildLocalTriangulations</a>(PointCloud cloud, TriangulationHelpers.Settings settings, func_bool_from_float progress='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#acbf1fc711d0b0076106198b6cf5c2480">buildUnitedLocalTriangulations</a>(PointCloud cloud, TriangulationHelpers.Settings settings, func_bool_from_float progress='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#af1ee9fb56b88b23f144eb4ad92ce7bd6">filterNeighbors</a>(VertCoords orientedNormals, VertBitSet untrustedNormals, VertId v, std_vector_Id_VertTag neighbors)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#a73b91522a9bed17ce3bcab4a39a4cd68">findBoundaryPoints</a>(PointCloud pointCloud, TriangulationHelpers.Settings settings, func_bool_from_float cb='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#a6bd13919555fffa574670eac325fded6">findNeighborsInBall</a>(PointCloud pointCloud, VertId v, float radius, std_vector_Id_VertTag neighbors)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#ad318a645054630e87756be121fe178a1">findNumNeighbors</a>(PointCloud pointCloud, VertId v, int numNeis, std_vector_Id_VertTag neighbors, FewSmallest_PointsProjectionResult tmp, float upDistLimitSq=3.4028234663852886e+38)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#adb66951711f796044d92370a48bc0d02">isBoundaryPoint</a>(PointCloud cloud, VertId v, TriangulationHelpers.Settings settings, TriangulationHelpers.TriangulatedFanData fanData)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#a05e62df7e66fadca5211684a65d59b1f">updateNeighborsRadius</a>(VertCoords points, VertId v, VertId boundaryV, std_vector_Id_VertTag fan, float baseRadius)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#a3077752ea88c2c68bd174a695a27f77b">buildLocalTriangulation</a>(ConstPointCloud cloud, ConstVertId v, TriangulationHelpers.ConstSettings settings, TriangulationHelpers.TriangulatedFanData fanData)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#af3c78f0271807d634d38cb3b0803440a">buildLocalTriangulations</a>(ConstPointCloud cloud, TriangulationHelpers.ConstSettings settings, Const_func_bool_from_float progress='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#a0d061828b1aeb98ace5cda345841b885">buildUnitedLocalTriangulations</a>(ConstPointCloud cloud, TriangulationHelpers.ConstSettings settings, Const_func_bool_from_float progress='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#a3db1a04989710973d7591540d35e2dc0">filterNeighbors</a>(ConstVertCoords orientedNormals, ConstVertBitSet untrustedNormals, ConstVertId v, std_vector_Id_VertTag neighbors)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#affa8b2dda59f1211a7c978b6c581d5ff">findBoundaryPoints</a>(ConstPointCloud pointCloud, TriangulationHelpers.ConstSettings settings, Const_func_bool_from_float cb='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#a86f25882efedc68ca88033bab1ebbd54">findNeighborsInBall</a>(ConstPointCloud pointCloud, ConstVertId v, float radius, std_vector_Id_VertTag neighbors)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#ab05c2fecede260cd2b519f7eb1aa9063">findNumNeighbors</a>(ConstPointCloud pointCloud, ConstVertId v, int numNeis, std_vector_Id_VertTag neighbors, FewSmallest_PointsProjectionResult tmp, float upDistLimitSq=3.4028234663852886e+38)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#a765a2114f32fe5e77d240dfc4f08accc">isBoundaryPoint</a>(ConstPointCloud cloud, ConstVertId v, TriangulationHelpers.ConstSettings settings, TriangulationHelpers.TriangulatedFanData fanData)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html#adc898607fc47a9760c024a03b6e00d70">updateNeighborsRadius</a>(ConstVertCoords points, ConstVertId v, ConstVertId boundaryV, Const_std_vector_Id_VertTag fan, float baseRadius)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1TriangulationHelpers.html">mrmeshpy.TriangulationHelpers</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

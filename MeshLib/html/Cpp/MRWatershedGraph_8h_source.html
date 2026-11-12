@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -288,7 +281,7 @@ $(function(){initNavTree('MRWatershedGraph_8h_source.html','',''); });
 <div class="ttc" id="aMRGraph_8h_html"><div class="ttname"><a href="MRGraph_8h.html">MRGraph.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:85</div></div>
 <div class="ttc" id="aclassMR_1_1Graph_html"><div class="ttname"><a href="classMR_1_1Graph.html">MR::Graph</a></div><div class="ttdoc">mathematical graph consisting from vertices and undirected edges</div><div class="ttdef"><b>Definition</b> MRGraph.h:17</div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRVector.h:23</div></div>
+<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">Vector&lt;T&gt; is indexed by size_t.</div><div class="ttdef"><b>Definition</b> MRVector.h:24</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga0075320ba33e4e671d46cf54d63bbdff"><div class="ttname"><a href="group__GeneralGroup.html#ga0075320ba33e4e671d46cf54d63bbdff">MR::WatershedGraph::setParentsToRoots</a></div><div class="ttdeci">void setParentsToRoots()</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga01068990cefec48cd1195061d70f5b9a"><div class="ttname"><a href="group__GeneralGroup.html#ga01068990cefec48cd1195061d70f5b9a">MR::WatershedGraph::BasinInfo::lowestBdLevel</a></div><div class="ttdeci">float lowestBdLevel</div><div class="ttdoc">lowest position on the boundary of the basin</div><div class="ttdef"><b>Definition</b> MRWatershedGraph.h:23</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga02132a9c3480025356b1c3121549dd04"><div class="ttname"><a href="group__GeneralGroup.html#ga02132a9c3480025356b1c3121549dd04">MR::WatershedGraph::getHeightAt</a></div><div class="ttdeci">float getHeightAt(VertId v) const</div><div class="ttdoc">returns height at given vertex or FLT_MAX if the vertex is invalid</div></div>
@@ -333,7 +326,7 @@ $(function(){initNavTree('MRWatershedGraph_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gae5da135593dd2516248f691c21c4afe2"><div class="ttname"><a href="group__GeneralGroup.html#gae5da135593dd2516248f691c21c4afe2">MR::WatershedGraph::bdInfo</a></div><div class="ttdeci">BdInfo &amp; bdInfo(Graph::EdgeId e)</div><div class="ttdef"><b>Definition</b> MRWatershedGraph.h:94</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaeeffe9dd1229206b5db549f61cbad105"><div class="ttname"><a href="group__GeneralGroup.html#gaeeffe9dd1229206b5db549f61cbad105">MR::Graph::VertId</a></div><div class="ttdeci">GraphVertId VertId</div><div class="ttdef"><b>Definition</b> MRGraph.h:19</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaf87b0b720148b1f8a07ced0557424191"><div class="ttname"><a href="group__GeneralGroup.html#gaf87b0b720148b1f8a07ced0557424191">MR::WatershedGraph::BasinInfo::lastUpdateAmount</a></div><div class="ttdeci">float lastUpdateAmount</div><div class="ttdoc">the amount when accVolume was last updated</div><div class="ttdef"><b>Definition</b> MRWatershedGraph.h:26</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh.h:24</div></div>
 <div class="ttc" id="astructMR_1_1WatershedGraph_1_1BasinInfo_html"><div class="ttname"><a href="structMR_1_1WatershedGraph_1_1BasinInfo.html">MR::WatershedGraph::BasinInfo</a></div><div class="ttdoc">associated with each vertex in graph</div><div class="ttdef"><b>Definition</b> MRWatershedGraph.h:19</div></div>
 <div class="ttc" id="astructMR_1_1WatershedGraph_1_1BdInfo_html"><div class="ttname"><a href="structMR_1_1WatershedGraph_1_1BdInfo.html">MR::WatershedGraph::BdInfo</a></div><div class="ttdoc">associated with each edge in graph</div><div class="ttdef"><b>Definition</b> MRWatershedGraph.h:68</div></div>

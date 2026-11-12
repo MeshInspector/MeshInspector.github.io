@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -197,7 +190,7 @@ Properties</h2></td></tr>
 <tr class="memitem:ac29be7fe6bd48bd378b61bd96b7b945a" id="r_ac29be7fe6bd48bd378b61bd96b7b945a"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__Mesh.html">Const_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac29be7fe6bd48bd378b61bd96b7b945a">mesh</a><code> [get]</code></td></tr>
 <tr class="memdesc:ac29be7fe6bd48bd378b61bd96b7b945a"><td class="mdescLeft">&#160;</td><td class="mdescRight">must be set a valid pointer before use  <br /></td></tr>
 <tr class="memitem:a8491530d1f2467f5031942bdad9df2dc" id="r_a8491530d1f2467f5031942bdad9df2dc"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__AABBTree.html">Const_AABBTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8491530d1f2467f5031942bdad9df2dc">tree</a><code> [get]</code></td></tr>
-<tr class="memdesc:a8491530d1f2467f5031942bdad9df2dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">must be set a valid pointer before use  <br /></td></tr>
+<tr class="memdesc:a8491530d1f2467f5031942bdad9df2dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">not used: the rays take mesh-&gt;getAABBTree()  <br /></td></tr>
 <tr class="memitem:a04bdb3db6090df04467d51931cc29fee" id="r_a04bdb3db6090df04467d51931cc29fee"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__FaceBitSet.html">Const_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04bdb3db6090df04467d51931cc29fee">region</a><code> [get]</code></td></tr>
 <tr class="memdesc:a04bdb3db6090df04467d51931cc29fee"><td class="mdescLeft">&#160;</td><td class="mdescRight">may remain nullptr, meaning all mesh  <br /></td></tr>
 </table>
@@ -588,7 +581,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>must be set a valid pointer before use </p>
+<p>not used: the rays take mesh-&gt;getAABBTree() </p>
 
 </div>
 </div>

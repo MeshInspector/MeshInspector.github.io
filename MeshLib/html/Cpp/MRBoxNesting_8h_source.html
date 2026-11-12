@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -226,8 +219,8 @@ $(function(){initNavTree('MRBoxNesting_8h_source.html','',''); });
 <div class="ttc" id="aMRNestingStructures_8h_html"><div class="ttname"><a href="MRNestingStructures_8h.html">MRNestingStructures.h</a></div></div>
 <div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Nesting_1_1IBoxNestingPriority_html"><div class="ttname"><a href="classMR_1_1Nesting_1_1IBoxNestingPriority.html">MR::Nesting::IBoxNestingPriority</a></div><div class="ttdoc">class to override box nesting metrics</div><div class="ttdef"><b>Definition</b> MRBoxNesting.h:26</div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRVector.h:23</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:759</div></div>
+<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">Vector&lt;T&gt; is indexed by size_t.</div><div class="ttdef"><b>Definition</b> MRVector.h:24</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:789</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga00cd343669bfe8e618733e46034c7ec9"><div class="ttname"><a href="group__GeneralGroup.html#ga00cd343669bfe8e618733e46034c7ec9">MR::Nesting::BoxNestingOptions::preNestedVolumes</a></div><div class="ttdeci">const std::vector&lt; Box3f &gt; * preNestedVolumes</div><div class="ttdoc">if not-nullptr contains boxes that are fixed in the nest and should not be intersected by floating (i...</div><div class="ttdef"><b>Definition</b> MRBoxNesting.h:71</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga042471c183280fb8a554f6440fa46388"><div class="ttname"><a href="group__GeneralGroup.html#ga042471c183280fb8a554f6440fa46388">MR::Nesting::BoxNestingParams::options</a></div><div class="ttdeci">BoxNestingOptions options</div><div class="ttdef"><b>Definition</b> MRBoxNesting.h:87</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga15826c82baad35c27a5ddbfd2c3b2efa"><div class="ttname"><a href="group__GeneralGroup.html#ga15826c82baad35c27a5ddbfd2c3b2efa">MR::Nesting::BoxNestingOptions::allowRotation</a></div><div class="ttdeci">bool allowRotation</div><div class="ttdoc">set false to keep original XY orientation</div><div class="ttdef"><b>Definition</b> MRBoxNesting.h:52</div></div>
@@ -252,7 +245,7 @@ $(function(){initNavTree('MRBoxNesting_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gad122019275fa58103f0a4c6c374ce6c4"><div class="ttname"><a href="group__GeneralGroup.html#gad122019275fa58103f0a4c6c374ce6c4">MR::Nesting::BoxNestingParams::baseParams</a></div><div class="ttdeci">NestingBaseParams baseParams</div><div class="ttdef"><b>Definition</b> MRBoxNesting.h:86</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gade02b304d212d0b796e804a9ebe361c7"><div class="ttname"><a href="group__GeneralGroup.html#gade02b304d212d0b796e804a9ebe361c7">MR::Nesting::IBoxNestingPriority::addNested</a></div><div class="ttdeci">virtual void addNested(const Box3f &amp;box)=0</div><div class="ttdoc">accumulate priority by one of already nested boxes</div></div>
 <div class="ttc" id="anamespaceMR_1_1Nesting_html"><div class="ttname"><a href="namespaceMR_1_1Nesting.html">MR::Nesting</a></div><div class="ttdef"><b>Definition</b> MRNesting3mfExport.h:20</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Nesting_1_1BoxNestingCorner_html"><div class="ttname"><a href="structMR_1_1Nesting_1_1BoxNestingCorner.html">MR::Nesting::BoxNestingCorner</a></div><div class="ttdef"><b>Definition</b> MRBoxNesting.h:17</div></div>
 <div class="ttc" id="astructMR_1_1Nesting_1_1BoxNestingOptions_html"><div class="ttname"><a href="structMR_1_1Nesting_1_1BoxNestingOptions.html">MR::Nesting::BoxNestingOptions</a></div><div class="ttdef"><b>Definition</b> MRBoxNesting.h:47</div></div>
 <div class="ttc" id="astructMR_1_1Nesting_1_1BoxNestingParams_html"><div class="ttname"><a href="structMR_1_1Nesting_1_1BoxNestingParams.html">MR::Nesting::BoxNestingParams</a></div><div class="ttdef"><b>Definition</b> MRBoxNesting.h:85</div></div>

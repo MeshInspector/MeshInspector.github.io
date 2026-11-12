@@ -31,6 +31,8 @@ var menudata={children:[
 {text:"C#",url:"MeshLibCSharpSetupGuide.html"},
 {text:"C",url:"MeshLibCSetupGuide.html"},
 {text:"JavaScript",url:"MeshLibJsSetupGuide.html"},
+{text:"Rust",url:"MeshLibRustSetupGuide.html"},
+{text:"Java",url:"MeshLibJavaSetupGuide.html"},
 {text:"CMake",url:"MeshLibCmakeSetupGuide.html"}]},
 {text:"License",url:"License.html"},
 {text:"How to cite",url:"Citation.html"},
@@ -95,5 +97,7 @@ var menudata={children:[
 {text:"Python",url:"Py/APIPyPage.html"},
 {text:"C",url:"C/APICPage.html"},
 {text:"C#",url:"Csharp/APICsharpPage.html"},
-{text:"JavaScript",url:"Js/APIJsPage.html"}]},
+{text:"JavaScript",url:"Js/APIJsPage.html"},
+{text:"Rust",url:"Rust/APIRustPage.html"},
+{text:"Java",url:"Java/APIJavaPage.html"}]},
 {text:"Third-Party Dependencies",url:"ThirdParty.html"}]}

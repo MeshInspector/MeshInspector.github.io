@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,19 +133,29 @@ $(function(){initNavTree('classmrmeshpy_1_1DecimateSettings.html','','classmrmes
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1DecimateSettings-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.DecimateSettings Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for mrmeshpy.DecimateSettings:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmrmeshpy_1_1DecimateSettings.png" usemap="#mrmeshpy_2EDecimateSettings_map" alt=""/>
+  <map id="mrmeshpy_2EDecimateSettings_map" name="mrmeshpy_2EDecimateSettings_map">
+<area href="classmrmeshpy_1_1ConstDecimateSettings.html" alt="mrmeshpy.ConstDecimateSettings" shape="rect" coords="0,0,201,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:adc864beb92ab0473ec0a508b57b3f3f8" id="r_adc864beb92ab0473ec0a508b57b3f3f8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc864beb92ab0473ec0a508b57b3f3f8">__init__</a> (self)</td></tr>
-<tr class="memitem:a051ad80dd4673ad4e825bdef48419f87" id="r_a051ad80dd4673ad4e825bdef48419f87"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a051ad80dd4673ad4e825bdef48419f87">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1DecimateSettings.html">DecimateSettings</a> arg0)</td></tr>
-<tr class="memitem:a8f5827c606e93f2b657389c5b7d73b15" id="r_a8f5827c606e93f2b657389c5b7d73b15"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f5827c606e93f2b657389c5b7d73b15">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1DecimateStrategy.html">DecimateStrategy</a> strategy, float <a class="el" href="#aa5571c846834d158b3af1a8b26ce1f10">maxError</a>, float <a class="el" href="#a08a35db74fa7cd049790b748c9b5d95d">maxEdgeLen</a>, float <a class="el" href="#a15cbfd9b3575d797e3448ea93dbb56f2">maxBdShift</a>, float <a class="el" href="#a914cd3b5bad7e4e4a01c2a67fbff53e6">maxTriangleAspectRatio</a>, float <a class="el" href="#a6f22bfefc969af9b0e1c1205eafcfd84">criticalTriAspectRatio</a>, float <a class="el" href="#adfa6b7be137126dff2769ff860ed4fd2">tinyEdgeLength</a>, float <a class="el" href="#a207116947163001c13a9df0cb07ef4b1">stabilizer</a>, bool <a class="el" href="#ad18aacdc6d0ce2b4f8b4fa982d1a1560">angleWeightedDistToPlane</a>, bool <a class="el" href="#a2511e2aa95cfc937dbc59b583bcb8d79">optimizeVertexPos</a>, int <a class="el" href="#adedd7b2c4a722f70c406137a76d6e076">maxDeletedVertices</a>, int <a class="el" href="#a14ee73293d17feee5db308052c20707d">maxDeletedFaces</a>, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> <a class="el" href="#a3da95241ed69d97ee6fc5ffc0adee881">region</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> <a class="el" href="#a1c69ded2755c15338a1e3e2cb41cc5b1">notFlippable</a>, bool <a class="el" href="#a83d5dcc37fe27db3b8c7c3eff5bc3f39">collapseNearNotFlippable</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> <a class="el" href="#afa85f11b0626cdc0fe3cd7e6ef2ed1d1">edgesToCollapse</a>, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag.html">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag</a> <a class="el" href="#aaf870573d8c5610a06fa3e9f97b05f51">twinMap</a>, bool <a class="el" href="#a0c79c096795323dc4262076eb6547f31">touchNearBdEdges</a>, bool <a class="el" href="#aa795f374ac544fff512571b74986d7f8">touchBdVerts</a>, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> <a class="el" href="#a114d9cba6f69cb7e9f22322de24eab3d">bdVerts</a>, float <a class="el" href="#a1ec5be344742548c1a92840511ccf70a">maxAngleChange</a>, <a class="el" href="classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float.html">func_bool_from_Id_EdgeTag_Vector3_float</a> <a class="el" href="#ac1f21277339e973178f26d5398a53a22">preCollapse</a>, <a class="el" href="classmrmeshpy_1_1func__void__from__Id__UndirectedEdgeTag__float__Vector3__float.html">func_void_from_Id_UndirectedEdgeTag_float_Vector3_float</a> <a class="el" href="#ad23e1338af289f8942bea68e493a1c69">adjustCollapse</a>, <a class="el" href="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag.html">func_void_from_Id_EdgeTag_Id_EdgeTag</a> <a class="el" href="#a30f4ac78e15cda2ac5bed3e33cef32ed">onEdgeDel</a>, <a class="el" href="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html">Vector_QuadraticForm3f_VertId</a> <a class="el" href="#a0770a638d8fc5b0b48774cdc9f9ddd0e">vertForms</a>, bool <a class="el" href="#a7f84f5d2e710fa62285713f920a6790e">packMesh</a>, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> <a class="el" href="#ac67327171494d7697f9a9feae448d56f">progressCallback</a>, int <a class="el" href="#a169832040cb0b9600d84945bae3b2ec8">subdivideParts</a>, bool <a class="el" href="#a05ca83e7eabd2d3687a32d6321999dd2">decimateBetweenParts</a>, <a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html">std_vector_TypedBitSet_Id_FaceTag</a> <a class="el" href="#a54c0422100bb0d71ccce1bb2a41f5bb1">partFaces</a>, int <a class="el" href="#a3a94877c8bbf469cc7f3f8859d36554c">minFacesInPart</a>)</td></tr>
+<tr class="memitem:a6f177d20cc6fcb07cc245d2177d4f785" id="r_a6f177d20cc6fcb07cc245d2177d4f785"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f177d20cc6fcb07cc245d2177d4f785">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html">ConstDecimateSettings</a> arg0)</td></tr>
+<tr class="memitem:ab7f03d2711da67c7e0db468f1b4fb48d" id="r_ab7f03d2711da67c7e0db468f1b4fb48d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7f03d2711da67c7e0db468f1b4fb48d">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1DecimateStrategy.html">DecimateStrategy</a> <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#abefeb7d6abb32f2f2bfd578a2ee75f45">strategy</a>, float <a class="el" href="#aa5571c846834d158b3af1a8b26ce1f10">maxError</a>, float <a class="el" href="#a08a35db74fa7cd049790b748c9b5d95d">maxEdgeLen</a>, float <a class="el" href="#a15cbfd9b3575d797e3448ea93dbb56f2">maxBdShift</a>, float <a class="el" href="#a914cd3b5bad7e4e4a01c2a67fbff53e6">maxTriangleAspectRatio</a>, float <a class="el" href="#a6f22bfefc969af9b0e1c1205eafcfd84">criticalTriAspectRatio</a>, bool <a class="el" href="#ade342b6b63db228857a0929387665379">preventNormalFlips</a>, float <a class="el" href="#adfa6b7be137126dff2769ff860ed4fd2">tinyEdgeLength</a>, float <a class="el" href="#a207116947163001c13a9df0cb07ef4b1">stabilizer</a>, bool <a class="el" href="#ad18aacdc6d0ce2b4f8b4fa982d1a1560">angleWeightedDistToPlane</a>, bool <a class="el" href="#a2511e2aa95cfc937dbc59b583bcb8d79">optimizeVertexPos</a>, int <a class="el" href="#adedd7b2c4a722f70c406137a76d6e076">maxDeletedVertices</a>, int <a class="el" href="#a14ee73293d17feee5db308052c20707d">maxDeletedFaces</a>, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> <a class="el" href="#a3da95241ed69d97ee6fc5ffc0adee881">region</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> <a class="el" href="#a1c69ded2755c15338a1e3e2cb41cc5b1">notFlippable</a>, bool <a class="el" href="#a83d5dcc37fe27db3b8c7c3eff5bc3f39">collapseNearNotFlippable</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> <a class="el" href="#afa85f11b0626cdc0fe3cd7e6ef2ed1d1">edgesToCollapse</a>, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__Haf6bf4aa74823fc64e1189f138ce8e1fe.html">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag_phmap_Hash_Id_UndirectedEdgeTag_phmap_EqualTo_Id_UndirectedEdgeTag_Allocator_std_pair_Id_UndirectedEdgeTag_const_Id_UndirectedEdgeTag</a> <a class="el" href="#a2d6e3e86f052025dd4ac8a0847c2135a">twinMap</a>, bool <a class="el" href="#a0c79c096795323dc4262076eb6547f31">touchNearBdEdges</a>, bool <a class="el" href="#aa795f374ac544fff512571b74986d7f8">touchBdVerts</a>, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> <a class="el" href="#a114d9cba6f69cb7e9f22322de24eab3d">bdVerts</a>, <a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeBitSet.html">ConstUndirectedEdgeBitSet</a> <a class="el" href="#a25adde528ec61985c44d258119923e19">regionEdges</a>, float <a class="el" href="#a1ec5be344742548c1a92840511ccf70a">maxAngleChange</a>, <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__Id__EdgeTag__Vector3__float.html">Const_func_bool_from_Id_EdgeTag_Vector3_float</a> <a class="el" href="#ac1f21277339e973178f26d5398a53a22">preCollapse</a>, <a class="el" href="classmrmeshpy_1_1Const__func__void__from__Id__UndirectedEdgeTag__float__Vector3__float.html">Const_func_void_from_Id_UndirectedEdgeTag_float_Vector3_float</a> <a class="el" href="#ad23e1338af289f8942bea68e493a1c69">adjustCollapse</a>, <a class="el" href="classmrmeshpy_1_1Const__func__void__from__Id__EdgeTag__Id__EdgeTag.html">Const_func_void_from_Id_EdgeTag_Id_EdgeTag</a> <a class="el" href="#a30f4ac78e15cda2ac5bed3e33cef32ed">onEdgeDel</a>, <a class="el" href="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html">Vector_QuadraticForm3f_VertId</a> <a class="el" href="#a0770a638d8fc5b0b48774cdc9f9ddd0e">vertForms</a>, bool <a class="el" href="#a7f84f5d2e710fa62285713f920a6790e">packMesh</a>, <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> <a class="el" href="#ac67327171494d7697f9a9feae448d56f">progressCallback</a>, int <a class="el" href="#a169832040cb0b9600d84945bae3b2ec8">subdivideParts</a>, <a class="el" href="classmrmeshpy_1_1DecimatePartsMode.html">DecimatePartsMode</a> <a class="el" href="#aaaeb95901182e64394c6abb3fa137b5e">partsMode</a>, bool <a class="el" href="#a05ca83e7eabd2d3687a32d6321999dd2">decimateBetweenParts</a>, <a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html">std_vector_TypedBitSet_Id_FaceTag</a> <a class="el" href="#a54c0422100bb0d71ccce1bb2a41f5bb1">partFaces</a>, int <a class="el" href="#a3a94877c8bbf469cc7f3f8859d36554c">minFacesInPart</a>)</td></tr>
+<tr class="memitem:a337a82787d60464dc85f5383d03f88b3" id="r_a337a82787d60464dc85f5383d03f88b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DecimateSettings.html">DecimateSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a337a82787d60464dc85f5383d03f88b3">assign</a> (self, <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html">ConstDecimateSettings</a> other)</td></tr>
 <tr class="memitem:ad23e1338af289f8942bea68e493a1c69" id="r_ad23e1338af289f8942bea68e493a1c69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1func__void__from__Id__UndirectedEdgeTag__float__Vector3__float.html">func_void_from_Id_UndirectedEdgeTag_float_Vector3_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad23e1338af289f8942bea68e493a1c69">adjustCollapse</a> (self)</td></tr>
-<tr class="memitem:acc3cfe893142f2e7424ac9f6d07c5285" id="r_acc3cfe893142f2e7424ac9f6d07c5285"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc3cfe893142f2e7424ac9f6d07c5285">adjustCollapse</a> (self, <a class="el" href="classmrmeshpy_1_1func__void__from__Id__UndirectedEdgeTag__float__Vector3__float.html">func_void_from_Id_UndirectedEdgeTag_float_Vector3_float</a> arg1)</td></tr>
+<tr class="memitem:a0b8331a1d49967908a61c395287b17ee" id="r_a0b8331a1d49967908a61c395287b17ee"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b8331a1d49967908a61c395287b17ee">adjustCollapse</a> (self, <a class="el" href="classmrmeshpy_1_1Const__func__void__from__Id__UndirectedEdgeTag__float__Vector3__float.html">Const_func_void_from_Id_UndirectedEdgeTag_float_Vector3_float</a> arg1)</td></tr>
 <tr class="memitem:ad18aacdc6d0ce2b4f8b4fa982d1a1560" id="r_ad18aacdc6d0ce2b4f8b4fa982d1a1560"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad18aacdc6d0ce2b4f8b4fa982d1a1560">angleWeightedDistToPlane</a> (self)</td></tr>
 <tr class="memitem:a27f2f0f4f0b64775adad4a41bd79fc9a" id="r_a27f2f0f4f0b64775adad4a41bd79fc9a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27f2f0f4f0b64775adad4a41bd79fc9a">angleWeightedDistToPlane</a> (self, bool arg1)</td></tr>
 <tr class="memitem:a114d9cba6f69cb7e9f22322de24eab3d" id="r_a114d9cba6f69cb7e9f22322de24eab3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a114d9cba6f69cb7e9f22322de24eab3d">bdVerts</a> (self)</td></tr>
@@ -184,19 +187,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1c69ded2755c15338a1e3e2cb41cc5b1" id="r_a1c69ded2755c15338a1e3e2cb41cc5b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c69ded2755c15338a1e3e2cb41cc5b1">notFlippable</a> (self)</td></tr>
 <tr class="memitem:aefdcc080b05fe8eb05dcfa7f68a46510" id="r_aefdcc080b05fe8eb05dcfa7f68a46510"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefdcc080b05fe8eb05dcfa7f68a46510">notFlippable</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> arg1)</td></tr>
 <tr class="memitem:a30f4ac78e15cda2ac5bed3e33cef32ed" id="r_a30f4ac78e15cda2ac5bed3e33cef32ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag.html">func_void_from_Id_EdgeTag_Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30f4ac78e15cda2ac5bed3e33cef32ed">onEdgeDel</a> (self)</td></tr>
-<tr class="memitem:adad31f6a7b6728b22b02a25f9b905e20" id="r_adad31f6a7b6728b22b02a25f9b905e20"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adad31f6a7b6728b22b02a25f9b905e20">onEdgeDel</a> (self, <a class="el" href="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag.html">func_void_from_Id_EdgeTag_Id_EdgeTag</a> arg1)</td></tr>
+<tr class="memitem:af8b62d25d46bd364d7917b7bf4515655" id="r_af8b62d25d46bd364d7917b7bf4515655"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8b62d25d46bd364d7917b7bf4515655">onEdgeDel</a> (self, <a class="el" href="classmrmeshpy_1_1Const__func__void__from__Id__EdgeTag__Id__EdgeTag.html">Const_func_void_from_Id_EdgeTag_Id_EdgeTag</a> arg1)</td></tr>
 <tr class="memitem:a2511e2aa95cfc937dbc59b583bcb8d79" id="r_a2511e2aa95cfc937dbc59b583bcb8d79"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2511e2aa95cfc937dbc59b583bcb8d79">optimizeVertexPos</a> (self)</td></tr>
 <tr class="memitem:a8c2e7124af7b0b33309ac7f8bfe1eaca" id="r_a8c2e7124af7b0b33309ac7f8bfe1eaca"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c2e7124af7b0b33309ac7f8bfe1eaca">optimizeVertexPos</a> (self, bool arg1)</td></tr>
 <tr class="memitem:a7f84f5d2e710fa62285713f920a6790e" id="r_a7f84f5d2e710fa62285713f920a6790e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f84f5d2e710fa62285713f920a6790e">packMesh</a> (self)</td></tr>
 <tr class="memitem:ae93506509689bb40395643bfef0e2499" id="r_ae93506509689bb40395643bfef0e2499"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae93506509689bb40395643bfef0e2499">packMesh</a> (self, bool arg1)</td></tr>
 <tr class="memitem:a54c0422100bb0d71ccce1bb2a41f5bb1" id="r_a54c0422100bb0d71ccce1bb2a41f5bb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html">std_vector_TypedBitSet_Id_FaceTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54c0422100bb0d71ccce1bb2a41f5bb1">partFaces</a> (self)</td></tr>
 <tr class="memitem:a006981886b21b800b6e3d76e7bdd25ae" id="r_a006981886b21b800b6e3d76e7bdd25ae"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a006981886b21b800b6e3d76e7bdd25ae">partFaces</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html">std_vector_TypedBitSet_Id_FaceTag</a> arg1)</td></tr>
+<tr class="memitem:aaaeb95901182e64394c6abb3fa137b5e" id="r_aaaeb95901182e64394c6abb3fa137b5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DecimatePartsMode.html">DecimatePartsMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaeb95901182e64394c6abb3fa137b5e">partsMode</a> (self)</td></tr>
+<tr class="memitem:abadf38413c04d5c216479324594cbe81" id="r_abadf38413c04d5c216479324594cbe81"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abadf38413c04d5c216479324594cbe81">partsMode</a> (self, <a class="el" href="classmrmeshpy_1_1DecimatePartsMode.html">DecimatePartsMode</a> arg1)</td></tr>
 <tr class="memitem:ac1f21277339e973178f26d5398a53a22" id="r_ac1f21277339e973178f26d5398a53a22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float.html">func_bool_from_Id_EdgeTag_Vector3_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1f21277339e973178f26d5398a53a22">preCollapse</a> (self)</td></tr>
-<tr class="memitem:aef406f827ad416d3d4a437a23acc0034" id="r_aef406f827ad416d3d4a437a23acc0034"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef406f827ad416d3d4a437a23acc0034">preCollapse</a> (self, <a class="el" href="classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float.html">func_bool_from_Id_EdgeTag_Vector3_float</a> arg1)</td></tr>
+<tr class="memitem:a42a51cad083977ecc63bcc11930b325a" id="r_a42a51cad083977ecc63bcc11930b325a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42a51cad083977ecc63bcc11930b325a">preCollapse</a> (self, <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__Id__EdgeTag__Vector3__float.html">Const_func_bool_from_Id_EdgeTag_Vector3_float</a> arg1)</td></tr>
+<tr class="memitem:ade342b6b63db228857a0929387665379" id="r_ade342b6b63db228857a0929387665379"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade342b6b63db228857a0929387665379">preventNormalFlips</a> (self)</td></tr>
+<tr class="memitem:ad5d7e383c6acee772aced5f8db24a5d0" id="r_ad5d7e383c6acee772aced5f8db24a5d0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5d7e383c6acee772aced5f8db24a5d0">preventNormalFlips</a> (self, bool arg1)</td></tr>
 <tr class="memitem:ac67327171494d7697f9a9feae448d56f" id="r_ac67327171494d7697f9a9feae448d56f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac67327171494d7697f9a9feae448d56f">progressCallback</a> (self)</td></tr>
-<tr class="memitem:a4dde0c1220e3992b4f6d242af36040e8" id="r_a4dde0c1220e3992b4f6d242af36040e8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dde0c1220e3992b4f6d242af36040e8">progressCallback</a> (self, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> arg1)</td></tr>
+<tr class="memitem:a33ecd64ac77d29718cd98dcb9e4b5abf" id="r_a33ecd64ac77d29718cd98dcb9e4b5abf"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33ecd64ac77d29718cd98dcb9e4b5abf">progressCallback</a> (self, <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> arg1)</td></tr>
 <tr class="memitem:a3da95241ed69d97ee6fc5ffc0adee881" id="r_a3da95241ed69d97ee6fc5ffc0adee881"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3da95241ed69d97ee6fc5ffc0adee881">region</a> (self)</td></tr>
 <tr class="memitem:aab3df2e170579f18d520c16f47c8166b" id="r_aab3df2e170579f18d520c16f47c8166b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab3df2e170579f18d520c16f47c8166b">region</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> arg1)</td></tr>
+<tr class="memitem:a25adde528ec61985c44d258119923e19" id="r_a25adde528ec61985c44d258119923e19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25adde528ec61985c44d258119923e19">regionEdges</a> (self)</td></tr>
+<tr class="memitem:a5385d8b3dc271d93475cd9f98456e31d" id="r_a5385d8b3dc271d93475cd9f98456e31d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5385d8b3dc271d93475cd9f98456e31d">regionEdges</a> (self, <a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeBitSet.html">ConstUndirectedEdgeBitSet</a> arg1)</td></tr>
 <tr class="memitem:a207116947163001c13a9df0cb07ef4b1" id="r_a207116947163001c13a9df0cb07ef4b1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a207116947163001c13a9df0cb07ef4b1">stabilizer</a> (self)</td></tr>
 <tr class="memitem:a9832e5350daddcc94fb138aa8dddcf80" id="r_a9832e5350daddcc94fb138aa8dddcf80"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9832e5350daddcc94fb138aa8dddcf80">stabilizer</a> (self, float arg1)</td></tr>
 <tr class="memitem:a169832040cb0b9600d84945bae3b2ec8" id="r_a169832040cb0b9600d84945bae3b2ec8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a169832040cb0b9600d84945bae3b2ec8">subdivideParts</a> (self)</td></tr>
@@ -207,59 +216,62 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f07b5b8fbd78e624b3bb0ec715a95e4" id="r_a6f07b5b8fbd78e624b3bb0ec715a95e4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f07b5b8fbd78e624b3bb0ec715a95e4">touchBdVerts</a> (self, bool arg1)</td></tr>
 <tr class="memitem:a0c79c096795323dc4262076eb6547f31" id="r_a0c79c096795323dc4262076eb6547f31"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c79c096795323dc4262076eb6547f31">touchNearBdEdges</a> (self)</td></tr>
 <tr class="memitem:a994c9f0e2127807836d9b063b0d48f8f" id="r_a994c9f0e2127807836d9b063b0d48f8f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a994c9f0e2127807836d9b063b0d48f8f">touchNearBdEdges</a> (self, bool arg1)</td></tr>
-<tr class="memitem:aaf870573d8c5610a06fa3e9f97b05f51" id="r_aaf870573d8c5610a06fa3e9f97b05f51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag.html">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf870573d8c5610a06fa3e9f97b05f51">twinMap</a> (self)</td></tr>
-<tr class="memitem:a1dbce075df190b02eebae30f13f907ec" id="r_a1dbce075df190b02eebae30f13f907ec"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dbce075df190b02eebae30f13f907ec">twinMap</a> (self, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag.html">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag</a> arg1)</td></tr>
+<tr class="memitem:a2d6e3e86f052025dd4ac8a0847c2135a" id="r_a2d6e3e86f052025dd4ac8a0847c2135a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__Haf6bf4aa74823fc64e1189f138ce8e1fe.html">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag_phmap_Hash_Id_UndirectedEdgeTag_phmap_EqualTo_Id_UndirectedEdgeTag_Allocator_std_pair_Id_UndirectedEdgeTag_const_Id_UndirectedEdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d6e3e86f052025dd4ac8a0847c2135a">twinMap</a> (self)</td></tr>
+<tr class="memitem:a0e600270b8c9baec05df4960b81097e2" id="r_a0e600270b8c9baec05df4960b81097e2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e600270b8c9baec05df4960b81097e2">twinMap</a> (self, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__Haf6bf4aa74823fc64e1189f138ce8e1fe.html">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag_phmap_Hash_Id_UndirectedEdgeTag_phmap_EqualTo_Id_UndirectedEdgeTag_Allocator_std_pair_Id_UndirectedEdgeTag_const_Id_UndirectedEdgeTag</a> arg1)</td></tr>
 <tr class="memitem:a0770a638d8fc5b0b48774cdc9f9ddd0e" id="r_a0770a638d8fc5b0b48774cdc9f9ddd0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html">Vector_QuadraticForm3f_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0770a638d8fc5b0b48774cdc9f9ddd0e">vertForms</a> (self)</td></tr>
 <tr class="memitem:ae397e340cb3c4eb644495809dc004b1a" id="r_ae397e340cb3c4eb644495809dc004b1a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae397e340cb3c4eb644495809dc004b1a">vertForms</a> (self, <a class="el" href="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html">Vector_QuadraticForm3f_VertId</a> arg1)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstDecimateSettings"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstDecimateSettings')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html">mrmeshpy.ConstDecimateSettings</a></td></tr>
+<tr class="memitem:addd296122a6790967325242dc45d3357 inherit pub_methods_classmrmeshpy_1_1ConstDecimateSettings" id="r_addd296122a6790967325242dc45d3357"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#addd296122a6790967325242dc45d3357">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:abefeb7d6abb32f2f2bfd578a2ee75f45 inherit pub_methods_classmrmeshpy_1_1ConstDecimateSettings" id="r_abefeb7d6abb32f2f2bfd578a2ee75f45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DecimateStrategy.html">DecimateStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#abefeb7d6abb32f2f2bfd578a2ee75f45">strategy</a> (self)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a8eefabc49f8bf96e43216fde22f38ba0" id="r_a8eefabc49f8bf96e43216fde22f38ba0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8eefabc49f8bf96e43216fde22f38ba0">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:afec8b87744b79957fde34407cb57740f" id="r_afec8b87744b79957fde34407cb57740f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DecimateSettings.html">DecimateSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afec8b87744b79957fde34407cb57740f">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:afec8b87744b79957fde34407cb57740f" id="r_afec8b87744b79957fde34407cb57740f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DecimateSettings.html">DecimateSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afec8b87744b79957fde34407cb57740f">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a1827a87929243373a4f3a8120b598376" id="r_a1827a87929243373a4f3a8120b598376"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1827a87929243373a4f3a8120b598376">_offsetof_adjustCollapse</a> = 144</td></tr>
-<tr class="memitem:af43d3e4ca17cf0a68d69afc41ba2c3f2" id="r_af43d3e4ca17cf0a68d69afc41ba2c3f2"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af43d3e4ca17cf0a68d69afc41ba2c3f2">_offsetof_angleWeightedDistToPlane</a> = 32</td></tr>
-<tr class="memitem:afdd4a263fd390dbb22392099afeb5a88" id="r_afdd4a263fd390dbb22392099afeb5a88"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdd4a263fd390dbb22392099afeb5a88">_offsetof_bdVerts</a> = 96</td></tr>
-<tr class="memitem:ab2b429b5469923014708e76ca8b4e404" id="r_ab2b429b5469923014708e76ca8b4e404"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2b429b5469923014708e76ca8b4e404">_offsetof_collapseNearNotFlippable</a> = 64</td></tr>
-<tr class="memitem:a086938f955cec0c01e35f3bf423d9e78" id="r_a086938f955cec0c01e35f3bf423d9e78"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a086938f955cec0c01e35f3bf423d9e78">_offsetof_criticalTriAspectRatio</a> = 20</td></tr>
-<tr class="memitem:a87ebfc521b863250bed2ce17ecaf6011" id="r_a87ebfc521b863250bed2ce17ecaf6011"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87ebfc521b863250bed2ce17ecaf6011">_offsetof_decimateBetweenParts</a> = 260</td></tr>
-<tr class="memitem:ad313f508a3ca538ef0d8637459947429" id="r_ad313f508a3ca538ef0d8637459947429"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad313f508a3ca538ef0d8637459947429">_offsetof_edgesToCollapse</a> = 72</td></tr>
-<tr class="memitem:a555e689e815429791ba33042eb8093d1" id="r_a555e689e815429791ba33042eb8093d1"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a555e689e815429791ba33042eb8093d1">_offsetof_maxAngleChange</a> = 104</td></tr>
-<tr class="memitem:aefb38641b43693cbfaae867fa7f059fd" id="r_aefb38641b43693cbfaae867fa7f059fd"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefb38641b43693cbfaae867fa7f059fd">_offsetof_maxBdShift</a> = 12</td></tr>
-<tr class="memitem:ad79b46629b4a7521a427406f4aeccbc0" id="r_ad79b46629b4a7521a427406f4aeccbc0"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad79b46629b4a7521a427406f4aeccbc0">_offsetof_maxDeletedFaces</a> = 40</td></tr>
-<tr class="memitem:a888b201d21056988d616b83cf31e34cd" id="r_a888b201d21056988d616b83cf31e34cd"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a888b201d21056988d616b83cf31e34cd">_offsetof_maxDeletedVertices</a> = 36</td></tr>
-<tr class="memitem:a81d877f3b96e7c5aea0736995db5ce31" id="r_a81d877f3b96e7c5aea0736995db5ce31"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81d877f3b96e7c5aea0736995db5ce31">_offsetof_maxEdgeLen</a> = 8</td></tr>
-<tr class="memitem:aaeb5fa43a50a9bf5203eae40efdc56e3" id="r_aaeb5fa43a50a9bf5203eae40efdc56e3"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaeb5fa43a50a9bf5203eae40efdc56e3">_offsetof_maxError</a> = 4</td></tr>
-<tr class="memitem:a125cc414da5184df51407f049c8a9492" id="r_a125cc414da5184df51407f049c8a9492"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a125cc414da5184df51407f049c8a9492">_offsetof_maxTriangleAspectRatio</a> = 16</td></tr>
-<tr class="memitem:ac18faa4d38b5b792ef2667fedd1a0f69" id="r_ac18faa4d38b5b792ef2667fedd1a0f69"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac18faa4d38b5b792ef2667fedd1a0f69">_offsetof_minFacesInPart</a> = 272</td></tr>
-<tr class="memitem:a1e29ae4d422a55afbc710b458a0d8f41" id="r_a1e29ae4d422a55afbc710b458a0d8f41"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e29ae4d422a55afbc710b458a0d8f41">_offsetof_notFlippable</a> = 56</td></tr>
-<tr class="memitem:a2c0cdcef9b3a7ae2a4efdfbba8ef1b5c" id="r_a2c0cdcef9b3a7ae2a4efdfbba8ef1b5c"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c0cdcef9b3a7ae2a4efdfbba8ef1b5c">_offsetof_onEdgeDel</a> = 176</td></tr>
-<tr class="memitem:a54a9d146e51a8189e7c0e3b300b020a8" id="r_a54a9d146e51a8189e7c0e3b300b020a8"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54a9d146e51a8189e7c0e3b300b020a8">_offsetof_optimizeVertexPos</a> = 33</td></tr>
-<tr class="memitem:a06c3165338f878be5adea41e7b74c125" id="r_a06c3165338f878be5adea41e7b74c125"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06c3165338f878be5adea41e7b74c125">_offsetof_packMesh</a> = 216</td></tr>
-<tr class="memitem:a3faf66a3b52dfe818dd4260bc5544c2b" id="r_a3faf66a3b52dfe818dd4260bc5544c2b"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3faf66a3b52dfe818dd4260bc5544c2b">_offsetof_partFaces</a> = 264</td></tr>
-<tr class="memitem:ab101fa26ea03810699bafd474c3ccc8a" id="r_ab101fa26ea03810699bafd474c3ccc8a"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab101fa26ea03810699bafd474c3ccc8a">_offsetof_preCollapse</a> = 112</td></tr>
-<tr class="memitem:aaaf8d4d1fc6f0a07207e86f7e8b81edf" id="r_aaaf8d4d1fc6f0a07207e86f7e8b81edf"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaf8d4d1fc6f0a07207e86f7e8b81edf">_offsetof_progressCallback</a> = 224</td></tr>
-<tr class="memitem:a74eb8e8a93a05a5dc978d7e43b83df4a" id="r_a74eb8e8a93a05a5dc978d7e43b83df4a"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74eb8e8a93a05a5dc978d7e43b83df4a">_offsetof_region</a> = 48</td></tr>
-<tr class="memitem:ab90d428de45942883a4a9671c03cc81d" id="r_ab90d428de45942883a4a9671c03cc81d"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab90d428de45942883a4a9671c03cc81d">_offsetof_stabilizer</a> = 28</td></tr>
-<tr class="memitem:a2a33d76b302a87456a6c23302b6c9994" id="r_a2a33d76b302a87456a6c23302b6c9994"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a33d76b302a87456a6c23302b6c9994">_offsetof_strategy</a> = 0</td></tr>
-<tr class="memitem:a0e5acf64890312190b1a03fd1cbead42" id="r_a0e5acf64890312190b1a03fd1cbead42"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e5acf64890312190b1a03fd1cbead42">_offsetof_subdivideParts</a> = 256</td></tr>
-<tr class="memitem:aae78f5b336c52c29ea2bb4d43a7987a3" id="r_aae78f5b336c52c29ea2bb4d43a7987a3"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae78f5b336c52c29ea2bb4d43a7987a3">_offsetof_tinyEdgeLength</a> = 24</td></tr>
-<tr class="memitem:a84082d56c86b6a5b3a1ac10132cb3608" id="r_a84082d56c86b6a5b3a1ac10132cb3608"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84082d56c86b6a5b3a1ac10132cb3608">_offsetof_touchBdVerts</a> = 89</td></tr>
-<tr class="memitem:a46500a05d700f1d460bfb2ee76ab44a6" id="r_a46500a05d700f1d460bfb2ee76ab44a6"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46500a05d700f1d460bfb2ee76ab44a6">_offsetof_touchNearBdEdges</a> = 88</td></tr>
-<tr class="memitem:a553ec4a452e9a08276a52ed67359b31d" id="r_a553ec4a452e9a08276a52ed67359b31d"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a553ec4a452e9a08276a52ed67359b31d">_offsetof_twinMap</a> = 80</td></tr>
-<tr class="memitem:a135a46560773ed76f59f6cd0cf49f753" id="r_a135a46560773ed76f59f6cd0cf49f753"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a135a46560773ed76f59f6cd0cf49f753">_offsetof_vertForms</a> = 208</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Attributes inherited from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html">mrmeshpy.ConstDecimateSettings</a></td></tr>
+<tr class="memitem:aff9c13e2525ce1f14ef8c0fee60c0239 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_aff9c13e2525ce1f14ef8c0fee60c0239"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#aff9c13e2525ce1f14ef8c0fee60c0239">_offsetof_adjustCollapse</a> = 152</td></tr>
+<tr class="memitem:a63b623b4ebde78669bb256b26ccb06c1 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a63b623b4ebde78669bb256b26ccb06c1"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a63b623b4ebde78669bb256b26ccb06c1">_offsetof_angleWeightedDistToPlane</a> = 36</td></tr>
+<tr class="memitem:ad824ad44078b6297a6aae4d9f853691b inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_ad824ad44078b6297a6aae4d9f853691b"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ad824ad44078b6297a6aae4d9f853691b">_offsetof_bdVerts</a> = 96</td></tr>
+<tr class="memitem:a3e8cd75c4167c862026871b862266c7c inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a3e8cd75c4167c862026871b862266c7c"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a3e8cd75c4167c862026871b862266c7c">_offsetof_collapseNearNotFlippable</a> = 64</td></tr>
+<tr class="memitem:a5ca3769100d1dae074a0e21d37663e16 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a5ca3769100d1dae074a0e21d37663e16"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a5ca3769100d1dae074a0e21d37663e16">_offsetof_criticalTriAspectRatio</a> = 20</td></tr>
+<tr class="memitem:a400de3f0c9b805404b313bec455c98fa inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a400de3f0c9b805404b313bec455c98fa"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a400de3f0c9b805404b313bec455c98fa">_offsetof_decimateBetweenParts</a> = 272</td></tr>
+<tr class="memitem:afe2d27df35e2c98042aec82146811366 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_afe2d27df35e2c98042aec82146811366"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#afe2d27df35e2c98042aec82146811366">_offsetof_edgesToCollapse</a> = 72</td></tr>
+<tr class="memitem:ac491caf49601be3ed67cb3f51001fbf4 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_ac491caf49601be3ed67cb3f51001fbf4"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ac491caf49601be3ed67cb3f51001fbf4">_offsetof_maxAngleChange</a> = 112</td></tr>
+<tr class="memitem:abcc5cdb7ab381c7ba7c54be5560c2379 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_abcc5cdb7ab381c7ba7c54be5560c2379"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#abcc5cdb7ab381c7ba7c54be5560c2379">_offsetof_maxBdShift</a> = 12</td></tr>
+<tr class="memitem:a15bef2f3dfe7a5d254fe413b9aac75c9 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a15bef2f3dfe7a5d254fe413b9aac75c9"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a15bef2f3dfe7a5d254fe413b9aac75c9">_offsetof_maxDeletedFaces</a> = 44</td></tr>
+<tr class="memitem:abba66383a4dce3dd16ef01efdc3ddab9 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_abba66383a4dce3dd16ef01efdc3ddab9"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#abba66383a4dce3dd16ef01efdc3ddab9">_offsetof_maxDeletedVertices</a> = 40</td></tr>
+<tr class="memitem:a2a72e2d43c8154394996d5f6fdc91783 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a2a72e2d43c8154394996d5f6fdc91783"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a2a72e2d43c8154394996d5f6fdc91783">_offsetof_maxEdgeLen</a> = 8</td></tr>
+<tr class="memitem:a1b3905e81b57073fb62b7d0f7dd3c9bf inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a1b3905e81b57073fb62b7d0f7dd3c9bf"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a1b3905e81b57073fb62b7d0f7dd3c9bf">_offsetof_maxError</a> = 4</td></tr>
+<tr class="memitem:ad5f7dcd64315f28c55de789b7774cc65 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_ad5f7dcd64315f28c55de789b7774cc65"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ad5f7dcd64315f28c55de789b7774cc65">_offsetof_maxTriangleAspectRatio</a> = 16</td></tr>
+<tr class="memitem:a3ec1dbdef76857a514dc62024db46a8a inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a3ec1dbdef76857a514dc62024db46a8a"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a3ec1dbdef76857a514dc62024db46a8a">_offsetof_minFacesInPart</a> = 288</td></tr>
+<tr class="memitem:a9d2a17a61fb8534237a15ae52906f901 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a9d2a17a61fb8534237a15ae52906f901"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a9d2a17a61fb8534237a15ae52906f901">_offsetof_notFlippable</a> = 56</td></tr>
+<tr class="memitem:ae102ea8d63dc07fdfbb96519ee9b0122 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_ae102ea8d63dc07fdfbb96519ee9b0122"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ae102ea8d63dc07fdfbb96519ee9b0122">_offsetof_onEdgeDel</a> = 184</td></tr>
+<tr class="memitem:a6fcd29727ae797c4117eb770916baac4 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a6fcd29727ae797c4117eb770916baac4"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a6fcd29727ae797c4117eb770916baac4">_offsetof_optimizeVertexPos</a> = 37</td></tr>
+<tr class="memitem:a220d59a5f4a066cf82fcdf1d77920916 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a220d59a5f4a066cf82fcdf1d77920916"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a220d59a5f4a066cf82fcdf1d77920916">_offsetof_packMesh</a> = 224</td></tr>
+<tr class="memitem:a332bb4fa02352cb574ba7b512cd0d9e6 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a332bb4fa02352cb574ba7b512cd0d9e6"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a332bb4fa02352cb574ba7b512cd0d9e6">_offsetof_partFaces</a> = 280</td></tr>
+<tr class="memitem:a240f6032ffec801d90241788e986d87f inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a240f6032ffec801d90241788e986d87f"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a240f6032ffec801d90241788e986d87f">_offsetof_partsMode</a> = 268</td></tr>
+<tr class="memitem:a0d6af164c78da2320aeee919cef2eb03 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a0d6af164c78da2320aeee919cef2eb03"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a0d6af164c78da2320aeee919cef2eb03">_offsetof_preCollapse</a> = 120</td></tr>
+<tr class="memitem:a4bec422397085404d6fc5dc62178eb64 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a4bec422397085404d6fc5dc62178eb64"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a4bec422397085404d6fc5dc62178eb64">_offsetof_preventNormalFlips</a> = 24</td></tr>
+<tr class="memitem:ab86612a86c923419ccd700816d433fb4 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_ab86612a86c923419ccd700816d433fb4"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ab86612a86c923419ccd700816d433fb4">_offsetof_progressCallback</a> = 232</td></tr>
+<tr class="memitem:a899c2a1b99b569438a7d20ece4c51029 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a899c2a1b99b569438a7d20ece4c51029"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a899c2a1b99b569438a7d20ece4c51029">_offsetof_region</a> = 48</td></tr>
+<tr class="memitem:af8a01b76baa2787a66d74a4d32cf4620 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_af8a01b76baa2787a66d74a4d32cf4620"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#af8a01b76baa2787a66d74a4d32cf4620">_offsetof_regionEdges</a> = 104</td></tr>
+<tr class="memitem:aa045ea6f2e471a708180f755abed74b7 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_aa045ea6f2e471a708180f755abed74b7"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#aa045ea6f2e471a708180f755abed74b7">_offsetof_stabilizer</a> = 32</td></tr>
+<tr class="memitem:a9908e41b73ee47c7b843536a017d980a inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a9908e41b73ee47c7b843536a017d980a"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a9908e41b73ee47c7b843536a017d980a">_offsetof_strategy</a> = 0</td></tr>
+<tr class="memitem:a812f4944d363f46d4e8b94412ec2e1c7 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a812f4944d363f46d4e8b94412ec2e1c7"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a812f4944d363f46d4e8b94412ec2e1c7">_offsetof_subdivideParts</a> = 264</td></tr>
+<tr class="memitem:a161618f02d8b99e1d5820482b0a02fe2 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a161618f02d8b99e1d5820482b0a02fe2"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a161618f02d8b99e1d5820482b0a02fe2">_offsetof_tinyEdgeLength</a> = 28</td></tr>
+<tr class="memitem:a64715a550746ca6457d66c7f5c2016d8 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a64715a550746ca6457d66c7f5c2016d8"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a64715a550746ca6457d66c7f5c2016d8">_offsetof_touchBdVerts</a> = 89</td></tr>
+<tr class="memitem:a419b342272c4384932f7717e41bd2e9b inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a419b342272c4384932f7717e41bd2e9b"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a419b342272c4384932f7717e41bd2e9b">_offsetof_touchNearBdEdges</a> = 88</td></tr>
+<tr class="memitem:a88e3f5e56e1042ede057afff60dfc937 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_a88e3f5e56e1042ede057afff60dfc937"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a88e3f5e56e1042ede057afff60dfc937">_offsetof_twinMap</a> = 80</td></tr>
+<tr class="memitem:ab765f2256f7f6f8ae6c431b435035b04 inherit pro_static_attribs_classmrmeshpy_1_1ConstDecimateSettings" id="r_ab765f2256f7f6f8ae6c431b435035b04"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ab765f2256f7f6f8ae6c431b435035b04">_offsetof_vertForms</a> = 216</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::DecimateSettings
 
-
- \\struct MR::DecimateSettings
- \\brief Parameters structure for MR::decimateMesh
-
- \\sa \\ref decimateMesh
+\\struct MR::DecimateSettings
+\\brief Parameters structure for MR::decimateMesh
+\\sa \\ref decimateMesh
 </pre> </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8eefabc49f8bf96e43216fde22f38ba0" name="a8eefabc49f8bf96e43216fde22f38ba0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8eefabc49f8bf96e43216fde22f38ba0">&#9670;&#160;</a></span>__init__() <span class="overload">[1/4]</span></h2>
@@ -307,8 +319,8 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a051ad80dd4673ad4e825bdef48419f87" name="a051ad80dd4673ad4e825bdef48419f87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a051ad80dd4673ad4e825bdef48419f87">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+<a id="a6f177d20cc6fcb07cc245d2177d4f785" name="a6f177d20cc6fcb07cc245d2177d4f785"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f177d20cc6fcb07cc245d2177d4f785">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -321,7 +333,7 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1DecimateSettings.html">DecimateSettings</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html">ConstDecimateSettings</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -329,8 +341,8 @@ Static Protected Attributes</h2></td></tr>
 </pre> 
 </div>
 </div>
-<a id="a8f5827c606e93f2b657389c5b7d73b15" name="a8f5827c606e93f2b657389c5b7d73b15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f5827c606e93f2b657389c5b7d73b15">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
+<a id="ab7f03d2711da67c7e0db468f1b4fb48d" name="ab7f03d2711da67c7e0db468f1b4fb48d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7f03d2711da67c7e0db468f1b4fb48d">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -369,6 +381,11 @@ Static Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>criticalTriAspectRatio</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>preventNormalFlips</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -423,7 +440,7 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag.html">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>twinMap</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__Haf6bf4aa74823fc64e1189f138ce8e1fe.html">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag_phmap_Hash_Id_UndirectedEdgeTag_phmap_EqualTo_Id_UndirectedEdgeTag_Allocator_std_pair_Id_UndirectedEdgeTag_const_Id_UndirectedEdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>twinMap</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -443,22 +460,27 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeBitSet.html">ConstUndirectedEdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>regionEdges</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxAngleChange</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float.html">func_bool_from_Id_EdgeTag_Vector3_float</a></td>          <td class="paramname"><span class="paramname"><em>preCollapse</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__bool__from__Id__EdgeTag__Vector3__float.html">Const_func_bool_from_Id_EdgeTag_Vector3_float</a></td>          <td class="paramname"><span class="paramname"><em>preCollapse</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__void__from__Id__UndirectedEdgeTag__float__Vector3__float.html">func_void_from_Id_UndirectedEdgeTag_float_Vector3_float</a></td>          <td class="paramname"><span class="paramname"><em>adjustCollapse</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__void__from__Id__UndirectedEdgeTag__float__Vector3__float.html">Const_func_void_from_Id_UndirectedEdgeTag_float_Vector3_float</a></td>          <td class="paramname"><span class="paramname"><em>adjustCollapse</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag.html">func_void_from_Id_EdgeTag_Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>onEdgeDel</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__void__from__Id__EdgeTag__Id__EdgeTag.html">Const_func_void_from_Id_EdgeTag_Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>onEdgeDel</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -473,12 +495,17 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a></td>          <td class="paramname"><span class="paramname"><em>progressCallback</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a></td>          <td class="paramname"><span class="paramname"><em>progressCallback</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>subdivideParts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1DecimatePartsMode.html">DecimatePartsMode</a></td>          <td class="paramname"><span class="paramname"><em>partsMode</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -516,17 +543,19 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment"> \\brief The user can provide this optional callback for adjusting error introduced by this
- edge collapse and the collapse position.
- \\details On input the callback gets the squared error and position computed by standard means,
- and callback can modify any of them. The larger the error, the later this edge will be collapsed.
- This callback can be called from many threads in parallel and must be thread-safe.
- This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment.
+<pre class="fragment">\\brief The user can provide this optional callback for adjusting error introduced by this
+edge collapse and the collapse position.
+\\details On input the callback gets the squared error and position computed by standard means,
+and callback can modify any of them. The larger the error, the later this edge will be collapsed.
+This callback can be called from many threads in parallel and must be thread-safe.
+This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment.
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a30bf00bb1627410284520c87eca9ab8d">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
-<a id="acc3cfe893142f2e7424ac9f6d07c5285" name="acc3cfe893142f2e7424ac9f6d07c5285"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc3cfe893142f2e7424ac9f6d07c5285">&#9670;&#160;</a></span>adjustCollapse() <span class="overload">[2/2]</span></h2>
+<a id="a0b8331a1d49967908a61c395287b17ee" name="a0b8331a1d49967908a61c395287b17ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b8331a1d49967908a61c395287b17ee">&#9670;&#160;</a></span>adjustCollapse() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -539,10 +568,18 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__void__from__Id__UndirectedEdgeTag__float__Vector3__float.html">func_void_from_Id_UndirectedEdgeTag_float_Vector3_float</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__void__from__Id__UndirectedEdgeTag__float__Vector3__float.html">Const_func_void_from_Id_UndirectedEdgeTag_float_Vector3_float</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">\\brief The user can provide this optional callback for adjusting error introduced by this
+edge collapse and the collapse position.
+\\details On input the callback gets the squared error and position computed by standard means,
+and callback can modify any of them. The larger the error, the later this edge will be collapsed.
+This callback can be called from many threads in parallel and must be thread-safe.
+This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment.
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a30bf00bb1627410284520c87eca9ab8d">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -563,6 +600,8 @@ Static Protected Attributes</h2></td></tr>
 <pre class="fragment">if false, then quadratic error metric is equal to the sum of distances to the planes of original mesh triangles;
 if true, then the sum is weighted, and the weight is equal to the angle of adjacent triangle at the vertex divided on PI (to get one after summing all 3 vertices of the triangle)
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a1b60d7c69ede396bf6f285a8407864ec">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a27f2f0f4f0b64775adad4a41bd79fc9a" name="a27f2f0f4f0b64775adad4a41bd79fc9a"></a>
@@ -580,6 +619,31 @@ if true, then the sum is weighted, and the weight is equal to the angle of adjac
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">if false, then quadratic error metric is equal to the sum of distances to the planes of original mesh triangles;
+if true, then the sum is weighted, and the weight is equal to the angle of adjacent triangle at the vertex divided on PI (to get one after summing all 3 vertices of the triangle)
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a1b60d7c69ede396bf6f285a8407864ec">mrmeshpy.ConstDecimateSettings</a>.</p>
+
+</div>
+</div>
+<a id="a337a82787d60464dc85f5383d03f88b3" name="a337a82787d60464dc85f5383d03f88b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a337a82787d60464dc85f5383d03f88b3">&#9670;&#160;</a></span>assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1DecimateSettings.html">DecimateSettings</a> mrmeshpy.DecimateSettings.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html">ConstDecimateSettings</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -604,6 +668,8 @@ if true, then the sum is weighted, and the weight is equal to the angle of adjac
 if the pointer is not null then boundary vertices detection is replaced with testing values in this bit-set;
 the algorithm updates this set if it packs the mesh
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a9f22a9a2de07fd50a440c8c34691ba70">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a0a3e048f4bdf3bc7b76d400ce55e7058" name="a0a3e048f4bdf3bc7b76d400ce55e7058"></a>
@@ -624,6 +690,11 @@ the algorithm updates this set if it packs the mesh
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">if touchNearBdEdges=false or touchBdVerts=false then the algorithm needs to know about all boundary vertices;
+if the pointer is not null then boundary vertices detection is replaced with testing values in this bit-set;
+the algorithm updates this set if it packs the mesh
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a9f22a9a2de07fd50a440c8c34691ba70">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -644,6 +715,8 @@ the algorithm updates this set if it packs the mesh
 <pre class="fragment">Whether to allow collapse of edges incident to notFlippable edges,
 which can move vertices of notFlippable edges unless they are fixed
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a55cb7440b9349599d6286e1f11051821">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a8340d16dc3b1c2a8c00bafa487ad1d13" name="a8340d16dc3b1c2a8c00bafa487ad1d13"></a>
@@ -664,6 +737,10 @@ which can move vertices of notFlippable edges unless they are fixed
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">Whether to allow collapse of edges incident to notFlippable edges,
+which can move vertices of notFlippable edges unless they are fixed
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a55cb7440b9349599d6286e1f11051821">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -684,6 +761,8 @@ which can move vertices of notFlippable edges unless they are fixed
 <pre class="fragment">the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value;
 and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a0a82be34aaac17c231f83721618e9a58">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a6d461bdae23fb3af83a5b91f3d62a425" name="a6d461bdae23fb3af83a5b91f3d62a425"></a>
@@ -704,6 +783,10 @@ and the algorithm will permit temporary increase in aspect ratio after collapse,
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value;
+and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a0a82be34aaac17c231f83721618e9a58">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -721,9 +804,12 @@ and the algorithm will permit temporary increase in aspect ratio after collapse,
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">After parallel decimation of all mesh parts is done, whether to perform final decimation of whole mesh region
-to eliminate small edges near the border of individual parts
+<pre class="fragment">Whether to decimate near the borders of individual parts to eliminate small edges there:
+as soon as two sibling nodes in the binary tree of parts are decimated, their union is decimated in parallel with other nodes,
+and only the border between two halves of the mesh remains for the final decimation of whole mesh region
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ab43d53c5aeaba13077fb480bc94ba508">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a98bb6f9964727ba4c48456563291a14b" name="a98bb6f9964727ba4c48456563291a14b"></a>
@@ -744,6 +830,11 @@ to eliminate small edges near the border of individual parts
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">Whether to decimate near the borders of individual parts to eliminate small edges there:
+as soon as two sibling nodes in the binary tree of parts are decimated, their union is decimated in parallel with other nodes,
+and only the border between two halves of the mesh remains for the final decimation of whole mesh region
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ab43d53c5aeaba13077fb480bc94ba508">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -764,6 +855,8 @@ to eliminate small edges near the border of individual parts
 <pre class="fragment">If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear);
 the algorithm updates this map during collapses, removing or replacing elements
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ad52cf7477c1c9381f9458b2f16734c23">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a34000e8c744d1ed8b0f0c587345048fd" name="a34000e8c744d1ed8b0f0c587345048fd"></a>
@@ -784,6 +877,10 @@ the algorithm updates this map during collapses, removing or replacing elements
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear);
+the algorithm updates this map during collapses, removing or replacing elements
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ad52cf7477c1c9381f9458b2f16734c23">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -804,6 +901,8 @@ the algorithm updates this map during collapses, removing or replacing elements
 <pre class="fragment">Permit edge flips (in addition to collapsing) to improve Delone quality of the mesh
 if it does not change dihedral angle more than on this value (negative value prohibits any edge flips)
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a70c12a3ee1d1f6364aaff18f6ad9160e">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="afa04a4d4a29ce8b82fb6563a5989c46e" name="afa04a4d4a29ce8b82fb6563a5989c46e"></a>
@@ -824,6 +923,10 @@ if it does not change dihedral angle more than on this value (negative value pro
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">Permit edge flips (in addition to collapsing) to improve Delone quality of the mesh
+if it does not change dihedral angle more than on this value (negative value prohibits any edge flips)
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a70c12a3ee1d1f6364aaff18f6ad9160e">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -843,6 +946,8 @@ if it does not change dihedral angle more than on this value (negative value pro
 </div><div class="memdoc">
 <pre class="fragment">Maximal shift of a boundary during one edge collapse
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a8495c8a07a25df55eac35159c6207607">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a6faa462d745a828dfb80ad4aa5fcc8a1" name="a6faa462d745a828dfb80ad4aa5fcc8a1"></a>
@@ -863,6 +968,9 @@ if it does not change dihedral angle more than on this value (negative value pro
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">Maximal shift of a boundary during one edge collapse
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a8495c8a07a25df55eac35159c6207607">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -882,6 +990,8 @@ if it does not change dihedral angle more than on this value (negative value pro
 </div><div class="memdoc">
 <pre class="fragment">Limit on the number of deleted faces
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a9df8cc98304f5fd55d4bb76771349f6b">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a2542cc0937e8eab0ac8798827025f249" name="a2542cc0937e8eab0ac8798827025f249"></a>
@@ -902,6 +1012,9 @@ if it does not change dihedral angle more than on this value (negative value pro
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">Limit on the number of deleted faces
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a9df8cc98304f5fd55d4bb76771349f6b">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -921,6 +1034,8 @@ if it does not change dihedral angle more than on this value (negative value pro
 </div><div class="memdoc">
 <pre class="fragment">Limit on the number of deleted vertices
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ad655924aa2d18fb35f26bbeeb0c107d2">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="afac4a2c509599546ba8718e1af2805e6" name="afac4a2c509599546ba8718e1af2805e6"></a>
@@ -941,6 +1056,9 @@ if it does not change dihedral angle more than on this value (negative value pro
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">Limit on the number of deleted vertices
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ad655924aa2d18fb35f26bbeeb0c107d2">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -960,6 +1078,8 @@ if it does not change dihedral angle more than on this value (negative value pro
 </div><div class="memdoc">
 <pre class="fragment">Maximal possible edge length created during decimation
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#aeb437fac2fcd8f22125260d66864c084">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a9c31a808c0154f1d74ca2816255a1989" name="a9c31a808c0154f1d74ca2816255a1989"></a>
@@ -980,6 +1100,9 @@ if it does not change dihedral angle more than on this value (negative value pro
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">Maximal possible edge length created during decimation
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#aeb437fac2fcd8f22125260d66864c084">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -1002,6 +1125,8 @@ if it does not change dihedral angle more than on this value (negative value pro
 for DecimateStrategy::ShortestEdgeFirst only:
   stop the decimation as soon as the shortest edge in the mesh is greater than this value
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#aead455e56a5a10a258e3ed52bf7b3186">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a16688a4ab4c209e332a024290f4cecae" name="a16688a4ab4c209e332a024290f4cecae"></a>
@@ -1022,6 +1147,12 @@ for DecimateStrategy::ShortestEdgeFirst only:
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">for DecimateStrategy::MinimizeError:
+  stop the decimation as soon as the estimated distance deviation from the original mesh is more than this value
+for DecimateStrategy::ShortestEdgeFirst only:
+  stop the decimation as soon as the shortest edge in the mesh is greater than this value
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#aead455e56a5a10a258e3ed52bf7b3186">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -1041,6 +1172,8 @@ for DecimateStrategy::ShortestEdgeFirst only:
 </div><div class="memdoc">
 <pre class="fragment">Maximal possible aspect ratio of a triangle introduced during decimation
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a9f04672a2c9e0f6628c4e7d616ab54b3">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="aea89ba800db3673e987ec71d4be04c79" name="aea89ba800db3673e987ec71d4be04c79"></a>
@@ -1061,6 +1194,9 @@ for DecimateStrategy::ShortestEdgeFirst only:
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">Maximal possible aspect ratio of a triangle introduced during decimation
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a9f04672a2c9e0f6628c4e7d616ab54b3">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -1080,6 +1216,8 @@ for DecimateStrategy::ShortestEdgeFirst only:
 </div><div class="memdoc">
 <pre class="fragment">minimum number of faces in one subdivision part for ( subdivideParts &gt; 1 ) mode
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ab61362a04c046855841d0b0f5dcc31e6">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a7856acd3a857d5024c7462191cdf010f" name="a7856acd3a857d5024c7462191cdf010f"></a>
@@ -1100,6 +1238,9 @@ for DecimateStrategy::ShortestEdgeFirst only:
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">minimum number of faces in one subdivision part for ( subdivideParts &gt; 1 ) mode
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ab61362a04c046855841d0b0f5dcc31e6">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -1119,6 +1260,8 @@ for DecimateStrategy::ShortestEdgeFirst only:
 </div><div class="memdoc">
 <pre class="fragment">Edges specified by this bit-set will never be flipped, but they can be collapsed or replaced during collapse of nearby edges so it is updated during the operation
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a90e24f0b71dc23533bfc7ed88bb603d3">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="aefdcc080b05fe8eb05dcfa7f68a46510" name="aefdcc080b05fe8eb05dcfa7f68a46510"></a>
@@ -1139,6 +1282,9 @@ for DecimateStrategy::ShortestEdgeFirst only:
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">Edges specified by this bit-set will never be flipped, but they can be collapsed or replaced during collapse of nearby edges so it is updated during the operation
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a90e24f0b71dc23533bfc7ed88bb603d3">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -1159,10 +1305,12 @@ for DecimateStrategy::ShortestEdgeFirst only:
 <pre class="fragment">this function is called each time edge (del) is deleted;
 if valid (rem) is given then dest(del) = dest(rem) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del)
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#aeadad7edef562b5431cf9e9f8aa3ddb5">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
-<a id="adad31f6a7b6728b22b02a25f9b905e20" name="adad31f6a7b6728b22b02a25f9b905e20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adad31f6a7b6728b22b02a25f9b905e20">&#9670;&#160;</a></span>onEdgeDel() <span class="overload">[2/2]</span></h2>
+<a id="af8b62d25d46bd364d7917b7bf4515655" name="af8b62d25d46bd364d7917b7bf4515655"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8b62d25d46bd364d7917b7bf4515655">&#9670;&#160;</a></span>onEdgeDel() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1175,68 +1323,14 @@ if valid (rem) is given then dest(del) = dest(rem) and their origins are in diff
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag.html">func_void_from_Id_EdgeTag_Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__void__from__Id__EdgeTag__Id__EdgeTag.html">Const_func_void_from_Id_EdgeTag_Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="afec8b87744b79957fde34407cb57740f" name="afec8b87744b79957fde34407cb57740f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afec8b87744b79957fde34407cb57740f">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1DecimateSettings.html">DecimateSettings</a> mrmeshpy.DecimateSettings.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afec8b87744b79957fde34407cb57740f" name="afec8b87744b79957fde34407cb57740f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afec8b87744b79957fde34407cb57740f">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1DecimateSettings.html">DecimateSettings</a> mrmeshpy.DecimateSettings.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<pre class="fragment">this function is called each time edge (del) is deleted;
+if valid (rem) is given then dest(del) = dest(rem) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del)
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#aeadad7edef562b5431cf9e9f8aa3ddb5">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -1257,6 +1351,8 @@ if valid (rem) is given then dest(del) = dest(rem) and their origins are in diff
 <pre class="fragment">if true then after each edge collapse the position of remaining vertex is optimized to
 minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#aea4f86766107c5a5e073992761c334e4">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a8c2e7124af7b0b33309ac7f8bfe1eaca" name="a8c2e7124af7b0b33309ac7f8bfe1eaca"></a>
@@ -1277,6 +1373,10 @@ minimize local shape change, if false then the edge is collapsed in one of its v
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">if true then after each edge collapse the position of remaining vertex is optimized to
+minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#aea4f86766107c5a5e073992761c334e4">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -1296,6 +1396,8 @@ minimize local shape change, if false then the edge is collapsed in one of its v
 </div><div class="memdoc">
 <pre class="fragment">whether to pack mesh at the end
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a12413bcbb1c9cf766b17404c0e42e8f6">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="ae93506509689bb40395643bfef0e2499" name="ae93506509689bb40395643bfef0e2499"></a>
@@ -1316,6 +1418,9 @@ minimize local shape change, if false then the edge is collapsed in one of its v
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">whether to pack mesh at the end
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a12413bcbb1c9cf766b17404c0e42e8f6">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -1337,6 +1442,8 @@ minimize local shape change, if false then the edge is collapsed in one of its v
 and after decimation of all parts, the region inside each part is put here;
 decimateBetweenParts=true or packMesh=true are not compatible with this option
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ad8e281153fc61a1fdab58c9f2d90dc89">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a006981886b21b800b6e3d76e7bdd25ae" name="a006981886b21b800b6e3d76e7bdd25ae"></a>
@@ -1357,6 +1464,55 @@ decimateBetweenParts=true or packMesh=true are not compatible with this option
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">if not null, then it contains the faces of each subdivision part on input, which must not overlap,
+and after decimation of all parts, the region inside each part is put here;
+decimateBetweenParts=true or packMesh=true are not compatible with this option
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ad8e281153fc61a1fdab58c9f2d90dc89">mrmeshpy.ConstDecimateSettings</a>.</p>
+
+</div>
+</div>
+<a id="aaaeb95901182e64394c6abb3fa137b5e" name="aaaeb95901182e64394c6abb3fa137b5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaeb95901182e64394c6abb3fa137b5e">&#9670;&#160;</a></span>partsMode() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1DecimatePartsMode.html">DecimatePartsMode</a> mrmeshpy.DecimateSettings.partsMode </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">how the parts are found for subdivideParts &gt; 1; ignored if partFaces is given
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a406b2557eea04bc53f0847545eacc8b4">mrmeshpy.ConstDecimateSettings</a>.</p>
+
+</div>
+</div>
+<a id="abadf38413c04d5c216479324594cbe81" name="abadf38413c04d5c216479324594cbe81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abadf38413c04d5c216479324594cbe81">&#9670;&#160;</a></span>partsMode() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.DecimateSettings.partsMode </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1DecimatePartsMode.html">DecimatePartsMode</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">how the parts are found for subdivideParts &gt; 1; ignored if partFaces is given
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a406b2557eea04bc53f0847545eacc8b4">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -1374,15 +1530,17 @@ decimateBetweenParts=true or packMesh=true are not compatible with this option
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment"> \\brief The user can provide this optional callback that is invoked immediately before edge collapse;
- \\details It receives the edge being collapsed: its destination vertex will disappear,
- and its origin vertex will get new position (provided as the second argument) after collapse;
- If the callback returns false, then the collapse is prohibited
+<pre class="fragment">\\brief The user can provide this optional callback that is invoked immediately before edge collapse;
+\\details It receives the edge being collapsed: its destination vertex will disappear,
+and its origin vertex will get new position (provided as the second argument) after collapse;
+If the callback returns false, then the collapse is prohibited
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a3edac7278376db6156c9a75d30348532">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
-<a id="aef406f827ad416d3d4a437a23acc0034" name="aef406f827ad416d3d4a437a23acc0034"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef406f827ad416d3d4a437a23acc0034">&#9670;&#160;</a></span>preCollapse() <span class="overload">[2/2]</span></h2>
+<a id="a42a51cad083977ecc63bcc11930b325a" name="a42a51cad083977ecc63bcc11930b325a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42a51cad083977ecc63bcc11930b325a">&#9670;&#160;</a></span>preCollapse() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1395,10 +1553,62 @@ decimateBetweenParts=true or packMesh=true are not compatible with this option
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float.html">func_bool_from_Id_EdgeTag_Vector3_float</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__bool__from__Id__EdgeTag__Vector3__float.html">Const_func_bool_from_Id_EdgeTag_Vector3_float</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">\\brief The user can provide this optional callback that is invoked immediately before edge collapse;
+\\details It receives the edge being collapsed: its destination vertex will disappear,
+and its origin vertex will get new position (provided as the second argument) after collapse;
+If the callback returns false, then the collapse is prohibited
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a3edac7278376db6156c9a75d30348532">mrmeshpy.ConstDecimateSettings</a>.</p>
+
+</div>
+</div>
+<a id="ade342b6b63db228857a0929387665379" name="ade342b6b63db228857a0929387665379"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade342b6b63db228857a0929387665379">&#9670;&#160;</a></span>preventNormalFlips() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.DecimateSettings.preventNormalFlips </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">whether to prohibit a collapse if it inverts the normal of a remaining triangle, or folds two triangles onto each other;
+turning it off (together with maxTriangleAspectRatio = FLT_MAX) makes decimation faster, but some triangles may appear inverted
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a00007700bbcf3ab6990224dd04b76729">mrmeshpy.ConstDecimateSettings</a>.</p>
+
+</div>
+</div>
+<a id="ad5d7e383c6acee772aced5f8db24a5d0" name="ad5d7e383c6acee772aced5f8db24a5d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5d7e383c6acee772aced5f8db24a5d0">&#9670;&#160;</a></span>preventNormalFlips() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.DecimateSettings.preventNormalFlips </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">whether to prohibit a collapse if it inverts the normal of a remaining triangle, or folds two triangles onto each other;
+turning it off (together with maxTriangleAspectRatio = FLT_MAX) makes decimation faster, but some triangles may appear inverted
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a00007700bbcf3ab6990224dd04b76729">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -1418,10 +1628,12 @@ decimateBetweenParts=true or packMesh=true are not compatible with this option
 </div><div class="memdoc">
 <pre class="fragment">callback to report algorithm progress and cancel it by user request
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a8678795166b9c74e1217f946b91bc64e">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
-<a id="a4dde0c1220e3992b4f6d242af36040e8" name="a4dde0c1220e3992b4f6d242af36040e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dde0c1220e3992b4f6d242af36040e8">&#9670;&#160;</a></span>progressCallback() <span class="overload">[2/2]</span></h2>
+<a id="a33ecd64ac77d29718cd98dcb9e4b5abf" name="a33ecd64ac77d29718cd98dcb9e4b5abf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33ecd64ac77d29718cd98dcb9e4b5abf">&#9670;&#160;</a></span>progressCallback() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1434,10 +1646,13 @@ decimateBetweenParts=true or packMesh=true are not compatible with this option
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">callback to report algorithm progress and cancel it by user request
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a8678795166b9c74e1217f946b91bc64e">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -1457,6 +1672,8 @@ decimateBetweenParts=true or packMesh=true are not compatible with this option
 </div><div class="memdoc">
 <pre class="fragment">Region on mesh to be decimated, it is updated during the operation
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a39360c79272fb3520e4295a24f89f726">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="aab3df2e170579f18d520c16f47c8166b" name="aab3df2e170579f18d520c16f47c8166b"></a>
@@ -1477,6 +1694,55 @@ decimateBetweenParts=true or packMesh=true are not compatible with this option
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">Region on mesh to be decimated, it is updated during the operation
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a39360c79272fb3520e4295a24f89f726">mrmeshpy.ConstDecimateSettings</a>.</p>
+
+</div>
+</div>
+<a id="a25adde528ec61985c44d258119923e19" name="a25adde528ec61985c44d258119923e19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25adde528ec61985c44d258119923e19">&#9670;&#160;</a></span>regionEdges() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> mrmeshpy.DecimateSettings.regionEdges </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">if region is not null and this pointer is not null, then it shall contain all edges incident to region faces
+(as returned by getIncidentEdges( topology, *region )), and the algorithm does not compute them itself
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a90684a45630d950ec3a34fb32143543c">mrmeshpy.ConstDecimateSettings</a>.</p>
+
+</div>
+</div>
+<a id="a5385d8b3dc271d93475cd9f98456e31d" name="a5385d8b3dc271d93475cd9f98456e31d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5385d8b3dc271d93475cd9f98456e31d">&#9670;&#160;</a></span>regionEdges() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.DecimateSettings.regionEdges </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeBitSet.html">ConstUndirectedEdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">if region is not null and this pointer is not null, then it shall contain all edges incident to region faces
+(as returned by getIncidentEdges( topology, *region )), and the algorithm does not compute them itself
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a90684a45630d950ec3a34fb32143543c">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -1497,6 +1763,8 @@ decimateBetweenParts=true or packMesh=true are not compatible with this option
 <pre class="fragment">Small stabilizer is important to achieve good results on completely planar mesh parts,
 if your mesh is not-planer everywhere, then you can set it to zero
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#abf68f6cf5ada81dfdfe234c85c101c98">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a9832e5350daddcc94fb138aa8dddcf80" name="a9832e5350daddcc94fb138aa8dddcf80"></a>
@@ -1517,6 +1785,10 @@ if your mesh is not-planer everywhere, then you can set it to zero
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">Small stabilizer is important to achieve good results on completely planar mesh parts,
+if your mesh is not-planer everywhere, then you can set it to zero
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#abf68f6cf5ada81dfdfe234c85c101c98">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -1535,8 +1807,10 @@ if your mesh is not-planer everywhere, then you can set it to zero
       </table>
 </div><div class="memdoc">
 <pre class="fragment">If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads);
-IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad
+IMPORTANT: with default partsMode, please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a2cbda756c97563db0f88939a0da27778">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a88e98f398665981b4c172ec6371a2297" name="a88e98f398665981b4c172ec6371a2297"></a>
@@ -1557,6 +1831,10 @@ IMPORTANT: please call mesh.packOptimally() before calling decimating with subdi
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads);
+IMPORTANT: with default partsMode, please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a2cbda756c97563db0f88939a0da27778">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -1576,6 +1854,8 @@ IMPORTANT: please call mesh.packOptimally() before calling decimating with subdi
 </div><div class="memdoc">
 <pre class="fragment">edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a97b04c0601ca374d749e4e73e3b7ea7f">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a05c8919f05eab825986ccd6394165cf0" name="a05c8919f05eab825986ccd6394165cf0"></a>
@@ -1596,6 +1876,9 @@ IMPORTANT: please call mesh.packOptimally() before calling decimating with subdi
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a97b04c0601ca374d749e4e73e3b7ea7f">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -1617,6 +1900,8 @@ IMPORTANT: please call mesh.packOptimally() before calling decimating with subdi
 touchBdVerts=false: allow only collapsing an edge having only one boundary vertex in that vertex, so position and count of boundary vertices do not change;
 this setting is ignored if touchNearBdEdges=false
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#af39c262b0693bdcbd96a3819206d4a6e">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a6f07b5b8fbd78e624b3bb0ec715a95e4" name="a6f07b5b8fbd78e624b3bb0ec715a95e4"></a>
@@ -1637,6 +1922,11 @@ this setting is ignored if touchNearBdEdges=false
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">touchBdVerts=true: allow moving and eliminating boundary vertices during edge collapses;
+touchBdVerts=false: allow only collapsing an edge having only one boundary vertex in that vertex, so position and count of boundary vertices do not change;
+this setting is ignored if touchNearBdEdges=false
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#af39c262b0693bdcbd96a3819206d4a6e">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -1656,6 +1946,8 @@ this setting is ignored if touchNearBdEdges=false
 </div><div class="memdoc">
 <pre class="fragment">Whether to allow collapsing or flipping edges having at least one vertex on (region) boundary
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#af08d6c91cd537f55d7c67da0873695e0">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="a994c9f0e2127807836d9b063b0d48f8f" name="a994c9f0e2127807836d9b063b0d48f8f"></a>
@@ -1676,17 +1968,20 @@ this setting is ignored if touchNearBdEdges=false
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">Whether to allow collapsing or flipping edges having at least one vertex on (region) boundary
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#af08d6c91cd537f55d7c67da0873695e0">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
-<a id="aaf870573d8c5610a06fa3e9f97b05f51" name="aaf870573d8c5610a06fa3e9f97b05f51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf870573d8c5610a06fa3e9f97b05f51">&#9670;&#160;</a></span>twinMap() <span class="overload">[1/2]</span></h2>
+<a id="a2d6e3e86f052025dd4ac8a0847c2135a" name="a2d6e3e86f052025dd4ac8a0847c2135a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d6e3e86f052025dd4ac8a0847c2135a">&#9670;&#160;</a></span>twinMap() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag.html">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag</a> mrmeshpy.DecimateSettings.twinMap </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__Haf6bf4aa74823fc64e1189f138ce8e1fe.html">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag_phmap_Hash_Id_UndirectedEdgeTag_phmap_EqualTo_Id_UndirectedEdgeTag_Allocator_std_pair_Id_UndirectedEdgeTag_const_Id_UndirectedEdgeTag</a> mrmeshpy.DecimateSettings.twinMap </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
@@ -1696,10 +1991,12 @@ this setting is ignored if touchNearBdEdges=false
 <pre class="fragment">if an edge present as a key in this map is flipped or collapsed, then same happens to the value-edge (with same collapse position);
 the algorithm updates this map during collapses, removing or replacing elements
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a093549143b78c379e928b7ded4d84bfa">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
-<a id="a1dbce075df190b02eebae30f13f907ec" name="a1dbce075df190b02eebae30f13f907ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1dbce075df190b02eebae30f13f907ec">&#9670;&#160;</a></span>twinMap() <span class="overload">[2/2]</span></h2>
+<a id="a0e600270b8c9baec05df4960b81097e2" name="a0e600270b8c9baec05df4960b81097e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e600270b8c9baec05df4960b81097e2">&#9670;&#160;</a></span>twinMap() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1712,10 +2009,14 @@ the algorithm updates this map during collapses, removing or replacing elements
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag.html">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__Haf6bf4aa74823fc64e1189f138ce8e1fe.html">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag_phmap_Hash_Id_UndirectedEdgeTag_phmap_EqualTo_Id_UndirectedEdgeTag_Allocator_std_pair_Id_UndirectedEdgeTag_const_Id_UndirectedEdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">if an edge present as a key in this map is flipped or collapsed, then same happens to the value-edge (with same collapse position);
+the algorithm updates this map during collapses, removing or replacing elements
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#a093549143b78c379e928b7ded4d84bfa">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>
@@ -1733,10 +2034,12 @@ the algorithm updates this map during collapses, removing or replacing elements
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment"> \\brief  If not null, then vertex quadratic forms are stored there;
- if on input the vector is not empty then initialization is skipped in favor of values from there;
- on output: quadratic form for each remaining vertex is returned there
+<pre class="fragment">\\brief  If not null, then vertex quadratic forms are stored there;
+if on input the vector is not empty then initialization is skipped in favor of values from there;
+on output: quadratic form for each remaining vertex is returned there
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ad6ff39852c326dea220dc77d5f784c25">mrmeshpy.ConstDecimateSettings</a>.</p>
+
 </div>
 </div>
 <a id="ae397e340cb3c4eb644495809dc004b1a" name="ae397e340cb3c4eb644495809dc004b1a"></a>
@@ -1757,689 +2060,11 @@ the algorithm updates this map during collapses, removing or replacing elements
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a1827a87929243373a4f3a8120b598376" name="a1827a87929243373a4f3a8120b598376"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1827a87929243373a4f3a8120b598376">&#9670;&#160;</a></span>_offsetof_adjustCollapse</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_adjustCollapse = 144</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af43d3e4ca17cf0a68d69afc41ba2c3f2" name="af43d3e4ca17cf0a68d69afc41ba2c3f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af43d3e4ca17cf0a68d69afc41ba2c3f2">&#9670;&#160;</a></span>_offsetof_angleWeightedDistToPlane</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_angleWeightedDistToPlane = 32</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afdd4a263fd390dbb22392099afeb5a88" name="afdd4a263fd390dbb22392099afeb5a88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdd4a263fd390dbb22392099afeb5a88">&#9670;&#160;</a></span>_offsetof_bdVerts</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_bdVerts = 96</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab2b429b5469923014708e76ca8b4e404" name="ab2b429b5469923014708e76ca8b4e404"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2b429b5469923014708e76ca8b4e404">&#9670;&#160;</a></span>_offsetof_collapseNearNotFlippable</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_collapseNearNotFlippable = 64</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a086938f955cec0c01e35f3bf423d9e78" name="a086938f955cec0c01e35f3bf423d9e78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a086938f955cec0c01e35f3bf423d9e78">&#9670;&#160;</a></span>_offsetof_criticalTriAspectRatio</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_criticalTriAspectRatio = 20</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a87ebfc521b863250bed2ce17ecaf6011" name="a87ebfc521b863250bed2ce17ecaf6011"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87ebfc521b863250bed2ce17ecaf6011">&#9670;&#160;</a></span>_offsetof_decimateBetweenParts</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_decimateBetweenParts = 260</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad313f508a3ca538ef0d8637459947429" name="ad313f508a3ca538ef0d8637459947429"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad313f508a3ca538ef0d8637459947429">&#9670;&#160;</a></span>_offsetof_edgesToCollapse</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_edgesToCollapse = 72</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a555e689e815429791ba33042eb8093d1" name="a555e689e815429791ba33042eb8093d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a555e689e815429791ba33042eb8093d1">&#9670;&#160;</a></span>_offsetof_maxAngleChange</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_maxAngleChange = 104</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aefb38641b43693cbfaae867fa7f059fd" name="aefb38641b43693cbfaae867fa7f059fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefb38641b43693cbfaae867fa7f059fd">&#9670;&#160;</a></span>_offsetof_maxBdShift</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_maxBdShift = 12</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad79b46629b4a7521a427406f4aeccbc0" name="ad79b46629b4a7521a427406f4aeccbc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad79b46629b4a7521a427406f4aeccbc0">&#9670;&#160;</a></span>_offsetof_maxDeletedFaces</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_maxDeletedFaces = 40</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a888b201d21056988d616b83cf31e34cd" name="a888b201d21056988d616b83cf31e34cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a888b201d21056988d616b83cf31e34cd">&#9670;&#160;</a></span>_offsetof_maxDeletedVertices</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_maxDeletedVertices = 36</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a81d877f3b96e7c5aea0736995db5ce31" name="a81d877f3b96e7c5aea0736995db5ce31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81d877f3b96e7c5aea0736995db5ce31">&#9670;&#160;</a></span>_offsetof_maxEdgeLen</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_maxEdgeLen = 8</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aaeb5fa43a50a9bf5203eae40efdc56e3" name="aaeb5fa43a50a9bf5203eae40efdc56e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaeb5fa43a50a9bf5203eae40efdc56e3">&#9670;&#160;</a></span>_offsetof_maxError</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_maxError = 4</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a125cc414da5184df51407f049c8a9492" name="a125cc414da5184df51407f049c8a9492"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a125cc414da5184df51407f049c8a9492">&#9670;&#160;</a></span>_offsetof_maxTriangleAspectRatio</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_maxTriangleAspectRatio = 16</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac18faa4d38b5b792ef2667fedd1a0f69" name="ac18faa4d38b5b792ef2667fedd1a0f69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac18faa4d38b5b792ef2667fedd1a0f69">&#9670;&#160;</a></span>_offsetof_minFacesInPart</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_minFacesInPart = 272</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1e29ae4d422a55afbc710b458a0d8f41" name="a1e29ae4d422a55afbc710b458a0d8f41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e29ae4d422a55afbc710b458a0d8f41">&#9670;&#160;</a></span>_offsetof_notFlippable</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_notFlippable = 56</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2c0cdcef9b3a7ae2a4efdfbba8ef1b5c" name="a2c0cdcef9b3a7ae2a4efdfbba8ef1b5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c0cdcef9b3a7ae2a4efdfbba8ef1b5c">&#9670;&#160;</a></span>_offsetof_onEdgeDel</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_onEdgeDel = 176</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a54a9d146e51a8189e7c0e3b300b020a8" name="a54a9d146e51a8189e7c0e3b300b020a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54a9d146e51a8189e7c0e3b300b020a8">&#9670;&#160;</a></span>_offsetof_optimizeVertexPos</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_optimizeVertexPos = 33</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a06c3165338f878be5adea41e7b74c125" name="a06c3165338f878be5adea41e7b74c125"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06c3165338f878be5adea41e7b74c125">&#9670;&#160;</a></span>_offsetof_packMesh</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_packMesh = 216</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3faf66a3b52dfe818dd4260bc5544c2b" name="a3faf66a3b52dfe818dd4260bc5544c2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3faf66a3b52dfe818dd4260bc5544c2b">&#9670;&#160;</a></span>_offsetof_partFaces</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_partFaces = 264</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab101fa26ea03810699bafd474c3ccc8a" name="ab101fa26ea03810699bafd474c3ccc8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab101fa26ea03810699bafd474c3ccc8a">&#9670;&#160;</a></span>_offsetof_preCollapse</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_preCollapse = 112</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aaaf8d4d1fc6f0a07207e86f7e8b81edf" name="aaaf8d4d1fc6f0a07207e86f7e8b81edf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaaf8d4d1fc6f0a07207e86f7e8b81edf">&#9670;&#160;</a></span>_offsetof_progressCallback</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_progressCallback = 224</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a74eb8e8a93a05a5dc978d7e43b83df4a" name="a74eb8e8a93a05a5dc978d7e43b83df4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74eb8e8a93a05a5dc978d7e43b83df4a">&#9670;&#160;</a></span>_offsetof_region</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_region = 48</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab90d428de45942883a4a9671c03cc81d" name="ab90d428de45942883a4a9671c03cc81d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab90d428de45942883a4a9671c03cc81d">&#9670;&#160;</a></span>_offsetof_stabilizer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_stabilizer = 28</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2a33d76b302a87456a6c23302b6c9994" name="a2a33d76b302a87456a6c23302b6c9994"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a33d76b302a87456a6c23302b6c9994">&#9670;&#160;</a></span>_offsetof_strategy</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_strategy = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0e5acf64890312190b1a03fd1cbead42" name="a0e5acf64890312190b1a03fd1cbead42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e5acf64890312190b1a03fd1cbead42">&#9670;&#160;</a></span>_offsetof_subdivideParts</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_subdivideParts = 256</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aae78f5b336c52c29ea2bb4d43a7987a3" name="aae78f5b336c52c29ea2bb4d43a7987a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae78f5b336c52c29ea2bb4d43a7987a3">&#9670;&#160;</a></span>_offsetof_tinyEdgeLength</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_tinyEdgeLength = 24</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a84082d56c86b6a5b3a1ac10132cb3608" name="a84082d56c86b6a5b3a1ac10132cb3608"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84082d56c86b6a5b3a1ac10132cb3608">&#9670;&#160;</a></span>_offsetof_touchBdVerts</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_touchBdVerts = 89</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a46500a05d700f1d460bfb2ee76ab44a6" name="a46500a05d700f1d460bfb2ee76ab44a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46500a05d700f1d460bfb2ee76ab44a6">&#9670;&#160;</a></span>_offsetof_touchNearBdEdges</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_touchNearBdEdges = 88</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a553ec4a452e9a08276a52ed67359b31d" name="a553ec4a452e9a08276a52ed67359b31d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a553ec4a452e9a08276a52ed67359b31d">&#9670;&#160;</a></span>_offsetof_twinMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_twinMap = 80</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a135a46560773ed76f59f6cd0cf49f753" name="a135a46560773ed76f59f6cd0cf49f753"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a135a46560773ed76f59f6cd0cf49f753">&#9670;&#160;</a></span>_offsetof_vertForms</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DecimateSettings._offsetof_vertForms = 208</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<pre class="fragment">\\brief  If not null, then vertex quadratic forms are stored there;
+if on input the vector is not empty then initialization is skipped in favor of values from there;
+on output: quadratic form for each remaining vertex is returned there
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDecimateSettings.html#ad6ff39852c326dea220dc77d5f784c25">mrmeshpy.ConstDecimateSettings</a>.</p>
 
 </div>
 </div>

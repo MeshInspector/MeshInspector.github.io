@@ -10,5 +10,6 @@ var structImGui_1_1CustomStatePluginWindowParameters =
     [ "helpBtnFn", "structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98", null ],
     [ "pivot", "structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a", null ],
     [ "position", "structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651", null ],
+    [ "testEngineName", "structImGui_1_1CustomStatePluginWindowParameters.html#a19ef8883b4cd0ba24446e2cd767ac8d6", null ],
     [ "width", "structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5", null ]
 ];

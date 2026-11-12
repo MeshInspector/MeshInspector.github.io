@@ -6,8 +6,8 @@ var classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId =
     [ "Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a59534ccea8f3a74df88d8cfad631a014", null ],
     [ "Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#aa5079be2ee1f12cb63aead4cccf0d412", null ],
     [ "Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a111541b103fd28c9e9ec096af25dcfcc", null ],
-    [ "Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a70fcd24f08391860cf9245c9912edca5", null ],
     [ "assign", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a52f6274e8a51ef47a0b66ca6b89893a6", null ],
+    [ "assign", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a720b874a086ead6e1f7d569921081aad", null ],
     [ "autoResizeAt", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a02634bc9f121f1aa982963bf15ddff89", null ],
     [ "autoResizeSet", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a1e62cd95215cc5d9b8deb875a789f2a2", null ],
     [ "autoResizeSet", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a8bc3f7df58edbbc6bd99f40227701f23", null ],
@@ -15,8 +15,6 @@ var classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId =
     [ "clear", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#ac5322a904b63bccb5aa2873733e92ec4", null ],
     [ "data", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a0f6a8292517f3834f5d9c92e94724bee", null ],
     [ "front", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#abf5a87a518e630f83104e8a0d790ee7d", null ],
-    [ "GetEnumerator", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#acaa2a077890a99a5489d2b5855b617d4", null ],
-    [ "operator Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#ad76a2f8e07af6ddbf72a728a37c30c62", null ],
     [ "popBack", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a654c4edbe40e794a896368d3dcaeff28", null ],
     [ "pushBack", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#ab5e112ac0c1a07e4784d941c5e5a0417", null ],
     [ "pushBack", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#adae3307853badfe4813ad79eccba3668", null ],
@@ -25,7 +23,8 @@ var classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId =
     [ "resize", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a14faecb6646a0b7c09813fb73ea9aabc", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a59a3bbf8e39b5826d212c0b353def7ed", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#ae8215f1a5fdc93b26b1cc3cdfb9195f8", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a73b2e78f648ab68fa889a6f9b82a0613", null ],
     [ "swap", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#af022db9b79d52d0b4ec10278cf018fb6", null ],
     [ "this[MR.NodeId i]", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#ae68683473030666d07f82d7f4bf36518", null ],
-    [ "vec", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a1e5c18c21628af3ce76782cb96fce744", null ]
+    [ "vec", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a69173aefe7a3dbb2372d4ed2cc935a7f", null ]
 ];

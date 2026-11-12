@@ -1,0 +1,4 @@
+var interfacemeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref_1_1Fn =
+[
+    [ "call", "interfacemeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref_1_1Fn.html#a12c4d0db5abd6b71b24b647fd80d9bc6", null ]
+];

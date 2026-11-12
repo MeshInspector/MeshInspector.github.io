@@ -1,7 +1,7 @@
 var classMR_1_1Const__SharpenMarchingCubesMeshSettings =
 [
     [ "Const_SharpenMarchingCubesMeshSettings", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a289f1aa7a0c8c22a81f3af1d386ed6a0", null ],
-    [ "Const_SharpenMarchingCubesMeshSettings", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a5bce18305d27eef0798ee22e7eeb18fc", null ],
+    [ "Const_SharpenMarchingCubesMeshSettings", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#ad6c682c2490aa13efff70b06a162a45d", null ],
     [ "Const_SharpenMarchingCubesMeshSettings", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#ac58acdd61e7e59ce4eb92e515e53101d", null ],
     [ "Const_SharpenMarchingCubesMeshSettings", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a2d365234b3e04e88c568ccf52796cace", null ],
     [ "Dispose", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a0fc7d95db74e4afbfad6ac5d5fb33659", null ],
@@ -9,6 +9,7 @@ var classMR_1_1Const__SharpenMarchingCubesMeshSettings =
     [ "__ptr_storage_outSharpEdges", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a2cf8139b4ab8b96238dc8029ac2ea2a6", null ],
     [ "__ref_storage_dims", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#adfd9566f65b8214c509a353415bd92e5", null ],
     [ "__ref_storage_gridToMeshXf", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#ad6c706e4fd6458771d0b89b0f0162eb3", null ],
+    [ "__ref_storage_maxDeletedComponentFaces", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#acea2f5c1482f2b3444712ac9c5489f89", null ],
     [ "__ref_storage_maxNewRank2VertDev", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a4c62f6b3cfdb3353f72290cfcf9a3664", null ],
     [ "__ref_storage_maxNewRank3VertDev", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a8a3fb808852b819b1939333402d9208d", null ],
     [ "__ref_storage_maxOldVertPosCorrection", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a74447bff78c98230dc63a70f18e2fea9", null ],
@@ -18,6 +19,7 @@ var classMR_1_1Const__SharpenMarchingCubesMeshSettings =
     [ "__ref_storage_voxelClamp", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#af794b0b801f4ff549383bccf54ab74fc", null ],
     [ "dims", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a2942ebb31ce6e1129ed8560b004da31a", null ],
     [ "gridToMeshXf", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#ad2457b71ae1163ea2a8b241883e55113", null ],
+    [ "maxDeletedComponentFaces", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a733962192a6925fca6c49064b30420eb", null ],
     [ "maxNewRank2VertDev", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a131ccd2799e8134a5e0485e9ac46b580", null ],
     [ "maxNewRank3VertDev", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#ad6b1d9c1667914da302ca4b48161c790", null ],
     [ "maxOldVertPosCorrection", "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a52f6eb7da6a2f5ceec081d99a2f805a0", null ],

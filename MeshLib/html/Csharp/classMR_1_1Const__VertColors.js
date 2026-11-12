@@ -6,7 +6,6 @@ var classMR_1_1Const__VertColors =
     [ "Const_VertColors", "classMR_1_1Const__VertColors.html#a1f92e3f9e7fa94c361e75e830d2541ee", null ],
     [ "Const_VertColors", "classMR_1_1Const__VertColors.html#a5c09f6cc81d08b1d230861a3a8fc8c91", null ],
     [ "Const_VertColors", "classMR_1_1Const__VertColors.html#ad5ec794250bfb2df9750db0ab7387b52", null ],
-    [ "Const_VertColors", "classMR_1_1Const__VertColors.html#aa92ff0e09d23d1f38e276c96132037d8", null ],
     [ "back", "classMR_1_1Const__VertColors.html#aab4bacd8768310a31af70c8a9a0cc1ad", null ],
     [ "backId", "classMR_1_1Const__VertColors.html#a2ead85801f55a2cdf9ae15e6cba315a6", null ],
     [ "beginId", "classMR_1_1Const__VertColors.html#a59ee5fa96beb7728a9c054ffc948d59d", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__VertColors =
     [ "Equals", "classMR_1_1Const__VertColors.html#a25192d280849b61d48b87966832eac2d", null ],
     [ "Equals", "classMR_1_1Const__VertColors.html#af7e069f57a25693d657662dd1d5bf2de", null ],
     [ "front", "classMR_1_1Const__VertColors.html#a566c04a24f74725283ad485fa9c117de", null ],
-    [ "GetEnumerator", "classMR_1_1Const__VertColors.html#a60428a23631778be469515db0fc2b65c", null ],
     [ "heapBytes", "classMR_1_1Const__VertColors.html#aae52d127f725d67f63effa12c57c296c", null ],
-    [ "operator Const_VertColors", "classMR_1_1Const__VertColors.html#ac5b39ac511b863df1b2fbe48ed3739cf", null ],
+    [ "maxSize", "classMR_1_1Const__VertColors.html#a92f5e05de14bf8309e0a026e0ddbc43d", null ],
     [ "operator!=", "classMR_1_1Const__VertColors.html#a185fc92a777168cba200cf1f2962ad43", null ],
     [ "operator==", "classMR_1_1Const__VertColors.html#a46116e192e48847d7d6bda4806363634", null ],
     [ "size", "classMR_1_1Const__VertColors.html#a986f18cf32bb75da47800b8ee0eb5ec1", null ],
     [ "this[MR.VertId i]", "classMR_1_1Const__VertColors.html#af1947432ba238e04dff80d80901390c3", null ],
-    [ "vec", "classMR_1_1Const__VertColors.html#a567529e0f16e0b086154030a412b2ca5", null ]
+    [ "vec", "classMR_1_1Const__VertColors.html#a9d2df52277fc84bda0ce5211f2e1ba40", null ]
 ];

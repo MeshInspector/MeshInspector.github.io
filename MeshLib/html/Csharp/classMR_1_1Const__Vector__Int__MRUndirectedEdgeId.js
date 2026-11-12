@@ -6,7 +6,6 @@ var classMR_1_1Const__Vector__Int__MRUndirectedEdgeId =
     [ "Const_Vector_Int_MRUndirectedEdgeId", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#a3e40743b384b5124003c90c9598e8845", null ],
     [ "Const_Vector_Int_MRUndirectedEdgeId", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#a46b72bc30de43d6c622ab56d6aa4fe6c", null ],
     [ "Const_Vector_Int_MRUndirectedEdgeId", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#ad295ab1c183b65c62d3471f30a4020b0", null ],
-    [ "Const_Vector_Int_MRUndirectedEdgeId", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#afd8524f22c7ff3fb8148886311b49107", null ],
     [ "back", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#a29eaff88acfead3dc345a6c3955850e2", null ],
     [ "backId", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#a4d2662e6d294956324ad137cc5615058", null ],
     [ "beginId", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#a413f4abd6654af313e6cbebadd6973d7", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__Vector__Int__MRUndirectedEdgeId =
     [ "Equals", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#aec8ae7eb8647377270de46410c2b694e", null ],
     [ "Equals", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#a74b38ec0d310245a55751951b1467dc9", null ],
     [ "front", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#a5278cf156200f64b7a186798a698f568", null ],
-    [ "GetEnumerator", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#a7a92f5ae657349cdd81f75af82dcfab1", null ],
     [ "heapBytes", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#ac742adb551a424bb880114c65ec4dd40", null ],
-    [ "operator Const_Vector_Int_MRUndirectedEdgeId", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#a810bae1017b738650632288c9d28be3d", null ],
+    [ "maxSize", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#ac4a4aa47bb4c4a3dcf6e12eb99ac51fa", null ],
     [ "operator!=", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#a37fad60f53c48fa055b799b3d7f6c986", null ],
     [ "operator==", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#a2c6fa5c8601da8bb512e2eaa8150bd01", null ],
     [ "size", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#a9a8f4b84bcf324cb7d4215c683292e38", null ],
     [ "this[MR.UndirectedEdgeId i]", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#ac371c66c12aa463bd443e3386a5faea5", null ],
-    [ "vec", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#a86b0c5cdcbec2f02ab61d40db71f6f49", null ]
+    [ "vec", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#a109a7b2dd3f8177509c63556b2851d4c", null ]
 ];

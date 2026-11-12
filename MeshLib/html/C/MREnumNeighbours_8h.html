@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -491,12 +484,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>invokes given predicate for faces starting from all incident to</p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">start,and</td><td>continuing to all immediate neighbours in depth-first order until the predicate returns false Generated from method <span class="tt">MR::EnumNeihbourFaces::run</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">pred</span> can not be null. It is a single object. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>invokes given predicate for faces starting from all incident to <code class="param">start</code>, and continuing to all immediate neighbours in depth-first order until the predicate returns false Generated from method <span class="tt">MR::EnumNeihbourFaces::run</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">pred</span> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -727,12 +715,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>invokes given predicate for vertices starting from</p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">start,and</td><td>continuing to all immediate neighbours in depth-first order until the predicate returns false Generated from method <span class="tt">MR::EnumNeihbourVertices::run</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">pred</span> can not be null. It is a single object. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>invokes given predicate for vertices starting from <code class="param">start</code>, and continuing to all immediate neighbours in depth-first order until the predicate returns false Generated from method <span class="tt">MR::EnumNeihbourVertices::run</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">pred</span> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -791,9 +774,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>calculates all neighbor vertices within a given</p><dl class="params"><dt>Parameters</dt><dd>
+<p>calculates all neighbor vertices within a given range and to first vertices with the distance more than range </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">range</td><td>and to first vertices with the distance more than range </td></tr>
     <tr><td class="paramname">rangeSq</td><td>square of range Generated from function <span class="tt">MR::findNeighborVerts</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">start</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></span> to free it when you're done using it. </td></tr>
   </table>
   </dd>

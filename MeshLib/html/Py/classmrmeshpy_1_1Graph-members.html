@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -145,30 +138,36 @@ $(function(){initNavTree('classmrmeshpy_1_1Graph.html','',''); });
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#aecacc566db7dde576095ed96b5d5bd58">__init__</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#a3712305aed0ad1e87fa63d612151a211">__init__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#a92cf845cfa15987573293a70fabd90e1">__init__</a>(self, Graph arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#adb850399916f589182a5218d4eb1757c">areNeighbors</a>(self, GraphVertId a, GraphVertId b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#a6f6dce4ccfffbea903b65ba66c7b871e">checkValidity</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#a62e8dc7f72748f0636e1169d05a889b8">construct</a>(self, Vector_std_vector_GraphEdgeId_GraphVertId neighboursPerVertex, Vector_Graph_EndVertices_GraphEdgeId endsPerEdge)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#ab0728a82472240d2e0571c00d5d99241">construct</a>(self, Vector_std_vector_GraphEdgeId_GraphVertId neighboursPerVertex, GraphVertBitSet validVerts, Vector_Graph_EndVertices_GraphEdgeId endsPerEdge, GraphEdgeBitSet validEdges)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#a3effc0a3753553905437d6e9b247d4f1">EdgeBitSet</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#abd11cc10962f02a8539e0d40b7087310">EdgeId</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#a3cc955f4bcec3c630f6f52d3e07a941c">edgeSize</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#a7b035752f2df85f3d4634e5e961d3e10">ends</a>(self, GraphEdgeId e)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#af55ba2ea0a68ba58a9d357d310f45197">EndsPerEdge</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#a7a189740779254da7d7e9ccf907bd3ed">findEdge</a>(self, GraphVertId a, GraphVertId b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#abd983603d3664bdf6569212efc00f5d0">merge</a>(self, GraphVertId remnant, GraphVertId dead, func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag onMergeEdges)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#aa744063fc4c9bd5c4dae9b25a2cff31e">Neighbours</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#aa435fd61762d5f5858fd7017e3b0716b">neighbours</a>(self, GraphVertId v)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#a5b246ec722c42c44f3c05950612cc83b">NeighboursPerVertex</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#ac8a2b99cab7d9509805b4d1e933f461d">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#ac8a2b99cab7d9509805b4d1e933f461d">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#ac7151d61d9f442d00ef51f96f5adb645">valid</a>(self, GraphVertId v)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#a2421ab5543f0c7d9b9680dcbba62c600">valid</a>(self, GraphEdgeId e)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#a585342f2deec7205a387347a508a509a">validEdges</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#a6f6450510905f127b02221698d8858f1">validVerts</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#a2df11399caf6c599232ae05ab8943825">VertBitSet</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#aa9475b2ff69b35d06cb53127d1df3f70">VertId</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#a28efb399a559793b53cabee8e42a7930">vertSize</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#a4c20d62cfeeb0ba7b22d25550955c250">__init__</a>(self, ConstGraph arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#a5b689ea4270b0d62b8ef18d757ca2941">areNeighbors</a>(self, ConstGraphVertId a, ConstGraphVertId b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#a53e148767a56198e47f9eb0ec6991388">assign</a>(self, ConstGraph other)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#adba1fb2c06521ff1df787ecb6382491d">checkValidity</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#a1ba4337829014ba99c2ad4dc8a407f4b">ConstEdgeBitSet</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#a1d5d9761891b7d4f08c5799ec422743b">ConstEdgeId</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#a043b08e41fcccb0ee93a2f4c21be243b">ConstEndsPerEdge</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#a2303cb68a9c8f7761ca5923c976a2173">ConstNeighbours</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#a215497159a7c45361ebd7bf3bd471045">ConstNeighboursPerVertex</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#acd1d1bc2060a3191df88d9226ef1b316">construct</a>(self, ConstVector_std_vector_GraphEdgeId_GraphVertId neighboursPerVertex, ConstVector_Graph_EndVertices_GraphEdgeId endsPerEdge)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#aff140ac5f06af7203adccea3d6663022">construct</a>(self, ConstVector_std_vector_GraphEdgeId_GraphVertId neighboursPerVertex, ConstGraphVertBitSet validVerts, ConstVector_Graph_EndVertices_GraphEdgeId endsPerEdge, ConstGraphEdgeBitSet validEdges)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#a47ec0af9206a0a63679eb3ee1c015e9a">ConstVertBitSet</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#a171d9fad758da60f2b06d2aaeaeb7edc">ConstVertId</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#a0fb24945230992ec9a27befa34d99cde">EdgeBitSet</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#a49796b8f46f3aab6e52212e695cbf03f">EdgeId</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#a08398e88b969db02fd072919b84eee89">edgeSize</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#a1e9f9b24c08a8b3c5eab753068200a47">ends</a>(self, ConstGraphEdgeId e)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#aa58ad7656f20db19af38be529c246cc1">EndsPerEdge</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#a5eb2cf71913a910b2dc019eb4d8d6df6">findEdge</a>(self, ConstGraphVertId a, ConstGraphVertId b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html#a54e4342292465f631d30d8a59b1eaf7a">merge</a>(self, ConstGraphVertId remnant, ConstGraphVertId dead, Const_func_void_from_Id_GraphEdgeTag_Id_GraphEdgeTag onMergeEdges)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Graph.html">mrmeshpy.Graph</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#a3a370cb00644458078d8be311fee87cd">Neighbours</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#a1b958601b04a2ca929d897a04cbffd16">neighbours</a>(self, ConstGraphVertId v)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#aa9fd9e98d4599ee57df230edd0f1acb2">NeighboursPerVertex</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#aea3a92579b3bbd8359ba981544692096">valid</a>(self, ConstGraphVertId v)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#af5de5bcc4999280e994e886a8350a3f9">valid</a>(self, ConstGraphEdgeId e)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#a42203925314f93b86700e7310ccb6953">validEdges</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#adb1ad23f34379d18f7294be4d1323136">validVerts</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#a3168bf94d605f88eaffaea23b82659b9">VertBitSet</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#ae0c361ee7e7a2493142d53b7e13a401d">VertId</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html#ab06541918b023d8782f07945bc5861b7">vertSize</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstGraph.html">mrmeshpy.ConstGraph</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

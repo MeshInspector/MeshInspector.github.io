@@ -32,7 +32,9 @@ var group__AligningTransformGroup =
       [ "findBestRigidXfFixedRotationAxis", "classMR_1_1PointToPlaneAligningTransform.html#a5162299152d3a4f6ae9de54c2a1ccb58", null ],
       [ "findBestRigidXfOrthogonalRotationAxis", "classMR_1_1PointToPlaneAligningTransform.html#af0c4b1002192d03fcf79ae0df032d66e", null ],
       [ "findBestTranslation", "classMR_1_1PointToPlaneAligningTransform.html#ac063a17fa743ac58c5fbc9ad217c5198", null ],
-      [ "prepare", "classMR_1_1PointToPlaneAligningTransform.html#aeefc37b3b3fdedb7a7cfa9c63d2e6712", null ]
+      [ "getStabilizer", "classMR_1_1PointToPlaneAligningTransform.html#a0ef48d320912d233720b2cb2346a0774", null ],
+      [ "prepare", "classMR_1_1PointToPlaneAligningTransform.html#aeefc37b3b3fdedb7a7cfa9c63d2e6712", null ],
+      [ "setStabilizer", "classMR_1_1PointToPlaneAligningTransform.html#a41b9d1c35ce5def32fcc86fad7e5ab06", null ]
     ] ],
     [ "MR::PointToPointAligningTransform", "classMR_1_1PointToPointAligningTransform.html", [
       [ "add", "classMR_1_1PointToPointAligningTransform.html#a443f77a80d33d459b4eb9d37264241cd", null ],
@@ -47,5 +49,7 @@ var group__AligningTransformGroup =
       [ "findBestRigidXfOrthogonalRotationAxis", "classMR_1_1PointToPointAligningTransform.html#ac0d25befa3ce9b9ac11852c66c0b9def", null ],
       [ "findBestTranslation", "classMR_1_1PointToPointAligningTransform.html#a4e2b650956d9ae729830232e6464e313", null ],
       [ "totalWeight", "classMR_1_1PointToPointAligningTransform.html#a36c54b01cd263e2fd5108051a8588576", null ]
-    ] ]
+    ] ],
+    [ "MR::countInliers", "group__AligningTransformGroup.html#ga97c6edd2712ff8f245e7897e16710f96", null ],
+    [ "MR::findRigidXfRansac", "group__AligningTransformGroup.html#gaa4a6bdae3405260137daec6f7eda2ede", null ]
 ];

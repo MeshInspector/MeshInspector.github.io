@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,7 +133,6 @@ $(function(){initNavTree('classMR_1_1Const__Vector__MRModelPointsData__MRObjId.h
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__Vector__MRModelPointsData__MRObjId-members.html">List of all members</a>  </div>
@@ -148,7 +140,7 @@ $(function(){initNavTree('classMR_1_1Const__Vector__MRModelPointsData__MRObjId.h
 </div><!--header-->
 <div class="contents">
 
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type,  
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;</span>. This is the const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.Const_Vector_MRModelPointsData_MRObjId:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -157,21 +149,19 @@ $(function(){initNavTree('classMR_1_1Const__Vector__MRModelPointsData__MRObjId.h
  <div class="center">
   <img src="classMR_1_1Const__Vector__MRModelPointsData__MRObjId.png" usemap="#MR_2EConst_5FVector_5FMRModelPointsData_5FMRObjId_map" alt=""/>
   <map id="MR_2EConst_5FVector_5FMRModelPointsData_5FMRObjId_map" name="MR_2EConst_5FVector_5FMRModelPointsData_5FMRObjId_map">
-<area href="classMR_1_1Vector__MRModelPointsData__MRObjId.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type," alt="MR.Vector_MRModelPointsData_MRObjId" shape="rect" coords="299,112,588,136"/>
+<area href="classMR_1_1Vector__MRModelPointsData__MRObjId.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.Vector&lt;MR.ModelPointsData,..." alt="MR.Vector_MRModelPointsData_MRObjId" shape="rect" coords="149,112,438,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:_5FEnumerator" id="r__5FEnumerator"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_Enumerator</b></td></tr>
 <tr class="memitem:_5FUnderlying" id="r__5FUnderlying"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>_Underlying</b></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a23257b4996f4601104750757ca945c93" id="r_a23257b4996f4601104750757ca945c93"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23257b4996f4601104750757ca945c93">Dispose</a> ()</td></tr>
-<tr class="memitem:a436e3d474127956b9ab261ac8a29d513" id="r_a436e3d474127956b9ab261ac8a29d513"><td class="memItemLeft" align="right" valign="top">IEnumerator&lt; <a class="el" href="classMR_1_1Const__ModelPointsData.html">MR.Const_ModelPointsData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a436e3d474127956b9ab261ac8a29d513">GetEnumerator</a> ()</td></tr>
 <tr class="memitem:a42add605c394e5f4817599990f8fd4fa" id="r_a42add605c394e5f4817599990f8fd4fa"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42add605c394e5f4817599990f8fd4fa">Const_Vector_MRModelPointsData_MRObjId</a> ()</td></tr>
-<tr class="memdesc:a42add605c394e5f4817599990f8fd4fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
+<tr class="memdesc:a42add605c394e5f4817599990f8fd4fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="memitem:a747462229dc29649d25a9e4ffba35e17" id="r_a747462229dc29649d25a9e4ffba35e17"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a747462229dc29649d25a9e4ffba35e17">Const_Vector_MRModelPointsData_MRObjId</a> (MR._ByValue_Vector_MRModelPointsData_MRObjId _other)</td></tr>
 <tr class="memdesc:a747462229dc29649d25a9e4ffba35e17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a741470d73486cd2afd0ac1f94cc0d3f8" id="r_a741470d73486cd2afd0ac1f94cc0d3f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a741470d73486cd2afd0ac1f94cc0d3f8">Const_Vector_MRModelPointsData_MRObjId</a> (<a class="el" href="classMR_1_1Const__Vector__MRModelPointsData__MRObjId.html">Const_Vector_MRModelPointsData_MRObjId</a> _other)</td></tr>
@@ -182,12 +172,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1b02908cfea6b16942885cb831f49a32"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a06cd7c2fa88579f259070c1c2e147bd2" id="r_a06cd7c2fa88579f259070c1c2e147bd2"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06cd7c2fa88579f259070c1c2e147bd2">Const_Vector_MRModelPointsData_MRObjId</a> (nuint <a class="el" href="#acc82023d3a1298ef572ed919e703cd7e">size</a>, <a class="el" href="classMR_1_1Const__ModelPointsData.html">MR.Const_ModelPointsData</a> val)</td></tr>
 <tr class="memdesc:a06cd7c2fa88579f259070c1c2e147bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
-<tr class="memitem:a34edb6094991aad2c0b62a710d041e66" id="r_a34edb6094991aad2c0b62a710d041e66"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34edb6094991aad2c0b62a710d041e66">Const_Vector_MRModelPointsData_MRObjId</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRModelPointsData &gt; <a class="el" href="#ab1c09a417938a29cb6f99b60a7b60c37">vec</a>)</td></tr>
-<tr class="memdesc:a34edb6094991aad2c0b62a710d041e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:ac2ad591ffe5888d2c5f2a3b9453a281f" id="r_ac2ad591ffe5888d2c5f2a3b9453a281f"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2ad591ffe5888d2c5f2a3b9453a281f">empty</a> ()</td></tr>
 <tr class="memdesc:ac2ad591ffe5888d2c5f2a3b9453a281f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#ac2ad591ffe5888d2c5f2a3b9453a281f" title="Generated from method MR.Vector&lt;MR.ModelPointsData, MR.ObjId&gt;empty.">empty</a></span>.  <br /></td></tr>
 <tr class="memitem:acc82023d3a1298ef572ed919e703cd7e" id="r_acc82023d3a1298ef572ed919e703cd7e"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc82023d3a1298ef572ed919e703cd7e">size</a> ()</td></tr>
 <tr class="memdesc:acc82023d3a1298ef572ed919e703cd7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#acc82023d3a1298ef572ed919e703cd7e" title="Generated from method MR.Vector&lt;MR.ModelPointsData, MR.ObjId&gt;size.">size</a></span>.  <br /></td></tr>
+<tr class="memitem:a023f8d9ae61d556720fb04bb1eaea47f" id="r_a023f8d9ae61d556720fb04bb1eaea47f"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a023f8d9ae61d556720fb04bb1eaea47f">maxSize</a> ()</td></tr>
+<tr class="memdesc:a023f8d9ae61d556720fb04bb1eaea47f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::max_size</span>.  <br /></td></tr>
 <tr class="memitem:ac2764ff9cd153dd35414b87ef22ea201" id="r_ac2764ff9cd153dd35414b87ef22ea201"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2764ff9cd153dd35414b87ef22ea201">capacity</a> ()</td></tr>
 <tr class="memdesc:ac2764ff9cd153dd35414b87ef22ea201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#ac2764ff9cd153dd35414b87ef22ea201" title="Generated from method MR.Vector&lt;MR.ModelPointsData, MR.ObjId&gt;capacity.">capacity</a></span>.  <br /></td></tr>
 <tr class="memitem:aebfda047cf1bdac62000def9af334259" id="r_aebfda047cf1bdac62000def9af334259"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__ModelPointsData.html">MR.Const_ModelPointsData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebfda047cf1bdac62000def9af334259">front</a> ()</td></tr>
@@ -205,34 +195,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa55faa93c5025de3089ad5726a3daeb1" id="r_aa55faa93c5025de3089ad5726a3daeb1"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa55faa93c5025de3089ad5726a3daeb1">heapBytes</a> ()</td></tr>
 <tr class="memdesc:aa55faa93c5025de3089ad5726a3daeb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;<a class="el" href="#aa55faa93c5025de3089ad5726a3daeb1" title="returns the amount of memory this object occupies on heap Generated from method MR....">heapBytes</a></span>.  <br /></td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a40612ef1f80a6d12323ede67d6027695" id="r_a40612ef1f80a6d12323ede67d6027695"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40612ef1f80a6d12323ede67d6027695">operator Const_Vector_MRModelPointsData_MRObjId</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRModelPointsData &gt; <a class="el" href="#ab1c09a417938a29cb6f99b60a7b60c37">vec</a>)</td></tr>
-<tr class="memdesc:a40612ef1f80a6d12323ede67d6027695"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a454d17a539ba6ab7193a3f1c55ebd946" id="r_a454d17a539ba6ab7193a3f1c55ebd946"><td class="memItemLeft" align="right" valign="top">virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a454d17a539ba6ab7193a3f1c55ebd946">Dispose</a> (bool disposing)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:ab1c09a417938a29cb6f99b60a7b60c37" id="r_ab1c09a417938a29cb6f99b60a7b60c37"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRModelPointsData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1c09a417938a29cb6f99b60a7b60c37">vec</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:ab1c09a417938a29cb6f99b60a7b60c37"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
+<tr class="memitem:a0f0dfbabb4ca3a90837f08ba78aefb7a" id="r_a0f0dfbabb4ca3a90837f08ba78aefb7a"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRModelPointsData_MRAllocatorMRModelPointsData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f0dfbabb4ca3a90837f08ba78aefb7a">vec</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a0f0dfbabb4ca3a90837f08ba78aefb7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
 <tr class="memitem:afd8308e920493988936a8dc7f58d7aa2" id="r_afd8308e920493988936a8dc7f58d7aa2"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__ModelPointsData.html">MR.Const_ModelPointsData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd8308e920493988936a8dc7f58d7aa2">this[MR.ObjId i]</a><code> [get]</code></td></tr>
 <tr class="memdesc:afd8308e920493988936a8dc7f58d7aa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::operator[]</span>.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;</span>. This is the const half of the class. </td></tr>
-  </table>
-  </dd>
-</dl>
+<div class="textblock"><p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;</span>. This is the const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a42add605c394e5f4817599990f8fd4fa" name="a42add605c394e5f4817599990f8fd4fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42add605c394e5f4817599990f8fd4fa">&#9670;&#160;</a></span>Const_Vector_MRModelPointsData_MRObjId() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a42add605c394e5f4817599990f8fd4fa">&#9670;&#160;</a></span>Const_Vector_MRModelPointsData_MRObjId() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -254,12 +232,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs an empty (default-constructed) instance. </p>
+<p>creates empty vector </p>
 
 </div>
 </div>
 <a id="a747462229dc29649d25a9e4ffba35e17" name="a747462229dc29649d25a9e4ffba35e17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a747462229dc29649d25a9e4ffba35e17">&#9670;&#160;</a></span>Const_Vector_MRModelPointsData_MRObjId() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a747462229dc29649d25a9e4ffba35e17">&#9670;&#160;</a></span>Const_Vector_MRModelPointsData_MRObjId() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,7 +264,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a741470d73486cd2afd0ac1f94cc0d3f8" name="a741470d73486cd2afd0ac1f94cc0d3f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a741470d73486cd2afd0ac1f94cc0d3f8">&#9670;&#160;</a></span>Const_Vector_MRModelPointsData_MRObjId() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a741470d73486cd2afd0ac1f94cc0d3f8">&#9670;&#160;</a></span>Const_Vector_MRModelPointsData_MRObjId() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -313,7 +291,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a9d53bfe3237a45c832270de22083753d" name="a9d53bfe3237a45c832270de22083753d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d53bfe3237a45c832270de22083753d">&#9670;&#160;</a></span>Const_Vector_MRModelPointsData_MRObjId() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d53bfe3237a45c832270de22083753d">&#9670;&#160;</a></span>Const_Vector_MRModelPointsData_MRObjId() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,7 +318,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a1b02908cfea6b16942885cb831f49a32" name="a1b02908cfea6b16942885cb831f49a32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b02908cfea6b16942885cb831f49a32">&#9670;&#160;</a></span>Const_Vector_MRModelPointsData_MRObjId() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b02908cfea6b16942885cb831f49a32">&#9670;&#160;</a></span>Const_Vector_MRModelPointsData_MRObjId() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,7 +345,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a06cd7c2fa88579f259070c1c2e147bd2" name="a06cd7c2fa88579f259070c1c2e147bd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06cd7c2fa88579f259070c1c2e147bd2">&#9670;&#160;</a></span>Const_Vector_MRModelPointsData_MRObjId() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a06cd7c2fa88579f259070c1c2e147bd2">&#9670;&#160;</a></span>Const_Vector_MRModelPointsData_MRObjId() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -394,33 +372,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>. </p>
-
-</div>
-</div>
-<a id="a34edb6094991aad2c0b62a710d041e66" name="a34edb6094991aad2c0b62a710d041e66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34edb6094991aad2c0b62a710d041e66">&#9670;&#160;</a></span>Const_Vector_MRModelPointsData_MRObjId() <span class="overload">[7/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe MR.Const_Vector_MRModelPointsData_MRObjId.Const_Vector_MRModelPointsData_MRObjId </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRModelPointsData &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>. </p>
 
 </div>
 </div>
@@ -691,31 +642,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a436e3d474127956b9ab261ac8a29d513" name="a436e3d474127956b9ab261ac8a29d513"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a436e3d474127956b9ab261ac8a29d513">&#9670;&#160;</a></span>GetEnumerator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">IEnumerator&lt; <a class="el" href="classMR_1_1Const__ModelPointsData.html">MR.Const_ModelPointsData</a> &gt; MR.Const_Vector_MRModelPointsData_MRObjId.GetEnumerator </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aa55faa93c5025de3089ad5726a3daeb1" name="aa55faa93c5025de3089ad5726a3daeb1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa55faa93c5025de3089ad5726a3daeb1">&#9670;&#160;</a></span>heapBytes()</h2>
 
@@ -743,8 +669,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a40612ef1f80a6d12323ede67d6027695" name="a40612ef1f80a6d12323ede67d6027695"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40612ef1f80a6d12323ede67d6027695">&#9670;&#160;</a></span>operator Const_Vector_MRModelPointsData_MRObjId()</h2>
+<a id="a023f8d9ae61d556720fb04bb1eaea47f" name="a023f8d9ae61d556720fb04bb1eaea47f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a023f8d9ae61d556720fb04bb1eaea47f">&#9670;&#160;</a></span>maxSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -753,20 +679,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe implicit MR.Const_Vector_MRModelPointsData_MRObjId.operator <a class="el" href="classMR_1_1Const__Vector__MRModelPointsData__MRObjId.html">Const_Vector_MRModelPointsData_MRObjId</a> </td>
+          <td class="memname">unsafe nuint MR.Const_Vector_MRModelPointsData_MRObjId.maxSize </td>
           <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRModelPointsData &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::Vector</span>. </p>
+<p>Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="classMR_1_1ModelPointsData.html" title="structure to contain pointers to model data Generated from class MR.ModelPointsData....">MR.ModelPointsData</a>, <a class="el" href="structMR_1_1ObjId.html" title="Generated from class MR.ObjId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.ObjId</a>&amp;gt;::max_size</span>. </p>
 
 </div>
 </div>
@@ -822,8 +748,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ab1c09a417938a29cb6f99b60a7b60c37" name="ab1c09a417938a29cb6f99b60a7b60c37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1c09a417938a29cb6f99b60a7b60c37">&#9670;&#160;</a></span>vec</h2>
+<a id="a0f0dfbabb4ca3a90837f08ba78aefb7a" name="a0f0dfbabb4ca3a90837f08ba78aefb7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f0dfbabb4ca3a90837f08ba78aefb7a">&#9670;&#160;</a></span>vec</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -832,7 +758,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe MR.Std.Const_Vector_MRModelPointsData MR.Const_Vector_MRModelPointsData_MRObjId.vec</td>
+          <td class="memname">unsafe MR.Std.Const_Vector_MRModelPointsData_MRAllocatorMRModelPointsData MR.Const_Vector_MRModelPointsData_MRObjId.vec</td>
         </tr>
       </table>
   </td>

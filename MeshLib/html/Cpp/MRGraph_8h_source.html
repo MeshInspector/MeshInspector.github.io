@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -238,7 +231,7 @@ $(function(){initNavTree('MRGraph_8h_source.html','',''); });
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:85</div></div>
 <div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Graph_html"><div class="ttname"><a href="classMR_1_1Graph.html">MR::Graph</a></div><div class="ttdoc">mathematical graph consisting from vertices and undirected edges</div><div class="ttdef"><b>Definition</b> MRGraph.h:17</div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRVector.h:23</div></div>
+<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">Vector&lt;T&gt; is indexed by size_t.</div><div class="ttdef"><b>Definition</b> MRVector.h:24</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga0c37e0844926fa87642bc735718dd643"><div class="ttname"><a href="group__GeneralGroup.html#ga0c37e0844926fa87642bc735718dd643">MR::Graph::ends</a></div><div class="ttdeci">const EndVertices &amp; ends(EdgeId e) const</div><div class="ttdoc">returns the ends of given edge</div><div class="ttdef"><b>Definition</b> MRGraph.h:80</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga0c5f4eae690cb57f429c9656db0e2dad"><div class="ttname"><a href="group__GeneralGroup.html#ga0c5f4eae690cb57f429c9656db0e2dad">MR::Graph::edgeSize</a></div><div class="ttdeci">size_t edgeSize() const</div><div class="ttdoc">returns the number of edge records, including invalid ones</div><div class="ttdef"><b>Definition</b> MRGraph.h:68</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga0f0a516aa03bd6f100040d2696d0c808"><div class="ttname"><a href="group__GeneralGroup.html#ga0f0a516aa03bd6f100040d2696d0c808">MR::Graph::NeighboursPerVertex</a></div><div class="ttdeci">Vector&lt; Neighbours, VertId &gt; NeighboursPerVertex</div><div class="ttdoc">sorted by edgeID</div><div class="ttdef"><b>Definition</b> MRGraph.h:26</div></div>
@@ -265,7 +258,7 @@ $(function(){initNavTree('MRGraph_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gacdf8c4e8411247e361733ddd467cd8bb"><div class="ttname"><a href="group__GeneralGroup.html#gacdf8c4e8411247e361733ddd467cd8bb">MR::Graph::EndVertices::replaceEnd</a></div><div class="ttdeci">void replaceEnd(VertId what, VertId with)</div><div class="ttdef"><b>Definition</b> MRGraph.h:36</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaeeffe9dd1229206b5db549f61cbad105"><div class="ttname"><a href="group__GeneralGroup.html#gaeeffe9dd1229206b5db549f61cbad105">MR::Graph::VertId</a></div><div class="ttdeci">GraphVertId VertId</div><div class="ttdef"><b>Definition</b> MRGraph.h:19</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gafe146d825ed418eab8e42d1bdb2f7a43"><div class="ttname"><a href="group__GeneralGroup.html#gafe146d825ed418eab8e42d1bdb2f7a43">MR::Graph::EndVertices::operator&lt;=&gt;</a></div><div class="ttdeci">auto operator&lt;=&gt;(const EndVertices &amp;) const =default</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Graph_1_1EndVertices_html"><div class="ttname"><a href="structMR_1_1Graph_1_1EndVertices.html">MR::Graph::EndVertices</a></div><div class="ttdef"><b>Definition</b> MRGraph.h:29</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

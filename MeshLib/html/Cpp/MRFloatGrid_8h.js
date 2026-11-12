@@ -20,6 +20,5 @@ var MRFloatGrid_8h =
     [ "MR::setLevelSetType", "group__BasicStructuresGroup.html#ga9a2627798d685fc7e535ab8f8d9daced", null ],
     [ "MR::setValue", "group__BasicStructuresGroup.html#ga24e9cfbbad1dbef4e985c5351f7863fe", null ],
     [ "MR::setValue", "group__BasicStructuresGroup.html#ga4b8a485f1c34582e929fb3123f84de8d", null ],
-    [ "MR::setValues", "group__BasicStructuresGroup.html#ga1d3651fa5e9662f55a9a4512df2f3faf", null ],
-    [ "MR::OpenVdbFloatGrid", "group__BasicStructuresGroup.html#gaaa4989f3d8e88d20b6cbebc9f51db434", null ]
+    [ "MR::setValues", "group__BasicStructuresGroup.html#ga1d3651fa5e9662f55a9a4512df2f3faf", null ]
 ];

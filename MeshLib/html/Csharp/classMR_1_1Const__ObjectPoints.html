@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -173,8 +166,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac4815407b97acccf7f56344b2b7a75c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
 <tr class="memitem:a8983795c69bda90c49af2c3aa5ecd2d1" id="r_a8983795c69bda90c49af2c3aa5ecd2d1"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8983795c69bda90c49af2c3aa5ecd2d1">Const_ObjectPoints</a> (MR._ByValue_ObjectPoints _other)</td></tr>
 <tr class="memdesc:a8983795c69bda90c49af2c3aa5ecd2d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjectPoints.html#a2b413054c12867e04d326ba8ad50549d" title="Constructs an empty (default-constructed) instance.">MR.ObjectPoints.ObjectPoints</a></span>.  <br /></td></tr>
-<tr class="memitem:aa6fd827226c6492fd56db71452adfcc4" id="r_aa6fd827226c6492fd56db71452adfcc4"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6fd827226c6492fd56db71452adfcc4">Const_ObjectPoints</a> (<a class="el" href="classMR_1_1Const__ObjectMesh.html">MR.Const_ObjectMesh</a> objMesh, bool? saveNormals=null)</td></tr>
-<tr class="memdesc:aa6fd827226c6492fd56db71452adfcc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjectPoints.html#a2b413054c12867e04d326ba8ad50549d" title="Constructs an empty (default-constructed) instance.">MR.ObjectPoints.ObjectPoints</a></span>. Parameter <span class="tt">saveNormals</span> defaults to <span class="tt">true</span>.  <br /></td></tr>
+<tr class="memitem:a7fcedb4572e59c06c2f125be892ea043" id="r_a7fcedb4572e59c06c2f125be892ea043"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fcedb4572e59c06c2f125be892ea043">Const_ObjectPoints</a> (<a class="el" href="classMR_1_1Const__ObjectMesh.html">MR.Const_ObjectMesh</a> objMesh, <a class="el" href="classMR.html#ae87fa6e092f96675221f3e07ece671eb">MR.VertNormalsMode</a>? normals=null)</td></tr>
+<tr class="memdesc:a7fcedb4572e59c06c2f125be892ea043"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes the point cloud from the mesh vertices; if some triangles are selected, then only from the vertices with all incident triangles selected Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjectPoints.html#a2b413054c12867e04d326ba8ad50549d" title="Constructs an empty (default-constructed) instance.">MR.ObjectPoints.ObjectPoints</a></span>. Parameter <span class="tt">normals</span> defaults to <span class="tt"><a class="el" href="classMR.html#ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b" title="area-weighted average of the normals of incident triangles, see computePerVertNormals">MR.VertNormalsMode.AreaWeighted</a></span>.  <br /></td></tr>
 <tr class="memitem:a75fcbda37452a47c25486433982141c9" id="r_a75fcbda37452a47c25486433982141c9"><td class="memItemLeft" align="right" valign="top">unsafe? byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75fcbda37452a47c25486433982141c9">typeName</a> ()</td></tr>
 <tr class="memdesc:a75fcbda37452a47c25486433982141c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a75fcbda37452a47c25486433982141c9" title="Generated from method MR.ObjectPoints.typeName.">MR.ObjectPoints.typeName</a></span>.  <br /></td></tr>
 <tr class="memitem:a0d20f03c81ed51939b29b87fe1f72d87" id="r_a0d20f03c81ed51939b29b87fe1f72d87"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d20f03c81ed51939b29b87fe1f72d87">className</a> ()</td></tr>
@@ -222,13 +215,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a336b6c9fdb9a3410d4cee511425a200c" id="r_a336b6c9fdb9a3410d4cee511425a200c"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a336b6c9fdb9a3410d4cee511425a200c">heapBytes</a> ()</td></tr>
 <tr class="memdesc:a336b6c9fdb9a3410d4cee511425a200c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt"><a class="el" href="#a336b6c9fdb9a3410d4cee511425a200c" title="returns the amount of memory this object occupies on heap Generated from method MR....">MR.ObjectPoints.heapBytes</a></span>.  <br /></td></tr>
 <tr class="memitem:a72483f8d86851d742ada83e9c3522aee" id="r_a72483f8d86851d742ada83e9c3522aee"><td class="memItemLeft" align="right" valign="top">unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72483f8d86851d742ada83e9c3522aee">getRenderDiscretization</a> ()</td></tr>
-<tr class="memdesc:a72483f8d86851d742ada83e9c3522aee"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns rendering discretization display each <span class="tt">renderDiscretization</span>-th point only, starting from 0 index, total number is <a class="el" href="#aeabecbbc1a7caa0264b0d34aef976956">numRenderingValidPoints()</a> \detail defined by maximum rendered points number as: <a class="el" href="#ac00dc37f9749dfa01b241a2399ee03ca">numValidPoints()</a> / <a class="el" href="#aed6d673e3aad9901554567594548f31c">getMaxRenderingPoints()</a> (rounded up) updated when setting <span class="tt">maxRenderingPoints</span> or changing the cloud (setting <span class="tt">DIRTY_FACE</span> flag) Generated from method <span class="tt"><a class="el" href="#a72483f8d86851d742ada83e9c3522aee" title="returns rendering discretization display each renderDiscretization-th point only, starting from 0 ind...">MR.ObjectPoints.getRenderDiscretization</a></span>.  <br /></td></tr>
+<tr class="memdesc:a72483f8d86851d742ada83e9c3522aee"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns rendering discretization display each <span class="tt">renderDiscretization</span>-th point only, starting from 0 index, total number is <a class="el" href="#aeabecbbc1a7caa0264b0d34aef976956">numRenderingValidPoints()</a>  <br /></td></tr>
 <tr class="memitem:aeabecbbc1a7caa0264b0d34aef976956" id="r_aeabecbbc1a7caa0264b0d34aef976956"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeabecbbc1a7caa0264b0d34aef976956">numRenderingValidPoints</a> ()</td></tr>
 <tr class="memdesc:aeabecbbc1a7caa0264b0d34aef976956"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns count of valid points that will be rendered Generated from method <span class="tt"><a class="el" href="#aeabecbbc1a7caa0264b0d34aef976956" title="returns count of valid points that will be rendered Generated from method MR.ObjectPoints....">MR.ObjectPoints.numRenderingValidPoints</a></span>.  <br /></td></tr>
 <tr class="memitem:aed6d673e3aad9901554567594548f31c" id="r_aed6d673e3aad9901554567594548f31c"><td class="memItemLeft" align="right" valign="top">unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed6d673e3aad9901554567594548f31c">getMaxRenderingPoints</a> ()</td></tr>
 <tr class="memdesc:aed6d673e3aad9901554567594548f31c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns maximal number of points that will be rendered if actual count of valid points is greater then the points will be sampled Generated from method <span class="tt"><a class="el" href="#aed6d673e3aad9901554567594548f31c" title="returns maximal number of points that will be rendered if actual count of valid points is greater the...">MR.ObjectPoints.getMaxRenderingPoints</a></span>.  <br /></td></tr>
 <tr class="memitem:ac980555d96dbc8584f7e48d3dcea9c06" id="r_ac980555d96dbc8584f7e48d3dcea9c06"><td class="memItemLeft" align="right" valign="top">unsafe? byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac980555d96dbc8584f7e48d3dcea9c06">serializeFormat</a> ()</td></tr>
-<tr class="memdesc:ac980555d96dbc8584f7e48d3dcea9c06"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize point cloud inside this object, nullptr means <a class="el" href="classMR.html#adb979235051f16e0860065ee9ec797d0" title="returns file extension used to serialize ObjectPointsHolder by default (if not overridden in specific...">defaultSerializePointsFormat()</a> Generated from method <span class="tt"><a class="el" href="#ac980555d96dbc8584f7e48d3dcea9c06" title="returns overriden file extension used to serialize point cloud inside this object,...">MR.ObjectPoints.serializeFormat</a></span>.  <br /></td></tr>
+<tr class="memdesc:ac980555d96dbc8584f7e48d3dcea9c06"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize point cloud inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::PointsSerializeFormat ) Generated from method <span class="tt"><a class="el" href="#ac980555d96dbc8584f7e48d3dcea9c06" title="returns overriden file extension used to serialize point cloud inside this object,...">MR.ObjectPoints.serializeFormat</a></span>.  <br /></td></tr>
 <tr class="memitem:ade8e5987ea4e1587b5c88ae50b1bf75a" id="r_ade8e5987ea4e1587b5c88ae50b1bf75a"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade8e5987ea4e1587b5c88ae50b1bf75a">getVisualizeProperty</a> (<a class="el" href="classMR_1_1Const__AnyVisualizeMaskEnum.html">MR.Const_AnyVisualizeMaskEnum</a> type, <a class="el" href="classMR_1_1Const__ViewportMask.html">MR.Const_ViewportMask</a> viewportMask)</td></tr>
 <tr class="memdesc:ade8e5987ea4e1587b5c88ae50b1bf75a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the property is set at least in one viewport specified by the mask Generated from method <span class="tt"><a class="el" href="#ade8e5987ea4e1587b5c88ae50b1bf75a" title="returns true if the property is set at least in one viewport specified by the mask Generated from met...">MR.ObjectPoints.getVisualizeProperty</a></span>.  <br /></td></tr>
 <tr class="memitem:aa3c5fe7d50226349189cd7a93bf58f6f" id="r_aa3c5fe7d50226349189cd7a93bf58f6f"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1ViewportMask.html">MR.ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3c5fe7d50226349189cd7a93bf58f6f">globalClippedByPlaneMask</a> ()</td></tr>
@@ -411,8 +404,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="aa6fd827226c6492fd56db71452adfcc4" name="aa6fd827226c6492fd56db71452adfcc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6fd827226c6492fd56db71452adfcc4">&#9670;&#160;</a></span>Const_ObjectPoints() <span class="overload">[3/3]</span></h2>
+<a id="a7fcedb4572e59c06c2f125be892ea043" name="a7fcedb4572e59c06c2f125be892ea043"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fcedb4572e59c06c2f125be892ea043">&#9670;&#160;</a></span>Const_ObjectPoints() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -428,7 +421,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>saveNormals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classMR.html#ae87fa6e092f96675221f3e07ece671eb">MR.VertNormalsMode</a>?</td>          <td class="paramname"><span class="paramname"><em>normals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -438,7 +431,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjectPoints.html#a2b413054c12867e04d326ba8ad50549d" title="Constructs an empty (default-constructed) instance.">MR.ObjectPoints.ObjectPoints</a></span>. Parameter <span class="tt">saveNormals</span> defaults to <span class="tt">true</span>. </p>
+<p>makes the point cloud from the mesh vertices; if some triangles are selected, then only from the vertices with all incident triangles selected Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjectPoints.html#a2b413054c12867e04d326ba8ad50549d" title="Constructs an empty (default-constructed) instance.">MR.ObjectPoints.ObjectPoints</a></span>. Parameter <span class="tt">normals</span> defaults to <span class="tt"><a class="el" href="classMR.html#ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b" title="area-weighted average of the normals of incident triangles, see computePerVertNormals">MR.VertNormalsMode.AreaWeighted</a></span>. </p>
 
 </div>
 </div>
@@ -1087,7 +1080,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns rendering discretization display each <span class="tt">renderDiscretization</span>-th point only, starting from 0 index, total number is <a class="el" href="#aeabecbbc1a7caa0264b0d34aef976956">numRenderingValidPoints()</a> \detail defined by maximum rendered points number as: <a class="el" href="#ac00dc37f9749dfa01b241a2399ee03ca">numValidPoints()</a> / <a class="el" href="#aed6d673e3aad9901554567594548f31c">getMaxRenderingPoints()</a> (rounded up) updated when setting <span class="tt">maxRenderingPoints</span> or changing the cloud (setting <span class="tt">DIRTY_FACE</span> flag) Generated from method <span class="tt"><a class="el" href="#a72483f8d86851d742ada83e9c3522aee" title="returns rendering discretization display each renderDiscretization-th point only, starting from 0 ind...">MR.ObjectPoints.getRenderDiscretization</a></span>. </p>
+<p>returns rendering discretization display each <span class="tt">renderDiscretization</span>-th point only, starting from 0 index, total number is <a class="el" href="#aeabecbbc1a7caa0264b0d34aef976956">numRenderingValidPoints()</a> </p>
+<p>defined by maximum rendered points number as: <a class="el" href="#ac00dc37f9749dfa01b241a2399ee03ca">numValidPoints()</a> / <a class="el" href="#aed6d673e3aad9901554567594548f31c">getMaxRenderingPoints()</a> (rounded up) updated when setting <span class="tt">maxRenderingPoints</span> or changing the cloud (setting <span class="tt">DIRTY_FACE</span> flag) Generated from method <span class="tt"><a class="el" href="#a72483f8d86851d742ada83e9c3522aee" title="returns rendering discretization display each renderDiscretization-th point only, starting from 0 ind...">MR.ObjectPoints.getRenderDiscretization</a></span>. </p>
 
 </div>
 </div>
@@ -2402,7 +2396,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns overriden file extension used to serialize point cloud inside this object, nullptr means <a class="el" href="classMR.html#adb979235051f16e0860065ee9ec797d0" title="returns file extension used to serialize ObjectPointsHolder by default (if not overridden in specific...">defaultSerializePointsFormat()</a> Generated from method <span class="tt"><a class="el" href="#ac980555d96dbc8584f7e48d3dcea9c06" title="returns overriden file extension used to serialize point cloud inside this object,...">MR.ObjectPoints.serializeFormat</a></span>. </p>
+<p>returns overriden file extension used to serialize point cloud inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::PointsSerializeFormat ) Generated from method <span class="tt"><a class="el" href="#ac980555d96dbc8584f7e48d3dcea9c06" title="returns overriden file extension used to serialize point cloud inside this object,...">MR.ObjectPoints.serializeFormat</a></span>. </p>
 
 </div>
 </div>

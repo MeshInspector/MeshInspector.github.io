@@ -56,6 +56,11 @@ var MREnums_8h =
       [ "MR::VertexMass::Unit", "group__GeneralGroup.html#ggada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f", null ],
       [ "MR::VertexMass::NeiArea", "group__GeneralGroup.html#ggada281bbc8bccd66b01be1b6d2b99e3cda1382ee05d86c5b607841935eeb648e06", null ]
     ] ],
+    [ "MR::VertNormalsMode", "group__GeneralGroup.html#gae8cccc75b39074c044cb7ece46ea677f", [
+      [ "MR::VertNormalsMode::No", "group__GeneralGroup.html#ggae8cccc75b39074c044cb7ece46ea677fabafd7322c6e97d25b6299b5d6fe8920b", null ],
+      [ "MR::VertNormalsMode::AreaWeighted", "group__GeneralGroup.html#ggae8cccc75b39074c044cb7ece46ea677fa10aa938500345421e5e8faad0279137b", null ],
+      [ "MR::VertNormalsMode::AngleWeighted", "group__GeneralGroup.html#ggae8cccc75b39074c044cb7ece46ea677fa1c49998375abb3376ffe312e644a306e", null ]
+    ] ],
     [ "MR::WrapType", "group__GeneralGroup.html#ga0e519d6a7c053c5d86dac33ecd0fa00c", [
       [ "MR::WrapType::Repeat", "group__GeneralGroup.html#gga0e519d6a7c053c5d86dac33ecd0fa00ca7020426cfb0a204051be4b3053d2acc8", null ],
       [ "MR::WrapType::Mirror", "group__GeneralGroup.html#gga0e519d6a7c053c5d86dac33ecd0fa00ca2403def5083f02105e7802b3b315681e", null ],

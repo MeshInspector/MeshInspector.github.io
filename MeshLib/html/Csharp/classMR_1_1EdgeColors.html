@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -138,16 +131,14 @@ $(function(){initNavTree('classMR_1_1EdgeColors.html','','classMR_1_1EdgeColors-
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1EdgeColors-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.EdgeColors Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type,  
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt"><a class="el" href="classMR_1_1EdgeColors.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.EdgeColors. This is the non-const half of the ...">MR.EdgeColors</a></span>. This is the non-const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.EdgeColors:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -156,51 +147,48 @@ $(function(){initNavTree('classMR_1_1EdgeColors.html','','classMR_1_1EdgeColors-
  <div class="center">
   <img src="classMR_1_1EdgeColors.png" usemap="#MR_2EEdgeColors_map" alt=""/>
   <map id="MR_2EEdgeColors_map" name="MR_2EEdgeColors_map">
-<area href="classMR_1_1Const__EdgeColors.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type," alt="MR.Const_EdgeColors" shape="rect" coords="225,56,365,80"/>
+<area href="classMR_1_1Const__EdgeColors.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.EdgeColors. This is the const half of the clas..." alt="MR.Const_EdgeColors" shape="rect" coords="150,56,290,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:_5FEnumerator" id="r__5FEnumerator"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_Enumerator</b></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac63f0c90dabf4b3880267ece19d99285" id="r_ac63f0c90dabf4b3880267ece19d99285"><td class="memItemLeft" align="right" valign="top">new IEnumerator&lt; MR.Misc.Ref&lt; <a class="el" href="structMR_1_1Color.html">MR.Color</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac63f0c90dabf4b3880267ece19d99285">GetEnumerator</a> ()</td></tr>
 <tr class="memitem:a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" id="r_a9a0fdcd78ca8099b9e78ba7cd7ae6c3c"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c">EdgeColors</a> ()</td></tr>
-<tr class="memdesc:a9a0fdcd78ca8099b9e78ba7cd7ae6c3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
+<tr class="memdesc:a9a0fdcd78ca8099b9e78ba7cd7ae6c3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="memitem:aa7af840d67bd9d6fbef08bf0211f099a" id="r_aa7af840d67bd9d6fbef08bf0211f099a"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7af840d67bd9d6fbef08bf0211f099a">EdgeColors</a> (MR._ByValue_EdgeColors _other)</td></tr>
-<tr class="memdesc:aa7af840d67bd9d6fbef08bf0211f099a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
+<tr class="memdesc:aa7af840d67bd9d6fbef08bf0211f099a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="creates empty vector">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
 <tr class="memitem:aa9dbf471f0eddeaceb33a564a39a3ab0" id="r_aa9dbf471f0eddeaceb33a564a39a3ab0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9dbf471f0eddeaceb33a564a39a3ab0">EdgeColors</a> (<a class="el" href="classMR_1_1Const__EdgeColors.html">Const_EdgeColors</a> _other)</td></tr>
-<tr class="memdesc:aa9dbf471f0eddeaceb33a564a39a3ab0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
+<tr class="memdesc:aa9dbf471f0eddeaceb33a564a39a3ab0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="creates empty vector">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
 <tr class="memitem:a5f36dc94a1d06a7214d5e61891729f58" id="r_a5f36dc94a1d06a7214d5e61891729f58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f36dc94a1d06a7214d5e61891729f58">EdgeColors</a> (<a class="el" href="classMR_1_1EdgeColors.html">EdgeColors</a> _other)</td></tr>
-<tr class="memdesc:a5f36dc94a1d06a7214d5e61891729f58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
+<tr class="memdesc:a5f36dc94a1d06a7214d5e61891729f58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="creates empty vector">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
 <tr class="memitem:a34e72d5e82116efbf325c8dddcc13a78" id="r_a34e72d5e82116efbf325c8dddcc13a78"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34e72d5e82116efbf325c8dddcc13a78">EdgeColors</a> (nuint <a class="el" href="classMR_1_1Const__EdgeColors.html#a2528562e1b75dccaa0db7e2fd85b7033">size</a>)</td></tr>
-<tr class="memdesc:a34e72d5e82116efbf325c8dddcc13a78"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
+<tr class="memdesc:a34e72d5e82116efbf325c8dddcc13a78"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="creates empty vector">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
 <tr class="memitem:a26894141abcd741d072bad64afb7750b" id="r_a26894141abcd741d072bad64afb7750b"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26894141abcd741d072bad64afb7750b">EdgeColors</a> (nuint <a class="el" href="classMR_1_1Const__EdgeColors.html#a2528562e1b75dccaa0db7e2fd85b7033">size</a>, in <a class="el" href="structMR_1_1Color.html">MR.Color</a> val)</td></tr>
-<tr class="memdesc:a26894141abcd741d072bad64afb7750b"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
-<tr class="memitem:a099a1321da8ce2dc5744074ec37dde9f" id="r_a099a1321da8ce2dc5744074ec37dde9f"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a099a1321da8ce2dc5744074ec37dde9f">EdgeColors</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; <a class="el" href="#ad74efbb79eac881f6cd36a6f9d79040f">vec</a>)</td></tr>
-<tr class="memdesc:a099a1321da8ce2dc5744074ec37dde9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
+<tr class="memdesc:a26894141abcd741d072bad64afb7750b"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="creates empty vector">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
 <tr class="memitem:ad48de439f751767acf4bb72cbcbbb0e5" id="r_ad48de439f751767acf4bb72cbcbbb0e5"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1EdgeColors.html">MR.EdgeColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad48de439f751767acf4bb72cbcbbb0e5">assign</a> (MR._ByValue_EdgeColors _other)</td></tr>
 <tr class="memdesc:ad48de439f751767acf4bb72cbcbbb0e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::EdgeColors::operator=</span>.  <br /></td></tr>
+<tr class="memitem:a345cb1c5817651af3f30b4cb29ae437a" id="r_a345cb1c5817651af3f30b4cb29ae437a"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a345cb1c5817651af3f30b4cb29ae437a">assign</a> (nuint count, in <a class="el" href="structMR_1_1Color.html">MR.Color</a> val)</td></tr>
+<tr class="memdesc:a345cb1c5817651af3f30b4cb29ae437a"><td class="mdescLeft">&#160;</td><td class="mdescRight">replaces the contents with <code class="param">count</code> copies of <code class="param">val</code> Generated from method <span class="tt"><a class="el" href="#ad48de439f751767acf4bb72cbcbbb0e5" title="Generated from method MR.EdgeColors.operator=.">MR.EdgeColors.assign</a></span>.  <br /></td></tr>
 <tr class="memitem:a7731be13f0982ea3b326c51fa53a23d4" id="r_a7731be13f0982ea3b326c51fa53a23d4"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7731be13f0982ea3b326c51fa53a23d4">clear</a> ()</td></tr>
 <tr class="memdesc:a7731be13f0982ea3b326c51fa53a23d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a7731be13f0982ea3b326c51fa53a23d4" title="Generated from method MR.EdgeColors.clear.">MR.EdgeColors.clear</a></span>.  <br /></td></tr>
 <tr class="memitem:aedc8ac34e2bd732dd21e84ebb04c10a9" id="r_aedc8ac34e2bd732dd21e84ebb04c10a9"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedc8ac34e2bd732dd21e84ebb04c10a9">resize</a> (nuint newSize)</td></tr>
 <tr class="memdesc:aedc8ac34e2bd732dd21e84ebb04c10a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aedc8ac34e2bd732dd21e84ebb04c10a9" title="Generated from method MR.EdgeColors.resize.">MR.EdgeColors.resize</a></span>.  <br /></td></tr>
 <tr class="memitem:a228c602555964a514698ce41ee1c10bb" id="r_a228c602555964a514698ce41ee1c10bb"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a228c602555964a514698ce41ee1c10bb">resize</a> (nuint newSize, in <a class="el" href="structMR_1_1Color.html">MR.Color</a> t)</td></tr>
 <tr class="memdesc:a228c602555964a514698ce41ee1c10bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aedc8ac34e2bd732dd21e84ebb04c10a9" title="Generated from method MR.EdgeColors.resize.">MR.EdgeColors.resize</a></span>.  <br /></td></tr>
-<tr class="memitem:abf2a80a0c7eb6d77a39d6029e76c3246" id="r_abf2a80a0c7eb6d77a39d6029e76c3246"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf2a80a0c7eb6d77a39d6029e76c3246">resizeNoInit</a> (nuint targetSize)</td></tr>
-<tr class="memdesc:abf2a80a0c7eb6d77a39d6029e76c3246"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#abf2a80a0c7eb6d77a39d6029e76c3246" title="Generated from method MR.EdgeColors.resizeNoInit.">MR.EdgeColors.resizeNoInit</a></span>.  <br /></td></tr>
+<tr class="memitem:a7f644b77f91f8a9b3d666397f8b242bf" id="r_a7f644b77f91f8a9b3d666397f8b242bf"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f644b77f91f8a9b3d666397f8b242bf">resizeNoInit</a> (nuint targetSize, <a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706">MR.ReserveMode</a>? mode=null)</td></tr>
+<tr class="memdesc:a7f644b77f91f8a9b3d666397f8b242bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a7f644b77f91f8a9b3d666397f8b242bf" title="Generated from method MR.EdgeColors.resizeNoInit. Parameter mode defaults to MR.ReserveMode....">MR.EdgeColors.resizeNoInit</a></span>. Parameter <span class="tt">mode</span> defaults to <span class="tt"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706a1649aed298f99d587e2eb30c1db5946b" title="exactly the target size: for a vector resized once">MR.ReserveMode.Exact</a></span>.  <br /></td></tr>
 <tr class="memitem:ac9fb317f392ce5f7264ce43b78a32cae" id="r_ac9fb317f392ce5f7264ce43b78a32cae"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9fb317f392ce5f7264ce43b78a32cae">reserve</a> (nuint <a class="el" href="classMR_1_1Const__EdgeColors.html#ae909cf7bf23406cbdee4a7a04a5f9b90">capacity</a>)</td></tr>
 <tr class="memdesc:ac9fb317f392ce5f7264ce43b78a32cae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ac9fb317f392ce5f7264ce43b78a32cae" title="Generated from method MR.EdgeColors.reserve.">MR.EdgeColors.reserve</a></span>.  <br /></td></tr>
+<tr class="memitem:ae087abfa4decdb54cf487136fbf3d30f" id="r_ae087abfa4decdb54cf487136fbf3d30f"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae087abfa4decdb54cf487136fbf3d30f">shrinkToFit</a> ()</td></tr>
+<tr class="memdesc:ae087abfa4decdb54cf487136fbf3d30f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::EdgeColors::shrink_to_fit</span>.  <br /></td></tr>
 <tr class="memitem:a78dbe0a122ae6ac00a7bf237383f9f79" id="r_a78dbe0a122ae6ac00a7bf237383f9f79"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78dbe0a122ae6ac00a7bf237383f9f79">resizeWithReserve</a> (nuint newSize)</td></tr>
-<tr class="memdesc:a78dbe0a122ae6ac00a7bf237383f9f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#a78dbe0a122ae6ac00a7bf237383f9f79" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.EdgeColors.resizeWithReserve</a></span>.  <br /></td></tr>
+<tr class="memdesc:a78dbe0a122ae6ac00a7bf237383f9f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as resize(newSize), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#a78dbe0a122ae6ac00a7bf237383f9f79" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.EdgeColors.resizeWithReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:ac210c64b19e5698b01d280486ccc510a" id="r_ac210c64b19e5698b01d280486ccc510a"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac210c64b19e5698b01d280486ccc510a">resizeWithReserve</a> (nuint newSize, in <a class="el" href="structMR_1_1Color.html">MR.Color</a> value)</td></tr>
-<tr class="memdesc:ac210c64b19e5698b01d280486ccc510a"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#a78dbe0a122ae6ac00a7bf237383f9f79" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.EdgeColors.resizeWithReserve</a></span>.  <br /></td></tr>
+<tr class="memdesc:ac210c64b19e5698b01d280486ccc510a"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as resize(newSize, value), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#a78dbe0a122ae6ac00a7bf237383f9f79" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.EdgeColors.resizeWithReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:a481dcc844767d83f7568703c69db84cc" id="r_a481dcc844767d83f7568703c69db84cc"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a481dcc844767d83f7568703c69db84cc">autoResizeSet</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> pos, nuint len, <a class="el" href="structMR_1_1Color.html">MR.Color</a> val)</td></tr>
 <tr class="memdesc:a481dcc844767d83f7568703c69db84cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <code class="param">pos</code> are also set to <code class="param">val</code> (for faster implementation) Generated from method <span class="tt"><a class="el" href="#a481dcc844767d83f7568703c69db84cc" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">MR.EdgeColors.autoResizeSet</a></span>.  <br /></td></tr>
 <tr class="memitem:a37bc80844820ad0a58e1ff65a7fc99ef" id="r_a37bc80844820ad0a58e1ff65a7fc99ef"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37bc80844820ad0a58e1ff65a7fc99ef">autoResizeSet</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> i, <a class="el" href="structMR_1_1Color.html">MR.Color</a> val)</td></tr>
-<tr class="memdesc:a37bc80844820ad0a58e1ff65a7fc99ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <span class="tt"><a class="el" href="#a481dcc844767d83f7568703c69db84cc" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">MR.EdgeColors.autoResizeSet</a></span>.  <br /></td></tr>
+<tr class="memdesc:a37bc80844820ad0a58e1ff65a7fc99ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the element i to the given value, adjusting the size of the vector to include new element Generated from method <span class="tt"><a class="el" href="#a481dcc844767d83f7568703c69db84cc" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">MR.EdgeColors.autoResizeSet</a></span>.  <br /></td></tr>
 <tr class="memitem:a5c1ad0686b164a1be7f202977ecbcf2b" id="r_a5c1ad0686b164a1be7f202977ecbcf2b"><td class="memItemLeft" align="right" valign="top">unsafe ref <a class="el" href="structMR_1_1Color.html">MR.Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c1ad0686b164a1be7f202977ecbcf2b">autoResizeAt</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> i)</td></tr>
 <tr class="memdesc:a5c1ad0686b164a1be7f202977ecbcf2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">this accessor automatically adjusts the size of the vector Generated from method <span class="tt"><a class="el" href="#a5c1ad0686b164a1be7f202977ecbcf2b" title="this accessor automatically adjusts the size of the vector Generated from method MR....">MR.EdgeColors.autoResizeAt</a></span>.  <br /></td></tr>
 <tr class="memitem:a85bec026b4b12131d60410eb8408daab" id="r_a85bec026b4b12131d60410eb8408daab"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85bec026b4b12131d60410eb8408daab">pushBack</a> (in <a class="el" href="structMR_1_1Color.html">MR.Color</a> t)</td></tr>
@@ -219,25 +207,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aae91d1a2298f0b834a450954da5764c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aae91d1a2298f0b834a450954da5764c1" title="Generated from method MR.EdgeColors.swap.">MR.EdgeColors.swap</a></span>.  <br /></td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1Const__EdgeColors"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1Const__EdgeColors')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classMR_1_1Const__EdgeColors.html">MR.Const_EdgeColors</a></td></tr>
 <tr class="memitem:a534387e4e4c94fd874c3d71307cb4f91 inherit pub_methods_classMR_1_1Const__EdgeColors" id="r_a534387e4e4c94fd874c3d71307cb4f91"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#a534387e4e4c94fd874c3d71307cb4f91">Dispose</a> ()</td></tr>
-<tr class="memitem:a4889e10e5dfdc85c2d87953996cca1b9 inherit pub_methods_classMR_1_1Const__EdgeColors" id="r_a4889e10e5dfdc85c2d87953996cca1b9"><td class="memItemLeft" align="right" valign="top">IEnumerator&lt; MR.Misc.ConstRef&lt; <a class="el" href="structMR_1_1Color.html">MR.Color</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#a4889e10e5dfdc85c2d87953996cca1b9">GetEnumerator</a> ()</td></tr>
 <tr class="memitem:a26e50cc87d15b02ff8534a800977be31 inherit pub_methods_classMR_1_1Const__EdgeColors" id="r_a26e50cc87d15b02ff8534a800977be31"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#a26e50cc87d15b02ff8534a800977be31">Const_EdgeColors</a> ()</td></tr>
-<tr class="memdesc:a26e50cc87d15b02ff8534a800977be31 inherit pub_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
+<tr class="memdesc:a26e50cc87d15b02ff8534a800977be31 inherit pub_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="memitem:a989a1e4b533605a440cabd56ac5ae591 inherit pub_methods_classMR_1_1Const__EdgeColors" id="r_a989a1e4b533605a440cabd56ac5ae591"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#a989a1e4b533605a440cabd56ac5ae591">Const_EdgeColors</a> (MR._ByValue_EdgeColors _other)</td></tr>
-<tr class="memdesc:a989a1e4b533605a440cabd56ac5ae591 inherit pub_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
+<tr class="memdesc:a989a1e4b533605a440cabd56ac5ae591 inherit pub_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="creates empty vector">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
 <tr class="memitem:a37127bdbcb584293286e0378fc7781b3 inherit pub_methods_classMR_1_1Const__EdgeColors" id="r_a37127bdbcb584293286e0378fc7781b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#a37127bdbcb584293286e0378fc7781b3">Const_EdgeColors</a> (<a class="el" href="classMR_1_1Const__EdgeColors.html">Const_EdgeColors</a> _other)</td></tr>
-<tr class="memdesc:a37127bdbcb584293286e0378fc7781b3 inherit pub_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
+<tr class="memdesc:a37127bdbcb584293286e0378fc7781b3 inherit pub_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="creates empty vector">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
 <tr class="memitem:a4451c1f097205ae9a72f17803ffb718d inherit pub_methods_classMR_1_1Const__EdgeColors" id="r_a4451c1f097205ae9a72f17803ffb718d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#a4451c1f097205ae9a72f17803ffb718d">Const_EdgeColors</a> (<a class="el" href="classMR_1_1EdgeColors.html">EdgeColors</a> _other)</td></tr>
-<tr class="memdesc:a4451c1f097205ae9a72f17803ffb718d inherit pub_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
+<tr class="memdesc:a4451c1f097205ae9a72f17803ffb718d inherit pub_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="creates empty vector">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
 <tr class="memitem:ace0273cfa4b27703db045064f414a553 inherit pub_methods_classMR_1_1Const__EdgeColors" id="r_ace0273cfa4b27703db045064f414a553"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#ace0273cfa4b27703db045064f414a553">Const_EdgeColors</a> (nuint <a class="el" href="classMR_1_1Const__EdgeColors.html#a2528562e1b75dccaa0db7e2fd85b7033">size</a>)</td></tr>
-<tr class="memdesc:ace0273cfa4b27703db045064f414a553 inherit pub_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
+<tr class="memdesc:ace0273cfa4b27703db045064f414a553 inherit pub_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="creates empty vector">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
 <tr class="memitem:a3d1b1a6cbf7ac3e407928d07c12b7082 inherit pub_methods_classMR_1_1Const__EdgeColors" id="r_a3d1b1a6cbf7ac3e407928d07c12b7082"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#a3d1b1a6cbf7ac3e407928d07c12b7082">Const_EdgeColors</a> (nuint <a class="el" href="classMR_1_1Const__EdgeColors.html#a2528562e1b75dccaa0db7e2fd85b7033">size</a>, in <a class="el" href="structMR_1_1Color.html">MR.Color</a> val)</td></tr>
-<tr class="memdesc:a3d1b1a6cbf7ac3e407928d07c12b7082 inherit pub_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
-<tr class="memitem:a6242281ea4e5ca63df5e9b5029d7d982 inherit pub_methods_classMR_1_1Const__EdgeColors" id="r_a6242281ea4e5ca63df5e9b5029d7d982"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#a6242281ea4e5ca63df5e9b5029d7d982">Const_EdgeColors</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; <a class="el" href="classMR_1_1Const__EdgeColors.html#af169f12faff464316f96e0e165f01f5b">vec</a>)</td></tr>
-<tr class="memdesc:a6242281ea4e5ca63df5e9b5029d7d982 inherit pub_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
+<tr class="memdesc:a3d1b1a6cbf7ac3e407928d07c12b7082 inherit pub_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="creates empty vector">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
 <tr class="memitem:a35fcb0a2bc98ffe601fb9272a68a0615 inherit pub_methods_classMR_1_1Const__EdgeColors" id="r_a35fcb0a2bc98ffe601fb9272a68a0615"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#a35fcb0a2bc98ffe601fb9272a68a0615">empty</a> ()</td></tr>
 <tr class="memdesc:a35fcb0a2bc98ffe601fb9272a68a0615 inherit pub_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__EdgeColors.html#a35fcb0a2bc98ffe601fb9272a68a0615" title="Generated from method MR.EdgeColors.empty.">MR.EdgeColors.empty</a></span>.  <br /></td></tr>
 <tr class="memitem:a2528562e1b75dccaa0db7e2fd85b7033 inherit pub_methods_classMR_1_1Const__EdgeColors" id="r_a2528562e1b75dccaa0db7e2fd85b7033"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#a2528562e1b75dccaa0db7e2fd85b7033">size</a> ()</td></tr>
 <tr class="memdesc:a2528562e1b75dccaa0db7e2fd85b7033 inherit pub_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__EdgeColors.html#a2528562e1b75dccaa0db7e2fd85b7033" title="Generated from method MR.EdgeColors.size.">MR.EdgeColors.size</a></span>.  <br /></td></tr>
+<tr class="memitem:a851b5a6d4cf3522fcefd0cbeb9d99da8 inherit pub_methods_classMR_1_1Const__EdgeColors" id="r_a851b5a6d4cf3522fcefd0cbeb9d99da8"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#a851b5a6d4cf3522fcefd0cbeb9d99da8">maxSize</a> ()</td></tr>
+<tr class="memdesc:a851b5a6d4cf3522fcefd0cbeb9d99da8 inherit pub_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::EdgeColors::max_size</span>.  <br /></td></tr>
 <tr class="memitem:ae909cf7bf23406cbdee4a7a04a5f9b90 inherit pub_methods_classMR_1_1Const__EdgeColors" id="r_ae909cf7bf23406cbdee4a7a04a5f9b90"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#ae909cf7bf23406cbdee4a7a04a5f9b90">capacity</a> ()</td></tr>
 <tr class="memdesc:ae909cf7bf23406cbdee4a7a04a5f9b90 inherit pub_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__EdgeColors.html#ae909cf7bf23406cbdee4a7a04a5f9b90" title="Generated from method MR.EdgeColors.capacity.">MR.EdgeColors.capacity</a></span>.  <br /></td></tr>
 <tr class="memitem:a8687bb936716896a05c8212db61be4e1 inherit pub_methods_classMR_1_1Const__EdgeColors" id="r_a8687bb936716896a05c8212db61be4e1"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly <a class="el" href="structMR_1_1Color.html">MR.Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#a8687bb936716896a05c8212db61be4e1">front</a> ()</td></tr>
@@ -257,46 +244,32 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3dfa6a785e81a37f6899210e3c134eb2 inherit pub_methods_classMR_1_1Const__EdgeColors" id="r_a3dfa6a785e81a37f6899210e3c134eb2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#a3dfa6a785e81a37f6899210e3c134eb2">Equals</a> (<a class="el" href="classMR_1_1Const__EdgeColors.html">MR.Const_EdgeColors</a>? b)</td></tr>
 <tr class="memitem:af923ae7b1f7acd2a9760d7afed4e9847 inherit pub_methods_classMR_1_1Const__EdgeColors" id="r_af923ae7b1f7acd2a9760d7afed4e9847"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#af923ae7b1f7acd2a9760d7afed4e9847">Equals</a> (object? other)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a208b147c82a688ad6c9a12cc61411cf0" id="r_a208b147c82a688ad6c9a12cc61411cf0"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a208b147c82a688ad6c9a12cc61411cf0">operator EdgeColors</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; <a class="el" href="#ad74efbb79eac881f6cd36a6f9d79040f">vec</a>)</td></tr>
-<tr class="memdesc:a208b147c82a688ad6c9a12cc61411cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
-<tr class="inherit_header pub_static_methods_classMR_1_1Const__EdgeColors"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1Const__EdgeColors')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classMR_1_1Const__EdgeColors.html">MR.Const_EdgeColors</a></td></tr>
-<tr class="memitem:a7cd07192137d2a34736a784392e9c317 inherit pub_static_methods_classMR_1_1Const__EdgeColors" id="r_a7cd07192137d2a34736a784392e9c317"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#a7cd07192137d2a34736a784392e9c317">operator Const_EdgeColors</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; <a class="el" href="classMR_1_1Const__EdgeColors.html#af169f12faff464316f96e0e165f01f5b">vec</a>)</td></tr>
-<tr class="memdesc:a7cd07192137d2a34736a784392e9c317 inherit pub_static_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>.  <br /></td></tr>
-<tr class="memitem:aafb1d085425a3fb38240630d66759a68 inherit pub_static_methods_classMR_1_1Const__EdgeColors" id="r_aafb1d085425a3fb38240630d66759a68"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#aafb1d085425a3fb38240630d66759a68">operator==</a> (<a class="el" href="classMR_1_1Const__EdgeColors.html">MR.Const_EdgeColors</a> _this, <a class="el" href="classMR_1_1Const__EdgeColors.html">MR.Const_EdgeColors</a> b)</td></tr>
-<tr class="memdesc:aafb1d085425a3fb38240630d66759a68 inherit pub_static_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::EdgeColors::operator==</span>.  <br /></td></tr>
-<tr class="memitem:a9e77e5863ed66ae6e35ff64812f0df54 inherit pub_static_methods_classMR_1_1Const__EdgeColors" id="r_a9e77e5863ed66ae6e35ff64812f0df54"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#a9e77e5863ed66ae6e35ff64812f0df54">operator!=</a> (<a class="el" href="classMR_1_1Const__EdgeColors.html">MR.Const_EdgeColors</a> _this, <a class="el" href="classMR_1_1Const__EdgeColors.html">MR.Const_EdgeColors</a> b)</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:ad74efbb79eac881f6cd36a6f9d79040f" id="r_ad74efbb79eac881f6cd36a6f9d79040f"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Vector_MRColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad74efbb79eac881f6cd36a6f9d79040f">vec</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:ad74efbb79eac881f6cd36a6f9d79040f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
+<tr class="memitem:ab61118e49dba6e64558edb43474f9e02" id="r_ab61118e49dba6e64558edb43474f9e02"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Vector_MRColor_MRAllocatorMRColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab61118e49dba6e64558edb43474f9e02">vec</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:ab61118e49dba6e64558edb43474f9e02"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
 <tr class="memitem:a305fd63df92ce9db6cbf38d092e93717" id="r_a305fd63df92ce9db6cbf38d092e93717"><td class="memItemLeft" align="right" valign="top">unsafe new ref <a class="el" href="structMR_1_1Color.html">MR.Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a305fd63df92ce9db6cbf38d092e93717">this[MR.EdgeId i]</a><code> [get]</code></td></tr>
 <tr class="memdesc:a305fd63df92ce9db6cbf38d092e93717"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::EdgeColors::operator[]</span>.  <br /></td></tr>
 <tr class="inherit_header properties_classMR_1_1Const__EdgeColors"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1Const__EdgeColors')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Properties inherited from <a class="el" href="classMR_1_1Const__EdgeColors.html">MR.Const_EdgeColors</a></td></tr>
-<tr class="memitem:af169f12faff464316f96e0e165f01f5b inherit properties_classMR_1_1Const__EdgeColors" id="r_af169f12faff464316f96e0e165f01f5b"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#af169f12faff464316f96e0e165f01f5b">vec</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:af169f12faff464316f96e0e165f01f5b inherit properties_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
+<tr class="memitem:af460903b59802aca6467f3826258b90b inherit properties_classMR_1_1Const__EdgeColors" id="r_af460903b59802aca6467f3826258b90b"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRColor_MRAllocatorMRColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#af460903b59802aca6467f3826258b90b">vec</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:af460903b59802aca6467f3826258b90b inherit properties_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
 <tr class="memitem:a4c5b58e64d18f66b45b5cdd05385fb26 inherit properties_classMR_1_1Const__EdgeColors" id="r_a4c5b58e64d18f66b45b5cdd05385fb26"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly <a class="el" href="structMR_1_1Color.html">MR.Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#a4c5b58e64d18f66b45b5cdd05385fb26">this[MR.EdgeId i]</a><code> [get]</code></td></tr>
 <tr class="memdesc:a4c5b58e64d18f66b45b5cdd05385fb26 inherit properties_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::EdgeColors::operator[]</span>.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classMR_1_1Const__EdgeColors"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1Const__EdgeColors')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classMR_1_1Const__EdgeColors.html">MR.Const_EdgeColors</a></td></tr>
+<tr class="memitem:aafb1d085425a3fb38240630d66759a68 inherit pub_static_methods_classMR_1_1Const__EdgeColors" id="r_aafb1d085425a3fb38240630d66759a68"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#aafb1d085425a3fb38240630d66759a68">operator==</a> (<a class="el" href="classMR_1_1Const__EdgeColors.html">MR.Const_EdgeColors</a> _this, <a class="el" href="classMR_1_1Const__EdgeColors.html">MR.Const_EdgeColors</a> b)</td></tr>
+<tr class="memdesc:aafb1d085425a3fb38240630d66759a68 inherit pub_static_methods_classMR_1_1Const__EdgeColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::EdgeColors::operator==</span>.  <br /></td></tr>
+<tr class="memitem:a9e77e5863ed66ae6e35ff64812f0df54 inherit pub_static_methods_classMR_1_1Const__EdgeColors" id="r_a9e77e5863ed66ae6e35ff64812f0df54"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#a9e77e5863ed66ae6e35ff64812f0df54">operator!=</a> (<a class="el" href="classMR_1_1Const__EdgeColors.html">MR.Const_EdgeColors</a> _this, <a class="el" href="classMR_1_1Const__EdgeColors.html">MR.Const_EdgeColors</a> b)</td></tr>
 <tr class="inherit_header pro_methods_classMR_1_1Const__EdgeColors"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classMR_1_1Const__EdgeColors')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classMR_1_1Const__EdgeColors.html">MR.Const_EdgeColors</a></td></tr>
 <tr class="memitem:ae482564ea422f7b60345eb25d4dbb2e6 inherit pro_methods_classMR_1_1Const__EdgeColors" id="r_ae482564ea422f7b60345eb25d4dbb2e6"><td class="memItemLeft" align="right" valign="top">virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeColors.html#ae482564ea422f7b60345eb25d4dbb2e6">Dispose</a> (bool disposing)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt"><a class="el" href="classMR_1_1EdgeColors.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type,">MR.EdgeColors</a></span>. This is the non-const half of the class. </td></tr>
-  </table>
-  </dd>
-</dl>
+<div class="textblock"><p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt"><a class="el" href="classMR_1_1EdgeColors.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.EdgeColors. This is the non-const half of the ...">MR.EdgeColors</a></span>. This is the non-const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" name="a9a0fdcd78ca8099b9e78ba7cd7ae6c3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c">&#9670;&#160;</a></span>EdgeColors() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c">&#9670;&#160;</a></span>EdgeColors() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -318,12 +291,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs an empty (default-constructed) instance. </p>
+<p>creates empty vector </p>
 
 </div>
 </div>
 <a id="aa7af840d67bd9d6fbef08bf0211f099a" name="aa7af840d67bd9d6fbef08bf0211f099a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7af840d67bd9d6fbef08bf0211f099a">&#9670;&#160;</a></span>EdgeColors() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7af840d67bd9d6fbef08bf0211f099a">&#9670;&#160;</a></span>EdgeColors() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -345,12 +318,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="creates empty vector">MR.EdgeColors.EdgeColors</a></span>. </p>
 
 </div>
 </div>
 <a id="aa9dbf471f0eddeaceb33a564a39a3ab0" name="aa9dbf471f0eddeaceb33a564a39a3ab0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9dbf471f0eddeaceb33a564a39a3ab0">&#9670;&#160;</a></span>EdgeColors() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9dbf471f0eddeaceb33a564a39a3ab0">&#9670;&#160;</a></span>EdgeColors() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -372,12 +345,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="creates empty vector">MR.EdgeColors.EdgeColors</a></span>. </p>
 
 </div>
 </div>
 <a id="a5f36dc94a1d06a7214d5e61891729f58" name="a5f36dc94a1d06a7214d5e61891729f58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f36dc94a1d06a7214d5e61891729f58">&#9670;&#160;</a></span>EdgeColors() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f36dc94a1d06a7214d5e61891729f58">&#9670;&#160;</a></span>EdgeColors() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -399,12 +372,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>. </p>
+<p>Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="creates empty vector">MR.EdgeColors.EdgeColors</a></span>. </p>
 
 </div>
 </div>
 <a id="a34e72d5e82116efbf325c8dddcc13a78" name="a34e72d5e82116efbf325c8dddcc13a78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34e72d5e82116efbf325c8dddcc13a78">&#9670;&#160;</a></span>EdgeColors() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a34e72d5e82116efbf325c8dddcc13a78">&#9670;&#160;</a></span>EdgeColors() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -426,12 +399,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>. </p>
+<p>creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="creates empty vector">MR.EdgeColors.EdgeColors</a></span>. </p>
 
 </div>
 </div>
 <a id="a26894141abcd741d072bad64afb7750b" name="a26894141abcd741d072bad64afb7750b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26894141abcd741d072bad64afb7750b">&#9670;&#160;</a></span>EdgeColors() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a26894141abcd741d072bad64afb7750b">&#9670;&#160;</a></span>EdgeColors() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -457,40 +430,13 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>. </p>
-
-</div>
-</div>
-<a id="a099a1321da8ce2dc5744074ec37dde9f" name="a099a1321da8ce2dc5744074ec37dde9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a099a1321da8ce2dc5744074ec37dde9f">&#9670;&#160;</a></span>EdgeColors() <span class="overload">[7/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe MR.EdgeColors.EdgeColors </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>. </p>
+<p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="creates empty vector">MR.EdgeColors.EdgeColors</a></span>. </p>
 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="ad48de439f751767acf4bb72cbcbbb0e5" name="ad48de439f751767acf4bb72cbcbbb0e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad48de439f751767acf4bb72cbcbbb0e5">&#9670;&#160;</a></span>assign()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad48de439f751767acf4bb72cbcbbb0e5">&#9670;&#160;</a></span>assign() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -513,6 +459,37 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt">MR::EdgeColors::operator=</span>. </p>
+
+</div>
+</div>
+<a id="a345cb1c5817651af3f30b4cb29ae437a" name="a345cb1c5817651af3f30b4cb29ae437a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a345cb1c5817651af3f30b4cb29ae437a">&#9670;&#160;</a></span>assign() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.EdgeColors.assign </td>
+          <td>(</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>count</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Color.html">MR.Color</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>replaces the contents with <code class="param">count</code> copies of <code class="param">val</code> Generated from method <span class="tt"><a class="el" href="#ad48de439f751767acf4bb72cbcbbb0e5" title="Generated from method MR.EdgeColors.operator=.">MR.EdgeColors.assign</a></span>. </p>
 
 </div>
 </div>
@@ -570,7 +547,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <span class="tt"><a class="el" href="#a481dcc844767d83f7568703c69db84cc" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">MR.EdgeColors.autoResizeSet</a></span>. </p>
+<p>sets the element i to the given value, adjusting the size of the vector to include new element Generated from method <span class="tt"><a class="el" href="#a481dcc844767d83f7568703c69db84cc" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">MR.EdgeColors.autoResizeSet</a></span>. </p>
 
 </div>
 </div>
@@ -715,58 +692,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt"><a class="el" href="#ae11de232dd8fc5db2fe7b68d6fa756b5" title="Generated from method MR.EdgeColors.front.">MR.EdgeColors.front</a></span>. </p>
-
-</div>
-</div>
-<a id="ac63f0c90dabf4b3880267ece19d99285" name="ac63f0c90dabf4b3880267ece19d99285"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac63f0c90dabf4b3880267ece19d99285">&#9670;&#160;</a></span>GetEnumerator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">new IEnumerator&lt; MR.Misc.Ref&lt; <a class="el" href="structMR_1_1Color.html">MR.Color</a> &gt; &gt; MR.EdgeColors.GetEnumerator </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a208b147c82a688ad6c9a12cc61411cf0" name="a208b147c82a688ad6c9a12cc61411cf0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a208b147c82a688ad6c9a12cc61411cf0">&#9670;&#160;</a></span>operator EdgeColors()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe implicit MR.EdgeColors.operator <a class="el" href="classMR_1_1EdgeColors.html">EdgeColors</a> </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" title="Constructs an empty (default-constructed) instance.">MR.EdgeColors.EdgeColors</a></span>. </p>
 
 </div>
 </div>
@@ -940,8 +865,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="abf2a80a0c7eb6d77a39d6029e76c3246" name="abf2a80a0c7eb6d77a39d6029e76c3246"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf2a80a0c7eb6d77a39d6029e76c3246">&#9670;&#160;</a></span>resizeNoInit()</h2>
+<a id="a7f644b77f91f8a9b3d666397f8b242bf" name="a7f644b77f91f8a9b3d666397f8b242bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f644b77f91f8a9b3d666397f8b242bf">&#9670;&#160;</a></span>resizeNoInit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -952,8 +877,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.EdgeColors.resizeNoInit </td>
           <td>(</td>
-          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span></td><td>)</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706">MR.ReserveMode</a>?</td>          <td class="paramname"><span class="paramname"><em>mode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -963,7 +892,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from method <span class="tt"><a class="el" href="#abf2a80a0c7eb6d77a39d6029e76c3246" title="Generated from method MR.EdgeColors.resizeNoInit.">MR.EdgeColors.resizeNoInit</a></span>. </p>
+<p>Generated from method <span class="tt"><a class="el" href="#a7f644b77f91f8a9b3d666397f8b242bf" title="Generated from method MR.EdgeColors.resizeNoInit. Parameter mode defaults to MR.ReserveMode....">MR.EdgeColors.resizeNoInit</a></span>. Parameter <span class="tt">mode</span> defaults to <span class="tt"><a class="el" href="classMR.html#a0c944d981410e88c76f9aa0f222c0706a1649aed298f99d587e2eb30c1db5946b" title="exactly the target size: for a vector resized once">MR.ReserveMode.Exact</a></span>. </p>
 
 </div>
 </div>
@@ -990,7 +919,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#a78dbe0a122ae6ac00a7bf237383f9f79" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.EdgeColors.resizeWithReserve</a></span>. </p>
+<p>same as resize(newSize), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#a78dbe0a122ae6ac00a7bf237383f9f79" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.EdgeColors.resizeWithReserve</a></span>. </p>
 
 </div>
 </div>
@@ -1021,7 +950,34 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#a78dbe0a122ae6ac00a7bf237383f9f79" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.EdgeColors.resizeWithReserve</a></span>. </p>
+<p>same as resize(newSize, value), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#a78dbe0a122ae6ac00a7bf237383f9f79" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.EdgeColors.resizeWithReserve</a></span>. </p>
+
+</div>
+</div>
+<a id="ae087abfa4decdb54cf487136fbf3d30f" name="ae087abfa4decdb54cf487136fbf3d30f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae087abfa4decdb54cf487136fbf3d30f">&#9670;&#160;</a></span>shrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.EdgeColors.shrinkToFit </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt">MR::EdgeColors::shrink_to_fit</span>. </p>
 
 </div>
 </div>
@@ -1077,8 +1033,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ad74efbb79eac881f6cd36a6f9d79040f" name="ad74efbb79eac881f6cd36a6f9d79040f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad74efbb79eac881f6cd36a6f9d79040f">&#9670;&#160;</a></span>vec</h2>
+<a id="ab61118e49dba6e64558edb43474f9e02" name="ab61118e49dba6e64558edb43474f9e02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab61118e49dba6e64558edb43474f9e02">&#9670;&#160;</a></span>vec</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1087,7 +1043,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">new unsafe MR.Std.Vector_MRColor MR.EdgeColors.vec</td>
+          <td class="memname">new unsafe MR.Std.Vector_MRColor_MRAllocatorMRColor MR.EdgeColors.vec</td>
         </tr>
       </table>
   </td>

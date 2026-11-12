@@ -1,8 +1,9 @@
 var classmrmeshpy_1_1DeloneSettings =
 [
     [ "__init__", "classmrmeshpy_1_1DeloneSettings.html#a90339f6a8aa00ae65e73579898f5499c", null ],
-    [ "__init__", "classmrmeshpy_1_1DeloneSettings.html#a16ba078a461520d1302ad3a7db234316", null ],
-    [ "__init__", "classmrmeshpy_1_1DeloneSettings.html#a79576adaadd1eb40f9a356b0c353f6b7", null ],
+    [ "__init__", "classmrmeshpy_1_1DeloneSettings.html#a492eb6f9158974ed9b1b0b316e7af835", null ],
+    [ "__init__", "classmrmeshpy_1_1DeloneSettings.html#aa662d4eefaa2c6b5d738af583329ed02", null ],
+    [ "assign", "classmrmeshpy_1_1DeloneSettings.html#a86bc83afd5436bd216e00fb3724bb8b1", null ],
     [ "cache", "classmrmeshpy_1_1DeloneSettings.html#afba6b9789e71b94826472819a075a1ff", null ],
     [ "cache", "classmrmeshpy_1_1DeloneSettings.html#a9308e498908d9d830f3e315ed6a867b0", null ],
     [ "criticalTriAspectRatio", "classmrmeshpy_1_1DeloneSettings.html#a6f3e0cd4d7fd8fcdeac0587b83569177", null ],
@@ -12,9 +13,9 @@ var classmrmeshpy_1_1DeloneSettings =
     [ "maxDeviationAfterFlip", "classmrmeshpy_1_1DeloneSettings.html#a76845ab04c0635b101bf76601b744f34", null ],
     [ "maxDeviationAfterFlip", "classmrmeshpy_1_1DeloneSettings.html#a31aab6dfd5f30ef79ff9916499d11607", null ],
     [ "notFlippable", "classmrmeshpy_1_1DeloneSettings.html#a3a767967e878efcd7ca8a26b686e3ed4", null ],
-    [ "notFlippable", "classmrmeshpy_1_1DeloneSettings.html#a77f4e295bacda62ec17540f9196f60d1", null ],
+    [ "notFlippable", "classmrmeshpy_1_1DeloneSettings.html#a7daa18a8e07241e8a9f1692a0c13b4e3", null ],
     [ "region", "classmrmeshpy_1_1DeloneSettings.html#a82118a36822ad1ccf9562fda5900ce6f", null ],
-    [ "region", "classmrmeshpy_1_1DeloneSettings.html#ae5eec09e4ba1a3a836b8d460a42458d8", null ],
+    [ "region", "classmrmeshpy_1_1DeloneSettings.html#a90ed247566197fb5a6b89d415cc1aab8", null ],
     [ "vertRegion", "classmrmeshpy_1_1DeloneSettings.html#aa9d70190b18a745faad143325f8392c5", null ],
-    [ "vertRegion", "classmrmeshpy_1_1DeloneSettings.html#aadefc9bb5c15a729e4e1fd4a80b72f11", null ]
+    [ "vertRegion", "classmrmeshpy_1_1DeloneSettings.html#a4b8e6e32938349646cb662f6672f7f9d", null ]
 ];

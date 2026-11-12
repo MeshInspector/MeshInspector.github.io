@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -143,18 +136,17 @@ $(function(){initNavTree('classmrmeshpy_1_1MeshBuilder.html','',''); });
 
 <p>This is the complete list of members for <a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#a77478fcdefbfb8a088ae55649cd94e67">addTriangles</a>(MeshTopology res, Triangulation t, MeshBuilder.BuildSettings settings=...)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#aae7c34b952643069ef8835a51f189d23">addTriangles</a>(MeshTopology res, ConstTriangulation t, MeshBuilder.ConstBuildSettings settings=...)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#a72e956702aa6d97a9f42386c62c82cde">addTriangles</a>(MeshTopology res, std_vector_Id_VertTag vertTriples, FaceBitSet createdFaces=None)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#a12a346fa3021c4531e76a480d972534c">computeTrianglesRepetitions</a>(Triangulation t)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#a754931e6a400767e3deb21082c420bf5">duplicateNonManifoldVertices</a>(Triangulation t, FaceBitSet region=None, std_vector_MeshBuilder_VertDuplication dups=None, VertId lastValidVert=..., func_bool_from_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag betterCont='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#aeb7e376d2ef0642b04f2a91b112c07d0">fromDisjointMeshPieces</a>(Triangulation t, VertId maxVertId, std_vector_MeshBuilder_MeshPiece pieces, MeshBuilder.BuildSettings settings=...)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#ad9ece5052e51f249596c189c82bb389b">fromFaceSoup</a>(std_vector_Id_VertTag verts, Vector_MeshBuilder_VertSpan_FaceId faces, MeshBuilder.BuildSettings settings=..., func_bool_from_float progressCb='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#aeb341736ab836e78e93a0a07c82c24bf">fromPointTriples</a>(std_vector_std_array_Vector3_float_3ul posTriples)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#aa4bd5d4b091729150a600561887c409b">fromTriangles</a>(Triangulation t, MeshBuilder.BuildSettings settings=..., func_bool_from_float progressCb='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#a0452c4d89d63512e9982e32ecd49690a">fromTrianglesDuplicatingNonManifoldVertices</a>(Triangulation t, std_vector_MeshBuilder_VertDuplication dups=None, MeshBuilder.BuildSettings settings=..., func_bool_from_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag betterCont='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#a26fce56be7eaf72d3b57db97d6228139">operator</a>(MeshBuilder.VertTri l, MeshBuilder.VertTri r)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#ac457f5461aa9c10d42bef00c650d7e51">uniteCloseVertices</a>(Mesh mesh, float closeDist, bool uniteOnlyBd=True, VertMap optionalVertOldToNew=None)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#af2a4f9f7bde1a12adc0140bb4329dc26">uniteCloseVertices</a>(Mesh mesh, MeshBuilder.UniteCloseParams params=...)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#abaffd23a5727203383200fe43cf02bf0">computeTrianglesRepetitions</a>(ConstTriangulation t)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#a39a726d90e5918e859f15e27bb68c883">duplicateNonManifoldVertices</a>(Triangulation t, FaceBitSet region=None, std_vector_MeshBuilder_VertDuplication dups=None, ConstVertId lastValidVert=..., Const_func_bool_from_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag betterCont='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#aab5c72e4235e93d174f0feb2132e8172">fromDisjointMeshPieces</a>(ConstTriangulation t, ConstVertId maxVertId, Const_std_vector_MeshBuilder_MeshPiece pieces, MeshBuilder.ConstBuildSettings settings=...)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#a035097422d1a1b17af80973b299b702b">fromFaceSoup</a>(Const_std_vector_Id_VertTag verts, ConstVector_MeshBuilder_VertSpan_FaceId faces, MeshBuilder.ConstBuildSettings settings=..., Const_func_bool_from_float progressCb='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#afe3758ba2f6ea6a9657d2b55348381bc">fromPointTriples</a>(Const_std_vector_std_array_Vector3_float_3ul posTriples)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#a21e9dba446497381a4e2586c1ef01062">fromTriangles</a>(ConstTriangulation t, MeshBuilder.ConstBuildSettings settings=..., Const_func_bool_from_float progressCb='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#a7a9cbb76c5fc4aaf255cd7f77ddb15b6">fromTrianglesDuplicatingNonManifoldVertices</a>(Triangulation t, std_vector_MeshBuilder_VertDuplication dups=None, MeshBuilder.ConstBuildSettings settings=..., Const_func_bool_from_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag betterCont='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#ac457f5461aa9c10d42bef00c650d7e51">uniteCloseVertices</a>(Mesh mesh, float closeDist, bool uniteOnlyBd=True, VertMap optionalVertOldToNew=None)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html#a092483deaebb889d4d08d266c4cd3816">uniteCloseVertices</a>(Mesh mesh, MeshBuilder.ConstUniteCloseParams params=...)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1MeshBuilder.html">mrmeshpy.MeshBuilder</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

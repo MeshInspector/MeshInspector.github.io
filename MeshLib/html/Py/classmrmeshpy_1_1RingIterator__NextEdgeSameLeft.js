@@ -1,10 +1,7 @@
 var classmrmeshpy_1_1RingIterator__NextEdgeSameLeft =
 [
-    [ "__init__", "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#abbb22a2822cdf7a570181583195b2861", null ],
-    [ "__init__", "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#ac71797176508f6b96e6454c8aa9d283e", null ],
-    [ "__eq__", "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a323d61ab8bdc12c9c7fd0398f4e8211e", null ],
-    [ "__mul__", "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a2d6024ada276cbe0614a54440bdc5dcb", null ],
-    [ "__ne__", "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a84cfa4ff92b2255a86cab65254367294", null ],
-    [ "first", "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a2e070c48a25931bf480dc3dfbc9a73c0", null ],
-    [ "operator", "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a0930fa4627b59a5faf89f9f7d55bff90", null ]
+    [ "__init__", "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a517c42a7a6165ffa0050fc7cd3deee10", null ],
+    [ "__init__", "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#aab938b8a422f5f15142a5eb62045d960", null ],
+    [ "assign", "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#afe29406dd708e0d7f5bd5ab4c2c3ca25", null ],
+    [ "increment", "classmrmeshpy_1_1RingIterator__NextEdgeSameLeft.html#a2309cf67169841ce54f38dcfc40f4efb", null ]
 ];

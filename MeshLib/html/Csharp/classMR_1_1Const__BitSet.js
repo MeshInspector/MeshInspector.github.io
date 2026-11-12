@@ -1,5 +1,7 @@
 var classMR_1_1Const__BitSet =
 [
+    [ "Const_Counts", "classMR_1_1Const__BitSet_1_1Const__Counts.html", "classMR_1_1Const__BitSet_1_1Const__Counts" ],
+    [ "Counts", "classMR_1_1Const__BitSet_1_1Counts.html", "classMR_1_1Const__BitSet_1_1Counts" ],
     [ "Const_BitSet", "classMR_1_1Const__BitSet.html#afcd6b96cfc1ade119e8ee2b5a96e6609", null ],
     [ "Const_BitSet", "classMR_1_1Const__BitSet.html#a794444336f69ea91434163bba3bef901", null ],
     [ "Const_BitSet", "classMR_1_1Const__BitSet.html#a2bb5be6ea52977521906e22990790fdc", null ],
@@ -9,9 +11,10 @@ var classMR_1_1Const__BitSet =
     [ "any", "classMR_1_1Const__BitSet.html#ab8c0a0cd8cfd9fbc9df267181939d075", null ],
     [ "backId", "classMR_1_1Const__BitSet.html#a4bc20672b3ef49f1d8b34ae229c7b4e7", null ],
     [ "beginId", "classMR_1_1Const__BitSet.html#a91779f0eff06fb58a87e9c53983d14d0", null ],
-    [ "bits", "classMR_1_1Const__BitSet.html#a21bb3da5a779d50604750dc8401cd343", null ],
+    [ "bits", "classMR_1_1Const__BitSet.html#a1543128aee503dd85f41b10dc3fd5065", null ],
     [ "capacity", "classMR_1_1Const__BitSet.html#ae4f365ad6d739b9ae0a27195314b0182", null ],
     [ "count", "classMR_1_1Const__BitSet.html#acf70e770c48fc532a2701a1dceb4b371", null ],
+    [ "countBitsAndBlocks", "classMR_1_1Const__BitSet.html#afb10f9dc1a309b56242cc9331f45d566", null ],
     [ "Dispose", "classMR_1_1Const__BitSet.html#a593bc6d52bce5fe191af2677e0915780", null ],
     [ "Dispose", "classMR_1_1Const__BitSet.html#aa170da6bd65109ad26e089609cc48508", null ],
     [ "empty", "classMR_1_1Const__BitSet.html#afa150d5275b7fb203c67227c3fc2f26f", null ],
@@ -24,7 +27,7 @@ var classMR_1_1Const__BitSet =
     [ "findLastNotSet", "classMR_1_1Const__BitSet.html#a2a8fc01373ceff0849f2f0aee7ee3fc5", null ],
     [ "findNext", "classMR_1_1Const__BitSet.html#a186f0f3cb1c52907bac51c9f0ed76abd", null ],
     [ "findNextNotSet", "classMR_1_1Const__BitSet.html#a49b79432e60320f982d8c0bfb6f31169", null ],
-    [ "fromBlocks", "classMR_1_1Const__BitSet.html#aa0abb6c08600e92908773a9e6141b25e", null ],
+    [ "fromBlocks", "classMR_1_1Const__BitSet.html#a8ffb1990134754d356ad58155ee8d904", null ],
     [ "GetEnumerator", "classMR_1_1Const__BitSet.html#aa7b11e35648c918c5ba413438eede503", null ],
     [ "heapBytes", "classMR_1_1Const__BitSet.html#a7c93510c672aa37c04baabaffef56713", null ],
     [ "intersects", "classMR_1_1Const__BitSet.html#adc5e85c1a7292e3dce1930d29bd51380", null ],

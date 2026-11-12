@@ -1,11 +1,11 @@
 var classmrmeshpy_1_1FreeFormBestFit =
 [
-    [ "__init__", "classmrmeshpy_1_1FreeFormBestFit.html#a732f9108657fb491361c86aaa8aaad50", null ],
-    [ "__init__", "classmrmeshpy_1_1FreeFormBestFit.html#a62703f169f6d046ffcb0251df2a0ba2b", null ],
-    [ "addOther", "classmrmeshpy_1_1FreeFormBestFit.html#a3c8e2ddc8430ab8fafacd693d232cec7", null ],
-    [ "addPair", "classmrmeshpy_1_1FreeFormBestFit.html#a66891ecb6c0c9cf0fd5c99ebe9ec0cb3", null ],
-    [ "addPair", "classmrmeshpy_1_1FreeFormBestFit.html#a839a6a6dc20a98a638944a3a74ce0465", null ],
+    [ "__init__", "classmrmeshpy_1_1FreeFormBestFit.html#a553ee47d951aa45ce4564f6af245503a", null ],
+    [ "__init__", "classmrmeshpy_1_1FreeFormBestFit.html#a6a7caedc80f473fe6427716bbd05f14a", null ],
+    [ "addOther", "classmrmeshpy_1_1FreeFormBestFit.html#a9265434964418a3b341b243c614a37bb", null ],
+    [ "addPair", "classmrmeshpy_1_1FreeFormBestFit.html#a13f5c4bad1438e057e565c76967dc9ca", null ],
+    [ "addPair", "classmrmeshpy_1_1FreeFormBestFit.html#a6f093831cfa3dad7eb11904e1255a6b5", null ],
+    [ "assign", "classmrmeshpy_1_1FreeFormBestFit.html#ac067c5ef0119c4367e6d593a50b4208f", null ],
     [ "findBestDeformationReferenceGrid", "classmrmeshpy_1_1FreeFormBestFit.html#a40233825f083dbd04b257833a33fb8a2", null ],
-    [ "getStabilizer", "classmrmeshpy_1_1FreeFormBestFit.html#a32ac7a05e561184e067956f99fec03a9", null ],
     [ "setStabilizer", "classmrmeshpy_1_1FreeFormBestFit.html#ab87f326cd1a976f95696f85920ec6f24", null ]
 ];

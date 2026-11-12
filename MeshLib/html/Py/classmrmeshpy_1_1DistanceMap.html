@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,7 +133,6 @@ $(function(){initNavTree('classmrmeshpy_1_1DistanceMap.html','','classmrmeshpy_1
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classmrmeshpy_1_1DistanceMap-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.DistanceMap Class Reference</div></div>
 </div><!--header-->
@@ -152,82 +144,89 @@ $(function(){initNavTree('classmrmeshpy_1_1DistanceMap.html','','classmrmeshpy_1
  <div class="center">
   <img src="classmrmeshpy_1_1DistanceMap.png" usemap="#mrmeshpy_2EDistanceMap_map" alt=""/>
   <map id="mrmeshpy_2EDistanceMap_map" name="mrmeshpy_2EDistanceMap_map">
-<area href="classmrmeshpy_1_1RectIndexer.html" alt="mrmeshpy.RectIndexer" shape="rect" coords="0,0,147,24"/>
+<area href="classmrmeshpy_1_1ConstDistanceMap.html" alt="mrmeshpy.ConstDistanceMap" shape="rect" coords="0,56,179,80"/>
+<area href="classmrmeshpy_1_1RectIndexer.html" alt="mrmeshpy.RectIndexer" shape="rect" coords="189,56,368,80"/>
+<area href="classmrmeshpy_1_1ConstRectIndexer.html" alt="mrmeshpy.ConstRectIndexer" shape="rect" coords="0,0,179,24"/>
+<area href="classmrmeshpy_1_1ConstRectIndexer.html" alt="mrmeshpy.ConstRectIndexer" shape="rect" coords="189,0,368,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae3315272a9e1826dcda63ec5b5358629" id="r_ae3315272a9e1826dcda63ec5b5358629"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3315272a9e1826dcda63ec5b5358629">__init__</a> (self)</td></tr>
-<tr class="memitem:a3ce5d48e25a8951884962a8ea4c78959" id="r_a3ce5d48e25a8951884962a8ea4c78959"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ce5d48e25a8951884962a8ea4c78959">__init__</a> (self, int <a class="el" href="#afbc7c0381be6fd416dabf79de9b1cc76">resX</a>, int <a class="el" href="#ad39837ff357a34562a6030f04d370d25">resY</a>)</td></tr>
-<tr class="memitem:aa2c3ba1a8b94b798f418223a5561ce71" id="r_aa2c3ba1a8b94b798f418223a5561ce71"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2c3ba1a8b94b798f418223a5561ce71">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Matrix__float.html">Matrix_float</a> m)</td></tr>
-<tr class="memitem:ad38a0abf119f8ad2f14ffda136ceed4c" id="r_ad38a0abf119f8ad2f14ffda136ceed4c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad38a0abf119f8ad2f14ffda136ceed4c">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> arg0)</td></tr>
-<tr class="memitem:adb4ebdb589d86793bac94b9ee60d40b3" id="r_adb4ebdb589d86793bac94b9ee60d40b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb4ebdb589d86793bac94b9ee60d40b3">__isub__</a> (self, <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> rhs)</td></tr>
-<tr class="memitem:acde3c8b98de14ca34093e2d7be48aee8" id="r_acde3c8b98de14ca34093e2d7be48aee8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acde3c8b98de14ca34093e2d7be48aee8">__sub__</a> (self, <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> rhs)</td></tr>
+<tr class="memitem:a3ce5d48e25a8951884962a8ea4c78959" id="r_a3ce5d48e25a8951884962a8ea4c78959"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ce5d48e25a8951884962a8ea4c78959">__init__</a> (self, int <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#abc321fff166c44828225ae7e4bf5bbc1">resX</a>, int <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a05292399f154045b77b8996da9197785">resY</a>)</td></tr>
+<tr class="memitem:a2f9b4da59eb55c96782b90804fc8bc3e" id="r_a2f9b4da59eb55c96782b90804fc8bc3e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f9b4da59eb55c96782b90804fc8bc3e">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstMatrix__float.html">ConstMatrix_float</a> m)</td></tr>
+<tr class="memitem:a5a4d925868979e349444dc7a633ded5f" id="r_a5a4d925868979e349444dc7a633ded5f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a4d925868979e349444dc7a633ded5f">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a> arg0)</td></tr>
+<tr class="memitem:aa45177e7e59493b02528f2fc6eaa623a" id="r_aa45177e7e59493b02528f2fc6eaa623a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa45177e7e59493b02528f2fc6eaa623a">__isub__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a> rhs)</td></tr>
+<tr class="memitem:a3e0107c9ca9457f1abeba3011d7efaea" id="r_a3e0107c9ca9457f1abeba3011d7efaea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e0107c9ca9457f1abeba3011d7efaea">assign</a> (self, <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a> other)</td></tr>
 <tr class="memitem:a7a52b1d24279d4963c5254956479c363" id="r_a7a52b1d24279d4963c5254956479c363"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a52b1d24279d4963c5254956479c363">clear</a> (self)</td></tr>
 <tr class="memitem:a63e4bbe59438f62bbb4ba72ff927ae12" id="r_a63e4bbe59438f62bbb4ba72ff927ae12"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63e4bbe59438f62bbb4ba72ff927ae12">data</a> (self)</td></tr>
-<tr class="memitem:a63e4bbe59438f62bbb4ba72ff927ae12" id="r_a63e4bbe59438f62bbb4ba72ff927ae12"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63e4bbe59438f62bbb4ba72ff927ae12">data</a> (self)</td></tr>
-<tr class="memitem:a7e888eb88fa0f46afd777d99688a1bb0" id="r_a7e888eb88fa0f46afd777d99688a1bb0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e888eb88fa0f46afd777d99688a1bb0">get</a> (self, int x, int y)</td></tr>
-<tr class="memitem:a0cfcf83993e0484482e0b55134093058" id="r_a0cfcf83993e0484482e0b55134093058"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cfcf83993e0484482e0b55134093058">get</a> (self, int i)</td></tr>
-<tr class="memitem:a7a49e628d3e20e4e0344d2bba3e073a0" id="r_a7a49e628d3e20e4e0344d2bba3e073a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a49e628d3e20e4e0344d2bba3e073a0">getDerivativeMap</a> (self)</td></tr>
-<tr class="memitem:ab07701566109d7569fe114fe29eae7ab" id="r_ab07701566109d7569fe114fe29eae7ab"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab07701566109d7569fe114fe29eae7ab">getInterpolated</a> (self, float x, float y)</td></tr>
-<tr class="memitem:a391a6f362d8c17aaa4eeb82b72194a00" id="r_a391a6f362d8c17aaa4eeb82b72194a00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__std__pair__unsigned__long__unsigned__long.html">std_vector_std_pair_unsigned_long_unsigned_long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a391a6f362d8c17aaa4eeb82b72194a00">getLocalMaximums</a> (self)</td></tr>
-<tr class="memitem:ab95eb68eb6db30d47f2974685d966692" id="r_ab95eb68eb6db30d47f2974685d966692"><td class="memItemLeft" align="right" valign="top">tuple[int, int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab95eb68eb6db30d47f2974685d966692">getMaxIndex</a> (self)</td></tr>
-<tr class="memitem:a081fcb23e72e61a9fc11991745f50a30" id="r_a081fcb23e72e61a9fc11991745f50a30"><td class="memItemLeft" align="right" valign="top">tuple[int, int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a081fcb23e72e61a9fc11991745f50a30">getMinIndex</a> (self)</td></tr>
-<tr class="memitem:ab50df8b8a974f6540b3499109b35f2de" id="r_ab50df8b8a974f6540b3499109b35f2de"><td class="memItemLeft" align="right" valign="top">tuple[float, float]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab50df8b8a974f6540b3499109b35f2de">getMinMaxValues</a> (self)</td></tr>
-<tr class="memitem:a090a22321d528a72585649f477857cb0" id="r_a090a22321d528a72585649f477857cb0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a090a22321d528a72585649f477857cb0">getValue</a> (self, int x, int y)</td></tr>
+<tr class="memitem:a3184d99e818b9743c82cd007881c7c06" id="r_a3184d99e818b9743c82cd007881c7c06"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3184d99e818b9743c82cd007881c7c06">data</a> (<a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a> self)</td></tr>
 <tr class="memitem:a090a22321d528a72585649f477857cb0" id="r_a090a22321d528a72585649f477857cb0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a090a22321d528a72585649f477857cb0">getValue</a> (self, int x, int y)</td></tr>
 <tr class="memitem:a7176a26fd0a2d3fb609380120bed17ca" id="r_a7176a26fd0a2d3fb609380120bed17ca"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7176a26fd0a2d3fb609380120bed17ca">getValue</a> (self, int i)</td></tr>
-<tr class="memitem:a7176a26fd0a2d3fb609380120bed17ca" id="r_a7176a26fd0a2d3fb609380120bed17ca"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7176a26fd0a2d3fb609380120bed17ca">getValue</a> (self, int i)</td></tr>
-<tr class="memitem:a863eeac2667485bd1f3c147ea7e00b2f" id="r_a863eeac2667485bd1f3c147ea7e00b2f"><td class="memItemLeft" align="right" valign="top">tuple[<a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>, <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a863eeac2667485bd1f3c147ea7e00b2f">getXYDerivativeMaps</a> (self)</td></tr>
-<tr class="memitem:a7990f039d9bb539daf3eac5b98ccd82a" id="r_a7990f039d9bb539daf3eac5b98ccd82a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7990f039d9bb539daf3eac5b98ccd82a">heapBytes</a> (self)</td></tr>
+<tr class="memitem:abcbd44bcbdc419f3580b56aac8245954" id="r_abcbd44bcbdc419f3580b56aac8245954"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcbd44bcbdc419f3580b56aac8245954">getValue</a> (<a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a> self, int x, int y)</td></tr>
+<tr class="memitem:a566909c6fac42095557e834871a573f1" id="r_a566909c6fac42095557e834871a573f1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a566909c6fac42095557e834871a573f1">getValue</a> (<a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a> self, int i)</td></tr>
 <tr class="memitem:a05d1eba8ff76490bd9172494d4f74180" id="r_a05d1eba8ff76490bd9172494d4f74180"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05d1eba8ff76490bd9172494d4f74180">invalidateAll</a> (self)</td></tr>
-<tr class="memitem:a118e0cb0b1208fe375f6935d199b2590" id="r_a118e0cb0b1208fe375f6935d199b2590"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a118e0cb0b1208fe375f6935d199b2590">isInBounds</a> (self, int x, int y)</td></tr>
-<tr class="memitem:a9655d0c016666074572593e1b2f3d6cb" id="r_a9655d0c016666074572593e1b2f3d6cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9655d0c016666074572593e1b2f3d6cb">isInBounds</a> (self, int i)</td></tr>
-<tr class="memitem:a8d3f2aa72cf7b72e7eef7032f5827192" id="r_a8d3f2aa72cf7b72e7eef7032f5827192"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d3f2aa72cf7b72e7eef7032f5827192">isValid</a> (self, int x, int y)</td></tr>
-<tr class="memitem:a27a08ddedb7c39e1931b610c44c9190c" id="r_a27a08ddedb7c39e1931b610c44c9190c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27a08ddedb7c39e1931b610c44c9190c">isValid</a> (self, int i)</td></tr>
-<tr class="memitem:a64aed4765956bb6b60139649da49a423" id="r_a64aed4765956bb6b60139649da49a423"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64aed4765956bb6b60139649da49a423">max</a> (self, <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> rhs)</td></tr>
-<tr class="memitem:a0ef5099c9cd32274c166064f2be060dd" id="r_a0ef5099c9cd32274c166064f2be060dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ef5099c9cd32274c166064f2be060dd">mergeMax</a> (self, <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> rhs)</td></tr>
-<tr class="memitem:a35af11c524f7a0157908d17bf64fe834" id="r_a35af11c524f7a0157908d17bf64fe834"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35af11c524f7a0157908d17bf64fe834">mergeMin</a> (self, <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> rhs)</td></tr>
-<tr class="memitem:adcfb77ff925b064cc4062d108947c93f" id="r_adcfb77ff925b064cc4062d108947c93f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcfb77ff925b064cc4062d108947c93f">min</a> (self, <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> rhs)</td></tr>
+<tr class="memitem:a0d5ba5d9aef42c947246133ffd981994" id="r_a0d5ba5d9aef42c947246133ffd981994"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d5ba5d9aef42c947246133ffd981994">mergeMax</a> (self, <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a> rhs)</td></tr>
+<tr class="memitem:aab013b7a3daf6f59f62a9cc0b10f848a" id="r_aab013b7a3daf6f59f62a9cc0b10f848a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab013b7a3daf6f59f62a9cc0b10f848a">mergeMin</a> (self, <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a> rhs)</td></tr>
 <tr class="memitem:abfd2a2dc64b599de75b50efa05d23d46" id="r_abfd2a2dc64b599de75b50efa05d23d46"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfd2a2dc64b599de75b50efa05d23d46">negate</a> (self)</td></tr>
-<tr class="memitem:a9acc8913f87d3fa28af1c526af77d808" id="r_a9acc8913f87d3fa28af1c526af77d808"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9acc8913f87d3fa28af1c526af77d808">numPoints</a> (self)</td></tr>
-<tr class="memitem:afbc7c0381be6fd416dabf79de9b1cc76" id="r_afbc7c0381be6fd416dabf79de9b1cc76"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbc7c0381be6fd416dabf79de9b1cc76">resX</a> (self)</td></tr>
-<tr class="memitem:ad39837ff357a34562a6030f04d370d25" id="r_ad39837ff357a34562a6030f04d370d25"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad39837ff357a34562a6030f04d370d25">resY</a> (self)</td></tr>
 <tr class="memitem:a6f7b08538de34316e3d7d56401783eb5" id="r_a6f7b08538de34316e3d7d56401783eb5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f7b08538de34316e3d7d56401783eb5">set</a> (self, int x, int y, float val)</td></tr>
 <tr class="memitem:aa95dcbecad0297a5626eb78cc03feb8a" id="r_aa95dcbecad0297a5626eb78cc03feb8a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa95dcbecad0297a5626eb78cc03feb8a">set</a> (self, int i, float val)</td></tr>
-<tr class="memitem:a3d38b0567a056a385909d3efcc32af75" id="r_a3d38b0567a056a385909d3efcc32af75"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d38b0567a056a385909d3efcc32af75">set</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> <a class="el" href="#a63e4bbe59438f62bbb4ba72ff927ae12">data</a>)</td></tr>
-<tr class="memitem:aad906a61939a24efbe2dcb78be89768a" id="r_aad906a61939a24efbe2dcb78be89768a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad906a61939a24efbe2dcb78be89768a">unproject</a> (self, int x, int y, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> toWorld)</td></tr>
-<tr class="memitem:a331733fe82cbf5d65d714fde659d9497" id="r_a331733fe82cbf5d65d714fde659d9497"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a331733fe82cbf5d65d714fde659d9497">unprojectInterpolated</a> (self, float x, float y, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> toWorld)</td></tr>
+<tr class="memitem:aed3a5120992d4c78d627d9369d9e53c5" id="r_aed3a5120992d4c78d627d9369d9e53c5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed3a5120992d4c78d627d9369d9e53c5">set</a> (self, <a class="el" href="classmrmeshpy_1_1Const__std__vector__float.html">Const_std_vector_float</a> <a class="el" href="#a63e4bbe59438f62bbb4ba72ff927ae12">data</a>)</td></tr>
 <tr class="memitem:a4826a35db2c7dac2099ead94bb33cedd" id="r_a4826a35db2c7dac2099ead94bb33cedd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4826a35db2c7dac2099ead94bb33cedd">unset</a> (self, int x, int y)</td></tr>
 <tr class="memitem:af82e99083918b62aa7c98c1019aa7467" id="r_af82e99083918b62aa7c98c1019aa7467"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af82e99083918b62aa7c98c1019aa7467">unset</a> (self, int i)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstDistanceMap"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstDistanceMap')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">mrmeshpy.ConstDistanceMap</a></td></tr>
+<tr class="memitem:a9da20734c18ab4dcee54f73f9e6c50be inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a9da20734c18ab4dcee54f73f9e6c50be"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a9da20734c18ab4dcee54f73f9e6c50be">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:a3ab9247987c5baa3b9a03a0b3857758b inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a3ab9247987c5baa3b9a03a0b3857758b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a3ab9247987c5baa3b9a03a0b3857758b">__sub__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a> rhs)</td></tr>
+<tr class="memitem:a09e27fc12671c3d85bb820ba4db3da39 inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a09e27fc12671c3d85bb820ba4db3da39"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a09e27fc12671c3d85bb820ba4db3da39">get</a> (self, int x, int y)</td></tr>
+<tr class="memitem:a3c8e2ab37bf1ce61fae2f757f6ff8050 inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a3c8e2ab37bf1ce61fae2f757f6ff8050"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a3c8e2ab37bf1ce61fae2f757f6ff8050">get</a> (self, int i)</td></tr>
+<tr class="memitem:a715084c4a4b7b854176c7ade336db97a inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a715084c4a4b7b854176c7ade336db97a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a715084c4a4b7b854176c7ade336db97a">getDerivativeMap</a> (self)</td></tr>
+<tr class="memitem:a323d73138588148566c46f259235e5b1 inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a323d73138588148566c46f259235e5b1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a323d73138588148566c46f259235e5b1">getInterpolated</a> (self, float x, float y)</td></tr>
+<tr class="memitem:a8f3bd7e703da1214b5085e139339ef04 inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a8f3bd7e703da1214b5085e139339ef04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__std__pair__unsigned__long__unsigned__long.html">std_vector_std_pair_unsigned_long_unsigned_long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a8f3bd7e703da1214b5085e139339ef04">getLocalMaximums</a> (self)</td></tr>
+<tr class="memitem:a8846b65411a42ac98c70e54b162c0367 inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a8846b65411a42ac98c70e54b162c0367"><td class="memItemLeft" align="right" valign="top">tuple[int, int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a8846b65411a42ac98c70e54b162c0367">getMaxIndex</a> (self)</td></tr>
+<tr class="memitem:a52c444a7f4896dad7523f468af7a78ff inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a52c444a7f4896dad7523f468af7a78ff"><td class="memItemLeft" align="right" valign="top">tuple[int, int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a52c444a7f4896dad7523f468af7a78ff">getMinIndex</a> (self)</td></tr>
+<tr class="memitem:a3860cf7638ec0db3dabd1b4f69e131af inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a3860cf7638ec0db3dabd1b4f69e131af"><td class="memItemLeft" align="right" valign="top">tuple[float, float]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a3860cf7638ec0db3dabd1b4f69e131af">getMinMaxValues</a> (self)</td></tr>
+<tr class="memitem:a40d4dc47488135f13da655bd1d612d7a inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a40d4dc47488135f13da655bd1d612d7a"><td class="memItemLeft" align="right" valign="top">tuple[<a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>, <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a40d4dc47488135f13da655bd1d612d7a">getXYDerivativeMaps</a> (self)</td></tr>
+<tr class="memitem:a5edc67af6abbb3d06f7a685a208d0de6 inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a5edc67af6abbb3d06f7a685a208d0de6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a5edc67af6abbb3d06f7a685a208d0de6">heapBytes</a> (self)</td></tr>
+<tr class="memitem:a8c4ee53e027d889ce4688b06da3105de inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a8c4ee53e027d889ce4688b06da3105de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a8c4ee53e027d889ce4688b06da3105de">isInBounds</a> (self, int x, int y)</td></tr>
+<tr class="memitem:a1165d51a8c3c07be2da9aa0f4351b947 inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a1165d51a8c3c07be2da9aa0f4351b947"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a1165d51a8c3c07be2da9aa0f4351b947">isInBounds</a> (self, int i)</td></tr>
+<tr class="memitem:acd3f0618fb778d50e29d46281fc42636 inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_acd3f0618fb778d50e29d46281fc42636"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#acd3f0618fb778d50e29d46281fc42636">isValid</a> (self, int x, int y)</td></tr>
+<tr class="memitem:aca5835bc156f220b1ab1ed10a6dd702e inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_aca5835bc156f220b1ab1ed10a6dd702e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#aca5835bc156f220b1ab1ed10a6dd702e">isValid</a> (self, int i)</td></tr>
+<tr class="memitem:a9d93e3cfbd6f1195da429e380591da11 inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a9d93e3cfbd6f1195da429e380591da11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a9d93e3cfbd6f1195da429e380591da11">max</a> (self, <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a> rhs)</td></tr>
+<tr class="memitem:a2eeacf6321a6c39f00f1961f1731f4c4 inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a2eeacf6321a6c39f00f1961f1731f4c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a2eeacf6321a6c39f00f1961f1731f4c4">min</a> (self, <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a> rhs)</td></tr>
+<tr class="memitem:a40e7145ff25d5f44e80bc80da3fe5912 inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a40e7145ff25d5f44e80bc80da3fe5912"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a40e7145ff25d5f44e80bc80da3fe5912">numPoints</a> (self)</td></tr>
+<tr class="memitem:abc321fff166c44828225ae7e4bf5bbc1 inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_abc321fff166c44828225ae7e4bf5bbc1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#abc321fff166c44828225ae7e4bf5bbc1">resX</a> (self)</td></tr>
+<tr class="memitem:a05292399f154045b77b8996da9197785 inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a05292399f154045b77b8996da9197785"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a05292399f154045b77b8996da9197785">resY</a> (self)</td></tr>
+<tr class="memitem:a464d7b7a6596c40b2974037d616a6e31 inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_a464d7b7a6596c40b2974037d616a6e31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a464d7b7a6596c40b2974037d616a6e31">unproject</a> (self, int x, int y, <a class="el" href="classmrmeshpy_1_1ConstAffineXf3f.html">ConstAffineXf3f</a> toWorld)</td></tr>
+<tr class="memitem:ad85b758627c42de9003786c9d6dc7f86 inherit pub_methods_classmrmeshpy_1_1ConstDistanceMap" id="r_ad85b758627c42de9003786c9d6dc7f86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#ad85b758627c42de9003786c9d6dc7f86">unprojectInterpolated</a> (self, float x, float y, <a class="el" href="classmrmeshpy_1_1ConstAffineXf3f.html">ConstAffineXf3f</a> toWorld)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstRectIndexer"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstRectIndexer')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstRectIndexer.html">mrmeshpy.ConstRectIndexer</a></td></tr>
+<tr class="memitem:aebc20ec9f28f0dac642fd75f6de39421 inherit pub_methods_classmrmeshpy_1_1ConstRectIndexer" id="r_aebc20ec9f28f0dac642fd75f6de39421"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstRectIndexer.html#aebc20ec9f28f0dac642fd75f6de39421">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:af38dca968a23b73d4a17ac8bcf7bcbd8 inherit pub_methods_classmrmeshpy_1_1ConstRectIndexer" id="r_af38dca968a23b73d4a17ac8bcf7bcbd8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstRectIndexer.html#af38dca968a23b73d4a17ac8bcf7bcbd8">areNeigbors</a> (self, <a class="el" href="classmrmeshpy_1_1ConstPixelId.html">ConstPixelId</a> v0, <a class="el" href="classmrmeshpy_1_1ConstPixelId.html">ConstPixelId</a> v1)</td></tr>
+<tr class="memitem:a368d1a65385df1e71e91d5a4ac624838 inherit pub_methods_classmrmeshpy_1_1ConstRectIndexer" id="r_a368d1a65385df1e71e91d5a4ac624838"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstRectIndexer.html#a368d1a65385df1e71e91d5a4ac624838">areNeigbors</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector2i.html">ConstVector2i</a> pos0, <a class="el" href="classmrmeshpy_1_1ConstVector2i.html">ConstVector2i</a> pos1)</td></tr>
+<tr class="memitem:a55f7d9efb6be29d92643f17e7a8cebbb inherit pub_methods_classmrmeshpy_1_1ConstRectIndexer" id="r_a55f7d9efb6be29d92643f17e7a8cebbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstVector2i.html">ConstVector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstRectIndexer.html#a55f7d9efb6be29d92643f17e7a8cebbb">dims</a> (self)</td></tr>
+<tr class="memitem:ab7023492082867269cd181783022c970 inherit pub_methods_classmrmeshpy_1_1ConstRectIndexer" id="r_ab7023492082867269cd181783022c970"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PixelId.html">PixelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstRectIndexer.html#ab7023492082867269cd181783022c970">getNeighbor</a> (self, <a class="el" href="classmrmeshpy_1_1ConstPixelId.html">ConstPixelId</a> v, <a class="el" href="classmrmeshpy_1_1OutEdge2.html">OutEdge2</a> toNei)</td></tr>
+<tr class="memitem:afcfb47fd87b6ac2e2691f907be6be1aa inherit pub_methods_classmrmeshpy_1_1ConstRectIndexer" id="r_afcfb47fd87b6ac2e2691f907be6be1aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PixelId.html">PixelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstRectIndexer.html#afcfb47fd87b6ac2e2691f907be6be1aa">getNeighbor</a> (self, <a class="el" href="classmrmeshpy_1_1ConstPixelId.html">ConstPixelId</a> v, <a class="el" href="classmrmeshpy_1_1ConstVector2i.html">ConstVector2i</a> pos, <a class="el" href="classmrmeshpy_1_1OutEdge2.html">OutEdge2</a> toNei)</td></tr>
+<tr class="memitem:a67aa47570abe7f6cc39d9294d0129b92 inherit pub_methods_classmrmeshpy_1_1ConstRectIndexer" id="r_a67aa47570abe7f6cc39d9294d0129b92"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstRectIndexer.html#a67aa47570abe7f6cc39d9294d0129b92">size</a> (self)</td></tr>
+<tr class="memitem:a08bcf512f7cea1561f29707913ba22bf inherit pub_methods_classmrmeshpy_1_1ConstRectIndexer" id="r_a08bcf512f7cea1561f29707913ba22bf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstRectIndexer.html#a08bcf512f7cea1561f29707913ba22bf">toIndex</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector2i.html">ConstVector2i</a> pos)</td></tr>
+<tr class="memitem:af836ee7805a9db43c7e2f87f7dde7e58 inherit pub_methods_classmrmeshpy_1_1ConstRectIndexer" id="r_af836ee7805a9db43c7e2f87f7dde7e58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PixelId.html">PixelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstRectIndexer.html#af836ee7805a9db43c7e2f87f7dde7e58">toPixelId</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector2i.html">ConstVector2i</a> pos)</td></tr>
+<tr class="memitem:aed1e4b21f0ce2566a779e72d53a7fa41 inherit pub_methods_classmrmeshpy_1_1ConstRectIndexer" id="r_aed1e4b21f0ce2566a779e72d53a7fa41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector2i.html">Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstRectIndexer.html#aed1e4b21f0ce2566a779e72d53a7fa41">toPos</a> (self, <a class="el" href="classmrmeshpy_1_1ConstPixelId.html">ConstPixelId</a> id)</td></tr>
+<tr class="memitem:a60c51dbb98b04c8c996509e7cd031cc4 inherit pub_methods_classmrmeshpy_1_1ConstRectIndexer" id="r_a60c51dbb98b04c8c996509e7cd031cc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector2i.html">Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstRectIndexer.html#a60c51dbb98b04c8c996509e7cd031cc4">toPos</a> (self, int id)</td></tr>
 <tr class="inherit_header pub_methods_classmrmeshpy_1_1RectIndexer"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1RectIndexer')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1RectIndexer.html">mrmeshpy.RectIndexer</a></td></tr>
 <tr class="memitem:acbb640ce6d30728b95373b2ff8890c80 inherit pub_methods_classmrmeshpy_1_1RectIndexer" id="r_acbb640ce6d30728b95373b2ff8890c80"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#acbb640ce6d30728b95373b2ff8890c80">__init__</a> (self)</td></tr>
-<tr class="memitem:a86960072848a0aafb6e007d0694220d6 inherit pub_methods_classmrmeshpy_1_1RectIndexer" id="r_a86960072848a0aafb6e007d0694220d6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#a86960072848a0aafb6e007d0694220d6">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Vector2i.html">Vector2i</a> <a class="el" href="classmrmeshpy_1_1RectIndexer.html#a9ba99f18552f382c8e2f10540e3c9630">dims</a>)</td></tr>
-<tr class="memitem:a79c40c5a4132c74a4cbef5d9739e7e69 inherit pub_methods_classmrmeshpy_1_1RectIndexer" id="r_a79c40c5a4132c74a4cbef5d9739e7e69"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#a79c40c5a4132c74a4cbef5d9739e7e69">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1RectIndexer.html">RectIndexer</a> arg0)</td></tr>
-<tr class="memitem:a27e451d40797215779c9255b084d99f7 inherit pub_methods_classmrmeshpy_1_1RectIndexer" id="r_a27e451d40797215779c9255b084d99f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#a27e451d40797215779c9255b084d99f7">areNeigbors</a> (self, <a class="el" href="classmrmeshpy_1_1PixelId.html">PixelId</a> v0, <a class="el" href="classmrmeshpy_1_1PixelId.html">PixelId</a> v1)</td></tr>
-<tr class="memitem:a6c23c4d90dc1fef793b740fc91956626 inherit pub_methods_classmrmeshpy_1_1RectIndexer" id="r_a6c23c4d90dc1fef793b740fc91956626"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#a6c23c4d90dc1fef793b740fc91956626">areNeigbors</a> (self, <a class="el" href="classmrmeshpy_1_1Vector2i.html">Vector2i</a> pos0, <a class="el" href="classmrmeshpy_1_1Vector2i.html">Vector2i</a> pos1)</td></tr>
-<tr class="memitem:a9ba99f18552f382c8e2f10540e3c9630 inherit pub_methods_classmrmeshpy_1_1RectIndexer" id="r_a9ba99f18552f382c8e2f10540e3c9630"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector2i.html">Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#a9ba99f18552f382c8e2f10540e3c9630">dims</a> (self)</td></tr>
-<tr class="memitem:a87ec23ff9e60e4e9efcd49d86c652153 inherit pub_methods_classmrmeshpy_1_1RectIndexer" id="r_a87ec23ff9e60e4e9efcd49d86c652153"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PixelId.html">PixelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#a87ec23ff9e60e4e9efcd49d86c652153">getNeighbor</a> (self, <a class="el" href="classmrmeshpy_1_1PixelId.html">PixelId</a> v, <a class="el" href="classmrmeshpy_1_1OutEdge2.html">OutEdge2</a> toNei)</td></tr>
-<tr class="memitem:aa645b2294161a3337fa6eb76b0ef7875 inherit pub_methods_classmrmeshpy_1_1RectIndexer" id="r_aa645b2294161a3337fa6eb76b0ef7875"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PixelId.html">PixelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#aa645b2294161a3337fa6eb76b0ef7875">getNeighbor</a> (self, <a class="el" href="classmrmeshpy_1_1PixelId.html">PixelId</a> v, <a class="el" href="classmrmeshpy_1_1Vector2i.html">Vector2i</a> pos, <a class="el" href="classmrmeshpy_1_1OutEdge2.html">OutEdge2</a> toNei)</td></tr>
-<tr class="memitem:a5a057c9ea99fecc08350ec8e9ee84e67 inherit pub_methods_classmrmeshpy_1_1RectIndexer" id="r_a5a057c9ea99fecc08350ec8e9ee84e67"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#a5a057c9ea99fecc08350ec8e9ee84e67">resize</a> (self, <a class="el" href="classmrmeshpy_1_1Vector2i.html">Vector2i</a> <a class="el" href="classmrmeshpy_1_1RectIndexer.html#a9ba99f18552f382c8e2f10540e3c9630">dims</a>)</td></tr>
-<tr class="memitem:abae9d444cfed27fc50696762e20f3d2d inherit pub_methods_classmrmeshpy_1_1RectIndexer" id="r_abae9d444cfed27fc50696762e20f3d2d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#abae9d444cfed27fc50696762e20f3d2d">size</a> (self)</td></tr>
-<tr class="memitem:ab4448d6b90f03e77c082264013981c0c inherit pub_methods_classmrmeshpy_1_1RectIndexer" id="r_ab4448d6b90f03e77c082264013981c0c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#ab4448d6b90f03e77c082264013981c0c">toIndex</a> (self, <a class="el" href="classmrmeshpy_1_1Vector2i.html">Vector2i</a> pos)</td></tr>
-<tr class="memitem:a8749d8e7e091021bec46a95a5b21779a inherit pub_methods_classmrmeshpy_1_1RectIndexer" id="r_a8749d8e7e091021bec46a95a5b21779a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PixelId.html">PixelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#a8749d8e7e091021bec46a95a5b21779a">toPixelId</a> (self, <a class="el" href="classmrmeshpy_1_1Vector2i.html">Vector2i</a> pos)</td></tr>
-<tr class="memitem:aa9005b3f3d99b3470b8a767a2ccc5020 inherit pub_methods_classmrmeshpy_1_1RectIndexer" id="r_aa9005b3f3d99b3470b8a767a2ccc5020"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector2i.html">Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#aa9005b3f3d99b3470b8a767a2ccc5020">toPos</a> (self, <a class="el" href="classmrmeshpy_1_1PixelId.html">PixelId</a> id)</td></tr>
-<tr class="memitem:af8a6233b03fc2a53e2ac399d228a6b6e inherit pub_methods_classmrmeshpy_1_1RectIndexer" id="r_af8a6233b03fc2a53e2ac399d228a6b6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector2i.html">Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#af8a6233b03fc2a53e2ac399d228a6b6e">toPos</a> (self, int id)</td></tr>
+<tr class="memitem:a3f35ed78ed8bdc1df79763fb01275ffd inherit pub_methods_classmrmeshpy_1_1RectIndexer" id="r_a3f35ed78ed8bdc1df79763fb01275ffd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#a3f35ed78ed8bdc1df79763fb01275ffd">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector2i.html">ConstVector2i</a> <a class="el" href="classmrmeshpy_1_1ConstRectIndexer.html#a55f7d9efb6be29d92643f17e7a8cebbb">dims</a>)</td></tr>
+<tr class="memitem:a55e9730adc27e1b47abbeb1f9b32c907 inherit pub_methods_classmrmeshpy_1_1RectIndexer" id="r_a55e9730adc27e1b47abbeb1f9b32c907"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#a55e9730adc27e1b47abbeb1f9b32c907">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstRectIndexer.html">ConstRectIndexer</a> arg0)</td></tr>
+<tr class="memitem:aa315c7e3fa4d85455554093f102c2e18 inherit pub_methods_classmrmeshpy_1_1RectIndexer" id="r_aa315c7e3fa4d85455554093f102c2e18"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#aa315c7e3fa4d85455554093f102c2e18">resize</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector2i.html">ConstVector2i</a> <a class="el" href="classmrmeshpy_1_1ConstRectIndexer.html#a55f7d9efb6be29d92643f17e7a8cebbb">dims</a>)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a537aa3f672d4fae4862b389fd7f39cc4" id="r_a537aa3f672d4fae4862b389fd7f39cc4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a537aa3f672d4fae4862b389fd7f39cc4">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a5e2eed1e3b7a737a174c329787f7de26" id="r_a5e2eed1e3b7a737a174c329787f7de26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e2eed1e3b7a737a174c329787f7de26">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a5e2eed1e3b7a737a174c329787f7de26" id="r_a5e2eed1e3b7a737a174c329787f7de26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e2eed1e3b7a737a174c329787f7de26">operator</a> (*args, **kwargs)</td></tr>
 <tr class="inherit_header pub_static_methods_classmrmeshpy_1_1RectIndexer"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classmrmeshpy_1_1RectIndexer')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1RectIndexer.html">mrmeshpy.RectIndexer</a></td></tr>
 <tr class="memitem:ab1edef7af78a60f135dfd592f4db3b74 inherit pub_static_methods_classmrmeshpy_1_1RectIndexer" id="r_ab1edef7af78a60f135dfd592f4db3b74"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1RectIndexer.html#ab1edef7af78a60f135dfd592f4db3b74">__init__</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a3dfc087640f8db0b5a32067d7a71e909" id="r_a3dfc087640f8db0b5a32067d7a71e909"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dfc087640f8db0b5a32067d7a71e909">NOT_VALID_VALUE</a> = -3.4028234663852886e+38</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_classmrmeshpy_1_1ConstDistanceMap"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_attribs_classmrmeshpy_1_1ConstDistanceMap')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Attributes inherited from <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">mrmeshpy.ConstDistanceMap</a></td></tr>
+<tr class="memitem:a120249cb6f1a3f9e2923f18139ca0949 inherit pub_static_attribs_classmrmeshpy_1_1ConstDistanceMap" id="r_a120249cb6f1a3f9e2923f18139ca0949"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a120249cb6f1a3f9e2923f18139ca0949">NOT_VALID_VALUE</a> = -3.4028234663852886e+38</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::DistanceMap
@@ -310,8 +309,8 @@ Access by the index (i) is equal to (y*resX + x)
 </pre> 
 </div>
 </div>
-<a id="aa2c3ba1a8b94b798f418223a5561ce71" name="aa2c3ba1a8b94b798f418223a5561ce71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2c3ba1a8b94b798f418223a5561ce71">&#9670;&#160;</a></span>__init__() <span class="overload">[4/5]</span></h2>
+<a id="a2f9b4da59eb55c96782b90804fc8bc3e" name="a2f9b4da59eb55c96782b90804fc8bc3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f9b4da59eb55c96782b90804fc8bc3e">&#9670;&#160;</a></span>__init__() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -324,7 +323,7 @@ Access by the index (i) is equal to (y*resX + x)
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Matrix__float.html">Matrix_float</a></td>          <td class="paramname"><span class="paramname"><em>m</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstMatrix__float.html">ConstMatrix_float</a></td>          <td class="paramname"><span class="paramname"><em>m</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -332,8 +331,8 @@ Access by the index (i) is equal to (y*resX + x)
 </pre> 
 </div>
 </div>
-<a id="ad38a0abf119f8ad2f14ffda136ceed4c" name="ad38a0abf119f8ad2f14ffda136ceed4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad38a0abf119f8ad2f14ffda136ceed4c">&#9670;&#160;</a></span>__init__() <span class="overload">[5/5]</span></h2>
+<a id="a5a4d925868979e349444dc7a633ded5f" name="a5a4d925868979e349444dc7a633ded5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a4d925868979e349444dc7a633ded5f">&#9670;&#160;</a></span>__init__() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -346,7 +345,7 @@ Access by the index (i) is equal to (y*resX + x)
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -355,21 +354,21 @@ Access by the index (i) is equal to (y*resX + x)
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="adb4ebdb589d86793bac94b9ee60d40b3" name="adb4ebdb589d86793bac94b9ee60d40b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb4ebdb589d86793bac94b9ee60d40b3">&#9670;&#160;</a></span>__isub__()</h2>
+<a id="aa45177e7e59493b02528f2fc6eaa623a" name="aa45177e7e59493b02528f2fc6eaa623a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa45177e7e59493b02528f2fc6eaa623a">&#9670;&#160;</a></span>__isub__()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> mrmeshpy.DistanceMap.__isub__ </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a> mrmeshpy.DistanceMap.__isub__ </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a></td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a></td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -377,26 +376,27 @@ Access by the index (i) is equal to (y*resX + x)
 </pre> 
 </div>
 </div>
-<a id="acde3c8b98de14ca34093e2d7be48aee8" name="acde3c8b98de14ca34093e2d7be48aee8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acde3c8b98de14ca34093e2d7be48aee8">&#9670;&#160;</a></span>__sub__()</h2>
+<a id="a3e0107c9ca9457f1abeba3011d7efaea" name="a3e0107c9ca9457f1abeba3011d7efaea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e0107c9ca9457f1abeba3011d7efaea">&#9670;&#160;</a></span>assign()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> mrmeshpy.DistanceMap.__sub__ </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> mrmeshpy.DistanceMap.assign </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a></td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns new Distance Map with cell-wise subtracted values. Invalid values remain only if both corresponding cells are invalid
-</pre> 
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1RectIndexer.html#ae26da8acf13a5c9d93b9a214edca3ca1">mrmeshpy.RectIndexer</a>.</p>
+
 </div>
 </div>
 <a id="a7a52b1d24279d4963c5254956479c363" name="a7a52b1d24279d4963c5254956479c363"></a>
@@ -417,8 +417,8 @@ Access by the index (i) is equal to (y*resX + x)
 </pre> 
 </div>
 </div>
-<a id="a63e4bbe59438f62bbb4ba72ff927ae12" name="a63e4bbe59438f62bbb4ba72ff927ae12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63e4bbe59438f62bbb4ba72ff927ae12">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
+<a id="a3184d99e818b9743c82cd007881c7c06" name="a3184d99e818b9743c82cd007881c7c06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3184d99e818b9743c82cd007881c7c06">&#9670;&#160;</a></span>data() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -426,11 +426,13 @@ Access by the index (i) is equal to (y*resX + x)
         <tr>
           <td class="memname"> float mrmeshpy.DistanceMap.data </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a9a4ad96fd3059638863287a899071e6c">mrmeshpy.ConstDistanceMap</a>.</p>
 
 </div>
 </div>
@@ -449,18 +451,20 @@ Access by the index (i) is equal to (y*resX + x)
       </table>
 </div><div class="memdoc">
 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a9a4ad96fd3059638863287a899071e6c">mrmeshpy.ConstDistanceMap</a>.</p>
+
 </div>
 </div>
-<a id="a0cfcf83993e0484482e0b55134093058" name="a0cfcf83993e0484482e0b55134093058"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cfcf83993e0484482e0b55134093058">&#9670;&#160;</a></span>get() <span class="overload">[1/2]</span></h2>
+<a id="a566909c6fac42095557e834871a573f1" name="a566909c6fac42095557e834871a573f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a566909c6fac42095557e834871a573f1">&#9670;&#160;</a></span>getValue() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> float mrmeshpy.DistanceMap.get </td>
+          <td class="memname"> float mrmeshpy.DistanceMap.getValue </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -469,20 +473,21 @@ Access by the index (i) is equal to (y*resX + x)
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns value of index element, returns nullopt if not valid (see `isValid()`), UB if out of bounds.
-</pre> 
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a4dccc7b2dc2c04a3db9a88d1d94892b9">mrmeshpy.ConstDistanceMap</a>.</p>
+
 </div>
 </div>
-<a id="a7e888eb88fa0f46afd777d99688a1bb0" name="a7e888eb88fa0f46afd777d99688a1bb0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e888eb88fa0f46afd777d99688a1bb0">&#9670;&#160;</a></span>get() <span class="overload">[2/2]</span></h2>
+<a id="abcbd44bcbdc419f3580b56aac8245954" name="abcbd44bcbdc419f3580b56aac8245954"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcbd44bcbdc419f3580b56aac8245954">&#9670;&#160;</a></span>getValue() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> float mrmeshpy.DistanceMap.get </td>
+          <td class="memname"> float mrmeshpy.DistanceMap.getValue </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -496,138 +501,13 @@ Access by the index (i) is equal to (y*resX + x)
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns value in (X,Y) element, returns nullopt if not valid (see `isValid()`), UB if out of bounds.
-</pre> 
-</div>
-</div>
-<a id="a7a49e628d3e20e4e0344d2bba3e073a0" name="a7a49e628d3e20e4e0344d2bba3e073a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a49e628d3e20e4e0344d2bba3e073a0">&#9670;&#160;</a></span>getDerivativeMap()</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> mrmeshpy.DistanceMap.getDerivativeMap </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns new derivatives map without directions
-</pre> 
-</div>
-</div>
-<a id="ab07701566109d7569fe114fe29eae7ab" name="ab07701566109d7569fe114fe29eae7ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab07701566109d7569fe114fe29eae7ab">&#9670;&#160;</a></span>getInterpolated()</h2>
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a4dccc7b2dc2c04a3db9a88d1d94892b9">mrmeshpy.ConstDistanceMap</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> float mrmeshpy.DistanceMap.getInterpolated </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>y</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment"> \\brief finds interpolated value.
- \\details https://en.wikipedia.org/wiki/Bilinear_interpolation
- getInterpolated( 0.5f, 0.5f ) == get( 0, 0 )
- see https://docs.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-coordinates for details
- all 4 elements around this point should be valid, returns nullopt if at least one is not valid
- \\param x,y should be in resolution range [0;resX][0;resY].
- If x,y are out of bounds, returns nullopt.
-</pre> 
-</div>
-</div>
-<a id="a391a6f362d8c17aaa4eeb82b72194a00" name="a391a6f362d8c17aaa4eeb82b72194a00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a391a6f362d8c17aaa4eeb82b72194a00">&#9670;&#160;</a></span>getLocalMaximums()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__vector__std__pair__unsigned__long__unsigned__long.html">std_vector_std_pair_unsigned_long_unsigned_long</a> mrmeshpy.DistanceMap.getLocalMaximums </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">computes single derivative map from XY spaces combined. Returns local maximums then
-</pre> 
-</div>
-</div>
-<a id="ab95eb68eb6db30d47f2974685d966692" name="ab95eb68eb6db30d47f2974685d966692"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab95eb68eb6db30d47f2974685d966692">&#9670;&#160;</a></span>getMaxIndex()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> tuple[int, int] mrmeshpy.DistanceMap.getMaxIndex </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">finds maximum value X,Y
-returns [-1.-1] if all values are invalid
-</pre> 
-</div>
-</div>
-<a id="a081fcb23e72e61a9fc11991745f50a30" name="a081fcb23e72e61a9fc11991745f50a30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a081fcb23e72e61a9fc11991745f50a30">&#9670;&#160;</a></span>getMinIndex()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> tuple[int, int] mrmeshpy.DistanceMap.getMinIndex </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">finds minimum value X,Y
-returns [-1.-1] if all values are invalid
-</pre> 
-</div>
-</div>
-<a id="ab50df8b8a974f6540b3499109b35f2de" name="ab50df8b8a974f6540b3499109b35f2de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab50df8b8a974f6540b3499109b35f2de">&#9670;&#160;</a></span>getMinMaxValues()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> tuple[float, float] mrmeshpy.DistanceMap.getMinMaxValues </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">finds minimum and maximum values
-returns min_float and max_float if all values are invalid
-</pre> 
 </div>
 </div>
 <a id="a7176a26fd0a2d3fb609380120bed17ca" name="a7176a26fd0a2d3fb609380120bed17ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7176a26fd0a2d3fb609380120bed17ca">&#9670;&#160;</a></span>getValue() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7176a26fd0a2d3fb609380120bed17ca">&#9670;&#160;</a></span>getValue() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -645,55 +525,8 @@ returns min_float and max_float if all values are invalid
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a7176a26fd0a2d3fb609380120bed17ca" name="a7176a26fd0a2d3fb609380120bed17ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7176a26fd0a2d3fb609380120bed17ca">&#9670;&#160;</a></span>getValue() <span class="overload">[2/4]</span></h2>
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a4dccc7b2dc2c04a3db9a88d1d94892b9">mrmeshpy.ConstDistanceMap</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> float mrmeshpy.DistanceMap.getValue </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a090a22321d528a72585649f477857cb0" name="a090a22321d528a72585649f477857cb0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a090a22321d528a72585649f477857cb0">&#9670;&#160;</a></span>getValue() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> float mrmeshpy.DistanceMap.getValue </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>y</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns value in (X,Y) element without check on valid
-use this only if you sure that distance map has no invalid values or for serialization
-</pre> 
 </div>
 </div>
 <a id="a090a22321d528a72585649f477857cb0" name="a090a22321d528a72585649f477857cb0"></a>
@@ -719,43 +552,11 @@ use this only if you sure that distance map has no invalid values or for seriali
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a863eeac2667485bd1f3c147ea7e00b2f" name="a863eeac2667485bd1f3c147ea7e00b2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a863eeac2667485bd1f3c147ea7e00b2f">&#9670;&#160;</a></span>getXYDerivativeMaps()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> tuple[<a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>, <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a>] mrmeshpy.DistanceMap.getXYDerivativeMaps </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns new derivative maps with X and Y axes direction
+<pre class="fragment">returns value in (X,Y) element without check on valid
+use this only if you sure that distance map has no invalid values or for serialization
 </pre> 
-</div>
-</div>
-<a id="a7990f039d9bb539daf3eac5b98ccd82a" name="a7990f039d9bb539daf3eac5b98ccd82a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7990f039d9bb539daf3eac5b98ccd82a">&#9670;&#160;</a></span>heapBytes()</h2>
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html#a4dccc7b2dc2c04a3db9a88d1d94892b9">mrmeshpy.ConstDistanceMap</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int mrmeshpy.DistanceMap.heapBytes </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns the amount of memory this object occupies on heap
-</pre> 
 </div>
 </div>
 <a id="a05d1eba8ff76490bd9172494d4f74180" name="a05d1eba8ff76490bd9172494d4f74180"></a>
@@ -776,142 +577,21 @@ use this only if you sure that distance map has no invalid values or for seriali
 </pre> 
 </div>
 </div>
-<a id="a9655d0c016666074572593e1b2f3d6cb" name="a9655d0c016666074572593e1b2f3d6cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9655d0c016666074572593e1b2f3d6cb">&#9670;&#160;</a></span>isInBounds() <span class="overload">[1/2]</span></h2>
+<a id="a0d5ba5d9aef42c947246133ffd981994" name="a0d5ba5d9aef42c947246133ffd981994"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d5ba5d9aef42c947246133ffd981994">&#9670;&#160;</a></span>mergeMax()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> bool mrmeshpy.DistanceMap.isInBounds </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a> mrmeshpy.DistanceMap.mergeMax </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">Returns true if a flattened coordinate is in bounds.
-</pre> 
-</div>
-</div>
-<a id="a118e0cb0b1208fe375f6935d199b2590" name="a118e0cb0b1208fe375f6935d199b2590"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a118e0cb0b1208fe375f6935d199b2590">&#9670;&#160;</a></span>isInBounds() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.DistanceMap.isInBounds </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>y</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">Returns true if (X,Y) coordinates are in bounds.
-</pre> 
-</div>
-</div>
-<a id="a27a08ddedb7c39e1931b610c44c9190c" name="a27a08ddedb7c39e1931b610c44c9190c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27a08ddedb7c39e1931b610c44c9190c">&#9670;&#160;</a></span>isValid() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.DistanceMap.isValid </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">checks if index element is valid (i.e. not `NOT_VALID_VALUE`; passing an invalid coord to this is UB)
-</pre> 
-</div>
-</div>
-<a id="a8d3f2aa72cf7b72e7eef7032f5827192" name="a8d3f2aa72cf7b72e7eef7032f5827192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d3f2aa72cf7b72e7eef7032f5827192">&#9670;&#160;</a></span>isValid() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.DistanceMap.isValid </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>y</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">checks if X,Y element is valid (i.e. not `NOT_VALID_VALUE`; passing invalid coords to this is UB)
-</pre> 
-</div>
-</div>
-<a id="a64aed4765956bb6b60139649da49a423" name="a64aed4765956bb6b60139649da49a423"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64aed4765956bb6b60139649da49a423">&#9670;&#160;</a></span>max()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> mrmeshpy.DistanceMap.max </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a></td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">boolean operators
-returns new Distance Map with cell-wise maximum values. Invalid values remain only if both corresponding cells are invalid
-</pre> 
-</div>
-</div>
-<a id="a0ef5099c9cd32274c166064f2be060dd" name="a0ef5099c9cd32274c166064f2be060dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ef5099c9cd32274c166064f2be060dd">&#9670;&#160;</a></span>mergeMax()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> mrmeshpy.DistanceMap.mergeMax </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a></td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a></td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -919,47 +599,25 @@ returns new Distance Map with cell-wise maximum values. Invalid values remain on
 </pre> 
 </div>
 </div>
-<a id="a35af11c524f7a0157908d17bf64fe834" name="a35af11c524f7a0157908d17bf64fe834"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35af11c524f7a0157908d17bf64fe834">&#9670;&#160;</a></span>mergeMin()</h2>
+<a id="aab013b7a3daf6f59f62a9cc0b10f848a" name="aab013b7a3daf6f59f62a9cc0b10f848a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab013b7a3daf6f59f62a9cc0b10f848a">&#9670;&#160;</a></span>mergeMin()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> mrmeshpy.DistanceMap.mergeMin </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a> mrmeshpy.DistanceMap.mergeMin </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a></td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstDistanceMap.html">ConstDistanceMap</a></td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <pre class="fragment">replaces values with cell-wise minimum values. Invalid values remain only if both corresponding cells are invalid
-</pre> 
-</div>
-</div>
-<a id="adcfb77ff925b064cc4062d108947c93f" name="adcfb77ff925b064cc4062d108947c93f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcfb77ff925b064cc4062d108947c93f">&#9670;&#160;</a></span>min()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> mrmeshpy.DistanceMap.min </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a></td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns new Distance Map with cell-wise minimum values. Invalid values remain only if both corresponding cells are invalid
 </pre> 
 </div>
 </div>
@@ -981,124 +639,30 @@ returns new Distance Map with cell-wise maximum values. Invalid values remain on
 </pre> 
 </div>
 </div>
-<a id="a9acc8913f87d3fa28af1c526af77d808" name="a9acc8913f87d3fa28af1c526af77d808"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9acc8913f87d3fa28af1c526af77d808">&#9670;&#160;</a></span>numPoints()</h2>
+<a id="aed3a5120992d4c78d627d9369d9e53c5" name="aed3a5120992d4c78d627d9369d9e53c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed3a5120992d4c78d627d9369d9e53c5">&#9670;&#160;</a></span>set() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int mrmeshpy.DistanceMap.numPoints </td>
+          <td class="memname"> None mrmeshpy.DistanceMap.set </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns the number of pixels
-</pre> 
-</div>
-</div>
-<a id="a5e2eed1e3b7a737a174c329787f7de26" name="a5e2eed1e3b7a737a174c329787f7de26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e2eed1e3b7a737a174c329787f7de26">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> mrmeshpy.DistanceMap.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1RectIndexer.html#afcb24165cee73591b08899eff0afb0e9">mrmeshpy.RectIndexer</a>.</p>
-
-</div>
-</div>
-<a id="a5e2eed1e3b7a737a174c329787f7de26" name="a5e2eed1e3b7a737a174c329787f7de26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e2eed1e3b7a737a174c329787f7de26">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1DistanceMap.html">DistanceMap</a> mrmeshpy.DistanceMap.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1RectIndexer.html#afcb24165cee73591b08899eff0afb0e9">mrmeshpy.RectIndexer</a>.</p>
-
-</div>
-</div>
-<a id="afbc7c0381be6fd416dabf79de9b1cc76" name="afbc7c0381be6fd416dabf79de9b1cc76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbc7c0381be6fd416dabf79de9b1cc76">&#9670;&#160;</a></span>resX()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int mrmeshpy.DistanceMap.resX </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__std__vector__float.html">Const_std_vector_float</a></td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns X resolution
-</pre> 
-</div>
-</div>
-<a id="ad39837ff357a34562a6030f04d370d25" name="ad39837ff357a34562a6030f04d370d25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad39837ff357a34562a6030f04d370d25">&#9670;&#160;</a></span>resY()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int mrmeshpy.DistanceMap.resY </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns Y resolution
+<pre class="fragment">sets all values at one time
 </pre> 
 </div>
 </div>
 <a id="aa95dcbecad0297a5626eb78cc03feb8a" name="aa95dcbecad0297a5626eb78cc03feb8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa95dcbecad0297a5626eb78cc03feb8a">&#9670;&#160;</a></span>set() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa95dcbecad0297a5626eb78cc03feb8a">&#9670;&#160;</a></span>set() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1125,7 +689,7 @@ returns new Distance Map with cell-wise maximum values. Invalid values remain on
 </div>
 </div>
 <a id="a6f7b08538de34316e3d7d56401783eb5" name="a6f7b08538de34316e3d7d56401783eb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f7b08538de34316e3d7d56401783eb5">&#9670;&#160;</a></span>set() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f7b08538de34316e3d7d56401783eb5">&#9670;&#160;</a></span>set() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1153,99 +717,6 @@ returns new Distance Map with cell-wise maximum values. Invalid values remain on
       </table>
 </div><div class="memdoc">
 <pre class="fragment">sets value in (X,Y) element (the coords must be valid, UB otherwise)
-</pre> 
-</div>
-</div>
-<a id="a3d38b0567a056a385909d3efcc32af75" name="a3d38b0567a056a385909d3efcc32af75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d38b0567a056a385909d3efcc32af75">&#9670;&#160;</a></span>set() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> None mrmeshpy.DistanceMap.set </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a></td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">sets all values at one time
-</pre> 
-</div>
-</div>
-<a id="aad906a61939a24efbe2dcb78be89768a" name="aad906a61939a24efbe2dcb78be89768a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad906a61939a24efbe2dcb78be89768a">&#9670;&#160;</a></span>unproject()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> mrmeshpy.DistanceMap.unproject </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">finds 3d coordinates of the Point on the model surface for the (x,y) pixel
-Use the same params with distance map creation
-(x,y) must be in bounds, the behavior is undefined otherwise.
-</pre> 
-</div>
-</div>
-<a id="a331733fe82cbf5d65d714fde659d9497" name="a331733fe82cbf5d65d714fde659d9497"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a331733fe82cbf5d65d714fde659d9497">&#9670;&#160;</a></span>unprojectInterpolated()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> mrmeshpy.DistanceMap.unprojectInterpolated </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment"> \\brief finds 3d coordinates of the Point on the model surface for the (x,y) interpolated value
- \\param x,y should be in resolution range [0;resX][0;resY].
- \\details getInterpolated( 0.5f, 0.5f ) == get( 0, 0 )
- see https://docs.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-coordinates for details
- all 4 elements around this point should be valid, returns nullopt if at least one is not valid
- If x,y are out of bounds, returns nullopt.
 </pre> 
 </div>
 </div>
@@ -1296,29 +767,6 @@ Use the same params with distance map creation
 </div><div class="memdoc">
 <pre class="fragment">invalidates value in (X,Y) element (the coords must be valid, UB otherwise)
 </pre> 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a3dfc087640f8db0b5a32067d7a71e909" name="a3dfc087640f8db0b5a32067d7a71e909"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3dfc087640f8db0b5a32067d7a71e909">&#9670;&#160;</a></span>NOT_VALID_VALUE</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.DistanceMap.NOT_VALID_VALUE = -3.4028234663852886e+38</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

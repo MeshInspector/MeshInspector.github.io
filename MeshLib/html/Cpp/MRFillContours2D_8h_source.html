@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -181,14 +174,14 @@ $(function(){initNavTree('MRFillContours2D_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_ga4b58b14fd18ff412914c444b5d647659"><div class="ttname"><a href="group__GeneralGroup.html#ga4b58b14fd18ff412914c444b5d647659">MR::makeFillContours2DPlanCache</a></div><div class="ttdeci">std::unique_ptr&lt; IFillContours2DPlanCache &gt; makeFillContours2DPlanCache()</div><div class="ttdoc">creates a cache for fillContours2DPlan</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga4c444df98a6ef4e28be3eaab462d38a1"><div class="ttname"><a href="group__GeneralGroup.html#ga4c444df98a6ef4e28be3eaab462d38a1">MR::Contours3f</a></div><div class="ttdeci">Contours3&lt; float &gt; Contours3f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:388</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:31</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga88978dc2a299b9b88ea0033da1865186"><div class="ttname"><a href="group__GeneralGroup.html#ga88978dc2a299b9b88ea0033da1865186">MR::fillContours2DPlan</a></div><div class="ttdeci">Expected&lt; HoleFillPlan &gt; fillContours2DPlan(const Mesh &amp;mesh, EdgeId holeEdgeId, IFillContours2DPlanCache *cache=nullptr)</div><div class="ttdoc">prepare filling plan for hole with border in same plane (i.e. after cut by plane)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga88978dc2a299b9b88ea0033da1865186"><div class="ttname"><a href="group__GeneralGroup.html#ga88978dc2a299b9b88ea0033da1865186">MR::fillContours2DPlan</a></div><div class="ttdeci">Expected&lt; HoleFillPlan &gt; fillContours2DPlan(const Mesh &amp;mesh, EdgeId holeEdgeId, IFillContours2DPlanCache *cache=nullptr)</div><div class="ttdoc">prepare filling plan for hole or face with border in same plane (i.e. after cut by plane)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaafdd9eb0912943e6c057d7f3fc8d140b"><div class="ttname"><a href="group__GeneralGroup.html#gaafdd9eb0912943e6c057d7f3fc8d140b">MR::getXfFromOxyPlane</a></div><div class="ttdeci">AffineXf3f getXfFromOxyPlane(const Contours3f &amp;contours)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gac27fc96190e0e87e2ae498b3e7958c6a"><div class="ttname"><a href="group__GeneralGroup.html#gac27fc96190e0e87e2ae498b3e7958c6a">MR::IFillContours2DPlanCache::IFillContours2DPlanCache</a></div><div class="ttdeci">IFillContours2DPlanCache(const IFillContours2DPlanCache &amp;)=delete</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gac986694dc0a1be93cbbe72137afb0c01"><div class="ttname"><a href="group__GeneralGroup.html#gac986694dc0a1be93cbbe72137afb0c01">MR::IFillContours2DPlanCache::IFillContours2DPlanCache</a></div><div class="ttdeci">IFillContours2DPlanCache()=default</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gae172c477a54668981920e53b0b00f142"><div class="ttname"><a href="group__GeneralGroup.html#gae172c477a54668981920e53b0b00f142">MR::IFillContours2DPlanCache::operator=</a></div><div class="ttdeci">IFillContours2DPlanCache &amp; operator=(const IFillContours2DPlanCache &amp;)=delete</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gae5df64d06977ab4f0e99d701b9e08047"><div class="ttname"><a href="group__GeneralGroup.html#gae5df64d06977ab4f0e99d701b9e08047">MR::fillContours2D</a></div><div class="ttdeci">Expected&lt; void &gt; fillContours2D(Mesh &amp;mesh, const std::vector&lt; EdgeId &gt; &amp;holeRepresentativeEdges)</div><div class="ttdoc">fill holes with border in same plane (i.e. after cut by plane)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaf6bdf308d7a325fb349bc72dc306b788"><div class="ttname"><a href="group__GeneralGroup.html#gaf6bdf308d7a325fb349bc72dc306b788">MR::fillPlanarHole</a></div><div class="ttdeci">Expected&lt; void &gt; fillPlanarHole(ObjectMeshData &amp;data, std::vector&lt; EdgeLoop &gt; &amp;holeContours)</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh.h:24</div></div>
 <div class="ttc" id="astructMR_1_1ObjectMeshData_html"><div class="ttname"><a href="structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></div><div class="ttdoc">mesh and its per-element attributes for ObjectMeshHolder</div><div class="ttdef"><b>Definition</b> MRObjectMeshData.h:17</div></div>
 </div><!-- fragment --></div><!-- contents -->

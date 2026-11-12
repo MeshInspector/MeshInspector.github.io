@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -204,8 +197,8 @@ $(function(){initNavTree('MRRibbonSchema_8h_source.html','',''); });
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>};</div>
 </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga55efef56c0d2d0a5eabf81b134ec39c9">   66</a></span><span class="keyword">using </span><a class="code hl_typedef" href="group__GeneralGroup.html#ga55efef56c0d2d0a5eabf81b134ec39c9">ItemMap</a> = <a class="code hl_typedef" href="group__GeneralGroup.html#gaf8ad9e1b05a45987a3075d43bf345d68">HashMap&lt;std::string, MenuItemInfo&gt;</a>;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga9156ba38070249801207259b1b438e47">   67</a></span><span class="keyword">using </span><a class="code hl_typedef" href="group__GeneralGroup.html#ga9156ba38070249801207259b1b438e47">TabsGroupsMap</a> = <a class="code hl_typedef" href="group__GeneralGroup.html#gaf8ad9e1b05a45987a3075d43bf345d68">HashMap&lt;std::string, std::vector&lt;std::string&gt;</a>&gt;;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga55efef56c0d2d0a5eabf81b134ec39c9">   66</a></span><span class="keyword">using </span><a class="code hl_typedef" href="group__GeneralGroup.html#ga55efef56c0d2d0a5eabf81b134ec39c9">ItemMap</a> = <a class="code hl_typedef" href="group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552">HashMap&lt;std::string, MenuItemInfo&gt;</a>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga9156ba38070249801207259b1b438e47">   67</a></span><span class="keyword">using </span><a class="code hl_typedef" href="group__GeneralGroup.html#ga9156ba38070249801207259b1b438e47">TabsGroupsMap</a> = <a class="code hl_typedef" href="group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552">HashMap&lt;std::string, std::vector&lt;std::string&gt;</a>&gt;;</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gad42a75e584073228a798aaddab06e6f4">   68</a></span><span class="keyword">using </span><a class="code hl_typedef" href="group__GeneralGroup.html#gad42a75e584073228a798aaddab06e6f4">GroupsItemsMap</a> = <a class="code hl_typedef" href="group__GeneralGroup.html#ga9156ba38070249801207259b1b438e47">TabsGroupsMap</a>;</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keyword">using </span><a class="code hl_typedef" href="group__GeneralGroup.html#ga8201e149aed09ff61bb82c538012fbd1">MenuItemsList</a> = std::vector&lt;std::string&gt;;</div>
 <div class="foldopen" id="foldopen00070" data-start="{" data-end="};">
@@ -370,7 +363,7 @@ $(function(){initNavTree('MRRibbonSchema_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_ga4a903fea5b8d05e0afd7b22f36da80b3"><div class="ttname"><a href="group__GeneralGroup.html#ga4a903fea5b8d05e0afd7b22f36da80b3">MR::MenuItemShortcut::tags</a></div><div class="ttdeci">std::vector&lt; std::string &gt; tags</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:37</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga4ad8c190219bcd156fa5b9748ffb679c"><div class="ttname"><a href="group__GeneralGroup.html#ga4ad8c190219bcd156fa5b9748ffb679c">MR::RibbonTab::priority</a></div><div class="ttdeci">int priority</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:73</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga4c4109e394ce12f782b768c821412753"><div class="ttname"><a href="group__GeneralGroup.html#ga4c4109e394ce12f782b768c821412753">MR::RibbonSchema::eliminateEmptyGroups</a></div><div class="ttdeci">void eliminateEmptyGroups()</div><div class="ttdoc">deletes empty groups (and references on them from tabs)</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga55cd176bca8ea774ad922ad2876e0f0d"><div class="ttname"><a href="group__GeneralGroup.html#ga55cd176bca8ea774ad922ad2876e0f0d">MR::RequirementsFunction</a></div><div class="ttdeci">std::function&lt; std::string(const std::shared_ptr&lt; RibbonMenuItem &gt; &amp;)&gt; RequirementsFunction</div><div class="ttdef"><b>Definition</b> MRViewerFwd.h:88</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga55cd176bca8ea774ad922ad2876e0f0d"><div class="ttname"><a href="group__GeneralGroup.html#ga55cd176bca8ea774ad922ad2876e0f0d">MR::RequirementsFunction</a></div><div class="ttdeci">std::function&lt; std::string(const std::shared_ptr&lt; RibbonMenuItem &gt; &amp;)&gt; RequirementsFunction</div><div class="ttdef"><b>Definition</b> MRViewerFwd.h:89</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga55e0334c55b2b6a85bc323a85f88ea10"><div class="ttname"><a href="group__GeneralGroup.html#ga55e0334c55b2b6a85bc323a85f88ea10">MR::RibbonSchema::groupsMap</a></div><div class="ttdeci">GroupsItemsMap groupsMap</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:83</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga55efef56c0d2d0a5eabf81b134ec39c9"><div class="ttname"><a href="group__GeneralGroup.html#ga55efef56c0d2d0a5eabf81b134ec39c9">MR::ItemMap</a></div><div class="ttdeci">HashMap&lt; std::string, MenuItemInfo &gt; ItemMap</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:66</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga5773b44f78b9e6a2610bf2260a1891bd"><div class="ttname"><a href="group__GeneralGroup.html#ga5773b44f78b9e6a2610bf2260a1891bd">MR::RibbonSchema::tabsOrder</a></div><div class="ttdeci">std::vector&lt; RibbonTab &gt; tabsOrder</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:81</div></div>
@@ -397,6 +390,7 @@ $(function(){initNavTree('MRRibbonSchema_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_ga926a6449190c31f77c5b88b8c236958e"><div class="ttname"><a href="group__GeneralGroup.html#ga926a6449190c31f77c5b88b8c236958e">MR::MenuItemInfo::item</a></div><div class="ttdeci">std::shared_ptr&lt; RibbonMenuItem &gt; item</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:42</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga95385a994b5e54e71a51670a5e951aba"><div class="ttname"><a href="group__GeneralGroup.html#ga95385a994b5e54e71a51670a5e951aba">MR::RibbonTab::localeDomainId</a></div><div class="ttdeci">LocaleDomainId localeDomainId</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:75</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga9a40f27aa0f9195b23043223e671187f"><div class="ttname"><a href="group__GeneralGroup.html#ga9a40f27aa0f9195b23043223e671187f">MR::MenuItemInfo::tooltip</a></div><div class="ttdeci">std::string tooltip</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:44</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga9dfad208b725d59063370f3881b40552"><div class="ttname"><a href="group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552">MR::HashMap</a></div><div class="ttdeci">phmap::flat_hash_map&lt; K, V, Hash, Eq, Allocator&lt; std::pair&lt; const K, V &gt; &gt; &gt; HashMap</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:632</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaa2ee9d954b2e6fafdc20ad74c59602db"><div class="ttname"><a href="group__GeneralGroup.html#gaa2ee9d954b2e6fafdc20ad74c59602db">MR::MenuItemCaptionSize::baseSize</a></div><div class="ttdeci">float baseSize</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:26</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaa7e03f93869b8695b61ce8aaf08406f8"><div class="ttname"><a href="group__GeneralGroup.html#gaa7e03f93869b8695b61ce8aaf08406f8">MR::RibbonSchemaHolder::SearchParams::weights</a></div><div class="ttdeci">std::vector&lt; SearchResultWeight &gt; * weights</div><div class="ttdoc">returns the coefficients of matching the search string for each tool found</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:139</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaab9fa332237b77530d49e4712f168e4f"><div class="ttname"><a href="group__GeneralGroup.html#gaab9fa332237b77530d49e4712f168e4f">MR::RibbonMenuItemCall::~RibbonMenuItemCall</a></div><div class="ttdeci">~RibbonMenuItemCall()</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:200</div></div>
@@ -415,11 +409,10 @@ $(function(){initNavTree('MRRibbonSchema_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gaec21b4b9459943a6f732a10e1dfecd2a"><div class="ttname"><a href="group__GeneralGroup.html#gaec21b4b9459943a6f732a10e1dfecd2a">MR::RibbonSchemaHolder::delItem</a></div><div class="ttdeci">static bool delItem(const std::shared_ptr&lt; RibbonMenuItem &gt; &amp;item)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaf359b2109f232bee18709542a5964825"><div class="ttname"><a href="group__GeneralGroup.html#gaf359b2109f232bee18709542a5964825">MR::RibbonSchemaLoader::loadSchema</a></div><div class="ttdeci">virtual void loadSchema() const</div><div class="ttdoc">Loads schema from files.</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaf3c9cd76985b22daa5dc4df743a27f18"><div class="ttname"><a href="group__GeneralGroup.html#gaf3c9cd76985b22daa5dc4df743a27f18">MR::RibbonSchemaHolder::SearchResultWeight::captionWeight</a></div><div class="ttdeci">float captionWeight</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:127</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_gaf8ad9e1b05a45987a3075d43bf345d68"><div class="ttname"><a href="group__GeneralGroup.html#gaf8ad9e1b05a45987a3075d43bf345d68">MR::HashMap</a></div><div class="ttdeci">phmap::flat_hash_map&lt; K, V, Hash, Eq &gt; HashMap</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:606</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gafa71f6751144e899c162ec0eaa802fd4"><div class="ttname"><a href="group__GeneralGroup.html#gafa71f6751144e899c162ec0eaa802fd4">MR::RibbonSchemaHolder::findItemTab</a></div><div class="ttdeci">static int findItemTab(const std::shared_ptr&lt; RibbonMenuItem &gt; &amp;item)</div><div class="ttdoc">returns item tab index in schema.tabsOrder or -1 if no tab found (e.g. scene fast access panel or hea...</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaff336be3c724c96b01194c689d9bdac9"><div class="ttname"><a href="group__GeneralGroup.html#gaff336be3c724c96b01194c689d9bdac9">MR::RibbonSchema::headerQuickAccessList</a></div><div class="ttdeci">MenuItemsList headerQuickAccessList</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:86</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaff5cdac97d9553866e2b0f12d9a466c7"><div class="ttname"><a href="group__GeneralGroup.html#gaff5cdac97d9553866e2b0f12d9a466c7">MR::MenuItemInfo::shortcut</a></div><div class="ttdeci">std::optional&lt; MenuItemShortcut &gt; shortcut</div><div class="ttdoc">needed for translation</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:49</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1MenuItemCaptionSize_html"><div class="ttname"><a href="structMR_1_1MenuItemCaptionSize.html">MR::MenuItemCaptionSize</a></div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:25</div></div>
 <div class="ttc" id="astructMR_1_1MenuItemInfo_html"><div class="ttname"><a href="structMR_1_1MenuItemInfo.html">MR::MenuItemInfo</a></div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:41</div></div>
 <div class="ttc" id="astructMR_1_1MenuItemShortcut_html"><div class="ttname"><a href="structMR_1_1MenuItemShortcut.html">MR::MenuItemShortcut</a></div><div class="ttdoc">the default keyboard shortcut of a ribbon item</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:32</div></div>
@@ -428,7 +421,7 @@ $(function(){initNavTree('MRRibbonSchema_8h_source.html','',''); });
 <div class="ttc" id="astructMR_1_1RibbonSchemaHolder_1_1SearchResult_html"><div class="ttname"><a href="structMR_1_1RibbonSchemaHolder_1_1SearchResult.html">MR::RibbonSchemaHolder::SearchResult</a></div><div class="ttdoc">struct to hold information for search result presentation</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:119</div></div>
 <div class="ttc" id="astructMR_1_1RibbonSchema_html"><div class="ttname"><a href="structMR_1_1RibbonSchema.html">MR::RibbonSchema</a></div><div class="ttdoc">This structure describes UI schema of ribbon menu.</div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:80</div></div>
 <div class="ttc" id="astructMR_1_1RibbonTab_html"><div class="ttname"><a href="structMR_1_1RibbonTab.html">MR::RibbonTab</a></div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:71</div></div>
-<div class="ttc" id="astructMR_1_1Shortcut_html"><div class="ttname"><a href="structMR_1_1Shortcut.html">MR::Shortcut</a></div><div class="ttdoc">a keyboard shortcut: the keys to press and the category it is listed under</div><div class="ttdef"><b>Definition</b> MRShortcutKey.h:32</div></div>
+<div class="ttc" id="astructMR_1_1Shortcut_html"><div class="ttname"><a href="structMR_1_1Shortcut.html">MR::Shortcut</a></div><div class="ttdoc">a keyboard shortcut: the keys to press and the category it is listed under</div><div class="ttdef"><b>Definition</b> MRShortcutKey.h:37</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

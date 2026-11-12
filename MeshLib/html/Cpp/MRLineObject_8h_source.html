@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -163,10 +156,10 @@ $(function(){initNavTree('MRLineObject_8h_source.html','',''); });
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gadeb2953c2695a10833e6edb9c2239e24">   26</a></span>    constexpr static const <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#gadeb2953c2695a10833e6edb9c2239e24">StaticTypeName</a>() noexcept { <span class="keywordflow">return</span> <span class="stringliteral">&quot;LineObject&quot;</span>; }</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gafe5e0bae23cb23a4485ddd95a2cb16ca">   27</a></span>    <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#gafe5e0bae23cb23a4485ddd95a2cb16ca">typeName</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="group__GeneralGroup.html#gadeb2953c2695a10833e6edb9c2239e24">StaticTypeName</a>(); }</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga04ee3a3ca74401dd09a8ebf97abd6dbb">   29</a></span>    <span class="keyword">constexpr</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#ga04ee3a3ca74401dd09a8ebf97abd6dbb">StaticClassName</a>() noexcept { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Line&quot;</span>; }</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga04ee3a3ca74401dd09a8ebf97abd6dbb">   29</a></span>    <span class="keyword">constexpr</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#ga04ee3a3ca74401dd09a8ebf97abd6dbb">StaticClassName</a>() noexcept { <span class="keywordflow">return</span> <a class="code hl_define" href="MRMeshFwd_8h.html#a9ffd0813b79cbb98d3f71fa5adb2a408">_t</a>( <span class="stringliteral">&quot;Line&quot;</span> ); }</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga44ca95a2452204b8e1b876b5ec08bac6">   30</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="group__GeneralGroup.html#ga44ca95a2452204b8e1b876b5ec08bac6">className</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="group__GeneralGroup.html#ga04ee3a3ca74401dd09a8ebf97abd6dbb">StaticClassName</a>(); }</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga3844001d77b14a135af9d33bb0044887">   32</a></span>    <span class="keyword">constexpr</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#ga3844001d77b14a135af9d33bb0044887">StaticClassNameInPlural</a>() noexcept { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Lines&quot;</span>; }</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga3844001d77b14a135af9d33bb0044887">   32</a></span>    <span class="keyword">constexpr</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#ga3844001d77b14a135af9d33bb0044887">StaticClassNameInPlural</a>() noexcept { <span class="keywordflow">return</span> <a class="code hl_define" href="MRMeshFwd_8h.html#a9ffd0813b79cbb98d3f71fa5adb2a408">_t</a>( <span class="stringliteral">&quot;Lines&quot;</span> ); }</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaabcbd98619f36f8d3a704ec1cd0c52ab">   33</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="group__GeneralGroup.html#gaabcbd98619f36f8d3a704ec1cd0c52ab">classNameInPlural</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="group__GeneralGroup.html#ga3844001d77b14a135af9d33bb0044887">StaticClassNameInPlural</a>(); }</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
 <div class="foldopen" id="foldopen00036" data-start="{" data-end="}">
@@ -227,14 +220,15 @@ $(function(){initNavTree('MRLineObject_8h_source.html','',''); });
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:85</div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a45ed33a118705bfd4aac6d294495276a"><div class="ttname"><a href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a></div><div class="ttdeci">#define MRMESH_CLASS</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:92</div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a9ffd0813b79cbb98d3f71fa5adb2a408"><div class="ttname"><a href="MRMeshFwd_8h.html#a9ffd0813b79cbb98d3f71fa5adb2a408">_t</a></div><div class="ttdeci">#define _t(...)</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:869</div></div>
 <div class="ttc" id="aMRVisualObject_8h_html"><div class="ttname"><a href="MRVisualObject_8h.html">MRVisualObject.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1Object_html"><div class="ttname"><a href="classMR_1_1Object.html">MR::Object</a></div><div class="ttdoc">named object in the data model</div><div class="ttdef"><b>Definition</b> MRObject.h:61</div></div>
 <div class="ttc" id="aclassMR_1_1ViewportId_html"><div class="ttname"><a href="classMR_1_1ViewportId.html">MR::ViewportId</a></div><div class="ttdef"><b>Definition</b> MRViewportId.h:16</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:759</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:789</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga04ee3a3ca74401dd09a8ebf97abd6dbb"><div class="ttname"><a href="group__GeneralGroup.html#ga04ee3a3ca74401dd09a8ebf97abd6dbb">MR::LineObject::StaticClassName</a></div><div class="ttdeci">static constexpr const char * StaticClassName() noexcept</div><div class="ttdef"><b>Definition</b> MRLineObject.h:29</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga199b39a2a6865283fdc4b7b444062b0f"><div class="ttname"><a href="group__GeneralGroup.html#ga199b39a2a6865283fdc4b7b444062b0f">MR::LineObject::getLength</a></div><div class="ttdeci">float getLength(ViewportId id={}) const</div><div class="ttdoc">calculates line size from xf</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga227293affe504d3911f37d4c77319f0d"><div class="ttname"><a href="group__GeneralGroup.html#ga227293affe504d3911f37d4c77319f0d">MR::LineObject::setLength</a></div><div class="ttdeci">void setLength(float size, ViewportId id={})</div><div class="ttdoc">updates xf to scale size</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga306ff1f62992b3eb33c446913b64188a"><div class="ttname"><a href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">MR::size</a></div><div class="ttdeci">ImVec2 size(const ViewportRectangle &amp;rect)</div><div class="ttdef"><b>Definition</b> MRViewport.h:32</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga306ff1f62992b3eb33c446913b64188a"><div class="ttname"><a href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">MR::size</a></div><div class="ttdeci">ImVec2 size(const ViewportRectangle &amp;rect)</div><div class="ttdef"><b>Definition</b> MRViewport.h:59</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga3844001d77b14a135af9d33bb0044887"><div class="ttname"><a href="group__GeneralGroup.html#ga3844001d77b14a135af9d33bb0044887">MR::LineObject::StaticClassNameInPlural</a></div><div class="ttdeci">static constexpr const char * StaticClassNameInPlural() noexcept</div><div class="ttdef"><b>Definition</b> MRLineObject.h:32</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga44ca95a2452204b8e1b876b5ec08bac6"><div class="ttname"><a href="group__GeneralGroup.html#ga44ca95a2452204b8e1b876b5ec08bac6">MR::LineObject::className</a></div><div class="ttdeci">virtual std::string className() const override</div><div class="ttdef"><b>Definition</b> MRLineObject.h:30</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga4a379997b422ad51057f4e960ff1a1c3"><div class="ttname"><a href="group__GeneralGroup.html#ga4a379997b422ad51057f4e960ff1a1c3">MR::LineObject::setPoints</a></div><div class="ttdeci">void setPoints(const Vector3f &amp;a, const Vector3f &amp;b, ViewportId id={})</div><div class="ttdoc">updates xf for line visually to go from point a to point b</div></div>
@@ -266,7 +260,7 @@ $(function(){initNavTree('MRLineObject_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gafe5e0bae23cb23a4485ddd95a2cb16ca"><div class="ttname"><a href="group__GeneralGroup.html#gafe5e0bae23cb23a4485ddd95a2cb16ca">MR::LineObject::typeName</a></div><div class="ttdeci">virtual const char * typeName() const override</div><div class="ttdef"><b>Definition</b> MRLineObject.h:27</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gafec4a9609028c5b07b4b03e564a739e5"><div class="ttname"><a href="group__GeneralGroup.html#gafec4a9609028c5b07b4b03e564a739e5">MR::LineObject::getPointA</a></div><div class="ttdeci">Vector3f getPointA(ViewportId id={}) const</div><div class="ttdoc">Returns the starting point, aka center - dir * len/2.</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf"><div class="ttname"><a href="group__GeneralGroup.html#gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">MR::FeaturePropertyKind::other</a></div><div class="ttdeci">@ other</div><div class="ttdoc">Angle, normally float. Measure in radians.</div><div class="ttdef"><b>Definition</b> MRFeatureObject.h:27</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1FeatureObjectProjectPointResult_html"><div class="ttname"><a href="structMR_1_1FeatureObjectProjectPointResult.html">MR::FeatureObjectProjectPointResult</a></div><div class="ttdef"><b>Definition</b> MRFeatureObject.h:81</div></div>
 <div class="ttc" id="astructMR_1_1Object_1_1ProtectedStruct_html"><div class="ttname"><a href="structMR_1_1Object_1_1ProtectedStruct.html">MR::Object::ProtectedStruct</a></div><div class="ttdef"><b>Definition</b> MRObject.h:289</div></div>
 </div><!-- fragment --></div><!-- contents -->

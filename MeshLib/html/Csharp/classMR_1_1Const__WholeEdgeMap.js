@@ -6,7 +6,6 @@ var classMR_1_1Const__WholeEdgeMap =
     [ "Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html#a131fba26df9a7ea9c93b5bf05db7d81b", null ],
     [ "Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html#a3665808e7b59fb294949b9fdd066c5ff", null ],
     [ "Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html#ac40530ef1948738dbaefd570a5ce3e7e", null ],
-    [ "Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html#a0d7fdf254e3bf81f98fe739cbf6fbce3", null ],
     [ "back", "classMR_1_1Const__WholeEdgeMap.html#ad64f1de2b4e71a8f1b69173074367274", null ],
     [ "backId", "classMR_1_1Const__WholeEdgeMap.html#afbe8717d5e5469130271bb3b3ff982af", null ],
     [ "beginId", "classMR_1_1Const__WholeEdgeMap.html#af0b98ae7007c2253b3b2f1175260bfc9", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__WholeEdgeMap =
     [ "Equals", "classMR_1_1Const__WholeEdgeMap.html#ab6e7d20e553bafdbebb8a16eaaca7007", null ],
     [ "Equals", "classMR_1_1Const__WholeEdgeMap.html#aaee6e167f00b60127d6d75b6dc973896", null ],
     [ "front", "classMR_1_1Const__WholeEdgeMap.html#a3c79a730b602e13e7b86b8da81a95529", null ],
-    [ "GetEnumerator", "classMR_1_1Const__WholeEdgeMap.html#aa44c24cbcdd3ab6d2d5d98c11c37e145", null ],
     [ "heapBytes", "classMR_1_1Const__WholeEdgeMap.html#acb4882e147aa6939a7fc363f5a781953", null ],
-    [ "operator Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html#aec5965cd507feddbd4b9781d1a844303", null ],
+    [ "maxSize", "classMR_1_1Const__WholeEdgeMap.html#aa9c7bf058a519140a87248dd7cdf80af", null ],
     [ "operator!=", "classMR_1_1Const__WholeEdgeMap.html#a18d54500ba6c35deec91ab4c70a9b320", null ],
     [ "operator==", "classMR_1_1Const__WholeEdgeMap.html#a6cef7865d8131ba3f9e66db600f5b3f8", null ],
     [ "size", "classMR_1_1Const__WholeEdgeMap.html#a2a967d3df8ac4f16987d3537ea638bbd", null ],
     [ "this[MR.UndirectedEdgeId i]", "classMR_1_1Const__WholeEdgeMap.html#a79b49f05759ce90af215181d10570c34", null ],
-    [ "vec", "classMR_1_1Const__WholeEdgeMap.html#aabe1dafa6fcf4cd0d292bed584de1753", null ]
+    [ "vec", "classMR_1_1Const__WholeEdgeMap.html#a8c9074f1d5f2f2f22e86002be4d88c2b", null ]
 ];

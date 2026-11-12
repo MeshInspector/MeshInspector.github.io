@@ -6,8 +6,8 @@ var classMR_1_1Edges =
     [ "Edges", "classMR_1_1Edges.html#a0f8f985c839213ee9e5545ae285b4e36", null ],
     [ "Edges", "classMR_1_1Edges.html#a0cca9e02ea982ff4936c6535aaec46ac", null ],
     [ "Edges", "classMR_1_1Edges.html#af8ba5cab558d7bcb34862940f5218355", null ],
-    [ "Edges", "classMR_1_1Edges.html#a824c2b899a57a7a595447a20c9dc4a91", null ],
     [ "assign", "classMR_1_1Edges.html#acb543f3d8ff1c216f922a9988809cc2c", null ],
+    [ "assign", "classMR_1_1Edges.html#afba3e81f912afd77fc16c523d159d8c6", null ],
     [ "autoResizeAt", "classMR_1_1Edges.html#ae2d240fad035e243dde7417e418b13e5", null ],
     [ "autoResizeSet", "classMR_1_1Edges.html#a632bc8cadcd329bae3800b212ab2a031", null ],
     [ "autoResizeSet", "classMR_1_1Edges.html#a5ed9dfca64011aeb03150e2c1cbb8f3f", null ],
@@ -15,8 +15,6 @@ var classMR_1_1Edges =
     [ "clear", "classMR_1_1Edges.html#af79017a8bbceb9f9794070c8d1892879", null ],
     [ "data", "classMR_1_1Edges.html#a5c1b7f066540613eadcb2e790a8ac278", null ],
     [ "front", "classMR_1_1Edges.html#a6b13875473ff22d1ff98b38b08fee574", null ],
-    [ "GetEnumerator", "classMR_1_1Edges.html#a023a4b86a7fa3c2c6d05baa96d765aa7", null ],
-    [ "operator Edges", "classMR_1_1Edges.html#a4d8298e70cfb5aa6ea29418e6d4b5b8c", null ],
     [ "popBack", "classMR_1_1Edges.html#ac2d81ef2bca2f93efbb8166f2c96ff57", null ],
     [ "pushBack", "classMR_1_1Edges.html#af884458dd485607229ca420d09a9136c", null ],
     [ "pushBack", "classMR_1_1Edges.html#a9d2afb8368f4467003bb160104303092", null ],
@@ -25,7 +23,8 @@ var classMR_1_1Edges =
     [ "resize", "classMR_1_1Edges.html#ae81595995df221f204f31bdb6c3b754c", null ],
     [ "resizeWithReserve", "classMR_1_1Edges.html#ade22ffe697f81d7055d3dbad864bdeed", null ],
     [ "resizeWithReserve", "classMR_1_1Edges.html#a46937abeeba77d73a891e60bc9cc271d", null ],
+    [ "shrinkToFit", "classMR_1_1Edges.html#ab1a13528e9868f87edbcb6ba5adae283", null ],
     [ "swap", "classMR_1_1Edges.html#a45e4b4978525f06830af983faa849155", null ],
     [ "this[MR.UndirectedEdgeId i]", "classMR_1_1Edges.html#a2e08c2f3b804e57d1db86f9025be8069", null ],
-    [ "vec", "classMR_1_1Edges.html#abe9a9d319cb601017e441e9448ab0a82", null ]
+    [ "vec", "classMR_1_1Edges.html#a267d86d9e4c97586b490a9cadc39c725", null ]
 ];

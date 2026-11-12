@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -208,7 +201,8 @@ $(function(){initNavTree('MRDistanceMeasurementObject_8h_source.html','',''); })
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="comment">// Represents a distance measurement.</span></div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="MRDistanceMeasurementObject_8h.html#a9185d6c78b24d67f65fff43bd4a336c3">   76</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRDistanceMeasurementObject_8h.html#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> <a class="code hl_typedef" href="MRDistanceMeasurementObject_8h.html#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a>;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="comment">// The xf encodes the distance: the origin is one point, and (1,0,0) is another.</span></div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="MRDistanceMeasurementObject_8h.html#a7b84b8e9ad11627cf53aa8b0e09c01ed">   80</a></span><a class="code hl_define" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="code hl_typedef" href="MRDistanceMeasurementObject_8h.html#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *<a class="code hl_function" href="MRDistanceMeasurementObject_8h.html#a7b84b8e9ad11627cf53aa8b0e09c01ed">MR_DistanceMeasurementObject_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span></div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="MRDistanceMeasurementObject_8h.html#a5709686613503105d4cdec32c543373a">   85</a></span><a class="code hl_define" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="code hl_typedef" href="MRDistanceMeasurementObject_8h.html#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *<a class="code hl_function" href="MRDistanceMeasurementObject_8h.html#a5709686613503105d4cdec32c543373a">MR_DistanceMeasurementObject_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
@@ -586,7 +580,7 @@ $(function(){initNavTree('MRDistanceMeasurementObject_8h_source.html','',''); })
 <div class="ttc" id="aMRAffineXf_8h_html"><div class="ttname"><a href="MRAffineXf_8h.html">MRAffineXf.h</a></div></div>
 <div class="ttc" id="aMRAngleMeasurementObject_8h_html_af3835b44b6f41035bcc3f994b4711cc1"><div class="ttname"><a href="MRAngleMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1">MR_MeasurementObject</a></div><div class="ttdeci">struct MR_MeasurementObject MR_MeasurementObject</div><div class="ttdef"><b>Definition</b> MRAngleMeasurementObject.h:21</div></div>
 <div class="ttc" id="aMRBox_8h_html"><div class="ttname"><a href="MRBox_8h.html">MRBox.h</a></div></div>
-<div class="ttc" id="aMRCtm_8h_html_a69dc6868c10c92fb8b8a255b0130d289"><div class="ttname"><a href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></div><div class="ttdeci">struct MR_std_string MR_std_string</div><div class="ttdef"><b>Definition</b> MRCtm.h:32</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a69dc6868c10c92fb8b8a255b0130d289"><div class="ttname"><a href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></div><div class="ttdeci">struct MR_std_string MR_std_string</div><div class="ttdef"><b>Definition</b> MRCtm.h:33</div></div>
 <div class="ttc" id="aMRDistanceMeasurementObject_8h_html_a005dfb5e9c745b379c0fd633f7c3498b"><div class="ttname"><a href="MRDistanceMeasurementObject_8h.html#a005dfb5e9c745b379c0fd633f7c3498b">MR_DistanceMeasurementObject_MutableDynamicDowncastFrom_MR_VisualObject</a></div><div class="ttdeci">MRC_API MR_DistanceMeasurementObject * MR_DistanceMeasurementObject_MutableDynamicDowncastFrom_MR_VisualObject(MR_VisualObject *object)</div></div>
 <div class="ttc" id="aMRDistanceMeasurementObject_8h_html_a008fc41a419e74b0c719191cfcaf0ed5"><div class="ttname"><a href="MRDistanceMeasurementObject_8h.html#a008fc41a419e74b0c719191cfcaf0ed5">MR_DistanceMeasurementObject_setComparisonReferenceValue</a></div><div class="ttdeci">MRC_API void MR_DistanceMeasurementObject_setComparisonReferenceValue(MR_DistanceMeasurementObject *_this, size_t i, const MR_std_variant_float_MR_Vector3f *value)</div></div>
 <div class="ttc" id="aMRDistanceMeasurementObject_8h_html_a023fa27827b3573c689443c13719f2e2"><div class="ttname"><a href="MRDistanceMeasurementObject_8h.html#a023fa27827b3573c689443c13719f2e2">MR_DistanceMeasurementObject_getVisualizeProperty</a></div><div class="ttdeci">MRC_API bool MR_DistanceMeasurementObject_getVisualizeProperty(const MR_DistanceMeasurementObject *_this, const MR_AnyVisualizeMaskEnum *type, const MR_ViewportMask *viewportMask)</div></div>
@@ -677,7 +671,7 @@ $(function(){initNavTree('MRDistanceMeasurementObject_8h_source.html','',''); })
 <div class="ttc" id="aMRDistanceMeasurementObject_8h_html_a76b1315ba7f6f3a2627834cf17b03e14"><div class="ttname"><a href="MRDistanceMeasurementObject_8h.html#a76b1315ba7f6f3a2627834cf17b03e14">MR_DistanceMeasurementObject_globalClippedByPlaneMask</a></div><div class="ttdeci">MRC_API MR_ViewportMask * MR_DistanceMeasurementObject_globalClippedByPlaneMask(const MR_DistanceMeasurementObject *_this)</div></div>
 <div class="ttc" id="aMRDistanceMeasurementObject_8h_html_a791cc47e417d7c7f730ee67ec29469b4"><div class="ttname"><a href="MRDistanceMeasurementObject_8h.html#a791cc47e417d7c7f730ee67ec29469b4">MR_DistanceMeasurementObject_getAllVisualizeProperties</a></div><div class="ttdeci">MRC_API MR_std_vector_MR_ViewportMask * MR_DistanceMeasurementObject_getAllVisualizeProperties(const MR_DistanceMeasurementObject *_this)</div></div>
 <div class="ttc" id="aMRDistanceMeasurementObject_8h_html_a7aca1a1fdabeb71b167b44ac50ab4901"><div class="ttname"><a href="MRDistanceMeasurementObject_8h.html#a7aca1a1fdabeb71b167b44ac50ab4901">MR_DistanceMeasurementObject_setFrontColor</a></div><div class="ttdeci">MRC_API void MR_DistanceMeasurementObject_setFrontColor(MR_DistanceMeasurementObject *_this, const MR_Color *color, bool selected, const MR_ViewportId *viewportId)</div></div>
-<div class="ttc" id="aMRDistanceMeasurementObject_8h_html_a7b84b8e9ad11627cf53aa8b0e09c01ed"><div class="ttname"><a href="MRDistanceMeasurementObject_8h.html#a7b84b8e9ad11627cf53aa8b0e09c01ed">MR_DistanceMeasurementObject_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_DistanceMeasurementObject * MR_DistanceMeasurementObject_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRDistanceMeasurementObject_8h_html_a7b84b8e9ad11627cf53aa8b0e09c01ed"><div class="ttname"><a href="MRDistanceMeasurementObject_8h.html#a7b84b8e9ad11627cf53aa8b0e09c01ed">MR_DistanceMeasurementObject_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_DistanceMeasurementObject * MR_DistanceMeasurementObject_DefaultConstruct(void)</div><div class="ttdoc">Never returns null. Returns an instance allocated on the heap! Must call MR_DistanceMeasurementObject...</div></div>
 <div class="ttc" id="aMRDistanceMeasurementObject_8h_html_a7ddc83e5d1e8046af995184a07f63849"><div class="ttname"><a href="MRDistanceMeasurementObject_8h.html#a7ddc83e5d1e8046af995184a07f63849">MR_DistanceMeasurementObject_getBackColorsForAllViewports</a></div><div class="ttdeci">MRC_API const MR_ViewportProperty_MR_Color * MR_DistanceMeasurementObject_getBackColorsForAllViewports(const MR_DistanceMeasurementObject *_this)</div></div>
 <div class="ttc" id="aMRDistanceMeasurementObject_8h_html_a7e59919c9c619351b6ebcb2827b8fd7b"><div class="ttname"><a href="MRDistanceMeasurementObject_8h.html#a7e59919c9c619351b6ebcb2827b8fd7b">MR_DistanceMeasurementObject_getShininess</a></div><div class="ttdeci">MRC_API float MR_DistanceMeasurementObject_getShininess(const MR_DistanceMeasurementObject *_this)</div></div>
 <div class="ttc" id="aMRDistanceMeasurementObject_8h_html_a7ece1095933c5711551de556c915a9ee"><div class="ttname"><a href="MRDistanceMeasurementObject_8h.html#a7ece1095933c5711551de556c915a9ee">MR_DistanceMeasurementObject_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_DistanceMeasurementObject_DestroyArray(const MR_DistanceMeasurementObject *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_DistanceMeasurementObject. Does nothing if the pointer is null.</div></div>
@@ -773,7 +767,7 @@ $(function(){initNavTree('MRDistanceMeasurementObject_8h_source.html','',''); })
 <div class="ttc" id="aMRDistanceMeasurementObject_8h_html_afe06f2d337eeb80c83e244a2080bfdf3"><div class="ttname"><a href="MRDistanceMeasurementObject_8h.html#afe06f2d337eeb80c83e244a2080bfdf3">MR_DistanceMeasurementObject_getLocalDelta</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_DistanceMeasurementObject_getLocalDelta(const MR_DistanceMeasurementObject *_this)</div></div>
 <div class="ttc" id="aMRDistanceMeasurementObject_8h_html_aff5702de650f889e7c52a9832bb9e23c"><div class="ttname"><a href="MRDistanceMeasurementObject_8h.html#aff5702de650f889e7c52a9832bb9e23c">MR_DistanceMeasurementObject_isParentLocked</a></div><div class="ttdeci">MRC_API bool MR_DistanceMeasurementObject_isParentLocked(const MR_DistanceMeasurementObject *_this)</div></div>
 <div class="ttc" id="aMREnums_8h_html"><div class="ttname"><a href="MREnums_8h.html">MREnums.h</a></div></div>
-<div class="ttc" id="aMREnums_8h_html_a8a407448d970199f75e1b40627cfe95d"><div class="ttname"><a href="MREnums_8h.html#a8a407448d970199f75e1b40627cfe95d">MR_ColoringType</a></div><div class="ttdeci">MR_ColoringType</div><div class="ttdef"><b>Definition</b> MREnums.h:94</div></div>
+<div class="ttc" id="aMREnums_8h_html_a8a407448d970199f75e1b40627cfe95d"><div class="ttname"><a href="MREnums_8h.html#a8a407448d970199f75e1b40627cfe95d">MR_ColoringType</a></div><div class="ttdeci">MR_ColoringType</div><div class="ttdef"><b>Definition</b> MREnums.h:105</div></div>
 <div class="ttc" id="aMRGltf_8h_html_accce9c9179cadabc541edda0fc7a2571"><div class="ttname"><a href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a></div><div class="ttdeci">struct MR_Object MR_Object</div><div class="ttdef"><b>Definition</b> MRGltf.h:10</div></div>
 <div class="ttc" id="aMRNesting3mfExport_8h_html_ab26d333cd7549e6f3f49cc80e3ba5900"><div class="ttname"><a href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></div><div class="ttdeci">struct MR_std_vector_std_string MR_std_vector_std_string</div><div class="ttdef"><b>Definition</b> MRNesting3mfExport.h:17</div></div>
 <div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>

@@ -6,7 +6,6 @@ var classMR_1_1Const__Triangulation =
     [ "Const_Triangulation", "classMR_1_1Const__Triangulation.html#a9ad0ac790ec93a88d55e72365ee33635", null ],
     [ "Const_Triangulation", "classMR_1_1Const__Triangulation.html#a71a3b314d04d1e5212501321d99e626d", null ],
     [ "Const_Triangulation", "classMR_1_1Const__Triangulation.html#a686bb9fbe620caeaece6b610de1884b6", null ],
-    [ "Const_Triangulation", "classMR_1_1Const__Triangulation.html#aa4341e3ff4b18674528bfea972893789", null ],
     [ "back", "classMR_1_1Const__Triangulation.html#a2b1760e881dc6233f19e909ca624e15b", null ],
     [ "backId", "classMR_1_1Const__Triangulation.html#a86d458fb73ad93939df866eda7eda4f6", null ],
     [ "beginId", "classMR_1_1Const__Triangulation.html#a0bc80d632dfc888b4b1cfb822ea07814", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__Triangulation =
     [ "Equals", "classMR_1_1Const__Triangulation.html#ab7fedf775219eb938851b8462c2a9048", null ],
     [ "Equals", "classMR_1_1Const__Triangulation.html#a79c6b5efb76eb2ab1b8d738e35f23bf4", null ],
     [ "front", "classMR_1_1Const__Triangulation.html#a4b50d26fd62467b2f1ee275d2383cf96", null ],
-    [ "GetEnumerator", "classMR_1_1Const__Triangulation.html#adcb3952328ce50fdb40faa3f0a0d20d5", null ],
     [ "heapBytes", "classMR_1_1Const__Triangulation.html#aad841c052f78d6bd218b54c815a5ffc7", null ],
-    [ "operator Const_Triangulation", "classMR_1_1Const__Triangulation.html#af4f0d1b92dcd354e3f04d9759474f72b", null ],
+    [ "maxSize", "classMR_1_1Const__Triangulation.html#a9287d86a43b68b491cf9707c089153b8", null ],
     [ "operator!=", "classMR_1_1Const__Triangulation.html#a6cf019c0550f5bdb44ac413e5a3a7629", null ],
     [ "operator==", "classMR_1_1Const__Triangulation.html#a3aee9c6ad04d3b626e15c9a828448ade", null ],
     [ "size", "classMR_1_1Const__Triangulation.html#a2fdc6fff56bfe359e919939dab0dc3a4", null ],
     [ "this[MR.FaceId i]", "classMR_1_1Const__Triangulation.html#a2e2ec3acd1b6e3c4b48abeba6292bef0", null ],
-    [ "vec", "classMR_1_1Const__Triangulation.html#a277bfa165bce6079f4dd295439501b6e", null ]
+    [ "vec", "classMR_1_1Const__Triangulation.html#ad7cd75c6361ac6e8fb87c2f0f29245d3", null ]
 ];

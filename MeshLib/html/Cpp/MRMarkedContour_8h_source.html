@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -166,7 +159,7 @@ $(function(){initNavTree('MRMarkedContour_8h_source.html','',''); });
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga209bfc652faa16c46df5315c189242b1">   25</a></span>[[nodiscard]] <span class="keyword">inline</span> <a class="code hl_struct" href="structMR_1_1MarkedContour3f.html">MarkedContour3f</a> <a class="code hl_function" href="group__GeneralGroup.html#ga209bfc652faa16c46df5315c189242b1">markedContour</a>( <a class="code hl_typedef" href="group__GeneralGroup.html#ga19c0568c2b8f7fe1df67adc9cf370bc0">Contour3f</a> in )</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>{</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keyword">const</span> <span class="keyword">auto</span> sz = in.size();</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordflow">return</span> <a class="code hl_struct" href="structMR_1_1MarkedContour3f.html">MarkedContour3f</a>{ .contour = std::move( in ), .marks = <a class="code hl_variable" href="group__GeneralGroup.html#ga0644533afbeab941be3a4178a8feb4fe">BitSet</a>( sz, <span class="keyword">true</span> ) };</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordflow">return</span> <a class="code hl_struct" href="structMR_1_1MarkedContour3f.html">MarkedContour3f</a>{ .contour = std::move( in ), .marks = <a class="code hl_class" href="classMR_1_1BitSet.html">BitSet</a>( sz, <span class="keyword">true</span> ) };</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>}</div>
 </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span></div>
@@ -174,7 +167,7 @@ $(function(){initNavTree('MRMarkedContour_8h_source.html','',''); });
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gabbe4ed3e93ef2ac23bd9eac49139758a">   32</a></span>[[nodiscard]] <span class="keyword">inline</span> <a class="code hl_struct" href="structMR_1_1MarkedContour3f.html">MarkedContour3f</a> <a class="code hl_function" href="group__GeneralGroup.html#gabbe4ed3e93ef2ac23bd9eac49139758a">markedFirstLast</a>( <a class="code hl_typedef" href="group__GeneralGroup.html#ga19c0568c2b8f7fe1df67adc9cf370bc0">Contour3f</a> in )</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>{</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keyword">const</span> <span class="keyword">auto</span> sz = in.size();</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <a class="code hl_struct" href="structMR_1_1MarkedContour3f.html">MarkedContour3f</a> res{ .contour = std::move( in ), .marks = <a class="code hl_variable" href="group__GeneralGroup.html#ga0644533afbeab941be3a4178a8feb4fe">BitSet</a>( sz, <span class="keyword">false</span> ) };</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <a class="code hl_struct" href="structMR_1_1MarkedContour3f.html">MarkedContour3f</a> res{ .contour = std::move( in ), .marks = <a class="code hl_class" href="classMR_1_1BitSet.html">BitSet</a>( sz, <span class="keyword">false</span> ) };</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    res.<a class="code hl_variable" href="group__GeneralGroup.html#gaf4a0eb3a1b2a34ed0c90d37d6e36baa2">marks</a>.<a class="code hl_function" href="classMR_1_1BitSet.html#a597ed58dd86315f71c893994b7bb46c4">set</a>( 0 );</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    res.<a class="code hl_variable" href="group__GeneralGroup.html#gaf4a0eb3a1b2a34ed0c90d37d6e36baa2">marks</a>.<a class="code hl_function" href="classMR_1_1BitSet.html#a597ed58dd86315f71c893994b7bb46c4">set</a>( sz - 1 );</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordflow">return</span> res;</div>
@@ -209,9 +202,8 @@ $(function(){initNavTree('MRMarkedContour_8h_source.html','',''); });
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:85</div></div>
 <div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1BitSet_html"><div class="ttname"><a href="classMR_1_1BitSet.html">MR::BitSet</a></div><div class="ttdef"><b>Definition</b> MRBitSet.h:69</div></div>
+<div class="ttc" id="aclassMR_1_1BitSet_html"><div class="ttname"><a href="classMR_1_1BitSet.html">MR::BitSet</a></div><div class="ttdef"><b>Definition</b> MRBitSet.h:71</div></div>
 <div class="ttc" id="aclassMR_1_1BitSet_html_a597ed58dd86315f71c893994b7bb46c4"><div class="ttname"><a href="classMR_1_1BitSet.html#a597ed58dd86315f71c893994b7bb46c4">MR::BitSet::set</a></div><div class="ttdeci">BitSet &amp; set(IndexType n, size_type len, bool val)</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga0644533afbeab941be3a4178a8feb4fe"><div class="ttname"><a href="group__GeneralGroup.html#ga0644533afbeab941be3a4178a8feb4fe">MR::BitSet</a></div><div class="ttdeci">class MRMESH_CLASS BitSet</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:159</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga19c0568c2b8f7fe1df67adc9cf370bc0"><div class="ttname"><a href="group__GeneralGroup.html#ga19c0568c2b8f7fe1df67adc9cf370bc0">MR::Contour3f</a></div><div class="ttdeci">Contour3&lt; float &gt; Contour3f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:378</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga209bfc652faa16c46df5315c189242b1"><div class="ttname"><a href="group__GeneralGroup.html#ga209bfc652faa16c46df5315c189242b1">MR::markedContour</a></div><div class="ttdeci">MarkedContour3f markedContour(Contour3f in)</div><div class="ttdef"><b>Definition</b> MRMarkedContour.h:25</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga2d99841a694378a8867cf08f7c63aec0"><div class="ttname"><a href="group__GeneralGroup.html#ga2d99841a694378a8867cf08f7c63aec0">MR::MarkedContour3f::firstLastMarked</a></div><div class="ttdeci">bool firstLastMarked() const</div><div class="ttdoc">returns true if the very first and the very last points in this contour has set bits in marks</div></div>
@@ -226,7 +218,7 @@ $(function(){initNavTree('MRMarkedContour_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gaf076810565cee0720087fb452c2967f9"><div class="ttname"><a href="group__GeneralGroup.html#gaf076810565cee0720087fb452c2967f9">MR::SplineSettings::normalsAffectShape</a></div><div class="ttdeci">bool normalsAffectShape</div><div class="ttdoc">if true and normals are provided, then the curve at marked points will try to be orthogonal to given ...</div><div class="ttdef"><b>Definition</b> MRMarkedContour.h:76</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaf35eda873f57d271f24416d60a8aecf9"><div class="ttname"><a href="group__GeneralGroup.html#gaf35eda873f57d271f24416d60a8aecf9">MR::makeSpline</a></div><div class="ttdeci">MarkedContour3f makeSpline(MarkedContour3f in, float markStability=1, const Contour3f *normals=nullptr)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaf4a0eb3a1b2a34ed0c90d37d6e36baa2"><div class="ttname"><a href="group__GeneralGroup.html#gaf4a0eb3a1b2a34ed0c90d37d6e36baa2">MR::MarkedContour3f::marks</a></div><div class="ttdeci">BitSet marks</div><div class="ttdoc">indices of control (marked) points</div><div class="ttdef"><b>Definition</b> MRMarkedContour.h:16</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1MarkedContour3f_html"><div class="ttname"><a href="structMR_1_1MarkedContour3f.html">MR::MarkedContour3f</a></div><div class="ttdef"><b>Definition</b> MRMarkedContour.h:14</div></div>
 <div class="ttc" id="astructMR_1_1SplineSettings_html"><div class="ttname"><a href="structMR_1_1SplineSettings.html">MR::SplineSettings</a></div><div class="ttdef"><b>Definition</b> MRMarkedContour.h:59</div></div>
 </div><!-- fragment --></div><!-- contents -->

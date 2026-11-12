@@ -1,8 +1,10 @@
 var MRObjectLabel_8h =
 [
-    [ "_count", "group__GeneralGroup.html#ga69c4cff6b9a1cd95c71fc56b8dd9a983", null ],
-    [ "Background", "group__GeneralGroup.html#ga359dee50af5c0aa1a77b899f0b0c177e", null ],
-    [ "Contour", "group__GeneralGroup.html#ga1671b043728dec2b5c7e5446f1b8c97e", null ],
-    [ "LeaderLine", "group__GeneralGroup.html#gaf642e49e213e62cc072e2ac4c92b0c16", null ],
-    [ "SourcePoint", "group__GeneralGroup.html#gaf1439dbeb519b61d94005d8bfa52093c", null ]
+    [ "MR::LabelVisualizePropertyType", "group__GeneralGroup.html#ga67d34f41d5848c8437c87a4508f88574", [
+      [ "MR::LabelVisualizePropertyType::SourcePoint", "group__GeneralGroup.html#gga67d34f41d5848c8437c87a4508f88574afff5890f0ac191b2a70ebd427668c39a", null ],
+      [ "MR::LabelVisualizePropertyType::LeaderLine", "group__GeneralGroup.html#gga67d34f41d5848c8437c87a4508f88574ac43f0b11a1f2fad74f5110ac8e2fde85", null ],
+      [ "MR::LabelVisualizePropertyType::Background", "group__GeneralGroup.html#gga67d34f41d5848c8437c87a4508f88574aa9ded1e5ce5d75814730bb4caaf49419", null ],
+      [ "MR::LabelVisualizePropertyType::Contour", "group__GeneralGroup.html#gga67d34f41d5848c8437c87a4508f88574a0b3303e86f36d6d2b1266da88cf76e66", null ],
+      [ "MR::LabelVisualizePropertyType::_count", "group__GeneralGroup.html#gga67d34f41d5848c8437c87a4508f88574ad69186af02738a9b3ced1bc5b652ba55", null ]
+    ] ]
 ];

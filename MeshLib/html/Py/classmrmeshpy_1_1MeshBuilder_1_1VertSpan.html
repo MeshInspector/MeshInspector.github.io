@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,32 +133,45 @@ $(function(){initNavTree('classmrmeshpy_1_1MeshBuilder_1_1VertSpan.html','','cla
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1MeshBuilder_1_1VertSpan-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.MeshBuilder.VertSpan Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for mrmeshpy.MeshBuilder.VertSpan:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmrmeshpy_1_1MeshBuilder_1_1VertSpan.png" usemap="#mrmeshpy_2EMeshBuilder_2EVertSpan_map" alt=""/>
+  <map id="mrmeshpy_2EMeshBuilder_2EVertSpan_map" name="mrmeshpy_2EMeshBuilder_2EVertSpan_map">
+<area href="classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan.html" alt="mrmeshpy.MeshBuilder.ConstVertSpan" shape="rect" coords="0,0,233,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6d37cb8376ba5fc84a0d3c89d727fde1" id="r_a6d37cb8376ba5fc84a0d3c89d727fde1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d37cb8376ba5fc84a0d3c89d727fde1">__init__</a> (self)</td></tr>
-<tr class="memitem:a02e6efe989266eeed741fcd3ca553114" id="r_a02e6efe989266eeed741fcd3ca553114"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02e6efe989266eeed741fcd3ca553114">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1VertSpan.html">MeshBuilder.VertSpan</a> arg0)</td></tr>
-<tr class="memitem:ab5aeace7c3b233411e10a0a722e113ff" id="r_ab5aeace7c3b233411e10a0a722e113ff"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5aeace7c3b233411e10a0a722e113ff">__init__</a> (self, int firstVertex, int lastVertex)</td></tr>
+<tr class="memitem:af618702688f01f618816192d4137c0e9" id="r_af618702688f01f618816192d4137c0e9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af618702688f01f618816192d4137c0e9">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan.html">MeshBuilder.ConstVertSpan</a> arg0)</td></tr>
+<tr class="memitem:ab5aeace7c3b233411e10a0a722e113ff" id="r_ab5aeace7c3b233411e10a0a722e113ff"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5aeace7c3b233411e10a0a722e113ff">__init__</a> (self, int <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan.html#ab5d1b4e7f8330adde5c0ee0082fc3584">firstVertex</a>, int <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan.html#ae26c74c4ee3d2141e04d926717a3bb89">lastVertex</a>)</td></tr>
+<tr class="memitem:a33635ad63d356e4268cb6d0e7930457c" id="r_a33635ad63d356e4268cb6d0e7930457c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1VertSpan.html">MeshBuilder.VertSpan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33635ad63d356e4268cb6d0e7930457c">assign</a> (self, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan.html">MeshBuilder.ConstVertSpan</a> other)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan.html">mrmeshpy.MeshBuilder.ConstVertSpan</a></td></tr>
+<tr class="memitem:a2cd440b5b393b48ebeb34333df13af9d inherit pub_methods_classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan" id="r_a2cd440b5b393b48ebeb34333df13af9d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan.html#a2cd440b5b393b48ebeb34333df13af9d">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:ab5d1b4e7f8330adde5c0ee0082fc3584 inherit pub_methods_classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan" id="r_ab5d1b4e7f8330adde5c0ee0082fc3584"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan.html#ab5d1b4e7f8330adde5c0ee0082fc3584">firstVertex</a> (self)</td></tr>
+<tr class="memitem:ae26c74c4ee3d2141e04d926717a3bb89 inherit pub_methods_classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan" id="r_ae26c74c4ee3d2141e04d926717a3bb89"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan.html#ae26c74c4ee3d2141e04d926717a3bb89">lastVertex</a> (self)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa1148de36d6d501e86d540d1295e7203" id="r_aa1148de36d6d501e86d540d1295e7203"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1148de36d6d501e86d540d1295e7203">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a39c6f7ea97e50e62aeaf34a2fd557788" id="r_a39c6f7ea97e50e62aeaf34a2fd557788"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1VertSpan.html">MeshBuilder.VertSpan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39c6f7ea97e50e62aeaf34a2fd557788">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a39c6f7ea97e50e62aeaf34a2fd557788" id="r_a39c6f7ea97e50e62aeaf34a2fd557788"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1VertSpan.html">MeshBuilder.VertSpan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39c6f7ea97e50e62aeaf34a2fd557788">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a3f22b2b608273e759115bb9e3d29f0a3" id="r_a3f22b2b608273e759115bb9e3d29f0a3"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f22b2b608273e759115bb9e3d29f0a3">_offsetof_firstVertex</a> = 0</td></tr>
-<tr class="memitem:a218c653ec174a8da78ab0c3f5c19aae5" id="r_a218c653ec174a8da78ab0c3f5c19aae5"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a218c653ec174a8da78ab0c3f5c19aae5">_offsetof_lastVertex</a> = 4</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_static_attribs_classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Attributes inherited from <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan.html">mrmeshpy.MeshBuilder.ConstVertSpan</a></td></tr>
+<tr class="memitem:ab0ceb3d8f81d6db39a1dfa74de843aa6 inherit pro_static_attribs_classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan" id="r_ab0ceb3d8f81d6db39a1dfa74de843aa6"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan.html#ab0ceb3d8f81d6db39a1dfa74de843aa6">_offsetof_firstVertex</a> = 0</td></tr>
+<tr class="memitem:a0b193f8eba2bad5a5e05a1a01bbe3adc inherit pro_static_attribs_classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan" id="r_a0b193f8eba2bad5a5e05a1a01bbe3adc"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan.html#a0b193f8eba2bad5a5e05a1a01bbe3adc">_offsetof_lastVertex</a> = 4</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::MeshBuilder::VertSpan
-Aliases:  Vector_MeshBuilder_VertSpan_FaceId.const_reference, Vector_MeshBuilder_VertSpan_FaceId.reference, Vector_MeshBuilder_VertSpan_FaceId.value_type, std_vector_MeshBuilder_VertSpan_const_reference, std_vector_MeshBuilder_VertSpan_reference, std_vector_MeshBuilder_VertSpan_value_type
+Aliases:  Vector_MeshBuilder_VertSpan_FaceId.const_pointer, Vector_MeshBuilder_VertSpan_FaceId.const_reference, Vector_MeshBuilder_VertSpan_FaceId.pointer, Vector_MeshBuilder_VertSpan_FaceId.reference, Vector_MeshBuilder_VertSpan_FaceId.value_type, std_vector_MeshBuilder_VertSpan_Allocator_MeshBuilder_VertSpan_const_pointer, std_vector_MeshBuilder_VertSpan_Allocator_MeshBuilder_VertSpan_const_reference, std_vector_MeshBuilder_VertSpan_Allocator_MeshBuilder_VertSpan_pointer, std_vector_MeshBuilder_VertSpan_Allocator_MeshBuilder_VertSpan_reference, std_vector_MeshBuilder_VertSpan_Allocator_MeshBuilder_VertSpan_value_type
 
 each face is surrounded by a closed contour of vertices [fistVertex, lastVertex)
 </pre> </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -215,8 +221,8 @@ each face is surrounded by a closed contour of vertices [fistVertex, lastVertex)
 
 </div>
 </div>
-<a id="a02e6efe989266eeed741fcd3ca553114" name="a02e6efe989266eeed741fcd3ca553114"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02e6efe989266eeed741fcd3ca553114">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+<a id="af618702688f01f618816192d4137c0e9" name="af618702688f01f618816192d4137c0e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af618702688f01f618816192d4137c0e9">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229,7 +235,7 @@ each face is surrounded by a closed contour of vertices [fistVertex, lastVertex)
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1VertSpan.html">MeshBuilder.VertSpan</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan.html">MeshBuilder.ConstVertSpan</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -265,105 +271,23 @@ each face is surrounded by a closed contour of vertices [fistVertex, lastVertex)
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a39c6f7ea97e50e62aeaf34a2fd557788" name="a39c6f7ea97e50e62aeaf34a2fd557788"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39c6f7ea97e50e62aeaf34a2fd557788">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
+<a id="a33635ad63d356e4268cb6d0e7930457c" name="a33635ad63d356e4268cb6d0e7930457c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33635ad63d356e4268cb6d0e7930457c">&#9670;&#160;</a></span>assign()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1VertSpan.html">MeshBuilder.VertSpan</a> mrmeshpy.MeshBuilder.VertSpan.operator </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1VertSpan.html">MeshBuilder.VertSpan</a> mrmeshpy.MeshBuilder.VertSpan.assign </td>
           <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1ConstVertSpan.html">MeshBuilder.ConstVertSpan</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a39c6f7ea97e50e62aeaf34a2fd557788" name="a39c6f7ea97e50e62aeaf34a2fd557788"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39c6f7ea97e50e62aeaf34a2fd557788">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1VertSpan.html">MeshBuilder.VertSpan</a> mrmeshpy.MeshBuilder.VertSpan.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a3f22b2b608273e759115bb9e3d29f0a3" name="a3f22b2b608273e759115bb9e3d29f0a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f22b2b608273e759115bb9e3d29f0a3">&#9670;&#160;</a></span>_offsetof_firstVertex</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.MeshBuilder.VertSpan._offsetof_firstVertex = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a218c653ec174a8da78ab0c3f5c19aae5" name="a218c653ec174a8da78ab0c3f5c19aae5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a218c653ec174a8da78ab0c3f5c19aae5">&#9670;&#160;</a></span>_offsetof_lastVertex</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.MeshBuilder.VertSpan._offsetof_lastVertex = 4</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

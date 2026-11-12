@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -143,42 +136,45 @@ $(function(){initNavTree('classmrmeshpy_1_1Vector4i.html','',''); });
 
 <p>This is the complete list of members for <a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#ac42ab5f1fd8f58c560807ab483d792e0">__add__</a>(self, Vector4i b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a94d4009339a3380cee3baeb873e3515b">__eq__</a>(self, Vector4i b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#a1bdf98a37eb2973e6c92697d1fc9ab55">__add__</a>(self, ConstVector4i b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#a5c5d49f23d9b30b8e4626b4841f1e69e">__eq__</a>(self, ConstVector4i b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#abcecb961d8d46d99eae1c6edf42f073b">__getitem__</a>(self, int e)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#abcecb961d8d46d99eae1c6edf42f073b">__getitem__</a>(self, int e)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a80f652d7383ccad5375cc4d196b4c91e">__iadd__</a>(self, Vector4i b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a73568ee53c7ac41b6c41edba488e3ada">__imatmul__</a>(self, int b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a571b665b756b5d52d4b9aace86126152">__getitem__</a>(ConstVector4i self, int e)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#ac62c2a63b07bf169c1f657dfd0cf915b">__iadd__</a>(self, ConstVector4i b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#ac8c00227a19c7108081149db3e5ae218">__imul__</a>(self, int b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#aa8806c483e09b15aae532e3d2a267c16">__init__</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#aa8806c483e09b15aae532e3d2a267c16">__init__</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#aac6c1843614259c05796338717e53e39">__init__</a>(self, Color arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#ad73fd86ac621134e739c366864e2f92d">__init__</a>(self, ConstColor arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a621979069a3f4294e648ed80a1de0807">__init__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#afc75d4b026fa64af3f9765657498fe6c">__init__</a>(self, int x, int y, int z, int w)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#afb281bc5b5232f31bd004ec9d22f8a00">__init__</a>(self, Vector4i arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a2f89b9a5b302be8fbec381272948656b">__isub__</a>(self, Vector4i b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#adefa696667e0994ccb909cec9c7167f9">__iter__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a25377a24d504f16415929c0c93a85a55">__isub__</a>(self, ConstVector4i b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#ae9d7e0923b1b904950b69e122f3dbb37">__iter__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a95cb349c7e3194277d60bb4c014594ac">__itruediv__</a>(self, int b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a0fa64fbe9f843abb76024e8098b0180b">__mul__</a>(self, int a)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#acf464d7afbd3f7c878bb75558a76a7a4">__ne__</a>(self, Vector4i b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a77f6231a206081b77338b911747e8a98">__neg__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#aa234721c49ed680f046e5893920bbb9c">__pos__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#ab54c172aef5a8c725af4cb3898f6c2c0">__repr__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a10de558a5563cd6267ac829aff8722be">__rlshift__</a>(self, typing.Any vec)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a4d2143deb8290046591fda5aa276e029">__rmul__</a>(self, int b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#ab5f3ef30bcbb80eb1aca754563bffa9d">__mul__</a>(self, int a)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#ad4d3f68415526d97d233159b3d6264f2">__ne__</a>(self, ConstVector4i b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#a55bff5335b7e2ab9936520e0b4148db7">__neg__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#aabbba695e0ff8f6fadf3d52f9b31761a">__pos__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#a6767a59d91575eb4a5a012dc67624666">__repr__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#a5d9b410bba3fb9a7ed1888eadb804895">__rlshift__</a>(self, typing.Any vec)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#a40999d6cbb8585ece2a0c417479f6152">__rmul__</a>(self, int b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a9887bfa5b652b31f143cc6a0749250e7">__rrshift__</a>(self, typing.Any vec)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#af1de8ea250321794bb2c7f9bd756ff6d">__setitem__</a>(self, int arg0, int arg1)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a9c2b892e026a61330f81f1054fa97aaf">__sub__</a>(self, Vector4i b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a00afdd1f74d0cc93d176d8460b5ff638">__truediv__</a>(self, int a)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#ac420206571731a8847b5cb765da47228">_offsetof_w</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a511f32e65120310ab3655272617a7fd5">_offsetof_x</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a61ed049f8c878f6fb7adc92da3879e05">_offsetof_y</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a9d5a5f9a2ea4bc0d37136c4562b667e2">_offsetof_z</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a3ba12c30b7f89f61f7bc7e99cdfaec74">diagonal</a>(int a)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a590164a741ffa4abe2d709a788524601">elements</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a843d0c91edc175a6a51065bcbd09c26f">length</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#a50290cb04ce34098ecd60fbb40ce37e7">lengthSq</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#ad572c62efc5018452ffb574b28c16b68">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#ad572c62efc5018452ffb574b28c16b68">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#afc857e1326ca1bec39380e10c8f02df5">__sub__</a>(self, ConstVector4i b)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#a9f9e3684ecd1c26b54e657011e1d0b96">__truediv__</a>(self, int a)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#a41a55b44146cdbe43bc94ca9915172c7">_offsetof_w</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#a4b27c34366b1383a19c27111631f3675">_offsetof_x</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#abe212c91698877e8d57dc2a1aac81e69">_offsetof_y</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#a05785197fcd08ec4e53c5a6e798f93c8">_offsetof_z</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html#af0d3955061338dcce5188e9d112fb146">assign</a>(self, ConstVector4i other)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Vector4i.html">mrmeshpy.Vector4i</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#aa07c040513a55321ce9e9aee7ba96617">diagonal</a>(int a)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#af3316d38bfe035c5f9ef827f5fb8c5ba">elements</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#a11c1a693b87af6d378abeac829bd1aa3">length</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#a1b97796e10b62e324a952bd0898e9ecb">lengthSq</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#a6c91f8a2c18d3b501534b8d875b5f363">w</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#a4733497b000397357345d30c28fdbdf9">x</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#a052c7875ed41f3c5c5dbee58ad8daf0a">y</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html#a758316a01e128343ab54c63ad401cad5">z</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstVector4i.html">mrmeshpy.ConstVector4i</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

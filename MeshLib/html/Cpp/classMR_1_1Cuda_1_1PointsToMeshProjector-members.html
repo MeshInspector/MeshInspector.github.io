@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -143,14 +136,14 @@ $(function(){initNavTree('classMR_1_1Cuda_1_1PointsToMeshProjector.html','','');
 
 <p>This is the complete list of members for <a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html">MR::Cuda::PointsToMeshProjector</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html#a393b65262243753c160a11f48d57c301">findProjections</a>(std::vector&lt; MR::MeshProjectionResult &gt; &amp;res, const std::vector&lt; Vector3f &gt; &amp;points, const AffineXf3f *objXf, const AffineXf3f *refObjXf, float upDistLimitSq, float loDistLimitSq) override</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html">MR::Cuda::PointsToMeshProjector</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#gaffb7ba1779ad577458ada7ad99f578ce">MR::IPointsToMeshProjector::findProjections</a>(std::vector&lt; MeshProjectionResult &gt; &amp;result, const std::vector&lt; Vector3f &gt; &amp;points, const AffineXf3f *worldXf=nullptr, const AffineXf3f *worldRefXf=nullptr, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0.0f)=0</td><td class="entry"><a class="el" href="classMR_1_1IPointsToMeshProjector.html">MR::IPointsToMeshProjector</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html#ade6f030887ef5db055c3d548e0ef8354">findProjections</a>(std::vector&lt; MR::MeshProjectionResult &gt; &amp;res, const VertCoords &amp;points, const AffineXf3f *objXf, const AffineXf3f *refObjXf, float upDistLimitSq, float loDistLimitSq) override</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html">MR::Cuda::PointsToMeshProjector</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga5d0b9eb7552990bcbed98faae8de8ff7">MR::IPointsToMeshProjector::findProjections</a>(std::vector&lt; MeshProjectionResult &gt; &amp;result, const VertCoords &amp;points, const AffineXf3f *worldXf=nullptr, const AffineXf3f *worldRefXf=nullptr, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0.0f)=0</td><td class="entry"><a class="el" href="classMR_1_1IPointsToMeshProjector.html">MR::IPointsToMeshProjector</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga760668937924821096ad6a656e997dd6">IPointsToMeshProjector</a>()=default</td><td class="entry"><a class="el" href="classMR_1_1IPointsToMeshProjector.html">MR::IPointsToMeshProjector</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga6536d27d13221f6b39d282c975088718">IPointsToMeshProjector</a>(const IPointsToMeshProjector &amp;)=default</td><td class="entry"><a class="el" href="classMR_1_1IPointsToMeshProjector.html">MR::IPointsToMeshProjector</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#gaa38e9b719876265280a8e6044e889b2f">IPointsToMeshProjector</a>(IPointsToMeshProjector &amp;&amp;) noexcept=default</td><td class="entry"><a class="el" href="classMR_1_1IPointsToMeshProjector.html">MR::IPointsToMeshProjector</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html#ac217c2f9f716d994aa1c0ab98369dc95">PointsToMeshProjector</a>()</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html">MR::Cuda::PointsToMeshProjector</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html#a01151649b364309dda94e8170e3e10f3">projectionsHeapBytes</a>(size_t numProjections) const override</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html">MR::Cuda::PointsToMeshProjector</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html#acea486c98480ff347d65eaed201897c2">updateMeshData</a>(const Mesh *mesh) override</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html">MR::Cuda::PointsToMeshProjector</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html#aa807e43c25f1622953a45b90a063f592">PointsToMeshProjector</a>()</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html">MR::Cuda::PointsToMeshProjector</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html#a6caa0b6c4837b2ac5eb0415d6a07797d">projectionsHeapBytes</a>(size_t numProjections) const override</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html">MR::Cuda::PointsToMeshProjector</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html#a0357a78935234156acd1e41a5a94995c">updateMeshData</a>(const Mesh *mesh) override</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1PointsToMeshProjector.html">MR::Cuda::PointsToMeshProjector</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#gac1a1633695c8776296054f81942a84dc">~IPointsToMeshProjector</a>()=default</td><td class="entry"><a class="el" href="classMR_1_1IPointsToMeshProjector.html">MR::IPointsToMeshProjector</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->

@@ -8,6 +8,7 @@ var classMR_1_1TextureBitSet =
     [ "TextureBitSet", "classMR_1_1TextureBitSet.html#aa9766b613fdd9286a76667dfa568387c", null ],
     [ "TextureBitSet", "classMR_1_1TextureBitSet.html#a7841750691be44e3f6d5f0e01c0c0245", null ],
     [ "assign", "classMR_1_1TextureBitSet.html#afb4c6eb569d280e37ca2ee0c8d485fdf", null ],
+    [ "atomicTestSet", "classMR_1_1TextureBitSet.html#a2b2e27c13ed07e197f9062a0f32df96f", null ],
     [ "autoResizeSet", "classMR_1_1TextureBitSet.html#a67b894ad90857e6a1947575e01df737b", null ],
     [ "autoResizeSet", "classMR_1_1TextureBitSet.html#a675ce7274bf4c8196bcb5ecaed7341e4", null ],
     [ "autoResizeTestSet", "classMR_1_1TextureBitSet.html#a536e1c80abd072036af531f012cd08c1", null ],

@@ -1,5 +1,6 @@
 var group__PolylineGroup =
 [
+    [ "Polyline Subdivide", "group__PolylineSubdivideGroup.html", "group__PolylineSubdivideGroup" ],
     [ "MR::Polyline< V >", "structMR_1_1Polyline.html", [
       [ "Polyline", "structMR_1_1Polyline.html#a5b3f0a6dabe52200adbd05fce503069a", null ],
       [ "Polyline", "structMR_1_1Polyline.html#a4b0c7356bf9410a07c99ee9ee80b8db5", null ],

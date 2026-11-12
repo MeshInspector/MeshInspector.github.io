@@ -6,7 +6,6 @@ var classMR_1_1Const__Vector__MRRegionId__MRRegionId =
     [ "Const_Vector_MRRegionId_MRRegionId", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#acdb6c4b32e7e8f5ab1d4c48f6a3ccd10", null ],
     [ "Const_Vector_MRRegionId_MRRegionId", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#ad333dbb557e98efb6902d18cf0e4ef3a", null ],
     [ "Const_Vector_MRRegionId_MRRegionId", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#a661a04af00f41df95fa23aee00ef8b5c", null ],
-    [ "Const_Vector_MRRegionId_MRRegionId", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#a0682f22c5652aa590857c0392c218799", null ],
     [ "back", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#a0f6b9db2808ce103d8c39ec2cdf123cd", null ],
     [ "backId", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#aca1ec90464481a66a4154696f74b1ed2", null ],
     [ "beginId", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#a1555376c91edaa8958f8f2fe25d49dc3", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__Vector__MRRegionId__MRRegionId =
     [ "Equals", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#a74394c2d003c067f5db362c60f31d611", null ],
     [ "Equals", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#afe44eaab3855e8d0e1e947ff65d56ed2", null ],
     [ "front", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#a873966ca1745cf1efce543b053f3a07b", null ],
-    [ "GetEnumerator", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#a8a0b3ae58141737d98f779f7b10c2a97", null ],
     [ "heapBytes", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#ab7accf84e27534e198516b0248a25456", null ],
-    [ "operator Const_Vector_MRRegionId_MRRegionId", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#a3df3ec937b2a09c7f1b2df4ca1e059a4", null ],
+    [ "maxSize", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#a508295408754c4c339bcb828d575713f", null ],
     [ "operator!=", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#a1df6bee3f5cb1c015da0caf9fb30d779", null ],
     [ "operator==", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#acfef82046c89694e147bc052937c6912", null ],
     [ "size", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#a1a441f796dabe07bff9ba01ede6e0230", null ],
     [ "this[MR.RegionId i]", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#ae1b470148643c6f7a2a14bc1344138c2", null ],
-    [ "vec", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#ab718d7af2f01a6044f586337082a1612", null ]
+    [ "vec", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html#a845e69f7de079f1aadb7a024613b06fe", null ]
 ];

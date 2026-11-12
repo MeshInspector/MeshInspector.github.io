@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -579,7 +572,7 @@ Functions</h2></td></tr>
 <p>This function cuts a point cloud with a plane, leaving only the part of mesh that lay in positive direction of normal </p><dl class="section return"><dt>Returns</dt><dd>Point cloud object with vertices on the positive side of the plane </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pc</td><td>Input point cloud that will be cut by the plane </td></tr>
+    <tr><td class="paramname">points</td><td>Input point cloud that will be cut by the plane </td></tr>
     <tr><td class="paramname">plane</td><td>Input plane to cut point cloud with </td></tr>
     <tr><td class="paramname">optOut</td><td>optional output of the function Generated from function <span class="tt">MR::divideWithPlane</span>. Parameter <span class="tt">points</span> can not be null. It is a single object. Parameter <span class="tt">plane</span> can not be null. It is a single object. Parameter <span class="tt">optOut</span> is a single object. Parameter <span class="tt">optOut</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRPointCloud_8h.html#ab779f06f061af58a1905e4d5b5e23e20" title="Destroys a heap-allocated instance of MR_PointCloud. Does nothing if the pointer is null.">MR_PointCloud_Destroy()</a></span> to free it when you're done using it. </td></tr>
   </table>

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,23 +133,35 @@ $(function(){initNavTree('classmrmeshpy_1_1CompensateRadiusParams.html','','clas
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1CompensateRadiusParams-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.CompensateRadiusParams Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for mrmeshpy.CompensateRadiusParams:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmrmeshpy_1_1CompensateRadiusParams.png" usemap="#mrmeshpy_2ECompensateRadiusParams_map" alt=""/>
+  <map id="mrmeshpy_2ECompensateRadiusParams_map" name="mrmeshpy_2ECompensateRadiusParams_map">
+<area href="classmrmeshpy_1_1ConstCompensateRadiusParams.html" alt="mrmeshpy.ConstCompensateRadiusParams" shape="rect" coords="0,0,254,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad9e3fda74f66d1c973ed007025e8c8ec" id="r_ad9e3fda74f66d1c973ed007025e8c8ec"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9e3fda74f66d1c973ed007025e8c8ec">__init__</a> (self)</td></tr>
-<tr class="memitem:a0eb91639a3e857d1803cc4d262b13f9a" id="r_a0eb91639a3e857d1803cc4d262b13f9a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0eb91639a3e857d1803cc4d262b13f9a">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1CompensateRadiusParams.html">CompensateRadiusParams</a> arg0)</td></tr>
-<tr class="memitem:ab2f58cd60ed2bc15b595318b28d85828" id="r_ab2f58cd60ed2bc15b595318b28d85828"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2f58cd60ed2bc15b595318b28d85828">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> <a class="el" href="#abe785aeb4bbc5bdb2bd8576838606d34">direction</a>, float <a class="el" href="#a97da59e2b94b6907a634f10f360ad432">toolRadius</a>, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> <a class="el" href="#a8257cade406fca2581a938ad39a4ba33">region</a>, int <a class="el" href="#a58a4531d6e26eb8550d4f58b407a91d1">maxIterations</a>, int <a class="el" href="#a0e429ccfe71fedcd44f1e24dfff5433a">relaxExpansion</a>, int <a class="el" href="#abc7e05dc326f54601dfd5b799b5bd5fb">relaxIterations</a>, float <a class="el" href="#aed51e2f2eccb85c769a119d08088f828">relaxForce</a>, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> callback)</td></tr>
+<tr class="memitem:a3f5d9fce4822913e9f01b74e71b471ac" id="r_a3f5d9fce4822913e9f01b74e71b471ac"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f5d9fce4822913e9f01b74e71b471ac">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html">ConstCompensateRadiusParams</a> arg0)</td></tr>
+<tr class="memitem:a9c45cd2791377e74d38bcfd69d8ef77a" id="r_a9c45cd2791377e74d38bcfd69d8ef77a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c45cd2791377e74d38bcfd69d8ef77a">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> <a class="el" href="#abe785aeb4bbc5bdb2bd8576838606d34">direction</a>, float <a class="el" href="#a97da59e2b94b6907a634f10f360ad432">toolRadius</a>, <a class="el" href="classmrmeshpy_1_1ConstFaceBitSet.html">ConstFaceBitSet</a> <a class="el" href="#a8257cade406fca2581a938ad39a4ba33">region</a>, int <a class="el" href="#a58a4531d6e26eb8550d4f58b407a91d1">maxIterations</a>, int <a class="el" href="#a0e429ccfe71fedcd44f1e24dfff5433a">relaxExpansion</a>, int <a class="el" href="#abc7e05dc326f54601dfd5b799b5bd5fb">relaxIterations</a>, float <a class="el" href="#aed51e2f2eccb85c769a119d08088f828">relaxForce</a>, <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> <a class="el" href="#a9bf303a8b1438556a7fc92bc8b569d79">callback</a>)</td></tr>
+<tr class="memitem:a211746aabe7b975e656de4a2568c87b3" id="r_a211746aabe7b975e656de4a2568c87b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1CompensateRadiusParams.html">CompensateRadiusParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a211746aabe7b975e656de4a2568c87b3">assign</a> (self, <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html">ConstCompensateRadiusParams</a> other)</td></tr>
+<tr class="memitem:a9bf303a8b1438556a7fc92bc8b569d79" id="r_a9bf303a8b1438556a7fc92bc8b569d79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bf303a8b1438556a7fc92bc8b569d79">callback</a> (self)</td></tr>
+<tr class="memitem:a935399dd6e26efe2ff4cdae0e80ad98f" id="r_a935399dd6e26efe2ff4cdae0e80ad98f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a935399dd6e26efe2ff4cdae0e80ad98f">callback</a> (self, <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> arg1)</td></tr>
 <tr class="memitem:abe785aeb4bbc5bdb2bd8576838606d34" id="r_abe785aeb4bbc5bdb2bd8576838606d34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe785aeb4bbc5bdb2bd8576838606d34">direction</a> (self)</td></tr>
-<tr class="memitem:afaf4ce1854d4ae7a567341d0431f216e" id="r_afaf4ce1854d4ae7a567341d0431f216e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaf4ce1854d4ae7a567341d0431f216e">direction</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> arg1)</td></tr>
+<tr class="memitem:ab38dbaf72f9dc8b2bff10f823296031f" id="r_ab38dbaf72f9dc8b2bff10f823296031f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab38dbaf72f9dc8b2bff10f823296031f">direction</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> arg1)</td></tr>
 <tr class="memitem:a58a4531d6e26eb8550d4f58b407a91d1" id="r_a58a4531d6e26eb8550d4f58b407a91d1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58a4531d6e26eb8550d4f58b407a91d1">maxIterations</a> (self)</td></tr>
 <tr class="memitem:adb624dc3258fbd54b568aa84d375f282" id="r_adb624dc3258fbd54b568aa84d375f282"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb624dc3258fbd54b568aa84d375f282">maxIterations</a> (self, int arg1)</td></tr>
 <tr class="memitem:a8257cade406fca2581a938ad39a4ba33" id="r_a8257cade406fca2581a938ad39a4ba33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8257cade406fca2581a938ad39a4ba33">region</a> (self)</td></tr>
-<tr class="memitem:a31a3750fc097c0e39299f3915db132c6" id="r_a31a3750fc097c0e39299f3915db132c6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31a3750fc097c0e39299f3915db132c6">region</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> arg1)</td></tr>
+<tr class="memitem:aac5df10bcc171841e6aed4cf50c1a030" id="r_aac5df10bcc171841e6aed4cf50c1a030"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac5df10bcc171841e6aed4cf50c1a030">region</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFaceBitSet.html">ConstFaceBitSet</a> arg1)</td></tr>
 <tr class="memitem:a0e429ccfe71fedcd44f1e24dfff5433a" id="r_a0e429ccfe71fedcd44f1e24dfff5433a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e429ccfe71fedcd44f1e24dfff5433a">relaxExpansion</a> (self)</td></tr>
 <tr class="memitem:a189a12e998e0d7b694f166fa0eedf4f4" id="r_a189a12e998e0d7b694f166fa0eedf4f4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a189a12e998e0d7b694f166fa0eedf4f4">relaxExpansion</a> (self, int arg1)</td></tr>
 <tr class="memitem:aed51e2f2eccb85c769a119d08088f828" id="r_aed51e2f2eccb85c769a119d08088f828"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed51e2f2eccb85c769a119d08088f828">relaxForce</a> (self)</td></tr>
@@ -165,23 +170,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af69bd06a033b9ccacdd9f5c43745238d" id="r_af69bd06a033b9ccacdd9f5c43745238d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af69bd06a033b9ccacdd9f5c43745238d">relaxIterations</a> (self, int arg1)</td></tr>
 <tr class="memitem:a97da59e2b94b6907a634f10f360ad432" id="r_a97da59e2b94b6907a634f10f360ad432"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97da59e2b94b6907a634f10f360ad432">toolRadius</a> (self)</td></tr>
 <tr class="memitem:a60297c6eeae616f543cffac0a4c8f612" id="r_a60297c6eeae616f543cffac0a4c8f612"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60297c6eeae616f543cffac0a4c8f612">toolRadius</a> (self, float arg1)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstCompensateRadiusParams"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstCompensateRadiusParams')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html">mrmeshpy.ConstCompensateRadiusParams</a></td></tr>
+<tr class="memitem:a61c19e22227d678758aa4d50c2a608c8 inherit pub_methods_classmrmeshpy_1_1ConstCompensateRadiusParams" id="r_a61c19e22227d678758aa4d50c2a608c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#a61c19e22227d678758aa4d50c2a608c8">__init__</a> (self, *args, **kwargs)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0be5350559fe574d86cf432f6996bfba" id="r_a0be5350559fe574d86cf432f6996bfba"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0be5350559fe574d86cf432f6996bfba">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:aa226297db1d1e69a4a023bbd476362bb" id="r_aa226297db1d1e69a4a023bbd476362bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1CompensateRadiusParams.html">CompensateRadiusParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa226297db1d1e69a4a023bbd476362bb">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:aa226297db1d1e69a4a023bbd476362bb" id="r_aa226297db1d1e69a4a023bbd476362bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1CompensateRadiusParams.html">CompensateRadiusParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa226297db1d1e69a4a023bbd476362bb">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a0070352b4fff128a823f7fe954a52c35" id="r_a0070352b4fff128a823f7fe954a52c35"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0070352b4fff128a823f7fe954a52c35">_offsetof_callback</a> = 40</td></tr>
-<tr class="memitem:a6844fccf0267ee801994278fb6be7e31" id="r_a6844fccf0267ee801994278fb6be7e31"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6844fccf0267ee801994278fb6be7e31">_offsetof_direction</a> = 0</td></tr>
-<tr class="memitem:ae43ae73d17172d9295f0ad6feb08dcf1" id="r_ae43ae73d17172d9295f0ad6feb08dcf1"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae43ae73d17172d9295f0ad6feb08dcf1">_offsetof_maxIterations</a> = 24</td></tr>
-<tr class="memitem:a3e0a7339f2ea232f8edf525540df36fe" id="r_a3e0a7339f2ea232f8edf525540df36fe"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e0a7339f2ea232f8edf525540df36fe">_offsetof_region</a> = 16</td></tr>
-<tr class="memitem:a5ee90920b2804a52bd4c1ca4d06179d2" id="r_a5ee90920b2804a52bd4c1ca4d06179d2"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ee90920b2804a52bd4c1ca4d06179d2">_offsetof_relaxExpansion</a> = 28</td></tr>
-<tr class="memitem:ac610a9c6d9c34bbb3806e834f740595e" id="r_ac610a9c6d9c34bbb3806e834f740595e"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac610a9c6d9c34bbb3806e834f740595e">_offsetof_relaxForce</a> = 36</td></tr>
-<tr class="memitem:a797e58e70f60ec9a7d14970056b5b829" id="r_a797e58e70f60ec9a7d14970056b5b829"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a797e58e70f60ec9a7d14970056b5b829">_offsetof_relaxIterations</a> = 32</td></tr>
-<tr class="memitem:a0c8ea50858c5b9268a92dedaa308bd59" id="r_a0c8ea50858c5b9268a92dedaa308bd59"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c8ea50858c5b9268a92dedaa308bd59">_offsetof_toolRadius</a> = 12</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_static_attribs_classmrmeshpy_1_1ConstCompensateRadiusParams"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classmrmeshpy_1_1ConstCompensateRadiusParams')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Attributes inherited from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html">mrmeshpy.ConstCompensateRadiusParams</a></td></tr>
+<tr class="memitem:a0096ecb6bae785dcdcd4726a1ad2f86a inherit pro_static_attribs_classmrmeshpy_1_1ConstCompensateRadiusParams" id="r_a0096ecb6bae785dcdcd4726a1ad2f86a"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#a0096ecb6bae785dcdcd4726a1ad2f86a">_offsetof_callback</a> = 40</td></tr>
+<tr class="memitem:a07bc8d2d6e68a2ef9c5db580482b9cd0 inherit pro_static_attribs_classmrmeshpy_1_1ConstCompensateRadiusParams" id="r_a07bc8d2d6e68a2ef9c5db580482b9cd0"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#a07bc8d2d6e68a2ef9c5db580482b9cd0">_offsetof_direction</a> = 0</td></tr>
+<tr class="memitem:abbe0c4c9b52e818d54661a3b37efcc7f inherit pro_static_attribs_classmrmeshpy_1_1ConstCompensateRadiusParams" id="r_abbe0c4c9b52e818d54661a3b37efcc7f"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#abbe0c4c9b52e818d54661a3b37efcc7f">_offsetof_maxIterations</a> = 24</td></tr>
+<tr class="memitem:ab18421e660ff51fd2f23872d87bb3c84 inherit pro_static_attribs_classmrmeshpy_1_1ConstCompensateRadiusParams" id="r_ab18421e660ff51fd2f23872d87bb3c84"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#ab18421e660ff51fd2f23872d87bb3c84">_offsetof_region</a> = 16</td></tr>
+<tr class="memitem:aec26ce065e124a4fce9231d15ce493f2 inherit pro_static_attribs_classmrmeshpy_1_1ConstCompensateRadiusParams" id="r_aec26ce065e124a4fce9231d15ce493f2"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#aec26ce065e124a4fce9231d15ce493f2">_offsetof_relaxExpansion</a> = 28</td></tr>
+<tr class="memitem:aa73b478116cd3bc8606154c6e3a8e2b0 inherit pro_static_attribs_classmrmeshpy_1_1ConstCompensateRadiusParams" id="r_aa73b478116cd3bc8606154c6e3a8e2b0"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#aa73b478116cd3bc8606154c6e3a8e2b0">_offsetof_relaxForce</a> = 36</td></tr>
+<tr class="memitem:a22f9c3871bb63020176f4272aee8228a inherit pro_static_attribs_classmrmeshpy_1_1ConstCompensateRadiusParams" id="r_a22f9c3871bb63020176f4272aee8228a"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#a22f9c3871bb63020176f4272aee8228a">_offsetof_relaxIterations</a> = 32</td></tr>
+<tr class="memitem:ae463740f76fc245fc4085b282af1230d inherit pro_static_attribs_classmrmeshpy_1_1ConstCompensateRadiusParams" id="r_ae463740f76fc245fc4085b282af1230d"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#ae463740f76fc245fc4085b282af1230d">_offsetof_toolRadius</a> = 12</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::CompensateRadiusParams
@@ -234,8 +240,8 @@ structure with parameters for `compensateRadius` function
 
 </div>
 </div>
-<a id="a0eb91639a3e857d1803cc4d262b13f9a" name="a0eb91639a3e857d1803cc4d262b13f9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0eb91639a3e857d1803cc4d262b13f9a">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+<a id="a3f5d9fce4822913e9f01b74e71b471ac" name="a3f5d9fce4822913e9f01b74e71b471ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f5d9fce4822913e9f01b74e71b471ac">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -248,7 +254,7 @@ structure with parameters for `compensateRadius` function
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1CompensateRadiusParams.html">CompensateRadiusParams</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html">ConstCompensateRadiusParams</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -256,8 +262,8 @@ structure with parameters for `compensateRadius` function
 </pre> 
 </div>
 </div>
-<a id="ab2f58cd60ed2bc15b595318b28d85828" name="ab2f58cd60ed2bc15b595318b28d85828"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2f58cd60ed2bc15b595318b28d85828">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
+<a id="a9c45cd2791377e74d38bcfd69d8ef77a" name="a9c45cd2791377e74d38bcfd69d8ef77a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c45cd2791377e74d38bcfd69d8ef77a">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -270,7 +276,7 @@ structure with parameters for `compensateRadius` function
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -280,7 +286,7 @@ structure with parameters for `compensateRadius` function
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceBitSet.html">ConstFaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -305,7 +311,7 @@ structure with parameters for `compensateRadius` function
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a></td>          <td class="paramname"><span class="paramname"><em>callback</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a></td>          <td class="paramname"><span class="paramname"><em>callback</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -314,6 +320,69 @@ structure with parameters for `compensateRadius` function
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a211746aabe7b975e656de4a2568c87b3" name="a211746aabe7b975e656de4a2568c87b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a211746aabe7b975e656de4a2568c87b3">&#9670;&#160;</a></span>assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1CompensateRadiusParams.html">CompensateRadiusParams</a> mrmeshpy.CompensateRadiusParams.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html">ConstCompensateRadiusParams</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9bf303a8b1438556a7fc92bc8b569d79" name="a9bf303a8b1438556a7fc92bc8b569d79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bf303a8b1438556a7fc92bc8b569d79">&#9670;&#160;</a></span>callback() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> mrmeshpy.CompensateRadiusParams.callback </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#ade4b6bd554ff6995700c0dcee53b38da">mrmeshpy.ConstCompensateRadiusParams</a>.</p>
+
+</div>
+</div>
+<a id="a935399dd6e26efe2ff4cdae0e80ad98f" name="a935399dd6e26efe2ff4cdae0e80ad98f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a935399dd6e26efe2ff4cdae0e80ad98f">&#9670;&#160;</a></span>callback() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.CompensateRadiusParams.callback </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#ade4b6bd554ff6995700c0dcee53b38da">mrmeshpy.ConstCompensateRadiusParams</a>.</p>
+
+</div>
+</div>
 <a id="abe785aeb4bbc5bdb2bd8576838606d34" name="abe785aeb4bbc5bdb2bd8576838606d34"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abe785aeb4bbc5bdb2bd8576838606d34">&#9670;&#160;</a></span>direction() <span class="overload">[1/2]</span></h2>
 
@@ -330,10 +399,12 @@ structure with parameters for `compensateRadius` function
 </div><div class="memdoc">
 <pre class="fragment">Z direction of milling tool
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#a876711fd95636549e4c06ecb7d6778f8">mrmeshpy.ConstCompensateRadiusParams</a>.</p>
+
 </div>
 </div>
-<a id="afaf4ce1854d4ae7a567341d0431f216e" name="afaf4ce1854d4ae7a567341d0431f216e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afaf4ce1854d4ae7a567341d0431f216e">&#9670;&#160;</a></span>direction() <span class="overload">[2/2]</span></h2>
+<a id="ab38dbaf72f9dc8b2bff10f823296031f" name="ab38dbaf72f9dc8b2bff10f823296031f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab38dbaf72f9dc8b2bff10f823296031f">&#9670;&#160;</a></span>direction() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -346,10 +417,13 @@ structure with parameters for `compensateRadius` function
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">Z direction of milling tool
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#a876711fd95636549e4c06ecb7d6778f8">mrmeshpy.ConstCompensateRadiusParams</a>.</p>
 
 </div>
 </div>
@@ -369,6 +443,8 @@ structure with parameters for `compensateRadius` function
 </div><div class="memdoc">
 <pre class="fragment">maximum iteration of applying algorithm (each iteration improves result a little bit)
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#aa71ff7f2bee83dbb25f04a239626ab4d">mrmeshpy.ConstCompensateRadiusParams</a>.</p>
+
 </div>
 </div>
 <a id="adb624dc3258fbd54b568aa84d375f282" name="adb624dc3258fbd54b568aa84d375f282"></a>
@@ -389,64 +465,9 @@ structure with parameters for `compensateRadius` function
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa226297db1d1e69a4a023bbd476362bb" name="aa226297db1d1e69a4a023bbd476362bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa226297db1d1e69a4a023bbd476362bb">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1CompensateRadiusParams.html">CompensateRadiusParams</a> mrmeshpy.CompensateRadiusParams.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa226297db1d1e69a4a023bbd476362bb" name="aa226297db1d1e69a4a023bbd476362bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa226297db1d1e69a4a023bbd476362bb">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1CompensateRadiusParams.html">CompensateRadiusParams</a> mrmeshpy.CompensateRadiusParams.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<pre class="fragment">maximum iteration of applying algorithm (each iteration improves result a little bit)
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#aa71ff7f2bee83dbb25f04a239626ab4d">mrmeshpy.ConstCompensateRadiusParams</a>.</p>
 
 </div>
 </div>
@@ -468,10 +489,12 @@ structure with parameters for `compensateRadius` function
 it should not contain closed components
 also please note that boundaries of the region are fixed
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#adea934674e59c8e7cf24b7dc8b701318">mrmeshpy.ConstCompensateRadiusParams</a>.</p>
+
 </div>
 </div>
-<a id="a31a3750fc097c0e39299f3915db132c6" name="a31a3750fc097c0e39299f3915db132c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31a3750fc097c0e39299f3915db132c6">&#9670;&#160;</a></span>region() <span class="overload">[2/2]</span></h2>
+<a id="aac5df10bcc171841e6aed4cf50c1a030" name="aac5df10bcc171841e6aed4cf50c1a030"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac5df10bcc171841e6aed4cf50c1a030">&#9670;&#160;</a></span>region() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -484,10 +507,15 @@ also please note that boundaries of the region are fixed
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFaceBitSet.html">ConstFaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">region of the mesh that will be compensated
+it should not contain closed components
+also please note that boundaries of the region are fixed
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#adea934674e59c8e7cf24b7dc8b701318">mrmeshpy.ConstCompensateRadiusParams</a>.</p>
 
 </div>
 </div>
@@ -507,6 +535,8 @@ also please note that boundaries of the region are fixed
 </div><div class="memdoc">
 <pre class="fragment">how many hops to expand around each moved vertex for relaxation
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#a9699f524851bbe56b9aed463d54232e5">mrmeshpy.ConstCompensateRadiusParams</a>.</p>
+
 </div>
 </div>
 <a id="a189a12e998e0d7b694f166fa0eedf4f4" name="a189a12e998e0d7b694f166fa0eedf4f4"></a>
@@ -527,6 +557,9 @@ also please note that boundaries of the region are fixed
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">how many hops to expand around each moved vertex for relaxation
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#a9699f524851bbe56b9aed463d54232e5">mrmeshpy.ConstCompensateRadiusParams</a>.</p>
 
 </div>
 </div>
@@ -546,6 +579,8 @@ also please note that boundaries of the region are fixed
 </div><div class="memdoc">
 <pre class="fragment">force of relaxations on each compensation iteration
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#a457ff2014e55ee77ac4aea2a7cf446a5">mrmeshpy.ConstCompensateRadiusParams</a>.</p>
+
 </div>
 </div>
 <a id="a005fef12b7f5fb26268d6bf4a3b3a5c2" name="a005fef12b7f5fb26268d6bf4a3b3a5c2"></a>
@@ -566,6 +601,9 @@ also please note that boundaries of the region are fixed
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">force of relaxations on each compensation iteration
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#a457ff2014e55ee77ac4aea2a7cf446a5">mrmeshpy.ConstCompensateRadiusParams</a>.</p>
 
 </div>
 </div>
@@ -585,6 +623,8 @@ also please note that boundaries of the region are fixed
 </div><div class="memdoc">
 <pre class="fragment">how many iterations of relax is applied on each compensation iteration
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#a469ffece3875346aa7b80c25272eb923">mrmeshpy.ConstCompensateRadiusParams</a>.</p>
+
 </div>
 </div>
 <a id="af69bd06a033b9ccacdd9f5c43745238d" name="af69bd06a033b9ccacdd9f5c43745238d"></a>
@@ -605,6 +645,9 @@ also please note that boundaries of the region are fixed
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">how many iterations of relax is applied on each compensation iteration
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#a469ffece3875346aa7b80c25272eb923">mrmeshpy.ConstCompensateRadiusParams</a>.</p>
 
 </div>
 </div>
@@ -624,6 +667,8 @@ also please note that boundaries of the region are fixed
 </div><div class="memdoc">
 <pre class="fragment">radius of spherical tool
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#a9b7f04fd5bbdf57ffff55402d51d71d6">mrmeshpy.ConstCompensateRadiusParams</a>.</p>
+
 </div>
 </div>
 <a id="a60297c6eeae616f543cffac0a4c8f612" name="a60297c6eeae616f543cffac0a4c8f612"></a>
@@ -644,183 +689,9 @@ also please note that boundaries of the region are fixed
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a0070352b4fff128a823f7fe954a52c35" name="a0070352b4fff128a823f7fe954a52c35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0070352b4fff128a823f7fe954a52c35">&#9670;&#160;</a></span>_offsetof_callback</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.CompensateRadiusParams._offsetof_callback = 40</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6844fccf0267ee801994278fb6be7e31" name="a6844fccf0267ee801994278fb6be7e31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6844fccf0267ee801994278fb6be7e31">&#9670;&#160;</a></span>_offsetof_direction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.CompensateRadiusParams._offsetof_direction = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae43ae73d17172d9295f0ad6feb08dcf1" name="ae43ae73d17172d9295f0ad6feb08dcf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae43ae73d17172d9295f0ad6feb08dcf1">&#9670;&#160;</a></span>_offsetof_maxIterations</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.CompensateRadiusParams._offsetof_maxIterations = 24</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3e0a7339f2ea232f8edf525540df36fe" name="a3e0a7339f2ea232f8edf525540df36fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e0a7339f2ea232f8edf525540df36fe">&#9670;&#160;</a></span>_offsetof_region</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.CompensateRadiusParams._offsetof_region = 16</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5ee90920b2804a52bd4c1ca4d06179d2" name="a5ee90920b2804a52bd4c1ca4d06179d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ee90920b2804a52bd4c1ca4d06179d2">&#9670;&#160;</a></span>_offsetof_relaxExpansion</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.CompensateRadiusParams._offsetof_relaxExpansion = 28</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac610a9c6d9c34bbb3806e834f740595e" name="ac610a9c6d9c34bbb3806e834f740595e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac610a9c6d9c34bbb3806e834f740595e">&#9670;&#160;</a></span>_offsetof_relaxForce</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.CompensateRadiusParams._offsetof_relaxForce = 36</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a797e58e70f60ec9a7d14970056b5b829" name="a797e58e70f60ec9a7d14970056b5b829"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a797e58e70f60ec9a7d14970056b5b829">&#9670;&#160;</a></span>_offsetof_relaxIterations</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.CompensateRadiusParams._offsetof_relaxIterations = 32</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0c8ea50858c5b9268a92dedaa308bd59" name="a0c8ea50858c5b9268a92dedaa308bd59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c8ea50858c5b9268a92dedaa308bd59">&#9670;&#160;</a></span>_offsetof_toolRadius</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.CompensateRadiusParams._offsetof_toolRadius = 12</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<pre class="fragment">radius of spherical tool
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstCompensateRadiusParams.html#a9b7f04fd5bbdf57ffff55402d51d71d6">mrmeshpy.ConstCompensateRadiusParams</a>.</p>
 
 </div>
 </div>

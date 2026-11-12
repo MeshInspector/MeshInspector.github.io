@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -143,11 +136,11 @@ $(function(){initNavTree('classmrmeshpy_1_1PointCloudComponents.html','',''); })
 
 <p>This is the complete list of members for <a class="el" href="classmrmeshpy_1_1PointCloudComponents.html">mrmeshpy.PointCloudComponents</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html#a7cf171fffe3c94c2ea7b7b32543103a8">getAllComponents</a>(PointCloud pointCloud, float maxDist, int maxComponentCount=2147483647, func_bool_from_float pc='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html">mrmeshpy.PointCloudComponents</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html#a0dbfffb7e2d57bb1639e312c67597e7d">getLargeComponents</a>(PointCloud pointCloud, float maxDist, int minSize, func_bool_from_float pc='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html">mrmeshpy.PointCloudComponents</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html#a8d75c0a97bb80119bd515da65845f016">getLargeComponentsUnion</a>(PointCloud pointCloud, float maxDist, int minSize, func_bool_from_float pc='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html">mrmeshpy.PointCloudComponents</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html#a7303edd347bdaa27f61e0f22ebc6c2fe">getLargeComponentsUnion</a>(UnionFind_VertId unionStructs, VertBitSet region, int minSize, func_bool_from_float pc='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html">mrmeshpy.PointCloudComponents</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html#aaedd7cedc6a0b58f3908775bc4d23fb7">getUnionFindStructureVerts</a>(PointCloud pointCloud, float maxDist, VertBitSet region=None, func_bool_from_float pc='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html">mrmeshpy.PointCloudComponents</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html#a0f68d8384a6876e5cbb55e0b10426de2">getAllComponents</a>(ConstPointCloud pointCloud, float maxDist, int maxComponentCount=2147483647, Const_func_bool_from_float pc='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html">mrmeshpy.PointCloudComponents</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html#a09bf99286355c67aff60dd7e5061caa4">getLargeComponents</a>(ConstPointCloud pointCloud, float maxDist, int minSize, Const_func_bool_from_float pc='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html">mrmeshpy.PointCloudComponents</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html#ac7ab7dde3033abd97ab7ab5fdd378ac1">getLargeComponentsUnion</a>(ConstPointCloud pointCloud, float maxDist, int minSize, Const_func_bool_from_float pc='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html">mrmeshpy.PointCloudComponents</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html#a37e0b6815c67f813cc527d3ea6a98bde">getLargeComponentsUnion</a>(UnionFind_VertId unionStructs, ConstVertBitSet region, int minSize, Const_func_bool_from_float pc='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html">mrmeshpy.PointCloudComponents</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html#a8e5d0f9ce2d841d53664b2fa527bbe49">getUnionFindStructureVerts</a>(ConstPointCloud pointCloud, float maxDist, ConstVertBitSet region=None, Const_func_bool_from_float pc='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PointCloudComponents.html">mrmeshpy.PointCloudComponents</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

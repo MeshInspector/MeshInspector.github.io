@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -210,7 +203,7 @@ Properties</h2></td></tr>
 <tr class="memdesc:a95496de9208b36d0d3e16503fc82b3f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">metric to calculate priority for candidates placement if not set - default <span class="tt">getNestPostionMinPriorityMetric</span> is used  <br /></td></tr>
 <tr class="memitem:aa0aaafbc68724297f8e2c0b39e066dab" id="r_aa0aaafbc68724297f8e2c0b39e066dab"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1ConstBox__Vector3f.html">ConstBox_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0aaafbc68724297f8e2c0b39e066dab">expansionFactor</a><code> [get]</code></td></tr>
 <tr class="memdesc:aa0aaafbc68724297f8e2c0b39e066dab"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional input expansion of boxes (useful to compensate shrinkage of material)  <br /></td></tr>
-<tr class="memitem:a2ce727cb69dcd0b6ef4bf54697592118" id="r_a2ce727cb69dcd0b6ef4bf54697592118"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.? Const_Vector_MRBox3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ce727cb69dcd0b6ef4bf54697592118">preNestedVolumes</a><code> [get]</code></td></tr>
+<tr class="memitem:a2ce727cb69dcd0b6ef4bf54697592118" id="r_a2ce727cb69dcd0b6ef4bf54697592118"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.? <a class="el" href="classMR_1_1Const__Vector__MRBox3f.html">Const_Vector_MRBox3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ce727cb69dcd0b6ef4bf54697592118">preNestedVolumes</a><code> [get]</code></td></tr>
 <tr class="memdesc:a2ce727cb69dcd0b6ef4bf54697592118"><td class="mdescLeft">&#160;</td><td class="mdescRight">if not-nullptr contains boxes that are fixed in the nest and should not be intersected by floating (input) meshes  <br /></td></tr>
 <tr class="memitem:a4512b8e1139722cee2f88933f729571e" id="r_a4512b8e1139722cee2f88933f729571e"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.? Const_Vector_MRNestingBoxNestingCorner&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4512b8e1139722cee2f88933f729571e">additinalSocketCorners</a><code> [get]</code></td></tr>
 <tr class="memdesc:a4512b8e1139722cee2f88933f729571e"><td class="mdescLeft">&#160;</td><td class="mdescRight">user might force these sockets to be considered as corners for placing candidates  <br /></td></tr>
@@ -806,7 +799,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe MR.Std.? Const_Vector_MRBox3f MR.Nesting.Const_BoxNestingOptions.preNestedVolumes</td>
+          <td class="memname">unsafe MR.Std.? <a class="el" href="classMR_1_1Const__Vector__MRBox3f.html">Const_Vector_MRBox3f</a> MR.Nesting.Const_BoxNestingOptions.preNestedVolumes</td>
         </tr>
       </table>
   </td>

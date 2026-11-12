@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -459,7 +452,7 @@ $(function(){initNavTree('MRFeatures_8h_source.html','',''); });
 <div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>            <span class="keywordflow">if</span> ( *dist )</div>
 <div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>            {</div>
 <div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>                assert( [&amp;]{</div>
-<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>                    <span class="keywordtype">float</span> a = ( dist-&gt;closestPointB - dist-&gt;closestPointA ).<a class="code hl_variable" href="group__GeneralGroup.html#gaf9d495c1655d813d553030485d00fea7">length</a>();</div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>                    <span class="keywordtype">float</span> a = ( dist-&gt;closestPointB - dist-&gt;closestPointA ).<a class="code hl_enumvalue" href="group__GeneralGroup.html#gga0d74ce578438e9d7c2b5ceb51935d27ca2fa47f7c65fec19cc163b195725e3844">length</a>();</div>
 <div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>                    <span class="keywordtype">float</span> b = std::abs( dist-&gt;distance );</div>
 <div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>                    <span class="keywordflow">return</span> std::abs( a - b ) &lt;= std::max( std::min( a, b ), 0.01f ) * 0.001f;</div>
 <div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>                }() );</div>
@@ -586,9 +579,9 @@ $(function(){initNavTree('MRFeatures_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gaed7a509cc23a908a6cf803007694eabf"><div class="ttname"><a href="group__GeneralGroup.html#gaed7a509cc23a908a6cf803007694eabf">MR::Features::Primitives::ConeSegment::hollow</a></div><div class="ttdeci">bool hollow</div><div class="ttdoc">If true, the cone has no caps and no volume, and all distances (to the conical surface,...</div><div class="ttdef"><b>Definition</b> MRFeatures.h:80</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaed8c3331e8b7c2fd1ab738f49d87f5ce"><div class="ttname"><a href="group__GeneralGroup.html#gaed8c3331e8b7c2fd1ab738f49d87f5ce">MR::Features::MeasureResult::Angle::isSurfaceNormalB</a></div><div class="ttdeci">bool isSurfaceNormalB</div><div class="ttdef"><b>Definition</b> MRFeatures.h:222</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaf14c9a2c6a0ece8a0ce764b4378ce71d"><div class="ttname"><a href="group__GeneralGroup.html#gaf14c9a2c6a0ece8a0ce764b4378ce71d">MR::Features::Primitives::ConeSegment::centerPoint</a></div><div class="ttdeci">Sphere centerPoint() const</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_gaf9d495c1655d813d553030485d00fea7"><div class="ttname"><a href="group__GeneralGroup.html#gaf9d495c1655d813d553030485d00fea7">length</a></div><div class="ttdeci">length</div><div class="ttdef"><b>Definition</b> MRObjectDimensionsEnum.h:17</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gafa50036e3b8625ba2f6c075a868dc725"><div class="ttname"><a href="group__GeneralGroup.html#gafa50036e3b8625ba2f6c075a868dc725">MR::Features::Traits::Binary&lt; Primitives::Plane, Primitives::ConeSegment &gt;::measure</a></div><div class="ttdeci">MeasureResult measure(const Primitives::Plane &amp;a, const Primitives::ConeSegment &amp;b) const</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gafa5b6dc1d9e1f98cbec052e8d506d20a"><div class="ttname"><a href="group__GeneralGroup.html#gafa5b6dc1d9e1f98cbec052e8d506d20a">MR::Features::Primitives::ConeSegment::isCircle</a></div><div class="ttdeci">bool isCircle() const</div><div class="ttdef"><b>Definition</b> MRFeatures.h:85</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gga0d74ce578438e9d7c2b5ceb51935d27ca2fa47f7c65fec19cc163b195725e3844"><div class="ttname"><a href="group__GeneralGroup.html#gga0d74ce578438e9d7c2b5ceb51935d27ca2fa47f7c65fec19cc163b195725e3844">MR::DimensionsVisualizePropertyType::length</a></div><div class="ttdeci">@ length</div><div class="ttdef"><b>Definition</b> MRObjectDimensionsEnum.h:17</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gga0e2748a930a13a0cacf2a0a2da1b6e0da0d3adee051531c15b3509b4d4d75ce7b"><div class="ttname"><a href="group__GeneralGroup.html#gga0e2748a930a13a0cacf2a0a2da1b6e0da0d3adee051531c15b3509b4d4d75ce7b">MR::FeaturesObjectKind::Plane</a></div><div class="ttdeci">@ Plane</div><div class="ttdef"><b>Definition</b> MRFeatureHelpers.h:25</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf"><div class="ttname"><a href="group__GeneralGroup.html#gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">MR::FeaturePropertyKind::other</a></div><div class="ttdeci">@ other</div><div class="ttdoc">Angle, normally float. Measure in radians.</div><div class="ttdef"><b>Definition</b> MRFeatureObject.h:27</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ggab9a02bda2fc92c73a0d7d637ba562a7ea17870682e0e34794dc7dc2c13aa89a3f"><div class="ttname"><a href="group__GeneralGroup.html#ggab9a02bda2fc92c73a0d7d637ba562a7ea17870682e0e34794dc7dc2c13aa89a3f">MR::Features::MeasureResult::Status::badFeaturePair</a></div><div class="ttdeci">@ badFeaturePair</div><div class="ttdef"><b>Definition</b> MRFeatures.h:177</div></div>
@@ -599,7 +592,7 @@ $(function(){initNavTree('MRFeatures_8h_source.html','',''); });
 <div class="ttc" id="anamespaceMR_1_1Features_1_1Primitives_html"><div class="ttname"><a href="namespaceMR_1_1Features_1_1Primitives.html">MR::Features::Primitives</a></div><div class="ttdef"><b>Definition</b> MRFeatures.h:26</div></div>
 <div class="ttc" id="anamespaceMR_1_1Features_1_1Traits_html"><div class="ttname"><a href="namespaceMR_1_1Features_1_1Traits.html">MR::Features::Traits</a></div><div class="ttdoc">Traits that determine how the primitives are related.</div><div class="ttdef"><b>Definition</b> MRFeatures.h:241</div></div>
 <div class="ttc" id="anamespaceMR_1_1Features_html"><div class="ttname"><a href="namespaceMR_1_1Features.html">MR::Features</a></div><div class="ttdef"><b>Definition</b> MRFeatures.h:23</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Features_1_1MeasureResult_1_1Angle_html"><div class="ttname"><a href="structMR_1_1Features_1_1MeasureResult_1_1Angle.html">MR::Features::MeasureResult::Angle</a></div><div class="ttdef"><b>Definition</b> MRFeatures.h:211</div></div>
 <div class="ttc" id="astructMR_1_1Features_1_1MeasureResult_1_1BasicPart_html"><div class="ttname"><a href="structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html">MR::Features::MeasureResult::BasicPart</a></div><div class="ttdef"><b>Definition</b> MRFeatures.h:185</div></div>
 <div class="ttc" id="astructMR_1_1Features_1_1MeasureResult_1_1Distance_html"><div class="ttname"><a href="structMR_1_1Features_1_1MeasureResult_1_1Distance.html">MR::Features::MeasureResult::Distance</a></div><div class="ttdef"><b>Definition</b> MRFeatures.h:191</div></div>

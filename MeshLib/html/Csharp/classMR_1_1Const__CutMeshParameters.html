@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -171,10 +164,10 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:adf21afd65686a8426e377a073d8f47e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Caller can avoid filling non-needed part of cut faces to speedup cutting still add pseudo <a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">FaceId</a> to opposite side to keep connectivity.  <a href="#adf21afd65686a8426e377a073d8f47e9">More...</a><br /></td></tr>
 <tr class="memitem:ab487d225d694a30e0d24dc83c3528293" id="r_ab487d225d694a30e0d24dc83c3528293"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab487d225d694a30e0d24dc83c3528293">ForceFill</a> : int { <a class="el" href="#ab487d225d694a30e0d24dc83c3528293a6adf97f83acf6453d4a6a4b1070f3754">None</a> = 0
-, <a class="el" href="#ab487d225d694a30e0d24dc83c3528293a0c6ad70beb3a7e76c3fc7adab7c46acc">Good</a> = 1
-, <a class="el" href="#ab487d225d694a30e0d24dc83c3528293ab1c94ca2fbc3e78fc30069c8d0f01680">All</a> = 2
+, <a class="el" href="#ab487d225d694a30e0d24dc83c3528293ab1c94ca2fbc3e78fc30069c8d0f01680">All</a> = 1
+, <a class="el" href="#ab487d225d694a30e0d24dc83c3528293aa0f69e203700168beb250aa413e2b1ec">SplitCrossings</a> = 2
  }</td></tr>
-<tr class="memdesc:ab487d225d694a30e0d24dc83c3528293"><td class="mdescLeft">&#160;</td><td class="mdescRight">This enum defines the <a class="el" href="classMR.html#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> behaviour in case of bad faces acure basicaly <a class="el" href="classMR.html#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> removes all faces which contours pass through, adds new edges to topology and fills all removed parts.  <a href="#ab487d225d694a30e0d24dc83c3528293">More...</a><br /></td></tr>
+<tr class="memdesc:ab487d225d694a30e0d24dc83c3528293"><td class="mdescLeft">&#160;</td><td class="mdescRight">This enum defines the <a class="el" href="classMR.html#a162913dcfc5decd93e13eeb7f49cb4c2" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> behaviour in case bad faces occur: basically <a class="el" href="classMR.html#a162913dcfc5decd93e13eeb7f49cb4c2" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> removes all faces which contours pass through, adds new edges to topology and fills all removed parts.  <a href="#ab487d225d694a30e0d24dc83c3528293">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -246,12 +239,15 @@ it provides additional info from other mesh used in boolean operation, useful to
       </table>
 </div><div class="memdoc">
 
-<p>This enum defines the <a class="el" href="classMR.html#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> behaviour in case of bad faces acure basicaly <a class="el" href="classMR.html#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> removes all faces which contours pass through, adds new edges to topology and fills all removed parts. </p>
-<dl class="section note"><dt>Note</dt><dd>Bad faces here mean faces where contours have intersections and cannot be cut and filled in an good way </dd></dl>
+<p>This enum defines the <a class="el" href="classMR.html#a162913dcfc5decd93e13eeb7f49cb4c2" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> behaviour in case bad faces occur: basically <a class="el" href="classMR.html#a162913dcfc5decd93e13eeb7f49cb4c2" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> removes all faces which contours pass through, adds new edges to topology and fills all removed parts. </p>
+<dl class="section note"><dt>Note</dt><dd>Bad faces here mean faces where contours have intersections and cannot be cut and filled in a good way </dd></dl>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab487d225d694a30e0d24dc83c3528293a6adf97f83acf6453d4a6a4b1070f3754" name="ab487d225d694a30e0d24dc83c3528293a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab487d225d694a30e0d24dc83c3528293a0c6ad70beb3a7e76c3fc7adab7c46acc" name="ab487d225d694a30e0d24dc83c3528293a0c6ad70beb3a7e76c3fc7adab7c46acc"></a>Good&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab487d225d694a30e0d24dc83c3528293ab1c94ca2fbc3e78fc30069c8d0f01680" name="ab487d225d694a30e0d24dc83c3528293ab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab487d225d694a30e0d24dc83c3528293a6adf97f83acf6453d4a6a4b1070f3754" name="ab487d225d694a30e0d24dc83c3528293a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"><p>if bad faces occur, nothing is filled </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab487d225d694a30e0d24dc83c3528293ab1c94ca2fbc3e78fc30069c8d0f01680" name="ab487d225d694a30e0d24dc83c3528293ab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"><p>bad faces are filled too, but their triangulation can be bad (may have self-intersections or tunnels) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab487d225d694a30e0d24dc83c3528293aa0f69e203700168beb250aa413e2b1ec" name="ab487d225d694a30e0d24dc83c3528293aa0f69e203700168beb250aa413e2b1ec"></a>SplitCrossings&#160;</td><td class="fielddoc"><p>as All, but with sortData the contours are first split where they cross in bad faces (see <a class="el" href="classMR_1_1CutMeshResult.html#a6036b98bf53e8905006d57b198d2add3">CutMeshResult.resultCut</a>); where the split fails, as All: e.g. in a face where an open contour ends on a side of the face, or a contour segment ends at a mesh vertex that is not a corner of the triangle of the other mesh along the segment (unlike the fold vertices of selfBoolean) </p>
+</td></tr>
 </table>
 
 </div>
@@ -661,7 +657,7 @@ it provides additional info from other mesh used in boolean operation, useful to
 
 <p>This is optional input for better contours resolving<br  />
 it provides additional info from other mesh used in boolean operation, useful to solve some degeneration. </p>
-<dl class="section note"><dt>Note</dt><dd>Most likely you don't need this in case you call <a class="el" href="classMR.html#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> manualy, use case of it is <a class="el" href="classMR.html#a6e41979b347d16015b72249770957a48" title="Performs CSG operation on two meshes Makes new mesh - result of boolean operation on mesh A and mesh ...">MR.boolean</a> </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Most likely you don't need this in case you call <a class="el" href="classMR.html#a162913dcfc5decd93e13eeb7f49cb4c2" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> manualy, use case of it is <a class="el" href="classMR.html#a6e41979b347d16015b72249770957a48" title="Performs CSG operation on two meshes Makes new mesh - result of boolean operation on mesh A and mesh ...">MR.boolean</a> </dd></dl>
 
 </div>
 </div>

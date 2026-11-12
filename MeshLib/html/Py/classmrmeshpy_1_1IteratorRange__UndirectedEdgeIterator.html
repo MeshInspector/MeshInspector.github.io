@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,28 +133,43 @@ $(function(){initNavTree('classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.IteratorRange_UndirectedEdgeIterator Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for mrmeshpy.IteratorRange_UndirectedEdgeIterator:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.png" usemap="#mrmeshpy_2EIteratorRange_5FUndirectedEdgeIterator_map" alt=""/>
+  <map id="mrmeshpy_2EIteratorRange_5FUndirectedEdgeIterator_map" name="mrmeshpy_2EIteratorRange_5FUndirectedEdgeIterator_map">
+<area href="classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator.html" alt="mrmeshpy.ConstIteratorRange_UndirectedEdgeIterator" shape="rect" coords="0,0,318,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2ea60ae84d0dd6f88958f8cf8986d1b3" id="r_a2ea60ae84d0dd6f88958f8cf8986d1b3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ea60ae84d0dd6f88958f8cf8986d1b3">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeIterator.html">UndirectedEdgeIterator</a> <a class="el" href="namespacemrmeshpy.html#a63ba10eb3b8ba77ba5ba9df21702ab57">begin</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeIterator.html">UndirectedEdgeIterator</a> <a class="el" href="namespacemrmeshpy.html#afb01758fb5079e227b91e7aa8ac683e6">end</a>)</td></tr>
-<tr class="memitem:af618390da94dfaee8ff2b2213891b618" id="r_af618390da94dfaee8ff2b2213891b618"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af618390da94dfaee8ff2b2213891b618">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html">IteratorRange_UndirectedEdgeIterator</a> arg0)</td></tr>
-<tr class="memitem:af997dc15b913f88fc4d68c7bc539f2eb" id="r_af997dc15b913f88fc4d68c7bc539f2eb"><td class="memItemLeft" align="right" valign="top">typing.Iterator[<a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a>]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af997dc15b913f88fc4d68c7bc539f2eb">__iter__</a> (self)</td></tr>
+<tr class="memitem:a48af104e27fad439d98c3f6aa4be15af" id="r_a48af104e27fad439d98c3f6aa4be15af"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48af104e27fad439d98c3f6aa4be15af">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeIterator.html">ConstUndirectedEdgeIterator</a> <a class="el" href="namespacemrmeshpy.html#ae5a6510f502ac3d1fbd5cb332fb31b46">begin</a>, <a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeIterator.html">ConstUndirectedEdgeIterator</a> <a class="el" href="namespacemrmeshpy.html#a78c9f6d0544de7eda87011186485f1b2">end</a>)</td></tr>
+<tr class="memitem:a49810d93dc0674c46fbd096e1a335195" id="r_a49810d93dc0674c46fbd096e1a335195"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49810d93dc0674c46fbd096e1a335195">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator.html">ConstIteratorRange_UndirectedEdgeIterator</a> arg0)</td></tr>
+<tr class="memitem:a4a57fff02bb91f1d6d0f134fb9760912" id="r_a4a57fff02bb91f1d6d0f134fb9760912"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html">IteratorRange_UndirectedEdgeIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a57fff02bb91f1d6d0f134fb9760912">assign</a> (self, <a class="el" href="classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator.html">ConstIteratorRange_UndirectedEdgeIterator</a> other)</td></tr>
+<tr class="memitem:ae1c1fb9d042a008b1dabc49f88f47fac" id="r_ae1c1fb9d042a008b1dabc49f88f47fac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeIterator.html">UndirectedEdgeIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1c1fb9d042a008b1dabc49f88f47fac">begin_</a> (self)</td></tr>
+<tr class="memitem:a01ccae6b113a5e3e5c4550ed3b9f7a9e" id="r_a01ccae6b113a5e3e5c4550ed3b9f7a9e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01ccae6b113a5e3e5c4550ed3b9f7a9e">begin_</a> (self, <a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeIterator.html">ConstUndirectedEdgeIterator</a> arg1)</td></tr>
+<tr class="memitem:aff0d9211ffcfa8a0775c624e59e6b268" id="r_aff0d9211ffcfa8a0775c624e59e6b268"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeIterator.html">UndirectedEdgeIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff0d9211ffcfa8a0775c624e59e6b268">end_</a> (self)</td></tr>
+<tr class="memitem:a393f491a57a68f49922dbce97fec3be3" id="r_a393f491a57a68f49922dbce97fec3be3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a393f491a57a68f49922dbce97fec3be3">end_</a> (self, <a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeIterator.html">ConstUndirectedEdgeIterator</a> arg1)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator.html">mrmeshpy.ConstIteratorRange_UndirectedEdgeIterator</a></td></tr>
+<tr class="memitem:a46af2a61a37ec4a1469e0cf534736294 inherit pub_methods_classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator" id="r_a46af2a61a37ec4a1469e0cf534736294"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator.html#a46af2a61a37ec4a1469e0cf534736294">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:acdca00e660f3dade8b13b9995e5d0591 inherit pub_methods_classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator" id="r_acdca00e660f3dade8b13b9995e5d0591"><td class="memItemLeft" align="right" valign="top">typing.Iterator[<a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a>]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator.html#acdca00e660f3dade8b13b9995e5d0591">__iter__</a> (self)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a23c0da0f1139de7b1034072bcf0bf804" id="r_a23c0da0f1139de7b1034072bcf0bf804"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23c0da0f1139de7b1034072bcf0bf804">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:ab87c4eea86c33b99e175f5180cbefcb1" id="r_ab87c4eea86c33b99e175f5180cbefcb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html">IteratorRange_UndirectedEdgeIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab87c4eea86c33b99e175f5180cbefcb1">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:ab87c4eea86c33b99e175f5180cbefcb1" id="r_ab87c4eea86c33b99e175f5180cbefcb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html">IteratorRange_UndirectedEdgeIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab87c4eea86c33b99e175f5180cbefcb1">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:aafffe2ce5af7dbc4c93df67e8361a58e" id="r_aafffe2ce5af7dbc4c93df67e8361a58e"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafffe2ce5af7dbc4c93df67e8361a58e">_offsetof_begin_</a> = 0</td></tr>
-<tr class="memitem:a6d0cbd1935caddb5f045b95844bf0e80" id="r_a6d0cbd1935caddb5f045b95844bf0e80"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d0cbd1935caddb5f045b95844bf0e80">_offsetof_end_</a> = 16</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_static_attribs_classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Attributes inherited from <a class="el" href="classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator.html">mrmeshpy.ConstIteratorRange_UndirectedEdgeIterator</a></td></tr>
+<tr class="memitem:a651e28041a13d98f956855fd48595f7a inherit pro_static_attribs_classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator" id="r_a651e28041a13d98f956855fd48595f7a"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator.html#a651e28041a13d98f956855fd48595f7a">_offsetof_begin_</a> = 0</td></tr>
+<tr class="memitem:a67670f7b2d77f74b2649b6a038790109 inherit pro_static_attribs_classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator" id="r_a67670f7b2d77f74b2649b6a038790109"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator.html#a67670f7b2d77f74b2649b6a038790109">_offsetof_end_</a> = 16</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::IteratorRange&lt;MR::UndirectedEdgeIterator&gt;
@@ -197,8 +205,8 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2ea60ae84d0dd6f88958f8cf8986d1b3" name="a2ea60ae84d0dd6f88958f8cf8986d1b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ea60ae84d0dd6f88958f8cf8986d1b3">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+<a id="a48af104e27fad439d98c3f6aa4be15af" name="a48af104e27fad439d98c3f6aa4be15af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48af104e27fad439d98c3f6aa4be15af">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -211,20 +219,20 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeIterator.html">UndirectedEdgeIterator</a></td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeIterator.html">ConstUndirectedEdgeIterator</a></td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeIterator.html">UndirectedEdgeIterator</a></td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeIterator.html">ConstUndirectedEdgeIterator</a></td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af618390da94dfaee8ff2b2213891b618" name="af618390da94dfaee8ff2b2213891b618"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af618390da94dfaee8ff2b2213891b618">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
+<a id="a49810d93dc0674c46fbd096e1a335195" name="a49810d93dc0674c46fbd096e1a335195"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49810d93dc0674c46fbd096e1a335195">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237,7 +245,7 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html">IteratorRange_UndirectedEdgeIterator</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator.html">ConstIteratorRange_UndirectedEdgeIterator</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -246,14 +254,35 @@ Static Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="af997dc15b913f88fc4d68c7bc539f2eb" name="af997dc15b913f88fc4d68c7bc539f2eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af997dc15b913f88fc4d68c7bc539f2eb">&#9670;&#160;</a></span>__iter__()</h2>
+<a id="a4a57fff02bb91f1d6d0f134fb9760912" name="a4a57fff02bb91f1d6d0f134fb9760912"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a57fff02bb91f1d6d0f134fb9760912">&#9670;&#160;</a></span>assign()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> typing.Iterator[<a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a>] mrmeshpy.IteratorRange_UndirectedEdgeIterator.__iter__ </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html">IteratorRange_UndirectedEdgeIterator</a> mrmeshpy.IteratorRange_UndirectedEdgeIterator.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator.html">ConstIteratorRange_UndirectedEdgeIterator</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1c1fb9d042a008b1dabc49f88f47fac" name="ae1c1fb9d042a008b1dabc49f88f47fac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1c1fb9d042a008b1dabc49f88f47fac">&#9670;&#160;</a></span>begin_() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1UndirectedEdgeIterator.html">UndirectedEdgeIterator</a> mrmeshpy.IteratorRange_UndirectedEdgeIterator.begin_ </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
@@ -261,108 +290,72 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator.html#a98ca37f266d357fd75f432a005192193">mrmeshpy.ConstIteratorRange_UndirectedEdgeIterator</a>.</p>
+
 </div>
 </div>
-<a id="ab87c4eea86c33b99e175f5180cbefcb1" name="ab87c4eea86c33b99e175f5180cbefcb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab87c4eea86c33b99e175f5180cbefcb1">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
+<a id="a01ccae6b113a5e3e5c4550ed3b9f7a9e" name="a01ccae6b113a5e3e5c4550ed3b9f7a9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01ccae6b113a5e3e5c4550ed3b9f7a9e">&#9670;&#160;</a></span>begin_() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html">IteratorRange_UndirectedEdgeIterator</a> mrmeshpy.IteratorRange_UndirectedEdgeIterator.operator </td>
+          <td class="memname"> None mrmeshpy.IteratorRange_UndirectedEdgeIterator.begin_ </td>
           <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeIterator.html">ConstUndirectedEdgeIterator</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator.html#a98ca37f266d357fd75f432a005192193">mrmeshpy.ConstIteratorRange_UndirectedEdgeIterator</a>.</p>
 
 </div>
 </div>
-<a id="ab87c4eea86c33b99e175f5180cbefcb1" name="ab87c4eea86c33b99e175f5180cbefcb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab87c4eea86c33b99e175f5180cbefcb1">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
+<a id="aff0d9211ffcfa8a0775c624e59e6b268" name="aff0d9211ffcfa8a0775c624e59e6b268"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff0d9211ffcfa8a0775c624e59e6b268">&#9670;&#160;</a></span>end_() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html">IteratorRange_UndirectedEdgeIterator</a> mrmeshpy.IteratorRange_UndirectedEdgeIterator.operator </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1UndirectedEdgeIterator.html">UndirectedEdgeIterator</a> mrmeshpy.IteratorRange_UndirectedEdgeIterator.end_ </td>
           <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator.html#a39a521817801397308c3119f6a0fd444">mrmeshpy.ConstIteratorRange_UndirectedEdgeIterator</a>.</p>
+
+</div>
+</div>
+<a id="a393f491a57a68f49922dbce97fec3be3" name="a393f491a57a68f49922dbce97fec3be3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a393f491a57a68f49922dbce97fec3be3">&#9670;&#160;</a></span>end_() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.IteratorRange_UndirectedEdgeIterator.end_ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeIterator.html">ConstUndirectedEdgeIterator</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="aafffe2ce5af7dbc4c93df67e8361a58e" name="aafffe2ce5af7dbc4c93df67e8361a58e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafffe2ce5af7dbc4c93df67e8361a58e">&#9670;&#160;</a></span>_offsetof_begin_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.IteratorRange_UndirectedEdgeIterator._offsetof_begin_ = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6d0cbd1935caddb5f045b95844bf0e80" name="a6d0cbd1935caddb5f045b95844bf0e80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d0cbd1935caddb5f045b95844bf0e80">&#9670;&#160;</a></span>_offsetof_end_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.IteratorRange_UndirectedEdgeIterator._offsetof_end_ = 16</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstIteratorRange__UndirectedEdgeIterator.html#a39a521817801397308c3119f6a0fd444">mrmeshpy.ConstIteratorRange_UndirectedEdgeIterator</a>.</p>
 
 </div>
 </div>

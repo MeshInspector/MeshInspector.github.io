@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -138,26 +131,46 @@ $(function(){initNavTree('MRResizeNoInit_8h.html','',''); });
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRResizeNoInit.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMacros_8h_source.html">MRMacros.h</a>&quot;</code><br />
+<code>#include &lt;compare&gt;</code><br />
 <code>#include &lt;concepts&gt;</code><br />
+<code>#include &lt;cstddef&gt;</code><br />
+<code>#include &lt;iterator&gt;</code><br />
 </div>
 <p><a href="MRResizeNoInit_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:MR_3A_3Adetail_3A_3ANoInitIterator_3C_20T_20_3E" id="r_MR_3A_3Adetail_3A_3ANoInitIterator_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1detail_1_1NoInitIterator.html">MR::detail::NoInitIterator&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">random-access iterator over a range of not-initialized T for std::vector::insert  <a href="structMR_1_1detail_1_1NoInitIterator.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3Adetail_3A_3ANoInitIterator_3C_20T_20_3E_3A_3ARef" id="r_MR_3A_3Adetail_3A_3ANoInitIterator_3C_20T_20_3E_3A_3ARef"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1detail_1_1NoInitIterator_1_1Ref.html">MR::detail::NoInitIterator&lt; T &gt;::Ref</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
-<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only strictly necessary for the bindings (to make <span class="tt"><a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a></span> a complete type). <br /></td></tr>
+<tr class="memitem:MR_3A_3Adetail" id="r_MR_3A_3Adetail"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1detail.html">MR::detail</a></td></tr>
+<tr class="memdesc:namespaceMR_1_1detail"><td class="mdescLeft">&#160;</td><td class="mdescRight">for internal use: namespace detail is not bound to other languages <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:gaec1ceadfda242e618b3321a869222946" id="r_gaec1ceadfda242e618b3321a869222946"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaec1ceadfda242e618b3321a869222946">MR::ReserveMode</a> { <a class="el" href="group__GeneralGroup.html#ggaec1ceadfda242e618b3321a869222946a1649aed298f99d587e2eb30c1db5946b">MR::ReserveMode::Exact</a>
+, <a class="el" href="group__GeneralGroup.html#ggaec1ceadfda242e618b3321a869222946a8c9660e13feab2278a3b528bb4dd8f24">MR::ReserveMode::Grow</a>
+ }</td></tr>
+<tr class="memdesc:gaec1ceadfda242e618b3321a869222946"><td class="mdescLeft">&#160;</td><td class="mdescRight">how resizeNoInit reserves the memory when the capacity is short  <a href="group__GeneralGroup.html#gaec1ceadfda242e618b3321a869222946">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gad4c1d1b7c1a447ffccea9b5d867ef98b" id="r_gad4c1d1b7c1a447ffccea9b5d867ef98b"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:gad4c1d1b7c1a447ffccea9b5d867ef98b template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gad4c1d1b7c1a447ffccea9b5d867ef98b">MR::resizeNoInit</a> (std::vector&lt; T &gt; &amp;vec, size_t targetSize) <a class="el" href="group__MathGroup.html#gab29a7719b4a571baf6abe4be5d93d4f2">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T) &gt; 0 &amp;&amp;std</td></tr>
+<tr class="memitem:ga161ef4160e6c7c38a714a322d18376b0" id="r_ga161ef4160e6c7c38a714a322d18376b0"><td class="memTemplParams" colspan="2">template&lt;typename T, typename A&gt; </td></tr>
+<tr class="memitem:ga161ef4160e6c7c38a714a322d18376b0 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga161ef4160e6c7c38a714a322d18376b0">MR::resizeNoInit</a> (std::vector&lt; T, A &gt; &amp;vec, size_t targetSize, <a class="el" href="group__GeneralGroup.html#gaec1ceadfda242e618b3321a869222946">ReserveMode</a> mode=<a class="el" href="group__GeneralGroup.html#ggaec1ceadfda242e618b3321a869222946a1649aed298f99d587e2eb30c1db5946b">ReserveMode::Exact</a>)</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

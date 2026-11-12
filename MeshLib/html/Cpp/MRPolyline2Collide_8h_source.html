@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -178,9 +171,9 @@ $(function(){initNavTree('MRPolyline2Collide_8h_source.html','',''); });
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga557c3d2fa026be12ba0a5f6c8813da41"><div class="ttname"><a href="group__AABBTreeGroup.html#ga557c3d2fa026be12ba0a5f6c8813da41">MR::findCollidingEdgePairs</a></div><div class="ttdeci">std::vector&lt; EdgePointPair &gt; findCollidingEdgePairs(const Polyline2 &amp;a, const Polyline2 &amp;b, const AffineXf2f *rigidB2A=nullptr, bool firstIntersectionOnly=false)</div><div class="ttdoc">finds all pairs of colliding edges from two 2d polylines</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga7892dab0d0fdaed07c3c16c0b4ccc6e9"><div class="ttname"><a href="group__AABBTreeGroup.html#ga7892dab0d0fdaed07c3c16c0b4ccc6e9">MR::isInside</a></div><div class="ttdeci">bool isInside(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr)</div><div class="ttdoc">checks that arbitrary mesh part A is inside of closed mesh part B</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_gac15d4a03ef6c224fff28d48fc239c17c"><div class="ttname"><a href="group__AABBTreeGroup.html#gac15d4a03ef6c224fff28d48fc239c17c">MR::findCollidingEdgesBitsets</a></div><div class="ttdeci">std::pair&lt; UndirectedEdgeBitSet, UndirectedEdgeBitSet &gt; findCollidingEdgesBitsets(const Polyline2 &amp;a, const Polyline2 &amp;b, const AffineXf2f *rigidB2A=nullptr)</div><div class="ttdoc">finds bitset per polyline with colliding edges</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga98da94791426a3dbbdeb1a6b25801df6"><div class="ttname"><a href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">MR::Polyline2</a></div><div class="ttdeci">Polyline2</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:659</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga98da94791426a3dbbdeb1a6b25801df6"><div class="ttname"><a href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">MR::Polyline2</a></div><div class="ttdeci">Polyline2</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:685</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gab9a91b42c9f6b54ae6f4729f9ce46769"><div class="ttname"><a href="group__GeneralGroup.html#gab9a91b42c9f6b54ae6f4729f9ce46769">MR::AffineXf2f</a></div><div class="ttdeci">AffineXf2f</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:294</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

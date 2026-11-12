@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -232,7 +225,7 @@ $(function(){initNavTree('MRMeshDelone_8h_source.html','',''); });
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:85</div></div>
 <div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html"><div class="ttname"><a href="classMR_1_1MeshTopology.html">MR::MeshTopology</a></div><div class="ttdef"><b>Definition</b> MRMeshTopology.h:30</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:759</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:789</div></div>
 <div class="ttc" id="agroup__MeshDeloneGroup_html_ga16f552a35f60e409ad9d9d6e8280e2aa"><div class="ttname"><a href="group__MeshDeloneGroup.html#ga16f552a35f60e409ad9d9d6e8280e2aa">MR::canFlipEdge</a></div><div class="ttdeci">FlipEdge canFlipEdge(const MeshTopology &amp;topology, EdgeId edge, const FaceBitSet *region=nullptr, const UndirectedEdgeBitSet *notFlippable=nullptr, const VertBitSet *vertRegion=nullptr)</div><div class="ttdoc">consider topology and constraints to decide about flip possibility</div></div>
 <div class="ttc" id="agroup__MeshDeloneGroup_html_ga195bc7da311dfa877bd7db6a8af4ff65"><div class="ttname"><a href="group__MeshDeloneGroup.html#ga195bc7da311dfa877bd7db6a8af4ff65">MR::makeDeloneEdgeFlips</a></div><div class="ttdeci">int makeDeloneEdgeFlips(Mesh &amp;mesh, const DeloneSettings &amp;settings={}, int numIters=1, const ProgressCallback &amp;progressCallback={})</div></div>
 <div class="ttc" id="agroup__MeshDeloneGroup_html_ga5df0de3a017d0b07dca533e50ed89489"><div class="ttname"><a href="group__MeshDeloneGroup.html#ga5df0de3a017d0b07dca533e50ed89489">MR::makeDeloneOriginRing</a></div><div class="ttdeci">void makeDeloneOriginRing(Mesh &amp;mesh, EdgeId e, const DeloneSettings &amp;settings={})</div><div class="ttdoc">improves mesh triangulation in a ring of vertices with common origin and represented by edge e</div></div>
@@ -244,7 +237,7 @@ $(function(){initNavTree('MRMeshDelone_8h_source.html','',''); });
 <div class="ttc" id="agroup__MeshDeloneGroup_html_ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95ab2b39f251bc6784f2d44d4dd72a663be"><div class="ttname"><a href="group__MeshDeloneGroup.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95ab2b39f251bc6784f2d44d4dd72a663be">MR::FlipEdge::Must</a></div><div class="ttdeci">@ Must</div><div class="ttdoc">edge flipping is required to solve some topology issue</div><div class="ttdef"><b>Definition</b> MRMeshDelone.h:68</div></div>
 <div class="ttc" id="agroup__MeshDeloneGroup_html_ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95ad677b410373bc790d9a8ec2e68090839"><div class="ttname"><a href="group__MeshDeloneGroup.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95ad677b410373bc790d9a8ec2e68090839">MR::FlipEdge::Can</a></div><div class="ttdeci">@ Can</div><div class="ttdoc">edge flipping is possible</div><div class="ttdef"><b>Definition</b> MRMeshDelone.h:66</div></div>
 <div class="ttc" id="amodule__nullptr_html"><div class="ttname"><a href="module__nullptr.html">nullptr</a></div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1DeloneFlipsCache_html"><div class="ttname"><a href="structMR_1_1DeloneFlipsCache.html">MR::DeloneFlipsCache</a></div><div class="ttdef"><b>Definition</b> MRMeshDelone.h:15</div></div>
 <div class="ttc" id="astructMR_1_1DeloneFlipsCache_html_a238e6b49d80746fc39866fa132c510d3"><div class="ttname"><a href="structMR_1_1DeloneFlipsCache.html#a238e6b49d80746fc39866fa132c510d3">MR::DeloneFlipsCache::queuedEdges</a></div><div class="ttdeci">UndirectedEdgeBitSet queuedEdges</div><div class="ttdoc">of the serial rounds (a smaller mesh): the edges already queued for the next round,...</div><div class="ttdef"><b>Definition</b> MRMeshDelone.h:20</div></div>
 <div class="ttc" id="astructMR_1_1DeloneFlipsCache_html_a3a1a1bc0543a674c264e79c91353b0c6"><div class="ttname"><a href="structMR_1_1DeloneFlipsCache.html#a3a1a1bc0543a674c264e79c91353b0c6">MR::DeloneFlipsCache::nextFlipCandidates</a></div><div class="ttdeci">UndirectedEdgeBitSet nextFlipCandidates</div><div class="ttdef"><b>Definition</b> MRMeshDelone.h:17</div></div>

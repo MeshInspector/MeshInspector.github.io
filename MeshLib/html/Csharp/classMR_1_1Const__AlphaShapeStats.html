@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -196,7 +189,7 @@ Protected Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:aa680f7f96d6708414c41b35a54647e6b" id="r_aa680f7f96d6708414c41b35a54647e6b"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa680f7f96d6708414c41b35a54647e6b">collectedNeis</a><code> [get]</code></td></tr>
-<tr class="memdesc:aa680f7f96d6708414c41b35a54647e6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of neighbours found within the search radius, before any of the filters below; the searches around all the points are quadratic in this, so it explains most of the difference in the time spent per point between one cloud and another  <br /></td></tr>
+<tr class="memdesc:aa680f7f96d6708414c41b35a54647e6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of neighbours found within the search radius (except the known twins), before any of the filters below; the searches around all the points are quadratic in this, so it explains most of the difference in the time spent per point between one cloud and another  <br /></td></tr>
 <tr class="memitem:a210477b9fbfc12fa35e6abf94dbde1d3" id="r_a210477b9fbfc12fa35e6abf94dbde1d3"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a210477b9fbfc12fa35e6abf94dbde1d3">redundancyTests</a><code> [get]</code></td></tr>
 <tr class="memdesc:a210477b9fbfc12fa35e6abf94dbde1d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of pairs of neighbours checked for one of them making the other redundant, which is quadratic in the neighbours of a point  <br /></td></tr>
 <tr class="memitem:aacbb0996bbb893bcccb620b5ea335e19" id="r_aacbb0996bbb893bcccb620b5ea335e19"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacbb0996bbb893bcccb620b5ea335e19">redundantNeis</a><code> [get]</code></td></tr>
@@ -635,7 +628,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the number of neighbours found within the search radius, before any of the filters below; the searches around all the points are quadratic in this, so it explains most of the difference in the time spent per point between one cloud and another </p>
+<p>the number of neighbours found within the search radius (except the known twins), before any of the filters below; the searches around all the points are quadratic in this, so it explains most of the difference in the time spent per point between one cloud and another </p>
 
 </div>
 </div>

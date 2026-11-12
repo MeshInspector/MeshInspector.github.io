@@ -6,8 +6,8 @@ var classMR_1_1Vector__Int__MRVertId =
     [ "Vector_Int_MRVertId", "classMR_1_1Vector__Int__MRVertId.html#aaf25d5df3fb548a717f7695558fed0bc", null ],
     [ "Vector_Int_MRVertId", "classMR_1_1Vector__Int__MRVertId.html#a8f20230295ad35991894cd11f19cab65", null ],
     [ "Vector_Int_MRVertId", "classMR_1_1Vector__Int__MRVertId.html#ac419faafdfeb93355fc7dcc457767ce6", null ],
-    [ "Vector_Int_MRVertId", "classMR_1_1Vector__Int__MRVertId.html#ab33d2a546b52562d80ef026d85ae4a7c", null ],
     [ "assign", "classMR_1_1Vector__Int__MRVertId.html#a60fc27774daedb799dca0075cf184ac5", null ],
+    [ "assign", "classMR_1_1Vector__Int__MRVertId.html#a0f35db0763ae96e4e95a5af2b860a358", null ],
     [ "autoResizeAt", "classMR_1_1Vector__Int__MRVertId.html#aa500960eb46bb4365791ffa022cde98a", null ],
     [ "autoResizeSet", "classMR_1_1Vector__Int__MRVertId.html#a63b411b33d65996a9f9065ba069f1a3d", null ],
     [ "autoResizeSet", "classMR_1_1Vector__Int__MRVertId.html#aae50c163fad1c306eb04b0047f6b6ab3", null ],
@@ -15,8 +15,6 @@ var classMR_1_1Vector__Int__MRVertId =
     [ "clear", "classMR_1_1Vector__Int__MRVertId.html#a1ace816878ff95ba933090ef78f87c00", null ],
     [ "data", "classMR_1_1Vector__Int__MRVertId.html#a2ef1865dd816c2a9fb98d353043acfc7", null ],
     [ "front", "classMR_1_1Vector__Int__MRVertId.html#a22092bf4ddb2a8814e2817af0db47f68", null ],
-    [ "GetEnumerator", "classMR_1_1Vector__Int__MRVertId.html#aaed65307856b1b6ff89fdf93e73c3bfe", null ],
-    [ "operator Vector_Int_MRVertId", "classMR_1_1Vector__Int__MRVertId.html#a453c28b35dfa4bfb04317a6085ada787", null ],
     [ "popBack", "classMR_1_1Vector__Int__MRVertId.html#ab4813345c57fafd4f9eb7dccc69827b2", null ],
     [ "pushBack", "classMR_1_1Vector__Int__MRVertId.html#af98fd2164a966eab8bd2a237debc7f8a", null ],
     [ "pushBack", "classMR_1_1Vector__Int__MRVertId.html#a4359249ad01973039f192a7f1f9d21de", null ],
@@ -25,7 +23,8 @@ var classMR_1_1Vector__Int__MRVertId =
     [ "resize", "classMR_1_1Vector__Int__MRVertId.html#a7e2de46d829387c9fa84f3d974499fb7", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__Int__MRVertId.html#ad807e51ed8dbc5614be769dadc6f9209", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__Int__MRVertId.html#a64a242a7a891355110f17432b8d18e44", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__Int__MRVertId.html#a4d694997bcd16a6ca79a920dc8343d4e", null ],
     [ "swap", "classMR_1_1Vector__Int__MRVertId.html#aa256c6161a91d373d044af5f6e3062d2", null ],
     [ "this[MR.VertId i]", "classMR_1_1Vector__Int__MRVertId.html#a584d4abf3fab2d355ed909b324c9e97f", null ],
-    [ "vec", "classMR_1_1Vector__Int__MRVertId.html#a0bb61315eb67cb39d0c94f6b3712d849", null ]
+    [ "vec", "classMR_1_1Vector__Int__MRVertId.html#ad85b537d5e279ead2c181fa719bade31", null ]
 ];

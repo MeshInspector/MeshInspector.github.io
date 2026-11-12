@@ -6,7 +6,6 @@ var classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRIC
     [ "Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a0925ec55582811f3cbb499432e28d6f7", null ],
     [ "Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a1b3fe50fa02805ef4432fe126ac5cca9", null ],
     [ "Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a792f78d30eb903d224416bb6f7597a06", null ],
-    [ "Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a9df4fbb41aae97c1047c9da23dd860d8", null ],
     [ "back", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a8227479e1ecb4e4a7c552e6fbc759771", null ],
     [ "backId", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a349d398bc500b1b1a4ae0542d267e673", null ],
     [ "beginId", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a5ca98cc741cc4e09b78c21b04c3edfea", null ],
@@ -17,10 +16,9 @@ var classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRIC
     [ "empty", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a6d1622a78e00e1ae21df15156253dc56", null ],
     [ "endId", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a37d5214660562d92e0647b5a8bf22e4b", null ],
     [ "front", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a034805c5a4a11d6cc31d0c1412d1d6d4", null ],
-    [ "GetEnumerator", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a42c4f79681a6248dce5150ae04dfef62", null ],
     [ "heapBytes", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#ad386f842af61f5a99908078dc2a72e51", null ],
-    [ "operator Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a301c2ded376d2cfb5bbe49fea1a6a39b", null ],
+    [ "maxSize", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a02abcd32810b016fb49eb3d4827e65c0", null ],
     [ "size", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a0e99835bd7493b3df42af2882fecb541", null ],
     [ "this[MR.Const_Id_MRICPElemtTag i]", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a63b2656f99f5bd338b67183297807811", null ],
-    [ "vec", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#ae2c83a8eb8a00e9689941e265188c61d", null ]
+    [ "vec", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a0f8082c58d624d4d2457e1c32f076407", null ]
 ];

@@ -13,5 +13,5 @@ var classMR_1_1EdgePathsBuilderT =
     [ "reset", "group__GeneralGroup.html#ga8b233d3b70904335296fbd82fcbc693f", null ],
     [ "trackPathBack", "group__GeneralGroup.html#ga91060ff48000e2ddc2037bedefc72197", null ],
     [ "vertPathInfoMap", "group__GeneralGroup.html#gad30700907c0223d6668cc9e5910765c3", null ],
-    [ "metricToPenalty_", "group__GeneralGroup.html#ga8bee648da3c920541672f288460c659c", null ]
+    [ "metricToPenalty_", "group__GeneralGroup.html#ga951e1aef2547463398bfb912b6224dbf", null ]
 ];

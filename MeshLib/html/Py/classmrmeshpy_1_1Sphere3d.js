@@ -1,10 +1,9 @@
 var classmrmeshpy_1_1Sphere3d =
 [
     [ "__init__", "classmrmeshpy_1_1Sphere3d.html#a3cbadebf471a67f5351a6273fcc0a8f2", null ],
-    [ "__init__", "classmrmeshpy_1_1Sphere3d.html#a33d3db676f60dea8481505804eeaf573", null ],
-    [ "__init__", "classmrmeshpy_1_1Sphere3d.html#a7455f2867c4cfeb9c964b1e6bc08586c", null ],
-    [ "__eq__", "classmrmeshpy_1_1Sphere3d.html#a5a3eeaa70df813341117681dedd68308", null ],
-    [ "distance", "classmrmeshpy_1_1Sphere3d.html#ac9842cc83f362096fb3013badea11a30", null ],
-    [ "distanceSq", "classmrmeshpy_1_1Sphere3d.html#a538a197373dcda39cb563fd6572602c0", null ],
-    [ "project", "classmrmeshpy_1_1Sphere3d.html#ab7536c91007a1f01026ff3edcc711a22", null ]
+    [ "__init__", "classmrmeshpy_1_1Sphere3d.html#ad1f97074203d5c0b1c4c759f2cd05f17", null ],
+    [ "__init__", "classmrmeshpy_1_1Sphere3d.html#adc03347d1ee24a367deb2d70a3bcf85b", null ],
+    [ "assign", "classmrmeshpy_1_1Sphere3d.html#aac16199fd04c4706f4374f6e6dadbe16", null ],
+    [ "center", "classmrmeshpy_1_1Sphere3d.html#ae49e56a9ce2be551cc5f0dbfe1c6112d", null ],
+    [ "center", "classmrmeshpy_1_1Sphere3d.html#adad299f5bd857479cbd8b13aa0bb3da8", null ]
 ];

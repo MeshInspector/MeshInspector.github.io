@@ -7,6 +7,8 @@ var MROneMeshContours_8cs =
     [ "MR.OneMeshIntersection", "classMR_1_1OneMeshIntersection.html", "classMR_1_1OneMeshIntersection" ],
     [ "MR.Const_OneMeshContour", "classMR_1_1Const__OneMeshContour.html", "classMR_1_1Const__OneMeshContour" ],
     [ "MR.OneMeshContour", "classMR_1_1OneMeshContour.html", "classMR_1_1OneMeshContour" ],
+    [ "MR.Const_OneMeshContours", "classMR_1_1Const__OneMeshContours.html", "classMR_1_1Const__OneMeshContours" ],
+    [ "MR.OneMeshContours", "classMR_1_1OneMeshContours.html", "classMR_1_1OneMeshContours" ],
     [ "MR.Const_SearchPathSettings", "classMR_1_1Const__SearchPathSettings.html", "classMR_1_1Const__SearchPathSettings" ],
     [ "MR.SearchPathSettings", "classMR_1_1SearchPathSettings.html", "classMR_1_1SearchPathSettings" ]
 ];

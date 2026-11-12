@@ -1,8 +1,9 @@
 var classmrmeshpy_1_1SplineSettings =
 [
     [ "__init__", "classmrmeshpy_1_1SplineSettings.html#adb7a9379b779951afedf7af8a36b25a2", null ],
-    [ "__init__", "classmrmeshpy_1_1SplineSettings.html#aee421774f17a472442df357e81fde798", null ],
+    [ "__init__", "classmrmeshpy_1_1SplineSettings.html#abb1abcdbcea64fff3ad2f55c73f36f69", null ],
     [ "__init__", "classmrmeshpy_1_1SplineSettings.html#a37236c33f50538b23a8fe0abf0febce1", null ],
+    [ "assign", "classmrmeshpy_1_1SplineSettings.html#acbec58e1b40e2ce8ca19360a89202c5f", null ],
     [ "controlStability", "classmrmeshpy_1_1SplineSettings.html#a0954a0ddebdc1f1f133480857200b49f", null ],
     [ "controlStability", "classmrmeshpy_1_1SplineSettings.html#a0b6d744096f0a07b74c0569e280544d7", null ],
     [ "iterations", "classmrmeshpy_1_1SplineSettings.html#a7a54fc1c4b55ba288acee9ec6eac8ca0", null ],

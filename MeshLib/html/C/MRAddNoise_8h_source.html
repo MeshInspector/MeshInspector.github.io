@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -208,8 +201,8 @@ $(function(){initNavTree('MRAddNoise_8h_source.html','',''); });
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>} <span class="comment">// extern &quot;C&quot;</span></div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aMR3mf_8h_html_adb03ce28cacfff1e499d75d512dc4a84"><div class="ttname"><a href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></div><div class="ttdeci">struct MR_std_function_bool_from_float MR_std_function_bool_from_float</div><div class="ttdef"><b>Definition</b> MR3mf.h:10</div></div>
-<div class="ttc" id="aMRAABBTreePoints_8h_html_a249fd9254c0c3395567807936ad32641"><div class="ttname"><a href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></div><div class="ttdeci">struct MR_VertCoords MR_VertCoords</div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRAABBTreePoints.h:21</div></div>
-<div class="ttc" id="aMRAABBTree_8h_html_a3df50e76b078a1626dd994e1df803764"><div class="ttname"><a href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></div><div class="ttdeci">struct MR_VertBitSet MR_VertBitSet</div><div class="ttdef"><b>Definition</b> MRAABBTree.h:22</div></div>
+<div class="ttc" id="aMRAABBTreePoints_8h_html_a249fd9254c0c3395567807936ad32641"><div class="ttname"><a href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></div><div class="ttdeci">struct MR_VertCoords MR_VertCoords</div><div class="ttdef"><b>Definition</b> MRAABBTreePoints.h:21</div></div>
+<div class="ttc" id="aMRAABBTree_8h_html_a3df50e76b078a1626dd994e1df803764"><div class="ttname"><a href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></div><div class="ttdeci">struct MR_VertBitSet MR_VertBitSet</div><div class="ttdef"><b>Definition</b> MRAABBTree.h:25</div></div>
 <div class="ttc" id="aMRAddNoise_8h_html_a1b6df507815b5c251a34f0b3c5c57093"><div class="ttname"><a href="MRAddNoise_8h.html#a1b6df507815b5c251a34f0b3c5c57093">MR_NoiseSettings_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_NoiseSettings * MR_NoiseSettings_DefaultConstruct(void)</div></div>
 <div class="ttc" id="aMRAddNoise_8h_html_a1e3ea801c9d94d6478247c6392e0cbd3"><div class="ttname"><a href="MRAddNoise_8h.html#a1e3ea801c9d94d6478247c6392e0cbd3">MR_NoiseSettings_Destroy</a></div><div class="ttdeci">MRC_API void MR_NoiseSettings_Destroy(const MR_NoiseSettings *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_NoiseSettings. Does nothing if the pointer is null.</div></div>
 <div class="ttc" id="aMRAddNoise_8h_html_a25fb3d68cba5876f0d9b389f0565928c"><div class="ttname"><a href="MRAddNoise_8h.html#a25fb3d68cba5876f0d9b389f0565928c">MR_NoiseSettings_Set_seed</a></div><div class="ttdeci">MRC_API void MR_NoiseSettings_Set_seed(MR_NoiseSettings *_this, unsigned int value)</div></div>
@@ -231,8 +224,8 @@ $(function(){initNavTree('MRAddNoise_8h_source.html','',''); });
 <div class="ttc" id="aMRAddNoise_8h_html_ae35a6c3b9428d266c4c24412aa6af3b5"><div class="ttname"><a href="MRAddNoise_8h.html#ae35a6c3b9428d266c4c24412aa6af3b5">MR_NoiseSettings_Get_sigma</a></div><div class="ttdeci">MRC_API const float * MR_NoiseSettings_Get_sigma(const MR_NoiseSettings *_this)</div></div>
 <div class="ttc" id="aMRAddNoise_8h_html_af5b41d5112c2b52995d45963c3c13e79"><div class="ttname"><a href="MRAddNoise_8h.html#af5b41d5112c2b52995d45963c3c13e79">MR_addNoise_MR_VertCoords</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_addNoise_MR_VertCoords(MR_VertCoords *points, const MR_VertBitSet *validVerts, MR_PassBy settings_pass_by, MR_NoiseSettings *settings)</div></div>
 <div class="ttc" id="aMRAddNoise_8h_html_afa62449e82c29f91e4dea0300a64f96a"><div class="ttname"><a href="MRAddNoise_8h.html#afa62449e82c29f91e4dea0300a64f96a">MR_NoiseSettings_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_NoiseSettings_DestroyArray(const MR_NoiseSettings *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_NoiseSettings. Does nothing if the pointer is null.</div></div>
-<div class="ttc" id="aMRCtm_8h_html_a077b8debfae88f9cf2267ad2db95c006"><div class="ttname"><a href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></div><div class="ttdeci">struct MR_expected_void_std_string MR_expected_void_std_string</div><div class="ttdef"><b>Definition</b> MRCtm.h:26</div></div>
-<div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div><div class="ttdef"><b>Definition</b> MRCtm.h:16</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a077b8debfae88f9cf2267ad2db95c006"><div class="ttname"><a href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></div><div class="ttdeci">struct MR_expected_void_std_string MR_expected_void_std_string</div><div class="ttdef"><b>Definition</b> MRCtm.h:27</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div><div class="ttdef"><b>Definition</b> MRCtm.h:17</div></div>
 <div class="ttc" id="acommon_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
 <div class="ttc" id="acommon_8h_html_ac983b89bddb9b22c9b416f31399f0095"><div class="ttname"><a href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></div><div class="ttdeci">MR_PassBy</div><div class="ttdef"><b>Definition</b> common.h:13</div></div>
 <div class="ttc" id="ainclude_2MRCMisc_2exports_8h_html"><div class="ttname"><a href="include_2MRCMisc_2exports_8h.html">exports.h</a></div></div>

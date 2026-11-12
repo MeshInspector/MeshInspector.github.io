@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -165,6 +158,10 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#gga216960c15f7b00558ab28053967a9615a701726fb0205943f4567e09bcebd0552">MR::ShortestEdgeFirst</a>
  }</td></tr>
 <tr class="memdesc:ga216960c15f7b00558ab28053967a9615"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the order of edge collapses inside Decimate algorithm.  <a href="#ga216960c15f7b00558ab28053967a9615">More...</a><br /></td></tr>
+<tr class="memitem:gaed99d2728682c43807db96f18bb16d35" id="r_gaed99d2728682c43807db96f18bb16d35"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaed99d2728682c43807db96f18bb16d35">MR::DecimatePartsMode</a> { <a class="el" href="#ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b">MR::DecimatePartsMode::PackedMesh</a>
+, <a class="el" href="#ggaed99d2728682c43807db96f18bb16d35a220dce5b9731e80b3b1d4a59a9bbe8d8">MR::DecimatePartsMode::AABBTree</a>
+ }</td></tr>
+<tr class="memdesc:gaed99d2728682c43807db96f18bb16d35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines how decimation finds the parts of the mesh for parallel processing (DecimateSettings::subdivideParts &gt; 1)  <a href="#gaed99d2728682c43807db96f18bb16d35">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -191,6 +188,38 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <p>This chapter represents documentation about mesh decimation. </p>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="gaed99d2728682c43807db96f18bb16d35" name="gaed99d2728682c43807db96f18bb16d35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed99d2728682c43807db96f18bb16d35">&#9670;&#160;</a></span>DecimatePartsMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#gaed99d2728682c43807db96f18bb16d35">MR::DecimatePartsMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshDecimate_8h.html">MRMesh/MRMeshDecimate.h</a>&gt;</code></p>
+
+<p>Defines how decimation finds the parts of the mesh for parallel processing (<a class="el" href="structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4">DecimateSettings::subdivideParts</a> &gt; 1) </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b" name="ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b"></a>PackedMesh&#160;</td><td class="fielddoc"><p>the mesh is already packed optimally (e.g. by mesh.packOptimally()), and the parts are ranges of face ids </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggaed99d2728682c43807db96f18bb16d35a220dce5b9731e80b3b1d4a59a9bbe8d8" name="ggaed99d2728682c43807db96f18bb16d35a220dce5b9731e80b3b1d4a59a9bbe8d8"></a>AABBTree&#160;</td><td class="fielddoc"><p>the parts are subtrees of mesh's AABB tree (taken from the mesh if present, otherwise constructed), no packing is needed; the number of parts is rounded up to a power of two </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a id="ga216960c15f7b00558ab28053967a9615" name="ga216960c15f7b00558ab28053967a9615"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga216960c15f7b00558ab28053967a9615">&#9670;&#160;</a></span>DecimateStrategy</h2>
 
@@ -354,7 +383,25 @@ Functions</h2></td></tr>
 <p><code>#include &lt;<a class="el" href="MRMeshDecimate_8h.html">MRMesh/MRMeshDecimate.h</a>&gt;</code></p>
 
 <p>Performs mesh simplification in mesh region according to the settings. </p>
-<div class="fragment"></div><!-- fragment --><div class="image">
+<p>A closed tetrahedron is never collapsed in two triangles lying on each other: it is removed completely if its four vertices can be collapsed in one point within maxError (for ShortestEdgeFirst: none of its edges is longer than maxError), and preCollapse, the limits on deleted faces and vertices, region, fixed boundary vertices, notFlippable and edgesToCollapse permit it; otherwise it is kept whole.</p>
+<div class="fragment"><div class="line">    <span class="comment">// Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
+<div class="line">    <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
+<div class="line">    mesh.<a class="code hl_function" href="structMR_1_1Mesh.html#a065ab2187cbcc73a21aa4bab438dc7fa">packOptimally</a>( <span class="keyword">false</span> );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Setup decimate parameters</span></div>
+<div class="line">    <a class="code hl_struct" href="structMR_1_1DecimateSettings.html">MR::DecimateSettings</a> settings;</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Decimation stop thresholds, you may specify one or both</span></div>
+<div class="line">    settings.<a class="code hl_variable" href="structMR_1_1DecimateSettings.html#a38bbdf3c479e6edea3b93ca7a7b52084">maxDeletedFaces</a> = 1000; <span class="comment">// Number of faces to be deleted</span></div>
+<div class="line">    settings.<a class="code hl_variable" href="structMR_1_1DecimateSettings.html#ab97888b6d597260226ade61b4e542ef0">maxError</a> = 0.05f; <span class="comment">// Maximum error when decimation stops</span></div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</span></div>
+<div class="line">    <span class="comment">// 16 is a good choice even with fewer CPU cores, since smaller parts are processed faster; much larger values add per-part overhead</span></div>
+<div class="line">    settings.<a class="code hl_variable" href="structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4">subdivideParts</a> = 16;</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Decimate mesh</span></div>
+<div class="line">    <a class="code hl_function" href="#gae9313434cccf9f5b704c8f1fbb534a50">MR::decimateMesh</a>( mesh, settings );</div>
+</div><!-- fragment --><div class="image">
 <img src="decimate_before.png" alt="" width="350cm"/>
 <div class="caption">
 Before</div></div>
@@ -385,7 +432,8 @@ After</div></div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshDecimate_8h.html">MRMesh/MRMeshDecimate.h</a>&gt;</code></p>
-<p>Performs mesh simplification with per-element attributes according to given settings; \detail settings.region must be null, and real simplification region will be data face selection (or whole mesh if no face selection) </p>
+<p>Performs mesh simplification with per-element attributes according to given settings;</p>
+<p>settings.region limits the simplification like in decimateMesh (whole mesh if null), and face selection is not used as a region; the attributes without values for some mesh elements are padded with default values (see resizeAttributesToMesh) </p>
 
 </div>
 </div>

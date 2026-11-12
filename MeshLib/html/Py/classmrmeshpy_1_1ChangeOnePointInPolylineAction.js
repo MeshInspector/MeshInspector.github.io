@@ -1,8 +1,6 @@
 var classmrmeshpy_1_1ChangeOnePointInPolylineAction =
 [
-    [ "__init__", "classmrmeshpy_1_1ChangeOnePointInPolylineAction.html#aaedc7b7d05a67dc9c4f7a6fcaecdc9c1", null ],
-    [ "__init__", "classmrmeshpy_1_1ChangeOnePointInPolylineAction.html#a3e53ce6653580b06df90643038a08fdf", null ],
-    [ "__init__", "classmrmeshpy_1_1ChangeOnePointInPolylineAction.html#a98f5f8eff629f757030bde4403fe15a6", null ],
-    [ "heapBytes", "classmrmeshpy_1_1ChangeOnePointInPolylineAction.html#a1d05b3d19609777d909444a08a7201bf", null ],
-    [ "name", "classmrmeshpy_1_1ChangeOnePointInPolylineAction.html#a9dea80c3888f102cd74af3a6a78607d1", null ]
+    [ "__init__", "classmrmeshpy_1_1ChangeOnePointInPolylineAction.html#ab3e16037eeebb58a5f4fe1feddc835e7", null ],
+    [ "__init__", "classmrmeshpy_1_1ChangeOnePointInPolylineAction.html#aa83d7a51470a79caf53e39a4e035c8d6", null ],
+    [ "__init__", "classmrmeshpy_1_1ChangeOnePointInPolylineAction.html#adf54e1a8ddb50fb95b6d3c06dcbf0b44", null ]
 ];

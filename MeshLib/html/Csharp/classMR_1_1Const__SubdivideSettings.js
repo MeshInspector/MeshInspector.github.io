@@ -1,7 +1,7 @@
 var classMR_1_1Const__SubdivideSettings =
 [
     [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#a14fd7dd1a38583764e857562c06685a3", null ],
-    [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#ac71d211ccf0190830152c95eb3603e8b", null ],
+    [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#ac1c14b21f874ef5b44c803c40cb4c17e", null ],
     [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#a188023ed4a15e58cb7783f4f1a85324d", null ],
     [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#a3664ca2c880c12fcf523182869c4dc82", null ],
     [ "Const_SubdivideSettings", "classMR_1_1Const__SubdivideSettings.html#acc527c301f6bd4852405291464a392af", null ],
@@ -20,6 +20,7 @@ var classMR_1_1Const__SubdivideSettings =
     [ "__ref_storage_maxSplittableTriAspectRatio", "classMR_1_1Const__SubdivideSettings.html#ac50521a8622ffe34542cc94707027181", null ],
     [ "__ref_storage_maxTriAspectRatio", "classMR_1_1Const__SubdivideSettings.html#a0ca39d0b6cba1bd765fe3fe5c8f3c50c", null ],
     [ "__ref_storage_minSharpDihedralAngle", "classMR_1_1Const__SubdivideSettings.html#a2537bcaab1cd2df41d423b5cd010aadf", null ],
+    [ "__ref_storage_onlyNearNotFlippable", "classMR_1_1Const__SubdivideSettings.html#ab39809f35c8cd011098a5ba99d35555b", null ],
     [ "__ref_storage_projectOnOriginalMesh", "classMR_1_1Const__SubdivideSettings.html#a5ee447b8d5897946d1ec79bcef3f627a", null ],
     [ "__ref_storage_smoothMode", "classMR_1_1Const__SubdivideSettings.html#a80a38a2162cf1cdabdff53a2f1ff8258", null ],
     [ "__ref_storage_subdivideBorder", "classMR_1_1Const__SubdivideSettings.html#a2c00194c6d29c0a0efbd534dd7a4b6d9", null ],
@@ -37,6 +38,7 @@ var classMR_1_1Const__SubdivideSettings =
     [ "newVerts", "classMR_1_1Const__SubdivideSettings.html#aad53b86309320b8d8bbab9b5b1b51ce8", null ],
     [ "notFlippable", "classMR_1_1Const__SubdivideSettings.html#a55678e5b98c45bf1bca2329bdb8f40af", null ],
     [ "onEdgeSplit", "classMR_1_1Const__SubdivideSettings.html#a1781588eb5c2e666f45b67543e0b1c07", null ],
+    [ "onlyNearNotFlippable", "classMR_1_1Const__SubdivideSettings.html#a5f1ca49006752c6c77b8646773ea91f9", null ],
     [ "onVertCreated", "classMR_1_1Const__SubdivideSettings.html#a971283c2339a8bda25f569bdc8be96a9", null ],
     [ "progressCallback", "classMR_1_1Const__SubdivideSettings.html#a23797e495a438f958495b0d5938a7add", null ],
     [ "projectOnOriginalMesh", "classMR_1_1Const__SubdivideSettings.html#aa3cec0abaa6273a31d8b3b0319551e12", null ],

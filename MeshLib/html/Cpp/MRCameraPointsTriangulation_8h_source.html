@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -206,7 +199,7 @@ $(function(){initNavTree('MRCameraPointsTriangulation_8h_source.html','',''); })
 <div class="ttc" id="aMRPositionVertsSmoothly_8h_html"><div class="ttname"><a href="MRPositionVertsSmoothly_8h.html">MRPositionVertsSmoothly.h</a></div></div>
 <div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html"><div class="ttname"><a href="classMR_1_1MeshTopology.html">MR::MeshTopology</a></div><div class="ttdef"><b>Definition</b> MRMeshTopology.h:30</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:759</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:789</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga00a7bb161f5eaaa90ce8cb39fec8eec6"><div class="ttname"><a href="group__GeneralGroup.html#ga00a7bb161f5eaaa90ce8cb39fec8eec6">MR::AreaStabilizer</a></div><div class="ttdeci">AreaStabilizer</div><div class="ttdoc">how the stabilizer of an inner vertex depends on the area of its neighborhood in the image plane</div><div class="ttdef"><b>Definition</b> MRCameraPointsTriangulation.h:50</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga1107946dc94ab13ff2e36600f32d24ea"><div class="ttname"><a href="group__GeneralGroup.html#ga1107946dc94ab13ff2e36600f32d24ea">MR::CameraPointsTriangulationSettings::outProjectedPoints</a></div><div class="ttdeci">VertCoords * outProjectedPoints</div><div class="ttdef"><b>Definition</b> MRCameraPointsTriangulation.h:30</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga5572680fd9364186a4c0da4cc8346a96"><div class="ttname"><a href="group__GeneralGroup.html#ga5572680fd9364186a4c0da4cc8346a96">MR::SmoothCameraMeshDepthSettings::edgeWeights</a></div><div class="ttdeci">EdgeWeights edgeWeights</div><div class="ttdoc">weights of edges in the equations, computed on the mesh projected in the image plane</div><div class="ttdef"><b>Definition</b> MRCameraPointsTriangulation.h:62</div></div>
@@ -225,7 +218,7 @@ $(function(){initNavTree('MRCameraPointsTriangulation_8h_source.html','',''); })
 <div class="ttc" id="agroup__GeneralGroup_html_gga00a7bb161f5eaaa90ce8cb39fec8eec6adeec4ff19974f12ed781cb9a59064214"><div class="ttname"><a href="group__GeneralGroup.html#gga00a7bb161f5eaaa90ce8cb39fec8eec6adeec4ff19974f12ed781cb9a59064214">MR::AreaStabilizer::Area</a></div><div class="ttdeci">@ Area</div><div class="ttdoc">proportional to the neighborhood area (dense regions are smoothed the same as sparse ones)</div><div class="ttdef"><b>Definition</b> MRCameraPointsTriangulation.h:52</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gga00a7bb161f5eaaa90ce8cb39fec8eec6af19516d11f2946f894070e92fcb56b6d"><div class="ttname"><a href="group__GeneralGroup.html#gga00a7bb161f5eaaa90ce8cb39fec8eec6af19516d11f2946f894070e92fcb56b6d">MR::AreaStabilizer::Uniform</a></div><div class="ttdeci">@ Uniform</div><div class="ttdoc">all inner vertices have the same stabilizer</div><div class="ttdef"><b>Definition</b> MRCameraPointsTriangulation.h:51</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gga5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9"><div class="ttname"><a href="group__GeneralGroup.html#gga5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">MR::EdgeWeights::Cotan</a></div><div class="ttdeci">@ Cotan</div><div class="ttdoc">edge weight depends on local geometry and uses cotangent values</div><div class="ttdef"><b>Definition</b> MREnums.h:49</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1CameraPointsTriangulationSettings_html"><div class="ttname"><a href="structMR_1_1CameraPointsTriangulationSettings.html">MR::CameraPointsTriangulationSettings</a></div><div class="ttdef"><b>Definition</b> MRCameraPointsTriangulation.h:16</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh.h:24</div></div>
 <div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="structMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition</b> MRPointCloud.h:17</div></div>

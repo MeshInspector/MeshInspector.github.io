@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -632,7 +625,7 @@ $(function(){initNavTree('MRViewerEventsListener_8h_source.html','',''); });
 <div class="ttc" id="aMRSignal_8h_html"><div class="ttname"><a href="MRSignal_8h.html">MRSignal.h</a></div></div>
 <div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aMRViewerFwd_8h_html"><div class="ttname"><a href="MRViewerFwd_8h.html">MRViewerFwd.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1Viewer_html"><div class="ttname"><a href="classMR_1_1Viewer.html">MR::Viewer</a></div><div class="ttdoc">GLFW-based mesh viewer.</div><div class="ttdef"><b>Definition</b> MRViewer.h:69</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html"><div class="ttname"><a href="classMR_1_1Viewer.html">MR::Viewer</a></div><div class="ttdoc">GLFW-based mesh viewer.</div><div class="ttdef"><b>Definition</b> MRViewer.h:71</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga0034f6f91ff28edcc1b9e1ea43825698"><div class="ttname"><a href="group__GeneralGroup.html#ga0034f6f91ff28edcc1b9e1ea43825698">MR::KeyDownListener::onKeyDown_</a></div><div class="ttdeci">virtual bool onKeyDown_(int key, int modifier)=0</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga05affc1a2bebb67a6d5111e3a324a96b"><div class="ttname"><a href="group__GeneralGroup.html#ga05affc1a2bebb67a6d5111e3a324a96b">MR::PostDrawListener::postDraw_</a></div><div class="ttdeci">virtual void postDraw_()=0</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga05b541f48e7534ed7df5e11043b82bca"><div class="ttname"><a href="group__GeneralGroup.html#ga05b541f48e7534ed7df5e11043b82bca">MR::SpaceMouseDownListener::~SpaceMouseDownListener</a></div><div class="ttdeci">virtual ~SpaceMouseDownListener()=default</div></div>
@@ -800,7 +793,7 @@ $(function(){initNavTree('MRViewerEventsListener_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gafd65fe47b0dc9436298e754ae7033eba"><div class="ttname"><a href="group__GeneralGroup.html#gafd65fe47b0dc9436298e754ae7033eba">MR::KeyRepeatListener::~KeyRepeatListener</a></div><div class="ttdeci">virtual ~KeyRepeatListener()=default</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gafe082892826d9c3fe604a038f3509c70"><div class="ttname"><a href="group__GeneralGroup.html#gafe082892826d9c3fe604a038f3509c70">MR::ConnectionHolder::disconnect</a></div><div class="ttdeci">virtual void disconnect()</div><div class="ttdef"><b>Definition</b> MRViewerEventsListener.h:25</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gga24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03"><div class="ttname"><a href="group__GeneralGroup.html#gga24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03">MR::FeaturePropertyKind::angle</a></div><div class="ttdeci">@ angle</div><div class="ttdoc">Direction, normally Vector3f.</div><div class="ttdef"><b>Definition</b> MRFeatureObject.h:26</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1CharPressedListener_html"><div class="ttname"><a href="structMR_1_1CharPressedListener.html">MR::CharPressedListener</a></div><div class="ttdef"><b>Definition</b> MRViewerEventsListener.h:126</div></div>
 <div class="ttc" id="astructMR_1_1ConnectionHolder_html"><div class="ttname"><a href="structMR_1_1ConnectionHolder.html">MR::ConnectionHolder</a></div><div class="ttdef"><b>Definition</b> MRViewerEventsListener.h:23</div></div>
 <div class="ttc" id="astructMR_1_1CursorEntranceListener_html"><div class="ttname"><a href="structMR_1_1CursorEntranceListener.html">MR::CursorEntranceListener</a></div><div class="ttdoc">class to subscribe on CursorEntranceSingal</div><div class="ttdef"><b>Definition</b> MRViewerEventsListener.h:410</div></div>

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -190,7 +183,22 @@ Public Member Functions</h2></td></tr>
 <li>Initialize <a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> for the region being deformed, here region properties are remembered.</li>
 <li>Change positions of some vertices within the region and call fixVertex for them.</li>
 <li>Optionally call <a class="el" href="group__GeneralGroup.html#gaed49a7865f3de5ad169b768e09d8d91a" title="if you manually call this method after initialization and fixing vertices then next apply call will b...">updateSolver()</a></li>
-<li>Call <a class="el" href="group__GeneralGroup.html#ga13fee62f9942597d173e9f43fe75c60e">apply()</a> to change the remaining vertices within the region Then steps 1-4 or 2-4 can be repeated. <div class="fragment"></div><!-- fragment --> </li>
+<li>Call <a class="el" href="group__GeneralGroup.html#ga13fee62f9942597d173e9f43fe75c60e">apply()</a> to change the remaining vertices within the region Then steps 1-4 or 2-4 can be repeated. <div class="fragment"><div class="line">    <span class="comment">// Construct deformer on the mesh vertices</span></div>
+<div class="line">    <a class="code hl_class" href="classMR_1_1Laplacian.html">MR::Laplacian</a> lDeformer( mesh );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Initialize laplacian</span></div>
+<div class="line">    lDeformer.init( region, <a class="code hl_enumvalue" href="group__GeneralGroup.html#gga5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">MR::EdgeWeights::Cotan</a>, <a class="code hl_enumvalue" href="group__GeneralGroup.html#ggada281bbc8bccd66b01be1b6d2b99e3cda1382ee05d86c5b607841935eeb648e06">MR::VertexMass::NeiArea</a> );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Fix the anchor vertices in the required position</span></div>
+<div class="line">    lDeformer.fixVertex( v0, newPos0 );</div>
+<div class="line">    lDeformer.fixVertex( v1, newPos1 );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Move the free vertices according to the anchor ones</span></div>
+<div class="line">    lDeformer.apply();</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Invalidate the mesh because of the external vertex changes</span></div>
+<div class="line">    mesh.<a class="code hl_function" href="structMR_1_1Mesh.html#a47afb5a6c704c55128ab6c07680ebaf4">invalidateCaches</a>();</div>
+</div><!-- fragment --> </li>
 </ol>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>MRMesh/<a class="el" href="MRLaplacian_8h_source.html">MRLaplacian.h</a></li>

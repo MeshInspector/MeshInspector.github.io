@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,7 +133,6 @@ $(function(){initNavTree('classmrmeshpy_1_1FanRecord.html','','classmrmeshpy_1_1
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1FanRecord-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.FanRecord Class Reference</div></div>
 </div><!--header-->
@@ -152,34 +144,37 @@ $(function(){initNavTree('classmrmeshpy_1_1FanRecord.html','','classmrmeshpy_1_1
  <div class="center">
   <img src="classmrmeshpy_1_1FanRecord.png" usemap="#mrmeshpy_2EFanRecord_map" alt=""/>
   <map id="mrmeshpy_2EFanRecord_map" name="mrmeshpy_2EFanRecord_map">
-<area href="classmrmeshpy_1_1FanRecordWithCenter.html" alt="mrmeshpy.FanRecordWithCenter" shape="rect" coords="0,56,198,80"/>
+<area href="classmrmeshpy_1_1ConstFanRecord.html" alt="mrmeshpy.ConstFanRecord" shape="rect" coords="0,0,198,24"/>
+<area href="classmrmeshpy_1_1FanRecordWithCenter.html" alt="mrmeshpy.FanRecordWithCenter" shape="rect" coords="0,112,198,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aca622246e292f6afeadbf522c475d702" id="r_aca622246e292f6afeadbf522c475d702"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca622246e292f6afeadbf522c475d702">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> b=..., int fn=0)</td></tr>
-<tr class="memitem:af1f779080e147903ecd5f71cd57eb365" id="r_af1f779080e147903ecd5f71cd57eb365"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1f779080e147903ecd5f71cd57eb365">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1FanRecord.html">FanRecord</a> arg0)</td></tr>
+<tr class="memitem:a4be6b6468b1c8fad4e6fdb14f088d547" id="r_a4be6b6468b1c8fad4e6fdb14f088d547"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4be6b6468b1c8fad4e6fdb14f088d547">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVertId.html">ConstVertId</a> b=..., int fn=0)</td></tr>
+<tr class="memitem:ac54b6560793a3b44703024bfbc5cef14" id="r_ac54b6560793a3b44703024bfbc5cef14"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac54b6560793a3b44703024bfbc5cef14">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFanRecord.html">ConstFanRecord</a> arg0)</td></tr>
+<tr class="memitem:ab31c41a66f80a9f0d9f214db74dfef60" id="r_ab31c41a66f80a9f0d9f214db74dfef60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FanRecord.html">FanRecord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab31c41a66f80a9f0d9f214db74dfef60">assign</a> (self, <a class="el" href="classmrmeshpy_1_1ConstFanRecord.html">ConstFanRecord</a> other)</td></tr>
 <tr class="memitem:af3c748acb254096045371f2eb3d77ca9" id="r_af3c748acb254096045371f2eb3d77ca9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3c748acb254096045371f2eb3d77ca9">border</a> (self)</td></tr>
-<tr class="memitem:a3ae5fc4371c4bf1251b3a1f43e400111" id="r_a3ae5fc4371c4bf1251b3a1f43e400111"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ae5fc4371c4bf1251b3a1f43e400111">border</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> arg1)</td></tr>
+<tr class="memitem:a73769f8f03a891ffed95d4c05f327f5f" id="r_a73769f8f03a891ffed95d4c05f327f5f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73769f8f03a891ffed95d4c05f327f5f">border</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVertId.html">ConstVertId</a> arg1)</td></tr>
 <tr class="memitem:af3479836283572f672441b41ff52a61d" id="r_af3479836283572f672441b41ff52a61d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3479836283572f672441b41ff52a61d">firstNei</a> (self)</td></tr>
 <tr class="memitem:a2b405caee53e6f502f1b28be51104a21" id="r_a2b405caee53e6f502f1b28be51104a21"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b405caee53e6f502f1b28be51104a21">firstNei</a> (self, int arg1)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstFanRecord"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstFanRecord')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstFanRecord.html">mrmeshpy.ConstFanRecord</a></td></tr>
+<tr class="memitem:a5cb4919884ec2133a0bf9276b0206791 inherit pub_methods_classmrmeshpy_1_1ConstFanRecord" id="r_a5cb4919884ec2133a0bf9276b0206791"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFanRecord.html#a5cb4919884ec2133a0bf9276b0206791">__init__</a> (self, *args, **kwargs)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af1a72eb8481cf1719e4b70557895d60b" id="r_af1a72eb8481cf1719e4b70557895d60b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1a72eb8481cf1719e4b70557895d60b">__init__</a> (*args, **kwargs)</td></tr>
 <tr class="memitem:af1a72eb8481cf1719e4b70557895d60b" id="r_af1a72eb8481cf1719e4b70557895d60b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1a72eb8481cf1719e4b70557895d60b">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a80d77f3dd50bec819e12774b76678722" id="r_a80d77f3dd50bec819e12774b76678722"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FanRecord.html">FanRecord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80d77f3dd50bec819e12774b76678722">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a80d77f3dd50bec819e12774b76678722" id="r_a80d77f3dd50bec819e12774b76678722"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FanRecord.html">FanRecord</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80d77f3dd50bec819e12774b76678722">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a01397fe7bd6b716bf0a2e2f8dfb32b53" id="r_a01397fe7bd6b716bf0a2e2f8dfb32b53"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01397fe7bd6b716bf0a2e2f8dfb32b53">_offsetof_border</a> = 0</td></tr>
-<tr class="memitem:a16351090b37f8051fe0018f234793ff7" id="r_a16351090b37f8051fe0018f234793ff7"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16351090b37f8051fe0018f234793ff7">_offsetof_firstNei</a> = 4</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_static_attribs_classmrmeshpy_1_1ConstFanRecord"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classmrmeshpy_1_1ConstFanRecord')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Attributes inherited from <a class="el" href="classmrmeshpy_1_1ConstFanRecord.html">mrmeshpy.ConstFanRecord</a></td></tr>
+<tr class="memitem:ad198c56a5ad47f6aa0daeeed55707c14 inherit pro_static_attribs_classmrmeshpy_1_1ConstFanRecord" id="r_ad198c56a5ad47f6aa0daeeed55707c14"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFanRecord.html#ad198c56a5ad47f6aa0daeeed55707c14">_offsetof_border</a> = 0</td></tr>
+<tr class="memitem:acb43fe27911e4bac3c7ea85941049349 inherit pro_static_attribs_classmrmeshpy_1_1ConstFanRecord" id="r_acb43fe27911e4bac3c7ea85941049349"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstFanRecord.html#acb43fe27911e4bac3c7ea85941049349">_offsetof_firstNei</a> = 4</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::FanRecord
-Aliases:  Vector_FanRecord_VertId.const_reference, Vector_FanRecord_VertId.reference, Vector_FanRecord_VertId.value_type, std_vector_FanRecord_const_reference, std_vector_FanRecord_reference, std_vector_FanRecord_value_type
+Aliases:  Vector_FanRecord_VertId.const_pointer, Vector_FanRecord_VertId.const_reference, Vector_FanRecord_VertId.pointer, Vector_FanRecord_VertId.reference, Vector_FanRecord_VertId.value_type, std_vector_FanRecord_Allocator_FanRecord_const_pointer, std_vector_FanRecord_Allocator_FanRecord_const_reference, std_vector_FanRecord_Allocator_FanRecord_pointer, std_vector_FanRecord_Allocator_FanRecord_reference, std_vector_FanRecord_Allocator_FanRecord_value_type
 
 describes one fan of triangles around a point excluding the point
 </pre> </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -241,8 +236,8 @@ describes one fan of triangles around a point excluding the point
 
 </div>
 </div>
-<a id="aca622246e292f6afeadbf522c475d702" name="aca622246e292f6afeadbf522c475d702"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca622246e292f6afeadbf522c475d702">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+<a id="a4be6b6468b1c8fad4e6fdb14f088d547" name="a4be6b6468b1c8fad4e6fdb14f088d547"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4be6b6468b1c8fad4e6fdb14f088d547">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -255,7 +250,7 @@ describes one fan of triangles around a point excluding the point
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> </td>          <td class="paramname"><span class="paramname"><em>b</em></span><span class="paramdefsep"> = </span><span class="paramdefval">...</span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVertId.html">ConstVertId</a> </td>          <td class="paramname"><span class="paramname"><em>b</em></span><span class="paramdefsep"> = </span><span class="paramdefval">...</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -267,8 +262,8 @@ describes one fan of triangles around a point excluding the point
 
 </div>
 </div>
-<a id="af1f779080e147903ecd5f71cd57eb365" name="af1f779080e147903ecd5f71cd57eb365"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1f779080e147903ecd5f71cd57eb365">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
+<a id="ac54b6560793a3b44703024bfbc5cef14" name="ac54b6560793a3b44703024bfbc5cef14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac54b6560793a3b44703024bfbc5cef14">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -281,7 +276,7 @@ describes one fan of triangles around a point excluding the point
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FanRecord.html">FanRecord</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFanRecord.html">ConstFanRecord</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -290,6 +285,29 @@ describes one fan of triangles around a point excluding the point
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ab31c41a66f80a9f0d9f214db74dfef60" name="ab31c41a66f80a9f0d9f214db74dfef60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab31c41a66f80a9f0d9f214db74dfef60">&#9670;&#160;</a></span>assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FanRecord.html">FanRecord</a> mrmeshpy.FanRecord.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstFanRecord.html">ConstFanRecord</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1FanRecordWithCenter.html#adc7484a1ef00a015f2633d833f03b1f8">mrmeshpy.FanRecordWithCenter</a>.</p>
+
+</div>
+</div>
 <a id="af3c748acb254096045371f2eb3d77ca9" name="af3c748acb254096045371f2eb3d77ca9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3c748acb254096045371f2eb3d77ca9">&#9670;&#160;</a></span>border() <span class="overload">[1/2]</span></h2>
 
@@ -307,10 +325,12 @@ describes one fan of triangles around a point excluding the point
 <pre class="fragment">first border edge (invalid if the center point is not on the boundary);
 triangle associated with this point is absent
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstFanRecord.html#a61daa209f5648af4e4b45677aca087cd">mrmeshpy.ConstFanRecord</a>.</p>
+
 </div>
 </div>
-<a id="a3ae5fc4371c4bf1251b3a1f43e400111" name="a3ae5fc4371c4bf1251b3a1f43e400111"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ae5fc4371c4bf1251b3a1f43e400111">&#9670;&#160;</a></span>border() <span class="overload">[2/2]</span></h2>
+<a id="a73769f8f03a891ffed95d4c05f327f5f" name="a73769f8f03a891ffed95d4c05f327f5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73769f8f03a891ffed95d4c05f327f5f">&#9670;&#160;</a></span>border() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -323,10 +343,14 @@ triangle associated with this point is absent
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVertId.html">ConstVertId</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">first border edge (invalid if the center point is not on the boundary);
+triangle associated with this point is absent
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstFanRecord.html#a61daa209f5648af4e4b45677aca087cd">mrmeshpy.ConstFanRecord</a>.</p>
 
 </div>
 </div>
@@ -346,6 +370,8 @@ triangle associated with this point is absent
 </div><div class="memdoc">
 <pre class="fragment">the position of first neigbor in LocalTriangulations::neighbours
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstFanRecord.html#a4d6f087864afa4ae03b9b799289e65f0">mrmeshpy.ConstFanRecord</a>.</p>
+
 </div>
 </div>
 <a id="a2b405caee53e6f502f1b28be51104a21" name="a2b405caee53e6f502f1b28be51104a21"></a>
@@ -366,113 +392,9 @@ triangle associated with this point is absent
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a80d77f3dd50bec819e12774b76678722" name="a80d77f3dd50bec819e12774b76678722"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80d77f3dd50bec819e12774b76678722">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FanRecord.html">FanRecord</a> mrmeshpy.FanRecord.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1FanRecordWithCenter.html#ad2405ab24621d31eae35c8b16f6a7fe3">mrmeshpy.FanRecordWithCenter</a>, and <a class="el" href="classmrmeshpy_1_1FanRecordWithCenter.html#ad2405ab24621d31eae35c8b16f6a7fe3">mrmeshpy.FanRecordWithCenter</a>.</p>
-
-</div>
-</div>
-<a id="a80d77f3dd50bec819e12774b76678722" name="a80d77f3dd50bec819e12774b76678722"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80d77f3dd50bec819e12774b76678722">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FanRecord.html">FanRecord</a> mrmeshpy.FanRecord.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1FanRecordWithCenter.html#ad2405ab24621d31eae35c8b16f6a7fe3">mrmeshpy.FanRecordWithCenter</a>, and <a class="el" href="classmrmeshpy_1_1FanRecordWithCenter.html#ad2405ab24621d31eae35c8b16f6a7fe3">mrmeshpy.FanRecordWithCenter</a>.</p>
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a01397fe7bd6b716bf0a2e2f8dfb32b53" name="a01397fe7bd6b716bf0a2e2f8dfb32b53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01397fe7bd6b716bf0a2e2f8dfb32b53">&#9670;&#160;</a></span>_offsetof_border</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.FanRecord._offsetof_border = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a16351090b37f8051fe0018f234793ff7" name="a16351090b37f8051fe0018f234793ff7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16351090b37f8051fe0018f234793ff7">&#9670;&#160;</a></span>_offsetof_firstNei</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.FanRecord._offsetof_firstNei = 4</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<pre class="fragment">the position of first neigbor in LocalTriangulations::neighbours
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstFanRecord.html#a4d6f087864afa4ae03b9b799289e65f0">mrmeshpy.ConstFanRecord</a>.</p>
 
 </div>
 </div>

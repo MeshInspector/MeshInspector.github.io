@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -170,6 +163,7 @@ Classes</h2></td></tr>
 Public Types</h2></td></tr>
 <tr class="memitem:a109b72fb8e0ab671e33192b933615329" id="r_a109b72fb8e0ab671e33192b933615329"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a109b72fb8e0ab671e33192b933615329">Method</a> : int { <a class="el" href="#a109b72fb8e0ab671e33192b933615329af2901a893d204f609b9d6d6b11a481b4">Relax</a> = 0
 , <a class="el" href="#a109b72fb8e0ab671e33192b933615329a1d46b2d08baa4710a1c2e888868287f7">CutAndFill</a> = 1
+, <a class="el" href="#a109b72fb8e0ab671e33192b933615329a0c18fa34d12c5edabfd43e2380aa0f2b">SelfBoolean</a> = 2
  }</td></tr>
 <tr class="memdesc:a109b72fb8e0ab671e33192b933615329"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fix method.  <a href="#a109b72fb8e0ab671e33192b933615329">More...</a><br /></td></tr>
 </table><table class="memberdecls">
@@ -178,8 +172,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ce5ca76288f7b06c8b23e1b0acd283b" id="r_a6ce5ca76288f7b06c8b23e1b0acd283b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ce5ca76288f7b06c8b23e1b0acd283b">Dispose</a> ()</td></tr>
 <tr class="memitem:aa8ca564119d95d55ddb23b2c0e05c914" id="r_aa8ca564119d95d55ddb23b2c0e05c914"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8ca564119d95d55ddb23b2c0e05c914">Const_Settings</a> ()</td></tr>
 <tr class="memdesc:aa8ca564119d95d55ddb23b2c0e05c914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
-<tr class="memitem:ab68000106a35cfb3cec434e43d5976bb" id="r_ab68000106a35cfb3cec434e43d5976bb"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab68000106a35cfb3cec434e43d5976bb">Const_Settings</a> (bool <a class="el" href="#a6ce9c38cfaf0d47eaab54400037b90a4">touchIsIntersection</a>, <a class="el" href="#a109b72fb8e0ab671e33192b933615329">MR.SelfIntersections.Settings.Method</a> <a class="el" href="#a07a3cbcabeffce858834a718b9eca817">method</a>, int <a class="el" href="#abf9c767ae2acd3bffe639b905d59fea3">relaxIterations</a>, int <a class="el" href="#a59884a276fd64ee99e23d490eeb35722">maxExpand</a>, float <a class="el" href="#a1d2e62349caed2d7b284aa3de24b01ce">subdivideEdgeLen</a>, bool <a class="el" href="#ac96dea5757c59d8f080bac7dee3d2506">mimicPatch</a>, MR.Std._ByValue_Function_Bool_From_Float <a class="el" href="#a974e641eb7371fc3357134fd1c77c7f3">callback</a>)</td></tr>
-<tr class="memdesc:ab68000106a35cfb3cec434e43d5976bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <span class="tt"><a class="el" href="classMR_1_1SelfIntersections_1_1Settings.html" title="Setting set for mesh self-intersections fix Generated from class MR.SelfIntersections....">MR.SelfIntersections.Settings</a></span> elementwise.  <br /></td></tr>
+<tr class="memitem:acc871fdd7067d9f12bd4ba20d971ab0c" id="r_acc871fdd7067d9f12bd4ba20d971ab0c"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc871fdd7067d9f12bd4ba20d971ab0c">Const_Settings</a> (bool <a class="el" href="#a6ce9c38cfaf0d47eaab54400037b90a4">touchIsIntersection</a>, <a class="el" href="#a109b72fb8e0ab671e33192b933615329">MR.SelfIntersections.Settings.Method</a> <a class="el" href="#a07a3cbcabeffce858834a718b9eca817">method</a>, int <a class="el" href="#abf9c767ae2acd3bffe639b905d59fea3">relaxIterations</a>, int <a class="el" href="#a59884a276fd64ee99e23d490eeb35722">maxExpand</a>, float <a class="el" href="#a1d2e62349caed2d7b284aa3de24b01ce">subdivideEdgeLen</a>, bool <a class="el" href="#ac96dea5757c59d8f080bac7dee3d2506">mimicPatch</a>, MR.Std._ByValue_Function_Bool_From_Float <a class="el" href="#a974e641eb7371fc3357134fd1c77c7f3">callback</a>, <a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>? <a class="el" href="#a0cf3ec32c92f353016d72fd09c47b244">new2Old</a>)</td></tr>
+<tr class="memdesc:acc871fdd7067d9f12bd4ba20d971ab0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <span class="tt"><a class="el" href="classMR_1_1SelfIntersections_1_1Settings.html" title="Setting set for mesh self-intersections fix Generated from class MR.SelfIntersections....">MR.SelfIntersections.Settings</a></span> elementwise.  <br /></td></tr>
 <tr class="memitem:a03a9af6c03825d95afcbb0c28c2df4e7" id="r_a03a9af6c03825d95afcbb0c28c2df4e7"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03a9af6c03825d95afcbb0c28c2df4e7">Const_Settings</a> (MR.SelfIntersections._ByValue_Settings _other)</td></tr>
 <tr class="memdesc:a03a9af6c03825d95afcbb0c28c2df4e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1SelfIntersections_1_1Settings.html#a33587e0f3e2a390c18b3621bd5978499" title="Constructs an empty (default-constructed) instance.">MR.SelfIntersections.Settings.Settings</a></span>.  <br /></td></tr>
 <tr class="memitem:ac96e39aa9031881b400d5a1d73f2676e" id="r_ac96e39aa9031881b400d5a1d73f2676e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac96e39aa9031881b400d5a1d73f2676e">Const_Settings</a> (<a class="el" href="classMR_1_1SelfIntersections_1_1Const__Settings.html">Const_Settings</a> _other)</td></tr>
@@ -199,6 +193,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a920ed38c92e5715ed9baa82931334b12" id="r_a920ed38c92e5715ed9baa82931334b12"><td class="memItemLeft" align="right" valign="top">unsafe int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a920ed38c92e5715ed9baa82931334b12">__ref_storage_maxExpand</a></td></tr>
 <tr class="memitem:afb3ae98d7886ab1b9deb236b679c8243" id="r_afb3ae98d7886ab1b9deb236b679c8243"><td class="memItemLeft" align="right" valign="top">unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb3ae98d7886ab1b9deb236b679c8243">__ref_storage_subdivideEdgeLen</a></td></tr>
 <tr class="memitem:ac4f8f720b3ca2238a5bbfc8c555f399e" id="r_ac4f8f720b3ca2238a5bbfc8c555f399e"><td class="memItemLeft" align="right" valign="top">unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4f8f720b3ca2238a5bbfc8c555f399e">__ref_storage_mimicPatch</a></td></tr>
+<tr class="memitem:a88914ddd99dee81e78ea18e5fd9a1595" id="r_a88914ddd99dee81e78ea18e5fd9a1595"><td class="memItemLeft" align="right" valign="top">unsafe MR.FaceMap._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88914ddd99dee81e78ea18e5fd9a1595">__ptr_storage_new2Old</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -215,6 +210,8 @@ Properties</h2></td></tr>
 <tr class="memdesc:ac96dea5757c59d8f080bac7dee3d2506"><td class="mdescLeft">&#160;</td><td class="mdescRight">trying to stay close to initial surface when patching  <br /></td></tr>
 <tr class="memitem:a974e641eb7371fc3357134fd1c77c7f3" id="r_a974e641eb7371fc3357134fd1c77c7f3"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Function_Bool_From_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a974e641eb7371fc3357134fd1c77c7f3">callback</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a974e641eb7371fc3357134fd1c77c7f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback function.  <br /></td></tr>
+<tr class="memitem:a0cf3ec32c92f353016d72fd09c47b244" id="r_a0cf3ec32c92f353016d72fd09c47b244"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1FaceMap.html">FaceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cf3ec32c92f353016d72fd09c47b244">new2Old</a><code> [get]</code></td></tr>
+<tr class="memdesc:a0cf3ec32c92f353016d72fd09c47b244"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output of <span class="tt"><a class="el" href="#a109b72fb8e0ab671e33192b933615329a0c18fa34d12c5edabfd43e2380aa0f2b" title="Cut the mesh along the exact contours of its self-intersections (see selfBoolean) and keep only the l...">Method.SelfBoolean</a></span>: for every face of the fixed mesh, the face of the original mesh that it is (a part of); not set by the other methods  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Setting set for mesh self-intersections fix Generated from class <span class="tt"><a class="el" href="classMR_1_1SelfIntersections_1_1Settings.html" title="Setting set for mesh self-intersections fix Generated from class MR.SelfIntersections....">MR.SelfIntersections.Settings</a></span>. This is the const half of the class. </p>
@@ -236,6 +233,8 @@ Properties</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a109b72fb8e0ab671e33192b933615329af2901a893d204f609b9d6d6b11a481b4" name="a109b72fb8e0ab671e33192b933615329af2901a893d204f609b9d6d6b11a481b4"></a>Relax&#160;</td><td class="fielddoc"><p>Relax mesh around self-intersections. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a109b72fb8e0ab671e33192b933615329a1d46b2d08baa4710a1c2e888868287f7" name="a109b72fb8e0ab671e33192b933615329a1d46b2d08baa4710a1c2e888868287f7"></a>CutAndFill&#160;</td><td class="fielddoc"><p>Cut and re-fill regions around self-intersections (may fall back to <span class="tt">Relax</span>) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a109b72fb8e0ab671e33192b933615329a0c18fa34d12c5edabfd43e2380aa0f2b" name="a109b72fb8e0ab671e33192b933615329a0c18fa34d12c5edabfd43e2380aa0f2b"></a>SelfBoolean&#160;</td><td class="fielddoc"><p>Cut the mesh along the exact contours of its self-intersections (see selfBoolean) and keep only the largest by area part of every connected component; colliding components get united, and the holes that the contours reach are closed for the cut. The cut is made once and can leave degenerate faces and tiny self-intersections: call fixMeshDegeneracies after it, and repeat both if needed. Of the other settings only <span class="tt">callback</span> and <span class="tt">new2Old</span> are used. </p>
 </td></tr>
 </table>
 
@@ -269,8 +268,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ab68000106a35cfb3cec434e43d5976bb" name="ab68000106a35cfb3cec434e43d5976bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab68000106a35cfb3cec434e43d5976bb">&#9670;&#160;</a></span>Const_Settings() <span class="overload">[2/5]</span></h2>
+<a id="acc871fdd7067d9f12bd4ba20d971ab0c" name="acc871fdd7067d9f12bd4ba20d971ab0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc871fdd7067d9f12bd4ba20d971ab0c">&#9670;&#160;</a></span>Const_Settings() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -311,7 +310,12 @@ Properties</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std._ByValue_Function_Bool_From_Float</td>          <td class="paramname"><span class="paramname"><em>callback</em></span>&#160;)</td>
+          <td class="paramtype">MR.Std._ByValue_Function_Bool_From_Float</td>          <td class="paramname"><span class="paramname"><em>callback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>?</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -458,6 +462,28 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a88914ddd99dee81e78ea18e5fd9a1595" name="a88914ddd99dee81e78ea18e5fd9a1595"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88914ddd99dee81e78ea18e5fd9a1595">&#9670;&#160;</a></span>__ptr_storage_new2Old</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.FaceMap._Underlying** MR.SelfIntersections.Const_Settings.__ptr_storage_new2Old</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a920ed38c92e5715ed9baa82931334b12" name="a920ed38c92e5715ed9baa82931334b12"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a920ed38c92e5715ed9baa82931334b12">&#9670;&#160;</a></span>__ref_storage_maxExpand</h2>
 
@@ -682,6 +708,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>trying to stay close to initial surface when patching </p>
+
+</div>
+</div>
+<a id="a0cf3ec32c92f353016d72fd09c47b244" name="a0cf3ec32c92f353016d72fd09c47b244"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cf3ec32c92f353016d72fd09c47b244">&#9670;&#160;</a></span>new2Old</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.? <a class="el" href="classMR_1_1FaceMap.html">FaceMap</a> MR.SelfIntersections.Const_Settings.new2Old</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>optional output of <span class="tt"><a class="el" href="#a109b72fb8e0ab671e33192b933615329a0c18fa34d12c5edabfd43e2380aa0f2b" title="Cut the mesh along the exact contours of its self-intersections (see selfBoolean) and keep only the l...">Method.SelfBoolean</a></span>: for every face of the fixed mesh, the face of the original mesh that it is (a part of); not set by the other methods </p>
 
 </div>
 </div>

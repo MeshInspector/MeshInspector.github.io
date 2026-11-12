@@ -1,9 +1,10 @@
 var classmrmeshpy_1_1AlphaShapeStats =
 [
     [ "__init__", "classmrmeshpy_1_1AlphaShapeStats.html#a678e5d205435b3140ca57f3250a332f5", null ],
-    [ "__init__", "classmrmeshpy_1_1AlphaShapeStats.html#a09c11d903329f54614b9de7f4d6fc646", null ],
+    [ "__init__", "classmrmeshpy_1_1AlphaShapeStats.html#ac4eed2e500236f80047a407c00d6cba5", null ],
     [ "__init__", "classmrmeshpy_1_1AlphaShapeStats.html#ae021aa310db59be42bbb67ee4881530f", null ],
-    [ "__iadd__", "classmrmeshpy_1_1AlphaShapeStats.html#a9571c6e218b2a33dadd02f723a1699ba", null ],
+    [ "__iadd__", "classmrmeshpy_1_1AlphaShapeStats.html#a6906faceeac8d8ce149243b51463b076", null ],
+    [ "assign", "classmrmeshpy_1_1AlphaShapeStats.html#ab84bd1bad031d2111dbd5b2a52e31aee", null ],
     [ "collectedNeis", "classmrmeshpy_1_1AlphaShapeStats.html#aa99749b9359241c35d3933755939c747", null ],
     [ "collectedNeis", "classmrmeshpy_1_1AlphaShapeStats.html#ada3a6ed6c775357b0f6aa46296ae5b05", null ],
     [ "consideredTris", "classmrmeshpy_1_1AlphaShapeStats.html#a26e0412a4e4c183ca38e30d61822a6b6", null ],

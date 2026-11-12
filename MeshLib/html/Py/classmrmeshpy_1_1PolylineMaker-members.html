@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -145,12 +138,14 @@ $(function(){initNavTree('classmrmeshpy_1_1PolylineMaker.html','',''); });
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html#a64666cedf040ddef264ca7b549a7cd77">__init__</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html">mrmeshpy.PolylineMaker</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html#ae7ae428a5717310d98a3a14fdac1f9c6">__init__</a>(self, PolylineTopology t)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html">mrmeshpy.PolylineMaker</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html#a3efac157689305769548fa01f3593187">__init__</a>(self, PolylineMaker arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html">mrmeshpy.PolylineMaker</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html#ab6443a7d4028c92f385e6104b2ecebd4">_offsetof_topology</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html">mrmeshpy.PolylineMaker</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html#a3edbb5fcbed579a2d862a86b7b810e6e">__init__</a>(self, ConstPolylineMaker arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html">mrmeshpy.PolylineMaker</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPolylineMaker.html#a8cdd61ba0ccaacca09399ca52581165d">_offsetof_topology</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstPolylineMaker.html">mrmeshpy.ConstPolylineMaker</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html#acf03a01a14c17c980242a2ddfd602939">close</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html">mrmeshpy.PolylineMaker</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html#a243d9bed6b0929024c86295cdedf3b8a">finishOpen</a>(self, VertId v)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html">mrmeshpy.PolylineMaker</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html#a9f1bf7f3cefc70f554bb63bd8730cfd8">proceed</a>(self, VertId v)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html">mrmeshpy.PolylineMaker</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html#adeb1407f3580cfe2c83a8f7cc8a21cb0">start</a>(self, VertId v)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html">mrmeshpy.PolylineMaker</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html#a8e22434995fa981e25d7a23e1ae36835">finishOpen</a>(self, ConstVertId v)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html">mrmeshpy.PolylineMaker</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html#a3b453cd9d42a5afc28e9c8a955b332b4">proceed</a>(self, ConstVertId v)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html">mrmeshpy.PolylineMaker</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html#a4ffd7266cd96e52956540bc8ba91a1fb">start</a>(self, ConstVertId v)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html">mrmeshpy.PolylineMaker</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html#ac3049a9fbe0d82ff10dcd41685602f48">topology</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html">mrmeshpy.PolylineMaker</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html#abd17fca67412baf814ce4a5ac3a7c95b">topology</a>(self, ConstPolylineTopology arg1)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1PolylineMaker.html">mrmeshpy.PolylineMaker</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

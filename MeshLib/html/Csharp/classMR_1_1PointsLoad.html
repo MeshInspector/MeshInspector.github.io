@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -184,6 +177,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a41482212997d8c721ae8f497c4b81c35"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .ctm file Generated from function <span class="tt"><a class="el" href="#a41482212997d8c721ae8f497c4b81c35" title="loads from .ctm file Generated from function MR.PointsLoad.fromCtm. Parameter settings defaults to {}...">MR.PointsLoad.fromCtm</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a44b48011a7c016b4d451251954b6e56b" id="r_a44b48011a7c016b4d451251954b6e56b"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44b48011a7c016b4d451251954b6e56b">fromCtm</a> (MR.Std.Istream in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
 <tr class="memdesc:a44b48011a7c016b4d451251954b6e56b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a41482212997d8c721ae8f497c4b81c35" title="loads from .ctm file Generated from function MR.PointsLoad.fromCtm. Parameter settings defaults to {}...">MR.PointsLoad.fromCtm</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:a38a2afd95fdcf04ff8217d83555a4e14" id="r_a38a2afd95fdcf04ff8217d83555a4e14"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38a2afd95fdcf04ff8217d83555a4e14">fromDrc</a> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a38a2afd95fdcf04ff8217d83555a4e14"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from Google Draco .drc file; if the file contains a mesh, then its points are returned without triangles and without merging Generated from function <span class="tt"><a class="el" href="#a38a2afd95fdcf04ff8217d83555a4e14" title="loads from Google Draco .drc file; if the file contains a mesh, then its points are returned without ...">MR.PointsLoad.fromDrc</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:af9d9adce8c94041255b160232af39bc4" id="r_af9d9adce8c94041255b160232af39bc4"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9d9adce8c94041255b160232af39bc4">fromDrc</a> (MR.Std.Istream in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:af9d9adce8c94041255b160232af39bc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a38a2afd95fdcf04ff8217d83555a4e14" title="loads from Google Draco .drc file; if the file contains a mesh, then its points are returned without ...">MR.PointsLoad.fromDrc</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a7e527512ac9d84f26b1ef9b1ee6c611a" id="r_a7e527512ac9d84f26b1ef9b1ee6c611a"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRPointsLoadNamedCloud&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e527512ac9d84f26b1ef9b1ee6c611a">fromSceneE57File</a> (string file, <a class="el" href="classMR_1_1PointsLoad_1_1Const__E57LoadSettings.html">MR.PointsLoad.Const_E57LoadSettings</a>? settings=null)</td></tr>
 <tr class="memdesc:a7e527512ac9d84f26b1ef9b1ee6c611a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a7e527512ac9d84f26b1ef9b1ee6c611a" title="Generated from function MR.PointsLoad.fromSceneE57File. Parameter settings defaults to {}...">MR.PointsLoad.fromSceneE57File</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:ad5bec718b73ec3b68699a6fe0aaa904a" id="r_ad5bec718b73ec3b68699a6fe0aaa904a"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5bec718b73ec3b68699a6fe0aaa904a">fromE57</a> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
@@ -197,7 +194,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a09185b3b04fb14e9f680304272dc158c" id="r_a09185b3b04fb14e9f680304272dc158c"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09185b3b04fb14e9f680304272dc158c">fromLas</a> (MR.Std.Istream in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
 <tr class="memdesc:a09185b3b04fb14e9f680304272dc158c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a58a5f3fd2410f34afee84d233f757a2d" title="loads from .las file Generated from function MR.PointsLoad.fromLas. Parameter settings defaults to {}...">MR.PointsLoad.fromLas</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:abbedc3ac1d6fea945d7bb9d8b5e0c11b" id="r_abbedc3ac1d6fea945d7bb9d8b5e0c11b"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbedc3ac1d6fea945d7bb9d8b5e0c11b">fromMultiScanFolder</a> (string folder, <a class="el" href="classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings.html">MR.PointsLoad.Const_MultiScanLoadSettings</a>? settings=null, MR.Std.Const_Function_Bool_From_Float? callback=null)</td></tr>
-<tr class="memdesc:abbedc3ac1d6fea945d7bb9d8b5e0c11b"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads and merges a point cloud from a folder with the results of a multi-scan capture: the folder is expected to contain pairs of files named &lt;posePrefix&gt;NNN&lt;poseExt&gt; and &lt;scanPrefix&gt;NNN.ply with matching indices NNN (the number of pairs is arbitrary); each transformation file stores a 4x4 row-major rigid transformation, which is applied to the points (and normals) loaded from the .ply file with the same index;  <br /></td></tr>
+<tr class="memdesc:abbedc3ac1d6fea945d7bb9d8b5e0c11b"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads and merges a point cloud from a folder with the results of a multi-scan capture: the folder is expected to contain pairs of files named <span class="tt">&amp;lt;posePrefix&amp;gt;NNN&amp;lt;poseExt&amp;gt;</span> and <span class="tt">&amp;lt;scanPrefix&amp;gt;NNN.ply</span> with matching indices NNN (the number of pairs is arbitrary); each transformation file stores a 4x4 row-major rigid transformation, which is applied to the points (and normals) loaded from the .ply file with the same index;  <br /></td></tr>
 <tr class="memitem:a73e9d49a0aa7e22d6dab505ebd37d7d7" id="r_a73e9d49a0aa7e22d6dab505ebd37d7d7"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73e9d49a0aa7e22d6dab505ebd37d7d7">fromText</a> (string file, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
 <tr class="memdesc:a73e9d49a0aa7e22d6dab505ebd37d7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .csv, .asc, .xyz, .txt file Generated from function <span class="tt"><a class="el" href="#a73e9d49a0aa7e22d6dab505ebd37d7d7" title="loads from .csv, .asc, .xyz, .txt file Generated from function MR.PointsLoad.fromText....">MR.PointsLoad.fromText</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a3a21b059e2dc485b242ab4e75277d202" id="r_a3a21b059e2dc485b242ab4e75277d202"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a21b059e2dc485b242ab4e75277d202">fromText</a> (MR.Std.Istream in_, <a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>? settings=null)</td></tr>
@@ -350,6 +347,68 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>loads from .ctm file Generated from function <span class="tt"><a class="el" href="#a41482212997d8c721ae8f497c4b81c35" title="loads from .ctm file Generated from function MR.PointsLoad.fromCtm. Parameter settings defaults to {}...">MR.PointsLoad.fromCtm</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. </p>
+
+</div>
+</div>
+<a id="af9d9adce8c94041255b160232af39bc4" name="af9d9adce8c94041255b160232af39bc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9d9adce8c94041255b160232af39bc4">&#9670;&#160;</a></span>fromDrc() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromDrc </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Istream</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <span class="tt"><a class="el" href="#a38a2afd95fdcf04ff8217d83555a4e14" title="loads from Google Draco .drc file; if the file contains a mesh, then its points are returned without ...">MR.PointsLoad.fromDrc</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. </p>
+
+</div>
+</div>
+<a id="a38a2afd95fdcf04ff8217d83555a4e14" name="a38a2afd95fdcf04ff8217d83555a4e14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38a2afd95fdcf04ff8217d83555a4e14">&#9670;&#160;</a></span>fromDrc() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a> MR.PointsLoad.fromDrc </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PointsLoadSettings.html">MR.Const_PointsLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loads from Google Draco .drc file; if the file contains a mesh, then its points are returned without triangles and without merging Generated from function <span class="tt"><a class="el" href="#a38a2afd95fdcf04ff8217d83555a4e14" title="loads from Google Draco .drc file; if the file contains a mesh, then its points are returned without ...">MR.PointsLoad.fromDrc</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>
@@ -571,7 +630,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>loads and merges a point cloud from a folder with the results of a multi-scan capture: the folder is expected to contain pairs of files named &lt;posePrefix&gt;NNN&lt;poseExt&gt; and &lt;scanPrefix&gt;NNN.ply with matching indices NNN (the number of pairs is arbitrary); each transformation file stores a 4x4 row-major rigid transformation, which is applied to the points (and normals) loaded from the .ply file with the same index; </p>
+<p>loads and merges a point cloud from a folder with the results of a multi-scan capture: the folder is expected to contain pairs of files named <span class="tt">&amp;lt;posePrefix&amp;gt;NNN&amp;lt;poseExt&amp;gt;</span> and <span class="tt">&amp;lt;scanPrefix&amp;gt;NNN.ply</span> with matching indices NNN (the number of pairs is arbitrary); each transformation file stores a 4x4 row-major rigid transformation, which is applied to the points (and normals) loaded from the .ply file with the same index; </p>
 <dl class="section return"><dt>Returns</dt><dd>the union of all transformed points from all found pairs, expressed in the common coordinate frame Generated from function <span class="tt"><a class="el" href="#abbedc3ac1d6fea945d7bb9d8b5e0c11b" title="loads and merges a point cloud from a folder with the results of a multi-scan capture: the folder is ...">MR.PointsLoad.fromMultiScanFolder</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">callback</span> defaults to <span class="tt">{}</span>. </dd></dl>
 
 </div>
@@ -888,6 +947,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="MRCtm_8cs.html">MRCtm.cs</a></li>
+<li><a class="el" href="MRDraco_8cs.html">MRDraco.cs</a></li>
 <li><a class="el" href="MRE57_8cs.html">MRE57.cs</a></li>
 <li><a class="el" href="MRLas_8cs.html">MRLas.cs</a></li>
 <li><a class="el" href="MRMultiScanLoad_8cs.html">MRMultiScanLoad.cs</a></li>

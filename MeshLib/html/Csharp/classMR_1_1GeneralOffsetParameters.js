@@ -11,6 +11,7 @@ var classMR_1_1GeneralOffsetParameters =
     [ "callBack", "classMR_1_1GeneralOffsetParameters.html#a2b01c4229906ec9186128b96ed48a782", null ],
     [ "closeHolesInHoleWindingNumber", "classMR_1_1GeneralOffsetParameters.html#a518fc3f4a982b3f09ecf0dac94c4bbbc", null ],
     [ "fwn", "classMR_1_1GeneralOffsetParameters.html#a3857279c5810e69b1ca90f93d61331db", null ],
+    [ "maxDeletedComponentFaces", "classMR_1_1GeneralOffsetParameters.html#af89ae470669aafb9174e6704c32cd363", null ],
     [ "maxNewRank2VertDev", "classMR_1_1GeneralOffsetParameters.html#a0154fdb1b9e7c1acf552bc4a349d57d9", null ],
     [ "maxNewRank3VertDev", "classMR_1_1GeneralOffsetParameters.html#abf01bd04104aed052716bb467958b6f3", null ],
     [ "maxOldVertPosCorrection", "classMR_1_1GeneralOffsetParameters.html#a6fd7ac52fa0839e241b0523646ecd935", null ],

@@ -13,11 +13,13 @@ var classMR_1_1Const__MeshRelaxParams =
     [ "__ref_storage_iterations", "classMR_1_1Const__MeshRelaxParams.html#a84bbe0ff50642d694dcc9247b355304b", null ],
     [ "__ref_storage_limitNearInitial", "classMR_1_1Const__MeshRelaxParams.html#a82b983c92a40bd77e6ef1cb7b08d8779", null ],
     [ "__ref_storage_maxInitialDist", "classMR_1_1Const__MeshRelaxParams.html#aed8668d0df3fb6b5196e2c09703e4357", null ],
+    [ "__ref_storage_updateCaches", "classMR_1_1Const__MeshRelaxParams.html#ab9df56c16d866c84db5567b5f81508f6", null ],
     [ "force", "classMR_1_1Const__MeshRelaxParams.html#aad84c03cb4f2f79fa6004f81d499f398", null ],
     [ "hardSmoothTetrahedrons", "classMR_1_1Const__MeshRelaxParams.html#a1fd7e87117172e9af04091e7bb788924", null ],
     [ "iterations", "classMR_1_1Const__MeshRelaxParams.html#aa14a1d3a5d99df83471bb9e9da8e7092", null ],
     [ "limitNearInitial", "classMR_1_1Const__MeshRelaxParams.html#a7df3aa7fab1fde66b139f6668f8b140a", null ],
     [ "maxInitialDist", "classMR_1_1Const__MeshRelaxParams.html#a588effff89acd3a722999fbc347d751b", null ],
     [ "region", "classMR_1_1Const__MeshRelaxParams.html#ac53821cf709ed1a2ac178e572f725303", null ],
+    [ "updateCaches", "classMR_1_1Const__MeshRelaxParams.html#a09ca6fff61ae24aae7c13eb10044b8cd", null ],
     [ "weights", "classMR_1_1Const__MeshRelaxParams.html#af8d568eb12f673e6e45f36bb22318cd9", null ]
 ];

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -175,6 +168,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ab7d83890521d9afa5c2d23e718de9127"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a925fb33e4ae59890bdbaf8f1ea3a8775">MR_PositionedText</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a08c45ff754383f634f66f92b5497f5b1" id="r_a08c45ff754383f634f66f92b5497f5b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a925fb33e4ae59890bdbaf8f1ea3a8775">MR_PositionedText</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08c45ff754383f634f66f92b5497f5b1">MR_PositionedText_AssignFromAnother</a> (<a class="el" href="#a925fb33e4ae59890bdbaf8f1ea3a8775">MR_PositionedText</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a925fb33e4ae59890bdbaf8f1ea3a8775">MR_PositionedText</a> *_other)</td></tr>
 <tr class="memitem:a939adfc1ba3016a1d611d69b6bfe31b1" id="r_a939adfc1ba3016a1d611d69b6bfe31b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a939adfc1ba3016a1d611d69b6bfe31b1">MR_equal_MR_PositionedText</a> (const <a class="el" href="#a925fb33e4ae59890bdbaf8f1ea3a8775">MR_PositionedText</a> *_this, const <a class="el" href="#a925fb33e4ae59890bdbaf8f1ea3a8775">MR_PositionedText</a> *_1)</td></tr>
+<tr class="memitem:a0cb576f442bab8c65d22fe24ea32f31c" id="r_a0cb576f442bab8c65d22fe24ea32f31c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cb576f442bab8c65d22fe24ea32f31c">MR_not_equal_MR_PositionedText</a> (const <a class="el" href="#a925fb33e4ae59890bdbaf8f1ea3a8775">MR_PositionedText</a> *_this, const <a class="el" href="#a925fb33e4ae59890bdbaf8f1ea3a8775">MR_PositionedText</a> *_1)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a925fb33e4ae59890bdbaf8f1ea3a8775" name="a925fb33e4ae59890bdbaf8f1ea3a8775"></a>
@@ -212,6 +206,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from method <span class="tt">MR::PositionedText::operator==</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a0cb576f442bab8c65d22fe24ea32f31c" name="a0cb576f442bab8c65d22fe24ea32f31c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cb576f442bab8c65d22fe24ea32f31c">&#9670;&#160;</a></span>MR_not_equal_MR_PositionedText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_not_equal_MR_PositionedText </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a925fb33e4ae59890bdbaf8f1ea3a8775">MR_PositionedText</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a925fb33e4ae59890bdbaf8f1ea3a8775">MR_PositionedText</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::PositionedText::operator!=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

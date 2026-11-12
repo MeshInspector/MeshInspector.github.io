@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -174,15 +167,15 @@ Functions</h2></td></tr>
 <tr class="memdesc:a2d3a551dd3daefb1e0e90613a548e8d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the tooltips for each type of filling.  <br /></td></tr>
 <tr class="memitem:a99bd277fc6939dd4a0f3af218e178211" id="r_a99bd277fc6939dd4a0f3af218e178211"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99bd277fc6939dd4a0f3af218e178211">isThick</a> (<a class="el" href="#aa0042e4e52a341abae2d86e3f384c63f">Type</a> type)</td></tr>
 <tr class="memdesc:a99bd277fc6939dd4a0f3af218e178211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the <code class="param">type</code> is thick.  <br /></td></tr>
-<tr class="memitem:a94486e7f7c872ad75b7640296ba5f9e8" id="r_a94486e7f7c872ad75b7640296ba5f9e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga5874284dcde0853181cfc5bf3366981d">FunctionVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94486e7f7c872ad75b7640296ba5f9e8">buildVolume</a> (const Vector3f &amp;<a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>, const <a class="el" href="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html">VolumeParams</a> &amp;params)</td></tr>
+<tr class="memitem:a94486e7f7c872ad75b7640296ba5f9e8" id="r_a94486e7f7c872ad75b7640296ba5f9e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gaf5e12b5511f0ccaffdaa09477d3a83a8">FunctionVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94486e7f7c872ad75b7640296ba5f9e8">buildVolume</a> (const Vector3f &amp;<a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>, const <a class="el" href="structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html">VolumeParams</a> &amp;params)</td></tr>
 <tr class="memitem:a0d6db3d76ceacd62439dac23ca150a0c" id="r_a0d6db3d76ceacd62439dac23ca150a0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d6db3d76ceacd62439dac23ca150a0c">build</a> (const Vector3f &amp;<a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>, const <a class="el" href="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html">MeshParams</a> &amp;params, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:a0d6db3d76ceacd62439dac23ca150a0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <a class="el" href="namespaceMR_1_1FillingSurface_1_1TPMS.html" title="Triply Periodic Minimal Surface.">TPMS</a> level-set and then convert it to mesh.  <br /></td></tr>
 <tr class="memitem:a5ad5391e4d2f393bffeea446940af5b7" id="r_a5ad5391e4d2f393bffeea446940af5b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ad5391e4d2f393bffeea446940af5b7">fill</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html">MeshParams</a> &amp;params, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:a5ad5391e4d2f393bffeea446940af5b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs TPMS-filling for the given <code class="param">mesh</code>.  <br /></td></tr>
 <tr class="memitem:a21fa0885e83b6883a9da5f108f13b4cf" id="r_a21fa0885e83b6883a9da5f108f13b4cf"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21fa0885e83b6883a9da5f108f13b4cf">getNumberOfVoxels</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float frequency, float resolution)</td></tr>
-<tr class="memdesc:a21fa0885e83b6883a9da5f108f13b4cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns number of voxels that would be used to perform fillWithTPMS.  <br /></td></tr>
+<tr class="memdesc:a21fa0885e83b6883a9da5f108f13b4cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns number of voxels that would be used to perform <a class="el" href="#a5ad5391e4d2f393bffeea446940af5b7">fill</a>.  <br /></td></tr>
 <tr class="memitem:af0ede00f4e5d0adbe820ade3d8898341" id="r_af0ede00f4e5d0adbe820ade3d8898341"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0ede00f4e5d0adbe820ade3d8898341">getNumberOfVoxels</a> (const Vector3f &amp;<a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>, float frequency, float resolution)</td></tr>
-<tr class="memdesc:af0ede00f4e5d0adbe820ade3d8898341"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns number of voxels that would be used to perform buildTPMS or buildTPMSVolume.  <br /></td></tr>
+<tr class="memdesc:af0ede00f4e5d0adbe820ade3d8898341"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns number of voxels that would be used to perform <a class="el" href="#a0d6db3d76ceacd62439dac23ca150a0c">build</a> or <a class="el" href="#a94486e7f7c872ad75b7640296ba5f9e8">buildVolume</a>.  <br /></td></tr>
 <tr class="memitem:ab682c50a13cdb00978b8fcb5cb4e41b6" id="r_ab682c50a13cdb00978b8fcb5cb4e41b6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab682c50a13cdb00978b8fcb5cb4e41b6">estimateIso</a> (<a class="el" href="#aa0042e4e52a341abae2d86e3f384c63f">Type</a> type, float targetDensity)</td></tr>
 <tr class="memitem:af9e384198f23b7c0b2e1c5735e01014a" id="r_af9e384198f23b7c0b2e1c5735e01014a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9e384198f23b7c0b2e1c5735e01014a">estimateDensity</a> (<a class="el" href="#aa0042e4e52a341abae2d86e3f384c63f">Type</a> type, float targetIso)</td></tr>
 <tr class="memitem:a563740c7763810cc5d9929e91bc8d13f" id="r_a563740c7763810cc5d9929e91bc8d13f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a563740c7763810cc5d9929e91bc8d13f">getMinimalResolution</a> (<a class="el" href="#aa0042e4e52a341abae2d86e3f384c63f">Type</a> type, float iso)</td></tr>
@@ -258,7 +251,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga5874284dcde0853181cfc5bf3366981d">FunctionVolume</a> MR::FillingSurface::TPMS::buildVolume </td>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#gaf5e12b5511f0ccaffdaa09477d3a83a8">FunctionVolume</a> MR::FillingSurface::TPMS::buildVolume </td>
           <td>(</td>
           <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
@@ -269,7 +262,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Construct <a class="el" href="namespaceMR_1_1FillingSurface_1_1TPMS.html" title="Triply Periodic Minimal Surface.">TPMS</a> using implicit function (<a href="https:///">https:///</a> www.researchgate.net/publication/350658078_Computational_method_and_program_for_generating_a_porous_scaffold_based_on_implicit_surfaces) </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Construct <a class="el" href="namespaceMR_1_1FillingSurface_1_1TPMS.html" title="Triply Periodic Minimal Surface.">TPMS</a> using implicit function (<a href="https://www.researchgate.net/publication/350658078_Computational_method_and_program_for_generating_a_porous_scaffold_based_on_implicit_surfaces">https://www.researchgate.net/publication/350658078_Computational_method_and_program_for_generating_a_porous_scaffold_based_on_implicit_surfaces</a>) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">size</td><td>Size of the cube with the surface </td></tr>
   </table>
@@ -410,7 +403,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns number of voxels that would be used to perform fillWithTPMS. </p>
+<p>Returns number of voxels that would be used to perform <a class="el" href="#a5ad5391e4d2f393bffeea446940af5b7">fill</a>. </p>
 
 </div>
 </div>
@@ -438,7 +431,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns number of voxels that would be used to perform buildTPMS or buildTPMSVolume. </p>
+<p>Returns number of voxels that would be used to perform <a class="el" href="#a0d6db3d76ceacd62439dac23ca150a0c">build</a> or <a class="el" href="#a94486e7f7c872ad75b7640296ba5f9e8">buildVolume</a>. </p>
 
 </div>
 </div>

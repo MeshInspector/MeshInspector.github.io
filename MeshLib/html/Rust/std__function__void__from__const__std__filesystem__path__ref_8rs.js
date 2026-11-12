@@ -1,0 +1,4 @@
+var std__function__void__from__const__std__filesystem__path__ref_8rs =
+[
+    [ "meshlib::std_function_void_from_const_std_filesystem_path_ref", "structmeshlib_1_1std__function__void__from__const__std__filesystem__path__ref.html", "structmeshlib_1_1std__function__void__from__const__std__filesystem__path__ref" ]
+];

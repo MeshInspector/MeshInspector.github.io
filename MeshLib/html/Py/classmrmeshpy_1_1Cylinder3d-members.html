@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -145,18 +138,21 @@ $(function(){initNavTree('classmrmeshpy_1_1Cylinder3d.html','',''); });
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#a2ea035678de20bf07db42d986a7ecc50">__init__</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#ad1dbc7e55bb4d8811f3adc7f1bb9cdfc">__init__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#ae93d871c83ce3151c04052172af16eaf">__init__</a>(self, Vector3d inCenter, Vector3d inDirectoin, float inRadius, float inLength)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#ad06472badda5c6770d303aae0bb7f9ac">__init__</a>(self, Line3d inAxis, float inRadius, float inLength)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#a9cec0c580b21bad56e88c18042830b8e">__init__</a>(self, Cylinder3d arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#ae01e35dff89f510cb1e3afc832a80d6d">_offsetof_length</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#ab87a71ef2fd40468a7707c7c93df5d1e">_offsetof_mainAxis</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#a6b5b002e6c9f044b62c1b5e0652e3af7">_offsetof_radius</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#ad0f8b7d6f92910eb802e52fdc6bffcd9">center</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#ae18fe019a8b6b54010603aafdcf50c7a">__init__</a>(self, ConstVector3d inCenter, ConstVector3d inDirectoin, float inRadius, float inLength)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#aeca0fbf45786d94dd5f87b7ab8e9da8e">__init__</a>(self, ConstLine3d inAxis, float inRadius, float inLength)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#aa5e74e3d268ddecedfe3d687fe935fdf">__init__</a>(self, ConstCylinder3d arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstCylinder3d.html#ad896875a963f622b4b00c560e469307d">_offsetof_length</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstCylinder3d.html">mrmeshpy.ConstCylinder3d</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstCylinder3d.html#a8ca76e1a5a599d858046231bdb7515eb">_offsetof_mainAxis</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstCylinder3d.html">mrmeshpy.ConstCylinder3d</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstCylinder3d.html#af5445d7fd8764e4812cf1313f7d0787f">_offsetof_radius</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstCylinder3d.html">mrmeshpy.ConstCylinder3d</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#a872ceca381858df758084f65ec010cc9">assign</a>(self, ConstCylinder3d other)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#ad0f8b7d6f92910eb802e52fdc6bffcd9">center</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#a4d9b64c4a2a0396e08ce45c71e351c80">direction</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#a929a766bd78a98d1b7bc6828ed454d8d">center</a>(ConstCylinder3d self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#a4d9b64c4a2a0396e08ce45c71e351c80">direction</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#aec89a846fa34898c8f95bfc22cc78657">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#aec89a846fa34898c8f95bfc22cc78657">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#a2a66100cfa742103b91429618941ae91">direction</a>(ConstCylinder3d self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstCylinder3d.html#a6ac078d57b03dc8c5eb164775036d0d2">length</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstCylinder3d.html">mrmeshpy.ConstCylinder3d</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#a0947b250874e061ec75bd4a95f391491">mainAxis</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html#ac0e3837f1d737e8b2dd5554556daa258">mainAxis</a>(self, ConstLine3d arg1)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Cylinder3d.html">mrmeshpy.Cylinder3d</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstCylinder3d.html#a80b4f33d00f057d55765c3367198972d">radius</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstCylinder3d.html">mrmeshpy.ConstCylinder3d</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

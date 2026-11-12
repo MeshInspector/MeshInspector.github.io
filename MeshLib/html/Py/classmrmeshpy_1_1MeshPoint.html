@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,39 +133,50 @@ $(function(){initNavTree('classmrmeshpy_1_1MeshPoint.html','','classmrmeshpy_1_1
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1MeshPoint-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.MeshPoint Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for mrmeshpy.MeshPoint:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmrmeshpy_1_1MeshPoint.png" usemap="#mrmeshpy_2EMeshPoint_map" alt=""/>
+  <map id="mrmeshpy_2EMeshPoint_map" name="mrmeshpy_2EMeshPoint_map">
+<area href="classmrmeshpy_1_1ConstMeshPoint.html" alt="mrmeshpy.ConstMeshPoint" shape="rect" coords="0,0,164,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa98282750a7758e7ddcfd80a2f0b2c79" id="r_aa98282750a7758e7ddcfd80a2f0b2c79"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa98282750a7758e7ddcfd80a2f0b2c79">__init__</a> (self)</td></tr>
-<tr class="memitem:a3ea130fe006494f9c95e26d6de39a5f7" id="r_a3ea130fe006494f9c95e26d6de39a5f7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ea130fe006494f9c95e26d6de39a5f7">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1MeshPoint.html">MeshPoint</a> arg0)</td></tr>
-<tr class="memitem:a84e01f0a9270e8e425f526c55f3b1adf" id="r_a84e01f0a9270e8e425f526c55f3b1adf"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84e01f0a9270e8e425f526c55f3b1adf">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTriPoint.html">MeshTriPoint</a> <a class="el" href="#a33f352725426d0bcd74dfe01aff05f1c">triPoint</a>, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> <a class="el" href="#ad2baf2d57ca7331db3538b7c2adb1304">pt</a>, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> <a class="el" href="#ab109c30482035b9692bd1b68753ab5b8">inDir</a>, <a class="el" href="classmrmeshpy_1_1func__bool__from__Id__FaceTag.html">func_bool_from_Id_FaceTag</a> <a class="el" href="#a794bb6cb2ea8a00b9a57ff62a600dd3c">notIncidentFaces</a>)</td></tr>
-<tr class="memitem:a36fab818831cf80c536da71d6836558c" id="r_a36fab818831cf80c536da71d6836558c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36fab818831cf80c536da71d6836558c">set</a> (self, <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1MeshTriPoint.html">MeshTriPoint</a> p)</td></tr>
+<tr class="memitem:a2e4e20f61969ad9e528e2ff848933609" id="r_a2e4e20f61969ad9e528e2ff848933609"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e4e20f61969ad9e528e2ff848933609">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html">ConstMeshPoint</a> arg0)</td></tr>
+<tr class="memitem:a91b263dd5a7e435a88b6434f32c5cd8e" id="r_a91b263dd5a7e435a88b6434f32c5cd8e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91b263dd5a7e435a88b6434f32c5cd8e">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstMeshTriPoint.html">ConstMeshTriPoint</a> <a class="el" href="#a33f352725426d0bcd74dfe01aff05f1c">triPoint</a>, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> <a class="el" href="#ad2baf2d57ca7331db3538b7c2adb1304">pt</a>, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> <a class="el" href="#ab109c30482035b9692bd1b68753ab5b8">inDir</a>, <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__Id__FaceTag.html">Const_func_bool_from_Id_FaceTag</a> <a class="el" href="#a794bb6cb2ea8a00b9a57ff62a600dd3c">notIncidentFaces</a>)</td></tr>
+<tr class="memitem:af460f738a371f4a98376d2f90238ad2a" id="r_af460f738a371f4a98376d2f90238ad2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshPoint.html">MeshPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af460f738a371f4a98376d2f90238ad2a">assign</a> (self, <a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html">ConstMeshPoint</a> other)</td></tr>
+<tr class="memitem:a240811a6252708a9777b814a3ec0389a" id="r_a240811a6252708a9777b814a3ec0389a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a240811a6252708a9777b814a3ec0389a">set</a> (self, <a class="el" href="classmrmeshpy_1_1ConstMesh.html">ConstMesh</a> mesh, <a class="el" href="classmrmeshpy_1_1ConstMeshTriPoint.html">ConstMeshTriPoint</a> p)</td></tr>
 <tr class="memitem:ab109c30482035b9692bd1b68753ab5b8" id="r_ab109c30482035b9692bd1b68753ab5b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab109c30482035b9692bd1b68753ab5b8">inDir</a> (self)</td></tr>
-<tr class="memitem:ac753a0f1425c48c64992dfbc97353fba" id="r_ac753a0f1425c48c64992dfbc97353fba"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac753a0f1425c48c64992dfbc97353fba">inDir</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> arg1)</td></tr>
+<tr class="memitem:a258aaf3b5dfc616f17c517a179e9e04a" id="r_a258aaf3b5dfc616f17c517a179e9e04a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a258aaf3b5dfc616f17c517a179e9e04a">inDir</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> arg1)</td></tr>
 <tr class="memitem:a794bb6cb2ea8a00b9a57ff62a600dd3c" id="r_a794bb6cb2ea8a00b9a57ff62a600dd3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1func__bool__from__Id__FaceTag.html">func_bool_from_Id_FaceTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a794bb6cb2ea8a00b9a57ff62a600dd3c">notIncidentFaces</a> (self)</td></tr>
-<tr class="memitem:a2a53d8178e7113035b292c33715a690b" id="r_a2a53d8178e7113035b292c33715a690b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a53d8178e7113035b292c33715a690b">notIncidentFaces</a> (self, <a class="el" href="classmrmeshpy_1_1func__bool__from__Id__FaceTag.html">func_bool_from_Id_FaceTag</a> arg1)</td></tr>
+<tr class="memitem:a3ad718131685068627c5b7cd06045daf" id="r_a3ad718131685068627c5b7cd06045daf"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ad718131685068627c5b7cd06045daf">notIncidentFaces</a> (self, <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__Id__FaceTag.html">Const_func_bool_from_Id_FaceTag</a> arg1)</td></tr>
 <tr class="memitem:ad2baf2d57ca7331db3538b7c2adb1304" id="r_ad2baf2d57ca7331db3538b7c2adb1304"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2baf2d57ca7331db3538b7c2adb1304">pt</a> (self)</td></tr>
-<tr class="memitem:aaa5a2211d85923c8eadc95afc4949355" id="r_aaa5a2211d85923c8eadc95afc4949355"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa5a2211d85923c8eadc95afc4949355">pt</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> arg1)</td></tr>
+<tr class="memitem:a66e7293d7c167ff6deb0cef382ab732d" id="r_a66e7293d7c167ff6deb0cef382ab732d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66e7293d7c167ff6deb0cef382ab732d">pt</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> arg1)</td></tr>
 <tr class="memitem:a33f352725426d0bcd74dfe01aff05f1c" id="r_a33f352725426d0bcd74dfe01aff05f1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33f352725426d0bcd74dfe01aff05f1c">triPoint</a> (self)</td></tr>
-<tr class="memitem:a59740927b7c5636487dff8fce0f7f2ec" id="r_a59740927b7c5636487dff8fce0f7f2ec"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59740927b7c5636487dff8fce0f7f2ec">triPoint</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTriPoint.html">MeshTriPoint</a> arg1)</td></tr>
+<tr class="memitem:a0c79c35a237fdb75c718e0e1e1c5f729" id="r_a0c79c35a237fdb75c718e0e1e1c5f729"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c79c35a237fdb75c718e0e1e1c5f729">triPoint</a> (self, <a class="el" href="classmrmeshpy_1_1ConstMeshTriPoint.html">ConstMeshTriPoint</a> arg1)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstMeshPoint"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstMeshPoint')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html">mrmeshpy.ConstMeshPoint</a></td></tr>
+<tr class="memitem:a1e26f149f08dac3337ccabe8e604edd9 inherit pub_methods_classmrmeshpy_1_1ConstMeshPoint" id="r_a1e26f149f08dac3337ccabe8e604edd9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html#a1e26f149f08dac3337ccabe8e604edd9">__init__</a> (self, *args, **kwargs)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7907df46e48faf4055734b8b3636dd43" id="r_a7907df46e48faf4055734b8b3636dd43"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7907df46e48faf4055734b8b3636dd43">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a818569617902596c75b34888c458b19c" id="r_a818569617902596c75b34888c458b19c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshPoint.html">MeshPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a818569617902596c75b34888c458b19c">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a818569617902596c75b34888c458b19c" id="r_a818569617902596c75b34888c458b19c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshPoint.html">MeshPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a818569617902596c75b34888c458b19c">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a59a93529b9ee9a7d325208e5188fe9aa" id="r_a59a93529b9ee9a7d325208e5188fe9aa"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59a93529b9ee9a7d325208e5188fe9aa">_offsetof_inDir</a> = 24</td></tr>
-<tr class="memitem:a46164926d9b9c3611846e99e6139c067" id="r_a46164926d9b9c3611846e99e6139c067"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46164926d9b9c3611846e99e6139c067">_offsetof_notIncidentFaces</a> = 40</td></tr>
-<tr class="memitem:a4486bd33396583e304eb246bbb5ce6b9" id="r_a4486bd33396583e304eb246bbb5ce6b9"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4486bd33396583e304eb246bbb5ce6b9">_offsetof_pt</a> = 12</td></tr>
-<tr class="memitem:a0f621096feade816113305fb4663c19e" id="r_a0f621096feade816113305fb4663c19e"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f621096feade816113305fb4663c19e">_offsetof_triPoint</a> = 0</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_static_attribs_classmrmeshpy_1_1ConstMeshPoint"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classmrmeshpy_1_1ConstMeshPoint')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Attributes inherited from <a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html">mrmeshpy.ConstMeshPoint</a></td></tr>
+<tr class="memitem:a039cb671abc5b1de9d75346e2d263ffb inherit pro_static_attribs_classmrmeshpy_1_1ConstMeshPoint" id="r_a039cb671abc5b1de9d75346e2d263ffb"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html#a039cb671abc5b1de9d75346e2d263ffb">_offsetof_inDir</a> = 24</td></tr>
+<tr class="memitem:a88e0903ceb5a395622372da293394127 inherit pro_static_attribs_classmrmeshpy_1_1ConstMeshPoint" id="r_a88e0903ceb5a395622372da293394127"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html#a88e0903ceb5a395622372da293394127">_offsetof_notIncidentFaces</a> = 40</td></tr>
+<tr class="memitem:a718123feaadcec21014c177b0b9e626c inherit pro_static_attribs_classmrmeshpy_1_1ConstMeshPoint" id="r_a718123feaadcec21014c177b0b9e626c"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html#a718123feaadcec21014c177b0b9e626c">_offsetof_pt</a> = 12</td></tr>
+<tr class="memitem:ad8de035823e15ae5ec9b6993378aabb9 inherit pro_static_attribs_classmrmeshpy_1_1ConstMeshPoint" id="r_ad8de035823e15ae5ec9b6993378aabb9"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html#ad8de035823e15ae5ec9b6993378aabb9">_offsetof_triPoint</a> = 0</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::MeshPoint
@@ -225,8 +229,8 @@ describes the point of measurement on mesh
 
 </div>
 </div>
-<a id="a3ea130fe006494f9c95e26d6de39a5f7" name="a3ea130fe006494f9c95e26d6de39a5f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ea130fe006494f9c95e26d6de39a5f7">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+<a id="a2e4e20f61969ad9e528e2ff848933609" name="a2e4e20f61969ad9e528e2ff848933609"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e4e20f61969ad9e528e2ff848933609">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,7 +243,7 @@ describes the point of measurement on mesh
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshPoint.html">MeshPoint</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html">ConstMeshPoint</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -247,8 +251,8 @@ describes the point of measurement on mesh
 </pre> 
 </div>
 </div>
-<a id="a84e01f0a9270e8e425f526c55f3b1adf" name="a84e01f0a9270e8e425f526c55f3b1adf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84e01f0a9270e8e425f526c55f3b1adf">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
+<a id="a91b263dd5a7e435a88b6434f32c5cd8e" name="a91b263dd5a7e435a88b6434f32c5cd8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91b263dd5a7e435a88b6434f32c5cd8e">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -261,22 +265,22 @@ describes the point of measurement on mesh
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshTriPoint.html">MeshTriPoint</a></td>          <td class="paramname"><span class="paramname"><em>triPoint</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstMeshTriPoint.html">ConstMeshTriPoint</a></td>          <td class="paramname"><span class="paramname"><em>triPoint</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>pt</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>pt</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>inDir</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>inDir</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__Id__FaceTag.html">func_bool_from_Id_FaceTag</a></td>          <td class="paramname"><span class="paramname"><em>notIncidentFaces</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__bool__from__Id__FaceTag.html">Const_func_bool_from_Id_FaceTag</a></td>          <td class="paramname"><span class="paramname"><em>notIncidentFaces</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -285,6 +289,27 @@ describes the point of measurement on mesh
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="af460f738a371f4a98376d2f90238ad2a" name="af460f738a371f4a98376d2f90238ad2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af460f738a371f4a98376d2f90238ad2a">&#9670;&#160;</a></span>assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1MeshPoint.html">MeshPoint</a> mrmeshpy.MeshPoint.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html">ConstMeshPoint</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab109c30482035b9692bd1b68753ab5b8" name="ab109c30482035b9692bd1b68753ab5b8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab109c30482035b9692bd1b68753ab5b8">&#9670;&#160;</a></span>inDir() <span class="overload">[1/2]</span></h2>
 
@@ -301,10 +326,12 @@ describes the point of measurement on mesh
 </div><div class="memdoc">
 <pre class="fragment">unit direction inside the mesh = minus normal
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html#a760b4bd619dcbc590c3fcee0d63b8748">mrmeshpy.ConstMeshPoint</a>.</p>
+
 </div>
 </div>
-<a id="ac753a0f1425c48c64992dfbc97353fba" name="ac753a0f1425c48c64992dfbc97353fba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac753a0f1425c48c64992dfbc97353fba">&#9670;&#160;</a></span>inDir() <span class="overload">[2/2]</span></h2>
+<a id="a258aaf3b5dfc616f17c517a179e9e04a" name="a258aaf3b5dfc616f17c517a179e9e04a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a258aaf3b5dfc616f17c517a179e9e04a">&#9670;&#160;</a></span>inDir() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -317,10 +344,13 @@ describes the point of measurement on mesh
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">unit direction inside the mesh = minus normal
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html#a760b4bd619dcbc590c3fcee0d63b8748">mrmeshpy.ConstMeshPoint</a>.</p>
 
 </div>
 </div>
@@ -340,10 +370,12 @@ describes the point of measurement on mesh
 </div><div class="memdoc">
 <pre class="fragment">predicate that returns true for mesh faces not-incident to the point
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html#a1db8d586f18e5f2c81d341649fb1a3be">mrmeshpy.ConstMeshPoint</a>.</p>
+
 </div>
 </div>
-<a id="a2a53d8178e7113035b292c33715a690b" name="a2a53d8178e7113035b292c33715a690b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a53d8178e7113035b292c33715a690b">&#9670;&#160;</a></span>notIncidentFaces() <span class="overload">[2/2]</span></h2>
+<a id="a3ad718131685068627c5b7cd06045daf" name="a3ad718131685068627c5b7cd06045daf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ad718131685068627c5b7cd06045daf">&#9670;&#160;</a></span>notIncidentFaces() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -356,68 +388,13 @@ describes the point of measurement on mesh
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__Id__FaceTag.html">func_bool_from_Id_FaceTag</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__bool__from__Id__FaceTag.html">Const_func_bool_from_Id_FaceTag</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a818569617902596c75b34888c458b19c" name="a818569617902596c75b34888c458b19c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a818569617902596c75b34888c458b19c">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1MeshPoint.html">MeshPoint</a> mrmeshpy.MeshPoint.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a818569617902596c75b34888c458b19c" name="a818569617902596c75b34888c458b19c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a818569617902596c75b34888c458b19c">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1MeshPoint.html">MeshPoint</a> mrmeshpy.MeshPoint.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<pre class="fragment">predicate that returns true for mesh faces not-incident to the point
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html#a1db8d586f18e5f2c81d341649fb1a3be">mrmeshpy.ConstMeshPoint</a>.</p>
 
 </div>
 </div>
@@ -437,10 +414,12 @@ describes the point of measurement on mesh
 </div><div class="memdoc">
 <pre class="fragment">3d coordinates
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html#a85c4592ebc25e71949f38c2a7f562386">mrmeshpy.ConstMeshPoint</a>.</p>
+
 </div>
 </div>
-<a id="aaa5a2211d85923c8eadc95afc4949355" name="aaa5a2211d85923c8eadc95afc4949355"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa5a2211d85923c8eadc95afc4949355">&#9670;&#160;</a></span>pt() <span class="overload">[2/2]</span></h2>
+<a id="a66e7293d7c167ff6deb0cef382ab732d" name="a66e7293d7c167ff6deb0cef382ab732d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66e7293d7c167ff6deb0cef382ab732d">&#9670;&#160;</a></span>pt() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -453,15 +432,18 @@ describes the point of measurement on mesh
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">3d coordinates
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html#a85c4592ebc25e71949f38c2a7f562386">mrmeshpy.ConstMeshPoint</a>.</p>
 
 </div>
 </div>
-<a id="a36fab818831cf80c536da71d6836558c" name="a36fab818831cf80c536da71d6836558c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36fab818831cf80c536da71d6836558c">&#9670;&#160;</a></span>set()</h2>
+<a id="a240811a6252708a9777b814a3ec0389a" name="a240811a6252708a9777b814a3ec0389a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a240811a6252708a9777b814a3ec0389a">&#9670;&#160;</a></span>set()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -474,12 +456,12 @@ describes the point of measurement on mesh
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstMesh.html">ConstMesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshTriPoint.html">MeshTriPoint</a></td>          <td class="paramname"><span class="paramname"><em>p</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstMeshTriPoint.html">ConstMeshTriPoint</a></td>          <td class="paramname"><span class="paramname"><em>p</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -502,10 +484,12 @@ describes the point of measurement on mesh
 </div><div class="memdoc">
 <pre class="fragment">relative position on mesh
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html#a089af55f91c69c1bb93ada45ccbe0c0b">mrmeshpy.ConstMeshPoint</a>.</p>
+
 </div>
 </div>
-<a id="a59740927b7c5636487dff8fce0f7f2ec" name="a59740927b7c5636487dff8fce0f7f2ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59740927b7c5636487dff8fce0f7f2ec">&#9670;&#160;</a></span>triPoint() <span class="overload">[2/2]</span></h2>
+<a id="a0c79c35a237fdb75c718e0e1e1c5f729" name="a0c79c35a237fdb75c718e0e1e1c5f729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c79c35a237fdb75c718e0e1e1c5f729">&#9670;&#160;</a></span>triPoint() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -518,99 +502,13 @@ describes the point of measurement on mesh
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshTriPoint.html">MeshTriPoint</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstMeshTriPoint.html">ConstMeshTriPoint</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a59a93529b9ee9a7d325208e5188fe9aa" name="a59a93529b9ee9a7d325208e5188fe9aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59a93529b9ee9a7d325208e5188fe9aa">&#9670;&#160;</a></span>_offsetof_inDir</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.MeshPoint._offsetof_inDir = 24</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a46164926d9b9c3611846e99e6139c067" name="a46164926d9b9c3611846e99e6139c067"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46164926d9b9c3611846e99e6139c067">&#9670;&#160;</a></span>_offsetof_notIncidentFaces</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.MeshPoint._offsetof_notIncidentFaces = 40</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4486bd33396583e304eb246bbb5ce6b9" name="a4486bd33396583e304eb246bbb5ce6b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4486bd33396583e304eb246bbb5ce6b9">&#9670;&#160;</a></span>_offsetof_pt</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.MeshPoint._offsetof_pt = 12</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0f621096feade816113305fb4663c19e" name="a0f621096feade816113305fb4663c19e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f621096feade816113305fb4663c19e">&#9670;&#160;</a></span>_offsetof_triPoint</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.MeshPoint._offsetof_triPoint = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<pre class="fragment">relative position on mesh
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstMeshPoint.html#a089af55f91c69c1bb93ada45ccbe0c0b">mrmeshpy.ConstMeshPoint</a>.</p>
 
 </div>
 </div>

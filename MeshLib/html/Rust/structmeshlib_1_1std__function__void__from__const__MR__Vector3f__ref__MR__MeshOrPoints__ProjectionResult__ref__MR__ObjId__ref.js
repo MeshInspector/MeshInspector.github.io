@@ -1,0 +1,8 @@
+var structmeshlib_1_1std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__ref =
+[
+    [ "assign_fn", "structmeshlib_1_1std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__ref.html#aeffcc384053c255890bf28daf52218ac", null ],
+    [ "assign_from_another", "structmeshlib_1_1std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__ref.html#ad0acae147114d4f4a4ea058a20c4565e", null ],
+    [ "call", "structmeshlib_1_1std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__ref.html#ad1611c8664d4a2452dcc96235bb8f251", null ],
+    [ "has_value", "structmeshlib_1_1std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__ref.html#aac5dee893dd61d41597b86415093fc2d", null ],
+    [ "reset", "structmeshlib_1_1std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__ref.html#adc742f1ecbe50d0d87aee2210132a415", null ]
+];

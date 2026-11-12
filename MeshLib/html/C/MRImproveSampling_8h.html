@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -153,7 +146,6 @@ $(function(){initNavTree('MRImproveSampling_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a38b2b530cc7e8ec49d6441a0d1d309ce" id="r_a38b2b530cc7e8ec49d6441a0d1d309ce"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a38b2b530cc7e8ec49d6441a0d1d309ce">MR_Vector_int_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38b2b530cc7e8ec49d6441a0d1d309ce">MR_Vector_int_MR_VertId</a></td></tr>
-<tr class="memdesc:a38b2b530cc7e8ec49d6441a0d1d309ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:ade64fb100891a04fc6c88eb7da26ca9e" id="r_ade64fb100891a04fc6c88eb7da26ca9e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
@@ -222,15 +214,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;int, MR::VertId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&lt;int, MR::VertId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>

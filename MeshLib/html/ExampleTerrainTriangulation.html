@@ -14,18 +14,15 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="description" content="Triangulate a terrain scan, a point cloud of a height field, into a mesh with MeshLib. Code samples in C++, Python and C."/>
 <title>MeshLib Documentation: Terrain Triangulation Example</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -64,10 +61,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +70,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Documentation
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -143,36 +137,40 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2ExampleTerrainTriangulation"></a></p>
 <p>Example of generating a triangulation from a terrain scan (specific pointcloud).</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointsLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloud.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRDelaunayTriangulationXY.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRColor.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointsLoad_8h.html">MRMesh/MRPointsLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointCloud_8h.html">MRMesh/MRPointCloud.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRDelaunayTriangulationXY_8h.html">MRMesh/MRDelaunayTriangulationXY.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRColor_8h.html">MRMesh/MRColor.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRIOExtras_8h.html">MRIOExtras/MRIOExtras.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
+<div class="line">    <span class="comment">// CTM, JPEG and other formats beyond the basic ones come with the MRIOExtras library</span></div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga9da69906a8753c1bbec83769cf687367">MR::loadIOExtras</a>();</div>
+<div class="line"> </div>
 <div class="line">    <span class="comment">// load points</span></div>
 <div class="line">    MR::VertColors colors;</div>
-<div class="line">    MR::PointsLoadSettings pls;</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1PointsLoadSettings.html">MR::PointsLoadSettings</a> pls;</div>
 <div class="line">    pls.colors = &amp;colors;</div>
-<div class="line">    <span class="keyword">auto</span> loadRes = MR::PointsLoad::fromAnySupportedFormat( <span class="stringliteral">&quot;TerrainPoints.ply&quot;</span>, pls );</div>
+<div class="line">    <span class="keyword">auto</span> loadRes = <a class="code hl_functionRef" href="./Cpp/group__IOGroup.html#ga7ffd96e7cc233f9a5d99dfc3e8bb0edb">MR::PointsLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;TerrainPoints.ply&quot;</span>, pls );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !loadRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; loadRes.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">        <span class="keywordflow">return</span> 1; <span class="comment">// error while loading file</span></div>
 <div class="line">    }</div>
-<div class="line">    <span class="keyword">auto</span> triangulationRes = MR::delaunayTriangulationXY( *loadRes );</div>
+<div class="line">    <span class="keyword">auto</span> triangulationRes = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga551bc08f1beed1775ad3883585feb1c0">MR::delaunayTriangulationXY</a>( *loadRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !triangulationRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; triangulationRes.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">        <span class="keywordflow">return</span> 1; <span class="comment">// error while triangulating</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    MR::SaveSettings ss;</div>
-<div class="line">    <span class="keywordflow">if</span> ( loadRes-&gt;points.vec_.size() == colors.size() )</div>
-<div class="line">    ss.colors = &amp;colors;</div>
-<div class="line">    <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( *triangulationRes, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>, ss );</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a> ss;</div>
+<div class="line">    <span class="keywordflow">if</span> ( loadRes-&gt;points.size() == colors.size() )</div>
+<div class="line">        ss.colors = &amp;colors;</div>
+<div class="line">    <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a>( *triangulationRes, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>, ss );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !saveRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; saveRes.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
@@ -181,6 +179,18 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRColor_8h_html"><div class="ttname"><a href="./Cpp/MRColor_8h.html">MRColor.h</a></div></div>
+<div class="ttc" id="aMRDelaunayTriangulationXY_8h_html"><div class="ttname"><a href="./Cpp/MRDelaunayTriangulationXY_8h.html">MRDelaunayTriangulationXY.h</a></div></div>
+<div class="ttc" id="aMRIOExtras_8h_html"><div class="ttname"><a href="./Cpp/MRIOExtras_8h.html">MRIOExtras.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRPointCloud_8h_html"><div class="ttname"><a href="./Cpp/MRPointCloud_8h.html">MRPointCloud.h</a></div></div>
+<div class="ttc" id="aMRPointsLoad_8h_html"><div class="ttname"><a href="./Cpp/MRPointsLoad_8h.html">MRPointsLoad.h</a></div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga551bc08f1beed1775ad3883585feb1c0"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga551bc08f1beed1775ad3883585feb1c0">MR::delaunayTriangulationXY</a></div><div class="ttdeci">Expected&lt; Mesh &gt; delaunayTriangulationXY(VertCoords points, const ProgressCallback &amp;cb={})</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga9da69906a8753c1bbec83769cf687367"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga9da69906a8753c1bbec83769cf687367">MR::loadIOExtras</a></div><div class="ttdeci">void loadIOExtras()</div></div>
+<div class="ttc" id="agroup__IOGroup_html_ga7ffd96e7cc233f9a5d99dfc3e8bb0edb"><div class="ttname"><a href="./Cpp/group__IOGroup.html#ga7ffd96e7cc233f9a5d99dfc3e8bb0edb">MR::PointsLoad::fromAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; PointCloud &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_ga8c3547484d9f9d64e8d1d967225e190f"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+<div class="ttc" id="astructMR_1_1PointsLoadSettings_html"><div class="ttname"><a href="./Cpp/structMR_1_1PointsLoadSettings.html">MR::PointsLoadSettings</a></div></div>
+<div class="ttc" id="astructMR_1_1SaveSettings_html"><div class="ttname"><a href="./Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
 <div class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</div>
@@ -193,7 +203,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">terrain_mesh = mm.delaunayTriangulationXY(pc)</div>
 <div class="line"> </div>
 <div class="line">mss = mm.SaveSettings()</div>
-<div class="line"><span class="keywordflow">if</span> (pc.points.vec.size() == colors.size()):</div>
+<div class="line"><span class="keywordflow">if</span> (pc.points.size() == colors.size()):</div>
 <div class="line">    mss.colors = colors</div>
 <div class="line">mm.saveMesh(terrain_mesh, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>,mss)</div>
 </div><!-- fragment --></li>
@@ -223,7 +233,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">    MR_VertColors* colors = MR_VertColors_DefaultConstruct();</div>
 <div class="line">    MR_PointsLoadSettings* pls = MR_PointsLoadSettings_DefaultConstruct();</div>
 <div class="line">    MR_PointsLoadSettings_Set_colors( pls, colors );</div>
-<div class="line">    MR_expected_MR_PointCloud_std_string* loadRes = MR_PointsLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;TerrainPoints.ply&quot;</span>, NULL, pls );</div>
+<div class="line">    MR_expected_MR_PointCloud_std_string* loadRes = MR_PointsLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;TerrainPoints.ply&quot;</span>, NULL, pls );</div>
 <div class="line">    MR_PointCloud* pc = MR_expected_MR_PointCloud_std_string_value_mut( loadRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !pc )</div>
 <div class="line">    {</div>
@@ -232,22 +242,20 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    MR_expected_MR_Mesh_std_string* triangulationRes = MR_delaunayTriangulationXY_const_MR_PointCloud_ref( pc, NULL );</div>
-<div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( triangulationRes );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
+<div class="line">    MR_Mesh* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = MR_expected_MR_Mesh_std_string_value_mut( triangulationRes );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to triangulate points: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( triangulationRes ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_triangulation; <span class="comment">// error while triangulating</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    MR_SaveSettings* ss = MR_SaveSettings_DefaultConstruct();</div>
-<div class="line">    <span class="keywordflow">if</span> ( MR_std_vector_MR_Color_size( MR_VertColors_Get_vec_( colors ) ) ==</div>
-<div class="line">         MR_std_vector_MR_Vector3f_size( MR_VertCoords_Get_vec_( MR_PointCloud_Get_points( pc ) ) )</div>
-<div class="line">         )</div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_VertColors_size( colors ) == MR_VertCoords_size( MR_PointCloud_Get_points( pc ) ) )</div>
 <div class="line">    {</div>
 <div class="line">        MR_SaveSettings_Set_colors( ss, colors );</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>, NULL, ss );</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>, NULL, ss );</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
@@ -268,6 +276,78 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">    MR_VertColors_Destroy( colors );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>TerrainTriangulationExample</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// load points</span></div>
+<div class="line">        MR.VertColors colors = <span class="keyword">new</span>();</div>
+<div class="line">        <a class="code hl_structRef" href="./Cpp/structMR_1_1PointsLoadSettings.html">MR.PointsLoadSettings</a> pls = <span class="keyword">new</span>();</div>
+<div class="line">        pls.colors = colors;</div>
+<div class="line">        var pc = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1PointsLoad.html">PointsLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;TerrainPoints.ply&quot;</span>, pls);</div>
+<div class="line"> </div>
+<div class="line">        var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.delaunayTriangulationXY(pc);</div>
+<div class="line"> </div>
+<div class="line">        <a class="code hl_structRef" href="./Cpp/structMR_1_1SaveSettings.html">MR.SaveSettings</a> ss = <span class="keyword">new</span>();</div>
+<div class="line">        <span class="keywordflow">if</span> (pc.points.size() == colors.size())</div>
+<div class="line">            ss.colors = colors;</div>
+<div class="line">        <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>, ss);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="anamespaceMR_1_1MeshSave_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshSave.html">MR::MeshSave</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1PointsLoad_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1PointsLoad.html">MR::PointsLoad</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">use meshlib::{PointsLoadSettings, SaveSettings, VertColors};</div>
+<div class="line"> </div>
+<div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
+<div class="line">{</div>
+<div class="line">    // load points</div>
+<div class="line">    let mut colors = VertColors::new();</div>
+<div class="line">    let mut pls = PointsLoadSettings::new();</div>
+<div class="line">    pls.set_colors(Some(&amp;mut colors));</div>
+<div class="line">    let points = meshlib::points_load::from_any_supported_format(&quot;TerrainPoints.ply&quot;, Some(&amp;pls)).into_result()?;</div>
+<div class="line">    let triangulation_res = meshlib::delaunay_triangulation_xy_const_mr_point_cloud_ref(&amp;points, None).into_result()?;</div>
+<div class="line"> </div>
+<div class="line">    let mut ss = SaveSettings::new();</div>
+<div class="line">    if points.points().size() == colors.size()</div>
+<div class="line">    {</div>
+<div class="line">        ss.set_colors(Some(&amp;colors));</div>
+<div class="line">    }</div>
+<div class="line">    meshlib::mesh_save::to_any_supported_format(&amp;triangulation_res, &quot;TerrainMesh.ctm&quot;, Some(&amp;ss)).into_result()?;</div>
+<div class="line"> </div>
+<div class="line">    Ok(())</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.Functions;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.PointCloud;</div>
+<div class="line"><span class="keyword">import</span> meshlib.PointsLoadSettings;</div>
+<div class="line"><span class="keyword">import</span> meshlib.SaveSettings;</div>
+<div class="line"><span class="keyword">import</span> meshlib.VertColors;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>TerrainTriangulation</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// load points</span></div>
+<div class="line">        VertColors colors = <span class="keyword">new</span> VertColors();</div>
+<div class="line">        PointsLoadSettings pls = <span class="keyword">new</span> PointsLoadSettings();</div>
+<div class="line">        pls.setColors(colors);</div>
+<div class="line">        <span class="comment">// An error is thrown as `UnexpectedResultException`.</span></div>
+<div class="line">        PointCloud <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud</a> = meshlib.pointsload.Functions.fromAnySupportedFormat(<span class="stringliteral">&quot;TerrainPoints.ply&quot;</span>, pls);</div>
+<div class="line">        Mesh triangulationRes = Functions.delaunayTriangulationXY_const_MR_PointCloud_ref(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud</a>, <span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        SaveSettings ss = <span class="keyword">new</span> SaveSettings();</div>
+<div class="line">        <span class="keywordflow">if</span> (<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud</a>.points().size() == colors.size())</div>
+<div class="line">            ss.setColors(colors);</div>
+<div class="line">        meshlib.meshsave.Functions.toAnySupportedFormat(triangulationRes, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>, ss);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga1e4577ab2bb24e7600c98bc550668b06"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud</a></div><div class="ttdeci">const std::shared_ptr&lt; const PointCloud &gt; &amp; pointCloud() const</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

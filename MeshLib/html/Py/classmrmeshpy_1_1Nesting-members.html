@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -143,12 +136,12 @@ $(function(){initNavTree('classmrmeshpy_1_1Nesting.html','',''); });
 
 <p>This is the complete list of members for <a class="el" href="classmrmeshpy_1_1Nesting.html">mrmeshpy.Nesting</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html#a0b6d8fc48473b54febaa93c2980e2a54">boxNesting</a>(Vector_Nesting_MeshXf_ObjId meshes, Nesting.BoxNestingParams params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html">mrmeshpy.Nesting</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html#a165ebd6062bbb3ac9ff0d9133e200802">exportNesting3mf</a>(os.PathLike|str|bytes path, Nesting.Nesting3mfParams params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html">mrmeshpy.Nesting</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html#a847f4bd9c4b8b096635b395c33bfbabd">fillNestingSocketCorneres</a>(std_vector_Box_Vector3_float nestedBoxes, std_vector_Nesting_BoxNestingCorner outCorners, func_bool_from_float cb='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html">mrmeshpy.Nesting</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html#a07757b2691234297a3d44fbd06bb5eae">getNeighborigDensityPriorityMetric</a>(Box3f nest, float neighborhood)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html">mrmeshpy.Nesting</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html#ae669e3b51a7968cf4c9926af887b4caf">getNestPostionMinPriorityMetric</a>(Box3f nest)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html">mrmeshpy.Nesting</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html#a04607846bcdf91c6a585ee5f7f61e846">tetrisNestingDensify</a>(Vector_Nesting_MeshXf_ObjId meshes, Nesting.TetrisDensifyParams params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html">mrmeshpy.Nesting</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html#a48f86fa1742f024f43fa1898fa7aa1c5">boxNesting</a>(ConstVector_Nesting_MeshXf_ObjId meshes, Nesting.ConstBoxNestingParams params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html">mrmeshpy.Nesting</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html#a87a1bc593d08c871ff5c6d0175a578fd">exportNesting3mf</a>(os.PathLike|str|bytes path, Nesting.ConstNesting3mfParams params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html">mrmeshpy.Nesting</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html#a865fcdf2fcf20ffe819b2c50a660585b">fillNestingSocketCorneres</a>(Const_std_vector_Box_Vector3_float nestedBoxes, std_vector_Nesting_BoxNestingCorner outCorners, Const_func_bool_from_float cb='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html">mrmeshpy.Nesting</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html#abf9764878f74d4112e1bf7fb2787d079">getNeighborigDensityPriorityMetric</a>(ConstBox3f nest, float neighborhood)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html">mrmeshpy.Nesting</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html#a515bfbcd422f5d4928d43d893efd54f6">getNestPostionMinPriorityMetric</a>(ConstBox3f nest)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html">mrmeshpy.Nesting</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html#a910ec77bcbdafa53e581c86e1629ff32">tetrisNestingDensify</a>(ConstVector_Nesting_MeshXf_ObjId meshes, Nesting.ConstTetrisDensifyParams params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1Nesting.html">mrmeshpy.Nesting</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -175,7 +168,9 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="#aef00701a9f40fa9ae8341987a432b50ba01dab9a99ed6c31fa53d1a56d9a7534f">MR_MeshVisualizePropertyType_OnlyOddFragments</a> = 8
 , <a class="el" href="#aef00701a9f40fa9ae8341987a432b50ba252c2e47feb4779b3a7d19ad765ee284">MR_MeshVisualizePropertyType_BordersHighlight</a> = 9
 , <a class="el" href="#aef00701a9f40fa9ae8341987a432b50badc51713b2c841b8631e8fa4bf825248a">MR_MeshVisualizePropertyType_PolygonOffsetFromCamera</a> = 10
-, <a class="el" href="#aef00701a9f40fa9ae8341987a432b50ba54141b91c07c95a797ef0bb214ee2431">MR_MeshVisualizePropertyType__count</a> = 11
+, <a class="el" href="#aef00701a9f40fa9ae8341987a432b50ba224896e4c0e52ab0e15fbc29cd92759e">MR_MeshVisualizePropertyType_CullBackFaces</a> = 11
+, <br />
+&#160;&#160;<a class="el" href="#aef00701a9f40fa9ae8341987a432b50ba54141b91c07c95a797ef0bb214ee2431">MR_MeshVisualizePropertyType__count</a> = 12
 <br />
  }</td></tr>
 </table><table class="memberdecls">
@@ -258,9 +253,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a1f77fb0b96cfecb6b276d16069ce74b8" id="r_a1f77fb0b96cfecb6b276d16069ce74b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f77fb0b96cfecb6b276d16069ce74b8">MR_ObjectMeshHolder_getVertsColorMap</a> (const <a class="el" href="MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this)</td></tr>
 <tr class="memitem:acaa63a0ac49d493699bf765d281828e3" id="r_acaa63a0ac49d493699bf765d281828e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acaa63a0ac49d493699bf765d281828e3">MR_ObjectMeshHolder_setVertsColorMap</a> (<a class="el" href="MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> vertsColorMap_pass_by, <a class="el" href="MRCtm_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *vertsColorMap)</td></tr>
 <tr class="memitem:ac654ee10a675ec1e73d2ad2ee44dc0f2" id="r_ac654ee10a675ec1e73d2ad2ee44dc0f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac654ee10a675ec1e73d2ad2ee44dc0f2">MR_ObjectMeshHolder_updateVertsColorMap</a> (<a class="el" href="MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this, <a class="el" href="MRCtm_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *vertsColorMap)</td></tr>
-<tr class="memitem:ac0e39bcc1dffdaf6ba18559774362cec" id="r_ac0e39bcc1dffdaf6ba18559774362cec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0e39bcc1dffdaf6ba18559774362cec">MR_ObjectMeshHolder_getFacesColorMap</a> (const <a class="el" href="MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this)</td></tr>
-<tr class="memitem:abc0e4eb6cf422edf49183fe0f8722728" id="r_abc0e4eb6cf422edf49183fe0f8722728"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc0e4eb6cf422edf49183fe0f8722728">MR_ObjectMeshHolder_setFacesColorMap</a> (<a class="el" href="MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> facesColorMap_pass_by, <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *facesColorMap)</td></tr>
-<tr class="memitem:abb62ab934571744bf6ffb2fd974163af" id="r_abb62ab934571744bf6ffb2fd974163af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb62ab934571744bf6ffb2fd974163af">MR_ObjectMeshHolder_updateFacesColorMap</a> (<a class="el" href="MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this, <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *updated)</td></tr>
+<tr class="memitem:ac0e39bcc1dffdaf6ba18559774362cec" id="r_ac0e39bcc1dffdaf6ba18559774362cec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0e39bcc1dffdaf6ba18559774362cec">MR_ObjectMeshHolder_getFacesColorMap</a> (const <a class="el" href="MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this)</td></tr>
+<tr class="memitem:abc0e4eb6cf422edf49183fe0f8722728" id="r_abc0e4eb6cf422edf49183fe0f8722728"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc0e4eb6cf422edf49183fe0f8722728">MR_ObjectMeshHolder_setFacesColorMap</a> (<a class="el" href="MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> facesColorMap_pass_by, <a class="el" href="MRCtm_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *facesColorMap)</td></tr>
+<tr class="memitem:abb62ab934571744bf6ffb2fd974163af" id="r_abb62ab934571744bf6ffb2fd974163af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb62ab934571744bf6ffb2fd974163af">MR_ObjectMeshHolder_updateFacesColorMap</a> (<a class="el" href="MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this, <a class="el" href="MRCtm_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *updated)</td></tr>
 <tr class="memitem:ad603cd213ec033d605d1747f25098779" id="r_ad603cd213ec033d605d1747f25098779"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad603cd213ec033d605d1747f25098779">MR_ObjectMeshHolder_setEdgeWidth</a> (<a class="el" href="MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this, float edgeWidth)</td></tr>
 <tr class="memitem:ab3a6148520f5c0be505b9b318d037b0d" id="r_ab3a6148520f5c0be505b9b318d037b0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3a6148520f5c0be505b9b318d037b0d">MR_ObjectMeshHolder_getEdgeWidth</a> (const <a class="el" href="MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this)</td></tr>
 <tr class="memitem:a56cbec77b64b2451522e81376324f4ed" id="r_a56cbec77b64b2451522e81376324f4ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56cbec77b64b2451522e81376324f4ed">MR_ObjectMeshHolder_setPointSize</a> (<a class="el" href="MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this, float size)</td></tr>
@@ -400,8 +395,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a25f9393f9a2b8093568f3ab2e991c21a" id="r_a25f9393f9a2b8093568f3ab2e991c21a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25f9393f9a2b8093568f3ab2e991c21a">MR_ObjectMeshHolder_addTag</a> (<a class="el" href="MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this, const char *tag, const char *tag_end)</td></tr>
 <tr class="memitem:a638fd31bcf68da716fad7ac4b90ca6a0" id="r_a638fd31bcf68da716fad7ac4b90ca6a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a638fd31bcf68da716fad7ac4b90ca6a0">MR_ObjectMeshHolder_removeTag</a> (<a class="el" href="MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this, const char *tag, const char *tag_end)</td></tr>
 <tr class="memitem:a3e3ab1af88ad8de33b69e11ce69b7b8b" id="r_a3e3ab1af88ad8de33b69e11ce69b7b8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e3ab1af88ad8de33b69e11ce69b7b8b">MR_ObjectMeshHolder_getSharedPtr</a> (const <a class="el" href="MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this)</td></tr>
-<tr class="memitem:a9db402ef29ab738a18f88dadcbcbd047" id="r_a9db402ef29ab738a18f88dadcbcbd047"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9db402ef29ab738a18f88dadcbcbd047">MR_defaultSerializeMeshFormat</a> (void)</td></tr>
-<tr class="memitem:aad9419407aaea662a3117bcb33440cbb" id="r_aad9419407aaea662a3117bcb33440cbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad9419407aaea662a3117bcb33440cbb">MR_setDefaultSerializeMeshFormat</a> (const char *newFormat, const char *newFormat_end)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a9393bfa09d7423f464d34331c430af03" name="a9393bfa09d7423f464d34331c430af03"></a>
@@ -442,30 +435,13 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="aef00701a9f40fa9ae8341987a432b50ba01dab9a99ed6c31fa53d1a56d9a7534f" name="aef00701a9f40fa9ae8341987a432b50ba01dab9a99ed6c31fa53d1a56d9a7534f"></a>MR_MeshVisualizePropertyType_OnlyOddFragments&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aef00701a9f40fa9ae8341987a432b50ba252c2e47feb4779b3a7d19ad765ee284" name="aef00701a9f40fa9ae8341987a432b50ba252c2e47feb4779b3a7d19ad765ee284"></a>MR_MeshVisualizePropertyType_BordersHighlight&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aef00701a9f40fa9ae8341987a432b50badc51713b2c841b8631e8fa4bf825248a" name="aef00701a9f40fa9ae8341987a432b50badc51713b2c841b8631e8fa4bf825248a"></a>MR_MeshVisualizePropertyType_PolygonOffsetFromCamera&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aef00701a9f40fa9ae8341987a432b50ba224896e4c0e52ab0e15fbc29cd92759e" name="aef00701a9f40fa9ae8341987a432b50ba224896e4c0e52ab0e15fbc29cd92759e"></a>MR_MeshVisualizePropertyType_CullBackFaces&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aef00701a9f40fa9ae8341987a432b50ba54141b91c07c95a797ef0bb214ee2431" name="aef00701a9f40fa9ae8341987a432b50ba54141b91c07c95a797ef0bb214ee2431"></a>MR_MeshVisualizePropertyType__count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a9db402ef29ab738a18f88dadcbcbd047" name="a9db402ef29ab738a18f88dadcbcbd047"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9db402ef29ab738a18f88dadcbcbd047">&#9670;&#160;</a></span>MR_defaultSerializeMeshFormat()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_defaultSerializeMeshFormat </td>
-          <td>(</td>
-          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>returns file extension used to serialize ObjectMeshHolder by default (if not overridden in specific object), the string starts with '.' Generated from function <span class="tt">MR::defaultSerializeMeshFormat</span>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
-
-</div>
-</div>
 <a id="ad6652d6d0a589616653839fc3d849b86" name="ad6652d6d0a589616653839fc3d849b86"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad6652d6d0a589616653839fc3d849b86">&#9670;&#160;</a></span>MR_ObjectMeshHolder_actualSerializeFormat()</h2>
 
@@ -480,7 +456,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns overriden file extension used to serialize mesh inside this object if set, or defaultSerializeMeshFormat().c_str() otherwise; never returns nullptr Generated from method <span class="tt">MR::ObjectMeshHolder::actualSerializeFormat</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+<p>returns overriden file extension used to serialize mesh inside this object if set, or SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) otherwise; never returns nullptr Generated from method <span class="tt">MR::ObjectMeshHolder::actualSerializeFormat</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -1391,7 +1367,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> * MR_ObjectMeshHolder_getFacesColorMap </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> * MR_ObjectMeshHolder_getFacesColorMap </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -3092,7 +3068,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns overriden file extension used to serialize mesh inside this object, nullptr means defaultSerializeMeshFormat() Generated from method <span class="tt">MR::ObjectMeshHolder::serializeFormat</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+<p>returns overriden file extension used to serialize mesh inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) Generated from method <span class="tt">MR::ObjectMeshHolder::serializeFormat</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -3539,7 +3515,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *</td>          <td class="paramname"><span class="paramname"><em>facesColorMap</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *</td>          <td class="paramname"><span class="paramname"><em>facesColorMap</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4041,7 +4017,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>overrides file extension used to serialize mesh inside this object: must start from '.', nullptr means serialize in defaultSerializeMeshFormat() Generated from method <span class="tt">MR::ObjectMeshHolder::setSerializeFormat</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+<p>overrides file extension used to serialize mesh inside this object: must start from '.', nullptr means serialize in SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) Generated from method <span class="tt">MR::ObjectMeshHolder::setSerializeFormat</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -4810,7 +4786,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *</td>          <td class="paramname"><span class="paramname"><em>updated</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *</td>          <td class="paramname"><span class="paramname"><em>updated</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5057,28 +5033,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>returns xfs for all viewports, combined into a single object Generated from method <span class="tt">MR::ObjectMeshHolder::xfsForAllViewports</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
-
-</div>
-</div>
-<a id="aad9419407aaea662a3117bcb33440cbb" name="aad9419407aaea662a3117bcb33440cbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad9419407aaea662a3117bcb33440cbb">&#9670;&#160;</a></span>MR_setDefaultSerializeMeshFormat()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_setDefaultSerializeMeshFormat </td>
-          <td>(</td>
-          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>newFormat</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>newFormat_end</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>sets file extension used to serialize serialize ObjectMeshHolder by default (if not overridden in specific object), the string must start from '.'; Generated from function <span class="tt">MR::setDefaultSerializeMeshFormat</span>. Parameter <span class="tt">newFormat</span> can not be null. If <span class="tt">newFormat_end</span> is null, then <span class="tt">newFormat</span> is assumed to be null-terminated. </p>
 
 </div>
 </div>

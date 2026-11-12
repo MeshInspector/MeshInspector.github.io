@@ -6,7 +6,6 @@ var classMR_1_1Const__Vector__Int__MRFaceId =
     [ "Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html#ad35034134bf33427c0f027d30648d474", null ],
     [ "Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html#a33ddca290e7f9fabbe54e57381c32af2", null ],
     [ "Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html#abdfd8bbbe92f8658a3ad38e1a751a063", null ],
-    [ "Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html#a0a07e06193ad595cc6f85a075384b2d8", null ],
     [ "back", "classMR_1_1Const__Vector__Int__MRFaceId.html#af7426bf05556fdd833ba041f40925267", null ],
     [ "backId", "classMR_1_1Const__Vector__Int__MRFaceId.html#a834cde3725c0c6718af5db1da654bc25", null ],
     [ "beginId", "classMR_1_1Const__Vector__Int__MRFaceId.html#aea6a7f3ea60e209e29787f4afbd28fa6", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__Vector__Int__MRFaceId =
     [ "Equals", "classMR_1_1Const__Vector__Int__MRFaceId.html#a4f35b648d2d38e0c740e90b3205ec8ba", null ],
     [ "Equals", "classMR_1_1Const__Vector__Int__MRFaceId.html#a2ec9b6057cb51db25c34d57b1ab7a7cf", null ],
     [ "front", "classMR_1_1Const__Vector__Int__MRFaceId.html#a36018c49c5688f8b569a99c90f64fbea", null ],
-    [ "GetEnumerator", "classMR_1_1Const__Vector__Int__MRFaceId.html#a0c980eaf8c46b8e7d58194cbaa80f571", null ],
     [ "heapBytes", "classMR_1_1Const__Vector__Int__MRFaceId.html#a66d0201c774041bf84a610ddd4493bb3", null ],
-    [ "operator Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html#a2b53441fca005a90a67eaf0a706233e7", null ],
+    [ "maxSize", "classMR_1_1Const__Vector__Int__MRFaceId.html#a30fd468df8f9b570a9abb86984b4a96a", null ],
     [ "operator!=", "classMR_1_1Const__Vector__Int__MRFaceId.html#a33ec15c2f24f96ed4bf9addc5fadb962", null ],
     [ "operator==", "classMR_1_1Const__Vector__Int__MRFaceId.html#a8654d333db0b4246657d95f255884d01", null ],
     [ "size", "classMR_1_1Const__Vector__Int__MRFaceId.html#a8d9060f47c1c4911b656bc03d8102f5b", null ],
     [ "this[MR.FaceId i]", "classMR_1_1Const__Vector__Int__MRFaceId.html#a74606f8655f785327eaa8ad657fce4ba", null ],
-    [ "vec", "classMR_1_1Const__Vector__Int__MRFaceId.html#a0d2e3af57b59a156f328a17d18505a67", null ]
+    [ "vec", "classMR_1_1Const__Vector__Int__MRFaceId.html#a85a4fb58ba99e4d7fb356a573f8c84c6", null ]
 ];

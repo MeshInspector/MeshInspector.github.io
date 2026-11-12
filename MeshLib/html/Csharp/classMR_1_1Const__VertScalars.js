@@ -6,7 +6,6 @@ var classMR_1_1Const__VertScalars =
     [ "Const_VertScalars", "classMR_1_1Const__VertScalars.html#a174bdce8dadf8bc008d096e04ac60b6b", null ],
     [ "Const_VertScalars", "classMR_1_1Const__VertScalars.html#ad09e2936a354498f8d5a0ec707be02dd", null ],
     [ "Const_VertScalars", "classMR_1_1Const__VertScalars.html#afe58eaa971f9ec18fe87a2e48179d9e2", null ],
-    [ "Const_VertScalars", "classMR_1_1Const__VertScalars.html#a65261e9d7b8c1bd7b5175c49890569b7", null ],
     [ "back", "classMR_1_1Const__VertScalars.html#ab5588844a3e2b392475230f6ea5e516e", null ],
     [ "backId", "classMR_1_1Const__VertScalars.html#a2e5be76d10fd48c03dc6097eeb8914f5", null ],
     [ "beginId", "classMR_1_1Const__VertScalars.html#a20d17b6ff94dd240f9b21961e9a64612", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__VertScalars =
     [ "Equals", "classMR_1_1Const__VertScalars.html#ab5b185bcecab4afd4ec04e1cf68c7e8b", null ],
     [ "Equals", "classMR_1_1Const__VertScalars.html#a704580c771ccc50c8e5d27469eb04784", null ],
     [ "front", "classMR_1_1Const__VertScalars.html#a19b4f286af3f97bae80a59c8d00b725c", null ],
-    [ "GetEnumerator", "classMR_1_1Const__VertScalars.html#a9b48eaa96c3f3d008bd4bf0e93f7f672", null ],
     [ "heapBytes", "classMR_1_1Const__VertScalars.html#a46be4373cd1771fa63e7f09aa111654e", null ],
-    [ "operator Const_VertScalars", "classMR_1_1Const__VertScalars.html#aba966ff39befe14ad0b135ebe418937f", null ],
+    [ "maxSize", "classMR_1_1Const__VertScalars.html#ace0d4081cef0377d62d0d336ef303c75", null ],
     [ "operator!=", "classMR_1_1Const__VertScalars.html#aef045a133fa5640169bd1a9dfa49f629", null ],
     [ "operator==", "classMR_1_1Const__VertScalars.html#ab42d21c2fb1f16d14b171371b803e056", null ],
     [ "size", "classMR_1_1Const__VertScalars.html#a35dbcc7f8446236d0858de7573661cdb", null ],
     [ "this[MR.VertId i]", "classMR_1_1Const__VertScalars.html#aeabd9e49969b815d892afb2e20c250f6", null ],
-    [ "vec", "classMR_1_1Const__VertScalars.html#a6fd6d6841d6425be7e1c15181b48f64e", null ]
+    [ "vec", "classMR_1_1Const__VertScalars.html#a46fed20d97794272c30e678737ce7d70", null ]
 ];

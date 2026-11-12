@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -183,7 +176,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
-<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only strictly necessary for the bindings (to make <span class="tt"><a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a></span> a complete type). <br /></td></tr>
 <tr class="memitem:MR_3A_3AUI" id="r_MR_3A_3AUI"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI.html">MR::UI</a></td></tr>
 <tr class="memitem:MR_3A_3AUI_3A_3Adetail" id="r_MR_3A_3AUI_3A_3Adetail"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1detail.html">MR::UI::detail</a></td></tr>
 <tr class="memitem:MR_3A_3AUI_3A_3AStateStorage" id="r_MR_3A_3AUI_3A_3AStateStorage"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1StateStorage.html">MR::UI::StateStorage</a></td></tr>
@@ -299,6 +292,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:gaaef133295e612ebeb0b2d3286d560f43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws multiline text input, should be used instead of <span class="tt">ImGui::InputTextMultiline()</span>.  <br /></td></tr>
 <tr class="memitem:gad3a22ba617eb135e3d33c413f0ed69cb" id="r_gad3a22ba617eb135e3d33c413f0ed69cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gad3a22ba617eb135e3d33c413f0ed69cb">MR::UI::inputTextIntoArrayMultiline</a> (const char *label, char *buf, size_t buf_size, const ImVec2 &amp;<a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>=ImVec2(), ImGuiInputTextFlags flags=0, ImGuiInputTextCallback callback=nullptr, void *user_data=nullptr)</td></tr>
 <tr class="memdesc:gad3a22ba617eb135e3d33c413f0ed69cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">This overload is for arrays, as opposed to <span class="tt">std::string</span>s.  <br /></td></tr>
+<tr class="memitem:ga88665ed611febf297256684cbbc454e5" id="r_ga88665ed611febf297256684cbbc454e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga88665ed611febf297256684cbbc454e5">MR::UI::inputTextMultilineWithHint</a> (const char *label, const char *hint, std::string &amp;str, const ImVec2 &amp;<a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>=ImVec2(), ImGuiInputTextFlags flags=0, ImGuiInputTextCallback callback=nullptr, void *user_data=nullptr)</td></tr>
+<tr class="memdesc:ga88665ed611febf297256684cbbc454e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <span class="tt"><a class="el" href="group__GeneralGroup.html#gaaef133295e612ebeb0b2d3286d560f43" title="Draws multiline text input, should be used instead of ImGui::InputTextMultiline().">inputTextMultiline()</a></span>, but shows the given hint in the field while the text is empty.  <br /></td></tr>
+<tr class="memitem:ga0241bd9f8e1f4378528ee8b076099a6b" id="r_ga0241bd9f8e1f4378528ee8b076099a6b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0241bd9f8e1f4378528ee8b076099a6b">MR::UI::inputTextIntoArrayMultilineWithHint</a> (const char *label, const char *hint, char *buf, size_t buf_size, const ImVec2 &amp;<a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>=ImVec2(), ImGuiInputTextFlags flags=0, ImGuiInputTextCallback callback=nullptr, void *user_data=nullptr)</td></tr>
+<tr class="memdesc:ga0241bd9f8e1f4378528ee8b076099a6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This overload is for arrays, as opposed to <span class="tt">std::string</span>s.  <br /></td></tr>
 <tr class="memitem:ga7312b1606a282f1ad4353afcc7d20b0e" id="r_ga7312b1606a282f1ad4353afcc7d20b0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7312b1606a282f1ad4353afcc7d20b0e">MR::UI::inputTextMultilineFullyScrollable</a> (<a class="el" href="structMR_1_1UI_1_1CachedTextSize.html">CachedTextSize</a> &amp;cache, const char *label, std::string &amp;str, const ImVec2 &amp;<a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>=ImVec2(), ImGuiInputTextFlags flags=0, ImGuiInputTextCallback callback=nullptr, void *user_data=nullptr)</td></tr>
 <tr class="memdesc:ga7312b1606a282f1ad4353afcc7d20b0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This version adds a horizontal scrollbar. Also it never draws the label, and uses full window width by default (so you can pass <span class="tt">0</span> as width).  <br /></td></tr>
 <tr class="memitem:ga13a9f801e26e30dff13981ea3479195f" id="r_ga13a9f801e26e30dff13981ea3479195f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga13a9f801e26e30dff13981ea3479195f">MR::UI::inputTextIntoArrayMultilineFullyScrollable</a> (<a class="el" href="structMR_1_1UI_1_1CachedTextSize.html">CachedTextSize</a> &amp;cache, const char *label, char *buf, size_t buf_size, const ImVec2 &amp;<a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>=ImVec2(), ImGuiInputTextFlags flags=0, ImGuiInputTextCallback callback=nullptr, void *user_data=nullptr)</td></tr>

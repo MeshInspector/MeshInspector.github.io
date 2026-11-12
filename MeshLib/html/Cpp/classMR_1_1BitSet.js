@@ -1,12 +1,15 @@
 var classMR_1_1BitSet =
 [
+    [ "Counts", "structMR_1_1BitSet_1_1Counts.html", "structMR_1_1BitSet_1_1Counts" ],
     [ "block_type", "classMR_1_1BitSet.html#ace77355bd95e75d56e1bfab444eefb3e", null ],
+    [ "Blocks", "classMR_1_1BitSet.html#aaf7f9f34876917a42537ea9da0d7be57", null ],
     [ "IndexType", "classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9", null ],
     [ "size_type", "classMR_1_1BitSet.html#a029565ede6f02c029a79d6821794eca3", null ],
     [ "BitSet", "classMR_1_1BitSet.html#a466f41a196180947a6b55ce01eb5f761", null ],
     [ "BitSet", "classMR_1_1BitSet.html#afab07406cee38429e04894dd1de6f202", null ],
     [ "all", "classMR_1_1BitSet.html#a112ab209d0b98ba80237157538fe4f30", null ],
     [ "any", "classMR_1_1BitSet.html#a51f26b5e2a5f81eed95766439f200000", null ],
+    [ "atomicTestSet", "classMR_1_1BitSet.html#a2681ea331742547c197cd373884d917c", null ],
     [ "autoResizeSet", "classMR_1_1BitSet.html#a737f8cc71944c7c750f8eeba4028ac17", null ],
     [ "autoResizeSet", "classMR_1_1BitSet.html#ab61cde9e7da6d5d6c75fefd11e2e6a24", null ],
     [ "autoResizeTestSet", "classMR_1_1BitSet.html#a84a9273303ae000bcf94b893a298eb95", null ],
@@ -15,6 +18,7 @@ var classMR_1_1BitSet =
     [ "capacity", "classMR_1_1BitSet.html#ad5356319788e20bd77294c90f6b72ea1", null ],
     [ "clear", "classMR_1_1BitSet.html#a911e2daac2bf0277dfa9759afa552795", null ],
     [ "count", "classMR_1_1BitSet.html#afc187206a3427ae8c94638dd893f922a", null ],
+    [ "countBitsAndBlocks", "classMR_1_1BitSet.html#a59ea8e43bbe9292d964b5674ce3c891c", null ],
     [ "empty", "classMR_1_1BitSet.html#a68591813e27420d51ac2dbe237e85d36", null ],
     [ "endId", "classMR_1_1BitSet.html#a1f947bfd0ac71d4db95bbf1402d27ddf", null ],
     [ "find_first", "classMR_1_1BitSet.html#ac8e1e2ea2d5a77114c44b2d32f3e9e8b", null ],
@@ -56,8 +60,8 @@ var classMR_1_1BitSet =
     [ "test_set", "classMR_1_1BitSet.html#a85be34ba3bb731ce828ca21c67b1413c", null ],
     [ "uncheckedTest", "classMR_1_1BitSet.html#a88d7cb003f37bb4ff177bf6082074305", null ],
     [ "uncheckedTestSet", "classMR_1_1BitSet.html#aa1f040574bd60bfde685c9747f1e689c", null ],
-    [ "begin", "classMR_1_1BitSet.html#ad10eef891e591ca10e1d3328b630615b", null ],
-    [ "end", "classMR_1_1BitSet.html#a6da7329d948ae26caf06d68118aa5dc4", null ],
+    [ "begin", "classMR_1_1BitSet.html#a2f5e8b404f7cb0db092f6f5070530477", null ],
+    [ "end", "classMR_1_1BitSet.html#a0971e70b40f3a1f525922c4191716cbe", null ],
     [ "operator<<", "classMR_1_1BitSet.html#a6a67416a17d4bee21a1d349ba0e9b7f1", null ],
     [ "operator>>", "classMR_1_1BitSet.html#aadab48850b173a8c3542b620d35b4960", null ]
 ];

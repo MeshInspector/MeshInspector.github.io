@@ -1,7 +1,7 @@
 var classMR_1_1SaveSettings =
 [
     [ "SaveSettings", "classMR_1_1SaveSettings.html#ae4cf7617b98c26fe584e4f7594cc49d6", null ],
-    [ "SaveSettings", "classMR_1_1SaveSettings.html#ae32fd1e9ebaed5a1dd7578c700bd3380", null ],
+    [ "SaveSettings", "classMR_1_1SaveSettings.html#a239a406934f30ce8cb89e764f91ed4a6", null ],
     [ "SaveSettings", "classMR_1_1SaveSettings.html#a9ef910af319f987f5ac113a74802ced3", null ],
     [ "SaveSettings", "classMR_1_1SaveSettings.html#ab4bbb1235275abac6d3bdb8595450a3f", null ],
     [ "SaveSettings", "classMR_1_1SaveSettings.html#ad16752a9c1c605e496c0c05f990c7000", null ],
@@ -11,7 +11,7 @@ var classMR_1_1SaveSettings =
     [ "materialName", "classMR_1_1SaveSettings.html#ab4a8f94855513131d90009abf7dfcc2c", null ],
     [ "onlyValidPoints", "classMR_1_1SaveSettings.html#a035062075a5d478d4550b55b8488db94", null ],
     [ "packPrimitives", "classMR_1_1SaveSettings.html#aeb80d4ac925f2e4a6956484b77b526bc", null ],
-    [ "primitiveColors", "classMR_1_1SaveSettings.html#a3e17691d8cd4c8ed81002b0da79672c4", null ],
+    [ "primitiveColors", "classMR_1_1SaveSettings.html#ab065c7be729d7bd92655c01cd04a2ca8", null ],
     [ "progress", "classMR_1_1SaveSettings.html#a2db28e4449528ee19634a01d654f48f0", null ],
     [ "saveTriCornerUVCoords", "classMR_1_1SaveSettings.html#aa29226c15a161c3a56ac2778d007f8af", null ],
     [ "solidColor", "classMR_1_1SaveSettings.html#aa1caab12117b57c3e08054cfaddf977e", null ],

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,21 +133,31 @@ $(function(){initNavTree('classmrmeshpy_1_1GridToMeshSettings.html','','classmrm
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1GridToMeshSettings-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.GridToMeshSettings Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for mrmeshpy.GridToMeshSettings:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmrmeshpy_1_1GridToMeshSettings.png" usemap="#mrmeshpy_2EGridToMeshSettings_map" alt=""/>
+  <map id="mrmeshpy_2EGridToMeshSettings_map" name="mrmeshpy_2EGridToMeshSettings_map">
+<area href="classmrmeshpy_1_1ConstGridToMeshSettings.html" alt="mrmeshpy.ConstGridToMeshSettings" shape="rect" coords="0,0,218,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a82f55d43ee3ebcc074c4769bb4fad0de" id="r_a82f55d43ee3ebcc074c4769bb4fad0de"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82f55d43ee3ebcc074c4769bb4fad0de">__init__</a> (self)</td></tr>
-<tr class="memitem:a28bc50f0d081b5c066e9343b0bb6b3a1" id="r_a28bc50f0d081b5c066e9343b0bb6b3a1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28bc50f0d081b5c066e9343b0bb6b3a1">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1GridToMeshSettings.html">GridToMeshSettings</a> arg0)</td></tr>
-<tr class="memitem:aaa3c5b98881385ba210cb5fb812fe9c1" id="r_aaa3c5b98881385ba210cb5fb812fe9c1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa3c5b98881385ba210cb5fb812fe9c1">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> <a class="el" href="#ab02e091f82cd4421d16e437e5463c761">voxelSize</a>, float <a class="el" href="#aba0bad833e406ab42af696d38e81be61">isoValue</a>, float <a class="el" href="#af029edffb86bd3baf346c9dcbf5087be">adaptivity</a>, int <a class="el" href="#a987331deb90884a867427a56ac716b78">maxFaces</a>, int <a class="el" href="#a122fa0eccbb01097c71d40b5d07ca869">maxVertices</a>, bool relaxDisorientedTriangles, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> <a class="el" href="#aff338b058789a81e9e047604d6d91498">cb</a>)</td></tr>
+<tr class="memitem:a46b4cf0f190eebb8e4829bbc87ba3a08" id="r_a46b4cf0f190eebb8e4829bbc87ba3a08"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46b4cf0f190eebb8e4829bbc87ba3a08">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html">ConstGridToMeshSettings</a> arg0)</td></tr>
+<tr class="memitem:a18f5eddc6ccd4be0da79c2249efb6399" id="r_a18f5eddc6ccd4be0da79c2249efb6399"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18f5eddc6ccd4be0da79c2249efb6399">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> <a class="el" href="#ab02e091f82cd4421d16e437e5463c761">voxelSize</a>, float <a class="el" href="#aba0bad833e406ab42af696d38e81be61">isoValue</a>, float <a class="el" href="#af029edffb86bd3baf346c9dcbf5087be">adaptivity</a>, int <a class="el" href="#a987331deb90884a867427a56ac716b78">maxFaces</a>, int <a class="el" href="#a122fa0eccbb01097c71d40b5d07ca869">maxVertices</a>, bool <a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#a3cfaa26e0831f22e3bbaf550d1e6f1ff">relaxDisorientedTriangles</a>, <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> <a class="el" href="#aff338b058789a81e9e047604d6d91498">cb</a>)</td></tr>
+<tr class="memitem:a4752c4106eea22e15cf1af73b8e4a34a" id="r_a4752c4106eea22e15cf1af73b8e4a34a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GridToMeshSettings.html">GridToMeshSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4752c4106eea22e15cf1af73b8e4a34a">assign</a> (self, <a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html">ConstGridToMeshSettings</a> other)</td></tr>
 <tr class="memitem:af029edffb86bd3baf346c9dcbf5087be" id="r_af029edffb86bd3baf346c9dcbf5087be"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af029edffb86bd3baf346c9dcbf5087be">adaptivity</a> (self)</td></tr>
 <tr class="memitem:a1ec815949c9b4bb602ba53682e2a3cc9" id="r_a1ec815949c9b4bb602ba53682e2a3cc9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ec815949c9b4bb602ba53682e2a3cc9">adaptivity</a> (self, float arg1)</td></tr>
 <tr class="memitem:aff338b058789a81e9e047604d6d91498" id="r_aff338b058789a81e9e047604d6d91498"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff338b058789a81e9e047604d6d91498">cb</a> (self)</td></tr>
-<tr class="memitem:a78671d4ca42fa198f68daec743891ab0" id="r_a78671d4ca42fa198f68daec743891ab0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78671d4ca42fa198f68daec743891ab0">cb</a> (self, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> arg1)</td></tr>
+<tr class="memitem:a0cd62559b34dbe53f5a9c1290c604297" id="r_a0cd62559b34dbe53f5a9c1290c604297"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cd62559b34dbe53f5a9c1290c604297">cb</a> (self, <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> arg1)</td></tr>
 <tr class="memitem:aba0bad833e406ab42af696d38e81be61" id="r_aba0bad833e406ab42af696d38e81be61"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba0bad833e406ab42af696d38e81be61">isoValue</a> (self)</td></tr>
 <tr class="memitem:af36f3b59b8e6840640da24bdd4279b65" id="r_af36f3b59b8e6840640da24bdd4279b65"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af36f3b59b8e6840640da24bdd4279b65">isoValue</a> (self, float arg1)</td></tr>
 <tr class="memitem:a987331deb90884a867427a56ac716b78" id="r_a987331deb90884a867427a56ac716b78"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a987331deb90884a867427a56ac716b78">maxFaces</a> (self)</td></tr>
@@ -162,23 +165,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a122fa0eccbb01097c71d40b5d07ca869" id="r_a122fa0eccbb01097c71d40b5d07ca869"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a122fa0eccbb01097c71d40b5d07ca869">maxVertices</a> (self)</td></tr>
 <tr class="memitem:a43842d38f571c901db2dc7f9688163f3" id="r_a43842d38f571c901db2dc7f9688163f3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43842d38f571c901db2dc7f9688163f3">maxVertices</a> (self, int arg1)</td></tr>
 <tr class="memitem:ab02e091f82cd4421d16e437e5463c761" id="r_ab02e091f82cd4421d16e437e5463c761"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab02e091f82cd4421d16e437e5463c761">voxelSize</a> (self)</td></tr>
-<tr class="memitem:a5e0c70169d762bed91060bc3c8abea42" id="r_a5e0c70169d762bed91060bc3c8abea42"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e0c70169d762bed91060bc3c8abea42">voxelSize</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> arg1)</td></tr>
+<tr class="memitem:a21306b86cb19c9783c6d083e8d11e797" id="r_a21306b86cb19c9783c6d083e8d11e797"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21306b86cb19c9783c6d083e8d11e797">voxelSize</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> arg1)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstGridToMeshSettings"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstGridToMeshSettings')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html">mrmeshpy.ConstGridToMeshSettings</a></td></tr>
+<tr class="memitem:a4204c3ea762b4c3429994d742b861454 inherit pub_methods_classmrmeshpy_1_1ConstGridToMeshSettings" id="r_a4204c3ea762b4c3429994d742b861454"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#a4204c3ea762b4c3429994d742b861454">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:a3cfaa26e0831f22e3bbaf550d1e6f1ff inherit pub_methods_classmrmeshpy_1_1ConstGridToMeshSettings" id="r_a3cfaa26e0831f22e3bbaf550d1e6f1ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#a3cfaa26e0831f22e3bbaf550d1e6f1ff">relaxDisorientedTriangles</a> (self)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2f2f583f81b188ea30f91fecb4356ec8" id="r_a2f2f583f81b188ea30f91fecb4356ec8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f2f583f81b188ea30f91fecb4356ec8">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a8267e9af02649a43cc07895f21dc140b" id="r_a8267e9af02649a43cc07895f21dc140b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GridToMeshSettings.html">GridToMeshSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8267e9af02649a43cc07895f21dc140b">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a8267e9af02649a43cc07895f21dc140b" id="r_a8267e9af02649a43cc07895f21dc140b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GridToMeshSettings.html">GridToMeshSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8267e9af02649a43cc07895f21dc140b">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a139e6b2c559423d389aa50028909bcb5" id="r_a139e6b2c559423d389aa50028909bcb5"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a139e6b2c559423d389aa50028909bcb5">_offsetof_adaptivity</a> = 16</td></tr>
-<tr class="memitem:a3250f373b82fd433dbf209e58d427d38" id="r_a3250f373b82fd433dbf209e58d427d38"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3250f373b82fd433dbf209e58d427d38">_offsetof_cb</a> = 32</td></tr>
-<tr class="memitem:a0f96e300b49918762e155e1aafe99276" id="r_a0f96e300b49918762e155e1aafe99276"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f96e300b49918762e155e1aafe99276">_offsetof_isoValue</a> = 12</td></tr>
-<tr class="memitem:a49efa7062b1e9d57e4717f34484121ac" id="r_a49efa7062b1e9d57e4717f34484121ac"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49efa7062b1e9d57e4717f34484121ac">_offsetof_maxFaces</a> = 20</td></tr>
-<tr class="memitem:a7a6ae538083b722bbc64f002bbec2da8" id="r_a7a6ae538083b722bbc64f002bbec2da8"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a6ae538083b722bbc64f002bbec2da8">_offsetof_maxVertices</a> = 24</td></tr>
-<tr class="memitem:a7636401659ee143babe516a964ae5e87" id="r_a7636401659ee143babe516a964ae5e87"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7636401659ee143babe516a964ae5e87">_offsetof_relaxDisorientedTriangles</a> = 28</td></tr>
-<tr class="memitem:affe7a8a86512241e5739ea535ddf96c8" id="r_affe7a8a86512241e5739ea535ddf96c8"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affe7a8a86512241e5739ea535ddf96c8">_offsetof_voxelSize</a> = 0</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_static_attribs_classmrmeshpy_1_1ConstGridToMeshSettings"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classmrmeshpy_1_1ConstGridToMeshSettings')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Attributes inherited from <a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html">mrmeshpy.ConstGridToMeshSettings</a></td></tr>
+<tr class="memitem:a3b99cd7aabcf89f0d6718f9370d78529 inherit pro_static_attribs_classmrmeshpy_1_1ConstGridToMeshSettings" id="r_a3b99cd7aabcf89f0d6718f9370d78529"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#a3b99cd7aabcf89f0d6718f9370d78529">_offsetof_adaptivity</a> = 16</td></tr>
+<tr class="memitem:a36bb862a3794dac30cc3d784b31616cf inherit pro_static_attribs_classmrmeshpy_1_1ConstGridToMeshSettings" id="r_a36bb862a3794dac30cc3d784b31616cf"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#a36bb862a3794dac30cc3d784b31616cf">_offsetof_cb</a> = 32</td></tr>
+<tr class="memitem:af02abf64a188456ade6bb309f9556a54 inherit pro_static_attribs_classmrmeshpy_1_1ConstGridToMeshSettings" id="r_af02abf64a188456ade6bb309f9556a54"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#af02abf64a188456ade6bb309f9556a54">_offsetof_isoValue</a> = 12</td></tr>
+<tr class="memitem:aa777819304a932ce872095286a20a5e1 inherit pro_static_attribs_classmrmeshpy_1_1ConstGridToMeshSettings" id="r_aa777819304a932ce872095286a20a5e1"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#aa777819304a932ce872095286a20a5e1">_offsetof_maxFaces</a> = 20</td></tr>
+<tr class="memitem:aa6021014d6e62e91821411a4e2654e11 inherit pro_static_attribs_classmrmeshpy_1_1ConstGridToMeshSettings" id="r_aa6021014d6e62e91821411a4e2654e11"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#aa6021014d6e62e91821411a4e2654e11">_offsetof_maxVertices</a> = 24</td></tr>
+<tr class="memitem:ae940ead87c3f6f1eeba37a8fdee5123f inherit pro_static_attribs_classmrmeshpy_1_1ConstGridToMeshSettings" id="r_ae940ead87c3f6f1eeba37a8fdee5123f"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#ae940ead87c3f6f1eeba37a8fdee5123f">_offsetof_relaxDisorientedTriangles</a> = 28</td></tr>
+<tr class="memitem:a26dc9555053fd3c92dedce47f32639b7 inherit pro_static_attribs_classmrmeshpy_1_1ConstGridToMeshSettings" id="r_a26dc9555053fd3c92dedce47f32639b7"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#a26dc9555053fd3c92dedce47f32639b7">_offsetof_voxelSize</a> = 0</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::GridToMeshSettings
@@ -231,8 +236,8 @@ parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorith
 
 </div>
 </div>
-<a id="a28bc50f0d081b5c066e9343b0bb6b3a1" name="a28bc50f0d081b5c066e9343b0bb6b3a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28bc50f0d081b5c066e9343b0bb6b3a1">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+<a id="a46b4cf0f190eebb8e4829bbc87ba3a08" name="a46b4cf0f190eebb8e4829bbc87ba3a08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46b4cf0f190eebb8e4829bbc87ba3a08">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -245,7 +250,7 @@ parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorith
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GridToMeshSettings.html">GridToMeshSettings</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html">ConstGridToMeshSettings</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -253,8 +258,8 @@ parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorith
 </pre> 
 </div>
 </div>
-<a id="aaa3c5b98881385ba210cb5fb812fe9c1" name="aaa3c5b98881385ba210cb5fb812fe9c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa3c5b98881385ba210cb5fb812fe9c1">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
+<a id="a18f5eddc6ccd4be0da79c2249efb6399" name="a18f5eddc6ccd4be0da79c2249efb6399"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18f5eddc6ccd4be0da79c2249efb6399">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -267,7 +272,7 @@ parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorith
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>voxelSize</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>voxelSize</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -297,7 +302,7 @@ parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorith
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -322,6 +327,8 @@ parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorith
 </div><div class="memdoc">
 <pre class="fragment">adaptivity - [0.0;1.0] ratio of combining small triangles into bigger ones (curvature can be lost on high values)
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#a48e887466b4e0f69716fe35a22b7a5aa">mrmeshpy.ConstGridToMeshSettings</a>.</p>
+
 </div>
 </div>
 <a id="a1ec815949c9b4bb602ba53682e2a3cc9" name="a1ec815949c9b4bb602ba53682e2a3cc9"></a>
@@ -339,6 +346,30 @@ parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorith
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">adaptivity - [0.0;1.0] ratio of combining small triangles into bigger ones (curvature can be lost on high values)
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#a48e887466b4e0f69716fe35a22b7a5aa">mrmeshpy.ConstGridToMeshSettings</a>.</p>
+
+</div>
+</div>
+<a id="a4752c4106eea22e15cf1af73b8e4a34a" name="a4752c4106eea22e15cf1af73b8e4a34a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4752c4106eea22e15cf1af73b8e4a34a">&#9670;&#160;</a></span>assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GridToMeshSettings.html">GridToMeshSettings</a> mrmeshpy.GridToMeshSettings.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html">ConstGridToMeshSettings</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -361,10 +392,12 @@ parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorith
 </div><div class="memdoc">
 <pre class="fragment">to receive progress and request cancellation
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#a5d5616c61a1adfd88672b64b69c2c0ee">mrmeshpy.ConstGridToMeshSettings</a>.</p>
+
 </div>
 </div>
-<a id="a78671d4ca42fa198f68daec743891ab0" name="a78671d4ca42fa198f68daec743891ab0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78671d4ca42fa198f68daec743891ab0">&#9670;&#160;</a></span>cb() <span class="overload">[2/2]</span></h2>
+<a id="a0cd62559b34dbe53f5a9c1290c604297" name="a0cd62559b34dbe53f5a9c1290c604297"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cd62559b34dbe53f5a9c1290c604297">&#9670;&#160;</a></span>cb() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -377,10 +410,13 @@ parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorith
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">to receive progress and request cancellation
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#a5d5616c61a1adfd88672b64b69c2c0ee">mrmeshpy.ConstGridToMeshSettings</a>.</p>
 
 </div>
 </div>
@@ -400,6 +436,8 @@ parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorith
 </div><div class="memdoc">
 <pre class="fragment">layer of grid with this value would be converted in mesh; isoValue can be negative only in level set grids
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#a0a6c4d81647d329f3cfd82cc1b7aeabc">mrmeshpy.ConstGridToMeshSettings</a>.</p>
+
 </div>
 </div>
 <a id="af36f3b59b8e6840640da24bdd4279b65" name="af36f3b59b8e6840640da24bdd4279b65"></a>
@@ -420,6 +458,9 @@ parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorith
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">layer of grid with this value would be converted in mesh; isoValue can be negative only in level set grids
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#a0a6c4d81647d329f3cfd82cc1b7aeabc">mrmeshpy.ConstGridToMeshSettings</a>.</p>
 
 </div>
 </div>
@@ -439,6 +480,8 @@ parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorith
 </div><div class="memdoc">
 <pre class="fragment">if the mesh exceeds this number of faces, an error returns
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#a9523a1de7a8774a5ef3d27830406a813">mrmeshpy.ConstGridToMeshSettings</a>.</p>
+
 </div>
 </div>
 <a id="a7b949e1f0eceac05229fdda69c7bdb06" name="a7b949e1f0eceac05229fdda69c7bdb06"></a>
@@ -459,6 +502,9 @@ parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorith
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">if the mesh exceeds this number of faces, an error returns
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#a9523a1de7a8774a5ef3d27830406a813">mrmeshpy.ConstGridToMeshSettings</a>.</p>
 
 </div>
 </div>
@@ -478,6 +524,8 @@ parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorith
 </div><div class="memdoc">
 <pre class="fragment">if the mesh exceeds this number of vertices, an error returns
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#ac4cfcdd87366a7d1783c4a993bf12246">mrmeshpy.ConstGridToMeshSettings</a>.</p>
+
 </div>
 </div>
 <a id="a43842d38f571c901db2dc7f9688163f3" name="a43842d38f571c901db2dc7f9688163f3"></a>
@@ -498,64 +546,9 @@ parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorith
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8267e9af02649a43cc07895f21dc140b" name="a8267e9af02649a43cc07895f21dc140b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8267e9af02649a43cc07895f21dc140b">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GridToMeshSettings.html">GridToMeshSettings</a> mrmeshpy.GridToMeshSettings.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8267e9af02649a43cc07895f21dc140b" name="a8267e9af02649a43cc07895f21dc140b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8267e9af02649a43cc07895f21dc140b">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1GridToMeshSettings.html">GridToMeshSettings</a> mrmeshpy.GridToMeshSettings.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<pre class="fragment">if the mesh exceeds this number of vertices, an error returns
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#ac4cfcdd87366a7d1783c4a993bf12246">mrmeshpy.ConstGridToMeshSettings</a>.</p>
 
 </div>
 </div>
@@ -575,10 +568,12 @@ parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorith
 </div><div class="memdoc">
 <pre class="fragment">the size of each voxel in the grid
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#ac596a4d9ab04cdff5c6ca40ee38e3c53">mrmeshpy.ConstGridToMeshSettings</a>.</p>
+
 </div>
 </div>
-<a id="a5e0c70169d762bed91060bc3c8abea42" name="a5e0c70169d762bed91060bc3c8abea42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e0c70169d762bed91060bc3c8abea42">&#9670;&#160;</a></span>voxelSize() <span class="overload">[2/2]</span></h2>
+<a id="a21306b86cb19c9783c6d083e8d11e797" name="a21306b86cb19c9783c6d083e8d11e797"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21306b86cb19c9783c6d083e8d11e797">&#9670;&#160;</a></span>voxelSize() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -591,165 +586,13 @@ parameters of OpenVDB Grid to Mesh conversion using Dual Marching Cubes algorith
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a139e6b2c559423d389aa50028909bcb5" name="a139e6b2c559423d389aa50028909bcb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a139e6b2c559423d389aa50028909bcb5">&#9670;&#160;</a></span>_offsetof_adaptivity</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.GridToMeshSettings._offsetof_adaptivity = 16</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3250f373b82fd433dbf209e58d427d38" name="a3250f373b82fd433dbf209e58d427d38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3250f373b82fd433dbf209e58d427d38">&#9670;&#160;</a></span>_offsetof_cb</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.GridToMeshSettings._offsetof_cb = 32</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0f96e300b49918762e155e1aafe99276" name="a0f96e300b49918762e155e1aafe99276"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f96e300b49918762e155e1aafe99276">&#9670;&#160;</a></span>_offsetof_isoValue</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.GridToMeshSettings._offsetof_isoValue = 12</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a49efa7062b1e9d57e4717f34484121ac" name="a49efa7062b1e9d57e4717f34484121ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49efa7062b1e9d57e4717f34484121ac">&#9670;&#160;</a></span>_offsetof_maxFaces</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.GridToMeshSettings._offsetof_maxFaces = 20</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7a6ae538083b722bbc64f002bbec2da8" name="a7a6ae538083b722bbc64f002bbec2da8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a6ae538083b722bbc64f002bbec2da8">&#9670;&#160;</a></span>_offsetof_maxVertices</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.GridToMeshSettings._offsetof_maxVertices = 24</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7636401659ee143babe516a964ae5e87" name="a7636401659ee143babe516a964ae5e87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7636401659ee143babe516a964ae5e87">&#9670;&#160;</a></span>_offsetof_relaxDisorientedTriangles</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.GridToMeshSettings._offsetof_relaxDisorientedTriangles = 28</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="affe7a8a86512241e5739ea535ddf96c8" name="affe7a8a86512241e5739ea535ddf96c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affe7a8a86512241e5739ea535ddf96c8">&#9670;&#160;</a></span>_offsetof_voxelSize</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.GridToMeshSettings._offsetof_voxelSize = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<pre class="fragment">the size of each voxel in the grid
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ConstGridToMeshSettings.html#ac596a4d9ab04cdff5c6ca40ee38e3c53">mrmeshpy.ConstGridToMeshSettings</a>.</p>
 
 </div>
 </div>

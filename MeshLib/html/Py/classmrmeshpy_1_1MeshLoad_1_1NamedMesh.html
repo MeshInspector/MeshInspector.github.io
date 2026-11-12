@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,42 +133,67 @@ $(function(){initNavTree('classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html','','class
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1MeshLoad_1_1NamedMesh-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.MeshLoad.NamedMesh Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for mrmeshpy.MeshLoad.NamedMesh:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmrmeshpy_1_1MeshLoad_1_1NamedMesh.png" usemap="#mrmeshpy_2EMeshLoad_2ENamedMesh_map" alt=""/>
+  <map id="mrmeshpy_2EMeshLoad_2ENamedMesh_map" name="mrmeshpy_2EMeshLoad_2ENamedMesh_map">
+<area href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html" alt="mrmeshpy.MeshLoad.ConstNamedMesh" shape="rect" coords="0,0,238,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a424bcaab63205ba108399f5b95c914b5" id="r_a424bcaab63205ba108399f5b95c914b5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a424bcaab63205ba108399f5b95c914b5">__init__</a> (self)</td></tr>
-<tr class="memitem:a2dca933081cc7c2e0acb74bff5daa841" id="r_a2dca933081cc7c2e0acb74bff5daa841"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dca933081cc7c2e0acb74bff5daa841">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html">MeshLoad.NamedMesh</a> arg0)</td></tr>
-<tr class="memitem:ac6d23a99cfe7be2d897ac75b12be35c1" id="r_ac6d23a99cfe7be2d897ac75b12be35c1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6d23a99cfe7be2d897ac75b12be35c1">__init__</a> (self, str name, <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1VertCoords2.html">VertCoords2</a> uvCoords, <a class="el" href="classmrmeshpy_1_1VertColors.html">VertColors</a> colors, <a class="el" href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html">Vector_std_filesystem_path_TextureId</a> textureFiles, <a class="el" href="classmrmeshpy_1_1TexturePerFace.html">TexturePerFace</a> texturePerFace, <a class="el" href="classmrmeshpy_1_1std__optional__Color.html">std_optional_Color</a> diffuseColor, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> <a class="el" href="#a13ecc50b77895b387b011d2b76e7ac7a">xf</a>, int <a class="el" href="#ae9aca214dd6221616c1a92ed29dc84ea">skippedFaceCount</a>, int <a class="el" href="#a47f48500939b970e1576cc63ea2da12b">duplicatedVertexCount</a>)</td></tr>
+<tr class="memitem:ab4c2b2dcc9b6c753cb554e6475505b6f" id="r_ab4c2b2dcc9b6c753cb554e6475505b6f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4c2b2dcc9b6c753cb554e6475505b6f">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html">MeshLoad.ConstNamedMesh</a> arg0)</td></tr>
+<tr class="memitem:ac4fe9c5c74719a8820c5b93baa42681b" id="r_ac4fe9c5c74719a8820c5b93baa42681b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4fe9c5c74719a8820c5b93baa42681b">__init__</a> (self, str <a class="el" href="#adab4186f6b4c953d2f5ac431eb4ed5b3">name</a>, <a class="el" href="classmrmeshpy_1_1ConstMesh.html">ConstMesh</a> <a class="el" href="#afb46a3acecbbe80d3184714fd160721b">mesh</a>, <a class="el" href="classmrmeshpy_1_1ConstVertCoords2.html">ConstVertCoords2</a> <a class="el" href="#acb1d58682232b7c7ab3d6dea928857e5">uvCoords</a>, <a class="el" href="classmrmeshpy_1_1ConstVertColors.html">ConstVertColors</a> <a class="el" href="#a196d83b9a5e338e0279695e7516a8919">colors</a>, <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a> <a class="el" href="#a77b73d06ebe23d30fa1f2c76e05cb156">textureFiles</a>, <a class="el" href="classmrmeshpy_1_1ConstTexturePerFace.html">ConstTexturePerFace</a> <a class="el" href="#a539d2bea69b5510a75f34118c213272d">texturePerFace</a>, <a class="el" href="classmrmeshpy_1_1Const__std__optional__Color.html">Const_std_optional_Color</a> <a class="el" href="#a947d4ed3a8ecc4312290f0de4649a5b1">diffuseColor</a>, <a class="el" href="classmrmeshpy_1_1ConstAffineXf3f.html">ConstAffineXf3f</a> <a class="el" href="#a13ecc50b77895b387b011d2b76e7ac7a">xf</a>, int <a class="el" href="#ae9aca214dd6221616c1a92ed29dc84ea">skippedFaceCount</a>, int <a class="el" href="#a47f48500939b970e1576cc63ea2da12b">duplicatedVertexCount</a>)</td></tr>
+<tr class="memitem:ac9aef472290912475cb8169391a99572" id="r_ac9aef472290912475cb8169391a99572"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html">MeshLoad.NamedMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9aef472290912475cb8169391a99572">assign</a> (self, <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html">MeshLoad.ConstNamedMesh</a> other)</td></tr>
+<tr class="memitem:a196d83b9a5e338e0279695e7516a8919" id="r_a196d83b9a5e338e0279695e7516a8919"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertColors.html">VertColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a196d83b9a5e338e0279695e7516a8919">colors</a> (self)</td></tr>
+<tr class="memitem:a46b70c88519f01e0c79d60f10ba502c9" id="r_a46b70c88519f01e0c79d60f10ba502c9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46b70c88519f01e0c79d60f10ba502c9">colors</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVertColors.html">ConstVertColors</a> arg1)</td></tr>
+<tr class="memitem:a947d4ed3a8ecc4312290f0de4649a5b1" id="r_a947d4ed3a8ecc4312290f0de4649a5b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__optional__Color.html">std_optional_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a947d4ed3a8ecc4312290f0de4649a5b1">diffuseColor</a> (self)</td></tr>
+<tr class="memitem:a47d4d524b9cc4ab49d3e8b3fe9f0a487" id="r_a47d4d524b9cc4ab49d3e8b3fe9f0a487"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47d4d524b9cc4ab49d3e8b3fe9f0a487">diffuseColor</a> (self, <a class="el" href="classmrmeshpy_1_1Const__std__optional__Color.html">Const_std_optional_Color</a> arg1)</td></tr>
 <tr class="memitem:a47f48500939b970e1576cc63ea2da12b" id="r_a47f48500939b970e1576cc63ea2da12b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47f48500939b970e1576cc63ea2da12b">duplicatedVertexCount</a> (self)</td></tr>
 <tr class="memitem:afb45757ac9dace916e99706aa8cf5c1b" id="r_afb45757ac9dace916e99706aa8cf5c1b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb45757ac9dace916e99706aa8cf5c1b">duplicatedVertexCount</a> (self, int arg1)</td></tr>
+<tr class="memitem:afb46a3acecbbe80d3184714fd160721b" id="r_afb46a3acecbbe80d3184714fd160721b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb46a3acecbbe80d3184714fd160721b">mesh</a> (self)</td></tr>
+<tr class="memitem:aea8288eae5b5184b3f74496f7c0c8149" id="r_aea8288eae5b5184b3f74496f7c0c8149"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea8288eae5b5184b3f74496f7c0c8149">mesh</a> (self, <a class="el" href="classmrmeshpy_1_1ConstMesh.html">ConstMesh</a> arg1)</td></tr>
+<tr class="memitem:adab4186f6b4c953d2f5ac431eb4ed5b3" id="r_adab4186f6b4c953d2f5ac431eb4ed5b3"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adab4186f6b4c953d2f5ac431eb4ed5b3">name</a> (self)</td></tr>
+<tr class="memitem:a5b95776f7ba823b66eeb1d8de576516d" id="r_a5b95776f7ba823b66eeb1d8de576516d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b95776f7ba823b66eeb1d8de576516d">name</a> (self, str arg1)</td></tr>
 <tr class="memitem:ae9aca214dd6221616c1a92ed29dc84ea" id="r_ae9aca214dd6221616c1a92ed29dc84ea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9aca214dd6221616c1a92ed29dc84ea">skippedFaceCount</a> (self)</td></tr>
 <tr class="memitem:aaf0a4abce9cabb08bab45bb745d27f1f" id="r_aaf0a4abce9cabb08bab45bb745d27f1f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf0a4abce9cabb08bab45bb745d27f1f">skippedFaceCount</a> (self, int arg1)</td></tr>
+<tr class="memitem:a77b73d06ebe23d30fa1f2c76e05cb156" id="r_a77b73d06ebe23d30fa1f2c76e05cb156"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html">Vector_std_filesystem_path_TextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77b73d06ebe23d30fa1f2c76e05cb156">textureFiles</a> (self)</td></tr>
+<tr class="memitem:aef9b72c7a44b32f4d985280403214914" id="r_aef9b72c7a44b32f4d985280403214914"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef9b72c7a44b32f4d985280403214914">textureFiles</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a> arg1)</td></tr>
+<tr class="memitem:a539d2bea69b5510a75f34118c213272d" id="r_a539d2bea69b5510a75f34118c213272d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1TexturePerFace.html">TexturePerFace</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a539d2bea69b5510a75f34118c213272d">texturePerFace</a> (self)</td></tr>
+<tr class="memitem:a8ea7dd961a11d42104fb993c61c9c70e" id="r_a8ea7dd961a11d42104fb993c61c9c70e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ea7dd961a11d42104fb993c61c9c70e">texturePerFace</a> (self, <a class="el" href="classmrmeshpy_1_1ConstTexturePerFace.html">ConstTexturePerFace</a> arg1)</td></tr>
+<tr class="memitem:acb1d58682232b7c7ab3d6dea928857e5" id="r_acb1d58682232b7c7ab3d6dea928857e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertCoords2.html">VertCoords2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb1d58682232b7c7ab3d6dea928857e5">uvCoords</a> (self)</td></tr>
+<tr class="memitem:af3b1fa48b694b69f4a59aafe5be265dc" id="r_af3b1fa48b694b69f4a59aafe5be265dc"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3b1fa48b694b69f4a59aafe5be265dc">uvCoords</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVertCoords2.html">ConstVertCoords2</a> arg1)</td></tr>
 <tr class="memitem:a13ecc50b77895b387b011d2b76e7ac7a" id="r_a13ecc50b77895b387b011d2b76e7ac7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13ecc50b77895b387b011d2b76e7ac7a">xf</a> (self)</td></tr>
-<tr class="memitem:a6bee57bc7e7887b27f48ed9f2d84184e" id="r_a6bee57bc7e7887b27f48ed9f2d84184e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bee57bc7e7887b27f48ed9f2d84184e">xf</a> (self, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> arg1)</td></tr>
+<tr class="memitem:a568716aa5bf58da578c4fb884dd7ed60" id="r_a568716aa5bf58da578c4fb884dd7ed60"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a568716aa5bf58da578c4fb884dd7ed60">xf</a> (self, <a class="el" href="classmrmeshpy_1_1ConstAffineXf3f.html">ConstAffineXf3f</a> arg1)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html">mrmeshpy.MeshLoad.ConstNamedMesh</a></td></tr>
+<tr class="memitem:a50785fb812ebd3960773d277445d3ace inherit pub_methods_classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh" id="r_a50785fb812ebd3960773d277445d3ace"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a50785fb812ebd3960773d277445d3ace">__init__</a> (self, *args, **kwargs)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aaa45dc56f28260c3bd37a11faa0f5d3c" id="r_aaa45dc56f28260c3bd37a11faa0f5d3c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa45dc56f28260c3bd37a11faa0f5d3c">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a235bdcaa7bc3b421d7aa06ffe61c1dd1" id="r_a235bdcaa7bc3b421d7aa06ffe61c1dd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html">MeshLoad.NamedMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a235bdcaa7bc3b421d7aa06ffe61c1dd1">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a235bdcaa7bc3b421d7aa06ffe61c1dd1" id="r_a235bdcaa7bc3b421d7aa06ffe61c1dd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html">MeshLoad.NamedMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a235bdcaa7bc3b421d7aa06ffe61c1dd1">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:ad7638938dd65f7e5d7a3ae85cf673fcc" id="r_ad7638938dd65f7e5d7a3ae85cf673fcc"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7638938dd65f7e5d7a3ae85cf673fcc">_offsetof_colors</a> = 328</td></tr>
-<tr class="memitem:a0fe320f20816e420ce4edf67e8824892" id="r_a0fe320f20816e420ce4edf67e8824892"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fe320f20816e420ce4edf67e8824892">_offsetof_diffuseColor</a> = 400</td></tr>
-<tr class="memitem:ab308feb6c4163bea39288a556888729b" id="r_ab308feb6c4163bea39288a556888729b"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab308feb6c4163bea39288a556888729b">_offsetof_duplicatedVertexCount</a> = 460</td></tr>
-<tr class="memitem:ac917175cd49af18fd1aa886c7afe59ee" id="r_ac917175cd49af18fd1aa886c7afe59ee"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac917175cd49af18fd1aa886c7afe59ee">_offsetof_mesh</a> = 32</td></tr>
-<tr class="memitem:a720391e89f5388c67d050caf763099eb" id="r_a720391e89f5388c67d050caf763099eb"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a720391e89f5388c67d050caf763099eb">_offsetof_name</a> = 0</td></tr>
-<tr class="memitem:a22964abf8ebee77e930488c33d640d2e" id="r_a22964abf8ebee77e930488c33d640d2e"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22964abf8ebee77e930488c33d640d2e">_offsetof_skippedFaceCount</a> = 456</td></tr>
-<tr class="memitem:a69b9afa6cb36c6c1d834b301249ae149" id="r_a69b9afa6cb36c6c1d834b301249ae149"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69b9afa6cb36c6c1d834b301249ae149">_offsetof_textureFiles</a> = 352</td></tr>
-<tr class="memitem:a24964fd2b582ae39c8e5035ea1d42004" id="r_a24964fd2b582ae39c8e5035ea1d42004"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24964fd2b582ae39c8e5035ea1d42004">_offsetof_texturePerFace</a> = 376</td></tr>
-<tr class="memitem:a7ceae50e8044e275ae221d24f8ba0326" id="r_a7ceae50e8044e275ae221d24f8ba0326"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ceae50e8044e275ae221d24f8ba0326">_offsetof_uvCoords</a> = 304</td></tr>
-<tr class="memitem:a1fa7bb62d841af2ae95d9434b14e77a5" id="r_a1fa7bb62d841af2ae95d9434b14e77a5"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fa7bb62d841af2ae95d9434b14e77a5">_offsetof_xf</a> = 408</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_static_attribs_classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Attributes inherited from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html">mrmeshpy.MeshLoad.ConstNamedMesh</a></td></tr>
+<tr class="memitem:a0ef6dcd4d33a64e38491fedf45baf1f6 inherit pro_static_attribs_classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh" id="r_a0ef6dcd4d33a64e38491fedf45baf1f6"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a0ef6dcd4d33a64e38491fedf45baf1f6">_offsetof_colors</a> = 328</td></tr>
+<tr class="memitem:a5d306a6e4c7e500d5df1f68e6c00c342 inherit pro_static_attribs_classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh" id="r_a5d306a6e4c7e500d5df1f68e6c00c342"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a5d306a6e4c7e500d5df1f68e6c00c342">_offsetof_diffuseColor</a> = 400</td></tr>
+<tr class="memitem:a519f56da5c9e0322acdc21c23065f954 inherit pro_static_attribs_classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh" id="r_a519f56da5c9e0322acdc21c23065f954"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a519f56da5c9e0322acdc21c23065f954">_offsetof_duplicatedVertexCount</a> = 460</td></tr>
+<tr class="memitem:abcd6b17299db3b2da6abe3a06c0e20d4 inherit pro_static_attribs_classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh" id="r_abcd6b17299db3b2da6abe3a06c0e20d4"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#abcd6b17299db3b2da6abe3a06c0e20d4">_offsetof_mesh</a> = 32</td></tr>
+<tr class="memitem:a2429349d30fa9686ae457aa657c18820 inherit pro_static_attribs_classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh" id="r_a2429349d30fa9686ae457aa657c18820"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a2429349d30fa9686ae457aa657c18820">_offsetof_name</a> = 0</td></tr>
+<tr class="memitem:a26ceabbf0432c95746fad67d58a4d285 inherit pro_static_attribs_classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh" id="r_a26ceabbf0432c95746fad67d58a4d285"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a26ceabbf0432c95746fad67d58a4d285">_offsetof_skippedFaceCount</a> = 456</td></tr>
+<tr class="memitem:a791a9075d00dd96a4ad6142252869984 inherit pro_static_attribs_classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh" id="r_a791a9075d00dd96a4ad6142252869984"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a791a9075d00dd96a4ad6142252869984">_offsetof_textureFiles</a> = 352</td></tr>
+<tr class="memitem:aec9edab8a03ebcd838f1de7dc8cbc9cc inherit pro_static_attribs_classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh" id="r_aec9edab8a03ebcd838f1de7dc8cbc9cc"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#aec9edab8a03ebcd838f1de7dc8cbc9cc">_offsetof_texturePerFace</a> = 376</td></tr>
+<tr class="memitem:a1711c0cb2746e48b5641c052da7286b0 inherit pro_static_attribs_classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh" id="r_a1711c0cb2746e48b5641c052da7286b0"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a1711c0cb2746e48b5641c052da7286b0">_offsetof_uvCoords</a> = 304</td></tr>
+<tr class="memitem:ae5156c9c6dbf5b87668aa00ae6016723 inherit pro_static_attribs_classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh" id="r_ae5156c9c6dbf5b87668aa00ae6016723"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#ae5156c9c6dbf5b87668aa00ae6016723">_offsetof_xf</a> = 408</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::MeshLoad::NamedMesh
@@ -226,8 +244,8 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2dca933081cc7c2e0acb74bff5daa841" name="a2dca933081cc7c2e0acb74bff5daa841"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2dca933081cc7c2e0acb74bff5daa841">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+<a id="ab4c2b2dcc9b6c753cb554e6475505b6f" name="ab4c2b2dcc9b6c753cb554e6475505b6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4c2b2dcc9b6c753cb554e6475505b6f">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240,7 +258,7 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html">MeshLoad.NamedMesh</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html">MeshLoad.ConstNamedMesh</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -248,8 +266,8 @@ Static Protected Attributes</h2></td></tr>
 </pre> 
 </div>
 </div>
-<a id="ac6d23a99cfe7be2d897ac75b12be35c1" name="ac6d23a99cfe7be2d897ac75b12be35c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6d23a99cfe7be2d897ac75b12be35c1">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
+<a id="ac4fe9c5c74719a8820c5b93baa42681b" name="ac4fe9c5c74719a8820c5b93baa42681b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4fe9c5c74719a8820c5b93baa42681b">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -267,37 +285,37 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstMesh.html">ConstMesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertCoords2.html">VertCoords2</a></td>          <td class="paramname"><span class="paramname"><em>uvCoords</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVertCoords2.html">ConstVertCoords2</a></td>          <td class="paramname"><span class="paramname"><em>uvCoords</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertColors.html">VertColors</a></td>          <td class="paramname"><span class="paramname"><em>colors</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVertColors.html">ConstVertColors</a></td>          <td class="paramname"><span class="paramname"><em>colors</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html">Vector_std_filesystem_path_TextureId</a></td>          <td class="paramname"><span class="paramname"><em>textureFiles</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a></td>          <td class="paramname"><span class="paramname"><em>textureFiles</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1TexturePerFace.html">TexturePerFace</a></td>          <td class="paramname"><span class="paramname"><em>texturePerFace</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstTexturePerFace.html">ConstTexturePerFace</a></td>          <td class="paramname"><span class="paramname"><em>texturePerFace</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__optional__Color.html">std_optional_Color</a></td>          <td class="paramname"><span class="paramname"><em>diffuseColor</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__std__optional__Color.html">Const_std_optional_Color</a></td>          <td class="paramname"><span class="paramname"><em>diffuseColor</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstAffineXf3f.html">ConstAffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -316,6 +334,111 @@ Static Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ac9aef472290912475cb8169391a99572" name="ac9aef472290912475cb8169391a99572"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9aef472290912475cb8169391a99572">&#9670;&#160;</a></span>assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html">MeshLoad.NamedMesh</a> mrmeshpy.MeshLoad.NamedMesh.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html">MeshLoad.ConstNamedMesh</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a196d83b9a5e338e0279695e7516a8919" name="a196d83b9a5e338e0279695e7516a8919"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a196d83b9a5e338e0279695e7516a8919">&#9670;&#160;</a></span>colors() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VertColors.html">VertColors</a> mrmeshpy.MeshLoad.NamedMesh.colors </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#acd397949d27b03c1755127ae59580016">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
+
+</div>
+</div>
+<a id="a46b70c88519f01e0c79d60f10ba502c9" name="a46b70c88519f01e0c79d60f10ba502c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46b70c88519f01e0c79d60f10ba502c9">&#9670;&#160;</a></span>colors() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.MeshLoad.NamedMesh.colors </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVertColors.html">ConstVertColors</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#acd397949d27b03c1755127ae59580016">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
+
+</div>
+</div>
+<a id="a947d4ed3a8ecc4312290f0de4649a5b1" name="a947d4ed3a8ecc4312290f0de4649a5b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a947d4ed3a8ecc4312290f0de4649a5b1">&#9670;&#160;</a></span>diffuseColor() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__optional__Color.html">std_optional_Color</a> mrmeshpy.MeshLoad.NamedMesh.diffuseColor </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a76ab03da79ae93935d354c55516ce65f">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
+
+</div>
+</div>
+<a id="a47d4d524b9cc4ab49d3e8b3fe9f0a487" name="a47d4d524b9cc4ab49d3e8b3fe9f0a487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47d4d524b9cc4ab49d3e8b3fe9f0a487">&#9670;&#160;</a></span>diffuseColor() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.MeshLoad.NamedMesh.diffuseColor </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__std__optional__Color.html">Const_std_optional_Color</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a76ab03da79ae93935d354c55516ce65f">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
+
+</div>
+</div>
 <a id="a47f48500939b970e1576cc63ea2da12b" name="a47f48500939b970e1576cc63ea2da12b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a47f48500939b970e1576cc63ea2da12b">&#9670;&#160;</a></span>duplicatedVertexCount() <span class="overload">[1/2]</span></h2>
 
@@ -332,6 +455,8 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <pre class="fragment">counter of duplicated vertices (that created for resolve non-manifold geometry)
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#af54e9f15c7f5bfb6f64e7075eb278174">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
+
 </div>
 </div>
 <a id="afb45757ac9dace916e99706aa8cf5c1b" name="afb45757ac9dace916e99706aa8cf5c1b"></a>
@@ -352,64 +477,95 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">counter of duplicated vertices (that created for resolve non-manifold geometry)
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#af54e9f15c7f5bfb6f64e7075eb278174">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
 
 </div>
 </div>
-<a id="a235bdcaa7bc3b421d7aa06ffe61c1dd1" name="a235bdcaa7bc3b421d7aa06ffe61c1dd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a235bdcaa7bc3b421d7aa06ffe61c1dd1">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
+<a id="afb46a3acecbbe80d3184714fd160721b" name="afb46a3acecbbe80d3184714fd160721b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb46a3acecbbe80d3184714fd160721b">&#9670;&#160;</a></span>mesh() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html">MeshLoad.NamedMesh</a> mrmeshpy.MeshLoad.NamedMesh.operator </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mrmeshpy.MeshLoad.NamedMesh.mesh </td>
           <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a72031db7cb3e18391c161ee39968aa9e">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
+
+</div>
+</div>
+<a id="aea8288eae5b5184b3f74496f7c0c8149" name="aea8288eae5b5184b3f74496f7c0c8149"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea8288eae5b5184b3f74496f7c0c8149">&#9670;&#160;</a></span>mesh() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.MeshLoad.NamedMesh.mesh </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstMesh.html">ConstMesh</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a72031db7cb3e18391c161ee39968aa9e">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
 
 </div>
 </div>
-<a id="a235bdcaa7bc3b421d7aa06ffe61c1dd1" name="a235bdcaa7bc3b421d7aa06ffe61c1dd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a235bdcaa7bc3b421d7aa06ffe61c1dd1">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
+<a id="adab4186f6b4c953d2f5ac431eb4ed5b3" name="adab4186f6b4c953d2f5ac431eb4ed5b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adab4186f6b4c953d2f5ac431eb4ed5b3">&#9670;&#160;</a></span>name() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html">MeshLoad.NamedMesh</a> mrmeshpy.MeshLoad.NamedMesh.operator </td>
+          <td class="memname"> str mrmeshpy.MeshLoad.NamedMesh.name </td>
           <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">the name from the o line of the object; empty for the faces before the first o line, as for an o line without a name
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#aa899d1932d0d20dd364259eb1f70623e">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
+
+</div>
+</div>
+<a id="a5b95776f7ba823b66eeb1d8de576516d" name="a5b95776f7ba823b66eeb1d8de576516d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b95776f7ba823b66eeb1d8de576516d">&#9670;&#160;</a></span>name() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.MeshLoad.NamedMesh.name </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+<pre class="fragment">the name from the o line of the object; empty for the faces before the first o line, as for an o line without a name
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#aa899d1932d0d20dd364259eb1f70623e">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
 
 </div>
 </div>
@@ -429,6 +585,8 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <pre class="fragment">counter of skipped faces (faces than can't be created), not zero only if ObjLoadSettings.countSkippedFaces
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#af917c4da70c911f61886c9cf6ab00acb">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
+
 </div>
 </div>
 <a id="aaf0a4abce9cabb08bab45bb745d27f1f" name="aaf0a4abce9cabb08bab45bb745d27f1f"></a>
@@ -449,6 +607,139 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<pre class="fragment">counter of skipped faces (faces than can't be created), not zero only if ObjLoadSettings.countSkippedFaces
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#af917c4da70c911f61886c9cf6ab00acb">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
+
+</div>
+</div>
+<a id="a77b73d06ebe23d30fa1f2c76e05cb156" name="a77b73d06ebe23d30fa1f2c76e05cb156"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77b73d06ebe23d30fa1f2c76e05cb156">&#9670;&#160;</a></span>textureFiles() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html">Vector_std_filesystem_path_TextureId</a> mrmeshpy.MeshLoad.NamedMesh.textureFiles </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">texture files of the materials; an empty path stands for the faces without a texture
+(their material has no texture file or was not found), if other faces of the mesh have one
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a5eaedbdecc565e255ac38119ce56a4ef">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
+
+</div>
+</div>
+<a id="aef9b72c7a44b32f4d985280403214914" name="aef9b72c7a44b32f4d985280403214914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef9b72c7a44b32f4d985280403214914">&#9670;&#160;</a></span>textureFiles() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.MeshLoad.NamedMesh.textureFiles </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html">ConstVector_std_filesystem_path_TextureId</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">texture files of the materials; an empty path stands for the faces without a texture
+(their material has no texture file or was not found), if other faces of the mesh have one
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a5eaedbdecc565e255ac38119ce56a4ef">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
+
+</div>
+</div>
+<a id="a539d2bea69b5510a75f34118c213272d" name="a539d2bea69b5510a75f34118c213272d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a539d2bea69b5510a75f34118c213272d">&#9670;&#160;</a></span>texturePerFace() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1TexturePerFace.html">TexturePerFace</a> mrmeshpy.MeshLoad.NamedMesh.texturePerFace </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a3e72c99e823eb0b02ddd4f148eccfa38">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
+
+</div>
+</div>
+<a id="a8ea7dd961a11d42104fb993c61c9c70e" name="a8ea7dd961a11d42104fb993c61c9c70e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ea7dd961a11d42104fb993c61c9c70e">&#9670;&#160;</a></span>texturePerFace() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.MeshLoad.NamedMesh.texturePerFace </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstTexturePerFace.html">ConstTexturePerFace</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a3e72c99e823eb0b02ddd4f148eccfa38">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
+
+</div>
+</div>
+<a id="acb1d58682232b7c7ab3d6dea928857e5" name="acb1d58682232b7c7ab3d6dea928857e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb1d58682232b7c7ab3d6dea928857e5">&#9670;&#160;</a></span>uvCoords() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VertCoords2.html">VertCoords2</a> mrmeshpy.MeshLoad.NamedMesh.uvCoords </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a0e8b20d9a2c2a5c6e6a1e0b31c36fa01">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
+
+</div>
+</div>
+<a id="af3b1fa48b694b69f4a59aafe5be265dc" name="af3b1fa48b694b69f4a59aafe5be265dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3b1fa48b694b69f4a59aafe5be265dc">&#9670;&#160;</a></span>uvCoords() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.MeshLoad.NamedMesh.uvCoords </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVertCoords2.html">ConstVertCoords2</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#a0e8b20d9a2c2a5c6e6a1e0b31c36fa01">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
 
 </div>
 </div>
@@ -468,10 +759,12 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <pre class="fragment">transform of the loaded mesh, not identity only if ObjLoadSettings.customXf
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#aef8007aed1c01c583518213880a2a25e">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
+
 </div>
 </div>
-<a id="a6bee57bc7e7887b27f48ed9f2d84184e" name="a6bee57bc7e7887b27f48ed9f2d84184e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bee57bc7e7887b27f48ed9f2d84184e">&#9670;&#160;</a></span>xf() <span class="overload">[2/2]</span></h2>
+<a id="a568716aa5bf58da578c4fb884dd7ed60" name="a568716aa5bf58da578c4fb884dd7ed60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a568716aa5bf58da578c4fb884dd7ed60">&#9670;&#160;</a></span>xf() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -484,231 +777,13 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstAffineXf3f.html">ConstAffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ad7638938dd65f7e5d7a3ae85cf673fcc" name="ad7638938dd65f7e5d7a3ae85cf673fcc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7638938dd65f7e5d7a3ae85cf673fcc">&#9670;&#160;</a></span>_offsetof_colors</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.MeshLoad.NamedMesh._offsetof_colors = 328</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0fe320f20816e420ce4edf67e8824892" name="a0fe320f20816e420ce4edf67e8824892"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fe320f20816e420ce4edf67e8824892">&#9670;&#160;</a></span>_offsetof_diffuseColor</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.MeshLoad.NamedMesh._offsetof_diffuseColor = 400</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab308feb6c4163bea39288a556888729b" name="ab308feb6c4163bea39288a556888729b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab308feb6c4163bea39288a556888729b">&#9670;&#160;</a></span>_offsetof_duplicatedVertexCount</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.MeshLoad.NamedMesh._offsetof_duplicatedVertexCount = 460</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac917175cd49af18fd1aa886c7afe59ee" name="ac917175cd49af18fd1aa886c7afe59ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac917175cd49af18fd1aa886c7afe59ee">&#9670;&#160;</a></span>_offsetof_mesh</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.MeshLoad.NamedMesh._offsetof_mesh = 32</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a720391e89f5388c67d050caf763099eb" name="a720391e89f5388c67d050caf763099eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a720391e89f5388c67d050caf763099eb">&#9670;&#160;</a></span>_offsetof_name</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.MeshLoad.NamedMesh._offsetof_name = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a22964abf8ebee77e930488c33d640d2e" name="a22964abf8ebee77e930488c33d640d2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22964abf8ebee77e930488c33d640d2e">&#9670;&#160;</a></span>_offsetof_skippedFaceCount</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.MeshLoad.NamedMesh._offsetof_skippedFaceCount = 456</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a69b9afa6cb36c6c1d834b301249ae149" name="a69b9afa6cb36c6c1d834b301249ae149"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69b9afa6cb36c6c1d834b301249ae149">&#9670;&#160;</a></span>_offsetof_textureFiles</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.MeshLoad.NamedMesh._offsetof_textureFiles = 352</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a24964fd2b582ae39c8e5035ea1d42004" name="a24964fd2b582ae39c8e5035ea1d42004"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24964fd2b582ae39c8e5035ea1d42004">&#9670;&#160;</a></span>_offsetof_texturePerFace</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.MeshLoad.NamedMesh._offsetof_texturePerFace = 376</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7ceae50e8044e275ae221d24f8ba0326" name="a7ceae50e8044e275ae221d24f8ba0326"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ceae50e8044e275ae221d24f8ba0326">&#9670;&#160;</a></span>_offsetof_uvCoords</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.MeshLoad.NamedMesh._offsetof_uvCoords = 304</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1fa7bb62d841af2ae95d9434b14e77a5" name="a1fa7bb62d841af2ae95d9434b14e77a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fa7bb62d841af2ae95d9434b14e77a5">&#9670;&#160;</a></span>_offsetof_xf</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.MeshLoad.NamedMesh._offsetof_xf = 408</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<pre class="fragment">transform of the loaded mesh, not identity only if ObjLoadSettings.customXf
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1MeshLoad_1_1ConstNamedMesh.html#aef8007aed1c01c583518213880a2a25e">mrmeshpy.MeshLoad.ConstNamedMesh</a>.</p>
 
 </div>
 </div>

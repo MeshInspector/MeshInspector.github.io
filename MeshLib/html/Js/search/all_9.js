@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['icp_0',['ICP',['../classICP.html',1,'ICP'],['../classICP.html#a09dbac28a63c296be59f1b6481271e8a',1,'ICP::ICP(MeshOrPointsXf flt, MeshOrPointsXf ref, number samplingVoxelSize)'],['../classICP.html#a770878be33c4ff48b382d3b260b2eda6',1,'ICP::ICP(MeshOrPointsXf flt, MeshOrPointsXf ref, VertBitSet fltSamples, VertBitSet refSamples)']]],
+  ['icp_0',['ICP',['../classICP.html',1,'ICP'],['../classICP.html#a4404c0fbed08c955df9e4b66f040a9d7',1,'ICP::ICP(MeshOrPointsXf _0, MeshOrPointsXf _1, number _2)'],['../classICP.html#a3de6447a8a6a272213c908991e2988e9',1,'ICP::ICP(MeshOrPointsXf _0, MeshOrPointsXf _1, VertBitSet _2, VertBitSet _3)']]],
   ['icpexittype_1',['ICPExitType',['../bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85',1,'bindings.d.mts']]],
   ['icpmethod_2',['ICPMethod',['../bindings_8d_8mts.html#a75c2396affd27f8601376967f1783460',1,'bindings.d.mts']]],
   ['icpmode_3',['ICPMode',['../bindings_8d_8mts.html#ab0f27a69f0b8e996a72bc43cc628e17e',1,'bindings.d.mts']]],

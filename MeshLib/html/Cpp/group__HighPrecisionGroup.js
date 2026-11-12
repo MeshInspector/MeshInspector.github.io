@@ -69,9 +69,9 @@ var group__HighPrecisionGroup =
     [ "MR::Vector3i128fast", "group__HighPrecisionGroup.html#gae17811dbb1f4d3ba17f955bab2dab90d", null ],
     [ "MR::Vector3i128mul", "group__HighPrecisionGroup.html#ga8065860768f5dfd050e97b1b53d20b23", null ],
     [ "MR::Vector3i64mul", "group__HighPrecisionGroup.html#ga2290828b1eb673ce78c350b8c3b2b6cb", null ],
-    [ "MR::operator*", "group__HighPrecisionGroup.html#gacf1747776a123f6afdf52b1c766d5a15", null ],
-    [ "MR::operator*", "group__HighPrecisionGroup.html#ga15464bb6e2f869d91cb4a1583d4af1d4", null ],
-    [ "MR::operator*", "group__HighPrecisionGroup.html#ga8f43e802126c20691185376048e2fe69", null ],
-    [ "MR::toDouble", "group__HighPrecisionGroup.html#ga7494b779fa44082a4d511ef3c77597e6", null ],
-    [ "MR::toDouble", "group__HighPrecisionGroup.html#ga096c2c7825f1a47993ae9d976bacd68d", null ]
+    [ "MR::operator*", "group__HighPrecisionGroup.html#gaecdf817ffa38a7bad5a32666f7e71ab9", null ],
+    [ "MR::operator*", "group__HighPrecisionGroup.html#gafb082ddcbaf39f68c2ff73a88f4f1488", null ],
+    [ "MR::operator*", "group__HighPrecisionGroup.html#ga281730588547623992ca3f80b9eae433", null ],
+    [ "MR::toDouble", "group__HighPrecisionGroup.html#ga6575e8311c46a05ce2edc4ab8d1563b9", null ],
+    [ "MR::toDouble", "group__HighPrecisionGroup.html#ga4e3109c6b7c94099e5ccae5f083f5b5e", null ]
 ];

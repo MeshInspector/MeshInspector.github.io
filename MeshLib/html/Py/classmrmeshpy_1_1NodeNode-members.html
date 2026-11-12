@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -145,12 +138,15 @@ $(function(){initNavTree('classmrmeshpy_1_1NodeNode.html','',''); });
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html#afc6e345f70f26907037aec662ce01df3">__init__</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html">mrmeshpy.NodeNode</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html#a0734f64d843dd557caf7022bee8e578f">__init__</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html">mrmeshpy.NodeNode</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html#a872a28e6e65dd471462c3d37dcfe7204">__init__</a>(self, NodeNode arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html">mrmeshpy.NodeNode</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html#ac56b52a8ede6d0183ea636c2f31221e6">__init__</a>(self, NodeId aNode, NodeId bNode)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html">mrmeshpy.NodeNode</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html#a43434acdcfb657a356eeababdc910dec">_offsetof_aNode</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html">mrmeshpy.NodeNode</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html#a7b05255f2e40679ebf9ab280cc2a1123">_offsetof_bNode</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html">mrmeshpy.NodeNode</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html#af23dbb50ff30e7aaf19cbc6a5d052ab6">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html">mrmeshpy.NodeNode</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html#af23dbb50ff30e7aaf19cbc6a5d052ab6">operator</a>(*args, **kwargs)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html">mrmeshpy.NodeNode</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html#ac2bb62b502d4b0372fb4cf36a7b99350">__init__</a>(self, ConstNodeNode arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html">mrmeshpy.NodeNode</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html#a70e32fd1fdd8e1ad96b18e79d4090d50">__init__</a>(self, ConstNodeId aNode, ConstNodeId bNode)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html">mrmeshpy.NodeNode</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstNodeNode.html#a2d1ef68917b56bc999c43921a0d3efdc">_offsetof_aNode</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstNodeNode.html">mrmeshpy.ConstNodeNode</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstNodeNode.html#a1086dcc84ff3c8398499821f15842378">_offsetof_bNode</a></td><td class="entry"><a class="el" href="classmrmeshpy_1_1ConstNodeNode.html">mrmeshpy.ConstNodeNode</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html#a3312e4417f14adee07a0efc747abc308">aNode</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html">mrmeshpy.NodeNode</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html#a003f0f12110f4fadd44e49a5adb1393e">aNode</a>(self, ConstNodeId arg1)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html">mrmeshpy.NodeNode</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html#af99f95e4c4bb4667997bdaff2e86ba31">assign</a>(self, ConstNodeNode other)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html">mrmeshpy.NodeNode</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html#aa74321a22c5aa5ecade5eea35604a4b6">bNode</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html">mrmeshpy.NodeNode</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html#a69ce98219e1d5e81dd98d2511ba6d3d6">bNode</a>(self, ConstNodeId arg1)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1NodeNode.html">mrmeshpy.NodeNode</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

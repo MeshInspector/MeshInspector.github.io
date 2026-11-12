@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -197,7 +190,7 @@ $(function(){initNavTree('MRPolylineDecimate_8h_source.html','',''); });
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>}</div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:85</div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRVector.h:23</div></div>
+<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">Vector&lt;T&gt; is indexed by size_t.</div><div class="ttdef"><b>Definition</b> MRVector.h:24</div></div>
 <div class="ttc" id="agroup__DecimateGroup_html_ga45b98526f41bd7599cee507344ad60a1"><div class="ttname"><a href="group__DecimateGroup.html#ga45b98526f41bd7599cee507344ad60a1">MR::decimateContour</a></div><div class="ttdeci">DecimatePolylineResult decimateContour(Contour2f &amp;contour, const DecimatePolylineSettings2 &amp;settings={})</div><div class="ttdoc">Collapse edges in the contour according to the settings.</div></div>
 <div class="ttc" id="agroup__DecimateGroup_html_gaeafa3a500cea3d03dc8e011409571cac"><div class="ttname"><a href="group__DecimateGroup.html#gaeafa3a500cea3d03dc8e011409571cac">MR::decimatePolyline</a></div><div class="ttdeci">DecimatePolylineResult decimatePolyline(Polyline2 &amp;polyline, const DecimatePolylineSettings2 &amp;settings={})</div><div class="ttdoc">Collapse edges in the polyline according to the settings.</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga041fda2a9c1b5df5de8cb74bacbd7ff1"><div class="ttname"><a href="group__GeneralGroup.html#ga041fda2a9c1b5df5de8cb74bacbd7ff1">MR::DecimatePolylineSettings&lt; Vector2f &gt;::optimizeVertexPos</a></div><div class="ttdeci">bool optimizeVertexPos</div><div class="ttdef"><b>Definition</b> MRPolylineDecimate.h:37</div></div>
@@ -210,14 +203,14 @@ $(function(){initNavTree('MRPolylineDecimate_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_ga5e4317d37968dd6016c8fc5826f9e8f5"><div class="ttname"><a href="group__GeneralGroup.html#ga5e4317d37968dd6016c8fc5826f9e8f5">MR::DecimatePolylineResult::errorIntroduced</a></div><div class="ttdeci">float errorIntroduced</div><div class="ttdoc">Max different (as distance) between original contour and result contour.</div><div class="ttdef"><b>Definition</b> MRPolylineDecimate.h:87</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga68c78013b24475c60475093e77bbdeff"><div class="ttname"><a href="group__GeneralGroup.html#ga68c78013b24475c60475093e77bbdeff">MR::DecimatePolylineSettings&lt; Vector2f &gt;::stabilizer</a></div><div class="ttdeci">float stabilizer</div><div class="ttdef"><b>Definition</b> MRPolylineDecimate.h:33</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga6e7bbd2938192cd9a3d3616faa293ed9"><div class="ttname"><a href="group__GeneralGroup.html#ga6e7bbd2938192cd9a3d3616faa293ed9">MR::DecimatePolylineSettings2</a></div><div class="ttdeci">DecimatePolylineSettings&lt; Vector2f &gt; DecimatePolylineSettings2</div><div class="ttdef"><b>Definition</b> MRPolylineDecimate.h:77</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga98da94791426a3dbbdeb1a6b25801df6"><div class="ttname"><a href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">MR::Polyline2</a></div><div class="ttdeci">Polyline2</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:659</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga98da94791426a3dbbdeb1a6b25801df6"><div class="ttname"><a href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">MR::Polyline2</a></div><div class="ttdeci">Polyline2</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:685</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gac197ac53747aee8558fe409834910a4a"><div class="ttname"><a href="group__GeneralGroup.html#gac197ac53747aee8558fe409834910a4a">MR::DecimatePolylineSettings&lt; Vector2f &gt;::maxEdgeLen</a></div><div class="ttdeci">float maxEdgeLen</div><div class="ttdef"><b>Definition</b> MRPolylineDecimate.h:28</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gad58496f8458d8d5a517ba34926cb0c61"><div class="ttname"><a href="group__GeneralGroup.html#gad58496f8458d8d5a517ba34926cb0c61">MR::DecimatePolylineSettings&lt; Vector2f &gt;::adjustCollapse</a></div><div class="ttdeci">std::function&lt; void(UndirectedEdgeId ue, float &amp;collapseErrorSq, Vector2f &amp;collapsePos)&gt; adjustCollapse</div><div class="ttdef"><b>Definition</b> MRPolylineDecimate.h:67</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gadce38a07b8b04db0fe998e792e4a6e34"><div class="ttname"><a href="group__GeneralGroup.html#gadce38a07b8b04db0fe998e792e4a6e34">MR::DecimatePolylineSettings&lt; Vector2f &gt;::region</a></div><div class="ttdeci">VertBitSet * region</div><div class="ttdef"><b>Definition</b> MRPolylineDecimate.h:44</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gae829d8045ed74bf373bd86f2d835151a"><div class="ttname"><a href="group__GeneralGroup.html#gae829d8045ed74bf373bd86f2d835151a">MR::DecimatePolylineSettings&lt; Vector2f &gt;::preCollapse</a></div><div class="ttdeci">std::function&lt; bool(EdgeId edgeToCollapse, const Vector2f &amp;newEdgeOrgPos)&gt; preCollapse</div><div class="ttdef"><b>Definition</b> MRPolylineDecimate.h:57</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaf042d52b52cb89cb1dbf4a779d82f3c6"><div class="ttname"><a href="group__GeneralGroup.html#gaf042d52b52cb89cb1dbf4a779d82f3c6">MR::DecimatePolylineResult::vertsDeleted</a></div><div class="ttdeci">int vertsDeleted</div><div class="ttdoc">Number deleted verts. Same as the number of performed collapses.</div><div class="ttdef"><b>Definition</b> MRPolylineDecimate.h:86</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaf5825891f4645db66db82c3b6aa2cffe"><div class="ttname"><a href="group__GeneralGroup.html#gaf5825891f4645db66db82c3b6aa2cffe">MR::DecimatePolylineSettings&lt; Vector2f &gt;::touchBdVertices</a></div><div class="ttdeci">bool touchBdVertices</div><div class="ttdef"><b>Definition</b> MRPolylineDecimate.h:49</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1DecimatePolylineResult_html"><div class="ttname"><a href="structMR_1_1DecimatePolylineResult.html">MR::DecimatePolylineResult</a></div><div class="ttdoc">Results of MR::decimateContour.</div><div class="ttdef"><b>Definition</b> MRPolylineDecimate.h:85</div></div>
 <div class="ttc" id="astructMR_1_1DecimatePolylineSettings_html"><div class="ttname"><a href="structMR_1_1DecimatePolylineSettings.html">MR::DecimatePolylineSettings</a></div><div class="ttdoc">Parameters structure for MR::decimatePolyline.</div><div class="ttdef"><b>Definition</b> MRPolylineDecimate.h:23</div></div>
 </div><!-- fragment --></div><!-- contents -->

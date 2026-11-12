@@ -19,7 +19,9 @@ var MRPointToPlaneAligningTransform_8h =
     [ "MR_PointToPlaneAligningTransform_findBestRigidXfFixedRotationAxis", "MRPointToPlaneAligningTransform_8h.html#a9b254e7580fc89b8a1faacd9d1ff641c", null ],
     [ "MR_PointToPlaneAligningTransform_findBestRigidXfOrthogonalRotationAxis", "MRPointToPlaneAligningTransform_8h.html#a8549ebc35cd355a57163481787a60c06", null ],
     [ "MR_PointToPlaneAligningTransform_findBestTranslation", "MRPointToPlaneAligningTransform_8h.html#a47e2cd3a737f67b73befd2dc17b98ba8", null ],
+    [ "MR_PointToPlaneAligningTransform_getStabilizer", "MRPointToPlaneAligningTransform_8h.html#ad29526fb83b5d83b9fa62921265d6b1e", null ],
     [ "MR_PointToPlaneAligningTransform_OffsetMutablePtr", "MRPointToPlaneAligningTransform_8h.html#a8707062718441ba967d5850901e4e1c4", null ],
     [ "MR_PointToPlaneAligningTransform_OffsetPtr", "MRPointToPlaneAligningTransform_8h.html#a90a7b962a187b727fe673cd7d1c0b6b7", null ],
-    [ "MR_PointToPlaneAligningTransform_prepare", "MRPointToPlaneAligningTransform_8h.html#a901a6170e81559e87cddb00d55fbd949", null ]
+    [ "MR_PointToPlaneAligningTransform_prepare", "MRPointToPlaneAligningTransform_8h.html#a901a6170e81559e87cddb00d55fbd949", null ],
+    [ "MR_PointToPlaneAligningTransform_setStabilizer", "MRPointToPlaneAligningTransform_8h.html#a87d080e133cb15082d7b0abf9c5aad47", null ]
 ];

@@ -5,7 +5,7 @@ var structMR_1_1SaveSettings =
     [ "materialName", "group__GeneralGroup.html#ga3614a6ca71783b2dd64369d4f122ee69", null ],
     [ "onlyValidPoints", "group__GeneralGroup.html#ga88539fbafc85e15a6dbc49b2b3144a15", null ],
     [ "packPrimitives", "group__GeneralGroup.html#gaf59abe4d1987a4ccd1c117cfe7f3c160", null ],
-    [ "primitiveColors", "group__GeneralGroup.html#ga2adbb4514d02bbf6b87e95a090e1a2d9", null ],
+    [ "primitiveColors", "group__GeneralGroup.html#gae69bdaae52bb72f2d7c23b3d04d9d6d3", null ],
     [ "progress", "group__GeneralGroup.html#ga0f2bb31407f2693aa939c47e0052b527", null ],
     [ "saveTriCornerUVCoords", "group__GeneralGroup.html#gac0798760baa0755ad37dde251b754b9d", null ],
     [ "solidColor", "group__GeneralGroup.html#ga127d98f930cd561a8633297e3422f649", null ],

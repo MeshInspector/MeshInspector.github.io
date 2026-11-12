@@ -14,18 +14,15 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="description" content="Mesh ICP with MeshLib: find the rigid transformation that aligns one mesh to another by iterative closest point. Code in C++, Python, C, C# and JavaScript."/>
 <title>MeshLib Documentation: Mesh ICP</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -64,10 +61,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +70,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Documentation
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -144,44 +138,44 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <p>Example of mesh ICP (finding transformation to match objects)</p>
 <p>▶ <a href="https://demo.meshlib.io/#registration">See it live in the browser</a></p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRBox.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRICP.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRBox_8h.html">MRMesh/MRBox.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRICP_8h.html">MRMesh/MRICP.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Load meshes</span></div>
-<div class="line">    <span class="keyword">auto</span> meshFloatingRes = MR::MeshLoad::fromAnySupportedFormat( <span class="stringliteral">&quot;meshA.stl&quot;</span> );</div>
+<div class="line">    <span class="keyword">auto</span> meshFloatingRes = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;meshA.stl&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !meshFloatingRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; meshFloatingRes.error() &lt;&lt; std::endl;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
-<div class="line">    MR::Mesh&amp; meshFloating = *meshFloatingRes;</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a>&amp; meshFloating = *meshFloatingRes;</div>
 <div class="line"> </div>
-<div class="line">    <span class="keyword">auto</span> meshFixedRes = MR::MeshLoad::fromAnySupportedFormat( <span class="stringliteral">&quot;meshB.stl&quot;</span> );</div>
+<div class="line">    <span class="keyword">auto</span> meshFixedRes = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;meshB.stl&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !meshFixedRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; meshFixedRes.error() &lt;&lt; std::endl;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
-<div class="line">    MR::Mesh&amp; meshFixed = *meshFixedRes;</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a>&amp; meshFixed = *meshFixedRes;</div>
 <div class="line"></div>
 <div class="line">    <span class="comment">// Prepare ICP parameters</span></div>
-<div class="line">    <span class="keywordtype">float</span> diagonal = meshFixed.getBoundingBox().diagonal();</div>
-<div class="line">    <span class="keywordtype">float</span> icpSamplingVoxelSize = diagonal * 0.01f; <span class="comment">// To sample points from object</span></div>
-<div class="line">    MR::ICPProperties icpParams;</div>
-<div class="line">    icpParams.distThresholdSq = MR::sqr( diagonal * 0.1f ); <span class="comment">// Use points pairs with maximum distance specified</span></div>
-<div class="line">    icpParams.exitVal = diagonal * 0.003f; <span class="comment">// Stop when distance reached</span></div>
+<div class="line">    <span class="keywordtype">float</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> = meshFixed.getBoundingBox().diagonal();</div>
+<div class="line">    <span class="keywordtype">float</span> icpSamplingVoxelSize = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> * 0.01f; <span class="comment">// To sample points from object</span></div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a> icpParams;</div>
+<div class="line">    icpParams.distThresholdSq = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga2a8e1fa5c677ea23d7801ead67934dd7">MR::sqr</a>( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> * 0.1f ); <span class="comment">// Use points pairs with maximum distance specified</span></div>
+<div class="line">    icpParams.exitVal = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> * 0.003f; <span class="comment">// Stop when distance reached</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Calculate transformation</span></div>
-<div class="line">    MR::ICP icp(</div>
-<div class="line">        MR::MeshOrPoints{ MR::MeshPart{ meshFloating } },</div>
-<div class="line">        MR::MeshOrPoints{ MR::MeshPart{ meshFixed } },</div>
+<div class="line">    <a class="code hl_classRef" href="./Cpp/classMR_1_1ICP.html">MR::ICP</a> icp(</div>
+<div class="line">        <a class="code hl_classRef" href="./Cpp/classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a>{ MR::MeshPart{ meshFloating } },</div>
+<div class="line">        <a class="code hl_classRef" href="./Cpp/classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a>{ MR::MeshPart{ meshFixed } },</div>
 <div class="line">        MR::AffineXf3f(), MR::AffineXf3f(),</div>
 <div class="line">        icpSamplingVoxelSize );</div>
 <div class="line">    icp.setParams( icpParams );</div>
@@ -195,13 +189,26 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line">    std::cerr &lt;&lt; info &lt;&lt; std::endl;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span> ); !saveRes )</div>
+<div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a>( meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span> ); !saveRes )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; saveRes.error() &lt;&lt; std::endl;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRBox_8h_html"><div class="ttname"><a href="./Cpp/MRBox_8h.html">MRBox.h</a></div></div>
+<div class="ttc" id="aMRICP_8h_html"><div class="ttname"><a href="./Cpp/MRICP_8h.html">MRICP.h</a></div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./Cpp/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1ICP_html"><div class="ttname"><a href="./Cpp/classMR_1_1ICP.html">MR::ICP</a></div></div>
+<div class="ttc" id="aclassMR_1_1MeshOrPoints_html"><div class="ttname"><a href="./Cpp/classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a></div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga2a8e1fa5c677ea23d7801ead67934dd7"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga2a8e1fa5c677ea23d7801ead67934dd7">MR::sqr</a></div><div class="ttdeci">constexpr auto sqr(T x) noexcept -&gt; decltype(x *x)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga364466ea8c305b40ce349b90f040c873"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a></div><div class="ttdeci">static constexpr SymMatrix2 diagonal(T diagVal) noexcept</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_ga8c3547484d9f9d64e8d1d967225e190f"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html_aa115a0d8b8efd585125c07693565388b"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
+<div class="ttc" id="astructMR_1_1ICPProperties_html"><div class="ttname"><a href="./Cpp/structMR_1_1ICPProperties.html">MR::ICPProperties</a></div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
 <div class="line"> </div>
@@ -210,7 +217,7 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line">meshFixed = mrmeshpy.loadMesh(<span class="stringliteral">&quot;meshB.stl&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Prepare ICP parameters</span></div>
-<div class="line">diagonal = meshFixed.getBoundingBox().diagonal()</div>
+<div class="line">diagonal = meshFixed.getBoundingBox().<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a>()</div>
 <div class="line">icp_sampling_voxel_size = diagonal * 0.01  <span class="comment"># To sample points from object</span></div>
 <div class="line">icp_params = mrmeshpy.ICPProperties()</div>
 <div class="line">icp_params.distThresholdSq = (diagonal * 0.1) ** 2  <span class="comment"># Use points pairs with maximum distance specified</span></div>
@@ -252,7 +259,7 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line">    <span class="comment">// Load meshes:</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// First mesh, which will be moved.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshFloatingEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;meshA.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshFloatingEx = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;meshA.stl&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_Mesh* meshFloating = MR_expected_MR_Mesh_std_string_value_mut( meshFloatingEx );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !meshFloating )</div>
 <div class="line">    {</div>
@@ -261,7 +268,7 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Second mesh, static.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshReferenceEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;meshB.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshReferenceEx = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;meshB.stl&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_Mesh* meshReference = MR_expected_MR_Mesh_std_string_value_mut( meshReferenceEx );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !meshReference )</div>
 <div class="line">    {</div>
@@ -270,12 +277,12 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Prepare ICP parameters</span></div>
-<div class="line">    MR_Box3f bbox = MR_Mesh_computeBoundingBox_1( meshReference, NULL );</div>
-<div class="line">    <span class="keywordtype">float</span> diagonal = MR_Box3f_diagonal( &amp;bbox );</div>
-<div class="line">    <span class="keywordtype">float</span> icpSamplingVoxelSize = diagonal * 0.01f; <span class="comment">// To sample points from object</span></div>
+<div class="line">    MR_Box3f bbox = MR_Mesh_computeBoundingBox( meshReference, NULL );</div>
+<div class="line">    <span class="keywordtype">float</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> = MR_Box3f_diagonal( &amp;bbox );</div>
+<div class="line">    <span class="keywordtype">float</span> icpSamplingVoxelSize = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> * 0.01f; <span class="comment">// To sample points from object</span></div>
 <div class="line">    MR_ICPProperties* icpParams = MR_ICPProperties_DefaultConstruct();</div>
-<div class="line">    MR_ICPProperties_Set_distThresholdSq( icpParams, diagonal * diagonal * 0.01f ); <span class="comment">// Use points pairs with maximum distance specified</span></div>
-<div class="line">    MR_ICPProperties_Set_exitVal( icpParams, diagonal * 0.003f ); <span class="comment">// Stop when distance reached</span></div>
+<div class="line">    MR_ICPProperties_Set_distThresholdSq( icpParams, <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> * <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> * 0.01f ); <span class="comment">// Use points pairs with maximum distance specified</span></div>
+<div class="line">    MR_ICPProperties_Set_exitVal( icpParams, <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> * 0.003f ); <span class="comment">// Stop when distance reached</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Calculate transformation</span></div>
 <div class="line">    MR_MeshOrPoints* fltMop = MR_MeshOrPoints_Construct_MR_Mesh( meshFloating );</div>
@@ -285,7 +292,7 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line">    MR_MeshOrPoints_Destroy( fltMop );</div>
 <div class="line">    MR_MeshOrPoints_Destroy( refMop );</div>
 <div class="line"> </div>
-<div class="line">    MR_ICP* icp = MR_ICP_Construct_3( flt, ref, icpSamplingVoxelSize );</div>
+<div class="line">    MR_ICP* icp = MR_ICP_Construct( flt, ref, icpSamplingVoxelSize );</div>
 <div class="line">    MR_ICP_setParams( icp, icpParams );</div>
 <div class="line">    MR_ICPProperties_Destroy( icpParams );</div>
 <div class="line">    MR_AffineXf3f xf = MR_ICP_calculateTransformation( icp );</div>
@@ -295,17 +302,15 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Output information string</span></div>
 <div class="line">    MR_std_string* info = MR_ICP_getStatusInfo( icp );</div>
-<div class="line">    printf( <span class="stringliteral">&quot;%s\n&quot;</span>, MR_std_string_data( info ) );</div>
+<div class="line">    fprintf( stderr, <span class="stringliteral">&quot;%s\n&quot;</span>, MR_std_string_data( info ) );</div>
 <div class="line">    MR_std_string_Destroy( info );</div>
-<div class="line"> </div>
-<div class="line">    printf(<span class="stringliteral">&quot;Final transform:\n%f %f %f %f\n%f %f %f %f\n%f %f %f %f\n&quot;</span>, xf.A.x.x, xf.A.x.y, xf.A.x.z, xf.b.x, xf.A.y.x, xf.A.y.y, xf.A.y.z, xf.b.y, xf.A.z.x, xf.A.z.y, xf.A.z.z, xf.b.z);</div>
 <div class="line"> </div>
 <div class="line">    MR_ICP_Destroy( icp );</div>
 <div class="line">    MR_MeshOrPointsXf_Destroy( flt );</div>
 <div class="line">    MR_MeshOrPointsXf_Destroy( ref );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
@@ -323,52 +328,39 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MeshICPExample</div>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>MeshICPExample</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keywordflow">try</span></div>
-<div class="line">        {</div>
-<div class="line">            <span class="comment">// Make two meshes to align</span></div>
-<div class="line">            <span class="comment">// (to align your own meshes, load them with MR.MeshLoad.fromAnySupportedFormat instead)</span></div>
-<div class="line">            var mesh_floating = MR.makeTorus(2.0f, 1.0f, 32, 32);</div>
-<div class="line">            var mesh_fixed = MR.makeTorus(2.0f, 1.0f, 32, 32);</div>
+<div class="line">        <span class="comment">// Load meshes</span></div>
+<div class="line">        var meshFloating = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;meshA.stl&quot;</span>);</div>
+<div class="line">        var meshFixed = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;meshB.stl&quot;</span>);</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Displace the floating mesh, so ICP has a transformation to recover</span></div>
-<div class="line">            mesh_floating.transform(<span class="keyword">new</span> MR.AffineXf3f(</div>
-<div class="line">                MR.Matrix3f.rotation(<span class="keyword">new</span> MR.Vector3f(1.0f, 0.0f, 0.0f), 0.2f),</div>
-<div class="line">                <span class="keyword">new</span> MR.Vector3f(0.3f, 0.2f, 0.1f)));</div>
+<div class="line">        <span class="comment">// Prepare ICP parameters</span></div>
+<div class="line">        <span class="keywordtype">float</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> = meshFixed.getBoundingBox().diagonal();</div>
+<div class="line">        <span class="keywordtype">float</span> icpSamplingVoxelSize = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> * 0.01f; <span class="comment">// To sample points from object</span></div>
+<div class="line">        <a class="code hl_structRef" href="./Cpp/structMR_1_1ICPProperties.html">MR.ICPProperties</a> icpParams = <span class="keyword">new</span>();</div>
+<div class="line">        icpParams.distThresholdSq = (<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> * 0.1f) * (<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> * 0.1f); <span class="comment">// Use points pairs with maximum distance specified</span></div>
+<div class="line">        icpParams.exitVal = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> * 0.003f; <span class="comment">// Stop when distance reached</span></div>
 <div class="line"> </div>
-<div class="line">            MR.MeshOrPointsXf mesh_xf_floating = <span class="keyword">new</span>(mesh_floating, <span class="keyword">new</span> MR.AffineXf3f());</div>
-<div class="line">            MR.MeshOrPointsXf mesh_xf_fixed = <span class="keyword">new</span>(mesh_fixed, <span class="keyword">new</span> MR.AffineXf3f());</div>
+<div class="line">        <span class="comment">// Calculate transformation</span></div>
+<div class="line">        <a class="code hl_classRef" href="./Cpp/classMR_1_1ICP.html">MR.ICP</a> icp = <span class="keyword">new</span>(meshFloating, meshFixed, <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.AffineXf3f(), <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.AffineXf3f(), icpSamplingVoxelSize);</div>
+<div class="line">        icp.setParams(icpParams);</div>
+<div class="line">        var xf = icp.calculateTransformation();</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Prepare ICP parameters</span></div>
-<div class="line">            <span class="keywordtype">float</span> diagonal = mesh_xf_fixed.obj.computeBoundingBox().diagonal();</div>
-<div class="line">            <span class="keywordtype">float</span> icpSamplingVoxelSize = diagonal * 0.01f; <span class="comment">// To sample points from object</span></div>
-<div class="line">            MR.ICPProperties icpParams = <span class="keyword">new</span>();</div>
-<div class="line">            icpParams.distThresholdSq = diagonal * diagonal * 0.01f; <span class="comment">// Use points pairs with maximum distance specified</span></div>
-<div class="line">            icpParams.exitVal = diagonal * 0.003f; <span class="comment">// Stop when distance reached</span></div>
+<div class="line">        <span class="comment">// Transform floating mesh</span></div>
+<div class="line">        meshFloating.transform(xf);</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Calculate transformation</span></div>
-<div class="line">            MR.ICP icp = <span class="keyword">new</span>(mesh_xf_floating, mesh_xf_fixed, icpSamplingVoxelSize);</div>
-<div class="line">            icp.setParams(icpParams);</div>
-<div class="line">            MR.AffineXf3f xf = icp.calculateTransformation();</div>
+<div class="line">        <span class="comment">// Output information string</span></div>
+<div class="line">        Console.Error.WriteLine(icp.getStatusInfo());</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Transform floating mesh</span></div>
-<div class="line">            mesh_floating.transform(xf);</div>
-<div class="line"> </div>
-<div class="line">            <span class="comment">// Output information string</span></div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;info {0}&quot;</span>, icp.getStatusInfo());</div>
-<div class="line"> </div>
-<div class="line">            <span class="comment">// Save result</span></div>
-<div class="line">            MR.MeshSave.toAnySupportedFormat(mesh_floating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>);</div>
-<div class="line">        }</div>
-<div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
-<div class="line">        {</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Error: {0}&quot;</span>, e.Message);</div>
-<div class="line">        }</div>
+<div class="line">        <span class="comment">// Save result</span></div>
+<div class="line">        <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html">MR::MeshLoad</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshSave_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshSave.html">MR::MeshSave</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
@@ -410,8 +402,90 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line">ml.MeshSave.toAnySupportedFormat(meshFloating, &#39;meshA_icp.stl&#39;);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">use meshlib::{AffineXf3f, ICPProperties, MeshOrPoints, ICP};</div>
+<div class="line"> </div>
+<div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
+<div class="line">{</div>
+<div class="line">    // Load meshes</div>
+<div class="line">    let mut mesh_floating = meshlib::mesh_load::from_any_supported_format(&quot;meshA.stl&quot;, None).into_result()?;</div>
+<div class="line">    let mesh_fixed = meshlib::mesh_load::from_any_supported_format(&quot;meshB.stl&quot;, None).into_result()?;</div>
+<div class="line"> </div>
+<div class="line">    // Prepare ICP parameters</div>
+<div class="line">    let diagonal = mesh_fixed.get_bounding_box().diagonal();</div>
+<div class="line">    let icp_sampling_voxel_size = diagonal * 0.01; // To sample points from object</div>
+<div class="line">    let mut icp_params = ICPProperties::new();</div>
+<div class="line">    icp_params.set_dist_threshold_sq((diagonal * 0.1).powi(2)); // Use points pairs with maximum distance specified</div>
+<div class="line">    icp_params.set_exit_val(diagonal * 0.003); // Stop when distance reached</div>
+<div class="line"> </div>
+<div class="line">    // Calculate transformation</div>
+<div class="line">    let mut icp = ICP::construct_5(</div>
+<div class="line">        &amp;MeshOrPoints::construct_mr_mesh(&amp;mesh_floating),</div>
+<div class="line">        &amp;MeshOrPoints::construct_mr_mesh(&amp;mesh_fixed),</div>
+<div class="line">        &amp;AffineXf3f::new(), &amp;AffineXf3f::new(),</div>
+<div class="line">        icp_sampling_voxel_size);</div>
+<div class="line">    icp.set_params(&amp;icp_params);</div>
+<div class="line">    let xf = icp.calculate_transformation();</div>
+<div class="line"> </div>
+<div class="line">    // Transform floating mesh</div>
+<div class="line">    mesh_floating.transform(&amp;xf, None);</div>
+<div class="line"> </div>
+<div class="line">    // Output information string</div>
+<div class="line">    let info = icp.get_status_info();</div>
+<div class="line">    eprintln!(&quot;{}&quot;, *info);</div>
+<div class="line"> </div>
+<div class="line">    // Save result</div>
+<div class="line">    meshlib::mesh_save::to_any_supported_format(&amp;mesh_floating, &quot;meshA_icp.stl&quot;, None).into_result()?;</div>
+<div class="line"> </div>
+<div class="line">    Ok(())</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.AffineXf3f;</div>
+<div class="line"><span class="keyword">import</span> meshlib.ICP;</div>
+<div class="line"><span class="keyword">import</span> meshlib.ICPProperties;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.MeshOrPoints;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>MeshICP</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Load meshes. An error is thrown as `UnexpectedResultException`.</span></div>
+<div class="line">        Mesh meshFloating = meshlib.meshload.Functions.fromAnySupportedFormat(<span class="stringliteral">&quot;meshA.stl&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line">        Mesh meshFixed = meshlib.meshload.Functions.fromAnySupportedFormat(<span class="stringliteral">&quot;meshB.stl&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Prepare ICP parameters</span></div>
+<div class="line">        <span class="keywordtype">float</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> = meshFixed.getBoundingBox().diagonal();</div>
+<div class="line">        <span class="keywordtype">float</span> icpSamplingVoxelSize = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> * 0.01f; <span class="comment">// To sample points from object</span></div>
+<div class="line">        ICPProperties icpParams = <span class="keyword">new</span> ICPProperties();</div>
+<div class="line">        icpParams.setDistThresholdSq((<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> * 0.1f) * (<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> * 0.1f)); <span class="comment">// Use points pairs with maximum distance specified</span></div>
+<div class="line">        icpParams.setExitVal(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a> * 0.003f); <span class="comment">// Stop when distance reached</span></div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Calculate transformation</span></div>
+<div class="line">        <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gabf8abfc1336998ff9b7f0baff945f17f">ICP</a> icp = <span class="keyword">new</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gabf8abfc1336998ff9b7f0baff945f17f">ICP</a>(</div>
+<div class="line">            <span class="keyword">new</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4b19905136ab6d31a445cc3884ab0c1e">MeshOrPoints</a>(meshFloating),</div>
+<div class="line">            <span class="keyword">new</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4b19905136ab6d31a445cc3884ab0c1e">MeshOrPoints</a>(meshFixed),</div>
+<div class="line">            <span class="keyword">new</span> AffineXf3f(), <span class="keyword">new</span> AffineXf3f(),</div>
+<div class="line">            icpSamplingVoxelSize);</div>
+<div class="line">        icp.setParams(icpParams);</div>
+<div class="line">        AffineXf3f xf = icp.calculateTransformation();</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Transform floating mesh</span></div>
+<div class="line">        meshFloating.transform(xf, <span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Output information string</span></div>
+<div class="line">        String info = icp.getStatusInfo().toString();</div>
+<div class="line">        System.err.println(info);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Save result</span></div>
+<div class="line">        meshlib.meshsave.Functions.toAnySupportedFormat(meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga4b19905136ab6d31a445cc3884ab0c1e"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga4b19905136ab6d31a445cc3884ab0c1e">MeshOrPoints</a></div><div class="ttdeci">MeshOrPoints(const MeshPart &amp;mp)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gabf8abfc1336998ff9b7f0baff945f17f"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gabf8abfc1336998ff9b7f0baff945f17f">ICP</a></div><div class="ttdeci">ICP(const MeshOrPoints &amp;flt, const MeshOrPoints &amp;ref, const AffineXf3f &amp;fltXf, const AffineXf3f &amp;refXf, const VertBitSet &amp;fltSamples={}, const VertBitSet &amp;refSamples={})</div></div>
+</div><!-- fragment --></li>
 </ul>
-</div> </div></div><!-- contents -->
+</div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->

@@ -6,7 +6,6 @@ var classMR_1_1Const__VertCoords =
     [ "Const_VertCoords", "classMR_1_1Const__VertCoords.html#a069031ed202ccf40d49d2e48ebc69205", null ],
     [ "Const_VertCoords", "classMR_1_1Const__VertCoords.html#a8404c325e796e2f9fb298ca5df0252a7", null ],
     [ "Const_VertCoords", "classMR_1_1Const__VertCoords.html#ae157b2118b08ffd3a5623177d03cf8f8", null ],
-    [ "Const_VertCoords", "classMR_1_1Const__VertCoords.html#a31bf59075cfa4e501f76fb1f7a5a22d1", null ],
     [ "back", "classMR_1_1Const__VertCoords.html#a855129e0af753a4c0b83f3c3ec09e4d5", null ],
     [ "backId", "classMR_1_1Const__VertCoords.html#a9497107704521a9cc5dfbafc673d38fc", null ],
     [ "beginId", "classMR_1_1Const__VertCoords.html#a0c857c94e7422682496ccda3688aadeb", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__VertCoords =
     [ "Equals", "classMR_1_1Const__VertCoords.html#ae325552947e651f32f3b175ecd031775", null ],
     [ "Equals", "classMR_1_1Const__VertCoords.html#a38f080735367c627cff0ad1071cb0d67", null ],
     [ "front", "classMR_1_1Const__VertCoords.html#a37a2d5ebc8b907c9f060987c49a9fc91", null ],
-    [ "GetEnumerator", "classMR_1_1Const__VertCoords.html#a565c5ba1cbc3e61a96bf3d62235fc2e5", null ],
     [ "heapBytes", "classMR_1_1Const__VertCoords.html#ab7db4900b18d8f2fb7f065f80a72c3d0", null ],
-    [ "operator Const_VertCoords", "classMR_1_1Const__VertCoords.html#a9fd9102a685e437291ed4dcbd0a5222b", null ],
+    [ "maxSize", "classMR_1_1Const__VertCoords.html#af703824548c261c38dea073f24a82aa9", null ],
     [ "operator!=", "classMR_1_1Const__VertCoords.html#a81ebb18cc86624af36d88a256917add3", null ],
     [ "operator==", "classMR_1_1Const__VertCoords.html#ad0283e95c8d83e7f84f4045134da811f", null ],
     [ "size", "classMR_1_1Const__VertCoords.html#a7fc4d081ab3e09cf87f9d95e559ea724", null ],
     [ "this[MR.VertId i]", "classMR_1_1Const__VertCoords.html#a186755ae27511dd5832b6ba5ad6d2e33", null ],
-    [ "vec", "classMR_1_1Const__VertCoords.html#ad452d076af610bfc52a8f4cf4a569c72", null ]
+    [ "vec", "classMR_1_1Const__VertCoords.html#ac997057773fa6ca24d481c764e30699a", null ]
 ];

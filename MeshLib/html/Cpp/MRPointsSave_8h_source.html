@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -169,8 +162,8 @@ $(function(){initNavTree('MRPointsSave_8h_source.html','',''); });
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="group__PointsSaveGroup.html#ga0b2da3e6f5f88ee5c6ce8ae396030282">   36</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="group__PointsSaveGroup.html#ga0b2da3e6f5f88ee5c6ce8ae396030282">toPly</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; points, <span class="keyword">const</span> std::filesystem::path&amp; file, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SaveSettings.html">SaveSettings</a>&amp; settings = {} );</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="group__PointsSaveGroup.html#ga93de8bb7c42d48456a16be2813cbd14a">   37</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="group__PointsSaveGroup.html#ga0b2da3e6f5f88ee5c6ce8ae396030282">toPly</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; points, std::ostream&amp; out, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SaveSettings.html">SaveSettings</a>&amp; settings = {} );</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="group__PointsSaveGroup.html#gab9d40fe2ffff1295614436078dc95bb4">   40</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="group__PointsSaveGroup.html#gab9d40fe2ffff1295614436078dc95bb4">toAnySupportedFormat</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; points, <span class="keyword">const</span> std::filesystem::path&amp; file, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SaveSettings.html">SaveSettings</a>&amp; settings = {} );</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="group__PointsSaveGroup.html#ga2ecb1b4d166fa4b5d7dcbf7f9b26b50f">   42</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="group__PointsSaveGroup.html#gab9d40fe2ffff1295614436078dc95bb4">toAnySupportedFormat</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; points, <span class="keyword">const</span> std::string&amp; extension, std::ostream&amp; out, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SaveSettings.html">SaveSettings</a>&amp; settings = {} );</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="group__PointsSaveGroup.html#gab9d40fe2ffff1295614436078dc95bb4">   40</a></span>MR_BIND_OVERLOAD_SUFFIX() <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;<span class="keywordtype">void</span>&gt; <a class="code hl_function" href="group__PointsSaveGroup.html#gab9d40fe2ffff1295614436078dc95bb4">toAnySupportedFormat</a>( const <a class="code hl_struct" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; points, const std::filesystem::path&amp; file, const <a class="code hl_struct" href="structMR_1_1SaveSettings.html">SaveSettings</a>&amp; settings = {} );</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="group__PointsSaveGroup.html#ga2ecb1b4d166fa4b5d7dcbf7f9b26b50f">   42</a></span>MR_BIND_OVERLOAD_SUFFIX(stream) <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="group__PointsSaveGroup.html#gab9d40fe2ffff1295614436078dc95bb4">toAnySupportedFormat</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; points, <span class="keyword">const</span> std::string&amp; extension, std::ostream&amp; out, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1SaveSettings.html">SaveSettings</a>&amp; settings = {} );</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>}</div>
@@ -189,7 +182,7 @@ $(function(){initNavTree('MRPointsSave_8h_source.html','',''); });
 <div class="ttc" id="agroup__PointsSaveGroup_html_ga9f5215f345f350ec8c26ea8f8b1b123f"><div class="ttname"><a href="group__PointsSaveGroup.html#ga9f5215f345f350ec8c26ea8f8b1b123f">MR::PointsSave::toXyz</a></div><div class="ttdeci">Expected&lt; void &gt; toXyz(const PointCloud &amp;points, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__PointsSaveGroup_html_gab9d40fe2ffff1295614436078dc95bb4"><div class="ttname"><a href="group__PointsSaveGroup.html#gab9d40fe2ffff1295614436078dc95bb4">MR::PointsSave::toAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; void &gt; toAnySupportedFormat(const PointCloud &amp;points, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div><div class="ttdoc">detects the format from file extension and save points to it</div></div>
 <div class="ttc" id="anamespaceMR_1_1PointsSave_html"><div class="ttname"><a href="namespaceMR_1_1PointsSave.html">MR::PointsSave</a></div><div class="ttdef"><b>Definition</b> MRCtm.h:68</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="structMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition</b> MRPointCloud.h:17</div></div>
 <div class="ttc" id="astructMR_1_1SaveSettings_html"><div class="ttname"><a href="structMR_1_1SaveSettings.html">MR::SaveSettings</a></div><div class="ttdoc">determines how to save points/lines/mesh</div><div class="ttdef"><b>Definition</b> MRSaveSettings.h:20</div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -1,0 +1,28 @@
+var classmeshlib_1_1nesting_1_1BoxNestingOptions =
+[
+    [ "BoxNestingOptions", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#a42a05450819d650c4c613abf7f4979dc", null ],
+    [ "BoxNestingOptions", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#acf25efeadc0ecb5976b7ae2b38eec1c6", null ],
+    [ "BoxNestingOptions", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#a483c01c5b65eb9d32e6f8d3b5863e9f3", null ],
+    [ "BoxNestingOptions", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#a5810d39f0e8486c84eed5cde8d49c7d5", null ],
+    [ "additinalSocketCorners", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#a34bf7fbf99bf6f88515b69cf5dff55cf", null ],
+    [ "allow3dNesting", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#adf97b499f39a9f56bddd93a92195383a", null ],
+    [ "allowRotation", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#ab1c9a00507a83a9271f5628ec4db393f", null ],
+    [ "assignFromAnother", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#a689005c2eec899bc54f7e7cb577e1f00", null ],
+    [ "cb", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#a4b7865c00d8b5d1dc824d47169cf4db7", null ],
+    [ "checkLessCombinations", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#ad7457f57328baad9623f2156b4639328", null ],
+    [ "expansionFactor", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#a786dc6a7c7781a3754c81bc351842516", null ],
+    [ "iterationLimit", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#a2d365b99c41c54aaaae607cd4cea2100", null ],
+    [ "preNestedVolumes", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#a92c8dd8b4e97c5bd80a310ffeabd1d29", null ],
+    [ "priorityMetric", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#a2f1089585325e7c978f9641cb8277526", null ],
+    [ "setAdditinalSocketCorners", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#a80c936c585f93c4e40348b9c3f5aca8e", null ],
+    [ "setAllow3dNesting", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#a1edd70091291c36942ff280ec90e49da", null ],
+    [ "setAllowRotation", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#a371e4110dd753f26dde121a1e31288f1", null ],
+    [ "setCb", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#a44d73ce9fdc48ec70a04eb592e040edb", null ],
+    [ "setCheckLessCombinations", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#a0d5b5d64ebfe34901904504de2cf55c9", null ],
+    [ "setExpansionFactor", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#a6a53db3e7e0b653d603a9d8e8d613d25", null ],
+    [ "setIterationLimit", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#af6666842b9ba785190b0cda8ac7bb77c", null ],
+    [ "setPreNestedVolumes", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#ae73143b3dcc788adeb25e12c3611a2f8", null ],
+    [ "setPriorityMetric", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#aec917366f65f8fa9821eadf20a01d396", null ],
+    [ "setVolumeBasedOrder", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#ad795415f8b52647835c708dc997655b8", null ],
+    [ "volumeBasedOrder", "classmeshlib_1_1nesting_1_1BoxNestingOptions.html#a3ba0aff80e8377b55196f9b10ffaceb5", null ]
+];

@@ -6,7 +6,6 @@ var classMR_1_1Const__UndirectedEdge2RegionMap =
     [ "Const_UndirectedEdge2RegionMap", "classMR_1_1Const__UndirectedEdge2RegionMap.html#acc014a068fa36200bab029b296476ac6", null ],
     [ "Const_UndirectedEdge2RegionMap", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a7fed582dbf30774ff7145a02dde74576", null ],
     [ "Const_UndirectedEdge2RegionMap", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a910bc72b5fb3da6979fb99c78de79f21", null ],
-    [ "Const_UndirectedEdge2RegionMap", "classMR_1_1Const__UndirectedEdge2RegionMap.html#ad4da85abe7bf3aeb89b0bc41342b6385", null ],
     [ "back", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a45f0be220f5547d1eb2ee3459da25d53", null ],
     [ "backId", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a34e6aaa7a934f5da56864825cf874697", null ],
     [ "beginId", "classMR_1_1Const__UndirectedEdge2RegionMap.html#ad4a71b5193197b8cbf0050853cbc436b", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__UndirectedEdge2RegionMap =
     [ "Equals", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a70f47b93ef79e4de9beea05f67a80b0f", null ],
     [ "Equals", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a19cdc5c84068206acc9e1bc5a4e4b920", null ],
     [ "front", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a6090ec0ae01f2ab278b0124c563af611", null ],
-    [ "GetEnumerator", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a9a9cf0cfbcb34767b305c0ae509a3d88", null ],
     [ "heapBytes", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a5aa602ee18a6e61c313d77320497255c", null ],
-    [ "operator Const_UndirectedEdge2RegionMap", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a1fc7e0a9656c8889b27efe10fedd4ec0", null ],
+    [ "maxSize", "classMR_1_1Const__UndirectedEdge2RegionMap.html#ad967104289fd70a812376774e0ff2344", null ],
     [ "operator!=", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a7df04ebb06522a9113f489c50c7444f5", null ],
     [ "operator==", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a77e734c87708256091b96a545c90e385", null ],
     [ "size", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a5927fb0e563d7c8855fa28adae369473", null ],
     [ "this[MR.UndirectedEdgeId i]", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a1d186c3b51b395dfc1b8e94df8b326c0", null ],
-    [ "vec", "classMR_1_1Const__UndirectedEdge2RegionMap.html#aa62520e6ed29fe3c4da854a6598f1f45", null ]
+    [ "vec", "classMR_1_1Const__UndirectedEdge2RegionMap.html#a30f6b13bb0104acb095db78739028790", null ]
 ];

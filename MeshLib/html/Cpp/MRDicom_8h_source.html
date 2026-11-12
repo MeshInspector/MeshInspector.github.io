@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -255,8 +248,8 @@ $(function(){initNavTree('MRDicom_8h_source.html','',''); });
 <div class="ttc" id="aMRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
 <div class="ttc" id="aMRVoxelsFwd_8h_html_a5a563214874b42adf9d3bbba08988cad"><div class="ttname"><a href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a></div><div class="ttdeci">#define MRVOXELS_API</div><div class="ttdoc">see explanation in MRMesh/MRMeshFwd.h</div><div class="ttdef"><b>Definition</b> MRVoxelsFwd.h:14</div></div>
 <div class="ttc" id="aMRVoxelsVolume_8h_html"><div class="ttname"><a href="MRVoxelsVolume_8h.html">MRVoxelsVolume.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRVector.h:23</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:759</div></div>
+<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">Vector&lt;T&gt; is indexed by size_t.</div><div class="ttdef"><b>Definition</b> MRVector.h:24</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:789</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga0f1af9eb86c05b6bbe445ea06537f9c6"><div class="ttname"><a href="group__GeneralGroup.html#ga0f1af9eb86c05b6bbe445ea06537f9c6">MR::VoxelsLoad::isDicomFile</a></div><div class="ttdeci">DicomStatus isDicomFile(const std::filesystem::path &amp;path, std::string *seriesUid=nullptr, Vector3i *dims=nullptr)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga20e9ae03dbf954625936ada6b2cbcf60"><div class="ttname"><a href="group__GeneralGroup.html#ga20e9ae03dbf954625936ada6b2cbcf60">MR::volume</a></div><div class="ttdeci">double volume(const MeshTopology &amp;topology, const VertCoords &amp;points, const FaceBitSet *region=nullptr)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga397021c2f11cc76a8178e525bd2bed86"><div class="ttname"><a href="group__GeneralGroup.html#ga397021c2f11cc76a8178e525bd2bed86">MR::VoxelsLoad::DicomStatus::reason</a></div><div class="ttdeci">std::string reason</div><div class="ttdef"><b>Definition</b> MRDicom.h:46</div></div>
@@ -285,7 +278,7 @@ $(function(){initNavTree('MRDicom_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gga4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f"><div class="ttname"><a href="group__GeneralGroup.html#gga4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f">MR::VoxelsLoad::DicomStatusEnum::Unsupported</a></div><div class="ttdeci">@ Unsupported</div><div class="ttdoc">not a valid DICOM</div><div class="ttdef"><b>Definition</b> MRDicom.h:28</div></div>
 <div class="ttc" id="anamespaceMR_1_1VoxelsLoad_html"><div class="ttname"><a href="namespaceMR_1_1VoxelsLoad.html">MR::VoxelsLoad</a></div><div class="ttdef"><b>Definition</b> MRDicom.h:21</div></div>
 <div class="ttc" id="anamespaceMR_1_1VoxelsSave_html"><div class="ttname"><a href="namespaceMR_1_1VoxelsSave.html">MR::VoxelsSave</a></div><div class="ttdef"><b>Definition</b> MRDicom.h:99</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1VoxelsLoad_1_1DicomStatus_html"><div class="ttname"><a href="structMR_1_1VoxelsLoad_1_1DicomStatus.html">MR::VoxelsLoad::DicomStatus</a></div><div class="ttdef"><b>Definition</b> MRDicom.h:32</div></div>
 <div class="ttc" id="astructMR_1_1VoxelsLoad_1_1DicomVolumeT_html"><div class="ttname"><a href="structMR_1_1VoxelsLoad_1_1DicomVolumeT.html">MR::VoxelsLoad::DicomVolumeT</a></div><div class="ttdef"><b>Definition</b> MRDicom.h:62</div></div>
 <div class="ttc" id="astructMR_1_1VoxelsVolume_html"><div class="ttname"><a href="structMR_1_1VoxelsVolume.html">MR::VoxelsVolume</a></div><div class="ttdoc">represents a box in 3D space subdivided on voxels stored in T</div><div class="ttdef"><b>Definition</b> MRVoxelsVolume.h:51</div></div>

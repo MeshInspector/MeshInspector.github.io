@@ -12,5 +12,5 @@ var MRTriDist_8h =
     [ "MR::findTriTriDistance", "group__GeneralGroup.html#gaac3443060426dd9845f9a0a5ce1967bc", null ],
     [ "MR::segPoints", "group__GeneralGroup.html#ga973831babbbe4c9395f8304e8b980d8a", null ],
     [ "MR::triDist", "group__GeneralGroup.html#gac1bad3906fe116bb8f0ecdd2cb9063bf", null ],
-    [ "MR::triDist", "group__GeneralGroup.html#gac3ed6b876e79b7bacb3039ccacd336cd", null ]
+    [ "MR::triDist", "group__GeneralGroup.html#gab8f112b6b6b2db1518dd25e8868ffce5", null ]
 ];

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -161,7 +154,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
-<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only strictly necessary for the bindings (to make <span class="tt"><a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a></span> a complete type). <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -188,8 +181,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga65895e75456ca8655c55ab91d35bac5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns region id of corner controller by its face  <br /></td></tr>
 <tr class="memitem:ga55f58a4057cd5d3de1c02f21a662844d" id="r_ga55f58a4057cd5d3de1c02f21a662844d"><td class="memItemLeft" align="right" valign="top">TexturePerFace&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga55f58a4057cd5d3de1c02f21a662844d">MR::getCornerControllerHoveredTextureMap</a> (RegionId rId)</td></tr>
 <tr class="memdesc:ga55f58a4057cd5d3de1c02f21a662844d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns textures map with region faces hovered  <br /></td></tr>
-<tr class="memitem:gac1516c648ca1edb3f56c9b5bc47f0271" id="r_gac1516c648ca1edb3f56c9b5bc47f0271"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac1516c648ca1edb3f56c9b5bc47f0271">MR::updateCurrentViewByControllerRegion</a> (<a class="el" href="structMR_1_1CornerControllerObject_1_1PickedIds.html">CornerControllerObject::PickedIds</a> pickedId)</td></tr>
-<tr class="memdesc:gac1516c648ca1edb3f56c9b5bc47f0271"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup camera for selected viewport by corner controller region  <br /></td></tr>
+<tr class="memitem:gae9bafb47564e545d60f69f410e23be23" id="r_gae9bafb47564e545d60f69f410e23be23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gae9bafb47564e545d60f69f410e23be23">MR::updateCurrentViewByControllerRegion</a> (<a class="el" href="structMR_1_1CornerControllerObject_1_1PickedIds.html">CornerControllerObject::PickedIds</a> pickedId, float animationSec=0)</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

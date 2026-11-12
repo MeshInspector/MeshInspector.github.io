@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -234,8 +227,8 @@ $(function(){initNavTree('MROutlierPoints_8h_source.html','',''); });
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:85</div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a45ed33a118705bfd4aac6d294495276a"><div class="ttname"><a href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a></div><div class="ttdeci">#define MRMESH_CLASS</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:92</div></div>
 <div class="ttc" id="aMRUnionFind_8h_html"><div class="ttname"><a href="MRUnionFind_8h.html">MRUnionFind.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1UnionFind_html"><div class="ttname"><a href="classMR_1_1UnionFind.html">MR::UnionFind</a></div><div class="ttdoc">Union-find data structure for representing disjoint sets of elements with few very quick operations: ...</div><div class="ttdef"><b>Definition</b> MRUnionFind.h:152</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:759</div></div>
+<div class="ttc" id="aclassMR_1_1UnionFind_html"><div class="ttname"><a href="classMR_1_1UnionFind.html">MR::UnionFind</a></div><div class="ttdoc">Union-find data structure for representing disjoint sets of elements with few very quick operations: ...</div><div class="ttdef"><b>Definition</b> MRUnionFind.h:160</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:789</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga114539ad520d93a886c208413cb14058"><div class="ttname"><a href="group__GeneralGroup.html#ga114539ad520d93a886c208413cb14058">MR::OutliersDetector::prepare</a></div><div class="ttdeci">Expected&lt; void &gt; prepare(const PointCloud &amp;pc, float radius, OutlierTypeMask mask, ProgressCallback progress={})</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga1e6338b210a50c7afc0cd169e2d17f57"><div class="ttname"><a href="group__GeneralGroup.html#ga1e6338b210a50c7afc0cd169e2d17f57">MR::OutliersDetector::getParams</a></div><div class="ttdeci">const OutlierParams &amp; getParams() const</div><div class="ttdoc">Get search parameters.</div><div class="ttdef"><b>Definition</b> MROutlierPoints.h:59</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga2e3bfef94b01f500d4471c14cd7e2660"><div class="ttname"><a href="group__GeneralGroup.html#ga2e3bfef94b01f500d4471c14cd7e2660">MR::OutlierParams::minHeight</a></div><div class="ttdeci">float minHeight</div><div class="ttdoc">Minimum distance (as proportion of search radius) to the approximate surface from outliers point.</div><div class="ttdef"><b>Definition</b> MROutlierPoints.h:23</div></div>
@@ -258,7 +251,7 @@ $(function(){initNavTree('MROutlierPoints_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_ggab8659c12eb8fa6618f154566efce6146a614153ed3ac75b632ddf7270a6a87f1f"><div class="ttname"><a href="group__GeneralGroup.html#ggab8659c12eb8fa6618f154566efce6146a614153ed3ac75b632ddf7270a6a87f1f">MR::OutlierTypeMask::SmallComponents</a></div><div class="ttdeci">@ SmallComponents</div><div class="ttdoc">Small groups of points that are far from the rest.</div><div class="ttdef"><b>Definition</b> MROutlierPoints.h:32</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ggab8659c12eb8fa6618f154566efce6146a6bf77282d5694b0cd278e5e3753e4d40"><div class="ttname"><a href="group__GeneralGroup.html#ggab8659c12eb8fa6618f154566efce6146a6bf77282d5694b0cd278e5e3753e4d40">MR::OutlierTypeMask::FarSurface</a></div><div class="ttdeci">@ FarSurface</div><div class="ttdoc">Points far from the surface approximating the nearest points.</div><div class="ttdef"><b>Definition</b> MROutlierPoints.h:34</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ggab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680"><div class="ttname"><a href="group__GeneralGroup.html#ggab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680">MR::OutlierTypeMask::All</a></div><div class="ttdeci">@ All</div><div class="ttdef"><b>Definition</b> MROutlierPoints.h:36</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1FindOutliersParams_html"><div class="ttname"><a href="structMR_1_1FindOutliersParams.html">MR::FindOutliersParams</a></div><div class="ttdoc">Outlier point search parameters.</div><div class="ttdef"><b>Definition</b> MROutlierPoints.h:90</div></div>
 <div class="ttc" id="astructMR_1_1OutlierParams_html"><div class="ttname"><a href="structMR_1_1OutlierParams.html">MR::OutlierParams</a></div><div class="ttdoc">Parameters of various criteria for detecting outlier points.</div><div class="ttdef"><b>Definition</b> MROutlierPoints.h:17</div></div>
 <div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="structMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition</b> MRPointCloud.h:17</div></div>

@@ -22,7 +22,7 @@ var classMR_1_1SceneObjectsListDrawer =
     [ "makeDragDropTarget_", "group__GeneralGroup.html#ga4dad108f861cd4c0c6a865c6ea12b6c5", null ],
     [ "needDragDropTarget_", "group__GeneralGroup.html#ga6b32550029f40adcc37e0d55b6cd3a1b", null ],
     [ "objectLineStrId_", "group__GeneralGroup.html#gae92bca1def2f90b666c4e0d9e4bb01d5", null ],
-    [ "processItemClick_", "group__GeneralGroup.html#ga74e5357e26632ac0982586feae564127", null ],
+    [ "processItemClick_", "group__GeneralGroup.html#ga6b49bb69e16897b2b6e18f9a69651f70", null ],
     [ "selectAllObjects", "group__GeneralGroup.html#ga9438f33e1f5dde70da88b1a61d832ac3", null ],
     [ "setDeselectNewHiddenObjects", "group__GeneralGroup.html#gac4822189625ca4c18a2b7c51a696c27e", null ],
     [ "setLeavesVisibility", "group__GeneralGroup.html#ga160aa4ff3b71b928c4698592058c522e", null ],

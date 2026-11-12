@@ -1,10 +1,11 @@
 var classmrmeshpy_1_1VoxelsSave_1_1SavingSettings =
 [
     [ "__init__", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a45d1ed080e04b16fc4054b1bf545e021", null ],
-    [ "__init__", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#acf523a35c5d213b0f149b4ae18ee0b35", null ],
-    [ "__init__", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a84190873a7864d7635e314ad476bda97", null ],
+    [ "__init__", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#ac5d4df7621aa8e448157697563092959", null ],
+    [ "__init__", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a84b17a3cd7a6eed5db54718fda543ab9", null ],
+    [ "assign", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#ab12864794cb82a5420d5e48c2bc5903c", null ],
     [ "cb", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a0d7cdcdfa2cfe5aad0da69c8c6a20371", null ],
-    [ "cb", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a75f3939e471800de4db08d45db759e14", null ],
+    [ "cb", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#ad5a9387daa771e1b1a5dd0f207b128b2", null ],
     [ "format", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a8ed9f0b27a9db078e2963613c8bba3b4", null ],
     [ "format", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a89652fbcdca261bb20b423a36f07ffbb", null ],
     [ "path", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#aef536f7803eaf3e20c3c543bad08b2d6", null ],

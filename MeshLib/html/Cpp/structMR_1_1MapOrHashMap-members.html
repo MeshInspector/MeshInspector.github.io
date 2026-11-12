@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -148,16 +141,17 @@ $(function(){initNavTree('structMR_1_1MapOrHashMap.html','',''); });
   <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga2f5d8d5d984f6fbc7736118c4803e703">createMap</a>(size_t size=0)</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#gac2b84418d93cdedba84fe87ce2595e2e">Dense</a> typedef</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga99f74cd2edd6dab050ffad6466cdf191">forEach</a>(F &amp;&amp;f) const</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#gad24c7a779069c7e074b47d8e3d3400ae">getHashMap</a>() MR_LIFETIMEBOUND</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga0c1e6a6e4c0590ec6918e29c93d59b8e">getHashMap</a>() const MR_LIFETIMEBOUND</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga60c491f3b471bedb23f0615dc24f0fc5">getMap</a>() MR_LIFETIMEBOUND</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#gabfe1d6849d40b95fb756affcd2a49f49">getMap</a>() const MR_LIFETIMEBOUND</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga9b9b3bd19e1e1187943ce7850bcf6ee0">Hash</a> typedef</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga581685c400655d0cf9441498a051e38a">pushBack</a>(K key MR_LIFETIME_CAPTURE_BY_NESTED(this), V val MR_LIFETIME_CAPTURE_BY_NESTED(this))</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga7a15020a8ce32845565aeffab264051d">resizeReserve</a>(size_t denseTotalSize, size_t hashAdditionalCapacity)</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#gaed9c7dee115bec118b5c146c71feeead">setHashMap</a>(Hash &amp;&amp;m MR_LIFETIME_CAPTURE_BY_NESTED(this))</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga00c1a5cbe4993ea2fe7958753f256c2d">setMap</a>(Dense &amp;&amp;m MR_LIFETIME_CAPTURE_BY_NESTED(this))</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga2406ff7e1c972a394a1b2375af1feb33">var</a></td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga18aaf7359920f8f53e60eca10b93680d">forEachParallel</a>(F &amp;&amp;f) const</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga3bc5077bb60649a52a86a2736ff6a57e">getHashMap</a>()</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga2aded678aafca023ae711c2dcad233e5">getHashMap</a>() const</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga1061c0b8db208cf5af14eb2760cb3703">getMap</a>()</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga9027fa8effc674e94506993cc5c1ee2e">getMap</a>() const</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga9b9b3bd19e1e1187943ce7850bcf6ee0">Hash</a> typedef</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga581685c400655d0cf9441498a051e38a">pushBack</a>(K key MR_LIFETIME_CAPTURE_BY_NESTED(this), V val MR_LIFETIME_CAPTURE_BY_NESTED(this))</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga7a15020a8ce32845565aeffab264051d">resizeReserve</a>(size_t denseTotalSize, size_t hashAdditionalCapacity)</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#gaed9c7dee115bec118b5c146c71feeead">setHashMap</a>(Hash &amp;&amp;m MR_LIFETIME_CAPTURE_BY_NESTED(this))</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga00c1a5cbe4993ea2fe7958753f256c2d">setMap</a>(Dense &amp;&amp;m MR_LIFETIME_CAPTURE_BY_NESTED(this))</td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga2406ff7e1c972a394a1b2375af1feb33">var</a></td><td class="entry"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

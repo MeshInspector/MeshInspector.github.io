@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['samplepoints_0',['samplePoints',['../classICP.html#ab1b81df3f853d4084e5c5f2016c2f127',1,'ICP']]],
+  ['samplepoints_0',['samplePoints',['../classICP.html#a1aa6ac06ab188c6ad5f91c62cd5071be',1,'ICP::samplePoints(number _0)'],['../classICP.html#a30f002a3aa9c4481b34f432a04cf28cc',1,'ICP::samplePoints(number samplingVoxelSize, boolean nonVertexSamples)']]],
   ['selfintersectionssettings_1',['SelfIntersectionsSettings',['../classSelfIntersectionsSettings.html#abc94b836b6c9cb8a8747e91344dc9ee9',1,'SelfIntersectionsSettings']]],
   ['set_2',['set',['../classBitSet.html#a8155b1051a111a0ca161737bc36d7ff9',1,'BitSet::set()'],['../classVertCoords.html#a048895ee2272c612ba99185d705eed79',1,'VertCoords::set()']]],
   ['setparams_3',['setParams',['../classICP.html#afa32833f0273c59aefc35f9257bc2389',1,'ICP::setParams()'],['../classMultiwayICP.html#a3259a159ffa339162c48629fb202623d',1,'MultiwayICP::setParams()']]],

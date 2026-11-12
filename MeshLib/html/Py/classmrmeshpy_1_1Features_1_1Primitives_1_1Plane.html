@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,33 +133,48 @@ $(function(){initNavTree('classmrmeshpy_1_1Features_1_1Primitives_1_1Plane.html'
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.Features.Primitives.Plane Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for mrmeshpy.Features.Primitives.Plane:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane.png" usemap="#mrmeshpy_2EFeatures_2EPrimitives_2EPlane_map" alt=""/>
+  <map id="mrmeshpy_2EFeatures_2EPrimitives_2EPlane_map" name="mrmeshpy_2EFeatures_2EPrimitives_2EPlane_map">
+<area href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html" alt="mrmeshpy.Features.Primitives.ConstPlane" shape="rect" coords="0,0,249,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab65d453a6e62e5f13198c60463b31260" id="r_ab65d453a6e62e5f13198c60463b31260"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab65d453a6e62e5f13198c60463b31260">__init__</a> (self)</td></tr>
-<tr class="memitem:a4f7dacb802f733467aaeea5d109da006" id="r_a4f7dacb802f733467aaeea5d109da006"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f7dacb802f733467aaeea5d109da006">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane.html">Features.Primitives.Plane</a> arg0)</td></tr>
-<tr class="memitem:afb5ff89c685d4e87ff2e603a1b5c004a" id="r_afb5ff89c685d4e87ff2e603a1b5c004a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb5ff89c685d4e87ff2e603a1b5c004a">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> center, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> <a class="el" href="#a0cdec6091e973428448da957319c9348">normal</a>)</td></tr>
-<tr class="memitem:a9478ffdfa1031fd76865d5a91f5b78cd" id="r_a9478ffdfa1031fd76865d5a91f5b78cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Sphere3f.html">Sphere3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9478ffdfa1031fd76865d5a91f5b78cd">intersectWithLine</a> (self, <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html">Features.Primitives.ConeSegment</a> line)</td></tr>
-<tr class="memitem:a088c8703ef7b2906ed608b5867425e6b" id="r_a088c8703ef7b2906ed608b5867425e6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html">Features.Primitives.ConeSegment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a088c8703ef7b2906ed608b5867425e6b">intersectWithPlane</a> (self, <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane.html">Features.Primitives.Plane</a> other)</td></tr>
+<tr class="memitem:ad1847171de1ccd3732f896f360b264d9" id="r_ad1847171de1ccd3732f896f360b264d9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1847171de1ccd3732f896f360b264d9">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html">Features.Primitives.ConstPlane</a> arg0)</td></tr>
+<tr class="memitem:a0d9ade4c5c937c9f9e5c2eed9aaf16b0" id="r_a0d9ade4c5c937c9f9e5c2eed9aaf16b0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d9ade4c5c937c9f9e5c2eed9aaf16b0">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> <a class="el" href="#a084f582decf63c2ad748e9bc5b7ae9cf">center</a>, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> <a class="el" href="#a0cdec6091e973428448da957319c9348">normal</a>)</td></tr>
+<tr class="memitem:ad6ba10aba7dd150b005e2a34748ccb7b" id="r_ad6ba10aba7dd150b005e2a34748ccb7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane.html">Features.Primitives.Plane</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6ba10aba7dd150b005e2a34748ccb7b">assign</a> (self, <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html">Features.Primitives.ConstPlane</a> other)</td></tr>
+<tr class="memitem:a084f582decf63c2ad748e9bc5b7ae9cf" id="r_a084f582decf63c2ad748e9bc5b7ae9cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a084f582decf63c2ad748e9bc5b7ae9cf">center</a> (self)</td></tr>
+<tr class="memitem:a974f507b329978801e702c7b6e7f0fe4" id="r_a974f507b329978801e702c7b6e7f0fe4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a974f507b329978801e702c7b6e7f0fe4">center</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> arg1)</td></tr>
 <tr class="memitem:a0cdec6091e973428448da957319c9348" id="r_a0cdec6091e973428448da957319c9348"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cdec6091e973428448da957319c9348">normal</a> (self)</td></tr>
-<tr class="memitem:a1d0876378e3a1af394b7220357e38e7d" id="r_a1d0876378e3a1af394b7220357e38e7d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d0876378e3a1af394b7220357e38e7d">normal</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> arg1)</td></tr>
+<tr class="memitem:ac6503a6bba2e9e8a9b4957434dc6a0bc" id="r_ac6503a6bba2e9e8a9b4957434dc6a0bc"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6503a6bba2e9e8a9b4957434dc6a0bc">normal</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> arg1)</td></tr>
+<tr class="inherit_header pub_methods_classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html">mrmeshpy.Features.Primitives.ConstPlane</a></td></tr>
+<tr class="memitem:ab1bfb3818db0aeeeee12f89caea92280 inherit pub_methods_classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane" id="r_ab1bfb3818db0aeeeee12f89caea92280"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html#ab1bfb3818db0aeeeee12f89caea92280">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:a772fc35da6a4c9ee139bafd92c1109f9 inherit pub_methods_classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane" id="r_a772fc35da6a4c9ee139bafd92c1109f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Sphere3f.html">Sphere3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html#a772fc35da6a4c9ee139bafd92c1109f9">intersectWithLine</a> (self, <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstConeSegment.html">Features.Primitives.ConstConeSegment</a> line)</td></tr>
+<tr class="memitem:abd46244d6f9e2791170f86afc413a6f5 inherit pub_methods_classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane" id="r_abd46244d6f9e2791170f86afc413a6f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html">Features.Primitives.ConeSegment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html#abd46244d6f9e2791170f86afc413a6f5">intersectWithPlane</a> (self, <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html">Features.Primitives.ConstPlane</a> other)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a022cc58b6c205ff6bced165149356019" id="r_a022cc58b6c205ff6bced165149356019"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a022cc58b6c205ff6bced165149356019">__eq__</a> (*args, **kwargs)</td></tr>
 <tr class="memitem:a98f0c1c643f75a7ec9f0588d181a7474" id="r_a98f0c1c643f75a7ec9f0588d181a7474"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98f0c1c643f75a7ec9f0588d181a7474">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a7d8b3a01d453847c2f2f96f5c3eedb32" id="r_a7d8b3a01d453847c2f2f96f5c3eedb32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane.html">Features.Primitives.Plane</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d8b3a01d453847c2f2f96f5c3eedb32">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a7d8b3a01d453847c2f2f96f5c3eedb32" id="r_a7d8b3a01d453847c2f2f96f5c3eedb32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane.html">Features.Primitives.Plane</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d8b3a01d453847c2f2f96f5c3eedb32">operator</a> (*args, **kwargs)</td></tr>
+<tr class="inherit_header pub_static_methods_classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html">mrmeshpy.Features.Primitives.ConstPlane</a></td></tr>
+<tr class="memitem:ae06d9fb77f1f945c9292d62a910fea76 inherit pub_static_methods_classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane" id="r_ae06d9fb77f1f945c9292d62a910fea76"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html#ae06d9fb77f1f945c9292d62a910fea76">__eq__</a> (*args, **kwargs)</td></tr>
+<tr class="memitem:a0a8d169796c7e0b9c1fdab97174d4c85 inherit pub_static_methods_classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane" id="r_a0a8d169796c7e0b9c1fdab97174d4c85"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html#a0a8d169796c7e0b9c1fdab97174d4c85">__ne__</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a97c9d9c7d89e920e2a372218d5e5a9d6" id="r_a97c9d9c7d89e920e2a372218d5e5a9d6"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97c9d9c7d89e920e2a372218d5e5a9d6">_offsetof_center</a> = 0</td></tr>
-<tr class="memitem:ac90147b02ae4346467a8ce0a2d918569" id="r_ac90147b02ae4346467a8ce0a2d918569"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac90147b02ae4346467a8ce0a2d918569">_offsetof_normal</a> = 12</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_static_attribs_classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Attributes inherited from <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html">mrmeshpy.Features.Primitives.ConstPlane</a></td></tr>
+<tr class="memitem:ae48584b726178b33facf5008c8f9ac07 inherit pro_static_attribs_classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane" id="r_ae48584b726178b33facf5008c8f9ac07"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html#ae48584b726178b33facf5008c8f9ac07">_offsetof_center</a> = 0</td></tr>
+<tr class="memitem:a47ba99745b066d1ad5cee8a5321f7650 inherit pro_static_attribs_classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane" id="r_a47ba99745b066d1ad5cee8a5321f7650"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html#a47ba99745b066d1ad5cee8a5321f7650">_offsetof_normal</a> = 12</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::Features::Primitives::Plane
@@ -217,8 +225,8 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4f7dacb802f733467aaeea5d109da006" name="a4f7dacb802f733467aaeea5d109da006"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f7dacb802f733467aaeea5d109da006">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
+<a id="ad1847171de1ccd3732f896f360b264d9" name="ad1847171de1ccd3732f896f360b264d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1847171de1ccd3732f896f360b264d9">&#9670;&#160;</a></span>__init__() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -231,7 +239,7 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane.html">Features.Primitives.Plane</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html">Features.Primitives.ConstPlane</a></td>          <td class="paramname"><span class="paramname"><em>arg0</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -239,8 +247,8 @@ Static Protected Attributes</h2></td></tr>
 </pre> 
 </div>
 </div>
-<a id="afb5ff89c685d4e87ff2e603a1b5c004a" name="afb5ff89c685d4e87ff2e603a1b5c004a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb5ff89c685d4e87ff2e603a1b5c004a">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
+<a id="a0d9ade4c5c937c9f9e5c2eed9aaf16b0" name="a0d9ade4c5c937c9f9e5c2eed9aaf16b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d9ade4c5c937c9f9e5c2eed9aaf16b0">&#9670;&#160;</a></span>__init__() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -253,12 +261,12 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>center</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>center</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>normal</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>normal</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -267,79 +275,67 @@ Static Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a022cc58b6c205ff6bced165149356019" name="a022cc58b6c205ff6bced165149356019"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a022cc58b6c205ff6bced165149356019">&#9670;&#160;</a></span>__eq__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.Features.Primitives.Plane.__eq__ </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9478ffdfa1031fd76865d5a91f5b78cd" name="a9478ffdfa1031fd76865d5a91f5b78cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9478ffdfa1031fd76865d5a91f5b78cd">&#9670;&#160;</a></span>intersectWithLine()</h2>
+<a id="ad6ba10aba7dd150b005e2a34748ccb7b" name="ad6ba10aba7dd150b005e2a34748ccb7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6ba10aba7dd150b005e2a34748ccb7b">&#9670;&#160;</a></span>assign()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Sphere3f.html">Sphere3f</a> mrmeshpy.Features.Primitives.Plane.intersectWithLine </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane.html">Features.Primitives.Plane</a> mrmeshpy.Features.Primitives.Plane.assign </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html">Features.Primitives.ConeSegment</a></td>          <td class="paramname"><span class="paramname"><em>line</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html">Features.Primitives.ConstPlane</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Intersects the plane with a line, returns a point (zero radius sphere).
-Only `center` and `dir` are used from `line` (so if `line` is a cone/cylinder, its axis is used,
-and the line is extended to infinity).
-</pre> 
+
 </div>
 </div>
-<a id="a088c8703ef7b2906ed608b5867425e6b" name="a088c8703ef7b2906ed608b5867425e6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a088c8703ef7b2906ed608b5867425e6b">&#9670;&#160;</a></span>intersectWithPlane()</h2>
+<a id="a084f582decf63c2ad748e9bc5b7ae9cf" name="a084f582decf63c2ad748e9bc5b7ae9cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a084f582decf63c2ad748e9bc5b7ae9cf">&#9670;&#160;</a></span>center() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html">Features.Primitives.ConeSegment</a> mrmeshpy.Features.Primitives.Plane.intersectWithPlane </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> mrmeshpy.Features.Primitives.Plane.center </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html#ae4e7060c8982bb852d3e75e05980d62c">mrmeshpy.Features.Primitives.ConstPlane</a>.</p>
+
+</div>
+</div>
+<a id="a974f507b329978801e702c7b6e7f0fe4" name="a974f507b329978801e702c7b6e7f0fe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a974f507b329978801e702c7b6e7f0fe4">&#9670;&#160;</a></span>center() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Features.Primitives.Plane.center </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane.html">Features.Primitives.Plane</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Returns an infinite line, with the center in a sane location.
-</pre> 
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html#ae4e7060c8982bb852d3e75e05980d62c">mrmeshpy.Features.Primitives.ConstPlane</a>.</p>
+
 </div>
 </div>
 <a id="a0cdec6091e973428448da957319c9348" name="a0cdec6091e973428448da957319c9348"></a>
@@ -358,10 +354,12 @@ and the line is extended to infinity).
 </div><div class="memdoc">
 <pre class="fragment">This must be normalized. The sign doesn't matter.
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html#aec582af3c003845bf4d96fe1715c45b1">mrmeshpy.Features.Primitives.ConstPlane</a>.</p>
+
 </div>
 </div>
-<a id="a1d0876378e3a1af394b7220357e38e7d" name="a1d0876378e3a1af394b7220357e38e7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d0876378e3a1af394b7220357e38e7d">&#9670;&#160;</a></span>normal() <span class="overload">[2/2]</span></h2>
+<a id="ac6503a6bba2e9e8a9b4957434dc6a0bc" name="ac6503a6bba2e9e8a9b4957434dc6a0bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6503a6bba2e9e8a9b4957434dc6a0bc">&#9670;&#160;</a></span>normal() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -374,113 +372,13 @@ and the line is extended to infinity).
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7d8b3a01d453847c2f2f96f5c3eedb32" name="a7d8b3a01d453847c2f2f96f5c3eedb32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d8b3a01d453847c2f2f96f5c3eedb32">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane.html">Features.Primitives.Plane</a> mrmeshpy.Features.Primitives.Plane.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7d8b3a01d453847c2f2f96f5c3eedb32" name="a7d8b3a01d453847c2f2f96f5c3eedb32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d8b3a01d453847c2f2f96f5c3eedb32">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane.html">Features.Primitives.Plane</a> mrmeshpy.Features.Primitives.Plane.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a97c9d9c7d89e920e2a372218d5e5a9d6" name="a97c9d9c7d89e920e2a372218d5e5a9d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97c9d9c7d89e920e2a372218d5e5a9d6">&#9670;&#160;</a></span>_offsetof_center</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.Features.Primitives.Plane._offsetof_center = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac90147b02ae4346467a8ce0a2d918569" name="ac90147b02ae4346467a8ce0a2d918569"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac90147b02ae4346467a8ce0a2d918569">&#9670;&#160;</a></span>_offsetof_normal</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.Features.Primitives.Plane._offsetof_normal = 12</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<pre class="fragment">This must be normalized. The sign doesn't matter.
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1Features_1_1Primitives_1_1ConstPlane.html#aec582af3c003845bf4d96fe1715c45b1">mrmeshpy.Features.Primitives.ConstPlane</a>.</p>
 
 </div>
 </div>

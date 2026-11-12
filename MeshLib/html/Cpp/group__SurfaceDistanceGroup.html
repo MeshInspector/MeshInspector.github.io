@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -147,17 +140,18 @@ $(function(){initNavTree('group__SurfaceDistanceGroup.html','',''); });
 Functions</h2></td></tr>
 <tr class="memitem:gaf58156e69b850162dc3d0a6ea29fae72" id="r_gaf58156e69b850162dc3d0a6ea29fae72"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf58156e69b850162dc3d0a6ea29fae72">MR::computeSurfaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet &amp;startVertices, float maxDist=FLT_MAX, const VertBitSet *region=nullptr, int maxVertUpdates=3)</td></tr>
 <tr class="memitem:ga2c99cd46ab5cd02f46716c347fc88048" id="r_ga2c99cd46ab5cd02f46716c347fc88048"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2c99cd46ab5cd02f46716c347fc88048">MR::computeSurfaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet &amp;startVertices, const VertBitSet &amp;targetVertices, float maxDist=FLT_MAX, const VertBitSet *region=nullptr, int maxVertUpdates=3)</td></tr>
-<tr class="memitem:gafcfbdd0804b19650444f23e586a83452" id="r_gafcfbdd0804b19650444f23e586a83452"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafcfbdd0804b19650444f23e586a83452">MR::computeSurfaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#gaf8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; VertId, float &gt; &amp;startVertices, float maxDist=FLT_MAX, const VertBitSet *region=nullptr, int maxVertUpdates=3)</td></tr>
-<tr class="memitem:gaeba57b4a06d4b3b80c88d9500fada13f" id="r_gaeba57b4a06d4b3b80c88d9500fada13f"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeba57b4a06d4b3b80c88d9500fada13f">MR::computeSurfaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>, const VertBitSet *region=nullptr, bool *endReached=nullptr, int maxVertUpdates=3)</td></tr>
-<tr class="memitem:ga5dd21a0b1940df7ece004666b7bb05f4" id="r_ga5dd21a0b1940df7ece004666b7bb05f4"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5dd21a0b1940df7ece004666b7bb05f4">MR::computeSurfaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, float maxDist=FLT_MAX, const VertBitSet *region=nullptr, int maxVertUpdates=3)</td></tr>
-<tr class="memitem:ga2f9c005e4a72a72f6625dc815b59cbe6" id="r_ga2f9c005e4a72a72f6625dc815b59cbe6"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2f9c005e4a72a72f6625dc815b59cbe6">MR::computeSurfaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; &amp;starts, float maxDist=FLT_MAX, const VertBitSet *region=nullptr, int maxVertUpdates=3)</td></tr>
-<tr class="memitem:ga926fe6cb64634fa0776b69876a2d0964" id="r_ga926fe6cb64634fa0776b69876a2d0964"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga926fe6cb64634fa0776b69876a2d0964">MR::computeSurfaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; &amp;starts, const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; &amp;ends, const VertBitSet *region=nullptr, bool *endReached=nullptr, int maxVertUpdates=3)</td></tr>
+<tr class="memitem:gafcfbdd0804b19650444f23e586a83452" id="r_gafcfbdd0804b19650444f23e586a83452"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafcfbdd0804b19650444f23e586a83452">MR::computeSurfaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552">HashMap</a>&lt; VertId, float &gt; &amp;startVertices, float maxDist=FLT_MAX, const VertBitSet *region=nullptr, int maxVertUpdates=3)</td></tr>
+<tr class="memitem:ga192b75100c366d148be3de4a75e43995" id="r_ga192b75100c366d148be3de4a75e43995"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga192b75100c366d148be3de4a75e43995">MR::computeSurfaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const UndirectedEdgeBitSet &amp;startEdges, const VertBitSet &amp;startPoints, float maxDist=FLT_MAX, const VertBitSet *region=nullptr, int maxVertUpdates=3)</td></tr>
+<tr class="memitem:gaeba57b4a06d4b3b80c88d9500fada13f" id="r_gaeba57b4a06d4b3b80c88d9500fada13f"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeba57b4a06d4b3b80c88d9500fada13f">MR::computeSurfaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;start, const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;<a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>, const VertBitSet *region=nullptr, bool *endReached=nullptr, int maxVertUpdates=3)</td></tr>
+<tr class="memitem:ga5dd21a0b1940df7ece004666b7bb05f4" id="r_ga5dd21a0b1940df7ece004666b7bb05f4"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5dd21a0b1940df7ece004666b7bb05f4">MR::computeSurfaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;start, float maxDist=FLT_MAX, const VertBitSet *region=nullptr, int maxVertUpdates=3)</td></tr>
+<tr class="memitem:ga2f9c005e4a72a72f6625dc815b59cbe6" id="r_ga2f9c005e4a72a72f6625dc815b59cbe6"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2f9c005e4a72a72f6625dc815b59cbe6">MR::computeSurfaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;starts, float maxDist=FLT_MAX, const VertBitSet *region=nullptr, int maxVertUpdates=3)</td></tr>
+<tr class="memitem:ga926fe6cb64634fa0776b69876a2d0964" id="r_ga926fe6cb64634fa0776b69876a2d0964"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga926fe6cb64634fa0776b69876a2d0964">MR::computeSurfaceDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;starts, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;ends, const VertBitSet *region=nullptr, bool *endReached=nullptr, int maxVertUpdates=3)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <p>The functions in this group implement Fast marching method for approximately solving Eikonal equation on mesh. </p>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="gafcfbdd0804b19650444f23e586a83452" name="gafcfbdd0804b19650444f23e586a83452"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafcfbdd0804b19650444f23e586a83452">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafcfbdd0804b19650444f23e586a83452">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -170,7 +164,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#gaf8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; VertId, float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>startVertices</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552">HashMap</a>&lt; VertId, float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>startVertices</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -191,12 +185,12 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRSurfaceDistance_8h.html">MRMesh/MRSurfaceDistance.h</a>&gt;</code></p>
-<p>computes path distances in mesh vertices from given start vertices with values in them, stopping when maxDist is reached; considered paths can go either along edges or straightly within triangles </p>
+<p>computes path distances in mesh vertices from given start vertices with values in them, stopping when maxDist is reached; start vertices connected by mesh edges make lines or regions (distances from the edges between them; a line with different values is handled as a region), each isolated start vertex is a point; considered paths can go either along edges or straightly within triangles </p>
 
 </div>
 </div>
 <a id="gaeba57b4a06d4b3b80c88d9500fada13f" name="gaeba57b4a06d4b3b80c88d9500fada13f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaeba57b4a06d4b3b80c88d9500fada13f">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeba57b4a06d4b3b80c88d9500fada13f">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -209,12 +203,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -235,7 +229,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRSurfaceDistance_8h.html">MRMesh/MRSurfaceDistance.h</a>&gt;</code></p>
-<p>computes path distance in mesh vertices from given start point, stopping when all vertices in the face where end is located are reached;</p>
+<p>computes path distance in mesh vertices from given start point, stopping when all vertices in the face where end is located are reached; distances are from the point</p>
 <p>considered paths can go either along edges or straightly within triangles </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">endReached</td><td>if pointer provided it will receive whether a path from start to end exists </td></tr>
@@ -246,7 +240,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ga5dd21a0b1940df7ece004666b7bb05f4" name="ga5dd21a0b1940df7ece004666b7bb05f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5dd21a0b1940df7ece004666b7bb05f4">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5dd21a0b1940df7ece004666b7bb05f4">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[3/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,7 +253,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -280,12 +274,12 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRSurfaceDistance_8h.html">MRMesh/MRSurfaceDistance.h</a>&gt;</code></p>
-<p>computes path distances in mesh vertices from given start point, stopping when maxDist is reached; considered paths can go either along edges or straightly within triangles </p>
+<p>computes path distances in mesh vertices from given start point, stopping when maxDist is reached; distances are from the point; considered paths can go either along edges or straightly within triangles </p>
 
 </div>
 </div>
 <a id="ga926fe6cb64634fa0776b69876a2d0964" name="ga926fe6cb64634fa0776b69876a2d0964"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga926fe6cb64634fa0776b69876a2d0964">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga926fe6cb64634fa0776b69876a2d0964">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -298,12 +292,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>starts</em></span>, </td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>starts</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>ends</em></span>, </td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>ends</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -326,7 +320,7 @@ Functions</h2></td></tr>
 <p><code>#include &lt;<a class="el" href="MRSurfaceDistance_8h.html">MRMesh/MRSurfaceDistance.h</a>&gt;</code></p>
 <p>computes path distances in mesh vertices from given start points, stopping when all vertices of all faces containing</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ends</td><td>are reached; considered paths can go either along edges or straightly within triangles </td></tr>
+    <tr><td class="paramname">ends</td><td>are reached; distances are from the nearest point, each start is a separate point even if they are close; considered paths can go either along edges or straightly within triangles </td></tr>
     <tr><td class="paramname">endReached</td><td>if pointer provided it will receive whether a path from start to end exists </td></tr>
   </table>
   </dd>
@@ -335,7 +329,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ga2f9c005e4a72a72f6625dc815b59cbe6" name="ga2f9c005e4a72a72f6625dc815b59cbe6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2f9c005e4a72a72f6625dc815b59cbe6">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2f9c005e4a72a72f6625dc815b59cbe6">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -348,7 +342,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>starts</em></span>, </td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>starts</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -369,12 +363,56 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRSurfaceDistance_8h.html">MRMesh/MRSurfaceDistance.h</a>&gt;</code></p>
-<p>computes path distances in mesh vertices from given start points, stopping when maxDist is reached; considered paths can go either along edges or straightly within triangles </p>
+<p>computes path distances in mesh vertices from given start points, stopping when maxDist is reached; distances are from the nearest point, each start is a separate point even if they are close; considered paths can go either along edges or straightly within triangles </p>
+
+</div>
+</div>
+<a id="ga192b75100c366d148be3de4a75e43995" name="ga192b75100c366d148be3de4a75e43995"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga192b75100c366d148be3de4a75e43995">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[6/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertScalars MR::computeSurfaceDistances </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const UndirectedEdgeBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>startEdges</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>startPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxDist</em></span><span class="paramdefsep"> = </span><span class="paramdefval">FLT_MAX</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxVertUpdates</em></span><span class="paramdefsep"> = </span><span class="paramdefval">3</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRSurfaceDistance_8h.html">MRMesh/MRSurfaceDistance.h</a>&gt;</code></p>
+<p>computes path distances in mesh vertices from given start edges and start points, stopping when maxDist is reached; start edges connected by vertices make lines or regions (distances from the edges); each start point is a point (distances from it), never united with other starts even if it is one edge away from them; considered paths can go either along edges or straightly within triangles </p>
 
 </div>
 </div>
 <a id="ga2c99cd46ab5cd02f46716c347fc88048" name="ga2c99cd46ab5cd02f46716c347fc88048"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2c99cd46ab5cd02f46716c347fc88048">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2c99cd46ab5cd02f46716c347fc88048">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -413,12 +451,12 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRSurfaceDistance_8h.html">MRMesh/MRSurfaceDistance.h</a>&gt;</code></p>
-<p>computes path distances in mesh vertices from given start vertices, stopping when all targetVertices or maxDist is reached; considered paths can go either along edges or straightly within triangles </p>
+<p>computes path distances in mesh vertices from given start vertices, stopping when all targetVertices or maxDist is reached; start vertices connected by mesh edges make lines or regions (distances from the edges between them), each isolated start vertex is a point; considered paths can go either along edges or straightly within triangles </p>
 
 </div>
 </div>
 <a id="gaf58156e69b850162dc3d0a6ea29fae72" name="gaf58156e69b850162dc3d0a6ea29fae72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf58156e69b850162dc3d0a6ea29fae72">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[7/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf58156e69b850162dc3d0a6ea29fae72">&#9670;&#160;</a></span>computeSurfaceDistances() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -452,7 +490,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRSurfaceDistance_8h.html">MRMesh/MRSurfaceDistance.h</a>&gt;</code></p>
-<p>computes path distances in mesh vertices from given start vertices, stopping when maxDist is reached; considered paths can go either along edges or straightly within triangles </p>
+<p>computes path distances in mesh vertices from given start vertices, stopping when maxDist is reached; start vertices connected by mesh edges make lines or regions (distances from the edges between them), each isolated start vertex is a point; considered paths can go either along edges or straightly within triangles </p>
 
 </div>
 </div>

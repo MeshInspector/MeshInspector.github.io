@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -148,7 +141,7 @@ $(function(){initNavTree('classMR_1_1Const__Vector__MRPixelId__MRPixelId.html','
 </div><!--header-->
 <div class="contents">
 
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type,  
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;</span>. This is the const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.Const_Vector_MRPixelId_MRPixelId:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -157,21 +150,19 @@ $(function(){initNavTree('classMR_1_1Const__Vector__MRPixelId__MRPixelId.html','
  <div class="center">
   <img src="classMR_1_1Const__Vector__MRPixelId__MRPixelId.png" usemap="#MR_2EConst_5FVector_5FMRPixelId_5FMRPixelId_map" alt=""/>
   <map id="MR_2EConst_5FVector_5FMRPixelId_5FMRPixelId_map" name="MR_2EConst_5FVector_5FMRPixelId_5FMRPixelId_map">
-<area href="classMR_1_1Vector__MRPixelId__MRPixelId.html" title="std.vector&lt;T&gt;-like container that requires specific indexing type," alt="MR.Vector_MRPixelId_MRPixelId" shape="rect" coords="372,112,610,136"/>
+<area href="classMR_1_1Vector__MRPixelId__MRPixelId.html" title="Vector&lt;T&gt; is indexed by size_t Generated from class MR.Vector&lt;MR.PixelId, MR.PixelId&gt;...." alt="MR.Vector_MRPixelId_MRPixelId" shape="rect" coords="248,112,486,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:_5FEnumerator" id="r__5FEnumerator"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_Enumerator</b></td></tr>
 <tr class="memitem:_5FUnderlying" id="r__5FUnderlying"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>_Underlying</b></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2b7a0e1650043acb5628d5a945ea3569" id="r_a2b7a0e1650043acb5628d5a945ea3569"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b7a0e1650043acb5628d5a945ea3569">Dispose</a> ()</td></tr>
-<tr class="memitem:afdb1a3706c9bcdab0064c757b96fa545" id="r_afdb1a3706c9bcdab0064c757b96fa545"><td class="memItemLeft" align="right" valign="top">IEnumerator&lt; MR.Misc.ConstRef&lt; <a class="el" href="structMR_1_1PixelId.html">MR.PixelId</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdb1a3706c9bcdab0064c757b96fa545">GetEnumerator</a> ()</td></tr>
 <tr class="memitem:adf6a8199edb4e212bcda442a81ded036" id="r_adf6a8199edb4e212bcda442a81ded036"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf6a8199edb4e212bcda442a81ded036">Const_Vector_MRPixelId_MRPixelId</a> ()</td></tr>
-<tr class="memdesc:adf6a8199edb4e212bcda442a81ded036"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
+<tr class="memdesc:adf6a8199edb4e212bcda442a81ded036"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="memitem:a68d49fe9963d3afaa7e5244b5910b66f" id="r_a68d49fe9963d3afaa7e5244b5910b66f"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68d49fe9963d3afaa7e5244b5910b66f">Const_Vector_MRPixelId_MRPixelId</a> (MR._ByValue_Vector_MRPixelId_MRPixelId _other)</td></tr>
 <tr class="memdesc:a68d49fe9963d3afaa7e5244b5910b66f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a2c1e89e8b4f5c60fca7c6cb57cde05d7" id="r_a2c1e89e8b4f5c60fca7c6cb57cde05d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c1e89e8b4f5c60fca7c6cb57cde05d7">Const_Vector_MRPixelId_MRPixelId</a> (<a class="el" href="classMR_1_1Const__Vector__MRPixelId__MRPixelId.html">Const_Vector_MRPixelId_MRPixelId</a> _other)</td></tr>
@@ -182,12 +173,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a55526f8fbc0aa0c6fc6e95f17f7e323e"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a5c31fe43f9b078881ac34752b2e97d0f" id="r_a5c31fe43f9b078881ac34752b2e97d0f"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c31fe43f9b078881ac34752b2e97d0f">Const_Vector_MRPixelId_MRPixelId</a> (nuint <a class="el" href="#afab177f60a48c4b4085d9cef27933c9a">size</a>, in <a class="el" href="structMR_1_1PixelId.html">MR.PixelId</a> val)</td></tr>
 <tr class="memdesc:a5c31fe43f9b078881ac34752b2e97d0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
-<tr class="memitem:a9053a39882be7471ef5c12893afbfdb1" id="r_a9053a39882be7471ef5c12893afbfdb1"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9053a39882be7471ef5c12893afbfdb1">Const_Vector_MRPixelId_MRPixelId</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRPixelId &gt; <a class="el" href="#a4ab28b71af6c912fc416475abe44bf5e">vec</a>)</td></tr>
-<tr class="memdesc:a9053a39882be7471ef5c12893afbfdb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a746502319c002d8db0af690540c714d3" id="r_a746502319c002d8db0af690540c714d3"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a746502319c002d8db0af690540c714d3">empty</a> ()</td></tr>
 <tr class="memdesc:a746502319c002d8db0af690540c714d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;<a class="el" href="#a746502319c002d8db0af690540c714d3" title="Generated from method MR.Vector&lt;MR.PixelId, MR.PixelId&gt;empty.">empty</a></span>.  <br /></td></tr>
 <tr class="memitem:afab177f60a48c4b4085d9cef27933c9a" id="r_afab177f60a48c4b4085d9cef27933c9a"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afab177f60a48c4b4085d9cef27933c9a">size</a> ()</td></tr>
 <tr class="memdesc:afab177f60a48c4b4085d9cef27933c9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;<a class="el" href="#afab177f60a48c4b4085d9cef27933c9a" title="Generated from method MR.Vector&lt;MR.PixelId, MR.PixelId&gt;size.">size</a></span>.  <br /></td></tr>
+<tr class="memitem:a79f69d6f1ec1a28fd12493dee32d0ee1" id="r_a79f69d6f1ec1a28fd12493dee32d0ee1"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79f69d6f1ec1a28fd12493dee32d0ee1">maxSize</a> ()</td></tr>
+<tr class="memdesc:a79f69d6f1ec1a28fd12493dee32d0ee1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;::max_size</span>.  <br /></td></tr>
 <tr class="memitem:af8663d1074f295f1dd27109035b13b65" id="r_af8663d1074f295f1dd27109035b13b65"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8663d1074f295f1dd27109035b13b65">capacity</a> ()</td></tr>
 <tr class="memdesc:af8663d1074f295f1dd27109035b13b65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;<a class="el" href="#af8663d1074f295f1dd27109035b13b65" title="Generated from method MR.Vector&lt;MR.PixelId, MR.PixelId&gt;capacity.">capacity</a></span>.  <br /></td></tr>
 <tr class="memitem:ad14e46bffe916663a6c6de9aab397774" id="r_ad14e46bffe916663a6c6de9aab397774"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly <a class="el" href="structMR_1_1PixelId.html">MR.PixelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad14e46bffe916663a6c6de9aab397774">front</a> ()</td></tr>
@@ -209,8 +200,6 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aeb598871e30f68f4b6a7209cf2707f5d" id="r_aeb598871e30f68f4b6a7209cf2707f5d"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb598871e30f68f4b6a7209cf2707f5d">operator Const_Vector_MRPixelId_MRPixelId</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRPixelId &gt; <a class="el" href="#a4ab28b71af6c912fc416475abe44bf5e">vec</a>)</td></tr>
-<tr class="memdesc:aeb598871e30f68f4b6a7209cf2707f5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a30f32d226d479adeff41de6afb3f3b38" id="r_a30f32d226d479adeff41de6afb3f3b38"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30f32d226d479adeff41de6afb3f3b38">operator==</a> (<a class="el" href="classMR_1_1Const__Vector__MRPixelId__MRPixelId.html">MR.Const_Vector_MRPixelId_MRPixelId</a> _this, <a class="el" href="classMR_1_1Const__Vector__MRPixelId__MRPixelId.html">MR.Const_Vector_MRPixelId_MRPixelId</a> b)</td></tr>
 <tr class="memdesc:a30f32d226d479adeff41de6afb3f3b38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;<a class="el" href="#a30f32d226d479adeff41de6afb3f3b38" title="Generated from method MR.Vector&lt;MR.PixelId, MR.PixelId&gt;operator==.">operator==</a></span>.  <br /></td></tr>
 <tr class="memitem:a74a3726beadb889aca9a1dad07f3c1eb" id="r_a74a3726beadb889aca9a1dad07f3c1eb"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74a3726beadb889aca9a1dad07f3c1eb">operator!=</a> (<a class="el" href="classMR_1_1Const__Vector__MRPixelId__MRPixelId.html">MR.Const_Vector_MRPixelId_MRPixelId</a> _this, <a class="el" href="classMR_1_1Const__Vector__MRPixelId__MRPixelId.html">MR.Const_Vector_MRPixelId_MRPixelId</a> b)</td></tr>
@@ -221,23 +210,16 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a4ab28b71af6c912fc416475abe44bf5e" id="r_a4ab28b71af6c912fc416475abe44bf5e"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRPixelId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ab28b71af6c912fc416475abe44bf5e">vec</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a4ab28b71af6c912fc416475abe44bf5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
+<tr class="memitem:aea474554d08c4c1ce9a911ef2b8bf508" id="r_aea474554d08c4c1ce9a911ef2b8bf508"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRPixelId_MRAllocatorMRPixelId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea474554d08c4c1ce9a911ef2b8bf508">vec</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:aea474554d08c4c1ce9a911ef2b8bf508"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can directly manipulate the vector, they can't break anything anyway.  <br /></td></tr>
 <tr class="memitem:a580110aca048d1161a5bd07e5f5da018" id="r_a580110aca048d1161a5bd07e5f5da018"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly <a class="el" href="structMR_1_1PixelId.html">MR.PixelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a580110aca048d1161a5bd07e5f5da018">this[MR.PixelId i]</a><code> [get]</code></td></tr>
 <tr class="memdesc:a580110aca048d1161a5bd07e5f5da018"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;::operator[]</span>.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;</span>. This is the const half of the class. </td></tr>
-  </table>
-  </dd>
-</dl>
+<div class="textblock"><p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;</span>. This is the const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adf6a8199edb4e212bcda442a81ded036" name="adf6a8199edb4e212bcda442a81ded036"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf6a8199edb4e212bcda442a81ded036">&#9670;&#160;</a></span>Const_Vector_MRPixelId_MRPixelId() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adf6a8199edb4e212bcda442a81ded036">&#9670;&#160;</a></span>Const_Vector_MRPixelId_MRPixelId() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,12 +241,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs an empty (default-constructed) instance. </p>
+<p>creates empty vector </p>
 
 </div>
 </div>
 <a id="a68d49fe9963d3afaa7e5244b5910b66f" name="a68d49fe9963d3afaa7e5244b5910b66f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68d49fe9963d3afaa7e5244b5910b66f">&#9670;&#160;</a></span>Const_Vector_MRPixelId_MRPixelId() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a68d49fe9963d3afaa7e5244b5910b66f">&#9670;&#160;</a></span>Const_Vector_MRPixelId_MRPixelId() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -291,7 +273,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a2c1e89e8b4f5c60fca7c6cb57cde05d7" name="a2c1e89e8b4f5c60fca7c6cb57cde05d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c1e89e8b4f5c60fca7c6cb57cde05d7">&#9670;&#160;</a></span>Const_Vector_MRPixelId_MRPixelId() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c1e89e8b4f5c60fca7c6cb57cde05d7">&#9670;&#160;</a></span>Const_Vector_MRPixelId_MRPixelId() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -318,7 +300,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a1fa51761a1cbed0013c235187622c83a" name="a1fa51761a1cbed0013c235187622c83a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fa51761a1cbed0013c235187622c83a">&#9670;&#160;</a></span>Const_Vector_MRPixelId_MRPixelId() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fa51761a1cbed0013c235187622c83a">&#9670;&#160;</a></span>Const_Vector_MRPixelId_MRPixelId() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -345,7 +327,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a55526f8fbc0aa0c6fc6e95f17f7e323e" name="a55526f8fbc0aa0c6fc6e95f17f7e323e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55526f8fbc0aa0c6fc6e95f17f7e323e">&#9670;&#160;</a></span>Const_Vector_MRPixelId_MRPixelId() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a55526f8fbc0aa0c6fc6e95f17f7e323e">&#9670;&#160;</a></span>Const_Vector_MRPixelId_MRPixelId() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -372,7 +354,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a5c31fe43f9b078881ac34752b2e97d0f" name="a5c31fe43f9b078881ac34752b2e97d0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c31fe43f9b078881ac34752b2e97d0f">&#9670;&#160;</a></span>Const_Vector_MRPixelId_MRPixelId() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c31fe43f9b078881ac34752b2e97d0f">&#9670;&#160;</a></span>Const_Vector_MRPixelId_MRPixelId() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -399,33 +381,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;::Vector</span>. </p>
-
-</div>
-</div>
-<a id="a9053a39882be7471ef5c12893afbfdb1" name="a9053a39882be7471ef5c12893afbfdb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9053a39882be7471ef5c12893afbfdb1">&#9670;&#160;</a></span>Const_Vector_MRPixelId_MRPixelId() <span class="overload">[7/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe MR.Const_Vector_MRPixelId_MRPixelId.Const_Vector_MRPixelId_MRPixelId </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRPixelId &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;::Vector</span>. </p>
 
 </div>
 </div>
@@ -746,31 +701,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="afdb1a3706c9bcdab0064c757b96fa545" name="afdb1a3706c9bcdab0064c757b96fa545"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdb1a3706c9bcdab0064c757b96fa545">&#9670;&#160;</a></span>GetEnumerator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">IEnumerator&lt; MR.Misc.ConstRef&lt; <a class="el" href="structMR_1_1PixelId.html">MR.PixelId</a> &gt; &gt; MR.Const_Vector_MRPixelId_MRPixelId.GetEnumerator </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aa4ef2f4a4cd6bc37faf2b2a8e35258fa" name="aa4ef2f4a4cd6bc37faf2b2a8e35258fa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa4ef2f4a4cd6bc37faf2b2a8e35258fa">&#9670;&#160;</a></span>heapBytes()</h2>
 
@@ -798,8 +728,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="aeb598871e30f68f4b6a7209cf2707f5d" name="aeb598871e30f68f4b6a7209cf2707f5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb598871e30f68f4b6a7209cf2707f5d">&#9670;&#160;</a></span>operator Const_Vector_MRPixelId_MRPixelId()</h2>
+<a id="a79f69d6f1ec1a28fd12493dee32d0ee1" name="a79f69d6f1ec1a28fd12493dee32d0ee1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79f69d6f1ec1a28fd12493dee32d0ee1">&#9670;&#160;</a></span>maxSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -808,20 +738,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe implicit MR.Const_Vector_MRPixelId_MRPixelId.operator <a class="el" href="classMR_1_1Const__Vector__MRPixelId__MRPixelId.html">Const_Vector_MRPixelId_MRPixelId</a> </td>
+          <td class="memname">unsafe nuint MR.Const_Vector_MRPixelId_MRPixelId.maxSize </td>
           <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRPixelId &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;::Vector</span>. </p>
+<p>Generated from method <span class="tt">MR::Vector&amp;lt;<a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>, <a class="el" href="structMR_1_1PixelId.html" title="Generated from class MR.PixelId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.PixelId</a>&amp;gt;::max_size</span>. </p>
 
 </div>
 </div>
@@ -937,8 +867,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a4ab28b71af6c912fc416475abe44bf5e" name="a4ab28b71af6c912fc416475abe44bf5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ab28b71af6c912fc416475abe44bf5e">&#9670;&#160;</a></span>vec</h2>
+<a id="aea474554d08c4c1ce9a911ef2b8bf508" name="aea474554d08c4c1ce9a911ef2b8bf508"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea474554d08c4c1ce9a911ef2b8bf508">&#9670;&#160;</a></span>vec</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -947,7 +877,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe MR.Std.Const_Vector_MRPixelId MR.Const_Vector_MRPixelId_MRPixelId.vec</td>
+          <td class="memname">unsafe MR.Std.Const_Vector_MRPixelId_MRAllocatorMRPixelId MR.Const_Vector_MRPixelId_MRPixelId.vec</td>
         </tr>
       </table>
   </td>

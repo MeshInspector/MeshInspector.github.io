@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -145,7 +138,10 @@ $(function(){initNavTree('structMR_1_1BoxedLeaf.html','','structMR_1_1BoxedLeaf-
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="MRAABBTreeMaker_8h_source.html">MRMesh/MRAABBTreeMaker.h</a>&gt;</code></p>
+<p>a leaf of AABB-tree: the id of an object (e.g. face) with its bounding box  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="MRAABBTreeNode_8h_source.html">MRMesh/MRAABBTreeNode.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -157,7 +153,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a94f8ddab16da6ccb873e9ef25f7b116d" id="r_a94f8ddab16da6ccb873e9ef25f7b116d"><td class="memItemLeft" align="right" valign="top">T::LeafId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94f8ddab16da6ccb873e9ef25f7b116d">leafId</a></td></tr>
 <tr class="memitem:a7e9f371791aa795b1f0c9525f37e40e5" id="r_a7e9f371791aa795b1f0c9525f37e40e5"><td class="memItemLeft" align="right" valign="top">T::BoxT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e9f371791aa795b1f0c9525f37e40e5">box</a></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+struct MR::BoxedLeaf&lt; T &gt;</div><p>a leaf of AABB-tree: the id of an object (e.g. face) with its bounding box </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0b4e56c5de1bf6b3fd5a6a6896e66d46" name="a0b4e56c5de1bf6b3fd5a6a6896e66d46"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0b4e56c5de1bf6b3fd5a6a6896e66d46">&#9670;&#160;</a></span>BoxedLeaf() <span class="overload">[1/2]</span></h2>
 
@@ -246,7 +245,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>MRMesh/<a class="el" href="MRAABBTreeMaker_8h_source.html">MRAABBTreeMaker.h</a></li>
+<li>MRMesh/<a class="el" href="MRAABBTreeNode_8h_source.html">MRAABBTreeNode.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

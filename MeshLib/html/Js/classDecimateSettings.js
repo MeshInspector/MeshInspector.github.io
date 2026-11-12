@@ -15,6 +15,7 @@ var classDecimateSettings =
     [ "minFacesInPart", "classDecimateSettings.html#a64e16468367498643496bc6c212061bc", null ],
     [ "optimizeVertexPos", "classDecimateSettings.html#a67dc6bef55decb672782d36cf9dcf67e", null ],
     [ "packMesh", "classDecimateSettings.html#aa96cd5cc66f6d720735be71885284f72", null ],
+    [ "partsMode", "classDecimateSettings.html#a29a631b13da0279a667e3dcd4df1a75b", null ],
     [ "stabilizer", "classDecimateSettings.html#aa71ff9ba8836c18773b8a7a5c169c0d4", null ],
     [ "strategy", "classDecimateSettings.html#ae8d10c096017a745256939fc3828c5ba", null ],
     [ "subdivideParts", "classDecimateSettings.html#af6b0a7e07c35f8a3d11122338c6df4d8", null ],

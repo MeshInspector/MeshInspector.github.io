@@ -6,7 +6,6 @@ var classMR_1_1Const__Vector__MRVoxelId__MRVoxelId =
     [ "Const_Vector_MRVoxelId_MRVoxelId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a7457de9f29c373ef7da508843912c4c3", null ],
     [ "Const_Vector_MRVoxelId_MRVoxelId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a92bd48ff9cf43360baf9436079965358", null ],
     [ "Const_Vector_MRVoxelId_MRVoxelId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a7117f0c4a939ada699c08a1d74c0995a", null ],
-    [ "Const_Vector_MRVoxelId_MRVoxelId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a4c33a06e9d1c00186c517170cc28a129", null ],
     [ "back", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#ac2a227fa039ff42f067904883226675c", null ],
     [ "backId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a1dd379d80841873bc1d8d3776e3b10f4", null ],
     [ "beginId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a556182fcb2ab98bf2e8daa3bb0cf4449", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__Vector__MRVoxelId__MRVoxelId =
     [ "Equals", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a2ef05c24e07d2ef4b3d9eece383f1ec3", null ],
     [ "Equals", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a72a0cd7b7dceb90dc3995d28f4d8fc40", null ],
     [ "front", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a585100f90056166172cf8785423b7e47", null ],
-    [ "GetEnumerator", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a63c371f9c6c2ebae5664d5d6a2d471ab", null ],
     [ "heapBytes", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a9d006071e6677e3cd67163931ca45d25", null ],
-    [ "operator Const_Vector_MRVoxelId_MRVoxelId", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a0faab6bfd92a5d6484dc317a1ad17536", null ],
+    [ "maxSize", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#aa18e7a3a91fa7de3cb71d5c3fabc0c92", null ],
     [ "operator!=", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a1487a3cd587756159294ce2e76757a12", null ],
     [ "operator==", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#aaa80d6bbdf80ee30ba03bc0036d2429c", null ],
     [ "size", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a7686c40b20d54ba500bf99700c41abd6", null ],
     [ "this[MR.VoxelId i]", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a564cf856995a6947425c0a6b345d0a58", null ],
-    [ "vec", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#a86d4cfff977eba27411314d6d6fad950", null ]
+    [ "vec", "classMR_1_1Const__Vector__MRVoxelId__MRVoxelId.html#af1a40dcb54dd145725c3ff5fd16f18f2", null ]
 ];

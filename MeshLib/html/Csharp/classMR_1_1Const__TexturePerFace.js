@@ -6,7 +6,6 @@ var classMR_1_1Const__TexturePerFace =
     [ "Const_TexturePerFace", "classMR_1_1Const__TexturePerFace.html#a896a6796b3a959985b0438d7ef4de9a2", null ],
     [ "Const_TexturePerFace", "classMR_1_1Const__TexturePerFace.html#a0ef3d5739464f55632b93a61e8416d99", null ],
     [ "Const_TexturePerFace", "classMR_1_1Const__TexturePerFace.html#a7f837cb165ff4b34def146f9f80b07ce", null ],
-    [ "Const_TexturePerFace", "classMR_1_1Const__TexturePerFace.html#a5180b7d4ca576a75a6b7a74fedda7088", null ],
     [ "back", "classMR_1_1Const__TexturePerFace.html#a6ac6fa484a79c833186ff02f7020fdd9", null ],
     [ "backId", "classMR_1_1Const__TexturePerFace.html#aad45b2f47a5a5ef2fe416849046df826", null ],
     [ "beginId", "classMR_1_1Const__TexturePerFace.html#acd3a55a100ff566a92dfc18a6d564410", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__TexturePerFace =
     [ "Equals", "classMR_1_1Const__TexturePerFace.html#aed0edf05243d33a804a4292f44d883c9", null ],
     [ "Equals", "classMR_1_1Const__TexturePerFace.html#a92da021fe7579f361ade4c0b4c2dfa46", null ],
     [ "front", "classMR_1_1Const__TexturePerFace.html#afd6e4e8c936f13e9cff41c4e1f7c4550", null ],
-    [ "GetEnumerator", "classMR_1_1Const__TexturePerFace.html#a4eb61039f105ac2557df9e247b0f26f5", null ],
     [ "heapBytes", "classMR_1_1Const__TexturePerFace.html#af82a08da62517ba970ef8ec5b85c3571", null ],
-    [ "operator Const_TexturePerFace", "classMR_1_1Const__TexturePerFace.html#affcc9c24212986200048081694a256b7", null ],
+    [ "maxSize", "classMR_1_1Const__TexturePerFace.html#a1c73e55a61a31f65261e135fc3b27ca1", null ],
     [ "operator!=", "classMR_1_1Const__TexturePerFace.html#af30a8ccaaeed0ade6a2d66f05da267b2", null ],
     [ "operator==", "classMR_1_1Const__TexturePerFace.html#a990b1345b4771c94125cc9e9c14f4b8a", null ],
     [ "size", "classMR_1_1Const__TexturePerFace.html#af010444b5648263feb0a00c62951b6ac", null ],
     [ "this[MR.FaceId i]", "classMR_1_1Const__TexturePerFace.html#a992fdd0d6008c1f2540f24a12ce4e670", null ],
-    [ "vec", "classMR_1_1Const__TexturePerFace.html#aee92c3b97930450e838e8c5717b92a31", null ]
+    [ "vec", "classMR_1_1Const__TexturePerFace.html#a0293b84369be6626c291cb584987bb26", null ]
 ];

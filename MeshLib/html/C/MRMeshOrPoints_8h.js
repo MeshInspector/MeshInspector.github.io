@@ -56,6 +56,7 @@ var MRMeshOrPoints_8h =
     [ "MR_MeshOrPoints_ProjectionResult_Set_point", "MRMeshOrPoints_8h.html#add54750caf59321a5533f5b4dc9df52a", null ],
     [ "MR_MeshOrPoints_ProjectionResult_valid", "MRMeshOrPoints_8h.html#a5f6b669304a7eb389fe7994051add33c", null ],
     [ "MR_MeshOrPoints_projector", "MRMeshOrPoints_8h.html#a96c05f18cdf161ae7cf01966273a804b", null ],
+    [ "MR_MeshOrPoints_surfaceGridSampling", "MRMeshOrPoints_8h.html#a7790646a31a3020404c099910cebf9d6", null ],
     [ "MR_MeshOrPoints_validPoints", "MRMeshOrPoints_8h.html#a39f07a45a112efe3cd3eaa13237c7160", null ],
     [ "MR_MeshOrPoints_weights", "MRMeshOrPoints_8h.html#a95fc402969315e641a282a4f06190125", null ],
     [ "MR_MeshOrPointsXf_AssignFromAnother", "MRMeshOrPoints_8h.html#a393236180a03fe9f89150e4b7f12740c", null ],

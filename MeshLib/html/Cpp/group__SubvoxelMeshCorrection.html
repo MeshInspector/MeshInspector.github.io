@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -156,8 +149,7 @@ Classes</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <p>Precise automatic mesh correction or/and smoothing based on reference voxel (volume) data. </p>
 <p>This group provides highlevel interface of the algorithm: <a class="el" href="#ga1e8644361ce63a01cc5bf2f55019c438">moveMeshToVoxelMaxDeriv</a> configurable through <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MoveMeshToVoxelMaxDerivSettings</a> and the low-level structure <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MeshOnVoxelsT</a> that allows creation of custom correction strategy.</p>
-<h4 class="doxsection"><a class="anchor" id="description"></a>
-Description of the algorithm.</h4>
+<dl class="section user"><dt>Description of the algorithm.</dt><dd></dd></dl>
 <ol type="1">
 <li><b>Input</b>: <a class="el" href="structMR_1_1Mesh.html">Mesh</a> and VdbVolume with corresponding transforms. The objects must be aligned.</li>
 <li>First step is to apply preparation smoothing with force specified by <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a33ab7a3bb2d0ed46b1856e4ba276357c">MoveMeshToVoxelMaxDerivSettings::preparationSmoothForce</a>. This step might be needed if the initial surface is very noisy.</li>
@@ -184,8 +176,7 @@ Description of the algorithm.</h4>
 <li>The algorithm modifies the mesh inplace and returns the set of vertices that were moved during the correction.</li>
 </ol>
 <p>A nice visualization of <em class="arg">why</em> it works could be found in MeshInspector's plugin "Voxels Inspector". Just click on any vertex and you will see the values of \( F, Q_i \) on the interval \( \overline{N_i} \), as well as points of \( N_i \).</p>
-<h4 class="doxsection"><a class="anchor" id="usage"></a>
-Usage</h4>
+<dl class="section user"><dt>Usage</dt><dd></dd></dl>
 <p>The algorithm can be used in different cases related to the CT-scanning workflows:</p><ul>
 <li>To increase precision of the mesh retrieved by marching cubes meshing from a noisy scan.</li>
 <li>To smooth a noisy mesh taking into account extra information from voxels. In this case, even if both mesh and voxels are noisy, the result is expected to be better than after a simple smoothing. For this use-case, you might need to increase the force of both preparation and intermidiate smoothings. </li>

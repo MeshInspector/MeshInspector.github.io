@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -185,7 +178,7 @@ $(function(){initNavTree('MRIdentifyVertices_8h_source.html','',''); });
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keyword">using </span>VertInHMap = std::array&lt;VertId*, 3&gt;;</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    std::vector&lt;VertInHMap&gt; vertsInHMap_;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keyword">using </span>HMap = <a class="code hl_typedef" href="group__GeneralGroup.html#ga05d4e4903837647940c265c6939dcfdf">ParallelHashMap&lt;Vector3f, VertId, phmap::priv::hash_default_hash&lt;Vector3f&gt;</a>, <a class="code hl_struct" href="structMR_1_1MeshBuilder_1_1equalVector3f.html">equalVector3f</a>&gt;;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keyword">using </span>HMap = <a class="code hl_typedef" href="group__GeneralGroup.html#ga5ca35b3a2187b5136e6afa6dbb9a3fbf">ParallelHashMap&lt;Vector3f, VertId, phmap::priv::hash_default_hash&lt;Vector3f&gt;</a>, <a class="code hl_struct" href="structMR_1_1MeshBuilder_1_1equalVector3f.html">equalVector3f</a>&gt;;</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    HMap hmap_;</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    Triangulation t_;</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    VertCoords points_;</div>
@@ -201,15 +194,15 @@ $(function(){initNavTree('MRIdentifyVertices_8h_source.html','',''); });
 <div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1MeshBuilder_1_1VertexIdentifier_html"><div class="ttname"><a href="classMR_1_1MeshBuilder_1_1VertexIdentifier.html">MR::MeshBuilder::VertexIdentifier</a></div><div class="ttdef"><b>Definition</b> MRIdentifyVertices.h:36</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga05d4e4903837647940c265c6939dcfdf"><div class="ttname"><a href="group__GeneralGroup.html#ga05d4e4903837647940c265c6939dcfdf">MR::ParallelHashMap</a></div><div class="ttdeci">phmap::parallel_flat_hash_map&lt; K, V, Hash, Eq &gt; ParallelHashMap</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:608</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga1ec9880b17254911722c77703cc96dbd"><div class="ttname"><a href="group__GeneralGroup.html#ga1ec9880b17254911722c77703cc96dbd">MR::MeshBuilder::VertexIdentifier::addTriangles</a></div><div class="ttdeci">void addTriangles(const std::vector&lt; Triangle3f &gt; &amp;buffer)</div><div class="ttdoc">identifies vertices from a chunk of triangles</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga2e2e54026ad94fbd2e7c0b98270a01e3"><div class="ttname"><a href="group__GeneralGroup.html#ga2e2e54026ad94fbd2e7c0b98270a01e3">MR::MeshBuilder::VertexIdentifier::takeTriangulation</a></div><div class="ttdeci">Triangulation takeTriangulation()</div><div class="ttdoc">obtains triangulation with vertex ids</div><div class="ttdef"><b>Definition</b> MRIdentifyVertices.h:45</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga5ca35b3a2187b5136e6afa6dbb9a3fbf"><div class="ttname"><a href="group__GeneralGroup.html#ga5ca35b3a2187b5136e6afa6dbb9a3fbf">MR::ParallelHashMap</a></div><div class="ttdeci">phmap::parallel_flat_hash_map&lt; K, V, Hash, Eq, Allocator&lt; std::pair&lt; const K, V &gt; &gt; &gt; ParallelHashMap</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:634</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga8fdebf815e795678656400f4e3a957f2"><div class="ttname"><a href="group__GeneralGroup.html#ga8fdebf815e795678656400f4e3a957f2">MR::MeshBuilder::equalVector3f::operator()</a></div><div class="ttdeci">bool operator()(const Vector3f &amp;a, const Vector3f &amp;b) const</div><div class="ttdef"><b>Definition</b> MRIdentifyVertices.h:21</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga912b1f11a64c5a801dc9bedeca46d933"><div class="ttname"><a href="group__GeneralGroup.html#ga912b1f11a64c5a801dc9bedeca46d933">MR::MeshBuilder::VertexIdentifier::reserve</a></div><div class="ttdeci">void reserve(size_t numTris)</div><div class="ttdoc">prepare identification of vertices from given this number of triangles</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaa1211b739708344bd0dba3542ec58a27"><div class="ttname"><a href="group__GeneralGroup.html#gaa1211b739708344bd0dba3542ec58a27">MR::MeshBuilder::VertexIdentifier::takePoints</a></div><div class="ttdeci">VertCoords takePoints()</div><div class="ttdoc">obtains coordinates of unique points in the order of vertex ids</div><div class="ttdef"><b>Definition</b> MRIdentifyVertices.h:47</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaa5e3191cd4ff080dc3f960e8763c0069"><div class="ttname"><a href="group__GeneralGroup.html#gaa5e3191cd4ff080dc3f960e8763c0069">MR::MeshBuilder::VertexIdentifier::numTris</a></div><div class="ttdeci">size_t numTris() const</div><div class="ttdoc">returns the number of triangles added so far</div><div class="ttdef"><b>Definition</b> MRIdentifyVertices.h:43</div></div>
 <div class="ttc" id="anamespaceMR_1_1MeshBuilder_html"><div class="ttname"><a href="namespaceMR_1_1MeshBuilder.html">MR::MeshBuilder</a></div><div class="ttdoc">Building topologies by triangles.</div><div class="ttdef"><b>Definition</b> MRIdentifyVertices.h:16</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1MeshBuilder_1_1equalVector3f_html"><div class="ttname"><a href="structMR_1_1MeshBuilder_1_1equalVector3f.html">MR::MeshBuilder::equalVector3f</a></div><div class="ttdoc">this makes bit-wise comparison of two Vector3f&#39;s thus making two NaNs equal</div><div class="ttdef"><b>Definition</b> MRIdentifyVertices.h:20</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

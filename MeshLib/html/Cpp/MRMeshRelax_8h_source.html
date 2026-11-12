@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -158,8 +151,8 @@ $(function(){initNavTree('MRMeshRelax_8h_source.html','',''); });
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>};</div>
 </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="group__MeshRelaxGroup.html#gae33b27e64fe5ab346333589e6564abee">   24</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__MeshRelaxGroup.html#gae33b27e64fe5ab346333589e6564abee">relax</a>( <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshRelaxParams.html">MeshRelaxParams</a>&amp; params = {}, <span class="keyword">const</span> <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; cb = {} );</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="group__MeshRelaxGroup.html#ga3dbd5ee9aa51d0fb51e6d8cbc8bb5b9e">   25</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__MeshRelaxGroup.html#gae33b27e64fe5ab346333589e6564abee">relax</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1MeshTopology.html">MeshTopology</a>&amp; topology, VertCoords&amp; points, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshRelaxParams.html">MeshRelaxParams</a>&amp; params = {}, <span class="keyword">const</span> <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; cb = {} );</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="group__MeshRelaxGroup.html#gae33b27e64fe5ab346333589e6564abee">   24</a></span>MR_BIND_OVERLOAD_SUFFIX() <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__MeshRelaxGroup.html#gae33b27e64fe5ab346333589e6564abee">relax</a>( <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, const <a class="code hl_struct" href="structMR_1_1MeshRelaxParams.html">MeshRelaxParams</a>&amp; params = {}, <span class="keyword">const</span> <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; cb = {} );</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="group__MeshRelaxGroup.html#ga3dbd5ee9aa51d0fb51e6d8cbc8bb5b9e">   25</a></span>MR_BIND_OVERLOAD_SUFFIX(topology) <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__MeshRelaxGroup.html#gae33b27e64fe5ab346333589e6564abee">relax</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1MeshTopology.html">MeshTopology</a>&amp; topology, VertCoords&amp; points, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1MeshRelaxParams.html">MeshRelaxParams</a>&amp; params = {}, <span class="keyword">const</span> <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; cb = {} );</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="group__MeshRelaxGroup.html#ga11a3c4423d57bdec0536c0916269613c">   29</a></span>[[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f <a class="code hl_function" href="group__MeshRelaxGroup.html#ga11a3c4423d57bdec0536c0916269613c">vertexPosEqualNeiAreas</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, VertId v, <span class="keywordtype">bool</span> noShrinkage );</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="group__MeshRelaxGroup.html#gafbd4050c45f9441d53f08ae512d5b495">   30</a></span>[[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Vector3f <a class="code hl_function" href="group__MeshRelaxGroup.html#ga11a3c4423d57bdec0536c0916269613c">vertexPosEqualNeiAreas</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1MeshTopology.html">MeshTopology</a>&amp; topology, <span class="keyword">const</span> VertCoords&amp; points, VertId v, <span class="keywordtype">bool</span> noShrinkage );</div>
@@ -203,9 +196,9 @@ $(function(){initNavTree('MRMeshRelax_8h_source.html','',''); });
 <div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
 <div class="ttc" id="aMRRelaxParams_8h_html"><div class="ttname"><a href="MRRelaxParams_8h.html">MRRelaxParams.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html"><div class="ttname"><a href="classMR_1_1MeshTopology.html">MR::MeshTopology</a></div><div class="ttdef"><b>Definition</b> MRMeshTopology.h:30</div></div>
-<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:759</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga6ab288ae813e1aa688312e31c258df71"><div class="ttname"><a href="group__GeneralGroup.html#ga6ab288ae813e1aa688312e31c258df71">MR::RelaxApproxType</a></div><div class="ttdeci">RelaxApproxType</div><div class="ttdef"><b>Definition</b> MRRelaxParams.h:39</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_gga6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf"><div class="ttname"><a href="group__GeneralGroup.html#gga6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf">MR::RelaxApproxType::Planar</a></div><div class="ttdeci">@ Planar</div><div class="ttdef"><b>Definition</b> MRRelaxParams.h:40</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:789</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga6ab288ae813e1aa688312e31c258df71"><div class="ttname"><a href="group__GeneralGroup.html#ga6ab288ae813e1aa688312e31c258df71">MR::RelaxApproxType</a></div><div class="ttdeci">RelaxApproxType</div><div class="ttdef"><b>Definition</b> MRRelaxParams.h:43</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gga6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf"><div class="ttname"><a href="group__GeneralGroup.html#gga6ab288ae813e1aa688312e31c258df71a93a097009b6443e711996c50b5354adf">MR::RelaxApproxType::Planar</a></div><div class="ttdeci">@ Planar</div><div class="ttdef"><b>Definition</b> MRRelaxParams.h:44</div></div>
 <div class="ttc" id="agroup__MeshRelaxGroup_html_ga0b7b12e3abc437cc721146292d65991b"><div class="ttname"><a href="group__MeshRelaxGroup.html#ga0b7b12e3abc437cc721146292d65991b">MR::equalizeTriAreas</a></div><div class="ttdeci">bool equalizeTriAreas(Mesh &amp;mesh, const MeshEqualizeTriAreasParams &amp;params={}, const ProgressCallback &amp;cb={})</div></div>
 <div class="ttc" id="agroup__MeshRelaxGroup_html_ga11a3c4423d57bdec0536c0916269613c"><div class="ttname"><a href="group__MeshRelaxGroup.html#ga11a3c4423d57bdec0536c0916269613c">MR::vertexPosEqualNeiAreas</a></div><div class="ttdeci">Vector3f vertexPosEqualNeiAreas(const Mesh &amp;mesh, VertId v, bool noShrinkage)</div></div>
 <div class="ttc" id="agroup__MeshRelaxGroup_html_ga1e187006b1fd0ad4a2ae525c00b813d7"><div class="ttname"><a href="group__MeshRelaxGroup.html#ga1e187006b1fd0ad4a2ae525c00b813d7">MR::smoothRegionBoundary</a></div><div class="ttdeci">void smoothRegionBoundary(Mesh &amp;mesh, const FaceBitSet &amp;regionFaces, int numIters=4)</div></div>
@@ -214,7 +207,7 @@ $(function(){initNavTree('MRMeshRelax_8h_source.html','',''); });
 <div class="ttc" id="agroup__MeshRelaxGroup_html_ga894cdb8a2d420dfb6ba8b0dbb3133408"><div class="ttname"><a href="group__MeshRelaxGroup.html#ga894cdb8a2d420dfb6ba8b0dbb3133408">MR::relaxKeepVolume</a></div><div class="ttdeci">bool relaxKeepVolume(Mesh &amp;mesh, const MeshRelaxParams &amp;params={}, const ProgressCallback &amp;cb={})</div></div>
 <div class="ttc" id="agroup__MeshRelaxGroup_html_gae33b27e64fe5ab346333589e6564abee"><div class="ttname"><a href="group__MeshRelaxGroup.html#gae33b27e64fe5ab346333589e6564abee">MR::relax</a></div><div class="ttdeci">bool relax(Mesh &amp;mesh, const MeshRelaxParams &amp;params={}, const ProgressCallback &amp;cb={})</div></div>
 <div class="ttc" id="agroup__MeshRelaxGroup_html_gaefa276ee29dcda75a6e5dc13844047f2"><div class="ttname"><a href="group__MeshRelaxGroup.html#gaefa276ee29dcda75a6e5dc13844047f2">MR::relaxApprox</a></div><div class="ttdeci">bool relaxApprox(Mesh &amp;mesh, const MeshApproxRelaxParams &amp;params={}, const ProgressCallback &amp;cb={})</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1MeshApproxRelaxParams_html"><div class="ttname"><a href="structMR_1_1MeshApproxRelaxParams.html">MR::MeshApproxRelaxParams</a></div><div class="ttdef"><b>Definition</b> MRMeshRelax.h:51</div></div>
 <div class="ttc" id="astructMR_1_1MeshApproxRelaxParams_html_a1cee1338307334369140e04b54f03b51"><div class="ttname"><a href="structMR_1_1MeshApproxRelaxParams.html#a1cee1338307334369140e04b54f03b51">MR::MeshApproxRelaxParams::type</a></div><div class="ttdeci">RelaxApproxType type</div><div class="ttdef"><b>Definition</b> MRMeshRelax.h:55</div></div>
 <div class="ttc" id="astructMR_1_1MeshApproxRelaxParams_html_aed8137acdd95c73e5606d4ad5fa7e3ae"><div class="ttname"><a href="structMR_1_1MeshApproxRelaxParams.html#aed8137acdd95c73e5606d4ad5fa7e3ae">MR::MeshApproxRelaxParams::surfaceDilateRadius</a></div><div class="ttdeci">float surfaceDilateRadius</div><div class="ttdef"><b>Definition</b> MRMeshRelax.h:54</div></div>

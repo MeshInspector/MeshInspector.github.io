@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -143,14 +136,14 @@ $(function(){initNavTree('classmrmeshpy_1_1FillingSurface_1_1TPMS.html','',''); 
 
 <p>This is the complete list of members for <a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html">mrmeshpy.FillingSurface.TPMS</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html#a840fc824cb91f70598c369f2255c0df1">build</a>(Vector3f size, FillingSurface.TPMS.MeshParams params, func_bool_from_float cb='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html">mrmeshpy.FillingSurface.TPMS</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html#aa84bb3923200632e6ca349ae2199f216">buildVolume</a>(Vector3f size, FillingSurface.TPMS.VolumeParams params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html">mrmeshpy.FillingSurface.TPMS</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html#a8cd8fa28311ab884e178e68988418e7f">build</a>(ConstVector3f size, FillingSurface.TPMS.ConstMeshParams params, Const_func_bool_from_float cb='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html">mrmeshpy.FillingSurface.TPMS</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html#aaf6e55f020774f14c9abbe8588119404">buildVolume</a>(ConstVector3f size, FillingSurface.TPMS.ConstVolumeParams params)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html">mrmeshpy.FillingSurface.TPMS</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html#ab8c62cc9f253a203be2c6c5c1dbeed3e">estimateDensity</a>(FillingSurface.TPMS.Type type, float targetIso)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html">mrmeshpy.FillingSurface.TPMS</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html#a748625f767842a7fb6c07be3701c1d8b">estimateIso</a>(FillingSurface.TPMS.Type type, float targetDensity)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html">mrmeshpy.FillingSurface.TPMS</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html#a7a7defd2eaf0e405c7f77b086dcdc95e">fill</a>(Mesh mesh, FillingSurface.TPMS.MeshParams params, func_bool_from_float cb='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html">mrmeshpy.FillingSurface.TPMS</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html#a25ff10240d11dc73066884c7b3d3d1fe">fill</a>(ConstMesh mesh, FillingSurface.TPMS.ConstMeshParams params, Const_func_bool_from_float cb='{}')</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html">mrmeshpy.FillingSurface.TPMS</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html#a70ebc4b63b3936f9ce0b050838d2d274">getMinimalResolution</a>(FillingSurface.TPMS.Type type, float iso)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html">mrmeshpy.FillingSurface.TPMS</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html#a4c8e9ed7afde0f568db6de2d11037a3a">getNumberOfVoxels</a>(Mesh mesh, float frequency, float resolution)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html">mrmeshpy.FillingSurface.TPMS</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html#a03314f098307e99632c8162681ff74ec">getNumberOfVoxels</a>(Vector3f size, float frequency, float resolution)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html">mrmeshpy.FillingSurface.TPMS</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html#a1e9e9f51a063ff34c44a4cdfde24f65d">getNumberOfVoxels</a>(ConstMesh mesh, float frequency, float resolution)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html">mrmeshpy.FillingSurface.TPMS</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html#af07eb1b41850286ef6e86ff5e9804453">getNumberOfVoxels</a>(ConstVector3f size, float frequency, float resolution)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html">mrmeshpy.FillingSurface.TPMS</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html#afa0eb274c9b05234005a0e2048da5138">getTypeNames</a>()</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html">mrmeshpy.FillingSurface.TPMS</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html#a776838a221f3ae9ec41151f4357805e0">getTypeTooltips</a>()</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html">mrmeshpy.FillingSurface.TPMS</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html#a585e3517a1172fc0cfc4e64b65fef18f">isThick</a>(FillingSurface.TPMS.Type type)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FillingSurface_1_1TPMS.html">mrmeshpy.FillingSurface.TPMS</a></td><td class="entry"><span class="mlabel">static</span></td></tr>

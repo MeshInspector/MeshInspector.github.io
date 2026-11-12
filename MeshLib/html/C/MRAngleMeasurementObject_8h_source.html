@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -180,7 +173,8 @@ $(function(){initNavTree('MRAngleMeasurementObject_8h_source.html','',''); });
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="comment">// Represents an angle measurement.</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="MRAngleMeasurementObject_8h.html#a5af6b79d144ff4f07641dd4a79c33bc1">   49</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a5af6b79d144ff4f07641dd4a79c33bc1">MR_AngleMeasurementObject</a> <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a5af6b79d144ff4f07641dd4a79c33bc1">MR_AngleMeasurementObject</a>;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment">// The xf encodes the two rays: the origin is the angle point, (1,0,0) is the first ray, (0,1,0) is the second ray.</span></div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="MRAngleMeasurementObject_8h.html#a57297e0fdbe5a30268c8f28aba961025">   53</a></span><a class="code hl_define" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a5af6b79d144ff4f07641dd4a79c33bc1">MR_AngleMeasurementObject</a> *<a class="code hl_function" href="MRAngleMeasurementObject_8h.html#a57297e0fdbe5a30268c8f28aba961025">MR_AngleMeasurementObject_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="MRAngleMeasurementObject_8h.html#aaf27c6c24cc561c50ed99e2e039f4532">   58</a></span><a class="code hl_define" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a5af6b79d144ff4f07641dd4a79c33bc1">MR_AngleMeasurementObject</a> *<a class="code hl_function" href="MRAngleMeasurementObject_8h.html#aaf27c6c24cc561c50ed99e2e039f4532">MR_AngleMeasurementObject_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
@@ -563,7 +557,7 @@ $(function(){initNavTree('MRAngleMeasurementObject_8h_source.html','',''); });
 <div class="ttc" id="aMRAngleMeasurementObject_8h_html_a509776925986da2887e92dce587ecdc1"><div class="ttname"><a href="MRAngleMeasurementObject_8h.html#a509776925986da2887e92dce587ecdc1">MR_AngleMeasurementObject_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_AngleMeasurementObject * MR_AngleMeasurementObject_AssignFromAnother(MR_AngleMeasurementObject *_this, MR_PassBy _other_pass_by, MR_AngleMeasurementObject *_other)</div></div>
 <div class="ttc" id="aMRAngleMeasurementObject_8h_html_a50f0769849be7dafa54abb46f5bf88c6"><div class="ttname"><a href="MRAngleMeasurementObject_8h.html#a50f0769849be7dafa54abb46f5bf88c6">MR_AngleMeasurementObject_className</a></div><div class="ttdeci">MRC_API MR_std_string * MR_AngleMeasurementObject_className(const MR_AngleMeasurementObject *_this)</div></div>
 <div class="ttc" id="aMRAngleMeasurementObject_8h_html_a5210f8eb2f9e9abe451f0c8e33c2efc1"><div class="ttname"><a href="MRAngleMeasurementObject_8h.html#a5210f8eb2f9e9abe451f0c8e33c2efc1">MR_AngleMeasurementObject_xfsForAllViewports</a></div><div class="ttdeci">MRC_API const MR_ViewportProperty_MR_AffineXf3f * MR_AngleMeasurementObject_xfsForAllViewports(const MR_AngleMeasurementObject *_this)</div></div>
-<div class="ttc" id="aMRAngleMeasurementObject_8h_html_a57297e0fdbe5a30268c8f28aba961025"><div class="ttname"><a href="MRAngleMeasurementObject_8h.html#a57297e0fdbe5a30268c8f28aba961025">MR_AngleMeasurementObject_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_AngleMeasurementObject * MR_AngleMeasurementObject_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRAngleMeasurementObject_8h_html_a57297e0fdbe5a30268c8f28aba961025"><div class="ttname"><a href="MRAngleMeasurementObject_8h.html#a57297e0fdbe5a30268c8f28aba961025">MR_AngleMeasurementObject_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_AngleMeasurementObject * MR_AngleMeasurementObject_DefaultConstruct(void)</div><div class="ttdoc">Never returns null. Returns an instance allocated on the heap! Must call MR_AngleMeasurementObject_De...</div></div>
 <div class="ttc" id="aMRAngleMeasurementObject_8h_html_a57346546c686217be6798c754d8f5954"><div class="ttname"><a href="MRAngleMeasurementObject_8h.html#a57346546c686217be6798c754d8f5954">MR_AngleMeasurementObject_setWorldXf</a></div><div class="ttdeci">MRC_API void MR_AngleMeasurementObject_setWorldXf(MR_AngleMeasurementObject *_this, const MR_AffineXf3f *xf, const MR_ViewportId *id)</div></div>
 <div class="ttc" id="aMRAngleMeasurementObject_8h_html_a593224bacf41aa92aa959ba18656fa77"><div class="ttname"><a href="MRAngleMeasurementObject_8h.html#a593224bacf41aa92aa959ba18656fa77">MR_AngleMeasurementObject_MutableUpcastTo_MR_ObjectChildrenHolder</a></div><div class="ttdeci">MRC_API MR_ObjectChildrenHolder * MR_AngleMeasurementObject_MutableUpcastTo_MR_ObjectChildrenHolder(MR_AngleMeasurementObject *object)</div></div>
 <div class="ttc" id="aMRAngleMeasurementObject_8h_html_a596d2fe31c90927599303212c98b7a04"><div class="ttname"><a href="MRAngleMeasurementObject_8h.html#a596d2fe31c90927599303212c98b7a04">MR_AngleMeasurementObject_MutableStaticDowncastFrom_MR_VisualObject</a></div><div class="ttdeci">MRC_API MR_AngleMeasurementObject * MR_AngleMeasurementObject_MutableStaticDowncastFrom_MR_VisualObject(MR_VisualObject *object)</div></div>
@@ -670,9 +664,9 @@ $(function(){initNavTree('MRAngleMeasurementObject_8h_source.html','',''); });
 <div class="ttc" id="aMRAngleMeasurementObject_8h_html_afe89400105b57dccc2067afe413715c1"><div class="ttname"><a href="MRAngleMeasurementObject_8h.html#afe89400105b57dccc2067afe413715c1">MR_AngleMeasurementObject_resetRedrawFlag</a></div><div class="ttdeci">MRC_API void MR_AngleMeasurementObject_resetRedrawFlag(const MR_AngleMeasurementObject *_this)</div></div>
 <div class="ttc" id="aMRAngleMeasurementObject_8h_html_afeeb94c5a80b1bdcc0eb7da534d0ffcd"><div class="ttname"><a href="MRAngleMeasurementObject_8h.html#afeeb94c5a80b1bdcc0eb7da534d0ffcd">MR_AngleMeasurementObject_xf</a></div><div class="ttdeci">MRC_API const MR_AffineXf3f * MR_AngleMeasurementObject_xf(const MR_AngleMeasurementObject *_this, const MR_ViewportId *id, bool *isDef)</div></div>
 <div class="ttc" id="aMRBox_8h_html"><div class="ttname"><a href="MRBox_8h.html">MRBox.h</a></div></div>
-<div class="ttc" id="aMRCtm_8h_html_a69dc6868c10c92fb8b8a255b0130d289"><div class="ttname"><a href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></div><div class="ttdeci">struct MR_std_string MR_std_string</div><div class="ttdef"><b>Definition</b> MRCtm.h:32</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a69dc6868c10c92fb8b8a255b0130d289"><div class="ttname"><a href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></div><div class="ttdeci">struct MR_std_string MR_std_string</div><div class="ttdef"><b>Definition</b> MRCtm.h:33</div></div>
 <div class="ttc" id="aMREnums_8h_html"><div class="ttname"><a href="MREnums_8h.html">MREnums.h</a></div></div>
-<div class="ttc" id="aMREnums_8h_html_a8a407448d970199f75e1b40627cfe95d"><div class="ttname"><a href="MREnums_8h.html#a8a407448d970199f75e1b40627cfe95d">MR_ColoringType</a></div><div class="ttdeci">MR_ColoringType</div><div class="ttdef"><b>Definition</b> MREnums.h:94</div></div>
+<div class="ttc" id="aMREnums_8h_html_a8a407448d970199f75e1b40627cfe95d"><div class="ttname"><a href="MREnums_8h.html#a8a407448d970199f75e1b40627cfe95d">MR_ColoringType</a></div><div class="ttdeci">MR_ColoringType</div><div class="ttdef"><b>Definition</b> MREnums.h:105</div></div>
 <div class="ttc" id="aMRGltf_8h_html_accce9c9179cadabc541edda0fc7a2571"><div class="ttname"><a href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a></div><div class="ttdeci">struct MR_Object MR_Object</div><div class="ttdef"><b>Definition</b> MRGltf.h:10</div></div>
 <div class="ttc" id="aMRNesting3mfExport_8h_html_ab26d333cd7549e6f3f49cc80e3ba5900"><div class="ttname"><a href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></div><div class="ttdeci">struct MR_std_vector_std_string MR_std_vector_std_string</div><div class="ttdef"><b>Definition</b> MRNesting3mfExport.h:17</div></div>
 <div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>

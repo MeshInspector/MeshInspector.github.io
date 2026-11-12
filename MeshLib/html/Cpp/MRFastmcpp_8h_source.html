@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -151,10 +144,10 @@ $(function(){initNavTree('MRFastmcpp_8h_source.html','',''); });
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#pragma GCC diagnostic ignored &quot;-Wunused-parameter&quot;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#elif defined( _MSC_VER )</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#pragma warning( push )</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#pragma warning( disable: 4100 ) </span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#pragma warning( disable: 4127 ) </span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#pragma warning( disable: 4355 ) </span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#pragma warning( disable: 4800 ) </span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#pragma warning( disable: 4100 ) </span><span class="comment">// unreferenced formal parameter</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#pragma warning( disable: 4127 ) </span><span class="comment">// conditional expression is constant</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#pragma warning( disable: 4355 ) </span><span class="comment">// &#39;this&#39;: used in base member initializer list</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#pragma warning( disable: 4800 ) </span><span class="comment">// Implicit conversion from &#39;BrotliDecoderState *const &#39; to bool. Possible information loss (Visual Studio Build Tools 2019 16.11.32510.428)</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;fastmcpp.hpp&gt;</span></div>

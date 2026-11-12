@@ -1,0 +1,26 @@
+var namespacemeshlib_1_1points__save =
+[
+    [ "CtmSavePointsOptions", "structmeshlib_1_1points__save_1_1CtmSavePointsOptions.html", "structmeshlib_1_1points__save_1_1CtmSavePointsOptions" ],
+    [ "to_any_supported_format", "namespacemeshlib_1_1points__save.html#ab14f34d5cc2643bade5e96ecfb6aefc4", null ],
+    [ "to_any_supported_format_stream", "namespacemeshlib_1_1points__save.html#aca1836a975588f3d0e53cf92f2be5a5d", null ],
+    [ "to_asc_std_filesystem_path", "namespacemeshlib_1_1points__save.html#a7347bbe755132d0441367c91e165906a", null ],
+    [ "to_asc_std_ostream", "namespacemeshlib_1_1points__save.html#a8a929f7952b776bee9ac50f75282c5f0", null ],
+    [ "to_ctm_const_std_filesystem_path_ref_mr_points_save_ctm_save_points_options", "namespacemeshlib_1_1points__save.html#a59204c98f5d551d9569e44a0b7731bb9", null ],
+    [ "to_ctm_const_std_filesystem_path_ref_mr_save_settings", "namespacemeshlib_1_1points__save.html#afe181cc5376bed6678913472b506be15", null ],
+    [ "to_ctm_std_ostream_ref_mr_points_save_ctm_save_points_options", "namespacemeshlib_1_1points__save.html#ad316ad6d96a9183ed48b0a3e9421ad8e", null ],
+    [ "to_ctm_std_ostream_ref_mr_save_settings", "namespacemeshlib_1_1points__save.html#a6a8967a59c0e87514ea28e49ce1dd149", null ],
+    [ "to_drc_const_std_filesystem_path_ref_mr_draco_save_options", "namespacemeshlib_1_1points__save.html#af79bbbf0194fef6884fc456270517457", null ],
+    [ "to_drc_const_std_filesystem_path_ref_mr_save_settings", "namespacemeshlib_1_1points__save.html#a3bd75fe978a74bae651bf3d68c4bba01", null ],
+    [ "to_drc_std_ostream_ref_mr_draco_save_options", "namespacemeshlib_1_1points__save.html#ae0e14a47dc9933cd77bbc43cdb47cfc1", null ],
+    [ "to_drc_std_ostream_ref_mr_save_settings", "namespacemeshlib_1_1points__save.html#a075ada5c090a7f93834f4e16f4d44d99", null ],
+    [ "to_las_std_filesystem_path", "namespacemeshlib_1_1points__save.html#a1f7c7dc0311ea12bbaf0e8efa2a443b8", null ],
+    [ "to_las_std_ostream", "namespacemeshlib_1_1points__save.html#a70d00d03a68d1703c0b849a4f38db532", null ],
+    [ "to_laz_std_filesystem_path", "namespacemeshlib_1_1points__save.html#a7e67ec493c80ae4013ac45bc88dfbf87", null ],
+    [ "to_laz_std_ostream", "namespacemeshlib_1_1points__save.html#ad47b36f3237cd81e00476b9f3958a997", null ],
+    [ "to_ply_std_filesystem_path", "namespacemeshlib_1_1points__save.html#a31bea67eda17208b3ed3f067e3b05d81", null ],
+    [ "to_ply_std_ostream", "namespacemeshlib_1_1points__save.html#acfb101e1452a6f3531c04a235aa4e5b3", null ],
+    [ "to_xyz_std_filesystem_path", "namespacemeshlib_1_1points__save.html#aaa40a2a01743fef85234939eb621a0fb", null ],
+    [ "to_xyz_std_ostream", "namespacemeshlib_1_1points__save.html#a193b6e6a899a0510b204850b32c1b546", null ],
+    [ "to_xyzn_std_filesystem_path", "namespacemeshlib_1_1points__save.html#a4f154ee67392f5910de042bf14ba9329", null ],
+    [ "to_xyzn_std_ostream", "namespacemeshlib_1_1points__save.html#a5ee5e002ad05ffa636e8ac2431852352", null ]
+];

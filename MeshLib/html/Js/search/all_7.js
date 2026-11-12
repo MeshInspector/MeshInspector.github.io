@@ -50,9 +50,8 @@ var searchData=
   ['getvalidverts_47',['getValidVerts',['../classMeshTopology.html#a468489847ba4e5d888a977e4cb2674c4',1,'MeshTopology']]],
   ['getvalue_48',['getValue',['../bindings_8d_8mts.html#abe09b84369253a3baa5f3261d3f9684e',1,'bindings.d.mts']]],
   ['getvectorconverters_49',['getVectorConverters',['../bindings_8d_8mts.html#a704d85c4a403c2bcaf0a14d1b0b1090b',1,'bindings.d.mts']]],
-  ['good_50',['Good',['../bindings_8d_8mts.html#a75f068e980a90347613fde4449884ee4aa9e10f610083e262e7aa4004c9b68fe9',1,'bindings.d.mts']]],
-  ['gridminmax_51',['GridMinMax',['../classGridMinMax.html',1,'']]],
-  ['gridtomesh_52',['gridToMesh',['../bindings_8d_8mts.html#a7abd80be6a440920a7aae1226141cc9c',1,'bindings.d.mts']]],
-  ['gridtomeshsettings_53',['GridToMeshSettings',['../classGridToMeshSettings.html',1,'GridToMeshSettings'],['../classGridToMeshSettings.html#a67981600eb7dedd7cdff5370e7891543',1,'GridToMeshSettings::GridToMeshSettings()']]],
-  ['guideweight_54',['guideWeight',['../classDenoiseViaNormalsSettings.html#a51d8e655268ae91e47c1aa6f740c549d',1,'DenoiseViaNormalsSettings']]]
+  ['gridminmax_50',['GridMinMax',['../classGridMinMax.html',1,'']]],
+  ['gridtomesh_51',['gridToMesh',['../bindings_8d_8mts.html#a7abd80be6a440920a7aae1226141cc9c',1,'bindings.d.mts']]],
+  ['gridtomeshsettings_52',['GridToMeshSettings',['../classGridToMeshSettings.html',1,'GridToMeshSettings'],['../classGridToMeshSettings.html#a67981600eb7dedd7cdff5370e7891543',1,'GridToMeshSettings::GridToMeshSettings()']]],
+  ['guideweight_53',['guideWeight',['../classDenoiseViaNormalsSettings.html#a51d8e655268ae91e47c1aa6f740c549d',1,'DenoiseViaNormalsSettings']]]
 ];

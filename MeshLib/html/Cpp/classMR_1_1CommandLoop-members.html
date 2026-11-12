@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -147,12 +140,13 @@ $(function(){initNavTree('classMR_1_1CommandLoop.html','',''); });
   <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga517bdd4c876165f0896a0780d5fea918">CommandFunc</a> typedef</td><td class="entry"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga42865b58d6d71d73a87b0633e0b623f2">empty</a>()</td><td class="entry"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga838c1c9734a5dcffc951811fbf442a3b">getMainThreadId</a>()</td><td class="entry"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga608f3b3e1415777cf598629aa0b73681">processCommands</a>()</td><td class="entry"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#gaf136777f46bf36d97d449cd471709f41">removeCommands</a>(bool closeLoop)</td><td class="entry"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#gaa7b94269107f75e82b8f719b5981465d">runCommandFromGUIThread</a>(CommandFunc func)</td><td class="entry"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga558e9edf12a087ef7a2803062787af5b">setMainThreadId</a>(const std::thread::id &amp;id)</td><td class="entry"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#gad8d97732825e4cad90081d68d7923d8d">setState</a>(StartPosition state)</td><td class="entry"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga2e4318196fd48b27b617c07eb35bbe39">StartPosition</a> enum name</td><td class="entry"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#gabec31583bb5d143380b58dd16e6c0f70">lastProcessTime</a>()</td><td class="entry"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga608f3b3e1415777cf598629aa0b73681">processCommands</a>()</td><td class="entry"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#gaf136777f46bf36d97d449cd471709f41">removeCommands</a>(bool closeLoop)</td><td class="entry"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga202b8c94e30555c39d1b5ce85573b7cd">runCommandFromGUIThread</a>(CommandFunc func, std::optional&lt; std::chrono::milliseconds &gt; startTimeout={})</td><td class="entry"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga558e9edf12a087ef7a2803062787af5b">setMainThreadId</a>(const std::thread::id &amp;id)</td><td class="entry"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#gad8d97732825e4cad90081d68d7923d8d">setState</a>(StartPosition state)</td><td class="entry"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga2e4318196fd48b27b617c07eb35bbe39">StartPosition</a> enum name</td><td class="entry"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

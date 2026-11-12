@@ -7,6 +7,7 @@ var MRPointCloudTriangulationHelpers_8h =
     [ "MR_TriangulationHelpers_TriangulatedFanData", "MRPointCloudTriangulationHelpers_8h.html#a969098fb61bc9c575f0a2ca401ba3f7a", null ],
     [ "MR_equal_MR_TriangulationHelpers_FanOptimizerQueueElement", "MRPointCloudTriangulationHelpers_8h.html#a2efad8161ecb37280f8a44b6196cf123", null ],
     [ "MR_less_MR_TriangulationHelpers_FanOptimizerQueueElement", "MRPointCloudTriangulationHelpers_8h.html#a4c5e442997aa9a26c2ca804d16d76692", null ],
+    [ "MR_not_equal_MR_TriangulationHelpers_FanOptimizerQueueElement", "MRPointCloudTriangulationHelpers_8h.html#aadc99fdcf06e645407ad5bf4780ae61f", null ],
     [ "MR_TriangulationHelpers_buildLocalTriangulation", "MRPointCloudTriangulationHelpers_8h.html#a1533c4d715eb7a2db299c8fa49e53a36", null ],
     [ "MR_TriangulationHelpers_buildLocalTriangulations", "MRPointCloudTriangulationHelpers_8h.html#ad7a49fac0ba417ad2277a2ce47449759", null ],
     [ "MR_TriangulationHelpers_buildUnitedLocalTriangulations", "MRPointCloudTriangulationHelpers_8h.html#a8613c5e3b1369de2fcb209e5b5bb4a1f", null ],

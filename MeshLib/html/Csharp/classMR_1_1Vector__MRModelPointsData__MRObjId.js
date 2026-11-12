@@ -6,8 +6,8 @@ var classMR_1_1Vector__MRModelPointsData__MRObjId =
     [ "Vector_MRModelPointsData_MRObjId", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a3350abf24bff1aa2018a40a90acecb13", null ],
     [ "Vector_MRModelPointsData_MRObjId", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#ac349e14dddd772c07ed50e94aedf9b5e", null ],
     [ "Vector_MRModelPointsData_MRObjId", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a78160b66223c1233720a7881bb7445a7", null ],
-    [ "Vector_MRModelPointsData_MRObjId", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#acebb32ea913651014ed73713d6002650", null ],
     [ "assign", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a8c97bae63e15350543703a84c31374ff", null ],
+    [ "assign", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#aa4d7ca6644ab03e96c5f4ca0542ede7d", null ],
     [ "autoResizeAt", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a650399bf822ebbc01f32a0789302fccd", null ],
     [ "autoResizeSet", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a34e4034fdc4fa8991b8d3224bde594ba", null ],
     [ "autoResizeSet", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a984d150e03525a156ca81ac69dac83f6", null ],
@@ -15,8 +15,6 @@ var classMR_1_1Vector__MRModelPointsData__MRObjId =
     [ "clear", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a0c8e9db26bd81fb3e25a74f88294a526", null ],
     [ "data", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#aabc1931f4d5f2b95656ef233f16507ca", null ],
     [ "front", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a3bc8e7e3788a419086829ad3012d0d04", null ],
-    [ "GetEnumerator", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a24f04fba3c2d59475a2f5c6f2fcbba79", null ],
-    [ "operator Vector_MRModelPointsData_MRObjId", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#ab2cce8a5f273ab55febc591c40024d61", null ],
     [ "popBack", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a86de214a4158fb5156796ccbed229f18", null ],
     [ "pushBack", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a597bc2c521327dce2a4c173403a3d3e7", null ],
     [ "pushBack", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a83696e177286c0abbcda476d7c6600ff", null ],
@@ -25,7 +23,8 @@ var classMR_1_1Vector__MRModelPointsData__MRObjId =
     [ "resize", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#aed2fc05509c7e91ffa433af51a98cbb8", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a48d3a47d5ba72aafad31ef3b54321772", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a97e55a9db6feb8376747a141e9e32d00", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a1140e9603c2742d44c04a4a1b771fbd7", null ],
     [ "swap", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a287960efa623ef51e478c33db4bfe718", null ],
     [ "this[MR.ObjId i]", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a846731aa58eb872bea3399c3d7145c83", null ],
-    [ "vec", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a874541fdfddb05a557b502b66a5f1f27", null ]
+    [ "vec", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#ac6f32db9ccff3c1be32acfa0fcf5b450", null ]
 ];

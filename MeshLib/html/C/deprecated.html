@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -141,6 +134,8 @@ $(function(){initNavTree('deprecated.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
+<dt>Member <a class="el" href="MRObjectVoxels_8h.html#a64b7ae7f1a8f2720e5846b74110dd01c">MR_not_equal_MR_ObjectVoxels_VolumeRenderingParams</a>  (const <a class="el" href="MRObjectVoxels_8h.html#a24e57a3a62e88a846a5ed1147f069192">MR_ObjectVoxels_VolumeRenderingParams</a> *_this, const <a class="el" href="MRObjectVoxels_8h.html#a24e57a3a62e88a846a5ed1147f069192">MR_ObjectVoxels_VolumeRenderingParams</a> *_1)</dt>
+<dd><a class="anchor" id="_deprecated000010"></a>the cast inside is undefined behaviour, use meshPtr() instead / Generated from method <span class="tt">MR::ObjectVoxels::mesh</span>. / Parameter <span class="tt">_this</span> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd>
 <dt>Member <a class="el" href="MRObject_8h.html#ae09fdc8226bcbd2d669c798afc81e5e6">MR_Object_children</a>  (const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *_this)</dt>
 <dd><a class="anchor" id="_deprecated000001"></a>the cast inside is undefined behaviour, use constChildren() instead Generated from method <span class="tt">MR::Object::children</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it.  </dd>
 <dt>Member <a class="el" href="MRObjectDistanceMap_8h.html#af110260cbf2db8b5164d2e1ed93f1c3e">MR_ObjectDistanceMap_mesh</a>  (const <a class="el" href="MRObjectDistanceMap_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this)</dt>
@@ -158,9 +153,7 @@ $(function(){initNavTree('deprecated.html','',''); });
 <dt>Member <a class="el" href="MRObjectPoints_8h.html#a5b2e748350e50752037d2abeadf2530d">MR_ObjectPoints_pointCloud</a>  (const <a class="el" href="MRMeshOrPointsObject_8h.html#ab1c1a63bde0febef265b95d647c94932">MR_ObjectPoints</a> *_this)</dt>
 <dd><a class="anchor" id="_deprecated000008"></a>the cast inside is undefined behaviour, use pointCloudPtr() instead Generated from method <span class="tt">MR::ObjectPoints::pointCloud</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it.  </dd>
 <dt>Member <a class="el" href="MRObjectPointsHolder_8h.html#a0a4b0605a5cd10234b4f3a70d6963ddb">MR_ObjectPointsHolder_pointCloud</a>  (const <a class="el" href="MRObjectPoints_8h.html#aa76b4405dda2a1ef0d835d2c4ede517a">MR_ObjectPointsHolder</a> *_this)</dt>
-<dd><a class="anchor" id="_deprecated000009"></a>the cast inside is undefined behaviour, use pointCloudPtr() instead Generated from method <span class="tt">MR::ObjectPointsHolder::pointCloud</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it.  </dd>
-<dt>Member <a class="el" href="MRObjectVoxels_8h.html#a5d48f92474e0313898091657a5c554a8">MR_setDefaultSerializeVoxelsFormat</a>  (const char *newFormat, const char *newFormat_end)</dt>
-<dd><a class="anchor" id="_deprecated000010"></a>the cast inside is undefined behaviour, use meshPtr() instead / Generated from method <span class="tt">MR::ObjectVoxels::mesh</span>. / Parameter <span class="tt">_this</span> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it.</dd>
+<dd><a class="anchor" id="_deprecated000009"></a>the cast inside is undefined behaviour, use pointCloudPtr() instead Generated from method <span class="tt">MR::ObjectPointsHolder::pointCloud</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

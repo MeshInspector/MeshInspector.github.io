@@ -1,6 +1,5 @@
 var classmrmeshpy_1_1IPointsToMeshProjector =
 [
-    [ "findProjections", "classmrmeshpy_1_1IPointsToMeshProjector.html#abde909341f45cefaf5a8e331819186b4", null ],
-    [ "projectionsHeapBytes", "classmrmeshpy_1_1IPointsToMeshProjector.html#a183a14af5ae991355ca023b734c99f12", null ],
-    [ "updateMeshData", "classmrmeshpy_1_1IPointsToMeshProjector.html#aaf02b6f2d268f959073790823847b960", null ]
+    [ "findProjections", "classmrmeshpy_1_1IPointsToMeshProjector.html#a030ef933ba03caa121b66030a2704b8f", null ],
+    [ "updateMeshData", "classmrmeshpy_1_1IPointsToMeshProjector.html#abc22f3aeea4991a292a34c2616e90040", null ]
 ];

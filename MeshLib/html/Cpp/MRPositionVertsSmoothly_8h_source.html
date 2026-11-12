@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -236,13 +229,13 @@ $(function(){initNavTree('MRPositionVertsSmoothly_8h_source.html','',''); });
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:85</div></div>
 <div class="ttc" id="aclassMR_1_1MeshTopology_html"><div class="ttname"><a href="classMR_1_1MeshTopology.html">MR::MeshTopology</a></div><div class="ttdef"><b>Definition</b> MRMeshTopology.h:30</div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">std::vector&lt;T&gt;-like container that requires specific indexing type,</div><div class="ttdef"><b>Definition</b> MRVector.h:23</div></div>
+<div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector</a></div><div class="ttdoc">Vector&lt;T&gt; is indexed by size_t.</div><div class="ttdef"><b>Definition</b> MRVector.h:24</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga01eec1ee9ce09177388ba2eb6097a88a"><div class="ttname"><a href="group__GeneralGroup.html#ga01eec1ee9ce09177388ba2eb6097a88a">MR::InflateSettings::gradualPressureGrowth</a></div><div class="ttdeci">bool gradualPressureGrowth</div><div class="ttdoc">whether to increase the pressure gradually during the iterations (recommended for best quality)</div><div class="ttdef"><b>Definition</b> MRPositionVertsSmoothly.h:114</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga036c60a88f141a437ffed0bc572fce6d"><div class="ttname"><a href="group__GeneralGroup.html#ga036c60a88f141a437ffed0bc572fce6d">MR::VertMetric</a></div><div class="ttdeci">std::function&lt; float(VertId)&gt; VertMetric</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:582</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga036c60a88f141a437ffed0bc572fce6d"><div class="ttname"><a href="group__GeneralGroup.html#ga036c60a88f141a437ffed0bc572fce6d">MR::VertMetric</a></div><div class="ttdeci">std::function&lt; float(VertId)&gt; VertMetric</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:606</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga0e682b83c6954583b3f9ec92e9b5dffa"><div class="ttname"><a href="group__GeneralGroup.html#ga0e682b83c6954583b3f9ec92e9b5dffa">MR::positionVertsSmoothly</a></div><div class="ttdeci">void positionVertsSmoothly(Mesh &amp;mesh, const VertBitSet &amp;verts, EdgeWeights edgeWeights=EdgeWeights::Cotan, VertexMass vmass=VertexMass::Unit, const VertBitSet *fixedSharpVertices=nullptr)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga0e7308020ddff9486f3d7673bb03a4b5"><div class="ttname"><a href="group__GeneralGroup.html#ga0e7308020ddff9486f3d7673bb03a4b5">MR::InflateSettings::preSmooth</a></div><div class="ttdeci">bool preSmooth</div><div class="ttdef"><b>Definition</b> MRPositionVertsSmoothly.h:112</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga17ce8fa9c3da180503cc50cdedfac9ec"><div class="ttname"><a href="group__GeneralGroup.html#ga17ce8fa9c3da180503cc50cdedfac9ec">MR::InterpolateScalarsParams::region</a></div><div class="ttdeci">const VertBitSet * region</div><div class="ttdef"><b>Definition</b> MRPositionVertsSmoothly.h:50</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga2b15c0d875f91b8c0da03e651251832b"><div class="ttname"><a href="group__GeneralGroup.html#ga2b15c0d875f91b8c0da03e651251832b">MR::FacePredicate</a></div><div class="ttdeci">std::function&lt; bool(FaceId)&gt; FacePredicate</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:569</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga2b15c0d875f91b8c0da03e651251832b"><div class="ttname"><a href="group__GeneralGroup.html#ga2b15c0d875f91b8c0da03e651251832b">MR::FacePredicate</a></div><div class="ttdeci">std::function&lt; bool(FaceId)&gt; FacePredicate</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:593</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga2b56de5e320c04500550d57d852fbb7b"><div class="ttname"><a href="group__GeneralGroup.html#ga2b56de5e320c04500550d57d852fbb7b">MR::InflateSettings::pressure</a></div><div class="ttdeci">float pressure</div><div class="ttdef"><b>Definition</b> MRPositionVertsSmoothly.h:106</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga32961e262e92c3438548d8b9a40b5364"><div class="ttname"><a href="group__GeneralGroup.html#ga32961e262e92c3438548d8b9a40b5364">MR::inflate</a></div><div class="ttdeci">void inflate(Mesh &amp;mesh, const VertBitSet &amp;verts, const InflateSettings &amp;settings)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga35aa8fa1280f405afeb9f43189843024"><div class="ttname"><a href="group__GeneralGroup.html#ga35aa8fa1280f405afeb9f43189843024">MR::PositionVertsSmoothlyParams::region</a></div><div class="ttdeci">const VertBitSet * region</div><div class="ttdef"><b>Definition</b> MRPositionVertsSmoothly.h:26</div></div>
@@ -262,7 +255,7 @@ $(function(){initNavTree('MRPositionVertsSmoothly_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_ga8e96983524e4526167e2bf795ac13686"><div class="ttname"><a href="group__GeneralGroup.html#ga8e96983524e4526167e2bf795ac13686">MR::PositionVertsSmoothlyParams::vertShifts</a></div><div class="ttdeci">const Vector&lt; Vector3f, VertId &gt; * vertShifts</div><div class="ttdoc">optional additional shifts of each vertex relative to smooth position</div><div class="ttdef"><b>Definition</b> MRPositionVertsSmoothly.h:29</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga98ab155d04ae2cfd71541853f95b9905"><div class="ttname"><a href="group__GeneralGroup.html#ga98ab155d04ae2cfd71541853f95b9905">MR::InterpolateScalarsParams::stabilizer</a></div><div class="ttdeci">float stabilizer</div><div class="ttdoc">the more the value, the bigger attraction of each vertex to its original value</div><div class="ttdef"><b>Definition</b> MRPositionVertsSmoothly.h:59</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaa6ab007d2bdc44836755de07d078c0bd"><div class="ttname"><a href="group__GeneralGroup.html#gaa6ab007d2bdc44836755de07d078c0bd">MR::interpolateScalarsSmoothly</a></div><div class="ttdeci">void interpolateScalarsSmoothly(const Mesh &amp;mesh, VertScalars &amp;field, const InterpolateScalarsParams &amp;params)</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_gab7a3fa3c0bf9137f59a3a494350314d1"><div class="ttname"><a href="group__GeneralGroup.html#gab7a3fa3c0bf9137f59a3a494350314d1">MR::UndirectedEdgeMetric</a></div><div class="ttdeci">std::function&lt; float(UndirectedEdgeId)&gt; UndirectedEdgeMetric</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:585</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gab7a3fa3c0bf9137f59a3a494350314d1"><div class="ttname"><a href="group__GeneralGroup.html#gab7a3fa3c0bf9137f59a3a494350314d1">MR::UndirectedEdgeMetric</a></div><div class="ttdeci">std::function&lt; float(UndirectedEdgeId)&gt; UndirectedEdgeMetric</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:609</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gabd62037b2a4bfbc798d08e1f15916736"><div class="ttname"><a href="group__GeneralGroup.html#gabd62037b2a4bfbc798d08e1f15916736">MR::InterpolateScalarsParams::edgeWeights</a></div><div class="ttdeci">EdgeWeights edgeWeights</div><div class="ttdoc">weights of edges in the equations, used unless edgeWeightsMetric is specified</div><div class="ttdef"><b>Definition</b> MRPositionVertsSmoothly.h:53</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gac011fc95d61ece99cc3358e1236104d9"><div class="ttname"><a href="group__GeneralGroup.html#gac011fc95d61ece99cc3358e1236104d9">MR::SpacingSettings::region</a></div><div class="ttdeci">const VertBitSet * region</div><div class="ttdoc">vertices to be moved by the algorithm, nullptr means all valid vertices</div><div class="ttdef"><b>Definition</b> MRPositionVertsSmoothly.h:79</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gad568a8496f9ca1e1732124e9fa159cd5"><div class="ttname"><a href="group__GeneralGroup.html#gad568a8496f9ca1e1732124e9fa159cd5">MR::SpacingSettings::numIters</a></div><div class="ttdeci">int numIters</div><div class="ttdoc">must be defined by the caller</div><div class="ttdef"><b>Definition</b> MRPositionVertsSmoothly.h:85</div></div>
@@ -272,7 +265,7 @@ $(function(){initNavTree('MRPositionVertsSmoothly_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gga5ac9f08cd2ef48394fa1c77a8ebdd6c8a19c562a36aeb455d09534f93b4f5236f"><div class="ttname"><a href="group__GeneralGroup.html#gga5ac9f08cd2ef48394fa1c77a8ebdd6c8a19c562a36aeb455d09534f93b4f5236f">MR::EdgeWeights::Unit</a></div><div class="ttdeci">@ Unit</div><div class="ttdoc">all edges have same weight=1</div><div class="ttdef"><b>Definition</b> MREnums.h:46</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gga5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9"><div class="ttname"><a href="group__GeneralGroup.html#gga5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">MR::EdgeWeights::Cotan</a></div><div class="ttdeci">@ Cotan</div><div class="ttdoc">edge weight depends on local geometry and uses cotangent values</div><div class="ttdef"><b>Definition</b> MREnums.h:49</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ggada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f"><div class="ttname"><a href="group__GeneralGroup.html#ggada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f">MR::VertexMass::Unit</a></div><div class="ttdeci">@ Unit</div><div class="ttdoc">all vertices have same mass=1</div><div class="ttdef"><b>Definition</b> MREnums.h:36</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1InflateSettings_html"><div class="ttname"><a href="structMR_1_1InflateSettings.html">MR::InflateSettings</a></div><div class="ttdef"><b>Definition</b> MRPositionVertsSmoothly.h:102</div></div>
 <div class="ttc" id="astructMR_1_1InterpolateScalarsParams_html"><div class="ttname"><a href="structMR_1_1InterpolateScalarsParams.html">MR::InterpolateScalarsParams</a></div><div class="ttdef"><b>Definition</b> MRPositionVertsSmoothly.h:47</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh.h:24</div></div>

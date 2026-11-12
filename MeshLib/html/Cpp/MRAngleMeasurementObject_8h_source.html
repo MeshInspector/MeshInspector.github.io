@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -160,10 +153,10 @@ $(function(){initNavTree('MRAngleMeasurementObject_8h_source.html','',''); });
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaae69c0f1d91e78acb6ef4dbcccba01dc">   21</a></span>    constexpr static const <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#gaae69c0f1d91e78acb6ef4dbcccba01dc">StaticTypeName</a>() noexcept { <span class="keywordflow">return</span> <span class="stringliteral">&quot;AngleMeasurementObject&quot;</span>; }</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaaa46f9128d202f32be37d9d9db292fe6">   22</a></span>    <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#gaaa46f9128d202f32be37d9d9db292fe6">typeName</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="group__GeneralGroup.html#gaae69c0f1d91e78acb6ef4dbcccba01dc">StaticTypeName</a>(); }</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gac39facf94a33f2dce0f9b3b233d69422">   24</a></span>    <span class="keyword">constexpr</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#gac39facf94a33f2dce0f9b3b233d69422">StaticClassName</a>() noexcept { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Angle&quot;</span>; }</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gac39facf94a33f2dce0f9b3b233d69422">   24</a></span>    <span class="keyword">constexpr</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#gac39facf94a33f2dce0f9b3b233d69422">StaticClassName</a>() noexcept { <span class="keywordflow">return</span> <a class="code hl_define" href="MRMeshFwd_8h.html#a9ffd0813b79cbb98d3f71fa5adb2a408">_t</a>( <span class="stringliteral">&quot;Angle&quot;</span> ); }</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga11b4563811e536745042eac6cc7d7de3">   25</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="group__GeneralGroup.html#ga11b4563811e536745042eac6cc7d7de3">className</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="group__GeneralGroup.html#gac39facf94a33f2dce0f9b3b233d69422">StaticClassName</a>(); }</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga0c8d3e8a3ba43215581ee1e7de6918db">   27</a></span>    <span class="keyword">constexpr</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#ga0c8d3e8a3ba43215581ee1e7de6918db">StaticClassNameInPlural</a>() noexcept { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Angles&quot;</span>; }</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga0c8d3e8a3ba43215581ee1e7de6918db">   27</a></span>    <span class="keyword">constexpr</span> <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="group__GeneralGroup.html#ga0c8d3e8a3ba43215581ee1e7de6918db">StaticClassNameInPlural</a>() noexcept { <span class="keywordflow">return</span> <a class="code hl_define" href="MRMeshFwd_8h.html#a9ffd0813b79cbb98d3f71fa5adb2a408">_t</a>( <span class="stringliteral">&quot;Angles&quot;</span> ); }</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gad2c4dd04439768c43bf48e9cc47ad5d7">   28</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="group__GeneralGroup.html#gad2c4dd04439768c43bf48e9cc47ad5d7">classNameInPlural</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="group__GeneralGroup.html#ga0c8d3e8a3ba43215581ee1e7de6918db">StaticClassNameInPlural</a>(); }</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gae55c096c40230b811bd7a00fb9a219eb">   31</a></span>    <a class="code hl_function" href="group__GeneralGroup.html#gae55c096c40230b811bd7a00fb9a219eb">AngleMeasurementObject</a>( <a class="code hl_struct" href="structMR_1_1Object_1_1ProtectedStruct.html">ProtectedStruct</a>, <span class="keyword">const</span> <a class="code hl_function" href="group__GeneralGroup.html#gaa12ae3069114c41ef8ed6616672c5d29">AngleMeasurementObject</a>&amp; obj ) : <a class="code hl_function" href="group__GeneralGroup.html#gaa12ae3069114c41ef8ed6616672c5d29">AngleMeasurementObject</a>( obj ) {}</div>
@@ -216,6 +209,7 @@ $(function(){initNavTree('MRAngleMeasurementObject_8h_source.html','',''); });
 <div class="ttc" id="aMRMeasurementObject_8h_html"><div class="ttname"><a href="MRMeasurementObject_8h.html">MRMeasurementObject.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:85</div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a45ed33a118705bfd4aac6d294495276a"><div class="ttname"><a href="MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a></div><div class="ttdeci">#define MRMESH_CLASS</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:92</div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a9ffd0813b79cbb98d3f71fa5adb2a408"><div class="ttname"><a href="MRMeshFwd_8h.html#a9ffd0813b79cbb98d3f71fa5adb2a408">_t</a></div><div class="ttdeci">#define _t(...)</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:869</div></div>
 <div class="ttc" id="aclassMR_1_1Object_html"><div class="ttname"><a href="classMR_1_1Object.html">MR::Object</a></div><div class="ttdoc">named object in the data model</div><div class="ttdef"><b>Definition</b> MRObject.h:61</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga0c8d3e8a3ba43215581ee1e7de6918db"><div class="ttname"><a href="group__GeneralGroup.html#ga0c8d3e8a3ba43215581ee1e7de6918db">MR::AngleMeasurementObject::StaticClassNameInPlural</a></div><div class="ttdeci">static constexpr const char * StaticClassNameInPlural() noexcept</div><div class="ttdef"><b>Definition</b> MRAngleMeasurementObject.h:27</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga0d9c69e03f4923c5a270bc0bfd7638e9"><div class="ttname"><a href="group__GeneralGroup.html#ga0d9c69e03f4923c5a270bc0bfd7638e9">MR::AngleMeasurementObject::serializeFields_</a></div><div class="ttdeci">void serializeFields_(Json::Value &amp;root) const override</div></div>
@@ -248,7 +242,7 @@ $(function(){initNavTree('MRAngleMeasurementObject_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gae55c096c40230b811bd7a00fb9a219eb"><div class="ttname"><a href="group__GeneralGroup.html#gae55c096c40230b811bd7a00fb9a219eb">MR::AngleMeasurementObject::AngleMeasurementObject</a></div><div class="ttdeci">AngleMeasurementObject(ProtectedStruct, const AngleMeasurementObject &amp;obj)</div><div class="ttdoc">For std::make_shared() in clone().</div><div class="ttdef"><b>Definition</b> MRAngleMeasurementObject.h:31</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaea0a79b7e90de5074956fc0c819ef78f"><div class="ttname"><a href="group__GeneralGroup.html#gaea0a79b7e90de5074956fc0c819ef78f">MR::AngleMeasurementObject::onWorldXfChanged_</a></div><div class="ttdeci">void onWorldXfChanged_() override</div><div class="ttdoc">Emits worldXfChangedSignal, but derived classes can add additional behavior to it.</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf"><div class="ttname"><a href="group__GeneralGroup.html#gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">MR::FeaturePropertyKind::other</a></div><div class="ttdeci">@ other</div><div class="ttdoc">Angle, normally float. Measure in radians.</div><div class="ttdef"><b>Definition</b> MRFeatureObject.h:27</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Object_1_1ProtectedStruct_html"><div class="ttname"><a href="structMR_1_1Object_1_1ProtectedStruct.html">MR::Object::ProtectedStruct</a></div><div class="ttdef"><b>Definition</b> MRObject.h:289</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

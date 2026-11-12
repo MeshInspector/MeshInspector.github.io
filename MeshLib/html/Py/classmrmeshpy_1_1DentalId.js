@@ -1,5 +1,5 @@
 var classmrmeshpy_1_1DentalId =
 [
-    [ "__init__", "classmrmeshpy_1_1DentalId.html#a7a77fd4f58eeae64f39e85ed59b7b36e", null ],
-    [ "fdi", "classmrmeshpy_1_1DentalId.html#a710fa6a6f85800eb6937b8a4b18cb38e", null ]
+    [ "__init__", "classmrmeshpy_1_1DentalId.html#ae70bd418a9e6a35aeab9d1582d66bd03", null ],
+    [ "assign", "classmrmeshpy_1_1DentalId.html#a3f66f05bf1a98dccf80201339659d1d4", null ]
 ];

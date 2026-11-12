@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="googlebot" content="noindex, follow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -154,9 +147,7 @@ $(function(){initNavTree('MRGraph_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:aa587fe38469cba58044669a58438b656" id="r_aa587fe38469cba58044669a58438b656"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa587fe38469cba58044669a58438b656">MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa587fe38469cba58044669a58438b656">MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId</a></td></tr>
-<tr class="memdesc:aa587fe38469cba58044669a58438b656"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a4dc64f4d7249dc400451d0a7774feb7a" id="r_a4dc64f4d7249dc400451d0a7774feb7a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a4dc64f4d7249dc400451d0a7774feb7a">MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dc64f4d7249dc400451d0a7774feb7a">MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId</a></td></tr>
-<tr class="memdesc:a4dc64f4d7249dc400451d0a7774feb7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a036edfb07f39db6a183328939d25f1b5" id="r_a036edfb07f39db6a183328939d25f1b5"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a036edfb07f39db6a183328939d25f1b5">MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a036edfb07f39db6a183328939d25f1b5">MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId</a></td></tr>
 <tr class="memitem:a69bf1e3186eb9f5254b48c24d41f5de7" id="r_a69bf1e3186eb9f5254b48c24d41f5de7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a69bf1e3186eb9f5254b48c24d41f5de7">MR_std_vector_MR_GraphEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69bf1e3186eb9f5254b48c24d41f5de7">MR_std_vector_MR_GraphEdgeId</a></td></tr>
 <tr class="memitem:a8c7bacba4378ff403f17cdff39d814a5" id="r_a8c7bacba4378ff403f17cdff39d814a5"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a></td></tr>
@@ -207,6 +198,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ad5d1a954faf700f30e71b1100db61d90" id="r_ad5d1a954faf700f30e71b1100db61d90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5d1a954faf700f30e71b1100db61d90">MR_Graph_EndVertices_AssignFromAnother</a> (<a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this, const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_other)</td></tr>
 <tr class="memitem:aa960b639c65d5cd9bc8ff95fe3d2a25c" id="r_aa960b639c65d5cd9bc8ff95fe3d2a25c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa960b639c65d5cd9bc8ff95fe3d2a25c">MR_Graph_EndVertices_otherEnd</a> (const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> a)</td></tr>
 <tr class="memitem:a3e79968e025fd296dbaaf2a1108d6e09" id="r_a3e79968e025fd296dbaaf2a1108d6e09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e79968e025fd296dbaaf2a1108d6e09">MR_Graph_EndVertices_replaceEnd</a> (<a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> what, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> with)</td></tr>
+<tr class="memitem:aba1f4b795860ef538cbb4a8ea6f1d40e" id="r_aba1f4b795860ef538cbb4a8ea6f1d40e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba1f4b795860ef538cbb4a8ea6f1d40e">MR_compare_three_way_MR_Graph_EndVertices</a> (const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this, const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_1)</td></tr>
+<tr class="memitem:a4ad4175d1bdee5aa713ea9b075ce09e8" id="r_a4ad4175d1bdee5aa713ea9b075ce09e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ad4175d1bdee5aa713ea9b075ce09e8">MR_equal_MR_Graph_EndVertices</a> (const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this, const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_1)</td></tr>
+<tr class="memitem:a9e766aef353c17282eb9fce6973d366c" id="r_a9e766aef353c17282eb9fce6973d366c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e766aef353c17282eb9fce6973d366c">MR_not_equal_MR_Graph_EndVertices</a> (const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this, const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_1)</td></tr>
+<tr class="memitem:aa01c54eb82e5fdbc198a3c16317b98e7" id="r_aa01c54eb82e5fdbc198a3c16317b98e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa01c54eb82e5fdbc198a3c16317b98e7">MR_less_MR_Graph_EndVertices</a> (const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this, const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_1)</td></tr>
+<tr class="memitem:ad36ea01b95e2b4683ea1aa4654ff410c" id="r_ad36ea01b95e2b4683ea1aa4654ff410c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad36ea01b95e2b4683ea1aa4654ff410c">MR_greater_MR_Graph_EndVertices</a> (const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this, const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_1)</td></tr>
+<tr class="memitem:aff9cd0c1cb19acad2558c8963d0a9590" id="r_aff9cd0c1cb19acad2558c8963d0a9590"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff9cd0c1cb19acad2558c8963d0a9590">MR_less_equal_MR_Graph_EndVertices</a> (const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this, const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_1)</td></tr>
+<tr class="memitem:a5351e17ae804bcf5f630e9fac1ed840d" id="r_a5351e17ae804bcf5f630e9fac1ed840d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5351e17ae804bcf5f630e9fac1ed840d">MR_greater_equal_MR_Graph_EndVertices</a> (const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this, const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_1)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a5e638837d22d1028b724cc8f267c2762" name="a5e638837d22d1028b724cc8f267c2762"></a>
@@ -280,15 +278,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;MR::Graph::EndVertices, MR::GraphEdgeId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&lt;MR::Graph::EndVertices, MR::GraphEdgeId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -303,19 +293,55 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;std::vector&lt;MR::GraphEdgeId&gt;, MR::GraphVertId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&lt;std::vector&lt;MR::GraphEdgeId&gt;, MR::GraphVertId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="aba1f4b795860ef538cbb4a8ea6f1d40e" name="aba1f4b795860ef538cbb4a8ea6f1d40e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba1f4b795860ef538cbb4a8ea6f1d40e">&#9670;&#160;</a></span>MR_compare_three_way_MR_Graph_EndVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int MR_compare_three_way_MR_Graph_EndVertices </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Graph::EndVertices::operator&lt;=&gt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. Returns -1 for <span class="tt">less</span>, +1 for <span class="tt">greater</span>, or 0 for <span class="tt">equal</span>. </p>
+
+</div>
+</div>
+<a id="a4ad4175d1bdee5aa713ea9b075ce09e8" name="a4ad4175d1bdee5aa713ea9b075ce09e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ad4175d1bdee5aa713ea9b075ce09e8">&#9670;&#160;</a></span>MR_equal_MR_Graph_EndVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_equal_MR_Graph_EndVertices </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Graph::EndVertices::operator==</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="a3c5ad21314dbeb7fe5ff3f8dcfce436c" name="a3c5ad21314dbeb7fe5ff3f8dcfce436c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c5ad21314dbeb7fe5ff3f8dcfce436c">&#9670;&#160;</a></span>MR_Graph_areNeighbors()</h2>
 
@@ -1188,6 +1214,116 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>returns the number of vertex records, including invalid ones Generated from method <span class="tt">MR::Graph::vertSize</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a5351e17ae804bcf5f630e9fac1ed840d" name="a5351e17ae804bcf5f630e9fac1ed840d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5351e17ae804bcf5f630e9fac1ed840d">&#9670;&#160;</a></span>MR_greater_equal_MR_Graph_EndVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_greater_equal_MR_Graph_EndVertices </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Graph::EndVertices::operator&gt;=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ad36ea01b95e2b4683ea1aa4654ff410c" name="ad36ea01b95e2b4683ea1aa4654ff410c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad36ea01b95e2b4683ea1aa4654ff410c">&#9670;&#160;</a></span>MR_greater_MR_Graph_EndVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_greater_MR_Graph_EndVertices </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Graph::EndVertices::operator&gt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aff9cd0c1cb19acad2558c8963d0a9590" name="aff9cd0c1cb19acad2558c8963d0a9590"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff9cd0c1cb19acad2558c8963d0a9590">&#9670;&#160;</a></span>MR_less_equal_MR_Graph_EndVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_less_equal_MR_Graph_EndVertices </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Graph::EndVertices::operator&lt;=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aa01c54eb82e5fdbc198a3c16317b98e7" name="aa01c54eb82e5fdbc198a3c16317b98e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa01c54eb82e5fdbc198a3c16317b98e7">&#9670;&#160;</a></span>MR_less_MR_Graph_EndVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_less_MR_Graph_EndVertices </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Graph::EndVertices::operator&lt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a9e766aef353c17282eb9fce6973d366c" name="a9e766aef353c17282eb9fce6973d366c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e766aef353c17282eb9fce6973d366c">&#9670;&#160;</a></span>MR_not_equal_MR_Graph_EndVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_not_equal_MR_Graph_EndVertices </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Graph::EndVertices::operator!=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

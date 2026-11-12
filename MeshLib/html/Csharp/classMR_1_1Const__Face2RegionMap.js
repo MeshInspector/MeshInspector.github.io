@@ -6,7 +6,6 @@ var classMR_1_1Const__Face2RegionMap =
     [ "Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html#a9eee2a4ab7fe76f27edb55e108f554af", null ],
     [ "Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html#aa1316c265561b2503bafc345c5afb8b7", null ],
     [ "Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html#aa6a9bcae6441ef5b1eb48340810634e6", null ],
-    [ "Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html#a1ba61f4a41ad85e7ff14e351ecd4ecb1", null ],
     [ "back", "classMR_1_1Const__Face2RegionMap.html#a52bed7fb4102a657fb98d29df7043086", null ],
     [ "backId", "classMR_1_1Const__Face2RegionMap.html#aed02d0139db268c3731bba7a3a067c4b", null ],
     [ "beginId", "classMR_1_1Const__Face2RegionMap.html#ad109ad427c2d6438ae7e8eea0b8db0c2", null ],
@@ -19,12 +18,11 @@ var classMR_1_1Const__Face2RegionMap =
     [ "Equals", "classMR_1_1Const__Face2RegionMap.html#a9e0018cd3f775ca24d4831e3ae961e40", null ],
     [ "Equals", "classMR_1_1Const__Face2RegionMap.html#ae3c1a2c341cf4bef2be0c4114289bdc4", null ],
     [ "front", "classMR_1_1Const__Face2RegionMap.html#a23e0ae6006b52e6422a0e186c970b8e4", null ],
-    [ "GetEnumerator", "classMR_1_1Const__Face2RegionMap.html#aefef3b55559c37fa98768ef6b0403036", null ],
     [ "heapBytes", "classMR_1_1Const__Face2RegionMap.html#a53189d5478a8bb2ad5c965f2c6b70ba7", null ],
-    [ "operator Const_Face2RegionMap", "classMR_1_1Const__Face2RegionMap.html#af7a6df683de93f9c4f004325899b0647", null ],
+    [ "maxSize", "classMR_1_1Const__Face2RegionMap.html#a7bb705b2d57114132a1d6d9c0b66c20c", null ],
     [ "operator!=", "classMR_1_1Const__Face2RegionMap.html#a89b51c877c6dda4b513002e5afa6784c", null ],
     [ "operator==", "classMR_1_1Const__Face2RegionMap.html#acdc4c9544f902f7d42118b0da4e34520", null ],
     [ "size", "classMR_1_1Const__Face2RegionMap.html#ae6a5e1aea37ed32780fef9ac5e9cf0db", null ],
     [ "this[MR.FaceId i]", "classMR_1_1Const__Face2RegionMap.html#a600ee3393a142723c468f147f012cbf8", null ],
-    [ "vec", "classMR_1_1Const__Face2RegionMap.html#a9803688d779bf319edf5125fbecd82bf", null ]
+    [ "vec", "classMR_1_1Const__Face2RegionMap.html#a8cb974acfa534ece7843793f34cc0727", null ]
 ];
