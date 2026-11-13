@@ -52,7 +52,7 @@ var ImGuiHelpers_8h =
     [ "ImGui::ModalExitButton", "namespaceImGui.html#a526ae831fa80bb7c77bcb658c70af536", null ],
     [ "ImGui::OpenEnqueuedPopup", "namespaceImGui.html#a8efd9ce0caa50817365088533014393a", null ],
     [ "ImGui::OpenTopPriorityPopup", "namespaceImGui.html#a8242055f7640c8724d74793612778f81", null ],
-    [ "ImGui::Palette", "namespaceImGui.html#ac731a9d6a2c3b334d247953eedb6e7d1", null ],
+    [ "ImGui::Palette", "namespaceImGui.html#a8d53765e215d1ee45414ed921c6f093f", null ],
     [ "ImGui::Plane", "namespaceImGui.html#a73942e37afedb96d86cafa736df83508", null ],
     [ "ImGui::PlotCustomHistogram", "namespaceImGui.html#a771e5316396acbc0376d96adf2808c6a", null ],
     [ "ImGui::SaveWindowPosition", "namespaceImGui.html#a5cc3e778e75f9ee629a7ae99f8472c6f", null ],

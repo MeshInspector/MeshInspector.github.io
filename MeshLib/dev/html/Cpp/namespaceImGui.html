@@ -208,7 +208,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ac6574da9d1febddb9aa79e7f9bdd7038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combine of ImGui::DragInt and ImGui::InputInt.  <br /></td></tr>
 <tr class="memitem:a1de0301581b33a2a2e592a082de3ab16" id="r_a1de0301581b33a2a2e592a082de3ab16"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1de0301581b33a2a2e592a082de3ab16">Link</a> (const char *label, uint32_t color=<a class="el" href="structMR_1_1Color.html">MR::Color</a>(60, 120, 255).getUInt32())</td></tr>
 <tr class="memdesc:a1de0301581b33a2a2e592a082de3ab16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw text as link, calls callback on click.  <br /></td></tr>
-<tr class="memitem:ac731a9d6a2c3b334d247953eedb6e7d1" id="r_ac731a9d6a2c3b334d247953eedb6e7d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a27ee05a9e60f4c26c369f0331134f682">PaletteChanges</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac731a9d6a2c3b334d247953eedb6e7d1">Palette</a> (const char *label, <a class="el" href="classMR_1_1Palette.html">MR::Palette</a> &amp;palette, std::string &amp;presetName, float width, bool *fixZero=nullptr, float speed=1.0f, float min=std::numeric_limits&lt; float &gt;::lowest(), float max=std::numeric_limits&lt; float &gt;::max())</td></tr>
+<tr class="memitem:a8d53765e215d1ee45414ed921c6f093f" id="r_a8d53765e215d1ee45414ed921c6f093f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a27ee05a9e60f4c26c369f0331134f682">PaletteChanges</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d53765e215d1ee45414ed921c6f093f">Palette</a> (const char *label, <a class="el" href="classMR_1_1Palette.html">MR::Palette</a> &amp;palette, std::string &amp;presetName, float width, bool *fixZero=nullptr, float speed=1.0f, float min=std::numeric_limits&lt; float &gt;::lowest(), float max=std::numeric_limits&lt; float &gt;::max(), bool unitSuffix=true)</td></tr>
 <tr class="memitem:a73942e37afedb96d86cafa736df83508" id="r_a73942e37afedb96d86cafa736df83508"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73942e37afedb96d86cafa736df83508">Plane</a> (<a class="el" href="classMR_1_1PlaneWidget.html">MR::PlaneWidget</a> &amp;planeWidget, <a class="el" href="#a265e606cad7268f09dacbeeb9b6be3d5">PlaneWidgetFlags</a> flags={})</td></tr>
 <tr class="memitem:a7de53b40c34268b3f0488baa3cce4186" id="r_a7de53b40c34268b3f0488baa3cce4186"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7de53b40c34268b3f0488baa3cce4186">Direction</a> (<a class="el" href="classMR_1_1DirectionWidget.html">MR::DirectionWidget</a> &amp;dirWidget, bool &amp;editDragging, const std::string &amp;historyName)</td></tr>
 <tr class="memitem:aedb015f9f592f1fd8b470ab6f5ac89be" id="r_aedb015f9f592f1fd8b470ab6f5ac89be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedb015f9f592f1fd8b470ab6f5ac89be">Image</a> (const <a class="el" href="classMR_1_1ImGuiImage.html">MR::ImGuiImage</a> &amp;image, const ImVec2 &amp;size, const <a class="el" href="structMR_1_1Color.html">MR::Color</a> &amp;multColor)</td></tr>
@@ -252,7 +252,7 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>return struct of <a class="el" href="#ac731a9d6a2c3b334d247953eedb6e7d1">ImGui::Palette</a> <br  />
+<p>return struct of <a class="el" href="#a8d53765e215d1ee45414ed921c6f093f">ImGui::Palette</a> <br  />
 values are bits </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754" name="a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
@@ -1457,8 +1457,8 @@ value can't be changed if bs has no any valid value </dd></dl>
 
 </div>
 </div>
-<a id="ac731a9d6a2c3b334d247953eedb6e7d1" name="ac731a9d6a2c3b334d247953eedb6e7d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac731a9d6a2c3b334d247953eedb6e7d1">&#9670;&#160;</a></span>Palette()</h2>
+<a id="a8d53765e215d1ee45414ed921c6f093f" name="a8d53765e215d1ee45414ed921c6f093f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d53765e215d1ee45414ed921c6f093f">&#9670;&#160;</a></span>Palette()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1501,7 +1501,12 @@ value can't be changed if bs has no any valid value </dd></dl>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>max</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::numeric_limits&lt;&#160;float&#160;&gt;::max()</span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>max</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::numeric_limits&lt;&#160;float&#160;&gt;::max()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>unitSuffix</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1510,6 +1515,7 @@ can load and save palette preset. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">presetName</td><td>stores the currently selected palette's preset name or empty string if the palette was edited by user </td></tr>
     <tr><td class="paramname">fixZero</td><td>if present shows checkbox to fix zero symmetrical palette </td></tr>
+    <tr><td class="paramname">unitSuffix</td><td>if false, the range limits are shown without the length unit suffix (e.g. for curvature) </td></tr>
   </table>
   </dd>
 </dl>
