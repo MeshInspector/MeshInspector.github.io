@@ -14474,6 +14474,7 @@ var group__GeneralGroup =
     [ "MR::AABBTreeBase::nodes", "group__GeneralGroup.html#ga58f8dd538965bde14c46c2ed60aac1f9", null ],
     [ "MR::NoInitId::NoInitId", "group__GeneralGroup.html#ga57802833c718744793f8894671022ebb", null ],
     [ "MR::NoInitId::NoInitId", "group__GeneralGroup.html#gab540bd2f1746a5d66b29062fc3237af1", null ],
+    [ "MR::detail::nonzeroBelowMax", "group__GeneralGroup.html#ga521b0117e2c5a46ef5b04f24250822f7", null ],
     [ "MR::Matrix2::norm", "group__GeneralGroup.html#gaed63587874e8799354d5470f38d67893", null ],
     [ "MR::Matrix3::norm", "group__GeneralGroup.html#ga728b7efd38a28c6cc4cdbaf3533bdca0", null ],
     [ "MR::Matrix4::norm", "group__GeneralGroup.html#gaa462857af46ce91cb171db91608a48ab", null ],

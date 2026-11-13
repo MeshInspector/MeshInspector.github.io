@@ -17,6 +17,7 @@ var namespaceMR_1_1detail =
     [ "isPortalFileDialogSupported", "namespaceMR_1_1detail.html#a4b40e1222b8df2660b25e4942deb39fb", null ],
     [ "mulWords", "namespaceMR_1_1detail.html#adef9954c65821ab458734f64ae86e011", null ],
     [ "mulWordsOf", "namespaceMR_1_1detail.html#a0c3c7fc10991c0eb99094bb42d438de2", null ],
+    [ "nonzeroBelowMax", "group__GeneralGroup.html#ga521b0117e2c5a46ef5b04f24250822f7", null ],
     [ "orient3dPoly", "namespaceMR_1_1detail.html#a349b4ff5760953282c595de0b6c3e1ab", null ],
     [ "orient3dVolume", "namespaceMR_1_1detail.html#ab652e2278f32034e7f2aa5960239c222", null ],
     [ "runCocoaFileDialog", "namespaceMR_1_1detail.html#a5594c749385503cd1087702f28de4651", null ],

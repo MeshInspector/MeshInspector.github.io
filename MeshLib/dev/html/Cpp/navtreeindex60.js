@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"group__TriangulationHelpersGroup.html#ga379ef6cfbe1df486c3b9baf10d186c0b":[9,0,0,13,0,4],
+"group__TriangulationHelpersGroup.html#ga8a151252bffbc3c9b6cf56c1a45292f0":[9,0,0,13,0,1],
 "group__TriangulationHelpersGroup.html#ga9f026bf1ef8ed09a14cc5012fe92d8fc":[9,0,0,13,0,3],
 "group__TriangulationHelpersGroup.html#gab7b3e43bb16453b2202ab3e82d052488":[9,0,0,13,0,2],
 "group__TriangulationHelpersGroup.html#gaf72ca8f1d6497ca42e99d5884312305c":[9,0,0,13,0,5],
@@ -199,16 +201,16 @@ var NAVTREEINDEX60 =
 "namespaceMR.html#a0df0f857bd84e84b19954332c9dcfae5":[9,0,1,0,1,1067],
 "namespaceMR.html#a180687f93fbe5cc6216008e26099f5f8":[9,0,1,0,1,1065],
 "namespaceMR.html#a3d49458bdb59c5c5fcc07ec4b9654820":[9,0,1,0,1,1119],
-"namespaceMR.html#a4c95ee49f1806c7573241fe7617401c9":[9,0,1,0,1,2508],
+"namespaceMR.html#a4c95ee49f1806c7573241fe7617401c9":[9,0,1,0,1,2509],
 "namespaceMR.html#a626821a3551ab1b67dc553a092bd0a2f":[9,0,1,0,1,1000],
 "namespaceMR.html#a906daf2182f2898fb3e5ad598d8960ae":[9,0,1,0,1,1003],
 "namespaceMR.html#a9381161a7388eeabb33982f4df1cf1c3":[9,0,1,0,1,1068],
 "namespaceMR.html#a93836181db6f59783ce1351a98d59cb8":[9,0,1,0,1,1066],
 "namespaceMR.html#a93bff7f59121c9c61175744b11326824":[9,0,1,0,1,1009],
 "namespaceMR.html#a94d7093d57cb27ac9abdfb241ddb6bc0":[9,0,1,0,1,1069],
-"namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11":[9,0,1,0,1,2507],
-"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3193],
-"namespaceMR.html#af57a9e992da58c4255497330494f5790":[9,0,1,0,1,2506],
+"namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11":[9,0,1,0,1,2508],
+"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3194],
+"namespaceMR.html#af57a9e992da58c4255497330494f5790":[9,0,1,0,1,2507],
 "namespaceMR_1_1AsyncObjectLoad.html":[9,0,1,0,1,0],
 "namespaceMR_1_1AsyncObjectLoad.html#a00566fda9bf4c9254ac5d2d9ffe7208d":[9,0,1,0,1,0,1],
 "namespaceMR_1_1AsyncObjectLoad.html#a5be8803f8be8c57d2ec98589759c0507":[9,0,1,0,1,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1Features.html":[9,0,1,0,1,6],
 "namespaceMR_1_1Features.html#a2cc22f65100a51a32afed2acf0c837b4":[9,0,1,0,1,6,6],
 "namespaceMR_1_1Features.html#a2f919d193c35478d40f28668b8d2d209":[9,0,1,0,1,6,5],
-"namespaceMR_1_1Features.html#a91acadf34447ca8b79061efb805693dc":[9,0,1,0,1,6,7],
-"namespaceMR_1_1Features_1_1Primitives.html":[9,0,0,19,13],
-"namespaceMR_1_1Features_1_1Traits.html":[9,0,0,19,14]
+"namespaceMR_1_1Features.html#a91acadf34447ca8b79061efb805693dc":[9,0,1,0,1,6,7]
 };

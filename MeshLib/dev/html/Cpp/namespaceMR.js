@@ -2461,6 +2461,7 @@ var namespaceMR =
     [ "findCollidingEdgesBitsets", "group__AABBTreeGroup.html#gac15d4a03ef6c224fff28d48fc239c17c", null ],
     [ "findCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#ga2194d3a8c576623325dfcb218caed7e0", null ],
     [ "findCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#ga8e605b47552994f921a55bf1c5eed7e4", null ],
+    [ "findCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#ga8ac11eac790e51af989fca2c75960e1a", null ],
     [ "findCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#ga7b104a00c60718368c988029510bf8ba", null ],
     [ "findCollidingTriangleBitsets", "group__AABBTreeGroup.html#ga8defd1b47b126123f3cf99c68e771ea0", null ],
     [ "findCollidingTriangles", "group__AABBTreeGroup.html#ga6e40cae7759017db4116172d739d174d", null ],
