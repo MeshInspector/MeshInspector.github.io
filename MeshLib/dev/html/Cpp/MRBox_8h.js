@@ -1,5 +1,6 @@
 var MRBox_8h =
 [
+    [ "MR_BOX_NO_VECTOR", "MRBox_8h.html#aeef1e90b444e7ca21d75d817fc47e02d", null ],
     [ "MR::depth", "group__BoxGroup.html#ga7f9739369c171b50d576ee7cc726996f", null ],
     [ "MR::findSortedBoxDims", "group__BoxGroup.html#ga38d4182b91d82686467e35af47b71fe0", null ],
     [ "MR::get", "group__BoxGroup.html#ga76c5563a8f378f26e9e7cd06542fc0bf", null ],

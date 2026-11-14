@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"namespaceMR_1_1detail_1_1Units.html":[9,0,0,19,19],
 "namespaceWasm.html":[9,0,1,0,3],
 "namespaceWasm.html#a36950f79f9abe0a2bc245e925d5797ab":[9,0,1,0,3,11],
 "namespaceWasm.html#a36f8f8b55be7990fef04d7603b11cba0":[9,0,1,0,3,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1BooleanPreCutResult.html#afaca754878c1a03d1db3e1b2e6933dfc":[9,0,2,0,1,89,1],
 "structMR_1_1BooleanResult.html":[9,0,0,8,6],
 "structMR_1_1BooleanResult.html#a2d3a10c35e289abf78a95bd3005b9486":[9,0,0,8,6,7],
-"structMR_1_1BooleanResult.html#a48ebd7d576c05349da5aab0f92e0d289":[9,0,0,8,6,5],
-"structMR_1_1BooleanResult.html#a5158c930dad94ff45198508c2b01788a":[9,0,0,8,6,9]
+"structMR_1_1BooleanResult.html#a48ebd7d576c05349da5aab0f92e0d289":[9,0,0,8,6,5]
 };

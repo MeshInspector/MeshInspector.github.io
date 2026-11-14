@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"group__TriangulationHelpersGroup.html":[9,0,0,13,0],
 "group__TriangulationHelpersGroup.html#ga379ef6cfbe1df486c3b9baf10d186c0b":[9,0,0,13,0,4],
 "group__TriangulationHelpersGroup.html#ga8a151252bffbc3c9b6cf56c1a45292f0":[9,0,0,13,0,1],
 "group__TriangulationHelpersGroup.html#ga9f026bf1ef8ed09a14cc5012fe92d8fc":[9,0,0,13,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1DistanceMapSave.html#aac7825149eb9a0b19702af74fa42f45e":[9,0,1,0,1,5,0],
 "namespaceMR_1_1Features.html":[9,0,1,0,1,6],
 "namespaceMR_1_1Features.html#a2cc22f65100a51a32afed2acf0c837b4":[9,0,1,0,1,6,6],
-"namespaceMR_1_1Features.html#a2f919d193c35478d40f28668b8d2d209":[9,0,1,0,1,6,5],
-"namespaceMR_1_1Features.html#a91acadf34447ca8b79061efb805693dc":[9,0,1,0,1,6,7]
+"namespaceMR_1_1Features.html#a2f919d193c35478d40f28668b8d2d209":[9,0,1,0,1,6,5]
 };

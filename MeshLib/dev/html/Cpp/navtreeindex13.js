@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"classMR_1_1VarBigInt.html#a84a58a5c56947b9350e02fa81669a3b6":[9,0,0,0,5,4,16],
 "classMR_1_1VarBigInt.html#a876aa3428a58eefbbc59d4bd7b219bff":[9,0,0,0,5,4,7],
 "classMR_1_1VarBigInt.html#a9928ab8806d0fc8257f49534b1270d4f":[9,0,0,0,5,4,12],
 "classMR_1_1VarBigInt.html#ab029a72d5a9f6ccfb3964cd80ad164b0":[9,0,0,0,5,4,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "conceptMR_1_1Trivial.html":[9,0,0,19,40],
 "conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[9,0,1,0,1,53,2,8],
 "conceptMR_1_1UI_1_1detail_1_1Scalar.html":[9,0,0,19,47],
-"conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html":[9,0,0,19,49],
-"conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html":[9,0,0,19,50]
+"conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html":[9,0,0,19,49]
 };

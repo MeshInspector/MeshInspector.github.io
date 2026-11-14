@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR_1_1Features.html#a91acadf34447ca8b79061efb805693dc":[9,0,1,0,1,6,7],
 "namespaceMR_1_1Features_1_1Primitives.html":[9,0,0,19,13],
 "namespaceMR_1_1Features_1_1Traits.html":[9,0,0,19,14],
 "namespaceMR_1_1FileDialog.html":[9,0,0,19,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "namespaceMR_1_1PythonViewer.html#a9e2bdb9d952b379444aa4a7aa0e5f626":[9,0,1,0,1,40,24],
 "namespaceMR_1_1PythonViewer.html#a9e6e24e71aba3e46442ef32812b4739e":[9,0,1,0,1,40,16],
 "namespaceMR_1_1PythonViewer.html#aa668f12638fff510d1e12ac2819c1ac7":[9,0,1,0,1,40,10],
-"namespaceMR_1_1PythonViewer.html#aa668f12638fff510d1e12ac2819c1ac7a0ce3266d4eb71ad50f7a90aee6d21dcd":[9,0,1,0,1,40,10,2],
-"namespaceMR_1_1PythonViewer.html#aa668f12638fff510d1e12ac2819c1ac7a2b61e0d5977f2e38f06e16281c802b47":[9,0,1,0,1,40,10,1]
+"namespaceMR_1_1PythonViewer.html#aa668f12638fff510d1e12ac2819c1ac7a0ce3266d4eb71ad50f7a90aee6d21dcd":[9,0,1,0,1,40,10,2]
 };

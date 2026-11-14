@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"MROpenObjects_8h_source.html":[9,0,3,0,11,67],
 "MROpenRawVoxelsPlugin_8h.html":[9,0,3,0,1,3,1],
 "MROpenRawVoxelsPlugin_8h_source.html":[9,0,3,0,1,3,1],
 "MROpenVDBHelper_8h.html":[9,0,3,0,12,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "MRRibbonConstants_8h.html":[9,0,3,0,11,94],
 "MRRibbonConstants_8h_source.html":[9,0,3,0,11,94],
 "MRRibbonFontHolder_8h.html":[9,0,3,0,11,95],
-"MRRibbonFontHolder_8h_source.html":[9,0,3,0,11,95],
-"MRRibbonFontManager_8h.html":[9,0,3,0,11,96]
+"MRRibbonFontHolder_8h_source.html":[9,0,3,0,11,95]
 };

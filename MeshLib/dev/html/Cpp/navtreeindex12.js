@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"classMR_1_1SetBitIteratorT.html#ab6e4b92cd100336048e5869d8fadc6ca":[9,0,0,3,2,7],
 "classMR_1_1SetBitIteratorT.html#aced05ebc6333620dcadd87af14a3f610":[9,0,0,3,2,4],
 "classMR_1_1SetBitIteratorT.html#af520ca8fde7b2302d963bb596a4e326b":[9,0,0,3,2,0],
 "classMR_1_1SetBitIteratorT.html#afae6d6e117aafc177ad2feb727a277ea":[9,0,0,3,2,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "classMR_1_1VarBigInt.html#a49f73d098f97f93dc16e076e922cd287":[9,0,0,0,5,4,13],
 "classMR_1_1VarBigInt.html#a512a8f1b7af491fbd2d5d29786c9b7ce":[9,0,0,0,5,4,8],
 "classMR_1_1VarBigInt.html#a6d8d4b0cdb865c1a3a377a7f564933bb":[9,0,0,0,5,4,11],
-"classMR_1_1VarBigInt.html#a6daa558b3b85bf5c900b98188df94d7a":[9,0,0,0,5,4,0],
-"classMR_1_1VarBigInt.html#a84a58a5c56947b9350e02fa81669a3b6":[9,0,0,0,5,4,16]
+"classMR_1_1VarBigInt.html#a6daa558b3b85bf5c900b98188df94d7a":[9,0,0,0,5,4,0]
 };

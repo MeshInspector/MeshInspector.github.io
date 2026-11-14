@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"MRRibbonFontManager_8h.html":[9,0,3,0,11,96],
 "MRRibbonFontManager_8h_source.html":[9,0,3,0,11,96],
 "MRRibbonIcons_8h.html":[9,0,3,0,11,97],
 "MRRibbonIcons_8h_source.html":[9,0,3,0,11,97],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "MRTupleBindings_8h.html":[9,0,3,0,7,427],
 "MRTupleBindings_8h_source.html":[9,0,3,0,7,427],
 "MRTwoLineSegmDist_8h.html":[9,0,3,0,7,428],
-"MRTwoLineSegmDist_8h_source.html":[9,0,3,0,7,428],
-"MRUINonOverlappingLabels_8h.html":[9,0,3,0,11,145]
+"MRTwoLineSegmDist_8h_source.html":[9,0,3,0,7,428]
 };
