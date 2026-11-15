@@ -19,10 +19,7 @@ var hierarchy =
     [ "MR::SpaceMouse::Action", "structMR_1_1SpaceMouse_1_1Action.html", null ],
     [ "MR::AffineXf< V >", "structMR_1_1AffineXf.html", null ],
     [ "MR::AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", null ],
-    [ "MR::AllocatorBase< T >", "structMR_1_1AllocatorBase.html", [
-      [ "MR::Allocator< U >", "structMR_1_1Allocator.html", null ],
-      [ "MR::Allocator< T >", "structMR_1_1Allocator.html", null ]
-    ] ],
+    [ "MR::Allocator< T >", "structMR_1_1Allocator.html", null ],
     [ "MR::AlphaShapeData", "structMR_1_1AlphaShapeData.html", null ],
     [ "MR::AlphaShapeNei", "structMR_1_1AlphaShapeNei.html", null ],
     [ "MR::AlphaShapeStats", "structMR_1_1AlphaShapeStats.html", null ],

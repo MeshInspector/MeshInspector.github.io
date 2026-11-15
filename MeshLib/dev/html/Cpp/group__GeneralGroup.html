@@ -310,8 +310,6 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for aligning 2d contours onto mesh surface.  <a href="structMR_1_1ContoursMeshAlignParams.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ABendContoursAlongCurveParams" id="r_MR_3A_3ABendContoursAlongCurveParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for aligning 2d contours along given curve.  <a href="structMR_1_1BendContoursAlongCurveParams.html#details">More...</a><br /></td></tr>
-<tr class="memitem:MR_3A_3AAllocatorBase_3C_20T_20_3E" id="r_MR_3A_3AAllocatorBase_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AllocatorBase.html">MR::AllocatorBase&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">not mi_stl_allocator: its construct/destroy members stop std containers from memmove-copying and skipping trivial destructors  <a href="structMR_1_1AllocatorBase.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AAllocator_3C_20T_20_3E" id="r_MR_3A_3AAllocator_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Allocator.html">MR::Allocator&lt; T &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3AAllocator_3C_20T_20_3E_3A_3Arebind_3C_20U_20_3E" id="r_MR_3A_3AAllocator_3C_20T_20_3E_3A_3Arebind_3C_20U_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Allocator_1_1rebind.html">MR::Allocator&lt; T &gt;::rebind&lt; U &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3AAlphaShapeData" id="r_MR_3A_3AAlphaShapeData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AlphaShapeData.html">MR::AlphaShapeData</a></td></tr>
@@ -12318,6 +12316,9 @@ Variables</h2></td></tr>
 <tr class="memdesc:gaa63ad4da9aad75fc779edeb4baab169c"><td class="mdescLeft">&#160;</td><td class="mdescRight">stretch all contours along curve to fit in curve.totalLength  <br /></td></tr>
 <tr class="memitem:ga2e554b5ceea4b8d6d43ce5c58e506315" id="r_ga2e554b5ceea4b8d6d43ce5c58e506315"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2e554b5ceea4b8d6d43ce5c58e506315">MR::BendContoursAlongCurveParams::extrusion</a> { 1.0f }</td></tr>
 <tr class="memdesc:ga2e554b5ceea4b8d6d43ce5c58e506315"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="#gacc92c2d7152d14f1cb59bb4c7187fed8">Contours</a> extrusion outside of curve level.  <br /></td></tr>
+<tr class="memitem:ga01b9e1d5f15abc87be07a3d0866188e4" id="r_ga01b9e1d5f15abc87be07a3d0866188e4"><td class="memTemplParams" colspan="2">template&lt;typename T, typename = void&gt; </td></tr>
+<tr class="memitem:ga01b9e1d5f15abc87be07a3d0866188e4 template"><td class="memItemLeft" align="right" valign="top">constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga01b9e1d5f15abc87be07a3d0866188e4">MR::cAllocatorAlignment</a> = alignof( T )</td></tr>
+<tr class="memdesc:ga01b9e1d5f15abc87be07a3d0866188e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">the alignment of the memory <a class="el" href="structMR_1_1Allocator.html">Allocator&lt;T&gt;</a> allocates: alignof( T ), or T::cAllocAlignment if T defines a greater one  <br /></td></tr>
 <tr class="memitem:ga7644918118a8c385b1e65af953cbb4f7" id="r_ga7644918118a8c385b1e65af953cbb4f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7644918118a8c385b1e65af953cbb4f7">MR::AlphaShapeData::toInt</a></td></tr>
 <tr class="memdesc:ga7644918118a8c385b1e65af953cbb4f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts cloud's points in integer coordinates  <br /></td></tr>
 <tr class="memitem:ga83480f95b9e1d4f1069a44ea03726ea8" id="r_ga83480f95b9e1d4f1069a44ea03726ea8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3i, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga83480f95b9e1d4f1069a44ea03726ea8">MR::AlphaShapeData::intPoints</a></td></tr>
@@ -13159,6 +13160,8 @@ Variables</h2></td></tr>
 <tr class="memitem:ga9f5d70ec6986d7b4f5477c5e2298f5e5" id="r_ga9f5d70ec6986d7b4f5477c5e2298f5e5"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9f5d70ec6986d7b4f5477c5e2298f5e5">MR::VacantElements::edges</a></td></tr>
 <tr class="memitem:ga1f111c2398ef25fb853ecdd03cf5ff59" id="r_ga1f111c2398ef25fb853ecdd03cf5ff59"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1f111c2398ef25fb853ecdd03cf5ff59">MR::VacantElements::verts</a></td></tr>
 <tr class="memitem:ga62233d2b2599039751a03d75ceca0704" id="r_ga62233d2b2599039751a03d75ceca0704"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga62233d2b2599039751a03d75ceca0704">MR::VacantElements::faces</a></td></tr>
+<tr class="memitem:ga0cab56f9fdced8f8a9575d165d187526" id="r_ga0cab56f9fdced8f8a9575d165d187526"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0cab56f9fdced8f8a9575d165d187526">MR::MeshTopology::HalfEdgeRecord::cAllocAlignment</a> = 32</td></tr>
+<tr class="memdesc:ga0cab56f9fdced8f8a9575d165d187526"><td class="mdescLeft">&#160;</td><td class="mdescRight">edges_ start at a 32-byte boundary, so the records of e and e.sym() are in one cache line  <br /></td></tr>
 <tr class="memitem:gaa79948207ce03ac940110fc5b6eeadad" id="r_gaa79948207ce03ac940110fc5b6eeadad"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa79948207ce03ac940110fc5b6eeadad">MR::MeshTopology::HalfEdgeRecord::next</a></td></tr>
 <tr class="memdesc:gaa79948207ce03ac940110fc5b6eeadad"><td class="mdescLeft">&#160;</td><td class="mdescRight">next counter clock wise half-edge in the origin ring  <br /></td></tr>
 <tr class="memitem:ga72d923a9f0e2f0b8bf55d43bbd30bc2c" id="r_ga72d923a9f0e2f0b8bf55d43bbd30bc2c"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga72d923a9f0e2f0b8bf55d43bbd30bc2c">MR::MeshTopology::HalfEdgeRecord::prev</a></td></tr>
@@ -213148,6 +213151,58 @@ template&lt;typename T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga0cab56f9fdced8f8a9575d165d187526" name="ga0cab56f9fdced8f8a9575d165d187526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0cab56f9fdced8f8a9575d165d187526">&#9670;&#160;</a></span>cAllocAlignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t MR::MeshTopology::HalfEdgeRecord::cAllocAlignment = 32</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>edges_ start at a 32-byte boundary, so the records of e and e.sym() are in one cache line </p>
+
+</div>
+</div>
+<a id="ga01b9e1d5f15abc87be07a3d0866188e4" name="ga01b9e1d5f15abc87be07a3d0866188e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga01b9e1d5f15abc87be07a3d0866188e4">&#9670;&#160;</a></span>cAllocatorAlignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename = void&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t MR::cAllocatorAlignment = alignof( T )</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRAllocator_8h.html">MRMesh/MRAllocator.h</a>&gt;</code></p>
+
+<p>the alignment of the memory <a class="el" href="structMR_1_1Allocator.html">Allocator&lt;T&gt;</a> allocates: alignof( T ), or T::cAllocAlignment if T defines a greater one </p>
 
 </div>
 </div>

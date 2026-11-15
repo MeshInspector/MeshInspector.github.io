@@ -579,7 +579,6 @@ var group__GeneralGroup =
       [ "pivotCurveTime", "group__GeneralGroup.html#gaf94f08b9029b46debd6c05b78ee3d395", null ],
       [ "stretch", "group__GeneralGroup.html#gaa63ad4da9aad75fc779edeb4baab169c", null ]
     ] ],
-    [ "MR::AllocatorBase< T >", "structMR_1_1AllocatorBase.html", null ],
     [ "MR::Allocator< T >", "structMR_1_1Allocator.html", [
       [ "propagate_on_container_move_assignment", "group__GeneralGroup.html#ga6e5a6cfcecd6d8ac399825a714295023", null ],
       [ "value_type", "group__GeneralGroup.html#ga8bd4851a1bc8ceaf4d330842802e0317", null ],
@@ -17421,6 +17420,8 @@ var group__GeneralGroup =
     [ "MR::SaveObjectSettings::callback", "group__GeneralGroup.html#ga8ddb9e6259b392820926db823e35a6bb", null ],
     [ "MR::SelfIntersections::Settings::callback", "group__GeneralGroup.html#gad3d19d62f4659d2ff0a0415ffecba3c4", null ],
     [ "MR::CommandLoop::Command::callerThreadCV", "group__GeneralGroup.html#ga96d0ef6ef458d983f1ba035f68ebf6d1", null ],
+    [ "MR::MeshTopology::HalfEdgeRecord::cAllocAlignment", "group__GeneralGroup.html#ga0cab56f9fdced8f8a9575d165d187526", null ],
+    [ "MR::cAllocatorAlignment", "group__GeneralGroup.html#ga01b9e1d5f15abc87be07a3d0866188e4", null ],
     [ "MR::Viewport::Parameters::cameraDfar", "group__GeneralGroup.html#ga4e04005c46ed161365c6df1748e23b07", null ],
     [ "MR::Viewport::Parameters::cameraDnear", "group__GeneralGroup.html#gace4bc4bedd8fc05cfc34236d8f4c7612", null ],
     [ "MR::PointInAllSpaces::cameraSpace", "group__GeneralGroup.html#ga1cba71d0b9b3f78aff8c080d214b074f", null ],
