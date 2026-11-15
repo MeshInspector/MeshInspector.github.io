@@ -1,5 +1,9 @@
 var NAVTREEINDEX88 =
 {
+"classmrmeshpy_1_1ConstVisualObject.html#a68c38e7bf9aaf702cef2c1aff1a12e19":[9,1,0,0,2,1426,9],
+"classmrmeshpy_1_1ConstVisualObject.html#a68c38e7bf9aaf702cef2c1aff1a12e19":[9,1,1,0,1,1426,9],
+"classmrmeshpy_1_1ConstVisualObject.html#a6cc1144b6aabd38be2f157c3be988905":[9,1,0,0,2,1426,32],
+"classmrmeshpy_1_1ConstVisualObject.html#a6cc1144b6aabd38be2f157c3be988905":[9,1,1,0,1,1426,32],
 "classmrmeshpy_1_1ConstVisualObject.html#a74dedcb707476b9a399fda9d60857c48":[9,1,0,0,2,1426,14],
 "classmrmeshpy_1_1ConstVisualObject.html#a74dedcb707476b9a399fda9d60857c48":[9,1,1,0,1,1426,14],
 "classmrmeshpy_1_1ConstVisualObject.html#a7c0b771fcb785bc5d3b7f7e8561daac2":[9,1,0,0,2,1426,12],
@@ -245,9 +249,5 @@ var NAVTREEINDEX88 =
 "classmrmeshpy_1_1ConstVoxelScalars.html#af116123067e579d361f64968b7b395fb":[9,1,0,0,2,1435,12],
 "classmrmeshpy_1_1ConstVoxelScalars.html#af116123067e579d361f64968b7b395fb":[9,1,1,0,1,1435,12],
 "classmrmeshpy_1_1ConstVoxelTraits__FloatGrid.html":[9,1,0,0,2,1444],
-"classmrmeshpy_1_1ConstVoxelTraits__FloatGrid.html":[9,1,1,0,1,1444],
-"classmrmeshpy_1_1ConstVoxelTraits__FloatGrid.html#a441bd1811b8fb558748e95a720180a68":[9,1,0,0,2,1444,0],
-"classmrmeshpy_1_1ConstVoxelTraits__FloatGrid.html#a441bd1811b8fb558748e95a720180a68":[9,1,1,0,1,1444,0],
-"classmrmeshpy_1_1ConstVoxelTraits__Vector__unsigned__short__VoxelId.html":[9,1,0,0,2,1447],
-"classmrmeshpy_1_1ConstVoxelTraits__Vector__unsigned__short__VoxelId.html":[9,1,1,0,1,1447]
+"classmrmeshpy_1_1ConstVoxelTraits__FloatGrid.html":[9,1,1,0,1,1444]
 };

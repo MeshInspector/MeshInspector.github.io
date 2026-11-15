@@ -747,7 +747,7 @@ var searchData=
   ['smoothsettings_143',['smoothSettings',['.././Cpp/group__GeneralGroup.html#gad2e68e1f1a6709a037e454b3673663d2',1,'MR::StitchHolesNicelySettings::smoothSettings'],['.././Cpp/group__GeneralGroup.html#ga34a56d380f672046a965d5bcc6f66e06',1,'MR::FillHoleNicelySettings::smoothSettings']]],
   ['snapview_144',['snapView',['.././Cpp/structMR_1_1PythonViewer_1_1ViewportFitDataParams.html#adcc0756733bd804cfc80bd3ea8cb6088',1,'MR::PythonViewer::ViewportFitDataParams::snapView'],['.././Cpp/group__GeneralGroup.html#ga1ba0fadee2fc4bad0655f2b0f15211ab',1,'MR::BaseFitParams::snapView']]],
   ['snorm_145',['snorm',['.././Cpp/group__GeneralGroup.html#gaa9ddd8b08fe744f50edac9292ae66920',1,'MR::CurvePoint']]],
-  ['solidcolor_146',['solidColor',['.././Cpp/group__GeneralGroup.html#ga127d98f930cd561a8633297e3422f649',1,'MR::SaveSettings']]],
+  ['solidcolor_146',['solidColor',['.././Cpp/group__GeneralGroup.html#ga127d98f930cd561a8633297e3422f649',1,'MR::SaveSettings::solidColor'],['.././Cpp/group__GeneralGroup.html#gac0f48444d754db7b6bc6197b8381a9fa',1,'MR::LoadedMeshData::solidColor'],['.././Cpp/group__GeneralGroup.html#gade9552fa6c401694ea33e3ff5f4ac1bb',1,'MR::MeshLoadSettings::solidColor']]],
   ['sortdata_147',['sortData',['.././Cpp/group__GeneralGroup.html#ga3aaef62dde9c7e4727195071089e409f',1,'MR::CutMeshParameters']]],
   ['sourcepoint_5f_148',['sourcePoint_',['.././Cpp/group__GeneralGroup.html#ga46b25ed3275d1a41588168f24ae385d9',1,'MR::ObjectLabel']]],
   ['sourcepointcolor_5f_149',['sourcePointColor_',['.././Cpp/group__GeneralGroup.html#ga5d2d7ba2d1452d4ea652d46428d7c8d3',1,'MR::ObjectLabel']]],

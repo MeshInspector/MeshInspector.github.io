@@ -12912,6 +12912,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga67164bb7398f34f276583f2711748077"><td class="mdescLeft">&#160;</td><td class="mdescRight">permit telemetry signal about loading  <br /></td></tr>
 <tr class="memitem:gaafc54b70b462f2c09a711edeca045dd9" id="r_gaafc54b70b462f2c09a711edeca045dd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaafc54b70b462f2c09a711edeca045dd9">MR::LoadedMeshData::texture</a></td></tr>
 <tr class="memitem:gaa4caf12f413c9b3a6228a29e2c7addeb" id="r_gaa4caf12f413c9b3a6228a29e2c7addeb"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa4caf12f413c9b3a6228a29e2c7addeb">MR::LoadedMeshData::xf</a></td></tr>
+<tr class="memitem:gac0f48444d754db7b6bc6197b8381a9fa" id="r_gac0f48444d754db7b6bc6197b8381a9fa"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac0f48444d754db7b6bc6197b8381a9fa">MR::LoadedMeshData::solidColor</a></td></tr>
 <tr class="memitem:ga2b34624650bce15d4802d67235a4fa09" id="r_ga2b34624650bce15d4802d67235a4fa09"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2b34624650bce15d4802d67235a4fa09">MR::LoadedMeshData::skippedFaceCount</a> = 0</td></tr>
 <tr class="memitem:gac62307437d592311d84a2d4689889d6e" id="r_gac62307437d592311d84a2d4689889d6e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac62307437d592311d84a2d4689889d6e">MR::LoadedMeshData::duplicatedVertexCount</a> = 0</td></tr>
 <tr class="memitem:gaa8b42b98f6528509e4c4fe107fe6545a" id="r_gaa8b42b98f6528509e4c4fe107fe6545a"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; ObjectT &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa8b42b98f6528509e4c4fe107fe6545a">MR::LoadedObjectT&lt; ObjectT &gt;::obj</a></td></tr>
@@ -13101,6 +13102,8 @@ Variables</h2></td></tr>
 <tr class="memdesc:gaeb2eb22ddf375f8cac7a36b6ec756c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional load artifact: per-vertex normals  <br /></td></tr>
 <tr class="memitem:gaea5bd8460c5fbf0c62840a46e0eb2011" id="r_gaea5bd8460c5fbf0c62840a46e0eb2011"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaea5bd8460c5fbf0c62840a46e0eb2011">MR::MeshLoadSettings::texture</a> = nullptr</td></tr>
 <tr class="memdesc:gaea5bd8460c5fbf0c62840a46e0eb2011"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional load artifact: texture image  <br /></td></tr>
+<tr class="memitem:gade9552fa6c401694ea33e3ff5f4ac1bb" id="r_gade9552fa6c401694ea33e3ff5f4ac1bb"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gade9552fa6c401694ea33e3ff5f4ac1bb">MR::MeshLoadSettings::solidColor</a> = nullptr</td></tr>
+<tr class="memdesc:gade9552fa6c401694ea33e3ff5f4ac1bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional load artifact: the color of whole object, if the format has it  <br /></td></tr>
 <tr class="memitem:ga6fdcf8fdd76f70d7403ea886ed944019" id="r_ga6fdcf8fdd76f70d7403ea886ed944019"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6fdcf8fdd76f70d7403ea886ed944019">MR::MeshLoadSettings::skippedFaceCount</a> = nullptr</td></tr>
 <tr class="memdesc:ga6fdcf8fdd76f70d7403ea886ed944019"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: counter of skipped faces during mesh creation  <br /></td></tr>
 <tr class="memitem:ga1fdd9db8e441e5ff1bcee3e9d4b664a7" id="r_ga1fdd9db8e441e5ff1bcee3e9d4b664a7"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1fdd9db8e441e5ff1bcee3e9d4b664a7">MR::MeshLoadSettings::duplicatedVertexCount</a> = nullptr</td></tr>
@@ -13735,7 +13738,6 @@ Variables</h2></td></tr>
 <tr class="memitem:ga1b152fd38e636ee6803cabaac71794cc" id="r_ga1b152fd38e636ee6803cabaac71794cc"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="#ga754d4eb0500be08374f5c611d33b5cab">LengthUnit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1b152fd38e636ee6803cabaac71794cc">MR::SaveSettings::lengthUnit</a></td></tr>
 <tr class="memdesc:ga1b152fd38e636ee6803cabaac71794cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">units of input coordinates and transformation, to be serialized if the format supports it  <br /></td></tr>
 <tr class="memitem:ga127d98f930cd561a8633297e3422f649" id="r_ga127d98f930cd561a8633297e3422f649"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga127d98f930cd561a8633297e3422f649">MR::SaveSettings::solidColor</a></td></tr>
-<tr class="memdesc:ga127d98f930cd561a8633297e3422f649"><td class="mdescLeft">&#160;</td><td class="mdescRight">the color of whole object  <br /></td></tr>
 <tr class="memitem:ga61f8231ef54870e7e1fb1335672a25a4" id="r_ga61f8231ef54870e7e1fb1335672a25a4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga61f8231ef54870e7e1fb1335672a25a4">MR::SaveSettings::telemetrySignal</a> = true</td></tr>
 <tr class="memdesc:ga61f8231ef54870e7e1fb1335672a25a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">permit telemetry signal about saving  <br /></td></tr>
 <tr class="memitem:ga0f2bb31407f2693aa939c47e0052b527" id="r_ga0f2bb31407f2693aa939c47e0052b527"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0f2bb31407f2693aa939c47e0052b527">MR::SaveSettings::progress</a></td></tr>
@@ -240209,8 +240211,38 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gac0f48444d754db7b6bc6197b8381a9fa" name="gac0f48444d754db7b6bc6197b8381a9fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac0f48444d754db7b6bc6197b8381a9fa">&#9670;&#160;</a></span>solidColor <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;<a class="el" href="structMR_1_1Color.html">Color</a>&gt; MR::LoadedMeshData::solidColor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gade9552fa6c401694ea33e3ff5f4ac1bb" name="gade9552fa6c401694ea33e3ff5f4ac1bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gade9552fa6c401694ea33e3ff5f4ac1bb">&#9670;&#160;</a></span>solidColor <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;<a class="el" href="structMR_1_1Color.html">Color</a>&gt;* MR::MeshLoadSettings::solidColor = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>optional load artifact: the color of whole object, if the format has it </p>
+
+</div>
+</div>
 <a id="ga127d98f930cd561a8633297e3422f649" name="ga127d98f930cd561a8633297e3422f649"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga127d98f930cd561a8633297e3422f649">&#9670;&#160;</a></span>solidColor</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga127d98f930cd561a8633297e3422f649">&#9670;&#160;</a></span>solidColor <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240220,8 +240252,7 @@ template&lt;typename T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>the color of whole object </p>
+<p>the color of whole object, saved only in the formats having object color: .3mf (if neither per-vertex nor per-triangle colors are given), .obj (Kd in .mtl file), binary .stl (COLOR= in the header) </p>
 
 </div>
 </div>

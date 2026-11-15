@@ -695,7 +695,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the color of whole object Returns a pointer to a member variable of class <span class="tt">MR::SaveSettings</span> named <span class="tt">solidColor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>the color of whole object, saved only in the formats having object color: .3mf (if neither per-vertex nor per-triangle colors are given), .obj (Kd in .mtl file), binary .stl (COLOR= in the header) Returns a pointer to a member variable of class <span class="tt">MR::SaveSettings</span> named <span class="tt">solidColor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -929,7 +929,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the color of whole object Returns a mutable pointer to a member variable of class <span class="tt">MR::SaveSettings</span> named <span class="tt">solidColor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>the color of whole object, saved only in the formats having object color: .3mf (if neither per-vertex nor per-triangle colors are given), .obj (Kd in .mtl file), binary .stl (COLOR= in the header) Returns a mutable pointer to a member variable of class <span class="tt">MR::SaveSettings</span> named <span class="tt">solidColor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1253,7 +1253,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the color of whole object Modifies a member variable of class <span class="tt">MR::SaveSettings</span> named <span class="tt">solidColor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">value</span> is optional. To keep it empty, pass a null pointer. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">solidColor</span>. When this function is called, this object will drop object references it held previously in <span class="tt">solidColor</span>. </p>
+<p>the color of whole object, saved only in the formats having object color: .3mf (if neither per-vertex nor per-triangle colors are given), .obj (Kd in .mtl file), binary .stl (COLOR= in the header) Modifies a member variable of class <span class="tt">MR::SaveSettings</span> named <span class="tt">solidColor</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">value</span> is optional. To keep it empty, pass a null pointer. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">solidColor</span>. When this function is called, this object will drop object references it held previously in <span class="tt">solidColor</span>. </p>
 
 </div>
 </div>

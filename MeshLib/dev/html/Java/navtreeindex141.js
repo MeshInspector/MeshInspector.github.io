@@ -1,5 +1,13 @@
 var NAVTREEINDEX141 =
 {
+"classmeshlib_1_1TriTriDistanceResult__float.html#aa0d1cfe21627766fb45ad7e7ddcdbcab":[9,6,1,0,0,1545,13],
+"classmeshlib_1_1TriTriDistanceResult__float.html#aa4d598a57f9e71956b557a028cc0dce2":[9,6,0,0,0,1545,8],
+"classmeshlib_1_1TriTriDistanceResult__float.html#aa4d598a57f9e71956b557a028cc0dce2":[9,6,1,0,0,1545,8],
+"classmeshlib_1_1TriTriDistanceResult__float.html#aa70141b825fe78067ec727fb1cb5f6d4":[9,6,0,0,0,1545,14],
+"classmeshlib_1_1TriTriDistanceResult__float.html#aa70141b825fe78067ec727fb1cb5f6d4":[9,6,1,0,0,1545,14],
+"classmeshlib_1_1TriTriDistanceResult__float.html#ab70cfba8d84debeaf0ec2c0df9edfc3e":[9,6,0,0,0,1545,17],
+"classmeshlib_1_1TriTriDistanceResult__float.html#ab70cfba8d84debeaf0ec2c0df9edfc3e":[9,6,1,0,0,1545,17],
+"classmeshlib_1_1TriTriDistanceResult__float.html#abffb0e1b896733a51807447d3d946ca6":[9,6,0,0,0,1545,6],
 "classmeshlib_1_1TriTriDistanceResult__float.html#abffb0e1b896733a51807447d3d946ca6":[9,6,1,0,0,1545,6],
 "classmeshlib_1_1TriTriDistanceResult__float.html#ac7c963d1e489710b30981d90311f24d6":[9,6,0,0,0,1545,15],
 "classmeshlib_1_1TriTriDistanceResult__float.html#ac7c963d1e489710b30981d90311f24d6":[9,6,1,0,0,1545,15],
@@ -241,13 +249,5 @@ var NAVTREEINDEX141 =
 "classmeshlib_1_1TrivialMetricToPenalty.html#a7ade8742f553b79ed24433858ab3b23d":[9,6,1,0,0,1546,0],
 "classmeshlib_1_1TrivialMetricToPenalty.html#ac578495df2f12a3cb4a3d7eb963acd18":[9,6,0,0,0,1546,1],
 "classmeshlib_1_1TrivialMetricToPenalty.html#ac578495df2f12a3cb4a3d7eb963acd18":[9,6,1,0,0,1546,1],
-"classmeshlib_1_1TrivialMetricToPenalty.html#ad3a15df43a8c2f9c54d943bc5c2b525f":[9,6,0,0,0,1546,3],
-"classmeshlib_1_1TrivialMetricToPenalty.html#ad3a15df43a8c2f9c54d943bc5c2b525f":[9,6,1,0,0,1546,3],
-"classmeshlib_1_1TrivialMetricToPenalty.html#aeb375b259e9b9f780885c94de4536f1c":[9,6,0,0,0,1546,2],
-"classmeshlib_1_1TrivialMetricToPenalty.html#aeb375b259e9b9f780885c94de4536f1c":[9,6,1,0,0,1546,2],
-"classmeshlib_1_1TrivialMetricToPenalty.html#af95c7ff20152d249cc00bb76bf133134":[9,6,0,0,0,1546,4],
-"classmeshlib_1_1TrivialMetricToPenalty.html#af95c7ff20152d249cc00bb76bf133134":[9,6,1,0,0,1546,4],
-"classmeshlib_1_1TunnelLoopType.html":[9,6,0,0,0,1547],
-"classmeshlib_1_1TunnelLoopType.html":[9,6,1,0,0,1547],
-"classmeshlib_1_1TunnelLoopType.html#a1bfd81997aebd2490f227856cfd96e72":[9,6,0,0,0,1547,2]
+"classmeshlib_1_1TrivialMetricToPenalty.html#ad3a15df43a8c2f9c54d943bc5c2b525f":[9,6,0,0,0,1546,3]
 };

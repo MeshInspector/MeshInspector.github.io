@@ -1,5 +1,13 @@
 var NAVTREEINDEX143 =
 {
+"classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a5705cfb729721491c892a649df7e9552":[9,6,1,0,0,1552,48],
+"classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a5b7fdca608743dd925f2621075f106fb":[9,6,0,0,0,1552,50],
+"classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a5b7fdca608743dd925f2621075f106fb":[9,6,1,0,0,1552,50],
+"classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a5cd0d51841b1853659acfa8a3ca82f4d":[9,6,0,0,0,1552,15],
+"classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a5cd0d51841b1853659acfa8a3ca82f4d":[9,6,1,0,0,1552,15],
+"classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a627315d539823f227042b14ff722bcfa":[9,6,0,0,0,1552,22],
+"classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a627315d539823f227042b14ff722bcfa":[9,6,1,0,0,1552,22],
+"classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a66371ea242e4ae4afb2b9d00d67b340d":[9,6,0,0,0,1552,25],
 "classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a66371ea242e4ae4afb2b9d00d67b340d":[9,6,1,0,0,1552,25],
 "classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a6a605b5c1ba29dd014e05180fdc74e62":[9,6,0,0,0,1552,11],
 "classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a6a605b5c1ba29dd014e05180fdc74e62":[9,6,1,0,0,1552,11],
@@ -241,13 +249,5 @@ var NAVTREEINDEX143 =
 "classmeshlib_1_1UndirectedEdgeBMap.html":[9,6,1,0,0,1557],
 "classmeshlib_1_1UndirectedEdgeBMap.html#a15af381d67f685128584440aaf122c63":[9,6,0,0,0,1557,7],
 "classmeshlib_1_1UndirectedEdgeBMap.html#a15af381d67f685128584440aaf122c63":[9,6,1,0,0,1557,7],
-"classmeshlib_1_1UndirectedEdgeBMap.html#a36b50d9b88d4fbb07f079e9955d93ca2":[9,6,0,0,0,1557,1],
-"classmeshlib_1_1UndirectedEdgeBMap.html#a36b50d9b88d4fbb07f079e9955d93ca2":[9,6,1,0,0,1557,1],
-"classmeshlib_1_1UndirectedEdgeBMap.html#a3bb6df10fbc5851667143da85796e9c9":[9,6,0,0,0,1557,2],
-"classmeshlib_1_1UndirectedEdgeBMap.html#a3bb6df10fbc5851667143da85796e9c9":[9,6,1,0,0,1557,2],
-"classmeshlib_1_1UndirectedEdgeBMap.html#a69918c4074b5b69c0f0d372709f9732d":[9,6,0,0,0,1557,8],
-"classmeshlib_1_1UndirectedEdgeBMap.html#a69918c4074b5b69c0f0d372709f9732d":[9,6,1,0,0,1557,8],
-"classmeshlib_1_1UndirectedEdgeBMap.html#a9938995f7752f99d02ca8809ba80a012":[9,6,0,0,0,1557,4],
-"classmeshlib_1_1UndirectedEdgeBMap.html#a9938995f7752f99d02ca8809ba80a012":[9,6,1,0,0,1557,4],
-"classmeshlib_1_1UndirectedEdgeBMap.html#aa38a1dc7226e7b1d7e99443b2785fd03":[9,6,0,0,0,1557,0]
+"classmeshlib_1_1UndirectedEdgeBMap.html#a36b50d9b88d4fbb07f079e9955d93ca2":[9,6,0,0,0,1557,1]
 };

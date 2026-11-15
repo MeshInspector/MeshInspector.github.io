@@ -1,5 +1,11 @@
 var NAVTREEINDEX173 =
 {
+"std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId__phmap__Hash__MR______d306_8h.html#a8101a6194b894bd5f985f269e18a5d80":[9,2,2,0,0,0,0,2,421,7],
+"std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId__phmap__Hash__MR______d306_8h.html#a9337605eba34b9a56ac8a79fbc7cf331":[9,2,2,0,0,0,0,2,421,11],
+"std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId__phmap__Hash__MR______d306_8h.html#aba6c395bd71cfd7c8763ac378f7f6800":[9,2,2,0,0,0,0,2,421,12],
+"std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId__phmap__Hash__MR______d306_8h.html#aba84a88bf1969c28df961cac063765b8":[9,2,2,0,0,0,0,2,421,13],
+"std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId__phmap__Hash__MR______d306_8h.html#abb6b50dd156c1efa7dbd3a3e3a711c76":[9,2,2,0,0,0,0,2,421,0],
+"std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId__phmap__Hash__MR______d306_8h.html#abbd256c67c7c1d7ee393f1b7e33fc4f9":[9,2,2,0,0,0,0,2,421,3],
 "std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId__phmap__Hash__MR______d306_8h.html#ad357e62d1a212ea16cdb1c5b2975bd2f":[9,2,2,0,0,0,0,2,421,16],
 "std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId__phmap__Hash__MR______d306_8h.html#af9d98b89257e1a15748b9d7fb88d73b7":[9,2,2,0,0,0,0,2,421,8],
 "std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId__phmap__Hash__MR______d306_8h.html#afe8678b8c01fa66798cf1956a9d140b2":[9,2,2,0,0,0,0,2,421,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX173 =
 "std__vector__MR__AABBTreeWideNode__MR__Allocator__MR__AABBTreeWideNode_8h.html#a6f726214d2aa89038eb68838990e3233":[9,2,2,0,0,0,0,2,440,17],
 "std__vector__MR__AABBTreeWideNode__MR__Allocator__MR__AABBTreeWideNode_8h.html#a761887fa322ca3ac4243f537f2d88bde":[9,2,2,0,0,0,0,2,440,11],
 "std__vector__MR__AABBTreeWideNode__MR__Allocator__MR__AABBTreeWideNode_8h.html#a78d51416a9ff3552f50ff61aeaf062f4":[9,2,2,0,0,0,0,2,440,10],
-"std__vector__MR__AABBTreeWideNode__MR__Allocator__MR__AABBTreeWideNode_8h.html#a8df46da99637abca5eb1275802d9150e":[9,2,2,0,0,0,0,2,440,7],
-"std__vector__MR__AABBTreeWideNode__MR__Allocator__MR__AABBTreeWideNode_8h.html#a941aed63d630407fd8f43590be2c0446":[9,2,2,0,0,0,0,2,440,19],
-"std__vector__MR__AABBTreeWideNode__MR__Allocator__MR__AABBTreeWideNode_8h.html#ab639a372c54ca2580a50960572bac4aa":[9,2,2,0,0,0,0,2,440,1],
-"std__vector__MR__AABBTreeWideNode__MR__Allocator__MR__AABBTreeWideNode_8h.html#abe0c6f587f270587421d598ff1441d11":[9,2,2,0,0,0,0,2,440,13],
-"std__vector__MR__AABBTreeWideNode__MR__Allocator__MR__AABBTreeWideNode_8h.html#acfd27db50b0aeafba9d1023b32ca5ace":[9,2,2,0,0,0,0,2,440,9],
-"std__vector__MR__AABBTreeWideNode__MR__Allocator__MR__AABBTreeWideNode_8h.html#ad24274ca8e9b26e143976194ec2b5321":[9,2,2,0,0,0,0,2,440,15],
-"std__vector__MR__AABBTreeWideNode__MR__Allocator__MR__AABBTreeWideNode_8h.html#ae07b125132995e9375d213e84794c95e":[9,2,2,0,0,0,0,2,440,5]
+"std__vector__MR__AABBTreeWideNode__MR__Allocator__MR__AABBTreeWideNode_8h.html#a8df46da99637abca5eb1275802d9150e":[9,2,2,0,0,0,0,2,440,7]
 };

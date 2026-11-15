@@ -1,5 +1,9 @@
 var NAVTREEINDEX131 =
 {
+"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html#acdabe601ff43a4983df4cede6e48a753":[9,1,0,0,2,1567,5,2,3],
+"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html#acdabe601ff43a4983df4cede6e48a753":[9,1,1,0,1,1567,5,2,3],
+"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__Plane.html":[9,1,0,0,2,1567,5,3],
+"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__Plane.html":[9,1,1,0,1,1567,5,3],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__Plane.html#a46f212d1b2a5207a4b059903236a115a":[9,1,0,0,2,1567,5,3,1],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__Plane.html#a46f212d1b2a5207a4b059903236a115a":[9,1,1,0,1,1567,5,3,1],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__Plane.html#a536bdd38ce652e1bd06f6abd4151a161":[9,1,0,0,2,1567,5,3,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX131 =
 "classmrmeshpy_1_1FillHoleParams.html#ab9108ab64bf7e8dc86d1a26d0794f520":[9,1,0,0,2,1575,3],
 "classmrmeshpy_1_1FillHoleParams.html#ab9108ab64bf7e8dc86d1a26d0794f520":[9,1,1,0,1,1575,3],
 "classmrmeshpy_1_1FillHoleParams.html#adf9ecfa9e3066f3492c3e98608e5c965":[9,1,0,0,2,1575,2],
-"classmrmeshpy_1_1FillHoleParams.html#adf9ecfa9e3066f3492c3e98608e5c965":[9,1,1,0,1,1575,2],
-"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html":[9,1,0,0,2,1575,0],
-"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html":[9,1,1,0,1,1575,0],
-"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a5adf4c89cb12ae67b5b1fec047d02d12":[9,1,0,0,2,1575,0,1],
-"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a5adf4c89cb12ae67b5b1fec047d02d12":[9,1,1,0,1,1575,0,1]
+"classmrmeshpy_1_1FillHoleParams.html#adf9ecfa9e3066f3492c3e98608e5c965":[9,1,1,0,1,1575,2]
 };

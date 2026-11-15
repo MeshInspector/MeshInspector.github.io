@@ -1,5 +1,13 @@
 var NAVTREEINDEX133 =
 {
+"classmeshlib_1_1SubdivideSettings.html#af69ecc23627ad4677a63c4d8ce985d31":[9,6,1,0,0,1491,37],
+"classmeshlib_1_1SubdivideSettings.html#af7ed46fa32933d80269a17a743685372":[9,6,0,0,0,1491,15],
+"classmeshlib_1_1SubdivideSettings.html#af7ed46fa32933d80269a17a743685372":[9,6,1,0,0,1491,15],
+"classmeshlib_1_1SubdivideSettings.html#af9e8e687be06d53c1d4d42d3e99a7522":[9,6,0,0,0,1491,18],
+"classmeshlib_1_1SubdivideSettings.html#af9e8e687be06d53c1d4d42d3e99a7522":[9,6,1,0,0,1491,18],
+"classmeshlib_1_1SubdivideSettings.html#afa1e18bb631859f1900355883b72216c":[9,6,0,0,0,1491,7],
+"classmeshlib_1_1SubdivideSettings.html#afa1e18bb631859f1900355883b72216c":[9,6,1,0,0,1491,7],
+"classmeshlib_1_1SubdivideSettings.html#affdd3631e2b036305de1a6caa43a52fe":[9,6,0,0,0,1491,10],
 "classmeshlib_1_1SubdivideSettings.html#affdd3631e2b036305de1a6caa43a52fe":[9,6,1,0,0,1491,10],
 "classmeshlib_1_1SurfaceDistanceBuilder.html":[9,6,0,0,0,1492],
 "classmeshlib_1_1SurfaceDistanceBuilder.html":[9,6,1,0,0,1492],
@@ -241,13 +249,5 @@ var NAVTREEINDEX133 =
 "classmeshlib_1_1SymMatrix2i64.html#ace3e838135855417cb98545c0c0ad36a":[9,6,1,0,0,1498,0],
 "classmeshlib_1_1SymMatrix2i64.html#acfdab284de563e8475f68ca2ecb410a9":[9,6,0,0,0,1498,12],
 "classmeshlib_1_1SymMatrix2i64.html#acfdab284de563e8475f68ca2ecb410a9":[9,6,1,0,0,1498,12],
-"classmeshlib_1_1SymMatrix2i64.html#ae9d4ee7cb80586c2edb2af0828b91127":[9,6,0,0,0,1498,5],
-"classmeshlib_1_1SymMatrix2i64.html#ae9d4ee7cb80586c2edb2af0828b91127":[9,6,1,0,0,1498,5],
-"classmeshlib_1_1SymMatrix2i64.html#af991a8db4bb9d874ac34fed8e32d8a25":[9,6,0,0,0,1498,15],
-"classmeshlib_1_1SymMatrix2i64.html#af991a8db4bb9d874ac34fed8e32d8a25":[9,6,1,0,0,1498,15],
-"classmeshlib_1_1SymMatrix3__unsigned__char.html":[9,6,0,0,0,1499],
-"classmeshlib_1_1SymMatrix3__unsigned__char.html":[9,6,1,0,0,1499],
-"classmeshlib_1_1SymMatrix3__unsigned__char.html#a164f317a0d7fcf0c2cead27ababf06e1":[9,6,0,0,0,1499,14],
-"classmeshlib_1_1SymMatrix3__unsigned__char.html#a164f317a0d7fcf0c2cead27ababf06e1":[9,6,1,0,0,1499,14],
-"classmeshlib_1_1SymMatrix3__unsigned__char.html#a1f658710f78408634eb07a69fc52fbb3":[9,6,0,0,0,1499,19]
+"classmeshlib_1_1SymMatrix2i64.html#ae9d4ee7cb80586c2edb2af0828b91127":[9,6,0,0,0,1498,5]
 };

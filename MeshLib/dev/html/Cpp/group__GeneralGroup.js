@@ -2393,6 +2393,7 @@ var group__GeneralGroup =
     [ "MR::LoadedMeshData", "structMR_1_1LoadedMeshData.html", [
       [ "duplicatedVertexCount", "group__GeneralGroup.html#gac62307437d592311d84a2d4689889d6e", null ],
       [ "skippedFaceCount", "group__GeneralGroup.html#ga2b34624650bce15d4802d67235a4fa09", null ],
+      [ "solidColor", "group__GeneralGroup.html#gac0f48444d754db7b6bc6197b8381a9fa", null ],
       [ "texture", "group__GeneralGroup.html#gaafc54b70b462f2c09a711edeca045dd9", null ],
       [ "xf", "group__GeneralGroup.html#gaa4caf12f413c9b3a6228a29e2c7addeb", null ]
     ] ],
@@ -2879,6 +2880,7 @@ var group__GeneralGroup =
       [ "faceColors", "group__GeneralGroup.html#ga7dbfff2eb5c5cb545df805be2ba90d72", null ],
       [ "normals", "group__GeneralGroup.html#gaeb2eb22ddf375f8cac7a36b6ec756c94", null ],
       [ "skippedFaceCount", "group__GeneralGroup.html#ga6fdcf8fdd76f70d7403ea886ed944019", null ],
+      [ "solidColor", "group__GeneralGroup.html#gade9552fa6c401694ea33e3ff5f4ac1bb", null ],
       [ "telemetrySignal", "group__GeneralGroup.html#gadf9210a3db4a2bdb4ccfb7e14f428246", null ],
       [ "texture", "group__GeneralGroup.html#gaea5bd8460c5fbf0c62840a46e0eb2011", null ],
       [ "uvCoords", "group__GeneralGroup.html#ga230e016c84aafc3886deeb6fd2b33455", null ],
@@ -19026,6 +19028,8 @@ var group__GeneralGroup =
     [ "MR::StitchHolesNicelySettings::smoothSettings", "group__GeneralGroup.html#gad2e68e1f1a6709a037e454b3673663d2", null ],
     [ "MR::BaseFitParams::snapView", "group__GeneralGroup.html#ga1ba0fadee2fc4bad0655f2b0f15211ab", null ],
     [ "MR::CurvePoint::snorm", "group__GeneralGroup.html#gaa9ddd8b08fe744f50edac9292ae66920", null ],
+    [ "MR::LoadedMeshData::solidColor", "group__GeneralGroup.html#gac0f48444d754db7b6bc6197b8381a9fa", null ],
+    [ "MR::MeshLoadSettings::solidColor", "group__GeneralGroup.html#gade9552fa6c401694ea33e3ff5f4ac1bb", null ],
     [ "MR::SaveSettings::solidColor", "group__GeneralGroup.html#ga127d98f930cd561a8633297e3422f649", null ],
     [ "MR::CutMeshParameters::sortData", "group__GeneralGroup.html#ga3aaef62dde9c7e4727195071089e409f", null ],
     [ "MR::ObjectLabel::sourcePoint_", "group__GeneralGroup.html#ga46b25ed3275d1a41588168f24ae385d9", null ],

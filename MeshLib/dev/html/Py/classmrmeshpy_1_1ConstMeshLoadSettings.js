@@ -8,6 +8,7 @@ var classmrmeshpy_1_1ConstMeshLoadSettings =
     [ "faceColors", "classmrmeshpy_1_1ConstMeshLoadSettings.html#ab5b8dc55bbd295b7cc9c7eba017d1224", null ],
     [ "normals", "classmrmeshpy_1_1ConstMeshLoadSettings.html#adad4e5f1634551c44935201c33068c48", null ],
     [ "skippedFaceCount", "classmrmeshpy_1_1ConstMeshLoadSettings.html#a0dc36d31fd57ce4dfb41935f4969531f", null ],
+    [ "solidColor", "classmrmeshpy_1_1ConstMeshLoadSettings.html#aee2d99965c573711fcd0e8303a340cb2", null ],
     [ "telemetrySignal", "classmrmeshpy_1_1ConstMeshLoadSettings.html#ad1c4fb7ef9000b1cf7e7b5a46c8e85e6", null ],
     [ "texture", "classmrmeshpy_1_1ConstMeshLoadSettings.html#a2129ec253022b3e819eaeb4625709815", null ],
     [ "uvCoords", "classmrmeshpy_1_1ConstMeshLoadSettings.html#a64725da1a71ec0670f6ac9f346b5b839", null ],

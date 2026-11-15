@@ -1,5 +1,17 @@
 var NAVTREEINDEX182 =
 {
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__ConeSegment__MR__Sphere3f.html#a3b4a9dc7defa45609f0f87e2f8f93b7e":[9,5,0,0,0,3,1,1,1],
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__ConeSegment__MR__Sphere3f.html#a3b4a9dc7defa45609f0f87e2f8f93b7e":[9,5,1,0,0,1,1,1,1],
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__ConeSegment__MR__Sphere3f.html#a41a9eecd7b0f8ddc1c131dcf199b6922":[9,5,0,0,0,3,1,1,0],
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__ConeSegment__MR__Sphere3f.html#a41a9eecd7b0f8ddc1c131dcf199b6922":[9,5,1,0,0,1,1,1,0],
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html":[9,5,0,0,0,3,1,2],
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html":[9,5,1,0,0,1,1,2],
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#a726318b3c12cae36bb387e518fbd2785":[9,5,0,0,0,3,1,2,0],
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#a726318b3c12cae36bb387e518fbd2785":[9,5,1,0,0,1,1,2,0],
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#a87aba46d02ceb105a47839a11f3c0772":[9,5,0,0,0,3,1,2,1],
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#a87aba46d02ceb105a47839a11f3c0772":[9,5,1,0,0,1,1,2,1],
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__Plane.html":[9,5,0,0,0,3,1,3],
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__Plane.html":[9,5,1,0,0,1,1,3],
 "structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__Plane.html#ae0545bef86099f7ce597fb31bb015ab2":[9,5,0,0,0,3,1,3,1],
 "structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__Plane.html#ae0545bef86099f7ce597fb31bb015ab2":[9,5,1,0,0,1,1,3,1],
 "structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__Plane.html#ae4f8faa5775ee2f9c57ac2ad6ca54ea8":[9,5,0,0,0,3,1,3,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX182 =
 "structmeshlib_1_1mesh__builder_1_1MeshPiece.html#ac36fd84e38ac8d965d143f8ce51ceb97":[9,5,0,0,0,15,2,5],
 "structmeshlib_1_1mesh__builder_1_1MeshPiece.html#ac36fd84e38ac8d965d143f8ce51ceb97":[9,5,1,0,0,4,2,5],
 "structmeshlib_1_1mesh__builder_1_1MeshPiece.html#ad96a8ac382b63d68f0a2f2336b45d26e":[9,5,0,0,0,15,2,8],
-"structmeshlib_1_1mesh__builder_1_1MeshPiece.html#ad96a8ac382b63d68f0a2f2336b45d26e":[9,5,1,0,0,4,2,8],
-"structmeshlib_1_1mesh__builder_1_1MeshPiece.html#ae4b30ac9780d3aedf63c4fef1b8a4cf6":[9,5,0,0,0,15,2,4],
-"structmeshlib_1_1mesh__builder_1_1MeshPiece.html#ae4b30ac9780d3aedf63c4fef1b8a4cf6":[9,5,1,0,0,4,2,4],
-"structmeshlib_1_1mesh__builder_1_1MeshPiece.html#affe32fb5163bc3f08183a7e56c2ede1d":[9,5,0,0,0,15,2,0],
-"structmeshlib_1_1mesh__builder_1_1MeshPiece.html#affe32fb5163bc3f08183a7e56c2ede1d":[9,5,1,0,0,4,2,0],
-"structmeshlib_1_1mesh__builder_1_1Triangle.html":[9,5,0,0,0,15,3],
-"structmeshlib_1_1mesh__builder_1_1Triangle.html":[9,5,1,0,0,4,3],
-"structmeshlib_1_1mesh__builder_1_1Triangle.html#a36593ee78e8fcc1ec2a35a7385d601f0":[9,5,0,0,0,15,3,3],
-"structmeshlib_1_1mesh__builder_1_1Triangle.html#a36593ee78e8fcc1ec2a35a7385d601f0":[9,5,1,0,0,4,3,3],
-"structmeshlib_1_1mesh__builder_1_1Triangle.html#a5651dde13206e5783176d89abc82adba":[9,5,0,0,0,15,3,2],
-"structmeshlib_1_1mesh__builder_1_1Triangle.html#a5651dde13206e5783176d89abc82adba":[9,5,1,0,0,4,3,2],
-"structmeshlib_1_1mesh__builder_1_1Triangle.html#a58bdd85169134bb1f895b0df84c96f46":[9,5,0,0,0,15,3,0],
-"structmeshlib_1_1mesh__builder_1_1Triangle.html#a58bdd85169134bb1f895b0df84c96f46":[9,5,1,0,0,4,3,0]
+"structmeshlib_1_1mesh__builder_1_1MeshPiece.html#ad96a8ac382b63d68f0a2f2336b45d26e":[9,5,1,0,0,4,2,8]
 };

@@ -1,5 +1,17 @@
 var NAVTREEINDEX211 =
 {
+"structmeshlib_1_1std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__M9229617dd7637cc8d367c47ce4081ba3.html#ae42227b3182a0da78ab26f8cc52ea8bc":[9,5,0,0,0,1281,4],
+"structmeshlib_1_1std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__M9229617dd7637cc8d367c47ce4081ba3.html#ae42227b3182a0da78ab26f8cc52ea8bc":[9,5,1,0,0,1268,4],
+"structmeshlib_1_1std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__M9229617dd7637cc8d367c47ce4081ba3.html#af3f3ea3b6999e3dffc3d60665b339351":[9,5,0,0,0,1281,0],
+"structmeshlib_1_1std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__M9229617dd7637cc8d367c47ce4081ba3.html#af3f3ea3b6999e3dffc3d60665b339351":[9,5,1,0,0,1268,0],
+"structmeshlib_1_1std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__M9229617dd7637cc8d367c47ce4081ba3.html#afcfdbc01e80b377aefd812f1ab67e935":[9,5,0,0,0,1281,2],
+"structmeshlib_1_1std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__M9229617dd7637cc8d367c47ce4081ba3.html#afcfdbc01e80b377aefd812f1ab67e935":[9,5,1,0,0,1268,2],
+"structmeshlib_1_1std__variant__float__MR__Vector3f.html":[9,5,0,0,0,1271],
+"structmeshlib_1_1std__variant__float__MR__Vector3f.html":[9,5,1,0,0,1258],
+"structmeshlib_1_1std__variant__float__MR__Vector3f.html#a3c5604351de32dfde43317eeac3ac5c4":[9,5,0,0,0,1271,3],
+"structmeshlib_1_1std__variant__float__MR__Vector3f.html#a3c5604351de32dfde43317eeac3ac5c4":[9,5,1,0,0,1258,3],
+"structmeshlib_1_1std__variant__float__MR__Vector3f.html#a71a27e7b097abacf641a7bad2ba7269b":[9,5,0,0,0,1271,2],
+"structmeshlib_1_1std__variant__float__MR__Vector3f.html#a71a27e7b097abacf641a7bad2ba7269b":[9,5,1,0,0,1258,2],
 "structmeshlib_1_1std__variant__float__MR__Vector3f.html#a7cf79ff39aa2bc2b770f5eeafe428637":[9,5,0,0,0,1271,7],
 "structmeshlib_1_1std__variant__float__MR__Vector3f.html#a7cf79ff39aa2bc2b770f5eeafe428637":[9,5,1,0,0,1258,7],
 "structmeshlib_1_1std__variant__float__MR__Vector3f.html#ac42346f5d6f27aa8b4f8831d51912ffd":[9,5,0,0,0,1271,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX211 =
 "structmeshlib_1_1std__vector__MR__AABBTreePoints__Point.html#a810b2f9a172fb805c70b70b1486cbb30":[9,5,0,0,0,1298,13],
 "structmeshlib_1_1std__vector__MR__AABBTreePoints__Point.html#a810b2f9a172fb805c70b70b1486cbb30":[9,5,1,0,0,1285,13],
 "structmeshlib_1_1std__vector__MR__AABBTreePoints__Point.html#aa8be0d3a2e71ff982e3be999d8324e41":[9,5,0,0,0,1298,0],
-"structmeshlib_1_1std__vector__MR__AABBTreePoints__Point.html#aa8be0d3a2e71ff982e3be999d8324e41":[9,5,1,0,0,1285,0],
-"structmeshlib_1_1std__vector__MR__AABBTreePoints__Point.html#ac2ad201e554e102582374e9fbc7b4ce2":[9,5,0,0,0,1298,4],
-"structmeshlib_1_1std__vector__MR__AABBTreePoints__Point.html#ac2ad201e554e102582374e9fbc7b4ce2":[9,5,1,0,0,1285,4],
-"structmeshlib_1_1std__vector__MR__AABBTreePoints__Point.html#ac52fe772f46c8e84ae593f3c51e59795":[9,5,0,0,0,1298,15],
-"structmeshlib_1_1std__vector__MR__AABBTreePoints__Point.html#ac52fe772f46c8e84ae593f3c51e59795":[9,5,1,0,0,1285,15],
-"structmeshlib_1_1std__vector__MR__AABBTreePoints__Point.html#ac70a559d1f2184502983a70102835fc4":[9,5,0,0,0,1298,12],
-"structmeshlib_1_1std__vector__MR__AABBTreePoints__Point.html#ac70a559d1f2184502983a70102835fc4":[9,5,1,0,0,1285,12],
-"structmeshlib_1_1std__vector__MR__AABBTreePoints__Point.html#aff7bd11bbd71ea02ff05346f0d2ca2a1":[9,5,0,0,0,1298,3],
-"structmeshlib_1_1std__vector__MR__AABBTreePoints__Point.html#aff7bd11bbd71ea02ff05346f0d2ca2a1":[9,5,1,0,0,1285,3],
-"structmeshlib_1_1std__vector__MR__AABBTreeWideLeafTri__MR__Allocator__MR__AABBTreeWideLeafTri.html":[9,5,0,0,0,1299],
-"structmeshlib_1_1std__vector__MR__AABBTreeWideLeafTri__MR__Allocator__MR__AABBTreeWideLeafTri.html":[9,5,1,0,0,1286],
-"structmeshlib_1_1std__vector__MR__AABBTreeWideLeafTri__MR__Allocator__MR__AABBTreeWideLeafTri.html#a059bd71bc05a88d586a476cd6617090c":[9,5,0,0,0,1299,6],
-"structmeshlib_1_1std__vector__MR__AABBTreeWideLeafTri__MR__Allocator__MR__AABBTreeWideLeafTri.html#a059bd71bc05a88d586a476cd6617090c":[9,5,1,0,0,1286,6]
+"structmeshlib_1_1std__vector__MR__AABBTreePoints__Point.html#aa8be0d3a2e71ff982e3be999d8324e41":[9,5,1,0,0,1285,0]
 };

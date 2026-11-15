@@ -7,6 +7,7 @@ var structMR_1_1MeshLoadSettings =
     [ "faceColors", "group__GeneralGroup.html#ga7dbfff2eb5c5cb545df805be2ba90d72", null ],
     [ "normals", "group__GeneralGroup.html#gaeb2eb22ddf375f8cac7a36b6ec756c94", null ],
     [ "skippedFaceCount", "group__GeneralGroup.html#ga6fdcf8fdd76f70d7403ea886ed944019", null ],
+    [ "solidColor", "group__GeneralGroup.html#gade9552fa6c401694ea33e3ff5f4ac1bb", null ],
     [ "telemetrySignal", "group__GeneralGroup.html#gadf9210a3db4a2bdb4ccfb7e14f428246", null ],
     [ "texture", "group__GeneralGroup.html#gaea5bd8460c5fbf0c62840a46e0eb2011", null ],
     [ "uvCoords", "group__GeneralGroup.html#ga230e016c84aafc3886deeb6fd2b33455", null ],
