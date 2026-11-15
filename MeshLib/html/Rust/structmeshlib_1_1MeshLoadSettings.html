@@ -171,6 +171,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4dea98b7d05e9bfaf889fe2c4cb77bee" id="r_a4dea98b7d05e9bfaf889fe2c4cb77bee"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dea98b7d05e9bfaf889fe2c4cb77bee">texture</a> () const -&gt; *const *mut meshlib::ffi::MR_MeshTexture</td></tr>
 <tr class="memitem:a66810a359af00ff222a3fc2ebd4d4b03" id="r_a66810a359af00ff222a3fc2ebd4d4b03"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66810a359af00ff222a3fc2ebd4d4b03">texture_mut</a> () -&gt; *mut *mut meshlib::ffi::MR_MeshTexture</td></tr>
 <tr class="memitem:a59d13475076b093a921dd767a5b5b2d8" id="r_a59d13475076b093a921dd767a5b5b2d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59d13475076b093a921dd767a5b5b2d8">set_texture</a> (value:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1MeshTexture.html">meshlib::MeshTexture</a> &gt;)</td></tr>
+<tr class="memitem:a45d3918dc05d220f133b6242182ed4a2" id="r_a45d3918dc05d220f133b6242182ed4a2"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45d3918dc05d220f133b6242182ed4a2">solid_color</a> () const -&gt; *const *mut meshlib::ffi::MR_std_optional_MR_Color</td></tr>
+<tr class="memitem:a5fe88ba04c121c6ecb93e25ea1640ca5" id="r_a5fe88ba04c121c6ecb93e25ea1640ca5"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fe88ba04c121c6ecb93e25ea1640ca5">solid_color_mut</a> () -&gt; *mut *mut meshlib::ffi::MR_std_optional_MR_Color</td></tr>
+<tr class="memitem:a65a8069f03d11bd8c57787fa081fd6df" id="r_a65a8069f03d11bd8c57787fa081fd6df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65a8069f03d11bd8c57787fa081fd6df">set_solid_color</a> (value:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1std__optional__MR__Color.html">meshlib::std_optional_MR_Color</a> &gt;)</td></tr>
 <tr class="memitem:a03bc6646a81b1942e9aeffcc5f09bebe" id="r_a03bc6646a81b1942e9aeffcc5f09bebe"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03bc6646a81b1942e9aeffcc5f09bebe">skipped_face_count</a> () const -&gt; *const *mut core::ffi::c_int</td></tr>
 <tr class="memitem:ae0a64ce0a4b88986671f9dfcddfb05fe" id="r_ae0a64ce0a4b88986671f9dfcddfb05fe"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0a64ce0a4b88986671f9dfcddfb05fe">skipped_face_count_mut</a> () -&gt; *mut *mut core::ffi::c_int</td></tr>
 <tr class="memitem:a7e5da15209a759f1bcc900f37b015451" id="r_a7e5da15209a759f1bcc900f37b015451"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e5da15209a759f1bcc900f37b015451">set_skipped_face_count</a> (value:Option&lt;&amp;mut core::ffi::c_int &gt;)</td></tr>
@@ -190,7 +193,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a3fe266b56b705d0b3e7beaac2a9028d7" id="r_a3fe266b56b705d0b3e7beaac2a9028d7"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fe266b56b705d0b3e7beaac2a9028d7">new</a> () -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1MeshLoadSettings.html">meshlib::MeshLoadSettings</a> &gt;</td></tr>
-<tr class="memitem:a0e0e8facf4eca47ab92946c6a68919a9" id="r_a0e0e8facf4eca47ab92946c6a68919a9"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e0e8facf4eca47ab92946c6a68919a9">construct_from</a> (edges:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1std__optional__MR__Edges.html">meshlib::std_optional_MR_Edges</a> &gt;, colors:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1VertColors.html">meshlib::VertColors</a> &gt;, faceColors:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1FaceColors.html">meshlib::FaceColors</a> &gt;, uvCoords:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1VertCoords2.html">meshlib::VertCoords2</a> &gt;, normals:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1VertCoords.html">meshlib::VertCoords</a> &gt;, texture:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1MeshTexture.html">meshlib::MeshTexture</a> &gt;, skippedFaceCount:Option&lt;&amp;mut core::ffi::c_int &gt;, duplicatedVertexCount:Option&lt;&amp;mut core::ffi::c_int &gt;, xf:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;, callback:&amp;<a class="el" href="structmeshlib_1_1std__function__bool__from__float.html">meshlib::std_function_bool_from_float</a>, telemetrySignal:bool) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1MeshLoadSettings.html">meshlib::MeshLoadSettings</a> &gt;</td></tr>
+<tr class="memitem:a7e7cf3982a10fdcfdc26c202c3214103" id="r_a7e7cf3982a10fdcfdc26c202c3214103"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e7cf3982a10fdcfdc26c202c3214103">construct_from</a> (edges:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1std__optional__MR__Edges.html">meshlib::std_optional_MR_Edges</a> &gt;, colors:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1VertColors.html">meshlib::VertColors</a> &gt;, faceColors:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1FaceColors.html">meshlib::FaceColors</a> &gt;, uvCoords:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1VertCoords2.html">meshlib::VertCoords2</a> &gt;, normals:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1VertCoords.html">meshlib::VertCoords</a> &gt;, texture:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1MeshTexture.html">meshlib::MeshTexture</a> &gt;, solidColor:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1std__optional__MR__Color.html">meshlib::std_optional_MR_Color</a> &gt;, skippedFaceCount:Option&lt;&amp;mut core::ffi::c_int &gt;, duplicatedVertexCount:Option&lt;&amp;mut core::ffi::c_int &gt;, xf:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;, callback:&amp;<a class="el" href="structmeshlib_1_1std__function__bool__from__float.html">meshlib::std_function_bool_from_float</a>, telemetrySignal:bool) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1MeshLoadSettings.html">meshlib::MeshLoadSettings</a> &gt;</td></tr>
 <tr class="memitem:af088498087da4d5d0de2bc9a9a51b7b3" id="r_af088498087da4d5d0de2bc9a9a51b7b3"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af088498087da4d5d0de2bc9a9a51b7b3">construct_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1MeshLoadSettings.html">meshlib::MeshLoadSettings</a>) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1MeshLoadSettings.html">meshlib::MeshLoadSettings</a> &gt;</td></tr>
 <tr class="inherit_header pub_static_methods_structmeshlib_1_1CppClass"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_structmeshlib_1_1CppClass')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="structmeshlib_1_1CppClass.html">meshlib::CppClass</a></td></tr>
 <tr class="memitem:a11dc1e7c254dc595480cb0454755385e inherit pub_static_methods_structmeshlib_1_1CppClass" id="r_a11dc1e7c254dc595480cb0454755385e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1CppClass.html#a11dc1e7c254dc595480cb0454755385e">destroy</a> (ptr:*mut Self)</td></tr>
@@ -296,8 +299,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0e0e8facf4eca47ab92946c6a68919a9" name="a0e0e8facf4eca47ab92946c6a68919a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e0e8facf4eca47ab92946c6a68919a9">&#9670;&#160;</a></span>construct_from()</h2>
+<a id="a7e7cf3982a10fdcfdc26c202c3214103" name="a7e7cf3982a10fdcfdc26c202c3214103"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e7cf3982a10fdcfdc26c202c3214103">&#9670;&#160;</a></span>construct_from()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -338,6 +341,11 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">solidColor:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1std__optional__MR__Color.html">meshlib::std_optional_MR_Color</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">skippedFaceCount:Option&lt;&amp;mut core::ffi::c_int &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
@@ -368,7 +376,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Constructs <span class="tt">MR::MeshLoadSettings</span> elementwise.</p>
-<p>Calls <span class="tt">MR_MeshLoadSettings_ConstructFrom()</span>. The reference to the parameter <span class="tt">edges</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">colors</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">faceColors</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">uvCoords</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">normals</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">texture</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">skippedFaceCount</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">duplicatedVertexCount</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">xf</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">callback</span> might be preserved in the constructed object. </p>
+<p>Calls <span class="tt">MR_MeshLoadSettings_ConstructFrom()</span>. The reference to the parameter <span class="tt">edges</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">colors</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">faceColors</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">uvCoords</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">normals</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">texture</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">solidColor</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">skippedFaceCount</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">duplicatedVertexCount</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">xf</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">callback</span> might be preserved in the constructed object. </p>
 
 </div>
 </div>
@@ -711,6 +719,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a65a8069f03d11bd8c57787fa081fd6df" name="a65a8069f03d11bd8c57787fa081fd6df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65a8069f03d11bd8c57787fa081fd6df">&#9670;&#160;</a></span>set_solid_color()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void meshlib::MeshLoadSettings::set_solid_color </td>
+          <td>(</td>
+          <td class="paramtype">value:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1std__optional__MR__Color.html">meshlib::std_optional_MR_Color</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>&lt; optional load artifact: the color of whole object, if the format has it Modifies a member variable of class <span class="tt">MR::MeshLoadSettings</span> named <span class="tt">solidColor</span>.</p>
+<p>Calls <span class="tt">MR_MeshLoadSettings_Set_solidColor()</span>. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">solidColor</span>. </p>
+
+</div>
+</div>
 <a id="a50fa6be4ca3205d584b4680f1677a75d" name="a50fa6be4ca3205d584b4680f1677a75d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a50fa6be4ca3205d584b4680f1677a75d">&#9670;&#160;</a></span>set_telemetry_signal()</h2>
 
@@ -822,6 +849,44 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>&lt; optional output: counter of skipped faces during mesh creation Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshLoadSettings</span> named <span class="tt">skippedFaceCount</span>.</p>
 <p>Calls <span class="tt">MR_MeshLoadSettings_GetMutable_skippedFaceCount()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a45d3918dc05d220f133b6242182ed4a2" name="a45d3918dc05d220f133b6242182ed4a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45d3918dc05d220f133b6242182ed4a2">&#9670;&#160;</a></span>solid_color()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::MeshLoadSettings::solid_color </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  *const *mut meshlib::ffi::MR_std_optional_MR_Color</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>&lt; optional load artifact: the color of whole object, if the format has it Returns a pointer to a member variable of class <span class="tt">MR::MeshLoadSettings</span> named <span class="tt">solidColor</span>.</p>
+<p>Calls <span class="tt">MR_MeshLoadSettings_Get_solidColor()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a5fe88ba04c121c6ecb93e25ea1640ca5" name="a5fe88ba04c121c6ecb93e25ea1640ca5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fe88ba04c121c6ecb93e25ea1640ca5">&#9670;&#160;</a></span>solid_color_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::MeshLoadSettings::solid_color_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut *mut meshlib::ffi::MR_std_optional_MR_Color</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>&lt; optional load artifact: the color of whole object, if the format has it Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshLoadSettings</span> named <span class="tt">solidColor</span>.</p>
+<p>Calls <span class="tt">MR_MeshLoadSettings_GetMutable_solidColor()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

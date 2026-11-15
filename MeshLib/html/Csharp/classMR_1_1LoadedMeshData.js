@@ -13,6 +13,7 @@ var classMR_1_1LoadedMeshData =
     [ "selectedEdges", "classMR_1_1LoadedMeshData.html#a833d5615d664a76954339cad537d6584", null ],
     [ "selectedFaces", "classMR_1_1LoadedMeshData.html#ae47075947227a6f2d26b3e5bf7936eee", null ],
     [ "skippedFaceCount", "classMR_1_1LoadedMeshData.html#abee6a705d1c532c1090c251d3f92ed85", null ],
+    [ "solidColor", "classMR_1_1LoadedMeshData.html#a0927dddb77b99929b0ca0009fcd7bdec", null ],
     [ "texture", "classMR_1_1LoadedMeshData.html#acdc5bc631743b158a971d0f4a4eeb3e7", null ],
     [ "texturePerFace", "classMR_1_1LoadedMeshData.html#ad5696949f587f67d8f2dc63836704177", null ],
     [ "uvCoordinates", "classMR_1_1LoadedMeshData.html#aec69476abfaf9913c960b4d66bf39ea1", null ],

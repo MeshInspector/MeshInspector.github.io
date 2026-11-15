@@ -1,5 +1,7 @@
 var NAVTREEINDEX26 =
 {
+"classmeshlib_1_1ChangeMeshTopologyAction.html#ab49ec39724eff95118f96ff9f1f275a7":[9,6,1,0,0,175,5],
+"classmeshlib_1_1ChangeMeshUVCoordsAction.html":[9,6,0,0,0,176],
 "classmeshlib_1_1ChangeMeshUVCoordsAction.html":[9,6,1,0,0,176],
 "classmeshlib_1_1ChangeMeshUVCoordsAction.html#a198d78853f013ae3f18cb109a251e656":[9,6,0,0,0,176,7],
 "classmeshlib_1_1ChangeMeshUVCoordsAction.html#a198d78853f013ae3f18cb109a251e656":[9,6,1,0,0,176,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX26 =
 "classmeshlib_1_1ChangePolylineAction.html#a0c8e3f04fc3b7145d1c3ecd67676382f":[9,6,1,0,0,190,5],
 "classmeshlib_1_1ChangePolylineAction.html#a14cbddaf7e979dee526e8068dabb576d":[9,6,0,0,0,190,1],
 "classmeshlib_1_1ChangePolylineAction.html#a14cbddaf7e979dee526e8068dabb576d":[9,6,1,0,0,190,1],
-"classmeshlib_1_1ChangePolylineAction.html#a26b2d5e627210d2798270994196c285e":[9,6,0,0,0,190,0],
-"classmeshlib_1_1ChangePolylineAction.html#a26b2d5e627210d2798270994196c285e":[9,6,1,0,0,190,0],
-"classmeshlib_1_1ChangePolylineAction.html#a4c2b2222196f8940fc8b41f04a6b64dc":[9,6,0,0,0,190,4]
+"classmeshlib_1_1ChangePolylineAction.html#a26b2d5e627210d2798270994196c285e":[9,6,0,0,0,190,0]
 };

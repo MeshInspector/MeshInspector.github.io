@@ -1,5 +1,17 @@
 var NAVTREEINDEX88 =
 {
+"structmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Line.html#a5110f68ca92db46d2070c4feaa3ba99b":[9,5,1,0,0,721,0],
+"structmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Plane.html":[9,5,0,0,0,735],
+"structmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Plane.html":[9,5,1,0,0,722],
+"structmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Plane.html#acf2f257fefbc98719812bbf1f3728ce2":[9,5,0,0,0,735,0],
+"structmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Plane.html#acf2f257fefbc98719812bbf1f3728ce2":[9,5,1,0,0,722,0],
+"structmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Point.html":[9,5,0,0,0,736],
+"structmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Point.html":[9,5,1,0,0,723],
+"structmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Point.html#a55f09f06691db56139b9e1c57fed49e9":[9,5,0,0,0,736,0],
+"structmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Point.html#a55f09f06691db56139b9e1c57fed49e9":[9,5,1,0,0,723,0],
+"structmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Sphere.html":[9,5,0,0,0,737],
+"structmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Sphere.html":[9,5,1,0,0,724],
+"structmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Sphere.html#a96f8dfe7ed4fbcb5cfba6f051bddba1e":[9,5,0,0,0,737,0],
 "structmeshlib_1_1ObjKindTraits__MR__FeaturesObjectKind__Sphere.html#a96f8dfe7ed4fbcb5cfba6f051bddba1e":[9,5,1,0,0,724,0],
 "structmeshlib_1_1ObjMap.html":[9,5,0,0,0,738],
 "structmeshlib_1_1ObjMap.html":[9,5,1,0,0,725],
@@ -237,17 +249,5 @@ var NAVTREEINDEX88 =
 "structmeshlib_1_1ObjectChildrenHolder.html#a06a11caf3b4a6b9471e15e2ed63d52a5":[9,5,1,0,0,692,1],
 "structmeshlib_1_1ObjectChildrenHolder.html#a3936c34eac810b94d8084315b09bad90":[9,5,0,0,0,705,0],
 "structmeshlib_1_1ObjectChildrenHolder.html#a3936c34eac810b94d8084315b09bad90":[9,5,1,0,0,692,0],
-"structmeshlib_1_1ObjectChildrenHolder.html#acb7afd76a45e0177267bdf0458ef68aa":[9,5,0,0,0,705,2],
-"structmeshlib_1_1ObjectChildrenHolder.html#acb7afd76a45e0177267bdf0458ef68aa":[9,5,1,0,0,692,2],
-"structmeshlib_1_1ObjectComparableWithReference.html":[9,5,0,0,0,706],
-"structmeshlib_1_1ObjectComparableWithReference.html":[9,5,1,0,0,693],
-"structmeshlib_1_1ObjectComparableWithReference.html#a001969d87df80cf78e5afbd63157bbe9":[9,5,0,0,0,706,5],
-"structmeshlib_1_1ObjectComparableWithReference.html#a001969d87df80cf78e5afbd63157bbe9":[9,5,1,0,0,693,5],
-"structmeshlib_1_1ObjectComparableWithReference.html#a09fa403bf5168d010ae0ac2ef8d2c86d":[9,5,0,0,0,706,7],
-"structmeshlib_1_1ObjectComparableWithReference.html#a09fa403bf5168d010ae0ac2ef8d2c86d":[9,5,1,0,0,693,7],
-"structmeshlib_1_1ObjectComparableWithReference.html#a2a91e467cd563d7ed59b815aaba2fb2c":[9,5,0,0,0,706,9],
-"structmeshlib_1_1ObjectComparableWithReference.html#a2a91e467cd563d7ed59b815aaba2fb2c":[9,5,1,0,0,693,9],
-"structmeshlib_1_1ObjectComparableWithReference.html#a744469da82029377baf28abfed708081":[9,5,0,0,0,706,0],
-"structmeshlib_1_1ObjectComparableWithReference.html#a744469da82029377baf28abfed708081":[9,5,1,0,0,693,0],
-"structmeshlib_1_1ObjectComparableWithReference.html#a905f090fce462a69564ccd34dd660123":[9,5,0,0,0,706,1]
+"structmeshlib_1_1ObjectChildrenHolder.html#acb7afd76a45e0177267bdf0458ef68aa":[9,5,0,0,0,705,2]
 };

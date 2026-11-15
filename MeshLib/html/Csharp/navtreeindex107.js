@@ -1,5 +1,10 @@
 var NAVTREEINDEX107 =
 {
+"classMR_1_1Features.html#a0080c8c5bd50fbbc8f2865e9863a2fba":[9,3,0,0,0,1263,22],
+"classMR_1_1Features.html#a031e403055c1ed84cd1cc88f501c75b3":[9,3,0,0,0,1263,18],
+"classMR_1_1Features.html#a1098f41c952afd1d5d0663fbe434e3fc":[9,3,0,0,0,1263,21],
+"classMR_1_1Features.html#a179386bd1ff72d51a5e218035f9a1fd8":[9,3,0,0,0,1263,10],
+"classMR_1_1Features.html#a1c5f932dd15cda81055c653726a8f370":[9,3,0,0,0,1263,14],
 "classMR_1_1Features.html#a211bf0f45c7a84b3e46c4d04a7e6a1c5":[9,3,0,0,0,1263,7],
 "classMR_1_1Features.html#a249f3499e27b8268016045230e4f09b8":[9,3,0,0,0,1263,8],
 "classMR_1_1Features.html#a2fbfe92bf6603af591b19b72be9057dc":[9,3,0,0,0,1263,16],
@@ -244,10 +249,5 @@ var NAVTREEINDEX107 =
 "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html#add946893708c86625603900e790c748e":[9,3,0,0,0,1263,5,2,3],
 "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html#af586c11d5bf320436ef49a8388449429":[9,3,0,0,0,1263,5,2,0],
 "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html":[9,3,0,0,0,1263,5,3],
-"classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html#a04645095f42e9eacde2dc92be08e464a":[9,3,0,0,0,1263,5,3,2],
-"classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html#a1ef1f2e1e16858cd2905b8a4e04585a2":[9,3,0,0,0,1263,5,3,3],
-"classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html#ace35db2b29de5370752303c6432341c1":[9,3,0,0,0,1263,5,3,0],
-"classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html#afe23bb04d4248d1dd7d53569a13230aa":[9,3,0,0,0,1263,5,3,1],
-"classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html":[9,3,0,0,0,1263,5,4],
-"classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html#a08c3be46863eb04bad0470dbd457d60b":[9,3,0,0,0,1263,5,4,0]
+"classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html#a04645095f42e9eacde2dc92be08e464a":[9,3,0,0,0,1263,5,3,2]
 };

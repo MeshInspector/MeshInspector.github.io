@@ -140,16 +140,6 @@ $(function(){initNavTree('structMR_1_1Allocator.html','','structMR_1_1Allocator-
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="MRAllocator_8h_source.html">MRMesh/MRAllocator.h</a>&gt;</code></p>
-<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR::Allocator&lt; T &gt;:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="structMR_1_1Allocator.png" usemap="#MR_3A_3AAllocator_3C_20T_20_3E_map" alt=""/>
-  <map id="MR_3A_3AAllocator_3C_20T_20_3E_map" name="MR_3A_3AAllocator_3C_20T_20_3E_map">
-<area href="structMR_1_1AllocatorBase.html" title="not mi_stl_allocator: its construct/destroy members stop std containers from memmove-copying and skip..." alt="MR::AllocatorBase&lt; T &gt;" shape="rect" coords="0,0,147,24"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -171,7 +161,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
-struct MR::Allocator&lt; T &gt;</div><p>allocator of MeshLib containers that benefit from mimalloc: mimalloc explicitly, std::allocator in Emscripten builds, where malloc is mimalloc already (-sMALLOC=mimalloc), and with MRMESH_NO_MIMALLOC; a class rather than an alias, so that container types are spelled the same on all platforms (e.g. in the C bindings generated once); the bindings only see it as a template argument of containers </p>
+struct MR::Allocator&lt; T &gt;</div><p>allocator of MeshLib containers that benefit from mimalloc: mimalloc explicitly, std::allocator in Emscripten builds, where malloc is mimalloc already (-sMALLOC=mimalloc), and with MRMESH_NO_MIMALLOC; a class rather than an alias, so that container types are spelled the same on all platforms (e.g. in the C bindings generated once); the bindings only see it as a template argument of containers; not mi_stl_allocator: its construct/destroy members stop std containers from memmove-copying and skipping trivial destructors; not derived from std::allocator: containers would call its allocate_at_least instead of <a class="el" href="group__GeneralGroup.html#ga340f25c02f510dec0b75c517343a4315">Allocator::allocate</a> </p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>MRMesh/<a class="el" href="MRAllocator_8h_source.html">MRAllocator.h</a></li>
 </ul>

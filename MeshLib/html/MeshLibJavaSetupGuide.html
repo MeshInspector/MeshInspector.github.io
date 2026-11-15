@@ -170,15 +170,15 @@ Prerequisites</h2>
 Installation from Maven Central</h2>
 <p>The bindings are the artifact <span class="tt">com.meshinspector:meshlib</span>. On the first use they download the MeshLib libraries of the current platform (Windows, Linux or macOS; x86_64 or aarch64) from the <a href="https://github.com/MeshInspector/MeshLib/releases">GitHub release</a> of the same version, check them against the SHA-256 stored in the jar, and keep them in the user's cache directory (<span class="tt">LOCALAPPDATA%\meshlib</span>, <span class="tt">~/Library/Caches/meshlib</span> or <span class="tt">~/.cache/meshlib</span>), where later runs and the MeshLib Rust crate find them. Nothing else needs to be installed.</p>
 <p><b>Gradle</b> (<span class="tt">build.gradle.kts</span>): </p><div class="fragment"><div class="line">dependencies {</div>
-<div class="line">    implementation(&quot;com.meshinspector:meshlib:3.2.0.3&quot;)</div>
+<div class="line">    implementation(&quot;com.meshinspector:meshlib:3.2.0.29&quot;)</div>
 <div class="line">}</div>
 </div><!-- fragment --><p><b>Maven</b> (<span class="tt">pom.xml</span>, see also <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/java-examples/pom.xml">examples/java-examples/pom.xml</a>): </p><div class="fragment"><div class="line">&lt;<span class="keywordtype">dependency</span>&gt;</div>
 <div class="line">  &lt;<span class="keywordtype">groupId</span>&gt;<span class="keyword">com.meshinspector</span>&lt;/<span class="keywordtype">groupId</span>&gt;</div>
 <div class="line">  &lt;<span class="keywordtype">artifactId</span>&gt;<span class="keyword">meshlib</span>&lt;/<span class="keywordtype">artifactId</span>&gt;</div>
-<div class="line">  &lt;<span class="keywordtype">version</span>&gt;3.2.0.3&lt;/<span class="keywordtype">version</span>&gt;</div>
+<div class="line">  &lt;<span class="keywordtype">version</span>&gt;3.2.0.29&lt;/<span class="keywordtype">version</span>&gt;</div>
 <div class="line">&lt;/<span class="keywordtype">dependency</span>&gt;</div>
 </div><!-- fragment --><p>Run with <span class="tt">--enable-native-access=ALL-UNNAMED</span> (otherwise the first call into the library prints a warning).</p>
-<p>Without access to github.com, download <span class="tt">meshlib_v3.2.0.3_native_&lt;os&gt;-&lt;arch&gt;.zip</span> of your platform from the release page and point the environment variable <span class="tt">MESHLIB_NATIVE_URL</span> (or the system property <span class="tt">meshlib.native.url</span>) to the directory with it. <span class="tt">MESHLIB_CACHE_DIR</span> (or <span class="tt">meshlib.native.cache</span>) changes the cache directory.</p>
+<p>Without access to github.com, download <span class="tt">meshlib_v3.2.0.29_native_&lt;os&gt;-&lt;arch&gt;.zip</span> of your platform from the release page and point the environment variable <span class="tt">MESHLIB_NATIVE_URL</span> (or the system property <span class="tt">meshlib.native.url</span>) to the directory with it. <span class="tt">MESHLIB_CACHE_DIR</span> (or <span class="tt">meshlib.native.cache</span>) changes the cache directory.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md138"></a>
 Installation from the release archive</h2>
 <ol type="1">
@@ -224,7 +224,7 @@ Using the API</h2>
 </ul>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md140"></a>
 Try MeshLib with Java Examples</h2>
-<p>The <a class="el" href="Examples.html">code samples</a> have Java tabs for the <a class="el" href="ExampleMeshBoolean.html">boolean</a>, <a class="el" href="ExampleMeshDecimate.html">decimation</a> and <a class="el" href="ExampleMeshLoadSave.html">load and save</a> examples, with the sources in <span class="tt">examples/java-examples</span> of the repository. Run them with Maven from that directory: <span class="tt">mvn compile exec:exec -Dmeshlib.version=3.2.0.3 -Dexample=MeshBoolean</span>. Or compile them with <span class="tt">javac --release 22 -cp meshlib.jar -d classes examples/java-examples/*.java</span> and run them with <span class="tt">java --enable-native-access=ALL-UNNAMED -Djava.library.path=&lt;libraries&gt; -cp meshlib.jar:classes MeshBoolean</span>. </p>
+<p>The <a class="el" href="Examples.html">code samples</a> have Java tabs for the <a class="el" href="ExampleMeshBoolean.html">boolean</a>, <a class="el" href="ExampleMeshDecimate.html">decimation</a> and <a class="el" href="ExampleMeshLoadSave.html">load and save</a> examples, with the sources in <span class="tt">examples/java-examples</span> of the repository. Run them with Maven from that directory: <span class="tt">mvn compile exec:exec -Dmeshlib.version=3.2.0.29 -Dexample=MeshBoolean</span>. Or compile them with <span class="tt">javac --release 22 -cp meshlib.jar -d classes examples/java-examples/*.java</span> and run them with <span class="tt">java --enable-native-access=ALL-UNNAMED -Djava.library.path=&lt;libraries&gt; -cp meshlib.jar:classes MeshBoolean</span>. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

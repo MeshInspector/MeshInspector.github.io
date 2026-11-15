@@ -285,6 +285,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8f7cfd40975f9648e9785f72d75ff92d" id="r_ga8f7cfd40975f9648e9785f72d75ff92d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8f7cfd40975f9648e9785f72d75ff92d">MR::operator==</a> (const <a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a> &amp;a, const <a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a> &amp;b)</td></tr>
 <tr class="memitem:ga7b104a00c60718368c988029510bf8ba" id="r_ga7b104a00c60718368c988029510bf8ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gabe6f25bc80391d73c9e217bdcd4769d3">PreciseCollisionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7b104a00c60718368c988029510bf8ba">MR::findCollidingEdgeTrisPrecise</a> (const MeshPart &amp;a, const MeshPart &amp;b, <a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> conv, const AffineXf3f *rigidB2A=nullptr, bool anyIntersection=false)</td></tr>
 <tr class="memdesc:ga7b104a00c60718368c988029510bf8ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from one mesh and triangle from another mesh  <br /></td></tr>
+<tr class="memitem:ga8ac11eac790e51af989fca2c75960e1a" id="r_ga8ac11eac790e51af989fca2c75960e1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gabe6f25bc80391d73c9e217bdcd4769d3">PreciseCollisionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8ac11eac790e51af989fca2c75960e1a">MR::findCollidingEdgeTrisPrecise</a> (const MeshPart &amp;a, const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;aTree, const MeshPart &amp;b, const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;bTree, <a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> conv, const AffineXf3f *rigidB2A=nullptr, bool anyIntersection=false)</td></tr>
+<tr class="memdesc:ga8ac11eac790e51af989fca2c75960e1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same with the trees given by the caller instead of the cached trees of the meshes  <br /></td></tr>
 <tr class="memitem:ga91e422710464a72aa3c6bb6894527e72" id="r_ga91e422710464a72aa3c6bb6894527e72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga91e422710464a72aa3c6bb6894527e72">MR::updateCollidingEdgeTrisPrecise</a> (<a class="el" href="#gabe6f25bc80391d73c9e217bdcd4769d3">PreciseCollisionResult</a> &amp;res, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;a, VertId aFirstNewVert, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;b, VertId bFirstNewVert, <a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> conv, const AffineXf3f *rigidB2A=nullptr)</td></tr>
 <tr class="memdesc:ga91e422710464a72aa3c6bb6894527e72"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the result of findCollidingEdgeTrisPrecise( a, b, conv, rigidB2A ) after some faces or edges of the meshes were split (e.g. in subdivideLoneContours) with no other changes in the meshes: removes all intersections with the triangles around new vertices (the split triangles and their new parts) and with their edges, and finds them again, which is much faster than new search if few faces were split, but slower if many were split: so if more than 1/32 of all vertices are new, the function makes new search instead; the AABB trees of the meshes must be updated after the splits (e.g. by <a class="el" href="structMR_1_1Mesh.html#a09a97bb00b1eac52db441f32170cbcc6">Mesh::updateCachesAfterSplits</a>) or invalidated  <br /></td></tr>
 <tr class="memitem:gaa06a012aef3a0273d36e471fda3beb02" id="r_gaa06a012aef3a0273d36e471fda3beb02"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structMR_1_1EdgeTri.html">EdgeTri</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa06a012aef3a0273d36e471fda3beb02">MR::findSelfCollidingEdgeTrisPrecise</a> (const MeshPart &amp;mp, <a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> conv, bool anyIntersection=false, const AffineXf3f *rigidB2A=nullptr, int aVertSizes=0)</td></tr>
@@ -983,7 +985,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga2194d3a8c576623325dfcb218caed7e0" name="ga2194d3a8c576623325dfcb218caed7e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2194d3a8c576623325dfcb218caed7e0">&#9670;&#160;</a></span>findCollidingEdgeTrisPrecise() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2194d3a8c576623325dfcb218caed7e0">&#9670;&#160;</a></span>findCollidingEdgeTrisPrecise() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1028,7 +1030,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga8e605b47552994f921a55bf1c5eed7e4" name="ga8e605b47552994f921a55bf1c5eed7e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8e605b47552994f921a55bf1c5eed7e4">&#9670;&#160;</a></span>findCollidingEdgeTrisPrecise() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8e605b47552994f921a55bf1c5eed7e4">&#9670;&#160;</a></span>findCollidingEdgeTrisPrecise() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1072,8 +1074,64 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga8ac11eac790e51af989fca2c75960e1a" name="ga8ac11eac790e51af989fca2c75960e1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8ac11eac790e51af989fca2c75960e1a">&#9670;&#160;</a></span>findCollidingEdgeTrisPrecise() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gabe6f25bc80391d73c9e217bdcd4769d3">PreciseCollisionResult</a> MR::findCollidingEdgeTrisPrecise </td>
+          <td>(</td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>aTree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bTree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a></td>          <td class="paramname"><span class="paramname"><em>conv</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>anyIntersection</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshCollidePrecise_8h.html">MRMesh/MRMeshCollidePrecise.h</a>&gt;</code></p>
+
+<p>the same with the trees given by the caller instead of the cached trees of the meshes </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">aTree,bTree</td><td>each tree must contain at least all the faces of its mesh that can collide with the other mesh, e.g. it can be a temporary tree of only the faces near the other mesh, which is much faster to construct than the tree of the whole mesh; then give these faces as the region of the mesh part too, otherwise an edge is missed if its other triangle is not in the tree </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga7b104a00c60718368c988029510bf8ba" name="ga7b104a00c60718368c988029510bf8ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7b104a00c60718368c988029510bf8ba">&#9670;&#160;</a></span>findCollidingEdgeTrisPrecise() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7b104a00c60718368c988029510bf8ba">&#9670;&#160;</a></span>findCollidingEdgeTrisPrecise() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

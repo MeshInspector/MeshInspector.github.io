@@ -1,5 +1,17 @@
 var NAVTREEINDEX178 =
 {
+"structmeshlib_1_1expected__MR__UndirectedEdgeBitSet__std__string.html#af4bc4cdddbd75b550fb706d734d03704":[9,5,0,0,0,356,3],
+"structmeshlib_1_1expected__MR__UndirectedEdgeBitSet__std__string.html#af4bc4cdddbd75b550fb706d734d03704":[9,5,1,0,0,343,3],
+"structmeshlib_1_1expected__MR__UnionFind__MR__VertId__std__string.html":[9,5,0,0,0,357],
+"structmeshlib_1_1expected__MR__UnionFind__MR__VertId__std__string.html":[9,5,1,0,0,344],
+"structmeshlib_1_1expected__MR__UnionFind__MR__VertId__std__string.html#a0edc42705d4bf38d807241638a0c0f7c":[9,5,0,0,0,357,5],
+"structmeshlib_1_1expected__MR__UnionFind__MR__VertId__std__string.html#a0edc42705d4bf38d807241638a0c0f7c":[9,5,1,0,0,344,5],
+"structmeshlib_1_1expected__MR__UnionFind__MR__VertId__std__string.html#a160e9b12b06d3787c4df8bd735eea299":[9,5,0,0,0,357,1],
+"structmeshlib_1_1expected__MR__UnionFind__MR__VertId__std__string.html#a160e9b12b06d3787c4df8bd735eea299":[9,5,1,0,0,344,1],
+"structmeshlib_1_1expected__MR__UnionFind__MR__VertId__std__string.html#a288f2ae772458102ae710ae87ddd3efe":[9,5,0,0,0,357,0],
+"structmeshlib_1_1expected__MR__UnionFind__MR__VertId__std__string.html#a288f2ae772458102ae710ae87ddd3efe":[9,5,1,0,0,344,0],
+"structmeshlib_1_1expected__MR__UnionFind__MR__VertId__std__string.html#a56629d3e243c29b1c41368f571a77c86":[9,5,0,0,0,357,3],
+"structmeshlib_1_1expected__MR__UnionFind__MR__VertId__std__string.html#a56629d3e243c29b1c41368f571a77c86":[9,5,1,0,0,344,3],
 "structmeshlib_1_1expected__MR__UnionFind__MR__VertId__std__string.html#a5c3e830dd2216efabbb8cac2e012245b":[9,5,0,0,0,357,2],
 "structmeshlib_1_1expected__MR__UnionFind__MR__VertId__std__string.html#a5c3e830dd2216efabbb8cac2e012245b":[9,5,1,0,0,344,2],
 "structmeshlib_1_1expected__MR__UnionFind__MR__VertId__std__string.html#a612454142e317da4cc574e5c3b619fa3":[9,5,0,0,0,357,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX178 =
 "structmeshlib_1_1expected__MR__VoxelsLoad__RawParameters__std__string.html#a5ffdf05b7fc1b87327f78d3a27ece03e":[9,5,0,0,0,370,4],
 "structmeshlib_1_1expected__MR__VoxelsLoad__RawParameters__std__string.html#a5ffdf05b7fc1b87327f78d3a27ece03e":[9,5,1,0,0,357,4],
 "structmeshlib_1_1expected__MR__VoxelsLoad__RawParameters__std__string.html#a76e64ba4f5df4c42800f7b70d5054a39":[9,5,0,0,0,370,6],
-"structmeshlib_1_1expected__MR__VoxelsLoad__RawParameters__std__string.html#a76e64ba4f5df4c42800f7b70d5054a39":[9,5,1,0,0,357,6],
-"structmeshlib_1_1expected__MR__VoxelsLoad__RawParameters__std__string.html#ac555cc2f4d689e61287d34028ad769df":[9,5,0,0,0,370,0],
-"structmeshlib_1_1expected__MR__VoxelsLoad__RawParameters__std__string.html#ac555cc2f4d689e61287d34028ad769df":[9,5,1,0,0,357,0],
-"structmeshlib_1_1expected__MR__VoxelsLoad__RawParameters__std__string.html#adb45787584cf2a55874ff9c84d9f7bdb":[9,5,0,0,0,370,7],
-"structmeshlib_1_1expected__MR__VoxelsLoad__RawParameters__std__string.html#adb45787584cf2a55874ff9c84d9f7bdb":[9,5,1,0,0,357,7],
-"structmeshlib_1_1expected__bool__std__string.html":[9,5,0,0,0,321],
-"structmeshlib_1_1expected__bool__std__string.html":[9,5,1,0,0,308],
-"structmeshlib_1_1expected__bool__std__string.html#a23204110adeb28fd13ec14f28366384d":[9,5,0,0,0,321,3],
-"structmeshlib_1_1expected__bool__std__string.html#a23204110adeb28fd13ec14f28366384d":[9,5,1,0,0,308,3],
-"structmeshlib_1_1expected__bool__std__string.html#a2428fbd8b82645007f6eac1700f0e130":[9,5,0,0,0,321,5],
-"structmeshlib_1_1expected__bool__std__string.html#a2428fbd8b82645007f6eac1700f0e130":[9,5,1,0,0,308,5],
-"structmeshlib_1_1expected__bool__std__string.html#a370c942d4f181b9938a8b79e8cd68c18":[9,5,0,0,0,321,4],
-"structmeshlib_1_1expected__bool__std__string.html#a370c942d4f181b9938a8b79e8cd68c18":[9,5,1,0,0,308,4]
+"structmeshlib_1_1expected__MR__VoxelsLoad__RawParameters__std__string.html#a76e64ba4f5df4c42800f7b70d5054a39":[9,5,1,0,0,357,6]
 };

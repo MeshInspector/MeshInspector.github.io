@@ -1,5 +1,12 @@
 var NAVTREEINDEX142 =
 {
+"classMR_1_1VacantElements.html#af2b1e2506f5ab82c8f4589333aff2561":[9,3,0,0,0,1812,4],
+"classMR_1_1VacantElements.html#af7f6f16e4df67b6e9f237eab04f7e1e0":[9,3,0,0,0,1812,5],
+"classMR_1_1VarEdgeTri.html":[9,3,0,0,0,1813],
+"classMR_1_1VarEdgeTri.html#a1f28e0d3c4c306611e585de5f4eb85a1":[9,3,0,0,0,1813,7],
+"classMR_1_1VarEdgeTri.html#a4b070376c2ab8c71bb9ddf6000c9707f":[9,3,0,0,0,1813,5],
+"classMR_1_1VarEdgeTri.html#a64b96b9c400abce05a4b1311d6695f44":[9,3,0,0,0,1813,1],
+"classMR_1_1VarEdgeTri.html#a937042cd5f21708e75c60cce7d2a8efe":[9,3,0,0,0,1813,0],
 "classMR_1_1VarEdgeTri.html#addc01e47759d41b0227cc3c12a1ba9e2":[9,3,0,0,0,1813,3],
 "classMR_1_1VarEdgeTri.html#aee326b52da70a7045fb861e7ae7d81e7":[9,3,0,0,0,1813,4],
 "classMR_1_1VarEdgeTri.html#aee8cd58806e446725a10c44b9ab9a261":[9,3,0,0,0,1813,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX142 =
 "classMR_1_1Vector__Int__MRRegionId.html#ad4f170fc56e79e39e4f50cd96e7c5282":[9,3,0,0,0,1838,10],
 "classMR_1_1Vector__Int__MRRegionId.html#ad784a42d4372357260b56eab51b8564e":[9,3,0,0,0,1838,4],
 "classMR_1_1Vector__Int__MRRegionId.html#ae53255600abdd42036896964a0a15bfd":[9,3,0,0,0,1838,16],
-"classMR_1_1Vector__Int__MRRegionId.html#af41bec12e465c099b1186de4c0172e0f":[9,3,0,0,0,1838,24],
-"classMR_1_1Vector__Int__MRRegionId.html#af42438311265e4f915450926b4dd6f58":[9,3,0,0,0,1838,1],
-"classMR_1_1Vector__Int__MRRegionId.html#aff4794624a1ea1eb1f41496dca0b850e":[9,3,0,0,0,1838,13],
-"classMR_1_1Vector__Int__MRUndirectedEdgeId.html":[9,3,0,0,0,1839],
-"classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a0056f2789f09f7b33afbb3008b1d5015":[9,3,0,0,0,1839,16],
-"classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a0065ce837f67f943bebc10564eaf4333":[9,3,0,0,0,1839,9],
-"classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a161d9f4e98ba82c723f3da14d5e7e2e6":[9,3,0,0,0,1839,18],
-"classMR_1_1Vector__Int__MRUndirectedEdgeId.html#a1993cf3e707ccf24631e7da418ba598c":[9,3,0,0,0,1839,1]
+"classMR_1_1Vector__Int__MRRegionId.html#af41bec12e465c099b1186de4c0172e0f":[9,3,0,0,0,1838,24]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX46 =
 {
+"classmeshlib_1_1EdgeWeights.html#a863885486569f1cf94ca602832c46892":[9,6,1,0,0,318,1],
+"classmeshlib_1_1EdgeWeights.html#acac90e82a26ea2aadb813539684ee152":[9,6,0,0,0,318,2],
 "classmeshlib_1_1EdgeWeights.html#acac90e82a26ea2aadb813539684ee152":[9,6,1,0,0,318,2],
 "classmeshlib_1_1EdgeWeights.html#aee4dc10a5a487b2a438147c447bc1bd5":[9,6,0,0,0,318,3],
 "classmeshlib_1_1EdgeWeights.html#aee4dc10a5a487b2a438147c447bc1bd5":[9,6,1,0,0,318,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX46 =
 "classmeshlib_1_1ExtremeEdgeType.html#ab11df1fbd77b31649fad7ead0f4d0393":[9,6,1,0,0,402,2],
 "classmeshlib_1_1ExtremeEdgeType.html#adf7450fba291b8891c3376b971990966":[9,6,0,0,0,402,3],
 "classmeshlib_1_1ExtremeEdgeType.html#adf7450fba291b8891c3376b971990966":[9,6,1,0,0,402,3],
-"classmeshlib_1_1Face2RegionMap.html":[9,6,0,0,0,403],
-"classmeshlib_1_1Face2RegionMap.html":[9,6,1,0,0,403],
-"classmeshlib_1_1Face2RegionMap.html#a0b0a802291858791d9a28e3cc5c90726":[9,6,0,0,0,403,1]
+"classmeshlib_1_1Face2RegionMap.html":[9,6,0,0,0,403]
 };

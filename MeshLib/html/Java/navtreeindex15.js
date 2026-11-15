@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#a96d0747cd08c351f4481fb4d86799012":[9,6,1,0,0,86,0],
+"classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#ab9c11ef94f7c90b46018fd843d8eb8cd":[9,6,0,0,0,86,1],
 "classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#ab9c11ef94f7c90b46018fd843d8eb8cd":[9,6,1,0,0,86,1],
 "classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#ad4af6e4a301f5856976e70536a09822e":[9,6,0,0,0,86,11],
 "classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#ad4af6e4a301f5856976e70536a09822e":[9,6,1,0,0,86,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "classmeshlib_1_1BitSet.html#a6a599655fc0e482c3cd872550a0ac40f":[9,6,1,0,0,96,43],
 "classmeshlib_1_1BitSet.html#a6d91e41bb1ed2d9bacb4f04e0b6cec9e":[9,6,0,0,0,96,53],
 "classmeshlib_1_1BitSet.html#a6d91e41bb1ed2d9bacb4f04e0b6cec9e":[9,6,1,0,0,96,53],
-"classmeshlib_1_1BitSet.html#a7666cf39c096b36df484599012c88f9d":[9,6,0,0,0,96,7],
-"classmeshlib_1_1BitSet.html#a7666cf39c096b36df484599012c88f9d":[9,6,1,0,0,96,7],
-"classmeshlib_1_1BitSet.html#a79cc8c004508c7feade3f9476c5a514f":[9,6,0,0,0,96,50]
+"classmeshlib_1_1BitSet.html#a7666cf39c096b36df484599012c88f9d":[9,6,0,0,0,96,7]
 };

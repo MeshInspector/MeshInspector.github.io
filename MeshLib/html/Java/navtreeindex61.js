@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"classmeshlib_1_1InSphereSearchSettings.html#a3c2d8542e8f2f655b408e5e484927780":[9,6,1,0,0,507,3],
+"classmeshlib_1_1InSphereSearchSettings.html#a60f7390cdcc30230b74cb5e49fc88e0e":[9,6,0,0,0,507,6],
 "classmeshlib_1_1InSphereSearchSettings.html#a60f7390cdcc30230b74cb5e49fc88e0e":[9,6,1,0,0,507,6],
 "classmeshlib_1_1InSphereSearchSettings.html#a6677a5e7f2112c984d5e4d02b9bb2dd4":[9,6,0,0,0,507,11],
 "classmeshlib_1_1InSphereSearchSettings.html#a6677a5e7f2112c984d5e4d02b9bb2dd4":[9,6,1,0,0,507,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "classmeshlib_1_1IntersectionPrecomputes2__float.html#ad5d80b38cfb6ced58c947dd190f896a7":[9,6,1,0,0,515,8],
 "classmeshlib_1_1IntersectionPrecomputes2__float.html#af15b15b7956cf8fb35915d5d24b614db":[9,6,0,0,0,515,3],
 "classmeshlib_1_1IntersectionPrecomputes2__float.html#af15b15b7956cf8fb35915d5d24b614db":[9,6,1,0,0,515,3],
-"classmeshlib_1_1IntersectionPrecomputes2__float.html#af85e5f63e41c0074d42f0b2a751bdb22":[9,6,0,0,0,515,16],
-"classmeshlib_1_1IntersectionPrecomputes2__float.html#af85e5f63e41c0074d42f0b2a751bdb22":[9,6,1,0,0,515,16],
-"classmeshlib_1_1IntersectionPrecomputes__double.html":[9,6,0,0,0,516]
+"classmeshlib_1_1IntersectionPrecomputes2__float.html#af85e5f63e41c0074d42f0b2a751bdb22":[9,6,0,0,0,515,16]
 };

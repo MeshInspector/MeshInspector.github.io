@@ -179,6 +179,7 @@ var NAVTREEINDEX0 =
 "MRBoxNesting_8h.html":[9,0,3,0,7,36],
 "MRBoxNesting_8h_source.html":[9,0,3,0,7,36],
 "MRBox_8h.html":[9,0,3,0,7,35],
+"MRBox_8h.html#aeef1e90b444e7ca21d75d817fc47e02d":[9,0,3,0,7,35,0],
 "MRBox_8h_source.html":[9,0,3,0,7,35],
 "MRBuffer_8h.html":[9,0,3,0,7,37],
 "MRBuffer_8h_source.html":[9,0,3,0,7,37],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRCloudPartMapping_8h_source.html":[9,0,3,0,7,62],
 "MRColorMapAggregator_8h.html":[9,0,3,0,7,65],
 "MRColorMapAggregator_8h_source.html":[9,0,3,0,7,65],
-"MRColorTheme_8h.html":[9,0,3,0,11,12],
-"MRColorTheme_8h_source.html":[9,0,3,0,11,12]
+"MRColorTheme_8h.html":[9,0,3,0,11,12]
 };

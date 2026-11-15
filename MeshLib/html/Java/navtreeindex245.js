@@ -1,5 +1,15 @@
 var NAVTREEINDEX245 =
 {
+"classmeshlib_1_1std__vector__MR__MeshBuilder__VertDuplication.html#aa739182ecbfb3419fe8774fef9851e5a":[9,6,1,0,0,1367,0],
+"classmeshlib_1_1std__vector__MR__MeshBuilder__VertDuplication.html#ab01b4d057bbdd81699323e62ad8016f0":[9,6,0,0,0,1367,4],
+"classmeshlib_1_1std__vector__MR__MeshBuilder__VertDuplication.html#ab01b4d057bbdd81699323e62ad8016f0":[9,6,1,0,0,1367,4],
+"classmeshlib_1_1std__vector__MR__MeshBuilder__VertDuplication.html#ab784d4ac47bdce419ff7be6abc3522cb":[9,6,0,0,0,1367,16],
+"classmeshlib_1_1std__vector__MR__MeshBuilder__VertDuplication.html#ab784d4ac47bdce419ff7be6abc3522cb":[9,6,1,0,0,1367,16],
+"classmeshlib_1_1std__vector__MR__MeshBuilder__VertDuplication.html#ad846e7d5869633d155ce28090507fbd3":[9,6,0,0,0,1367,12],
+"classmeshlib_1_1std__vector__MR__MeshBuilder__VertDuplication.html#ad846e7d5869633d155ce28090507fbd3":[9,6,1,0,0,1367,12],
+"classmeshlib_1_1std__vector__MR__MeshBuilder__VertDuplication.html#adc427c0ffa1c161f702adbf8a9801171":[9,6,0,0,0,1367,3],
+"classmeshlib_1_1std__vector__MR__MeshBuilder__VertDuplication.html#adc427c0ffa1c161f702adbf8a9801171":[9,6,1,0,0,1367,3],
+"classmeshlib_1_1std__vector__MR__MeshBuilder__VertDuplication.html#af376856c916ad99c41e6e46c3006ffc0":[9,6,0,0,0,1367,11],
 "classmeshlib_1_1std__vector__MR__MeshBuilder__VertDuplication.html#af376856c916ad99c41e6e46c3006ffc0":[9,6,1,0,0,1367,11],
 "classmeshlib_1_1std__vector__MR__MeshBuilder__VertDuplication.html#af536976d09a852c58d1d1530f30f33ff":[9,6,0,0,0,1367,10],
 "classmeshlib_1_1std__vector__MR__MeshBuilder__VertDuplication.html#af536976d09a852c58d1d1530f30f33ff":[9,6,1,0,0,1367,10],
@@ -239,15 +249,5 @@ var NAVTREEINDEX245 =
 "classmeshlib_1_1std__vector__MR__MeshSave__NamedXfMesh.html#ab82677c4976f0c3ca55bead083ee7532":[9,6,1,0,0,1373,17],
 "classmeshlib_1_1std__vector__MR__MeshSave__NamedXfMesh.html#abe0d849867bd85911c200a72af9413e5":[9,6,0,0,0,1373,18],
 "classmeshlib_1_1std__vector__MR__MeshSave__NamedXfMesh.html#abe0d849867bd85911c200a72af9413e5":[9,6,1,0,0,1373,18],
-"classmeshlib_1_1std__vector__MR__MeshSave__NamedXfMesh.html#acfb52a15d1971d536e02d7e0abfb495a":[9,6,0,0,0,1373,14],
-"classmeshlib_1_1std__vector__MR__MeshSave__NamedXfMesh.html#acfb52a15d1971d536e02d7e0abfb495a":[9,6,1,0,0,1373,14],
-"classmeshlib_1_1std__vector__MR__MeshSave__NamedXfMesh.html#ad15a5ef22260ef7d396c3efe86a2970e":[9,6,0,0,0,1373,16],
-"classmeshlib_1_1std__vector__MR__MeshSave__NamedXfMesh.html#ad15a5ef22260ef7d396c3efe86a2970e":[9,6,1,0,0,1373,16],
-"classmeshlib_1_1std__vector__MR__MeshSave__NamedXfMesh.html#ae1afa5ba61fb0a4acbe9b3638295af9c":[9,6,0,0,0,1373,11],
-"classmeshlib_1_1std__vector__MR__MeshSave__NamedXfMesh.html#ae1afa5ba61fb0a4acbe9b3638295af9c":[9,6,1,0,0,1373,11],
-"classmeshlib_1_1std__vector__MR__MeshSave__NamedXfMesh.html#ae68ecfa26d64d88da46dafbd09c22ec2":[9,6,0,0,0,1373,15],
-"classmeshlib_1_1std__vector__MR__MeshSave__NamedXfMesh.html#ae68ecfa26d64d88da46dafbd09c22ec2":[9,6,1,0,0,1373,15],
-"classmeshlib_1_1std__vector__MR__MeshSave__NamedXfMesh.html#af95fd285ed7ce2ee82e267896060b39b":[9,6,0,0,0,1373,0],
-"classmeshlib_1_1std__vector__MR__MeshSave__NamedXfMesh.html#af95fd285ed7ce2ee82e267896060b39b":[9,6,1,0,0,1373,0],
-"classmeshlib_1_1std__vector__MR__MeshTexture__MR__Allocator__MR__MeshTexture.html":[9,6,0,0,0,1374]
+"classmeshlib_1_1std__vector__MR__MeshSave__NamedXfMesh.html#acfb52a15d1971d536e02d7e0abfb495a":[9,6,0,0,0,1373,14]
 };

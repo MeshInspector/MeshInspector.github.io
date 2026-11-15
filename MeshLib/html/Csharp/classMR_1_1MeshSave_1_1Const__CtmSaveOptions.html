@@ -232,7 +232,7 @@ Properties</h2></td></tr>
 <tr class="memitem:a5feba8d6aa7245e3d60832685059b20c" id="r_a5feba8d6aa7245e3d60832685059b20c"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Optional_MRLengthUnit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5feba8d6aa7245e3d60832685059b20c">lengthUnit</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a5feba8d6aa7245e3d60832685059b20c"><td class="mdescLeft">&#160;</td><td class="mdescRight">units of input coordinates and transformation, to be serialized if the format supports it  <br /></td></tr>
 <tr class="memitem:a81aa74631bc9399c6ae7b4684b027781" id="r_a81aa74631bc9399c6ae7b4684b027781"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Optional_MRColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81aa74631bc9399c6ae7b4684b027781">solidColor</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a81aa74631bc9399c6ae7b4684b027781"><td class="mdescLeft">&#160;</td><td class="mdescRight">the color of whole object  <br /></td></tr>
+<tr class="memdesc:a81aa74631bc9399c6ae7b4684b027781"><td class="mdescLeft">&#160;</td><td class="mdescRight">the color of whole object, saved only in the formats having object color: .3mf (if neither per-vertex nor per-triangle colors are given), .obj (Kd in .mtl file), binary .stl (COLOR= in the header)  <br /></td></tr>
 <tr class="memitem:a4089f9eed598931243f3aa88a59fbc67" id="r_a4089f9eed598931243f3aa88a59fbc67"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4089f9eed598931243f3aa88a59fbc67">telemetrySignal</a><code> [get]</code></td></tr>
 <tr class="memdesc:a4089f9eed598931243f3aa88a59fbc67"><td class="mdescLeft">&#160;</td><td class="mdescRight">permit telemetry signal about saving  <br /></td></tr>
 <tr class="memitem:afbd45ae2b222863c391a0ce234bc1a47" id="r_afbd45ae2b222863c391a0ce234bc1a47"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Function_Bool_From_Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbd45ae2b222863c391a0ce234bc1a47">progress</a><code> [get, protected set]</code></td></tr>
@@ -1018,7 +1018,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the color of whole object </p>
+<p>the color of whole object, saved only in the formats having object color: .3mf (if neither per-vertex nor per-triangle colors are given), .obj (Kd in .mtl file), binary .stl (COLOR= in the header) </p>
 
 </div>
 </div>

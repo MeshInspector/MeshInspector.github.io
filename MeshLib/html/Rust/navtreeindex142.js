@@ -1,5 +1,17 @@
 var NAVTREEINDEX142 =
 {
+"structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#a7036a07d60db5629e8fae6ed8f6fdb68":[9,5,0,0,0,1555,13],
+"structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#a7036a07d60db5629e8fae6ed8f6fdb68":[9,5,1,0,0,1542,13],
+"structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#a868261671a24915357ffcfb34c3a08e3":[9,5,0,0,0,1555,10],
+"structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#a868261671a24915357ffcfb34c3a08e3":[9,5,1,0,0,1542,10],
+"structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#a93939d231efd158fdcfb8cac9be9d57f":[9,5,0,0,0,1555,2],
+"structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#a93939d231efd158fdcfb8cac9be9d57f":[9,5,1,0,0,1542,2],
+"structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#a9df5adf93c5a07f0b3af4d4cfa997c13":[9,5,0,0,0,1555,12],
+"structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#a9df5adf93c5a07f0b3af4d4cfa997c13":[9,5,1,0,0,1542,12],
+"structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#abbfbe113f34f8fd72a85ce5fc3a33736":[9,5,0,0,0,1555,7],
+"structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#abbfbe113f34f8fd72a85ce5fc3a33736":[9,5,1,0,0,1542,7],
+"structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#ad68c09ea2053038172da9428876784b5":[9,5,0,0,0,1555,3],
+"structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#ad68c09ea2053038172da9428876784b5":[9,5,1,0,0,1542,3],
 "structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#ae3f444dfd5c5d59d0148eac7c1649088":[9,5,0,0,0,1555,1],
 "structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#ae3f444dfd5c5d59d0148eac7c1649088":[9,5,1,0,0,1542,1],
 "structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#aff8d0caf2573737e23e9d5f00f4eef19":[9,5,0,0,0,1555,15],
@@ -237,17 +249,5 @@ var NAVTREEINDEX142 =
 "structmeshlib_1_1VarEdgeTri.html#a07224f760bc9ca5626bc43c61603045f":[9,5,0,0,0,1567,10],
 "structmeshlib_1_1VarEdgeTri.html#a07224f760bc9ca5626bc43c61603045f":[9,5,1,0,0,1554,10],
 "structmeshlib_1_1VarEdgeTri.html#a157155a539ceaadf4d84899f47c06db2":[9,5,0,0,0,1567,7],
-"structmeshlib_1_1VarEdgeTri.html#a157155a539ceaadf4d84899f47c06db2":[9,5,1,0,0,1554,7],
-"structmeshlib_1_1VarEdgeTri.html#a3116c8103d74ab20b132bdc667a7c2a1":[9,5,0,0,0,1567,12],
-"structmeshlib_1_1VarEdgeTri.html#a3116c8103d74ab20b132bdc667a7c2a1":[9,5,1,0,0,1554,12],
-"structmeshlib_1_1VarEdgeTri.html#a3ac2a2bb7625a068c346024beb491ae0":[9,5,0,0,0,1567,9],
-"structmeshlib_1_1VarEdgeTri.html#a3ac2a2bb7625a068c346024beb491ae0":[9,5,1,0,0,1554,9],
-"structmeshlib_1_1VarEdgeTri.html#a3ba2a11cbf482f1543219592bb55b1ec":[9,5,0,0,0,1567,3],
-"structmeshlib_1_1VarEdgeTri.html#a3ba2a11cbf482f1543219592bb55b1ec":[9,5,1,0,0,1554,3],
-"structmeshlib_1_1VarEdgeTri.html#a403fe64e27630201fda609cc61dcaf01":[9,5,0,0,0,1567,11],
-"structmeshlib_1_1VarEdgeTri.html#a403fe64e27630201fda609cc61dcaf01":[9,5,1,0,0,1554,11],
-"structmeshlib_1_1VarEdgeTri.html#a4cee3d555f66e36fce41fc1729969386":[9,5,0,0,0,1567,4],
-"structmeshlib_1_1VarEdgeTri.html#a4cee3d555f66e36fce41fc1729969386":[9,5,1,0,0,1554,4],
-"structmeshlib_1_1VarEdgeTri.html#a6da9ab855c1570293e5c8388a8445df1":[9,5,0,0,0,1567,13],
-"structmeshlib_1_1VarEdgeTri.html#a6da9ab855c1570293e5c8388a8445df1":[9,5,1,0,0,1554,13]
+"structmeshlib_1_1VarEdgeTri.html#a157155a539ceaadf4d84899f47c06db2":[9,5,1,0,0,1554,7]
 };

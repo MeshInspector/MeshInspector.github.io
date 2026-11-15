@@ -1,5 +1,12 @@
 var NAVTREEINDEX187 =
 {
+"std__vector__MR__WeightedVertex_8h.html#a5192426d50267a8ab4e0232e5c88b844":[9,2,2,0,0,0,0,2,567,1],
+"std__vector__MR__WeightedVertex_8h.html#a6c22ec2c9b40a6e5b7b06b3f5b00633b":[9,2,2,0,0,0,0,2,567,19],
+"std__vector__MR__WeightedVertex_8h.html#a77dfb066261453f75c1d1963996c29de":[9,2,2,0,0,0,0,2,567,13],
+"std__vector__MR__WeightedVertex_8h.html#a7abf15f8752ba7060b9a9f7037875d6e":[9,2,2,0,0,0,0,2,567,17],
+"std__vector__MR__WeightedVertex_8h.html#a7ad703a3a9389074a0b9df7d8bb07a58":[9,2,2,0,0,0,0,2,567,15],
+"std__vector__MR__WeightedVertex_8h.html#a7e4b9b35e6c5231317050e733ebfd600":[9,2,2,0,0,0,0,2,567,11],
+"std__vector__MR__WeightedVertex_8h.html#a8684d32b42876045215fe3c6356cdf73":[9,2,2,0,0,0,0,2,567,21],
 "std__vector__MR__WeightedVertex_8h.html#a8beadd8b5519e42309cb1a6ab3a2e86a":[9,2,2,0,0,0,0,2,567,16],
 "std__vector__MR__WeightedVertex_8h.html#a958e0e43d05e1c029d0f4cbf63cc5593":[9,2,2,0,0,0,0,2,567,3],
 "std__vector__MR__WeightedVertex_8h.html#ab63037db119259dd8570ed76b29e4691":[9,2,2,0,0,0,0,2,567,6],
@@ -242,12 +249,5 @@ var NAVTREEINDEX187 =
 "std__vector__float__MR__Allocator__float_8h.html#a9887c0d8dc8fa1e154161f0f1362db59":[9,2,2,0,0,0,0,2,431,16],
 "std__vector__float__MR__Allocator__float_8h.html#aaba67bf6933e6a2e2c5b6cc438b99a87":[9,2,2,0,0,0,0,2,431,0],
 "std__vector__float__MR__Allocator__float_8h.html#ab190ed95c515743e227bf7b1d66904d6":[9,2,2,0,0,0,0,2,431,6],
-"std__vector__float__MR__Allocator__float_8h.html#ab448e9d447cfa6bed9f1fa64dc51dd22":[9,2,2,0,0,0,0,2,431,8],
-"std__vector__float__MR__Allocator__float_8h.html#abb423a67e75cee4204f10c2fbb3e916f":[9,2,2,0,0,0,0,2,431,12],
-"std__vector__float__MR__Allocator__float_8h.html#ac363c90f19193f6d0dfee9c56bc523cd":[9,2,2,0,0,0,0,2,431,15],
-"std__vector__float__MR__Allocator__float_8h.html#acae29f77b821e10ab48d48f5ea05f085":[9,2,2,0,0,0,0,2,431,1],
-"std__vector__float__MR__Allocator__float_8h.html#accd2f0132906f824fe28794038abf901":[9,2,2,0,0,0,0,2,431,11],
-"std__vector__float__MR__Allocator__float_8h.html#ad40dc94e1e766122a1797b66f9ee7eba":[9,2,2,0,0,0,0,2,431,22],
-"std__vector__float__MR__Allocator__float_8h.html#aeb6916f9e8db47517f510f2ebbedfb8e":[9,2,2,0,0,0,0,2,431,13],
-"std__vector__float__MR__Allocator__float_8h.html#aedfcd1fa1d3cc62f34068df3514e98ce":[9,2,2,0,0,0,0,2,431,23]
+"std__vector__float__MR__Allocator__float_8h.html#ab448e9d447cfa6bed9f1fa64dc51dd22":[9,2,2,0,0,0,0,2,431,8]
 };

@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
-<link rel="canonical" href="https://meshlib.io/documentation/Cpp/structMR_1_1AllocatorBase.html" />
+<link rel="canonical" href="https://meshlib.io/documentation/Cpp/MRPrefetch_8h_source.html" />
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -22,7 +22,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib C++ Docs: MR::AllocatorBase&lt; T &gt; Struct Template Reference</title>
+<title>MeshLib C++ Docs: MRMesh/MRPrefetch.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -104,7 +104,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('structMR_1_1AllocatorBase.html','',''); });
+$(function(){initNavTree('MRPrefetch_8h_source.html','',''); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -130,39 +130,30 @@ $(function(){initNavTree('structMR_1_1AllocatorBase.html','',''); });
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">MR::AllocatorBase&lt; T &gt; Struct Template Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
+  <div class="headertitle"><div class="title">MRPrefetch.h</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>not mi_stl_allocator: its construct/destroy members stop std containers from memmove-copying and skipping trivial destructors  
- <a href="#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="MRAllocator_8h_source.html">MRMesh/MRAllocator.h</a>&gt;</code></p>
-<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR::AllocatorBase&lt; T &gt;:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="structMR_1_1AllocatorBase.png" usemap="#MR_3A_3AAllocatorBase_3C_20T_20_3E_map" alt=""/>
-  <map id="MR_3A_3AAllocatorBase_3C_20T_20_3E_map" name="MR_3A_3AAllocatorBase_3C_20T_20_3E_map">
-<area href="structMR_1_1Allocator.html" alt="MR::Allocator&lt; U &gt;" shape="rect" coords="0,56,147,80"/>
-<area href="structMR_1_1Allocator.html" alt="MR::Allocator&lt; T &gt;" shape="rect" coords="157,56,304,80"/>
-  </map>
-</div></div>
-<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
-struct MR::AllocatorBase&lt; T &gt;</div><p>not mi_stl_allocator: its construct/destroy members stop std containers from memmove-copying and skipping trivial destructors </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>MRMesh/<a class="el" href="MRAllocator_8h_source.html">MRAllocator.h</a></li>
-</ul>
-</div><!-- contents -->
+<a href="MRPrefetch_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#if defined(_MSC_VER) &amp;&amp; !defined(__clang__)</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;intrin.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#if !defined(_MSC_VER) || defined(__clang__)</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="MRPrefetch_8h.html#a2bad9eef4dc0662c52d12dae166539e3">    9</a></span><span class="preprocessor">#define MR_PREFETCH( p ) __builtin_prefetch( p )</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#elif defined(_M_ARM64)</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define MR_PREFETCH( p ) __prefetch( p )</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#define MR_PREFETCH( p ) _mm_prefetch( (const char *)( p ), _MM_HINT_T0 )</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#endif</span></div>
+</div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
 <!-- HTML footer for doxygen 1.11.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="namespaceMR.html">MR</a></li><li class="navelem"><a href="structMR_1_1AllocatorBase.html">AllocatorBase</a></li>
+    <li class="navelem"><a href="dir_0cc3bc4bf87f190d6580fb811ae42f71.html">MRMesh</a></li><li class="navelem"><a href="MRPrefetch_8h.html">MRPrefetch.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>

@@ -310,8 +310,6 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for aligning 2d contours onto mesh surface.  <a href="structMR_1_1ContoursMeshAlignParams.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ABendContoursAlongCurveParams" id="r_MR_3A_3ABendContoursAlongCurveParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for aligning 2d contours along given curve.  <a href="structMR_1_1BendContoursAlongCurveParams.html#details">More...</a><br /></td></tr>
-<tr class="memitem:MR_3A_3AAllocatorBase_3C_20T_20_3E" id="r_MR_3A_3AAllocatorBase_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AllocatorBase.html">MR::AllocatorBase&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">not mi_stl_allocator: its construct/destroy members stop std containers from memmove-copying and skipping trivial destructors  <a href="structMR_1_1AllocatorBase.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AAllocator_3C_20T_20_3E" id="r_MR_3A_3AAllocator_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Allocator.html">MR::Allocator&lt; T &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3AAllocator_3C_20T_20_3E_3A_3Arebind_3C_20U_20_3E" id="r_MR_3A_3AAllocator_3C_20T_20_3E_3A_3Arebind_3C_20U_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Allocator_1_1rebind.html">MR::Allocator&lt; T &gt;::rebind&lt; U &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3AAlphaShapeData" id="r_MR_3A_3AAlphaShapeData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AlphaShapeData.html">MR::AlphaShapeData</a></td></tr>
@@ -6181,6 +6179,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:ga32ef296197eb1631ca3af65f4614024a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns left face of half-edge  <br /></td></tr>
 <tr class="memitem:gad584643e2e3233eea5dbb51eab4b1ba0" id="r_gad584643e2e3233eea5dbb51eab4b1ba0"><td class="memItemLeft" align="right" valign="top">FaceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad584643e2e3233eea5dbb51eab4b1ba0">MR::MeshTopology::right</a> (EdgeId he) const</td></tr>
 <tr class="memdesc:gad584643e2e3233eea5dbb51eab4b1ba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns right face of half-edge  <br /></td></tr>
+<tr class="memitem:gae30c618fdcd682e48d422e2efd68788a" id="r_gae30c618fdcd682e48d422e2efd68788a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae30c618fdcd682e48d422e2efd68788a">MR::MeshTopology::prefetchEdge</a> (UndirectedEdgeId ue) const</td></tr>
+<tr class="memdesc:gae30c618fdcd682e48d422e2efd68788a"><td class="mdescLeft">&#160;</td><td class="mdescRight">hints the processor to load the records of both half-edges of ue, e.g. some faces ahead in a loop reading them  <br /></td></tr>
 <tr class="memitem:gab206690266b8da660da20f5f9b077b3b" id="r_gab206690266b8da660da20f5f9b077b3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab206690266b8da660da20f5f9b077b3b">MR::MeshTopology::setOrg</a> (EdgeId a, VertId v)</td></tr>
 <tr class="memitem:ga9d14ed95daaeb28bc7cab7f2046a13eb" id="r_ga9d14ed95daaeb28bc7cab7f2046a13eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9d14ed95daaeb28bc7cab7f2046a13eb">MR::MeshTopology::setLeft</a> (EdgeId a, FaceId f)</td></tr>
 <tr class="memitem:gad2eebf70e911bb41a4d9b755f78c5f21" id="r_gad2eebf70e911bb41a4d9b755f78c5f21"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad2eebf70e911bb41a4d9b755f78c5f21">MR::MeshTopology::fromSameOriginRing</a> (EdgeId a, EdgeId b) const</td></tr>
@@ -6205,17 +6205,17 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gafd804d235b0585c9f0cc0ef81a5d70f4" id="r_gafd804d235b0585c9f0cc0ef81a5d70f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafd804d235b0585c9f0cc0ef81a5d70f4">MR::MeshTopology::getTriVerts</a> (FaceId f, VertId(&amp;v)[3]) const</td></tr>
 <tr class="memitem:gace0e3be1697a60c54a5f9fe91db3a30d" id="r_gace0e3be1697a60c54a5f9fe91db3a30d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gace0e3be1697a60c54a5f9fe91db3a30d">MR::MeshTopology::getTriVerts</a> (FaceId f, <a class="el" href="#ga9fa45e8860a645c31bc2c7f1a2abf56b">ThreeVertIds</a> &amp;v) const</td></tr>
 <tr class="memdesc:gace0e3be1697a60c54a5f9fe91db3a30d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This one is not in the bindings because of the reference-to-array parameter.  <br /></td></tr>
-<tr class="memitem:ga845c17dd094d1fdc37fb0a874ee98eaa" id="r_ga845c17dd094d1fdc37fb0a874ee98eaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga9fa45e8860a645c31bc2c7f1a2abf56b">ThreeVertIds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga845c17dd094d1fdc37fb0a874ee98eaa">MR::MeshTopology::getTriVerts</a> (FaceId f) const</td></tr>
+<tr class="memitem:ga1c806f8c4c142b8502770f3fc40f737a" id="r_ga1c806f8c4c142b8502770f3fc40f737a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> <a class="el" href="#ga9fa45e8860a645c31bc2c7f1a2abf56b">ThreeVertIds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1c806f8c4c142b8502770f3fc40f737a">MR::MeshTopology::getTriVerts</a> (FaceId f) const</td></tr>
 <tr class="memitem:gaf020bbe446f3965db015301732d7592d" id="r_gaf020bbe446f3965db015301732d7592d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf020bbe446f3965db015301732d7592d">MR::MeshTopology::isTriVert</a> (FaceId f, VertId v) const</td></tr>
 <tr class="memdesc:gaf020bbe446f3965db015301732d7592d"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if triangular face (f) has (v) as one of its vertices  <br /></td></tr>
 <tr class="memitem:ga3d85b486bb589bae547c1e7fc7c1f342" id="r_ga3d85b486bb589bae547c1e7fc7c1f342"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#ga9fa45e8860a645c31bc2c7f1a2abf56b">ThreeVertIds</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3d85b486bb589bae547c1e7fc7c1f342">MR::MeshTopology::getAllTriVerts</a> () const</td></tr>
 <tr class="memdesc:ga3d85b486bb589bae547c1e7fc7c1f342"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns three vertex ids for valid triangles, invalid triangles are skipped  <br /></td></tr>
 <tr class="memitem:ga38ff51ae302402397ba017f96799d992" id="r_ga38ff51ae302402397ba017f96799d992"><td class="memItemLeft" align="right" valign="top">Triangulation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga38ff51ae302402397ba017f96799d992">MR::MeshTopology::getTriangulation</a> () const</td></tr>
-<tr class="memitem:gad3ba6513949b7e2cc8d026657fd8ee0f" id="r_gad3ba6513949b7e2cc8d026657fd8ee0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad3ba6513949b7e2cc8d026657fd8ee0f">MR::MeshTopology::getLeftTriVerts</a> (EdgeId a, VertId &amp;v0, VertId &amp;v1, VertId &amp;v2) const</td></tr>
+<tr class="memitem:ga7caacef537687cec32a732e22062906f" id="r_ga7caacef537687cec32a732e22062906f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7caacef537687cec32a732e22062906f">MR::MeshTopology::getLeftTriVerts</a> (EdgeId a, VertId &amp;v0, VertId &amp;v1, VertId &amp;v2) const</td></tr>
 <tr class="memitem:ga1fccfe1622677fefb07960613f09f20d" id="r_ga1fccfe1622677fefb07960613f09f20d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1fccfe1622677fefb07960613f09f20d">MR::MeshTopology::getLeftTriVerts</a> (EdgeId a, VertId(&amp;v)[3]) const</td></tr>
 <tr class="memitem:ga9fd531135d0c893edd63545034f5b026" id="r_ga9fd531135d0c893edd63545034f5b026"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9fd531135d0c893edd63545034f5b026">MR::MeshTopology::getLeftTriVerts</a> (EdgeId a, <a class="el" href="#ga9fa45e8860a645c31bc2c7f1a2abf56b">ThreeVertIds</a> &amp;v) const</td></tr>
 <tr class="memdesc:ga9fd531135d0c893edd63545034f5b026"><td class="mdescLeft">&#160;</td><td class="mdescRight">This one is not in the bindings because of the reference-to-array parameter.  <br /></td></tr>
-<tr class="memitem:gae7ad9074cc4e1be50475db39d352f94f" id="r_gae7ad9074cc4e1be50475db39d352f94f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga9fa45e8860a645c31bc2c7f1a2abf56b">ThreeVertIds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae7ad9074cc4e1be50475db39d352f94f">MR::MeshTopology::getLeftTriVerts</a> (EdgeId a) const</td></tr>
+<tr class="memitem:gaba0a2f9baa076e7a98425b07d3430a25" id="r_gaba0a2f9baa076e7a98425b07d3430a25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> <a class="el" href="#ga9fa45e8860a645c31bc2c7f1a2abf56b">ThreeVertIds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaba0a2f9baa076e7a98425b07d3430a25">MR::MeshTopology::getLeftTriVerts</a> (EdgeId a) const</td></tr>
 <tr class="memitem:gaad405e625450208e48d0237b9b5f53e8" id="r_gaad405e625450208e48d0237b9b5f53e8"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:gaad405e625450208e48d0237b9b5f53e8 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaad405e625450208e48d0237b9b5f53e8">MR::MeshTopology::forEachVertex</a> (const <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;p, T &amp;&amp;callback) const</td></tr>
 <tr class="memitem:ga19c52a0f233ed29357bf32c280272444" id="r_ga19c52a0f233ed29357bf32c280272444"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga19c52a0f233ed29357bf32c280272444">MR::MeshTopology::getLeftTriEdges</a> (EdgeId e0, EdgeId &amp;e1, EdgeId &amp;e2) const</td></tr>
@@ -6507,6 +6507,9 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga2c281ad2e2056d9b040ad3e365f4575a" id="r_ga2c281ad2e2056d9b040ad3e365f4575a"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga2c281ad2e2056d9b040ad3e365f4575a template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2c281ad2e2056d9b040ad3e365f4575a">MR::detail::signStep</a> (T x)</td></tr>
 <tr class="memdesc:ga2c281ad2e2056d9b040ad3e365f4575a"><td class="mdescLeft">&#160;</td><td class="mdescRight">+1 for positive x and -1 (all bits set) for negative x, as an unsigned integer of the same size as x  <br /></td></tr>
+<tr class="memitem:ga521b0117e2c5a46ef5b04f24250822f7" id="r_ga521b0117e2c5a46ef5b04f24250822f7"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ga521b0117e2c5a46ef5b04f24250822f7 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga521b0117e2c5a46ef5b04f24250822f7">MR::detail::nonzeroBelowMax</a> (T x)</td></tr>
+<tr class="memdesc:ga521b0117e2c5a46ef5b04f24250822f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether 0 &lt; |x| &lt; max: then the closest values around x differ from it by one in the bits; one unsigned comparison of the bits  <br /></td></tr>
 <tr class="memitem:ga02e0e5655f6b76e97efd2e6b2eb7d1c8" id="r_ga02e0e5655f6b76e97efd2e6b2eb7d1c8"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga02e0e5655f6b76e97efd2e6b2eb7d1c8 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga02e0e5655f6b76e97efd2e6b2eb7d1c8">MR::nextUp</a> (T x)</td></tr>
 <tr class="memitem:ga7b7c57f39f9c32605832b5f865ca7c6e" id="r_ga7b7c57f39f9c32605832b5f865ca7c6e"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
@@ -12313,6 +12316,9 @@ Variables</h2></td></tr>
 <tr class="memdesc:gaa63ad4da9aad75fc779edeb4baab169c"><td class="mdescLeft">&#160;</td><td class="mdescRight">stretch all contours along curve to fit in curve.totalLength  <br /></td></tr>
 <tr class="memitem:ga2e554b5ceea4b8d6d43ce5c58e506315" id="r_ga2e554b5ceea4b8d6d43ce5c58e506315"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2e554b5ceea4b8d6d43ce5c58e506315">MR::BendContoursAlongCurveParams::extrusion</a> { 1.0f }</td></tr>
 <tr class="memdesc:ga2e554b5ceea4b8d6d43ce5c58e506315"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="#gacc92c2d7152d14f1cb59bb4c7187fed8">Contours</a> extrusion outside of curve level.  <br /></td></tr>
+<tr class="memitem:ga01b9e1d5f15abc87be07a3d0866188e4" id="r_ga01b9e1d5f15abc87be07a3d0866188e4"><td class="memTemplParams" colspan="2">template&lt;typename T, typename = void&gt; </td></tr>
+<tr class="memitem:ga01b9e1d5f15abc87be07a3d0866188e4 template"><td class="memItemLeft" align="right" valign="top">constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga01b9e1d5f15abc87be07a3d0866188e4">MR::cAllocatorAlignment</a> = alignof( T )</td></tr>
+<tr class="memdesc:ga01b9e1d5f15abc87be07a3d0866188e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">the alignment of the memory <a class="el" href="structMR_1_1Allocator.html">Allocator&lt;T&gt;</a> allocates: alignof( T ), or T::cAllocAlignment if T defines a greater one  <br /></td></tr>
 <tr class="memitem:ga7644918118a8c385b1e65af953cbb4f7" id="r_ga7644918118a8c385b1e65af953cbb4f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7644918118a8c385b1e65af953cbb4f7">MR::AlphaShapeData::toInt</a></td></tr>
 <tr class="memdesc:ga7644918118a8c385b1e65af953cbb4f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts cloud's points in integer coordinates  <br /></td></tr>
 <tr class="memitem:ga83480f95b9e1d4f1069a44ea03726ea8" id="r_ga83480f95b9e1d4f1069a44ea03726ea8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3i, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga83480f95b9e1d4f1069a44ea03726ea8">MR::AlphaShapeData::intPoints</a></td></tr>
@@ -12907,6 +12913,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga67164bb7398f34f276583f2711748077"><td class="mdescLeft">&#160;</td><td class="mdescRight">permit telemetry signal about loading  <br /></td></tr>
 <tr class="memitem:gaafc54b70b462f2c09a711edeca045dd9" id="r_gaafc54b70b462f2c09a711edeca045dd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaafc54b70b462f2c09a711edeca045dd9">MR::LoadedMeshData::texture</a></td></tr>
 <tr class="memitem:gaa4caf12f413c9b3a6228a29e2c7addeb" id="r_gaa4caf12f413c9b3a6228a29e2c7addeb"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa4caf12f413c9b3a6228a29e2c7addeb">MR::LoadedMeshData::xf</a></td></tr>
+<tr class="memitem:gac0f48444d754db7b6bc6197b8381a9fa" id="r_gac0f48444d754db7b6bc6197b8381a9fa"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac0f48444d754db7b6bc6197b8381a9fa">MR::LoadedMeshData::solidColor</a></td></tr>
 <tr class="memitem:ga2b34624650bce15d4802d67235a4fa09" id="r_ga2b34624650bce15d4802d67235a4fa09"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2b34624650bce15d4802d67235a4fa09">MR::LoadedMeshData::skippedFaceCount</a> = 0</td></tr>
 <tr class="memitem:gac62307437d592311d84a2d4689889d6e" id="r_gac62307437d592311d84a2d4689889d6e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac62307437d592311d84a2d4689889d6e">MR::LoadedMeshData::duplicatedVertexCount</a> = 0</td></tr>
 <tr class="memitem:gaa8b42b98f6528509e4c4fe107fe6545a" id="r_gaa8b42b98f6528509e4c4fe107fe6545a"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; ObjectT &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa8b42b98f6528509e4c4fe107fe6545a">MR::LoadedObjectT&lt; ObjectT &gt;::obj</a></td></tr>
@@ -13096,6 +13103,8 @@ Variables</h2></td></tr>
 <tr class="memdesc:gaeb2eb22ddf375f8cac7a36b6ec756c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional load artifact: per-vertex normals  <br /></td></tr>
 <tr class="memitem:gaea5bd8460c5fbf0c62840a46e0eb2011" id="r_gaea5bd8460c5fbf0c62840a46e0eb2011"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaea5bd8460c5fbf0c62840a46e0eb2011">MR::MeshLoadSettings::texture</a> = nullptr</td></tr>
 <tr class="memdesc:gaea5bd8460c5fbf0c62840a46e0eb2011"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional load artifact: texture image  <br /></td></tr>
+<tr class="memitem:gade9552fa6c401694ea33e3ff5f4ac1bb" id="r_gade9552fa6c401694ea33e3ff5f4ac1bb"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gade9552fa6c401694ea33e3ff5f4ac1bb">MR::MeshLoadSettings::solidColor</a> = nullptr</td></tr>
+<tr class="memdesc:gade9552fa6c401694ea33e3ff5f4ac1bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional load artifact: the color of whole object, if the format has it  <br /></td></tr>
 <tr class="memitem:ga6fdcf8fdd76f70d7403ea886ed944019" id="r_ga6fdcf8fdd76f70d7403ea886ed944019"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6fdcf8fdd76f70d7403ea886ed944019">MR::MeshLoadSettings::skippedFaceCount</a> = nullptr</td></tr>
 <tr class="memdesc:ga6fdcf8fdd76f70d7403ea886ed944019"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: counter of skipped faces during mesh creation  <br /></td></tr>
 <tr class="memitem:ga1fdd9db8e441e5ff1bcee3e9d4b664a7" id="r_ga1fdd9db8e441e5ff1bcee3e9d4b664a7"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1fdd9db8e441e5ff1bcee3e9d4b664a7">MR::MeshLoadSettings::duplicatedVertexCount</a> = nullptr</td></tr>
@@ -13151,6 +13160,8 @@ Variables</h2></td></tr>
 <tr class="memitem:ga9f5d70ec6986d7b4f5477c5e2298f5e5" id="r_ga9f5d70ec6986d7b4f5477c5e2298f5e5"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9f5d70ec6986d7b4f5477c5e2298f5e5">MR::VacantElements::edges</a></td></tr>
 <tr class="memitem:ga1f111c2398ef25fb853ecdd03cf5ff59" id="r_ga1f111c2398ef25fb853ecdd03cf5ff59"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1f111c2398ef25fb853ecdd03cf5ff59">MR::VacantElements::verts</a></td></tr>
 <tr class="memitem:ga62233d2b2599039751a03d75ceca0704" id="r_ga62233d2b2599039751a03d75ceca0704"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga62233d2b2599039751a03d75ceca0704">MR::VacantElements::faces</a></td></tr>
+<tr class="memitem:ga0cab56f9fdced8f8a9575d165d187526" id="r_ga0cab56f9fdced8f8a9575d165d187526"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0cab56f9fdced8f8a9575d165d187526">MR::MeshTopology::HalfEdgeRecord::cAllocAlignment</a> = 32</td></tr>
+<tr class="memdesc:ga0cab56f9fdced8f8a9575d165d187526"><td class="mdescLeft">&#160;</td><td class="mdescRight">edges_ start at a 32-byte boundary, so the records of e and e.sym() are in one cache line  <br /></td></tr>
 <tr class="memitem:gaa79948207ce03ac940110fc5b6eeadad" id="r_gaa79948207ce03ac940110fc5b6eeadad"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa79948207ce03ac940110fc5b6eeadad">MR::MeshTopology::HalfEdgeRecord::next</a></td></tr>
 <tr class="memdesc:gaa79948207ce03ac940110fc5b6eeadad"><td class="mdescLeft">&#160;</td><td class="mdescRight">next counter clock wise half-edge in the origin ring  <br /></td></tr>
 <tr class="memitem:ga72d923a9f0e2f0b8bf55d43bbd30bc2c" id="r_ga72d923a9f0e2f0b8bf55d43bbd30bc2c"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga72d923a9f0e2f0b8bf55d43bbd30bc2c">MR::MeshTopology::HalfEdgeRecord::prev</a></td></tr>
@@ -13730,7 +13741,6 @@ Variables</h2></td></tr>
 <tr class="memitem:ga1b152fd38e636ee6803cabaac71794cc" id="r_ga1b152fd38e636ee6803cabaac71794cc"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="#ga754d4eb0500be08374f5c611d33b5cab">LengthUnit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1b152fd38e636ee6803cabaac71794cc">MR::SaveSettings::lengthUnit</a></td></tr>
 <tr class="memdesc:ga1b152fd38e636ee6803cabaac71794cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">units of input coordinates and transformation, to be serialized if the format supports it  <br /></td></tr>
 <tr class="memitem:ga127d98f930cd561a8633297e3422f649" id="r_ga127d98f930cd561a8633297e3422f649"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga127d98f930cd561a8633297e3422f649">MR::SaveSettings::solidColor</a></td></tr>
-<tr class="memdesc:ga127d98f930cd561a8633297e3422f649"><td class="mdescLeft">&#160;</td><td class="mdescRight">the color of whole object  <br /></td></tr>
 <tr class="memitem:ga61f8231ef54870e7e1fb1335672a25a4" id="r_ga61f8231ef54870e7e1fb1335672a25a4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga61f8231ef54870e7e1fb1335672a25a4">MR::SaveSettings::telemetrySignal</a> = true</td></tr>
 <tr class="memdesc:ga61f8231ef54870e7e1fb1335672a25a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">permit telemetry signal about saving  <br /></td></tr>
 <tr class="memitem:ga0f2bb31407f2693aa939c47e0052b527" id="r_ga0f2bb31407f2693aa939c47e0052b527"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0f2bb31407f2693aa939c47e0052b527">MR::SaveSettings::progress</a></td></tr>
@@ -91853,8 +91863,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gae7ad9074cc4e1be50475db39d352f94f" name="gae7ad9074cc4e1be50475db39d352f94f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae7ad9074cc4e1be50475db39d352f94f">&#9670;&#160;</a></span>getLeftTriVerts() <span class="overload">[1/4]</span></h2>
+<a id="gaba0a2f9baa076e7a98425b07d3430a25" name="gaba0a2f9baa076e7a98425b07d3430a25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaba0a2f9baa076e7a98425b07d3430a25">&#9670;&#160;</a></span>getLeftTriVerts() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -91863,7 +91873,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ga9fa45e8860a645c31bc2c7f1a2abf56b">ThreeVertIds</a> MR::MeshTopology::getLeftTriVerts </td>
+          <td class="memname"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> <a class="el" href="#ga9fa45e8860a645c31bc2c7f1a2abf56b">ThreeVertIds</a> MR::MeshTopology::getLeftTriVerts </td>
           <td>(</td>
           <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
           <td> const</td>
@@ -91913,14 +91923,14 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gad3ba6513949b7e2cc8d026657fd8ee0f" name="gad3ba6513949b7e2cc8d026657fd8ee0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad3ba6513949b7e2cc8d026657fd8ee0f">&#9670;&#160;</a></span>getLeftTriVerts() <span class="overload">[3/4]</span></h2>
+<a id="ga7caacef537687cec32a732e22062906f" name="ga7caacef537687cec32a732e22062906f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7caacef537687cec32a732e22062906f">&#9670;&#160;</a></span>getLeftTriVerts() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::MeshTopology::getLeftTriVerts </td>
+          <td class="memname"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> void MR::MeshTopology::getLeftTriVerts </td>
           <td>(</td>
           <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -91944,6 +91954,7 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRMeshTopology_8h.html">MRMesh/MRMeshTopology.h</a>&gt;</code></p>
 <p>gets 3 vertices of the left face ( face-id may not exist, but the shape must be triangular) the vertices are returned in counter-clockwise order if look from mesh outside: v0 = org( a ), v1 = dest( a ) </p>
+<p>same as org( prev( b.sym() ) ), but reads only b's sibling record (typically in the same cache line as b's) instead of the record of the third edge, which is usually far away in memory</p>
 
 </div>
 </div>
@@ -101251,8 +101262,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga845c17dd094d1fdc37fb0a874ee98eaa" name="ga845c17dd094d1fdc37fb0a874ee98eaa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga845c17dd094d1fdc37fb0a874ee98eaa">&#9670;&#160;</a></span>getTriVerts() <span class="overload">[1/4]</span></h2>
+<a id="ga1c806f8c4c142b8502770f3fc40f737a" name="ga1c806f8c4c142b8502770f3fc40f737a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1c806f8c4c142b8502770f3fc40f737a">&#9670;&#160;</a></span>getTriVerts() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -101261,7 +101272,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ga9fa45e8860a645c31bc2c7f1a2abf56b">ThreeVertIds</a> MR::MeshTopology::getTriVerts </td>
+          <td class="memname"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> <a class="el" href="#ga9fa45e8860a645c31bc2c7f1a2abf56b">ThreeVertIds</a> MR::MeshTopology::getTriVerts </td>
           <td>(</td>
           <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span></td><td>)</td>
           <td> const</td>
@@ -132330,6 +132341,37 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga521b0117e2c5a46ef5b04f24250822f7" name="ga521b0117e2c5a46ef5b04f24250822f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga521b0117e2c5a46ef5b04f24250822f7">&#9670;&#160;</a></span>nonzeroBelowMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::detail::nonzeroBelowMax </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRNextUpDown_8h.html">MRMesh/MRNextUpDown.h</a>&gt;</code></p>
+
+<p>whether 0 &lt; |x| &lt; max: then the closest values around x differ from it by one in the bits; one unsigned comparison of the bits </p>
+
+</div>
+</div>
 <a id="gaed63587874e8799354d5470f38d67893" name="gaed63587874e8799354d5470f38d67893"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaed63587874e8799354d5470f38d67893">&#9670;&#160;</a></span>norm() <span class="overload">[1/4]</span></h2>
 
@@ -154455,6 +154497,35 @@ template&lt;typename ... Updates&gt; </div>
 
 </div>
 </div>
+<a id="gae30c618fdcd682e48d422e2efd68788a" name="gae30c618fdcd682e48d422e2efd68788a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae30c618fdcd682e48d422e2efd68788a">&#9670;&#160;</a></span>prefetchEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::MeshTopology::prefetchEdge </td>
+          <td>(</td>
+          <td class="paramtype">UndirectedEdgeId</td>          <td class="paramname"><span class="paramname"><em>ue</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshTopology_8h.html">MRMesh/MRMeshTopology.h</a>&gt;</code></p>
+
+<p>hints the processor to load the records of both half-edges of ue, e.g. some faces ahead in a loop reading them </p>
+
+</div>
+</div>
 <a id="gaa212a4873a067a393c79ed06f2d251e0" name="gaa212a4873a067a393c79ed06f2d251e0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaa212a4873a067a393c79ed06f2d251e0">&#9670;&#160;</a></span>preLaunch()</h2>
 
@@ -162306,6 +162377,8 @@ template&lt;typename I&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRUnionFind_8h.html">MRMesh/MRUnionFind.h</a>&gt;</code></p>
 
 <p>resets union-find to represent given number of elements, each element is the only one in its disjoint set </p>
+<p>otherwise I( i ) below would wrap</p>
+<p>resize without value-initialization: every element is written in the loop right below</p>
 
 </div>
 </div>
@@ -213081,6 +213154,58 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga0cab56f9fdced8f8a9575d165d187526" name="ga0cab56f9fdced8f8a9575d165d187526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0cab56f9fdced8f8a9575d165d187526">&#9670;&#160;</a></span>cAllocAlignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t MR::MeshTopology::HalfEdgeRecord::cAllocAlignment = 32</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>edges_ start at a 32-byte boundary, so the records of e and e.sym() are in one cache line </p>
+
+</div>
+</div>
+<a id="ga01b9e1d5f15abc87be07a3d0866188e4" name="ga01b9e1d5f15abc87be07a3d0866188e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga01b9e1d5f15abc87be07a3d0866188e4">&#9670;&#160;</a></span>cAllocatorAlignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename = void&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t MR::cAllocatorAlignment = alignof( T )</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRAllocator_8h.html">MRMesh/MRAllocator.h</a>&gt;</code></p>
+
+<p>the alignment of the memory <a class="el" href="structMR_1_1Allocator.html">Allocator&lt;T&gt;</a> allocates: alignof( T ), or T::cAllocAlignment if T defines a greater one </p>
+
+</div>
+</div>
 <a id="ga4e04005c46ed161365c6df1748e23b07" name="ga4e04005c46ed161365c6df1748e23b07"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga4e04005c46ed161365c6df1748e23b07">&#9670;&#160;</a></span>cameraDfar</h2>
 
@@ -240141,8 +240266,38 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gac0f48444d754db7b6bc6197b8381a9fa" name="gac0f48444d754db7b6bc6197b8381a9fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac0f48444d754db7b6bc6197b8381a9fa">&#9670;&#160;</a></span>solidColor <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;<a class="el" href="structMR_1_1Color.html">Color</a>&gt; MR::LoadedMeshData::solidColor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gade9552fa6c401694ea33e3ff5f4ac1bb" name="gade9552fa6c401694ea33e3ff5f4ac1bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gade9552fa6c401694ea33e3ff5f4ac1bb">&#9670;&#160;</a></span>solidColor <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;<a class="el" href="structMR_1_1Color.html">Color</a>&gt;* MR::MeshLoadSettings::solidColor = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>optional load artifact: the color of whole object, if the format has it </p>
+
+</div>
+</div>
 <a id="ga127d98f930cd561a8633297e3422f649" name="ga127d98f930cd561a8633297e3422f649"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga127d98f930cd561a8633297e3422f649">&#9670;&#160;</a></span>solidColor</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga127d98f930cd561a8633297e3422f649">&#9670;&#160;</a></span>solidColor <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240152,8 +240307,7 @@ template&lt;typename T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>the color of whole object </p>
+<p>the color of whole object, saved only in the formats having object color: .3mf (if neither per-vertex nor per-triangle colors are given), .obj (Kd in .mtl file), binary .stl (COLOR= in the header) </p>
 
 </div>
 </div>

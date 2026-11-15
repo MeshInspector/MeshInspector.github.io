@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1ChangePolylineTopologyAction.html":[9,3,0,0,0,201],
 "classMR_1_1ChangePolylineTopologyAction.html#a076864d17c825043e1db7aba87d5fd52":[9,3,0,0,0,201,4],
 "classMR_1_1ChangePolylineTopologyAction.html#a6173cc31ab44dbb58fe5d6c9e78c2bda":[9,3,0,0,0,201,5],
 "classMR_1_1ChangePolylineTopologyAction.html#a87862af7c1fc0b71622d59257ea8ef86":[9,3,0,0,0,201,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap.html#ad26e2af85c1edcc20b3ec97583403dc1":[9,3,0,0,0,220,1,1],
 "classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap.html#afe05db5337ddc209847ba936d315a5b5":[9,3,0,0,0,220,1,6],
 "classMR_1_1CombinedHistoryAction.html":[9,3,0,0,0,221],
-"classMR_1_1CombinedHistoryAction.html#a021de2ac1529160ed4f49e1d82e581ca":[9,3,0,0,0,221,2],
-"classMR_1_1CombinedHistoryAction.html#a0d3a6d4cefc8d1d0490713cf45ecfbd5":[9,3,0,0,0,221,8]
+"classMR_1_1CombinedHistoryAction.html#a021de2ac1529160ed4f49e1d82e581ca":[9,3,0,0,0,221,2]
 };

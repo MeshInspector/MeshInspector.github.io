@@ -470,6 +470,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a88872d4be7b467af91cb25470bc76be2" id="r_a88872d4be7b467af91cb25470bc76be2"><td class="memItemLeft" align="right" valign="top">Float32Array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88872d4be7b467af91cb25470bc76be2">findSignedDistances</a> (<a class="el" href="classMesh.html">Mesh</a> refMesh, <a class="el" href="classMesh.html">Mesh</a> mesh, <a class="el" href="classMeshProjectionParameters.html">MeshProjectionParameters</a> params)</td></tr>
 <tr class="memitem:a704d85c4a403c2bcaf0a14d1b0b1090b" id="r_a704d85c4a403c2bcaf0a14d1b0b1090b"><td class="memItemLeft" align="right" valign="top">CoordinateConverters&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a704d85c4a403c2bcaf0a14d1b0b1090b">getVectorConverters</a> (<a class="el" href="classMesh.html">Mesh</a> a, <a class="el" href="classMesh.html">Mesh</a> b)</td></tr>
 <tr class="memitem:a0d0585b55754284e85a7fab464501cae" id="r_a0d0585b55754284e85a7fab464501cae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPreciseCollisionResult.html">PreciseCollisionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d0585b55754284e85a7fab464501cae">findCollidingEdgeTrisPrecise</a> (<a class="el" href="classMesh.html">Mesh</a> a, <a class="el" href="classMesh.html">Mesh</a> b, CoordinateConverters conv)</td></tr>
+<tr class="memdesc:a0d0585b55754284e85a7fab464501cae"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same with the trees given by the caller instead of the cached trees of the meshes  <br /></td></tr>
 <tr class="memitem:abbab2cfd94d01caa096faeb16ea74390" id="r_abbab2cfd94d01caa096faeb16ea74390"><td class="memItemLeft" align="right" valign="top">OneMeshContours&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbab2cfd94d01caa096faeb16ea74390">getOneMeshIntersectionContours</a> (<a class="el" href="classMesh.html">Mesh</a> meshA, <a class="el" href="classMesh.html">Mesh</a> meshB, ContinuousContours contours, <a class="el" href="#ab327118a7dc64c2db1605682331342bb">boolean</a> getMeshAIntersections, CoordinateConverters converters)</td></tr>
 <tr class="memdesc:abbab2cfd94d01caa096faeb16ea74390"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, then open self-intersection contours will be prolonged to terminal vertices  <br /></td></tr>
 <tr class="memitem:ac5fd2a346f753556275fddc902960491" id="r_ac5fd2a346f753556275fddc902960491"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5fd2a346f753556275fddc902960491">getIncidentVertsFromFaces</a> (<a class="el" href="classMeshTopology.html">MeshTopology</a> topology, <a class="el" href="classFaceBitSet.html">FaceBitSet</a> faces)</td></tr>
@@ -1540,6 +1541,14 @@ fillHoleTrivially</dd>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>the same with the trees given by the caller instead of the cached trees of the meshes </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">aTree</td><td>bTree each tree must contain at least all the faces of its mesh that can collide with the other mesh, e.g. it can be a temporary tree of only the faces near the other mesh, which is much faster to construct than the tree of the whole mesh; then give these faces as the region of the mesh part too, otherwise an edge is missed if its other triangle is not in the tree </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
