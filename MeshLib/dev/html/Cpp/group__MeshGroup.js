@@ -261,6 +261,7 @@ var group__MeshGroup =
       [ "pack", "group__GeneralGroup.html#gab1293a17064e703cfa337e675d61d8b4", null ],
       [ "packMinMem", "group__GeneralGroup.html#ga209f41dfcfd5540a55a1e01f31fb65b9", null ],
       [ "preferEdges", "group__GeneralGroup.html#gabf2f3abf6b3d6899c61b6d9821d30a0a", null ],
+      [ "prefetchEdge", "group__GeneralGroup.html#gae30c618fdcd682e48d422e2efd68788a", null ],
       [ "prev", "group__GeneralGroup.html#ga7b32ade5428d261aa511099eff6788c0", null ],
       [ "prevLeftBd", "group__GeneralGroup.html#gab4c4f7414e097980b6b0624fa7f0b5d9", null ],
       [ "read", "group__GeneralGroup.html#gae53000ef54becc9aaca40915c254c24f", null ],

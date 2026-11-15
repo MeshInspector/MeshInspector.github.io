@@ -6181,6 +6181,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:ga32ef296197eb1631ca3af65f4614024a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns left face of half-edge  <br /></td></tr>
 <tr class="memitem:gad584643e2e3233eea5dbb51eab4b1ba0" id="r_gad584643e2e3233eea5dbb51eab4b1ba0"><td class="memItemLeft" align="right" valign="top">FaceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad584643e2e3233eea5dbb51eab4b1ba0">MR::MeshTopology::right</a> (EdgeId he) const</td></tr>
 <tr class="memdesc:gad584643e2e3233eea5dbb51eab4b1ba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns right face of half-edge  <br /></td></tr>
+<tr class="memitem:gae30c618fdcd682e48d422e2efd68788a" id="r_gae30c618fdcd682e48d422e2efd68788a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae30c618fdcd682e48d422e2efd68788a">MR::MeshTopology::prefetchEdge</a> (UndirectedEdgeId ue) const</td></tr>
+<tr class="memdesc:gae30c618fdcd682e48d422e2efd68788a"><td class="mdescLeft">&#160;</td><td class="mdescRight">hints the processor to load the records of both half-edges of ue, e.g. some faces ahead in a loop reading them  <br /></td></tr>
 <tr class="memitem:gab206690266b8da660da20f5f9b077b3b" id="r_gab206690266b8da660da20f5f9b077b3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab206690266b8da660da20f5f9b077b3b">MR::MeshTopology::setOrg</a> (EdgeId a, VertId v)</td></tr>
 <tr class="memitem:ga9d14ed95daaeb28bc7cab7f2046a13eb" id="r_ga9d14ed95daaeb28bc7cab7f2046a13eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9d14ed95daaeb28bc7cab7f2046a13eb">MR::MeshTopology::setLeft</a> (EdgeId a, FaceId f)</td></tr>
 <tr class="memitem:gad2eebf70e911bb41a4d9b755f78c5f21" id="r_gad2eebf70e911bb41a4d9b755f78c5f21"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad2eebf70e911bb41a4d9b755f78c5f21">MR::MeshTopology::fromSameOriginRing</a> (EdgeId a, EdgeId b) const</td></tr>
@@ -154487,6 +154489,35 @@ template&lt;typename ... Updates&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRMeshTopology_8h.html">MRMesh/MRMeshTopology.h</a>&gt;</code></p>
 <p>for incident vertices and faces of given edges, remember one of them as edgeWithOrg and edgeWithLeft; this is important in parallel algorithms where other edges may change but stable ones will survive </p>
+
+</div>
+</div>
+<a id="gae30c618fdcd682e48d422e2efd68788a" name="gae30c618fdcd682e48d422e2efd68788a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae30c618fdcd682e48d422e2efd68788a">&#9670;&#160;</a></span>prefetchEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::MeshTopology::prefetchEdge </td>
+          <td>(</td>
+          <td class="paramtype">UndirectedEdgeId</td>          <td class="paramname"><span class="paramname"><em>ue</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshTopology_8h.html">MRMesh/MRMeshTopology.h</a>&gt;</code></p>
+
+<p>hints the processor to load the records of both half-edges of ue, e.g. some faces ahead in a loop reading them </p>
 
 </div>
 </div>

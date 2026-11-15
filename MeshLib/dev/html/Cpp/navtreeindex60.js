@@ -1,5 +1,9 @@
 var NAVTREEINDEX60 =
 {
+"group__TriangleIntersectionGroup.html#gae2d884d3111355ff558c2b7f34c314d0":[9,0,0,0,10,6],
+"group__TriangleIntersectionGroup.html#gaeed5ed30fa651d9e8908b1c86b1a77b9":[9,0,0,0,10,10],
+"group__TriangleIntersectionGroup.html#gaf5c17228b0533759ec08bc5a2c3e45ae":[9,0,0,0,10,17],
+"group__TriangleIntersectionGroup.html#gaffaaca67b2b029641abd64350b3c1959":[9,0,0,0,10,13],
 "group__TriangulationHelpersGroup.html":[9,0,0,13,0],
 "group__TriangulationHelpersGroup.html#ga379ef6cfbe1df486c3b9baf10d186c0b":[9,0,0,13,0,4],
 "group__TriangulationHelpersGroup.html#ga8a151252bffbc3c9b6cf56c1a45292f0":[9,0,0,13,0,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1Cuda.html#adf25e7fff401104651b00423b20fa287":[9,0,1,0,1,2,13],
 "namespaceMR_1_1DistanceMapLoad.html":[9,0,0,19,10],
 "namespaceMR_1_1DistanceMapLoad.html#af1f62813f68011847bea88c8d3bfe7bb":[9,0,1,0,1,4,0],
-"namespaceMR_1_1DistanceMapSave.html":[9,0,0,19,11],
-"namespaceMR_1_1DistanceMapSave.html#aac7825149eb9a0b19702af74fa42f45e":[9,0,1,0,1,5,0],
-"namespaceMR_1_1Features.html":[9,0,1,0,1,6],
-"namespaceMR_1_1Features.html#a2cc22f65100a51a32afed2acf0c837b4":[9,0,1,0,1,6,6],
-"namespaceMR_1_1Features.html#a2f919d193c35478d40f28668b8d2d209":[9,0,1,0,1,6,5]
+"namespaceMR_1_1DistanceMapSave.html":[9,0,0,19,11]
 };
