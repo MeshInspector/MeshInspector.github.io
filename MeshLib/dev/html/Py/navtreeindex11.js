@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"classmrmeshpy_1_1CameraPointsTriangulationSettings.html#ad07bc932dac1e5f0467fea574b7992f7":[9,1,0,0,2,115,8],
+"classmrmeshpy_1_1CameraPointsTriangulationSettings.html#ad07bc932dac1e5f0467fea574b7992f7":[9,1,1,0,1,115,8],
 "classmrmeshpy_1_1CameraPointsTriangulationSettings.html#ae86e47f7a5562289c5e0de5c831f2e3c":[9,1,0,0,2,115,2],
 "classmrmeshpy_1_1CameraPointsTriangulationSettings.html#ae86e47f7a5562289c5e0de5c831f2e3c":[9,1,1,0,1,115,2],
 "classmrmeshpy_1_1ChangVoxelSelectionAction.html":[9,1,0,0,2,155],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "classmrmeshpy_1_1ChangePolylinePointsAction.html":[9,1,0,0,2,146],
 "classmrmeshpy_1_1ChangePolylinePointsAction.html":[9,1,1,0,1,146],
 "classmrmeshpy_1_1ChangePolylinePointsAction.html#a44ccc8a6af031013449e3221ad7372e2":[9,1,0,0,2,146,0],
-"classmrmeshpy_1_1ChangePolylinePointsAction.html#a44ccc8a6af031013449e3221ad7372e2":[9,1,1,0,1,146,0],
-"classmrmeshpy_1_1ChangePolylinePointsAction.html#a5808853e68f18ddebee4d49c26c01b73":[9,1,0,0,2,146,1],
-"classmrmeshpy_1_1ChangePolylinePointsAction.html#a5808853e68f18ddebee4d49c26c01b73":[9,1,1,0,1,146,1]
+"classmrmeshpy_1_1ChangePolylinePointsAction.html#a44ccc8a6af031013449e3221ad7372e2":[9,1,1,0,1,146,0]
 };

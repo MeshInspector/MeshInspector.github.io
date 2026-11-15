@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"classmrmeshpy_1_1ConstPositionVertsSmoothlyParams.html#af46f53852374c0a10c2c3bc9139ec292":[9,1,0,0,2,1155,3],
+"classmrmeshpy_1_1ConstPositionVertsSmoothlyParams.html#af46f53852374c0a10c2c3bc9139ec292":[9,1,1,0,1,1155,3],
 "classmrmeshpy_1_1ConstPositionedText.html":[9,1,0,0,2,1154],
 "classmrmeshpy_1_1ConstPositionedText.html":[9,1,1,0,1,1154],
 "classmrmeshpy_1_1ConstPositionedText.html#a0ee051a9e0dbf84fbe8b6a9b52ee181f":[9,1,0,0,2,1154,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "classmrmeshpy_1_1ConstRasterInfo.html#a6d5a5c20d1473b6dd52371ed943c6cc5":[9,1,0,0,2,1170,3],
 "classmrmeshpy_1_1ConstRasterInfo.html#a6d5a5c20d1473b6dd52371ed943c6cc5":[9,1,1,0,1,1170,3],
 "classmrmeshpy_1_1ConstRasterInfo.html#ac51e4c55df85e2e6438e3e5640f61c84":[9,1,0,0,2,1170,0],
-"classmrmeshpy_1_1ConstRasterInfo.html#ac51e4c55df85e2e6438e3e5640f61c84":[9,1,1,0,1,1170,0],
-"classmrmeshpy_1_1ConstRasterInfo.html#ae95cf159a20c7e5fb0bd23527a32e1ab":[9,1,0,0,2,1170,2],
-"classmrmeshpy_1_1ConstRasterInfo.html#ae95cf159a20c7e5fb0bd23527a32e1ab":[9,1,1,0,1,1170,2]
+"classmrmeshpy_1_1ConstRasterInfo.html#ac51e4c55df85e2e6438e3e5640f61c84":[9,1,1,0,1,1170,0]
 };

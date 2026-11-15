@@ -1,5 +1,7 @@
 var NAVTREEINDEX121 =
 {
+"classmrmeshpy_1_1DenseBox.html#a9e8981fdb19b42d2e502c11962f30c1b":[9,1,0,0,2,1493,3],
+"classmrmeshpy_1_1DenseBox.html#a9e8981fdb19b42d2e502c11962f30c1b":[9,1,1,0,1,1493,3],
 "classmrmeshpy_1_1DentalId.html":[9,1,0,0,2,1494],
 "classmrmeshpy_1_1DentalId.html":[9,1,1,0,1,1494],
 "classmrmeshpy_1_1DentalId.html#a3f66f05bf1a98dccf80201339659d1d4":[9,1,0,0,2,1494,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX121 =
 "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#ada21a1617423cd83284fe696290509f9":[9,1,0,0,2,1504,7],
 "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#ada21a1617423cd83284fe696290509f9":[9,1,1,0,1,1504,7],
 "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#ade67d7bf2d6593ec7f90b7d0ad690777":[9,1,0,0,2,1504,12],
-"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#ade67d7bf2d6593ec7f90b7d0ad690777":[9,1,1,0,1,1504,12],
-"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#ae54b3244e79b03312e1ad53027edf850":[9,1,0,0,2,1504,11],
-"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#ae54b3244e79b03312e1ad53027edf850":[9,1,1,0,1,1504,11]
+"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#ade67d7bf2d6593ec7f90b7d0ad690777":[9,1,1,0,1,1504,12]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX89 =
 {
+"MRPointCloudTriangulationHelpers_8h.html#a4893caef3bd325de2e352acf388286af":[9,2,2,0,0,0,0,1,268,88],
 "MRPointCloudTriangulationHelpers_8h.html#a48bb6c8ac7161f0572eabd3c086c03c3":[9,2,2,0,0,0,0,1,268,70],
 "MRPointCloudTriangulationHelpers_8h.html#a4c5e442997aa9a26c2ca804d16d76692":[9,2,2,0,0,0,0,1,268,6],
 "MRPointCloudTriangulationHelpers_8h.html#a4e0f7429bca9cd203068addc4a13184f":[9,2,2,0,0,0,0,1,268,76],
@@ -248,6 +249,5 @@ var NAVTREEINDEX89 =
 "MRPointMeasurementObject_8h.html#a749cca566de75c01b7c4210dfd5ab596":[9,2,2,0,0,0,0,1,269,0],
 "MRPointMeasurementObject_8h.html#a74d399d4ae498978905b469a0b96fecb":[9,2,2,0,0,0,0,1,269,92],
 "MRPointMeasurementObject_8h.html#a7b45e5b345c15496fb6ae0d2443957d6":[9,2,2,0,0,0,0,1,269,118],
-"MRPointMeasurementObject_8h.html#a7e651e9cb72c90efcc6738947a59ccb5":[9,2,2,0,0,0,0,1,269,29],
-"MRPointMeasurementObject_8h.html#a815d05df3e92e06c6c555a5a2c1c2338":[9,2,2,0,0,0,0,1,269,93]
+"MRPointMeasurementObject_8h.html#a7e651e9cb72c90efcc6738947a59ccb5":[9,2,2,0,0,0,0,1,269,29]
 };

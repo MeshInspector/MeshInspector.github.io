@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"classmrmeshpy_1_1Const__std__optional__Vector3__float.html#ae2123a54936dca4861d02074713735f3":[9,1,0,0,2,325,0],
+"classmrmeshpy_1_1Const__std__optional__Vector3__float.html#ae2123a54936dca4861d02074713735f3":[9,1,1,0,1,325,0],
 "classmrmeshpy_1_1Const__std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html":[9,1,0,0,2,326],
 "classmrmeshpy_1_1Const__std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html":[9,1,1,0,1,326],
 "classmrmeshpy_1_1Const__std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html#a3fe7a6c87279b30635b945fc85544be9":[9,1,0,0,2,326,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vectod935c3b5e3f482eb91125f4e59def277.html#a16236413ff99b206e85306adcd17a9bd":[9,1,0,0,2,343,4],
 "classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vectod935c3b5e3f482eb91125f4e59def277.html#a16236413ff99b206e85306adcd17a9bd":[9,1,1,0,1,343,4],
 "classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vectod935c3b5e3f482eb91125f4e59def277.html#a9a5a8090d694276455cd7e7d36a0d265":[9,1,0,0,2,343,6],
-"classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vectod935c3b5e3f482eb91125f4e59def277.html#a9a5a8090d694276455cd7e7d36a0d265":[9,1,1,0,1,343,6],
-"classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vectod935c3b5e3f482eb91125f4e59def277.html#aa7989448e3afefa9dcd8fb91f0575ccd":[9,1,0,0,2,343,2],
-"classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vectod935c3b5e3f482eb91125f4e59def277.html#aa7989448e3afefa9dcd8fb91f0575ccd":[9,1,1,0,1,343,2]
+"classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vectod935c3b5e3f482eb91125f4e59def277.html#a9a5a8090d694276455cd7e7d36a0d265":[9,1,1,0,1,343,6]
 };

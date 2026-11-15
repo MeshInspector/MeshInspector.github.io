@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[9,0,1,0,1,53,11,0],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[9,0,2,0,1,35,9,0],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a1c7efed40362c244fe3448ccb9b4f5b8":[9,0,1,0,1,53,11,0,1],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a1c7efed40362c244fe3448ccb9b4f5b8":[9,0,2,0,1,35,9,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html":[9,0,0,19,866],
 "structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html":[9,0,1,0,1,56,2],
 "structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html":[9,0,2,0,1,36,2],
-"structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html#a6b30b1186e44ca7bf4c9f5d09853ad8c":[9,0,1,0,1,56,2,0],
-"structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html#a6b30b1186e44ca7bf4c9f5d09853ad8c":[9,0,2,0,1,36,2,0]
+"structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html#a6b30b1186e44ca7bf4c9f5d09853ad8c":[9,0,1,0,1,56,2,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX223 =
 {
+"classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool.html":[9,1,0,0,2,1606],
+"classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool.html":[9,1,1,0,1,1606],
 "classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool.html#a90a4160259276a44f28ec6bb0f73d89a":[9,1,0,0,2,1606,0],
 "classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool.html#a90a4160259276a44f28ec6bb0f73d89a":[9,1,1,0,1,1606,0],
 "classmrmeshpy_1_1func__bool__from__MeshProjectionResult.html":[9,1,0,0,2,1607],
@@ -247,7 +249,5 @@ var NAVTREEINDEX223 =
 "classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8.html#ab4fb7c083ab8f29d60a09fdaab99a81e":[9,1,0,0,2,1995,0],
 "classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8.html#ab4fb7c083ab8f29d60a09fdaab99a81e":[9,1,1,0,1,1995,0],
 "classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8.html#afea97bedac62403b008f6145c1139a26":[9,1,0,0,2,1995,1],
-"classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8.html#afea97bedac62403b008f6145c1139a26":[9,1,1,0,1,1995,1],
-"classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphEdgeTag__Id__GraphEdgeTag__phmap__Hash__Id__Gr8509e72707d59f4aed31f5925792525e.html":[9,1,0,0,2,1996],
-"classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphEdgeTag__Id__GraphEdgeTag__phmap__Hash__Id__Gr8509e72707d59f4aed31f5925792525e.html":[9,1,1,0,1,1996]
+"classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8.html#afea97bedac62403b008f6145c1139a26":[9,1,1,0,1,1995,1]
 };

@@ -24,6 +24,7 @@ var group__AABBTreeGroup =
       [ "LeafTri", "classMR_1_1AABBTree.html#aea729bed7bef611e2d9969b404cbafe1", null ],
       [ "Node", "classMR_1_1AABBTree.html#a3ced22d7db5495fbff999b8437a1a6de", null ],
       [ "AABBTree", "classMR_1_1AABBTree.html#abea29a2d21e3807703a04574779d3d71", null ],
+      [ "AABBTree", "classMR_1_1AABBTree.html#a3593ad1bd55f857da23b30e024a567da", null ],
       [ "AABBTree", "classMR_1_1AABBTree.html#a23b6f58682ec54006a8fb8d00ca4a191", null ],
       [ "AABBTree", "classMR_1_1AABBTree.html#a299be175c35406bc5c624c524a3221e7", null ],
       [ "addSplitFaces", "classMR_1_1AABBTree.html#aebe936e844503aa620a92af3a0ed22b5", null ],

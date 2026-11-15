@@ -1,5 +1,7 @@
 var NAVTREEINDEX141 =
 {
+"classmeshlib_1_1TriTriDistanceResult__float.html#a8717ce52a8034c7020108c3a8e4257ea":[9,6,1,0,0,1545,16],
+"classmeshlib_1_1TriTriDistanceResult__float.html#aa0d1cfe21627766fb45ad7e7ddcdbcab":[9,6,0,0,0,1545,13],
 "classmeshlib_1_1TriTriDistanceResult__float.html#aa0d1cfe21627766fb45ad7e7ddcdbcab":[9,6,1,0,0,1545,13],
 "classmeshlib_1_1TriTriDistanceResult__float.html#aa4d598a57f9e71956b557a028cc0dce2":[9,6,0,0,0,1545,8],
 "classmeshlib_1_1TriTriDistanceResult__float.html#aa4d598a57f9e71956b557a028cc0dce2":[9,6,1,0,0,1545,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX141 =
 "classmeshlib_1_1TrivialMetricToPenalty.html":[9,6,1,0,0,1546],
 "classmeshlib_1_1TrivialMetricToPenalty.html#a7ade8742f553b79ed24433858ab3b23d":[9,6,0,0,0,1546,0],
 "classmeshlib_1_1TrivialMetricToPenalty.html#a7ade8742f553b79ed24433858ab3b23d":[9,6,1,0,0,1546,0],
-"classmeshlib_1_1TrivialMetricToPenalty.html#ac578495df2f12a3cb4a3d7eb963acd18":[9,6,0,0,0,1546,1],
-"classmeshlib_1_1TrivialMetricToPenalty.html#ac578495df2f12a3cb4a3d7eb963acd18":[9,6,1,0,0,1546,1],
-"classmeshlib_1_1TrivialMetricToPenalty.html#ad3a15df43a8c2f9c54d943bc5c2b525f":[9,6,0,0,0,1546,3]
+"classmeshlib_1_1TrivialMetricToPenalty.html#ac578495df2f12a3cb4a3d7eb963acd18":[9,6,0,0,0,1546,1]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX120 =
 {
+"classmrmeshpy_1_1DecimateSettings.html#a42a51cad083977ecc63bcc11930b325a":[9,1,0,0,2,1487,47],
+"classmrmeshpy_1_1DecimateSettings.html#a42a51cad083977ecc63bcc11930b325a":[9,1,1,0,1,1487,47],
 "classmrmeshpy_1_1DecimateSettings.html#a5385d8b3dc271d93475cd9f98456e31d":[9,1,0,0,2,1487,55],
 "classmrmeshpy_1_1DecimateSettings.html#a5385d8b3dc271d93475cd9f98456e31d":[9,1,1,0,1,1487,55],
 "classmrmeshpy_1_1DecimateSettings.html#a54c0422100bb0d71ccce1bb2a41f5bb1":[9,1,0,0,2,1487,42],
@@ -247,7 +249,5 @@ var NAVTREEINDEX120 =
 "classmrmeshpy_1_1DenseBox.html#a971446a45923f9f128eaea7577e18c81":[9,1,0,0,2,1493,5],
 "classmrmeshpy_1_1DenseBox.html#a971446a45923f9f128eaea7577e18c81":[9,1,1,0,1,1493,5],
 "classmrmeshpy_1_1DenseBox.html#a98a4c912c2fb38236f59877ebf6eb0d8":[9,1,0,0,2,1493,2],
-"classmrmeshpy_1_1DenseBox.html#a98a4c912c2fb38236f59877ebf6eb0d8":[9,1,1,0,1,1493,2],
-"classmrmeshpy_1_1DenseBox.html#a9e8981fdb19b42d2e502c11962f30c1b":[9,1,0,0,2,1493,3],
-"classmrmeshpy_1_1DenseBox.html#a9e8981fdb19b42d2e502c11962f30c1b":[9,1,1,0,1,1493,3]
+"classmrmeshpy_1_1DenseBox.html#a98a4c912c2fb38236f59877ebf6eb0d8":[9,1,1,0,1,1493,2]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"classmrmeshpy_1_1ConstVector__AABBTreeWideLeafTri.html#aebe68dbffdbdf36869d392ab3b331b94":[9,1,0,0,2,1333,12],
+"classmrmeshpy_1_1ConstVector__AABBTreeWideLeafTri.html#aebe68dbffdbdf36869d392ab3b331b94":[9,1,1,0,1,1333,12],
 "classmrmeshpy_1_1ConstVector__AABBTreeWideNode__NodeId.html":[9,1,0,0,2,1334],
 "classmrmeshpy_1_1ConstVector__AABBTreeWideNode__NodeId.html":[9,1,1,0,1,1334],
 "classmrmeshpy_1_1ConstVector__AABBTreeWideNode__NodeId.html#a0b5c46fe51243ed14208cf50ba0caa40":[9,1,0,0,2,1334,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "classmrmeshpy_1_1ConstVector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#af628d045a23079d57fc37cb73599ccbe":[9,1,0,0,2,1340,0],
 "classmrmeshpy_1_1ConstVector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#af628d045a23079d57fc37cb73599ccbe":[9,1,1,0,1,1340,0],
 "classmrmeshpy_1_1ConstVector__BoxedLeaf__ObjTreeTraits.html":[9,1,0,0,2,1341],
-"classmrmeshpy_1_1ConstVector__BoxedLeaf__ObjTreeTraits.html":[9,1,1,0,1,1341],
-"classmrmeshpy_1_1ConstVector__BoxedLeaf__ObjTreeTraits.html#a04f085eaa4db4bf24aae74c26a5c1b47":[9,1,0,0,2,1341,7],
-"classmrmeshpy_1_1ConstVector__BoxedLeaf__ObjTreeTraits.html#a04f085eaa4db4bf24aae74c26a5c1b47":[9,1,1,0,1,1341,7]
+"classmrmeshpy_1_1ConstVector__BoxedLeaf__ObjTreeTraits.html":[9,1,1,0,1,1341]
 };

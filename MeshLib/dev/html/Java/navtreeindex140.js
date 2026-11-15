@@ -1,5 +1,7 @@
 var NAVTREEINDEX140 =
 {
+"classmeshlib_1_1TriCornerUVCoords.html#a943555f67505e49a3efb1b62645cf0a6":[9,6,1,0,0,1535,39],
+"classmeshlib_1_1TriCornerUVCoords.html#a94835dc0d7fcc90417105ba9dcd3f3d8":[9,6,0,0,0,1535,27],
 "classmeshlib_1_1TriCornerUVCoords.html#a94835dc0d7fcc90417105ba9dcd3f3d8":[9,6,1,0,0,1535,27],
 "classmeshlib_1_1TriCornerUVCoords.html#aa1077ebc73f282352d7a058c351c679b":[9,6,0,0,0,1535,25],
 "classmeshlib_1_1TriCornerUVCoords.html#aa1077ebc73f282352d7a058c351c679b":[9,6,1,0,0,1535,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX140 =
 "classmeshlib_1_1TriTriDistanceResult__float.html#a75c326e59c72361082f975348803b4e6":[9,6,1,0,0,1545,1],
 "classmeshlib_1_1TriTriDistanceResult__float.html#a827f194b041a77dd9e4d2adef28e0a23":[9,6,0,0,0,1545,12],
 "classmeshlib_1_1TriTriDistanceResult__float.html#a827f194b041a77dd9e4d2adef28e0a23":[9,6,1,0,0,1545,12],
-"classmeshlib_1_1TriTriDistanceResult__float.html#a8717ce52a8034c7020108c3a8e4257ea":[9,6,0,0,0,1545,16],
-"classmeshlib_1_1TriTriDistanceResult__float.html#a8717ce52a8034c7020108c3a8e4257ea":[9,6,1,0,0,1545,16],
-"classmeshlib_1_1TriTriDistanceResult__float.html#aa0d1cfe21627766fb45ad7e7ddcdbcab":[9,6,0,0,0,1545,13]
+"classmeshlib_1_1TriTriDistanceResult__float.html#a8717ce52a8034c7020108c3a8e4257ea":[9,6,0,0,0,1545,16]
 };

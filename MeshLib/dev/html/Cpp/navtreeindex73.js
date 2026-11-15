@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html#a6b30b1186e44ca7bf4c9f5d09853ad8c":[9,0,2,0,1,36,2,0],
 "structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html#a6b44bc2d62818582cfdb8a9d739e7122":[9,0,1,0,1,56,2,3],
 "structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html#a6b44bc2d62818582cfdb8a9d739e7122":[9,0,2,0,1,36,2,3],
 "structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html#a6f55869c63bb8067acb4a7014d657fee":[9,0,1,0,1,56,2,1],

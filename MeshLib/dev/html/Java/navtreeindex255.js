@@ -1,5 +1,7 @@
 var NAVTREEINDEX255 =
 {
+"classmeshlib_1_1std__vector__MR__VertBitSet.html#a08c55f5e0a6a0f37f0ddc3bd67e2c18d":[9,6,1,0,0,1427,10],
+"classmeshlib_1_1std__vector__MR__VertBitSet.html#a1054ff98d49348d67111a6ca82f4651b":[9,6,0,0,0,1427,1],
 "classmeshlib_1_1std__vector__MR__VertBitSet.html#a1054ff98d49348d67111a6ca82f4651b":[9,6,1,0,0,1427,1],
 "classmeshlib_1_1std__vector__MR__VertBitSet.html#a153dd230eb86cfea4758f1a5ae79e976":[9,6,0,0,0,1427,5],
 "classmeshlib_1_1std__vector__MR__VertBitSet.html#a153dd230eb86cfea4758f1a5ae79e976":[9,6,1,0,0,1427,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX255 =
 "classmeshlib_1_1std__vector__MR__VoxelId__MR__Allocator__MR__VoxelId.html":[9,6,1,0,0,1433],
 "classmeshlib_1_1std__vector__MR__VoxelId__MR__Allocator__MR__VoxelId.html#a00570536dd4e3398c9e0f1a8b192ffee":[9,6,0,0,0,1433,16],
 "classmeshlib_1_1std__vector__MR__VoxelId__MR__Allocator__MR__VoxelId.html#a00570536dd4e3398c9e0f1a8b192ffee":[9,6,1,0,0,1433,16],
-"classmeshlib_1_1std__vector__MR__VoxelId__MR__Allocator__MR__VoxelId.html#a0eb6f9386d34ab1bd3f3a5519ed42887":[9,6,0,0,0,1433,0],
-"classmeshlib_1_1std__vector__MR__VoxelId__MR__Allocator__MR__VoxelId.html#a0eb6f9386d34ab1bd3f3a5519ed42887":[9,6,1,0,0,1433,0],
-"classmeshlib_1_1std__vector__MR__VoxelId__MR__Allocator__MR__VoxelId.html#a1ce33603d82f770e9d07720d3eafaf5f":[9,6,0,0,0,1433,19]
+"classmeshlib_1_1std__vector__MR__VoxelId__MR__Allocator__MR__VoxelId.html#a0eb6f9386d34ab1bd3f3a5519ed42887":[9,6,0,0,0,1433,0]
 };

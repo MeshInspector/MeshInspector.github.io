@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"MRBestFitPolynomial_8h.html#aead280d9fe4b0db7cf8dc5a515eb298e":[9,2,2,0,0,0,0,1,22,146],
+"MRBestFitPolynomial_8h.html#aef5bd0518a9d4ae911cd8e39641729b9":[9,2,2,0,0,0,0,1,22,44],
 "MRBestFitPolynomial_8h.html#af1a0f46f76eb5e29d32d2628f0b94fc0":[9,2,2,0,0,0,0,1,22,175],
 "MRBestFitPolynomial_8h.html#af1ba0fb4f730b9c77c06c8127ce26659":[9,2,2,0,0,0,0,1,22,4],
 "MRBestFitPolynomial_8h.html#af3cab7fcc7212d67f935a899fd3118ec":[9,2,2,0,0,0,0,1,22,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "MRBitSet_8h.html#a11b3f22efe9492b4b6af8ed705867c1b":[9,2,2,0,0,0,0,1,26,165],
 "MRBitSet_8h.html#a11e94698d2e3bf208a3d94befed06626":[9,2,2,0,0,0,0,1,26,842],
 "MRBitSet_8h.html#a1220d87693368e6f5db3a6c16f37cc1a":[9,2,2,0,0,0,0,1,26,997],
-"MRBitSet_8h.html#a12359d6e0d269f727140ba615692eb86":[9,2,2,0,0,0,0,1,26,519],
-"MRBitSet_8h.html#a123b567f0fccbde5133613b7e360ec56":[9,2,2,0,0,0,0,1,26,795],
-"MRBitSet_8h.html#a129492ff615316e43458a2cbe4318f5c":[9,2,2,0,0,0,0,1,26,730]
+"MRBitSet_8h.html#a12359d6e0d269f727140ba615692eb86":[9,2,2,0,0,0,0,1,26,519]
 };

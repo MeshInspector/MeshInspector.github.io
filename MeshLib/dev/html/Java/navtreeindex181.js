@@ -1,5 +1,7 @@
 var NAVTREEINDEX181 =
 {
+"classmeshlib_1_1VoxelBitSet.html#a0e3fe0ad251c1c6ed9d3bcc30abca405":[9,6,1,0,0,1708,21],
+"classmeshlib_1_1VoxelBitSet.html#a0ef31c85f3bed4fa3554d06e44387a36":[9,6,0,0,0,1708,50],
 "classmeshlib_1_1VoxelBitSet.html#a0ef31c85f3bed4fa3554d06e44387a36":[9,6,1,0,0,1708,50],
 "classmeshlib_1_1VoxelBitSet.html#a0f00358799658aac36126512e1da3c69":[9,6,0,0,0,1708,55],
 "classmeshlib_1_1VoxelBitSet.html#a0f00358799658aac36126512e1da3c69":[9,6,1,0,0,1708,55],
@@ -247,7 +249,5 @@ var NAVTREEINDEX181 =
 "classmeshlib_1_1VoxelScalars.html#a3bd555a9bd3c2f236a3a5f795408b742":[9,6,1,0,0,1713,13],
 "classmeshlib_1_1VoxelScalars.html#a3e98593d65ad4225c5e2352e8f48f977":[9,6,0,0,0,1713,34],
 "classmeshlib_1_1VoxelScalars.html#a3e98593d65ad4225c5e2352e8f48f977":[9,6,1,0,0,1713,34],
-"classmeshlib_1_1VoxelScalars.html#a4e1cfb9cf6d3ee21c0fbc272605878b8":[9,6,0,0,0,1713,11],
-"classmeshlib_1_1VoxelScalars.html#a4e1cfb9cf6d3ee21c0fbc272605878b8":[9,6,1,0,0,1713,11],
-"classmeshlib_1_1VoxelScalars.html#a546fa9f65db0c3d37102a2a2d82b6b2c":[9,6,0,0,0,1713,29]
+"classmeshlib_1_1VoxelScalars.html#a4e1cfb9cf6d3ee21c0fbc272605878b8":[9,6,0,0,0,1713,11]
 };

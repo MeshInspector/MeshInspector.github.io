@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vectod935c3b5e3f482eb91125f4e59def277.html#aa7989448e3afefa9dcd8fb91f0575ccd":[9,1,0,0,2,343,2],
+"classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vectod935c3b5e3f482eb91125f4e59def277.html#aa7989448e3afefa9dcd8fb91f0575ccd":[9,1,1,0,1,343,2],
 "classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vectod935c3b5e3f482eb91125f4e59def277.html#aa7ae9d74e85cf7cfbf3a24971a03ea27":[9,1,0,0,2,343,1],
 "classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vectod935c3b5e3f482eb91125f4e59def277.html#aa7ae9d74e85cf7cfbf3a24971a03ea27":[9,1,1,0,1,343,1],
 "classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vectod935c3b5e3f482eb91125f4e59def277.html#ae807428062a426a90afd8f981e964397":[9,1,0,0,2,343,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "classmrmeshpy_1_1Const__std__vector__Box__Vector3__float__Allocator__Box__Vector3__float.html#acb51a96dd9d31b75dc0885dd3f802c90":[9,1,0,0,2,354,0],
 "classmrmeshpy_1_1Const__std__vector__Box__Vector3__float__Allocator__Box__Vector3__float.html#acb51a96dd9d31b75dc0885dd3f802c90":[9,1,1,0,1,354,0],
 "classmrmeshpy_1_1Const__std__vector__Box__Vector3__float__Allocator__Box__Vector3__float.html#addb63c62bba95fd9ecb8556dc43b910c":[9,1,0,0,2,354,7],
-"classmrmeshpy_1_1Const__std__vector__Box__Vector3__float__Allocator__Box__Vector3__float.html#addb63c62bba95fd9ecb8556dc43b910c":[9,1,1,0,1,354,7],
-"classmrmeshpy_1_1Const__std__vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2_c02098727ba5c0235d1ab476c82c9a39.html":[9,1,0,0,2,355],
-"classmrmeshpy_1_1Const__std__vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2_c02098727ba5c0235d1ab476c82c9a39.html":[9,1,1,0,1,355]
+"classmrmeshpy_1_1Const__std__vector__Box__Vector3__float__Allocator__Box__Vector3__float.html#addb63c62bba95fd9ecb8556dc43b910c":[9,1,1,0,1,354,7]
 };

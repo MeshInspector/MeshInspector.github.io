@@ -1,5 +1,7 @@
 var NAVTREEINDEX156 =
 {
+"classmrmeshpy_1_1Nesting_1_1ConstBoxNestingOptions.html#ad9cc65d99501b155c1033e03c915e34f":[9,1,0,0,2,1886,4,4],
+"classmrmeshpy_1_1Nesting_1_1ConstBoxNestingOptions.html#ad9cc65d99501b155c1033e03c915e34f":[9,1,1,0,1,1886,4,4],
 "classmrmeshpy_1_1Nesting_1_1ConstBoxNestingOptions.html#ae95431a718bf7e41ab8ac67f0c9751d8":[9,1,0,0,2,1886,4,10],
 "classmrmeshpy_1_1Nesting_1_1ConstBoxNestingOptions.html#ae95431a718bf7e41ab8ac67f0c9751d8":[9,1,1,0,1,1886,4,10],
 "classmrmeshpy_1_1Nesting_1_1ConstBoxNestingParams.html":[9,1,0,0,2,1886,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX156 =
 "classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams.html#ac1a23a4b66f268d2f671f074e77db666":[9,1,0,0,2,1886,21,5],
 "classmrmeshpy_1_1Nesting_1_1TetrisDensifyParams.html#ac1a23a4b66f268d2f671f074e77db666":[9,1,1,0,1,1886,21,5],
 "classmrmeshpy_1_1NewEdgesMap.html":[9,1,0,0,2,1887],
-"classmrmeshpy_1_1NewEdgesMap.html":[9,1,1,0,1,1887],
-"classmrmeshpy_1_1NewEdgesMap.html#a0448826dd31ba6fe3b0fa364bd25017c":[9,1,0,0,2,1887,6],
-"classmrmeshpy_1_1NewEdgesMap.html#a0448826dd31ba6fe3b0fa364bd25017c":[9,1,1,0,1,1887,6]
+"classmrmeshpy_1_1NewEdgesMap.html":[9,1,1,0,1,1887]
 };

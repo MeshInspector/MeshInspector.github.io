@@ -1,5 +1,7 @@
 var NAVTREEINDEX169 =
 {
+"classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions.html#a2d33b3d0b1a02da81e92f48c8c026fe6":[9,1,0,0,2,2044,1,6],
+"classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions.html#a2d33b3d0b1a02da81e92f48c8c026fe6":[9,1,1,0,1,2044,1,6],
 "classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions.html#ab6974a57d325c5651a7fccefd6d05c02":[9,1,0,0,2,2044,1,4],
 "classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions.html#ab6974a57d325c5651a7fccefd6d05c02":[9,1,1,0,1,2044,1,4],
 "classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions.html#aba0c94b3b0c7cd92e845a7311992ab3d":[9,1,0,0,2,2044,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX169 =
 "classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#a8aeead23caf2836569cb1ce4c3873398":[9,1,0,0,2,2054,1,6],
 "classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html#a8aeead23caf2836569cb1ce4c3873398":[9,1,1,0,1,2054,1,6],
 "classmrmeshpy_1_1PolylineIntersectionResult2.html":[9,1,0,0,2,2055],
-"classmrmeshpy_1_1PolylineIntersectionResult2.html":[9,1,1,0,1,2055],
-"classmrmeshpy_1_1PolylineIntersectionResult2.html#a2076dffa1cceae4a4f6cdc173e9a25e3":[9,1,0,0,2,2055,2],
-"classmrmeshpy_1_1PolylineIntersectionResult2.html#a2076dffa1cceae4a4f6cdc173e9a25e3":[9,1,1,0,1,2055,2]
+"classmrmeshpy_1_1PolylineIntersectionResult2.html":[9,1,1,0,1,2055]
 };

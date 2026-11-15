@@ -1,5 +1,7 @@
 var NAVTREEINDEX266 =
 {
+"classmeshlib_1_1std__vector__std__vector__MR__Vector3d.html#ad4ac8b36b8cc19f7ed041613e06bb121":[9,6,1,0,0,1482,11],
+"classmeshlib_1_1std__vector__std__vector__MR__Vector3d.html#ad53475d0dca75ea0abefd0598d16a568":[9,6,0,0,0,1482,9],
 "classmeshlib_1_1std__vector__std__vector__MR__Vector3d.html#ad53475d0dca75ea0abefd0598d16a568":[9,6,1,0,0,1482,9],
 "classmeshlib_1_1std__vector__std__vector__MR__Vector3f.html":[9,6,0,0,0,1483],
 "classmeshlib_1_1std__vector__std__vector__MR__Vector3f.html":[9,6,1,0,0,1483],
@@ -247,7 +249,5 @@ var NAVTREEINDEX266 =
 "classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#ab0d1f3ddb9fd5c49b3bb6d6a9c8c9782":[9,6,1,0,0,33,0,5],
 "classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#ac6876d2439979421cab35b8691125071":[9,6,0,0,0,33,0,9],
 "classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#ac6876d2439979421cab35b8691125071":[9,6,1,0,0,33,0,9],
-"classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#ada2bff1e47d32310755f128d9b226999":[9,6,0,0,0,33,0,8],
-"classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#ada2bff1e47d32310755f128d9b226999":[9,6,1,0,0,33,0,8],
-"classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#adb2b5423e1c4626cf524c534851423a5":[9,6,0,0,0,33,0,14]
+"classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#ada2bff1e47d32310755f128d9b226999":[9,6,0,0,0,33,0,8]
 };

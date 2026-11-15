@@ -1625,7 +1625,7 @@ var searchData=
   ['mr_5ftriangulationparameters_1622',['MR_TriangulationParameters',['../MRPointCloudTriangulation_8h.html#a032845a1d3f3181b204e6dcfa00d27fd',1,'MRPointCloudTriangulation.h']]],
   ['mr_5ftricorneruvcoords_1623',['MR_TriCornerUVCoords',['../MRPly_8h.html#abf80e9d0fcc3f2903bddf1072257b6d4',1,'MRPly.h']]],
   ['mr_5ftriintersectresult_1624',['MR_TriIntersectResult',['../MRTriangleIntersection_8h.html#a3155a1e631288d05270693a674f62207',1,'MRTriangleIntersection.h']]],
-  ['mr_5ftrimesh_1625',['MR_TriMesh',['../MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645',1,'MRMesh.h']]],
+  ['mr_5ftrimesh_1625',['MR_TriMesh',['../MRAABBTree_8h.html#ab606653bb9578226f3ddd4aba7a46645',1,'MRAABBTree.h']]],
   ['mr_5ftrimoptionaloutput_1626',['MR_TrimOptionalOutput',['../MRMeshTrimWithPlane_8h.html#a1a86575fe63cab3cf6d93f75b5a712f6',1,'MRMeshTrimWithPlane.h']]],
   ['mr_5ftrimwithplaneparams_1627',['MR_TrimWithPlaneParams',['../MRMeshTrimWithPlane_8h.html#a84025085d53bf26e235ab44149192c09',1,'MRMeshTrimWithPlane.h']]],
   ['mr_5ftripointd_1628',['MR_TriPointd',['../MRMeshTriPoint_8h.html#a17289bf57bcb0037619be07245ff0c78',1,'MRMeshTriPoint.h']]],

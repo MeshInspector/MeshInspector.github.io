@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"classmrmeshpy_1_1ConstSomeLocalTriangulations.html#ab701d41723dd2fd3e57e1c005708e37c":[9,1,0,0,2,1217,0],
+"classmrmeshpy_1_1ConstSomeLocalTriangulations.html#ab701d41723dd2fd3e57e1c005708e37c":[9,1,1,0,1,1217,0],
 "classmrmeshpy_1_1ConstSomeLocalTriangulations.html#abedb63ef203274f47c0c7fa74e035b2b":[9,1,0,0,2,1217,1],
 "classmrmeshpy_1_1ConstSomeLocalTriangulations.html#abedb63ef203274f47c0c7fa74e035b2b":[9,1,1,0,1,1217,1],
 "classmrmeshpy_1_1ConstSomeLocalTriangulations.html#ae8d4e1e991bd7cffad93d8c2acf91d0e":[9,1,0,0,2,1217,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "classmrmeshpy_1_1ConstSubdivideSettings.html#af7a420820d6a0df9a811e2a4eef78824":[9,1,0,0,2,1231,5],
 "classmrmeshpy_1_1ConstSubdivideSettings.html#af7a420820d6a0df9a811e2a4eef78824":[9,1,1,0,1,1231,5],
 "classmrmeshpy_1_1ConstSurfaceDistanceBuilder.html":[9,1,0,0,2,1232],
-"classmrmeshpy_1_1ConstSurfaceDistanceBuilder.html":[9,1,1,0,1,1232],
-"classmrmeshpy_1_1ConstSurfaceDistanceBuilder.html#a3ee006e3628b494651cdaab5eeda3fc0":[9,1,0,0,2,1232,0],
-"classmrmeshpy_1_1ConstSurfaceDistanceBuilder.html#a3ee006e3628b494651cdaab5eeda3fc0":[9,1,1,0,1,1232,0]
+"classmrmeshpy_1_1ConstSurfaceDistanceBuilder.html":[9,1,1,0,1,1232]
 };

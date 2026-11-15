@@ -1,5 +1,7 @@
 var NAVTREEINDEX176 =
 {
+"classmeshlib_1_1VertColorMapAggregator.html#aefa2fbd3070c674d00a3713cece6e455":[9,6,1,0,0,1677,9],
+"classmeshlib_1_1VertColors.html":[9,6,0,0,0,1678],
 "classmeshlib_1_1VertColors.html":[9,6,1,0,0,1678],
 "classmeshlib_1_1VertColors.html#a072a7a427da72f50078f05d427679806":[9,6,0,0,0,1678,13],
 "classmeshlib_1_1VertColors.html#a072a7a427da72f50078f05d427679806":[9,6,1,0,0,1678,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX176 =
 "classmeshlib_1_1VertCoords2.html#af6ee6946113b9f8b89e8b4be3d3ff08a":[9,6,1,0,0,1680,35],
 "classmeshlib_1_1VertCoords2.html#af99ae146d5f44fa4a0f3197b124d7c80":[9,6,0,0,0,1680,3],
 "classmeshlib_1_1VertCoords2.html#af99ae146d5f44fa4a0f3197b124d7c80":[9,6,1,0,0,1680,3],
-"classmeshlib_1_1VertCoords2.html#af99f8d9f56edf91824063381d33a7d87":[9,6,0,0,0,1680,2],
-"classmeshlib_1_1VertCoords2.html#af99f8d9f56edf91824063381d33a7d87":[9,6,1,0,0,1680,2],
-"classmeshlib_1_1VertCoords2.html#af9ac2a6f79480e2c823675faa7480b79":[9,6,0,0,0,1680,34]
+"classmeshlib_1_1VertCoords2.html#af99f8d9f56edf91824063381d33a7d87":[9,6,0,0,0,1680,2]
 };

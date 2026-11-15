@@ -1,5 +1,7 @@
 var NAVTREEINDEX188 =
 {
+"classmeshlib_1_1expected__MR__SimpleVolumeMinMax__std__string.html#afcecd2ba3acaaa5da3cbb7bbe2da4976":[9,6,1,0,0,354,6],
+"classmeshlib_1_1expected__MR__SimpleVolumeMinMax__std__string.html#afddfaf5be783772455e713cdd6d8da16":[9,6,0,0,0,354,2],
 "classmeshlib_1_1expected__MR__SimpleVolumeMinMax__std__string.html#afddfaf5be783772455e713cdd6d8da16":[9,6,1,0,0,354,2],
 "classmeshlib_1_1expected__MR__SimpleVolume__std__string.html":[9,6,0,0,0,353],
 "classmeshlib_1_1expected__MR__SimpleVolume__std__string.html":[9,6,1,0,0,353],
@@ -247,7 +249,5 @@ var NAVTREEINDEX188 =
 "classmeshlib_1_1expected__MR__Vector__std__array__float__33__MR__VertId__std__string.html#a02d898da541f7d14554305527a85754f":[9,6,1,0,0,366,5],
 "classmeshlib_1_1expected__MR__Vector__std__array__float__33__MR__VertId__std__string.html#a09fcee3ae6447ff9015e55c51032cfab":[9,6,0,0,0,366,4],
 "classmeshlib_1_1expected__MR__Vector__std__array__float__33__MR__VertId__std__string.html#a09fcee3ae6447ff9015e55c51032cfab":[9,6,1,0,0,366,4],
-"classmeshlib_1_1expected__MR__Vector__std__array__float__33__MR__VertId__std__string.html#a455e0b5fa9db32ed86d8ad68e2d40475":[9,6,0,0,0,366,0],
-"classmeshlib_1_1expected__MR__Vector__std__array__float__33__MR__VertId__std__string.html#a455e0b5fa9db32ed86d8ad68e2d40475":[9,6,1,0,0,366,0],
-"classmeshlib_1_1expected__MR__Vector__std__array__float__33__MR__VertId__std__string.html#a620b5cbd8e13da248664fd44cf0b9980":[9,6,0,0,0,366,8]
+"classmeshlib_1_1expected__MR__Vector__std__array__float__33__MR__VertId__std__string.html#a455e0b5fa9db32ed86d8ad68e2d40475":[9,6,0,0,0,366,0]
 };

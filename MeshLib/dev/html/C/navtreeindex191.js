@@ -1,5 +1,6 @@
 var NAVTREEINDEX191 =
 {
+"std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#aa3383b7f9c2eef359a5e919f6dbebdbb":[9,2,2,0,0,0,0,2,597,22],
 "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#aaaf2b823bc1651d5a1bce2b9d3703b89":[9,2,2,0,0,0,0,2,597,0],
 "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#abdad6a93b7e9124a71f77972db3bea09":[9,2,2,0,0,0,0,2,597,14],
 "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#abf42b1f673508cb09db67b33e8f6afcd":[9,2,2,0,0,0,0,2,597,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX191 =
 "std__vector__std__vector__MR__EdgePoint__MR__Allocator__std__vector__MR__EdgePoint_8h.html#a92d34d1f72dc6f610bd66408b5f71f4f":[9,2,2,0,0,0,0,2,604,14],
 "std__vector__std__vector__MR__EdgePoint__MR__Allocator__std__vector__MR__EdgePoint_8h.html#a9559be52bedbba2d7b607deb904ea0b4":[9,2,2,0,0,0,0,2,604,22],
 "std__vector__std__vector__MR__EdgePoint__MR__Allocator__std__vector__MR__EdgePoint_8h.html#a97e0e000e6cd8cee8ec0a338e81a2d15":[9,2,2,0,0,0,0,2,604,13],
-"std__vector__std__vector__MR__EdgePoint__MR__Allocator__std__vector__MR__EdgePoint_8h.html#aa94a1b011a468b31eeed6fa4dad34ce3":[9,2,2,0,0,0,0,2,604,21],
-"std__vector__std__vector__MR__EdgePoint__MR__Allocator__std__vector__MR__EdgePoint_8h.html#aaefbced2945f750eeb64a7c03371c0da":[9,2,2,0,0,0,0,2,604,20]
+"std__vector__std__vector__MR__EdgePoint__MR__Allocator__std__vector__MR__EdgePoint_8h.html#aa94a1b011a468b31eeed6fa4dad34ce3":[9,2,2,0,0,0,0,2,604,21]
 };

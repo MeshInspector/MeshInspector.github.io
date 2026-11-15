@@ -1,5 +1,7 @@
 var NAVTREEINDEX249 =
 {
+"classmeshlib_1_1std__vector__MR__Pdf__PaletteRowStats.html#ad336ffc404e83de59151461c5f7eaca8":[9,6,1,0,0,1390,8],
+"classmeshlib_1_1std__vector__MR__Pdf__PaletteRowStats.html#ae65cde42c57a39f4fe512b2cd41baae5":[9,6,0,0,0,1390,5],
 "classmeshlib_1_1std__vector__MR__Pdf__PaletteRowStats.html#ae65cde42c57a39f4fe512b2cd41baae5":[9,6,1,0,0,1390,5],
 "classmeshlib_1_1std__vector__MR__PixelId__MR__Allocator__MR__PixelId.html":[9,6,0,0,0,1391],
 "classmeshlib_1_1std__vector__MR__PixelId__MR__Allocator__MR__PixelId.html":[9,6,1,0,0,1391],
@@ -247,7 +249,5 @@ var NAVTREEINDEX249 =
 "classmeshlib_1_1std__vector__MR__PointsProjectionResult.html#afec1762c8c5be08455cd3433e16faff1":[9,6,1,0,0,1396,11],
 "classmeshlib_1_1std__vector__MR__Polyline3.html":[9,6,0,0,0,1397],
 "classmeshlib_1_1std__vector__MR__Polyline3.html":[9,6,1,0,0,1397],
-"classmeshlib_1_1std__vector__MR__Polyline3.html#a03ac97bc86eefa59d4d68945d4161e78":[9,6,0,0,0,1397,18],
-"classmeshlib_1_1std__vector__MR__Polyline3.html#a03ac97bc86eefa59d4d68945d4161e78":[9,6,1,0,0,1397,18],
-"classmeshlib_1_1std__vector__MR__Polyline3.html#a3fc45c60c87676c852fbfe5ddc4855dd":[9,6,0,0,0,1397,2]
+"classmeshlib_1_1std__vector__MR__Polyline3.html#a03ac97bc86eefa59d4d68945d4161e78":[9,6,0,0,0,1397,18]
 };

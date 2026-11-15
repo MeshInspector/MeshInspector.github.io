@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR_1_1Cuda.html#ab0b0e3af6fadf0842bbaef360071ea8e":[9,0,1,0,1,2,12],
 "namespaceMR_1_1Cuda.html#adf25e7fff401104651b00423b20fa287":[9,0,1,0,1,2,13],
 "namespaceMR_1_1DistanceMapLoad.html":[9,0,0,19,10],
 "namespaceMR_1_1DistanceMapLoad.html#af1f62813f68011847bea88c8d3bfe7bb":[9,0,1,0,1,4,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "namespaceMR_1_1PythonViewer.html#a6dffbc6806fbf32351f167755ed2c21f":[9,0,1,0,1,40,41],
 "namespaceMR_1_1PythonViewer.html#a7170c837f0a196397d7fd7aa905e1bf9":[9,0,1,0,1,40,52],
 "namespaceMR_1_1PythonViewer.html#a73657e1db3a041bf91d7ea38189e65ef":[9,0,1,0,1,40,38],
-"namespaceMR_1_1PythonViewer.html#a749b8f31cb7a8bc2bae103eb08f987cb":[9,0,1,0,1,40,30],
-"namespaceMR_1_1PythonViewer.html#a74bff7cc8e16cd501f5306a19ac84048":[9,0,1,0,1,40,43]
+"namespaceMR_1_1PythonViewer.html#a749b8f31cb7a8bc2bae103eb08f987cb":[9,0,1,0,1,40,30]
 };

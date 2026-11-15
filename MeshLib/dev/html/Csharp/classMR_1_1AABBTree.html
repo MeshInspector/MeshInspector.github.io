@@ -158,6 +158,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5074a33d522d0d1d9f40757f9642bad4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a0fe9f89526ce3b9319309cd487d21536" title="Constructs an empty (default-constructed) instance.">MR.AABBTree.AABBTree</a></span>.  <br /></td></tr>
 <tr class="memitem:aad3f5d1057d0339e5fbc2790ac88ccc1" id="r_aad3f5d1057d0339e5fbc2790ac88ccc1"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad3f5d1057d0339e5fbc2790ac88ccc1">AABBTree</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp)</td></tr>
 <tr class="memdesc:aad3f5d1057d0339e5fbc2790ac88ccc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for given mesh or its part Generated from constructor <span class="tt"><a class="el" href="#a0fe9f89526ce3b9319309cd487d21536" title="Constructs an empty (default-constructed) instance.">MR.AABBTree.AABBTree</a></span>.  <br /></td></tr>
+<tr class="memitem:af62a6bb80be320924fe46983910ba9dc" id="r_af62a6bb80be320924fe46983910ba9dc"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af62a6bb80be320924fe46983910ba9dc">AABBTree</a> (<a class="el" href="classMR_1_1Const__TriMesh.html">MR.Const_TriMesh</a> tmesh, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:af62a6bb80be320924fe46983910ba9dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for the triangles of tmesh (all if region is nullptr), faster than from a mesh; it is the tree of a mesh with tmesh.points and mesh.topology.getTriVerts( f ) == tmesh.tris[f] for all its triangles Generated from constructor <span class="tt"><a class="el" href="#a0fe9f89526ce3b9319309cd487d21536" title="Constructs an empty (default-constructed) instance.">MR.AABBTree.AABBTree</a></span>.  <br /></td></tr>
 <tr class="memitem:ac9cf74a20e92daa54a90f0be97415c79" id="r_ac9cf74a20e92daa54a90f0be97415c79"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1AABBTree.html">MR.AABBTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9cf74a20e92daa54a90f0be97415c79">assign</a> (MR._ByValue_AABBTree _other)</td></tr>
 <tr class="memdesc:ac9cf74a20e92daa54a90f0be97415c79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::AABBTree::operator=</span>.  <br /></td></tr>
 <tr class="memitem:ad4ff84b31874fa2b601287398a47706c" id="r_ad4ff84b31874fa2b601287398a47706c"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4ff84b31874fa2b601287398a47706c">renumber</a> (<a class="el" href="classMR_1_1Const__FaceBMap.html">MR.Const_FaceBMap</a> faceMap, <a class="el" href="classMR_1_1Const__VertBMap.html">MR.Const_VertBMap</a> vertMap)</td></tr>
@@ -176,6 +178,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a59ef726454232622f08da7080c6692ee inherit pub_methods_classMR_1_1Const__AABBTree"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a0fe9f89526ce3b9319309cd487d21536" title="Constructs an empty (default-constructed) instance.">MR.AABBTree.AABBTree</a></span>.  <br /></td></tr>
 <tr class="memitem:a677569f5fa30f62d6598203d51f2da99 inherit pub_methods_classMR_1_1Const__AABBTree" id="r_a677569f5fa30f62d6598203d51f2da99"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__AABBTree.html#a677569f5fa30f62d6598203d51f2da99">Const_AABBTree</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp)</td></tr>
 <tr class="memdesc:a677569f5fa30f62d6598203d51f2da99 inherit pub_methods_classMR_1_1Const__AABBTree"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for given mesh or its part Generated from constructor <span class="tt"><a class="el" href="#a0fe9f89526ce3b9319309cd487d21536" title="Constructs an empty (default-constructed) instance.">MR.AABBTree.AABBTree</a></span>.  <br /></td></tr>
+<tr class="memitem:a4a57b8b74fcf1a009644fdba42e812fc inherit pub_methods_classMR_1_1Const__AABBTree" id="r_a4a57b8b74fcf1a009644fdba42e812fc"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__AABBTree.html#a4a57b8b74fcf1a009644fdba42e812fc">Const_AABBTree</a> (<a class="el" href="classMR_1_1Const__TriMesh.html">MR.Const_TriMesh</a> tmesh, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:a4a57b8b74fcf1a009644fdba42e812fc inherit pub_methods_classMR_1_1Const__AABBTree"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for the triangles of tmesh (all if region is nullptr), faster than from a mesh; it is the tree of a mesh with tmesh.points and mesh.topology.getTriVerts( f ) == tmesh.tris[f] for all its triangles Generated from constructor <span class="tt"><a class="el" href="#a0fe9f89526ce3b9319309cd487d21536" title="Constructs an empty (default-constructed) instance.">MR.AABBTree.AABBTree</a></span>.  <br /></td></tr>
 <tr class="memitem:acf6498178015af0e97a747c67ce64b8c inherit pub_methods_classMR_1_1Const__AABBTree" id="r_acf6498178015af0e97a747c67ce64b8c"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__Vector__MRAABBTreeWideNode__MRNodeId.html">MR.Const_Vector_MRAABBTreeWideNode_MRNodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__AABBTree.html#acf6498178015af0e97a747c67ce64b8c">nodes</a> ()</td></tr>
 <tr class="memdesc:acf6498178015af0e97a747c67ce64b8c inherit pub_methods_classMR_1_1Const__AABBTree"><td class="mdescLeft">&#160;</td><td class="mdescRight">the root is the first node, if any Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__AABBTree.html#acf6498178015af0e97a747c67ce64b8c" title="the root is the first node, if any Generated from method MR.AABBTree.nodes.">MR.AABBTree.nodes</a></span>.  <br /></td></tr>
 <tr class="memitem:ab216bedcc6d839ed3cf6d870f2c06f75 inherit pub_methods_classMR_1_1Const__AABBTree" id="r_ab216bedcc6d839ed3cf6d870f2c06f75"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__AABBTree.html#ab216bedcc6d839ed3cf6d870f2c06f75">getBoundingBox</a> ()</td></tr>
@@ -213,7 +217,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><p>bounding volume hierarchy of mesh triangles with up to 4 children per node and up to 4 triangles per leaf; the children of a node are stored contiguously, and every leaf keeps the vertices and the boxes of its triangles Generated from class <span class="tt"><a class="el" href="classMR_1_1AABBTree.html" title="bounding volume hierarchy of mesh triangles with up to 4 children per node and up to 4 triangles per ...">MR.AABBTree</a></span>. This is the non-const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0fe9f89526ce3b9319309cd487d21536" name="a0fe9f89526ce3b9319309cd487d21536"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fe9f89526ce3b9319309cd487d21536">&#9670;&#160;</a></span>AABBTree() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fe9f89526ce3b9319309cd487d21536">&#9670;&#160;</a></span>AABBTree() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240,7 +244,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a5074a33d522d0d1d9f40757f9642bad4" name="a5074a33d522d0d1d9f40757f9642bad4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5074a33d522d0d1d9f40757f9642bad4">&#9670;&#160;</a></span>AABBTree() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5074a33d522d0d1d9f40757f9642bad4">&#9670;&#160;</a></span>AABBTree() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -267,7 +271,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="aad3f5d1057d0339e5fbc2790ac88ccc1" name="aad3f5d1057d0339e5fbc2790ac88ccc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad3f5d1057d0339e5fbc2790ac88ccc1">&#9670;&#160;</a></span>AABBTree() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aad3f5d1057d0339e5fbc2790ac88ccc1">&#9670;&#160;</a></span>AABBTree() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -290,6 +294,37 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>creates tree for given mesh or its part Generated from constructor <span class="tt"><a class="el" href="#a0fe9f89526ce3b9319309cd487d21536" title="Constructs an empty (default-constructed) instance.">MR.AABBTree.AABBTree</a></span>. </p>
+
+</div>
+</div>
+<a id="af62a6bb80be320924fe46983910ba9dc" name="af62a6bb80be320924fe46983910ba9dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af62a6bb80be320924fe46983910ba9dc">&#9670;&#160;</a></span>AABBTree() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.AABBTree.AABBTree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__TriMesh.html">MR.Const_TriMesh</a></td>          <td class="paramname"><span class="paramname"><em>tmesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>creates tree for the triangles of tmesh (all if region is nullptr), faster than from a mesh; it is the tree of a mesh with tmesh.points and mesh.topology.getTriVerts( f ) == tmesh.tris[f] for all its triangles Generated from constructor <span class="tt"><a class="el" href="#a0fe9f89526ce3b9319309cd487d21536" title="Constructs an empty (default-constructed) instance.">MR.AABBTree.AABBTree</a></span>. </p>
 
 </div>
 </div>

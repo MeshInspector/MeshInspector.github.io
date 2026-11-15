@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1MeshSave_1_1NamedXfMesh.html":[9,0,0,2,14,0],
 "structMR_1_1MeshSave_1_1NamedXfMesh.html#a29db5926f11ff21b3d1cb3b4162e228a":[9,0,0,2,14,0,0],
 "structMR_1_1MeshSave_1_1NamedXfMesh.html#a8075df44d9587ee2fd2ee32f18d22f0b":[9,0,0,2,14,0,1],
 "structMR_1_1MeshSave_1_1NamedXfMesh.html#ac966a0534972ef8bcc25ee2d926a5703":[9,0,0,2,14,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1PointsToMeshParameters.html":[9,0,0,19,895],
 "structMR_1_1Polyline.html":[9,0,0,14,1],
 "structMR_1_1Polyline.html#a0127bea8e352025d57d7b71fccf78b15":[9,0,0,14,1,18],
-"structMR_1_1Polyline.html#a02d7af7baeeefe1859077fcfaf778763":[9,0,0,14,1,10],
-"structMR_1_1Polyline.html#a09efa3e658e95b29f1dea8f362d18289":[9,0,0,14,1,19]
+"structMR_1_1Polyline.html#a02d7af7baeeefe1859077fcfaf778763":[9,0,0,14,1,10]
 };

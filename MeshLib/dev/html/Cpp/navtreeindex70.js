@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1Polyline.html#a09efa3e658e95b29f1dea8f362d18289":[9,0,0,14,1,19],
 "structMR_1_1Polyline.html#a119663899ffa7bc20f9b3ab77cc3b6db":[9,0,0,14,1,9],
 "structMR_1_1Polyline.html#a29635bdcaade26236bf38e9044e1605a":[9,0,0,14,1,14],
 "structMR_1_1Polyline.html#a2c547895888165d873db848b161cb5c0":[9,0,0,14,1,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1SaveSettings.html":[9,0,0,19,510],
 "structMR_1_1SceneColors.html":[9,0,0,17,3],
 "structMR_1_1SceneColors.html":[9,0,0,19,512],
-"structMR_1_1SceneLoad_1_1Result.html":[9,0,1,0,1,47,0],
-"structMR_1_1SceneLoad_1_1Result.html":[9,0,2,0,1,30,0]
+"structMR_1_1SceneLoad_1_1Result.html":[9,0,1,0,1,47,0]
 };

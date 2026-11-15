@@ -1,5 +1,7 @@
 var NAVTREEINDEX218 =
 {
+"classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html#ad05ec7370b823c4359a0cf4c45547724":[9,1,0,0,2,2636,0,2],
+"classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html#ad05ec7370b823c4359a0cf4c45547724":[9,1,1,0,1,2636,0,2],
 "classmrmeshpy_1_1VolumeToMeshByPartsSettings.html":[9,1,0,0,2,2637],
 "classmrmeshpy_1_1VolumeToMeshByPartsSettings.html":[9,1,1,0,1,2637],
 "classmrmeshpy_1_1VolumeToMeshByPartsSettings.html#a003fe0d8a06b94a39d518542828675b8":[9,1,0,0,2,2637,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX218 =
 "classmrmeshpy_1_1VoxelTraits__VoxelBitSet.html#abade1506d1f964bf0c2aa409e0e28b26":[9,1,0,0,2,2659,3],
 "classmrmeshpy_1_1VoxelTraits__VoxelBitSet.html#abade1506d1f964bf0c2aa409e0e28b26":[9,1,1,0,1,2659,3],
 "classmrmeshpy_1_1VoxelTraits__VoxelBitSet.html#abdb9888d9fcffca139ad92e3450bcc68":[9,1,0,0,2,2659,1],
-"classmrmeshpy_1_1VoxelTraits__VoxelBitSet.html#abdb9888d9fcffca139ad92e3450bcc68":[9,1,1,0,1,2659,1],
-"classmrmeshpy_1_1VoxelTraits__VoxelBitSet.html#ae092486707954deb32a152673557983a":[9,1,0,0,2,2659,0],
-"classmrmeshpy_1_1VoxelTraits__VoxelBitSet.html#ae092486707954deb32a152673557983a":[9,1,0,0,2,2659,2]
+"classmrmeshpy_1_1VoxelTraits__VoxelBitSet.html#abdb9888d9fcffca139ad92e3450bcc68":[9,1,1,0,1,2659,1]
 };

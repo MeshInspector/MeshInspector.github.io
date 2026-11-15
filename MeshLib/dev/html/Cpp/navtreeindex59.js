@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"group__PolylineGroup.html#gaf8d65b66fff9354b3bc66388ced2283c":[9,0,0,14,5],
 "group__PolylineSubdivideGroup.html":[9,0,0,14,0],
 "group__PolylineSubdivideGroup.html#ga8f12328931f9ad5bb4f2a045c02c354a":[9,0,0,14,0,2],
 "group__PolylineSubdivideGroup.html#gab43831fc9496b5cfec6dabf33d82df2b":[9,0,0,14,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "group__TriangleIntersectionGroup.html#ga56e080b75b029cd99c5de48a2ae1c305":[9,0,0,0,10,1],
 "group__TriangleIntersectionGroup.html#ga604a5fdfb1c7fb0f6a4c7f10868d25da":[9,0,0,0,10,14],
 "group__TriangleIntersectionGroup.html#ga6a43e195d7ec620f7660643c28e4ea5e":[9,0,0,0,10,12],
-"group__TriangleIntersectionGroup.html#ga746d797c724c3644c060dec600b7a05a":[9,0,0,0,10,15],
-"group__TriangleIntersectionGroup.html#gaa3ee6790b4ece0bf6f6e65a72fb472f5":[9,0,0,0,10,9]
+"group__TriangleIntersectionGroup.html#ga746d797c724c3644c060dec600b7a05a":[9,0,0,0,10,15]
 };

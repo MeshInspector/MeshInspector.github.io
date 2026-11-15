@@ -1,5 +1,7 @@
 var NAVTREEINDEX142 =
 {
+"classmeshlib_1_1TrivialMetricToPenalty.html#ac578495df2f12a3cb4a3d7eb963acd18":[9,6,1,0,0,1546,1],
+"classmeshlib_1_1TrivialMetricToPenalty.html#ad3a15df43a8c2f9c54d943bc5c2b525f":[9,6,0,0,0,1546,3],
 "classmeshlib_1_1TrivialMetricToPenalty.html#ad3a15df43a8c2f9c54d943bc5c2b525f":[9,6,1,0,0,1546,3],
 "classmeshlib_1_1TrivialMetricToPenalty.html#aeb375b259e9b9f780885c94de4536f1c":[9,6,0,0,0,1546,2],
 "classmeshlib_1_1TrivialMetricToPenalty.html#aeb375b259e9b9f780885c94de4536f1c":[9,6,1,0,0,1546,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX142 =
 "classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a473827ac8c6a9ca0f7f7097a2afed382":[9,6,1,0,0,1552,19],
 "classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a49bd509aca89b20bb20f21430399bf51":[9,6,0,0,0,1552,59],
 "classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a49bd509aca89b20bb20f21430399bf51":[9,6,1,0,0,1552,59],
-"classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a4a4c15096f9bbf3c536b226c21f572a0":[9,6,0,0,0,1552,57],
-"classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a4a4c15096f9bbf3c536b226c21f572a0":[9,6,1,0,0,1552,57],
-"classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a5705cfb729721491c892a649df7e9552":[9,6,0,0,0,1552,48]
+"classmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a4a4c15096f9bbf3c536b226c21f572a0":[9,6,0,0,0,1552,57]
 };

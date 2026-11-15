@@ -1,5 +1,7 @@
 var NAVTREEINDEX271 =
 {
+"namespacemeshlib_1_1imagesave.html":[9,6,0,0,0,10],
+"namespacemeshlib_1_1imagetransform.html":[9,6,0,0,0,11],
 "namespacemeshlib_1_1linesload.html":[9,6,0,0,0,12],
 "namespacemeshlib_1_1linessave.html":[9,6,0,0,0,13],
 "namespacemeshlib_1_1locale.html":[9,6,0,0,0,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX271 =
 "std__pair__MR__FaceBitSet__MR__FaceBitSet_8java.html":[9,6,2,0,0,1,0,0,1149],
 "std__pair__MR__FaceBitSet__int_8java.html":[9,6,2,0,0,1,0,0,1148],
 "std__pair__MR__FaceId__bool_8java.html":[9,6,2,0,0,1,0,0,1150],
-"std__pair__MR__GraphEdgeId__float_8java.html":[9,6,2,0,0,1,0,0,1151],
-"std__pair__MR__Id__MR__SurfaceDistanceStartTag__bool_8java.html":[9,6,2,0,0,1,0,0,1152],
-"std__pair__MR__Polyline2__MR__AffineXf3f_8java.html":[9,6,2,0,0,1,0,0,1153]
+"std__pair__MR__GraphEdgeId__float_8java.html":[9,6,2,0,0,1,0,0,1151]
 };
