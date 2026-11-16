@@ -364,6 +364,7 @@ var dir_48a1ec47db35593d9d3f02b5df3192b0 =
     [ "MRTriDist.h", "MRTriDist_8h.html", "MRTriDist_8h" ],
     [ "MRTriMath.h", "MRTriMath_8h.html", "MRTriMath_8h" ],
     [ "MRTriMesh.h", "MRTriMesh_8h.html", "MRTriMesh_8h" ],
+    [ "MRTriMeshPart.h", "MRTriMeshPart_8h.html", "MRTriMeshPart_8h" ],
     [ "MRTripleFaceIntersections.h", "MRTripleFaceIntersections_8h.html", "MRTripleFaceIntersections_8h" ],
     [ "MRTriPoint.h", "MRTriPoint_8h.html", "MRTriPoint_8h" ],
     [ "MRTunnelDetector.h", "MRTunnelDetector_8h.html", "MRTunnelDetector_8h" ],

@@ -4931,6 +4931,13 @@ var group__GeneralGroup =
       [ "points", "group__GeneralGroup.html#ga2819cf8b07b6ca5bccb45dd61d9d7f9d", null ],
       [ "tris", "group__GeneralGroup.html#ga1063845cc2871f7dcae178304213db81", null ]
     ] ],
+    [ "MR::TriMeshPart", "structMR_1_1TriMeshPart.html", [
+      [ "TriMeshPart", "group__GeneralGroup.html#gae1ce90d0ca764714e3a0dc6f5fd8ece5", null ],
+      [ "points", "group__GeneralGroup.html#gaf64b21d20495c269db08d4709485b329", null ],
+      [ "region", "group__GeneralGroup.html#gaaaf03f0480de4e5fa7e5f325ae6cd20b", null ],
+      [ "regionVerts", "group__GeneralGroup.html#gaa06ac91e5628c4569229b9f2c281e2fd", null ],
+      [ "tris", "group__GeneralGroup.html#ga172d8c07a31ac06eae9426dd6d303cfa", null ]
+    ] ],
     [ "MR::FaceFaceFace", "structMR_1_1FaceFaceFace.html", [
       [ "FaceFaceFace", "group__GeneralGroup.html#ga0e5733dffb431d23e489ffb540237689", null ],
       [ "FaceFaceFace", "group__GeneralGroup.html#ga8a49e27d2dc2b97960798a2ff0ab1dc0", null ],
@@ -16741,6 +16748,7 @@ var group__GeneralGroup =
     [ "MR::triDist", "group__GeneralGroup.html#gac1bad3906fe116bb8f0ecdd2cb9063bf", null ],
     [ "MR::triDist", "group__GeneralGroup.html#gab8f112b6b6b2db1518dd25e8868ffce5", null ],
     [ "MR::trim", "group__GeneralGroup.html#gabc75dcfd9d6856a1711631186bfd4dc5", null ],
+    [ "MR::TriMeshPart::TriMeshPart", "group__GeneralGroup.html#gae1ce90d0ca764714e3a0dc6f5fd8ece5", null ],
     [ "MR::trimLeft", "group__GeneralGroup.html#gaa558a6a4d245985a4876ca724a708e35", null ],
     [ "MR::trimRight", "group__GeneralGroup.html#ga3b8ff91f3a917ba2e7e6cf6745679105", null ],
     [ "MR::trimWithPlane", "group__GeneralGroup.html#ga3070b04945208b9665cb3a3f89e510cb", null ],
@@ -18680,6 +18688,7 @@ var group__GeneralGroup =
     [ "MR::ModelPointsData::points", "group__GeneralGroup.html#ga68f2dced6aad70a6ad6e70cc610e1dd0", null ],
     [ "MR::RenderDimensions::LengthParams::points", "group__GeneralGroup.html#ga39c3eb2e95daad75555328645c768d56", null ],
     [ "MR::TriMesh::points", "group__GeneralGroup.html#ga2819cf8b07b6ca5bccb45dd61d9d7f9d", null ],
+    [ "MR::TriMeshPart::points", "group__GeneralGroup.html#gaf64b21d20495c269db08d4709485b329", null ],
     [ "MR::ViewportPointsWithColors::points", "group__GeneralGroup.html#gac82bf98c749b0bb821e259629bb70b84", null ],
     [ "MR::ObjectPointsHolder::points_", "group__GeneralGroup.html#gabfa588fa9e443c6c2bb637a1e9ad98cb", null ],
     [ "MR::RenderMeshObject::pointsArrayObjId_", "group__GeneralGroup.html#gae21f610e2d016727daa229121b9d6b19", null ],
@@ -18847,6 +18856,8 @@ var group__GeneralGroup =
     [ "MR::RelaxParams::region", "group__GeneralGroup.html#gabeb08d7e70411cf9ef2826c0f058b909", null ],
     [ "MR::SmoothCameraMeshDepthSettings::region", "group__GeneralGroup.html#ga59ea37b974c89c4776f198ee775bf128", null ],
     [ "MR::SpacingSettings::region", "group__GeneralGroup.html#gac011fc95d61ece99cc3358e1236104d9", null ],
+    [ "MR::TriMeshPart::region", "group__GeneralGroup.html#gaaaf03f0480de4e5fa7e5f325ae6cd20b", null ],
+    [ "MR::TriMeshPart::regionVerts", "group__GeneralGroup.html#gaa06ac91e5628c4569229b9f2c281e2fd", null ],
     [ "MR::SceneObjectsListDrawer::ScrollPositionPreservation::relativeMousePos", "group__GeneralGroup.html#gabbf3505abf910c44d4b8d50aaae3fb11", null ],
     [ "MR::GridToMeshSettings::relaxDisorientedTriangles", "group__GeneralGroup.html#ga1b0ad87a91cd5605d3c6c9df23882b43", null ],
     [ "MR::CompensateRadiusParams::relaxExpansion", "group__GeneralGroup.html#gadee28415a6ac7b943071cce3515545a2", null ],
@@ -19267,6 +19278,7 @@ var group__GeneralGroup =
     [ "MR::PlyLoadParams::tris", "group__GeneralGroup.html#gab60b055cffae98b1ce1a1a4466cfe633", null ],
     [ "MR::SeparationPointStorage::Block::tris", "group__GeneralGroup.html#ga846d3bc158a03f5fd24580dc8b40e085", null ],
     [ "MR::TriMesh::tris", "group__GeneralGroup.html#ga1063845cc2871f7dcae178304213db81", null ],
+    [ "MR::TriMeshPart::tris", "group__GeneralGroup.html#ga172d8c07a31ac06eae9426dd6d303cfa", null ],
     [ "MR::UniteMeshNormalizationParams::trySelfBoolean", "group__GeneralGroup.html#ga5f12c60bf402aefc6a303e649374592f", null ],
     [ "MR::BMap::tsize", "group__GeneralGroup.html#ga82445cec627eb947404a79b0b670c515", null ],
     [ "MR::AlphaShapeData::twins", "group__GeneralGroup.html#gaf95bff20ceaa8e660189eab2b31cba67", null ],

@@ -1603,6 +1603,7 @@ var namespacemeshlib =
     [ "TriCornerUVCoords", "structmeshlib_1_1TriCornerUVCoords.html", "structmeshlib_1_1TriCornerUVCoords" ],
     [ "TriIntersectResult", "structmeshlib_1_1TriIntersectResult.html", "structmeshlib_1_1TriIntersectResult" ],
     [ "TriMesh", "structmeshlib_1_1TriMesh.html", "structmeshlib_1_1TriMesh" ],
+    [ "TriMeshPart", "structmeshlib_1_1TriMeshPart.html", "structmeshlib_1_1TriMeshPart" ],
     [ "TrimOptionalOutput", "structmeshlib_1_1TrimOptionalOutput.html", "structmeshlib_1_1TrimOptionalOutput" ],
     [ "TrimWithPlaneParams", "structmeshlib_1_1TrimWithPlaneParams.html", "structmeshlib_1_1TrimWithPlaneParams" ],
     [ "TriPointd", "structmeshlib_1_1TriPointd.html", "structmeshlib_1_1TriPointd" ],

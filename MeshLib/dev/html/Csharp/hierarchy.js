@@ -2391,6 +2391,9 @@ var hierarchy =
       [ "MR.Const_TriMesh", "classMR_1_1Const__TriMesh.html", [
         [ "MR.TriMesh", "classMR_1_1TriMesh.html", null ]
       ] ],
+      [ "MR.Const_TriMeshPart", "classMR_1_1Const__TriMeshPart.html", [
+        [ "MR.TriMeshPart", "classMR_1_1TriMeshPart.html", null ]
+      ] ],
       [ "MR.Const_TriPointd", "classMR_1_1Const__TriPointd.html", [
         [ "MR.TriPointd", "classMR_1_1TriPointd.html", null ]
       ] ],
@@ -4417,6 +4420,7 @@ var hierarchy =
       [ "MR.Const_TriCornerUVCoords", "classMR_1_1Const__TriCornerUVCoords.html", null ],
       [ "MR.Const_TriIntersectResult", "classMR_1_1Const__TriIntersectResult.html", null ],
       [ "MR.Const_TriMesh", "classMR_1_1Const__TriMesh.html", null ],
+      [ "MR.Const_TriMeshPart", "classMR_1_1Const__TriMeshPart.html", null ],
       [ "MR.Const_TriPointd", "classMR_1_1Const__TriPointd.html", null ],
       [ "MR.Const_TriPointf", "classMR_1_1Const__TriPointf.html", null ],
       [ "MR.Const_TriTriDistanceParams_Double", "classMR_1_1Const__TriTriDistanceParams__Double.html", null ],

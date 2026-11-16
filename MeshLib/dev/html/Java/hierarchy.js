@@ -742,6 +742,7 @@ var hierarchy =
         [ "meshlib.TriCornerUVCoords", "classmeshlib_1_1TriCornerUVCoords.html", null ],
         [ "meshlib.TriIntersectResult", "classmeshlib_1_1TriIntersectResult.html", null ],
         [ "meshlib.TriMesh", "classmeshlib_1_1TriMesh.html", null ],
+        [ "meshlib.TriMeshPart", "classmeshlib_1_1TriMeshPart.html", null ],
         [ "meshlib.TriPointd", "classmeshlib_1_1TriPointd.html", null ],
         [ "meshlib.TriPointf", "classmeshlib_1_1TriPointf.html", null ],
         [ "meshlib.TriTriDistanceParams_double", "classmeshlib_1_1TriTriDistanceParams__double.html", null ],

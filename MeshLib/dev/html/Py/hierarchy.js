@@ -4002,6 +4002,9 @@ var hierarchy =
     [ "mrmeshpy.ConstTriMesh", "classmrmeshpy_1_1ConstTriMesh.html", [
       [ "mrmeshpy.TriMesh", "classmrmeshpy_1_1TriMesh.html", null ]
     ] ],
+    [ "mrmeshpy.ConstTriMeshPart", "classmrmeshpy_1_1ConstTriMeshPart.html", [
+      [ "mrmeshpy.TriMeshPart", "classmrmeshpy_1_1TriMeshPart.html", null ]
+    ] ],
     [ "mrmeshpy.ConstTrimOptionalOutput", "classmrmeshpy_1_1ConstTrimOptionalOutput.html", [
       [ "mrmeshpy.TrimOptionalOutput", "classmrmeshpy_1_1TrimOptionalOutput.html", null ]
     ] ],

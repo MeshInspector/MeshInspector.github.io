@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"classmeshlib_1_1Ball1f.html#a7b08d99a0ead69f855f42a1cd176fd04":[9,6,0,0,0,76,0],
 "classmeshlib_1_1Ball1f.html#a7b08d99a0ead69f855f42a1cd176fd04":[9,6,1,0,0,76,0],
 "classmeshlib_1_1Ball1f.html#aa220ed473476bd2f5b9e88cfcafcd105":[9,6,0,0,0,76,1],
 "classmeshlib_1_1Ball1f.html#aa220ed473476bd2f5b9e88cfcafcd105":[9,6,1,0,0,76,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#a7984d88d4495dc6cf657c37fa046d6fe":[9,6,0,0,0,86,3],
 "classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#a7984d88d4495dc6cf657c37fa046d6fe":[9,6,1,0,0,86,3],
 "classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#a93f19031ef8833f666b938844dc191d1":[9,6,0,0,0,86,14],
-"classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#a93f19031ef8833f666b938844dc191d1":[9,6,1,0,0,86,14],
-"classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#a96d0747cd08c351f4481fb4d86799012":[9,6,0,0,0,86,0]
+"classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#a93f19031ef8833f666b938844dc191d1":[9,6,1,0,0,86,14]
 };

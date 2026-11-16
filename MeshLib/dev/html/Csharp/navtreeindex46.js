@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"classMR_1_1Const__ExtraFormatSettings.html#acc2150f5297d98e0256aeafd01f6d950":[9,3,0,0,0,455,7],
 "classMR_1_1Const__ExtraFormatSettings.html#accf7bcbd99b63e64d978287803b6558b":[9,3,0,0,0,455,2],
 "classMR_1_1Const__ExtraFormatSettings.html#af16a8d9e9b587981a05ae374ab8936c5":[9,3,0,0,0,455,6],
 "classMR_1_1Const__Face2RegionMap.html":[9,3,0,0,0,456],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "classMR_1_1Const__FaceScalars.html#a7c6c1cce96ec8d18e03334842f03692d":[9,3,0,0,0,466,20],
 "classMR_1_1Const__FaceScalars.html#a83508a50248ff17677b5de3837545e4e":[9,3,0,0,0,466,17],
 "classMR_1_1Const__FaceScalars.html#a835d9b2698130ef5dee71f813f3d216e":[9,3,0,0,0,466,0],
-"classMR_1_1Const__FaceScalars.html#a86881029b6522f116ddfc71f6e069e22":[9,3,0,0,0,466,11],
-"classMR_1_1Const__FaceScalars.html#a903e4b34b4d62f6347eaaabad2e06001":[9,3,0,0,0,466,22]
+"classMR_1_1Const__FaceScalars.html#a86881029b6522f116ddfc71f6e069e22":[9,3,0,0,0,466,11]
 };

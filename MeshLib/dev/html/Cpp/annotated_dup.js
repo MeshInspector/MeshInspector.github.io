@@ -30,6 +30,7 @@ var annotated_dup =
         [ "HashMapSlots", "structMR_1_1detail_1_1HashMapSlots.html", "structMR_1_1detail_1_1HashMapSlots" ],
         [ "MakeScopeGuard", "structMR_1_1detail_1_1MakeScopeGuard.html", "structMR_1_1detail_1_1MakeScopeGuard" ],
         [ "NoInitIterator", "structMR_1_1detail_1_1NoInitIterator.html", "structMR_1_1detail_1_1NoInitIterator" ],
+        [ "NoRenumber", "structMR_1_1detail_1_1NoRenumber.html", "structMR_1_1detail_1_1NoRenumber" ],
         [ "PerturbationStagesOf", "classMR_1_1detail_1_1PerturbationStagesOf.html", "classMR_1_1detail_1_1PerturbationStagesOf" ],
         [ "PointDegree", "structMR_1_1detail_1_1PointDegree.html", "structMR_1_1detail_1_1PointDegree" ],
         [ "ScopeGuard", "classMR_1_1detail_1_1ScopeGuard.html", "classMR_1_1detail_1_1ScopeGuard" ]
@@ -1124,6 +1125,7 @@ var annotated_dup =
       [ "TriangulationParameters", "structMR_1_1TriangulationParameters.html", "structMR_1_1TriangulationParameters" ],
       [ "TriIntersectResult", "structMR_1_1TriIntersectResult.html", "structMR_1_1TriIntersectResult" ],
       [ "TriMesh", "structMR_1_1TriMesh.html", "structMR_1_1TriMesh" ],
+      [ "TriMeshPart", "structMR_1_1TriMeshPart.html", "structMR_1_1TriMeshPart" ],
       [ "TrimOptionalOutput", "structMR_1_1TrimOptionalOutput.html", "structMR_1_1TrimOptionalOutput" ],
       [ "TrimWithPlaneParams", "structMR_1_1TrimWithPlaneParams.html", "structMR_1_1TrimWithPlaneParams" ],
       [ "TriPoint", "structMR_1_1TriPoint.html", "structMR_1_1TriPoint" ],

@@ -1881,6 +1881,8 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.TriIntersectResult", "classmrmeshpy_1_1TriIntersectResult.html", "classmrmeshpy_1_1TriIntersectResult" ],
     [ "mrmeshpy.ConstTriMesh", "classmrmeshpy_1_1ConstTriMesh.html", "classmrmeshpy_1_1ConstTriMesh" ],
     [ "mrmeshpy.TriMesh", "classmrmeshpy_1_1TriMesh.html", "classmrmeshpy_1_1TriMesh" ],
+    [ "mrmeshpy.ConstTriMeshPart", "classmrmeshpy_1_1ConstTriMeshPart.html", "classmrmeshpy_1_1ConstTriMeshPart" ],
+    [ "mrmeshpy.TriMeshPart", "classmrmeshpy_1_1TriMeshPart.html", "classmrmeshpy_1_1TriMeshPart" ],
     [ "mrmeshpy.ConstTriPointd", "classmrmeshpy_1_1ConstTriPointd.html", "classmrmeshpy_1_1ConstTriPointd" ],
     [ "mrmeshpy.TriPointd", "classmrmeshpy_1_1TriPointd.html", "classmrmeshpy_1_1TriPointd" ],
     [ "mrmeshpy.ConstTriPointf", "classmrmeshpy_1_1ConstTriPointf.html", "classmrmeshpy_1_1ConstTriPointf" ],

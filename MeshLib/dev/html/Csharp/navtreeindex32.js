@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1Const__BMap__MRRegionId__MRRegionId.html#a25836e8b79a4f2d7f50c7f307e1f988a":[9,3,0,0,0,285,0],
 "classMR_1_1Const__BMap__MRRegionId__MRRegionId.html#a545fe36b4dcdbea017d03657010f45f0":[9,3,0,0,0,285,5],
 "classMR_1_1Const__BMap__MRRegionId__MRRegionId.html#a85d58ad61d44d7d61df0749db58275e7":[9,3,0,0,0,285,6],
 "classMR_1_1Const__BMap__MRRegionId__MRRegionId.html#a8d8d057da8720b7279c81687a6ea4e94":[9,3,0,0,0,285,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1Const__BendContoursAlongCurveParams.html#a05413e88f1fc53477067a8e95ec40a24":[9,3,0,0,0,272,10],
 "classMR_1_1Const__BendContoursAlongCurveParams.html#a06b5a578e3ed8e202d455d8f9f61059c":[9,3,0,0,0,272,15],
 "classMR_1_1Const__BendContoursAlongCurveParams.html#a200911c82c33cffdef85ec0ebb11fb78":[9,3,0,0,0,272,8],
-"classMR_1_1Const__BendContoursAlongCurveParams.html#a346997c57650f47c35bbfc94df150a14":[9,3,0,0,0,272,2],
-"classMR_1_1Const__BendContoursAlongCurveParams.html#a41924aea2d8e118a693b854c3b0aa11f":[9,3,0,0,0,272,11]
+"classMR_1_1Const__BendContoursAlongCurveParams.html#a346997c57650f47c35bbfc94df150a14":[9,3,0,0,0,272,2]
 };

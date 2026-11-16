@@ -245,9 +245,9 @@ var NAVTREEINDEX1 =
 "MRTorus_8cs.html":[9,3,1,0,0,0,2,359],
 "MRTriDist_8cs.html":[9,3,1,0,0,0,2,361],
 "MRTriMath_8cs.html":[9,3,1,0,0,0,2,362],
+"MRTriMeshPart_8cs.html":[9,3,1,0,0,0,2,364],
 "MRTriMesh_8cs.html":[9,3,1,0,0,0,2,363],
-"MRTriPoint_8cs.html":[9,3,1,0,0,0,2,365],
+"MRTriPoint_8cs.html":[9,3,1,0,0,0,2,366],
 "MRTriangleIntersection_8cs.html":[9,3,1,0,0,0,2,360],
-"MRTripleFaceIntersections_8cs.html":[9,3,1,0,0,0,2,364],
-"MRTunnelDetector_8cs.html":[9,3,1,0,0,0,2,366]
+"MRTripleFaceIntersections_8cs.html":[9,3,1,0,0,0,2,365]
 };

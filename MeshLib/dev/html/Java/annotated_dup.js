@@ -1770,6 +1770,7 @@ var annotated_dup =
       [ "TriCornerUVCoords", "classmeshlib_1_1TriCornerUVCoords.html", "classmeshlib_1_1TriCornerUVCoords" ],
       [ "TriIntersectResult", "classmeshlib_1_1TriIntersectResult.html", "classmeshlib_1_1TriIntersectResult" ],
       [ "TriMesh", "classmeshlib_1_1TriMesh.html", "classmeshlib_1_1TriMesh" ],
+      [ "TriMeshPart", "classmeshlib_1_1TriMeshPart.html", "classmeshlib_1_1TriMeshPart" ],
       [ "TrimOptionalOutput", "classmeshlib_1_1TrimOptionalOutput.html", "classmeshlib_1_1TrimOptionalOutput" ],
       [ "TrimWithPlaneParams", "classmeshlib_1_1TrimWithPlaneParams.html", "classmeshlib_1_1TrimWithPlaneParams" ],
       [ "TriPointd", "classmeshlib_1_1TriPointd.html", "classmeshlib_1_1TriPointd" ],

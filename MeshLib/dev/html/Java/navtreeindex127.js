@@ -1,5 +1,6 @@
 var NAVTREEINDEX127 =
 {
+"classmeshlib_1_1SetBitIteratorT__MR__RegionBitSet.html#a01dad6a8dba5df4e701d5bcf05437e74":[9,6,0,0,0,928,1],
 "classmeshlib_1_1SetBitIteratorT__MR__RegionBitSet.html#a01dad6a8dba5df4e701d5bcf05437e74":[9,6,1,0,0,928,1],
 "classmeshlib_1_1SetBitIteratorT__MR__RegionBitSet.html#a2334859bd8c527bd16176522eed21348":[9,6,0,0,0,928,4],
 "classmeshlib_1_1SetBitIteratorT__MR__RegionBitSet.html#a2334859bd8c527bd16176522eed21348":[9,6,1,0,0,928,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX127 =
 "classmeshlib_1_1ShellVertexInfo.html#a1f884db4af3ee686738eed4e5ff5d3ed":[9,6,0,0,0,936,11],
 "classmeshlib_1_1ShellVertexInfo.html#a1f884db4af3ee686738eed4e5ff5d3ed":[9,6,1,0,0,936,11],
 "classmeshlib_1_1ShellVertexInfo.html#a60ab8eaf9a5d803dbdf54d1e7389bafe":[9,6,0,0,0,936,8],
-"classmeshlib_1_1ShellVertexInfo.html#a60ab8eaf9a5d803dbdf54d1e7389bafe":[9,6,1,0,0,936,8],
-"classmeshlib_1_1ShellVertexInfo.html#aa7f041c2380392142b3844501f714907":[9,6,0,0,0,936,7]
+"classmeshlib_1_1ShellVertexInfo.html#a60ab8eaf9a5d803dbdf54d1e7389bafe":[9,6,1,0,0,936,8]
 };

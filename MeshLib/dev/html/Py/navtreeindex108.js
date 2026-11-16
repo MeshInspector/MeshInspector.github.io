@@ -1,5 +1,17 @@
 var NAVTREEINDEX108 =
 {
+"classmrmeshpy_1_1Const__std__vector__SliceInfo.html#a56cae3bde6f52950bede935e98604873":[9,1,0,0,2,452,7],
+"classmrmeshpy_1_1Const__std__vector__SliceInfo.html#a56cae3bde6f52950bede935e98604873":[9,1,1,0,1,452,7],
+"classmrmeshpy_1_1Const__std__vector__SliceInfo.html#a73f1b52ea5e4222cb046b511d82c5f17":[9,1,0,0,2,452,8],
+"classmrmeshpy_1_1Const__std__vector__SliceInfo.html#a73f1b52ea5e4222cb046b511d82c5f17":[9,1,1,0,1,452,8],
+"classmrmeshpy_1_1Const__std__vector__SliceInfo.html#a7bc6ad3a77d2d54a73449736f9c0eb6c":[9,1,0,0,2,452,2],
+"classmrmeshpy_1_1Const__std__vector__SliceInfo.html#a7bc6ad3a77d2d54a73449736f9c0eb6c":[9,1,1,0,1,452,2],
+"classmrmeshpy_1_1Const__std__vector__SliceInfo.html#a8815fc37ab2c2d9ebd692542b510bc19":[9,1,0,0,2,452,9],
+"classmrmeshpy_1_1Const__std__vector__SliceInfo.html#a8815fc37ab2c2d9ebd692542b510bc19":[9,1,1,0,1,452,9],
+"classmrmeshpy_1_1Const__std__vector__SliceInfo.html#ab2b1323f14b0c513e756e401d88d1c09":[9,1,0,0,2,452,4],
+"classmrmeshpy_1_1Const__std__vector__SliceInfo.html#ab2b1323f14b0c513e756e401d88d1c09":[9,1,1,0,1,452,4],
+"classmrmeshpy_1_1Const__std__vector__SliceInfo.html#ab597e8355ad0bca384bb805691d0761d":[9,1,0,0,2,452,11],
+"classmrmeshpy_1_1Const__std__vector__SliceInfo.html#ab597e8355ad0bca384bb805691d0761d":[9,1,1,0,1,452,11],
 "classmrmeshpy_1_1Const__std__vector__SliceInfo.html#aea2012f8e38c01caab4cbee2717623bc":[9,1,0,0,2,452,10],
 "classmrmeshpy_1_1Const__std__vector__SliceInfo.html#aea2012f8e38c01caab4cbee2717623bc":[9,1,1,0,1,452,10],
 "classmrmeshpy_1_1Const__std__vector__SliceInfo.html#af22469191c0bdaa3cc4145bfc1a6995a":[9,1,0,0,2,452,3],
@@ -237,17 +249,5 @@ var NAVTREEINDEX108 =
 "classmrmeshpy_1_1Const__std__vector__TypedBitSet__Id__VoxelTag.html#a9b8130a5cdb3c13044866d3e69ad39e0":[9,1,0,0,2,508,4],
 "classmrmeshpy_1_1Const__std__vector__TypedBitSet__Id__VoxelTag.html#a9b8130a5cdb3c13044866d3e69ad39e0":[9,1,1,0,1,508,4],
 "classmrmeshpy_1_1Const__std__vector__TypedBitSet__Id__VoxelTag.html#aa48191eae11ff9899e807f7a8accf674":[9,1,0,0,2,508,6],
-"classmrmeshpy_1_1Const__std__vector__TypedBitSet__Id__VoxelTag.html#aa48191eae11ff9899e807f7a8accf674":[9,1,1,0,1,508,6],
-"classmrmeshpy_1_1Const__std__vector__TypedBitSet__Id__VoxelTag.html#ab0221ac74e69f1b96bbf03572e791383":[9,1,0,0,2,508,10],
-"classmrmeshpy_1_1Const__std__vector__TypedBitSet__Id__VoxelTag.html#ab0221ac74e69f1b96bbf03572e791383":[9,1,1,0,1,508,10],
-"classmrmeshpy_1_1Const__std__vector__TypedBitSet__Id__VoxelTag.html#ab824512c2a274e2db5298b1d74d21f4b":[9,1,0,0,2,508,8],
-"classmrmeshpy_1_1Const__std__vector__TypedBitSet__Id__VoxelTag.html#ab824512c2a274e2db5298b1d74d21f4b":[9,1,1,0,1,508,8],
-"classmrmeshpy_1_1Const__std__vector__TypedBitSet__Id__VoxelTag.html#ab860865cc10b13347a71cc9b6b9ffe2c":[9,1,0,0,2,508,7],
-"classmrmeshpy_1_1Const__std__vector__TypedBitSet__Id__VoxelTag.html#ab860865cc10b13347a71cc9b6b9ffe2c":[9,1,1,0,1,508,7],
-"classmrmeshpy_1_1Const__std__vector__TypedBitSet__Id__VoxelTag.html#acdfc0d5bf8b05049349f6150c6f61fb5":[9,1,0,0,2,508,11],
-"classmrmeshpy_1_1Const__std__vector__TypedBitSet__Id__VoxelTag.html#acdfc0d5bf8b05049349f6150c6f61fb5":[9,1,1,0,1,508,11],
-"classmrmeshpy_1_1Const__std__vector__UndirectedEdgeUndirectedEdge.html":[9,1,0,0,2,509],
-"classmrmeshpy_1_1Const__std__vector__UndirectedEdgeUndirectedEdge.html":[9,1,1,0,1,509],
-"classmrmeshpy_1_1Const__std__vector__UndirectedEdgeUndirectedEdge.html#a12a8cd390ab4f2c1cd2d6fbc703b7b54":[9,1,0,0,2,509,9],
-"classmrmeshpy_1_1Const__std__vector__UndirectedEdgeUndirectedEdge.html#a12a8cd390ab4f2c1cd2d6fbc703b7b54":[9,1,1,0,1,509,9]
+"classmrmeshpy_1_1Const__std__vector__TypedBitSet__Id__VoxelTag.html#aa48191eae11ff9899e807f7a8accf674":[9,1,1,0,1,508,6]
 };

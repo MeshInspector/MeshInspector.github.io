@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"classMR_1_1Const__PointMeasurementObject.html#a82b41a7be9d99c7693bc267088f5fe83":[9,3,0,0,0,754,56],
 "classMR_1_1Const__PointMeasurementObject.html#a82d4d138bbed619d7a73cbff5447367b":[9,3,0,0,0,754,50],
 "classMR_1_1Const__PointMeasurementObject.html#a8e639710ba65b1c72615c2057fe48d03":[9,3,0,0,0,754,78],
 "classMR_1_1Const__PointMeasurementObject.html#a8f1952746ceaea3ad366bc89fb997fe3":[9,3,0,0,0,754,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "classMR_1_1Const__PointsProjectionResult.html":[9,3,0,0,0,761],
 "classMR_1_1Const__PointsProjectionResult.html#a046d9cc2976fd0816827d293b5de3011":[9,3,0,0,0,761,18],
 "classMR_1_1Const__PointsProjectionResult.html#a217422334c2a9dc74646fd6bc55e5336":[9,3,0,0,0,761,10],
-"classMR_1_1Const__PointsProjectionResult.html#a522237c7857d5c12945851ce39d40fff":[9,3,0,0,0,761,3],
-"classMR_1_1Const__PointsProjectionResult.html#a55c9ba622406a584dccadb2c7f0767f9":[9,3,0,0,0,761,5]
+"classMR_1_1Const__PointsProjectionResult.html#a522237c7857d5c12945851ce39d40fff":[9,3,0,0,0,761,3]
 };

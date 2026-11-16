@@ -1538,6 +1538,7 @@ var dir_e09892e4a4fe1e1db812108bb7b7ae9b =
     [ "TriCornerUVCoords.java", "TriCornerUVCoords_8java.html", "TriCornerUVCoords_8java" ],
     [ "TriIntersectResult.java", "TriIntersectResult_8java.html", "TriIntersectResult_8java" ],
     [ "TriMesh.java", "TriMesh_8java.html", "TriMesh_8java" ],
+    [ "TriMeshPart.java", "TriMeshPart_8java.html", "TriMeshPart_8java" ],
     [ "TrimOptionalOutput.java", "TrimOptionalOutput_8java.html", "TrimOptionalOutput_8java" ],
     [ "TrimWithPlaneParams.java", "TrimWithPlaneParams_8java.html", "TrimWithPlaneParams_8java" ],
     [ "TriPointd.java", "TriPointd_8java.html", "TriPointd_8java" ],

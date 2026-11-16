@@ -871,6 +871,8 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ATriTriDistanceResult_3C_20T_20_3E" id="r_MR_3A_3ATriTriDistanceResult_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriTriDistanceResult.html">MR::TriTriDistanceResult&lt; T &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3ATriTriDistanceParams_3C_20T_20_3E" id="r_MR_3A_3ATriTriDistanceParams_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriTriDistanceParams.html">MR::TriTriDistanceParams&lt; T &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3ATriMesh" id="r_MR_3A_3ATriMesh"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriMesh.html">MR::TriMesh</a></td></tr>
+<tr class="memitem:MR_3A_3ATriMeshPart" id="r_MR_3A_3ATriMeshPart"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriMeshPart.html">MR::TriMeshPart</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> with a region of triangles: only the triangles of the region and their vertices are valid.  <a href="structMR_1_1TriMeshPart.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AFaceFaceFace" id="r_MR_3A_3AFaceFaceFace"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FaceFaceFace.html">MR::FaceFaceFace</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a triple of faces  <a href="structMR_1_1FaceFaceFace.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ATriPoint_3C_20T_20_3E" id="r_MR_3A_3ATriPoint_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TriPoint.html">MR::TriPoint&lt; T &gt;</a></td></tr>
@@ -8313,6 +8315,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga9d52e943714d673d29e28fcb67d1e72d template"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9d52e943714d673d29e28fcb67d1e72d">MR::tangentPlaneToSpheres</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c, T ra, T rb, T rc)</td></tr>
 <tr class="memitem:gac400f45e6e10e9ce613b3632b3dcb2f4" id="r_gac400f45e6e10e9ce613b3632b3dcb2f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac400f45e6e10e9ce613b3632b3dcb2f4">MR::MR_BIND_TEMPLATE</a> (std::optional&lt; <a class="el" href="#ga6b8606e6618471611100352ed5a178a7">Plane3f</a> &gt; <a class="el" href="#ga9d52e943714d673d29e28fcb67d1e72d">tangentPlaneToSpheres</a>(const Vector3f &amp;, const Vector3f &amp;, const Vector3f &amp;, float, float, float))</td></tr>
 <tr class="memitem:gaefbe67a8b132a7cadcc4b5df1f372fce" id="r_gaefbe67a8b132a7cadcc4b5df1f372fce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaefbe67a8b132a7cadcc4b5df1f372fce">MR::MR_BIND_TEMPLATE</a> (std::optional&lt; Plane3d &gt; <a class="el" href="#ga9d52e943714d673d29e28fcb67d1e72d">tangentPlaneToSpheres</a>(const Vector3d &amp;, const Vector3d &amp;, const Vector3d &amp;, double, double, double))</td></tr>
+<tr class="memitem:gae1ce90d0ca764714e3a0dc6f5fd8ece5" id="r_gae1ce90d0ca764714e3a0dc6f5fd8ece5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae1ce90d0ca764714e3a0dc6f5fd8ece5">MR::TriMeshPart::TriMeshPart</a> (const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;m, const FaceBitSet &amp;r)</td></tr>
+<tr class="memdesc:gae1ce90d0ca764714e3a0dc6f5fd8ece5"><td class="mdescLeft">&#160;</td><td class="mdescRight">region must not have bits beyond m.tris  <br /></td></tr>
 <tr class="memitem:ga0e5733dffb431d23e489ffb540237689" id="r_ga0e5733dffb431d23e489ffb540237689"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0e5733dffb431d23e489ffb540237689">MR::FaceFaceFace::FaceFaceFace</a> (FaceId a, FaceId b, FaceId c)</td></tr>
 <tr class="memitem:ga8a49e27d2dc2b97960798a2ff0ab1dc0" id="r_ga8a49e27d2dc2b97960798a2ff0ab1dc0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8a49e27d2dc2b97960798a2ff0ab1dc0">MR::FaceFaceFace::FaceFaceFace</a> ()</td></tr>
 <tr class="memitem:gae8b8ea6a8fe4113e5a65704d378e0720" id="r_gae8b8ea6a8fe4113e5a65704d378e0720"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae8b8ea6a8fe4113e5a65704d378e0720">MR::FaceFaceFace::operator&lt;=&gt;</a> (const <a class="el" href="structMR_1_1FaceFaceFace.html">FaceFaceFace</a> &amp;rhs) const =default</td></tr>
@@ -13818,6 +13822,11 @@ Variables</h2></td></tr>
 <tr class="memitem:ga76e2b79a6d1aacb9cb96489b3f725b01" id="r_ga76e2b79a6d1aacb9cb96489b3f725b01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga44bd35b44ad13ba0a8968ae8260539cd">UpLimitCheck</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga76e2b79a6d1aacb9cb96489b3f725b01">MR::TriTriDistanceParams&lt; T &gt;::upLimitCheck</a> = <a class="el" href="#gga44bd35b44ad13ba0a8968ae8260539cda8768a6821cd735aea4f5b0df88c1fc6a">UpLimitCheck::Greater</a></td></tr>
 <tr class="memitem:ga1063845cc2871f7dcae178304213db81" id="r_ga1063845cc2871f7dcae178304213db81"><td class="memItemLeft" align="right" valign="top">Triangulation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1063845cc2871f7dcae178304213db81">MR::TriMesh::tris</a></td></tr>
 <tr class="memitem:ga2819cf8b07b6ca5bccb45dd61d9d7f9d" id="r_ga2819cf8b07b6ca5bccb45dd61d9d7f9d"><td class="memItemLeft" align="right" valign="top">VertCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2819cf8b07b6ca5bccb45dd61d9d7f9d">MR::TriMesh::points</a></td></tr>
+<tr class="memitem:ga172d8c07a31ac06eae9426dd6d303cfa" id="r_ga172d8c07a31ac06eae9426dd6d303cfa"><td class="memItemLeft" align="right" valign="top">const Triangulation &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga172d8c07a31ac06eae9426dd6d303cfa">MR::TriMeshPart::tris</a></td></tr>
+<tr class="memitem:gaf64b21d20495c269db08d4709485b329" id="r_gaf64b21d20495c269db08d4709485b329"><td class="memItemLeft" align="right" valign="top">const VertCoords &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf64b21d20495c269db08d4709485b329">MR::TriMeshPart::points</a></td></tr>
+<tr class="memitem:gaaaf03f0480de4e5fa7e5f325ae6cd20b" id="r_gaaaf03f0480de4e5fa7e5f325ae6cd20b"><td class="memItemLeft" align="right" valign="top">const FaceBitSet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaaf03f0480de4e5fa7e5f325ae6cd20b">MR::TriMeshPart::region</a></td></tr>
+<tr class="memitem:gaa06ac91e5628c4569229b9f2c281e2fd" id="r_gaa06ac91e5628c4569229b9f2c281e2fd"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa06ac91e5628c4569229b9f2c281e2fd">MR::TriMeshPart::regionVerts</a></td></tr>
+<tr class="memdesc:gaa06ac91e5628c4569229b9f2c281e2fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">vertices of region triangles  <br /></td></tr>
 <tr class="memitem:gacd551d9c00ebe29729a816dec419d8b3" id="r_gacd551d9c00ebe29729a816dec419d8b3"><td class="memItemLeft" align="right" valign="top">FaceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacd551d9c00ebe29729a816dec419d8b3">MR::FaceFaceFace::aFace</a></td></tr>
 <tr class="memitem:ga39681be0c7ab1dc1c15c832197986024" id="r_ga39681be0c7ab1dc1c15c832197986024"><td class="memItemLeft" align="right" valign="top">FaceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga39681be0c7ab1dc1c15c832197986024">MR::FaceFaceFace::bFace</a></td></tr>
 <tr class="memitem:ga9c0b3b8d9c8e17c12f60f7feec45c757" id="r_ga9c0b3b8d9c8e17c12f60f7feec45c757"><td class="memItemLeft" align="right" valign="top">FaceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9c0b3b8d9c8e17c12f60f7feec45c757">MR::FaceFaceFace::cFace</a></td></tr>
@@ -196444,6 +196453,31 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gae1ce90d0ca764714e3a0dc6f5fd8ece5" name="gae1ce90d0ca764714e3a0dc6f5fd8ece5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae1ce90d0ca764714e3a0dc6f5fd8ece5">&#9670;&#160;</a></span>TriMeshPart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::TriMeshPart::TriMeshPart </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>m</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>r</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRTriMeshPart_8h.html">MRMesh/MRTriMeshPart.h</a>&gt;</code></p>
+
+<p>region must not have bits beyond m.tris </p>
+
+</div>
+</div>
 <a id="gaa558a6a4d245985a4876ca724a708e35" name="gaa558a6a4d245985a4876ca724a708e35"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaa558a6a4d245985a4876ca724a708e35">&#9670;&#160;</a></span>trimLeft()</h2>
 
@@ -234258,7 +234292,7 @@ template&lt;UnitEnum E&gt; </div>
 </div>
 </div>
 <a id="gae78d929b06e35477653b8824ffed2383" name="gae78d929b06e35477653b8824ffed2383"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae78d929b06e35477653b8824ffed2383">&#9670;&#160;</a></span>points <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae78d929b06e35477653b8824ffed2383">&#9670;&#160;</a></span>points <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234272,7 +234306,7 @@ template&lt;UnitEnum E&gt; </div>
 </div>
 </div>
 <a id="ga68f2dced6aad70a6ad6e70cc610e1dd0" name="ga68f2dced6aad70a6ad6e70cc610e1dd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga68f2dced6aad70a6ad6e70cc610e1dd0">&#9670;&#160;</a></span>points <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga68f2dced6aad70a6ad6e70cc610e1dd0">&#9670;&#160;</a></span>points <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234288,7 +234322,7 @@ template&lt;UnitEnum E&gt; </div>
 </div>
 </div>
 <a id="ga39c3eb2e95daad75555328645c768d56" name="ga39c3eb2e95daad75555328645c768d56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga39c3eb2e95daad75555328645c768d56">&#9670;&#160;</a></span>points <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga39c3eb2e95daad75555328645c768d56">&#9670;&#160;</a></span>points <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234304,7 +234338,7 @@ template&lt;UnitEnum E&gt; </div>
 </div>
 </div>
 <a id="ga2819cf8b07b6ca5bccb45dd61d9d7f9d" name="ga2819cf8b07b6ca5bccb45dd61d9d7f9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2819cf8b07b6ca5bccb45dd61d9d7f9d">&#9670;&#160;</a></span>points <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2819cf8b07b6ca5bccb45dd61d9d7f9d">&#9670;&#160;</a></span>points <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234317,8 +234351,22 @@ template&lt;UnitEnum E&gt; </div>
 
 </div>
 </div>
+<a id="gaf64b21d20495c269db08d4709485b329" name="gaf64b21d20495c269db08d4709485b329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf64b21d20495c269db08d4709485b329">&#9670;&#160;</a></span>points <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const VertCoords&amp; MR::TriMeshPart::points</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="gac82bf98c749b0bb821e259629bb70b84" name="gac82bf98c749b0bb821e259629bb70b84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac82bf98c749b0bb821e259629bb70b84">&#9670;&#160;</a></span>points <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac82bf98c749b0bb821e259629bb70b84">&#9670;&#160;</a></span>points <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236844,7 +236892,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga79fd0b044bab7c845859903f9e5da95b" name="ga79fd0b044bab7c845859903f9e5da95b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga79fd0b044bab7c845859903f9e5da95b">&#9670;&#160;</a></span>region <span class="overload">[1/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga79fd0b044bab7c845859903f9e5da95b">&#9670;&#160;</a></span>region <span class="overload">[1/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236859,7 +236907,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gadce38a07b8b04db0fe998e792e4a6e34" name="gadce38a07b8b04db0fe998e792e4a6e34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadce38a07b8b04db0fe998e792e4a6e34">&#9670;&#160;</a></span>region <span class="overload">[2/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadce38a07b8b04db0fe998e792e4a6e34">&#9670;&#160;</a></span>region <span class="overload">[2/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236876,7 +236924,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga234cc7724ee82658a6f22257b3400e39" name="ga234cc7724ee82658a6f22257b3400e39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga234cc7724ee82658a6f22257b3400e39">&#9670;&#160;</a></span>region <span class="overload">[3/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga234cc7724ee82658a6f22257b3400e39">&#9670;&#160;</a></span>region <span class="overload">[3/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236892,7 +236940,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga01cc187a8d8ec7455eecf739bcc7248f" name="ga01cc187a8d8ec7455eecf739bcc7248f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga01cc187a8d8ec7455eecf739bcc7248f">&#9670;&#160;</a></span>region <span class="overload">[4/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga01cc187a8d8ec7455eecf739bcc7248f">&#9670;&#160;</a></span>region <span class="overload">[4/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236908,7 +236956,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gaff2c0877c0a9eac16128d033db2d2860" name="gaff2c0877c0a9eac16128d033db2d2860"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaff2c0877c0a9eac16128d033db2d2860">&#9670;&#160;</a></span>region <span class="overload">[5/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaff2c0877c0a9eac16128d033db2d2860">&#9670;&#160;</a></span>region <span class="overload">[5/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236924,7 +236972,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga17ce8fa9c3da180503cc50cdedfac9ec" name="ga17ce8fa9c3da180503cc50cdedfac9ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga17ce8fa9c3da180503cc50cdedfac9ec">&#9670;&#160;</a></span>region <span class="overload">[6/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga17ce8fa9c3da180503cc50cdedfac9ec">&#9670;&#160;</a></span>region <span class="overload">[6/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236939,7 +236987,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga1fdb51404a12dafa32d295e97234ce4f" name="ga1fdb51404a12dafa32d295e97234ce4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1fdb51404a12dafa32d295e97234ce4f">&#9670;&#160;</a></span>region <span class="overload">[7/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1fdb51404a12dafa32d295e97234ce4f">&#9670;&#160;</a></span>region <span class="overload">[7/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236955,7 +237003,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga3fe2bba25d7c567c9b75a5a856990f20" name="ga3fe2bba25d7c567c9b75a5a856990f20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3fe2bba25d7c567c9b75a5a856990f20">&#9670;&#160;</a></span>region <span class="overload">[8/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3fe2bba25d7c567c9b75a5a856990f20">&#9670;&#160;</a></span>region <span class="overload">[8/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236971,7 +237019,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga020e8c1bd5c2c3c5186ff4680d8004b0" name="ga020e8c1bd5c2c3c5186ff4680d8004b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga020e8c1bd5c2c3c5186ff4680d8004b0">&#9670;&#160;</a></span>region <span class="overload">[9/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga020e8c1bd5c2c3c5186ff4680d8004b0">&#9670;&#160;</a></span>region <span class="overload">[9/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236987,7 +237035,7 @@ template&lt;typename RegionTag&gt; </div>
 </div>
 </div>
 <a id="gadb49365fb60e376e6302ffa62d2b534a" name="gadb49365fb60e376e6302ffa62d2b534a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadb49365fb60e376e6302ffa62d2b534a">&#9670;&#160;</a></span>region <span class="overload">[10/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadb49365fb60e376e6302ffa62d2b534a">&#9670;&#160;</a></span>region <span class="overload">[10/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237001,7 +237049,7 @@ template&lt;typename RegionTag&gt; </div>
 </div>
 </div>
 <a id="ga35aa8fa1280f405afeb9f43189843024" name="ga35aa8fa1280f405afeb9f43189843024"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga35aa8fa1280f405afeb9f43189843024">&#9670;&#160;</a></span>region <span class="overload">[11/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga35aa8fa1280f405afeb9f43189843024">&#9670;&#160;</a></span>region <span class="overload">[11/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237016,7 +237064,7 @@ template&lt;typename RegionTag&gt; </div>
 </div>
 </div>
 <a id="gaa25442f103cd80c149b33bc79eb64b0a" name="gaa25442f103cd80c149b33bc79eb64b0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa25442f103cd80c149b33bc79eb64b0a">&#9670;&#160;</a></span>region <span class="overload">[12/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa25442f103cd80c149b33bc79eb64b0a">&#9670;&#160;</a></span>region <span class="overload">[12/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237032,7 +237080,7 @@ template&lt;typename RegionTag&gt; </div>
 </div>
 </div>
 <a id="gabeb08d7e70411cf9ef2826c0f058b909" name="gabeb08d7e70411cf9ef2826c0f058b909"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabeb08d7e70411cf9ef2826c0f058b909">&#9670;&#160;</a></span>region <span class="overload">[13/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabeb08d7e70411cf9ef2826c0f058b909">&#9670;&#160;</a></span>region <span class="overload">[13/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237048,7 +237096,7 @@ template&lt;typename RegionTag&gt; </div>
 </div>
 </div>
 <a id="ga59ea37b974c89c4776f198ee775bf128" name="ga59ea37b974c89c4776f198ee775bf128"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga59ea37b974c89c4776f198ee775bf128">&#9670;&#160;</a></span>region <span class="overload">[14/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga59ea37b974c89c4776f198ee775bf128">&#9670;&#160;</a></span>region <span class="overload">[14/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237064,7 +237112,7 @@ template&lt;typename RegionTag&gt; </div>
 </div>
 </div>
 <a id="gac011fc95d61ece99cc3358e1236104d9" name="gac011fc95d61ece99cc3358e1236104d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac011fc95d61ece99cc3358e1236104d9">&#9670;&#160;</a></span>region <span class="overload">[15/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac011fc95d61ece99cc3358e1236104d9">&#9670;&#160;</a></span>region <span class="overload">[15/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237076,6 +237124,36 @@ template&lt;typename RegionTag&gt; </div>
 </div><div class="memdoc">
 
 <p>vertices to be moved by the algorithm, nullptr means all valid vertices </p>
+
+</div>
+</div>
+<a id="gaaaf03f0480de4e5fa7e5f325ae6cd20b" name="gaaaf03f0480de4e5fa7e5f325ae6cd20b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaaf03f0480de4e5fa7e5f325ae6cd20b">&#9670;&#160;</a></span>region <span class="overload">[16/16]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const FaceBitSet&amp; MR::TriMeshPart::region</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa06ac91e5628c4569229b9f2c281e2fd" name="gaa06ac91e5628c4569229b9f2c281e2fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa06ac91e5628c4569229b9f2c281e2fd">&#9670;&#160;</a></span>regionVerts</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertBitSet MR::TriMeshPart::regionVerts</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>vertices of region triangles </p>
 
 </div>
 </div>
@@ -244137,7 +244215,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gab60b055cffae98b1ce1a1a4466cfe633" name="gab60b055cffae98b1ce1a1a4466cfe633"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab60b055cffae98b1ce1a1a4466cfe633">&#9670;&#160;</a></span>tris <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab60b055cffae98b1ce1a1a4466cfe633">&#9670;&#160;</a></span>tris <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -244153,7 +244231,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga846d3bc158a03f5fd24580dc8b40e085" name="ga846d3bc158a03f5fd24580dc8b40e085"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga846d3bc158a03f5fd24580dc8b40e085">&#9670;&#160;</a></span>tris <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga846d3bc158a03f5fd24580dc8b40e085">&#9670;&#160;</a></span>tris <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -244167,13 +244245,27 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga1063845cc2871f7dcae178304213db81" name="ga1063845cc2871f7dcae178304213db81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1063845cc2871f7dcae178304213db81">&#9670;&#160;</a></span>tris <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1063845cc2871f7dcae178304213db81">&#9670;&#160;</a></span>tris <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">Triangulation MR::TriMesh::tris</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga172d8c07a31ac06eae9426dd6d303cfa" name="ga172d8c07a31ac06eae9426dd6d303cfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga172d8c07a31ac06eae9426dd6d303cfa">&#9670;&#160;</a></span>tris <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Triangulation&amp; MR::TriMeshPart::tris</td>
         </tr>
       </table>
 </div><div class="memdoc">
