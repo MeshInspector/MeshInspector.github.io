@@ -1,5 +1,7 @@
 var NAVTREEINDEX155 =
 {
+"classmrmeshpy_1_1MultiMeshIntersectionResult.html#afa7835d430590431b3439ff94cd0766a":[9,1,0,0,2,1879,4],
+"classmrmeshpy_1_1MultiMeshIntersectionResult.html#afa7835d430590431b3439ff94cd0766a":[9,1,1,0,1,1879,4],
 "classmrmeshpy_1_1MultiRayMeshIntersectResult.html":[9,1,0,0,2,1880],
 "classmrmeshpy_1_1MultiRayMeshIntersectResult.html":[9,1,1,0,1,1880],
 "classmrmeshpy_1_1MultiRayMeshIntersectResult.html#a2c27a9639cefa609603a29596b6c4dea":[9,1,0,0,2,1880,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX155 =
 "classmrmeshpy_1_1Nesting_1_1ConstBoxNestingOptions.html#a3daf1586a3e0e19764d0b8cad87b6953":[9,1,0,0,2,1887,4,1],
 "classmrmeshpy_1_1Nesting_1_1ConstBoxNestingOptions.html#a3daf1586a3e0e19764d0b8cad87b6953":[9,1,1,0,1,1887,4,1],
 "classmrmeshpy_1_1Nesting_1_1ConstBoxNestingOptions.html#a5711d0b95957acbb5d37c01a6f966f01":[9,1,0,0,2,1887,4,2],
-"classmrmeshpy_1_1Nesting_1_1ConstBoxNestingOptions.html#a5711d0b95957acbb5d37c01a6f966f01":[9,1,1,0,1,1887,4,2],
-"classmrmeshpy_1_1Nesting_1_1ConstBoxNestingOptions.html#a5f758f6579d569339b1a98cce7fc2b31":[9,1,0,0,2,1887,4,0],
-"classmrmeshpy_1_1Nesting_1_1ConstBoxNestingOptions.html#a5f758f6579d569339b1a98cce7fc2b31":[9,1,1,0,1,1887,4,0]
+"classmrmeshpy_1_1Nesting_1_1ConstBoxNestingOptions.html#a5711d0b95957acbb5d37c01a6f966f01":[9,1,1,0,1,1887,4,2]
 };

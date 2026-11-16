@@ -145,17 +145,46 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aad2307485f017b773541d0466cc30e9f" id="r_aad2307485f017b773541d0466cc30e9f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad2307485f017b773541d0466cc30e9f">valid</a> () const</td></tr>
 <tr class="memdesc:aad2307485f017b773541d0466cc30e9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for validity, otherwise the projection was not found  <br /></td></tr>
 <tr class="memitem:a460580792489509aafec2325c8b07a2e" id="r_a460580792489509aafec2325c8b07a2e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a460580792489509aafec2325c8b07a2e">operator bool</a> () const</td></tr>
+<tr class="memitem:a2d7b31f3e95bcd0a90fff7de427515ba" id="r_a2d7b31f3e95bcd0a90fff7de427515ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d7b31f3e95bcd0a90fff7de427515ba">mtp</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology) const</td></tr>
+<tr class="memdesc:a2d7b31f3e95bcd0a90fff7de427515ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the closest point on mesh as MeshTriPoint relative to topology.edgeWithLeft( proj.face ), or invalid MeshTriPoint if the projection was not found  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ad1465eeb2296933daf2de86872a2ba28" id="r_ad1465eeb2296933daf2de86872a2ba28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1465eeb2296933daf2de86872a2ba28">proj</a></td></tr>
 <tr class="memdesc:ad1465eeb2296933daf2de86872a2ba28"><td class="mdescLeft">&#160;</td><td class="mdescRight">the closest point on mesh, transformed by xf if it is given  <br /></td></tr>
-<tr class="memitem:ab598491c26bf32f15bbd10cbb2bfb7a1" id="r_ab598491c26bf32f15bbd10cbb2bfb7a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab598491c26bf32f15bbd10cbb2bfb7a1">mtp</a></td></tr>
-<tr class="memdesc:ab598491c26bf32f15bbd10cbb2bfb7a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">its barycentric representation  <br /></td></tr>
+<tr class="memitem:ac11c0d552e6caa90457a8fa25bb96d27" id="r_ac11c0d552e6caa90457a8fa25bb96d27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga38bb05d6835471e5cc3352addbd30f02">TriPointf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac11c0d552e6caa90457a8fa25bb96d27">tp</a></td></tr>
+<tr class="memdesc:ac11c0d552e6caa90457a8fa25bb96d27"><td class="mdescLeft">&#160;</td><td class="mdescRight">barycentric coordinates of proj relative to the vertices of proj.face in the order of <a class="el" href="group__GeneralGroup.html#ga1505aee9d1b0cdf3c24139b5e97bc187">MeshTopology::getTriVerts</a>( proj.face )  <br /></td></tr>
 <tr class="memitem:a685a3370c122d23e376f36b0ebb9fa29" id="r_a685a3370c122d23e376f36b0ebb9fa29"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a685a3370c122d23e376f36b0ebb9fa29">distSq</a> = 0</td></tr>
 <tr class="memdesc:a685a3370c122d23e376f36b0ebb9fa29"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared distance from original projected point to proj  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a2d7b31f3e95bcd0a90fff7de427515ba" name="a2d7b31f3e95bcd0a90fff7de427515ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d7b31f3e95bcd0a90fff7de427515ba">&#9670;&#160;</a></span>mtp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> MR::MeshProjectionResult::mtp </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the closest point on mesh as MeshTriPoint relative to topology.edgeWithLeft( proj.face ), or invalid MeshTriPoint if the projection was not found </p>
+
+</div>
+</div>
 <a id="a460580792489509aafec2325c8b07a2e" name="a460580792489509aafec2325c8b07a2e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a460580792489509aafec2325c8b07a2e">&#9670;&#160;</a></span>operator bool()</h2>
 
@@ -225,22 +254,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab598491c26bf32f15bbd10cbb2bfb7a1" name="ab598491c26bf32f15bbd10cbb2bfb7a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab598491c26bf32f15bbd10cbb2bfb7a1">&#9670;&#160;</a></span>mtp</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> MR::MeshProjectionResult::mtp</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>its barycentric representation </p>
-
-</div>
-</div>
 <a id="ad1465eeb2296933daf2de86872a2ba28" name="ad1465eeb2296933daf2de86872a2ba28"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad1465eeb2296933daf2de86872a2ba28">&#9670;&#160;</a></span>proj</h2>
 
@@ -254,6 +267,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>the closest point on mesh, transformed by xf if it is given </p>
+
+</div>
+</div>
+<a id="ac11c0d552e6caa90457a8fa25bb96d27" name="ac11c0d552e6caa90457a8fa25bb96d27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac11c0d552e6caa90457a8fa25bb96d27">&#9670;&#160;</a></span>tp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga38bb05d6835471e5cc3352addbd30f02">TriPointf</a> MR::MeshProjectionResult::tp</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>barycentric coordinates of proj relative to the vertices of proj.face in the order of <a class="el" href="group__GeneralGroup.html#ga1505aee9d1b0cdf3c24139b5e97bc187">MeshTopology::getTriVerts</a>( proj.face ) </p>
 
 </div>
 </div>

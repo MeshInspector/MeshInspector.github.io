@@ -1,5 +1,6 @@
 var NAVTREEINDEX111 =
 {
+"classMR_1_1HexPalette.html#ac3d6fec4e2ccf3701bf97e25b3e607b7":[9,3,0,0,0,1302,1],
 "classMR_1_1HexPalette.html#afd6a1b79a217dfb555d52f479eee26ca":[9,3,0,0,0,1302,3],
 "classMR_1_1Histogram.html":[9,3,0,0,0,1303],
 "classMR_1_1Histogram.html#a0123c309b452ca8f4c7673a4a623370c":[9,3,0,0,0,1303,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX111 =
 "classMR_1_1InSphereTester__Double.html#ab8b76655eed550a578db1ac44e8d16e3":[9,3,0,0,0,1329,3],
 "classMR_1_1InSphereTester__Double.html#ad94306d87b6eebdf46a4148d2c9a5fe6":[9,3,0,0,0,1329,0],
 "classMR_1_1InSphereTester__Double.html#ada50e5a44473a7c8c7d19065e828338f":[9,3,0,0,0,1329,4],
-"classMR_1_1InSphereTester__Double.html#af5a0973bb91faa511e7569fb47895de0":[9,3,0,0,0,1329,5],
-"classMR_1_1InSphereTester__Float.html":[9,3,0,0,0,1330]
+"classMR_1_1InSphereTester__Double.html#af5a0973bb91faa511e7569fb47895de0":[9,3,0,0,0,1329,5]
 };

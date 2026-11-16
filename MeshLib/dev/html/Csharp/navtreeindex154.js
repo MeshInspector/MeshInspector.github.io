@@ -1,5 +1,6 @@
 var NAVTREEINDEX154 =
 {
+"classMR_1_1WeightedShell.html#ad8babcfcf4a060f9f9099d5063f06462":[9,3,0,0,0,1959,12],
 "classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams.html":[9,3,0,0,0,1959,0],
 "classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams.html#a0a923f72230f10420125262396608f5b":[9,3,0,0,0,1959,0,6],
 "classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams.html#a4d890a3c87b183a24b42a15204ec13f1":[9,3,0,0,0,1959,0,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX154 =
 "functions_enum.html":[9,3,0,3,3],
 "functions_f.html":[9,3,0,3,0,6],
 "functions_func.html":[9,3,0,3,1],
-"functions_func.html":[9,3,0,3,1,0],
-"functions_func_a.html":[9,3,0,3,1,1]
+"functions_func.html":[9,3,0,3,1,0]
 };

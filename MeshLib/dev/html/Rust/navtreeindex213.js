@@ -1,5 +1,7 @@
 var NAVTREEINDEX213 =
 {
+"structmeshlib_1_1std__vector__MR__Box3f.html":[9,5,0,0,0,1305],
+"structmeshlib_1_1std__vector__MR__Box3f.html":[9,5,1,0,0,1292],
 "structmeshlib_1_1std__vector__MR__Box3f.html#a05e2920a40ed265d603f733b242a30b2":[9,5,0,0,0,1305,8],
 "structmeshlib_1_1std__vector__MR__Box3f.html#a05e2920a40ed265d603f733b242a30b2":[9,5,1,0,0,1292,8],
 "structmeshlib_1_1std__vector__MR__Box3f.html#a0b043774adaa023bc7cdd5e3be47d7b3":[9,5,0,0,0,1305,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX213 =
 "structmeshlib_1_1std__vector__MR__Color.html#ab5c75e27e3b807c9844692d16034fe56":[9,5,0,0,0,1311,3],
 "structmeshlib_1_1std__vector__MR__Color.html#ab5c75e27e3b807c9844692d16034fe56":[9,5,1,0,0,1298,3],
 "structmeshlib_1_1std__vector__MR__Color.html#abf46c7346d0ae2b1e1f81983f7d62818":[9,5,0,0,0,1311,2],
-"structmeshlib_1_1std__vector__MR__Color.html#abf46c7346d0ae2b1e1f81983f7d62818":[9,5,1,0,0,1298,2],
-"structmeshlib_1_1std__vector__MR__Color.html#ae1b0aeabf9c80a5a5916547ac3749b19":[9,5,0,0,0,1311,10],
-"structmeshlib_1_1std__vector__MR__Color.html#ae1b0aeabf9c80a5a5916547ac3749b19":[9,5,1,0,0,1298,10]
+"structmeshlib_1_1std__vector__MR__Color.html#abf46c7346d0ae2b1e1f81983f7d62818":[9,5,1,0,0,1298,2]
 };

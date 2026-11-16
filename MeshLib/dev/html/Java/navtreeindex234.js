@@ -1,5 +1,7 @@
 var NAVTREEINDEX234 =
 {
+"classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#aa64ee733b47e434beab5d2f6d622db14":[9,6,0,0,0,1288,1],
+"classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#aa64ee733b47e434beab5d2f6d622db14":[9,6,1,0,0,1288,1],
 "classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#aad34550a5b9ac69a0ce0491d578fd821":[9,6,0,0,0,1288,11],
 "classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#aad34550a5b9ac69a0ce0491d578fd821":[9,6,1,0,0,1288,11],
 "classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#ab31ec2175658d915e91bcf55fdb9de8e":[9,6,0,0,0,1288,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX234 =
 "classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#a842d0425c6868868f40ce8d05cff6ae2":[9,6,0,0,0,1293,13],
 "classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#a842d0425c6868868f40ce8d05cff6ae2":[9,6,1,0,0,1293,13],
 "classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#a9ad3909b6fcb335a20ab4e93b8485d81":[9,6,0,0,0,1293,4],
-"classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#a9ad3909b6fcb335a20ab4e93b8485d81":[9,6,1,0,0,1293,4],
-"classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#aac509ba43d8f8b611a78bc5c58fe28e8":[9,6,0,0,0,1293,17],
-"classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#aac509ba43d8f8b611a78bc5c58fe28e8":[9,6,1,0,0,1293,17]
+"classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#a9ad3909b6fcb335a20ab4e93b8485d81":[9,6,1,0,0,1293,4]
 };

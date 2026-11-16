@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1Const__VoxelBitSet.html#aa4904c54395e4fc4e625cf5f47a3e88e":[9,3,0,0,0,1071,3],
 "classMR_1_1Const__VoxelBitSet.html#aa6ad64b223509d34e004aefcedb1be24":[9,3,0,0,0,1071,45],
 "classMR_1_1Const__VoxelBitSet.html#ab20da7ccacb06ac967af88b4bb4e9e73":[9,3,0,0,0,1071,13],
 "classMR_1_1Const__VoxelBitSet.html#ab8053d2f32db9c9420b1b3f142d6191a":[9,3,0,0,0,1071,30],
@@ -248,6 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a875a848eb358cbebf9d33d8831ba0c79":[9,3,0,0,0,1089,2,2],
 "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a8915a46c8ece2be06036b397a0ebb687":[9,3,0,0,0,1089,2,22],
 "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a9152f59d361db4ee7e5d7a8510087cd5":[9,3,0,0,0,1089,2,1],
-"classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a99327c140c7b991d576b79d64bc52865":[9,3,0,0,0,1089,2,5],
-"classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a9f2cf1d837bfe7ed4a9dc5f3f0b09888":[9,3,0,0,0,1089,2,18]
+"classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a99327c140c7b991d576b79d64bc52865":[9,3,0,0,0,1089,2,5]
 };

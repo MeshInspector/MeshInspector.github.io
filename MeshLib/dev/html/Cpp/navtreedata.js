@@ -225,8 +225,8 @@ var NAVTREEINDEX =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ab1361eb667fc891d6ee87e93a3ff37e9",
 "structMR_1_1McpGateway_1_1Config.html#a6e4335a7dd72b1d4fb00d536324cc1db",
 "structMR_1_1MeshLoad_1_1StepLoadSettings.html#a305896bf1e6f138df3e0f7982bc1d3cf",
-"structMR_1_1PointCloudRelaxParams.html",
-"structMR_1_1RemeshSettings.html#a2302742bd2200fd6a5f9e078015705c1",
+"structMR_1_1PointCloudPart.html",
+"structMR_1_1RemeshSettings.html#a22c46bdff64005e21bccd666e13e7f01",
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#aa4096d06a760a77f660c2c171d029b18",
 "structMR_1_1Vector2.html#af97f888d41c35987fa2e24cfdf696621"
 ];

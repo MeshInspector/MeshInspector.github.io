@@ -228,11 +228,12 @@ var group__AABBTreeGroup =
       [ "status", "structMR_1_1MeshMeshSignedDistanceResult.html#a2dde76f179a4bcac69592b196d1b91ab", null ]
     ] ],
     [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", [
+      [ "mtp", "structMR_1_1MeshProjectionResult.html#a2d7b31f3e95bcd0a90fff7de427515ba", null ],
       [ "operator bool", "structMR_1_1MeshProjectionResult.html#a460580792489509aafec2325c8b07a2e", null ],
       [ "valid", "structMR_1_1MeshProjectionResult.html#aad2307485f017b773541d0466cc30e9f", null ],
       [ "distSq", "structMR_1_1MeshProjectionResult.html#a685a3370c122d23e376f36b0ebb9fa29", null ],
-      [ "mtp", "structMR_1_1MeshProjectionResult.html#ab598491c26bf32f15bbd10cbb2bfb7a1", null ],
-      [ "proj", "structMR_1_1MeshProjectionResult.html#ad1465eeb2296933daf2de86872a2ba28", null ]
+      [ "proj", "structMR_1_1MeshProjectionResult.html#ad1465eeb2296933daf2de86872a2ba28", null ],
+      [ "tp", "structMR_1_1MeshProjectionResult.html#ac11c0d552e6caa90457a8fa25bb96d27", null ]
     ] ],
     [ "MR::MeshProjectionTransforms", "structMR_1_1MeshProjectionTransforms.html", [
       [ "nonRigidXfTree", "structMR_1_1MeshProjectionTransforms.html#ac7e30a3a60e0e50ecf202b7761b16e8d", null ],

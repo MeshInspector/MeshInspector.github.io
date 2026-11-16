@@ -1,5 +1,6 @@
 var NAVTREEINDEX150 =
 {
+"classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a272bdff4df2aa74122c38e7f538dd26d":[9,3,0,0,0,1901,15],
 "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a2ac8d7f49f74f7b9c6fbc00262766746":[9,3,0,0,0,1901,13],
 "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a39afcf52b4ebf426007b326c291851eb":[9,3,0,0,0,1901,8],
 "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a3bd31027e83d78a52925b5598cd0bb7d":[9,3,0,0,0,1901,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX150 =
 "classMR_1_1VertColorMapAggregator.html#a674c9bca51f3b15790f8b0dfc318a4bb":[9,3,0,0,0,1911,12],
 "classMR_1_1VertColorMapAggregator.html#a67bffe0ab2ee44dbd7d3943559c4e554":[9,3,0,0,0,1911,3],
 "classMR_1_1VertColorMapAggregator.html#a7d5867ad680a643ff7ce78948538285b":[9,3,0,0,0,1911,8],
-"classMR_1_1VertColorMapAggregator.html#a8c989d3ea8d91eabe696cefe5d0d6430":[9,3,0,0,0,1911,9],
-"classMR_1_1VertColorMapAggregator.html#a9220e066e32296ab827c719ec2c6f283":[9,3,0,0,0,1911,10]
+"classMR_1_1VertColorMapAggregator.html#a8c989d3ea8d91eabe696cefe5d0d6430":[9,3,0,0,0,1911,9]
 };

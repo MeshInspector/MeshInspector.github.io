@@ -1630,7 +1630,7 @@ var searchData=
   ['mr_5ftrimoptionaloutput_1627',['MR_TrimOptionalOutput',['../MRMeshTrimWithPlane_8h.html#a1a86575fe63cab3cf6d93f75b5a712f6',1,'MRMeshTrimWithPlane.h']]],
   ['mr_5ftrimwithplaneparams_1628',['MR_TrimWithPlaneParams',['../MRMeshTrimWithPlane_8h.html#a84025085d53bf26e235ab44149192c09',1,'MRMeshTrimWithPlane.h']]],
   ['mr_5ftripointd_1629',['MR_TriPointd',['../MRMeshTriPoint_8h.html#a17289bf57bcb0037619be07245ff0c78',1,'MRMeshTriPoint.h']]],
-  ['mr_5ftripointf_1630',['MR_TriPointf',['../MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c',1,'MRMeshTriPoint.h']]],
+  ['mr_5ftripointf_1630',['MR_TriPointf',['../MRMeshProject_8h.html#a9b2681646fc37c10c6deec7f555be88c',1,'MRMeshProject.h']]],
   ['mr_5ftritridistanceparams_5fdouble_1631',['MR_TriTriDistanceParams_double',['../MRTriDist_8h.html#a0a0b6bc344cdd46da1d427c013bd9e86',1,'MRTriDist.h']]],
   ['mr_5ftritridistanceparams_5ffloat_1632',['MR_TriTriDistanceParams_float',['../MRTriDist_8h.html#ae094c14d639c9cc0419f5cc37fb025c9',1,'MRTriDist.h']]],
   ['mr_5ftritridistanceresult_5fdouble_1633',['MR_TriTriDistanceResult_double',['../MRTriDist_8h.html#abd40009ace399a46f36148ebf4a80630',1,'MRTriDist.h']]],

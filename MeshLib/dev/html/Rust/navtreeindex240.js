@@ -1,5 +1,7 @@
 var NAVTREEINDEX240 =
 {
+"structmeshlib_1_1weighted__shell_1_1ParametersBase.html#a6106908f948db00728e12dcfb0294cba":[9,5,0,0,0,36,1,2],
+"structmeshlib_1_1weighted__shell_1_1ParametersBase.html#a6106908f948db00728e12dcfb0294cba":[9,5,1,0,0,23,1,2],
 "structmeshlib_1_1weighted__shell_1_1ParametersBase.html#a763d71147aaf6515f923d51049b928ce":[9,5,0,0,0,36,1,7],
 "structmeshlib_1_1weighted__shell_1_1ParametersBase.html#a763d71147aaf6515f923d51049b928ce":[9,5,1,0,0,23,1,7],
 "structmeshlib_1_1weighted__shell_1_1ParametersBase.html#a865a155cfa7d811bdfd722658ba762b9":[9,5,0,0,0,36,1,6],

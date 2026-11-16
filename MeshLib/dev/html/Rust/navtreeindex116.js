@@ -1,5 +1,7 @@
 var NAVTREEINDEX116 =
 {
+"structmeshlib_1_1PositionVertsSmoothlyParams.html#aad5679ac31562035122634c85cd59b1f":[9,5,0,0,0,849,10],
+"structmeshlib_1_1PositionVertsSmoothlyParams.html#aad5679ac31562035122634c85cd59b1f":[9,5,1,0,0,836,10],
 "structmeshlib_1_1PositionVertsSmoothlyParams.html#ab52a4f0d12e3f2c23113796f9dd7c28b":[9,5,0,0,0,849,9],
 "structmeshlib_1_1PositionVertsSmoothlyParams.html#ab52a4f0d12e3f2c23113796f9dd7c28b":[9,5,1,0,0,836,9],
 "structmeshlib_1_1PositionVertsSmoothlyParams.html#ab9d85dc299c58eb67316865a629aaba9":[9,5,0,0,0,849,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX116 =
 "structmeshlib_1_1QuadricApprox.html#a18625a4973fbaae595ade09b52ae286d":[9,5,0,0,0,863,0],
 "structmeshlib_1_1QuadricApprox.html#a18625a4973fbaae595ade09b52ae286d":[9,5,1,0,0,850,0],
 "structmeshlib_1_1QuadricApprox.html#af7654ffcc313dc0202ecb0b62effdf58":[9,5,0,0,0,863,1],
-"structmeshlib_1_1QuadricApprox.html#af7654ffcc313dc0202ecb0b62effdf58":[9,5,1,0,0,850,1],
-"structmeshlib_1_1QuarterBit.html":[9,5,0,0,0,864],
-"structmeshlib_1_1QuarterBit.html":[9,5,1,0,0,851]
+"structmeshlib_1_1QuadricApprox.html#af7654ffcc313dc0202ecb0b62effdf58":[9,5,1,0,0,850,1]
 };

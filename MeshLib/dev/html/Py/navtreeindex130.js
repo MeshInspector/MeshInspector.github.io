@@ -1,5 +1,7 @@
 var NAVTREEINDEX130 =
 {
+"classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle.html#a6ca5f7ba77bf9a8c77560558063d30e8":[9,1,0,0,2,1568,2,0,10],
+"classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle.html#a6ca5f7ba77bf9a8c77560558063d30e8":[9,1,1,0,1,1568,2,0,10],
 "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle.html#a90d4e547d4fd59febf9d11422f2e9c50":[9,1,0,0,2,1568,2,0,1],
 "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle.html#a90d4e547d4fd59febf9d11422f2e9c50":[9,1,1,0,1,1568,2,0,1],
 "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle.html#a945147f4192075cb5e697a742008155e":[9,1,0,0,2,1568,2,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX130 =
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Features__Primitives__ConeSegment.html#ac37ca8964eaae1aa09fc665eb92db284":[9,1,0,0,2,1568,5,0,3],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Features__Primitives__ConeSegment.html#ac37ca8964eaae1aa09fc665eb92db284":[9,1,1,0,1,1568,5,0,3],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Sphere3f.html":[9,1,0,0,2,1568,5,1],
-"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Sphere3f.html":[9,1,1,0,1,1568,5,1],
-"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Sphere3f.html#a08a5e4ee3711accfce6b806e4d4af4e2":[9,1,0,0,2,1568,5,1,3],
-"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Sphere3f.html#a08a5e4ee3711accfce6b806e4d4af4e2":[9,1,1,0,1,1568,5,1,3]
+"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Sphere3f.html":[9,1,1,0,1,1568,5,1]
 };

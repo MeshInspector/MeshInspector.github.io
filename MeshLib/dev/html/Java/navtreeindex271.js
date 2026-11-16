@@ -1,5 +1,7 @@
 var NAVTREEINDEX271 =
 {
+"linessave_2Functions_8java.html":[9,6,2,0,0,1,0,0,13,0],
+"locale_2Functions_8java.html":[9,6,2,0,0,1,0,0,14,0],
 "meshbuilder_2Functions_8java.html":[9,6,2,0,0,1,0,0,15,2],
 "meshcomponents_2Functions_8java.html":[9,6,2,0,0,1,0,0,16,3],
 "meshload_2Functions_8java.html":[9,6,2,0,0,1,0,0,17,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX271 =
 "std__optional__MR__Vector2f_8java.html":[9,6,2,0,0,1,0,0,1101],
 "std__optional__MR__Vector3d_8java.html":[9,6,2,0,0,1,0,0,1102],
 "std__optional__MR__Vector3f_8java.html":[9,6,2,0,0,1,0,0,1103],
-"std__optional__MR__Vector3i_8java.html":[9,6,2,0,0,1,0,0,1104],
-"std__optional__MR__VertBitSet_8java.html":[9,6,2,0,0,1,0,0,1105],
-"std__optional__MR__VertCoords2_8java.html":[9,6,2,0,0,1,0,0,1107]
+"std__optional__MR__Vector3i_8java.html":[9,6,2,0,0,1,0,0,1104]
 };

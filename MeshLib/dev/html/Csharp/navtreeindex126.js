@@ -1,5 +1,6 @@
 var NAVTREEINDEX126 =
 {
+"classMR_1_1ObjectPointsHolder.html#afb674567827470211247b14c1d1095c7":[9,3,0,0,0,1535,15],
 "classMR_1_1ObjectSave.html":[9,3,0,0,0,1536],
 "classMR_1_1ObjectSave.html#a02ea345222c8335edd77a73314e87e68":[9,3,0,0,0,1536,3],
 "classMR_1_1ObjectSave.html#ac2eff38293664a74185b3ba0781db0bb":[9,3,0,0,0,1536,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX126 =
 "classMR_1_1OutAttributesFillingSettings.html#a7b22d7b1c08e4a022edeaf5e8d5d6452":[9,3,0,0,0,1561,5],
 "classMR_1_1OutAttributesFillingSettings.html#a7b689f36cfc5e7e9f338f3786fb696ea":[9,3,0,0,0,1561,6],
 "classMR_1_1OutAttributesFillingSettings.html#ab31123a1fb89fb125a8f73a6b9d66783":[9,3,0,0,0,1561,2],
-"classMR_1_1OutAttributesFillingSettings.html#abababd5fb8c875907c4286d5d0ad2491":[9,3,0,0,0,1561,7],
-"classMR_1_1OutAttributesFillingSettings.html#af9dafc58bf53371282b8eb80c31d2b48":[9,3,0,0,0,1561,1]
+"classMR_1_1OutAttributesFillingSettings.html#abababd5fb8c875907c4286d5d0ad2491":[9,3,0,0,0,1561,7]
 };

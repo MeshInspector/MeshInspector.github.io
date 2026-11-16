@@ -1,5 +1,6 @@
 var NAVTREEINDEX134 =
 {
+"classMR_1_1SaveSettings.html#a603cb9e64ff00f546275d30d0514c1c7":[9,3,0,0,0,1678,17],
 "classMR_1_1SaveSettings.html#a65abab80e05725aad1955e9671ebaeaa":[9,3,0,0,0,1678,18],
 "classMR_1_1SaveSettings.html#a9ef910af319f987f5ac113a74802ced3":[9,3,0,0,0,1678,2],
 "classMR_1_1SaveSettings.html#aa1caab12117b57c3e08054cfaddf977e":[9,3,0,0,0,1678,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX134 =
 "classMR_1_1SetBitIteratorT__MRObjBitSet.html#af64bf6623bade8b907bfccf51a671ea4":[9,3,0,0,0,1695,0],
 "classMR_1_1SetBitIteratorT__MRPixelBitSet.html":[9,3,0,0,0,1696],
 "classMR_1_1SetBitIteratorT__MRPixelBitSet.html#a11e25cb9affc7c6b5d610cbdf837e4b4":[9,3,0,0,0,1696,1],
-"classMR_1_1SetBitIteratorT__MRPixelBitSet.html#a4388f931a6a55f468e25578f5826eed2":[9,3,0,0,0,1696,0],
-"classMR_1_1SetBitIteratorT__MRPixelBitSet.html#a55ffddefd1ef372b42835c1f540ad758":[9,3,0,0,0,1696,5]
+"classMR_1_1SetBitIteratorT__MRPixelBitSet.html#a4388f931a6a55f468e25578f5826eed2":[9,3,0,0,0,1696,0]
 };

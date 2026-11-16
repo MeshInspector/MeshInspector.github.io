@@ -1,5 +1,7 @@
 var NAVTREEINDEX117 =
 {
+"classmrmeshpy_1_1Const__std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax_18e015048ac853b51ec8e72a67da0178.html#ae70f3d40882f0b59c5f3ef551f93d784":[9,1,0,0,2,500,6],
+"classmrmeshpy_1_1Const__std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax_18e015048ac853b51ec8e72a67da0178.html#ae70f3d40882f0b59c5f3ef551f93d784":[9,1,1,0,1,500,6],
 "classmrmeshpy_1_1Const__std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__FloatGrid__std__string.html":[9,1,0,0,2,499],
 "classmrmeshpy_1_1Const__std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__FloatGrid__std__string.html":[9,1,1,0,1,499],
 "classmrmeshpy_1_1Const__std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__FloatGrid__std__string.html#a06102215f96c703f28c4613127b3f5d2":[9,1,0,0,2,499,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX117 =
 "classmrmeshpy_1_1ContoursMeshAlignParams.html#a75ae3d0692a808e0fc44b3b351e95978":[9,1,0,0,2,1464,15],
 "classmrmeshpy_1_1ContoursMeshAlignParams.html#a75ae3d0692a808e0fc44b3b351e95978":[9,1,1,0,1,1464,15],
 "classmrmeshpy_1_1ContoursMeshAlignParams.html#aa303bb6cd449bfbdd297110b1707e5c9":[9,1,0,0,2,1464,3],
-"classmrmeshpy_1_1ContoursMeshAlignParams.html#aa303bb6cd449bfbdd297110b1707e5c9":[9,1,1,0,1,1464,3],
-"classmrmeshpy_1_1ContoursMeshAlignParams.html#aa4a121002e666bc72f5cfdc5376e8c02":[9,1,0,0,2,1464,9],
-"classmrmeshpy_1_1ContoursMeshAlignParams.html#aa4a121002e666bc72f5cfdc5376e8c02":[9,1,1,0,1,1464,9]
+"classmrmeshpy_1_1ContoursMeshAlignParams.html#aa303bb6cd449bfbdd297110b1707e5c9":[9,1,1,0,1,1464,3]
 };

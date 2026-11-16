@@ -1,5 +1,7 @@
 var NAVTREEINDEX149 =
 {
+"classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html#a55fb2b73c5f7b592a5e785af3939bcf4":[9,1,0,0,2,1828,15,3],
+"classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html#a55fb2b73c5f7b592a5e785af3939bcf4":[9,1,1,0,1,1828,15,3],
 "classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html#a7ac714a919132127d650533e64db67fd":[9,1,0,0,2,1828,15,4],
 "classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html#a7ac714a919132127d650533e64db67fd":[9,1,1,0,1,1828,15,4],
 "classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html#a82c6b0a7d5b11cd9c65ba557f16a3b2b":[9,1,0,0,2,1828,15,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX149 =
 "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html#a975fe439849def41b0975d0d9aab5b5b":[9,1,0,0,2,1832,11],
 "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html#a975fe439849def41b0975d0d9aab5b5b":[9,1,1,0,1,1832,11],
 "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html#ad10bacfc88316eed6e87da79c290d911":[9,1,0,0,2,1832,3],
-"classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html#ad10bacfc88316eed6e87da79c290d911":[9,1,1,0,1,1832,3],
-"classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html#ad51621d8a819a1b94523e2a37069c4d2":[9,1,0,0,2,1832,9],
-"classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html#ad51621d8a819a1b94523e2a37069c4d2":[9,1,1,0,1,1832,9]
+"classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html#ad10bacfc88316eed6e87da79c290d911":[9,1,1,0,1,1832,3]
 };

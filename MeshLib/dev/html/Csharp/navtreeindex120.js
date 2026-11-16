@@ -1,5 +1,6 @@
 var NAVTREEINDEX120 =
 {
+"classMR_1_1MoveMeshToVoxelMaxDerivSettings.html#aa9b0114c0c1c372922abb4deda37c767":[9,3,0,0,0,1470,3],
 "classMR_1_1MoveMeshToVoxelMaxDerivSettings.html#ac6820c7781be4aac1073d7dec8bac0d7":[9,3,0,0,0,1470,1],
 "classMR_1_1MoveMeshToVoxelMaxDerivSettings.html#acede1e05b9e7280577a5ff654bdcc96d":[9,3,0,0,0,1470,5],
 "classMR_1_1MoveMeshToVoxelMaxDerivSettings.html#aee214e60b86574cce42ea6082cb275fa":[9,3,0,0,0,1470,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX120 =
 "classMR_1_1Nesting_1_1Const__TetrisDensifyOptions.html#afae7b2386c66ad98f63f4e81319c84d9":[9,3,0,0,0,1477,12,3],
 "classMR_1_1Nesting_1_1Const__TetrisDensifyParams.html":[9,3,0,0,0,1477,13],
 "classMR_1_1Nesting_1_1Const__TetrisDensifyParams.html#a17364324fb84a3e7944a9ce3654291a9":[9,3,0,0,0,1477,13,2],
-"classMR_1_1Nesting_1_1Const__TetrisDensifyParams.html#a2e1bd4c0b9abdad032d792bf8680dad7":[9,3,0,0,0,1477,13,5],
-"classMR_1_1Nesting_1_1Const__TetrisDensifyParams.html#a34f844ca7b31c13eeec10bc5149aeefc":[9,3,0,0,0,1477,13,4]
+"classMR_1_1Nesting_1_1Const__TetrisDensifyParams.html#a2e1bd4c0b9abdad032d792bf8680dad7":[9,3,0,0,0,1477,13,5]
 };

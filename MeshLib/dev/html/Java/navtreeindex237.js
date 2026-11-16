@@ -1,5 +1,7 @@
 var NAVTREEINDEX237 =
 {
+"classmeshlib_1_1std__vector__MR__Box3f__MR__Allocator__MR__Box3f.html":[9,6,0,0,0,1317],
+"classmeshlib_1_1std__vector__MR__Box3f__MR__Allocator__MR__Box3f.html":[9,6,1,0,0,1317],
 "classmeshlib_1_1std__vector__MR__Box3f__MR__Allocator__MR__Box3f.html#a059210f4bbac9a568a24e7b650435af0":[9,6,0,0,0,1317,2],
 "classmeshlib_1_1std__vector__MR__Box3f__MR__Allocator__MR__Box3f.html#a059210f4bbac9a568a24e7b650435af0":[9,6,1,0,0,1317,2],
 "classmeshlib_1_1std__vector__MR__Box3f__MR__Allocator__MR__Box3f.html#a1d4b792ca50ebbc1314f13da73df88cd":[9,6,0,0,0,1317,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX237 =
 "classmeshlib_1_1std__vector__MR__Color.html#af0bffb25ab060d1210907d949e93c20c":[9,6,0,0,0,1322,8],
 "classmeshlib_1_1std__vector__MR__Color.html#af0bffb25ab060d1210907d949e93c20c":[9,6,1,0,0,1322,8],
 "classmeshlib_1_1std__vector__MR__Color.html#af1c62b8003bf60be8cc5123ed89a0554":[9,6,0,0,0,1322,17],
-"classmeshlib_1_1std__vector__MR__Color.html#af1c62b8003bf60be8cc5123ed89a0554":[9,6,1,0,0,1322,17],
-"classmeshlib_1_1std__vector__MR__Color.html#af7fd0ec1529019474ff34c53d89a676c":[9,6,0,0,0,1322,12],
-"classmeshlib_1_1std__vector__MR__Color.html#af7fd0ec1529019474ff34c53d89a676c":[9,6,1,0,0,1322,12]
+"classmeshlib_1_1std__vector__MR__Color.html#af1c62b8003bf60be8cc5123ed89a0554":[9,6,1,0,0,1322,17]
 };

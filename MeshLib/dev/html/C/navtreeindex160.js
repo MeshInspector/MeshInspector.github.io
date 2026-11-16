@@ -1,5 +1,6 @@
 var NAVTREEINDEX160 =
 {
+"std__pair__bool__int_8h.html#ab9889f6b132df30a0894146454d36221":[9,2,2,0,0,0,0,2,252,11],
 "std__pair__bool__int_8h.html#ae0c0c9536783913653876f6d91364739":[9,2,2,0,0,0,0,2,252,3],
 "std__pair__bool__int_8h_source.html":[9,2,2,0,0,0,0,2,252],
 "std__pair__const__MR__EdgeId__MR__EdgeId_8h.html":[9,2,2,0,0,0,0,2,254],
@@ -248,6 +249,5 @@ var NAVTREEINDEX160 =
 "std__pair__const__MR__VoxelId__MR__VoxelId_8h.html#aeb2dbd64eee7ac3b51bb908a831e6846":[9,2,2,0,0,0,0,2,272,6],
 "std__pair__const__MR__VoxelId__MR__VoxelId_8h.html#af250745d83e33a73b7e85b1b3dfba4e6":[9,2,2,0,0,0,0,2,272,0],
 "std__pair__const__MR__VoxelId__MR__VoxelId_8h.html#af739cefea004489083f6b43f3c2dc0db":[9,2,2,0,0,0,0,2,272,5],
-"std__pair__const__MR__VoxelId__MR__VoxelId_8h_source.html":[9,2,2,0,0,0,0,2,272],
-"std__pair__const__int__MR__Box3i_8h.html":[9,2,2,0,0,0,0,2,253]
+"std__pair__const__MR__VoxelId__MR__VoxelId_8h_source.html":[9,2,2,0,0,0,0,2,272]
 };

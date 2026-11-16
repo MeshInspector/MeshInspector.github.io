@@ -1,5 +1,7 @@
 var NAVTREEINDEX182 =
 {
+"classmeshlib_1_1VoxelMetricParameters.html#ade5c61fc2e3a997fa6b1bfbc415cc535":[9,6,0,0,0,1713,14],
+"classmeshlib_1_1VoxelMetricParameters.html#ade5c61fc2e3a997fa6b1bfbc415cc535":[9,6,1,0,0,1713,14],
 "classmeshlib_1_1VoxelScalars.html":[9,6,0,0,0,1714],
 "classmeshlib_1_1VoxelScalars.html":[9,6,1,0,0,1714],
 "classmeshlib_1_1VoxelScalars.html#a05bcffc5dc0af773d74b953778df1ce7":[9,6,0,0,0,1714,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX182 =
 "classmeshlib_1_1VoxelsVolume__MR__FloatGrid.html#a8ef658ab32350b840bfc48fe6a0b2692":[9,6,0,0,0,1715,1],
 "classmeshlib_1_1VoxelsVolume__MR__FloatGrid.html#a8ef658ab32350b840bfc48fe6a0b2692":[9,6,1,0,0,1715,1],
 "classmeshlib_1_1VoxelsVolume__MR__FloatGrid.html#a9123747ce3375a9e6400d7789c455ca1":[9,6,0,0,0,1715,9],
-"classmeshlib_1_1VoxelsVolume__MR__FloatGrid.html#a9123747ce3375a9e6400d7789c455ca1":[9,6,1,0,0,1715,9],
-"classmeshlib_1_1VoxelsVolume__MR__FloatGrid.html#a9412e64900364346103028a7182e42d6":[9,6,0,0,0,1715,11],
-"classmeshlib_1_1VoxelsVolume__MR__FloatGrid.html#a9412e64900364346103028a7182e42d6":[9,6,1,0,0,1715,11]
+"classmeshlib_1_1VoxelsVolume__MR__FloatGrid.html#a9123747ce3375a9e6400d7789c455ca1":[9,6,1,0,0,1715,9]
 };

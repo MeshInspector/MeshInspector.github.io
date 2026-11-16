@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"classMR_1_1Const__PointsProjectionResult.html#a217422334c2a9dc74646fd6bc55e5336":[9,3,0,0,0,761,10],
 "classMR_1_1Const__PointsProjectionResult.html#a522237c7857d5c12945851ce39d40fff":[9,3,0,0,0,761,3],
 "classMR_1_1Const__PointsProjectionResult.html#a55c9ba622406a584dccadb2c7f0767f9":[9,3,0,0,0,761,5],
 "classMR_1_1Const__PointsProjectionResult.html#a58209ec52c0206bca653917f2d9bc0c0":[9,3,0,0,0,761,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "classMR_1_1Const__PolylineProjectionWithOffsetResult3.html#af204d3c479abc84f3a5bd2c8193b8a45":[9,3,0,0,0,776,1],
 "classMR_1_1Const__PolylineProjectionWithOffsetResult3.html#af5a4c71ae25df6d0c730ea465074d04b":[9,3,0,0,0,776,9],
 "classMR_1_1Const__PolylineProjectionWithOffsetResult3.html#afde851848215d0933d1d97a0488e48ef":[9,3,0,0,0,776,11],
-"classMR_1_1Const__PolylineSubdivideSettings.html":[9,3,0,0,0,777],
-"classMR_1_1Const__PolylineSubdivideSettings.html#a08026de0f2dc19cf7c6a41d31e6ff771":[9,3,0,0,0,777,2]
+"classMR_1_1Const__PolylineSubdivideSettings.html":[9,3,0,0,0,777]
 };

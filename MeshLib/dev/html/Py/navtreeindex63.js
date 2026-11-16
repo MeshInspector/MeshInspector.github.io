@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"classmrmeshpy_1_1ConstResolveMeshDegenSettings.html#add12a81da1cbcffe4e20dcc86a5d9d59":[9,1,0,0,2,1182,1],
+"classmrmeshpy_1_1ConstResolveMeshDegenSettings.html#add12a81da1cbcffe4e20dcc86a5d9d59":[9,1,1,0,1,1182,1],
 "classmrmeshpy_1_1ConstRigidScaleXf3d.html":[9,1,0,0,2,1183],
 "classmrmeshpy_1_1ConstRigidScaleXf3d.html":[9,1,1,0,1,1183],
 "classmrmeshpy_1_1ConstRigidScaleXf3d.html#a4d2ea1736bcc82553426db87baf42956":[9,1,0,0,2,1183,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "classmrmeshpy_1_1ConstSegmentSegmentIntersectResult.html#a2c806bcf817e37031802bd6c1e9983a2":[9,1,0,0,2,1196,2],
 "classmrmeshpy_1_1ConstSegmentSegmentIntersectResult.html#a2c806bcf817e37031802bd6c1e9983a2":[9,1,1,0,1,1196,2],
 "classmrmeshpy_1_1ConstSegmentSegmentIntersectResult.html#a6691d13b2e9ff3241f8ef9f575d40c1b":[9,1,0,0,2,1196,0],
-"classmrmeshpy_1_1ConstSegmentSegmentIntersectResult.html#a6691d13b2e9ff3241f8ef9f575d40c1b":[9,1,1,0,1,1196,0],
-"classmrmeshpy_1_1ConstSegmentSegmentIntersectResult.html#a8947843f5beda4cb82d8af2a35dc45d9":[9,1,0,0,2,1196,3],
-"classmrmeshpy_1_1ConstSegmentSegmentIntersectResult.html#a8947843f5beda4cb82d8af2a35dc45d9":[9,1,1,0,1,1196,3]
+"classmrmeshpy_1_1ConstSegmentSegmentIntersectResult.html#a6691d13b2e9ff3241f8ef9f575d40c1b":[9,1,1,0,1,1196,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX54 =
 {
+"classmrmeshpy_1_1ConstObjectPointsHolder.html#a7fd74985b0c5e570e277813f445a2771":[9,1,0,0,2,1056,6],
+"classmrmeshpy_1_1ConstObjectPointsHolder.html#a7fd74985b0c5e570e277813f445a2771":[9,1,1,0,1,1056,6],
 "classmrmeshpy_1_1ConstObjectPointsHolder.html#a899e155b75c30d2dc44f9fecb61d9d84":[9,1,0,0,2,1056,13],
 "classmrmeshpy_1_1ConstObjectPointsHolder.html#a899e155b75c30d2dc44f9fecb61d9d84":[9,1,1,0,1,1056,13],
 "classmrmeshpy_1_1ConstObjectPointsHolder.html#a8a55573098a4fd15421ebc3086eb467a":[9,1,0,0,2,1056,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX54 =
 "classmrmeshpy_1_1ConstOffsetContoursParams.html#afb192f28bff05bbcb883a0983fd00685":[9,1,0,0,2,1073,3],
 "classmrmeshpy_1_1ConstOffsetContoursParams.html#afb192f28bff05bbcb883a0983fd00685":[9,1,1,0,1,1073,3],
 "classmrmeshpy_1_1ConstOffsetContoursParams_1_1CornerType.html":[9,1,0,0,2,1073,0],
-"classmrmeshpy_1_1ConstOffsetContoursParams_1_1CornerType.html":[9,1,1,0,1,1073,0],
-"classmrmeshpy_1_1ConstOffsetContoursParams_1_1CornerType.html#ab89e3ecae3f6d78e9ec5f4e74df8df5a":[9,1,0,0,2,1073,0,2],
-"classmrmeshpy_1_1ConstOffsetContoursParams_1_1CornerType.html#ab89e3ecae3f6d78e9ec5f4e74df8df5a":[9,1,1,0,1,1073,0,2]
+"classmrmeshpy_1_1ConstOffsetContoursParams_1_1CornerType.html":[9,1,1,0,1,1073,0]
 };

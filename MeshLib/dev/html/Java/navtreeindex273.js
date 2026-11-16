@@ -1,5 +1,7 @@
 var NAVTREEINDEX273 =
 {
+"std__vector__MR__MeshBuilder__MeshPiece_8java.html":[9,6,2,0,0,1,0,0,1366],
+"std__vector__MR__MeshBuilder__VertDuplication_8java.html":[9,6,2,0,0,1,0,0,1367],
 "std__vector__MR__MeshBuilder__VertSpan__MR__Allocator__MR__MeshBuilder__VertSpan_8java.html":[9,6,2,0,0,1,0,0,1368],
 "std__vector__MR__MeshIntersectionResult_8java.html":[9,6,2,0,0,1,0,0,1369],
 "std__vector__MR__MeshLoad__NamedMesh_8java.html":[9,6,2,0,0,1,0,0,1370],

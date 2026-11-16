@@ -1,5 +1,7 @@
 var NAVTREEINDEX177 =
 {
+"classmrmeshpy_1_1SearchPathSettings.html#a1d05f91ff54f0b11630ab3dd0ca7fb26":[9,1,0,0,2,2140,2],
+"classmrmeshpy_1_1SearchPathSettings.html#a1d05f91ff54f0b11630ab3dd0ca7fb26":[9,1,1,0,1,2140,2],
 "classmrmeshpy_1_1SearchPathSettings.html#a725961fe78cac92cf5601834c523199c":[9,1,0,0,2,2140,6],
 "classmrmeshpy_1_1SearchPathSettings.html#a725961fe78cac92cf5601834c523199c":[9,1,1,0,1,2140,6],
 "classmrmeshpy_1_1SearchPathSettings.html#a8bbbe27f185c48ed89adc78a80c352eb":[9,1,0,0,2,2140,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX177 =
 "classmrmeshpy_1_1SharpOffsetParameters.html#aeb4ac64396c544150ae98f2b5550426d":[9,1,0,0,2,2148,13],
 "classmrmeshpy_1_1SharpOffsetParameters.html#aeb4ac64396c544150ae98f2b5550426d":[9,1,1,0,1,2148,13],
 "classmrmeshpy_1_1SharpOffsetParameters.html#af3f759e106fdf8d0bd831a22353cd480":[9,1,0,0,2,2148,11],
-"classmrmeshpy_1_1SharpOffsetParameters.html#af3f759e106fdf8d0bd831a22353cd480":[9,1,1,0,1,2148,11],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html":[9,1,0,0,2,2147],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html":[9,1,1,0,1,2147]
+"classmrmeshpy_1_1SharpOffsetParameters.html#af3f759e106fdf8d0bd831a22353cd480":[9,1,1,0,1,2148,11]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX214 =
 {
+"classmeshlib_1_1std__optional__MR__ObjectMeshData.html#afab37cb77e951474d3a651deec002583":[9,6,0,0,0,1092,6],
+"classmeshlib_1_1std__optional__MR__ObjectMeshData.html#afab37cb77e951474d3a651deec002583":[9,6,1,0,0,1092,6],
 "classmeshlib_1_1std__optional__MR__Plane3d.html":[9,6,0,0,0,1093],
 "classmeshlib_1_1std__optional__MR__Plane3d.html":[9,6,1,0,0,1093],
 "classmeshlib_1_1std__optional__MR__Plane3d.html#a12a20904b7586376243d7242ce731cb5":[9,6,0,0,0,1093,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX214 =
 "classmeshlib_1_1std__optional__MR__VertBitSet.html#a841d0d176b834b19cddc75cfc6ecfe81":[9,6,0,0,0,1105,0],
 "classmeshlib_1_1std__optional__MR__VertBitSet.html#a841d0d176b834b19cddc75cfc6ecfe81":[9,6,1,0,0,1105,0],
 "classmeshlib_1_1std__optional__MR__VertBitSet.html#aa3de7b538cc9db2b53c1c90b79e28f16":[9,6,0,0,0,1105,4],
-"classmeshlib_1_1std__optional__MR__VertBitSet.html#aa3de7b538cc9db2b53c1c90b79e28f16":[9,6,1,0,0,1105,4],
-"classmeshlib_1_1std__optional__MR__VertBitSet.html#aaa3d746164e1c38f31d25f6ac7480e91":[9,6,0,0,0,1105,7],
-"classmeshlib_1_1std__optional__MR__VertBitSet.html#aaa3d746164e1c38f31d25f6ac7480e91":[9,6,1,0,0,1105,7]
+"classmeshlib_1_1std__optional__MR__VertBitSet.html#aa3de7b538cc9db2b53c1c90b79e28f16":[9,6,1,0,0,1105,4]
 };
