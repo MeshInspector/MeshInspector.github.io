@@ -200,7 +200,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Computes the closest point on mesh to each of given points Generated from method <span class="tt">MR::IPointsToMeshProjector::findProjections</span>.</p>
+<p>Computes the closest point on mesh to each of given points; result[i].distSq is the squared distance in world space (after worldXf and worldRefXf), and result[i].proj.point is in the space of the reference mesh (before worldRefXf), whether worldRefXf is rigid or not Generated from method <span class="tt">MR::IPointsToMeshProjector::findProjections</span>.</p>
 <p>Calls <span class="tt">MR_IPointsToMeshProjector_findProjections()</span>. </p>
 
 </div>

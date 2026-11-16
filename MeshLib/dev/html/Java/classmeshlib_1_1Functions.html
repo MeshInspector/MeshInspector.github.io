@@ -29468,7 +29468,7 @@ Trivial fill with smooth</div></div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Computes signed distances from given test points to the closest point on the reference mesh: positive value - outside reference mesh, negative - inside reference mesh; this method can return wrong sign if the closest point is located on self-intersecting part of the mesh Generated from function <span class="tt">MR::findSignedDistances</span>.</p>
+<p>Computes signed distances from given test points to the closest point on the reference mesh: positive value - outside reference mesh, negative - inside reference mesh; this method can return wrong sign if the closest point is located on self-intersecting part of the mesh; the distances are measured in world space (after params.xf and params.refXf), with or without projector Generated from function <span class="tt">MR::findSignedDistances</span>.</p>
 <p>Calls <span class="tt">MR_findSignedDistances_points()</span>. </p>
 
 </div>

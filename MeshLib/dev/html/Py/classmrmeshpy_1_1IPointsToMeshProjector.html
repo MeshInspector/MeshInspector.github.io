@@ -203,7 +203,9 @@ Abstract class, computes the closest point on mesh to each of given points. Pure
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Computes the closest point on mesh to each of given points
+<pre class="fragment">Computes the closest point on mesh to each of given points;
+result[i].distSq is the squared distance in world space (after worldXf and worldRefXf),
+and result[i].proj.point is in the space of the reference mesh (before worldRefXf), whether worldRefXf is rigid or not
 </pre> 
 <p>Reimplemented in <a class="el" href="classmrmeshpy_1_1PointsToMeshProjector.html#abf63e363cfcd2091a62a791e5301f553">mrmeshpy.PointsToMeshProjector</a>.</p>
 

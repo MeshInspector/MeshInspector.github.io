@@ -7383,7 +7383,6 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga8386d444f8e600bb3fe67a31fc2c04f3" id="r_ga8386d444f8e600bb3fe67a31fc2c04f3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8386d444f8e600bb3fe67a31fc2c04f3">MR::IPointsToMeshProjector::updateMeshData</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> *mesh)=0</td></tr>
 <tr class="memdesc:ga8386d444f8e600bb3fe67a31fc2c04f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates all data related to the referencing mesh.  <br /></td></tr>
 <tr class="memitem:ga5d0b9eb7552990bcbed98faae8de8ff7" id="r_ga5d0b9eb7552990bcbed98faae8de8ff7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5d0b9eb7552990bcbed98faae8de8ff7">MR::IPointsToMeshProjector::findProjections</a> (std::vector&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &gt; &amp;result, const VertCoords &amp;points, const AffineXf3f *worldXf=nullptr, const AffineXf3f *worldRefXf=nullptr, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0.0f)=0</td></tr>
-<tr class="memdesc:ga5d0b9eb7552990bcbed98faae8de8ff7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the closest point on mesh to each of given points.  <br /></td></tr>
 <tr class="memitem:ga2743e8821707c1810ac41b5918b2613c" id="r_ga2743e8821707c1810ac41b5918b2613c"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2743e8821707c1810ac41b5918b2613c">MR::IPointsToMeshProjector::projectionsHeapBytes</a> (size_t numProjections) const =0</td></tr>
 <tr class="memdesc:ga2743e8821707c1810ac41b5918b2613c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns amount of memory needed to compute projections.  <br /></td></tr>
 <tr class="memitem:gaf70fbc3926faabd14d6e8b2a2f3e3f64" id="r_gaf70fbc3926faabd14d6e8b2a2f3e3f64"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf70fbc3926faabd14d6e8b2a2f3e3f64">MR::findSignedDistances</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;refMesh, const VertCoords &amp;testPoints, const VertBitSet *validTestPoints={}, const <a class="el" href="structMR_1_1MeshProjectionParameters.html">MeshProjectionParameters</a> &amp;params={}, <a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a> *projector={})</td></tr>
@@ -75858,8 +75857,7 @@ template&lt;typename I&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRPointsToMeshProjector_8h.html">MRMesh/MRPointsToMeshProjector.h</a>&gt;</code></p>
-
-<p>Computes the closest point on mesh to each of given points. </p>
+<p>Computes the closest point on mesh to each of given points; result[i].distSq is the squared distance in world space (after worldXf and worldRefXf), and result[i].proj.point is in the space of the reference mesh (before worldRefXf), whether worldRefXf is rigid or not </p>
 
 <p>Implemented in <a class="el" href="#ga222d17861741ced123f7a1a8488f40fa">MR::PointsToMeshProjector</a>.</p>
 
@@ -75920,7 +75918,7 @@ template&lt;typename I&gt; </div>
     <tr><td class="paramname">result</td><td>vector pf projections</td></tr>
     <tr><td class="paramname">points</td><td>vector of points to project</td></tr>
     <tr><td class="paramname">objXf</td><td>transform applied to points</td></tr>
-    <tr><td class="paramname">refObjXf</td><td>transform applied to referencing mesh</td></tr>
+    <tr><td class="paramname">refObjXf</td><td>transform applied to referencing mesh; returned proj.point are in the space of the referencing mesh before this transform</td></tr>
     <tr><td class="paramname">upDistLimitSq</td><td>maximal squared distance from point to mesh</td></tr>
     <tr><td class="paramname">loDistLimitSq</td><td>minimal squared distance from point to mesh</td></tr>
   </table>
@@ -76611,7 +76609,7 @@ template&lt;typename I&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRPointsToMeshProjector_8h.html">MRMesh/MRPointsToMeshProjector.h</a>&gt;</code></p>
 
 <p>if projector is not given then CPU's computations will be used </p>
-<p>Computes signed distances from given test points to the closest point on the reference mesh: positive value - outside reference mesh, negative - inside reference mesh; this method can return wrong sign if the closest point is located on self-intersecting part of the mesh </p>
+<p>Computes signed distances from given test points to the closest point on the reference mesh: positive value - outside reference mesh, negative - inside reference mesh; this method can return wrong sign if the closest point is located on self-intersecting part of the mesh; the distances are measured in world space (after params.xf and params.refXf), with or without projector </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">refMesh</td><td>the distances to this mesh will be returned  </td></tr>

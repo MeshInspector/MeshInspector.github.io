@@ -25108,7 +25108,8 @@ this method can return wrong sign if the closest point is located on self-inters
 </div><div class="memdoc">
 <pre class="fragment">Computes signed distances from given test points to the closest point on the reference mesh:
 positive value - outside reference mesh, negative - inside reference mesh;
-this method can return wrong sign if the closest point is located on self-intersecting part of the mesh
+this method can return wrong sign if the closest point is located on self-intersecting part of the mesh;
+the distances are measured in world space (after params.xf and params.refXf), with or without projector
 </pre> 
 </div>
 </div>
