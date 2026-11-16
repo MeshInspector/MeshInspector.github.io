@@ -53,6 +53,7 @@ var classMR_1_1Const__Mesh =
     [ "fromTriangles", "classMR_1_1Const__Mesh.html#a63d8b33cacb827e76e8937be45e956fd", null ],
     [ "fromTrianglesDuplicatingNonManifoldVertices", "classMR_1_1Const__Mesh.html#a019bb4bf98f50221f3b8cf46c8643da1", null ],
     [ "fromTriMesh", "classMR_1_1Const__Mesh.html#ab80764bcf163893a8d86269e9910e2eb", null ],
+    [ "fromTriMeshDuplicatingNonManifoldVertices", "classMR_1_1Const__Mesh.html#a3320fd9779641828037c0a4c50242938", null ],
     [ "getAABBTree", "classMR_1_1Const__Mesh.html#a232c5316959b5bcdbbb06547b60442d1", null ],
     [ "getAABBTreeNotCreate", "classMR_1_1Const__Mesh.html#a01752e171353dffd57de43469be9efda", null ],
     [ "getAABBTreePoints", "classMR_1_1Const__Mesh.html#ae647cdc83884264b0523796c728be17d", null ],

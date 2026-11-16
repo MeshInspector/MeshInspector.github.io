@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"classMR_1_1Const__MeshVertPart.html#aaf744eb07a55cbe314f6cc16fd3d4ad4":[9,3,0,0,0,635,5],
 "classMR_1_1Const__MeshVertPart.html#abeb8769777876c6233488f99c053ac26":[9,3,0,0,0,635,8],
 "classMR_1_1Const__MeshVertPart.html#af24774272019e47c75150c09475c368e":[9,3,0,0,0,635,0],
 "classMR_1_1Const__MeshVoxelsConverter.html":[9,3,0,0,0,636],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "classMR_1_1Const__MutexOwner.html#ad0f3a283c334456d6c11e08d4c6f3c1d":[9,3,0,0,0,649,3],
 "classMR_1_1Const__NewEdgesMap.html":[9,3,0,0,0,650],
 "classMR_1_1Const__NewEdgesMap.html#a244bd67ae8939185abfeefc82b5f0ad1":[9,3,0,0,0,650,5],
-"classMR_1_1Const__NewEdgesMap.html#a2e9018fb6dcb6f3765ccc62262ed9040":[9,3,0,0,0,650,7],
-"classMR_1_1Const__NewEdgesMap.html#a31fd09eeea3ff3d383be42e40d950f55":[9,3,0,0,0,650,2]
+"classMR_1_1Const__NewEdgesMap.html#a2e9018fb6dcb6f3765ccc62262ed9040":[9,3,0,0,0,650,7]
 };

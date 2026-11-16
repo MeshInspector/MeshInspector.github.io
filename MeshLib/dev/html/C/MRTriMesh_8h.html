@@ -160,6 +160,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ab026b83e53387c9b27e4508b5cc5428d" id="r_ab026b83e53387c9b27e4508b5cc5428d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab026b83e53387c9b27e4508b5cc5428d">MR_TriMesh_DestroyArray</a> (const <a class="el" href="MRAABBTree_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this)</td></tr>
 <tr class="memdesc:ab026b83e53387c9b27e4508b5cc5428d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="MRAABBTree_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:aed065bf8680186990084059c32fc506c" id="r_aed065bf8680186990084059c32fc506c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed065bf8680186990084059c32fc506c">MR_TriMesh_AssignFromAnother</a> (<a class="el" href="MRAABBTree_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRAABBTree_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_other)</td></tr>
+<tr class="memitem:ad57ebe8acb3c52ba7a56263ca82b877e" id="r_ad57ebe8acb3c52ba7a56263ca82b877e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad57ebe8acb3c52ba7a56263ca82b877e">MR_TriMesh_fromMesh_const_MR_Mesh_ref</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
+<tr class="memitem:afcbb93b7efd0e095c09606fbd8f646ca" id="r_afcbb93b7efd0e095c09606fbd8f646ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcbb93b7efd0e095c09606fbd8f646ca">MR_TriMesh_fromMesh_MR_Mesh_rvalue_ref</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="aed065bf8680186990084059c32fc506c" name="aed065bf8680186990084059c32fc506c"></a>
@@ -314,6 +316,42 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="MRAABBTree_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ad57ebe8acb3c52ba7a56263ca82b877e" name="ad57ebe8acb3c52ba7a56263ca82b877e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad57ebe8acb3c52ba7a56263ca82b877e">&#9670;&#160;</a></span>MR_TriMesh_fromMesh_const_MR_Mesh_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> * MR_TriMesh_fromMesh_const_MR_Mesh_ref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>constructs TriMesh from valid triangles of given mesh; invalid faces get invalid vertex ids in the result Generated from method <span class="tt">MR::TriMesh::fromMesh</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a18aaf0a91c2e19d066de7e6dd70be78e" title="Destroys a heap-allocated instance of MR_TriMesh. Does nothing if the pointer is null.">MR_TriMesh_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="afcbb93b7efd0e095c09606fbd8f646ca" name="afcbb93b7efd0e095c09606fbd8f646ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcbb93b7efd0e095c09606fbd8f646ca">&#9670;&#160;</a></span>MR_TriMesh_fromMesh_MR_Mesh_rvalue_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> * MR_TriMesh_fromMesh_MR_Mesh_rvalue_ref </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>constructs TriMesh from valid triangles of given mesh; points of the mesh will be moved in the result Generated from method <span class="tt">MR::TriMesh::fromMesh</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a18aaf0a91c2e19d066de7e6dd70be78e" title="Destroys a heap-allocated instance of MR_TriMesh. Does nothing if the pointer is null.">MR_TriMesh_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>

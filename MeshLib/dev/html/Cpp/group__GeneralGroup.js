@@ -12663,6 +12663,8 @@ var group__GeneralGroup =
     [ "MR::PointsLoad::fromLas", "group__GeneralGroup.html#ga53e10905b0b0c7883ff7e24d2a59385d", null ],
     [ "MR::PointsLoad::fromLas", "group__GeneralGroup.html#gac78490328f89a7922ecb887a7373da8c", null ],
     [ "MR::EdgeLengthMesh::fromMesh", "group__GeneralGroup.html#ga8669d92825db2e7ff076a505fabb6120", null ],
+    [ "MR::TriMesh::fromMesh", "group__GeneralGroup.html#gaf60081f4f40ab7943bfc1217db0501d1", null ],
+    [ "MR::TriMesh::fromMesh", "group__GeneralGroup.html#gaccf8b4c08e530cd887020c7f87a1489b", null ],
     [ "MR::ImageLoad::fromPng", "group__GeneralGroup.html#ga8d83024914b3d9f2528822db2991c69a", null ],
     [ "MR::ImageLoad::fromPng", "group__GeneralGroup.html#ga307c90c18a4c76238088f90d44fa96fd", null ],
     [ "MR::MeshBuilder::fromPointTriples", "group__GeneralGroup.html#ga1d81a265f58e40e49884915932ef03cc", null ],

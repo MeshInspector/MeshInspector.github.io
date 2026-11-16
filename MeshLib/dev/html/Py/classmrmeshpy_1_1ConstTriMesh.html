@@ -132,6 +132,7 @@ $(function(){initNavTree('classmrmeshpy_1_1ConstTriMesh.html','','classmrmeshpy_
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classmrmeshpy_1_1ConstTriMesh-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">mrmeshpy.ConstTriMesh Class Reference</div></div>
@@ -153,6 +154,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aace878098fc534e06714e522cec10a97" id="r_aace878098fc534e06714e522cec10a97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aace878098fc534e06714e522cec10a97">__init__</a> (self, *args, **kwargs)</td></tr>
 <tr class="memitem:a871a58baf2886c7e56f71f7981360efd" id="r_a871a58baf2886c7e56f71f7981360efd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstVertCoords.html">ConstVertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a871a58baf2886c7e56f71f7981360efd">points</a> (self)</td></tr>
 <tr class="memitem:aad3ece57d3f4b1a74540abf912765d74" id="r_aad3ece57d3f4b1a74540abf912765d74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstTriangulation.html">ConstTriangulation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad3ece57d3f4b1a74540abf912765d74">tris</a> (self)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a98f47cff021043fbfce8312829aa72fc" id="r_a98f47cff021043fbfce8312829aa72fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1TriMesh.html">TriMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98f47cff021043fbfce8312829aa72fc">fromMesh</a> (<a class="el" href="classmrmeshpy_1_1ConstMesh.html">ConstMesh</a> mesh)</td></tr>
+<tr class="memitem:aaa94d7c793fde606305db2b2c67c1c1c" id="r_aaa94d7c793fde606305db2b2c67c1c1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1TriMesh.html">TriMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa94d7c793fde606305db2b2c67c1c1c">fromMesh</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -206,6 +212,58 @@ Implicit aggregate constructor.
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a98f47cff021043fbfce8312829aa72fc" name="a98f47cff021043fbfce8312829aa72fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98f47cff021043fbfce8312829aa72fc">&#9670;&#160;</a></span>fromMesh() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1TriMesh.html">TriMesh</a> mrmeshpy.ConstTriMesh.fromMesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstMesh.html">ConstMesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">constructs TriMesh from valid triangles of given mesh; invalid faces get invalid vertex ids in the result
+</pre> 
+</div>
+</div>
+<a id="aaa94d7c793fde606305db2b2c67c1c1c" name="aaa94d7c793fde606305db2b2c67c1c1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa94d7c793fde606305db2b2c67c1c1c">&#9670;&#160;</a></span>fromMesh() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1TriMesh.html">TriMesh</a> mrmeshpy.ConstTriMesh.fromMesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">constructs TriMesh from valid triangles of given mesh; points of the mesh will be moved in the result
+</pre> 
+</div>
+</div>
 <a id="a871a58baf2886c7e56f71f7981360efd" name="a871a58baf2886c7e56f71f7981360efd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a871a58baf2886c7e56f71f7981360efd">&#9670;&#160;</a></span>points()</h2>
 

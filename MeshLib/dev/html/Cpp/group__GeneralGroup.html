@@ -8315,6 +8315,10 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga9d52e943714d673d29e28fcb67d1e72d template"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9d52e943714d673d29e28fcb67d1e72d">MR::tangentPlaneToSpheres</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c, T ra, T rb, T rc)</td></tr>
 <tr class="memitem:gac400f45e6e10e9ce613b3632b3dcb2f4" id="r_gac400f45e6e10e9ce613b3632b3dcb2f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac400f45e6e10e9ce613b3632b3dcb2f4">MR::MR_BIND_TEMPLATE</a> (std::optional&lt; <a class="el" href="#ga6b8606e6618471611100352ed5a178a7">Plane3f</a> &gt; <a class="el" href="#ga9d52e943714d673d29e28fcb67d1e72d">tangentPlaneToSpheres</a>(const Vector3f &amp;, const Vector3f &amp;, const Vector3f &amp;, float, float, float))</td></tr>
 <tr class="memitem:gaefbe67a8b132a7cadcc4b5df1f372fce" id="r_gaefbe67a8b132a7cadcc4b5df1f372fce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaefbe67a8b132a7cadcc4b5df1f372fce">MR::MR_BIND_TEMPLATE</a> (std::optional&lt; Plane3d &gt; <a class="el" href="#ga9d52e943714d673d29e28fcb67d1e72d">tangentPlaneToSpheres</a>(const Vector3d &amp;, const Vector3d &amp;, const Vector3d &amp;, double, double, double))</td></tr>
+<tr class="memitem:gaf60081f4f40ab7943bfc1217db0501d1" id="r_gaf60081f4f40ab7943bfc1217db0501d1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf60081f4f40ab7943bfc1217db0501d1">MR::TriMesh::fromMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memdesc:gaf60081f4f40ab7943bfc1217db0501d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> from valid triangles of given mesh; invalid faces get invalid vertex ids in the result  <br /></td></tr>
+<tr class="memitem:gaccf8b4c08e530cd887020c7f87a1489b" id="r_gaccf8b4c08e530cd887020c7f87a1489b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaccf8b4c08e530cd887020c7f87a1489b">MR::TriMesh::fromMesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;mesh)</td></tr>
+<tr class="memdesc:gaccf8b4c08e530cd887020c7f87a1489b"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> from valid triangles of given mesh; points of the mesh will be moved in the result  <br /></td></tr>
 <tr class="memitem:gae1ce90d0ca764714e3a0dc6f5fd8ece5" id="r_gae1ce90d0ca764714e3a0dc6f5fd8ece5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae1ce90d0ca764714e3a0dc6f5fd8ece5">MR::TriMeshPart::TriMeshPart</a> (const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;m, const FaceBitSet &amp;r)</td></tr>
 <tr class="memdesc:gae1ce90d0ca764714e3a0dc6f5fd8ece5"><td class="mdescLeft">&#160;</td><td class="mdescRight">region must not have bits beyond m.tris  <br /></td></tr>
 <tr class="memitem:ga0e5733dffb431d23e489ffb540237689" id="r_ga0e5733dffb431d23e489ffb540237689"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0e5733dffb431d23e489ffb540237689">MR::FaceFaceFace::FaceFaceFace</a> (FaceId a, FaceId b, FaceId c)</td></tr>
@@ -80823,7 +80827,7 @@ template&lt;int id&gt; </div>
 </div>
 </div>
 <a id="ga8669d92825db2e7ff076a505fabb6120" name="ga8669d92825db2e7ff076a505fabb6120"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8669d92825db2e7ff076a505fabb6120">&#9670;&#160;</a></span>fromMesh()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8669d92825db2e7ff076a505fabb6120">&#9670;&#160;</a></span>fromMesh() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -80848,6 +80852,64 @@ template&lt;int id&gt; </div>
 <p><code>#include &lt;<a class="el" href="MREdgeLengthMesh_8h.html">MRMesh/MREdgeLengthMesh.h</a>&gt;</code></p>
 
 <p>construct <a class="el" href="structMR_1_1EdgeLengthMesh.html">EdgeLengthMesh</a> from an ordinary mesh </p>
+
+</div>
+</div>
+<a id="gaf60081f4f40ab7943bfc1217db0501d1" name="gaf60081f4f40ab7943bfc1217db0501d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf60081f4f40ab7943bfc1217db0501d1">&#9670;&#160;</a></span>fromMesh() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> MR::TriMesh::fromMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRTriMesh_8h.html">MRMesh/MRTriMesh.h</a>&gt;</code></p>
+
+<p>constructs <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> from valid triangles of given mesh; invalid faces get invalid vertex ids in the result </p>
+
+</div>
+</div>
+<a id="gaccf8b4c08e530cd887020c7f87a1489b" name="gaccf8b4c08e530cd887020c7f87a1489b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaccf8b4c08e530cd887020c7f87a1489b">&#9670;&#160;</a></span>fromMesh() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> MR::TriMesh::fromMesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRTriMesh_8h.html">MRMesh/MRTriMesh.h</a>&gt;</code></p>
+
+<p>constructs <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> from valid triangles of given mesh; points of the mesh will be moved in the result </p>
 
 </div>
 </div>

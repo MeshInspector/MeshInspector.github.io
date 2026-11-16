@@ -7,6 +7,8 @@ var MRTriMesh_8h =
     [ "MR_TriMesh_DefaultConstructArray", "MRTriMesh_8h.html#a5468a7253647f438d8ca6a89ad34bf19", null ],
     [ "MR_TriMesh_Destroy", "MRTriMesh_8h.html#a18aaf0a91c2e19d066de7e6dd70be78e", null ],
     [ "MR_TriMesh_DestroyArray", "MRTriMesh_8h.html#ab026b83e53387c9b27e4508b5cc5428d", null ],
+    [ "MR_TriMesh_fromMesh_const_MR_Mesh_ref", "MRTriMesh_8h.html#ad57ebe8acb3c52ba7a56263ca82b877e", null ],
+    [ "MR_TriMesh_fromMesh_MR_Mesh_rvalue_ref", "MRTriMesh_8h.html#afcbb93b7efd0e095c09606fbd8f646ca", null ],
     [ "MR_TriMesh_Get_points", "MRTriMesh_8h.html#acf3d4baf9ff1fbe403a32d5a071d1305", null ],
     [ "MR_TriMesh_Get_tris", "MRTriMesh_8h.html#acc84307eccc8990f5081235b12d46da2", null ],
     [ "MR_TriMesh_GetMutable_points", "MRTriMesh_8h.html#a8ce069d16c4aad0f41d61447b8260d8a", null ],

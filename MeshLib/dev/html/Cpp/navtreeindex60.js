@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"group__SurfacePathSubgroup.html#ga7363609bc214bf449089b0bc47c91f9e":[9,0,0,15,3,19],
+"group__SurfacePathSubgroup.html#ga75a2b2c564cafc8e986c3749ef417349":[9,0,0,15,3,20],
 "group__SurfacePathSubgroup.html#ga8952cb06a36688c4b4c488957348610a":[9,0,0,15,3,13],
 "group__SurfacePathSubgroup.html#ga9cb919b0dce15ca22cb7ff30ca02c7e3":[9,0,0,15,3,9],
 "group__SurfacePathSubgroup.html#gabf170f0041c6a3f36d79ed925e850fd8":[9,0,0,15,3,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1AsyncObjectLoad.html#a00566fda9bf4c9254ac5d2d9ffe7208d":[9,0,1,0,1,0,1],
 "namespaceMR_1_1AsyncObjectLoad.html#a5be8803f8be8c57d2ec98589759c0507":[9,0,1,0,1,0,0],
 "namespaceMR_1_1BitSetParallel.html":[9,0,0,3,1],
-"namespaceMR_1_1BitSetParallel.html#a171e1b4c596f99a5ac789f4ec19c22d3":[9,0,1,0,1,1,8],
-"namespaceMR_1_1BitSetParallel.html#a364f6c3c44118bfca1b525a51dd54626":[9,0,1,0,1,1,5],
-"namespaceMR_1_1BitSetParallel.html#a452efdd1b9dcbf1623c676526b773263":[9,0,1,0,1,1,11]
+"namespaceMR_1_1BitSetParallel.html#a171e1b4c596f99a5ac789f4ec19c22d3":[9,0,1,0,1,1,8]
 };

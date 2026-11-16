@@ -1,5 +1,8 @@
 var NAVTREEINDEX126 =
 {
+"classMR_1_1ObjectSave.html":[9,3,0,0,0,1536],
+"classMR_1_1ObjectSave.html#a02ea345222c8335edd77a73314e87e68":[9,3,0,0,0,1536,3],
+"classMR_1_1ObjectSave.html#ac2eff38293664a74185b3ba0781db0bb":[9,3,0,0,0,1536,2],
 "classMR_1_1ObjectSave_1_1Const__Settings.html":[9,3,0,0,0,1536,0],
 "classMR_1_1ObjectSave_1_1Const__Settings.html#a153381288f220a2f2a4b2f261bda16a5":[9,3,0,0,0,1536,0,1],
 "classMR_1_1ObjectSave_1_1Const__Settings.html#a353191fb669ff3b0b9f82469084331f0":[9,3,0,0,0,1536,0,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX126 =
 "classMR_1_1OutAttributesFillingSettings.html#a7b689f36cfc5e7e9f338f3786fb696ea":[9,3,0,0,0,1561,6],
 "classMR_1_1OutAttributesFillingSettings.html#ab31123a1fb89fb125a8f73a6b9d66783":[9,3,0,0,0,1561,2],
 "classMR_1_1OutAttributesFillingSettings.html#abababd5fb8c875907c4286d5d0ad2491":[9,3,0,0,0,1561,7],
-"classMR_1_1OutAttributesFillingSettings.html#af9dafc58bf53371282b8eb80c31d2b48":[9,3,0,0,0,1561,1],
-"classMR_1_1OutlierParams.html":[9,3,0,0,0,1562],
-"classMR_1_1OutlierParams.html#a33cfa2f0281c160bd0772363dee0e787":[9,3,0,0,0,1562,7],
-"classMR_1_1OutlierParams.html#a4a95a0bf66e78d4d0c71c88e3f35cb9d":[9,3,0,0,0,1562,1]
+"classMR_1_1OutAttributesFillingSettings.html#af9dafc58bf53371282b8eb80c31d2b48":[9,3,0,0,0,1561,1]
 };

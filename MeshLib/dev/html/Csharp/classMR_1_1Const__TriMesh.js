@@ -7,6 +7,8 @@ var classMR_1_1Const__TriMesh =
     [ "Const_TriMesh", "classMR_1_1Const__TriMesh.html#aed8ded8216ff85ebb96a51b9f1fccfee", null ],
     [ "Dispose", "classMR_1_1Const__TriMesh.html#a89fda2d95af0660f0f406c8f1051661d", null ],
     [ "Dispose", "classMR_1_1Const__TriMesh.html#a37a6862f374574d7c34755110ee37baf", null ],
+    [ "fromMesh", "classMR_1_1Const__TriMesh.html#a5f17e171a761ec0bef65d37b094a868b", null ],
+    [ "fromMesh", "classMR_1_1Const__TriMesh.html#aaf25c53b50195539c5f101e6525f08b8", null ],
     [ "points", "classMR_1_1Const__TriMesh.html#a023a000ce257457ae484dd400fee278c", null ],
     [ "tris", "classMR_1_1Const__TriMesh.html#a6e031fa3bab8a97a0141205c4abd6cf3", null ]
 ];

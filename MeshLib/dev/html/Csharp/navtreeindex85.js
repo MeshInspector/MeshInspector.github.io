@@ -1,5 +1,6 @@
 var NAVTREEINDEX85 =
 {
+"classMR_1_1Const__TextureBitSet.html#a9425bd38b71a9178ab426928303018b7":[9,3,0,0,0,912,42],
 "classMR_1_1Const__TextureBitSet.html#a9f30086a89f0c1d3e610a4ff2b45f1a8":[9,3,0,0,0,912,45],
 "classMR_1_1Const__TextureBitSet.html#a9ffd91d216a157358d9e03a34c3defaf":[9,3,0,0,0,912,33],
 "classMR_1_1Const__TextureBitSet.html#aa0d288bfd9c5dd8a771f881f979970e7":[9,3,0,0,0,912,15],
@@ -207,12 +208,14 @@ var NAVTREEINDEX85 =
 "classMR_1_1Const__TriIntersectResult.html#ad964e33f306997178fde04117b3a146c":[9,3,0,0,0,927,7],
 "classMR_1_1Const__TriIntersectResult.html#afc454e551924ea63b0d9fa95964f2d34":[9,3,0,0,0,927,1],
 "classMR_1_1Const__TriMesh.html":[9,3,0,0,0,928],
-"classMR_1_1Const__TriMesh.html#a023a000ce257457ae484dd400fee278c":[9,3,0,0,0,928,7],
+"classMR_1_1Const__TriMesh.html#a023a000ce257457ae484dd400fee278c":[9,3,0,0,0,928,9],
 "classMR_1_1Const__TriMesh.html#a37a6862f374574d7c34755110ee37baf":[9,3,0,0,0,928,6],
 "classMR_1_1Const__TriMesh.html#a4775993c5a2dc769245216d3a5dd685a":[9,3,0,0,0,928,3],
-"classMR_1_1Const__TriMesh.html#a6e031fa3bab8a97a0141205c4abd6cf3":[9,3,0,0,0,928,8],
+"classMR_1_1Const__TriMesh.html#a5f17e171a761ec0bef65d37b094a868b":[9,3,0,0,0,928,7],
+"classMR_1_1Const__TriMesh.html#a6e031fa3bab8a97a0141205c4abd6cf3":[9,3,0,0,0,928,10],
 "classMR_1_1Const__TriMesh.html#a801ac5246068fe79c18c87c9ee0ebc09":[9,3,0,0,0,928,2],
 "classMR_1_1Const__TriMesh.html#a89fda2d95af0660f0f406c8f1051661d":[9,3,0,0,0,928,5],
+"classMR_1_1Const__TriMesh.html#aaf25c53b50195539c5f101e6525f08b8":[9,3,0,0,0,928,8],
 "classMR_1_1Const__TriMesh.html#aba8d8ae78ac68e26853857f5270557a8":[9,3,0,0,0,928,0],
 "classMR_1_1Const__TriMesh.html#ad91882d6df582a6edace8c1c85d66a87":[9,3,0,0,0,928,1],
 "classMR_1_1Const__TriMesh.html#aed8ded8216ff85ebb96a51b9f1fccfee":[9,3,0,0,0,928,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX85 =
 "classMR_1_1Const__TriPointd.html#ac3fe80cff9a135cd59e08dc989a8e773":[9,3,0,0,0,932,4],
 "classMR_1_1Const__TriPointd.html#ac8f1e7005648add8574080680120e2e7":[9,3,0,0,0,932,5],
 "classMR_1_1Const__TriPointd.html#ae3a6ffc2f9ef66691210d8fd0758a32e":[9,3,0,0,0,932,14],
-"classMR_1_1Const__TriPointd.html#ae3d248db9ad87d5f15f3f3e4c2415fbd":[9,3,0,0,0,932,17],
-"classMR_1_1Const__TriPointd.html#aecb8228ff5da43597816a787f7163544":[9,3,0,0,0,932,20],
-"classMR_1_1Const__TriPointd.html#af0acc8e7d6447e01afbe4360f7e70e9b":[9,3,0,0,0,932,19],
-"classMR_1_1Const__TriPointd.html#afd11870332c4837c2c3ed0b2d0c2e234":[9,3,0,0,0,932,16]
+"classMR_1_1Const__TriPointd.html#ae3d248db9ad87d5f15f3f3e4c2415fbd":[9,3,0,0,0,932,17]
 };

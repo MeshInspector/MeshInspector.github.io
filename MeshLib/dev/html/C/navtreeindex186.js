@@ -1,5 +1,8 @@
 var NAVTREEINDEX186 =
 {
+"std__vector__MR__VertBitSet_8h.html#a53cb3d6cc6c904f32c5f4adf5819405a":[9,2,2,0,0,0,0,2,556,9],
+"std__vector__MR__VertBitSet_8h.html#a66c902e0ed8d8b27fbf2f00f2d3b17f7":[9,2,2,0,0,0,0,2,556,8],
+"std__vector__MR__VertBitSet_8h.html#a67bf72c58aecbd6d00ec4d8d649cca22":[9,2,2,0,0,0,0,2,556,14],
 "std__vector__MR__VertBitSet_8h.html#a72eb843794993ae965d68d1f8a5fc239":[9,2,2,0,0,0,0,2,556,18],
 "std__vector__MR__VertBitSet_8h.html#a75103bda646ce670c1b3a3101739f628":[9,2,2,0,0,0,0,2,556,11],
 "std__vector__MR__VertBitSet_8h.html#a778af77a2392e924b7a61a99a993c4c2":[9,2,2,0,0,0,0,2,556,13],
@@ -246,8 +249,5 @@ var NAVTREEINDEX186 =
 "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#ae66b9b34d0d0f1ffdc1c8b2504f0164f":[9,2,2,0,0,0,0,2,565,20],
 "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#aed289e61f3f5ada75858e680bb744141":[9,2,2,0,0,0,0,2,565,2],
 "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#af288e0433ea107f771e7d3900f0d2c79":[9,2,2,0,0,0,0,2,565,21],
-"std__vector__MR__WatershedGraph__OverflowPoint_8h_source.html":[9,2,2,0,0,0,0,2,565],
-"std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html":[9,2,2,0,0,0,0,2,566],
-"std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#a0ac633806a433c8b6b76a9253d0131f3":[9,2,2,0,0,0,0,2,566,13],
-"std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#a0bf5aaf5049745b51ff2d07e4f420632":[9,2,2,0,0,0,0,2,566,24]
+"std__vector__MR__WatershedGraph__OverflowPoint_8h_source.html":[9,2,2,0,0,0,0,2,565]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1PointCloudRelaxParams.html":[9,0,0,12,1],
+"structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf":[9,0,0,12,1,0],
 "structMR_1_1PointInAllSpaces.html":[9,0,0,19,655],
 "structMR_1_1PointOnFace.html":[9,0,0,19,464],
 "structMR_1_1PointOnObject.html":[9,0,0,19,465],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1RelaxParams.html":[9,0,0,19,500],
 "structMR_1_1RemeshSettings.html":[9,0,0,10,3],
 "structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9":[9,0,0,10,3,1],
-"structMR_1_1RemeshSettings.html#a22c46bdff64005e21bccd666e13e7f01":[9,0,0,10,3,8],
-"structMR_1_1RemeshSettings.html#a2302742bd2200fd6a5f9e078015705c1":[9,0,0,10,3,9],
-"structMR_1_1RemeshSettings.html#a4742691117b65ee01c742f25180e17a7":[9,0,0,10,3,15]
+"structMR_1_1RemeshSettings.html#a22c46bdff64005e21bccd666e13e7f01":[9,0,0,10,3,8]
 };

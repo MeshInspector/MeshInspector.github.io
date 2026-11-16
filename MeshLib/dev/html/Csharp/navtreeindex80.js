@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#af794b0b801f4ff549383bccf54ab74fc":[9,3,0,0,0,857,16],
 "classMR_1_1Const__ShellVertexInfo.html":[9,3,0,0,0,859],
 "classMR_1_1Const__ShellVertexInfo.html#a166eb0e4e4c69bda7a1024325f444657":[9,3,0,0,0,859,5],
 "classMR_1_1Const__ShellVertexInfo.html#a1b29d0a0696c3e977c2659b785bb0d0b":[9,3,0,0,0,859,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "classMR_1_1Const__SmoothCameraMeshDepthSettings.html#a178bd161a170b24315c69d8472f108c2":[9,3,0,0,0,871,12],
 "classMR_1_1Const__SmoothCameraMeshDepthSettings.html#a3c91618a18849e457b5b0eedeeb91762":[9,3,0,0,0,871,13],
 "classMR_1_1Const__SmoothCameraMeshDepthSettings.html#a3ead253a311114907946e35381102b21":[9,3,0,0,0,871,14],
-"classMR_1_1Const__SmoothCameraMeshDepthSettings.html#a44320e3e7ad73e6f610780c2b7cd8d35":[9,3,0,0,0,871,8],
-"classMR_1_1Const__SmoothCameraMeshDepthSettings.html#a546d13ab785099c2bba3d37861195312":[9,3,0,0,0,871,11]
+"classMR_1_1Const__SmoothCameraMeshDepthSettings.html#a44320e3e7ad73e6f610780c2b7cd8d35":[9,3,0,0,0,871,8]
 };

@@ -72,6 +72,7 @@ var MRMesh_8h =
     [ "MR_Mesh_fromTriangles", "MRMesh_8h.html#a92f6f23656effc2bde0e4c7b3fabad19", null ],
     [ "MR_Mesh_fromTrianglesDuplicatingNonManifoldVertices", "MRMesh_8h.html#a043c7f43c598971f3e6fbb6299a817f8", null ],
     [ "MR_Mesh_fromTriMesh", "MRMesh_8h.html#a77937c2ea990305bd5b8826f67653b0f", null ],
+    [ "MR_Mesh_fromTriMeshDuplicatingNonManifoldVertices", "MRMesh_8h.html#adcd4967da76112045539e199fd578808", null ],
     [ "MR_Mesh_Get_points", "MRMesh_8h.html#a761c97b0a5355c535d2a0d2284172cf7", null ],
     [ "MR_Mesh_Get_topology", "MRMesh_8h.html#a9b14debb3b7b0ebd19d7cbd8ba217aa7", null ],
     [ "MR_Mesh_getAABBTree", "MRMesh_8h.html#a3eaca6e30ef5146510c4ef7fb89c6776", null ],

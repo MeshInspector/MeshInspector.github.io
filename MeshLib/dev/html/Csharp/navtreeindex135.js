@@ -1,5 +1,8 @@
 var NAVTREEINDEX135 =
 {
+"classMR_1_1SetBitIteratorT__MRPixelBitSet.html#a8a4c06f431eb64c043821bc54923a9ff":[9,3,0,0,0,1696,2],
+"classMR_1_1SetBitIteratorT__MRPixelBitSet.html#a9d369bb0a95368f3b8e1d26d4385d5a1":[9,3,0,0,0,1696,3],
+"classMR_1_1SetBitIteratorT__MRPixelBitSet.html#ac9d74328e3b7ac1508446ebcf860bd68":[9,3,0,0,0,1696,4],
 "classMR_1_1SetBitIteratorT__MRPixelBitSet.html#aea9fa0c97e4c54997c33aa3774287060":[9,3,0,0,0,1696,6],
 "classMR_1_1SetBitIteratorT__MRRegionBitSet.html":[9,3,0,0,0,1697],
 "classMR_1_1SetBitIteratorT__MRRegionBitSet.html#a2666f04c55cbe37fe80726e4f37a81e3":[9,3,0,0,0,1697,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX135 =
 "classMR_1_1SomeLocalTriangulations.html#ad35531666dd9f585b9f5cec076d9a74d":[9,3,0,0,0,1719,8],
 "classMR_1_1SomeLocalTriangulations.html#aebeee680a02bb22554917b9e83ba3474":[9,3,0,0,0,1719,6],
 "classMR_1_1SortIntersectionsData.html":[9,3,0,0,0,1720],
-"classMR_1_1SortIntersectionsData.html#a048858f6764aa1dbed7417a848ffb298":[9,3,0,0,0,1720,6],
-"classMR_1_1SortIntersectionsData.html#a18f556fae44be6a22f1f6458461d3b8d":[9,3,0,0,0,1720,5],
-"classMR_1_1SortIntersectionsData.html#a7b1f4582159024cc4622f3ffcb2e4ae3":[9,3,0,0,0,1720,1],
-"classMR_1_1SortIntersectionsData.html#a8a37d911b5b0b1662221d718bc1c1c56":[9,3,0,0,0,1720,2]
+"classMR_1_1SortIntersectionsData.html#a048858f6764aa1dbed7417a848ffb298":[9,3,0,0,0,1720,6]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1Const__VoxelBitSet.html#aa6ad64b223509d34e004aefcedb1be24":[9,3,0,0,0,1071,45],
+"classMR_1_1Const__VoxelBitSet.html#ab20da7ccacb06ac967af88b4bb4e9e73":[9,3,0,0,0,1071,13],
+"classMR_1_1Const__VoxelBitSet.html#ab8053d2f32db9c9420b1b3f142d6191a":[9,3,0,0,0,1071,30],
 "classMR_1_1Const__VoxelBitSet.html#ac40eb06611a776d848eb5a818ab424e5":[9,3,0,0,0,1071,7],
 "classMR_1_1Const__VoxelBitSet.html#ad33ef3d8c9f1ef898275c678c15ae3c0":[9,3,0,0,0,1071,11],
 "classMR_1_1Const__VoxelBitSet.html#adf2cc795b0b9a82ba539f77e41f1c9bb":[9,3,0,0,0,1071,24],
@@ -246,8 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a8915a46c8ece2be06036b397a0ebb687":[9,3,0,0,0,1089,2,22],
 "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a9152f59d361db4ee7e5d7a8510087cd5":[9,3,0,0,0,1089,2,1],
 "classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a99327c140c7b991d576b79d64bc52865":[9,3,0,0,0,1089,2,5],
-"classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a9f2cf1d837bfe7ed4a9dc5f3f0b09888":[9,3,0,0,0,1089,2,18],
-"classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#ab987b7552648895199f2cff30b36e472":[9,3,0,0,0,1089,2,25],
-"classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#ad35ee3f91afc5139bde1976f1bae748e":[9,3,0,0,0,1089,2,0],
-"classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#ad487d2ff059c3b11df5a3a298155b9d3":[9,3,0,0,0,1089,2,8]
+"classMR_1_1Const__WatershedGraph_1_1Const__BasinInfo.html#a9f2cf1d837bfe7ed4a9dc5f3f0b09888":[9,3,0,0,0,1089,2,18]
 };

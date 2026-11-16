@@ -132,6 +132,7 @@ $(function(){initNavTree('classmeshlib_1_1TriMesh.html','','classmeshlib_1_1TriM
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classmeshlib_1_1TriMesh-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">meshlib.TriMesh Class Reference</div></div>
 </div><!--header-->
@@ -164,6 +165,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a13a1dffc41acfd1d81b88c42f47ecd36 inherit pub_methods_classmeshlib_1_1CppObject" id="r_a13a1dffc41acfd1d81b88c42f47ecd36"><td class="memItemLeft" align="right" valign="top">final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1CppObject.html#a13a1dffc41acfd1d81b88c42f47ecd36">isOwned</a> ()</td></tr>
 <tr class="memitem:a61726972e65f365433e3785f346209fc inherit pub_methods_classmeshlib_1_1CppObject" id="r_a61726972e65f365433e3785f346209fc"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1CppObject.html#a61726972e65f365433e3785f346209fc">close</a> ()</td></tr>
 <tr class="memitem:a5f0f8728641c0f7837ea2d8d60917b13 inherit pub_methods_classmeshlib_1_1CppObject" id="r_a5f0f8728641c0f7837ea2d8d60917b13"><td class="memItemLeft" align="right" valign="top">final java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1CppObject.html#a5f0f8728641c0f7837ea2d8d60917b13">release</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a2b29b3e581b608ebe8e5f1c969b60a0e" id="r_a2b29b3e581b608ebe8e5f1c969b60a0e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1TriMesh.html">meshlib.TriMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b29b3e581b608ebe8e5f1c969b60a0e">fromMesh_const_MR_Mesh_ref</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> mesh)</td></tr>
+<tr class="memitem:a7ac0de8e82a99982e7be3ce344f44211" id="r_a7ac0de8e82a99982e7be3ce344f44211"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1TriMesh.html">meshlib.TriMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ac0de8e82a99982e7be3ce344f44211">fromMesh_MR_Mesh_rvalue_ref</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> mesh)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -279,6 +285,60 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Generated from method <span class="tt">MR::TriMesh::operator=</span>. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object.</p>
 <p>Calls <span class="tt">MR_TriMesh_AssignFromAnother()</span>. </p>
+
+</div>
+</div>
+<a id="a2b29b3e581b608ebe8e5f1c969b60a0e" name="a2b29b3e581b608ebe8e5f1c969b60a0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b29b3e581b608ebe8e5f1c969b60a0e">&#9670;&#160;</a></span>fromMesh_const_MR_Mesh_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmeshlib_1_1TriMesh.html">meshlib.TriMesh</a> meshlib.TriMesh.fromMesh_const_MR_Mesh_ref </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>constructs <a class="el" href="classmeshlib_1_1TriMesh.html">TriMesh</a> from valid triangles of given mesh; invalid faces get invalid vertex ids in the result Generated from method <span class="tt">MR::TriMesh::fromMesh</span>.</p>
+<p>Calls <span class="tt">MR_TriMesh_fromMesh_const_MR_Mesh_ref()</span>. </p>
+
+</div>
+</div>
+<a id="a7ac0de8e82a99982e7be3ce344f44211" name="a7ac0de8e82a99982e7be3ce344f44211"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ac0de8e82a99982e7be3ce344f44211">&#9670;&#160;</a></span>fromMesh_MR_Mesh_rvalue_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmeshlib_1_1TriMesh.html">meshlib.TriMesh</a> meshlib.TriMesh.fromMesh_MR_Mesh_rvalue_ref </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>constructs <a class="el" href="classmeshlib_1_1TriMesh.html">TriMesh</a> from valid triangles of given mesh; points of the mesh will be moved in the result Generated from method <span class="tt">MR::TriMesh::fromMesh</span>.</p>
+<p>Calls <span class="tt">MR_TriMesh_fromMesh_MR_Mesh_rvalue_ref()</span>. </p>
 
 </div>
 </div>

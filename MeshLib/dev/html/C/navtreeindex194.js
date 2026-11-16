@@ -1,5 +1,8 @@
 var NAVTREEINDEX194 =
 {
+"structMR__Vector3b.html":[9,2,1,0,63],
+"structMR__Vector3b.html#a47bed12ddba97808968487eef0e90ecf":[9,2,1,0,63,2],
+"structMR__Vector3b.html#a6d1aa98471407f713cceb43a1c3224a4":[9,2,1,0,63,0],
 "structMR__Vector3b.html#af18a6cfac0b07b984aa7b507e540320d":[9,2,1,0,63,1],
 "structMR__Vector3d.html":[9,2,1,0,64],
 "structMR__Vector3d.html#a0232b22424ada08d0ac3caa939718a74":[9,2,1,0,64,0],
