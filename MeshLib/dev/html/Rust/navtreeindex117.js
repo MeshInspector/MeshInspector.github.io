@@ -1,5 +1,13 @@
 var NAVTREEINDEX117 =
 {
+"structmeshlib_1_1QuadraticForm3f.html#afcdb774dfb72e4f029ea6dc8cc26e6d4":[9,5,0,0,0,862,5],
+"structmeshlib_1_1QuadraticForm3f.html#afcdb774dfb72e4f029ea6dc8cc26e6d4":[9,5,1,0,0,849,5],
+"structmeshlib_1_1QuadricApprox.html":[9,5,0,0,0,863],
+"structmeshlib_1_1QuadricApprox.html":[9,5,1,0,0,850],
+"structmeshlib_1_1QuadricApprox.html#a18625a4973fbaae595ade09b52ae286d":[9,5,0,0,0,863,0],
+"structmeshlib_1_1QuadricApprox.html#a18625a4973fbaae595ade09b52ae286d":[9,5,1,0,0,850,0],
+"structmeshlib_1_1QuadricApprox.html#af7654ffcc313dc0202ecb0b62effdf58":[9,5,0,0,0,863,1],
+"structmeshlib_1_1QuadricApprox.html#af7654ffcc313dc0202ecb0b62effdf58":[9,5,1,0,0,850,1],
 "structmeshlib_1_1QuarterBit.html":[9,5,0,0,0,864],
 "structmeshlib_1_1QuarterBit.html":[9,5,1,0,0,851],
 "structmeshlib_1_1Quaterniond.html":[9,5,0,0,0,865],
@@ -241,13 +249,5 @@ var NAVTREEINDEX117 =
 "structmeshlib_1_1RadiusMeasurementObject.html#a84a41f2320896ed425b445ed783ebf11":[9,5,0,0,0,867,24],
 "structmeshlib_1_1RadiusMeasurementObject.html#a84a41f2320896ed425b445ed783ebf11":[9,5,1,0,0,854,24],
 "structmeshlib_1_1RadiusMeasurementObject.html#a84b6019ffbe001ad053524c7bd9612df":[9,5,0,0,0,867,74],
-"structmeshlib_1_1RadiusMeasurementObject.html#a84b6019ffbe001ad053524c7bd9612df":[9,5,1,0,0,854,74],
-"structmeshlib_1_1RadiusMeasurementObject.html#a85392b95c752f47fabc942fa5b592480":[9,5,0,0,0,867,44],
-"structmeshlib_1_1RadiusMeasurementObject.html#a85392b95c752f47fabc942fa5b592480":[9,5,1,0,0,854,44],
-"structmeshlib_1_1RadiusMeasurementObject.html#a865e14d8006cf28cc07ebc7269012083":[9,5,0,0,0,867,37],
-"structmeshlib_1_1RadiusMeasurementObject.html#a865e14d8006cf28cc07ebc7269012083":[9,5,1,0,0,854,37],
-"structmeshlib_1_1RadiusMeasurementObject.html#a8af3e0f8c9ca6d29b3439872d7813525":[9,5,0,0,0,867,75],
-"structmeshlib_1_1RadiusMeasurementObject.html#a8af3e0f8c9ca6d29b3439872d7813525":[9,5,1,0,0,854,75],
-"structmeshlib_1_1RadiusMeasurementObject.html#a8bf2a69eeceb7a4da10d459af0485711":[9,5,0,0,0,867,119],
-"structmeshlib_1_1RadiusMeasurementObject.html#a8bf2a69eeceb7a4da10d459af0485711":[9,5,1,0,0,854,119]
+"structmeshlib_1_1RadiusMeasurementObject.html#a84b6019ffbe001ad053524c7bd9612df":[9,5,1,0,0,854,74]
 };

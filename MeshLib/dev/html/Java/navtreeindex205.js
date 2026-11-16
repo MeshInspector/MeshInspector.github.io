@@ -1,5 +1,13 @@
 var NAVTREEINDEX205 =
 {
+"classmeshlib_1_1selfintersections_1_1Settings.html#ab06478509ba574db6e01cffd44afb731":[9,6,0,0,0,32,1,8],
+"classmeshlib_1_1selfintersections_1_1Settings.html#ab06478509ba574db6e01cffd44afb731":[9,6,1,0,0,32,1,8],
+"classmeshlib_1_1selfintersections_1_1Settings.html#ab36e3e92e03b34eaf82dd4a4312ac371":[9,6,0,0,0,32,1,5],
+"classmeshlib_1_1selfintersections_1_1Settings.html#ab36e3e92e03b34eaf82dd4a4312ac371":[9,6,1,0,0,32,1,5],
+"classmeshlib_1_1selfintersections_1_1Settings.html#abdfe04a85095f6cfc9fc29cb22ed03a6":[9,6,0,0,0,32,1,14],
+"classmeshlib_1_1selfintersections_1_1Settings.html#abdfe04a85095f6cfc9fc29cb22ed03a6":[9,6,1,0,0,32,1,14],
+"classmeshlib_1_1selfintersections_1_1Settings.html#ac77381013b7711cc9f1bf3b4e57704e0":[9,6,0,0,0,32,1,17],
+"classmeshlib_1_1selfintersections_1_1Settings.html#ac77381013b7711cc9f1bf3b4e57704e0":[9,6,1,0,0,32,1,17],
 "classmeshlib_1_1selfintersections_1_1Settings.html#ac90d4ceb772398b09cdcae9263065949":[9,6,0,0,0,32,1,15],
 "classmeshlib_1_1selfintersections_1_1Settings.html#ac90d4ceb772398b09cdcae9263065949":[9,6,1,0,0,32,1,15],
 "classmeshlib_1_1selfintersections_1_1Settings.html#ae2eccd4844d193b6a41e1d7f94464114":[9,6,0,0,0,32,1,12],
@@ -241,13 +249,5 @@ var NAVTREEINDEX205 =
 "classmeshlib_1_1std__array__MR__Vector3f__3.html#a5e4112b27bb26d3b1d8ad2f15896595f":[9,6,0,0,0,982,0],
 "classmeshlib_1_1std__array__MR__Vector3f__3.html#a5e4112b27bb26d3b1d8ad2f15896595f":[9,6,1,0,0,982,0],
 "classmeshlib_1_1std__array__MR__Vector3f__3.html#a7adc91df3bb6b01c6ceabf26aea3f0d0":[9,6,0,0,0,982,3],
-"classmeshlib_1_1std__array__MR__Vector3f__3.html#a7adc91df3bb6b01c6ceabf26aea3f0d0":[9,6,1,0,0,982,3],
-"classmeshlib_1_1std__array__MR__Vector3f__3.html#aa1b9123258c81fe1e7b905ad8ee24caf":[9,6,0,0,0,982,2],
-"classmeshlib_1_1std__array__MR__Vector3f__3.html#aa1b9123258c81fe1e7b905ad8ee24caf":[9,6,1,0,0,982,2],
-"classmeshlib_1_1std__array__MR__Vector3f__3.html#ad3991885d8f002f15efe795f61195963":[9,6,0,0,0,982,4],
-"classmeshlib_1_1std__array__MR__Vector3f__3.html#ad3991885d8f002f15efe795f61195963":[9,6,1,0,0,982,4],
-"classmeshlib_1_1std__array__MR__VertId__2.html":[9,6,0,0,0,983],
-"classmeshlib_1_1std__array__MR__VertId__2.html":[9,6,1,0,0,983],
-"classmeshlib_1_1std__array__MR__VertId__2.html#a3a2800875e74c8846b51bb68abfa86a3":[9,6,0,0,0,983,0],
-"classmeshlib_1_1std__array__MR__VertId__2.html#a3a2800875e74c8846b51bb68abfa86a3":[9,6,1,0,0,983,0]
+"classmeshlib_1_1std__array__MR__Vector3f__3.html#a7adc91df3bb6b01c6ceabf26aea3f0d0":[9,6,1,0,0,982,3]
 };

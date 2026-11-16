@@ -1,5 +1,13 @@
 var NAVTREEINDEX212 =
 {
+"classmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref.html#ac730fb34227652cb242b1171b926ca57":[9,6,0,0,0,1069,8],
+"classmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref.html#ac730fb34227652cb242b1171b926ca57":[9,6,1,0,0,1069,8],
+"classmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref.html#acb1306520ffce9943d42badc7fb8fb6d":[9,6,0,0,0,1069,1],
+"classmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref.html#acb1306520ffce9943d42badc7fb8fb6d":[9,6,1,0,0,1069,1],
+"classmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref.html#ad1ff1f4059a6ecca3ed59d9cb4cbd73f":[9,6,0,0,0,1069,2],
+"classmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref.html#ad1ff1f4059a6ecca3ed59d9cb4cbd73f":[9,6,1,0,0,1069,2],
+"classmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref.html#aed7cd5b394e580dee59bb6a48b9cf525":[9,6,0,0,0,1069,6],
+"classmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref.html#aed7cd5b394e580dee59bb6a48b9cf525":[9,6,1,0,0,1069,6],
 "classmeshlib_1_1std__function__void__from__MR__VertId.html":[9,6,0,0,0,1070],
 "classmeshlib_1_1std__function__void__from__MR__VertId.html":[9,6,1,0,0,1070],
 "classmeshlib_1_1std__function__void__from__MR__VertId.html#a032da2edb6659ae24f7e760e541866b0":[9,6,0,0,0,1070,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX212 =
 "classmeshlib_1_1std__optional__MR__Color.html#aa7d72e82eee590d6132107a5083c6ea1":[9,6,0,0,0,1079,4],
 "classmeshlib_1_1std__optional__MR__Color.html#aa7d72e82eee590d6132107a5083c6ea1":[9,6,1,0,0,1079,4],
 "classmeshlib_1_1std__optional__MR__Color.html#acb4212bca70eeff96f12814af632a191":[9,6,0,0,0,1079,6],
-"classmeshlib_1_1std__optional__MR__Color.html#acb4212bca70eeff96f12814af632a191":[9,6,1,0,0,1079,6],
-"classmeshlib_1_1std__optional__MR__Color.html#ade37f870183708bdfe5ff63a8ada61ff":[9,6,0,0,0,1079,0],
-"classmeshlib_1_1std__optional__MR__Color.html#ade37f870183708bdfe5ff63a8ada61ff":[9,6,1,0,0,1079,0],
-"classmeshlib_1_1std__optional__MR__Color.html#af30fd0cb4e4ebdc969da548fecac167f":[9,6,0,0,0,1079,8],
-"classmeshlib_1_1std__optional__MR__Color.html#af30fd0cb4e4ebdc969da548fecac167f":[9,6,1,0,0,1079,8],
-"classmeshlib_1_1std__optional__MR__Color.html#afcc82f8cfbe56f1736758ebf88477919":[9,6,0,0,0,1079,5],
-"classmeshlib_1_1std__optional__MR__Color.html#afcc82f8cfbe56f1736758ebf88477919":[9,6,1,0,0,1079,5],
-"classmeshlib_1_1std__optional__MR__DentalId.html":[9,6,0,0,0,1080],
-"classmeshlib_1_1std__optional__MR__DentalId.html":[9,6,1,0,0,1080]
+"classmeshlib_1_1std__optional__MR__Color.html#acb4212bca70eeff96f12814af632a191":[9,6,1,0,0,1079,6]
 };

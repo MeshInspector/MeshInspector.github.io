@@ -1,5 +1,13 @@
 var NAVTREEINDEX272 =
 {
+"std__optional__MR__SignedDistanceToMeshResult_8java.html":[9,6,2,0,0,1,0,0,1097],
+"std__optional__MR__TriIntersectResult_8java.html":[9,6,2,0,0,1,0,0,1099],
+"std__optional__MR__Triangulation_8java.html":[9,6,2,0,0,1,0,0,1098],
+"std__optional__MR__Vector2d_8java.html":[9,6,2,0,0,1,0,0,1100],
+"std__optional__MR__Vector2f_8java.html":[9,6,2,0,0,1,0,0,1101],
+"std__optional__MR__Vector3d_8java.html":[9,6,2,0,0,1,0,0,1102],
+"std__optional__MR__Vector3f_8java.html":[9,6,2,0,0,1,0,0,1103],
+"std__optional__MR__Vector3i_8java.html":[9,6,2,0,0,1,0,0,1104],
 "std__optional__MR__VertBitSet_8java.html":[9,6,2,0,0,1,0,0,1105],
 "std__optional__MR__VertCoords2_8java.html":[9,6,2,0,0,1,0,0,1107],
 "std__optional__MR__VertCoords_8java.html":[9,6,2,0,0,1,0,0,1106],
@@ -241,13 +249,5 @@ var NAVTREEINDEX272 =
 "std__vector__MR__Graph__EndVertices__MR__Allocator__MR__Graph__EndVertices_8java.html":[9,6,2,0,0,1,0,0,1349],
 "std__vector__MR__Heap__float__MR__GraphVertId__std__greater__float__Element_8java.html":[9,6,2,0,0,1,0,0,1353],
 "std__vector__MR__HoleFillPlan_8java.html":[9,6,2,0,0,1,0,0,1354],
-"std__vector__MR__ICPGroupPair_8java.html":[9,6,2,0,0,1,0,0,1355],
-"std__vector__MR__ICPGroupPairs__MR__Allocator__MR__ICPGroupPairs_8java.html":[9,6,2,0,0,1,0,0,1356],
-"std__vector__MR__IOFilter_8java.html":[9,6,2,0,0,1,0,0,1360],
-"std__vector__MR__Id__MR__ICPElemtTag__MR__Allocator__MR__Id__MR__ICPElemtTag_8java.html":[9,6,2,0,0,1,0,0,1357],
-"std__vector__MR__Id__MR__SurfaceDistanceStartTag__MR__Allocator__MR__Id__MR__SurfaceDistanceStartTag_8java.html":[9,6,2,0,0,1,0,0,1358],
-"std__vector__MR__Image_8java.html":[9,6,2,0,0,1,0,0,1359],
-"std__vector__MR__Line3Mesh__double_8java.html":[9,6,2,0,0,1,0,0,1361],
-"std__vector__MR__Line3Mesh__float_8java.html":[9,6,2,0,0,1,0,0,1362],
-"std__vector__MR__LineSegm3f_8java.html":[9,6,2,0,0,1,0,0,1363]
+"std__vector__MR__ICPGroupPair_8java.html":[9,6,2,0,0,1,0,0,1355]
 };

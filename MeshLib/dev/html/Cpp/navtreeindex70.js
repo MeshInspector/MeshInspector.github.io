@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1PointCloudApproxRelaxParams.html":[9,0,0,12,2],
+"structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d":[9,0,0,12,2,0],
 "structMR_1_1PointCloudPart.html":[9,0,0,19,460],
 "structMR_1_1PointCloudRelaxParams.html":[9,0,0,12,1],
 "structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf":[9,0,0,12,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1RebuildMeshSettings.html":[9,0,0,19,899],
 "structMR_1_1ReduceTotalAngleParams.html":[9,0,0,19,388],
 "structMR_1_1RefineParameters.html":[9,0,0,19,247],
-"structMR_1_1RelaxParams.html":[9,0,0,19,500],
-"structMR_1_1RemeshSettings.html":[9,0,0,10,3],
-"structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9":[9,0,0,10,3,1]
+"structMR_1_1RelaxParams.html":[9,0,0,19,500]
 };

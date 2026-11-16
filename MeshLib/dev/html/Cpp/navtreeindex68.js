@@ -235,10 +235,12 @@ var NAVTREEINDEX68 =
 "structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0":[9,0,0,9,6,1,0],
 "structMR_1_1MeshFromVoxelsPostProcessingParams.html":[9,0,0,19,900],
 "structMR_1_1MeshIntersectionResult.html":[9,0,0,1,22],
-"structMR_1_1MeshIntersectionResult.html#a35b9064f7ab7e270307559622c3ec903":[9,0,0,1,22,0],
-"structMR_1_1MeshIntersectionResult.html#a59e06434bac0180ffaac80a2fb3041d1":[9,0,0,1,22,3],
-"structMR_1_1MeshIntersectionResult.html#a701e1414a45534a29d2ad1f7074c3c61":[9,0,0,1,22,1],
-"structMR_1_1MeshIntersectionResult.html#aa6767f8fee0dd3f9883b1657e2d9fcb2":[9,0,0,1,22,2],
+"structMR_1_1MeshIntersectionResult.html#a26f0999136b9f539503d0791ff949416":[9,0,0,1,22,5],
+"structMR_1_1MeshIntersectionResult.html#a2c138555d94fc9f1535b79ff5e8f7026":[9,0,0,1,22,2],
+"structMR_1_1MeshIntersectionResult.html#a2f22c8d64736c8e5ac4bf510fb2f81d2":[9,0,0,1,22,0],
+"structMR_1_1MeshIntersectionResult.html#a35b9064f7ab7e270307559622c3ec903":[9,0,0,1,22,1],
+"structMR_1_1MeshIntersectionResult.html#a59e06434bac0180ffaac80a2fb3041d1":[9,0,0,1,22,4],
+"structMR_1_1MeshIntersectionResult.html#a701e1414a45534a29d2ad1f7074c3c61":[9,0,0,1,22,3],
 "structMR_1_1MeshLoadSettings.html":[9,0,0,19,375],
 "structMR_1_1MeshLoad_1_1MeshLoader.html":[9,0,0,2,8,0],
 "structMR_1_1MeshLoad_1_1MeshLoader.html#a40a2dbad196aed53280103d84b6fd429":[9,0,0,2,8,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1MeshLoad_1_1ObjLoadSettings.html":[9,0,0,2,12,0],
 "structMR_1_1MeshLoad_1_1StepLoadSettings.html":[9,0,1,0,1,27,3],
 "structMR_1_1MeshLoad_1_1StepLoadSettings.html":[9,0,2,0,1,15,3],
-"structMR_1_1MeshLoad_1_1StepLoadSettings.html#a1ce565a217495fbc5151a90f6c5ba904":[9,0,1,0,1,27,3,4],
-"structMR_1_1MeshLoad_1_1StepLoadSettings.html#a1ce565a217495fbc5151a90f6c5ba904":[9,0,2,0,1,15,3,4],
-"structMR_1_1MeshLoad_1_1StepLoadSettings.html#a305896bf1e6f138df3e0f7982bc1d3cf":[9,0,1,0,1,27,3,2]
+"structMR_1_1MeshLoad_1_1StepLoadSettings.html#a1ce565a217495fbc5151a90f6c5ba904":[9,0,1,0,1,27,3,4]
 };

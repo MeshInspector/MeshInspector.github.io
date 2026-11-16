@@ -1,5 +1,13 @@
 var NAVTREEINDEX127 =
 {
+"classmeshlib_1_1SetBitIteratorT__MR__PixelBitSet.html#ac025dd3960e8901bd697586fa5a71dc7":[9,6,0,0,0,927,1],
+"classmeshlib_1_1SetBitIteratorT__MR__PixelBitSet.html#ac025dd3960e8901bd697586fa5a71dc7":[9,6,1,0,0,927,1],
+"classmeshlib_1_1SetBitIteratorT__MR__PixelBitSet.html#ad5a3475700734900cd59272e374eb703":[9,6,0,0,0,927,2],
+"classmeshlib_1_1SetBitIteratorT__MR__PixelBitSet.html#ad5a3475700734900cd59272e374eb703":[9,6,1,0,0,927,2],
+"classmeshlib_1_1SetBitIteratorT__MR__PixelBitSet.html#af39f9d4c885849e4967e2a9266e7281d":[9,6,0,0,0,927,6],
+"classmeshlib_1_1SetBitIteratorT__MR__PixelBitSet.html#af39f9d4c885849e4967e2a9266e7281d":[9,6,1,0,0,927,6],
+"classmeshlib_1_1SetBitIteratorT__MR__PixelBitSet.html#afef94927cca6abbe09f43ad40d4f29bf":[9,6,0,0,0,927,3],
+"classmeshlib_1_1SetBitIteratorT__MR__PixelBitSet.html#afef94927cca6abbe09f43ad40d4f29bf":[9,6,1,0,0,927,3],
 "classmeshlib_1_1SetBitIteratorT__MR__RegionBitSet.html":[9,6,0,0,0,928],
 "classmeshlib_1_1SetBitIteratorT__MR__RegionBitSet.html":[9,6,1,0,0,928],
 "classmeshlib_1_1SetBitIteratorT__MR__RegionBitSet.html#a01dad6a8dba5df4e701d5bcf05437e74":[9,6,0,0,0,928,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX127 =
 "classmeshlib_1_1SharpenMarchingCubesMeshSettings.html#aea74d798d2083dbed8507f9ea4947c35":[9,6,0,0,0,934,14],
 "classmeshlib_1_1SharpenMarchingCubesMeshSettings.html#aea74d798d2083dbed8507f9ea4947c35":[9,6,1,0,0,934,14],
 "classmeshlib_1_1SharpenMarchingCubesMeshSettings.html#aeb68c5232eb84fcc913ccf3448f5baf4":[9,6,0,0,0,934,23],
-"classmeshlib_1_1SharpenMarchingCubesMeshSettings.html#aeb68c5232eb84fcc913ccf3448f5baf4":[9,6,1,0,0,934,23],
-"classmeshlib_1_1SharpenMarchingCubesMeshSettings.html#af908daf84b092d4518fb18c82dd5f0ec":[9,6,0,0,0,934,5],
-"classmeshlib_1_1SharpenMarchingCubesMeshSettings.html#af908daf84b092d4518fb18c82dd5f0ec":[9,6,1,0,0,934,5],
-"classmeshlib_1_1ShellVertexInfo.html":[9,6,0,0,0,936],
-"classmeshlib_1_1ShellVertexInfo.html":[9,6,1,0,0,936],
-"classmeshlib_1_1ShellVertexInfo.html#a0e7423d698dac585e02ee641c084e024":[9,6,0,0,0,936,5],
-"classmeshlib_1_1ShellVertexInfo.html#a0e7423d698dac585e02ee641c084e024":[9,6,1,0,0,936,5],
-"classmeshlib_1_1ShellVertexInfo.html#a1f884db4af3ee686738eed4e5ff5d3ed":[9,6,0,0,0,936,11],
-"classmeshlib_1_1ShellVertexInfo.html#a1f884db4af3ee686738eed4e5ff5d3ed":[9,6,1,0,0,936,11]
+"classmeshlib_1_1SharpenMarchingCubesMeshSettings.html#aeb68c5232eb84fcc913ccf3448f5baf4":[9,6,1,0,0,934,23]
 };

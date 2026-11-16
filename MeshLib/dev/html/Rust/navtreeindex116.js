@@ -1,5 +1,13 @@
 var NAVTREEINDEX116 =
 {
+"structmeshlib_1_1PositionVertsSmoothlyParams.html#aa18f5a086d7038d3d31f9a5d47753cbf":[9,5,0,0,0,849,15],
+"structmeshlib_1_1PositionVertsSmoothlyParams.html#aa18f5a086d7038d3d31f9a5d47753cbf":[9,5,1,0,0,836,15],
+"structmeshlib_1_1PositionVertsSmoothlyParams.html#aa4a68898e74711fdd237a0585def6f15":[9,5,0,0,0,849,2],
+"structmeshlib_1_1PositionVertsSmoothlyParams.html#aa4a68898e74711fdd237a0585def6f15":[9,5,1,0,0,836,2],
+"structmeshlib_1_1PositionVertsSmoothlyParams.html#aa5324a4c5af236738afdbffc488656db":[9,5,0,0,0,849,13],
+"structmeshlib_1_1PositionVertsSmoothlyParams.html#aa5324a4c5af236738afdbffc488656db":[9,5,1,0,0,836,13],
+"structmeshlib_1_1PositionVertsSmoothlyParams.html#aa66d5935ece19bcec2517e8ecaa1a2b7":[9,5,0,0,0,849,0],
+"structmeshlib_1_1PositionVertsSmoothlyParams.html#aa66d5935ece19bcec2517e8ecaa1a2b7":[9,5,1,0,0,836,0],
 "structmeshlib_1_1PositionVertsSmoothlyParams.html#aad5679ac31562035122634c85cd59b1f":[9,5,0,0,0,849,10],
 "structmeshlib_1_1PositionVertsSmoothlyParams.html#aad5679ac31562035122634c85cd59b1f":[9,5,1,0,0,836,10],
 "structmeshlib_1_1PositionVertsSmoothlyParams.html#ab52a4f0d12e3f2c23113796f9dd7c28b":[9,5,0,0,0,849,9],
@@ -241,13 +249,5 @@ var NAVTREEINDEX116 =
 "structmeshlib_1_1QuadraticForm3f.html#acd97f4ca52e7226e7d01c45e614463f6":[9,5,0,0,0,862,7],
 "structmeshlib_1_1QuadraticForm3f.html#acd97f4ca52e7226e7d01c45e614463f6":[9,5,1,0,0,849,7],
 "structmeshlib_1_1QuadraticForm3f.html#adafb1cec00c620220ac0676cc1274010":[9,5,0,0,0,862,6],
-"structmeshlib_1_1QuadraticForm3f.html#adafb1cec00c620220ac0676cc1274010":[9,5,1,0,0,849,6],
-"structmeshlib_1_1QuadraticForm3f.html#afcdb774dfb72e4f029ea6dc8cc26e6d4":[9,5,0,0,0,862,5],
-"structmeshlib_1_1QuadraticForm3f.html#afcdb774dfb72e4f029ea6dc8cc26e6d4":[9,5,1,0,0,849,5],
-"structmeshlib_1_1QuadricApprox.html":[9,5,0,0,0,863],
-"structmeshlib_1_1QuadricApprox.html":[9,5,1,0,0,850],
-"structmeshlib_1_1QuadricApprox.html#a18625a4973fbaae595ade09b52ae286d":[9,5,0,0,0,863,0],
-"structmeshlib_1_1QuadricApprox.html#a18625a4973fbaae595ade09b52ae286d":[9,5,1,0,0,850,0],
-"structmeshlib_1_1QuadricApprox.html#af7654ffcc313dc0202ecb0b62effdf58":[9,5,0,0,0,863,1],
-"structmeshlib_1_1QuadricApprox.html#af7654ffcc313dc0202ecb0b62effdf58":[9,5,1,0,0,850,1]
+"structmeshlib_1_1QuadraticForm3f.html#adafb1cec00c620220ac0676cc1274010":[9,5,1,0,0,849,6]
 };

@@ -6,7 +6,6 @@ var MRMeshProject_8h =
     [ "MR_std_function_MR_Processing_from_const_MR_MeshProjectionResult_ref_MR_Ball3f_ref", "MRMeshProject_8h.html#a7153db550682d07e50c4c7011e55030a", null ],
     [ "MR_std_function_MR_Processing_from_MR_FaceId_MR_Ball3f_ref", "MRMeshProject_8h.html#ae3acf0a99d199194bbe73c22b10e0c91", null ],
     [ "MR_std_optional_MR_SignedDistanceToMeshResult", "MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b", null ],
-    [ "MR_TriPointf", "MRMeshProject_8h.html#a9b2681646fc37c10c6deec7f555be88c", null ],
     [ "MR_createProjectionTransforms", "MRMeshProject_8h.html#ae0bd290e8c178e3694343fad2d0cb230", null ],
     [ "MR_findBoxedTrisInBall", "MRMeshProject_8h.html#a2d4926109378c6d2d5bb7c10645ba524", null ],
     [ "MR_findProjection", "MRMeshProject_8h.html#affdfa7ec891bc607a9cdef13ce7a1bb4", null ],

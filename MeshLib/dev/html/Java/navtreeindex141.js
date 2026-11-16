@@ -1,5 +1,13 @@
 var NAVTREEINDEX141 =
 {
+"classmeshlib_1_1TriTriDistanceResult__double.html#ab8cae3201761a032860c5b3e9e9c1140":[9,6,0,0,0,1545,2],
+"classmeshlib_1_1TriTriDistanceResult__double.html#ab8cae3201761a032860c5b3e9e9c1140":[9,6,1,0,0,1545,2],
+"classmeshlib_1_1TriTriDistanceResult__double.html#ac1e05881027f2a3f36829173800f68ed":[9,6,0,0,0,1545,16],
+"classmeshlib_1_1TriTriDistanceResult__double.html#ac1e05881027f2a3f36829173800f68ed":[9,6,1,0,0,1545,16],
+"classmeshlib_1_1TriTriDistanceResult__double.html#ad786ab3cdfe15abf206481ff5e3a7d09":[9,6,0,0,0,1545,3],
+"classmeshlib_1_1TriTriDistanceResult__double.html#ad786ab3cdfe15abf206481ff5e3a7d09":[9,6,1,0,0,1545,3],
+"classmeshlib_1_1TriTriDistanceResult__double.html#ae37a8878c72b3102fd63f74dcdd134f2":[9,6,0,0,0,1545,18],
+"classmeshlib_1_1TriTriDistanceResult__double.html#ae37a8878c72b3102fd63f74dcdd134f2":[9,6,1,0,0,1545,18],
 "classmeshlib_1_1TriTriDistanceResult__float.html":[9,6,0,0,0,1546],
 "classmeshlib_1_1TriTriDistanceResult__float.html":[9,6,1,0,0,1546],
 "classmeshlib_1_1TriTriDistanceResult__float.html#a1974af9125367ecfa2d9828f0cc9892e":[9,6,0,0,0,1546,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX141 =
 "classmeshlib_1_1TrimOptionalOutput.html#aeba7383be8547b54cd6288bfc53c3c7f":[9,6,0,0,0,1539,3],
 "classmeshlib_1_1TrimOptionalOutput.html#aeba7383be8547b54cd6288bfc53c3c7f":[9,6,1,0,0,1539,3],
 "classmeshlib_1_1TrimOptionalOutput.html#afcf7d706e4f5cd5cbc1ca2776fa42d4b":[9,6,0,0,0,1539,0],
-"classmeshlib_1_1TrimOptionalOutput.html#afcf7d706e4f5cd5cbc1ca2776fa42d4b":[9,6,1,0,0,1539,0],
-"classmeshlib_1_1TrimWithPlaneParams.html":[9,6,0,0,0,1540],
-"classmeshlib_1_1TrimWithPlaneParams.html":[9,6,1,0,0,1540],
-"classmeshlib_1_1TrimWithPlaneParams.html#a5e8247eed6b2de8030edd1d324197266":[9,6,0,0,0,1540,1],
-"classmeshlib_1_1TrimWithPlaneParams.html#a5e8247eed6b2de8030edd1d324197266":[9,6,1,0,0,1540,1],
-"classmeshlib_1_1TrimWithPlaneParams.html#a63c68689942789489757c88b16e1a52a":[9,6,0,0,0,1540,8],
-"classmeshlib_1_1TrimWithPlaneParams.html#a63c68689942789489757c88b16e1a52a":[9,6,1,0,0,1540,8],
-"classmeshlib_1_1TrimWithPlaneParams.html#a6720cafdfae7f7fcf37ccbdfdbcd2a7c":[9,6,0,0,0,1540,4],
-"classmeshlib_1_1TrimWithPlaneParams.html#a6720cafdfae7f7fcf37ccbdfdbcd2a7c":[9,6,1,0,0,1540,4]
+"classmeshlib_1_1TrimOptionalOutput.html#afcf7d706e4f5cd5cbc1ca2776fa42d4b":[9,6,1,0,0,1539,0]
 };

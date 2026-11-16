@@ -1,5 +1,13 @@
 var NAVTREEINDEX145 =
 {
+"structmeshlib_1_1Vector4i64.html#a523a200bb54b2de4099f626d52c02c39":[9,5,0,0,0,1587,1],
+"structmeshlib_1_1Vector4i64.html#a523a200bb54b2de4099f626d52c02c39":[9,5,1,0,0,1574,1],
+"structmeshlib_1_1Vector4i64.html#a653f0239577bfb8d1fb0cd4d5f10658f":[9,5,0,0,0,1587,3],
+"structmeshlib_1_1Vector4i64.html#a653f0239577bfb8d1fb0cd4d5f10658f":[9,5,1,0,0,1574,3],
+"structmeshlib_1_1Vector4i64.html#a7fe9824b797b01086654b0cea34aa270":[9,5,0,0,0,1587,6],
+"structmeshlib_1_1Vector4i64.html#a7fe9824b797b01086654b0cea34aa270":[9,5,1,0,0,1574,6],
+"structmeshlib_1_1Vector4i64.html#a8b1cba0d2f1989101933a35625305f80":[9,5,0,0,0,1587,5],
+"structmeshlib_1_1Vector4i64.html#a8b1cba0d2f1989101933a35625305f80":[9,5,1,0,0,1574,5],
 "structmeshlib_1_1Vector4i64.html#a8cd58ffb4ed679404bc3a0e88cdff91a":[9,5,0,0,0,1587,7],
 "structmeshlib_1_1Vector4i64.html#a8cd58ffb4ed679404bc3a0e88cdff91a":[9,5,1,0,0,1574,7],
 "structmeshlib_1_1Vector4i64.html#ae186fd127fdd25fca6024941102fef8a":[9,5,0,0,0,1587,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX145 =
 "structmeshlib_1_1Vector__MR__AABBTreePoints__Node__MR__NodeId.html#a207444fda35fed786228a2924b34607b":[9,5,0,0,0,1600,0],
 "structmeshlib_1_1Vector__MR__AABBTreePoints__Node__MR__NodeId.html#a207444fda35fed786228a2924b34607b":[9,5,1,0,0,1587,0],
 "structmeshlib_1_1Vector__MR__AABBTreePoints__Node__MR__NodeId.html#a28b36d8ad9ece4a373b2c70b704e9864":[9,5,0,0,0,1600,2],
-"structmeshlib_1_1Vector__MR__AABBTreePoints__Node__MR__NodeId.html#a28b36d8ad9ece4a373b2c70b704e9864":[9,5,1,0,0,1587,2],
-"structmeshlib_1_1Vector__MR__AABBTreePoints__Node__MR__NodeId.html#a2b8fa1a1690e28ddbb0a4e5615c8e777":[9,5,0,0,0,1600,6],
-"structmeshlib_1_1Vector__MR__AABBTreePoints__Node__MR__NodeId.html#a2b8fa1a1690e28ddbb0a4e5615c8e777":[9,5,1,0,0,1587,6],
-"structmeshlib_1_1Vector__MR__AABBTreePoints__Node__MR__NodeId.html#a2cae1a6065f61e098c7cc347eb2f6bdb":[9,5,0,0,0,1600,5],
-"structmeshlib_1_1Vector__MR__AABBTreePoints__Node__MR__NodeId.html#a2cae1a6065f61e098c7cc347eb2f6bdb":[9,5,1,0,0,1587,5],
-"structmeshlib_1_1Vector__MR__AABBTreePoints__Node__MR__NodeId.html#a34b34de713c2297bf2cd393f42ff82db":[9,5,0,0,0,1600,33],
-"structmeshlib_1_1Vector__MR__AABBTreePoints__Node__MR__NodeId.html#a34b34de713c2297bf2cd393f42ff82db":[9,5,1,0,0,1587,33],
-"structmeshlib_1_1Vector__MR__AABBTreePoints__Node__MR__NodeId.html#a3d6fc2f76b97e7d806b236ea595682ff":[9,5,0,0,0,1600,15],
-"structmeshlib_1_1Vector__MR__AABBTreePoints__Node__MR__NodeId.html#a3d6fc2f76b97e7d806b236ea595682ff":[9,5,1,0,0,1587,15]
+"structmeshlib_1_1Vector__MR__AABBTreePoints__Node__MR__NodeId.html#a28b36d8ad9ece4a373b2c70b704e9864":[9,5,1,0,0,1587,2]
 };

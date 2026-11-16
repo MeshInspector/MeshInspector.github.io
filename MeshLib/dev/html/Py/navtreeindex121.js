@@ -1,5 +1,9 @@
 var NAVTREEINDEX121 =
 {
+"classmrmeshpy_1_1DenoiseWithCreasesSettings.html#af307f4f1dee121b4a444bb2df6f6a326":[9,1,0,0,2,1493,2],
+"classmrmeshpy_1_1DenoiseWithCreasesSettings.html#af307f4f1dee121b4a444bb2df6f6a326":[9,1,1,0,1,1493,2],
+"classmrmeshpy_1_1DenoiseWithCreasesSettings.html#afd720fa7ba75e50118c9cb94426a94a0":[9,1,0,0,2,1493,3],
+"classmrmeshpy_1_1DenoiseWithCreasesSettings.html#afd720fa7ba75e50118c9cb94426a94a0":[9,1,1,0,1,1493,3],
 "classmrmeshpy_1_1DenseBox.html":[9,1,0,0,2,1494],
 "classmrmeshpy_1_1DenseBox.html":[9,1,1,0,1,1494],
 "classmrmeshpy_1_1DenseBox.html#a2aa50e7fbd372846c136776350f7bb5e":[9,1,0,0,2,1494,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX121 =
 "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a05ed105abc4fe886ca5140c83bb682af":[9,1,0,0,2,1505,9],
 "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a05ed105abc4fe886ca5140c83bb682af":[9,1,1,0,1,1505,9],
 "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a072bab336b1f6e2a39ac898a2f3e1da5":[9,1,0,0,2,1505,2],
-"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a072bab336b1f6e2a39ac898a2f3e1da5":[9,1,1,0,1,1505,2],
-"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a1010ce447c69992a84c0ee6b628363b8":[9,1,0,0,2,1505,8],
-"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a1010ce447c69992a84c0ee6b628363b8":[9,1,1,0,1,1505,8],
-"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a4e6474e3c1c9ebbcccbc5685399f3918":[9,1,0,0,2,1505,6],
-"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a4e6474e3c1c9ebbcccbc5685399f3918":[9,1,1,0,1,1505,6]
+"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#a072bab336b1f6e2a39ac898a2f3e1da5":[9,1,1,0,1,1505,2]
 };

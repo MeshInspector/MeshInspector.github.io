@@ -1,5 +1,13 @@
 var NAVTREEINDEX105 =
 {
+"structmeshlib_1_1PartialChangeMeshPointsAction.html#ad212b5e219b9f61288c80b4e49ce2d3e":[9,5,1,0,0,756,0],
+"structmeshlib_1_1PartialChangeMeshTopologyAction.html":[9,5,0,0,0,770],
+"structmeshlib_1_1PartialChangeMeshTopologyAction.html":[9,5,1,0,0,757],
+"structmeshlib_1_1PartialChangeMeshTopologyAction.html#a4e1519631b0f5ee27f5f6e5ebf0a2955":[9,5,0,0,0,770,0],
+"structmeshlib_1_1PartialChangeMeshTopologyAction.html#a4e1519631b0f5ee27f5f6e5ebf0a2955":[9,5,1,0,0,757,0],
+"structmeshlib_1_1PartialChangeMeshTopologyAction.html#a68c48fc58cc58ff6c9cdbb125f7d5217":[9,5,0,0,0,770,4],
+"structmeshlib_1_1PartialChangeMeshTopologyAction.html#a68c48fc58cc58ff6c9cdbb125f7d5217":[9,5,1,0,0,757,4],
+"structmeshlib_1_1PartialChangeMeshTopologyAction.html#a76585478924b33f906a4b3dbc31ae815":[9,5,0,0,0,770,2],
 "structmeshlib_1_1PartialChangeMeshTopologyAction.html#a76585478924b33f906a4b3dbc31ae815":[9,5,1,0,0,757,2],
 "structmeshlib_1_1PartialChangeMeshTopologyAction.html#aba91a992d1e37ca21a7ff2cd2c9ccb5c":[9,5,0,0,0,770,3],
 "structmeshlib_1_1PartialChangeMeshTopologyAction.html#aba91a992d1e37ca21a7ff2cd2c9ccb5c":[9,5,1,0,0,757,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX105 =
 "structmeshlib_1_1Pdf__TextCellParams.html#aa1ccdb600c68cc0097a5e9ca36ccc01d":[9,5,1,0,0,769,0],
 "structmeshlib_1_1Pdf__TextCellParams.html#aa5b9fb01ebe8e966a14c63e2cfca99cc":[9,5,0,0,0,782,11],
 "structmeshlib_1_1Pdf__TextCellParams.html#aa5b9fb01ebe8e966a14c63e2cfca99cc":[9,5,1,0,0,769,11],
-"structmeshlib_1_1Pdf__TextCellParams.html#ad1d2a7f0975be71e28eff4515c06012f":[9,5,0,0,0,782,4],
-"structmeshlib_1_1Pdf__TextCellParams.html#ad1d2a7f0975be71e28eff4515c06012f":[9,5,1,0,0,769,4],
-"structmeshlib_1_1Pdf__TextCellParams.html#ae159208dd4ce1e47abd82f9ac6048920":[9,5,0,0,0,782,12],
-"structmeshlib_1_1Pdf__TextCellParams.html#ae159208dd4ce1e47abd82f9ac6048920":[9,5,1,0,0,769,12],
-"structmeshlib_1_1Pdf__TextCellParams.html#af749865e63035940079aa6f375efb179":[9,5,0,0,0,782,3],
-"structmeshlib_1_1Pdf__TextCellParams.html#af749865e63035940079aa6f375efb179":[9,5,1,0,0,769,3],
-"structmeshlib_1_1Pdf__TextParams.html":[9,5,0,0,0,783],
-"structmeshlib_1_1Pdf__TextParams.html":[9,5,1,0,0,770],
-"structmeshlib_1_1Pdf__TextParams.html#a00a964ffa82dff64e5999571f5899bdc":[9,5,0,0,0,783,13]
+"structmeshlib_1_1Pdf__TextCellParams.html#ad1d2a7f0975be71e28eff4515c06012f":[9,5,0,0,0,782,4]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX128 =
 {
+"classmeshlib_1_1SharpenMarchingCubesMeshSettings.html#af908daf84b092d4518fb18c82dd5f0ec":[9,6,0,0,0,934,5],
+"classmeshlib_1_1SharpenMarchingCubesMeshSettings.html#af908daf84b092d4518fb18c82dd5f0ec":[9,6,1,0,0,934,5],
+"classmeshlib_1_1ShellVertexInfo.html":[9,6,0,0,0,936],
+"classmeshlib_1_1ShellVertexInfo.html":[9,6,1,0,0,936],
+"classmeshlib_1_1ShellVertexInfo.html#a0e7423d698dac585e02ee641c084e024":[9,6,0,0,0,936,5],
+"classmeshlib_1_1ShellVertexInfo.html#a0e7423d698dac585e02ee641c084e024":[9,6,1,0,0,936,5],
+"classmeshlib_1_1ShellVertexInfo.html#a1f884db4af3ee686738eed4e5ff5d3ed":[9,6,0,0,0,936,11],
+"classmeshlib_1_1ShellVertexInfo.html#a1f884db4af3ee686738eed4e5ff5d3ed":[9,6,1,0,0,936,11],
 "classmeshlib_1_1ShellVertexInfo.html#a60ab8eaf9a5d803dbdf54d1e7389bafe":[9,6,0,0,0,936,8],
 "classmeshlib_1_1ShellVertexInfo.html#a60ab8eaf9a5d803dbdf54d1e7389bafe":[9,6,1,0,0,936,8],
 "classmeshlib_1_1ShellVertexInfo.html#aa7f041c2380392142b3844501f714907":[9,6,0,0,0,936,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX128 =
 "classmeshlib_1_1SimpleVolumeMinMax.html#a811f9cdb993f06a06faed7ba80d67eb4":[9,6,0,0,0,945,13],
 "classmeshlib_1_1SimpleVolumeMinMax.html#a811f9cdb993f06a06faed7ba80d67eb4":[9,6,1,0,0,945,13],
 "classmeshlib_1_1SimpleVolumeMinMax.html#a837ab960503a8d99df8fd275dfd811b6":[9,6,0,0,0,945,7],
-"classmeshlib_1_1SimpleVolumeMinMax.html#a837ab960503a8d99df8fd275dfd811b6":[9,6,1,0,0,945,7],
-"classmeshlib_1_1SimpleVolumeMinMax.html#a87df454efa3422b4ea20671fb9794376":[9,6,0,0,0,945,22],
-"classmeshlib_1_1SimpleVolumeMinMax.html#a87df454efa3422b4ea20671fb9794376":[9,6,1,0,0,945,22],
-"classmeshlib_1_1SimpleVolumeMinMax.html#a886669f7906f147a5561c420027677b1":[9,6,0,0,0,945,19],
-"classmeshlib_1_1SimpleVolumeMinMax.html#a886669f7906f147a5561c420027677b1":[9,6,1,0,0,945,19],
-"classmeshlib_1_1SimpleVolumeMinMax.html#a89863b31ae3ff0740dab42c77fe5bda0":[9,6,0,0,0,945,0],
-"classmeshlib_1_1SimpleVolumeMinMax.html#a89863b31ae3ff0740dab42c77fe5bda0":[9,6,1,0,0,945,0],
-"classmeshlib_1_1SimpleVolumeMinMax.html#a997302abe892cd8f87887c53102b323a":[9,6,0,0,0,945,1],
-"classmeshlib_1_1SimpleVolumeMinMax.html#a997302abe892cd8f87887c53102b323a":[9,6,1,0,0,945,1]
+"classmeshlib_1_1SimpleVolumeMinMax.html#a837ab960503a8d99df8fd275dfd811b6":[9,6,1,0,0,945,7]
 };

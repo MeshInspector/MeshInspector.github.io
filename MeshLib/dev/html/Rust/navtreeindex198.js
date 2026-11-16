@@ -1,5 +1,13 @@
 var NAVTREEINDEX198 =
 {
+"structmeshlib_1_1std__optional__double.html":[9,5,0,0,0,1062],
+"structmeshlib_1_1std__optional__double.html":[9,5,1,0,0,1049],
+"structmeshlib_1_1std__optional__double.html#a2da94278c17799b769d8732ef4f788da":[9,5,0,0,0,1062,3],
+"structmeshlib_1_1std__optional__double.html#a2da94278c17799b769d8732ef4f788da":[9,5,1,0,0,1049,3],
+"structmeshlib_1_1std__optional__double.html#a500649d4b6e2c8de82ce1bfaef54eb8c":[9,5,0,0,0,1062,0],
+"structmeshlib_1_1std__optional__double.html#a500649d4b6e2c8de82ce1bfaef54eb8c":[9,5,1,0,0,1049,0],
+"structmeshlib_1_1std__optional__double.html#a898ca65dd5d35a9573a8e01d75ee02ef":[9,5,0,0,0,1062,4],
+"structmeshlib_1_1std__optional__double.html#a898ca65dd5d35a9573a8e01d75ee02ef":[9,5,1,0,0,1049,4],
 "structmeshlib_1_1std__optional__double.html#aab5c26fd5b3b00ec5ec67e942ca0642d":[9,5,0,0,0,1062,1],
 "structmeshlib_1_1std__optional__double.html#aab5c26fd5b3b00ec5ec67e942ca0642d":[9,5,1,0,0,1049,1],
 "structmeshlib_1_1std__optional__double.html#acc6d4bcbaa82974ecc2c6812ff115bd3":[9,5,0,0,0,1062,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX198 =
 "structmeshlib_1_1std__pair__MR__Vector3d__MR__Vector3d.html#a72e65b2d2fae90d505fa0670a1dfe16b":[9,5,0,0,0,1146,4],
 "structmeshlib_1_1std__pair__MR__Vector3d__MR__Vector3d.html#a72e65b2d2fae90d505fa0670a1dfe16b":[9,5,1,0,0,1133,4],
 "structmeshlib_1_1std__pair__MR__Vector3d__MR__Vector3d.html#a7950eef6d8530bdccfeb9fb39eaaccf0":[9,5,0,0,0,1146,2],
-"structmeshlib_1_1std__pair__MR__Vector3d__MR__Vector3d.html#a7950eef6d8530bdccfeb9fb39eaaccf0":[9,5,1,0,0,1133,2],
-"structmeshlib_1_1std__pair__MR__Vector3d__MR__Vector3d.html#ab49277fe81f9064e96640c2cf548e542":[9,5,0,0,0,1146,0],
-"structmeshlib_1_1std__pair__MR__Vector3d__MR__Vector3d.html#ab49277fe81f9064e96640c2cf548e542":[9,5,1,0,0,1133,0],
-"structmeshlib_1_1std__pair__MR__Vector3d__MR__Vector3d.html#af6306ef3b68b93bf998018b8d2ad878b":[9,5,0,0,0,1146,1],
-"structmeshlib_1_1std__pair__MR__Vector3d__MR__Vector3d.html#af6306ef3b68b93bf998018b8d2ad878b":[9,5,1,0,0,1133,1],
-"structmeshlib_1_1std__pair__MR__Vector3f__MR__TriPointf.html":[9,5,0,0,0,1147],
-"structmeshlib_1_1std__pair__MR__Vector3f__MR__TriPointf.html":[9,5,1,0,0,1134],
-"structmeshlib_1_1std__pair__MR__Vector3f__MR__TriPointf.html#a0abba295d9f810784b94bf5998c2a67f":[9,5,0,0,0,1147,3],
-"structmeshlib_1_1std__pair__MR__Vector3f__MR__TriPointf.html#a0abba295d9f810784b94bf5998c2a67f":[9,5,1,0,0,1134,3]
+"structmeshlib_1_1std__pair__MR__Vector3d__MR__Vector3d.html#a7950eef6d8530bdccfeb9fb39eaaccf0":[9,5,1,0,0,1133,2]
 };
