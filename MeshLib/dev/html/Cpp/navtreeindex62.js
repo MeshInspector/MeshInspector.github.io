@@ -1,5 +1,8 @@
 var NAVTREEINDEX62 =
 {
+"namespaceMR_1_1PythonViewer.html#a07559aa1161470058562a9e588df4bd7":[9,0,1,0,1,40,48],
+"namespaceMR_1_1PythonViewer.html#a0d576d900b1a2e682feb45e643655831":[9,0,1,0,1,40,11],
+"namespaceMR_1_1PythonViewer.html#a0d576d900b1a2e682feb45e643655831a92b09c7c48c520c3c55e497875da437c":[9,0,1,0,1,40,11,1],
 "namespaceMR_1_1PythonViewer.html#a0d576d900b1a2e682feb45e643655831a945d5e233cf7d6240f6b783b36a374ff":[9,0,1,0,1,40,11,0],
 "namespaceMR_1_1PythonViewer.html#a0d576d900b1a2e682feb45e643655831ab1ca34f82e83c52b010f86955f264e05":[9,0,1,0,1,40,11,2],
 "namespaceMR_1_1PythonViewer.html#a0e17f69edf966720b4496270e17fa575":[9,0,1,0,1,40,45],
@@ -246,8 +249,5 @@ var NAVTREEINDEX62 =
 "namespaceMR_1_1VoxelsSave.html#ace76e677d22f184c1690891c1f7f1733":[9,0,1,0,1,57,17],
 "namespaceMR_1_1VoxelsSave.html#adab85b9bc199dbc4168a30c1aaec5c67":[9,0,1,0,1,57,3],
 "namespaceMR_1_1VoxelsSave.html#ae97a9649f728491374a52c4f5822d109":[9,0,1,0,1,57,8],
-"namespaceMR_1_1VoxelsSave.html#af82f8c5775c7abc303399c0fdf9d8de5":[9,0,1,0,1,57,19],
-"namespaceMR_1_1VoxelsSave.html#afeecbc4eab76803974501a46e51234d6":[9,0,1,0,1,57,2],
-"namespaceMR_1_1WeightedShell.html":[9,0,1,0,1,58],
-"namespaceMR_1_1WeightedShell.html#a0a1a97bb2e01d6e33cc69b5e0295543e":[9,0,1,0,1,58,6]
+"namespaceMR_1_1VoxelsSave.html#af82f8c5775c7abc303399c0fdf9d8de5":[9,0,1,0,1,57,19]
 };

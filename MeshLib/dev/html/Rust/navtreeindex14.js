@@ -1,5 +1,8 @@
 var NAVTREEINDEX14 =
 {
+"namespacemeshlib_1_1triangulation__helpers.html#a87d62b638eb480718594c947baec4be1":[9,5,0,0,0,33,8],
+"namespacemeshlib_1_1triangulation__helpers.html#abcf63ff9b7e17dd45cc3744910368bb0":[9,5,0,0,0,33,5],
+"namespacemeshlib_1_1triangulation__helpers.html#ae473fd611a38074032bcb260058207c3":[9,5,0,0,0,33,4],
 "namespacemeshlib_1_1voxels__load.html":[9,5,0,0,0,34],
 "namespacemeshlib_1_1voxels__load.html#a069093ce159cdbaeb465af869a575b25":[9,5,0,0,0,34,14],
 "namespacemeshlib_1_1voxels__load.html#a09258e46375c910944a5b9bb84860c69":[9,5,0,0,0,34,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX14 =
 "std__pair__MR__UndirectedEdgeId__bool_8rs.html":[9,5,2,0,0,1,3,289],
 "std__pair__MR__Vector3d__MR__TriPointd_8rs.html":[9,5,2,0,0,1,3,290],
 "std__pair__MR__Vector3d__MR__Vector3d_8rs.html":[9,5,2,0,0,1,3,291],
-"std__pair__MR__Vector3f__MR__TriPointf_8rs.html":[9,5,2,0,0,1,3,292],
-"std__pair__MR__Vector3f__MR__Vector3f_8rs.html":[9,5,2,0,0,1,3,293],
-"std__pair__MR__VertId__MR__FaceId_8rs.html":[9,5,2,0,0,1,3,295],
-"std__pair__MR__VertId__MR__VertId_8rs.html":[9,5,2,0,0,1,3,296]
+"std__pair__MR__Vector3f__MR__TriPointf_8rs.html":[9,5,2,0,0,1,3,292]
 };

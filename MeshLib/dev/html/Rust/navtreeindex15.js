@@ -1,5 +1,8 @@
 var NAVTREEINDEX15 =
 {
+"std__pair__MR__Vector3f__MR__Vector3f_8rs.html":[9,5,2,0,0,1,3,293],
+"std__pair__MR__VertId__MR__FaceId_8rs.html":[9,5,2,0,0,1,3,295],
+"std__pair__MR__VertId__MR__VertId_8rs.html":[9,5,2,0,0,1,3,296],
 "std__pair__MR__VertId__bool_8rs.html":[9,5,2,0,0,1,3,294],
 "std__pair__bool__int_8rs.html":[9,5,2,0,0,1,3,251],
 "std__pair__const__MR__EdgeId__MR__EdgeId_8rs.html":[9,5,2,0,0,1,3,253],
@@ -246,8 +249,5 @@ var NAVTREEINDEX15 =
 "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8rs.html":[9,5,2,0,0,1,3,519],
 "std__vector__MR__PlanarTriangulation__IntersectionInfo_8rs.html":[9,5,2,0,0,1,3,520],
 "std__vector__MR__PointCloud_8rs.html":[9,5,2,0,0,1,3,521],
-"std__vector__MR__PointPair_8rs.html":[9,5,2,0,0,1,3,522],
-"std__vector__MR__PointsLoad__NamedCloud_8rs.html":[9,5,2,0,0,1,3,523],
-"std__vector__MR__PointsProjectionResult_8rs.html":[9,5,2,0,0,1,3,524],
-"std__vector__MR__Polyline3_8rs.html":[9,5,2,0,0,1,3,525]
+"std__vector__MR__PointPair_8rs.html":[9,5,2,0,0,1,3,522]
 };

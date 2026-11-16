@@ -1,5 +1,8 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1Const__BMap__MRPixelId__MRPixelId.html#abdf70b00a3ad38ad8b5723cd824a26f5":[9,3,0,0,0,284,4],
+"classMR_1_1Const__BMap__MRPixelId__MRPixelId.html#ac4ddc283d53b3e2080e6fe3ea9366a35":[9,3,0,0,0,284,6],
+"classMR_1_1Const__BMap__MRRegionId__MRRegionId.html":[9,3,0,0,0,285],
 "classMR_1_1Const__BMap__MRRegionId__MRRegionId.html#a25836e8b79a4f2d7f50c7f307e1f988a":[9,3,0,0,0,285,0],
 "classMR_1_1Const__BMap__MRRegionId__MRRegionId.html#a545fe36b4dcdbea017d03657010f45f0":[9,3,0,0,0,285,5],
 "classMR_1_1Const__BMap__MRRegionId__MRRegionId.html#a85d58ad61d44d7d61df0749db58275e7":[9,3,0,0,0,285,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1Const__BasinVolumeCalculator.html#a8861e560bb9af2e90cf668ef6c993e3d":[9,3,0,0,0,271,1],
 "classMR_1_1Const__BasinVolumeCalculator.html#acfc0a4a77c44fcb7d1db1e000d34a02d":[9,3,0,0,0,271,4],
 "classMR_1_1Const__BendContoursAlongCurveParams.html":[9,3,0,0,0,272],
-"classMR_1_1Const__BendContoursAlongCurveParams.html#a05413e88f1fc53477067a8e95ec40a24":[9,3,0,0,0,272,10],
-"classMR_1_1Const__BendContoursAlongCurveParams.html#a06b5a578e3ed8e202d455d8f9f61059c":[9,3,0,0,0,272,15],
-"classMR_1_1Const__BendContoursAlongCurveParams.html#a200911c82c33cffdef85ec0ebb11fb78":[9,3,0,0,0,272,8],
-"classMR_1_1Const__BendContoursAlongCurveParams.html#a346997c57650f47c35bbfc94df150a14":[9,3,0,0,0,272,2]
+"classMR_1_1Const__BendContoursAlongCurveParams.html#a05413e88f1fc53477067a8e95ec40a24":[9,3,0,0,0,272,10]
 };

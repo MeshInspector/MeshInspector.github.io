@@ -1,5 +1,8 @@
 var NAVTREEINDEX141 =
 {
+"structmeshlib_1_1UndirectedEdgeColors.html#af3da2745bbe6093c3998bb2c23d3b728":[9,5,1,0,0,1534,24],
+"structmeshlib_1_1UndirectedEdgeColors.html#af8b917e9eb85cf31fcceaafae15049d1":[9,5,0,0,0,1547,27],
+"structmeshlib_1_1UndirectedEdgeColors.html#af8b917e9eb85cf31fcceaafae15049d1":[9,5,1,0,0,1534,27],
 "structmeshlib_1_1UndirectedEdgeColors.html#afae1ee41a7131ad6977088407ada1d04":[9,5,0,0,0,1547,26],
 "structmeshlib_1_1UndirectedEdgeColors.html#afae1ee41a7131ad6977088407ada1d04":[9,5,1,0,0,1534,26],
 "structmeshlib_1_1UndirectedEdgeColors.html#afe28db0a166b4ceb1e0226344279c97b":[9,5,0,0,0,1547,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX141 =
 "structmeshlib_1_1UniformSamplingSettings.html#a0cd7f705e7f482e58846572e82382c5d":[9,5,1,0,0,1542,10],
 "structmeshlib_1_1UniformSamplingSettings.html#a194c8bb194c7935eb7544d06218b61c7":[9,5,0,0,0,1555,4],
 "structmeshlib_1_1UniformSamplingSettings.html#a194c8bb194c7935eb7544d06218b61c7":[9,5,1,0,0,1542,4],
-"structmeshlib_1_1UniformSamplingSettings.html#a3d19c147f6a9f9e61cac673df0eab5e7":[9,5,0,0,0,1555,14],
-"structmeshlib_1_1UniformSamplingSettings.html#a3d19c147f6a9f9e61cac673df0eab5e7":[9,5,1,0,0,1542,14],
-"structmeshlib_1_1UniformSamplingSettings.html#a4c6707575d1ad20ac1b4c5005fb8f268":[9,5,0,0,0,1555,15],
-"structmeshlib_1_1UniformSamplingSettings.html#a4c6707575d1ad20ac1b4c5005fb8f268":[9,5,1,0,0,1542,15]
+"structmeshlib_1_1UniformSamplingSettings.html#a3d19c147f6a9f9e61cac673df0eab5e7":[9,5,0,0,0,1555,14]
 };

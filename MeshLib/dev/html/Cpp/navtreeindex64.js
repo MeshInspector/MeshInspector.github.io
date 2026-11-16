@@ -1,5 +1,8 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1AncillaryMesh.html":[9,0,0,19,587],
+"structMR_1_1AncillaryPlane.html":[9,0,0,19,588],
+"structMR_1_1AncillaryPoints.html":[9,0,0,19,589],
 "structMR_1_1ArcInterpolationParams.html":[9,0,0,19,914],
 "structMR_1_1BMap.html":[9,0,0,19,151],
 "structMR_1_1Ball.html":[9,0,0,19,135],
@@ -246,8 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1DecimateSettings.html#abb741e47d580e75e37b13adcad8a362e":[9,0,0,10,0,10],
 "structMR_1_1DecimateSettings.html#abc44005d50714fe75f875a25f3a59f66":[9,0,0,10,0,2],
 "structMR_1_1DecimateSettings.html#ac0e97c22838e162343661fd588f7a326":[9,0,0,10,0,29],
-"structMR_1_1DecimateSettings.html#ac4cfcdf2807788f5914a0640372d4a07":[9,0,0,10,0,17],
-"structMR_1_1DecimateSettings.html#ac98cbfa367475605fa88982f55dc9a61":[9,0,0,10,0,11],
-"structMR_1_1DecimateSettings.html#adcc8d3606bda7323ca4c7b6f6866df2c":[9,0,0,10,0,6],
-"structMR_1_1DecimateSettings.html#ae341a50784372571b1b5bb3e6948981e":[9,0,0,10,0,31]
+"structMR_1_1DecimateSettings.html#ac4cfcdf2807788f5914a0640372d4a07":[9,0,0,10,0,17]
 };

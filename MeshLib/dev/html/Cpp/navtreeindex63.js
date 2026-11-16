@@ -1,5 +1,8 @@
 var NAVTREEINDEX63 =
 {
+"namespaceMR_1_1VoxelsSave.html#afeecbc4eab76803974501a46e51234d6":[9,0,1,0,1,57,2],
+"namespaceMR_1_1WeightedShell.html":[9,0,1,0,1,58],
+"namespaceMR_1_1WeightedShell.html#a0a1a97bb2e01d6e33cc69b5e0295543e":[9,0,1,0,1,58,6],
 "namespaceMR_1_1WeightedShell.html#a1828e77e08ab2c06e1b4bffe5866270f":[9,0,1,0,1,58,10],
 "namespaceMR_1_1WeightedShell.html#a27dc07084bd9d7ba531af503ee26ecaa":[9,0,1,0,1,58,12],
 "namespaceMR_1_1WeightedShell.html#a31f9c85adfd5e2b5553fb5dcb97384f0":[9,0,1,0,1,58,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1AlphaShapeNei.html":[9,0,0,19,132],
 "structMR_1_1AlphaShapeStats.html":[9,0,0,19,131],
 "structMR_1_1AncillaryLabel.html":[9,0,0,19,584],
-"structMR_1_1AncillaryLines.html":[9,0,0,19,586],
-"structMR_1_1AncillaryMesh.html":[9,0,0,19,587],
-"structMR_1_1AncillaryPlane.html":[9,0,0,19,588],
-"structMR_1_1AncillaryPoints.html":[9,0,0,19,589]
+"structMR_1_1AncillaryLines.html":[9,0,0,19,586]
 };

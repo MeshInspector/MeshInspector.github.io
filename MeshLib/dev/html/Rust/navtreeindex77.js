@@ -1,5 +1,8 @@
 var NAVTREEINDEX77 =
 {
+"structmeshlib_1_1MeshEqualizeTriAreasParams.html#a63c581d444f90c731c62a1815aada0c2":[9,5,0,0,0,601,2],
+"structmeshlib_1_1MeshEqualizeTriAreasParams.html#a63c581d444f90c731c62a1815aada0c2":[9,5,1,0,0,588,2],
+"structmeshlib_1_1MeshEqualizeTriAreasParams.html#a6cb0cdca71196d39668d1c0f6e517072":[9,5,0,0,0,601,22],
 "structmeshlib_1_1MeshEqualizeTriAreasParams.html#a6cb0cdca71196d39668d1c0f6e517072":[9,5,1,0,0,588,22],
 "structmeshlib_1_1MeshEqualizeTriAreasParams.html#a6fb8061b026c974207d409cbd764c2dd":[9,5,0,0,0,601,21],
 "structmeshlib_1_1MeshEqualizeTriAreasParams.html#a6fb8061b026c974207d409cbd764c2dd":[9,5,1,0,0,588,21],
@@ -246,8 +249,5 @@ var NAVTREEINDEX77 =
 "structmeshlib_1_1MeshNormals.html#a47c8c0235c85273ddf77a773e95d2d1a":[9,5,0,0,0,609,5],
 "structmeshlib_1_1MeshNormals.html#a47c8c0235c85273ddf77a773e95d2d1a":[9,5,1,0,0,596,5],
 "structmeshlib_1_1MeshNormals.html#a5f90470068d2ee5498ab244a70a7271a":[9,5,0,0,0,609,4],
-"structmeshlib_1_1MeshNormals.html#a5f90470068d2ee5498ab244a70a7271a":[9,5,1,0,0,596,4],
-"structmeshlib_1_1MeshNormals.html#a9a4f19a1fa150ad278d2e86ddc511c80":[9,5,0,0,0,609,6],
-"structmeshlib_1_1MeshNormals.html#a9a4f19a1fa150ad278d2e86ddc511c80":[9,5,1,0,0,596,6],
-"structmeshlib_1_1MeshOnVoxelsT__MR__Mesh__MR__FunctionVolume.html":[9,5,0,0,0,613]
+"structmeshlib_1_1MeshNormals.html#a5f90470068d2ee5498ab244a70a7271a":[9,5,1,0,0,596,4]
 };

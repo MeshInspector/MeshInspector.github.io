@@ -1,5 +1,8 @@
 var NAVTREEINDEX57 =
 {
+"classMR_1_1Const__MeshEqualizeTriAreasParams.html#a3dcb658b64801a029d91e7a6005fcaba":[9,3,0,0,0,602,3],
+"classMR_1_1Const__MeshEqualizeTriAreasParams.html#a3eacf27b681afc8da4de0f3113b1edef":[9,3,0,0,0,602,22],
+"classMR_1_1Const__MeshEqualizeTriAreasParams.html#a607d976bd50e39b69bfaa91baba3826b":[9,3,0,0,0,602,17],
 "classMR_1_1Const__MeshEqualizeTriAreasParams.html#a6d0980d9f18aa87ab01d1a00c368eda8":[9,3,0,0,0,602,20],
 "classMR_1_1Const__MeshEqualizeTriAreasParams.html#a6fdb4d847c516e0b954cb0b7a2c30494":[9,3,0,0,0,602,9],
 "classMR_1_1Const__MeshEqualizeTriAreasParams.html#a81e92d1b3985a606286e3ab1e45e20f2":[9,3,0,0,0,602,18],
@@ -246,8 +249,5 @@ var NAVTREEINDEX57 =
 "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#aaf11cacad3a57be2b0e40059dd35e0cf":[9,3,0,0,0,614,21],
 "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#ab789fc1eceaaf5e8896f6a797099cfda":[9,3,0,0,0,614,16],
 "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#ab8504bc8cbd04a723e99f2ec48f5f3ed":[9,3,0,0,0,614,11],
-"classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#ac33e79c7ff4c860af0ee7b1f5ce1fed0":[9,3,0,0,0,614,23],
-"classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#af240541f2ddb1c29561c99d4ffeea375":[9,3,0,0,0,614,4],
-"classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#af29aac82d8581616bbe3bf7e5080e833":[9,3,0,0,0,614,22],
-"classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRVdbVolume.html":[9,3,0,0,0,615]
+"classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#ac33e79c7ff4c860af0ee7b1f5ce1fed0":[9,3,0,0,0,614,23]
 };

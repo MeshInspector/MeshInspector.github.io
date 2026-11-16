@@ -1,5 +1,8 @@
 var NAVTREEINDEX153 =
 {
+"classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#a2de1bb0020086fb7b59ce1c78ae590ef":[9,3,0,0,0,1957,2],
+"classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#a5111ee884965dfaba967706c86657a13":[9,3,0,0,0,1957,3],
+"classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#abca3a63a9b23c1967fc80b3483631af1":[9,3,0,0,0,1957,0],
 "classMR_1_1VoxelsLoad.html":[9,3,0,0,0,1942],
 "classMR_1_1VoxelsLoad.html#a004c8a6614aa21eea7c7b95e1ee3f7cc":[9,3,0,0,0,1942,30],
 "classMR_1_1VoxelsLoad.html#a080500230f9c9b4291ae7b1b1fb5c287":[9,3,0,0,0,1942,16],
@@ -246,8 +249,5 @@ var NAVTREEINDEX153 =
 "classMR_1_1WatershedGraph.html#a23d6b3bc273652e246115fee49451b6a":[9,3,0,0,0,1958,8],
 "classMR_1_1WatershedGraph.html#a5b2c2401848105a2680e58cd003d954c":[9,3,0,0,0,1958,5],
 "classMR_1_1WatershedGraph.html#ab19b95643e86cffe573d2e090d07a208":[9,3,0,0,0,1958,2],
-"classMR_1_1WatershedGraph.html#aba4bc53a0ef298617141d5668abd953c":[9,3,0,0,0,1958,1],
-"classMR_1_1WatershedGraph.html#aba8155ec71a26aeb3390e5f25c3f4a6c":[9,3,0,0,0,1958,6],
-"classMR_1_1WeightedShell.html":[9,3,0,0,0,1959],
-"classMR_1_1WeightedShell.html#a06e94717e57a00157fcde0c34721f6dc":[9,3,0,0,0,1959,10]
+"classMR_1_1WatershedGraph.html#aba4bc53a0ef298617141d5668abd953c":[9,3,0,0,0,1958,1]
 };

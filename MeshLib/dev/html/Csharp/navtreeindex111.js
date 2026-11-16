@@ -1,5 +1,8 @@
 var NAVTREEINDEX111 =
 {
+"classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat.html#ab7cece5cd109109e1dd8b498a7f331d7":[9,3,0,0,0,1301,1],
+"classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat.html#ab8c000b0edb4d95dbaaee4291abcb772":[9,3,0,0,0,1301,0],
+"classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat.html#abf9e6577d20f416e9c4c49722a2046ce":[9,3,0,0,0,1301,9],
 "classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat.html#ac7f401c8f7877773be0370c1062b0278":[9,3,0,0,0,1301,14],
 "classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat.html#aed450093e07c9c1c8df7a0cba6a93c6f":[9,3,0,0,0,1301,3],
 "classMR_1_1HexPalette.html":[9,3,0,0,0,1302],
@@ -246,8 +249,5 @@ var NAVTREEINDEX111 =
 "classMR_1_1InSphereTesterSoS.html#a505d1885369f21fa3dc0a8301be986cb":[9,3,0,0,0,1332,1],
 "classMR_1_1InSphereTesterSoS.html#a6092a9a1d5ba5c00f843ac6d9dceeb4a":[9,3,0,0,0,1332,0],
 "classMR_1_1InSphereTesterSoS.html#a6aed073cd00a65e5ded402b154d988d8":[9,3,0,0,0,1332,4],
-"classMR_1_1InSphereTesterSoS.html#a976095aeaabcaeb3f5007e6ad7a95537":[9,3,0,0,0,1332,5],
-"classMR_1_1InSphereTesterSoS.html#aa81d872a1692085553d301199fc9cc90":[9,3,0,0,0,1332,2],
-"classMR_1_1InSphereTester__Double.html":[9,3,0,0,0,1329],
-"classMR_1_1InSphereTester__Double.html#a15fc0beabc71d2aba2fbd3fdd47b1285":[9,3,0,0,0,1329,1]
+"classMR_1_1InSphereTesterSoS.html#a976095aeaabcaeb3f5007e6ad7a95537":[9,3,0,0,0,1332,5]
 };

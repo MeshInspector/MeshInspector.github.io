@@ -10919,10 +10919,16 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
 <tr class="memdesc:a0da4da5dd5ee679042fad3a7c19db384"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
 <tr class="memitem:a0c52533d203e94bcde496831a98c5988" id="r_a0c52533d203e94bcde496831a98c5988"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MeshProjectionResult.html">MR.MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c52533d203e94bcde496831a98c5988">findProjectionSubtree</a> (in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> pt, <a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, <a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a> tree, float? upDistLimitSq=null, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? xf=null, float? loDistLimitSq=null, MR.Std.Const_Function_Bool_From_MRFaceId? validFaces=null, MR.Std.Const_Function_Bool_From_ConstMRMeshProjectionResultRef? validProjections=null)</td></tr>
 <tr class="memdesc:a0c52533d203e94bcde496831a98c5988"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
+<tr class="memitem:a050f9d66159f62ee686cd02bef071739" id="r_a050f9d66159f62ee686cd02bef071739"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MeshProjectionResult.html">MR.MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a050f9d66159f62ee686cd02bef071739">findProjection</a> (in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> pt, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, <a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a> tree, float? upDistLimitSq=null, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? xf=null, float? loDistLimitSq=null, MR.Std.Const_Function_Bool_From_MRFaceId? validFaces=null, MR.Std.Const_Function_Bool_From_ConstMRMeshProjectionResultRef? validProjections=null, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:a050f9d66159f62ee686cd02bef071739"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on the triangles of the given tree to given point; the result's tp is relative to the vertices of the triangle in the tree (in the order of tmesh.tris[proj.face] for <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>)  <br /></td></tr>
 <tr class="memitem:a97ba4a74376f7e8669693498455379c5" id="r_a97ba4a74376f7e8669693498455379c5"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97ba4a74376f7e8669693498455379c5">findBoxedTrisInBall</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, <a class="el" href="classMR_1_1Const__Ball3f.html">MR.Const_Ball3f</a> ball, MR.Std.Const_Function_MRProcessing_From_MRFaceId_MRBall3fRef foundCallback)</td></tr>
 <tr class="memdesc:a97ba4a74376f7e8669693498455379c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">enumerates all triangles with bounding boxes at least partially in the ball (the triangles themselves can be fully out of ball) until callback returns Stop; the ball during enumeration can shrink (new ball is always within the previous one) but never expand Generated from function <span class="tt"><a class="el" href="#a97ba4a74376f7e8669693498455379c5" title="enumerates all triangles with bounding boxes at least partially in the ball (the triangles themselves...">MR.findBoxedTrisInBall</a></span>.  <br /></td></tr>
+<tr class="memitem:aa8728a2adee3910197f5183454f0af47" id="r_aa8728a2adee3910197f5183454f0af47"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8728a2adee3910197f5183454f0af47">findBoxedTrisInBall</a> (<a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a> tree, <a class="el" href="classMR_1_1Const__Ball3f.html">MR.Const_Ball3f</a> ball, MR.Std.Const_Function_MRProcessing_From_MRFaceId_MRBall3fRef foundCallback, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:aa8728a2adee3910197f5183454f0af47"><td class="mdescLeft">&#160;</td><td class="mdescRight">enumerates all triangles in the tree (only from region if given) with bounding boxes at least partially in the ball until callback returns Stop; the ball during enumeration can shrink (new ball is always within the previous one) but never expand Generated from function <span class="tt"><a class="el" href="#a97ba4a74376f7e8669693498455379c5" title="enumerates all triangles with bounding boxes at least partially in the ball (the triangles themselves...">MR.findBoxedTrisInBall</a></span>.  <br /></td></tr>
 <tr class="memitem:aeb6d2551956a040b0b6ccc2fe502872b" id="r_aeb6d2551956a040b0b6ccc2fe502872b"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb6d2551956a040b0b6ccc2fe502872b">findTrisInBall</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, <a class="el" href="classMR_1_1Const__Ball3f.html">MR.Const_Ball3f</a> ball, MR.Std.Const_Function_MRProcessing_From_ConstMRMeshProjectionResultRef_MRBall3fRef foundCallback, MR.Std.Const_Function_Bool_From_MRFaceId? validFaces=null)</td></tr>
 <tr class="memdesc:aeb6d2551956a040b0b6ccc2fe502872b"><td class="mdescLeft">&#160;</td><td class="mdescRight">enumerates all triangles within the ball until callback returns Stop; the ball during enumeration can shrink (new ball is always within the previous one) but never expand Generated from function <span class="tt"><a class="el" href="#aeb6d2551956a040b0b6ccc2fe502872b" title="enumerates all triangles within the ball until callback returns Stop; the ball during enumeration can...">MR.findTrisInBall</a></span>. Parameter <span class="tt">validFaces</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:a5361fa1856927313f80b05bdb693b9ba" id="r_a5361fa1856927313f80b05bdb693b9ba"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5361fa1856927313f80b05bdb693b9ba">findTrisInBall</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, <a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a> tree, <a class="el" href="classMR_1_1Const__Ball3f.html">MR.Const_Ball3f</a> ball, MR.Std.Const_Function_MRProcessing_From_ConstMRMeshProjectionResultRef_MRBall3fRef foundCallback, MR.Std.Const_Function_Bool_From_MRFaceId? validFaces=null, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:a5361fa1856927313f80b05bdb693b9ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">enumerates all triangles in the tree (only from region if given) within the ball until callback returns Stop, points are the coordinates of their vertices; found.tp is relative to the vertices of the triangle in the tree (in the order of tmesh.tris[found.proj.face] for <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>); the ball during enumeration can shrink (new ball is always within the previous one) but never expand Generated from function <span class="tt"><a class="el" href="#aeb6d2551956a040b0b6ccc2fe502872b" title="enumerates all triangles within the ball until callback returns Stop; the ball during enumeration can...">MR.findTrisInBall</a></span>. Parameter <span class="tt">validFaces</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:ace7b326187b842ec5d4ad4520bf9632d" id="r_ace7b326187b842ec5d4ad4520bf9632d"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRSignedDistanceToMeshResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace7b326187b842ec5d4ad4520bf9632d">findSignedDistance</a> (in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> pt, <a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, float? upDistLimitSq=null, float? loDistLimitSq=null)</td></tr>
 <tr class="memdesc:ace7b326187b842ec5d4ad4520bf9632d"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point, and finds the distance with sign to it (positive - outside, negative - inside the mesh)  <br /></td></tr>
 <tr class="memitem:a4f624a3d51db277bb1739ec20a5af253" id="r_a4f624a3d51db277bb1739ec20a5af253"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f624a3d51db277bb1739ec20a5af253">relax</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, <a class="el" href="classMR_1_1Const__MeshRelaxParams.html">MR.Const_MeshRelaxParams</a>? params_=null, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
@@ -36838,8 +36844,49 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 
 </div>
 </div>
+<a id="aa8728a2adee3910197f5183454f0af47" name="aa8728a2adee3910197f5183454f0af47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8728a2adee3910197f5183454f0af47">&#9670;&#160;</a></span>findBoxedTrisInBall() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.findBoxedTrisInBall </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a></td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Ball3f.html">MR.Const_Ball3f</a></td>          <td class="paramname"><span class="paramname"><em>ball</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_MRProcessing_From_MRFaceId_MRBall3fRef</td>          <td class="paramname"><span class="paramname"><em>foundCallback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>enumerates all triangles in the tree (only from region if given) with bounding boxes at least partially in the ball until callback returns Stop; the ball during enumeration can shrink (new ball is always within the previous one) but never expand Generated from function <span class="tt"><a class="el" href="#a97ba4a74376f7e8669693498455379c5" title="enumerates all triangles with bounding boxes at least partially in the ball (the triangles themselves...">MR.findBoxedTrisInBall</a></span>. </p>
+
+</div>
+</div>
 <a id="a97ba4a74376f7e8669693498455379c5" name="a97ba4a74376f7e8669693498455379c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97ba4a74376f7e8669693498455379c5">&#9670;&#160;</a></span>findBoxedTrisInBall()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a97ba4a74376f7e8669693498455379c5">&#9670;&#160;</a></span>findBoxedTrisInBall() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -40112,7 +40159,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </div>
 </div>
 <a id="a0da4da5dd5ee679042fad3a7c19db384" name="a0da4da5dd5ee679042fad3a7c19db384"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0da4da5dd5ee679042fad3a7c19db384">&#9670;&#160;</a></span>findProjection()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0da4da5dd5ee679042fad3a7c19db384">&#9670;&#160;</a></span>findProjection() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -40171,6 +40218,85 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
     <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
     <tr><td class="paramname">validFaces</td><td>if provided then only faces from there will be considered as projections </td></tr>
     <tr><td class="paramname">validProjections</td><td>if provided then only projections passed this test can be returned Generated from function <span class="tt"><a class="el" href="#a0da4da5dd5ee679042fad3a7c19db384" title="computes the closest point on mesh (or its region) to given point">MR.findProjection</a></span>. Parameter <span class="tt">upDistLimitSq</span> defaults to <span class="tt">3.40282347e38f</span>. Parameter <span class="tt">loDistLimitSq</span> defaults to <span class="tt">0</span>. Parameter <span class="tt">validFaces</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">validProjections</span> defaults to <span class="tt">{}</span>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a050f9d66159f62ee686cd02bef071739" name="a050f9d66159f62ee686cd02bef071739"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a050f9d66159f62ee686cd02bef071739">&#9670;&#160;</a></span>findProjection() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1MeshProjectionResult.html">MR.MeshProjectionResult</a> MR.findProjection </td>
+          <td>(</td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>pt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a></td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float?</td>          <td class="paramname"><span class="paramname"><em>upDistLimitSq</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>?</td>          <td class="paramname"><span class="paramname"><em>xf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float?</td>          <td class="paramname"><span class="paramname"><em>loDistLimitSq</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_MRFaceId?</td>          <td class="paramname"><span class="paramname"><em>validFaces</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_ConstMRMeshProjectionResultRef?</td>          <td class="paramname"><span class="paramname"><em>validProjections</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes the closest point on the triangles of the given tree to given point; the result's tp is relative to the vertices of the triangle in the tree (in the order of tmesh.tris[proj.face] for <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">points</td><td>the coordinates of the vertices of the tree's triangles </td></tr>
+    <tr><td class="paramname">tree</td><td>the tree of a mesh or its part, e.g. <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh, region )</a> </td></tr>
+    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the distance in question, if the real distance is larger then the function exits returning upDistLimitSq and no valid point </td></tr>
+    <tr><td class="paramname">xf</td><td>mesh-to-point transformation, if not specified then identity transformation is assumed </td></tr>
+    <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
+    <tr><td class="paramname">validFaces</td><td>if provided then only faces from there will be considered as projections </td></tr>
+    <tr><td class="paramname">validProjections</td><td>if provided then only projections passed this test can be returned </td></tr>
+    <tr><td class="paramname">region</td><td>if provided then only the triangles from there are searched; building the tree only from them is faster Generated from function <span class="tt"><a class="el" href="#a0da4da5dd5ee679042fad3a7c19db384" title="computes the closest point on mesh (or its region) to given point">MR.findProjection</a></span>. Parameter <span class="tt">upDistLimitSq</span> defaults to <span class="tt">3.40282347e38f</span>. Parameter <span class="tt">loDistLimitSq</span> defaults to <span class="tt">0</span>. Parameter <span class="tt">validFaces</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">validProjections</span> defaults to <span class="tt">{}</span>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -42564,7 +42690,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </div>
 </div>
 <a id="aeb6d2551956a040b0b6ccc2fe502872b" name="aeb6d2551956a040b0b6ccc2fe502872b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb6d2551956a040b0b6ccc2fe502872b">&#9670;&#160;</a></span>findTrisInBall()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb6d2551956a040b0b6ccc2fe502872b">&#9670;&#160;</a></span>findTrisInBall() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -42601,6 +42727,57 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </div><div class="memdoc">
 
 <p>enumerates all triangles within the ball until callback returns Stop; the ball during enumeration can shrink (new ball is always within the previous one) but never expand Generated from function <span class="tt"><a class="el" href="#aeb6d2551956a040b0b6ccc2fe502872b" title="enumerates all triangles within the ball until callback returns Stop; the ball during enumeration can...">MR.findTrisInBall</a></span>. Parameter <span class="tt">validFaces</span> defaults to <span class="tt">{}</span>. </p>
+
+</div>
+</div>
+<a id="a5361fa1856927313f80b05bdb693b9ba" name="a5361fa1856927313f80b05bdb693b9ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5361fa1856927313f80b05bdb693b9ba">&#9670;&#160;</a></span>findTrisInBall() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.findTrisInBall </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a></td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Ball3f.html">MR.Const_Ball3f</a></td>          <td class="paramname"><span class="paramname"><em>ball</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_MRProcessing_From_ConstMRMeshProjectionResultRef_MRBall3fRef</td>          <td class="paramname"><span class="paramname"><em>foundCallback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_MRFaceId?</td>          <td class="paramname"><span class="paramname"><em>validFaces</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>enumerates all triangles in the tree (only from region if given) within the ball until callback returns Stop, points are the coordinates of their vertices; found.tp is relative to the vertices of the triangle in the tree (in the order of tmesh.tris[found.proj.face] for <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>); the ball during enumeration can shrink (new ball is always within the previous one) but never expand Generated from function <span class="tt"><a class="el" href="#aeb6d2551956a040b0b6ccc2fe502872b" title="enumerates all triangles within the ball until callback returns Stop; the ball during enumeration can...">MR.findTrisInBall</a></span>. Parameter <span class="tt">validFaces</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>

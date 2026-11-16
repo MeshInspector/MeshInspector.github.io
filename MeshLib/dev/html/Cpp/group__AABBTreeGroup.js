@@ -355,6 +355,7 @@ var group__AABBTreeGroup =
       [ "MR::ProcessOneResult::ContinueProcessing", "group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47aab6bb60f51b25ae0f7ec450173e3348e", null ]
     ] ],
     [ "MR::createProjectionTransforms", "group__AABBTreeGroup.html#gaae6b5143199ddd407f3703c52fb0d1a8", null ],
+    [ "MR::findBoxedTrisInBall", "group__AABBTreeGroup.html#ga79f1579a76b384c29c5b705160a83ce8", null ],
     [ "MR::findBoxedTrisInBall", "group__AABBTreeGroup.html#ga90634a0c0496ed8f339298a566260e68", null ],
     [ "MR::findCollidingEdgePairs", "group__AABBTreeGroup.html#ga557c3d2fa026be12ba0a5f6c8813da41", null ],
     [ "MR::findCollidingEdges", "group__AABBTreeGroup.html#ga24ed7e965fcb7ada110eb1d9919999f9", null ],
@@ -396,6 +397,7 @@ var group__AABBTreeGroup =
     [ "MR::findPointsInBox", "group__AABBTreeGroup.html#ga72179dbd00c267bc382ace2fcd0782f5", null ],
     [ "MR::findPointsInBox", "group__AABBTreeGroup.html#gab32c13d31593c4f1ca10935b021714dc", null ],
     [ "MR::findProjection", "group__AABBTreeGroup.html#gadd58047c34992dde1fd3d7f854ca6d97", null ],
+    [ "MR::findProjection", "group__AABBTreeGroup.html#ga029908dee7cc1ad6bc7dbef52964363f", null ],
     [ "MR::findProjectionOnMeshEdges", "group__AABBTreeGroup.html#ga03e6a1eb9021cda27a103e38c550532c", null ],
     [ "MR::findProjectionOnMeshEdges", "group__AABBTreeGroup.html#ga1b96837dfe7b08b0a261c94d6814b536", null ],
     [ "MR::findProjectionOnPoints", "group__AABBTreeGroup.html#ga41532fd138cf2bb72805d8af6a1522b4", null ],
@@ -416,6 +418,7 @@ var group__AABBTreeGroup =
     [ "MR::findSignedDistance", "group__AABBTreeGroup.html#gab642f8e551c4fcc0af6b2301e55e3a85", null ],
     [ "MR::findSignedDistance", "group__AABBTreeGroup.html#gaa589ad702e6b1f7b5abcdba92a673997", null ],
     [ "MR::findTrisInBall", "group__AABBTreeGroup.html#ga1d649a36ab13b6d880081a27f17b87dc", null ],
+    [ "MR::findTrisInBall", "group__AABBTreeGroup.html#gaa32a701423fc8870cefcda13be7c5c2f", null ],
     [ "MR::findTwoClosestPoints", "group__AABBTreeGroup.html#ga32485df4ed1f18a0b4315756a69ff792", null ],
     [ "MR::getNumNodes", "group__AABBTreeGroup.html#ga3c1bb6417aaa769fa4156f2edac91749", null ],
     [ "MR::getNumNodesPoints", "group__AABBTreeGroup.html#ga47032a5f420080191bd8d3600c3c24ef", null ],

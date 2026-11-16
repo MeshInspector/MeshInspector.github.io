@@ -1,5 +1,8 @@
 var NAVTREEINDEX79 =
 {
+"classMR_1_1Const__SeparationPointStorage_1_1Block.html#aafb92041c9a6f8a0bad385400c8e625b":[9,3,0,0,0,844,0,4],
+"classMR_1_1Const__SeparationPointStorage_1_1Block.html#abc7bf5c4a823b6b717ab01828d6576e9":[9,3,0,0,0,844,0,5],
+"classMR_1_1Const__SeparationPointStorage_1_1Block.html#ae396b748dbcd557e94d00bfe70f76469":[9,3,0,0,0,844,0,3],
 "classMR_1_1Const__SeparationPointStorage_1_1Block.html#aed25afc5118aca360cdb5d663ed1c3a2":[9,3,0,0,0,844,0,7],
 "classMR_1_1Const__SeparationPointStorage_1_1Block.html#af34a70dc4bf26d01775340d68db16477":[9,3,0,0,0,844,0,2],
 "classMR_1_1Const__SeparationPointStorage_1_1Const__Block.html":[9,3,0,0,0,844,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX79 =
 "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a74447bff78c98230dc63a70f18e2fea9":[9,3,0,0,0,857,12],
 "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a7d80fc337b3d26b624654d75938500d6":[9,3,0,0,0,857,13],
 "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a8a3fb808852b819b1939333402d9208d":[9,3,0,0,0,857,11],
-"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#ab4de875e7e2093ff37c7be5af1605e91":[9,3,0,0,0,857,5],
-"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#ac58acdd61e7e59ce4eb92e515e53101d":[9,3,0,0,0,857,2],
-"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#acea2f5c1482f2b3444712ac9c5489f89":[9,3,0,0,0,857,9],
-"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#ad04723307e2f1c541d3a6e60b932bd3c":[9,3,0,0,0,857,15]
+"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#ab4de875e7e2093ff37c7be5af1605e91":[9,3,0,0,0,857,5]
 };

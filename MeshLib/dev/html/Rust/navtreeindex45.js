@@ -1,5 +1,8 @@
 var NAVTREEINDEX45 =
 {
+"structmeshlib_1_1Dipoles.html#a10fcf50abb25b6b6d28fce6080cd8f79":[9,5,0,0,0,276,3],
+"structmeshlib_1_1Dipoles.html#a10fcf50abb25b6b6d28fce6080cd8f79":[9,5,1,0,0,263,3],
+"structmeshlib_1_1Dipoles.html#a22944709015159560aa08adb05b50f40":[9,5,0,0,0,276,13],
 "structmeshlib_1_1Dipoles.html#a22944709015159560aa08adb05b50f40":[9,5,1,0,0,263,13],
 "structmeshlib_1_1Dipoles.html#a291faec886bcfc715f0c90c50512356c":[9,5,0,0,0,276,20],
 "structmeshlib_1_1Dipoles.html#a291faec886bcfc715f0c90c50512356c":[9,5,1,0,0,263,20],
@@ -246,8 +249,5 @@ var NAVTREEINDEX45 =
 "structmeshlib_1_1DistanceMap.html#ae1d97b8698da476e97ad5eb5d9147a3a":[9,5,0,0,0,281,17],
 "structmeshlib_1_1DistanceMap.html#ae1d97b8698da476e97ad5eb5d9147a3a":[9,5,1,0,0,268,17],
 "structmeshlib_1_1DistanceMap.html#ae1ea60739554412892d28bbe53ce5788":[9,5,0,0,0,281,44],
-"structmeshlib_1_1DistanceMap.html#ae1ea60739554412892d28bbe53ce5788":[9,5,1,0,0,268,44],
-"structmeshlib_1_1DistanceMap.html#ae1f5dc9c20e18f0b64cf69a23f19c6ed":[9,5,0,0,0,281,30],
-"structmeshlib_1_1DistanceMap.html#ae1f5dc9c20e18f0b64cf69a23f19c6ed":[9,5,1,0,0,268,30],
-"structmeshlib_1_1DistanceMap.html#ae7751f9297b4985eb1672981c6eef433":[9,5,0,0,0,281,29]
+"structmeshlib_1_1DistanceMap.html#ae1ea60739554412892d28bbe53ce5788":[9,5,1,0,0,268,44]
 };

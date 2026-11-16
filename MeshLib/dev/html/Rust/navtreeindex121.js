@@ -1,5 +1,8 @@
 var NAVTREEINDEX121 =
 {
+"structmeshlib_1_1ResolveMeshDegenSettings.html#aea31cec8327633e53864350a1661e0c8":[9,5,1,0,0,874,10],
+"structmeshlib_1_1ResolveMeshDegenSettings.html#aeb08f05031bf63b753213843ef601369":[9,5,0,0,0,887,17],
+"structmeshlib_1_1ResolveMeshDegenSettings.html#aeb08f05031bf63b753213843ef601369":[9,5,1,0,0,874,17],
 "structmeshlib_1_1RigidScaleXf3d.html":[9,5,0,0,0,888],
 "structmeshlib_1_1RigidScaleXf3d.html":[9,5,1,0,0,875],
 "structmeshlib_1_1RigidScaleXf3d.html#a05ec576bbc7b54d2e2fed3507d10ae3b":[9,5,0,0,0,888,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX121 =
 "structmeshlib_1_1SaveSettings.html#abe84013c9b1838298b1b872e3048d185":[9,5,1,0,0,882,39],
 "structmeshlib_1_1SaveSettings.html#ac5fa6793a6f32bd2c85cfa321be4922e":[9,5,0,0,0,895,10],
 "structmeshlib_1_1SaveSettings.html#ac5fa6793a6f32bd2c85cfa321be4922e":[9,5,1,0,0,882,10],
-"structmeshlib_1_1SaveSettings.html#ac915fdaf723d23c74f6644698ed4f6eb":[9,5,0,0,0,895,16],
-"structmeshlib_1_1SaveSettings.html#ac915fdaf723d23c74f6644698ed4f6eb":[9,5,1,0,0,882,16],
-"structmeshlib_1_1SaveSettings.html#ac9eb813fd9631bc110f5522a03837c76":[9,5,0,0,0,895,14],
-"structmeshlib_1_1SaveSettings.html#ac9eb813fd9631bc110f5522a03837c76":[9,5,1,0,0,882,14]
+"structmeshlib_1_1SaveSettings.html#ac915fdaf723d23c74f6644698ed4f6eb":[9,5,0,0,0,895,16]
 };
