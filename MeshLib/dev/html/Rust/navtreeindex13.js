@@ -1,5 +1,13 @@
 var NAVTREEINDEX13 =
 {
+"namespacemeshlib_1_1lines__save.html#ade05a98e50dac63a84a67cf1d870e4f9":[9,5,0,0,0,13,0],
+"namespacemeshlib_1_1lines__save.html#ae69aa9cfd214bccc89fe78db9a98bea9":[9,5,0,0,0,13,4],
+"namespacemeshlib_1_1lines__save.html#af4a35f2afbdef37a8e79328a85466689":[9,5,0,0,0,13,6],
+"namespacemeshlib_1_1lines__save.html#af7176759dfe5318047d7afe02275879a":[9,5,0,0,0,13,5],
+"namespacemeshlib_1_1locale.html":[9,5,0,0,0,14],
+"namespacemeshlib_1_1locale.html#a5cdb22533acad7a1bb542495df07bf5a":[9,5,0,0,0,14,1],
+"namespacemeshlib_1_1locale.html#a6b954fe68b44ff795491eb1cb8e0bc3f":[9,5,0,0,0,14,2],
+"namespacemeshlib_1_1locale.html#a7d401be1e88090d79fad9003a4740025":[9,5,0,0,0,14,0],
 "namespacemeshlib_1_1locale.html#ac7bedf87348b5ac788ccc4fe795510ab":[9,5,0,0,0,14,3],
 "namespacemeshlib_1_1mesh__builder.html":[9,5,0,0,0,15],
 "namespacemeshlib_1_1mesh__builder.html#a0417ef060d3d7f28bb5d5af67ac62e52":[9,5,0,0,0,15,17],
@@ -241,13 +249,5 @@ var NAVTREEINDEX13 =
 "namespacemeshlib_1_1scene__load.html#aa9952d6e3dfadfefa9040953f934a997":[9,5,0,0,0,30,3],
 "namespacemeshlib_1_1scene__save.html":[9,5,0,0,0,31],
 "namespacemeshlib_1_1self__intersections.html":[9,5,0,0,0,32],
-"namespacemeshlib_1_1self__intersections.html#a4d11e157c9d479679e5fc77ee063cad5":[9,5,0,0,0,32,3],
-"namespacemeshlib_1_1self__intersections.html#a7696d270041087137529e4b924db10c9":[9,5,0,0,0,32,2],
-"namespacemeshlib_1_1triangulation__helpers.html":[9,5,0,0,0,33],
-"namespacemeshlib_1_1triangulation__helpers.html#a1420b024c88efe8d49819e03f9e7fe05":[9,5,0,0,0,33,10],
-"namespacemeshlib_1_1triangulation__helpers.html#a6d3ba667f1886321ab24c51661cf71ea":[9,5,0,0,0,33,3],
-"namespacemeshlib_1_1triangulation__helpers.html#a6e0b2e535bedec4c141b32e045724ee8":[9,5,0,0,0,33,6],
-"namespacemeshlib_1_1triangulation__helpers.html#a7c14344cb043178b1223d1f03cb84d71":[9,5,0,0,0,33,9],
-"namespacemeshlib_1_1triangulation__helpers.html#a86fe52fadfcf20de2edec6cbd716bf5b":[9,5,0,0,0,33,11],
-"namespacemeshlib_1_1triangulation__helpers.html#a873ef838bffa2c904a03f1ae0d59ff0c":[9,5,0,0,0,33,7]
+"namespacemeshlib_1_1self__intersections.html#a4d11e157c9d479679e5fc77ee063cad5":[9,5,0,0,0,32,3]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42":[9,0,0,9,4,0,0],
+"structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42a0bf6dee16a4d7f43f80c7ab2f6157c10":[9,0,0,9,4,0,0,1],
+"structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42a4e891fd0a3fb80f7f59fe0f768d95554":[9,0,0,9,4,0,0,0],
+"structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42afdff1c7af1a0e17ae94181b693bb5de7":[9,0,0,9,4,0,0,2],
+"structMR_1_1FixMeshDegeneraciesParams.html#a78bb997d121e9c191fabce84d8f05980":[9,0,0,9,4,0,2],
+"structMR_1_1FixMeshDegeneraciesParams.html#a7fb7943cde7ab98ddfd5ffe1d1f4170e":[9,0,0,9,4,0,10],
+"structMR_1_1FixMeshDegeneraciesParams.html#adbf34724488c4de119231db46448de01":[9,0,0,9,4,0,9],
+"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[9,0,0,19,872],
 "structMR_1_1FixUndercuts_1_1FindParams.html":[9,0,0,19,869],
 "structMR_1_1FixUndercuts_1_1FixParams.html":[9,0,0,19,870],
 "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html":[9,0,0,19,871],
@@ -241,13 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a629379b7e42a90a23d538c774cd11c2b":[9,0,1,0,1,17,10,7],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a629379b7e42a90a23d538c774cd11c2b":[9,0,2,0,1,7,10,7],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a65617319e0c1b767525aede65d4607b5":[9,0,1,0,1,17,10,4],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a65617319e0c1b767525aede65d4607b5":[9,0,2,0,1,7,10,4],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a6b5c4e498863bfe625111f92bb9b193c":[9,0,1,0,1,17,10,15],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a6b5c4e498863bfe625111f92bb9b193c":[9,0,2,0,1,7,10,15],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a786095a8e2e597d7ebe8929936008171":[9,0,1,0,1,17,10,13],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a786095a8e2e597d7ebe8929936008171":[9,0,2,0,1,7,10,13],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a99ca3155588713524843ad362ebdf8c4":[9,0,1,0,1,17,10,20],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a99ca3155588713524843ad362ebdf8c4":[9,0,2,0,1,7,10,20],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a9f1e9dff1758efb4b2feb981f5c49862":[9,0,1,0,1,17,10,11],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a9f1e9dff1758efb4b2feb981f5c49862":[9,0,2,0,1,7,10,11]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a65617319e0c1b767525aede65d4607b5":[9,0,2,0,1,7,10,4]
 };

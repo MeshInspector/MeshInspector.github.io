@@ -1,5 +1,13 @@
 var NAVTREEINDEX14 =
 {
+"namespacemeshlib_1_1self__intersections.html#a7696d270041087137529e4b924db10c9":[9,5,0,0,0,32,2],
+"namespacemeshlib_1_1triangulation__helpers.html":[9,5,0,0,0,33],
+"namespacemeshlib_1_1triangulation__helpers.html#a1420b024c88efe8d49819e03f9e7fe05":[9,5,0,0,0,33,10],
+"namespacemeshlib_1_1triangulation__helpers.html#a6d3ba667f1886321ab24c51661cf71ea":[9,5,0,0,0,33,3],
+"namespacemeshlib_1_1triangulation__helpers.html#a6e0b2e535bedec4c141b32e045724ee8":[9,5,0,0,0,33,6],
+"namespacemeshlib_1_1triangulation__helpers.html#a7c14344cb043178b1223d1f03cb84d71":[9,5,0,0,0,33,9],
+"namespacemeshlib_1_1triangulation__helpers.html#a86fe52fadfcf20de2edec6cbd716bf5b":[9,5,0,0,0,33,11],
+"namespacemeshlib_1_1triangulation__helpers.html#a873ef838bffa2c904a03f1ae0d59ff0c":[9,5,0,0,0,33,7],
 "namespacemeshlib_1_1triangulation__helpers.html#a87d62b638eb480718594c947baec4be1":[9,5,0,0,0,33,8],
 "namespacemeshlib_1_1triangulation__helpers.html#abcf63ff9b7e17dd45cc3744910368bb0":[9,5,0,0,0,33,5],
 "namespacemeshlib_1_1triangulation__helpers.html#ae473fd611a38074032bcb260058207c3":[9,5,0,0,0,33,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX14 =
 "std__pair__MR__Face2RegionMap__int_8rs.html":[9,5,2,0,0,1,3,281],
 "std__pair__MR__FaceBitSet__MR__FaceBitSet_8rs.html":[9,5,2,0,0,1,3,283],
 "std__pair__MR__FaceBitSet__int_8rs.html":[9,5,2,0,0,1,3,282],
-"std__pair__MR__FaceId__bool_8rs.html":[9,5,2,0,0,1,3,284],
-"std__pair__MR__GraphEdgeId__float_8rs.html":[9,5,2,0,0,1,3,285],
-"std__pair__MR__Id__MR__SurfaceDistanceStartTag__bool_8rs.html":[9,5,2,0,0,1,3,286],
-"std__pair__MR__Polyline2__MR__AffineXf3f_8rs.html":[9,5,2,0,0,1,3,287],
-"std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8rs.html":[9,5,2,0,0,1,3,288],
-"std__pair__MR__UndirectedEdgeId__bool_8rs.html":[9,5,2,0,0,1,3,289],
-"std__pair__MR__Vector3d__MR__TriPointd_8rs.html":[9,5,2,0,0,1,3,290],
-"std__pair__MR__Vector3d__MR__Vector3d_8rs.html":[9,5,2,0,0,1,3,291],
-"std__pair__MR__Vector3f__MR__TriPointf_8rs.html":[9,5,2,0,0,1,3,292]
+"std__pair__MR__FaceId__bool_8rs.html":[9,5,2,0,0,1,3,284]
 };

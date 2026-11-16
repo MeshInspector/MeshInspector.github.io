@@ -1,5 +1,13 @@
 var NAVTREEINDEX127 =
 {
+"classMR_1_1OriginAndDimensions.html":[9,3,0,0,0,1560],
+"classMR_1_1OriginAndDimensions.html#a59f10e04f33255c90c7d43e712a92375":[9,3,0,0,0,1560,0],
+"classMR_1_1OriginAndDimensions.html#a6f680a9e80a2e203ce4cf1ea4f955ccd":[9,3,0,0,0,1560,1],
+"classMR_1_1OriginAndDimensions.html#a717027bbd21463475511e1bf79e16041":[9,3,0,0,0,1560,2],
+"classMR_1_1OriginAndDimensions.html#aa653f55c2b9fb26999b42a40fc7b1ca0":[9,3,0,0,0,1560,5],
+"classMR_1_1OriginAndDimensions.html#ab0534c8315638aed689be02b6169c866":[9,3,0,0,0,1560,3],
+"classMR_1_1OriginAndDimensions.html#abb60cb039d74845e35c678d372562daa":[9,3,0,0,0,1560,4],
+"classMR_1_1OriginAndDimensions.html#ac189af2392fd9d159190454d88b01d35":[9,3,0,0,0,1560,6],
 "classMR_1_1OutAttributesFillingSettings.html":[9,3,0,0,0,1561],
 "classMR_1_1OutAttributesFillingSettings.html#a47c33b733fcb06498370999edf83544a":[9,3,0,0,0,1561,4],
 "classMR_1_1OutAttributesFillingSettings.html#a4b4a872335eee2915df670c8dbb294bf":[9,3,0,0,0,1561,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX127 =
 "classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html#a0291727685868f080bd87e36dc26ead6":[9,3,0,0,0,1578,1,3],
 "classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html#a1e762b444a4eacdb33cfb6db0482b9d6":[9,3,0,0,0,1578,1,5],
 "classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html#a21f07955b49617860ab49b25d80eb14e":[9,3,0,0,0,1578,1,9],
-"classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html#a36fd571e6e84765979b3c0bb5cd7e5d7":[9,3,0,0,0,1578,1,8],
-"classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html#a46e103cdbcd89b627b32681baeac61b1":[9,3,0,0,0,1578,1,7],
-"classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html#a60dd2d0c60a7a4a2fa2c94b338f850f2":[9,3,0,0,0,1578,1,4],
-"classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html#a71036f0e83e936da506018455b64a346":[9,3,0,0,0,1578,1,0],
-"classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html#aa73706a18abd34f1ae707c072017b8de":[9,3,0,0,0,1578,1,1],
-"classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html#ab54f20f584023314da8028f21df36b22":[9,3,0,0,0,1578,1,2],
-"classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html#ada33417c5378e62698d0c58dd1bfb01a":[9,3,0,0,0,1578,1,6],
-"classMR_1_1PlanarTriangulation_1_1Const__ISweepLineCache.html":[9,3,0,0,0,1578,4],
-"classMR_1_1PlanarTriangulation_1_1Const__ISweepLineCache.html#a0a212f04b56f9a7fe50d9243c2fca6e5":[9,3,0,0,0,1578,4,0]
+"classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters.html#a36fd571e6e84765979b3c0bb5cd7e5d7":[9,3,0,0,0,1578,1,8]
 };

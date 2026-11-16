@@ -1,5 +1,13 @@
 var NAVTREEINDEX44 =
 {
+"structmeshlib_1_1DeloneSettings.html#a50f4a40fc99813d52d2ef7300db254bf":[9,5,0,0,0,266,18],
+"structmeshlib_1_1DeloneSettings.html#a50f4a40fc99813d52d2ef7300db254bf":[9,5,1,0,0,253,18],
+"structmeshlib_1_1DeloneSettings.html#a54637eb2204cc22198dca452018092cb":[9,5,0,0,0,266,19],
+"structmeshlib_1_1DeloneSettings.html#a54637eb2204cc22198dca452018092cb":[9,5,1,0,0,253,19],
+"structmeshlib_1_1DeloneSettings.html#a7ff17120576d08cd2111ce8f5dc75676":[9,5,0,0,0,266,2],
+"structmeshlib_1_1DeloneSettings.html#a7ff17120576d08cd2111ce8f5dc75676":[9,5,1,0,0,253,2],
+"structmeshlib_1_1DeloneSettings.html#a896ae7b3d5b2ab42eb6e52d87a38e446":[9,5,0,0,0,266,6],
+"structmeshlib_1_1DeloneSettings.html#a896ae7b3d5b2ab42eb6e52d87a38e446":[9,5,1,0,0,253,6],
 "structmeshlib_1_1DeloneSettings.html#a8f5eb5e123210aad5960ef31b093b279":[9,5,0,0,0,266,20],
 "structmeshlib_1_1DeloneSettings.html#a8f5eb5e123210aad5960ef31b093b279":[9,5,1,0,0,253,20],
 "structmeshlib_1_1DeloneSettings.html#a93d9f79e7d962d9d0de31f0ef7628d00":[9,5,0,0,0,266,13],
@@ -241,13 +249,5 @@ var NAVTREEINDEX44 =
 "structmeshlib_1_1Dipole.html#abeaa952bf9fc3343b7aab3ea98643415":[9,5,0,0,0,275,12],
 "structmeshlib_1_1Dipole.html#abeaa952bf9fc3343b7aab3ea98643415":[9,5,1,0,0,262,12],
 "structmeshlib_1_1Dipole.html#ac36fa553f9b2ad4bc1d963a4ed52213c":[9,5,0,0,0,275,10],
-"structmeshlib_1_1Dipole.html#ac36fa553f9b2ad4bc1d963a4ed52213c":[9,5,1,0,0,262,10],
-"structmeshlib_1_1Dipole.html#ae89d88128a26d4a64c39502e27691262":[9,5,0,0,0,275,5],
-"structmeshlib_1_1Dipole.html#ae89d88128a26d4a64c39502e27691262":[9,5,1,0,0,262,5],
-"structmeshlib_1_1Dipole.html#aeaaa633aa0f25993d6e9f86796cfa925":[9,5,0,0,0,275,2],
-"structmeshlib_1_1Dipole.html#aeaaa633aa0f25993d6e9f86796cfa925":[9,5,1,0,0,262,2],
-"structmeshlib_1_1Dipoles.html":[9,5,0,0,0,276],
-"structmeshlib_1_1Dipoles.html":[9,5,1,0,0,263],
-"structmeshlib_1_1Dipoles.html#a0647407b1388d27b59e2f5ad5633e189":[9,5,0,0,0,276,18],
-"structmeshlib_1_1Dipoles.html#a0647407b1388d27b59e2f5ad5633e189":[9,5,1,0,0,263,18]
+"structmeshlib_1_1Dipole.html#ac36fa553f9b2ad4bc1d963a4ed52213c":[9,5,1,0,0,262,10]
 };

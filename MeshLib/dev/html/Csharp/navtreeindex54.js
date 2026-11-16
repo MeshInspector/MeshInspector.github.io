@@ -1,5 +1,13 @@
 var NAVTREEINDEX54 =
 {
+"classMR_1_1Const__LineObject.html#a612036f584d2ce65e7ced9ba7ac069dc":[9,3,0,0,0,568,84],
+"classMR_1_1Const__LineObject.html#a63b768933f0d07eefce6fd2a56aaae3f":[9,3,0,0,0,568,20],
+"classMR_1_1Const__LineObject.html#a658cee5ed4584344657ab447279b80dd":[9,3,0,0,0,568,55],
+"classMR_1_1Const__LineObject.html#a65d2231f12a0c8c352bb9a7729d337e9":[9,3,0,0,0,568,8],
+"classMR_1_1Const__LineObject.html#a6795618158346a7622b90a579c00eca3":[9,3,0,0,0,568,89],
+"classMR_1_1Const__LineObject.html#a6db0c9cb77bb58cf7f413de304e7f465":[9,3,0,0,0,568,76],
+"classMR_1_1Const__LineObject.html#a6db62bea5eafd926eb4ce820212087ce":[9,3,0,0,0,568,49],
+"classMR_1_1Const__LineObject.html#a6dd20f80d1cb065b60170e0a8b5c1d80":[9,3,0,0,0,568,53],
 "classMR_1_1Const__LineObject.html#a75c3c5994bb328e88ec8f66a586235dd":[9,3,0,0,0,568,60],
 "classMR_1_1Const__LineObject.html#a772f530d16f0a44bcc116dfce4844926":[9,3,0,0,0,568,30],
 "classMR_1_1Const__LineObject.html#a7a829a200eb491c007f1ed41d3d40a61":[9,3,0,0,0,568,48],
@@ -241,13 +249,5 @@ var NAVTREEINDEX54 =
 "classMR_1_1Const__MakeDegenerateBandAroundRegionParams.html#ab0f4f56daa294bbad6e0e8954c7c88ef":[9,3,0,0,0,582,10],
 "classMR_1_1Const__MakeDegenerateBandAroundRegionParams.html#ab3db92fc2d4db21a9f2ced4d743d714f":[9,3,0,0,0,582,12],
 "classMR_1_1Const__MakeDegenerateBandAroundRegionParams.html#ad6274a4571bb85ec149b52382e62beef":[9,3,0,0,0,582,3],
-"classMR_1_1Const__MakeDegenerateBandAroundRegionParams.html#ae7348cec57d29dea793b88551834b9ef":[9,3,0,0,0,582,2],
-"classMR_1_1Const__MakeDegenerateBandAroundRegionParams.html#aed4836617941cece0004ae05c10f5220":[9,3,0,0,0,582,4],
-"classMR_1_1Const__MakeDegenerateBandAroundRegionParams.html#af031cacfe86c356aaa6a176fd7e9d492":[9,3,0,0,0,582,9],
-"classMR_1_1Const__MakeDegenerateBandAroundRegionParams.html#af519c2ca5cad93235ca2f3c8bf645a33":[9,3,0,0,0,582,8],
-"classMR_1_1Const__MakeSignedByWindingNumberSettings.html":[9,3,0,0,0,583],
-"classMR_1_1Const__MakeSignedByWindingNumberSettings.html#a0993cd1183f93ae1a052f21f1056086e":[9,3,0,0,0,583,5],
-"classMR_1_1Const__MakeSignedByWindingNumberSettings.html#a1b394f8f3299dd6a65ba41b0b13c46e8":[9,3,0,0,0,583,3],
-"classMR_1_1Const__MakeSignedByWindingNumberSettings.html#a1e15fcddbc6fb6c01aed32a0670e2590":[9,3,0,0,0,583,7],
-"classMR_1_1Const__MakeSignedByWindingNumberSettings.html#a281b516529036e240e806687b5fd874a":[9,3,0,0,0,583,4]
+"classMR_1_1Const__MakeDegenerateBandAroundRegionParams.html#ae7348cec57d29dea793b88551834b9ef":[9,3,0,0,0,582,2]
 };

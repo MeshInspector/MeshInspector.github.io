@@ -1,5 +1,13 @@
 var NAVTREEINDEX49 =
 {
+"classMR_1_1Const__FreeFormBestFit.html#a4f11b1020b99af0f665911f8dd255ea0":[9,3,0,0,0,492,1],
+"classMR_1_1Const__FreeFormBestFit.html#a56119fc266b2485f79f87bb523550d8a":[9,3,0,0,0,492,0],
+"classMR_1_1Const__FreeFormBestFit.html#a6712e6c5cb57c74557dfcd9e724b137c":[9,3,0,0,0,492,6],
+"classMR_1_1Const__FreeFormBestFit.html#a8916b03617ed681460b0ec20b29f48ce":[9,3,0,0,0,492,5],
+"classMR_1_1Const__FreeFormBestFit.html#ad736a919c6abca2d078e65f8ac2d7447":[9,3,0,0,0,492,2],
+"classMR_1_1Const__FreeFormBestFit.html#ae3bb581479fc475f9f0ffe74b9aa101a":[9,3,0,0,0,492,3],
+"classMR_1_1Const__FreeFormDeformer.html":[9,3,0,0,0,493],
+"classMR_1_1Const__FreeFormDeformer.html#a0513856f97448c94da6623fd259f6f74":[9,3,0,0,0,493,5],
 "classMR_1_1Const__FreeFormDeformer.html#a0a821466170fe2131014c97ab117489e":[9,3,0,0,0,493,2],
 "classMR_1_1Const__FreeFormDeformer.html#a16038d56628dcfe55a936f16ece6de70":[9,3,0,0,0,493,0],
 "classMR_1_1Const__FreeFormDeformer.html#a255576839460763db0814a46f0c01bcb":[9,3,0,0,0,493,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX49 =
 "classMR_1_1Const__GraphEdgeBitSet.html#a393f8730442fe52c61963e5c48a45f7c":[9,3,0,0,0,501,26],
 "classMR_1_1Const__GraphEdgeBitSet.html#a5519036c4c8a3b8b515d490782c359f6":[9,3,0,0,0,501,3],
 "classMR_1_1Const__GraphEdgeBitSet.html#a581585fb20989f802780109247727cb1":[9,3,0,0,0,501,44],
-"classMR_1_1Const__GraphEdgeBitSet.html#a5d9d6e512b6c620bcb74706d9010aafa":[9,3,0,0,0,501,43],
-"classMR_1_1Const__GraphEdgeBitSet.html#a75b56c6385d89ea91a6546c649b6517c":[9,3,0,0,0,501,27],
-"classMR_1_1Const__GraphEdgeBitSet.html#a79f6478c9ed310f7d75d6026eae9791a":[9,3,0,0,0,501,18],
-"classMR_1_1Const__GraphEdgeBitSet.html#a82d34703fad645640533509db1f3b24f":[9,3,0,0,0,501,22],
-"classMR_1_1Const__GraphEdgeBitSet.html#a88ac504b46135e1d0d08e015948c68d6":[9,3,0,0,0,501,40],
-"classMR_1_1Const__GraphEdgeBitSet.html#a89e26e83521c9c17412c474b50525407":[9,3,0,0,0,501,19],
-"classMR_1_1Const__GraphEdgeBitSet.html#a8d0e69ebcbd86b0d4b8566f513fe1866":[9,3,0,0,0,501,15],
-"classMR_1_1Const__GraphEdgeBitSet.html#a8e02eb4a13c8c7a246b439dee7ed26e7":[9,3,0,0,0,501,37],
-"classMR_1_1Const__GraphEdgeBitSet.html#a8f89d23e757f9693a9cdebe404eaa508":[9,3,0,0,0,501,25]
+"classMR_1_1Const__GraphEdgeBitSet.html#a5d9d6e512b6c620bcb74706d9010aafa":[9,3,0,0,0,501,43]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX136 =
 {
+"classMR_1_1SmoothFillingSettings.html#a6ab5c9f6875689a0a99ad5ec3fc070bc":[9,3,0,0,0,1718,0],
+"classMR_1_1SmoothFillingSettings.html#a7a734089e8c80b22e9a604b2585d012b":[9,3,0,0,0,1718,4],
+"classMR_1_1SmoothFillingSettings.html#a8691e5e74428c5cae071a0ce44499ece":[9,3,0,0,0,1718,6],
+"classMR_1_1SmoothFillingSettings.html#a9d4e3a5ee217b74205457ac6ba0c284c":[9,3,0,0,0,1718,2],
+"classMR_1_1SmoothFillingSettings.html#aafc1fdfb2ed97dab7d336839a1641cf8":[9,3,0,0,0,1718,1],
+"classMR_1_1SomeLocalTriangulations.html":[9,3,0,0,0,1719],
+"classMR_1_1SomeLocalTriangulations.html#a025e91ded83fa1c8f05c2e0f815677d4":[9,3,0,0,0,1719,4],
+"classMR_1_1SomeLocalTriangulations.html#a0a42efcbf0fed65e80639dfcdd01636d":[9,3,0,0,0,1719,3],
 "classMR_1_1SomeLocalTriangulations.html#a1004c07c18187184e80619c078ef71a7":[9,3,0,0,0,1719,0],
 "classMR_1_1SomeLocalTriangulations.html#a56f3ff93b8c2eca220a57c4b19eeac8b":[9,3,0,0,0,1719,1],
 "classMR_1_1SomeLocalTriangulations.html#aa455206b6dd90ed8aa6e32b24ee64f43":[9,3,0,0,0,1719,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX136 =
 "classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#a455a7e182f9068b6f1779c1ccbd18ae8":[9,3,0,0,0,1730,5,0],
 "classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#a62f5f27a233321add8e10d15d3c0665b":[9,3,0,0,0,1730,5,4],
 "classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#a82f197797289587f2d43e45b21c70aed":[9,3,0,0,0,1730,5,3],
-"classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#a8bfb519cb37c0c03c8fa0c1f061826bc":[9,3,0,0,0,1730,5,5],
-"classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#a9d99178f4b634f382408b48553ff2689":[9,3,0,0,0,1730,5,8],
-"classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#aa00aa4bf3e37df1838b955a8b8e26544":[9,3,0,0,0,1730,5,10],
-"classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#aacfaec0c0e43801a9cbe7b7cc570daf8":[9,3,0,0,0,1730,5,11],
-"classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#aba943069a104fc5c4be4e0556e833341":[9,3,0,0,0,1730,5,13],
-"classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#ad20269964deb9cd7d4b97988fda31cbc":[9,3,0,0,0,1730,5,2],
-"classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#af29cf2c87a900418e011693af6121770":[9,3,0,0,0,1730,5,7],
-"classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#af77e1964450d17302d65a09b6a0a5fe9":[9,3,0,0,0,1730,5,9],
-"classMR_1_1StitchHolesParams.html":[9,3,0,0,0,1731]
+"classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#a8bfb519cb37c0c03c8fa0c1f061826bc":[9,3,0,0,0,1730,5,5]
 };

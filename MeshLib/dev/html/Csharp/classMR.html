@@ -10630,8 +10630,14 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <tr class="memdesc:ae6ca9e2df203172e726e347559d748a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds ray and mesh intersection in float-precision. <code class="param">rayStart</code> and <code class="param">rayEnd</code> define the interval on the ray to detect an intersection. <code class="param">prec</code> can be specified to reuse some precomputations (e.g. for checking many parallel rays). <code class="param">vadidFaces</code> if given then all faces for which false is returned will be skipped Finds the closest intersection to ray origin (line param=0) or any intersection for better performance if <code class="param">!closestIntersect</code>. Generated from function <span class="tt"><a class="el" href="#ae6ca9e2df203172e726e347559d748a4" title="Finds ray and mesh intersection in float-precision. rayStart and rayEnd define the interval on the ra...">MR.rayMeshIntersect</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0f</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">3.40282347e38f</span>. Parameter <span class="tt">closestIntersect</span> defaults to <span class="tt">true</span>. Parameter <span class="tt">validFaces</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a2ceb1bbd2c5682dd9ba925c98037a9cc" id="r_a2ceb1bbd2c5682dd9ba925c98037a9cc"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MeshIntersectionResult.html">MR.MeshIntersectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ceb1bbd2c5682dd9ba925c98037a9cc">rayMeshIntersect</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="classMR_1_1Const__Line3d.html">MR.Const_Line3d</a> line, double? rayStart=null, double? rayEnd=null, <a class="el" href="classMR_1_1Const__IntersectionPrecomputes__Double.html">MR.Const_IntersectionPrecomputes_Double</a>? prec=null, bool? closestIntersect=null, MR.Std.Const_Function_Bool_From_MRFaceId? validFaces=null)</td></tr>
 <tr class="memdesc:a2ceb1bbd2c5682dd9ba925c98037a9cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds ray and mesh intersection in double-precision. <code class="param">rayStart</code> and <code class="param">rayEnd</code> define the interval on the ray to detect an intersection. <code class="param">prec</code> can be specified to reuse some precomputations (e.g. for checking many parallel rays). <code class="param">vadidFaces</code> if given then all faces for which false is returned will be skipped Finds the closest intersection to ray origin (line param=0) or any intersection for better performance if <code class="param">!closestIntersect</code>. Generated from function <span class="tt"><a class="el" href="#ae6ca9e2df203172e726e347559d748a4" title="Finds ray and mesh intersection in float-precision. rayStart and rayEnd define the interval on the ra...">MR.rayMeshIntersect</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">1.7976931348623157e308</span>. Parameter <span class="tt">closestIntersect</span> defaults to <span class="tt">true</span>. Parameter <span class="tt">validFaces</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:ad0b7dc5dfe99001e5aa78e56d07081cc" id="r_ad0b7dc5dfe99001e5aa78e56d07081cc"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MeshIntersectionResult.html">MR.MeshIntersectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0b7dc5dfe99001e5aa78e56d07081cc">rayMeshIntersect</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, <a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a> tree, <a class="el" href="classMR_1_1Const__Line3f.html">MR.Const_Line3f</a> line, float? rayStart=null, float? rayEnd=null, <a class="el" href="classMR_1_1Const__IntersectionPrecomputes__Float.html">MR.Const_IntersectionPrecomputes_Float</a>? prec=null, bool? closestIntersect=null, MR.Std.Const_Function_Bool_From_MRFaceId? validFaces=null, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:ad0b7dc5dfe99001e5aa78e56d07081cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as rayMeshIntersect above, but for the triangles of given tree (only from <code class="param">region</code> if given), e.g. <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>, with <code class="param">points</code> the coordinates of their vertices; tp of the result is relative to the vertices of the triangle in the tree Generated from function <span class="tt"><a class="el" href="#ae6ca9e2df203172e726e347559d748a4" title="Finds ray and mesh intersection in float-precision. rayStart and rayEnd define the interval on the ra...">MR.rayMeshIntersect</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0f</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">3.40282347e38f</span>. Parameter <span class="tt">closestIntersect</span> defaults to <span class="tt">true</span>. Parameter <span class="tt">validFaces</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:a7b744b9e502f3f0f0c88abb3b69016dc" id="r_a7b744b9e502f3f0f0c88abb3b69016dc"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MeshIntersectionResult.html">MR.MeshIntersectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b744b9e502f3f0f0c88abb3b69016dc">rayMeshIntersect</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, <a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a> tree, <a class="el" href="classMR_1_1Const__Line3d.html">MR.Const_Line3d</a> line, double? rayStart=null, double? rayEnd=null, <a class="el" href="classMR_1_1Const__IntersectionPrecomputes__Double.html">MR.Const_IntersectionPrecomputes_Double</a>? prec=null, bool? closestIntersect=null, MR.Std.Const_Function_Bool_From_MRFaceId? validFaces=null, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:a7b744b9e502f3f0f0c88abb3b69016dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as rayMeshIntersect above in double-precision, but for the triangles of given tree (only from <code class="param">region</code> if given), e.g. <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>, with <code class="param">points</code> the coordinates of their vertices; tp of the result is relative to the vertices of the triangle in the tree Generated from function <span class="tt"><a class="el" href="#ae6ca9e2df203172e726e347559d748a4" title="Finds ray and mesh intersection in float-precision. rayStart and rayEnd define the interval on the ra...">MR.rayMeshIntersect</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">1.7976931348623157e308</span>. Parameter <span class="tt">closestIntersect</span> defaults to <span class="tt">true</span>. Parameter <span class="tt">validFaces</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a4b70097ca6ef3c79f287e83c9ab698d5" id="r_a4b70097ca6ef3c79f287e83c9ab698d5"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b70097ca6ef3c79f287e83c9ab698d5">multiRayMeshIntersect</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, MR.Std.Const_Vector_MRVector3f origins, MR.Std.Const_Vector_MRVector3f dirs, <a class="el" href="classMR_1_1Const__MultiRayMeshIntersectResult.html">MR.Const_MultiRayMeshIntersectResult</a> result, float? rayStart=null, float? rayEnd=null, bool? closestIntersect=null, MR.Std.Const_Function_Bool_From_MRFaceId? validFaces=null)</td></tr>
 <tr class="memdesc:a4b70097ca6ef3c79f287e83c9ab698d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds intersections between a mesh and multiple rays in parallel (in float-precision). <code class="param">rayStart</code> and <code class="param">rayEnd</code> define the interval on all rays to detect an intersection. <code class="param">vadidFaces</code> if given then all faces for which false is returned will be skipped Generated from function <span class="tt"><a class="el" href="#a4b70097ca6ef3c79f287e83c9ab698d5" title="Finds intersections between a mesh and multiple rays in parallel (in float-precision)....">MR.multiRayMeshIntersect</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0f</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">3.40282347e38f</span>. Parameter <span class="tt">closestIntersect</span> defaults to <span class="tt">true</span>. Parameter <span class="tt">validFaces</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:a941f48e39fbdf56a9eb409dcd92ed4d8" id="r_a941f48e39fbdf56a9eb409dcd92ed4d8"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a941f48e39fbdf56a9eb409dcd92ed4d8">multiRayMeshIntersect</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, <a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a> tree, MR.Std.Const_Vector_MRVector3f origins, MR.Std.Const_Vector_MRVector3f dirs, <a class="el" href="classMR_1_1Const__MultiRayMeshIntersectResult.html">MR.Const_MultiRayMeshIntersectResult</a> result, float? rayStart=null, float? rayEnd=null, bool? closestIntersect=null, MR.Std.Const_Function_Bool_From_MRFaceId? validFaces=null, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:a941f48e39fbdf56a9eb409dcd92ed4d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as multiRayMeshIntersect above, but for the triangles of given tree (only from <code class="param">region</code> if given), e.g. <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>, with <code class="param">points</code> the coordinates of their vertices Generated from function <span class="tt"><a class="el" href="#a4b70097ca6ef3c79f287e83c9ab698d5" title="Finds intersections between a mesh and multiple rays in parallel (in float-precision)....">MR.multiRayMeshIntersect</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0f</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">3.40282347e38f</span>. Parameter <span class="tt">closestIntersect</span> defaults to <span class="tt">true</span>. Parameter <span class="tt">validFaces</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a0cac22c831c0b9e3b121511a853a3328" id="r_a0cac22c831c0b9e3b121511a853a3328"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MultiMeshIntersectionResult.html">MR.MultiMeshIntersectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cac22c831c0b9e3b121511a853a3328">rayMultiMeshAnyIntersect</a> (MR.Std.Const_Vector_MRLine3MeshFloat lineMeshes, float? rayStart=null, float? rayEnd=null)</td></tr>
 <tr class="memdesc:a0cac22c831c0b9e3b121511a853a3328"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intersects ray with many meshes. Finds any intersection (not the closest) <a class="anchor" id="rayMultiMeshAnyIntersectF"></a>Generated from function <span class="tt"><a class="el" href="#a0cac22c831c0b9e3b121511a853a3328" title="Intersects ray with many meshes. Finds any intersection (not the closest) Generated from function MR....">MR.rayMultiMeshAnyIntersect</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0f</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">3.40282347e38f</span>.  <br /></td></tr>
 <tr class="memitem:a9e83648b959d268705221830d80faf43" id="r_a9e83648b959d268705221830d80faf43"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MultiMeshIntersectionResult.html">MR.MultiMeshIntersectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e83648b959d268705221830d80faf43">rayMultiMeshAnyIntersect</a> (MR.Std.Const_Vector_MRLine3MeshDouble lineMeshes, double? rayStart=null, double? rayEnd=null)</td></tr>
@@ -10640,12 +10646,22 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <tr class="memdesc:abe5fc4b3796e1ff1d7320e36491ff5dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intersects ray with mesh. Finds all intersections <a class="anchor" id="rayMeshIntersectAllF"></a>Generated from function <span class="tt"><a class="el" href="#abe5fc4b3796e1ff1d7320e36491ff5dc" title="Intersects ray with mesh. Finds all intersections Generated from function MR.rayMeshIntersectAll....">MR.rayMeshIntersectAll</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0f</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">3.40282347e38f</span>.  <br /></td></tr>
 <tr class="memitem:aaf99ab9928de9f23d017043195436c9a" id="r_aaf99ab9928de9f23d017043195436c9a"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf99ab9928de9f23d017043195436c9a">rayMeshIntersectAll</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="classMR_1_1Const__Line3d.html">MR.Const_Line3d</a> line, MR.Std._ByValue_Function_Bool_From_ConstMRMeshIntersectionResultRef callback, double? rayStart=null, double? rayEnd=null, <a class="el" href="classMR_1_1Const__IntersectionPrecomputes__Double.html">MR.Const_IntersectionPrecomputes_Double</a>? prec=null)</td></tr>
 <tr class="memdesc:aaf99ab9928de9f23d017043195436c9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="#rayMeshIntersectAllF">rayMeshIntersectAllF</a>, but use double precision Generated from function <span class="tt"><a class="el" href="#abe5fc4b3796e1ff1d7320e36491ff5dc" title="Intersects ray with mesh. Finds all intersections Generated from function MR.rayMeshIntersectAll....">MR.rayMeshIntersectAll</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">1.7976931348623157e308</span>.  <br /></td></tr>
+<tr class="memitem:aa323fb935328fa84d3ffdd6b8add20a7" id="r_aa323fb935328fa84d3ffdd6b8add20a7"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa323fb935328fa84d3ffdd6b8add20a7">rayMeshIntersectAll</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, <a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a> tree, <a class="el" href="classMR_1_1Const__Line3f.html">MR.Const_Line3f</a> line, MR.Std._ByValue_Function_Bool_From_ConstMRMeshIntersectionResultRef callback, float? rayStart=null, float? rayEnd=null, <a class="el" href="classMR_1_1Const__IntersectionPrecomputes__Float.html">MR.Const_IntersectionPrecomputes_Float</a>? prec=null, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:aa323fb935328fa84d3ffdd6b8add20a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="#rayMeshIntersectAllF">rayMeshIntersectAllF</a>, but for the triangles of given tree (only from <code class="param">region</code> if given), e.g. <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>, with <code class="param">points</code> the coordinates of their vertices Generated from function <span class="tt"><a class="el" href="#abe5fc4b3796e1ff1d7320e36491ff5dc" title="Intersects ray with mesh. Finds all intersections Generated from function MR.rayMeshIntersectAll....">MR.rayMeshIntersectAll</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0f</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">3.40282347e38f</span>.  <br /></td></tr>
+<tr class="memitem:a6ccab6e6ccf3b7a68f45dd4aed7a2b72" id="r_a6ccab6e6ccf3b7a68f45dd4aed7a2b72"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ccab6e6ccf3b7a68f45dd4aed7a2b72">rayMeshIntersectAll</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, <a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a> tree, <a class="el" href="classMR_1_1Const__Line3d.html">MR.Const_Line3d</a> line, MR.Std._ByValue_Function_Bool_From_ConstMRMeshIntersectionResultRef callback, double? rayStart=null, double? rayEnd=null, <a class="el" href="classMR_1_1Const__IntersectionPrecomputes__Double.html">MR.Const_IntersectionPrecomputes_Double</a>? prec=null, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:a6ccab6e6ccf3b7a68f45dd4aed7a2b72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="#rayMeshIntersectAllF">rayMeshIntersectAllF</a> in double precision, but for the triangles of given tree (only from <code class="param">region</code> if given), e.g. <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>, with <code class="param">points</code> the coordinates of their vertices Generated from function <span class="tt"><a class="el" href="#abe5fc4b3796e1ff1d7320e36491ff5dc" title="Intersects ray with mesh. Finds all intersections Generated from function MR.rayMeshIntersectAll....">MR.rayMeshIntersectAll</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">1.7976931348623157e308</span>.  <br /></td></tr>
 <tr class="memitem:a48e483c3a05120d78d7949a0ca95604c" id="r_a48e483c3a05120d78d7949a0ca95604c"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48e483c3a05120d78d7949a0ca95604c">rayMeshIntersectAll</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="classMR_1_1Const__Line3d.html">MR.Const_Line3d</a> line, MR.Std._ByValue_Function_Bool_From_ConstMRMeshIntersectionResultRef_Bool callback, double? rayStart=null, double? rayEnd=null, <a class="el" href="classMR_1_1Const__IntersectionPrecomputes__Double.html">MR.Const_IntersectionPrecomputes_Double</a>? prec=null)</td></tr>
 <tr class="memdesc:a48e483c3a05120d78d7949a0ca95604c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="#rayMeshIntersectAllF">rayMeshIntersectAllF</a> in double precision, also reporting the side from which the ray crosses each triangle; both the intersections and the sides are decided by precise predicates, so for a closed mesh every infinite ray has the same number of crossings from front and from back Generated from function <span class="tt"><a class="el" href="#abe5fc4b3796e1ff1d7320e36491ff5dc" title="Intersects ray with mesh. Finds all intersections Generated from function MR.rayMeshIntersectAll....">MR.rayMeshIntersectAll</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">1.7976931348623157e308</span>.  <br /></td></tr>
+<tr class="memitem:a6eab211615b4db3987dcba7a62767535" id="r_a6eab211615b4db3987dcba7a62767535"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6eab211615b4db3987dcba7a62767535">rayMeshIntersectAll</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, <a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a> tree, <a class="el" href="classMR_1_1Const__Line3d.html">MR.Const_Line3d</a> line, MR.Std._ByValue_Function_Bool_From_ConstMRMeshIntersectionResultRef_Bool callback, double? rayStart=null, double? rayEnd=null, <a class="el" href="classMR_1_1Const__IntersectionPrecomputes__Double.html">MR.Const_IntersectionPrecomputes_Double</a>? prec=null, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:a6eab211615b4db3987dcba7a62767535"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as above, but for the triangles of given tree (only from <code class="param">region</code> if given), e.g. <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>, with <code class="param">points</code> the coordinates of their vertices Generated from function <span class="tt"><a class="el" href="#abe5fc4b3796e1ff1d7320e36491ff5dc" title="Intersects ray with mesh. Finds all intersections Generated from function MR.rayMeshIntersectAll....">MR.rayMeshIntersectAll</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">1.7976931348623157e308</span>.  <br /></td></tr>
 <tr class="memitem:a4c71a4aaf9dee724ba0b0115706c9420" id="r_a4c71a4aaf9dee724ba0b0115706c9420"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c71a4aaf9dee724ba0b0115706c9420">planeMeshIntersect</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="classMR_1_1Const__Plane3f.html">MR.Const_Plane3f</a> plane, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? fs, <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>? ues, <a class="el" href="classMR_1_1VertBitSet.html">MR.VertBitSet</a>? vs, MR.Std.Vector_MRFaceId? fsVec=null)</td></tr>
 <tr class="memdesc:a4c71a4aaf9dee724ba0b0115706c9420"><td class="mdescLeft">&#160;</td><td class="mdescRight">given mesh part and arbitrary plane, outputs  <br /></td></tr>
+<tr class="memitem:a7e43053cc90ac1c0cba6ffaed4373ff9" id="r_a7e43053cc90ac1c0cba6ffaed4373ff9"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e43053cc90ac1c0cba6ffaed4373ff9">planeMeshIntersect</a> (<a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a> tree, <a class="el" href="classMR_1_1Const__Plane3f.html">MR.Const_Plane3f</a> plane, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? fs, <a class="el" href="classMR_1_1VertBitSet.html">MR.VertBitSet</a>? vs, MR.Std.Vector_MRFaceId? fsVec=null, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:a7e43053cc90ac1c0cba6ffaed4373ff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">given the tree of triangles (only from <code class="param">region</code> if given), e.g. <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>, and arbitrary plane, outputs  <br /></td></tr>
 <tr class="memitem:a17b0c4cf6bc9f815d3b23492a8f8760b" id="r_a17b0c4cf6bc9f815d3b23492a8f8760b"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17b0c4cf6bc9f815d3b23492a8f8760b">xyPlaneMeshIntersect</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, float zLevel, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? fs, <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>? ues, <a class="el" href="classMR_1_1VertBitSet.html">MR.VertBitSet</a>? vs, MR.Std.Vector_MRFaceId? fsVec=null)</td></tr>
 <tr class="memdesc:a17b0c4cf6bc9f815d3b23492a8f8760b"><td class="mdescLeft">&#160;</td><td class="mdescRight">given mesh part and plane z=zLevel, outputs  <br /></td></tr>
+<tr class="memitem:a4a20ca2dddb8d927a45ad560b7806872" id="r_a4a20ca2dddb8d927a45ad560b7806872"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a20ca2dddb8d927a45ad560b7806872">xyPlaneMeshIntersect</a> (<a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a> tree, float zLevel, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? fs, <a class="el" href="classMR_1_1VertBitSet.html">MR.VertBitSet</a>? vs, MR.Std.Vector_MRFaceId? fsVec=null, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:a4a20ca2dddb8d927a45ad560b7806872"><td class="mdescLeft">&#160;</td><td class="mdescRight">given the tree of triangles (only from <code class="param">region</code> if given), e.g. <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>, and plane z=zLevel, outputs  <br /></td></tr>
 <tr class="memitem:afd2ec4a77da567bcbb913ed3c4e232b4" id="r_afd2ec4a77da567bcbb913ed3c4e232b4"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd2ec4a77da567bcbb913ed3c4e232b4">loadMrmesh</a> (string file, <a class="el" href="classMR_1_1Const__MeshLoadSettings.html">MR.Const_MeshLoadSettings</a>? settings=null)</td></tr>
 <tr class="memdesc:afd2ec4a77da567bcbb913ed3c4e232b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads mesh from file in internal MeshLib format Generated from function <span class="tt"><a class="el" href="#afd2ec4a77da567bcbb913ed3c4e232b4" title="loads mesh from file in internal MeshLib format Generated from function MR.loadMrmesh....">MR.loadMrmesh</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a5679069724012b56ae837d1c67efe6d0" id="r_a5679069724012b56ae837d1c67efe6d0"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5679069724012b56ae837d1c67efe6d0">loadMrmesh</a> (MR.Std.Istream in_, <a class="el" href="classMR_1_1Const__MeshLoadSettings.html">MR.Const_MeshLoadSettings</a>? settings=null)</td></tr>
@@ -58383,7 +58399,7 @@ All new faces should be parallel to given direction It is measured in squared le
 </div>
 </div>
 <a id="a4b70097ca6ef3c79f287e83c9ab698d5" name="a4b70097ca6ef3c79f287e83c9ab698d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b70097ca6ef3c79f287e83c9ab698d5">&#9670;&#160;</a></span>multiRayMeshIntersect()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b70097ca6ef3c79f287e83c9ab698d5">&#9670;&#160;</a></span>multiRayMeshIntersect() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -58440,6 +58456,77 @@ All new faces should be parallel to given direction It is measured in squared le
 </div><div class="memdoc">
 
 <p>Finds intersections between a mesh and multiple rays in parallel (in float-precision). <code class="param">rayStart</code> and <code class="param">rayEnd</code> define the interval on all rays to detect an intersection. <code class="param">vadidFaces</code> if given then all faces for which false is returned will be skipped Generated from function <span class="tt"><a class="el" href="#a4b70097ca6ef3c79f287e83c9ab698d5" title="Finds intersections between a mesh and multiple rays in parallel (in float-precision)....">MR.multiRayMeshIntersect</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0f</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">3.40282347e38f</span>. Parameter <span class="tt">closestIntersect</span> defaults to <span class="tt">true</span>. Parameter <span class="tt">validFaces</span> defaults to <span class="tt">{}</span>. </p>
+
+</div>
+</div>
+<a id="a941f48e39fbdf56a9eb409dcd92ed4d8" name="a941f48e39fbdf56a9eb409dcd92ed4d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a941f48e39fbdf56a9eb409dcd92ed4d8">&#9670;&#160;</a></span>multiRayMeshIntersect() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.multiRayMeshIntersect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a></td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Vector_MRVector3f</td>          <td class="paramname"><span class="paramname"><em>origins</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Vector_MRVector3f</td>          <td class="paramname"><span class="paramname"><em>dirs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MultiRayMeshIntersectResult.html">MR.Const_MultiRayMeshIntersectResult</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float?</td>          <td class="paramname"><span class="paramname"><em>rayStart</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float?</td>          <td class="paramname"><span class="paramname"><em>rayEnd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>closestIntersect</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_MRFaceId?</td>          <td class="paramname"><span class="paramname"><em>validFaces</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Same as multiRayMeshIntersect above, but for the triangles of given tree (only from <code class="param">region</code> if given), e.g. <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>, with <code class="param">points</code> the coordinates of their vertices Generated from function <span class="tt"><a class="el" href="#a4b70097ca6ef3c79f287e83c9ab698d5" title="Finds intersections between a mesh and multiple rays in parallel (in float-precision)....">MR.multiRayMeshIntersect</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0f</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">3.40282347e38f</span>. Parameter <span class="tt">closestIntersect</span> defaults to <span class="tt">true</span>. Parameter <span class="tt">validFaces</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>
@@ -60256,8 +60343,67 @@ All new faces should be parallel to given direction It is measured in squared le
 
 </div>
 </div>
+<a id="a7e43053cc90ac1c0cba6ffaed4373ff9" name="a7e43053cc90ac1c0cba6ffaed4373ff9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e43053cc90ac1c0cba6ffaed4373ff9">&#9670;&#160;</a></span>planeMeshIntersect() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.planeMeshIntersect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a></td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Plane3f.html">MR.Const_Plane3f</a></td>          <td class="paramname"><span class="paramname"><em>plane</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>fs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1VertBitSet.html">MR.VertBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>vs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Vector_MRFaceId?</td>          <td class="paramname"><span class="paramname"><em>fsVec</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>given the tree of triangles (only from <code class="param">region</code> if given), e.g. <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>, and arbitrary plane, outputs </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fs</td><td>triangles from boxes crossed or touched by the plane (resized if necessary) </td></tr>
+    <tr><td class="paramname">vs</td><td>vertices of these triangles (resized if necessary) </td></tr>
+    <tr><td class="paramname">fsVec</td><td>triangles from boxes crossed or touched by the plane in unspecified order Generated from function <span class="tt"><a class="el" href="#a4c71a4aaf9dee724ba0b0115706c9420" title="given mesh part and arbitrary plane, outputs">MR.planeMeshIntersect</a></span>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a4c71a4aaf9dee724ba0b0115706c9420" name="a4c71a4aaf9dee724ba0b0115706c9420"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c71a4aaf9dee724ba0b0115706c9420">&#9670;&#160;</a></span>planeMeshIntersect()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c71a4aaf9dee724ba0b0115706c9420">&#9670;&#160;</a></span>planeMeshIntersect() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -62027,7 +62173,7 @@ All new faces should be parallel to given direction It is measured in squared le
 </div>
 </div>
 <a id="a2ceb1bbd2c5682dd9ba925c98037a9cc" name="a2ceb1bbd2c5682dd9ba925c98037a9cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ceb1bbd2c5682dd9ba925c98037a9cc">&#9670;&#160;</a></span>rayMeshIntersect() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ceb1bbd2c5682dd9ba925c98037a9cc">&#9670;&#160;</a></span>rayMeshIntersect() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -62083,7 +62229,7 @@ All new faces should be parallel to given direction It is measured in squared le
 </div>
 </div>
 <a id="ae6ca9e2df203172e726e347559d748a4" name="ae6ca9e2df203172e726e347559d748a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6ca9e2df203172e726e347559d748a4">&#9670;&#160;</a></span>rayMeshIntersect() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6ca9e2df203172e726e347559d748a4">&#9670;&#160;</a></span>rayMeshIntersect() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -62138,8 +62284,140 @@ All new faces should be parallel to given direction It is measured in squared le
 
 </div>
 </div>
+<a id="a7b744b9e502f3f0f0c88abb3b69016dc" name="a7b744b9e502f3f0f0c88abb3b69016dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b744b9e502f3f0f0c88abb3b69016dc">&#9670;&#160;</a></span>rayMeshIntersect() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1MeshIntersectionResult.html">MR.MeshIntersectionResult</a> MR.rayMeshIntersect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a></td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Line3d.html">MR.Const_Line3d</a></td>          <td class="paramname"><span class="paramname"><em>line</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double?</td>          <td class="paramname"><span class="paramname"><em>rayStart</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double?</td>          <td class="paramname"><span class="paramname"><em>rayEnd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__IntersectionPrecomputes__Double.html">MR.Const_IntersectionPrecomputes_Double</a>?</td>          <td class="paramname"><span class="paramname"><em>prec</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>closestIntersect</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_MRFaceId?</td>          <td class="paramname"><span class="paramname"><em>validFaces</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Same as rayMeshIntersect above in double-precision, but for the triangles of given tree (only from <code class="param">region</code> if given), e.g. <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>, with <code class="param">points</code> the coordinates of their vertices; tp of the result is relative to the vertices of the triangle in the tree Generated from function <span class="tt"><a class="el" href="#ae6ca9e2df203172e726e347559d748a4" title="Finds ray and mesh intersection in float-precision. rayStart and rayEnd define the interval on the ra...">MR.rayMeshIntersect</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">1.7976931348623157e308</span>. Parameter <span class="tt">closestIntersect</span> defaults to <span class="tt">true</span>. Parameter <span class="tt">validFaces</span> defaults to <span class="tt">{}</span>. </p>
+
+</div>
+</div>
+<a id="ad0b7dc5dfe99001e5aa78e56d07081cc" name="ad0b7dc5dfe99001e5aa78e56d07081cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0b7dc5dfe99001e5aa78e56d07081cc">&#9670;&#160;</a></span>rayMeshIntersect() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1MeshIntersectionResult.html">MR.MeshIntersectionResult</a> MR.rayMeshIntersect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a></td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Line3f.html">MR.Const_Line3f</a></td>          <td class="paramname"><span class="paramname"><em>line</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float?</td>          <td class="paramname"><span class="paramname"><em>rayStart</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float?</td>          <td class="paramname"><span class="paramname"><em>rayEnd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__IntersectionPrecomputes__Float.html">MR.Const_IntersectionPrecomputes_Float</a>?</td>          <td class="paramname"><span class="paramname"><em>prec</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>closestIntersect</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_MRFaceId?</td>          <td class="paramname"><span class="paramname"><em>validFaces</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Same as rayMeshIntersect above, but for the triangles of given tree (only from <code class="param">region</code> if given), e.g. <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>, with <code class="param">points</code> the coordinates of their vertices; tp of the result is relative to the vertices of the triangle in the tree Generated from function <span class="tt"><a class="el" href="#ae6ca9e2df203172e726e347559d748a4" title="Finds ray and mesh intersection in float-precision. rayStart and rayEnd define the interval on the ra...">MR.rayMeshIntersect</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0f</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">3.40282347e38f</span>. Parameter <span class="tt">closestIntersect</span> defaults to <span class="tt">true</span>. Parameter <span class="tt">validFaces</span> defaults to <span class="tt">{}</span>. </p>
+
+</div>
+</div>
 <a id="aaf99ab9928de9f23d017043195436c9a" name="aaf99ab9928de9f23d017043195436c9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf99ab9928de9f23d017043195436c9a">&#9670;&#160;</a></span>rayMeshIntersectAll() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf99ab9928de9f23d017043195436c9a">&#9670;&#160;</a></span>rayMeshIntersectAll() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -62190,7 +62468,7 @@ All new faces should be parallel to given direction It is measured in squared le
 </div>
 </div>
 <a id="a48e483c3a05120d78d7949a0ca95604c" name="a48e483c3a05120d78d7949a0ca95604c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48e483c3a05120d78d7949a0ca95604c">&#9670;&#160;</a></span>rayMeshIntersectAll() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a48e483c3a05120d78d7949a0ca95604c">&#9670;&#160;</a></span>rayMeshIntersectAll() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -62241,7 +62519,7 @@ All new faces should be parallel to given direction It is measured in squared le
 </div>
 </div>
 <a id="abe5fc4b3796e1ff1d7320e36491ff5dc" name="abe5fc4b3796e1ff1d7320e36491ff5dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe5fc4b3796e1ff1d7320e36491ff5dc">&#9670;&#160;</a></span>rayMeshIntersectAll() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abe5fc4b3796e1ff1d7320e36491ff5dc">&#9670;&#160;</a></span>rayMeshIntersectAll() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -62288,6 +62566,189 @@ All new faces should be parallel to given direction It is measured in squared le
 </div><div class="memdoc">
 
 <p>Intersects ray with mesh. Finds all intersections <a class="anchor" id="rayMeshIntersectAllF"></a>Generated from function <span class="tt"><a class="el" href="#abe5fc4b3796e1ff1d7320e36491ff5dc" title="Intersects ray with mesh. Finds all intersections Generated from function MR.rayMeshIntersectAll....">MR.rayMeshIntersectAll</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0f</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">3.40282347e38f</span>. </p>
+
+</div>
+</div>
+<a id="a6ccab6e6ccf3b7a68f45dd4aed7a2b72" name="a6ccab6e6ccf3b7a68f45dd4aed7a2b72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ccab6e6ccf3b7a68f45dd4aed7a2b72">&#9670;&#160;</a></span>rayMeshIntersectAll() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.rayMeshIntersectAll </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a></td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Line3d.html">MR.Const_Line3d</a></td>          <td class="paramname"><span class="paramname"><em>line</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_Bool_From_ConstMRMeshIntersectionResultRef</td>          <td class="paramname"><span class="paramname"><em>callback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double?</td>          <td class="paramname"><span class="paramname"><em>rayStart</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double?</td>          <td class="paramname"><span class="paramname"><em>rayEnd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__IntersectionPrecomputes__Double.html">MR.Const_IntersectionPrecomputes_Double</a>?</td>          <td class="paramname"><span class="paramname"><em>prec</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Same as <a class="el" href="#rayMeshIntersectAllF">rayMeshIntersectAllF</a> in double precision, but for the triangles of given tree (only from <code class="param">region</code> if given), e.g. <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>, with <code class="param">points</code> the coordinates of their vertices Generated from function <span class="tt"><a class="el" href="#abe5fc4b3796e1ff1d7320e36491ff5dc" title="Intersects ray with mesh. Finds all intersections Generated from function MR.rayMeshIntersectAll....">MR.rayMeshIntersectAll</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">1.7976931348623157e308</span>. </p>
+
+</div>
+</div>
+<a id="a6eab211615b4db3987dcba7a62767535" name="a6eab211615b4db3987dcba7a62767535"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eab211615b4db3987dcba7a62767535">&#9670;&#160;</a></span>rayMeshIntersectAll() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.rayMeshIntersectAll </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a></td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Line3d.html">MR.Const_Line3d</a></td>          <td class="paramname"><span class="paramname"><em>line</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_Bool_From_ConstMRMeshIntersectionResultRef_Bool</td>          <td class="paramname"><span class="paramname"><em>callback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double?</td>          <td class="paramname"><span class="paramname"><em>rayStart</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double?</td>          <td class="paramname"><span class="paramname"><em>rayEnd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__IntersectionPrecomputes__Double.html">MR.Const_IntersectionPrecomputes_Double</a>?</td>          <td class="paramname"><span class="paramname"><em>prec</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Same as above, but for the triangles of given tree (only from <code class="param">region</code> if given), e.g. <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>, with <code class="param">points</code> the coordinates of their vertices Generated from function <span class="tt"><a class="el" href="#abe5fc4b3796e1ff1d7320e36491ff5dc" title="Intersects ray with mesh. Finds all intersections Generated from function MR.rayMeshIntersectAll....">MR.rayMeshIntersectAll</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">1.7976931348623157e308</span>. </p>
+
+</div>
+</div>
+<a id="aa323fb935328fa84d3ffdd6b8add20a7" name="aa323fb935328fa84d3ffdd6b8add20a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa323fb935328fa84d3ffdd6b8add20a7">&#9670;&#160;</a></span>rayMeshIntersectAll() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.rayMeshIntersectAll </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a></td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Line3f.html">MR.Const_Line3f</a></td>          <td class="paramname"><span class="paramname"><em>line</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_Bool_From_ConstMRMeshIntersectionResultRef</td>          <td class="paramname"><span class="paramname"><em>callback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float?</td>          <td class="paramname"><span class="paramname"><em>rayStart</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float?</td>          <td class="paramname"><span class="paramname"><em>rayEnd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__IntersectionPrecomputes__Float.html">MR.Const_IntersectionPrecomputes_Float</a>?</td>          <td class="paramname"><span class="paramname"><em>prec</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Same as <a class="el" href="#rayMeshIntersectAllF">rayMeshIntersectAllF</a>, but for the triangles of given tree (only from <code class="param">region</code> if given), e.g. <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>, with <code class="param">points</code> the coordinates of their vertices Generated from function <span class="tt"><a class="el" href="#abe5fc4b3796e1ff1d7320e36491ff5dc" title="Intersects ray with mesh. Finds all intersections Generated from function MR.rayMeshIntersectAll....">MR.rayMeshIntersectAll</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0.0f</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">3.40282347e38f</span>. </p>
 
 </div>
 </div>
@@ -70165,8 +70626,67 @@ default metric: ComplexStitchMetric. </p>
 
 </div>
 </div>
+<a id="a4a20ca2dddb8d927a45ad560b7806872" name="a4a20ca2dddb8d927a45ad560b7806872"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a20ca2dddb8d927a45ad560b7806872">&#9670;&#160;</a></span>xyPlaneMeshIntersect() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.xyPlaneMeshIntersect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__AABBTree.html">MR.Const_AABBTree</a></td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>zLevel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>fs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1VertBitSet.html">MR.VertBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>vs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Vector_MRFaceId?</td>          <td class="paramname"><span class="paramname"><em>fsVec</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>given the tree of triangles (only from <code class="param">region</code> if given), e.g. <a class="el" href="#a03d4edadbdc62c017d82e673d2a01d6ba220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>, and plane z=zLevel, outputs </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fs</td><td>triangles crossed or touched by the plane (resized if necessary) </td></tr>
+    <tr><td class="paramname">vs</td><td>vertices of these triangles (resized if necessary) </td></tr>
+    <tr><td class="paramname">fsVec</td><td>triangles crossed or touched by the plane in unspecified order Generated from function <span class="tt"><a class="el" href="#a17b0c4cf6bc9f815d3b23492a8f8760b" title="given mesh part and plane z=zLevel, outputs">MR.xyPlaneMeshIntersect</a></span>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a17b0c4cf6bc9f815d3b23492a8f8760b" name="a17b0c4cf6bc9f815d3b23492a8f8760b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17b0c4cf6bc9f815d3b23492a8f8760b">&#9670;&#160;</a></span>xyPlaneMeshIntersect()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a17b0c4cf6bc9f815d3b23492a8f8760b">&#9670;&#160;</a></span>xyPlaneMeshIntersect() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

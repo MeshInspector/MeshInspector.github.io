@@ -1,5 +1,13 @@
 var NAVTREEINDEX129 =
 {
+"classMR_1_1PointCloudApproxRelaxParams.html#a410253d4074c7c006c03705d955843e4":[9,3,0,0,0,1587,13],
+"classMR_1_1PointCloudApproxRelaxParams.html#a5ae949fb204a4258640690eb47d30e05":[9,3,0,0,0,1587,8],
+"classMR_1_1PointCloudApproxRelaxParams.html#a5ccdbcc01144fc8e4742f3fad2566802":[9,3,0,0,0,1587,2],
+"classMR_1_1PointCloudApproxRelaxParams.html#a5d6ce71080a29b20a5757c47ef106f00":[9,3,0,0,0,1587,11],
+"classMR_1_1PointCloudApproxRelaxParams.html#a737c49734315fdb3d7fd32ef285b5be5":[9,3,0,0,0,1587,10],
+"classMR_1_1PointCloudApproxRelaxParams.html#a938d917fb6e74c12b252eec61aefc5e9":[9,3,0,0,0,1587,3],
+"classMR_1_1PointCloudApproxRelaxParams.html#a9f212056331e43f999e81fea6369b897":[9,3,0,0,0,1587,12],
+"classMR_1_1PointCloudApproxRelaxParams.html#ab630953d03bfb929d16344bb18fa3129":[9,3,0,0,0,1587,7],
 "classMR_1_1PointCloudApproxRelaxParams.html#ac2da44309cc6f470a18fb6fde664c92e":[9,3,0,0,0,1587,9],
 "classMR_1_1PointCloudApproxRelaxParams.html#adb3da3ede39a30ae15552a28af089b9d":[9,3,0,0,0,1587,4],
 "classMR_1_1PointCloudApproxRelaxParams.html#ae850ca670b2e026dcc7dddb01852d070":[9,3,0,0,0,1587,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX129 =
 "classMR_1_1PointsLoad.html#ad3f6f9aefe03d5c1313483f26d459790":[9,3,0,0,0,1597,6],
 "classMR_1_1PointsLoad.html#ad5bec718b73ec3b68699a6fe0aaa904a":[9,3,0,0,0,1597,15],
 "classMR_1_1PointsLoad.html#af9815642e0c36886c3e9c58ee783120e":[9,3,0,0,0,1597,13],
-"classMR_1_1PointsLoad.html#af9d9adce8c94041255b160232af39bc4":[9,3,0,0,0,1597,10],
-"classMR_1_1PointsLoadSettings.html":[9,3,0,0,0,1598],
-"classMR_1_1PointsLoadSettings.html#a23738fee48586fce88572f0c4bd8ebd8":[9,3,0,0,0,1598,7],
-"classMR_1_1PointsLoadSettings.html#a2e5cf330234a0a7bfcd408f7f515a43f":[9,3,0,0,0,1598,9],
-"classMR_1_1PointsLoadSettings.html#a396fb6fb14e6f3750c88764e172d70f2":[9,3,0,0,0,1598,8],
-"classMR_1_1PointsLoadSettings.html#a5902d940a4aaf6e349a9cf5bb3550ee3":[9,3,0,0,0,1598,2],
-"classMR_1_1PointsLoadSettings.html#a7e68703b4dc939a2c9d13b17e8d1ab7f":[9,3,0,0,0,1598,0],
-"classMR_1_1PointsLoadSettings.html#ab3fd31ca11a9b36c390966180f354a36":[9,3,0,0,0,1598,4],
-"classMR_1_1PointsLoadSettings.html#ab6c4d981e60ec8cfdf72f6981e8dd167":[9,3,0,0,0,1598,3]
+"classMR_1_1PointsLoad.html#af9d9adce8c94041255b160232af39bc4":[9,3,0,0,0,1597,10]
 };

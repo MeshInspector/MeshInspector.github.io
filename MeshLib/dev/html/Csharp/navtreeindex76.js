@@ -1,5 +1,13 @@
 var NAVTREEINDEX76 =
 {
+"classMR_1_1Const__Quaterniond.html#aeb2315682ca6f39d58f0596615669015":[9,3,0,0,0,812,28],
+"classMR_1_1Const__Quaterniond.html#af5a49b91f14e35faacafdd4bce822009":[9,3,0,0,0,812,15],
+"classMR_1_1Const__Quaterniond.html#afa2595453636ab4df527a4056943a350":[9,3,0,0,0,812,26],
+"classMR_1_1Const__Quaternionf.html":[9,3,0,0,0,813],
+"classMR_1_1Const__Quaternionf.html#a02a7729a186bb819897ed10f504123ac":[9,3,0,0,0,813,26],
+"classMR_1_1Const__Quaternionf.html#a061bc96186e1472db072895438e6f005":[9,3,0,0,0,813,18],
+"classMR_1_1Const__Quaternionf.html#a0bb33f1a5850af4f68e115f4b407eac9":[9,3,0,0,0,813,4],
+"classMR_1_1Const__Quaternionf.html#a11cde6c7e9440c25d1d8bb5ee79f77bf":[9,3,0,0,0,813,3],
 "classMR_1_1Const__Quaternionf.html#a152a1b53ef817afead9dd4b57dcc82be":[9,3,0,0,0,813,2],
 "classMR_1_1Const__Quaternionf.html#a1ed31b5363f9a8a33158c400b9185a0e":[9,3,0,0,0,813,12],
 "classMR_1_1Const__Quaternionf.html#a1f81f63ae8de752cdb7bbcdac8461786":[9,3,0,0,0,813,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX76 =
 "classMR_1_1Const__RefineParameters.html#a251ff7dc33690ea1218678027b4da3c4":[9,3,0,0,0,822,1],
 "classMR_1_1Const__RefineParameters.html#a56f1fac5913a2b60a0e62788ea5a1179":[9,3,0,0,0,822,11],
 "classMR_1_1Const__RefineParameters.html#a57e1608c03648847bcd51abb78291a53":[9,3,0,0,0,822,4],
-"classMR_1_1Const__RefineParameters.html#a7413703b903437cb5336da5cf0dc34c5":[9,3,0,0,0,822,14],
-"classMR_1_1Const__RefineParameters.html#a75ad4c0a71e76262a6f66ccfd25a7ce9":[9,3,0,0,0,822,0],
-"classMR_1_1Const__RefineParameters.html#a87303e022272f1b381acc0188f6adbf8":[9,3,0,0,0,822,5],
-"classMR_1_1Const__RefineParameters.html#a90309a3d6846f51eb4ef97fa8c9c3bed":[9,3,0,0,0,822,3],
-"classMR_1_1Const__RefineParameters.html#a93e6073e43c014f9f26265384f5bd3f2":[9,3,0,0,0,822,2],
-"classMR_1_1Const__RefineParameters.html#a94ed0597c92f72048eff7c2b20415e54":[9,3,0,0,0,822,12],
-"classMR_1_1Const__RefineParameters.html#aa93dda15926e3fd62b904125b4a255ce":[9,3,0,0,0,822,8],
-"classMR_1_1Const__RefineParameters.html#aa95a98ff2ff396e97314faa96c19d2b4":[9,3,0,0,0,822,15],
-"classMR_1_1Const__RefineParameters.html#abb1ba572601e43d451e7e1afaf339182":[9,3,0,0,0,822,10]
+"classMR_1_1Const__RefineParameters.html#a7413703b903437cb5336da5cf0dc34c5":[9,3,0,0,0,822,14]
 };

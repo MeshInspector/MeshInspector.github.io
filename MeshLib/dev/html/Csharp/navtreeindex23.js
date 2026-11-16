@@ -1,5 +1,13 @@
 var NAVTREEINDEX23 =
 {
+"classMR_1_1ConstBox__Color.html#ac0ad989be12f4e857b285bc1363cbbbf":[9,3,0,0,0,1117,42],
+"classMR_1_1ConstBox__Color.html#ad005aebebf6dc50a86fe7552b7997528":[9,3,0,0,0,1117,26],
+"classMR_1_1ConstBox__Color.html#ad97a6ac8cd0ee351c9f17c586a8ded30":[9,3,0,0,0,1117,3],
+"classMR_1_1ConstBox__Color.html#adb74d7632bd592e016ce5a8f838ab8d9":[9,3,0,0,0,1117,12],
+"classMR_1_1ConstBox__Color.html#ae62e7f02e2585eb0196960c9e6a9c58f":[9,3,0,0,0,1117,4],
+"classMR_1_1ConstBox__Color.html#af2d3faae131f74951e96e1f209a300de":[9,3,0,0,0,1117,7],
+"classMR_1_1ConstBox__EdgeId.html":[9,3,0,0,0,1118],
+"classMR_1_1ConstBox__EdgeId.html#a00b4c376c89313ec90235916552c4e7c":[9,3,0,0,0,1118,5],
 "classMR_1_1ConstBox__EdgeId.html#a1271f33637d481913d958b02725eb100":[9,3,0,0,0,1118,6],
 "classMR_1_1ConstBox__EdgeId.html#a16002ac78e387d1871a0f0a334d7066a":[9,3,0,0,0,1118,17],
 "classMR_1_1ConstBox__EdgeId.html#a1aadc99cee8e80ad0381d8c1e8ebbfdf":[9,3,0,0,0,1118,13],
@@ -241,13 +249,5 @@ var NAVTREEINDEX23 =
 "classMR_1_1ConstBox__Matrix2i.html#a98f083e8cd4d446fe63deba039175f96":[9,3,0,0,0,1126,5],
 "classMR_1_1ConstBox__Matrix2i.html#a98f8f441a724a1339406daf7ac144297":[9,3,0,0,0,1126,16],
 "classMR_1_1ConstBox__Matrix2i.html#a99a70db786223462098165a17e81411d":[9,3,0,0,0,1126,21],
-"classMR_1_1ConstBox__Matrix2i.html#a9a2c234f01c133c5394418b68e8ed86e":[9,3,0,0,0,1126,2],
-"classMR_1_1ConstBox__Matrix2i.html#aa2eabffb820eae2f9ebb8b6a6e6d91c0":[9,3,0,0,0,1126,17],
-"classMR_1_1ConstBox__Matrix2i.html#aa5843e808c25b2a897b71515b4206daf":[9,3,0,0,0,1126,15],
-"classMR_1_1ConstBox__Matrix2i.html#aa929085de36030d1f61a1a558f3b79b6":[9,3,0,0,0,1126,11],
-"classMR_1_1ConstBox__Matrix2i.html#aac72da57cc669fb70dc3cc3a4e37cd86":[9,3,0,0,0,1126,26],
-"classMR_1_1ConstBox__Matrix2i.html#ab104ff7eab305ee84801e1c0bebeed07":[9,3,0,0,0,1126,6],
-"classMR_1_1ConstBox__Matrix2i.html#ab17598c1feeb2ea6df445f4f973a2b7d":[9,3,0,0,0,1126,32],
-"classMR_1_1ConstBox__Matrix2i.html#ab57bf2f09f77dc9f35c75e5cf4b964f7":[9,3,0,0,0,1126,28],
-"classMR_1_1ConstBox__Matrix2i.html#abbd2d79b0638fbaaac3fba602c23b4f9":[9,3,0,0,0,1126,12]
+"classMR_1_1ConstBox__Matrix2i.html#a9a2c234f01c133c5394418b68e8ed86e":[9,3,0,0,0,1126,2]
 };

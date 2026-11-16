@@ -1,5 +1,13 @@
 var NAVTREEINDEX103 =
 {
+"MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571a7f2d79698464d85d61eef3259fe78bea":[9,2,2,0,0,0,0,1,336,2,5],
+"MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571ab5ab8141c9894c69d2d6de5775f32897":[9,2,2,0,0,0,0,1,336,2,4],
+"MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571abf87fdf5ca035202bb103aca9393b8d1":[9,2,2,0,0,0,0,1,336,2,0],
+"MRSignDetectionMode_8h_source.html":[9,2,2,0,0,0,0,1,336],
+"MRSolarRadiation_8h.html":[9,2,2,0,0,0,0,1,337],
+"MRSolarRadiation_8h.html#a0196e32e6f2146982c4aa46c32b2fd24":[9,2,2,0,0,0,0,1,337,17],
+"MRSolarRadiation_8h.html#a036dc80bf10949d81e50517828e6d453":[9,2,2,0,0,0,0,1,337,1],
+"MRSolarRadiation_8h.html#a1c46daf24f82fe0b9a4e94b416c2b180":[9,2,2,0,0,0,0,1,337,16],
 "MRSolarRadiation_8h.html#a4e2fb410c02328faaed31925303d4466":[9,2,2,0,0,0,0,1,337,13],
 "MRSolarRadiation_8h.html#a4fc100c0bf7ede6c34c388a18c3554b0":[9,2,2,0,0,0,0,1,337,3],
 "MRSolarRadiation_8h.html#a5d79f68f6ada312adfc6eeb1c777709d":[9,2,2,0,0,0,0,1,337,15],
@@ -241,13 +249,5 @@ var NAVTREEINDEX103 =
 "MRSphere_8h.html#a62bc3cb756201ab828a3e4157c4136bc":[9,2,2,0,0,0,0,1,339,79],
 "MRSphere_8h.html#a63d93d57b175d1c954cb7eff07eb864e":[9,2,2,0,0,0,0,1,339,61],
 "MRSphere_8h.html#a673905b3b1ccc364c9df6eec13192167":[9,2,2,0,0,0,0,1,339,11],
-"MRSphere_8h.html#a6b18633427e21665291ea1cbfeacbf8b":[9,2,2,0,0,0,0,1,339,42],
-"MRSphere_8h.html#a6d626f20dcf8f82e2abd0a6a05119c7e":[9,2,2,0,0,0,0,1,339,73],
-"MRSphere_8h.html#a6f677b830a2b3ee2f16c9c5c60a8f4db":[9,2,2,0,0,0,0,1,339,24],
-"MRSphere_8h.html#a707d6f5e09e8af6ead7349e882cfd80d":[9,2,2,0,0,0,0,1,339,66],
-"MRSphere_8h.html#a71af106d23bb2b5bac805e9d095abc49":[9,2,2,0,0,0,0,1,339,48],
-"MRSphere_8h.html#a782916f8477d479d6034d1c0aa962154":[9,2,2,0,0,0,0,1,339,12],
-"MRSphere_8h.html#a78a55afed48f7780f0fc6994e0fe2da6":[9,2,2,0,0,0,0,1,339,67],
-"MRSphere_8h.html#a7917863d172f5d3ecce94bebe339be48":[9,2,2,0,0,0,0,1,339,54],
-"MRSphere_8h.html#a84c1389a57cb05ba4dec647a19d579b0":[9,2,2,0,0,0,0,1,339,63]
+"MRSphere_8h.html#a6b18633427e21665291ea1cbfeacbf8b":[9,2,2,0,0,0,0,1,339,42]
 };

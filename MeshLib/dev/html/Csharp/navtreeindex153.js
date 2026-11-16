@@ -1,5 +1,13 @@
 var NAVTREEINDEX153 =
 {
+"classMR_1_1VoxelTraits__MRVoxelScalars.html#ae75c8419bec3e97209cf9f8b4c9e670f":[9,3,0,0,0,1955,1],
+"classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html":[9,3,0,0,0,1956],
+"classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html#a176c61b368c4952132255fbc15f630b1":[9,3,0,0,0,1956,0],
+"classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html#a6f472c856483590724fcad01ee5b393f":[9,3,0,0,0,1956,3],
+"classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html#a737abb72121d846d8e8f6b64e8780db9":[9,3,0,0,0,1956,2],
+"classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html#acd48f0c0ab641a96b2fe261043ed7272":[9,3,0,0,0,1956,1],
+"classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html":[9,3,0,0,0,1957],
+"classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#a23f9be322d1e18e9c01c9843c6f3ec6c":[9,3,0,0,0,1957,1],
 "classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#a2de1bb0020086fb7b59ce1c78ae590ef":[9,3,0,0,0,1957,2],
 "classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#a5111ee884965dfaba967706c86657a13":[9,3,0,0,0,1957,3],
 "classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#abca3a63a9b23c1967fc80b3483631af1":[9,3,0,0,0,1957,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX153 =
 "classMR_1_1VoxelsVolume__MRFloatGrid.html#a9be548bc83bd384a0da8174d04a5c50e":[9,3,0,0,0,1944,0],
 "classMR_1_1VoxelsVolume__MRFloatGrid.html#ad850cbc6601aa32c956f52baec699362":[9,3,0,0,0,1944,8],
 "classMR_1_1VoxelsVolume__MRFloatGrid.html#aff8a363fdf12469776a5580085626939":[9,3,0,0,0,1944,4],
-"classMR_1_1WatershedGraph.html":[9,3,0,0,0,1958],
-"classMR_1_1WatershedGraph.html#a07aec7776521671ca5286c8e878abc8c":[9,3,0,0,0,1958,0],
-"classMR_1_1WatershedGraph.html#a12b09913ed53c1b6ab8c54a92704dcda":[9,3,0,0,0,1958,3],
-"classMR_1_1WatershedGraph.html#a18232b2ebc524ead9718a678045ba03e":[9,3,0,0,0,1958,4],
-"classMR_1_1WatershedGraph.html#a1e2e6c34cf43ba93e15747e4705abe48":[9,3,0,0,0,1958,7],
-"classMR_1_1WatershedGraph.html#a23d6b3bc273652e246115fee49451b6a":[9,3,0,0,0,1958,8],
-"classMR_1_1WatershedGraph.html#a5b2c2401848105a2680e58cd003d954c":[9,3,0,0,0,1958,5],
-"classMR_1_1WatershedGraph.html#ab19b95643e86cffe573d2e090d07a208":[9,3,0,0,0,1958,2],
-"classMR_1_1WatershedGraph.html#aba4bc53a0ef298617141d5668abd953c":[9,3,0,0,0,1958,1]
+"classMR_1_1WatershedGraph.html":[9,3,0,0,0,1958]
 };

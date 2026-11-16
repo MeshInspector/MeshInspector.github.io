@@ -1,5 +1,13 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1Const__EdgePoint.html#a6e0565857d7fbe0feccfbdda8aa749e4":[9,3,0,0,0,440,22],
+"classMR_1_1Const__EdgePoint.html#a6e5f01339dd218a36a6ea68534dc81fb":[9,3,0,0,0,440,9],
+"classMR_1_1Const__EdgePoint.html#a77a4648229d2b1d26f7560fad9c823a7":[9,3,0,0,0,440,7],
+"classMR_1_1Const__EdgePoint.html#a82323f33dd299a1d6b7ce01d479e4358":[9,3,0,0,0,440,23],
+"classMR_1_1Const__EdgePoint.html#aa8b153b552e13ee1301ecc5a2a9591aa":[9,3,0,0,0,440,19],
+"classMR_1_1Const__EdgePoint.html#aac4ac1e98fd7fa90d129d59261451beb":[9,3,0,0,0,440,20],
+"classMR_1_1Const__EdgePoint.html#ac10c1e6d23b91a7d864fab57f32aca89":[9,3,0,0,0,440,18],
+"classMR_1_1Const__EdgePoint.html#ac15283cca41be20ec5492879caea104b":[9,3,0,0,0,440,21],
 "classMR_1_1Const__EdgePoint.html#addcdfde71c8b354d78c3b116a4e439a5":[9,3,0,0,0,440,1],
 "classMR_1_1Const__EdgePoint.html#adeebaa61f15be178b9983963bf6d8384":[9,3,0,0,0,440,6],
 "classMR_1_1Const__EdgePoint.html#ae1cddc19a2b936d8690160b8b2a9feec":[9,3,0,0,0,440,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString.html#a15d1ac1d0efdcee2b671a21eab170dcb":[9,3,0,0,0,454,6],
 "classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString.html#a7a1da4999cbbf0e3a463261dcd58c4df":[9,3,0,0,0,454,1],
 "classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString.html#a7fe35da236c2b78ce1126b02c15547b1":[9,3,0,0,0,454,0],
-"classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString.html#a88d402df09c56ff60b70a8d4c1a50593":[9,3,0,0,0,454,3],
-"classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString.html#a8dd90272d3ec3777515fe794c018d8eb":[9,3,0,0,0,454,7],
-"classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString.html#a96ba6a6d22bb8be8deba073931f63f16":[9,3,0,0,0,454,4],
-"classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString.html#ad595bc0f01a1582d9f62b18764e84d14":[9,3,0,0,0,454,2],
-"classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString.html#aed5ad9e6ed91110964645641c6f37f2f":[9,3,0,0,0,454,5],
-"classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString.html#afa34a236f805fcbb0aa8a8713210b162":[9,3,0,0,0,454,8],
-"classMR_1_1Const__ExtraFormatSettings.html":[9,3,0,0,0,455],
-"classMR_1_1Const__ExtraFormatSettings.html#a3a60fc41a3aa3363f27c0e510afd6346":[9,3,0,0,0,455,5],
-"classMR_1_1Const__ExtraFormatSettings.html#a3afa2cb986c3acce24878e1973c3e6af":[9,3,0,0,0,455,1]
+"classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString.html#a88d402df09c56ff60b70a8d4c1a50593":[9,3,0,0,0,454,3]
 };

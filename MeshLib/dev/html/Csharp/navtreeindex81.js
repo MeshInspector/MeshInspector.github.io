@@ -1,5 +1,13 @@
 var NAVTREEINDEX81 =
 {
+"classMR_1_1Const__SliceInfoBase.html#a69931aaf953ef6bbdb95cb62e9bbfcb7":[9,3,0,0,0,870,17],
+"classMR_1_1Const__SliceInfoBase.html#a6adf2d473f6a01c162a0bed7dfd6fd42":[9,3,0,0,0,870,13],
+"classMR_1_1Const__SliceInfoBase.html#a934b0fe2ce0cebd184a29ff7efea5353":[9,3,0,0,0,870,15],
+"classMR_1_1Const__SliceInfoBase.html#a9612bc5562dd801f26ce88689a1f08fe":[9,3,0,0,0,870,18],
+"classMR_1_1Const__SliceInfoBase.html#ab06be10ab40f8452c132a80b02a0ed01":[9,3,0,0,0,870,12],
+"classMR_1_1Const__SliceInfoBase.html#ac318aa1e1808563782922c6bbfdb9b28":[9,3,0,0,0,870,19],
+"classMR_1_1Const__SliceInfoBase.html#ac82f79ecc06d7e8f759de00a78ffb84e":[9,3,0,0,0,870,11],
+"classMR_1_1Const__SliceInfoBase.html#ad5ace6773cddcaec9decc8e5633b40f9":[9,3,0,0,0,870,1],
 "classMR_1_1Const__SliceInfoBase.html#adc17eeabbb4981d0a5be17ac9894d31b":[9,3,0,0,0,870,4],
 "classMR_1_1Const__SliceInfoBase.html#af116a345c847596e710745a369da6c2a":[9,3,0,0,0,870,10],
 "classMR_1_1Const__SliceInfoBase.html#af6c4e50093bd64d38e772125b8771506":[9,3,0,0,0,870,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX81 =
 "classMR_1_1Const__SphereObject.html#aefda9fc0fb5f43157ee7564a060822ad":[9,3,0,0,0,880,61],
 "classMR_1_1Const__SphereObject.html#af47a5fb641ebe4ced920ec30f811cf73":[9,3,0,0,0,880,8],
 "classMR_1_1Const__SphereObject.html#af4af71f1581ce7bfd731dcdd8e87c8cd":[9,3,0,0,0,880,24],
-"classMR_1_1Const__SphereObject.html#af55f757e6b6feffa9eff8c0426ce5c1c":[9,3,0,0,0,880,26],
-"classMR_1_1Const__SphereObject.html#af59ae526374557817cb0177ce5b2a1e1":[9,3,0,0,0,880,42],
-"classMR_1_1Const__SphereObject.html#af8ee6c8907d241cef17c732c63f0ca1a":[9,3,0,0,0,880,70],
-"classMR_1_1Const__SphereObject.html#af9d9b0cc0198d438abeb6c8dd351a9e6":[9,3,0,0,0,880,72],
-"classMR_1_1Const__SphereObject.html#afe1b71d0339f26edfd849e6f1b75b8a4":[9,3,0,0,0,880,28],
-"classMR_1_1Const__SphereObject.html#afe97931a6f0e7cefa70ee838fcb41e37":[9,3,0,0,0,880,57],
-"classMR_1_1Const__SphereParams.html":[9,3,0,0,0,881],
-"classMR_1_1Const__SphereParams.html#a0e33c4121c85e05664103c085fff9f59":[9,3,0,0,0,881,6],
-"classMR_1_1Const__SphereParams.html#a2b7cfffc19bb8e3078d0e55cc9503052":[9,3,0,0,0,881,1]
+"classMR_1_1Const__SphereObject.html#af55f757e6b6feffa9eff8c0426ce5c1c":[9,3,0,0,0,880,26]
 };

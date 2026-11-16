@@ -1,5 +1,13 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1Const__BMap__MRObjId__MRObjId.html#af862576ffd7b5fa96ed076edf0646b58":[9,3,0,0,0,283,4],
+"classMR_1_1Const__BMap__MRPixelId__MRPixelId.html":[9,3,0,0,0,284],
+"classMR_1_1Const__BMap__MRPixelId__MRPixelId.html#a3abaabd7530d9ec0091c1f2ed7c7be22":[9,3,0,0,0,284,1],
+"classMR_1_1Const__BMap__MRPixelId__MRPixelId.html#a4811f146e328179b96c0e0f3075d62eb":[9,3,0,0,0,284,0],
+"classMR_1_1Const__BMap__MRPixelId__MRPixelId.html#a6ee9e295b9c53f647d0745f0c2ee57b8":[9,3,0,0,0,284,7],
+"classMR_1_1Const__BMap__MRPixelId__MRPixelId.html#a70ac98fed9c3de29fc185e5bcec381ca":[9,3,0,0,0,284,5],
+"classMR_1_1Const__BMap__MRPixelId__MRPixelId.html#a8ec5bbaece53dd244d9adbdce37bf9f4":[9,3,0,0,0,284,3],
+"classMR_1_1Const__BMap__MRPixelId__MRPixelId.html#a91b8c2610c7c1cec82e09d4687ecd268":[9,3,0,0,0,284,2],
 "classMR_1_1Const__BMap__MRPixelId__MRPixelId.html#abdf70b00a3ad38ad8b5723cd824a26f5":[9,3,0,0,0,284,4],
 "classMR_1_1Const__BMap__MRPixelId__MRPixelId.html#ac4ddc283d53b3e2080e6fe3ea9366a35":[9,3,0,0,0,284,6],
 "classMR_1_1Const__BMap__MRRegionId__MRRegionId.html":[9,3,0,0,0,285],
@@ -241,13 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1Const__BasicUiRenderTask_1_1Const__BackwardPassParams.html#aa1a0d82deb618f9ce0a84a2ce4ea545d":[9,3,0,0,0,270,1,1],
 "classMR_1_1Const__BasicUiRenderTask_1_1Const__BackwardPassParams.html#afcd24552ac8ebccd8a49d1ac0b3e03d3":[9,3,0,0,0,270,1,8],
 "classMR_1_1Const__BasicUiRenderTask_1_1Const__BackwardPassParams.html#afd6962a77d489041772f4b0ce958604e":[9,3,0,0,0,270,1,5],
-"classMR_1_1Const__BasinVolumeCalculator.html":[9,3,0,0,0,271],
-"classMR_1_1Const__BasinVolumeCalculator.html#a287c31c46f4b1a08327ad0d53da78752":[9,3,0,0,0,271,0],
-"classMR_1_1Const__BasinVolumeCalculator.html#a664f5f42773f98fc01074c7c7417b250":[9,3,0,0,0,271,5],
-"classMR_1_1Const__BasinVolumeCalculator.html#a69fecfa89a4b6c80ef0c68b9956037bc":[9,3,0,0,0,271,2],
-"classMR_1_1Const__BasinVolumeCalculator.html#a78761e20579d59ce37424c20e08def74":[9,3,0,0,0,271,3],
-"classMR_1_1Const__BasinVolumeCalculator.html#a8861e560bb9af2e90cf668ef6c993e3d":[9,3,0,0,0,271,1],
-"classMR_1_1Const__BasinVolumeCalculator.html#acfc0a4a77c44fcb7d1db1e000d34a02d":[9,3,0,0,0,271,4],
-"classMR_1_1Const__BendContoursAlongCurveParams.html":[9,3,0,0,0,272],
-"classMR_1_1Const__BendContoursAlongCurveParams.html#a05413e88f1fc53477067a8e95ec40a24":[9,3,0,0,0,272,10]
+"classMR_1_1Const__BasinVolumeCalculator.html":[9,3,0,0,0,271]
 };

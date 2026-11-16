@@ -1,5 +1,13 @@
 var NAVTREEINDEX45 =
 {
+"structmeshlib_1_1Dipole.html#ae89d88128a26d4a64c39502e27691262":[9,5,0,0,0,275,5],
+"structmeshlib_1_1Dipole.html#ae89d88128a26d4a64c39502e27691262":[9,5,1,0,0,262,5],
+"structmeshlib_1_1Dipole.html#aeaaa633aa0f25993d6e9f86796cfa925":[9,5,0,0,0,275,2],
+"structmeshlib_1_1Dipole.html#aeaaa633aa0f25993d6e9f86796cfa925":[9,5,1,0,0,262,2],
+"structmeshlib_1_1Dipoles.html":[9,5,0,0,0,276],
+"structmeshlib_1_1Dipoles.html":[9,5,1,0,0,263],
+"structmeshlib_1_1Dipoles.html#a0647407b1388d27b59e2f5ad5633e189":[9,5,0,0,0,276,18],
+"structmeshlib_1_1Dipoles.html#a0647407b1388d27b59e2f5ad5633e189":[9,5,1,0,0,263,18],
 "structmeshlib_1_1Dipoles.html#a10fcf50abb25b6b6d28fce6080cd8f79":[9,5,0,0,0,276,3],
 "structmeshlib_1_1Dipoles.html#a10fcf50abb25b6b6d28fce6080cd8f79":[9,5,1,0,0,263,3],
 "structmeshlib_1_1Dipoles.html#a22944709015159560aa08adb05b50f40":[9,5,0,0,0,276,13],
@@ -241,13 +249,5 @@ var NAVTREEINDEX45 =
 "structmeshlib_1_1DistanceMap.html#ad0938e00a70835fc8256beff4d59fd9d":[9,5,0,0,0,281,12],
 "structmeshlib_1_1DistanceMap.html#ad0938e00a70835fc8256beff4d59fd9d":[9,5,1,0,0,268,12],
 "structmeshlib_1_1DistanceMap.html#ad3d8b197e18ce70e30b59293cdd5ad85":[9,5,0,0,0,281,23],
-"structmeshlib_1_1DistanceMap.html#ad3d8b197e18ce70e30b59293cdd5ad85":[9,5,1,0,0,268,23],
-"structmeshlib_1_1DistanceMap.html#ad5e63b23135522058c407211b21c63a2":[9,5,0,0,0,281,46],
-"structmeshlib_1_1DistanceMap.html#ad5e63b23135522058c407211b21c63a2":[9,5,1,0,0,268,46],
-"structmeshlib_1_1DistanceMap.html#adde3ba20b7d922134c380daa922ceb87":[9,5,0,0,0,281,10],
-"structmeshlib_1_1DistanceMap.html#adde3ba20b7d922134c380daa922ceb87":[9,5,1,0,0,268,10],
-"structmeshlib_1_1DistanceMap.html#ae1d97b8698da476e97ad5eb5d9147a3a":[9,5,0,0,0,281,17],
-"structmeshlib_1_1DistanceMap.html#ae1d97b8698da476e97ad5eb5d9147a3a":[9,5,1,0,0,268,17],
-"structmeshlib_1_1DistanceMap.html#ae1ea60739554412892d28bbe53ce5788":[9,5,0,0,0,281,44],
-"structmeshlib_1_1DistanceMap.html#ae1ea60739554412892d28bbe53ce5788":[9,5,1,0,0,268,44]
+"structmeshlib_1_1DistanceMap.html#ad3d8b197e18ce70e30b59293cdd5ad85":[9,5,1,0,0,268,23]
 };

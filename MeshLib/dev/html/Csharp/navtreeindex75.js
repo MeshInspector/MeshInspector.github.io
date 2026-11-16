@@ -1,5 +1,13 @@
 var NAVTREEINDEX75 =
 {
+"classMR_1_1Const__Polynomial__Float__2.html":[9,3,0,0,0,793],
+"classMR_1_1Const__Polynomial__Float__2.html#a052e6c1974d7e18a4f6b4e63412ccb78":[9,3,0,0,0,793,6],
+"classMR_1_1Const__Polynomial__Float__2.html#a31b98c688144594b6a64660c6b28c6af":[9,3,0,0,0,793,7],
+"classMR_1_1Const__Polynomial__Float__2.html#a3827e636c91ab9fcebcdaf42957e25ed":[9,3,0,0,0,793,5],
+"classMR_1_1Const__Polynomial__Float__2.html#a40354f039b2dc7e4621b4b1b2fb75d43":[9,3,0,0,0,793,2],
+"classMR_1_1Const__Polynomial__Float__2.html#a68e57dbd9d0d8e7ed44bcdb1242d016c":[9,3,0,0,0,793,10],
+"classMR_1_1Const__Polynomial__Float__2.html#a71b58d04eb624787600340439f5c8606":[9,3,0,0,0,793,8],
+"classMR_1_1Const__Polynomial__Float__2.html#a7d85936e146ae0fae942ec9b434b972b":[9,3,0,0,0,793,3],
 "classMR_1_1Const__Polynomial__Float__2.html#ae0985315c87957fb2c1efe589fdd2231":[9,3,0,0,0,793,1],
 "classMR_1_1Const__Polynomial__Float__2.html#ae94c11b00d7cb095fd0c8895c48d6198":[9,3,0,0,0,793,9],
 "classMR_1_1Const__Polynomial__Float__2.html#af02ca8ea379e6f68b1d62dc3a07886fa":[9,3,0,0,0,793,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX75 =
 "classMR_1_1Const__Quaterniond.html#ada57a92d810581aa10b44e1ac0ad774a":[9,3,0,0,0,812,4],
 "classMR_1_1Const__Quaterniond.html#adb54d24ed731a1a24a0f6b68ac4db059":[9,3,0,0,0,812,20],
 "classMR_1_1Const__Quaterniond.html#adc7167eaeed2283b688e354929b134b2":[9,3,0,0,0,812,31],
-"classMR_1_1Const__Quaterniond.html#ae62cdee3b22df8457f7256b62e62f851":[9,3,0,0,0,812,16],
-"classMR_1_1Const__Quaterniond.html#aeb2315682ca6f39d58f0596615669015":[9,3,0,0,0,812,28],
-"classMR_1_1Const__Quaterniond.html#af5a49b91f14e35faacafdd4bce822009":[9,3,0,0,0,812,15],
-"classMR_1_1Const__Quaterniond.html#afa2595453636ab4df527a4056943a350":[9,3,0,0,0,812,26],
-"classMR_1_1Const__Quaternionf.html":[9,3,0,0,0,813],
-"classMR_1_1Const__Quaternionf.html#a02a7729a186bb819897ed10f504123ac":[9,3,0,0,0,813,26],
-"classMR_1_1Const__Quaternionf.html#a061bc96186e1472db072895438e6f005":[9,3,0,0,0,813,18],
-"classMR_1_1Const__Quaternionf.html#a0bb33f1a5850af4f68e115f4b407eac9":[9,3,0,0,0,813,4],
-"classMR_1_1Const__Quaternionf.html#a11cde6c7e9440c25d1d8bb5ee79f77bf":[9,3,0,0,0,813,3]
+"classMR_1_1Const__Quaterniond.html#ae62cdee3b22df8457f7256b62e62f851":[9,3,0,0,0,812,16]
 };

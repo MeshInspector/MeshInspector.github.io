@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1AllLocalTriangulations.html":[9,0,0,19,336],
+"structMR_1_1Allocator.html":[9,0,0,19,128],
+"structMR_1_1Allocator_1_1rebind.html":[9,0,0,19,129],
+"structMR_1_1AlphaShapeData.html":[9,0,0,19,130],
+"structMR_1_1AlphaShapeNei.html":[9,0,0,19,132],
+"structMR_1_1AlphaShapeStats.html":[9,0,0,19,131],
+"structMR_1_1AncillaryLabel.html":[9,0,0,19,584],
+"structMR_1_1AncillaryLines.html":[9,0,0,19,586],
 "structMR_1_1AncillaryMesh.html":[9,0,0,19,587],
 "structMR_1_1AncillaryPlane.html":[9,0,0,19,588],
 "structMR_1_1AncillaryPoints.html":[9,0,0,19,589],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1DecimateSettings.html#a7d69e19f2609b7330c6ac5d17a9ebfff":[9,0,0,10,0,19],
 "structMR_1_1DecimateSettings.html#a83cf18a566f0fa10cc6421ddcc2487e6":[9,0,0,10,0,22],
 "structMR_1_1DecimateSettings.html#a8a682d43b723098485a748e97bd12111":[9,0,0,10,0,33],
-"structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4":[9,0,0,10,0,28],
-"structMR_1_1DecimateSettings.html#a9359f9da0b131c164d942b1361bd9644":[9,0,0,10,0,24],
-"structMR_1_1DecimateSettings.html#aa54526c521844dcca8dc5aa91e3628de":[9,0,0,10,0,23],
-"structMR_1_1DecimateSettings.html#ab8a313e9caff73dd179f03a9c7b80baa":[9,0,0,10,0,26],
-"structMR_1_1DecimateSettings.html#ab97888b6d597260226ade61b4e542ef0":[9,0,0,10,0,12],
-"structMR_1_1DecimateSettings.html#abb741e47d580e75e37b13adcad8a362e":[9,0,0,10,0,10],
-"structMR_1_1DecimateSettings.html#abc44005d50714fe75f875a25f3a59f66":[9,0,0,10,0,2],
-"structMR_1_1DecimateSettings.html#ac0e97c22838e162343661fd588f7a326":[9,0,0,10,0,29],
-"structMR_1_1DecimateSettings.html#ac4cfcdf2807788f5914a0640372d4a07":[9,0,0,10,0,17]
+"structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4":[9,0,0,10,0,28]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX168 =
 {
+"structmeshlib_1_1VertBitSet.html#afd3721bd7c0c21eb5aad664d6566d1a8":[9,5,1,0,0,1650,32],
+"structmeshlib_1_1VertBitSet.html#afd8681d0c9c2dce502e41c208dc8b868":[9,5,0,0,0,1663,59],
+"structmeshlib_1_1VertBitSet.html#afd8681d0c9c2dce502e41c208dc8b868":[9,5,1,0,0,1650,59],
+"structmeshlib_1_1VertBitSet.html#aff272ad6f9e5669faf88fb3d6f79985d":[9,5,0,0,0,1663,58],
+"structmeshlib_1_1VertBitSet.html#aff272ad6f9e5669faf88fb3d6f79985d":[9,5,1,0,0,1650,58],
+"structmeshlib_1_1VertColorMapAggregator.html":[9,5,0,0,0,1665],
+"structmeshlib_1_1VertColorMapAggregator.html":[9,5,1,0,0,1652],
+"structmeshlib_1_1VertColorMapAggregator.html#a10cae9d58a0bf6e4096bdf051441a164":[9,5,0,0,0,1665,4],
 "structmeshlib_1_1VertColorMapAggregator.html#a10cae9d58a0bf6e4096bdf051441a164":[9,5,1,0,0,1652,4],
 "structmeshlib_1_1VertColorMapAggregator.html#a4bc498214927b9455a5d60251b12b5eb":[9,5,0,0,0,1665,0],
 "structmeshlib_1_1VertColorMapAggregator.html#a4bc498214927b9455a5d60251b12b5eb":[9,5,1,0,0,1652,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX168 =
 "structmeshlib_1_1VertCoords2.html#acfecdf9378bbf3b61fafb84b0ed3e6b0":[9,5,1,0,0,1655,13],
 "structmeshlib_1_1VertCoords2.html#ada1816f77e33f2628e0f44b027413edb":[9,5,0,0,0,1668,22],
 "structmeshlib_1_1VertCoords2.html#ada1816f77e33f2628e0f44b027413edb":[9,5,1,0,0,1655,22],
-"structmeshlib_1_1VertCoords2.html#ade5cfa6aa8e6fe3cc3239e53576427ab":[9,5,0,0,0,1668,35],
-"structmeshlib_1_1VertCoords2.html#ade5cfa6aa8e6fe3cc3239e53576427ab":[9,5,1,0,0,1655,35],
-"structmeshlib_1_1VertCoords2.html#ae45cabbf5aa4ffbb2dcd21808e86f1de":[9,5,0,0,0,1668,26],
-"structmeshlib_1_1VertCoords2.html#ae45cabbf5aa4ffbb2dcd21808e86f1de":[9,5,1,0,0,1655,26],
-"structmeshlib_1_1VertCoords2.html#aea18e4f189ff9e865be1eb2b3bc75de4":[9,5,0,0,0,1668,15],
-"structmeshlib_1_1VertCoords2.html#aea18e4f189ff9e865be1eb2b3bc75de4":[9,5,1,0,0,1655,15],
-"structmeshlib_1_1VertCoords2.html#aecccfdf1f5529a124119384478faaf81":[9,5,0,0,0,1668,37],
-"structmeshlib_1_1VertCoords2.html#aecccfdf1f5529a124119384478faaf81":[9,5,1,0,0,1655,37],
-"structmeshlib_1_1VertCoords2.html#af2a8ed146b9c71f211e5b5efc3a3c6c4":[9,5,0,0,0,1668,12]
+"structmeshlib_1_1VertCoords2.html#ade5cfa6aa8e6fe3cc3239e53576427ab":[9,5,0,0,0,1668,35]
 };

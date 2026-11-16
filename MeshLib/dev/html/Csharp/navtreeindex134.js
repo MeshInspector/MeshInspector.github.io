@@ -1,5 +1,13 @@
 var NAVTREEINDEX134 =
 {
+"classMR_1_1RingIterator__MRNextEdgeSameLeft.html#aafbf5c9d22cd444baf860cea8f67a6c8":[9,3,0,0,0,1676,2],
+"classMR_1_1RingIterator__MRNextEdgeSameLeft.html#aba8c28ef75f1e2fc3dfe61bffae7fe77":[9,3,0,0,0,1676,3],
+"classMR_1_1RingIterator__MRNextEdgeSameLeft.html#af03db6ae8bb39817b6151302b516541f":[9,3,0,0,0,1676,5],
+"classMR_1_1RingIterator__MRNextEdgeSameOrigin.html":[9,3,0,0,0,1677],
+"classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#a716d4f24320c9194175f20b6460f25c9":[9,3,0,0,0,1677,3],
+"classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#a8c7f19c15a31ea47dd67f289069b35fc":[9,3,0,0,0,1677,5],
+"classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#aad16c4276c518bfe6f4681f87159282c":[9,3,0,0,0,1677,1],
+"classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#adca2fe4d8e9790d49d50d74009ed20e3":[9,3,0,0,0,1677,2],
 "classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#ade31e5d5f76c3c7d105c8a8e61b36695":[9,3,0,0,0,1677,0],
 "classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#af06f78952dca9d4c4ace87a437338107":[9,3,0,0,0,1677,4],
 "classMR_1_1SaveSettings.html":[9,3,0,0,0,1678],
@@ -241,13 +249,5 @@ var NAVTREEINDEX134 =
 "classMR_1_1SetBitIteratorT__MRGraphVertBitSet.html#afd769d9adb647fcba1ced39e99afec0b":[9,3,0,0,0,1693,2],
 "classMR_1_1SetBitIteratorT__MRNodeBitSet.html":[9,3,0,0,0,1694],
 "classMR_1_1SetBitIteratorT__MRNodeBitSet.html#a08fdd857382bbb23f014db16f800c7a9":[9,3,0,0,0,1694,2],
-"classMR_1_1SetBitIteratorT__MRNodeBitSet.html#a32bfc0d34b0365b7fbd7ab11f034b63b":[9,3,0,0,0,1694,5],
-"classMR_1_1SetBitIteratorT__MRNodeBitSet.html#a4a925c80ae7c5329e0472c573d9898bd":[9,3,0,0,0,1694,1],
-"classMR_1_1SetBitIteratorT__MRNodeBitSet.html#aa2d564999c08612873bcd40847c81999":[9,3,0,0,0,1694,3],
-"classMR_1_1SetBitIteratorT__MRNodeBitSet.html#ac7e18802e59dd05caa9239cdcc26c5e4":[9,3,0,0,0,1694,6],
-"classMR_1_1SetBitIteratorT__MRNodeBitSet.html#ad49affbf1f89dbeb55af197f5c155e6e":[9,3,0,0,0,1694,0],
-"classMR_1_1SetBitIteratorT__MRNodeBitSet.html#ad8d6e01f8392b13d219e90555974b410":[9,3,0,0,0,1694,4],
-"classMR_1_1SetBitIteratorT__MRObjBitSet.html":[9,3,0,0,0,1695],
-"classMR_1_1SetBitIteratorT__MRObjBitSet.html#a10be95cfdb66ea13723475c76ab34d54":[9,3,0,0,0,1695,4],
-"classMR_1_1SetBitIteratorT__MRObjBitSet.html#a2c0bb2a85a78267fc691eee1181e6c71":[9,3,0,0,0,1695,3]
+"classMR_1_1SetBitIteratorT__MRNodeBitSet.html#a32bfc0d34b0365b7fbd7ab11f034b63b":[9,3,0,0,0,1694,5]
 };

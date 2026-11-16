@@ -1,5 +1,13 @@
 var NAVTREEINDEX133 =
 {
+"classMR_1_1RasterInfo.html#a8ccfe20cc504469f00c189e1f3eb6377":[9,3,0,0,0,1656,3],
+"classMR_1_1RasterInfo.html#abd694d41e92ddf57c5d75523315e503a":[9,3,0,0,0,1656,0],
+"classMR_1_1RasterInfo.html#addaf64ab9546ef54e1b3e1604f2f5c66":[9,3,0,0,0,1656,2],
+"classMR_1_1RasterInfo.html#aec3801d57b55ce3ff92b63b44449076d":[9,3,0,0,0,1656,4],
+"classMR_1_1RasterLoad.html":[9,3,0,0,0,1657],
+"classMR_1_1RasterLoad.html#a0d7f9a0a540662f6edbcda4c5630cbcb":[9,3,0,0,0,1657,5],
+"classMR_1_1RasterLoad.html#a0ff5e685a72bcd36d617902b4002376c":[9,3,0,0,0,1657,3],
+"classMR_1_1RasterLoad.html#a3404721ea149fdff48a6a04bfad3e97c":[9,3,0,0,0,1657,2],
 "classMR_1_1RasterLoad.html#ad3a841c5d719fb952f3c0772b1946e52":[9,3,0,0,0,1657,4],
 "classMR_1_1RasterLoadSettings.html":[9,3,0,0,0,1658],
 "classMR_1_1RasterLoadSettings.html#a4de8b2465057f4538429c56ceff8ef0e":[9,3,0,0,0,1658,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX133 =
 "classMR_1_1RingIterator__MRNextEdgeSameLeft.html":[9,3,0,0,0,1676],
 "classMR_1_1RingIterator__MRNextEdgeSameLeft.html#a52162cb83ff6dbc36867fe908b395e71":[9,3,0,0,0,1676,1],
 "classMR_1_1RingIterator__MRNextEdgeSameLeft.html#a911a32456b2233ff9eef353741724118":[9,3,0,0,0,1676,0],
-"classMR_1_1RingIterator__MRNextEdgeSameLeft.html#a9bafc467c0c98fd3a782a97fac937b71":[9,3,0,0,0,1676,4],
-"classMR_1_1RingIterator__MRNextEdgeSameLeft.html#aafbf5c9d22cd444baf860cea8f67a6c8":[9,3,0,0,0,1676,2],
-"classMR_1_1RingIterator__MRNextEdgeSameLeft.html#aba8c28ef75f1e2fc3dfe61bffae7fe77":[9,3,0,0,0,1676,3],
-"classMR_1_1RingIterator__MRNextEdgeSameLeft.html#af03db6ae8bb39817b6151302b516541f":[9,3,0,0,0,1676,5],
-"classMR_1_1RingIterator__MRNextEdgeSameOrigin.html":[9,3,0,0,0,1677],
-"classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#a716d4f24320c9194175f20b6460f25c9":[9,3,0,0,0,1677,3],
-"classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#a8c7f19c15a31ea47dd67f289069b35fc":[9,3,0,0,0,1677,5],
-"classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#aad16c4276c518bfe6f4681f87159282c":[9,3,0,0,0,1677,1],
-"classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#adca2fe4d8e9790d49d50d74009ed20e3":[9,3,0,0,0,1677,2]
+"classMR_1_1RingIterator__MRNextEdgeSameLeft.html#a9bafc467c0c98fd3a782a97fac937b71":[9,3,0,0,0,1676,4]
 };

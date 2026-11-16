@@ -1,5 +1,13 @@
 var NAVTREEINDEX194 =
 {
+"structMR__UndirectedEdgeId.html":[9,2,1,0,57],
+"structMR__UndirectedEdgeId.html#a79953f7d426f4f58d72f4f77735e8089":[9,2,1,0,57,0],
+"structMR__Vector2b.html":[9,2,1,0,58],
+"structMR__Vector2b.html#a6fba1839b67ce573f99bbaebe5c7c485":[9,2,1,0,58,1],
+"structMR__Vector2b.html#add4728b5043b2b5c11c8f89a39eb5f01":[9,2,1,0,58,0],
+"structMR__Vector2d.html":[9,2,1,0,59],
+"structMR__Vector2d.html#aaa48714f9b9a1f00bc92b559bb7b9af0":[9,2,1,0,59,1],
+"structMR__Vector2d.html#ad4f5d24725a60dd90103404b5784ca9e":[9,2,1,0,59,0],
 "structMR__Vector2f.html":[9,2,1,0,60],
 "structMR__Vector2f.html#a676c8a51f05e806f54db8ba5bdffb1d8":[9,2,1,0,60,0],
 "structMR__Vector2f.html#a814017ad71d1f72b53d48afbd8e20fcd":[9,2,1,0,60,1],

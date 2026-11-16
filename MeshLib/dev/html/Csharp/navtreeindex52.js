@@ -1,5 +1,13 @@
 var NAVTREEINDEX52 =
 {
+"classMR_1_1Const__ImproveSamplingSettings.html#a52d9d74cecf9d5dbb0cf1ea9d8c6495a":[9,3,0,0,0,526,19],
+"classMR_1_1Const__ImproveSamplingSettings.html#a58724c74cb1129156b0a31c4bba90f95":[9,3,0,0,0,526,7],
+"classMR_1_1Const__ImproveSamplingSettings.html#a59ff9ded7ba43b6322b98147b4687137":[9,3,0,0,0,526,4],
+"classMR_1_1Const__ImproveSamplingSettings.html#a6f3dc8eb01adfe3a485e0231e2a0fb5a":[9,3,0,0,0,526,9],
+"classMR_1_1Const__ImproveSamplingSettings.html#a7466763b29259233f5f62e2b6629512b":[9,3,0,0,0,526,2],
+"classMR_1_1Const__ImproveSamplingSettings.html#a81361d71dcf839dd6f033a5e851a7baa":[9,3,0,0,0,526,17],
+"classMR_1_1Const__ImproveSamplingSettings.html#a830d5795104bbc9531e1ac72cc1de404":[9,3,0,0,0,526,3],
+"classMR_1_1Const__ImproveSamplingSettings.html#a85eacbc740e6b63503e475a6bc155127":[9,3,0,0,0,526,15],
 "classMR_1_1Const__ImproveSamplingSettings.html#ab5707cfdd893961c5e28550f1dba2459":[9,3,0,0,0,526,16],
 "classMR_1_1Const__ImproveSamplingSettings.html#ac2d3b32a8874cbdc88658fe074150ec1":[9,3,0,0,0,526,18],
 "classMR_1_1Const__ImproveSamplingSettings.html#ac4d2a7d9e075c8d2e1ee8c63120bf802":[9,3,0,0,0,526,11],
@@ -241,13 +249,5 @@ var NAVTREEINDEX52 =
 "classMR_1_1Const__IsVisualizeMaskEnum__MRMeshVisualizePropertyType.html#a458d26d9b7959c7727872f9e15a4152d":[9,3,0,0,0,551,0],
 "classMR_1_1Const__IsVisualizeMaskEnum__MRMeshVisualizePropertyType.html#ab0853515b9ee562347c9843a2e849e89":[9,3,0,0,0,551,3],
 "classMR_1_1Const__IsVisualizeMaskEnum__MRMeshVisualizePropertyType.html#aefd97e25f08c50a49519bf9eb558e15e":[9,3,0,0,0,551,1],
-"classMR_1_1Const__IsVisualizeMaskEnum__MRPointMeasurementVisualizePropertyType.html":[9,3,0,0,0,552],
-"classMR_1_1Const__IsVisualizeMaskEnum__MRPointMeasurementVisualizePropertyType.html#a50aeae8acedaa2b53ae066edd2c35ca9":[9,3,0,0,0,552,1],
-"classMR_1_1Const__IsVisualizeMaskEnum__MRPointMeasurementVisualizePropertyType.html#a9687bd284a05060de933267d180f1a8c":[9,3,0,0,0,552,0],
-"classMR_1_1Const__IsVisualizeMaskEnum__MRPointMeasurementVisualizePropertyType.html#aa64ab34ff27f1f58b1eece7456e9b910":[9,3,0,0,0,552,4],
-"classMR_1_1Const__IsVisualizeMaskEnum__MRPointMeasurementVisualizePropertyType.html#aa71cf9b3b98833aa05f6e509bc495399":[9,3,0,0,0,552,2],
-"classMR_1_1Const__IsVisualizeMaskEnum__MRPointMeasurementVisualizePropertyType.html#ac8a637df771a95917a3694870bb18f13":[9,3,0,0,0,552,3],
-"classMR_1_1Const__IsVisualizeMaskEnum__MRPointsVisualizePropertyType.html":[9,3,0,0,0,553],
-"classMR_1_1Const__IsVisualizeMaskEnum__MRPointsVisualizePropertyType.html#a3f3c9f7a4721654483720f50e80ce6c9":[9,3,0,0,0,553,1],
-"classMR_1_1Const__IsVisualizeMaskEnum__MRPointsVisualizePropertyType.html#aa8701d3348a502830c83967f9997e1c8":[9,3,0,0,0,553,2]
+"classMR_1_1Const__IsVisualizeMaskEnum__MRPointMeasurementVisualizePropertyType.html":[9,3,0,0,0,552]
 };

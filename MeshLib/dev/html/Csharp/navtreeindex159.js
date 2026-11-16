@@ -1,5 +1,13 @@
 var NAVTREEINDEX159 =
 {
+"structMR_1_1Color.html#a155493ae061173a85406ecefa16238bd":[9,3,0,0,0,217,73],
+"structMR_1_1Color.html#a1c6d22d0010777103e42c9ee455a4c50":[9,3,0,0,0,217,57],
+"structMR_1_1Color.html#a1da3fb32127a691c31d7b3ca4e57d8a7":[9,3,0,0,0,217,6],
+"structMR_1_1Color.html#a1e91f34c36d0116604c7a9df4bc1e76b":[9,3,0,0,0,217,10],
+"structMR_1_1Color.html#a26ea673e6d0bc674d76dad8e659eb673":[9,3,0,0,0,217,42],
+"structMR_1_1Color.html#a26eec8534e3f5ba71758465138d8d2ae":[9,3,0,0,0,217,22],
+"structMR_1_1Color.html#a292789dcaa265b0e1ce14284ad722d14":[9,3,0,0,0,217,24],
+"structMR_1_1Color.html#a307b4d651534d3f04bb7650e779cb856":[9,3,0,0,0,217,8],
 "structMR_1_1Color.html#a3a4dcb18596d43cf10bf75e59ac4462e":[9,3,0,0,0,217,47],
 "structMR_1_1Color.html#a3a72cd682b24ab64914170da42ff37f2":[9,3,0,0,0,217,43],
 "structMR_1_1Color.html#a3b603684c6c781f45e44eecad67aca98":[9,3,0,0,0,217,70],
@@ -241,13 +249,5 @@ var NAVTREEINDEX159 =
 "structMR_1_1LocaleDomainId.html#a3983f354bd9fc9c7ab7833c428fb274b":[9,3,0,0,0,1383,2],
 "structMR_1_1LocaleDomainId.html#a4c7fb9ce2eda8db9c0072739df3cf830":[9,3,0,0,0,1383,8],
 "structMR_1_1LocaleDomainId.html#a4cb816705f0f9ee23f21c4e16f84fb61":[9,3,0,0,0,1383,23],
-"structMR_1_1LocaleDomainId.html#a4da1cfb88c7e8447934115ec3bfe4420":[9,3,0,0,0,1383,6],
-"structMR_1_1LocaleDomainId.html#a63a8f44ee28a90959b161b78dc7c8933":[9,3,0,0,0,1383,12],
-"structMR_1_1LocaleDomainId.html#a65ec31fc476972c3d71ee459a11cfbc8":[9,3,0,0,0,1383,18],
-"structMR_1_1LocaleDomainId.html#a67a55c68fe51508867eedf12f74cec6c":[9,3,0,0,0,1383,5],
-"structMR_1_1LocaleDomainId.html#a7bf31a0df46e77a8178bb4816536faf5":[9,3,0,0,0,1383,7],
-"structMR_1_1LocaleDomainId.html#a7c1520be38e25c26dad824b6d6df8bf2":[9,3,0,0,0,1383,0],
-"structMR_1_1LocaleDomainId.html#a85e536664df041b01d5001cd15977c5e":[9,3,0,0,0,1383,15],
-"structMR_1_1LocaleDomainId.html#a94e9e9331a6e6f13a6f5fdb5b7cfb32f":[9,3,0,0,0,1383,30],
-"structMR_1_1LocaleDomainId.html#aadcbeb2dc7a9eb8ce757564ab4c63ede":[9,3,0,0,0,1383,27]
+"structMR_1_1LocaleDomainId.html#a4da1cfb88c7e8447934115ec3bfe4420":[9,3,0,0,0,1383,6]
 };

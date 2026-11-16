@@ -1,5 +1,13 @@
 var NAVTREEINDEX49 =
 {
+"structmeshlib_1_1EdgeBitSet.html#a6f97446d4870d90f4486c8058449fb17":[9,5,0,0,0,294,34],
+"structmeshlib_1_1EdgeBitSet.html#a6f97446d4870d90f4486c8058449fb17":[9,5,1,0,0,281,34],
+"structmeshlib_1_1EdgeBitSet.html#a72dd9ef8bfc85b6270b4d991a24ea0d9":[9,5,0,0,0,294,46],
+"structmeshlib_1_1EdgeBitSet.html#a72dd9ef8bfc85b6270b4d991a24ea0d9":[9,5,1,0,0,281,46],
+"structmeshlib_1_1EdgeBitSet.html#a76c9e81894f56f9edd149f396205d977":[9,5,0,0,0,294,7],
+"structmeshlib_1_1EdgeBitSet.html#a76c9e81894f56f9edd149f396205d977":[9,5,1,0,0,281,7],
+"structmeshlib_1_1EdgeBitSet.html#a7b1f322588240ccf0eb5670bd0df7026":[9,5,0,0,0,294,32],
+"structmeshlib_1_1EdgeBitSet.html#a7b1f322588240ccf0eb5670bd0df7026":[9,5,1,0,0,281,32],
 "structmeshlib_1_1EdgeBitSet.html#a7bf9de58f71a2284e5ad5be741742801":[9,5,0,0,0,294,28],
 "structmeshlib_1_1EdgeBitSet.html#a7bf9de58f71a2284e5ad5be741742801":[9,5,1,0,0,281,28],
 "structmeshlib_1_1EdgeBitSet.html#a7c0a2b3b25f0bdb19e767c8c738575a1":[9,5,0,0,0,294,12],
@@ -241,13 +249,5 @@ var NAVTREEINDEX49 =
 "structmeshlib_1_1EdgeMap.html#a701dcf2ba81330431ba0e81a1c8151cc":[9,5,0,0,0,299,37],
 "structmeshlib_1_1EdgeMap.html#a701dcf2ba81330431ba0e81a1c8151cc":[9,5,1,0,0,286,37],
 "structmeshlib_1_1EdgeMap.html#a761e54cfd43a32c3457f88aad78861b0":[9,5,0,0,0,299,1],
-"structmeshlib_1_1EdgeMap.html#a761e54cfd43a32c3457f88aad78861b0":[9,5,1,0,0,286,1],
-"structmeshlib_1_1EdgeMap.html#a77687eef06008451f4075e399e05cb99":[9,5,0,0,0,299,27],
-"structmeshlib_1_1EdgeMap.html#a77687eef06008451f4075e399e05cb99":[9,5,1,0,0,286,27],
-"structmeshlib_1_1EdgeMap.html#a8009b2682c36a16b905ad39b8a218487":[9,5,0,0,0,299,21],
-"structmeshlib_1_1EdgeMap.html#a8009b2682c36a16b905ad39b8a218487":[9,5,1,0,0,286,21],
-"structmeshlib_1_1EdgeMap.html#a87775739bbf4b39c516c8e02e793a899":[9,5,0,0,0,299,30],
-"structmeshlib_1_1EdgeMap.html#a87775739bbf4b39c516c8e02e793a899":[9,5,1,0,0,286,30],
-"structmeshlib_1_1EdgeMap.html#a908e79c9cd7dc94874dea71aa9555f62":[9,5,0,0,0,299,10],
-"structmeshlib_1_1EdgeMap.html#a908e79c9cd7dc94874dea71aa9555f62":[9,5,1,0,0,286,10]
+"structmeshlib_1_1EdgeMap.html#a761e54cfd43a32c3457f88aad78861b0":[9,5,1,0,0,286,1]
 };

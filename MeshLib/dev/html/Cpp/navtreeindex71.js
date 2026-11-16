@@ -1,5 +1,13 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1RasterLoad_1_1TiffLoadSettings.html":[9,0,0,19,108],
+"structMR_1_1RasterSaveSettings.html":[9,0,0,17,0,3],
+"structMR_1_1RasterSaveSettings.html#a04b466bdf3c5f2d7e08030e4cd463ee8":[9,0,0,17,0,3,0],
+"structMR_1_1RasterSaveSettings.html#a96a20d4c5e859028ef66fd98db8fd14b":[9,0,0,17,0,3,1],
+"structMR_1_1RayOrigin.html":[9,0,0,0,9,0],
+"structMR_1_1RayOrigin.html#a8502e2d024f3f9f3b84ad9f25f659eb7":[9,0,0,0,9,0,0],
+"structMR_1_1RayOrigin.html#aa0427aa4f82a36dda692826d18df40c9":[9,0,0,0,9,0,1],
+"structMR_1_1RebuildMeshSettings.html":[9,0,0,19,899],
 "structMR_1_1ReduceTotalAngleParams.html":[9,0,0,19,388],
 "structMR_1_1RefineParameters.html":[9,0,0,19,247],
 "structMR_1_1RelaxParams.html":[9,0,0,19,500],
@@ -241,13 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1TriTriDistanceParams.html":[9,0,0,19,535],
 "structMR_1_1TriTriDistanceResult.html":[9,0,0,19,534],
 "structMR_1_1TriangleSegmentIntersectResult.html":[9,0,0,19,489],
-"structMR_1_1TriangulateHolesParams.html":[9,0,0,13,2],
-"structMR_1_1TriangulateHolesParams.html#a8817163abe136db373a3bbdefcba5ed0":[9,0,0,13,2,0],
-"structMR_1_1TriangulateHolesParams.html#aec7ce265264bd1bb9d6287fb079e2eeb":[9,0,0,13,2,1],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[9,0,1,0,1,52,0],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[9,0,2,0,1,34,0],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a0bb7d70e695f6c8fb8806cf07f90bb9e":[9,0,1,0,1,52,0,6],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a0bb7d70e695f6c8fb8806cf07f90bb9e":[9,0,2,0,1,34,0,6],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a259f0dc748bf189fe876ca658509642e":[9,0,1,0,1,52,0,2],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a259f0dc748bf189fe876ca658509642e":[9,0,2,0,1,34,0,2]
+"structMR_1_1TriangulateHolesParams.html":[9,0,0,13,2]
 };

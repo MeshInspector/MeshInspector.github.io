@@ -1,5 +1,13 @@
 var NAVTREEINDEX112 =
 {
+"classMR_1_1InSphereSearchSettings.html#adc35f0b82907ea49ac0abce3a547175b":[9,3,0,0,0,1328,4],
+"classMR_1_1InSphereTesterSoS.html":[9,3,0,0,0,1332],
+"classMR_1_1InSphereTesterSoS.html#a14fe33c42958d78348c9e299eff245a9":[9,3,0,0,0,1332,3],
+"classMR_1_1InSphereTesterSoS.html#a3fe7f920836c9b97d7b4730ea06fec0f":[9,3,0,0,0,1332,6],
+"classMR_1_1InSphereTesterSoS.html#a505d1885369f21fa3dc0a8301be986cb":[9,3,0,0,0,1332,1],
+"classMR_1_1InSphereTesterSoS.html#a6092a9a1d5ba5c00f843ac6d9dceeb4a":[9,3,0,0,0,1332,0],
+"classMR_1_1InSphereTesterSoS.html#a6aed073cd00a65e5ded402b154d988d8":[9,3,0,0,0,1332,4],
+"classMR_1_1InSphereTesterSoS.html#a976095aeaabcaeb3f5007e6ad7a95537":[9,3,0,0,0,1332,5],
 "classMR_1_1InSphereTesterSoS.html#aa81d872a1692085553d301199fc9cc90":[9,3,0,0,0,1332,2],
 "classMR_1_1InSphereTester__Double.html":[9,3,0,0,0,1329],
 "classMR_1_1InSphereTester__Double.html#a15fc0beabc71d2aba2fbd3fdd47b1285":[9,3,0,0,0,1329,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX112 =
 "classMR_1_1Line3Mesh__Float.html#a6abfd77d8b3701dc0d39fcefbb214659":[9,3,0,0,0,1365,2],
 "classMR_1_1Line3Mesh__Float.html#aa1bd9d1fc5f421ec2e58d1c7f856538d":[9,3,0,0,0,1365,4],
 "classMR_1_1Line3Mesh__Float.html#aa3c9909ff88296d8699f40564a928b5d":[9,3,0,0,0,1365,8],
-"classMR_1_1Line3Mesh__Float.html#ac655fc77021b6919aac75245da4ec081":[9,3,0,0,0,1365,7],
-"classMR_1_1Line3Mesh__Float.html#ad3d21aa1871b93ce4036a5b0a66458df":[9,3,0,0,0,1365,0],
-"classMR_1_1Line3Mesh__Float.html#ae5ba717f0ff14d582547d731ab1d7b16":[9,3,0,0,0,1365,3],
-"classMR_1_1Line3Mesh__Float.html#af28e1e7a6c287311da1793bdccaa5278":[9,3,0,0,0,1365,6],
-"classMR_1_1Line3d.html":[9,3,0,0,0,1362],
-"classMR_1_1Line3d.html#a0549e357dcf71f815c8bcaf02dd4d2ac":[9,3,0,0,0,1362,3],
-"classMR_1_1Line3d.html#a361235a1ec326ee5c50e99cfffe7c983":[9,3,0,0,0,1362,6],
-"classMR_1_1Line3d.html#a53efd3e1cece17d00c0c2c69cd7f214e":[9,3,0,0,0,1362,4],
-"classMR_1_1Line3d.html#a88f047bcbe50b0106ec9508e8115a12c":[9,3,0,0,0,1362,1]
+"classMR_1_1Line3Mesh__Float.html#ac655fc77021b6919aac75245da4ec081":[9,3,0,0,0,1365,7]
 };

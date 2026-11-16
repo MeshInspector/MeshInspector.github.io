@@ -1,5 +1,13 @@
 var NAVTREEINDEX81 =
 {
+"MRObjectPointsHolder_8h.html#aff195509a611e2b8944455329f58e714":[9,2,2,0,0,0,0,1,240,137],
+"MRObjectPointsHolder_8h.html#aff663a9b1b946fde68becadd97abb464":[9,2,2,0,0,0,0,1,240,132],
+"MRObjectPointsHolder_8h.html#affd181f16eababf2202fd7ad2ad5326e":[9,2,2,0,0,0,0,1,240,34],
+"MRObjectPointsHolder_8h.html#affeb9a3cde522e59abbf8e7062bf0451":[9,2,2,0,0,0,0,1,240,122],
+"MRObjectPointsHolder_8h_source.html":[9,2,2,0,0,0,0,1,240],
+"MRObjectPoints_8h.html":[9,2,2,0,0,0,0,1,239],
+"MRObjectPoints_8h.html#a0097b5c0bcbd05a197f119125aa672bd":[9,2,2,0,0,0,0,1,239,112],
+"MRObjectPoints_8h.html#a02a74367b828164c6bb884648e47490e":[9,2,2,0,0,0,0,1,239,80],
 "MRObjectPoints_8h.html#a04332267db8215eb15f58700c5583948":[9,2,2,0,0,0,0,1,239,63],
 "MRObjectPoints_8h.html#a05042fbed9630fe86e03fa6e84c15e2f":[9,2,2,0,0,0,0,1,239,128],
 "MRObjectPoints_8h.html#a05c5efce6c91ecae4f45c4ba177ab99b":[9,2,2,0,0,0,0,1,239,152],
@@ -241,13 +249,5 @@ var NAVTREEINDEX81 =
 "MRObjectVoxels_8h.html#a10c71f4cecd60c332f4ae8c9403354fa":[9,2,2,0,0,0,0,4,14,78],
 "MRObjectVoxels_8h.html#a1100eb140acce3919f4b3bc2bff239e8":[9,2,2,0,0,0,0,4,14,74],
 "MRObjectVoxels_8h.html#a110aede1479f2f495f188ce229ad82ab":[9,2,2,0,0,0,0,4,14,38],
-"MRObjectVoxels_8h.html#a12bddccd34651e614c92109348a4427d":[9,2,2,0,0,0,0,4,14,43],
-"MRObjectVoxels_8h.html#a1399feb3b2df0010c99f25dca7c47ab6":[9,2,2,0,0,0,0,4,14,62],
-"MRObjectVoxels_8h.html#a14ae87d58046427ca90984c389b8e947":[9,2,2,0,0,0,0,4,14,12],
-"MRObjectVoxels_8h.html#a15719577281b2eb52cf6e6bb16d5ec66":[9,2,2,0,0,0,0,4,14,54],
-"MRObjectVoxels_8h.html#a19573b60b37494d19a2b502bc9619d83":[9,2,2,0,0,0,0,4,14,60],
-"MRObjectVoxels_8h.html#a1d4f5061d326e8dba50fa716f8d78105":[9,2,2,0,0,0,0,4,14,66],
-"MRObjectVoxels_8h.html#a20b29619eb1318c8a7166c4a4312a03b":[9,2,2,0,0,0,0,4,14,28],
-"MRObjectVoxels_8h.html#a21159785d9a3729152f5f86e86957d48":[9,2,2,0,0,0,0,4,14,26],
-"MRObjectVoxels_8h.html#a217fa7b8b15f1bd88fe550cbcd270697":[9,2,2,0,0,0,0,4,14,48]
+"MRObjectVoxels_8h.html#a12bddccd34651e614c92109348a4427d":[9,2,2,0,0,0,0,4,14,43]
 };

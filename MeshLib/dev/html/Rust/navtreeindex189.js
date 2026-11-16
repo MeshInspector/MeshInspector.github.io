@@ -1,5 +1,13 @@
 var NAVTREEINDEX189 =
 {
+"structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__VertId__MR__VertPathInfo__phmap__Hash__MR_d690274c26bcf2fe20c1408758f7b483.html#afa3c4490ad5094ca9b6fa5efdb9f6702":[9,5,1,0,0,11,36,5],
+"structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__VertId__MR__VertPathInfo__phmap__Hash__MR_d690274c26bcf2fe20c1408758f7b483.html#affae7fb232d9626180397471596c604c":[9,5,0,0,0,22,36,8],
+"structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__VertId__MR__VertPathInfo__phmap__Hash__MR_d690274c26bcf2fe20c1408758f7b483.html#affae7fb232d9626180397471596c604c":[9,5,1,0,0,11,36,8],
+"structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__VertId__float__phmap__Hash__MR__VertId__ph851bf936b958edcafea0bee515cbfe0e.html":[9,5,0,0,0,22,31],
+"structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__VertId__float__phmap__Hash__MR__VertId__ph851bf936b958edcafea0bee515cbfe0e.html":[9,5,1,0,0,11,31],
+"structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__VertId__float__phmap__Hash__MR__VertId__ph851bf936b958edcafea0bee515cbfe0e.html#a06abadaa2a5438eaebefcac7bfba4800":[9,5,0,0,0,22,31,1],
+"structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__VertId__float__phmap__Hash__MR__VertId__ph851bf936b958edcafea0bee515cbfe0e.html#a06abadaa2a5438eaebefcac7bfba4800":[9,5,1,0,0,11,31,1],
+"structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__VertId__float__phmap__Hash__MR__VertId__ph851bf936b958edcafea0bee515cbfe0e.html#a10f8315054097b88276cb7a3fa54254d":[9,5,0,0,0,22,31,2],
 "structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__VertId__float__phmap__Hash__MR__VertId__ph851bf936b958edcafea0bee515cbfe0e.html#a10f8315054097b88276cb7a3fa54254d":[9,5,1,0,0,11,31,2],
 "structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__VertId__float__phmap__Hash__MR__VertId__ph851bf936b958edcafea0bee515cbfe0e.html#a19f3d777dcd3d5da8a28ba55111a6f4d":[9,5,0,0,0,22,31,3],
 "structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__VertId__float__phmap__Hash__MR__VertId__ph851bf936b958edcafea0bee515cbfe0e.html#a19f3d777dcd3d5da8a28ba55111a6f4d":[9,5,1,0,0,11,31,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX189 =
 "structmeshlib_1_1planar__triangulation_1_1BaseOutlineParameters.html#aa587f5c5a5b9906b6e8ad9f9223d5777":[9,5,1,0,0,12,0,6],
 "structmeshlib_1_1planar__triangulation_1_1ISweepLineCache.html":[9,5,0,0,0,23,3],
 "structmeshlib_1_1planar__triangulation_1_1ISweepLineCache.html":[9,5,1,0,0,12,3],
-"structmeshlib_1_1planar__triangulation_1_1IntersectionInfo.html":[9,5,0,0,0,23,1],
-"structmeshlib_1_1planar__triangulation_1_1IntersectionInfo.html":[9,5,1,0,0,12,1],
-"structmeshlib_1_1planar__triangulation_1_1IntersectionInfo.html#a12dc096eb5bb8c34c41305862ac6a2c8":[9,5,0,0,0,23,1,8],
-"structmeshlib_1_1planar__triangulation_1_1IntersectionInfo.html#a12dc096eb5bb8c34c41305862ac6a2c8":[9,5,1,0,0,12,1,8],
-"structmeshlib_1_1planar__triangulation_1_1IntersectionInfo.html#a290f180a5f3f8520453b1a4b3b9ffc8d":[9,5,0,0,0,23,1,14],
-"structmeshlib_1_1planar__triangulation_1_1IntersectionInfo.html#a290f180a5f3f8520453b1a4b3b9ffc8d":[9,5,1,0,0,12,1,14],
-"structmeshlib_1_1planar__triangulation_1_1IntersectionInfo.html#a2924e808bd39606e0c668505b0bde1d9":[9,5,0,0,0,23,1,9],
-"structmeshlib_1_1planar__triangulation_1_1IntersectionInfo.html#a2924e808bd39606e0c668505b0bde1d9":[9,5,1,0,0,12,1,9],
-"structmeshlib_1_1planar__triangulation_1_1IntersectionInfo.html#a3934ae8a69075a043182fa5b73ae935b":[9,5,0,0,0,23,1,2]
+"structmeshlib_1_1planar__triangulation_1_1IntersectionInfo.html":[9,5,0,0,0,23,1]
 };

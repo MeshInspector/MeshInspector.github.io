@@ -1,5 +1,13 @@
 var NAVTREEINDEX22 =
 {
+"classMR_1_1ConstBox__Box2i.html#a53b2aa12063bee370546e1d7fb493e93":[9,3,0,0,0,1111,21],
+"classMR_1_1ConstBox__Box2i.html#a6583eb5e717e14fbfceb7fc370884da8":[9,3,0,0,0,1111,7],
+"classMR_1_1ConstBox__Box2i.html#a6ba9b2aabd32d264721e5765bef42cd1":[9,3,0,0,0,1111,23],
+"classMR_1_1ConstBox__Box2i.html#a6c8a02dc242a9b3350097a53c09d3da6":[9,3,0,0,0,1111,5],
+"classMR_1_1ConstBox__Box2i.html#a6dba11469b3eac208231187e34cd43c2":[9,3,0,0,0,1111,34],
+"classMR_1_1ConstBox__Box2i.html#a764ed4b887d61289151cf1b5a55e08ba":[9,3,0,0,0,1111,26],
+"classMR_1_1ConstBox__Box2i.html#a7c08000c68ffaea34ddfa47b091b6da6":[9,3,0,0,0,1111,9],
+"classMR_1_1ConstBox__Box2i.html#a8059ecbfeb430300c3013066cceef553":[9,3,0,0,0,1111,32],
 "classMR_1_1ConstBox__Box2i.html#a8131274634b8fb7e01df2c3f25bad455":[9,3,0,0,0,1111,24],
 "classMR_1_1ConstBox__Box2i.html#a86fda108cfd4a4e2f40b7093ae3b1d4a":[9,3,0,0,0,1111,6],
 "classMR_1_1ConstBox__Box2i.html#a87bfcda87e14dfe1918ff6d7b088c4fd":[9,3,0,0,0,1111,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX22 =
 "classMR_1_1ConstBox__Color.html#ab6fd2dc6001fb60d25de983ab83914c8":[9,3,0,0,0,1117,13],
 "classMR_1_1ConstBox__Color.html#ab93e6a6c99c8db8e5a5bb299aa2342b5":[9,3,0,0,0,1117,33],
 "classMR_1_1ConstBox__Color.html#abafb0a6f817ffa273a9278e94c94154d":[9,3,0,0,0,1117,43],
-"classMR_1_1ConstBox__Color.html#abcb6ef57df33eea46c64b4cdfe51bb95":[9,3,0,0,0,1117,20],
-"classMR_1_1ConstBox__Color.html#ac0ad989be12f4e857b285bc1363cbbbf":[9,3,0,0,0,1117,42],
-"classMR_1_1ConstBox__Color.html#ad005aebebf6dc50a86fe7552b7997528":[9,3,0,0,0,1117,26],
-"classMR_1_1ConstBox__Color.html#ad97a6ac8cd0ee351c9f17c586a8ded30":[9,3,0,0,0,1117,3],
-"classMR_1_1ConstBox__Color.html#adb74d7632bd592e016ce5a8f838ab8d9":[9,3,0,0,0,1117,12],
-"classMR_1_1ConstBox__Color.html#ae62e7f02e2585eb0196960c9e6a9c58f":[9,3,0,0,0,1117,4],
-"classMR_1_1ConstBox__Color.html#af2d3faae131f74951e96e1f209a300de":[9,3,0,0,0,1117,7],
-"classMR_1_1ConstBox__EdgeId.html":[9,3,0,0,0,1118],
-"classMR_1_1ConstBox__EdgeId.html#a00b4c376c89313ec90235916552c4e7c":[9,3,0,0,0,1118,5]
+"classMR_1_1ConstBox__Color.html#abcb6ef57df33eea46c64b4cdfe51bb95":[9,3,0,0,0,1117,20]
 };

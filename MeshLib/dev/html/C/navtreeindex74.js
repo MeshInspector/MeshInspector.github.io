@@ -1,5 +1,13 @@
 var NAVTREEINDEX74 =
 {
+"MRNormalDenoising_8h.html#a8b471df56e75a7e23bc0f791b31c40e5":[9,2,2,0,0,0,0,1,225,64],
+"MRNormalDenoising_8h.html#a8c74417edf7febec877f1df7249096e6":[9,2,2,0,0,0,0,1,225,68],
+"MRNormalDenoising_8h.html#a8cdc7733e12ace1e54f9fc1ba6cfa658":[9,2,2,0,0,0,0,1,225,11],
+"MRNormalDenoising_8h.html#a8f97e0f4a499de699db4464b44c7230b":[9,2,2,0,0,0,0,1,225,24],
+"MRNormalDenoising_8h.html#a92423185ddd46b3d1a2c0c6445e3ed6a":[9,2,2,0,0,0,0,1,225,49],
+"MRNormalDenoising_8h.html#a939bb004dc9ba080cfa1432dc4ca75c4":[9,2,2,0,0,0,0,1,225,3],
+"MRNormalDenoising_8h.html#a960440ba488d7ea4dfb2803b919f2d32":[9,2,2,0,0,0,0,1,225,20],
+"MRNormalDenoising_8h.html#a975aea4eb255dacc48d13904efda461b":[9,2,2,0,0,0,0,1,225,60],
 "MRNormalDenoising_8h.html#a9968711cd1fec9679caa274987022a8b":[9,2,2,0,0,0,0,1,225,10],
 "MRNormalDenoising_8h.html#a99df0697b0253d926048982a530a19f1":[9,2,2,0,0,0,0,1,225,26],
 "MRNormalDenoising_8h.html#a9a77f9e54e29301176a3541e9784d4ba":[9,2,2,0,0,0,0,1,225,41],
@@ -241,13 +249,5 @@ var NAVTREEINDEX74 =
 "MRObjectDistanceMap_8h.html#a784dfc6452a4f55f13c5de67e13febbd":[9,2,2,0,0,0,0,1,230,88],
 "MRObjectDistanceMap_8h.html#a786d2ddd093e927bb728a4245385ccb4":[9,2,2,0,0,0,0,1,230,63],
 "MRObjectDistanceMap_8h.html#a79a75820b9b7be949b90dce5cb740995":[9,2,2,0,0,0,0,1,230,68],
-"MRObjectDistanceMap_8h.html#a7a17802d1fa57bd7925f1fa3acf1346c":[9,2,2,0,0,0,0,1,230,119],
-"MRObjectDistanceMap_8h.html#a7a2c449cad5a3aa739ec2f8ea02dd623":[9,2,2,0,0,0,0,1,230,126],
-"MRObjectDistanceMap_8h.html#a7ae5dac68fc12307b966d58fb0dfefb0":[9,2,2,0,0,0,0,1,230,61],
-"MRObjectDistanceMap_8h.html#a7b1d7688401254fee021babe19a02e26":[9,2,2,0,0,0,0,1,230,198],
-"MRObjectDistanceMap_8h.html#a7c0ad58f00d40955afabdd1cdfeadafd":[9,2,2,0,0,0,0,1,230,98],
-"MRObjectDistanceMap_8h.html#a7c452f9e4a7e22b22260be4d1ad9d099":[9,2,2,0,0,0,0,1,230,34],
-"MRObjectDistanceMap_8h.html#a7f1f0f9e16dc3dadebdda04e007a85d3":[9,2,2,0,0,0,0,1,230,165],
-"MRObjectDistanceMap_8h.html#a7f590be6667eaa46675831349634b52c":[9,2,2,0,0,0,0,1,230,39],
-"MRObjectDistanceMap_8h.html#a7feb0823dff278c43cf61325069dd2ae":[9,2,2,0,0,0,0,1,230,27]
+"MRObjectDistanceMap_8h.html#a7a17802d1fa57bd7925f1fa3acf1346c":[9,2,2,0,0,0,0,1,230,119]
 };

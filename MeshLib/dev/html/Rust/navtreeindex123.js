@@ -1,5 +1,13 @@
 var NAVTREEINDEX123 =
 {
+"structmeshlib_1_1SegmentSegmentIntersectResult.html#ad410f4fa81b651dd3bf6b61c0d83f61d":[9,5,1,0,0,894,5],
+"structmeshlib_1_1SegmentSegmentIntersectResult.html#ae33021739387db16cf291881e0326800":[9,5,0,0,0,907,7],
+"structmeshlib_1_1SegmentSegmentIntersectResult.html#ae33021739387db16cf291881e0326800":[9,5,1,0,0,894,7],
+"structmeshlib_1_1SegmentSegmentIntersectResult.html#af3331486cce60677b4d0ba62c9af7daf":[9,5,0,0,0,907,1],
+"structmeshlib_1_1SegmentSegmentIntersectResult.html#af3331486cce60677b4d0ba62c9af7daf":[9,5,1,0,0,894,1],
+"structmeshlib_1_1SeparationPointStorage.html":[9,5,0,0,0,910],
+"structmeshlib_1_1SeparationPointStorage.html":[9,5,1,0,0,897],
+"structmeshlib_1_1SeparationPointStorage.html#a1621226594a700d9180b8632e63dbd9a":[9,5,0,0,0,910,4],
 "structmeshlib_1_1SeparationPointStorage.html#a1621226594a700d9180b8632e63dbd9a":[9,5,1,0,0,897,4],
 "structmeshlib_1_1SeparationPointStorage.html#a2cad85ee9ad8244654e280c4dc6a7b1a":[9,5,0,0,0,910,2],
 "structmeshlib_1_1SeparationPointStorage.html#a2cad85ee9ad8244654e280c4dc6a7b1a":[9,5,1,0,0,897,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX123 =
 "structmeshlib_1_1SharpOffsetParameters.html#a81ae404f507e4e270e19cd4d14718870":[9,5,1,0,0,912,17],
 "structmeshlib_1_1SharpOffsetParameters.html#a8305f369cb7c72807fc17ed9da7f3a3e":[9,5,0,0,0,925,30],
 "structmeshlib_1_1SharpOffsetParameters.html#a8305f369cb7c72807fc17ed9da7f3a3e":[9,5,1,0,0,912,30],
-"structmeshlib_1_1SharpOffsetParameters.html#a896ffa117433cdb984c1e1b0e2e9dd42":[9,5,0,0,0,925,25],
-"structmeshlib_1_1SharpOffsetParameters.html#a896ffa117433cdb984c1e1b0e2e9dd42":[9,5,1,0,0,912,25],
-"structmeshlib_1_1SharpOffsetParameters.html#a8c602f00bc8017732d45a98eef02fd83":[9,5,0,0,0,925,50],
-"structmeshlib_1_1SharpOffsetParameters.html#a8c602f00bc8017732d45a98eef02fd83":[9,5,1,0,0,912,50],
-"structmeshlib_1_1SharpOffsetParameters.html#a96b706342c946557676b99572c1c94b6":[9,5,0,0,0,925,29],
-"structmeshlib_1_1SharpOffsetParameters.html#a96b706342c946557676b99572c1c94b6":[9,5,1,0,0,912,29],
-"structmeshlib_1_1SharpOffsetParameters.html#a9912cad229313bda898aa306fd9af080":[9,5,0,0,0,925,33],
-"structmeshlib_1_1SharpOffsetParameters.html#a9912cad229313bda898aa306fd9af080":[9,5,1,0,0,912,33],
-"structmeshlib_1_1SharpOffsetParameters.html#a9ee6f5773a48801b6bdc774f0312e068":[9,5,0,0,0,925,6]
+"structmeshlib_1_1SharpOffsetParameters.html#a896ffa117433cdb984c1e1b0e2e9dd42":[9,5,0,0,0,925,25]
 };

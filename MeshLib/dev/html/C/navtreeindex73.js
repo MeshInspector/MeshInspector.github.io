@@ -1,5 +1,13 @@
 var NAVTREEINDEX73 =
 {
+"MRNoDefInit_8h.html#a5dd429da2ae0aab9f89b8a919b92af05":[9,2,2,0,0,0,0,1,224,311],
+"MRNoDefInit_8h.html#a604169c06ef1352b5bc4abc6ed8a8230":[9,2,2,0,0,0,0,1,224,296],
+"MRNoDefInit_8h.html#a6133eae1f625d4abee8fc4522b377d10":[9,2,2,0,0,0,0,1,224,38],
+"MRNoDefInit_8h.html#a62eaf3f6159090a4cdfa9a31247b7893":[9,2,2,0,0,0,0,1,224,106],
+"MRNoDefInit_8h.html#a63562689522bc7984ee71dbe2f999b82":[9,2,2,0,0,0,0,1,224,277],
+"MRNoDefInit_8h.html#a64d337043d3e0b9f9cc8330d762bcd13":[9,2,2,0,0,0,0,1,224,39],
+"MRNoDefInit_8h.html#a64ec4b512ab852a30d6ad6cb3f5a5110":[9,2,2,0,0,0,0,1,224,294],
+"MRNoDefInit_8h.html#a654545ae00b16697e077d79d398ae8fd":[9,2,2,0,0,0,0,1,224,32],
 "MRNoDefInit_8h.html#a65498c47925360d854399ba82d21789b":[9,2,2,0,0,0,0,1,224,175],
 "MRNoDefInit_8h.html#a654a4721764c565766168553a54c1474":[9,2,2,0,0,0,0,1,224,336],
 "MRNoDefInit_8h.html#a6598674d617eb09c6fdb452fc7fb3ca7":[9,2,2,0,0,0,0,1,224,63],
@@ -241,13 +249,5 @@ var NAVTREEINDEX73 =
 "MRNormalDenoising_8h.html#a7f170e0f96e40707a446c29e80fbba54":[9,2,2,0,0,0,0,1,225,13],
 "MRNormalDenoising_8h.html#a7fe58895fb16661c3186abddd43cfcb9":[9,2,2,0,0,0,0,1,225,5],
 "MRNormalDenoising_8h.html#a83ef56d2824b9435d7a723d46c09ae66":[9,2,2,0,0,0,0,1,225,45],
-"MRNormalDenoising_8h.html#a848f8e267b70646ac62fd093425f73f9":[9,2,2,0,0,0,0,1,225,57],
-"MRNormalDenoising_8h.html#a8b471df56e75a7e23bc0f791b31c40e5":[9,2,2,0,0,0,0,1,225,64],
-"MRNormalDenoising_8h.html#a8c74417edf7febec877f1df7249096e6":[9,2,2,0,0,0,0,1,225,68],
-"MRNormalDenoising_8h.html#a8cdc7733e12ace1e54f9fc1ba6cfa658":[9,2,2,0,0,0,0,1,225,11],
-"MRNormalDenoising_8h.html#a8f97e0f4a499de699db4464b44c7230b":[9,2,2,0,0,0,0,1,225,24],
-"MRNormalDenoising_8h.html#a92423185ddd46b3d1a2c0c6445e3ed6a":[9,2,2,0,0,0,0,1,225,49],
-"MRNormalDenoising_8h.html#a939bb004dc9ba080cfa1432dc4ca75c4":[9,2,2,0,0,0,0,1,225,3],
-"MRNormalDenoising_8h.html#a960440ba488d7ea4dfb2803b919f2d32":[9,2,2,0,0,0,0,1,225,20],
-"MRNormalDenoising_8h.html#a975aea4eb255dacc48d13904efda461b":[9,2,2,0,0,0,0,1,225,60]
+"MRNormalDenoising_8h.html#a848f8e267b70646ac62fd093425f73f9":[9,2,2,0,0,0,0,1,225,57]
 };

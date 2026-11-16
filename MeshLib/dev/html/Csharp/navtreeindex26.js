@@ -1,5 +1,13 @@
 var NAVTREEINDEX26 =
 {
+"classMR_1_1ConstBox__ObjId.html#aec05d121caf6b2859453551cade4c764":[9,3,0,0,0,1140,1],
+"classMR_1_1ConstBox__ObjId.html#aef550fe53fff9b1ea69b901f6d5efcde":[9,3,0,0,0,1140,9],
+"classMR_1_1ConstBox__ObjId.html#af885639b2d0c67d944ceef9c3cc63221":[9,3,0,0,0,1140,13],
+"classMR_1_1ConstBox__ObjId.html#afb8661dba8546d1738462e1ad8af981b":[9,3,0,0,0,1140,11],
+"classMR_1_1ConstBox__ObjId.html#afd1c6b1879b918a6315f2bacaf0f0e7d":[9,3,0,0,0,1140,15],
+"classMR_1_1ConstBox__ObjVertId.html":[9,3,0,0,0,1141],
+"classMR_1_1ConstBox__ObjVertId.html#a11ec09f441c63093b2598cfba7e5cc27":[9,3,0,0,0,1141,0],
+"classMR_1_1ConstBox__ObjVertId.html#a4de29816ec4a03db892b6b79847af5b6":[9,3,0,0,0,1141,8],
 "classMR_1_1ConstBox__ObjVertId.html#a569c77e1ab1c1d91bf3da8b86286778e":[9,3,0,0,0,1141,1],
 "classMR_1_1ConstBox__ObjVertId.html#a8c9f933b3313735fe1470a872ec109a3":[9,3,0,0,0,1141,3],
 "classMR_1_1ConstBox__ObjVertId.html#aa7ff4aebaa6aca06af7b6c469a3d3273":[9,3,0,0,0,1141,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX26 =
 "classMR_1_1ConstBox__Vector2i64.html#a5a85d9599f3b1cf7c224df255c2593d0":[9,3,0,0,0,1150,18],
 "classMR_1_1ConstBox__Vector2i64.html#a6813ffc2b7ddc57f6f57db1cf89d865e":[9,3,0,0,0,1150,11],
 "classMR_1_1ConstBox__Vector2i64.html#a76e4be69fb44523cbce1d75df4f740cd":[9,3,0,0,0,1150,14],
-"classMR_1_1ConstBox__Vector2i64.html#a780a342144d184261629d99431554d89":[9,3,0,0,0,1150,25],
-"classMR_1_1ConstBox__Vector2i64.html#a7d280b2ddc0d73cb49124b2d8eab93ab":[9,3,0,0,0,1150,20],
-"classMR_1_1ConstBox__Vector2i64.html#a80d6e4cdb9e4490cc858e577e7eed394":[9,3,0,0,0,1150,19],
-"classMR_1_1ConstBox__Vector2i64.html#a8182c94478c6c3a208437212d03ba795":[9,3,0,0,0,1150,24],
-"classMR_1_1ConstBox__Vector2i64.html#a8793bffac969441f6b26ce72b49a2a2e":[9,3,0,0,0,1150,8],
-"classMR_1_1ConstBox__Vector2i64.html#a8965a6d8b5e2ff390793ef7650bb7b26":[9,3,0,0,0,1150,12],
-"classMR_1_1ConstBox__Vector2i64.html#a8baaed291c81fb6a719baa71cf185d0a":[9,3,0,0,0,1150,9],
-"classMR_1_1ConstBox__Vector2i64.html#a97ad2e1dde0cd836b75447fa4c25c940":[9,3,0,0,0,1150,32],
-"classMR_1_1ConstBox__Vector2i64.html#a9c997dff31e55a287a403bd55a1c1638":[9,3,0,0,0,1150,23]
+"classMR_1_1ConstBox__Vector2i64.html#a780a342144d184261629d99431554d89":[9,3,0,0,0,1150,25]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX88 =
 {
+"classMR_1_1Const__UndirectedEdgeIterator.html#af46c798a3ee84bacdbe8426c3e8976e7":[9,3,0,0,0,949,11],
+"classMR_1_1Const__UndirectedEdgeIterator.html#afc7cf37339002fd2aa06cd5f18a9e6a5":[9,3,0,0,0,949,1],
+"classMR_1_1Const__UndirectedEdgeMap.html":[9,3,0,0,0,950],
+"classMR_1_1Const__UndirectedEdgeMap.html#a01959dc93c94826cb3869628598ae1e0":[9,3,0,0,0,950,14],
+"classMR_1_1Const__UndirectedEdgeMap.html#a0b585b99bc79630ab29dfbb1bf780147":[9,3,0,0,0,950,20],
+"classMR_1_1Const__UndirectedEdgeMap.html#a0c4dd91e168306681dc2ee5a8bac6bed":[9,3,0,0,0,950,8],
+"classMR_1_1Const__UndirectedEdgeMap.html#a0d87f918963a76befb5e8bf324539835":[9,3,0,0,0,950,1],
+"classMR_1_1Const__UndirectedEdgeMap.html#a38f9f8d6e1b1a778ccdcd10f567028d3":[9,3,0,0,0,950,22],
 "classMR_1_1Const__UndirectedEdgeMap.html#a3b607169adfc4cdfa7b4378afc6864a8":[9,3,0,0,0,950,7],
 "classMR_1_1Const__UndirectedEdgeMap.html#a449a7cb40c89a8d8569c6d530eaabd94":[9,3,0,0,0,950,5],
 "classMR_1_1Const__UndirectedEdgeMap.html#a492ebb2745424e88acb5a795d13e3ffa":[9,3,0,0,0,950,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX88 =
 "classMR_1_1Const__VarEdgeTri.html#a5ef07e0de663519da991e85b0e36e682":[9,3,0,0,0,966,8],
 "classMR_1_1Const__VarEdgeTri.html#a67bdf7a682543a88f7af16589f207356":[9,3,0,0,0,966,17],
 "classMR_1_1Const__VarEdgeTri.html#a7346908917b44a2600e39df83aa1ecd4":[9,3,0,0,0,966,7],
-"classMR_1_1Const__VarEdgeTri.html#a73e2f4853e00a096632228e4368af89f":[9,3,0,0,0,966,9],
-"classMR_1_1Const__VarEdgeTri.html#a78c8aec0b3dad7471d4800eb391176db":[9,3,0,0,0,966,12],
-"classMR_1_1Const__VarEdgeTri.html#abcd2c8f926bfa68cde9e6a71dd742fe0":[9,3,0,0,0,966,19],
-"classMR_1_1Const__VarEdgeTri.html#aceab15a9b4b6d1b7036e9c11420e32ef":[9,3,0,0,0,966,3],
-"classMR_1_1Const__VarEdgeTri.html#acf090ba15d5944ff40fb32692aa4a673":[9,3,0,0,0,966,13],
-"classMR_1_1Const__VarEdgeTri.html#ad61264ed5a9917995f0b92713a54aa28":[9,3,0,0,0,966,14],
-"classMR_1_1Const__VarEdgeTri.html#ae1a67a1de019ff1f1c9bb328a9e93d83":[9,3,0,0,0,966,2],
-"classMR_1_1Const__VarEdgeTri.html#ae4772e5c6c7443cd39cfeb7759ee5930":[9,3,0,0,0,966,15],
-"classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri.html":[9,3,0,0,0,966,0]
+"classMR_1_1Const__VarEdgeTri.html#a73e2f4853e00a096632228e4368af89f":[9,3,0,0,0,966,9]
 };

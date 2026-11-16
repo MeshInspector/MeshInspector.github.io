@@ -432,9 +432,10 @@ var searchData=
   ['mult_5fint_5fmr_5fvector3i_429',['mult_int_mr_vector3i',['../namespacemeshlib.html#ab383898b39955cb65740efa0cf6747b1',1,'meshlib']]],
   ['mult_5fvertex_5fweight_430',['mult_vertex_weight',['../structmeshlib_1_1Laplacian.html#a6540b41065a158a36526c4cdd6b2d1fe',1,'meshlib::Laplacian']]],
   ['multi_5fmodel_5fgrid_5fsampling_431',['multi_model_grid_sampling',['../namespacemeshlib.html#a1766bc61582cc4c3ba521a7c858f07f5',1,'meshlib']]],
-  ['multi_5fray_5fmesh_5fintersect_432',['multi_ray_mesh_intersect',['../namespacemeshlib.html#a96c5b31e317c57f5d93b75320b82c449',1,'meshlib']]],
-  ['multiple_5fedges_5fresolve_5fmode_433',['multiple_edges_resolve_mode',['../structmeshlib_1_1FillHoleParams.html#a6b3d87069a6ff5334256fdb4a70e55e4',1,'meshlib::FillHoleParams']]],
-  ['multiple_5fedges_5fresolve_5fmode_5fmut_434',['multiple_edges_resolve_mode_mut',['../structmeshlib_1_1FillHoleParams.html#a202d6f759f5f45b759e3d7c87cdcb29f',1,'meshlib::FillHoleParams']]],
-  ['mutual_5fclosest_435',['mutual_closest',['../structmeshlib_1_1ICPProperties.html#a487be24d40714d40d624fe1bb792c0b0',1,'meshlib::ICPProperties']]],
-  ['mutual_5fclosest_5fmut_436',['mutual_closest_mut',['../structmeshlib_1_1ICPProperties.html#afe6264268d3dec833d85dc0787a64a51',1,'meshlib::ICPProperties']]]
+  ['multi_5fray_5fmesh_5fintersect_5f10_432',['multi_ray_mesh_intersect_10',['../namespacemeshlib.html#af0c5ba62d2e3fe9a63e1535ecd319adf',1,'meshlib']]],
+  ['multi_5fray_5fmesh_5fintersect_5f8_433',['multi_ray_mesh_intersect_8',['../namespacemeshlib.html#a69596986871501a877a1bdc3714bfc23',1,'meshlib']]],
+  ['multiple_5fedges_5fresolve_5fmode_434',['multiple_edges_resolve_mode',['../structmeshlib_1_1FillHoleParams.html#a6b3d87069a6ff5334256fdb4a70e55e4',1,'meshlib::FillHoleParams']]],
+  ['multiple_5fedges_5fresolve_5fmode_5fmut_435',['multiple_edges_resolve_mode_mut',['../structmeshlib_1_1FillHoleParams.html#a202d6f759f5f45b759e3d7c87cdcb29f',1,'meshlib::FillHoleParams']]],
+  ['mutual_5fclosest_436',['mutual_closest',['../structmeshlib_1_1ICPProperties.html#a487be24d40714d40d624fe1bb792c0b0',1,'meshlib::ICPProperties']]],
+  ['mutual_5fclosest_5fmut_437',['mutual_closest_mut',['../structmeshlib_1_1ICPProperties.html#afe6264268d3dec833d85dc0787a64a51',1,'meshlib::ICPProperties']]]
 ];

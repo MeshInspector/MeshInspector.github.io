@@ -1,5 +1,13 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1Buffer__Char.html#a82d7291aea5f77c8bc744b3b604b1efa":[9,3,0,0,0,148,7],
+"classMR_1_1Buffer__Char.html#a92fb4de53bc33bed41f1507e40204b23":[9,3,0,0,0,148,3],
+"classMR_1_1Buffer__Char.html#a9a5aa67d55e84ad56ea8ce9e34c2a743":[9,3,0,0,0,148,0],
+"classMR_1_1Buffer__Char.html#ad448d8d2fd3072a3fb80f05fb754fbbb":[9,3,0,0,0,148,1],
+"classMR_1_1Buffer__Char.html#aebe727cb9fec880e34b9500a00bd6e13":[9,3,0,0,0,148,4],
+"classMR_1_1Buffer__Char.html#aef506893d521c6f7cea4aec70b8f9619":[9,3,0,0,0,148,6],
+"classMR_1_1Buffer__Char.html#af2b8b1f2b8952609ab48893678a9b460":[9,3,0,0,0,148,5],
+"classMR_1_1Buffer__MREdgeId__MREdgeId.html":[9,3,0,0,0,149],
 "classMR_1_1Buffer__MREdgeId__MREdgeId.html#a0fcb628a0d55a9faac6f2c9c1c91177b":[9,3,0,0,0,149,7],
 "classMR_1_1Buffer__MREdgeId__MREdgeId.html#a11e3d999d2b7bc44b0f63b83bbda04f5":[9,3,0,0,0,149,6],
 "classMR_1_1Buffer__MREdgeId__MREdgeId.html#a13ea2ef5e1e4b53725aa11d1acd9438e":[9,3,0,0,0,149,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1ChangeActiveBoxAction.html#ab661a546d55282b44356824921716d19":[9,3,0,0,0,170,0],
 "classMR_1_1ChangeActiveBoxAction.html#abcd95104e36fd27bb6dda0d5d496d9a5":[9,3,0,0,0,170,4],
 "classMR_1_1ChangeColoringType.html":[9,3,0,0,0,171],
-"classMR_1_1ChangeColoringType.html#a441dd3921cf7fd0bbdc79f29ab37d119":[9,3,0,0,0,171,5],
-"classMR_1_1ChangeColoringType.html#a4ec72b7f00f5dfdbe9694b54ca57e7a0":[9,3,0,0,0,171,1],
-"classMR_1_1ChangeColoringType.html#a550e211fb06bc39f1e4c6dbbf913995f":[9,3,0,0,0,171,3],
-"classMR_1_1ChangeColoringType.html#a6899fdff124634006731b0fc70640a3c":[9,3,0,0,0,171,2],
-"classMR_1_1ChangeColoringType.html#a981d74a6efd4a31b38bacbf13612a218":[9,3,0,0,0,171,0],
-"classMR_1_1ChangeColoringType.html#a9ed92f751b785e8c76dcd52b29aab8a1":[9,3,0,0,0,171,7],
-"classMR_1_1ChangeColoringType.html#aac086409913e096811c0ddf9ae185508":[9,3,0,0,0,171,4],
-"classMR_1_1ChangeColoringType.html#aca989366da3cb421809318d20efa4d52":[9,3,0,0,0,171,6],
-"classMR_1_1ChangeDualMarchingCubesAction.html":[9,3,0,0,0,172]
+"classMR_1_1ChangeColoringType.html#a441dd3921cf7fd0bbdc79f29ab37d119":[9,3,0,0,0,171,5]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX69 =
 {
+"MRMeshTopology_8h.html#afccc79f8333fdea46e2d126f2a96186f":[9,2,2,0,0,0,0,1,212,64],
+"MRMeshTopology_8h.html#afdf6093dfb74c31c4943c71a1c491115":[9,2,2,0,0,0,0,1,212,57],
+"MRMeshTopology_8h_source.html":[9,2,2,0,0,0,0,1,212],
+"MRMeshTotalAngle_8h.html":[9,2,2,0,0,0,0,1,214],
+"MRMeshTotalAngle_8h.html#a10d58584f3bf8aa8ee24083f479abe27":[9,2,2,0,0,0,0,1,214,27],
+"MRMeshTotalAngle_8h.html#a1bd702ac48d1522370dae8a499fe1a1e":[9,2,2,0,0,0,0,1,214,26],
+"MRMeshTotalAngle_8h.html#a221772f69271cb2069b115faed1a482c":[9,2,2,0,0,0,0,1,214,13],
+"MRMeshTotalAngle_8h.html#a3ccdc4349a626abe192cf82c4380cc1f":[9,2,2,0,0,0,0,1,214,15],
 "MRMeshTotalAngle_8h.html#a47665c382a4def48ce60f0fb0d773caa":[9,2,2,0,0,0,0,1,214,20],
 "MRMeshTotalAngle_8h.html#a48b52294139a9726b407b5b859ac86ad":[9,2,2,0,0,0,0,1,214,9],
 "MRMeshTotalAngle_8h.html#a51a559215e7acbe52dcc4c2941a359f3":[9,2,2,0,0,0,0,1,214,29],
@@ -241,13 +249,5 @@ var NAVTREEINDEX69 =
 "MRMesh_8h.html#a61c383473b97b9434c5860a64ebfccb5":[9,2,2,0,0,0,0,1,167,33],
 "MRMesh_8h.html#a630ee656f5080f6629082f2bbc39e3f6":[9,2,2,0,0,0,0,1,167,26],
 "MRMesh_8h.html#a641a81a13c090f4ada9a457b67edf651":[9,2,2,0,0,0,0,1,167,65],
-"MRMesh_8h.html#a6784dcfed208704650bfd266628c4aee":[9,2,2,0,0,0,0,1,167,106],
-"MRMesh_8h.html#a693ef248f6cca8994f85acd6623668b1":[9,2,2,0,0,0,0,1,167,80],
-"MRMesh_8h.html#a699a93262414c705242dadad085ffd94":[9,2,2,0,0,0,0,1,167,35],
-"MRMesh_8h.html#a6b1d8a3544e976e7caeae5c977c3ebfb":[9,2,2,0,0,0,0,1,167,128],
-"MRMesh_8h.html#a6dea26ec7d7d991b12890fd7e0105290":[9,2,2,0,0,0,0,1,167,136],
-"MRMesh_8h.html#a713d61c2f69035596117753c0343e316":[9,2,2,0,0,0,0,1,167,19],
-"MRMesh_8h.html#a7287b0bdead377b0b01bb575390f917a":[9,2,2,0,0,0,0,1,167,46],
-"MRMesh_8h.html#a7433b763fb93f17eeb19900c3ad8ff67":[9,2,2,0,0,0,0,1,167,77],
-"MRMesh_8h.html#a761c97b0a5355c535d2a0d2284172cf7":[9,2,2,0,0,0,0,1,167,73]
+"MRMesh_8h.html#a6784dcfed208704650bfd266628c4aee":[9,2,2,0,0,0,0,1,167,106]
 };
