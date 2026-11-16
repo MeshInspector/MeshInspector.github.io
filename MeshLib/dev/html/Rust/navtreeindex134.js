@@ -1,5 +1,7 @@
 var NAVTREEINDEX134 =
 {
+"structmeshlib_1_1TerminalVertex.html#acfa2d037d907b434b0d927bd758e62ba":[9,5,0,0,0,1505,6],
+"structmeshlib_1_1TerminalVertex.html#acfa2d037d907b434b0d927bd758e62ba":[9,5,1,0,0,1492,6],
 "structmeshlib_1_1TerminalVertex.html#adda6060e3f4d820878054c4e2415d965":[9,5,0,0,0,1505,1],
 "structmeshlib_1_1TerminalVertex.html#adda6060e3f4d820878054c4e2415d965":[9,5,1,0,0,1492,1],
 "structmeshlib_1_1TextMeshAlignParams.html":[9,5,0,0,0,1506],
@@ -247,7 +249,5 @@ var NAVTREEINDEX134 =
 "structmeshlib_1_1TextureId.html#aaa49a6e453c9a4d9744c232c92e06050":[9,5,0,0,0,1508,9],
 "structmeshlib_1_1TextureId.html#aaa49a6e453c9a4d9744c232c92e06050":[9,5,1,0,0,1495,9],
 "structmeshlib_1_1TextureId.html#ab84c209b958b9e490b19a59b509b5a81":[9,5,0,0,0,1508,3],
-"structmeshlib_1_1TextureId.html#ab84c209b958b9e490b19a59b509b5a81":[9,5,1,0,0,1495,3],
-"structmeshlib_1_1TexturePerFace.html":[9,5,0,0,0,1509],
-"structmeshlib_1_1TexturePerFace.html":[9,5,1,0,0,1496]
+"structmeshlib_1_1TextureId.html#ab84c209b958b9e490b19a59b509b5a81":[9,5,1,0,0,1495,3]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX136 =
 {
+"classMR_1_1SomeLocalTriangulations.html#ac6411f90369ae7ad08cb75e39dea2588":[9,3,0,0,0,1719,5],
 "classMR_1_1SomeLocalTriangulations.html#ad092f67a19e5fb356b08362962b2b533":[9,3,0,0,0,1719,2],
 "classMR_1_1SomeLocalTriangulations.html#ad35531666dd9f585b9f5cec076d9a74d":[9,3,0,0,0,1719,8],
 "classMR_1_1SomeLocalTriangulations.html#aebeee680a02bb22554917b9e83ba3474":[9,3,0,0,0,1719,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX136 =
 "classMR_1_1StitchHolesParams.html":[9,3,0,0,0,1731],
 "classMR_1_1StitchHolesParams.html#a36ad238a8454e764bbf01e954eb5e176":[9,3,0,0,0,1731,0],
 "classMR_1_1StitchHolesParams.html#a864057f59341c6c201d82b91b4d9c482":[9,3,0,0,0,1731,2],
-"classMR_1_1StitchHolesParams.html#a960ec243807f948040f26d5a634e5dc8":[9,3,0,0,0,1731,4],
-"classMR_1_1StitchHolesParams.html#a97509e6b095df58502fc3e0c700cc625":[9,3,0,0,0,1731,6]
+"classMR_1_1StitchHolesParams.html#a960ec243807f948040f26d5a634e5dc8":[9,3,0,0,0,1731,4]
 };

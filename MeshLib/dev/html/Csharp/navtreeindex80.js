@@ -63,14 +63,15 @@ var NAVTREEINDEX80 =
 "classMR_1_1Const__SignedDistanceToMeshResult.html":[9,3,0,0,0,862],
 "classMR_1_1Const__SignedDistanceToMeshResult.html#a03c31ef61d792e699d95fd2ae15fe166":[9,3,0,0,0,862,0],
 "classMR_1_1Const__SignedDistanceToMeshResult.html#a43083afe57da57d76c2ec5a246b95659":[9,3,0,0,0,862,2],
+"classMR_1_1Const__SignedDistanceToMeshResult.html#a458d001665dc76de26f66bba284551f0":[9,3,0,0,0,862,10],
 "classMR_1_1Const__SignedDistanceToMeshResult.html#a7de6ce0d68dd38e38fdccde2ed6d0e46":[9,3,0,0,0,862,4],
-"classMR_1_1Const__SignedDistanceToMeshResult.html#a845e2a0b24a40fddfef600900f8b58e1":[9,3,0,0,0,862,8],
 "classMR_1_1Const__SignedDistanceToMeshResult.html#a8c6e0192983a6657e3aa1738448771b1":[9,3,0,0,0,862,9],
-"classMR_1_1Const__SignedDistanceToMeshResult.html#abbccc7229e8d986c1c4ba9e0cf7f50a8":[9,3,0,0,0,862,7],
+"classMR_1_1Const__SignedDistanceToMeshResult.html#a989b5bbde1fdccb899596b321cfbc522":[9,3,0,0,0,862,1],
+"classMR_1_1Const__SignedDistanceToMeshResult.html#abbccc7229e8d986c1c4ba9e0cf7f50a8":[9,3,0,0,0,862,8],
 "classMR_1_1Const__SignedDistanceToMeshResult.html#acd89be8504f8976075dfc083f548bbfb":[9,3,0,0,0,862,3],
 "classMR_1_1Const__SignedDistanceToMeshResult.html#ad7997f12fbf481e3ccdb0a00c8e1e6d3":[9,3,0,0,0,862,5],
-"classMR_1_1Const__SignedDistanceToMeshResult.html#afd725cb3987220cfb6866bcd2b81cbe5":[9,3,0,0,0,862,6],
-"classMR_1_1Const__SignedDistanceToMeshResult.html#aff0473c09a89e9cb3ae69c1870fdb287":[9,3,0,0,0,862,1],
+"classMR_1_1Const__SignedDistanceToMeshResult.html#ad941d7e4df25237c7f127d3b21f2e6db":[9,3,0,0,0,862,6],
+"classMR_1_1Const__SignedDistanceToMeshResult.html#afd725cb3987220cfb6866bcd2b81cbe5":[9,3,0,0,0,862,7],
 "classMR_1_1Const__SimpleBinaryVolume.html":[9,3,0,0,0,863],
 "classMR_1_1Const__SimpleBinaryVolume.html#a24b55287d7ed25b12e7f375e521b8114":[9,3,0,0,0,863,4],
 "classMR_1_1Const__SimpleBinaryVolume.html#a302f315bfea42852b2a1e9ae9d0ed389":[9,3,0,0,0,863,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "classMR_1_1Const__SliceInfoBase.html#ad5ace6773cddcaec9decc8e5633b40f9":[9,3,0,0,0,870,1],
 "classMR_1_1Const__SliceInfoBase.html#adc17eeabbb4981d0a5be17ac9894d31b":[9,3,0,0,0,870,4],
 "classMR_1_1Const__SliceInfoBase.html#af116a345c847596e710745a369da6c2a":[9,3,0,0,0,870,10],
-"classMR_1_1Const__SliceInfoBase.html#af6c4e50093bd64d38e772125b8771506":[9,3,0,0,0,870,8],
-"classMR_1_1Const__SliceInfoBase.html#afd6bcea0ef7b827c7a08238b5fb2ef07":[9,3,0,0,0,870,20]
+"classMR_1_1Const__SliceInfoBase.html#af6c4e50093bd64d38e772125b8771506":[9,3,0,0,0,870,8]
 };

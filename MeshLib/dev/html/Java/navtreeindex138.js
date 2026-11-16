@@ -1,5 +1,7 @@
 var NAVTREEINDEX138 =
 {
+"classmeshlib_1_1TextureBitSet.html#a3933730af3d661f55841c6a1dad6f22e":[9,6,0,0,0,1519,31],
+"classmeshlib_1_1TextureBitSet.html#a3933730af3d661f55841c6a1dad6f22e":[9,6,1,0,0,1519,31],
 "classmeshlib_1_1TextureBitSet.html#a3cea66b4e9e505f5aaa3999af455debb":[9,6,0,0,0,1519,13],
 "classmeshlib_1_1TextureBitSet.html#a3cea66b4e9e505f5aaa3999af455debb":[9,6,1,0,0,1519,13],
 "classmeshlib_1_1TextureBitSet.html#a3f43d03b6b89ba5d1403514a9ce3d59d":[9,6,0,0,0,1519,59],
@@ -247,7 +249,5 @@ var NAVTREEINDEX138 =
 "classmeshlib_1_1ThickenParams.html#af6ba36e7dfe9c94cd5a2d7cf25decc39":[9,6,0,0,0,1523,3],
 "classmeshlib_1_1ThickenParams.html#af6ba36e7dfe9c94cd5a2d7cf25decc39":[9,6,1,0,0,1523,3],
 "classmeshlib_1_1TiffSaveSettings.html":[9,6,0,0,0,1524],
-"classmeshlib_1_1TiffSaveSettings.html":[9,6,1,0,0,1524],
-"classmeshlib_1_1TiffSaveSettings.html#a0160d2a6d8e58659e4b8d03c9d35e57a":[9,6,0,0,0,1524,5],
-"classmeshlib_1_1TiffSaveSettings.html#a0160d2a6d8e58659e4b8d03c9d35e57a":[9,6,1,0,0,1524,5]
+"classmeshlib_1_1TiffSaveSettings.html":[9,6,1,0,0,1524]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX240 =
 {
+"structmeshlib_1_1weighted__shell_1_1DistanceVolumeCreationParams.html#adb5b3993bf05ffa9cb2ebe1fc020224b":[9,5,0,0,0,36,0,1],
+"structmeshlib_1_1weighted__shell_1_1DistanceVolumeCreationParams.html#adb5b3993bf05ffa9cb2ebe1fc020224b":[9,5,1,0,0,23,0,1],
 "structmeshlib_1_1weighted__shell_1_1ParametersBase.html":[9,5,0,0,0,36,1],
 "structmeshlib_1_1weighted__shell_1_1ParametersBase.html":[9,5,1,0,0,23,1],
 "structmeshlib_1_1weighted__shell_1_1ParametersBase.html#a4153a55677a7d9e73f28236f46c44e90":[9,5,0,0,0,36,1,0],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX198 =
 {
+"structmeshlib_1_1std__optional__MR__VertScalars.html#aedf65143efa13db24961faf7d5c6c1b9":[9,5,0,0,0,1098,4],
+"structmeshlib_1_1std__optional__MR__VertScalars.html#aedf65143efa13db24961faf7d5c6c1b9":[9,5,1,0,0,1085,4],
 "structmeshlib_1_1std__optional__double.html":[9,5,0,0,0,1062],
 "structmeshlib_1_1std__optional__double.html":[9,5,1,0,0,1049],
 "structmeshlib_1_1std__optional__double.html#a2da94278c17799b769d8732ef4f788da":[9,5,0,0,0,1062,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX198 =
 "structmeshlib_1_1std__pair__MR__Vector3d__MR__Vector3d.html#a1bf47764b4a85cb99a815a6065315c57":[9,5,0,0,0,1146,3],
 "structmeshlib_1_1std__pair__MR__Vector3d__MR__Vector3d.html#a1bf47764b4a85cb99a815a6065315c57":[9,5,1,0,0,1133,3],
 "structmeshlib_1_1std__pair__MR__Vector3d__MR__Vector3d.html#a72e65b2d2fae90d505fa0670a1dfe16b":[9,5,0,0,0,1146,4],
-"structmeshlib_1_1std__pair__MR__Vector3d__MR__Vector3d.html#a72e65b2d2fae90d505fa0670a1dfe16b":[9,5,1,0,0,1133,4],
-"structmeshlib_1_1std__pair__MR__Vector3d__MR__Vector3d.html#a7950eef6d8530bdccfeb9fb39eaaccf0":[9,5,0,0,0,1146,2],
-"structmeshlib_1_1std__pair__MR__Vector3d__MR__Vector3d.html#a7950eef6d8530bdccfeb9fb39eaaccf0":[9,5,1,0,0,1133,2]
+"structmeshlib_1_1std__pair__MR__Vector3d__MR__Vector3d.html#a72e65b2d2fae90d505fa0670a1dfe16b":[9,5,1,0,0,1133,4]
 };

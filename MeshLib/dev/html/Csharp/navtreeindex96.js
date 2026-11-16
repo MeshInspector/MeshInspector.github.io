@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"classMR_1_1Const__Vector__StdArrayMRVertId2.html#aee9f557823b25da5684cb2f645d02969":[9,3,0,0,0,1036,2],
 "classMR_1_1Const__Vector__StdArrayMRVertId2.html#af6ce37e1288d49ce1e9ed12bd0427be2":[9,3,0,0,0,1036,10],
 "classMR_1_1Const__Vector__StdFilesystemPath__MRTextureId.html":[9,3,0,0,0,1037],
 "classMR_1_1Const__Vector__StdFilesystemPath__MRTextureId.html#a1912460ab94083f1c8ac36772e199973":[9,3,0,0,0,1037,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "classMR_1_1Const__VertBitSet.html#ac666dbcb45ab61affec30f56c108a6be":[9,3,0,0,0,1045,38],
 "classMR_1_1Const__VertBitSet.html#ad09d09f1b96333030c45feed8afa99a3":[9,3,0,0,0,1045,30],
 "classMR_1_1Const__VertBitSet.html#ad9b64a83b00a3264cf52f4dd5d209438":[9,3,0,0,0,1045,41],
-"classMR_1_1Const__VertBitSet.html#ada83c9fe39f080c688208222b3454cd4":[9,3,0,0,0,1045,29],
-"classMR_1_1Const__VertBitSet.html#ae3a1634a7b967e9ea15e2a66d65f5807":[9,3,0,0,0,1045,14]
+"classMR_1_1Const__VertBitSet.html#ada83c9fe39f080c688208222b3454cd4":[9,3,0,0,0,1045,29]
 };

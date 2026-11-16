@@ -1,5 +1,7 @@
 var NAVTREEINDEX148 =
 {
+"structmeshlib_1_1Vector__MR__Box3f.html#afcd4bc76e9882ccb467e59f430ce539b":[9,5,0,0,0,1606,1],
+"structmeshlib_1_1Vector__MR__Box3f.html#afcd4bc76e9882ccb467e59f430ce539b":[9,5,1,0,0,1593,1],
 "structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html":[9,5,0,0,0,1607],
 "structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html":[9,5,1,0,0,1594],
 "structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html#a19bc3c30554ee971965daa70d7fec4c4":[9,5,0,0,0,1607,32],
@@ -247,7 +249,5 @@ var NAVTREEINDEX148 =
 "structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId.html#a4c1b288a6a365ad947fe2f73679a5232":[9,5,0,0,0,1610,35],
 "structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId.html#a4c1b288a6a365ad947fe2f73679a5232":[9,5,1,0,0,1597,35],
 "structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId.html#a57db38cf331a9409274d837015d83910":[9,5,0,0,0,1610,20],
-"structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId.html#a57db38cf331a9409274d837015d83910":[9,5,1,0,0,1597,20],
-"structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId.html#a58801a35ee28b1e4bf17f3690614c840":[9,5,0,0,0,1610,5],
-"structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId.html#a58801a35ee28b1e4bf17f3690614c840":[9,5,1,0,0,1597,5]
+"structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId.html#a57db38cf331a9409274d837015d83910":[9,5,1,0,0,1597,20]
 };

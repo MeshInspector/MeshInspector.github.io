@@ -106,9 +106,10 @@ var NAVTREEINDEX71 =
 "structMR_1_1Signal.html":[9,0,0,19,520],
 "structMR_1_1SignedDistanceToMeshOptions.html":[9,0,0,19,212],
 "structMR_1_1SignedDistanceToMeshResult.html":[9,0,0,1,30],
-"structMR_1_1SignedDistanceToMeshResult.html#ab2ab2feebc81103d19915755ccb48d23":[9,0,0,1,30,0],
+"structMR_1_1SignedDistanceToMeshResult.html#a1ccbfef160be96f8f7463778aba8f1a7":[9,0,0,1,30,3],
+"structMR_1_1SignedDistanceToMeshResult.html#a43bb5f1f087ebf3f22b722d5a5773906":[9,0,0,1,30,0],
+"structMR_1_1SignedDistanceToMeshResult.html#ab2ab2feebc81103d19915755ccb48d23":[9,0,0,1,30,1],
 "structMR_1_1SignedDistanceToMeshResult.html#adb459805ccfb452c3a5c82fe673bbfec":[9,0,0,1,30,2],
-"structMR_1_1SignedDistanceToMeshResult.html#aec6c1291f51d451f8ab2bcf2d9371c41":[9,0,0,1,30,1],
 "structMR_1_1SignedProduct.html":[9,0,0,19,523],
 "structMR_1_1SimpleTimeRecord.html":[9,0,0,3,12],
 "structMR_1_1SimpleTimeRecord.html#a2baac0fd5930644e7eff1dcb301703ca":[9,0,0,3,12,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a259f0dc748bf189fe876ca658509642e":[9,0,2,0,1,34,0,2],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5c3e6b9bc3389cb66a4ecf6adb3f6091":[9,0,1,0,1,52,0,7],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5c3e6b9bc3389cb66a4ecf6adb3f6091":[9,0,2,0,1,34,0,7],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5ce3e11baf70433c7c9e34e49be985f4":[9,0,1,0,1,52,0,5],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5ce3e11baf70433c7c9e34e49be985f4":[9,0,2,0,1,34,0,5]
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5ce3e11baf70433c7c9e34e49be985f4":[9,0,1,0,1,52,0,5]
 };

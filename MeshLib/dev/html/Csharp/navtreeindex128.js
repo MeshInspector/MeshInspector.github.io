@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#a030dd0d3d6e8ee96e87a11438a61df74":[9,3,0,0,0,1578,2,16],
 "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#a1c7c8a9f9f86e156bcc2889f1fa6963d":[9,3,0,0,0,1578,2,11],
 "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#a1cc311d6eb3ceb07dd42866856e61c96":[9,3,0,0,0,1578,2,3],
 "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#a1d7aaae6b931f2d439e784eecd2c495c":[9,3,0,0,0,1578,2,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "classMR_1_1PointCloudApproxRelaxParams.html#ab630953d03bfb929d16344bb18fa3129":[9,3,0,0,0,1587,7],
 "classMR_1_1PointCloudApproxRelaxParams.html#ac2da44309cc6f470a18fb6fde664c92e":[9,3,0,0,0,1587,9],
 "classMR_1_1PointCloudApproxRelaxParams.html#adb3da3ede39a30ae15552a28af089b9d":[9,3,0,0,0,1587,4],
-"classMR_1_1PointCloudApproxRelaxParams.html#ae850ca670b2e026dcc7dddb01852d070":[9,3,0,0,0,1587,1],
-"classMR_1_1PointCloudApproxRelaxParams.html#aedc7c2ccb09df55714f4637348c9023a":[9,3,0,0,0,1587,5]
+"classMR_1_1PointCloudApproxRelaxParams.html#ae850ca670b2e026dcc7dddb01852d070":[9,3,0,0,0,1587,1]
 };

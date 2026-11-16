@@ -1,5 +1,6 @@
 var NAVTREEINDEX133 =
 {
+"classMR_1_1RasterLoadSettings.html#a57540193d68aaea71a307ab22925dce7":[9,3,0,0,0,1658,0],
 "classMR_1_1RasterLoadSettings.html#a6e0f4b891461bb782519deeffb8a5378":[9,3,0,0,0,1658,5],
 "classMR_1_1RasterLoadSettings.html#a79df293268433c56048b230b4f640126":[9,3,0,0,0,1658,2],
 "classMR_1_1RasterLoadSettings.html#a9ec3b6cc19b1b7ac194dfb0381a3ca86":[9,3,0,0,0,1658,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX133 =
 "classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#adca2fe4d8e9790d49d50d74009ed20e3":[9,3,0,0,0,1677,2],
 "classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#ade31e5d5f76c3c7d105c8a8e61b36695":[9,3,0,0,0,1677,0],
 "classMR_1_1RingIterator__MRNextEdgeSameOrigin.html#af06f78952dca9d4c4ace87a437338107":[9,3,0,0,0,1677,4],
-"classMR_1_1SaveSettings.html":[9,3,0,0,0,1678],
-"classMR_1_1SaveSettings.html#a035062075a5d478d4550b55b8488db94":[9,3,0,0,0,1678,9]
+"classMR_1_1SaveSettings.html":[9,3,0,0,0,1678]
 };

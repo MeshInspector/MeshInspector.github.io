@@ -227,8 +227,8 @@ var NAVTREEINDEX =
 "structMR_1_1MeshLoad_1_1StepLoadSettings.html#a1ce565a217495fbc5151a90f6c5ba904",
 "structMR_1_1PointCloudApproxRelaxParams.html",
 "structMR_1_1RemeshSettings.html",
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a70e5a14562ca242e53474e9e75df8ed6",
-"structMR_1_1Vector2.html#aefa8e4d4432e6b2a9822d6a0c4eaac6f"
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5ce3e11baf70433c7c9e34e49be985f4",
+"structMR_1_1Vector2.html#aee6a87706790d7a864533d60413038c9"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

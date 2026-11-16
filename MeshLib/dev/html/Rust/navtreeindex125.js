@@ -1,11 +1,13 @@
 var NAVTREEINDEX125 =
 {
-"structmeshlib_1_1SignedDistanceToMeshResult.html#aa323d58756073e6b9444ac9b08d1b56b":[9,5,0,0,0,932,8],
-"structmeshlib_1_1SignedDistanceToMeshResult.html#aa323d58756073e6b9444ac9b08d1b56b":[9,5,1,0,0,919,8],
-"structmeshlib_1_1SignedDistanceToMeshResult.html#aa63b898e843cbd1cfb4ef3b79b196642":[9,5,0,0,0,932,9],
-"structmeshlib_1_1SignedDistanceToMeshResult.html#aa63b898e843cbd1cfb4ef3b79b196642":[9,5,1,0,0,919,9],
-"structmeshlib_1_1SignedDistanceToMeshResult.html#aab574f3b3fe0210b72dd16a812b20c8c":[9,5,0,0,0,932,5],
-"structmeshlib_1_1SignedDistanceToMeshResult.html#aab574f3b3fe0210b72dd16a812b20c8c":[9,5,1,0,0,919,5],
+"structmeshlib_1_1SignedDistanceToMeshResult.html#ab7d0d5aaefed11bb2d46651de164f7e4":[9,5,0,0,0,932,9],
+"structmeshlib_1_1SignedDistanceToMeshResult.html#ab7d0d5aaefed11bb2d46651de164f7e4":[9,5,1,0,0,919,9],
+"structmeshlib_1_1SignedDistanceToMeshResult.html#acca82c43228e8b897ce31d9399b3556a":[9,5,0,0,0,932,8],
+"structmeshlib_1_1SignedDistanceToMeshResult.html#acca82c43228e8b897ce31d9399b3556a":[9,5,1,0,0,919,8],
+"structmeshlib_1_1SignedDistanceToMeshResult.html#ad965852f4316233f198ecf598cb45f01":[9,5,0,0,0,932,10],
+"structmeshlib_1_1SignedDistanceToMeshResult.html#ad965852f4316233f198ecf598cb45f01":[9,5,1,0,0,919,10],
+"structmeshlib_1_1SignedDistanceToMeshResult.html#af4ae8e8afbe0902005fb0eba62858ad9":[9,5,0,0,0,932,3],
+"structmeshlib_1_1SignedDistanceToMeshResult.html#af4ae8e8afbe0902005fb0eba62858ad9":[9,5,1,0,0,919,3],
 "structmeshlib_1_1SimpleBinaryVolume.html":[9,5,0,0,0,933],
 "structmeshlib_1_1SimpleBinaryVolume.html":[9,5,1,0,0,920],
 "structmeshlib_1_1SimpleBinaryVolume.html#a1ac9efe0be7e91bf052a61125d5edce7":[9,5,0,0,0,933,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX125 =
 "structmeshlib_1_1SliceInfo.html#a085336e47d8ce7dc3cf81dd4dd399da7":[9,5,0,0,0,939,3],
 "structmeshlib_1_1SliceInfo.html#a085336e47d8ce7dc3cf81dd4dd399da7":[9,5,1,0,0,926,3],
 "structmeshlib_1_1SliceInfo.html#a17f1a479ac6fbb0d11de44e2369c479c":[9,5,0,0,0,939,5],
-"structmeshlib_1_1SliceInfo.html#a17f1a479ac6fbb0d11de44e2369c479c":[9,5,1,0,0,926,5],
-"structmeshlib_1_1SliceInfo.html#a236185d1c2c55fa72a52d1f5a81b79e2":[9,5,0,0,0,939,20],
-"structmeshlib_1_1SliceInfo.html#a236185d1c2c55fa72a52d1f5a81b79e2":[9,5,1,0,0,926,20]
+"structmeshlib_1_1SliceInfo.html#a17f1a479ac6fbb0d11de44e2369c479c":[9,5,1,0,0,926,5]
 };

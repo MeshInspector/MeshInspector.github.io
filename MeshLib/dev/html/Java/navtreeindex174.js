@@ -1,5 +1,7 @@
 var NAVTREEINDEX174 =
 {
+"classmeshlib_1_1Vector__std__vector__MR__GraphEdgeId__MR__GraphVertId.html#a032b2dd2b2868b7422a6b7e3e99630da":[9,6,0,0,0,1671,27],
+"classmeshlib_1_1Vector__std__vector__MR__GraphEdgeId__MR__GraphVertId.html#a032b2dd2b2868b7422a6b7e3e99630da":[9,6,1,0,0,1671,27],
 "classmeshlib_1_1Vector__std__vector__MR__GraphEdgeId__MR__GraphVertId.html#a06714cf8902193bbd9c77d00a7eb9806":[9,6,0,0,0,1671,24],
 "classmeshlib_1_1Vector__std__vector__MR__GraphEdgeId__MR__GraphVertId.html#a06714cf8902193bbd9c77d00a7eb9806":[9,6,1,0,0,1671,24],
 "classmeshlib_1_1Vector__std__vector__MR__GraphEdgeId__MR__GraphVertId.html#a0d049c035746ca80cd85acb593e686dc":[9,6,0,0,0,1671,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX174 =
 "classmeshlib_1_1Vector__unsigned__short__MR__VoxelId.html#afb9ebd32aaff5c5cb115b6ba2b48c0fe":[9,6,0,0,0,1673,5],
 "classmeshlib_1_1Vector__unsigned__short__MR__VoxelId.html#afb9ebd32aaff5c5cb115b6ba2b48c0fe":[9,6,1,0,0,1673,5],
 "classmeshlib_1_1Vector__unsigned__short__MR__VoxelId.html#afd0e4f7c60f703d717e625d66a771899":[9,6,0,0,0,1673,2],
-"classmeshlib_1_1Vector__unsigned__short__MR__VoxelId.html#afd0e4f7c60f703d717e625d66a771899":[9,6,1,0,0,1673,2],
-"classmeshlib_1_1VersatileChangeMeshPointsAction.html":[9,6,0,0,0,1674],
-"classmeshlib_1_1VersatileChangeMeshPointsAction.html":[9,6,1,0,0,1674]
+"classmeshlib_1_1Vector__unsigned__short__MR__VoxelId.html#afd0e4f7c60f703d717e625d66a771899":[9,6,1,0,0,1673,2]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX81 =
 {
+"classMR_1_1Const__SliceInfoBase.html#afd6bcea0ef7b827c7a08238b5fb2ef07":[9,3,0,0,0,870,20],
 "classMR_1_1Const__SmoothCameraMeshDepthSettings.html":[9,3,0,0,0,871],
 "classMR_1_1Const__SmoothCameraMeshDepthSettings.html#a178bd161a170b24315c69d8472f108c2":[9,3,0,0,0,871,12],
 "classMR_1_1Const__SmoothCameraMeshDepthSettings.html#a3c91618a18849e457b5b0eedeeb91762":[9,3,0,0,0,871,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX81 =
 "classMR_1_1Const__SphereParams.html#a2b7cfffc19bb8e3078d0e55cc9503052":[9,3,0,0,0,881,1],
 "classMR_1_1Const__SphereParams.html#a31bf0cf22c5aa4034bd387b586c86634":[9,3,0,0,0,881,3],
 "classMR_1_1Const__SphereParams.html#a54b1dd2557e249bcb33866403da7f6f0":[9,3,0,0,0,881,8],
-"classMR_1_1Const__SphereParams.html#a6e1af1d8481155da5e30b499b404c066":[9,3,0,0,0,881,9],
-"classMR_1_1Const__SphereParams.html#ab0c4f5a9e8cef86f09867eca5e7d811c":[9,3,0,0,0,881,2]
+"classMR_1_1Const__SphereParams.html#a6e1af1d8481155da5e30b499b404c066":[9,3,0,0,0,881,9]
 };

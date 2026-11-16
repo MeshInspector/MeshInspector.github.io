@@ -1,5 +1,6 @@
 var NAVTREEINDEX137 =
 {
+"classMR_1_1StitchHolesParams.html#a97509e6b095df58502fc3e0c700cc625":[9,3,0,0,0,1731,6],
 "classMR_1_1StitchHolesParams.html#ab0de2c800261b87f7ea4435f0fe117c0":[9,3,0,0,0,1731,1],
 "classMR_1_1StitchHolesParams.html#ad228199df1b8233da99a3f3b9318e5ff":[9,3,0,0,0,1731,3],
 "classMR_1_1StitchHolesParams.html#af1b91d94e597fe8ee14c178e094e718c":[9,3,0,0,0,1731,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX137 =
 "classMR_1_1SymMatrix4b.html#af7fd57758ae61824ad9c989f5c441b8f":[9,3,0,0,0,1748,13],
 "classMR_1_1SymMatrix4d.html":[9,3,0,0,0,1749],
 "classMR_1_1SymMatrix4d.html#a01dff48ceb0e9ca48e23e23f37043ce6":[9,3,0,0,0,1749,13],
-"classMR_1_1SymMatrix4d.html#a1ad1bcba416665703659bcba9de8d64b":[9,3,0,0,0,1749,17],
-"classMR_1_1SymMatrix4d.html#a289324ccaf9f3b1b835e37bfb177e5a2":[9,3,0,0,0,1749,9]
+"classMR_1_1SymMatrix4d.html#a1ad1bcba416665703659bcba9de8d64b":[9,3,0,0,0,1749,17]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX141 =
 {
+"classmeshlib_1_1TriTriDistanceResult__double.html#ab3ccb39289a67e0ebefebd4d1fc84cdf":[9,6,0,0,0,1545,17],
+"classmeshlib_1_1TriTriDistanceResult__double.html#ab3ccb39289a67e0ebefebd4d1fc84cdf":[9,6,1,0,0,1545,17],
 "classmeshlib_1_1TriTriDistanceResult__double.html#ab8cae3201761a032860c5b3e9e9c1140":[9,6,0,0,0,1545,2],
 "classmeshlib_1_1TriTriDistanceResult__double.html#ab8cae3201761a032860c5b3e9e9c1140":[9,6,1,0,0,1545,2],
 "classmeshlib_1_1TriTriDistanceResult__double.html#ac1e05881027f2a3f36829173800f68ed":[9,6,0,0,0,1545,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX141 =
 "classmeshlib_1_1TrimOptionalOutput.html#ae0c1f9f278022b517199d1940479cff5":[9,6,0,0,0,1539,15],
 "classmeshlib_1_1TrimOptionalOutput.html#ae0c1f9f278022b517199d1940479cff5":[9,6,1,0,0,1539,15],
 "classmeshlib_1_1TrimOptionalOutput.html#aeba7383be8547b54cd6288bfc53c3c7f":[9,6,0,0,0,1539,3],
-"classmeshlib_1_1TrimOptionalOutput.html#aeba7383be8547b54cd6288bfc53c3c7f":[9,6,1,0,0,1539,3],
-"classmeshlib_1_1TrimOptionalOutput.html#afcf7d706e4f5cd5cbc1ca2776fa42d4b":[9,6,0,0,0,1539,0],
-"classmeshlib_1_1TrimOptionalOutput.html#afcf7d706e4f5cd5cbc1ca2776fa42d4b":[9,6,1,0,0,1539,0]
+"classmeshlib_1_1TrimOptionalOutput.html#aeba7383be8547b54cd6288bfc53c3c7f":[9,6,1,0,0,1539,3]
 };

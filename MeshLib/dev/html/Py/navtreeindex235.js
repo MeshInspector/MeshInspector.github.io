@@ -1,5 +1,7 @@
 var NAVTREEINDEX235 =
 {
+"classmrmeshpy_1_1std__vector__Nesting__BoxNestingCorner.html#abb458aad3fe12f539bd16cd0fc65da8a":[9,1,0,0,2,2322,2],
+"classmrmeshpy_1_1std__vector__Nesting__BoxNestingCorner.html#abb458aad3fe12f539bd16cd0fc65da8a":[9,1,1,0,1,2322,2],
 "classmrmeshpy_1_1std__vector__Nesting__MeshXf__Allocator__Nesting__MeshXf.html":[9,1,0,0,2,2323],
 "classmrmeshpy_1_1std__vector__Nesting__MeshXf__Allocator__Nesting__MeshXf.html":[9,1,1,0,1,2323],
 "classmrmeshpy_1_1std__vector__Nesting__MeshXf__Allocator__Nesting__MeshXf.html#a21ccb74939a514e387da39a2a444781f":[9,1,0,0,2,2323,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX235 =
 "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a07168cd3ded44717658ee698e82de036":[9,1,0,0,2,2333,3],
 "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a07168cd3ded44717658ee698e82de036":[9,1,1,0,1,2333,3],
 "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a0e59ace87655846becce326af18913c7":[9,1,0,0,2,2333,9],
-"classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a0e59ace87655846becce326af18913c7":[9,1,1,0,1,2333,9],
-"classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a113d676251734a6d636f591de470e9c7":[9,1,0,0,2,2333,0],
-"classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a113d676251734a6d636f591de470e9c7":[9,1,1,0,1,2333,0]
+"classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a0e59ace87655846becce326af18913c7":[9,1,1,0,1,2333,9]
 };

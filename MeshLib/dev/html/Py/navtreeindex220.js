@@ -1,5 +1,7 @@
 var NAVTREEINDEX220 =
 {
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a351d3f3a8b18d4ac416530db5890eb63":[9,1,0,0,2,2648,1,10],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a351d3f3a8b18d4ac416530db5890eb63":[9,1,1,0,1,2648,1,10],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a45d1ed080e04b16fc4054b1bf545e021":[9,1,0,0,2,2648,1,0],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a45d1ed080e04b16fc4054b1bf545e021":[9,1,1,0,1,2648,1,0],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a53a3a92c69ae8588541e9f2a9d8a6ec9":[9,1,0,0,2,2648,1,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX220 =
 "classmrmeshpy_1_1WeightedShell_1_1ConstDistanceVolumeCreationParams.html#af0d8d083cf9c2e0470e8b07b5e40985b":[9,1,0,0,2,2664,0,0],
 "classmrmeshpy_1_1WeightedShell_1_1ConstDistanceVolumeCreationParams.html#af0d8d083cf9c2e0470e8b07b5e40985b":[9,1,1,0,1,2664,0,0],
 "classmrmeshpy_1_1WeightedShell_1_1ConstParametersBase.html":[9,1,0,0,2,2664,1],
-"classmrmeshpy_1_1WeightedShell_1_1ConstParametersBase.html":[9,1,1,0,1,2664,1],
-"classmrmeshpy_1_1WeightedShell_1_1ConstParametersBase.html#a9f2b5a8af9134c3720bb0b98cea217ce":[9,1,0,0,2,2664,1,2],
-"classmrmeshpy_1_1WeightedShell_1_1ConstParametersBase.html#a9f2b5a8af9134c3720bb0b98cea217ce":[9,1,1,0,1,2664,1,2]
+"classmrmeshpy_1_1WeightedShell_1_1ConstParametersBase.html":[9,1,1,0,1,2664,1]
 };
