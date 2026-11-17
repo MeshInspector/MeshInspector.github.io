@@ -1,5 +1,7 @@
 var NAVTREEINDEX194 =
 {
+"structmeshlib_1_1std__function__bool__from__MR__EdgeId__const__MR__Vector3f__ref.html":[9,5,0,0,0,989],
+"structmeshlib_1_1std__function__bool__from__MR__EdgeId__const__MR__Vector3f__ref.html":[9,5,1,0,0,976],
 "structmeshlib_1_1std__function__bool__from__MR__EdgeId__const__MR__Vector3f__ref.html#a2ef7512efec14e9f54e45299b38620fc":[9,5,0,0,0,989,3],
 "structmeshlib_1_1std__function__bool__from__MR__EdgeId__const__MR__Vector3f__ref.html#a2ef7512efec14e9f54e45299b38620fc":[9,5,1,0,0,976,3],
 "structmeshlib_1_1std__function__bool__from__MR__EdgeId__const__MR__Vector3f__ref.html#a3131548ded34cc8b6686b46f5815f8ca":[9,5,0,0,0,989,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX194 =
 "structmeshlib_1_1std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int.html#a7e3c3ca53a62cb6ba6f0335273ac6cf7":[9,5,0,0,0,1004,1],
 "structmeshlib_1_1std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int.html#a7e3c3ca53a62cb6ba6f0335273ac6cf7":[9,5,1,0,0,991,1],
 "structmeshlib_1_1std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int.html#aa931c5ec20a797afb860048a4fbd0b45":[9,5,0,0,0,1004,2],
-"structmeshlib_1_1std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int.html#aa931c5ec20a797afb860048a4fbd0b45":[9,5,1,0,0,991,2],
-"structmeshlib_1_1std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int.html":[9,5,0,0,0,1002],
-"structmeshlib_1_1std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int.html":[9,5,1,0,0,989]
+"structmeshlib_1_1std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int.html#aa931c5ec20a797afb860048a4fbd0b45":[9,5,1,0,0,991,2]
 };

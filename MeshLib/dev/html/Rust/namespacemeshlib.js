@@ -1941,6 +1941,8 @@ var namespacemeshlib =
     [ "blend", "namespacemeshlib.html#adf3f4e2696990262c539eda5a4b0b0ad", null ],
     [ "boolean", "namespacemeshlib.html#a87c1e676f2463f5e12d8f26de0ba40c2", null ],
     [ "boolean_move", "namespacemeshlib.html#add447269c0596b37223cd4fe85ac5e58", null ],
+    [ "boolean_move_a", "namespacemeshlib.html#afd08402ea910519747654f92f6acf6db", null ],
+    [ "boolean_move_b", "namespacemeshlib.html#a7eb632cf98020c27658894971f0d7996", null ],
     [ "boolean_with_xf", "namespacemeshlib.html#a4f72c45208de632b2d6ffb92c515100e", null ],
     [ "bridge_fill_all_holes", "namespacemeshlib.html#ad1412b7ec675d311b830450e112176ee", null ],
     [ "build_bottom", "namespacemeshlib.html#a8e2e64ef3d51d01dda7046a7fc61706b", null ],

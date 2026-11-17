@@ -1,5 +1,7 @@
 var NAVTREEINDEX155 =
 {
+"classMR_1_1WeightedVertex.html#aa080ce7f5f91bafe3a2e10fbd8cf0b60":[9,3,0,0,0,1964,5],
+"classMR_1_1WeightedVertex.html#ad40ed35d2f69ccbdbce7cbd855008150":[9,3,0,0,0,1964,0],
 "classMR_1_1WeightedVertex.html#af33a56c635ecca5917e6df42542cca0d":[9,3,0,0,0,1964,6],
 "classMR_1_1WeightedVertexd.html":[9,3,0,0,0,1965],
 "classMR_1_1WeightedVertexd.html#a11c7921342a8b5d255d7e08188d7d289":[9,3,0,0,0,1965,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX155 =
 "structMR_1_1AffineXf2f.html#a9ee7a1d54c2cb17cbc7a4c5d04153a9b":[9,3,0,0,0,20,0],
 "structMR_1_1AffineXf2f.html#aac0a91e2425fbdefa13349382cb3c81f":[9,3,0,0,0,20,20],
 "structMR_1_1AffineXf2f.html#aac81b64dd24cc88984a44a18b7863b1a":[9,3,0,0,0,20,17],
-"structMR_1_1AffineXf2f.html#ab2b8877d0d25cd8a3c10f195b20adc9b":[9,3,0,0,0,20,6],
-"structMR_1_1AffineXf2f.html#ab32839e34994e7060f2d555a3c62d7c6":[9,3,0,0,0,20,3],
-"structMR_1_1AffineXf2f.html#ab4e8e68b730d12f1738d167d515c3e6d":[9,3,0,0,0,20,21]
+"structMR_1_1AffineXf2f.html#ab2b8877d0d25cd8a3c10f195b20adc9b":[9,3,0,0,0,20,6]
 };

@@ -97,6 +97,8 @@ var group__BooleanGroup =
     ] ],
     [ "MR::boolean", "group__BooleanGroup.html#ga16435c813b6198ecc337b3023c2cc729", null ],
     [ "MR::boolean", "group__BooleanGroup.html#gafdc7b5669facb509c577f29284ddfb9a", null ],
+    [ "MR::boolean", "group__BooleanGroup.html#ga2a60f5dc119d34210b8d687842205a0d", null ],
+    [ "MR::boolean", "group__BooleanGroup.html#gaa918197677c2bb3bc146b48f05fe0f5f", null ],
     [ "MR::boolean", "group__BooleanGroup.html#ga6ed597bf8c9350700adae2b23fed4f74", null ],
     [ "MR::convertIntFloatAllVerts", "group__BooleanGroup.html#gaea2a58b1c675ac131f93a0785e7d7ec1", null ],
     [ "MR::cutMesh", "group__BooleanGroup.html#ga84b6da724860c1e5ac72574b7635c22c", null ],

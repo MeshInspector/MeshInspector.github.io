@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html#a6ec8c02bd14628e618f686796e101e67":[9,3,0,0,0,834,1],
+"classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html#a787a6070e5fd4961019fbbb8df4d1106":[9,3,0,0,0,834,9],
 "classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html#a89c9842893d1acafd41169505f822f9c":[9,3,0,0,0,834,7],
 "classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html#a8f7ab9c1aecda4b8037af6a60bfa2e98":[9,3,0,0,0,834,13],
 "classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html#aa46842eb338d78a8b21c2da3c22377a9":[9,3,0,0,0,834,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "classMR_1_1Const__SegmPointf.html#af9fe0c91bcd57ba8d801bb6d045e1596":[9,3,0,0,0,844,7],
 "classMR_1_1Const__SegmPointf.html#afeeb792d22fe08a8e543e369108fcbab":[9,3,0,0,0,844,13],
 "classMR_1_1Const__SegmentSegmentIntersectResult.html":[9,3,0,0,0,842],
-"classMR_1_1Const__SegmentSegmentIntersectResult.html#a143ad91f54fe0503c9ba06955224d124":[9,3,0,0,0,842,3],
-"classMR_1_1Const__SegmentSegmentIntersectResult.html#a3a1d7f24f3884c98cb15b08d0ef0d554":[9,3,0,0,0,842,1],
-"classMR_1_1Const__SegmentSegmentIntersectResult.html#a3b99a52b4fdac9ab16b306224ada89e2":[9,3,0,0,0,842,8]
+"classMR_1_1Const__SegmentSegmentIntersectResult.html#a143ad91f54fe0503c9ba06955224d124":[9,3,0,0,0,842,3]
 };

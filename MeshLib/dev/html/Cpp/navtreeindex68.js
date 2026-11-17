@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1MakeSignedByWindingNumberSettings.html":[9,0,0,19,920],
+"structMR_1_1MapOrHashMap.html":[9,0,0,19,340],
 "structMR_1_1MarchingCubesParams.html":[9,0,0,19,874],
 "structMR_1_1MarkedContour3f.html":[9,0,0,19,341],
 "structMR_1_1MarkedVoxelSlice_1_1Mark.html":[9,0,0,19,627],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1MeshApproxRelaxParams.html#aed8137acdd95c73e5606d4ad5fa7e3ae":[9,0,0,9,6,2,0],
 "structMR_1_1MeshAttributesToUpdate.html":[9,0,0,19,348],
 "structMR_1_1MeshBuilder_1_1BuildSettings.html":[9,0,0,19,354],
-"structMR_1_1MeshBuilder_1_1MeshPiece.html":[9,0,0,19,351],
-"structMR_1_1MeshBuilder_1_1Triangle.html":[9,0,0,19,353],
-"structMR_1_1MeshBuilder_1_1UniteCloseParams.html":[9,0,0,19,352]
+"structMR_1_1MeshBuilder_1_1MeshPiece.html":[9,0,0,19,351]
 };

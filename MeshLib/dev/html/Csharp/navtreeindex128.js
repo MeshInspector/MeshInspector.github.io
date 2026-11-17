@@ -1,5 +1,7 @@
 var NAVTREEINDEX128 =
 {
+"classMR_1_1PdfParameters.html#ab3370937dc99c490552fa3dd0ffc6b25":[9,3,0,0,0,1578,11],
+"classMR_1_1PdfParameters.html#ac5af14d9c2acdd0ba55157cba5c4d74c":[9,3,0,0,0,1578,7],
 "classMR_1_1PixelBitSet.html":[9,3,0,0,0,1579],
 "classMR_1_1PixelBitSet.html#a0af3b52c26f48e78d8e280bfff37dff1":[9,3,0,0,0,1579,23],
 "classMR_1_1PixelBitSet.html#a1bb78593f5d6f94af7da675675207be8":[9,3,0,0,0,1579,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX128 =
 "classMR_1_1PlaneObject.html#ad18d6c0e9342aaaebea808fba8c5072d":[9,3,0,0,0,1585,63],
 "classMR_1_1PlaneObject.html#ad375aedadee0297c78ebb6c9729911ff":[9,3,0,0,0,1585,5],
 "classMR_1_1PlaneObject.html#ad41e19d01616451f717ff91964fae32c":[9,3,0,0,0,1585,43],
-"classMR_1_1PlaneObject.html#adcbdc8004664e2e660e383f4159630eb":[9,3,0,0,0,1585,40],
-"classMR_1_1PlaneObject.html#adcd5ab0d351cac2753a4b8e0c2258559":[9,3,0,0,0,1585,19],
-"classMR_1_1PlaneObject.html#ade067edefcd4f3cbfec11b97b0893cfb":[9,3,0,0,0,1585,27]
+"classMR_1_1PlaneObject.html#adcbdc8004664e2e660e383f4159630eb":[9,3,0,0,0,1585,40]
 };

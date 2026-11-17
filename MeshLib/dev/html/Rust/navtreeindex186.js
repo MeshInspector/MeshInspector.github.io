@@ -1,5 +1,7 @@
 var NAVTREEINDEX186 =
 {
+"structmeshlib_1_1nesting_1_1BoxNestingOptions.html#a6626600d5742d897f1107fca9a78b46a":[9,5,0,0,0,19,1,16],
+"structmeshlib_1_1nesting_1_1BoxNestingOptions.html#a6626600d5742d897f1107fca9a78b46a":[9,5,1,0,0,8,1,16],
 "structmeshlib_1_1nesting_1_1BoxNestingOptions.html#a72b9e83c6f7e1229a050a8a1d8eeb5de":[9,5,0,0,0,19,1,17],
 "structmeshlib_1_1nesting_1_1BoxNestingOptions.html#a72b9e83c6f7e1229a050a8a1d8eeb5de":[9,5,1,0,0,8,1,17],
 "structmeshlib_1_1nesting_1_1BoxNestingOptions.html#a7ed23a004ecb25e163aa18334213b477":[9,5,0,0,0,19,1,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX186 =
 "structmeshlib_1_1parallel_1_1CallSimply.html#a92788ddc5f6fe232c42f3c4b61a4203d":[9,5,0,0,0,21,0,0],
 "structmeshlib_1_1parallel_1_1CallSimply.html#a92788ddc5f6fe232c42f3c4b61a4203d":[9,5,1,0,0,10,0,0],
 "structmeshlib_1_1parallel_1_1CallSimplyMaker.html":[9,5,0,0,0,21,1],
-"structmeshlib_1_1parallel_1_1CallSimplyMaker.html":[9,5,1,0,0,10,1],
-"structmeshlib_1_1parallel_1_1CallSimplyMaker.html#a0440462d19467f6d8896491b7d14f40b":[9,5,0,0,0,21,1,1],
-"structmeshlib_1_1parallel_1_1CallSimplyMaker.html#a0440462d19467f6d8896491b7d14f40b":[9,5,1,0,0,10,1,1]
+"structmeshlib_1_1parallel_1_1CallSimplyMaker.html":[9,5,1,0,0,10,1]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX214 =
 {
+"structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2d9bfbb3be8b9bf2e0abd511d172c2bb5.html#a144705ac7b1e9a5af36361d3adebefe3":[9,5,0,0,0,1309,6],
+"structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2d9bfbb3be8b9bf2e0abd511d172c2bb5.html#a144705ac7b1e9a5af36361d3adebefe3":[9,5,1,0,0,1296,6],
 "structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2d9bfbb3be8b9bf2e0abd511d172c2bb5.html#a23dafb1722d7d036426fed120479a259":[9,5,0,0,0,1309,4],
 "structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2d9bfbb3be8b9bf2e0abd511d172c2bb5.html#a23dafb1722d7d036426fed120479a259":[9,5,1,0,0,1296,4],
 "structmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2d9bfbb3be8b9bf2e0abd511d172c2bb5.html#a43c43b22a93e82cabfbfd5125dd514ce":[9,5,0,0,0,1309,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX214 =
 "structmeshlib_1_1std__vector__MR__Dipole__MR__Allocator__MR__Dipole.html#a0eecbb2c9e91dd02aca0dc02faa53975":[9,5,0,0,0,1316,3],
 "structmeshlib_1_1std__vector__MR__Dipole__MR__Allocator__MR__Dipole.html#a0eecbb2c9e91dd02aca0dc02faa53975":[9,5,1,0,0,1303,3],
 "structmeshlib_1_1std__vector__MR__Dipole__MR__Allocator__MR__Dipole.html#a11c087cbfe23a5742b4b7022b6fb895a":[9,5,0,0,0,1316,1],
-"structmeshlib_1_1std__vector__MR__Dipole__MR__Allocator__MR__Dipole.html#a11c087cbfe23a5742b4b7022b6fb895a":[9,5,1,0,0,1303,1],
-"structmeshlib_1_1std__vector__MR__Dipole__MR__Allocator__MR__Dipole.html#a1c54cafdc9b2f1117d2d65bc6a870353":[9,5,0,0,0,1316,5],
-"structmeshlib_1_1std__vector__MR__Dipole__MR__Allocator__MR__Dipole.html#a1c54cafdc9b2f1117d2d65bc6a870353":[9,5,1,0,0,1303,5]
+"structmeshlib_1_1std__vector__MR__Dipole__MR__Allocator__MR__Dipole.html#a11c087cbfe23a5742b4b7022b6fb895a":[9,5,1,0,0,1303,1]
 };

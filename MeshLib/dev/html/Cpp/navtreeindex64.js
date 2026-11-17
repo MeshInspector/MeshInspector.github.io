@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1AABBTreePoints_1_1Node.html#a0951e423adb41a83132b36c18125f02b":[9,0,0,1,10,0,2],
+"structMR_1_1AABBTreePoints_1_1Node.html#a2153d4fd7d12b27618511103c9080df3":[9,0,0,1,10,0,3],
 "structMR_1_1AABBTreePoints_1_1Node.html#a4706c948a08613c970dd47e89dfc42b8":[9,0,0,1,10,0,0],
 "structMR_1_1AABBTreePoints_1_1Node.html#a56b80dcc65ea72cecfafa260d4f8300a":[9,0,0,1,10,0,1],
 "structMR_1_1AABBTreePoints_1_1Node.html#aa7d207477de6241a5d47a8971c2944aa":[9,0,0,1,10,0,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1CutByProjectionSettings.html":[9,0,0,19,197],
 "structMR_1_1CutMeshParameters.html":[9,0,0,8,4],
 "structMR_1_1CutMeshParameters.html":[9,0,0,19,195],
-"structMR_1_1CutMeshResult.html":[9,0,0,8,5],
-"structMR_1_1CutMeshResult.html":[9,0,0,19,196],
-"structMR_1_1DecimatePolylineResult.html":[9,0,0,19,473]
+"structMR_1_1CutMeshResult.html":[9,0,0,8,5]
 };

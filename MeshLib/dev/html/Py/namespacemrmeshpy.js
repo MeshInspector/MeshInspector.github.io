@@ -2795,6 +2795,8 @@ var namespacemrmeshpy =
     [ "blend", "namespacemrmeshpy.html#a951806631942a9749ec8566dbb3a0ee0", null ],
     [ "boolean", "namespacemrmeshpy.html#aa34e1be5cf1e711ef9c627a9e5698c22", null ],
     [ "boolean", "namespacemrmeshpy.html#a9b030e2d8b7dd049c7f254404ed169e6", null ],
+    [ "boolean", "namespacemrmeshpy.html#a1482de86a19852de3d7a63b6f20944a5", null ],
+    [ "boolean", "namespacemrmeshpy.html#a7ff4a7e9b5ec604c7a8998406fa92dd2", null ],
     [ "boolean", "namespacemrmeshpy.html#abb45e56c56206dc693d1e499a23ea9ee", null ],
     [ "bridgeFillAllHoles", "namespacemrmeshpy.html#abc24b3c492eb8be34eade0fcfa327eca", null ],
     [ "buildBottom", "namespacemrmeshpy.html#a49b5df40bfddcf3eb90011ce926892ce", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"group__MathGroup.html#gad9b8ea723d950187f862ce89900a7534":[9,0,0,19,3347],
+"group__MathGroup.html#gae96ef04bcc2364c6964eca4beee9dc5a":[9,0,0,0,59],
 "group__MathGroup.html#gae96ef04bcc2364c6964eca4beee9dc5a":[9,0,0,19,4444],
 "group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826":[9,0,0,0,65],
 "group__MathGroup.html#gafb9f0540202d96451dee9753314e960e":[9,0,0,0,67],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "group__PlanarPathGroup.html#gaf1dd390e537cb9342ced1b65ad2b29d6":[9,0,0,15,0,0],
 "group__PlanarPathGroup.html#gafc3a801f48da79fea27b2c5a60579ddb":[9,0,0,15,0,4],
 "group__PointCloudComponentsGroup.html":[9,0,0,18,1],
-"group__PointCloudComponentsGroup.html#ga162ae0e5c789b236060b9b335feb625c":[9,0,0,18,1,2],
-"group__PointCloudComponentsGroup.html#ga2fd74d609a838e30b78f03e49da4737e":[9,0,0,18,1,4],
-"group__PointCloudComponentsGroup.html#ga3fb225164d831bc24e3c3ab3a48516a2":[9,0,0,18,1,1]
+"group__PointCloudComponentsGroup.html#ga162ae0e5c789b236060b9b335feb625c":[9,0,0,18,1,2]
 };

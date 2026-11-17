@@ -10439,6 +10439,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:af57997e97fb2201478c93d6b6592b772"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs the AABB trees of the whole meshes if they are not cached yet and caches them in the meshes, so that the next calls of Boolean with the same meshes are faster Generated from function <span class="tt"><a class="el" href="#a6e41979b347d16015b72249770957a48" title="Performs CSG operation on two meshes Makes new mesh - result of boolean operation on mesh A and mesh ...">MR.boolean</a></span>. Parameter <span class="tt">params_</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a631bac54cdc6217f4e5aaa1f65a92a52" id="r_a631bac54cdc6217f4e5aaa1f65a92a52"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1BooleanResult.html">MR.BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a631bac54cdc6217f4e5aaa1f65a92a52">boolean</a> (MR.Misc._Moved&lt; <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> &gt; meshA, MR.Misc._Moved&lt; <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> &gt; meshB, <a class="el" href="#ad89c5fb7af9da0df04973fb2cd54e934">MR.BooleanOperation</a> operation, <a class="el" href="classMR_1_1Const__BooleanParameters.html">MR.Const_BooleanParameters</a>? params_=null)</td></tr>
 <tr class="memdesc:a631bac54cdc6217f4e5aaa1f65a92a52"><td class="mdescLeft">&#160;</td><td class="mdescRight">consumes the meshes; if a mesh has no cached AABB tree and only a small part of it is near the other mesh, then only a temporary tree of that part is constructed, which is much faster Generated from function <span class="tt"><a class="el" href="#a6e41979b347d16015b72249770957a48" title="Performs CSG operation on two meshes Makes new mesh - result of boolean operation on mesh A and mesh ...">MR.boolean</a></span>. Parameter <span class="tt">params_</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:a239d12ff7c59e897dc1bf264bded5684" id="r_a239d12ff7c59e897dc1bf264bded5684"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1BooleanResult.html">MR.BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a239d12ff7c59e897dc1bf264bded5684">boolean</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> meshA, MR.Misc._Moved&lt; <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> &gt; meshB, <a class="el" href="#ad89c5fb7af9da0df04973fb2cd54e934">MR.BooleanOperation</a> operation, <a class="el" href="classMR_1_1Const__BooleanParameters.html">MR.Const_BooleanParameters</a>? params_=null)</td></tr>
+<tr class="memdesc:a239d12ff7c59e897dc1bf264bded5684"><td class="mdescLeft">&#160;</td><td class="mdescRight">keeps meshA as the first overload does (its whole tree is cached in it) and consumes meshB as the second one does Generated from function <span class="tt"><a class="el" href="#a6e41979b347d16015b72249770957a48" title="Performs CSG operation on two meshes Makes new mesh - result of boolean operation on mesh A and mesh ...">MR.boolean</a></span>. Parameter <span class="tt">params_</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:a8a75b6f7f7c9b9889a3c7ece06574735" id="r_a8a75b6f7f7c9b9889a3c7ece06574735"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1BooleanResult.html">MR.BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a75b6f7f7c9b9889a3c7ece06574735">boolean</a> (MR.Misc._Moved&lt; <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> &gt; meshA, <a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> meshB, <a class="el" href="#ad89c5fb7af9da0df04973fb2cd54e934">MR.BooleanOperation</a> operation, <a class="el" href="classMR_1_1Const__BooleanParameters.html">MR.Const_BooleanParameters</a>? params_=null)</td></tr>
+<tr class="memdesc:a8a75b6f7f7c9b9889a3c7ece06574735"><td class="mdescLeft">&#160;</td><td class="mdescRight">consumes meshA as the second overload does and keeps meshB as the first one does (its whole tree is cached in it), e.g. for many subtractions of the same small mesh in different positions from a large mesh Generated from function <span class="tt"><a class="el" href="#a6e41979b347d16015b72249770957a48" title="Performs CSG operation on two meshes Makes new mesh - result of boolean operation on mesh A and mesh ...">MR.boolean</a></span>. Parameter <span class="tt">params_</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a3111b23641d917bcea29b413a78b4dec" id="r_a3111b23641d917bcea29b413a78b4dec"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1BooleanResult.html">MR.BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3111b23641d917bcea29b413a78b4dec">forceBoolean</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> meshA, <a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> meshB, <a class="el" href="#ad89c5fb7af9da0df04973fb2cd54e934">MR.BooleanOperation</a> operation, <a class="el" href="classMR_1_1Const__BooleanParameters.html">MR.Const_BooleanParameters</a>? params_=null)</td></tr>
 <tr class="memdesc:a3111b23641d917bcea29b413a78b4dec"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls boolean in force mode, also unites close vertices and fills holes afterwards  <br /></td></tr>
 <tr class="memitem:a5760bf4810bccd45dadf48c6bf26d36e" id="r_a5760bf4810bccd45dadf48c6bf26d36e"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5760bf4810bccd45dadf48c6bf26d36e">selfBoolean</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>? new2Old=null)</td></tr>
@@ -18823,7 +18827,7 @@ Related Symbols</h2></td></tr>
 </div>
 </div>
 <a id="a6e41979b347d16015b72249770957a48" name="a6e41979b347d16015b72249770957a48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e41979b347d16015b72249770957a48">&#9670;&#160;</a></span>boolean() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e41979b347d16015b72249770957a48">&#9670;&#160;</a></span>boolean() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -18887,7 +18891,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 </div>
 </div>
 <a id="af57997e97fb2201478c93d6b6592b772" name="af57997e97fb2201478c93d6b6592b772"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af57997e97fb2201478c93d6b6592b772">&#9670;&#160;</a></span>boolean() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af57997e97fb2201478c93d6b6592b772">&#9670;&#160;</a></span>boolean() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -18927,8 +18931,90 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 
 </div>
 </div>
+<a id="a239d12ff7c59e897dc1bf264bded5684" name="a239d12ff7c59e897dc1bf264bded5684"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a239d12ff7c59e897dc1bf264bded5684">&#9670;&#160;</a></span>boolean() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1BooleanResult.html">MR.BooleanResult</a> MR.boolean </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>meshA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Misc._Moved&lt; <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>meshB</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ad89c5fb7af9da0df04973fb2cd54e934">MR.BooleanOperation</a></td>          <td class="paramname"><span class="paramname"><em>operation</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__BooleanParameters.html">MR.Const_BooleanParameters</a>?</td>          <td class="paramname"><span class="paramname"><em>params_</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>keeps meshA as the first overload does (its whole tree is cached in it) and consumes meshB as the second one does Generated from function <span class="tt"><a class="el" href="#a6e41979b347d16015b72249770957a48" title="Performs CSG operation on two meshes Makes new mesh - result of boolean operation on mesh A and mesh ...">MR.boolean</a></span>. Parameter <span class="tt">params_</span> defaults to <span class="tt">{}</span>. </p>
+
+</div>
+</div>
+<a id="a8a75b6f7f7c9b9889a3c7ece06574735" name="a8a75b6f7f7c9b9889a3c7ece06574735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a75b6f7f7c9b9889a3c7ece06574735">&#9670;&#160;</a></span>boolean() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1BooleanResult.html">MR.BooleanResult</a> MR.boolean </td>
+          <td>(</td>
+          <td class="paramtype">MR.Misc._Moved&lt; <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>meshA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>meshB</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ad89c5fb7af9da0df04973fb2cd54e934">MR.BooleanOperation</a></td>          <td class="paramname"><span class="paramname"><em>operation</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__BooleanParameters.html">MR.Const_BooleanParameters</a>?</td>          <td class="paramname"><span class="paramname"><em>params_</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>consumes meshA as the second overload does and keeps meshB as the first one does (its whole tree is cached in it), e.g. for many subtractions of the same small mesh in different positions from a large mesh Generated from function <span class="tt"><a class="el" href="#a6e41979b347d16015b72249770957a48" title="Performs CSG operation on two meshes Makes new mesh - result of boolean operation on mesh A and mesh ...">MR.boolean</a></span>. Parameter <span class="tt">params_</span> defaults to <span class="tt">{}</span>. </p>
+
+</div>
+</div>
 <a id="a631bac54cdc6217f4e5aaa1f65a92a52" name="a631bac54cdc6217f4e5aaa1f65a92a52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a631bac54cdc6217f4e5aaa1f65a92a52">&#9670;&#160;</a></span>boolean() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a631bac54cdc6217f4e5aaa1f65a92a52">&#9670;&#160;</a></span>boolean() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

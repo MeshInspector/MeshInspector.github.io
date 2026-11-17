@@ -8,6 +8,8 @@ var MRMeshBoolean_8h =
     [ "MR_std_optional_MR_AffineXf3f", "MRMeshBoolean_8h.html#a0487608acfac1b24d7ade7443d82d166", null ],
     [ "MR_boolean", "MRMeshBoolean_8h.html#a60928ab126616d74fa12fec90a2a347d", null ],
     [ "MR_boolean_move", "MRMeshBoolean_8h.html#a0ab65796b618374b1d890236c5c75ab5", null ],
+    [ "MR_boolean_moveA", "MRMeshBoolean_8h.html#a5361f81d27caee9801eb65aa0a2dd363", null ],
+    [ "MR_boolean_moveB", "MRMeshBoolean_8h.html#ad56b421474a4b8c0a23467ae271a86cf", null ],
     [ "MR_boolean_withXf", "MRMeshBoolean_8h.html#a8171b85b2f1f52796065828e5fefbd62", null ],
     [ "MR_BooleanParameters_AssignFromAnother", "MRMeshBoolean_8h.html#acfd01063079e4b9276e5f25e998af866", null ],
     [ "MR_BooleanParameters_ConstructFrom", "MRMeshBoolean_8h.html#a9b4b96c69a67bc77c506aac1c26e645a", null ],

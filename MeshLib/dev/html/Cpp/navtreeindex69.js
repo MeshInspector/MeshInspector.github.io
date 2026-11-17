@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1MeshBuilder_1_1Triangle.html":[9,0,0,19,353],
+"structMR_1_1MeshBuilder_1_1UniteCloseParams.html":[9,0,0,19,352],
 "structMR_1_1MeshBuilder_1_1VertDuplication.html":[9,0,0,19,560],
 "structMR_1_1MeshBuilder_1_1VertInfo.html":[9,0,0,19,561],
 "structMR_1_1MeshBuilder_1_1VertSpan.html":[9,0,0,19,355],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1Pdf_1_1Cell.html":[9,0,0,19,104],
 "structMR_1_1Pdf_1_1CellCustomParams.html":[9,0,0,19,106],
 "structMR_1_1Pdf_1_1Cell_1_1Empty.html":[9,0,0,19,105],
-"structMR_1_1Pdf_1_1ImageParams.html":[9,0,0,19,103],
-"structMR_1_1Pdf_1_1PaletteRowStats.html":[9,0,0,19,102],
-"structMR_1_1Pdf_1_1TextCellParams.html":[9,0,0,19,107]
+"structMR_1_1Pdf_1_1ImageParams.html":[9,0,0,19,103]
 };

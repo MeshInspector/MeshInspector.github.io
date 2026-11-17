@@ -1,5 +1,7 @@
 var NAVTREEINDEX193 =
 {
+"std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a987aabbdc3b50f33f949a6bebe658e2b":[9,2,2,0,0,0,0,2,609,4],
+"std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a99d77905e440b6cf165c5d754aae3551":[9,2,2,0,0,0,0,2,609,9],
 "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#aa1ee1016b61d460dce4c02242362823a":[9,2,2,0,0,0,0,2,609,0],
 "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#aa41656c428addb8fb31e6bd2d122596c":[9,2,2,0,0,0,0,2,609,15],
 "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#aa4477e9b633dae416c89f743d67c2416":[9,2,2,0,0,0,0,2,609,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX193 =
 "structMR__Box2f.html":[9,2,1,0,10],
 "structMR__Box2f.html#a222674577f94215cd143edbbed945852":[9,2,1,0,10,0],
 "structMR__Box2f.html#ae04ced1ae5b1691af13f185862f5e3c0":[9,2,1,0,10,1],
-"structMR__Box2i.html":[9,2,1,0,11],
-"structMR__Box2i.html#aaea1ac8add913d0cc061a52a26278b68":[9,2,1,0,11,1],
-"structMR__Box2i.html#ab1d9a27d3f96d258b9696b2694d82b31":[9,2,1,0,11,0]
+"structMR__Box2i.html":[9,2,1,0,11]
 };

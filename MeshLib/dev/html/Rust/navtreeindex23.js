@@ -1,5 +1,7 @@
 var NAVTREEINDEX23 =
 {
+"structmeshlib_1_1Axis.html":[9,5,1,0,0,61],
+"structmeshlib_1_1BMap__MR__FaceId__size__t.html":[9,5,0,0,0,98],
 "structmeshlib_1_1BMap__MR__FaceId__size__t.html":[9,5,1,0,0,85],
 "structmeshlib_1_1BMap__MR__FaceId__size__t.html#a013d78acfa43d75dbea5645eaa0e61f9":[9,5,0,0,0,98,5],
 "structmeshlib_1_1BMap__MR__FaceId__size__t.html#a013d78acfa43d75dbea5645eaa0e61f9":[9,5,1,0,0,85,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX23 =
 "structmeshlib_1_1Ball1f.html#ad19d0677cccdec2a06a2ee88dbd9e7cb":[9,5,1,0,0,63,6],
 "structmeshlib_1_1Ball1f.html#ae26813d4830c67a92f1544dda31f5512":[9,5,0,0,0,76,4],
 "structmeshlib_1_1Ball1f.html#ae26813d4830c67a92f1544dda31f5512":[9,5,1,0,0,63,4],
-"structmeshlib_1_1Ball2d.html":[9,5,0,0,0,77],
-"structmeshlib_1_1Ball2d.html":[9,5,1,0,0,64],
-"structmeshlib_1_1Ball2d.html#a0c161498ad7e0745258c8fb6f29224a2":[9,5,0,0,0,77,0]
+"structmeshlib_1_1Ball2d.html":[9,5,0,0,0,77]
 };

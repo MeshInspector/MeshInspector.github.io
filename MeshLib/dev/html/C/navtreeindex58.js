@@ -247,7 +247,7 @@ var NAVTREEINDEX58 =
 "MRMeshBooleanFacade_8h_source.html":[9,2,2,0,0,0,0,1,171],
 "MRMeshBoolean_8h.html":[9,2,2,0,0,0,0,1,170],
 "MRMeshBoolean_8h.html#a0487608acfac1b24d7ade7443d82d166":[9,2,2,0,0,0,0,1,170,5],
-"MRMeshBoolean_8h.html#a099e495e4daa3dc19e5ae0b8c032a023":[9,2,2,0,0,0,0,1,170,55],
+"MRMeshBoolean_8h.html#a099e495e4daa3dc19e5ae0b8c032a023":[9,2,2,0,0,0,0,1,170,57],
 "MRMeshBoolean_8h.html#a0ab65796b618374b1d890236c5c75ab5":[9,2,2,0,0,0,0,1,170,7],
-"MRMeshBoolean_8h.html#a11af767eff4d1cad7c9882457dcf56f4":[9,2,2,0,0,0,0,1,170,65]
+"MRMeshBoolean_8h.html#a11af767eff4d1cad7c9882457dcf56f4":[9,2,2,0,0,0,0,1,170,67]
 };

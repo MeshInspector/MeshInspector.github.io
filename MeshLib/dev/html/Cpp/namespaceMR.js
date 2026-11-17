@@ -1978,6 +1978,8 @@ var namespaceMR =
     [ "BMap< FaceId, FaceId >", "group__GeneralGroup.html#gaf01fb14419d367d8e8f8f9ae478e1df5", null ],
     [ "boolean", "group__BooleanGroup.html#ga16435c813b6198ecc337b3023c2cc729", null ],
     [ "boolean", "group__BooleanGroup.html#gafdc7b5669facb509c577f29284ddfb9a", null ],
+    [ "boolean", "group__BooleanGroup.html#ga2a60f5dc119d34210b8d687842205a0d", null ],
+    [ "boolean", "group__BooleanGroup.html#gaa918197677c2bb3bc146b48f05fe0f5f", null ],
     [ "boolean", "group__BooleanGroup.html#ga6ed597bf8c9350700adae2b23fed4f74", null ],
     [ "Box< float >", "group__GeneralGroup.html#ga52d4c73dd39cffe01830b2bb1f53a190", null ],
     [ "Box< int >", "group__GeneralGroup.html#gaa17fe9d041945f62753eeef088626605", null ],

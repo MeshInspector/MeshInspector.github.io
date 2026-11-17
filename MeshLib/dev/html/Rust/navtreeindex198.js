@@ -1,5 +1,7 @@
 var NAVTREEINDEX198 =
 {
+"structmeshlib_1_1std__optional__MR__PolylineIntersectionResult2.html#adaaf5f7fc5ca6ba0ce9c5998dbf1cef7":[9,5,0,0,0,1087,3],
+"structmeshlib_1_1std__optional__MR__PolylineIntersectionResult2.html#adaaf5f7fc5ca6ba0ce9c5998dbf1cef7":[9,5,1,0,0,1074,3],
 "structmeshlib_1_1std__optional__MR__PolylineIntersectionResult2.html#aee4674c4704f0c332d83d12df0e513c6":[9,5,0,0,0,1087,0],
 "structmeshlib_1_1std__optional__MR__PolylineIntersectionResult2.html#aee4674c4704f0c332d83d12df0e513c6":[9,5,1,0,0,1074,0],
 "structmeshlib_1_1std__optional__MR__SignedDistanceToMeshResult.html":[9,5,0,0,0,1088],
@@ -247,7 +249,5 @@ var NAVTREEINDEX198 =
 "structmeshlib_1_1std__optional__std__vector__std__string.html#a658523ff0993a725acaa9f4bb4edfd91":[9,5,0,0,0,1106,3],
 "structmeshlib_1_1std__optional__std__vector__std__string.html#a658523ff0993a725acaa9f4bb4edfd91":[9,5,1,0,0,1093,3],
 "structmeshlib_1_1std__optional__std__vector__std__string.html#a8cc07b3f9cc805009818667d6939529d":[9,5,0,0,0,1106,4],
-"structmeshlib_1_1std__optional__std__vector__std__string.html#a8cc07b3f9cc805009818667d6939529d":[9,5,1,0,0,1093,4],
-"structmeshlib_1_1std__optional__std__vector__std__string.html#aeb73b97f6f2ef2c8b8a4a830bdbb90aa":[9,5,0,0,0,1106,0],
-"structmeshlib_1_1std__optional__std__vector__std__string.html#aeb73b97f6f2ef2c8b8a4a830bdbb90aa":[9,5,1,0,0,1093,0]
+"structmeshlib_1_1std__optional__std__vector__std__string.html#a8cc07b3f9cc805009818667d6939529d":[9,5,1,0,0,1093,4]
 };

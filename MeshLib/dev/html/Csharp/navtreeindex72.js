@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"classMR_1_1Const__PointMeasurementObject.html#a117790c559560b35e944b45d91bf2a0e":[9,3,0,0,0,755,77],
+"classMR_1_1Const__PointMeasurementObject.html#a1337a4e8b50b9ed7108e981b94a28ea8":[9,3,0,0,0,755,81],
 "classMR_1_1Const__PointMeasurementObject.html#a17d6382dafffb99315d304fe565dfe6e":[9,3,0,0,0,755,34],
 "classMR_1_1Const__PointMeasurementObject.html#a18dd8f9d2007d4b57c2da5e459424a2a":[9,3,0,0,0,755,63],
 "classMR_1_1Const__PointMeasurementObject.html#a1b1855b376c3e3fcf4e4ff0a82049985":[9,3,0,0,0,755,28],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "classMR_1_1Const__PointToPlaneAligningTransform.html#a492d61a05550238b58115dce97a615a5":[9,3,0,0,0,767,7],
 "classMR_1_1Const__PointToPlaneAligningTransform.html#a50fd04c8d9c722e16017ebaa6b131a18":[9,3,0,0,0,767,5],
 "classMR_1_1Const__PointToPlaneAligningTransform.html#a6864d91d5208f0188be4e1aebd2e8885":[9,3,0,0,0,767,0],
-"classMR_1_1Const__PointToPlaneAligningTransform.html#a6c16ddd7da47a042528c9f4d2285772d":[9,3,0,0,0,767,13],
-"classMR_1_1Const__PointToPlaneAligningTransform.html#aad63ecb149bd446219d64c59573babcd":[9,3,0,0,0,767,9],
-"classMR_1_1Const__PointToPlaneAligningTransform.html#abbc4c47e28ef91c3c4ea48b7d06ce1ac":[9,3,0,0,0,767,8]
+"classMR_1_1Const__PointToPlaneAligningTransform.html#a6c16ddd7da47a042528c9f4d2285772d":[9,3,0,0,0,767,13]
 };

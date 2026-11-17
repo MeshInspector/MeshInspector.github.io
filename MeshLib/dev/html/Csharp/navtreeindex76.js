@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"classMR_1_1Const__Quaterniond.html#a77daa73c7b082def6f8a282dd38fc390":[9,3,0,0,0,813,1],
+"classMR_1_1Const__Quaterniond.html#a7b8224fc07fd32dd2f3cb0afd8b9a635":[9,3,0,0,0,813,25],
 "classMR_1_1Const__Quaterniond.html#a814357dd43744846e0285fe2c134d8dc":[9,3,0,0,0,813,30],
 "classMR_1_1Const__Quaterniond.html#a858a0865a803f165aab67ce9f710d130":[9,3,0,0,0,813,0],
 "classMR_1_1Const__Quaterniond.html#a89fdc741bf752fa9f40e174259ad1c8e":[9,3,0,0,0,813,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "classMR_1_1Const__ReduceTotalAngleParams.html#a469187699c8a3543e13819215e49eb0b":[9,3,0,0,0,822,3],
 "classMR_1_1Const__ReduceTotalAngleParams.html#a63fd151dcfd4fddc8d918a9002ef28b3":[9,3,0,0,0,822,12],
 "classMR_1_1Const__ReduceTotalAngleParams.html#a6b6825d750b66787b57d9560cd3c5d82":[9,3,0,0,0,822,7],
-"classMR_1_1Const__ReduceTotalAngleParams.html#a7951cb5f027ddd4174cae6b9a952713b":[9,3,0,0,0,822,2],
-"classMR_1_1Const__ReduceTotalAngleParams.html#a7a8cd843a3f8982fe6e43151a8678b53":[9,3,0,0,0,822,0],
-"classMR_1_1Const__ReduceTotalAngleParams.html#a7da5241150d3aebaaa4c8d76da9acf5a":[9,3,0,0,0,822,6]
+"classMR_1_1Const__ReduceTotalAngleParams.html#a7951cb5f027ddd4174cae6b9a952713b":[9,3,0,0,0,822,2]
 };

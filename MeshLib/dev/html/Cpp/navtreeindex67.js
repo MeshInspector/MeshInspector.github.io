@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#af8b700f89714d976e55426b9ae9a67b9":[9,0,1,0,1,17,8,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#af8b700f89714d976e55426b9ae9a67b9":[9,0,2,0,1,7,8,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html":[9,0,1,0,1,17,9],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html":[9,0,2,0,1,7,9],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html#a275878227f6987b781fd73d3741d8a6d":[9,0,1,0,1,17,9,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1MakeBridgeResult.html#a2d3386014f3867f61860546d2b63b02a":[9,0,0,9,3,2,3],
 "structMR_1_1MakeBridgeResult.html#a5959fa7b09b9a888870b4492e158145f":[9,0,0,9,3,2,1],
 "structMR_1_1MakeBridgeResult.html#ada00548262d69e8a5ce7f4536d752495":[9,0,0,9,3,2,2],
-"structMR_1_1MakeDegenerateBandAroundRegionParams.html":[9,0,0,19,358],
-"structMR_1_1MakeSignedByWindingNumberSettings.html":[9,0,0,19,920],
-"structMR_1_1MapOrHashMap.html":[9,0,0,19,340]
+"structMR_1_1MakeDegenerateBandAroundRegionParams.html":[9,0,0,19,358]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1BoxedLeaf__MRObjTreeTraits.html#aef22c3eae4d8562b26c5aacabe3e499d":[9,3,0,0,0,147,6],
+"classMR_1_1BoxedLeaf__MRObjTreeTraits.html#afc35fe36b554995c37cdce3ffb01710e":[9,3,0,0,0,147,2],
 "classMR_1_1Buffer__Char.html":[9,3,0,0,0,148],
 "classMR_1_1Buffer__Char.html#a1b139651e7e0b9875d1cc29b46b27ca3":[9,3,0,0,0,148,8],
 "classMR_1_1Buffer__Char.html#a7913af431dc22f7b2a1890ecd6408eed":[9,3,0,0,0,148,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1ChangeActiveBoxAction.html#a28c1f719cee74a43d273dbe58f70ccbd":[9,3,0,0,0,170,1],
 "classMR_1_1ChangeActiveBoxAction.html#a2e3ba40f267d0d709e933ddb551bf5ae":[9,3,0,0,0,170,6],
 "classMR_1_1ChangeActiveBoxAction.html#a56b330568e0b5cb3eaf403e91e430dfb":[9,3,0,0,0,170,5],
-"classMR_1_1ChangeActiveBoxAction.html#aa2d06d9020a4467a04ed95baf68f887d":[9,3,0,0,0,170,3],
-"classMR_1_1ChangeActiveBoxAction.html#aa42ed921c92f6ee6d545be92ef1fd845":[9,3,0,0,0,170,2],
-"classMR_1_1ChangeActiveBoxAction.html#ab661a546d55282b44356824921716d19":[9,3,0,0,0,170,0]
+"classMR_1_1ChangeActiveBoxAction.html#aa2d06d9020a4467a04ed95baf68f887d":[9,3,0,0,0,170,3]
 };

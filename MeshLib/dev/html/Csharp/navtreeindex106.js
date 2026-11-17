@@ -1,5 +1,7 @@
 var NAVTREEINDEX106 =
 {
+"classMR_1_1FaceBMap.html#af658984e113ea976da2427fb0243f33e":[9,3,0,0,0,1248,4],
+"classMR_1_1FaceBMap.html#affde7c86b3163c2c13283caf790a8dc1":[9,3,0,0,0,1248,0],
 "classMR_1_1FaceBitSet.html":[9,3,0,0,0,1247],
 "classMR_1_1FaceBitSet.html#a0671e2292142c0e5f7ec6cba32b139e6":[9,3,0,0,0,1247,31],
 "classMR_1_1FaceBitSet.html#a098ccc86d32db9d3e1484ad56ea8a0a7":[9,3,0,0,0,1247,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX106 =
 "classMR_1_1FastInSphereTesterSoS.html#adb798f9ce171972d35b88665c32ded3d":[9,3,0,0,0,1262,1],
 "classMR_1_1FastInSphereTesterSoS.html#aef7a73351747c7528f0b7455e7153d6a":[9,3,0,0,0,1262,0],
 "classMR_1_1FastWindingNumber.html":[9,3,0,0,0,1263],
-"classMR_1_1FastWindingNumber.html#a0166c793643866bc0ff38c55d0ee5b2a":[9,3,0,0,0,1263,6],
-"classMR_1_1FastWindingNumber.html#a0fa361c5d2196e6f5999923fb70fd88a":[9,3,0,0,0,1263,0],
-"classMR_1_1FastWindingNumber.html#a37d525ec395461e4ebd5d497393476f9":[9,3,0,0,0,1263,1]
+"classMR_1_1FastWindingNumber.html#a0166c793643866bc0ff38c55d0ee5b2a":[9,3,0,0,0,1263,6]
 };

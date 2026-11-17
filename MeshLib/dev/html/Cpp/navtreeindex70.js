@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1Pdf_1_1PaletteRowStats.html":[9,0,0,19,102],
+"structMR_1_1Pdf_1_1TextCellParams.html":[9,0,0,19,107],
 "structMR_1_1Pdf_1_1TextParams.html":[9,0,0,19,101],
 "structMR_1_1PickPointManager_1_1ObjectState.html":[9,0,0,19,654],
 "structMR_1_1PickPointManager_1_1Params.html":[9,0,0,19,652],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1PythonViewer_1_1ViewerLaunchParams.html#af3b83f35ee51eebabbc1f5ffcc7d818c":[9,0,2,0,1,25,6,6],
 "structMR_1_1PythonViewer_1_1ViewerSetup.html":[9,0,1,0,1,40,7],
 "structMR_1_1PythonViewer_1_1ViewerSetup.html":[9,0,2,0,1,25,7],
-"structMR_1_1PythonViewer_1_1ViewportFitDataParams.html":[9,0,1,0,1,40,9],
-"structMR_1_1PythonViewer_1_1ViewportFitDataParams.html":[9,0,2,0,1,25,9],
-"structMR_1_1PythonViewer_1_1ViewportFitDataParams.html#a0a4c297eea63d2aee1c571c8a38d2026":[9,0,1,0,1,40,9,1]
+"structMR_1_1PythonViewer_1_1ViewportFitDataParams.html":[9,0,1,0,1,40,9]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX135 =
 {
+"classMR_1_1SelfIntersections_1_1Const__Settings.html#a1d2e62349caed2d7b284aa3de24b01ce":[9,3,0,0,0,1692,0,21],
+"classMR_1_1SelfIntersections_1_1Const__Settings.html#a48e86885386a4cc8dc6018bd9064c8cf":[9,3,0,0,0,1692,0,10],
 "classMR_1_1SelfIntersections_1_1Const__Settings.html#a51fc1148e2432efd812a734ca213c613":[9,3,0,0,0,1692,0,14],
 "classMR_1_1SelfIntersections_1_1Const__Settings.html#a59884a276fd64ee99e23d490eeb35722":[9,3,0,0,0,1692,0,16],
 "classMR_1_1SelfIntersections_1_1Const__Settings.html#a6ce5ca76288f7b06c8b23e1b0acd283b":[9,3,0,0,0,1692,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX135 =
 "classMR_1_1SimpleVolumeMinMax.html#a7257fe2dd5b4f34afbaa0a757957f604":[9,3,0,0,0,1714,12],
 "classMR_1_1SimpleVolumeMinMax.html#a7d23100be34e54522523bb6f38fa5507":[9,3,0,0,0,1714,7],
 "classMR_1_1SimpleVolumeMinMax.html#a80511b3be1bfb2705c43727c32ea296f":[9,3,0,0,0,1714,6],
-"classMR_1_1SimpleVolumeMinMax.html#ab1d2c24213584ca0b2ea6545309ea911":[9,3,0,0,0,1714,1],
-"classMR_1_1SimpleVolumeMinMax.html#ab2b75e35100c1a6cd9317d91fa4ee6fe":[9,3,0,0,0,1714,8],
-"classMR_1_1SimpleVolumeMinMax.html#ab8565ab63a6e3ea603fbe1449275e4ed":[9,3,0,0,0,1714,3]
+"classMR_1_1SimpleVolumeMinMax.html#ab1d2c24213584ca0b2ea6545309ea911":[9,3,0,0,0,1714,1]
 };
