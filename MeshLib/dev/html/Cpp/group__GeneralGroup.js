@@ -11637,7 +11637,7 @@ var group__GeneralGroup =
     [ "MR::PickPointManager::closeContour", "group__GeneralGroup.html#gaf651304b2314a2ab0e3ca399750ed29d", null ],
     [ "MR::PluginCloseOnChangeMesh::closeOnDirtyMask_", "group__GeneralGroup.html#ga5cbba9f9600a58f0e3905818df0a5047", null ],
     [ "MR::Features::MeasureResult::Distance::closestPointFor", "group__GeneralGroup.html#ga8670c18dcc3043de2c9724f9e7412b45", null ],
-    [ "MR::closestPointInTriangle", "group__GeneralGroup.html#gadc31522a4b6a3c4f196231ab32643022", null ],
+    [ "MR::closestPointInTriangle", "group__GeneralGroup.html#ga50d1aa8357119f13cba6291c64637671", null ],
     [ "MR::closestPointOnLineSegm", "group__GeneralGroup.html#ga3499fd4f69711941f919d6cfc7789d8b", null ],
     [ "MR::Matrix2::col", "group__GeneralGroup.html#ga54d2436df3221ca1c8a71f6a6f9c83f6", null ],
     [ "MR::Matrix3::col", "group__GeneralGroup.html#ga737e1857a45415abf682a6fd530caf44", null ],

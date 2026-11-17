@@ -3051,7 +3051,7 @@ var searchData=
   ['closecontour_170',['closeContour',['../group__GeneralGroup.html#gaf651304b2314a2ab0e3ca399750ed29d',1,'MR::PickPointManager']]],
   ['closeondirtymask_5f_171',['closeOnDirtyMask_',['../group__GeneralGroup.html#ga5cbba9f9600a58f0e3905818df0a5047',1,'MR::PluginCloseOnChangeMesh']]],
   ['closestpointfor_172',['closestPointFor',['../group__GeneralGroup.html#ga8670c18dcc3043de2c9724f9e7412b45',1,'MR::Features::MeasureResult::Distance']]],
-  ['closestpointintriangle_173',['closestPointInTriangle',['../group__GeneralGroup.html#gadc31522a4b6a3c4f196231ab32643022',1,'MR']]],
+  ['closestpointintriangle_173',['closestPointInTriangle',['../group__GeneralGroup.html#ga50d1aa8357119f13cba6291c64637671',1,'MR']]],
   ['closestpointonlinesegm_174',['closestPointOnLineSegm',['../group__GeneralGroup.html#ga3499fd4f69711941f919d6cfc7789d8b',1,'MR']]],
   ['closestpoints_175',['closestPoints',['../group__IntersectionGroup.html#gaab24181e6c7cccda09f6e6fc5045f3a4',1,'MR::closestPoints(const Line3&lt; T &gt; &amp;line1, const Line3&lt; T &gt; &amp;line2)'],['../group__IntersectionGroup.html#ga174ea372194ccce008006eeca81c9c81',1,'MR::closestPoints(const Line3&lt; T &gt; &amp;ln, const LineSegm3&lt; T &gt; &amp;ls)'],['../group__IntersectionGroup.html#ga4396b23b8c03f5aa66c3cd584dbdfe48',1,'MR::closestPoints(const Line3&lt; T &gt; &amp;line, const Box3&lt; T &gt; &amp;box)']]],
   ['closestpointsparams_176',['closestPointsParams',['../group__IntersectionGroup.html#gad65210018ebebbab9f61dc73b6a6f9db',1,'MR']]],

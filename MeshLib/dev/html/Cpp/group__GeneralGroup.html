@@ -4135,10 +4135,11 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga9457a97e2861090bf3dec6d35b87530c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of chunks of given size required to cover the full array  <br /></td></tr>
 <tr class="memitem:ga3d81205af33e9e335194c853e32478a1" id="r_ga3d81205af33e9e335194c853e32478a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1IteratorRange.html">IteratorRange</a>&lt; <a class="el" href="structMR_1_1ChunkIterator.html">ChunkIterator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3d81205af33e9e335194c853e32478a1">MR::splitByChunks</a> (size_t totalSize, size_t chunkSize, size_t overlap=0)</td></tr>
 <tr class="memdesc:ga3d81205af33e9e335194c853e32478a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a pair of iterators for chunks covering the array of given size  <br /></td></tr>
-<tr class="memitem:gadc31522a4b6a3c4f196231ab32643022" id="r_gadc31522a4b6a3c4f196231ab32643022"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:gadc31522a4b6a3c4f196231ab32643022 template"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;, <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadc31522a4b6a3c4f196231ab32643022">MR::closestPointInTriangle</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;p, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
-<tr class="memitem:gac1af1fb0afcf5fb6f5ee5e1784d5f502" id="r_gac1af1fb0afcf5fb6f5ee5e1784d5f502"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac1af1fb0afcf5fb6f5ee5e1784d5f502">MR::MR_BIND_TEMPLATE</a> (std::pair&lt; Vector3f, <a class="el" href="#ga38bb05d6835471e5cc3352addbd30f02">TriPointf</a> &gt; <a class="el" href="#gadc31522a4b6a3c4f196231ab32643022">closestPointInTriangle</a>(const Vector3f &amp;p, const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c))</td></tr>
-<tr class="memitem:ga045b1be6060baeecb7796bc4ec05eef9" id="r_ga045b1be6060baeecb7796bc4ec05eef9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga045b1be6060baeecb7796bc4ec05eef9">MR::MR_BIND_TEMPLATE</a> (std::pair&lt; Vector3d, TriPointd &gt; <a class="el" href="#gadc31522a4b6a3c4f196231ab32643022">closestPointInTriangle</a>(const Vector3d &amp;p, const Vector3d &amp;a, const Vector3d &amp;b, const Vector3d &amp;c))</td></tr>
+<tr class="memitem:ga50d1aa8357119f13cba6291c64637671" id="r_ga50d1aa8357119f13cba6291c64637671"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ga50d1aa8357119f13cba6291c64637671 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> std::pair&lt; <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;, <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga50d1aa8357119f13cba6291c64637671">MR::closestPointInTriangle</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;p, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
+<tr class="memdesc:ga50d1aa8357119f13cba6291c64637671"><td class="mdescLeft">&#160;</td><td class="mdescRight">forced inline: through a call, the vertices are stored in memory and reloaded, which can stall on store forwarding  <br /></td></tr>
+<tr class="memitem:gac1af1fb0afcf5fb6f5ee5e1784d5f502" id="r_gac1af1fb0afcf5fb6f5ee5e1784d5f502"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac1af1fb0afcf5fb6f5ee5e1784d5f502">MR::MR_BIND_TEMPLATE</a> (std::pair&lt; Vector3f, <a class="el" href="#ga38bb05d6835471e5cc3352addbd30f02">TriPointf</a> &gt; <a class="el" href="#ga50d1aa8357119f13cba6291c64637671">closestPointInTriangle</a>(const Vector3f &amp;p, const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c))</td></tr>
+<tr class="memitem:ga045b1be6060baeecb7796bc4ec05eef9" id="r_ga045b1be6060baeecb7796bc4ec05eef9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga045b1be6060baeecb7796bc4ec05eef9">MR::MR_BIND_TEMPLATE</a> (std::pair&lt; Vector3d, TriPointd &gt; <a class="el" href="#ga50d1aa8357119f13cba6291c64637671">closestPointInTriangle</a>(const Vector3d &amp;p, const Vector3d &amp;a, const Vector3d &amp;b, const Vector3d &amp;c))</td></tr>
 <tr class="memitem:ga30b687a3ae4e9a8f1e2faf636e415f5c" id="r_ga30b687a3ae4e9a8f1e2faf636e415f5c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga30b687a3ae4e9a8f1e2faf636e415f5c">MR::PointAndDistance::valid</a> () const</td></tr>
 <tr class="memdesc:ga30b687a3ae4e9a8f1e2faf636e415f5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for validity, otherwise there is no point closer than maxBidirDist  <br /></td></tr>
 <tr class="memitem:ga22d2548f25c23157315955c70584d502" id="r_ga22d2548f25c23157315955c70584d502"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga22d2548f25c23157315955c70584d502">MR::PointAndDistance::operator bool</a> () const</td></tr>
@@ -48664,8 +48665,8 @@ template&lt;typename T, typename I&gt; </div>
 
 </div>
 </div>
-<a id="gadc31522a4b6a3c4f196231ab32643022" name="gadc31522a4b6a3c4f196231ab32643022"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadc31522a4b6a3c4f196231ab32643022">&#9670;&#160;</a></span>closestPointInTriangle()</h2>
+<a id="ga50d1aa8357119f13cba6291c64637671" name="ga50d1aa8357119f13cba6291c64637671"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga50d1aa8357119f13cba6291c64637671">&#9670;&#160;</a></span>closestPointInTriangle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -48673,7 +48674,7 @@ template&lt;typename T, typename I&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::pair&lt; <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;, <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; T &gt; &gt; MR::closestPointInTriangle </td>
+          <td class="memname"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> std::pair&lt; <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;, <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; T &gt; &gt; MR::closestPointInTriangle </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
         </tr>
@@ -48696,6 +48697,8 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRClosestPointInTriangle_8h.html">MRMesh/MRClosestPointInTriangle.h</a>&gt;</code></p>
+
+<p>forced inline: through a call, the vertices are stored in memory and reloaded, which can stall on store forwarding </p>
 <p><a href="https://stackoverflow.com/a/74395029/7325599">https://stackoverflow.com/a/74395029/7325599</a></p>
 <p>d4-d3 = dot(bc,bp) &gt;= 0 in #6</p>
 <p>floating-point rounding errors</p>

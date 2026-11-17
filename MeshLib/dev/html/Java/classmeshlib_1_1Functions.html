@@ -9169,7 +9169,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Generated from function <span class="tt">MR::closestPointInTriangle&lt;double&gt;</span>.</p>
+<p>forced inline: through a call, the vertices are stored in memory and reloaded, which can stall on store forwarding Generated from function <span class="tt">MR::closestPointInTriangle&lt;double&gt;</span>.</p>
 <p>Calls <span class="tt">MR_closestPointInTriangle_double()</span>. </p>
 
 </div>
@@ -9210,7 +9210,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Generated from function <span class="tt">MR::closestPointInTriangle&lt;float&gt;</span>.</p>
+<p>forced inline: through a call, the vertices are stored in memory and reloaded, which can stall on store forwarding Generated from function <span class="tt">MR::closestPointInTriangle&lt;float&gt;</span>.</p>
 <p>Calls <span class="tt">MR_closestPointInTriangle_float()</span>. </p>
 
 </div>
@@ -44398,8 +44398,8 @@ All new faces should be parallel to given direction It is measured in squared le
 <div class="line">    meshParams.texturePerFace = &amp;texturePerFace;</div>
 <div class="line">subs.onEdgeSplit = <a class="code hl_function" href="#aa382a636f7160ba96b64a8f8c637e570">meshOnEdgeSplitAttribute</a>( *obj_-&gt;varMesh(), meshParams );</div>
 <div class="line"><a class="code hl_function" href="#af5dddfa988210f3dc5340ef6cf87dad8">subdivideMesh</a>( *obj_-&gt;varMesh(), subs );</div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:41043</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:40928</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:41045</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:40930</div></div>
 <div class="ttc" id="aclassmeshlib_1_1MeshAttributesToUpdate_html"><div class="ttname"><a href="classmeshlib_1_1MeshAttributesToUpdate.html">meshlib.MeshAttributesToUpdate</a></div><div class="ttdef"><b>Definition</b> MeshAttributesToUpdate.java:11</div></div>
 </div><!-- fragment --><p>Generated from function <span class="tt">MR::meshOnEdgeSplitAttribute</span>.</p>
 <p>Calls <span class="tt">MR_meshOnEdgeSplitAttribute()</span>. </p>
@@ -44566,8 +44566,8 @@ All new faces should be parallel to given direction It is measured in squared le
 <div class="line">auto preCollapse = <a class="code hl_function" href="#a166299cba3c97de3a69adc7140487547">meshPreCollapseVertAttribute</a>( mesh, meshParams );</div>
 <div class="line"><a class="code hl_function" href="#a9376f6e96aa742bea4a4257595c70838">decimateMesh</a>( mesh, <a class="code hl_class" href="classmeshlib_1_1DecimateSettings.html">DecimateSettings</a>{ .preCollapse = preCollapse } );</div>
 <div class="ttc" id="aclassmeshlib_1_1DecimateSettings_html"><div class="ttname"><a href="classmeshlib_1_1DecimateSettings.html">meshlib.DecimateSettings</a></div><div class="ttdef"><b>Definition</b> DecimateSettings.java:17</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_a166299cba3c97de3a69adc7140487547"><div class="ttname"><a href="#a166299cba3c97de3a69adc7140487547">meshlib.Functions.meshPreCollapseVertAttribute</a></div><div class="ttdeci">static meshlib.std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref meshPreCollapseVertAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:37853</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_a9376f6e96aa742bea4a4257595c70838"><div class="ttname"><a href="#a9376f6e96aa742bea4a4257595c70838">meshlib.Functions.decimateMesh</a></div><div class="ttdeci">static meshlib.DecimateResult decimateMesh(meshlib.Mesh mesh, meshlib.DecimateSettings settings)</div><div class="ttdoc">Performs mesh simplification in mesh region according to the settings.</div><div class="ttdef"><b>Definition</b> Functions.java:37618</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_a166299cba3c97de3a69adc7140487547"><div class="ttname"><a href="#a166299cba3c97de3a69adc7140487547">meshlib.Functions.meshPreCollapseVertAttribute</a></div><div class="ttdeci">static meshlib.std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref meshPreCollapseVertAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:37855</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_a9376f6e96aa742bea4a4257595c70838"><div class="ttname"><a href="#a9376f6e96aa742bea4a4257595c70838">meshlib.Functions.decimateMesh</a></div><div class="ttdeci">static meshlib.DecimateResult decimateMesh(meshlib.Mesh mesh, meshlib.DecimateSettings settings)</div><div class="ttdoc">Performs mesh simplification in mesh region according to the settings.</div><div class="ttdef"><b>Definition</b> Functions.java:37620</div></div>
 </div><!-- fragment --><p>Generated from function <span class="tt">MR::meshPreCollapseVertAttribute</span>.</p>
 <p>Calls <span class="tt">MR_meshPreCollapseVertAttribute()</span>. </p>
 

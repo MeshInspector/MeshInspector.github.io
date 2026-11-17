@@ -2045,7 +2045,7 @@ var namespaceMR =
     [ "cloneRegion", "group__GeneralGroup.html#ga36dd932f6e7fabf9cd93412109072d43", null ],
     [ "cloneRegion", "group__GeneralGroup.html#gaf9a8f767ee5ad5cc349b0990baedf6c0", null ],
     [ "cloneRegion", "group__GeneralGroup.html#ga6f0b5ec441ae5f56756368f8fcc0f26e", null ],
-    [ "closestPointInTriangle", "group__GeneralGroup.html#gadc31522a4b6a3c4f196231ab32643022", null ],
+    [ "closestPointInTriangle", "group__GeneralGroup.html#ga50d1aa8357119f13cba6291c64637671", null ],
     [ "closestPointOnLineSegm", "group__GeneralGroup.html#ga3499fd4f69711941f919d6cfc7789d8b", null ],
     [ "closestPoints", "group__IntersectionGroup.html#ga4396b23b8c03f5aa66c3cd584dbdfe48", null ],
     [ "closestPoints", "group__IntersectionGroup.html#gaab24181e6c7cccda09f6e6fc5045f3a4", null ],
