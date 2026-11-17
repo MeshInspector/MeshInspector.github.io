@@ -1,5 +1,12 @@
 var NAVTREEINDEX86 =
 {
+"structmeshlib_1_1NoDefInit__MR__TextureId.html#ad496d78d8b6228b19c1c6a381c374590":[9,5,1,0,0,677,9],
+"structmeshlib_1_1NoDefInit__MR__TextureId.html#ada652f7d850dd1e711f1e70932176607":[9,5,0,0,0,690,8],
+"structmeshlib_1_1NoDefInit__MR__TextureId.html#ada652f7d850dd1e711f1e70932176607":[9,5,1,0,0,677,8],
+"structmeshlib_1_1NoDefInit__MR__TextureId.html#aeed3d1ba74695d0888ea3b57fea06fea":[9,5,0,0,0,690,6],
+"structmeshlib_1_1NoDefInit__MR__TextureId.html#aeed3d1ba74695d0888ea3b57fea06fea":[9,5,1,0,0,677,6],
+"structmeshlib_1_1NoDefInit__MR__TextureId.html#afd247d0ce4f89a7c05ac4c7d2b943e6d":[9,5,0,0,0,690,4],
+"structmeshlib_1_1NoDefInit__MR__TextureId.html#afd247d0ce4f89a7c05ac4c7d2b943e6d":[9,5,1,0,0,677,4],
 "structmeshlib_1_1NoDefInit__MR__UndirectedEdgeId.html":[9,5,0,0,0,691],
 "structmeshlib_1_1NoDefInit__MR__UndirectedEdgeId.html":[9,5,1,0,0,678],
 "structmeshlib_1_1NoDefInit__MR__UndirectedEdgeId.html#a087663b9ecd10f94a048d9ec4d9336a7":[9,5,0,0,0,691,5],
@@ -242,12 +249,5 @@ var NAVTREEINDEX86 =
 "structmeshlib_1_1NodeBitSet.html#ae285d8f82076c464cadb078454b47d75":[9,5,1,0,0,666,36],
 "structmeshlib_1_1NodeBitSet.html#ae30600e5b27bbefecc362a219fb5d65b":[9,5,0,0,0,679,27],
 "structmeshlib_1_1NodeBitSet.html#ae30600e5b27bbefecc362a219fb5d65b":[9,5,1,0,0,666,27],
-"structmeshlib_1_1NodeBitSet.html#ae7650a4c2b189428e100e21537b63ae9":[9,5,0,0,0,679,15],
-"structmeshlib_1_1NodeBitSet.html#ae7650a4c2b189428e100e21537b63ae9":[9,5,1,0,0,666,15],
-"structmeshlib_1_1NodeBitSet.html#aeff0d2da995c4862b2ad9579207fddce":[9,5,0,0,0,679,44],
-"structmeshlib_1_1NodeBitSet.html#aeff0d2da995c4862b2ad9579207fddce":[9,5,1,0,0,666,44],
-"structmeshlib_1_1NodeBitSet.html#af001e072b4d9670633e64e29db5ac48c":[9,5,0,0,0,679,41],
-"structmeshlib_1_1NodeBitSet.html#af001e072b4d9670633e64e29db5ac48c":[9,5,1,0,0,666,41],
-"structmeshlib_1_1NodeBitSet.html#af09646c2b9f74555cc9851f76de30716":[9,5,0,0,0,679,45],
-"structmeshlib_1_1NodeBitSet.html#af09646c2b9f74555cc9851f76de30716":[9,5,1,0,0,666,45]
+"structmeshlib_1_1NodeBitSet.html#ae7650a4c2b189428e100e21537b63ae9":[9,5,0,0,0,679,15]
 };

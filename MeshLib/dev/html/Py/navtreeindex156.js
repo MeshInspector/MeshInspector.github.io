@@ -1,5 +1,11 @@
 var NAVTREEINDEX156 =
 {
+"classmrmeshpy_1_1Nesting_1_1ConstBoxNestingCorner.html#a18c3058aa93bd43ffc927beb074a287e":[9,1,0,0,2,1887,3,2],
+"classmrmeshpy_1_1Nesting_1_1ConstBoxNestingCorner.html#a18c3058aa93bd43ffc927beb074a287e":[9,1,1,0,1,1887,3,2],
+"classmrmeshpy_1_1Nesting_1_1ConstBoxNestingCorner.html#a6cc0ce3287edbe3a7460c2c0989e6f04":[9,1,0,0,2,1887,3,0],
+"classmrmeshpy_1_1Nesting_1_1ConstBoxNestingCorner.html#a6cc0ce3287edbe3a7460c2c0989e6f04":[9,1,1,0,1,1887,3,0],
+"classmrmeshpy_1_1Nesting_1_1ConstBoxNestingCorner.html#aced196b129a3695d5a459d07c981532d":[9,1,0,0,2,1887,3,1],
+"classmrmeshpy_1_1Nesting_1_1ConstBoxNestingCorner.html#aced196b129a3695d5a459d07c981532d":[9,1,1,0,1,1887,3,1],
 "classmrmeshpy_1_1Nesting_1_1ConstBoxNestingOptions.html":[9,1,0,0,2,1887,4],
 "classmrmeshpy_1_1Nesting_1_1ConstBoxNestingOptions.html":[9,1,1,0,1,1887,4],
 "classmrmeshpy_1_1Nesting_1_1ConstBoxNestingOptions.html#a3daf1586a3e0e19764d0b8cad87b6953":[9,1,0,0,2,1887,4,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX156 =
 "classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#aad4f144c8d80489ed988471aaac35d25":[9,1,0,0,2,1887,20,13],
 "classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#aad4f144c8d80489ed988471aaac35d25":[9,1,1,0,1,1887,20,13],
 "classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#aae4825dec751a11576e516b4a5dda257":[9,1,0,0,2,1887,20,12],
-"classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#aae4825dec751a11576e516b4a5dda257":[9,1,1,0,1,1887,20,12],
-"classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#ae84ab341ad0706bf89d7d0d03b807bba":[9,1,0,0,2,1887,20,7],
-"classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#ae84ab341ad0706bf89d7d0d03b807bba":[9,1,1,0,1,1887,20,7],
-"classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#aefd401b7381e5702bf33327e28e662b9":[9,1,0,0,2,1887,20,4],
-"classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#aefd401b7381e5702bf33327e28e662b9":[9,1,1,0,1,1887,20,4],
-"classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#af858d12513ea9342d47afdb8cd640b49":[9,1,0,0,2,1887,20,6],
-"classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#af858d12513ea9342d47afdb8cd640b49":[9,1,1,0,1,1887,20,6]
+"classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#aae4825dec751a11576e516b4a5dda257":[9,1,1,0,1,1887,20,12]
 };

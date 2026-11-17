@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"structmeshlib_1_1Ball2d.html#afe7db53490fec1d0f3e62c75a09731fa":[9,5,1,0,0,64,6],
 "structmeshlib_1_1Ball2f.html":[9,5,0,0,0,78],
 "structmeshlib_1_1Ball2f.html":[9,5,1,0,0,65],
 "structmeshlib_1_1Ball2f.html#a034253fd3617be98d2b8278af1138bb6":[9,5,0,0,0,78,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "structmeshlib_1_1BasinVolumeCalculator.html#a5a2fb22cf5a6156911cac41fc0ba722d":[9,5,1,0,0,78,1],
 "structmeshlib_1_1BasinVolumeCalculator.html#a93901671a44b0c7d4f6abf25b16009e9":[9,5,0,0,0,91,0],
 "structmeshlib_1_1BasinVolumeCalculator.html#a93901671a44b0c7d4f6abf25b16009e9":[9,5,1,0,0,78,0],
-"structmeshlib_1_1BendContoursAlongCurveParams.html":[9,5,0,0,0,92],
-"structmeshlib_1_1BendContoursAlongCurveParams.html":[9,5,1,0,0,79]
+"structmeshlib_1_1BendContoursAlongCurveParams.html":[9,5,0,0,0,92]
 };

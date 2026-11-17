@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"structmeshlib_1_1EdgeBitSet.html#a6f5623848950dd2d84674610654ec39e":[9,5,1,0,0,281,16],
 "structmeshlib_1_1EdgeBitSet.html#a6f97446d4870d90f4486c8058449fb17":[9,5,0,0,0,294,34],
 "structmeshlib_1_1EdgeBitSet.html#a6f97446d4870d90f4486c8058449fb17":[9,5,1,0,0,281,34],
 "structmeshlib_1_1EdgeBitSet.html#a72dd9ef8bfc85b6270b4d991a24ea0d9":[9,5,0,0,0,294,46],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "structmeshlib_1_1EdgeMap.html#a6f02373e96541153eea3a41f34e84c63":[9,5,1,0,0,286,14],
 "structmeshlib_1_1EdgeMap.html#a701dcf2ba81330431ba0e81a1c8151cc":[9,5,0,0,0,299,37],
 "structmeshlib_1_1EdgeMap.html#a701dcf2ba81330431ba0e81a1c8151cc":[9,5,1,0,0,286,37],
-"structmeshlib_1_1EdgeMap.html#a761e54cfd43a32c3457f88aad78861b0":[9,5,0,0,0,299,1],
-"structmeshlib_1_1EdgeMap.html#a761e54cfd43a32c3457f88aad78861b0":[9,5,1,0,0,286,1]
+"structmeshlib_1_1EdgeMap.html#a761e54cfd43a32c3457f88aad78861b0":[9,5,0,0,0,299,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"structmeshlib_1_1BooleanInternalParameters.html#a83039090c375aa3a54aa587ae8059c50":[9,5,1,0,0,98,10],
 "structmeshlib_1_1BooleanInternalParameters.html#a844fda714f22a37ef191c10558a483d1":[9,5,0,0,0,111,14],
 "structmeshlib_1_1BooleanInternalParameters.html#a844fda714f22a37ef191c10558a483d1":[9,5,1,0,0,98,14],
 "structmeshlib_1_1BooleanInternalParameters.html#aabd0c1668028606462f75eb733037e73":[9,5,0,0,0,111,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "structmeshlib_1_1Box1d.html#a28b362788577b1d309df5945bf3ef1c3":[9,5,1,0,0,107,18],
 "structmeshlib_1_1Box1d.html#a2b318e1044c820c613d037028e601728":[9,5,0,0,0,120,23],
 "structmeshlib_1_1Box1d.html#a2b318e1044c820c613d037028e601728":[9,5,1,0,0,107,23],
-"structmeshlib_1_1Box1d.html#a33007ca995cc6ddc3534bc5148f5560d":[9,5,0,0,0,120,9],
-"structmeshlib_1_1Box1d.html#a33007ca995cc6ddc3534bc5148f5560d":[9,5,1,0,0,107,9]
+"structmeshlib_1_1Box1d.html#a33007ca995cc6ddc3534bc5148f5560d":[9,5,0,0,0,120,9]
 };

@@ -165,6 +165,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2c682f97d5cecf7ab101700ff3037fa0" id="r_a2c682f97d5cecf7ab101700ff3037fa0"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c682f97d5cecf7ab101700ff3037fa0">uv_coords</a> () const -&gt; *const *mut meshlib::ffi::MR_VertCoords2</td></tr>
 <tr class="memitem:a7444650666793c7b927132b2dc99146a" id="r_a7444650666793c7b927132b2dc99146a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7444650666793c7b927132b2dc99146a">uv_coords_mut</a> () -&gt; *mut *mut meshlib::ffi::MR_VertCoords2</td></tr>
 <tr class="memitem:a40cbac99e5340375df2cfa5222e7884d" id="r_a40cbac99e5340375df2cfa5222e7884d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40cbac99e5340375df2cfa5222e7884d">set_uv_coords</a> (value:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1VertCoords2.html">meshlib::VertCoords2</a> &gt;)</td></tr>
+<tr class="memitem:aca4221e3669a85b4e4d75bde0b95c8cd" id="r_aca4221e3669a85b4e4d75bde0b95c8cd"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca4221e3669a85b4e4d75bde0b95c8cd">tri_corner_uv_coords</a> () const -&gt; *const *mut meshlib::ffi::MR_TriCornerUVCoords</td></tr>
+<tr class="memitem:a7a0b3890ba46f2626efcf7ffe4adddfe" id="r_a7a0b3890ba46f2626efcf7ffe4adddfe"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a0b3890ba46f2626efcf7ffe4adddfe">tri_corner_uv_coords_mut</a> () -&gt; *mut *mut meshlib::ffi::MR_TriCornerUVCoords</td></tr>
+<tr class="memitem:a751f234875fb448f3b90703b6405a347" id="r_a751f234875fb448f3b90703b6405a347"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a751f234875fb448f3b90703b6405a347">set_tri_corner_uv_coords</a> (value:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1TriCornerUVCoords.html">meshlib::TriCornerUVCoords</a> &gt;)</td></tr>
 <tr class="memitem:af398d51a33af5847988059b30081401d" id="r_af398d51a33af5847988059b30081401d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af398d51a33af5847988059b30081401d">normals</a> () const -&gt; *const *mut meshlib::ffi::MR_VertCoords</td></tr>
 <tr class="memitem:aa0d73e7da2ac7b819fb54df330588e31" id="r_aa0d73e7da2ac7b819fb54df330588e31"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0d73e7da2ac7b819fb54df330588e31">normals_mut</a> () -&gt; *mut *mut meshlib::ffi::MR_VertCoords</td></tr>
 <tr class="memitem:a291927c89192321e04b44d1ab1d1331f" id="r_a291927c89192321e04b44d1ab1d1331f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a291927c89192321e04b44d1ab1d1331f">set_normals</a> (value:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1VertCoords.html">meshlib::VertCoords</a> &gt;)</td></tr>
@@ -193,7 +196,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a3fe266b56b705d0b3e7beaac2a9028d7" id="r_a3fe266b56b705d0b3e7beaac2a9028d7"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fe266b56b705d0b3e7beaac2a9028d7">new</a> () -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1MeshLoadSettings.html">meshlib::MeshLoadSettings</a> &gt;</td></tr>
-<tr class="memitem:a7e7cf3982a10fdcfdc26c202c3214103" id="r_a7e7cf3982a10fdcfdc26c202c3214103"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e7cf3982a10fdcfdc26c202c3214103">construct_from</a> (edges:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1std__optional__MR__Edges.html">meshlib::std_optional_MR_Edges</a> &gt;, colors:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1VertColors.html">meshlib::VertColors</a> &gt;, faceColors:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1FaceColors.html">meshlib::FaceColors</a> &gt;, uvCoords:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1VertCoords2.html">meshlib::VertCoords2</a> &gt;, normals:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1VertCoords.html">meshlib::VertCoords</a> &gt;, texture:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1MeshTexture.html">meshlib::MeshTexture</a> &gt;, solidColor:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1std__optional__MR__Color.html">meshlib::std_optional_MR_Color</a> &gt;, skippedFaceCount:Option&lt;&amp;mut core::ffi::c_int &gt;, duplicatedVertexCount:Option&lt;&amp;mut core::ffi::c_int &gt;, xf:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;, callback:&amp;<a class="el" href="structmeshlib_1_1std__function__bool__from__float.html">meshlib::std_function_bool_from_float</a>, telemetrySignal:bool) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1MeshLoadSettings.html">meshlib::MeshLoadSettings</a> &gt;</td></tr>
+<tr class="memitem:a16cc7de537c956580b7b2c34c85ecced" id="r_a16cc7de537c956580b7b2c34c85ecced"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16cc7de537c956580b7b2c34c85ecced">construct_from</a> (edges:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1std__optional__MR__Edges.html">meshlib::std_optional_MR_Edges</a> &gt;, colors:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1VertColors.html">meshlib::VertColors</a> &gt;, faceColors:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1FaceColors.html">meshlib::FaceColors</a> &gt;, uvCoords:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1VertCoords2.html">meshlib::VertCoords2</a> &gt;, triCornerUvCoords:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1TriCornerUVCoords.html">meshlib::TriCornerUVCoords</a> &gt;, normals:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1VertCoords.html">meshlib::VertCoords</a> &gt;, texture:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1MeshTexture.html">meshlib::MeshTexture</a> &gt;, solidColor:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1std__optional__MR__Color.html">meshlib::std_optional_MR_Color</a> &gt;, skippedFaceCount:Option&lt;&amp;mut core::ffi::c_int &gt;, duplicatedVertexCount:Option&lt;&amp;mut core::ffi::c_int &gt;, xf:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;, callback:&amp;<a class="el" href="structmeshlib_1_1std__function__bool__from__float.html">meshlib::std_function_bool_from_float</a>, telemetrySignal:bool) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1MeshLoadSettings.html">meshlib::MeshLoadSettings</a> &gt;</td></tr>
 <tr class="memitem:af088498087da4d5d0de2bc9a9a51b7b3" id="r_af088498087da4d5d0de2bc9a9a51b7b3"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af088498087da4d5d0de2bc9a9a51b7b3">construct_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1MeshLoadSettings.html">meshlib::MeshLoadSettings</a>) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1MeshLoadSettings.html">meshlib::MeshLoadSettings</a> &gt;</td></tr>
 <tr class="inherit_header pub_static_methods_structmeshlib_1_1CppClass"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_structmeshlib_1_1CppClass')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="structmeshlib_1_1CppClass.html">meshlib::CppClass</a></td></tr>
 <tr class="memitem:a11dc1e7c254dc595480cb0454755385e inherit pub_static_methods_structmeshlib_1_1CppClass" id="r_a11dc1e7c254dc595480cb0454755385e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1CppClass.html#a11dc1e7c254dc595480cb0454755385e">destroy</a> (ptr:*mut Self)</td></tr>
@@ -299,8 +302,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7e7cf3982a10fdcfdc26c202c3214103" name="a7e7cf3982a10fdcfdc26c202c3214103"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e7cf3982a10fdcfdc26c202c3214103">&#9670;&#160;</a></span>construct_from()</h2>
+<a id="a16cc7de537c956580b7b2c34c85ecced" name="a16cc7de537c956580b7b2c34c85ecced"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16cc7de537c956580b7b2c34c85ecced">&#9670;&#160;</a></span>construct_from()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -327,6 +330,11 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uvCoords:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1VertCoords2.html">meshlib::VertCoords2</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">triCornerUvCoords:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1TriCornerUVCoords.html">meshlib::TriCornerUVCoords</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -376,7 +384,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Constructs <span class="tt">MR::MeshLoadSettings</span> elementwise.</p>
-<p>Calls <span class="tt">MR_MeshLoadSettings_ConstructFrom()</span>. The reference to the parameter <span class="tt">edges</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">colors</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">faceColors</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">uvCoords</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">normals</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">texture</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">solidColor</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">skippedFaceCount</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">duplicatedVertexCount</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">xf</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">callback</span> might be preserved in the constructed object. </p>
+<p>Calls <span class="tt">MR_MeshLoadSettings_ConstructFrom()</span>. The reference to the parameter <span class="tt">edges</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">colors</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">faceColors</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">uvCoords</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">triCornerUvCoords</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">normals</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">texture</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">solidColor</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">skippedFaceCount</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">duplicatedVertexCount</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">xf</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">callback</span> might be preserved in the constructed object. </p>
 
 </div>
 </div>
@@ -776,6 +784,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a751f234875fb448f3b90703b6405a347" name="a751f234875fb448f3b90703b6405a347"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a751f234875fb448f3b90703b6405a347">&#9670;&#160;</a></span>set_tri_corner_uv_coords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void meshlib::MeshLoadSettings::set_tri_corner_uv_coords </td>
+          <td>(</td>
+          <td class="paramtype">value:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1TriCornerUVCoords.html">meshlib::TriCornerUVCoords</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>&lt; optional load artifact: per-corner uv-coordinates for each triangle Modifies a member variable of class <span class="tt">MR::MeshLoadSettings</span> named <span class="tt">triCornerUvCoords</span>.</p>
+<p>Calls <span class="tt">MR_MeshLoadSettings_Set_triCornerUvCoords()</span>. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">triCornerUvCoords</span>. </p>
+
+</div>
+</div>
 <a id="a40cbac99e5340375df2cfa5222e7884d" name="a40cbac99e5340375df2cfa5222e7884d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a40cbac99e5340375df2cfa5222e7884d">&#9670;&#160;</a></span>set_uv_coords()</h2>
 
@@ -963,6 +990,44 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>&lt; optional load artifact: texture image Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshLoadSettings</span> named <span class="tt">texture</span>.</p>
 <p>Calls <span class="tt">MR_MeshLoadSettings_GetMutable_texture()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="aca4221e3669a85b4e4d75bde0b95c8cd" name="aca4221e3669a85b4e4d75bde0b95c8cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca4221e3669a85b4e4d75bde0b95c8cd">&#9670;&#160;</a></span>tri_corner_uv_coords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::MeshLoadSettings::tri_corner_uv_coords </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  *const *mut meshlib::ffi::MR_TriCornerUVCoords</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>&lt; optional load artifact: per-corner uv-coordinates for each triangle Returns a pointer to a member variable of class <span class="tt">MR::MeshLoadSettings</span> named <span class="tt">triCornerUvCoords</span>.</p>
+<p>Calls <span class="tt">MR_MeshLoadSettings_Get_triCornerUvCoords()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a7a0b3890ba46f2626efcf7ffe4adddfe" name="a7a0b3890ba46f2626efcf7ffe4adddfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a0b3890ba46f2626efcf7ffe4adddfe">&#9670;&#160;</a></span>tri_corner_uv_coords_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::MeshLoadSettings::tri_corner_uv_coords_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut *mut meshlib::ffi::MR_TriCornerUVCoords</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>&lt; optional load artifact: per-corner uv-coordinates for each triangle Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshLoadSettings</span> named <span class="tt">triCornerUvCoords</span>.</p>
+<p>Calls <span class="tt">MR_MeshLoadSettings_GetMutable_triCornerUvCoords()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

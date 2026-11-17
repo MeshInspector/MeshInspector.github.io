@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"namespacemeshlib_1_1lines__save.html#aa2132eff0baf86c84ed61411876c8c84":[9,5,0,0,0,13,8],
 "namespacemeshlib_1_1lines__save.html#ade05a98e50dac63a84a67cf1d870e4f9":[9,5,0,0,0,13,0],
 "namespacemeshlib_1_1lines__save.html#ae69aa9cfd214bccc89fe78db9a98bea9":[9,5,0,0,0,13,4],
 "namespacemeshlib_1_1lines__save.html#af4a35f2afbdef37a8e79328a85466689":[9,5,0,0,0,13,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "namespacemeshlib_1_1scene__load.html#a59f65ab02f25f404a8753c0564f67ce5":[9,5,0,0,0,30,2],
 "namespacemeshlib_1_1scene__load.html#aa9952d6e3dfadfefa9040953f934a997":[9,5,0,0,0,30,3],
 "namespacemeshlib_1_1scene__save.html":[9,5,0,0,0,31],
-"namespacemeshlib_1_1self__intersections.html":[9,5,0,0,0,32],
-"namespacemeshlib_1_1self__intersections.html#a4d11e157c9d479679e5fc77ee063cad5":[9,5,0,0,0,32,3]
+"namespacemeshlib_1_1self__intersections.html":[9,5,0,0,0,32]
 };

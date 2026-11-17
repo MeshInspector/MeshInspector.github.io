@@ -2959,6 +2959,7 @@ var namespacemrmeshpy =
     [ "convertRasterToImage", "namespacemrmeshpy.html#afd3606e55cda65183bdf89a49f33bfc1", null ],
     [ "convertSurfacePathsToMeshContours", "namespacemrmeshpy.html#a4d247260ca82a593ccb3ddf1c0027b23", null ],
     [ "convertSurfacePathWithEndsToMeshContour", "namespacemrmeshpy.html#a8122ddc0c8ab8dc06020c91ad6ef1858", null ],
+    [ "convertTriCornerUVs", "namespacemrmeshpy.html#a014cfd2eadc77fd6d1734b5607e4cbe8", null ],
     [ "copySubdividePackMesh", "namespacemrmeshpy.html#a772ad74205e8411391f2fcb4f3f86b5b", null ],
     [ "cotan", "namespacemrmeshpy.html#a386a490cee1938b254622258d0eb1ef6", null ],
     [ "cotan_double", "namespacemrmeshpy.html#aba15ab7984233f50c2c1d19bfa17bf63", null ],

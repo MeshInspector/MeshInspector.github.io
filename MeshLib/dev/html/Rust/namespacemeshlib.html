@@ -3805,6 +3805,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a69e10627e81fadd1a97cd53d9217d11e" id="r_a69e10627e81fadd1a97cd53d9217d11e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69e10627e81fadd1a97cd53d9217d11e">find_vertex_u_vs</a> (topology:&amp;<a class="el" href="structmeshlib_1_1MeshTopology.html">meshlib::MeshTopology</a>, triCornerUvCoords:&amp;<a class="el" href="structmeshlib_1_1TriCornerUVCoords.html">meshlib::TriCornerUVCoords</a>) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1std__optional__MR__VertCoords2.html">meshlib::std_optional_MR_VertCoords2</a> &gt;</td></tr>
 <tr class="memitem:ab9793369037d5451ebfb85df53e87da5" id="r_ab9793369037d5451ebfb85df53e87da5"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9793369037d5451ebfb85df53e87da5">sample_vertex_color</a> (mesh:&amp;<a class="el" href="structmeshlib_1_1Mesh.html">meshlib::Mesh</a>, v:meshlib::VertId, tex:&amp;<a class="el" href="structmeshlib_1_1MeshTexture.html">meshlib::MeshTexture</a>, triCornerUvCoords:&amp;<a class="el" href="structmeshlib_1_1TriCornerUVCoords.html">meshlib::TriCornerUVCoords</a>) -&gt; <a class="el" href="structmeshlib_1_1Color.html">meshlib::Color</a></td></tr>
 <tr class="memitem:aaa68c3b82af1d05522223115687210e5" id="r_aaa68c3b82af1d05522223115687210e5"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa68c3b82af1d05522223115687210e5">sample_vertex_colors</a> (mesh:&amp;<a class="el" href="structmeshlib_1_1Mesh.html">meshlib::Mesh</a>, tex:&amp;<a class="el" href="structmeshlib_1_1MeshTexture.html">meshlib::MeshTexture</a>, triCornerUvCoords:&amp;<a class="el" href="structmeshlib_1_1TriCornerUVCoords.html">meshlib::TriCornerUVCoords</a>) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1VertColors.html">meshlib::VertColors</a> &gt;</td></tr>
+<tr class="memitem:a0b01292fea699b39f245254afd2642ca" id="r_a0b01292fea699b39f245254afd2642ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b01292fea699b39f245254afd2642ca">convert_tri_corner_u_vs</a> (mesh:&amp;<a class="el" href="structmeshlib_1_1Mesh.html">meshlib::Mesh</a>, triCornerUvCoords:&amp;mut <a class="el" href="structmeshlib_1_1TriCornerUVCoords.html">meshlib::TriCornerUVCoords</a>, uvCoords:&amp;mut <a class="el" href="structmeshlib_1_1VertCoords2.html">meshlib::VertCoords2</a>, colors:&amp;mut <a class="el" href="structmeshlib_1_1VertColors.html">meshlib::VertColors</a>, texture:&amp;mut <a class="el" href="structmeshlib_1_1MeshTexture.html">meshlib::MeshTexture</a>)</td></tr>
 <tr class="memitem:a34ff866d6b7160c50463221c197c8956" id="r_a34ff866d6b7160c50463221c197c8956"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34ff866d6b7160c50463221c197c8956">print_timing_tree_at_end</a> (on:bool, minTimeSec:Option&lt; f64 &gt;)</td></tr>
 <tr class="memitem:afbe6e190320b6675a889d74ff0354cd5" id="r_afbe6e190320b6675a889d74ff0354cd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbe6e190320b6675a889d74ff0354cd5">print_current_timer_branch</a> ()</td></tr>
 <tr class="memitem:a873122829f9ebf01201d1535ed88f5fa" id="r_a873122829f9ebf01201d1535ed88f5fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a873122829f9ebf01201d1535ed88f5fa">print_timing_tree</a> (minTimeSec:Option&lt; f64 &gt;)</td></tr>
@@ -12159,6 +12160,44 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 <p>Generated from function <span class="tt">MR::convertSurfacePathsToMeshContours</span>.</p>
 <p>Calls <span class="tt">MR_convertSurfacePathsToMeshContours()</span>.</p>
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000047">Deprecated</a></b></dt><dd>use surfacePathsToMeshContours </dd></dl>
+
+</div>
+</div>
+<a id="a0b01292fea699b39f245254afd2642ca" name="a0b01292fea699b39f245254afd2642ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b01292fea699b39f245254afd2642ca">&#9670;&#160;</a></span>convert_tri_corner_u_vs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void meshlib::convert_tri_corner_u_vs </td>
+          <td>(</td>
+          <td class="paramtype">mesh:&amp;<a class="el" href="structmeshlib_1_1Mesh.html">meshlib::Mesh</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">triCornerUvCoords:&amp;mut <a class="el" href="structmeshlib_1_1TriCornerUVCoords.html">meshlib::TriCornerUVCoords</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uvCoords:&amp;mut <a class="el" href="structmeshlib_1_1VertCoords2.html">meshlib::VertCoords2</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">colors:&amp;mut <a class="el" href="structmeshlib_1_1VertColors.html">meshlib::VertColors</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">texture:&amp;mut <a class="el" href="structmeshlib_1_1MeshTexture.html">meshlib::MeshTexture</a></td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if per-corner UVs can be converted into per-vertex UVs, then puts them in uvCoords and clears triCornerUvCoords; otherwise, if texture is not empty, samples per-vertex colors from it, and drops the texture if uvCoords are empty Generated from function <span class="tt">MR::convertTriCornerUVs</span>.</p>
+<p>Calls <span class="tt">MR_convertTriCornerUVs()</span>. </p>
 
 </div>
 </div>

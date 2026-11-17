@@ -1,5 +1,9 @@
 var NAVTREEINDEX138 =
 {
+"classmeshlib_1_1TextureBitSet.html#a34fde8195997282d6b08021c36495b89":[9,6,0,0,0,1519,35],
+"classmeshlib_1_1TextureBitSet.html#a34fde8195997282d6b08021c36495b89":[9,6,1,0,0,1519,35],
+"classmeshlib_1_1TextureBitSet.html#a3689f26e83c5c29f242436b4e38a5995":[9,6,0,0,0,1519,21],
+"classmeshlib_1_1TextureBitSet.html#a3689f26e83c5c29f242436b4e38a5995":[9,6,1,0,0,1519,21],
 "classmeshlib_1_1TextureBitSet.html#a3933730af3d661f55841c6a1dad6f22e":[9,6,0,0,0,1519,31],
 "classmeshlib_1_1TextureBitSet.html#a3933730af3d661f55841c6a1dad6f22e":[9,6,1,0,0,1519,31],
 "classmeshlib_1_1TextureBitSet.html#a3cea66b4e9e505f5aaa3999af455debb":[9,6,0,0,0,1519,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX138 =
 "classmeshlib_1_1ThickenParams.html#a6f2cd36521d318b77f94754557acc315":[9,6,0,0,0,1523,7],
 "classmeshlib_1_1ThickenParams.html#a6f2cd36521d318b77f94754557acc315":[9,6,1,0,0,1523,7],
 "classmeshlib_1_1ThickenParams.html#ae4072ee76c209b5201a778a4e323cbc2":[9,6,0,0,0,1523,5],
-"classmeshlib_1_1ThickenParams.html#ae4072ee76c209b5201a778a4e323cbc2":[9,6,1,0,0,1523,5],
-"classmeshlib_1_1ThickenParams.html#af6ba36e7dfe9c94cd5a2d7cf25decc39":[9,6,0,0,0,1523,3],
-"classmeshlib_1_1ThickenParams.html#af6ba36e7dfe9c94cd5a2d7cf25decc39":[9,6,1,0,0,1523,3],
-"classmeshlib_1_1TiffSaveSettings.html":[9,6,0,0,0,1524],
-"classmeshlib_1_1TiffSaveSettings.html":[9,6,1,0,0,1524]
+"classmeshlib_1_1ThickenParams.html#ae4072ee76c209b5201a778a4e323cbc2":[9,6,1,0,0,1523,5]
 };

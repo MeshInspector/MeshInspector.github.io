@@ -1,5 +1,12 @@
 var NAVTREEINDEX124 =
 {
+"structmeshlib_1_1SharpOffsetParameters.html#a769041945a43bfce1b47bfd22b309128":[9,5,0,0,0,925,47],
+"structmeshlib_1_1SharpOffsetParameters.html#a769041945a43bfce1b47bfd22b309128":[9,5,1,0,0,912,47],
+"structmeshlib_1_1SharpOffsetParameters.html#a81ae404f507e4e270e19cd4d14718870":[9,5,0,0,0,925,17],
+"structmeshlib_1_1SharpOffsetParameters.html#a81ae404f507e4e270e19cd4d14718870":[9,5,1,0,0,912,17],
+"structmeshlib_1_1SharpOffsetParameters.html#a8305f369cb7c72807fc17ed9da7f3a3e":[9,5,0,0,0,925,30],
+"structmeshlib_1_1SharpOffsetParameters.html#a8305f369cb7c72807fc17ed9da7f3a3e":[9,5,1,0,0,912,30],
+"structmeshlib_1_1SharpOffsetParameters.html#a896ffa117433cdb984c1e1b0e2e9dd42":[9,5,0,0,0,925,25],
 "structmeshlib_1_1SharpOffsetParameters.html#a896ffa117433cdb984c1e1b0e2e9dd42":[9,5,1,0,0,912,25],
 "structmeshlib_1_1SharpOffsetParameters.html#a8c602f00bc8017732d45a98eef02fd83":[9,5,0,0,0,925,50],
 "structmeshlib_1_1SharpOffsetParameters.html#a8c602f00bc8017732d45a98eef02fd83":[9,5,1,0,0,912,50],
@@ -242,12 +249,5 @@ var NAVTREEINDEX124 =
 "structmeshlib_1_1SignedDistanceToMeshOptions.html#add768c9cae4d080ae5877c9040613a86":[9,5,0,0,0,931,14],
 "structmeshlib_1_1SignedDistanceToMeshOptions.html#add768c9cae4d080ae5877c9040613a86":[9,5,1,0,0,918,14],
 "structmeshlib_1_1SignedDistanceToMeshOptions.html#ae37ea486bb91db855afadc5436875a06":[9,5,0,0,0,931,17],
-"structmeshlib_1_1SignedDistanceToMeshOptions.html#ae37ea486bb91db855afadc5436875a06":[9,5,1,0,0,918,17],
-"structmeshlib_1_1SignedDistanceToMeshOptions.html#affd07e6194f0f5d9e5804127179898ea":[9,5,0,0,0,931,11],
-"structmeshlib_1_1SignedDistanceToMeshOptions.html#affd07e6194f0f5d9e5804127179898ea":[9,5,1,0,0,918,11],
-"structmeshlib_1_1SignedDistanceToMeshResult.html":[9,5,0,0,0,932],
-"structmeshlib_1_1SignedDistanceToMeshResult.html":[9,5,1,0,0,919],
-"structmeshlib_1_1SignedDistanceToMeshResult.html#a06f081a5baf3b10800286e5e3d5b0f31":[9,5,0,0,0,932,5],
-"structmeshlib_1_1SignedDistanceToMeshResult.html#a06f081a5baf3b10800286e5e3d5b0f31":[9,5,1,0,0,919,5],
-"structmeshlib_1_1SignedDistanceToMeshResult.html#a0a8623c9b0ab3bab503ee77cc258f251":[9,5,0,0,0,932,1]
+"structmeshlib_1_1SignedDistanceToMeshOptions.html#ae37ea486bb91db855afadc5436875a06":[9,5,1,0,0,918,17]
 };

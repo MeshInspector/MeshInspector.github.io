@@ -1,5 +1,6 @@
 var MRTextureColors_8rs =
 [
+    [ "meshlib::convert_tri_corner_u_vs", "namespacemeshlib.html#a0b01292fea699b39f245254afd2642ca", null ],
     [ "meshlib::find_vertex_u_vs", "namespacemeshlib.html#a69e10627e81fadd1a97cd53d9217d11e", null ],
     [ "meshlib::find_vertex_uv", "namespacemeshlib.html#aa0efa73b1abbdb1336ffa38cba7d082d", null ],
     [ "meshlib::sample_vertex_color", "namespacemeshlib.html#ab9793369037d5451ebfb85df53e87da5", null ],

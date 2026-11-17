@@ -1623,7 +1623,7 @@ var searchData=
   ['mr_5ftriangulationhelpers_5fsettings_1620',['MR_TriangulationHelpers_Settings',['../MRPointCloudTriangulationHelpers_8h.html#aeb1317cea6682674bb53634c2d619ca8',1,'MRPointCloudTriangulationHelpers.h']]],
   ['mr_5ftriangulationhelpers_5ftriangulatedfandata_1621',['MR_TriangulationHelpers_TriangulatedFanData',['../MRPointCloudTriangulationHelpers_8h.html#a969098fb61bc9c575f0a2ca401ba3f7a',1,'MRPointCloudTriangulationHelpers.h']]],
   ['mr_5ftriangulationparameters_1622',['MR_TriangulationParameters',['../MRPointCloudTriangulation_8h.html#a032845a1d3f3181b204e6dcfa00d27fd',1,'MRPointCloudTriangulation.h']]],
-  ['mr_5ftricorneruvcoords_1623',['MR_TriCornerUVCoords',['../MRPly_8h.html#abf80e9d0fcc3f2903bddf1072257b6d4',1,'MRPly.h']]],
+  ['mr_5ftricorneruvcoords_1623',['MR_TriCornerUVCoords',['../MRMeshLoadSettings_8h.html#abf80e9d0fcc3f2903bddf1072257b6d4',1,'MRMeshLoadSettings.h']]],
   ['mr_5ftriintersectresult_1624',['MR_TriIntersectResult',['../MRTriangleIntersection_8h.html#a3155a1e631288d05270693a674f62207',1,'MRTriangleIntersection.h']]],
   ['mr_5ftrimesh_1625',['MR_TriMesh',['../MRAABBTree_8h.html#ab606653bb9578226f3ddd4aba7a46645',1,'MRAABBTree.h']]],
   ['mr_5ftrimeshpart_1626',['MR_TriMeshPart',['../MRTriMeshPart_8h.html#a8aeaf6ed55bc11409db467147e868e04',1,'MRTriMeshPart.h']]],

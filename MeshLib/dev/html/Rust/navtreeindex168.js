@@ -1,5 +1,12 @@
 var NAVTREEINDEX168 =
 {
+"structmeshlib_1_1VertBitSet.html#af2586f1118c0b0abb06ebd8e049bff22":[9,5,0,0,0,1663,40],
+"structmeshlib_1_1VertBitSet.html#af2586f1118c0b0abb06ebd8e049bff22":[9,5,1,0,0,1650,40],
+"structmeshlib_1_1VertBitSet.html#af8303cf2b587b5bf35f52ae4b179d8fd":[9,5,0,0,0,1663,22],
+"structmeshlib_1_1VertBitSet.html#af8303cf2b587b5bf35f52ae4b179d8fd":[9,5,1,0,0,1650,22],
+"structmeshlib_1_1VertBitSet.html#afcb5cc395c4a800a7d01d1850b3b19e4":[9,5,0,0,0,1663,1],
+"structmeshlib_1_1VertBitSet.html#afcb5cc395c4a800a7d01d1850b3b19e4":[9,5,1,0,0,1650,1],
+"structmeshlib_1_1VertBitSet.html#afd3721bd7c0c21eb5aad664d6566d1a8":[9,5,0,0,0,1663,32],
 "structmeshlib_1_1VertBitSet.html#afd3721bd7c0c21eb5aad664d6566d1a8":[9,5,1,0,0,1650,32],
 "structmeshlib_1_1VertBitSet.html#afd8681d0c9c2dce502e41c208dc8b868":[9,5,0,0,0,1663,59],
 "structmeshlib_1_1VertBitSet.html#afd8681d0c9c2dce502e41c208dc8b868":[9,5,1,0,0,1650,59],
@@ -242,12 +249,5 @@ var NAVTREEINDEX168 =
 "structmeshlib_1_1VertCoords2.html#ac814e11fdc1ed8a14777ec0f02f91ba3":[9,5,0,0,0,1668,2],
 "structmeshlib_1_1VertCoords2.html#ac814e11fdc1ed8a14777ec0f02f91ba3":[9,5,1,0,0,1655,2],
 "structmeshlib_1_1VertCoords2.html#ac8e98bd5557e598e60279b5d4899113b":[9,5,0,0,0,1668,7],
-"structmeshlib_1_1VertCoords2.html#ac8e98bd5557e598e60279b5d4899113b":[9,5,1,0,0,1655,7],
-"structmeshlib_1_1VertCoords2.html#acd86d53d8a18fdd06aa94c2649f229e6":[9,5,0,0,0,1668,17],
-"structmeshlib_1_1VertCoords2.html#acd86d53d8a18fdd06aa94c2649f229e6":[9,5,1,0,0,1655,17],
-"structmeshlib_1_1VertCoords2.html#acfecdf9378bbf3b61fafb84b0ed3e6b0":[9,5,0,0,0,1668,13],
-"structmeshlib_1_1VertCoords2.html#acfecdf9378bbf3b61fafb84b0ed3e6b0":[9,5,1,0,0,1655,13],
-"structmeshlib_1_1VertCoords2.html#ada1816f77e33f2628e0f44b027413edb":[9,5,0,0,0,1668,22],
-"structmeshlib_1_1VertCoords2.html#ada1816f77e33f2628e0f44b027413edb":[9,5,1,0,0,1655,22],
-"structmeshlib_1_1VertCoords2.html#ade5cfa6aa8e6fe3cc3239e53576427ab":[9,5,0,0,0,1668,35]
+"structmeshlib_1_1VertCoords2.html#ac8e98bd5557e598e60279b5d4899113b":[9,5,1,0,0,1655,7]
 };

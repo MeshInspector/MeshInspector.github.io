@@ -3110,6 +3110,7 @@ Functions</h2></td></tr>
 <tr class="memitem:afd3606e55cda65183bdf89a49f33bfc1" id="r_afd3606e55cda65183bdf89a49f33bfc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Image.html">Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd3606e55cda65183bdf89a49f33bfc1">convertRasterToImage</a> (<a class="el" href="classmrmeshpy_1_1ConstRaster.html">ConstRaster</a> raster)</td></tr>
 <tr class="memitem:a8122ddc0c8ab8dc06020c91ad6ef1858" id="r_a8122ddc0c8ab8dc06020c91ad6ef1858"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1OneMeshContour.html">OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8122ddc0c8ab8dc06020c91ad6ef1858">convertSurfacePathWithEndsToMeshContour</a> (<a class="el" href="classmrmeshpy_1_1ConstMesh.html">ConstMesh</a> mesh, <a class="el" href="classmrmeshpy_1_1ConstMeshTriPoint.html">ConstMeshTriPoint</a> start, <a class="el" href="classmrmeshpy_1_1Const__std__vector__EdgePointT__float.html">Const_std_vector_EdgePointT_float</a> surfacePath, <a class="el" href="classmrmeshpy_1_1ConstMeshTriPoint.html">ConstMeshTriPoint</a> <a class="el" href="#a78c9f6d0544de7eda87011186485f1b2">end</a>)</td></tr>
 <tr class="memitem:a4d247260ca82a593ccb3ddf1c0027b23" id="r_a4d247260ca82a593ccb3ddf1c0027b23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1OneMeshContours.html">OneMeshContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d247260ca82a593ccb3ddf1c0027b23">convertSurfacePathsToMeshContours</a> (<a class="el" href="classmrmeshpy_1_1ConstMesh.html">ConstMesh</a> mesh, <a class="el" href="classmrmeshpy_1_1Const__std__vector__std__vector__EdgePointT__float.html">Const_std_vector_std_vector_EdgePointT_float</a> surfacePaths)</td></tr>
+<tr class="memitem:a014cfd2eadc77fd6d1734b5607e4cbe8" id="r_a014cfd2eadc77fd6d1734b5607e4cbe8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a014cfd2eadc77fd6d1734b5607e4cbe8">convertTriCornerUVs</a> (<a class="el" href="classmrmeshpy_1_1ConstMesh.html">ConstMesh</a> mesh, <a class="el" href="classmrmeshpy_1_1TriCornerUVCoords.html">TriCornerUVCoords</a> triCornerUvCoords, <a class="el" href="classmrmeshpy_1_1VertCoords2.html">VertCoords2</a> uvCoords, <a class="el" href="classmrmeshpy_1_1VertColors.html">VertColors</a> colors, <a class="el" href="classmrmeshpy_1_1MeshTexture.html">MeshTexture</a> texture)</td></tr>
 <tr class="memitem:a772ad74205e8411391f2fcb4f3f86b5b" id="r_a772ad74205e8411391f2fcb4f3f86b5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a772ad74205e8411391f2fcb4f3f86b5b">copySubdividePackMesh</a> (<a class="el" href="classmrmeshpy_1_1ConstMeshPart.html">ConstMeshPart</a> mp, float voxelSize, <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> cb='{}')</td></tr>
 <tr class="memitem:a386a490cee1938b254622258d0eb1ef6" id="r_a386a490cee1938b254622258d0eb1ef6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a386a490cee1938b254622258d0eb1ef6">cotan</a> (<a class="el" href="classmrmeshpy_1_1ConstMeshTopology.html">ConstMeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1ConstVertCoords.html">ConstVertCoords</a> points, <a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeId.html">ConstUndirectedEdgeId</a> ue)</td></tr>
 <tr class="memitem:aba15ab7984233f50c2c1d19bfa17bf63" id="r_aba15ab7984233f50c2c1d19bfa17bf63"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba15ab7984233f50c2c1d19bfa17bf63">cotan_double</a> (<a class="el" href="classmrmeshpy_1_1Const__std__array__Vector3__double__3.html">Const_std_array_Vector3_double_3</a> t, float absMaxVal='std::numeric_limits&lt; double &gt;::max()')</td></tr>
@@ -13082,6 +13083,44 @@ newly introduced vertices on cut-contours are also converted, but we expected th
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="a014cfd2eadc77fd6d1734b5607e4cbe8" name="a014cfd2eadc77fd6d1734b5607e4cbe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a014cfd2eadc77fd6d1734b5607e4cbe8">&#9670;&#160;</a></span>convertTriCornerUVs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.convertTriCornerUVs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstMesh.html">ConstMesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1TriCornerUVCoords.html">TriCornerUVCoords</a></td>          <td class="paramname"><span class="paramname"><em>triCornerUvCoords</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertCoords2.html">VertCoords2</a></td>          <td class="paramname"><span class="paramname"><em>uvCoords</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertColors.html">VertColors</a></td>          <td class="paramname"><span class="paramname"><em>colors</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshTexture.html">MeshTexture</a></td>          <td class="paramname"><span class="paramname"><em>texture</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">if per-corner UVs can be converted into per-vertex UVs, then puts them in uvCoords and clears triCornerUvCoords;
+otherwise, if texture is not empty, samples per-vertex colors from it, and drops the texture if uvCoords are empty
+</pre> 
 </div>
 </div>
 <a id="a772ad74205e8411391f2fcb4f3f86b5b" name="a772ad74205e8411391f2fcb4f3f86b5b"></a>

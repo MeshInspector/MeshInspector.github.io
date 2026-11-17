@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"structmeshlib_1_1Mesh.html#a45cb19f2b7adbdf9f9c2d0adaca43011":[9,5,1,0,0,584,37],
 "structmeshlib_1_1Mesh.html#a46484f74e38ec7890be719a80af5b02a":[9,5,0,0,0,597,63],
 "structmeshlib_1_1Mesh.html#a46484f74e38ec7890be719a80af5b02a":[9,5,1,0,0,584,63],
 "structmeshlib_1_1Mesh.html#a47aacffe99a0ee2bdcdc0846daf1b781":[9,5,0,0,0,597,121],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "structmeshlib_1_1MeshEqualizeTriAreasParams.html#a4246720c4ee894c4229f7c861d3c981d":[9,5,1,0,0,588,10],
 "structmeshlib_1_1MeshEqualizeTriAreasParams.html#a44b41188c8fd734860f9c3af47607db3":[9,5,0,0,0,601,6],
 "structmeshlib_1_1MeshEqualizeTriAreasParams.html#a44b41188c8fd734860f9c3af47607db3":[9,5,1,0,0,588,6],
-"structmeshlib_1_1MeshEqualizeTriAreasParams.html#a51f7a611fe5dc6e55c06de0c96418700":[9,5,0,0,0,601,24],
-"structmeshlib_1_1MeshEqualizeTriAreasParams.html#a51f7a611fe5dc6e55c06de0c96418700":[9,5,1,0,0,588,24]
+"structmeshlib_1_1MeshEqualizeTriAreasParams.html#a51f7a611fe5dc6e55c06de0c96418700":[9,5,0,0,0,601,24]
 };

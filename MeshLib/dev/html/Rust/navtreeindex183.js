@@ -1,5 +1,12 @@
 var NAVTREEINDEX183 =
 {
+"structmeshlib_1_1fix__undercuts_1_1ImproveDirectionParameters.html#aefad6e4b2a96b059b1507a7afb4dd0e5":[9,5,0,0,0,5,3,5],
+"structmeshlib_1_1fix__undercuts_1_1ImproveDirectionParameters.html#aefad6e4b2a96b059b1507a7afb4dd0e5":[9,5,1,0,0,3,3,5],
+"structmeshlib_1_1fix__undercuts_1_1ImproveDirectionParameters.html#af2d6b66680032b22ded44f132be3b8bd":[9,5,0,0,0,5,3,0],
+"structmeshlib_1_1fix__undercuts_1_1ImproveDirectionParameters.html#af2d6b66680032b22ded44f132be3b8bd":[9,5,1,0,0,3,3,0],
+"structmeshlib_1_1fix__undercuts_1_1ImproveDirectionParameters.html#afcf3d3537d70661681ffcd6132c64a6c":[9,5,0,0,0,5,3,1],
+"structmeshlib_1_1fix__undercuts_1_1ImproveDirectionParameters.html#afcf3d3537d70661681ffcd6132c64a6c":[9,5,1,0,0,3,3,1],
+"structmeshlib_1_1mesh__builder_1_1BuildSettings.html":[9,5,0,0,0,15,0],
 "structmeshlib_1_1mesh__builder_1_1BuildSettings.html":[9,5,1,0,0,4,0],
 "structmeshlib_1_1mesh__builder_1_1BuildSettings.html#a16cb010b01efeedc13c50e6768126133":[9,5,0,0,0,15,0,4],
 "structmeshlib_1_1mesh__builder_1_1BuildSettings.html#a16cb010b01efeedc13c50e6768126133":[9,5,1,0,0,4,0,4],
@@ -242,12 +249,5 @@ var NAVTREEINDEX183 =
 "structmeshlib_1_1mesh__components_1_1ExpandToComponentsParams.html#a6ef43793317736956cdbcb536c745842":[9,5,0,0,0,16,1,12],
 "structmeshlib_1_1mesh__components_1_1ExpandToComponentsParams.html#a6ef43793317736956cdbcb536c745842":[9,5,1,0,0,5,1,12],
 "structmeshlib_1_1mesh__components_1_1ExpandToComponentsParams.html#a7061c9f2405159d7ae8c329e394addd1":[9,5,0,0,0,16,1,3],
-"structmeshlib_1_1mesh__components_1_1ExpandToComponentsParams.html#a7061c9f2405159d7ae8c329e394addd1":[9,5,1,0,0,5,1,3],
-"structmeshlib_1_1mesh__components_1_1ExpandToComponentsParams.html#a7e9f7414d2d4333cba7d17b168cb59f9":[9,5,0,0,0,16,1,9],
-"structmeshlib_1_1mesh__components_1_1ExpandToComponentsParams.html#a7e9f7414d2d4333cba7d17b168cb59f9":[9,5,1,0,0,5,1,9],
-"structmeshlib_1_1mesh__components_1_1ExpandToComponentsParams.html#a8428c93e1fac3fcd4907788b0eff45de":[9,5,0,0,0,16,1,6],
-"structmeshlib_1_1mesh__components_1_1ExpandToComponentsParams.html#a8428c93e1fac3fcd4907788b0eff45de":[9,5,1,0,0,5,1,6],
-"structmeshlib_1_1mesh__components_1_1ExpandToComponentsParams.html#a868c5f3661ae85ad7d25e65bbe30465b":[9,5,0,0,0,16,1,2],
-"structmeshlib_1_1mesh__components_1_1ExpandToComponentsParams.html#a868c5f3661ae85ad7d25e65bbe30465b":[9,5,1,0,0,5,1,2],
-"structmeshlib_1_1mesh__components_1_1ExpandToComponentsParams.html#aa02e2068290b7878565e5e8c6f8db7c9":[9,5,0,0,0,16,1,4]
+"structmeshlib_1_1mesh__components_1_1ExpandToComponentsParams.html#a7061c9f2405159d7ae8c329e394addd1":[9,5,1,0,0,5,1,3]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX220 =
 {
+"classmrmeshpy_1_1VoxelsSave_1_1ConstSavingSettings.html#a8ca3c2769b3d8d442378381189dfdcc1":[9,1,0,0,2,2648,0,3],
+"classmrmeshpy_1_1VoxelsSave_1_1ConstSavingSettings.html#a8ca3c2769b3d8d442378381189dfdcc1":[9,1,1,0,1,2648,0,3],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html":[9,1,0,0,2,2648,1],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html":[9,1,1,0,1,2648,1],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a0d7cdcdfa2cfe5aad0da69c8c6a20371":[9,1,0,0,2,2648,1,4],
+"classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a0d7cdcdfa2cfe5aad0da69c8c6a20371":[9,1,1,0,1,2648,1,4],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a351d3f3a8b18d4ac416530db5890eb63":[9,1,0,0,2,2648,1,10],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a351d3f3a8b18d4ac416530db5890eb63":[9,1,1,0,1,2648,1,10],
 "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a45d1ed080e04b16fc4054b1bf545e021":[9,1,0,0,2,2648,1,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX220 =
 "classmrmeshpy_1_1WeightedShell_1_1ConstDistanceVolumeCreationParams.html":[9,1,0,0,2,2664,0],
 "classmrmeshpy_1_1WeightedShell_1_1ConstDistanceVolumeCreationParams.html":[9,1,1,0,1,2664,0],
 "classmrmeshpy_1_1WeightedShell_1_1ConstDistanceVolumeCreationParams.html#a681c85602612004efacad11a8cb95c99":[9,1,0,0,2,2664,0,2],
-"classmrmeshpy_1_1WeightedShell_1_1ConstDistanceVolumeCreationParams.html#a681c85602612004efacad11a8cb95c99":[9,1,1,0,1,2664,0,2],
-"classmrmeshpy_1_1WeightedShell_1_1ConstDistanceVolumeCreationParams.html#aa013b766f304b76ee22340f1cc8df7c7":[9,1,0,0,2,2664,0,1],
-"classmrmeshpy_1_1WeightedShell_1_1ConstDistanceVolumeCreationParams.html#aa013b766f304b76ee22340f1cc8df7c7":[9,1,1,0,1,2664,0,1],
-"classmrmeshpy_1_1WeightedShell_1_1ConstDistanceVolumeCreationParams.html#af0d8d083cf9c2e0470e8b07b5e40985b":[9,1,0,0,2,2664,0,0],
-"classmrmeshpy_1_1WeightedShell_1_1ConstDistanceVolumeCreationParams.html#af0d8d083cf9c2e0470e8b07b5e40985b":[9,1,1,0,1,2664,0,0],
-"classmrmeshpy_1_1WeightedShell_1_1ConstParametersBase.html":[9,1,0,0,2,2664,1],
-"classmrmeshpy_1_1WeightedShell_1_1ConstParametersBase.html":[9,1,1,0,1,2664,1]
+"classmrmeshpy_1_1WeightedShell_1_1ConstDistanceVolumeCreationParams.html#a681c85602612004efacad11a8cb95c99":[9,1,1,0,1,2664,0,2]
 };

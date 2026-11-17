@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"structmeshlib_1_1Buffer__char.html#a312f9ee3814f39e5c33b08f1f0157e13":[9,5,1,0,0,123,13],
 "structmeshlib_1_1Buffer__char.html#a3555c345ee09faa06232e38290821712":[9,5,0,0,0,136,1],
 "structmeshlib_1_1Buffer__char.html#a3555c345ee09faa06232e38290821712":[9,5,1,0,0,123,1],
 "structmeshlib_1_1Buffer__char.html#a6955415f36a57770d1987d2cf844490a":[9,5,0,0,0,136,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "structmeshlib_1_1ChangeLinesColorMapAction.html#a5978c4f5574e56c8d783a9be203113bf":[9,5,1,0,0,153,0],
 "structmeshlib_1_1ChangeLinesColorMapAction.html#a63730784a7403239992a73d578951ee8":[9,5,0,0,0,166,3],
 "structmeshlib_1_1ChangeLinesColorMapAction.html#a63730784a7403239992a73d578951ee8":[9,5,1,0,0,153,3],
-"structmeshlib_1_1ChangeLinesColorMapAction.html#aa1cd32cceb1efc66a6fc7ce58afb204a":[9,5,0,0,0,166,4],
-"structmeshlib_1_1ChangeLinesColorMapAction.html#aa1cd32cceb1efc66a6fc7ce58afb204a":[9,5,1,0,0,153,4]
+"structmeshlib_1_1ChangeLinesColorMapAction.html#aa1cd32cceb1efc66a6fc7ce58afb204a":[9,5,0,0,0,166,4]
 };

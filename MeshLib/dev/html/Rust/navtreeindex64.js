@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structmeshlib_1_1IPointPairs.html#a0ebdc96b0440df8c524b86ff85653d8c":[9,5,1,0,0,501,1],
 "structmeshlib_1_1IPointPairs.html#a4093758ca4cbbeaf4ca20d223525ff50":[9,5,0,0,0,514,3],
 "structmeshlib_1_1IPointPairs.html#a4093758ca4cbbeaf4ca20d223525ff50":[9,5,1,0,0,501,3],
 "structmeshlib_1_1IPointPairs.html#a7bd8bd6b5bee36312cc6b563b0d20bca":[9,5,0,0,0,514,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structmeshlib_1_1InSphereSearchSettings.html#ad7f51524454b7b22ddec71d1e8109846":[9,5,1,0,0,487,9],
 "structmeshlib_1_1InSphereSearchSettings.html#ade5098403763732b69ee54309aeec473":[9,5,0,0,0,500,7],
 "structmeshlib_1_1InSphereSearchSettings.html#ade5098403763732b69ee54309aeec473":[9,5,1,0,0,487,7],
-"structmeshlib_1_1InSphereSearchSettings.html#ae829d5a5a58c87d0dec9f11296a00af8":[9,5,0,0,0,500,12],
-"structmeshlib_1_1InSphereSearchSettings.html#ae829d5a5a58c87d0dec9f11296a00af8":[9,5,1,0,0,487,12]
+"structmeshlib_1_1InSphereSearchSettings.html#ae829d5a5a58c87d0dec9f11296a00af8":[9,5,0,0,0,500,12]
 };

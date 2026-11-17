@@ -1,5 +1,12 @@
 var NAVTREEINDEX141 =
 {
+"structmeshlib_1_1UndirectedEdgeColors.html#ac5adab3009874c2753d3a613bde7dcab":[9,5,0,0,0,1547,5],
+"structmeshlib_1_1UndirectedEdgeColors.html#ac5adab3009874c2753d3a613bde7dcab":[9,5,1,0,0,1534,5],
+"structmeshlib_1_1UndirectedEdgeColors.html#acc279847cbb0d6c560cf8c7892ad69a4":[9,5,0,0,0,1547,34],
+"structmeshlib_1_1UndirectedEdgeColors.html#acc279847cbb0d6c560cf8c7892ad69a4":[9,5,1,0,0,1534,34],
+"structmeshlib_1_1UndirectedEdgeColors.html#ace04b679188133ad2bfedb0220e280b7":[9,5,0,0,0,1547,17],
+"structmeshlib_1_1UndirectedEdgeColors.html#ace04b679188133ad2bfedb0220e280b7":[9,5,1,0,0,1534,17],
+"structmeshlib_1_1UndirectedEdgeColors.html#ad2ecd07b9ef3d82426bf7301cc0b20c9":[9,5,0,0,0,1547,33],
 "structmeshlib_1_1UndirectedEdgeColors.html#ad2ecd07b9ef3d82426bf7301cc0b20c9":[9,5,1,0,0,1534,33],
 "structmeshlib_1_1UndirectedEdgeColors.html#ad58943b95c456e0461de2407ae6b5f65":[9,5,0,0,0,1547,21],
 "structmeshlib_1_1UndirectedEdgeColors.html#ad58943b95c456e0461de2407ae6b5f65":[9,5,1,0,0,1534,21],
@@ -242,12 +249,5 @@ var NAVTREEINDEX141 =
 "structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#abbb35e5ce3cebf15a4242f6675f4737f":[9,5,0,0,0,1553,4],
 "structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#abbb35e5ce3cebf15a4242f6675f4737f":[9,5,1,0,0,1540,4],
 "structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#ac46db9017b5872fab2e24a22aedb2449":[9,5,0,0,0,1553,6],
-"structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#ac46db9017b5872fab2e24a22aedb2449":[9,5,1,0,0,1540,6],
-"structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#ac6a3f2ff3fa7310ebcf5b2710823281c":[9,5,0,0,0,1553,0],
-"structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#ac6a3f2ff3fa7310ebcf5b2710823281c":[9,5,1,0,0,1540,0],
-"structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#adb9a464a051ee1ea0d06ac6e6cfc01a6":[9,5,0,0,0,1553,9],
-"structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#adb9a464a051ee1ea0d06ac6e6cfc01a6":[9,5,1,0,0,1540,9],
-"structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#aed37690c2e8ccae64e6f985dd88b2ebe":[9,5,0,0,0,1553,13],
-"structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#aed37690c2e8ccae64e6f985dd88b2ebe":[9,5,1,0,0,1540,13],
-"structmeshlib_1_1UniformSamplingSettings.html":[9,5,0,0,0,1555]
+"structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#ac46db9017b5872fab2e24a22aedb2449":[9,5,1,0,0,1540,6]
 };

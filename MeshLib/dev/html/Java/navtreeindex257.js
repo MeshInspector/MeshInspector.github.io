@@ -1,5 +1,9 @@
 var NAVTREEINDEX257 =
 {
+"classmeshlib_1_1std__vector__MR__WeightedVertex.html#a530ebc2f4a3a2dd1431404f7fa9a5809":[9,6,0,0,0,1438,10],
+"classmeshlib_1_1std__vector__MR__WeightedVertex.html#a530ebc2f4a3a2dd1431404f7fa9a5809":[9,6,1,0,0,1438,10],
+"classmeshlib_1_1std__vector__MR__WeightedVertex.html#a5afaa003149a6ea1921799c9e24db756":[9,6,0,0,0,1438,9],
+"classmeshlib_1_1std__vector__MR__WeightedVertex.html#a5afaa003149a6ea1921799c9e24db756":[9,6,1,0,0,1438,9],
 "classmeshlib_1_1std__vector__MR__WeightedVertex.html#a5e15ce5a454ff9618ad2c08ca1ff48de":[9,6,0,0,0,1438,13],
 "classmeshlib_1_1std__vector__MR__WeightedVertex.html#a5e15ce5a454ff9618ad2c08ca1ff48de":[9,6,1,0,0,1438,13],
 "classmeshlib_1_1std__vector__MR__WeightedVertex.html#a6bce2e00ef3ad38ef6d9ed9f780047d9":[9,6,0,0,0,1438,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX257 =
 "classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a1aafdaa83420814b115f8f38c9b6b8e6":[9,6,0,0,0,1300,6],
 "classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a1aafdaa83420814b115f8f38c9b6b8e6":[9,6,1,0,0,1300,6],
 "classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a1e4df7b1a9e9cb9189e403e19195dcd0":[9,6,0,0,0,1300,17],
-"classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a1e4df7b1a9e9cb9189e403e19195dcd0":[9,6,1,0,0,1300,17],
-"classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a2657f6276a06a2d696a662c471b88560":[9,6,0,0,0,1300,15],
-"classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a2657f6276a06a2d696a662c471b88560":[9,6,1,0,0,1300,15],
-"classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a345aebc66da80784b373e1b675685fbb":[9,6,0,0,0,1300,3],
-"classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a345aebc66da80784b373e1b675685fbb":[9,6,1,0,0,1300,3]
+"classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a1e4df7b1a9e9cb9189e403e19195dcd0":[9,6,1,0,0,1300,17]
 };

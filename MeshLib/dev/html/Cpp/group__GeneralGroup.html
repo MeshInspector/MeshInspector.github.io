@@ -8185,6 +8185,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga5428c2a5d40a3d0e09c57ea16c47701b" id="r_ga5428c2a5d40a3d0e09c57ea16c47701b"><td class="memItemLeft" align="right" valign="top">std::optional&lt; VertUVCoords &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5428c2a5d40a3d0e09c57ea16c47701b">MR::findVertexUVs</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const TriCornerUVCoords &amp;triCornerUvCoords)</td></tr>
 <tr class="memitem:ga3d51a6426ec702d816828da6e6660c9e" id="r_ga3d51a6426ec702d816828da6e6660c9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3d51a6426ec702d816828da6e6660c9e">MR::sampleVertexColor</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, VertId v, const <a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> &amp;tex, const TriCornerUVCoords &amp;triCornerUvCoords)</td></tr>
 <tr class="memitem:gad43e808664575f49147711c1ad69534d" id="r_gad43e808664575f49147711c1ad69534d"><td class="memItemLeft" align="right" valign="top">VertColors&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad43e808664575f49147711c1ad69534d">MR::sampleVertexColors</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> &amp;tex, const TriCornerUVCoords &amp;triCornerUvCoords)</td></tr>
+<tr class="memitem:gab73dff2378a304dd7b8a2860e111e024" id="r_gab73dff2378a304dd7b8a2860e111e024"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab73dff2378a304dd7b8a2860e111e024">MR::convertTriCornerUVs</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, TriCornerUVCoords &amp;triCornerUvCoords, VertUVCoords &amp;uvCoords, VertColors &amp;colors, <a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> &amp;texture)</td></tr>
 <tr class="memitem:ga638324ed49e28189a1c35cf398dc6a73" id="r_ga638324ed49e28189a1c35cf398dc6a73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga638324ed49e28189a1c35cf398dc6a73">MR::makeTorus</a> (float primaryRadius=1.0f, float secondaryRadius=0.1f, int primaryResolution=16, int secondaryResolution=16, std::vector&lt; Vector3f &gt; *points=nullptr)</td></tr>
 <tr class="memitem:ga2f848bbc7834993f6bc3c5d5b1006bbf" id="r_ga2f848bbc7834993f6bc3c5d5b1006bbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2f848bbc7834993f6bc3c5d5b1006bbf">MR::makeOuterHalfTorus</a> (float primaryRadius=1.0f, float secondaryRadius=0.1f, int primaryResolution=16, int secondaryResolution=16, std::vector&lt; Vector3f &gt; *points=nullptr)</td></tr>
 <tr class="memitem:ga99b11eed83d74e389ff6b2ecff249059" id="r_ga99b11eed83d74e389ff6b2ecff249059"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga99b11eed83d74e389ff6b2ecff249059">MR::makeTorusWithUndercut</a> (float primaryRadius=1.0f, float secondaryRadiusInner=0.1f, float secondaryRadiusOuter=0.2f, int primaryResolution=16, int secondaryResolution=16, std::vector&lt; Vector3f &gt; *points=nullptr)</td></tr>
@@ -13107,6 +13108,8 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga7dbfff2eb5c5cb545df805be2ba90d72"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional load artifact: per-face color map  <br /></td></tr>
 <tr class="memitem:ga230e016c84aafc3886deeb6fd2b33455" id="r_ga230e016c84aafc3886deeb6fd2b33455"><td class="memItemLeft" align="right" valign="top">VertUVCoords *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga230e016c84aafc3886deeb6fd2b33455">MR::MeshLoadSettings::uvCoords</a> = nullptr</td></tr>
 <tr class="memdesc:ga230e016c84aafc3886deeb6fd2b33455"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional load artifact: per-vertex uv-coordinates  <br /></td></tr>
+<tr class="memitem:ga7b91220ef592be5dfafef6a2fd6754d6" id="r_ga7b91220ef592be5dfafef6a2fd6754d6"><td class="memItemLeft" align="right" valign="top">TriCornerUVCoords *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7b91220ef592be5dfafef6a2fd6754d6">MR::MeshLoadSettings::triCornerUvCoords</a> = nullptr</td></tr>
+<tr class="memdesc:ga7b91220ef592be5dfafef6a2fd6754d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional load artifact: per-corner uv-coordinates for each triangle  <br /></td></tr>
 <tr class="memitem:gaeb2eb22ddf375f8cac7a36b6ec756c94" id="r_gaeb2eb22ddf375f8cac7a36b6ec756c94"><td class="memItemLeft" align="right" valign="top">VertNormals *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeb2eb22ddf375f8cac7a36b6ec756c94">MR::MeshLoadSettings::normals</a> = nullptr</td></tr>
 <tr class="memdesc:gaeb2eb22ddf375f8cac7a36b6ec756c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional load artifact: per-vertex normals  <br /></td></tr>
 <tr class="memitem:gaea5bd8460c5fbf0c62840a46e0eb2011" id="r_gaea5bd8460c5fbf0c62840a46e0eb2011"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaea5bd8460c5fbf0c62840a46e0eb2011">MR::MeshLoadSettings::texture</a> = nullptr</td></tr>
@@ -54324,6 +54327,45 @@ template&lt;typename T, typename F&gt; </div>
 <p>converts this topology into contours of given type using the functor returning point by its <a class="el" href="classMR_1_1Id.html" title="stores index of some element, it is made as template class to avoid mixing faces, edges and vertices">Id</a> </p>
 <p>until contour start is reached</p>
 <p>the contour is closed</p>
+
+</div>
+</div>
+<a id="gab73dff2378a304dd7b8a2860e111e024" name="gab73dff2378a304dd7b8a2860e111e024"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab73dff2378a304dd7b8a2860e111e024">&#9670;&#160;</a></span>convertTriCornerUVs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::convertTriCornerUVs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TriCornerUVCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>triCornerUvCoords</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertUVCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>uvCoords</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertColors &amp;</td>          <td class="paramname"><span class="paramname"><em>colors</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>texture</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRTextureColors_8h.html">MRMesh/MRTextureColors.h</a>&gt;</code></p>
+<p>if per-corner UVs can be converted into per-vertex UVs, then puts them in uvCoords and clears triCornerUvCoords; otherwise, if texture is not empty, samples per-vertex colors from it, and drops the texture if uvCoords are empty </p>
 
 </div>
 </div>
@@ -244197,8 +244239,24 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga7b91220ef592be5dfafef6a2fd6754d6" name="ga7b91220ef592be5dfafef6a2fd6754d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7b91220ef592be5dfafef6a2fd6754d6">&#9670;&#160;</a></span>triCornerUvCoords <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TriCornerUVCoords* MR::MeshLoadSettings::triCornerUvCoords = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>optional load artifact: per-corner uv-coordinates for each triangle </p>
+
+</div>
+</div>
 <a id="ga2e08ddf614c8b881ce551b6810228501" name="ga2e08ddf614c8b881ce551b6810228501"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2e08ddf614c8b881ce551b6810228501">&#9670;&#160;</a></span>triCornerUvCoords</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2e08ddf614c8b881ce551b6810228501">&#9670;&#160;</a></span>triCornerUvCoords <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

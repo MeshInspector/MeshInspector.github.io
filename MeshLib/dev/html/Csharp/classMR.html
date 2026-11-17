@@ -11893,6 +11893,8 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:abc19425dd5b385621846d1aeeb7d2732"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the color in the given vertex of mesh textured per-triangle's-corner; if the vertex has different colors in different triangles, then angle-weight average is computed Generated from function <span class="tt"><a class="el" href="#abc19425dd5b385621846d1aeeb7d2732" title="computes the color in the given vertex of mesh textured per-triangle&#39;s-corner; if the vertex has diff...">MR.sampleVertexColor</a></span>.  <br /></td></tr>
 <tr class="memitem:a8756c03b06bfad40ef6af10833abf42f" id="r_a8756c03b06bfad40ef6af10833abf42f"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VertColors.html">MR.VertColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8756c03b06bfad40ef6af10833abf42f">sampleVertexColors</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Const__MeshTexture.html">MR.Const_MeshTexture</a> tex, <a class="el" href="classMR_1_1Const__TriCornerUVCoords.html">MR.Const_TriCornerUVCoords</a> triCornerUvCoords)</td></tr>
 <tr class="memdesc:a8756c03b06bfad40ef6af10833abf42f"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the colors in the vertices of mesh textured per-triangle's-corner; if one vertex has different colors in different triangles, then angle-weight average is computed Generated from function <span class="tt"><a class="el" href="#a8756c03b06bfad40ef6af10833abf42f" title="computes the colors in the vertices of mesh textured per-triangle&#39;s-corner; if one vertex has differe...">MR.sampleVertexColors</a></span>.  <br /></td></tr>
+<tr class="memitem:a5b6153232b95261a988c06d0fdf38538" id="r_a5b6153232b95261a988c06d0fdf38538"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b6153232b95261a988c06d0fdf38538">convertTriCornerUVs</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1TriCornerUVCoords.html">MR.TriCornerUVCoords</a> triCornerUvCoords, <a class="el" href="classMR_1_1VertCoords2.html">MR.VertCoords2</a> uvCoords, <a class="el" href="classMR_1_1VertColors.html">MR.VertColors</a> colors, <a class="el" href="classMR_1_1MeshTexture.html">MR.MeshTexture</a> texture)</td></tr>
+<tr class="memdesc:a5b6153232b95261a988c06d0fdf38538"><td class="mdescLeft">&#160;</td><td class="mdescRight">if per-corner UVs can be converted into per-vertex UVs, then puts them in uvCoords and clears triCornerUvCoords; otherwise, if texture is not empty, samples per-vertex colors from it, and drops the texture if uvCoords are empty Generated from function <span class="tt"><a class="el" href="#a5b6153232b95261a988c06d0fdf38538" title="if per-corner UVs can be converted into per-vertex UVs, then puts them in uvCoords and clears triCorn...">MR.convertTriCornerUVs</a></span>.  <br /></td></tr>
 <tr class="memitem:ae8c3bac76eeb631b137e36573f8baa92" id="r_ae8c3bac76eeb631b137e36573f8baa92"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8c3bac76eeb631b137e36573f8baa92">printTimingTreeAtEnd</a> (bool on, double? minTimeSec=null)</td></tr>
 <tr class="memdesc:ae8c3bac76eeb631b137e36573f8baa92"><td class="mdescLeft">&#160;</td><td class="mdescRight">enables or disables printing of timing tree when application terminates  <br /></td></tr>
 <tr class="memitem:a4c19c43b7bd5f0e99539690384965459" id="r_a4c19c43b7bd5f0e99539690384965459"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c19c43b7bd5f0e99539690384965459">printCurrentTimerBranch</a> ()</td></tr>
@@ -25129,6 +25131,52 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 </div><div class="memdoc">
 
 <p>Generated from function <span class="tt"><a class="el" href="#a66f7e08b31c052563f7e2f794fd3b4fc" title="Generated from function MR.convertSurfacePathWithEndsToMeshContour.">MR.convertSurfacePathWithEndsToMeshContour</a></span>. </p>
+
+</div>
+</div>
+<a id="a5b6153232b95261a988c06d0fdf38538" name="a5b6153232b95261a988c06d0fdf38538"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b6153232b95261a988c06d0fdf38538">&#9670;&#160;</a></span>convertTriCornerUVs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.convertTriCornerUVs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1TriCornerUVCoords.html">MR.TriCornerUVCoords</a></td>          <td class="paramname"><span class="paramname"><em>triCornerUvCoords</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1VertCoords2.html">MR.VertCoords2</a></td>          <td class="paramname"><span class="paramname"><em>uvCoords</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1VertColors.html">MR.VertColors</a></td>          <td class="paramname"><span class="paramname"><em>colors</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1MeshTexture.html">MR.MeshTexture</a></td>          <td class="paramname"><span class="paramname"><em>texture</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>if per-corner UVs can be converted into per-vertex UVs, then puts them in uvCoords and clears triCornerUvCoords; otherwise, if texture is not empty, samples per-vertex colors from it, and drops the texture if uvCoords are empty Generated from function <span class="tt"><a class="el" href="#a5b6153232b95261a988c06d0fdf38538" title="if per-corner UVs can be converted into per-vertex UVs, then puts them in uvCoords and clears triCorn...">MR.convertTriCornerUVs</a></span>. </p>
 
 </div>
 </div>

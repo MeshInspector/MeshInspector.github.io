@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1AffineXf.html":[9,0,0,0,14],
+"structMR_1_1AffineXf.html":[9,0,0,19,121],
 "structMR_1_1AllLocalTriangulations.html":[9,0,0,19,336],
 "structMR_1_1Allocator.html":[9,0,0,19,128],
 "structMR_1_1Allocator_1_1rebind.html":[9,0,0,19,129],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1DecimateSettings.html#a7b024d2a905ecd6515a263ec20d35dc6":[9,0,0,10,0,27],
 "structMR_1_1DecimateSettings.html#a7cc18ed533890cfc09a39ba3724b5f85":[9,0,0,10,0,14],
 "structMR_1_1DecimateSettings.html#a7d69e19f2609b7330c6ac5d17a9ebfff":[9,0,0,10,0,19],
-"structMR_1_1DecimateSettings.html#a83cf18a566f0fa10cc6421ddcc2487e6":[9,0,0,10,0,22],
-"structMR_1_1DecimateSettings.html#a8a682d43b723098485a748e97bd12111":[9,0,0,10,0,33],
-"structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4":[9,0,0,10,0,28]
+"structMR_1_1DecimateSettings.html#a83cf18a566f0fa10cc6421ddcc2487e6":[9,0,0,10,0,22]
 };

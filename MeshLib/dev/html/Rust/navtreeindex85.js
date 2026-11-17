@@ -1,5 +1,12 @@
 var NAVTREEINDEX85 =
 {
+"structmeshlib_1_1NoDefInit__MR__GraphEdgeId.html#af4085a72507d7789a4ad17fa69a7b422":[9,5,1,0,0,669,3],
+"structmeshlib_1_1NoDefInit__MR__GraphVertId.html":[9,5,0,0,0,683],
+"structmeshlib_1_1NoDefInit__MR__GraphVertId.html":[9,5,1,0,0,670],
+"structmeshlib_1_1NoDefInit__MR__GraphVertId.html#a0a1f58381ce6de559b75b3d9f7b0f9a4":[9,5,0,0,0,683,12],
+"structmeshlib_1_1NoDefInit__MR__GraphVertId.html#a0a1f58381ce6de559b75b3d9f7b0f9a4":[9,5,1,0,0,670,12],
+"structmeshlib_1_1NoDefInit__MR__GraphVertId.html#a1fd0210e67099007318167852119d205":[9,5,0,0,0,683,8],
+"structmeshlib_1_1NoDefInit__MR__GraphVertId.html#a1fd0210e67099007318167852119d205":[9,5,1,0,0,670,8],
 "structmeshlib_1_1NoDefInit__MR__GraphVertId.html#a369bf9e86a184e911f5d62520fa92ab4":[9,5,0,0,0,683,4],
 "structmeshlib_1_1NoDefInit__MR__GraphVertId.html#a369bf9e86a184e911f5d62520fa92ab4":[9,5,1,0,0,670,4],
 "structmeshlib_1_1NoDefInit__MR__GraphVertId.html#a425c73b3f9d81ac9aa13101ceb4b4c24":[9,5,0,0,0,683,13],
@@ -242,12 +249,5 @@ var NAVTREEINDEX85 =
 "structmeshlib_1_1NoDefInit__MR__TextureId.html#ac23d3bc9b2d3e922cc5844ca05c3026f":[9,5,1,0,0,677,2],
 "structmeshlib_1_1NoDefInit__MR__TextureId.html#ad09b761dee9406427090328421bf6237":[9,5,0,0,0,690,7],
 "structmeshlib_1_1NoDefInit__MR__TextureId.html#ad09b761dee9406427090328421bf6237":[9,5,1,0,0,677,7],
-"structmeshlib_1_1NoDefInit__MR__TextureId.html#ad496d78d8b6228b19c1c6a381c374590":[9,5,0,0,0,690,9],
-"structmeshlib_1_1NoDefInit__MR__TextureId.html#ad496d78d8b6228b19c1c6a381c374590":[9,5,1,0,0,677,9],
-"structmeshlib_1_1NoDefInit__MR__TextureId.html#ada652f7d850dd1e711f1e70932176607":[9,5,0,0,0,690,8],
-"structmeshlib_1_1NoDefInit__MR__TextureId.html#ada652f7d850dd1e711f1e70932176607":[9,5,1,0,0,677,8],
-"structmeshlib_1_1NoDefInit__MR__TextureId.html#aeed3d1ba74695d0888ea3b57fea06fea":[9,5,0,0,0,690,6],
-"structmeshlib_1_1NoDefInit__MR__TextureId.html#aeed3d1ba74695d0888ea3b57fea06fea":[9,5,1,0,0,677,6],
-"structmeshlib_1_1NoDefInit__MR__TextureId.html#afd247d0ce4f89a7c05ac4c7d2b943e6d":[9,5,0,0,0,690,4],
-"structmeshlib_1_1NoDefInit__MR__TextureId.html#afd247d0ce4f89a7c05ac4c7d2b943e6d":[9,5,1,0,0,677,4]
+"structmeshlib_1_1NoDefInit__MR__TextureId.html#ad496d78d8b6228b19c1c6a381c374590":[9,5,0,0,0,690,9]
 };

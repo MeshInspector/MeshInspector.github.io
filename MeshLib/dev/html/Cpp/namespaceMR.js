@@ -2139,6 +2139,7 @@ var namespaceMR =
     [ "convertRasterToImage", "group__RasterGroup.html#gadcb09b212975aa3c7b3267ef39c306e1", null ],
     [ "convertSurfacePathsToMeshContours", "group__GeneralGroup.html#ga60c552ace8de5755edd7e5a28dd4dc6b", null ],
     [ "convertSurfacePathWithEndsToMeshContour", "group__GeneralGroup.html#ga84ad133112b40770a9311344d2bbfdde", null ],
+    [ "convertTriCornerUVs", "group__GeneralGroup.html#gab73dff2378a304dd7b8a2860e111e024", null ],
     [ "convertUnits", "group__GeneralGroup.html#gab07c2e27cb1322b5471e253ff9e52a0d", null ],
     [ "convertUnits", "group__GeneralGroup.html#gabc1dac35ba49a323ad136b896517b3b3", null ],
     [ "copySubdividePackMesh", "group__MeshSubdivideGroup.html#ga2945f01bc7025b2ea3ee5ae3fdb9d369", null ],

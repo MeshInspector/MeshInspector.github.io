@@ -2105,6 +2105,7 @@ var namespacemeshlib =
     [ "convert_raster_to_image", "namespacemeshlib.html#abb8a6bf2451b6ef58e0e5f37efec1083", null ],
     [ "convert_surface_path_with_ends_to_mesh_contour", "namespacemeshlib.html#a0e831ef778aa071b3806a1bea2b6e0f1", null ],
     [ "convert_surface_paths_to_mesh_contours", "namespacemeshlib.html#a9bbbb4f6c4fca3c0eeafc7db7f76247c", null ],
+    [ "convert_tri_corner_u_vs", "namespacemeshlib.html#a0b01292fea699b39f245254afd2642ca", null ],
     [ "copy_subdivide_pack_mesh", "namespacemeshlib.html#a64d716bb8e09737eae172e86fba16729", null ],
     [ "cotan", "namespacemeshlib.html#af9572b0429a052e5ef6786f84a4784cf", null ],
     [ "cotan_double_2", "namespacemeshlib.html#aab0ce3b37c80cbbe7b20bcb648e4a551", null ],

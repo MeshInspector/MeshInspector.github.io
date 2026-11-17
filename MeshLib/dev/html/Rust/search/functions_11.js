@@ -1114,7 +1114,7 @@ var searchData=
   ['set_5ftransparency_5fmode_1111',['set_transparency_mode',['../structmeshlib_1_1ModelRenderParams.html#a396593c838db2ce78ce7a40db41201d3',1,'meshlib::ModelRenderParams']]],
   ['set_5ftree_1112',['set_tree',['../structmeshlib_1_1Line3Mesh__double.html#ab6f5171acc4a797a5280bfd8a49dfca1',1,'meshlib::Line3Mesh_double::set_tree()'],['../structmeshlib_1_1Line3Mesh__float.html#a024ea332e7e95f44b4fa583ba13279b3',1,'meshlib::Line3Mesh_float::set_tree()']]],
   ['set_5ftri_1113',['set_tri',['../structmeshlib_1_1EdgeTri.html#a1c7451d099c0b1a83db136c57afcabf5',1,'meshlib::EdgeTri']]],
-  ['set_5ftri_5fcorner_5fuv_5fcoords_1114',['set_tri_corner_uv_coords',['../structmeshlib_1_1PlyLoadParams.html#a57cdd62041e1dc7aabc55e2439afdb16',1,'meshlib::PlyLoadParams']]],
+  ['set_5ftri_5fcorner_5fuv_5fcoords_1114',['set_tri_corner_uv_coords',['../structmeshlib_1_1MeshLoadSettings.html#a751f234875fb448f3b90703b6405a347',1,'meshlib::MeshLoadSettings::set_tri_corner_uv_coords()'],['../structmeshlib_1_1PlyLoadParams.html#a57cdd62041e1dc7aabc55e2439afdb16',1,'meshlib::PlyLoadParams::set_tri_corner_uv_coords()']]],
   ['set_5ftri_5fpoint_1115',['set_tri_point',['../structmeshlib_1_1MeshPoint.html#ad72f07b82ea8c36128e23a086dd692a2',1,'meshlib::MeshPoint']]],
   ['set_5ftriangle_5fmetric_1116',['set_triangle_metric',['../structmeshlib_1_1FillHoleMetric.html#a4ff7dfc5dc7e61d2b5001dedf0efd29b',1,'meshlib::FillHoleMetric']]],
   ['set_5ftriangulate_5fonly_1117',['set_triangulate_only',['../structmeshlib_1_1FillHoleNicelySettings.html#a539543f89745099d0bfc77dd07f1b821',1,'meshlib::FillHoleNicelySettings']]],

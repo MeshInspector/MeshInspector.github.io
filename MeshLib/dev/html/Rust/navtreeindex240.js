@@ -1,5 +1,12 @@
 var NAVTREEINDEX240 =
 {
+"structmeshlib_1_1voxels__save_1_1SavingSettings.html#ae98dbf1b97cd3e9a9027a14cf3368b62":[9,5,0,0,0,35,0,2],
+"structmeshlib_1_1voxels__save_1_1SavingSettings.html#ae98dbf1b97cd3e9a9027a14cf3368b62":[9,5,1,0,0,22,0,2],
+"structmeshlib_1_1voxels__save_1_1SavingSettings.html#aeed747e7d2745b26d5446b848e25d9aa":[9,5,0,0,0,35,0,12],
+"structmeshlib_1_1voxels__save_1_1SavingSettings.html#aeed747e7d2745b26d5446b848e25d9aa":[9,5,1,0,0,22,0,12],
+"structmeshlib_1_1weighted__shell_1_1DistanceVolumeCreationParams.html":[9,5,0,0,0,36,0],
+"structmeshlib_1_1weighted__shell_1_1DistanceVolumeCreationParams.html":[9,5,1,0,0,23,0],
+"structmeshlib_1_1weighted__shell_1_1DistanceVolumeCreationParams.html#a13547520cade35f312b7c7a02ce56d50":[9,5,0,0,0,36,0,0],
 "structmeshlib_1_1weighted__shell_1_1DistanceVolumeCreationParams.html#a13547520cade35f312b7c7a02ce56d50":[9,5,1,0,0,23,0,0],
 "structmeshlib_1_1weighted__shell_1_1DistanceVolumeCreationParams.html#a2c6efb38e800085571bc8654a77c333e":[9,5,0,0,0,36,0,6],
 "structmeshlib_1_1weighted__shell_1_1DistanceVolumeCreationParams.html#a2c6efb38e800085571bc8654a77c333e":[9,5,1,0,0,23,0,6],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"namespacemeshlib_1_1self__intersections.html#a4d11e157c9d479679e5fc77ee063cad5":[9,5,0,0,0,32,3],
 "namespacemeshlib_1_1self__intersections.html#a7696d270041087137529e4b924db10c9":[9,5,0,0,0,32,2],
 "namespacemeshlib_1_1triangulation__helpers.html":[9,5,0,0,0,33],
 "namespacemeshlib_1_1triangulation__helpers.html#a1420b024c88efe8d49819e03f9e7fe05":[9,5,0,0,0,33,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "std__pair__MR__EdgeId__MR__EdgeId_8rs.html":[9,5,2,0,0,1,3,280],
 "std__pair__MR__Face2RegionMap__int_8rs.html":[9,5,2,0,0,1,3,281],
 "std__pair__MR__FaceBitSet__MR__FaceBitSet_8rs.html":[9,5,2,0,0,1,3,283],
-"std__pair__MR__FaceBitSet__int_8rs.html":[9,5,2,0,0,1,3,282],
-"std__pair__MR__FaceId__bool_8rs.html":[9,5,2,0,0,1,3,284]
+"std__pair__MR__FaceBitSet__int_8rs.html":[9,5,2,0,0,1,3,282]
 };

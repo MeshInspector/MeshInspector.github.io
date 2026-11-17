@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"namespaceMR_1_1VoxelsSave.html#a56ebe06547e21b86384b5c3a557b9aa2":[9,0,1,0,1,57,7],
+"namespaceMR_1_1VoxelsSave.html#a718554fb1f1670650b40d39ce9a22541":[9,0,1,0,1,57,15],
 "namespaceMR_1_1VoxelsSave.html#a867d99fb48150c6bfcbe17cfdace59f6":[9,0,1,0,1,57,5],
 "namespaceMR_1_1VoxelsSave.html#a8dfc94b0369f1092754d0946e0918817":[9,0,1,0,1,57,22],
 "namespaceMR_1_1VoxelsSave.html#ac8ab65dc423aa7859ba112a305fcaabf":[9,0,1,0,1,57,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1AABBTreeWideNode.html#a24da2d614bcf250ad3212948e33d134e":[9,0,0,1,1,2],
 "structMR_1_1AABBTreeWideNode.html#a927f64ba568c896ea9f74624edb9a80f":[9,0,0,1,1,3],
 "structMR_1_1AABBTreeWideNode.html#ad3f878fd791acf97876bb58ffd30b52b":[9,0,0,1,1,0],
-"structMR_1_1AABBTreeWideNode.html#adc90d6c6dc1181c594591436c604263e":[9,0,0,1,1,1],
-"structMR_1_1AffineXf.html":[9,0,0,0,14],
-"structMR_1_1AffineXf.html":[9,0,0,19,121]
+"structMR_1_1AABBTreeWideNode.html#adc90d6c6dc1181c594591436c604263e":[9,0,0,1,1,1]
 };

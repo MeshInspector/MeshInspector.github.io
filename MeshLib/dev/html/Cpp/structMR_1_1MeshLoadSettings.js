@@ -10,6 +10,7 @@ var structMR_1_1MeshLoadSettings =
     [ "solidColor", "group__GeneralGroup.html#gade9552fa6c401694ea33e3ff5f4ac1bb", null ],
     [ "telemetrySignal", "group__GeneralGroup.html#gadf9210a3db4a2bdb4ccfb7e14f428246", null ],
     [ "texture", "group__GeneralGroup.html#gaea5bd8460c5fbf0c62840a46e0eb2011", null ],
+    [ "triCornerUvCoords", "group__GeneralGroup.html#ga7b91220ef592be5dfafef6a2fd6754d6", null ],
     [ "uvCoords", "group__GeneralGroup.html#ga230e016c84aafc3886deeb6fd2b33455", null ],
     [ "xf", "group__GeneralGroup.html#gae3778a9ff6574570228d2a4ae6b546c0", null ]
 ];

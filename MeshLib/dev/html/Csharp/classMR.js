@@ -2774,6 +2774,7 @@ var classMR =
     [ "convertRasterToImage", "classMR.html#a948a1620c0d5bf5331e6995b5bb68528", null ],
     [ "convertSurfacePathsToMeshContours", "classMR.html#abd9c729d35b16113e130f5bee48d1a67", null ],
     [ "convertSurfacePathWithEndsToMeshContour", "classMR.html#a66f7e08b31c052563f7e2f794fd3b4fc", null ],
+    [ "convertTriCornerUVs", "classMR.html#a5b6153232b95261a988c06d0fdf38538", null ],
     [ "copySubdividePackMesh", "classMR.html#ab3c747ea96dae2944c4882b7e6c8e5f9", null ],
     [ "cotan", "classMR.html#a9022ba6c27fcbb2cbe5fb92088476119", null ],
     [ "cotan", "classMR.html#a7aa24849d138511992a1eec844c8e4ad", null ],

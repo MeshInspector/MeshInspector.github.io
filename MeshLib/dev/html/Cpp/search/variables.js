@@ -487,7 +487,7 @@ var searchData=
   ['triangulateonly_126',['triangulateOnly',['../group__GeneralGroup.html#ga62e34964b014489a6f1d3f2e324759ff',1,'MR::FillHoleNicelySettings::triangulateOnly'],['../group__GeneralGroup.html#ga4d6a2b64ba35e979aaf98098d6f34be3',1,'MR::StitchHolesNicelySettings::triangulateOnly']]],
   ['triangulateparams_127',['triangulateParams',['../group__GeneralGroup.html#ga2ead937ed1df084dc6a43160e17df2c2',1,'MR::FillHoleNicelySettings::triangulateParams'],['../group__GeneralGroup.html#ga83e24c3d8730be6202659fcb65549581',1,'MR::StitchHolesNicelySettings::triangulateParams']]],
   ['triangulation_128',['triangulation',['../structMR_1_1TriangulateHolesParams.html#aec7ce265264bd1bb9d6287fb079e2eeb',1,'MR::TriangulateHolesParams']]],
-  ['tricorneruvcoords_129',['triCornerUvCoords',['../group__GeneralGroup.html#ga2e08ddf614c8b881ce551b6810228501',1,'MR::PlyLoadParams']]],
+  ['tricorneruvcoords_129',['triCornerUvCoords',['../group__GeneralGroup.html#ga7b91220ef592be5dfafef6a2fd6754d6',1,'MR::MeshLoadSettings::triCornerUvCoords'],['../group__GeneralGroup.html#ga2e08ddf614c8b881ce551b6810228501',1,'MR::PlyLoadParams::triCornerUvCoords']]],
   ['triggersave_130',['triggerSave',['../group__GeneralGroup.html#ga9ac324551327f5c00a9ba0ac4df87360',1,'MR::UI::CustomConfigModalSettings']]],
   ['tripoint_131',['TriPoint',['../group__GeneralGroup.html#gab4b475d1cfb4a2c8cdef119f5570a9d6',1,'MR']]],
   ['tripoint_132',['triPoint',['../group__GeneralGroup.html#gaada8def241781f58cfc3cfe595c86622',1,'MR::MeshPoint']]],

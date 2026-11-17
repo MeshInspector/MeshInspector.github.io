@@ -1,5 +1,12 @@
 var NAVTREEINDEX196 =
 {
+"structmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref.html#af22a7151882667e8af3ee2e0e583f9d3":[9,5,0,0,0,1058,0],
+"structmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref.html#af22a7151882667e8af3ee2e0e583f9d3":[9,5,1,0,0,1045,0],
+"structmeshlib_1_1std__function__void__from__MR__VertId.html":[9,5,0,0,0,1059],
+"structmeshlib_1_1std__function__void__from__MR__VertId.html":[9,5,1,0,0,1046],
+"structmeshlib_1_1std__function__void__from__MR__VertId.html#a3db41f971e181ea6a697568b71dd6719":[9,5,0,0,0,1059,0],
+"structmeshlib_1_1std__function__void__from__MR__VertId.html#a3db41f971e181ea6a697568b71dd6719":[9,5,1,0,0,1046,0],
+"structmeshlib_1_1std__function__void__from__MR__VertId.html#a5e1790550f2a9f87cd3251ce1e00f7fa":[9,5,0,0,0,1059,3],
 "structmeshlib_1_1std__function__void__from__MR__VertId.html#a5e1790550f2a9f87cd3251ce1e00f7fa":[9,5,1,0,0,1046,3],
 "structmeshlib_1_1std__function__void__from__MR__VertId.html#a8ac83f1482a9da652df59b9fda19eb22":[9,5,0,0,0,1059,1],
 "structmeshlib_1_1std__function__void__from__MR__VertId.html#a8ac83f1482a9da652df59b9fda19eb22":[9,5,1,0,0,1046,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX196 =
 "structmeshlib_1_1std__optional__MR__Mesh.html#a77b80d228c46d25522ea67a61a1ad811":[9,5,0,0,0,1076,2],
 "structmeshlib_1_1std__optional__MR__Mesh.html#a77b80d228c46d25522ea67a61a1ad811":[9,5,1,0,0,1063,2],
 "structmeshlib_1_1std__optional__MR__Mesh.html#ab6d6d6822e1b6ec0457529682a3e0dbb":[9,5,0,0,0,1076,4],
-"structmeshlib_1_1std__optional__MR__Mesh.html#ab6d6d6822e1b6ec0457529682a3e0dbb":[9,5,1,0,0,1063,4],
-"structmeshlib_1_1std__optional__MR__Mesh.html#abc439b03733ffdc200d201498ee549ca":[9,5,0,0,0,1076,3],
-"structmeshlib_1_1std__optional__MR__Mesh.html#abc439b03733ffdc200d201498ee549ca":[9,5,1,0,0,1063,3],
-"structmeshlib_1_1std__optional__MR__Mesh.html#ac8dd026f4a68075a84ff1006d8f52049":[9,5,0,0,0,1076,0],
-"structmeshlib_1_1std__optional__MR__Mesh.html#ac8dd026f4a68075a84ff1006d8f52049":[9,5,1,0,0,1063,0],
-"structmeshlib_1_1std__optional__MR__Mesh.html#addaec842bbf23c8e52e8c7f29c99d481":[9,5,0,0,0,1076,1],
-"structmeshlib_1_1std__optional__MR__Mesh.html#addaec842bbf23c8e52e8c7f29c99d481":[9,5,1,0,0,1063,1],
-"structmeshlib_1_1std__optional__MR__MeshOrPoints.html":[9,5,0,0,0,1077]
+"structmeshlib_1_1std__optional__MR__Mesh.html#ab6d6d6822e1b6ec0457529682a3e0dbb":[9,5,1,0,0,1063,4]
 };

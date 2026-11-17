@@ -1,5 +1,11 @@
 var NAVTREEINDEX237 =
 {
+"classmrmeshpy_1_1std__vector__SliceInfo.html#a1d52ce6d2a808bb3ab3b000aef952384":[9,1,0,0,2,2343,7],
+"classmrmeshpy_1_1std__vector__SliceInfo.html#a1d52ce6d2a808bb3ab3b000aef952384":[9,1,1,0,1,2343,7],
+"classmrmeshpy_1_1std__vector__SliceInfo.html#a1e3a70d0cd55057e47c1bb1f0603ddb3":[9,1,0,0,2,2343,9],
+"classmrmeshpy_1_1std__vector__SliceInfo.html#a1e3a70d0cd55057e47c1bb1f0603ddb3":[9,1,1,0,1,2343,9],
+"classmrmeshpy_1_1std__vector__SliceInfo.html#a1f3e395c38302af84939ff37d1c16dcf":[9,1,0,0,2,2343,11],
+"classmrmeshpy_1_1std__vector__SliceInfo.html#a1f3e395c38302af84939ff37d1c16dcf":[9,1,1,0,1,2343,11],
 "classmrmeshpy_1_1std__vector__SliceInfo.html#a486650ac9709747d471eb9c68c46660c":[9,1,0,0,2,2343,2],
 "classmrmeshpy_1_1std__vector__SliceInfo.html#a486650ac9709747d471eb9c68c46660c":[9,1,1,0,1,2343,2],
 "classmrmeshpy_1_1std__vector__SliceInfo.html#a532e3a4820039b03db78391474933d51":[9,1,0,0,2,2343,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX237 =
 "classmrmeshpy_1_1std__vector__TypedBitSet__Id__VoxelTag.html#ac4c080ed0c7e2da28e56fcbb0350716b":[9,1,0,0,2,2399,5],
 "classmrmeshpy_1_1std__vector__TypedBitSet__Id__VoxelTag.html#ac4c080ed0c7e2da28e56fcbb0350716b":[9,1,1,0,1,2399,5],
 "classmrmeshpy_1_1std__vector__TypedBitSet__Id__VoxelTag.html#ac822b111cecf1573a7b8d5bd98128baa":[9,1,0,0,2,2399,8],
-"classmrmeshpy_1_1std__vector__TypedBitSet__Id__VoxelTag.html#ac822b111cecf1573a7b8d5bd98128baa":[9,1,1,0,1,2399,8],
-"classmrmeshpy_1_1std__vector__TypedBitSet__Id__VoxelTag.html#afab9925ca531d944ec656def0426a892":[9,1,0,0,2,2399,3],
-"classmrmeshpy_1_1std__vector__TypedBitSet__Id__VoxelTag.html#afab9925ca531d944ec656def0426a892":[9,1,1,0,1,2399,3],
-"classmrmeshpy_1_1std__vector__UndirectedEdgeUndirectedEdge.html":[9,1,0,0,2,2400],
-"classmrmeshpy_1_1std__vector__UndirectedEdgeUndirectedEdge.html":[9,1,1,0,1,2400],
-"classmrmeshpy_1_1std__vector__UndirectedEdgeUndirectedEdge.html#a36f130cee961cb18034be424c9e50b70":[9,1,0,0,2,2400,6],
-"classmrmeshpy_1_1std__vector__UndirectedEdgeUndirectedEdge.html#a36f130cee961cb18034be424c9e50b70":[9,1,1,0,1,2400,6]
+"classmrmeshpy_1_1std__vector__TypedBitSet__Id__VoxelTag.html#ac822b111cecf1573a7b8d5bd98128baa":[9,1,1,0,1,2399,8]
 };

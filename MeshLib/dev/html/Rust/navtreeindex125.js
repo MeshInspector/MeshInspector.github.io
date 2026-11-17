@@ -1,5 +1,12 @@
 var NAVTREEINDEX125 =
 {
+"structmeshlib_1_1SignedDistanceToMeshOptions.html#affd07e6194f0f5d9e5804127179898ea":[9,5,0,0,0,931,11],
+"structmeshlib_1_1SignedDistanceToMeshOptions.html#affd07e6194f0f5d9e5804127179898ea":[9,5,1,0,0,918,11],
+"structmeshlib_1_1SignedDistanceToMeshResult.html":[9,5,0,0,0,932],
+"structmeshlib_1_1SignedDistanceToMeshResult.html":[9,5,1,0,0,919],
+"structmeshlib_1_1SignedDistanceToMeshResult.html#a06f081a5baf3b10800286e5e3d5b0f31":[9,5,0,0,0,932,5],
+"structmeshlib_1_1SignedDistanceToMeshResult.html#a06f081a5baf3b10800286e5e3d5b0f31":[9,5,1,0,0,919,5],
+"structmeshlib_1_1SignedDistanceToMeshResult.html#a0a8623c9b0ab3bab503ee77cc258f251":[9,5,0,0,0,932,1],
 "structmeshlib_1_1SignedDistanceToMeshResult.html#a0a8623c9b0ab3bab503ee77cc258f251":[9,5,1,0,0,919,1],
 "structmeshlib_1_1SignedDistanceToMeshResult.html#a13439ebf4a96bb58af208fedabd8a95d":[9,5,0,0,0,932,2],
 "structmeshlib_1_1SignedDistanceToMeshResult.html#a13439ebf4a96bb58af208fedabd8a95d":[9,5,1,0,0,919,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX125 =
 "structmeshlib_1_1SkyPatch.html":[9,5,0,0,0,938],
 "structmeshlib_1_1SkyPatch.html":[9,5,1,0,0,925],
 "structmeshlib_1_1SkyPatch.html#a19c7224db7325a3d128159206d338d77":[9,5,0,0,0,938,5],
-"structmeshlib_1_1SkyPatch.html#a19c7224db7325a3d128159206d338d77":[9,5,1,0,0,925,5],
-"structmeshlib_1_1SkyPatch.html#a512ff487c0432cc3dac450340f7e2c94":[9,5,0,0,0,938,2],
-"structmeshlib_1_1SkyPatch.html#a512ff487c0432cc3dac450340f7e2c94":[9,5,1,0,0,925,2],
-"structmeshlib_1_1SkyPatch.html#a5abd417e3e84aea7abd30e54dcffaef6":[9,5,0,0,0,938,6],
-"structmeshlib_1_1SkyPatch.html#a5abd417e3e84aea7abd30e54dcffaef6":[9,5,1,0,0,925,6],
-"structmeshlib_1_1SkyPatch.html#a723f26a6ac12ce9b3fd0a7a440604b84":[9,5,0,0,0,938,4],
-"structmeshlib_1_1SkyPatch.html#a723f26a6ac12ce9b3fd0a7a440604b84":[9,5,1,0,0,925,4],
-"structmeshlib_1_1SkyPatch.html#a73338d8db62e3c636830e7c8deef5277":[9,5,0,0,0,938,0]
+"structmeshlib_1_1SkyPatch.html#a19c7224db7325a3d128159206d338d77":[9,5,1,0,0,925,5]
 };

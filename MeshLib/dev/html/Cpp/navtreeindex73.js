@@ -1,9 +1,11 @@
 var NAVTREEINDEX73 =
 {
-"structMR_1_1Vector2.html#aa7e0a1754fac4de39eb88fc3f1e2db46":[9,0,1,0,1,1675],
+"structMR_1_1Vector2.html#aa17da7f932edf77c0804eef8416b44bb":[9,0,0,0,12,0,10],
+"structMR_1_1Vector2.html#aa7e0a1754fac4de39eb88fc3f1e2db46":[9,0,0,0,12,0,23],
+"structMR_1_1Vector2.html#aa7e0a1754fac4de39eb88fc3f1e2db46":[9,0,1,0,1,1676],
 "structMR_1_1Vector2.html#aad35960bf4d5a0eefd7945e6e6bf768c":[9,0,0,0,12,0,1],
 "structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6":[9,0,0,0,12,0,26],
-"structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6":[9,0,1,0,1,2556],
+"structMR_1_1Vector2.html#aaf1c84a8ba1493b479c774db9477d5e6":[9,0,1,0,1,2557],
 "structMR_1_1Vector2.html#aaf2a2fdd2ea258a5a0ce7d885042aa6a":[9,0,0,0,12,0,30],
 "structMR_1_1Vector2.html#ab4e40155ff2cca5786fd9aa586efb49c":[9,0,0,0,12,0,12],
 "structMR_1_1Vector2.html#ab5e3fce397a1b385c1dc504acf936aea":[9,0,0,0,12,0,17],

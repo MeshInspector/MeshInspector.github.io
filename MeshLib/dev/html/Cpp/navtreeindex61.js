@@ -1,11 +1,13 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR.html#a906daf2182f2898fb3e5ad598d8960ae":[9,0,1,0,1,1003],
+"namespaceMR.html#a9381161a7388eeabb33982f4df1cf1c3":[9,0,1,0,1,1068],
 "namespaceMR.html#a93836181db6f59783ce1351a98d59cb8":[9,0,1,0,1,1066],
 "namespaceMR.html#a93bff7f59121c9c61175744b11326824":[9,0,1,0,1,1009],
 "namespaceMR.html#a94d7093d57cb27ac9abdfb241ddb6bc0":[9,0,1,0,1,1069],
-"namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11":[9,0,1,0,1,2511],
-"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3205],
-"namespaceMR.html#af57a9e992da58c4255497330494f5790":[9,0,1,0,1,2510],
+"namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11":[9,0,1,0,1,2512],
+"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3206],
+"namespaceMR.html#af57a9e992da58c4255497330494f5790":[9,0,1,0,1,2511],
 "namespaceMR_1_1AsyncObjectLoad.html":[9,0,1,0,1,0],
 "namespaceMR_1_1AsyncObjectLoad.html#a00566fda9bf4c9254ac5d2d9ffe7208d":[9,0,1,0,1,0,1],
 "namespaceMR_1_1AsyncObjectLoad.html#a5be8803f8be8c57d2ec98589759c0507":[9,0,1,0,1,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "namespaceMR_1_1PointCloudComponents.html":[9,0,1,0,1,35],
 "namespaceMR_1_1PointsLoad.html":[9,0,0,19,3],
 "namespaceMR_1_1PointsLoad.html#a01b4e00f4add2695b9e1a518880a315a":[9,0,1,0,1,36,28],
-"namespaceMR_1_1PointsLoad.html#a0f81139db68679c906d09ff033071478":[9,0,1,0,1,36,5],
-"namespaceMR_1_1PointsLoad.html#a2375d8a5796d1b39ee7f5f90ef0c6649":[9,0,1,0,1,36,14],
-"namespaceMR_1_1PointsLoad.html#a4e26659cfe9947e314c23ec7aed1a859":[9,0,1,0,1,36,25]
+"namespaceMR_1_1PointsLoad.html#a0f81139db68679c906d09ff033071478":[9,0,1,0,1,36,5]
 };

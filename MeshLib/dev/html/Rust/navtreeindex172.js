@@ -1,5 +1,12 @@
 var NAVTREEINDEX172 =
 {
+"structmeshlib_1_1VolumeSegmentationParameters.html#ac492c2021fbe222343fb697dd50461c7":[9,5,0,0,0,1691,6],
+"structmeshlib_1_1VolumeSegmentationParameters.html#ac492c2021fbe222343fb697dd50461c7":[9,5,1,0,0,1678,6],
+"structmeshlib_1_1VolumeSegmentationParameters.html#ac96048cfc680da6df868bb076b290324":[9,5,0,0,0,1691,2],
+"structmeshlib_1_1VolumeSegmentationParameters.html#ac96048cfc680da6df868bb076b290324":[9,5,1,0,0,1678,2],
+"structmeshlib_1_1VolumeSegmentationParameters.html#ae7642bd6cb46c72fbad3fcce1b03168d":[9,5,0,0,0,1691,1],
+"structmeshlib_1_1VolumeSegmentationParameters.html#ae7642bd6cb46c72fbad3fcce1b03168d":[9,5,1,0,0,1678,1],
+"structmeshlib_1_1VolumeSegmentationParameters.html#aeed1f04167dec585a153317366553e83":[9,5,0,0,0,1691,7],
 "structmeshlib_1_1VolumeSegmentationParameters.html#aeed1f04167dec585a153317366553e83":[9,5,1,0,0,1678,7],
 "structmeshlib_1_1VolumeSegmenter.html":[9,5,0,0,0,1692],
 "structmeshlib_1_1VolumeSegmenter.html":[9,5,1,0,0,1679],
@@ -242,12 +249,5 @@ var NAVTREEINDEX172 =
 "structmeshlib_1_1VoxelMetricParameters.html#ac94667739aba08bd963954539ea27b7c":[9,5,0,0,0,1700,1],
 "structmeshlib_1_1VoxelMetricParameters.html#ac94667739aba08bd963954539ea27b7c":[9,5,1,0,0,1687,1],
 "structmeshlib_1_1VoxelMetricParameters.html#aca16a86ea71e23fbcad4dd918b1d4d82":[9,5,0,0,0,1700,4],
-"structmeshlib_1_1VoxelMetricParameters.html#aca16a86ea71e23fbcad4dd918b1d4d82":[9,5,1,0,0,1687,4],
-"structmeshlib_1_1VoxelMetricParameters.html#ad4f8912c6f4b63654a48c436e249e548":[9,5,0,0,0,1700,11],
-"structmeshlib_1_1VoxelMetricParameters.html#ad4f8912c6f4b63654a48c436e249e548":[9,5,1,0,0,1687,11],
-"structmeshlib_1_1VoxelMetricParameters.html#ad52f3c7b62d3b3aa19f5c221a8eb9f5b":[9,5,0,0,0,1700,12],
-"structmeshlib_1_1VoxelMetricParameters.html#ad52f3c7b62d3b3aa19f5c221a8eb9f5b":[9,5,1,0,0,1687,12],
-"structmeshlib_1_1VoxelScalars.html":[9,5,0,0,0,1701],
-"structmeshlib_1_1VoxelScalars.html":[9,5,1,0,0,1688],
-"structmeshlib_1_1VoxelScalars.html#a03d9d2d78965086b8bd8e0933a37ede1":[9,5,0,0,0,1701,15]
+"structmeshlib_1_1VoxelMetricParameters.html#aca16a86ea71e23fbcad4dd918b1d4d82":[9,5,1,0,0,1687,4]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX269 =
 {
+"dir_f94e0e98211da153db2a58d48f0cddfa.html":[9,6,2,0,0,1,0,0,12],
+"distancemapload_2Functions_8java.html":[9,6,2,0,0,1,0,0,1,0],
+"distancemapsave_2Functions_8java.html":[9,6,2,0,0,1,0,0,2,0],
+"double__output_8java.html":[9,6,2,0,0,1,0,0,295],
 "equalVector3f_8java.html":[9,6,2,0,0,1,0,0,15,1],
 "expected__MR__AffineXf3f__std__string_8java.html":[9,6,2,0,0,1,0,0,326],
 "expected__MR__BooleanResultPoints__std__string_8java.html":[9,6,2,0,0,1,0,0,327],
@@ -245,9 +249,5 @@ var NAVTREEINDEX269 =
 "interfacemeshlib_1_1std__function__MR__Vector3f__from__const__MR__Vector3f__ref_1_1Fn.html":[9,6,1,0,0,1039,0],
 "interfacemeshlib_1_1std__function__MR__Vector3f__from__const__MR__Vector3f__ref_1_1Fn.html#afba053c1bd632a3e089d1f9ff7ebfc45":[9,6,0,0,0,1039,0,0],
 "interfacemeshlib_1_1std__function__MR__Vector3f__from__const__MR__Vector3f__ref_1_1Fn.html#afba053c1bd632a3e089d1f9ff7ebfc45":[9,6,1,0,0,1039,0,0],
-"interfacemeshlib_1_1std__function__MR__Vector3f__from__const__MR__Vector3f__ref__const__MR__Vect3d06c1565f64b43791195606451e0287.html":[9,6,0,0,0,1040,0],
-"interfacemeshlib_1_1std__function__MR__Vector3f__from__const__MR__Vector3f__ref__const__MR__Vect3d06c1565f64b43791195606451e0287.html":[9,6,1,0,0,1040,0],
-"interfacemeshlib_1_1std__function__MR__Vector3f__from__const__MR__Vector3f__ref__const__MR__Vect3d06c1565f64b43791195606451e0287.html#afca5cf0701f12404699c0c7098a5cf69":[9,6,0,0,0,1040,0,0],
-"interfacemeshlib_1_1std__function__MR__Vector3f__from__const__MR__Vector3f__ref__const__MR__Vect3d06c1565f64b43791195606451e0287.html#afca5cf0701f12404699c0c7098a5cf69":[9,6,1,0,0,1040,0,0],
-"interfacemeshlib_1_1std__function__MR__Vector3f__from__size__t__size__t_1_1Fn.html":[9,6,0,0,0,1042,0]
+"interfacemeshlib_1_1std__function__MR__Vector3f__from__const__MR__Vector3f__ref__const__MR__Vect3d06c1565f64b43791195606451e0287.html":[9,6,0,0,0,1040,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1ChangeColoringType.html#a441dd3921cf7fd0bbdc79f29ab37d119":[9,3,0,0,0,171,5],
 "classMR_1_1ChangeColoringType.html#a4ec72b7f00f5dfdbe9694b54ca57e7a0":[9,3,0,0,0,171,1],
 "classMR_1_1ChangeColoringType.html#a550e211fb06bc39f1e4c6dbbf913995f":[9,3,0,0,0,171,3],
 "classMR_1_1ChangeColoringType.html#a6899fdff124634006731b0fc70640a3c":[9,3,0,0,0,171,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1ChangePolylineAction.html#a20d71ff71e9e32532f2b4a6c1d6c90cb":[9,3,0,0,0,199,3],
 "classMR_1_1ChangePolylineAction.html#a2398f8f48ebed86b0c6341028a016a10":[9,3,0,0,0,199,0],
 "classMR_1_1ChangePolylineAction.html#a4fc23b5a59ee82aacf704a004cb09998":[9,3,0,0,0,199,2],
-"classMR_1_1ChangePolylineAction.html#a86a6e50d02b9db1163d0904b4749b4b5":[9,3,0,0,0,199,1],
-"classMR_1_1ChangePolylineAction.html#aaa7c41459737e3036dfafacc7216baba":[9,3,0,0,0,199,4]
+"classMR_1_1ChangePolylineAction.html#a86a6e50d02b9db1163d0904b4749b4b5":[9,3,0,0,0,199,1]
 };

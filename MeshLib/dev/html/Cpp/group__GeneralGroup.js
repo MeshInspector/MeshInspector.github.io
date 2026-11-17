@@ -2882,6 +2882,7 @@ var group__GeneralGroup =
       [ "solidColor", "group__GeneralGroup.html#gade9552fa6c401694ea33e3ff5f4ac1bb", null ],
       [ "telemetrySignal", "group__GeneralGroup.html#gadf9210a3db4a2bdb4ccfb7e14f428246", null ],
       [ "texture", "group__GeneralGroup.html#gaea5bd8460c5fbf0c62840a46e0eb2011", null ],
+      [ "triCornerUvCoords", "group__GeneralGroup.html#ga7b91220ef592be5dfafef6a2fd6754d6", null ],
       [ "uvCoords", "group__GeneralGroup.html#ga230e016c84aafc3886deeb6fd2b33455", null ],
       [ "xf", "group__GeneralGroup.html#gae3778a9ff6574570228d2a4ae6b546c0", null ]
     ] ],
@@ -11809,6 +11810,7 @@ var group__GeneralGroup =
     [ "MR::convertSurfacePathsToMeshContours", "group__GeneralGroup.html#ga60c552ace8de5755edd7e5a28dd4dc6b", null ],
     [ "MR::convertSurfacePathWithEndsToMeshContour", "group__GeneralGroup.html#ga84ad133112b40770a9311344d2bbfdde", null ],
     [ "MR::PolylineTopology::convertToContours", "group__GeneralGroup.html#gadc8d16b6b6bf938f6dbe4f96fc768825", null ],
+    [ "MR::convertTriCornerUVs", "group__GeneralGroup.html#gab73dff2378a304dd7b8a2860e111e024", null ],
     [ "MR::convertUnits", "group__GeneralGroup.html#gab07c2e27cb1322b5471e253ff9e52a0d", null ],
     [ "MR::convertUnits", "group__GeneralGroup.html#gabc1dac35ba49a323ad136b896517b3b3", null ],
     [ "MR::AlphaShapeData::coords", "group__GeneralGroup.html#gab027a43036b782d7ea846bda9372d022", null ],
@@ -19272,6 +19274,7 @@ var group__GeneralGroup =
     [ "MR::StitchHolesNicelySettings::triangulateOnly", "group__GeneralGroup.html#ga4d6a2b64ba35e979aaf98098d6f34be3", null ],
     [ "MR::FillHoleNicelySettings::triangulateParams", "group__GeneralGroup.html#ga2ead937ed1df084dc6a43160e17df2c2", null ],
     [ "MR::StitchHolesNicelySettings::triangulateParams", "group__GeneralGroup.html#ga83e24c3d8730be6202659fcb65549581", null ],
+    [ "MR::MeshLoadSettings::triCornerUvCoords", "group__GeneralGroup.html#ga7b91220ef592be5dfafef6a2fd6754d6", null ],
     [ "MR::PlyLoadParams::triCornerUvCoords", "group__GeneralGroup.html#ga2e08ddf614c8b881ce551b6810228501", null ],
     [ "MR::UI::CustomConfigModalSettings::triggerSave", "group__GeneralGroup.html#ga9ac324551327f5c00a9ba0ac4df87360", null ],
     [ "MR::TriPoint", "group__GeneralGroup.html#gab4b475d1cfb4a2c8cdef119f5570a9d6", null ],

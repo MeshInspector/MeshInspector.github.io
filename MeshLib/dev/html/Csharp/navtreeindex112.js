@@ -1,5 +1,8 @@
 var NAVTREEINDEX112 =
 {
+"classMR_1_1InSphereSearchSettings.html#a3f4fdd11a6e785f51d36b10701a6bb30":[9,3,0,0,0,1328,6],
+"classMR_1_1InSphereSearchSettings.html#a9cbe774cf6219f6365a4dac9a5e70d58":[9,3,0,0,0,1328,0],
+"classMR_1_1InSphereSearchSettings.html#aa616e8f8048cfceb95b2ea79542e0fef":[9,3,0,0,0,1328,5],
 "classMR_1_1InSphereSearchSettings.html#adc35f0b82907ea49ac0abce3a547175b":[9,3,0,0,0,1328,4],
 "classMR_1_1InSphereTesterSoS.html":[9,3,0,0,0,1332],
 "classMR_1_1InSphereTesterSoS.html#a14fe33c42958d78348c9e299eff245a9":[9,3,0,0,0,1332,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX112 =
 "classMR_1_1Line3Mesh__Float.html#a0e190cc84c77229d7bd0def0c8d4e83e":[9,3,0,0,0,1365,5],
 "classMR_1_1Line3Mesh__Float.html#a591c49a635cc5154e7d9f9c7bee74f83":[9,3,0,0,0,1365,9],
 "classMR_1_1Line3Mesh__Float.html#a621f62d1139f403f547f6acae11dffb4":[9,3,0,0,0,1365,1],
-"classMR_1_1Line3Mesh__Float.html#a6abfd77d8b3701dc0d39fcefbb214659":[9,3,0,0,0,1365,2],
-"classMR_1_1Line3Mesh__Float.html#aa1bd9d1fc5f421ec2e58d1c7f856538d":[9,3,0,0,0,1365,4],
-"classMR_1_1Line3Mesh__Float.html#aa3c9909ff88296d8699f40564a928b5d":[9,3,0,0,0,1365,8],
-"classMR_1_1Line3Mesh__Float.html#ac655fc77021b6919aac75245da4ec081":[9,3,0,0,0,1365,7]
+"classMR_1_1Line3Mesh__Float.html#a6abfd77d8b3701dc0d39fcefbb214659":[9,3,0,0,0,1365,2]
 };
