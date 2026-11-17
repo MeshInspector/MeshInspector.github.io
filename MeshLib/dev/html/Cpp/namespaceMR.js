@@ -413,6 +413,7 @@ var namespaceMR =
     [ "FaceDistancesSettings", "structMR_1_1FaceDistancesSettings.html", "structMR_1_1FaceDistancesSettings" ],
     [ "FaceFace", "structMR_1_1FaceFace.html", "structMR_1_1FaceFace" ],
     [ "FaceFaceFace", "structMR_1_1FaceFaceFace.html", "structMR_1_1FaceFaceFace" ],
+    [ "FaceSoup", "structMR_1_1FaceSoup.html", "structMR_1_1FaceSoup" ],
     [ "FanRecord", "structMR_1_1FanRecord.html", "structMR_1_1FanRecord" ],
     [ "FanRecordWithCenter", "structMR_1_1FanRecordWithCenter.html", "structMR_1_1FanRecordWithCenter" ],
     [ "FastInSphereTesterSoS", "classMR_1_1FastInSphereTesterSoS.html", "classMR_1_1FastInSphereTesterSoS" ],

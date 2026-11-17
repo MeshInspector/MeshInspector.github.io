@@ -345,7 +345,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:afaefb0c0710fe0b87937c2901b4b486a"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct mesh from <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> representation  <br /></td></tr>
 <tr class="memitem:af9a884ac85665588bc2d87b21294c7a9" id="r_af9a884ac85665588bc2d87b21294c7a9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9a884ac85665588bc2d87b21294c7a9">fromTrianglesDuplicatingNonManifoldVertices</a> (VertCoords vertexCoordinates, Triangulation &amp;t, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html">MeshBuilder::VertDuplication</a> &gt; *dups=nullptr, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;settings={}, const <a class="el" href="group__GeneralGroup.html#gaae1698e7265ea3826cd2442fae545416">MeshBuilder::BetterDupContinuation</a> &amp;betterCont={})</td></tr>
 <tr class="memitem:a1b87a8576d2413e078838a818cdf9e56" id="r_a1b87a8576d2413e078838a818cdf9e56"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b87a8576d2413e078838a818cdf9e56">fromTriMeshDuplicatingNonManifoldVertices</a> (<a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;&amp;triMesh, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html">MeshBuilder::VertDuplication</a> &gt; *dups=nullptr, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;settings={}, const <a class="el" href="group__GeneralGroup.html#gaae1698e7265ea3826cd2442fae545416">MeshBuilder::BetterDupContinuation</a> &amp;betterCont={})</td></tr>
-<tr class="memitem:af0ca02be2aa33003546b35bec72fb3c0" id="r_af0ca02be2aa33003546b35bec72fb3c0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0ca02be2aa33003546b35bec72fb3c0">fromFaceSoup</a> (VertCoords vertexCoordinates, const std::vector&lt; VertId &gt; &amp;verts, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertSpan.html">MeshBuilder::VertSpan</a>, FaceId &gt; &amp;faces, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;settings={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memitem:acd4acf719b56a59d8cb016283c22a0bd" id="r_acd4acf719b56a59d8cb016283c22a0bd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd4acf719b56a59d8cb016283c22a0bd">fromFaceSoup</a> (<a class="el" href="structMR_1_1FaceSoup.html">FaceSoup</a> &amp;&amp;soup, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;settings={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memitem:ac2c611bb8e5eedee72dd33d1b2229e2f" id="r_ac2c611bb8e5eedee72dd33d1b2229e2f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2c611bb8e5eedee72dd33d1b2229e2f">fromPointTriples</a> (const std::vector&lt; <a class="el" href="group__GeneralGroup.html#gac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> &gt; &amp;posTriples, bool duplicateNonManifoldVertices)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -1855,8 +1855,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af0ca02be2aa33003546b35bec72fb3c0" name="af0ca02be2aa33003546b35bec72fb3c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0ca02be2aa33003546b35bec72fb3c0">&#9670;&#160;</a></span>fromFaceSoup()</h2>
+<a id="acd4acf719b56a59d8cb016283c22a0bd" name="acd4acf719b56a59d8cb016283c22a0bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd4acf719b56a59d8cb016283c22a0bd">&#9670;&#160;</a></span>fromFaceSoup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1867,17 +1867,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> MR::Mesh::fromFaceSoup </td>
           <td>(</td>
-          <td class="paramtype">VertCoords</td>          <td class="paramname"><span class="paramname"><em>vertexCoordinates</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; VertId &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>verts</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertSpan.html">MeshBuilder::VertSpan</a>, FaceId &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>faces</em></span>, </td>
+          <td class="paramtype"><a class="el" href="structMR_1_1FaceSoup.html">FaceSoup</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>soup</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1896,7 +1886,13 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>construct mesh from vertex coordinates and construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles); all non-triangular faces will be automatically subdivided on triangles </p>
+<p>construct mesh from face soup, where each face can have arbitrary degree (not only triangles); all non-triangular faces will be automatically subdivided on triangles </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">soup</td><td>points of soup will be moved in the result </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

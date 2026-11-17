@@ -97,6 +97,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRExtractIsolines.cs", "MRExtractIsolines_8cs.html", "MRExtractIsolines_8cs" ],
     [ "MRFaceDistance.cs", "MRFaceDistance_8cs.html", "MRFaceDistance_8cs" ],
     [ "MRFaceFace.cs", "MRFaceFace_8cs.html", "MRFaceFace_8cs" ],
+    [ "MRFaceSoup.cs", "MRFaceSoup_8cs.html", "MRFaceSoup_8cs" ],
     [ "MRFastWindingNumber.cs", "MRFastWindingNumber_8cs.html", "MRFastWindingNumber_8cs" ],
     [ "MRFeatureHelpers.cs", "MRFeatureHelpers_8cs.html", "MRFeatureHelpers_8cs" ],
     [ "MRFeatureObject.cs", "MRFeatureObject_8cs.html", "MRFeatureObject_8cs" ],

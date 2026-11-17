@@ -451,6 +451,7 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AEnumNeihbourVertices" id="r_MR_3A_3AEnumNeihbourVertices"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1EnumNeihbourVertices.html">MR::EnumNeihbourVertices</a></td></tr>
 <tr class="memitem:MR_3A_3AEnumNeihbourFaces" id="r_MR_3A_3AEnumNeihbourFaces"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1EnumNeihbourFaces.html">MR::EnumNeihbourFaces</a></td></tr>
 <tr class="memitem:MR_3A_3AFaceDistancesSettings" id="r_MR_3A_3AFaceDistancesSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FaceDistancesSettings.html">MR::FaceDistancesSettings</a></td></tr>
+<tr class="memitem:MR_3A_3AFaceSoup" id="r_MR_3A_3AFaceSoup"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FaceSoup.html">MR::FaceSoup</a></td></tr>
 <tr class="memitem:MR_3A_3AIFastWindingNumber" id="r_MR_3A_3AIFastWindingNumber"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IFastWindingNumber.html">MR::IFastWindingNumber</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract class for fast approximate computation of generalized winding number for a mesh (using its AABB tree)  <a href="classMR_1_1IFastWindingNumber.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AFastWindingNumber" id="r_MR_3A_3AFastWindingNumber"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FastWindingNumber.html">MR::FastWindingNumber</a></td></tr>
@@ -5789,8 +5790,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gaadc7562b2829574539b64e162ab40f37" id="r_gaadc7562b2829574539b64e162ab40f37"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaadc7562b2829574539b64e162ab40f37">MR::MeshBuilder::addTriangles</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;res, const Triangulation &amp;t, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">BuildSettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:gaddfd35d380df5345cbda74b4bdfeff6f" id="r_gaddfd35d380df5345cbda74b4bdfeff6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaddfd35d380df5345cbda74b4bdfeff6f">MR::MeshBuilder::addTriangles</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;res, std::vector&lt; VertId &gt; &amp;vertTriples, FaceBitSet *createdFaces=nullptr)</td></tr>
 <tr class="memdesc:gaddfd35d380df5345cbda74b4bdfeff6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">this set receives indices of added triangles  <br /></td></tr>
-<tr class="memitem:gabb87fb2cc9c28dca88cac5adbb077bc2" id="r_gabb87fb2cc9c28dca88cac5adbb077bc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabb87fb2cc9c28dca88cac5adbb077bc2">MR::MeshBuilder::fromFaceSoup</a> (const std::vector&lt; VertId &gt; &amp;verts, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertSpan.html">VertSpan</a>, FaceId &gt; &amp;faces, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">BuildSettings</a> &amp;settings={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
-<tr class="memdesc:gabb87fb2cc9c28dca88cac5adbb077bc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles)  <br /></td></tr>
+<tr class="memitem:ga1c0d40914bee31b22b5caba227bd1d1a" id="r_ga1c0d40914bee31b22b5caba227bd1d1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1c0d40914bee31b22b5caba227bd1d1a">MR::MeshBuilder::fromFaceSoup</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VertId &gt; &amp;verts, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertSpan.html">VertSpan</a>, FaceId &gt; &amp;faces, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">BuildSettings</a> &amp;settings={}, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
+<tr class="memdesc:ga1c0d40914bee31b22b5caba227bd1d1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles)  <br /></td></tr>
 <tr class="memitem:gaf14db16fd78b08d340b0a0aaa94907c9" id="r_gaf14db16fd78b08d340b0a0aaa94907c9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf14db16fd78b08d340b0a0aaa94907c9">MR::MeshBuilder::computeTrianglesRepetitions</a> (const Triangulation &amp;t)</td></tr>
 <tr class="memitem:gafd13ce716b18402ee77952081cf52e40" id="r_gafd13ce716b18402ee77952081cf52e40"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafd13ce716b18402ee77952081cf52e40">MR::MeshBuilder::uniteCloseVertices</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float closeDist, bool uniteOnlyBd=true, VertMap *optionalVertOldToNew=nullptr)</td></tr>
 <tr class="memitem:ga735c792eb0d3d6adc4c77f067f973d46" id="r_ga735c792eb0d3d6adc4c77f067f973d46"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga735c792eb0d3d6adc4c77f067f973d46">MR::MeshBuilder::uniteCloseVertices</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshBuilder_1_1UniteCloseParams.html">UniteCloseParams</a> &amp;params={})</td></tr>
@@ -8612,6 +8613,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga5f175f350625d742580210d6aeda32e8" id="r_ga5f175f350625d742580210d6aeda32e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5f175f350625d742580210d6aeda32e8">MR::VertCoordsDiff::any</a> () const</td></tr>
 <tr class="memitem:gac535b1f7665cf87c787eea93553218a9" id="r_gac535b1f7665cf87c787eea93553218a9"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac535b1f7665cf87c787eea93553218a9">MR::VertCoordsDiff::heapBytes</a> () const</td></tr>
 <tr class="memdesc:gac535b1f7665cf87c787eea93553218a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
+<tr class="memitem:gadaed72a1514211e904b2e7675ee5915e" id="r_gadaed72a1514211e904b2e7675ee5915e"><td class="memTemplParams" colspan="2">template&lt;typename V&gt; </td></tr>
+<tr class="memitem:gadaed72a1514211e904b2e7675ee5915e template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadaed72a1514211e904b2e7675ee5915e">MR::MeshBuilder::copyAttributesToDuplicates</a> (V &amp;attributes, const std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html">VertDuplication</a> &gt; &amp;dups, size_t numSrcVerts, size_t numVerts)</td></tr>
 <tr class="memitem:ga7454d25501e5125b48c8dc0d68bdfa2b" id="r_ga7454d25501e5125b48c8dc0d68bdfa2b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7454d25501e5125b48c8dc0d68bdfa2b">MR::MeshBuilder::duplicateNonManifoldVertices</a> (Triangulation &amp;t, FaceBitSet *region=nullptr, std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html">VertDuplication</a> &gt; *dups=nullptr, VertId lastValidVert={}, const <a class="el" href="#gaae1698e7265ea3826cd2442fae545416">BetterDupContinuation</a> &amp;betterCont={})</td></tr>
 <tr class="memitem:gafae08a4be9ac946e9b5c0799888a10c1" id="r_gafae08a4be9ac946e9b5c0799888a10c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafae08a4be9ac946e9b5c0799888a10c1">MR::MeshBuilder::VertInfo::hasRepeatedVerts</a> () const</td></tr>
 <tr class="memdesc:gafae08a4be9ac946e9b5c0799888a10c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if some neighbor vertex is present in more than one triangle-pair around the vertex  <br /></td></tr>
@@ -12588,6 +12591,11 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga2ea8f49066513ec8895aadabd2bc8bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output of the maximal distance to the most distant face  <br /></td></tr>
 <tr class="memitem:ga9c26116bdf2f4041ab93071989875a92" id="r_ga9c26116bdf2f4041ab93071989875a92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9c26116bdf2f4041ab93071989875a92">MR::FaceDistancesSettings::progress</a></td></tr>
 <tr class="memdesc:ga9c26116bdf2f4041ab93071989875a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">for progress reporting and cancellation  <br /></td></tr>
+<tr class="memitem:gaf327dbf92c7aace9aaeaec5a8ac27d47" id="r_gaf327dbf92c7aace9aaeaec5a8ac27d47"><td class="memItemLeft" align="right" valign="top">VertCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf327dbf92c7aace9aaeaec5a8ac27d47">MR::FaceSoup::points</a></td></tr>
+<tr class="memitem:gae2a0378745095cb30c3cbc56984f71ef" id="r_gae2a0378745095cb30c3cbc56984f71ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae2a0378745095cb30c3cbc56984f71ef">MR::FaceSoup::verts</a></td></tr>
+<tr class="memdesc:gae2a0378745095cb30c3cbc56984f71ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">vertex ids of all polygons, one polygon after another  <br /></td></tr>
+<tr class="memitem:ga4a4e65f65dbdfdbb8424127630af4ffc" id="r_ga4a4e65f65dbdfdbb8424127630af4ffc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertSpan.html">MeshBuilder::VertSpan</a>, FaceId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4a4e65f65dbdfdbb8424127630af4ffc">MR::FaceSoup::faces</a></td></tr>
+<tr class="memdesc:ga4a4e65f65dbdfdbb8424127630af4ffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">the range in verts of each polygon  <br /></td></tr>
 <tr class="memitem:ga4ff9367a1c91bd02dbf05904dd874612" id="r_ga4ff9367a1c91bd02dbf05904dd874612"><td class="memItemLeft" align="right" valign="top">static constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4ff9367a1c91bd02dbf05904dd874612">MR::ObjKindTraits&lt; FeaturesObjectKind::Point &gt;::name</a> = &quot;Point&quot;</td></tr>
 <tr class="memitem:ga0b7a1942dcf429a9cb761a48551b59b4" id="r_ga0b7a1942dcf429a9cb761a48551b59b4"><td class="memItemLeft" align="right" valign="top">static constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0b7a1942dcf429a9cb761a48551b59b4">MR::ObjKindTraits&lt; FeaturesObjectKind::Line &gt;::name</a> = &quot;Line&quot;</td></tr>
 <tr class="memitem:gae43aec6103d11ca5ace40c97b424a96d" id="r_gae43aec6103d11ca5ace40c97b424a96d"><td class="memItemLeft" align="right" valign="top">static constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae43aec6103d11ca5ace40c97b424a96d">MR::ObjKindTraits&lt; FeaturesObjectKind::Plane &gt;::name</a> = &quot;Plane&quot;</td></tr>
@@ -54523,6 +54531,42 @@ template&lt;UnitEnum E, typename T&gt; </div>
 
 </div>
 </div>
+<a id="gadaed72a1514211e904b2e7675ee5915e" name="gadaed72a1514211e904b2e7675ee5915e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadaed72a1514211e904b2e7675ee5915e">&#9670;&#160;</a></span>copyAttributesToDuplicates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::MeshBuilder::copyAttributesToDuplicates </td>
+          <td>(</td>
+          <td class="paramtype">V &amp;</td>          <td class="paramname"><span class="paramname"><em>attributes</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structMR_1_1MeshBuilder_1_1VertDuplication.html">VertDuplication</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>dups</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>numSrcVerts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>numVerts</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVertDuplication_8h.html">MRMesh/MRVertDuplication.h</a>&gt;</code></p>
+<p>if attributes have a value for each of numSrcVerts vertices before duplication, then resizes them to numVerts and copies the values of source vertices to their duplicates; otherwise (e.g. empty attributes) leaves them unchanged </p>
+
+</div>
+</div>
 <a id="ga1285d8eb2e97fb22365dca86f412538e" name="ga1285d8eb2e97fb22365dca86f412538e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga1285d8eb2e97fb22365dca86f412538e">&#9670;&#160;</a></span>copyColors() <span class="overload">[1/3]</span></h2>
 
@@ -80553,8 +80597,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gabb87fb2cc9c28dca88cac5adbb077bc2" name="gabb87fb2cc9c28dca88cac5adbb077bc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabb87fb2cc9c28dca88cac5adbb077bc2">&#9670;&#160;</a></span>fromFaceSoup()</h2>
+<a id="ga1c0d40914bee31b22b5caba227bd1d1a" name="ga1c0d40914bee31b22b5caba227bd1d1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1c0d40914bee31b22b5caba227bd1d1a">&#9670;&#160;</a></span>fromFaceSoup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -80562,7 +80606,7 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> MR::MeshBuilder::fromFaceSoup </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; VertId &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>verts</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VertId &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>verts</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -221373,8 +221417,24 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga4a4e65f65dbdfdbb8424127630af4ffc" name="ga4a4e65f65dbdfdbb8424127630af4ffc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4a4e65f65dbdfdbb8424127630af4ffc">&#9670;&#160;</a></span>faces <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1MeshBuilder_1_1VertSpan.html">MeshBuilder::VertSpan</a>, FaceId&gt; MR::FaceSoup::faces</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the range in verts of each polygon </p>
+
+</div>
+</div>
 <a id="ga62233d2b2599039751a03d75ceca0704" name="ga62233d2b2599039751a03d75ceca0704"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga62233d2b2599039751a03d75ceca0704">&#9670;&#160;</a></span>faces</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga62233d2b2599039751a03d75ceca0704">&#9670;&#160;</a></span>faces <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234396,8 +234456,22 @@ template&lt;UnitEnum E&gt; </div>
 
 </div>
 </div>
+<a id="gaf327dbf92c7aace9aaeaec5a8ac27d47" name="gaf327dbf92c7aace9aaeaec5a8ac27d47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf327dbf92c7aace9aaeaec5a8ac27d47">&#9670;&#160;</a></span>points <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertCoords MR::FaceSoup::points</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="gae78d929b06e35477653b8824ffed2383" name="gae78d929b06e35477653b8824ffed2383"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae78d929b06e35477653b8824ffed2383">&#9670;&#160;</a></span>points <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae78d929b06e35477653b8824ffed2383">&#9670;&#160;</a></span>points <span class="overload">[2/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234411,7 +234485,7 @@ template&lt;UnitEnum E&gt; </div>
 </div>
 </div>
 <a id="ga68f2dced6aad70a6ad6e70cc610e1dd0" name="ga68f2dced6aad70a6ad6e70cc610e1dd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga68f2dced6aad70a6ad6e70cc610e1dd0">&#9670;&#160;</a></span>points <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga68f2dced6aad70a6ad6e70cc610e1dd0">&#9670;&#160;</a></span>points <span class="overload">[3/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234427,7 +234501,7 @@ template&lt;UnitEnum E&gt; </div>
 </div>
 </div>
 <a id="ga39c3eb2e95daad75555328645c768d56" name="ga39c3eb2e95daad75555328645c768d56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga39c3eb2e95daad75555328645c768d56">&#9670;&#160;</a></span>points <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga39c3eb2e95daad75555328645c768d56">&#9670;&#160;</a></span>points <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234443,7 +234517,7 @@ template&lt;UnitEnum E&gt; </div>
 </div>
 </div>
 <a id="ga2819cf8b07b6ca5bccb45dd61d9d7f9d" name="ga2819cf8b07b6ca5bccb45dd61d9d7f9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2819cf8b07b6ca5bccb45dd61d9d7f9d">&#9670;&#160;</a></span>points <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2819cf8b07b6ca5bccb45dd61d9d7f9d">&#9670;&#160;</a></span>points <span class="overload">[5/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234457,7 +234531,7 @@ template&lt;UnitEnum E&gt; </div>
 </div>
 </div>
 <a id="gaf64b21d20495c269db08d4709485b329" name="gaf64b21d20495c269db08d4709485b329"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf64b21d20495c269db08d4709485b329">&#9670;&#160;</a></span>points <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf64b21d20495c269db08d4709485b329">&#9670;&#160;</a></span>points <span class="overload">[6/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234471,7 +234545,7 @@ template&lt;UnitEnum E&gt; </div>
 </div>
 </div>
 <a id="gac82bf98c749b0bb821e259629bb70b84" name="gac82bf98c749b0bb821e259629bb70b84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac82bf98c749b0bb821e259629bb70b84">&#9670;&#160;</a></span>points <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac82bf98c749b0bb821e259629bb70b84">&#9670;&#160;</a></span>points <span class="overload">[7/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246133,8 +246207,24 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="gae2a0378745095cb30c3cbc56984f71ef" name="gae2a0378745095cb30c3cbc56984f71ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae2a0378745095cb30c3cbc56984f71ef">&#9670;&#160;</a></span>verts <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;VertId&gt; MR::FaceSoup::verts</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>vertex ids of all polygons, one polygon after another </p>
+
+</div>
+</div>
 <a id="ga6dc0b9d338593fc4fd8715ed4e11b9f8" name="ga6dc0b9d338593fc4fd8715ed4e11b9f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6dc0b9d338593fc4fd8715ed4e11b9f8">&#9670;&#160;</a></span>verts <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6dc0b9d338593fc4fd8715ed4e11b9f8">&#9670;&#160;</a></span>verts <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246148,7 +246238,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga1f111c2398ef25fb853ecdd03cf5ff59" name="ga1f111c2398ef25fb853ecdd03cf5ff59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1f111c2398ef25fb853ecdd03cf5ff59">&#9670;&#160;</a></span>verts <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1f111c2398ef25fb853ecdd03cf5ff59">&#9670;&#160;</a></span>verts <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

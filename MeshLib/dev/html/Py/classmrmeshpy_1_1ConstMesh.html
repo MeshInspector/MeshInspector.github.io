@@ -250,7 +250,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aa5d30d0f4d07be0557a4cf5089a59a6c" id="r_aa5d30d0f4d07be0557a4cf5089a59a6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5d30d0f4d07be0557a4cf5089a59a6c">fromFaceSoup</a> (<a class="el" href="classmrmeshpy_1_1ConstVertCoords.html">ConstVertCoords</a> vertexCoordinates, <a class="el" href="classmrmeshpy_1_1Const__std__vector__Id__VertTag.html">Const_std_vector_Id_VertTag</a> verts, <a class="el" href="classmrmeshpy_1_1ConstVector__MeshBuilder__VertSpan__FaceId.html">ConstVector_MeshBuilder_VertSpan_FaceId</a> faces, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1ConstBuildSettings.html">MeshBuilder.ConstBuildSettings</a> settings=..., <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> cb='{}')</td></tr>
+<tr class="memitem:a53a25428b7ab8a4d612c4adc10b25312" id="r_a53a25428b7ab8a4d612c4adc10b25312"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53a25428b7ab8a4d612c4adc10b25312">fromFaceSoup</a> (<a class="el" href="classmrmeshpy_1_1FaceSoup.html">FaceSoup</a> soup, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1ConstBuildSettings.html">MeshBuilder.ConstBuildSettings</a> settings=..., <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> cb='{}')</td></tr>
 <tr class="memitem:a5a00656ccc4c18aebfb1f829c0687d58" id="r_a5a00656ccc4c18aebfb1f829c0687d58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a00656ccc4c18aebfb1f829c0687d58">fromPointTriples</a> (<a class="el" href="classmrmeshpy_1_1Const__std__vector__std__array__Vector3__float__3ul.html">Const_std_vector_std_array_Vector3_float_3ul</a> posTriples, bool duplicateNonManifoldVertices)</td></tr>
 <tr class="memitem:ac6ebb89b6d00a9b5577ebb64b0c1201c" id="r_ac6ebb89b6d00a9b5577ebb64b0c1201c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6ebb89b6d00a9b5577ebb64b0c1201c">fromTriMesh</a> (<a class="el" href="classmrmeshpy_1_1TriMesh.html">TriMesh</a> triMesh, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1ConstBuildSettings.html">MeshBuilder.ConstBuildSettings</a> settings=..., <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__float.html">Const_func_bool_from_float</a> cb='{}')</td></tr>
 <tr class="memitem:a06eb1a43cf895389fb34fba628049af8" id="r_a06eb1a43cf895389fb34fba628049af8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06eb1a43cf895389fb34fba628049af8">fromTriMeshDuplicatingNonManifoldVertices</a> (<a class="el" href="classmrmeshpy_1_1TriMesh.html">TriMesh</a> triMesh, <a class="el" href="classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html">std_vector_MeshBuilder_VertDuplication</a> dups=None, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1ConstBuildSettings.html">MeshBuilder.ConstBuildSettings</a> settings=..., <a class="el" href="classmrmeshpy_1_1Const__func__bool__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag.html">Const_func_bool_from_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag</a> betterCont='{}')</td></tr>
@@ -1311,8 +1311,8 @@ and puts 0 in all other vertices
 </pre> 
 </div>
 </div>
-<a id="aa5d30d0f4d07be0557a4cf5089a59a6c" name="aa5d30d0f4d07be0557a4cf5089a59a6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5d30d0f4d07be0557a4cf5089a59a6c">&#9670;&#160;</a></span>fromFaceSoup()</h2>
+<a id="a53a25428b7ab8a4d612c4adc10b25312" name="a53a25428b7ab8a4d612c4adc10b25312"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53a25428b7ab8a4d612c4adc10b25312">&#9670;&#160;</a></span>fromFaceSoup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1323,17 +1323,7 @@ and puts 0 in all other vertices
         <tr>
           <td class="memname"> <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mrmeshpy.ConstMesh.fromFaceSoup </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVertCoords.html">ConstVertCoords</a></td>          <td class="paramname"><span class="paramname"><em>vertexCoordinates</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Const__std__vector__Id__VertTag.html">Const_std_vector_Id_VertTag</a></td>          <td class="paramname"><span class="paramname"><em>verts</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector__MeshBuilder__VertSpan__FaceId.html">ConstVector_MeshBuilder_VertSpan_FaceId</a></td>          <td class="paramname"><span class="paramname"><em>faces</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceSoup.html">FaceSoup</a></td>          <td class="paramname"><span class="paramname"><em>soup</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1352,8 +1342,7 @@ and puts 0 in all other vertices
   </tr>
 </table>
 </div><div class="memdoc">
-<pre class="fragment">construct mesh from vertex coordinates and construct mesh topology from face soup,
-where each face can have arbitrary degree (not only triangles);
+<pre class="fragment">construct mesh from face soup, where each face can have arbitrary degree (not only triangles);
 all non-triangular faces will be automatically subdivided on triangles
 </pre> 
 </div>

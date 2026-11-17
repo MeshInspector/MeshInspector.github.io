@@ -25,7 +25,7 @@ var classMR_1_1MeshBuilder =
     [ "computeTrianglesRepetitions", "classMR_1_1MeshBuilder.html#a667f81572077e63009eff3b94e4d63e2", null ],
     [ "duplicateNonManifoldVertices", "classMR_1_1MeshBuilder.html#aa94daf622a7644d6361f51d127b59190", null ],
     [ "fromDisjointMeshPieces", "classMR_1_1MeshBuilder.html#a0b2857c50acb2e90de92900defe8c293", null ],
-    [ "fromFaceSoup", "classMR_1_1MeshBuilder.html#a2e1a26edc35b2f5afdb45bef247a2483", null ],
+    [ "fromFaceSoup", "classMR_1_1MeshBuilder.html#acae10f96304b48c36262b867a94db051", null ],
     [ "fromPointTriples", "classMR_1_1MeshBuilder.html#a5a49960d15a3559eee7a68d18543449b", null ],
     [ "fromTriangles", "classMR_1_1MeshBuilder.html#a3ec6b97dff43c9678dbbc4e82897fdf9", null ],
     [ "fromTrianglesDuplicatingNonManifoldVertices", "classMR_1_1MeshBuilder.html#a6aeb5422dbf87b006367472a51676fc0", null ],

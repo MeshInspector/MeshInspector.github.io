@@ -1524,6 +1524,11 @@ var group__GeneralGroup =
       [ "out", "group__GeneralGroup.html#ga712f07635ebe5270dd2a58473ca7a7cb", null ],
       [ "progress", "group__GeneralGroup.html#ga9c26116bdf2f4041ab93071989875a92", null ]
     ] ],
+    [ "MR::FaceSoup", "structMR_1_1FaceSoup.html", [
+      [ "faces", "group__GeneralGroup.html#ga4a4e65f65dbdfdbb8424127630af4ffc", null ],
+      [ "points", "group__GeneralGroup.html#gaf327dbf92c7aace9aaeaec5a8ac27d47", null ],
+      [ "verts", "group__GeneralGroup.html#gae2a0378745095cb30c3cbc56984f71ef", null ]
+    ] ],
     [ "MR::IFastWindingNumber", "classMR_1_1IFastWindingNumber.html", [
       [ "IFastWindingNumber", "group__GeneralGroup.html#ga9bdb8344f54dfef30896226afa7e5197", null ],
       [ "IFastWindingNumber", "group__GeneralGroup.html#ga393c1ce3ad60f264b8fd1d881a3ac853", null ],
@@ -11816,6 +11821,7 @@ var group__GeneralGroup =
     [ "MR::AlphaShapeData::coords", "group__GeneralGroup.html#gab027a43036b782d7ea846bda9372d022", null ],
     [ "MR::ObjectMeshHolder::copyAllSolidColors", "group__GeneralGroup.html#ga9f6d4c54d2b17cae07a659e48192c9fc", null ],
     [ "MR::ObjectPointsHolder::copyAllSolidColors", "group__GeneralGroup.html#gaea1be678695f2bce6d6d021a82f82506", null ],
+    [ "MR::MeshBuilder::copyAttributesToDuplicates", "group__GeneralGroup.html#gadaed72a1514211e904b2e7675ee5915e", null ],
     [ "MR::ObjectLinesHolder::copyColors", "group__GeneralGroup.html#ga1285d8eb2e97fb22365dca86f412538e", null ],
     [ "MR::ObjectMeshHolder::copyColors", "group__GeneralGroup.html#ga9de7cd3fdf80c3ce5e6bbf73a7d8b202", null ],
     [ "MR::ObjectPointsHolder::copyColors", "group__GeneralGroup.html#ga853c0c5a3590572d416cb59aa75e789d", null ],
@@ -12653,7 +12659,7 @@ var group__GeneralGroup =
     [ "MR::fromEigen", "group__MathGroup.html#gad9b8ea723d950187f862ce89900a7534", null ],
     [ "MR::fromEigen", "group__MathGroup.html#ga3a19f42616def07ddf8bbf9e7dfff991", null ],
     [ "MR::fromEigen", "group__MathGroup.html#ga628c148ec917a4f0bf1398a814476dde", null ],
-    [ "MR::MeshBuilder::fromFaceSoup", "group__GeneralGroup.html#gabb87fb2cc9c28dca88cac5adbb077bc2", null ],
+    [ "MR::MeshBuilder::fromFaceSoup", "group__GeneralGroup.html#ga1c0d40914bee31b22b5caba227bd1d1a", null ],
     [ "MR::DentalId::fromFDI", "group__GeneralGroup.html#gac7bbd13981e37cfd5f67ff65e8974d12", null ],
     [ "MR::DentalId::fromFDI", "group__GeneralGroup.html#ga71dc5ee7ce3d06a131cf51d06c622387", null ],
     [ "MR::TypedFlatTree::fromFlatTree", "group__GeneralGroup.html#ga28b1d1a4fc0bc2811d060a22d79a48b9", null ],
@@ -17893,6 +17899,7 @@ var group__GeneralGroup =
     [ "MR::SeparationPointStorage::Block::faceMap", "group__GeneralGroup.html#ga3bb9eb5b60d6dcb38389506da2cb6a0e", null ],
     [ "MR::RenderMeshObject::faceNormalsTextureSize_", "group__GeneralGroup.html#gaf277e985bb5c295945722ce8b6dbef7f", null ],
     [ "MR::RefineParameters::faceRegion", "group__GeneralGroup.html#gac994e7450108ddf9d7a3e4a5973de92e", null ],
+    [ "MR::FaceSoup::faces", "group__GeneralGroup.html#ga4a4e65f65dbdfdbb8424127630af4ffc", null ],
     [ "MR::VacantElements::faces", "group__GeneralGroup.html#ga62233d2b2599039751a03d75ceca0704", null ],
     [ "MR::ObjectMeshHolder::faceSelectionChangedSignal", "group__GeneralGroup.html#ga48c0b6cc10d1a9e2b625d37d6c982ebd", null ],
     [ "MR::ObjectMeshHolder::faceSelectionColor_", "group__GeneralGroup.html#ga03a8c271c0681ce20d9510255ef66d78", null ],
@@ -18688,6 +18695,7 @@ var group__GeneralGroup =
     [ "MR::PluginCloseOnChangePointCloud::pointCloudChanged_", "group__GeneralGroup.html#gad910ff2766e17a565cfa33cb6eefc831", null ],
     [ "MR::DenoiseViaNormalsSettings::pointIters", "group__GeneralGroup.html#ga82e9e950294e56f0bed7e0ad545b68e9", null ],
     [ "MR::DenoiseWithCreasesSettings::pointIters", "group__GeneralGroup.html#ga059ccaf0f8ef1ba826bc02449fc4defc", null ],
+    [ "MR::FaceSoup::points", "group__GeneralGroup.html#gaf327dbf92c7aace9aaeaec5a8ac27d47", null ],
     [ "MR::MetricToAStarPenalty::points", "group__GeneralGroup.html#gae78d929b06e35477653b8824ffed2383", null ],
     [ "MR::ModelPointsData::points", "group__GeneralGroup.html#ga68f2dced6aad70a6ad6e70cc610e1dd0", null ],
     [ "MR::RenderDimensions::LengthParams::points", "group__GeneralGroup.html#ga39c3eb2e95daad75555328645c768d56", null ],
@@ -19387,6 +19395,7 @@ var group__GeneralGroup =
     [ "MR::RenderMeshObject::vertPosSize_", "group__GeneralGroup.html#gad8c179bd9f2914459146986ba590f4c2", null ],
     [ "MR::ReduceTotalAngleParams::vertRegion", "group__GeneralGroup.html#ga4026047e5b2606e85f6b474de3b015e3", null ],
     [ "MR::RefineParameters::vertRegion", "group__GeneralGroup.html#ga528671040882a5d5982efd35a695f752", null ],
+    [ "MR::FaceSoup::verts", "group__GeneralGroup.html#gae2a0378745095cb30c3cbc56984f71ef", null ],
     [ "MR::UnorientedTriangle::verts", "group__GeneralGroup.html#ga6dc0b9d338593fc4fd8715ed4e11b9f8", null ],
     [ "MR::VacantElements::verts", "group__GeneralGroup.html#ga1f111c2398ef25fb853ecdd03cf5ff59", null ],
     [ "MR::ObjectLinesHolder::vertsColorMap_", "group__GeneralGroup.html#gaebf8fd3ebbe9baca5e1890a03da63db7", null ],

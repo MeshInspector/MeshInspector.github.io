@@ -2004,6 +2004,9 @@ var hierarchy =
     [ "mrmeshpy.ConstFaceScalars", "classmrmeshpy_1_1ConstFaceScalars.html", [
       [ "mrmeshpy.FaceScalars", "classmrmeshpy_1_1FaceScalars.html", null ]
     ] ],
+    [ "mrmeshpy.ConstFaceSoup", "classmrmeshpy_1_1ConstFaceSoup.html", [
+      [ "mrmeshpy.FaceSoup", "classmrmeshpy_1_1FaceSoup.html", null ]
+    ] ],
     [ "mrmeshpy.TriangulationHelpers.ConstFanOptimizerQueueElement", "classmrmeshpy_1_1TriangulationHelpers_1_1ConstFanOptimizerQueueElement.html", [
       [ "mrmeshpy.TriangulationHelpers.FanOptimizerQueueElement", "classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html", null ]
     ] ],
@@ -4381,6 +4384,9 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ConstVector_VertBitSet_ObjId", "classmrmeshpy_1_1ConstVector__VertBitSet__ObjId.html", [
       [ "mrmeshpy.Vector_VertBitSet_ObjId", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstVector_VertId", "classmrmeshpy_1_1ConstVector__VertId.html", [
+      [ "mrmeshpy.Vector_VertId", "classmrmeshpy_1_1Vector__VertId.html", null ]
     ] ],
     [ "mrmeshpy.ConstVector_VertId_EdgeId", "classmrmeshpy_1_1ConstVector__VertId__EdgeId.html", [
       [ "mrmeshpy.Vector_VertId_EdgeId", "classmrmeshpy_1_1Vector__VertId__EdgeId.html", null ]

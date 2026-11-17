@@ -952,6 +952,9 @@ var hierarchy =
       [ "MR.Const_FaceSetBitIterator", "classMR_1_1Const__FaceSetBitIterator.html", [
         [ "MR.FaceSetBitIterator", "classMR_1_1FaceSetBitIterator.html", null ]
       ] ],
+      [ "MR.Const_FaceSoup", "classMR_1_1Const__FaceSoup.html", [
+        [ "MR.FaceSoup", "classMR_1_1FaceSoup.html", null ]
+      ] ],
       [ "MR.Const_FanRecord", "classMR_1_1Const__FanRecord.html", [
         [ "MR.FanRecord", "classMR_1_1FanRecord.html", null ]
       ] ],
@@ -2703,6 +2706,9 @@ var hierarchy =
       [ "MR.Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html", [
         [ "MR.Vector_MRVertBitSet_MRObjId", "classMR_1_1Vector__MRVertBitSet__MRObjId.html", null ]
       ] ],
+      [ "MR.Const_Vector_MRVertId", "classMR_1_1Const__Vector__MRVertId.html", [
+        [ "MR.Vector_MRVertId", "classMR_1_1Vector__MRVertId.html", null ]
+      ] ],
       [ "MR.Const_Vector_MRVertId_MREdgeId", "classMR_1_1Const__Vector__MRVertId__MREdgeId.html", [
         [ "MR.Vector_MRVertId_MREdgeId", "classMR_1_1Vector__MRVertId__MREdgeId.html", null ]
       ] ],
@@ -3522,6 +3528,7 @@ var hierarchy =
       [ "MR.Const_Vector_MRVectorMRVarEdgeTri", "classMR_1_1Const__Vector__MRVectorMRVarEdgeTri.html", null ],
       [ "MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html", null ],
       [ "MR.Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html", null ],
+      [ "MR.Const_Vector_MRVertId", "classMR_1_1Const__Vector__MRVertId.html", null ],
       [ "MR.Const_Vector_MRVertId_MREdgeId", "classMR_1_1Const__Vector__MRVertId__MREdgeId.html", null ],
       [ "MR.Const_Vector_MRVertId_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Vector__MRVertId__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_Vector_MRVoxelId_MRFaceId", "classMR_1_1Const__Vector__MRVoxelId__MRFaceId.html", null ],
@@ -3933,6 +3940,7 @@ var hierarchy =
       [ "MR.Const_FaceNormals", "classMR_1_1Const__FaceNormals.html", null ],
       [ "MR.Const_FaceScalars", "classMR_1_1Const__FaceScalars.html", null ],
       [ "MR.Const_FaceSetBitIterator", "classMR_1_1Const__FaceSetBitIterator.html", null ],
+      [ "MR.Const_FaceSoup", "classMR_1_1Const__FaceSoup.html", null ],
       [ "MR.Const_FanRecord", "classMR_1_1Const__FanRecord.html", null ],
       [ "MR.Const_FanRecordWithCenter", "classMR_1_1Const__FanRecordWithCenter.html", null ],
       [ "MR.Const_FastInSphereTesterSoS", "classMR_1_1Const__FastInSphereTesterSoS.html", null ],
@@ -4524,6 +4532,7 @@ var hierarchy =
       [ "MR.Const_Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html", null ],
       [ "MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html", null ],
       [ "MR.Const_Vector_MRVertBitSet_MRObjId", "classMR_1_1Const__Vector__MRVertBitSet__MRObjId.html", null ],
+      [ "MR.Const_Vector_MRVertId", "classMR_1_1Const__Vector__MRVertId.html", null ],
       [ "MR.Const_Vector_MRVertId_MREdgeId", "classMR_1_1Const__Vector__MRVertId__MREdgeId.html", null ],
       [ "MR.Const_Vector_MRVertId_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Vector__MRVertId__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_Vector_MRVoxelId_MRFaceId", "classMR_1_1Const__Vector__MRVoxelId__MRFaceId.html", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"classMR_1_1BMap__MRIdMRSurfaceDistanceStartTag__MRIdMRSurfaceDistanceStartTag.html#afb020138589d26a0bca8b2a1beb31b27":[9,3,0,0,0,54,0],
 "classMR_1_1BMap__MRNodeId__MRNodeId.html":[9,3,0,0,0,55],
 "classMR_1_1BMap__MRNodeId__MRNodeId.html#a22d2ef9fdd5eae023fad5c7776f17e16":[9,3,0,0,0,55,0],
 "classMR_1_1BMap__MRNodeId__MRNodeId.html#a3c894a2ac2607cf10b1498922d82ca9d":[9,3,0,0,0,55,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "classMR_1_1BitSet.html#a6e24ce0af31d84841fe8f84c494c28b8":[9,3,0,0,0,49,22],
 "classMR_1_1BitSet.html#a6f7258f97e87c17a6553ecece544bc1d":[9,3,0,0,0,49,16],
 "classMR_1_1BitSet.html#a7cf9c47c09114e3ecb259192ea2d9880":[9,3,0,0,0,49,33],
-"classMR_1_1BitSet.html#a878f01d1bce3be85f0d1e4bffd94a8b1":[9,3,0,0,0,49,17],
-"classMR_1_1BitSet.html#a8dc4b9d9250e7d35422fa0e178e40190":[9,3,0,0,0,49,13]
+"classMR_1_1BitSet.html#a878f01d1bce3be85f0d1e4bffd94a8b1":[9,3,0,0,0,49,17]
 };

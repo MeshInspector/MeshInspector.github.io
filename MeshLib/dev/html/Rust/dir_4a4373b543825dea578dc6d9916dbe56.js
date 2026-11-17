@@ -98,6 +98,7 @@ var dir_4a4373b543825dea578dc6d9916dbe56 =
     [ "MRExtractIsolines.rs", "MRExtractIsolines_8rs.html", "MRExtractIsolines_8rs" ],
     [ "MRFaceDistance.rs", "MRFaceDistance_8rs.html", "MRFaceDistance_8rs" ],
     [ "MRFaceFace.rs", "MRFaceFace_8rs.html", "MRFaceFace_8rs" ],
+    [ "MRFaceSoup.rs", "MRFaceSoup_8rs.html", "MRFaceSoup_8rs" ],
     [ "MRFastWindingNumber.rs", "MRFastWindingNumber_8rs.html", "MRFastWindingNumber_8rs" ],
     [ "MRFeatureHelpers.rs", "MRFeatureHelpers_8rs.html", "MRFeatureHelpers_8rs" ],
     [ "MRFeatureObject.rs", "MRFeatureObject_8rs.html", "MRFeatureObject_8rs" ],

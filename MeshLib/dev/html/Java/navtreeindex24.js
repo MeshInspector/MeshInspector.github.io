@@ -1,5 +1,7 @@
 var NAVTREEINDEX24 =
 {
+"classmeshlib_1_1Buffer__char.html#a5360585db82d051f46504e77aab4a485":[9,6,0,0,0,137,16],
+"classmeshlib_1_1Buffer__char.html#a5360585db82d051f46504e77aab4a485":[9,6,1,0,0,137,16],
 "classmeshlib_1_1Buffer__char.html#a5a0f0688358d7bd9df3c214caec4e512":[9,6,0,0,0,137,14],
 "classmeshlib_1_1Buffer__char.html#a5a0f0688358d7bd9df3c214caec4e512":[9,6,1,0,0,137,14],
 "classmeshlib_1_1Buffer__char.html#a5be29035da9875c8a302a751a71b44cd":[9,6,0,0,0,137,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX24 =
 "classmeshlib_1_1ChangeDualMarchingCubesAction.html":[9,6,0,0,0,162],
 "classmeshlib_1_1ChangeDualMarchingCubesAction.html":[9,6,1,0,0,162],
 "classmeshlib_1_1ChangeDualMarchingCubesAction.html#a49860f66be36b947cee17138f56ecb82":[9,6,0,0,0,162,5],
-"classmeshlib_1_1ChangeDualMarchingCubesAction.html#a49860f66be36b947cee17138f56ecb82":[9,6,1,0,0,162,5],
-"classmeshlib_1_1ChangeDualMarchingCubesAction.html#a4d00f3078a58407e11aa0873acf74d68":[9,6,0,0,0,162,2],
-"classmeshlib_1_1ChangeDualMarchingCubesAction.html#a4d00f3078a58407e11aa0873acf74d68":[9,6,1,0,0,162,2]
+"classmeshlib_1_1ChangeDualMarchingCubesAction.html#a49860f66be36b947cee17138f56ecb82":[9,6,1,0,0,162,5]
 };

@@ -7,6 +7,7 @@ var dir_042e8820f32b9b083191255bb15f9784 =
     [ "expected_MR_CurveFunc_std_string.rs", "expected__MR__CurveFunc__std__string_8rs.html", "expected__MR__CurveFunc__std__string_8rs" ],
     [ "expected_MR_DistanceMap_std_string.rs", "expected__MR__DistanceMap__std__string_8rs.html", "expected__MR__DistanceMap__std__string_8rs" ],
     [ "expected_MR_FaceBitSet_std_string.rs", "expected__MR__FaceBitSet__std__string_8rs.html", "expected__MR__FaceBitSet__std__string_8rs" ],
+    [ "expected_MR_FaceSoup_std_string.rs", "expected__MR__FaceSoup__std__string_8rs.html", "expected__MR__FaceSoup__std__string_8rs" ],
     [ "expected_MR_FloatGrid_std_string.rs", "expected__MR__FloatGrid__std__string_8rs.html", "expected__MR__FloatGrid__std__string_8rs" ],
     [ "expected_MR_FunctionVolume_std_string.rs", "expected__MR__FunctionVolume__std__string_8rs.html", "expected__MR__FunctionVolume__std__string_8rs" ],
     [ "expected_MR_HoleFillPlan_std_string.rs", "expected__MR__HoleFillPlan__std__string_8rs.html", "expected__MR__HoleFillPlan__std__string_8rs" ],

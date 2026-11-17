@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"classMR_1_1BitSet.html":[9,0,0,3,3],
+"classMR_1_1BitSet.html#a029565ede6f02c029a79d6821794eca3":[9,0,0,3,3,4],
 "classMR_1_1BitSet.html#a0344c4c74d9b9a4ff11bdeae69c2ddb9":[9,0,0,3,3,22],
 "classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9":[9,0,0,3,3,3],
 "classMR_1_1BitSet.html#a0971e70b40f3a1f525922c4191716cbe":[9,0,0,3,3,61],
@@ -62,7 +64,7 @@ var NAVTREEINDEX7 =
 "classMR_1_1BitSet.html#afab07406cee38429e04894dd1de6f202":[9,0,0,3,3,6],
 "classMR_1_1BitSet.html#afc187206a3427ae8c94638dd893f922a":[9,0,0,3,3,17],
 "classMR_1_1BitSet.html#afc982ba4c4d3131098dc2fd20f779177":[9,0,0,3,3,38],
-"classMR_1_1BoundarySelectionWidget.html":[9,0,0,19,628],
+"classMR_1_1BoundarySelectionWidget.html":[9,0,0,19,629],
 "classMR_1_1Buffer.html":[9,0,0,3,6],
 "classMR_1_1Buffer.html":[9,0,0,19,150],
 "classMR_1_1CNCMachineSettings.html":[9,0,0,19,182],
@@ -77,7 +79,7 @@ var NAVTREEINDEX7 =
 "classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3":[9,0,0,4,47,3],
 "classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90":[9,0,0,4,47,2],
 "classMR_1_1ChangeActiveBoxAction.html#a897d1a8335367c58278f3a6da3a6c59f":[9,0,0,4,47,0],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html":[9,0,0,19,630],
+"classMR_1_1ChangeBoundarySelectionHistoryAction.html":[9,0,0,19,631],
 "classMR_1_1ChangeColoringType.html":[9,0,0,4,3],
 "classMR_1_1ChangeColoringType.html":[9,0,0,19,158],
 "classMR_1_1ChangeDualMarchingCubesAction.html":[9,0,0,4,46],
@@ -101,7 +103,7 @@ var NAVTREEINDEX7 =
 "classMR_1_1ChangeIsoAction.html#aa092c6c8626b2f08f27c88210a2df02e":[9,0,0,4,45,1],
 "classMR_1_1ChangeIsoAction.html#ac42a58b81acf452e6673fc739cdd14d0":[9,0,0,4,45,2],
 "classMR_1_1ChangeIsoAction.html#ae32cc04931a20fc9ae75cdcabad0b018":[9,0,0,4,45,3],
-"classMR_1_1ChangeLabelAction.html":[9,0,0,19,574],
+"classMR_1_1ChangeLabelAction.html":[9,0,0,19,575],
 "classMR_1_1ChangeLinesColorMapAction.html":[9,0,0,4,2],
 "classMR_1_1ChangeLinesColorMapAction.html":[9,0,0,19,157],
 "classMR_1_1ChangeMeshAction.html":[9,0,0,4,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "classMR_1_1ChangeTextureAction.html#a6415831fcd79f6104620dcc3ae8b96a6":[9,0,0,4,6,3],
 "classMR_1_1ChangeTextureAction.html#ac85c185778438e863240862dbd46a152":[9,0,0,4,6,1],
 "classMR_1_1ChangeTextureAction.html#ad5e78402371a9402c2bc3e58851fd874":[9,0,0,4,6,5],
-"classMR_1_1ChangeTextureAction.html#add3319a36aa18e770733fef0c61d2f9d":[9,0,0,4,6,4],
-"classMR_1_1ChangeValue.html":[9,0,0,4,33],
-"classMR_1_1ChangeValue.html":[9,0,0,19,172]
+"classMR_1_1ChangeTextureAction.html#add3319a36aa18e770733fef0c61d2f9d":[9,0,0,4,6,4]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1Const__EdgePoint.html#a4055bc4de109cb5883493ad118ccd2cc":[9,3,0,0,0,440,10],
 "classMR_1_1Const__EdgePoint.html#a4f6c995084940dfb01e6bb2391827636":[9,3,0,0,0,440,15],
 "classMR_1_1Const__EdgePoint.html#a557ea9fad901b3f57d06f8ea4354e5d8":[9,3,0,0,0,440,2],
 "classMR_1_1Const__EdgePoint.html#a5f43e85d482f91d3c7450194e75d22b8":[9,3,0,0,0,440,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1Const__EnumNeihbourVertices.html#a999b6263d99cf06a86ba7c080ebe824c":[9,3,0,0,0,453,1],
 "classMR_1_1Const__EnumNeihbourVertices.html#ae9d26325666d26a0860f70b2e2487c68":[9,3,0,0,0,453,2],
 "classMR_1_1Const__EnumNeihbourVertices.html#afff05828ee2f6263d11b320f8d0199a6":[9,3,0,0,0,453,0],
-"classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString.html":[9,3,0,0,0,454],
-"classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString.html#a15d1ac1d0efdcee2b671a21eab170dcb":[9,3,0,0,0,454,6]
+"classMR_1_1Const__Expected__MRCudaDeviceInfo__StdString.html":[9,3,0,0,0,454]
 };

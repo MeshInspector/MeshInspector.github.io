@@ -69,6 +69,7 @@ var MRVector_8rs =
     [ "meshlib::Vector_MR_VertBitSet_MR_ObjId", "structmeshlib_1_1Vector__MR__VertBitSet__MR__ObjId.html", "structmeshlib_1_1Vector__MR__VertBitSet__MR__ObjId" ],
     [ "meshlib::Vector_MR_VertId_MR_EdgeId", "structmeshlib_1_1Vector__MR__VertId__MR__EdgeId.html", "structmeshlib_1_1Vector__MR__VertId__MR__EdgeId" ],
     [ "meshlib::Vector_MR_VertId_MR_Id_MR_SurfaceDistanceStartTag", "structmeshlib_1_1Vector__MR__VertId__MR__Id__MR__SurfaceDistanceStartTag.html", "structmeshlib_1_1Vector__MR__VertId__MR__Id__MR__SurfaceDistanceStartTag" ],
+    [ "meshlib::Vector_MR_VertId", "structmeshlib_1_1Vector__MR__VertId.html", "structmeshlib_1_1Vector__MR__VertId" ],
     [ "meshlib::Vector_MR_VoxelId_MR_FaceId", "structmeshlib_1_1Vector__MR__VoxelId__MR__FaceId.html", "structmeshlib_1_1Vector__MR__VoxelId__MR__FaceId" ],
     [ "meshlib::Vector_MR_VoxelId_MR_VoxelId", "structmeshlib_1_1Vector__MR__VoxelId__MR__VoxelId.html", "structmeshlib_1_1Vector__MR__VoxelId__MR__VoxelId" ],
     [ "meshlib::Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId", "structmeshlib_1_1Vector__MR__WatershedGraph__BasinInfo__MR__GraphVertId.html", "structmeshlib_1_1Vector__MR__WatershedGraph__BasinInfo__MR__GraphVertId" ],

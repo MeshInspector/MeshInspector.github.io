@@ -48,7 +48,7 @@ var classMR_1_1Const__Mesh =
     [ "findCreaseEdges", "classMR_1_1Const__Mesh.html#acaa1a323b359755f854bacd4b19e17bb", null ],
     [ "findSharpEdges", "classMR_1_1Const__Mesh.html#a4ad52d28f5f3ff1d4add1d39a452f3d2", null ],
     [ "findSpikeVertices", "classMR_1_1Const__Mesh.html#a202c18bfd4a011ddcfc9274a041ff995", null ],
-    [ "fromFaceSoup", "classMR_1_1Const__Mesh.html#a3d20ec971a1772c8c560ecc05fc625d2", null ],
+    [ "fromFaceSoup", "classMR_1_1Const__Mesh.html#ac553905cb00e9b457af3ba7476ecdacf", null ],
     [ "fromPointTriples", "classMR_1_1Const__Mesh.html#a3ab5d9b7ba1426c16b2665c03a13fbc7", null ],
     [ "fromTriangles", "classMR_1_1Const__Mesh.html#a63d8b33cacb827e76e8937be45e956fd", null ],
     [ "fromTrianglesDuplicatingNonManifoldVertices", "classMR_1_1Const__Mesh.html#a019bb4bf98f50221f3b8cf46c8643da1", null ],
