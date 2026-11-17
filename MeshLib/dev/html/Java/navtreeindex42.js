@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"classmeshlib_1_1DividePolylineParameters.html#af0c5cc51f1f3340e8f94e07172e54a25":[9,6,0,0,0,294,4],
+"classmeshlib_1_1DividePolylineParameters.html#af0c5cc51f1f3340e8f94e07172e54a25":[9,6,1,0,0,294,4],
 "classmeshlib_1_1DividePolylineParameters.html#af9fe0db62ba06d9b4154f3015eda7ff5":[9,6,0,0,0,294,10],
 "classmeshlib_1_1DividePolylineParameters.html#af9fe0db62ba06d9b4154f3015eda7ff5":[9,6,1,0,0,294,10],
 "classmeshlib_1_1DoubleOffsetSettings.html":[9,6,0,0,0,296],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "classmeshlib_1_1EdgeBitSet.html#abfeae99d3bf3ce8375f5c26a06b9d713":[9,6,0,0,0,298,19],
 "classmeshlib_1_1EdgeBitSet.html#abfeae99d3bf3ce8375f5c26a06b9d713":[9,6,1,0,0,298,19],
 "classmeshlib_1_1EdgeBitSet.html#ac14cd8d6f2ed8074286508cac87b8dc0":[9,6,0,0,0,298,22],
-"classmeshlib_1_1EdgeBitSet.html#ac14cd8d6f2ed8074286508cac87b8dc0":[9,6,1,0,0,298,22],
-"classmeshlib_1_1EdgeBitSet.html#ac1f9ea4c28178e20ea951a647f28cccf":[9,6,0,0,0,298,8],
-"classmeshlib_1_1EdgeBitSet.html#ac1f9ea4c28178e20ea951a647f28cccf":[9,6,1,0,0,298,8]
+"classmeshlib_1_1EdgeBitSet.html#ac14cd8d6f2ed8074286508cac87b8dc0":[9,6,1,0,0,298,22]
 };

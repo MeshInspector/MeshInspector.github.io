@@ -1,7 +1,8 @@
 var NAVTREEINDEX3 =
 {
+"MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17":[9,2,2,0,0,0,0,1,1,5],
 "MRAABBTree_8h.html#af977d78366b2e3f513265191e2207539":[9,2,2,0,0,0,0,1,1,4],
-"MRAABBTree_8h.html#afe46770efc6167e6404312167362eb05":[9,2,2,0,0,0,0,1,1,27],
+"MRAABBTree_8h.html#afe46770efc6167e6404312167362eb05":[9,2,2,0,0,0,0,1,1,28],
 "MRAABBTree_8h_source.html":[9,2,2,0,0,0,0,1,1],
 "MRAddNoise_8h.html":[9,2,2,0,0,0,0,1,8],
 "MRAddNoise_8h.html#a1b6df507815b5c251a34f0b3c5c57093":[9,2,2,0,0,0,0,1,8,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "MRAddVisualPropertiesMixin_8h.html#a7609412f108c0889a4e4180584973764":[9,2,2,0,0,0,0,1,9,37],
 "MRAddVisualPropertiesMixin_8h.html#a767b4fa532d3d1822ecce1826aef5763":[9,2,2,0,0,0,0,1,9,339],
 "MRAddVisualPropertiesMixin_8h.html#a779f9033c1b378e8511f292fae00258e":[9,2,2,0,0,0,0,1,9,60],
-"MRAddVisualPropertiesMixin_8h.html#a785a3300baa14b080db01da1d71f8835":[9,2,2,0,0,0,0,1,9,463],
-"MRAddVisualPropertiesMixin_8h.html#a798f0e7986e8b526ceee50341d91431b":[9,2,2,0,0,0,0,1,9,500]
+"MRAddVisualPropertiesMixin_8h.html#a785a3300baa14b080db01da1d71f8835":[9,2,2,0,0,0,0,1,9,463]
 };

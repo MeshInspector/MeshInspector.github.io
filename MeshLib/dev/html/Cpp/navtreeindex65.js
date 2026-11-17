@@ -1,5 +1,10 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1DecimateSettings.html#a75b6f5ba5cb1ddac954f9ffd4fb9b7fe":[9,0,0,10,0,5],
+"structMR_1_1DecimateSettings.html#a7b024d2a905ecd6515a263ec20d35dc6":[9,0,0,10,0,27],
+"structMR_1_1DecimateSettings.html#a7cc18ed533890cfc09a39ba3724b5f85":[9,0,0,10,0,14],
+"structMR_1_1DecimateSettings.html#a7d69e19f2609b7330c6ac5d17a9ebfff":[9,0,0,10,0,19],
+"structMR_1_1DecimateSettings.html#a83cf18a566f0fa10cc6421ddcc2487e6":[9,0,0,10,0,22],
 "structMR_1_1DecimateSettings.html#a8a682d43b723098485a748e97bd12111":[9,0,0,10,0,33],
 "structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4":[9,0,0,10,0,28],
 "structMR_1_1DecimateSettings.html#a9359f9da0b131c164d942b1361bd9644":[9,0,0,10,0,24],
@@ -244,10 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1FixCreasesParams.html#a279d3fb54a0fb0946a220b96b62e06cc":[9,0,0,9,4,1,1],
 "structMR_1_1FixCreasesParams.html#a3c47008ac5a83366788b6b52976b5e4c":[9,0,0,9,4,1,2],
 "structMR_1_1FixCreasesParams.html#a6921929310773c0b26398debbe0ee1f7":[9,0,0,9,4,1,0],
-"structMR_1_1FixMeshDegeneraciesParams.html":[9,0,0,9,4,0],
-"structMR_1_1FixMeshDegeneraciesParams.html#a03fabfe38c70165440f7eaf7677e07ce":[9,0,0,9,4,0,7],
-"structMR_1_1FixMeshDegeneraciesParams.html#a0eff7987d6820ff165e578fac210c66e":[9,0,0,9,4,0,1],
-"structMR_1_1FixMeshDegeneraciesParams.html#a1288492f43aeb3ebd3709f7eaed006ec":[9,0,0,9,4,0,4],
-"structMR_1_1FixMeshDegeneraciesParams.html#a27e58d6d674f40a1d627ba6f034ef140":[9,0,0,9,4,0,3],
-"structMR_1_1FixMeshDegeneraciesParams.html#a2f58b5b52ce3c9588255ffc814220198":[9,0,0,9,4,0,6]
+"structMR_1_1FixMeshDegeneraciesParams.html":[9,0,0,9,4,0]
 };

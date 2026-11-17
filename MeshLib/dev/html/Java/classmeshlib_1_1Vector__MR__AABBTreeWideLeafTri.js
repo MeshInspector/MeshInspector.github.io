@@ -32,6 +32,7 @@ var classmeshlib_1_1Vector__MR__AABBTreeWideLeafTri =
     [ "reserve", "classmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a7ddaf728c205eba188506821f7f3df18", null ],
     [ "resize", "classmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a4d7490019f3c793971a887afb0e795ad", null ],
     [ "resize", "classmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a3afe7daf961769cb7829d3a99d1fe0cf", null ],
+    [ "resizeNoInit", "classmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a1e19b9261c8d18eb3f7841b3b42763f2", null ],
     [ "resizeWithReserve", "classmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#ad8cfe0bc45d0a6698e3be3f13435657d", null ],
     [ "resizeWithReserve", "classmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#ab4e329975ecdee5c0514e9388f24ef1c", null ],
     [ "setVec", "classmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a9418cd68bd2e4e92691a444e3a0c740a", null ],

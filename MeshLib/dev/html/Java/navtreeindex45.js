@@ -1,5 +1,7 @@
 var NAVTREEINDEX45 =
 {
+"classmeshlib_1_1EdgePointPair.html#af59ca75d4b5ac80ebb0b0d607f1ffccc":[9,6,0,0,0,311,8],
+"classmeshlib_1_1EdgePointPair.html#af59ca75d4b5ac80ebb0b0d607f1ffccc":[9,6,1,0,0,311,8],
 "classmeshlib_1_1EdgePointPair.html#aff09b60a0ef49cc2539cd602faa001af":[9,6,0,0,0,311,9],
 "classmeshlib_1_1EdgePointPair.html#aff09b60a0ef49cc2539cd602faa001af":[9,6,1,0,0,311,9],
 "classmeshlib_1_1EdgePointd.html":[9,6,0,0,0,310],
@@ -247,7 +249,5 @@ var NAVTREEINDEX45 =
 "classmeshlib_1_1EdgeTri.html#afef4183cd75eab039f4dc208a081b680":[9,6,0,0,0,317,1],
 "classmeshlib_1_1EdgeTri.html#afef4183cd75eab039f4dc208a081b680":[9,6,1,0,0,317,1],
 "classmeshlib_1_1EdgeWeights.html":[9,6,0,0,0,318],
-"classmeshlib_1_1EdgeWeights.html":[9,6,1,0,0,318],
-"classmeshlib_1_1EdgeWeights.html#a63d9bda7c8a0423f9ed4e7b27b243564":[9,6,0,0,0,318,0],
-"classmeshlib_1_1EdgeWeights.html#a63d9bda7c8a0423f9ed4e7b27b243564":[9,6,1,0,0,318,0]
+"classmeshlib_1_1EdgeWeights.html":[9,6,1,0,0,318]
 };

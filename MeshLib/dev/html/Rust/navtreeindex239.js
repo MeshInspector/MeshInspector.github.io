@@ -1,5 +1,9 @@
 var NAVTREEINDEX239 =
 {
+"structmeshlib_1_1triangulation__helpers_1_1FanOptimizerQueueElement.html#add9375e9c17f45eb16fea2a413474e28":[9,5,0,0,0,33,0,13],
+"structmeshlib_1_1triangulation__helpers_1_1FanOptimizerQueueElement.html#add9375e9c17f45eb16fea2a413474e28":[9,5,1,0,0,20,0,13],
+"structmeshlib_1_1triangulation__helpers_1_1FanOptimizerQueueElement.html#af02ea4a9cb9f6acd21b45d62587c784c":[9,5,0,0,0,33,0,17],
+"structmeshlib_1_1triangulation__helpers_1_1FanOptimizerQueueElement.html#af02ea4a9cb9f6acd21b45d62587c784c":[9,5,1,0,0,20,0,17],
 "structmeshlib_1_1triangulation__helpers_1_1FanOptimizerQueueElement.html#af45a8a4b1810e2e6aacc34a7698e5bde":[9,5,0,0,0,33,0,8],
 "structmeshlib_1_1triangulation__helpers_1_1FanOptimizerQueueElement.html#af45a8a4b1810e2e6aacc34a7698e5bde":[9,5,1,0,0,20,0,8],
 "structmeshlib_1_1triangulation__helpers_1_1Settings.html":[9,5,0,0,0,33,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX239 =
 "structmeshlib_1_1voxels__save_1_1SavingSettings.html#aae5e6d5684e2a9cd0b0e2efd491851b9":[9,5,0,0,0,35,0,8],
 "structmeshlib_1_1voxels__save_1_1SavingSettings.html#aae5e6d5684e2a9cd0b0e2efd491851b9":[9,5,1,0,0,22,0,8],
 "structmeshlib_1_1voxels__save_1_1SavingSettings.html#ab5f85dcbd3c1a84ccf69c43143ef5eb9":[9,5,0,0,0,35,0,6],
-"structmeshlib_1_1voxels__save_1_1SavingSettings.html#ab5f85dcbd3c1a84ccf69c43143ef5eb9":[9,5,1,0,0,22,0,6],
-"structmeshlib_1_1voxels__save_1_1SavingSettings.html#abb17b5aeab55308cd3caff726706e307":[9,5,0,0,0,35,0,7],
-"structmeshlib_1_1voxels__save_1_1SavingSettings.html#abb17b5aeab55308cd3caff726706e307":[9,5,1,0,0,22,0,7],
-"structmeshlib_1_1voxels__save_1_1SavingSettings.html#ae226c2081584831fa726d68a8ffbee4e":[9,5,0,0,0,35,0,1],
-"structmeshlib_1_1voxels__save_1_1SavingSettings.html#ae226c2081584831fa726d68a8ffbee4e":[9,5,1,0,0,22,0,1]
+"structmeshlib_1_1voxels__save_1_1SavingSettings.html#ab5f85dcbd3c1a84ccf69c43143ef5eb9":[9,5,1,0,0,22,0,6]
 };

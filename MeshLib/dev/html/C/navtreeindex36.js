@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"MRDistanceToMeshOptions_8h.html#aa7de2d0c236bd25f0e81480f6db3441b":[9,2,2,0,0,0,0,1,82,12],
 "MRDistanceToMeshOptions_8h.html#aaa621dddaf0a2fb1ef9884a3e86b2017":[9,2,2,0,0,0,0,1,82,21],
 "MRDistanceToMeshOptions_8h.html#aaa6924366a6fa2f7a72907f1005c4661":[9,2,2,0,0,0,0,1,82,27],
 "MRDistanceToMeshOptions_8h.html#ab24458e952212b36dcefd28a22554103":[9,2,2,0,0,0,0,1,82,55],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "MREdgePathsBuilder_8h.html#a0801f9e8e11a3e67cecc2727fb2d47e7":[9,2,2,0,0,0,0,1,87,11],
 "MREdgePathsBuilder_8h.html#a087cd280cb8e6f92e4a98318fd081a80":[9,2,2,0,0,0,0,1,87,42],
 "MREdgePathsBuilder_8h.html#a08efbe2cb589f8c23a109800af183a84":[9,2,2,0,0,0,0,1,87,100],
-"MREdgePathsBuilder_8h.html#a0b3225ed38fb4b8ff92bd88189edf7de":[9,2,2,0,0,0,0,1,87,16],
-"MREdgePathsBuilder_8h.html#a0c257eca782bf176aac0c560d794a3ca":[9,2,2,0,0,0,0,1,87,60]
+"MREdgePathsBuilder_8h.html#a0b3225ed38fb4b8ff92bd88189edf7de":[9,2,2,0,0,0,0,1,87,16]
 };

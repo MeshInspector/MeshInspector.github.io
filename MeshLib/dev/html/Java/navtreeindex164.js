@@ -1,5 +1,11 @@
 var NAVTREEINDEX164 =
 {
+"classmeshlib_1_1Vector__MR__VarEdgeTri.html#a1912fe8f21144a1aae7ca39a6e011046":[9,6,0,0,0,1650,11],
+"classmeshlib_1_1Vector__MR__VarEdgeTri.html#a1912fe8f21144a1aae7ca39a6e011046":[9,6,1,0,0,1650,11],
+"classmeshlib_1_1Vector__MR__VarEdgeTri.html#a1ebc256eff4d1974e36083a0cb5362af":[9,6,0,0,0,1650,28],
+"classmeshlib_1_1Vector__MR__VarEdgeTri.html#a1ebc256eff4d1974e36083a0cb5362af":[9,6,1,0,0,1650,28],
+"classmeshlib_1_1Vector__MR__VarEdgeTri.html#a200a0536bc195eb32c89c3cbd59c2e0f":[9,6,0,0,0,1650,3],
+"classmeshlib_1_1Vector__MR__VarEdgeTri.html#a200a0536bc195eb32c89c3cbd59c2e0f":[9,6,1,0,0,1650,3],
 "classmeshlib_1_1Vector__MR__VarEdgeTri.html#a20c3d2bcf1825e853917730515aa0591":[9,6,0,0,0,1650,38],
 "classmeshlib_1_1Vector__MR__VarEdgeTri.html#a20c3d2bcf1825e853917730515aa0591":[9,6,1,0,0,1650,38],
 "classmeshlib_1_1Vector__MR__VarEdgeTri.html#a2267da970a7a3e7a6e6bfda061a6a7f4":[9,6,0,0,0,1650,36],
@@ -243,11 +249,5 @@ var NAVTREEINDEX164 =
 "classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html":[9,6,0,0,0,1653],
 "classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html":[9,6,1,0,0,1653],
 "classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html#a101bce992798c3f0939dca2b81e1eaf6":[9,6,0,0,0,1653,5],
-"classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html#a101bce992798c3f0939dca2b81e1eaf6":[9,6,1,0,0,1653,5],
-"classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html#a1455910e753d6d65ded48520489ad701":[9,6,0,0,0,1653,23],
-"classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html#a1455910e753d6d65ded48520489ad701":[9,6,1,0,0,1653,23],
-"classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html#a150b944f24b9ed40d3461d955958ad32":[9,6,0,0,0,1653,37],
-"classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html#a150b944f24b9ed40d3461d955958ad32":[9,6,1,0,0,1653,37],
-"classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html#a27c28399e53b0b97950a179ec3961bca":[9,6,0,0,0,1653,36],
-"classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html#a27c28399e53b0b97950a179ec3961bca":[9,6,1,0,0,1653,36]
+"classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html#a101bce992798c3f0939dca2b81e1eaf6":[9,6,1,0,0,1653,5]
 };

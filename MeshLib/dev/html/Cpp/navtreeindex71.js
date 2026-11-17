@@ -1,5 +1,10 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1RasterLoadSettings.html#ac90b0db79dd8dbe777a53e0e10528860":[9,0,0,17,0,2,1],
+"structMR_1_1RasterLoad_1_1RasterLoader.html":[9,0,1,0,1,42,0],
+"structMR_1_1RasterLoad_1_1RasterLoader.html":[9,0,2,0,1,26,0],
+"structMR_1_1RasterLoad_1_1RasterLoader.html#a1144daaa14a34e9a7eb038d91217c799":[9,0,1,0,1,42,0,1],
+"structMR_1_1RasterLoad_1_1RasterLoader.html#a1144daaa14a34e9a7eb038d91217c799":[9,0,2,0,1,26,0,1],
 "structMR_1_1RasterLoad_1_1RasterLoader.html#abd3ba17645c37e6f6d37004db945532c":[9,0,1,0,1,42,0,0],
 "structMR_1_1RasterLoad_1_1RasterLoader.html#abd3ba17645c37e6f6d37004db945532c":[9,0,2,0,1,26,0,0],
 "structMR_1_1RasterLoad_1_1TiffLoadSettings.html":[9,0,0,19,108],
@@ -244,10 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1TriIntersectResult.html#a48df7c0ab186bb4fc08a19d5729ecf0d":[9,0,0,0,10,0,0],
 "structMR_1_1TriIntersectResult.html#afcfc8df6cc0634cb7eee48bd5186099f":[9,0,0,0,10,0,2],
 "structMR_1_1TriIntersectResult.html#afddaa2d62c7a7fcf3af2785e8551c268":[9,0,0,0,10,0,1],
-"structMR_1_1TriMesh.html":[9,0,0,19,536],
-"structMR_1_1TriMeshPart.html":[9,0,0,19,537],
-"structMR_1_1TriPoint.html":[9,0,0,0,27],
-"structMR_1_1TriPoint.html":[9,0,0,19,539],
-"structMR_1_1TriTriDistanceParams.html":[9,0,0,19,535],
-"structMR_1_1TriTriDistanceResult.html":[9,0,0,19,534]
+"structMR_1_1TriMesh.html":[9,0,0,19,536]
 };

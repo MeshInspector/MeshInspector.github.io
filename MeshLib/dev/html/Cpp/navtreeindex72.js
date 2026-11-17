@@ -1,5 +1,10 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1TriMeshPart.html":[9,0,0,19,537],
+"structMR_1_1TriPoint.html":[9,0,0,0,27],
+"structMR_1_1TriPoint.html":[9,0,0,19,539],
+"structMR_1_1TriTriDistanceParams.html":[9,0,0,19,535],
+"structMR_1_1TriTriDistanceResult.html":[9,0,0,19,534],
 "structMR_1_1TriangleSegmentIntersectResult.html":[9,0,0,19,489],
 "structMR_1_1TriangulateHolesParams.html":[9,0,0,13,2],
 "structMR_1_1TriangulateHolesParams.html#a8817163abe136db373a3bbdefcba5ed0":[9,0,0,13,2,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1Vector2.html#a74579bfbb9d532d53c66684a02dc8cb5":[9,0,0,0,12,0,0],
 "structMR_1_1Vector2.html#a7538b7a66163ad22feec74b78c40f5b5":[9,0,0,0,12,0,37],
 "structMR_1_1Vector2.html#a75acf72ad892f7261ea81fc321f4931c":[9,0,0,0,12,0,9],
-"structMR_1_1Vector2.html#a7be48c5d4180d89d8038acede661911e":[9,0,0,0,12,0,21],
-"structMR_1_1Vector2.html#a7be48c5d4180d89d8038acede661911e":[9,0,1,0,1,1654],
-"structMR_1_1Vector2.html#a80c8e970c24dc087715475cb51993e12":[9,0,0,0,12,0,15],
-"structMR_1_1Vector2.html#a847fe803c44c19055d0a15eca838df52":[9,0,0,0,12,0,20],
-"structMR_1_1Vector2.html#a847fe803c44c19055d0a15eca838df52":[9,0,1,0,1,1642],
-"structMR_1_1Vector2.html#a9c5f2b992789dba5c6d4e8e80ed28fa0":[9,0,0,0,12,0,5]
+"structMR_1_1Vector2.html#a7be48c5d4180d89d8038acede661911e":[9,0,0,0,12,0,21]
 };

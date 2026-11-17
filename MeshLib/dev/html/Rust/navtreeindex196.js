@@ -1,5 +1,9 @@
 var NAVTREEINDEX196 =
 {
+"structmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref.html#a5165d68c80bbafa21ce6c6124f663c3f":[9,5,0,0,0,1058,2],
+"structmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref.html#a5165d68c80bbafa21ce6c6124f663c3f":[9,5,1,0,0,1045,2],
+"structmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref.html#a9e5099ccb20b3bab7fc911767e3078b6":[9,5,0,0,0,1058,4],
+"structmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref.html#a9e5099ccb20b3bab7fc911767e3078b6":[9,5,1,0,0,1045,4],
 "structmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref.html#af22a7151882667e8af3ee2e0e583f9d3":[9,5,0,0,0,1058,0],
 "structmeshlib_1_1std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref.html#af22a7151882667e8af3ee2e0e583f9d3":[9,5,1,0,0,1045,0],
 "structmeshlib_1_1std__function__void__from__MR__VertId.html":[9,5,0,0,0,1059],
@@ -245,9 +249,5 @@ var NAVTREEINDEX196 =
 "structmeshlib_1_1std__optional__MR__LengthUnit.html#af5ce0f736864c8a5a9c242a4e7b2a70f":[9,5,0,0,0,1075,3],
 "structmeshlib_1_1std__optional__MR__LengthUnit.html#af5ce0f736864c8a5a9c242a4e7b2a70f":[9,5,1,0,0,1062,3],
 "structmeshlib_1_1std__optional__MR__Mesh.html":[9,5,0,0,0,1076],
-"structmeshlib_1_1std__optional__MR__Mesh.html":[9,5,1,0,0,1063],
-"structmeshlib_1_1std__optional__MR__Mesh.html#a77b80d228c46d25522ea67a61a1ad811":[9,5,0,0,0,1076,2],
-"structmeshlib_1_1std__optional__MR__Mesh.html#a77b80d228c46d25522ea67a61a1ad811":[9,5,1,0,0,1063,2],
-"structmeshlib_1_1std__optional__MR__Mesh.html#ab6d6d6822e1b6ec0457529682a3e0dbb":[9,5,0,0,0,1076,4],
-"structmeshlib_1_1std__optional__MR__Mesh.html#ab6d6d6822e1b6ec0457529682a3e0dbb":[9,5,1,0,0,1063,4]
+"structmeshlib_1_1std__optional__MR__Mesh.html":[9,5,1,0,0,1063]
 };

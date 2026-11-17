@@ -219,16 +219,16 @@ var NAVTREEINDEX =
 "namespaceMR.html#a906daf2182f2898fb3e5ad598d8960ae",
 "namespaceMR_1_1PointsLoad.html#a2375d8a5796d1b39ee7f5f90ef0c6649",
 "namespaceMR_1_1VoxelsSave.html#a56ebe06547e21b86384b5c3a557b9aa2",
-"structMR_1_1AffineXf.html",
-"structMR_1_1DecimateSettings.html#a8a682d43b723098485a748e97bd12111",
-"structMR_1_1FixMeshDegeneraciesParams.html#a39c6c7eb9bf8c2a75b88975d8f434101",
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a65617319e0c1b767525aede65d4607b5",
-"structMR_1_1MaxArg.html",
-"structMR_1_1MeshIntersectionResult.html#a2f22c8d64736c8e5ac4bf510fb2f81d2",
-"structMR_1_1PointCloud.html#a7e507a7cdba55a1c26aa3a073cf2d315",
-"structMR_1_1RasterLoad_1_1RasterLoader.html#abd3ba17645c37e6f6d37004db945532c",
-"structMR_1_1TriangleSegmentIntersectResult.html",
-"structMR_1_1Vector2.html#aa17da7f932edf77c0804eef8416b44bb"
+"structMR_1_1AABBTreeWideNode.html#a86ef525d819a07942ca79d2f034c10b8",
+"structMR_1_1DecimateSettings.html#a75b6f5ba5cb1ddac954f9ffd4fb9b7fe",
+"structMR_1_1FixMeshDegeneraciesParams.html#a03fabfe38c70165440f7eaf7677e07ce",
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a58f5f1024004e4faebc6f17c3c1ef67f",
+"structMR_1_1Matrix3.html",
+"structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0",
+"structMR_1_1PointCloud.html#a461af7799e74931eb23168bd86111217",
+"structMR_1_1RasterLoadSettings.html#ac90b0db79dd8dbe777a53e0e10528860",
+"structMR_1_1TriMeshPart.html",
+"structMR_1_1Vector2.html#a7be48c5d4180d89d8038acede661911e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

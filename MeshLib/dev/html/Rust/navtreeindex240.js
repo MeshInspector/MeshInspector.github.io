@@ -1,5 +1,9 @@
 var NAVTREEINDEX240 =
 {
+"structmeshlib_1_1voxels__save_1_1SavingSettings.html#abb17b5aeab55308cd3caff726706e307":[9,5,0,0,0,35,0,7],
+"structmeshlib_1_1voxels__save_1_1SavingSettings.html#abb17b5aeab55308cd3caff726706e307":[9,5,1,0,0,22,0,7],
+"structmeshlib_1_1voxels__save_1_1SavingSettings.html#ae226c2081584831fa726d68a8ffbee4e":[9,5,0,0,0,35,0,1],
+"structmeshlib_1_1voxels__save_1_1SavingSettings.html#ae226c2081584831fa726d68a8ffbee4e":[9,5,1,0,0,22,0,1],
 "structmeshlib_1_1voxels__save_1_1SavingSettings.html#ae98dbf1b97cd3e9a9027a14cf3368b62":[9,5,0,0,0,35,0,2],
 "structmeshlib_1_1voxels__save_1_1SavingSettings.html#ae98dbf1b97cd3e9a9027a14cf3368b62":[9,5,1,0,0,22,0,2],
 "structmeshlib_1_1voxels__save_1_1SavingSettings.html#aeed747e7d2745b26d5446b848e25d9aa":[9,5,0,0,0,35,0,12],

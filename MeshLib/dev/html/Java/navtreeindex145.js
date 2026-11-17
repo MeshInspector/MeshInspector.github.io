@@ -1,5 +1,7 @@
 var NAVTREEINDEX145 =
 {
+"classmeshlib_1_1UndirectedEdgeColors.html#aa96e4d02b62f5e1c06b4aea07000bf6a":[9,6,0,0,0,1559,2],
+"classmeshlib_1_1UndirectedEdgeColors.html#aa96e4d02b62f5e1c06b4aea07000bf6a":[9,6,1,0,0,1559,2],
 "classmeshlib_1_1UndirectedEdgeColors.html#ac403508b277860eed56984de02e98872":[9,6,0,0,0,1559,8],
 "classmeshlib_1_1UndirectedEdgeColors.html#ac403508b277860eed56984de02e98872":[9,6,1,0,0,1559,8],
 "classmeshlib_1_1UndirectedEdgeColors.html#acc26df1ca1cca0b9b314d33aa9fac5c1":[9,6,0,0,0,1559,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX145 =
 "classmeshlib_1_1UndirectedEdgeScalars.html#af0320a7b237a651e962a54403b8b958d":[9,6,0,0,0,1563,36],
 "classmeshlib_1_1UndirectedEdgeScalars.html#af0320a7b237a651e962a54403b8b958d":[9,6,1,0,0,1563,36],
 "classmeshlib_1_1UndirectedEdgeScalars.html#af9935dcb7fad1b9aada6bc498cde4b2b":[9,6,0,0,0,1563,20],
-"classmeshlib_1_1UndirectedEdgeScalars.html#af9935dcb7fad1b9aada6bc498cde4b2b":[9,6,1,0,0,1563,20],
-"classmeshlib_1_1UndirectedEdgeSetBitIterator.html":[9,6,0,0,0,1564],
-"classmeshlib_1_1UndirectedEdgeSetBitIterator.html":[9,6,1,0,0,1564]
+"classmeshlib_1_1UndirectedEdgeScalars.html#af9935dcb7fad1b9aada6bc498cde4b2b":[9,6,1,0,0,1563,20]
 };

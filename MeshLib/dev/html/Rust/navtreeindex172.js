@@ -1,5 +1,9 @@
 var NAVTREEINDEX172 =
 {
+"structmeshlib_1_1VolumeSegmentationParameters.html#a8b18269c958977c10f9de565e2241722":[9,5,0,0,0,1691,3],
+"structmeshlib_1_1VolumeSegmentationParameters.html#a8b18269c958977c10f9de565e2241722":[9,5,1,0,0,1678,3],
+"structmeshlib_1_1VolumeSegmentationParameters.html#abe1e990a46b6994f4b0eb10774789cf7":[9,5,0,0,0,1691,4],
+"structmeshlib_1_1VolumeSegmentationParameters.html#abe1e990a46b6994f4b0eb10774789cf7":[9,5,1,0,0,1678,4],
 "structmeshlib_1_1VolumeSegmentationParameters.html#ac492c2021fbe222343fb697dd50461c7":[9,5,0,0,0,1691,6],
 "structmeshlib_1_1VolumeSegmentationParameters.html#ac492c2021fbe222343fb697dd50461c7":[9,5,1,0,0,1678,6],
 "structmeshlib_1_1VolumeSegmentationParameters.html#ac96048cfc680da6df868bb076b290324":[9,5,0,0,0,1691,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX172 =
 "structmeshlib_1_1VoxelMetricParameters.html#aa63c86d8fcba20e536a10d3ddc3030b1":[9,5,0,0,0,1700,2],
 "structmeshlib_1_1VoxelMetricParameters.html#aa63c86d8fcba20e536a10d3ddc3030b1":[9,5,1,0,0,1687,2],
 "structmeshlib_1_1VoxelMetricParameters.html#aa73b8566999fd180029813b293568117":[9,5,0,0,0,1700,7],
-"structmeshlib_1_1VoxelMetricParameters.html#aa73b8566999fd180029813b293568117":[9,5,1,0,0,1687,7],
-"structmeshlib_1_1VoxelMetricParameters.html#ac94667739aba08bd963954539ea27b7c":[9,5,0,0,0,1700,1],
-"structmeshlib_1_1VoxelMetricParameters.html#ac94667739aba08bd963954539ea27b7c":[9,5,1,0,0,1687,1],
-"structmeshlib_1_1VoxelMetricParameters.html#aca16a86ea71e23fbcad4dd918b1d4d82":[9,5,0,0,0,1700,4],
-"structmeshlib_1_1VoxelMetricParameters.html#aca16a86ea71e23fbcad4dd918b1d4d82":[9,5,1,0,0,1687,4]
+"structmeshlib_1_1VoxelMetricParameters.html#aa73b8566999fd180029813b293568117":[9,5,1,0,0,1687,7]
 };

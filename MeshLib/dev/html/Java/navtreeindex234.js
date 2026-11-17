@@ -1,5 +1,11 @@
 var NAVTREEINDEX234 =
 {
+"classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#a68c49e3c8fd5fc4aa8a406edc093481a":[9,6,0,0,0,1288,24],
+"classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#a68c49e3c8fd5fc4aa8a406edc093481a":[9,6,1,0,0,1288,24],
+"classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#a6a56f11368a351635da07606feb09277":[9,6,0,0,0,1288,21],
+"classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#a6a56f11368a351635da07606feb09277":[9,6,1,0,0,1288,21],
+"classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#a76e87fa742f6d4f74f83936f294a3055":[9,6,0,0,0,1288,7],
+"classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#a76e87fa742f6d4f74f83936f294a3055":[9,6,1,0,0,1288,7],
 "classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#a82bf60afdd6b7a05a85158e47f6b7d16":[9,6,0,0,0,1288,32],
 "classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#a82bf60afdd6b7a05a85158e47f6b7d16":[9,6,1,0,0,1288,32],
 "classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#a859fcf1c296210b5becd2605ea8bdba1":[9,6,0,0,0,1288,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX234 =
 "classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#a089a42df6de2573080cd873f755b004b":[9,6,0,0,0,1293,12],
 "classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#a089a42df6de2573080cd873f755b004b":[9,6,1,0,0,1293,12],
 "classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#a0f44716d1e50a8d2d890ec1bbc4e99f1":[9,6,0,0,0,1293,8],
-"classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#a0f44716d1e50a8d2d890ec1bbc4e99f1":[9,6,1,0,0,1293,8],
-"classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#a14f34a30ef3aef84f18e65f3f8461c73":[9,6,0,0,0,1293,3],
-"classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#a14f34a30ef3aef84f18e65f3f8461c73":[9,6,1,0,0,1293,3],
-"classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#a21fe362163962a68d7c3c8472e93b4ec":[9,6,0,0,0,1293,5],
-"classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#a21fe362163962a68d7c3c8472e93b4ec":[9,6,1,0,0,1293,5],
-"classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#a40884b4893acbd7ab8fc9c85e74ace18":[9,6,0,0,0,1293,10],
-"classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#a40884b4893acbd7ab8fc9c85e74ace18":[9,6,1,0,0,1293,10]
+"classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html#a0f44716d1e50a8d2d890ec1bbc4e99f1":[9,6,1,0,0,1293,8]
 };

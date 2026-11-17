@@ -1,5 +1,7 @@
 var NAVTREEINDEX132 =
 {
+"classMR_1_1Polynomial__Float__1.html#a7b948dd9376ebfef314bec46beb14453":[9,3,0,0,0,1632,0],
+"classMR_1_1Polynomial__Float__1.html#ac7bc67b8cbcba135e8d727c2d9697d73":[9,3,0,0,0,1632,1],
 "classMR_1_1Polynomial__Float__1.html#ae6031e98221cecffe2700ea13038ee86":[9,3,0,0,0,1632,2],
 "classMR_1_1Polynomial__Float__2.html":[9,3,0,0,0,1633],
 "classMR_1_1Polynomial__Float__2.html#a206e2eff0369cde1e7ffeffce506b85c":[9,3,0,0,0,1633,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX132 =
 "classMR_1_1Raster.html#a261554001cdafd194945e9c3175eb792":[9,3,0,0,0,1655,7],
 "classMR_1_1Raster.html#a29f14f9670bafff09b41b16759f1cf21":[9,3,0,0,0,1655,5],
 "classMR_1_1Raster.html#a3801bfb095b916e3e9416406a8e81c39":[9,3,0,0,0,1655,2],
-"classMR_1_1Raster.html#a6e5549a9e969d0606b46ea34b0c6fe96":[9,3,0,0,0,1655,4],
-"classMR_1_1Raster.html#ac198ab0fc5c46913cce534541720df25":[9,3,0,0,0,1655,0],
-"classMR_1_1RasterInfo.html":[9,3,0,0,0,1656]
+"classMR_1_1Raster.html#a6e5549a9e969d0606b46ea34b0c6fe96":[9,3,0,0,0,1655,4]
 };

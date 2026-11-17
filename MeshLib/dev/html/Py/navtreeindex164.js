@@ -1,7 +1,5 @@
 var NAVTREEINDEX164 =
 {
-"classmrmeshpy_1_1OutliersDetector.html":[9,1,0,0,2,1979],
-"classmrmeshpy_1_1OutliersDetector.html":[9,1,1,0,1,1979],
 "classmrmeshpy_1_1OutliersDetector.html#a01f15cf773fefaf9402381a3d71b8a7c":[9,1,0,0,2,1979,0],
 "classmrmeshpy_1_1OutliersDetector.html#a01f15cf773fefaf9402381a3d71b8a7c":[9,1,1,0,1,1979,0],
 "classmrmeshpy_1_1OutliersDetector.html#a1d1c750b4c354d28a47a17eb39a1978a":[9,1,0,0,2,1979,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX164 =
 "classmrmeshpy_1_1Pdf_1_1Cell.html#a9b78ee8bdc014022aea057b755da23fd":[9,1,0,0,2,1992,1,4],
 "classmrmeshpy_1_1Pdf_1_1Cell.html#a9b78ee8bdc014022aea057b755da23fd":[9,1,1,0,1,1992,1,4],
 "classmrmeshpy_1_1Pdf_1_1CellCustomParams.html":[9,1,0,0,2,1992,2],
-"classmrmeshpy_1_1Pdf_1_1CellCustomParams.html":[9,1,1,0,1,1992,2]
+"classmrmeshpy_1_1Pdf_1_1CellCustomParams.html":[9,1,1,0,1,1992,2],
+"classmrmeshpy_1_1Pdf_1_1CellCustomParams.html#a0b9dd8f3fbbd885b816ae0d2a17f21e3":[9,1,0,0,2,1992,2,2],
+"classmrmeshpy_1_1Pdf_1_1CellCustomParams.html#a0b9dd8f3fbbd885b816ae0d2a17f21e3":[9,1,1,0,1,1992,2,2]
 };

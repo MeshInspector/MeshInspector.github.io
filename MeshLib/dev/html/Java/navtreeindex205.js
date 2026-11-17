@@ -1,5 +1,11 @@
 var NAVTREEINDEX205 =
 {
+"classmeshlib_1_1selfintersections_1_1Settings.html#a5d3e60b733a19fe9e5b0ff25e8cd0c49":[9,6,0,0,0,32,1,4],
+"classmeshlib_1_1selfintersections_1_1Settings.html#a5d3e60b733a19fe9e5b0ff25e8cd0c49":[9,6,1,0,0,32,1,4],
+"classmeshlib_1_1selfintersections_1_1Settings.html#a6b0b50e2af5b3e44cbc91fa3054d214c":[9,6,0,0,0,32,1,11],
+"classmeshlib_1_1selfintersections_1_1Settings.html#a6b0b50e2af5b3e44cbc91fa3054d214c":[9,6,1,0,0,32,1,11],
+"classmeshlib_1_1selfintersections_1_1Settings.html#a7161d5ee49432cad8317c6fc253491cf":[9,6,0,0,0,32,1,7],
+"classmeshlib_1_1selfintersections_1_1Settings.html#a7161d5ee49432cad8317c6fc253491cf":[9,6,1,0,0,32,1,7],
 "classmeshlib_1_1selfintersections_1_1Settings.html#a78d90a368ad2926feb49c3649c5071a9":[9,6,0,0,0,32,1,0],
 "classmeshlib_1_1selfintersections_1_1Settings.html#a78d90a368ad2926feb49c3649c5071a9":[9,6,1,0,0,32,1,0],
 "classmeshlib_1_1selfintersections_1_1Settings.html#a95103c8ef70b5eb24add53766cf6987b":[9,6,0,0,0,32,1,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX205 =
 "classmeshlib_1_1std__array__MR__Vector3d__3.html#ab64e8cdbbdffcda7c174fd93977c954d":[9,6,0,0,0,981,3],
 "classmeshlib_1_1std__array__MR__Vector3d__3.html#ab64e8cdbbdffcda7c174fd93977c954d":[9,6,1,0,0,981,3],
 "classmeshlib_1_1std__array__MR__Vector3d__3.html#ac6fd7a8f9659b8bd8a28426fc34b857f":[9,6,0,0,0,981,0],
-"classmeshlib_1_1std__array__MR__Vector3d__3.html#ac6fd7a8f9659b8bd8a28426fc34b857f":[9,6,1,0,0,981,0],
-"classmeshlib_1_1std__array__MR__Vector3d__3.html#aec5558bd29f12235c835ec065aad4ded":[9,6,0,0,0,981,2],
-"classmeshlib_1_1std__array__MR__Vector3d__3.html#aec5558bd29f12235c835ec065aad4ded":[9,6,1,0,0,981,2],
-"classmeshlib_1_1std__array__MR__Vector3f__3.html":[9,6,0,0,0,982],
-"classmeshlib_1_1std__array__MR__Vector3f__3.html":[9,6,1,0,0,982],
-"classmeshlib_1_1std__array__MR__Vector3f__3.html#a28def8e8c8ba001f7a2ed267503d3b45":[9,6,0,0,0,982,1],
-"classmeshlib_1_1std__array__MR__Vector3f__3.html#a28def8e8c8ba001f7a2ed267503d3b45":[9,6,1,0,0,982,1]
+"classmeshlib_1_1std__array__MR__Vector3d__3.html#ac6fd7a8f9659b8bd8a28426fc34b857f":[9,6,1,0,0,981,0]
 };

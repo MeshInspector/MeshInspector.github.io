@@ -1,7 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"classmrmeshpy_1_1Const__std__optional__ObjectComparableWithReference__ComparisonTolerance.html":[9,1,0,0,2,321],
-"classmrmeshpy_1_1Const__std__optional__ObjectComparableWithReference__ComparisonTolerance.html":[9,1,1,0,1,321],
 "classmrmeshpy_1_1Const__std__optional__ObjectComparableWithReference__ComparisonTolerance.html#a6531ee5a27ae08f532bf25131b5252ca":[9,1,0,0,2,321,0],
 "classmrmeshpy_1_1Const__std__optional__ObjectComparableWithReference__ComparisonTolerance.html#a6531ee5a27ae08f532bf25131b5252ca":[9,1,1,0,1,321,0],
 "classmrmeshpy_1_1Const__std__optional__ObjectComparableWithReference__ComparisonTolerance.html#a98e41bc6cbcc2b8a5575f5babbd161a6":[9,1,0,0,2,321,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX98 =
 "classmrmeshpy_1_1Const__std__variant__std__monostate__MeshTriPointT__float__EdgePointT__float__Id__VertTag.html#ad906ac3459debc70a93255578e541b7b":[9,1,0,0,2,336,4],
 "classmrmeshpy_1_1Const__std__variant__std__monostate__MeshTriPointT__float__EdgePointT__float__Id__VertTag.html#ad906ac3459debc70a93255578e541b7b":[9,1,1,0,1,336,4],
 "classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vecto7f114e7b95fdae6fd263c464e1ec5430.html":[9,1,0,0,2,342],
-"classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vecto7f114e7b95fdae6fd263c464e1ec5430.html":[9,1,1,0,1,342]
+"classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vecto7f114e7b95fdae6fd263c464e1ec5430.html":[9,1,1,0,1,342],
+"classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vecto7f114e7b95fdae6fd263c464e1ec5430.html#a3a1ab716739be7633a570ce2678fba15":[9,1,0,0,2,342,1],
+"classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vecto7f114e7b95fdae6fd263c464e1ec5430.html#a3a1ab716739be7633a570ce2678fba15":[9,1,1,0,1,342,1]
 };

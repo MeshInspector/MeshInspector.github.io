@@ -1,7 +1,5 @@
 var NAVTREEINDEX161 =
 {
-"classmrmeshpy_1_1ObjectLinesHolder.html#a0882af5e3f185e6fe9863b2b29e59559":[9,1,0,0,2,1940,10],
-"classmrmeshpy_1_1ObjectLinesHolder.html#a0882af5e3f185e6fe9863b2b29e59559":[9,1,1,0,1,1940,10],
 "classmrmeshpy_1_1ObjectLinesHolder.html#a0fa1dad943d9c936b21027bb248bf6e1":[9,1,0,0,2,1940,4],
 "classmrmeshpy_1_1ObjectLinesHolder.html#a0fa1dad943d9c936b21027bb248bf6e1":[9,1,1,0,1,1940,4],
 "classmrmeshpy_1_1ObjectLinesHolder.html#a137f7119c641acb08010a58cfa62d483":[9,1,0,0,2,1940,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX161 =
 "classmrmeshpy_1_1ObjectSelectivityType.html#ac5c2fce48b4c94c911c94b46a7da4f75":[9,1,0,0,2,1948,1],
 "classmrmeshpy_1_1ObjectSelectivityType.html#ac5c2fce48b4c94c911c94b46a7da4f75":[9,1,1,0,1,1948,1],
 "classmrmeshpy_1_1ObjectSelectivityType.html#ad9a6ff14e60c26596cc2dc1d09e375e0":[9,1,0,0,2,1948,2],
-"classmrmeshpy_1_1ObjectSelectivityType.html#ad9a6ff14e60c26596cc2dc1d09e375e0":[9,1,1,0,1,1948,2]
+"classmrmeshpy_1_1ObjectSelectivityType.html#ad9a6ff14e60c26596cc2dc1d09e375e0":[9,1,1,0,1,1948,2],
+"classmrmeshpy_1_1ObjectTagEventDispatcher.html":[9,1,0,0,2,1949],
+"classmrmeshpy_1_1ObjectTagEventDispatcher.html":[9,1,1,0,1,1949]
 };

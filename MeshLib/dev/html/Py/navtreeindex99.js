@@ -1,7 +1,5 @@
 var NAVTREEINDEX99 =
 {
-"classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vecto7f114e7b95fdae6fd263c464e1ec5430.html#a3a1ab716739be7633a570ce2678fba15":[9,1,0,0,2,342,1],
-"classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vecto7f114e7b95fdae6fd263c464e1ec5430.html#a3a1ab716739be7633a570ce2678fba15":[9,1,1,0,1,342,1],
 "classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vecto7f114e7b95fdae6fd263c464e1ec5430.html#a568fb73f1b1ae0b0a2e9e86e0ee8c82b":[9,1,0,0,2,342,2],
 "classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vecto7f114e7b95fdae6fd263c464e1ec5430.html#a568fb73f1b1ae0b0a2e9e86e0ee8c82b":[9,1,1,0,1,342,2],
 "classmrmeshpy_1_1Const__std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vecto7f114e7b95fdae6fd263c464e1ec5430.html#a678c0b2fde2abd8d4d91da34008cf526":[9,1,0,0,2,342,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX99 =
 "classmrmeshpy_1_1Const__std__vector__Box__Vector3__float__Allocator__Box__Vector3__float.html#a111d3517adb4dbadde0aeeca5775aee0":[9,1,0,0,2,354,6],
 "classmrmeshpy_1_1Const__std__vector__Box__Vector3__float__Allocator__Box__Vector3__float.html#a111d3517adb4dbadde0aeeca5775aee0":[9,1,1,0,1,354,6],
 "classmrmeshpy_1_1Const__std__vector__Box__Vector3__float__Allocator__Box__Vector3__float.html#a18bc4f69a5628b988f532d17a49b5442":[9,1,0,0,2,354,2],
-"classmrmeshpy_1_1Const__std__vector__Box__Vector3__float__Allocator__Box__Vector3__float.html#a18bc4f69a5628b988f532d17a49b5442":[9,1,1,0,1,354,2]
+"classmrmeshpy_1_1Const__std__vector__Box__Vector3__float__Allocator__Box__Vector3__float.html#a18bc4f69a5628b988f532d17a49b5442":[9,1,1,0,1,354,2],
+"classmrmeshpy_1_1Const__std__vector__Box__Vector3__float__Allocator__Box__Vector3__float.html#a2e006e60141c47bf172f6c9c8f397185":[9,1,0,0,2,354,8],
+"classmrmeshpy_1_1Const__std__vector__Box__Vector3__float__Allocator__Box__Vector3__float.html#a2e006e60141c47bf172f6c9c8f397185":[9,1,1,0,1,354,8]
 };

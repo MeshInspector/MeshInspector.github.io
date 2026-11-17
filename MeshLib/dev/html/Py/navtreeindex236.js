@@ -1,5 +1,7 @@
 var NAVTREEINDEX236 =
 {
+"classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats.html#afd03d5f4841a31547905e5fb8b96736d":[9,1,0,0,2,2332,9],
+"classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats.html#afd03d5f4841a31547905e5fb8b96736d":[9,1,1,0,1,2332,9],
 "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html":[9,1,0,0,2,2333],
 "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html":[9,1,1,0,1,2333],
 "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html#a07168cd3ded44717658ee698e82de036":[9,1,0,0,2,2333,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX236 =
 "classmrmeshpy_1_1std__vector__SliceInfo.html":[9,1,0,0,2,2343],
 "classmrmeshpy_1_1std__vector__SliceInfo.html":[9,1,1,0,1,2343],
 "classmrmeshpy_1_1std__vector__SliceInfo.html#a01d239fd2f550c7f391d7a97a62a9005":[9,1,0,0,2,2343,4],
-"classmrmeshpy_1_1std__vector__SliceInfo.html#a01d239fd2f550c7f391d7a97a62a9005":[9,1,1,0,1,2343,4],
-"classmrmeshpy_1_1std__vector__SliceInfo.html#a10dfbb1d2a6d0a67ac3ec4d744b223b6":[9,1,0,0,2,2343,6],
-"classmrmeshpy_1_1std__vector__SliceInfo.html#a10dfbb1d2a6d0a67ac3ec4d744b223b6":[9,1,1,0,1,2343,6]
+"classmrmeshpy_1_1std__vector__SliceInfo.html#a01d239fd2f550c7f391d7a97a62a9005":[9,1,1,0,1,2343,4]
 };

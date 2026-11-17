@@ -1,7 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html#a911ca6e3abbe1b1f0ee5e9a107dce3df":[9,1,0,0,2,75,2,5],
-"classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html#a911ca6e3abbe1b1f0ee5e9a107dce3df":[9,1,1,0,1,75,2,5],
 "classmrmeshpy_1_1BooleanResultPoints.html":[9,1,0,0,2,76],
 "classmrmeshpy_1_1BooleanResultPoints.html":[9,1,1,0,1,76],
 "classmrmeshpy_1_1BooleanResultPoints.html#a17c07e543d20d377ca226a9e9a2a057c":[9,1,0,0,2,76,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX7 =
 "classmrmeshpy_1_1Box2i64.html#aec87a2cadff9879de49d2090420e0e96":[9,1,0,0,2,84,13],
 "classmrmeshpy_1_1Box2i64.html#aec87a2cadff9879de49d2090420e0e96":[9,1,1,0,1,84,13],
 "classmrmeshpy_1_1Box3d.html":[9,1,0,0,2,85],
-"classmrmeshpy_1_1Box3d.html":[9,1,1,0,1,85]
+"classmrmeshpy_1_1Box3d.html":[9,1,1,0,1,85],
+"classmrmeshpy_1_1Box3d.html#a05c5caedc363b7ff4bcad56032731bc9":[9,1,0,0,2,85,8],
+"classmrmeshpy_1_1Box3d.html#a05c5caedc363b7ff4bcad56032731bc9":[9,1,1,0,1,85,8]
 };

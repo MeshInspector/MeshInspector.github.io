@@ -1,7 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"classmrmeshpy_1_1ConstPointAndDistance.html#a9d3a57d3bdd5cb69bc3399e9dda62960":[9,1,0,0,2,1103,1],
-"classmrmeshpy_1_1ConstPointAndDistance.html#a9d3a57d3bdd5cb69bc3399e9dda62960":[9,1,1,0,1,1103,1],
 "classmrmeshpy_1_1ConstPointCloud.html":[9,1,0,0,2,1104],
 "classmrmeshpy_1_1ConstPointCloud.html":[9,1,1,0,1,1104],
 "classmrmeshpy_1_1ConstPointCloud.html#a057f8dd267edda74e94cc2b9d96b4c7d":[9,1,0,0,2,1104,14],
@@ -249,5 +247,7 @@ var NAVTREEINDEX58 =
 "classmrmeshpy_1_1ConstPointsToMeshParameters.html":[9,1,0,0,2,1118],
 "classmrmeshpy_1_1ConstPointsToMeshParameters.html":[9,1,1,0,1,1118],
 "classmrmeshpy_1_1ConstPointsToMeshParameters.html#a4e8a32afdfd884b346c963b462d05cde":[9,1,0,0,2,1118,3],
-"classmrmeshpy_1_1ConstPointsToMeshParameters.html#a4e8a32afdfd884b346c963b462d05cde":[9,1,1,0,1,1118,3]
+"classmrmeshpy_1_1ConstPointsToMeshParameters.html#a4e8a32afdfd884b346c963b462d05cde":[9,1,1,0,1,1118,3],
+"classmrmeshpy_1_1ConstPointsToMeshParameters.html#a69dae4448e7ae151ac0bdd8f39f4bf59":[9,1,0,0,2,1118,9],
+"classmrmeshpy_1_1ConstPointsToMeshParameters.html#a69dae4448e7ae151ac0bdd8f39f4bf59":[9,1,1,0,1,1118,9]
 };

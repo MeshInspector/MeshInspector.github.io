@@ -1,5 +1,11 @@
 var NAVTREEINDEX204 =
 {
+"classmeshlib_1_1pointsload_1_1MultiScanLoadSettings.html#aa5e9f386275700b51f4d72eada62cd9b":[9,6,0,0,0,25,2,9],
+"classmeshlib_1_1pointsload_1_1MultiScanLoadSettings.html#aa5e9f386275700b51f4d72eada62cd9b":[9,6,1,0,0,25,2,9],
+"classmeshlib_1_1pointsload_1_1MultiScanLoadSettings.html#ad07f7ac07c9803767d2b39c4222539ec":[9,6,0,0,0,25,2,8],
+"classmeshlib_1_1pointsload_1_1MultiScanLoadSettings.html#ad07f7ac07c9803767d2b39c4222539ec":[9,6,1,0,0,25,2,8],
+"classmeshlib_1_1pointsload_1_1NamedCloud.html":[9,6,0,0,0,25,3],
+"classmeshlib_1_1pointsload_1_1NamedCloud.html":[9,6,1,0,0,25,3],
 "classmeshlib_1_1pointsload_1_1NamedCloud.html#a02757ae417081a0beeae5280356c282d":[9,6,0,0,0,25,3,10],
 "classmeshlib_1_1pointsload_1_1NamedCloud.html#a02757ae417081a0beeae5280356c282d":[9,6,1,0,0,25,3,10],
 "classmeshlib_1_1pointsload_1_1NamedCloud.html#a241258cde28fdeea35c4f73af8f7484f":[9,6,0,0,0,25,3,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX204 =
 "classmeshlib_1_1selfintersections_1_1Settings.html#a4d537ba2c70d9b0a7a4570d6200345fa":[9,6,0,0,0,32,1,10],
 "classmeshlib_1_1selfintersections_1_1Settings.html#a4d537ba2c70d9b0a7a4570d6200345fa":[9,6,1,0,0,32,1,10],
 "classmeshlib_1_1selfintersections_1_1Settings.html#a5345c054eae17874178ac34c9ef3bd60":[9,6,0,0,0,32,1,19],
-"classmeshlib_1_1selfintersections_1_1Settings.html#a5345c054eae17874178ac34c9ef3bd60":[9,6,1,0,0,32,1,19],
-"classmeshlib_1_1selfintersections_1_1Settings.html#a5d3e60b733a19fe9e5b0ff25e8cd0c49":[9,6,0,0,0,32,1,4],
-"classmeshlib_1_1selfintersections_1_1Settings.html#a5d3e60b733a19fe9e5b0ff25e8cd0c49":[9,6,1,0,0,32,1,4],
-"classmeshlib_1_1selfintersections_1_1Settings.html#a6b0b50e2af5b3e44cbc91fa3054d214c":[9,6,0,0,0,32,1,11],
-"classmeshlib_1_1selfintersections_1_1Settings.html#a6b0b50e2af5b3e44cbc91fa3054d214c":[9,6,1,0,0,32,1,11],
-"classmeshlib_1_1selfintersections_1_1Settings.html#a7161d5ee49432cad8317c6fc253491cf":[9,6,0,0,0,32,1,7],
-"classmeshlib_1_1selfintersections_1_1Settings.html#a7161d5ee49432cad8317c6fc253491cf":[9,6,1,0,0,32,1,7]
+"classmeshlib_1_1selfintersections_1_1Settings.html#a5345c054eae17874178ac34c9ef3bd60":[9,6,1,0,0,32,1,19]
 };

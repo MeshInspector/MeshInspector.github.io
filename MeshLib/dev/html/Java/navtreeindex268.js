@@ -1,5 +1,11 @@
 var NAVTREEINDEX268 =
 {
+"classmeshlib_1_1voxelsload_1_1RasterFolderLoadSettings.html#accd271a84c5be2db088f32d557232be7":[9,6,0,0,0,34,6,11],
+"classmeshlib_1_1voxelsload_1_1RasterFolderLoadSettings.html#accd271a84c5be2db088f32d557232be7":[9,6,1,0,0,34,6,11],
+"classmeshlib_1_1voxelsload_1_1RasterFolderLoadSettings.html#ae0d5bee45774245c86657510a07d9e44":[9,6,0,0,0,34,6,1],
+"classmeshlib_1_1voxelsload_1_1RasterFolderLoadSettings.html#ae0d5bee45774245c86657510a07d9e44":[9,6,1,0,0,34,6,1],
+"classmeshlib_1_1voxelsload_1_1RasterFolderLoadSettings.html#aeb8ec5c047c77d9f6b5d93b24092322a":[9,6,0,0,0,34,6,4],
+"classmeshlib_1_1voxelsload_1_1RasterFolderLoadSettings.html#aeb8ec5c047c77d9f6b5d93b24092322a":[9,6,1,0,0,34,6,4],
 "classmeshlib_1_1voxelsload_1_1RawParameters.html":[9,6,0,0,0,34,7],
 "classmeshlib_1_1voxelsload_1_1RawParameters.html":[9,6,1,0,0,34,7],
 "classmeshlib_1_1voxelsload_1_1RawParameters.html#a142ef4479a154c3d2054bcf1fd8b081b":[9,6,0,0,0,34,7,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX268 =
 "dir_dab11a2fc2960aaa7394404e827585c6.html":[9,6,2,0,0,1,0,0,10],
 "dir_dbe4bb67d8d9aee45cc112e6f08dc434.html":[9,6,2,0,0,1,0,0,23],
 "dir_dde369ebb89469603743f5002eed69cd.html":[9,6,2,0,0],
-"dir_ddfa33c03e6352cb92d7fab800bc5a70.html":[9,6,2,0,0,1,0,0,3,0],
-"dir_e09892e4a4fe1e1db812108bb7b7ae9b.html":[9,6,2,0,0,1,0,0],
-"dir_e7830e1511a7ca1937e74d7ac52b1853.html":[9,6,2,0,0,1,0,0,26],
-"dir_e81d4575abe570e3e3033a15eca409a9.html":[9,6,2,0,0,1,0,0,8],
-"dir_ed5cda82440bd303b188b2336934eb9b.html":[9,6,2,0,0,1,0,0,32],
-"dir_f6a827f474547b8c8746c1766cd8996d.html":[9,6,2,0,0,1,0,0,13],
-"dir_f6b043c7923a6b7edbe3d2e9bce2c38a.html":[9,6,2,0,0,1,0,0,0]
+"dir_ddfa33c03e6352cb92d7fab800bc5a70.html":[9,6,2,0,0,1,0,0,3,0]
 };

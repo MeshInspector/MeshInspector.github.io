@@ -27,6 +27,7 @@ var structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri =
     [ "reserve", "structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a1fe5dbbda1495548c921e53a663ff473", null ],
     [ "resize_1", "structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a984c0dec91fd4b0800fd38071828572a", null ],
     [ "resize_2", "structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#aba4cd3f7a5cb308544e091fe4b0317e2", null ],
+    [ "resize_no_init", "structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#ae5fdcd1a0d4c77fbb7dd3189faa43b70", null ],
     [ "resize_with_reserve_1", "structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a9be83bcbffe0c94f22ae53bca4de874f", null ],
     [ "resize_with_reserve_2", "structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a377c79bf9082b0b6e4e28094d0b2c045", null ],
     [ "set_vec", "structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a11529a83d3c2490883ed768d067a1db0", null ],

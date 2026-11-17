@@ -163,6 +163,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a54b746dae9710ba4da0d981ee38f1dcb" id="r_a54b746dae9710ba4da0d981ee38f1dcb"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54b746dae9710ba4da0d981ee38f1dcb">max_size</a> ()</td></tr>
 <tr class="memitem:abcb3f7699552c91a54178408e5d5d373" id="r_abcb3f7699552c91a54178408e5d5d373"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcb3f7699552c91a54178408e5d5d373">resize</a> (long newSize)</td></tr>
 <tr class="memitem:a180a51da5b16fbda7f9e58c24c7cfb18" id="r_a180a51da5b16fbda7f9e58c24c7cfb18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a180a51da5b16fbda7f9e58c24c7cfb18">resize</a> (long newSize, <a class="el" href="classmeshlib_1_1AABBTreeWideNode.html">meshlib.AABBTreeWideNode</a> t)</td></tr>
+<tr class="memitem:a5e888646cafffecfd93b2ac32f20f229" id="r_a5e888646cafffecfd93b2ac32f20f229"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e888646cafffecfd93b2ac32f20f229">resizeNoInit</a> (long targetSize, <a class="el" href="classmeshlib_1_1ReserveMode.html">meshlib.ReserveMode</a> mode)</td></tr>
 <tr class="memitem:adaa3b07413e1aed7fba542280757d8bf" id="r_adaa3b07413e1aed7fba542280757d8bf"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaa3b07413e1aed7fba542280757d8bf">capacity</a> ()</td></tr>
 <tr class="memitem:a932dd115ee427f5047dbcfb831946e00" id="r_a932dd115ee427f5047dbcfb831946e00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a932dd115ee427f5047dbcfb831946e00">reserve</a> (long <a class="el" href="#adaa3b07413e1aed7fba542280757d8bf">capacity</a>)</td></tr>
 <tr class="memitem:afab67be996381d3891df5061ce202f86" id="r_afab67be996381d3891df5061ce202f86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afab67be996381d3891df5061ce202f86">shrink_to_fit</a> ()</td></tr>
@@ -843,6 +844,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Generated from method <span class="tt">MR::Vector&lt;MR::AABBTreeWideNode, MR::NodeId&gt;::resize</span>.</p>
 <p>Calls <span class="tt">MR_Vector_MR_AABBTreeWideNode_MR_NodeId_resize_2()</span>. </p>
+
+</div>
+</div>
+<a id="a5e888646cafffecfd93b2ac32f20f229" name="a5e888646cafffecfd93b2ac32f20f229"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e888646cafffecfd93b2ac32f20f229">&#9670;&#160;</a></span>resizeNoInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void meshlib.Vector_MR_AABBTreeWideNode_MR_NodeId.resizeNoInit </td>
+          <td>(</td>
+          <td class="paramtype">long</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1ReserveMode.html">meshlib.ReserveMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>resizes the vector skipping initialization of its elements (more precisely initializing them using ( noInit ) constructor ) Generated from method <span class="tt">MR::Vector&lt;MR::AABBTreeWideNode, MR::NodeId&gt;::resizeNoInit</span>.</p>
+<p>Calls <span class="tt">MR_Vector_MR_AABBTreeWideNode_MR_NodeId_resizeNoInit()</span>. </p>
 
 </div>
 </div>

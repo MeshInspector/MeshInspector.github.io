@@ -1,5 +1,9 @@
 var NAVTREEINDEX199 =
 {
+"structmeshlib_1_1std__pair__MR__UndirectedEdgeId__bool.html#ac00569694dbce86a9b3d01be22c241af":[9,5,0,0,0,1144,3],
+"structmeshlib_1_1std__pair__MR__UndirectedEdgeId__bool.html#ac00569694dbce86a9b3d01be22c241af":[9,5,1,0,0,1131,3],
+"structmeshlib_1_1std__pair__MR__UndirectedEdgeId__bool.html#ae5c8209c5a7f67169be7fb329e04b425":[9,5,0,0,0,1144,2],
+"structmeshlib_1_1std__pair__MR__UndirectedEdgeId__bool.html#ae5c8209c5a7f67169be7fb329e04b425":[9,5,1,0,0,1131,2],
 "structmeshlib_1_1std__pair__MR__Vector3d__MR__TriPointd.html":[9,5,0,0,0,1145],
 "structmeshlib_1_1std__pair__MR__Vector3d__MR__TriPointd.html":[9,5,1,0,0,1132],
 "structmeshlib_1_1std__pair__MR__Vector3d__MR__TriPointd.html#a734b1d486e91d5407ce5f153eaba5e9a":[9,5,0,0,0,1145,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX199 =
 "structmeshlib_1_1std__pair__const__MR__VoxelId__MR__VoxelId.html#a3998396c7b929ab8d03d668eb7f46e7e":[9,5,0,0,0,1126,2],
 "structmeshlib_1_1std__pair__const__MR__VoxelId__MR__VoxelId.html#a3998396c7b929ab8d03d668eb7f46e7e":[9,5,1,0,0,1113,2],
 "structmeshlib_1_1std__pair__const__MR__VoxelId__MR__VoxelId.html#a7caf0f6dd18ee500d66bedcd3215dfdf":[9,5,0,0,0,1126,1],
-"structmeshlib_1_1std__pair__const__MR__VoxelId__MR__VoxelId.html#a7caf0f6dd18ee500d66bedcd3215dfdf":[9,5,1,0,0,1113,1],
-"structmeshlib_1_1std__pair__const__MR__VoxelId__MR__VoxelId.html#aff55860cecfd94dcafeb39855467b8f7":[9,5,0,0,0,1126,0],
-"structmeshlib_1_1std__pair__const__MR__VoxelId__MR__VoxelId.html#aff55860cecfd94dcafeb39855467b8f7":[9,5,1,0,0,1113,0],
-"structmeshlib_1_1std__pair__const__int__MR__Box3i.html":[9,5,0,0,0,1107],
-"structmeshlib_1_1std__pair__const__int__MR__Box3i.html":[9,5,1,0,0,1094]
+"structmeshlib_1_1std__pair__const__MR__VoxelId__MR__VoxelId.html#a7caf0f6dd18ee500d66bedcd3215dfdf":[9,5,1,0,0,1113,1]
 };

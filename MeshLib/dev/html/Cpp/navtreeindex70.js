@@ -1,5 +1,10 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1PointCloud.html#a461af7799e74931eb23168bd86111217":[9,0,0,12,0,0],
+"structMR_1_1PointCloud.html#a4e713072e68a27b247042676b693bb26":[9,0,0,12,0,3],
+"structMR_1_1PointCloud.html#a5da247e2172bb10e5ba6ed1105d5c167":[9,0,0,12,0,13],
+"structMR_1_1PointCloud.html#a645a4b6af1de600172fab56912082219":[9,0,0,12,0,9],
+"structMR_1_1PointCloud.html#a765101913d8149614746444a3257c1f2":[9,0,0,12,0,2],
 "structMR_1_1PointCloud.html#a7e507a7cdba55a1c26aa3a073cf2d315":[9,0,0,12,0,1],
 "structMR_1_1PointCloud.html#a7f4cc661b8564a36aabab04453b0e27f":[9,0,0,12,0,5],
 "structMR_1_1PointCloud.html#a8ac1e905740b138eb0ea9644d11c6ad9":[9,0,0,12,0,6],
@@ -244,10 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1RasterInfo.html#a8c02308e5d77f79bb7b5d6e2090a6273":[9,0,0,17,0,0,2],
 "structMR_1_1RasterInfo.html#ae6e6b33190a6ad4ff0fc9af5e2664d4d":[9,0,0,17,0,0,3],
 "structMR_1_1RasterLoadSettings.html":[9,0,0,17,0,2],
-"structMR_1_1RasterLoadSettings.html#a1489b5970837ecb1c1e1d14e59dcd27c":[9,0,0,17,0,2,0],
-"structMR_1_1RasterLoadSettings.html#ac90b0db79dd8dbe777a53e0e10528860":[9,0,0,17,0,2,1],
-"structMR_1_1RasterLoad_1_1RasterLoader.html":[9,0,1,0,1,42,0],
-"structMR_1_1RasterLoad_1_1RasterLoader.html":[9,0,2,0,1,26,0],
-"structMR_1_1RasterLoad_1_1RasterLoader.html#a1144daaa14a34e9a7eb038d91217c799":[9,0,1,0,1,42,0,1],
-"structMR_1_1RasterLoad_1_1RasterLoader.html#a1144daaa14a34e9a7eb038d91217c799":[9,0,2,0,1,26,0,1]
+"structMR_1_1RasterLoadSettings.html#a1489b5970837ecb1c1e1d14e59dcd27c":[9,0,0,17,0,2,0]
 };

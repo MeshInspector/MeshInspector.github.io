@@ -28,6 +28,7 @@ var classmrmeshpy_1_1Vector__AABBTreeWideNode__NodeId =
     [ "reserve", "classmrmeshpy_1_1Vector__AABBTreeWideNode__NodeId.html#a808596a2492ff1adb751146f1cf759d8", null ],
     [ "resize", "classmrmeshpy_1_1Vector__AABBTreeWideNode__NodeId.html#a927133923b15f7884098dc9ddea87f40", null ],
     [ "resize", "classmrmeshpy_1_1Vector__AABBTreeWideNode__NodeId.html#a314b5d98483943dd6dc5000897fac134", null ],
+    [ "resizeNoInit", "classmrmeshpy_1_1Vector__AABBTreeWideNode__NodeId.html#ae3c929d3952f48fcc02dc2bf75c3e0b5", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__AABBTreeWideNode__NodeId.html#a93c35436d7439d28183353b3aa575e21", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__AABBTreeWideNode__NodeId.html#acaeb466051fcf6f53c7ad8be0923ddf8", null ],
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__AABBTreeWideNode__NodeId.html#a237d8f74dc7933af52b206bddbb4a6cd", null ],

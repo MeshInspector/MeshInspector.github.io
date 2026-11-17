@@ -723,7 +723,7 @@ var searchData=
   ['mr_5fnodefinit_5fmr_5fvoxelid_720',['MR_NoDefInit_MR_VoxelId',['../MRBuffer_8h.html#a8ea0ffa07c19f2d9750086a86ad119cb',1,'MRBuffer.h']]],
   ['mr_5fnodeid_721',['MR_NodeId',['../MRId_8h.html#a4868dc496d8f7783892b317cba77463e',1,'MRId.h']]],
   ['mr_5fnodenode_722',['MR_NodeNode',['../MRAABBTreeNode_8h.html#a2523d2e75da5546aa3efda1815ddaf08',1,'MRAABBTreeNode.h']]],
-  ['mr_5fnoinit_723',['MR_NoInit',['../MRAABBTreeNode_8h.html#a14f0f26a43ddb92c3fa3c2192008224c',1,'MRAABBTreeNode.h']]],
+  ['mr_5fnoinit_723',['MR_NoInit',['../MRAABBTree_8h.html#a14f0f26a43ddb92c3fa3c2192008224c',1,'MRAABBTree.h']]],
   ['mr_5fnoinitnodeid_724',['MR_NoInitNodeId',['../MRId_8h.html#acedd0882da39d84c71cca2e7fce27ba6',1,'MRId.h']]],
   ['mr_5fnoisesettings_725',['MR_NoiseSettings',['../MRAddNoise_8h.html#a75aa4d81b0df957fad37c7a2096b92c7',1,'MRAddNoise.h']]],
   ['mr_5fnormalstopoints_726',['MR_NormalsToPoints',['../MRNormalsToPoints_8h.html#a53869102683f44bd04b4e40a3b2533d8',1,'MRNormalsToPoints.h']]],

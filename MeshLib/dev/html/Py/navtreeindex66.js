@@ -1,7 +1,5 @@
 var NAVTREEINDEX66 =
 {
-"classmrmeshpy_1_1ConstSubdivideSettings.html#ae7744a6d0257614dd1a6365b0b0a3a6a":[9,1,0,0,2,1231,8],
-"classmrmeshpy_1_1ConstSubdivideSettings.html#ae7744a6d0257614dd1a6365b0b0a3a6a":[9,1,1,0,1,1231,8],
 "classmrmeshpy_1_1ConstSubdivideSettings.html#af55ed07224aceb53cc3a774765a0bad2":[9,1,0,0,2,1231,21],
 "classmrmeshpy_1_1ConstSubdivideSettings.html#af55ed07224aceb53cc3a774765a0bad2":[9,1,1,0,1,1231,21],
 "classmrmeshpy_1_1ConstSubdivideSettings.html#af5b9e9ff66c4b4394ada4eb00ec0142c":[9,1,0,0,2,1231,12],
@@ -249,5 +247,7 @@ var NAVTREEINDEX66 =
 "classmrmeshpy_1_1ConstSymMatrix3f.html#ae74effb0ea8a57a39faeee05e06c5859":[9,1,0,0,2,1242,3],
 "classmrmeshpy_1_1ConstSymMatrix3f.html#ae74effb0ea8a57a39faeee05e06c5859":[9,1,1,0,1,1242,3],
 "classmrmeshpy_1_1ConstSymMatrix3i.html":[9,1,0,0,2,1243],
-"classmrmeshpy_1_1ConstSymMatrix3i.html":[9,1,1,0,1,1243]
+"classmrmeshpy_1_1ConstSymMatrix3i.html":[9,1,1,0,1,1243],
+"classmrmeshpy_1_1ConstSymMatrix3i.html#a033a19313601ec9b733f501d4e59aef5":[9,1,0,0,2,1243,5],
+"classmrmeshpy_1_1ConstSymMatrix3i.html#a033a19313601ec9b733f501d4e59aef5":[9,1,1,0,1,1243,5]
 };

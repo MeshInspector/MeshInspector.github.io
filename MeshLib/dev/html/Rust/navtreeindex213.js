@@ -1,5 +1,9 @@
 var NAVTREEINDEX213 =
 {
+"structmeshlib_1_1std__vector__MR__BallPivotCandidate__MR__Allocator__MR__BallPivotCandidate.html#a1cfcb7c65a19bc15c79ad6d4cee0e221":[9,5,0,0,0,1304,7],
+"structmeshlib_1_1std__vector__MR__BallPivotCandidate__MR__Allocator__MR__BallPivotCandidate.html#a1cfcb7c65a19bc15c79ad6d4cee0e221":[9,5,1,0,0,1291,7],
+"structmeshlib_1_1std__vector__MR__BallPivotCandidate__MR__Allocator__MR__BallPivotCandidate.html#a1f8d6c126fc98d533a50a812f690607f":[9,5,0,0,0,1304,3],
+"structmeshlib_1_1std__vector__MR__BallPivotCandidate__MR__Allocator__MR__BallPivotCandidate.html#a1f8d6c126fc98d533a50a812f690607f":[9,5,1,0,0,1291,3],
 "structmeshlib_1_1std__vector__MR__BallPivotCandidate__MR__Allocator__MR__BallPivotCandidate.html#a320767b37c1b107155743162764d1c6e":[9,5,0,0,0,1304,4],
 "structmeshlib_1_1std__vector__MR__BallPivotCandidate__MR__Allocator__MR__BallPivotCandidate.html#a320767b37c1b107155743162764d1c6e":[9,5,1,0,0,1291,4],
 "structmeshlib_1_1std__vector__MR__BallPivotCandidate__MR__Allocator__MR__BallPivotCandidate.html#a41953ef67343ebc317b165669b0018c0":[9,5,0,0,0,1304,12],
@@ -245,9 +249,5 @@ var NAVTREEINDEX213 =
 "structmeshlib_1_1std__vector__MR__CNCMachineSettings__RotationAxisName.html#aeaf254f87f7d9e2e58d364bf2fac0002":[9,5,0,0,0,1310,5],
 "structmeshlib_1_1std__vector__MR__CNCMachineSettings__RotationAxisName.html#aeaf254f87f7d9e2e58d364bf2fac0002":[9,5,1,0,0,1297,5],
 "structmeshlib_1_1std__vector__MR__Color.html":[9,5,0,0,0,1311],
-"structmeshlib_1_1std__vector__MR__Color.html":[9,5,1,0,0,1298],
-"structmeshlib_1_1std__vector__MR__Color.html#a013fd3298b16a7d7a1e9b9de8d327a96":[9,5,0,0,0,1311,13],
-"structmeshlib_1_1std__vector__MR__Color.html#a013fd3298b16a7d7a1e9b9de8d327a96":[9,5,1,0,0,1298,13],
-"structmeshlib_1_1std__vector__MR__Color.html#a20117c753eea06f75a898967aa758160":[9,5,0,0,0,1311,17],
-"structmeshlib_1_1std__vector__MR__Color.html#a20117c753eea06f75a898967aa758160":[9,5,1,0,0,1298,17]
+"structmeshlib_1_1std__vector__MR__Color.html":[9,5,1,0,0,1298]
 };

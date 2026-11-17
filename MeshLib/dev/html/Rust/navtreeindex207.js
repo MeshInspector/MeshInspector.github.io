@@ -1,5 +1,9 @@
 var NAVTREEINDEX207 =
 {
+"structmeshlib_1_1std__shared__ptr__MR__ObjectComparableWithReference.html#a95099a23696c883503f083aa5c73504f":[9,5,0,0,0,1237,6],
+"structmeshlib_1_1std__shared__ptr__MR__ObjectComparableWithReference.html#a95099a23696c883503f083aa5c73504f":[9,5,1,0,0,1224,6],
+"structmeshlib_1_1std__shared__ptr__MR__ObjectComparableWithReference.html#aab6d3c86445af37960c3fb98c086af7f":[9,5,0,0,0,1237,4],
+"structmeshlib_1_1std__shared__ptr__MR__ObjectComparableWithReference.html#aab6d3c86445af37960c3fb98c086af7f":[9,5,1,0,0,1224,4],
 "structmeshlib_1_1std__shared__ptr__MR__ObjectComparableWithReference.html#ac78520c6ad24b62621fa724df834d3cd":[9,5,0,0,0,1237,0],
 "structmeshlib_1_1std__shared__ptr__MR__ObjectComparableWithReference.html#ac78520c6ad24b62621fa724df834d3cd":[9,5,1,0,0,1224,0],
 "structmeshlib_1_1std__shared__ptr__MR__ObjectComparableWithReference.html#ae67b56caa74c078de711fa7efd767c5a":[9,5,0,0,0,1237,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX207 =
 "structmeshlib_1_1std__shared__ptr__MR__OpenVdbFloatGrid.html#ae6731fd022cdcd5cb5de9f893fedc851":[9,5,0,0,0,1248,5],
 "structmeshlib_1_1std__shared__ptr__MR__OpenVdbFloatGrid.html#ae6731fd022cdcd5cb5de9f893fedc851":[9,5,1,0,0,1235,5],
 "structmeshlib_1_1std__shared__ptr__MR__OpenVdbFloatGrid.html#aea0cf4688c0530366a81fd41dc9cb7eb":[9,5,0,0,0,1248,6],
-"structmeshlib_1_1std__shared__ptr__MR__OpenVdbFloatGrid.html#aea0cf4688c0530366a81fd41dc9cb7eb":[9,5,1,0,0,1235,6],
-"structmeshlib_1_1std__shared__ptr__MR__PartialChangeMeshAction.html":[9,5,0,0,0,1249],
-"structmeshlib_1_1std__shared__ptr__MR__PartialChangeMeshAction.html":[9,5,1,0,0,1236],
-"structmeshlib_1_1std__shared__ptr__MR__PartialChangeMeshAction.html#a080452fc19f560ecf890a5d1bed12bd2":[9,5,0,0,0,1249,1],
-"structmeshlib_1_1std__shared__ptr__MR__PartialChangeMeshAction.html#a080452fc19f560ecf890a5d1bed12bd2":[9,5,1,0,0,1236,1]
+"structmeshlib_1_1std__shared__ptr__MR__OpenVdbFloatGrid.html#aea0cf4688c0530366a81fd41dc9cb7eb":[9,5,1,0,0,1235,6]
 };

@@ -145,6 +145,9 @@ $(function(){initNavTree('structMR_1_1AABBTreeWideNode.html','','structMR_1_1AAB
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a86ef525d819a07942ca79d2f034c10b8" id="r_a86ef525d819a07942ca79d2f034c10b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86ef525d819a07942ca79d2f034c10b8">AABBTreeWideNode</a> () noexcept</td></tr>
+<tr class="memitem:a963613d3fe4f0542ae6edfed245b8cb8" id="r_a963613d3fe4f0542ae6edfed245b8cb8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a963613d3fe4f0542ae6edfed245b8cb8">AABBTreeWideNode</a> (<a class="el" href="structMR_1_1NoInit.html">NoInit</a>) noexcept</td></tr>
+<tr class="memdesc:a963613d3fe4f0542ae6edfed245b8cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">all members uninitialized, e.g. for the nodes written by the tree builder  <br /></td></tr>
 <tr class="memitem:ad3f878fd791acf97876bb58ffd30b52b" id="r_ad3f878fd791acf97876bb58ffd30b52b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3f878fd791acf97876bb58ffd30b52b">leaf</a> () const</td></tr>
 <tr class="memitem:adc90d6c6dc1181c594591436c604263e" id="r_adc90d6c6dc1181c594591436c604263e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc90d6c6dc1181c594591436c604263e">numLeafTris</a> () const</td></tr>
 </table><table class="memberdecls">
@@ -152,14 +155,67 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a24da2d614bcf250ad3212948e33d134e" id="r_a24da2d614bcf250ad3212948e33d134e"><td class="memItemLeft" align="right" valign="top">Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24da2d614bcf250ad3212948e33d134e">box</a></td></tr>
 <tr class="memdesc:a24da2d614bcf250ad3212948e33d134e"><td class="mdescLeft">&#160;</td><td class="mdescRight">bounding box of whole subtree  <br /></td></tr>
-<tr class="memitem:a0fe50e0efc2a4a31d1dcb8d9e7593612" id="r_a0fe50e0efc2a4a31d1dcb8d9e7593612"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fe50e0efc2a4a31d1dcb8d9e7593612">first</a> = 0</td></tr>
+<tr class="memitem:a0fe50e0efc2a4a31d1dcb8d9e7593612" id="r_a0fe50e0efc2a4a31d1dcb8d9e7593612"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fe50e0efc2a4a31d1dcb8d9e7593612">first</a></td></tr>
 <tr class="memdesc:a0fe50e0efc2a4a31d1dcb8d9e7593612"><td class="mdescLeft">&#160;</td><td class="mdescRight">the first child node, or for a leaf, the first of its triangles in leafTris()  <br /></td></tr>
-<tr class="memitem:a927f64ba568c896ea9f74624edb9a80f" id="r_a927f64ba568c896ea9f74624edb9a80f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a927f64ba568c896ea9f74624edb9a80f">count</a> = 0</td></tr>
+<tr class="memitem:a927f64ba568c896ea9f74624edb9a80f" id="r_a927f64ba568c896ea9f74624edb9a80f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a927f64ba568c896ea9f74624edb9a80f">count</a></td></tr>
 <tr class="memdesc:a927f64ba568c896ea9f74624edb9a80f"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of children, or for a leaf, minus the number of its triangles  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>node of <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> (outside of the class to be default-constructible in its members) </p>
-</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a86ef525d819a07942ca79d2f034c10b8" name="a86ef525d819a07942ca79d2f034c10b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86ef525d819a07942ca79d2f034c10b8">&#9670;&#160;</a></span>AABBTreeWideNode() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::AABBTreeWideNode::AABBTreeWideNode </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a963613d3fe4f0542ae6edfed245b8cb8" name="a963613d3fe4f0542ae6edfed245b8cb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a963613d3fe4f0542ae6edfed245b8cb8">&#9670;&#160;</a></span>AABBTreeWideNode() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::AABBTreeWideNode::AABBTreeWideNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1NoInit.html">NoInit</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel explicit">explicit</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>all members uninitialized, e.g. for the nodes written by the tree builder </p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="ad3f878fd791acf97876bb58ffd30b52b" name="ad3f878fd791acf97876bb58ffd30b52b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad3f878fd791acf97876bb58ffd30b52b">&#9670;&#160;</a></span>leaf()</h2>
 
@@ -234,7 +290,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int MR::AABBTreeWideNode::count = 0</td>
+          <td class="memname">int MR::AABBTreeWideNode::count</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -250,7 +306,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int MR::AABBTreeWideNode::first = 0</td>
+          <td class="memname">int MR::AABBTreeWideNode::first</td>
         </tr>
       </table>
 </div><div class="memdoc">

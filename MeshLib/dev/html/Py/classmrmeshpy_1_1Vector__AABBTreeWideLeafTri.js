@@ -28,6 +28,7 @@ var classmrmeshpy_1_1Vector__AABBTreeWideLeafTri =
     [ "reserve", "classmrmeshpy_1_1Vector__AABBTreeWideLeafTri.html#ac8dd0e81803251b81b0b8cfc2c6e3651", null ],
     [ "resize", "classmrmeshpy_1_1Vector__AABBTreeWideLeafTri.html#abe50007cd762c76cf9026f52e316e000", null ],
     [ "resize", "classmrmeshpy_1_1Vector__AABBTreeWideLeafTri.html#a3145534c7d8fca2755e3ed1d335b869c", null ],
+    [ "resizeNoInit", "classmrmeshpy_1_1Vector__AABBTreeWideLeafTri.html#aa819d77b404c29cd5d7e4362264a6f02", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__AABBTreeWideLeafTri.html#a1b6b6f2a931984a8f4b219e0fb1e4bbb", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__AABBTreeWideLeafTri.html#a5863132de8226783fe6350663f28d95e", null ],
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__AABBTreeWideLeafTri.html#a99ca1d5a0bcffff0438b0f8c92a0c767", null ],

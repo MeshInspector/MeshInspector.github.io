@@ -1,5 +1,7 @@
 var NAVTREEINDEX216 =
 {
+"classmrmeshpy_1_1VertCoordsDiff.html#ad8a7763b841f47076d4c4162257c61ea":[9,1,0,0,2,2616,2],
+"classmrmeshpy_1_1VertCoordsDiff.html#ad8a7763b841f47076d4c4162257c61ea":[9,1,1,0,1,2616,2],
 "classmrmeshpy_1_1VertDistance.html":[9,1,0,0,2,2617],
 "classmrmeshpy_1_1VertDistance.html":[9,1,1,0,1,2617],
 "classmrmeshpy_1_1VertDistance.html#a42762b92b23db77cd0d00e1e26a2f0b6":[9,1,0,0,2,2617,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX216 =
 "classmrmeshpy_1_1ViewportMask.html#a286a9b10943023db277c2652a6e1e589":[9,1,0,0,2,2627,6],
 "classmrmeshpy_1_1ViewportMask.html#a286a9b10943023db277c2652a6e1e589":[9,1,1,0,1,2627,6],
 "classmrmeshpy_1_1ViewportMask.html#a2c7c32ddf92e17d36ffea8c350922955":[9,1,0,0,2,2627,4],
-"classmrmeshpy_1_1ViewportMask.html#a2c7c32ddf92e17d36ffea8c350922955":[9,1,1,0,1,2627,4],
-"classmrmeshpy_1_1ViewportMask.html#a3ddd00f0f9c4adda32ce14e36ef263fd":[9,1,0,0,2,2627,0],
-"classmrmeshpy_1_1ViewportMask.html#a3ddd00f0f9c4adda32ce14e36ef263fd":[9,1,1,0,1,2627,0]
+"classmrmeshpy_1_1ViewportMask.html#a2c7c32ddf92e17d36ffea8c350922955":[9,1,1,0,1,2627,4]
 };

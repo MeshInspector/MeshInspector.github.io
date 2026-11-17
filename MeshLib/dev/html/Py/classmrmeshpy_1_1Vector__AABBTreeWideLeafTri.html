@@ -178,6 +178,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac8dd0e81803251b81b0b8cfc2c6e3651" id="r_ac8dd0e81803251b81b0b8cfc2c6e3651"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8dd0e81803251b81b0b8cfc2c6e3651">reserve</a> (self, int <a class="el" href="classmrmeshpy_1_1ConstVector__AABBTreeWideLeafTri.html#ac7260dc307dfa80b77c7dbc3288a9037">capacity</a>)</td></tr>
 <tr class="memitem:abe50007cd762c76cf9026f52e316e000" id="r_abe50007cd762c76cf9026f52e316e000"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe50007cd762c76cf9026f52e316e000">resize</a> (self, int newSize)</td></tr>
 <tr class="memitem:a3145534c7d8fca2755e3ed1d335b869c" id="r_a3145534c7d8fca2755e3ed1d335b869c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3145534c7d8fca2755e3ed1d335b869c">resize</a> (self, int newSize, <a class="el" href="classmrmeshpy_1_1ConstAABBTreeWideLeafTri.html">ConstAABBTreeWideLeafTri</a> t)</td></tr>
+<tr class="memitem:aa819d77b404c29cd5d7e4362264a6f02" id="r_aa819d77b404c29cd5d7e4362264a6f02"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa819d77b404c29cd5d7e4362264a6f02">resizeNoInit</a> (self, int targetSize, <a class="el" href="classmrmeshpy_1_1ReserveMode.html">ReserveMode</a> mode='MR::ReserveMode::Exact')</td></tr>
 <tr class="memitem:a1b6b6f2a931984a8f4b219e0fb1e4bbb" id="r_a1b6b6f2a931984a8f4b219e0fb1e4bbb"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b6b6f2a931984a8f4b219e0fb1e4bbb">resizeWithReserve</a> (self, int newSize)</td></tr>
 <tr class="memitem:a5863132de8226783fe6350663f28d95e" id="r_a5863132de8226783fe6350663f28d95e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5863132de8226783fe6350663f28d95e">resizeWithReserve</a> (self, int newSize, <a class="el" href="classmrmeshpy_1_1ConstAABBTreeWideLeafTri.html">ConstAABBTreeWideLeafTri</a> value)</td></tr>
 <tr class="memitem:a99ca1d5a0bcffff0438b0f8c92a0c767" id="r_a99ca1d5a0bcffff0438b0f8c92a0c767"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99ca1d5a0bcffff0438b0f8c92a0c767">shrink_to_fit</a> (self)</td></tr>
@@ -854,6 +855,33 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="aa819d77b404c29cd5d7e4362264a6f02" name="aa819d77b404c29cd5d7e4362264a6f02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa819d77b404c29cd5d7e4362264a6f02">&#9670;&#160;</a></span>resizeNoInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Vector_AABBTreeWideLeafTri.resizeNoInit </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ReserveMode.html">ReserveMode</a> </td>          <td class="paramname"><span class="paramname"><em>mode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::ReserveMode::Exact'</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">resizes the vector skipping initialization of its elements (more precisely initializing them using ( noInit ) constructor )
+</pre> 
 </div>
 </div>
 <a id="a1b6b6f2a931984a8f4b219e0fb1e4bbb" name="a1b6b6f2a931984a8f4b219e0fb1e4bbb"></a>

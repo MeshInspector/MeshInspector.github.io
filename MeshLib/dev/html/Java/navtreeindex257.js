@@ -1,5 +1,11 @@
 var NAVTREEINDEX257 =
 {
+"classmeshlib_1_1std__vector__MR__WeightedVertex.html#a523b873185b77392dfb012383d38302c":[9,6,0,0,0,1438,18],
+"classmeshlib_1_1std__vector__MR__WeightedVertex.html#a523b873185b77392dfb012383d38302c":[9,6,1,0,0,1438,18],
+"classmeshlib_1_1std__vector__MR__WeightedVertex.html#a523fb4e1ce32e388cf0aca1a631f8a84":[9,6,0,0,0,1438,4],
+"classmeshlib_1_1std__vector__MR__WeightedVertex.html#a523fb4e1ce32e388cf0aca1a631f8a84":[9,6,1,0,0,1438,4],
+"classmeshlib_1_1std__vector__MR__WeightedVertex.html#a52702096eed48492b672217bce811965":[9,6,0,0,0,1438,17],
+"classmeshlib_1_1std__vector__MR__WeightedVertex.html#a52702096eed48492b672217bce811965":[9,6,1,0,0,1438,17],
 "classmeshlib_1_1std__vector__MR__WeightedVertex.html#a530ebc2f4a3a2dd1431404f7fa9a5809":[9,6,0,0,0,1438,10],
 "classmeshlib_1_1std__vector__MR__WeightedVertex.html#a530ebc2f4a3a2dd1431404f7fa9a5809":[9,6,1,0,0,1438,10],
 "classmeshlib_1_1std__vector__MR__WeightedVertex.html#a5afaa003149a6ea1921799c9e24db756":[9,6,0,0,0,1438,9],
@@ -243,11 +249,5 @@ var NAVTREEINDEX257 =
 "classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html":[9,6,0,0,0,1300],
 "classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html":[9,6,1,0,0,1300],
 "classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a05e1ea0786c0c2799d162f0dd54ec9aa":[9,6,0,0,0,1300,7],
-"classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a05e1ea0786c0c2799d162f0dd54ec9aa":[9,6,1,0,0,1300,7],
-"classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a1327d7ba3c9bef5bc229e5fc1b33c370":[9,6,0,0,0,1300,10],
-"classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a1327d7ba3c9bef5bc229e5fc1b33c370":[9,6,1,0,0,1300,10],
-"classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a1aafdaa83420814b115f8f38c9b6b8e6":[9,6,0,0,0,1300,6],
-"classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a1aafdaa83420814b115f8f38c9b6b8e6":[9,6,1,0,0,1300,6],
-"classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a1e4df7b1a9e9cb9189e403e19195dcd0":[9,6,0,0,0,1300,17],
-"classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a1e4df7b1a9e9cb9189e403e19195dcd0":[9,6,1,0,0,1300,17]
+"classmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a05e1ea0786c0c2799d162f0dd54ec9aa":[9,6,1,0,0,1300,7]
 };

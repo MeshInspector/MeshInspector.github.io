@@ -1,7 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"classmrmeshpy_1_1ConstResolveMeshDegenSettings.html#a689e0a84701b58e58cb1c059aec19604":[9,1,0,0,2,1182,0],
-"classmrmeshpy_1_1ConstResolveMeshDegenSettings.html#a689e0a84701b58e58cb1c059aec19604":[9,1,1,0,1,1182,0],
 "classmrmeshpy_1_1ConstResolveMeshDegenSettings.html#a6d588c21b6dfb002c6a06c8e352fea68":[9,1,0,0,2,1182,3],
 "classmrmeshpy_1_1ConstResolveMeshDegenSettings.html#a6d588c21b6dfb002c6a06c8e352fea68":[9,1,1,0,1,1182,3],
 "classmrmeshpy_1_1ConstResolveMeshDegenSettings.html#a87b1a9977fa0fd79c852ba876a717131":[9,1,0,0,2,1182,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX63 =
 "classmrmeshpy_1_1ConstSegmPointf.html#ade84bc0bba4254466e2a07ff29a2682c":[9,1,0,0,2,1198,7],
 "classmrmeshpy_1_1ConstSegmPointf.html#ade84bc0bba4254466e2a07ff29a2682c":[9,1,1,0,1,1198,7],
 "classmrmeshpy_1_1ConstSegmPointf.html#afea45cd1cab0b83ec6a881c961944b55":[9,1,0,0,2,1198,0],
-"classmrmeshpy_1_1ConstSegmPointf.html#afea45cd1cab0b83ec6a881c961944b55":[9,1,1,0,1,1198,0]
+"classmrmeshpy_1_1ConstSegmPointf.html#afea45cd1cab0b83ec6a881c961944b55":[9,1,1,0,1,1198,0],
+"classmrmeshpy_1_1ConstSegmentSegmentIntersectResult.html":[9,1,0,0,2,1196],
+"classmrmeshpy_1_1ConstSegmentSegmentIntersectResult.html":[9,1,1,0,1,1196]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX177 =
 {
+"classmeshlib_1_1VertCoords2.html#a90cf801bf1f1ef57f9d4ddda53b116c6":[9,6,0,0,0,1681,38],
+"classmeshlib_1_1VertCoords2.html#a90cf801bf1f1ef57f9d4ddda53b116c6":[9,6,1,0,0,1681,38],
+"classmeshlib_1_1VertCoords2.html#a910eb476c746b4b4ab4ef6a7f616a423":[9,6,0,0,0,1681,27],
+"classmeshlib_1_1VertCoords2.html#a910eb476c746b4b4ab4ef6a7f616a423":[9,6,1,0,0,1681,27],
+"classmeshlib_1_1VertCoords2.html#a9a7ed0403bb9fa131c456f95ee4134a1":[9,6,0,0,0,1681,36],
+"classmeshlib_1_1VertCoords2.html#a9a7ed0403bb9fa131c456f95ee4134a1":[9,6,1,0,0,1681,36],
 "classmeshlib_1_1VertCoords2.html#aa0bde8a6f98d0124e93dbc281d5c2742":[9,6,0,0,0,1681,23],
 "classmeshlib_1_1VertCoords2.html#aa0bde8a6f98d0124e93dbc281d5c2742":[9,6,1,0,0,1681,23],
 "classmeshlib_1_1VertCoords2.html#aa332bb6ff313393c732d6bfa3ba87535":[9,6,0,0,0,1681,21],
@@ -243,11 +249,5 @@ var NAVTREEINDEX177 =
 "classmeshlib_1_1VertPathInfo.html#adaa10462b58624c07b32bf9fabeb19a4":[9,6,0,0,0,1688,1],
 "classmeshlib_1_1VertPathInfo.html#adaa10462b58624c07b32bf9fabeb19a4":[9,6,1,0,0,1688,1],
 "classmeshlib_1_1VertPathInfo.html#ae7156f51950ec9b0fb069815a42247d0":[9,6,0,0,0,1688,7],
-"classmeshlib_1_1VertPathInfo.html#ae7156f51950ec9b0fb069815a42247d0":[9,6,1,0,0,1688,7],
-"classmeshlib_1_1VertPathInfo.html#af63c956cc7927254abb83f3b5f4ea860":[9,6,0,0,0,1688,2],
-"classmeshlib_1_1VertPathInfo.html#af63c956cc7927254abb83f3b5f4ea860":[9,6,1,0,0,1688,2],
-"classmeshlib_1_1VertRenumber.html":[9,6,0,0,0,1689],
-"classmeshlib_1_1VertRenumber.html":[9,6,1,0,0,1689],
-"classmeshlib_1_1VertRenumber.html#a3966afae7ed4fc4d8439b3405261fcef":[9,6,0,0,0,1689,3],
-"classmeshlib_1_1VertRenumber.html#a3966afae7ed4fc4d8439b3405261fcef":[9,6,1,0,0,1689,3]
+"classmeshlib_1_1VertPathInfo.html#ae7156f51950ec9b0fb069815a42247d0":[9,6,1,0,0,1688,7]
 };

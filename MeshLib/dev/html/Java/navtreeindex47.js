@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"classmeshlib_1_1ExtremeEdgeType.html#adf7450fba291b8891c3376b971990966":[9,6,0,0,0,402,3],
+"classmeshlib_1_1ExtremeEdgeType.html#adf7450fba291b8891c3376b971990966":[9,6,1,0,0,402,3],
 "classmeshlib_1_1Face2RegionMap.html":[9,6,0,0,0,403],
 "classmeshlib_1_1Face2RegionMap.html":[9,6,1,0,0,403],
 "classmeshlib_1_1Face2RegionMap.html#a0b0a802291858791d9a28e3cc5c90726":[9,6,0,0,0,403,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "classmeshlib_1_1FaceColorMapAggregator.html#a47b221620f2f703e2a108c5f5e245552":[9,6,0,0,0,406,6],
 "classmeshlib_1_1FaceColorMapAggregator.html#a47b221620f2f703e2a108c5f5e245552":[9,6,1,0,0,406,6],
 "classmeshlib_1_1FaceColorMapAggregator.html#a525d35b223986138f81f57cea064dcaa":[9,6,0,0,0,406,8],
-"classmeshlib_1_1FaceColorMapAggregator.html#a525d35b223986138f81f57cea064dcaa":[9,6,1,0,0,406,8],
-"classmeshlib_1_1FaceColorMapAggregator.html#a528fb3d14585d36302a53647df0c4a6f":[9,6,0,0,0,406,4],
-"classmeshlib_1_1FaceColorMapAggregator.html#a528fb3d14585d36302a53647df0c4a6f":[9,6,1,0,0,406,4]
+"classmeshlib_1_1FaceColorMapAggregator.html#a525d35b223986138f81f57cea064dcaa":[9,6,1,0,0,406,8]
 };
