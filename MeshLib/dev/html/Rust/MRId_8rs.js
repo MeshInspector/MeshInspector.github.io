@@ -13,6 +13,7 @@ var MRId_8rs =
     [ "meshlib::PixelId", "structmeshlib_1_1PixelId.html", "structmeshlib_1_1PixelId" ],
     [ "meshlib::RegionId", "structmeshlib_1_1RegionId.html", "structmeshlib_1_1RegionId" ],
     [ "meshlib::TextureId", "structmeshlib_1_1TextureId.html", "structmeshlib_1_1TextureId" ],
+    [ "meshlib::ThreeVertIds", "structmeshlib_1_1ThreeVertIds.html", "structmeshlib_1_1ThreeVertIds" ],
     [ "meshlib::UndirectedEdgeId", "structmeshlib_1_1UndirectedEdgeId.html", "structmeshlib_1_1UndirectedEdgeId" ],
     [ "meshlib::VertId", "structmeshlib_1_1VertId.html", "structmeshlib_1_1VertId" ],
     [ "meshlib::VoxelId", "structmeshlib_1_1VoxelId.html", "structmeshlib_1_1VoxelId" ],

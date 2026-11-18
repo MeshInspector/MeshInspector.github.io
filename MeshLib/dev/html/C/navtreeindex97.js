@@ -1,5 +1,16 @@
 var NAVTREEINDEX97 =
 {
+"MRPrecisePredicates3_8h.html#abb2acb415fc9d650e2112a6a72ef8d38":[9,2,2,0,0,0,0,1,298,7],
+"MRPrecisePredicates3_8h.html#ac30c46f1bfc7f7ad7d7b85780b9f4529":[9,2,2,0,0,0,0,1,298,100],
+"MRPrecisePredicates3_8h.html#acb854e1fed8cdc749c2c3f1ff86cdad6":[9,2,2,0,0,0,0,1,298,26],
+"MRPrecisePredicates3_8h.html#acbc695b6ee47122ee99f4184b1029a20":[9,2,2,0,0,0,0,1,298,80],
+"MRPrecisePredicates3_8h.html#ad238a8e577d389308a61b80df10992f0":[9,2,2,0,0,0,0,1,298,91],
+"MRPrecisePredicates3_8h.html#ad40401050c4a8fd9a5e1f507cd34ed98":[9,2,2,0,0,0,0,1,298,76],
+"MRPrecisePredicates3_8h.html#ad6eb1f83e8b70836b109e623d9108d6d":[9,2,2,0,0,0,0,1,298,47],
+"MRPrecisePredicates3_8h.html#ad84d1caf7a4f54b75f663ce105a294ee":[9,2,2,0,0,0,0,1,298,38],
+"MRPrecisePredicates3_8h.html#ad9af15ca8cf4dcfb5701f46f819ad501":[9,2,2,0,0,0,0,1,298,20],
+"MRPrecisePredicates3_8h.html#adacf276b37f56834d4694515154aab17":[9,2,2,0,0,0,0,1,298,51],
+"MRPrecisePredicates3_8h.html#adc0ae146389df6eb19d9af39e8f34816":[9,2,2,0,0,0,0,1,298,54],
 "MRPrecisePredicates3_8h.html#ade524de08568bd9e2ad20abda606e8c1":[9,2,2,0,0,0,0,1,298,11],
 "MRPrecisePredicates3_8h.html#adf120d4fcf2427a08644d6406e8f6cae":[9,2,2,0,0,0,0,1,298,98],
 "MRPrecisePredicates3_8h.html#ae56f61af88f1587c4f99480d54e8cb64":[9,2,2,0,0,0,0,1,298,72],
@@ -238,16 +249,5 @@ var NAVTREEINDEX97 =
 "MRQuaternion_8h.html#ae761fb9d659114f517e6b37fcfe080ac":[9,2,2,0,0,0,0,1,306,42],
 "MRQuaternion_8h.html#ae787543e643f4c1c1c16adcf09c8a53f":[9,2,2,0,0,0,0,1,306,38],
 "MRQuaternion_8h.html#ae7d5506bb80cef3ebeb5d42ecf555685":[9,2,2,0,0,0,0,1,306,32],
-"MRQuaternion_8h.html#ae81a325c3fbf783faf827ee86ac50cb1":[9,2,2,0,0,0,0,1,306,6],
-"MRQuaternion_8h.html#aea068ef9ce3e9ffa6ffff1cc5ce15873":[9,2,2,0,0,0,0,1,306,26],
-"MRQuaternion_8h.html#aeea6259ff5da7c11dce158239539d041":[9,2,2,0,0,0,0,1,306,84],
-"MRQuaternion_8h.html#af1ddb8dde01acff8e85821338ec174cb":[9,2,2,0,0,0,0,1,306,64],
-"MRQuaternion_8h.html#af291756056bab17b12c44aaa8639b422":[9,2,2,0,0,0,0,1,306,62],
-"MRQuaternion_8h.html#af5f1f340b4eafbc03c720ea9960df771":[9,2,2,0,0,0,0,1,306,13],
-"MRQuaternion_8h.html#afffe3aa22a01cb1867aff44909dd0f57":[9,2,2,0,0,0,0,1,306,66],
-"MRQuaternion_8h_source.html":[9,2,2,0,0,0,0,1,306],
-"MRRadiusCompensation_8h.html":[9,2,2,0,0,0,0,1,307],
-"MRRadiusCompensation_8h.html#a01b282b79321ea4f2dea31a8e2ad5f17":[9,2,2,0,0,0,0,1,307,31],
-"MRRadiusCompensation_8h.html#a04c7db6ddea378b5b02550641843a286":[9,2,2,0,0,0,0,1,307,14],
-"MRRadiusCompensation_8h.html#a0f975ead5394e91a6c0ec941f31b5ebc":[9,2,2,0,0,0,0,1,307,10]
+"MRQuaternion_8h.html#ae81a325c3fbf783faf827ee86ac50cb1":[9,2,2,0,0,0,0,1,306,6]
 };

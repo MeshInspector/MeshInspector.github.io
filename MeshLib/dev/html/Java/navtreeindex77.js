@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"classmeshlib_1_1MeshOnVoxelsT__const__MR__Mesh__MR__SimpleVolumeMinMax.html#a18279fce09aeb4d559b7c6a3930558be":[9,6,0,0,0,621,8],
+"classmeshlib_1_1MeshOnVoxelsT__const__MR__Mesh__MR__SimpleVolumeMinMax.html#a18279fce09aeb4d559b7c6a3930558be":[9,6,1,0,0,621,8],
 "classmeshlib_1_1MeshOnVoxelsT__const__MR__Mesh__MR__SimpleVolumeMinMax.html#a22f7179c80fc24cc6366e4f6155958cf":[9,6,0,0,0,621,14],
 "classmeshlib_1_1MeshOnVoxelsT__const__MR__Mesh__MR__SimpleVolumeMinMax.html#a22f7179c80fc24cc6366e4f6155958cf":[9,6,1,0,0,621,14],
 "classmeshlib_1_1MeshOnVoxelsT__const__MR__Mesh__MR__SimpleVolumeMinMax.html#a2567ab31a47b286e730c9322aec27377":[9,6,0,0,0,621,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "classmeshlib_1_1MeshPoint.html#afc92742341d27279475a4e0c783efb6e":[9,6,0,0,0,631,8],
 "classmeshlib_1_1MeshPoint.html#afc92742341d27279475a4e0c783efb6e":[9,6,1,0,0,631,8],
 "classmeshlib_1_1MeshPoint.html#aff623ddef45291eaafc43a44f97431d6":[9,6,0,0,0,631,4],
-"classmeshlib_1_1MeshPoint.html#aff623ddef45291eaafc43a44f97431d6":[9,6,1,0,0,631,4],
-"classmeshlib_1_1MeshPointAndDistance.html":[9,6,0,0,0,632],
-"classmeshlib_1_1MeshPointAndDistance.html":[9,6,1,0,0,632]
+"classmeshlib_1_1MeshPoint.html#aff623ddef45291eaafc43a44f97431d6":[9,6,1,0,0,631,4]
 };

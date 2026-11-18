@@ -1,5 +1,7 @@
 var NAVTREEINDEX25 =
 {
+"classmeshlib_1_1ChangeColoringType.html#af28725f7d314ba17c4320c28bc9d1d76":[9,6,0,0,0,161,5],
+"classmeshlib_1_1ChangeColoringType.html#af28725f7d314ba17c4320c28bc9d1d76":[9,6,1,0,0,161,5],
 "classmeshlib_1_1ChangeDualMarchingCubesAction.html":[9,6,0,0,0,162],
 "classmeshlib_1_1ChangeDualMarchingCubesAction.html":[9,6,1,0,0,162],
 "classmeshlib_1_1ChangeDualMarchingCubesAction.html#a49860f66be36b947cee17138f56ecb82":[9,6,0,0,0,162,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX25 =
 "classmeshlib_1_1ChangeMeshTopologyAction.html#a0d69f9806e63b48a50b8915a489e34b6":[9,6,0,0,0,175,4],
 "classmeshlib_1_1ChangeMeshTopologyAction.html#a0d69f9806e63b48a50b8915a489e34b6":[9,6,1,0,0,175,4],
 "classmeshlib_1_1ChangeMeshTopologyAction.html#a1999580ad596c9a417c290939fc6b907":[9,6,0,0,0,175,1],
-"classmeshlib_1_1ChangeMeshTopologyAction.html#a1999580ad596c9a417c290939fc6b907":[9,6,1,0,0,175,1],
-"classmeshlib_1_1ChangeMeshTopologyAction.html#a2364912d937cd9f6bff7bd9e3f135acb":[9,6,0,0,0,175,0],
-"classmeshlib_1_1ChangeMeshTopologyAction.html#a2364912d937cd9f6bff7bd9e3f135acb":[9,6,1,0,0,175,0]
+"classmeshlib_1_1ChangeMeshTopologyAction.html#a1999580ad596c9a417c290939fc6b907":[9,6,1,0,0,175,1]
 };

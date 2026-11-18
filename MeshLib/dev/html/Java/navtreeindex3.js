@@ -247,7 +247,7 @@ var NAVTREEINDEX3 =
 "SplineSettings_8java.html":[9,6,2,0,0,1,0,0,965],
 "Src2TgtMaps_8java.html":[9,6,2,0,0,1,0,0,966],
 "StepLoadSettings_8java.html":[9,6,2,0,0,1,0,0,17,3],
-"StitchHolesNicelySettings_8java.html":[9,6,2,0,0,1,0,0,1490],
-"StitchHolesParams_8java.html":[9,6,2,0,0,1,0,0,1491],
-"SubdivideFillingSettings_8java.html":[9,6,2,0,0,1,0,0,1492]
+"StitchHolesNicelySettings_8java.html":[9,6,2,0,0,1,0,0,1489],
+"StitchHolesParams_8java.html":[9,6,2,0,0,1,0,0,1490],
+"SubdivideFillingSettings_8java.html":[9,6,2,0,0,1,0,0,1491]
 };

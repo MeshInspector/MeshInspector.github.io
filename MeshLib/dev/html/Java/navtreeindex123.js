@@ -1,5 +1,7 @@
 var NAVTREEINDEX123 =
 {
+"classmeshlib_1_1RegionBitSet.html#af8a7a1c2b1367675b761c3ce3ac02ac4":[9,6,0,0,0,888,11],
+"classmeshlib_1_1RegionBitSet.html#af8a7a1c2b1367675b761c3ce3ac02ac4":[9,6,1,0,0,888,11],
 "classmeshlib_1_1RegionBitSet.html#afa601b43a518565a296318e9bc508f4a":[9,6,0,0,0,888,4],
 "classmeshlib_1_1RegionBitSet.html#afa601b43a518565a296318e9bc508f4a":[9,6,1,0,0,888,4],
 "classmeshlib_1_1RegionBitSet.html#afb8ce58ae1fdf83d9f43872ec10fae42":[9,6,0,0,0,888,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX123 =
 "classmeshlib_1_1ResolveMeshDegenSettings.html#a2c478ca9c1dab9e09bbbfa9e86a82453":[9,6,0,0,0,898,16],
 "classmeshlib_1_1ResolveMeshDegenSettings.html#a2c478ca9c1dab9e09bbbfa9e86a82453":[9,6,1,0,0,898,16],
 "classmeshlib_1_1ResolveMeshDegenSettings.html#a5cdd49cf7949de49b98df6c23b9b8d23":[9,6,0,0,0,898,5],
-"classmeshlib_1_1ResolveMeshDegenSettings.html#a5cdd49cf7949de49b98df6c23b9b8d23":[9,6,1,0,0,898,5],
-"classmeshlib_1_1ResolveMeshDegenSettings.html#a6d5c9128248f9fd1069c5a72e16deaef":[9,6,0,0,0,898,3],
-"classmeshlib_1_1ResolveMeshDegenSettings.html#a6d5c9128248f9fd1069c5a72e16deaef":[9,6,1,0,0,898,3]
+"classmeshlib_1_1ResolveMeshDegenSettings.html#a5cdd49cf7949de49b98df6c23b9b8d23":[9,6,1,0,0,898,5]
 };

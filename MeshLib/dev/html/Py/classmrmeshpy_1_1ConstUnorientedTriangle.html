@@ -154,9 +154,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a06f7dae267ed9ea81ba933326df4bcc2" id="r_a06f7dae267ed9ea81ba933326df4bcc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstVertId.html">ConstVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06f7dae267ed9ea81ba933326df4bcc2">__getitem__</a> (self, int i)</td></tr>
 <tr class="memitem:afd6833d4af86edda9865a0d31beecea2" id="r_afd6833d4af86edda9865a0d31beecea2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd6833d4af86edda9865a0d31beecea2">__init__</a> (self, *args, **kwargs)</td></tr>
 <tr class="memitem:af293822eda33d1b341723bf1e4b4b58b" id="r_af293822eda33d1b341723bf1e4b4b58b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af293822eda33d1b341723bf1e4b4b58b">__ne__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstUnorientedTriangle.html">ConstUnorientedTriangle</a> b)</td></tr>
-<tr class="memitem:a6b05acb8742eb943961921165018b9ad" id="r_a6b05acb8742eb943961921165018b9ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Const__std__array__Id__VertTag__3.html">Const_std_array_Id_VertTag_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b05acb8742eb943961921165018b9ad">convert_to_const_std_array_VertId_3</a> (self)</td></tr>
-<tr class="memitem:a8f7afdb3b6e3b600cb7615211d85b1e0" id="r_a8f7afdb3b6e3b600cb7615211d85b1e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__array__Id__VertTag__3.html">std_array_Id_VertTag_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f7afdb3b6e3b600cb7615211d85b1e0">getFlipped</a> (self)</td></tr>
-<tr class="memitem:ad7c317d5cb88f61fe85abc08a1222847" id="r_ad7c317d5cb88f61fe85abc08a1222847"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Const__std__array__Id__VertTag__3.html">Const_std_array_Id_VertTag_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7c317d5cb88f61fe85abc08a1222847">verts</a> (self)</td></tr>
+<tr class="memitem:afe555808e88ae4c89dac54b730b85cf6" id="r_afe555808e88ae4c89dac54b730b85cf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstThreeVertIds.html">ConstThreeVertIds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe555808e88ae4c89dac54b730b85cf6">convert_to_const_ThreeVertIds</a> (self)</td></tr>
+<tr class="memitem:aa3c5b480170ae4a57101600653cf3ae0" id="r_aa3c5b480170ae4a57101600653cf3ae0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ThreeVertIds.html">ThreeVertIds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3c5b480170ae4a57101600653cf3ae0">getFlipped</a> (self)</td></tr>
+<tr class="memitem:a679b7ed5b3119917c2f2d03fc5ff5366" id="r_a679b7ed5b3119917c2f2d03fc5ff5366"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstThreeVertIds.html">ConstThreeVertIds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a679b7ed5b3119917c2f2d03fc5ff5366">verts</a> (self)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -194,7 +194,7 @@ irrespective of vertex order (clockwise or counterclockwise)
 <pre class="fragment">__init__(*args, **kwargs)
 Overloaded function.
 
-1. __init__(self: meshlib.mrmeshpy.ConstUnorientedTriangle, inVs: meshlib.mrmeshpy.Const_std_array_Id_VertTag_3, outFlipped: bool_output = None) -&gt; None
+1. __init__(self: meshlib.mrmeshpy.ConstUnorientedTriangle, inVs: meshlib.mrmeshpy.ConstThreeVertIds, outFlipped: bool_output = None) -&gt; None
 
 2. __init__(self: meshlib.mrmeshpy.ConstUnorientedTriangle, arg0: meshlib.mrmeshpy.ConstUnorientedTriangle) -&gt; None
 
@@ -268,14 +268,14 @@ Implicit copy constructor.
 
 </div>
 </div>
-<a id="a6b05acb8742eb943961921165018b9ad" name="a6b05acb8742eb943961921165018b9ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b05acb8742eb943961921165018b9ad">&#9670;&#160;</a></span>convert_to_const_std_array_VertId_3()</h2>
+<a id="afe555808e88ae4c89dac54b730b85cf6" name="afe555808e88ae4c89dac54b730b85cf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe555808e88ae4c89dac54b730b85cf6">&#9670;&#160;</a></span>convert_to_const_ThreeVertIds()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Const__std__array__Id__VertTag__3.html">Const_std_array_Id_VertTag_3</a> mrmeshpy.ConstUnorientedTriangle.convert_to_const_std_array_VertId_3 </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1ConstThreeVertIds.html">ConstThreeVertIds</a> mrmeshpy.ConstUnorientedTriangle.convert_to_const_ThreeVertIds </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
@@ -285,14 +285,14 @@ Implicit copy constructor.
 
 </div>
 </div>
-<a id="a8f7afdb3b6e3b600cb7615211d85b1e0" name="a8f7afdb3b6e3b600cb7615211d85b1e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f7afdb3b6e3b600cb7615211d85b1e0">&#9670;&#160;</a></span>getFlipped()</h2>
+<a id="aa3c5b480170ae4a57101600653cf3ae0" name="aa3c5b480170ae4a57101600653cf3ae0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3c5b480170ae4a57101600653cf3ae0">&#9670;&#160;</a></span>getFlipped()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__array__Id__VertTag__3.html">std_array_Id_VertTag_3</a> mrmeshpy.ConstUnorientedTriangle.getFlipped </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1ThreeVertIds.html">ThreeVertIds</a> mrmeshpy.ConstUnorientedTriangle.getFlipped </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
@@ -303,14 +303,14 @@ Implicit copy constructor.
 </pre> 
 </div>
 </div>
-<a id="ad7c317d5cb88f61fe85abc08a1222847" name="ad7c317d5cb88f61fe85abc08a1222847"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7c317d5cb88f61fe85abc08a1222847">&#9670;&#160;</a></span>verts()</h2>
+<a id="a679b7ed5b3119917c2f2d03fc5ff5366" name="a679b7ed5b3119917c2f2d03fc5ff5366"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a679b7ed5b3119917c2f2d03fc5ff5366">&#9670;&#160;</a></span>verts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Const__std__array__Id__VertTag__3.html">Const_std_array_Id_VertTag_3</a> mrmeshpy.ConstUnorientedTriangle.verts </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1ConstThreeVertIds.html">ConstThreeVertIds</a> mrmeshpy.ConstUnorientedTriangle.verts </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
@@ -318,7 +318,7 @@ Implicit copy constructor.
       </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1UnorientedTriangle.html#ac436e131f5ea594468cf1c049c50df25">mrmeshpy.UnorientedTriangle</a>, and <a class="el" href="classmrmeshpy_1_1UnorientedTriangle.html#a913c5a065364d7a9116434a03c76db59">mrmeshpy.UnorientedTriangle</a>.</p>
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1UnorientedTriangle.html#a7622a66a4f1dfb5824c6d3556f4c6a27">mrmeshpy.UnorientedTriangle</a>, and <a class="el" href="classmrmeshpy_1_1UnorientedTriangle.html#a9d90cbe2617e02d924d25b82e2538e00">mrmeshpy.UnorientedTriangle</a>.</p>
 
 </div>
 </div>

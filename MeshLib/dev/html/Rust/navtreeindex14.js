@@ -244,10 +244,10 @@ var NAVTREEINDEX14 =
 "std__optional__MR__PointCloud_8rs.html":[9,5,2,0,0,1,3,231],
 "std__optional__MR__PolylineIntersectionResult2_8rs.html":[9,5,2,0,0,1,3,232],
 "std__optional__MR__SignedDistanceToMeshResult_8rs.html":[9,5,2,0,0,1,3,233],
-"std__optional__MR__TriIntersectResult_8rs.html":[9,5,2,0,0,1,3,235],
-"std__optional__MR__Triangulation_8rs.html":[9,5,2,0,0,1,3,234],
-"std__optional__MR__Vector2d_8rs.html":[9,5,2,0,0,1,3,236],
-"std__optional__MR__Vector2f_8rs.html":[9,5,2,0,0,1,3,237],
-"std__optional__MR__Vector3d_8rs.html":[9,5,2,0,0,1,3,238],
-"std__optional__MR__Vector3f_8rs.html":[9,5,2,0,0,1,3,239]
+"std__optional__MR__ThreeVertIds_8rs.html":[9,5,2,0,0,1,3,234],
+"std__optional__MR__TriIntersectResult_8rs.html":[9,5,2,0,0,1,3,236],
+"std__optional__MR__Triangulation_8rs.html":[9,5,2,0,0,1,3,235],
+"std__optional__MR__Vector2d_8rs.html":[9,5,2,0,0,1,3,237],
+"std__optional__MR__Vector2f_8rs.html":[9,5,2,0,0,1,3,238],
+"std__optional__MR__Vector3d_8rs.html":[9,5,2,0,0,1,3,239]
 };

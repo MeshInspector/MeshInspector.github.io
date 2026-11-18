@@ -1096,6 +1096,7 @@ var annotated_dup =
       [ "Tgt2SrcMaps", "classMR_1_1Tgt2SrcMaps.html", "classMR_1_1Tgt2SrcMaps" ],
       [ "ThickenParams", "structMR_1_1ThickenParams.html", "structMR_1_1ThickenParams" ],
       [ "ThreadRootTimeRecord", "structMR_1_1ThreadRootTimeRecord.html", "structMR_1_1ThreadRootTimeRecord" ],
+      [ "ThreeVertIds", "structMR_1_1ThreeVertIds.html", "structMR_1_1ThreeVertIds" ],
       [ "TiffSaveSettings", "structMR_1_1TiffSaveSettings.html", "structMR_1_1TiffSaveSettings" ],
       [ "Timer", "classMR_1_1Timer.html", "classMR_1_1Timer" ],
       [ "TimeRecord", "structMR_1_1TimeRecord.html", "structMR_1_1TimeRecord" ],

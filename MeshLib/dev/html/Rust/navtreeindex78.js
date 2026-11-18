@@ -1,6 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"structmeshlib_1_1MeshMeshDistanceResult.html#a1856ccf8d00a57413ef853ad02cfe52d":[9,5,0,0,0,609,0],
 "structmeshlib_1_1MeshMeshDistanceResult.html#a1856ccf8d00a57413ef853ad02cfe52d":[9,5,1,0,0,596,0],
 "structmeshlib_1_1MeshMeshDistanceResult.html#a3a38b0278d3e99b6fe904a003cb09928":[9,5,0,0,0,609,9],
 "structmeshlib_1_1MeshMeshDistanceResult.html#a3a38b0278d3e99b6fe904a003cb09928":[9,5,1,0,0,596,9],
@@ -249,5 +248,6 @@ var NAVTREEINDEX78 =
 "structmeshlib_1_1MeshOrPoints.html#a8a247c4d2fe9526fa9f5ea86a1d2c829":[9,5,0,0,0,618,10],
 "structmeshlib_1_1MeshOrPoints.html#a8a247c4d2fe9526fa9f5ea86a1d2c829":[9,5,1,0,0,605,10],
 "structmeshlib_1_1MeshOrPoints.html#a8c2408e86142682c576392db3a3c3c14":[9,5,0,0,0,618,14],
-"structmeshlib_1_1MeshOrPoints.html#a8c2408e86142682c576392db3a3c3c14":[9,5,1,0,0,605,14]
+"structmeshlib_1_1MeshOrPoints.html#a8c2408e86142682c576392db3a3c3c14":[9,5,1,0,0,605,14],
+"structmeshlib_1_1MeshOrPoints.html#a8c44f14ff67de726e2f7ef49639389c0":[9,5,0,0,0,618,0]
 };

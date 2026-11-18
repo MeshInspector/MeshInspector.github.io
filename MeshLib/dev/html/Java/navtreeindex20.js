@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classmeshlib_1_1Box3f.html#a3ff626c4da1d92b13440e2957e2d1a71":[9,6,0,0,0,130,32],
+"classmeshlib_1_1Box3f.html#a3ff626c4da1d92b13440e2957e2d1a71":[9,6,1,0,0,130,32],
 "classmeshlib_1_1Box3f.html#a4475c06922888623dd0fed493f61a68e":[9,6,0,0,0,130,26],
 "classmeshlib_1_1Box3f.html#a4475c06922888623dd0fed493f61a68e":[9,6,1,0,0,130,26],
 "classmeshlib_1_1Box3f.html#a495c85ac746b53fe5879354985a8eed2":[9,6,0,0,0,130,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classmeshlib_1_1Box__unsigned__short.html#adcf3a33dddc58cf69783b6f5b6dc17ad":[9,6,0,0,0,133,3],
 "classmeshlib_1_1Box__unsigned__short.html#adcf3a33dddc58cf69783b6f5b6dc17ad":[9,6,1,0,0,133,3],
 "classmeshlib_1_1Box__unsigned__short.html#add6b3866de63ebdb161d4dba948a8eed":[9,6,0,0,0,133,30],
-"classmeshlib_1_1Box__unsigned__short.html#add6b3866de63ebdb161d4dba948a8eed":[9,6,1,0,0,133,30],
-"classmeshlib_1_1Box__unsigned__short.html#ade4deb5062a6f146c79071df51588035":[9,6,0,0,0,133,31],
-"classmeshlib_1_1Box__unsigned__short.html#ade4deb5062a6f146c79071df51588035":[9,6,1,0,0,133,31]
+"classmeshlib_1_1Box__unsigned__short.html#add6b3866de63ebdb161d4dba948a8eed":[9,6,1,0,0,133,30]
 };

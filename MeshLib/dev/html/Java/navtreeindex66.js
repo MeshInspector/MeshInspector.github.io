@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"classmeshlib_1_1LineSegm3d.html#a6ba246dd68d1b0f547357c967676ab0b":[9,6,0,0,0,556,3],
+"classmeshlib_1_1LineSegm3d.html#a6ba246dd68d1b0f547357c967676ab0b":[9,6,1,0,0,556,3],
 "classmeshlib_1_1LineSegm3d.html#a812e294f85fc0333f5522697bf43fdc0":[9,6,0,0,0,556,0],
 "classmeshlib_1_1LineSegm3d.html#a812e294f85fc0333f5522697bf43fdc0":[9,6,1,0,0,556,0],
 "classmeshlib_1_1LineSegm3d.html#a9a02c0c5af6fb9c3ec25252921e63a4c":[9,6,0,0,0,556,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "classmeshlib_1_1LoadedObjectT__MR__ObjectPoints.html#ad9194eb5c85a0213684c3ad87eb5dc1f":[9,6,0,0,0,565,1],
 "classmeshlib_1_1LoadedObjectT__MR__ObjectPoints.html#ad9194eb5c85a0213684c3ad87eb5dc1f":[9,6,1,0,0,565,1],
 "classmeshlib_1_1LoadedObjectT__MR__ObjectVoxels.html":[9,6,0,0,0,566],
-"classmeshlib_1_1LoadedObjectT__MR__ObjectVoxels.html":[9,6,1,0,0,566],
-"classmeshlib_1_1LoadedObjectT__MR__ObjectVoxels.html#a16b348d3fd9233ace58d51dff4552f59":[9,6,0,0,0,566,1],
-"classmeshlib_1_1LoadedObjectT__MR__ObjectVoxels.html#a16b348d3fd9233ace58d51dff4552f59":[9,6,1,0,0,566,1]
+"classmeshlib_1_1LoadedObjectT__MR__ObjectVoxels.html":[9,6,1,0,0,566]
 };

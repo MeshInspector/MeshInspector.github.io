@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"classmeshlib_1_1FeatureObject.html#a4d0af7f6ecc6aa070f270490d5787aa2":[9,6,0,0,0,423,11],
+"classmeshlib_1_1FeatureObject.html#a4d0af7f6ecc6aa070f270490d5787aa2":[9,6,1,0,0,423,11],
 "classmeshlib_1_1FeatureObject.html#a50c6269174096fca43e1304c71ee7657":[9,6,0,0,0,423,76],
 "classmeshlib_1_1FeatureObject.html#a50c6269174096fca43e1304c71ee7657":[9,6,1,0,0,423,76],
 "classmeshlib_1_1FeatureObject.html#a5366af6cf634b8215a5ab456e8bdb11f":[9,6,0,0,0,423,88],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "classmeshlib_1_1FeaturesObjectKind.html#aec67e95aa8c9d9a307dd64d3d4ea8779":[9,6,0,0,0,427,0],
 "classmeshlib_1_1FeaturesObjectKind.html#aec67e95aa8c9d9a307dd64d3d4ea8779":[9,6,1,0,0,427,0],
 "classmeshlib_1_1FeaturesObjectKind.html#afa9b934f39e26a92c0516d65fc50ce53":[9,6,0,0,0,427,3],
-"classmeshlib_1_1FeaturesObjectKind.html#afa9b934f39e26a92c0516d65fc50ce53":[9,6,1,0,0,427,3],
-"classmeshlib_1_1FewSmallest__MR__PointsProjectionResult.html":[9,6,0,0,0,429],
-"classmeshlib_1_1FewSmallest__MR__PointsProjectionResult.html":[9,6,1,0,0,429]
+"classmeshlib_1_1FeaturesObjectKind.html#afa9b934f39e26a92c0516d65fc50ce53":[9,6,1,0,0,427,3]
 };

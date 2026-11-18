@@ -231,11 +231,12 @@ Iterating over valid vertices</h3>
 Iterating over valid faces</h3>
 <div class="fragment"><div class="line"><span class="keywordflow">for</span> ( FaceId f : <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.getValidFaces() )</div>
 <div class="line">{</div>
-<div class="line">    ThreeVertIds vertIds;</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf8674c43321fb1c897d71f58b177f494">ThreeVertIds</a> vertIds;</div>
 <div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.getTriVerts( f, vertIds )</div>
 <div class="line">    std::cout &lt;&lt; vertIds[0] &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; vertIds[1] &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; vertIds[2] &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">    <span class="comment">//...</span></div>
 <div class="line">}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf8674c43321fb1c897d71f58b177f494"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf8674c43321fb1c897d71f58b177f494">ThreeVertIds</a></div><div class="ttdeci">constexpr ThreeVertIds() noexcept=default</div></div>
 </div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md162"></a>
 Iterating ofer vertex edges ring</h3>
 <div class="fragment"><div class="line"><span class="keywordflow">for</span> ( EdgeId e : orgRing( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology, vertId ) )</div>

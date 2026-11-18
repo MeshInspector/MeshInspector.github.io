@@ -1,6 +1,5 @@
 var NAVTREEINDEX124 =
 {
-"structmeshlib_1_1SharpOffsetParameters.html#a1016f93f110847881b67ece52ee78cc9":[9,5,1,0,0,914,1],
 "structmeshlib_1_1SharpOffsetParameters.html#a119348c17b831bbff09f6237de4fb754":[9,5,0,0,0,927,13],
 "structmeshlib_1_1SharpOffsetParameters.html#a119348c17b831bbff09f6237de4fb754":[9,5,1,0,0,914,13],
 "structmeshlib_1_1SharpOffsetParameters.html#a144cb01b523d4b8d91cbd392c5854d2f":[9,5,0,0,0,927,51],
@@ -249,5 +248,6 @@ var NAVTREEINDEX124 =
 "structmeshlib_1_1ShrinkwrapParameters.html#aeaa5972d1638b2651894be54e36140be":[9,5,1,0,0,916,18],
 "structmeshlib_1_1Side.html":[9,5,0,0,0,930],
 "structmeshlib_1_1Side.html":[9,5,1,0,0,917],
-"structmeshlib_1_1SignDetectionMode.html":[9,5,0,0,0,931]
+"structmeshlib_1_1SignDetectionMode.html":[9,5,0,0,0,931],
+"structmeshlib_1_1SignDetectionMode.html":[9,5,1,0,0,918]
 };

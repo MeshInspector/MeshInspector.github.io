@@ -58,6 +58,7 @@ var MRVector_8rs =
     [ "meshlib::Vector_MR_QuadraticForm3f_MR_VertId", "structmeshlib_1_1Vector__MR__QuadraticForm3f__MR__VertId.html", "structmeshlib_1_1Vector__MR__QuadraticForm3f__MR__VertId" ],
     [ "meshlib::Vector_MR_RegionId_MR_RegionId", "structmeshlib_1_1Vector__MR__RegionId__MR__RegionId.html", "structmeshlib_1_1Vector__MR__RegionId__MR__RegionId" ],
     [ "meshlib::Vector_MR_TextureId_MR_TextureId", "structmeshlib_1_1Vector__MR__TextureId__MR__TextureId.html", "structmeshlib_1_1Vector__MR__TextureId__MR__TextureId" ],
+    [ "meshlib::Vector_MR_ThreeVertIds", "structmeshlib_1_1Vector__MR__ThreeVertIds.html", "structmeshlib_1_1Vector__MR__ThreeVertIds" ],
     [ "meshlib::Vector_MR_VarEdgeTri", "structmeshlib_1_1Vector__MR__VarEdgeTri.html", "structmeshlib_1_1Vector__MR__VarEdgeTri" ],
     [ "meshlib::Vector_MR_Vector2d_MR_VertId", "structmeshlib_1_1Vector__MR__Vector2d__MR__VertId.html", "structmeshlib_1_1Vector__MR__Vector2d__MR__VertId" ],
     [ "meshlib::Vector_MR_Vector3f_MR_Id_MR_SurfaceDistanceStartTag", "structmeshlib_1_1Vector__MR__Vector3f__MR__Id__MR__SurfaceDistanceStartTag.html", "structmeshlib_1_1Vector__MR__Vector3f__MR__Id__MR__SurfaceDistanceStartTag" ],
