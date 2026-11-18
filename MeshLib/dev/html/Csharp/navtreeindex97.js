@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"classMR_1_1Const__Vert2RegionMap.html#aebc0c3a748688f75c81b0c4035bb7c78":[9,3,0,0,0,1046,18],
 "classMR_1_1Const__Vert2RegionMap.html#af6e2832b5f9918fcf1579ae8e2725bd4":[9,3,0,0,0,1046,20],
 "classMR_1_1Const__VertBMap.html":[9,3,0,0,0,1048],
 "classMR_1_1Const__VertBMap.html#a13ec46267efede2ef304e6bb6ac48379":[9,3,0,0,0,1048,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "classMR_1_1Const__VertScalars.html#ae2622e8e1184a02b330cb18295137183":[9,3,0,0,0,1058,11],
 "classMR_1_1Const__VertScalars.html#aeabd9e49969b815d892afb2e20c250f6":[9,3,0,0,0,1058,23],
 "classMR_1_1Const__VertScalars.html#aef045a133fa5640169bd1a9dfa49f629":[9,3,0,0,0,1058,20],
-"classMR_1_1Const__VertScalars.html#afe58eaa971f9ec18fe87a2e48179d9e2":[9,3,0,0,0,1058,5],
-"classMR_1_1Const__VertSetBitIterator.html":[9,3,0,0,0,1059]
+"classMR_1_1Const__VertScalars.html#afe58eaa971f9ec18fe87a2e48179d9e2":[9,3,0,0,0,1058,5]
 };

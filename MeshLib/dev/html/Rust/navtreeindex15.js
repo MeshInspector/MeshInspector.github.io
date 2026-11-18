@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"std__optional__MR__Vector3i_8rs.html":[9,5,2,0,0,1,3,240],
 "std__optional__MR__VertBitSet_8rs.html":[9,5,2,0,0,1,3,241],
 "std__optional__MR__VertCoords2_8rs.html":[9,5,2,0,0,1,3,243],
 "std__optional__MR__VertCoords_8rs.html":[9,5,2,0,0,1,3,242],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "std__vector__MR__LineSegm3f_8rs.html":[9,5,2,0,0,1,3,492],
 "std__vector__MR__MeshBuilder__MeshPiece_8rs.html":[9,5,2,0,0,1,3,495],
 "std__vector__MR__MeshBuilder__VertDuplication_8rs.html":[9,5,2,0,0,1,3,496],
-"std__vector__MR__MeshBuilder__VertSpan__MR__Allocator__MR__MeshBuilder__VertSpan_8rs.html":[9,5,2,0,0,1,3,497],
-"std__vector__MR__MeshIntersectionResult_8rs.html":[9,5,2,0,0,1,3,498]
+"std__vector__MR__MeshBuilder__VertSpan__MR__Allocator__MR__MeshBuilder__VertSpan_8rs.html":[9,5,2,0,0,1,3,497]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX88 =
 {
+"classMR_1_1Const__UndirectedEdgeColors.html#a98140eaa7df5c2ffeaea6776d776ffb4":[9,3,0,0,0,949,3],
 "classMR_1_1Const__UndirectedEdgeColors.html#aaef01f9fd009139f74f86008e33f2f70":[9,3,0,0,0,949,20],
 "classMR_1_1Const__UndirectedEdgeColors.html#ab469277f0bc1b2a7df82c97c0170be0a":[9,3,0,0,0,949,0],
 "classMR_1_1Const__UndirectedEdgeColors.html#ab653d0dc8729eff9ac6e98bd5da7abe8":[9,3,0,0,0,949,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX88 =
 "classMR_1_1Const__UnorientedTriangle.html#af68eda2bd2e72f5d08b0d197ced0f21f":[9,3,0,0,0,965,6],
 "classMR_1_1Const__UnorientedTriangle.html#afbc9d0eab91ce60c085e5647977942fa":[9,3,0,0,0,965,5],
 "classMR_1_1Const__VacantElements.html":[9,3,0,0,0,966],
-"classMR_1_1Const__VacantElements.html#a10e13300e01df64fe19d69b4b53c676c":[9,3,0,0,0,966,9],
-"classMR_1_1Const__VacantElements.html#a1615292ca8c9b312e210838a41b64aa1":[9,3,0,0,0,966,6]
+"classMR_1_1Const__VacantElements.html#a10e13300e01df64fe19d69b4b53c676c":[9,3,0,0,0,966,9]
 };

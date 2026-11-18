@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"namespacemeshlib_1_1polyline__components.html#ab4ae19b616ea826c9d5a214e676060c3":[9,5,0,0,0,27,2],
 "namespacemeshlib_1_1polyline__components.html#ad30f53a290ca5eadd04e878cbaf2722d":[9,5,0,0,0,27,7],
 "namespacemeshlib_1_1polyline__components.html#af06000a717e8a0d4344833629b9dd72a":[9,5,0,0,0,27,5],
 "namespacemeshlib_1_1polyline__components.html#afb03989e0efad699dc985895785ea0c1":[9,5,0,0,0,27,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "std__optional__MR__Vector2d_8rs.html":[9,5,2,0,0,1,3,236],
 "std__optional__MR__Vector2f_8rs.html":[9,5,2,0,0,1,3,237],
 "std__optional__MR__Vector3d_8rs.html":[9,5,2,0,0,1,3,238],
-"std__optional__MR__Vector3f_8rs.html":[9,5,2,0,0,1,3,239],
-"std__optional__MR__Vector3i_8rs.html":[9,5,2,0,0,1,3,240]
+"std__optional__MR__Vector3f_8rs.html":[9,5,2,0,0,1,3,239]
 };

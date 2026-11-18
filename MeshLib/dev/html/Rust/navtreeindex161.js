@@ -1,5 +1,6 @@
 var NAVTREEINDEX161 =
 {
+"structmeshlib_1_1Vector__MR__VoxelId__MR__FaceId.html#a14fa2bf1f2d3498709b0c2dca61cf21e":[9,5,1,0,0,1638,19],
 "structmeshlib_1_1Vector__MR__VoxelId__MR__FaceId.html#a1d439d201a0a204b4202d9210a9dca50":[9,5,0,0,0,1651,5],
 "structmeshlib_1_1Vector__MR__VoxelId__MR__FaceId.html#a1d439d201a0a204b4202d9210a9dca50":[9,5,1,0,0,1638,5],
 "structmeshlib_1_1Vector__MR__VoxelId__MR__FaceId.html#a1d4923bb94e40c0a8f61881042d6d7b6":[9,5,0,0,0,1651,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX161 =
 "structmeshlib_1_1Vector__MR__WatershedGraph__BdInfo__MR__GraphEdgeId.html#a5b88e976a1b1526abde1c947564f47a7":[9,5,1,0,0,1641,8],
 "structmeshlib_1_1Vector__MR__WatershedGraph__BdInfo__MR__GraphEdgeId.html#a5cf208275f1fba7f3f04364396c94b43":[9,5,0,0,0,1654,1],
 "structmeshlib_1_1Vector__MR__WatershedGraph__BdInfo__MR__GraphEdgeId.html#a5cf208275f1fba7f3f04364396c94b43":[9,5,1,0,0,1641,1],
-"structmeshlib_1_1Vector__MR__WatershedGraph__BdInfo__MR__GraphEdgeId.html#a5ece00d3d16dd15624e90fdc37fce3c9":[9,5,0,0,0,1654,4],
-"structmeshlib_1_1Vector__MR__WatershedGraph__BdInfo__MR__GraphEdgeId.html#a5ece00d3d16dd15624e90fdc37fce3c9":[9,5,1,0,0,1641,4]
+"structmeshlib_1_1Vector__MR__WatershedGraph__BdInfo__MR__GraphEdgeId.html#a5ece00d3d16dd15624e90fdc37fce3c9":[9,5,0,0,0,1654,4]
 };

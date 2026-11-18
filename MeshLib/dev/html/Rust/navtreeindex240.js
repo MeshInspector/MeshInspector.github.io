@@ -1,5 +1,6 @@
 var NAVTREEINDEX240 =
 {
+"structmeshlib_1_1voxels__load_1_1DicomStatus.html#a204749468dc1ae8c132e028a88567bad":[9,5,1,0,0,21,0,9],
 "structmeshlib_1_1voxels__load_1_1DicomStatus.html#a287595d09f605fbdf574440fa3aee5ae":[9,5,0,0,0,34,0,8],
 "structmeshlib_1_1voxels__load_1_1DicomStatus.html#a287595d09f605fbdf574440fa3aee5ae":[9,5,1,0,0,21,0,8],
 "structmeshlib_1_1voxels__load_1_1DicomStatus.html#a488f5e5615e732e870f9fcd721555f25":[9,5,0,0,0,34,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX240 =
 "structmeshlib_1_1weighted__shell_1_1ParametersRegions.html#a4403521459e63db909d5c15534c83695":[9,5,1,0,0,23,3,19],
 "structmeshlib_1_1weighted__shell_1_1ParametersRegions.html#a4ab8944e2dd934c8fb7931b262b32f5b":[9,5,0,0,0,36,3,9],
 "structmeshlib_1_1weighted__shell_1_1ParametersRegions.html#a4ab8944e2dd934c8fb7931b262b32f5b":[9,5,1,0,0,23,3,9],
-"structmeshlib_1_1weighted__shell_1_1ParametersRegions.html#a4c57ec96b07162e449497c8f7e3cd8ab":[9,5,0,0,0,36,3,5],
-"structmeshlib_1_1weighted__shell_1_1ParametersRegions.html#a4c57ec96b07162e449497c8f7e3cd8ab":[9,5,1,0,0,23,3,5]
+"structmeshlib_1_1weighted__shell_1_1ParametersRegions.html#a4c57ec96b07162e449497c8f7e3cd8ab":[9,5,0,0,0,36,3,5]
 };

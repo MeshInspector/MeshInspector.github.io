@@ -1,5 +1,6 @@
 var NAVTREEINDEX192 =
 {
+"structmeshlib_1_1scene__load_1_1Settings.html#af302c5824a39589851cde79807513b08":[9,5,1,0,0,17,1,7],
 "structmeshlib_1_1scene__save_1_1Settings.html":[9,5,0,0,0,31,0],
 "structmeshlib_1_1scene__save_1_1Settings.html":[9,5,1,0,0,18,0],
 "structmeshlib_1_1scene__save_1_1Settings.html#a0d093cc383586d757d8f81a0a2457708":[9,5,0,0,0,31,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX192 =
 "structmeshlib_1_1std__array__std__filesystem__path__4.html#a5c597fbd9b031e6d56bddf767e6d9681":[9,5,1,0,0,965,4],
 "structmeshlib_1_1std__array__std__filesystem__path__4.html#ac59c38f29f0ef2b138b9b895ca6a04bc":[9,5,0,0,0,978,2],
 "structmeshlib_1_1std__array__std__filesystem__path__4.html#ac59c38f29f0ef2b138b9b895ca6a04bc":[9,5,1,0,0,965,2],
-"structmeshlib_1_1std__array__std__filesystem__path__4.html#afb6f4d11c2ad29e9b2abea27e96ccbcf":[9,5,0,0,0,978,0],
-"structmeshlib_1_1std__array__std__filesystem__path__4.html#afb6f4d11c2ad29e9b2abea27e96ccbcf":[9,5,1,0,0,965,0]
+"structmeshlib_1_1std__array__std__filesystem__path__4.html#afb6f4d11c2ad29e9b2abea27e96ccbcf":[9,5,0,0,0,978,0]
 };

@@ -216,19 +216,19 @@ var NAVTREEINDEX =
 "group__MathGroup.html#gad703c1d9a93f5cf4e177808cbfef4deb",
 "group__PointCloudComponentsGroup.html",
 "group__SurfacePathGroup.html#gae15f3e648c515cf6d02ec75c41495027",
-"namespaceImGui.html#aedd1acb8b145f8bfe1b425864ef792bd",
-"namespaceMR_1_1MeshLoad.html#abbfb48282ba6bea938b4f8bf5a84610d",
-"namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e",
-"structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01",
+"namespaceImGui.html#aedb015f9f592f1fd8b470ab6f5ac89be",
+"namespaceMR_1_1MeshLoad.html#aac2829bd8edab552d810e6b09a9edd43",
+"namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7",
+"structMR_1_1AABBTreeNode.html#aa27862e8db20e0df70b99484c093d43d",
 "structMR_1_1CutMeshParameters.html",
-"structMR_1_1FindDisorientationParams.html#a0c40bf2320287e58137728520c03765e",
-"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#adc882bf59a1455b3ac5391416ed0c55b",
-"structMR_1_1MakeBridgeResult.html#ada00548262d69e8a5ce7f4536d752495",
-"structMR_1_1MeshBuilder_1_1BuildSettings.html",
-"structMR_1_1Pdf_1_1Cell_1_1Empty.html",
+"structMR_1_1FindDisorientationParams.html",
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a82c49f908474da383b54cab422513525",
+"structMR_1_1MakeBridgeResult.html#a5959fa7b09b9a888870b4492e158145f",
+"structMR_1_1MeshAttributesToUpdate.html",
+"structMR_1_1Pdf_1_1CellCustomParams.html",
 "structMR_1_1PythonViewer_1_1ViewerSetup.html",
-"structMR_1_1TimeRecord.html#aefc29a1b393cb4e47eec9c964a56b8f9",
-"structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d"
+"structMR_1_1TimeRecord.html#ae2011c61063c65e0a8f63688cb97f6af",
+"structMR_1_1Vector2.html#a0537b0cb50cc7b0605e0fc95ffaf6b0b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

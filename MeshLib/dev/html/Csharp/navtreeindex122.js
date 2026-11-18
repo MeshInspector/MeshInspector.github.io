@@ -1,5 +1,6 @@
 var NAVTREEINDEX122 =
 {
+"classMR_1_1NoCtor__MRUndirectedEdgeId.html#ac8e92e6c05baccbef05b0d6d683e7ca8":[9,3,0,0,0,1496,2],
 "classMR_1_1NoCtor__MRUndirectedEdgeId.html#ad073298649f1d6101b357954119bc031":[9,3,0,0,0,1496,0],
 "classMR_1_1NoCtor__MRUndirectedEdgeId.html#ae72a9ca9c658c31e3010c5c5942528e5":[9,3,0,0,0,1496,3],
 "classMR_1_1NoCtor__MRVertId.html":[9,3,0,0,0,1497],
@@ -248,6 +249,5 @@ var NAVTREEINDEX122 =
 "classMR_1_1NumSum.html#a2a8f969c81a89b7a90271eda1e5ae188":[9,3,0,0,0,1522,6],
 "classMR_1_1NumSum.html#a5203d8c61a6cb8480b2cd01b43a87dd6":[9,3,0,0,0,1522,1],
 "classMR_1_1NumSum.html#a7809ee0659836c4b28ece0af71b793eb":[9,3,0,0,0,1522,5],
-"classMR_1_1NumSum.html#a89a96b8b942f9dfb0cc17bf15df9ad77":[9,3,0,0,0,1522,4],
-"classMR_1_1NumSum.html#a93344442769356b9f71e8fae0d92c364":[9,3,0,0,0,1522,3]
+"classMR_1_1NumSum.html#a89a96b8b942f9dfb0cc17bf15df9ad77":[9,3,0,0,0,1522,4]
 };

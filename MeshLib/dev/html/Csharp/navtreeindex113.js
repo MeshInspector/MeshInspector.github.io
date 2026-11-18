@@ -1,5 +1,6 @@
 var NAVTREEINDEX113 =
 {
+"classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#afaa1e7b1edbb4e03f3508eda4248f188":[9,3,0,0,0,1360,0],
 "classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html":[9,3,0,0,0,1361],
 "classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html#a879583da4c8b840fec7053956b0e9af4":[9,3,0,0,0,1361,4],
 "classMR_1_1IteratorRange__MRUndirectedEdgeIterator.html#a896b61bfdc9e7a1684302c10239b0bff":[9,3,0,0,0,1361,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX113 =
 "classMR_1_1LoadedObjectT.html#a619c2a3ee3675996efad350772516b31":[9,3,0,0,0,1380,1],
 "classMR_1_1LoadedObjectT.html#a7c0f2864525cd28bff390a3fd5b8391b":[9,3,0,0,0,1380,0],
 "classMR_1_1LoadedObjectT.html#aba04bab2edad67c4a0dd2ded71d47d56":[9,3,0,0,0,1380,8],
-"classMR_1_1LoadedObjectT.html#abaf58c09fb701df5cc98b276ccc31c49":[9,3,0,0,0,1380,2],
-"classMR_1_1LoadedObjectT.html#add5bf536fbf3962dab86e78046ff526d":[9,3,0,0,0,1380,4]
+"classMR_1_1LoadedObjectT.html#abaf58c09fb701df5cc98b276ccc31c49":[9,3,0,0,0,1380,2]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"classMR_1_1Const__MeshTriPointd.html#a090d8467380c4f7e779a8246129009a3":[9,3,0,0,0,635,9],
 "classMR_1_1Const__MeshTriPointd.html#a0e8932a6a4fd44af0f560f7a0c593d7a":[9,3,0,0,0,635,20],
 "classMR_1_1Const__MeshTriPointd.html#a134f7086fcaa4370dbb9a686e27e4f36":[9,3,0,0,0,635,4],
 "classMR_1_1Const__MeshTriPointd.html#a15591a560b29fb8c0c5f113d0c37f077":[9,3,0,0,0,635,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "classMR_1_1Const__MultiwayICP.html":[9,3,0,0,0,648],
 "classMR_1_1Const__MultiwayICP.html#a1aec6644019d10896b0910c545124303":[9,3,0,0,0,648,5],
 "classMR_1_1Const__MultiwayICP.html#a20590e66f61ef24c34fe8ee6035b261b":[9,3,0,0,0,648,9],
-"classMR_1_1Const__MultiwayICP.html#a3cf16c768ed797ae2c3e08d98d103725":[9,3,0,0,0,648,3],
-"classMR_1_1Const__MultiwayICP.html#a5d71263ba736fadf15bcc924f526539b":[9,3,0,0,0,648,10]
+"classMR_1_1Const__MultiwayICP.html#a3cf16c768ed797ae2c3e08d98d103725":[9,3,0,0,0,648,3]
 };

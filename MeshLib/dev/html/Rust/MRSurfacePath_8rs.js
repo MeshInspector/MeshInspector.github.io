@@ -18,6 +18,7 @@ var MRSurfacePath_8rs =
     [ "meshlib::geodesic_path_length", "namespacemeshlib.html#a589bdc6395e4bf1666ce5e3cf8540f80", null ],
     [ "meshlib::geodesic_path_to_contour3f", "namespacemeshlib.html#afc35a5b8e3de631980598d99475a7ae6", null ],
     [ "meshlib::get_surface_paths_via_vertices", "namespacemeshlib.html#aff670d1a56ed85a4673fd218ec4f7b16", null ],
+    [ "meshlib::is_connected_path", "namespacemeshlib.html#a9a9c03d2e736212e059c2cfd919c8fa8", null ],
     [ "meshlib::surface_path_length", "namespacemeshlib.html#ae6110a6ae9bffc795ebddbe62ec25499", null ],
     [ "meshlib::surface_path_to_contour3f", "namespacemeshlib.html#aba13301bc8f8e250e2b730d3fc1d5094", null ],
     [ "meshlib::surface_paths_to_contours3f", "namespacemeshlib.html#ad7b160583c32d6337316c4a4b881e93f", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX167 =
 {
+"structmeshlib_1_1Vector__std__vector__MR__GraphEdgeId__MR__GraphVertId.html#af0f1df76a72ca095e3b79198067c613c":[9,5,1,0,0,1648,3],
 "structmeshlib_1_1Vector__std__vector__MR__GraphEdgeId__MR__GraphVertId.html#af0fe858678cc883fb2c895c13eb539cc":[9,5,0,0,0,1661,28],
 "structmeshlib_1_1Vector__std__vector__MR__GraphEdgeId__MR__GraphVertId.html#af0fe858678cc883fb2c895c13eb539cc":[9,5,1,0,0,1648,28],
 "structmeshlib_1_1Vector__std__vector__MR__GraphEdgeId__MR__GraphVertId.html#afd5810d20e64f2732e9f87ea91e08aad":[9,5,0,0,0,1661,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX167 =
 "structmeshlib_1_1Vert2RegionMap.html#afa0f1d0408c773d3ba278633c133c4d8":[9,5,1,0,0,1652,18],
 "structmeshlib_1_1Vert2RegionMap.html#afc4d809de0eb2684a4ce2c0e632e3b61":[9,5,0,0,0,1665,27],
 "structmeshlib_1_1Vert2RegionMap.html#afc4d809de0eb2684a4ce2c0e632e3b61":[9,5,1,0,0,1652,27],
-"structmeshlib_1_1VertBMap.html":[9,5,0,0,0,1667],
-"structmeshlib_1_1VertBMap.html":[9,5,1,0,0,1654]
+"structmeshlib_1_1VertBMap.html":[9,5,0,0,0,1667]
 };

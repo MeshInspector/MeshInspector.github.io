@@ -141,6 +141,7 @@ $(function(){initNavTree('MRSurfacePath_8h.html','',''); });
 <code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRSurfacePath_8h_source.html">Go to the source code of this file.</a></p>
@@ -218,6 +219,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a2b6784b6bcf611e09fc7c5a1da954395" id="r_a2b6784b6bcf611e09fc7c5a1da954395"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b6784b6bcf611e09fc7c5a1da954395">MR_findExtremeEdges</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, <a class="el" href="#a5482c592eb1808b0577688ffe5ebcb76">MR_ExtremeEdgeType</a> type)</td></tr>
 <tr class="memitem:a58383469f1c42f8fa78449f4a032aecb" id="r_a58383469f1c42f8fa78449f4a032aecb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#ac4e0af01b273a344d518a3f387e5c80a">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_phmap_Hash_MR_VertId_phmap_EqualTo_MR_VertId_MR_Allocator_std_pair_const_MR_VertId_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58383469f1c42f8fa78449f4a032aecb">MR_computeClosestSurfacePathTargets</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *starts, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *ends, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vertRegion, <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *outSurfaceDistances)</td></tr>
 <tr class="memitem:a94c51f2f1d92f9251d945b0045001108" id="r_a94c51f2f1d92f9251d945b0045001108"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRExtractIsolines_8h.html#a9eda717f5871eea7d095bcf2f34a7a98">MR_std_vector_std_vector_MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94c51f2f1d92f9251d945b0045001108">MR_getSurfacePathsViaVertices</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vs)</td></tr>
+<tr class="memitem:adaab2d4c7189e213e0cc283f6a37618a" id="r_adaab2d4c7189e213e0cc283f6a37618a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaab2d4c7189e213e0cc283f6a37618a">MR_isConnectedPath</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *path, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end)</td></tr>
 <tr class="memitem:a86a1971ed1f3a0ea0491c217a9fcce53" id="r_a86a1971ed1f3a0ea0491c217a9fcce53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86a1971ed1f3a0ea0491c217a9fcce53">MR_surfacePathLength</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *surfacePath)</td></tr>
 <tr class="memitem:a5a6f148e9f70062b4e7febabfdd0c266" id="r_a5a6f148e9f70062b4e7febabfdd0c266"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a6f148e9f70062b4e7febabfdd0c266">MR_geodesicPathLength</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAlignContoursToMesh_8h.html#ac1634d1d822123ef12012bc7bf0bfa90">MR_GeodesicPath</a> *path)</td></tr>
 <tr class="memitem:a8565496250e83ea07dc00bbfe10d50a1" id="r_a8565496250e83ea07dc00bbfe10d50a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8565496250e83ea07dc00bbfe10d50a1">MR_surfacePathToContour3f</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *line)</td></tr>
@@ -1534,6 +1536,38 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>returns a set of mesh lines passing via most of given vertices in auto-selected order; the lines try to avoid sharp turns in the vertices Generated from function <span class="tt">MR::getSurfacePathsViaVertices</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">vs</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__std__vector__MR__EdgePoint_8h.html#abf1bd0dc298f0befe0c41071883be551" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgePoint. Does nothing if the poin...">MR_std_vector_std_vector_MR_EdgePoint_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="adaab2d4c7189e213e0cc283f6a37618a" name="adaab2d4c7189e213e0cc283f6a37618a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaab2d4c7189e213e0cc283f6a37618a">&#9670;&#160;</a></span>MR_isConnectedPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_isConnectedPath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if every two consecutive points among start, path points and end share a triangle; an empty path is connected only if start and end share a triangle Generated from function <span class="tt">MR::isConnectedPath</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">start</span> can not be null. It is a single object. Parameter <span class="tt">path</span> can not be null. It is a single object. Parameter <span class="tt">end</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

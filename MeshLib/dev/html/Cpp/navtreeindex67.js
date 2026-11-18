@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a82c49f908474da383b54cab422513525":[9,0,2,0,1,7,8,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#adc882bf59a1455b3ac5391416ed0c55b":[9,0,1,0,1,17,8,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#adc882bf59a1455b3ac5391416ed0c55b":[9,0,2,0,1,7,8,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#af8b700f89714d976e55426b9ae9a67b9":[9,0,1,0,1,17,8,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1LoadedObjects.html":[9,0,0,19,333],
 "structMR_1_1MakeBridgeResult.html":[9,0,0,9,3,2],
 "structMR_1_1MakeBridgeResult.html#a083042e18f6b7e0a27d0e66142053119":[9,0,0,9,3,2,0],
-"structMR_1_1MakeBridgeResult.html#a2d3386014f3867f61860546d2b63b02a":[9,0,0,9,3,2,3],
-"structMR_1_1MakeBridgeResult.html#a5959fa7b09b9a888870b4492e158145f":[9,0,0,9,3,2,1]
+"structMR_1_1MakeBridgeResult.html#a2d3386014f3867f61860546d2b63b02a":[9,0,0,9,3,2,3]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX172 =
 {
+"structmeshlib_1_1VisualObject.html#aa416a6ffe8d93868d0f403c714a13522":[9,5,1,0,0,1679,57],
 "structmeshlib_1_1VisualObject.html#aa71815334a8c48f513c9b02f2d994b15":[9,5,0,0,0,1692,5],
 "structmeshlib_1_1VisualObject.html#aa71815334a8c48f513c9b02f2d994b15":[9,5,1,0,0,1679,5],
 "structmeshlib_1_1VisualObject.html#aaf3497f8305859bcccf1d3296a6d01d1":[9,5,0,0,0,1692,45],
@@ -248,6 +249,5 @@ var NAVTREEINDEX172 =
 "structmeshlib_1_1VoxelBitSet.html#a8c4e675fffec272a89edc20b70ad9908":[9,5,1,0,0,1686,57],
 "structmeshlib_1_1VoxelBitSet.html#a8c85c41b95b4837be774492bc4228b24":[9,5,0,0,0,1699,13],
 "structmeshlib_1_1VoxelBitSet.html#a8c85c41b95b4837be774492bc4228b24":[9,5,1,0,0,1686,13],
-"structmeshlib_1_1VoxelBitSet.html#a977141742e87f8bcc6ecb26ef7306a4f":[9,5,0,0,0,1699,8],
-"structmeshlib_1_1VoxelBitSet.html#a977141742e87f8bcc6ecb26ef7306a4f":[9,5,1,0,0,1686,8]
+"structmeshlib_1_1VoxelBitSet.html#a977141742e87f8bcc6ecb26ef7306a4f":[9,5,0,0,0,1699,8]
 };

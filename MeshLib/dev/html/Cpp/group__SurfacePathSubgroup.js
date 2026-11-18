@@ -34,6 +34,7 @@ var group__SurfacePathSubgroup =
     [ "MR::geodesicPathLength", "group__SurfacePathSubgroup.html#ga08f66384a283a384aa43dcdb8bc7988e", null ],
     [ "MR::geodesicPathToContour3f", "group__SurfacePathSubgroup.html#ga21cf317952d09d64b66f7adbb3003bbb", null ],
     [ "MR::getSurfacePathsViaVertices", "group__SurfacePathSubgroup.html#ga51f2d8eb7df287db536671a753ba514e", null ],
+    [ "MR::isConnectedPath", "group__SurfacePathSubgroup.html#ga247c6724333aeb5383dc5cd8c2344494", null ],
     [ "MR::surfacePathLength", "group__SurfacePathSubgroup.html#ga2b6c054262dc6be330b0652f3dcb330f", null ],
     [ "MR::surfacePathsToContours3f", "group__SurfacePathSubgroup.html#ga7363609bc214bf449089b0bc47c91f9e", null ],
     [ "MR::surfacePathToContour3f", "group__SurfacePathSubgroup.html#ga75a2b2c564cafc8e986c3749ef417349", null ],

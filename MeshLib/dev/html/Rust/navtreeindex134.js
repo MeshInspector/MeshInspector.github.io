@@ -1,5 +1,6 @@
 var NAVTREEINDEX134 =
 {
+"structmeshlib_1_1SymbolMeshParams.html#afbecf79743d6b9073cf360cba31f0d7f":[9,5,1,0,0,1470,7],
 "structmeshlib_1_1SystemMemory.html":[9,5,0,0,0,1501],
 "structmeshlib_1_1SystemMemory.html":[9,5,1,0,0,1488],
 "structmeshlib_1_1SystemMemory.html#a399e3a648647f633e30af7f6b91f0824":[9,5,0,0,0,1501,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX134 =
 "structmeshlib_1_1TextureBitSet.html#ac1ee2243352890ff16084c28a4627f56":[9,5,1,0,0,1496,14],
 "structmeshlib_1_1TextureBitSet.html#ac2018c0f30934ce03457d27d3188af0e":[9,5,0,0,0,1509,26],
 "structmeshlib_1_1TextureBitSet.html#ac2018c0f30934ce03457d27d3188af0e":[9,5,1,0,0,1496,26],
-"structmeshlib_1_1TextureBitSet.html#ac4a75112b309cc9fe2066bae8377a2c2":[9,5,0,0,0,1509,55],
-"structmeshlib_1_1TextureBitSet.html#ac4a75112b309cc9fe2066bae8377a2c2":[9,5,1,0,0,1496,55]
+"structmeshlib_1_1TextureBitSet.html#ac4a75112b309cc9fe2066bae8377a2c2":[9,5,0,0,0,1509,55]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"classMR_1_1Const__SegmPointf.html#afeeb792d22fe08a8e543e369108fcbab":[9,3,0,0,0,844,13],
 "classMR_1_1Const__SegmentSegmentIntersectResult.html":[9,3,0,0,0,842],
 "classMR_1_1Const__SegmentSegmentIntersectResult.html#a143ad91f54fe0503c9ba06955224d124":[9,3,0,0,0,842,3],
 "classMR_1_1Const__SegmentSegmentIntersectResult.html#a3a1d7f24f3884c98cb15b08d0ef0d554":[9,3,0,0,0,842,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX79 =
 "classMR_1_1Const__SharpOffsetParameters.html#aabdbbdb1f750f4342fdd1ac82c98f66c":[9,3,0,0,0,859,2],
 "classMR_1_1Const__SharpOffsetParameters.html#aaff64dee00a50ae69594add183a62262":[9,3,0,0,0,859,32],
 "classMR_1_1Const__SharpOffsetParameters.html#ab3007043df92e50d19d7a38643823bf9":[9,3,0,0,0,859,22],
-"classMR_1_1Const__SharpOffsetParameters.html#ab4bddd46451104ed2c442b954db2b79f":[9,3,0,0,0,859,28],
-"classMR_1_1Const__SharpOffsetParameters.html#ac2eb8ed65277714ebf0c05b6486533ce":[9,3,0,0,0,859,30]
+"classMR_1_1Const__SharpOffsetParameters.html#ab4bddd46451104ed2c442b954db2b79f":[9,3,0,0,0,859,28]
 };

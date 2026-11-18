@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1MeshAttributesToUpdate.html":[9,0,0,19,348],
 "structMR_1_1MeshBuilder_1_1BuildSettings.html":[9,0,0,19,354],
 "structMR_1_1MeshBuilder_1_1MeshPiece.html":[9,0,0,19,351],
 "structMR_1_1MeshBuilder_1_1Triangle.html":[9,0,0,19,353],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1Parallel_1_1CallWithTLSMaker.html":[9,0,0,19,450],
 "structMR_1_1PartMapping.html":[9,0,0,19,454],
 "structMR_1_1PdfParameters.html":[9,0,0,19,99],
-"structMR_1_1Pdf_1_1Cell.html":[9,0,0,19,104],
-"structMR_1_1Pdf_1_1CellCustomParams.html":[9,0,0,19,106]
+"structMR_1_1Pdf_1_1Cell.html":[9,0,0,19,104]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX103 =
 {
+"classMR_1_1DecimateSettings.html#ac33a8689299b6b4568f76139ac5787b4":[9,3,0,0,0,1193,12],
 "classMR_1_1DecimateSettings.html#af76fae333b756d5f57ed2fb77c44c0bb":[9,3,0,0,0,1193,16],
 "classMR_1_1DeloneFlipsCache.html":[9,3,0,0,0,1194],
 "classMR_1_1DeloneFlipsCache.html#a1500cf03a2e1fb45aa682afb24b077ba":[9,3,0,0,0,1194,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX103 =
 "classMR_1_1DistanceMeasurementObject.html#a260b424a3500cccbcb8c43d3cdc0c233":[9,3,0,0,0,1213,37],
 "classMR_1_1DistanceMeasurementObject.html#a2a885c1f6b196d5eb08382d7953f579d":[9,3,0,0,0,1213,45],
 "classMR_1_1DistanceMeasurementObject.html#a2c453c11b4f36d98fdebfecf7442928f":[9,3,0,0,0,1213,59],
-"classMR_1_1DistanceMeasurementObject.html#a2e0015bc72c7521dab25a5929f4d2e93":[9,3,0,0,0,1213,36],
-"classMR_1_1DistanceMeasurementObject.html#a2f20751438c8e5e402a8384b75df3f36":[9,3,0,0,0,1213,26]
+"classMR_1_1DistanceMeasurementObject.html#a2e0015bc72c7521dab25a5929f4d2e93":[9,3,0,0,0,1213,36]
 };

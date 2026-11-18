@@ -1,5 +1,6 @@
 var NAVTREEINDEX107 =
 {
+"classMR_1_1FastInSphereTesterSoS.html#aef7a73351747c7528f0b7455e7153d6a":[9,3,0,0,0,1262,0],
 "classMR_1_1FastWindingNumber.html":[9,3,0,0,0,1263],
 "classMR_1_1FastWindingNumber.html#a0166c793643866bc0ff38c55d0ee5b2a":[9,3,0,0,0,1263,6],
 "classMR_1_1FastWindingNumber.html#a0fa361c5d2196e6f5999923fb70fd88a":[9,3,0,0,0,1263,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX107 =
 "classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ade70aa3dd899ab2b08c8d9893b3db798":[9,3,0,0,0,1267,3,0,3],
 "classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#ae4fea37bf0f8222890b4659da755e266":[9,3,0,0,0,1267,3,0,2],
 "classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#af408f0f57db1dad13bcf26e2b759ad6e":[9,3,0,0,0,1267,3,0,6],
-"classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#af72dc370de2cb3fdfbe97a5f04818da0":[9,3,0,0,0,1267,3,0,11],
-"classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#affe21769dfd6d38860480c43deaa8113":[9,3,0,0,0,1267,3,0,8]
+"classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#af72dc370de2cb3fdfbe97a5f04818da0":[9,3,0,0,0,1267,3,0,11]
 };

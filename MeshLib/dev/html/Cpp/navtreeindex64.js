@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1AABBTreeNode.html#aa27862e8db20e0df70b99484c093d43d":[9,0,0,1,7,3],
 "structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01":[9,0,0,1,7,0],
 "structMR_1_1AABBTreePoints_1_1Node.html":[9,0,0,1,10,0],
 "structMR_1_1AABBTreePoints_1_1Node.html#a0951e423adb41a83132b36c18125f02b":[9,0,0,1,10,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1CurvePoint.html":[9,0,0,19,198],
 "structMR_1_1CustomButtonParameters.html":[9,0,0,19,692],
 "structMR_1_1CutAroundVertSetsParams.html":[9,0,0,19,200],
-"structMR_1_1CutByProjectionSettings.html":[9,0,0,19,197],
-"structMR_1_1CutMeshParameters.html":[9,0,0,8,4]
+"structMR_1_1CutByProjectionSettings.html":[9,0,0,19,197]
 };

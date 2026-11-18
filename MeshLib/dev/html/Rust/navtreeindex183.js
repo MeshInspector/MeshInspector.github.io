@@ -1,5 +1,6 @@
 var NAVTREEINDEX183 =
 {
+"structmeshlib_1_1filling__surface_1_1Kind.html":[9,5,1,0,0,2,2],
 "structmeshlib_1_1filling__surface_1_1cellular__surface_1_1Params.html":[9,5,0,0,0,4,0,0],
 "structmeshlib_1_1filling__surface_1_1cellular__surface_1_1Params.html":[9,5,1,0,0,2,0,0],
 "structmeshlib_1_1filling__surface_1_1cellular__surface_1_1Params.html#a145775f3bcb026f274c020e078b0250d":[9,5,0,0,0,4,0,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX183 =
 "structmeshlib_1_1mesh__builder_1_1UniteCloseParams.html#a878948e153361d7d16ebe0c9f54ccd05":[9,5,1,0,0,4,4,17],
 "structmeshlib_1_1mesh__builder_1_1UniteCloseParams.html#a8ac03d00d41185bc268374eea2695dc3":[9,5,0,0,0,15,4,7],
 "structmeshlib_1_1mesh__builder_1_1UniteCloseParams.html#a8ac03d00d41185bc268374eea2695dc3":[9,5,1,0,0,4,4,7],
-"structmeshlib_1_1mesh__builder_1_1UniteCloseParams.html#aa79cf49cfe0fc995137187a1d53cd87d":[9,5,0,0,0,15,4,1],
-"structmeshlib_1_1mesh__builder_1_1UniteCloseParams.html#aa79cf49cfe0fc995137187a1d53cd87d":[9,5,1,0,0,4,4,1]
+"structmeshlib_1_1mesh__builder_1_1UniteCloseParams.html#aa79cf49cfe0fc995137187a1d53cd87d":[9,5,0,0,0,15,4,1]
 };

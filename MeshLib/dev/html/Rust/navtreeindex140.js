@@ -1,5 +1,6 @@
 var NAVTREEINDEX140 =
 {
+"structmeshlib_1_1UndirEdgeColorMapAggregator.html#a103f3533bc311838f6af32902f192b0e":[9,5,1,0,0,1543,6],
 "structmeshlib_1_1UndirEdgeColorMapAggregator.html#a1097369ffdd8b901b612c93fc029245a":[9,5,0,0,0,1556,9],
 "structmeshlib_1_1UndirEdgeColorMapAggregator.html#a1097369ffdd8b901b612c93fc029245a":[9,5,1,0,0,1543,9],
 "structmeshlib_1_1UndirEdgeColorMapAggregator.html#a16004f3c3ecc6c3eee2e8cae36d2c24d":[9,5,0,0,0,1556,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX140 =
 "structmeshlib_1_1UndirectedEdgeColors.html#a16928f673df13f577e0327c338a07cdb":[9,5,1,0,0,1536,15],
 "structmeshlib_1_1UndirectedEdgeColors.html#a2d7ee4ebb959b5b9bc9cfb55872e5a0f":[9,5,0,0,0,1549,29],
 "structmeshlib_1_1UndirectedEdgeColors.html#a2d7ee4ebb959b5b9bc9cfb55872e5a0f":[9,5,1,0,0,1536,29],
-"structmeshlib_1_1UndirectedEdgeColors.html#a3124852c4078d5212f62f82acb5e7f64":[9,5,0,0,0,1549,22],
-"structmeshlib_1_1UndirectedEdgeColors.html#a3124852c4078d5212f62f82acb5e7f64":[9,5,1,0,0,1536,22]
+"structmeshlib_1_1UndirectedEdgeColors.html#a3124852c4078d5212f62f82acb5e7f64":[9,5,0,0,0,1549,22]
 };

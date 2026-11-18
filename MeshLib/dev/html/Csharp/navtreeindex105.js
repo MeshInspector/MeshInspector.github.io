@@ -1,5 +1,6 @@
 var NAVTREEINDEX105 =
 {
+"classMR_1_1EdgeMap.html#af831a3ec69500981a36e8e64340056af":[9,3,0,0,0,1226,25],
 "classMR_1_1EdgeMap.html#af8f021a1eddde1047111a6084cbc2e37":[9,3,0,0,0,1226,24],
 "classMR_1_1EdgePathsAStarBuilder.html":[9,3,0,0,0,1227],
 "classMR_1_1EdgePathsAStarBuilder.html#a1847c905babf31a4e345d8363b387ac1":[9,3,0,0,0,1227,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX105 =
 "classMR_1_1Face2RegionMap.html#af62d18f0c2014c924d9626626cc57c83":[9,3,0,0,0,1246,7],
 "classMR_1_1Face2RegionMap.html#afcd3982d40d0f556135d6459bdde1023":[9,3,0,0,0,1246,10],
 "classMR_1_1FaceBMap.html":[9,3,0,0,0,1248],
-"classMR_1_1FaceBMap.html#a217bf349d030022aea7ea3f7102b438e":[9,3,0,0,0,1248,2],
-"classMR_1_1FaceBMap.html#aa8e09dcead39aa1c50079de784ef8744":[9,3,0,0,0,1248,1]
+"classMR_1_1FaceBMap.html#a217bf349d030022aea7ea3f7102b438e":[9,3,0,0,0,1248,2]
 };

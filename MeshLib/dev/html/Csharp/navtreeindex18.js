@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1ChangeActiveBoxAction.html#aa2d06d9020a4467a04ed95baf68f887d":[9,3,0,0,0,170,3],
 "classMR_1_1ChangeActiveBoxAction.html#aa42ed921c92f6ee6d545be92ef1fd845":[9,3,0,0,0,170,2],
 "classMR_1_1ChangeActiveBoxAction.html#ab661a546d55282b44356824921716d19":[9,3,0,0,0,170,0],
 "classMR_1_1ChangeActiveBoxAction.html#abcd95104e36fd27bb6dda0d5d496d9a5":[9,3,0,0,0,170,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1ChangePointPointSelectionAction.html#a84d4c8a2f8d3878fcd88ce280badc358":[9,3,0,0,0,198,5],
 "classMR_1_1ChangePointPointSelectionAction.html#ab2aadf8a0d69727c40f4071d81bc1a58":[9,3,0,0,0,198,4],
 "classMR_1_1ChangePointPointSelectionAction.html#abae9fe805d3d68140d0d9ebafaf49573":[9,3,0,0,0,198,0],
-"classMR_1_1ChangePointPointSelectionAction.html#ac6213cfb91c60db7500639c5c77ca344":[9,3,0,0,0,198,3],
-"classMR_1_1ChangePolylineAction.html":[9,3,0,0,0,199]
+"classMR_1_1ChangePointPointSelectionAction.html#ac6213cfb91c60db7500639c5c77ca344":[9,3,0,0,0,198,3]
 };

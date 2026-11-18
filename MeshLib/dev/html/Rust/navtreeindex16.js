@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"std__vector__MR__MeshIntersectionResult_8rs.html":[9,5,2,0,0,1,3,498],
 "std__vector__MR__MeshLoad__NamedMesh_8rs.html":[9,5,2,0,0,1,3,499],
 "std__vector__MR__MeshOrPointsXf__MR__Allocator__MR__MeshOrPointsXf_8rs.html":[9,5,2,0,0,1,3,500],
 "std__vector__MR__MeshProjectionResult_8rs.html":[9,5,2,0,0,1,3,501],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a4afb5590415dd42288016eb511a2e899":[9,5,0,0,0,40,12],
 "structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a4afb5590415dd42288016eb511a2e899":[9,5,1,0,0,27,12],
 "structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a677222a5168bc016f6f6cbacc85a6bec":[9,5,0,0,0,40,9],
-"structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a677222a5168bc016f6f6cbacc85a6bec":[9,5,1,0,0,27,9],
-"structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a874b6fb43d6e0c3633f87580e22b30f3":[9,5,0,0,0,40,8]
+"structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a677222a5168bc016f6f6cbacc85a6bec":[9,5,1,0,0,27,9]
 };

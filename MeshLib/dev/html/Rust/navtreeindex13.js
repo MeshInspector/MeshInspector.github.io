@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"namespacemeshlib_1_1lines__save.html#a1a2bb1d7dff133149c98a1b11ee2ad74":[9,5,0,0,0,13,1],
 "namespacemeshlib_1_1lines__save.html#a3b8a4ffe173824a232caa524f2dd8ff2":[9,5,0,0,0,13,9],
 "namespacemeshlib_1_1lines__save.html#a476d79265f52f12bc217c49874400626":[9,5,0,0,0,13,3],
 "namespacemeshlib_1_1lines__save.html#a827832da62b8f4a4badedef976933866":[9,5,0,0,0,13,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "namespacemeshlib_1_1polyline__components.html#a14fd57d99100d68ae27439282820c55a":[9,5,0,0,0,27,6],
 "namespacemeshlib_1_1polyline__components.html#a17ba64771b7c1fc1aabe5adcc447c59f":[9,5,0,0,0,27,3],
 "namespacemeshlib_1_1polyline__components.html#a612e5b4b7028ed0dbf1a401a99f49348":[9,5,0,0,0,27,1],
-"namespacemeshlib_1_1polyline__components.html#a6d25987fe4ec9a809ccaf8b2196a7952":[9,5,0,0,0,27,4],
-"namespacemeshlib_1_1polyline__components.html#ab4ae19b616ea826c9d5a214e676060c3":[9,5,0,0,0,27,2]
+"namespacemeshlib_1_1polyline__components.html#a6d25987fe4ec9a809ccaf8b2196a7952":[9,5,0,0,0,27,4]
 };

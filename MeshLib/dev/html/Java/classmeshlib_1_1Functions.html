@@ -2207,6 +2207,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a44ede964f208ac65f30df16b70d5bde6" id="r_a44ede964f208ac65f30df16b70d5bde6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1UndirectedEdgeBitSet.html">meshlib.UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44ede964f208ac65f30df16b70d5bde6">findExtremeEdges</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> mesh, <a class="el" href="classmeshlib_1_1VertScalars.html">meshlib.VertScalars</a> field, <a class="el" href="classmeshlib_1_1ExtremeEdgeType.html">meshlib.ExtremeEdgeType</a> type)</td></tr>
 <tr class="memitem:a96c801e5991bf2f321f5f21378fd15d6" id="r_a96c801e5991bf2f321f5f21378fd15d6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__VertId__MR__VertId__phmap__Hash__MR__VertId188eb0833ab4ef80865392e5494a8e90.html">meshlib.phmap.phmap_flat_hash_map_MR_VertId_MR_VertId_phmap_Hash_MR_VertId_phmap_EqualTo_MR_VertId_MR_Allocator_st__19614ebe</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96c801e5991bf2f321f5f21378fd15d6">computeClosestSurfacePathTargets</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> mesh, <a class="el" href="classmeshlib_1_1VertBitSet.html">meshlib.VertBitSet</a> starts, <a class="el" href="classmeshlib_1_1VertBitSet.html">meshlib.VertBitSet</a> ends, <a class="el" href="classmeshlib_1_1VertBitSet.html">meshlib.VertBitSet</a> vertRegion, <a class="el" href="classmeshlib_1_1VertScalars.html">meshlib.VertScalars</a> outSurfaceDistances)</td></tr>
 <tr class="memitem:abd239e551e6ea5ea2415bcf103b73b42" id="r_abd239e551e6ea5ea2415bcf103b73b42"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1std__vector__std__vector__MR__EdgePoint.html">meshlib.std_vector_std_vector_MR_EdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd239e551e6ea5ea2415bcf103b73b42">getSurfacePathsViaVertices</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> mesh, <a class="el" href="classmeshlib_1_1VertBitSet.html">meshlib.VertBitSet</a> vs)</td></tr>
+<tr class="memitem:ad3c8f3c5dbcb1578ca3176bc59348b66" id="r_ad3c8f3c5dbcb1578ca3176bc59348b66"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3c8f3c5dbcb1578ca3176bc59348b66">isConnectedPath</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> topology, <a class="el" href="classmeshlib_1_1MeshTriPoint.html">meshlib.MeshTriPoint</a> start, <a class="el" href="classmeshlib_1_1std__vector__MR__EdgePoint.html">meshlib.std_vector_MR_EdgePoint</a> path, <a class="el" href="classmeshlib_1_1MeshTriPoint.html">meshlib.MeshTriPoint</a> <a class="el" href="#a153875b19deae3e91a39d64fd0e4c9bc">end</a>)</td></tr>
 <tr class="memitem:a49171f938f0ce2b139525095ca607c1b" id="r_a49171f938f0ce2b139525095ca607c1b"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49171f938f0ce2b139525095ca607c1b">surfacePathLength</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> mesh, <a class="el" href="classmeshlib_1_1std__vector__MR__EdgePoint.html">meshlib.std_vector_MR_EdgePoint</a> surfacePath)</td></tr>
 <tr class="memitem:a9243698b1dd377e1f4fc99f7300c622a" id="r_a9243698b1dd377e1f4fc99f7300c622a"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9243698b1dd377e1f4fc99f7300c622a">geodesicPathLength</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> mesh, <a class="el" href="classmeshlib_1_1GeodesicPath.html">meshlib.GeodesicPath</a> path)</td></tr>
 <tr class="memitem:accb4f08af7673765d1380322866e2541" id="r_accb4f08af7673765d1380322866e2541"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1std__vector__MR__Vector3f.html">meshlib.std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accb4f08af7673765d1380322866e2541">surfacePathToContour3f</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> mesh, <a class="el" href="classmeshlib_1_1std__vector__MR__EdgePoint.html">meshlib.std_vector_MR_EdgePoint</a> line)</td></tr>
@@ -38404,6 +38405,47 @@ All new faces should be parallel to given direction It is measured in squared le
 </div><div class="memdoc">
 <p>returns true if contour is closed Generated from function <span class="tt">MR::isClosed</span>.</p>
 <p>Calls <span class="tt">MR_isClosed_MR_Vector_MR_VarEdgeTri()</span>. </p>
+
+</div>
+</div>
+<a id="ad3c8f3c5dbcb1578ca3176bc59348b66" name="ad3c8f3c5dbcb1578ca3176bc59348b66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3c8f3c5dbcb1578ca3176bc59348b66">&#9670;&#160;</a></span>isConnectedPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean meshlib.Functions.isConnectedPath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1MeshTriPoint.html">meshlib.MeshTriPoint</a></td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1std__vector__MR__EdgePoint.html">meshlib.std_vector_MR_EdgePoint</a></td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1MeshTriPoint.html">meshlib.MeshTriPoint</a></td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>returns true if every two consecutive points among start, path points and end share a triangle; an empty path is connected only if start and end share a triangle Generated from function <span class="tt">MR::isConnectedPath</span>.</p>
+<p>Calls <span class="tt">MR_isConnectedPath()</span>. </p>
 
 </div>
 </div>

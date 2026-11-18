@@ -11861,6 +11861,8 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:acbab1d815e231bef898d240abdfbab47"><td class="mdescLeft">&#160;</td><td class="mdescRight">for each vertex from (starts) finds the closest vertex from (ends) in geodesic sense  <br /></td></tr>
 <tr class="memitem:afe75efb26684414cdaf576fb9f6df4c6" id="r_afe75efb26684414cdaf576fb9f6df4c6"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_StdVectorMREdgePoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe75efb26684414cdaf576fb9f6df4c6">getSurfacePathsViaVertices</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a> vs)</td></tr>
 <tr class="memdesc:afe75efb26684414cdaf576fb9f6df4c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a set of mesh lines passing via most of given vertices in auto-selected order; the lines try to avoid sharp turns in the vertices Generated from function <span class="tt"><a class="el" href="#afe75efb26684414cdaf576fb9f6df4c6" title="returns a set of mesh lines passing via most of given vertices in auto-selected order; the lines try ...">MR.getSurfacePathsViaVertices</a></span>.  <br /></td></tr>
+<tr class="memitem:ac94f00abf93c96f76f9de35f50a7bec2" id="r_ac94f00abf93c96f76f9de35f50a7bec2"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac94f00abf93c96f76f9de35f50a7bec2">isConnectedPath</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a> start, MR.Std.Const_Vector_MREdgePoint path, <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a> <a class="el" href="#a0c385f7a49af5e22d4df16e0367ee26f">end</a>)</td></tr>
+<tr class="memdesc:ac94f00abf93c96f76f9de35f50a7bec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if every two consecutive points among start, path points and end share a triangle; an empty path is connected only if start and end share a triangle Generated from function <span class="tt"><a class="el" href="#ac94f00abf93c96f76f9de35f50a7bec2" title="returns true if every two consecutive points among start, path points and end share a triangle; an em...">MR.isConnectedPath</a></span>.  <br /></td></tr>
 <tr class="memitem:a32ab6571ddd67a7691ff64f675dda47d" id="r_a32ab6571ddd67a7691ff64f675dda47d"><td class="memItemLeft" align="right" valign="top">static unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32ab6571ddd67a7691ff64f675dda47d">surfacePathLength</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_MREdgePoint surfacePath)</td></tr>
 <tr class="memdesc:a32ab6571ddd67a7691ff64f675dda47d"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the length of the given surface path Generated from function <span class="tt"><a class="el" href="#a32ab6571ddd67a7691ff64f675dda47d" title="computes the length of the given surface path Generated from function MR.surfacePathLength.">MR.surfacePathLength</a></span>.  <br /></td></tr>
 <tr class="memitem:af23e9b061dd0df762d8428c69d59092e" id="r_af23e9b061dd0df762d8428c69d59092e"><td class="memItemLeft" align="right" valign="top">static unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af23e9b061dd0df762d8428c69d59092e">geodesicPathLength</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Const__GeodesicPath.html">MR.Const_GeodesicPath</a> path)</td></tr>
@@ -50693,6 +50695,47 @@ All new faces should be parallel to given direction It is measured in squared le
 </div><div class="memdoc">
 
 <p>Generated from function <span class="tt"><a class="el" href="#a51e91501840103028853ff43cabb1f56" title="returns true if contour is closed Generated from function MR.isClosed.">MR.isClosed</a></span>. </p>
+
+</div>
+</div>
+<a id="ac94f00abf93c96f76f9de35f50a7bec2" name="ac94f00abf93c96f76f9de35f50a7bec2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac94f00abf93c96f76f9de35f50a7bec2">&#9670;&#160;</a></span>isConnectedPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe bool MR.isConnectedPath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a></td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Vector_MREdgePoint</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a></td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if every two consecutive points among start, path points and end share a triangle; an empty path is connected only if start and end share a triangle Generated from function <span class="tt"><a class="el" href="#ac94f00abf93c96f76f9de35f50a7bec2" title="returns true if every two consecutive points among start, path points and end share a triangle; an em...">MR.isConnectedPath</a></span>. </p>
 
 </div>
 </div>

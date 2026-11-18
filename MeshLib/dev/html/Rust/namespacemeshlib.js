@@ -2833,6 +2833,7 @@ var namespacemeshlib =
     [ "intersection", "namespacemeshlib.html#a1f5228557122339332000bdf26b91593", null ],
     [ "is_closed_mr_vector_mr_var_edge_tri", "namespacemeshlib.html#af4a7cee343f5c5730b8bf2fd4d9e1950", null ],
     [ "is_closed_std_vector_mr_vector3f", "namespacemeshlib.html#a9b3d3ae0d134e24cf867bfda5d244eea", null ],
+    [ "is_connected_path", "namespacemeshlib.html#a9a9c03d2e736212e059c2cfd919c8fa8", null ],
     [ "is_consistently_oriented", "namespacemeshlib.html#a0ba3fde0a1c5b648d268748856767a87", null ],
     [ "is_covered_by_vertices", "namespacemeshlib.html#a43ec58810a0fcfd166b9d3752bd03b1d", null ],
     [ "is_degree3_dest", "namespacemeshlib.html#a9f245d0629bc68103b2d12eca820b710", null ],

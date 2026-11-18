@@ -1,5 +1,6 @@
 var NAVTREEINDEX175 =
 {
+"std__vector__MR__BallPivotCandidate__MR__Allocator__MR__BallPivotCandidate_8h.html":[9,2,2,0,0,0,0,2,445],
 "std__vector__MR__BallPivotCandidate__MR__Allocator__MR__BallPivotCandidate_8h.html#a162ab8b3e906ee12b238a2983e58514d":[9,2,2,0,0,0,0,2,445,1],
 "std__vector__MR__BallPivotCandidate__MR__Allocator__MR__BallPivotCandidate_8h.html#a1c9d3603b65f5395290e1c563381e3b8":[9,2,2,0,0,0,0,2,445,14],
 "std__vector__MR__BallPivotCandidate__MR__Allocator__MR__BallPivotCandidate_8h.html#a20485012d3ed985db8d95623df03d57f":[9,2,2,0,0,0,0,2,445,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX175 =
 "std__vector__MR__CurvePoint_8h.html#a7320e57add9db519fd21c8952c15ca96":[9,2,2,0,0,0,0,2,454,9],
 "std__vector__MR__CurvePoint_8h.html#a8614c1020d01c24e7d2f90c77c702efb":[9,2,2,0,0,0,0,2,454,14],
 "std__vector__MR__CurvePoint_8h.html#a893f906f3a594f00cb40f82c0cb08d94":[9,2,2,0,0,0,0,2,454,11],
-"std__vector__MR__CurvePoint_8h.html#a8c062e1b1c4f6e45e2cfa6f9878f5f64":[9,2,2,0,0,0,0,2,454,18],
-"std__vector__MR__CurvePoint_8h.html#aab05769dfde684b8f32cb1b9c6531071":[9,2,2,0,0,0,0,2,454,2]
+"std__vector__MR__CurvePoint_8h.html#a8c062e1b1c4f6e45e2cfa6f9878f5f64":[9,2,2,0,0,0,0,2,454,18]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"classMR_1_1Const__ReduceTotalAngleParams.html#a63fd151dcfd4fddc8d918a9002ef28b3":[9,3,0,0,0,822,12],
 "classMR_1_1Const__ReduceTotalAngleParams.html#a6b6825d750b66787b57d9560cd3c5d82":[9,3,0,0,0,822,7],
 "classMR_1_1Const__ReduceTotalAngleParams.html#a7951cb5f027ddd4174cae6b9a952713b":[9,3,0,0,0,822,2],
 "classMR_1_1Const__ReduceTotalAngleParams.html#a7a8cd843a3f8982fe6e43151a8678b53":[9,3,0,0,0,822,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "classMR_1_1Const__RigidXfRansacParams.html#af84d1c3215de626c75df0eaa058ccb15":[9,3,0,0,0,833,2],
 "classMR_1_1Const__RigidXfRansacParams.html#af8869937266b5f1a93e0bad4d1348da0":[9,3,0,0,0,833,11],
 "classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html":[9,3,0,0,0,834],
-"classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html#a33f66431d8c7fcf89bee4fdabf0ced92":[9,3,0,0,0,834,4],
-"classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html#a36355aa85feb7f8b9414d304f60094e7":[9,3,0,0,0,834,11]
+"classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html#a33f66431d8c7fcf89bee4fdabf0ced92":[9,3,0,0,0,834,4]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX175 =
 {
+"structmeshlib_1_1WholeEdgeBMap.html#af56051f81b9dbe3d6a63dde5b869e8dd":[9,5,1,0,0,1712,1],
 "structmeshlib_1_1WholeEdgeMap.html":[9,5,0,0,0,1726],
 "structmeshlib_1_1WholeEdgeMap.html":[9,5,1,0,0,1713],
 "structmeshlib_1_1WholeEdgeMap.html#a04e8e632273ff31c4bff523f210d14bf":[9,5,0,0,0,1726,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX175 =
 "structmeshlib_1_1cuda_1_1DeviceInfo.html#abba0f8d855e537ebb17c82a388d0f62f":[9,5,1,0,0,0,2,5],
 "structmeshlib_1_1cuda_1_1DeviceInfo.html#abdc93ea2b137cc9eafa5bd395e708752":[9,5,0,0,0,0,2,15],
 "structmeshlib_1_1cuda_1_1DeviceInfo.html#abdc93ea2b137cc9eafa5bd395e708752":[9,5,1,0,0,0,2,15],
-"structmeshlib_1_1cuda_1_1DeviceInfo.html#abee141fd59dcb2225d1d5ea9d74233e2":[9,5,0,0,0,0,2,1],
-"structmeshlib_1_1cuda_1_1DeviceInfo.html#abee141fd59dcb2225d1d5ea9d74233e2":[9,5,1,0,0,0,2,1]
+"structmeshlib_1_1cuda_1_1DeviceInfo.html#abee141fd59dcb2225d1d5ea9d74233e2":[9,5,0,0,0,0,2,1]
 };

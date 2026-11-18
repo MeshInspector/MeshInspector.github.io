@@ -2915,6 +2915,7 @@ var namespaceMR =
     [ "invTransformed", "group__GeneralGroup.html#gab78bbcb21e57f07de12885121b3e2177", null ],
     [ "isClosed", "group__GeneralGroup.html#ga5f51d4370aebd823bf1ff7e534b0b426", null ],
     [ "isClosed", "group__GeneralGroup.html#gacd259cc34db34b6aee3060c1baf8822d", null ],
+    [ "isConnectedPath", "group__SurfacePathSubgroup.html#ga247c6724333aeb5383dc5cd8c2344494", null ],
     [ "isConsistentlyOriented", "group__GeneralGroup.html#gad593983d3666838a510cad90f2fcda9f", null ],
     [ "isCoveredByVertices", "group__MeshAlgorithmGroup.html#ga7999ef1bb11a163c7d4d19232694b037", null ],
     [ "isDegree3Dest", "group__MeshFixerGroup.html#ga7ed9b863f3586261b7732c0dba013eae", null ],

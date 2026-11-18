@@ -1,5 +1,6 @@
 var NAVTREEINDEX185 =
 {
+"std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#af87340e1c43d5de9684b6ee932eecef8":[9,2,2,0,0,0,0,2,542,17],
 "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h_source.html":[9,2,2,0,0,0,0,2,542],
 "std__vector__MR__VdbVolume_8h.html":[9,2,2,0,0,0,0,2,543],
 "std__vector__MR__VdbVolume_8h.html#a0c00afd22ab12f9c32ec040afc6ca53f":[9,2,2,0,0,0,0,2,543,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX185 =
 "std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i_8h.html#a2b4c20fe232c43894f47b5567e5ce92a":[9,2,2,0,0,0,0,2,552,14],
 "std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i_8h.html#a3852c018a03da14e0fe4bc69f5c5205d":[9,2,2,0,0,0,0,2,552,19],
 "std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i_8h.html#a39297b44d57a476b45a60082faeb747f":[9,2,2,0,0,0,0,2,552,9],
-"std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i_8h.html#a39f7309adc02570145653610fb9e111a":[9,2,2,0,0,0,0,2,552,21],
-"std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i_8h.html#a3aff75a139fcfa1607da60c18bbd163c":[9,2,2,0,0,0,0,2,552,12]
+"std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i_8h.html#a39f7309adc02570145653610fb9e111a":[9,2,2,0,0,0,0,2,552,21]
 };

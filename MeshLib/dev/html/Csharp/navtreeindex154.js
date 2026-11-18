@@ -1,5 +1,6 @@
 var NAVTREEINDEX154 =
 {
+"classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html#a385b8f0df5ddd7d48786dde3b18d6408":[9,3,0,0,0,1946,8,0],
 "classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html#a5bdfba9a8b6723df0a17a11228497b16":[9,3,0,0,0,1946,8,1],
 "classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html#a5c1cdf449d83ef1037b04cfb12226019":[9,3,0,0,0,1946,8,4],
 "classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html#a5d87a1d42f0028faace103d60d1b073e":[9,3,0,0,0,1946,8,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX154 =
 "classMR_1_1WeightedShell_1_1ParametersRegions.html#ad4cc337a08341a485b5c8b51b8db9ced":[9,3,0,0,0,1963,7,6],
 "classMR_1_1WeightedShell_1_1ParametersRegions.html#adc55ab7ebe7f04fb5b0c52d71173b98e":[9,3,0,0,0,1963,7,9],
 "classMR_1_1WeightedVertex.html":[9,3,0,0,0,1964],
-"classMR_1_1WeightedVertex.html#a1e4b6042d20115224af4d23b7711868a":[9,3,0,0,0,1964,3],
-"classMR_1_1WeightedVertex.html#a5f7f26324334752a9d6e361702c32e08":[9,3,0,0,0,1964,4]
+"classMR_1_1WeightedVertex.html#a1e4b6042d20115224af4d23b7711868a":[9,3,0,0,0,1964,3]
 };

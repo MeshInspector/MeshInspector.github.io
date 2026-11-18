@@ -1,5 +1,6 @@
 var NAVTREEINDEX148 =
 {
+"structmeshlib_1_1Vector__MR__Box3f.html#a13bed9c86596b754104d0f94dbb63111":[9,5,1,0,0,1595,16],
 "structmeshlib_1_1Vector__MR__Box3f.html#a1b13c47003317704744be960416bf9e9":[9,5,0,0,0,1608,33],
 "structmeshlib_1_1Vector__MR__Box3f.html#a1b13c47003317704744be960416bf9e9":[9,5,1,0,0,1595,33],
 "structmeshlib_1_1Vector__MR__Box3f.html#a1b5bb63a72a155617b8cfe16309fa844":[9,5,0,0,0,1608,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX148 =
 "structmeshlib_1_1Vector__MR__BoxedLeaf__MR__ObjTreeTraits.html#a43767039fbb46e107aea3186a99ea414":[9,5,1,0,0,1598,9],
 "structmeshlib_1_1Vector__MR__BoxedLeaf__MR__ObjTreeTraits.html#a4601db6088d2cc773162d89bbb492ad6":[9,5,0,0,0,1611,11],
 "structmeshlib_1_1Vector__MR__BoxedLeaf__MR__ObjTreeTraits.html#a4601db6088d2cc773162d89bbb492ad6":[9,5,1,0,0,1598,11],
-"structmeshlib_1_1Vector__MR__BoxedLeaf__MR__ObjTreeTraits.html#a4e378457118019699f1c39483ce025d9":[9,5,0,0,0,1611,6],
-"structmeshlib_1_1Vector__MR__BoxedLeaf__MR__ObjTreeTraits.html#a4e378457118019699f1c39483ce025d9":[9,5,1,0,0,1598,6]
+"structmeshlib_1_1Vector__MR__BoxedLeaf__MR__ObjTreeTraits.html#a4e378457118019699f1c39483ce025d9":[9,5,0,0,0,1611,6]
 };

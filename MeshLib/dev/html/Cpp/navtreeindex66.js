@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1FindDisorientationParams.html":[9,0,0,9,4,2],
 "structMR_1_1FindDisorientationParams.html#a0c40bf2320287e58137728520c03765e":[9,0,0,9,4,2,1],
 "structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389d":[9,0,0,9,4,2,0],
 "structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389da130c5b3473c57faa76e2a1c54e26f88e":[9,0,0,9,4,2,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html":[9,0,2,0,1,7,8],
 "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a3816885bcfec02afae90a2eb378332a9":[9,0,1,0,1,17,8,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a3816885bcfec02afae90a2eb378332a9":[9,0,2,0,1,7,8,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a82c49f908474da383b54cab422513525":[9,0,1,0,1,17,8,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a82c49f908474da383b54cab422513525":[9,0,2,0,1,7,8,2]
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a82c49f908474da383b54cab422513525":[9,0,1,0,1,17,8,2]
 };

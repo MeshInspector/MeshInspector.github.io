@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"structmeshlib_1_1BitSet__Counts.html#ae072db6b4ef38b9c2ad467715d687fa3":[9,5,0,0,0,97,0],
 "structmeshlib_1_1BitSet__Counts.html#ae072db6b4ef38b9c2ad467715d687fa3":[9,5,1,0,0,84,0],
 "structmeshlib_1_1BitSet__Counts.html#ae55a162e0846b44c97bdbb990f85b6c2":[9,5,0,0,0,97,6],
 "structmeshlib_1_1BitSet__Counts.html#ae55a162e0846b44c97bdbb990f85b6c2":[9,5,1,0,0,84,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "structmeshlib_1_1BooleanResultPoints.html#a2a4953323edb9d8936050bbc5feaed80":[9,5,0,0,0,119,3],
 "structmeshlib_1_1BooleanResultPoints.html#a2a4953323edb9d8936050bbc5feaed80":[9,5,1,0,0,106,3],
 "structmeshlib_1_1BooleanResultPoints.html#a6886f73aa6c93a357765650e3a9257ac":[9,5,0,0,0,119,0],
-"structmeshlib_1_1BooleanResultPoints.html#a6886f73aa6c93a357765650e3a9257ac":[9,5,1,0,0,106,0],
-"structmeshlib_1_1BooleanResultPoints.html#a740e334642fb3b9fa941696720f791dc":[9,5,0,0,0,119,2]
+"structmeshlib_1_1BooleanResultPoints.html#a6886f73aa6c93a357765650e3a9257ac":[9,5,1,0,0,106,0]
 };

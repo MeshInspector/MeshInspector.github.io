@@ -64,6 +64,7 @@ var MRSurfacePath_8h =
     [ "MR_geodesicPathLength", "MRSurfacePath_8h.html#a5a6f148e9f70062b4e7febabfdd0c266", null ],
     [ "MR_geodesicPathToContour3f", "MRSurfacePath_8h.html#a2a29469af9ab76976374686bd7a727ab", null ],
     [ "MR_getSurfacePathsViaVertices", "MRSurfacePath_8h.html#a94c51f2f1d92f9251d945b0045001108", null ],
+    [ "MR_isConnectedPath", "MRSurfacePath_8h.html#adaab2d4c7189e213e0cc283f6a37618a", null ],
     [ "MR_surfacePathLength", "MRSurfacePath_8h.html#a86a1971ed1f3a0ea0491c217a9fcce53", null ],
     [ "MR_surfacePathsToContours3f", "MRSurfacePath_8h.html#ac5e949720de99c0a1e8142c8f0353122", null ],
     [ "MR_surfacePathToContour3f", "MRSurfacePath_8h.html#a8565496250e83ea07dc00bbfe10d50a1", null ],

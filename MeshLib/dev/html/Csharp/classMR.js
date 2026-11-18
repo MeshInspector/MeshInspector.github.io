@@ -3495,6 +3495,7 @@ var classMR =
     [ "intLog2", "classMR.html#af56b42ffdbd35c6375425f81128cc625", null ],
     [ "isClosed", "classMR.html#a51e91501840103028853ff43cabb1f56", null ],
     [ "isClosed", "classMR.html#a652296f3d4742fa5373b47f6e53f140c", null ],
+    [ "isConnectedPath", "classMR.html#ac94f00abf93c96f76f9de35f50a7bec2", null ],
     [ "isConsistentlyOriented", "classMR.html#a8412b7d585ad2ee514e3fa15f5202597", null ],
     [ "isCoveredByVertices", "classMR.html#af800e33eea043ca0e5f6870a6c82ffe0", null ],
     [ "isDegree3Dest", "classMR.html#a7a088a3f6722e92c81727faf3ce59e67", null ],

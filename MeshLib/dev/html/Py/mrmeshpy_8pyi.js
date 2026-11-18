@@ -4114,6 +4114,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.intLog2", "namespacemrmeshpy.html#a607f7f6599751fa947cdd45b09d34f08", null ],
     [ "mrmeshpy.isClosed", "namespacemrmeshpy.html#a0791132eb02b2eb8bbb9beb04548d3b7", null ],
     [ "mrmeshpy.isClosed", "namespacemrmeshpy.html#a002f7b05d4f55c09b583d65abaa51ded", null ],
+    [ "mrmeshpy.isConnectedPath", "namespacemrmeshpy.html#a57b3ce9bdfeca2779702e9c0738461bb", null ],
     [ "mrmeshpy.isConsistentlyOriented", "namespacemrmeshpy.html#a760d04e2eba0433639a6dd4290bef607", null ],
     [ "mrmeshpy.isCoveredByVertices", "namespacemrmeshpy.html#aaf21183ddc2dba6ea93115c843eeabfd", null ],
     [ "mrmeshpy.isDegree3Dest", "namespacemrmeshpy.html#ac6e0d3c58921a256e6df32ba897d6de0", null ],
