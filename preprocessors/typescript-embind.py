@@ -2,7 +2,7 @@
 """Doxygen input filter: rewrite an emscripten ``--emit-tsd`` ``.d.mts`` into pseudo-C++.
 
 Doxygen has no TypeScript parser, so the ``Js`` module (see ``../DoxyfileJs``) maps
-``mts`` to C++ (``EXTENSION_MAPPING = mts=c++``) and pipes every ``*.mts`` input through
+``mts`` to C++ (``EXTENSION_MAPPING = mts=c++``) and pipes ``bindings.d.mts`` through
 this filter (``FILTER_PATTERNS``). The embind-generated declaration file is very regular,
 so a small structural transform is enough:
 
@@ -21,7 +21,7 @@ displays them literally, which is what a JS reader expects.
 This transforms the *generated* ``bindings.d.mts`` (the ``--emit-tsd`` output), not the
 hand-written ``index.d.mts`` overlay, whose ``Omit<>`` / mapped types are for ``tsc`` only.
 
-Usage (invoked by Doxygen): ``typescript.py <file.d.mts>`` -> pseudo-C++ on stdout.
+Usage (invoked by Doxygen): ``typescript-embind.py <file.d.mts>`` -> pseudo-C++ on stdout.
 """
 import re
 import sys
