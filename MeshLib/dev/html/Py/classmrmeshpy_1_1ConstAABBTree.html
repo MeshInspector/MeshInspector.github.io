@@ -160,6 +160,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a40a6b31e9cf9a49963f1d90df005a9b9" id="r_a40a6b31e9cf9a49963f1d90df005a9b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstVector__Box3f.html">ConstVector_Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40a6b31e9cf9a49963f1d90df005a9b9">leafBoxes</a> (self)</td></tr>
 <tr class="memitem:a2fcbc9d5dc8c5ca72aae6283cfe93de3" id="r_a2fcbc9d5dc8c5ca72aae6283cfe93de3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstVector__AABBTreeWideLeafTri.html">ConstVector_AABBTreeWideLeafTri</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fcbc9d5dc8c5ca72aae6283cfe93de3">leafTris</a> (self)</td></tr>
 <tr class="memitem:a86eeb37e60912ee0b9b694b6002d796f" id="r_a86eeb37e60912ee0b9b694b6002d796f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstVector__AABBTreeWideNode__NodeId.html">ConstVector_AABBTreeWideNode_NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86eeb37e60912ee0b9b694b6002d796f">nodes</a> (self)</td></tr>
+<tr class="memitem:abdc15f5f273851a39d996770218217ab" id="r_abdc15f5f273851a39d996770218217ab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdc15f5f273851a39d996770218217ab">numNodes</a> (self)</td></tr>
+<tr class="memitem:ab46e189a811b222a246d537faa4cde77" id="r_ab46e189a811b222a246d537faa4cde77"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab46e189a811b222a246d537faa4cde77">numTris</a> (self)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -393,6 +395,42 @@ buffer in faceMap must be resized before the call, and caller is responsible for
       </table>
 </div><div class="memdoc">
 <pre class="fragment">the root is the first node, if any
+</pre> 
+</div>
+</div>
+<a id="abdc15f5f273851a39d996770218217ab" name="abdc15f5f273851a39d996770218217ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdc15f5f273851a39d996770218217ab">&#9670;&#160;</a></span>numNodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.ConstAABBTree.numNodes </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">the total number of nodes: internal ones and leaves
+</pre> 
+</div>
+</div>
+<a id="ab46e189a811b222a246d537faa4cde77" name="ab46e189a811b222a246d537faa4cde77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab46e189a811b222a246d537faa4cde77">&#9670;&#160;</a></span>numTris()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.ConstAABBTree.numTris </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the number of triangles in the tree
 </pre> 
 </div>
 </div>

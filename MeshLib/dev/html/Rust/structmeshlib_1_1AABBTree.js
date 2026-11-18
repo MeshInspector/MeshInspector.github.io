@@ -12,6 +12,8 @@ var structmeshlib_1_1AABBTree =
     [ "leaf_boxes", "structmeshlib_1_1AABBTree.html#a5531476ac3033976784a0c7517a311a9", null ],
     [ "leaf_tris", "structmeshlib_1_1AABBTree.html#ad1cd2cab7c302b7f85b39abf91ad6e46", null ],
     [ "nodes", "structmeshlib_1_1AABBTree.html#ab323a0d27aef82d54551c274dd189779", null ],
+    [ "num_nodes", "structmeshlib_1_1AABBTree.html#a0f284e3e99be0c7fb38682bcac47e416", null ],
+    [ "num_tris", "structmeshlib_1_1AABBTree.html#a8776a3a6d280407c3d1449280e1ee5d6", null ],
     [ "refit", "structmeshlib_1_1AABBTree.html#a4209b5c51f8ccb18f94e259399f6cf01", null ],
     [ "renumber", "structmeshlib_1_1AABBTree.html#a9776d94aa1ad091c5251e6bd195d1ced", null ]
 ];

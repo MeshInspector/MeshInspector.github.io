@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"classMR_1_1PythonViewer_1_1Viewer.html#aa209558428b38905aa08b5cf8aaf1c18":[9,0,1,0,1,40,5,10],
+"classMR_1_1PythonViewer_1_1Viewer.html#aa209558428b38905aa08b5cf8aaf1c18":[9,0,2,0,1,25,5,10],
 "classMR_1_1PythonViewer_1_1Viewer.html#ade54ada21ff4a4ee759a5dcf2000de97":[9,0,1,0,1,40,5,12],
 "classMR_1_1PythonViewer_1_1Viewer.html#ade54ada21ff4a4ee759a5dcf2000de97":[9,0,2,0,1,25,5,12],
 "classMR_1_1PythonViewer_1_1Viewer.html#af1c8b794adf626347e78153e68cf719c":[9,0,1,0,1,40,5,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html":[9,0,0,19,738],
 "classMR_1_1SceneStateOrCheck.html":[9,0,0,19,746],
 "classMR_1_1SceneTextureGL.html":[9,0,0,19,748],
-"classMR_1_1ScopeHistory.html":[9,0,0,19,592],
-"classMR_1_1SelectObjectByClick.html":[9,0,0,19,56],
-"classMR_1_1SeparationPointStorage.html":[9,0,0,19,518]
+"classMR_1_1ScopeHistory.html":[9,0,0,19,592]
 };

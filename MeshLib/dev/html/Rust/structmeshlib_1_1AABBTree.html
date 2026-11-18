@@ -152,6 +152,8 @@ $(function(){initNavTree('structmeshlib_1_1AABBTree.html','','structmeshlib_1_1A
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad0ef414426460ecd6ff4a1cc6367d8a1" id="r_ad0ef414426460ecd6ff4a1cc6367d8a1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0ef414426460ecd6ff4a1cc6367d8a1">assign_from_another</a> (_other:meshlib::Owned&lt; <a class="el" href="structmeshlib_1_1AABBTree.html">meshlib::AABBTree</a> &gt;) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1AABBTree.html">meshlib::AABBTree</a></td></tr>
 <tr class="memitem:ab323a0d27aef82d54551c274dd189779" id="r_ab323a0d27aef82d54551c274dd189779"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab323a0d27aef82d54551c274dd189779">nodes</a> () const -&gt; &amp;<a class="el" href="structmeshlib_1_1Vector__MR__AABBTreeWideNode__MR__NodeId.html">meshlib::Vector_MR_AABBTreeWideNode_MR_NodeId</a></td></tr>
+<tr class="memitem:a0f284e3e99be0c7fb38682bcac47e416" id="r_a0f284e3e99be0c7fb38682bcac47e416"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f284e3e99be0c7fb38682bcac47e416">num_nodes</a> () const -&gt; usize</td></tr>
+<tr class="memitem:a8776a3a6d280407c3d1449280e1ee5d6" id="r_a8776a3a6d280407c3d1449280e1ee5d6"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8776a3a6d280407c3d1449280e1ee5d6">num_tris</a> () const -&gt; core::ffi::c_int</td></tr>
 <tr class="memitem:af12da134dcd637315a8dbe6280b20295" id="r_af12da134dcd637315a8dbe6280b20295"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af12da134dcd637315a8dbe6280b20295">get_bounding_box</a> () const -&gt; <a class="el" href="structmeshlib_1_1Box3f.html">meshlib::Box3f</a></td></tr>
 <tr class="memitem:ad1cd2cab7c302b7f85b39abf91ad6e46" id="r_ad1cd2cab7c302b7f85b39abf91ad6e46"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1cd2cab7c302b7f85b39abf91ad6e46">leaf_tris</a> () const -&gt; &amp;<a class="el" href="structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html">meshlib::Vector_MR_AABBTreeWideLeafTri</a></td></tr>
 <tr class="memitem:a5531476ac3033976784a0c7517a311a9" id="r_a5531476ac3033976784a0c7517a311a9"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5531476ac3033976784a0c7517a311a9">leaf_boxes</a> () const -&gt; &amp;<a class="el" href="structmeshlib_1_1Vector__MR__Box3f.html">meshlib::Vector_MR_Box3f</a></td></tr>
@@ -609,6 +611,44 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>the root is the first node, if any Generated from method <span class="tt">MR::AABBTree::nodes</span>.</p>
 <p>Calls <span class="tt">MR_AABBTree_nodes()</span>. </p>
+
+</div>
+</div>
+<a id="a0f284e3e99be0c7fb38682bcac47e416" name="a0f284e3e99be0c7fb38682bcac47e416"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f284e3e99be0c7fb38682bcac47e416">&#9670;&#160;</a></span>num_nodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::AABBTree::num_nodes </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  usize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the total number of nodes: internal ones and leaves Generated from method <span class="tt">MR::AABBTree::numNodes</span>.</p>
+<p>Calls <span class="tt">MR_AABBTree_numNodes()</span>. </p>
+
+</div>
+</div>
+<a id="a8776a3a6d280407c3d1449280e1ee5d6" name="a8776a3a6d280407c3d1449280e1ee5d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8776a3a6d280407c3d1449280e1ee5d6">&#9670;&#160;</a></span>num_tris()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::AABBTree::num_tris </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  core::ffi::c_int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the number of triangles in the tree Generated from method <span class="tt">MR::AABBTree::numTris</span>.</p>
+<p>Calls <span class="tt">MR_AABBTree_numTris()</span>. </p>
 
 </div>
 </div>

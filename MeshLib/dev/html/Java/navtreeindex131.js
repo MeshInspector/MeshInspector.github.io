@@ -1,5 +1,9 @@
 var NAVTREEINDEX131 =
 {
+"classmeshlib_1_1Sphere3f.html#a2ab9a6443055b131dfd730858010aabd":[9,6,0,0,0,962,4],
+"classmeshlib_1_1Sphere3f.html#a2ab9a6443055b131dfd730858010aabd":[9,6,1,0,0,962,4],
+"classmeshlib_1_1Sphere3f.html#a3138a9ea068adf8b351df69a719f42b7":[9,6,0,0,0,962,8],
+"classmeshlib_1_1Sphere3f.html#a3138a9ea068adf8b351df69a719f42b7":[9,6,1,0,0,962,8],
 "classmeshlib_1_1Sphere3f.html#a5dc87574710f0a9d6c79a99d53e47825":[9,6,0,0,0,962,5],
 "classmeshlib_1_1Sphere3f.html#a5dc87574710f0a9d6c79a99d53e47825":[9,6,1,0,0,962,5],
 "classmeshlib_1_1Sphere3f.html#a8cb6e4c8410e25398f5a45ffc68fc7d7":[9,6,0,0,0,962,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX131 =
 "classmeshlib_1_1SphereObject.html#aca6901045eafc49f719b0838e63bc725":[9,6,0,0,0,963,11],
 "classmeshlib_1_1SphereObject.html#aca6901045eafc49f719b0838e63bc725":[9,6,1,0,0,963,11],
 "classmeshlib_1_1SphereObject.html#acb60ac13fa6c7fd263e0fd314fa5953a":[9,6,0,0,0,963,49],
-"classmeshlib_1_1SphereObject.html#acb60ac13fa6c7fd263e0fd314fa5953a":[9,6,1,0,0,963,49],
-"classmeshlib_1_1SphereObject.html#acbb2236b3f8ee0eebd4bd4663815e0e0":[9,6,0,0,0,963,115],
-"classmeshlib_1_1SphereObject.html#acbb2236b3f8ee0eebd4bd4663815e0e0":[9,6,1,0,0,963,115],
-"classmeshlib_1_1SphereObject.html#acc53dde877975074cd03bae47b510362":[9,6,0,0,0,963,52],
-"classmeshlib_1_1SphereObject.html#acc53dde877975074cd03bae47b510362":[9,6,1,0,0,963,52]
+"classmeshlib_1_1SphereObject.html#acb60ac13fa6c7fd263e0fd314fa5953a":[9,6,1,0,0,963,49]
 };

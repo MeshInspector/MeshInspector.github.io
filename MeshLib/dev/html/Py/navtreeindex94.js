@@ -1,5 +1,9 @@
 var NAVTREEINDEX94 =
 {
+"classmrmeshpy_1_1Const__func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag.html#a8432aa9fea44fe683a26a52c5416273c":[9,1,0,0,2,249,3],
+"classmrmeshpy_1_1Const__func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag.html#a8432aa9fea44fe683a26a52c5416273c":[9,1,1,0,1,249,3],
+"classmrmeshpy_1_1Const__func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag.html#a99726abdbc807086fbfc6d6e3989dedf":[9,1,0,0,2,249,4],
+"classmrmeshpy_1_1Const__func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag.html#a99726abdbc807086fbfc6d6e3989dedf":[9,1,1,0,1,249,4],
 "classmrmeshpy_1_1Const__func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult.html":[9,1,0,0,2,250],
 "classmrmeshpy_1_1Const__func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult.html":[9,1,1,0,1,250],
 "classmrmeshpy_1_1Const__func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult.html#a21cf7f696501b3f7b2bbc5b370d1334f":[9,1,0,0,2,250,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX94 =
 "classmrmeshpy_1_1Const__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceT4a066eebdd52c412547ab5407d5886f8.html#a923db7b5f5e9368be1d505b397e0d4bd":[9,1,0,0,2,269,10],
 "classmrmeshpy_1_1Const__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceT4a066eebdd52c412547ab5407d5886f8.html#a923db7b5f5e9368be1d505b397e0d4bd":[9,1,1,0,1,269,10],
 "classmrmeshpy_1_1Const__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceT4a066eebdd52c412547ab5407d5886f8.html#a9ee1bb1fe791a3a8f1a262ac33c2a28a":[9,1,0,0,2,269,0],
-"classmrmeshpy_1_1Const__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceT4a066eebdd52c412547ab5407d5886f8.html#a9ee1bb1fe791a3a8f1a262ac33c2a28a":[9,1,1,0,1,269,0],
-"classmrmeshpy_1_1Const__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceT4a066eebdd52c412547ab5407d5886f8.html#aa3d9bae505ba875b3519e905b04e018e":[9,1,0,0,2,269,5],
-"classmrmeshpy_1_1Const__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceT4a066eebdd52c412547ab5407d5886f8.html#aa3d9bae505ba875b3519e905b04e018e":[9,1,1,0,1,269,5],
-"classmrmeshpy_1_1Const__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceT4a066eebdd52c412547ab5407d5886f8.html#aaf5f800efdf4914fca123afc0886d1a4":[9,1,0,0,2,269,1],
-"classmrmeshpy_1_1Const__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceT4a066eebdd52c412547ab5407d5886f8.html#aaf5f800efdf4914fca123afc0886d1a4":[9,1,1,0,1,269,1]
+"classmrmeshpy_1_1Const__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceT4a066eebdd52c412547ab5407d5886f8.html#a9ee1bb1fe791a3a8f1a262ac33c2a28a":[9,1,1,0,1,269,0]
 };

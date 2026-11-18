@@ -15,6 +15,8 @@ var classMR_1_1Const__AABBTree =
     [ "leafBoxes", "classMR_1_1Const__AABBTree.html#add41156dc4cbeedfb6d8706821e0516e", null ],
     [ "leafTris", "classMR_1_1Const__AABBTree.html#a9589be95b3a05627fec99808db60e623", null ],
     [ "nodes", "classMR_1_1Const__AABBTree.html#acf6498178015af0e97a747c67ce64b8c", null ],
+    [ "numNodes", "classMR_1_1Const__AABBTree.html#a8685c9b8da41cc5c5ae6e89e8a1744fa", null ],
+    [ "numTris", "classMR_1_1Const__AABBTree.html#ad041a83e78dfa7893ad994b49ce443f6", null ],
     [ "__ref_storage_MaxChildren", "classMR_1_1Const__AABBTree.html#a7bc4f48e0941faeca4542f2a490ff30e", null ],
     [ "__ref_storage_MaxDepth", "classMR_1_1Const__AABBTree.html#ad4739d9b65c6659840c7f60c10bc4f7e", null ],
     [ "__ref_storage_MaxLeafTris", "classMR_1_1Const__AABBTree.html#ae76ac41c0764ae743198d611952b8fc1", null ],

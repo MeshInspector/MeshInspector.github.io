@@ -1,5 +1,9 @@
 var NAVTREEINDEX193 =
 {
+"classmeshlib_1_1features_1_1MeasureResult__Angle.html#a43a6ef69f0ae51c6be81879fe82f41e7":[9,6,0,0,0,3,4,19],
+"classmeshlib_1_1features_1_1MeasureResult__Angle.html#a43a6ef69f0ae51c6be81879fe82f41e7":[9,6,1,0,0,3,4,19],
+"classmeshlib_1_1features_1_1MeasureResult__Angle.html#a44452e305500bbac1ccad6a7c6cbb96e":[9,6,0,0,0,3,4,21],
+"classmeshlib_1_1features_1_1MeasureResult__Angle.html#a44452e305500bbac1ccad6a7c6cbb96e":[9,6,1,0,0,3,4,21],
 "classmeshlib_1_1features_1_1MeasureResult__Angle.html#a44e14654f36b06edfeff8e50a0262e62":[9,6,0,0,0,3,4,20],
 "classmeshlib_1_1features_1_1MeasureResult__Angle.html#a44e14654f36b06edfeff8e50a0262e62":[9,6,1,0,0,3,4,20],
 "classmeshlib_1_1features_1_1MeasureResult__Angle.html#a46ca92444db9b34a94b08ce2c29d64ae":[9,6,0,0,0,3,4,17],
@@ -245,9 +249,5 @@ var NAVTREEINDEX193 =
 "classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html":[9,6,0,0,0,3,1,2],
 "classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html":[9,6,1,0,0,3,1,2],
 "classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#a5fe5074c02fc73f00854984e1e705597":[9,6,0,0,0,3,1,2,3],
-"classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#a5fe5074c02fc73f00854984e1e705597":[9,6,1,0,0,3,1,2,3],
-"classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#aa248e1c773148b69a458d1be4f3f4f09":[9,6,0,0,0,3,1,2,2],
-"classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#aa248e1c773148b69a458d1be4f3f4f09":[9,6,1,0,0,3,1,2,2],
-"classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#aacb9efe26c3d10b5321957c76c5d73c8":[9,6,0,0,0,3,1,2,0],
-"classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#aacb9efe26c3d10b5321957c76c5d73c8":[9,6,1,0,0,3,1,2,0]
+"classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#a5fe5074c02fc73f00854984e1e705597":[9,6,1,0,0,3,1,2,3]
 };

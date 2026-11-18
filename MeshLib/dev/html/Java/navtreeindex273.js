@@ -1,5 +1,9 @@
 var NAVTREEINDEX273 =
 {
+"std__shared__ptr__MR__ChangeNameAction_8java.html":[9,6,2,0,0,1,0,0,1201],
+"std__shared__ptr__MR__ChangeObjectAction_8java.html":[9,6,2,0,0,1,0,0,1202],
+"std__shared__ptr__MR__ChangeObjectColorAction_8java.html":[9,6,2,0,0,1,0,0,1203],
+"std__shared__ptr__MR__ChangeObjectSelectedAction_8java.html":[9,6,2,0,0,1,0,0,1204],
 "std__shared__ptr__MR__ChangeObjectVisibilityAction_8java.html":[9,6,2,0,0,1,0,0,1205],
 "std__shared__ptr__MR__ChangeOneNormalInCloudAction_8java.html":[9,6,2,0,0,1,0,0,1206],
 "std__shared__ptr__MR__ChangeOnePointInCloudAction_8java.html":[9,6,2,0,0,1,0,0,1207],
@@ -245,9 +249,5 @@ var NAVTREEINDEX273 =
 "std__vector__std__array__MR__Vector2f__3__MR__Allocator__std__array__MR__Vector2f__3_8java.html":[9,6,2,0,0,1,0,0,1443],
 "std__vector__std__array__MR__Vector3f__3_8java.html":[9,6,2,0,0,1,0,0,1444],
 "std__vector__std__array__MR__Vector3f__3__MR__Allocator__std__array__MR__Vector3f__3_8java.html":[9,6,2,0,0,1,0,0,1445],
-"std__vector__std__array__MR__VertId__2__MR__Allocator__std__array__MR__VertId__2_8java.html":[9,6,2,0,0,1,0,0,1446],
-"std__vector__std__array__MR__VertId__3_8java.html":[9,6,2,0,0,1,0,0,1447],
-"std__vector__std__array__MR__VertId__3__MR__Allocator__std__array__MR__VertId__3_8java.html":[9,6,2,0,0,1,0,0,1448],
-"std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8java.html":[9,6,2,0,0,1,0,0,1442],
-"std__vector__std__array__std__filesystem__path__4_8java.html":[9,6,2,0,0,1,0,0,1449]
+"std__vector__std__array__MR__VertId__2__MR__Allocator__std__array__MR__VertId__2_8java.html":[9,6,2,0,0,1,0,0,1446]
 };

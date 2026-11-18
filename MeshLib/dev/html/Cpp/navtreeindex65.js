@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1CutMeshParameters.html":[9,0,0,19,195],
+"structMR_1_1CutMeshResult.html":[9,0,0,8,5],
 "structMR_1_1CutMeshResult.html":[9,0,0,19,196],
 "structMR_1_1DecimatePolylineResult.html":[9,0,0,19,473],
 "structMR_1_1DecimatePolylineSettings.html":[9,0,0,10,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html#ab212b169498c626b1686c8bd5897e773":[9,0,2,0,1,4,1,1,2],
 "structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html#aceded37dcd711c7cd1f2aed01f5e21a6":[9,0,1,0,1,8,1,1,0],
 "structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html#aceded37dcd711c7cd1f2aed01f5e21a6":[9,0,2,0,1,4,1,1,0],
-"structMR_1_1FindDisorientationParams.html":[9,0,0,9,4,2],
-"structMR_1_1FindDisorientationParams.html#a0c40bf2320287e58137728520c03765e":[9,0,0,9,4,2,1],
-"structMR_1_1FindDisorientationParams.html#a23535bbf01f9f93ec428fbbf204b389d":[9,0,0,9,4,2,0]
+"structMR_1_1FindDisorientationParams.html":[9,0,0,9,4,2]
 };

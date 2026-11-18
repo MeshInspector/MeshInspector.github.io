@@ -17,6 +17,8 @@ var classmeshlib_1_1AABBTree =
     [ "leafBoxes", "classmeshlib_1_1AABBTree.html#a9cdca561491b74d28ced6f0a93da6c74", null ],
     [ "leafTris", "classmeshlib_1_1AABBTree.html#aaf198e09562da996c603c0fbdbb939f6", null ],
     [ "nodes", "classmeshlib_1_1AABBTree.html#a43b18dff14e79ef98b5295dd39e0f3e4", null ],
+    [ "numNodes", "classmeshlib_1_1AABBTree.html#a4517349e268dd2a7ff8ad76fa54ee4cd", null ],
+    [ "numTris", "classmeshlib_1_1AABBTree.html#ad1c1ba2707c90190a33aadf51a83139c", null ],
     [ "refit", "classmeshlib_1_1AABBTree.html#a9442b47dba0565573a9e2b2a1da646dd", null ],
     [ "renumber", "classmeshlib_1_1AABBTree.html#ac7a778c546e9e9a8e7690cfd9fa13b3b", null ]
 ];

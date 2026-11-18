@@ -1,5 +1,9 @@
 var NAVTREEINDEX198 =
 {
+"classmeshlib_1_1nesting_1_1BoxNestingCorner.html#a8d44be6d6d2bd437ff8f899e8a9bc728":[9,6,0,0,0,19,0,0],
+"classmeshlib_1_1nesting_1_1BoxNestingCorner.html#a8d44be6d6d2bd437ff8f899e8a9bc728":[9,6,1,0,0,19,0,0],
+"classmeshlib_1_1nesting_1_1BoxNestingCorner.html#af95b4af988d1261d44c3664733892bd0":[9,6,0,0,0,19,0,5],
+"classmeshlib_1_1nesting_1_1BoxNestingCorner.html#af95b4af988d1261d44c3664733892bd0":[9,6,1,0,0,19,0,5],
 "classmeshlib_1_1nesting_1_1BoxNestingCorner.html#afd808d0cefbb09fea3e85dc084b1d582":[9,6,0,0,0,19,0,3],
 "classmeshlib_1_1nesting_1_1BoxNestingCorner.html#afd808d0cefbb09fea3e85dc084b1d582":[9,6,1,0,0,19,0,3],
 "classmeshlib_1_1nesting_1_1BoxNestingOptions.html":[9,6,0,0,0,19,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX198 =
 "classmeshlib_1_1nesting_1_1TetrisDensifyParams.html#a6b1558836469711539b94bbf87b28e11":[9,6,0,0,0,19,11,2],
 "classmeshlib_1_1nesting_1_1TetrisDensifyParams.html#a6b1558836469711539b94bbf87b28e11":[9,6,1,0,0,19,11,2],
 "classmeshlib_1_1nesting_1_1TetrisDensifyParams.html#a75d4925386e02dc4a28ec6dd3ef54588":[9,6,0,0,0,19,11,0],
-"classmeshlib_1_1nesting_1_1TetrisDensifyParams.html#a75d4925386e02dc4a28ec6dd3ef54588":[9,6,1,0,0,19,11,0],
-"classmeshlib_1_1nesting_1_1TetrisDensifyParams.html#a830daa62a0d613cf4c70aba428a40bc6":[9,6,0,0,0,19,11,3],
-"classmeshlib_1_1nesting_1_1TetrisDensifyParams.html#a830daa62a0d613cf4c70aba428a40bc6":[9,6,1,0,0,19,11,3],
-"classmeshlib_1_1nesting_1_1TetrisDensifyParams.html#a996197102355f6f2a7a867cd6fcd950f":[9,6,0,0,0,19,11,7],
-"classmeshlib_1_1nesting_1_1TetrisDensifyParams.html#a996197102355f6f2a7a867cd6fcd950f":[9,6,1,0,0,19,11,7]
+"classmeshlib_1_1nesting_1_1TetrisDensifyParams.html#a75d4925386e02dc4a28ec6dd3ef54588":[9,6,1,0,0,19,11,0]
 };

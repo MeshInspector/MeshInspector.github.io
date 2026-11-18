@@ -1,5 +1,7 @@
 var NAVTREEINDEX140 =
 {
+"classMR_1_1TriangulateHolesParams.html#ada8ed7e075e5dc665f48dcd8b1c54952":[9,3,0,0,0,1773,3],
+"classMR_1_1Triangulation.html":[9,3,0,0,0,1774],
 "classMR_1_1Triangulation.html#a05b6d0e3e6f7959f0e5806d45edeafb5":[9,3,0,0,0,1774,15],
 "classMR_1_1Triangulation.html#a0c9c411a222fccaeb88a8d94a5a60a79":[9,3,0,0,0,1774,8],
 "classMR_1_1Triangulation.html#a211dfd68e26313760d65585cc9cbf19f":[9,3,0,0,0,1774,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX140 =
 "classMR_1_1TypedBitSet__MRIdMRSurfaceDistanceStartTag.html#a29260bb301dc323de75b0d06c443d3f4":[9,3,0,0,0,1793,7],
 "classMR_1_1TypedBitSet__MRIdMRSurfaceDistanceStartTag.html#a2d19f7c1ae2789c7b4b6449bf5487440":[9,3,0,0,0,1793,8],
 "classMR_1_1TypedBitSet__MRIdMRSurfaceDistanceStartTag.html#a314cdb569a1b75e18e746290d7f98cb6":[9,3,0,0,0,1793,34],
-"classMR_1_1TypedBitSet__MRIdMRSurfaceDistanceStartTag.html#a356a7b6a545458d2d5892581091e1da8":[9,3,0,0,0,1793,15],
-"classMR_1_1TypedBitSet__MRIdMRSurfaceDistanceStartTag.html#a35c7275d8e430b3176791b369d9bada0":[9,3,0,0,0,1793,6],
-"classMR_1_1TypedBitSet__MRIdMRSurfaceDistanceStartTag.html#a3c220c4f18e21db8562b6f15769cc6e6":[9,3,0,0,0,1793,14]
+"classMR_1_1TypedBitSet__MRIdMRSurfaceDistanceStartTag.html#a356a7b6a545458d2d5892581091e1da8":[9,3,0,0,0,1793,15]
 };

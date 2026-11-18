@@ -9,5 +9,7 @@ var classmrmeshpy_1_1ConstAABBTree =
     [ "heapBytes", "classmrmeshpy_1_1ConstAABBTree.html#afd80e5773820597b740b3888260badaa", null ],
     [ "leafBoxes", "classmrmeshpy_1_1ConstAABBTree.html#a40a6b31e9cf9a49963f1d90df005a9b9", null ],
     [ "leafTris", "classmrmeshpy_1_1ConstAABBTree.html#a2fcbc9d5dc8c5ca72aae6283cfe93de3", null ],
-    [ "nodes", "classmrmeshpy_1_1ConstAABBTree.html#a86eeb37e60912ee0b9b694b6002d796f", null ]
+    [ "nodes", "classmrmeshpy_1_1ConstAABBTree.html#a86eeb37e60912ee0b9b694b6002d796f", null ],
+    [ "numNodes", "classmrmeshpy_1_1ConstAABBTree.html#abdc15f5f273851a39d996770218217ab", null ],
+    [ "numTris", "classmrmeshpy_1_1ConstAABBTree.html#ab46e189a811b222a246d537faa4cde77", null ]
 ];

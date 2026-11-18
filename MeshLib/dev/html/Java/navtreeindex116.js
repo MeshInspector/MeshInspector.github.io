@@ -1,5 +1,9 @@
 var NAVTREEINDEX116 =
 {
+"classmeshlib_1_1PolylineProjectionResult2.html#af351bce3e8b011e492456e6c342d4d28":[9,6,0,0,0,832,4],
+"classmeshlib_1_1PolylineProjectionResult2.html#af351bce3e8b011e492456e6c342d4d28":[9,6,1,0,0,832,4],
+"classmeshlib_1_1PolylineProjectionResult3.html":[9,6,0,0,0,833],
+"classmeshlib_1_1PolylineProjectionResult3.html":[9,6,1,0,0,833],
 "classmeshlib_1_1PolylineProjectionResult3.html#a02667bf80f885050ed15c757942800c6":[9,6,0,0,0,833,9],
 "classmeshlib_1_1PolylineProjectionResult3.html#a02667bf80f885050ed15c757942800c6":[9,6,1,0,0,833,9],
 "classmeshlib_1_1PolylineProjectionResult3.html#a02b5641dbc5de3a053a5eaa1e454edb7":[9,6,0,0,0,833,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX116 =
 "classmeshlib_1_1PolylineTopology.html#a8bad8af4ed1b78ffd75f9d1e5f262bef":[9,6,0,0,0,838,32],
 "classmeshlib_1_1PolylineTopology.html#a8bad8af4ed1b78ffd75f9d1e5f262bef":[9,6,1,0,0,838,32],
 "classmeshlib_1_1PolylineTopology.html#a8fede06fd9ee143e5f6a00c837046b7d":[9,6,0,0,0,838,17],
-"classmeshlib_1_1PolylineTopology.html#a8fede06fd9ee143e5f6a00c837046b7d":[9,6,1,0,0,838,17],
-"classmeshlib_1_1PolylineTopology.html#a938fa5ed54cb32049c2cf7fada224ae1":[9,6,0,0,0,838,43],
-"classmeshlib_1_1PolylineTopology.html#a938fa5ed54cb32049c2cf7fada224ae1":[9,6,1,0,0,838,43],
-"classmeshlib_1_1PolylineTopology.html#aa112372aa24d58d539f0ce6512c38c4c":[9,6,0,0,0,838,33],
-"classmeshlib_1_1PolylineTopology.html#aa112372aa24d58d539f0ce6512c38c4c":[9,6,1,0,0,838,33]
+"classmeshlib_1_1PolylineTopology.html#a8fede06fd9ee143e5f6a00c837046b7d":[9,6,1,0,0,838,17]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX195 =
 {
+"structmeshlib_1_1std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int.html#a7e3c3ca53a62cb6ba6f0335273ac6cf7":[9,5,0,0,0,1004,1],
+"structmeshlib_1_1std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int.html#a7e3c3ca53a62cb6ba6f0335273ac6cf7":[9,5,1,0,0,991,1],
+"structmeshlib_1_1std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int.html#aa931c5ec20a797afb860048a4fbd0b45":[9,5,0,0,0,1004,2],
+"structmeshlib_1_1std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int.html#aa931c5ec20a797afb860048a4fbd0b45":[9,5,1,0,0,991,2],
 "structmeshlib_1_1std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int.html":[9,5,0,0,0,1002],
 "structmeshlib_1_1std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int.html":[9,5,1,0,0,989],
 "structmeshlib_1_1std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int.html#a18086bb31087d1dd4f7eae20b9d1b778":[9,5,0,0,0,1002,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX195 =
 "structmeshlib_1_1std__function__void__from__MR__EdgeId__MR__EdgeId__float.html#a586ecee24a75bea01d20c94ebde9bc09":[9,5,0,0,0,1048,4],
 "structmeshlib_1_1std__function__void__from__MR__EdgeId__MR__EdgeId__float.html#a586ecee24a75bea01d20c94ebde9bc09":[9,5,1,0,0,1035,4],
 "structmeshlib_1_1std__function__void__from__MR__EdgeId__MR__EdgeId__float.html#a9b57928d73523cd0286ea60d6c06782e":[9,5,0,0,0,1048,1],
-"structmeshlib_1_1std__function__void__from__MR__EdgeId__MR__EdgeId__float.html#a9b57928d73523cd0286ea60d6c06782e":[9,5,1,0,0,1035,1],
-"structmeshlib_1_1std__function__void__from__MR__EdgeId__MR__EdgeId__float.html#aa47cb566259a7057cb2971df0fcfd931":[9,5,0,0,0,1048,0],
-"structmeshlib_1_1std__function__void__from__MR__EdgeId__MR__EdgeId__float.html#aa47cb566259a7057cb2971df0fcfd931":[9,5,1,0,0,1035,0],
-"structmeshlib_1_1std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId.html":[9,5,0,0,0,1049],
-"structmeshlib_1_1std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId.html":[9,5,1,0,0,1036]
+"structmeshlib_1_1std__function__void__from__MR__EdgeId__MR__EdgeId__float.html#a9b57928d73523cd0286ea60d6c06782e":[9,5,1,0,0,1035,1]
 };

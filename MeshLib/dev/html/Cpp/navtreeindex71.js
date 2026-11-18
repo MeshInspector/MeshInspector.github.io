@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1PythonViewer_1_1ViewerSetup.html":[9,0,2,0,1,25,7],
+"structMR_1_1PythonViewer_1_1ViewportFitDataParams.html":[9,0,1,0,1,40,9],
 "structMR_1_1PythonViewer_1_1ViewportFitDataParams.html":[9,0,2,0,1,25,9],
 "structMR_1_1PythonViewer_1_1ViewportFitDataParams.html#a0a4c297eea63d2aee1c571c8a38d2026":[9,0,1,0,1,40,9,1],
 "structMR_1_1PythonViewer_1_1ViewportFitDataParams.html#a0a4c297eea63d2aee1c571c8a38d2026":[9,0,2,0,1,25,9,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1TimeRecord.html#a80d3da8e260d6c62716855a674a2bc46":[9,0,0,3,13,1],
 "structMR_1_1TimeRecord.html#aa1636ed4f889fa0058dc49ddbf33c8ff":[9,0,0,3,13,0],
 "structMR_1_1TimeRecord.html#aa4ecd25889d637813c8abcc75610cf51":[9,0,0,3,13,4],
-"structMR_1_1TimeRecord.html#ae2011c61063c65e0a8f63688cb97f6af":[9,0,0,3,13,2],
-"structMR_1_1TimeRecord.html#aefc29a1b393cb4e47eec9c964a56b8f9":[9,0,0,3,13,3],
-"structMR_1_1ToolPathParams.html":[9,0,0,19,912]
+"structMR_1_1TimeRecord.html#ae2011c61063c65e0a8f63688cb97f6af":[9,0,0,3,13,2]
 };

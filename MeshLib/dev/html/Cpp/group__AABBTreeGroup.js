@@ -43,6 +43,8 @@ var group__AABBTreeGroup =
       [ "leafBoxes", "classMR_1_1AABBTree.html#a3eefd04b2277f8268e1069c8103457fd", null ],
       [ "leafTris", "classMR_1_1AABBTree.html#a184121f6c86d9e7b15869d4e573f1179", null ],
       [ "nodes", "classMR_1_1AABBTree.html#a45060882cc649af6c6c2ae01dffbdf61", null ],
+      [ "numNodes", "classMR_1_1AABBTree.html#a065484887f4c99fe7fd40e70dc8e2999", null ],
+      [ "numTris", "classMR_1_1AABBTree.html#ae55ae7ba2475dfdfe4b3662258213fc3", null ],
       [ "operator=", "classMR_1_1AABBTree.html#a3d03064881df6e739bd9f815c909abe5", null ],
       [ "refit", "classMR_1_1AABBTree.html#ad45eb520762fef375722fd1e51317b85", null ],
       [ "renumber", "classMR_1_1AABBTree.html#aee31388a25d9a396031744a4b936013c", null ],

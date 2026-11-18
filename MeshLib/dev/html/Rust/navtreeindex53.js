@@ -1,5 +1,9 @@
 var NAVTREEINDEX53 =
 {
+"structmeshlib_1_1FaceBitSet.html":[9,5,1,0,0,388],
+"structmeshlib_1_1FaceBitSet.html#a02c9124595c4881b5b97245aff01779c":[9,5,0,0,0,401,56],
+"structmeshlib_1_1FaceBitSet.html#a02c9124595c4881b5b97245aff01779c":[9,5,1,0,0,388,56],
+"structmeshlib_1_1FaceBitSet.html#a060cf788d9601167e90030ad238726eb":[9,5,0,0,0,401,54],
 "structmeshlib_1_1FaceBitSet.html#a060cf788d9601167e90030ad238726eb":[9,5,1,0,0,388,54],
 "structmeshlib_1_1FaceBitSet.html#a0a1d6bb0ab9ad13a1d6ddb02266df76c":[9,5,0,0,0,401,15],
 "structmeshlib_1_1FaceBitSet.html#a0a1d6bb0ab9ad13a1d6ddb02266df76c":[9,5,1,0,0,388,15],
@@ -245,9 +249,5 @@ var NAVTREEINDEX53 =
 "structmeshlib_1_1FaceDistancesSettings.html#ac662d5b3b77d59361063161c524aaa84":[9,5,1,0,0,392,4],
 "structmeshlib_1_1FaceDistancesSettings__OutputFaceValues.html":[9,5,0,0,0,406],
 "structmeshlib_1_1FaceDistancesSettings__OutputFaceValues.html":[9,5,1,0,0,393],
-"structmeshlib_1_1FaceFace.html":[9,5,0,0,0,407],
-"structmeshlib_1_1FaceFace.html":[9,5,1,0,0,394],
-"structmeshlib_1_1FaceFace.html#a007dfc06bd83f3a8d01ce953afd0b820":[9,5,0,0,0,407,10],
-"structmeshlib_1_1FaceFace.html#a007dfc06bd83f3a8d01ce953afd0b820":[9,5,1,0,0,394,10],
-"structmeshlib_1_1FaceFace.html#a1c35737c08572c5ad4f487bdd331bf54":[9,5,0,0,0,407,9]
+"structmeshlib_1_1FaceFace.html":[9,5,0,0,0,407]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"classMR_1_1SelectObjectByClick.html":[9,0,0,19,56],
+"classMR_1_1SeparationPointStorage.html":[9,0,0,19,518],
 "classMR_1_1SetBitIteratorT.html":[9,0,0,3,2],
 "classMR_1_1SetBitIteratorT.html#a18f2206478b0e1495f2ebbd017d41ff2":[9,0,0,3,2,11],
 "classMR_1_1SetBitIteratorT.html#a22e03a8a13140a2e652009346c41c0ba":[9,0,0,3,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "classMR_1_1UniqueThreadSafeOwner.html#a64a10dee713d8b17c9bdde7e86b7e7ad":[9,0,0,1,40,8],
 "classMR_1_1UniqueThreadSafeOwner.html#a6ab481f5b5794550188bd3bc3557b15f":[9,0,0,1,40,4],
 "classMR_1_1UniqueThreadSafeOwner.html#a6d5da0de362dedbdfea9cb36588093f0":[9,0,0,1,40,7],
-"classMR_1_1UniqueThreadSafeOwner.html#a9e426780257a98ca9ae76478afe01453":[9,0,0,1,40,10],
-"classMR_1_1UniqueThreadSafeOwner.html#aa4d169e499f27522636ee6d6583dadd3":[9,0,0,1,40,3],
-"classMR_1_1UniqueThreadSafeOwner.html#aac40ad5a280f9942e61b59df3599969d":[9,0,0,1,40,2]
+"classMR_1_1UniqueThreadSafeOwner.html#a9e426780257a98ca9ae76478afe01453":[9,0,0,1,40,10]
 };

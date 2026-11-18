@@ -1,5 +1,9 @@
 var NAVTREEINDEX49 =
 {
+"classmrmeshpy_1_1ConstMeshTriPoint.html#a59b5032fdce552a89a981b8e09c3c606":[9,1,0,0,2,983,8],
+"classmrmeshpy_1_1ConstMeshTriPoint.html#a59b5032fdce552a89a981b8e09c3c606":[9,1,1,0,1,983,8],
+"classmrmeshpy_1_1ConstMeshTriPoint.html#a605cd4739c974b60482477121f942cd5":[9,1,0,0,2,983,5],
+"classmrmeshpy_1_1ConstMeshTriPoint.html#a605cd4739c974b60482477121f942cd5":[9,1,1,0,1,983,5],
 "classmrmeshpy_1_1ConstMeshTriPoint.html#a8ccdaddcec06072364a248734f98550e":[9,1,0,0,2,983,12],
 "classmrmeshpy_1_1ConstMeshTriPoint.html#a8ccdaddcec06072364a248734f98550e":[9,1,1,0,1,983,12],
 "classmrmeshpy_1_1ConstMeshTriPoint.html#a91bca7596ec9010768cabfffebfddd28":[9,1,0,0,2,983,14],
@@ -245,9 +249,5 @@ var NAVTREEINDEX49 =
 "classmrmeshpy_1_1ConstMultiwayICP.html#ad92a0df06010d14eca295fb02c5e20d3":[9,1,0,0,2,997,6],
 "classmrmeshpy_1_1ConstMultiwayICP.html#ad92a0df06010d14eca295fb02c5e20d3":[9,1,1,0,1,997,6],
 "classmrmeshpy_1_1ConstMultiwayICP.html#af02d441decccefb65658e6a066cf4d52":[9,1,0,0,2,997,3],
-"classmrmeshpy_1_1ConstMultiwayICP.html#af02d441decccefb65658e6a066cf4d52":[9,1,1,0,1,997,3],
-"classmrmeshpy_1_1ConstMultiwayICPSamplingParameters.html":[9,1,0,0,2,998],
-"classmrmeshpy_1_1ConstMultiwayICPSamplingParameters.html":[9,1,1,0,1,998],
-"classmrmeshpy_1_1ConstMultiwayICPSamplingParameters.html#a0f563452561336a6c252571c39891f6a":[9,1,0,0,2,998,2],
-"classmrmeshpy_1_1ConstMultiwayICPSamplingParameters.html#a0f563452561336a6c252571c39891f6a":[9,1,1,0,1,998,2]
+"classmrmeshpy_1_1ConstMultiwayICP.html#af02d441decccefb65658e6a066cf4d52":[9,1,1,0,1,997,3]
 };

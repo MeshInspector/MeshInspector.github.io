@@ -1,5 +1,9 @@
 var NAVTREEINDEX52 =
 {
+"structmeshlib_1_1Edges.html#a4702d1bed109499e4901adc358647111":[9,5,1,0,0,295,13],
+"structmeshlib_1_1Edges.html#a48e5ba637385ae595c34591693ed81cc":[9,5,0,0,0,308,6],
+"structmeshlib_1_1Edges.html#a48e5ba637385ae595c34591693ed81cc":[9,5,1,0,0,295,6],
+"structmeshlib_1_1Edges.html#a574623f4dcaae58ebcda172e15918dee":[9,5,0,0,0,308,22],
 "structmeshlib_1_1Edges.html#a574623f4dcaae58ebcda172e15918dee":[9,5,1,0,0,295,22],
 "structmeshlib_1_1Edges.html#a57d5347b8bf9d1b4d979cb5c41612e07":[9,5,0,0,0,308,11],
 "structmeshlib_1_1Edges.html#a57d5347b8bf9d1b4d979cb5c41612e07":[9,5,1,0,0,295,11],
@@ -245,9 +249,5 @@ var NAVTREEINDEX52 =
 "structmeshlib_1_1FaceBMap.html#acb1bdd9ffded7d0e93623c5d9568f53f":[9,5,1,0,0,389,2],
 "structmeshlib_1_1FaceBMap.html#ae5b483b57a6be74378a00b220f640655":[9,5,0,0,0,402,1],
 "structmeshlib_1_1FaceBMap.html#ae5b483b57a6be74378a00b220f640655":[9,5,1,0,0,389,1],
-"structmeshlib_1_1FaceBitSet.html":[9,5,0,0,0,401],
-"structmeshlib_1_1FaceBitSet.html":[9,5,1,0,0,388],
-"structmeshlib_1_1FaceBitSet.html#a02c9124595c4881b5b97245aff01779c":[9,5,0,0,0,401,56],
-"structmeshlib_1_1FaceBitSet.html#a02c9124595c4881b5b97245aff01779c":[9,5,1,0,0,388,56],
-"structmeshlib_1_1FaceBitSet.html#a060cf788d9601167e90030ad238726eb":[9,5,0,0,0,401,54]
+"structmeshlib_1_1FaceBitSet.html":[9,5,0,0,0,401]
 };

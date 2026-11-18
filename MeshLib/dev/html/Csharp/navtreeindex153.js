@@ -1,5 +1,7 @@
 var NAVTREEINDEX153 =
 {
+"classMR_1_1VoxelBitSet.html#a0fd100d4a9c240e755699c34a4177e83":[9,3,0,0,0,1941,23],
+"classMR_1_1VoxelBitSet.html#a12840dde980a3d21bff449fcab13815e":[9,3,0,0,0,1941,18],
 "classMR_1_1VoxelBitSet.html#a17bcdd946c29440f8bfd93f835ffa18f":[9,3,0,0,0,1941,19],
 "classMR_1_1VoxelBitSet.html#a1820b42af661a2e50661864618854876":[9,3,0,0,0,1941,25],
 "classMR_1_1VoxelBitSet.html#a30bb3168a3fd49a53ebffb13d2fae585":[9,3,0,0,0,1941,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX153 =
 "classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html#ae89000ce1587a22c321e927acfff4187":[9,3,0,0,0,1946,7,3],
 "classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html":[9,3,0,0,0,1946,8],
 "classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html#a3740b71ac6f6e60a1c4cd7b0f197a8f7":[9,3,0,0,0,1946,8,8],
-"classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html#a385b8f0df5ddd7d48786dde3b18d6408":[9,3,0,0,0,1946,8,0],
-"classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html#a5bdfba9a8b6723df0a17a11228497b16":[9,3,0,0,0,1946,8,1],
-"classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html#a5c1cdf449d83ef1037b04cfb12226019":[9,3,0,0,0,1946,8,4]
+"classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html#a385b8f0df5ddd7d48786dde3b18d6408":[9,3,0,0,0,1946,8,0]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX238 =
 {
+"classmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3fad5ee72485df617cbe68428c6338d804.html#a4d594d5b8cdb837de95b9f52136728f8":[9,6,0,0,0,1321,16],
+"classmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3fad5ee72485df617cbe68428c6338d804.html#a4d594d5b8cdb837de95b9f52136728f8":[9,6,1,0,0,1321,16],
+"classmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3fad5ee72485df617cbe68428c6338d804.html#a4eebd7550d0f00969151122a777c0193":[9,6,0,0,0,1321,6],
+"classmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3fad5ee72485df617cbe68428c6338d804.html#a4eebd7550d0f00969151122a777c0193":[9,6,1,0,0,1321,6],
 "classmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3fad5ee72485df617cbe68428c6338d804.html#a55585388f40edc014d874cb0f800f259":[9,6,0,0,0,1321,11],
 "classmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3fad5ee72485df617cbe68428c6338d804.html#a55585388f40edc014d874cb0f800f259":[9,6,1,0,0,1321,11],
 "classmeshlib_1_1std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3fad5ee72485df617cbe68428c6338d804.html#a68520740a58cd05e5389a6af89365ae7":[9,6,0,0,0,1321,12],
@@ -245,9 +249,5 @@ var NAVTREEINDEX238 =
 "classmeshlib_1_1std__vector__MR__Dipole__MR__Allocator__MR__Dipole.html#a04febb8f551d09be9a5b0468f6000065":[9,6,0,0,0,1327,4],
 "classmeshlib_1_1std__vector__MR__Dipole__MR__Allocator__MR__Dipole.html#a04febb8f551d09be9a5b0468f6000065":[9,6,1,0,0,1327,4],
 "classmeshlib_1_1std__vector__MR__Dipole__MR__Allocator__MR__Dipole.html#a215ceaacb1cf03fbe2fb46ed60573002":[9,6,0,0,0,1327,11],
-"classmeshlib_1_1std__vector__MR__Dipole__MR__Allocator__MR__Dipole.html#a215ceaacb1cf03fbe2fb46ed60573002":[9,6,1,0,0,1327,11],
-"classmeshlib_1_1std__vector__MR__Dipole__MR__Allocator__MR__Dipole.html#a286fe321235a8220f91d1f72cf80fa85":[9,6,0,0,0,1327,7],
-"classmeshlib_1_1std__vector__MR__Dipole__MR__Allocator__MR__Dipole.html#a286fe321235a8220f91d1f72cf80fa85":[9,6,1,0,0,1327,7],
-"classmeshlib_1_1std__vector__MR__Dipole__MR__Allocator__MR__Dipole.html#a3f9bb07e927a0d56a27a220054bb54c1":[9,6,0,0,0,1327,0],
-"classmeshlib_1_1std__vector__MR__Dipole__MR__Allocator__MR__Dipole.html#a3f9bb07e927a0d56a27a220054bb54c1":[9,6,1,0,0,1327,0]
+"classmeshlib_1_1std__vector__MR__Dipole__MR__Allocator__MR__Dipole.html#a215ceaacb1cf03fbe2fb46ed60573002":[9,6,1,0,0,1327,11]
 };

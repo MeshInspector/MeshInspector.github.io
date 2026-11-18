@@ -38,6 +38,8 @@ var MRAABBTree_8h =
     [ "MR_AABBTree_leafBoxes", "MRAABBTree_8h.html#ac6034b526804ff012fd0b00f08efc4e3", null ],
     [ "MR_AABBTree_leafTris", "MRAABBTree_8h.html#ab522c6108146a89d698fff2221c70be1", null ],
     [ "MR_AABBTree_nodes", "MRAABBTree_8h.html#a987ad7177b00fa1c1ff45b2e7e61489f", null ],
+    [ "MR_AABBTree_numNodes", "MRAABBTree_8h.html#a0880a50407304ea43ec4d19d4594e455", null ],
+    [ "MR_AABBTree_numTris", "MRAABBTree_8h.html#a3cf95bee4256ab78c92c293038c576cf", null ],
     [ "MR_AABBTree_OffsetMutablePtr", "MRAABBTree_8h.html#a21712b71ac4d144f1723a86279ea4e78", null ],
     [ "MR_AABBTree_OffsetPtr", "MRAABBTree_8h.html#a06270a2cc48943580bbc8e0fe10123e5", null ],
     [ "MR_AABBTree_refit", "MRAABBTree_8h.html#a9b359063a63a9a93ff01475cbd92bd83", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX186 =
 {
+"std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i_8h.html#a3dbf4338ea673eeb4daf40a2e779c149":[9,2,2,0,0,0,0,2,552,10],
+"std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i_8h.html#a437d9c6adbbc754f7b1e41c824a5771b":[9,2,2,0,0,0,0,2,552,13],
 "std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i_8h.html#a58fa7e1dd0da6e9086e6a34b9ea72722":[9,2,2,0,0,0,0,2,552,23],
 "std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i_8h.html#a5ec5f30c68a4684bc8e2ce4a64563a1c":[9,2,2,0,0,0,0,2,552,6],
 "std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i_8h.html#a69df6dff020f4af99d239db5c3470dda":[9,2,2,0,0,0,0,2,552,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX186 =
 "std__vector__MR__ViewportMask_8h.html#ac9c37f97b6c893c42ee25ddb2aad4229":[9,2,2,0,0,0,0,2,561,7],
 "std__vector__MR__ViewportMask_8h.html#acb1f68e6a33d62b9eda72a303af894e2":[9,2,2,0,0,0,0,2,561,9],
 "std__vector__MR__ViewportMask_8h_source.html":[9,2,2,0,0,0,0,2,561],
-"std__vector__MR__VoxelBitSet_8h.html":[9,2,2,0,0,0,0,2,562],
-"std__vector__MR__VoxelBitSet_8h.html#a1a1018dd605876e7fdf42ff5429e67d8":[9,2,2,0,0,0,0,2,562,16],
-"std__vector__MR__VoxelBitSet_8h.html#a2d607b45efc5aa4c95cb8a1cfac80f66":[9,2,2,0,0,0,0,2,562,12]
+"std__vector__MR__VoxelBitSet_8h.html":[9,2,2,0,0,0,0,2,562]
 };

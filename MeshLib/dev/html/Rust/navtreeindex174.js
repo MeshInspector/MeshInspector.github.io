@@ -1,5 +1,9 @@
 var NAVTREEINDEX174 =
 {
+"structmeshlib_1_1VoxelsVolumeAccessor__MR__SimpleVolumeMinMax.html#a6419dffb3c62bb8084e0d7be9d15a1c0":[9,5,0,0,0,1708,0],
+"structmeshlib_1_1VoxelsVolumeAccessor__MR__SimpleVolumeMinMax.html#a6419dffb3c62bb8084e0d7be9d15a1c0":[9,5,1,0,0,1695,0],
+"structmeshlib_1_1VoxelsVolumeAccessor__MR__SimpleVolumeMinMax.html#abf5a8ad324ac55d7e65121e927e8f968":[9,5,0,0,0,1708,1],
+"structmeshlib_1_1VoxelsVolumeAccessor__MR__SimpleVolumeMinMax.html#abf5a8ad324ac55d7e65121e927e8f968":[9,5,1,0,0,1695,1],
 "structmeshlib_1_1VoxelsVolumeAccessor__MR__VdbVolume.html":[9,5,0,0,0,1709],
 "structmeshlib_1_1VoxelsVolumeAccessor__MR__VdbVolume.html":[9,5,1,0,0,1696],
 "structmeshlib_1_1VoxelsVolumeAccessor__MR__VdbVolume.html#a13a848c5a91af4942cb67c9f34273c93":[9,5,0,0,0,1709,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX174 =
 "structmeshlib_1_1WholeEdgeBMap.html#acbc57c5480d3924424f3f47460ad8fbf":[9,5,0,0,0,1725,0],
 "structmeshlib_1_1WholeEdgeBMap.html#acbc57c5480d3924424f3f47460ad8fbf":[9,5,1,0,0,1712,0],
 "structmeshlib_1_1WholeEdgeBMap.html#af56051f81b9dbe3d6a63dde5b869e8dd":[9,5,0,0,0,1725,1],
-"structmeshlib_1_1WholeEdgeBMap.html#af56051f81b9dbe3d6a63dde5b869e8dd":[9,5,1,0,0,1712,1],
-"structmeshlib_1_1WholeEdgeMap.html":[9,5,0,0,0,1726],
-"structmeshlib_1_1WholeEdgeMap.html":[9,5,1,0,0,1713],
-"structmeshlib_1_1WholeEdgeMap.html#a04e8e632273ff31c4bff523f210d14bf":[9,5,0,0,0,1726,1],
-"structmeshlib_1_1WholeEdgeMap.html#a04e8e632273ff31c4bff523f210d14bf":[9,5,1,0,0,1713,1]
+"structmeshlib_1_1WholeEdgeBMap.html#af56051f81b9dbe3d6a63dde5b869e8dd":[9,5,1,0,0,1712,1]
 };

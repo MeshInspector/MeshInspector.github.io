@@ -1,5 +1,7 @@
 var NAVTREEINDEX170 =
 {
+"structMR_1_1VoxelId.html#ae632542a477c18faab90f868333926c4":[9,3,0,0,0,1942,24],
+"structMR_1_1VoxelId.html#ae9be485f60f285438fd4c9992b567356":[9,3,0,0,0,1942,44],
 "structMR_1_1VoxelId.html#aee8e2c76973bef00fa5541c760c032f3":[9,3,0,0,0,1942,0],
 "structMR_1_1VoxelId.html#af01ebed710f511994cfcecb53394101e":[9,3,0,0,0,1942,21],
 "structMR_1_1VoxelId.html#af30eb7da2ade11c040a008003a792a7b":[9,3,0,0,0,1942,40],

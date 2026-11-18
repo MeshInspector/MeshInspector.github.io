@@ -1,5 +1,9 @@
 var NAVTREEINDEX121 =
 {
+"classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a6f19c99dc9e78368b4165e8cc0f59794":[9,1,0,0,2,1494,23],
+"classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a6f19c99dc9e78368b4165e8cc0f59794":[9,1,1,0,1,1494,23],
+"classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a72f7cb6fefef150133d0779bdd49c602":[9,1,0,0,2,1494,13],
+"classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a72f7cb6fefef150133d0779bdd49c602":[9,1,1,0,1,1494,13],
 "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a797d1f07a461065e2cf85b2b1e181885":[9,1,0,0,2,1494,0],
 "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a797d1f07a461065e2cf85b2b1e181885":[9,1,1,0,1,1494,0],
 "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a7ed1247ea64ad5a4e6f3af63440f0169":[9,1,0,0,2,1494,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX121 =
 "classmrmeshpy_1_1Dipoles.html#ad1d003d5f7724221d603c1edb8505536":[9,1,0,0,2,1503,31],
 "classmrmeshpy_1_1Dipoles.html#ad1d003d5f7724221d603c1edb8505536":[9,1,1,0,1,1503,31],
 "classmrmeshpy_1_1Dipoles.html#adc96c8f7835e4eeaf44fdb3f15d51431":[9,1,0,0,2,1503,1],
-"classmrmeshpy_1_1Dipoles.html#adc96c8f7835e4eeaf44fdb3f15d51431":[9,1,1,0,1,1503,1],
-"classmrmeshpy_1_1Dipoles.html#adc9a1989e57b66e655702c4caafc74eb":[9,1,0,0,2,1503,10],
-"classmrmeshpy_1_1Dipoles.html#adc9a1989e57b66e655702c4caafc74eb":[9,1,1,0,1,1503,10],
-"classmrmeshpy_1_1Dipoles.html#adec62bc601c0f2e35211f8b476a71e0b":[9,1,0,0,2,1503,12],
-"classmrmeshpy_1_1Dipoles.html#adec62bc601c0f2e35211f8b476a71e0b":[9,1,1,0,1,1503,12]
+"classmrmeshpy_1_1Dipoles.html#adc96c8f7835e4eeaf44fdb3f15d51431":[9,1,1,0,1,1503,1]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX77 =
 {
+"classmrmeshpy_1_1ConstVector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a0d48455307db6d3f9f32d3b69bb0c8a3":[9,1,0,0,2,1342,13],
+"classmrmeshpy_1_1ConstVector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a0d48455307db6d3f9f32d3b69bb0c8a3":[9,1,1,0,1,1342,13],
+"classmrmeshpy_1_1ConstVector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a3730db9ab1522f133c92f0a80b4710d8":[9,1,0,0,2,1342,4],
+"classmrmeshpy_1_1ConstVector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a3730db9ab1522f133c92f0a80b4710d8":[9,1,1,0,1,1342,4],
 "classmrmeshpy_1_1ConstVector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a42438166f4ebb03095866f21bdd8a027":[9,1,0,0,2,1342,15],
 "classmrmeshpy_1_1ConstVector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a42438166f4ebb03095866f21bdd8a027":[9,1,1,0,1,1342,15],
 "classmrmeshpy_1_1ConstVector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a4628146b0eff133c27a891e339d05e3a":[9,1,0,0,2,1342,14],
@@ -245,9 +249,5 @@ var NAVTREEINDEX77 =
 "classmrmeshpy_1_1ConstVector__GraphEdgeId__GraphEdgeId.html#adcd835b99753911028f2d606e5535399":[9,1,0,0,2,1352,2],
 "classmrmeshpy_1_1ConstVector__GraphEdgeId__GraphEdgeId.html#adcd835b99753911028f2d606e5535399":[9,1,1,0,1,1352,2],
 "classmrmeshpy_1_1ConstVector__GraphEdgeId__GraphEdgeId.html#af5fbf324d550a25dda1f3f0ba1221bf6":[9,1,0,0,2,1352,0],
-"classmrmeshpy_1_1ConstVector__GraphEdgeId__GraphEdgeId.html#af5fbf324d550a25dda1f3f0ba1221bf6":[9,1,1,0,1,1352,0],
-"classmrmeshpy_1_1ConstVector__GraphEdgeId__GraphEdgeId.html#af90589d82704258e8762595b84bc4bab":[9,1,0,0,2,1352,9],
-"classmrmeshpy_1_1ConstVector__GraphEdgeId__GraphEdgeId.html#af90589d82704258e8762595b84bc4bab":[9,1,1,0,1,1352,9],
-"classmrmeshpy_1_1ConstVector__GraphVertId__GraphVertId.html":[9,1,0,0,2,1353],
-"classmrmeshpy_1_1ConstVector__GraphVertId__GraphVertId.html":[9,1,1,0,1,1353]
+"classmrmeshpy_1_1ConstVector__GraphEdgeId__GraphEdgeId.html#af5fbf324d550a25dda1f3f0ba1221bf6":[9,1,1,0,1,1352,0]
 };

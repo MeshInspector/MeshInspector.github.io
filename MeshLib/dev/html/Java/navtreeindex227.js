@@ -1,5 +1,9 @@
 var NAVTREEINDEX227 =
 {
+"classmeshlib_1_1std__shared__ptr__MR__DistanceMap.html#a6e09e4f77434a12b0fe88d1af003d436":[9,6,0,0,0,1232,7],
+"classmeshlib_1_1std__shared__ptr__MR__DistanceMap.html#a6e09e4f77434a12b0fe88d1af003d436":[9,6,1,0,0,1232,7],
+"classmeshlib_1_1std__shared__ptr__MR__DistanceMap.html#aa7096e946d80e1b4f2829b7160b1c01b":[9,6,0,0,0,1232,5],
+"classmeshlib_1_1std__shared__ptr__MR__DistanceMap.html#aa7096e946d80e1b4f2829b7160b1c01b":[9,6,1,0,0,1232,5],
 "classmeshlib_1_1std__shared__ptr__MR__DistanceMap.html#aac8b627d8bce81cbc0b332e0674d067d":[9,6,0,0,0,1232,8],
 "classmeshlib_1_1std__shared__ptr__MR__DistanceMap.html#aac8b627d8bce81cbc0b332e0674d067d":[9,6,1,0,0,1232,8],
 "classmeshlib_1_1std__shared__ptr__MR__DistanceMap.html#ab063117feaed5da1ca6f66dbec42d912":[9,6,0,0,0,1232,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX227 =
 "classmeshlib_1_1std__shared__ptr__MR__IFastWindingNumber.html#ac35c5d1c34726ab094720d44bcdb9fc8":[9,6,0,0,0,1240,7],
 "classmeshlib_1_1std__shared__ptr__MR__IFastWindingNumber.html#ac35c5d1c34726ab094720d44bcdb9fc8":[9,6,1,0,0,1240,7],
 "classmeshlib_1_1std__shared__ptr__MR__IFastWindingNumber.html#ad9492f5d68210b03a1bd207703ff5d34":[9,6,0,0,0,1240,8],
-"classmeshlib_1_1std__shared__ptr__MR__IFastWindingNumber.html#ad9492f5d68210b03a1bd207703ff5d34":[9,6,1,0,0,1240,8],
-"classmeshlib_1_1std__shared__ptr__MR__IFastWindingNumber.html#adfef2c2a25e87ab6652b0d6c1446ebff":[9,6,0,0,0,1240,11],
-"classmeshlib_1_1std__shared__ptr__MR__IFastWindingNumber.html#adfef2c2a25e87ab6652b0d6c1446ebff":[9,6,1,0,0,1240,11],
-"classmeshlib_1_1std__shared__ptr__MR__IFastWindingNumber.html#ae72d5e2e22472b9bb5e7b25b54e973e9":[9,6,0,0,0,1240,4],
-"classmeshlib_1_1std__shared__ptr__MR__IFastWindingNumber.html#ae72d5e2e22472b9bb5e7b25b54e973e9":[9,6,1,0,0,1240,4]
+"classmeshlib_1_1std__shared__ptr__MR__IFastWindingNumber.html#ad9492f5d68210b03a1bd207703ff5d34":[9,6,1,0,0,1240,8]
 };

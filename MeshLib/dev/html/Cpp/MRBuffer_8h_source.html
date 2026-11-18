@@ -176,8 +176,8 @@ $(function(){initNavTree('MRBuffer_8h_source.html','',''); });
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>};</div>
 </div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">template</span> &lt;std::constructible_from&lt;NoInit&gt; T&gt;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1NoCtor.html">NoCtor</a>&lt;T&gt;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">template</span> &lt;std::constructible_from&lt;NoInit&gt; T&gt; <span class="keyword">requires</span> ( !<a class="code hl_concept" href="conceptMR_1_1Trivial.html">Trivial&lt;T&gt;</a> )</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">struct</span> <a class="code hl_struct" href="structMR_1_1NoCtor.html">NoCtor&lt;T&gt;</a></div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>{</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga9043c90869c007f7262a6c843c881219">   47</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="group__GeneralGroup.html#ga5ad36941cb49b13cf04d17446b102370">type</a> = <a class="code hl_struct" href="structMR_1_1NoDefInit.html">NoDefInit&lt;T&gt;</a>;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>};</div>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX26 =
 {
+"MRChangeVoxelSelectionAction_8h.html#a06a6ee3bd75113d2faa63a51085ffad7":[9,2,2,0,0,0,0,4,3,8],
+"MRChangeVoxelSelectionAction_8h.html#a2a3b4624ad5d1b2d545fa1ef6dcb54e9":[9,2,2,0,0,0,0,4,3,10],
 "MRChangeVoxelSelectionAction_8h.html#a2bd64b90b39096768337d6d6f9173226":[9,2,2,0,0,0,0,4,3,3],
 "MRChangeVoxelSelectionAction_8h.html#a3687138e880e2d986efbb61efac7b39d":[9,2,2,0,0,0,0,4,3,1],
 "MRChangeVoxelSelectionAction_8h.html#a3a71bccf4b26045d8b0865eeb13a0c64":[9,2,2,0,0,0,0,4,3,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX26 =
 "MRCircleObject_8h.html#a50ebb6045ffae2195f3d79a5481c03db":[9,2,2,0,0,0,0,1,48,83],
 "MRCircleObject_8h.html#a515e22d62ce75b6dde5bf7928ff56ef4":[9,2,2,0,0,0,0,1,48,58],
 "MRCircleObject_8h.html#a522a23021a54e0667c47d4f159994a3b":[9,2,2,0,0,0,0,1,48,103],
-"MRCircleObject_8h.html#a5349a9cdb371cfc591ce958842a4b2be":[9,2,2,0,0,0,0,1,48,180],
-"MRCircleObject_8h.html#a5353fd0f23e142a961d86c7b95e22586":[9,2,2,0,0,0,0,1,48,23],
-"MRCircleObject_8h.html#a53a8e6b5d05eebf5a5aed6f79db95d42":[9,2,2,0,0,0,0,1,48,47]
+"MRCircleObject_8h.html#a5349a9cdb371cfc591ce958842a4b2be":[9,2,2,0,0,0,0,1,48,180]
 };

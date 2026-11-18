@@ -1,5 +1,9 @@
 var NAVTREEINDEX83 =
 {
+"classmrmeshpy_1_1ConstVector__VoxelId__FaceId.html#a1d83a11eef56a75fb28057460a938579":[9,1,0,0,2,1401,15],
+"classmrmeshpy_1_1ConstVector__VoxelId__FaceId.html#a1d83a11eef56a75fb28057460a938579":[9,1,1,0,1,1401,15],
+"classmrmeshpy_1_1ConstVector__VoxelId__FaceId.html#a2faaca3fb9c70363cc27513799cdeeb2":[9,1,0,0,2,1401,10],
+"classmrmeshpy_1_1ConstVector__VoxelId__FaceId.html#a2faaca3fb9c70363cc27513799cdeeb2":[9,1,1,0,1,1401,10],
 "classmrmeshpy_1_1ConstVector__VoxelId__FaceId.html#a33fc205eb1033e24c85a841180337787":[9,1,0,0,2,1401,13],
 "classmrmeshpy_1_1ConstVector__VoxelId__FaceId.html#a33fc205eb1033e24c85a841180337787":[9,1,1,0,1,1401,13],
 "classmrmeshpy_1_1ConstVector__VoxelId__FaceId.html#a40e0edb8640bd7cc4268453a2b6dbed8":[9,1,0,0,2,1401,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX83 =
 "classmrmeshpy_1_1ConstVector__float__Id__SurfaceDistanceStartTag.html#aee843507cd50f1f53568a5dd6c16b89b":[9,1,0,0,2,1350,8],
 "classmrmeshpy_1_1ConstVector__float__Id__SurfaceDistanceStartTag.html#aee843507cd50f1f53568a5dd6c16b89b":[9,1,1,0,1,1350,8],
 "classmrmeshpy_1_1ConstVector__float__Id__SurfaceDistanceStartTag.html#afed4d92968dc8a6fc660729e34717533":[9,1,0,0,2,1350,2],
-"classmrmeshpy_1_1ConstVector__float__Id__SurfaceDistanceStartTag.html#afed4d92968dc8a6fc660729e34717533":[9,1,1,0,1,1350,2],
-"classmrmeshpy_1_1ConstVector__int.html":[9,1,0,0,2,1358],
-"classmrmeshpy_1_1ConstVector__int.html":[9,1,1,0,1,1358],
-"classmrmeshpy_1_1ConstVector__int.html#a16106802d36b71a6244f3722e14e2097":[9,1,0,0,2,1358,16],
-"classmrmeshpy_1_1ConstVector__int.html#a16106802d36b71a6244f3722e14e2097":[9,1,1,0,1,1358,16]
+"classmrmeshpy_1_1ConstVector__float__Id__SurfaceDistanceStartTag.html#afed4d92968dc8a6fc660729e34717533":[9,1,1,0,1,1350,2]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX182 =
 {
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a95862f3641d430af63979ab82fe490b3":[9,5,0,0,0,3,3,13],
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a95862f3641d430af63979ab82fe490b3":[9,5,1,0,0,1,3,13],
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a9c78bdfbec645a8330f073de5d1202bf":[9,5,0,0,0,3,3,12],
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a9c78bdfbec645a8330f073de5d1202bf":[9,5,1,0,0,1,3,12],
 "structmeshlib_1_1features_1_1MeasureResult__Angle.html#aa440a60fc85b864abc6607126608052a":[9,5,0,0,0,3,3,4],
 "structmeshlib_1_1features_1_1MeasureResult__Angle.html#aa440a60fc85b864abc6607126608052a":[9,5,1,0,0,1,3,4],
 "structmeshlib_1_1features_1_1MeasureResult__Angle.html#aa70a67b25c02dbcb9f387fb48f193dca":[9,5,0,0,0,3,3,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX182 =
 "structmeshlib_1_1features_1_1traits_1_1Unary__MR__Sphere3f.html#a38317665536769304cf5e0b59ab4b6f8":[9,5,0,0,0,3,1,8,0],
 "structmeshlib_1_1features_1_1traits_1_1Unary__MR__Sphere3f.html#a38317665536769304cf5e0b59ab4b6f8":[9,5,1,0,0,1,1,8,0],
 "structmeshlib_1_1filling__surface_1_1Kind.html":[9,5,0,0,0,4,2],
-"structmeshlib_1_1filling__surface_1_1Kind.html":[9,5,1,0,0,2,2],
-"structmeshlib_1_1filling__surface_1_1cellular__surface_1_1Params.html":[9,5,0,0,0,4,0,0],
-"structmeshlib_1_1filling__surface_1_1cellular__surface_1_1Params.html":[9,5,1,0,0,2,0,0],
-"structmeshlib_1_1filling__surface_1_1cellular__surface_1_1Params.html#a145775f3bcb026f274c020e078b0250d":[9,5,0,0,0,4,0,0,0],
-"structmeshlib_1_1filling__surface_1_1cellular__surface_1_1Params.html#a145775f3bcb026f274c020e078b0250d":[9,5,1,0,0,2,0,0,0]
+"structmeshlib_1_1filling__surface_1_1Kind.html":[9,5,1,0,0,2,2]
 };

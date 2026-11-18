@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1Const__DracoSaveOptions.html#a6864094c7ee1ce8e6647d620fe313625":[9,3,0,0,0,431,16],
+"classMR_1_1Const__DracoSaveOptions.html#a716b144902d81515f5600841cea852ec":[9,3,0,0,0,431,26],
 "classMR_1_1Const__DracoSaveOptions.html#a721b33000b301c144ae9ea77956c77d5":[9,3,0,0,0,431,25],
 "classMR_1_1Const__DracoSaveOptions.html#a75dbb20ba5703570187d0e55dc97d55b":[9,3,0,0,0,431,4],
 "classMR_1_1Const__DracoSaveOptions.html#a77ca57a48ecb1048c7d50581e36aaf41":[9,3,0,0,0,431,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty_1_1ReachedVert.html#afe2fd7932c33c0b47680596970f1fb74":[9,3,0,0,0,439,1,5],
 "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty_1_1ReachedVert.html#afecf72bcc65343668011e76df8292d1f":[9,3,0,0,0,439,1,4],
 "classMR_1_1Const__EdgePoint.html":[9,3,0,0,0,440],
-"classMR_1_1Const__EdgePoint.html#a03993a04be1f5c19b9ddb5b92f21c5b3":[9,3,0,0,0,440,14],
-"classMR_1_1Const__EdgePoint.html#a09cf280366bfdb166fa7fcfa970b6281":[9,3,0,0,0,440,13],
-"classMR_1_1Const__EdgePoint.html#a15c2e101e9b3c2ba1d019f4a355b956e":[9,3,0,0,0,440,17]
+"classMR_1_1Const__EdgePoint.html#a03993a04be1f5c19b9ddb5b92f21c5b3":[9,3,0,0,0,440,14]
 };

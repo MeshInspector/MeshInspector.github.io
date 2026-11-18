@@ -1,5 +1,7 @@
 var NAVTREEINDEX106 =
 {
+"classMR_1_1FaceBMap.html#ad3388fd18746672b6db42b3dbdb64f0f":[9,3,0,0,0,1248,3],
+"classMR_1_1FaceBMap.html#af1adac89e8f2ff6e9452767fde362731":[9,3,0,0,0,1248,5],
 "classMR_1_1FaceBMap.html#af658984e113ea976da2427fb0243f33e":[9,3,0,0,0,1248,4],
 "classMR_1_1FaceBMap.html#affde7c86b3163c2c13283caf790a8dc1":[9,3,0,0,0,1248,0],
 "classMR_1_1FaceBitSet.html":[9,3,0,0,0,1247],
@@ -247,7 +249,5 @@ var NAVTREEINDEX106 =
 "classMR_1_1FastInSphereTesterSoS.html#aab38706dafdc4af3afffd805ac5dffda":[9,3,0,0,0,1262,6],
 "classMR_1_1FastInSphereTesterSoS.html#ac73d86d8f7542a4aa459251d24e999c9":[9,3,0,0,0,1262,3],
 "classMR_1_1FastInSphereTesterSoS.html#adb798f9ce171972d35b88665c32ded3d":[9,3,0,0,0,1262,1],
-"classMR_1_1FastInSphereTesterSoS.html#aef7a73351747c7528f0b7455e7153d6a":[9,3,0,0,0,1262,0],
-"classMR_1_1FastWindingNumber.html":[9,3,0,0,0,1263],
-"classMR_1_1FastWindingNumber.html#a0166c793643866bc0ff38c55d0ee5b2a":[9,3,0,0,0,1263,6]
+"classMR_1_1FastInSphereTesterSoS.html#aef7a73351747c7528f0b7455e7153d6a":[9,3,0,0,0,1262,0]
 };

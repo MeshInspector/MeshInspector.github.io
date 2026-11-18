@@ -1,5 +1,9 @@
 var NAVTREEINDEX198 =
 {
+"structmeshlib_1_1std__optional__MR__PolylineIntersectionResult2.html#a568eb90b3c37a25e859b814962005025":[9,5,0,0,0,1087,4],
+"structmeshlib_1_1std__optional__MR__PolylineIntersectionResult2.html#a568eb90b3c37a25e859b814962005025":[9,5,1,0,0,1074,4],
+"structmeshlib_1_1std__optional__MR__PolylineIntersectionResult2.html#ad8e5d44d6cc913aed2f8fe5f93705af5":[9,5,0,0,0,1087,2],
+"structmeshlib_1_1std__optional__MR__PolylineIntersectionResult2.html#ad8e5d44d6cc913aed2f8fe5f93705af5":[9,5,1,0,0,1074,2],
 "structmeshlib_1_1std__optional__MR__PolylineIntersectionResult2.html#adaaf5f7fc5ca6ba0ce9c5998dbf1cef7":[9,5,0,0,0,1087,3],
 "structmeshlib_1_1std__optional__MR__PolylineIntersectionResult2.html#adaaf5f7fc5ca6ba0ce9c5998dbf1cef7":[9,5,1,0,0,1074,3],
 "structmeshlib_1_1std__optional__MR__PolylineIntersectionResult2.html#aee4674c4704f0c332d83d12df0e513c6":[9,5,0,0,0,1087,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX198 =
 "structmeshlib_1_1std__optional__std__vector__MR__SomeLocalTriangulations.html#ae71bc2032ee5bdde34dc4e938bd5c172":[9,5,0,0,0,1105,2],
 "structmeshlib_1_1std__optional__std__vector__MR__SomeLocalTriangulations.html#ae71bc2032ee5bdde34dc4e938bd5c172":[9,5,1,0,0,1092,2],
 "structmeshlib_1_1std__optional__std__vector__std__string.html":[9,5,0,0,0,1106],
-"structmeshlib_1_1std__optional__std__vector__std__string.html":[9,5,1,0,0,1093],
-"structmeshlib_1_1std__optional__std__vector__std__string.html#a658523ff0993a725acaa9f4bb4edfd91":[9,5,0,0,0,1106,3],
-"structmeshlib_1_1std__optional__std__vector__std__string.html#a658523ff0993a725acaa9f4bb4edfd91":[9,5,1,0,0,1093,3],
-"structmeshlib_1_1std__optional__std__vector__std__string.html#a8cc07b3f9cc805009818667d6939529d":[9,5,0,0,0,1106,4],
-"structmeshlib_1_1std__optional__std__vector__std__string.html#a8cc07b3f9cc805009818667d6939529d":[9,5,1,0,0,1093,4]
+"structmeshlib_1_1std__optional__std__vector__std__string.html":[9,5,1,0,0,1093]
 };

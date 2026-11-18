@@ -1,5 +1,7 @@
 var NAVTREEINDEX101 =
 {
+"classMR_1_1ConstantCuspParams.html#afdaeb2ad11dae945772c8953b6fc9c49":[9,3,0,0,0,1102,17],
+"classMR_1_1ContourToDistanceMapParams.html":[9,3,0,0,0,1170],
 "classMR_1_1ContourToDistanceMapParams.html#a03b605a0662efa22e68126a1b6a03e9f":[9,3,0,0,0,1170,8],
 "classMR_1_1ContourToDistanceMapParams.html#a0e8fbf52ca697a54037361f5ad6f6a06":[9,3,0,0,0,1170,9],
 "classMR_1_1ContourToDistanceMapParams.html#a18df9060bfa264f6f97379b577ead814":[9,3,0,0,0,1170,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX101 =
 "classMR_1_1Cuda_1_1PointsProjector.html#a526fefc1ce55ab3078decd7fb0bfcada":[9,3,0,0,0,1179,10,5],
 "classMR_1_1Cuda_1_1PointsProjector.html#aa9f52d5cbc95260813ee5d1523609a71":[9,3,0,0,0,1179,10,3],
 "classMR_1_1Cuda_1_1PointsProjector.html#ab7500e9afbdc90e21f0dffc4d0d3aef1":[9,3,0,0,0,1179,10,0],
-"classMR_1_1Cuda_1_1PointsProjector.html#acd3c4cbb3aa5663760ede1e6b7cd537c":[9,3,0,0,0,1179,10,7],
-"classMR_1_1Cuda_1_1PointsToMeshProjector.html":[9,3,0,0,0,1179,11],
-"classMR_1_1Cuda_1_1PointsToMeshProjector.html#a010f47e518381d390ef0f4f3a26425d0":[9,3,0,0,0,1179,11,1]
+"classMR_1_1Cuda_1_1PointsProjector.html#acd3c4cbb3aa5663760ede1e6b7cd537c":[9,3,0,0,0,1179,10,7]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX124 =
 {
+"structmeshlib_1_1SharpOffsetParameters.html#a119348c17b831bbff09f6237de4fb754":[9,5,0,0,0,927,13],
+"structmeshlib_1_1SharpOffsetParameters.html#a119348c17b831bbff09f6237de4fb754":[9,5,1,0,0,914,13],
+"structmeshlib_1_1SharpOffsetParameters.html#a144cb01b523d4b8d91cbd392c5854d2f":[9,5,0,0,0,927,51],
+"structmeshlib_1_1SharpOffsetParameters.html#a144cb01b523d4b8d91cbd392c5854d2f":[9,5,1,0,0,914,51],
 "structmeshlib_1_1SharpOffsetParameters.html#a15a7dfae79d9ead79bc9fc7314895c43":[9,5,0,0,0,927,46],
 "structmeshlib_1_1SharpOffsetParameters.html#a15a7dfae79d9ead79bc9fc7314895c43":[9,5,1,0,0,914,46],
 "structmeshlib_1_1SharpOffsetParameters.html#a18b35f52d8c93e684fbddf56ce2db12e":[9,5,0,0,0,927,44],
@@ -245,9 +249,5 @@ var NAVTREEINDEX124 =
 "structmeshlib_1_1Side.html":[9,5,0,0,0,930],
 "structmeshlib_1_1Side.html":[9,5,1,0,0,917],
 "structmeshlib_1_1SignDetectionMode.html":[9,5,0,0,0,931],
-"structmeshlib_1_1SignDetectionMode.html":[9,5,1,0,0,918],
-"structmeshlib_1_1SignDetectionModeShort.html":[9,5,0,0,0,932],
-"structmeshlib_1_1SignDetectionModeShort.html":[9,5,1,0,0,919],
-"structmeshlib_1_1SignedDistanceToMeshOptions.html":[9,5,0,0,0,933],
-"structmeshlib_1_1SignedDistanceToMeshOptions.html":[9,5,1,0,0,920]
+"structmeshlib_1_1SignDetectionMode.html":[9,5,1,0,0,918]
 };

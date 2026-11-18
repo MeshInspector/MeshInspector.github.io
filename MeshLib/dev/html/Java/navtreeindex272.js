@@ -1,5 +1,9 @@
 var NAVTREEINDEX272 =
 {
+"phmap__flat__hash__map__int__MR__Box3i__phmap__Hash__int32__t__phmap__EqualTo__int__MR__Allocato2bdc9f9e2f4611b7f2ec74d601c2aae1.html":[9,6,2,0,0,1,0,0,22,0],
+"phmap__flat__hash__map__int__MR__Box3i__phmap__Hash__int32__t__phmap__EqualTo__int__MR__Allocato33f7967c5673d3665d3b661c567e4642.html":[9,6,2,0,0,1,0,0,22,1],
+"phmap__flat__hash__map__size__t__size__t__phmap__Hash__size__t__phmap__EqualTo__size__t__MR__All59c122f6bd0f20f5d90d93a139fd61e3.html":[9,6,2,0,0,1,0,0,22,41],
+"phmap__flat__hash__map__size__t__size__t__phmap__Hash__size__t__phmap__EqualTo__size__t__MR__Allcc29cf89ee51fcc88b24b795c76b36c6.html":[9,6,2,0,0,1,0,0,22,40],
 "phmap__flat__hash__map__size__t__std__array__MR__VertId__3__phmap__Hash__size__t__phmap__EqualTocbeb82783bb7c4415b3e636b1d0aea48.html":[9,6,2,0,0,1,0,0,22,42],
 "phmap__flat__hash__map__size__t__std__array__MR__VertId__3__phmap__Hash__size__t__phmap__EqualTof6acf9a6322fdd1e4ff93f737b3abc72.html":[9,6,2,0,0,1,0,0,22,43],
 "phmap__flat__hash__map__std__filesystem__path__std__string__phmap__Hash__std__filesystem__path__6949f1970927cdb8a7c84fabac016b20.html":[9,6,2,0,0,1,0,0,22,45],
@@ -245,9 +249,5 @@ var NAVTREEINDEX272 =
 "std__shared__ptr__MR__ChangeMeshPointsAction_8java.html":[9,6,2,0,0,1,0,0,1197],
 "std__shared__ptr__MR__ChangeMeshTexturePerFaceAction_8java.html":[9,6,2,0,0,1,0,0,1198],
 "std__shared__ptr__MR__ChangeMeshTopologyAction_8java.html":[9,6,2,0,0,1,0,0,1199],
-"std__shared__ptr__MR__ChangeMeshUVCoordsAction_8java.html":[9,6,2,0,0,1,0,0,1200],
-"std__shared__ptr__MR__ChangeNameAction_8java.html":[9,6,2,0,0,1,0,0,1201],
-"std__shared__ptr__MR__ChangeObjectAction_8java.html":[9,6,2,0,0,1,0,0,1202],
-"std__shared__ptr__MR__ChangeObjectColorAction_8java.html":[9,6,2,0,0,1,0,0,1203],
-"std__shared__ptr__MR__ChangeObjectSelectedAction_8java.html":[9,6,2,0,0,1,0,0,1204]
+"std__shared__ptr__MR__ChangeMeshUVCoordsAction_8java.html":[9,6,2,0,0,1,0,0,1200]
 };
