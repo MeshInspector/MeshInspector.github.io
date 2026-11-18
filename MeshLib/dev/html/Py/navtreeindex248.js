@@ -1,5 +1,7 @@
 var NAVTREEINDEX248 =
 {
+"classmrviewerpy_1_1ViewerSetup.html":[9,1,0,0,3,27],
+"classmrviewerpy_1_1ViewerSetup.html":[9,1,1,0,2,27],
 "classmrviewerpy_1_1ViewerSetup.html#a106f12e6e53465649b474bd0a781cce4":[9,1,0,0,3,27,1],
 "classmrviewerpy_1_1ViewerSetup.html#a106f12e6e53465649b474bd0a781cce4":[9,1,1,0,2,27,1],
 "classmrviewerpy_1_1ViewerSetup.html#a3c8f3c359be1f83010a91b7f9c5e6a34":[9,1,0,0,3,27,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX248 =
 "namespacemembers_s.html":[9,1,0,1,0,17],
 "namespacemembers_t.html":[9,1,0,1,0,18],
 "namespacemembers_u.html":[9,1,0,1,0,19],
-"namespacemembers_v.html":[9,1,0,1,0,20],
-"namespacemembers_vars.html":[9,1,0,1,2],
-"namespacemembers_vars.html":[9,1,0,1,2,0]
+"namespacemembers_v.html":[9,1,0,1,0,20]
 };

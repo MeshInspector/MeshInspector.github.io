@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[9,0,0,19,910],
 "structMR_1_1TerminalVertex.html":[9,0,0,19,216],
 "structMR_1_1TextMeshAlignParams.html":[9,0,0,19,574],
 "structMR_1_1ThickenParams.html":[9,0,0,19,434],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1UnorientedTriangle.html":[9,0,0,19,552],
 "structMR_1_1VacantElements.html":[9,0,0,19,387],
 "structMR_1_1VarEdgeTri.html":[9,0,0,1,21],
-"structMR_1_1VarEdgeTri.html#a0b24a1fdcebee2cef32bf0884f9625fc":[9,0,0,1,21,6],
-"structMR_1_1VarEdgeTri.html#a2845a94e12c71150e5cc22e2c03a027d":[9,0,0,1,21,4]
+"structMR_1_1VarEdgeTri.html#a0b24a1fdcebee2cef32bf0884f9625fc":[9,0,0,1,21,6]
 };

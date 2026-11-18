@@ -3351,7 +3351,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.computeSurfaceDistances", "namespacemrmeshpy.html#a7e8bba57f352d96b4b1f30589a35e420", null ],
     [ "mrmeshpy.computeSurfaceDistances", "namespacemrmeshpy.html#af0e25c2a379197c6dfd7c607ebb1f7b7", null ],
     [ "mrmeshpy.computeSurfaceDistances", "namespacemrmeshpy.html#ae520b001bcb69d2bc67676ca5582033c", null ],
-    [ "mrmeshpy.computeSurfaceDistances", "namespacemrmeshpy.html#a57b7f86716bdb91ffdd6b55bb003c3c3", null ],
+    [ "mrmeshpy.computeSurfaceDistances", "namespacemrmeshpy.html#a790be5cf2219806d2c3e34cfddabd0ad", null ],
     [ "mrmeshpy.computeSurfaceDistances", "namespacemrmeshpy.html#a68b09cd2c53c2147ff2ccab002a22267", null ],
     [ "mrmeshpy.computeSurfaceDistances", "namespacemrmeshpy.html#ad8c6a72788da64be7cc9a8e20496487a", null ],
     [ "mrmeshpy.computeSurfaceDistances", "namespacemrmeshpy.html#a05e34d9cf21029e1a8454980a6b6f0ef", null ],

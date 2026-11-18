@@ -1,5 +1,7 @@
 var NAVTREEINDEX207 =
 {
+"structmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts.html#aff7793a079fb6d3dc3bd851acaabdf0d":[9,5,0,0,0,1228,4],
+"structmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts.html#aff7793a079fb6d3dc3bd851acaabdf0d":[9,5,1,0,0,1215,4],
 "structmeshlib_1_1std__shared__ptr__MR__IFastWindingNumber.html":[9,5,0,0,0,1229],
 "structmeshlib_1_1std__shared__ptr__MR__IFastWindingNumber.html":[9,5,1,0,0,1216],
 "structmeshlib_1_1std__shared__ptr__MR__IFastWindingNumber.html#a018c51a362e60305737c7a2ba01ce4fd":[9,5,0,0,0,1229,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX207 =
 "structmeshlib_1_1std__shared__ptr__MR__ObjectDistanceMap.html#a190167ddaceb5ba6ef3cdf7ccbd3d7f6":[9,5,0,0,0,1240,5],
 "structmeshlib_1_1std__shared__ptr__MR__ObjectDistanceMap.html#a190167ddaceb5ba6ef3cdf7ccbd3d7f6":[9,5,1,0,0,1227,5],
 "structmeshlib_1_1std__shared__ptr__MR__ObjectDistanceMap.html#a1ee73183ebf07eb276a48e8313a07fd1":[9,5,0,0,0,1240,4],
-"structmeshlib_1_1std__shared__ptr__MR__ObjectDistanceMap.html#a1ee73183ebf07eb276a48e8313a07fd1":[9,5,1,0,0,1227,4],
-"structmeshlib_1_1std__shared__ptr__MR__ObjectDistanceMap.html#a37e677f29ecb2fc99283ac82b1d78cdf":[9,5,0,0,0,1240,3],
-"structmeshlib_1_1std__shared__ptr__MR__ObjectDistanceMap.html#a37e677f29ecb2fc99283ac82b1d78cdf":[9,5,1,0,0,1227,3]
+"structmeshlib_1_1std__shared__ptr__MR__ObjectDistanceMap.html#a1ee73183ebf07eb276a48e8313a07fd1":[9,5,1,0,0,1227,4]
 };

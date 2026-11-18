@@ -1,5 +1,7 @@
 var NAVTREEINDEX168 =
 {
+"structmeshlib_1_1Vector__unsigned__short__MR__VoxelId.html#aeba656329fc88e89fd7cca074069a71e":[9,5,0,0,0,1664,24],
+"structmeshlib_1_1Vector__unsigned__short__MR__VoxelId.html#aeba656329fc88e89fd7cca074069a71e":[9,5,1,0,0,1651,24],
 "structmeshlib_1_1VersatileChangeMeshPointsAction.html":[9,5,0,0,0,1665],
 "structmeshlib_1_1VersatileChangeMeshPointsAction.html":[9,5,1,0,0,1652],
 "structmeshlib_1_1VersatileChangeMeshPointsAction.html#a51d8f7e34fe75d7f9aecc010744e907c":[9,5,0,0,0,1665,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX168 =
 "structmeshlib_1_1VertColorMapAggregator.html#aa37c4d1f5b746476565c42c068915a52":[9,5,0,0,0,1669,6],
 "structmeshlib_1_1VertColorMapAggregator.html#aa37c4d1f5b746476565c42c068915a52":[9,5,1,0,0,1656,6],
 "structmeshlib_1_1VertColorMapAggregator.html#aa3bf2c8b62f075d0999e3b7953efa796":[9,5,0,0,0,1669,1],
-"structmeshlib_1_1VertColorMapAggregator.html#aa3bf2c8b62f075d0999e3b7953efa796":[9,5,1,0,0,1656,1],
-"structmeshlib_1_1VertColorMapAggregator.html#aa5e55695de58efaa66ca782680572951":[9,5,0,0,0,1669,8],
-"structmeshlib_1_1VertColorMapAggregator.html#aa5e55695de58efaa66ca782680572951":[9,5,1,0,0,1656,8]
+"structmeshlib_1_1VertColorMapAggregator.html#aa3bf2c8b62f075d0999e3b7953efa796":[9,5,1,0,0,1656,1]
 };

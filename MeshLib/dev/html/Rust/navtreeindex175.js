@@ -1,5 +1,7 @@
 var NAVTREEINDEX175 =
 {
+"structmeshlib_1_1WatershedGraph__BasinInfo.html#abff7f5c63c5e735ee7ce32063469fd9c":[9,5,0,0,0,1721,16],
+"structmeshlib_1_1WatershedGraph__BasinInfo.html#abff7f5c63c5e735ee7ce32063469fd9c":[9,5,1,0,0,1708,16],
 "structmeshlib_1_1WatershedGraph__BasinInfo.html#ad22908076fcdbd7a2b61aa1ada584629":[9,5,0,0,0,1721,14],
 "structmeshlib_1_1WatershedGraph__BasinInfo.html#ad22908076fcdbd7a2b61aa1ada584629":[9,5,1,0,0,1708,14],
 "structmeshlib_1_1WatershedGraph__BasinInfo.html#ad2f078fde0ae34e6e9c625ae3bf15d2e":[9,5,0,0,0,1721,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX175 =
 "structmeshlib_1_1ZlibCompressParams.html#aec2a9de9caecc77814c7649b5e166ba7":[9,5,0,0,0,1732,3],
 "structmeshlib_1_1ZlibCompressParams.html#aec2a9de9caecc77814c7649b5e166ba7":[9,5,1,0,0,1719,3],
 "structmeshlib_1_1ZlibCompressParams.html#afdc09def4084368f220a5f497ecafd3b":[9,5,0,0,0,1732,11],
-"structmeshlib_1_1ZlibCompressParams.html#afdc09def4084368f220a5f497ecafd3b":[9,5,1,0,0,1719,11],
-"structmeshlib_1_1ZlibCompressStats.html":[9,5,0,0,0,1733],
-"structmeshlib_1_1ZlibCompressStats.html":[9,5,1,0,0,1720]
+"structmeshlib_1_1ZlibCompressParams.html#afdc09def4084368f220a5f497ecafd3b":[9,5,1,0,0,1719,11]
 };

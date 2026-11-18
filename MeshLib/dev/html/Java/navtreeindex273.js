@@ -1,5 +1,7 @@
 var NAVTREEINDEX273 =
 {
+"std__pair__MR__EdgeId__MR__EdgeId_8java.html":[9,6,2,0,0,1,0,0,1148],
+"std__pair__MR__Face2RegionMap__int_8java.html":[9,6,2,0,0,1,0,0,1149],
 "std__pair__MR__FaceBitSet__MR__FaceBitSet_8java.html":[9,6,2,0,0,1,0,0,1151],
 "std__pair__MR__FaceBitSet__int_8java.html":[9,6,2,0,0,1,0,0,1150],
 "std__pair__MR__FaceId__bool_8java.html":[9,6,2,0,0,1,0,0,1152],
@@ -247,7 +249,5 @@ var NAVTREEINDEX273 =
 "std__vector__MR__Mesh__ptr_8java.html":[9,6,2,0,0,1,0,0,1367],
 "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8java.html":[9,6,2,0,0,1,0,0,1378],
 "std__vector__MR__Nesting__BoxNestingCorner_8java.html":[9,6,2,0,0,1,0,0,1379],
-"std__vector__MR__Nesting__MeshXf__MR__Allocator__MR__Nesting__MeshXf_8java.html":[9,6,2,0,0,1,0,0,1380],
-"std__vector__MR__Nesting__NestingResult__MR__Allocator__MR__Nesting__NestingResult_8java.html":[9,6,2,0,0,1,0,0,1381],
-"std__vector__MR__NodeId_8java.html":[9,6,2,0,0,1,0,0,1382]
+"std__vector__MR__Nesting__MeshXf__MR__Allocator__MR__Nesting__MeshXf_8java.html":[9,6,2,0,0,1,0,0,1380]
 };

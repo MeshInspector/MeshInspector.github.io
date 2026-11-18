@@ -183,6 +183,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a0d61abea32c8bc38fa836daf5f00f7a6" id="r_a0d61abea32c8bc38fa836daf5f00f7a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d61abea32c8bc38fa836daf5f00f7a6">MR_SurfaceDistanceBuilder_addStartEdgesAndPoints</a> (<a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *startEdges, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *startPoints, float startDistance)</td></tr>
 <tr class="memitem:a715f015deeb1227fe9733fb9a1e17bcd" id="r_a715f015deeb1227fe9733fb9a1e17bcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a715f015deeb1227fe9733fb9a1e17bcd">MR_SurfaceDistanceBuilder_addStart</a> (<a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start)</td></tr>
 <tr class="memitem:a5a369594526fe4bc6cf192edab1d8d02" id="r_a5a369594526fe4bc6cf192edab1d8d02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a369594526fe4bc6cf192edab1d8d02">MR_SurfaceDistanceBuilder_setMaxVertUpdates</a> (<a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this, int v)</td></tr>
+<tr class="memitem:a3d41d350514f9e9804931da858953bf4" id="r_a3d41d350514f9e9804931da858953bf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d41d350514f9e9804931da858953bf4">MR_SurfaceDistanceBuilder_setNoLocalMinima</a> (<a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this, bool on)</td></tr>
 <tr class="memitem:a0ec70674d6412513e8008d61c284c453" id="r_a0ec70674d6412513e8008d61c284c453"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ec70674d6412513e8008d61c284c453">MR_SurfaceDistanceBuilder_growOne</a> (<a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this)</td></tr>
 <tr class="memitem:afaba551cd740629f35a507d191c23cdf" id="r_afaba551cd740629f35a507d191c23cdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaba551cd740629f35a507d191c23cdf">MR_SurfaceDistanceBuilder_takeDistanceMap</a> (<a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this)</td></tr>
 <tr class="memitem:a8f06fc03d4617e504b853df22e4bfb11" id="r_a8f06fc03d4617e504b853df22e4bfb11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f06fc03d4617e504b853df22e4bfb11">MR_SurfaceDistanceBuilder_done</a> (const <a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this)</td></tr>
@@ -604,6 +605,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>the maximum amount of times vertex distance can be updated in [1,255], 3 by default; the more the better obtuse triangles are handled Generated from method <span class="tt">MR::SurfaceDistanceBuilder::setMaxVertUpdates</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a3d41d350514f9e9804931da858953bf4" name="a3d41d350514f9e9804931da858953bf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d41d350514f9e9804931da858953bf4">&#9670;&#160;</a></span>MR_SurfaceDistanceBuilder_setNoLocalMinima()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SurfaceDistanceBuilder_setNoLocalMinima </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>on</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true, then a distance computed in a triangle is always larger than the smaller distance in its other two vertices, so every reached vertex except the vertices around the start has a neighbor with smaller distance, and the steepest descent from any reached point arrives to the start; distances near the start and near obtuse or thin triangles become larger, and some distances computed from them can become a bit smaller Generated from method <span class="tt">MR::SurfaceDistanceBuilder::setNoLocalMinima</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

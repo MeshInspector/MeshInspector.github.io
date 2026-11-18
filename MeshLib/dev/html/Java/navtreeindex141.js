@@ -1,5 +1,7 @@
 var NAVTREEINDEX141 =
 {
+"classmeshlib_1_1TriTriDistanceParams__double.html#a76f260ff3d002c39f53751b85b95e173":[9,6,0,0,0,1545,3],
+"classmeshlib_1_1TriTriDistanceParams__double.html#a76f260ff3d002c39f53751b85b95e173":[9,6,1,0,0,1545,3],
 "classmeshlib_1_1TriTriDistanceParams__double.html#ab3ae125453a073f3a1cb881ff411607b":[9,6,0,0,0,1545,1],
 "classmeshlib_1_1TriTriDistanceParams__double.html#ab3ae125453a073f3a1cb881ff411607b":[9,6,1,0,0,1545,1],
 "classmeshlib_1_1TriTriDistanceParams__double.html#ac3923650b5281e0fe218c8c0792703f3":[9,6,0,0,0,1545,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX141 =
 "classmeshlib_1_1TriangulationParameters.html":[9,6,0,0,0,1536],
 "classmeshlib_1_1TriangulationParameters.html":[9,6,1,0,0,1536],
 "classmeshlib_1_1TriangulationParameters.html#a00f3bd7eeb41fb0f9cd3482863cf381c":[9,6,0,0,0,1536,3],
-"classmeshlib_1_1TriangulationParameters.html#a00f3bd7eeb41fb0f9cd3482863cf381c":[9,6,1,0,0,1536,3],
-"classmeshlib_1_1TriangulationParameters.html#a0258b03f102c25296aeec0549a8e31d7":[9,6,0,0,0,1536,5],
-"classmeshlib_1_1TriangulationParameters.html#a0258b03f102c25296aeec0549a8e31d7":[9,6,1,0,0,1536,5]
+"classmeshlib_1_1TriangulationParameters.html#a00f3bd7eeb41fb0f9cd3482863cf381c":[9,6,1,0,0,1536,3]
 };

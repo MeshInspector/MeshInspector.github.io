@@ -1,5 +1,7 @@
 var NAVTREEINDEX247 =
 {
+"classmrviewerpy_1_1ConstUiValueUint.html#a64eaa9d2de8806baf291904fb9d290fd":[9,1,0,0,3,6,1],
+"classmrviewerpy_1_1ConstUiValueUint.html#a64eaa9d2de8806baf291904fb9d290fd":[9,1,1,0,2,6,1],
 "classmrviewerpy_1_1ConstUiValueUint.html#af1ae0a539a85cbc34e985b128e9c520a":[9,1,0,0,3,6,3],
 "classmrviewerpy_1_1ConstUiValueUint.html#af1ae0a539a85cbc34e985b128e9c520a":[9,1,1,0,2,6,3],
 "classmrviewerpy_1_1ConstViewer.html":[9,1,0,0,3,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX247 =
 "classmrviewerpy_1_1ViewerLaunchParamsMode.html#ab354118e2972276c92419cd0b09a4f24":[9,1,0,0,3,26,0],
 "classmrviewerpy_1_1ViewerLaunchParamsMode.html#ab354118e2972276c92419cd0b09a4f24":[9,1,1,0,2,26,0],
 "classmrviewerpy_1_1ViewerLaunchParamsMode.html#adbebd78b0e8ac62a634c854a07cbec2f":[9,1,0,0,3,26,2],
-"classmrviewerpy_1_1ViewerLaunchParamsMode.html#adbebd78b0e8ac62a634c854a07cbec2f":[9,1,1,0,2,26,2],
-"classmrviewerpy_1_1ViewerSetup.html":[9,1,0,0,3,27],
-"classmrviewerpy_1_1ViewerSetup.html":[9,1,1,0,2,27]
+"classmrviewerpy_1_1ViewerLaunchParamsMode.html#adbebd78b0e8ac62a634c854a07cbec2f":[9,1,1,0,2,26,2]
 };

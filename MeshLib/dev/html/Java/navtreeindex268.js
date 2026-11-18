@@ -1,5 +1,7 @@
 var NAVTREEINDEX268 =
 {
+"classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#ab0d1f3ddb9fd5c49b3bb6d6a9c8c9782":[9,6,0,0,0,33,0,5],
+"classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#ab0d1f3ddb9fd5c49b3bb6d6a9c8c9782":[9,6,1,0,0,33,0,5],
 "classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#ac6876d2439979421cab35b8691125071":[9,6,0,0,0,33,0,9],
 "classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#ac6876d2439979421cab35b8691125071":[9,6,1,0,0,33,0,9],
 "classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#ada2bff1e47d32310755f128d9b226999":[9,6,0,0,0,33,0,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX268 =
 "classmeshlib_1_1voxelsload_1_1RawParameters.html#aeda482a0bef8901d1ec735b2f55d406e":[9,6,0,0,0,34,7,12],
 "classmeshlib_1_1voxelsload_1_1RawParameters.html#aeda482a0bef8901d1ec735b2f55d406e":[9,6,1,0,0,34,7,12],
 "classmeshlib_1_1voxelssave_1_1Functions.html":[9,6,0,0,0,35,0],
-"classmeshlib_1_1voxelssave_1_1Functions.html":[9,6,1,0,0,35,0],
-"classmeshlib_1_1voxelssave_1_1SavingSettings.html":[9,6,0,0,0,35,1],
-"classmeshlib_1_1voxelssave_1_1SavingSettings.html":[9,6,1,0,0,35,1]
+"classmeshlib_1_1voxelssave_1_1Functions.html":[9,6,1,0,0,35,0]
 };

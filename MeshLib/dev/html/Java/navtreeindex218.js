@@ -1,5 +1,7 @@
 var NAVTREEINDEX218 =
 {
+"classmeshlib_1_1std__pair__MR__UndirectedEdgeId__bool.html#aefb7b7ea3b383372e6d17fb49b6bd82d":[9,6,0,0,0,1157,2],
+"classmeshlib_1_1std__pair__MR__UndirectedEdgeId__bool.html#aefb7b7ea3b383372e6d17fb49b6bd82d":[9,6,1,0,0,1157,2],
 "classmeshlib_1_1std__pair__MR__Vector3d__MR__TriPointd.html":[9,6,0,0,0,1158],
 "classmeshlib_1_1std__pair__MR__Vector3d__MR__TriPointd.html":[9,6,1,0,0,1158],
 "classmeshlib_1_1std__pair__MR__Vector3d__MR__TriPointd.html#a201803bd2615b673d77613bdf965606d":[9,6,0,0,0,1158,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX218 =
 "classmeshlib_1_1std__pair__const__MR__Id__MR__SurfaceDistanceStartTag__MR__Id__MR__SurfaceDistanceStartTag.html#a3a26d348d51d8a04f7da3672499ded7f":[9,6,0,0,0,1126,0],
 "classmeshlib_1_1std__pair__const__MR__Id__MR__SurfaceDistanceStartTag__MR__Id__MR__SurfaceDistanceStartTag.html#a3a26d348d51d8a04f7da3672499ded7f":[9,6,1,0,0,1126,0],
 "classmeshlib_1_1std__pair__const__MR__Id__MR__SurfaceDistanceStartTag__MR__Id__MR__SurfaceDistanceStartTag.html#a537d353e72b555533f0134928a480809":[9,6,0,0,0,1126,4],
-"classmeshlib_1_1std__pair__const__MR__Id__MR__SurfaceDistanceStartTag__MR__Id__MR__SurfaceDistanceStartTag.html#a537d353e72b555533f0134928a480809":[9,6,1,0,0,1126,4],
-"classmeshlib_1_1std__pair__const__MR__Id__MR__SurfaceDistanceStartTag__MR__Id__MR__SurfaceDistanceStartTag.html#a60ceb5f96514c2a44e9ee46a7090a97f":[9,6,0,0,0,1126,1],
-"classmeshlib_1_1std__pair__const__MR__Id__MR__SurfaceDistanceStartTag__MR__Id__MR__SurfaceDistanceStartTag.html#a60ceb5f96514c2a44e9ee46a7090a97f":[9,6,1,0,0,1126,1]
+"classmeshlib_1_1std__pair__const__MR__Id__MR__SurfaceDistanceStartTag__MR__Id__MR__SurfaceDistanceStartTag.html#a537d353e72b555533f0134928a480809":[9,6,1,0,0,1126,4]
 };

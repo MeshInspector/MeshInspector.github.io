@@ -140,8 +140,10 @@ var NAVTREEINDEX129 =
 "structmeshlib_1_1SurfaceDistanceBuilder.html#a3f3a8824eca2020c5180f3571df4b9a2":[9,5,1,0,0,1468,3],
 "structmeshlib_1_1SurfaceDistanceBuilder.html#a61049fbf7337e473a9809606a6a00005":[9,5,0,0,0,1481,7],
 "structmeshlib_1_1SurfaceDistanceBuilder.html#a61049fbf7337e473a9809606a6a00005":[9,5,1,0,0,1468,7],
-"structmeshlib_1_1SurfaceDistanceBuilder.html#a6ec2173b9b093615a87c7f87c8af5ccb":[9,5,0,0,0,1481,8],
-"structmeshlib_1_1SurfaceDistanceBuilder.html#a6ec2173b9b093615a87c7f87c8af5ccb":[9,5,1,0,0,1468,8],
+"structmeshlib_1_1SurfaceDistanceBuilder.html#a6ec2173b9b093615a87c7f87c8af5ccb":[9,5,0,0,0,1481,9],
+"structmeshlib_1_1SurfaceDistanceBuilder.html#a6ec2173b9b093615a87c7f87c8af5ccb":[9,5,1,0,0,1468,9],
+"structmeshlib_1_1SurfaceDistanceBuilder.html#a8d058d3934bb175c9e4a62dcfd4efb4c":[9,5,0,0,0,1481,8],
+"structmeshlib_1_1SurfaceDistanceBuilder.html#a8d058d3934bb175c9e4a62dcfd4efb4c":[9,5,1,0,0,1468,8],
 "structmeshlib_1_1SurfaceDistanceBuilder.html#ab4f81ad89eafbe57d11530f9ed17bf17":[9,5,0,0,0,1481,0],
 "structmeshlib_1_1SurfaceDistanceBuilder.html#ab4f81ad89eafbe57d11530f9ed17bf17":[9,5,1,0,0,1468,0],
 "structmeshlib_1_1SurfaceDistanceBuilder.html#abdf7835a1ea052b2ba923b3bbd2b03e6":[9,5,0,0,0,1481,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX129 =
 "structmeshlib_1_1SymMatrix2f.html#a07c0786a6ce17569496c40da8fc0a2f2":[9,5,0,0,0,1485,9],
 "structmeshlib_1_1SymMatrix2f.html#a07c0786a6ce17569496c40da8fc0a2f2":[9,5,1,0,0,1472,9],
 "structmeshlib_1_1SymMatrix2f.html#a07ec1c192d9e2214869520a241c554b2":[9,5,0,0,0,1485,20],
-"structmeshlib_1_1SymMatrix2f.html#a07ec1c192d9e2214869520a241c554b2":[9,5,1,0,0,1472,20],
-"structmeshlib_1_1SymMatrix2f.html#a34c6b1fdf41dcb9fb272008fe5b2f058":[9,5,0,0,0,1485,4],
-"structmeshlib_1_1SymMatrix2f.html#a34c6b1fdf41dcb9fb272008fe5b2f058":[9,5,1,0,0,1472,4]
+"structmeshlib_1_1SymMatrix2f.html#a07ec1c192d9e2214869520a241c554b2":[9,5,1,0,0,1472,20]
 };

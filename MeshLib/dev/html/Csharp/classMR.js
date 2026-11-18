@@ -2723,7 +2723,7 @@ var classMR =
     [ "computeSteepestDescentPath", "classMR.html#a72459d98ce8c7db0baf75ac11b603dcb", null ],
     [ "computeSteepestDescentPath", "classMR.html#a1a76567f7018fbdec65c5f3deee5b74e", null ],
     [ "computeSurfaceDistances", "classMR.html#a75cdd71b64ce23a9c8769360052df6e7", null ],
-    [ "computeSurfaceDistances", "classMR.html#a7d466033721c3d908e20fec32a697587", null ],
+    [ "computeSurfaceDistances", "classMR.html#a046895d754958c06bb50ffa92753f0d8", null ],
     [ "computeSurfaceDistances", "classMR.html#a8f103e6146b4eb6bea8f38d0a559433e", null ],
     [ "computeSurfaceDistances", "classMR.html#acbb9e9c581b3d2e634d365d3686cb000", null ],
     [ "computeSurfaceDistances", "classMR.html#a147fecb3f47bcfa7c6ed910219f95a78", null ],

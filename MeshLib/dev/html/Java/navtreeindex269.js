@@ -1,5 +1,7 @@
 var NAVTREEINDEX269 =
 {
+"classmeshlib_1_1voxelssave_1_1SavingSettings.html":[9,6,0,0,0,35,1],
+"classmeshlib_1_1voxelssave_1_1SavingSettings.html":[9,6,1,0,0,35,1],
 "classmeshlib_1_1voxelssave_1_1SavingSettings.html#a302f3bf5c1840c6047d07d4ae84780dc":[9,6,0,0,0,35,1,4],
 "classmeshlib_1_1voxelssave_1_1SavingSettings.html#a302f3bf5c1840c6047d07d4ae84780dc":[9,6,1,0,0,35,1,4],
 "classmeshlib_1_1voxelssave_1_1SavingSettings.html#a4e5b8aeb9bd434fd3018072bc2a65b7d":[9,6,0,0,0,35,1,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX269 =
 "expected__MR__OneMeshContours__std__string_8java.html":[9,6,2,0,0,1,0,0,347],
 "expected__MR__PackMapping__std__string_8java.html":[9,6,2,0,0,1,0,0,348],
 "expected__MR__PointCloud__std__string_8java.html":[9,6,2,0,0,1,0,0,349],
-"expected__MR__Polyline3__std__string_8java.html":[9,6,2,0,0,1,0,0,350],
-"expected__MR__RasterInfo__std__string_8java.html":[9,6,2,0,0,1,0,0,352],
-"expected__MR__Raster__std__string_8java.html":[9,6,2,0,0,1,0,0,351]
+"expected__MR__Polyline3__std__string_8java.html":[9,6,2,0,0,1,0,0,350]
 };

@@ -174,7 +174,6 @@ var NAVTREEINDEX4 =
 "namespacemeshlib.html#a2b03fc4e15071ead3a4a8f919e413370":[9,5,0,0,0,3425],
 "namespacemeshlib.html#a2b2cd388571c6ddd50965ccf544ce9d3":[9,5,0,0,0,2836],
 "namespacemeshlib.html#a2b70eb2a1dfb21b4c46caf33be0bd42d":[9,5,0,0,0,2564],
-"namespacemeshlib.html#a2b71871cc7dd6a2d61db526feeb9a964":[9,5,0,0,0,1975],
 "namespacemeshlib.html#a2b7ab68cc7b73ea017d7baa1dc21ddd9":[9,5,0,0,0,3947],
 "namespacemeshlib.html#a2b8947bc624e4c2b767ec706650628a8":[9,5,0,0,0,2881],
 "namespacemeshlib.html#a2ba629dcf0cfab4188bd3652f5167a9d":[9,5,0,0,0,2325],
@@ -209,7 +208,7 @@ var NAVTREEINDEX4 =
 "namespacemeshlib.html#a2f785fce261c5cdd21cc83e7634738f9":[9,5,0,0,0,2746],
 "namespacemeshlib.html#a2f7dd49b97acc8bf8e756c950971c411":[9,5,0,0,0,2319],
 "namespacemeshlib.html#a2fbc0ede4827761147f55cb9de5de898":[9,5,0,0,0,3492],
-"namespacemeshlib.html#a2fcff13516e9158714e65c56b2552c7f":[9,5,0,0,0,1976],
+"namespacemeshlib.html#a2fcff13516e9158714e65c56b2552c7f":[9,5,0,0,0,1975],
 "namespacemeshlib.html#a2ff50df54d8e18fc6b9a4dcc79a80643":[9,5,0,0,0,3128],
 "namespacemeshlib.html#a3040e979e34514a833129e97ff44cec2":[9,5,0,0,0,2427],
 "namespacemeshlib.html#a3040ebe6af04b6e842f17a99ff723f4c":[9,5,0,0,0,3761],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "namespacemeshlib.html#a3417493af0546bc4bdcc78fc8c600d0b":[9,5,0,0,0,1845],
 "namespacemeshlib.html#a3447b50502d798692c7b55f664792126":[9,5,0,0,0,3031],
 "namespacemeshlib.html#a344a0d3cda3a33e2ea4021dc990b3116":[9,5,0,0,0,2748],
-"namespacemeshlib.html#a34692e607cd640f0b28fb3fe7070a891":[9,5,0,0,0,2229]
+"namespacemeshlib.html#a34692e607cd640f0b28fb3fe7070a891":[9,5,0,0,0,2229],
+"namespacemeshlib.html#a348d4b54daf671da5eb947a8b27ae49c":[9,5,0,0,0,2310]
 };

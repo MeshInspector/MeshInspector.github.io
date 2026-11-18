@@ -70,12 +70,14 @@ var NAVTREEINDEX133 =
 "classmeshlib_1_1SurfaceDistanceBuilder.html#a180c63628cec37489e624ca2110e8d3b":[9,6,1,0,0,1493,0],
 "classmeshlib_1_1SurfaceDistanceBuilder.html#a1d0fff36fa6e2c4508b2456307a59cff":[9,6,0,0,0,1493,7],
 "classmeshlib_1_1SurfaceDistanceBuilder.html#a1d0fff36fa6e2c4508b2456307a59cff":[9,6,1,0,0,1493,7],
-"classmeshlib_1_1SurfaceDistanceBuilder.html#a679104497e2691ff8ba44ff978a2ab1e":[9,6,0,0,0,1493,12],
-"classmeshlib_1_1SurfaceDistanceBuilder.html#a679104497e2691ff8ba44ff978a2ab1e":[9,6,1,0,0,1493,12],
+"classmeshlib_1_1SurfaceDistanceBuilder.html#a679104497e2691ff8ba44ff978a2ab1e":[9,6,0,0,0,1493,13],
+"classmeshlib_1_1SurfaceDistanceBuilder.html#a679104497e2691ff8ba44ff978a2ab1e":[9,6,1,0,0,1493,13],
 "classmeshlib_1_1SurfaceDistanceBuilder.html#a73f176e42f0a31ec56998e23b9362bfb":[9,6,0,0,0,1493,11],
 "classmeshlib_1_1SurfaceDistanceBuilder.html#a73f176e42f0a31ec56998e23b9362bfb":[9,6,1,0,0,1493,11],
 "classmeshlib_1_1SurfaceDistanceBuilder.html#a75c66ee481985b0d5205fe7d9dfa19b2":[9,6,0,0,0,1493,2],
 "classmeshlib_1_1SurfaceDistanceBuilder.html#a75c66ee481985b0d5205fe7d9dfa19b2":[9,6,1,0,0,1493,2],
+"classmeshlib_1_1SurfaceDistanceBuilder.html#a7d974e2db0dfc2b9c779085b38b6ceea":[9,6,0,0,0,1493,12],
+"classmeshlib_1_1SurfaceDistanceBuilder.html#a7d974e2db0dfc2b9c779085b38b6ceea":[9,6,1,0,0,1493,12],
 "classmeshlib_1_1SurfaceDistanceBuilder.html#a948029e63ae960b8336c09b5dacdd4f5":[9,6,0,0,0,1493,6],
 "classmeshlib_1_1SurfaceDistanceBuilder.html#a948029e63ae960b8336c09b5dacdd4f5":[9,6,1,0,0,1493,6],
 "classmeshlib_1_1SurfaceDistanceBuilder.html#a9dfb04c18839673eca0ebdfe80780474":[9,6,0,0,0,1493,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX133 =
 "classmeshlib_1_1SymMatrix2i.html#a734ff5d3c1bf762bf8818eb99652fee7":[9,6,0,0,0,1498,5],
 "classmeshlib_1_1SymMatrix2i.html#a734ff5d3c1bf762bf8818eb99652fee7":[9,6,1,0,0,1498,5],
 "classmeshlib_1_1SymMatrix2i.html#a85c4cad39dc6d1a13a51d2236eb480ce":[9,6,0,0,0,1498,13],
-"classmeshlib_1_1SymMatrix2i.html#a85c4cad39dc6d1a13a51d2236eb480ce":[9,6,1,0,0,1498,13],
-"classmeshlib_1_1SymMatrix2i.html#a85f08d4a293d92d848b5b895606677f6":[9,6,0,0,0,1498,10],
-"classmeshlib_1_1SymMatrix2i.html#a85f08d4a293d92d848b5b895606677f6":[9,6,1,0,0,1498,10]
+"classmeshlib_1_1SymMatrix2i.html#a85c4cad39dc6d1a13a51d2236eb480ce":[9,6,1,0,0,1498,13]
 };

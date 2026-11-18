@@ -105,10 +105,11 @@ var NAVTREEINDEX12 =
 "classMR_1_1SurfaceDistanceBuilder.html#a43aa321544fea1e2253d32f3f10b6a39":[9,0,0,15,2,1,8],
 "classMR_1_1SurfaceDistanceBuilder.html#a5189e1622e0103bd98faa67445fbbf74":[9,0,0,15,2,1,2],
 "classMR_1_1SurfaceDistanceBuilder.html#a66781dd9ecf7009c090fffa4c7d0e6f7":[9,0,0,15,2,1,7],
-"classMR_1_1SurfaceDistanceBuilder.html#aa5c104e6de91cb67a4df448454913a0d":[9,0,0,15,2,1,10],
+"classMR_1_1SurfaceDistanceBuilder.html#aa5c104e6de91cb67a4df448454913a0d":[9,0,0,15,2,1,11],
 "classMR_1_1SurfaceDistanceBuilder.html#ab233bff0428403e114f95605d8e1004b":[9,0,0,15,2,1,9],
 "classMR_1_1SurfaceDistanceBuilder.html#ac10dab2b68dd9de618eeb1ce16471e23":[9,0,0,15,2,1,6],
 "classMR_1_1SurfaceDistanceBuilder.html#ac6c258764fe276b1cf23bbba8bffe0a2":[9,0,0,15,2,1,5],
+"classMR_1_1SurfaceDistanceBuilder.html#aca551a1d988ee6ec2198798bad6567c0":[9,0,0,15,2,1,10],
 "classMR_1_1SurfaceDistanceBuilder.html#ad953af191b66e04789699c3707a47b18":[9,0,0,15,2,1,0],
 "classMR_1_1SurfaceDistanceBuilder.html#ae5aba85dbb1efdefdea87c31c4c4a624":[9,0,0,15,2,1,1],
 "classMR_1_1SurfaceManipulationWidget.html":[9,0,0,19,769],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "classMR_1_1UniqueThreadSafeOwner.html#a2dda95c55e90e76bb8f38140cd276c6e":[9,0,0,1,40,5],
 "classMR_1_1UniqueThreadSafeOwner.html#a64a10dee713d8b17c9bdde7e86b7e7ad":[9,0,0,1,40,8],
 "classMR_1_1UniqueThreadSafeOwner.html#a6ab481f5b5794550188bd3bc3557b15f":[9,0,0,1,40,4],
-"classMR_1_1UniqueThreadSafeOwner.html#a6d5da0de362dedbdfea9cb36588093f0":[9,0,0,1,40,7],
-"classMR_1_1UniqueThreadSafeOwner.html#a9e426780257a98ca9ae76478afe01453":[9,0,0,1,40,10]
+"classMR_1_1UniqueThreadSafeOwner.html#a6d5da0de362dedbdfea9cb36588093f0":[9,0,0,1,40,7]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX205 =
 {
+"classmeshlib_1_1pointsload_1_1MultiScanLoadSettings.html#a56400de268c5ee684152d7ac3b5cf091":[9,6,0,0,0,25,2,3],
+"classmeshlib_1_1pointsload_1_1MultiScanLoadSettings.html#a56400de268c5ee684152d7ac3b5cf091":[9,6,1,0,0,25,2,3],
 "classmeshlib_1_1pointsload_1_1MultiScanLoadSettings.html#a687d6848bbb9a12618af232bfa846b63":[9,6,0,0,0,25,2,10],
 "classmeshlib_1_1pointsload_1_1MultiScanLoadSettings.html#a687d6848bbb9a12618af232bfa846b63":[9,6,1,0,0,25,2,10],
 "classmeshlib_1_1pointsload_1_1MultiScanLoadSettings.html#a887d4608963009389b338d58b0e2e412":[9,6,0,0,0,25,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX205 =
 "classmeshlib_1_1selfintersections_1_1Settings.html#a2602e495c487e25ad26db4567f89f8c6":[9,6,0,0,0,32,1,2],
 "classmeshlib_1_1selfintersections_1_1Settings.html#a2602e495c487e25ad26db4567f89f8c6":[9,6,1,0,0,32,1,2],
 "classmeshlib_1_1selfintersections_1_1Settings.html#a415129c5c5fce03af354ffaa4f5a3cb8":[9,6,0,0,0,32,1,20],
-"classmeshlib_1_1selfintersections_1_1Settings.html#a415129c5c5fce03af354ffaa4f5a3cb8":[9,6,1,0,0,32,1,20],
-"classmeshlib_1_1selfintersections_1_1Settings.html#a437a00a9fc62c3806c5d0962ed5c7114":[9,6,0,0,0,32,1,1],
-"classmeshlib_1_1selfintersections_1_1Settings.html#a437a00a9fc62c3806c5d0962ed5c7114":[9,6,1,0,0,32,1,1]
+"classmeshlib_1_1selfintersections_1_1Settings.html#a415129c5c5fce03af354ffaa4f5a3cb8":[9,6,1,0,0,32,1,20]
 };

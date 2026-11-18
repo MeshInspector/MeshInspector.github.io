@@ -1,5 +1,6 @@
 var NAVTREEINDEX162 =
 {
+"std__pair__double__int_8h.html#ad7b7a037a0741c9a88c967d090e1e3d5":[9,2,2,0,0,0,0,2,277,3],
 "std__pair__double__int_8h.html#ada42b3676aab181275a9efb2ad27acf9":[9,2,2,0,0,0,0,2,277,2],
 "std__pair__double__int_8h.html#add5398082fb417d3f34d1dd38f585750":[9,2,2,0,0,0,0,2,277,0],
 "std__pair__double__int_8h.html#af3bbec79b9b9d3a3255d30d32f7049b4":[9,2,2,0,0,0,0,2,277,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX162 =
 "std__shared__ptr__MR__AngleMeasurementObject_8h.html#acb9f76d82e438645e4d1f26771e94a16":[9,2,2,0,0,0,0,2,314,7],
 "std__shared__ptr__MR__AngleMeasurementObject_8h.html#ad6deb08c545a4e92b224dfad062207ab":[9,2,2,0,0,0,0,2,314,14],
 "std__shared__ptr__MR__AngleMeasurementObject_8h.html#ae4d96f8327940be53676104d4ba317e7":[9,2,2,0,0,0,0,2,314,2],
-"std__shared__ptr__MR__AngleMeasurementObject_8h.html#afa7009f23d5d7f0ba904ab2d3c34b0ba":[9,2,2,0,0,0,0,2,314,16],
-"std__shared__ptr__MR__AngleMeasurementObject_8h_source.html":[9,2,2,0,0,0,0,2,314]
+"std__shared__ptr__MR__AngleMeasurementObject_8h.html#afa7009f23d5d7f0ba904ab2d3c34b0ba":[9,2,2,0,0,0,0,2,314,16]
 };

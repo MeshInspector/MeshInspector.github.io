@@ -1,5 +1,7 @@
 var NAVTREEINDEX206 =
 {
+"structmeshlib_1_1std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume.html#a54bb92d28c59bcbcf6c52c0eeac6d37f":[9,5,0,0,0,1217,0],
+"structmeshlib_1_1std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume.html#a54bb92d28c59bcbcf6c52c0eeac6d37f":[9,5,1,0,0,1204,0],
 "structmeshlib_1_1std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume.html#a78b27240316041b35e207de13fffbbe2":[9,5,0,0,0,1217,4],
 "structmeshlib_1_1std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume.html#a78b27240316041b35e207de13fffbbe2":[9,5,1,0,0,1204,4],
 "structmeshlib_1_1std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume.html#a881c2c07408659ccfc00ed8dbe2d85a9":[9,5,0,0,0,1217,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX206 =
 "structmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts.html#a83a65a1d735040651f72dc57729decc9":[9,5,0,0,0,1228,1],
 "structmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts.html#a83a65a1d735040651f72dc57729decc9":[9,5,1,0,0,1215,1],
 "structmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts.html#a9ac53e2d9d5c461d3e43031b42c045d2":[9,5,0,0,0,1228,9],
-"structmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts.html#a9ac53e2d9d5c461d3e43031b42c045d2":[9,5,1,0,0,1215,9],
-"structmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts.html#aff7793a079fb6d3dc3bd851acaabdf0d":[9,5,0,0,0,1228,4],
-"structmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts.html#aff7793a079fb6d3dc3bd851acaabdf0d":[9,5,1,0,0,1215,4]
+"structmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts.html#a9ac53e2d9d5c461d3e43031b42c045d2":[9,5,1,0,0,1215,9]
 };

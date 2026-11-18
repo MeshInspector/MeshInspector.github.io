@@ -1,5 +1,7 @@
 var NAVTREEINDEX229 =
 {
+"classmrmeshpy_1_1std__vector__BallPivotCandidate__Allocator__BallPivotCandidate.html#a8e267d363527cb500c7be79f7589d73a":[9,1,0,0,2,2247,8],
+"classmrmeshpy_1_1std__vector__BallPivotCandidate__Allocator__BallPivotCandidate.html#a8e267d363527cb500c7be79f7589d73a":[9,1,1,0,1,2247,8],
 "classmrmeshpy_1_1std__vector__BallPivotCandidate__Allocator__BallPivotCandidate.html#a92ee76f07637cd6c4501b59c66e1365c":[9,1,0,0,2,2247,3],
 "classmrmeshpy_1_1std__vector__BallPivotCandidate__Allocator__BallPivotCandidate.html#a92ee76f07637cd6c4501b59c66e1365c":[9,1,1,0,1,2247,3],
 "classmrmeshpy_1_1std__vector__Box__Vector3__float.html":[9,1,0,0,2,2248],
@@ -247,7 +249,5 @@ var NAVTREEINDEX229 =
 "classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#adae3bd28eb7a8d56a9726280f710b999":[9,1,0,0,2,2259,5],
 "classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#adae3bd28eb7a8d56a9726280f710b999":[9,1,1,0,1,2259,5],
 "classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#ae056868886da82b28582ef75bea3d885":[9,1,0,0,2,2259,8],
-"classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#ae056868886da82b28582ef75bea3d885":[9,1,1,0,1,2259,8],
-"classmrmeshpy_1_1std__vector__DistanceMap.html":[9,1,0,0,2,2260],
-"classmrmeshpy_1_1std__vector__DistanceMap.html":[9,1,1,0,1,2260]
+"classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#ae056868886da82b28582ef75bea3d885":[9,1,1,0,1,2259,8]
 };

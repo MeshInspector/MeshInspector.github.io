@@ -68,12 +68,14 @@ var NAVTREEINDEX181 =
 "classmrmeshpy_1_1SubdivideSettings.html#af6d7281476d16d676ea6b97afcd089bc":[9,1,1,0,1,2433,3],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html":[9,1,0,0,2,2434],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html":[9,1,1,0,1,2434],
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a08b53ada8771ba464e1499c3b01d3745":[9,1,0,0,2,2434,9],
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a08b53ada8771ba464e1499c3b01d3745":[9,1,1,0,1,2434,9],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a2bb2a7e3dbffedf2935ab9b42fa502c4":[9,1,0,0,2,2434,7],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a2bb2a7e3dbffedf2935ab9b42fa502c4":[9,1,1,0,1,2434,7],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a38cb628586d6e3e75cdb05d0016eb03d":[9,1,0,0,2,2434,2],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a38cb628586d6e3e75cdb05d0016eb03d":[9,1,1,0,1,2434,2],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a5fb8aac644301a4d71835344c4403590":[9,1,0,0,2,2434,9],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a5fb8aac644301a4d71835344c4403590":[9,1,1,0,1,2434,9],
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a5fb8aac644301a4d71835344c4403590":[9,1,0,0,2,2434,10],
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a5fb8aac644301a4d71835344c4403590":[9,1,1,0,1,2434,10],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a64428a655bc03738174596ca1f70c00b":[9,1,0,0,2,2434,6],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a64428a655bc03738174596ca1f70c00b":[9,1,1,0,1,2434,6],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a69a049d061264ec9fe9c0a0869fe32ef":[9,1,0,0,2,2434,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX181 =
 "classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a69861aa3f9cd594fb626499b3c0b74ad":[9,1,0,0,2,2441,10],
 "classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a69861aa3f9cd594fb626499b3c0b74ad":[9,1,1,0,1,2441,10],
 "classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a6e55d91d92f89967561fa387df455be3":[9,1,0,0,2,2441,18],
-"classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a6e55d91d92f89967561fa387df455be3":[9,1,1,0,1,2441,18],
-"classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a77dfa2a934f1980eb7ce3c24c989f2ed":[9,1,0,0,2,2441,8],
-"classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a77dfa2a934f1980eb7ce3c24c989f2ed":[9,1,1,0,1,2441,8]
+"classmrmeshpy_1_1SymMatrix3__unsigned__char.html#a6e55d91d92f89967561fa387df455be3":[9,1,1,0,1,2441,18]
 };

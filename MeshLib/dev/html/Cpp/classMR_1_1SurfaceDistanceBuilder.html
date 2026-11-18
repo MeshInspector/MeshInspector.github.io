@@ -151,6 +151,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a23f26648434d61fe3b63f5dc33107ae9" id="r_a23f26648434d61fe3b63f5dc33107ae9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23f26648434d61fe3b63f5dc33107ae9">addStartEdgesAndPoints</a> (const UndirectedEdgeBitSet &amp;startEdges, const VertBitSet &amp;startPoints, float startDistance)</td></tr>
 <tr class="memitem:a5189e1622e0103bd98faa67445fbbf74" id="r_a5189e1622e0103bd98faa67445fbbf74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5189e1622e0103bd98faa67445fbbf74">addStart</a> (const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;start)</td></tr>
 <tr class="memitem:ab233bff0428403e114f95605d8e1004b" id="r_ab233bff0428403e114f95605d8e1004b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab233bff0428403e114f95605d8e1004b">setMaxVertUpdates</a> (int v)</td></tr>
+<tr class="memitem:aca551a1d988ee6ec2198798bad6567c0" id="r_aca551a1d988ee6ec2198798bad6567c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca551a1d988ee6ec2198798bad6567c0">setNoLocalMinima</a> (bool on)</td></tr>
 <tr class="memitem:a43aa321544fea1e2253d32f3f10b6a39" id="r_a43aa321544fea1e2253d32f3f10b6a39"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43aa321544fea1e2253d32f3f10b6a39">growOne</a> ()</td></tr>
 <tr class="memdesc:a43aa321544fea1e2253d32f3f10b6a39"><td class="mdescLeft">&#160;</td><td class="mdescRight">processes one more candidate vertex, which is returned  <br /></td></tr>
 <tr class="memitem:aa5c104e6de91cb67a4df448454913a0d" id="r_aa5c104e6de91cb67a4df448454913a0d"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5c104e6de91cb67a4df448454913a0d">takeDistanceMap</a> ()</td></tr>
@@ -392,6 +393,32 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>the maximum amount of times vertex distance can be updated in [1,255], 3 by default; the more the better obtuse triangles are handled </p>
+
+</div>
+</div>
+<a id="aca551a1d988ee6ec2198798bad6567c0" name="aca551a1d988ee6ec2198798bad6567c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca551a1d988ee6ec2198798bad6567c0">&#9670;&#160;</a></span>setNoLocalMinima()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::SurfaceDistanceBuilder::setNoLocalMinima </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>on</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>if true, then a distance computed in a triangle is always larger than the smaller distance in its other two vertices, so every reached vertex except the vertices around the start has a neighbor with smaller distance, and the steepest descent from any reached point arrives to the start; distances near the start and near obtuse or thin triangles become larger, and some distances computed from them can become a bit smaller </p>
 
 </div>
 </div>

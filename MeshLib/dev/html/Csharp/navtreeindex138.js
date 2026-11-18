@@ -1,5 +1,6 @@
 var NAVTREEINDEX138 =
 {
+"classMR_1_1SymMatrix2i64.html#a49b2301fd92a5b8886897711675fd89d":[9,3,0,0,0,1746,8],
 "classMR_1_1SymMatrix2i64.html#a4f2df34d7766c7c234123605c27ef3fa":[9,3,0,0,0,1746,5],
 "classMR_1_1SymMatrix2i64.html#a5a6bbd74a8926ce18ce2bf785d6653fe":[9,3,0,0,0,1746,9],
 "classMR_1_1SymMatrix2i64.html#a69285f5b3553a869d2750d9bec2d58d0":[9,3,0,0,0,1746,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX138 =
 "classMR_1_1TerminalVertex.html#a0823965994927a3e0494f2d817ea8b76":[9,3,0,0,0,1762,1],
 "classMR_1_1TerminalVertex.html#aa7af4b813af06aededf24f58a0a58d1c":[9,3,0,0,0,1762,5],
 "classMR_1_1TerminalVertex.html#ab2b3864a778536de7dd9531ab8a13ce7":[9,3,0,0,0,1762,0],
-"classMR_1_1TerminalVertex.html#abcd603269ac4508509b61cde18b0d582":[9,3,0,0,0,1762,3],
-"classMR_1_1TerminalVertex.html#ace20d92284c3b50713cd1a6d360df74c":[9,3,0,0,0,1762,4]
+"classMR_1_1TerminalVertex.html#abcd603269ac4508509b61cde18b0d582":[9,3,0,0,0,1762,3]
 };
