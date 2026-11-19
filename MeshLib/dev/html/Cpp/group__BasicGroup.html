@@ -183,6 +183,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga657d26a239d539e1b8fcf11eb6dae516" id="r_ga657d26a239d539e1b8fcf11eb6dae516"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga657d26a239d539e1b8fcf11eb6dae516">MR::countSetBits</a> (const <a class="el" href="classMR_1_1BitSet.html#ace77355bd95e75d56e1bfab444eefb3e">BitSet::block_type</a> *blocks, size_t numBlocks) noexcept</td></tr>
+<tr class="memdesc:ga657d26a239d539e1b8fcf11eb6dae516"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of set bits in given blocks; uses the popcnt instruction on x86-64 CPUs having it  <br /></td></tr>
 <tr class="memitem:gacfd51356fbcb71948b1ef3f058ac75c7" id="r_gacfd51356fbcb71948b1ef3f058ac75c7"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacfd51356fbcb71948b1ef3f058ac75c7">MR::heapBytes</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;bs)</td></tr>
 <tr class="memdesc:gacfd51356fbcb71948b1ef3f058ac75c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory given <a class="el" href="classMR_1_1BitSet.html">BitSet</a> occupies on heap  <br /></td></tr>
 <tr class="memitem:ga477d12e4df21747098c68393607fe634" id="r_ga477d12e4df21747098c68393607fe634"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga477d12e4df21747098c68393607fe634">MR::operator==</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
@@ -1133,6 +1135,39 @@ template&lt;typename I&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRBitSet_8h.html">MRMesh/MRBitSet.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga657d26a239d539e1b8fcf11eb6dae516" name="ga657d26a239d539e1b8fcf11eb6dae516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga657d26a239d539e1b8fcf11eb6dae516">&#9670;&#160;</a></span>countSetBits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::countSetBits </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1BitSet.html#ace77355bd95e75d56e1bfab444eefb3e">BitSet::block_type</a> *</td>          <td class="paramname"><span class="paramname"><em>blocks</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>numBlocks</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRBitSet_8h.html">MRMesh/MRBitSet.h</a>&gt;</code></p>
+
+<p>returns the number of set bits in given blocks; uses the popcnt instruction on x86-64 CPUs having it </p>
 
 </div>
 </div>

@@ -2153,6 +2153,7 @@ var namespaceMR =
     [ "cotan", "group__GeneralGroup.html#ga35d02c57a4241c1e57cf96d982bc9cc3", null ],
     [ "cotan", "group__GeneralGroup.html#ga66e1bd83c47751c3265e376c45b67b29", null ],
     [ "countInliers", "group__AligningTransformGroup.html#ga97c6edd2712ff8f245e7897e16710f96", null ],
+    [ "countSetBits", "group__BasicGroup.html#ga657d26a239d539e1b8fcf11eb6dae516", null ],
     [ "countVoxelsWithValueGreater", "group__BasicStructuresGroup.html#ga31ae4b6e3ced3e32c00e186c5888dbd6", null ],
     [ "countVoxelsWithValueLess", "group__BasicStructuresGroup.html#ga1322ac706e673ed930bc4c32c05fa2d3", null ],
     [ "countVoxelsWithValuePred", "group__BasicStructuresGroup.html#ga5ccf9f11a87d554ea33bc5ee074032f2", null ],

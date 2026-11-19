@@ -398,6 +398,7 @@ var group__BasicGroup =
     [ "MR::commonFilesName", "group__BasicGroup.html#gabe15d51595d691f74550063fd2dceb85", null ],
     [ "MR::contains", "group__BasicGroup.html#ga57dc941dcc422cae832eb4e285f9258b", null ],
     [ "MR::contains", "group__BasicGroup.html#ga84d3ef89997a21c7e28a95f9888e3a2e", null ],
+    [ "MR::countSetBits", "group__BasicGroup.html#ga657d26a239d539e1b8fcf11eb6dae516", null ],
     [ "MR::edgeMapsComposition", "group__BasicGroup.html#ga81e9669d61837dd60dd6c7c5f1e1ff75", null ],
     [ "MR::edgeMapsComposition", "group__BasicGroup.html#ga6960104faf9ba5240b17b414e029bbe8", null ],
     [ "MR::Heap::erase", "group__BasicGroup.html#gad6fc20606fca8689766c2177661d444a", null ],

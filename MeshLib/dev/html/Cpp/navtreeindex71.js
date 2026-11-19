@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1PythonViewer_1_1UiValueReal.html#a5e251126c10399c761035b5c8539bd61":[9,0,2,0,1,25,2,1],
 "structMR_1_1PythonViewer_1_1UiValueReal.html#a789ec5ac5b047f53eef0f438a7983919":[9,0,1,0,1,40,2,0],
 "structMR_1_1PythonViewer_1_1UiValueReal.html#a789ec5ac5b047f53eef0f438a7983919":[9,0,2,0,1,25,2,0],
 "structMR_1_1PythonViewer_1_1UiValueReal.html#ae949ec38a6e28dd2b2b7f47126c13e72":[9,0,1,0,1,40,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1SubdivideSettings.html#acb648b35ff705d5ee52cdae10e7cb9b5":[9,0,0,9,7,0,12],
 "structMR_1_1SubdivideSettings.html#acfa476aa1e7c9c2507f12fde82a81f8f":[9,0,0,9,7,0,3],
 "structMR_1_1SubdivideSettings.html#ad044782ba14d1d93d9140190393d28ce":[9,0,0,9,7,0,16],
-"structMR_1_1SubdivideSettings.html#ad1664c92f743cfb7fc8dd795f7d89d9f":[9,0,0,9,7,0,8],
-"structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476":[9,0,0,9,7,0,5]
+"structMR_1_1SubdivideSettings.html#ad1664c92f743cfb7fc8dd795f7d89d9f":[9,0,0,9,7,0,8]
 };

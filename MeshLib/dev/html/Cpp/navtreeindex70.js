@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html":[9,0,0,19,881],
 "structMR_1_1Object_1_1ProtectedStruct.html":[9,0,0,11,4,0],
 "structMR_1_1Object_1_1ProtectedStruct.html#a7e4c38fcb6a60dc4c3126d35a637080e":[9,0,0,11,4,0,0],
 "structMR_1_1OffsetContourIndex.html":[9,0,0,19,430],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1PythonViewer_1_1UiValueInt.html#a4d45a0b9a83024d055f50878a908a035":[9,0,2,0,1,25,1,1],
 "structMR_1_1PythonViewer_1_1UiValueReal.html":[9,0,1,0,1,40,2],
 "structMR_1_1PythonViewer_1_1UiValueReal.html":[9,0,2,0,1,25,2],
-"structMR_1_1PythonViewer_1_1UiValueReal.html#a5e251126c10399c761035b5c8539bd61":[9,0,1,0,1,40,2,1],
-"structMR_1_1PythonViewer_1_1UiValueReal.html#a5e251126c10399c761035b5c8539bd61":[9,0,2,0,1,25,2,1]
+"structMR_1_1PythonViewer_1_1UiValueReal.html#a5e251126c10399c761035b5c8539bd61":[9,0,1,0,1,40,2,1]
 };

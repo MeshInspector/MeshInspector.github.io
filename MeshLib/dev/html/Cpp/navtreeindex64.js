@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structImGui_1_1HistogramGridLine.html":[9,0,1,0,0,1],
 "structImGui_1_1HistogramGridLine.html":[9,0,2,0,0,1],
 "structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[9,0,1,0,0,1,1],
 "structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[9,0,2,0,0,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1ContourToDistanceMapParams.html#a7a018eb39177bd2bf920601b6a61d8b6":[9,0,0,5,4,9],
 "structMR_1_1ContourToDistanceMapParams.html#a8c1e602f4300ada7c5982a184ee864b7":[9,0,0,5,4,0],
 "structMR_1_1ContourToDistanceMapParams.html#aab02976e948f14539479e1305e319e3d":[9,0,0,5,4,7],
-"structMR_1_1ContourToDistanceMapParams.html#abaa30b78ecde6f6ef4bc8f92ca454a4c":[9,0,0,5,4,6],
-"structMR_1_1ContourToDistanceMapParams.html#acdbc1cd1931b8df3a7afe4d8500aa9e8":[9,0,0,5,4,1]
+"structMR_1_1ContourToDistanceMapParams.html#abaa30b78ecde6f6ef4bc8f92ca454a4c":[9,0,0,5,4,6]
 };
