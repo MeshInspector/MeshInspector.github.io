@@ -1,5 +1,14 @@
 var NAVTREEINDEX63 =
 {
+"namespaceMR_1_1UI_1_1detail.html":[9,0,0,19,34],
+"namespaceMR_1_1UnitSettings.html":[9,0,1,0,1,54],
+"namespaceMR_1_1UnitSettings.html#a1ba5ba0e90a17b0b4971b32b561eeaf4":[9,0,1,0,1,54,0],
+"namespaceMR_1_1UnitSettings.html#a212516673007eec61db6d6737ed89889":[9,0,1,0,1,54,4],
+"namespaceMR_1_1UnitSettings.html#a5c988ce02e5af851bf24cf8311f6d617":[9,0,1,0,1,54,1],
+"namespaceMR_1_1UnitSettings.html#a6267dc3ac144ae861e2598c807bd77f1":[9,0,1,0,1,54,6],
+"namespaceMR_1_1UnitSettings.html#a6605d13452e5dc0af2d101284fc415c6":[9,0,1,0,1,54,9],
+"namespaceMR_1_1UnitSettings.html#a706ad2d0dd78e1d4d10e1352ef53f53b":[9,0,1,0,1,54,15],
+"namespaceMR_1_1UnitSettings.html#a877acfc5ce5b7fba63a87fcfdf9e43d1":[9,0,1,0,1,54,12],
 "namespaceMR_1_1UnitSettings.html#a89d96a5a9615daa8de6e1bbbecda8156":[9,0,1,0,1,54,5],
 "namespaceMR_1_1UnitSettings.html#a9274e5f81702cc490493898076559da2":[9,0,1,0,1,54,13],
 "namespaceMR_1_1UnitSettings.html#a92c469e73280d6f522115571fcf167d7":[9,0,1,0,1,54,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX63 =
 "structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[9,0,2,0,0,0,8],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[9,0,1,0,0,0,3],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[9,0,2,0,0,0,3],
-"structImGui_1_1HistogramGridLine.html":[9,0,1,0,0,1],
-"structImGui_1_1HistogramGridLine.html":[9,0,2,0,0,1],
-"structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[9,0,1,0,0,1,1],
-"structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[9,0,2,0,0,1,1],
-"structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[9,0,1,0,0,1,0],
-"structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[9,0,2,0,0,1,0],
-"structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[9,0,1,0,0,1,2],
-"structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[9,0,2,0,0,1,2],
-"structImGui_1_1MultiDragRes.html":[9,0,1,0,0,2],
-"structImGui_1_1MultiDragRes.html":[9,0,2,0,0,2]
+"structImGui_1_1HistogramGridLine.html":[9,0,1,0,0,1]
 };

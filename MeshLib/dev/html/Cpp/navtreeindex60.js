@@ -1,5 +1,14 @@
 var NAVTREEINDEX60 =
 {
+"group__SurfacePathGroup.html#gaa884a58991fce08349f987c0a54c5320":[9,0,0,19,2701],
+"group__SurfacePathGroup.html#gaabc40dcee3ba22d445c0f838f170d549":[9,0,0,15,66],
+"group__SurfacePathGroup.html#gaabc40dcee3ba22d445c0f838f170d549":[9,0,0,19,7087],
+"group__SurfacePathGroup.html#gaae44493b7ad45bf11d4a455ce5694ecd":[9,0,0,15,49],
+"group__SurfacePathGroup.html#gaae44493b7ad45bf11d4a455ce5694ecd":[9,0,0,19,3040],
+"group__SurfacePathGroup.html#gab11dcd26158decf73bbbaafe28944456":[9,0,0,15,29],
+"group__SurfacePathGroup.html#gab11dcd26158decf73bbbaafe28944456":[9,0,0,19,2707],
+"group__SurfacePathGroup.html#gab8e36e0d087fbd88e882ffcf90a7d5c5":[9,0,0,15,46],
+"group__SurfacePathGroup.html#gab8e36e0d087fbd88e882ffcf90a7d5c5":[9,0,0,19,3037],
 "group__SurfacePathGroup.html#gaba6bba9899b4b1a78c2c711d73b92ecd":[9,0,0,15,58],
 "group__SurfacePathGroup.html#gaba6bba9899b4b1a78c2c711d73b92ecd":[9,0,0,19,3907],
 "group__SurfacePathGroup.html#gabb3f2849332e308e7fbcdf6f50eac262":[9,0,0,15,8],
@@ -240,14 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680":[9,0,1,0,0,4,4],
 "namespaceImGui.html#a2d763b2a2f74c1b55cfcacf0b6ea826b":[9,0,1,0,0,14],
 "namespaceImGui.html#a378834d8803566841b144ddf878ef623":[9,0,1,0,0,36],
-"namespaceImGui.html#a392168d28bc4973532ead37f8061121e":[9,0,1,0,0,33],
-"namespaceImGui.html#a471b8f48842ef21f90356a0070d33d1d":[9,0,1,0,0,24],
-"namespaceImGui.html#a526ae831fa80bb7c77bcb658c70af536":[9,0,1,0,0,40],
-"namespaceImGui.html#a5cc3e778e75f9ee629a7ae99f8472c6f":[9,0,1,0,0,46],
-"namespaceImGui.html#a5defcf8082320dec4abc0770f3bc99d2":[9,0,1,0,0,31],
-"namespaceImGui.html#a693d63535afd37161a3808983d21d7ee":[9,0,1,0,0,26],
-"namespaceImGui.html#a6bd93f12bdfd72ecf6ebb90ec6d8631e":[9,0,1,0,0,28],
-"namespaceImGui.html#a73942e37afedb96d86cafa736df83508":[9,0,1,0,0,44],
-"namespaceImGui.html#a7554b2c9b03f4d4b518f68e284509187":[9,0,1,0,0,39],
-"namespaceImGui.html#a765b6525f19901392bdd0a4456045e5e":[9,0,1,0,0,34]
+"namespaceImGui.html#a392168d28bc4973532ead37f8061121e":[9,0,1,0,0,33]
 };

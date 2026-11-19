@@ -151,12 +151,18 @@ $(function(){initNavTree('structmeshlib_1_1AABBTree.html','','structmeshlib_1_1A
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad0ef414426460ecd6ff4a1cc6367d8a1" id="r_ad0ef414426460ecd6ff4a1cc6367d8a1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0ef414426460ecd6ff4a1cc6367d8a1">assign_from_another</a> (_other:meshlib::Owned&lt; <a class="el" href="structmeshlib_1_1AABBTree.html">meshlib::AABBTree</a> &gt;) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1AABBTree.html">meshlib::AABBTree</a></td></tr>
-<tr class="memitem:ab323a0d27aef82d54551c274dd189779" id="r_ab323a0d27aef82d54551c274dd189779"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab323a0d27aef82d54551c274dd189779">nodes</a> () const -&gt; &amp;<a class="el" href="structmeshlib_1_1Vector__MR__AABBTreeWideNode__MR__NodeId.html">meshlib::Vector_MR_AABBTreeWideNode_MR_NodeId</a></td></tr>
-<tr class="memitem:a0f284e3e99be0c7fb38682bcac47e416" id="r_a0f284e3e99be0c7fb38682bcac47e416"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f284e3e99be0c7fb38682bcac47e416">num_nodes</a> () const -&gt; usize</td></tr>
+<tr class="memitem:a0d3b5690d3aebc370ba58ce52c99cf9c" id="r_a0d3b5690d3aebc370ba58ce52c99cf9c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d3b5690d3aebc370ba58ce52c99cf9c">empty</a> () const -&gt; bool</td></tr>
 <tr class="memitem:a8776a3a6d280407c3d1449280e1ee5d6" id="r_a8776a3a6d280407c3d1449280e1ee5d6"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8776a3a6d280407c3d1449280e1ee5d6">num_tris</a> () const -&gt; core::ffi::c_int</td></tr>
-<tr class="memitem:af12da134dcd637315a8dbe6280b20295" id="r_af12da134dcd637315a8dbe6280b20295"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af12da134dcd637315a8dbe6280b20295">get_bounding_box</a> () const -&gt; <a class="el" href="structmeshlib_1_1Box3f.html">meshlib::Box3f</a></td></tr>
+<tr class="memitem:a6b6bdae45004695aa6ab1b847e0ee825" id="r_a6b6bdae45004695aa6ab1b847e0ee825"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b6bdae45004695aa6ab1b847e0ee825">num_leaves</a> () const -&gt; core::ffi::c_int</td></tr>
 <tr class="memitem:ad1cd2cab7c302b7f85b39abf91ad6e46" id="r_ad1cd2cab7c302b7f85b39abf91ad6e46"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1cd2cab7c302b7f85b39abf91ad6e46">leaf_tris</a> () const -&gt; &amp;<a class="el" href="structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html">meshlib::Vector_MR_AABBTreeWideLeafTri</a></td></tr>
-<tr class="memitem:a5531476ac3033976784a0c7517a311a9" id="r_a5531476ac3033976784a0c7517a311a9"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5531476ac3033976784a0c7517a311a9">leaf_boxes</a> () const -&gt; &amp;<a class="el" href="structmeshlib_1_1Vector__MR__Box3f.html">meshlib::Vector_MR_Box3f</a></td></tr>
+<tr class="memitem:a7f80342f25cc9c964996a29bdf350409" id="r_a7f80342f25cc9c964996a29bdf350409"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f80342f25cc9c964996a29bdf350409">leaf_box</a> (i:core::ffi::c_int) const -&gt; <a class="el" href="structmeshlib_1_1Box3f.html">meshlib::Box3f</a></td></tr>
+<tr class="memitem:ac50d2f98be32dbf4f5ca9c701b856eb5" id="r_ac50d2f98be32dbf4f5ca9c701b856eb5"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac50d2f98be32dbf4f5ca9c701b856eb5">num_leaf_tris</a> (leaf:core::ffi::c_int) const -&gt; core::ffi::c_int</td></tr>
+<tr class="memitem:affdecf27564e45e9030d2898676de5da" id="r_affdecf27564e45e9030d2898676de5da"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affdecf27564e45e9030d2898676de5da">root_ref</a> () const -&gt; core::ffi::c_int</td></tr>
+<tr class="memitem:af12da134dcd637315a8dbe6280b20295" id="r_af12da134dcd637315a8dbe6280b20295"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af12da134dcd637315a8dbe6280b20295">get_bounding_box</a> () const -&gt; <a class="el" href="structmeshlib_1_1Box3f.html">meshlib::Box3f</a></td></tr>
+<tr class="memitem:a0f284e3e99be0c7fb38682bcac47e416" id="r_a0f284e3e99be0c7fb38682bcac47e416"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f284e3e99be0c7fb38682bcac47e416">num_nodes</a> () const -&gt; usize</td></tr>
+<tr class="memitem:a6683608ef1f366d2901354a94bc16d76" id="r_a6683608ef1f366d2901354a94bc16d76"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6683608ef1f366d2901354a94bc16d76">node_id</a> (ref:core::ffi::c_int) const -&gt; <a class="el" href="structmeshlib_1_1NodeId.html">meshlib::NodeId</a></td></tr>
+<tr class="memitem:aef9ca8b16d480a264bb98308d6bc6a7d" id="r_aef9ca8b16d480a264bb98308d6bc6a7d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef9ca8b16d480a264bb98308d6bc6a7d">node_ref</a> (n:meshlib::NodeId) const -&gt; core::ffi::c_int</td></tr>
+<tr class="memitem:abf1152dd2ef0e3acc5801b49e3c8383b" id="r_abf1152dd2ef0e3acc5801b49e3c8383b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf1152dd2ef0e3acc5801b49e3c8383b">get_node_boxes</a> () const -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1Vector__MR__Box3f__MR__NodeId.html">meshlib::Vector_MR_Box3f_MR_NodeId</a> &gt;</td></tr>
 <tr class="memitem:ae0b572eff8592efad780830c4beb0aff" id="r_ae0b572eff8592efad780830c4beb0aff"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0b572eff8592efad780830c4beb0aff">heap_bytes</a> () const -&gt; usize</td></tr>
 <tr class="memitem:a0ce2cb15a8397698c05ef8c83738008c" id="r_a0ce2cb15a8397698c05ef8c83738008c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ce2cb15a8397698c05ef8c83738008c">get_subtrees</a> (minNum:core::ffi::c_int) const -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1std__vector__MR__NodeId.html">meshlib::std_vector_MR_NodeId</a> &gt;</td></tr>
 <tr class="memitem:ab03b2c3b626198b665157dfecd3afb26" id="r_ab03b2c3b626198b665157dfecd3afb26"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab03b2c3b626198b665157dfecd3afb26">get_subtree_faces</a> (subtreeRoot:meshlib::NodeId) const -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1FaceBitSet.html">meshlib::FaceBitSet</a> &gt;</td></tr>
@@ -180,7 +186,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a11dc1e7c254dc595480cb0454755385e inherit pub_static_methods_structmeshlib_1_1CppClass" id="r_a11dc1e7c254dc595480cb0454755385e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1CppClass.html#a11dc1e7c254dc595480cb0454755385e">destroy</a> (ptr:*mut Self)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>bounding volume hierarchy of mesh triangles with up to 4 children per node and up to 4 triangles per leaf; the children of a node are stored contiguously, and every leaf keeps the vertices and the boxes of its triangles Generated from class <span class="tt">MR::AABBTree</span>.</p>
+<div class="textblock"><p>bounding volume hierarchy of mesh triangles with up to 4 children per node and up to 4 triangles per leaf in SIMD layout: every internal node keeps the boxes of its children, and every leaf the boxes of its triangles; the triangles of leaf l are in slots [4 * l, 4 * l + 4) of leafTris(), its unused slots have invalid faces; a node is referenced as in AABBTreeSimdNode::child, or by <a class="el" href="structmeshlib_1_1NodeId.html">NodeId</a>: the internal nodes first, then the leaves Generated from class <span class="tt">MR::AABBTree</span>.</p>
 <p>Generated from class <span class="tt">MR::AABBTree</span>. Heap-allocated instances are held in <span class="tt"><a class="el" href="structmeshlib_1_1Owned.html">Owned</a>&lt;<a class="el" href="structmeshlib_1_1AABBTree.html">AABBTree</a>&gt;</span>. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a91df2dcf6250da37a2ee702988df5a5e" name="a91df2dcf6250da37a2ee702988df5a5e"></a>
@@ -316,6 +322,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0d3b5690d3aebc370ba58ce52c99cf9c" name="a0d3b5690d3aebc370ba58ce52c99cf9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d3b5690d3aebc370ba58ce52c99cf9c">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::AABBTree::empty </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if the tree has no triangles Generated from method <span class="tt">MR::AABBTree::empty</span>.</p>
+<p>Calls <span class="tt">MR_AABBTree_empty()</span>. </p>
+
+</div>
+</div>
 <a id="a04efbc617e4407373eb0b88dea9202e3" name="a04efbc617e4407373eb0b88dea9202e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a04efbc617e4407373eb0b88dea9202e3">&#9670;&#160;</a></span>flip_orientation()</h2>
 
@@ -368,8 +393,27 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>fills map: <a class="el" href="structmeshlib_1_1FaceId.html">FaceId</a> -&gt; its position in leafTris(); buffer in faceMap must be resized before the call, and caller is responsible for filling missing face elements Generated from method <span class="tt">MR::AABBTree::getLeafOrder</span>.</p>
+<p>fills map: <a class="el" href="structmeshlib_1_1FaceId.html">FaceId</a> -&gt; its position in the order of the triangles in the leaves; buffer in faceMap must be resized before the call, and caller is responsible for filling missing face elements Generated from method <span class="tt">MR::AABBTree::getLeafOrder</span>.</p>
 <p>Calls <span class="tt">MR_AABBTree_getLeafOrder()</span>. </p>
+
+</div>
+</div>
+<a id="abf1152dd2ef0e3acc5801b49e3c8383b" name="abf1152dd2ef0e3acc5801b49e3c8383b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf1152dd2ef0e3acc5801b49e3c8383b">&#9670;&#160;</a></span>get_node_boxes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::AABBTree::get_node_boxes </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1Vector__MR__Box3f__MR__NodeId.html">meshlib::Vector_MR_Box3f_MR_NodeId</a> &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the bounding boxes of all nodes Generated from method <span class="tt">MR::AABBTree::getNodeBoxes</span>.</p>
+<p>Calls <span class="tt">MR_AABBTree_getNodeBoxes()</span>. </p>
 
 </div>
 </div>
@@ -449,22 +493,22 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5531476ac3033976784a0c7517a311a9" name="a5531476ac3033976784a0c7517a311a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5531476ac3033976784a0c7517a311a9">&#9670;&#160;</a></span>leaf_boxes()</h2>
+<a id="a7f80342f25cc9c964996a29bdf350409" name="a7f80342f25cc9c964996a29bdf350409"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f80342f25cc9c964996a29bdf350409">&#9670;&#160;</a></span>leaf_box()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">auto meshlib::AABBTree::leaf_boxes </td>
+          <td class="memname">auto meshlib::AABBTree::leaf_box </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const -&gt;  &amp;<a class="el" href="structmeshlib_1_1Vector__MR__Box3f.html">meshlib::Vector_MR_Box3f</a></td>
+          <td class="paramtype">i:core::ffi::c_int</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  <a class="el" href="structmeshlib_1_1Box3f.html">meshlib::Box3f</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the bounding boxes of the triangles in the order of leafTris(), slightly expanded for robust searches Generated from method <span class="tt">MR::AABBTree::leafBoxes</span>.</p>
-<p>Calls <span class="tt">MR_AABBTree_leafBoxes()</span>. </p>
+<p>the bounding box of the triangle in slot i of leafTris(), slightly expanded for robust searches (empty for an unused slot) Generated from method <span class="tt">MR::AABBTree::leafBox</span>.</p>
+<p>Calls <span class="tt">MR_AABBTree_leafBox()</span>. </p>
 
 </div>
 </div>
@@ -482,7 +526,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>triangles of all leaves, the triangles of each leaf are contiguous Generated from method <span class="tt">MR::AABBTree::leafTris</span>.</p>
+<p>the triangles of all leaves, MaxLeafTris slots per leaf Generated from method <span class="tt">MR::AABBTree::leafTris</span>.</p>
 <p>Calls <span class="tt">MR_AABBTree_leafTris()</span>. </p>
 
 </div>
@@ -595,22 +639,79 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab323a0d27aef82d54551c274dd189779" name="ab323a0d27aef82d54551c274dd189779"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab323a0d27aef82d54551c274dd189779">&#9670;&#160;</a></span>nodes()</h2>
+<a id="a6683608ef1f366d2901354a94bc16d76" name="a6683608ef1f366d2901354a94bc16d76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6683608ef1f366d2901354a94bc16d76">&#9670;&#160;</a></span>node_id()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">auto meshlib::AABBTree::nodes </td>
+          <td class="memname">auto meshlib::AABBTree::node_id </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const -&gt;  &amp;<a class="el" href="structmeshlib_1_1Vector__MR__AABBTreeWideNode__MR__NodeId.html">meshlib::Vector_MR_AABBTreeWideNode_MR_NodeId</a></td>
+          <td class="paramtype">ref:core::ffi::c_int</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  <a class="el" href="structmeshlib_1_1NodeId.html">meshlib::NodeId</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the root is the first node, if any Generated from method <span class="tt">MR::AABBTree::nodes</span>.</p>
-<p>Calls <span class="tt">MR_AABBTree_nodes()</span>. </p>
+<p>the id of the node with given reference (as in SimdNode::child): the internal nodes first, then the leaves Generated from method <span class="tt">MR::AABBTree::nodeId</span>.</p>
+<p>Calls <span class="tt">MR_AABBTree_nodeId()</span>. </p>
+
+</div>
+</div>
+<a id="aef9ca8b16d480a264bb98308d6bc6a7d" name="aef9ca8b16d480a264bb98308d6bc6a7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef9ca8b16d480a264bb98308d6bc6a7d">&#9670;&#160;</a></span>node_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::AABBTree::node_ref </td>
+          <td>(</td>
+          <td class="paramtype">n:meshlib::NodeId</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  core::ffi::c_int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the reference (as in SimdNode::child) to the node with given id Generated from method <span class="tt">MR::AABBTree::nodeRef</span>.</p>
+<p>Calls <span class="tt">MR_AABBTree_nodeRef()</span>. </p>
+
+</div>
+</div>
+<a id="ac50d2f98be32dbf4f5ca9c701b856eb5" name="ac50d2f98be32dbf4f5ca9c701b856eb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac50d2f98be32dbf4f5ca9c701b856eb5">&#9670;&#160;</a></span>num_leaf_tris()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::AABBTree::num_leaf_tris </td>
+          <td>(</td>
+          <td class="paramtype">leaf:core::ffi::c_int</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  core::ffi::c_int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the number of triangles in given leaf Generated from method <span class="tt">MR::AABBTree::numLeafTris</span>.</p>
+<p>Calls <span class="tt">MR_AABBTree_numLeafTris()</span>. </p>
+
+</div>
+</div>
+<a id="a6b6bdae45004695aa6ab1b847e0ee825" name="a6b6bdae45004695aa6ab1b847e0ee825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b6bdae45004695aa6ab1b847e0ee825">&#9670;&#160;</a></span>num_leaves()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::AABBTree::num_leaves </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  core::ffi::c_int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the number of leaves Generated from method <span class="tt">MR::AABBTree::numLeaves</span>.</p>
+<p>Calls <span class="tt">MR_AABBTree_numLeaves()</span>. </p>
 
 </div>
 </div>
@@ -701,6 +802,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>renumbers the triangles and their vertices after the mesh was packed with given maps from old to new ids Generated from method <span class="tt">MR::AABBTree::renumber</span>.</p>
 <p>Calls <span class="tt">MR_AABBTree_renumber()</span>. </p>
+
+</div>
+</div>
+<a id="affdecf27564e45e9030d2898676de5da" name="affdecf27564e45e9030d2898676de5da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affdecf27564e45e9030d2898676de5da">&#9670;&#160;</a></span>root_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::AABBTree::root_ref </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  core::ffi::c_int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the reference to the root as in SimdNode::child: 0, or ~0 if the tree has one leaf only Generated from method <span class="tt">MR::AABBTree::rootRef</span>.</p>
+<p>Calls <span class="tt">MR_AABBTree_rootRef()</span>. </p>
 
 </div>
 </div>

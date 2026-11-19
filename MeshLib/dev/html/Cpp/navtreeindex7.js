@@ -1,5 +1,14 @@
 var NAVTREEINDEX7 =
 {
+"classMR_1_1AnyVisualizeMaskEnum.html#a8e693a1846e9d510a78d65efd9217d03":[9,0,0,11,2,3,0],
+"classMR_1_1AnyVisualizeMaskEnum.html#ad6bb8706f3ee4d236f7d26ca5e4432dd":[9,0,0,11,2,3,1],
+"classMR_1_1AsyncRequest.html":[9,0,0,19,595],
+"classMR_1_1AsyncTimer.html":[9,0,0,19,594],
+"classMR_1_1BaseUnionFind.html":[9,0,0,3,15],
+"classMR_1_1BaseUnionFind.html":[9,0,0,19,544],
+"classMR_1_1BasicClickableRectUiRenderTask.html":[9,0,0,19,659],
+"classMR_1_1BasinVolumeCalculator.html":[9,0,0,19,136],
+"classMR_1_1BestFitParabola.html":[9,0,0,19,137],
 "classMR_1_1BestFitPolynomial.html":[9,0,0,19,140],
 "classMR_1_1BinaryOperations.html":[9,0,0,19,87],
 "classMR_1_1BitSet.html":[9,0,0,3,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX7 =
 "classMR_1_1ChangeSceneObjectsOrder.html":[9,0,0,4,28],
 "classMR_1_1ChangeSceneObjectsOrder.html":[9,0,0,19,171],
 "classMR_1_1ChangeSurfaceAction.html":[9,0,0,4,48],
-"classMR_1_1ChangeSurfaceAction.html#a10e342f28635a448b68e1e8d60a56b54":[9,0,0,4,48,4],
-"classMR_1_1ChangeSurfaceAction.html#a468b0ff0cd862ea414e340dc4bfbd249":[9,0,0,4,48,1],
-"classMR_1_1ChangeSurfaceAction.html#a8d95a8625e6cbeb9f194a629de34610d":[9,0,0,4,48,3],
-"classMR_1_1ChangeSurfaceAction.html#ae9190bfd7891e5a5cc1229fb42d4efd5":[9,0,0,4,48,2],
-"classMR_1_1ChangeSurfaceAction.html#aea6aeaec06fc16a8b7114feb5bbe7ca0":[9,0,0,4,48,0],
-"classMR_1_1ChangeTextureAction.html":[9,0,0,4,6],
-"classMR_1_1ChangeTextureAction.html#a1079ab459c62474b522dc9249a6d4a4c":[9,0,0,4,6,0],
-"classMR_1_1ChangeTextureAction.html#a146619ea49b7b8835a4f37f1a13cbb8e":[9,0,0,4,6,2],
-"classMR_1_1ChangeTextureAction.html#a6415831fcd79f6104620dcc3ae8b96a6":[9,0,0,4,6,3],
-"classMR_1_1ChangeTextureAction.html#ac85c185778438e863240862dbd46a152":[9,0,0,4,6,1]
+"classMR_1_1ChangeSurfaceAction.html#a10e342f28635a448b68e1e8d60a56b54":[9,0,0,4,48,4]
 };

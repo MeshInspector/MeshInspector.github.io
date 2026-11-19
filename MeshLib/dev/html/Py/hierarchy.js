@@ -501,9 +501,6 @@ var hierarchy =
     [ "mrmeshpy.Const_std_vector_AABBTreeWideLeafTri_Allocator_AABBTreeWideLeafTri", "classmrmeshpy_1_1Const__std__vector__AABBTreeWideLeafTri__Allocator__AABBTreeWideLeafTri.html", [
       [ "mrmeshpy.std_vector_AABBTreeWideLeafTri_Allocator_AABBTreeWideLeafTri", "classmrmeshpy_1_1std__vector__AABBTreeWideLeafTri__Allocator__AABBTreeWideLeafTri.html", null ]
     ] ],
-    [ "mrmeshpy.Const_std_vector_AABBTreeWideNode_Allocator_AABBTreeWideNode", "classmrmeshpy_1_1Const__std__vector__AABBTreeWideNode__Allocator__AABBTreeWideNode.html", [
-      [ "mrmeshpy.std_vector_AABBTreeWideNode_Allocator_AABBTreeWideNode", "classmrmeshpy_1_1std__vector__AABBTreeWideNode__Allocator__AABBTreeWideNode.html", null ]
-    ] ],
     [ "mrmeshpy.Const_std_vector_AffineXf_Vector3_float", "classmrmeshpy_1_1Const__std__vector__AffineXf__Vector3__float.html", [
       [ "mrmeshpy.std_vector_AffineXf_Vector3_float", "classmrmeshpy_1_1std__vector__AffineXf__Vector3__float.html", null ]
     ] ],
@@ -1122,9 +1119,6 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ConstAABBTreeWideLeafTri", "classmrmeshpy_1_1ConstAABBTreeWideLeafTri.html", [
       [ "mrmeshpy.AABBTreeWideLeafTri", "classmrmeshpy_1_1AABBTreeWideLeafTri.html", null ]
-    ] ],
-    [ "mrmeshpy.ConstAABBTreeWideNode", "classmrmeshpy_1_1ConstAABBTreeWideNode.html", [
-      [ "mrmeshpy.AABBTreeWideNode", "classmrmeshpy_1_1AABBTreeWideNode.html", null ]
     ] ],
     [ "mrmeshpy.ConstAffineXf2d", "classmrmeshpy_1_1ConstAffineXf2d.html", [
       [ "mrmeshpy.AffineXf2d", "classmrmeshpy_1_1AffineXf2d.html", null ]
@@ -4199,9 +4193,6 @@ var hierarchy =
     [ "mrmeshpy.ConstVector_AABBTreeWideLeafTri", "classmrmeshpy_1_1ConstVector__AABBTreeWideLeafTri.html", [
       [ "mrmeshpy.Vector_AABBTreeWideLeafTri", "classmrmeshpy_1_1Vector__AABBTreeWideLeafTri.html", null ]
     ] ],
-    [ "mrmeshpy.ConstVector_AABBTreeWideNode_NodeId", "classmrmeshpy_1_1ConstVector__AABBTreeWideNode__NodeId.html", [
-      [ "mrmeshpy.Vector_AABBTreeWideNode_NodeId", "classmrmeshpy_1_1Vector__AABBTreeWideNode__NodeId.html", null ]
-    ] ],
     [ "mrmeshpy.ConstVector_AffineXf3f_ObjId", "classmrmeshpy_1_1ConstVector__AffineXf3f__ObjId.html", [
       [ "mrmeshpy.Vector_AffineXf3f_ObjId", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html", null ]
     ] ],
@@ -4211,8 +4202,8 @@ var hierarchy =
     [ "mrmeshpy.ConstVector_BallPivotCandidate", "classmrmeshpy_1_1ConstVector__BallPivotCandidate.html", [
       [ "mrmeshpy.Vector_BallPivotCandidate", "classmrmeshpy_1_1Vector__BallPivotCandidate.html", null ]
     ] ],
-    [ "mrmeshpy.ConstVector_Box3f", "classmrmeshpy_1_1ConstVector__Box3f.html", [
-      [ "mrmeshpy.Vector_Box3f", "classmrmeshpy_1_1Vector__Box3f.html", null ]
+    [ "mrmeshpy.ConstVector_Box3f_NodeId", "classmrmeshpy_1_1ConstVector__Box3f__NodeId.html", [
+      [ "mrmeshpy.Vector_Box3f_NodeId", "classmrmeshpy_1_1Vector__Box3f__NodeId.html", null ]
     ] ],
     [ "mrmeshpy.ConstVector_BoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box2f", "classmrmeshpy_1_1ConstVector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box2f.html", [
       [ "mrmeshpy.Vector_BoxedLeaf_AABBTreeTraits_UndirectedEdgeTag_Box2f", "classmrmeshpy_1_1Vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box2f.html", null ]

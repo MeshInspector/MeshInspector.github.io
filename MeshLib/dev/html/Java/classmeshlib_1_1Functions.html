@@ -1042,12 +1042,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9dc3733b37321a99eef2f493537fad54" id="r_a9dc3733b37321a99eef2f493537fad54"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1Vector3f.html">meshlib.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dc3733b37321a99eef2f493537fad54">findCenterFromBBox</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> topology, <a class="el" href="classmeshlib_1_1VertCoords.html">meshlib.VertCoords</a> points)</td></tr>
 <tr class="memitem:a8abf74df094021bb889b16f3c827c27c" id="r_a8abf74df094021bb889b16f3c827c27c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1MeshProjectionTransforms.html">meshlib.MeshProjectionTransforms</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8abf74df094021bb889b16f3c827c27c">createProjectionTransforms</a> (<a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> storageXf, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> pointXf, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> treeXf)</td></tr>
 <tr class="memdesc:a8abf74df094021bb889b16f3c827c27c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates structure with simplified transforms for projection functions, with <span class="tt">rigidXfPoint</span> applied to point, and <span class="tt">nonRigidXfTree</span> applied to tree.  <br /></td></tr>
-<tr class="memitem:a2b00a87ce1e8b1817f3b8c1323baffcd" id="r_a2b00a87ce1e8b1817f3b8c1323baffcd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1MeshProjectionResult.html">meshlib.MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b00a87ce1e8b1817f3b8c1323baffcd">findProjection</a> (<a class="el" href="classmeshlib_1_1Vector3f.html">meshlib.Vector3f</a> pt, <a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> mp, java.lang.Float upDistLimitSq, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> xf, java.lang.Float loDistLimitSq, <a class="el" href="classmeshlib_1_1std__function__bool__from__MR__FaceId.html">meshlib.std_function_bool_from_MR_FaceId</a> validFaces, <a class="el" href="classmeshlib_1_1std__function__bool__from__const__MR__MeshProjectionResult__ref.html">meshlib.std_function_bool_from_const_MR_MeshProjectionResult_ref</a> validProjections)</td></tr>
-<tr class="memdesc:a2b00a87ce1e8b1817f3b8c1323baffcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
-<tr class="memitem:aa1867edee7dce6a792cac441c3d56ddc" id="r_aa1867edee7dce6a792cac441c3d56ddc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1MeshProjectionResult.html">meshlib.MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1867edee7dce6a792cac441c3d56ddc">findProjectionSubtree</a> (<a class="el" href="classmeshlib_1_1Vector3f.html">meshlib.Vector3f</a> pt, <a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> mp, <a class="el" href="classmeshlib_1_1AABBTree.html">meshlib.AABBTree</a> tree, java.lang.Float upDistLimitSq, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> xf, java.lang.Float loDistLimitSq, <a class="el" href="classmeshlib_1_1std__function__bool__from__MR__FaceId.html">meshlib.std_function_bool_from_MR_FaceId</a> validFaces, <a class="el" href="classmeshlib_1_1std__function__bool__from__const__MR__MeshProjectionResult__ref.html">meshlib.std_function_bool_from_const_MR_MeshProjectionResult_ref</a> validProjections)</td></tr>
-<tr class="memdesc:aa1867edee7dce6a792cac441c3d56ddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
-<tr class="memitem:a177043ea9560589ff3d4b1560e9e98dd" id="r_a177043ea9560589ff3d4b1560e9e98dd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1MeshProjectionResult.html">meshlib.MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a177043ea9560589ff3d4b1560e9e98dd">findProjection</a> (<a class="el" href="classmeshlib_1_1Vector3f.html">meshlib.Vector3f</a> pt, <a class="el" href="classmeshlib_1_1VertCoords.html">meshlib.VertCoords</a> points, <a class="el" href="classmeshlib_1_1AABBTree.html">meshlib.AABBTree</a> tree, java.lang.Float upDistLimitSq, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> xf, java.lang.Float loDistLimitSq, <a class="el" href="classmeshlib_1_1std__function__bool__from__MR__FaceId.html">meshlib.std_function_bool_from_MR_FaceId</a> validFaces, <a class="el" href="classmeshlib_1_1std__function__bool__from__const__MR__MeshProjectionResult__ref.html">meshlib.std_function_bool_from_const_MR_MeshProjectionResult_ref</a> validProjections, <a class="el" href="classmeshlib_1_1FaceBitSet.html">meshlib.FaceBitSet</a> region)</td></tr>
-<tr class="memdesc:a177043ea9560589ff3d4b1560e9e98dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on the triangles of the given tree to given point; the result's tp is relative to the vertices of the triangle in the tree (in the order of tmesh.tris[proj.face] for AABBTree( tmesh ))  <br /></td></tr>
+<tr class="memitem:a574427a65c16b8a90fbdc0c6fb0a1b08" id="r_a574427a65c16b8a90fbdc0c6fb0a1b08"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1MeshProjectionResult.html">meshlib.MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a574427a65c16b8a90fbdc0c6fb0a1b08">findProjection</a> (<a class="el" href="classmeshlib_1_1Vector3f.html">meshlib.Vector3f</a> pt, <a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> mp, java.lang.Float upDistLimitSq, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> xf, java.lang.Float loDistLimitSq, <a class="el" href="classmeshlib_1_1std__function__bool__from__MR__FaceId.html">meshlib.std_function_bool_from_MR_FaceId</a> validFaces, <a class="el" href="classmeshlib_1_1std__function__bool__from__const__MR__MeshProjectionResult__ref.html">meshlib.std_function_bool_from_const_MR_MeshProjectionResult_ref</a> validProjections, java.lang.Boolean useLeafBoxes)</td></tr>
+<tr class="memdesc:a574427a65c16b8a90fbdc0c6fb0a1b08"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
+<tr class="memitem:ad299fa701a101289dc6853cce6c2e298" id="r_ad299fa701a101289dc6853cce6c2e298"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1MeshProjectionResult.html">meshlib.MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad299fa701a101289dc6853cce6c2e298">findProjectionSubtree</a> (<a class="el" href="classmeshlib_1_1Vector3f.html">meshlib.Vector3f</a> pt, <a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> mp, <a class="el" href="classmeshlib_1_1AABBTree.html">meshlib.AABBTree</a> tree, java.lang.Float upDistLimitSq, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> xf, java.lang.Float loDistLimitSq, <a class="el" href="classmeshlib_1_1std__function__bool__from__MR__FaceId.html">meshlib.std_function_bool_from_MR_FaceId</a> validFaces, <a class="el" href="classmeshlib_1_1std__function__bool__from__const__MR__MeshProjectionResult__ref.html">meshlib.std_function_bool_from_const_MR_MeshProjectionResult_ref</a> validProjections, java.lang.Boolean useLeafBoxes)</td></tr>
+<tr class="memdesc:ad299fa701a101289dc6853cce6c2e298"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
+<tr class="memitem:a34c7e967851704d1a3a1d11598070beb" id="r_a34c7e967851704d1a3a1d11598070beb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1MeshProjectionResult.html">meshlib.MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34c7e967851704d1a3a1d11598070beb">findProjection</a> (<a class="el" href="classmeshlib_1_1Vector3f.html">meshlib.Vector3f</a> pt, <a class="el" href="classmeshlib_1_1VertCoords.html">meshlib.VertCoords</a> points, <a class="el" href="classmeshlib_1_1AABBTree.html">meshlib.AABBTree</a> tree, java.lang.Float upDistLimitSq, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> xf, java.lang.Float loDistLimitSq, <a class="el" href="classmeshlib_1_1std__function__bool__from__MR__FaceId.html">meshlib.std_function_bool_from_MR_FaceId</a> validFaces, <a class="el" href="classmeshlib_1_1std__function__bool__from__const__MR__MeshProjectionResult__ref.html">meshlib.std_function_bool_from_const_MR_MeshProjectionResult_ref</a> validProjections, <a class="el" href="classmeshlib_1_1FaceBitSet.html">meshlib.FaceBitSet</a> region, java.lang.Boolean useLeafBoxes)</td></tr>
+<tr class="memdesc:a34c7e967851704d1a3a1d11598070beb"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on the triangles of the given tree to given point; the result's tp is relative to the vertices of the triangle in the tree (in the order of tmesh.tris[proj.face] for AABBTree( tmesh ))  <br /></td></tr>
 <tr class="memitem:a2aa26893f87d8de722d21d0a4ad3e0c7" id="r_a2aa26893f87d8de722d21d0a4ad3e0c7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2aa26893f87d8de722d21d0a4ad3e0c7">findBoxedTrisInBall</a> (<a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> mp, <a class="el" href="classmeshlib_1_1Ball3f.html">meshlib.Ball3f</a> ball, <a class="el" href="classmeshlib_1_1std__function__MR__Processing__from__MR__FaceId__MR__Ball3f__ref.html">meshlib.std_function_MR_Processing_from_MR_FaceId_MR_Ball3f_ref</a> foundCallback)</td></tr>
 <tr class="memitem:ab0ce7aad7db14fb0713d1b873a6d0238" id="r_ab0ce7aad7db14fb0713d1b873a6d0238"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0ce7aad7db14fb0713d1b873a6d0238">findBoxedTrisInBall</a> (<a class="el" href="classmeshlib_1_1AABBTree.html">meshlib.AABBTree</a> tree, <a class="el" href="classmeshlib_1_1Ball3f.html">meshlib.Ball3f</a> ball, <a class="el" href="classmeshlib_1_1std__function__MR__Processing__from__MR__FaceId__MR__Ball3f__ref.html">meshlib.std_function_MR_Processing_from_MR_FaceId_MR_Ball3f_ref</a> foundCallback, <a class="el" href="classmeshlib_1_1FaceBitSet.html">meshlib.FaceBitSet</a> region)</td></tr>
 <tr class="memitem:ab80d41d19c7864b531360a0eeeacae9b" id="r_ab80d41d19c7864b531360a0eeeacae9b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab80d41d19c7864b531360a0eeeacae9b">findTrisInBall</a> (<a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> mp, <a class="el" href="classmeshlib_1_1Ball3f.html">meshlib.Ball3f</a> ball, <a class="el" href="classmeshlib_1_1std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref.html">meshlib.std_function_MR_Processing_from_const_MR_MeshProjectionResult_ref_MR_Ball3f_ref</a> foundCallback, <a class="el" href="classmeshlib_1_1std__function__bool__from__MR__FaceId.html">meshlib.std_function_bool_from_MR_FaceId</a> validFaces)</td></tr>
@@ -28012,8 +28012,8 @@ Trivial fill with smooth</div></div>
 
 </div>
 </div>
-<a id="a2b00a87ce1e8b1817f3b8c1323baffcd" name="a2b00a87ce1e8b1817f3b8c1323baffcd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b00a87ce1e8b1817f3b8c1323baffcd">&#9670;&#160;</a></span>findProjection() <span class="overload">[1/2]</span></h2>
+<a id="a574427a65c16b8a90fbdc0c6fb0a1b08" name="a574427a65c16b8a90fbdc0c6fb0a1b08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a574427a65c16b8a90fbdc0c6fb0a1b08">&#9670;&#160;</a></span>findProjection() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -28054,7 +28054,12 @@ Trivial fill with smooth</div></div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmeshlib_1_1std__function__bool__from__const__MR__MeshProjectionResult__ref.html">meshlib.std_function_bool_from_const_MR_MeshProjectionResult_ref</a></td>          <td class="paramname"><span class="paramname"><em>validProjections</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1std__function__bool__from__const__MR__MeshProjectionResult__ref.html">meshlib.std_function_bool_from_const_MR_MeshProjectionResult_ref</a></td>          <td class="paramname"><span class="paramname"><em>validProjections</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">java.lang.Boolean</td>          <td class="paramname"><span class="paramname"><em>useLeafBoxes</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -28071,17 +28076,18 @@ Trivial fill with smooth</div></div>
     <tr><td class="paramname">xf</td><td>mesh-to-point transformation, if not specified then identity transformation is assumed </td></tr>
     <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
     <tr><td class="paramname">validFaces</td><td>if provided then only faces from there will be considered as projections </td></tr>
-    <tr><td class="paramname">validProjections</td><td>if provided then only projections passed this test can be returned</td></tr>
+    <tr><td class="paramname">validProjections</td><td>if provided then only projections passed this test can be returned </td></tr>
+    <tr><td class="paramname">useLeafBoxes</td><td>whether to skip the triangles of a leaf whose boxes are not closer than the found point (without xf only): faster when the tree stays in the caches (small trees, nearby query points one after another), slower when many threads query a big tree in random order, which is limited by the memory bandwidth, since the boxes of a leaf add two cache lines to every visited leaf</td></tr>
   </table>
   </dd>
 </dl>
 <p>Generated from function <span class="tt">MR::findProjection</span>.</p>
-<p>Calls <span class="tt">MR_findProjection_7()</span>. </p>
+<p>Calls <span class="tt">MR_findProjection_8()</span>. </p>
 
 </div>
 </div>
-<a id="a177043ea9560589ff3d4b1560e9e98dd" name="a177043ea9560589ff3d4b1560e9e98dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a177043ea9560589ff3d4b1560e9e98dd">&#9670;&#160;</a></span>findProjection() <span class="overload">[2/2]</span></h2>
+<a id="a34c7e967851704d1a3a1d11598070beb" name="a34c7e967851704d1a3a1d11598070beb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34c7e967851704d1a3a1d11598070beb">&#9670;&#160;</a></span>findProjection() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -28132,7 +28138,12 @@ Trivial fill with smooth</div></div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmeshlib_1_1FaceBitSet.html">meshlib.FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1FaceBitSet.html">meshlib.FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">java.lang.Boolean</td>          <td class="paramname"><span class="paramname"><em>useLeafBoxes</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -28152,12 +28163,13 @@ Trivial fill with smooth</div></div>
     <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
     <tr><td class="paramname">validFaces</td><td>if provided then only faces from there will be considered as projections </td></tr>
     <tr><td class="paramname">validProjections</td><td>if provided then only projections passed this test can be returned </td></tr>
-    <tr><td class="paramname">region</td><td>if provided then only the triangles from there are searched; building the tree only from them is faster</td></tr>
+    <tr><td class="paramname">region</td><td>if provided then only the triangles from there are searched; building the tree only from them is faster </td></tr>
+    <tr><td class="paramname">useLeafBoxes</td><td>whether to skip the triangles of a leaf whose boxes are not closer than the found point (without xf only): faster when the tree stays in the caches (small trees, nearby query points one after another), slower when many threads query a big tree in random order, which is limited by the memory bandwidth, since the boxes of a leaf add two cache lines to every visited leaf</td></tr>
   </table>
   </dd>
 </dl>
 <p>Generated from function <span class="tt">MR::findProjection</span>.</p>
-<p>Calls <span class="tt">MR_findProjection_9()</span>. </p>
+<p>Calls <span class="tt">MR_findProjection_10()</span>. </p>
 
 </div>
 </div>
@@ -28705,8 +28717,8 @@ Trivial fill with smooth</div></div>
 
 </div>
 </div>
-<a id="aa1867edee7dce6a792cac441c3d56ddc" name="aa1867edee7dce6a792cac441c3d56ddc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1867edee7dce6a792cac441c3d56ddc">&#9670;&#160;</a></span>findProjectionSubtree()</h2>
+<a id="ad299fa701a101289dc6853cce6c2e298" name="ad299fa701a101289dc6853cce6c2e298"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad299fa701a101289dc6853cce6c2e298">&#9670;&#160;</a></span>findProjectionSubtree()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -28752,7 +28764,12 @@ Trivial fill with smooth</div></div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmeshlib_1_1std__function__bool__from__const__MR__MeshProjectionResult__ref.html">meshlib.std_function_bool_from_const_MR_MeshProjectionResult_ref</a></td>          <td class="paramname"><span class="paramname"><em>validProjections</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1std__function__bool__from__const__MR__MeshProjectionResult__ref.html">meshlib.std_function_bool_from_const_MR_MeshProjectionResult_ref</a></td>          <td class="paramname"><span class="paramname"><em>validProjections</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">java.lang.Boolean</td>          <td class="paramname"><span class="paramname"><em>useLeafBoxes</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -28770,7 +28787,8 @@ Trivial fill with smooth</div></div>
     <tr><td class="paramname">xf</td><td>mesh-to-point transformation, if not specified then identity transformation is assumed </td></tr>
     <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
     <tr><td class="paramname">validFaces</td><td>if provided then only faces from there will be considered as projections </td></tr>
-    <tr><td class="paramname">validProjections</td><td>if provided then only projections passed this test can be returned</td></tr>
+    <tr><td class="paramname">validProjections</td><td>if provided then only projections passed this test can be returned </td></tr>
+    <tr><td class="paramname">useLeafBoxes</td><td>whether to skip the triangles of a leaf whose boxes are not closer than the found point (without xf only): faster when the tree stays in the caches (small trees, nearby query points one after another), slower when many threads query a big tree in random order, which is limited by the memory bandwidth, since the boxes of a leaf add two cache lines to every visited leaf</td></tr>
   </table>
   </dd>
 </dl>
@@ -44676,8 +44694,8 @@ All new faces should be parallel to given direction It is measured in squared le
 <div class="line">    meshParams.texturePerFace = &amp;texturePerFace;</div>
 <div class="line">subs.onEdgeSplit = <a class="code hl_function" href="#aa382a636f7160ba96b64a8f8c637e570">meshOnEdgeSplitAttribute</a>( *obj_-&gt;varMesh(), meshParams );</div>
 <div class="line"><a class="code hl_function" href="#af5dddfa988210f3dc5340ef6cf87dad8">subdivideMesh</a>( *obj_-&gt;varMesh(), subs );</div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:41129</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:41014</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:41138</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:41023</div></div>
 <div class="ttc" id="aclassmeshlib_1_1MeshAttributesToUpdate_html"><div class="ttname"><a href="classmeshlib_1_1MeshAttributesToUpdate.html">meshlib.MeshAttributesToUpdate</a></div><div class="ttdef"><b>Definition</b> MeshAttributesToUpdate.java:11</div></div>
 </div><!-- fragment --><p>Generated from function <span class="tt">MR::meshOnEdgeSplitAttribute</span>.</p>
 <p>Calls <span class="tt">MR_meshOnEdgeSplitAttribute()</span>. </p>
@@ -44844,8 +44862,8 @@ All new faces should be parallel to given direction It is measured in squared le
 <div class="line">auto preCollapse = <a class="code hl_function" href="#a166299cba3c97de3a69adc7140487547">meshPreCollapseVertAttribute</a>( mesh, meshParams );</div>
 <div class="line"><a class="code hl_function" href="#a9376f6e96aa742bea4a4257595c70838">decimateMesh</a>( mesh, <a class="code hl_class" href="classmeshlib_1_1DecimateSettings.html">DecimateSettings</a>{ .preCollapse = preCollapse } );</div>
 <div class="ttc" id="aclassmeshlib_1_1DecimateSettings_html"><div class="ttname"><a href="classmeshlib_1_1DecimateSettings.html">meshlib.DecimateSettings</a></div><div class="ttdef"><b>Definition</b> DecimateSettings.java:17</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_a166299cba3c97de3a69adc7140487547"><div class="ttname"><a href="#a166299cba3c97de3a69adc7140487547">meshlib.Functions.meshPreCollapseVertAttribute</a></div><div class="ttdeci">static meshlib.std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref meshPreCollapseVertAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:37939</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_a9376f6e96aa742bea4a4257595c70838"><div class="ttname"><a href="#a9376f6e96aa742bea4a4257595c70838">meshlib.Functions.decimateMesh</a></div><div class="ttdeci">static meshlib.DecimateResult decimateMesh(meshlib.Mesh mesh, meshlib.DecimateSettings settings)</div><div class="ttdoc">Performs mesh simplification in mesh region according to the settings.</div><div class="ttdef"><b>Definition</b> Functions.java:37704</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_a166299cba3c97de3a69adc7140487547"><div class="ttname"><a href="#a166299cba3c97de3a69adc7140487547">meshlib.Functions.meshPreCollapseVertAttribute</a></div><div class="ttdeci">static meshlib.std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref meshPreCollapseVertAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:37948</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_a9376f6e96aa742bea4a4257595c70838"><div class="ttname"><a href="#a9376f6e96aa742bea4a4257595c70838">meshlib.Functions.decimateMesh</a></div><div class="ttdeci">static meshlib.DecimateResult decimateMesh(meshlib.Mesh mesh, meshlib.DecimateSettings settings)</div><div class="ttdoc">Performs mesh simplification in mesh region according to the settings.</div><div class="ttdef"><b>Definition</b> Functions.java:37713</div></div>
 </div><!-- fragment --><p>Generated from function <span class="tt">MR::meshPreCollapseVertAttribute</span>.</p>
 <p>Calls <span class="tt">MR_meshPreCollapseVertAttribute()</span>. </p>
 

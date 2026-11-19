@@ -1739,6 +1739,7 @@ fillHoleTrivially</dd>
     <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
     <tr><td class="paramname">validFaces</td><td>if provided then only faces from there will be considered as projections </td></tr>
     <tr><td class="paramname">validProjections</td><td>if provided then only projections passed this test can be returned </td></tr>
+    <tr><td class="paramname">useLeafBoxes</td><td>whether to skip the triangles of a leaf whose boxes are not closer than the found point (without xf only): faster when the tree stays in the caches (small trees, nearby query points one after another), slower when many threads query a big tree in random order, which is limited by the memory bandwidth, since the boxes of a leaf add two cache lines to every visited leaf </td></tr>
   </table>
   </dd>
 </dl>

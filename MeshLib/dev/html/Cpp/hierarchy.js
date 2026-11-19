@@ -13,9 +13,11 @@ var hierarchy =
       [ "MR::AABBTreeNode< T >", "structMR_1_1AABBTreeNode.html", null ]
     ] ],
     [ "MR::AABBTreePoints", "classMR_1_1AABBTreePoints.html", null ],
+    [ "MR::AABBTreeSimdBoxes", "structMR_1_1AABBTreeSimdBoxes.html", [
+      [ "MR::AABBTreeSimdNode", "structMR_1_1AABBTreeSimdNode.html", null ]
+    ] ],
     [ "MR::AABBTreeTraits< L, B >", "structMR_1_1AABBTreeTraits.html", null ],
     [ "MR::AABBTreeWideLeafTri", "structMR_1_1AABBTreeWideLeafTri.html", null ],
-    [ "MR::AABBTreeWideNode", "structMR_1_1AABBTreeWideNode.html", null ],
     [ "MR::SpaceMouse::Action", "structMR_1_1SpaceMouse_1_1Action.html", null ],
     [ "MR::AffineXf< V >", "structMR_1_1AffineXf.html", null ],
     [ "MR::AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", null ],

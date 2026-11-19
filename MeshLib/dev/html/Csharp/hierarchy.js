@@ -271,9 +271,6 @@ var hierarchy =
       [ "MR.Const_AABBTreeWideLeafTri", "classMR_1_1Const__AABBTreeWideLeafTri.html", [
         [ "MR.AABBTreeWideLeafTri", "classMR_1_1AABBTreeWideLeafTri.html", null ]
       ] ],
-      [ "MR.Const_AABBTreeWideNode", "classMR_1_1Const__AABBTreeWideNode.html", [
-        [ "MR.AABBTreeWideNode", "classMR_1_1AABBTreeWideNode.html", null ]
-      ] ],
       [ "MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html", [
         [ "MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter", "classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html", null ]
       ] ],
@@ -2577,9 +2574,6 @@ var hierarchy =
       [ "MR.Const_Vector_MRAABBTreeWideLeafTri", "classMR_1_1Const__Vector__MRAABBTreeWideLeafTri.html", [
         [ "MR.Vector_MRAABBTreeWideLeafTri", "classMR_1_1Vector__MRAABBTreeWideLeafTri.html", null ]
       ] ],
-      [ "MR.Const_Vector_MRAABBTreeWideNode_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeWideNode__MRNodeId.html", [
-        [ "MR.Vector_MRAABBTreeWideNode_MRNodeId", "classMR_1_1Vector__MRAABBTreeWideNode__MRNodeId.html", null ]
-      ] ],
       [ "MR.Const_Vector_MRAffineXf3f_MRObjId", "classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html", [
         [ "MR.Vector_MRAffineXf3f_MRObjId", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html", null ]
       ] ],
@@ -2589,8 +2583,8 @@ var hierarchy =
       [ "MR.Const_Vector_MRBallPivotCandidate", "classMR_1_1Const__Vector__MRBallPivotCandidate.html", [
         [ "MR.Vector_MRBallPivotCandidate", "classMR_1_1Vector__MRBallPivotCandidate.html", null ]
       ] ],
-      [ "MR.Const_Vector_MRBox3f", "classMR_1_1Const__Vector__MRBox3f.html", [
-        [ "MR.Vector_MRBox3f", "classMR_1_1Vector__MRBox3f.html", null ]
+      [ "MR.Const_Vector_MRBox3f_MRNodeId", "classMR_1_1Const__Vector__MRBox3f__MRNodeId.html", [
+        [ "MR.Vector_MRBox3f_MRNodeId", "classMR_1_1Vector__MRBox3f__MRNodeId.html", null ]
       ] ],
       [ "MR.Const_Vector_MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Const__Vector__MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", [
         [ "MR.Vector_MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Vector__MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", null ]
@@ -3512,7 +3506,7 @@ var hierarchy =
       [ "MR.Const_Vector_Int_MRUndirectedEdgeId", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html", null ],
       [ "MR.Const_Vector_Int_MRVertId", "classMR_1_1Const__Vector__Int__MRVertId.html", null ],
       [ "MR.Const_Vector_MRAffineXf3f_MRObjId", "classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html", null ],
-      [ "MR.Const_Vector_MRBox3f", "classMR_1_1Const__Vector__MRBox3f.html", null ],
+      [ "MR.Const_Vector_MRBox3f_MRNodeId", "classMR_1_1Const__Vector__MRBox3f__MRNodeId.html", null ],
       [ "MR.Const_Vector_MREdgeId_MRFaceId", "classMR_1_1Const__Vector__MREdgeId__MRFaceId.html", null ],
       [ "MR.Const_Vector_MREdgeId_MRVertId", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html", null ],
       [ "MR.Const_Vector_MRFaceBitSet_MRGraphVertId", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html", null ],
@@ -3722,7 +3716,6 @@ var hierarchy =
       [ "MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f", "classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f.html", null ],
       [ "MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox3f", "classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox3f.html", null ],
       [ "MR.Const_AABBTreeWideLeafTri", "classMR_1_1Const__AABBTreeWideLeafTri.html", null ],
-      [ "MR.Const_AABBTreeWideNode", "classMR_1_1Const__AABBTreeWideNode.html", null ],
       [ "MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter.html", null ],
       [ "MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameteb6b978ab28f6303e8ea184c630bc7d8d.html", null ],
       [ "MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiametea8faf07dc99663565485435cee2e29e1.html", null ],
@@ -4498,11 +4491,10 @@ var hierarchy =
       [ "MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html", null ],
       [ "MR.Const_Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId.html", null ],
       [ "MR.Const_Vector_MRAABBTreeWideLeafTri", "classMR_1_1Const__Vector__MRAABBTreeWideLeafTri.html", null ],
-      [ "MR.Const_Vector_MRAABBTreeWideNode_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeWideNode__MRNodeId.html", null ],
       [ "MR.Const_Vector_MRAffineXf3f_MRObjId", "classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html", null ],
       [ "MR.Const_Vector_MRAlphaShapeNei", "classMR_1_1Const__Vector__MRAlphaShapeNei.html", null ],
       [ "MR.Const_Vector_MRBallPivotCandidate", "classMR_1_1Const__Vector__MRBallPivotCandidate.html", null ],
-      [ "MR.Const_Vector_MRBox3f", "classMR_1_1Const__Vector__MRBox3f.html", null ],
+      [ "MR.Const_Vector_MRBox3f_MRNodeId", "classMR_1_1Const__Vector__MRBox3f__MRNodeId.html", null ],
       [ "MR.Const_Vector_MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f", "classMR_1_1Const__Vector__MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html", null ],
       [ "MR.Const_Vector_MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f", "classMR_1_1Const__Vector__MRBoxedLeafMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html", null ],
       [ "MR.Const_Vector_MRBoxedLeafMRObjTreeTraits", "classMR_1_1Const__Vector__MRBoxedLeafMRObjTreeTraits.html", null ],

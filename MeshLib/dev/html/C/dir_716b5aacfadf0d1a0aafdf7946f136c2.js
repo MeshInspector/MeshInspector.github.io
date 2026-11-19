@@ -441,7 +441,6 @@ var dir_716b5aacfadf0d1a0aafdf7946f136c2 =
     [ "std_vector_MR_AABBTreePoints_Node_MR_Allocator_MR_AABBTreePoints_Node.h", "std__vector__MR__AABBTreePoints__Node__MR__Allocator__MR__AABBTreePoints__Node_8h.html", "std__vector__MR__AABBTreePoints__Node__MR__Allocator__MR__AABBTreePoints__Node_8h" ],
     [ "std_vector_MR_AABBTreePoints_Point.h", "std__vector__MR__AABBTreePoints__Point_8h.html", "std__vector__MR__AABBTreePoints__Point_8h" ],
     [ "std_vector_MR_AABBTreeWideLeafTri_MR_Allocator_MR_AABBTreeWideLeafTri.h", "std__vector__MR__AABBTreeWideLeafTri__MR__Allocator__MR__AABBTreeWideLeafTri_8h.html", "std__vector__MR__AABBTreeWideLeafTri__MR__Allocator__MR__AABBTreeWideLeafTri_8h" ],
-    [ "std_vector_MR_AABBTreeWideNode_MR_Allocator_MR_AABBTreeWideNode.h", "std__vector__MR__AABBTreeWideNode__MR__Allocator__MR__AABBTreeWideNode_8h.html", "std__vector__MR__AABBTreeWideNode__MR__Allocator__MR__AABBTreeWideNode_8h" ],
     [ "std_vector_MR_AffineXf3f.h", "std__vector__MR__AffineXf3f_8h.html", "std__vector__MR__AffineXf3f_8h" ],
     [ "std_vector_MR_AffineXf3f_MR_Allocator_MR_AffineXf3f.h", "std__vector__MR__AffineXf3f__MR__Allocator__MR__AffineXf3f_8h.html", "std__vector__MR__AffineXf3f__MR__Allocator__MR__AffineXf3f_8h" ],
     [ "std_vector_MR_AlphaShapeNei_MR_Allocator_MR_AlphaShapeNei.h", "std__vector__MR__AlphaShapeNei__MR__Allocator__MR__AlphaShapeNei_8h.html", "std__vector__MR__AlphaShapeNei__MR__Allocator__MR__AlphaShapeNei_8h" ],

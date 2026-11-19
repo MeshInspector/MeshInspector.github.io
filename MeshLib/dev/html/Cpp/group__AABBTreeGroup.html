@@ -145,10 +145,10 @@ $(function(){initNavTree('group__AABBTreeGroup.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ACuda_3A_3AFastWindingNumber" id="r_MR_3A_3ACuda_3A_3AFastWindingNumber"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR::Cuda::FastWindingNumber</a></td></tr>
-<tr class="memitem:MR_3A_3AAABBTreeWideNode" id="r_MR_3A_3AAABBTreeWideNode"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeWideNode.html">MR::AABBTreeWideNode</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">node of <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> (outside of the class to be default-constructible in its members)  <a href="structMR_1_1AABBTreeWideNode.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AAABBTreeWideLeafTri" id="r_MR_3A_3AAABBTreeWideLeafTri"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeWideLeafTri.html">MR::AABBTreeWideLeafTri</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangle in a leaf of <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a>  <a href="structMR_1_1AABBTreeWideLeafTri.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AAABBTreeSimdBoxes" id="r_MR_3A_3AAABBTreeSimdBoxes"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeSimdBoxes.html">MR::AABBTreeSimdBoxes</a></td></tr>
+<tr class="memitem:MR_3A_3AAABBTreeSimdNode" id="r_MR_3A_3AAABBTreeSimdNode"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeSimdNode.html">MR::AABBTreeSimdNode</a></td></tr>
 <tr class="memitem:MR_3A_3AAABBTree" id="r_MR_3A_3AAABBTree"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1AABBTree.html">MR::AABBTree</a></td></tr>
 <tr class="memitem:MR_3A_3AAABBTreeTraits_3C_20L_2C_20B_20_3E" id="r_MR_3A_3AAABBTreeTraits_3C_20L_2C_20B_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeTraits.html">MR::AABBTreeTraits&lt; L, B &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3ABoxedLeaf_3C_20T_20_3E" id="r_MR_3A_3ABoxedLeaf_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BoxedLeaf.html">MR::BoxedLeaf&lt; T &gt;</a></td></tr>
@@ -335,12 +335,12 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga45e61b0f865d15d2172777953f29b4b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the squared Hausdorff distance between two meshes, that is the maximum of squared distances from each mesh vertex to the other mesh (in both directions)  <br /></td></tr>
 <tr class="memitem:gaae6b5143199ddd407f3703c52fb0d1a8" id="r_gaae6b5143199ddd407f3703c52fb0d1a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshProjectionTransforms.html">MeshProjectionTransforms</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaae6b5143199ddd407f3703c52fb0d1a8">MR::createProjectionTransforms</a> (AffineXf3f &amp;storageXf, const AffineXf3f *pointXf, const AffineXf3f *treeXf)</td></tr>
 <tr class="memdesc:gaae6b5143199ddd407f3703c52fb0d1a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates structure with simplified transforms for projection functions, with <span class="tt">rigidXfPoint</span> applied to point, and <span class="tt">nonRigidXfTree</span> applied to tree.  <br /></td></tr>
-<tr class="memitem:gadd58047c34992dde1fd3d7f854ca6d97" id="r_gadd58047c34992dde1fd3d7f854ca6d97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadd58047c34992dde1fd3d7f854ca6d97">MR::findProjection</a> (const Vector3f &amp;pt, const MeshPart &amp;mp, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, const <a class="el" href="group__GeneralGroup.html#ga2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={}, const std::function&lt; bool(const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;)&gt; &amp;validProjections={})</td></tr>
-<tr class="memdesc:gadd58047c34992dde1fd3d7f854ca6d97"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
-<tr class="memitem:gafbb2d7a2190e5d13b47162ac1bc2df96" id="r_gafbb2d7a2190e5d13b47162ac1bc2df96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafbb2d7a2190e5d13b47162ac1bc2df96">MR::findProjectionSubtree</a> (const Vector3f &amp;pt, const MeshPart &amp;mp, const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, const <a class="el" href="group__GeneralGroup.html#ga2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={}, const std::function&lt; bool(const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;)&gt; &amp;validProjections={})</td></tr>
-<tr class="memdesc:gafbb2d7a2190e5d13b47162ac1bc2df96"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
-<tr class="memitem:ga029908dee7cc1ad6bc7dbef52964363f" id="r_ga029908dee7cc1ad6bc7dbef52964363f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga029908dee7cc1ad6bc7dbef52964363f">MR::findProjection</a> (const Vector3f &amp;pt, const VertCoords &amp;points, const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, const <a class="el" href="group__GeneralGroup.html#ga2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={}, const std::function&lt; bool(const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;)&gt; &amp;validProjections={}, const FaceBitSet *region=nullptr)</td></tr>
-<tr class="memdesc:ga029908dee7cc1ad6bc7dbef52964363f"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on the triangles of the given tree to given point; the result's tp is relative to the vertices of the triangle in the tree (in the order of tmesh.tris[proj.face] for <a class="el" href="group__GeneralGroup.html#ggafedf1467ef6a61af5a59eafa50a41bf9a220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>)  <br /></td></tr>
+<tr class="memitem:gad29a06a67875296250d4fac4286ce6eb" id="r_gad29a06a67875296250d4fac4286ce6eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad29a06a67875296250d4fac4286ce6eb">MR::findProjection</a> (const Vector3f &amp;pt, const MeshPart &amp;mp, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, const <a class="el" href="group__GeneralGroup.html#ga2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={}, const std::function&lt; bool(const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;)&gt; &amp;validProjections={}, bool useLeafBoxes=true)</td></tr>
+<tr class="memdesc:gad29a06a67875296250d4fac4286ce6eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
+<tr class="memitem:ga717dd4b0c1c19ff5072b551bf7f4c0b5" id="r_ga717dd4b0c1c19ff5072b551bf7f4c0b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga717dd4b0c1c19ff5072b551bf7f4c0b5">MR::findProjectionSubtree</a> (const Vector3f &amp;pt, const MeshPart &amp;mp, const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, const <a class="el" href="group__GeneralGroup.html#ga2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={}, const std::function&lt; bool(const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;)&gt; &amp;validProjections={}, bool useLeafBoxes=true)</td></tr>
+<tr class="memdesc:ga717dd4b0c1c19ff5072b551bf7f4c0b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on mesh (or its region) to given point  <br /></td></tr>
+<tr class="memitem:gabe32cdc00139b90de069adcab862eab7" id="r_gabe32cdc00139b90de069adcab862eab7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabe32cdc00139b90de069adcab862eab7">MR::findProjection</a> (const Vector3f &amp;pt, const VertCoords &amp;points, const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, const <a class="el" href="group__GeneralGroup.html#ga2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={}, const std::function&lt; bool(const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;)&gt; &amp;validProjections={}, const FaceBitSet *region=nullptr, bool useLeafBoxes=true)</td></tr>
+<tr class="memdesc:gabe32cdc00139b90de069adcab862eab7"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on the triangles of the given tree to given point; the result's tp is relative to the vertices of the triangle in the tree (in the order of tmesh.tris[proj.face] for <a class="el" href="group__GeneralGroup.html#ggafedf1467ef6a61af5a59eafa50a41bf9a220dce5b9731e80b3b1d4a59a9bbe8d8" title="the order is determined so to put close in space points in close indices (optimal for compression)">AABBTree( tmesh )</a>)  <br /></td></tr>
 <tr class="memitem:ga90634a0c0496ed8f339298a566260e68" id="r_ga90634a0c0496ed8f339298a566260e68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga90634a0c0496ed8f339298a566260e68">MR::findBoxedTrisInBall</a> (const MeshPart &amp;mp, Ball3f ball, const <a class="el" href="#ga4349e23b1c03bbeb120c81f3cbb8b615">FoundBoxedTriCallback</a> &amp;foundCallback)</td></tr>
 <tr class="memitem:ga79f1579a76b384c29c5b705160a83ce8" id="r_ga79f1579a76b384c29c5b705160a83ce8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga79f1579a76b384c29c5b705160a83ce8">MR::findBoxedTrisInBall</a> (const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, Ball3f ball, const <a class="el" href="#ga4349e23b1c03bbeb120c81f3cbb8b615">FoundBoxedTriCallback</a> &amp;foundCallback, const FaceBitSet *region=nullptr)</td></tr>
 <tr class="memitem:ga1d649a36ab13b6d880081a27f17b87dc" id="r_ga1d649a36ab13b6d880081a27f17b87dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1d649a36ab13b6d880081a27f17b87dc">MR::findTrisInBall</a> (const MeshPart &amp;mp, const Ball3f &amp;ball, const <a class="el" href="#ga3fa10deed3f5f765a28d62f2a9667c0f">FoundTriCallback</a> &amp;foundCallback, const <a class="el" href="group__GeneralGroup.html#ga2b15c0d875f91b8c0da03e651251832b">FacePredicate</a> &amp;validFaces={})</td></tr>
@@ -2554,8 +2554,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gadd58047c34992dde1fd3d7f854ca6d97" name="gadd58047c34992dde1fd3d7f854ca6d97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadd58047c34992dde1fd3d7f854ca6d97">&#9670;&#160;</a></span>findProjection() <span class="overload">[1/2]</span></h2>
+<a id="gad29a06a67875296250d4fac4286ce6eb" name="gad29a06a67875296250d4fac4286ce6eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad29a06a67875296250d4fac4286ce6eb">&#9670;&#160;</a></span>findProjection() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2596,7 +2596,12 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::function&lt; bool(const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>validProjections</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const std::function&lt; bool(const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>validProjections</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>useLeafBoxes</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -2616,14 +2621,15 @@ template&lt;typename T&gt; </div>
     <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
     <tr><td class="paramname">validFaces</td><td>if provided then only faces from there will be considered as projections </td></tr>
     <tr><td class="paramname">validProjections</td><td>if provided then only projections passed this test can be returned </td></tr>
+    <tr><td class="paramname">useLeafBoxes</td><td>whether to skip the triangles of a leaf whose boxes are not closer than the found point (without xf only): faster when the tree stays in the caches (small trees, nearby query points one after another), slower when many threads query a big tree in random order, which is limited by the memory bandwidth, since the boxes of a leaf add two cache lines to every visited leaf </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ga029908dee7cc1ad6bc7dbef52964363f" name="ga029908dee7cc1ad6bc7dbef52964363f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga029908dee7cc1ad6bc7dbef52964363f">&#9670;&#160;</a></span>findProjection() <span class="overload">[2/2]</span></h2>
+<a id="gabe32cdc00139b90de069adcab862eab7" name="gabe32cdc00139b90de069adcab862eab7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe32cdc00139b90de069adcab862eab7">&#9670;&#160;</a></span>findProjection() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2674,7 +2680,12 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>useLeafBoxes</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -2697,6 +2708,7 @@ template&lt;typename T&gt; </div>
     <tr><td class="paramname">validFaces</td><td>if provided then only faces from there will be considered as projections </td></tr>
     <tr><td class="paramname">validProjections</td><td>if provided then only projections passed this test can be returned </td></tr>
     <tr><td class="paramname">region</td><td>if provided then only the triangles from there are searched; building the tree only from them is faster </td></tr>
+    <tr><td class="paramname">useLeafBoxes</td><td>whether to skip the triangles of a leaf whose boxes are not closer than the found point (without xf only): faster when the tree stays in the caches (small trees, nearby query points one after another), slower when many threads query a big tree in random order, which is limited by the memory bandwidth, since the boxes of a leaf add two cache lines to every visited leaf </td></tr>
   </table>
   </dd>
 </dl>
@@ -3191,8 +3203,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gafbb2d7a2190e5d13b47162ac1bc2df96" name="gafbb2d7a2190e5d13b47162ac1bc2df96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafbb2d7a2190e5d13b47162ac1bc2df96">&#9670;&#160;</a></span>findProjectionSubtree()</h2>
+<a id="ga717dd4b0c1c19ff5072b551bf7f4c0b5" name="ga717dd4b0c1c19ff5072b551bf7f4c0b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga717dd4b0c1c19ff5072b551bf7f4c0b5">&#9670;&#160;</a></span>findProjectionSubtree()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3238,7 +3250,12 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::function&lt; bool(const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>validProjections</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const std::function&lt; bool(const <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &amp;)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>validProjections</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>useLeafBoxes</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -3259,6 +3276,7 @@ template&lt;typename T&gt; </div>
     <tr><td class="paramname">loDistLimitSq</td><td>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </td></tr>
     <tr><td class="paramname">validFaces</td><td>if provided then only faces from there will be considered as projections </td></tr>
     <tr><td class="paramname">validProjections</td><td>if provided then only projections passed this test can be returned </td></tr>
+    <tr><td class="paramname">useLeafBoxes</td><td>whether to skip the triangles of a leaf whose boxes are not closer than the found point (without xf only): faster when the tree stays in the caches (small trees, nearby query points one after another), slower when many threads query a big tree in random order, which is limited by the memory bandwidth, since the boxes of a leaf add two cache lines to every visited leaf </td></tr>
   </table>
   </dd>
 </dl>
