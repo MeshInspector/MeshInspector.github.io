@@ -236,7 +236,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>both arguments are extensions of 64-bit values, which the compiler recognizes</p>
+<p>MSVC and clang-cl: <a class="el" href="namespaceMR.html#a626821a3551ab1b67dc553a092bd0a2f">FastInt128</a> is std::_Signed128 there, whose product of two values is general (signs stripped by branches, three 64-bit multiplications, the result negated), so a single widening multiplication by the intrinsic is several times faster</p>
+<p><a class="el" href="namespaceMR.html#a626821a3551ab1b67dc553a092bd0a2f">FastInt128</a> is __int128_t: both arguments are extensions of 64-bit values, which the compiler recognizes</p>
 
 </div>
 </div>
