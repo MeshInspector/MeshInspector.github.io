@@ -11409,6 +11409,7 @@ var group__GeneralGroup =
     [ "MR::buildShortestPathBiDir", "group__SurfacePathGroup.html#ga02ee193e489ee539ab60e56139f84aa5", null ],
     [ "MR::buildSmallestMetricPath", "group__SurfacePathGroup.html#ga219897fc7869629ce5165c35fd571aab", null ],
     [ "MR::buildSmallestMetricPath", "group__SurfacePathGroup.html#ga2e859da5422bb433cd50959d4c1f5c3c", null ],
+    [ "MR::buildSmallestMetricPathBiDir", "group__SurfacePathGroup.html#ga65b86c13c9923b237635f38d90ea05d2", null ],
     [ "MR::buildSmallestMetricPathBiDir", "group__SurfacePathGroup.html#gae474ab43755b30ced4f02ee56022a3eb", null ],
     [ "MR::buildSmallestMetricPathBiDir", "group__SurfacePathGroup.html#ga9abf677f3818dddee4eda4f17b494cfc", null ],
     [ "MR::Mcp::busyError", "group__GeneralGroup.html#gae8d43b75965d778cd40ea18fb74e74be", null ],

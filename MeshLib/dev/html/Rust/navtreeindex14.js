@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"namespacemeshlib_1_1polyline__components.html#a612e5b4b7028ed0dbf1a401a99f49348":[9,5,0,0,0,27,1],
+"namespacemeshlib_1_1polyline__components.html#a6d25987fe4ec9a809ccaf8b2196a7952":[9,5,0,0,0,27,4],
 "namespacemeshlib_1_1polyline__components.html#ab4ae19b616ea826c9d5a214e676060c3":[9,5,0,0,0,27,2],
 "namespacemeshlib_1_1polyline__components.html#ad30f53a290ca5eadd04e878cbaf2722d":[9,5,0,0,0,27,7],
 "namespacemeshlib_1_1polyline__components.html#af06000a717e8a0d4344833629b9dd72a":[9,5,0,0,0,27,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "std__optional__MR__ThreeVertIds_8rs.html":[9,5,2,0,0,1,3,234],
 "std__optional__MR__TriIntersectResult_8rs.html":[9,5,2,0,0,1,3,236],
 "std__optional__MR__Triangulation_8rs.html":[9,5,2,0,0,1,3,235],
-"std__optional__MR__Vector2d_8rs.html":[9,5,2,0,0,1,3,237],
-"std__optional__MR__Vector2f_8rs.html":[9,5,2,0,0,1,3,238],
-"std__optional__MR__Vector3d_8rs.html":[9,5,2,0,0,1,3,239]
+"std__optional__MR__Vector2d_8rs.html":[9,5,2,0,0,1,3,237]
 };

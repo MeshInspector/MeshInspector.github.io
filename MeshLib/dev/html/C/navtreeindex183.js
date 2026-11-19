@@ -1,5 +1,7 @@
 var NAVTREEINDEX183 =
 {
+"std__vector__MR__Pdf__PaletteRowStats_8h.html#af2986dd3faea833d1d8ff8bb17bab119":[9,2,2,0,0,0,0,2,520,3],
+"std__vector__MR__Pdf__PaletteRowStats_8h_source.html":[9,2,2,0,0,0,0,2,520],
 "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html":[9,2,2,0,0,0,0,2,521],
 "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#a0124dbaa09d69904907a499ba975fea8":[9,2,2,0,0,0,0,2,521,13],
 "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#a0c739b3f8e5851e87cdebd8a6818f5c6":[9,2,2,0,0,0,0,2,521,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX183 =
 "std__vector__MR__RegionId__MR__Allocator__MR__RegionId_8h.html#a84953b3d68d1f224cce8b246edda5796":[9,2,2,0,0,0,0,2,530,9],
 "std__vector__MR__RegionId__MR__Allocator__MR__RegionId_8h.html#a8551f9e19b90e68a5e591d34a6e17359":[9,2,2,0,0,0,0,2,530,21],
 "std__vector__MR__RegionId__MR__Allocator__MR__RegionId_8h.html#a898aaf1b8eef478fa2ae15f85f377af7":[9,2,2,0,0,0,0,2,530,24],
-"std__vector__MR__RegionId__MR__Allocator__MR__RegionId_8h.html#a8df79b2339582c92b742cf5c5508d9dc":[9,2,2,0,0,0,0,2,530,15],
-"std__vector__MR__RegionId__MR__Allocator__MR__RegionId_8h.html#a951c8fcb26447182b8a60d152f4faa5b":[9,2,2,0,0,0,0,2,530,5],
-"std__vector__MR__RegionId__MR__Allocator__MR__RegionId_8h.html#aa1fc60f590f045d471d01bd4c590640e":[9,2,2,0,0,0,0,2,530,1]
+"std__vector__MR__RegionId__MR__Allocator__MR__RegionId_8h.html#a8df79b2339582c92b742cf5c5508d9dc":[9,2,2,0,0,0,0,2,530,15]
 };

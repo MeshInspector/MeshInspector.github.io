@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structmeshlib_1_1Laplacian.html#a91dd778fd0c6506d5a30274059d7405b":[9,5,1,0,0,522,13],
+"structmeshlib_1_1Laplacian.html#ab72b41798c141d4ff3ff4c3dc5dd4ab0":[9,5,0,0,0,535,8],
 "structmeshlib_1_1Laplacian.html#ab72b41798c141d4ff3ff4c3dc5dd4ab0":[9,5,1,0,0,522,8],
 "structmeshlib_1_1Laplacian.html#ac2c95d7ebbff850e06087bede7464706":[9,5,0,0,0,535,12],
 "structmeshlib_1_1Laplacian.html#ac2c95d7ebbff850e06087bede7464706":[9,5,1,0,0,522,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structmeshlib_1_1LineObject.html":[9,5,1,0,0,532],
 "structmeshlib_1_1LineObject.html#a069269f2c58709727641f5f33a65b5e3":[9,5,0,0,0,545,16],
 "structmeshlib_1_1LineObject.html#a069269f2c58709727641f5f33a65b5e3":[9,5,1,0,0,532,16],
-"structmeshlib_1_1LineObject.html#a07bb9f048915897c55c93eacd1713f43":[9,5,0,0,0,545,97],
-"structmeshlib_1_1LineObject.html#a07bb9f048915897c55c93eacd1713f43":[9,5,1,0,0,532,97],
-"structmeshlib_1_1LineObject.html#a08c3c789a95ff1f9a421d5e825248a06":[9,5,0,0,0,545,39]
+"structmeshlib_1_1LineObject.html#a07bb9f048915897c55c93eacd1713f43":[9,5,0,0,0,545,97]
 };

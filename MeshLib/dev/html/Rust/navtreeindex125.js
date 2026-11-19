@@ -1,5 +1,7 @@
 var NAVTREEINDEX125 =
 {
+"structmeshlib_1_1SignDetectionMode.html":[9,5,0,0,0,931],
+"structmeshlib_1_1SignDetectionMode.html":[9,5,1,0,0,918],
 "structmeshlib_1_1SignDetectionModeShort.html":[9,5,0,0,0,932],
 "structmeshlib_1_1SignDetectionModeShort.html":[9,5,1,0,0,919],
 "structmeshlib_1_1SignedDistanceToMeshOptions.html":[9,5,0,0,0,933],
@@ -247,7 +249,5 @@ var NAVTREEINDEX125 =
 "structmeshlib_1_1SimpleVolumeMinMaxU16.html#ac5b8e542e8379c622e1456a5dd4d22d9":[9,5,0,0,0,938,25],
 "structmeshlib_1_1SimpleVolumeMinMaxU16.html#ac5b8e542e8379c622e1456a5dd4d22d9":[9,5,1,0,0,925,25],
 "structmeshlib_1_1SimpleVolumeMinMaxU16.html#ac67d25bd4ad23a094cf7d48ea5248b78":[9,5,0,0,0,938,13],
-"structmeshlib_1_1SimpleVolumeMinMaxU16.html#ac67d25bd4ad23a094cf7d48ea5248b78":[9,5,1,0,0,925,13],
-"structmeshlib_1_1SimpleVolumeMinMaxU16.html#ac8425f8a85cf2772491c8260ebb57122":[9,5,0,0,0,938,19],
-"structmeshlib_1_1SimpleVolumeMinMaxU16.html#ac8425f8a85cf2772491c8260ebb57122":[9,5,1,0,0,925,19]
+"structmeshlib_1_1SimpleVolumeMinMaxU16.html#ac67d25bd4ad23a094cf7d48ea5248b78":[9,5,1,0,0,925,13]
 };

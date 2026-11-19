@@ -1,5 +1,7 @@
 var NAVTREEINDEX134 =
 {
+"structmeshlib_1_1SymbolMeshParams.html#ac1c6e16a7b40c0542802d42fdc76c63c":[9,5,0,0,0,1482,4],
+"structmeshlib_1_1SymbolMeshParams.html#ac1c6e16a7b40c0542802d42fdc76c63c":[9,5,1,0,0,1469,4],
 "structmeshlib_1_1SymbolMeshParams.html#afbecf79743d6b9073cf360cba31f0d7f":[9,5,0,0,0,1482,7],
 "structmeshlib_1_1SymbolMeshParams.html#afbecf79743d6b9073cf360cba31f0d7f":[9,5,1,0,0,1469,7],
 "structmeshlib_1_1SystemMemory.html":[9,5,0,0,0,1500],
@@ -247,7 +249,5 @@ var NAVTREEINDEX134 =
 "structmeshlib_1_1TextureBitSet.html#ac0f8d514c7f4824848f171c4ee00e05c":[9,5,0,0,0,1508,6],
 "structmeshlib_1_1TextureBitSet.html#ac0f8d514c7f4824848f171c4ee00e05c":[9,5,1,0,0,1495,6],
 "structmeshlib_1_1TextureBitSet.html#ac1ee2243352890ff16084c28a4627f56":[9,5,0,0,0,1508,14],
-"structmeshlib_1_1TextureBitSet.html#ac1ee2243352890ff16084c28a4627f56":[9,5,1,0,0,1495,14],
-"structmeshlib_1_1TextureBitSet.html#ac2018c0f30934ce03457d27d3188af0e":[9,5,0,0,0,1508,26],
-"structmeshlib_1_1TextureBitSet.html#ac2018c0f30934ce03457d27d3188af0e":[9,5,1,0,0,1495,26]
+"structmeshlib_1_1TextureBitSet.html#ac1ee2243352890ff16084c28a4627f56":[9,5,1,0,0,1495,14]
 };

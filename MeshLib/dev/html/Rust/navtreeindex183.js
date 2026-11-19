@@ -1,5 +1,7 @@
 var NAVTREEINDEX183 =
 {
+"structmeshlib_1_1features_1_1primitives_1_1ConeSegment.html#ad0976720a429519b404b7b8081ac7bde":[9,5,0,0,0,3,0,0,19],
+"structmeshlib_1_1features_1_1primitives_1_1ConeSegment.html#ad0976720a429519b404b7b8081ac7bde":[9,5,1,0,0,1,0,0,19],
 "structmeshlib_1_1features_1_1primitives_1_1ConeSegment.html#ad2a5188a848618f650510503340a58bb":[9,5,0,0,0,3,0,0,6],
 "structmeshlib_1_1features_1_1primitives_1_1ConeSegment.html#ad2a5188a848618f650510503340a58bb":[9,5,1,0,0,1,0,0,6],
 "structmeshlib_1_1features_1_1primitives_1_1ConeSegment.html#ad6a59a930c82a6830f00fa6c995f5bb8":[9,5,0,0,0,3,0,0,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX183 =
 "structmeshlib_1_1fix__undercuts_1_1ImproveDirectionParameters.html#afcf3d3537d70661681ffcd6132c64a6c":[9,5,0,0,0,5,3,1],
 "structmeshlib_1_1fix__undercuts_1_1ImproveDirectionParameters.html#afcf3d3537d70661681ffcd6132c64a6c":[9,5,1,0,0,3,3,1],
 "structmeshlib_1_1mesh__builder_1_1BuildSettings.html":[9,5,0,0,0,15,0],
-"structmeshlib_1_1mesh__builder_1_1BuildSettings.html":[9,5,1,0,0,4,0],
-"structmeshlib_1_1mesh__builder_1_1BuildSettings.html#a16cb010b01efeedc13c50e6768126133":[9,5,0,0,0,15,0,4],
-"structmeshlib_1_1mesh__builder_1_1BuildSettings.html#a16cb010b01efeedc13c50e6768126133":[9,5,1,0,0,4,0,4]
+"structmeshlib_1_1mesh__builder_1_1BuildSettings.html":[9,5,1,0,0,4,0]
 };

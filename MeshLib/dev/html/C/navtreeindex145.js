@@ -1,5 +1,7 @@
 var NAVTREEINDEX145 =
 {
+"expected__MR__VertColors__std__string_8h.html#a401c27a5a8649aadc2ab876a153c54d6":[9,2,2,0,0,0,0,2,45,0],
+"expected__MR__VertColors__std__string_8h.html#a569d772589e30a2ce922d0395efc8e8e":[9,2,2,0,0,0,0,2,45,8],
 "expected__MR__VertColors__std__string_8h.html#a72447888b231c986eb20aeed9f48c6b3":[9,2,2,0,0,0,0,2,45,13],
 "expected__MR__VertColors__std__string_8h.html#a778e70e72fc51bcc927d2509697fe39e":[9,2,2,0,0,0,0,2,45,12],
 "expected__MR__VertColors__std__string_8h.html#a807696cf1fda5fa94b6101e3ee5237d7":[9,2,2,0,0,0,0,2,45,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX145 =
 "expected__std__vector__MR__EdgePoint__MR__PathError_8h.html#ad105509d9bc905caef9763cb116ece9b":[9,2,2,0,0,0,0,2,60,1],
 "expected__std__vector__MR__EdgePoint__MR__PathError_8h_source.html":[9,2,2,0,0,0,0,2,60],
 "expected__std__vector__MR__EdgePoint__std__string_8h.html":[9,2,2,0,0,0,0,2,61],
-"expected__std__vector__MR__EdgePoint__std__string_8h.html#a18c8e9011d54a3faf7373cdf2bc313eb":[9,2,2,0,0,0,0,2,61,5],
-"expected__std__vector__MR__EdgePoint__std__string_8h.html#a36c3b0d4ec7bb598b9e40aea5d071d65":[9,2,2,0,0,0,0,2,61,7],
-"expected__std__vector__MR__EdgePoint__std__string_8h.html#a50074b0557fbb49a0f4be4824bb45bb1":[9,2,2,0,0,0,0,2,61,4]
+"expected__std__vector__MR__EdgePoint__std__string_8h.html#a18c8e9011d54a3faf7373cdf2bc313eb":[9,2,2,0,0,0,0,2,61,5]
 };

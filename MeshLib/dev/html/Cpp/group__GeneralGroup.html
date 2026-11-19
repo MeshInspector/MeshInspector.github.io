@@ -15851,6 +15851,7 @@ Friends</h2></td></tr>
 <tr class="memitem:gabb3f2849332e308e7fbcdf6f50eac262" id="r_gabb3f2849332e308e7fbcdf6f50eac262"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gabb3f2849332e308e7fbcdf6f50eac262">MR::buildShortestPath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, VertId start, VertId finish, float maxPathLen=FLT_MAX)</td></tr>
 <tr class="memitem:ga02ee193e489ee539ab60e56139f84aa5" id="r_ga02ee193e489ee539ab60e56139f84aa5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga02ee193e489ee539ab60e56139f84aa5">MR::buildShortestPathBiDir</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, VertId start, VertId finish, float maxPathLen=FLT_MAX)</td></tr>
 <tr class="memitem:ga7068d3620fb34fe34aaf973ecfa5999f" id="r_ga7068d3620fb34fe34aaf973ecfa5999f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga7068d3620fb34fe34aaf973ecfa5999f">MR::buildShortestPathBiDir</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;start, const <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;finish, VertId *outPathStart=nullptr, VertId *outPathFinish=nullptr, float maxPathLen=FLT_MAX)</td></tr>
+<tr class="memitem:ga65b86c13c9923b237635f38d90ea05d2" id="r_ga65b86c13c9923b237635f38d90ea05d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga65b86c13c9923b237635f38d90ea05d2">MR::buildSmallestMetricPathBiDir</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;metric, const <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;start, const <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;finish, VertId *outPathStart=nullptr, VertId *outPathFinish=nullptr, float maxPathMetric=FLT_MAX)</td></tr>
 <tr class="memitem:gaa54ee5037fb3fe5674b2ef9b1ccf084f" id="r_gaa54ee5037fb3fe5674b2ef9b1ccf084f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gaa54ee5037fb3fe5674b2ef9b1ccf084f">MR::buildShortestPathAStar</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, VertId start, VertId finish, float maxPathLen=FLT_MAX)</td></tr>
 <tr class="memitem:ga04f0df3b565536ea021a215e7022f0f8" id="r_ga04f0df3b565536ea021a215e7022f0f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga04f0df3b565536ea021a215e7022f0f8">MR::buildShortestPathAStar</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;start, const <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;finish, VertId *outPathStart=nullptr, VertId *outPathFinish=nullptr, float maxPathLen=FLT_MAX)</td></tr>
 <tr class="memitem:gac13992e29bf5dd0ada3fdd1fa5f12f18" id="r_gac13992e29bf5dd0ada3fdd1fa5f12f18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gac13992e29bf5dd0ada3fdd1fa5f12f18">MR::buildShortestPath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, VertId start, const VertBitSet &amp;finish, float maxPathLen=FLT_MAX)</td></tr>
@@ -40630,8 +40631,72 @@ if all even edges are consistently oriented, then the output contours will be or
 
 </div>
 </div>
+<a id="ga65b86c13c9923b237635f38d90ea05d2" name="ga65b86c13c9923b237635f38d90ea05d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga65b86c13c9923b237635f38d90ea05d2">&#9670;&#160;</a></span>buildSmallestMetricPathBiDir() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> MR::buildSmallestMetricPathBiDir </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>finish</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertId *</td>          <td class="paramname"><span class="paramname"><em>outPathStart</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertId *</td>          <td class="paramname"><span class="paramname"><em>outPathFinish</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxPathMetric</em></span><span class="paramdefsep"> = </span><span class="paramdefval">FLT_MAX</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MREdgePaths_8h.html">MRMesh/MREdgePaths.h</a>&gt;</code></p>
+<p>finds the path from a vertex in start-triangle to a vertex in finish-triangle with the smallest sum of given metric along the path and euclidean distances from start to the first vertex and from the last vertex to finish, so the metric shall be comparable with edge lengths; using bidirectional modification of Dijkstra algorithm; if no path can be found then empty path is returned </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outPathFinish</td><td>if the path is found then its start vertex will be written here (even if start vertex is the same as finish vertex and the path is empty)  </td></tr>
+    <tr><td class="paramname">maxPathMetric</td><td>if the path is found then its finish vertex will be written here (even if start vertex is the same as finish vertex and the path is empty) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="gae474ab43755b30ced4f02ee56022a3eb" name="gae474ab43755b30ced4f02ee56022a3eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae474ab43755b30ced4f02ee56022a3eb">&#9670;&#160;</a></span>buildSmallestMetricPathBiDir() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae474ab43755b30ced4f02ee56022a3eb">&#9670;&#160;</a></span>buildSmallestMetricPathBiDir() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -40705,7 +40770,7 @@ if all even edges are consistently oriented, then the output contours will be or
 </div>
 </div>
 <a id="ga9abf677f3818dddee4eda4f17b494cfc" name="ga9abf677f3818dddee4eda4f17b494cfc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9abf677f3818dddee4eda4f17b494cfc">&#9670;&#160;</a></span>buildSmallestMetricPathBiDir() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9abf677f3818dddee4eda4f17b494cfc">&#9670;&#160;</a></span>buildSmallestMetricPathBiDir() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

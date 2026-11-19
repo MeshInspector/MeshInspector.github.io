@@ -191,13 +191,14 @@ var searchData=
   ['build_5fshortest_5fpath_5fmr_5fvert_5fbit_5fset_188',['build_shortest_path_mr_vert_bit_set',['../namespacemeshlib.html#a7bf24b06a8bf14d7c1e308e1ccd6cb28',1,'meshlib']]],
   ['build_5fshortest_5fpath_5fmr_5fvert_5fid_189',['build_shortest_path_mr_vert_id',['../namespacemeshlib.html#a323fd823471098556aac19b803ff8404',1,'meshlib']]],
   ['build_5fsmallest_5fmetric_5fpath_5fbi_5fdir_5f5_190',['build_smallest_metric_path_bi_dir_5',['../namespacemeshlib.html#ac91b82c1e01829d540a7c9ff56a1ea0f',1,'meshlib']]],
-  ['build_5fsmallest_5fmetric_5fpath_5fbi_5fdir_5f9_191',['build_smallest_metric_path_bi_dir_9',['../namespacemeshlib.html#afaae7fe25af4fbaca4c768537c8d413c',1,'meshlib']]],
-  ['build_5fsmallest_5fmetric_5fpath_5fconst_5fmr_5fmesh_5ftopology_5fref_5fmr_5fvert_5fbit_5fset_192',['build_smallest_metric_path_const_mr_mesh_topology_ref_mr_vert_bit_set',['../namespacemeshlib.html#aa6d78483fb71eceb94a0d04f90becd9c',1,'meshlib']]],
-  ['build_5fsmallest_5fmetric_5fpath_5fconst_5fmr_5fmesh_5ftopology_5fref_5fmr_5fvert_5fid_193',['build_smallest_metric_path_const_mr_mesh_topology_ref_mr_vert_id',['../namespacemeshlib.html#a271255381718a178464f0f36c5035da2',1,'meshlib']]],
-  ['build_5fsmallest_5fmetric_5fpath_5fconst_5fmr_5fvdb_5fvolume_5fref_194',['build_smallest_metric_path_const_mr_vdb_volume_ref',['../namespacemeshlib.html#adeb35f0f78e4a3918c11f13086cf89c9',1,'meshlib']]],
-  ['build_5funited_5flocal_5ftriangulations_195',['build_united_local_triangulations',['../namespacemeshlib_1_1triangulation__helpers.html#abcf63ff9b7e17dd45cc3744910368bb0',1,'meshlib::triangulation_helpers']]],
-  ['build_5fvolume_196',['build_volume',['../namespacemeshlib_1_1filling__surface_1_1tpms.html#a70744c1bb7d9d88f647fa711fe2a10ae',1,'meshlib::filling_surface::tpms']]],
-  ['bypass_5fdir_197',['bypass_dir',['../structmeshlib_1_1ConstantCuspParams.html#ad619c24a0541225bb562c7a8b2dd3a7d',1,'meshlib::ConstantCuspParams::bypass_dir()'],['../structmeshlib_1_1ToolPathParams.html#a1220817d27d0f82c736a0ab29c13ed53',1,'meshlib::ToolPathParams::bypass_dir()']]],
-  ['bypass_5fdir_5fmut_198',['bypass_dir_mut',['../structmeshlib_1_1ConstantCuspParams.html#a172f19cbd634a414f091df8f72e8a816',1,'meshlib::ConstantCuspParams::bypass_dir_mut()'],['../structmeshlib_1_1ToolPathParams.html#acdd9119cc554e096599deff01995035e',1,'meshlib::ToolPathParams::bypass_dir_mut()']]],
-  ['bytes_5fstring_199',['bytes_string',['../namespacemeshlib.html#aaf69396d67742875ae4cb050bcd9e336',1,'meshlib']]]
+  ['build_5fsmallest_5fmetric_5fpath_5fbi_5fdir_5f7_191',['build_smallest_metric_path_bi_dir_7',['../namespacemeshlib.html#ac99925c2ccdac1d9e882765b64ca5474',1,'meshlib']]],
+  ['build_5fsmallest_5fmetric_5fpath_5fbi_5fdir_5f9_192',['build_smallest_metric_path_bi_dir_9',['../namespacemeshlib.html#afaae7fe25af4fbaca4c768537c8d413c',1,'meshlib']]],
+  ['build_5fsmallest_5fmetric_5fpath_5fconst_5fmr_5fmesh_5ftopology_5fref_5fmr_5fvert_5fbit_5fset_193',['build_smallest_metric_path_const_mr_mesh_topology_ref_mr_vert_bit_set',['../namespacemeshlib.html#aa6d78483fb71eceb94a0d04f90becd9c',1,'meshlib']]],
+  ['build_5fsmallest_5fmetric_5fpath_5fconst_5fmr_5fmesh_5ftopology_5fref_5fmr_5fvert_5fid_194',['build_smallest_metric_path_const_mr_mesh_topology_ref_mr_vert_id',['../namespacemeshlib.html#a271255381718a178464f0f36c5035da2',1,'meshlib']]],
+  ['build_5fsmallest_5fmetric_5fpath_5fconst_5fmr_5fvdb_5fvolume_5fref_195',['build_smallest_metric_path_const_mr_vdb_volume_ref',['../namespacemeshlib.html#adeb35f0f78e4a3918c11f13086cf89c9',1,'meshlib']]],
+  ['build_5funited_5flocal_5ftriangulations_196',['build_united_local_triangulations',['../namespacemeshlib_1_1triangulation__helpers.html#abcf63ff9b7e17dd45cc3744910368bb0',1,'meshlib::triangulation_helpers']]],
+  ['build_5fvolume_197',['build_volume',['../namespacemeshlib_1_1filling__surface_1_1tpms.html#a70744c1bb7d9d88f647fa711fe2a10ae',1,'meshlib::filling_surface::tpms']]],
+  ['bypass_5fdir_198',['bypass_dir',['../structmeshlib_1_1ConstantCuspParams.html#ad619c24a0541225bb562c7a8b2dd3a7d',1,'meshlib::ConstantCuspParams::bypass_dir()'],['../structmeshlib_1_1ToolPathParams.html#a1220817d27d0f82c736a0ab29c13ed53',1,'meshlib::ToolPathParams::bypass_dir()']]],
+  ['bypass_5fdir_5fmut_199',['bypass_dir_mut',['../structmeshlib_1_1ConstantCuspParams.html#a172f19cbd634a414f091df8f72e8a816',1,'meshlib::ConstantCuspParams::bypass_dir_mut()'],['../structmeshlib_1_1ToolPathParams.html#acdd9119cc554e096599deff01995035e',1,'meshlib::ToolPathParams::bypass_dir_mut()']]],
+  ['bytes_5fstring_200',['bytes_string',['../namespacemeshlib.html#aaf69396d67742875ae4cb050bcd9e336',1,'meshlib']]]
 ];

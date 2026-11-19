@@ -1,5 +1,7 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html#aa68fcbd94f8434c6ac2d8e13a4b7276f":[9,3,0,0,0,440,5],
+"classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html#aadfb2f12123a5b2aff44afbffc77672d":[9,3,0,0,0,440,8],
 "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html#abed28529f3419eaa18d6bca027eab5cb":[9,3,0,0,0,440,2],
 "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html#ac0cb4dce3f8d6d385005bc1565f2232b":[9,3,0,0,0,440,6],
 "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html#ac73824aee40e1f8dddce7f98bb558490":[9,3,0,0,0,440,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1Const__EndMillCutter.html#a7ae3d32b6b5049de7b79bc0a42e1b398a353df421c4fc976e2637061d7a83f601":[9,3,0,0,0,451,0,1],
 "classMR_1_1Const__EndMillCutter.html#a7ae3d32b6b5049de7b79bc0a42e1b398a7081aaaca6f0bb0d1f920ba52c6c287c":[9,3,0,0,0,451,0,2],
 "classMR_1_1Const__EndMillCutter.html#a7ae3d32b6b5049de7b79bc0a42e1b398a745e3db6a7ffd50e1a72b39482f0882d":[9,3,0,0,0,451,0,0],
-"classMR_1_1Const__EndMillCutter.html#a7ae3d32b6b5049de7b79bc0a42e1b398ae837b737dc29d88107296d9f4aca6b29":[9,3,0,0,0,451,0,3],
-"classMR_1_1Const__EndMillCutter.html#a7ae3d32b6b5049de7b79bc0a42e1b398ae93f994f01c537c4e2f7d8528c3eb5e9":[9,3,0,0,0,451,0,4],
-"classMR_1_1Const__EndMillCutter.html#a945a33589332dbcd461856c5b123f08d":[9,3,0,0,0,451,12]
+"classMR_1_1Const__EndMillCutter.html#a7ae3d32b6b5049de7b79bc0a42e1b398ae837b737dc29d88107296d9f4aca6b29":[9,3,0,0,0,451,0,3]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX173 =
 {
+"structmeshlib_1_1VolumeSegmenter__SeedType.html":[9,5,0,0,0,1697],
+"structmeshlib_1_1VolumeSegmenter__SeedType.html":[9,5,1,0,0,1684],
 "structmeshlib_1_1VolumeToMeshByPartsSettings.html":[9,5,0,0,0,1698],
 "structmeshlib_1_1VolumeToMeshByPartsSettings.html":[9,5,1,0,0,1685],
 "structmeshlib_1_1VolumeToMeshByPartsSettings.html#a04ac21edebbfbe4128e56d096f0d3377":[9,5,0,0,0,1698,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX173 =
 "structmeshlib_1_1VoxelScalars.html#a4c065bc0cca5bd064c4df85a9964f52e":[9,5,0,0,0,1705,10],
 "structmeshlib_1_1VoxelScalars.html#a4c065bc0cca5bd064c4df85a9964f52e":[9,5,1,0,0,1692,10],
 "structmeshlib_1_1VoxelScalars.html#a5398dd93900a8684f38b85b0c69bc8b5":[9,5,0,0,0,1705,7],
-"structmeshlib_1_1VoxelScalars.html#a5398dd93900a8684f38b85b0c69bc8b5":[9,5,1,0,0,1692,7],
-"structmeshlib_1_1VoxelScalars.html#a5d523b355e0ac82db1162a19d579024d":[9,5,0,0,0,1705,32],
-"structmeshlib_1_1VoxelScalars.html#a5d523b355e0ac82db1162a19d579024d":[9,5,1,0,0,1692,32]
+"structmeshlib_1_1VoxelScalars.html#a5398dd93900a8684f38b85b0c69bc8b5":[9,5,1,0,0,1692,7]
 };

@@ -8,6 +8,7 @@ var MRSurfacePath_8rs =
     [ "meshlib::compute_fast_marching_path", "namespacemeshlib.html#a3a4b5e00d6b17efaa1b1d173d504b511", null ],
     [ "meshlib::compute_geodesic_path", "namespacemeshlib.html#aeaa919e2994b7304dbe3673973868293", null ],
     [ "meshlib::compute_geodesic_path_approx", "namespacemeshlib.html#a82519f57d3f81e96c158543527af388d", null ],
+    [ "meshlib::compute_shortest_edge_path", "namespacemeshlib.html#a3e4ffd61dece06e6d8dc7a7d9591f3cd", null ],
     [ "meshlib::compute_steepest_descent_path_4", "namespacemeshlib.html#aa7f8ee0c1bb48bcbfbb401c74784d45b", null ],
     [ "meshlib::compute_steepest_descent_path_5", "namespacemeshlib.html#a2c9f05002d1d240bc32936aee391d0a8", null ],
     [ "meshlib::compute_surface_path", "namespacemeshlib.html#a35d672e7620a6e3bc8bd3f6a7bfba6e6", null ],

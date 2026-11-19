@@ -1,5 +1,7 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1Const__DistanceMap.html#a7753a7e249ac75ad697f3131e601d99d":[9,3,0,0,0,421,24],
+"classMR_1_1Const__DistanceMap.html#a791add6cd1dd36e855fbe4d7564d480e":[9,3,0,0,0,421,23],
 "classMR_1_1Const__DistanceMap.html#a791cfd8d201e957c0842d360c5fd7457":[9,3,0,0,0,421,14],
 "classMR_1_1Const__DistanceMap.html#a84e6d9172e5998cafc9bb0bba2863cd1":[9,3,0,0,0,421,3],
 "classMR_1_1Const__DistanceMap.html#a888204d37229697c873c4d866b8951c1":[9,3,0,0,0,421,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1Const__DividePolylineParameters.html#ae1f2ed468c58e365f628a2743047a0e8":[9,3,0,0,0,430,0],
 "classMR_1_1Const__DividePolylineParameters.html#ae3d57d6396fa1a6a16af01227b677b1c":[9,3,0,0,0,430,4],
 "classMR_1_1Const__DividePolylineParameters.html#aeb41b9fb8b92bc587d7402ca574adf13":[9,3,0,0,0,430,14],
-"classMR_1_1Const__DividePolylineParameters.html#aef5833798ee8a7a51e5931ed32a53e9a":[9,3,0,0,0,430,17],
-"classMR_1_1Const__DoubleOffsetSettings.html":[9,3,0,0,0,431],
-"classMR_1_1Const__DoubleOffsetSettings.html#a02807edd03344f7c2f287e97454ffa30":[9,3,0,0,0,431,6]
+"classMR_1_1Const__DividePolylineParameters.html#aef5833798ee8a7a51e5931ed32a53e9a":[9,3,0,0,0,430,17]
 };

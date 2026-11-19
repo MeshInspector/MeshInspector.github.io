@@ -1,5 +1,8 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1SymbolMeshParams.html":[9,0,0,19,579],
+"structMR_1_1SystemMemory.html":[9,0,0,19,531],
+"structMR_1_1TbbTaskArenaAndGroup.html":[9,0,0,19,533],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[9,0,0,19,910],
 "structMR_1_1TerminalVertex.html":[9,0,0,19,216],
 "structMR_1_1TextMeshAlignParams.html":[9,0,0,19,574],
@@ -246,8 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1UnitToStringParams.html":[9,0,0,19,793],
 "structMR_1_1UniteManyMeshesParams.html":[9,0,0,19,549],
 "structMR_1_1UniteMeshNormalizationParams.html":[9,0,0,19,550],
-"structMR_1_1UnorientedTriangle.html":[9,0,0,19,552],
-"structMR_1_1VacantElements.html":[9,0,0,19,387],
-"structMR_1_1VarEdgeTri.html":[9,0,0,1,21],
-"structMR_1_1VarEdgeTri.html#a0b24a1fdcebee2cef32bf0884f9625fc":[9,0,0,1,21,6]
+"structMR_1_1UnorientedTriangle.html":[9,0,0,19,552]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX104 =
 {
+"classMR_1_1DistanceMapLoad.html#ab8f7534506e4b5989d5ae1a76738abba":[9,3,0,0,0,1211,2],
+"classMR_1_1DistanceMapLoad.html#aead3d31ae57eff03c26fbd715a4f3e15":[9,3,0,0,0,1211,1],
 "classMR_1_1DistanceMapLoadSettings.html":[9,3,0,0,0,1212],
 "classMR_1_1DistanceMapLoadSettings.html#a02dda1fdf844fadaea0ea737a3ea97b0":[9,3,0,0,0,1212,2],
 "classMR_1_1DistanceMapLoadSettings.html#a56684daf977dd1a85c7c46acffa7b3d2":[9,3,0,0,0,1212,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX104 =
 "classMR_1_1EdgeColors.html#a345cb1c5817651af3f30b4cb29ae437a":[9,3,0,0,0,1226,7],
 "classMR_1_1EdgeColors.html#a34e72d5e82116efbf325c8dddcc13a78":[9,3,0,0,0,1226,4],
 "classMR_1_1EdgeColors.html#a37bc80844820ad0a58e1ff65a7fc99ef":[9,3,0,0,0,1226,9],
-"classMR_1_1EdgeColors.html#a3c4043d26e8af27f8f17ff83e213e785":[9,3,0,0,0,1226,11],
-"classMR_1_1EdgeColors.html#a481dcc844767d83f7568703c69db84cc":[9,3,0,0,0,1226,10],
-"classMR_1_1EdgeColors.html#a5c1ad0686b164a1be7f202977ecbcf2b":[9,3,0,0,0,1226,8]
+"classMR_1_1EdgeColors.html#a3c4043d26e8af27f8f17ff83e213e785":[9,3,0,0,0,1226,11]
 };

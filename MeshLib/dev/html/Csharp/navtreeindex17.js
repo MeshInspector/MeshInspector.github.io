@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#a2e09550cd502c527c73e912cfff9ecfc":[9,3,0,0,0,147,1],
+"classMR_1_1BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#a7004e88b3ba59dde74456607e2767fbf":[9,3,0,0,0,147,2],
 "classMR_1_1BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#a72bdb173f80ed75dff2de5afae324aa1":[9,3,0,0,0,147,4],
 "classMR_1_1BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#a8305f0cf98c878f8a34a635ab964b90f":[9,3,0,0,0,147,3],
 "classMR_1_1BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#ac8dfeed6cbee44abe1b92aa2b000aa50":[9,3,0,0,0,147,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1CameraPointsTriangulationSettings.html#ae1465c26afebd05c72f82bdba283d7bc":[9,3,0,0,0,170,6],
 "classMR_1_1CameraPointsTriangulationSettings.html#ae6e056b815ef7222b31d237882e1d25a":[9,3,0,0,0,170,1],
 "classMR_1_1CameraPointsTriangulationSettings.html#aebecab521d3f88f9135853e5ee842ea8":[9,3,0,0,0,170,3],
-"classMR_1_1ChangVoxelSelectionAction.html":[9,3,0,0,0,210],
-"classMR_1_1ChangVoxelSelectionAction.html#a1c6478bba64fd8e47256e3103d945106":[9,3,0,0,0,210,5],
-"classMR_1_1ChangVoxelSelectionAction.html#a20eff995d8d74dfb6ad01d9b0aa118eb":[9,3,0,0,0,210,2]
+"classMR_1_1ChangVoxelSelectionAction.html":[9,3,0,0,0,210]
 };

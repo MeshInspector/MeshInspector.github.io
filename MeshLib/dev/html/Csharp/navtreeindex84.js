@@ -1,5 +1,7 @@
 var NAVTREEINDEX84 =
 {
+"classMR_1_1Const__SymMatrix4b.html#a4dd6d54d4c71b361c84ebf44a20ab0f4":[9,3,0,0,0,904,19],
+"classMR_1_1Const__SymMatrix4b.html#a4f22648937ba03b983b9f326e59a9c73":[9,3,0,0,0,904,31],
 "classMR_1_1Const__SymMatrix4b.html#a529261d21c6d9af79fbdf774def2c454":[9,3,0,0,0,904,25],
 "classMR_1_1Const__SymMatrix4b.html#a57e71b382173077b4f779f7e04186b9e":[9,3,0,0,0,904,4],
 "classMR_1_1Const__SymMatrix4b.html#a6c2e4ac2257fe5d2660e10b8a0f32c24":[9,3,0,0,0,904,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX84 =
 "classMR_1_1Const__TerminalVertex.html#a724ef582473fdf13022b16c88a708b97":[9,3,0,0,0,912,8],
 "classMR_1_1Const__TerminalVertex.html#a9e168ad26e34de8c1baa60e361b482fa":[9,3,0,0,0,912,4],
 "classMR_1_1Const__TerminalVertex.html#a9e801578eb53a350ddbb39a740dfd2d9":[9,3,0,0,0,912,2],
-"classMR_1_1Const__TerminalVertex.html#aa60223d5e05df7ef14f65a8e1d430e23":[9,3,0,0,0,912,3],
-"classMR_1_1Const__TerminalVertex.html#aab8cb00b920d911be21d8bfce47a220c":[9,3,0,0,0,912,7],
-"classMR_1_1Const__TerminalVertex.html#aaf5c6e7c5227447efc253a0d6fc87bcc":[9,3,0,0,0,912,1]
+"classMR_1_1Const__TerminalVertex.html#aa60223d5e05df7ef14f65a8e1d430e23":[9,3,0,0,0,912,3]
 };

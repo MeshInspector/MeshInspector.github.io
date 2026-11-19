@@ -12,6 +12,7 @@ var MRSurfacePath_8h =
     [ "MR::computeFastMarchingPath", "group__SurfacePathSubgroup.html#ga18f834a80979174e8209ab8d3a782d06", null ],
     [ "MR::computeGeodesicPath", "group__SurfacePathSubgroup.html#gacccf351e5720e106bf93cbd71f41cba1", null ],
     [ "MR::computeGeodesicPathApprox", "group__SurfacePathSubgroup.html#ga69ad5976886828ef6adb1cfa8493cf5d", null ],
+    [ "MR::computeShortestEdgePath", "group__SurfacePathSubgroup.html#gae4d5e888903d50487fd9ced524700644", null ],
     [ "MR::computeSteepestDescentPath", "group__SurfacePathSubgroup.html#ga68f07a93e6327856641283127199b6be", null ],
     [ "MR::computeSteepestDescentPath", "group__SurfacePathSubgroup.html#ga9cb919b0dce15ca22cb7ff30ca02c7e3", null ],
     [ "MR::computeSurfacePath", "group__SurfacePathSubgroup.html#gae5e6b0dc86c4b88c9242edca8cc56c6c", null ],
