@@ -171,6 +171,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a65552ae1184bdcd9c2cd11eca7aac133" id="r_a65552ae1184bdcd9c2cd11eca7aac133"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65552ae1184bdcd9c2cd11eca7aac133">MR_std_vector_int_pop_back</a> (<a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *_this)</td></tr>
 <tr class="memitem:afad3d77c258eba8a2834034406c00745" id="r_afad3d77c258eba8a2834034406c00745"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afad3d77c258eba8a2834034406c00745">MR_std_vector_int_insert</a> (<a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *_this, size_t position, int new_elem)</td></tr>
 <tr class="memitem:a8037dd76d8dc4e5647531be2a493dd4c" id="r_a8037dd76d8dc4e5647531be2a493dd4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8037dd76d8dc4e5647531be2a493dd4c">MR_std_vector_int_erase</a> (<a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *_this, size_t position)</td></tr>
+<tr class="memitem:af85e8e4283a1aa3199811ba94a7fee36" id="r_af85e8e4283a1aa3199811ba94a7fee36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af85e8e4283a1aa3199811ba94a7fee36">MR_std_vector_int_begin</a> (const <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *_this)</td></tr>
+<tr class="memitem:a4027b2591d39180afcade43d060b98e7" id="r_a4027b2591d39180afcade43d060b98e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4027b2591d39180afcade43d060b98e7">MR_std_vector_int_end</a> (const <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *_this)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a964055adf607b4bcbee196c9f4770fa7" name="a964055adf607b4bcbee196c9f4770fa7"></a>
@@ -277,6 +279,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>The last element or null if empty, mutable. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="af85e8e4283a1aa3199811ba94a7fee36" name="af85e8e4283a1aa3199811ba94a7fee36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af85e8e4283a1aa3199811ba94a7fee36">&#9670;&#160;</a></span>MR_std_vector_int_begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_std_vector_int_begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -445,6 +465,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns true if the size is zero. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a4027b2591d39180afcade43d060b98e7" name="a4027b2591d39180afcade43d060b98e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4027b2591d39180afcade43d060b98e7">&#9670;&#160;</a></span>MR_std_vector_int_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_std_vector_int_end </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

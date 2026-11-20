@@ -7,7 +7,7 @@ var classmrmeshpy_1_1Vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f
     [ "__init__", "classmrmeshpy_1_1Vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a33cd5f1185f47090c94663f5a9f70f24", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#ad5fc32e748f23d3c7d2de31d6a81f222", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a2aea6c5e502cfb747663170143f9a2cd", null ],
-    [ "__iter__", "classmrmeshpy_1_1Vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a805f03c18ecabf96aab5461339851500", null ],
+    [ "__iter__", "classmrmeshpy_1_1Vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a6d11ab5e40d1aa44046045cc850ba80d", null ],
     [ "__iter__", "classmrmeshpy_1_1Vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a001334710c8c69e69d3afe724e3b5482", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a15ddabadb47e8ca8fee611642f85b2fd", null ],
     [ "assign", "classmrmeshpy_1_1Vector__BoxedLeaf__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a16d5cdd79d31cc694dbf87f924e4367e", null ],

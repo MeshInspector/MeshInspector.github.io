@@ -171,6 +171,8 @@ Functions</h2></td></tr>
 <tr class="memitem:adf6f84e381443d46285c95b90d6c106c" id="r_adf6f84e381443d46285c95b90d6c106c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf6f84e381443d46285c95b90d6c106c">MR_std_vector_size_t_pop_back</a> (<a class="el" href="MRHeapBytes_8h.html#a12c0c2665578dd4a12b184b0e9247713">MR_std_vector_size_t</a> *_this)</td></tr>
 <tr class="memitem:a0e79efea043aff91b0ad396f150932d0" id="r_a0e79efea043aff91b0ad396f150932d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e79efea043aff91b0ad396f150932d0">MR_std_vector_size_t_insert</a> (<a class="el" href="MRHeapBytes_8h.html#a12c0c2665578dd4a12b184b0e9247713">MR_std_vector_size_t</a> *_this, size_t position, size_t new_elem)</td></tr>
 <tr class="memitem:a40dcf57a880a495f37f06e556e4fb75d" id="r_a40dcf57a880a495f37f06e556e4fb75d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40dcf57a880a495f37f06e556e4fb75d">MR_std_vector_size_t_erase</a> (<a class="el" href="MRHeapBytes_8h.html#a12c0c2665578dd4a12b184b0e9247713">MR_std_vector_size_t</a> *_this, size_t position)</td></tr>
+<tr class="memitem:a6d5a3e06ac5bab6f82b975e324e8ea44" id="r_a6d5a3e06ac5bab6f82b975e324e8ea44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const size_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d5a3e06ac5bab6f82b975e324e8ea44">MR_std_vector_size_t_begin</a> (const <a class="el" href="MRHeapBytes_8h.html#a12c0c2665578dd4a12b184b0e9247713">MR_std_vector_size_t</a> *_this)</td></tr>
+<tr class="memitem:a56cf707f2d115d34dadbb36897fdad32" id="r_a56cf707f2d115d34dadbb36897fdad32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const size_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56cf707f2d115d34dadbb36897fdad32">MR_std_vector_size_t_end</a> (const <a class="el" href="MRHeapBytes_8h.html#a12c0c2665578dd4a12b184b0e9247713">MR_std_vector_size_t</a> *_this)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="ae8ee71cf94fb1969cc249e2f11b1b4df" name="ae8ee71cf94fb1969cc249e2f11b1b4df"></a>
@@ -277,6 +279,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>The last element or null if empty, mutable. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a6d5a3e06ac5bab6f82b975e324e8ea44" name="a6d5a3e06ac5bab6f82b975e324e8ea44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d5a3e06ac5bab6f82b975e324e8ea44">&#9670;&#160;</a></span>MR_std_vector_size_t_begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const size_t * MR_std_vector_size_t_begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a12c0c2665578dd4a12b184b0e9247713">MR_std_vector_size_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -445,6 +465,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns true if the size is zero. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a56cf707f2d115d34dadbb36897fdad32" name="a56cf707f2d115d34dadbb36897fdad32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56cf707f2d115d34dadbb36897fdad32">&#9670;&#160;</a></span>MR_std_vector_size_t_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const size_t * MR_std_vector_size_t_end </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRHeapBytes_8h.html#a12c0c2665578dd4a12b184b0e9247713">MR_std_vector_size_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

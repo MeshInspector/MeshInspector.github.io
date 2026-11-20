@@ -355,7 +355,7 @@ var searchData=
   ['voxeltraits_5fstdfunctionfloatfromconstmrvector3iref_150',['VoxelTraits_StdFunctionFloatFromConstMRVector3iRef',['../classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html',1,'MR']]],
   ['voxeltraits_5fstdfunctionunsignedcharfromconstmrvector3iref_151',['VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef',['../classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html',1,'MR']]],
   ['_5fbyvalue_5fmaps_0',['_ByValue_Maps',['../classMR_1_1Const__BooleanResultMapper_1_1__ByValue__Maps.html',1,'MR::Const_BooleanResultMapper']]],
-  ['_5fenumerator_1',['_Enumerator',['../classMR_1_1Const__EdgeBitSet_1_1__Enumerator.html',1,'MR::Const_EdgeBitSet']]],
+  ['_5fenumerator_1',['_Enumerator',['../classMR_1_1Const__EdgeBitSet_1_1__Enumerator.html',1,'MR.Const_EdgeBitSet._Enumerator'],['../classMR_1_1Const__EdgeColors_1_1__Enumerator.html',1,'MR.Const_EdgeColors._Enumerator'],['../classMR_1_1Const__EdgeMap_1_1__Enumerator.html',1,'MR.Const_EdgeMap._Enumerator'],['../classMR_1_1Const__Edges_1_1__Enumerator.html',1,'MR.Const_Edges._Enumerator'],['../classMR_1_1Const__EdgeScalars_1_1__Enumerator.html',1,'MR.Const_EdgeScalars._Enumerator']]],
   ['_5finoptconst_5fqr_2',['_InOptConst_QR',['../classMR_1_1Matrix3__Int64T_1_1__InOptConst__QR.html',1,'MR.Matrix3_Int64T._InOptConst_QR'],['../classMR_1_1Matrix3__Int_1_1__InOptConst__QR.html',1,'MR.Matrix3_Int._InOptConst_QR']]],
   ['_5finoptmut_5fqr_3',['_InOptMut_QR',['../classMR_1_1Matrix3__Int64T_1_1__InOptMut__QR.html',1,'MR.Matrix3_Int64T._InOptMut_QR'],['../classMR_1_1Matrix3__Int_1_1__InOptMut__QR.html',1,'MR.Matrix3_Int._InOptMut_QR']]],
   ['gcodeload_0',['GcodeLoad',['../classMR_1_1GcodeLoad.html',1,'MR']]],

@@ -18,6 +18,7 @@ var classMR_1_1Const__Vector__MRObjId__MRVoxelId =
     [ "Equals", "classMR_1_1Const__Vector__MRObjId__MRVoxelId.html#abf361cdcfcc9d6521eb7d0e43b7db53e", null ],
     [ "Equals", "classMR_1_1Const__Vector__MRObjId__MRVoxelId.html#a9eebc311d3dd36d96f4e7f417eb755e0", null ],
     [ "front", "classMR_1_1Const__Vector__MRObjId__MRVoxelId.html#acecd46a8fef5b014f6130562f201f9cf", null ],
+    [ "GetEnumerator", "classMR_1_1Const__Vector__MRObjId__MRVoxelId.html#a99d694faa0934a58ded70bc35d39ce02", null ],
     [ "heapBytes", "classMR_1_1Const__Vector__MRObjId__MRVoxelId.html#ac94501b5581232623250a2ca019c5d8b", null ],
     [ "maxSize", "classMR_1_1Const__Vector__MRObjId__MRVoxelId.html#ac0a04726cda0ad80facac4ee694cc940", null ],
     [ "operator!=", "classMR_1_1Const__Vector__MRObjId__MRVoxelId.html#a1ae2aaf3f371b745840aa71545d9c89e", null ],

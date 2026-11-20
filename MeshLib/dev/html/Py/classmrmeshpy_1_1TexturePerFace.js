@@ -7,7 +7,7 @@ var classmrmeshpy_1_1TexturePerFace =
     [ "__init__", "classmrmeshpy_1_1TexturePerFace.html#ab7b0333fc7f7e33d976073b195db9784", null ],
     [ "__getitem__", "classmrmeshpy_1_1TexturePerFace.html#ad3ea51cb96a708f562719448992caa2d", null ],
     [ "__getitem__", "classmrmeshpy_1_1TexturePerFace.html#a805f93eca3b03e3d1c22542abf71f9ce", null ],
-    [ "__iter__", "classmrmeshpy_1_1TexturePerFace.html#a56575d5140d19bb988af804bbf01d006", null ],
+    [ "__iter__", "classmrmeshpy_1_1TexturePerFace.html#aaeaedcc76768ee7afd3c1a0ec6f134ae", null ],
     [ "__iter__", "classmrmeshpy_1_1TexturePerFace.html#ac508df239f8354548c878834d594eea3", null ],
     [ "__setitem__", "classmrmeshpy_1_1TexturePerFace.html#a1308fd6ca027098af7c088ae6eb6057f", null ],
     [ "assign", "classmrmeshpy_1_1TexturePerFace.html#a52d74edff7da07ce840efc30559a9755", null ],

@@ -6,6 +6,8 @@ var classmeshlib_1_1std__array__MR__PreciseVertCoords__4 =
     [ "assignFromAnother", "classmeshlib_1_1std__array__MR__PreciseVertCoords__4.html#addfffe1f6946bec3005256a933c0b708", null ],
     [ "at", "classmeshlib_1_1std__array__MR__PreciseVertCoords__4.html#a07cb49207db65f5e570c843dc8e77f66", null ],
     [ "at_mut", "classmeshlib_1_1std__array__MR__PreciseVertCoords__4.html#a64e29516f4e984198072e7a5be140ebd", null ],
+    [ "begin", "classmeshlib_1_1std__array__MR__PreciseVertCoords__4.html#a31323819fabf90e5078ea546583fdd50", null ],
     [ "data", "classmeshlib_1_1std__array__MR__PreciseVertCoords__4.html#a5c691a194914606c803c2cc240b4b196", null ],
-    [ "data_mut", "classmeshlib_1_1std__array__MR__PreciseVertCoords__4.html#a5b472bd145f2e1fbc246e22b3b17e2bc", null ]
+    [ "data_mut", "classmeshlib_1_1std__array__MR__PreciseVertCoords__4.html#a5b472bd145f2e1fbc246e22b3b17e2bc", null ],
+    [ "end", "classmeshlib_1_1std__array__MR__PreciseVertCoords__4.html#a630196f9063c557e7c6b437257eacafc", null ]
 ];

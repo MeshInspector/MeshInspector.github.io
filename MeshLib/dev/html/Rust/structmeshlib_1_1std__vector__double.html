@@ -170,6 +170,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a0b9bf0f0b8808df343141a376f1085" id="r_a9a0b9bf0f0b8808df343141a376f1085"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a0b9bf0f0b8808df343141a376f1085">pop_back</a> ()</td></tr>
 <tr class="memitem:a3089df333f45f31c9be3c6f1b9eb5f0b" id="r_a3089df333f45f31c9be3c6f1b9eb5f0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3089df333f45f31c9be3c6f1b9eb5f0b">insert</a> (position:usize, new_elem:f64)</td></tr>
 <tr class="memitem:aa10b47d9d6a3efd1fe4edac81ec1549e" id="r_aa10b47d9d6a3efd1fe4edac81ec1549e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa10b47d9d6a3efd1fe4edac81ec1549e">erase</a> (position:usize)</td></tr>
+<tr class="memitem:ac73a6701cd6f817191c3b486324d99fd" id="r_ac73a6701cd6f817191c3b486324d99fd"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac73a6701cd6f817191c3b486324d99fd">begin</a> () const -&gt; *const f64</td></tr>
+<tr class="memitem:a4c62123fb6eb4bb8090eb08c3e600edb" id="r_a4c62123fb6eb4bb8090eb08c3e600edb"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c62123fb6eb4bb8090eb08c3e600edb">end</a> () const -&gt; *const f64</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -279,6 +281,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac73a6701cd6f817191c3b486324d99fd" name="ac73a6701cd6f817191c3b486324d99fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac73a6701cd6f817191c3b486324d99fd">&#9670;&#160;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_double::begin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  *const f64</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_double_begin()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a45518764485ff33b6acf13185592968b" name="a45518764485ff33b6acf13185592968b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a45518764485ff33b6acf13185592968b">&#9670;&#160;</a></span>clear()</h2>
 
@@ -379,6 +400,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns true if the size is zero.</p>
 <p>Calls <span class="tt">MR_std_vector_double_empty()</span>. </p>
+
+</div>
+</div>
+<a id="a4c62123fb6eb4bb8090eb08c3e600edb" name="a4c62123fb6eb4bb8090eb08c3e600edb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c62123fb6eb4bb8090eb08c3e600edb">&#9670;&#160;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_double::end </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  *const f64</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_double_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

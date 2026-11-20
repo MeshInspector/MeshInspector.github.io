@@ -168,6 +168,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acd3aa78a15995b586fbd025790b7fca9" id="r_acd3aa78a15995b586fbd025790b7fca9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd3aa78a15995b586fbd025790b7fca9">pop_back</a> ()</td></tr>
 <tr class="memitem:a577ca540cece79c6767bbd6314f8e091" id="r_a577ca540cece79c6767bbd6314f8e091"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a577ca540cece79c6767bbd6314f8e091">insert</a> (position:usize, new_elem:&amp;<a class="el" href="structmeshlib_1_1GCommand.html">meshlib::GCommand</a>)</td></tr>
 <tr class="memitem:ae72774f4361e74bb8ab6dc8008ba5eef" id="r_ae72774f4361e74bb8ab6dc8008ba5eef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae72774f4361e74bb8ab6dc8008ba5eef">erase</a> (position:usize)</td></tr>
+<tr class="memitem:a982d6a0829ddb796b292425f5538e890" id="r_a982d6a0829ddb796b292425f5538e890"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a982d6a0829ddb796b292425f5538e890">begin</a> () const -&gt; *const meshlib::ffi::MR_GCommand</td></tr>
+<tr class="memitem:a0a03c5a8213cf88942322744562ea889" id="r_a0a03c5a8213cf88942322744562ea889"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a03c5a8213cf88942322744562ea889">end</a> () const -&gt; *const meshlib::ffi::MR_GCommand</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -277,6 +279,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a982d6a0829ddb796b292425f5538e890" name="a982d6a0829ddb796b292425f5538e890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a982d6a0829ddb796b292425f5538e890">&#9670;&#160;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_GCommand::begin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  *const meshlib::ffi::MR_GCommand</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_GCommand_begin()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="ab7ddd6c2715268e4bacf5d9100dd453e" name="ab7ddd6c2715268e4bacf5d9100dd453e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab7ddd6c2715268e4bacf5d9100dd453e">&#9670;&#160;</a></span>clear()</h2>
 
@@ -339,6 +360,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns true if the size is zero.</p>
 <p>Calls <span class="tt">MR_std_vector_MR_GCommand_empty()</span>. </p>
+
+</div>
+</div>
+<a id="a0a03c5a8213cf88942322744562ea889" name="a0a03c5a8213cf88942322744562ea889"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a03c5a8213cf88942322744562ea889">&#9670;&#160;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_GCommand::end </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  *const meshlib::ffi::MR_GCommand</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_GCommand_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

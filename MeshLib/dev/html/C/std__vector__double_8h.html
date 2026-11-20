@@ -171,6 +171,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a2ed0f93e541bdab834a40ae3f5aa4914" id="r_a2ed0f93e541bdab834a40ae3f5aa4914"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ed0f93e541bdab834a40ae3f5aa4914">MR_std_vector_double_pop_back</a> (<a class="el" href="MRBestFitPolynomial_8h.html#af3cab7fcc7212d67f935a899fd3118ec">MR_std_vector_double</a> *_this)</td></tr>
 <tr class="memitem:a479c69df4c4741d07583f5007e365f5e" id="r_a479c69df4c4741d07583f5007e365f5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a479c69df4c4741d07583f5007e365f5e">MR_std_vector_double_insert</a> (<a class="el" href="MRBestFitPolynomial_8h.html#af3cab7fcc7212d67f935a899fd3118ec">MR_std_vector_double</a> *_this, size_t position, double new_elem)</td></tr>
 <tr class="memitem:afd66e5869cdb3b03d07bf913e85c3f59" id="r_afd66e5869cdb3b03d07bf913e85c3f59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd66e5869cdb3b03d07bf913e85c3f59">MR_std_vector_double_erase</a> (<a class="el" href="MRBestFitPolynomial_8h.html#af3cab7fcc7212d67f935a899fd3118ec">MR_std_vector_double</a> *_this, size_t position)</td></tr>
+<tr class="memitem:af193e5a8b1a43fab93e5a801e376e4ac" id="r_af193e5a8b1a43fab93e5a801e376e4ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af193e5a8b1a43fab93e5a801e376e4ac">MR_std_vector_double_begin</a> (const <a class="el" href="MRBestFitPolynomial_8h.html#af3cab7fcc7212d67f935a899fd3118ec">MR_std_vector_double</a> *_this)</td></tr>
+<tr class="memitem:a70f441db2448f31a79c5ed38643ceec9" id="r_a70f441db2448f31a79c5ed38643ceec9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70f441db2448f31a79c5ed38643ceec9">MR_std_vector_double_end</a> (const <a class="el" href="MRBestFitPolynomial_8h.html#af3cab7fcc7212d67f935a899fd3118ec">MR_std_vector_double</a> *_this)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a294db7a11eed39d7d0d4aea0387cdd21" name="a294db7a11eed39d7d0d4aea0387cdd21"></a>
@@ -277,6 +279,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>The last element or null if empty, mutable. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="af193e5a8b1a43fab93e5a801e376e4ac" name="af193e5a8b1a43fab93e5a801e376e4ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af193e5a8b1a43fab93e5a801e376e4ac">&#9670;&#160;</a></span>MR_std_vector_double_begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double * MR_std_vector_double_begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFitPolynomial_8h.html#af3cab7fcc7212d67f935a899fd3118ec">MR_std_vector_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -445,6 +465,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns true if the size is zero. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a70f441db2448f31a79c5ed38643ceec9" name="a70f441db2448f31a79c5ed38643ceec9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70f441db2448f31a79c5ed38643ceec9">&#9670;&#160;</a></span>MR_std_vector_double_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double * MR_std_vector_double_end </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFitPolynomial_8h.html#af3cab7fcc7212d67f935a899fd3118ec">MR_std_vector_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

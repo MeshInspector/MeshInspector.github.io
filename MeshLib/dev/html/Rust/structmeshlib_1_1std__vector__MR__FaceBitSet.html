@@ -168,6 +168,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a56dd4e0fc4ac1c329ee8df7504a9448b" id="r_a56dd4e0fc4ac1c329ee8df7504a9448b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56dd4e0fc4ac1c329ee8df7504a9448b">pop_back</a> ()</td></tr>
 <tr class="memitem:a7a92cb469991d2aa4d2e10277a00853d" id="r_a7a92cb469991d2aa4d2e10277a00853d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a92cb469991d2aa4d2e10277a00853d">insert</a> (position:usize, new_elem:&amp;<a class="el" href="structmeshlib_1_1FaceBitSet.html">meshlib::FaceBitSet</a>)</td></tr>
 <tr class="memitem:ac039d1a54256087d82ee58dff1f5a818" id="r_ac039d1a54256087d82ee58dff1f5a818"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac039d1a54256087d82ee58dff1f5a818">erase</a> (position:usize)</td></tr>
+<tr class="memitem:a5e6b28b086f8e8ea8db047d57f8a5606" id="r_a5e6b28b086f8e8ea8db047d57f8a5606"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e6b28b086f8e8ea8db047d57f8a5606">begin</a> () const -&gt; *const meshlib::ffi::MR_FaceBitSet</td></tr>
+<tr class="memitem:a9ba85e39139fcbd0da65bd8bda4c69ad" id="r_a9ba85e39139fcbd0da65bd8bda4c69ad"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ba85e39139fcbd0da65bd8bda4c69ad">end</a> () const -&gt; *const meshlib::ffi::MR_FaceBitSet</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -277,6 +279,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a5e6b28b086f8e8ea8db047d57f8a5606" name="a5e6b28b086f8e8ea8db047d57f8a5606"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e6b28b086f8e8ea8db047d57f8a5606">&#9670;&#160;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_FaceBitSet::begin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  *const meshlib::ffi::MR_FaceBitSet</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_FaceBitSet_begin()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a67cbce733cc3644ebe975c4cbefa2f10" name="a67cbce733cc3644ebe975c4cbefa2f10"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a67cbce733cc3644ebe975c4cbefa2f10">&#9670;&#160;</a></span>clear()</h2>
 
@@ -339,6 +360,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns true if the size is zero.</p>
 <p>Calls <span class="tt">MR_std_vector_MR_FaceBitSet_empty()</span>. </p>
+
+</div>
+</div>
+<a id="a9ba85e39139fcbd0da65bd8bda4c69ad" name="a9ba85e39139fcbd0da65bd8bda4c69ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ba85e39139fcbd0da65bd8bda4c69ad">&#9670;&#160;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_FaceBitSet::end </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  *const meshlib::ffi::MR_FaceBitSet</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_FaceBitSet_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

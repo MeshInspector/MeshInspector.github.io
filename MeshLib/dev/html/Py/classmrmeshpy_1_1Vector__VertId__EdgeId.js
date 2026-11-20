@@ -7,7 +7,7 @@ var classmrmeshpy_1_1Vector__VertId__EdgeId =
     [ "__init__", "classmrmeshpy_1_1Vector__VertId__EdgeId.html#a24309a4c0884937acd6dab2e626447f5", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__VertId__EdgeId.html#a48851de4cb009832af9b4d70bfa2633d", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__VertId__EdgeId.html#add7d740a9a5992c148611186a306e068", null ],
-    [ "__iter__", "classmrmeshpy_1_1Vector__VertId__EdgeId.html#a4628236381ccbeee83306be75354f744", null ],
+    [ "__iter__", "classmrmeshpy_1_1Vector__VertId__EdgeId.html#a8bc119de99c0667e3b4098cdc74adebd", null ],
     [ "__iter__", "classmrmeshpy_1_1Vector__VertId__EdgeId.html#ae8362125235f1046d608d84dad169d91", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__VertId__EdgeId.html#a34bb800d2c18ee9e10d7d6b3dc9c07d7", null ],
     [ "assign", "classmrmeshpy_1_1Vector__VertId__EdgeId.html#a3d2b471d679afc48c40f90b7cc72c0bc", null ],
