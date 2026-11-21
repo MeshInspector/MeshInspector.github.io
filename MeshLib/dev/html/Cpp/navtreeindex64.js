@@ -1,5 +1,8 @@
 var NAVTREEINDEX64 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[9,0,1,0,0,0,1],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[9,0,2,0,0,0,1],
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[9,0,1,0,0,0,8],
 "structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[9,0,2,0,0,0,8],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[9,0,1,0,0,0,3],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[9,0,2,0,0,0,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1ContourToDistanceMapParams.html#a8c1e602f4300ada7c5982a184ee864b7":[9,0,0,5,4,0],
 "structMR_1_1ContourToDistanceMapParams.html#aab02976e948f14539479e1305e319e3d":[9,0,0,5,4,7],
 "structMR_1_1ContourToDistanceMapParams.html#abaa30b78ecde6f6ef4bc8f92ca454a4c":[9,0,0,5,4,6],
-"structMR_1_1ContourToDistanceMapParams.html#acdbc1cd1931b8df3a7afe4d8500aa9e8":[9,0,0,5,4,1],
-"structMR_1_1ContourToDistanceMapParams.html#add2590dd84c6394ddff0b70568c92767":[9,0,0,5,4,5],
-"structMR_1_1ContourToDistanceMapParams.html#af6e89dcef8c3cd2419a4cd2dbb77015f":[9,0,0,5,4,10],
-"structMR_1_1ContourToDistanceMapParams.html#afe6ef70a540df80fca43fb338ca681ce":[9,0,0,5,4,12]
+"structMR_1_1ContourToDistanceMapParams.html#acdbc1cd1931b8df3a7afe4d8500aa9e8":[9,0,0,5,4,1]
 };

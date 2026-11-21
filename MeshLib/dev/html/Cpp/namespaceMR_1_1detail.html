@@ -136,7 +136,7 @@ $(function(){initNavTree('namespaceMR_1_1detail.html','',''); });
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">MR::detail Namespace Reference<div class="ingroups"><a class="el" href="group__MathGroup.html">Math group</a> &raquo; <a class="el" href="group__HighPrecisionGroup.html">High Precision</a> &#124; <a class="el" href="group__GeneralGroup.html">GeneralGroup</a> &#124; <a class="el" href="group__MathGroup.html">Math group</a></div></div></div>
+  <div class="headertitle"><div class="title">MR::detail Namespace Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a> &#124; <a class="el" href="group__MathGroup.html">Math group</a> &raquo; <a class="el" href="group__HighPrecisionGroup.html">High Precision</a> &#124; <a class="el" href="group__MathGroup.html">Math group</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -173,6 +173,9 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga40997e17f9eb79aaaf4e29357afe3370" id="r_ga40997e17f9eb79aaaf4e29357afe3370"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga40997e17f9eb79aaaf4e29357afe3370">mimallocNewN</a> (std::size_t count, std::size_t <a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
+<tr class="memitem:gab32953fc29375291584c951497d17ea6" id="r_gab32953fc29375291584c951497d17ea6"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab32953fc29375291584c951497d17ea6">mimallocNewAligned</a> (std::size_t <a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>, std::size_t alignment)</td></tr>
+<tr class="memitem:ga64cf4cb8faf6a631347f4a980eaaec9b" id="r_ga64cf4cb8faf6a631347f4a980eaaec9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga64cf4cb8faf6a631347f4a980eaaec9b">mimallocFree</a> (void *p) noexcept</td></tr>
 <tr class="memitem:a1c3d4f65be2335aa2156f777bfe33154" id="r_a1c3d4f65be2335aa2156f777bfe33154"><td class="memItemLeft" align="right" valign="top">constexpr std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c3d4f65be2335aa2156f777bfe33154">addCarry64</a> (std::uint64_t a, std::uint64_t b, std::uint64_t &amp;carry) noexcept</td></tr>
 <tr class="memdesc:a1c3d4f65be2335aa2156f777bfe33154"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a + b + carry modulo 2^64, and replaces carry with the carry-out (0 or 1)  <br /></td></tr>
 <tr class="memitem:a7fc59c8caf263e5cec996db9f596920d" id="r_a7fc59c8caf263e5cec996db9f596920d"><td class="memItemLeft" align="right" valign="top">constexpr std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fc59c8caf263e5cec996db9f596920d">subBorrow64</a> (std::uint64_t a, std::uint64_t b, std::uint64_t &amp;borrow) noexcept</td></tr>
@@ -252,6 +255,7 @@ Variables</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>for internal use: namespace detail is not bound to other languages </p>
+<p>mimalloc is called inside MRMesh, so code using MeshLib does not link mimalloc itself; keep this header out of MRPch.h, else MRMESH_API is fixed there as dllimport also for MRMesh</p>
 <p>accessors allowing the same template code to work with <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> and <a class="el" href="structMR_1_1TriMeshPart.html" title="TriMesh with a region of triangles: only the triangles of the region and their vertices are valid.">TriMeshPart</a>; all vertices and triangles of <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> are always valid </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a92c86287dc5036d235dd025e24861f4b" name="a92c86287dc5036d235dd025e24861f4b"></a>
