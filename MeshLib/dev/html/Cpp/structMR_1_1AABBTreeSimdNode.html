@@ -138,7 +138,7 @@ $(function(){initNavTree('structMR_1_1AABBTreeSimdNode.html','','structMR_1_1AAB
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="MRAABBTree_8h_source.html">MRMesh/MRAABBTree.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRAABBTreeSimd_8h_source.html">MRMesh/MRAABBTreeSimd.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR::AABBTreeSimdNode:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
@@ -169,12 +169,12 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a607a824daeff05b1b4e0a8b96779707e" id="r_a607a824daeff05b1b4e0a8b96779707e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a607a824daeff05b1b4e0a8b96779707e">child</a> [4]</td></tr>
-<tr class="memdesc:a607a824daeff05b1b4e0a8b96779707e"><td class="mdescLeft">&#160;</td><td class="mdescRight">i-th child: the index in simdNodes() if &gt; 0, otherwise ~(the index of the leaf, as in leafBoxes()); 0 in unused slots (the root is never a child)  <br /></td></tr>
+<tr class="memdesc:a607a824daeff05b1b4e0a8b96779707e"><td class="mdescLeft">&#160;</td><td class="mdescRight">i-th child: the index in simdNodes() if &gt; 0, otherwise ~(the index of the leaf); 0 in unused slots (the root is never a child)  <br /></td></tr>
 <tr class="inherit_header pub_attribs_structMR_1_1AABBTreeSimdBoxes"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_structMR_1_1AABBTreeSimdBoxes')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Attributes inherited from <a class="el" href="structMR_1_1AABBTreeSimdBoxes.html">MR::AABBTreeSimdBoxes</a></td></tr>
 <tr class="memitem:a53ffb8aa335e5ed5f5645b4c44e0c226 inherit pub_attribs_structMR_1_1AABBTreeSimdBoxes" id="r_a53ffb8aa335e5ed5f5645b4c44e0c226"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreeSimdBoxes.html#a53ffb8aa335e5ed5f5645b4c44e0c226">box</a> [6][4]</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>internal node of <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a>: the boxes of its (up to 4) children in SoA order and the references to them; lets a traversal test all children of a node at once </p>
+<div class="textblock"><p>internal node of <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> or <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a>: the boxes of its (up to 4) children in SoA order and the references to them; lets a traversal test all children of a node at once </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a02dac68eedf4fcc465195479162a0ef5" name="a02dac68eedf4fcc465195479162a0ef5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a02dac68eedf4fcc465195479162a0ef5">&#9670;&#160;</a></span>AABBTreeSimdNode() <span class="overload">[1/2]</span></h2>
@@ -239,12 +239,12 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>i-th child: the index in simdNodes() if &gt; 0, otherwise ~(the index of the leaf, as in leafBoxes()); 0 in unused slots (the root is never a child) </p>
+<p>i-th child: the index in simdNodes() if &gt; 0, otherwise ~(the index of the leaf); 0 in unused slots (the root is never a child) </p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>MRMesh/<a class="el" href="MRAABBTree_8h_source.html">MRAABBTree.h</a></li>
+<li>MRMesh/<a class="el" href="MRAABBTreeSimd_8h_source.html">MRAABBTreeSimd.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

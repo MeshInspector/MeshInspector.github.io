@@ -492,9 +492,6 @@ var hierarchy =
     [ "mrmeshpy.Const_std_vector_AABBTreeNode_ObjTreeTraits_Allocator_AABBTreeNode_ObjTreeTraits", "classmrmeshpy_1_1Const__std__vector__AABBTreeNode__ObjTreeTraits__Allocator__AABBTreeNode__ObjTreeTraits.html", [
       [ "mrmeshpy.std_vector_AABBTreeNode_ObjTreeTraits_Allocator_AABBTreeNode_ObjTreeTraits", "classmrmeshpy_1_1std__vector__AABBTreeNode__ObjTreeTraits__Allocator__AABBTreeNode__ObjTreeTraits.html", null ]
     ] ],
-    [ "mrmeshpy.Const_std_vector_AABBTreePoints_Node_Allocator_AABBTreePoints_Node", "classmrmeshpy_1_1Const__std__vector__AABBTreePoints__Node__Allocator__AABBTreePoints__Node.html", [
-      [ "mrmeshpy.std_vector_AABBTreePoints_Node_Allocator_AABBTreePoints_Node", "classmrmeshpy_1_1std__vector__AABBTreePoints__Node__Allocator__AABBTreePoints__Node.html", null ]
-    ] ],
     [ "mrmeshpy.Const_std_vector_AABBTreePoints_Point", "classmrmeshpy_1_1Const__std__vector__AABBTreePoints__Point.html", [
       [ "mrmeshpy.std_vector_AABBTreePoints_Point", "classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html", null ]
     ] ],
@@ -1321,12 +1318,7 @@ var hierarchy =
       [ "mrmeshpy.MeshSave.BinaryStlSaver", "classmrmeshpy_1_1MeshSave_1_1BinaryStlSaver.html", null ]
     ] ],
     [ "mrmeshpy.ConstBitSet", "classmrmeshpy_1_1ConstBitSet.html", [
-      [ "mrmeshpy.AABBTreePoints.ConstNodeBitSet", "classmrmeshpy_1_1AABBTreePoints_1_1ConstNodeBitSet.html", [
-        [ "mrmeshpy.AABBTreePoints.NodeBitSet", "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html", null ]
-      ] ],
       [ "mrmeshpy.BitSet", "classmrmeshpy_1_1BitSet.html", [
-        [ "mrmeshpy.AABBTreePoints.NodeBitSet", "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html", null ],
-        [ "mrmeshpy.ConstAABBTreePoints.NodeBitSet", "classmrmeshpy_1_1ConstAABBTreePoints_1_1NodeBitSet.html", null ],
         [ "mrmeshpy.EdgeBitSet", "classmrmeshpy_1_1EdgeBitSet.html", null ],
         [ "mrmeshpy.FaceBitSet", "classmrmeshpy_1_1FaceBitSet.html", null ],
         [ "mrmeshpy.GraphEdgeBitSet", "classmrmeshpy_1_1GraphEdgeBitSet.html", null ],
@@ -1341,9 +1333,6 @@ var hierarchy =
         [ "mrmeshpy.UndirectedEdgeBitSet", "classmrmeshpy_1_1UndirectedEdgeBitSet.html", null ],
         [ "mrmeshpy.VertBitSet", "classmrmeshpy_1_1VertBitSet.html", null ],
         [ "mrmeshpy.VoxelBitSet", "classmrmeshpy_1_1VoxelBitSet.html", null ]
-      ] ],
-      [ "mrmeshpy.ConstAABBTreePoints.ConstNodeBitSet", "classmrmeshpy_1_1ConstAABBTreePoints_1_1ConstNodeBitSet.html", [
-        [ "mrmeshpy.ConstAABBTreePoints.NodeBitSet", "classmrmeshpy_1_1ConstAABBTreePoints_1_1NodeBitSet.html", null ]
       ] ],
       [ "mrmeshpy.ConstEdgeBitSet", "classmrmeshpy_1_1ConstEdgeBitSet.html", [
         [ "mrmeshpy.EdgeBitSet", "classmrmeshpy_1_1EdgeBitSet.html", null ]
@@ -3019,11 +3008,6 @@ var hierarchy =
     [ "mrmeshpy.ConstNoCtor_VoxelId", "classmrmeshpy_1_1ConstNoCtor__VoxelId.html", [
       [ "mrmeshpy.NoCtor_VoxelId", "classmrmeshpy_1_1NoCtor__VoxelId.html", null ]
     ] ],
-    [ "mrmeshpy.AABBTreePoints.ConstNode", "classmrmeshpy_1_1AABBTreePoints_1_1ConstNode.html", [
-      [ "mrmeshpy.AABBTreePoints.Node", "classmrmeshpy_1_1AABBTreePoints_1_1Node.html", null ],
-      [ "mrmeshpy.ConstAABBTreePoints.Node", "classmrmeshpy_1_1ConstAABBTreePoints_1_1Node.html", null ]
-    ] ],
-    [ "mrmeshpy.ConstAABBTreePoints.ConstNode", "classmrmeshpy_1_1ConstAABBTreePoints_1_1ConstNode.html", null ],
     [ "mrmeshpy.ConstNodeId", "classmrmeshpy_1_1ConstNodeId.html", [
       [ "mrmeshpy.ConstNoDefInit_NodeId", "classmrmeshpy_1_1ConstNoDefInit__NodeId.html", [
         [ "mrmeshpy.NoDefInit_NodeId", "classmrmeshpy_1_1NoDefInit__NodeId.html", null ]
@@ -4186,9 +4170,6 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ConstVector_AABBTreeNode_ObjTreeTraits_NodeId", "classmrmeshpy_1_1ConstVector__AABBTreeNode__ObjTreeTraits__NodeId.html", [
       [ "mrmeshpy.Vector_AABBTreeNode_ObjTreeTraits_NodeId", "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html", null ]
-    ] ],
-    [ "mrmeshpy.ConstVector_AABBTreePoints_Node_NodeId", "classmrmeshpy_1_1ConstVector__AABBTreePoints__Node__NodeId.html", [
-      [ "mrmeshpy.Vector_AABBTreePoints_Node_NodeId", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html", null ]
     ] ],
     [ "mrmeshpy.ConstVector_AABBTreeWideLeafTri", "classmrmeshpy_1_1ConstVector__AABBTreeWideLeafTri.html", [
       [ "mrmeshpy.Vector_AABBTreeWideLeafTri", "classmrmeshpy_1_1Vector__AABBTreeWideLeafTri.html", null ]

@@ -1,5 +1,9 @@
 var NAVTREEINDEX13 =
 {
+"classMR_1_1UndirectedEdgeIterator.html":[9,0,0,19,213],
+"classMR_1_1UndoMenuItem.html":[9,0,0,19,58],
+"classMR_1_1UnifiedPythonStream.html":[9,0,0,19,573],
+"classMR_1_1UnionFind.html":[9,0,0,3,16],
 "classMR_1_1UnionFind.html":[9,0,0,19,372],
 "classMR_1_1UniqueTemporaryFolder.html":[9,0,0,19,547],
 "classMR_1_1UniqueThreadSafeOwner.html":[9,0,0,1,41],
@@ -245,9 +249,5 @@ var NAVTREEINDEX13 =
 "classMR_1_1detail_1_1PerturbationStagesOf.html#af0f5ed2681c5000e65613394313bcfc2":[9,0,1,0,1,3,7,3],
 "classMR_1_1detail_1_1PerturbationStagesOf.html#af0f5ed2681c5000e65613394313bcfc2":[9,0,2,0,1,1,7,3],
 "classMR_1_1detail_1_1ScopeGuard.html":[9,0,1,0,1,3,9],
-"classMR_1_1detail_1_1ScopeGuard.html":[9,0,2,0,1,1,9],
-"classMR_1_1detail_1_1ScopeGuard.html#a2c51cf739e0e06d29590ee4e3d5729b0":[9,0,1,0,1,3,9,2],
-"classMR_1_1detail_1_1ScopeGuard.html#a2c51cf739e0e06d29590ee4e3d5729b0":[9,0,2,0,1,1,9,2],
-"classMR_1_1detail_1_1ScopeGuard.html#a4bb7973a1780f673131d887ccd7a99a5":[9,0,1,0,1,3,9,0],
-"classMR_1_1detail_1_1ScopeGuard.html#a4bb7973a1780f673131d887ccd7a99a5":[9,0,2,0,1,1,9,0]
+"classMR_1_1detail_1_1ScopeGuard.html":[9,0,2,0,1,1,9]
 };

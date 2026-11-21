@@ -75,8 +75,6 @@ var MRVector_8cs =
     [ "MR.Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId.html", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId" ],
     [ "MR.Const_Vector_MRAffineXf3f_MRObjId", "classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html", "classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" ],
     [ "MR.Vector_MRAffineXf3f_MRObjId", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html", "classMR_1_1Vector__MRAffineXf3f__MRObjId" ],
-    [ "MR.Const_Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId.html", "classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId" ],
-    [ "MR.Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId" ],
     [ "MR.Const_Vector_MRThreeVertIds", "classMR_1_1Const__Vector__MRThreeVertIds.html", "classMR_1_1Const__Vector__MRThreeVertIds" ],
     [ "MR.Vector_MRThreeVertIds", "classMR_1_1Vector__MRThreeVertIds.html", "classMR_1_1Vector__MRThreeVertIds" ],
     [ "MR.Const_Vector_MREdgeId_MRVertId", "classMR_1_1Const__Vector__MREdgeId__MRVertId.html", "classMR_1_1Const__Vector__MREdgeId__MRVertId" ],

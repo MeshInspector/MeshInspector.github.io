@@ -2796,7 +2796,6 @@ var namespaceMR =
     [ "getNObjectsLine< ObjectPoints >", "group__GeneralGroup.html#ga1216de462a9d974ccc74b05d90e791e1", null ],
     [ "getNumActivePairs", "group__GeneralGroup.html#ga2a5d3a2f7c92a6b8c0c35cd269530356", null ],
     [ "getNumNodes", "group__AABBTreeGroup.html#ga3c1bb6417aaa769fa4156f2edac91749", null ],
-    [ "getNumNodesPoints", "group__AABBTreeGroup.html#ga47032a5f420080191bd8d3600c3c24ef", null ],
     [ "getNumSamples", "group__GeneralGroup.html#ga6bc994c1ebf7a119332f7d7a212cdd5e", null ],
     [ "getOneMeshIntersectionContours", "group__GeneralGroup.html#ga6c2a8d613e29f26fcbbfaad5c43205a5", null ],
     [ "getOneMeshSelfIntersectionContours", "group__GeneralGroup.html#ga57f74cde60c66eebd3b6f0076937f2c8", null ],

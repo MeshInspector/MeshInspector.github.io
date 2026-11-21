@@ -1,5 +1,9 @@
 var NAVTREEINDEX7 =
 {
+"classMR_1_1AlphaSortGL.html":[9,0,0,19,585],
+"classMR_1_1AncillaryImGuiLabel.html":[9,0,0,19,587],
+"classMR_1_1AngleMeasurementObject.html":[9,0,0,19,134],
+"classMR_1_1AnyVisualizeMaskEnum.html":[9,0,0,11,2,3],
 "classMR_1_1AnyVisualizeMaskEnum.html#a8e693a1846e9d510a78d65efd9217d03":[9,0,0,11,2,3,0],
 "classMR_1_1AnyVisualizeMaskEnum.html#ad6bb8706f3ee4d236f7d26ca5e4432dd":[9,0,0,11,2,3,1],
 "classMR_1_1AsyncRequest.html":[9,0,0,19,595],
@@ -245,9 +249,5 @@ var NAVTREEINDEX7 =
 "classMR_1_1ChangeScaleAction.html":[9,0,0,4,26],
 "classMR_1_1ChangeScaleAction.html":[9,0,0,19,169],
 "classMR_1_1ChangeSceneAction.html":[9,0,0,4,27],
-"classMR_1_1ChangeSceneAction.html":[9,0,0,19,170],
-"classMR_1_1ChangeSceneObjectsOrder.html":[9,0,0,4,28],
-"classMR_1_1ChangeSceneObjectsOrder.html":[9,0,0,19,171],
-"classMR_1_1ChangeSurfaceAction.html":[9,0,0,4,48],
-"classMR_1_1ChangeSurfaceAction.html#a10e342f28635a448b68e1e8d60a56b54":[9,0,0,4,48,4]
+"classMR_1_1ChangeSceneAction.html":[9,0,0,19,170]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html":[9,0,0,19,881],
-"structMR_1_1Object_1_1ProtectedStruct.html":[9,0,0,11,4,0],
-"structMR_1_1Object_1_1ProtectedStruct.html#a7e4c38fcb6a60dc4c3126d35a637080e":[9,0,0,11,4,0,0],
-"structMR_1_1OffsetContourIndex.html":[9,0,0,19,430],
 "structMR_1_1OffsetContoursOrigins.html":[9,0,0,19,431],
 "structMR_1_1OffsetContoursParams.html":[9,0,0,19,432],
 "structMR_1_1OffsetContoursRestoreZParams.html":[9,0,0,19,433],
@@ -201,11 +197,11 @@ var NAVTREEINDEX70 =
 "structMR_1_1PolylineSubdivideSettings.html#afd93804f4deac58fb3c9851426d2d9a3":[9,0,0,14,0,0,1],
 "structMR_1_1PolylineToDistanceVolumeParams.html":[9,0,0,19,899],
 "structMR_1_1PolylineToVolumeParams.html":[9,0,0,19,900],
-"structMR_1_1PolylineTraits.html":[9,0,0,1,12],
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[9,0,0,1,13],
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[9,0,0,1,13,0],
-"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[9,0,0,1,14],
-"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[9,0,0,1,14,0],
+"structMR_1_1PolylineTraits.html":[9,0,0,1,10],
+"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[9,0,0,1,11],
+"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[9,0,0,1,11,0],
+"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[9,0,0,1,12],
+"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[9,0,0,1,12,0],
 "structMR_1_1Polynomial.html":[9,0,0,19,138],
 "structMR_1_1PolynomialWrapper.html":[9,0,0,19,139],
 "structMR_1_1PositionVertsSmoothlyParams.html":[9,0,0,19,480],
@@ -249,5 +245,9 @@ var NAVTREEINDEX70 =
 "structMR_1_1PythonViewer_1_1UiValueInt.html#a4d45a0b9a83024d055f50878a908a035":[9,0,2,0,1,25,1,1],
 "structMR_1_1PythonViewer_1_1UiValueReal.html":[9,0,1,0,1,40,2],
 "structMR_1_1PythonViewer_1_1UiValueReal.html":[9,0,2,0,1,25,2],
-"structMR_1_1PythonViewer_1_1UiValueReal.html#a5e251126c10399c761035b5c8539bd61":[9,0,1,0,1,40,2,1]
+"structMR_1_1PythonViewer_1_1UiValueReal.html#a5e251126c10399c761035b5c8539bd61":[9,0,1,0,1,40,2,1],
+"structMR_1_1PythonViewer_1_1UiValueReal.html#a5e251126c10399c761035b5c8539bd61":[9,0,2,0,1,25,2,1],
+"structMR_1_1PythonViewer_1_1UiValueReal.html#a789ec5ac5b047f53eef0f438a7983919":[9,0,1,0,1,40,2,0],
+"structMR_1_1PythonViewer_1_1UiValueReal.html#a789ec5ac5b047f53eef0f438a7983919":[9,0,2,0,1,25,2,0],
+"structMR_1_1PythonViewer_1_1UiValueReal.html#ae949ec38a6e28dd2b2b7f47126c13e72":[9,0,1,0,1,40,2,2]
 };

@@ -250,9 +250,6 @@ var hierarchy =
       [ "MR.Const_AABBTreePoints", "classMR_1_1Const__AABBTreePoints.html", [
         [ "MR.AABBTreePoints", "classMR_1_1AABBTreePoints.html", null ]
       ] ],
-      [ "MR.Const_AABBTreePoints.Const_Node", "classMR_1_1Const__AABBTreePoints_1_1Const__Node.html", [
-        [ "MR.Const_AABBTreePoints.Node", "classMR_1_1Const__AABBTreePoints_1_1Node.html", null ]
-      ] ],
       [ "MR.Const_AABBTreePoints.Const_Point", "classMR_1_1Const__AABBTreePoints_1_1Const__Point.html", [
         [ "MR.Const_AABBTreePoints.Point", "classMR_1_1Const__AABBTreePoints_1_1Point.html", null ]
       ] ],
@@ -2568,9 +2565,6 @@ var hierarchy =
       [ "MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html", [
         [ "MR.Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId", "classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html", null ]
       ] ],
-      [ "MR.Const_Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId.html", [
-        [ "MR.Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html", null ]
-      ] ],
       [ "MR.Const_Vector_MRAABBTreeWideLeafTri", "classMR_1_1Const__Vector__MRAABBTreeWideLeafTri.html", [
         [ "MR.Vector_MRAABBTreeWideLeafTri", "classMR_1_1Vector__MRAABBTreeWideLeafTri.html", null ]
       ] ],
@@ -3327,7 +3321,6 @@ var hierarchy =
       [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html", null ],
       [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId.html", null ],
       [ "MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html", null ],
-      [ "MR.Const_Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId.html", null ],
       [ "MR.Const_Vector_MRAABBTreeWideLeafTri", "classMR_1_1Const__Vector__MRAABBTreeWideLeafTri.html", null ],
       [ "MR.Const_Vector_MRAffineXf3f_MRObjId", "classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html", null ],
       [ "MR.Const_Vector_MRAlphaShapeNei", "classMR_1_1Const__Vector__MRAlphaShapeNei.html", null ],
@@ -3813,7 +3806,6 @@ var hierarchy =
       [ "MR.Const_AABBTreeNode_MRObjTreeTraits", "classMR_1_1Const__AABBTreeNode__MRObjTreeTraits.html", null ],
       [ "MR.Const_AABBTreeObjects", "classMR_1_1Const__AABBTreeObjects.html", null ],
       [ "MR.Const_AABBTreePoints", "classMR_1_1Const__AABBTreePoints.html", null ],
-      [ "MR.Const_AABBTreePoints.Const_Node", "classMR_1_1Const__AABBTreePoints_1_1Const__Node.html", null ],
       [ "MR.Const_AABBTreePoints.Const_Point", "classMR_1_1Const__AABBTreePoints_1_1Const__Point.html", null ],
       [ "MR.Const_AABBTreePolyline2", "classMR_1_1Const__AABBTreePolyline2.html", null ],
       [ "MR.Const_AABBTreePolyline3", "classMR_1_1Const__AABBTreePolyline3.html", null ],
@@ -4593,7 +4585,6 @@ var hierarchy =
       [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html", null ],
       [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId.html", null ],
       [ "MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html", null ],
-      [ "MR.Const_Vector_MRAABBTreePointsNode_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId.html", null ],
       [ "MR.Const_Vector_MRAABBTreeWideLeafTri", "classMR_1_1Const__Vector__MRAABBTreeWideLeafTri.html", null ],
       [ "MR.Const_Vector_MRAffineXf3f_MRObjId", "classMR_1_1Const__Vector__MRAffineXf3f__MRObjId.html", null ],
       [ "MR.Const_Vector_MRAlphaShapeNei", "classMR_1_1Const__Vector__MRAlphaShapeNei.html", null ],
