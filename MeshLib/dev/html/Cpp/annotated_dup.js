@@ -608,6 +608,8 @@ var annotated_dup =
       [ "GeodesicPath", "structMR_1_1GeodesicPath.html", "structMR_1_1GeodesicPath" ],
       [ "GlBuffer", "classMR_1_1GlBuffer.html", "classMR_1_1GlBuffer" ],
       [ "GLDriverIssue", "structMR_1_1GLDriverIssue.html", "structMR_1_1GLDriverIssue" ],
+      [ "GlobalRegistrationParams", "structMR_1_1GlobalRegistrationParams.html", "structMR_1_1GlobalRegistrationParams" ],
+      [ "GlobalRegistrationResult", "structMR_1_1GlobalRegistrationResult.html", "structMR_1_1GlobalRegistrationResult" ],
       [ "GLStaticHolder", "classMR_1_1GLStaticHolder.html", "classMR_1_1GLStaticHolder" ],
       [ "GlTexture", "classMR_1_1GlTexture.html", "classMR_1_1GlTexture" ],
       [ "GlTexture2", "classMR_1_1GlTexture2.html", "classMR_1_1GlTexture2" ],

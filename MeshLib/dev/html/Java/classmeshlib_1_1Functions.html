@@ -1744,6 +1744,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a49e71e0d25f2e33ce1709bdcf0ec7686" id="r_a49e71e0d25f2e33ce1709bdcf0ec7686"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49e71e0d25f2e33ce1709bdcf0ec7686">filterCreaseEdges</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> mesh, <a class="el" href="classmeshlib_1_1UndirectedEdgeBitSet.html">meshlib.UndirectedEdgeBitSet</a> creaseEdges, float critLength, java.lang.Boolean filterComponents, java.lang.Boolean filterBranches)</td></tr>
 <tr class="memitem:a4ef1c2e372e2a8655e5f4832a5c148fa" id="r_a4ef1c2e372e2a8655e5f4832a5c148fa"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1std__vector__MR__Vector3f.html">meshlib.std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ef1c2e372e2a8655e5f4832a5c148fa">makeFreeFormOriginGrid</a> (<a class="el" href="classmeshlib_1_1Box3f.html">meshlib.Box3f</a> box, <a class="el" href="classmeshlib_1_1Vector3i.html">meshlib.Vector3i</a> resolution)</td></tr>
 <tr class="memitem:ad5236c7158476ed2e902d6ab860ddc94" id="r_ad5236c7158476ed2e902d6ab860ddc94"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1std__vector__MR__Vector3f.html">meshlib.std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5236c7158476ed2e902d6ab860ddc94">findBestFreeformDeformation</a> (<a class="el" href="classmeshlib_1_1Box3f.html">meshlib.Box3f</a> box, <a class="el" href="classmeshlib_1_1std__vector__MR__Vector3f.html">meshlib.std_vector_MR_Vector3f</a> source, <a class="el" href="classmeshlib_1_1std__vector__MR__Vector3f.html">meshlib.std_vector_MR_Vector3f</a> target, <a class="el" href="classmeshlib_1_1Vector3i.html">meshlib.Vector3i</a> resolution, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> samplesToBox)</td></tr>
+<tr class="memitem:aa35eb301786f6adf432e6213a880147a" id="r_aa35eb301786f6adf432e6213a880147a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1GlobalRegistrationResult.html">meshlib.GlobalRegistrationResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa35eb301786f6adf432e6213a880147a">globalRegistration</a> (<a class="el" href="classmeshlib_1_1Vector__MR__MeshOrPointsXf__MR__ObjId.html">meshlib.Vector_MR_MeshOrPointsXf_MR_ObjId</a> objects, <a class="el" href="classmeshlib_1_1GlobalRegistrationParams.html">meshlib.GlobalRegistrationParams</a> params, <a class="el" href="classmeshlib_1_1std__function__bool__from__float.html">meshlib.std_function_bool_from_float</a> progress)</td></tr>
+<tr class="memdesc:aa35eb301786f6adf432e6213a880147a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the transformations registering given objects (meshes or point clouds with normals) as one or several groups without any initial alignment: each pair of objects is aligned by matching FPFH descriptors of their samples (see computeFPFH), finding the rigid transformation by findRigidXfRansac with overlap scoring and refining it by <a class="el" href="classmeshlib_1_1ICP.html">ICP</a>; then the objects are linked by a spanning tree of the pairs with the largest overlap (at least params.minOverlap) Generated from function <span class="tt">MR::globalRegistration</span>.  <br /></td></tr>
 <tr class="memitem:a339c70c8a771e388cb1c5df287dc5d42" id="r_a339c70c8a771e388cb1c5df287dc5d42"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1std__optional__MR__VertBitSet.html">meshlib.std_optional_MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a339c70c8a771e388cb1c5df287dc5d42">verticesGridSampling</a> (<a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> mp, float voxelSize, <a class="el" href="classmeshlib_1_1std__function__bool__from__float.html">meshlib.std_function_bool_from_float</a> cb)</td></tr>
 <tr class="memitem:a41a1386dce992f8be6d43d508808062f" id="r_a41a1386dce992f8be6d43d508808062f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1std__optional__MR__VertBitSet.html">meshlib.std_optional_MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41a1386dce992f8be6d43d508808062f">pointGridSampling</a> (<a class="el" href="classmeshlib_1_1PointCloudPart.html">meshlib.PointCloudPart</a> pcp, float voxelSize, <a class="el" href="classmeshlib_1_1std__function__bool__from__float.html">meshlib.std_function_bool_from_float</a> cb)</td></tr>
 <tr class="memitem:a7ed9f1e0ad56cc1000505907884f4c1f" id="r_a7ed9f1e0ad56cc1000505907884f4c1f"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ed9f1e0ad56cc1000505907884f4c1f">opEqual</a> (<a class="el" href="classmeshlib_1_1ObjVertId.html">meshlib.ObjVertId</a> _1, <a class="el" href="classmeshlib_1_1ObjVertId.html">meshlib.ObjVertId</a> _2)</td></tr>
@@ -42371,6 +42373,43 @@ All new faces should be parallel to given direction It is measured in squared le
 
 </div>
 </div>
+<a id="aa35eb301786f6adf432e6213a880147a" name="aa35eb301786f6adf432e6213a880147a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa35eb301786f6adf432e6213a880147a">&#9670;&#160;</a></span>globalRegistration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmeshlib_1_1GlobalRegistrationResult.html">meshlib.GlobalRegistrationResult</a> meshlib.Functions.globalRegistration </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1Vector__MR__MeshOrPointsXf__MR__ObjId.html">meshlib.Vector_MR_MeshOrPointsXf_MR_ObjId</a></td>          <td class="paramname"><span class="paramname"><em>objects</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1GlobalRegistrationParams.html">meshlib.GlobalRegistrationParams</a></td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1std__function__bool__from__float.html">meshlib.std_function_bool_from_float</a></td>          <td class="paramname"><span class="paramname"><em>progress</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the transformations registering given objects (meshes or point clouds with normals) as one or several groups without any initial alignment: each pair of objects is aligned by matching FPFH descriptors of their samples (see computeFPFH), finding the rigid transformation by findRigidXfRansac with overlap scoring and refining it by <a class="el" href="classmeshlib_1_1ICP.html">ICP</a>; then the objects are linked by a spanning tree of the pairs with the largest overlap (at least params.minOverlap) Generated from function <span class="tt">MR::globalRegistration</span>. </p>
+<p>Calls <span class="tt">MR_globalRegistration()</span>. The C++ function returns <span class="tt">expected&lt;MR::GlobalRegistrationResult, std::string&gt;</span>: the value is returned and an error is thrown as <span class="tt"><a class="el" href="classmeshlib_1_1UnexpectedResultException.html">UnexpectedResultException</a></span>. </p>
+
+</div>
+</div>
 <a id="a53f1d9c4bc008d3d563fd95993d337f2" name="a53f1d9c4bc008d3d563fd95993d337f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a53f1d9c4bc008d3d563fd95993d337f2">&#9670;&#160;</a></span>gradientInTri() <span class="overload">[1/4]</span></h2>
 
@@ -50207,8 +50246,8 @@ All new faces should be parallel to given direction It is measured in squared le
 <div class="line">    meshParams.texturePerFace = &amp;texturePerFace;</div>
 <div class="line">subs.onEdgeSplit = <a class="code hl_function" href="#aa382a636f7160ba96b64a8f8c637e570">meshOnEdgeSplitAttribute</a>( *obj_-&gt;varMesh(), meshParams );</div>
 <div class="line"><a class="code hl_function" href="#af5dddfa988210f3dc5340ef6cf87dad8">subdivideMesh</a>( *obj_-&gt;varMesh(), subs );</div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:46068</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:45953</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:46097</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:45982</div></div>
 <div class="ttc" id="aclassmeshlib_1_1MeshAttributesToUpdate_html"><div class="ttname"><a href="classmeshlib_1_1MeshAttributesToUpdate.html">meshlib.MeshAttributesToUpdate</a></div><div class="ttdef"><b>Definition</b> MeshAttributesToUpdate.java:11</div></div>
 </div><!-- fragment --><p>Generated from function <span class="tt">MR::meshOnEdgeSplitAttribute</span>.</p>
 <p>Calls <span class="tt">MR_meshOnEdgeSplitAttribute()</span>. </p>
@@ -50375,8 +50414,8 @@ All new faces should be parallel to given direction It is measured in squared le
 <div class="line">auto preCollapse = <a class="code hl_function" href="#a166299cba3c97de3a69adc7140487547">meshPreCollapseVertAttribute</a>( mesh, meshParams );</div>
 <div class="line"><a class="code hl_function" href="#a9376f6e96aa742bea4a4257595c70838">decimateMesh</a>( mesh, <a class="code hl_class" href="classmeshlib_1_1DecimateSettings.html">DecimateSettings</a>{ .preCollapse = preCollapse } );</div>
 <div class="ttc" id="aclassmeshlib_1_1DecimateSettings_html"><div class="ttname"><a href="classmeshlib_1_1DecimateSettings.html">meshlib.DecimateSettings</a></div><div class="ttdef"><b>Definition</b> DecimateSettings.java:17</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_a166299cba3c97de3a69adc7140487547"><div class="ttname"><a href="#a166299cba3c97de3a69adc7140487547">meshlib.Functions.meshPreCollapseVertAttribute</a></div><div class="ttdeci">static meshlib.std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref meshPreCollapseVertAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:42878</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_a9376f6e96aa742bea4a4257595c70838"><div class="ttname"><a href="#a9376f6e96aa742bea4a4257595c70838">meshlib.Functions.decimateMesh</a></div><div class="ttdeci">static meshlib.DecimateResult decimateMesh(meshlib.Mesh mesh, meshlib.DecimateSettings settings)</div><div class="ttdoc">Performs mesh simplification in mesh region according to the settings.</div><div class="ttdef"><b>Definition</b> Functions.java:42643</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_a166299cba3c97de3a69adc7140487547"><div class="ttname"><a href="#a166299cba3c97de3a69adc7140487547">meshlib.Functions.meshPreCollapseVertAttribute</a></div><div class="ttdeci">static meshlib.std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref meshPreCollapseVertAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:42907</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_a9376f6e96aa742bea4a4257595c70838"><div class="ttname"><a href="#a9376f6e96aa742bea4a4257595c70838">meshlib.Functions.decimateMesh</a></div><div class="ttdeci">static meshlib.DecimateResult decimateMesh(meshlib.Mesh mesh, meshlib.DecimateSettings settings)</div><div class="ttdoc">Performs mesh simplification in mesh region according to the settings.</div><div class="ttdef"><b>Definition</b> Functions.java:42672</div></div>
 </div><!-- fragment --><p>Generated from function <span class="tt">MR::meshPreCollapseVertAttribute</span>.</p>
 <p>Calls <span class="tt">MR_meshPreCollapseVertAttribute()</span>. </p>
 

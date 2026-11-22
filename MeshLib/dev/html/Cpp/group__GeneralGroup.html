@@ -518,6 +518,8 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AGcodeProcessor_3A_3AMoveAction" id="r_MR_3A_3AGcodeProcessor_3A_3AMoveAction"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">structure that stores information about the movement of the tool, specified by some string of commands  <a href="structMR_1_1GcodeProcessor_1_1MoveAction.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AGcodeProcessor_3A_3ACommand" id="r_MR_3A_3AGcodeProcessor_3A_3ACommand"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1GcodeProcessor_1_1Command.html">MR::GcodeProcessor::Command</a></td></tr>
+<tr class="memitem:MR_3A_3AGlobalRegistrationParams" id="r_MR_3A_3AGlobalRegistrationParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1GlobalRegistrationParams.html">MR::GlobalRegistrationParams</a></td></tr>
+<tr class="memitem:MR_3A_3AGlobalRegistrationResult" id="r_MR_3A_3AGlobalRegistrationResult"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1GlobalRegistrationResult.html">MR::GlobalRegistrationResult</a></td></tr>
 <tr class="memitem:MR_3A_3AGraph" id="r_MR_3A_3AGraph"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Graph.html">MR::Graph</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">mathematical graph consisting from vertices and undirected edges  <a href="classMR_1_1Graph.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AGraph_3A_3AEndVertices" id="r_MR_3A_3AGraph_3A_3AEndVertices"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Graph_1_1EndVertices.html">MR::Graph::EndVertices</a></td></tr>
@@ -12774,6 +12776,15 @@ Variables</h2></td></tr>
 <tr class="memitem:gae3896dcb88dae275220940ab26d6d42f" id="r_gae3896dcb88dae275220940ab26d6d42f"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae3896dcb88dae275220940ab26d6d42f">MR::GcodeProcessor::Command::key</a></td></tr>
 <tr class="memitem:ga7465c37851c2a57ce372444cc1a0aeb9" id="r_ga7465c37851c2a57ce372444cc1a0aeb9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7465c37851c2a57ce372444cc1a0aeb9">MR::GcodeProcessor::Command::value</a></td></tr>
 <tr class="memdesc:ga7465c37851c2a57ce372444cc1a0aeb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">in lowercase  <br /></td></tr>
+<tr class="memitem:ga84e0fa283dc6530e313b1505b1e6e8df" id="r_ga84e0fa283dc6530e313b1505b1e6e8df"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga84e0fa283dc6530e313b1505b1e6e8df">MR::GlobalRegistrationParams::samplingVoxelSize</a> = 0</td></tr>
+<tr class="memitem:gae8e3ba61ef7976673410ae408ff5b454" id="r_gae8e3ba61ef7976673410ae408ff5b454"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae8e3ba61ef7976673410ae408ff5b454">MR::GlobalRegistrationParams::minOverlap</a> = 0.1f</td></tr>
+<tr class="memitem:ga5998ff5087dbeedaf23df728a080e79c" id="r_ga5998ff5087dbeedaf23df728a080e79c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5998ff5087dbeedaf23df728a080e79c">MR::GlobalRegistrationParams::pairAttempts</a> = 3</td></tr>
+<tr class="memdesc:ga5998ff5087dbeedaf23df728a080e79c"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of RANSAC runs with different seeds for each pair of objects (at least 1), the one with the largest overlap is kept  <br /></td></tr>
+<tr class="memitem:ga2e3c8679196fedcc5bcb2a1d1cee4456" id="r_ga2e3c8679196fedcc5bcb2a1d1cee4456"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2e3c8679196fedcc5bcb2a1d1cee4456">MR::GlobalRegistrationParams::seed</a> = 0</td></tr>
+<tr class="memdesc:ga2e3c8679196fedcc5bcb2a1d1cee4456"><td class="mdescLeft">&#160;</td><td class="mdescRight">the seed of the first RANSAC run, see <a class="el" href="#ga76a52c0e197711d2950d36811b992c65" title="seed of pseudo-random sampling; the result depends on it but not on the number of threads">RigidXfRansacParams::seed</a>  <br /></td></tr>
+<tr class="memitem:gab84e5b9eb8be37bb017f63f7f41e91c7" id="r_gab84e5b9eb8be37bb017f63f7f41e91c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; AffineXf3f, ObjId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab84e5b9eb8be37bb017f63f7f41e91c7">MR::GlobalRegistrationResult::xfs</a></td></tr>
+<tr class="memdesc:gab84e5b9eb8be37bb017f63f7f41e91c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">new transformation of each object to world space  <br /></td></tr>
+<tr class="memitem:gaefc5bb35ea600e1f4469659cde41c796" id="r_gaefc5bb35ea600e1f4469659cde41c796"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; ObjId, ObjId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaefc5bb35ea600e1f4469659cde41c796">MR::GlobalRegistrationResult::groupRoots</a></td></tr>
 <tr class="memitem:ga7b9ed22e987be98753ff8c314a3c7bd4" id="r_ga7b9ed22e987be98753ff8c314a3c7bd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gaeeffe9dd1229206b5db549f61cbad105">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7b9ed22e987be98753ff8c314a3c7bd4">MR::Graph::EndVertices::v0</a></td></tr>
 <tr class="memitem:ga22b2afa87f3a85ed5e79f351e02b9266" id="r_ga22b2afa87f3a85ed5e79f351e02b9266"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gaeeffe9dd1229206b5db549f61cbad105">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga22b2afa87f3a85ed5e79f351e02b9266">MR::Graph::EndVertices::v1</a></td></tr>
 <tr class="memitem:ga68f2dced6aad70a6ad6e70cc610e1dd0" id="r_ga68f2dced6aad70a6ad6e70cc610e1dd0"><td class="memItemLeft" align="right" valign="top">const VertCoords *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga68f2dced6aad70a6ad6e70cc610e1dd0">MR::ModelPointsData::points</a> { nullptr }</td></tr>
@@ -223702,6 +223713,21 @@ not recommended in most cases </dd></dl>
 
 </div>
 </div>
+<a id="gaefc5bb35ea600e1f4469659cde41c796" name="gaefc5bb35ea600e1f4469659cde41c796"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaefc5bb35ea600e1f4469659cde41c796">&#9670;&#160;</a></span>groupRoots</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;ObjId, ObjId&gt; MR::GlobalRegistrationResult::groupRoots</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>for each object, the object of its group that kept its transformation; objects not overlapping any other object form groups of one object </p>
+
+</div>
+</div>
 <a id="ga55e0334c55b2b6a85bc323a85f88ea10" name="ga55e0334c55b2b6a85bc323a85f88ea10"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga55e0334c55b2b6a85bc323a85f88ea10">&#9670;&#160;</a></span>groupsMap</h2>
 
@@ -229407,6 +229433,21 @@ template&lt;typename T, typename I&gt; </div>
 
 </div>
 </div>
+<a id="gae8e3ba61ef7976673410ae408ff5b454" name="gae8e3ba61ef7976673410ae408ff5b454"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae8e3ba61ef7976673410ae408ff5b454">&#9670;&#160;</a></span>minOverlap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::GlobalRegistrationParams::minOverlap = 0.1f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>two objects are aligned by their pair registration only if this fraction of the samples of the smaller object lies on the other object after it </p>
+
+</div>
+</div>
 <a id="ga4aa26d04f708ecea38d954ac1c1d50c6" name="ga4aa26d04f708ecea38d954ac1c1d50c6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga4aa26d04f708ecea38d954ac1c1d50c6">&#9670;&#160;</a></span>minPointsInSample</h2>
 
@@ -233930,6 +233971,22 @@ template&lt;typename V&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga5998ff5087dbeedaf23df728a080e79c" name="ga5998ff5087dbeedaf23df728a080e79c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5998ff5087dbeedaf23df728a080e79c">&#9670;&#160;</a></span>pairAttempts</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::GlobalRegistrationParams::pairAttempts = 3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the number of RANSAC runs with different seeds for each pair of objects (at least 1), the one with the largest overlap is kept </p>
 
 </div>
 </div>
@@ -238943,8 +239000,23 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga84e0fa283dc6530e313b1505b1e6e8df" name="ga84e0fa283dc6530e313b1505b1e6e8df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga84e0fa283dc6530e313b1505b1e6e8df">&#9670;&#160;</a></span>samplingVoxelSize <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::GlobalRegistrationParams::samplingVoxelSize = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the distance between the samples used to find corresponding points in object pairs; 0 means 0.5% of the largest bounding box diagonal of the objects </p>
+
+</div>
+</div>
 <a id="gab9d86e834ec046c7b72c094142d046c6" name="gab9d86e834ec046c7b72c094142d046c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab9d86e834ec046c7b72c094142d046c6">&#9670;&#160;</a></span>samplingVoxelSize</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab9d86e834ec046c7b72c094142d046c6">&#9670;&#160;</a></span>samplingVoxelSize <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239342,8 +239414,24 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga2e3c8679196fedcc5bcb2a1d1cee4456" name="ga2e3c8679196fedcc5bcb2a1d1cee4456"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2e3c8679196fedcc5bcb2a1d1cee4456">&#9670;&#160;</a></span>seed <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uint32_t MR::GlobalRegistrationParams::seed = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the seed of the first RANSAC run, see <a class="el" href="#ga76a52c0e197711d2950d36811b992c65" title="seed of pseudo-random sampling; the result depends on it but not on the number of threads">RigidXfRansacParams::seed</a> </p>
+
+</div>
+</div>
 <a id="ga81d588d7442ccd8974d74cb6dbaca36d" name="ga81d588d7442ccd8974d74cb6dbaca36d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga81d588d7442ccd8974d74cb6dbaca36d">&#9670;&#160;</a></span>seed <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga81d588d7442ccd8974d74cb6dbaca36d">&#9670;&#160;</a></span>seed <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239359,7 +239447,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga76a52c0e197711d2950d36811b992c65" name="ga76a52c0e197711d2950d36811b992c65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga76a52c0e197711d2950d36811b992c65">&#9670;&#160;</a></span>seed <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga76a52c0e197711d2950d36811b992c65">&#9670;&#160;</a></span>seed <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249171,8 +249259,24 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gab84e5b9eb8be37bb017f63f7f41e91c7" name="gab84e5b9eb8be37bb017f63f7f41e91c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab84e5b9eb8be37bb017f63f7f41e91c7">&#9670;&#160;</a></span>xfs <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;AffineXf3f, ObjId&gt; MR::GlobalRegistrationResult::xfs</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>new transformation of each object to world space </p>
+
+</div>
+</div>
 <a id="ga4ed7b5103a09ec50b55cc7d76e2fd9a5" name="ga4ed7b5103a09ec50b55cc7d76e2fd9a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4ed7b5103a09ec50b55cc7d76e2fd9a5">&#9670;&#160;</a></span>xfs</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4ed7b5103a09ec50b55cc7d76e2fd9a5">&#9670;&#160;</a></span>xfs <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

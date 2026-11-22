@@ -114,6 +114,7 @@ var dir_48a1ec47db35593d9d3f02b5df3192b0 =
     [ "MRGcodeLoad.h", "MRGcodeLoad_8h.html", "MRGcodeLoad_8h" ],
     [ "MRGcodeProcessor.h", "MRGcodeProcessor_8h.html", "MRGcodeProcessor_8h" ],
     [ "MRGcodeSave.h", "MRGcodeSave_8h.html", "MRGcodeSave_8h" ],
+    [ "MRGlobalRegistration.h", "MRGlobalRegistration_8h.html", "MRGlobalRegistration_8h" ],
     [ "MRGraph.h", "MRGraph_8h.html", "MRGraph_8h" ],
     [ "MRGridSampling.h", "MRGridSampling_8h.html", "MRGridSampling_8h" ],
     [ "MRGridSettings.h", "MRGridSettings_8h.html", "MRGridSettings_8h" ],

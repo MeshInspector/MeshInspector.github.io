@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"classmeshlib_1_1DoubleOffsetSettings.html#addf89a0944870bfd3a43da5672699652":[9,6,0,0,0,294,11],
+"classmeshlib_1_1DoubleOffsetSettings.html#addf89a0944870bfd3a43da5672699652":[9,6,1,0,0,294,11],
 "classmeshlib_1_1DoubleOffsetSettings.html#ae01651cfdb7745adef56aaccd10c94ea":[9,6,0,0,0,294,10],
 "classmeshlib_1_1DoubleOffsetSettings.html#ae01651cfdb7745adef56aaccd10c94ea":[9,6,1,0,0,294,10],
 "classmeshlib_1_1DoubleOffsetSettings.html#ae5fc66b6a2051cc8ba3b4a2ca614f149":[9,6,0,0,0,294,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "classmeshlib_1_1EdgeColors.html#a20b5e4504635439f1ba8274080c9b3f2":[9,6,0,0,0,298,32],
 "classmeshlib_1_1EdgeColors.html#a20b5e4504635439f1ba8274080c9b3f2":[9,6,1,0,0,298,32],
 "classmeshlib_1_1EdgeColors.html#a25e054177056887153201e4b423817a9":[9,6,0,0,0,298,0],
-"classmeshlib_1_1EdgeColors.html#a25e054177056887153201e4b423817a9":[9,6,1,0,0,298,0],
-"classmeshlib_1_1EdgeColors.html#a2dcce880a1bf44b004b85a05bed79611":[9,6,0,0,0,298,3],
-"classmeshlib_1_1EdgeColors.html#a2dcce880a1bf44b004b85a05bed79611":[9,6,1,0,0,298,3]
+"classmeshlib_1_1EdgeColors.html#a25e054177056887153201e4b423817a9":[9,6,1,0,0,298,0]
 };

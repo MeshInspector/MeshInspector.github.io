@@ -1,5 +1,8 @@
 var NAVTREEINDEX25 =
 {
+"structmeshlib_1_1Ball3d.html#adbf364f128760a75708158f010877418":[9,5,0,0,0,77,3],
+"structmeshlib_1_1Ball3d.html#adbf364f128760a75708158f010877418":[9,5,1,0,0,64,3],
+"structmeshlib_1_1Ball3d.html#ae138dd1be73949d5299d615e11b54da2":[9,5,0,0,0,77,7],
 "structmeshlib_1_1Ball3d.html#ae138dd1be73949d5299d615e11b54da2":[9,5,1,0,0,64,7],
 "structmeshlib_1_1Ball3d.html#af0d33e151937c76f8351fd383c26608b":[9,5,0,0,0,77,8],
 "structmeshlib_1_1Ball3d.html#af0d33e151937c76f8351fd383c26608b":[9,5,1,0,0,64,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX25 =
 "structmeshlib_1_1BendContoursAlongCurveParams.html#ae5ea9f7ab79e2c486c49607269ad9632":[9,5,0,0,0,90,10],
 "structmeshlib_1_1BendContoursAlongCurveParams.html#ae5ea9f7ab79e2c486c49607269ad9632":[9,5,1,0,0,77,10],
 "structmeshlib_1_1BendContoursAlongCurveParams.html#afd250c949c4a38c09d9f3f94968045e8":[9,5,0,0,0,90,11],
-"structmeshlib_1_1BendContoursAlongCurveParams.html#afd250c949c4a38c09d9f3f94968045e8":[9,5,1,0,0,77,11],
-"structmeshlib_1_1BendTextAlongCurveParams.html":[9,5,0,0,0,91],
-"structmeshlib_1_1BendTextAlongCurveParams.html":[9,5,1,0,0,78],
-"structmeshlib_1_1BendTextAlongCurveParams.html#a22ad485f2f0aeeea30948f33af405066":[9,5,0,0,0,91,0]
+"structmeshlib_1_1BendContoursAlongCurveParams.html#afd250c949c4a38c09d9f3f94968045e8":[9,5,1,0,0,77,11]
 };

@@ -2092,6 +2092,12 @@ var hierarchy =
     [ "mrmeshpy.ConstGeodesicPath", "classmrmeshpy_1_1ConstGeodesicPath.html", [
       [ "mrmeshpy.GeodesicPath", "classmrmeshpy_1_1GeodesicPath.html", null ]
     ] ],
+    [ "mrmeshpy.ConstGlobalRegistrationParams", "classmrmeshpy_1_1ConstGlobalRegistrationParams.html", [
+      [ "mrmeshpy.GlobalRegistrationParams", "classmrmeshpy_1_1GlobalRegistrationParams.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstGlobalRegistrationResult", "classmrmeshpy_1_1ConstGlobalRegistrationResult.html", [
+      [ "mrmeshpy.GlobalRegistrationResult", "classmrmeshpy_1_1GlobalRegistrationResult.html", null ]
+    ] ],
     [ "mrmeshpy.ConstGraph", "classmrmeshpy_1_1ConstGraph.html", [
       [ "mrmeshpy.Graph", "classmrmeshpy_1_1Graph.html", null ]
     ] ],

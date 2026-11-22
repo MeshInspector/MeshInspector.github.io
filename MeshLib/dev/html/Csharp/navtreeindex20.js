@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1ChangeSceneObjectsOrder.html#ae081a547586e38a6c26918ef7db27619":[9,3,0,0,0,204,0],
+"classMR_1_1ChangeSurfaceAction.html":[9,3,0,0,0,205],
 "classMR_1_1ChangeSurfaceAction.html#a15e09ec6ac71af7fac01302987afca36":[9,3,0,0,0,205,6],
 "classMR_1_1ChangeSurfaceAction.html#a16b04514e8401f0ef37e98dfd336afec":[9,3,0,0,0,205,3],
 "classMR_1_1ChangeSurfaceAction.html#a52cca979d6de53736c44d474c97763d4":[9,3,0,0,0,205,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1CompressZipSettings.html#a29a93ef8b54061a63a1e48b90f72df3b":[9,3,0,0,0,223,5],
 "classMR_1_1CompressZipSettings.html#a5a3c0f7c66ffa6bea93cbf506d7d7267":[9,3,0,0,0,223,9],
 "classMR_1_1CompressZipSettings.html#a79b7de174cb5512fcbbac3038cc4079b":[9,3,0,0,0,223,6],
-"classMR_1_1CompressZipSettings.html#a9c6bac0e78b2c6d42e9060bd629a156c":[9,3,0,0,0,223,1],
-"classMR_1_1CompressZipSettings.html#aabec1ee43236cd7635fc23efaca93406":[9,3,0,0,0,223,7],
-"classMR_1_1CompressZipSettings.html#aac691065fc09f3eb043ad42266207745":[9,3,0,0,0,223,2]
+"classMR_1_1CompressZipSettings.html#a9c6bac0e78b2c6d42e9060bd629a156c":[9,3,0,0,0,223,1]
 };

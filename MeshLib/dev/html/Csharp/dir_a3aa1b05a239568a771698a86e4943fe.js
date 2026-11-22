@@ -114,6 +114,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRGcodeLoad.cs", "MRGcodeLoad_8cs.html", "MRGcodeLoad_8cs" ],
     [ "MRGcodeProcessor.cs", "MRGcodeProcessor_8cs.html", "MRGcodeProcessor_8cs" ],
     [ "MRGcodeSave.cs", "MRGcodeSave_8cs.html", "MRGcodeSave_8cs" ],
+    [ "MRGlobalRegistration.cs", "MRGlobalRegistration_8cs.html", "MRGlobalRegistration_8cs" ],
     [ "MRGraph.cs", "MRGraph_8cs.html", "MRGraph_8cs" ],
     [ "MRGridSampling.cs", "MRGridSampling_8cs.html", "MRGridSampling_8cs" ],
     [ "MRGridSettings.cs", "MRGridSettings_8cs.html", "MRGridSettings_8cs" ],

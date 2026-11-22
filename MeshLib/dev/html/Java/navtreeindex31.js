@@ -1,5 +1,7 @@
 var NAVTREEINDEX31 =
 {
+"classmeshlib_1_1ConeFitterType.html#af2325a79855c3770cd64959e6fa24b53":[9,6,0,0,0,226,0],
+"classmeshlib_1_1ConeFitterType.html#af2325a79855c3770cd64959e6fa24b53":[9,6,1,0,0,226,0],
 "classmeshlib_1_1ConeObject.html":[9,6,0,0,0,227],
 "classmeshlib_1_1ConeObject.html":[9,6,1,0,0,227],
 "classmeshlib_1_1ConeObject.html#a031d382fe7525097a4b3dd1023e3d378":[9,6,0,0,0,227,116],
@@ -247,7 +249,5 @@ var NAVTREEINDEX31 =
 "classmeshlib_1_1ConeObject.html#ae2eb1821bbfc01249d6b35344ff47f94":[9,6,0,0,0,227,82],
 "classmeshlib_1_1ConeObject.html#ae2eb1821bbfc01249d6b35344ff47f94":[9,6,1,0,0,227,82],
 "classmeshlib_1_1ConeObject.html#ae3f38e5974337290f3b0f739ef24b201":[9,6,0,0,0,227,135],
-"classmeshlib_1_1ConeObject.html#ae3f38e5974337290f3b0f739ef24b201":[9,6,1,0,0,227,135],
-"classmeshlib_1_1ConeObject.html#ae53514683eed7ee71e9f6b1541c8c38b":[9,6,0,0,0,227,43],
-"classmeshlib_1_1ConeObject.html#ae53514683eed7ee71e9f6b1541c8c38b":[9,6,1,0,0,227,43]
+"classmeshlib_1_1ConeObject.html#ae3f38e5974337290f3b0f739ef24b201":[9,6,1,0,0,227,135]
 };

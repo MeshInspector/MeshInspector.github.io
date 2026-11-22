@@ -1,5 +1,8 @@
 var NAVTREEINDEX45 =
 {
+"structmeshlib_1_1DenoiseViaNormalsSettings.html#a02b33c83826a4797953f3915e309234b":[9,5,0,0,0,265,0],
+"structmeshlib_1_1DenoiseViaNormalsSettings.html#a02b33c83826a4797953f3915e309234b":[9,5,1,0,0,252,0],
+"structmeshlib_1_1DenoiseViaNormalsSettings.html#a19c4e22616ed5dc8c8361517949ab181":[9,5,0,0,0,265,7],
 "structmeshlib_1_1DenoiseViaNormalsSettings.html#a19c4e22616ed5dc8c8361517949ab181":[9,5,1,0,0,252,7],
 "structmeshlib_1_1DenoiseViaNormalsSettings.html#a1dd923527118dc87d3b08fddc2645f13":[9,5,0,0,0,265,4],
 "structmeshlib_1_1DenoiseViaNormalsSettings.html#a1dd923527118dc87d3b08fddc2645f13":[9,5,1,0,0,252,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX45 =
 "structmeshlib_1_1Dipoles.html#a6c63bcd47ace81049b4d4b2424566338":[9,5,0,0,0,274,28],
 "structmeshlib_1_1Dipoles.html#a6c63bcd47ace81049b4d4b2424566338":[9,5,1,0,0,261,28],
 "structmeshlib_1_1Dipoles.html#a70e998801fb4d679bbe377a7f94cf6f9":[9,5,0,0,0,274,1],
-"structmeshlib_1_1Dipoles.html#a70e998801fb4d679bbe377a7f94cf6f9":[9,5,1,0,0,261,1],
-"structmeshlib_1_1Dipoles.html#a770de554d23841019894149aa1de35f4":[9,5,0,0,0,274,32],
-"structmeshlib_1_1Dipoles.html#a770de554d23841019894149aa1de35f4":[9,5,1,0,0,261,32],
-"structmeshlib_1_1Dipoles.html#a7ca347570c1d5a59bf73734712cfdf28":[9,5,0,0,0,274,9]
+"structmeshlib_1_1Dipoles.html#a70e998801fb4d679bbe377a7f94cf6f9":[9,5,1,0,0,261,1]
 };

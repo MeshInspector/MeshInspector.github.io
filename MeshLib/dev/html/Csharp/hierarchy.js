@@ -1061,6 +1061,12 @@ var hierarchy =
       [ "MR.Const_GeodesicPath", "classMR_1_1Const__GeodesicPath.html", [
         [ "MR.GeodesicPath", "classMR_1_1GeodesicPath.html", null ]
       ] ],
+      [ "MR.Const_GlobalRegistrationParams", "classMR_1_1Const__GlobalRegistrationParams.html", [
+        [ "MR.GlobalRegistrationParams", "classMR_1_1GlobalRegistrationParams.html", null ]
+      ] ],
+      [ "MR.Const_GlobalRegistrationResult", "classMR_1_1Const__GlobalRegistrationResult.html", [
+        [ "MR.GlobalRegistrationResult", "classMR_1_1GlobalRegistrationResult.html", null ]
+      ] ],
       [ "MR.Const_Graph", "classMR_1_1Const__Graph.html", [
         [ "MR.Graph", "classMR_1_1Graph.html", null ]
       ] ],
@@ -4077,6 +4083,8 @@ var hierarchy =
       [ "MR.Const_GcodeProcessor.Const_MoveAction", "classMR_1_1Const__GcodeProcessor_1_1Const__MoveAction.html", null ],
       [ "MR.Const_GeneralOffsetParameters", "classMR_1_1Const__GeneralOffsetParameters.html", null ],
       [ "MR.Const_GeodesicPath", "classMR_1_1Const__GeodesicPath.html", null ],
+      [ "MR.Const_GlobalRegistrationParams", "classMR_1_1Const__GlobalRegistrationParams.html", null ],
+      [ "MR.Const_GlobalRegistrationResult", "classMR_1_1Const__GlobalRegistrationResult.html", null ],
       [ "MR.Const_Graph", "classMR_1_1Const__Graph.html", null ],
       [ "MR.Const_Graph.Const_EndVertices", "classMR_1_1Const__Graph_1_1Const__EndVertices.html", null ],
       [ "MR.Const_GraphEdgeBitSet", "classMR_1_1Const__GraphEdgeBitSet.html", null ],

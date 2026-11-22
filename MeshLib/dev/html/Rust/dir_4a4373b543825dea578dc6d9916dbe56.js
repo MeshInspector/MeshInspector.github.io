@@ -115,6 +115,7 @@ var dir_4a4373b543825dea578dc6d9916dbe56 =
     [ "MRGcodeLoad.rs", "MRGcodeLoad_8rs.html", "MRGcodeLoad_8rs" ],
     [ "MRGcodeProcessor.rs", "MRGcodeProcessor_8rs.html", "MRGcodeProcessor_8rs" ],
     [ "MRGcodeSave.rs", "MRGcodeSave_8rs.html", "MRGcodeSave_8rs" ],
+    [ "MRGlobalRegistration.rs", "MRGlobalRegistration_8rs.html", "MRGlobalRegistration_8rs" ],
     [ "MRGraph.rs", "MRGraph_8rs.html", "MRGraph_8rs" ],
     [ "MRGridSampling.rs", "MRGridSampling_8rs.html", "MRGridSampling_8rs" ],
     [ "MRGridSettings.rs", "MRGridSettings_8rs.html", "MRGridSettings_8rs" ],

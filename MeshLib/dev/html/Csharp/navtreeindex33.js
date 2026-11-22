@@ -1,5 +1,7 @@
 var NAVTREEINDEX33 =
 {
+"classMR_1_1Const__BMap__MRVoxelId__MRVoxelId.html#a96111c0ffa14d1715bd771713b2778fb":[9,3,0,0,0,288,3],
+"classMR_1_1Const__BMap__MRVoxelId__MRVoxelId.html#ab28df88a725b2f58659632dd1fb2384f":[9,3,0,0,0,288,7],
 "classMR_1_1Const__BMap__MRVoxelId__MRVoxelId.html#ae3aefd77782dc01486594871f862da20":[9,3,0,0,0,288,4],
 "classMR_1_1Const__Ball1d.html":[9,3,0,0,0,256],
 "classMR_1_1Const__Ball1d.html#a002e1601d0bcebfc19c875819fff8a31":[9,3,0,0,0,256,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX33 =
 "classMR_1_1Const__BestFitParabolad.html#a67a0396fbd4a41976a263dfa7d61f21c":[9,3,0,0,0,273,1],
 "classMR_1_1Const__BestFitParabolad.html#a6a938d80ddce239d7288dc4eb8535d9e":[9,3,0,0,0,273,4],
 "classMR_1_1Const__BestFitParabolad.html#aa4df10229591e56be2a2eb8f6bcb2184":[9,3,0,0,0,273,2],
-"classMR_1_1Const__BestFitParabolad.html#abc611ca928021e00abb13e3855ee9453":[9,3,0,0,0,273,3],
-"classMR_1_1Const__BestFitParabolad.html#ae392e3ac408b65fe50ef09799432a393":[9,3,0,0,0,273,5],
-"classMR_1_1Const__BestFitParabolaf.html":[9,3,0,0,0,274]
+"classMR_1_1Const__BestFitParabolad.html#abc611ca928021e00abb13e3855ee9453":[9,3,0,0,0,273,3]
 };

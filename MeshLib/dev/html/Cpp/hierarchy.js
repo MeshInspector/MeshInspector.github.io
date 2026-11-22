@@ -484,6 +484,8 @@ var hierarchy =
     [ "MR::GeodesicPath", "structMR_1_1GeodesicPath.html", null ],
     [ "MR::GlBuffer", "classMR_1_1GlBuffer.html", null ],
     [ "MR::GLDriverIssue", "structMR_1_1GLDriverIssue.html", null ],
+    [ "MR::GlobalRegistrationParams", "structMR_1_1GlobalRegistrationParams.html", null ],
+    [ "MR::GlobalRegistrationResult", "structMR_1_1GlobalRegistrationResult.html", null ],
     [ "MR::GLStaticHolder", "classMR_1_1GLStaticHolder.html", null ],
     [ "MR::GlTexture", "classMR_1_1GlTexture.html", [
       [ "MR::GlTexture2", "classMR_1_1GlTexture2.html", null ],

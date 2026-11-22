@@ -51,5 +51,6 @@ var group__AligningTransformGroup =
       [ "totalWeight", "classMR_1_1PointToPointAligningTransform.html#a36c54b01cd263e2fd5108051a8588576", null ]
     ] ],
     [ "MR::countInliers", "group__AligningTransformGroup.html#ga97c6edd2712ff8f245e7897e16710f96", null ],
-    [ "MR::findRigidXfRansac", "group__AligningTransformGroup.html#gaa4a6bdae3405260137daec6f7eda2ede", null ]
+    [ "MR::findRigidXfRansac", "group__AligningTransformGroup.html#gaa4a6bdae3405260137daec6f7eda2ede", null ],
+    [ "MR::globalRegistration", "group__AligningTransformGroup.html#ga5b39c8c7146161cc70c884cd2a408722", null ]
 ];

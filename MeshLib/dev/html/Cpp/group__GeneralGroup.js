@@ -1888,6 +1888,16 @@ var group__GeneralGroup =
       [ "key", "group__GeneralGroup.html#gae3896dcb88dae275220940ab26d6d42f", null ],
       [ "value", "group__GeneralGroup.html#ga7465c37851c2a57ce372444cc1a0aeb9", null ]
     ] ],
+    [ "MR::GlobalRegistrationParams", "structMR_1_1GlobalRegistrationParams.html", [
+      [ "minOverlap", "group__GeneralGroup.html#gae8e3ba61ef7976673410ae408ff5b454", null ],
+      [ "pairAttempts", "group__GeneralGroup.html#ga5998ff5087dbeedaf23df728a080e79c", null ],
+      [ "samplingVoxelSize", "group__GeneralGroup.html#ga84e0fa283dc6530e313b1505b1e6e8df", null ],
+      [ "seed", "group__GeneralGroup.html#ga2e3c8679196fedcc5bcb2a1d1cee4456", null ]
+    ] ],
+    [ "MR::GlobalRegistrationResult", "structMR_1_1GlobalRegistrationResult.html", [
+      [ "groupRoots", "group__GeneralGroup.html#gaefc5bb35ea600e1f4469659cde41c796", null ],
+      [ "xfs", "group__GeneralGroup.html#gab84e5b9eb8be37bb017f63f7f41e91c7", null ]
+    ] ],
     [ "MR::Graph", "classMR_1_1Graph.html", [
       [ "EdgeBitSet", "group__GeneralGroup.html#ga8479c33a6ee26f007a35cab71ba0f2b5", null ],
       [ "EdgeId", "group__GeneralGroup.html#gab7466409c32ef6a047fedfe19ed28c1b", null ],
@@ -18038,6 +18048,7 @@ var group__GeneralGroup =
     [ "MR::McOffsetMeshOutputs::gridToMeshXf", "group__GeneralGroup.html#ga99be55423277b76383706585a2edc2dd", null ],
     [ "MR::SharpenMarchingCubesMeshSettings::gridToMeshXf", "group__GeneralGroup.html#gae4db6dd1e297a15962be58deb8247dc6", null ],
     [ "MR::TbbTaskArenaAndGroup::group", "group__GeneralGroup.html#ga1f5614244e1fa27e65469e5f0266ec4b", null ],
+    [ "MR::GlobalRegistrationResult::groupRoots", "group__GeneralGroup.html#gaefc5bb35ea600e1f4469659cde41c796", null ],
     [ "MR::RibbonSchema::groupsMap", "group__GeneralGroup.html#ga55e0334c55b2b6a85bc323a85f88ea10", null ],
     [ "MR::SplashWindow::guiContext_", "group__GeneralGroup.html#ga8e1b0c94c0dec969c8476897de435fdb", null ],
     [ "MR::DenoiseViaNormalsSettings::guideWeight", "group__GeneralGroup.html#ga6852271fa1efbc4da52e0fb5b851810f", null ],
@@ -18386,6 +18397,7 @@ var group__GeneralGroup =
     [ "MR::SharpOffsetParameters::minNewVertDev", "group__GeneralGroup.html#gaf01c8832be1a64bae952f261154116cf", null ],
     [ "MR::FindOverlappingSettings::minNormalDot", "group__GeneralGroup.html#ga8d368cfb9c1c74281a473cc74c506d2e", null ],
     [ "MR::UniformSamplingSettings::minNormalDot", "group__GeneralGroup.html#ga4952e332cfe108e00f967d412a6aba88", null ],
+    [ "MR::GlobalRegistrationParams::minOverlap", "group__GeneralGroup.html#gae8e3ba61ef7976673410ae408ff5b454", null ],
     [ "MR::ImproveSamplingSettings::minPointsInSample", "group__GeneralGroup.html#ga4aa26d04f708ecea38d954ac1c1d50c6", null ],
     [ "MR::InSphereSearchSettings::minShrinkage", "group__GeneralGroup.html#ga4cada7cafcfc301fc90315554648f1cd", null ],
     [ "MR::ZCompensateParams::minThickness", "group__GeneralGroup.html#gab7a1ca3fc82fe6085925f64efc8337b4", null ],
@@ -18664,6 +18676,7 @@ var group__GeneralGroup =
     [ "MR::SaveSettings::packPrimitives", "group__GeneralGroup.html#gaf59abe4d1987a4ccd1c117cfe7f3c160", null ],
     [ "MR::RenderNameObject::Task::paddingA", "group__GeneralGroup.html#ga760ca30fd51a54481c7ff9f32ab09a61", null ],
     [ "MR::RenderNameObject::Task::paddingB", "group__GeneralGroup.html#gad601eee7f18d7b7a34a2301940c7382d", null ],
+    [ "MR::GlobalRegistrationParams::pairAttempts", "group__GeneralGroup.html#ga5998ff5087dbeedaf23df728a080e79c", null ],
     [ "MR::InSphereTesterSoS::pairPt_", "group__GeneralGroup.html#gab8037b809c2ba6e3383d11852bb8e499", null ],
     [ "MR::InSphereTesterSoS::pairSigma_", "group__GeneralGroup.html#gaf170d1c4080593bfcee7567dc197f5ef", null ],
     [ "MR::InSphereTesterSoS::pairV_", "group__GeneralGroup.html#ga2243fa1320914c1bbf37aaabbedaef4a", null ],
@@ -18968,6 +18981,7 @@ var group__GeneralGroup =
     [ "MR::SurfaceManipulationWidget::sameOriginalMeshTopology_", "group__GeneralGroup.html#ga32f9a2a3b8c9d57623374cb94a70f8b6", null ],
     [ "MR::ObjectVoxels::VolumeRenderingParams::samplingStep", "group__GeneralGroup.html#gad2b689ae32e79618fd422fa0fa7a80e9", null ],
     [ "MR::SplineSettings::samplingStep", "group__GeneralGroup.html#ga44a44b80a4845cea1a439df65b616c4e", null ],
+    [ "MR::GlobalRegistrationParams::samplingVoxelSize", "group__GeneralGroup.html#ga84e0fa283dc6530e313b1505b1e6e8df", null ],
     [ "MR::MultiwayICPSamplingParameters::samplingVoxelSize", "group__GeneralGroup.html#gab9d86e834ec046c7b72c094142d046c6", null ],
     [ "MR::ImGuiMenu::savedDialogPositionEnabled_", "group__GeneralGroup.html#ga69ba22274265966f6ddc7eabf3eb78a9", null ],
     [ "MR::FileDialog::Parameters::saveDialog", "group__GeneralGroup.html#ga5957d3b8f636e18b3629def114de4b46", null ],
@@ -18990,6 +19004,7 @@ var group__GeneralGroup =
     [ "MR::AlphaShapeData::searchRadius", "group__GeneralGroup.html#gadbecaa4f00f06aa00986ff64e0c42b23", null ],
     [ "MR::Viewport::CameraAnimation::seconds", "group__GeneralGroup.html#ga654f0f339225a8fe4c3f390d517ce897", null ],
     [ "MR::ToolPathParams::sectionStep", "group__GeneralGroup.html#ga26778592370a3e672866fb0486b2d7c9", null ],
+    [ "MR::GlobalRegistrationParams::seed", "group__GeneralGroup.html#ga2e3c8679196fedcc5bcb2a1d1cee4456", null ],
     [ "MR::NoiseSettings::seed", "group__GeneralGroup.html#ga81d588d7442ccd8974d74cb6dbaca36d", null ],
     [ "MR::RigidXfRansacParams::seed", "group__GeneralGroup.html#ga76a52c0e197711d2950d36811b992c65", null ],
     [ "MR::SegmPoint", "group__GeneralGroup.html#ga19edd69b6fe6517b6c72b6874676bfc7", null ],
@@ -19576,6 +19591,7 @@ var group__GeneralGroup =
     [ "MR::TransformedMesh::xf", "group__GeneralGroup.html#ga643b404d35e9496c6ee8d3382c80ee18", null ],
     [ "MR::VoxelsLoad::DicomVolumeT::xf", "group__GeneralGroup.html#ga5159934791ea7584f07b333cd28777b3", null ],
     [ "MR::ImGuiMenu::xfHistUpdated_", "group__GeneralGroup.html#ga22b27718dfcaa0c7a6c683598c89b75d", null ],
+    [ "MR::GlobalRegistrationResult::xfs", "group__GeneralGroup.html#gab84e5b9eb8be37bb017f63f7f41e91c7", null ],
     [ "MR::ProjectAttributeParams::xfs", "group__GeneralGroup.html#ga4ed7b5103a09ec50b55cc7d76e2fd9a5", null ],
     [ "MR::SymMatrix4::xw", "group__GeneralGroup.html#gaacd1c64ccc38944a171aa223364256b9", null ],
     [ "MR::SymMatrix2::xx", "group__GeneralGroup.html#gaf527509f666f1f4e66becbf773677189", null ],

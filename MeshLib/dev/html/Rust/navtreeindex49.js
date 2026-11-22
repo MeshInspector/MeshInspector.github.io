@@ -1,5 +1,8 @@
 var NAVTREEINDEX49 =
 {
+"structmeshlib_1_1DoubleOffsetSettings.html#a251a1619bee509586b848070766e397a":[9,5,0,0,0,290,4],
+"structmeshlib_1_1DoubleOffsetSettings.html#a251a1619bee509586b848070766e397a":[9,5,1,0,0,277,4],
+"structmeshlib_1_1DoubleOffsetSettings.html#a25c722f3f57f9be0a4ce005485b33c07":[9,5,0,0,0,290,16],
 "structmeshlib_1_1DoubleOffsetSettings.html#a25c722f3f57f9be0a4ce005485b33c07":[9,5,1,0,0,277,16],
 "structmeshlib_1_1DoubleOffsetSettings.html#a3d353db7842a454574702c28541d95a0":[9,5,0,0,0,290,1],
 "structmeshlib_1_1DoubleOffsetSettings.html#a3d353db7842a454574702c28541d95a0":[9,5,1,0,0,277,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX49 =
 "structmeshlib_1_1EdgeBitSet.html#a92592c86e12dd0a3a6a92dc6a8aa85c5":[9,5,0,0,0,292,17],
 "structmeshlib_1_1EdgeBitSet.html#a92592c86e12dd0a3a6a92dc6a8aa85c5":[9,5,1,0,0,279,17],
 "structmeshlib_1_1EdgeBitSet.html#aaad95054a4d0fe959f37bc9776036738":[9,5,0,0,0,292,40],
-"structmeshlib_1_1EdgeBitSet.html#aaad95054a4d0fe959f37bc9776036738":[9,5,1,0,0,279,40],
-"structmeshlib_1_1EdgeBitSet.html#aaef2c2b09ac5f03f058ffa43576735a6":[9,5,0,0,0,292,51],
-"structmeshlib_1_1EdgeBitSet.html#aaef2c2b09ac5f03f058ffa43576735a6":[9,5,1,0,0,279,51],
-"structmeshlib_1_1EdgeBitSet.html#aaf6f9db07d2f11e17983ed6bc163fd8a":[9,5,0,0,0,292,29]
+"structmeshlib_1_1EdgeBitSet.html#aaad95054a4d0fe959f37bc9776036738":[9,5,1,0,0,279,40]
 };

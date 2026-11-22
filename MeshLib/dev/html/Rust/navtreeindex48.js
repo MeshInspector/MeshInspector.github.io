@@ -1,5 +1,8 @@
 var NAVTREEINDEX48 =
 {
+"structmeshlib_1_1DistanceMeasurementObject.html#aaac1cb3901f66ce33a180a3f9a9eb308":[9,5,0,0,0,283,69],
+"structmeshlib_1_1DistanceMeasurementObject.html#aaac1cb3901f66ce33a180a3f9a9eb308":[9,5,1,0,0,270,69],
+"structmeshlib_1_1DistanceMeasurementObject.html#aabf5ba0f87958d73e429a0f63130d95d":[9,5,0,0,0,283,111],
 "structmeshlib_1_1DistanceMeasurementObject.html#aabf5ba0f87958d73e429a0f63130d95d":[9,5,1,0,0,270,111],
 "structmeshlib_1_1DistanceMeasurementObject.html#aac4c83aa878316a6317b6fa1f13b49f7":[9,5,0,0,0,283,20],
 "structmeshlib_1_1DistanceMeasurementObject.html#aac4c83aa878316a6317b6fa1f13b49f7":[9,5,1,0,0,270,20],
@@ -246,8 +249,5 @@ var NAVTREEINDEX48 =
 "structmeshlib_1_1DoubleOffsetSettings.html#a167d8e89b7b25212bbf4621a4c89a9db":[9,5,0,0,0,290,18],
 "structmeshlib_1_1DoubleOffsetSettings.html#a167d8e89b7b25212bbf4621a4c89a9db":[9,5,1,0,0,277,18],
 "structmeshlib_1_1DoubleOffsetSettings.html#a1b808036e5ca02ad6b6e30508b7ee75c":[9,5,0,0,0,290,0],
-"structmeshlib_1_1DoubleOffsetSettings.html#a1b808036e5ca02ad6b6e30508b7ee75c":[9,5,1,0,0,277,0],
-"structmeshlib_1_1DoubleOffsetSettings.html#a251a1619bee509586b848070766e397a":[9,5,0,0,0,290,4],
-"structmeshlib_1_1DoubleOffsetSettings.html#a251a1619bee509586b848070766e397a":[9,5,1,0,0,277,4],
-"structmeshlib_1_1DoubleOffsetSettings.html#a25c722f3f57f9be0a4ce005485b33c07":[9,5,0,0,0,290,16]
+"structmeshlib_1_1DoubleOffsetSettings.html#a1b808036e5ca02ad6b6e30508b7ee75c":[9,5,1,0,0,277,0]
 };

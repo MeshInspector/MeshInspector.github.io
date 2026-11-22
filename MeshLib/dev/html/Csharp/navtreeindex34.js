@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1Const__BestFitParabolad.html#ae392e3ac408b65fe50ef09799432a393":[9,3,0,0,0,273,5],
+"classMR_1_1Const__BestFitParabolaf.html":[9,3,0,0,0,274],
 "classMR_1_1Const__BestFitParabolaf.html#a0de84094891d7ce16262695d26dbf86c":[9,3,0,0,0,274,4],
 "classMR_1_1Const__BestFitParabolaf.html#a3e4f6155f15b4db4baaa716f78ccd09b":[9,3,0,0,0,274,1],
 "classMR_1_1Const__BestFitParabolaf.html#a96821f584887684247a9936a63a9433e":[9,3,0,0,0,274,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1Const__BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html#a64b57f75112e7480e141ac3d4cd5991a":[9,3,0,0,0,296,1],
 "classMR_1_1Const__BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html#a8955a06a87e399ff1dc1bd117fa51c84":[9,3,0,0,0,296,9],
 "classMR_1_1Const__BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html#a929bd6546bfb6d0e89b5b4e3be7462e3":[9,3,0,0,0,296,4],
-"classMR_1_1Const__BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html#ad4c5269479a72845ec96889c18e95c8d":[9,3,0,0,0,296,0],
-"classMR_1_1Const__BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html#ad6a1e743a36c8dff4b6bf87bac61268f":[9,3,0,0,0,296,2],
-"classMR_1_1Const__BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html#af29e782280cde653d8e065b560953f6b":[9,3,0,0,0,296,7]
+"classMR_1_1Const__BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html#ad4c5269479a72845ec96889c18e95c8d":[9,3,0,0,0,296,0]
 };
