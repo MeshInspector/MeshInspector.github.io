@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html":[9,0,0,19,237],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[9,0,0,19,241],
 "structMR_1_1ObjTreeTraits.html":[9,0,0,19,117],
 "structMR_1_1ObjVertId.html":[9,0,0,19,288],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1PythonViewer_1_1UiEntry.html#a3f4b7eb9704e290c241541daac6cfa85":[9,0,1,0,1,40,0,1],
 "structMR_1_1PythonViewer_1_1UiEntry.html#a3f4b7eb9704e290c241541daac6cfa85":[9,0,2,0,1,25,0,1],
 "structMR_1_1PythonViewer_1_1UiEntry.html#acb5378eb601a5a292c76294b1cc89de0":[9,0,1,0,1,40,0,0],
-"structMR_1_1PythonViewer_1_1UiEntry.html#acb5378eb601a5a292c76294b1cc89de0":[9,0,2,0,1,25,0,0],
-"structMR_1_1PythonViewer_1_1UiValueInt.html":[9,0,1,0,1,40,1]
+"structMR_1_1PythonViewer_1_1UiEntry.html#acb5378eb601a5a292c76294b1cc89de0":[9,0,2,0,1,25,0,0]
 };

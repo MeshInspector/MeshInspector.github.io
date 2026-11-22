@@ -421,6 +421,7 @@ var group__BasicGroup =
     [ "MR::heapBytes", "group__BasicGroup.html#ga2442ef2afa7012af6ca21ebcb6604536", null ],
     [ "MR::heapBytes", "group__BasicGroup.html#ga92b723fb37bb2e5133cba528ecd679e6", null ],
     [ "MR::isProhibitedChar", "group__BasicGroup.html#gaaf7db2c19eab5cb5d5a7d91d8ae03dc9", null ],
+    [ "MR::listSetBits", "group__BasicGroup.html#ga59bcf5e7bf07e43e60553c41424de64c", null ],
     [ "MR::makeHashMapWithSeqNums", "group__BasicGroup.html#ga11d9716c4a58936253cf70cf7394f983", null ],
     [ "MR::makeHashMapWithSeqNums", "group__BasicGroup.html#ga2637b6b01910fbe8294a9f26f472f35f", null ],
     [ "MR::makePredicate", "group__BasicGroup.html#ga3057a729a683a6a8a6b4f097a0094d58", null ],

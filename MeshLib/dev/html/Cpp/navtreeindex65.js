@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1ContourToDistanceMapParams.html":[9,0,0,5,4],
 "structMR_1_1ContourToDistanceMapParams.html#a0f6930b2ce708dd9fb61eb4c42f6a07c":[9,0,0,5,4,2],
 "structMR_1_1ContourToDistanceMapParams.html#a3f4630f18505db408fdc2d6b9417d9e6":[9,0,0,5,4,8],
 "structMR_1_1ContourToDistanceMapParams.html#a5376f8f2d57fec6349c0671dd75316c2":[9,0,0,5,4,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1FillHoleMetric.html#acc8ef5c37515d91d9c3cb3fbcaa1fd22":[9,0,0,9,3,3,2],
 "structMR_1_1FillHoleNicelySettings.html":[9,0,0,19,272],
 "structMR_1_1FillHoleParams.html":[9,0,0,9,3,0],
-"structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4":[9,0,0,9,3,0,4],
-"structMR_1_1FillHoleParams.html#a2908ad53506526829bedf3831a1de80a":[9,0,0,9,3,0,5]
+"structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4":[9,0,0,9,3,0,4]
 };

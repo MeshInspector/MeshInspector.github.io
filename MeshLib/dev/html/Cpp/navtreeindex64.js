@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#a22df65426ef651326ea22792fd010bd1":[9,0,1,0,0,0,4],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a22df65426ef651326ea22792fd010bd1":[9,0,2,0,0,0,4],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[9,0,1,0,0,0,5],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[9,0,2,0,0,0,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1ComputeSweptVolumeParameters.html":[9,0,0,19,908],
 "structMR_1_1Cone3ApproximationParams.html":[9,0,0,19,188],
 "structMR_1_1ConnectionHolder.html":[9,0,0,19,802],
-"structMR_1_1ConstantCuspParams.html":[9,0,0,19,916],
-"structMR_1_1ContourToDistanceMapParams.html":[9,0,0,5,4]
+"structMR_1_1ConstantCuspParams.html":[9,0,0,19,916]
 };

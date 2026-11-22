@@ -2969,6 +2969,7 @@ var namespaceMR =
     [ "Line< Vector3< float > >", "group__GeneralGroup.html#ga7f1d17cebe986e9f073bc42115212dc2", null ],
     [ "LineSegm< Vector2< float > >", "group__GeneralGroup.html#gadb46666f670ce26d956dcb17cc0410f3", null ],
     [ "LineSegm< Vector3< float > >", "group__GeneralGroup.html#ga5f8f95ab9baa15e93e32ea39644386cb", null ],
+    [ "listSetBits", "group__BasicGroup.html#ga59bcf5e7bf07e43e60553c41424de64c", null ],
     [ "loadASCIIStl", "group__MeshLoadGroup.html#ga10a5b922b565a1ff5fbb737e1c073d32", null ],
     [ "loadASCIIStl", "group__MeshLoadGroup.html#ga68b151b2439c04a20e2b19f29d5ae110", null ],
     [ "loadASCIIStlAsTriMesh", "group__MeshLoadGroup.html#ga3619c26ea243a5fc730ec526ad41d090", null ],
