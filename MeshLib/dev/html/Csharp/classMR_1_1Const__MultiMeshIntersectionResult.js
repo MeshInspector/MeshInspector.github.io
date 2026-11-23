@@ -8,6 +8,7 @@ var classMR_1_1Const__MultiMeshIntersectionResult =
     [ "mtp", "classMR_1_1Const__MultiMeshIntersectionResult.html#a1d88cea80e4dd025075c64273b380c7e", null ],
     [ "operator bool", "classMR_1_1Const__MultiMeshIntersectionResult.html#a391028319e43262f7cc960ab14ec3db2", null ],
     [ "operator MR.Const_MeshIntersectionResult", "classMR_1_1Const__MultiMeshIntersectionResult.html#a3c4a0330af0aeb61acbea3f0a29b3d3c", null ],
+    [ "operator MR.Const_PointOnFaceBary", "classMR_1_1Const__MultiMeshIntersectionResult.html#a88104e25c9bc7b19d750d9eabba421ba", null ],
     [ "valid", "classMR_1_1Const__MultiMeshIntersectionResult.html#adb7f7636e42a7cab608cc5d933296204", null ],
     [ "__ptr_storage_mesh", "classMR_1_1Const__MultiMeshIntersectionResult.html#adb6bbb2d74f9e3806ef0081461ec7da9", null ],
     [ "__ref_storage_distanceAlongLine", "classMR_1_1Const__MultiMeshIntersectionResult.html#ae87db8a62679c9cc55bc838fdf060b08", null ],

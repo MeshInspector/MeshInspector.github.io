@@ -1892,6 +1892,9 @@ var hierarchy =
       [ "MR.Const_PointOnFace", "classMR_1_1Const__PointOnFace.html", [
         [ "MR.PointOnFace", "classMR_1_1PointOnFace.html", null ]
       ] ],
+      [ "MR.Const_PointOnFaceBary", "classMR_1_1Const__PointOnFaceBary.html", [
+        [ "MR.PointOnFaceBary", "classMR_1_1PointOnFaceBary.html", null ]
+      ] ],
       [ "MR.Const_PointOnObject", "classMR_1_1Const__PointOnObject.html", [
         [ "MR.PointOnObject", "classMR_1_1PointOnObject.html", null ]
       ] ],
@@ -4360,6 +4363,7 @@ var hierarchy =
       [ "MR.Const_PointMeasurementObject", "classMR_1_1Const__PointMeasurementObject.html", null ],
       [ "MR.Const_PointObject", "classMR_1_1Const__PointObject.html", null ],
       [ "MR.Const_PointOnFace", "classMR_1_1Const__PointOnFace.html", null ],
+      [ "MR.Const_PointOnFaceBary", "classMR_1_1Const__PointOnFaceBary.html", null ],
       [ "MR.Const_PointOnObject", "classMR_1_1Const__PointOnObject.html", null ],
       [ "MR.Const_PointPair", "classMR_1_1Const__PointPair.html", null ],
       [ "MR.Const_PointPairs", "classMR_1_1Const__PointPairs.html", null ],

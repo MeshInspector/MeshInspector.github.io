@@ -1056,6 +1056,8 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.MeshEqualizeTriAreasParams", "classmrmeshpy_1_1MeshEqualizeTriAreasParams.html", "classmrmeshpy_1_1MeshEqualizeTriAreasParams" ],
     [ "mrmeshpy.ConstMeshFromVoxelsPostProcessingParams", "classmrmeshpy_1_1ConstMeshFromVoxelsPostProcessingParams.html", "classmrmeshpy_1_1ConstMeshFromVoxelsPostProcessingParams" ],
     [ "mrmeshpy.MeshFromVoxelsPostProcessingParams", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams" ],
+    [ "mrmeshpy.ConstPointOnFaceBary", "classmrmeshpy_1_1ConstPointOnFaceBary.html", "classmrmeshpy_1_1ConstPointOnFaceBary" ],
+    [ "mrmeshpy.PointOnFaceBary", "classmrmeshpy_1_1PointOnFaceBary.html", "classmrmeshpy_1_1PointOnFaceBary" ],
     [ "mrmeshpy.ConstMeshIntersectionResult", "classmrmeshpy_1_1ConstMeshIntersectionResult.html", "classmrmeshpy_1_1ConstMeshIntersectionResult" ],
     [ "mrmeshpy.MeshIntersectionResult", "classmrmeshpy_1_1MeshIntersectionResult.html", "classmrmeshpy_1_1MeshIntersectionResult" ],
     [ "mrmeshpy.ConstMeshLoadSettings", "classmrmeshpy_1_1ConstMeshLoadSettings.html", "classmrmeshpy_1_1ConstMeshLoadSettings" ],

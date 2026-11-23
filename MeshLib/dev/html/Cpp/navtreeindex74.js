@@ -1,12 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"structMR_1_1detail_1_1PointDegree.html#a1fc04a51a536e6143d0ebb3d57ad6cb2":[9,0,2,0,1,1,8,0],
-"structMR_1_1detail_1_1PointDegree.html#acaf323135f612345c58d160c5625815c":[9,0,1,0,1,3,8,1],
-"structMR_1_1detail_1_1PointDegree.html#acaf323135f612345c58d160c5625815c":[9,0,2,0,1,1,8,1],
-"structMR_1_1detail_1_1Units_1_1Empty.html":[9,0,0,19,794],
-"structMR_1_1overloaded.html":[9,0,0,19,378],
-"structWasm_1_1TypedArrayName.html":[9,0,1,0,3,0],
-"structWasm_1_1TypedArrayName.html":[9,0,2,0,2,0],
 "structWasm_1_1TypedArrayName_3_01float_01_4.html":[9,0,1,0,3,1],
 "structWasm_1_1TypedArrayName_3_01float_01_4.html":[9,0,2,0,2,1],
 "structWasm_1_1TypedArrayName_3_01uint32__t_01_4.html":[9,0,1,0,3,2],

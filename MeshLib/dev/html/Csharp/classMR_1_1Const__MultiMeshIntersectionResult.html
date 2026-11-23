@@ -142,7 +142,7 @@ $(function(){initNavTree('classMR_1_1Const__MultiMeshIntersectionResult.html',''
 </div><!--header-->
 <div class="contents">
 
-<p>Generated from class <span class="tt"><a class="el" href="classMR_1_1MultiMeshIntersectionResult.html" title="Generated from class MR.MultiMeshIntersectionResult. Base classes: Direct: (non-virtual) MR....">MR.MultiMeshIntersectionResult</a></span>. Base classes: Direct: (non-virtual) <span class="tt"><a class="el" href="classMR_1_1MeshIntersectionResult.html" title="Generated from class MR.MeshIntersectionResult. Derived classes: Direct: (non-virtual) MR....">MR.MeshIntersectionResult</a></span> This is the const half of the class.  
+<p>Generated from class <span class="tt"><a class="el" href="classMR_1_1MultiMeshIntersectionResult.html" title="Generated from class MR.MultiMeshIntersectionResult. Base classes: Direct: (non-virtual) MR....">MR.MultiMeshIntersectionResult</a></span>. Base classes: Direct: (non-virtual) <span class="tt"><a class="el" href="classMR_1_1MeshIntersectionResult.html" title="the intersection point (proj stores intersected face and global coordinates) with its position on the...">MR.MeshIntersectionResult</a></span> Indirect: (non-virtual) <span class="tt"><a class="el" href="classMR_1_1PointOnFaceBary.html" title="a point on mesh given both by its position and by its barycentric coordinates Generated from class MR...">MR.PointOnFaceBary</a></span> This is the const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.Const_MultiMeshIntersectionResult:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -169,12 +169,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae1edd6dc54ec538e111f570d5244d0bf" id="r_ae1edd6dc54ec538e111f570d5244d0bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1edd6dc54ec538e111f570d5244d0bf">Const_MultiMeshIntersectionResult</a> (<a class="el" href="classMR_1_1MultiMeshIntersectionResult.html">MultiMeshIntersectionResult</a> _other)</td></tr>
 <tr class="memdesc:ae1edd6dc54ec538e111f570d5244d0bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1MultiMeshIntersectionResult.html#a8556c93f26f475a2d57bd1c2dfd7b79c" title="Constructs an empty (default-constructed) instance.">MR.MultiMeshIntersectionResult.MultiMeshIntersectionResult</a></span>.  <br /></td></tr>
 <tr class="memitem:adb7f7636e42a7cab608cc5d933296204" id="r_adb7f7636e42a7cab608cc5d933296204"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb7f7636e42a7cab608cc5d933296204">valid</a> ()</td></tr>
-<tr class="memdesc:adb7f7636e42a7cab608cc5d933296204"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for validity Generated from method <span class="tt"><a class="el" href="#adb7f7636e42a7cab608cc5d933296204" title="check for validity Generated from method MR.MultiMeshIntersectionResult.valid.">MR.MultiMeshIntersectionResult.valid</a></span>.  <br /></td></tr>
+<tr class="memdesc:adb7f7636e42a7cab608cc5d933296204"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for validity, otherwise the point was not found Generated from method <span class="tt"><a class="el" href="#adb7f7636e42a7cab608cc5d933296204" title="check for validity, otherwise the point was not found Generated from method MR.MultiMeshIntersectionR...">MR.MultiMeshIntersectionResult.valid</a></span>.  <br /></td></tr>
 <tr class="memitem:a1d88cea80e4dd025075c64273b380c7e" id="r_a1d88cea80e4dd025075c64273b380c7e"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1MeshTriPoint.html">MR.MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d88cea80e4dd025075c64273b380c7e">mtp</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology)</td></tr>
-<tr class="memdesc:a1d88cea80e4dd025075c64273b380c7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the intersection point as <a class="el" href="classMR_1_1MeshTriPoint.html" title="encodes a point inside a triangular mesh face using barycentric coordinates">MeshTriPoint</a> relative to topology.edgeWithLeft( proj.face ), or invalid <a class="el" href="classMR_1_1MeshTriPoint.html" title="encodes a point inside a triangular mesh face using barycentric coordinates">MeshTriPoint</a> if no intersection was found Generated from method <span class="tt"><a class="el" href="#a1d88cea80e4dd025075c64273b380c7e" title="returns the intersection point as MeshTriPoint relative to topology.edgeWithLeft( proj....">MR.MultiMeshIntersectionResult.mtp</a></span>.  <br /></td></tr>
+<tr class="memdesc:a1d88cea80e4dd025075c64273b380c7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the point as <a class="el" href="classMR_1_1MeshTriPoint.html" title="encodes a point inside a triangular mesh face using barycentric coordinates">MeshTriPoint</a> relative to topology.edgeWithLeft( proj.face ), or invalid <a class="el" href="classMR_1_1MeshTriPoint.html" title="encodes a point inside a triangular mesh face using barycentric coordinates">MeshTriPoint</a> if the point was not found Generated from method <span class="tt"><a class="el" href="#a1d88cea80e4dd025075c64273b380c7e" title="returns the point as MeshTriPoint relative to topology.edgeWithLeft( proj.face ), or invalid MeshTriP...">MR.MultiMeshIntersectionResult.mtp</a></span>.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a88104e25c9bc7b19d750d9eabba421ba" id="r_a88104e25c9bc7b19d750d9eabba421ba"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88104e25c9bc7b19d750d9eabba421ba">operator MR.Const_PointOnFaceBary</a> (<a class="el" href="classMR_1_1Const__MultiMeshIntersectionResult.html">Const_MultiMeshIntersectionResult</a> self)</td></tr>
 <tr class="memitem:a3c4a0330af0aeb61acbea3f0a29b3d3c" id="r_a3c4a0330af0aeb61acbea3f0a29b3d3c"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c4a0330af0aeb61acbea3f0a29b3d3c">operator MR.Const_MeshIntersectionResult</a> (<a class="el" href="classMR_1_1Const__MultiMeshIntersectionResult.html">Const_MultiMeshIntersectionResult</a> self)</td></tr>
 <tr class="memitem:a391028319e43262f7cc960ab14ec3db2" id="r_a391028319e43262f7cc960ab14ec3db2"><td class="memItemLeft" align="right" valign="top">static unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a391028319e43262f7cc960ab14ec3db2">operator bool</a> (<a class="el" href="classMR_1_1Const__MultiMeshIntersectionResult.html">MR.Const_MultiMeshIntersectionResult</a> _this)</td></tr>
 <tr class="memdesc:a391028319e43262f7cc960ab14ec3db2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from conversion operator <span class="tt">MR::MultiMeshIntersectionResult::operator bool</span>.  <br /></td></tr>
@@ -192,15 +193,15 @@ Protected Attributes</h2></td></tr>
 Properties</h2></td></tr>
 <tr class="memitem:a5d29790eec950ce84eba12aa9116e456" id="r_a5d29790eec950ce84eba12aa9116e456"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__Mesh.html">Const_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d29790eec950ce84eba12aa9116e456">mesh</a><code> [get]</code></td></tr>
 <tr class="memdesc:a5d29790eec950ce84eba12aa9116e456"><td class="mdescLeft">&#160;</td><td class="mdescRight">the intersection found in this mesh  <br /></td></tr>
-<tr class="memitem:a3c56d515d3f4d3e13998da167cb49217" id="r_a3c56d515d3f4d3e13998da167cb49217"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__PointOnFace.html">MR.Const_PointOnFace</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c56d515d3f4d3e13998da167cb49217">proj</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a3c56d515d3f4d3e13998da167cb49217"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores intersected face and global coordinates  <br /></td></tr>
-<tr class="memitem:a40e40fbac1c85d000a7f286d83f86a8c" id="r_a40e40fbac1c85d000a7f286d83f86a8c"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__TriPointf.html">MR.Const_TriPointf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40e40fbac1c85d000a7f286d83f86a8c">tp</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a40e40fbac1c85d000a7f286d83f86a8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">barycentric coordinates of proj relative to the vertices of proj.face in the order of <a class="el" href="classMR_1_1Const__MeshTopology.html#ad2ba950b97940eb81a2c7b3709ffa25f" title="gets 3 vertices of given triangular face; the vertices are returned in counter-clockwise order if loo...">MeshTopology.getTriVerts</a>( proj.face )  <br /></td></tr>
 <tr class="memitem:a9aad542014c35eb299641946bd980ea9" id="r_a9aad542014c35eb299641946bd980ea9"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9aad542014c35eb299641946bd980ea9">distanceAlongLine</a><code> [get]</code></td></tr>
 <tr class="memdesc:a9aad542014c35eb299641946bd980ea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores the distance from ray origin to the intersection point in direction units  <br /></td></tr>
+<tr class="memitem:a3c56d515d3f4d3e13998da167cb49217" id="r_a3c56d515d3f4d3e13998da167cb49217"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__PointOnFace.html">MR.Const_PointOnFace</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c56d515d3f4d3e13998da167cb49217">proj</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a3c56d515d3f4d3e13998da167cb49217"><td class="mdescLeft">&#160;</td><td class="mdescRight">the point on mesh (in <a class="el" href="classMR_1_1MeshProjectionResult.html" title="Generated from class MR.MeshProjectionResult. Base classes: Direct: (non-virtual) MR....">MeshProjectionResult</a>: the closest point, transformed by xf if it is given), and the triangle containing it  <br /></td></tr>
+<tr class="memitem:a40e40fbac1c85d000a7f286d83f86a8c" id="r_a40e40fbac1c85d000a7f286d83f86a8c"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__TriPointf.html">MR.Const_TriPointf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40e40fbac1c85d000a7f286d83f86a8c">tp</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a40e40fbac1c85d000a7f286d83f86a8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">barycentric coordinates of proj relative to the vertices of proj.face in the order of <a class="el" href="classMR_1_1Const__MeshTopology.html#ad2ba950b97940eb81a2c7b3709ffa25f" title="gets 3 vertices of given triangular face; the vertices are returned in counter-clockwise order if loo...">MeshTopology.getTriVerts</a>( proj.face )  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Generated from class <span class="tt"><a class="el" href="classMR_1_1MultiMeshIntersectionResult.html" title="Generated from class MR.MultiMeshIntersectionResult. Base classes: Direct: (non-virtual) MR....">MR.MultiMeshIntersectionResult</a></span>. Base classes: Direct: (non-virtual) <span class="tt"><a class="el" href="classMR_1_1MeshIntersectionResult.html" title="Generated from class MR.MeshIntersectionResult. Derived classes: Direct: (non-virtual) MR....">MR.MeshIntersectionResult</a></span> This is the const half of the class. </p>
+<div class="textblock"><p>Generated from class <span class="tt"><a class="el" href="classMR_1_1MultiMeshIntersectionResult.html" title="Generated from class MR.MultiMeshIntersectionResult. Base classes: Direct: (non-virtual) MR....">MR.MultiMeshIntersectionResult</a></span>. Base classes: Direct: (non-virtual) <span class="tt"><a class="el" href="classMR_1_1MeshIntersectionResult.html" title="the intersection point (proj stores intersected face and global coordinates) with its position on the...">MR.MeshIntersectionResult</a></span> Indirect: (non-virtual) <span class="tt"><a class="el" href="classMR_1_1PointOnFaceBary.html" title="a point on mesh given both by its position and by its barycentric coordinates Generated from class MR...">MR.PointOnFaceBary</a></span> This is the const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aeee45f770a9992c42b829a366e8ee019" name="aeee45f770a9992c42b829a366e8ee019"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeee45f770a9992c42b829a366e8ee019">&#9670;&#160;</a></span>Const_MultiMeshIntersectionResult() <span class="overload">[1/3]</span></h2>
@@ -357,7 +358,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns the intersection point as <a class="el" href="classMR_1_1MeshTriPoint.html" title="encodes a point inside a triangular mesh face using barycentric coordinates">MeshTriPoint</a> relative to topology.edgeWithLeft( proj.face ), or invalid <a class="el" href="classMR_1_1MeshTriPoint.html" title="encodes a point inside a triangular mesh face using barycentric coordinates">MeshTriPoint</a> if no intersection was found Generated from method <span class="tt"><a class="el" href="#a1d88cea80e4dd025075c64273b380c7e" title="returns the intersection point as MeshTriPoint relative to topology.edgeWithLeft( proj....">MR.MultiMeshIntersectionResult.mtp</a></span>. </p>
+<p>returns the point as <a class="el" href="classMR_1_1MeshTriPoint.html" title="encodes a point inside a triangular mesh face using barycentric coordinates">MeshTriPoint</a> relative to topology.edgeWithLeft( proj.face ), or invalid <a class="el" href="classMR_1_1MeshTriPoint.html" title="encodes a point inside a triangular mesh face using barycentric coordinates">MeshTriPoint</a> if the point was not found Generated from method <span class="tt"><a class="el" href="#a1d88cea80e4dd025075c64273b380c7e" title="returns the point as MeshTriPoint relative to topology.edgeWithLeft( proj.face ), or invalid MeshTriP...">MR.MultiMeshIntersectionResult.mtp</a></span>. </p>
 
 </div>
 </div>
@@ -413,6 +414,31 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a88104e25c9bc7b19d750d9eabba421ba" name="a88104e25c9bc7b19d750d9eabba421ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88104e25c9bc7b19d750d9eabba421ba">&#9670;&#160;</a></span>operator MR.Const_PointOnFaceBary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe implicit MR.Const_MultiMeshIntersectionResult.operator <a class="el" href="classMR_1_1Const__PointOnFaceBary.html">MR.Const_PointOnFaceBary</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MultiMeshIntersectionResult.html">Const_MultiMeshIntersectionResult</a></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="adb7f7636e42a7cab608cc5d933296204" name="adb7f7636e42a7cab608cc5d933296204"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adb7f7636e42a7cab608cc5d933296204">&#9670;&#160;</a></span>valid()</h2>
 
@@ -436,7 +462,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>check for validity Generated from method <span class="tt"><a class="el" href="#adb7f7636e42a7cab608cc5d933296204" title="check for validity Generated from method MR.MultiMeshIntersectionResult.valid.">MR.MultiMeshIntersectionResult.valid</a></span>. </p>
+<p>check for validity, otherwise the point was not found Generated from method <span class="tt"><a class="el" href="#adb7f7636e42a7cab608cc5d933296204" title="check for validity, otherwise the point was not found Generated from method MR.MultiMeshIntersectionR...">MR.MultiMeshIntersectionResult.valid</a></span>. </p>
 
 </div>
 </div>
@@ -554,7 +580,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>stores intersected face and global coordinates </p>
+<p>the point on mesh (in <a class="el" href="classMR_1_1MeshProjectionResult.html" title="Generated from class MR.MeshProjectionResult. Base classes: Direct: (non-virtual) MR....">MeshProjectionResult</a>: the closest point, transformed by xf if it is given), and the triangle containing it </p>
 
 </div>
 </div>

@@ -816,6 +816,7 @@ var dir_e09892e4a4fe1e1db812108bb7b7ae9b =
     [ "PointMeasurementVisualizePropertyType.java", "PointMeasurementVisualizePropertyType_8java.html", "PointMeasurementVisualizePropertyType_8java" ],
     [ "PointObject.java", "PointObject_8java.html", "PointObject_8java" ],
     [ "PointOnFace.java", "PointOnFace_8java.html", "PointOnFace_8java" ],
+    [ "PointOnFaceBary.java", "PointOnFaceBary_8java.html", "PointOnFaceBary_8java" ],
     [ "PointOnObject.java", "PointOnObject_8java.html", "PointOnObject_8java" ],
     [ "PointPair.java", "PointPair_8java.html", "PointPair_8java" ],
     [ "PointPairs.java", "PointPairs_8java.html", "PointPairs_8java" ],

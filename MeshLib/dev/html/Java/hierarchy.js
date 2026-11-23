@@ -572,6 +572,7 @@ var hierarchy =
         [ "meshlib.PointMeasurementObject", "classmeshlib_1_1PointMeasurementObject.html", null ],
         [ "meshlib.PointObject", "classmeshlib_1_1PointObject.html", null ],
         [ "meshlib.PointOnFace", "classmeshlib_1_1PointOnFace.html", null ],
+        [ "meshlib.PointOnFaceBary", "classmeshlib_1_1PointOnFaceBary.html", null ],
         [ "meshlib.PointOnObject", "classmeshlib_1_1PointOnObject.html", null ],
         [ "meshlib.PointPair", "classmeshlib_1_1PointPair.html", null ],
         [ "meshlib.PointPairs", "classmeshlib_1_1PointPairs.html", null ],

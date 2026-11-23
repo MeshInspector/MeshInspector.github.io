@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"classmeshlib_1_1Line3Mesh__double.html#a44082b5d31f9623e6a6d31db49f84b47":[9,6,1,0,0,551,4],
 "classmeshlib_1_1Line3Mesh__double.html#a499880340ad816ff4dd88a62bad3e6fe":[9,6,0,0,0,551,10],
 "classmeshlib_1_1Line3Mesh__double.html#a499880340ad816ff4dd88a62bad3e6fe":[9,6,1,0,0,551,10],
 "classmeshlib_1_1Line3Mesh__double.html#a4eac9a8505b3170af5e71a7e4b7cd28a":[9,6,0,0,0,551,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "classmeshlib_1_1LineObject.html#a5f3e87c99a7573cacefb0db2ab7296ab":[9,6,1,0,0,554,50],
 "classmeshlib_1_1LineObject.html#a65165c74c1cde456f2d15af9077f0f57":[9,6,0,0,0,554,88],
 "classmeshlib_1_1LineObject.html#a65165c74c1cde456f2d15af9077f0f57":[9,6,1,0,0,554,88],
-"classmeshlib_1_1LineObject.html#a672d5d4113c8070a4eeaeefad67be522":[9,6,0,0,0,554,75],
-"classmeshlib_1_1LineObject.html#a672d5d4113c8070a4eeaeefad67be522":[9,6,1,0,0,554,75]
+"classmeshlib_1_1LineObject.html#a672d5d4113c8070a4eeaeefad67be522":[9,6,0,0,0,554,75]
 };

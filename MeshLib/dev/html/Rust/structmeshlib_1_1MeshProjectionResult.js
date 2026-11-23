@@ -12,5 +12,7 @@ var structmeshlib_1_1MeshProjectionResult =
     [ "set_tp", "structmeshlib_1_1MeshProjectionResult.html#aa998bcc33a57a1577745dc96af8c3ba0", null ],
     [ "tp", "structmeshlib_1_1MeshProjectionResult.html#ad52702d574c20782e8e954e51a2a7e22", null ],
     [ "tp_mut", "structmeshlib_1_1MeshProjectionResult.html#a74849941a9e58d524ce650d533e76c1f", null ],
+    [ "upcast_to_point_on_face_bary", "structmeshlib_1_1MeshProjectionResult.html#a91040dbf26b9bf7b3864366484670d00", null ],
+    [ "upcast_to_point_on_face_bary_mut", "structmeshlib_1_1MeshProjectionResult.html#a1782e6908011565408d8a0c659263086", null ],
     [ "valid", "structmeshlib_1_1MeshProjectionResult.html#a523bc619029f39ab109c7b1321c161e8", null ]
 ];

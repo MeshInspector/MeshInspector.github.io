@@ -17,5 +17,7 @@ var structmeshlib_1_1MultiMeshIntersectionResult =
     [ "tp_mut", "structmeshlib_1_1MultiMeshIntersectionResult.html#a95a8d910799d47576f6921a77e2febbe", null ],
     [ "upcast_to_mesh_intersection_result", "structmeshlib_1_1MultiMeshIntersectionResult.html#ae996d6e2e777f9ad86fb94d08e0bd740", null ],
     [ "upcast_to_mesh_intersection_result_mut", "structmeshlib_1_1MultiMeshIntersectionResult.html#a6db58c3d9d18e147af08aba5e5dcc23d", null ],
+    [ "upcast_to_point_on_face_bary", "structmeshlib_1_1MultiMeshIntersectionResult.html#a8b6ee6744250a85bc2ec8b6601e4d4c6", null ],
+    [ "upcast_to_point_on_face_bary_mut", "structmeshlib_1_1MultiMeshIntersectionResult.html#a9183a429dbcec12b8a6864c077e69cbc", null ],
     [ "valid", "structmeshlib_1_1MultiMeshIntersectionResult.html#a6a2dd74f20c4c5a95bee3ab2313a2e31", null ]
 ];

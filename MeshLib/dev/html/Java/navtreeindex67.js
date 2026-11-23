@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"classmeshlib_1_1LoadedObjectT__MR__ObjectPoints.html#ad762b91f89a863d79405d4b69f45ead7":[9,6,1,0,0,566,10],
 "classmeshlib_1_1LoadedObjectT__MR__ObjectPoints.html#ad9194eb5c85a0213684c3ad87eb5dc1f":[9,6,0,0,0,566,1],
 "classmeshlib_1_1LoadedObjectT__MR__ObjectPoints.html#ad9194eb5c85a0213684c3ad87eb5dc1f":[9,6,1,0,0,566,1],
 "classmeshlib_1_1LoadedObjectT__MR__ObjectVoxels.html":[9,6,0,0,0,567],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "classmeshlib_1_1MapOrHashMap__MR__FaceId__MR__FaceId.html#ae35f093235e7aa95649c8c4229c38540":[9,6,1,0,0,573,12],
 "classmeshlib_1_1MapOrHashMap__MR__FaceId__MR__FaceId.html#afd86ba712ad7a031fb8e1ee0374df3b3":[9,6,0,0,0,573,3],
 "classmeshlib_1_1MapOrHashMap__MR__FaceId__MR__FaceId.html#afd86ba712ad7a031fb8e1ee0374df3b3":[9,6,1,0,0,573,3],
-"classmeshlib_1_1MapOrHashMap__MR__UndirectedEdgeId__MR__EdgeId.html":[9,6,0,0,0,574],
-"classmeshlib_1_1MapOrHashMap__MR__UndirectedEdgeId__MR__EdgeId.html":[9,6,1,0,0,574]
+"classmeshlib_1_1MapOrHashMap__MR__UndirectedEdgeId__MR__EdgeId.html":[9,6,0,0,0,574]
 };

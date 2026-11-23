@@ -2779,14 +2779,6 @@ var hierarchy =
     [ "mrmeshpy.ConstMeshFromVoxelsPostProcessingParams", "classmrmeshpy_1_1ConstMeshFromVoxelsPostProcessingParams.html", [
       [ "mrmeshpy.MeshFromVoxelsPostProcessingParams", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html", null ]
     ] ],
-    [ "mrmeshpy.ConstMeshIntersectionResult", "classmrmeshpy_1_1ConstMeshIntersectionResult.html", [
-      [ "mrmeshpy.ConstMultiMeshIntersectionResult", "classmrmeshpy_1_1ConstMultiMeshIntersectionResult.html", [
-        [ "mrmeshpy.MultiMeshIntersectionResult", "classmrmeshpy_1_1MultiMeshIntersectionResult.html", null ]
-      ] ],
-      [ "mrmeshpy.MeshIntersectionResult", "classmrmeshpy_1_1MeshIntersectionResult.html", [
-        [ "mrmeshpy.MultiMeshIntersectionResult", "classmrmeshpy_1_1MultiMeshIntersectionResult.html", null ]
-      ] ]
-    ] ],
     [ "mrmeshpy.ConstMeshLoadSettings", "classmrmeshpy_1_1ConstMeshLoadSettings.html", [
       [ "mrmeshpy.MeshLoadSettings", "classmrmeshpy_1_1MeshLoadSettings.html", null ]
     ] ],
@@ -2848,9 +2840,6 @@ var hierarchy =
       [ "mrmeshpy.MeshProjectionParameters", "classmrmeshpy_1_1MeshProjectionParameters.html", [
         [ "mrmeshpy.ShrinkwrapParameters", "classmrmeshpy_1_1ShrinkwrapParameters.html", null ]
       ] ]
-    ] ],
-    [ "mrmeshpy.ConstMeshProjectionResult", "classmrmeshpy_1_1ConstMeshProjectionResult.html", [
-      [ "mrmeshpy.MeshProjectionResult", "classmrmeshpy_1_1MeshProjectionResult.html", null ]
     ] ],
     [ "mrmeshpy.ConstMeshProjectionTransforms", "classmrmeshpy_1_1ConstMeshProjectionTransforms.html", [
       [ "mrmeshpy.MeshProjectionTransforms", "classmrmeshpy_1_1MeshProjectionTransforms.html", null ]
@@ -3368,6 +3357,27 @@ var hierarchy =
     [ "mrmeshpy.ConstPointOnFace", "classmrmeshpy_1_1ConstPointOnFace.html", [
       [ "mrmeshpy.PointOnFace", "classmrmeshpy_1_1PointOnFace.html", null ]
     ] ],
+    [ "mrmeshpy.ConstPointOnFaceBary", "classmrmeshpy_1_1ConstPointOnFaceBary.html", [
+      [ "mrmeshpy.ConstMeshIntersectionResult", "classmrmeshpy_1_1ConstMeshIntersectionResult.html", [
+        [ "mrmeshpy.ConstMultiMeshIntersectionResult", "classmrmeshpy_1_1ConstMultiMeshIntersectionResult.html", [
+          [ "mrmeshpy.MultiMeshIntersectionResult", "classmrmeshpy_1_1MultiMeshIntersectionResult.html", null ]
+        ] ],
+        [ "mrmeshpy.MeshIntersectionResult", "classmrmeshpy_1_1MeshIntersectionResult.html", [
+          [ "mrmeshpy.MultiMeshIntersectionResult", "classmrmeshpy_1_1MultiMeshIntersectionResult.html", null ]
+        ] ]
+      ] ],
+      [ "mrmeshpy.ConstMeshProjectionResult", "classmrmeshpy_1_1ConstMeshProjectionResult.html", [
+        [ "mrmeshpy.MeshProjectionResult", "classmrmeshpy_1_1MeshProjectionResult.html", null ]
+      ] ],
+      [ "mrmeshpy.ConstSignedDistanceToMeshResult", "classmrmeshpy_1_1ConstSignedDistanceToMeshResult.html", [
+        [ "mrmeshpy.SignedDistanceToMeshResult", "classmrmeshpy_1_1SignedDistanceToMeshResult.html", null ]
+      ] ],
+      [ "mrmeshpy.PointOnFaceBary", "classmrmeshpy_1_1PointOnFaceBary.html", [
+        [ "mrmeshpy.MeshIntersectionResult", "classmrmeshpy_1_1MeshIntersectionResult.html", null ],
+        [ "mrmeshpy.MeshProjectionResult", "classmrmeshpy_1_1MeshProjectionResult.html", null ],
+        [ "mrmeshpy.SignedDistanceToMeshResult", "classmrmeshpy_1_1SignedDistanceToMeshResult.html", null ]
+      ] ]
+    ] ],
     [ "mrmeshpy.ConstPointOnObject", "classmrmeshpy_1_1ConstPointOnObject.html", [
       [ "mrmeshpy.PointOnObject", "classmrmeshpy_1_1PointOnObject.html", null ]
     ] ],
@@ -3732,9 +3742,6 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ConstShellVertexInfo", "classmrmeshpy_1_1ConstShellVertexInfo.html", [
       [ "mrmeshpy.ShellVertexInfo", "classmrmeshpy_1_1ShellVertexInfo.html", null ]
-    ] ],
-    [ "mrmeshpy.ConstSignedDistanceToMeshResult", "classmrmeshpy_1_1ConstSignedDistanceToMeshResult.html", [
-      [ "mrmeshpy.SignedDistanceToMeshResult", "classmrmeshpy_1_1SignedDistanceToMeshResult.html", null ]
     ] ],
     [ "mrmeshpy.ConstSimpleBinaryVolume", "classmrmeshpy_1_1ConstSimpleBinaryVolume.html", [
       [ "mrmeshpy.SimpleBinaryVolume", "classmrmeshpy_1_1SimpleBinaryVolume.html", null ]

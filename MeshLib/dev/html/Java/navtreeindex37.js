@@ -1,5 +1,6 @@
 var NAVTREEINDEX37 =
 {
+"classmeshlib_1_1DecimateSettings.html#a7197a408da0909102864df4631491e15":[9,6,1,0,0,264,58],
 "classmeshlib_1_1DecimateSettings.html#a7b843fe3ee664066a4329de75bc6d9bc":[9,6,0,0,0,264,54],
 "classmeshlib_1_1DecimateSettings.html#a7b843fe3ee664066a4329de75bc6d9bc":[9,6,1,0,0,264,54],
 "classmeshlib_1_1DecimateSettings.html#a7d771d1ac3373fc03f68cc47970d947f":[9,6,0,0,0,264,42],
@@ -248,6 +249,5 @@ var NAVTREEINDEX37 =
 "classmeshlib_1_1DenoiseWithCreasesSettings.html#aff5bb31e67f77f1748ac0a1b1ced8ec9":[9,6,1,0,0,269,4],
 "classmeshlib_1_1DenseBox.html":[9,6,0,0,0,270],
 "classmeshlib_1_1DenseBox.html":[9,6,1,0,0,270],
-"classmeshlib_1_1DenseBox.html#a0ba3772a67827e00dc903041b80c0b9d":[9,6,0,0,0,270,12],
-"classmeshlib_1_1DenseBox.html#a0ba3772a67827e00dc903041b80c0b9d":[9,6,1,0,0,270,12]
+"classmeshlib_1_1DenseBox.html#a0ba3772a67827e00dc903041b80c0b9d":[9,6,0,0,0,270,12]
 };

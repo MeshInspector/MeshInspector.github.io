@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a0bb82751233d9b6f6bef6dfa162b6860":[9,6,1,0,0,43,5],
 "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a0e9e160d1731dcd7664b9ec5bdd108df":[9,6,0,0,0,43,8],
 "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a0e9e160d1731dcd7664b9ec5bdd108df":[9,6,1,0,0,43,8],
 "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a1107cfe4985eb3025d5484658737bd19":[9,6,0,0,0,43,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "classmeshlib_1_1AABBTreePolyline3.html#af401ce811a54b2926d5774339a051a48":[9,6,1,0,0,49,22],
 "classmeshlib_1_1AABBTreePolyline3.html#af52f1340abd0a553709b6da76e50a062":[9,6,0,0,0,49,10],
 "classmeshlib_1_1AABBTreePolyline3.html#af52f1340abd0a553709b6da76e50a062":[9,6,1,0,0,49,10],
-"classmeshlib_1_1AABBTreePolyline3.html#af9b68565e88b54d5f888b26d8a5b5c83":[9,6,0,0,0,49,7],
-"classmeshlib_1_1AABBTreePolyline3.html#af9b68565e88b54d5f888b26d8a5b5c83":[9,6,1,0,0,49,7]
+"classmeshlib_1_1AABBTreePolyline3.html#af9b68565e88b54d5f888b26d8a5b5c83":[9,6,0,0,0,49,7]
 };

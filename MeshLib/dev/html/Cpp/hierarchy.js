@@ -861,9 +861,6 @@ var hierarchy =
     [ "MR::MeshAttributesToUpdate", "structMR_1_1MeshAttributesToUpdate.html", null ],
     [ "MR::MeshDiff", "classMR_1_1MeshDiff.html", null ],
     [ "MR::MeshFromVoxelsPostProcessingParams", "structMR_1_1MeshFromVoxelsPostProcessingParams.html", null ],
-    [ "MR::MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", [
-      [ "MR::MultiMeshIntersectionResult", "structMR_1_1MultiMeshIntersectionResult.html", null ]
-    ] ],
     [ "MR::MeshLoad::MeshLoader", "structMR_1_1MeshLoad_1_1MeshLoader.html", null ],
     [ "MR::MeshLoadSettings", "structMR_1_1MeshLoadSettings.html", null ],
     [ "MR::MeshMeshConverter", "structMR_1_1MeshMeshConverter.html", null ],
@@ -880,7 +877,6 @@ var hierarchy =
     [ "MR::MeshProjectionParameters", "structMR_1_1MeshProjectionParameters.html", [
       [ "MR::ShrinkwrapParameters", "structMR_1_1ShrinkwrapParameters.html", null ]
     ] ],
-    [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
     [ "MR::MeshProjectionTransforms", "structMR_1_1MeshProjectionTransforms.html", null ],
     [ "MR::MeshRegion< RegionTag >", "structMR_1_1MeshRegion.html", null ],
     [ "MR::MeshSave::MeshSaver", "structMR_1_1MeshSave_1_1MeshSaver.html", null ],
@@ -1084,6 +1080,13 @@ var hierarchy =
     [ "MR::detail::PointDegree", "structMR_1_1detail_1_1PointDegree.html", null ],
     [ "MR::PointInAllSpaces", "structMR_1_1PointInAllSpaces.html", null ],
     [ "MR::PointOnFace", "structMR_1_1PointOnFace.html", null ],
+    [ "MR::PointOnFaceBary", "structMR_1_1PointOnFaceBary.html", [
+      [ "MR::MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", [
+        [ "MR::MultiMeshIntersectionResult", "structMR_1_1MultiMeshIntersectionResult.html", null ]
+      ] ],
+      [ "MR::MeshProjectionResult", "structMR_1_1MeshProjectionResult.html", null ],
+      [ "MR::SignedDistanceToMeshResult", "structMR_1_1SignedDistanceToMeshResult.html", null ]
+    ] ],
     [ "MR::PointOnObject", "structMR_1_1PointOnObject.html", null ],
     [ "MR::RenderDimensions::PointParams", "structMR_1_1RenderDimensions_1_1PointParams.html", null ],
     [ "MR::PointsLoad::PointsLoader", "structMR_1_1PointsLoad_1_1PointsLoader.html", null ],
@@ -1284,7 +1287,6 @@ var hierarchy =
       [ "MR::Signal< void(uint32_t mask)>", "structMR_1_1Signal.html", null ],
       [ "MR::Signal< T >", "structMR_1_1Signal.html", null ]
     ] ],
-    [ "MR::SignedDistanceToMeshResult", "structMR_1_1SignedDistanceToMeshResult.html", null ],
     [ "MR::SignedProduct< A, B >", "structMR_1_1SignedProduct.html", null ],
     [ "MR::SimpleTimeRecord", "structMR_1_1SimpleTimeRecord.html", [
       [ "MR::TimeRecord", "structMR_1_1TimeRecord.html", [

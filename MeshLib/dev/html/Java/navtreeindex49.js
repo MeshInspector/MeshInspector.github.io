@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"classmeshlib_1_1FaceMap.html#a282e161111a44848c4f704a6c5e04d56":[9,6,1,0,0,413,34],
 "classmeshlib_1_1FaceMap.html#a2d793a909f4d39bde5a1bd777b1ba9ee":[9,6,0,0,0,413,41],
 "classmeshlib_1_1FaceMap.html#a2d793a909f4d39bde5a1bd777b1ba9ee":[9,6,1,0,0,413,41],
 "classmeshlib_1_1FaceMap.html#a34430456344a2261a582bb61d25e3483":[9,6,0,0,0,413,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "classmeshlib_1_1FaceSetBitIterator.html#afc3fe9ba5893e8e285fd1acbc3f851de":[9,6,1,0,0,416,1],
 "classmeshlib_1_1FaceSoup.html":[9,6,0,0,0,417],
 "classmeshlib_1_1FaceSoup.html":[9,6,1,0,0,417],
-"classmeshlib_1_1FaceSoup.html#a34ed4270ec09f2a759557263f1737655":[9,6,0,0,0,417,5],
-"classmeshlib_1_1FaceSoup.html#a34ed4270ec09f2a759557263f1737655":[9,6,1,0,0,417,5]
+"classmeshlib_1_1FaceSoup.html#a34ed4270ec09f2a759557263f1737655":[9,6,0,0,0,417,5]
 };

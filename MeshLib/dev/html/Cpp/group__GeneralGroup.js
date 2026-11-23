@@ -4161,6 +4161,13 @@ var group__GeneralGroup =
       [ "face", "group__GeneralGroup.html#ga2ec934aa6c7847dbfbc812bcea286b53", null ],
       [ "point", "group__GeneralGroup.html#ga8ee455f370bca112fa98cf9f81a2e3ad", null ]
     ] ],
+    [ "MR::PointOnFaceBary", "structMR_1_1PointOnFaceBary.html", [
+      [ "mtp", "group__GeneralGroup.html#ga8416af19b8f70a336601c0fc223ffa46", null ],
+      [ "operator bool", "group__GeneralGroup.html#gae2f4bb94d16e8999958ff0f9b2b253d2", null ],
+      [ "valid", "group__GeneralGroup.html#ga9c4160116a71185cb85187fdd4b24784", null ],
+      [ "proj", "group__GeneralGroup.html#ga059bfe3102b30c6f3789c02edecca733", null ],
+      [ "tp", "group__GeneralGroup.html#ga9cab06b4ddba5eaadf684cbb957094db", null ]
+    ] ],
     [ "MR::PointOnObject", "structMR_1_1PointOnObject.html", [
       [ "PointOnObject", "group__GeneralGroup.html#gae6ddf1f922426da0befb0c18020f6682", null ],
       [ "operator PointOnFace", "group__GeneralGroup.html#ga2e7dcb184c3434e435a3b5cf16b66101", null ],
@@ -14462,6 +14469,7 @@ var group__GeneralGroup =
     [ "MR::MR_BIND_TEMPLATE", "group__GeneralGroup.html#ga0854a14162f975ebde756fa21aa5487f", null ],
     [ "MR::MR_BIND_TEMPLATE", "group__GeneralGroup.html#ga7738888f33fbd27e1f9457e6ec55b574", null ],
     [ "MR::RibbonMenuItem::MR_DELETE_MOVE", "group__GeneralGroup.html#ga957422a15704b2f8854bfd0b2d1ae76d", null ],
+    [ "MR::PointOnFaceBary::mtp", "group__GeneralGroup.html#ga8416af19b8f70a336601c0fc223ffa46", null ],
     [ "MR::mulAs", "group__GeneralGroup.html#ga2a9110bdd2a450f4830e39f32ae6dcfc", null ],
     [ "MR::Vector3::mult", "group__GeneralGroup.html#gae2acb767e75d8fddbe60a26218e7635a", null ],
     [ "MR::Vector4::mult", "group__GeneralGroup.html#ga792b605255e8f3f5d4fc544964d5bfed", null ],
@@ -14768,6 +14776,7 @@ var group__GeneralGroup =
     [ "MR::Pdf::operator bool", "group__GeneralGroup.html#gab7a6b95995c88b2ded77efbcfef86a8d", null ],
     [ "MR::PointAndDistance::operator bool", "group__GeneralGroup.html#ga22d2548f25c23157315955c70584d502", null ],
     [ "MR::PointOnFace::operator bool", "group__GeneralGroup.html#gacabf2c49796ac6c253d2d2031fb688c7", null ],
+    [ "MR::PointOnFaceBary::operator bool", "group__GeneralGroup.html#gae2f4bb94d16e8999958ff0f9b2b253d2", null ],
     [ "MR::SegmentSegmentIntersectResult::operator bool", "group__GeneralGroup.html#ga80259f73338ce5812b3cd0466379f9b6", null ],
     [ "MR::TriangleSegmentIntersectResult::operator bool", "group__GeneralGroup.html#ga44ebc6eac0ba7a7421c713970a69f480", null ],
     [ "MR::UI::CheckboxOrModifierState::operator bool", "group__GeneralGroup.html#ga17db618bc34c02a2da1a620fbc1734f4", null ],
@@ -17008,6 +17017,7 @@ var group__GeneralGroup =
     [ "MR::OffsetContoursOrigins::valid", "group__GeneralGroup.html#gaaf61c67899c9c542304ca52c98efd6aa", null ],
     [ "MR::PointAndDistance::valid", "group__GeneralGroup.html#ga30b687a3ae4e9a8f1e2faf636e415f5c", null ],
     [ "MR::PointOnFace::valid", "group__GeneralGroup.html#ga025f9557286d25c7be1c794fbb8ecafa", null ],
+    [ "MR::PointOnFaceBary::valid", "group__GeneralGroup.html#ga9c4160116a71185cb85187fdd4b24784", null ],
     [ "MR::ShellVertexInfo::valid", "group__GeneralGroup.html#ga8cae5aeb17ea9eba3d65c5cb39acbe29", null ],
     [ "MR::Graph::validEdges", "group__GeneralGroup.html#ga6dcad1485d86cf7df5af53ddc8dc8592", null ],
     [ "MR::MeshOrPoints::validPoints", "group__GeneralGroup.html#gab3512b34b63e78729e1b0a920c815092", null ],
@@ -18844,6 +18854,7 @@ var group__GeneralGroup =
     [ "MR::FindOverhangsSettings::progressCb", "group__GeneralGroup.html#ga0533f2a781c49812b0d5cbe4fbfbaa21", null ],
     [ "MR::ProjectAttributeParams::progressCb", "group__GeneralGroup.html#gaf693ac66bc0bd5d4efcd44cde67cfda4", null ],
     [ "MR::UniteManyMeshesParams::progressCb", "group__GeneralGroup.html#gab9881bd75997eb09cd8e02b82b95bfd1", null ],
+    [ "MR::PointOnFaceBary::proj", "group__GeneralGroup.html#ga059bfe3102b30c6f3789c02edecca733", null ],
     [ "MR::MeshToDirectionVolumeParams::projector", "group__GeneralGroup.html#gabe274cb37fde7b021b46a400ec6ce767", null ],
     [ "MR::BaseRenderParams::projMatrix", "group__GeneralGroup.html#gab108063540156c1b73540c07c48e6d01", null ],
     [ "MR::ShellVertexInfo::projOnBd", "group__GeneralGroup.html#ga6a812bb14fc2863c4b0f30cc834ddd55", null ],
@@ -19326,6 +19337,7 @@ var group__GeneralGroup =
     [ "MR::ViewerSignals::touchStartSignal", "group__GeneralGroup.html#ga2b051842d9d248f0db203a4ba0e45eec", null ],
     [ "MR::SurfaceManipulationWidget::touchVertId_", "group__GeneralGroup.html#ga3fb404481401039261c3c4d8d7272b08", null ],
     [ "MR::SurfaceManipulationWidget::touchVertIniPos_", "group__GeneralGroup.html#ga90ca984430afc6677edfa65a39a5d5bb", null ],
+    [ "MR::PointOnFaceBary::tp", "group__GeneralGroup.html#ga9cab06b4ddba5eaadf684cbb957094db", null ],
     [ "MR::MovementBuildBodyParams::trajectoryNormals", "group__GeneralGroup.html#ga29e6060a3bbb7c06686d9b3b174d9dfe", null ],
     [ "MR::ImGuiMenu::transformBlockShown_", "group__GeneralGroup.html#ga49c19c2fdda8a6285c1a30c8018a8538", null ],
     [ "MR::TransformControls::VisualParams::translationColors", "group__GeneralGroup.html#ga263e10cb84fcd843581cc2aeea08d6a2", null ],

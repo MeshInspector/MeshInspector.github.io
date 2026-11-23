@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"classmeshlib_1_1GraphVertBitSet.html#a76314dc4b37970b7f21c4ab6fed58489":[9,6,1,0,0,473,31],
 "classmeshlib_1_1GraphVertBitSet.html#a765097ca803761ede6cd3e0798761159":[9,6,0,0,0,473,32],
 "classmeshlib_1_1GraphVertBitSet.html#a765097ca803761ede6cd3e0798761159":[9,6,1,0,0,473,32],
 "classmeshlib_1_1GraphVertBitSet.html#a7ad5bb4b7dacd2ccfa7efd39edb08d0f":[9,6,0,0,0,473,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "classmeshlib_1_1GridToMeshSettings.html#aebe9da9e2441ff16f997a93fadbf5819":[9,6,1,0,0,478,16],
 "classmeshlib_1_1Heap__float__MR__GraphVertId__std__greater__float.html":[9,6,0,0,0,479],
 "classmeshlib_1_1Heap__float__MR__GraphVertId__std__greater__float.html":[9,6,1,0,0,479],
-"classmeshlib_1_1Heap__float__MR__GraphVertId__std__greater__float.html#a0f9c7d9b469f461fd8cd7525b4cfc134":[9,6,0,0,0,479,14],
-"classmeshlib_1_1Heap__float__MR__GraphVertId__std__greater__float.html#a0f9c7d9b469f461fd8cd7525b4cfc134":[9,6,1,0,0,479,14]
+"classmeshlib_1_1Heap__float__MR__GraphVertId__std__greater__float.html#a0f9c7d9b469f461fd8cd7525b4cfc134":[9,6,0,0,0,479,14]
 };

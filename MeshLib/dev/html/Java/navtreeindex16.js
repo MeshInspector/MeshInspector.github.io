@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"classmeshlib_1_1BitSet.html#aaf832ffe13a0f760fe000974383812b3":[9,6,1,0,0,94,25],
 "classmeshlib_1_1BitSet.html#ab022ecb5e796b7eed64bbee7894ede6b":[9,6,0,0,0,94,46],
 "classmeshlib_1_1BitSet.html#ab022ecb5e796b7eed64bbee7894ede6b":[9,6,1,0,0,94,46],
 "classmeshlib_1_1BitSet.html#ab195a4a86ae46bf81dcb53314bcbf122":[9,6,0,0,0,94,30],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classmeshlib_1_1BooleanResultMapper.html#a63fdee23a913f1cdd74dc072898ff758":[9,6,1,0,0,115,9],
 "classmeshlib_1_1BooleanResultMapper.html#a6ce7f4290625f9ca1aa5dde43a055058":[9,6,0,0,0,115,1],
 "classmeshlib_1_1BooleanResultMapper.html#a6ce7f4290625f9ca1aa5dde43a055058":[9,6,1,0,0,115,1],
-"classmeshlib_1_1BooleanResultMapper.html#a80c89a96fe6ef149afff0757a9476bca":[9,6,0,0,0,115,12],
-"classmeshlib_1_1BooleanResultMapper.html#a80c89a96fe6ef149afff0757a9476bca":[9,6,1,0,0,115,12]
+"classmeshlib_1_1BooleanResultMapper.html#a80c89a96fe6ef149afff0757a9476bca":[9,6,0,0,0,115,12]
 };

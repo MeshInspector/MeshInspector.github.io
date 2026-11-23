@@ -776,6 +776,8 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3APointObject" id="r_MR_3A_3APointObject"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PointObject.html">MR::PointObject</a></td></tr>
 <tr class="memitem:MR_3A_3APointOnFace" id="r_MR_3A_3APointOnFace"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointOnFace.html">MR::PointOnFace</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a point located on some mesh's face  <a href="structMR_1_1PointOnFace.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3APointOnFaceBary" id="r_MR_3A_3APointOnFaceBary"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointOnFaceBary.html">MR::PointOnFaceBary</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a point on mesh given both by its position and by its barycentric coordinates  <a href="structMR_1_1PointOnFaceBary.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3APointOnObject" id="r_MR_3A_3APointOnObject"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointOnObject.html">MR::PointOnObject</a></td></tr>
 <tr class="memitem:MR_3A_3APointsLoadSettings" id="r_MR_3A_3APointsLoadSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointsLoadSettings.html">MR::PointsLoadSettings</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">structure with settings and side output parameters for loading point cloud  <a href="structMR_1_1PointsLoadSettings.html#details">More...</a><br /></td></tr>
@@ -7395,6 +7397,11 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga025f9557286d25c7be1c794fbb8ecafa" id="r_ga025f9557286d25c7be1c794fbb8ecafa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga025f9557286d25c7be1c794fbb8ecafa">MR::PointOnFace::valid</a> () const</td></tr>
 <tr class="memdesc:ga025f9557286d25c7be1c794fbb8ecafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for validity, otherwise the point is not defined  <br /></td></tr>
 <tr class="memitem:gacabf2c49796ac6c253d2d2031fb688c7" id="r_gacabf2c49796ac6c253d2d2031fb688c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacabf2c49796ac6c253d2d2031fb688c7">MR::PointOnFace::operator bool</a> () const</td></tr>
+<tr class="memitem:ga9c4160116a71185cb85187fdd4b24784" id="r_ga9c4160116a71185cb85187fdd4b24784"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9c4160116a71185cb85187fdd4b24784">MR::PointOnFaceBary::valid</a> () const</td></tr>
+<tr class="memdesc:ga9c4160116a71185cb85187fdd4b24784"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for validity, otherwise the point was not found  <br /></td></tr>
+<tr class="memitem:gae2f4bb94d16e8999958ff0f9b2b253d2" id="r_gae2f4bb94d16e8999958ff0f9b2b253d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae2f4bb94d16e8999958ff0f9b2b253d2">MR::PointOnFaceBary::operator bool</a> () const</td></tr>
+<tr class="memitem:ga8416af19b8f70a336601c0fc223ffa46" id="r_ga8416af19b8f70a336601c0fc223ffa46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8416af19b8f70a336601c0fc223ffa46">MR::PointOnFaceBary::mtp</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology) const</td></tr>
+<tr class="memdesc:ga8416af19b8f70a336601c0fc223ffa46"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the point as MeshTriPoint relative to topology.edgeWithLeft( proj.face ), or invalid MeshTriPoint if the point was not found  <br /></td></tr>
 <tr class="memitem:gae6ddf1f922426da0befb0c18020f6682" id="r_gae6ddf1f922426da0befb0c18020f6682"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae6ddf1f922426da0befb0c18020f6682">MR::PointOnObject::PointOnObject</a> ()</td></tr>
 <tr class="memitem:ga2e7dcb184c3434e435a3b5cf16b66101" id="r_ga2e7dcb184c3434e435a3b5cf16b66101"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2e7dcb184c3434e435a3b5cf16b66101">MR::PointOnObject::operator PointOnFace</a> () const</td></tr>
 <tr class="memitem:ga682733ab4117db6c9d32200fd2fbf837" id="r_ga682733ab4117db6c9d32200fd2fbf837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga682733ab4117db6c9d32200fd2fbf837">MR::pointOnObjectToPickedPoint</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *object, const <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> &amp;pos)</td></tr>
@@ -13569,6 +13576,10 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga2ec934aa6c7847dbfbc812bcea286b53"><td class="mdescLeft">&#160;</td><td class="mdescRight">mesh's face containing the point  <br /></td></tr>
 <tr class="memitem:ga8ee455f370bca112fa98cf9f81a2e3ad" id="r_ga8ee455f370bca112fa98cf9f81a2e3ad"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8ee455f370bca112fa98cf9f81a2e3ad">MR::PointOnFace::point</a></td></tr>
 <tr class="memdesc:ga8ee455f370bca112fa98cf9f81a2e3ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">a point of the mesh's face  <br /></td></tr>
+<tr class="memitem:ga059bfe3102b30c6f3789c02edecca733" id="r_ga059bfe3102b30c6f3789c02edecca733"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga059bfe3102b30c6f3789c02edecca733">MR::PointOnFaceBary::proj</a></td></tr>
+<tr class="memdesc:ga059bfe3102b30c6f3789c02edecca733"><td class="mdescLeft">&#160;</td><td class="mdescRight">the point on mesh (in <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>: the closest point, transformed by xf if it is given), and the triangle containing it  <br /></td></tr>
+<tr class="memitem:ga9cab06b4ddba5eaadf684cbb957094db" id="r_ga9cab06b4ddba5eaadf684cbb957094db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga38bb05d6835471e5cc3352addbd30f02">TriPointf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9cab06b4ddba5eaadf684cbb957094db">MR::PointOnFaceBary::tp</a></td></tr>
+<tr class="memdesc:ga9cab06b4ddba5eaadf684cbb957094db"><td class="mdescLeft">&#160;</td><td class="mdescRight">barycentric coordinates of proj relative to the vertices of proj.face in the order of <a class="el" href="#ga1505aee9d1b0cdf3c24139b5e97bc187">MeshTopology::getTriVerts</a>( proj.face )  <br /></td></tr>
 <tr class="memitem:gab99d125d3a34811d275a4d95aefe82f4" id="r_gab99d125d3a34811d275a4d95aefe82f4"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab99d125d3a34811d275a4d95aefe82f4">MR::PointOnObject::point</a></td></tr>
 <tr class="memdesc:gab99d125d3a34811d275a4d95aefe82f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">3D location on the object in local coordinates  <br /></td></tr>
 <tr class="memitem:gae7a40e7e5c90fdf33a56711b68896efb" id="r_gae7a40e7e5c90fdf33a56711b68896efb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae7a40e7e5c90fdf33a56711b68896efb">MR::PointOnObject::zBuffer</a> { 1.0f }</td></tr>
@@ -51234,7 +51245,7 @@ template&lt;typename T&gt; </div>
 <p>computes relative radiation in each valid sample point by emitting rays from that point in the sky: the radiation is 1.0f if all rays reach the sky not hitting the terrain; the radiation is 0.0f if all rays do not reach the sky because they are intercepted by the terrain; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">outSkyRays</td><td>- optional output bitset where for every valid sample i its rays are stored at indices [i*numPatches; (i+1)*numPatches), 0s for occluded rays (hitting the terrain) and 1s for the ones which don't hit anything and reach the sky </td></tr>
-    <tr><td class="paramname">outIntersections</td><td>- optional output vector of <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a> for every valid sample point </td></tr>
+    <tr><td class="paramname">outIntersections</td><td>- optional output vector of <a class="el" href="structMR_1_1MeshIntersectionResult.html" title="the intersection point (proj stores intersected face and global coordinates) with its position on the...">MeshIntersectionResult</a> for every valid sample point </td></tr>
   </table>
   </dd>
 </dl>
@@ -51292,7 +51303,7 @@ template&lt;typename T&gt; </div>
 <p>computes relative radiation in each valid sample point by emitting rays from that point in the sky: the radiation is 1.0f if all rays reach the sky not hitting the terrain; the radiation is 0.0f if all rays do not reach the sky because they are intercepted by the terrain; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">outSkyRays</td><td>- optional output bitset where for every valid sample i its rays are stored at indices [i*numPatches; (i+1)*numPatches), 0s for occluded rays (hitting the terrain) and 1s for the ones which don't hit anything and reach the sky </td></tr>
-    <tr><td class="paramname">outIntersections</td><td>- optional output vector of <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a> for every valid sample point </td></tr>
+    <tr><td class="paramname">outIntersections</td><td>- optional output vector of <a class="el" href="structMR_1_1MeshIntersectionResult.html" title="the intersection point (proj stores intersected face and global coordinates) with its position on the...">MeshIntersectionResult</a> for every valid sample point </td></tr>
   </table>
   </dd>
 </dl>
@@ -77015,7 +77026,7 @@ template&lt;typename I&gt; </div>
 <p>In each valid sample point tests the rays from that point in the sky; </p><dl class="section return"><dt>Returns</dt><dd>bitset where for every valid sample i its rays are stored at indices [i*numPatches; (i+1)*numPatches), 0s for occluded rays (hitting the terrain) and 1s for the ones which don't hit anything and reach the sky </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">outIntersections</td><td>- optional output vector of <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a> for every valid sample point </td></tr>
+    <tr><td class="paramname">outIntersections</td><td>- optional output vector of <a class="el" href="structMR_1_1MeshIntersectionResult.html" title="the intersection point (proj stores intersected face and global coordinates) with its position on the...">MeshIntersectionResult</a> for every valid sample point </td></tr>
   </table>
   </dd>
 </dl>
@@ -77068,7 +77079,7 @@ template&lt;typename I&gt; </div>
 <p>In each valid sample point tests the rays from that point in the sky; </p><dl class="section return"><dt>Returns</dt><dd>bitset where for every valid sample i its rays are stored at indices [i*numPatches; (i+1)*numPatches), 0s for occluded rays (hitting the terrain) and 1s for the ones which don't hit anything and reach the sky </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">outIntersections</td><td>- optional output vector of <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a> for every valid sample point </td></tr>
+    <tr><td class="paramname">outIntersections</td><td>- optional output vector of <a class="el" href="structMR_1_1MeshIntersectionResult.html" title="the intersection point (proj stores intersected face and global coordinates) with its position on the...">MeshIntersectionResult</a> for every valid sample point </td></tr>
   </table>
   </dd>
 </dl>
@@ -130954,6 +130965,35 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga8416af19b8f70a336601c0fc223ffa46" name="ga8416af19b8f70a336601c0fc223ffa46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8416af19b8f70a336601c0fc223ffa46">&#9670;&#160;</a></span>mtp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> MR::PointOnFaceBary::mtp </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointOnFace_8h.html">MRMesh/MRPointOnFace.h</a>&gt;</code></p>
+
+<p>returns the point as MeshTriPoint relative to topology.edgeWithLeft( proj.face ), or invalid MeshTriPoint if the point was not found </p>
+
+</div>
+</div>
 <a id="ga2a9110bdd2a450f4830e39f32ae6dcfc" name="ga2a9110bdd2a450f4830e39f32ae6dcfc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga2a9110bdd2a450f4830e39f32ae6dcfc">&#9670;&#160;</a></span>mulAs()</h2>
 
@@ -139369,7 +139409,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga72afd5541163c06c93d4957d6d18a308" name="ga72afd5541163c06c93d4957d6d18a308"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga72afd5541163c06c93d4957d6d18a308">&#9670;&#160;</a></span>operator bool() <span class="overload">[1/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga72afd5541163c06c93d4957d6d18a308">&#9670;&#160;</a></span>operator bool() <span class="overload">[1/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139398,7 +139438,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7985af9aca32411b60aec8f8e6178e92" name="ga7985af9aca32411b60aec8f8e6178e92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7985af9aca32411b60aec8f8e6178e92">&#9670;&#160;</a></span>operator bool() <span class="overload">[2/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7985af9aca32411b60aec8f8e6178e92">&#9670;&#160;</a></span>operator bool() <span class="overload">[2/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139425,7 +139465,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga85b84c7e86dfe85baf10dcab2f46c9d6" name="ga85b84c7e86dfe85baf10dcab2f46c9d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga85b84c7e86dfe85baf10dcab2f46c9d6">&#9670;&#160;</a></span>operator bool() <span class="overload">[3/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga85b84c7e86dfe85baf10dcab2f46c9d6">&#9670;&#160;</a></span>operator bool() <span class="overload">[3/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139452,7 +139492,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga4a60520ea485fc36672fcc617904ec8b" name="ga4a60520ea485fc36672fcc617904ec8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4a60520ea485fc36672fcc617904ec8b">&#9670;&#160;</a></span>operator bool() <span class="overload">[4/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4a60520ea485fc36672fcc617904ec8b">&#9670;&#160;</a></span>operator bool() <span class="overload">[4/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139481,7 +139521,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga13312efb8f446fa9444259e04b4cffed" name="ga13312efb8f446fa9444259e04b4cffed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga13312efb8f446fa9444259e04b4cffed">&#9670;&#160;</a></span>operator bool() <span class="overload">[5/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga13312efb8f446fa9444259e04b4cffed">&#9670;&#160;</a></span>operator bool() <span class="overload">[5/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139508,7 +139548,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gacc60bd8db38d83fd7f7990dbae92e25b" name="gacc60bd8db38d83fd7f7990dbae92e25b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacc60bd8db38d83fd7f7990dbae92e25b">&#9670;&#160;</a></span>operator bool() <span class="overload">[6/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacc60bd8db38d83fd7f7990dbae92e25b">&#9670;&#160;</a></span>operator bool() <span class="overload">[6/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139535,7 +139575,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gad96f5e58f9ab65b5b186ccd7d330c64d" name="gad96f5e58f9ab65b5b186ccd7d330c64d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad96f5e58f9ab65b5b186ccd7d330c64d">&#9670;&#160;</a></span>operator bool() <span class="overload">[7/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad96f5e58f9ab65b5b186ccd7d330c64d">&#9670;&#160;</a></span>operator bool() <span class="overload">[7/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139562,7 +139602,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga656e490b9dc2a583eca217f757e6a1db" name="ga656e490b9dc2a583eca217f757e6a1db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga656e490b9dc2a583eca217f757e6a1db">&#9670;&#160;</a></span>operator bool() <span class="overload">[8/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga656e490b9dc2a583eca217f757e6a1db">&#9670;&#160;</a></span>operator bool() <span class="overload">[8/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139589,7 +139629,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga9ddcf2e4e0e675d813b05ef4fca319a2" name="ga9ddcf2e4e0e675d813b05ef4fca319a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9ddcf2e4e0e675d813b05ef4fca319a2">&#9670;&#160;</a></span>operator bool() <span class="overload">[9/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9ddcf2e4e0e675d813b05ef4fca319a2">&#9670;&#160;</a></span>operator bool() <span class="overload">[9/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139618,7 +139658,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab7a6b95995c88b2ded77efbcfef86a8d" name="gab7a6b95995c88b2ded77efbcfef86a8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab7a6b95995c88b2ded77efbcfef86a8d">&#9670;&#160;</a></span>operator bool() <span class="overload">[10/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab7a6b95995c88b2ded77efbcfef86a8d">&#9670;&#160;</a></span>operator bool() <span class="overload">[10/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139639,7 +139679,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga22d2548f25c23157315955c70584d502" name="ga22d2548f25c23157315955c70584d502"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga22d2548f25c23157315955c70584d502">&#9670;&#160;</a></span>operator bool() <span class="overload">[11/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga22d2548f25c23157315955c70584d502">&#9670;&#160;</a></span>operator bool() <span class="overload">[11/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139666,7 +139706,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gacabf2c49796ac6c253d2d2031fb688c7" name="gacabf2c49796ac6c253d2d2031fb688c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacabf2c49796ac6c253d2d2031fb688c7">&#9670;&#160;</a></span>operator bool() <span class="overload">[12/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacabf2c49796ac6c253d2d2031fb688c7">&#9670;&#160;</a></span>operator bool() <span class="overload">[12/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139692,8 +139732,35 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gae2f4bb94d16e8999958ff0f9b2b253d2" name="gae2f4bb94d16e8999958ff0f9b2b253d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae2f4bb94d16e8999958ff0f9b2b253d2">&#9670;&#160;</a></span>operator bool() <span class="overload">[13/18]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::PointOnFaceBary::operator bool </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel explicit">explicit</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointOnFace_8h.html">MRMesh/MRPointOnFace.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga80259f73338ce5812b3cd0466379f9b6" name="ga80259f73338ce5812b3cd0466379f9b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga80259f73338ce5812b3cd0466379f9b6">&#9670;&#160;</a></span>operator bool() <span class="overload">[13/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga80259f73338ce5812b3cd0466379f9b6">&#9670;&#160;</a></span>operator bool() <span class="overload">[14/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139720,7 +139787,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga44ebc6eac0ba7a7421c713970a69f480" name="ga44ebc6eac0ba7a7421c713970a69f480"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga44ebc6eac0ba7a7421c713970a69f480">&#9670;&#160;</a></span>operator bool() <span class="overload">[14/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga44ebc6eac0ba7a7421c713970a69f480">&#9670;&#160;</a></span>operator bool() <span class="overload">[15/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139747,7 +139814,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga17db618bc34c02a2da1a620fbc1734f4" name="ga17db618bc34c02a2da1a620fbc1734f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga17db618bc34c02a2da1a620fbc1734f4">&#9670;&#160;</a></span>operator bool() <span class="overload">[15/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga17db618bc34c02a2da1a620fbc1734f4">&#9670;&#160;</a></span>operator bool() <span class="overload">[16/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139775,7 +139842,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga8ec198312afe50720d7c5ab8ef8cfc46" name="ga8ec198312afe50720d7c5ab8ef8cfc46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8ec198312afe50720d7c5ab8ef8cfc46">&#9670;&#160;</a></span>operator bool() <span class="overload">[16/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8ec198312afe50720d7c5ab8ef8cfc46">&#9670;&#160;</a></span>operator bool() <span class="overload">[17/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139802,7 +139869,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga8152065aa9150e9c3a5dd1e0ce064abb" name="ga8152065aa9150e9c3a5dd1e0ce064abb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8152065aa9150e9c3a5dd1e0ce064abb">&#9670;&#160;</a></span>operator bool() <span class="overload">[17/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8152065aa9150e9c3a5dd1e0ce064abb">&#9670;&#160;</a></span>operator bool() <span class="overload">[18/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202652,7 +202719,7 @@ template&lt;typename I&gt; </div>
 </div>
 </div>
 <a id="gaf0830c781cdfc67653c788b2211341bf" name="gaf0830c781cdfc67653c788b2211341bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf0830c781cdfc67653c788b2211341bf">&#9670;&#160;</a></span>valid() <span class="overload">[1/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf0830c781cdfc67653c788b2211341bf">&#9670;&#160;</a></span>valid() <span class="overload">[1/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202683,7 +202750,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga214653b779a4522f109338dae1067598" name="ga214653b779a4522f109338dae1067598"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga214653b779a4522f109338dae1067598">&#9670;&#160;</a></span>valid() <span class="overload">[2/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga214653b779a4522f109338dae1067598">&#9670;&#160;</a></span>valid() <span class="overload">[2/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202714,7 +202781,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga9c37820f22dbbb3c0a9fc9b01369abbc" name="ga9c37820f22dbbb3c0a9fc9b01369abbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9c37820f22dbbb3c0a9fc9b01369abbc">&#9670;&#160;</a></span>valid() <span class="overload">[3/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9c37820f22dbbb3c0a9fc9b01369abbc">&#9670;&#160;</a></span>valid() <span class="overload">[3/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202743,7 +202810,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gafa85942ca56264f08a03ebe4fded3c01" name="gafa85942ca56264f08a03ebe4fded3c01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafa85942ca56264f08a03ebe4fded3c01">&#9670;&#160;</a></span>valid() <span class="overload">[4/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafa85942ca56264f08a03ebe4fded3c01">&#9670;&#160;</a></span>valid() <span class="overload">[4/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202770,7 +202837,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaf07d1c7bc9944130437dcddb3c74465a" name="gaf07d1c7bc9944130437dcddb3c74465a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf07d1c7bc9944130437dcddb3c74465a">&#9670;&#160;</a></span>valid() <span class="overload">[5/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf07d1c7bc9944130437dcddb3c74465a">&#9670;&#160;</a></span>valid() <span class="overload">[5/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202797,7 +202864,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga5091e905ddd17f80fb7c3996ce095e58" name="ga5091e905ddd17f80fb7c3996ce095e58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5091e905ddd17f80fb7c3996ce095e58">&#9670;&#160;</a></span>valid() <span class="overload">[6/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5091e905ddd17f80fb7c3996ce095e58">&#9670;&#160;</a></span>valid() <span class="overload">[6/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202826,7 +202893,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga46ac2204a29916d4c70d8902b0a21868" name="ga46ac2204a29916d4c70d8902b0a21868"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga46ac2204a29916d4c70d8902b0a21868">&#9670;&#160;</a></span>valid() <span class="overload">[7/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga46ac2204a29916d4c70d8902b0a21868">&#9670;&#160;</a></span>valid() <span class="overload">[7/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202855,7 +202922,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7a52efda314a702396938241eecfd7c6" name="ga7a52efda314a702396938241eecfd7c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7a52efda314a702396938241eecfd7c6">&#9670;&#160;</a></span>valid() <span class="overload">[8/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7a52efda314a702396938241eecfd7c6">&#9670;&#160;</a></span>valid() <span class="overload">[8/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202884,7 +202951,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga43ac9ad72d19e4b6f5675b8b96c652a0" name="ga43ac9ad72d19e4b6f5675b8b96c652a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga43ac9ad72d19e4b6f5675b8b96c652a0">&#9670;&#160;</a></span>valid() <span class="overload">[9/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga43ac9ad72d19e4b6f5675b8b96c652a0">&#9670;&#160;</a></span>valid() <span class="overload">[9/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202911,7 +202978,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga102a63cb1cdbb7460fb946408538feec" name="ga102a63cb1cdbb7460fb946408538feec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga102a63cb1cdbb7460fb946408538feec">&#9670;&#160;</a></span>valid() <span class="overload">[10/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga102a63cb1cdbb7460fb946408538feec">&#9670;&#160;</a></span>valid() <span class="overload">[10/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202938,7 +203005,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga799a4d75cde699ab800ef755c3201cf6" name="ga799a4d75cde699ab800ef755c3201cf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga799a4d75cde699ab800ef755c3201cf6">&#9670;&#160;</a></span>valid() <span class="overload">[11/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga799a4d75cde699ab800ef755c3201cf6">&#9670;&#160;</a></span>valid() <span class="overload">[11/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202965,7 +203032,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gadf36a93304ddd8624d26589cec96401f" name="gadf36a93304ddd8624d26589cec96401f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadf36a93304ddd8624d26589cec96401f">&#9670;&#160;</a></span>valid() <span class="overload">[12/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadf36a93304ddd8624d26589cec96401f">&#9670;&#160;</a></span>valid() <span class="overload">[12/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202994,7 +203061,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga6de2f0520ee0205cf8eda1b3c4c32111" name="ga6de2f0520ee0205cf8eda1b3c4c32111"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6de2f0520ee0205cf8eda1b3c4c32111">&#9670;&#160;</a></span>valid() <span class="overload">[13/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6de2f0520ee0205cf8eda1b3c4c32111">&#9670;&#160;</a></span>valid() <span class="overload">[13/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203025,7 +203092,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gae382efff2f4e2a54df6db8e72d4c7420" name="gae382efff2f4e2a54df6db8e72d4c7420"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae382efff2f4e2a54df6db8e72d4c7420">&#9670;&#160;</a></span>valid() <span class="overload">[14/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae382efff2f4e2a54df6db8e72d4c7420">&#9670;&#160;</a></span>valid() <span class="overload">[14/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203052,7 +203119,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaaf61c67899c9c542304ca52c98efd6aa" name="gaaf61c67899c9c542304ca52c98efd6aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaaf61c67899c9c542304ca52c98efd6aa">&#9670;&#160;</a></span>valid() <span class="overload">[15/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaf61c67899c9c542304ca52c98efd6aa">&#9670;&#160;</a></span>valid() <span class="overload">[15/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203079,7 +203146,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga30b687a3ae4e9a8f1e2faf636e415f5c" name="ga30b687a3ae4e9a8f1e2faf636e415f5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga30b687a3ae4e9a8f1e2faf636e415f5c">&#9670;&#160;</a></span>valid() <span class="overload">[16/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga30b687a3ae4e9a8f1e2faf636e415f5c">&#9670;&#160;</a></span>valid() <span class="overload">[16/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203108,7 +203175,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga025f9557286d25c7be1c794fbb8ecafa" name="ga025f9557286d25c7be1c794fbb8ecafa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga025f9557286d25c7be1c794fbb8ecafa">&#9670;&#160;</a></span>valid() <span class="overload">[17/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga025f9557286d25c7be1c794fbb8ecafa">&#9670;&#160;</a></span>valid() <span class="overload">[17/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203136,8 +203203,37 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga9c4160116a71185cb85187fdd4b24784" name="ga9c4160116a71185cb85187fdd4b24784"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9c4160116a71185cb85187fdd4b24784">&#9670;&#160;</a></span>valid() <span class="overload">[18/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::PointOnFaceBary::valid </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointOnFace_8h.html">MRMesh/MRPointOnFace.h</a>&gt;</code></p>
+
+<p>check for validity, otherwise the point was not found </p>
+
+</div>
+</div>
 <a id="ga8cae5aeb17ea9eba3d65c5cb39acbe29" name="ga8cae5aeb17ea9eba3d65c5cb39acbe29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8cae5aeb17ea9eba3d65c5cb39acbe29">&#9670;&#160;</a></span>valid() <span class="overload">[18/18]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8cae5aeb17ea9eba3d65c5cb39acbe29">&#9670;&#160;</a></span>valid() <span class="overload">[19/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236799,6 +236895,22 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga059bfe3102b30c6f3789c02edecca733" name="ga059bfe3102b30c6f3789c02edecca733"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga059bfe3102b30c6f3789c02edecca733">&#9670;&#160;</a></span>proj</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a> MR::PointOnFaceBary::proj</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the point on mesh (in <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a>: the closest point, transformed by xf if it is given), and the triangle containing it </p>
+
+</div>
+</div>
 <a id="gabe274cb37fde7b021b46a400ec6ce767" name="gabe274cb37fde7b021b46a400ec6ce767"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gabe274cb37fde7b021b46a400ec6ce767">&#9670;&#160;</a></span>projector</h2>
 
@@ -244893,6 +245005,22 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p>initial position of fixed vertex </p>
+
+</div>
+</div>
+<a id="ga9cab06b4ddba5eaadf684cbb957094db" name="ga9cab06b4ddba5eaadf684cbb957094db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9cab06b4ddba5eaadf684cbb957094db">&#9670;&#160;</a></span>tp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga38bb05d6835471e5cc3352addbd30f02">TriPointf</a> MR::PointOnFaceBary::tp</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>barycentric coordinates of proj relative to the vertices of proj.face in the order of <a class="el" href="#ga1505aee9d1b0cdf3c24139b5e97bc187">MeshTopology::getTriVerts</a>( proj.face ) </p>
 
 </div>
 </div>

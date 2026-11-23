@@ -976,6 +976,7 @@ var annotated_dup =
       [ "PointMeasurementVisualizePropertyType", "structmeshlib_1_1PointMeasurementVisualizePropertyType.html", null ],
       [ "PointObject", "structmeshlib_1_1PointObject.html", "structmeshlib_1_1PointObject" ],
       [ "PointOnFace", "structmeshlib_1_1PointOnFace.html", "structmeshlib_1_1PointOnFace" ],
+      [ "PointOnFaceBary", "structmeshlib_1_1PointOnFaceBary.html", "structmeshlib_1_1PointOnFaceBary" ],
       [ "PointOnObject", "structmeshlib_1_1PointOnObject.html", "structmeshlib_1_1PointOnObject" ],
       [ "PointPair", "structmeshlib_1_1PointPair.html", "structmeshlib_1_1PointPair" ],
       [ "PointPairs", "structmeshlib_1_1PointPairs.html", "structmeshlib_1_1PointPairs" ],

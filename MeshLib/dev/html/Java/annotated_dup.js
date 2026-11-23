@@ -1048,6 +1048,7 @@ var annotated_dup =
       [ "PointMeasurementVisualizePropertyType", "classmeshlib_1_1PointMeasurementVisualizePropertyType.html", "classmeshlib_1_1PointMeasurementVisualizePropertyType" ],
       [ "PointObject", "classmeshlib_1_1PointObject.html", "classmeshlib_1_1PointObject" ],
       [ "PointOnFace", "classmeshlib_1_1PointOnFace.html", "classmeshlib_1_1PointOnFace" ],
+      [ "PointOnFaceBary", "classmeshlib_1_1PointOnFaceBary.html", "classmeshlib_1_1PointOnFaceBary" ],
       [ "PointOnObject", "classmeshlib_1_1PointOnObject.html", "classmeshlib_1_1PointOnObject" ],
       [ "PointPair", "classmeshlib_1_1PointPair.html", "classmeshlib_1_1PointPair" ],
       [ "PointPairs", "classmeshlib_1_1PointPairs.html", "classmeshlib_1_1PointPairs" ],

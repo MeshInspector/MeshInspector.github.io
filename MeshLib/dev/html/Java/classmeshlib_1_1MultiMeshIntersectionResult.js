@@ -15,5 +15,6 @@ var classmeshlib_1_1MultiMeshIntersectionResult =
     [ "setTp", "classmeshlib_1_1MultiMeshIntersectionResult.html#a464e0aae6606092f677993be19ffcb96", null ],
     [ "tp", "classmeshlib_1_1MultiMeshIntersectionResult.html#a98ac41a8600a991eb7d767b5802ac07c", null ],
     [ "upcastToMeshIntersectionResult", "classmeshlib_1_1MultiMeshIntersectionResult.html#ae517a64f9d5792abb20a54f6b7355146", null ],
+    [ "upcastToPointOnFaceBary", "classmeshlib_1_1MultiMeshIntersectionResult.html#abfd3e00bf0ce0d54a7b4466b32cf2ec4", null ],
     [ "valid", "classmeshlib_1_1MultiMeshIntersectionResult.html#ae3941749b041c6c123094aa3f4f11b2f", null ]
 ];

@@ -881,6 +881,7 @@ var annotated_dup =
       [ "PointMeasurementObject", "classMR_1_1PointMeasurementObject.html", "classMR_1_1PointMeasurementObject" ],
       [ "PointObject", "classMR_1_1PointObject.html", "classMR_1_1PointObject" ],
       [ "PointOnFace", "structMR_1_1PointOnFace.html", "structMR_1_1PointOnFace" ],
+      [ "PointOnFaceBary", "structMR_1_1PointOnFaceBary.html", "structMR_1_1PointOnFaceBary" ],
       [ "PointOnObject", "structMR_1_1PointOnObject.html", "structMR_1_1PointOnObject" ],
       [ "PointPair", "structMR_1_1PointPair.html", "structMR_1_1PointPair" ],
       [ "PointPairs", "structMR_1_1PointPairs.html", "structMR_1_1PointPairs" ],

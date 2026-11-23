@@ -2,7 +2,6 @@ var classmeshlib_1_1MeshIntersectionResult =
 [
     [ "MeshIntersectionResult", "classmeshlib_1_1MeshIntersectionResult.html#a0f2daf03999c6a1ddc1c770cbf100183", null ],
     [ "MeshIntersectionResult", "classmeshlib_1_1MeshIntersectionResult.html#a65dd726198e259004229d864322f25b6", null ],
-    [ "MeshIntersectionResult", "classmeshlib_1_1MeshIntersectionResult.html#a2592ef84b4677fe2602abbc5429388ed", null ],
     [ "MeshIntersectionResult", "classmeshlib_1_1MeshIntersectionResult.html#aaaa662a4c954be57ffe8fe6f4825b247", null ],
     [ "assignFromAnother", "classmeshlib_1_1MeshIntersectionResult.html#a24a882b4bb6e992ca9ca006b74fdcd86", null ],
     [ "convertTo_bool", "classmeshlib_1_1MeshIntersectionResult.html#a39103e12e57081fbc65218ab2cba4927", null ],
@@ -13,5 +12,6 @@ var classmeshlib_1_1MeshIntersectionResult =
     [ "setProj", "classmeshlib_1_1MeshIntersectionResult.html#acd0a6ac9b0b25af492b35b4c34edfa1d", null ],
     [ "setTp", "classmeshlib_1_1MeshIntersectionResult.html#a3f62f40c9f7c345c0d18cbc77f3c3255", null ],
     [ "tp", "classmeshlib_1_1MeshIntersectionResult.html#acf63cd6cfc43605a33e867513ca33848", null ],
+    [ "upcastToPointOnFaceBary", "classmeshlib_1_1MeshIntersectionResult.html#ac03859c7ae37426b10e195dd4fffe26e", null ],
     [ "valid", "classmeshlib_1_1MeshIntersectionResult.html#a73df513c61bd81bd3756e6af23958278", null ]
 ];

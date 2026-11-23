@@ -1,5 +1,6 @@
 var NAVTREEINDEX40 =
 {
+"classmeshlib_1_1DistanceMapToWorld.html#a0e65d97ea32d3c09b8d3599f01a36d1f":[9,6,1,0,0,285,8],
 "classmeshlib_1_1DistanceMapToWorld.html#a19aae789e83632172228183087536c84":[9,6,0,0,0,285,12],
 "classmeshlib_1_1DistanceMapToWorld.html#a19aae789e83632172228183087536c84":[9,6,1,0,0,285,12],
 "classmeshlib_1_1DistanceMapToWorld.html#a22aa35f17d8894cdda0c494f565d682e":[9,6,0,0,0,285,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "classmeshlib_1_1DistanceMeasurementObject.html#ac8194aa34886b21afe5534e4de772c74":[9,6,1,0,0,286,93],
 "classmeshlib_1_1DistanceMeasurementObject.html#aca76c2f34b365017edcb2ead676fae4e":[9,6,0,0,0,286,40],
 "classmeshlib_1_1DistanceMeasurementObject.html#aca76c2f34b365017edcb2ead676fae4e":[9,6,1,0,0,286,40],
-"classmeshlib_1_1DistanceMeasurementObject.html#acb4bb2833746fa347287d7dccf3fea64":[9,6,0,0,0,286,46],
-"classmeshlib_1_1DistanceMeasurementObject.html#acb4bb2833746fa347287d7dccf3fea64":[9,6,1,0,0,286,46]
+"classmeshlib_1_1DistanceMeasurementObject.html#acb4bb2833746fa347287d7dccf3fea64":[9,6,0,0,0,286,46]
 };
