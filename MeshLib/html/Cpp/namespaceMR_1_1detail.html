@@ -136,7 +136,7 @@ $(function(){initNavTree('namespaceMR_1_1detail.html','',''); });
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">MR::detail Namespace Reference<div class="ingroups"><a class="el" href="group__MathGroup.html">Math group</a> &raquo; <a class="el" href="group__HighPrecisionGroup.html">High Precision</a> &#124; <a class="el" href="group__GeneralGroup.html">GeneralGroup</a> &#124; <a class="el" href="group__MathGroup.html">Math group</a></div></div></div>
+  <div class="headertitle"><div class="title">MR::detail Namespace Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a> &#124; <a class="el" href="group__MathGroup.html">Math group</a> &raquo; <a class="el" href="group__HighPrecisionGroup.html">High Precision</a> &#124; <a class="el" href="group__MathGroup.html">Math group</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -156,6 +156,8 @@ Classes</h2></td></tr>
 <tr class="memitem:MakeScopeGuard" id="r_MakeScopeGuard"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1detail_1_1MakeScopeGuard.html">MakeScopeGuard</a></td></tr>
 <tr class="memitem:NoInitIterator" id="r_NoInitIterator"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1detail_1_1NoInitIterator.html">NoInitIterator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">random-access iterator over a range of not-initialized T for std::vector::insert  <a href="structMR_1_1detail_1_1NoInitIterator.html#details">More...</a><br /></td></tr>
+<tr class="memitem:NoRenumber" id="r_NoRenumber"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1detail_1_1NoRenumber.html">NoRenumber</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">identity vertex renumbering for <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a>  <a href="structMR_1_1detail_1_1NoRenumber.html#details">More...</a><br /></td></tr>
 <tr class="memitem:PerturbationStagesOf" id="r_PerturbationStagesOf"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1detail_1_1PerturbationStagesOf.html">PerturbationStagesOf</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">segmentIntersectionTriPlaneOrder: it reaches the polynomial path with all three largest ids in the plane  <a href="classMR_1_1detail_1_1PerturbationStagesOf.html#details">More...</a><br /></td></tr>
 <tr class="memitem:PointDegree" id="r_PointDegree"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a></td></tr>
@@ -171,6 +173,9 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga40997e17f9eb79aaaf4e29357afe3370" id="r_ga40997e17f9eb79aaaf4e29357afe3370"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga40997e17f9eb79aaaf4e29357afe3370">mimallocNewN</a> (std::size_t count, std::size_t <a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
+<tr class="memitem:gab32953fc29375291584c951497d17ea6" id="r_gab32953fc29375291584c951497d17ea6"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab32953fc29375291584c951497d17ea6">mimallocNewAligned</a> (std::size_t <a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>, std::size_t alignment)</td></tr>
+<tr class="memitem:ga64cf4cb8faf6a631347f4a980eaaec9b" id="r_ga64cf4cb8faf6a631347f4a980eaaec9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga64cf4cb8faf6a631347f4a980eaaec9b">mimallocFree</a> (void *p) noexcept</td></tr>
 <tr class="memitem:a1c3d4f65be2335aa2156f777bfe33154" id="r_a1c3d4f65be2335aa2156f777bfe33154"><td class="memItemLeft" align="right" valign="top">constexpr std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c3d4f65be2335aa2156f777bfe33154">addCarry64</a> (std::uint64_t a, std::uint64_t b, std::uint64_t &amp;carry) noexcept</td></tr>
 <tr class="memdesc:a1c3d4f65be2335aa2156f777bfe33154"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a + b + carry modulo 2^64, and replaces carry with the carry-out (0 or 1)  <br /></td></tr>
 <tr class="memitem:a7fc59c8caf263e5cec996db9f596920d" id="r_a7fc59c8caf263e5cec996db9f596920d"><td class="memItemLeft" align="right" valign="top">constexpr std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fc59c8caf263e5cec996db9f596920d">subBorrow64</a> (std::uint64_t a, std::uint64_t b, std::uint64_t &amp;borrow) noexcept</td></tr>
@@ -184,6 +189,36 @@ Functions</h2></td></tr>
 <tr class="memitem:a0c3c7fc10991c0eb99094bb42d438de2 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c3c7fc10991c0eb99094bb42d438de2">mulWordsOf</a> (T v) noexcept</td></tr>
 <tr class="memdesc:a0c3c7fc10991c0eb99094bb42d438de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">the words of a multiplier of <a class="el" href="classMR_1_1FastInt.html">FastInt</a>, sign-extended if it is signed  <br /></td></tr>
 <tr class="memitem:a642d79bba1a218c9810ee5a91c1362b9" id="r_a642d79bba1a218c9810ee5a91c1362b9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a642d79bba1a218c9810ee5a91c1362b9">doubleFromWords</a> (const std::uint64_t *w, int n) noexcept</td></tr>
+<tr class="memitem:ad6f2fb480f908e02f91a0826c69f06b3" id="r_ad6f2fb480f908e02f91a0826c69f06b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1VertRenumber.html">VertRenumber</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6f2fb480f908e02f91a0826c69f06b3">getVertRenumber</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, bool packValidOnly)</td></tr>
+<tr class="memdesc:ad6f2fb480f908e02f91a0826c69f06b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">maps valid vertices to packed sequential indices (if packValidOnly = true) or keeps the same indices  <br /></td></tr>
+<tr class="memitem:a988aa7d17de48b4cacb5729c7804b6b4" id="r_a988aa7d17de48b4cacb5729c7804b6b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1detail_1_1NoRenumber.html">NoRenumber</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a988aa7d17de48b4cacb5729c7804b6b4">getVertRenumber</a> (const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;mesh, bool)</td></tr>
+<tr class="memitem:a2645133d69ae4078df4be60f782154ea" id="r_a2645133d69ae4078df4be60f782154ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1VertRenumber.html">VertRenumber</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2645133d69ae4078df4be60f782154ea">getVertRenumber</a> (const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;part, bool packValidOnly)</td></tr>
+<tr class="memitem:a21c4213b0c08850f81211c590748384e" id="r_a21c4213b0c08850f81211c590748384e"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21c4213b0c08850f81211c590748384e">lastValidVert</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memitem:abb20ccf3e812eb5f79cc1822c56d4e4b" id="r_abb20ccf3e812eb5f79cc1822c56d4e4b"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb20ccf3e812eb5f79cc1822c56d4e4b">lastValidVert</a> (const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;mesh)</td></tr>
+<tr class="memitem:a41132cf9b541fdb5de5416cc4db7747a" id="r_a41132cf9b541fdb5de5416cc4db7747a"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41132cf9b541fdb5de5416cc4db7747a">lastValidVert</a> (const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;part)</td></tr>
+<tr class="memitem:ad044b23815b5a9c6cc1d1dd54487c829" id="r_ad044b23815b5a9c6cc1d1dd54487c829"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad044b23815b5a9c6cc1d1dd54487c829">hasVert</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, VertId v)</td></tr>
+<tr class="memitem:ad2390e31ed7744ecdcc50a5ea19efe66" id="r_ad2390e31ed7744ecdcc50a5ea19efe66"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2390e31ed7744ecdcc50a5ea19efe66">hasVert</a> (const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;, VertId)</td></tr>
+<tr class="memitem:a9795a7839d5c5cf49d09c0cfe5861b38" id="r_a9795a7839d5c5cf49d09c0cfe5861b38"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9795a7839d5c5cf49d09c0cfe5861b38">hasVert</a> (const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;part, VertId v)</td></tr>
+<tr class="memitem:abef3dabe28a505f8320c98516e9c7ac1" id="r_abef3dabe28a505f8320c98516e9c7ac1"><td class="memItemLeft" align="right" valign="top">const VertBitSet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abef3dabe28a505f8320c98516e9c7ac1">validVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memitem:a07d79d6dd6f8e6e76cd4b060bb1b5d0a" id="r_a07d79d6dd6f8e6e76cd4b060bb1b5d0a"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07d79d6dd6f8e6e76cd4b060bb1b5d0a">validVerts</a> (const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;mesh)</td></tr>
+<tr class="memitem:adfe6f46371c0d04647d418db0ac8182c" id="r_adfe6f46371c0d04647d418db0ac8182c"><td class="memItemLeft" align="right" valign="top">const VertBitSet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfe6f46371c0d04647d418db0ac8182c">validVerts</a> (const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;part)</td></tr>
+<tr class="memitem:a0bc6aca64d7b721a53c02c758c30f937" id="r_a0bc6aca64d7b721a53c02c758c30f937"><td class="memItemLeft" align="right" valign="top">FaceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bc6aca64d7b721a53c02c758c30f937">lastValidFace</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memitem:af1ca90a0acb55ed0890765a32b374b87" id="r_af1ca90a0acb55ed0890765a32b374b87"><td class="memItemLeft" align="right" valign="top">FaceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1ca90a0acb55ed0890765a32b374b87">lastValidFace</a> (const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;mesh)</td></tr>
+<tr class="memitem:a0e352f64978aba4e99bc0a2c98e32622" id="r_a0e352f64978aba4e99bc0a2c98e32622"><td class="memItemLeft" align="right" valign="top">FaceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e352f64978aba4e99bc0a2c98e32622">lastValidFace</a> (const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;part)</td></tr>
+<tr class="memitem:ac9ecbebdbc8433ac031b9c49006d3333" id="r_ac9ecbebdbc8433ac031b9c49006d3333"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9ecbebdbc8433ac031b9c49006d3333">numValidFaces</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memitem:a1443eea2e4a26e22f272a5e8f750e136" id="r_a1443eea2e4a26e22f272a5e8f750e136"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1443eea2e4a26e22f272a5e8f750e136">numValidFaces</a> (const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;mesh)</td></tr>
+<tr class="memitem:a79fc43a90c65f6135fc84d7bc603de85" id="r_a79fc43a90c65f6135fc84d7bc603de85"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79fc43a90c65f6135fc84d7bc603de85">numValidFaces</a> (const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;part)</td></tr>
+<tr class="memitem:a496069373342c6a94758825a29634b22" id="r_a496069373342c6a94758825a29634b22"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a496069373342c6a94758825a29634b22">hasFace</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, FaceId f)</td></tr>
+<tr class="memitem:a737de174212cbe9677707f942a8ceb09" id="r_a737de174212cbe9677707f942a8ceb09"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a737de174212cbe9677707f942a8ceb09">hasFace</a> (const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;, FaceId)</td></tr>
+<tr class="memitem:a6952971da9cdca9ec62e8c66842dad2c" id="r_a6952971da9cdca9ec62e8c66842dad2c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6952971da9cdca9ec62e8c66842dad2c">hasFace</a> (const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;part, FaceId f)</td></tr>
+<tr class="memitem:ac382f61e9c6c00d5075de048dfdbd8e3" id="r_ac382f61e9c6c00d5075de048dfdbd8e3"><td class="memItemLeft" align="right" valign="top">const FaceBitSet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac382f61e9c6c00d5075de048dfdbd8e3">validFaces</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="memitem:a8ed6fefdcb045bb0d2d5e71855ff1b75" id="r_a8ed6fefdcb045bb0d2d5e71855ff1b75"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ed6fefdcb045bb0d2d5e71855ff1b75">validFaces</a> (const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;mesh)</td></tr>
+<tr class="memitem:a7d0e91cfbc9bccf1517551e6da8aa368" id="r_a7d0e91cfbc9bccf1517551e6da8aa368"><td class="memItemLeft" align="right" valign="top">const FaceBitSet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d0e91cfbc9bccf1517551e6da8aa368">validFaces</a> (const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;part)</td></tr>
+<tr class="memitem:a990b41fced17c618bc99356949941d38" id="r_a990b41fced17c618bc99356949941d38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ThreeVertIds.html">ThreeVertIds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a990b41fced17c618bc99356949941d38">getTriVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, FaceId f)</td></tr>
+<tr class="memitem:a121ed6b43eae23017aba635681875b59" id="r_a121ed6b43eae23017aba635681875b59"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1ThreeVertIds.html">ThreeVertIds</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a121ed6b43eae23017aba635681875b59">getTriVerts</a> (const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;mesh, FaceId f)</td></tr>
+<tr class="memitem:a2c1af6ab3356e7a278a62ba201cc27f9" id="r_a2c1af6ab3356e7a278a62ba201cc27f9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1ThreeVertIds.html">ThreeVertIds</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c1af6ab3356e7a278a62ba201cc27f9">getTriVerts</a> (const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;part, FaceId f)</td></tr>
+<tr class="memitem:a1ebf41788b586ad5e4b749e1db001998" id="r_a1ebf41788b586ad5e4b749e1db001998"><td class="memTemplParams" colspan="2">template&lt;typename MeshType&gt; </td></tr>
+<tr class="memitem:a1ebf41788b586ad5e4b749e1db001998 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ebf41788b586ad5e4b749e1db001998">getTriPoints</a> (const MeshType &amp;mesh, FaceId f)</td></tr>
 <tr class="memitem:ga2c281ad2e2056d9b040ad3e365f4575a" id="r_ga2c281ad2e2056d9b040ad3e365f4575a"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga2c281ad2e2056d9b040ad3e365f4575a template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2c281ad2e2056d9b040ad3e365f4575a">signStep</a> (T x)</td></tr>
 <tr class="memdesc:ga2c281ad2e2056d9b040ad3e365f4575a"><td class="mdescLeft">&#160;</td><td class="mdescRight">+1 for positive x and -1 (all bits set) for negative x, as an unsigned integer of the same size as x  <br /></td></tr>
@@ -220,6 +255,8 @@ Variables</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>for internal use: namespace detail is not bound to other languages </p>
+<p>mimalloc is called inside MRMesh, so code using MeshLib does not link mimalloc itself; keep this header out of MRPch.h, else MRMESH_API is fixed there as dllimport also for MRMesh</p>
+<p>accessors allowing the same template code to work with <a class="el" href="structMR_1_1Mesh.html">Mesh</a>, <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> and <a class="el" href="structMR_1_1TriMeshPart.html" title="TriMesh with a region of triangles: only the triangles of the region and their vertices are valid.">TriMeshPart</a>; all vertices and triangles of <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> are always valid </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a92c86287dc5036d235dd025e24861f4b" name="a92c86287dc5036d235dd025e24861f4b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a92c86287dc5036d235dd025e24861f4b">&#9670;&#160;</a></span>PerturbationStages</h2>
@@ -363,6 +400,379 @@ template&lt;int N = cMaxPerturbedPoints, bool Bounded = false&gt; </div>
 
 </div>
 </div>
+<a id="a1ebf41788b586ad5e4b749e1db001998" name="a1ebf41788b586ad5e4b749e1db001998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ebf41788b586ad5e4b749e1db001998">&#9670;&#160;</a></span>getTriPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename MeshType&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> MR::detail::getTriPoints </td>
+          <td>(</td>
+          <td class="paramtype">const MeshType &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a990b41fced17c618bc99356949941d38" name="a990b41fced17c618bc99356949941d38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a990b41fced17c618bc99356949941d38">&#9670;&#160;</a></span>getTriVerts() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1ThreeVertIds.html">ThreeVertIds</a> MR::detail::getTriVerts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a121ed6b43eae23017aba635681875b59" name="a121ed6b43eae23017aba635681875b59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a121ed6b43eae23017aba635681875b59">&#9670;&#160;</a></span>getTriVerts() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMR_1_1ThreeVertIds.html">ThreeVertIds</a> &amp; MR::detail::getTriVerts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c1af6ab3356e7a278a62ba201cc27f9" name="a2c1af6ab3356e7a278a62ba201cc27f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c1af6ab3356e7a278a62ba201cc27f9">&#9670;&#160;</a></span>getTriVerts() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMR_1_1ThreeVertIds.html">ThreeVertIds</a> &amp; MR::detail::getTriVerts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>part</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad6f2fb480f908e02f91a0826c69f06b3" name="ad6f2fb480f908e02f91a0826c69f06b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6f2fb480f908e02f91a0826c69f06b3">&#9670;&#160;</a></span>getVertRenumber() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1VertRenumber.html">VertRenumber</a> MR::detail::getVertRenumber </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>packValidOnly</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>maps valid vertices to packed sequential indices (if packValidOnly = true) or keeps the same indices </p>
+
+</div>
+</div>
+<a id="a988aa7d17de48b4cacb5729c7804b6b4" name="a988aa7d17de48b4cacb5729c7804b6b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a988aa7d17de48b4cacb5729c7804b6b4">&#9670;&#160;</a></span>getVertRenumber() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1detail_1_1NoRenumber.html">NoRenumber</a> MR::detail::getVertRenumber </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2645133d69ae4078df4be60f782154ea" name="a2645133d69ae4078df4be60f782154ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2645133d69ae4078df4be60f782154ea">&#9670;&#160;</a></span>getVertRenumber() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1VertRenumber.html">VertRenumber</a> MR::detail::getVertRenumber </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>part</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>packValidOnly</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a496069373342c6a94758825a29634b22" name="a496069373342c6a94758825a29634b22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a496069373342c6a94758825a29634b22">&#9670;&#160;</a></span>hasFace() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::detail::hasFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a737de174212cbe9677707f942a8ceb09" name="a737de174212cbe9677707f942a8ceb09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a737de174212cbe9677707f942a8ceb09">&#9670;&#160;</a></span>hasFace() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::detail::hasFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6952971da9cdca9ec62e8c66842dad2c" name="a6952971da9cdca9ec62e8c66842dad2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6952971da9cdca9ec62e8c66842dad2c">&#9670;&#160;</a></span>hasFace() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::detail::hasFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>part</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad044b23815b5a9c6cc1d1dd54487c829" name="ad044b23815b5a9c6cc1d1dd54487c829"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad044b23815b5a9c6cc1d1dd54487c829">&#9670;&#160;</a></span>hasVert() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::detail::hasVert </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad2390e31ed7744ecdcc50a5ea19efe66" name="ad2390e31ed7744ecdcc50a5ea19efe66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2390e31ed7744ecdcc50a5ea19efe66">&#9670;&#160;</a></span>hasVert() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::detail::hasVert </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9795a7839d5c5cf49d09c0cfe5861b38" name="a9795a7839d5c5cf49d09c0cfe5861b38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9795a7839d5c5cf49d09c0cfe5861b38">&#9670;&#160;</a></span>hasVert() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::detail::hasVert </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>part</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4b40e1222b8df2660b25e4942deb39fb" name="a4b40e1222b8df2660b25e4942deb39fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b40e1222b8df2660b25e4942deb39fb">&#9670;&#160;</a></span>isPortalFileDialogSupported()</h2>
 
@@ -379,6 +789,156 @@ template&lt;int N = cMaxPerturbedPoints, bool Bounded = false&gt; </div>
 </div><div class="memdoc">
 
 <p>Checks if XDG Desktop Portal file dialogs are supported. </p>
+
+</div>
+</div>
+<a id="a0bc6aca64d7b721a53c02c758c30f937" name="a0bc6aca64d7b721a53c02c758c30f937"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bc6aca64d7b721a53c02c758c30f937">&#9670;&#160;</a></span>lastValidFace() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FaceId MR::detail::lastValidFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1ca90a0acb55ed0890765a32b374b87" name="af1ca90a0acb55ed0890765a32b374b87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1ca90a0acb55ed0890765a32b374b87">&#9670;&#160;</a></span>lastValidFace() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FaceId MR::detail::lastValidFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e352f64978aba4e99bc0a2c98e32622" name="a0e352f64978aba4e99bc0a2c98e32622"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e352f64978aba4e99bc0a2c98e32622">&#9670;&#160;</a></span>lastValidFace() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FaceId MR::detail::lastValidFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>part</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21c4213b0c08850f81211c590748384e" name="a21c4213b0c08850f81211c590748384e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21c4213b0c08850f81211c590748384e">&#9670;&#160;</a></span>lastValidVert() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertId MR::detail::lastValidVert </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb20ccf3e812eb5f79cc1822c56d4e4b" name="abb20ccf3e812eb5f79cc1822c56d4e4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb20ccf3e812eb5f79cc1822c56d4e4b">&#9670;&#160;</a></span>lastValidVert() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertId MR::detail::lastValidVert </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a41132cf9b541fdb5de5416cc4db7747a" name="a41132cf9b541fdb5de5416cc4db7747a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41132cf9b541fdb5de5416cc4db7747a">&#9670;&#160;</a></span>lastValidVert() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertId MR::detail::lastValidVert </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>part</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -447,6 +1007,81 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>the words of a multiplier of <a class="el" href="classMR_1_1FastInt.html">FastInt</a>, sign-extended if it is signed </p>
+
+</div>
+</div>
+<a id="ac9ecbebdbc8433ac031b9c49006d3333" name="ac9ecbebdbc8433ac031b9c49006d3333"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9ecbebdbc8433ac031b9c49006d3333">&#9670;&#160;</a></span>numValidFaces() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::detail::numValidFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1443eea2e4a26e22f272a5e8f750e136" name="a1443eea2e4a26e22f272a5e8f750e136"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1443eea2e4a26e22f272a5e8f750e136">&#9670;&#160;</a></span>numValidFaces() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::detail::numValidFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a79fc43a90c65f6135fc84d7bc603de85" name="a79fc43a90c65f6135fc84d7bc603de85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79fc43a90c65f6135fc84d7bc603de85">&#9670;&#160;</a></span>numValidFaces() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::detail::numValidFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>part</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -634,6 +1269,156 @@ template&lt;std::int64_t M&gt; </div>
 </div><div class="memdoc">
 
 <p>returns a - b - borrow modulo 2^64, and replaces borrow with the borrow-out (0 or 1) </p>
+
+</div>
+</div>
+<a id="ac382f61e9c6c00d5075de048dfdbd8e3" name="ac382f61e9c6c00d5075de048dfdbd8e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac382f61e9c6c00d5075de048dfdbd8e3">&#9670;&#160;</a></span>validFaces() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const FaceBitSet &amp; MR::detail::validFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8ed6fefdcb045bb0d2d5e71855ff1b75" name="a8ed6fefdcb045bb0d2d5e71855ff1b75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ed6fefdcb045bb0d2d5e71855ff1b75">&#9670;&#160;</a></span>validFaces() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FaceBitSet MR::detail::validFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d0e91cfbc9bccf1517551e6da8aa368" name="a7d0e91cfbc9bccf1517551e6da8aa368"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d0e91cfbc9bccf1517551e6da8aa368">&#9670;&#160;</a></span>validFaces() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const FaceBitSet &amp; MR::detail::validFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>part</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abef3dabe28a505f8320c98516e9c7ac1" name="abef3dabe28a505f8320c98516e9c7ac1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abef3dabe28a505f8320c98516e9c7ac1">&#9670;&#160;</a></span>validVerts() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const VertBitSet &amp; MR::detail::validVerts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07d79d6dd6f8e6e76cd4b060bb1b5d0a" name="a07d79d6dd6f8e6e76cd4b060bb1b5d0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07d79d6dd6f8e6e76cd4b060bb1b5d0a">&#9670;&#160;</a></span>validVerts() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertBitSet MR::detail::validVerts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMesh.html">TriMesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adfe6f46371c0d04647d418db0ac8182c" name="adfe6f46371c0d04647d418db0ac8182c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfe6f46371c0d04647d418db0ac8182c">&#9670;&#160;</a></span>validVerts() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const VertBitSet &amp; MR::detail::validVerts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TriMeshPart.html">TriMeshPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>part</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -10,6 +10,6 @@ var classmrmeshpy_1_1ConstPlyLoadParams =
     [ "telemetrySignal", "classmrmeshpy_1_1ConstPlyLoadParams.html#aea31e4f8e242e957ced777c16a63f459", null ],
     [ "texture", "classmrmeshpy_1_1ConstPlyLoadParams.html#a7d44ba846aed82207411b831f3e4da83", null ],
     [ "triCornerUvCoords", "classmrmeshpy_1_1ConstPlyLoadParams.html#ad2fb5b9553c6eda47af3d0dce083f1eb", null ],
-    [ "tris", "classmrmeshpy_1_1ConstPlyLoadParams.html#ab529380b14a4ca31028a4099a80b1601", null ],
+    [ "tris", "classmrmeshpy_1_1ConstPlyLoadParams.html#a4d09042ddf254d03128a6f1de1cc59fc", null ],
     [ "uvCoords", "classmrmeshpy_1_1ConstPlyLoadParams.html#a73a6c04359324c944da79907bae15a30", null ]
 ];

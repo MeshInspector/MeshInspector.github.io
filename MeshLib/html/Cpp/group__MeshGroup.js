@@ -197,7 +197,7 @@ var group__MeshGroup =
       [ "forEachVertex", "group__GeneralGroup.html#gaad405e625450208e48d0237b9b5f53e8", null ],
       [ "fromSameLeftRing", "group__GeneralGroup.html#ga0a695c10309ce43745b1a873a3dca83c", null ],
       [ "fromSameOriginRing", "group__GeneralGroup.html#gad2eebf70e911bb41a4d9b755f78c5f21", null ],
-      [ "getAllTriVerts", "group__GeneralGroup.html#ga3d85b486bb589bae547c1e7fc7c1f342", null ],
+      [ "getAllTriVerts", "group__GeneralGroup.html#ga99af4d9b3404873d5c9a3fc39d9e1981", null ],
       [ "getFaceDegree", "group__GeneralGroup.html#ga6c8db8bf93e14dfbacb28ff9a388e9e1", null ],
       [ "getFaceIds", "group__GeneralGroup.html#gafacf72825c9fa6fc3c32c4206677608e", null ],
       [ "getLeftDegree", "group__GeneralGroup.html#ga4aa04323ba343ed5b50dfaf554d47ccb", null ],

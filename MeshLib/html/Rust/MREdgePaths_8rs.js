@@ -9,6 +9,7 @@ var MREdgePaths_8rs =
     [ "meshlib::build_shortest_path_mr_vert_bit_set", "namespacemeshlib.html#a7bf24b06a8bf14d7c1e308e1ccd6cb28", null ],
     [ "meshlib::build_shortest_path_mr_vert_id", "namespacemeshlib.html#a323fd823471098556aac19b803ff8404", null ],
     [ "meshlib::build_smallest_metric_path_bi_dir_5", "namespacemeshlib.html#ac91b82c1e01829d540a7c9ff56a1ea0f", null ],
+    [ "meshlib::build_smallest_metric_path_bi_dir_7", "namespacemeshlib.html#ac99925c2ccdac1d9e882765b64ca5474", null ],
     [ "meshlib::build_smallest_metric_path_bi_dir_9", "namespacemeshlib.html#afaae7fe25af4fbaca4c768537c8d413c", null ],
     [ "meshlib::build_smallest_metric_path_const_mr_mesh_topology_ref_mr_vert_bit_set", "namespacemeshlib.html#aa6d78483fb71eceb94a0d04f90becd9c", null ],
     [ "meshlib::build_smallest_metric_path_const_mr_mesh_topology_ref_mr_vert_id", "namespacemeshlib.html#a271255381718a178464f0f36c5035da2", null ],

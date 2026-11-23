@@ -170,6 +170,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7a802d5fb58c16552daad69cb0ab3c2e" id="r_a7a802d5fb58c16552daad69cb0ab3c2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a802d5fb58c16552daad69cb0ab3c2e">pop_back</a> ()</td></tr>
 <tr class="memitem:a163167b15e0ff91bf332d6106a23c5f5" id="r_a163167b15e0ff91bf332d6106a23c5f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a163167b15e0ff91bf332d6106a23c5f5">insert</a> (position:usize, new_elem:f32)</td></tr>
 <tr class="memitem:a92a344f2c3c8e4e8c271dfeceef29527" id="r_a92a344f2c3c8e4e8c271dfeceef29527"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92a344f2c3c8e4e8c271dfeceef29527">erase</a> (position:usize)</td></tr>
+<tr class="memitem:a2630a21c3f13e03595e8cba1ea8a17cb" id="r_a2630a21c3f13e03595e8cba1ea8a17cb"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2630a21c3f13e03595e8cba1ea8a17cb">begin</a> () const -&gt; *const f32</td></tr>
+<tr class="memitem:aa37e5afffeaf3ec83671fad0f110730d" id="r_aa37e5afffeaf3ec83671fad0f110730d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa37e5afffeaf3ec83671fad0f110730d">end</a> () const -&gt; *const f32</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -279,6 +281,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a2630a21c3f13e03595e8cba1ea8a17cb" name="a2630a21c3f13e03595e8cba1ea8a17cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2630a21c3f13e03595e8cba1ea8a17cb">&#9670;&#160;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_float::begin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  *const f32</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_float_begin()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a7b98381338791cf4e2cbd5e111da7d4f" name="a7b98381338791cf4e2cbd5e111da7d4f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b98381338791cf4e2cbd5e111da7d4f">&#9670;&#160;</a></span>clear()</h2>
 
@@ -379,6 +400,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns true if the size is zero.</p>
 <p>Calls <span class="tt">MR_std_vector_float_empty()</span>. </p>
+
+</div>
+</div>
+<a id="aa37e5afffeaf3ec83671fad0f110730d" name="aa37e5afffeaf3ec83671fad0f110730d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa37e5afffeaf3ec83671fad0f110730d">&#9670;&#160;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_float::end </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  *const f32</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_float_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

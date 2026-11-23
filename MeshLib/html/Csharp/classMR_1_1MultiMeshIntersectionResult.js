@@ -7,6 +7,6 @@ var classMR_1_1MultiMeshIntersectionResult =
     [ "operator MR.MeshIntersectionResult", "classMR_1_1MultiMeshIntersectionResult.html#a70fd62a68d0bfa3e6b04cb697920363b", null ],
     [ "distanceAlongLine", "classMR_1_1MultiMeshIntersectionResult.html#a404e932c5529de77e8d6659b41fd06d8", null ],
     [ "mesh", "classMR_1_1MultiMeshIntersectionResult.html#ac572d4ac53a18a8d702c367369f1e72a", null ],
-    [ "mtp", "classMR_1_1MultiMeshIntersectionResult.html#a8a63dbc268281e6bd0b8d95648e56063", null ],
-    [ "proj", "classMR_1_1MultiMeshIntersectionResult.html#a767ccd85eb3e4aa00dec51f1a6ba9e08", null ]
+    [ "proj", "classMR_1_1MultiMeshIntersectionResult.html#a767ccd85eb3e4aa00dec51f1a6ba9e08", null ],
+    [ "tp", "classMR_1_1MultiMeshIntersectionResult.html#a3d77861f7a7c1ff182d473ece4277b13", null ]
 ];

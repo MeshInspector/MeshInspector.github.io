@@ -45,5 +45,8 @@ var MRId_8cs =
     [ "MR.EdgeId", "structMR_1_1EdgeId.html", "structMR_1_1EdgeId" ],
     [ "MR.ConstBox_VoxelId", "classMR_1_1ConstBox__VoxelId.html", "classMR_1_1ConstBox__VoxelId" ],
     [ "MR.Box_VoxelId", "classMR_1_1Box__VoxelId.html", "classMR_1_1Box__VoxelId" ],
-    [ "MR.VoxelId", "structMR_1_1VoxelId.html", "structMR_1_1VoxelId" ]
+    [ "MR.VoxelId", "structMR_1_1VoxelId.html", "structMR_1_1VoxelId" ],
+    [ "MR.ConstBox_ThreeVertIds", "classMR_1_1ConstBox__ThreeVertIds.html", "classMR_1_1ConstBox__ThreeVertIds" ],
+    [ "MR.Box_ThreeVertIds", "classMR_1_1Box__ThreeVertIds.html", "classMR_1_1Box__ThreeVertIds" ],
+    [ "MR.ThreeVertIds", "structMR_1_1ThreeVertIds.html", "structMR_1_1ThreeVertIds" ]
 ];

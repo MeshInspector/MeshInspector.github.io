@@ -172,6 +172,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a0821e0d4a39f7698727d75af84696a46" id="r_a0821e0d4a39f7698727d75af84696a46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0821e0d4a39f7698727d75af84696a46">MR_std_vector_MR_Vector2d_pop_back</a> (<a class="el" href="MRContour_8h.html#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *_this)</td></tr>
 <tr class="memitem:a8e8a824f26ac9a4f8490ab2c0db7595d" id="r_a8e8a824f26ac9a4f8490ab2c0db7595d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e8a824f26ac9a4f8490ab2c0db7595d">MR_std_vector_MR_Vector2d_insert</a> (<a class="el" href="MRContour_8h.html#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *_this, size_t position, <a class="el" href="structMR__Vector2d.html">MR_Vector2d</a> new_elem)</td></tr>
 <tr class="memitem:af64e2ef0539b9e166dcc1c305c17185e" id="r_af64e2ef0539b9e166dcc1c305c17185e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af64e2ef0539b9e166dcc1c305c17185e">MR_std_vector_MR_Vector2d_erase</a> (<a class="el" href="MRContour_8h.html#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *_this, size_t position)</td></tr>
+<tr class="memitem:ae8640d454084de97078295a472cd1296" id="r_ae8640d454084de97078295a472cd1296"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector2d.html">MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8640d454084de97078295a472cd1296">MR_std_vector_MR_Vector2d_begin</a> (const <a class="el" href="MRContour_8h.html#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *_this)</td></tr>
+<tr class="memitem:a7dcfb0da43ca0774a41c2c44a6f23e33" id="r_a7dcfb0da43ca0774a41c2c44a6f23e33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector2d.html">MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dcfb0da43ca0774a41c2c44a6f23e33">MR_std_vector_MR_Vector2d_end</a> (const <a class="el" href="MRContour_8h.html#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *_this)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a031ebec36f69e561648fdcf9b84ee79a" name="a031ebec36f69e561648fdcf9b84ee79a"></a>
@@ -278,6 +280,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>The last element or null if empty, mutable. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ae8640d454084de97078295a472cd1296" name="ae8640d454084de97078295a472cd1296"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8640d454084de97078295a472cd1296">&#9670;&#160;</a></span>MR_std_vector_MR_Vector2d_begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector2d.html">MR_Vector2d</a> * MR_std_vector_MR_Vector2d_begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRContour_8h.html#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -446,6 +466,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns true if the size is zero. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a7dcfb0da43ca0774a41c2c44a6f23e33" name="a7dcfb0da43ca0774a41c2c44a6f23e33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dcfb0da43ca0774a41c2c44a6f23e33">&#9670;&#160;</a></span>MR_std_vector_MR_Vector2d_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector2d.html">MR_Vector2d</a> * MR_std_vector_MR_Vector2d_end </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRContour_8h.html#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

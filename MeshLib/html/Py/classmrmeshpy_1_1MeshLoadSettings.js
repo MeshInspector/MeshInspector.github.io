@@ -2,7 +2,7 @@ var classmrmeshpy_1_1MeshLoadSettings =
 [
     [ "__init__", "classmrmeshpy_1_1MeshLoadSettings.html#ac423e6a6aa1e5c0ab3c453ed696e708b", null ],
     [ "__init__", "classmrmeshpy_1_1MeshLoadSettings.html#a73b2d88371a57f7041f4783c4c40ed7c", null ],
-    [ "__init__", "classmrmeshpy_1_1MeshLoadSettings.html#a7bd3915bb4596ed107599227252582fb", null ],
+    [ "__init__", "classmrmeshpy_1_1MeshLoadSettings.html#a3262acdf88cc0f82498b83fe643b77a6", null ],
     [ "assign", "classmrmeshpy_1_1MeshLoadSettings.html#acfb456d027102c0b3d980ddf5b69b6dd", null ],
     [ "callback", "classmrmeshpy_1_1MeshLoadSettings.html#a486ceb75675eddd9ba8f7ff6f262fb39", null ],
     [ "callback", "classmrmeshpy_1_1MeshLoadSettings.html#a9093ab1a3a81e518280c844621524b91", null ],
@@ -24,6 +24,8 @@ var classmrmeshpy_1_1MeshLoadSettings =
     [ "telemetrySignal", "classmrmeshpy_1_1MeshLoadSettings.html#a6b6c1110c734f92b2f44c184a2f47d5f", null ],
     [ "texture", "classmrmeshpy_1_1MeshLoadSettings.html#a9b4de9cac1f8a87ac96f3ea66cfd8df2", null ],
     [ "texture", "classmrmeshpy_1_1MeshLoadSettings.html#ae0204aba93b97868a5a000cec2d505db", null ],
+    [ "triCornerUvCoords", "classmrmeshpy_1_1MeshLoadSettings.html#ac19eceb1c42ffa9d7db16575e52a4efd", null ],
+    [ "triCornerUvCoords", "classmrmeshpy_1_1MeshLoadSettings.html#a5485bbb9180567c9c8e98f5efe01aaa7", null ],
     [ "uvCoords", "classmrmeshpy_1_1MeshLoadSettings.html#ab3261da989b685a73a2bc4956632ddd2", null ],
     [ "uvCoords", "classmrmeshpy_1_1MeshLoadSettings.html#a06c92c0f4495bd44ec9ada9b201b1369", null ],
     [ "xf", "classmrmeshpy_1_1MeshLoadSettings.html#a01b8fefb15a82930266b63f488f154f8", null ],

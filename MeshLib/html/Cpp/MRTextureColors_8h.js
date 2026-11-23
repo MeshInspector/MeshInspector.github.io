@@ -1,5 +1,6 @@
 var MRTextureColors_8h =
 [
+    [ "MR::convertTriCornerUVs", "group__GeneralGroup.html#gab73dff2378a304dd7b8a2860e111e024", null ],
     [ "MR::findVertexUV", "group__GeneralGroup.html#gac11e11e244aac02b0b69506b6657c706", null ],
     [ "MR::findVertexUVs", "group__GeneralGroup.html#ga5428c2a5d40a3d0e09c57ea16c47701b", null ],
     [ "MR::sampleVertexColor", "group__GeneralGroup.html#ga3d51a6426ec702d816828da6e6660c9e", null ],

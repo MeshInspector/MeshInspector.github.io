@@ -18,6 +18,7 @@ var classMR_1_1Const__Vector__Double__MRRegionId =
     [ "Equals", "classMR_1_1Const__Vector__Double__MRRegionId.html#a821720d57606502737d562e779cb1cb4", null ],
     [ "Equals", "classMR_1_1Const__Vector__Double__MRRegionId.html#a6a5013707458bb1e5debef3bae6c2afe", null ],
     [ "front", "classMR_1_1Const__Vector__Double__MRRegionId.html#ab92df0aa0a8db4ad2a0e785379f8c5b0", null ],
+    [ "GetEnumerator", "classMR_1_1Const__Vector__Double__MRRegionId.html#addc7a6548e1ba18ea1b5199f1f195be9", null ],
     [ "heapBytes", "classMR_1_1Const__Vector__Double__MRRegionId.html#a213c96a16cd50b3efa6e0b5779b968b5", null ],
     [ "maxSize", "classMR_1_1Const__Vector__Double__MRRegionId.html#a388dc6295f91939891c42dbd92ae8bc1", null ],
     [ "operator!=", "classMR_1_1Const__Vector__Double__MRRegionId.html#a70a83e7aeaebc9460283ce1cd6121d1e", null ],

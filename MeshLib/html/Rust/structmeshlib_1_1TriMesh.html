@@ -165,6 +165,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:afe759a2c390f2413b520bdbd86a30be0" id="r_afe759a2c390f2413b520bdbd86a30be0"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe759a2c390f2413b520bdbd86a30be0">new</a> () -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1TriMesh.html">meshlib::TriMesh</a> &gt;</td></tr>
 <tr class="memitem:ae5e95fadd727c650303e8f8e13be7516" id="r_ae5e95fadd727c650303e8f8e13be7516"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5e95fadd727c650303e8f8e13be7516">construct_from</a> (tris:&amp;<a class="el" href="structmeshlib_1_1Triangulation.html">meshlib::Triangulation</a>, points:&amp;<a class="el" href="structmeshlib_1_1VertCoords.html">meshlib::VertCoords</a>) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1TriMesh.html">meshlib::TriMesh</a> &gt;</td></tr>
 <tr class="memitem:ac6b62e79d654b4815b3ccdb5b6a7ede0" id="r_ac6b62e79d654b4815b3ccdb5b6a7ede0"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6b62e79d654b4815b3ccdb5b6a7ede0">construct_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1TriMesh.html">meshlib::TriMesh</a>) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1TriMesh.html">meshlib::TriMesh</a> &gt;</td></tr>
+<tr class="memitem:a46f33f6d500b3c6bcbffc6af2f5797fd" id="r_a46f33f6d500b3c6bcbffc6af2f5797fd"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46f33f6d500b3c6bcbffc6af2f5797fd">from_mesh_const_mr_mesh_ref</a> (mesh:&amp;<a class="el" href="structmeshlib_1_1Mesh.html">meshlib::Mesh</a>) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1TriMesh.html">meshlib::TriMesh</a> &gt;</td></tr>
+<tr class="memitem:a0d303f1e7670cb85c67356e923fc4131" id="r_a0d303f1e7670cb85c67356e923fc4131"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d303f1e7670cb85c67356e923fc4131">from_mesh_mr_mesh_rvalue_ref</a> (mesh:&amp;mut <a class="el" href="structmeshlib_1_1Mesh.html">meshlib::Mesh</a>) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1TriMesh.html">meshlib::TriMesh</a> &gt;</td></tr>
 <tr class="inherit_header pub_static_methods_structmeshlib_1_1CppClass"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_structmeshlib_1_1CppClass')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="structmeshlib_1_1CppClass.html">meshlib::CppClass</a></td></tr>
 <tr class="memitem:a11dc1e7c254dc595480cb0454755385e inherit pub_static_methods_structmeshlib_1_1CppClass" id="r_a11dc1e7c254dc595480cb0454755385e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1CppClass.html#a11dc1e7c254dc595480cb0454755385e">destroy</a> (ptr:*mut Self)</td></tr>
 <tr class="inherit_header pub_static_methods_structmeshlib_1_1CppCopy"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_structmeshlib_1_1CppCopy')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="structmeshlib_1_1CppCopy.html">meshlib::CppCopy</a></td></tr>
@@ -248,6 +250,60 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Generated from constructor <span class="tt">MR::TriMesh::TriMesh</span>.</p>
 <p>Calls <span class="tt">MR_TriMesh_ConstructFromAnother()</span>. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. </p>
+
+</div>
+</div>
+<a id="a46f33f6d500b3c6bcbffc6af2f5797fd" name="a46f33f6d500b3c6bcbffc6af2f5797fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46f33f6d500b3c6bcbffc6af2f5797fd">&#9670;&#160;</a></span>from_mesh_const_mr_mesh_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::TriMesh::from_mesh_const_mr_mesh_ref </td>
+          <td>(</td>
+          <td class="paramtype">mesh:&amp;<a class="el" href="structmeshlib_1_1Mesh.html">meshlib::Mesh</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1TriMesh.html">meshlib::TriMesh</a> &gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>constructs <a class="el" href="structmeshlib_1_1TriMesh.html">TriMesh</a> from valid triangles of given mesh; invalid faces get invalid vertex ids in the result Generated from method <span class="tt">MR::TriMesh::fromMesh</span>.</p>
+<p>Calls <span class="tt">MR_TriMesh_fromMesh_const_MR_Mesh_ref()</span>. </p>
+
+</div>
+</div>
+<a id="a0d303f1e7670cb85c67356e923fc4131" name="a0d303f1e7670cb85c67356e923fc4131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d303f1e7670cb85c67356e923fc4131">&#9670;&#160;</a></span>from_mesh_mr_mesh_rvalue_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::TriMesh::from_mesh_mr_mesh_rvalue_ref </td>
+          <td>(</td>
+          <td class="paramtype">mesh:&amp;mut <a class="el" href="structmeshlib_1_1Mesh.html">meshlib::Mesh</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1TriMesh.html">meshlib::TriMesh</a> &gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>constructs <a class="el" href="structmeshlib_1_1TriMesh.html">TriMesh</a> from valid triangles of given mesh; points of the mesh will be moved in the result Generated from method <span class="tt">MR::TriMesh::fromMesh</span>.</p>
+<p>Calls <span class="tt">MR_TriMesh_fromMesh_MR_Mesh_rvalue_ref()</span>. </p>
 
 </div>
 </div>

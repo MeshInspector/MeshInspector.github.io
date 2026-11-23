@@ -8,5 +8,6 @@ var structmeshlib_1_1SurfaceDistanceBuilder =
     [ "done_distance", "structmeshlib_1_1SurfaceDistanceBuilder.html#adf6e6f49437c418e03b1a68950bab955", null ],
     [ "grow_one", "structmeshlib_1_1SurfaceDistanceBuilder.html#acb3c8feaff12ed3accad878611208b80", null ],
     [ "set_max_vert_updates", "structmeshlib_1_1SurfaceDistanceBuilder.html#a61049fbf7337e473a9809606a6a00005", null ],
+    [ "set_no_local_minima", "structmeshlib_1_1SurfaceDistanceBuilder.html#a8d058d3934bb175c9e4a62dcfd4efb4c", null ],
     [ "take_distance_map", "structmeshlib_1_1SurfaceDistanceBuilder.html#a6ec2173b9b093615a87c7f87c8af5ccb", null ]
 ];

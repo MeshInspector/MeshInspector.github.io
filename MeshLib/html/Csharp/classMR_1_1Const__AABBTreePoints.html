@@ -142,7 +142,7 @@ $(function(){initNavTree('classMR_1_1Const__AABBTreePoints.html','','classMR_1_1
 </div><!--header-->
 <div class="contents">
 
-<p>bounding volume hierarchy for point cloud structure Generated from class <span class="tt"><a class="el" href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy for point cloud structure Generated from class MR.AABBTreePoints....">MR.AABBTreePoints</a></span>. This is the const half of the class.  
+<p>bounding volume hierarchy of a point cloud with up to 4 children per node in SIMD layout: every internal node keeps the boxes of its children; the points of leaf l are <a class="el" href="#a6082a61cd4cd4c770a2fb5eff2bd0e19" title="Generated from method MR.AABBTreePoints.orderedPoints.">orderedPoints()</a> [MaxNumPointsInLeaf * l, MaxNumPointsInLeaf * ( l + 1 ) ), all leaves are full except the last one Generated from class <span class="tt"><a class="el" href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy of a point cloud with up to 4 children per node in SIMD layout: every inter...">MR.AABBTreePoints</a></span>. This is the const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.Const_AABBTreePoints:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -151,27 +151,19 @@ $(function(){initNavTree('classMR_1_1Const__AABBTreePoints.html','','classMR_1_1
  <div class="center">
   <img src="classMR_1_1Const__AABBTreePoints.png" usemap="#MR_2EConst_5FAABBTreePoints_map" alt=""/>
   <map id="MR_2EConst_5FAABBTreePoints_map" name="MR_2EConst_5FAABBTreePoints_map">
-<area href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy for point cloud structure Generated from class MR.AABBTreePoints...." alt="MR.AABBTreePoints" shape="rect" coords="89,112,257,136"/>
+<area href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy of a point cloud with up to 4 children per node in SIMD layout: every inter..." alt="MR.AABBTreePoints" shape="rect" coords="89,112,257,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:_5FInOptConst_5FNode" id="r__5FInOptConst_5FNode"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_InOptConst_Node</b></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used for optional parameters of class <span class="tt"><a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Node.html" title="Generated from class MR.AABBTreePoints.Node. This is the non-const half of the class.">Node</a></span> with default arguments. This is only used const parameters. For non-const ones we have <span class="tt">_InOptMut_Node</span>. Usage: <br /></td></tr>
 <tr class="memitem:_5FInOptConst_5FPoint" id="r__5FInOptConst_5FPoint"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_InOptConst_Point</b></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used for optional parameters of class <span class="tt"><a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Point.html" title="Generated from class MR.AABBTreePoints.Point. This is the non-const half of the class.">Point</a></span> with default arguments. This is only used const parameters. For non-const ones we have <span class="tt">_InOptMut_Point</span>. Usage: <br /></td></tr>
-<tr class="memitem:_5FInOptMut_5FNode" id="r__5FInOptMut_5FNode"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_InOptMut_Node</b></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used for optional parameters of class <span class="tt"><a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Node.html" title="Generated from class MR.AABBTreePoints.Node. This is the non-const half of the class.">Node</a></span> with default arguments. This is only used mutable parameters. For const ones we have <span class="tt">_InOptConst_Node</span>. Usage: <br /></td></tr>
 <tr class="memitem:_5FInOptMut_5FPoint" id="r__5FInOptMut_5FPoint"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_InOptMut_Point</b></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used for optional parameters of class <span class="tt"><a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Point.html" title="Generated from class MR.AABBTreePoints.Point. This is the non-const half of the class.">Point</a></span> with default arguments. This is only used mutable parameters. For const ones we have <span class="tt">_InOptConst_Point</span>. Usage: <br /></td></tr>
 <tr class="memitem:_5FUnderlying" id="r__5FUnderlying"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>_Underlying</b></td></tr>
-<tr class="memitem:Const_5FNode" id="r_Const_5FNode"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Const__Node.html">Const_Node</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <span class="tt"><a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Node.html" title="Generated from class MR.AABBTreePoints.Node. This is the non-const half of the class.">MR.AABBTreePoints.Node</a></span>. This is the const half of the class.  <a href="classMR_1_1Const__AABBTreePoints_1_1Const__Node.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Const_5FPoint" id="r_Const_5FPoint"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Const__Point.html">Const_Point</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <span class="tt"><a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Point.html" title="Generated from class MR.AABBTreePoints.Point. This is the non-const half of the class.">MR.AABBTreePoints.Point</a></span>. This is the const half of the class.  <a href="classMR_1_1Const__AABBTreePoints_1_1Const__Point.html#details">More...</a><br /></td></tr>
-<tr class="memitem:Node" id="r_Node"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Node.html">Node</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <span class="tt"><a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Node.html" title="Generated from class MR.AABBTreePoints.Node. This is the non-const half of the class.">MR.AABBTreePoints.Node</a></span>. This is the non-const half of the class.  <a href="classMR_1_1Const__AABBTreePoints_1_1Node.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Point" id="r_Point"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Point.html">Point</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <span class="tt"><a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Point.html" title="Generated from class MR.AABBTreePoints.Point. This is the non-const half of the class.">MR.AABBTreePoints.Point</a></span>. This is the non-const half of the class.  <a href="classMR_1_1Const__AABBTreePoints_1_1Point.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
@@ -186,12 +178,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5925db33ec752ca5391554cbbd8ff208"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for vertices of given mesh Generated from constructor <span class="tt"><a class="el" href="classMR_1_1AABBTreePoints.html#a644a4d5a0d24918d9cdab7d496128704" title="Generated from constructor MR.AABBTreePoints.AABBTreePoints.">MR.AABBTreePoints.AABBTreePoints</a></span>.  <br /></td></tr>
 <tr class="memitem:ad8ca670f6ff5ea7a9519b90550c7aa48" id="r_ad8ca670f6ff5ea7a9519b90550c7aa48"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8ca670f6ff5ea7a9519b90550c7aa48">Const_AABBTreePoints</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? validPoints=null)</td></tr>
 <tr class="memdesc:ad8ca670f6ff5ea7a9519b90550c7aa48"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree from given valid points Generated from constructor <span class="tt"><a class="el" href="classMR_1_1AABBTreePoints.html#a644a4d5a0d24918d9cdab7d496128704" title="Generated from constructor MR.AABBTreePoints.AABBTreePoints.">MR.AABBTreePoints.AABBTreePoints</a></span>.  <br /></td></tr>
-<tr class="memitem:a25e7e1b9c562742fd50b72870b6e5839" id="r_a25e7e1b9c562742fd50b72870b6e5839"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId.html">MR.Const_Vector_MRAABBTreePointsNode_MRNodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25e7e1b9c562742fd50b72870b6e5839">nodes</a> ()</td></tr>
-<tr class="memdesc:a25e7e1b9c562742fd50b72870b6e5839"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a25e7e1b9c562742fd50b72870b6e5839" title="Generated from method MR.AABBTreePoints.nodes.">MR.AABBTreePoints.nodes</a></span>.  <br /></td></tr>
-<tr class="memitem:a3d876e6c1e51de7124d25d22b7d8d555" id="r_a3d876e6c1e51de7124d25d22b7d8d555"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d876e6c1e51de7124d25d22b7d8d555">getBoundingBox</a> ()</td></tr>
-<tr class="memdesc:a3d876e6c1e51de7124d25d22b7d8d555"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the root node bounding box Generated from method <span class="tt"><a class="el" href="#a3d876e6c1e51de7124d25d22b7d8d555" title="returns the root node bounding box Generated from method MR.AABBTreePoints.getBoundingBox.">MR.AABBTreePoints.getBoundingBox</a></span>.  <br /></td></tr>
 <tr class="memitem:a6082a61cd4cd4c770a2fb5eff2bd0e19" id="r_a6082a61cd4cd4c770a2fb5eff2bd0e19"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRAABBTreePointsPoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6082a61cd4cd4c770a2fb5eff2bd0e19">orderedPoints</a> ()</td></tr>
 <tr class="memdesc:a6082a61cd4cd4c770a2fb5eff2bd0e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a6082a61cd4cd4c770a2fb5eff2bd0e19" title="Generated from method MR.AABBTreePoints.orderedPoints.">MR.AABBTreePoints.orderedPoints</a></span>.  <br /></td></tr>
+<tr class="memitem:a43aedf73e12d9facc0248751862015a5" id="r_a43aedf73e12d9facc0248751862015a5"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43aedf73e12d9facc0248751862015a5">empty</a> ()</td></tr>
+<tr class="memdesc:a43aedf73e12d9facc0248751862015a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the tree has no points Generated from method <span class="tt"><a class="el" href="#a43aedf73e12d9facc0248751862015a5" title="returns true if the tree has no points Generated from method MR.AABBTreePoints.empty.">MR.AABBTreePoints.empty</a></span>.  <br /></td></tr>
+<tr class="memitem:a1e583e83167c76a60dbe4b95d9f14d17" id="r_a1e583e83167c76a60dbe4b95d9f14d17"><td class="memItemLeft" align="right" valign="top">unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e583e83167c76a60dbe4b95d9f14d17">numLeaves</a> ()</td></tr>
+<tr class="memdesc:a1e583e83167c76a60dbe4b95d9f14d17"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of leaves Generated from method <span class="tt"><a class="el" href="#a1e583e83167c76a60dbe4b95d9f14d17" title="the number of leaves Generated from method MR.AABBTreePoints.numLeaves.">MR.AABBTreePoints.numLeaves</a></span>.  <br /></td></tr>
+<tr class="memitem:a996055c57acb58e050e2d1399d11027a" id="r_a996055c57acb58e050e2d1399d11027a"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Pair_Int_Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a996055c57acb58e050e2d1399d11027a">leafPointRange</a> (int leaf)</td></tr>
+<tr class="memdesc:a996055c57acb58e050e2d1399d11027a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns [first,last) indices of the points of given leaf in <a class="el" href="#a6082a61cd4cd4c770a2fb5eff2bd0e19" title="Generated from method MR.AABBTreePoints.orderedPoints.">orderedPoints()</a> Generated from method <span class="tt"><a class="el" href="#a996055c57acb58e050e2d1399d11027a" title="returns [first,last) indices of the points of given leaf in orderedPoints() Generated from method MR....">MR.AABBTreePoints.leafPointRange</a></span>.  <br /></td></tr>
+<tr class="memitem:a00e08b3b714b99c16dc4b91cd2562884" id="r_a00e08b3b714b99c16dc4b91cd2562884"><td class="memItemLeft" align="right" valign="top">unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00e08b3b714b99c16dc4b91cd2562884">rootRef</a> ()</td></tr>
+<tr class="memdesc:a00e08b3b714b99c16dc4b91cd2562884"><td class="mdescLeft">&#160;</td><td class="mdescRight">the reference to the root as in SimdNode::child: 0, or ~0 if the tree has one leaf only Generated from method <span class="tt"><a class="el" href="#a00e08b3b714b99c16dc4b91cd2562884" title="the reference to the root as in SimdNode.child: 0, or ~0 if the tree has one leaf only Generated from...">MR.AABBTreePoints.rootRef</a></span>.  <br /></td></tr>
+<tr class="memitem:a3d876e6c1e51de7124d25d22b7d8d555" id="r_a3d876e6c1e51de7124d25d22b7d8d555"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d876e6c1e51de7124d25d22b7d8d555">getBoundingBox</a> ()</td></tr>
+<tr class="memdesc:a3d876e6c1e51de7124d25d22b7d8d555"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the bounding box of all points Generated from method <span class="tt"><a class="el" href="#a3d876e6c1e51de7124d25d22b7d8d555" title="returns the bounding box of all points Generated from method MR.AABBTreePoints.getBoundingBox.">MR.AABBTreePoints.getBoundingBox</a></span>.  <br /></td></tr>
 <tr class="memitem:a330027a0b3fe60d3a4ff524cc72512ac" id="r_a330027a0b3fe60d3a4ff524cc72512ac"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a330027a0b3fe60d3a4ff524cc72512ac">getLeafOrder</a> (<a class="el" href="classMR_1_1VertBMap.html">MR.VertBMap</a> vertMap)</td></tr>
 <tr class="memdesc:a330027a0b3fe60d3a4ff524cc72512ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the mapping original <a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">VertId</a> to new id following the points order in the tree; buffer in vertMap must be resized before the call, and caller is responsible for filling missing vertex elements Generated from method <span class="tt"><a class="el" href="#a330027a0b3fe60d3a4ff524cc72512ac" title="returns the mapping original VertId to new id following the points order in the tree; buffer in vertM...">MR.AABBTreePoints.getLeafOrder</a></span>.  <br /></td></tr>
 <tr class="memitem:a9e9592794a26def5ed8a4abaddaa921a" id="r_a9e9592794a26def5ed8a4abaddaa921a"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e9592794a26def5ed8a4abaddaa921a">heapBytes</a> ()</td></tr>
@@ -205,8 +203,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0f498c1406136ec7ee09dc477eb1e86c"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for vertices of given mesh Generated from constructor <span class="tt"><a class="el" href="classMR_1_1AABBTreePoints.html#a644a4d5a0d24918d9cdab7d496128704" title="Generated from constructor MR.AABBTreePoints.AABBTreePoints.">MR.AABBTreePoints.AABBTreePoints</a></span>.  <br /></td></tr>
 <tr class="memitem:a28c745d63a05c8cefd4305e39bcd40c7" id="r_a28c745d63a05c8cefd4305e39bcd40c7"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28c745d63a05c8cefd4305e39bcd40c7">operator Const_AABBTreePoints</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points)</td></tr>
 <tr class="memdesc:a28c745d63a05c8cefd4305e39bcd40c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree from given valid points Generated from constructor <span class="tt"><a class="el" href="classMR_1_1AABBTreePoints.html#a644a4d5a0d24918d9cdab7d496128704" title="Generated from constructor MR.AABBTreePoints.AABBTreePoints.">MR.AABBTreePoints.AABBTreePoints</a></span>.  <br /></td></tr>
-<tr class="memitem:a205923661aef6ba04d17e3264cd9d0fb" id="r_a205923661aef6ba04d17e3264cd9d0fb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a205923661aef6ba04d17e3264cd9d0fb">rootNodeId</a> ()</td></tr>
-<tr class="memdesc:a205923661aef6ba04d17e3264cd9d0fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a205923661aef6ba04d17e3264cd9d0fb" title="Generated from method MR.AABBTreePoints.rootNodeId.">MR.AABBTreePoints.rootNodeId</a></span>.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -214,17 +210,20 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
+<tr class="memitem:ab7fd3f421324a3e55fdbf2bea15eed2f" id="r_ab7fd3f421324a3e55fdbf2bea15eed2f"><td class="memItemLeft" align="right" valign="top">static unsafe int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7fd3f421324a3e55fdbf2bea15eed2f">__ref_storage_MaxChildren</a></td></tr>
 <tr class="memitem:a97d5522e4ca15ec82e6d19936fc1d1f2" id="r_a97d5522e4ca15ec82e6d19936fc1d1f2"><td class="memItemLeft" align="right" valign="top">static unsafe int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97d5522e4ca15ec82e6d19936fc1d1f2">__ref_storage_MaxNumPointsInLeaf</a></td></tr>
+<tr class="memitem:a29708f5484406a79af493343d181faba" id="r_a29708f5484406a79af493343d181faba"><td class="memItemLeft" align="right" valign="top">static unsafe int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29708f5484406a79af493343d181faba">__ref_storage_MaxDepth</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:a0141a0e16970ef8e4469763c494ad67a" id="r_a0141a0e16970ef8e4469763c494ad67a"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0141a0e16970ef8e4469763c494ad67a">MaxChildren</a><code> [get]</code></td></tr>
 <tr class="memitem:a2cebebbf509c179cd4610c077ee40af2" id="r_a2cebebbf509c179cd4610c077ee40af2"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cebebbf509c179cd4610c077ee40af2">MaxNumPointsInLeaf</a><code> [get]</code></td></tr>
 <tr class="memdesc:a2cebebbf509c179cd4610c077ee40af2"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum number of points in leaf node of tree (all of leafs should have this number of points except last one)  <br /></td></tr>
-<tr class="memitem:a947fe77b1f64c2f7824ce93ee916d8dc" id="r_a947fe77b1f64c2f7824ce93ee916d8dc"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Const__Node.html">MR.AABBTreePoints.Const_Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a947fe77b1f64c2f7824ce93ee916d8dc">this[MR.NodeId nid]</a><code> [get]</code></td></tr>
-<tr class="memdesc:a947fe77b1f64c2f7824ce93ee916d8dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::AABBTreePoints::operator[]</span>.  <br /></td></tr>
+<tr class="memitem:ad103976e5c9b2b3190628039d936a9a1" id="r_ad103976e5c9b2b3190628039d936a9a1"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad103976e5c9b2b3190628039d936a9a1">MaxDepth</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad103976e5c9b2b3190628039d936a9a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">the deepest level of a node (the root is at 0): the stacks of the traversals are sized for it  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>bounding volume hierarchy for point cloud structure Generated from class <span class="tt"><a class="el" href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy for point cloud structure Generated from class MR.AABBTreePoints....">MR.AABBTreePoints</a></span>. This is the const half of the class. </p>
+<div class="textblock"><p>bounding volume hierarchy of a point cloud with up to 4 children per node in SIMD layout: every internal node keeps the boxes of its children; the points of leaf l are <a class="el" href="#a6082a61cd4cd4c770a2fb5eff2bd0e19" title="Generated from method MR.AABBTreePoints.orderedPoints.">orderedPoints()</a> [MaxNumPointsInLeaf * l, MaxNumPointsInLeaf * ( l + 1 ) ), all leaves are full except the last one Generated from class <span class="tt"><a class="el" href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy of a point cloud with up to 4 children per node in SIMD layout: every inter...">MR.AABBTreePoints</a></span>. This is the const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a71975d85f85bd69fca85554f914904bc" name="a71975d85f85bd69fca85554f914904bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a71975d85f85bd69fca85554f914904bc">&#9670;&#160;</a></span>Const_AABBTreePoints() <span class="overload">[1/4]</span></h2>
@@ -389,6 +388,33 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a43aedf73e12d9facc0248751862015a5" name="a43aedf73e12d9facc0248751862015a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43aedf73e12d9facc0248751862015a5">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe bool MR.Const_AABBTreePoints.empty </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if the tree has no points Generated from method <span class="tt"><a class="el" href="#a43aedf73e12d9facc0248751862015a5" title="returns true if the tree has no points Generated from method MR.AABBTreePoints.empty.">MR.AABBTreePoints.empty</a></span>. </p>
+
+</div>
+</div>
 <a id="a3d876e6c1e51de7124d25d22b7d8d555" name="a3d876e6c1e51de7124d25d22b7d8d555"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d876e6c1e51de7124d25d22b7d8d555">&#9670;&#160;</a></span>getBoundingBox()</h2>
 
@@ -412,7 +438,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns the root node bounding box Generated from method <span class="tt"><a class="el" href="#a3d876e6c1e51de7124d25d22b7d8d555" title="returns the root node bounding box Generated from method MR.AABBTreePoints.getBoundingBox.">MR.AABBTreePoints.getBoundingBox</a></span>. </p>
+<p>returns the bounding box of all points Generated from method <span class="tt"><a class="el" href="#a3d876e6c1e51de7124d25d22b7d8d555" title="returns the bounding box of all points Generated from method MR.AABBTreePoints.getBoundingBox.">MR.AABBTreePoints.getBoundingBox</a></span>. </p>
 
 </div>
 </div>
@@ -470,8 +496,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a25e7e1b9c562742fd50b72870b6e5839" name="a25e7e1b9c562742fd50b72870b6e5839"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25e7e1b9c562742fd50b72870b6e5839">&#9670;&#160;</a></span>nodes()</h2>
+<a id="a996055c57acb58e050e2d1399d11027a" name="a996055c57acb58e050e2d1399d11027a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a996055c57acb58e050e2d1399d11027a">&#9670;&#160;</a></span>leafPointRange()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -480,7 +506,34 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe <a class="el" href="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId.html">MR.Const_Vector_MRAABBTreePointsNode_MRNodeId</a> MR.Const_AABBTreePoints.nodes </td>
+          <td class="memname">unsafe MR.Std.Pair_Int_Int MR.Const_AABBTreePoints.leafPointRange </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>leaf</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns [first,last) indices of the points of given leaf in <a class="el" href="#a6082a61cd4cd4c770a2fb5eff2bd0e19" title="Generated from method MR.AABBTreePoints.orderedPoints.">orderedPoints()</a> Generated from method <span class="tt"><a class="el" href="#a996055c57acb58e050e2d1399d11027a" title="returns [first,last) indices of the points of given leaf in orderedPoints() Generated from method MR....">MR.AABBTreePoints.leafPointRange</a></span>. </p>
+
+</div>
+</div>
+<a id="a1e583e83167c76a60dbe4b95d9f14d17" name="a1e583e83167c76a60dbe4b95d9f14d17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e583e83167c76a60dbe4b95d9f14d17">&#9670;&#160;</a></span>numLeaves()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe int MR.Const_AABBTreePoints.numLeaves </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -493,7 +546,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from method <span class="tt"><a class="el" href="#a25e7e1b9c562742fd50b72870b6e5839" title="Generated from method MR.AABBTreePoints.nodes.">MR.AABBTreePoints.nodes</a></span>. </p>
+<p>the number of leaves Generated from method <span class="tt"><a class="el" href="#a1e583e83167c76a60dbe4b95d9f14d17" title="the number of leaves Generated from method MR.AABBTreePoints.numLeaves.">MR.AABBTreePoints.numLeaves</a></span>. </p>
 
 </div>
 </div>
@@ -605,8 +658,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a205923661aef6ba04d17e3264cd9d0fb" name="a205923661aef6ba04d17e3264cd9d0fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a205923661aef6ba04d17e3264cd9d0fb">&#9670;&#160;</a></span>rootNodeId()</h2>
+<a id="a00e08b3b714b99c16dc4b91cd2562884" name="a00e08b3b714b99c16dc4b91cd2562884"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00e08b3b714b99c16dc4b91cd2562884">&#9670;&#160;</a></span>rootRef()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -615,7 +668,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> MR.Const_AABBTreePoints.rootNodeId </td>
+          <td class="memname">unsafe int MR.Const_AABBTreePoints.rootRef </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -623,16 +676,60 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from method <span class="tt"><a class="el" href="#a205923661aef6ba04d17e3264cd9d0fb" title="Generated from method MR.AABBTreePoints.rootNodeId.">MR.AABBTreePoints.rootNodeId</a></span>. </p>
+<p>the reference to the root as in SimdNode::child: 0, or ~0 if the tree has one leaf only Generated from method <span class="tt"><a class="el" href="#a00e08b3b714b99c16dc4b91cd2562884" title="the reference to the root as in SimdNode.child: 0, or ~0 if the tree has one leaf only Generated from...">MR.AABBTreePoints.rootRef</a></span>. </p>
 
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="ab7fd3f421324a3e55fdbf2bea15eed2f" name="ab7fd3f421324a3e55fdbf2bea15eed2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7fd3f421324a3e55fdbf2bea15eed2f">&#9670;&#160;</a></span>__ref_storage_MaxChildren</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe int* MR.Const_AABBTreePoints.__ref_storage_MaxChildren</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a29708f5484406a79af493343d181faba" name="a29708f5484406a79af493343d181faba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29708f5484406a79af493343d181faba">&#9670;&#160;</a></span>__ref_storage_MaxDepth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe int* MR.Const_AABBTreePoints.__ref_storage_MaxDepth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a97d5522e4ca15ec82e6d19936fc1d1f2" name="a97d5522e4ca15ec82e6d19936fc1d1f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a97d5522e4ca15ec82e6d19936fc1d1f2">&#9670;&#160;</a></span>__ref_storage_MaxNumPointsInLeaf</h2>
 
@@ -656,6 +753,52 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">Property Documentation</h2>
+<a id="a0141a0e16970ef8e4469763c494ad67a" name="a0141a0e16970ef8e4469763c494ad67a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0141a0e16970ef8e4469763c494ad67a">&#9670;&#160;</a></span>MaxChildren</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe int MR.Const_AABBTreePoints.MaxChildren</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad103976e5c9b2b3190628039d936a9a1" name="ad103976e5c9b2b3190628039d936a9a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad103976e5c9b2b3190628039d936a9a1">&#9670;&#160;</a></span>MaxDepth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe int MR.Const_AABBTreePoints.MaxDepth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the deepest level of a node (the root is at 0): the stacks of the traversals are sized for it </p>
+
+</div>
+</div>
 <a id="a2cebebbf509c179cd4610c077ee40af2" name="a2cebebbf509c179cd4610c077ee40af2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2cebebbf509c179cd4610c077ee40af2">&#9670;&#160;</a></span>MaxNumPointsInLeaf</h2>
 
@@ -677,30 +820,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>maximum number of points in leaf node of tree (all of leafs should have this number of points except last one) </p>
-
-</div>
-</div>
-<a id="a947fe77b1f64c2f7824ce93ee916d8dc" name="a947fe77b1f64c2f7824ce93ee916d8dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a947fe77b1f64c2f7824ce93ee916d8dc">&#9670;&#160;</a></span>this[MR.NodeId nid]</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe <a class="el" href="classMR_1_1Const__AABBTreePoints_1_1Const__Node.html">MR.AABBTreePoints.Const_Node</a> MR.Const_AABBTreePoints.this[<a class="el" href="structMR_1_1NodeId.html">MR.NodeId</a> nid]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Generated from method <span class="tt">MR::AABBTreePoints::operator[]</span>. </p>
 
 </div>
 </div>

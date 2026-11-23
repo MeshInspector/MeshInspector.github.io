@@ -134,7 +134,6 @@ $(function(){initNavTree('classMR_1_1AABBTreePoints.html','','classMR_1_1AABBTre
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classMR_1_1AABBTreePoints-members.html">List of all members</a>  </div>
@@ -142,28 +141,31 @@ $(function(){initNavTree('classMR_1_1AABBTreePoints.html','','classMR_1_1AABBTre
 </div><!--header-->
 <div class="contents">
 
-<p>bounding volume hierarchy for point cloud structure  
- <a href="#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="MRAABBTreePoints_8h_source.html">MRMesh/MRAABBTreePoints.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:Node" id="r_Node"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreePoints_1_1Node.html">Node</a></td></tr>
 <tr class="memitem:Point" id="r_Point"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AABBTreePoints_1_1Point.html">Point</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a00cc491c7e366a8a33115d69e567c898" id="r_a00cc491c7e366a8a33115d69e567c898"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00cc491c7e366a8a33115d69e567c898">NodeVec</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1AABBTreePoints_1_1Node.html">Node</a>, NodeId&gt;</td></tr>
-<tr class="memitem:a2f7aeba60ac6d266e6f4c8994d4f534c" id="r_a2f7aeba60ac6d266e6f4c8994d4f534c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f7aeba60ac6d266e6f4c8994d4f534c">NodeBitSet</a> = TaggedBitSet&lt;NodeTag&gt;</td></tr>
+<tr class="memitem:afd9a2f934a67f4e2ee53b37caf10b0d1" id="r_afd9a2f934a67f4e2ee53b37caf10b0d1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd9a2f934a67f4e2ee53b37caf10b0d1">SimdNode</a> = <a class="el" href="structMR_1_1AABBTreeSimdNode.html">AABBTreeSimdNode</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6f80276e2b9c2f30d60c17bf896f6137" id="r_a6f80276e2b9c2f30d60c17bf896f6137"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a00cc491c7e366a8a33115d69e567c898">NodeVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f80276e2b9c2f30d60c17bf896f6137">nodes</a> () const</td></tr>
-<tr class="memitem:a067a3df7f5d829eb589583ac6cd370b4" id="r_a067a3df7f5d829eb589583ac6cd370b4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1AABBTreePoints_1_1Node.html">Node</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a067a3df7f5d829eb589583ac6cd370b4">operator[]</a> (NodeId nid) const</td></tr>
-<tr class="memitem:a9326f1fdd5cacabcf51e5eb51f56e53e" id="r_a9326f1fdd5cacabcf51e5eb51f56e53e"><td class="memItemLeft" align="right" valign="top">Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9326f1fdd5cacabcf51e5eb51f56e53e">getBoundingBox</a> () const</td></tr>
-<tr class="memdesc:a9326f1fdd5cacabcf51e5eb51f56e53e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the root node bounding box  <br /></td></tr>
 <tr class="memitem:a41964dab96066d649af6862a0978c4e2" id="r_a41964dab96066d649af6862a0978c4e2"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="structMR_1_1AABBTreePoints_1_1Point.html">Point</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41964dab96066d649af6862a0978c4e2">orderedPoints</a> () const</td></tr>
+<tr class="memitem:af577740b39ee217ddf55d839716d1d54" id="r_af577740b39ee217ddf55d839716d1d54"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af577740b39ee217ddf55d839716d1d54">empty</a> () const</td></tr>
+<tr class="memdesc:af577740b39ee217ddf55d839716d1d54"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the tree has no points  <br /></td></tr>
+<tr class="memitem:a28a4d08720511965f02737e2ec12006c" id="r_a28a4d08720511965f02737e2ec12006c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#afd9a2f934a67f4e2ee53b37caf10b0d1">SimdNode</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28a4d08720511965f02737e2ec12006c">simdNodes</a> () const</td></tr>
+<tr class="memdesc:a28a4d08720511965f02737e2ec12006c"><td class="mdescLeft">&#160;</td><td class="mdescRight">the internal nodes, the root is the first one (if the tree has more than MaxNumPointsInLeaf points); the children follow their parent  <br /></td></tr>
+<tr class="memitem:a4096bebd44e3d588f51c3f3f8269f7f8" id="r_a4096bebd44e3d588f51c3f3f8269f7f8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4096bebd44e3d588f51c3f3f8269f7f8">numLeaves</a> () const</td></tr>
+<tr class="memdesc:a4096bebd44e3d588f51c3f3f8269f7f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of leaves  <br /></td></tr>
+<tr class="memitem:a508f543d3013720199a1332bee0611dc" id="r_a508f543d3013720199a1332bee0611dc"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a508f543d3013720199a1332bee0611dc">leafPointRange</a> (int leaf) const</td></tr>
+<tr class="memdesc:a508f543d3013720199a1332bee0611dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns [first,last) indices of the points of given leaf in <a class="el" href="#a41964dab96066d649af6862a0978c4e2">orderedPoints()</a>  <br /></td></tr>
+<tr class="memitem:afdc0afe75f5b7da19ad7e40a43b83e51" id="r_afdc0afe75f5b7da19ad7e40a43b83e51"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdc0afe75f5b7da19ad7e40a43b83e51">rootRef</a> () const</td></tr>
+<tr class="memdesc:afdc0afe75f5b7da19ad7e40a43b83e51"><td class="mdescLeft">&#160;</td><td class="mdescRight">the reference to the root as in <a class="el" href="structMR_1_1AABBTreeSimdNode.html#a607a824daeff05b1b4e0a8b96779707e" title="i-th child: the index in simdNodes() if &gt; 0, otherwise ~(the index of the leaf); 0 in unused slots (t...">SimdNode::child</a>: 0, or ~0 if the tree has one leaf only  <br /></td></tr>
+<tr class="memitem:a9326f1fdd5cacabcf51e5eb51f56e53e" id="r_a9326f1fdd5cacabcf51e5eb51f56e53e"><td class="memItemLeft" align="right" valign="top">Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9326f1fdd5cacabcf51e5eb51f56e53e">getBoundingBox</a> () const</td></tr>
+<tr class="memdesc:a9326f1fdd5cacabcf51e5eb51f56e53e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the bounding box of all points  <br /></td></tr>
 <tr class="memitem:a4962c21ee26cb1234d93a6f168ce7466" id="r_a4962c21ee26cb1234d93a6f168ce7466"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4962c21ee26cb1234d93a6f168ce7466">AABBTreePoints</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud)</td></tr>
 <tr class="memdesc:a4962c21ee26cb1234d93a6f168ce7466"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for given point cloud  <br /></td></tr>
 <tr class="memitem:ab9f3b0eea86a5df33059dbaad287844e" id="r_ab9f3b0eea86a5df33059dbaad287844e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9f3b0eea86a5df33059dbaad287844e">AABBTreePoints</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
@@ -179,14 +181,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a318b5add1fc832e3c42913b9bc637d31"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="memitem:a2c793bd3c62f465fbdf1e4d9494943e8" id="r_a2c793bd3c62f465fbdf1e4d9494943e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c793bd3c62f465fbdf1e4d9494943e8">refit</a> (const VertCoords &amp;newCoords, const VertBitSet *changedVerts)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad5101a692a96a2152123f35e2aa38098" id="r_ad5101a692a96a2152123f35e2aa38098"><td class="memItemLeft" align="right" valign="top">static NodeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5101a692a96a2152123f35e2aa38098">rootNodeId</a> ()</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
+<tr class="memitem:acef69888f23c24bda518c28ee5621fa4" id="r_acef69888f23c24bda518c28ee5621fa4"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acef69888f23c24bda518c28ee5621fa4">MaxChildren</a> = 4</td></tr>
 <tr class="memitem:a797d5bcdfaacbc53e37b10ddac496527" id="r_a797d5bcdfaacbc53e37b10ddac496527"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a797d5bcdfaacbc53e37b10ddac496527">MaxNumPointsInLeaf</a> = 16</td></tr>
 <tr class="memdesc:a797d5bcdfaacbc53e37b10ddac496527"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum number of points in leaf node of tree (all of leafs should have this number of points except last one)  <br /></td></tr>
+<tr class="memitem:a7f82e60481f3400de3a783f0be58255d" id="r_a7f82e60481f3400de3a783f0be58255d"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f82e60481f3400de3a783f0be58255d">MaxDepth</a> = 16</td></tr>
+<tr class="memdesc:a7f82e60481f3400de3a783f0be58255d"><td class="mdescLeft">&#160;</td><td class="mdescRight">the deepest level of a node (the root is at 0): the stacks of the traversals are sized for it  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -194,30 +195,16 @@ Friends</h2></td></tr>
 <tr class="memitem:a35c04a1429847484ecc187e053a7a5d3" id="r_a35c04a1429847484ecc187e053a7a5d3"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35c04a1429847484ecc187e053a7a5d3">SharedThreadSafeOwner&lt; AABBTreePoints &gt;</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>bounding volume hierarchy for point cloud structure </p>
+<div class="textblock"><p>bounding volume hierarchy of a point cloud with up to 4 children per node in SIMD layout: every internal node keeps the boxes of its children; the points of leaf l are <a class="el" href="#a41964dab96066d649af6862a0978c4e2">orderedPoints()</a> [MaxNumPointsInLeaf * l, MaxNumPointsInLeaf * ( l + 1 ) ), all leaves are full except the last one </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a2f7aeba60ac6d266e6f4c8994d4f534c" name="a2f7aeba60ac6d266e6f4c8994d4f534c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f7aeba60ac6d266e6f4c8994d4f534c">&#9670;&#160;</a></span>NodeBitSet</h2>
+<a id="afd9a2f934a67f4e2ee53b37caf10b0d1" name="afd9a2f934a67f4e2ee53b37caf10b0d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd9a2f934a67f4e2ee53b37caf10b0d1">&#9670;&#160;</a></span>SimdNode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a2f7aeba60ac6d266e6f4c8994d4f534c">MR::AABBTreePoints::NodeBitSet</a> = TaggedBitSet&lt;NodeTag&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a00cc491c7e366a8a33115d69e567c898" name="a00cc491c7e366a8a33115d69e567c898"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00cc491c7e366a8a33115d69e567c898">&#9670;&#160;</a></span>NodeVec</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#a00cc491c7e366a8a33115d69e567c898">MR::AABBTreePoints::NodeVec</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1AABBTreePoints_1_1Node.html">Node</a>, NodeId&gt;</td>
+          <td class="memname">using <a class="el" href="#afd9a2f934a67f4e2ee53b37caf10b0d1">MR::AABBTreePoints::SimdNode</a> = <a class="el" href="structMR_1_1AABBTreeSimdNode.html">AABBTreeSimdNode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -342,6 +329,33 @@ Friends</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="af577740b39ee217ddf55d839716d1d54" name="af577740b39ee217ddf55d839716d1d54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af577740b39ee217ddf55d839716d1d54">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::AABBTreePoints::empty </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if the tree has no points </p>
+
+</div>
+</div>
 <a id="a9326f1fdd5cacabcf51e5eb51f56e53e" name="a9326f1fdd5cacabcf51e5eb51f56e53e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9326f1fdd5cacabcf51e5eb51f56e53e">&#9670;&#160;</a></span>getBoundingBox()</h2>
 
@@ -365,7 +379,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns the root node bounding box </p>
+<p>returns the bounding box of all points </p>
 
 </div>
 </div>
@@ -432,8 +446,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a6f80276e2b9c2f30d60c17bf896f6137" name="a6f80276e2b9c2f30d60c17bf896f6137"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f80276e2b9c2f30d60c17bf896f6137">&#9670;&#160;</a></span>nodes()</h2>
+<a id="a508f543d3013720199a1332bee0611dc" name="a508f543d3013720199a1332bee0611dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a508f543d3013720199a1332bee0611dc">&#9670;&#160;</a></span>leafPointRange()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -442,7 +456,34 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="#a00cc491c7e366a8a33115d69e567c898">NodeVec</a> &amp; MR::AABBTreePoints::nodes </td>
+          <td class="memname">std::pair&lt; int, int &gt; MR::AABBTreePoints::leafPointRange </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>leaf</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns [first,last) indices of the points of given leaf in <a class="el" href="#a41964dab96066d649af6862a0978c4e2">orderedPoints()</a> </p>
+
+</div>
+</div>
+<a id="a4096bebd44e3d588f51c3f3f8269f7f8" name="a4096bebd44e3d588f51c3f3f8269f7f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4096bebd44e3d588f51c3f3f8269f7f8">&#9670;&#160;</a></span>numLeaves()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::AABBTreePoints::numLeaves </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -454,6 +495,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>the number of leaves </p>
 
 </div>
 </div>
@@ -476,31 +519,6 @@ Friends</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel default">default</span><span class="mlabel noexcept">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a067a3df7f5d829eb589583ac6cd370b4" name="a067a3df7f5d829eb589583ac6cd370b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a067a3df7f5d829eb589583ac6cd370b4">&#9670;&#160;</a></span>operator[]()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structMR_1_1AABBTreePoints_1_1Node.html">Node</a> &amp; MR::AABBTreePoints::operator[] </td>
-          <td>(</td>
-          <td class="paramtype">NodeId</td>          <td class="paramname"><span class="paramname"><em>nid</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -560,8 +578,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ad5101a692a96a2152123f35e2aa38098" name="ad5101a692a96a2152123f35e2aa38098"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5101a692a96a2152123f35e2aa38098">&#9670;&#160;</a></span>rootNodeId()</h2>
+<a id="afdc0afe75f5b7da19ad7e40a43b83e51" name="afdc0afe75f5b7da19ad7e40a43b83e51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdc0afe75f5b7da19ad7e40a43b83e51">&#9670;&#160;</a></span>rootRef()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -570,18 +588,47 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">NodeId MR::AABBTreePoints::rootNodeId </td>
+          <td class="memname">int MR::AABBTreePoints::rootRef </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>the reference to the root as in <a class="el" href="structMR_1_1AABBTreeSimdNode.html#a607a824daeff05b1b4e0a8b96779707e" title="i-th child: the index in simdNodes() if &gt; 0, otherwise ~(the index of the leaf); 0 in unused slots (t...">SimdNode::child</a>: 0, or ~0 if the tree has one leaf only </p>
+
+</div>
+</div>
+<a id="a28a4d08720511965f02737e2ec12006c" name="a28a4d08720511965f02737e2ec12006c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28a4d08720511965f02737e2ec12006c">&#9670;&#160;</a></span>simdNodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#afd9a2f934a67f4e2ee53b37caf10b0d1">SimdNode</a> &gt; &amp; MR::AABBTreePoints::simdNodes </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the internal nodes, the root is the first one (if the tree has more than MaxNumPointsInLeaf points); the children follow their parent </p>
 
 </div>
 </div>
@@ -631,6 +678,52 @@ Friends</h2></td></tr>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="acef69888f23c24bda518c28ee5621fa4" name="acef69888f23c24bda518c28ee5621fa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acef69888f23c24bda518c28ee5621fa4">&#9670;&#160;</a></span>MaxChildren</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::AABBTreePoints::MaxChildren = 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f82e60481f3400de3a783f0be58255d" name="a7f82e60481f3400de3a783f0be58255d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f82e60481f3400de3a783f0be58255d">&#9670;&#160;</a></span>MaxDepth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::AABBTreePoints::MaxDepth = 16</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the deepest level of a node (the root is at 0): the stacks of the traversals are sized for it </p>
+
+</div>
+</div>
 <a id="a797d5bcdfaacbc53e37b10ddac496527" name="a797d5bcdfaacbc53e37b10ddac496527"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a797d5bcdfaacbc53e37b10ddac496527">&#9670;&#160;</a></span>MaxNumPointsInLeaf</h2>
 

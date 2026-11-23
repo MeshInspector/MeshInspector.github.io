@@ -18,6 +18,7 @@ var classMR_1_1Const__FaceMap =
     [ "Equals", "classMR_1_1Const__FaceMap.html#ab34ed5ff9d22e013b1bb49203784ce51", null ],
     [ "Equals", "classMR_1_1Const__FaceMap.html#a2830861fddfd88f40d6694fe1b902d44", null ],
     [ "front", "classMR_1_1Const__FaceMap.html#ac7b21ffec1139620b0b55d445d792841", null ],
+    [ "GetEnumerator", "classMR_1_1Const__FaceMap.html#aeafc8558adb455624eaae3acad3acf61", null ],
     [ "heapBytes", "classMR_1_1Const__FaceMap.html#a34b9370703986c21004984bfc31dfe59", null ],
     [ "maxSize", "classMR_1_1Const__FaceMap.html#abad93e7278331194b1ab395b7bd3e630", null ],
     [ "operator!=", "classMR_1_1Const__FaceMap.html#a17953370b2e3c17de64e4165420423f7", null ],

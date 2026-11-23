@@ -1,8 +1,6 @@
 var classMR_1_1Const__AABBTreePoints =
 [
-    [ "Const_Node", "classMR_1_1Const__AABBTreePoints_1_1Const__Node.html", "classMR_1_1Const__AABBTreePoints_1_1Const__Node" ],
     [ "Const_Point", "classMR_1_1Const__AABBTreePoints_1_1Const__Point.html", "classMR_1_1Const__AABBTreePoints_1_1Const__Point" ],
-    [ "Node", "classMR_1_1Const__AABBTreePoints_1_1Node.html", "classMR_1_1Const__AABBTreePoints_1_1Node" ],
     [ "Point", "classMR_1_1Const__AABBTreePoints_1_1Point.html", "classMR_1_1Const__AABBTreePoints_1_1Point" ],
     [ "Const_AABBTreePoints", "classMR_1_1Const__AABBTreePoints.html#a71975d85f85bd69fca85554f914904bc", null ],
     [ "Const_AABBTreePoints", "classMR_1_1Const__AABBTreePoints.html#a31bb6033cc8fe587fe0c332ac74c44fb", null ],
@@ -10,16 +8,21 @@ var classMR_1_1Const__AABBTreePoints =
     [ "Const_AABBTreePoints", "classMR_1_1Const__AABBTreePoints.html#ad8ca670f6ff5ea7a9519b90550c7aa48", null ],
     [ "Dispose", "classMR_1_1Const__AABBTreePoints.html#abc3355661c5af5fd85c3dddb5db20cfd", null ],
     [ "Dispose", "classMR_1_1Const__AABBTreePoints.html#a249f7e5fddab3cec3afce4f8ad2035c6", null ],
+    [ "empty", "classMR_1_1Const__AABBTreePoints.html#a43aedf73e12d9facc0248751862015a5", null ],
     [ "getBoundingBox", "classMR_1_1Const__AABBTreePoints.html#a3d876e6c1e51de7124d25d22b7d8d555", null ],
     [ "getLeafOrder", "classMR_1_1Const__AABBTreePoints.html#a330027a0b3fe60d3a4ff524cc72512ac", null ],
     [ "heapBytes", "classMR_1_1Const__AABBTreePoints.html#a9e9592794a26def5ed8a4abaddaa921a", null ],
-    [ "nodes", "classMR_1_1Const__AABBTreePoints.html#a25e7e1b9c562742fd50b72870b6e5839", null ],
+    [ "leafPointRange", "classMR_1_1Const__AABBTreePoints.html#a996055c57acb58e050e2d1399d11027a", null ],
+    [ "numLeaves", "classMR_1_1Const__AABBTreePoints.html#a1e583e83167c76a60dbe4b95d9f14d17", null ],
     [ "operator Const_AABBTreePoints", "classMR_1_1Const__AABBTreePoints.html#a0f498c1406136ec7ee09dc477eb1e86c", null ],
     [ "operator Const_AABBTreePoints", "classMR_1_1Const__AABBTreePoints.html#a454206dabdaa6f5cb652fe751157c47f", null ],
     [ "operator Const_AABBTreePoints", "classMR_1_1Const__AABBTreePoints.html#a28c745d63a05c8cefd4305e39bcd40c7", null ],
     [ "orderedPoints", "classMR_1_1Const__AABBTreePoints.html#a6082a61cd4cd4c770a2fb5eff2bd0e19", null ],
-    [ "rootNodeId", "classMR_1_1Const__AABBTreePoints.html#a205923661aef6ba04d17e3264cd9d0fb", null ],
+    [ "rootRef", "classMR_1_1Const__AABBTreePoints.html#a00e08b3b714b99c16dc4b91cd2562884", null ],
+    [ "__ref_storage_MaxChildren", "classMR_1_1Const__AABBTreePoints.html#ab7fd3f421324a3e55fdbf2bea15eed2f", null ],
+    [ "__ref_storage_MaxDepth", "classMR_1_1Const__AABBTreePoints.html#a29708f5484406a79af493343d181faba", null ],
     [ "__ref_storage_MaxNumPointsInLeaf", "classMR_1_1Const__AABBTreePoints.html#a97d5522e4ca15ec82e6d19936fc1d1f2", null ],
-    [ "MaxNumPointsInLeaf", "classMR_1_1Const__AABBTreePoints.html#a2cebebbf509c179cd4610c077ee40af2", null ],
-    [ "this[MR.NodeId nid]", "classMR_1_1Const__AABBTreePoints.html#a947fe77b1f64c2f7824ce93ee916d8dc", null ]
+    [ "MaxChildren", "classMR_1_1Const__AABBTreePoints.html#a0141a0e16970ef8e4469763c494ad67a", null ],
+    [ "MaxDepth", "classMR_1_1Const__AABBTreePoints.html#ad103976e5c9b2b3190628039d936a9a1", null ],
+    [ "MaxNumPointsInLeaf", "classMR_1_1Const__AABBTreePoints.html#a2cebebbf509c179cd4610c077ee40af2", null ]
 ];

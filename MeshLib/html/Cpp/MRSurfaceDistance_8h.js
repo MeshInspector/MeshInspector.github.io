@@ -1,7 +1,7 @@
 var MRSurfaceDistance_8h =
 [
     [ "MR::computeSurfaceDistances", "group__SurfaceDistanceGroup.html#gafcfbdd0804b19650444f23e586a83452", null ],
-    [ "MR::computeSurfaceDistances", "group__SurfaceDistanceGroup.html#gaeba57b4a06d4b3b80c88d9500fada13f", null ],
+    [ "MR::computeSurfaceDistances", "group__SurfaceDistanceGroup.html#ga7dde613c98d441edf3a7c0a3c6913183", null ],
     [ "MR::computeSurfaceDistances", "group__SurfaceDistanceGroup.html#ga5dd21a0b1940df7ece004666b7bb05f4", null ],
     [ "MR::computeSurfaceDistances", "group__SurfaceDistanceGroup.html#ga926fe6cb64634fa0776b69876a2d0964", null ],
     [ "MR::computeSurfaceDistances", "group__SurfaceDistanceGroup.html#ga2f9c005e4a72a72f6625dc815b59cbe6", null ],

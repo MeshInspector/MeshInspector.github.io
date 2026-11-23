@@ -155,6 +155,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variant of Id&lt;T&gt; with omitted initialization by default. Useful for containers.  <a href="classMR_1_1NoInitId.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AId_3C_20EdgeTag_20_3E" id="r_MR_3A_3AId_3C_20EdgeTag_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Id_3_01EdgeTag_01_4.html">MR::Id&lt; EdgeTag &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3AId_3C_20VoxelTag_20_3E" id="r_MR_3A_3AId_3C_20VoxelTag_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Id_3_01VoxelTag_01_4.html">MR::Id&lt; VoxelTag &gt;</a></td></tr>
+<tr class="memitem:MR_3A_3AThreeVertIds" id="r_MR_3A_3AThreeVertIds"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ThreeVertIds.html">MR::ThreeVertIds</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">three vertex ids describing a triangle with the corners in vertices given by their ids  <a href="structMR_1_1ThreeVertIds.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -180,6 +182,11 @@ Functions</h2></td></tr>
 <tr class="memitem:gaaabec0b590b199d56d36804df0255a3b" id="r_gaaabec0b590b199d56d36804df0255a3b"><td class="memItemLeft" align="right" valign="top">constexpr EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaaabec0b590b199d56d36804df0255a3b">MR::operator&quot;&quot;_e</a> (unsigned long long i) noexcept</td></tr>
 <tr class="memitem:ga0820efd8a0fb59fdacc1b48836994041" id="r_ga0820efd8a0fb59fdacc1b48836994041"><td class="memItemLeft" align="right" valign="top">constexpr UndirectedEdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0820efd8a0fb59fdacc1b48836994041">MR::operator&quot;&quot;_ue</a> (unsigned long long i) noexcept</td></tr>
 <tr class="memitem:ga4c846a23a00296bb3205029a07c86bac" id="r_ga4c846a23a00296bb3205029a07c86bac"><td class="memItemLeft" align="right" valign="top">constexpr VoxelId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4c846a23a00296bb3205029a07c86bac">MR::operator&quot;&quot;_vox</a> (unsigned long long i) noexcept</td></tr>
+<tr class="memitem:ga7a401c6dcf9df00e29ffd7cb69181018" id="r_ga7a401c6dcf9df00e29ffd7cb69181018"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
+<tr class="memitem:ga7a401c6dcf9df00e29ffd7cb69181018 template"><td class="memItemLeft" align="right" valign="top">constexpr const VertId &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7a401c6dcf9df00e29ffd7cb69181018">MR::get</a> (const <a class="el" href="structMR_1_1ThreeVertIds.html">ThreeVertIds</a> &amp;t) noexcept</td></tr>
+<tr class="memdesc:ga7a401c6dcf9df00e29ffd7cb69181018"><td class="mdescLeft">&#160;</td><td class="mdescRight">for structured bindings: auto [a, b, c] = topology.getTriVerts( f );  <br /></td></tr>
+<tr class="memitem:ga02d246883b8422a12536821fe1ccf679" id="r_ga02d246883b8422a12536821fe1ccf679"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
+<tr class="memitem:ga02d246883b8422a12536821fe1ccf679 template"><td class="memItemLeft" align="right" valign="top">constexpr VertId &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga02d246883b8422a12536821fe1ccf679">MR::get</a> (<a class="el" href="structMR_1_1ThreeVertIds.html">ThreeVertIds</a> &amp;t) noexcept</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

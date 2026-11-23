@@ -157,6 +157,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afcf442d679509e8aef2bdb4c35521912" id="r_afcf442d679509e8aef2bdb4c35521912"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcf442d679509e8aef2bdb4c35521912">add_start_edges_and_points</a> (startEdges:&amp;<a class="el" href="structmeshlib_1_1UndirectedEdgeBitSet.html">meshlib::UndirectedEdgeBitSet</a>, startPoints:&amp;<a class="el" href="structmeshlib_1_1VertBitSet.html">meshlib::VertBitSet</a>, startDistance:f32)</td></tr>
 <tr class="memitem:ab4f81ad89eafbe57d11530f9ed17bf17" id="r_ab4f81ad89eafbe57d11530f9ed17bf17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4f81ad89eafbe57d11530f9ed17bf17">add_start</a> (start:&amp;<a class="el" href="structmeshlib_1_1MeshTriPoint.html">meshlib::MeshTriPoint</a>)</td></tr>
 <tr class="memitem:a61049fbf7337e473a9809606a6a00005" id="r_a61049fbf7337e473a9809606a6a00005"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61049fbf7337e473a9809606a6a00005">set_max_vert_updates</a> (v:core::ffi::c_int)</td></tr>
+<tr class="memitem:a8d058d3934bb175c9e4a62dcfd4efb4c" id="r_a8d058d3934bb175c9e4a62dcfd4efb4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d058d3934bb175c9e4a62dcfd4efb4c">set_no_local_minima</a> (on:bool)</td></tr>
 <tr class="memitem:acb3c8feaff12ed3accad878611208b80" id="r_acb3c8feaff12ed3accad878611208b80"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb3c8feaff12ed3accad878611208b80">grow_one</a> () -&gt; <a class="el" href="structmeshlib_1_1VertId.html">meshlib::VertId</a></td></tr>
 <tr class="memitem:a6ec2173b9b093615a87c7f87c8af5ccb" id="r_a6ec2173b9b093615a87c7f87c8af5ccb"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ec2173b9b093615a87c7f87c8af5ccb">take_distance_map</a> () -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1VertScalars.html">meshlib::VertScalars</a> &gt;</td></tr>
 <tr class="memitem:abdf7835a1ea052b2ba923b3bbd2b03e6" id="r_abdf7835a1ea052b2ba923b3bbd2b03e6"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdf7835a1ea052b2ba923b3bbd2b03e6">done</a> () const -&gt; bool</td></tr>
@@ -432,6 +433,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>the maximum amount of times vertex distance can be updated in [1,255], 3 by default; the more the better obtuse triangles are handled Generated from method <span class="tt">MR::SurfaceDistanceBuilder::setMaxVertUpdates</span>.</p>
 <p>Calls <span class="tt">MR_SurfaceDistanceBuilder_setMaxVertUpdates()</span>. </p>
+
+</div>
+</div>
+<a id="a8d058d3934bb175c9e4a62dcfd4efb4c" name="a8d058d3934bb175c9e4a62dcfd4efb4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d058d3934bb175c9e4a62dcfd4efb4c">&#9670;&#160;</a></span>set_no_local_minima()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void meshlib::SurfaceDistanceBuilder::set_no_local_minima </td>
+          <td>(</td>
+          <td class="paramtype">on:bool</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true, then a distance computed in a triangle is always larger than the smaller distance in its other two vertices, so every reached vertex except the vertices around the start has a neighbor with smaller distance, and the steepest descent from any reached point arrives to the start; distances near the start and near obtuse or thin triangles become larger, and some distances computed from them can become a bit smaller Generated from method <span class="tt">MR::SurfaceDistanceBuilder::setNoLocalMinima</span>.</p>
+<p>Calls <span class="tt">MR_SurfaceDistanceBuilder_setNoLocalMinima()</span>. </p>
 
 </div>
 </div>

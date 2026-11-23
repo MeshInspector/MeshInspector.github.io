@@ -145,6 +145,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga5b39c8c7146161cc70c884cd2a408722" id="r_ga5b39c8c7146161cc70c884cd2a408722"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1GlobalRegistrationResult.html">GlobalRegistrationResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5b39c8c7146161cc70c884cd2a408722">MR::globalRegistration</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a>, ObjId &gt; &amp;objects, const <a class="el" href="structMR_1_1GlobalRegistrationParams.html">GlobalRegistrationParams</a> &amp;params={}, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
+<tr class="memdesc:ga5b39c8c7146161cc70c884cd2a408722"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the transformations registering given objects (meshes or point clouds with normals) as one or several groups without any initial alignment: each pair of objects is aligned by matching FPFH descriptors of their samples (see computeFPFH), finding the rigid transformation by findRigidXfRansac with overlap scoring and refining it by <a class="el" href="classMR_1_1ICP.html">ICP</a>; then the objects are linked by a spanning tree of the pairs with the largest overlap (at least params.minOverlap)  <br /></td></tr>
 <tr class="memitem:ga97c6edd2712ff8f245e7897e16710f96" id="r_ga97c6edd2712ff8f245e7897e16710f96"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga97c6edd2712ff8f245e7897e16710f96">MR::countInliers</a> (const VertCoords &amp;srcPoints, const VertCoords &amp;tgtPoints, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#gad75ce80ca78d38bd524b9c4ccd7a520d">VertPair</a> &gt; &amp;matches, const AffineXf3f &amp;xf, float inlierDistance)</td></tr>
 <tr class="memitem:gaa4a6bdae3405260137daec6f7eda2ede" id="r_gaa4a6bdae3405260137daec6f7eda2ede"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; AffineXf3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa4a6bdae3405260137daec6f7eda2ede">MR::findRigidXfRansac</a> (const VertCoords &amp;srcPoints, const VertCoords &amp;tgtPoints, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#gad75ce80ca78d38bd524b9c4ccd7a520d">VertPair</a> &gt; &amp;matches, const <a class="el" href="structMR_1_1RigidXfRansacParams.html">RigidXfRansacParams</a> &amp;params, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
 <tr class="memdesc:gaa4a6bdae3405260137daec6f7eda2ede"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the rigid transformation of source points to target points from given matches, many of which can be wrong: tests the transformations through random samples of three matches and keeps the one with most inliers (or the largest overlap, see <a class="el" href="group__GeneralGroup.html#gaca7af091023b9818e577ff76a3db8eb7">RigidXfRansacParams::overlapSrcPoints</a>), then refines it by least squares fitting on all its inlier matches.  <br /></td></tr>
@@ -250,6 +252,44 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>rigid transformation of source points to target points, or error if there are less than three matches, no consistent sample was found or progress returned false </dd></dl>
+
+</div>
+</div>
+<a id="ga5b39c8c7146161cc70c884cd2a408722" name="ga5b39c8c7146161cc70c884cd2a408722"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5b39c8c7146161cc70c884cd2a408722">&#9670;&#160;</a></span>globalRegistration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1GlobalRegistrationResult.html">GlobalRegistrationResult</a> &gt; MR::globalRegistration </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a>, ObjId &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>objects</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1GlobalRegistrationParams.html">GlobalRegistrationParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRGlobalRegistration_8h.html">MRMesh/MRGlobalRegistration.h</a>&gt;</code></p>
+
+<p>Finds the transformations registering given objects (meshes or point clouds with normals) as one or several groups without any initial alignment: each pair of objects is aligned by matching FPFH descriptors of their samples (see computeFPFH), finding the rigid transformation by findRigidXfRansac with overlap scoring and refining it by <a class="el" href="classMR_1_1ICP.html">ICP</a>; then the objects are linked by a spanning tree of the pairs with the largest overlap (at least params.minOverlap) </p>
 
 </div>
 </div>

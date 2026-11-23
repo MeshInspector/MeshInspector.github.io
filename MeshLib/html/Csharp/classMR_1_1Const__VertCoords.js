@@ -18,6 +18,7 @@ var classMR_1_1Const__VertCoords =
     [ "Equals", "classMR_1_1Const__VertCoords.html#ae325552947e651f32f3b175ecd031775", null ],
     [ "Equals", "classMR_1_1Const__VertCoords.html#a38f080735367c627cff0ad1071cb0d67", null ],
     [ "front", "classMR_1_1Const__VertCoords.html#a37a2d5ebc8b907c9f060987c49a9fc91", null ],
+    [ "GetEnumerator", "classMR_1_1Const__VertCoords.html#a565c5ba1cbc3e61a96bf3d62235fc2e5", null ],
     [ "heapBytes", "classMR_1_1Const__VertCoords.html#ab7db4900b18d8f2fb7f065f80a72c3d0", null ],
     [ "maxSize", "classMR_1_1Const__VertCoords.html#af703824548c261c38dea073f24a82aa9", null ],
     [ "operator!=", "classMR_1_1Const__VertCoords.html#a81ebb18cc86624af36d88a256917add3", null ],

@@ -168,6 +168,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a04c830580bfde9e42f3cfe15a92a2761" id="r_a04c830580bfde9e42f3cfe15a92a2761"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04c830580bfde9e42f3cfe15a92a2761">pop_back</a> ()</td></tr>
 <tr class="memitem:aea84b2cd6d53b08e4720dac850de5fea" id="r_aea84b2cd6d53b08e4720dac850de5fea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea84b2cd6d53b08e4720dac850de5fea">insert</a> (position:usize, new_elem:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1Mesh.html">meshlib::Mesh</a> &gt;)</td></tr>
 <tr class="memitem:a7145052af859e53e23b540e021c54519" id="r_a7145052af859e53e23b540e021c54519"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7145052af859e53e23b540e021c54519">erase</a> (position:usize)</td></tr>
+<tr class="memitem:a55d3b5cfc94d5b7a04ec9d827298de4d" id="r_a55d3b5cfc94d5b7a04ec9d827298de4d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55d3b5cfc94d5b7a04ec9d827298de4d">begin</a> () const -&gt; *const *mut meshlib::ffi::MR_Mesh</td></tr>
+<tr class="memitem:a642f9e168637c5a885f78dc02a935956" id="r_a642f9e168637c5a885f78dc02a935956"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a642f9e168637c5a885f78dc02a935956">end</a> () const -&gt; *const *mut meshlib::ffi::MR_Mesh</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -277,6 +279,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a55d3b5cfc94d5b7a04ec9d827298de4d" name="a55d3b5cfc94d5b7a04ec9d827298de4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55d3b5cfc94d5b7a04ec9d827298de4d">&#9670;&#160;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_Mesh_ptr::begin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  *const *mut meshlib::ffi::MR_Mesh</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_Mesh_ptr_begin()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a25581dc2910e92b4a009ebfa9aa3c48a" name="a25581dc2910e92b4a009ebfa9aa3c48a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a25581dc2910e92b4a009ebfa9aa3c48a">&#9670;&#160;</a></span>clear()</h2>
 
@@ -339,6 +360,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns true if the size is zero.</p>
 <p>Calls <span class="tt">MR_std_vector_MR_Mesh_ptr_empty()</span>. </p>
+
+</div>
+</div>
+<a id="a642f9e168637c5a885f78dc02a935956" name="a642f9e168637c5a885f78dc02a935956"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a642f9e168637c5a885f78dc02a935956">&#9670;&#160;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_Mesh_ptr::end </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  *const *mut meshlib::ffi::MR_Mesh</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_Mesh_ptr_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

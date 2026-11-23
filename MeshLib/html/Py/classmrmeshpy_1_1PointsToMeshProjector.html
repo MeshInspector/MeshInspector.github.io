@@ -288,7 +288,7 @@ Computes the closest point on mesh to each of given points
 &lt;param name="result"&gt;vector pf projections&lt;/param&gt;
 &lt;param name="points"&gt;vector of points to project&lt;/param&gt;
 &lt;param name="objXf"&gt;transform applied to points&lt;/param&gt;
-&lt;param name="refObjXf"&gt;transform applied to referencing mesh&lt;/param&gt;
+&lt;param name="refObjXf"&gt;transform applied to referencing mesh; returned proj.point are in the space of the referencing mesh before this transform&lt;/param&gt;
 &lt;param name="upDistLimitSq"&gt;maximal squared distance from point to mesh&lt;/param&gt;
 &lt;param name="loDistLimitSq"&gt;minimal squared distance from point to mesh&lt;/param&gt;
 </pre> 

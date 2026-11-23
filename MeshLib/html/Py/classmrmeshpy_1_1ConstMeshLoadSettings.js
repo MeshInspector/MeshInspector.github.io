@@ -11,6 +11,7 @@ var classmrmeshpy_1_1ConstMeshLoadSettings =
     [ "solidColor", "classmrmeshpy_1_1ConstMeshLoadSettings.html#aee2d99965c573711fcd0e8303a340cb2", null ],
     [ "telemetrySignal", "classmrmeshpy_1_1ConstMeshLoadSettings.html#ad1c4fb7ef9000b1cf7e7b5a46c8e85e6", null ],
     [ "texture", "classmrmeshpy_1_1ConstMeshLoadSettings.html#a2129ec253022b3e819eaeb4625709815", null ],
+    [ "triCornerUvCoords", "classmrmeshpy_1_1ConstMeshLoadSettings.html#a01990e1b9cbd69e9b33eb3802b7aa8bc", null ],
     [ "uvCoords", "classmrmeshpy_1_1ConstMeshLoadSettings.html#a64725da1a71ec0670f6ac9f346b5b839", null ],
     [ "xf", "classmrmeshpy_1_1ConstMeshLoadSettings.html#a0cea1520f538cfe760dd53a92fde69fa", null ]
 ];

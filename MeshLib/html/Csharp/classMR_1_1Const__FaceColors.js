@@ -18,6 +18,7 @@ var classMR_1_1Const__FaceColors =
     [ "Equals", "classMR_1_1Const__FaceColors.html#a45db029eccb57e861dae0ba67120b107", null ],
     [ "Equals", "classMR_1_1Const__FaceColors.html#a7908c692dcc00b00dd8a2242afef9f98", null ],
     [ "front", "classMR_1_1Const__FaceColors.html#aedbec9367411d6a570ff9664c6574630", null ],
+    [ "GetEnumerator", "classMR_1_1Const__FaceColors.html#accc725f72862a0841fdf404a302be76c", null ],
     [ "heapBytes", "classMR_1_1Const__FaceColors.html#aacfa19c545850b2857e8884be9589425", null ],
     [ "maxSize", "classMR_1_1Const__FaceColors.html#a6bedec8925ecff37d133fdedb7b5eec6", null ],
     [ "operator!=", "classMR_1_1Const__FaceColors.html#ac4e729c1b2b8405bd07352bd00bb149e", null ],

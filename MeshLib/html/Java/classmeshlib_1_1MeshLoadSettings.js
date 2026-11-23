@@ -2,7 +2,7 @@ var classmeshlib_1_1MeshLoadSettings =
 [
     [ "MeshLoadSettings", "classmeshlib_1_1MeshLoadSettings.html#ad0cdf5db154d66c959a4101801914321", null ],
     [ "MeshLoadSettings", "classmeshlib_1_1MeshLoadSettings.html#aedc335b4034183dd0e02532e40c4562b", null ],
-    [ "MeshLoadSettings", "classmeshlib_1_1MeshLoadSettings.html#a3819b903f46baf2435bc8119b1eee250", null ],
+    [ "MeshLoadSettings", "classmeshlib_1_1MeshLoadSettings.html#a8d821e9133c1ddf69f375bff9ab51a86", null ],
     [ "MeshLoadSettings", "classmeshlib_1_1MeshLoadSettings.html#abcead38a2480056faddc303a9e1d6d0f", null ],
     [ "assignFromAnother", "classmeshlib_1_1MeshLoadSettings.html#a376a71dc508ab12dd90642121d04551c", null ],
     [ "callback", "classmeshlib_1_1MeshLoadSettings.html#a1689e666b71c12ba64560b28ac1e136e", null ],
@@ -21,12 +21,14 @@ var classmeshlib_1_1MeshLoadSettings =
     [ "setSolidColor", "classmeshlib_1_1MeshLoadSettings.html#acbe295411247bf49ca516b126a9da938", null ],
     [ "setTelemetrySignal", "classmeshlib_1_1MeshLoadSettings.html#a0262d51e065d5ff68f59ede24458dde1", null ],
     [ "setTexture", "classmeshlib_1_1MeshLoadSettings.html#a305c4b880047a5c5df26743dd02054e8", null ],
+    [ "setTriCornerUvCoords", "classmeshlib_1_1MeshLoadSettings.html#ad3500aad4064346feb927dfd5d6b0b68", null ],
     [ "setUvCoords", "classmeshlib_1_1MeshLoadSettings.html#aea9348f0c277f5ea72550dbd0299de07", null ],
     [ "setXf", "classmeshlib_1_1MeshLoadSettings.html#ac193d33cb4cb860df49d80322533c9ff", null ],
     [ "skippedFaceCount", "classmeshlib_1_1MeshLoadSettings.html#a4e43d603875ac24a3d953edef78da076", null ],
     [ "solidColor", "classmeshlib_1_1MeshLoadSettings.html#a2d719c4ec4cf8ab12113989f0d6b9400", null ],
     [ "telemetrySignal", "classmeshlib_1_1MeshLoadSettings.html#a59cc68f251c07f2ce5fd3987b5c76b78", null ],
     [ "texture", "classmeshlib_1_1MeshLoadSettings.html#a4f191af255474441e0516d4a7f9a572c", null ],
+    [ "triCornerUvCoords", "classmeshlib_1_1MeshLoadSettings.html#a27b5b33de1b0e72ebe3564e129cd44eb", null ],
     [ "uvCoords", "classmeshlib_1_1MeshLoadSettings.html#a3c1291d29f008bce4aba44f562c64988", null ],
     [ "xf", "classmeshlib_1_1MeshLoadSettings.html#a39dbd50c930e908632cb87a3aff4aa7b", null ]
 ];

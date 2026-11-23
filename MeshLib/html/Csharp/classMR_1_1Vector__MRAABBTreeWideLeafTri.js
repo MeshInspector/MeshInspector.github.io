@@ -21,6 +21,7 @@ var classMR_1_1Vector__MRAABBTreeWideLeafTri =
     [ "reserve", "classMR_1_1Vector__MRAABBTreeWideLeafTri.html#aae23e6ac4b12d3743c416830c32756e6", null ],
     [ "resize", "classMR_1_1Vector__MRAABBTreeWideLeafTri.html#af89868c3fa06be794a3eaef24418bcb8", null ],
     [ "resize", "classMR_1_1Vector__MRAABBTreeWideLeafTri.html#ab42bb124b61818de2207db2fe9c424b5", null ],
+    [ "resizeNoInit", "classMR_1_1Vector__MRAABBTreeWideLeafTri.html#a4f5ebc835eb7df7e4185b1ff3bf20b91", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRAABBTreeWideLeafTri.html#abfc09ed2917644c2672a4eae00de6bdd", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRAABBTreeWideLeafTri.html#a62749b1e79f132d2f793c8e31bddde41", null ],
     [ "shrinkToFit", "classMR_1_1Vector__MRAABBTreeWideLeafTri.html#a0492fc3455a1e6dafd32a5cc15189c84", null ],

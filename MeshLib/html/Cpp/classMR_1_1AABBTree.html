@@ -144,8 +144,9 @@ $(function(){initNavTree('classMR_1_1AABBTree.html','','classMR_1_1AABBTree-memb
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a3ced22d7db5495fbff999b8437a1a6de" id="r_a3ced22d7db5495fbff999b8437a1a6de"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ced22d7db5495fbff999b8437a1a6de">Node</a> = <a class="el" href="structMR_1_1AABBTreeWideNode.html">AABBTreeWideNode</a></td></tr>
 <tr class="memitem:aea729bed7bef611e2d9969b404cbafe1" id="r_aea729bed7bef611e2d9969b404cbafe1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea729bed7bef611e2d9969b404cbafe1">LeafTri</a> = <a class="el" href="structMR_1_1AABBTreeWideLeafTri.html">AABBTreeWideLeafTri</a></td></tr>
+<tr class="memitem:a721d08da99273ebbc3b7f57d4e51f1aa" id="r_a721d08da99273ebbc3b7f57d4e51f1aa"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a721d08da99273ebbc3b7f57d4e51f1aa">SimdBoxes</a> = <a class="el" href="structMR_1_1AABBTreeSimdBoxes.html">AABBTreeSimdBoxes</a></td></tr>
+<tr class="memitem:a2d30d91710fadc709defc4a85cd096e3" id="r_a2d30d91710fadc709defc4a85cd096e3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d30d91710fadc709defc4a85cd096e3">SimdNode</a> = <a class="el" href="structMR_1_1AABBTreeSimdNode.html">AABBTreeSimdNode</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -155,14 +156,34 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a23b6f58682ec54006a8fb8d00ca4a191" id="r_a23b6f58682ec54006a8fb8d00ca4a191"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23b6f58682ec54006a8fb8d00ca4a191">AABBTree</a> ()=default</td></tr>
 <tr class="memitem:a299be175c35406bc5c624c524a3221e7" id="r_a299be175c35406bc5c624c524a3221e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a299be175c35406bc5c624c524a3221e7">AABBTree</a> (<a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="memitem:a3d03064881df6e739bd9f815c909abe5" id="r_a3d03064881df6e739bd9f815c909abe5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d03064881df6e739bd9f815c909abe5">operator=</a> (<a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&amp;) noexcept=default</td></tr>
-<tr class="memitem:a45060882cc649af6c6c2ae01dffbdf61" id="r_a45060882cc649af6c6c2ae01dffbdf61"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#a3ced22d7db5495fbff999b8437a1a6de">Node</a>, NodeId &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45060882cc649af6c6c2ae01dffbdf61">nodes</a> () const</td></tr>
-<tr class="memdesc:a45060882cc649af6c6c2ae01dffbdf61"><td class="mdescLeft">&#160;</td><td class="mdescRight">the root is the first node, if any  <br /></td></tr>
+<tr class="memitem:ad261716a7629be743697b6261180c278" id="r_ad261716a7629be743697b6261180c278"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad261716a7629be743697b6261180c278">empty</a> () const</td></tr>
+<tr class="memdesc:ad261716a7629be743697b6261180c278"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the tree has no triangles  <br /></td></tr>
+<tr class="memitem:ae55ae7ba2475dfdfe4b3662258213fc3" id="r_ae55ae7ba2475dfdfe4b3662258213fc3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae55ae7ba2475dfdfe4b3662258213fc3">numTris</a> () const</td></tr>
+<tr class="memdesc:ae55ae7ba2475dfdfe4b3662258213fc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of triangles in the tree  <br /></td></tr>
+<tr class="memitem:ac32c8a7155d65f13379b0a476d04ec63" id="r_ac32c8a7155d65f13379b0a476d04ec63"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#a2d30d91710fadc709defc4a85cd096e3">SimdNode</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac32c8a7155d65f13379b0a476d04ec63">simdNodes</a> () const</td></tr>
+<tr class="memdesc:ac32c8a7155d65f13379b0a476d04ec63"><td class="mdescLeft">&#160;</td><td class="mdescRight">the internal nodes, the root is the first one (if the tree has more than MaxLeafTris triangles)  <br /></td></tr>
+<tr class="memitem:afd20edd5bb9c87f5dc184e619a864c60" id="r_afd20edd5bb9c87f5dc184e619a864c60"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd20edd5bb9c87f5dc184e619a864c60">numLeaves</a> () const</td></tr>
+<tr class="memdesc:afd20edd5bb9c87f5dc184e619a864c60"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of leaves  <br /></td></tr>
+<tr class="memitem:a9c25f9c846aca0d219fec48105bebfd1" id="r_a9c25f9c846aca0d219fec48105bebfd1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#a721d08da99273ebbc3b7f57d4e51f1aa">SimdBoxes</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c25f9c846aca0d219fec48105bebfd1">leafBoxes</a> (int leaf) const</td></tr>
+<tr class="memdesc:a9c25f9c846aca0d219fec48105bebfd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">the bounding boxes of the triangles of given leaf, slightly expanded for robust searches (empty in the unused slots)  <br /></td></tr>
+<tr class="memitem:a184121f6c86d9e7b15869d4e573f1179" id="r_a184121f6c86d9e7b15869d4e573f1179"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#aea729bed7bef611e2d9969b404cbafe1">LeafTri</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a184121f6c86d9e7b15869d4e573f1179">leafTris</a> () const</td></tr>
+<tr class="memdesc:a184121f6c86d9e7b15869d4e573f1179"><td class="mdescLeft">&#160;</td><td class="mdescRight">the triangles of all leaves, MaxLeafTris slots per leaf  <br /></td></tr>
+<tr class="memitem:a6426176907ec0648a0b85c5a216dcd7d" id="r_a6426176907ec0648a0b85c5a216dcd7d"><td class="memItemLeft" align="right" valign="top">Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6426176907ec0648a0b85c5a216dcd7d">leafBox</a> (int i) const</td></tr>
+<tr class="memdesc:a6426176907ec0648a0b85c5a216dcd7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">the bounding box of the triangle in slot i of <a class="el" href="#a184121f6c86d9e7b15869d4e573f1179" title="the triangles of all leaves, MaxLeafTris slots per leaf">leafTris()</a>, slightly expanded for robust searches (empty for an unused slot)  <br /></td></tr>
+<tr class="memitem:a794d7bf3c07a21a4e8fce9da11729cef" id="r_a794d7bf3c07a21a4e8fce9da11729cef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a794d7bf3c07a21a4e8fce9da11729cef">numLeafTris</a> (int leaf) const</td></tr>
+<tr class="memdesc:a794d7bf3c07a21a4e8fce9da11729cef"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of triangles in given leaf  <br /></td></tr>
+<tr class="memitem:ab294cdada261e6f8e7d8ad80fd236391" id="r_ab294cdada261e6f8e7d8ad80fd236391"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab294cdada261e6f8e7d8ad80fd236391">rootRef</a> () const</td></tr>
+<tr class="memdesc:ab294cdada261e6f8e7d8ad80fd236391"><td class="mdescLeft">&#160;</td><td class="mdescRight">the reference to the root as in <a class="el" href="structMR_1_1AABBTreeSimdNode.html#a607a824daeff05b1b4e0a8b96779707e" title="i-th child: the index in simdNodes() if &gt; 0, otherwise ~(the index of the leaf); 0 in unused slots (t...">SimdNode::child</a>: 0, or ~0 if the tree has one leaf only  <br /></td></tr>
 <tr class="memitem:a32fb8d6b891ed1e97bf4532552caa7a4" id="r_a32fb8d6b891ed1e97bf4532552caa7a4"><td class="memItemLeft" align="right" valign="top">Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32fb8d6b891ed1e97bf4532552caa7a4">getBoundingBox</a> () const</td></tr>
 <tr class="memdesc:a32fb8d6b891ed1e97bf4532552caa7a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the bounding box of the whole tree (empty for an empty tree)  <br /></td></tr>
-<tr class="memitem:a184121f6c86d9e7b15869d4e573f1179" id="r_a184121f6c86d9e7b15869d4e573f1179"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#aea729bed7bef611e2d9969b404cbafe1">LeafTri</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a184121f6c86d9e7b15869d4e573f1179">leafTris</a> () const</td></tr>
-<tr class="memdesc:a184121f6c86d9e7b15869d4e573f1179"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangles of all leaves, the triangles of each leaf are contiguous  <br /></td></tr>
-<tr class="memitem:a3eefd04b2277f8268e1069c8103457fd" id="r_a3eefd04b2277f8268e1069c8103457fd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Box3f &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3eefd04b2277f8268e1069c8103457fd">leafBoxes</a> () const</td></tr>
-<tr class="memdesc:a3eefd04b2277f8268e1069c8103457fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the bounding boxes of the triangles in the order of <a class="el" href="#a184121f6c86d9e7b15869d4e573f1179" title="triangles of all leaves, the triangles of each leaf are contiguous">leafTris()</a>, slightly expanded for robust searches  <br /></td></tr>
+<tr class="memitem:a065484887f4c99fe7fd40e70dc8e2999" id="r_a065484887f4c99fe7fd40e70dc8e2999"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a065484887f4c99fe7fd40e70dc8e2999">numNodes</a> () const</td></tr>
+<tr class="memdesc:a065484887f4c99fe7fd40e70dc8e2999"><td class="mdescLeft">&#160;</td><td class="mdescRight">the total number of nodes: internal ones and leaves  <br /></td></tr>
+<tr class="memitem:a859699fc3e1690f17ab03cfbb44190ad" id="r_a859699fc3e1690f17ab03cfbb44190ad"><td class="memItemLeft" align="right" valign="top">NodeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a859699fc3e1690f17ab03cfbb44190ad">nodeId</a> (int ref) const</td></tr>
+<tr class="memdesc:a859699fc3e1690f17ab03cfbb44190ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">the id of the node with given reference (as in <a class="el" href="structMR_1_1AABBTreeSimdNode.html#a607a824daeff05b1b4e0a8b96779707e" title="i-th child: the index in simdNodes() if &gt; 0, otherwise ~(the index of the leaf); 0 in unused slots (t...">SimdNode::child</a>): the internal nodes first, then the leaves  <br /></td></tr>
+<tr class="memitem:ade64cfcb12f11dc0720a3e3556801b04" id="r_ade64cfcb12f11dc0720a3e3556801b04"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade64cfcb12f11dc0720a3e3556801b04">nodeRef</a> (NodeId n) const</td></tr>
+<tr class="memdesc:ade64cfcb12f11dc0720a3e3556801b04"><td class="mdescLeft">&#160;</td><td class="mdescRight">the reference (as in <a class="el" href="structMR_1_1AABBTreeSimdNode.html#a607a824daeff05b1b4e0a8b96779707e" title="i-th child: the index in simdNodes() if &gt; 0, otherwise ~(the index of the leaf); 0 in unused slots (t...">SimdNode::child</a>) to the node with given id  <br /></td></tr>
+<tr class="memitem:a6ac7dadcca6fb1a94c0f08d8f858938f" id="r_a6ac7dadcca6fb1a94c0f08d8f858938f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Box3f, NodeId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ac7dadcca6fb1a94c0f08d8f858938f">getNodeBoxes</a> () const</td></tr>
+<tr class="memdesc:a6ac7dadcca6fb1a94c0f08d8f858938f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the bounding boxes of all nodes  <br /></td></tr>
 <tr class="memitem:a658bcca5c4309476b0a7b99eeced5036" id="r_a658bcca5c4309476b0a7b99eeced5036"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a658bcca5c4309476b0a7b99eeced5036">heapBytes</a> () const</td></tr>
 <tr class="memdesc:a658bcca5c4309476b0a7b99eeced5036"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="memitem:a414b993676aacdb7667e9f62135f5769" id="r_a414b993676aacdb7667e9f62135f5769"><td class="memItemLeft" align="right" valign="top">std::vector&lt; NodeId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a414b993676aacdb7667e9f62135f5769">getSubtrees</a> (int minNum) const</td></tr>
@@ -191,7 +212,7 @@ Friends</h2></td></tr>
 <tr class="memitem:a1c7a27ff83b86c0c4b27ab51c59cdedb" id="r_a1c7a27ff83b86c0c4b27ab51c59cdedb"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c7a27ff83b86c0c4b27ab51c59cdedb">SharedThreadSafeOwner&lt; AABBTree &gt;</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>bounding volume hierarchy of mesh triangles with up to 4 children per node and up to 4 triangles per leaf; the children of a node are stored contiguously, and every leaf keeps the vertices and the boxes of its triangles </p>
+<div class="textblock"><p>bounding volume hierarchy of mesh triangles with up to 4 children per node and up to 4 triangles per leaf in SIMD layout: every internal node keeps the boxes of its children, and every leaf the boxes of its triangles; the triangles of leaf l are in slots [4 * l, 4 * l + 4) of <a class="el" href="#a184121f6c86d9e7b15869d4e573f1179" title="the triangles of all leaves, MaxLeafTris slots per leaf">leafTris()</a>, its unused slots have invalid faces; a node is referenced as in <a class="el" href="structMR_1_1AABBTreeSimdNode.html#a607a824daeff05b1b4e0a8b96779707e" title="i-th child: the index in simdNodes() if &gt; 0, otherwise ~(the index of the leaf); 0 in unused slots (t...">AABBTreeSimdNode::child</a>, or by NodeId: the internal nodes first, then the leaves </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="aea729bed7bef611e2d9969b404cbafe1" name="aea729bed7bef611e2d9969b404cbafe1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aea729bed7bef611e2d9969b404cbafe1">&#9670;&#160;</a></span>LeafTri</h2>
@@ -207,14 +228,28 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a3ced22d7db5495fbff999b8437a1a6de" name="a3ced22d7db5495fbff999b8437a1a6de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ced22d7db5495fbff999b8437a1a6de">&#9670;&#160;</a></span>Node</h2>
+<a id="a721d08da99273ebbc3b7f57d4e51f1aa" name="a721d08da99273ebbc3b7f57d4e51f1aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a721d08da99273ebbc3b7f57d4e51f1aa">&#9670;&#160;</a></span>SimdBoxes</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a3ced22d7db5495fbff999b8437a1a6de">MR::AABBTree::Node</a> = <a class="el" href="structMR_1_1AABBTreeWideNode.html">AABBTreeWideNode</a></td>
+          <td class="memname">using <a class="el" href="#a721d08da99273ebbc3b7f57d4e51f1aa">MR::AABBTree::SimdBoxes</a> = <a class="el" href="structMR_1_1AABBTreeSimdBoxes.html">AABBTreeSimdBoxes</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d30d91710fadc709defc4a85cd096e3" name="a2d30d91710fadc709defc4a85cd096e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d30d91710fadc709defc4a85cd096e3">&#9670;&#160;</a></span>SimdNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a2d30d91710fadc709defc4a85cd096e3">MR::AABBTree::SimdNode</a> = <a class="el" href="structMR_1_1AABBTreeSimdNode.html">AABBTreeSimdNode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -358,6 +393,33 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="ad261716a7629be743697b6261180c278" name="ad261716a7629be743697b6261180c278"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad261716a7629be743697b6261180c278">&#9670;&#160;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::AABBTree::empty </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if the tree has no triangles </p>
+
+</div>
+</div>
 <a id="a429f4cbc9eb05dca2deba0b5b1a74097" name="a429f4cbc9eb05dca2deba0b5b1a74097"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a429f4cbc9eb05dca2deba0b5b1a74097">&#9670;&#160;</a></span>flipOrientation()</h2>
 
@@ -417,7 +479,34 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>fills map: FaceId -&gt; its position in <a class="el" href="#a184121f6c86d9e7b15869d4e573f1179" title="triangles of all leaves, the triangles of each leaf are contiguous">leafTris()</a>; buffer in faceMap must be resized before the call, and caller is responsible for filling missing face elements </p>
+<p>fills map: FaceId -&gt; its position in the order of the triangles in the leaves; buffer in faceMap must be resized before the call, and caller is responsible for filling missing face elements </p>
+
+</div>
+</div>
+<a id="a6ac7dadcca6fb1a94c0f08d8f858938f" name="a6ac7dadcca6fb1a94c0f08d8f858938f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ac7dadcca6fb1a94c0f08d8f858938f">&#9670;&#160;</a></span>getNodeBoxes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Box3f, NodeId &gt; MR::AABBTree::getNodeBoxes </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the bounding boxes of all nodes </p>
 
 </div>
 </div>
@@ -529,8 +618,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a3eefd04b2277f8268e1069c8103457fd" name="a3eefd04b2277f8268e1069c8103457fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3eefd04b2277f8268e1069c8103457fd">&#9670;&#160;</a></span>leafBoxes()</h2>
+<a id="a6426176907ec0648a0b85c5a216dcd7d" name="a6426176907ec0648a0b85c5a216dcd7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6426176907ec0648a0b85c5a216dcd7d">&#9670;&#160;</a></span>leafBox()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -539,9 +628,9 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Box3f &gt; &amp; MR::AABBTree::leafBoxes </td>
+          <td class="memname">Box3f MR::AABBTree::leafBox </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -552,7 +641,34 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the bounding boxes of the triangles in the order of <a class="el" href="#a184121f6c86d9e7b15869d4e573f1179" title="triangles of all leaves, the triangles of each leaf are contiguous">leafTris()</a>, slightly expanded for robust searches </p>
+<p>the bounding box of the triangle in slot i of <a class="el" href="#a184121f6c86d9e7b15869d4e573f1179" title="the triangles of all leaves, MaxLeafTris slots per leaf">leafTris()</a>, slightly expanded for robust searches (empty for an unused slot) </p>
+
+</div>
+</div>
+<a id="a9c25f9c846aca0d219fec48105bebfd1" name="a9c25f9c846aca0d219fec48105bebfd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c25f9c846aca0d219fec48105bebfd1">&#9670;&#160;</a></span>leafBoxes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="#a721d08da99273ebbc3b7f57d4e51f1aa">SimdBoxes</a> &amp; MR::AABBTree::leafBoxes </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>leaf</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the bounding boxes of the triangles of given leaf, slightly expanded for robust searches (empty in the unused slots) </p>
 
 </div>
 </div>
@@ -579,12 +695,12 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>triangles of all leaves, the triangles of each leaf are contiguous </p>
+<p>the triangles of all leaves, MaxLeafTris slots per leaf </p>
 
 </div>
 </div>
-<a id="a45060882cc649af6c6c2ae01dffbdf61" name="a45060882cc649af6c6c2ae01dffbdf61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45060882cc649af6c6c2ae01dffbdf61">&#9670;&#160;</a></span>nodes()</h2>
+<a id="a859699fc3e1690f17ab03cfbb44190ad" name="a859699fc3e1690f17ab03cfbb44190ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a859699fc3e1690f17ab03cfbb44190ad">&#9670;&#160;</a></span>nodeId()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -593,7 +709,88 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#a3ced22d7db5495fbff999b8437a1a6de">Node</a>, NodeId &gt; &amp; MR::AABBTree::nodes </td>
+          <td class="memname">NodeId MR::AABBTree::nodeId </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>ref</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the id of the node with given reference (as in <a class="el" href="structMR_1_1AABBTreeSimdNode.html#a607a824daeff05b1b4e0a8b96779707e" title="i-th child: the index in simdNodes() if &gt; 0, otherwise ~(the index of the leaf); 0 in unused slots (t...">SimdNode::child</a>): the internal nodes first, then the leaves </p>
+
+</div>
+</div>
+<a id="ade64cfcb12f11dc0720a3e3556801b04" name="ade64cfcb12f11dc0720a3e3556801b04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade64cfcb12f11dc0720a3e3556801b04">&#9670;&#160;</a></span>nodeRef()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::AABBTree::nodeRef </td>
+          <td>(</td>
+          <td class="paramtype">NodeId</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the reference (as in <a class="el" href="structMR_1_1AABBTreeSimdNode.html#a607a824daeff05b1b4e0a8b96779707e" title="i-th child: the index in simdNodes() if &gt; 0, otherwise ~(the index of the leaf); 0 in unused slots (t...">SimdNode::child</a>) to the node with given id </p>
+
+</div>
+</div>
+<a id="a794d7bf3c07a21a4e8fce9da11729cef" name="a794d7bf3c07a21a4e8fce9da11729cef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a794d7bf3c07a21a4e8fce9da11729cef">&#9670;&#160;</a></span>numLeafTris()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::AABBTree::numLeafTris </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>leaf</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the number of triangles in given leaf </p>
+
+</div>
+</div>
+<a id="afd20edd5bb9c87f5dc184e619a864c60" name="afd20edd5bb9c87f5dc184e619a864c60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd20edd5bb9c87f5dc184e619a864c60">&#9670;&#160;</a></span>numLeaves()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::AABBTree::numLeaves </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -606,7 +803,61 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the root is the first node, if any </p>
+<p>the number of leaves </p>
+
+</div>
+</div>
+<a id="a065484887f4c99fe7fd40e70dc8e2999" name="a065484887f4c99fe7fd40e70dc8e2999"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a065484887f4c99fe7fd40e70dc8e2999">&#9670;&#160;</a></span>numNodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::AABBTree::numNodes </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the total number of nodes: internal ones and leaves </p>
+
+</div>
+</div>
+<a id="ae55ae7ba2475dfdfe4b3662258213fc3" name="ae55ae7ba2475dfdfe4b3662258213fc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae55ae7ba2475dfdfe4b3662258213fc3">&#9670;&#160;</a></span>numTris()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::AABBTree::numTris </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the number of triangles in the tree </p>
 
 </div>
 </div>
@@ -683,6 +934,60 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>renumbers the triangles and their vertices after the mesh was packed with given maps from old to new ids </p>
+
+</div>
+</div>
+<a id="ab294cdada261e6f8e7d8ad80fd236391" name="ab294cdada261e6f8e7d8ad80fd236391"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab294cdada261e6f8e7d8ad80fd236391">&#9670;&#160;</a></span>rootRef()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::AABBTree::rootRef </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the reference to the root as in <a class="el" href="structMR_1_1AABBTreeSimdNode.html#a607a824daeff05b1b4e0a8b96779707e" title="i-th child: the index in simdNodes() if &gt; 0, otherwise ~(the index of the leaf); 0 in unused slots (t...">SimdNode::child</a>: 0, or ~0 if the tree has one leaf only </p>
+
+</div>
+</div>
+<a id="ac32c8a7155d65f13379b0a476d04ec63" name="ac32c8a7155d65f13379b0a476d04ec63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac32c8a7155d65f13379b0a476d04ec63">&#9670;&#160;</a></span>simdNodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#a2d30d91710fadc709defc4a85cd096e3">SimdNode</a> &gt; &amp; MR::AABBTree::simdNodes </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the internal nodes, the root is the first one (if the tree has more than MaxLeafTris triangles) </p>
 
 </div>
 </div>

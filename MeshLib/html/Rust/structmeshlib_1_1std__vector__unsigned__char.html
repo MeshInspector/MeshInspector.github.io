@@ -170,6 +170,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a181a7f0002687a07ab82cb6683b92468" id="r_a181a7f0002687a07ab82cb6683b92468"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a181a7f0002687a07ab82cb6683b92468">pop_back</a> ()</td></tr>
 <tr class="memitem:a16d1920d8e8f63d5b5c0acea30726cb9" id="r_a16d1920d8e8f63d5b5c0acea30726cb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16d1920d8e8f63d5b5c0acea30726cb9">insert</a> (position:usize, new_elem:core::ffi::c_uchar)</td></tr>
 <tr class="memitem:aeb4cbc2281da910c354999fbf32aa1a3" id="r_aeb4cbc2281da910c354999fbf32aa1a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb4cbc2281da910c354999fbf32aa1a3">erase</a> (position:usize)</td></tr>
+<tr class="memitem:a161db38a9028d563eb1e803aa67dc7f7" id="r_a161db38a9028d563eb1e803aa67dc7f7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a161db38a9028d563eb1e803aa67dc7f7">begin</a> () const -&gt; *const core::ffi::c_uchar</td></tr>
+<tr class="memitem:aea545cf7b9d3c6741c91171c08b01f2e" id="r_aea545cf7b9d3c6741c91171c08b01f2e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea545cf7b9d3c6741c91171c08b01f2e">end</a> () const -&gt; *const core::ffi::c_uchar</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -279,6 +281,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a161db38a9028d563eb1e803aa67dc7f7" name="a161db38a9028d563eb1e803aa67dc7f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a161db38a9028d563eb1e803aa67dc7f7">&#9670;&#160;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_unsigned_char::begin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  *const core::ffi::c_uchar</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_unsigned_char_begin()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a756f248c3cefc7914e804edb896ad35c" name="a756f248c3cefc7914e804edb896ad35c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a756f248c3cefc7914e804edb896ad35c">&#9670;&#160;</a></span>clear()</h2>
 
@@ -379,6 +400,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns true if the size is zero.</p>
 <p>Calls <span class="tt">MR_std_vector_unsigned_char_empty()</span>. </p>
+
+</div>
+</div>
+<a id="aea545cf7b9d3c6741c91171c08b01f2e" name="aea545cf7b9d3c6741c91171c08b01f2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea545cf7b9d3c6741c91171c08b01f2e">&#9670;&#160;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_unsigned_char::end </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  *const core::ffi::c_uchar</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_unsigned_char_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

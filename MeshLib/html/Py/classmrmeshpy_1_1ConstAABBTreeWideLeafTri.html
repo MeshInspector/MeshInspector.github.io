@@ -152,7 +152,7 @@ $(function(){initNavTree('classmrmeshpy_1_1ConstAABBTreeWideLeafTri.html','','cl
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ef0afad6e443e62405c6adad79c6bfe" id="r_a6ef0afad6e443e62405c6adad79c6bfe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ef0afad6e443e62405c6adad79c6bfe">__init__</a> (self, *args, **kwargs)</td></tr>
 <tr class="memitem:af10d89058ea49d64a1195c04e9e9453e" id="r_af10d89058ea49d64a1195c04e9e9453e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstFaceId.html">ConstFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af10d89058ea49d64a1195c04e9e9453e">face</a> (self)</td></tr>
-<tr class="memitem:af72d48b761fa4b8fa57cd0e46073d78a" id="r_af72d48b761fa4b8fa57cd0e46073d78a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Const__std__array__Id__VertTag__3.html">Const_std_array_Id_VertTag_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af72d48b761fa4b8fa57cd0e46073d78a">verts</a> (self)</td></tr>
+<tr class="memitem:a6c2a5151ec38de8991d587c56da83a1f" id="r_a6c2a5151ec38de8991d587c56da83a1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstThreeVertIds.html">ConstThreeVertIds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c2a5151ec38de8991d587c56da83a1f">verts</a> (self)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -193,15 +193,17 @@ Overloaded function.
 
 1. __init__(self: meshlib.mrmeshpy.ConstAABBTreeWideLeafTri) -&gt; None
 
-2. __init__(self: meshlib.mrmeshpy.ConstAABBTreeWideLeafTri, arg0: meshlib.mrmeshpy.ConstAABBTreeWideLeafTri) -&gt; None
+2. __init__(self: meshlib.mrmeshpy.ConstAABBTreeWideLeafTri, face: meshlib.mrmeshpy.ConstFaceId, verts: meshlib.mrmeshpy.ConstThreeVertIds) -&gt; None
+
+3. __init__(self: meshlib.mrmeshpy.ConstAABBTreeWideLeafTri, : meshlib.mrmeshpy.ConstNoInit) -&gt; None
+
+all members uninitialized, e.g. for the triangles written by the tree builder
+
+4. __init__(self: meshlib.mrmeshpy.ConstAABBTreeWideLeafTri, arg0: meshlib.mrmeshpy.ConstAABBTreeWideLeafTri) -&gt; None
 
 Implicit copy constructor.
 
-3. __init__(self: meshlib.mrmeshpy.ConstAABBTreeWideLeafTri, face: meshlib.mrmeshpy.ConstFaceId, verts: meshlib.mrmeshpy.Const_std_array_Id_VertTag_3) -&gt; None
-
-Implicit aggregate constructor.
-
-4. __init__(self: meshlib.mrmeshpy.ConstAABBTreeWideLeafTri, : meshlib.mrmeshpy.ConstAABBTreeWideLeafTri) -&gt; None
+5. __init__(self: meshlib.mrmeshpy.ConstAABBTreeWideLeafTri, : meshlib.mrmeshpy.ConstAABBTreeWideLeafTri) -&gt; None
 </pre> 
 </div>
 </div>
@@ -220,19 +222,20 @@ Implicit aggregate constructor.
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">invalid in the unused slots of a leaf
+</pre> 
 <p>Reimplemented in <a class="el" href="classmrmeshpy_1_1AABBTreeWideLeafTri.html#ac19385724ae69ddd048ee42d9f55b915">mrmeshpy.AABBTreeWideLeafTri</a>, and <a class="el" href="classmrmeshpy_1_1AABBTreeWideLeafTri.html#a940c0211eed6dfe6d78b975b98721c24">mrmeshpy.AABBTreeWideLeafTri</a>.</p>
 
 </div>
 </div>
-<a id="af72d48b761fa4b8fa57cd0e46073d78a" name="af72d48b761fa4b8fa57cd0e46073d78a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af72d48b761fa4b8fa57cd0e46073d78a">&#9670;&#160;</a></span>verts()</h2>
+<a id="a6c2a5151ec38de8991d587c56da83a1f" name="a6c2a5151ec38de8991d587c56da83a1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c2a5151ec38de8991d587c56da83a1f">&#9670;&#160;</a></span>verts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Const__std__array__Id__VertTag__3.html">Const_std_array_Id_VertTag_3</a> mrmeshpy.ConstAABBTreeWideLeafTri.verts </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1ConstThreeVertIds.html">ConstThreeVertIds</a> mrmeshpy.ConstAABBTreeWideLeafTri.verts </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
@@ -241,7 +244,7 @@ Implicit aggregate constructor.
 </div><div class="memdoc">
 <pre class="fragment">in the order of mesh.topology.getTriVerts( face )
 </pre> 
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1AABBTreeWideLeafTri.html#a19844e2cf08c72fb89fcfc076a702770">mrmeshpy.AABBTreeWideLeafTri</a>, and <a class="el" href="classmrmeshpy_1_1AABBTreeWideLeafTri.html#a3e316ffb1fd47ae2a33af4215404353d">mrmeshpy.AABBTreeWideLeafTri</a>.</p>
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1AABBTreeWideLeafTri.html#a509fffe288c05db81c274c5e2e825118">mrmeshpy.AABBTreeWideLeafTri</a>, and <a class="el" href="classmrmeshpy_1_1AABBTreeWideLeafTri.html#aebbc503973fb032e810c39b214d25bb5">mrmeshpy.AABBTreeWideLeafTri</a>.</p>
 
 </div>
 </div>

@@ -139,12 +139,10 @@ $(function(){initNavTree('MRAllocator_8h.html','',''); });
   <div class="headertitle"><div class="title">MRAllocator.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMesh_2config_8h_source.html">config.h</a>&quot;</code><br />
-<code>#include &quot;MRPch/MRBindingMacros.h&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;new&gt;</code><br />
 <code>#include &lt;type_traits&gt;</code><br />
-<code>#include &lt;mimalloc.h&gt;</code><br />
 </div>
 <p><a href="MRAllocator_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -157,6 +155,8 @@ Classes</h2></td></tr>
 Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only strictly necessary for the bindings (to make <span class="tt"><a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a></span> a complete type). <br /></td></tr>
+<tr class="memitem:MR_3A_3Adetail" id="r_MR_3A_3Adetail"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1detail.html">MR::detail</a></td></tr>
+<tr class="memdesc:namespaceMR_1_1detail"><td class="mdescLeft">&#160;</td><td class="mdescRight">for internal use: namespace detail is not bound to other languages <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
@@ -165,6 +165,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga40997e17f9eb79aaaf4e29357afe3370" id="r_ga40997e17f9eb79aaaf4e29357afe3370"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga40997e17f9eb79aaaf4e29357afe3370">MR::detail::mimallocNewN</a> (std::size_t count, std::size_t <a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
+<tr class="memitem:gab32953fc29375291584c951497d17ea6" id="r_gab32953fc29375291584c951497d17ea6"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab32953fc29375291584c951497d17ea6">MR::detail::mimallocNewAligned</a> (std::size_t <a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>, std::size_t alignment)</td></tr>
+<tr class="memitem:ga64cf4cb8faf6a631347f4a980eaaec9b" id="r_ga64cf4cb8faf6a631347f4a980eaaec9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga64cf4cb8faf6a631347f4a980eaaec9b">MR::detail::mimallocFree</a> (void *p) noexcept</td></tr>
 <tr class="memitem:ga069c10cc19da139f913e3cd6f507b76f" id="r_ga069c10cc19da139f913e3cd6f507b76f"><td class="memTemplParams" colspan="2">template&lt;typename T, typename U&gt; </td></tr>
 <tr class="memitem:ga069c10cc19da139f913e3cd6f507b76f template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga069c10cc19da139f913e3cd6f507b76f">MR::operator==</a> (const <a class="el" href="structMR_1_1Allocator.html">Allocator</a>&lt; T &gt; &amp;, const <a class="el" href="structMR_1_1Allocator.html">Allocator</a>&lt; U &gt; &amp;) noexcept</td></tr>
 </table><table class="memberdecls">

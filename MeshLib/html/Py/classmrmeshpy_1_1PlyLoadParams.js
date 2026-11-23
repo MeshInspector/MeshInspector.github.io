@@ -2,7 +2,7 @@ var classmrmeshpy_1_1PlyLoadParams =
 [
     [ "__init__", "classmrmeshpy_1_1PlyLoadParams.html#ae4bea723a4b5e45c7bb94386ef62dfc0", null ],
     [ "__init__", "classmrmeshpy_1_1PlyLoadParams.html#afce1a911b38d640010d901af4458bb11", null ],
-    [ "__init__", "classmrmeshpy_1_1PlyLoadParams.html#aa2ca56110669ab75fdb855d3a9af9490", null ],
+    [ "__init__", "classmrmeshpy_1_1PlyLoadParams.html#a85166089320202e220ed64e21e7a736d", null ],
     [ "assign", "classmrmeshpy_1_1PlyLoadParams.html#aab334115440a2fd88f4481616b17c6d9", null ],
     [ "callback", "classmrmeshpy_1_1PlyLoadParams.html#a740dcc8e3346dfd9d024cdfcdc7b9eee", null ],
     [ "callback", "classmrmeshpy_1_1PlyLoadParams.html#a74e2b02dc8dba0d7c033181f43c8522a", null ],
@@ -22,8 +22,8 @@ var classmrmeshpy_1_1PlyLoadParams =
     [ "texture", "classmrmeshpy_1_1PlyLoadParams.html#a73c13b2cf1dda15ab5aa69b7cebfebe1", null ],
     [ "triCornerUvCoords", "classmrmeshpy_1_1PlyLoadParams.html#a31d9e22b27ca4b5f2c1e6175d2b99aff", null ],
     [ "triCornerUvCoords", "classmrmeshpy_1_1PlyLoadParams.html#a14b3d77e9fb16a07c05368bf52579fd8", null ],
-    [ "tris", "classmrmeshpy_1_1PlyLoadParams.html#a21b359faf264c887cd283dfaa9bdd91d", null ],
-    [ "tris", "classmrmeshpy_1_1PlyLoadParams.html#aea7f02db6807d7da15a40c94e7aa644b", null ],
+    [ "tris", "classmrmeshpy_1_1PlyLoadParams.html#a56931a4658c307c940ad38b2ab558354", null ],
+    [ "tris", "classmrmeshpy_1_1PlyLoadParams.html#a5983198b57adb77f712fd97d9e1505a7", null ],
     [ "uvCoords", "classmrmeshpy_1_1PlyLoadParams.html#ac7d6e201a789388b899fe9ee460e7900", null ],
     [ "uvCoords", "classmrmeshpy_1_1PlyLoadParams.html#ab3f1f7755bea77c615a95144a663d0b2", null ]
 ];

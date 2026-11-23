@@ -13,9 +13,11 @@ var hierarchy =
       [ "MR::AABBTreeNode< T >", "structMR_1_1AABBTreeNode.html", null ]
     ] ],
     [ "MR::AABBTreePoints", "classMR_1_1AABBTreePoints.html", null ],
+    [ "MR::AABBTreeSimdBoxes", "structMR_1_1AABBTreeSimdBoxes.html", [
+      [ "MR::AABBTreeSimdNode", "structMR_1_1AABBTreeSimdNode.html", null ]
+    ] ],
     [ "MR::AABBTreeTraits< L, B >", "structMR_1_1AABBTreeTraits.html", null ],
     [ "MR::AABBTreeWideLeafTri", "structMR_1_1AABBTreeWideLeafTri.html", null ],
-    [ "MR::AABBTreeWideNode", "structMR_1_1AABBTreeWideNode.html", null ],
     [ "MR::SpaceMouse::Action", "structMR_1_1SpaceMouse_1_1Action.html", null ],
     [ "MR::AffineXf< V >", "structMR_1_1AffineXf.html", null ],
     [ "MR::AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", null ],
@@ -414,6 +416,7 @@ var hierarchy =
     [ "MR::FaceDistancesSettings", "structMR_1_1FaceDistancesSettings.html", null ],
     [ "MR::FaceFace", "structMR_1_1FaceFace.html", null ],
     [ "MR::FaceFaceFace", "structMR_1_1FaceFaceFace.html", null ],
+    [ "MR::FaceSoup", "structMR_1_1FaceSoup.html", null ],
     [ "std::false_type", null, [
       [ "MR::IsVisualizeMaskEnum< DimensionsVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01DimensionsVisualizePropertyType_01_4.html", null ],
       [ "MR::IsVisualizeMaskEnum< FeatureVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01FeatureVisualizePropertyType_01_4.html", null ],
@@ -481,6 +484,8 @@ var hierarchy =
     [ "MR::GeodesicPath", "structMR_1_1GeodesicPath.html", null ],
     [ "MR::GlBuffer", "classMR_1_1GlBuffer.html", null ],
     [ "MR::GLDriverIssue", "structMR_1_1GLDriverIssue.html", null ],
+    [ "MR::GlobalRegistrationParams", "structMR_1_1GlobalRegistrationParams.html", null ],
+    [ "MR::GlobalRegistrationResult", "structMR_1_1GlobalRegistrationResult.html", null ],
     [ "MR::GLStaticHolder", "classMR_1_1GLStaticHolder.html", null ],
     [ "MR::GlTexture", "classMR_1_1GlTexture.html", [
       [ "MR::GlTexture2", "classMR_1_1GlTexture2.html", null ],
@@ -927,7 +932,6 @@ var hierarchy =
     ] ],
     [ "MR::NoCtor< T >", "structMR_1_1NoCtor.html", null ],
     [ "MR::NoCtor< T >", "structMR_1_1NoCtor_3_01T_01_4.html", null ],
-    [ "MR::AABBTreePoints::Node", "structMR_1_1AABBTreePoints_1_1Node.html", null ],
     [ "MR::NodeNode", "structMR_1_1NodeNode.html", null ],
     [ "MR::NoInit", "structMR_1_1NoInit.html", [
       [ "MR::detail::NoInitIterator< T >::Ref", "structMR_1_1detail_1_1NoInitIterator_1_1Ref.html", null ]
@@ -935,6 +939,7 @@ var hierarchy =
     [ "MR::detail::NoInitIterator< T >", "structMR_1_1detail_1_1NoInitIterator.html", null ],
     [ "MR::NoiseSettings", "structMR_1_1NoiseSettings.html", null ],
     [ "MR::NoModelCheck", "structMR_1_1NoModelCheck.html", null ],
+    [ "MR::detail::NoRenumber", "structMR_1_1detail_1_1NoRenumber.html", null ],
     [ "MR::NormalsToPoints", "classMR_1_1NormalsToPoints.html", null ],
     [ "MR::NotificationTags", "structMR_1_1NotificationTags.html", null ],
     [ "MR::NoVisualRepresentationCheck", "structMR_1_1NoVisualRepresentationCheck.html", null ],
@@ -1349,6 +1354,7 @@ var hierarchy =
     [ "MR::ImGuiMeasurementIndicators::TextResult", "structMR_1_1ImGuiMeasurementIndicators_1_1TextResult.html", null ],
     [ "MR::Tgt2SrcMaps", "classMR_1_1Tgt2SrcMaps.html", null ],
     [ "MR::ThickenParams", "structMR_1_1ThickenParams.html", null ],
+    [ "MR::ThreeVertIds", "structMR_1_1ThreeVertIds.html", null ],
     [ "MR::RasterLoad::TiffLoadSettings", "structMR_1_1RasterLoad_1_1TiffLoadSettings.html", null ],
     [ "MR::Timer", "classMR_1_1Timer.html", null ],
     [ "MR::RenderDimensions::Tolerance", "structMR_1_1RenderDimensions_1_1Tolerance.html", null ],
@@ -1371,6 +1377,7 @@ var hierarchy =
     [ "MR::Viewport::TriCornerColors", "structMR_1_1Viewport_1_1TriCornerColors.html", null ],
     [ "MR::TriIntersectResult", "structMR_1_1TriIntersectResult.html", null ],
     [ "MR::TriMesh", "structMR_1_1TriMesh.html", null ],
+    [ "MR::TriMeshPart", "structMR_1_1TriMeshPart.html", null ],
     [ "MR::TrimOptionalOutput", "structMR_1_1TrimOptionalOutput.html", null ],
     [ "MR::TrimWithPlaneParams", "structMR_1_1TrimWithPlaneParams.html", null ],
     [ "MR::TriPoint< T >", "structMR_1_1TriPoint.html", null ],

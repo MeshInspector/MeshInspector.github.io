@@ -1,5 +1,6 @@
 var classMR_1_1Const__Edges =
 [
+    [ "_Enumerator", "classMR_1_1Const__Edges_1_1__Enumerator.html", "classMR_1_1Const__Edges_1_1__Enumerator" ],
     [ "Const_Edges", "classMR_1_1Const__Edges.html#aaad1d7e8bc0a3dc66b66c582e2dfd320", null ],
     [ "Const_Edges", "classMR_1_1Const__Edges.html#ac75a23b7c4e5ce54f13d6453cac4eedf", null ],
     [ "Const_Edges", "classMR_1_1Const__Edges.html#a8b08b3cd59850ce77c24863b229983ca", null ],
@@ -18,6 +19,7 @@ var classMR_1_1Const__Edges =
     [ "Equals", "classMR_1_1Const__Edges.html#a7d93377f328d8cd08ab187c6e90f2f11", null ],
     [ "Equals", "classMR_1_1Const__Edges.html#ac35f492b30785d6fdf2d878c139edb4f", null ],
     [ "front", "classMR_1_1Const__Edges.html#aebc2f310c01f0747afbe6f019023fd27", null ],
+    [ "GetEnumerator", "classMR_1_1Const__Edges.html#a0ccb86afb66c166373c3e520ab1df4bc", null ],
     [ "heapBytes", "classMR_1_1Const__Edges.html#a06af482deed8c750904dd8b02a549f9d", null ],
     [ "maxSize", "classMR_1_1Const__Edges.html#a8bf01db75d41636e6a7882a321bdc069", null ],
     [ "operator!=", "classMR_1_1Const__Edges.html#a5427d5e9d9836c35b161167761fe5e20", null ],

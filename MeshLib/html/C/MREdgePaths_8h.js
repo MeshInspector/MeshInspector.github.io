@@ -12,6 +12,7 @@ var MREdgePaths_8h =
     [ "MR_buildSmallestMetricPath_const_MR_MeshTopology_ref_MR_VertBitSet", "MREdgePaths_8h.html#ad8da36ad32199b0966e9b341694afe2a", null ],
     [ "MR_buildSmallestMetricPath_const_MR_MeshTopology_ref_MR_VertId", "MREdgePaths_8h.html#aa251783aed334d8d3ab782b159631945", null ],
     [ "MR_buildSmallestMetricPathBiDir_5", "MREdgePaths_8h.html#a9a064f90fea5dfb6c05f474e20febd39", null ],
+    [ "MR_buildSmallestMetricPathBiDir_7", "MREdgePaths_8h.html#a130dec312ae0064542203775b8e2a721", null ],
     [ "MR_buildSmallestMetricPathBiDir_9", "MREdgePaths_8h.html#a1551badd5037d173ddd6365676a71efc", null ],
     [ "MR_calcOrientedArea", "MREdgePaths_8h.html#a6d4f45ed3d2b750e02d1da69390ecf37", null ],
     [ "MR_calcPathLength", "MREdgePaths_8h.html#a9aed7223075d4a824156944612c24826", null ],

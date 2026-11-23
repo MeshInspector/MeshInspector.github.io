@@ -140,7 +140,6 @@ $(function(){initNavTree('MRMeshTopology_8h.html','',''); });
 <code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="std__array__MR__VertId__3_8h_source.html">MRCMisc/std_array_MR_VertId_3.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -150,7 +149,7 @@ $(function(){initNavTree('MRMeshTopology_8h.html','',''); });
 Typedefs</h2></td></tr>
 <tr class="memitem:ad437c87b0085a9b068d0f17444d2ec37" id="r_ad437c87b0085a9b068d0f17444d2ec37"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad437c87b0085a9b068d0f17444d2ec37">MR_Vector_MR_EdgeId_MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad437c87b0085a9b068d0f17444d2ec37">MR_Vector_MR_EdgeId_MR_FaceId</a></td></tr>
 <tr class="memitem:a671aeade0ec8112b35396267227859d1" id="r_a671aeade0ec8112b35396267227859d1"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a671aeade0ec8112b35396267227859d1">MR_Vector_MR_EdgeId_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a671aeade0ec8112b35396267227859d1">MR_Vector_MR_EdgeId_MR_VertId</a></td></tr>
-<tr class="memitem:a0a138ffb1210f2ff902fbf161d0878f9" id="r_a0a138ffb1210f2ff902fbf161d0878f9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0a138ffb1210f2ff902fbf161d0878f9">MR_std_vector_std_array_MR_VertId_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a138ffb1210f2ff902fbf161d0878f9">MR_std_vector_std_array_MR_VertId_3</a></td></tr>
+<tr class="memitem:a1f8c75756ad92bedd190b46ab295f1be" id="r_a1f8c75756ad92bedd190b46ab295f1be"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1f8c75756ad92bedd190b46ab295f1be">MR_Vector_MR_ThreeVertIds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f8c75756ad92bedd190b46ab295f1be">MR_Vector_MR_ThreeVertIds</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -221,14 +220,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a12f13aff81b300a2cf94c63814d88663" id="r_a12f13aff81b300a2cf94c63814d88663"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12f13aff81b300a2cf94c63814d88663">MR_MeshTopology_getFaceDegree</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> f)</td></tr>
 <tr class="memitem:ac190c883f340a302dcf6a8d1152b6400" id="r_ac190c883f340a302dcf6a8d1152b6400"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac190c883f340a302dcf6a8d1152b6400">MR_MeshTopology_isLeftTri</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> a)</td></tr>
 <tr class="memitem:add578cdc5b5dae71853261aeb80fdb12" id="r_add578cdc5b5dae71853261aeb80fdb12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add578cdc5b5dae71853261aeb80fdb12">MR_MeshTopology_getTriVerts_4</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> f, <a class="el" href="structMR__VertId.html">MR_VertId</a> *v0, <a class="el" href="structMR__VertId.html">MR_VertId</a> *v1, <a class="el" href="structMR__VertId.html">MR_VertId</a> *v2)</td></tr>
-<tr class="memitem:ac2e740cf32f5ff2ba8ccf1608792ab01" id="r_ac2e740cf32f5ff2ba8ccf1608792ab01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2e740cf32f5ff2ba8ccf1608792ab01">MR_MeshTopology_getTriVerts_2</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> f, <a class="el" href="structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> *v)</td></tr>
-<tr class="memitem:ac434fc22049cbe3aa121ad4cf8704c16" id="r_ac434fc22049cbe3aa121ad4cf8704c16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac434fc22049cbe3aa121ad4cf8704c16">MR_MeshTopology_getTriVerts_1</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> f)</td></tr>
+<tr class="memitem:a97093231df68653179fe6fa835867a59" id="r_a97093231df68653179fe6fa835867a59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97093231df68653179fe6fa835867a59">MR_MeshTopology_getTriVerts_2</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> f, <a class="el" href="structMR__ThreeVertIds.html">MR_ThreeVertIds</a> *v)</td></tr>
+<tr class="memitem:a06acde144458efeac9597c24be91aed8" id="r_a06acde144458efeac9597c24be91aed8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__ThreeVertIds.html">MR_ThreeVertIds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06acde144458efeac9597c24be91aed8">MR_MeshTopology_getTriVerts_1</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> f)</td></tr>
 <tr class="memitem:a03c8d4e23499b9b41eaa837bdd084f58" id="r_a03c8d4e23499b9b41eaa837bdd084f58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03c8d4e23499b9b41eaa837bdd084f58">MR_MeshTopology_isTriVert</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> f, <a class="el" href="structMR__VertId.html">MR_VertId</a> v)</td></tr>
-<tr class="memitem:a8fe2a86d4e7d435ae54750194f28dc2d" id="r_a8fe2a86d4e7d435ae54750194f28dc2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0a138ffb1210f2ff902fbf161d0878f9">MR_std_vector_std_array_MR_VertId_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fe2a86d4e7d435ae54750194f28dc2d">MR_MeshTopology_getAllTriVerts</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this)</td></tr>
+<tr class="memitem:aebfa534d8fcecdc030f33bf9d09946b2" id="r_aebfa534d8fcecdc030f33bf9d09946b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1f8c75756ad92bedd190b46ab295f1be">MR_Vector_MR_ThreeVertIds</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebfa534d8fcecdc030f33bf9d09946b2">MR_MeshTopology_getAllTriVerts</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this)</td></tr>
 <tr class="memitem:a73d163898fff3a9677b56151e186df53" id="r_a73d163898fff3a9677b56151e186df53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAlphaShape_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73d163898fff3a9677b56151e186df53">MR_MeshTopology_getTriangulation</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this)</td></tr>
 <tr class="memitem:a6503cd47836860f2a2820ffb5fdf376f" id="r_a6503cd47836860f2a2820ffb5fdf376f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6503cd47836860f2a2820ffb5fdf376f">MR_MeshTopology_getLeftTriVerts_outVerts</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> a, <a class="el" href="structMR__VertId.html">MR_VertId</a> *v0, <a class="el" href="structMR__VertId.html">MR_VertId</a> *v1, <a class="el" href="structMR__VertId.html">MR_VertId</a> *v2)</td></tr>
-<tr class="memitem:a651154d3f1ef3e7d9d085d1fac782924" id="r_a651154d3f1ef3e7d9d085d1fac782924"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a651154d3f1ef3e7d9d085d1fac782924">MR_MeshTopology_getLeftTriVerts_outArray</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> a, <a class="el" href="structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> *v)</td></tr>
-<tr class="memitem:a47d2a9ee1f0a540f2c375a189dd76380" id="r_a47d2a9ee1f0a540f2c375a189dd76380"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47d2a9ee1f0a540f2c375a189dd76380">MR_MeshTopology_getLeftTriVerts</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> a)</td></tr>
+<tr class="memitem:aedc52b75e8b1727296d8ce1649599f70" id="r_aedc52b75e8b1727296d8ce1649599f70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedc52b75e8b1727296d8ce1649599f70">MR_MeshTopology_getLeftTriVerts_outArray</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> a, <a class="el" href="structMR__ThreeVertIds.html">MR_ThreeVertIds</a> *v)</td></tr>
+<tr class="memitem:a0bf99d05065eaf4abdda0e207187178b" id="r_a0bf99d05065eaf4abdda0e207187178b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__ThreeVertIds.html">MR_ThreeVertIds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bf99d05065eaf4abdda0e207187178b">MR_MeshTopology_getLeftTriVerts</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> a)</td></tr>
 <tr class="memitem:aa97390ce25b03f0fd0ca38da5dca7df2" id="r_aa97390ce25b03f0fd0ca38da5dca7df2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa97390ce25b03f0fd0ca38da5dca7df2">MR_MeshTopology_getLeftTriEdges</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> e0, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> *e1, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> *e2)</td></tr>
 <tr class="memitem:a2a4f601e5582a483f3ca460646f14e63" id="r_a2a4f601e5582a483f3ca460646f14e63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a4f601e5582a483f3ca460646f14e63">MR_MeshTopology_getTriEdges</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> f, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> *e0, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> *e1, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> *e2)</td></tr>
 <tr class="memitem:af2f77bd6b02112ef3888a2fd8bc6e288" id="r_af2f77bd6b02112ef3888a2fd8bc6e288"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2f77bd6b02112ef3888a2fd8bc6e288">MR_MeshTopology_isLeftQuad</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> a)</td></tr>
@@ -323,21 +322,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a11344d69a733e4d99818f2b0dcdce78c" id="r_a11344d69a733e4d99818f2b0dcdce78c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11344d69a733e4d99818f2b0dcdce78c">MR_MeshTopology_checkValidity</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, const bool *allVerts)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="a0a138ffb1210f2ff902fbf161d0878f9" name="a0a138ffb1210f2ff902fbf161d0878f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a138ffb1210f2ff902fbf161d0878f9">&#9670;&#160;</a></span>MR_std_vector_std_array_MR_VertId_3</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="#a0a138ffb1210f2ff902fbf161d0878f9">MR_std_vector_std_array_MR_VertId_3</a> <a class="el" href="#a0a138ffb1210f2ff902fbf161d0878f9">MR_std_vector_std_array_MR_VertId_3</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Generated from C++ container <span class="tt">std::vector&lt;std::array&lt;MR::VertId, 3&gt;&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
-
-</div>
-</div>
 <a id="ad437c87b0085a9b068d0f17444d2ec37" name="ad437c87b0085a9b068d0f17444d2ec37"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad437c87b0085a9b068d0f17444d2ec37">&#9670;&#160;</a></span>MR_Vector_MR_EdgeId_MR_FaceId</h2>
 
@@ -365,6 +349,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&lt;MR::EdgeId, MR::VertId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a1f8c75756ad92bedd190b46ab295f1be" name="a1f8c75756ad92bedd190b46ab295f1be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f8c75756ad92bedd190b46ab295f1be">&#9670;&#160;</a></span>MR_Vector_MR_ThreeVertIds</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a1f8c75756ad92bedd190b46ab295f1be">MR_Vector_MR_ThreeVertIds</a> <a class="el" href="#a1f8c75756ad92bedd190b46ab295f1be">MR_Vector_MR_ThreeVertIds</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Vector&lt;T&gt; is indexed by size_t Generated from class <span class="tt">MR::Vector&lt;MR::ThreeVertIds&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -1782,21 +1781,21 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8fe2a86d4e7d435ae54750194f28dc2d" name="a8fe2a86d4e7d435ae54750194f28dc2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fe2a86d4e7d435ae54750194f28dc2d">&#9670;&#160;</a></span>MR_MeshTopology_getAllTriVerts()</h2>
+<a id="aebfa534d8fcecdc030f33bf9d09946b2" name="aebfa534d8fcecdc030f33bf9d09946b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebfa534d8fcecdc030f33bf9d09946b2">&#9670;&#160;</a></span>MR_MeshTopology_getAllTriVerts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0a138ffb1210f2ff902fbf161d0878f9">MR_std_vector_std_array_MR_VertId_3</a> * MR_MeshTopology_getAllTriVerts </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1f8c75756ad92bedd190b46ab295f1be">MR_Vector_MR_ThreeVertIds</a> * MR_MeshTopology_getAllTriVerts </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns three vertex ids for valid triangles, invalid triangles are skipped Generated from method <span class="tt">MR::MeshTopology::getAllTriVerts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__std__array__MR__VertId__3_8h.html#affc4759de373784c0bb88105251c52f7" title="Destroys a heap-allocated instance of MR_std_vector_std_array_MR_VertId_3. Does nothing if the pointe...">MR_std_vector_std_array_MR_VertId_3_Destroy()</a></span> to free it when you're done using it. </p>
+<p>returns three vertex ids for valid triangles, invalid triangles are skipped Generated from method <span class="tt">MR::MeshTopology::getAllTriVerts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRVector_8h.html#ae0f201956c62f8cb7471d546b07a7300" title="Destroys a heap-allocated instance of MR_Vector_MR_ThreeVertIds. Does nothing if the pointer is null.">MR_Vector_MR_ThreeVertIds_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1942,14 +1941,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a47d2a9ee1f0a540f2c375a189dd76380" name="a47d2a9ee1f0a540f2c375a189dd76380"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47d2a9ee1f0a540f2c375a189dd76380">&#9670;&#160;</a></span>MR_MeshTopology_getLeftTriVerts()</h2>
+<a id="a0bf99d05065eaf4abdda0e207187178b" name="a0bf99d05065eaf4abdda0e207187178b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bf99d05065eaf4abdda0e207187178b">&#9670;&#160;</a></span>MR_MeshTopology_getLeftTriVerts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> MR_MeshTopology_getLeftTriVerts </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__ThreeVertIds.html">MR_ThreeVertIds</a> MR_MeshTopology_getLeftTriVerts </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1964,8 +1963,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a651154d3f1ef3e7d9d085d1fac782924" name="a651154d3f1ef3e7d9d085d1fac782924"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a651154d3f1ef3e7d9d085d1fac782924">&#9670;&#160;</a></span>MR_MeshTopology_getLeftTriVerts_outArray()</h2>
+<a id="aedc52b75e8b1727296d8ce1649599f70" name="aedc52b75e8b1727296d8ce1649599f70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedc52b75e8b1727296d8ce1649599f70">&#9670;&#160;</a></span>MR_MeshTopology_getLeftTriVerts_outArray()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1983,7 +1982,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> *</td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="structMR__ThreeVertIds.html">MR_ThreeVertIds</a> *</td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2171,14 +2170,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac434fc22049cbe3aa121ad4cf8704c16" name="ac434fc22049cbe3aa121ad4cf8704c16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac434fc22049cbe3aa121ad4cf8704c16">&#9670;&#160;</a></span>MR_MeshTopology_getTriVerts_1()</h2>
+<a id="a06acde144458efeac9597c24be91aed8" name="a06acde144458efeac9597c24be91aed8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06acde144458efeac9597c24be91aed8">&#9670;&#160;</a></span>MR_MeshTopology_getTriVerts_1()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> MR_MeshTopology_getTriVerts_1 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__ThreeVertIds.html">MR_ThreeVertIds</a> MR_MeshTopology_getTriVerts_1 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2193,8 +2192,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac2e740cf32f5ff2ba8ccf1608792ab01" name="ac2e740cf32f5ff2ba8ccf1608792ab01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2e740cf32f5ff2ba8ccf1608792ab01">&#9670;&#160;</a></span>MR_MeshTopology_getTriVerts_2()</h2>
+<a id="a97093231df68653179fe6fa835867a59" name="a97093231df68653179fe6fa835867a59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97093231df68653179fe6fa835867a59">&#9670;&#160;</a></span>MR_MeshTopology_getTriVerts_2()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2212,7 +2211,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> *</td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="structMR__ThreeVertIds.html">MR_ThreeVertIds</a> *</td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

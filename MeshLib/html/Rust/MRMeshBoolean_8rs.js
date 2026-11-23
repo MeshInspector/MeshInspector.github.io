@@ -6,6 +6,8 @@ var MRMeshBoolean_8rs =
     [ "meshlib::BooleanResultPoints", "structmeshlib_1_1BooleanResultPoints.html", "structmeshlib_1_1BooleanResultPoints" ],
     [ "meshlib::boolean", "namespacemeshlib.html#a87c1e676f2463f5e12d8f26de0ba40c2", null ],
     [ "meshlib::boolean_move", "namespacemeshlib.html#add447269c0596b37223cd4fe85ac5e58", null ],
+    [ "meshlib::boolean_move_a", "namespacemeshlib.html#afd08402ea910519747654f92f6acf6db", null ],
+    [ "meshlib::boolean_move_b", "namespacemeshlib.html#a7eb632cf98020c27658894971f0d7996", null ],
     [ "meshlib::boolean_with_xf", "namespacemeshlib.html#a4f72c45208de632b2d6ffb92c515100e", null ],
     [ "meshlib::convert_int_float_all_verts", "namespacemeshlib.html#a2ba726b46c9c2357219f72ec1772ea95", null ],
     [ "meshlib::find_intersection_contours", "namespacemeshlib.html#a3c04ca4d22f1d91cf5fae3021e2b72f2", null ],

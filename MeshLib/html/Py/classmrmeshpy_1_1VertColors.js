@@ -7,7 +7,7 @@ var classmrmeshpy_1_1VertColors =
     [ "__init__", "classmrmeshpy_1_1VertColors.html#a7945d7d96da0458ab8a4e3db2d5b9b62", null ],
     [ "__getitem__", "classmrmeshpy_1_1VertColors.html#a4078d1046f30ff6cfddbbbbd1da3d94e", null ],
     [ "__getitem__", "classmrmeshpy_1_1VertColors.html#ae221d32d3ac0cb17e98b9338fb34685c", null ],
-    [ "__iter__", "classmrmeshpy_1_1VertColors.html#abce47881ee68ebff97ef0b809a4dd1ff", null ],
+    [ "__iter__", "classmrmeshpy_1_1VertColors.html#a2b0eff47f5f6ac4d71978c02f546d3dc", null ],
     [ "__iter__", "classmrmeshpy_1_1VertColors.html#a8a35a054064b6d16a10694e9ac0359eb", null ],
     [ "__setitem__", "classmrmeshpy_1_1VertColors.html#a3e940de0ed555dbe17d7956e97f112f4", null ],
     [ "assign", "classmrmeshpy_1_1VertColors.html#a2779b2b738cad487d1193e43fbd63b69", null ],

@@ -1,7 +1,7 @@
 var classMR_1_1Const__MeshLoadSettings =
 [
     [ "Const_MeshLoadSettings", "classMR_1_1Const__MeshLoadSettings.html#ab5ca649bc462d5aa43c1cd7130415248", null ],
-    [ "Const_MeshLoadSettings", "classMR_1_1Const__MeshLoadSettings.html#aa0899cc2a9ef442abe2021eb738a8c8a", null ],
+    [ "Const_MeshLoadSettings", "classMR_1_1Const__MeshLoadSettings.html#acc3725f7d6288643c31bb11796279fee", null ],
     [ "Const_MeshLoadSettings", "classMR_1_1Const__MeshLoadSettings.html#aef654cfc64364d0e3b9238f7d92116d8", null ],
     [ "Const_MeshLoadSettings", "classMR_1_1Const__MeshLoadSettings.html#a715149295b3f0dddb6d8b9a8190e9412", null ],
     [ "Const_MeshLoadSettings", "classMR_1_1Const__MeshLoadSettings.html#acad89372e3d9736cd16208e2b3796f5e", null ],
@@ -15,6 +15,7 @@ var classMR_1_1Const__MeshLoadSettings =
     [ "__ptr_storage_skippedFaceCount", "classMR_1_1Const__MeshLoadSettings.html#a8903cf813283fc8b0c92ec359a552833", null ],
     [ "__ptr_storage_solidColor", "classMR_1_1Const__MeshLoadSettings.html#abb95537c8e86d28819413a1700586b4a", null ],
     [ "__ptr_storage_texture", "classMR_1_1Const__MeshLoadSettings.html#a994f42e95d8e855a659e5adbaaecb992", null ],
+    [ "__ptr_storage_triCornerUvCoords", "classMR_1_1Const__MeshLoadSettings.html#ae621faddcf3f420f162d43f138c31336", null ],
     [ "__ptr_storage_uvCoords", "classMR_1_1Const__MeshLoadSettings.html#aa29970e377be6b5f723c1707e364f75f", null ],
     [ "__ptr_storage_xf", "classMR_1_1Const__MeshLoadSettings.html#a3ae6b4817aa2ef79e9c1d5b51dcf6ee4", null ],
     [ "__ref_storage_telemetrySignal", "classMR_1_1Const__MeshLoadSettings.html#a7ad872036c1385ccd79b8c1bbca47c2c", null ],
@@ -28,6 +29,7 @@ var classMR_1_1Const__MeshLoadSettings =
     [ "solidColor", "classMR_1_1Const__MeshLoadSettings.html#a94e27076a43e699047573532212630bd", null ],
     [ "telemetrySignal", "classMR_1_1Const__MeshLoadSettings.html#a3f755c46d07099f8fbfb92109142dc8e", null ],
     [ "texture", "classMR_1_1Const__MeshLoadSettings.html#a42334a7ef4195d08451e4da72d5eff7f", null ],
+    [ "triCornerUvCoords", "classMR_1_1Const__MeshLoadSettings.html#a22dfc51f9b5655b9f36f3adcbeaf4e6d", null ],
     [ "uvCoords", "classMR_1_1Const__MeshLoadSettings.html#a96a37a34862f16e0e385cb350c51db2d", null ],
     [ "xf", "classMR_1_1Const__MeshLoadSettings.html#a188ccc70c0779bc2657fd44cd32fa88d", null ]
 ];

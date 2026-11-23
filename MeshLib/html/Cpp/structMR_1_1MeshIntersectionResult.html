@@ -152,19 +152,49 @@ $(function(){initNavTree('structMR_1_1MeshIntersectionResult.html','','structMR_
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a2c138555d94fc9f1535b79ff5e8f7026" id="r_a2c138555d94fc9f1535b79ff5e8f7026"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c138555d94fc9f1535b79ff5e8f7026">valid</a> () const</td></tr>
+<tr class="memdesc:a2c138555d94fc9f1535b79ff5e8f7026"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for validity  <br /></td></tr>
 <tr class="memitem:a35b9064f7ab7e270307559622c3ec903" id="r_a35b9064f7ab7e270307559622c3ec903"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35b9064f7ab7e270307559622c3ec903">operator bool</a> () const</td></tr>
-<tr class="memdesc:a35b9064f7ab7e270307559622c3ec903"><td class="mdescLeft">&#160;</td><td class="mdescRight">check for validity  <br /></td></tr>
+<tr class="memitem:a2f22c8d64736c8e5ac4bf510fb2f81d2" id="r_a2f22c8d64736c8e5ac4bf510fb2f81d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f22c8d64736c8e5ac4bf510fb2f81d2">mtp</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology) const</td></tr>
+<tr class="memdesc:a2f22c8d64736c8e5ac4bf510fb2f81d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the intersection point as MeshTriPoint relative to topology.edgeWithLeft( proj.face ), or invalid MeshTriPoint if no intersection was found  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a59e06434bac0180ffaac80a2fb3041d1" id="r_a59e06434bac0180ffaac80a2fb3041d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PointOnFace.html">PointOnFace</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59e06434bac0180ffaac80a2fb3041d1">proj</a></td></tr>
 <tr class="memdesc:a59e06434bac0180ffaac80a2fb3041d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores intersected face and global coordinates  <br /></td></tr>
-<tr class="memitem:aa6767f8fee0dd3f9883b1657e2d9fcb2" id="r_aa6767f8fee0dd3f9883b1657e2d9fcb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6767f8fee0dd3f9883b1657e2d9fcb2">mtp</a></td></tr>
-<tr class="memdesc:aa6767f8fee0dd3f9883b1657e2d9fcb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores barycentric coordinates  <br /></td></tr>
+<tr class="memitem:a26f0999136b9f539503d0791ff949416" id="r_a26f0999136b9f539503d0791ff949416"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga38bb05d6835471e5cc3352addbd30f02">TriPointf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26f0999136b9f539503d0791ff949416">tp</a></td></tr>
+<tr class="memdesc:a26f0999136b9f539503d0791ff949416"><td class="mdescLeft">&#160;</td><td class="mdescRight">barycentric coordinates of proj relative to the vertices of proj.face in the order of <a class="el" href="group__GeneralGroup.html#ga1505aee9d1b0cdf3c24139b5e97bc187">MeshTopology::getTriVerts</a>( proj.face )  <br /></td></tr>
 <tr class="memitem:a701e1414a45534a29d2ad1f7074c3c61" id="r_a701e1414a45534a29d2ad1f7074c3c61"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a701e1414a45534a29d2ad1f7074c3c61">distanceAlongLine</a> = 0</td></tr>
 <tr class="memdesc:a701e1414a45534a29d2ad1f7074c3c61"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores the distance from ray origin to the intersection point in direction units  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a2f22c8d64736c8e5ac4bf510fb2f81d2" name="a2f22c8d64736c8e5ac4bf510fb2f81d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f22c8d64736c8e5ac4bf510fb2f81d2">&#9670;&#160;</a></span>mtp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> MR::MeshIntersectionResult::mtp </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the intersection point as MeshTriPoint relative to topology.edgeWithLeft( proj.face ), or invalid MeshTriPoint if no intersection was found </p>
+
+</div>
+</div>
 <a id="a35b9064f7ab7e270307559622c3ec903" name="a35b9064f7ab7e270307559622c3ec903"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a35b9064f7ab7e270307559622c3ec903">&#9670;&#160;</a></span>operator bool()</h2>
 
@@ -183,7 +213,32 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel explicit">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel explicit">explicit</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c138555d94fc9f1535b79ff5e8f7026" name="a2c138555d94fc9f1535b79ff5e8f7026"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c138555d94fc9f1535b79ff5e8f7026">&#9670;&#160;</a></span>valid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::MeshIntersectionResult::valid </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -209,22 +264,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa6767f8fee0dd3f9883b1657e2d9fcb2" name="aa6767f8fee0dd3f9883b1657e2d9fcb2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6767f8fee0dd3f9883b1657e2d9fcb2">&#9670;&#160;</a></span>mtp</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> MR::MeshIntersectionResult::mtp</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>stores barycentric coordinates </p>
-
-</div>
-</div>
 <a id="a59e06434bac0180ffaac80a2fb3041d1" name="a59e06434bac0180ffaac80a2fb3041d1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a59e06434bac0180ffaac80a2fb3041d1">&#9670;&#160;</a></span>proj</h2>
 
@@ -238,6 +277,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>stores intersected face and global coordinates </p>
+
+</div>
+</div>
+<a id="a26f0999136b9f539503d0791ff949416" name="a26f0999136b9f539503d0791ff949416"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26f0999136b9f539503d0791ff949416">&#9670;&#160;</a></span>tp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga38bb05d6835471e5cc3352addbd30f02">TriPointf</a> MR::MeshIntersectionResult::tp</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>barycentric coordinates of proj relative to the vertices of proj.face in the order of <a class="el" href="group__GeneralGroup.html#ga1505aee9d1b0cdf3c24139b5e97bc187">MeshTopology::getTriVerts</a>( proj.face ) </p>
 
 </div>
 </div>

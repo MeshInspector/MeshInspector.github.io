@@ -1,8 +1,9 @@
 var MRMeshLoadSettings_8h =
 [
     [ "MR_std_optional_MR_Edges", "MRMeshLoadSettings_8h.html#a13a39913eea8101afdb2e6ed71bedc67", null ],
+    [ "MR_TriCornerUVCoords", "MRMeshLoadSettings_8h.html#abf80e9d0fcc3f2903bddf1072257b6d4", null ],
     [ "MR_MeshLoadSettings_AssignFromAnother", "MRMeshLoadSettings_8h.html#a7596ac1226963b624ac759b572ddd569", null ],
-    [ "MR_MeshLoadSettings_ConstructFrom", "MRMeshLoadSettings_8h.html#a0c292787b4f997a29aecdb7f7783e7d7", null ],
+    [ "MR_MeshLoadSettings_ConstructFrom", "MRMeshLoadSettings_8h.html#ae1d4d2bf9cd26bdb13608b92af4bec4c", null ],
     [ "MR_MeshLoadSettings_ConstructFromAnother", "MRMeshLoadSettings_8h.html#a22c74d8fbcd3807dc70dce3ed2cdd78e", null ],
     [ "MR_MeshLoadSettings_DefaultConstruct", "MRMeshLoadSettings_8h.html#aad97bb5f0767f6c710cb15336faca28b", null ],
     [ "MR_MeshLoadSettings_DefaultConstructArray", "MRMeshLoadSettings_8h.html#a16167042e229622b49249c388d6029b3", null ],
@@ -18,6 +19,7 @@ var MRMeshLoadSettings_8h =
     [ "MR_MeshLoadSettings_Get_solidColor", "MRMeshLoadSettings_8h.html#a297f0681bf402c71509185e6d5806dd5", null ],
     [ "MR_MeshLoadSettings_Get_telemetrySignal", "MRMeshLoadSettings_8h.html#a7d66ee62373301afde979d9a3647f53f", null ],
     [ "MR_MeshLoadSettings_Get_texture", "MRMeshLoadSettings_8h.html#a8b64f27244a6935c04b4028cd7d4d9a2", null ],
+    [ "MR_MeshLoadSettings_Get_triCornerUvCoords", "MRMeshLoadSettings_8h.html#a9a2901d2cd6ccd89fd650ea76cc35b93", null ],
     [ "MR_MeshLoadSettings_Get_uvCoords", "MRMeshLoadSettings_8h.html#a22a02e78e0e8bbe14e4b2340d3b544ea", null ],
     [ "MR_MeshLoadSettings_Get_xf", "MRMeshLoadSettings_8h.html#a88f6c5cb131d475a7094759faaa93947", null ],
     [ "MR_MeshLoadSettings_GetMutable_callback", "MRMeshLoadSettings_8h.html#a660d1d74665eb66602201f4e4822dcba", null ],
@@ -30,6 +32,7 @@ var MRMeshLoadSettings_8h =
     [ "MR_MeshLoadSettings_GetMutable_solidColor", "MRMeshLoadSettings_8h.html#ae7dfde2715dde340ed03326cec05c7c7", null ],
     [ "MR_MeshLoadSettings_GetMutable_telemetrySignal", "MRMeshLoadSettings_8h.html#a0e5ee1204d1e5db362c8828f599321f3", null ],
     [ "MR_MeshLoadSettings_GetMutable_texture", "MRMeshLoadSettings_8h.html#a8116a0e45b71e16ee715f8d9b7df42d8", null ],
+    [ "MR_MeshLoadSettings_GetMutable_triCornerUvCoords", "MRMeshLoadSettings_8h.html#a438426b89b7eeab8cf4dc2912f6e3015", null ],
     [ "MR_MeshLoadSettings_GetMutable_uvCoords", "MRMeshLoadSettings_8h.html#a61fcba4dd2cab5f8aaae9341a918b6bc", null ],
     [ "MR_MeshLoadSettings_GetMutable_xf", "MRMeshLoadSettings_8h.html#a8a83908c4e85e0fd82884bba75d0840d", null ],
     [ "MR_MeshLoadSettings_OffsetMutablePtr", "MRMeshLoadSettings_8h.html#a16c7ae08a79cc16e038cc1f0bcaad198", null ],
@@ -44,6 +47,7 @@ var MRMeshLoadSettings_8h =
     [ "MR_MeshLoadSettings_Set_solidColor", "MRMeshLoadSettings_8h.html#ad2a5da716d11c15c9bfa946b61733193", null ],
     [ "MR_MeshLoadSettings_Set_telemetrySignal", "MRMeshLoadSettings_8h.html#ad93f00cc479cde5fddf95df3ca47f2e5", null ],
     [ "MR_MeshLoadSettings_Set_texture", "MRMeshLoadSettings_8h.html#a5f3d8f065a84e4d4524ece155623ab1b", null ],
+    [ "MR_MeshLoadSettings_Set_triCornerUvCoords", "MRMeshLoadSettings_8h.html#afac030042a405b47841f477f90f7ff78", null ],
     [ "MR_MeshLoadSettings_Set_uvCoords", "MRMeshLoadSettings_8h.html#a61825ee70c5e9b8d18969e43e68019d5", null ],
     [ "MR_MeshLoadSettings_Set_xf", "MRMeshLoadSettings_8h.html#a4e185b1c30547766467b2d6aad2ce9ba", null ]
 ];

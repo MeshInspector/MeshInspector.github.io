@@ -71,7 +71,6 @@ var MRMeshFwd_8h =
     [ "MR::SurfacePath", "group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3", null ],
     [ "MR::SurfacePaths", "group__GeneralGroup.html#ga1947baff009e7ba9b3d0754c30a458a5", null ],
     [ "MR::ThreeUVCoords", "group__GeneralGroup.html#ga4434b15c24b22d8f017f529064021a35", null ],
-    [ "MR::ThreeVertIds", "group__GeneralGroup.html#ga9fa45e8860a645c31bc2c7f1a2abf56b", null ],
     [ "MR::Triangle3d", "group__GeneralGroup.html#ga9905362191a698597df6dca4bd2cc53b", null ],
     [ "MR::Triangle3f", "group__GeneralGroup.html#gac3b4f93ff16dbb5975ce8dec6adc39cf", null ],
     [ "MR::Triangle3i", "group__GeneralGroup.html#ga712806ee9f8b1b9a53133ddba57f7da7", null ],

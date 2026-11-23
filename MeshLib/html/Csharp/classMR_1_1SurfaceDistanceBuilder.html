@@ -172,6 +172,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac143451e18c893f7e2fe051a14bcdd10"><td class="mdescLeft">&#160;</td><td class="mdescRight">initiates distance construction from triangle vertices surrounding given start point (they all will be returned by growOne); the distances are from this point, each call adds a separate point Generated from method <span class="tt"><a class="el" href="#ac143451e18c893f7e2fe051a14bcdd10" title="initiates distance construction from triangle vertices surrounding given start point (they all will b...">MR.SurfaceDistanceBuilder.addStart</a></span>.  <br /></td></tr>
 <tr class="memitem:ae7c224f695e6ef1421a4fabaef34be54" id="r_ae7c224f695e6ef1421a4fabaef34be54"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7c224f695e6ef1421a4fabaef34be54">setMaxVertUpdates</a> (int v)</td></tr>
 <tr class="memdesc:ae7c224f695e6ef1421a4fabaef34be54"><td class="mdescLeft">&#160;</td><td class="mdescRight">the maximum amount of times vertex distance can be updated in [1,255], 3 by default; the more the better obtuse triangles are handled Generated from method <span class="tt"><a class="el" href="#ae7c224f695e6ef1421a4fabaef34be54" title="the maximum amount of times vertex distance can be updated in [1,255], 3 by default; the more the bet...">MR.SurfaceDistanceBuilder.setMaxVertUpdates</a></span>.  <br /></td></tr>
+<tr class="memitem:afd07033e79582d8ea8c20ec9ab180127" id="r_afd07033e79582d8ea8c20ec9ab180127"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd07033e79582d8ea8c20ec9ab180127">setNoLocalMinima</a> (bool on)</td></tr>
+<tr class="memdesc:afd07033e79582d8ea8c20ec9ab180127"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, then a distance computed in a triangle is always larger than the smaller distance in its other two vertices, so every reached vertex except the vertices around the start has a neighbor with smaller distance, and the steepest descent from any reached point arrives to the start; distances near the start and near obtuse or thin triangles become larger, and some distances computed from them can become a bit smaller Generated from method <span class="tt"><a class="el" href="#afd07033e79582d8ea8c20ec9ab180127" title="if true, then a distance computed in a triangle is always larger than the smaller distance in its oth...">MR.SurfaceDistanceBuilder.setNoLocalMinima</a></span>.  <br /></td></tr>
 <tr class="memitem:af7464bf0dd439f0b95d8cb0b82e711bd" id="r_af7464bf0dd439f0b95d8cb0b82e711bd"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1VertId.html">MR.VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7464bf0dd439f0b95d8cb0b82e711bd">growOne</a> ()</td></tr>
 <tr class="memdesc:af7464bf0dd439f0b95d8cb0b82e711bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">processes one more candidate vertex, which is returned Generated from method <span class="tt"><a class="el" href="#af7464bf0dd439f0b95d8cb0b82e711bd" title="processes one more candidate vertex, which is returned Generated from method MR.SurfaceDistanceBuilde...">MR.SurfaceDistanceBuilder.growOne</a></span>.  <br /></td></tr>
 <tr class="memitem:a6336b38bddbb9c98ed1c33e416a2933d" id="r_a6336b38bddbb9c98ed1c33e416a2933d"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1VertScalars.html">MR.VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6336b38bddbb9c98ed1c33e416a2933d">takeDistanceMap</a> ()</td></tr>
@@ -522,6 +524,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>the maximum amount of times vertex distance can be updated in [1,255], 3 by default; the more the better obtuse triangles are handled Generated from method <span class="tt"><a class="el" href="#ae7c224f695e6ef1421a4fabaef34be54" title="the maximum amount of times vertex distance can be updated in [1,255], 3 by default; the more the bet...">MR.SurfaceDistanceBuilder.setMaxVertUpdates</a></span>. </p>
+
+</div>
+</div>
+<a id="afd07033e79582d8ea8c20ec9ab180127" name="afd07033e79582d8ea8c20ec9ab180127"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd07033e79582d8ea8c20ec9ab180127">&#9670;&#160;</a></span>setNoLocalMinima()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.SurfaceDistanceBuilder.setNoLocalMinima </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>on</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>if true, then a distance computed in a triangle is always larger than the smaller distance in its other two vertices, so every reached vertex except the vertices around the start has a neighbor with smaller distance, and the steepest descent from any reached point arrives to the start; distances near the start and near obtuse or thin triangles become larger, and some distances computed from them can become a bit smaller Generated from method <span class="tt"><a class="el" href="#afd07033e79582d8ea8c20ec9ab180127" title="if true, then a distance computed in a triangle is always larger than the smaller distance in its oth...">MR.SurfaceDistanceBuilder.setNoLocalMinima</a></span>. </p>
 
 </div>
 </div>

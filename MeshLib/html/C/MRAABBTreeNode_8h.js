@@ -4,7 +4,6 @@ var MRAABBTreeNode_8h =
     [ "MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f", "MRAABBTreeNode_8h.html#aa1d97775f82e6c737fb1050d3e7c9b74", null ],
     [ "MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f", "MRAABBTreeNode_8h.html#accec7e90aed21d0b7057c821b322e2f8", null ],
     [ "MR_NodeNode", "MRAABBTreeNode_8h.html#a2523d2e75da5546aa3efda1815ddaf08", null ],
-    [ "MR_NoInit", "MRAABBTreeNode_8h.html#a14f0f26a43ddb92c3fa3c2192008224c", null ],
     [ "MR_AABBTreeChildEncoding_AssignFromAnother", "MRAABBTreeNode_8h.html#a09d8510d162ba8c45fe66f9d09ac704a", null ],
     [ "MR_AABBTreeChildEncoding_ConstructFromAnother", "MRAABBTreeNode_8h.html#ace7a77cf19378392530ec24551b4bb08", null ],
     [ "MR_AABBTreeChildEncoding_DefaultConstruct", "MRAABBTreeNode_8h.html#a16ee48d5859da14079a35e858e321274", null ],

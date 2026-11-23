@@ -10,5 +10,6 @@ var classMR_1_1SurfaceDistanceBuilder =
     [ "doneDistance", "classMR_1_1SurfaceDistanceBuilder.html#a66781dd9ecf7009c090fffa4c7d0e6f7", null ],
     [ "growOne", "classMR_1_1SurfaceDistanceBuilder.html#a43aa321544fea1e2253d32f3f10b6a39", null ],
     [ "setMaxVertUpdates", "classMR_1_1SurfaceDistanceBuilder.html#ab233bff0428403e114f95605d8e1004b", null ],
+    [ "setNoLocalMinima", "classMR_1_1SurfaceDistanceBuilder.html#aca551a1d988ee6ec2198798bad6567c0", null ],
     [ "takeDistanceMap", "classMR_1_1SurfaceDistanceBuilder.html#aa5c104e6de91cb67a4df448454913a0d", null ]
 ];

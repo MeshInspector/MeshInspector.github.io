@@ -169,6 +169,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a29dacac383ae4a136bee31f7c0b826dd" id="r_a29dacac383ae4a136bee31f7c0b826dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29dacac383ae4a136bee31f7c0b826dd">pop_back</a> ()</td></tr>
 <tr class="memitem:a4a885d69f25a62b260781adc91d75778" id="r_a4a885d69f25a62b260781adc91d75778"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a885d69f25a62b260781adc91d75778">insert</a> (long position, <a class="el" href="classmeshlib_1_1DistanceMap.html">meshlib.DistanceMap</a> new_elem)</td></tr>
 <tr class="memitem:ac0faf6de5a1eb50227b56c1f4495d61e" id="r_ac0faf6de5a1eb50227b56c1f4495d61e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0faf6de5a1eb50227b56c1f4495d61e">erase</a> (long position)</td></tr>
+<tr class="memitem:a36803743be6bd020c0b83296c86b2503" id="r_a36803743be6bd020c0b83296c86b2503"><td class="memItemLeft" align="right" valign="top">java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36803743be6bd020c0b83296c86b2503">begin</a> ()</td></tr>
+<tr class="memitem:a3703bc6be76933f4dd91a8738c88b143" id="r_a3703bc6be76933f4dd91a8738c88b143"><td class="memItemLeft" align="right" valign="top">java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3703bc6be76933f4dd91a8738c88b143">end</a> ()</td></tr>
 <tr class="inherit_header pub_methods_classmeshlib_1_1CppObject"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmeshlib_1_1CppObject')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmeshlib_1_1CppObject.html">meshlib.CppObject</a></td></tr>
 <tr class="memitem:a50e9c0c04aa6405ed71f1f41a882a450 inherit pub_methods_classmeshlib_1_1CppObject" id="r_a50e9c0c04aa6405ed71f1f41a882a450"><td class="memItemLeft" align="right" valign="top">final java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1CppObject.html#a50e9c0c04aa6405ed71f1f41a882a450">rawPointer</a> ()</td></tr>
 <tr class="memitem:a13a1dffc41acfd1d81b88c42f47ecd36 inherit pub_methods_classmeshlib_1_1CppObject" id="r_a13a1dffc41acfd1d81b88c42f47ecd36"><td class="memItemLeft" align="right" valign="top">final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1CppObject.html#a13a1dffc41acfd1d81b88c42f47ecd36">isOwned</a> ()</td></tr>
@@ -345,6 +347,25 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a36803743be6bd020c0b83296c86b2503" name="a36803743be6bd020c0b83296c86b2503"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36803743be6bd020c0b83296c86b2503">&#9670;&#160;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">java.lang.foreign.MemorySegment meshlib.std_vector_MR_DistanceMap.begin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Iterators of this container are plain pointers. The reference to this object might be preserved as the return value.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_DistanceMap_begin()</span>. Some types are raw C types, see the C bindings for the details. </p>
+
+</div>
+</div>
 <a id="a5d6e572fbab1c7e2945afbfdadde6293" name="a5d6e572fbab1c7e2945afbfdadde6293"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5d6e572fbab1c7e2945afbfdadde6293">&#9670;&#160;</a></span>clear()</h2>
 
@@ -380,6 +401,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns true if the size is zero.</p>
 <p>Calls <span class="tt">MR_std_vector_MR_DistanceMap_empty()</span>. </p>
+
+</div>
+</div>
+<a id="a3703bc6be76933f4dd91a8738c88b143" name="a3703bc6be76933f4dd91a8738c88b143"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3703bc6be76933f4dd91a8738c88b143">&#9670;&#160;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">java.lang.foreign.MemorySegment meshlib.std_vector_MR_DistanceMap.end </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Iterators of this container are plain pointers. The reference to this object might be preserved as the return value.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_DistanceMap_end()</span>. Some types are raw C types, see the C bindings for the details. </p>
 
 </div>
 </div>

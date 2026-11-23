@@ -1,5 +1,6 @@
 var classMR_1_1Const__EdgeScalars =
 [
+    [ "_Enumerator", "classMR_1_1Const__EdgeScalars_1_1__Enumerator.html", "classMR_1_1Const__EdgeScalars_1_1__Enumerator" ],
     [ "Const_EdgeScalars", "classMR_1_1Const__EdgeScalars.html#a48eb2ff7375b4822cc5d4fa3700e870a", null ],
     [ "Const_EdgeScalars", "classMR_1_1Const__EdgeScalars.html#a07d22ab826ebdc65a29624615b285948", null ],
     [ "Const_EdgeScalars", "classMR_1_1Const__EdgeScalars.html#aaa4ef0a830aae5e226456feba9f6ad54", null ],
@@ -18,6 +19,7 @@ var classMR_1_1Const__EdgeScalars =
     [ "Equals", "classMR_1_1Const__EdgeScalars.html#ae0116555e35b3650fbf324f42c583fdb", null ],
     [ "Equals", "classMR_1_1Const__EdgeScalars.html#a1f73ba98bcddcf15dfed37f73f92cd1c", null ],
     [ "front", "classMR_1_1Const__EdgeScalars.html#a2ec21158e26c8189a3c6a945c8b95f04", null ],
+    [ "GetEnumerator", "classMR_1_1Const__EdgeScalars.html#a2180a0cd67970afbd6d09e0f79d1909f", null ],
     [ "heapBytes", "classMR_1_1Const__EdgeScalars.html#a6f0c64bbc2ef71d54c6d306fdcf0892a", null ],
     [ "maxSize", "classMR_1_1Const__EdgeScalars.html#a9dbdde4236c3bc38486e4ee712ab1088", null ],
     [ "operator!=", "classMR_1_1Const__EdgeScalars.html#a855817d09e78b8523c4c370da582644a", null ],

@@ -9,5 +9,6 @@ var classmrmeshpy_1_1SurfaceDistanceBuilder =
     [ "addStartVertices", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a64428a655bc03738174596ca1f70c00b", null ],
     [ "growOne", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a2bb2a7e3dbffedf2935ab9b42fa502c4", null ],
     [ "setMaxVertUpdates", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a9d0b36ce3fa8d4bd286b19fcec392b8b", null ],
+    [ "setNoLocalMinima", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a08b53ada8771ba464e1499c3b01d3745", null ],
     [ "takeDistanceMap", "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a5fb8aac644301a4d71835344c4403590", null ]
 ];

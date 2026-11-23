@@ -7,7 +7,7 @@ var MRMeshBuilder_8h =
     [ "MR_MeshBuilder_addTriangles_std_vector_MR_VertId", "MRMeshBuilder_8h.html#ad9abd1ff57dc6e6d47c8943d6e7adc66", null ],
     [ "MR_MeshBuilder_computeTrianglesRepetitions", "MRMeshBuilder_8h.html#a170afe64c1fcc6cfc61b06374f5e9c7a", null ],
     [ "MR_MeshBuilder_fromDisjointMeshPieces", "MRMeshBuilder_8h.html#a56622157bbe5b8a5b8e7fc4b7a734460", null ],
-    [ "MR_MeshBuilder_fromFaceSoup", "MRMeshBuilder_8h.html#a3132a6c61070316881d0176e7091b501", null ],
+    [ "MR_MeshBuilder_fromFaceSoup", "MRMeshBuilder_8h.html#a0ce6afdf6171550357bff9784eeff780", null ],
     [ "MR_MeshBuilder_fromPointTriples", "MRMeshBuilder_8h.html#aa0b0a0cae50734e6a2016ec928e202a9", null ],
     [ "MR_MeshBuilder_fromTriangles", "MRMeshBuilder_8h.html#a1ad32ce7ddb11e81220d43d7b61c69e6", null ],
     [ "MR_MeshBuilder_fromTrianglesDuplicatingNonManifoldVertices", "MRMeshBuilder_8h.html#a9ad4a1b473296cab97457c0e1c3c2ce6", null ],

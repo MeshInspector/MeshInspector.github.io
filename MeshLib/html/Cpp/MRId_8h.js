@@ -1,5 +1,7 @@
 var MRId_8h =
 [
+    [ "MR::get", "group__GeneralGroup.html#ga7a401c6dcf9df00e29ffd7cb69181018", null ],
+    [ "MR::get", "group__GeneralGroup.html#ga02d246883b8422a12536821fe1ccf679", null ],
     [ "MR::operator\"\"_e", "group__GeneralGroup.html#gaaabec0b590b199d56d36804df0255a3b", null ],
     [ "MR::operator\"\"_f", "group__GeneralGroup.html#ga1c14c4b422f53d6aed87261063ce34fb", null ],
     [ "MR::operator\"\"_ue", "group__GeneralGroup.html#ga0820efd8a0fb59fdacc1b48836994041", null ],

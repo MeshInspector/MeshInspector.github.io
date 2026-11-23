@@ -16,6 +16,7 @@ var classMR_1_1Const__Vector__MRAlphaShapeNei =
     [ "empty", "classMR_1_1Const__Vector__MRAlphaShapeNei.html#adcefc3196b352113981c5f84e20576c8", null ],
     [ "endId", "classMR_1_1Const__Vector__MRAlphaShapeNei.html#aaf3140f26834acc9654c804d42e5b810", null ],
     [ "front", "classMR_1_1Const__Vector__MRAlphaShapeNei.html#ac6bf8e345d8dfa3b9b009a6111724267", null ],
+    [ "GetEnumerator", "classMR_1_1Const__Vector__MRAlphaShapeNei.html#a194345c0990ca4f706f571a64e860df4", null ],
     [ "heapBytes", "classMR_1_1Const__Vector__MRAlphaShapeNei.html#aa3c79a0e8c1ce3f3779612f9c418b078", null ],
     [ "maxSize", "classMR_1_1Const__Vector__MRAlphaShapeNei.html#a113b7b0da95f2b7b9019c9288b71437a", null ],
     [ "size", "classMR_1_1Const__Vector__MRAlphaShapeNei.html#a26dcb7b0393f5a9699e6d469d40d00a9", null ],

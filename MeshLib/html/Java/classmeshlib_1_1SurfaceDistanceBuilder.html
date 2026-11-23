@@ -159,6 +159,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:add4aecb8b535b1bbbde58248f2c2b8c3" id="r_add4aecb8b535b1bbbde58248f2c2b8c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add4aecb8b535b1bbbde58248f2c2b8c3">addStartEdgesAndPoints</a> (<a class="el" href="classmeshlib_1_1UndirectedEdgeBitSet.html">meshlib.UndirectedEdgeBitSet</a> startEdges, <a class="el" href="classmeshlib_1_1VertBitSet.html">meshlib.VertBitSet</a> startPoints, float startDistance)</td></tr>
 <tr class="memitem:a9dfb04c18839673eca0ebdfe80780474" id="r_a9dfb04c18839673eca0ebdfe80780474"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dfb04c18839673eca0ebdfe80780474">addStart</a> (<a class="el" href="classmeshlib_1_1MeshTriPoint.html">meshlib.MeshTriPoint</a> start)</td></tr>
 <tr class="memitem:a73f176e42f0a31ec56998e23b9362bfb" id="r_a73f176e42f0a31ec56998e23b9362bfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73f176e42f0a31ec56998e23b9362bfb">setMaxVertUpdates</a> (int v)</td></tr>
+<tr class="memitem:a7d974e2db0dfc2b9c779085b38b6ceea" id="r_a7d974e2db0dfc2b9c779085b38b6ceea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d974e2db0dfc2b9c779085b38b6ceea">setNoLocalMinima</a> (boolean on)</td></tr>
 <tr class="memitem:aad38cf9075a6d24aa37690e558dc50c5" id="r_aad38cf9075a6d24aa37690e558dc50c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1VertId.html">meshlib.VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad38cf9075a6d24aa37690e558dc50c5">growOne</a> ()</td></tr>
 <tr class="memitem:a679104497e2691ff8ba44ff978a2ab1e" id="r_a679104497e2691ff8ba44ff978a2ab1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1VertScalars.html">meshlib.VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a679104497e2691ff8ba44ff978a2ab1e">takeDistanceMap</a> ()</td></tr>
 <tr class="memitem:ac994c6aefa03401805c17550b5d9374d" id="r_ac994c6aefa03401805c17550b5d9374d"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac994c6aefa03401805c17550b5d9374d">done</a> ()</td></tr>
@@ -438,6 +439,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>the maximum amount of times vertex distance can be updated in [1,255], 3 by default; the more the better obtuse triangles are handled Generated from method <span class="tt">MR::SurfaceDistanceBuilder::setMaxVertUpdates</span>.</p>
 <p>Calls <span class="tt">MR_SurfaceDistanceBuilder_setMaxVertUpdates()</span>. </p>
+
+</div>
+</div>
+<a id="a7d974e2db0dfc2b9c779085b38b6ceea" name="a7d974e2db0dfc2b9c779085b38b6ceea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d974e2db0dfc2b9c779085b38b6ceea">&#9670;&#160;</a></span>setNoLocalMinima()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void meshlib.SurfaceDistanceBuilder.setNoLocalMinima </td>
+          <td>(</td>
+          <td class="paramtype">boolean</td>          <td class="paramname"><span class="paramname"><em>on</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true, then a distance computed in a triangle is always larger than the smaller distance in its other two vertices, so every reached vertex except the vertices around the start has a neighbor with smaller distance, and the steepest descent from any reached point arrives to the start; distances near the start and near obtuse or thin triangles become larger, and some distances computed from them can become a bit smaller Generated from method <span class="tt">MR::SurfaceDistanceBuilder::setNoLocalMinima</span>.</p>
+<p>Calls <span class="tt">MR_SurfaceDistanceBuilder_setNoLocalMinima()</span>. </p>
 
 </div>
 </div>

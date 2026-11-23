@@ -171,6 +171,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a1e15097bf14eef0f3af134da38a432f5" id="r_a1e15097bf14eef0f3af134da38a432f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e15097bf14eef0f3af134da38a432f5">MR_std_vector_float_pop_back</a> (<a class="el" href="MRPdf_8h.html#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a> *_this)</td></tr>
 <tr class="memitem:aae8a89377d91d79b2c30f14ec556a847" id="r_aae8a89377d91d79b2c30f14ec556a847"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae8a89377d91d79b2c30f14ec556a847">MR_std_vector_float_insert</a> (<a class="el" href="MRPdf_8h.html#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a> *_this, size_t position, float new_elem)</td></tr>
 <tr class="memitem:a24a848ea36a819f8ccfceb110173d2dd" id="r_a24a848ea36a819f8ccfceb110173d2dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24a848ea36a819f8ccfceb110173d2dd">MR_std_vector_float_erase</a> (<a class="el" href="MRPdf_8h.html#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a> *_this, size_t position)</td></tr>
+<tr class="memitem:a25365caf84eed5359e74a1bc507ba537" id="r_a25365caf84eed5359e74a1bc507ba537"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25365caf84eed5359e74a1bc507ba537">MR_std_vector_float_begin</a> (const <a class="el" href="MRPdf_8h.html#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a> *_this)</td></tr>
+<tr class="memitem:ae066dbedc849bfff86c0d27dce455520" id="r_ae066dbedc849bfff86c0d27dce455520"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae066dbedc849bfff86c0d27dce455520">MR_std_vector_float_end</a> (const <a class="el" href="MRPdf_8h.html#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a> *_this)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a2b63d0af587bed3587ec9629cfcd4959" name="a2b63d0af587bed3587ec9629cfcd4959"></a>
@@ -277,6 +279,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>The last element or null if empty, mutable. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a25365caf84eed5359e74a1bc507ba537" name="a25365caf84eed5359e74a1bc507ba537"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25365caf84eed5359e74a1bc507ba537">&#9670;&#160;</a></span>MR_std_vector_float_begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_std_vector_float_begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPdf_8h.html#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -445,6 +465,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns true if the size is zero. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ae066dbedc849bfff86c0d27dce455520" name="ae066dbedc849bfff86c0d27dce455520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae066dbedc849bfff86c0d27dce455520">&#9670;&#160;</a></span>MR_std_vector_float_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_std_vector_float_end </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRPdf_8h.html#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

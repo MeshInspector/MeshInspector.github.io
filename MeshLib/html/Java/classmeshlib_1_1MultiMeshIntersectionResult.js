@@ -7,11 +7,13 @@ var classmeshlib_1_1MultiMeshIntersectionResult =
     [ "convertTo_bool", "classmeshlib_1_1MultiMeshIntersectionResult.html#a920f62cb5196a6e67b933dd0c15482d9", null ],
     [ "distanceAlongLine", "classmeshlib_1_1MultiMeshIntersectionResult.html#af906bdd92a13d8bfe7d3155fce5b33de", null ],
     [ "mesh", "classmeshlib_1_1MultiMeshIntersectionResult.html#adea226cb3d2000e34bc850d92a862f56", null ],
-    [ "mtp", "classmeshlib_1_1MultiMeshIntersectionResult.html#a772c050a7720809790584996978e687c", null ],
+    [ "mtp", "classmeshlib_1_1MultiMeshIntersectionResult.html#a92bd44afb3e47d668b1d97da92e67b44", null ],
     [ "proj", "classmeshlib_1_1MultiMeshIntersectionResult.html#a33bd7d60dd81c92c252c7774a060ad7a", null ],
     [ "setDistanceAlongLine", "classmeshlib_1_1MultiMeshIntersectionResult.html#a369faea15b1bbe8d70c8ec319d6a86bd", null ],
     [ "setMesh", "classmeshlib_1_1MultiMeshIntersectionResult.html#a62da02adb2c79184fcb7ca658459758c", null ],
-    [ "setMtp", "classmeshlib_1_1MultiMeshIntersectionResult.html#a4e3a289660eda08b176dd26273be4d63", null ],
     [ "setProj", "classmeshlib_1_1MultiMeshIntersectionResult.html#a3eb2f67f175fa7538627ba9cdacb82f5", null ],
-    [ "upcastToMeshIntersectionResult", "classmeshlib_1_1MultiMeshIntersectionResult.html#ae517a64f9d5792abb20a54f6b7355146", null ]
+    [ "setTp", "classmeshlib_1_1MultiMeshIntersectionResult.html#a464e0aae6606092f677993be19ffcb96", null ],
+    [ "tp", "classmeshlib_1_1MultiMeshIntersectionResult.html#a98ac41a8600a991eb7d767b5802ac07c", null ],
+    [ "upcastToMeshIntersectionResult", "classmeshlib_1_1MultiMeshIntersectionResult.html#ae517a64f9d5792abb20a54f6b7355146", null ],
+    [ "valid", "classmeshlib_1_1MultiMeshIntersectionResult.html#ae3941749b041c6c123094aa3f4f11b2f", null ]
 ];

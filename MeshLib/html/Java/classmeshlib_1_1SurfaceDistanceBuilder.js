@@ -12,5 +12,6 @@ var classmeshlib_1_1SurfaceDistanceBuilder =
     [ "doneDistance", "classmeshlib_1_1SurfaceDistanceBuilder.html#a13033c09b79ed27189e468ab3ca61464", null ],
     [ "growOne", "classmeshlib_1_1SurfaceDistanceBuilder.html#aad38cf9075a6d24aa37690e558dc50c5", null ],
     [ "setMaxVertUpdates", "classmeshlib_1_1SurfaceDistanceBuilder.html#a73f176e42f0a31ec56998e23b9362bfb", null ],
+    [ "setNoLocalMinima", "classmeshlib_1_1SurfaceDistanceBuilder.html#a7d974e2db0dfc2b9c779085b38b6ceea", null ],
     [ "takeDistanceMap", "classmeshlib_1_1SurfaceDistanceBuilder.html#a679104497e2691ff8ba44ff978a2ab1e", null ]
 ];

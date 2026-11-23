@@ -59,6 +59,7 @@ var annotated_dup =
     [ "MR_std_array_MR_VertId_2", "structMR__std__array__MR__VertId__2.html", "structMR__std__array__MR__VertId__2" ],
     [ "MR_std_array_MR_VertId_3", "structMR__std__array__MR__VertId__3.html", "structMR__std__array__MR__VertId__3" ],
     [ "MR_TextureId", "structMR__TextureId.html", "structMR__TextureId" ],
+    [ "MR_ThreeVertIds", "structMR__ThreeVertIds.html", "structMR__ThreeVertIds" ],
     [ "MR_UndirectedEdgeId", "structMR__UndirectedEdgeId.html", "structMR__UndirectedEdgeId" ],
     [ "MR_Vector2b", "structMR__Vector2b.html", "structMR__Vector2b" ],
     [ "MR_Vector2d", "structMR__Vector2d.html", "structMR__Vector2d" ],

@@ -159,6 +159,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a64428a655bc03738174596ca1f70c00b" id="r_a64428a655bc03738174596ca1f70c00b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64428a655bc03738174596ca1f70c00b">addStartVertices</a> (self, <a class="el" href="classmrmeshpy_1_1Const__phmap__flat__hash__map__Id__VertTag__float__phmap__Hash__Id__VertTag__phd154edd8ea45e2daafdf091df0705366.html">Const_phmap_flat_hash_map_Id_VertTag_float_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_float</a> startVertices)</td></tr>
 <tr class="memitem:a2bb2a7e3dbffedf2935ab9b42fa502c4" id="r_a2bb2a7e3dbffedf2935ab9b42fa502c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bb2a7e3dbffedf2935ab9b42fa502c4">growOne</a> (self)</td></tr>
 <tr class="memitem:a9d0b36ce3fa8d4bd286b19fcec392b8b" id="r_a9d0b36ce3fa8d4bd286b19fcec392b8b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d0b36ce3fa8d4bd286b19fcec392b8b">setMaxVertUpdates</a> (self, int v)</td></tr>
+<tr class="memitem:a08b53ada8771ba464e1499c3b01d3745" id="r_a08b53ada8771ba464e1499c3b01d3745"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08b53ada8771ba464e1499c3b01d3745">setNoLocalMinima</a> (self, bool on)</td></tr>
 <tr class="memitem:a5fb8aac644301a4d71835344c4403590" id="r_a5fb8aac644301a4d71835344c4403590"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fb8aac644301a4d71835344c4403590">takeDistanceMap</a> (self)</td></tr>
 <tr class="inherit_header pub_methods_classmrmeshpy_1_1ConstSurfaceDistanceBuilder"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmrmeshpy_1_1ConstSurfaceDistanceBuilder')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmrmeshpy_1_1ConstSurfaceDistanceBuilder.html">mrmeshpy.ConstSurfaceDistanceBuilder</a></td></tr>
 <tr class="memitem:a3ee006e3628b494651cdaab5eeda3fc0 inherit pub_methods_classmrmeshpy_1_1ConstSurfaceDistanceBuilder" id="r_a3ee006e3628b494651cdaab5eeda3fc0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1ConstSurfaceDistanceBuilder.html#a3ee006e3628b494651cdaab5eeda3fc0">__init__</a> (self, *args, **kwargs)</td></tr>
@@ -429,6 +430,31 @@ the vertices connected by mesh edges make lines or regions (a line with differen
 </div><div class="memdoc">
 <pre class="fragment">the maximum amount of times vertex distance can be updated in [1,255], 3 by default;
 the more the better obtuse triangles are handled
+</pre> 
+</div>
+</div>
+<a id="a08b53ada8771ba464e1499c3b01d3745" name="a08b53ada8771ba464e1499c3b01d3745"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08b53ada8771ba464e1499c3b01d3745">&#9670;&#160;</a></span>setNoLocalMinima()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.SurfaceDistanceBuilder.setNoLocalMinima </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>on</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">if true, then a distance computed in a triangle is always larger than the smaller distance in its other two vertices,
+so every reached vertex except the vertices around the start has a neighbor with smaller distance,
+and the steepest descent from any reached point arrives to the start; distances near the start and near obtuse or thin triangles become larger,
+and some distances computed from them can become a bit smaller
 </pre> 
 </div>
 </div>
