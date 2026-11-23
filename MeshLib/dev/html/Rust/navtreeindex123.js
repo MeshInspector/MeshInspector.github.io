@@ -1,5 +1,7 @@
 var NAVTREEINDEX123 =
 {
+"structmeshlib_1_1RingIterator__MR__NextEdgeSameLeft.html#a5140ddfbddd305d70cdd1b1bdf748c17":[9,5,1,0,0,884,1],
+"structmeshlib_1_1RingIterator__MR__NextEdgeSameLeft.html#a6953d62c0d37c75c076e183f4e8973ec":[9,5,0,0,0,897,2],
 "structmeshlib_1_1RingIterator__MR__NextEdgeSameLeft.html#a6953d62c0d37c75c076e183f4e8973ec":[9,5,1,0,0,884,2],
 "structmeshlib_1_1RingIterator__MR__NextEdgeSameLeft.html#ab1d3c2af069e8aa35e25edc0725a4806":[9,5,0,0,0,897,0],
 "structmeshlib_1_1RingIterator__MR__NextEdgeSameLeft.html#ab1d3c2af069e8aa35e25edc0725a4806":[9,5,1,0,0,884,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX123 =
 "structmeshlib_1_1SceneSettings__ShadingMode.html":[9,5,1,0,0,895],
 "structmeshlib_1_1SceneSettings__StringType.html":[9,5,0,0,0,909],
 "structmeshlib_1_1SceneSettings__StringType.html":[9,5,1,0,0,896],
-"structmeshlib_1_1SearchPathSettings.html":[9,5,0,0,0,910],
-"structmeshlib_1_1SearchPathSettings.html":[9,5,1,0,0,897],
-"structmeshlib_1_1SearchPathSettings.html#a103159ba5e1cd4885280822fa2bc11ea":[9,5,0,0,0,910,1]
+"structmeshlib_1_1SearchPathSettings.html":[9,5,0,0,0,910]
 };

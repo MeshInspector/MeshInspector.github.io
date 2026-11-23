@@ -1,5 +1,7 @@
 var NAVTREEINDEX140 =
 {
+"structmeshlib_1_1TwoLineSegmClosestPoints__float.html#a62caccf1f36c6a6a26814a63d751a7cb":[9,5,1,0,0,1528,4],
+"structmeshlib_1_1TwoLineSegmClosestPoints__float.html#a86fc547a28dc9cd8979b0d78c05b7c65":[9,5,0,0,0,1541,0],
 "structmeshlib_1_1TwoLineSegmClosestPoints__float.html#a86fc547a28dc9cd8979b0d78c05b7c65":[9,5,1,0,0,1528,0],
 "structmeshlib_1_1TwoLineSegmClosestPoints__float.html#a90a917cb12e82e11f814464790a641cd":[9,5,0,0,0,1541,5],
 "structmeshlib_1_1TwoLineSegmClosestPoints__float.html#a90a917cb12e82e11f814464790a641cd":[9,5,1,0,0,1528,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX140 =
 "structmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ada1410686a00fe8d5a2d3e838db46997":[9,5,1,0,0,1530,48],
 "structmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#addb989c16c2d81901b529bfd69027514":[9,5,0,0,0,1543,15],
 "structmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#addb989c16c2d81901b529bfd69027514":[9,5,1,0,0,1530,15],
-"structmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ae56c1d0e3395fcae7aac409fcb94d707":[9,5,0,0,0,1543,1],
-"structmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ae56c1d0e3395fcae7aac409fcb94d707":[9,5,1,0,0,1530,1],
-"structmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ae7e62dd51d77fcf2417e247828c0dbcd":[9,5,0,0,0,1543,42]
+"structmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ae56c1d0e3395fcae7aac409fcb94d707":[9,5,0,0,0,1543,1]
 };

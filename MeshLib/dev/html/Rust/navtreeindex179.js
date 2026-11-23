@@ -1,5 +1,7 @@
 var NAVTREEINDEX179 =
 {
+"structmeshlib_1_1expected__MR__Polyline3__std__string.html#a7146421a434a2415aae401b81ecca9d5":[9,5,1,0,0,332,0],
+"structmeshlib_1_1expected__MR__Polyline3__std__string.html#a76dfd0cb8f22a984f8d10b871779a49c":[9,5,0,0,0,345,4],
 "structmeshlib_1_1expected__MR__Polyline3__std__string.html#a76dfd0cb8f22a984f8d10b871779a49c":[9,5,1,0,0,332,4],
 "structmeshlib_1_1expected__MR__Polyline3__std__string.html#a80889cdbb92752dcb75fcfe7ad682a4c":[9,5,0,0,0,345,2],
 "structmeshlib_1_1expected__MR__Polyline3__std__string.html#a80889cdbb92752dcb75fcfe7ad682a4c":[9,5,1,0,0,332,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX179 =
 "structmeshlib_1_1expected__MR__Vector3i__std__string.html":[9,5,1,0,0,346],
 "structmeshlib_1_1expected__MR__Vector3i__std__string.html#a0ca01746a4bc07b9e75dc5d56e5a7b99":[9,5,0,0,0,359,2],
 "structmeshlib_1_1expected__MR__Vector3i__std__string.html#a0ca01746a4bc07b9e75dc5d56e5a7b99":[9,5,1,0,0,346,2],
-"structmeshlib_1_1expected__MR__Vector3i__std__string.html#a58a9fc06780332430f42fe40a258486e":[9,5,0,0,0,359,5],
-"structmeshlib_1_1expected__MR__Vector3i__std__string.html#a58a9fc06780332430f42fe40a258486e":[9,5,1,0,0,346,5],
-"structmeshlib_1_1expected__MR__Vector3i__std__string.html#a73adcf68de1ac5022645e16ce6069e1b":[9,5,0,0,0,359,1]
+"structmeshlib_1_1expected__MR__Vector3i__std__string.html#a58a9fc06780332430f42fe40a258486e":[9,5,0,0,0,359,5]
 };

@@ -215,6 +215,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a867cd37c7bd2ce7b00746d9f0143e890"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds if two meshes are touching, colliding or inside each other  <br /></td></tr>
 <tr class="memitem:aa60c6f198d7cd7932aa76e42e38f3d8b" id="r_aa60c6f198d7cd7932aa76e42e38f3d8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83">MR_MeshMeshCollisionStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa60c6f198d7cd7932aa76e42e38f3d8b">MR_findCollisionStatus_5</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="#aaaef17266d43a3f23b258d9769d940f7">MR_MeshMeshDistanceResult</a> *distRes, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, <a class="el" href="MRMeshCollide_8h.html#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a> *collisions)</td></tr>
 <tr class="memdesc:aa60c6f198d7cd7932aa76e42e38f3d8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds if two meshes are touching, colliding or inside each other  <br /></td></tr>
+<tr class="memitem:abee9d142c3e0884b7642a62ac6c6a142" id="r_abee9d142c3e0884b7642a62ac6c6a142"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aaaef17266d43a3f23b258d9769d940f7">MR_MeshMeshDistanceResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abee9d142c3e0884b7642a62ac6c6a142">MR_findMaxDistanceOneWay</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const float *maxDistanceSq)</td></tr>
+<tr class="memdesc:abee9d142c3e0884b7642a62ac6c6a142"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the vertex of B-mesh most distant from A-mesh  <br /></td></tr>
+<tr class="memitem:a959f02d6207556e3519c13cef9f8e607" id="r_a959f02d6207556e3519c13cef9f8e607"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aaaef17266d43a3f23b258d9769d940f7">MR_MeshMeshDistanceResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a959f02d6207556e3519c13cef9f8e607">MR_findMaxDistance</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const float *maxDistanceSq)</td></tr>
+<tr class="memdesc:a959f02d6207556e3519c13cef9f8e607"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the vertex of one mesh most distant from the other mesh (in both directions)  <br /></td></tr>
 <tr class="memitem:aa37f1c0b217c29426a2ec7de035b6d30" id="r_aa37f1c0b217c29426a2ec7de035b6d30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa37f1c0b217c29426a2ec7de035b6d30">MR_findMaxDistanceSqOneWay_MR_MeshPart</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const float *maxDistanceSq)</td></tr>
 <tr class="memdesc:aa37f1c0b217c29426a2ec7de035b6d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum of the squared distances from each B-mesh vertex to A-mesh  <br /></td></tr>
 <tr class="memitem:aca0a1e41eae8e5341359074904b1d5d8" id="r_aca0a1e41eae8e5341359074904b1d5d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca0a1e41eae8e5341359074904b1d5d8">MR_findMaxDistanceSq_MR_MeshPart</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const float *maxDistanceSq)</td></tr>
@@ -411,6 +415,88 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a959f02d6207556e3519c13cef9f8e607" name="a959f02d6207556e3519c13cef9f8e607"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a959f02d6207556e3519c13cef9f8e607">&#9670;&#160;</a></span>MR_findMaxDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aaaef17266d43a3f23b258d9769d940f7">MR_MeshMeshDistanceResult</a> * MR_findMaxDistance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>maxDistanceSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds the vertex of one mesh most distant from the other mesh (in both directions) </p>
+<dl class="section return"><dt>Returns</dt><dd>the found vertex in a or in b, its projection on the other mesh in the remaining field, and the squared distance between them </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq and one valid point only Generated from function <span class="tt">MR::findMaxDistance</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. Parameter <span class="tt">maxDistanceSq</span> has a default argument: <span class="tt">3.40282347e38f</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a422e88c7c82f6ef314e000f5dbde8335" title="Destroys a heap-allocated instance of MR_MeshMeshDistanceResult. Does nothing if the pointer is null.">MR_MeshMeshDistanceResult_Destroy()</a></span> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abee9d142c3e0884b7642a62ac6c6a142" name="abee9d142c3e0884b7642a62ac6c6a142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abee9d142c3e0884b7642a62ac6c6a142">&#9670;&#160;</a></span>MR_findMaxDistanceOneWay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aaaef17266d43a3f23b258d9769d940f7">MR_MeshMeshDistanceResult</a> * MR_findMaxDistanceOneWay </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>maxDistanceSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds the vertex of B-mesh most distant from A-mesh </p>
+<dl class="section return"><dt>Returns</dt><dd>the found vertex in b, its projection on A-mesh in a, and the squared distance between them </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq and no valid point in a Generated from function <span class="tt">MR::findMaxDistanceOneWay</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. Parameter <span class="tt">maxDistanceSq</span> has a default argument: <span class="tt">3.40282347e38f</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a422e88c7c82f6ef314e000f5dbde8335" title="Destroys a heap-allocated instance of MR_MeshMeshDistanceResult. Does nothing if the pointer is null.">MR_MeshMeshDistanceResult_Destroy()</a></span> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="aca0a1e41eae8e5341359074904b1d5d8" name="aca0a1e41eae8e5341359074904b1d5d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca0a1e41eae8e5341359074904b1d5d8">&#9670;&#160;</a></span>MR_findMaxDistanceSq_MR_MeshPart()</h2>
 
@@ -444,10 +530,11 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq Generated from function <span class="tt">MR::findMaxDistanceSq</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. Parameter <span class="tt">maxDistanceSq</span> has a default argument: <span class="tt">3.40282347e38f</span>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section see"><dt>See also</dt><dd>findMaxDistance returning the points as well Generated from function <span class="tt">MR::findMaxDistanceSq</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. Parameter <span class="tt">maxDistanceSq</span> has a default argument: <span class="tt">3.40282347e38f</span>, pass a null pointer to use it. </dd></dl>
 
 </div>
 </div>
@@ -484,10 +571,11 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq Generated from function <span class="tt">MR::findMaxDistanceSqOneWay</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. Parameter <span class="tt">maxDistanceSq</span> has a default argument: <span class="tt">3.40282347e38f</span>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section see"><dt>See also</dt><dd>findMaxDistanceOneWay returning the points as well Generated from function <span class="tt">MR::findMaxDistanceSqOneWay</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. Parameter <span class="tt">maxDistanceSq</span> has a default argument: <span class="tt">3.40282347e38f</span>, pass a null pointer to use it. </dd></dl>
 
 </div>
 </div>

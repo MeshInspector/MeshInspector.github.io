@@ -1,5 +1,7 @@
 var NAVTREEINDEX130 =
 {
+"structmeshlib_1_1StitchHolesParams.html#afd3e8d16aef3d4f203c9686e3c10f76a":[9,5,1,0,0,1465,0],
+"structmeshlib_1_1SubdivideFillingSettings.html":[9,5,0,0,0,1479],
 "structmeshlib_1_1SubdivideFillingSettings.html":[9,5,1,0,0,1466],
 "structmeshlib_1_1SubdivideFillingSettings.html#a050207b71c646681378a1d3dcde2066e":[9,5,0,0,0,1479,2],
 "structmeshlib_1_1SubdivideFillingSettings.html#a050207b71c646681378a1d3dcde2066e":[9,5,1,0,0,1466,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX130 =
 "structmeshlib_1_1SymMatrix2d.html#a642d0e87bd7de2e91aefbfa7474f515d":[9,5,1,0,0,1471,0],
 "structmeshlib_1_1SymMatrix2d.html#a64b066ae62b03c413f8b44adea819804":[9,5,0,0,0,1484,7],
 "structmeshlib_1_1SymMatrix2d.html#a64b066ae62b03c413f8b44adea819804":[9,5,1,0,0,1471,7],
-"structmeshlib_1_1SymMatrix2d.html#a6cc7ab80fb3427f8df45879f8dcd336d":[9,5,0,0,0,1484,19],
-"structmeshlib_1_1SymMatrix2d.html#a6cc7ab80fb3427f8df45879f8dcd336d":[9,5,1,0,0,1471,19],
-"structmeshlib_1_1SymMatrix2d.html#a6dc6797e6871674c9b0fb1b98e2c9315":[9,5,0,0,0,1484,1]
+"structmeshlib_1_1SymMatrix2d.html#a6cc7ab80fb3427f8df45879f8dcd336d":[9,5,0,0,0,1484,19]
 };

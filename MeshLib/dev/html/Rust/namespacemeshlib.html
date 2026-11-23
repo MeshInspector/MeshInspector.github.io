@@ -3211,6 +3211,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a3c57e8ab3ca48bdcd518c41429a7cfac"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds if two meshes are touching, colliding or inside each other  <br /></td></tr>
 <tr class="memitem:a9471512fa1c387eb5fb2af2727c86bd7" id="r_a9471512fa1c387eb5fb2af2727c86bd7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9471512fa1c387eb5fb2af2727c86bd7">find_collision_status_5</a> (a:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, b:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, distRes:&amp;<a class="el" href="structmeshlib_1_1MeshMeshDistanceResult.html">meshlib::MeshMeshDistanceResult</a>, rigidB2A:Option&lt;&amp;<a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;, collisions:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1std__vector__MR__FaceFace.html">meshlib::std_vector_MR_FaceFace</a> &gt;) -&gt; <a class="el" href="structmeshlib_1_1MeshMeshCollisionStatus.html">meshlib::MeshMeshCollisionStatus</a></td></tr>
 <tr class="memdesc:a9471512fa1c387eb5fb2af2727c86bd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds if two meshes are touching, colliding or inside each other  <br /></td></tr>
+<tr class="memitem:a478b24b087f11f20073f2aebd9a3c2f1" id="r_a478b24b087f11f20073f2aebd9a3c2f1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a478b24b087f11f20073f2aebd9a3c2f1">find_max_distance_one_way</a> (a:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, b:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, rigidB2A:Option&lt;&amp;<a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;, maxDistanceSq:Option&lt; f32 &gt;) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1MeshMeshDistanceResult.html">meshlib::MeshMeshDistanceResult</a> &gt;</td></tr>
+<tr class="memdesc:a478b24b087f11f20073f2aebd9a3c2f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the vertex of B-mesh most distant from A-mesh  <br /></td></tr>
+<tr class="memitem:a50ddcdcbd9e611d0e71f6d4e5f27ede9" id="r_a50ddcdcbd9e611d0e71f6d4e5f27ede9"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50ddcdcbd9e611d0e71f6d4e5f27ede9">find_max_distance</a> (a:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, b:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, rigidB2A:Option&lt;&amp;<a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;, maxDistanceSq:Option&lt; f32 &gt;) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1MeshMeshDistanceResult.html">meshlib::MeshMeshDistanceResult</a> &gt;</td></tr>
+<tr class="memdesc:a50ddcdcbd9e611d0e71f6d4e5f27ede9"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the vertex of one mesh most distant from the other mesh (in both directions)  <br /></td></tr>
 <tr class="memitem:ab0c444e1b9d0ff9d1fc1d93095011b10" id="r_ab0c444e1b9d0ff9d1fc1d93095011b10"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0c444e1b9d0ff9d1fc1d93095011b10">find_max_distance_sq_one_way_mr_mesh_part</a> (a:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, b:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, rigidB2A:Option&lt;&amp;<a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;, maxDistanceSq:Option&lt; f32 &gt;) -&gt; f32</td></tr>
 <tr class="memdesc:ab0c444e1b9d0ff9d1fc1d93095011b10"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum of the squared distances from each B-mesh vertex to A-mesh  <br /></td></tr>
 <tr class="memitem:a7455faaba7ca54ab0269b7b931ac61b7" id="r_a7455faaba7ca54ab0269b7b931ac61b7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7455faaba7ca54ab0269b7b931ac61b7">find_max_distance_sq_mr_mesh_part</a> (a:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, b:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, rigidB2A:Option&lt;&amp;<a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;, maxDistanceSq:Option&lt; f32 &gt;) -&gt; f32</td></tr>
@@ -27307,6 +27311,92 @@ Trivial fill with smooth</div></div>
 
 </div>
 </div>
+<a id="a50ddcdcbd9e611d0e71f6d4e5f27ede9" name="a50ddcdcbd9e611d0e71f6d4e5f27ede9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50ddcdcbd9e611d0e71f6d4e5f27ede9">&#9670;&#160;</a></span>find_max_distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::find_max_distance </td>
+          <td>(</td>
+          <td class="paramtype">a:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">b:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">rigidB2A:Option&lt;&amp;<a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">maxDistanceSq:Option&lt; f32 &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;) -&gt;  <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1MeshMeshDistanceResult.html">meshlib::MeshMeshDistanceResult</a> &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds the vertex of one mesh most distant from the other mesh (in both directions) </p>
+<dl class="section return"><dt>Returns</dt><dd>the found vertex in a or in b, its projection on the other mesh in the remaining field, and the squared distance between them </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq and one valid point only</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Generated from function <span class="tt">MR::findMaxDistance</span>.</p>
+<p>Calls <span class="tt">MR_findMaxDistance()</span>. </p>
+
+</div>
+</div>
+<a id="a478b24b087f11f20073f2aebd9a3c2f1" name="a478b24b087f11f20073f2aebd9a3c2f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a478b24b087f11f20073f2aebd9a3c2f1">&#9670;&#160;</a></span>find_max_distance_one_way()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::find_max_distance_one_way </td>
+          <td>(</td>
+          <td class="paramtype">a:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">b:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">rigidB2A:Option&lt;&amp;<a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">maxDistanceSq:Option&lt; f32 &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;) -&gt;  <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1MeshMeshDistanceResult.html">meshlib::MeshMeshDistanceResult</a> &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds the vertex of B-mesh most distant from A-mesh </p>
+<dl class="section return"><dt>Returns</dt><dd>the found vertex in b, its projection on A-mesh in a, and the squared distance between them </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq and no valid point in a</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Generated from function <span class="tt">MR::findMaxDistanceOneWay</span>.</p>
+<p>Calls <span class="tt">MR_findMaxDistanceOneWay()</span>. </p>
+
+</div>
+</div>
 <a id="a7455faaba7ca54ab0269b7b931ac61b7" name="a7455faaba7ca54ab0269b7b931ac61b7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7455faaba7ca54ab0269b7b931ac61b7">&#9670;&#160;</a></span>find_max_distance_sq_mr_mesh_part()</h2>
 
@@ -27340,10 +27430,11 @@ Trivial fill with smooth</div></div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq</td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section see"><dt>See also</dt><dd>findMaxDistance returning the points as well</dd></dl>
 <p>Generated from function <span class="tt">MR::findMaxDistanceSq</span>.</p>
 <p>Calls <span class="tt">MR_findMaxDistanceSq_MR_MeshPart()</span>. </p>
 
@@ -27424,10 +27515,11 @@ Trivial fill with smooth</div></div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq</td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section see"><dt>See also</dt><dd>findMaxDistanceOneWay returning the points as well</dd></dl>
 <p>Generated from function <span class="tt">MR::findMaxDistanceSqOneWay</span>.</p>
 <p>Calls <span class="tt">MR_findMaxDistanceSqOneWay_MR_MeshPart()</span>. </p>
 

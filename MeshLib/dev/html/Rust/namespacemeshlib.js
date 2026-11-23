@@ -2708,6 +2708,8 @@ var namespacemeshlib =
     [ "find_intersection_contours", "namespacemeshlib.html#a3c04ca4d22f1d91cf5fae3021e2b72f2", null ],
     [ "find_left_boundary", "namespacemeshlib.html#a14aecf543701e5b35e5cb887541d821e", null ],
     [ "find_left_boundary_inside_mesh", "namespacemeshlib.html#ac9f4d8ed7b8b40f566361d0548a744ad", null ],
+    [ "find_max_distance", "namespacemeshlib.html#a50ddcdcbd9e611d0e71f6d4e5f27ede9", null ],
+    [ "find_max_distance_one_way", "namespacemeshlib.html#a478b24b087f11f20073f2aebd9a3c2f1", null ],
     [ "find_max_distance_sq_mr_mesh_part", "namespacemeshlib.html#a7455faaba7ca54ab0269b7b931ac61b7", null ],
     [ "find_max_distance_sq_mr_point_cloud", "namespacemeshlib.html#a89bb229a12f8d471931d2160d23da63c", null ],
     [ "find_max_distance_sq_one_way_mr_mesh_part", "namespacemeshlib.html#ab0c444e1b9d0ff9d1fc1d93095011b10", null ],

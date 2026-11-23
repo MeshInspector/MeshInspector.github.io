@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"structmeshlib_1_1DistanceMapLoadSettings.html#a495f6baf7879842c2f2e7bf1de0d59fe":[9,5,0,0,0,280,3],
+"structmeshlib_1_1DistanceMapLoadSettings.html#a495f6baf7879842c2f2e7bf1de0d59fe":[9,5,1,0,0,267,3],
 "structmeshlib_1_1DistanceMapLoadSettings.html#a49e13fc8eb13c3934628477d209aa37d":[9,5,0,0,0,280,6],
 "structmeshlib_1_1DistanceMapLoadSettings.html#a49e13fc8eb13c3934628477d209aa37d":[9,5,1,0,0,267,6],
 "structmeshlib_1_1DistanceMapLoadSettings.html#a782b75a652dd8f38f85b47a0a50ae28d":[9,5,0,0,0,280,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "structmeshlib_1_1DistanceMeasurementObject.html#a9cfd42d4131da064e6a654da30a7f362":[9,5,0,0,0,283,68],
 "structmeshlib_1_1DistanceMeasurementObject.html#a9cfd42d4131da064e6a654da30a7f362":[9,5,1,0,0,270,68],
 "structmeshlib_1_1DistanceMeasurementObject.html#aa75eb8356703784d5e4c70ad0c60ea38":[9,5,0,0,0,283,37],
-"structmeshlib_1_1DistanceMeasurementObject.html#aa75eb8356703784d5e4c70ad0c60ea38":[9,5,1,0,0,270,37],
-"structmeshlib_1_1DistanceMeasurementObject.html#aa82b69754b25057cc7967af24f6c0570":[9,5,0,0,0,283,124],
-"structmeshlib_1_1DistanceMeasurementObject.html#aa82b69754b25057cc7967af24f6c0570":[9,5,1,0,0,270,124]
+"structmeshlib_1_1DistanceMeasurementObject.html#aa75eb8356703784d5e4c70ad0c60ea38":[9,5,1,0,0,270,37]
 };

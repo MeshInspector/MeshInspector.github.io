@@ -3978,6 +3978,8 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.findIntersectionContours", "namespacemrmeshpy.html#af0aa67b2ec648af51a9a2ad127ebb400", null ],
     [ "mrmeshpy.findLeftBoundary", "namespacemrmeshpy.html#a145f64ca051d3707868ed3cefb71d092", null ],
     [ "mrmeshpy.findLeftBoundaryInsideMesh", "namespacemrmeshpy.html#a240418cfa98371ece21c5e227a21d17a", null ],
+    [ "mrmeshpy.findMaxDistance", "namespacemrmeshpy.html#a6563da774ff030a7b0274f15dab028a9", null ],
+    [ "mrmeshpy.findMaxDistanceOneWay", "namespacemrmeshpy.html#af966d04763fae71fa3fe01f0e0e2c5f4", null ],
     [ "mrmeshpy.findMaxDistanceSq", "namespacemrmeshpy.html#a2de416e8cd3954f2905185b64d338e4d", null ],
     [ "mrmeshpy.findMaxDistanceSq", "namespacemrmeshpy.html#ac0d8cb6c66cf60d95cda4daeebf50450", null ],
     [ "mrmeshpy.findMaxDistanceSqOneWay", "namespacemrmeshpy.html#ab0135020e9e6e7e965b8de553aaa5b25", null ],

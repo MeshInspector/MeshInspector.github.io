@@ -1,5 +1,7 @@
 var NAVTREEINDEX143 =
 {
+"expected__MR__BooleanResultPoints__std__string_8h.html#aad55c4756813f695049ba0fac7102eb3":[9,2,2,0,0,0,0,2,4,2],
+"expected__MR__BooleanResultPoints__std__string_8h.html#aaf607d444f5a98d777fa0c353386ecb6":[9,2,2,0,0,0,0,2,4,3],
 "expected__MR__BooleanResultPoints__std__string_8h.html#ab14aa1d269464260dd1fd5056304b343":[9,2,2,0,0,0,0,2,4,5],
 "expected__MR__BooleanResultPoints__std__string_8h.html#ae30e59d47bb00ffec348859652178f97":[9,2,2,0,0,0,0,2,4,12],
 "expected__MR__BooleanResultPoints__std__string_8h.html#afc97db82c652c4e5ddd3765b70215844":[9,2,2,0,0,0,0,2,4,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX143 =
 "expected__MR__ObjectDistanceMap__std__string_8h.html#a6f11cad4f00e26f154c6813fa86c5515":[9,2,2,0,0,0,0,2,19,0],
 "expected__MR__ObjectDistanceMap__std__string_8h.html#a98af90d13bf19aedcfab61156be97eaa":[9,2,2,0,0,0,0,2,19,7],
 "expected__MR__ObjectDistanceMap__std__string_8h.html#aa47ab824948cb5367686409f8b3cee87":[9,2,2,0,0,0,0,2,19,11],
-"expected__MR__ObjectDistanceMap__std__string_8h.html#aa7964418fd385c402ce945ac3ab203de":[9,2,2,0,0,0,0,2,19,3],
-"expected__MR__ObjectDistanceMap__std__string_8h.html#ab6ac8e143e0e609bd1e6e1f5904e9297":[9,2,2,0,0,0,0,2,19,8],
-"expected__MR__ObjectDistanceMap__std__string_8h.html#ae07264b63c5cc14c0cb520583095a65c":[9,2,2,0,0,0,0,2,19,12]
+"expected__MR__ObjectDistanceMap__std__string_8h.html#aa7964418fd385c402ce945ac3ab203de":[9,2,2,0,0,0,0,2,19,3]
 };

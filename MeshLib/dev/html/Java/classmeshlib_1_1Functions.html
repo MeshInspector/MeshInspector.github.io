@@ -1983,6 +1983,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:adbad15847c500a57c76912bfd4c01f1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds if two meshes are touching, colliding or inside each other  <br /></td></tr>
 <tr class="memitem:a6f22beb5c67e5813980d8a48bbf5de6b" id="r_a6f22beb5c67e5813980d8a48bbf5de6b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1MeshMeshCollisionStatus.html">meshlib.MeshMeshCollisionStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f22beb5c67e5813980d8a48bbf5de6b">findCollisionStatus</a> (<a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> a, <a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> b, <a class="el" href="classmeshlib_1_1MeshMeshDistanceResult.html">meshlib.MeshMeshDistanceResult</a> distRes, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> rigidB2A, <a class="el" href="classmeshlib_1_1std__vector__MR__FaceFace.html">meshlib.std_vector_MR_FaceFace</a> collisions)</td></tr>
 <tr class="memdesc:a6f22beb5c67e5813980d8a48bbf5de6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds if two meshes are touching, colliding or inside each other  <br /></td></tr>
+<tr class="memitem:a03836ee45065a6932ccca6363b025f48" id="r_a03836ee45065a6932ccca6363b025f48"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1MeshMeshDistanceResult.html">meshlib.MeshMeshDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03836ee45065a6932ccca6363b025f48">findMaxDistanceOneWay</a> (<a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> a, <a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> b, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> rigidB2A, java.lang.Float maxDistanceSq)</td></tr>
+<tr class="memdesc:a03836ee45065a6932ccca6363b025f48"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the vertex of B-mesh most distant from A-mesh  <br /></td></tr>
+<tr class="memitem:a0469e92ad901a9db602b367f68a68ec3" id="r_a0469e92ad901a9db602b367f68a68ec3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1MeshMeshDistanceResult.html">meshlib.MeshMeshDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0469e92ad901a9db602b367f68a68ec3">findMaxDistance</a> (<a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> a, <a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> b, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> rigidB2A, java.lang.Float maxDistanceSq)</td></tr>
+<tr class="memdesc:a0469e92ad901a9db602b367f68a68ec3"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the vertex of one mesh most distant from the other mesh (in both directions)  <br /></td></tr>
 <tr class="memitem:a84af7622c7018fbe94d60aeffe6eb52f" id="r_a84af7622c7018fbe94d60aeffe6eb52f"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84af7622c7018fbe94d60aeffe6eb52f">findMaxDistanceSqOneWay</a> (<a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> a, <a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> b, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> rigidB2A, java.lang.Float maxDistanceSq)</td></tr>
 <tr class="memdesc:a84af7622c7018fbe94d60aeffe6eb52f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum of the squared distances from each B-mesh vertex to A-mesh  <br /></td></tr>
 <tr class="memitem:ae944ba8a4af9b2501aa8603d0982cb36" id="r_ae944ba8a4af9b2501aa8603d0982cb36"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae944ba8a4af9b2501aa8603d0982cb36">findMaxDistanceSq</a> (<a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> a, <a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> b, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> rigidB2A, java.lang.Float maxDistanceSq)</td></tr>
@@ -32649,6 +32653,108 @@ Trivial fill with smooth</div></div>
 
 </div>
 </div>
+<a id="a0469e92ad901a9db602b367f68a68ec3" name="a0469e92ad901a9db602b367f68a68ec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0469e92ad901a9db602b367f68a68ec3">&#9670;&#160;</a></span>findMaxDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmeshlib_1_1MeshMeshDistanceResult.html">meshlib.MeshMeshDistanceResult</a> meshlib.Functions.findMaxDistance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">java.lang.Float</td>          <td class="paramname"><span class="paramname"><em>maxDistanceSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>finds the vertex of one mesh most distant from the other mesh (in both directions) </p>
+<dl class="section return"><dt>Returns</dt><dd>the found vertex in a or in b, its projection on the other mesh in the remaining field, and the squared distance between them </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq and one valid point only</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Generated from function <span class="tt">MR::findMaxDistance</span>.</p>
+<p>Calls <span class="tt">MR_findMaxDistance()</span>. </p>
+
+</div>
+</div>
+<a id="a03836ee45065a6932ccca6363b025f48" name="a03836ee45065a6932ccca6363b025f48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03836ee45065a6932ccca6363b025f48">&#9670;&#160;</a></span>findMaxDistanceOneWay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmeshlib_1_1MeshMeshDistanceResult.html">meshlib.MeshMeshDistanceResult</a> meshlib.Functions.findMaxDistanceOneWay </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">java.lang.Float</td>          <td class="paramname"><span class="paramname"><em>maxDistanceSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>finds the vertex of B-mesh most distant from A-mesh </p>
+<dl class="section return"><dt>Returns</dt><dd>the found vertex in b, its projection on A-mesh in a, and the squared distance between them </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq and no valid point in a</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Generated from function <span class="tt">MR::findMaxDistanceOneWay</span>.</p>
+<p>Calls <span class="tt">MR_findMaxDistanceOneWay()</span>. </p>
+
+</div>
+</div>
 <a id="ae944ba8a4af9b2501aa8603d0982cb36" name="ae944ba8a4af9b2501aa8603d0982cb36"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae944ba8a4af9b2501aa8603d0982cb36">&#9670;&#160;</a></span>findMaxDistanceSq() <span class="overload">[1/2]</span></h2>
 
@@ -32690,10 +32796,11 @@ Trivial fill with smooth</div></div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq</td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#a0469e92ad901a9db602b367f68a68ec3">findMaxDistance</a> returning the points as well</dd></dl>
 <p>Generated from function <span class="tt">MR::findMaxDistanceSq</span>.</p>
 <p>Calls <span class="tt">MR_findMaxDistanceSq_MR_MeshPart()</span>. </p>
 
@@ -32790,10 +32897,11 @@ Trivial fill with smooth</div></div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq</td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#a03836ee45065a6932ccca6363b025f48">findMaxDistanceOneWay</a> returning the points as well</dd></dl>
 <p>Generated from function <span class="tt">MR::findMaxDistanceSqOneWay</span>.</p>
 <p>Calls <span class="tt">MR_findMaxDistanceSqOneWay_MR_MeshPart()</span>. </p>
 
@@ -50246,8 +50354,8 @@ All new faces should be parallel to given direction It is measured in squared le
 <div class="line">    meshParams.texturePerFace = &amp;texturePerFace;</div>
 <div class="line">subs.onEdgeSplit = <a class="code hl_function" href="#aa382a636f7160ba96b64a8f8c637e570">meshOnEdgeSplitAttribute</a>( *obj_-&gt;varMesh(), meshParams );</div>
 <div class="line"><a class="code hl_function" href="#af5dddfa988210f3dc5340ef6cf87dad8">subdivideMesh</a>( *obj_-&gt;varMesh(), subs );</div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:46097</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:45982</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:46161</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:46046</div></div>
 <div class="ttc" id="aclassmeshlib_1_1MeshAttributesToUpdate_html"><div class="ttname"><a href="classmeshlib_1_1MeshAttributesToUpdate.html">meshlib.MeshAttributesToUpdate</a></div><div class="ttdef"><b>Definition</b> MeshAttributesToUpdate.java:11</div></div>
 </div><!-- fragment --><p>Generated from function <span class="tt">MR::meshOnEdgeSplitAttribute</span>.</p>
 <p>Calls <span class="tt">MR_meshOnEdgeSplitAttribute()</span>. </p>

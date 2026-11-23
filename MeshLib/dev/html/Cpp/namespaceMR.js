@@ -2525,6 +2525,8 @@ var namespaceMR =
     [ "findLeftBoundary", "group__GeneralGroup.html#ga68e9ffeb4e3f2f145a425ed80bb02ff3", null ],
     [ "findLeftBoundary", "group__GeneralGroup.html#ga5632a1601c5dbaebc60e64e6255e079c", null ],
     [ "findLeftBoundaryInsideMesh", "group__GeneralGroup.html#ga25e4628987fb45fbedf8ebcb4327c4d2", null ],
+    [ "findMaxDistance", "group__AABBTreeGroup.html#gac1418cea3cfae0498b893084af69f48d", null ],
+    [ "findMaxDistanceOneWay", "group__AABBTreeGroup.html#ga84b76aa3a6c0b2a0e72d57e41ed8fbf8", null ],
     [ "findMaxDistanceSq", "group__AABBTreeGroup.html#ga45e61b0f865d15d2172777953f29b4b1", null ],
     [ "findMaxDistanceSq", "group__GeneralGroup.html#ga45ef807278427b9788f95a292ff236be", null ],
     [ "findMaxDistanceSqOneWay", "group__AABBTreeGroup.html#ga27ff8608a418f39b18f07f8db69d07d4", null ],

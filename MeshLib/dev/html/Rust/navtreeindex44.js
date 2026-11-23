@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"structmeshlib_1_1DecimateSettings.html#a249b2af611ec97eece6329bdadd22691":[9,5,0,0,0,261,81],
+"structmeshlib_1_1DecimateSettings.html#a249b2af611ec97eece6329bdadd22691":[9,5,1,0,0,248,81],
 "structmeshlib_1_1DecimateSettings.html#a249b32d735bf997e757b244fb1090d85":[9,5,0,0,0,261,16],
 "structmeshlib_1_1DecimateSettings.html#a249b32d735bf997e757b244fb1090d85":[9,5,1,0,0,248,16],
 "structmeshlib_1_1DecimateSettings.html#a29486b18225005261a7745a6b4ee837b":[9,5,0,0,0,261,64],
@@ -247,7 +249,5 @@ var NAVTREEINDEX44 =
 "structmeshlib_1_1DeloneSettings.html#ae33ac9db19c67b64f3448396032a7909":[9,5,0,0,0,264,0],
 "structmeshlib_1_1DeloneSettings.html#ae33ac9db19c67b64f3448396032a7909":[9,5,1,0,0,251,0],
 "structmeshlib_1_1DeloneSettings.html#aed070067aa2b52fe386942d99cce6828":[9,5,0,0,0,264,7],
-"structmeshlib_1_1DeloneSettings.html#aed070067aa2b52fe386942d99cce6828":[9,5,1,0,0,251,7],
-"structmeshlib_1_1DeloneSettings.html#af504df0b737601dffa4d3dc0f818ea3f":[9,5,0,0,0,264,15],
-"structmeshlib_1_1DeloneSettings.html#af504df0b737601dffa4d3dc0f818ea3f":[9,5,1,0,0,251,15]
+"structmeshlib_1_1DeloneSettings.html#aed070067aa2b52fe386942d99cce6828":[9,5,1,0,0,251,7]
 };

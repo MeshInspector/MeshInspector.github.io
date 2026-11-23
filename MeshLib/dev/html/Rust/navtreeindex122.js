@@ -1,5 +1,7 @@
 var NAVTREEINDEX122 =
 {
+"structmeshlib_1_1RemeshSettings.html#a75ac98dce8d484d9b5288133b5b31551":[9,5,1,0,0,874,39],
+"structmeshlib_1_1RemeshSettings.html#a807de3e98465f9d385e5a3c923efd5e3":[9,5,0,0,0,887,3],
 "structmeshlib_1_1RemeshSettings.html#a807de3e98465f9d385e5a3c923efd5e3":[9,5,1,0,0,874,3],
 "structmeshlib_1_1RemeshSettings.html#a80d674b175e35988ed710811314e689c":[9,5,0,0,0,887,50],
 "structmeshlib_1_1RemeshSettings.html#a80d674b175e35988ed710811314e689c":[9,5,1,0,0,874,50],
@@ -247,7 +249,5 @@ var NAVTREEINDEX122 =
 "structmeshlib_1_1RingIterator__MR__NextEdgeSameLeft.html#a4115da017a5cebef2e5b973626858d9a":[9,5,1,0,0,884,4],
 "structmeshlib_1_1RingIterator__MR__NextEdgeSameLeft.html#a502c1185addafac1579bbbd780b16b82":[9,5,0,0,0,897,3],
 "structmeshlib_1_1RingIterator__MR__NextEdgeSameLeft.html#a502c1185addafac1579bbbd780b16b82":[9,5,1,0,0,884,3],
-"structmeshlib_1_1RingIterator__MR__NextEdgeSameLeft.html#a5140ddfbddd305d70cdd1b1bdf748c17":[9,5,0,0,0,897,1],
-"structmeshlib_1_1RingIterator__MR__NextEdgeSameLeft.html#a5140ddfbddd305d70cdd1b1bdf748c17":[9,5,1,0,0,884,1],
-"structmeshlib_1_1RingIterator__MR__NextEdgeSameLeft.html#a6953d62c0d37c75c076e183f4e8973ec":[9,5,0,0,0,897,2]
+"structmeshlib_1_1RingIterator__MR__NextEdgeSameLeft.html#a5140ddfbddd305d70cdd1b1bdf748c17":[9,5,0,0,0,897,1]
 };

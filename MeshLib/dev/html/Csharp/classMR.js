@@ -3384,6 +3384,8 @@ var classMR =
     [ "findIntersectionContours", "classMR.html#a5d2dd1a7f0b9d450f6da372ac294d92b", null ],
     [ "findLeftBoundary", "classMR.html#a52f299aae0b2eb2301fbdd434fe335d5", null ],
     [ "findLeftBoundaryInsideMesh", "classMR.html#a2068f51f9c0f6ebdce2dab7be06193db", null ],
+    [ "findMaxDistance", "classMR.html#a0539094eece5653fb0a4b19dec3649af", null ],
+    [ "findMaxDistanceOneWay", "classMR.html#af7c6d599263b85ba49d733167ee18610", null ],
     [ "findMaxDistanceSq", "classMR.html#a76dd6a520998891817cc60f00d838162", null ],
     [ "findMaxDistanceSq", "classMR.html#a57b3149b7c92c01b3608075f089519d1", null ],
     [ "findMaxDistanceSqOneWay", "classMR.html#a3fd71ea2dd3e1993abb8233fd95ff43d", null ],

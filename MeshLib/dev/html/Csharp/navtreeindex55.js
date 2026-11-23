@@ -1,5 +1,7 @@
 var NAVTREEINDEX55 =
 {
+"classMR_1_1Const__LineObject.html#a3c4dd1746983ada8ed0e04f79f2d425c":[9,3,0,0,0,570,13],
+"classMR_1_1Const__LineObject.html#a3ce1b1d1989596808914cc36212243a2":[9,3,0,0,0,570,15],
 "classMR_1_1Const__LineObject.html#a483397d25e808558aa3f7e702b1cc5b9":[9,3,0,0,0,570,94],
 "classMR_1_1Const__LineObject.html#a485b20790323181cb73ae3b75f4cad2e":[9,3,0,0,0,570,46],
 "classMR_1_1Const__LineObject.html#a49b76772509cc95cb75f8d8d9ebc4bf1":[9,3,0,0,0,570,69],
@@ -247,7 +249,5 @@ var NAVTREEINDEX55 =
 "classMR_1_1Const__MakeBridgeResult.html#acd3b0baf8a25484ef5ffb1649e69fc7c":[9,3,0,0,0,583,12],
 "classMR_1_1Const__MakeBridgeResult.html#ad12b5635885b6ff01575663cc995f4b4":[9,3,0,0,0,583,4],
 "classMR_1_1Const__MakeBridgeResult.html#af02d7360f49d60735e1f9bef06ca7de2":[9,3,0,0,0,583,8],
-"classMR_1_1Const__MakeBridgeResult.html#af14a69a5cd6fcdd7b72296d06b77bedf":[9,3,0,0,0,583,6],
-"classMR_1_1Const__MakeDegenerateBandAroundRegionParams.html":[9,3,0,0,0,584],
-"classMR_1_1Const__MakeDegenerateBandAroundRegionParams.html#a0234c3d0b0c24de96807bfed6021d430":[9,3,0,0,0,584,13]
+"classMR_1_1Const__MakeBridgeResult.html#af14a69a5cd6fcdd7b72296d06b77bedf":[9,3,0,0,0,583,6]
 };

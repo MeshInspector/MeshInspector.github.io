@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"pages.html":[],
+"structImGui_1_1CustomStatePluginWindowParameters.html":[9,0,1,0,0,0],
 "structImGui_1_1CustomStatePluginWindowParameters.html":[9,0,2,0,0,0],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[9,0,1,0,0,0,7],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[9,0,2,0,0,0,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1CommandLoop_1_1StartTimeout.html":[9,0,0,19,601],
 "structMR_1_1CompensateRadiusParams.html":[9,0,0,19,502],
 "structMR_1_1CompressZipSettings.html":[9,0,0,2,18,0],
-"structMR_1_1CompressZipSettings.html#a081a0d03fa07baae69e080a91f1aa61d":[9,0,0,2,18,0,3],
-"structMR_1_1CompressZipSettings.html#a0fff83332c3dd033ccd3f5bb5dbb8a5d":[9,0,0,2,18,0,2],
-"structMR_1_1CompressZipSettings.html#a8e2307f6f06661b56c44492f4ca4a54a":[9,0,0,2,18,0,1]
+"structMR_1_1CompressZipSettings.html#a081a0d03fa07baae69e080a91f1aa61d":[9,0,0,2,18,0,3]
 };

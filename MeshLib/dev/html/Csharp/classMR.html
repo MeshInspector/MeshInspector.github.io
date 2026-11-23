@@ -10896,6 +10896,10 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <tr class="memdesc:a365ddaac42ed576130e880a13d39a9d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds if two meshes are touching, colliding or inside each other  <br /></td></tr>
 <tr class="memitem:a900d3953a566048b43bc60ce0b7aea41" id="r_a900d3953a566048b43bc60ce0b7aea41"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="#a1cf37cd7b222ba87173bfdd5deb9eb39">MR.MeshMeshCollisionStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a900d3953a566048b43bc60ce0b7aea41">findCollisionStatus</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> a, <a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> b, <a class="el" href="classMR_1_1Const__MeshMeshDistanceResult.html">MR.Const_MeshMeshDistanceResult</a> distRes, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? rigidB2A=null, MR.Std.Vector_MRFaceFace? collisions=null)</td></tr>
 <tr class="memdesc:a900d3953a566048b43bc60ce0b7aea41"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds if two meshes are touching, colliding or inside each other  <br /></td></tr>
+<tr class="memitem:af7c6d599263b85ba49d733167ee18610" id="r_af7c6d599263b85ba49d733167ee18610"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MeshMeshDistanceResult.html">MR.MeshMeshDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7c6d599263b85ba49d733167ee18610">findMaxDistanceOneWay</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> a, <a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> b, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? rigidB2A=null, float? maxDistanceSq=null)</td></tr>
+<tr class="memdesc:af7c6d599263b85ba49d733167ee18610"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the vertex of B-mesh most distant from A-mesh  <br /></td></tr>
+<tr class="memitem:a0539094eece5653fb0a4b19dec3649af" id="r_a0539094eece5653fb0a4b19dec3649af"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1MeshMeshDistanceResult.html">MR.MeshMeshDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0539094eece5653fb0a4b19dec3649af">findMaxDistance</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> a, <a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> b, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? rigidB2A=null, float? maxDistanceSq=null)</td></tr>
+<tr class="memdesc:a0539094eece5653fb0a4b19dec3649af"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the vertex of one mesh most distant from the other mesh (in both directions)  <br /></td></tr>
 <tr class="memitem:a3fd71ea2dd3e1993abb8233fd95ff43d" id="r_a3fd71ea2dd3e1993abb8233fd95ff43d"><td class="memItemLeft" align="right" valign="top">static unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fd71ea2dd3e1993abb8233fd95ff43d">findMaxDistanceSqOneWay</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> a, <a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> b, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? rigidB2A=null, float? maxDistanceSq=null)</td></tr>
 <tr class="memdesc:a3fd71ea2dd3e1993abb8233fd95ff43d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum of the squared distances from each B-mesh vertex to A-mesh  <br /></td></tr>
 <tr class="memitem:a76dd6a520998891817cc60f00d838162" id="r_a76dd6a520998891817cc60f00d838162"><td class="memItemLeft" align="right" valign="top">static unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76dd6a520998891817cc60f00d838162">findMaxDistanceSq</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> a, <a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> b, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? rigidB2A=null, float? maxDistanceSq=null)</td></tr>
@@ -45298,6 +45302,104 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 
 </div>
 </div>
+<a id="a0539094eece5653fb0a4b19dec3649af" name="a0539094eece5653fb0a4b19dec3649af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0539094eece5653fb0a4b19dec3649af">&#9670;&#160;</a></span>findMaxDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1MeshMeshDistanceResult.html">MR.MeshMeshDistanceResult</a> MR.findMaxDistance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>?</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float?</td>          <td class="paramname"><span class="paramname"><em>maxDistanceSq</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>finds the vertex of one mesh most distant from the other mesh (in both directions) </p>
+<dl class="section return"><dt>Returns</dt><dd>the found vertex in a or in b, its projection on the other mesh in the remaining field, and the squared distance between them </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq and one valid point only Generated from function <span class="tt"><a class="el" href="#a0539094eece5653fb0a4b19dec3649af" title="finds the vertex of one mesh most distant from the other mesh (in both directions)">MR.findMaxDistance</a></span>. Parameter <span class="tt">maxDistanceSq</span> defaults to <span class="tt">3.40282347e38f</span>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af7c6d599263b85ba49d733167ee18610" name="af7c6d599263b85ba49d733167ee18610"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7c6d599263b85ba49d733167ee18610">&#9670;&#160;</a></span>findMaxDistanceOneWay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1MeshMeshDistanceResult.html">MR.MeshMeshDistanceResult</a> MR.findMaxDistanceOneWay </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>?</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float?</td>          <td class="paramname"><span class="paramname"><em>maxDistanceSq</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>finds the vertex of B-mesh most distant from A-mesh </p>
+<dl class="section return"><dt>Returns</dt><dd>the found vertex in b, its projection on A-mesh in a, and the squared distance between them </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq and no valid point in a Generated from function <span class="tt"><a class="el" href="#af7c6d599263b85ba49d733167ee18610" title="finds the vertex of B-mesh most distant from A-mesh">MR.findMaxDistanceOneWay</a></span>. Parameter <span class="tt">maxDistanceSq</span> defaults to <span class="tt">3.40282347e38f</span>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a76dd6a520998891817cc60f00d838162" name="a76dd6a520998891817cc60f00d838162"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a76dd6a520998891817cc60f00d838162">&#9670;&#160;</a></span>findMaxDistanceSq() <span class="overload">[1/2]</span></h2>
 
@@ -45339,10 +45441,11 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq Generated from function <span class="tt"><a class="el" href="#a76dd6a520998891817cc60f00d838162" title="returns the squared Hausdorff distance between two meshes, that is the maximum of squared distances f...">MR.findMaxDistanceSq</a></span>. Parameter <span class="tt">maxDistanceSq</span> defaults to <span class="tt">3.40282347e38f</span>. </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#a0539094eece5653fb0a4b19dec3649af">findMaxDistance</a> returning the points as well Generated from function <span class="tt"><a class="el" href="#a76dd6a520998891817cc60f00d838162" title="returns the squared Hausdorff distance between two meshes, that is the maximum of squared distances f...">MR.findMaxDistanceSq</a></span>. Parameter <span class="tt">maxDistanceSq</span> defaults to <span class="tt">3.40282347e38f</span>. </dd></dl>
 
 </div>
 </div>
@@ -45435,10 +45538,11 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq Generated from function <span class="tt"><a class="el" href="#a3fd71ea2dd3e1993abb8233fd95ff43d" title="returns the maximum of the squared distances from each B-mesh vertex to A-mesh">MR.findMaxDistanceSqOneWay</a></span>. Parameter <span class="tt">maxDistanceSq</span> defaults to <span class="tt">3.40282347e38f</span>. </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#af7c6d599263b85ba49d733167ee18610">findMaxDistanceOneWay</a> returning the points as well Generated from function <span class="tt"><a class="el" href="#a3fd71ea2dd3e1993abb8233fd95ff43d" title="returns the maximum of the squared distances from each B-mesh vertex to A-mesh">MR.findMaxDistanceSqOneWay</a></span>. Parameter <span class="tt">maxDistanceSq</span> defaults to <span class="tt">3.40282347e38f</span>. </dd></dl>
 
 </div>
 </div>

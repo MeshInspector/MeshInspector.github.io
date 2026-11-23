@@ -1,5 +1,7 @@
 var NAVTREEINDEX141 =
 {
+"structmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ae56c1d0e3395fcae7aac409fcb94d707":[9,5,1,0,0,1530,1],
+"structmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ae7e62dd51d77fcf2417e247828c0dbcd":[9,5,0,0,0,1543,42],
 "structmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ae7e62dd51d77fcf2417e247828c0dbcd":[9,5,1,0,0,1530,42],
 "structmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ae8ea8803dac9339541db65a6309a9650":[9,5,0,0,0,1543,17],
 "structmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ae8ea8803dac9339541db65a6309a9650":[9,5,1,0,0,1530,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX141 =
 "structmeshlib_1_1UndirectedEdgeBitSet.html#aaf40c78c54ba6dfffdcebaf0e6b4495f":[9,5,1,0,0,1534,55],
 "structmeshlib_1_1UndirectedEdgeBitSet.html#ab19626969fc7c983c9c49b821177fdf3":[9,5,0,0,0,1547,53],
 "structmeshlib_1_1UndirectedEdgeBitSet.html#ab19626969fc7c983c9c49b821177fdf3":[9,5,1,0,0,1534,53],
-"structmeshlib_1_1UndirectedEdgeBitSet.html#ab37bf29a934c8f8412c2739f0c6a8300":[9,5,0,0,0,1547,56],
-"structmeshlib_1_1UndirectedEdgeBitSet.html#ab37bf29a934c8f8412c2739f0c6a8300":[9,5,1,0,0,1534,56],
-"structmeshlib_1_1UndirectedEdgeBitSet.html#ab4120c35b708871cf1c78dc9cecd10bf":[9,5,0,0,0,1547,40]
+"structmeshlib_1_1UndirectedEdgeBitSet.html#ab37bf29a934c8f8412c2739f0c6a8300":[9,5,0,0,0,1547,56]
 };

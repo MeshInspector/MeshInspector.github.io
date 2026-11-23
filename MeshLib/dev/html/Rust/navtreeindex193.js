@@ -1,5 +1,7 @@
 var NAVTREEINDEX193 =
 {
+"structmeshlib_1_1scene__load_1_1Settings.html#aa24006de1b0a9f9e3a8ad4b8603d77de":[9,5,1,0,0,17,1,1],
+"structmeshlib_1_1scene__load_1_1Settings.html#ac85418d56a7c6e165f63da5e22adbb19":[9,5,0,0,0,30,1,0],
 "structmeshlib_1_1scene__load_1_1Settings.html#ac85418d56a7c6e165f63da5e22adbb19":[9,5,1,0,0,17,1,0],
 "structmeshlib_1_1scene__load_1_1Settings.html#af302c5824a39589851cde79807513b08":[9,5,0,0,0,30,1,7],
 "structmeshlib_1_1scene__load_1_1Settings.html#af302c5824a39589851cde79807513b08":[9,5,1,0,0,17,1,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX193 =
 "structmeshlib_1_1std__array__MR__WeightedVertex__3.html#acaf3edcb4943b532e71fe154d46617e5":[9,5,1,0,0,965,1],
 "structmeshlib_1_1std__array__MR__WeightedVertex__3.html#ad648de45c85b5a19fadf155a526fd1cb":[9,5,0,0,0,978,2],
 "structmeshlib_1_1std__array__MR__WeightedVertex__3.html#ad648de45c85b5a19fadf155a526fd1cb":[9,5,1,0,0,965,2],
-"structmeshlib_1_1std__array__MR__WeightedVertex__3.html#ae7a85e350f2846caaf706908b47ce143":[9,5,0,0,0,978,3],
-"structmeshlib_1_1std__array__MR__WeightedVertex__3.html#ae7a85e350f2846caaf706908b47ce143":[9,5,1,0,0,965,3],
-"structmeshlib_1_1std__array__MR__WeightedVertexd__3.html":[9,5,0,0,0,979]
+"structmeshlib_1_1std__array__MR__WeightedVertex__3.html#ae7a85e350f2846caaf706908b47ce143":[9,5,0,0,0,978,3]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"MRPointsLoadSettings_8h.html":[9,2,2,0,0,0,0,1,279],
+"MRPointsLoadSettings_8h.html#a039416fd134f5d768c83f398f2ce0b8d":[9,2,2,0,0,0,0,1,279,11],
 "MRPointsLoadSettings_8h.html#a0ab4e421e82a66132a41912176e1a302":[9,2,2,0,0,0,0,1,279,1],
 "MRPointsLoadSettings_8h.html#a1432ce0e96074940b30990a89fc63325":[9,2,2,0,0,0,0,1,279,13],
 "MRPointsLoadSettings_8h.html#a214631ef4cbdd805bf6b37eac808cac6":[9,2,2,0,0,0,0,1,279,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX92 =
 "MRPointsToDistanceVolume_8h_source.html":[9,2,2,0,0,0,0,4,17],
 "MRPointsToMeshFusion_8h.html":[9,2,2,0,0,0,0,4,18],
 "MRPointsToMeshFusion_8h.html#a034f78c5cba6357e5b738b6ab38598de":[9,2,2,0,0,0,0,4,18,30],
-"MRPointsToMeshFusion_8h.html#a127533903f16d0c2a9d34af42f0fab53":[9,2,2,0,0,0,0,4,18,10],
-"MRPointsToMeshFusion_8h.html#a16253cd2747a4a603593707250c885b2":[9,2,2,0,0,0,0,4,18,5],
-"MRPointsToMeshFusion_8h.html#a1a3708d8156c455b886bbfa59024b496":[9,2,2,0,0,0,0,4,18,32]
+"MRPointsToMeshFusion_8h.html#a127533903f16d0c2a9d34af42f0fab53":[9,2,2,0,0,0,0,4,18,10]
 };
