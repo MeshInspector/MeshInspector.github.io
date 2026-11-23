@@ -1,5 +1,9 @@
 var NAVTREEINDEX184 =
 {
+"std__vector__MR__Pdf__PaletteRowStats_8h.html#a27bcf0462dcb1666a5d6e8cf899449b2":[9,2,2,0,0,0,0,2,519,0],
+"std__vector__MR__Pdf__PaletteRowStats_8h.html#a2ad44ef9a27472a22fe5f8a2807b2267":[9,2,2,0,0,0,0,2,519,24],
+"std__vector__MR__Pdf__PaletteRowStats_8h.html#a370d6da1324eb86189ee0cca16f990f6":[9,2,2,0,0,0,0,2,519,15],
+"std__vector__MR__Pdf__PaletteRowStats_8h.html#a41143a0a9c5f085f1726fd26b08f2ae3":[9,2,2,0,0,0,0,2,519,20],
 "std__vector__MR__Pdf__PaletteRowStats_8h.html#a7c5d69dd2f211502c0dd5b1f87726616":[9,2,2,0,0,0,0,2,519,18],
 "std__vector__MR__Pdf__PaletteRowStats_8h.html#a86be0d3ff8ca2f5c4a4201732893dee8":[9,2,2,0,0,0,0,2,519,12],
 "std__vector__MR__Pdf__PaletteRowStats_8h.html#a9d1afe987d5963426d945c5365aed64b":[9,2,2,0,0,0,0,2,519,22],
@@ -245,9 +249,5 @@ var NAVTREEINDEX184 =
 "std__vector__MR__QuadraticForm3f__MR__Allocator__MR__QuadraticForm3f_8h.html#a217d82c8b8c88c5ea8e3ce7e754e2c97":[9,2,2,0,0,0,0,2,528,16],
 "std__vector__MR__QuadraticForm3f__MR__Allocator__MR__QuadraticForm3f_8h.html#a3dad83269576d8ba9aa1bd68b20e5b37":[9,2,2,0,0,0,0,2,528,21],
 "std__vector__MR__QuadraticForm3f__MR__Allocator__MR__QuadraticForm3f_8h.html#a3df6e7632603ca9d627bc75ae7e4da8f":[9,2,2,0,0,0,0,2,528,11],
-"std__vector__MR__QuadraticForm3f__MR__Allocator__MR__QuadraticForm3f_8h.html#a5c542af6d81f020f3d36adaf248a3068":[9,2,2,0,0,0,0,2,528,6],
-"std__vector__MR__QuadraticForm3f__MR__Allocator__MR__QuadraticForm3f_8h.html#a5cef2aa0b039ce32e4f3f87a6c13eb46":[9,2,2,0,0,0,0,2,528,17],
-"std__vector__MR__QuadraticForm3f__MR__Allocator__MR__QuadraticForm3f_8h.html#a5d3bbb0a2c70cc4775440c5b81e7c825":[9,2,2,0,0,0,0,2,528,14],
-"std__vector__MR__QuadraticForm3f__MR__Allocator__MR__QuadraticForm3f_8h.html#a67b3aac3ba7de82a9dad05b7e6705ce2":[9,2,2,0,0,0,0,2,528,9],
-"std__vector__MR__QuadraticForm3f__MR__Allocator__MR__QuadraticForm3f_8h.html#a6d1d4887a3eb386d3aa5dd4b28391765":[9,2,2,0,0,0,0,2,528,10]
+"std__vector__MR__QuadraticForm3f__MR__Allocator__MR__QuadraticForm3f_8h.html#a5c542af6d81f020f3d36adaf248a3068":[9,2,2,0,0,0,0,2,528,6]
 };

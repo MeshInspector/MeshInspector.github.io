@@ -1,5 +1,9 @@
 var NAVTREEINDEX193 =
 {
+"structmeshlib_1_1self__intersections_1_1Settings.html#a87e3c5bddeea5edf15eab58883022014":[9,5,1,0,0,19,0,16],
+"structmeshlib_1_1self__intersections_1_1Settings.html#a8a6a226cc35233e4e28ab3c3554a044b":[9,5,0,0,0,32,0,21],
+"structmeshlib_1_1self__intersections_1_1Settings.html#a8a6a226cc35233e4e28ab3c3554a044b":[9,5,1,0,0,19,0,21],
+"structmeshlib_1_1self__intersections_1_1Settings.html#a8a85818eb29b0c81208a9f97a965205c":[9,5,0,0,0,32,0,18],
 "structmeshlib_1_1self__intersections_1_1Settings.html#a8a85818eb29b0c81208a9f97a965205c":[9,5,1,0,0,19,0,18],
 "structmeshlib_1_1self__intersections_1_1Settings.html#a9003399331f4a51d58e41ca19a7d0675":[9,5,0,0,0,32,0,3],
 "structmeshlib_1_1self__intersections_1_1Settings.html#a9003399331f4a51d58e41ca19a7d0675":[9,5,1,0,0,19,0,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX193 =
 "structmeshlib_1_1std__array__std__filesystem__path__4.html#a5c597fbd9b031e6d56bddf767e6d9681":[9,5,1,0,0,966,5],
 "structmeshlib_1_1std__array__std__filesystem__path__4.html#aaab228e8f80c946c73a1a9a1fe109496":[9,5,0,0,0,979,3],
 "structmeshlib_1_1std__array__std__filesystem__path__4.html#aaab228e8f80c946c73a1a9a1fe109496":[9,5,1,0,0,966,3],
-"structmeshlib_1_1std__array__std__filesystem__path__4.html#aac92122832354c6d6bf63b82bc3068d9":[9,5,0,0,0,979,6],
-"structmeshlib_1_1std__array__std__filesystem__path__4.html#aac92122832354c6d6bf63b82bc3068d9":[9,5,1,0,0,966,6],
-"structmeshlib_1_1std__array__std__filesystem__path__4.html#ac59c38f29f0ef2b138b9b895ca6a04bc":[9,5,0,0,0,979,2],
-"structmeshlib_1_1std__array__std__filesystem__path__4.html#ac59c38f29f0ef2b138b9b895ca6a04bc":[9,5,1,0,0,966,2],
-"structmeshlib_1_1std__array__std__filesystem__path__4.html#afb6f4d11c2ad29e9b2abea27e96ccbcf":[9,5,0,0,0,979,0]
+"structmeshlib_1_1std__array__std__filesystem__path__4.html#aac92122832354c6d6bf63b82bc3068d9":[9,5,0,0,0,979,6]
 };

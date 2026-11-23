@@ -1,5 +1,9 @@
 var NAVTREEINDEX48 =
 {
+"structmeshlib_1_1DistanceMeasurementObject.html#aa865e9cc70ba9ff32616d8728cdff6f9":[9,5,0,0,0,283,44],
+"structmeshlib_1_1DistanceMeasurementObject.html#aa865e9cc70ba9ff32616d8728cdff6f9":[9,5,1,0,0,270,44],
+"structmeshlib_1_1DistanceMeasurementObject.html#aa999ef5eb7f5dccce5ec48e79c97937b":[9,5,0,0,0,283,9],
+"structmeshlib_1_1DistanceMeasurementObject.html#aa999ef5eb7f5dccce5ec48e79c97937b":[9,5,1,0,0,270,9],
 "structmeshlib_1_1DistanceMeasurementObject.html#aaac1cb3901f66ce33a180a3f9a9eb308":[9,5,0,0,0,283,69],
 "structmeshlib_1_1DistanceMeasurementObject.html#aaac1cb3901f66ce33a180a3f9a9eb308":[9,5,1,0,0,270,69],
 "structmeshlib_1_1DistanceMeasurementObject.html#aabf5ba0f87958d73e429a0f63130d95d":[9,5,0,0,0,283,111],
@@ -245,9 +249,5 @@ var NAVTREEINDEX48 =
 "structmeshlib_1_1DividePolylineParameters.html#aefdd89b88990bd004855b6d2458f8499":[9,5,0,0,0,289,12],
 "structmeshlib_1_1DividePolylineParameters.html#aefdd89b88990bd004855b6d2458f8499":[9,5,1,0,0,276,12],
 "structmeshlib_1_1DoubleOffsetSettings.html":[9,5,0,0,0,290],
-"structmeshlib_1_1DoubleOffsetSettings.html":[9,5,1,0,0,277],
-"structmeshlib_1_1DoubleOffsetSettings.html#a167d8e89b7b25212bbf4621a4c89a9db":[9,5,0,0,0,290,18],
-"structmeshlib_1_1DoubleOffsetSettings.html#a167d8e89b7b25212bbf4621a4c89a9db":[9,5,1,0,0,277,18],
-"structmeshlib_1_1DoubleOffsetSettings.html#a1b808036e5ca02ad6b6e30508b7ee75c":[9,5,0,0,0,290,0],
-"structmeshlib_1_1DoubleOffsetSettings.html#a1b808036e5ca02ad6b6e30508b7ee75c":[9,5,1,0,0,277,0]
+"structmeshlib_1_1DoubleOffsetSettings.html":[9,5,1,0,0,277]
 };

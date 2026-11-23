@@ -6,10 +6,14 @@ var MRPointsLoad_8rs =
     [ "meshlib::points_load::from_dxf_std_istream", "namespacemeshlib_1_1points__load.html#a82d308316714a1db1c63c864bb0e229f", null ],
     [ "meshlib::points_load::from_obj_std_filesystem_path", "namespacemeshlib_1_1points__load.html#a3161f81e85cd6810094e19173588146f", null ],
     [ "meshlib::points_load::from_obj_std_istream", "namespacemeshlib_1_1points__load.html#a6f3e3aeba45006a31357ffbf1fbd23bc", null ],
+    [ "meshlib::points_load::from_pcd_std_filesystem_path", "namespacemeshlib_1_1points__load.html#aab8da810684db62974d1a423231ed58b", null ],
+    [ "meshlib::points_load::from_pcd_std_istream", "namespacemeshlib_1_1points__load.html#a33d8b4896f3b5e719911b84354220fa1", null ],
     [ "meshlib::points_load::from_ply_std_filesystem_path", "namespacemeshlib_1_1points__load.html#a381f2199f92f810f637180fd54ad5fd9", null ],
     [ "meshlib::points_load::from_ply_std_istream", "namespacemeshlib_1_1points__load.html#a8118eae332fbde6d347d4f4a31d4f684", null ],
     [ "meshlib::points_load::from_pts_std_filesystem_path", "namespacemeshlib_1_1points__load.html#af87e881ac9f6778762922f6e6fb905bf", null ],
     [ "meshlib::points_load::from_pts_std_istream", "namespacemeshlib_1_1points__load.html#a25e9360eeba882fc0ece81b49e5bd8d1", null ],
+    [ "meshlib::points_load::from_ptx_std_filesystem_path", "namespacemeshlib_1_1points__load.html#afae9e8438cf64f23bff8dfa12c40b0cc", null ],
+    [ "meshlib::points_load::from_ptx_std_istream", "namespacemeshlib_1_1points__load.html#a1c32cdf79023cf0f7a255bf2fc6ebf52", null ],
     [ "meshlib::points_load::from_text_std_filesystem_path", "namespacemeshlib_1_1points__load.html#a6ab48bd19b76101ced670bc876b9a90e", null ],
     [ "meshlib::points_load::from_text_std_istream", "namespacemeshlib_1_1points__load.html#a88711a120c1599a08e71039fc336f03d", null ]
 ];

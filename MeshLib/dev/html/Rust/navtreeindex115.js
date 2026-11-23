@@ -1,5 +1,9 @@
 var NAVTREEINDEX115 =
 {
+"structmeshlib_1_1PolylineIntersectionResult2.html#af714b8d0419f817f2ed745f4f2b0288e":[9,5,0,0,0,822,4],
+"structmeshlib_1_1PolylineIntersectionResult2.html#af714b8d0419f817f2ed745f4f2b0288e":[9,5,1,0,0,809,4],
+"structmeshlib_1_1PolylineMaker.html":[9,5,0,0,0,823],
+"structmeshlib_1_1PolylineMaker.html":[9,5,1,0,0,810],
 "structmeshlib_1_1PolylineMaker.html#a0e8356d5470761574e5d297da76271b4":[9,5,0,0,0,823,1],
 "structmeshlib_1_1PolylineMaker.html#a0e8356d5470761574e5d297da76271b4":[9,5,1,0,0,810,1],
 "structmeshlib_1_1PolylineMaker.html#a4427277b6bf565cf6c7da2a6e12dbaf4":[9,5,0,0,0,823,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX115 =
 "structmeshlib_1_1PolylineTopology.html#a43dda6f05c0e09e455e92afeb756bf0a":[9,5,0,0,0,830,12],
 "structmeshlib_1_1PolylineTopology.html#a43dda6f05c0e09e455e92afeb756bf0a":[9,5,1,0,0,817,12],
 "structmeshlib_1_1PolylineTopology.html#a4603fdd075782d70769b1e693b03e5d9":[9,5,0,0,0,830,51],
-"structmeshlib_1_1PolylineTopology.html#a4603fdd075782d70769b1e693b03e5d9":[9,5,1,0,0,817,51],
-"structmeshlib_1_1PolylineTopology.html#a52d490f9565426fa8e0a80e71b3fba11":[9,5,0,0,0,830,41],
-"structmeshlib_1_1PolylineTopology.html#a52d490f9565426fa8e0a80e71b3fba11":[9,5,1,0,0,817,41],
-"structmeshlib_1_1PolylineTopology.html#a53d9561bc7a646ff9657cbaeaf982530":[9,5,0,0,0,830,7],
-"structmeshlib_1_1PolylineTopology.html#a53d9561bc7a646ff9657cbaeaf982530":[9,5,1,0,0,817,7]
+"structmeshlib_1_1PolylineTopology.html#a4603fdd075782d70769b1e693b03e5d9":[9,5,1,0,0,817,51]
 };

@@ -6,10 +6,14 @@ var MRPointsLoad_8h =
     [ "MR_PointsLoad_fromDxf_std_istream", "MRPointsLoad_8h.html#ad9d2b0585ab1086c6653546c2e8f1bc7", null ],
     [ "MR_PointsLoad_fromObj_std_filesystem_path", "MRPointsLoad_8h.html#a87d4930d384956d111aeeb372d6499b4", null ],
     [ "MR_PointsLoad_fromObj_std_istream", "MRPointsLoad_8h.html#ab78a3db99ddc0c15e2195c4da1f8867e", null ],
+    [ "MR_PointsLoad_fromPcd_std_filesystem_path", "MRPointsLoad_8h.html#abd97222d761181f90bb65dad7d97a91e", null ],
+    [ "MR_PointsLoad_fromPcd_std_istream", "MRPointsLoad_8h.html#a4a8d557f7be620413b197a295b9a27a7", null ],
     [ "MR_PointsLoad_fromPly_std_filesystem_path", "MRPointsLoad_8h.html#acdb9275e52d3bfe3ffea1476eb865187", null ],
     [ "MR_PointsLoad_fromPly_std_istream", "MRPointsLoad_8h.html#a811e1a7b022c9dc539a7e3da7bfd9c0c", null ],
     [ "MR_PointsLoad_fromPts_std_filesystem_path", "MRPointsLoad_8h.html#ada936742e7b6a8b9f4966a94b5f16879", null ],
     [ "MR_PointsLoad_fromPts_std_istream", "MRPointsLoad_8h.html#ae3ec3acc4bafcee7ec43a7061f1ca303", null ],
+    [ "MR_PointsLoad_fromPtx_std_filesystem_path", "MRPointsLoad_8h.html#ada099772f9e56b3806b1684c8b81de37", null ],
+    [ "MR_PointsLoad_fromPtx_std_istream", "MRPointsLoad_8h.html#a01307e35a6072934daf4645edb80c748", null ],
     [ "MR_PointsLoad_fromText_std_filesystem_path", "MRPointsLoad_8h.html#ab5481f2ca1438177d14d00c5e20def83", null ],
     [ "MR_PointsLoad_fromText_std_istream", "MRPointsLoad_8h.html#aa346295470d260716f76935dd272736e", null ]
 ];

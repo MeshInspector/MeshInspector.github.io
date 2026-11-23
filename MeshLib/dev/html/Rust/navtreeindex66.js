@@ -1,5 +1,9 @@
 var NAVTREEINDEX66 =
 {
+"structmeshlib_1_1InSphere.html#ae1c4895c37944728c3ff29fd0b4bb14c":[9,5,0,0,0,501,9],
+"structmeshlib_1_1InSphere.html#ae1c4895c37944728c3ff29fd0b4bb14c":[9,5,1,0,0,488,9],
+"structmeshlib_1_1InSphereResult.html":[9,5,0,0,0,502],
+"structmeshlib_1_1InSphereResult.html":[9,5,1,0,0,489],
 "structmeshlib_1_1InSphereSearchSettings.html":[9,5,0,0,0,503],
 "structmeshlib_1_1InSphereSearchSettings.html":[9,5,1,0,0,490],
 "structmeshlib_1_1InSphereSearchSettings.html#a155404ac4b43d29b8534430bbcf7274a":[9,5,0,0,0,503,14],
@@ -245,9 +249,5 @@ var NAVTREEINDEX66 =
 "structmeshlib_1_1IntersectionPrecomputes__double.html#a15b08e1b5ef95d5299450786270e65d1":[9,5,0,0,0,511,12],
 "structmeshlib_1_1IntersectionPrecomputes__double.html#a15b08e1b5ef95d5299450786270e65d1":[9,5,1,0,0,498,12],
 "structmeshlib_1_1IntersectionPrecomputes__double.html#a3460022614ad748c2c29d41a4995f2d9":[9,5,0,0,0,511,8],
-"structmeshlib_1_1IntersectionPrecomputes__double.html#a3460022614ad748c2c29d41a4995f2d9":[9,5,1,0,0,498,8],
-"structmeshlib_1_1IntersectionPrecomputes__double.html#a48e73347f457144600661b293831da5f":[9,5,0,0,0,511,11],
-"structmeshlib_1_1IntersectionPrecomputes__double.html#a48e73347f457144600661b293831da5f":[9,5,1,0,0,498,11],
-"structmeshlib_1_1IntersectionPrecomputes__double.html#a4c08a4bd75e8ecf37e650066076310a3":[9,5,0,0,0,511,9],
-"structmeshlib_1_1IntersectionPrecomputes__double.html#a4c08a4bd75e8ecf37e650066076310a3":[9,5,1,0,0,498,9]
+"structmeshlib_1_1IntersectionPrecomputes__double.html#a3460022614ad748c2c29d41a4995f2d9":[9,5,1,0,0,498,8]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[9,0,1,0,0,0,11],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[9,0,2,0,0,0,11],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[9,0,1,0,0,0,6],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[9,0,2,0,0,0,6],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a22df65426ef651326ea22792fd010bd1":[9,0,1,0,0,0,4],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a22df65426ef651326ea22792fd010bd1":[9,0,2,0,0,0,4],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[9,0,1,0,0,0,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1ComputeSteepestDescentPathSettings.html":[9,0,0,15,3,1],
 "structMR_1_1ComputeSteepestDescentPathSettings.html#a133dd657607eb8f8e2745935031c0ed0":[9,0,0,15,3,1,1],
 "structMR_1_1ComputeSteepestDescentPathSettings.html#a9c5b63e96c36543a3af9203630d6325c":[9,0,0,15,3,1,0],
-"structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f":[9,0,0,15,3,1,2],
-"structMR_1_1ComputeSweptVolumeParameters.html":[9,0,0,19,908],
-"structMR_1_1Cone3ApproximationParams.html":[9,0,0,19,188],
-"structMR_1_1ConnectionHolder.html":[9,0,0,19,802],
-"structMR_1_1ConstantCuspParams.html":[9,0,0,19,916]
+"structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f":[9,0,0,15,3,1,2]
 };

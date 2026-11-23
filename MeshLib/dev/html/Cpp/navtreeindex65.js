@@ -1,5 +1,9 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1ComputeSweptVolumeParameters.html":[9,0,0,19,908],
+"structMR_1_1Cone3ApproximationParams.html":[9,0,0,19,188],
+"structMR_1_1ConnectionHolder.html":[9,0,0,19,802],
+"structMR_1_1ConstantCuspParams.html":[9,0,0,19,916],
 "structMR_1_1ContourToDistanceMapParams.html":[9,0,0,5,4],
 "structMR_1_1ContourToDistanceMapParams.html#a0f6930b2ce708dd9fb61eb4c42f6a07c":[9,0,0,5,4,2],
 "structMR_1_1ContourToDistanceMapParams.html#a3f4630f18505db408fdc2d6b9417d9e6":[9,0,0,5,4,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1FillHoleItemEdge.html":[9,0,0,19,294],
 "structMR_1_1FillHoleMetric.html":[9,0,0,9,3,3],
 "structMR_1_1FillHoleMetric.html#a3048bcf785194be02ce20b5d6e6bfd61":[9,0,0,9,3,3,1],
-"structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c":[9,0,0,9,3,3,0],
-"structMR_1_1FillHoleMetric.html#acc8ef5c37515d91d9c3cb3fbcaa1fd22":[9,0,0,9,3,3,2],
-"structMR_1_1FillHoleNicelySettings.html":[9,0,0,19,272],
-"structMR_1_1FillHoleParams.html":[9,0,0,9,3,0],
-"structMR_1_1FillHoleParams.html#a1789bd574d007a370fe6164d4f5ca7c4":[9,0,0,9,3,0,4]
+"structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c":[9,0,0,9,3,3,0]
 };

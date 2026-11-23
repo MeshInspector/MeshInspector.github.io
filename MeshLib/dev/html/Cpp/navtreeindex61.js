@@ -1,5 +1,9 @@
 var NAVTREEINDEX61 =
 {
+"hierarchy.html":[9,0,2,2],
+"index.html":[],
+"namespaceImGui.html":[9,0,1,0,0],
+"namespaceImGui.html#a0aa5259d479228cac323c9479306a981":[9,0,1,0,0,29],
 "namespaceImGui.html#a0d41b8541cb776c3dd51831a279e1166":[9,0,1,0,0,8],
 "namespaceImGui.html#a1de0301581b33a2a2e592a082de3ab16":[9,0,1,0,0,35],
 "namespaceImGui.html#a216fbde95017cbd4e591842b3530da81":[9,0,1,0,0,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX61 =
 "namespaceMR_1_1McpGateway.html":[9,0,1,0,1,23],
 "namespaceMR_1_1McpGateway.html#a125af5dc97b6c00c8b23e57f661a1b96":[9,0,1,0,1,23,3],
 "namespaceMR_1_1McpGateway.html#a153505bbfb54eb994b1929e70f09d9f5":[9,0,1,0,1,23,14],
-"namespaceMR_1_1McpGateway.html#a1865d391c5eaff99701877d104fb7266":[9,0,1,0,1,23,4],
-"namespaceMR_1_1McpGateway.html#a312b4f994478a92f82d7b53b3b2c2c39":[9,0,1,0,1,23,8],
-"namespaceMR_1_1McpGateway.html#a492feeb41d07c965ac23ee0076d73f14":[9,0,1,0,1,23,5],
-"namespaceMR_1_1McpGateway.html#a513db1d1766357ace9b7e93446e3a1d1":[9,0,1,0,1,23,13],
-"namespaceMR_1_1McpGateway.html#a7233b4a48f42fac23e3288ae84c19ed8":[9,0,1,0,1,23,2]
+"namespaceMR_1_1McpGateway.html#a1865d391c5eaff99701877d104fb7266":[9,0,1,0,1,23,4]
 };

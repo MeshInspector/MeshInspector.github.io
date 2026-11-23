@@ -1,5 +1,9 @@
 var NAVTREEINDEX60 =
 {
+"group__SurfacePathGroup.html#ga76647b99785eef207f1f05c7dc568e35":[9,0,0,19,1803],
+"group__SurfacePathGroup.html#ga832a0b8b0a098d4124e935c859a5649f":[9,0,0,15,30],
+"group__SurfacePathGroup.html#ga832a0b8b0a098d4124e935c859a5649f":[9,0,0,19,2731],
+"group__SurfacePathGroup.html#ga83d18b35a657e690d099626020c05e78":[9,0,0,15,35],
 "group__SurfacePathGroup.html#ga83d18b35a657e690d099626020c05e78":[9,0,0,19,2932],
 "group__SurfacePathGroup.html#ga84c9cd9d7243cae376c8758beb6c70dc":[9,0,0,15,28],
 "group__SurfacePathGroup.html#ga84c9cd9d7243cae376c8758beb6c70dc":[9,0,0,19,2708],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "group__VoxelsLoadGroup.html#ga90e7a361537bcd60aa55bcec6cc4ffb1":[9,0,0,2,19,2],
 "group__VoxelsLoadGroup.html#gadc6c309b18d3d1c442591ea06f9cb26c":[9,0,0,2,19,1],
 "group__VoxelsSaveGroup.html":[9,0,0,2,20],
-"group__VoxelsSaveGroup.html#ga2c95017a0cb0c854829b6223518168eb":[9,0,0,2,20,1],
-"hierarchy.html":[9,0,2,2],
-"index.html":[],
-"namespaceImGui.html":[9,0,1,0,0],
-"namespaceImGui.html#a0aa5259d479228cac323c9479306a981":[9,0,1,0,0,29]
+"group__VoxelsSaveGroup.html#ga2c95017a0cb0c854829b6223518168eb":[9,0,0,2,20,1]
 };
