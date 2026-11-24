@@ -181,17 +181,18 @@ $(function(){initNavTree('MRBinaryOperationsPlugin_8h_source.html','',''); });
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    boost::signals2::scoped_connection conn1_;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    boost::signals2::scoped_connection conn2_;</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    std::vector&lt;std::string&gt; enabledOps_;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    std::vector&lt;std::string&gt; enabledOpsTooltips_;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    std::shared_ptr&lt;ObjectVoxels&gt; previewRes_;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">bool</span> previewMode_ = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    Operation operation_ = Operation::Union;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>};</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    std::vector&lt;Operation&gt; enabledOpIds_; </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    std::vector&lt;std::string&gt; enabledOps_;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    std::vector&lt;std::string&gt; enabledOpsTooltips_;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    std::shared_ptr&lt;ObjectVoxels&gt; previewRes_;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">bool</span> previewMode_ = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    Operation operation_ = Operation::Union;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>};</div>
 </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>}</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>}</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRObjectVoxels_8h_html"><div class="ttname"><a href="MRObjectVoxels_8h.html">MRObjectVoxels.h</a></div></div>
 <div class="ttc" id="aMRSceneStateCheck_8h_html"><div class="ttname"><a href="MRSceneStateCheck_8h.html">MRSceneStateCheck.h</a></div></div>
