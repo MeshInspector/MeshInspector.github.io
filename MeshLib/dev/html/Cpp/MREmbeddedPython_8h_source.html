@@ -166,50 +166,50 @@ $(function(){initNavTree('MREmbeddedPython_8h_source.html','',''); });
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga6f5f0371fc1c61725eece9754153915b">   31</a></span>    MREMBEDDEDPYTHON_API <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__GeneralGroup.html#ga6f5f0371fc1c61725eece9754153915b">isAvailable</a>();</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaaba2866adfe5fe380d91518318ed1124">   35</a></span>    MREMBEDDEDPYTHON_API <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="group__GeneralGroup.html#gaaba2866adfe5fe380d91518318ed1124">shutdown</a>();</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gae58305bf0cb6db10ee8352912f243acb">   39</a></span>    [[nodiscard]] <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__GeneralGroup.html#gae58305bf0cb6db10ee8352912f243acb">nowRunning</a>() { <span class="keywordflow">return</span> instance_().state_.load() != State::idle; }</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaa8034ff978609b3932d31cb4271f33e0">   44</a></span>    MREMBEDDEDPYTHON_API <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__GeneralGroup.html#gaa8034ff978609b3932d31cb4271f33e0">runString</a>( std::string pythonString, std::function&lt;<span class="keywordtype">void</span>( <span class="keywordtype">bool</span> success )&gt; onDoneAsync = <span class="keyword">nullptr</span> );</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaa5dec7481f55f7fac9478b8165e5c867">   46</a></span>    MREMBEDDEDPYTHON_API <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__GeneralGroup.html#gaa5dec7481f55f7fac9478b8165e5c867">runScript</a>( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga22fff363104f240f2705452110feaf13">   48</a></span>    MREMBEDDEDPYTHON_API <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__GeneralGroup.html#ga22fff363104f240f2705452110feaf13">isPythonScript</a>( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    EmbeddedPython();</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    EmbeddedPython( <span class="keyword">const</span> EmbeddedPython&amp; ) = <span class="keyword">delete</span>;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    EmbeddedPython&amp; operator=( <span class="keyword">const</span> EmbeddedPython&amp; ) = <span class="keyword">delete</span>;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    ~EmbeddedPython();</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">bool</span> init_();</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">void</span> ensureInterpreterThreadIsRunning_();</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    MREMBEDDEDPYTHON_API <span class="keyword">static</span> EmbeddedPython&amp; instance_();</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordtype">bool</span> available_ = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">bool</span> shutdownCalled_ = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keyword">enum class</span> State</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    {</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        idle, </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        running, </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        finishing, </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    };</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    std::atomic&lt;State&gt; state_ = State::idle; </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    std::string queuedSource_;</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordtype">bool</span> lastRunSuccessful_ = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    std::function&lt;void( <span class="keywordtype">bool</span> success )&gt; onDoneAsync_;</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    std::mutex cvMutex_;</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    std::condition_variable cv_; </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span></div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    std::thread interpreterThread_;</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keywordtype">bool</span> stopInterpreterThread_ = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>};</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaaba2866adfe5fe380d91518318ed1124">   36</a></span>    MREMBEDDEDPYTHON_API <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="group__GeneralGroup.html#gaaba2866adfe5fe380d91518318ed1124">shutdown</a>();</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gae58305bf0cb6db10ee8352912f243acb">   40</a></span>    [[nodiscard]] <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__GeneralGroup.html#gae58305bf0cb6db10ee8352912f243acb">nowRunning</a>() { <span class="keywordflow">return</span> instance_().state_.load() != State::idle; }</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaa8034ff978609b3932d31cb4271f33e0">   45</a></span>    MREMBEDDEDPYTHON_API <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__GeneralGroup.html#gaa8034ff978609b3932d31cb4271f33e0">runString</a>( std::string pythonString, std::function&lt;<span class="keywordtype">void</span>( <span class="keywordtype">bool</span> success )&gt; onDoneAsync = <span class="keyword">nullptr</span> );</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaa5dec7481f55f7fac9478b8165e5c867">   47</a></span>    MREMBEDDEDPYTHON_API <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__GeneralGroup.html#gaa5dec7481f55f7fac9478b8165e5c867">runScript</a>( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga22fff363104f240f2705452110feaf13">   49</a></span>    MREMBEDDEDPYTHON_API <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__GeneralGroup.html#ga22fff363104f240f2705452110feaf13">isPythonScript</a>( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    EmbeddedPython();</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    EmbeddedPython( <span class="keyword">const</span> EmbeddedPython&amp; ) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    EmbeddedPython&amp; operator=( <span class="keyword">const</span> EmbeddedPython&amp; ) = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    ~EmbeddedPython();</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">bool</span> init_();</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">void</span> ensureInterpreterThreadIsRunning_();</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    MREMBEDDEDPYTHON_API <span class="keyword">static</span> EmbeddedPython&amp; instance_();</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">bool</span> available_ = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">bool</span> shutdownCalled_ = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keyword">enum class</span> State</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    {</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        idle, </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        running, </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        finishing, </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    };</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    std::atomic&lt;State&gt; state_ = State::idle; </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    std::string queuedSource_;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordtype">bool</span> lastRunSuccessful_ = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    std::function&lt;void( <span class="keywordtype">bool</span> success )&gt; onDoneAsync_;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    std::mutex cvMutex_;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    std::condition_variable cv_; </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    std::thread interpreterThread_;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordtype">bool</span> stopInterpreterThread_ = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>};</div>
 </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>}</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>}</div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga172af80d129ecab54d4c310e812523a5"><div class="ttname"><a href="group__GeneralGroup.html#ga172af80d129ecab54d4c310e812523a5">MR::EmbeddedPython::Config::home</a></div><div class="ttdeci">std::string home</div><div class="ttdef"><b>Definition</b> MREmbeddedPython.h:26</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga22fff363104f240f2705452110feaf13"><div class="ttname"><a href="group__GeneralGroup.html#ga22fff363104f240f2705452110feaf13">MR::EmbeddedPython::isPythonScript</a></div><div class="ttdeci">static bool isPythonScript(const std::filesystem::path &amp;path)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga6309e26a08ee1df3fe6bb514aa84cf58"><div class="ttname"><a href="group__GeneralGroup.html#ga6309e26a08ee1df3fe6bb514aa84cf58">MR::EmbeddedPython::Config::argv</a></div><div class="ttdeci">std::vector&lt; std::string &gt; argv</div><div class="ttdef"><b>Definition</b> MREmbeddedPython.h:27</div></div>
@@ -219,7 +219,7 @@ $(function(){initNavTree('MREmbeddedPython_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gaaba2866adfe5fe380d91518318ed1124"><div class="ttname"><a href="group__GeneralGroup.html#gaaba2866adfe5fe380d91518318ed1124">MR::EmbeddedPython::shutdown</a></div><div class="ttdeci">static void shutdown()</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gab8f6c7baee25720458651020c6903de9"><div class="ttname"><a href="group__GeneralGroup.html#gab8f6c7baee25720458651020c6903de9">MR::EmbeddedPython::pythonConfig</a></div><div class="ttdeci">static Config pythonConfig</div><div class="ttdef"><b>Definition</b> MREmbeddedPython.h:29</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gae17ecbf3ed9c59e47c91c7ddc1b173aa"><div class="ttname"><a href="group__GeneralGroup.html#gae17ecbf3ed9c59e47c91c7ddc1b173aa">MR::EmbeddedPython::Config::siteImport</a></div><div class="ttdeci">bool siteImport</div><div class="ttdef"><b>Definition</b> MREmbeddedPython.h:25</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_gae58305bf0cb6db10ee8352912f243acb"><div class="ttname"><a href="group__GeneralGroup.html#gae58305bf0cb6db10ee8352912f243acb">MR::EmbeddedPython::nowRunning</a></div><div class="ttdeci">static bool nowRunning()</div><div class="ttdef"><b>Definition</b> MREmbeddedPython.h:39</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gae58305bf0cb6db10ee8352912f243acb"><div class="ttname"><a href="group__GeneralGroup.html#gae58305bf0cb6db10ee8352912f243acb">MR::EmbeddedPython::nowRunning</a></div><div class="ttdeci">static bool nowRunning()</div><div class="ttdef"><b>Definition</b> MREmbeddedPython.h:40</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1EmbeddedPython_1_1Config_html"><div class="ttname"><a href="structMR_1_1EmbeddedPython_1_1Config.html">MR::EmbeddedPython::Config</a></div><div class="ttdef"><b>Definition</b> MREmbeddedPython.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->

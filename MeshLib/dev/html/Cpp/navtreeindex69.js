@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1Mesh.html#a8413d6a67149defd54376ec0b8d8ff05":[9,0,0,7,1,81],
+"structMR_1_1Mesh.html#a88f3660852b3da7957b674e29f125150":[9,0,0,7,1,56],
 "structMR_1_1Mesh.html#a8c0879122a6abf7e015c89fdbd7dd584":[9,0,0,7,1,109],
 "structMR_1_1Mesh.html#a916b0cecc3457997280e8f1e39227c8e":[9,0,0,7,1,16],
 "structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4":[9,0,0,7,1,125],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1NotificationTags.html":[9,0,0,19,711],
 "structMR_1_1NumSum.html":[9,0,0,19,300],
 "structMR_1_1ObjFaceId.html":[9,0,0,19,551],
-"structMR_1_1ObjKindTraits.html":[9,0,0,19,236],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[9,0,0,19,240],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html":[9,0,0,19,243]
+"structMR_1_1ObjKindTraits.html":[9,0,0,19,236]
 };

@@ -190,8 +190,9 @@ $(function(){initNavTree('ExampleSignedDistances.html','',''); });
 <div class="line">vert_distances = mrmeshpy.findSignedDistances(ref_mesh, mesh)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># mrmeshpy.VertScalars is iterable so we can use min() or max() functions</span></div>
-<div class="line">print(<span class="stringliteral">&quot;Distance between reference mesh and the closest point of target mesh is &quot;</span> + str(min(vert_distances)))</div>
-<div class="line">print(<span class="stringliteral">&quot;Distance between reference mesh and the farthest point of target mesh is &quot;</span> + str(max(vert_distances)))</div>
+<div class="line">print(<span class="stringliteral">&quot;Distance between reference mesh and the closest point of target mesh is &quot;</span> + <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga8bd5cd85a892ad4f173c021f3540d3ff">str</a>(min(vert_distances)))</div>
+<div class="line">print(<span class="stringliteral">&quot;Distance between reference mesh and the farthest point of target mesh is &quot;</span> + <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga8bd5cd85a892ad4f173c021f3540d3ff">str</a>(max(vert_distances)))</div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga8bd5cd85a892ad4f173c021f3540d3ff"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga8bd5cd85a892ad4f173c021f3540d3ff">str</a></div><div class="ttdeci">static std::string str()</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshPart.h&gt;</span></div>

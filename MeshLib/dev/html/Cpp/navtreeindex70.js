@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[9,0,0,19,240],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html":[9,0,0,19,243],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html":[9,0,0,19,242],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html":[9,0,0,19,238],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html":[9,0,0,19,239],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1ProjectAttributeParams.html":[9,0,0,19,499],
 "structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html":[9,0,0,19,53],
 "structMR_1_1PythonViewer_1_1UiEntry.html":[9,0,1,0,1,40,0],
-"structMR_1_1PythonViewer_1_1UiEntry.html":[9,0,2,0,1,25,0],
-"structMR_1_1PythonViewer_1_1UiEntry.html#a0856b9ecf8f43967f32f0d695423dfb1":[9,0,1,0,1,40,0,2],
-"structMR_1_1PythonViewer_1_1UiEntry.html#a0856b9ecf8f43967f32f0d695423dfb1":[9,0,2,0,1,25,0,2]
+"structMR_1_1PythonViewer_1_1UiEntry.html":[9,0,2,0,1,25,0]
 };

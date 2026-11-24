@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html":[9,0,0,19,258],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html":[9,0,0,19,256],
 "structMR_1_1FileDialogSignals.html":[9,0,0,19,611],
 "structMR_1_1FileDialog_1_1Parameters.html":[9,0,0,19,613],
 "structMR_1_1FileLoadOptions.html":[9,0,0,19,614],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html#a566c4f5f3c467669b8f6870230f68f64":[9,0,1,0,1,17,6,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html#a566c4f5f3c467669b8f6870230f68f64":[9,0,2,0,1,7,6,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html":[9,0,1,0,1,17,7],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html":[9,0,2,0,1,7,7],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a07cda3bf338976041c1a33d4192edc2a":[9,0,1,0,1,17,7,11],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a07cda3bf338976041c1a33d4192edc2a":[9,0,2,0,1,7,7,11]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html":[9,0,2,0,1,7,7]
 };

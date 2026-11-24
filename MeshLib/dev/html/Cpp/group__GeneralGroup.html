@@ -8730,7 +8730,10 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:ga821dbf6faccece72904317f7a7af0c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompress the input data compressed with the Deflate algorithm  <br /></td></tr>
 <tr class="memitem:ga790822c4da5f4e95c06eca6e0dd9328e" id="r_ga790822c4da5f4e95c06eca6e0dd9328e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga790822c4da5f4e95c06eca6e0dd9328e">MR::zlibDecompressStream</a> (std::istream &amp;in, std::ostream &amp;out)</td></tr>
 <tr class="memdesc:ga790822c4da5f4e95c06eca6e0dd9328e"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompress the input data compressed with the Deflate algorithm (zlib-wrapped, RFC 1950)  <br /></td></tr>
-<tr class="memitem:ga93db9b129791dd369d28ff29ca8e482b" id="r_ga93db9b129791dd369d28ff29ca8e482b"><td class="memItemLeft" align="right" valign="top">static std::stringstream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga93db9b129791dd369d28ff29ca8e482b">MR::UnifiedPythonStream::get</a> ()</td></tr>
+<tr class="memitem:ga7b46b8956ba49cb72c3403d526316593" id="r_ga7b46b8956ba49cb72c3403d526316593"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7b46b8956ba49cb72c3403d526316593">MR::UnifiedPythonStream::append</a> (std::string_view text)</td></tr>
+<tr class="memitem:ga8bd5cd85a892ad4f173c021f3540d3ff" id="r_ga8bd5cd85a892ad4f173c021f3540d3ff"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8bd5cd85a892ad4f173c021f3540d3ff">MR::UnifiedPythonStream::str</a> ()</td></tr>
+<tr class="memdesc:ga8bd5cd85a892ad4f173c021f3540d3ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a copy of all text appended since the last <a class="el" href="#gaf63c5d978771fdaceb4123fe296a6912">clear()</a>  <br /></td></tr>
+<tr class="memitem:gaf63c5d978771fdaceb4123fe296a6912" id="r_gaf63c5d978771fdaceb4123fe296a6912"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf63c5d978771fdaceb4123fe296a6912">MR::UnifiedPythonStream::clear</a> ()</td></tr>
 <tr class="memitem:gaf0cf8947b30142d3ea7ba6feaeb04f98" id="r_gaf0cf8947b30142d3ea7ba6feaeb04f98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf0cf8947b30142d3ea7ba6feaeb04f98">MR::alignTextToMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1TextMeshAlignParams.html">TextMeshAlignParams</a> &amp;params)</td></tr>
 <tr class="memdesc:gaf0cf8947b30142d3ea7ba6feaeb04f98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates symbol mesh and aligns it to given surface.  <br /></td></tr>
 <tr class="memitem:ga1162a869a8e727da19dfe23a45e17c49" id="r_ga1162a869a8e727da19dfe23a45e17c49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1162a869a8e727da19dfe23a45e17c49">MR::bendTextAlongCurve</a> (const <a class="el" href="structMR_1_1CurveFunc.html">CurveFunc</a> &amp;curve, const <a class="el" href="structMR_1_1BendTextAlongCurveParams.html">BendTextAlongCurveParams</a> &amp;params)</td></tr>
@@ -35229,6 +35232,33 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga7b46b8956ba49cb72c3403d526316593" name="ga7b46b8956ba49cb72c3403d526316593"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7b46b8956ba49cb72c3403d526316593">&#9670;&#160;</a></span>append()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::UnifiedPythonStream::append </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>text</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRUnifiedPythonStream_8h.html">MRPython/MRUnifiedPythonStream.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga571f3cfec1ce5e1f1bbe119073a39b8e" name="ga571f3cfec1ce5e1f1bbe119073a39b8e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga571f3cfec1ce5e1f1bbe119073a39b8e">&#9670;&#160;</a></span>append_viewport()</h2>
 
@@ -47403,7 +47433,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaca0b802e48cd228f6dae674149d771b3" name="gaca0b802e48cd228f6dae674149d771b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaca0b802e48cd228f6dae674149d771b3">&#9670;&#160;</a></span>clear() <span class="overload">[1/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaca0b802e48cd228f6dae674149d771b3">&#9670;&#160;</a></span>clear() <span class="overload">[1/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -47424,7 +47454,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga2f01b559e5cafefd57bef4c73f59b669" name="ga2f01b559e5cafefd57bef4c73f59b669"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2f01b559e5cafefd57bef4c73f59b669">&#9670;&#160;</a></span>clear() <span class="overload">[2/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2f01b559e5cafefd57bef4c73f59b669">&#9670;&#160;</a></span>clear() <span class="overload">[2/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -47453,7 +47483,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="gaf536aae957f76a53b47070d11d2a4181" name="gaf536aae957f76a53b47070d11d2a4181"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf536aae957f76a53b47070d11d2a4181">&#9670;&#160;</a></span>clear() <span class="overload">[3/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf536aae957f76a53b47070d11d2a4181">&#9670;&#160;</a></span>clear() <span class="overload">[3/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -47484,7 +47514,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab6a52148cc818bc6c42e287a95ef61b8" name="gab6a52148cc818bc6c42e287a95ef61b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab6a52148cc818bc6c42e287a95ef61b8">&#9670;&#160;</a></span>clear() <span class="overload">[4/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab6a52148cc818bc6c42e287a95ef61b8">&#9670;&#160;</a></span>clear() <span class="overload">[4/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -47505,7 +47535,7 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <a id="ga2cf1d840779aa0c63f819f6e05a26f5b" name="ga2cf1d840779aa0c63f819f6e05a26f5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2cf1d840779aa0c63f819f6e05a26f5b">&#9670;&#160;</a></span>clear() <span class="overload">[5/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2cf1d840779aa0c63f819f6e05a26f5b">&#9670;&#160;</a></span>clear() <span class="overload">[5/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -47526,7 +47556,7 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <a id="ga400bfa8033764f32d164e4a87ecefc41" name="ga400bfa8033764f32d164e4a87ecefc41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga400bfa8033764f32d164e4a87ecefc41">&#9670;&#160;</a></span>clear() <span class="overload">[6/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga400bfa8033764f32d164e4a87ecefc41">&#9670;&#160;</a></span>clear() <span class="overload">[6/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -47547,7 +47577,7 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <a id="ga26ba45d6f8a921a6ce281e87bf57c405" name="ga26ba45d6f8a921a6ce281e87bf57c405"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga26ba45d6f8a921a6ce281e87bf57c405">&#9670;&#160;</a></span>clear() <span class="overload">[7/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga26ba45d6f8a921a6ce281e87bf57c405">&#9670;&#160;</a></span>clear() <span class="overload">[7/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -47568,7 +47598,7 @@ template&lt;typename K, typename V&gt; </div>
 </div>
 </div>
 <a id="ga229a8e7249d6d753b590d2c3de6d043e" name="ga229a8e7249d6d753b590d2c3de6d043e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga229a8e7249d6d753b590d2c3de6d043e">&#9670;&#160;</a></span>clear() <span class="overload">[8/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga229a8e7249d6d753b590d2c3de6d043e">&#9670;&#160;</a></span>clear() <span class="overload">[8/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -47588,8 +47618,35 @@ template&lt;typename K, typename V&gt; </div>
 
 </div>
 </div>
+<a id="gaf63c5d978771fdaceb4123fe296a6912" name="gaf63c5d978771fdaceb4123fe296a6912"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf63c5d978771fdaceb4123fe296a6912">&#9670;&#160;</a></span>clear() <span class="overload">[9/11]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::UnifiedPythonStream::clear </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRUnifiedPythonStream_8h.html">MRPython/MRUnifiedPythonStream.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga0e593b171d655e35f554674f88083c76" name="ga0e593b171d655e35f554674f88083c76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0e593b171d655e35f554674f88083c76">&#9670;&#160;</a></span>clear() <span class="overload">[9/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0e593b171d655e35f554674f88083c76">&#9670;&#160;</a></span>clear() <span class="overload">[10/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -47618,7 +47675,7 @@ template&lt;typename T, typename I&gt; </div>
 </div>
 </div>
 <a id="gaa4c379f80b6cb834a38f930239028843" name="gaa4c379f80b6cb834a38f930239028843"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa4c379f80b6cb834a38f930239028843">&#9670;&#160;</a></span>clear() <span class="overload">[10/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa4c379f80b6cb834a38f930239028843">&#9670;&#160;</a></span>clear() <span class="overload">[11/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82333,7 +82390,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga603a7ae71b566cde606c3d226c1d2c54" name="ga603a7ae71b566cde606c3d226c1d2c54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga603a7ae71b566cde606c3d226c1d2c54">&#9670;&#160;</a></span>get() <span class="overload">[1/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga603a7ae71b566cde606c3d226c1d2c54">&#9670;&#160;</a></span>get() <span class="overload">[1/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82364,7 +82421,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7a401c6dcf9df00e29ffd7cb69181018" name="ga7a401c6dcf9df00e29ffd7cb69181018"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7a401c6dcf9df00e29ffd7cb69181018">&#9670;&#160;</a></span>get() <span class="overload">[2/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7a401c6dcf9df00e29ffd7cb69181018">&#9670;&#160;</a></span>get() <span class="overload">[2/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82395,7 +82452,7 @@ template&lt;size_t I&gt; </div>
 </div>
 </div>
 <a id="ga02d246883b8422a12536821fe1ccf679" name="ga02d246883b8422a12536821fe1ccf679"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga02d246883b8422a12536821fe1ccf679">&#9670;&#160;</a></span>get() <span class="overload">[3/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga02d246883b8422a12536821fe1ccf679">&#9670;&#160;</a></span>get() <span class="overload">[3/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82424,7 +82481,7 @@ template&lt;size_t I&gt; </div>
 </div>
 </div>
 <a id="gaba62ab281df54c9782b7668d99d28d1e" name="gaba62ab281df54c9782b7668d99d28d1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaba62ab281df54c9782b7668d99d28d1e">&#9670;&#160;</a></span>get() <span class="overload">[4/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaba62ab281df54c9782b7668d99d28d1e">&#9670;&#160;</a></span>get() <span class="overload">[4/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82453,7 +82510,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gad1f14bb94fff614d875bbb57566a723d" name="gad1f14bb94fff614d875bbb57566a723d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad1f14bb94fff614d875bbb57566a723d">&#9670;&#160;</a></span>get() <span class="overload">[5/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad1f14bb94fff614d875bbb57566a723d">&#9670;&#160;</a></span>get() <span class="overload">[5/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82480,7 +82537,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga28778e6e35ce6250d0ad0afbb71b84e4" name="ga28778e6e35ce6250d0ad0afbb71b84e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga28778e6e35ce6250d0ad0afbb71b84e4">&#9670;&#160;</a></span>get() <span class="overload">[6/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga28778e6e35ce6250d0ad0afbb71b84e4">&#9670;&#160;</a></span>get() <span class="overload">[6/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82507,7 +82564,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga85885b5e86610e53fe93aea07accd2b7" name="ga85885b5e86610e53fe93aea07accd2b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga85885b5e86610e53fe93aea07accd2b7">&#9670;&#160;</a></span>get() <span class="overload">[7/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga85885b5e86610e53fe93aea07accd2b7">&#9670;&#160;</a></span>get() <span class="overload">[7/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82534,7 +82591,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga2213acc4e6b29595dcd41c3c01895fc6" name="ga2213acc4e6b29595dcd41c3c01895fc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2213acc4e6b29595dcd41c3c01895fc6">&#9670;&#160;</a></span>get() <span class="overload">[8/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2213acc4e6b29595dcd41c3c01895fc6">&#9670;&#160;</a></span>get() <span class="overload">[8/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82561,7 +82618,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga3264c00309108ada04f0af10519ad602" name="ga3264c00309108ada04f0af10519ad602"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3264c00309108ada04f0af10519ad602">&#9670;&#160;</a></span>get() <span class="overload">[9/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3264c00309108ada04f0af10519ad602">&#9670;&#160;</a></span>get() <span class="overload">[9/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82588,7 +82645,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga16a379ad3fa3bd316038e6040a25d235" name="ga16a379ad3fa3bd316038e6040a25d235"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga16a379ad3fa3bd316038e6040a25d235">&#9670;&#160;</a></span>get() <span class="overload">[10/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga16a379ad3fa3bd316038e6040a25d235">&#9670;&#160;</a></span>get() <span class="overload">[10/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82615,7 +82672,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga5786f478398399366131858ce23f54da" name="ga5786f478398399366131858ce23f54da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5786f478398399366131858ce23f54da">&#9670;&#160;</a></span>get() <span class="overload">[11/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5786f478398399366131858ce23f54da">&#9670;&#160;</a></span>get() <span class="overload">[11/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82642,7 +82699,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga4850eada4a4839c907727781caeb634c" name="ga4850eada4a4839c907727781caeb634c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4850eada4a4839c907727781caeb634c">&#9670;&#160;</a></span>get() <span class="overload">[12/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4850eada4a4839c907727781caeb634c">&#9670;&#160;</a></span>get() <span class="overload">[12/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82669,7 +82726,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga4594d4e61f1e8cb98cdf84f86dcdc9bd" name="ga4594d4e61f1e8cb98cdf84f86dcdc9bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4594d4e61f1e8cb98cdf84f86dcdc9bd">&#9670;&#160;</a></span>get() <span class="overload">[13/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4594d4e61f1e8cb98cdf84f86dcdc9bd">&#9670;&#160;</a></span>get() <span class="overload">[13/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82699,35 +82756,8 @@ template&lt;typename C, typename D, D M&gt; </div>
 
 </div>
 </div>
-<a id="ga93db9b129791dd369d28ff29ca8e482b" name="ga93db9b129791dd369d28ff29ca8e482b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga93db9b129791dd369d28ff29ca8e482b">&#9670;&#160;</a></span>get() <span class="overload">[14/24]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::stringstream &amp; MR::UnifiedPythonStream::get </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRUnifiedPythonStream_8h.html">MRPython/MRUnifiedPythonStream.h</a>&gt;</code></p>
-
-</div>
-</div>
 <a id="gaa63ad726de4f8ed054254810d1e74b3e" name="gaa63ad726de4f8ed054254810d1e74b3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa63ad726de4f8ed054254810d1e74b3e">&#9670;&#160;</a></span>get() <span class="overload">[15/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa63ad726de4f8ed054254810d1e74b3e">&#9670;&#160;</a></span>get() <span class="overload">[14/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82760,7 +82790,7 @@ template&lt;typename C, typename D, D M&gt; </div>
 </div>
 </div>
 <a id="ga7dcd7da9538cdabf19f8ba7df37407d8" name="ga7dcd7da9538cdabf19f8ba7df37407d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7dcd7da9538cdabf19f8ba7df37407d8">&#9670;&#160;</a></span>get() <span class="overload">[16/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7dcd7da9538cdabf19f8ba7df37407d8">&#9670;&#160;</a></span>get() <span class="overload">[15/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82787,7 +82817,7 @@ template&lt;typename C, typename D, D M&gt; </div>
 </div>
 </div>
 <a id="ga0110b47db298ab6d8434751e3dcc795d" name="ga0110b47db298ab6d8434751e3dcc795d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0110b47db298ab6d8434751e3dcc795d">&#9670;&#160;</a></span>get() <span class="overload">[17/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0110b47db298ab6d8434751e3dcc795d">&#9670;&#160;</a></span>get() <span class="overload">[16/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82814,7 +82844,7 @@ template&lt;typename C, typename D, D M&gt; </div>
 </div>
 </div>
 <a id="gae73fe3f829a36a4c416f494dd52d6a23" name="gae73fe3f829a36a4c416f494dd52d6a23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae73fe3f829a36a4c416f494dd52d6a23">&#9670;&#160;</a></span>get() <span class="overload">[18/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae73fe3f829a36a4c416f494dd52d6a23">&#9670;&#160;</a></span>get() <span class="overload">[17/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82843,7 +82873,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gad5969e08db6cde585c897d89b6187f8e" name="gad5969e08db6cde585c897d89b6187f8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad5969e08db6cde585c897d89b6187f8e">&#9670;&#160;</a></span>get() <span class="overload">[19/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5969e08db6cde585c897d89b6187f8e">&#9670;&#160;</a></span>get() <span class="overload">[18/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82872,7 +82902,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga6ed32adcefd945e4693d6e9df9094510" name="ga6ed32adcefd945e4693d6e9df9094510"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6ed32adcefd945e4693d6e9df9094510">&#9670;&#160;</a></span>get() <span class="overload">[20/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6ed32adcefd945e4693d6e9df9094510">&#9670;&#160;</a></span>get() <span class="overload">[19/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82901,7 +82931,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7b206116497819980e1bc33f9a1f0774" name="ga7b206116497819980e1bc33f9a1f0774"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7b206116497819980e1bc33f9a1f0774">&#9670;&#160;</a></span>get() <span class="overload">[21/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7b206116497819980e1bc33f9a1f0774">&#9670;&#160;</a></span>get() <span class="overload">[20/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82930,7 +82960,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga51881d0d836b595d2b86615cbf6ef336" name="ga51881d0d836b595d2b86615cbf6ef336"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga51881d0d836b595d2b86615cbf6ef336">&#9670;&#160;</a></span>get() <span class="overload">[22/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga51881d0d836b595d2b86615cbf6ef336">&#9670;&#160;</a></span>get() <span class="overload">[21/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82961,7 +82991,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga831f5621f04fe15b891a1d7a2dc755d6" name="ga831f5621f04fe15b891a1d7a2dc755d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga831f5621f04fe15b891a1d7a2dc755d6">&#9670;&#160;</a></span>get() <span class="overload">[23/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga831f5621f04fe15b891a1d7a2dc755d6">&#9670;&#160;</a></span>get() <span class="overload">[22/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -82992,7 +83022,7 @@ template&lt;typename Accessor&gt; </div>
 </div>
 </div>
 <a id="ga4cb9593831740a31e6a6933644435799" name="ga4cb9593831740a31e6a6933644435799"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4cb9593831740a31e6a6933644435799">&#9670;&#160;</a></span>get() <span class="overload">[24/24]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4cb9593831740a31e6a6933644435799">&#9670;&#160;</a></span>get() <span class="overload">[23/23]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166566,7 +166596,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MREmbeddedPython_8h.html">MREmbeddedPython/MREmbeddedPython.h</a>&gt;</code></p>
-<p>Returns false on failure. If <span class="tt">onDoneAsync</span> is set, doesn't wait for the script to finish. Will call <span class="tt">onDoneAsync</span> asynchronously when done (from the Python interpreter thread). </p>
+<p>Returns false on failure. If <span class="tt">onDoneAsync</span> is set, doesn't wait for the script to finish. Will call <span class="tt">onDoneAsync</span> asynchronously when done (from the Python interpreter thread, without the GIL). </p>
 
 </div>
 </div>
@@ -184461,7 +184491,7 @@ template&lt;typename T, typename I&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MREmbeddedPython_8h.html">MREmbeddedPython/MREmbeddedPython.h</a>&gt;</code></p>
-<p>If you have used <span class="tt"><a class="el" href="#gaa5dec7481f55f7fac9478b8165e5c867">runScript()</a></span> at least once, you should call this before terminating the program. Otherwise you can get a crash in Python cleanup. </p>
+<p>If you have used <span class="tt"><a class="el" href="#gaa5dec7481f55f7fac9478b8165e5c867">runScript()</a></span> at least once, you should call this before terminating the program. Otherwise you can get a crash in Python cleanup. Waits for the non-daemon Python threads that scripts started. </p>
 
 </div>
 </div>
@@ -189419,6 +189449,35 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRRecentFilesStore_8h.html">MRViewer/MRRecentFilesStore.h</a>&gt;</code></p>
 <p>Saves filename on top of recently opened stack, if file is already in the storage put it on top </p>
+
+</div>
+</div>
+<a id="ga8bd5cd85a892ad4f173c021f3540d3ff" name="ga8bd5cd85a892ad4f173c021f3540d3ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8bd5cd85a892ad4f173c021f3540d3ff">&#9670;&#160;</a></span>str()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MR::UnifiedPythonStream::str </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRUnifiedPythonStream_8h.html">MRPython/MRUnifiedPythonStream.h</a>&gt;</code></p>
+
+<p>returns a copy of all text appended since the last <a class="el" href="#gaf63c5d978771fdaceb4123fe296a6912">clear()</a> </p>
 
 </div>
 </div>

@@ -141,10 +141,13 @@ $(function(){initNavTree('classMR_1_1UnifiedPythonStream.html','','classMR_1_1Un
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ga93db9b129791dd369d28ff29ca8e482b" id="r_ga93db9b129791dd369d28ff29ca8e482b"><td class="memItemLeft" align="right" valign="top">static std::stringstream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga93db9b129791dd369d28ff29ca8e482b">get</a> ()</td></tr>
+<tr class="memitem:ga7b46b8956ba49cb72c3403d526316593" id="r_ga7b46b8956ba49cb72c3403d526316593"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7b46b8956ba49cb72c3403d526316593">append</a> (std::string_view text)</td></tr>
+<tr class="memitem:ga8bd5cd85a892ad4f173c021f3540d3ff" id="r_ga8bd5cd85a892ad4f173c021f3540d3ff"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8bd5cd85a892ad4f173c021f3540d3ff">str</a> ()</td></tr>
+<tr class="memdesc:ga8bd5cd85a892ad4f173c021f3540d3ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a copy of all text appended since the last <a class="el" href="group__GeneralGroup.html#gaf63c5d978771fdaceb4123fe296a6912">clear()</a>  <br /></td></tr>
+<tr class="memitem:gaf63c5d978771fdaceb4123fe296a6912" id="r_gaf63c5d978771fdaceb4123fe296a6912"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf63c5d978771fdaceb4123fe296a6912">clear</a> ()</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>python output duplicated to this stream needed to be able to separate python output from all other logs </p>
+<div class="textblock"><p>python output duplicated to this stream needed to be able to separate python output from all other logs; thread-safe: Python threads may append while other threads read or clear it </p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>MRPython/<a class="el" href="MRUnifiedPythonStream_8h_source.html">MRUnifiedPythonStream.h</a></li>
 </ul>
