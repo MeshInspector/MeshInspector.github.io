@@ -1,5 +1,7 @@
 var NAVTREEINDEX187 =
 {
+"structmeshlib_1_1nesting_1_1BoxNestingOptions.html#a4a66681f90bdc06115c2e0800e029532":[9,5,1,0,0,8,1,20],
+"structmeshlib_1_1nesting_1_1BoxNestingOptions.html#a4dc7896a36a5618a8e5e37d1c38af910":[9,5,0,0,0,19,1,9],
 "structmeshlib_1_1nesting_1_1BoxNestingOptions.html#a4dc7896a36a5618a8e5e37d1c38af910":[9,5,1,0,0,8,1,9],
 "structmeshlib_1_1nesting_1_1BoxNestingOptions.html#a57f6bdfc932de09b03a40d8d3a23748e":[9,5,0,0,0,19,1,5],
 "structmeshlib_1_1nesting_1_1BoxNestingOptions.html#a57f6bdfc932de09b03a40d8d3a23748e":[9,5,1,0,0,8,1,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX187 =
 "structmeshlib_1_1object__save_1_1Settings.html#ab3049d07a7eaf11c82c659b01752543a":[9,5,1,0,0,9,0,0],
 "structmeshlib_1_1object__save_1_1Settings.html#ad5c18d9b60ed8e3fd4cfdd1311f0e62e":[9,5,0,0,0,20,0,4],
 "structmeshlib_1_1object__save_1_1Settings.html#ad5c18d9b60ed8e3fd4cfdd1311f0e62e":[9,5,1,0,0,9,0,4],
-"structmeshlib_1_1object__save_1_1Settings.html#aeb2d8d2089fbdc8221cff305d6c7fd70":[9,5,0,0,0,20,0,6],
-"structmeshlib_1_1object__save_1_1Settings.html#aeb2d8d2089fbdc8221cff305d6c7fd70":[9,5,1,0,0,9,0,6],
-"structmeshlib_1_1object__save_1_1Settings.html#af51c725ed9141cf432f233a4624a2bdd":[9,5,0,0,0,20,0,1]
+"structmeshlib_1_1object__save_1_1Settings.html#aeb2d8d2089fbdc8221cff305d6c7fd70":[9,5,0,0,0,20,0,6]
 };

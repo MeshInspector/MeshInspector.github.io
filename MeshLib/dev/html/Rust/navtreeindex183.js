@@ -1,5 +1,7 @@
 var NAVTREEINDEX183 =
 {
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a65a8d888f8c2d8de40e396e95edbec17":[9,5,1,0,0,1,3,27],
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a6e067f77d4c6f41003ed28e01840a024":[9,5,0,0,0,3,3,19],
 "structmeshlib_1_1features_1_1MeasureResult__Angle.html#a6e067f77d4c6f41003ed28e01840a024":[9,5,1,0,0,1,3,19],
 "structmeshlib_1_1features_1_1MeasureResult__Angle.html#a8867d980242ca139283398a04322ca09":[9,5,0,0,0,3,3,0],
 "structmeshlib_1_1features_1_1MeasureResult__Angle.html#a8867d980242ca139283398a04322ca09":[9,5,1,0,0,1,3,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX183 =
 "structmeshlib_1_1features_1_1traits_1_1Unary__MR__Features__Primitives__Plane.html#af6a9bab36a80711c7b60cfdfaa5c2922":[9,5,1,0,0,1,1,7,1],
 "structmeshlib_1_1features_1_1traits_1_1Unary__MR__Features__Primitives__Plane.html#af784c5f4ab12de84a4079abfa8885782":[9,5,0,0,0,3,1,7,0],
 "structmeshlib_1_1features_1_1traits_1_1Unary__MR__Features__Primitives__Plane.html#af784c5f4ab12de84a4079abfa8885782":[9,5,1,0,0,1,1,7,0],
-"structmeshlib_1_1features_1_1traits_1_1Unary__MR__Sphere3f.html":[9,5,0,0,0,3,1,8],
-"structmeshlib_1_1features_1_1traits_1_1Unary__MR__Sphere3f.html":[9,5,1,0,0,1,1,8],
-"structmeshlib_1_1features_1_1traits_1_1Unary__MR__Sphere3f.html#a1f8e6a9ed3c34fdf001708dcbe9e5eac":[9,5,0,0,0,3,1,8,1]
+"structmeshlib_1_1features_1_1traits_1_1Unary__MR__Sphere3f.html":[9,5,0,0,0,3,1,8]
 };

@@ -3216,9 +3216,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a50ddcdcbd9e611d0e71f6d4e5f27ede9" id="r_a50ddcdcbd9e611d0e71f6d4e5f27ede9"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50ddcdcbd9e611d0e71f6d4e5f27ede9">find_max_distance</a> (a:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, b:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, rigidB2A:Option&lt;&amp;<a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;, maxDistanceSq:Option&lt; f32 &gt;) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1MeshMeshDistanceResult.html">meshlib::MeshMeshDistanceResult</a> &gt;</td></tr>
 <tr class="memdesc:a50ddcdcbd9e611d0e71f6d4e5f27ede9"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the vertex of one mesh most distant from the other mesh (in both directions)  <br /></td></tr>
 <tr class="memitem:ab0c444e1b9d0ff9d1fc1d93095011b10" id="r_ab0c444e1b9d0ff9d1fc1d93095011b10"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0c444e1b9d0ff9d1fc1d93095011b10">find_max_distance_sq_one_way_mr_mesh_part</a> (a:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, b:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, rigidB2A:Option&lt;&amp;<a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;, maxDistanceSq:Option&lt; f32 &gt;) -&gt; f32</td></tr>
-<tr class="memdesc:ab0c444e1b9d0ff9d1fc1d93095011b10"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum of the squared distances from each B-mesh vertex to A-mesh  <br /></td></tr>
+<tr class="memdesc:ab0c444e1b9d0ff9d1fc1d93095011b10"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum of the squared distances from each B-mesh vertex to A-mesh; please see findHausdorffDistanceOneWay, which considers all points of B-mesh and not only its vertices  <br /></td></tr>
 <tr class="memitem:a7455faaba7ca54ab0269b7b931ac61b7" id="r_a7455faaba7ca54ab0269b7b931ac61b7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7455faaba7ca54ab0269b7b931ac61b7">find_max_distance_sq_mr_mesh_part</a> (a:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, b:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, rigidB2A:Option&lt;&amp;<a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;, maxDistanceSq:Option&lt; f32 &gt;) -&gt; f32</td></tr>
-<tr class="memdesc:a7455faaba7ca54ab0269b7b931ac61b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the squared Hausdorff distance between two meshes, that is the maximum of squared distances from each mesh vertex to the other mesh (in both directions)  <br /></td></tr>
+<tr class="memdesc:a7455faaba7ca54ab0269b7b931ac61b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum of squared distances from each mesh vertex to the other mesh (in both directions); please see findHausdorffDistance, which considers all points of the meshes and not only their vertices  <br /></td></tr>
+<tr class="memitem:af47e3a464f5bada09fae86963eb10de7" id="r_af47e3a464f5bada09fae86963eb10de7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af47e3a464f5bada09fae86963eb10de7">find_hausdorff_distance_one_way</a> (a:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, b:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, tolerance:f32, rigidB2A:Option&lt;&amp;<a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;, maxDistanceSq:Option&lt; f32 &gt;) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1MeshMeshDistanceResult.html">meshlib::MeshMeshDistanceResult</a> &gt;</td></tr>
+<tr class="memdesc:af47e3a464f5bada09fae86963eb10de7"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the point of B-mesh (inside its triangles as well, not only in vertices) most distant from A-mesh; the distance to it is the one-sided Hausdorff distance from B to A  <br /></td></tr>
+<tr class="memitem:aef281757172b06fbca27b9a75de3e670" id="r_aef281757172b06fbca27b9a75de3e670"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef281757172b06fbca27b9a75de3e670">find_hausdorff_distance</a> (a:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, b:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a>, tolerance:f32, rigidB2A:Option&lt;&amp;<a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;, maxDistanceSq:Option&lt; f32 &gt;) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1MeshMeshDistanceResult.html">meshlib::MeshMeshDistanceResult</a> &gt;</td></tr>
+<tr class="memdesc:aef281757172b06fbca27b9a75de3e670"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the point of one mesh (not only in vertices) most distant from the other mesh (in both directions); the distance to it is the Hausdorff distance between two meshes  <br /></td></tr>
 <tr class="memitem:a8c807f42d8f1508c2a5b78c675691209" id="r_a8c807f42d8f1508c2a5b78c675691209"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c807f42d8f1508c2a5b78c675691209">calc_combined_fill_metric</a> (mesh:&amp;<a class="el" href="structmeshlib_1_1Mesh.html">meshlib::Mesh</a>, filledRegion:&amp;<a class="el" href="structmeshlib_1_1FaceBitSet.html">meshlib::FaceBitSet</a>, metric:&amp;<a class="el" href="structmeshlib_1_1FillHoleMetric.html">meshlib::FillHoleMetric</a>) -&gt; f64</td></tr>
 <tr class="memitem:ac14b005999c89ef884daf4e68bc1dfeb" id="r_ac14b005999c89ef884daf4e68bc1dfeb"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac14b005999c89ef884daf4e68bc1dfeb">get_circumscribed_metric</a> (mesh:&amp;<a class="el" href="structmeshlib_1_1Mesh.html">meshlib::Mesh</a>) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1FillHoleMetric.html">meshlib::FillHoleMetric</a> &gt;</td></tr>
 <tr class="memitem:aca90444cabb1c9f2f6c10adcc35697e1" id="r_aca90444cabb1c9f2f6c10adcc35697e1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca90444cabb1c9f2f6c10adcc35697e1">get_plane_fill_metric</a> (mesh:&amp;<a class="el" href="structmeshlib_1_1Mesh.html">meshlib::Mesh</a>, e:meshlib::EdgeId) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1FillHoleMetric.html">meshlib::FillHoleMetric</a> &gt;</td></tr>
@@ -27061,6 +27065,104 @@ Trivial fill with smooth</div></div>
 
 </div>
 </div>
+<a id="aef281757172b06fbca27b9a75de3e670" name="aef281757172b06fbca27b9a75de3e670"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef281757172b06fbca27b9a75de3e670">&#9670;&#160;</a></span>find_hausdorff_distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::find_hausdorff_distance </td>
+          <td>(</td>
+          <td class="paramtype">a:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">b:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">tolerance:f32</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">rigidB2A:Option&lt;&amp;<a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">maxDistanceSq:Option&lt; f32 &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;) -&gt;  <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1MeshMeshDistanceResult.html">meshlib::MeshMeshDistanceResult</a> &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds the point of one mesh (not only in vertices) most distant from the other mesh (in both directions); the distance to it is the Hausdorff distance between two meshes </p>
+<dl class="section return"><dt>Returns</dt><dd>the found point in a or in b, its projection on the other mesh in the remaining field, and the squared distance between them </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tolerance</td><td>positive value, the returned distance (not squared) is never above the exact one, and is below it by at most this value (both up to rounding errors in floats); the smaller the value, the longer the computation; if it is not positive then only the vertices are considered </td></tr>
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq and one valid point only</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Generated from function <span class="tt">MR::findHausdorffDistance</span>.</p>
+<p>Calls <span class="tt">MR_findHausdorffDistance()</span>. </p>
+
+</div>
+</div>
+<a id="af47e3a464f5bada09fae86963eb10de7" name="af47e3a464f5bada09fae86963eb10de7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af47e3a464f5bada09fae86963eb10de7">&#9670;&#160;</a></span>find_hausdorff_distance_one_way()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::find_hausdorff_distance_one_way </td>
+          <td>(</td>
+          <td class="paramtype">a:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">b:&amp;<a class="el" href="structmeshlib_1_1MeshPart.html">meshlib::MeshPart</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">tolerance:f32</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">rigidB2A:Option&lt;&amp;<a class="el" href="structmeshlib_1_1AffineXf3f.html">meshlib::AffineXf3f</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">maxDistanceSq:Option&lt; f32 &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;) -&gt;  <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1MeshMeshDistanceResult.html">meshlib::MeshMeshDistanceResult</a> &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds the point of B-mesh (inside its triangles as well, not only in vertices) most distant from A-mesh; the distance to it is the one-sided Hausdorff distance from B to A </p>
+<p>the maximum can be reached inside a triangle of B, where several triangles of A are equally close, so the triangles of B are subdivided there till the given tolerance is reached; the time grows as 1/sqrt(tolerance) for smooth offset surfaces, but as 1/tolerance where the surfaces coincide and their triangulations differ: there the triangles of B crossing the edges of A are subdivided down to the tolerance </p><dl class="section return"><dt>Returns</dt><dd>the found point in b, its projection on A-mesh in a, and the squared distance between them </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tolerance</td><td>positive value, the returned distance (not squared) is never above the exact one, and is below it by at most this value (both up to rounding errors in floats); the smaller the value, the longer the computation; if it is not positive then only the vertices are considered </td></tr>
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq and no valid point in a</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Generated from function <span class="tt">MR::findHausdorffDistanceOneWay</span>.</p>
+<p>Calls <span class="tt">MR_findHausdorffDistanceOneWay()</span>. </p>
+
+</div>
+</div>
 <a id="af154eb9a114f4aa0dfdbd64ce9317e28" name="af154eb9a114f4aa0dfdbd64ce9317e28"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af154eb9a114f4aa0dfdbd64ce9317e28">&#9670;&#160;</a></span>find_hole_complicating_faces()</h2>
 
@@ -27426,7 +27528,7 @@ Trivial fill with smooth</div></div>
       </table>
 </div><div class="memdoc">
 
-<p>returns the squared Hausdorff distance between two meshes, that is the maximum of squared distances from each mesh vertex to the other mesh (in both directions) </p>
+<p>returns the maximum of squared distances from each mesh vertex to the other mesh (in both directions); please see findHausdorffDistance, which considers all points of the meshes and not only their vertices </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
@@ -27511,7 +27613,7 @@ Trivial fill with smooth</div></div>
       </table>
 </div><div class="memdoc">
 
-<p>returns the maximum of the squared distances from each B-mesh vertex to A-mesh </p>
+<p>returns the maximum of the squared distances from each B-mesh vertex to A-mesh; please see findHausdorffDistanceOneWay, which considers all points of B-mesh and not only its vertices </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>

@@ -2699,6 +2699,8 @@ var namespacemeshlib =
     [ "find_fpfh_matches", "namespacemeshlib.html#a650d27d6cd07b88b171fd998d5e68a58", null ],
     [ "find_grid_points_inside_polyline", "namespacemeshlib.html#ae6b00999132e2b991da9edd828e71747", null ],
     [ "find_half_space_points", "namespacemeshlib.html#aea82210cbb950decf9a9c5d02bcb1519", null ],
+    [ "find_hausdorff_distance", "namespacemeshlib.html#aef281757172b06fbca27b9a75de3e670", null ],
+    [ "find_hausdorff_distance_one_way", "namespacemeshlib.html#af47e3a464f5bada09fae86963eb10de7", null ],
     [ "find_hole_complicating_faces", "namespacemeshlib.html#af154eb9a114f4aa0dfdbd64ce9317e28", null ],
     [ "find_in_sphere_mr_mesh_point", "namespacemeshlib.html#a2a183349fdeeb44468e594098e5862c4", null ],
     [ "find_in_sphere_mr_vert_id", "namespacemeshlib.html#aacb284afc4454a17c9e86073b4f67feb", null ],

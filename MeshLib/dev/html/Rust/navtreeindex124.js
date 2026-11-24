@@ -1,5 +1,7 @@
 var NAVTREEINDEX124 =
 {
+"structmeshlib_1_1SceneSettings__StringType.html":[9,5,1,0,0,896],
+"structmeshlib_1_1SearchPathSettings.html":[9,5,0,0,0,910],
 "structmeshlib_1_1SearchPathSettings.html":[9,5,1,0,0,897],
 "structmeshlib_1_1SearchPathSettings.html#a103159ba5e1cd4885280822fa2bc11ea":[9,5,0,0,0,910,1],
 "structmeshlib_1_1SearchPathSettings.html#a103159ba5e1cd4885280822fa2bc11ea":[9,5,1,0,0,897,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX124 =
 "structmeshlib_1_1SetBitIteratorT__MR__TypedBitSet__MR__Id__MR__ICPElemtTag.html#af3bcf3768ab8d64ecffd803f89aff052":[9,5,1,0,0,911,1],
 "structmeshlib_1_1SetBitIteratorT__MR__TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html":[9,5,0,0,0,925],
 "structmeshlib_1_1SetBitIteratorT__MR__TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html":[9,5,1,0,0,912],
-"structmeshlib_1_1SetBitIteratorT__MR__TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a185185d55612907380bea5ed40126b7b":[9,5,0,0,0,925,2],
-"structmeshlib_1_1SetBitIteratorT__MR__TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a185185d55612907380bea5ed40126b7b":[9,5,1,0,0,912,2],
-"structmeshlib_1_1SetBitIteratorT__MR__TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a2c890169bb29f33129bb9178399ee999":[9,5,0,0,0,925,3]
+"structmeshlib_1_1SetBitIteratorT__MR__TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a185185d55612907380bea5ed40126b7b":[9,5,0,0,0,925,2]
 };

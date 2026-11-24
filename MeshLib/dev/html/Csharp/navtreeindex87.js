@@ -1,5 +1,7 @@
 var NAVTREEINDEX87 =
 {
+"classMR_1_1Const__TriIntersectResult.html#a2545c1f2fd7598fc31d984ef62dac8e4":[9,3,0,0,0,930,0],
+"classMR_1_1Const__TriIntersectResult.html#a60540c93be7cf49b010ac90d8143ec10":[9,3,0,0,0,930,3],
 "classMR_1_1Const__TriIntersectResult.html#a99dd0b23c2adaa6f792da71e54a2d550":[9,3,0,0,0,930,2],
 "classMR_1_1Const__TriIntersectResult.html#aca50427ee7d4ff1216eb280ac8727100":[9,3,0,0,0,930,6],
 "classMR_1_1Const__TriIntersectResult.html#acca0962c369d23a62be2ce0e73364fbc":[9,3,0,0,0,930,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX87 =
 "classMR_1_1Const__TrivialMetricToPenalty.html":[9,3,0,0,0,941],
 "classMR_1_1Const__TrivialMetricToPenalty.html#a3a2c35c77fd2a8ff3d054beec911e8cd":[9,3,0,0,0,941,1],
 "classMR_1_1Const__TrivialMetricToPenalty.html#a6c50625d12047e4047b87f2cbc7d5658":[9,3,0,0,0,941,5],
-"classMR_1_1Const__TrivialMetricToPenalty.html#a737c47912859231992c44966ebf3a034":[9,3,0,0,0,941,2],
-"classMR_1_1Const__TrivialMetricToPenalty.html#aa0c11ca6eac3016db2d7fc818daa4956":[9,3,0,0,0,941,0],
-"classMR_1_1Const__TrivialMetricToPenalty.html#ac1756b88445498af1ad6931baa543e80":[9,3,0,0,0,941,4]
+"classMR_1_1Const__TrivialMetricToPenalty.html#a737c47912859231992c44966ebf3a034":[9,3,0,0,0,941,2]
 };

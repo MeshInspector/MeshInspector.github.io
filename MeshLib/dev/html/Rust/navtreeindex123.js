@@ -1,5 +1,7 @@
 var NAVTREEINDEX123 =
 {
+"structmeshlib_1_1RingIterator__MR__NextEdgeSameLeft.html#a502c1185addafac1579bbbd780b16b82":[9,5,1,0,0,884,3],
+"structmeshlib_1_1RingIterator__MR__NextEdgeSameLeft.html#a5140ddfbddd305d70cdd1b1bdf748c17":[9,5,0,0,0,897,1],
 "structmeshlib_1_1RingIterator__MR__NextEdgeSameLeft.html#a5140ddfbddd305d70cdd1b1bdf748c17":[9,5,1,0,0,884,1],
 "structmeshlib_1_1RingIterator__MR__NextEdgeSameLeft.html#a6953d62c0d37c75c076e183f4e8973ec":[9,5,0,0,0,897,2],
 "structmeshlib_1_1RingIterator__MR__NextEdgeSameLeft.html#a6953d62c0d37c75c076e183f4e8973ec":[9,5,1,0,0,884,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX123 =
 "structmeshlib_1_1SceneSettings__FloatType.html":[9,5,1,0,0,894],
 "structmeshlib_1_1SceneSettings__ShadingMode.html":[9,5,0,0,0,908],
 "structmeshlib_1_1SceneSettings__ShadingMode.html":[9,5,1,0,0,895],
-"structmeshlib_1_1SceneSettings__StringType.html":[9,5,0,0,0,909],
-"structmeshlib_1_1SceneSettings__StringType.html":[9,5,1,0,0,896],
-"structmeshlib_1_1SearchPathSettings.html":[9,5,0,0,0,910]
+"structmeshlib_1_1SceneSettings__StringType.html":[9,5,0,0,0,909]
 };

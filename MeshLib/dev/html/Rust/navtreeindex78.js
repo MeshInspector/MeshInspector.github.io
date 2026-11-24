@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"structmeshlib_1_1MeshAttributesToUpdate.html#abf8bd4f0178b915e72593fc679ca3ae1":[9,5,0,0,0,602,6],
+"structmeshlib_1_1MeshAttributesToUpdate.html#abf8bd4f0178b915e72593fc679ca3ae1":[9,5,1,0,0,589,6],
 "structmeshlib_1_1MeshAttributesToUpdate.html#ac36e6df6621efe3d7af3e4633cc61324":[9,5,0,0,0,602,11],
 "structmeshlib_1_1MeshAttributesToUpdate.html#ac36e6df6621efe3d7af3e4633cc61324":[9,5,1,0,0,589,11],
 "structmeshlib_1_1MeshAttributesToUpdate.html#ae5580690016c4895c9571f791d23d934":[9,5,0,0,0,602,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "structmeshlib_1_1MeshMeshDistanceResult.html":[9,5,0,0,0,610],
 "structmeshlib_1_1MeshMeshDistanceResult.html":[9,5,1,0,0,597],
 "structmeshlib_1_1MeshMeshDistanceResult.html#a05da1f6baed5af8bb4f32a76c8c7d0b2":[9,5,0,0,0,610,4],
-"structmeshlib_1_1MeshMeshDistanceResult.html#a05da1f6baed5af8bb4f32a76c8c7d0b2":[9,5,1,0,0,597,4],
-"structmeshlib_1_1MeshMeshDistanceResult.html#a0fa7a3f0e723c29d3f19aea70906750d":[9,5,0,0,0,610,5],
-"structmeshlib_1_1MeshMeshDistanceResult.html#a0fa7a3f0e723c29d3f19aea70906750d":[9,5,1,0,0,597,5]
+"structmeshlib_1_1MeshMeshDistanceResult.html#a05da1f6baed5af8bb4f32a76c8c7d0b2":[9,5,1,0,0,597,4]
 };

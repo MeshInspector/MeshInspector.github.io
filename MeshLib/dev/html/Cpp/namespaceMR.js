@@ -2514,6 +2514,8 @@ var namespaceMR =
     [ "findFPFHMatches", "group__PointCloudGroup.html#gabcec15ad6215343b3e74c4a213f6e8a1", null ],
     [ "findGridPointsInsidePolyline", "group__AABBTreeGroup.html#ga2702a14aa9e44b83e9a85d4d1aea1136", null ],
     [ "findHalfSpacePoints", "group__GeneralGroup.html#ga947a6bad93f0eb336d355ab0497b7dbd", null ],
+    [ "findHausdorffDistance", "group__AABBTreeGroup.html#ga720e6390f3e5c61726f157cf92bffe88", null ],
+    [ "findHausdorffDistanceOneWay", "group__AABBTreeGroup.html#ga9eb4ad2bf7a4c3756b82b4c0500800f6", null ],
     [ "findHoleComplicatingFaces", "group__MeshFixerGroup.html#gafd82e42a7f55fb987e177185b62155a8", null ],
     [ "findIncidentFaces", "group__GeneralGroup.html#gac8a3360d0255d400d87d4dd71dbbbbe9", null ],
     [ "findInnerShellFacesWithSplits", "group__GeneralGroup.html#ga366d5994c143bce6e6ba0d65f060cb1c", null ],

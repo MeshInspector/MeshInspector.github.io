@@ -12,6 +12,8 @@ var MRMeshMeshDistance_8h =
     [ "MR::findCollisionStatus", "group__AABBTreeGroup.html#ga38b71b662d44f03abb5df7e3d21dba69", null ],
     [ "MR::findCollisionStatus", "group__AABBTreeGroup.html#ga31f767d0a19b8491ab1df673478ea044", null ],
     [ "MR::findDistance", "group__AABBTreeGroup.html#ga34f61c1aafa08f324c2dee292bf3f326", null ],
+    [ "MR::findHausdorffDistance", "group__AABBTreeGroup.html#ga720e6390f3e5c61726f157cf92bffe88", null ],
+    [ "MR::findHausdorffDistanceOneWay", "group__AABBTreeGroup.html#ga9eb4ad2bf7a4c3756b82b4c0500800f6", null ],
     [ "MR::findMaxDistance", "group__AABBTreeGroup.html#gac1418cea3cfae0498b893084af69f48d", null ],
     [ "MR::findMaxDistanceOneWay", "group__AABBTreeGroup.html#ga84b76aa3a6c0b2a0e72d57e41ed8fbf8", null ],
     [ "MR::findMaxDistanceSq", "group__AABBTreeGroup.html#ga45e61b0f865d15d2172777953f29b4b1", null ],

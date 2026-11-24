@@ -15,6 +15,8 @@ var MRMeshMeshDistance_8h =
     [ "MR_findCollisionStatus_3", "MRMeshMeshDistance_8h.html#a867cd37c7bd2ce7b00746d9f0143e890", null ],
     [ "MR_findCollisionStatus_5", "MRMeshMeshDistance_8h.html#aa60c6f198d7cd7932aa76e42e38f3d8b", null ],
     [ "MR_findDistance", "MRMeshMeshDistance_8h.html#a0ddc3e091c81df61792f1be0d3efc9ac", null ],
+    [ "MR_findHausdorffDistance", "MRMeshMeshDistance_8h.html#a1a1f8bd7b36972a1be6d9d5e065ed4b5", null ],
+    [ "MR_findHausdorffDistanceOneWay", "MRMeshMeshDistance_8h.html#a7c04b5936542c6d970efae86375a3ed7", null ],
     [ "MR_findMaxDistance", "MRMeshMeshDistance_8h.html#a959f02d6207556e3519c13cef9f8e607", null ],
     [ "MR_findMaxDistanceOneWay", "MRMeshMeshDistance_8h.html#abee9d142c3e0884b7642a62ac6c6a142", null ],
     [ "MR_findMaxDistanceSq_MR_MeshPart", "MRMeshMeshDistance_8h.html#aca0a1e41eae8e5341359074904b1d5d8", null ],

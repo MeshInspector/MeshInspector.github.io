@@ -1,5 +1,7 @@
 var NAVTREEINDEX142 =
 {
+"structmeshlib_1_1UndirectedEdgeBitSet.html#ab19626969fc7c983c9c49b821177fdf3":[9,5,1,0,0,1534,53],
+"structmeshlib_1_1UndirectedEdgeBitSet.html#ab37bf29a934c8f8412c2739f0c6a8300":[9,5,0,0,0,1547,56],
 "structmeshlib_1_1UndirectedEdgeBitSet.html#ab37bf29a934c8f8412c2739f0c6a8300":[9,5,1,0,0,1534,56],
 "structmeshlib_1_1UndirectedEdgeBitSet.html#ab4120c35b708871cf1c78dc9cecd10bf":[9,5,0,0,0,1547,40],
 "structmeshlib_1_1UndirectedEdgeBitSet.html#ab4120c35b708871cf1c78dc9cecd10bf":[9,5,1,0,0,1534,40],
@@ -247,7 +249,5 @@ var NAVTREEINDEX142 =
 "structmeshlib_1_1UndirectedEdgeScalars.html#a0235aedcac95118149855eb0e50bb870":[9,5,1,0,0,1540,13],
 "structmeshlib_1_1UndirectedEdgeScalars.html#a1e476cf304a2bdc6af8519d44f6be1ae":[9,5,0,0,0,1553,28],
 "structmeshlib_1_1UndirectedEdgeScalars.html#a1e476cf304a2bdc6af8519d44f6be1ae":[9,5,1,0,0,1540,28],
-"structmeshlib_1_1UndirectedEdgeScalars.html#a20bee2e8a226ae6eaa3ec710db6f711e":[9,5,0,0,0,1553,16],
-"structmeshlib_1_1UndirectedEdgeScalars.html#a20bee2e8a226ae6eaa3ec710db6f711e":[9,5,1,0,0,1540,16],
-"structmeshlib_1_1UndirectedEdgeScalars.html#a27b199833ae694e43d710e545080d56b":[9,5,0,0,0,1553,32]
+"structmeshlib_1_1UndirectedEdgeScalars.html#a20bee2e8a226ae6eaa3ec710db6f711e":[9,5,0,0,0,1553,16]
 };

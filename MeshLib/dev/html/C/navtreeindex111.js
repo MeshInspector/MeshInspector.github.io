@@ -1,5 +1,7 @@
 var NAVTREEINDEX111 =
 {
+"MRTriMath_8h.html#a570667232977e0bb52c28932fd6d8dd7":[9,2,2,0,0,0,0,1,364,54],
+"MRTriMath_8h.html#a57efeb28b81621f27f07eb945fc86dcb":[9,2,2,0,0,0,0,1,364,69],
 "MRTriMath_8h.html#a5f748ad11e7ae245a0f1916d02148e2f":[9,2,2,0,0,0,0,1,364,62],
 "MRTriMath_8h.html#a63b3e46723de0d733ef15e85fa655580":[9,2,2,0,0,0,0,1,364,13],
 "MRTriMath_8h.html#a6453793dfc210a5637d7b823a5c07f18":[9,2,2,0,0,0,0,1,364,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX111 =
 "MRTunnelDetector_8h.html#ade0057fd1b12813a7651829e2387be0d":[9,2,2,0,0,0,0,1,369,1],
 "MRTunnelDetector_8h.html#ae94f5caa99936d852a9cb5f03759764f":[9,2,2,0,0,0,0,1,369,41],
 "MRTunnelDetector_8h.html#aebfd690d3f181284e378027375c1a6b6":[9,2,2,0,0,0,0,1,369,18],
-"MRTunnelDetector_8h.html#af2d9b46cf3a9a996a6b4477bb986c0a6":[9,2,2,0,0,0,0,1,369,14],
-"MRTunnelDetector_8h.html#afd3fc575adea56c6e315220126442739":[9,2,2,0,0,0,0,1,369,33],
-"MRTunnelDetector_8h.html#afffe41a239a31d5a79940ddfaef7fedd":[9,2,2,0,0,0,0,1,369,15]
+"MRTunnelDetector_8h.html#af2d9b46cf3a9a996a6b4477bb986c0a6":[9,2,2,0,0,0,0,1,369,14]
 };

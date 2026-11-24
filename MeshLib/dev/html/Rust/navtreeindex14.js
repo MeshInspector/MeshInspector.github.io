@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"namespacemeshlib_1_1mesh__components.html#a627eac6e734cf995cf358f3ecb3cf6c0":[9,5,0,0,0,16,52],
+"namespacemeshlib_1_1mesh__components.html#a66b937b0cceacc72d1daf0075a36d08b":[9,5,0,0,0,16,10],
 "namespacemeshlib_1_1mesh__components.html#a67518b8dcf5a9a629ba341bbb9586e93":[9,5,0,0,0,16,29],
 "namespacemeshlib_1_1mesh__components.html#a68ce1ff55e4c896946466afede4be499":[9,5,0,0,0,16,51],
 "namespacemeshlib_1_1mesh__components.html#a6e9bf66f26a19d30d58356c3bf24b635":[9,5,0,0,0,16,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "namespacemeshlib_1_1voxels__load.html#a4bf24ef61b812052db531eaf88d1b020":[9,5,0,0,0,34,21],
 "namespacemeshlib_1_1voxels__load.html#a5219f22d3fb9bfc4e25c794df9b2497d":[9,5,0,0,0,34,33],
 "namespacemeshlib_1_1voxels__load.html#a6b083e1a59aa41a0726ec89103c5be4d":[9,5,0,0,0,34,30],
-"namespacemeshlib_1_1voxels__load.html#a80e5ab28ca5f988b08a5365f530ce195":[9,5,0,0,0,34,29],
-"namespacemeshlib_1_1voxels__load.html#a8ed1b268bdb49a1be39ddec4ed8945aa":[9,5,0,0,0,34,9],
-"namespacemeshlib_1_1voxels__load.html#a9711a57c65a6d982cbabc06e32be03b3":[9,5,0,0,0,34,22]
+"namespacemeshlib_1_1voxels__load.html#a80e5ab28ca5f988b08a5365f530ce195":[9,5,0,0,0,34,29]
 };

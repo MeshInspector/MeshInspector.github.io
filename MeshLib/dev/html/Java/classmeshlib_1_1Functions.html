@@ -1988,9 +1988,13 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0469e92ad901a9db602b367f68a68ec3" id="r_a0469e92ad901a9db602b367f68a68ec3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1MeshMeshDistanceResult.html">meshlib.MeshMeshDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0469e92ad901a9db602b367f68a68ec3">findMaxDistance</a> (<a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> a, <a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> b, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> rigidB2A, java.lang.Float maxDistanceSq)</td></tr>
 <tr class="memdesc:a0469e92ad901a9db602b367f68a68ec3"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the vertex of one mesh most distant from the other mesh (in both directions)  <br /></td></tr>
 <tr class="memitem:a84af7622c7018fbe94d60aeffe6eb52f" id="r_a84af7622c7018fbe94d60aeffe6eb52f"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84af7622c7018fbe94d60aeffe6eb52f">findMaxDistanceSqOneWay</a> (<a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> a, <a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> b, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> rigidB2A, java.lang.Float maxDistanceSq)</td></tr>
-<tr class="memdesc:a84af7622c7018fbe94d60aeffe6eb52f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum of the squared distances from each B-mesh vertex to A-mesh  <br /></td></tr>
+<tr class="memdesc:a84af7622c7018fbe94d60aeffe6eb52f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum of the squared distances from each B-mesh vertex to A-mesh; please see <a class="el" href="#a615b5ffa20e94777bbf8226c7edd382d">findHausdorffDistanceOneWay</a>, which considers all points of B-mesh and not only its vertices  <br /></td></tr>
 <tr class="memitem:ae944ba8a4af9b2501aa8603d0982cb36" id="r_ae944ba8a4af9b2501aa8603d0982cb36"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae944ba8a4af9b2501aa8603d0982cb36">findMaxDistanceSq</a> (<a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> a, <a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> b, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> rigidB2A, java.lang.Float maxDistanceSq)</td></tr>
-<tr class="memdesc:ae944ba8a4af9b2501aa8603d0982cb36"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the squared Hausdorff distance between two meshes, that is the maximum of squared distances from each mesh vertex to the other mesh (in both directions)  <br /></td></tr>
+<tr class="memdesc:ae944ba8a4af9b2501aa8603d0982cb36"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum of squared distances from each mesh vertex to the other mesh (in both directions); please see <a class="el" href="#ab1a3565e4e3c61cfa073c877bd8dcd8c">findHausdorffDistance</a>, which considers all points of the meshes and not only their vertices  <br /></td></tr>
+<tr class="memitem:a615b5ffa20e94777bbf8226c7edd382d" id="r_a615b5ffa20e94777bbf8226c7edd382d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1MeshMeshDistanceResult.html">meshlib.MeshMeshDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a615b5ffa20e94777bbf8226c7edd382d">findHausdorffDistanceOneWay</a> (<a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> a, <a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> b, float tolerance, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> rigidB2A, java.lang.Float maxDistanceSq)</td></tr>
+<tr class="memdesc:a615b5ffa20e94777bbf8226c7edd382d"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the point of B-mesh (inside its triangles as well, not only in vertices) most distant from A-mesh; the distance to it is the one-sided Hausdorff distance from B to A  <br /></td></tr>
+<tr class="memitem:ab1a3565e4e3c61cfa073c877bd8dcd8c" id="r_ab1a3565e4e3c61cfa073c877bd8dcd8c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1MeshMeshDistanceResult.html">meshlib.MeshMeshDistanceResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1a3565e4e3c61cfa073c877bd8dcd8c">findHausdorffDistance</a> (<a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> a, <a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a> b, float tolerance, <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a> rigidB2A, java.lang.Float maxDistanceSq)</td></tr>
+<tr class="memdesc:ab1a3565e4e3c61cfa073c877bd8dcd8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the point of one mesh (not only in vertices) most distant from the other mesh (in both directions); the distance to it is the Hausdorff distance between two meshes  <br /></td></tr>
 <tr class="memitem:a26e8c4583c01a6174d542c816ca1b9e2" id="r_a26e8c4583c01a6174d542c816ca1b9e2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1FaceNormals.html">meshlib.FaceNormals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26e8c4583c01a6174d542c816ca1b9e2">computePerFaceNormals</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> mesh)</td></tr>
 <tr class="memitem:abac703fdf3ad29c74c42238e1e422c1b" id="r_abac703fdf3ad29c74c42238e1e422c1b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1FaceNormals.html">meshlib.FaceNormals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abac703fdf3ad29c74c42238e1e422c1b">computePerFaceNormals</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> topology, <a class="el" href="classmeshlib_1_1VertCoords.html">meshlib.VertCoords</a> points)</td></tr>
 <tr class="memitem:a2c27d287dab688dba5dcdd92bb6a65e0" id="r_a2c27d287dab688dba5dcdd92bb6a65e0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c27d287dab688dba5dcdd92bb6a65e0">computePerFaceNormals4</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> mesh, <a class="el" href="classmeshlib_1_1Vector4f.html">meshlib.Vector4f</a> faceNormals, long size)</td></tr>
@@ -32331,6 +32335,120 @@ Trivial fill with smooth</div></div>
 
 </div>
 </div>
+<a id="ab1a3565e4e3c61cfa073c877bd8dcd8c" name="ab1a3565e4e3c61cfa073c877bd8dcd8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1a3565e4e3c61cfa073c877bd8dcd8c">&#9670;&#160;</a></span>findHausdorffDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmeshlib_1_1MeshMeshDistanceResult.html">meshlib.MeshMeshDistanceResult</a> meshlib.Functions.findHausdorffDistance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>tolerance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">java.lang.Float</td>          <td class="paramname"><span class="paramname"><em>maxDistanceSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>finds the point of one mesh (not only in vertices) most distant from the other mesh (in both directions); the distance to it is the Hausdorff distance between two meshes </p>
+<dl class="section return"><dt>Returns</dt><dd>the found point in a or in b, its projection on the other mesh in the remaining field, and the squared distance between them </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tolerance</td><td>positive value, the returned distance (not squared) is never above the exact one, and is below it by at most this value (both up to rounding errors in floats); the smaller the value, the longer the computation; if it is not positive then only the vertices are considered </td></tr>
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq and one valid point only</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Generated from function <span class="tt">MR::findHausdorffDistance</span>.</p>
+<p>Calls <span class="tt">MR_findHausdorffDistance()</span>. </p>
+
+</div>
+</div>
+<a id="a615b5ffa20e94777bbf8226c7edd382d" name="a615b5ffa20e94777bbf8226c7edd382d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a615b5ffa20e94777bbf8226c7edd382d">&#9670;&#160;</a></span>findHausdorffDistanceOneWay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmeshlib_1_1MeshMeshDistanceResult.html">meshlib.MeshMeshDistanceResult</a> meshlib.Functions.findHausdorffDistanceOneWay </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1MeshPart.html">meshlib.MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>tolerance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">java.lang.Float</td>          <td class="paramname"><span class="paramname"><em>maxDistanceSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>finds the point of B-mesh (inside its triangles as well, not only in vertices) most distant from A-mesh; the distance to it is the one-sided Hausdorff distance from B to A </p>
+<p>the maximum can be reached inside a triangle of B, where several triangles of A are equally close, so the triangles of B are subdivided there till the given tolerance is reached; the time grows as 1/sqrt(tolerance) for smooth offset surfaces, but as 1/tolerance where the surfaces coincide and their triangulations differ: there the triangles of B crossing the edges of A are subdivided down to the tolerance </p><dl class="section return"><dt>Returns</dt><dd>the found point in b, its projection on A-mesh in a, and the squared distance between them </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tolerance</td><td>positive value, the returned distance (not squared) is never above the exact one, and is below it by at most this value (both up to rounding errors in floats); the smaller the value, the longer the computation; if it is not positive then only the vertices are considered </td></tr>
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq and no valid point in a</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Generated from function <span class="tt">MR::findHausdorffDistanceOneWay</span>.</p>
+<p>Calls <span class="tt">MR_findHausdorffDistanceOneWay()</span>. </p>
+
+</div>
+</div>
 <a id="a004a646bd2ee524b8505201a0fe01e92" name="a004a646bd2ee524b8505201a0fe01e92"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a004a646bd2ee524b8505201a0fe01e92">&#9670;&#160;</a></span>findHoleComplicatingFaces()</h2>
 
@@ -32792,7 +32910,7 @@ Trivial fill with smooth</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>returns the squared Hausdorff distance between two meshes, that is the maximum of squared distances from each mesh vertex to the other mesh (in both directions) </p>
+<p>returns the maximum of squared distances from each mesh vertex to the other mesh (in both directions); please see <a class="el" href="#ab1a3565e4e3c61cfa073c877bd8dcd8c">findHausdorffDistance</a>, which considers all points of the meshes and not only their vertices </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
@@ -32893,7 +33011,7 @@ Trivial fill with smooth</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>returns the maximum of the squared distances from each B-mesh vertex to A-mesh </p>
+<p>returns the maximum of the squared distances from each B-mesh vertex to A-mesh; please see <a class="el" href="#a615b5ffa20e94777bbf8226c7edd382d">findHausdorffDistanceOneWay</a>, which considers all points of B-mesh and not only its vertices </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
@@ -50354,8 +50472,8 @@ All new faces should be parallel to given direction It is measured in squared le
 <div class="line">    meshParams.texturePerFace = &amp;texturePerFace;</div>
 <div class="line">subs.onEdgeSplit = <a class="code hl_function" href="#aa382a636f7160ba96b64a8f8c637e570">meshOnEdgeSplitAttribute</a>( *obj_-&gt;varMesh(), meshParams );</div>
 <div class="line"><a class="code hl_function" href="#af5dddfa988210f3dc5340ef6cf87dad8">subdivideMesh</a>( *obj_-&gt;varMesh(), subs );</div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:46161</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:46046</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:46236</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:46121</div></div>
 <div class="ttc" id="aclassmeshlib_1_1MeshAttributesToUpdate_html"><div class="ttname"><a href="classmeshlib_1_1MeshAttributesToUpdate.html">meshlib.MeshAttributesToUpdate</a></div><div class="ttdef"><b>Definition</b> MeshAttributesToUpdate.java:11</div></div>
 </div><!-- fragment --><p>Generated from function <span class="tt">MR::meshOnEdgeSplitAttribute</span>.</p>
 <p>Calls <span class="tt">MR_meshOnEdgeSplitAttribute()</span>. </p>

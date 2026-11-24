@@ -3375,6 +3375,8 @@ var classMR =
     [ "findFPFHMatches", "classMR.html#aad3f7c0c6345b68a807f5fd9fe840147", null ],
     [ "findGridPointsInsidePolyline", "classMR.html#a122851184065b72e8bbf3e7cdc368459", null ],
     [ "findHalfSpacePoints", "classMR.html#ae44ec97ad6e13dfea392e02f962c1cb9", null ],
+    [ "findHausdorffDistance", "classMR.html#aa1598bcfc50de56269074aad092f7c92", null ],
+    [ "findHausdorffDistanceOneWay", "classMR.html#a0a471d0a670ed039bdf1c83f883df574", null ],
     [ "findHoleComplicatingFaces", "classMR.html#affd314e05844616b16c9fcca2dd95f65", null ],
     [ "findInnerShellFacesWithSplits", "classMR.html#aa8e0156a33a192e52b36125a60dae1d3", null ],
     [ "findInnerShellVerts", "classMR.html#ada7892802b6d4db1ad8adb72070f513b", null ],

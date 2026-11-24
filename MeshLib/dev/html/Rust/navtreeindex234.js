@@ -1,5 +1,7 @@
 var NAVTREEINDEX234 =
 {
+"structmeshlib_1_1std__vector__MR__WeightedShell__ParametersRegions__Region.html#ae3c541445df91d556e0ba910ddb49f2b":[9,5,1,0,0,1416,13],
+"structmeshlib_1_1std__vector__MR__WeightedShell__ParametersRegions__Region.html#afc826328594a4fd776e9d5e082e68b97":[9,5,0,0,0,1429,9],
 "structmeshlib_1_1std__vector__MR__WeightedShell__ParametersRegions__Region.html#afc826328594a4fd776e9d5e082e68b97":[9,5,1,0,0,1416,9],
 "structmeshlib_1_1std__vector__MR__WeightedVertex.html":[9,5,0,0,0,1430],
 "structmeshlib_1_1std__vector__MR__WeightedVertex.html":[9,5,1,0,0,1417],
@@ -247,7 +249,5 @@ var NAVTREEINDEX234 =
 "structmeshlib_1_1std__vector__double__MR__Allocator__double.html#aebfa12a79208596771666d8910080daa":[9,5,1,0,0,1278,16],
 "structmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html":[9,5,0,0,0,1293],
 "structmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html":[9,5,1,0,0,1280],
-"structmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a1695be3197f9dd304acf2b56c6cc4a49":[9,5,0,0,0,1293,8],
-"structmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a1695be3197f9dd304acf2b56c6cc4a49":[9,5,1,0,0,1280,8],
-"structmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a17bb96856fbaa38de715b866eba84919":[9,5,0,0,0,1293,17]
+"structmeshlib_1_1std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string.html#a1695be3197f9dd304acf2b56c6cc4a49":[9,5,0,0,0,1293,8]
 };

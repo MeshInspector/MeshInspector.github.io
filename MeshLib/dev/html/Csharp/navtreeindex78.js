@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"classMR_1_1Const__RectIndexer.html#ad90b89acea7e050f9e4cbe596c6b5cf4":[9,3,0,0,0,823,0],
+"classMR_1_1Const__RectIndexer.html#ae647ed717117bb9380e31d68cddf5f43":[9,3,0,0,0,823,15],
 "classMR_1_1Const__RectIndexer.html#aed45be26daca21af98e411f6129d6f4d":[9,3,0,0,0,823,10],
 "classMR_1_1Const__ReduceTotalAngleParams.html":[9,3,0,0,0,824],
 "classMR_1_1Const__ReduceTotalAngleParams.html#a01e8b8a72f4a224f1f9713f14b466c50":[9,3,0,0,0,824,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "classMR_1_1Const__RigidXfRansacParams.html#a99568e32d83cc69328f8615434ec89ee":[9,3,0,0,0,835,12],
 "classMR_1_1Const__RigidXfRansacParams.html#a9b6cdb56da86e2755a42b8f8ef4d833d":[9,3,0,0,0,835,15],
 "classMR_1_1Const__RigidXfRansacParams.html#aba6075b8816ce4a626d705a84be9a7c7":[9,3,0,0,0,835,7],
-"classMR_1_1Const__RigidXfRansacParams.html#ac231af1fa54b9008f80e877c5d9699c9":[9,3,0,0,0,835,23],
-"classMR_1_1Const__RigidXfRansacParams.html#ac6a12bd15ceb78c4d1a2d8bf2797e578":[9,3,0,0,0,835,17],
-"classMR_1_1Const__RigidXfRansacParams.html#accc3adb4fd0aad6ede3a34ecefb4cb55":[9,3,0,0,0,835,9]
+"classMR_1_1Const__RigidXfRansacParams.html#ac231af1fa54b9008f80e877c5d9699c9":[9,3,0,0,0,835,23]
 };

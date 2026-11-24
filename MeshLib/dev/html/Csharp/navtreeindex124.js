@@ -1,5 +1,7 @@
 var NAVTREEINDEX124 =
 {
+"classMR_1_1NoDefInit__MRVertId.html#a9dc0bc03e2c261fe4d5dd54977245159":[9,3,0,0,0,1518,8],
+"classMR_1_1NoDefInit__MRVertId.html#ace784d62f874a402fd8d7d9fdc2ff23c":[9,3,0,0,0,1518,4],
 "classMR_1_1NoDefInit__MRVertId.html#acef982bfc6d42dd958c8509298ff87bf":[9,3,0,0,0,1518,1],
 "classMR_1_1NoDefInit__MRVoxelId.html":[9,3,0,0,0,1519],
 "classMR_1_1NoDefInit__MRVoxelId.html#a30990e1e866f28b7b761e5d48e60a0c9":[9,3,0,0,0,1519,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX124 =
 "classMR_1_1ObjectChildrenHolder.html#aa27e9013f8b949ca89b341d78bafa2d2":[9,3,0,0,0,1529,1],
 "classMR_1_1ObjectChildrenHolder.html#acfbf4f853ed5222360d4d5e2f8a90a43":[9,3,0,0,0,1529,3],
 "classMR_1_1ObjectChildrenHolder.html#ad437c99119ab7c094c761412853fc697":[9,3,0,0,0,1529,2],
-"classMR_1_1ObjectComparableWithReference.html":[9,3,0,0,0,1530],
-"classMR_1_1ObjectComparableWithReference.html#ab636526dd61d966bdbfd9c4e4bcff757":[9,3,0,0,0,1530,2],
-"classMR_1_1ObjectComparableWithReference.html#acb5b2cc2b40ef0cde4a470fe8e8e7962":[9,3,0,0,0,1530,0]
+"classMR_1_1ObjectComparableWithReference.html":[9,3,0,0,0,1530]
 };

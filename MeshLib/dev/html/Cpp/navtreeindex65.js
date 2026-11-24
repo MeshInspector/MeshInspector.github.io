@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1CompressZipSettings.html":[9,0,0,2,18,0],
+"structMR_1_1CompressZipSettings.html#a081a0d03fa07baae69e080a91f1aa61d":[9,0,0,2,18,0,3],
 "structMR_1_1CompressZipSettings.html#a0fff83332c3dd033ccd3f5bb5dbb8a5d":[9,0,0,2,18,0,2],
 "structMR_1_1CompressZipSettings.html#a8e2307f6f06661b56c44492f4ca4a54a":[9,0,0,2,18,0,1],
 "structMR_1_1CompressZipSettings.html#a9796435e6a3ca7ed636ac9c0c3121a42":[9,0,0,2,18,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1Features_1_1Traits_1_1Unary.html":[9,0,0,19,255],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html":[9,0,0,19,257],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html":[9,0,0,19,258],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html":[9,0,0,19,256],
-"structMR_1_1FileDialogSignals.html":[9,0,0,19,611],
-"structMR_1_1FileDialog_1_1Parameters.html":[9,0,0,19,613]
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html":[9,0,0,19,256]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX33 =
 {
+"classMR_1_1Const__BMap__MRVoxelId__MRVoxelId.html#a37ebd1b468b46b2db299103be9c67799":[9,3,0,0,0,288,1],
+"classMR_1_1Const__BMap__MRVoxelId__MRVoxelId.html#a44189c02bd2a77dd3e338902450443be":[9,3,0,0,0,288,2],
 "classMR_1_1Const__BMap__MRVoxelId__MRVoxelId.html#a5ed5dfbaf7ee1895d4f18aecdee27a04":[9,3,0,0,0,288,6],
 "classMR_1_1Const__BMap__MRVoxelId__MRVoxelId.html#a63dbf3d037b836a2db534d1fcb23e720":[9,3,0,0,0,288,0],
 "classMR_1_1Const__BMap__MRVoxelId__MRVoxelId.html#a96111c0ffa14d1715bd771713b2778fb":[9,3,0,0,0,288,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX33 =
 "classMR_1_1Const__BendTextAlongCurveParams.html#ad0079987a425fbb7b54ef098d9961144":[9,3,0,0,0,272,12],
 "classMR_1_1Const__BendTextAlongCurveParams.html#af4befa471b3ef1cc10fc4cd30ebd68ef":[9,3,0,0,0,272,3],
 "classMR_1_1Const__BestFitParabolad.html":[9,3,0,0,0,273],
-"classMR_1_1Const__BestFitParabolad.html#a24a19095c7f882444864320324507c5e":[9,3,0,0,0,273,0],
-"classMR_1_1Const__BestFitParabolad.html#a67a0396fbd4a41976a263dfa7d61f21c":[9,3,0,0,0,273,1],
-"classMR_1_1Const__BestFitParabolad.html#a6a938d80ddce239d7288dc4eb8535d9e":[9,3,0,0,0,273,4]
+"classMR_1_1Const__BestFitParabolad.html#a24a19095c7f882444864320324507c5e":[9,3,0,0,0,273,0]
 };

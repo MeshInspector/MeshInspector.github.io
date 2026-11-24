@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"std__pair__const__MR__TextureId__MR__TextureId_8rs.html":[9,5,2,0,0,1,3,265],
+"std__pair__const__MR__UndirectedEdgeId__MR__EdgeId_8rs.html":[9,5,2,0,0,1,3,267],
 "std__pair__const__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8rs.html":[9,5,2,0,0,1,3,268],
 "std__pair__const__MR__UndirectedEdgeId__int_8rs.html":[9,5,2,0,0,1,3,266],
 "std__pair__const__MR__VertId__MR__FlowAggregator__Flows_8rs.html":[9,5,2,0,0,1,3,270],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "std__vector__MR__UndirectedEdgeBitSet_8rs.html":[9,5,2,0,0,1,3,536],
 "std__vector__MR__UndirectedEdgeId_8rs.html":[9,5,2,0,0,1,3,537],
 "std__vector__MR__UndirectedEdgeId__MR__Allocator__MR__UndirectedEdgeId_8rs.html":[9,5,2,0,0,1,3,538],
-"std__vector__MR__UndirectedEdgeUndirectedEdge_8rs.html":[9,5,2,0,0,1,3,539],
-"std__vector__MR__UnorientedTriangle_8rs.html":[9,5,2,0,0,1,3,540],
-"std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8rs.html":[9,5,2,0,0,1,3,541]
+"std__vector__MR__UndirectedEdgeUndirectedEdge_8rs.html":[9,5,2,0,0,1,3,539]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX145 =
 {
+"structmeshlib_1_1VdbVolume.html#ae23f886f507a25c40dd0d1a27b96d1a4":[9,5,1,0,0,1559,1],
+"structmeshlib_1_1VdbVolume.html#ae844a688013a6e1773897445a4572f1a":[9,5,0,0,0,1572,23],
 "structmeshlib_1_1VdbVolume.html#ae844a688013a6e1773897445a4572f1a":[9,5,1,0,0,1559,23],
 "structmeshlib_1_1VdbVolume.html#aeb7a205e0bae02d776d35e9ca353eb10":[9,5,0,0,0,1572,29],
 "structmeshlib_1_1VdbVolume.html#aeb7a205e0bae02d776d35e9ca353eb10":[9,5,1,0,0,1559,29],
@@ -247,7 +249,5 @@ var NAVTREEINDEX145 =
 "structmeshlib_1_1Vector3i64.html#ad8e6746954db3290bbd0a713b53c8d8b":[9,5,1,0,0,1570,7],
 "structmeshlib_1_1Vector4__unsigned__char.html":[9,5,0,0,0,1584],
 "structmeshlib_1_1Vector4__unsigned__char.html":[9,5,1,0,0,1571],
-"structmeshlib_1_1Vector4__unsigned__char.html#a0c27b8de3331f9494db7f13ac02d71b3":[9,5,0,0,0,1584,11],
-"structmeshlib_1_1Vector4__unsigned__char.html#a0c27b8de3331f9494db7f13ac02d71b3":[9,5,1,0,0,1571,11],
-"structmeshlib_1_1Vector4__unsigned__char.html#a14edc0994067cdb7bef19b7f7eee2c0c":[9,5,0,0,0,1584,15]
+"structmeshlib_1_1Vector4__unsigned__char.html#a0c27b8de3331f9494db7f13ac02d71b3":[9,5,0,0,0,1584,11]
 };

@@ -3969,6 +3969,8 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.findFPFHMatches", "namespacemrmeshpy.html#a372b1ebb5f22c13e1cc55f615f704d05", null ],
     [ "mrmeshpy.findGridPointsInsidePolyline", "namespacemrmeshpy.html#a5a803717143ec52725c7dbdf27779d78", null ],
     [ "mrmeshpy.findHalfSpacePoints", "namespacemrmeshpy.html#a41c6a7dda4af8b136f2829b9675f99ea", null ],
+    [ "mrmeshpy.findHausdorffDistance", "namespacemrmeshpy.html#a47cf10839ae07e540a9ba4e344a34dbb", null ],
+    [ "mrmeshpy.findHausdorffDistanceOneWay", "namespacemrmeshpy.html#a9fc64f6015505491debbcf2c8bfe60f3", null ],
     [ "mrmeshpy.findHoleComplicatingFaces", "namespacemrmeshpy.html#ae362d7eaa62c269366a9446d9af8a117", null ],
     [ "mrmeshpy.findInnerShellFacesWithSplits", "namespacemrmeshpy.html#ae9538abc0ff66f0dab07c92c4f5ea928", null ],
     [ "mrmeshpy.findInnerShellVerts", "namespacemrmeshpy.html#a05cbd95ef885bdeb3a6f09ad9053006d", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"namespacespdlog.html#ace143432a1dd3e3ddde8949f014f90da":[9,0,1,0,2,1],
+"namespacespdlog_1_1sinks.html":[9,0,1,0,2,0],
 "pages.html":[],
 "structImGui_1_1CustomStatePluginWindowParameters.html":[9,0,1,0,0,0],
 "structImGui_1_1CustomStatePluginWindowParameters.html":[9,0,2,0,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1Color.html":[9,0,0,19,183],
 "structMR_1_1ColorMapAggregator_1_1PartialColorMap.html":[9,0,0,19,185],
 "structMR_1_1CommandLoop_1_1StartTimeout.html":[9,0,0,19,601],
-"structMR_1_1CompensateRadiusParams.html":[9,0,0,19,502],
-"structMR_1_1CompressZipSettings.html":[9,0,0,2,18,0],
-"structMR_1_1CompressZipSettings.html#a081a0d03fa07baae69e080a91f1aa61d":[9,0,0,2,18,0,3]
+"structMR_1_1CompensateRadiusParams.html":[9,0,0,19,502]
 };

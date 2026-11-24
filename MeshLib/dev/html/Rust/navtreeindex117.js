@@ -1,5 +1,7 @@
 var NAVTREEINDEX117 =
 {
+"structmeshlib_1_1Polynomial__double__6.html#ac16e6756cd9b569e1d8de33abb647d00":[9,5,1,0,0,829,2],
+"structmeshlib_1_1Polynomial__float__0.html":[9,5,0,0,0,843],
 "structmeshlib_1_1Polynomial__float__0.html":[9,5,1,0,0,830],
 "structmeshlib_1_1Polynomial__float__0.html#a5d0fb016605f0d760e8e89b749bdebba":[9,5,0,0,0,843,2],
 "structmeshlib_1_1Polynomial__float__0.html#a5d0fb016605f0d760e8e89b749bdebba":[9,5,1,0,0,830,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX117 =
 "structmeshlib_1_1QuadraticForm2d.html#a432676d547d0643e32afad4992020cee":[9,5,1,0,0,850,12],
 "structmeshlib_1_1QuadraticForm2d.html#a4ff37891a1f20ea74d68cba371c8c6b4":[9,5,0,0,0,863,5],
 "structmeshlib_1_1QuadraticForm2d.html#a4ff37891a1f20ea74d68cba371c8c6b4":[9,5,1,0,0,850,5],
-"structmeshlib_1_1QuadraticForm2d.html#a548966ff0884ad88019ad009bf3ddc17":[9,5,0,0,0,863,9],
-"structmeshlib_1_1QuadraticForm2d.html#a548966ff0884ad88019ad009bf3ddc17":[9,5,1,0,0,850,9],
-"structmeshlib_1_1QuadraticForm2d.html#a6d76819e0682a2da1346eafccefd7208":[9,5,0,0,0,863,1]
+"structmeshlib_1_1QuadraticForm2d.html#a548966ff0884ad88019ad009bf3ddc17":[9,5,0,0,0,863,9]
 };

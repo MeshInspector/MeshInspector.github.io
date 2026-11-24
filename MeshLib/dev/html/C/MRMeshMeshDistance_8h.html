@@ -220,9 +220,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a959f02d6207556e3519c13cef9f8e607" id="r_a959f02d6207556e3519c13cef9f8e607"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aaaef17266d43a3f23b258d9769d940f7">MR_MeshMeshDistanceResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a959f02d6207556e3519c13cef9f8e607">MR_findMaxDistance</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const float *maxDistanceSq)</td></tr>
 <tr class="memdesc:a959f02d6207556e3519c13cef9f8e607"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the vertex of one mesh most distant from the other mesh (in both directions)  <br /></td></tr>
 <tr class="memitem:aa37f1c0b217c29426a2ec7de035b6d30" id="r_aa37f1c0b217c29426a2ec7de035b6d30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa37f1c0b217c29426a2ec7de035b6d30">MR_findMaxDistanceSqOneWay_MR_MeshPart</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const float *maxDistanceSq)</td></tr>
-<tr class="memdesc:aa37f1c0b217c29426a2ec7de035b6d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum of the squared distances from each B-mesh vertex to A-mesh  <br /></td></tr>
+<tr class="memdesc:aa37f1c0b217c29426a2ec7de035b6d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum of the squared distances from each B-mesh vertex to A-mesh; please see findHausdorffDistanceOneWay, which considers all points of B-mesh and not only its vertices  <br /></td></tr>
 <tr class="memitem:aca0a1e41eae8e5341359074904b1d5d8" id="r_aca0a1e41eae8e5341359074904b1d5d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca0a1e41eae8e5341359074904b1d5d8">MR_findMaxDistanceSq_MR_MeshPart</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const float *maxDistanceSq)</td></tr>
-<tr class="memdesc:aca0a1e41eae8e5341359074904b1d5d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the squared Hausdorff distance between two meshes, that is the maximum of squared distances from each mesh vertex to the other mesh (in both directions)  <br /></td></tr>
+<tr class="memdesc:aca0a1e41eae8e5341359074904b1d5d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the maximum of squared distances from each mesh vertex to the other mesh (in both directions); please see findHausdorffDistance, which considers all points of the meshes and not only their vertices  <br /></td></tr>
+<tr class="memitem:a7c04b5936542c6d970efae86375a3ed7" id="r_a7c04b5936542c6d970efae86375a3ed7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aaaef17266d43a3f23b258d9769d940f7">MR_MeshMeshDistanceResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c04b5936542c6d970efae86375a3ed7">MR_findHausdorffDistanceOneWay</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, float tolerance, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const float *maxDistanceSq)</td></tr>
+<tr class="memdesc:a7c04b5936542c6d970efae86375a3ed7"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the point of B-mesh (inside its triangles as well, not only in vertices) most distant from A-mesh; the distance to it is the one-sided Hausdorff distance from B to A  <br /></td></tr>
+<tr class="memitem:a1a1f8bd7b36972a1be6d9d5e065ed4b5" id="r_a1a1f8bd7b36972a1be6d9d5e065ed4b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aaaef17266d43a3f23b258d9769d940f7">MR_MeshMeshDistanceResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a1f8bd7b36972a1be6d9d5e065ed4b5">MR_findHausdorffDistance</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, float tolerance, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const float *maxDistanceSq)</td></tr>
+<tr class="memdesc:a1a1f8bd7b36972a1be6d9d5e065ed4b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the point of one mesh (not only in vertices) most distant from the other mesh (in both directions); the distance to it is the Hausdorff distance between two meshes  <br /></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a874c63df4bd4f8e56227d175e1ccc9f9" name="a874c63df4bd4f8e56227d175e1ccc9f9"></a>
@@ -415,6 +419,100 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a1a1f8bd7b36972a1be6d9d5e065ed4b5" name="a1a1f8bd7b36972a1be6d9d5e065ed4b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a1f8bd7b36972a1be6d9d5e065ed4b5">&#9670;&#160;</a></span>MR_findHausdorffDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aaaef17266d43a3f23b258d9769d940f7">MR_MeshMeshDistanceResult</a> * MR_findHausdorffDistance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>tolerance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>maxDistanceSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds the point of one mesh (not only in vertices) most distant from the other mesh (in both directions); the distance to it is the Hausdorff distance between two meshes </p>
+<dl class="section return"><dt>Returns</dt><dd>the found point in a or in b, its projection on the other mesh in the remaining field, and the squared distance between them </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tolerance</td><td>positive value, the returned distance (not squared) is never above the exact one, and is below it by at most this value (both up to rounding errors in floats); the smaller the value, the longer the computation; if it is not positive then only the vertices are considered </td></tr>
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq and one valid point only Generated from function <span class="tt">MR::findHausdorffDistance</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. Parameter <span class="tt">maxDistanceSq</span> has a default argument: <span class="tt">3.40282347e38f</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a422e88c7c82f6ef314e000f5dbde8335" title="Destroys a heap-allocated instance of MR_MeshMeshDistanceResult. Does nothing if the pointer is null.">MR_MeshMeshDistanceResult_Destroy()</a></span> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7c04b5936542c6d970efae86375a3ed7" name="a7c04b5936542c6d970efae86375a3ed7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c04b5936542c6d970efae86375a3ed7">&#9670;&#160;</a></span>MR_findHausdorffDistanceOneWay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aaaef17266d43a3f23b258d9769d940f7">MR_MeshMeshDistanceResult</a> * MR_findHausdorffDistanceOneWay </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>tolerance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>maxDistanceSq</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>finds the point of B-mesh (inside its triangles as well, not only in vertices) most distant from A-mesh; the distance to it is the one-sided Hausdorff distance from B to A </p>
+<p>the maximum can be reached inside a triangle of B, where several triangles of A are equally close, so the triangles of B are subdivided there till the given tolerance is reached; the time grows as 1/sqrt(tolerance) for smooth offset surfaces, but as 1/tolerance where the surfaces coincide and their triangulations differ: there the triangles of B crossing the edges of A are subdivided down to the tolerance </p><dl class="section return"><dt>Returns</dt><dd>the found point in b, its projection on A-mesh in a, and the squared distance between them </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tolerance</td><td>positive value, the returned distance (not squared) is never above the exact one, and is below it by at most this value (both up to rounding errors in floats); the smaller the value, the longer the computation; if it is not positive then only the vertices are considered </td></tr>
+    <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
+    <tr><td class="paramname">maxDistanceSq</td><td>upper limit on the positive distance in question, if the real distance is larger than the function exists returning maxDistanceSq and no valid point in a Generated from function <span class="tt">MR::findHausdorffDistanceOneWay</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. Parameter <span class="tt">maxDistanceSq</span> has a default argument: <span class="tt">3.40282347e38f</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a422e88c7c82f6ef314e000f5dbde8335" title="Destroys a heap-allocated instance of MR_MeshMeshDistanceResult. Does nothing if the pointer is null.">MR_MeshMeshDistanceResult_Destroy()</a></span> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a959f02d6207556e3519c13cef9f8e607" name="a959f02d6207556e3519c13cef9f8e607"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a959f02d6207556e3519c13cef9f8e607">&#9670;&#160;</a></span>MR_findMaxDistance()</h2>
 
@@ -526,7 +624,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the squared Hausdorff distance between two meshes, that is the maximum of squared distances from each mesh vertex to the other mesh (in both directions) </p>
+<p>returns the maximum of squared distances from each mesh vertex to the other mesh (in both directions); please see findHausdorffDistance, which considers all points of the meshes and not only their vertices </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
@@ -567,7 +665,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns the maximum of the squared distances from each B-mesh vertex to A-mesh </p>
+<p>returns the maximum of the squared distances from each B-mesh vertex to A-mesh; please see findHausdorffDistanceOneWay, which considers all points of B-mesh and not only its vertices </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX137 =
 {
+"classMR_1_1SetNew.html#afce5f6bb6bbbd0222b6aea6e7714a5d8":[9,3,0,0,0,1710,1],
+"classMR_1_1SharpOffsetParameters.html":[9,3,0,0,0,1712],
 "classMR_1_1SharpOffsetParameters.html#a16b4be7dd9c816fd68d8620c6969e8ff":[9,3,0,0,0,1712,19],
 "classMR_1_1SharpOffsetParameters.html#a1af7672a926ffad368a89be4d7aa92cb":[9,3,0,0,0,1712,15],
 "classMR_1_1SharpOffsetParameters.html#a1cde748ed14c0f964c26bd7e2eabfefe":[9,3,0,0,0,1712,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX137 =
 "classMR_1_1Sphere3f.html#a222e0d40ae0ba44d9c5e7f3684050d1e":[9,3,0,0,0,1733,4],
 "classMR_1_1Sphere3f.html#a44cc0cb4af6b628ffbb6d04261d497c6":[9,3,0,0,0,1733,5],
 "classMR_1_1Sphere3f.html#a6be0782ff03a15977f401ff2c9bf1bcc":[9,3,0,0,0,1733,1],
-"classMR_1_1Sphere3f.html#a86c447b4a5923982693213bc71648e20":[9,3,0,0,0,1733,3],
-"classMR_1_1Sphere3f.html#aa973f0a19479c9b9a2ed4d80664a5264":[9,3,0,0,0,1733,0],
-"classMR_1_1Sphere3f.html#ab44ea9ce5045109563f8b205d9d0c743":[9,3,0,0,0,1733,6]
+"classMR_1_1Sphere3f.html#a86c447b4a5923982693213bc71648e20":[9,3,0,0,0,1733,3]
 };
