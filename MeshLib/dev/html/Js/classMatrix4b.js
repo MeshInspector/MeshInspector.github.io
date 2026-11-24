@@ -1,0 +1,27 @@
+var classMatrix4b =
+[
+    [ "Matrix4b", "classMatrix4b.html#a2cd286b806ac71982ad2439ca142873f", null ],
+    [ "Matrix4b", "classMatrix4b.html#a08e18b908553f8edec53af40f7e3284d", null ],
+    [ "Matrix4b", "classMatrix4b.html#a92a363aca382650c351ead7089def4a8", null ],
+    [ "call", "classMatrix4b.html#a764a555a30ed060a24a69275ad98a615", null ],
+    [ "call_mut", "classMatrix4b.html#a6bc08b5d2df1a320ff4dacd1d2710e08", null ],
+    [ "col", "classMatrix4b.html#a2afa11cfd95f8489c0056ed7b69e7daf", null ],
+    [ "data", "classMatrix4b.html#a2790ad5a1f1ef1ded321104ff945212c", null ],
+    [ "data_2", "classMatrix4b.html#a975a98b0d303b2d0631d3a64b93aa0d4", null ],
+    [ "det", "classMatrix4b.html#a320a20235c415a72f86c0bc8ff5c7ba8", null ],
+    [ "getRotation", "classMatrix4b.html#a072102b323dd28b076b2fd1b6a1e0344", null ],
+    [ "getTranslation", "classMatrix4b.html#a69b6e1e98fc1282e6ebffc85cf18d281", null ],
+    [ "index", "classMatrix4b.html#aa03fc72d0e78d32259652d8110d06554", null ],
+    [ "index_mut", "classMatrix4b.html#a2cbfabb46c773c0f96fa3b9120153dde", null ],
+    [ "norm", "classMatrix4b.html#a08972afc776e2eaed214e21a280aea11", null ],
+    [ "normSq", "classMatrix4b.html#aad8c1e7ee1bf26c00c32efd66f28c565", null ],
+    [ "setRotation", "classMatrix4b.html#ae39faa28c999dfba996554e94b204616", null ],
+    [ "setTranslation", "classMatrix4b.html#a2c5350611c0ca1da77c4c8be4f629a35", null ],
+    [ "submatrix3", "classMatrix4b.html#a555193a438e4652c375167e939b42c10", null ],
+    [ "trace", "classMatrix4b.html#adeef399ac30e8e97008a790e186c03b2", null ],
+    [ "transposed", "classMatrix4b.html#aa51a4deb8acffaeae89753369400d91b", null ],
+    [ "w", "classMatrix4b.html#a060d719b1afa9cabcdf2ce212e6c9734", null ],
+    [ "x", "classMatrix4b.html#acb71fe04659082d1dad517102ab8d1fa", null ],
+    [ "y", "classMatrix4b.html#ae1680c42f1ffe7235cd83f4d366e4eff", null ],
+    [ "z", "classMatrix4b.html#ab66c1fe8d6652cbf9145f4ef7711fcac", null ]
+];

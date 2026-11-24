@@ -1,5 +1,26 @@
 var classGeneralOffsetParameters =
 [
     [ "GeneralOffsetParameters", "classGeneralOffsetParameters.html#a24d8afb159784c04ea098821c80cfe99", null ],
-    [ "mode", "classGeneralOffsetParameters.html#aaf1c095212696914094b5e573264cafc", null ]
+    [ "GeneralOffsetParameters", "classGeneralOffsetParameters.html#ab43b553909287c815d60b6a09b75523f", null ],
+    [ "assignFromAnother", "classGeneralOffsetParameters.html#ab6b47141439bc97b2280d5f81b000e8e", null ],
+    [ "upcastToBaseShellParameters", "classGeneralOffsetParameters.html#a3e97f7c5260dc5225dfe15cdee049f22", null ],
+    [ "upcastToOffsetParameters", "classGeneralOffsetParameters.html#a197b167dcfd2a53baceef1723a64d0c4", null ],
+    [ "upcastToSharpOffsetParameters", "classGeneralOffsetParameters.html#a62658e98713f4bb7fb7878d1f8b8e266", null ],
+    [ "callBack", "classGeneralOffsetParameters.html#a38df4438b2a562b4a42443aea78a558e", null ],
+    [ "closeHolesInHoleWindingNumber", "classGeneralOffsetParameters.html#a8483a59efdd02d11671123b320b8ac5a", null ],
+    [ "fwn", "classGeneralOffsetParameters.html#a1d06ba5a7d868fdec3f2185a79b071e5", null ],
+    [ "maxDeletedComponentFaces", "classGeneralOffsetParameters.html#a5b42bdfe0aa5c399ae97ce7c1076e683", null ],
+    [ "maxNewRank2VertDev", "classGeneralOffsetParameters.html#a373cce1466b210d131bfa27769a28a9b", null ],
+    [ "maxNewRank3VertDev", "classGeneralOffsetParameters.html#a3f8f1aaba52b208acfa588e2c7fb87c0", null ],
+    [ "maxOldVertPosCorrection", "classGeneralOffsetParameters.html#a4cc269c2276b78de291107c6e03b845e", null ],
+    [ "memoryEfficient", "classGeneralOffsetParameters.html#a06784f60acf242c856ac0032759c8841", null ],
+    [ "minNewVertDev", "classGeneralOffsetParameters.html#a52734a9eccbe539fcfb179766c488db7", null ],
+    [ "mode", "classGeneralOffsetParameters.html#aaf1c095212696914094b5e573264cafc", null ],
+    [ "outSharpEdges", "classGeneralOffsetParameters.html#ae0a8b92dcbe52fe4fb16b3d28b44e416", null ],
+    [ "outVoxelPerFace", "classGeneralOffsetParameters.html#a1ec1e14ee61ad70bcd113edc8f60fcd4", null ],
+    [ "signDetectionMode", "classGeneralOffsetParameters.html#a38963982024716776495369a10aa996f", null ],
+    [ "voxelClamp", "classGeneralOffsetParameters.html#a72078261f587f3d246e6328ddad28c31", null ],
+    [ "voxelSize", "classGeneralOffsetParameters.html#a840ca5c2b194c13794068c91df60613b", null ],
+    [ "windingNumberBeta", "classGeneralOffsetParameters.html#a7661144f8d9baa27ef2ec0182e4d9170", null ],
+    [ "windingNumberThreshold", "classGeneralOffsetParameters.html#abd6e8267866449a775c2ec1aab3ea503", null ]
 ];

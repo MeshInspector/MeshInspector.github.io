@@ -361,30 +361,25 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="ttc" id="anamespaceMR_1_1MeshSave_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshSave.html">MR::MeshSave</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import * as ml from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
+<div class="line">await ml.init();</div>
 <div class="line"> </div>
 <div class="line">// Load meshes</div>
 <div class="line">using meshFloating = ml.MeshLoad.fromAnySupportedFormat(&#39;meshA.stl&#39;);</div>
 <div class="line">using meshFixed = ml.MeshLoad.fromAnySupportedFormat(&#39;meshB.stl&#39;);</div>
 <div class="line"> </div>
 <div class="line">// Prepare ICP parameters</div>
-<div class="line">using box = meshFixed.computeBoundingBox();</div>
-<div class="line">const diagonal = box.diagonal();</div>
+<div class="line">const diagonal = meshFixed.getBoundingBox().diagonal();</div>
 <div class="line">const icpSamplingVoxelSize = diagonal * 0.01; // To sample points from object</div>
 <div class="line">using icpParams = new ml.ICPProperties();</div>
 <div class="line">icpParams.distThresholdSq = (diagonal * 0.1) ** 2; // Use point pairs with maximum distance specified</div>
-<div class="line">icpParams.exitVal = diagonal * 0.003; // Stop when distance reached</div>
+<div class="line">icpParams.exitVal = diagonal * 0.003; // Stop when this distance reached</div>
 <div class="line"> </div>
-<div class="line">// Pair each mesh with an initial transformation (identity here). The JS ICP takes</div>
-<div class="line">// MeshOrPointsXf; the source meshes back these wrappers, and the reverse-order disposal</div>
-<div class="line">// of `using` guarantees the meshes outlive them.</div>
-<div class="line">using floatingMop = ml.MeshOrPoints.fromMesh(meshFloating);</div>
-<div class="line">using fixedMop = ml.MeshOrPoints.fromMesh(meshFixed);</div>
-<div class="line">using identityXf = new ml.AffineXf3f();</div>
-<div class="line">using floating = new ml.MeshOrPointsXf(floatingMop, identityXf);</div>
-<div class="line">using fixed = new ml.MeshOrPointsXf(fixedMop, identityXf);</div>
+<div class="line">// Pair each mesh with its initial transformation (identity here). The wrappers reference the</div>
+<div class="line">// meshes, which are declared first so they outlive the wrappers.</div>
+<div class="line">using floating = new ml.MeshOrPointsXf(new ml.MeshOrPoints(meshFloating), new ml.AffineXf3f());</div>
+<div class="line">using fixed = new ml.MeshOrPointsXf(new ml.MeshOrPoints(meshFixed), new ml.AffineXf3f());</div>
 <div class="line"> </div>
 <div class="line">// Calculate transformation</div>
 <div class="line">using icp = new ml.ICP(floating, fixed, icpSamplingVoxelSize);</div>

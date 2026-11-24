@@ -536,49 +536,44 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_ga36a3edb3148be58b6f020a1df9723df8"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga36a3edb3148be58b6f020a1df9723df8">MR::EdgePathsBuilderT::CandidateVert::v</a></div><div class="ttdeci">VertId v</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import * as ml from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
+<div class="line">await ml.init();</div>
 <div class="line"> </div>
 <div class="line">// the global registration can be applied to meshes and point clouds;</div>
 <div class="line">// to keep the sample simple, we work with point clouds only</div>
 <div class="line">const inputPaths = [&#39;cloud1.ply&#39;, &#39;cloud2.ply&#39;, &#39;cloud3.ply&#39;];</div>
 <div class="line">const outputPath = &#39;registered.ply&#39;;</div>
 <div class="line"> </div>
-<div class="line">// a DisposableStack frees the per-input WASM handles (there is a variable number of them) at the</div>
+<div class="line">// a DisposableStack frees the per-input handles (there is a variable number of them) at the</div>
 <div class="line">// end of the scope, in reverse order, the same way `using` frees a single handle</div>
 <div class="line">using stack = new DisposableStack();</div>
 <div class="line"> </div>
 <div class="line">// as ICP and MultiwayICP accept both meshes and point clouds, each input is wrapped in a</div>
-<div class="line">// MeshOrPointsXf; the wrapper references the source cloud, so the clouds must outlive it (the</div>
-<div class="line">// stack, declared first, is disposed last)</div>
-<div class="line">using identityXf = new ml.AffineXf3f();</div>
+<div class="line">// MeshOrPointsXf (the object plus its initial transformation); the wrapper references the</div>
+<div class="line">// source cloud, so the clouds must outlive it (the stack, declared first, is disposed last)</div>
 <div class="line">const inputs = [];</div>
-<div class="line">const objects = [];</div>
+<div class="line">using objects = new ml.Vector_MR_MeshOrPointsXf_MR_ObjId(); // ICPObjects</div>
 <div class="line">let maxVolume = -Infinity;</div>
 <div class="line">let baseDiagonal = 0;</div>
 <div class="line">for (const path of inputPaths) {</div>
 <div class="line">  const cloud = stack.use(ml.PointsLoad.fromAnySupportedFormat(path));</div>
 <div class="line">  inputs.push(cloud);</div>
-<div class="line"> </div>
-<div class="line">  using bbox = cloud.computeBoundingBox();</div>
-<div class="line">  const volume = bbox.volume();</div>
-<div class="line">  if (volume &gt; maxVolume) {</div>
-<div class="line">    maxVolume = volume;</div>
+<div class="line">  const bbox = cloud.computeBoundingBox();</div>
+<div class="line">  if (bbox.volume() &gt; maxVolume) {</div>
+<div class="line">    maxVolume = bbox.volume();</div>
 <div class="line">    baseDiagonal = bbox.diagonal();</div>
 <div class="line">  }</div>
-<div class="line"> </div>
-<div class="line">  const mop = stack.use(ml.MeshOrPoints.fromPoints(cloud));</div>
-<div class="line">  objects.push(stack.use(new ml.MeshOrPointsXf(mop, identityXf)));</div>
+<div class="line">  objects.push_back(new ml.MeshOrPointsXf(new ml.MeshOrPoints(cloud), new ml.AffineXf3f()));</div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line">// set the sampling voxel size relative to the largest input</div>
+<div class="line">// you can set various parameters for the global registration; see the documentation for more info</div>
 <div class="line">using samplingParams = new ml.MultiwayICPSamplingParameters();</div>
+<div class="line">// set the sampling voxel size relative to the largest input</div>
 <div class="line">samplingParams.samplingVoxelSize = baseDiagonal * 0.03;</div>
 <div class="line"> </div>
 <div class="line">using icp = new ml.MultiwayICP(objects, samplingParams);</div>
-<div class="line">using icpProps = new ml.ICPProperties();</div>
-<div class="line">icp.setParams(icpProps);</div>
+<div class="line">icp.setParams(new ml.ICPProperties());</div>
 <div class="line"> </div>
 <div class="line">// gather statistics</div>
 <div class="line">icp.updateAllPointPairs();</div>
@@ -586,18 +581,17 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">console.log(`Active point pairs: ${icp.getNumActivePairs()}`);</div>
 <div class="line"> </div>
 <div class="line">// one transformation per input object</div>
-<div class="line">const xfs = icp.calculateTransformations();</div>
+<div class="line">console.log(&#39;Calculating transformations...&#39;);</div>
+<div class="line">using xfs = icp.calculateTransformations();</div>
 <div class="line"> </div>
 <div class="line">// apply each transformation to its cloud and merge everything into one output cloud</div>
 <div class="line">using output = new ml.PointCloud();</div>
 <div class="line">for (let i = 0; i &lt; inputs.length; ++i) {</div>
-<div class="line">  using xf = xfs[i];</div>
-<div class="line">  using srcPoints = inputs[i].points;</div>
-<div class="line">  const coords = srcPoints.toArray();</div>
+<div class="line">  const xf = xfs.index(new ml.ObjId(i));</div>
+<div class="line">  const coords = inputs[i].points.toArray(); // x, y, z per point</div>
 <div class="line">  for (let p = 0; p &lt; coords.length; p += 3)</div>
-<div class="line">    output.addPoint(xf.apply({ x: coords[p], y: coords[p + 1], z: coords[p + 2] }));</div>
+<div class="line">    output.addPoint(xf.call(new ml.Vector3f(coords[p], coords[p + 1], coords[p + 2])));</div>
 <div class="line">}</div>
-<div class="line"> </div>
 <div class="line">ml.PointsSave.toAnySupportedFormat(output, outputPath);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>

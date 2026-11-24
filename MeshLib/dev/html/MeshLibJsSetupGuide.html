@@ -159,15 +159,18 @@ $(function(){initNavTree('MeshLibJsSetupGuide.html','',''); });
             <a href="#autotoc_md147">Installation via npm </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md148">Use from CDN </a>
+            <a href="#autotoc_md148">Migrating from the 3.x Packages </a>
+          </li>
+          <li class="level3">
+            <a href="#autotoc_md149">Use from CDN </a>
             <ul>
               <li class="level4">
-                <a href="#autotoc_md149">Multi-Threaded Build </a>
+                <a href="#autotoc_md150">Multi-Threaded Build </a>
               </li>
             </ul>
           </li>
           <li class="level3">
-            <a href="#autotoc_md150">Bundlers </a>
+            <a href="#autotoc_md151">Bundlers </a>
           </li>
           <li class="level3">
             <a href="#MeshLibJsPayloadSize">Payload Size </a>
@@ -178,19 +181,25 @@ $(function(){initNavTree('MeshLibJsSetupGuide.html','',''); });
         <a href="#JsMtCrossOriginIsolation">Cross-Origin Isolation for the Multi-Threaded Build in the Browser </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md151">Getting Started: Your First Example </a>
+        <a href="#autotoc_md152">Getting Started: Your First Example </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md152">TypeScript </a>
+        <a href="#MeshLibJsApiMapping">How the API Maps to C++ </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md153">TypeScript </a>
       </li>
       <li class="level2">
         <a href="#JsMemoryManagement">Memory Management </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md153">Try Interactive MeshLib Examples </a>
+        <a href="#autotoc_md154">Files in the Browser </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md154">Try MeshLib with JavaScript Examples </a>
+        <a href="#autotoc_md155">Try Interactive MeshLib Examples </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md156">Try MeshLib with JavaScript Examples </a>
       </li>
     </ul>
   </li>
@@ -199,15 +208,15 @@ $(function(){initNavTree('MeshLibJsSetupGuide.html','',''); });
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2general__pages_2JsSetupGuide"></a></p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md141"></a>
 Installing MeshLib SDK for JavaScript</h1>
-<p><a href="https://meshlib.io/">MeshLib</a> is available for JavaScript as the geometry library compiled to WebAssembly. It runs both in Node.js and in the browser, and is published to npm as two packages that share an identical API: <span class="tt">@meshinspector/meshlib</span> (single-threaded) and <span class="tt">@meshinspector/meshlib-mt</span> (multi-threaded). To see it running in the browser before you install anything, open <a href="https://demo.meshlib.io/">demo.meshlib.io</a> — the live demo is built on the multi-threaded package.</p>
+<p><a href="https://meshlib.io/">MeshLib</a> is available for JavaScript as the geometry library compiled to WebAssembly, with the <b>complete MeshLib API</b> generated from the C++ headers (the same way as the Python, C#, Rust and Java bindings) as ES modules with TypeScript declarations. It runs both in Node.js and in the browser, and is published to npm as two packages that share an identical API: <span class="tt">@meshinspector/meshlib</span> (single-threaded) and <span class="tt">@meshinspector/meshlib-mt</span> (multi-threaded). To see it running in the browser before you install anything, open <a href="https://demo.meshlib.io/">demo.meshlib.io</a>.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md142"></a>
 Prerequisites</h2>
 <p>Before installing MeshLib SDK for JavaScript, ensure you have the following:</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md143"></a>
 Runtime</h3>
 <p>MeshLib runs in Node.js or in a modern browser.</p><ul>
-<li><span class="tt">@meshinspector/meshlib</span> (single-threaded) requires <b>Node.js 18 or newer</b>.</li>
-<li><span class="tt">@meshinspector/meshlib-mt</span> (multi-threaded) requires <b>Node.js 21 or newer</b>.</li>
+<li><b>Node.js 21 or newer</b> (24 or newer for the <span class="tt">using</span> declarations the examples use).</li>
+<li>In the browser, the current versions of Chrome, Firefox, Safari and Edge.</li>
 </ul>
 <p><a href="https://nodejs.org/en/download">Download Node.js</a>.</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md144"></a>
@@ -219,7 +228,7 @@ Choosing a Package: Single-Threaded or Multi-Threaded</h2>
 <p>MeshLib ships in two flavors with an identical API:</p>
 <ul>
 <li><span class="tt">@meshinspector/meshlib</span>: the single-threaded build. The simplest choice, and the right one for most applications.</li>
-<li><span class="tt">@meshinspector/meshlib-mt</span>: the multi-threaded build. It uses worker threads to parallelize geometry operations for higher throughput, and requires Node.js 21 or newer.</li>
+<li><span class="tt">@meshinspector/meshlib-mt</span>: the multi-threaded build. It uses worker threads to parallelize geometry operations for higher throughput.</li>
 </ul>
 <p>The examples below use <span class="tt">@meshinspector/meshlib</span>. To use the multi-threaded build instead, install <span class="tt">@meshinspector/meshlib-mt</span> and change the import specifier; in Node.js nothing else changes. In the browser the page must additionally be <a class="el" href="#JsMtCrossOriginIsolation">cross-origin isolated</a>.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md146"></a>
@@ -229,50 +238,60 @@ Installation via npm</h3>
 <p>Install the package from npm and enable ES module support in your project: </p><div class="fragment"><div class="line">npm install @meshinspector/meshlib</div>
 <div class="line">npm pkg set type=module</div>
 </div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md148"></a>
+Migrating from the 3.x Packages</h3>
+<p>The packages up to 3.1.x shipped a hand-written Embind module with a part of the API. That module is still published, as <span class="tt">@meshinspector/meshlib-light</span> and <span class="tt">@meshinspector/meshlib-light-mt</span>: to keep the old API, switch to them, replacing <span class="tt">meshlib</span> with <span class="tt">meshlib-light</span> in the package and file names (<span class="tt">meshlib-light.mjs</span>, <span class="tt">meshlib-light.wasm</span>). The generated API is different:</p><ul>
+<li>The default export (<span class="tt">import createMeshLib</span>, <span class="tt">const ml = await createMeshLib()</span>) became a namespace import and an <span class="tt"><a class="elRef" href="./Cpp/group__GeneralGroup.html#gaba382f76f34a17ef1f0536debd4b6683">init()</a></span> call: <span class="tt">import * as ml from "@meshinspector/meshlib"; await ml.init();</span>.</li>
+<li>On the CDN the entry point is <span class="tt">index.mjs</span> instead of <span class="tt">meshlib.mjs</span>.</li>
+<li>The classes, functions and fields follow the C++ API one to one (see <a class="el" href="#MeshLibJsApiMapping">How the API Maps to C++</a> below), so the helpers of the old module have no direct counterparts: look up the C++ function instead.</li>
+<li>Objects are still freed with <span class="tt">.delete()</span> (or <span class="tt">using</span>), and the typed-array conversions are <span class="tt">toArray()</span>/<span class="tt">view()</span>/<span class="tt">fromArray()</span>.</li>
+</ul>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md149"></a>
 Use from CDN</h3>
 <p>In the browser you can skip npm entirely and import the module directly: </p><div class="fragment"><div class="line">// latest release</div>
-<div class="line">import createMeshLib from &#39;https://js.meshlib.io/meshlib/meshlib.mjs&#39;;</div>
+<div class="line">import * as ml from &#39;https://js.meshlib.io/meshlib/index.mjs&#39;;</div>
 <div class="line"> </div>
 <div class="line">// or pin a release</div>
-<div class="line">import createMeshLib from &#39;https://js.meshlib.io/meshlib@v1.2.3.456/meshlib.mjs&#39;;</div>
-</div><!-- fragment --><h4 class="doxsection"><a class="anchor" id="autotoc_md149"></a>
+<div class="line">import * as ml from &#39;https://js.meshlib.io/meshlib@v1.2.3.456/index.mjs&#39;;</div>
+</div><!-- fragment --><p>The unpinned <span class="tt">index.mjs</span> re-exports the latest pinned release, which holds the modules themselves (<span class="tt">meshlib@v1.2.3.456/MeshLibC2.wasm</span> and the like).</p>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md150"></a>
 Multi-Threaded Build</h4>
-<p>The multi-threaded build cannot be imported straight from the CDN, because the browser refuses to run a worker script from another origin, so pass the fetched module to the factory as a <span class="tt">Blob</span> and its worker pool starts from a same-origin <span class="tt">blob:</span> URL: </p><div class="fragment"><div class="line">const url = &#39;https://js.meshlib.io/meshlib-mt/meshlib-mt.mjs&#39;;</div>
+<p>The multi-threaded build cannot run its workers straight from the CDN, because the browser refuses to run a worker script from another origin, so pass the fetched module to <span class="tt"><a class="elRef" href="./Cpp/group__GeneralGroup.html#gaba382f76f34a17ef1f0536debd4b6683">init()</a></span> as a <span class="tt">Blob</span> and its worker pool starts from a same-origin <span class="tt">blob:</span> URL. The module must be the one of the imported release, so pin it: </p><div class="fragment"><div class="line">import * as ml from &#39;https://js.meshlib.io/meshlib-mt@v1.2.3.456/index.mjs&#39;;</div>
 <div class="line"> </div>
-<div class="line">const { default: createMeshLib } = await import( url );</div>
+<div class="line">const url = &#39;https://js.meshlib.io/meshlib-mt@v1.2.3.456/MeshLibC2.mjs&#39;;</div>
 <div class="line">const blob = new Blob( [ await ( await fetch( url ) ).text() ], { type: &#39;text/javascript&#39; } );</div>
-<div class="line"> </div>
-<div class="line">const ml = await createMeshLib( { mainScriptUrlOrBlob: blob } );</div>
+<div class="line">await ml.init( { mainScriptUrlOrBlob: blob } );</div>
 </div><!-- fragment --><p>In the browser the multi-threaded build additionally requires the page to be <a class="el" href="#JsMtCrossOriginIsolation">cross-origin isolated</a>.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md150"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md151"></a>
 Bundlers</h3>
-<p>Vite 8 and webpack 5 resolve <span class="tt">meshlib.wasm</span> from the module and emit it as an asset, so a plain <span class="tt">import</span> needs no configuration. For other bundlers, such as esbuild or Rollup, import the wasm as an asset URL and hand it to the loader via <span class="tt">locateFile</span>: </p><div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
-<div class="line">import wasmUrl from &#39;@meshinspector/meshlib/meshlib.wasm&#39;;</div>
+<p>The package is a set of ES modules plus the wasm sidecar <span class="tt">MeshLibC2.wasm</span>. Vite and webpack 5 resolve the wasm from the module and emit it as an asset, so a plain <span class="tt">import</span> needs no configuration. For other bundlers, such as esbuild or Rollup, import the wasm as an asset URL and hand it to the loader via <span class="tt">locateFile</span>: </p><div class="fragment"><div class="line">import * as ml from &#39;@meshinspector/meshlib&#39;;</div>
+<div class="line">import wasmUrl from &#39;@meshinspector/meshlib/MeshLibC2.wasm&#39;;</div>
 <div class="line"> </div>
-<div class="line">const ml = await createMeshLib( { locateFile: () =&gt; wasmUrl } );</div>
+<div class="line">await ml.init( { locateFile: () =&gt; wasmUrl } );</div>
 </div><!-- fragment --><p>The bundler must treat <span class="tt">.wasm</span> files as static assets, so that the import resolves to the URL of the emitted file; the option is usually called an asset or file loader. For example:</p>
 <ul>
 <li><b>esbuild</b>: pass <span class="tt">--loader:.wasm=file</span></li>
 <li><b>Rollup</b>: add <span class="tt">@rollup/plugin-url</span> with <span class="tt">include: /\.wasm$/</span></li>
-<li><b>Parcel</b>: use the <span class="tt">url:</span> scheme on the import specifier: <span class="tt">import wasmUrl from "url:@meshinspector/meshlib/meshlib.wasm";</span></li>
+<li><b>Parcel</b>: use the <span class="tt">url:</span> scheme on the import specifier: <span class="tt">import wasmUrl from "url:@meshinspector/meshlib/MeshLibC2.wasm";</span></li>
 </ul>
+<p>The options of <span class="tt"><a class="elRef" href="./Cpp/group__GeneralGroup.html#gaba382f76f34a17ef1f0536debd4b6683">init()</a></span> go to the Emscripten module factory (<span class="tt">locateFile</span>, <span class="tt">print</span>, <span class="tt">printErr</span>, <span class="tt">mainScriptUrlOrBlob</span>, ...).</p>
 <h3 class="doxsection"><a class="anchor" id="MeshLibJsPayloadSize"></a>
 Payload Size</h3>
-<p>MeshLib is a WebAssembly build of the full geometry library, so a browser downloads roughly <b>11 MB of wasm, about 3 MB gzipped or 1.7 MB with Brotli over the wire</b>, before the first geometry call. <span class="tt">@meshinspector/meshlib-mt</span> is the same order of magnitude.</p>
-<p>Two consequences for a browser application:</p>
+<p>MeshLib is a WebAssembly build of the full geometry library with its complete API exported, so a browser downloads several tens of megabytes of wasm (a fraction of that over the wire: the CDN serves it Brotli-compressed) before the first geometry call. <span class="tt">@meshinspector/meshlib-mt</span> is the same order of magnitude.</p>
+<p>Consequences for a browser application:</p>
 <ul>
-<li>The <span class="tt">.wasm</span> is a sidecar file fetched as a <b>second request</b>, separate from the <span class="tt">.mjs</span> module. Serve it as <span class="tt">application/wasm</span> with compression enabled, or the download is several times larger than it needs to be.</li>
-<li><span class="tt">npm install</span> unpacks about 21 MB, because the browser and the Node.js wasm ship side by side in one package. Only one of them ever reaches the browser; the rest is bundler input, not payload.</li>
+<li>The <span class="tt">.wasm</span> is a sidecar file fetched as a <b>second request</b>, separate from the <span class="tt">.mjs</span> modules. Serve it as <span class="tt">application/wasm</span> with compression enabled, or the download is several times larger than it needs to be.</li>
+<li>The JavaScript side is a few dozen ES modules (all the wrappers in one <span class="tt">lib/_all.mjs</span>, plus a small module per namespace); a bundler merges them, and since the package declares <span class="tt">"sideEffects": false</span> it can drop the classes and functions you don't use.</li>
+<li><span class="tt">npm install</span> unpacks the browser and the Node.js wasm side by side. Only one of them ever reaches the browser; the rest is bundler input, not payload.</li>
 </ul>
 <p>If the geometry is not needed on first paint, load the module lazily instead of at the top level, so the wasm download does not block startup: </p><div class="fragment"><div class="line">// load MeshLib only when the user actually needs geometry</div>
-<div class="line">const { default: createMeshLib } = await import(&#39;@meshinspector/meshlib&#39;);</div>
-<div class="line">const ml = await createMeshLib();</div>
+<div class="line">const ml = await import(&#39;@meshinspector/meshlib&#39;);</div>
+<div class="line">await ml.init();</div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="JsMtCrossOriginIsolation"></a>
 Cross-Origin Isolation for the Multi-Threaded Build in the Browser</h2>
 <p>This section applies to browsers only. In Node.js the multi-threaded build needs no headers, flags, or extra configuration.</p>
 <p>The multi-threaded package <span class="tt">@meshinspector/meshlib-mt</span> relies on <span class="tt">SharedArrayBuffer</span>, which browsers only enable on <b>cross-origin isolated</b> pages. The server that serves the page loading the module must send these headers: </p><div class="fragment"><div class="line">Cross-Origin-Opener-Policy: same-origin</div>
 <div class="line">Cross-Origin-Embedder-Policy: require-corp</div>
-</div><!-- fragment --><p>Without them <span class="tt">crossOriginIsolated</span> is <span class="tt">false</span>, <span class="tt">SharedArrayBuffer</span> is unavailable, and <span class="tt">createMeshLib()</span> never resolves.</p>
+</div><!-- fragment --><p>Without them <span class="tt">crossOriginIsolated</span> is <span class="tt">false</span>, <span class="tt">SharedArrayBuffer</span> is unavailable, and <span class="tt"><a class="elRef" href="./Cpp/group__GeneralGroup.html#gaba382f76f34a17ef1f0536debd4b6683">init()</a></span> never resolves.</p>
 <p>For a Vite dev server, set the headers in <span class="tt">vite.config.js</span> (whatever hosts the production build must send them too; <span class="tt">vite-plugin-cross-origin-isolation</span> can stamp them for <span class="tt">vite preview</span>): </p><div class="fragment"><div class="line">// vite.config.js</div>
 <div class="line">export default {</div>
 <div class="line">  server: {</div>
@@ -284,13 +303,13 @@ Cross-Origin Isolation for the Multi-Threaded Build in the Browser</h2>
 <div class="line">};</div>
 </div><!-- fragment --><p>Where you cannot set response headers at all — GitHub Pages and similar static hosting — the usual workaround is a <span class="tt">coi-serviceworker</span>-style shim: a service worker that re-serves the page with the two headers and reloads it once. MeshLib's own <a href="https://demo.meshlib.io/">interactive demo</a> is hosted exactly this way.</p>
 <p>So on a page that is not cross-origin isolated you have three options: send the headers, install the service-worker shim, or use the single-threaded <span class="tt">@meshinspector/meshlib</span> package, which has no such requirement.</p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md151"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md152"></a>
 Getting Started: Your First Example</h2>
-<p>The default export is an async factory. Await it once to get the module instance, then call MeshLib functions on it:</p>
+<p>Import the package as a namespace and call <span class="tt"><a class="elRef" href="./Cpp/group__GeneralGroup.html#gaba382f76f34a17ef1f0536debd4b6683">init()</a></span> once: it downloads and instantiates the wasm, after which the whole MeshLib API is there, the classes and functions of the <span class="tt"><a class="elRef" href="./Cpp/namespaceMR.html">MR</a></span> namespace at the top level and the nested namespaces (<span class="tt">MeshLoad</span>, <span class="tt">MeshSave</span>, <span class="tt">MeshBuilder</span>, ...) as namespace objects:</p>
 <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a current browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see the <b>Memory Management</b> section below).</dd></dl>
-<div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<div class="fragment"><div class="line">import * as ml from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
+<div class="line">await ml.init();</div>
 <div class="line"> </div>
 <div class="line">// Build a cube (side 2) from raw geometry.</div>
 <div class="line">const positions = new Float32Array([</div>
@@ -308,17 +327,32 @@ Getting Started: Your First Example</h2>
 <div class="line"> </div>
 <div class="line">console.log(&#39;volume =&#39;, mesh.volume()); // ~8</div>
 </div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>This example loads the module at the top level, which downloads the wasm on startup. In the browser, consider the lazy alternative in <a class="el" href="#MeshLibJsPayloadSize">Payload Size</a>.</dd></dl>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md152"></a>
+<h2 class="doxsection"><a class="anchor" id="MeshLibJsApiMapping"></a>
+How the API Maps to C++</h2>
+<p>The bindings follow the C++ API: the same classes, functions, parameters and default values, documented in the <a class="el" href="APIPage.html">C++ reference</a>. The differences come from JavaScript itself:</p>
+<ul>
+<li><b>Fields are properties</b>: <span class="tt">settings.maxError = 0.05</span>, <span class="tt">mesh.topology</span>, <span class="tt">box.min.x</span>. The math types (<span class="tt">Vector3f</span>, <span class="tt">Matrix3f</span>, <span class="tt">AffineXf3f</span>, <span class="tt">Box3f</span>, the ids) are small structs with accessor properties over wasm memory.</li>
+<li><b>Overloads</b> keep their names and are resolved by the argument types at runtime. The few overloads that JavaScript can't tell apart (<span class="tt">int</span> vs <span class="tt">float</span> parameters) are exported under the names of their C bindings as well, e.g. <span class="tt">foo_float</span>.</li>
+<li><b>Default arguments</b>: trailing parameters with defaults can be omitted, any parameter with a default takes <span class="tt">null</span> to use it.</li>
+<li><b>Return values</b>: <span class="tt">std::string</span> results are strings, <span class="tt">Expected</span> results are unwrapped and an error throws <span class="tt">UnexpectedResultException</span> with the message, C++ exceptions throw <span class="tt">CppException</span>. Functions returning references give you references that keep their owner alive.</li>
+<li><b>Callbacks</b>: <span class="tt">std::function</span> parameters (progress callbacks and such) take a plain JavaScript function. In <span class="tt">@meshinspector/meshlib-mt</span> the function can only run on the thread that called <span class="tt"><a class="elRef" href="./Cpp/group__GeneralGroup.html#gaba382f76f34a17ef1f0536debd4b6683">init()</a></span>, so a callback that MeshLib calls from its worker threads aborts the module, e.g. <span class="tt">preCollapse</span> and <span class="tt">adjustCollapse</span> of <span class="tt">DecimateSettings</span> with <span class="tt">subdivideParts &gt; 1</span> (keep it at 1 when passing them) or the <span class="tt">data</span> of a <span class="tt">FunctionVolume</span> in <span class="tt">marchingCubes()</span> (use <span class="tt">@meshinspector/meshlib</span> for that); progress callbacks are safe, MeshLib reports progress only from the calling thread.</li>
+<li><b>Containers</b>: <span class="tt">VertCoords</span>, <span class="tt">Triangulation</span>, <span class="tt">std::vector</span>s and the other contiguous containers have <span class="tt">toArray()</span> (a typed array copy), <span class="tt">view()</span> (a typed array over the wasm memory, valid until the next allocation), <span class="tt">setFromArray()</span> and <span class="tt">static fromArray()</span>.</li>
+<li><b>Mesh parts</b>: the functions taking <span class="tt">MeshPart</span> in C++ take a <span class="tt">new ml.MeshPart(mesh)</span> (optionally with a face region). The part doesn't keep the mesh alive (an object storing a reference doesn't keep its target alive): declare the mesh and the region with <span class="tt">using</span>, or <span class="tt">.delete()</span> them after the last use of the part, rather than passing temporaries like <span class="tt">new ml.MeshPart(ml.makeCube(...))</span>, which the garbage collector can free under the part.</li>
+<li><b>Enums</b> are plain numbers with named constants: <span class="tt">ml.BooleanOperation.Union</span>.</li>
+</ul>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md153"></a>
 TypeScript</h2>
-<p>The package ships type definitions, so <span class="tt">createMeshLib</span> and the whole module API are typed with minimal setup: </p><div class="fragment"><div class="line">import createMeshLib, { type Mesh } from &#39;@meshinspector/meshlib&#39;;</div>
+<p>The package ships type definitions for the whole API, with the doc comments of the C++ headers: </p><div class="fragment"><div class="line">import * as ml from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
-<div class="line">const mesh: Mesh = ml.Mesh.fromTriangles(coords, tris)!;</div>
-<div class="line">const { valid, distSq } = ml.findProjection(point, mesh);</div>
+<div class="line">await ml.init();</div>
+<div class="line">const mesh: ml.Mesh = ml.makeUVSphere(1, 32, 32);</div>
+<div class="line">const settings = new ml.DecimateSettings();</div>
+<div class="line">settings.maxError = 0.05;</div>
+<div class="line">const result: ml.DecimateResult = ml.decimateMesh(mesh, settings);</div>
 <div class="line">mesh.delete();</div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="JsMemoryManagement"></a>
 Memory Management</h2>
-<p>Values returned from the API (meshes, bit sets, settings, result objects, and so on) hold WebAssembly memory that the JavaScript garbage collector does not reclaim, so each one must be freed explicitly.</p>
+<p>Values returned from the API (meshes, bit sets, settings, result objects, and so on) hold WebAssembly memory. They are released when the JavaScript garbage collector collects them, but it does so late and unpredictably, so free the large ones explicitly.</p>
 <p>The preferred way is JavaScript's explicit resource management: declare a handle with <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/using"><span class="tt">using</span></a> and it is freed automatically when its scope ends, even if an exception is thrown. </p><div class="fragment"><div class="line">using mesh = ml.Mesh.fromTriangles(coords, tris);</div>
 <div class="line">// ... use mesh; it is freed at the end of this scope</div>
 </div><!-- fragment --><p>When the number of handles is dynamic (for example built in a loop), collect them in a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DisposableStack"><span class="tt">DisposableStack</span></a>, which frees everything it holds, in reverse order, at the end of the scope: </p><div class="fragment"><div class="line">using stack = new DisposableStack();</div>
@@ -330,10 +364,14 @@ Memory Management</h2>
 </div><!-- fragment --><p><span class="tt">using</span> and <span class="tt">DisposableStack</span> are part of JavaScript's Explicit Resource Management, available in Node.js 24+ and current browsers. On older runtimes and browsers, call <span class="tt">.delete()</span> on each object when you are done instead: </p><div class="fragment"><div class="line">const mesh = ml.Mesh.fromTriangles(coords, tris);</div>
 <div class="line">// ... use mesh</div>
 <div class="line">mesh.delete();</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md153"></a>
+</div><!-- fragment --><p>References into other objects (<span class="tt">mesh.points</span>, <span class="tt">mesh.topology</span>, the elements returned by <span class="tt">index()</span>) own nothing and need no freeing; they keep their owner alive while they exist.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md154"></a>
+Files in the Browser</h2>
+<p>In Node.js, <span class="tt"><a class="elRef" href="./Cpp/group__GeneralGroup.html#gaba382f76f34a17ef1f0536debd4b6683">init()</a></span> picks the build of the module with access to the real file system, so <span class="tt">MeshLoad</span>, <span class="tt">MeshSave</span> and the other file functions take paths. In the browser the module has an in-memory file system (<span class="tt">ml.ffi.M.FS</span>): write the bytes you fetched into it, then load from that path, and read the saved files back from it.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md155"></a>
 Try Interactive MeshLib Examples</h2>
 <p>You can check how MeshLib works in a browser environment with live interactive examples: <a href="https://demo.meshlib.io/">https://demo.meshlib.io/</a></p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md154"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md156"></a>
 Try MeshLib with JavaScript Examples</h2>
 <p>After installing MeshLib, a great way to start exploring its capabilities is through the code samples. Each of the following example pages includes a JavaScript tab:</p>
 <ul>

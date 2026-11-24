@@ -1,0 +1,6 @@
+var classVoxelsVolumeInterpolatedAccessor__MR__VoxelsVolumeAccessor__MR__SimpleVolumeMinMax =
+[
+    [ "VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax", "classVoxelsVolumeInterpolatedAccessor__MR__VoxelsVolumeAccessor__MR__SimpleVolumeMinMax.html#a9f9a5831661902bd7b6ed1dc723fb9be", null ],
+    [ "VoxelsVolumeInterpolatedAccessor_MR_VoxelsVolumeAccessor_MR_SimpleVolumeMinMax", "classVoxelsVolumeInterpolatedAccessor__MR__VoxelsVolumeAccessor__MR__SimpleVolumeMinMax.html#a99c647728dfa4e19520e64e06f4dac61", null ],
+    [ "get", "classVoxelsVolumeInterpolatedAccessor__MR__VoxelsVolumeAccessor__MR__SimpleVolumeMinMax.html#aa2cee8d78d29351e80f1659ae762ed2b", null ]
+];

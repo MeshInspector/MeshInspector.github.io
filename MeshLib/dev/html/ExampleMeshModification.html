@@ -254,11 +254,11 @@ $(function(){initNavTree('ExampleMeshModification.html','',''); });
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1MeshRelaxParams_html"><div class="ttname"><a href="./Cpp/structMR_1_1MeshRelaxParams.html">MR::MeshRelaxParams</a></div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import * as ml from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
+<div class="line">await ml.init();</div>
 <div class="line"> </div>
-<div class="line">using mesh = ml.makeTorus(1.0, 0.1, 16, 16);</div>
+<div class="line">using mesh = ml.makeTorus();</div>
 <div class="line"> </div>
 <div class="line">// Relax mesh (5 iterations)</div>
 <div class="line">using relaxParams = new ml.MeshRelaxParams();</div>
@@ -271,8 +271,7 @@ $(function(){initNavTree('ExampleMeshModification.html','',''); });
 <div class="line">ml.subdivideMesh(mesh, subdivideSettings);</div>
 <div class="line"> </div>
 <div class="line">// Rotate mesh</div>
-<div class="line">using rotation = ml.Matrix3f.rotation(ml.Vector3.plusZ(), Math.PI * 0.5);</div>
-<div class="line">using rotationXf = ml.AffineXf3f.linear(rotation);</div>
+<div class="line">const rotationXf = ml.AffineXf3f.linear(ml.Matrix3f.rotation(ml.Vector3f.plusZ(), Math.PI * 0.5));</div>
 <div class="line">mesh.transform(rotationXf);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>

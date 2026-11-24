@@ -324,17 +324,16 @@ $(function(){initNavTree('ExampleNoiseDenoise.html','',''); });
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1NoiseSettings_html"><div class="ttname"><a href="./Cpp/structMR_1_1NoiseSettings.html">MR::NoiseSettings</a></div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import * as ml from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
+<div class="line">await ml.init();</div>
 <div class="line"> </div>
 <div class="line">using mesh = ml.MeshLoad.fromAnySupportedFormat(&#39;mesh.stl&#39;);</div>
 <div class="line"> </div>
 <div class="line">// add noise to the mesh, scaled to its bounding box</div>
-<div class="line">using bbox = mesh.computeBoundingBox();</div>
 <div class="line">using noiseSettings = new ml.NoiseSettings();</div>
-<div class="line">noiseSettings.sigma = bbox.diagonal() * 0.0001;</div>
-<div class="line">ml.addNoise(mesh, noiseSettings);</div>
+<div class="line">noiseSettings.sigma = mesh.computeBoundingBox().diagonal() * 0.0001;</div>
+<div class="line">ml.addNoise(mesh, null, noiseSettings);</div>
 <div class="line">mesh.invalidateCaches();</div>
 <div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;noised_mesh.stl&#39;);</div>
 <div class="line"> </div>

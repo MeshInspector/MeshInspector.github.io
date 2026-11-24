@@ -401,9 +401,9 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line">}</div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import * as ml from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
+<div class="line">await ml.init();</div>
 <div class="line"> </div>
 <div class="line">// generate a point cloud sampling a unit sphere</div>
 <div class="line">using pointCloud = new ml.PointCloud();</div>
@@ -412,11 +412,7 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line">  const u = 2 * Math.PI * i / (resolution - 1);</div>
 <div class="line">  for (let j = 0; j &lt; resolution; ++j) {</div>
 <div class="line">    const v = Math.PI * j / (resolution - 1);</div>
-<div class="line">    pointCloud.addPoint({</div>
-<div class="line">      x: Math.cos(u) * Math.sin(v),</div>
-<div class="line">      y: Math.sin(u) * Math.sin(v),</div>
-<div class="line">      z: Math.cos(v),</div>
-<div class="line">    });</div>
+<div class="line">    pointCloud.addPoint(new ml.Vector3f(Math.cos(u) * Math.sin(v), Math.sin(u) * Math.sin(v), Math.cos(v)));</div>
 <div class="line">  }</div>
 <div class="line">}</div>
 <div class="line"> </div>
@@ -424,17 +420,23 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line">using samplingSettings = new ml.UniformSamplingSettings();</div>
 <div class="line">samplingSettings.distance = 1e-3;</div>
 <div class="line">using samples = ml.pointUniformSampling(pointCloud, samplingSettings);</div>
-<div class="line">pointCloud.validPoints = samples;</div>
+<div class="line">const sampled = samples.value();</div>
+<div class="line">if (!sampled)</div>
+<div class="line">  throw new Error(&#39;sampling was cancelled&#39;);</div>
+<div class="line">pointCloud.validPoints = sampled;</div>
 <div class="line">pointCloud.invalidateCaches();</div>
 <div class="line"> </div>
 <div class="line">// triangulate the sampled cloud</div>
-<div class="line">using triangulationParams = new ml.TriangulationParameters();</div>
-<div class="line">using triangulated = ml.triangulatePointCloud(pointCloud, triangulationParams);</div>
+<div class="line">using triangulated = ml.triangulatePointCloud(pointCloud);</div>
+<div class="line">const triangulatedMesh = triangulated.value();</div>
+<div class="line">if (!triangulatedMesh)</div>
+<div class="line">  throw new Error(&#39;triangulation was cancelled&#39;);</div>
 <div class="line"> </div>
 <div class="line">// fix possible issues with a zero offset</div>
 <div class="line">using offsetParams = new ml.OffsetParameters();</div>
-<div class="line">offsetParams.voxelSize = ml.suggestVoxelSize(triangulated, 5e6);</div>
-<div class="line">using mesh = ml.offsetMesh(triangulated, 0, offsetParams);</div>
+<div class="line">using triangulatedPart = new ml.MeshPart(triangulatedMesh);</div>
+<div class="line">offsetParams.voxelSize = ml.suggestVoxelSize(triangulatedPart, 5e6);</div>
+<div class="line">using mesh = ml.offsetMesh(triangulatedPart, 0, offsetParams);</div>
 <div class="line"> </div>
 <div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;result.stl&#39;);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>

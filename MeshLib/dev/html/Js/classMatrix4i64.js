@@ -1,0 +1,27 @@
+var classMatrix4i64 =
+[
+    [ "Matrix4i64", "classMatrix4i64.html#a01cbbb1b68d4c28f7d05d1b3d70697b1", null ],
+    [ "Matrix4i64", "classMatrix4i64.html#ad8edca90707a79d0fdb471413e688e55", null ],
+    [ "Matrix4i64", "classMatrix4i64.html#a52ab76fa281ca885e251aadff48a9467", null ],
+    [ "call", "classMatrix4i64.html#a71e1d24ae13009f353093cb0b2b69045", null ],
+    [ "call_mut", "classMatrix4i64.html#aff2ec8071108e2726835d1c2d0cea309", null ],
+    [ "col", "classMatrix4i64.html#a6cbc86364df244e8f08c63aeb7e6bd01", null ],
+    [ "data", "classMatrix4i64.html#ad6c6fc7a8249aa13b217997528275353", null ],
+    [ "data_2", "classMatrix4i64.html#ac341d06338f778fb217e7dbb84a792c0", null ],
+    [ "det", "classMatrix4i64.html#aeb0915a77b8d4d73854e2b88a69d0c0a", null ],
+    [ "getRotation", "classMatrix4i64.html#ac4e25c1801330300fcb6e04a1af29624", null ],
+    [ "getTranslation", "classMatrix4i64.html#af68611d5d4126996a1ce80935425c1db", null ],
+    [ "index", "classMatrix4i64.html#aadafe2ac2dda8d032f43c5188d13541b", null ],
+    [ "index_mut", "classMatrix4i64.html#af6ba2771401f234773207db814e2582b", null ],
+    [ "norm", "classMatrix4i64.html#a0250e885aa2de4fcfccc31e820f822aa", null ],
+    [ "normSq", "classMatrix4i64.html#a1ab03d8d0f62997df1e8a2cbe5dac35a", null ],
+    [ "setRotation", "classMatrix4i64.html#a973bc464b5a5ec21a50573176266383a", null ],
+    [ "setTranslation", "classMatrix4i64.html#ae854f35fb5dcbacb763db5bb0eb66119", null ],
+    [ "submatrix3", "classMatrix4i64.html#a1b83c0cca746e021f17de2481ab15913", null ],
+    [ "trace", "classMatrix4i64.html#a975d06ecd399a430b1db5e1c30e4e150", null ],
+    [ "transposed", "classMatrix4i64.html#a3c7704212206e5601e9ef48a4fdfa932", null ],
+    [ "w", "classMatrix4i64.html#a80eded7cace51903334fedbfed9ad576", null ],
+    [ "x", "classMatrix4i64.html#a0193d8c4785d697d389ba4cb4efde0db", null ],
+    [ "y", "classMatrix4i64.html#a53f2c755e96a5294323e2853a9db2bf9", null ],
+    [ "z", "classMatrix4i64.html#a5066aaa56b624003a6ffd0af896f064c", null ]
+];

@@ -297,19 +297,22 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html','',''); });
 <div class="line">}</div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import * as ml from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
+<div class="line">await ml.init();</div>
 <div class="line"> </div>
-<div class="line">using mesh = ml.makeTorusWithSelfIntersections(1.0, 0.1, 16, 16); // make torus with self-intersections</div>
+<div class="line">using mesh = ml.makeTorusWithSelfIntersections(); // make torus with self-intersections</div>
+<div class="line">using part = new ml.MeshPart(mesh);</div>
 <div class="line"> </div>
 <div class="line">// find self-intersecting face pairs (throws if the search is cancelled)</div>
-<div class="line">const selfCollidingPairs = ml.findSelfCollidingTriangles(mesh);</div>
-<div class="line">for (const { aFace, bFace } of selfCollidingPairs)</div>
-<div class="line">  console.log(`${aFace} ${bFace}`);</div>
+<div class="line">using selfCollidingPairs = ml.findSelfCollidingTriangles(part);</div>
+<div class="line">for (let i = 0; i &lt; selfCollidingPairs.size(); ++i) {</div>
+<div class="line">  const fp = selfCollidingPairs.at(i);</div>
+<div class="line">  console.log(fp.aFace.id_, fp.bFace.id_); // print each pair</div>
+<div class="line">}</div>
 <div class="line"> </div>
 <div class="line">// find the union of self-intersecting faces</div>
-<div class="line">using selfCollidingFaces = ml.findSelfCollidingTrianglesBS(mesh);</div>
+<div class="line">using selfCollidingFaces = ml.findSelfCollidingTrianglesBS(part);</div>
 <div class="line">console.log(selfCollidingFaces.count()); // number of self-intersecting faces</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>

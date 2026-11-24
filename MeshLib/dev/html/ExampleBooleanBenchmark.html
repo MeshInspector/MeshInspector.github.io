@@ -344,25 +344,30 @@ $(function(){initNavTree('ExampleBooleanBenchmark.html','',''); });
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1SphereParams_html"><div class="ttname"><a href="./Cpp/structMR_1_1SphereParams.html">MR::SphereParams</a></div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import * as ml from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
+<div class="line">await ml.init();</div>
 <div class="line"> </div>
 <div class="line">// the number of Booleans can be given in the command line</div>
 <div class="line">const numBooleans = process.argv.length &gt; 2 ? Number(process.argv[2]) : 2000;</div>
 <div class="line"> </div>
 <div class="line">// two identical spheres of radius 1</div>
-<div class="line">using sphereA = ml.makeSphere({ radius: 1.0, numMeshVertices: 3366 });</div>
-<div class="line">using sphereB = ml.makeSphere({ radius: 1.0, numMeshVertices: 3366 });</div>
+<div class="line">using sphereParams = new ml.SphereParams();</div>
+<div class="line">sphereParams.radius = 1.0;</div>
+<div class="line">sphereParams.numMeshVertices = 3366;</div>
+<div class="line">using sphereA = ml.makeSphere(sphereParams);</div>
+<div class="line">using sphereB = new ml.Mesh(sphereA);</div>
 <div class="line"> </div>
 <div class="line">// subtracts sphereB rotated around Z-axis by i * 0.1 degrees from sphereA;</div>
 <div class="line">// sphereB itself is not modified, so the AABB trees of both meshes are built once and reused</div>
+<div class="line">/** @param {number} i */</div>
 <div class="line">function subtractRotated(i) {</div>
-<div class="line">  using rotation = ml.Matrix3f.rotation(ml.Vector3.plusZ(), i * 0.1 * Math.PI / 180);</div>
-<div class="line">  using rigidB2A = ml.AffineXf3f.linear(rotation);</div>
-<div class="line">  using result = ml.booleanWithXf(sphereA, sphereB, ml.BooleanOperation.DifferenceAB, rigidB2A);</div>
+<div class="line">  using rigidB2A = ml.AffineXf3f.linear(ml.Matrix3f.rotation(ml.Vector3f.plusZ(), i * 0.1 * Math.PI / 180));</div>
+<div class="line">  using params = new ml.BooleanParameters();</div>
+<div class="line">  params.rigidB2A = rigidB2A;</div>
+<div class="line">  using result = ml.boolean(sphereA, sphereB, ml.BooleanOperation.DifferenceAB, params);</div>
 <div class="line">  if (!result.valid())</div>
-<div class="line">    throw new Error(result.errorString);</div>
+<div class="line">    throw new Error(result.errorString.toString());</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line">// untimed warm-up Boolean, it builds the AABB trees</div>

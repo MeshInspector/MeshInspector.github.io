@@ -134,7 +134,7 @@ $(function(){initNavTree('StatePluginsHelp.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2general__pages_2StatePluginsHelp"></a></p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md176"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md178"></a>
 Base Functions</h2>
 <p><b>State plugins</b> is simple objects to work with MeshLib scene and/or objects. It is one of possible inheritance of <a class="elRef" href="./Cpp/classMR_1_1RibbonMenuItem.html">MR::RibbonMenuItem</a></p>
 <p>It has base functions:</p>
@@ -149,7 +149,7 @@ Base Functions</h2>
 <div class="ttc" id="agroup__GeneralGroup_html_ga71368bcc18bdc5ca465c55ffc7f9681e"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga71368bcc18bdc5ca465c55ffc7f9681e">onDisable_</a></div><div class="ttdeci">virtual bool onDisable_() override</div></div>
 </div><!-- fragment --><p> <b>Draw Dialog function</b> - this function is called in each frame, only if plugin is enabled (will not be called after <span class="tt">onDisable_</span> function). It is necessary to show plugin custom UI. </p><div class="fragment"><div class="line">MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga84a6d26e91901eef8efc27aa3a167aef">drawDialog</a>( ImGuiContext* ctx );</div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga84a6d26e91901eef8efc27aa3a167aef"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga84a6d26e91901eef8efc27aa3a167aef">drawDialog</a></div><div class="ttdeci">virtual void drawDialog(ImGuiContext *) override</div></div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md177"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md179"></a>
 How to make your first plugin</h2>
 <p>To create you plugin you need to inherit class from <a class="elRef" href="./Cpp/group__GeneralGroup.html#gab03e30b3d478dc602964140a67391c49">MR::StatePlugin</a> or <a class="elRef" href="./Cpp/classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a> (in case you need to get some events)<br  />
  Example: </p><div class="fragment"><div class="line"><span class="keyword">class </span>MyOwnPlugin : <span class="keyword">public</span> <a class="code hl_typedefRef" href="./Cpp/group__GeneralGroup.html#gab03e30b3d478dc602964140a67391c49">MR::StatePlugin</a></div>

@@ -1,0 +1,24 @@
+var classMeshSave_1_1CtmSaveOptions =
+[
+    [ "CtmSaveOptions", "classMeshSave_1_1CtmSaveOptions.html#a6cdbc74dd6c5ca2fbbfcf56122d30109", null ],
+    [ "CtmSaveOptions", "classMeshSave_1_1CtmSaveOptions.html#a6c257e120f7f79e0783d93842acb5011", null ],
+    [ "assignFromAnother", "classMeshSave_1_1CtmSaveOptions.html#a4d299be4529cdd059827ff14e30e11ad", null ],
+    [ "upcastToSaveSettings", "classMeshSave_1_1CtmSaveOptions.html#aae9f234e179dad02f97cd1590dc4ef89", null ],
+    [ "colors", "classMeshSave_1_1CtmSaveOptions.html#a18c3ab6b4df660ed06e3302b0eeab887", null ],
+    [ "comment", "classMeshSave_1_1CtmSaveOptions.html#a98ada0ec23042fa08b5a612d97116cec", null ],
+    [ "compressionLevel", "classMeshSave_1_1CtmSaveOptions.html#a9e1c4b34e4bacf79ff8d7d68e9289a81", null ],
+    [ "lengthUnit", "classMeshSave_1_1CtmSaveOptions.html#a22a9b3a553125d6cd659cc974b7ec201", null ],
+    [ "materialName", "classMeshSave_1_1CtmSaveOptions.html#a2ca156b9000ece041729cd1fa6383ddc", null ],
+    [ "meshCompression", "classMeshSave_1_1CtmSaveOptions.html#a97089772cf75d8497dbb111c5649323f", null ],
+    [ "onlyValidPoints", "classMeshSave_1_1CtmSaveOptions.html#a6c263145c35484f6b78026444582ab94", null ],
+    [ "packPrimitives", "classMeshSave_1_1CtmSaveOptions.html#a49cf9a0a23e45d3382efce924e22ad4f", null ],
+    [ "primitiveColors", "classMeshSave_1_1CtmSaveOptions.html#a6e860ccc987ab2b1b1610e769ee5ffef", null ],
+    [ "progress", "classMeshSave_1_1CtmSaveOptions.html#adb987dff189a7a929ea91215b685886d", null ],
+    [ "saveTriCornerUVCoords", "classMeshSave_1_1CtmSaveOptions.html#a1ea5ff2aae1ba639d32cf51059fdb72c", null ],
+    [ "solidColor", "classMeshSave_1_1CtmSaveOptions.html#a20eb3243cc43897995c1d00b2e87c3e0", null ],
+    [ "telemetrySignal", "classMeshSave_1_1CtmSaveOptions.html#afdde4d4caac44a2972f02f6dadbddd6e", null ],
+    [ "texture", "classMeshSave_1_1CtmSaveOptions.html#a2c445a9e6982b11de903afef1c98baff", null ],
+    [ "uvMap", "classMeshSave_1_1CtmSaveOptions.html#ade908bb3e6bbf2a71e83bce9b369fe0f", null ],
+    [ "vertexPrecision", "classMeshSave_1_1CtmSaveOptions.html#ae210668855fbe765170896cd5b390b94", null ],
+    [ "xf", "classMeshSave_1_1CtmSaveOptions.html#a208d14d3e73f7732716e8a22593b0d40", null ]
+];

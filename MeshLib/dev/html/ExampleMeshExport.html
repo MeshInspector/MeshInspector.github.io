@@ -226,21 +226,18 @@ $(function(){initNavTree('ExampleMeshExport.html','',''); });
 <div class="line">}</div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import * as ml from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
+<div class="line">await ml.init();</div>
 <div class="line"> </div>
 <div class="line">// create some mesh</div>
-<div class="line">using mesh = ml.makeCube({ x: 1, y: 1, z: 1 }, { x: -0.5, y: -0.5, z: -0.5 });</div>
+<div class="line">using mesh = ml.makeCube(new ml.Vector3f(1, 1, 1), new ml.Vector3f(-0.5, -0.5, -0.5));</div>
 <div class="line"> </div>
 <div class="line">// all point coordinates, as a flat Float32Array of x, y, z triples</div>
-<div class="line">using points = mesh.points;</div>
-<div class="line">const vertexCoordinates = points.toArray();</div>
+<div class="line">const vertexCoordinates = mesh.points.toArray();</div>
 <div class="line"> </div>
-<div class="line">// triangle vertices, as a flat Uint32Array of triples of indices into the points array</div>
-<div class="line">using topology = mesh.topology;</div>
-<div class="line">using triangulation = topology.getTriangulation();</div>
-<div class="line">const vertexTriples = triangulation.toArray();</div>
+<div class="line">// triangle vertices, as a flat Int32Array of triples of indices into the points array</div>
+<div class="line">const vertexTriples = mesh.topology.getTriangulation().toArray();</div>
 <div class="line"> </div>
 <div class="line">// TODO: export in your format</div>
 <div class="line">console.log(`${vertexCoordinates.length / 3} vertices, ${vertexTriples.length / 3} triangles`);</div>

@@ -1,0 +1,10 @@
+var classstd__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int =
+[
+    [ "std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int", "classstd__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int.html#a0d9e9c4f6e5cf8a6caa7736b4a2518e0", null ],
+    [ "std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int", "classstd__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int.html#ac12f6770ef37ab8e57c6953b1c9a12e6", null ],
+    [ "assignFn", "classstd__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int.html#ab1635edc10b4d0e81d81f8b83d35508a", null ],
+    [ "assignFromAnother", "classstd__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int.html#a649fd71deea34a159e416f589dd262f1", null ],
+    [ "call", "classstd__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int.html#aafd7146ba4c917dcbbd81950bb161ae0", null ],
+    [ "has_value", "classstd__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int.html#a87c9b588aedc9ad61544a8b3c00cccec", null ],
+    [ "reset", "classstd__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int.html#ae29a187c7789942f93a3cfcab15e5da7", null ]
+];

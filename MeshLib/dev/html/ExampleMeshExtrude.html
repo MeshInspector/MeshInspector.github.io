@@ -331,29 +331,36 @@ $(function(){initNavTree('ExampleMeshExtrude.html','',''); });
 <div class="ttc" id="anamespaceMR_1_1MeshSave_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshSave.html">MR::MeshSave</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import * as ml from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
+<div class="line">await ml.init();</div>
 <div class="line"> </div>
+<div class="line">// Load mesh</div>
 <div class="line">using mesh = ml.MeshLoad.fromAnySupportedFormat(&#39;mesh.stl&#39;);</div>
 <div class="line"> </div>
-<div class="line">// select the faces to extrude</div>
-<div class="line">using facesToExtrude = ml.FaceBitSet.fromIndices(new Uint32Array([1, 2]));</div>
+<div class="line">// Prepare region to extrude</div>
+<div class="line">using facesToExtrude = new ml.FaceBitSet();</div>
+<div class="line">facesToExtrude.resize(3, false);</div>
+<div class="line">facesToExtrude.set(new ml.FaceId(1), true);</div>
+<div class="line">facesToExtrude.set(new ml.FaceId(2), true);</div>
 <div class="line"> </div>
-<div class="line">// create duplicated vertices along the region boundary</div>
+<div class="line">// Create duplicated verts on region boundary</div>
 <div class="line">ml.makeDegenerateBandAroundRegion(mesh, facesToExtrude);</div>
 <div class="line"> </div>
-<div class="line">// find the vertices to move and shift them along +Z</div>
-<div class="line">using topology = mesh.topology;</div>
-<div class="line">using vertsForMove = ml.getIncidentVertsFromFaces(topology, facesToExtrude);</div>
-<div class="line">using coords = mesh.points;</div>
-<div class="line">for (const v of vertsForMove.toIndices())</div>
-<div class="line">  coords.set(v, ml.Vector3.add(coords.get(v), ml.Vector3.plusZ()));</div>
-<div class="line">mesh.points = coords;</div>
+<div class="line">// Find vertices that will be moved</div>
+<div class="line">using vertsForMove = ml.getIncidentVerts(mesh.topology, facesToExtrude);</div>
 <div class="line"> </div>
-<div class="line">// invalidate internal caches after the manual vertex changes</div>
+<div class="line">// Move each vertex (the points are accessed in place)</div>
+<div class="line">for (let v = 0; v &lt; vertsForMove.size(); ++v) {</div>
+<div class="line">  const id = new ml.VertId(v);</div>
+<div class="line">  if (vertsForMove.test(id))</div>
+<div class="line">    mesh.points.index_mut(id).z += 1.0;</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line">// Invalidate internal caches after manual changing</div>
 <div class="line">mesh.invalidateCaches();</div>
 <div class="line"> </div>
+<div class="line">// Save mesh</div>
 <div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;extrudedMesh.stl&#39;);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>

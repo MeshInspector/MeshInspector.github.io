@@ -1,7 +1,11 @@
 var classGridToMeshSettings =
 [
     [ "GridToMeshSettings", "classGridToMeshSettings.html#a67981600eb7dedd7cdff5370e7891543", null ],
+    [ "GridToMeshSettings", "classGridToMeshSettings.html#a9d1ec1458d90205f1890a46cc60306a3", null ],
+    [ "GridToMeshSettings", "classGridToMeshSettings.html#acbf10cd8a803da753bb7de35ce513385", null ],
+    [ "assignFromAnother", "classGridToMeshSettings.html#a4270b4e8980555c56355bea9ce616b83", null ],
     [ "adaptivity", "classGridToMeshSettings.html#ad88f2fac10e3798c57b87c3df0612ef1", null ],
+    [ "cb", "classGridToMeshSettings.html#ac08ac5635e33781b5503c045183fb005", null ],
     [ "isoValue", "classGridToMeshSettings.html#a2e54f1ee0b399c146099d22abfcc1a42", null ],
     [ "maxFaces", "classGridToMeshSettings.html#ac47a14acae61fbdad6b6c6cc057cca0b", null ],
     [ "maxVertices", "classGridToMeshSettings.html#aa5c8c2ade283d84aa7e0b1e479a2bd3d", null ],

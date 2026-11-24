@@ -446,34 +446,31 @@ $(function(){initNavTree('ExampleMeshBoolean.html','',''); });
 <img src="boolean_after.png" alt=""/>
 </div>
 </li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import * as ml from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
+<div class="line">await ml.init();</div>
 <div class="line"> </div>
 <div class="line">// create first sphere with radius of 1 unit</div>
 <div class="line">using sphere1 = ml.makeUVSphere(1.0, 64, 64);</div>
 <div class="line"> </div>
-<div class="line">// create second sphere (the JS bindings expose no cheap mesh copy, so regenerate an</div>
-<div class="line">// identical sphere) and move it in the X direction</div>
-<div class="line">using sphere2 = ml.makeUVSphere(1.0, 64, 64);</div>
-<div class="line">using xf = ml.AffineXf3f.translation({ x: 0.7, y: 0.0, z: 0.0 });</div>
-<div class="line">sphere2.transform(xf);</div>
+<div class="line">// create second sphere by cloning the first sphere and moving it in X direction</div>
+<div class="line">using sphere2 = new ml.Mesh(sphere1);</div>
+<div class="line">sphere2.transform(ml.AffineXf3f.translation(new ml.Vector3f(0.7, 0.0, 0.0)));</div>
 <div class="line"> </div>
 <div class="line">// optional mapper relating the primitives of the input meshes to the primitives of the result</div>
 <div class="line">using mapper = new ml.BooleanResultMapper();</div>
+<div class="line">using params = new ml.BooleanParameters();</div>
+<div class="line">params.mapper = mapper;</div>
 <div class="line"> </div>
 <div class="line">// perform boolean operation</div>
-<div class="line">using result = ml.boolean(sphere1, sphere2, ml.BooleanOperation.Intersection, mapper);</div>
+<div class="line">using result = ml.boolean(sphere1, sphere2, ml.BooleanOperation.Intersection, params);</div>
 <div class="line">if (!result.valid())</div>
-<div class="line">  throw new Error(result.errorString);</div>
+<div class="line">  throw new Error(result.errorString.toString());</div>
 <div class="line"> </div>
 <div class="line">// find the faces of the result produced by each input sphere, and the faces the cut created</div>
-<div class="line">using topology1 = sphere1.topology;</div>
-<div class="line">using topology2 = sphere2.topology;</div>
-<div class="line">using validFaces1 = topology1.getValidFaces();</div>
-<div class="line">using validFaces2 = topology2.getValidFaces();</div>
-<div class="line">using facesOfSphere1 = mapper.mapFaces(validFaces1, ml.BooleanMapObject.A);</div>
-<div class="line">using facesOfSphere2 = mapper.mapFaces(validFaces2, ml.BooleanMapObject.B);</div>
+<div class="line">const MapObject = ml.BooleanResultMapper_MapObject;</div>
+<div class="line">using facesOfSphere1 = mapper.map(sphere1.topology.getValidFaces(), MapObject.A);</div>
+<div class="line">using facesOfSphere2 = mapper.map(sphere2.topology.getValidFaces(), MapObject.B);</div>
 <div class="line">using newFaces = mapper.newFaces();</div>
 <div class="line">console.log(`faces from sphere1: ${facesOfSphere1.count()}`);</div>
 <div class="line">console.log(`faces from sphere2: ${facesOfSphere2.count()}`);</div>
@@ -481,21 +478,20 @@ $(function(){initNavTree('ExampleMeshBoolean.html','',''); });
 <div class="line"> </div>
 <div class="line">// map one particular face of sphere1 forward: the cut can split it in several faces of the</div>
 <div class="line">// result, or drop it completely if that part of sphere1 is not in the result</div>
-<div class="line">const faceOfSphere1 = 793;</div>
-<div class="line">using oneFace = ml.FaceBitSet.fromIndices([faceOfSphere1]);</div>
-<div class="line">using producedFaces = mapper.mapFaces(oneFace, ml.BooleanMapObject.A);</div>
-<div class="line">console.log(`face ${faceOfSphere1} of sphere1 produced ${producedFaces.count()} faces of the result`);</div>
+<div class="line">const faceOfSphere1 = new ml.FaceId(793);</div>
+<div class="line">using oneFace = new ml.FaceBitSet();</div>
+<div class="line">oneFace.autoResizeSet(faceOfSphere1, true);</div>
+<div class="line">using producedFaces = mapper.map(oneFace, MapObject.A);</div>
+<div class="line">console.log(`face ${faceOfSphere1.id_} of sphere1 produced ${producedFaces.count()} faces of the result`);</div>
 <div class="line"> </div>
 <div class="line">// and backward: the face of sphere1 each face of the result came from</div>
-<div class="line">// (4294967295, i.e. an invalid id, for the faces that came from sphere2)</div>
-<div class="line">using new2OldFaces = mapper.getNew2OldFaceMap(ml.BooleanMapObject.A);</div>
-<div class="line">const new2OldFacesArray = new2OldFaces.toArray();</div>
+<div class="line">// (an invalid id for the faces that came from sphere2)</div>
+<div class="line">using new2OldFaces = mapper.getNew2OldFaceMap(MapObject.A);</div>
 <div class="line">const resultFace = producedFaces.find_first();</div>
-<div class="line">console.log(`face ${resultFace} of the result came from face ${new2OldFacesArray[resultFace]} of sphere1`);</div>
+<div class="line">console.log(`face ${resultFace.id_} of the result came from face ${new2OldFaces.index(resultFace).id_} of sphere1`);</div>
 <div class="line"> </div>
 <div class="line">// save result to STL file</div>
-<div class="line">using resultMesh = result.mesh;</div>
-<div class="line">ml.MeshSave.toAnySupportedFormat(resultMesh, &#39;out_boolean.stl&#39;);</div>
+<div class="line">ml.MeshSave.toAnySupportedFormat(result.mesh, &#39;out_boolean.stl&#39;);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 Source meshes <div class="image">
 <img src="boolean_before.png" alt=""/>

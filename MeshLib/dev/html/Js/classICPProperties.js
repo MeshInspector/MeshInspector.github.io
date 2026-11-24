@@ -1,6 +1,9 @@
 var classICPProperties =
 [
     [ "ICPProperties", "classICPProperties.html#ae02f0b666e2e1a1f936c7508271225ce", null ],
+    [ "ICPProperties", "classICPProperties.html#a5c69f5e8c28b8300d9a2cbb0e0d6cb5a", null ],
+    [ "ICPProperties", "classICPProperties.html#a7b020025ec87a98616a4ffbc2d9a3bcb", null ],
+    [ "assignFromAnother", "classICPProperties.html#a3f73a4325703b2af3099643823a41004", null ],
     [ "badIterStopCount", "classICPProperties.html#a7b9cd4fd51870cf99b647d154c35965c", null ],
     [ "cosThreshold", "classICPProperties.html#afd4c01aedc5d186d0658cc710b5f6023", null ],
     [ "distThresholdSq", "classICPProperties.html#af1cc741ae6539a672e74e518e433d16c", null ],

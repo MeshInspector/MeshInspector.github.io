@@ -372,20 +372,18 @@ $(function(){initNavTree('ExampleLaplacian.html','',''); });
 <div class="ttc" id="anamespaceMR_1_1MeshSave_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshSave.html">MR::MeshSave</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import * as ml from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
+<div class="line">await ml.init();</div>
 <div class="line"> </div>
 <div class="line">// Load mesh</div>
 <div class="line">using mesh = ml.MeshLoad.fromAnySupportedFormat(&#39;mesh.stl&#39;);</div>
 <div class="line"> </div>
-<div class="line">// Construct deformer on the mesh vertices (it references the mesh, which is declared first so it</div>
-<div class="line">// outlives the deformer)</div>
+<div class="line">// Construct the deformer on the mesh vertices (it references the mesh, which is declared first so it outlives the deformer)</div>
 <div class="line">using deformer = new ml.Laplacian(mesh);</div>
 <div class="line"> </div>
 <div class="line">// Find an area for the deformation anchor points</div>
-<div class="line">using topology = mesh.topology;</div>
-<div class="line">using validVerts = topology.getValidVerts();</div>
+<div class="line">const validVerts = mesh.topology.getValidVerts();</div>
 <div class="line">const ancV0 = validVerts.find_first();</div>
 <div class="line">const ancV1 = validVerts.find_last();</div>
 <div class="line"> </div>
@@ -394,20 +392,20 @@ $(function(){initNavTree('ExampleLaplacian.html','',''); });
 <div class="line">freeVerts.resize(validVerts.size(), false);</div>
 <div class="line">freeVerts.set(ancV0, true);</div>
 <div class="line">freeVerts.set(ancV1, true);</div>
+<div class="line"> </div>
 <div class="line">// Expand the free area</div>
-<div class="line">using expandedFreeVerts = ml.expandVerts(topology, freeVerts, 5);</div>
+<div class="line">ml.expand(mesh.topology, freeVerts, 5);</div>
 <div class="line"> </div>
 <div class="line">// Initialize laplacian</div>
-<div class="line">deformer.init(expandedFreeVerts, ml.EdgeWeights.Cotan, ml.VertexMass.NeiArea, ml.RememberShape.Yes);</div>
+<div class="line">deformer.init(freeVerts, ml.EdgeWeights.Cotan, ml.VertexMass.NeiArea, ml.RememberShape.Yes);</div>
 <div class="line"> </div>
-<div class="line">using box = mesh.computeBoundingBox();</div>
-<div class="line">const shiftAmount = box.diagonal() * 0.01;</div>
-<div class="line">using points = mesh.points;</div>
+<div class="line">const shiftAmount = mesh.computeBoundingBox().diagonal() * 0.01;</div>
+<div class="line"> </div>
 <div class="line">// Fix the anchor vertices in the required position (shifted along the vertex normal)</div>
 <div class="line">for (const anchor of [ancV0, ancV1]) {</div>
-<div class="line">  const p = points.get(anchor);</div>
+<div class="line">  const p = mesh.points.index(anchor);</div>
 <div class="line">  const n = mesh.normal(anchor);</div>
-<div class="line">  deformer.fixVertex(anchor, ml.Vector3.add(p, ml.Vector3.mulScalar(n, shiftAmount)), true);</div>
+<div class="line">  deformer.fixVertex(anchor, ml.opAdd(p, ml.opMul(n, shiftAmount)), true);</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line">// Move the free vertices according to the anchor ones</div>

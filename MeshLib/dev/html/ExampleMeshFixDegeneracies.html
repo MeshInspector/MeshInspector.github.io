@@ -277,21 +277,22 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html','',''); });
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1FixMeshDegeneraciesParams_html"><div class="ttname"><a href="./Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import * as ml from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
+<div class="line">await ml.init();</div>
 <div class="line"> </div>
+<div class="line">// Load mesh</div>
 <div class="line">using mesh = ml.MeshLoad.fromAnySupportedFormat(&#39;mesh.stl&#39;);</div>
 <div class="line"> </div>
 <div class="line">// you can set various parameters for the resolving process; see the documentation for more info</div>
-<div class="line">using box = mesh.computeBoundingBox();</div>
 <div class="line">using params = new ml.FixMeshDegeneraciesParams();</div>
-<div class="line">params.maxDeviation = 1e-5 * box.diagonal();</div>
+<div class="line">params.maxDeviation = 1e-5 * mesh.computeBoundingBox().diagonal();</div>
 <div class="line">params.tinyEdgeLength = 1e-3;</div>
+<div class="line"> </div>
 <div class="line">ml.fixMeshDegeneracies(mesh, params);</div>
 <div class="line"> </div>
 <div class="line">// Save result</div>
-<div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;fixedMesh.stl&#39;);</div>
+<div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;fixed_mesh.stl&#39;);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>
 <li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">use meshlib::FixMeshDegeneraciesParams;</div>

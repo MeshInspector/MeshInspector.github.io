@@ -1,0 +1,10 @@
+var classstd__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR__Ball3f__ref =
+[
+    [ "std_function_MR_Processing_from_const_MR_PointsProjectionResult_ref_const_MR_Vector3f_ref_MR_Ball3f_ref", "classstd__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR__Ball3f__ref.html#a345841f47434b6fba61db8b0669e32cd", null ],
+    [ "std_function_MR_Processing_from_const_MR_PointsProjectionResult_ref_const_MR_Vector3f_ref_MR_Ball3f_ref", "classstd__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR__Ball3f__ref.html#a358c1aec2efeaeb77af26a0dd2637fa6", null ],
+    [ "assignFn", "classstd__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR__Ball3f__ref.html#aa5373a5bd8fb14520ab6cfdd51eca21a", null ],
+    [ "assignFromAnother", "classstd__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR__Ball3f__ref.html#a01de21f7a7edc7251a63e90df9006022", null ],
+    [ "call", "classstd__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR__Ball3f__ref.html#aa08a623f823f2d021cc33df5ecb2e8f9", null ],
+    [ "has_value", "classstd__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR__Ball3f__ref.html#af5b4952ee273e293e9d84873283a13d3", null ],
+    [ "reset", "classstd__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR__Ball3f__ref.html#aa436fc1b7bd077a5d708fbbc175e6c6c", null ]
+];

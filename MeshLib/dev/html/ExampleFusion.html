@@ -295,21 +295,19 @@ $(function(){initNavTree('ExampleFusion.html','',''); });
 <div class="ttc" id="anamespaceMR_1_1PointsLoad_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1PointsLoad.html">MR::PointsLoad</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
+<li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import * as ml from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
-<div class="line">const ml = await createMeshLib();</div>
+<div class="line">await ml.init();</div>
 <div class="line"> </div>
 <div class="line">using pointCloud = ml.PointsLoad.fromAnySupportedFormat(&#39;Points.ply&#39;);</div>
 <div class="line"> </div>
-<div class="line">using bbox = pointCloud.computeBoundingBox();</div>
 <div class="line">using params = new ml.PointsToMeshParameters();</div>
-<div class="line">params.voxelSize = bbox.diagonal() * 0.01;</div>
+<div class="line">params.voxelSize = pointCloud.computeBoundingBox().diagonal() * 1e-2;</div>
 <div class="line">params.sigma = Math.max(params.voxelSize, ml.findAvgPointsRadius(pointCloud, 50));</div>
 <div class="line">params.minWeight = 1;</div>
 <div class="line"> </div>
 <div class="line">using mesh = ml.pointsToMeshFusion(pointCloud, params);</div>
-<div class="line"> </div>
-<div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;Mesh.ply&#39;);</div>
+<div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;Mesh.ctm&#39;);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>
 <li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>

@@ -1,12 +1,10 @@
 var searchData=
 [
-  ['selfintersections_0',['SelfIntersections',['../classSelfIntersections.html',1,'']]],
-  ['selfintersectionssettings_1',['SelfIntersectionsSettings',['../classSelfIntersectionsSettings.html',1,'']]],
-  ['sharpoffsetparameters_2',['SharpOffsetParameters',['../classSharpOffsetParameters.html',1,'']]],
-  ['signedmeshprojectionresult_3',['SignedMeshProjectionResult',['../classSignedMeshProjectionResult.html',1,'']]],
-  ['smoothfillingsettings_4',['SmoothFillingSettings',['../classSmoothFillingSettings.html',1,'']]],
-  ['sphereparams_5',['SphereParams',['../classSphereParams.html',1,'']]],
-  ['stitchholesparams_6',['StitchHolesParams',['../classStitchHolesParams.html',1,'']]],
-  ['subdividefillingsettings_7',['SubdivideFillingSettings',['../classSubdivideFillingSettings.html',1,'']]],
-  ['subdividesettings_8',['SubdivideSettings',['../classSubdivideSettings.html',1,'']]]
+  ['quadraticform2d_0',['QuadraticForm2d',['../classQuadraticForm2d.html',1,'']]],
+  ['quadraticform2f_1',['QuadraticForm2f',['../classQuadraticForm2f.html',1,'']]],
+  ['quadraticform3d_2',['QuadraticForm3d',['../classQuadraticForm3d.html',1,'']]],
+  ['quadraticform3f_3',['QuadraticForm3f',['../classQuadraticForm3f.html',1,'']]],
+  ['quadricapprox_4',['QuadricApprox',['../classQuadricApprox.html',1,'']]],
+  ['quaterniond_5',['Quaterniond',['../classQuaterniond.html',1,'']]],
+  ['quaternionf_6',['Quaternionf',['../classQuaternionf.html',1,'']]]
 ];

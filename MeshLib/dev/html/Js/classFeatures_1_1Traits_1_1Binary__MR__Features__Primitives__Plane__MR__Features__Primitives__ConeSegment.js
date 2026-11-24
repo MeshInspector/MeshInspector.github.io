@@ -1,0 +1,7 @@
+var classFeatures_1_1Traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment =
+[
+    [ "Binary_MR_Features_Primitives_Plane_MR_Features_Primitives_ConeSegment", "classFeatures_1_1Traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#a57b4840d5cb533d90a3182dd7ddc7f53", null ],
+    [ "Binary_MR_Features_Primitives_Plane_MR_Features_Primitives_ConeSegment", "classFeatures_1_1Traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#a56c845d486560ec1c03a607b23036d35", null ],
+    [ "assignFromAnother", "classFeatures_1_1Traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#afaa0a6e03e6f44f5066d9c4f24c74b54", null ],
+    [ "measure", "classFeatures_1_1Traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__ConeSegment.html#ae42816f80eeaf9fadc30c11e2448baf7", null ]
+];
