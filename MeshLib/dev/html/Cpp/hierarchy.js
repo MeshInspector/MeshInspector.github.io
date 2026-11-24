@@ -881,6 +881,7 @@ var hierarchy =
     [ "MR::MeshRegion< RegionTag >", "structMR_1_1MeshRegion.html", null ],
     [ "MR::MeshSave::MeshSaver", "structMR_1_1MeshSave_1_1MeshSaver.html", null ],
     [ "MR::MeshSave::MeshSaverCapabilities", "structMR_1_1MeshSave_1_1MeshSaverCapabilities.html", null ],
+    [ "MR::MeshSegmenter< Policy >", "classMR_1_1MeshSegmenter.html", null ],
     [ "MR::MeshToDirectionVolumeParams", "structMR_1_1MeshToDirectionVolumeParams.html", null ],
     [ "MR::MeshToDistanceMapParams", "structMR_1_1MeshToDistanceMapParams.html", null ],
     [ "MR::MeshToDistanceVolumeParams", "structMR_1_1MeshToDistanceVolumeParams.html", null ],
@@ -916,6 +917,7 @@ var hierarchy =
     [ "MR::PointsLoad::NamedCloud", "structMR_1_1PointsLoad_1_1NamedCloud.html", null ],
     [ "MR::MeshLoad::NamedMesh", "structMR_1_1MeshLoad_1_1NamedMesh.html", null ],
     [ "MR::MeshSave::NamedXfMesh", "structMR_1_1MeshSave_1_1NamedXfMesh.html", null ],
+    [ "MR::NarrowNeckSegmentPolicy", "structMR_1_1NarrowNeckSegmentPolicy.html", null ],
     [ "MR::Nesting::Nesting3mfParams", "structMR_1_1Nesting_1_1Nesting3mfParams.html", null ],
     [ "MR::Nesting::NestingBaseParams", "structMR_1_1Nesting_1_1NestingBaseParams.html", null ],
     [ "MR::Nesting::NestingResult", "structMR_1_1Nesting_1_1NestingResult.html", null ],
@@ -1288,6 +1290,11 @@ var hierarchy =
       [ "MR::Signal< T >", "structMR_1_1Signal.html", null ]
     ] ],
     [ "MR::SignedProduct< A, B >", "structMR_1_1SignedProduct.html", null ],
+    [ "MR::SimpleSegmentBdData", "structMR_1_1SimpleSegmentBdData.html", null ],
+    [ "MR::SimpleSegmentData", "structMR_1_1SimpleSegmentData.html", [
+      [ "MR::HoleAwareSegmentData", "structMR_1_1HoleAwareSegmentData.html", null ]
+    ] ],
+    [ "MR::SimpleSegmentPolicy", "structMR_1_1SimpleSegmentPolicy.html", null ],
     [ "MR::SimpleTimeRecord", "structMR_1_1SimpleTimeRecord.html", [
       [ "MR::TimeRecord", "structMR_1_1TimeRecord.html", [
         [ "MR::ThreadRootTimeRecord", "structMR_1_1ThreadRootTimeRecord.html", null ]

@@ -72,11 +72,12 @@ var searchData=
   ['criticaltriaspectratio_69',['criticalTriAspectRatio',['../classDecimateSettings.html#a1898ef5c461d801cbe7cffd9b9c194ca',1,'DecimateSettings::criticalTriAspectRatio'],['../classDeloneSettings.html#aa01ed0778d9fc667ff20aaec3754b16e',1,'DeloneSettings::criticalTriAspectRatio'],['../classFixCreasesParams.html#a9113d9c046ec2ea89d5c4e1acf7b65bd',1,'FixCreasesParams::criticalTriAspectRatio'],['../classFixMeshDegeneraciesParams.html#ad576d981a5f6954e8751f8050a07f855',1,'FixMeshDegeneraciesParams::criticalTriAspectRatio'],['../classReduceTotalAngleParams.html#a5498d7265e0918bdc13586c862db47e2',1,'ReduceTotalAngleParams::criticalTriAspectRatio']]],
   ['crittransitionlength_70',['critTransitionLength',['../classConstantCuspParams.html#ae6f2f223cedb09121172f5bebd744c00',1,'ConstantCuspParams::critTransitionLength'],['../classToolPathParams.html#ab2e225e068e2cebdc53a178570ead1f2',1,'ToolPathParams::critTransitionLength']]],
   ['curvaturepriority_71',['curvaturePriority',['../classSubdivideSettings.html#a6b0b71d010e461adef6da3a1dc639649',1,'SubdivideSettings']]],
-  ['customxf_72',['customXf',['../classMeshLoad_1_1ObjLoadSettings.html#acf003c896a37cd56b1191551e1736504',1,'MeshLoad::ObjLoadSettings']]],
-  ['cut2newfaces_73',['cut2newFaces',['../classBooleanResultMapper__Maps.html#abdbb97968a1c7b8a6592a79cffae7eea',1,'BooleanResultMapper_Maps']]],
-  ['cut2origin_74',['cut2origin',['../classBooleanResultMapper__Maps.html#ac4468deef7a0bdadea9d756701608626',1,'BooleanResultMapper_Maps']]],
-  ['cutangle_75',['cutAngle',['../classEmbeddedStructureParameters.html#a84b15cef724417fe8f09bc1c89510341',1,'EmbeddedStructureParameters']]],
-  ['cutter_76',['cutter',['../classEndMillTool.html#a33d30d0e02202c679a74e9ef4265c0a4',1,'EndMillTool']]],
-  ['cuttingangle_77',['cuttingAngle',['../classEndMillCutter.html#ace05c01b4d3e4f302648f7fc45e017fd',1,'EndMillCutter']]],
-  ['cwfromvk_78',['cwFromVk',['../classBallPivotCandidate.html#add63c97967887cdd0d66bc7e61f13896',1,'BallPivotCandidate']]]
+  ['curvmetric_72',['curvMetric',['../classNarrowNeckSegmentPolicy.html#a9712dae2711d8cb6981e451bed06cf7e',1,'NarrowNeckSegmentPolicy::curvMetric'],['../classSimpleSegmentPolicy.html#a38fb50335ec692028ef6c54916b1c6cb',1,'SimpleSegmentPolicy::curvMetric']]],
+  ['customxf_73',['customXf',['../classMeshLoad_1_1ObjLoadSettings.html#acf003c896a37cd56b1191551e1736504',1,'MeshLoad::ObjLoadSettings']]],
+  ['cut2newfaces_74',['cut2newFaces',['../classBooleanResultMapper__Maps.html#abdbb97968a1c7b8a6592a79cffae7eea',1,'BooleanResultMapper_Maps']]],
+  ['cut2origin_75',['cut2origin',['../classBooleanResultMapper__Maps.html#ac4468deef7a0bdadea9d756701608626',1,'BooleanResultMapper_Maps']]],
+  ['cutangle_76',['cutAngle',['../classEmbeddedStructureParameters.html#a84b15cef724417fe8f09bc1c89510341',1,'EmbeddedStructureParameters']]],
+  ['cutter_77',['cutter',['../classEndMillTool.html#a33d30d0e02202c679a74e9ef4265c0a4',1,'EndMillTool']]],
+  ['cuttingangle_78',['cuttingAngle',['../classEndMillCutter.html#ace05c01b4d3e4f302648f7fc45e017fd',1,'EndMillCutter']]],
+  ['cwfromvk_79',['cwFromVk',['../classBallPivotCandidate.html#add63c97967887cdd0d66bc7e61f13896',1,'BallPivotCandidate']]]
 ];

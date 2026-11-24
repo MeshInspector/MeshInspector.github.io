@@ -1,5 +1,13 @@
 var NAVTREEINDEX39 =
 {
+"classmeshlib_1_1Dipoles.html#af4159801fbab216cbb399741f7033ca3":[9,6,1,0,0,277,11],
+"classmeshlib_1_1Dipoles.html#af7f6fb953217501d067bdeb85dc7683a":[9,6,0,0,0,277,21],
+"classmeshlib_1_1Dipoles.html#af7f6fb953217501d067bdeb85dc7683a":[9,6,1,0,0,277,21],
+"classmeshlib_1_1Dipoles.html#af9d1ec2b95f55ad692c56aaed228c108":[9,6,0,0,0,277,24],
+"classmeshlib_1_1Dipoles.html#af9d1ec2b95f55ad692c56aaed228c108":[9,6,1,0,0,277,24],
+"classmeshlib_1_1Dipoles.html#afbbee286402731d1eef439a82acfd35e":[9,6,0,0,0,277,1],
+"classmeshlib_1_1Dipoles.html#afbbee286402731d1eef439a82acfd35e":[9,6,1,0,0,277,1],
+"classmeshlib_1_1Dirty.html":[9,6,0,0,0,278],
 "classmeshlib_1_1Dirty.html":[9,6,1,0,0,278],
 "classmeshlib_1_1Dirty.html#a0148449530c356496bd075cc509dcf7f":[9,6,0,0,0,278,4],
 "classmeshlib_1_1Dirty.html#a0148449530c356496bd075cc509dcf7f":[9,6,1,0,0,278,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX39 =
 "classmeshlib_1_1DistanceMapSaveSettings.html#a87f6217174930a0b4f0441cf5086f97a":[9,6,1,0,0,284,7],
 "classmeshlib_1_1DistanceMapSaveSettings.html#aaa6da9109ab8e7e2e71da3e82df597fd":[9,6,0,0,0,284,4],
 "classmeshlib_1_1DistanceMapSaveSettings.html#aaa6da9109ab8e7e2e71da3e82df597fd":[9,6,1,0,0,284,4],
-"classmeshlib_1_1DistanceMapSaveSettings.html#ac35c9a49c2cfd4292a3303fdccabc9f3":[9,6,0,0,0,284,1],
-"classmeshlib_1_1DistanceMapSaveSettings.html#ac35c9a49c2cfd4292a3303fdccabc9f3":[9,6,1,0,0,284,1],
-"classmeshlib_1_1DistanceMapSaveSettings.html#ac97c68084780d13f5b30a9948ad24875":[9,6,0,0,0,284,3],
-"classmeshlib_1_1DistanceMapSaveSettings.html#ac97c68084780d13f5b30a9948ad24875":[9,6,1,0,0,284,3],
-"classmeshlib_1_1DistanceMapSaveSettings.html#af67a9c0b47f01316f398e57c0d8e8652":[9,6,0,0,0,284,5],
-"classmeshlib_1_1DistanceMapSaveSettings.html#af67a9c0b47f01316f398e57c0d8e8652":[9,6,1,0,0,284,5],
-"classmeshlib_1_1DistanceMapToWorld.html":[9,6,0,0,0,285],
-"classmeshlib_1_1DistanceMapToWorld.html":[9,6,1,0,0,285],
-"classmeshlib_1_1DistanceMapToWorld.html#a0e65d97ea32d3c09b8d3599f01a36d1f":[9,6,0,0,0,285,8]
+"classmeshlib_1_1DistanceMapSaveSettings.html#ac35c9a49c2cfd4292a3303fdccabc9f3":[9,6,0,0,0,284,1]
 };

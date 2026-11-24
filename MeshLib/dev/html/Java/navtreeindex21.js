@@ -1,5 +1,13 @@
 var NAVTREEINDEX21 =
 {
+"classmeshlib_1_1BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a606c2d98dcd43237b071906fb749a155":[9,6,1,0,0,133,8],
+"classmeshlib_1_1BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a62ab91c8dfc68989299bb56d0a4646ff":[9,6,0,0,0,133,4],
+"classmeshlib_1_1BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a62ab91c8dfc68989299bb56d0a4646ff":[9,6,1,0,0,133,4],
+"classmeshlib_1_1BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a6faf32be5cfd6ce1bc14c4cd46f5ca18":[9,6,0,0,0,133,0],
+"classmeshlib_1_1BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a6faf32be5cfd6ce1bc14c4cd46f5ca18":[9,6,1,0,0,133,0],
+"classmeshlib_1_1BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a9a5e1d5771e6b376a0ee41820ca67f6f":[9,6,0,0,0,133,2],
+"classmeshlib_1_1BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a9a5e1d5771e6b376a0ee41820ca67f6f":[9,6,1,0,0,133,2],
+"classmeshlib_1_1BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#ae109ee1dc2e9d07694ecbc2cb17d671f":[9,6,0,0,0,133,7],
 "classmeshlib_1_1BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#ae109ee1dc2e9d07694ecbc2cb17d671f":[9,6,1,0,0,133,7],
 "classmeshlib_1_1BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#afaf63121fa3667b28ddd6fb17e8044fe":[9,6,0,0,0,133,1],
 "classmeshlib_1_1BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#afaf63121fa3667b28ddd6fb17e8044fe":[9,6,1,0,0,133,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX21 =
 "classmeshlib_1_1Buffer__MR__GraphVertId__MR__GraphVertId.html#a9e3f7484926c53dbf42bf90d483097ff":[9,6,1,0,0,141,0],
 "classmeshlib_1_1Buffer__MR__GraphVertId__MR__GraphVertId.html#ab15a0fd3cc56f3d49959b8560892b800":[9,6,0,0,0,141,8],
 "classmeshlib_1_1Buffer__MR__GraphVertId__MR__GraphVertId.html#ab15a0fd3cc56f3d49959b8560892b800":[9,6,1,0,0,141,8],
-"classmeshlib_1_1Buffer__MR__GraphVertId__MR__GraphVertId.html#ab45ee080aa84e49aaedc6be109564c2e":[9,6,0,0,0,141,7],
-"classmeshlib_1_1Buffer__MR__GraphVertId__MR__GraphVertId.html#ab45ee080aa84e49aaedc6be109564c2e":[9,6,1,0,0,141,7],
-"classmeshlib_1_1Buffer__MR__GraphVertId__MR__GraphVertId.html#abfa4ae5dec66f1dfc9d8a0e85bc0cadf":[9,6,0,0,0,141,9],
-"classmeshlib_1_1Buffer__MR__GraphVertId__MR__GraphVertId.html#abfa4ae5dec66f1dfc9d8a0e85bc0cadf":[9,6,1,0,0,141,9],
-"classmeshlib_1_1Buffer__MR__GraphVertId__MR__GraphVertId.html#ac3d7b45e70c89c25eb1d6d566f33e0ef":[9,6,0,0,0,141,15],
-"classmeshlib_1_1Buffer__MR__GraphVertId__MR__GraphVertId.html#ac3d7b45e70c89c25eb1d6d566f33e0ef":[9,6,1,0,0,141,15],
-"classmeshlib_1_1Buffer__MR__GraphVertId__MR__GraphVertId.html#acdcb09ce4b53683ca1f6dc291ce13b01":[9,6,0,0,0,141,10],
-"classmeshlib_1_1Buffer__MR__GraphVertId__MR__GraphVertId.html#acdcb09ce4b53683ca1f6dc291ce13b01":[9,6,1,0,0,141,10],
-"classmeshlib_1_1Buffer__MR__GraphVertId__MR__GraphVertId.html#af12591d862dcc59d6ab934247902c824":[9,6,0,0,0,141,11]
+"classmeshlib_1_1Buffer__MR__GraphVertId__MR__GraphVertId.html#ab45ee080aa84e49aaedc6be109564c2e":[9,6,0,0,0,141,7]
 };

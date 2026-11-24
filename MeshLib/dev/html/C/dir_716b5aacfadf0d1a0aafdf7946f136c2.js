@@ -482,6 +482,7 @@ var dir_716b5aacfadf0d1a0aafdf7946f136c2 =
     [ "std_vector_MR_GraphEdgeId.h", "std__vector__MR__GraphEdgeId_8h.html", "std__vector__MR__GraphEdgeId_8h" ],
     [ "std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId.h", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h" ],
     [ "std_vector_MR_GraphVertId_MR_Allocator_MR_GraphVertId.h", "std__vector__MR__GraphVertId__MR__Allocator__MR__GraphVertId_8h.html", "std__vector__MR__GraphVertId__MR__Allocator__MR__GraphVertId_8h" ],
+    [ "std_vector_MR_Heap_double_MR_GraphEdgeId_std_greater_double_Element.h", "std__vector__MR__Heap__double__MR__GraphEdgeId__std__greater__double__Element_8h.html", "std__vector__MR__Heap__double__MR__GraphEdgeId__std__greater__double__Element_8h" ],
     [ "std_vector_MR_Heap_float_MR_GraphVertId_std_greater_float_Element.h", "std__vector__MR__Heap__float__MR__GraphVertId__std__greater__float__Element_8h.html", "std__vector__MR__Heap__float__MR__GraphVertId__std__greater__float__Element_8h" ],
     [ "std_vector_MR_HoleFillPlan.h", "std__vector__MR__HoleFillPlan_8h.html", "std__vector__MR__HoleFillPlan_8h" ],
     [ "std_vector_MR_ICPGroupPair.h", "std__vector__MR__ICPGroupPair_8h.html", "std__vector__MR__ICPGroupPair_8h" ],

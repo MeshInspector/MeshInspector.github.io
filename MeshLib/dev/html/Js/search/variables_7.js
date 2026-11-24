@@ -6,6 +6,7 @@ var searchData=
   ['hemispheresearchthetaresolution_3',['hemisphereSearchThetaResolution',['../classCone3ApproximationParams.html#aaa570a08b547e35654edc6f75a7bd845',1,'Cone3ApproximationParams']]],
   ['highres_4',['highRes',['../classFillingSurface_1_1CellularSurface_1_1Params.html#a13da73b98c1dccbad5579d31a2c84d9c',1,'FillingSurface::CellularSurface::Params']]],
   ['hintdirection_5',['hintDirection',['../classFixUndercuts_1_1DistMapImproveDirectionParameters.html#ab84dff24f2367a21f3ab497c8e3cb770',1,'FixUndercuts::DistMapImproveDirectionParameters::hintDirection'],['../classFixUndercuts_1_1ImproveDirectionParameters.html#a484013c5dbbec9d1804009b2a3f916f8',1,'FixUndercuts::ImproveDirectionParameters::hintDirection']]],
-  ['hollow_6',['hollow',['../classFeatures_1_1Primitives_1_1ConeSegment.html#a07d8e5d8af26db56c887aeda8ae12660',1,'Features::Primitives::ConeSegment']]],
-  ['hops_7',['hops',['../classFindOverhangsSettings.html#ae75330ed0c5c67af6dcb48e22aaaca43',1,'FindOverhangsSettings']]]
+  ['holebdlength_6',['holeBdLength',['../classHoleAwareSegmentData.html#a3bf32707d520381a267016043c2b0023',1,'HoleAwareSegmentData']]],
+  ['hollow_7',['hollow',['../classFeatures_1_1Primitives_1_1ConeSegment.html#a07d8e5d8af26db56c887aeda8ae12660',1,'Features::Primitives::ConeSegment']]],
+  ['hops_8',['hops',['../classFindOverhangsSettings.html#ae75330ed0c5c67af6dcb48e22aaaca43',1,'FindOverhangsSettings']]]
 ];

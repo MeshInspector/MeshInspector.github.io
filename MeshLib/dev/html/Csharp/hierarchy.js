@@ -1085,6 +1085,12 @@ var hierarchy =
       [ "MR.Const_GridToMeshSettings", "classMR_1_1Const__GridToMeshSettings.html", [
         [ "MR.GridToMeshSettings", "classMR_1_1GridToMeshSettings.html", null ]
       ] ],
+      [ "MR.Const_Heap_Double_MRGraphEdgeId_StdGreaterDouble", "classMR_1_1Const__Heap__Double__MRGraphEdgeId__StdGreaterDouble.html", [
+        [ "MR.Heap_Double_MRGraphEdgeId_StdGreaterDouble", "classMR_1_1Heap__Double__MRGraphEdgeId__StdGreaterDouble.html", null ]
+      ] ],
+      [ "MR.Const_Heap_Double_MRGraphEdgeId_StdGreaterDouble.Const_Element", "classMR_1_1Const__Heap__Double__MRGraphEdgeId__StdGreaterDouble_1_1Const__Element.html", [
+        [ "MR.Const_Heap_Double_MRGraphEdgeId_StdGreaterDouble.Element", "classMR_1_1Const__Heap__Double__MRGraphEdgeId__StdGreaterDouble_1_1Element.html", null ]
+      ] ],
       [ "MR.Const_Heap_Float_MRGraphVertId_StdGreaterFloat", "classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat.html", [
         [ "MR.Heap_Float_MRGraphVertId_StdGreaterFloat", "classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat.html", null ]
       ] ],
@@ -1099,6 +1105,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_HistoryAction", "classMR_1_1Const__HistoryAction.html", [
         [ "MR.HistoryAction", "classMR_1_1HistoryAction.html", null ]
+      ] ],
+      [ "MR.Const_HoleAwareSegmentData", "classMR_1_1Const__HoleAwareSegmentData.html", [
+        [ "MR.HoleAwareSegmentData", "classMR_1_1HoleAwareSegmentData.html", null ]
       ] ],
       [ "MR.Const_HoleFillPlan", "classMR_1_1Const__HoleFillPlan.html", [
         [ "MR.HoleFillPlan", "classMR_1_1HoleFillPlan.html", null ]
@@ -1534,6 +1543,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_MutexOwner", "classMR_1_1Const__MutexOwner.html", [
         [ "MR.MutexOwner", "classMR_1_1MutexOwner.html", null ]
+      ] ],
+      [ "MR.Const_NarrowNeckSegmentPolicy", "classMR_1_1Const__NarrowNeckSegmentPolicy.html", [
+        [ "MR.NarrowNeckSegmentPolicy", "classMR_1_1NarrowNeckSegmentPolicy.html", null ]
       ] ],
       [ "MR.Const_NewEdgesMap", "classMR_1_1Const__NewEdgesMap.html", [
         [ "MR.NewEdgesMap", "classMR_1_1NewEdgesMap.html", null ]
@@ -2216,6 +2228,15 @@ var hierarchy =
       [ "MR.Const_SimpleBinaryVolume", "classMR_1_1Const__SimpleBinaryVolume.html", [
         [ "MR.SimpleBinaryVolume", "classMR_1_1SimpleBinaryVolume.html", null ]
       ] ],
+      [ "MR.Const_SimpleSegmentBdData", "classMR_1_1Const__SimpleSegmentBdData.html", [
+        [ "MR.SimpleSegmentBdData", "classMR_1_1SimpleSegmentBdData.html", null ]
+      ] ],
+      [ "MR.Const_SimpleSegmentData", "classMR_1_1Const__SimpleSegmentData.html", [
+        [ "MR.SimpleSegmentData", "classMR_1_1SimpleSegmentData.html", null ]
+      ] ],
+      [ "MR.Const_SimpleSegmentPolicy", "classMR_1_1Const__SimpleSegmentPolicy.html", [
+        [ "MR.SimpleSegmentPolicy", "classMR_1_1SimpleSegmentPolicy.html", null ]
+      ] ],
       [ "MR.Const_SimpleVolume", "classMR_1_1Const__SimpleVolume.html", [
         [ "MR.SimpleVolume", "classMR_1_1SimpleVolume.html", null ]
       ] ],
@@ -2552,6 +2573,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", [
         [ "MR.Vector_Int_MRFaceId", "classMR_1_1Vector__Int__MRFaceId.html", null ]
+      ] ],
+      [ "MR.Const_Vector_Int_MRGraphEdgeId", "classMR_1_1Const__Vector__Int__MRGraphEdgeId.html", [
+        [ "MR.Vector_Int_MRGraphEdgeId", "classMR_1_1Vector__Int__MRGraphEdgeId.html", null ]
       ] ],
       [ "MR.Const_Vector_Int_MRGraphVertId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html", [
         [ "MR.Vector_Int_MRGraphVertId", "classMR_1_1Vector__Int__MRGraphVertId.html", null ]
@@ -3323,6 +3347,7 @@ var hierarchy =
       [ "MR.Const_Vector_Float_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Vector__Float__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_Vector_Int", "classMR_1_1Const__Vector__Int.html", null ],
       [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", null ],
+      [ "MR.Const_Vector_Int_MRGraphEdgeId", "classMR_1_1Const__Vector__Int__MRGraphEdgeId.html", null ],
       [ "MR.Const_Vector_Int_MRGraphVertId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html", null ],
       [ "MR.Const_Vector_Int_MRRegionId", "classMR_1_1Const__Vector__Int__MRRegionId.html", null ],
       [ "MR.Const_Vector_Int_MRUndirectedEdgeId", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html", null ],
@@ -3607,6 +3632,7 @@ var hierarchy =
       [ "MR.Const_Vector_Float_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Vector__Float__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_Vector_Int", "classMR_1_1Const__Vector__Int.html", null ],
       [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", null ],
+      [ "MR.Const_Vector_Int_MRGraphEdgeId", "classMR_1_1Const__Vector__Int__MRGraphEdgeId.html", null ],
       [ "MR.Const_Vector_Int_MRGraphVertId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html", null ],
       [ "MR.Const_Vector_Int_MRRegionId", "classMR_1_1Const__Vector__Int__MRRegionId.html", null ],
       [ "MR.Const_Vector_Int_MRUndirectedEdgeId", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html", null ],
@@ -4094,11 +4120,14 @@ var hierarchy =
       [ "MR.Const_GraphVertBitSet", "classMR_1_1Const__GraphVertBitSet.html", null ],
       [ "MR.Const_GridSettings", "classMR_1_1Const__GridSettings.html", null ],
       [ "MR.Const_GridToMeshSettings", "classMR_1_1Const__GridToMeshSettings.html", null ],
+      [ "MR.Const_Heap_Double_MRGraphEdgeId_StdGreaterDouble", "classMR_1_1Const__Heap__Double__MRGraphEdgeId__StdGreaterDouble.html", null ],
+      [ "MR.Const_Heap_Double_MRGraphEdgeId_StdGreaterDouble.Const_Element", "classMR_1_1Const__Heap__Double__MRGraphEdgeId__StdGreaterDouble_1_1Const__Element.html", null ],
       [ "MR.Const_Heap_Float_MRGraphVertId_StdGreaterFloat", "classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat.html", null ],
       [ "MR.Const_Heap_Float_MRGraphVertId_StdGreaterFloat.Const_Element", "classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1_1Const__Element.html", null ],
       [ "MR.Const_HexPalette", "classMR_1_1Const__HexPalette.html", null ],
       [ "MR.Const_Histogram", "classMR_1_1Const__Histogram.html", null ],
       [ "MR.Const_HistoryAction", "classMR_1_1Const__HistoryAction.html", null ],
+      [ "MR.Const_HoleAwareSegmentData", "classMR_1_1Const__HoleAwareSegmentData.html", null ],
       [ "MR.Const_HoleFillPlan", "classMR_1_1Const__HoleFillPlan.html", null ],
       [ "MR.Const_ICP", "classMR_1_1Const__ICP.html", null ],
       [ "MR.Const_ICPGroupPair", "classMR_1_1Const__ICPGroupPair.html", null ],
@@ -4244,6 +4273,7 @@ var hierarchy =
       [ "MR.Const_MultiwayICP", "classMR_1_1Const__MultiwayICP.html", null ],
       [ "MR.Const_MultiwayICPSamplingParameters", "classMR_1_1Const__MultiwayICPSamplingParameters.html", null ],
       [ "MR.Const_MutexOwner", "classMR_1_1Const__MutexOwner.html", null ],
+      [ "MR.Const_NarrowNeckSegmentPolicy", "classMR_1_1Const__NarrowNeckSegmentPolicy.html", null ],
       [ "MR.Const_NewEdgesMap", "classMR_1_1Const__NewEdgesMap.html", null ],
       [ "MR.Const_NextEdgeSameLeft", "classMR_1_1Const__NextEdgeSameLeft.html", null ],
       [ "MR.Const_NextEdgeSameOrigin", "classMR_1_1Const__NextEdgeSameOrigin.html", null ],
@@ -4477,6 +4507,9 @@ var hierarchy =
       [ "MR.Const_SignedDistanceToMeshOptions", "classMR_1_1Const__SignedDistanceToMeshOptions.html", null ],
       [ "MR.Const_SignedDistanceToMeshResult", "classMR_1_1Const__SignedDistanceToMeshResult.html", null ],
       [ "MR.Const_SimpleBinaryVolume", "classMR_1_1Const__SimpleBinaryVolume.html", null ],
+      [ "MR.Const_SimpleSegmentBdData", "classMR_1_1Const__SimpleSegmentBdData.html", null ],
+      [ "MR.Const_SimpleSegmentData", "classMR_1_1Const__SimpleSegmentData.html", null ],
+      [ "MR.Const_SimpleSegmentPolicy", "classMR_1_1Const__SimpleSegmentPolicy.html", null ],
       [ "MR.Const_SimpleVolume", "classMR_1_1Const__SimpleVolume.html", null ],
       [ "MR.Const_SimpleVolumeMinMax", "classMR_1_1Const__SimpleVolumeMinMax.html", null ],
       [ "MR.Const_SimpleVolumeMinMaxU16", "classMR_1_1Const__SimpleVolumeMinMaxU16.html", null ],
@@ -4590,6 +4623,7 @@ var hierarchy =
       [ "MR.Const_Vector_Float_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__Vector__Float__MRIdMRSurfaceDistanceStartTag.html", null ],
       [ "MR.Const_Vector_Int", "classMR_1_1Const__Vector__Int.html", null ],
       [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", null ],
+      [ "MR.Const_Vector_Int_MRGraphEdgeId", "classMR_1_1Const__Vector__Int__MRGraphEdgeId.html", null ],
       [ "MR.Const_Vector_Int_MRGraphVertId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html", null ],
       [ "MR.Const_Vector_Int_MRRegionId", "classMR_1_1Const__Vector__Int__MRRegionId.html", null ],
       [ "MR.Const_Vector_Int_MRUndirectedEdgeId", "classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html", null ],

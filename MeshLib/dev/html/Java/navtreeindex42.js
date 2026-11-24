@@ -1,5 +1,13 @@
 var NAVTREEINDEX42 =
 {
+"classmeshlib_1_1DoubleOffsetSettings.html#a862d93257ec67963fbdb16c7ae3cf954":[9,6,1,0,0,294,15],
+"classmeshlib_1_1DoubleOffsetSettings.html#a905002c679a0acdb2027263e3d50a08a":[9,6,0,0,0,294,0],
+"classmeshlib_1_1DoubleOffsetSettings.html#a905002c679a0acdb2027263e3d50a08a":[9,6,1,0,0,294,0],
+"classmeshlib_1_1DoubleOffsetSettings.html#aac9720b14f8ecbf1d5f11269c09a6a34":[9,6,0,0,0,294,12],
+"classmeshlib_1_1DoubleOffsetSettings.html#aac9720b14f8ecbf1d5f11269c09a6a34":[9,6,1,0,0,294,12],
+"classmeshlib_1_1DoubleOffsetSettings.html#ad7869f01ba0afb394eb7b51c2d9ef2ea":[9,6,0,0,0,294,4],
+"classmeshlib_1_1DoubleOffsetSettings.html#ad7869f01ba0afb394eb7b51c2d9ef2ea":[9,6,1,0,0,294,4],
+"classmeshlib_1_1DoubleOffsetSettings.html#adcd221a988465bc0364280d8e0ba1f85":[9,6,0,0,0,294,9],
 "classmeshlib_1_1DoubleOffsetSettings.html#adcd221a988465bc0364280d8e0ba1f85":[9,6,1,0,0,294,9],
 "classmeshlib_1_1DoubleOffsetSettings.html#addf89a0944870bfd3a43da5672699652":[9,6,0,0,0,294,11],
 "classmeshlib_1_1DoubleOffsetSettings.html#addf89a0944870bfd3a43da5672699652":[9,6,1,0,0,294,11],
@@ -241,13 +249,5 @@ var NAVTREEINDEX42 =
 "classmeshlib_1_1EdgeColors.html#a04e7fdbfd93e91140226016ee4b3a583":[9,6,1,0,0,298,11],
 "classmeshlib_1_1EdgeColors.html#a0adea6b3a668e6c627415bcaef71ee7b":[9,6,0,0,0,298,27],
 "classmeshlib_1_1EdgeColors.html#a0adea6b3a668e6c627415bcaef71ee7b":[9,6,1,0,0,298,27],
-"classmeshlib_1_1EdgeColors.html#a0ce83c524db6566b94a9749379f082bc":[9,6,0,0,0,298,33],
-"classmeshlib_1_1EdgeColors.html#a0ce83c524db6566b94a9749379f082bc":[9,6,1,0,0,298,33],
-"classmeshlib_1_1EdgeColors.html#a0fc288e48c80bdbd8e3620f3dca9f687":[9,6,0,0,0,298,5],
-"classmeshlib_1_1EdgeColors.html#a0fc288e48c80bdbd8e3620f3dca9f687":[9,6,1,0,0,298,5],
-"classmeshlib_1_1EdgeColors.html#a17b4c0bda7e71341068853a231c8f02c":[9,6,0,0,0,298,20],
-"classmeshlib_1_1EdgeColors.html#a17b4c0bda7e71341068853a231c8f02c":[9,6,1,0,0,298,20],
-"classmeshlib_1_1EdgeColors.html#a20b5e4504635439f1ba8274080c9b3f2":[9,6,0,0,0,298,32],
-"classmeshlib_1_1EdgeColors.html#a20b5e4504635439f1ba8274080c9b3f2":[9,6,1,0,0,298,32],
-"classmeshlib_1_1EdgeColors.html#a25e054177056887153201e4b423817a9":[9,6,0,0,0,298,0]
+"classmeshlib_1_1EdgeColors.html#a0ce83c524db6566b94a9749379f082bc":[9,6,0,0,0,298,33]
 };

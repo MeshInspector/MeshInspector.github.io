@@ -1,5 +1,13 @@
 var NAVTREEINDEX37 =
 {
+"classmeshlib_1_1DecimateSettings.html#a6739a9ae600f353c0b89acb2109c5d67":[9,6,1,0,0,264,50],
+"classmeshlib_1_1DecimateSettings.html#a6d5c437fb9a3c51c407c9c840eb883e3":[9,6,0,0,0,264,0],
+"classmeshlib_1_1DecimateSettings.html#a6d5c437fb9a3c51c407c9c840eb883e3":[9,6,1,0,0,264,0],
+"classmeshlib_1_1DecimateSettings.html#a6e89bb835fc660631d1625216dc8ac70":[9,6,0,0,0,264,14],
+"classmeshlib_1_1DecimateSettings.html#a6e89bb835fc660631d1625216dc8ac70":[9,6,1,0,0,264,14],
+"classmeshlib_1_1DecimateSettings.html#a70f3965661d36a90a8874bd0a35ba7bd":[9,6,0,0,0,264,66],
+"classmeshlib_1_1DecimateSettings.html#a70f3965661d36a90a8874bd0a35ba7bd":[9,6,1,0,0,264,66],
+"classmeshlib_1_1DecimateSettings.html#a7197a408da0909102864df4631491e15":[9,6,0,0,0,264,58],
 "classmeshlib_1_1DecimateSettings.html#a7197a408da0909102864df4631491e15":[9,6,1,0,0,264,58],
 "classmeshlib_1_1DecimateSettings.html#a7b843fe3ee664066a4329de75bc6d9bc":[9,6,0,0,0,264,54],
 "classmeshlib_1_1DecimateSettings.html#a7b843fe3ee664066a4329de75bc6d9bc":[9,6,1,0,0,264,54],
@@ -241,13 +249,5 @@ var NAVTREEINDEX37 =
 "classmeshlib_1_1DenoiseWithCreasesSettings.html#a881b0f228c0e96cdf5f9d588ce1e3e81":[9,6,1,0,0,269,8],
 "classmeshlib_1_1DenoiseWithCreasesSettings.html#ab026b5604396f20c0c5f767b8226b769":[9,6,0,0,0,269,1],
 "classmeshlib_1_1DenoiseWithCreasesSettings.html#ab026b5604396f20c0c5f767b8226b769":[9,6,1,0,0,269,1],
-"classmeshlib_1_1DenoiseWithCreasesSettings.html#ac000614b671516bc55293f35eec7d286":[9,6,0,0,0,269,9],
-"classmeshlib_1_1DenoiseWithCreasesSettings.html#ac000614b671516bc55293f35eec7d286":[9,6,1,0,0,269,9],
-"classmeshlib_1_1DenoiseWithCreasesSettings.html#af6ffe30f80ca716ca0b778017ef268b2":[9,6,0,0,0,269,7],
-"classmeshlib_1_1DenoiseWithCreasesSettings.html#af6ffe30f80ca716ca0b778017ef268b2":[9,6,1,0,0,269,7],
-"classmeshlib_1_1DenoiseWithCreasesSettings.html#aff5bb31e67f77f1748ac0a1b1ced8ec9":[9,6,0,0,0,269,4],
-"classmeshlib_1_1DenoiseWithCreasesSettings.html#aff5bb31e67f77f1748ac0a1b1ced8ec9":[9,6,1,0,0,269,4],
-"classmeshlib_1_1DenseBox.html":[9,6,0,0,0,270],
-"classmeshlib_1_1DenseBox.html":[9,6,1,0,0,270],
-"classmeshlib_1_1DenseBox.html#a0ba3772a67827e00dc903041b80c0b9d":[9,6,0,0,0,270,12]
+"classmeshlib_1_1DenoiseWithCreasesSettings.html#ac000614b671516bc55293f35eec7d286":[9,6,0,0,0,269,9]
 };

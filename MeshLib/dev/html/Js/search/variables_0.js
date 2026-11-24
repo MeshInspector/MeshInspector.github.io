@@ -28,7 +28,7 @@ var searchData=
   ['anode_25',['aNode',['../classNodeNode.html#a3646fd502a7a9bc3110dc1b32f15b6d8',1,'NodeNode']]],
   ['arccenter_26',['arcCenter',['../classGCommand.html#ab32565ac295b6cc976107efb199a9f99',1,'GCommand']]],
   ['arcplane_27',['arcPlane',['../classGCommand.html#a21078114600dd7f3af00d35c450047bd',1,'GCommand']]],
-  ['area_28',['area',['../classDipole.html#af4341a437a4bf3c51672bdd33c246419',1,'Dipole::area'],['../classWatershedGraph__BasinInfo.html#a2edff4487e222b53314a62c106d82ae4',1,'WatershedGraph_BasinInfo::area']]],
+  ['area_28',['area',['../classDipole.html#af4341a437a4bf3c51672bdd33c246419',1,'Dipole::area'],['../classHoleAwareSegmentData.html#a8539aa24436834c39c34353998f1651c',1,'HoleAwareSegmentData::area'],['../classSimpleSegmentData.html#a3e0116705539ea20679dc22dda2ee16e',1,'SimpleSegmentData::area'],['../classWatershedGraph__BasinInfo.html#a2edff4487e222b53314a62c106d82ae4',1,'WatershedGraph_BasinInfo::area']]],
   ['aundiredge_29',['aUndirEdge',['../classUndirectedEdgeUndirectedEdge.html#ae92d17be9f5e8e67523bd233f3f793c3',1,'UndirectedEdgeUndirectedEdge']]],
   ['automaticradiusincrease_30',['automaticRadiusIncrease',['../classTriangulationParameters.html#ae21cb1f67a74087ae9f3e1fddc74d048',1,'TriangulationParameters::automaticRadiusIncrease'],['../classTriangulationHelpers_1_1Settings.html#a1e7f5578c4d7fda312cea671ad2d59e8',1,'TriangulationHelpers::Settings::automaticRadiusIncrease']]],
   ['axis_31',['axis',['../classCone3d.html#a73d44b5fe5628000d0f68cf09ed51241',1,'Cone3d::axis'],['../classCone3f.html#a9095e0e9be87c57a27afe668dd61c593',1,'Cone3f::axis'],['../classFindOverhangsSettings.html#a6da32ed09c4ddcf7842642abef1b1e1b',1,'FindOverhangsSettings::axis']]]

@@ -142,9 +142,47 @@ $(function(){initNavTree('MRSegmentMesh_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aae4ade9cb537a5ce818b41e606f65cbb" id="r_aae4ade9cb537a5ce818b41e606f65cbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshCollide_8h.html#aba9a9797e256d419b82e9ab4886546fd">MR_expected_std_vector_MR_FaceFace_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae4ade9cb537a5ce818b41e606f65cbb">MR_segmentMesh</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *curvMetric, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
+<tr class="memitem:af7bb32fdf07efe880ceb846922121ec7" id="r_af7bb32fdf07efe880ceb846922121ec7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7bb32fdf07efe880ceb846922121ec7">MR_findLargestNarrowNeckSegment</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *curvMetric, double maxNeckLength, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
 <tr class="memitem:a4e8765ad5eb7eb8f2dfa89456baf6d3c" id="r_a4e8765ad5eb7eb8f2dfa89456baf6d3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e8765ad5eb7eb8f2dfa89456baf6d3c">MR_findSegmentBoundaries</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRMeshCollide_8h.html#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a> *groupOrder, int numSegments, <a class="el" href="MRCtm_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *outFaceColors)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="af7bb32fdf07efe880ceb846922121ec7" name="af7bb32fdf07efe880ceb846922121ec7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7bb32fdf07efe880ceb846922121ec7">&#9670;&#160;</a></span>MR_findLargestNarrowNeckSegment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> * MR_findLargestNarrowNeckSegment </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>curvMetric</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>maxNeckLength</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>progress</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>segments the mesh using MeshSegmenter with NarrowNeckSegmentPolicy till no more merges are allowed, and returns the faces of the largest by area segment; the parts attached to it only by a narrow neck (e.g. scanning artifacts) are not included in the result </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">maxNeckLength</td><td>two segments are not merged if their common boundary (neck) is shorter than this value, and at least one of them has the boundary with mesh holes longer than the neck Generated from function <span class="tt">MR::findLargestNarrowNeckSegment</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">curvMetric</span> can not be null. It is a single object. Parameter <span class="tt">progress</span> is a single object. Parameter <span class="tt">progress</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__FaceBitSet__std__string_8h.html#a49f25f78be01bd3b7e077cd474bb21d5" title="Destroys a heap-allocated instance of MR_expected_MR_FaceBitSet_std_string. Does nothing if the point...">MR_expected_MR_FaceBitSet_std_string_Destroy()</a></span> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a4e8765ad5eb7eb8f2dfa89456baf6d3c" name="a4e8765ad5eb7eb8f2dfa89456baf6d3c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e8765ad5eb7eb8f2dfa89456baf6d3c">&#9670;&#160;</a></span>MR_findSegmentBoundaries()</h2>
 

@@ -609,6 +609,9 @@ var hierarchy =
     [ "mrmeshpy.Const_std_vector_Graph_EndVertices_Allocator_Graph_EndVertices", "classmrmeshpy_1_1Const__std__vector__Graph__EndVertices__Allocator__Graph__EndVertices.html", [
       [ "mrmeshpy.std_vector_Graph_EndVertices_Allocator_Graph_EndVertices", "classmrmeshpy_1_1std__vector__Graph__EndVertices__Allocator__Graph__EndVertices.html", null ]
     ] ],
+    [ "mrmeshpy.Const_std_vector_Heap_double_Id_GraphEdgeTag_std_greater_double_Element", "classmrmeshpy_1_1Const__std__vector__Heap__double__Id__GraphEdgeTag__std__greater__double__Element.html", [
+      [ "mrmeshpy.std_vector_Heap_double_Id_GraphEdgeTag_std_greater_double_Element", "classmrmeshpy_1_1std__vector__Heap__double__Id__GraphEdgeTag__std__greater__double__Element.html", null ]
+    ] ],
     [ "mrmeshpy.Const_std_vector_Heap_float_Id_GraphVertTag_std_greater_float_Element", "classmrmeshpy_1_1Const__std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html", [
       [ "mrmeshpy.std_vector_Heap_float_Id_GraphVertTag_std_greater_float_Element", "classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html", null ]
     ] ],
@@ -1906,7 +1909,12 @@ var hierarchy =
     [ "mrmeshpy.ConstEdgeTri", "classmrmeshpy_1_1ConstEdgeTri.html", [
       [ "mrmeshpy.EdgeTri", "classmrmeshpy_1_1EdgeTri.html", null ]
     ] ],
+    [ "mrmeshpy.ConstHeap_double_GraphEdgeId_std_greater_double.ConstElement", "classmrmeshpy_1_1ConstHeap__double__GraphEdgeId__std__greater__double_1_1ConstElement.html", null ],
     [ "mrmeshpy.ConstHeap_float_GraphVertId_std_greater_float.ConstElement", "classmrmeshpy_1_1ConstHeap__float__GraphVertId__std__greater__float_1_1ConstElement.html", null ],
+    [ "mrmeshpy.Heap_double_GraphEdgeId_std_greater_double.ConstElement", "classmrmeshpy_1_1Heap__double__GraphEdgeId__std__greater__double_1_1ConstElement.html", [
+      [ "mrmeshpy.ConstHeap_double_GraphEdgeId_std_greater_double.Element", "classmrmeshpy_1_1ConstHeap__double__GraphEdgeId__std__greater__double_1_1Element.html", null ],
+      [ "mrmeshpy.Heap_double_GraphEdgeId_std_greater_double.Element", "classmrmeshpy_1_1Heap__double__GraphEdgeId__std__greater__double_1_1Element.html", null ]
+    ] ],
     [ "mrmeshpy.Heap_float_GraphVertId_std_greater_float.ConstElement", "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1ConstElement.html", [
       [ "mrmeshpy.ConstHeap_float_GraphVertId_std_greater_float.Element", "classmrmeshpy_1_1ConstHeap__float__GraphVertId__std__greater__float_1_1Element.html", null ],
       [ "mrmeshpy.Heap_float_GraphVertId_std_greater_float.Element", "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1Element.html", null ]
@@ -2122,6 +2130,9 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ConstGridToMeshSettings", "classmrmeshpy_1_1ConstGridToMeshSettings.html", [
       [ "mrmeshpy.GridToMeshSettings", "classmrmeshpy_1_1GridToMeshSettings.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstHeap_double_GraphEdgeId_std_greater_double", "classmrmeshpy_1_1ConstHeap__double__GraphEdgeId__std__greater__double.html", [
+      [ "mrmeshpy.Heap_double_GraphEdgeId_std_greater_double", "classmrmeshpy_1_1Heap__double__GraphEdgeId__std__greater__double.html", null ]
     ] ],
     [ "mrmeshpy.ConstHeap_float_GraphVertId_std_greater_float", "classmrmeshpy_1_1ConstHeap__float__GraphVertId__std__greater__float.html", [
       [ "mrmeshpy.Heap_float_GraphVertId_std_greater_float", "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float.html", null ]
@@ -2923,6 +2934,9 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.MeshSave.ConstNamedXfMesh", "classmrmeshpy_1_1MeshSave_1_1ConstNamedXfMesh.html", [
       [ "mrmeshpy.MeshSave.NamedXfMesh", "classmrmeshpy_1_1MeshSave_1_1NamedXfMesh.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstNarrowNeckSegmentPolicy", "classmrmeshpy_1_1ConstNarrowNeckSegmentPolicy.html", [
+      [ "mrmeshpy.NarrowNeckSegmentPolicy", "classmrmeshpy_1_1NarrowNeckSegmentPolicy.html", null ]
     ] ],
     [ "mrmeshpy.Nesting.ConstNesting3mfParams", "classmrmeshpy_1_1Nesting_1_1ConstNesting3mfParams.html", [
       [ "mrmeshpy.Nesting.Nesting3mfParams", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html", null ]
@@ -3746,6 +3760,20 @@ var hierarchy =
     [ "mrmeshpy.ConstSimpleBinaryVolume", "classmrmeshpy_1_1ConstSimpleBinaryVolume.html", [
       [ "mrmeshpy.SimpleBinaryVolume", "classmrmeshpy_1_1SimpleBinaryVolume.html", null ]
     ] ],
+    [ "mrmeshpy.ConstSimpleSegmentBdData", "classmrmeshpy_1_1ConstSimpleSegmentBdData.html", [
+      [ "mrmeshpy.SimpleSegmentBdData", "classmrmeshpy_1_1SimpleSegmentBdData.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstSimpleSegmentData", "classmrmeshpy_1_1ConstSimpleSegmentData.html", [
+      [ "mrmeshpy.ConstHoleAwareSegmentData", "classmrmeshpy_1_1ConstHoleAwareSegmentData.html", [
+        [ "mrmeshpy.HoleAwareSegmentData", "classmrmeshpy_1_1HoleAwareSegmentData.html", null ]
+      ] ],
+      [ "mrmeshpy.SimpleSegmentData", "classmrmeshpy_1_1SimpleSegmentData.html", [
+        [ "mrmeshpy.HoleAwareSegmentData", "classmrmeshpy_1_1HoleAwareSegmentData.html", null ]
+      ] ]
+    ] ],
+    [ "mrmeshpy.ConstSimpleSegmentPolicy", "classmrmeshpy_1_1ConstSimpleSegmentPolicy.html", [
+      [ "mrmeshpy.SimpleSegmentPolicy", "classmrmeshpy_1_1SimpleSegmentPolicy.html", null ]
+    ] ],
     [ "mrmeshpy.ConstSimpleVolume", "classmrmeshpy_1_1ConstSimpleVolume.html", [
       [ "mrmeshpy.ConstSimpleVolumeMinMax", "classmrmeshpy_1_1ConstSimpleVolumeMinMax.html", null ],
       [ "mrmeshpy.SimpleVolume", "classmrmeshpy_1_1SimpleVolume.html", [
@@ -4255,6 +4283,9 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ConstVector_int_FaceId", "classmrmeshpy_1_1ConstVector__int__FaceId.html", [
       [ "mrmeshpy.Vector_int_FaceId", "classmrmeshpy_1_1Vector__int__FaceId.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstVector_int_GraphEdgeId", "classmrmeshpy_1_1ConstVector__int__GraphEdgeId.html", [
+      [ "mrmeshpy.Vector_int_GraphEdgeId", "classmrmeshpy_1_1Vector__int__GraphEdgeId.html", null ]
     ] ],
     [ "mrmeshpy.ConstVector_int_GraphVertId", "classmrmeshpy_1_1ConstVector__int__GraphVertId.html", [
       [ "mrmeshpy.Vector_int_GraphVertId", "classmrmeshpy_1_1Vector__int__GraphVertId.html", null ]
@@ -4869,6 +4900,7 @@ var hierarchy =
     [ "mrmeshpy.SceneLoad", "classmrmeshpy_1_1SceneLoad.html", null ],
     [ "mrmeshpy.SceneSave", "classmrmeshpy_1_1SceneSave.html", null ],
     [ "mrmeshpy.SelfIntersections", "classmrmeshpy_1_1SelfIntersections.html", null ],
+    [ "mrmeshpy.std_greater_double", "classmrmeshpy_1_1std__greater__double.html", null ],
     [ "mrmeshpy.std_greater_float", "classmrmeshpy_1_1std__greater__float.html", null ],
     [ "mrmeshpy.std_monostate", "classmrmeshpy_1_1std__monostate.html", null ],
     [ "mrmeshpy.std_string_output", "classmrmeshpy_1_1std__string__output.html", null ],

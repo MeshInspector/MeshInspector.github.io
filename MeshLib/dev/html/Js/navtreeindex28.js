@@ -1,5 +1,8 @@
 var NAVTREEINDEX28 =
 {
+"classDistanceMeasurementObject.html#a58436468179c714c5d3e664e648beea3":[9,4,1,0,244,81],
+"classDistanceMeasurementObject.html#a5aec508452c231ff1ad2c76a625f40e6":[9,4,1,0,244,130],
+"classDistanceMeasurementObject.html#a5e192da62fd446e8e33c05a8efc41d15":[9,4,1,0,244,85],
 "classDistanceMeasurementObject.html#a61d16031563982268fb6e46f2ca55936":[9,4,1,0,244,21],
 "classDistanceMeasurementObject.html#a65e670e4d3f1eaae87860565a90eec41":[9,4,1,0,244,104],
 "classDistanceMeasurementObject.html#a668a83ec6ebe75b28a6f936c3f9d2634":[9,4,1,0,244,30],
@@ -246,8 +249,5 @@ var NAVTREEINDEX28 =
 "classEdgeBitSet.html#ae5f3645c1eb9d88de7899c79218bf6d3":[9,4,1,0,253,21],
 "classEdgeBitSet.html#ae7e8a30ac001a98fc17c2ee459b9a000":[9,4,1,0,253,51],
 "classEdgeBitSet.html#af0bb485984a14a5a264737413a7475b7":[9,4,1,0,253,34],
-"classEdgeBitSet.html#af0dd46eb0dd1054ba8d33cf0a9231455":[9,4,1,0,253,77],
-"classEdgeBitSet.html#af55f14d8714b07d58c8bb99640e34cfe":[9,4,1,0,253,54],
-"classEdgeBitSet.html#af582e678391a60dd4bf2644bbded64a1":[9,4,1,0,253,79],
-"classEdgeBitSet.html#af765bd417929eaf499d9c592c95af8cd":[9,4,1,0,253,52]
+"classEdgeBitSet.html#af0dd46eb0dd1054ba8d33cf0a9231455":[9,4,1,0,253,77]
 };

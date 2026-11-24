@@ -1,5 +1,13 @@
 var NAVTREEINDEX44 =
 {
+"classmeshlib_1_1EdgeMap.html#afb45ad166a98e005c159b77c5919526c":[9,6,1,0,0,301,41],
+"classmeshlib_1_1EdgePathsAStarBuilder.html":[9,6,0,0,0,302],
+"classmeshlib_1_1EdgePathsAStarBuilder.html":[9,6,1,0,0,302],
+"classmeshlib_1_1EdgePathsAStarBuilder.html#a05bed9990f39187d91321a05efdf5b02":[9,6,0,0,0,302,14],
+"classmeshlib_1_1EdgePathsAStarBuilder.html#a05bed9990f39187d91321a05efdf5b02":[9,6,1,0,0,302,14],
+"classmeshlib_1_1EdgePathsAStarBuilder.html#a0938212bd67adefd1a50d254aac83d84":[9,6,0,0,0,302,3],
+"classmeshlib_1_1EdgePathsAStarBuilder.html#a0938212bd67adefd1a50d254aac83d84":[9,6,1,0,0,302,3],
+"classmeshlib_1_1EdgePathsAStarBuilder.html#a20ae54db56c5cec1724f747be9883606":[9,6,0,0,0,302,6],
 "classmeshlib_1_1EdgePathsAStarBuilder.html#a20ae54db56c5cec1724f747be9883606":[9,6,1,0,0,302,6],
 "classmeshlib_1_1EdgePathsAStarBuilder.html#a608582a2ceb4b3e5f634c05cc22b7e7e":[9,6,0,0,0,302,1],
 "classmeshlib_1_1EdgePathsAStarBuilder.html#a608582a2ceb4b3e5f634c05cc22b7e7e":[9,6,1,0,0,302,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX44 =
 "classmeshlib_1_1EdgePointd.html#a5a4e2053c74e6a2e746213583cc444eb":[9,6,1,0,0,308,14],
 "classmeshlib_1_1EdgePointd.html#a5b887d5a63f42c561ba0907772b5d199":[9,6,0,0,0,308,6],
 "classmeshlib_1_1EdgePointd.html#a5b887d5a63f42c561ba0907772b5d199":[9,6,1,0,0,308,6],
-"classmeshlib_1_1EdgePointd.html#a643f94d3433be9bbb6c8d9d26e45cbbe":[9,6,0,0,0,308,17],
-"classmeshlib_1_1EdgePointd.html#a643f94d3433be9bbb6c8d9d26e45cbbe":[9,6,1,0,0,308,17],
-"classmeshlib_1_1EdgePointd.html#a6cc0ff882a3f08233b5ea28b7aae2426":[9,6,0,0,0,308,4],
-"classmeshlib_1_1EdgePointd.html#a6cc0ff882a3f08233b5ea28b7aae2426":[9,6,1,0,0,308,4],
-"classmeshlib_1_1EdgePointd.html#a810cb290e2f7743238a79dc240ac36e2":[9,6,0,0,0,308,22],
-"classmeshlib_1_1EdgePointd.html#a810cb290e2f7743238a79dc240ac36e2":[9,6,1,0,0,308,22],
-"classmeshlib_1_1EdgePointd.html#a81a5cd8d96160760809181e3acd142a3":[9,6,0,0,0,308,16],
-"classmeshlib_1_1EdgePointd.html#a81a5cd8d96160760809181e3acd142a3":[9,6,1,0,0,308,16],
-"classmeshlib_1_1EdgePointd.html#a9c4077bf20c98d5824d69a03b2f34c8d":[9,6,0,0,0,308,11]
+"classmeshlib_1_1EdgePointd.html#a643f94d3433be9bbb6c8d9d26e45cbbe":[9,6,0,0,0,308,17]
 };

@@ -662,6 +662,7 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AFindOverhangsSettings" id="r_MR_3A_3AFindOverhangsSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">parameters for <a class="el" href="#ga9b3da08af6167e0e5b5f9d6b44329945" title="Find face regions that might create overhangs.">MR::findOverhangs</a>  <a href="structMR_1_1FindOverhangsSettings.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AMeshRegion_3C_20RegionTag_20_3E" id="r_MR_3A_3AMeshRegion_3C_20RegionTag_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshRegion.html">MR::MeshRegion&lt; RegionTag &gt;</a></td></tr>
+<tr class="memitem:MR_3A_3AMeshSegmenter_3C_20Policy_20_3E" id="r_MR_3A_3AMeshSegmenter_3C_20Policy_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshSegmenter.html">MR::MeshSegmenter&lt; Policy &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3AMeshPoint" id="r_MR_3A_3AMeshPoint"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshPoint.html">MR::MeshPoint</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes the point of measurement on mesh  <a href="structMR_1_1MeshPoint.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AInSphereSearchSettings" id="r_MR_3A_3AInSphereSearchSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1InSphereSearchSettings.html">MR::InSphereSearchSettings</a></td></tr>
@@ -687,6 +688,9 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters that are used for sampling of the <a class="el" href="classMR_1_1MultiwayICP.html">MultiwayICP</a> objects.  <a href="structMR_1_1MultiwayICPSamplingParameters.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AMultiwayICP" id="r_MR_3A_3AMultiwayICP"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MultiwayICP.html">MR::MultiwayICP</a></td></tr>
 <tr class="memitem:MR_3A_3AMutexOwner" id="r_MR_3A_3AMutexOwner"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MutexOwner.html">MR::MutexOwner</a></td></tr>
+<tr class="memitem:MR_3A_3AHoleAwareSegmentData" id="r_MR_3A_3AHoleAwareSegmentData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1HoleAwareSegmentData.html">MR::HoleAwareSegmentData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">data of one segment for <a class="el" href="classMR_1_1MeshSegmenter.html">MeshSegmenter</a>: its area and the length of its boundary with mesh holes  <a href="structMR_1_1HoleAwareSegmentData.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3ANarrowNeckSegmentPolicy" id="r_MR_3A_3ANarrowNeckSegmentPolicy"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NarrowNeckSegmentPolicy.html">MR::NarrowNeckSegmentPolicy</a></td></tr>
 <tr class="memitem:MR_3A_3ANesting_3A_3ANestingResult" id="r_MR_3A_3ANesting_3A_3ANestingResult"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Nesting_1_1NestingResult.html">MR::Nesting::NestingResult</a></td></tr>
 <tr class="memitem:MR_3A_3ANesting_3A_3AMeshXf" id="r_MR_3A_3ANesting_3A_3AMeshXf"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Nesting_1_1MeshXf.html">MR::Nesting::MeshXf</a></td></tr>
 <tr class="memitem:MR_3A_3ANesting_3A_3ANestingBaseParams" id="r_MR_3A_3ANesting_3A_3ANestingBaseParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Nesting_1_1NestingBaseParams.html">MR::Nesting::NestingBaseParams</a></td></tr>
@@ -858,6 +862,11 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ASeparationPointStorage_3A_3ABlock" id="r_MR_3A_3ASeparationPointStorage_3A_3ABlock"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></td></tr>
 <tr class="memitem:MR_3A_3ASharpenMarchingCubesMeshSettings" id="r_MR_3A_3ASharpenMarchingCubesMeshSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SharpenMarchingCubesMeshSettings.html">MR::SharpenMarchingCubesMeshSettings</a></td></tr>
 <tr class="memitem:MR_3A_3ASignal_3C_20T_20_3E" id="r_MR_3A_3ASignal_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Signal.html">MR::Signal&lt; T &gt;</a></td></tr>
+<tr class="memitem:MR_3A_3ASimpleSegmentData" id="r_MR_3A_3ASimpleSegmentData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SimpleSegmentData.html">MR::SimpleSegmentData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">simple data of one segment for <a class="el" href="classMR_1_1MeshSegmenter.html">MeshSegmenter</a>: its area  <a href="structMR_1_1SimpleSegmentData.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3ASimpleSegmentBdData" id="r_MR_3A_3ASimpleSegmentBdData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SimpleSegmentBdData.html">MR::SimpleSegmentBdData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">simple data of the common boundary of two segments for <a class="el" href="classMR_1_1MeshSegmenter.html">MeshSegmenter</a>  <a href="structMR_1_1SimpleSegmentBdData.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3ASimpleSegmentPolicy" id="r_MR_3A_3ASimpleSegmentPolicy"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SimpleSegmentPolicy.html">MR::SimpleSegmentPolicy</a></td></tr>
 <tr class="memitem:MR_3A_3ASkyPatch" id="r_MR_3A_3ASkyPatch"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SkyPatch.html">MR::SkyPatch</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">this class represents a portion of the sky, and its radiation  <a href="structMR_1_1SkyPatch.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ASparsePolynomial_3C_20C_2C_20D_2C_20M_20_3E" id="r_MR_3A_3ASparsePolynomial_3C_20C_2C_20D_2C_20M_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial&lt; C, D, M &gt;</a></td></tr>
@@ -1749,6 +1758,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga0a57020e6aaf506fbbd6c3ce60c21412" id="r_ga0a57020e6aaf506fbbd6c3ce60c21412"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0a57020e6aaf506fbbd6c3ce60c21412">MR::MeshOrPoints::LimitedProjectorFunc</a> = std::function&lt;bool( const Vector3f&amp; p, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>&amp; res )&gt;</td></tr>
 <tr class="memitem:ga51c5c9bdf012ab12e360b5e161bb378e" id="r_ga51c5c9bdf012ab12e360b5e161bb378e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga51c5c9bdf012ab12e360b5e161bb378e">MR::ProjectOnAllCallback</a> = std::function&lt;void( ObjId, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">MeshOrPoints::ProjectionResult</a> )&gt;</td></tr>
 <tr class="memdesc:ga51c5c9bdf012ab12e360b5e161bb378e"><td class="mdescLeft">&#160;</td><td class="mdescRight">to receive object id + projection result on it  <br /></td></tr>
+<tr class="memitem:ga6157c47e76c8b8f7e4d668dcd595bb7d" id="r_ga6157c47e76c8b8f7e4d668dcd595bb7d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6157c47e76c8b8f7e4d668dcd595bb7d">MR::MeshSegmenter&lt; Policy &gt;::SegmentData</a> = typename Policy::SegmentData</td></tr>
+<tr class="memitem:ga0b9724c22a293f5d879a6d6111fd7b4d" id="r_ga0b9724c22a293f5d879a6d6111fd7b4d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0b9724c22a293f5d879a6d6111fd7b4d">MR::MeshSegmenter&lt; Policy &gt;::SegmentBdData</a> = typename Policy::SegmentBdData</td></tr>
 <tr class="memitem:gacc39cd0582abbbb48612bd904fe74210" id="r_gacc39cd0582abbbb48612bd904fe74210"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacc39cd0582abbbb48612bd904fe74210">MR::ICPObjects</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a>, ObjId&gt;</td></tr>
 <tr class="memitem:gadd4fa046bbf16a56e7eae86658185885" id="r_gadd4fa046bbf16a56e7eae86658185885"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadd4fa046bbf16a56e7eae86658185885">MR::ICPLayer</a> = int</td></tr>
 <tr class="memitem:gab448f2e256aabf3e97eaaef010380fb1" id="r_gab448f2e256aabf3e97eaaef010380fb1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab448f2e256aabf3e97eaaef010380fb1">MR::ICPElementId</a> = <a class="el" href="classMR_1_1Id.html">Id</a>&lt;ICPElemtTag&gt;</td></tr>
@@ -1756,6 +1767,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga331d6b27226046972c32b7d946f0624b" id="r_ga331d6b27226046972c32b7d946f0624b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga331d6b27226046972c32b7d946f0624b">MR::ICPGroupProjector</a> = std::function&lt;void( const Vector3f&amp; p, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">MeshOrPoints::ProjectionResult</a>&amp; res, ObjId&amp; resId )&gt;</td></tr>
 <tr class="memitem:ga3d0081672e0ccdc9545b8df2b84c3663" id="r_ga3d0081672e0ccdc9545b8df2b84c3663"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3d0081672e0ccdc9545b8df2b84c3663">MR::ICPPairsGrid</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1ICPGroupPairs.html">ICPGroupPairs</a>, <a class="el" href="#gab448f2e256aabf3e97eaaef010380fb1">ICPElementId</a>&gt;, <a class="el" href="#gab448f2e256aabf3e97eaaef010380fb1">ICPElementId</a>&gt;</td></tr>
 <tr class="memitem:ga37a8e0d52c2729455ea42255f7d90942" id="r_ga37a8e0d52c2729455ea42255f7d90942"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga37a8e0d52c2729455ea42255f7d90942">MR::MultiwayICP::PairsPerLayer</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="#ga3d0081672e0ccdc9545b8df2b84c3663">ICPPairsGrid</a>, <a class="el" href="#gadd4fa046bbf16a56e7eae86658185885">ICPLayer</a>&gt;</td></tr>
+<tr class="memitem:gaf6eb7e7b6ace94af407a1ef85f24d6ec" id="r_gaf6eb7e7b6ace94af407a1ef85f24d6ec"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf6eb7e7b6ace94af407a1ef85f24d6ec">MR::NarrowNeckSegmentPolicy::SegmentData</a> = <a class="el" href="structMR_1_1HoleAwareSegmentData.html">HoleAwareSegmentData</a></td></tr>
+<tr class="memitem:ga5f7b09ab26e7f33175e583379ebd2b64" id="r_ga5f7b09ab26e7f33175e583379ebd2b64"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5f7b09ab26e7f33175e583379ebd2b64">MR::NarrowNeckSegmentPolicy::SegmentBdData</a> = <a class="el" href="structMR_1_1SimpleSegmentBdData.html">SimpleSegmentBdData</a></td></tr>
 <tr class="memitem:gab6bd7006ecd86f31248360a557a17d09" id="r_gab6bd7006ecd86f31248360a557a17d09"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab6bd7006ecd86f31248360a557a17d09">MR::ObjectComparableWithReference::ComparisonReferenceValue::Var</a> = std::variant&lt;float, Vector3f&gt;</td></tr>
 <tr class="memitem:gae2ed923e558fd3193c040fc672e7e537" id="r_gae2ed923e558fd3193c040fc672e7e537"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae2ed923e558fd3193c040fc672e7e537">MR::ObjectGcode::GcodeChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void( uint32_t mask )&gt;</td></tr>
 <tr class="memdesc:gae2ed923e558fd3193c040fc672e7e537"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal about gcode changing, triggered in setDirtyFlag  <br /></td></tr>
@@ -1813,6 +1826,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga13c6625ef2ade2be056564a39a8474d2" id="r_ga13c6625ef2ade2be056564a39a8474d2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga13c6625ef2ade2be056564a39a8474d2">MR::GroupOrder</a> = std::vector&lt;<a class="el" href="structMR_1_1FaceFace.html">FaceFace</a>&gt;</td></tr>
 <tr class="memitem:ga9818c25296630cb432dbe0d4e068734d" id="r_ga9818c25296630cb432dbe0d4e068734d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9818c25296630cb432dbe0d4e068734d">MR::SeparationPointSet</a> = std::array&lt;VertId, size_t( <a class="el" href="#gga280c060609c3f9f4b19b026220db29feae93f994f01c537c4e2f7d8528c3eb5e9">NeighborDir::Count</a> )&gt;</td></tr>
 <tr class="memitem:gabe4fc717ac175a150ec372e71e5d0ba1" id="r_gabe4fc717ac175a150ec372e71e5d0ba1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabe4fc717ac175a150ec372e71e5d0ba1">MR::SeparationPointMap</a> = <a class="el" href="#ga9dfad208b725d59063370f3881b40552">HashMap</a>&lt;size_t, <a class="el" href="#ga9818c25296630cb432dbe0d4e068734d">SeparationPointSet</a>&gt;</td></tr>
+<tr class="memitem:gafac7c6b9e688ab6b8b34745b79824093" id="r_gafac7c6b9e688ab6b8b34745b79824093"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafac7c6b9e688ab6b8b34745b79824093">MR::SimpleSegmentPolicy::SegmentData</a> = <a class="el" href="structMR_1_1SimpleSegmentData.html">SimpleSegmentData</a></td></tr>
+<tr class="memitem:ga353a64daee39a6033d72c9a7c35d2e86" id="r_ga353a64daee39a6033d72c9a7c35d2e86"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga353a64daee39a6033d72c9a7c35d2e86">MR::SimpleSegmentPolicy::SegmentBdData</a> = <a class="el" href="structMR_1_1SimpleSegmentBdData.html">SimpleSegmentBdData</a></td></tr>
 <tr class="memitem:gaa4ca76b378d33a7868bd13efacf4daa0" id="r_gaa4ca76b378d33a7868bd13efacf4daa0"><td class="memTemplParams" colspan="2">template&lt;typename T, typename D, D M&gt; </td></tr>
 <tr class="memitem:gaa4ca76b378d33a7868bd13efacf4daa0 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa4ca76b378d33a7868bd13efacf4daa0">MR::SparsePolynomialProduct</a> = <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt;decltype( std::declval&lt;T&gt;() * std::declval&lt;T&gt;() ), D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a>&gt;</td></tr>
 <tr class="memdesc:gaa4ca76b378d33a7868bd13efacf4daa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">the type of the polynomial with coefficients of the type of the product of two values of type T  <br /></td></tr>
@@ -6144,6 +6159,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga615f518e4fa04b0ff073fe2c780e4dda" id="r_ga615f518e4fa04b0ff073fe2c780e4dda"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga615f518e4fa04b0ff073fe2c780e4dda">MR::patchMeshByGroups</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const FaceBitSet &amp;faces, float angleThreshold=0.5f, const <a class="el" href="structMR_1_1FillHoleNicelySettings.html">FillHoleNicelySettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:gadca0381ca92c2a01ec82ddc1dbd7647a" id="r_gadca0381ca92c2a01ec82ddc1dbd7647a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadca0381ca92c2a01ec82ddc1dbd7647a">MR::replicateZ</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;m, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;target)</td></tr>
 <tr class="memdesc:gadca0381ca92c2a01ec82ddc1dbd7647a"><td class="mdescLeft">&#160;</td><td class="mdescRight">adjusts z-coordinates of (m) vertices to make adjusted (m) similar to (target)  <br /></td></tr>
+<tr class="memitem:gad2affac1d929ebbf25791148ac21a2d4" id="r_gad2affac1d929ebbf25791148ac21a2d4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga13c6625ef2ade2be056564a39a8474d2">GroupOrder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad2affac1d929ebbf25791148ac21a2d4">MR::MeshSegmenter&lt; Policy &gt;::run</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const Policy &amp;policy, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
 <tr class="memitem:ga834d4370af921a7bc3c36d95b47f25d5" id="r_ga834d4370af921a7bc3c36d95b47f25d5"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga834d4370af921a7bc3c36d95b47f25d5 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga834d4370af921a7bc3c36d95b47f25d5">MR::onEdgeSplitVertAttribute</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, VertId &gt; &amp;data)</td></tr>
 <tr class="memitem:ga858bd56c47ccd2af4b01a5bfa189ff64" id="r_ga858bd56c47ccd2af4b01a5bfa189ff64"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
@@ -6537,6 +6553,10 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga8e3788887677b1c7381950a3aa7dcaac" id="r_ga8e3788887677b1c7381950a3aa7dcaac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8e3788887677b1c7381950a3aa7dcaac">MR::MutexOwner::MutexOwner</a> (<a class="el" href="structMR_1_1MutexOwner.html">MutexOwner</a> &amp;&amp;) noexcept</td></tr>
 <tr class="memitem:gabb7351b3a06553b474e90d20d68efc30" id="r_gabb7351b3a06553b474e90d20d68efc30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MutexOwner.html">MutexOwner</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabb7351b3a06553b474e90d20d68efc30">MR::MutexOwner::operator=</a> (const <a class="el" href="structMR_1_1MutexOwner.html">MutexOwner</a> &amp;) noexcept</td></tr>
 <tr class="memitem:gaccbf59471a9ce12f038a0358ae18405b" id="r_gaccbf59471a9ce12f038a0358ae18405b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MutexOwner.html">MutexOwner</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaccbf59471a9ce12f038a0358ae18405b">MR::MutexOwner::operator=</a> (<a class="el" href="structMR_1_1MutexOwner.html">MutexOwner</a> &amp;&amp;) noexcept</td></tr>
+<tr class="memitem:gac8bc55af91198c44cd34f6b2bbc0e2a4" id="r_gac8bc55af91198c44cd34f6b2bbc0e2a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1HoleAwareSegmentData.html">HoleAwareSegmentData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac8bc55af91198c44cd34f6b2bbc0e2a4">MR::HoleAwareSegmentData::operator+=</a> (const <a class="el" href="structMR_1_1HoleAwareSegmentData.html">HoleAwareSegmentData</a> &amp;r)</td></tr>
+<tr class="memitem:ga4e721cfdc1c3174bc20ee223a78458e5" id="r_ga4e721cfdc1c3174bc20ee223a78458e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gaf6eb7e7b6ace94af407a1ef85f24d6ec">SegmentData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4e721cfdc1c3174bc20ee223a78458e5">MR::NarrowNeckSegmentPolicy::segmentFromTri</a> (FaceId f) const</td></tr>
+<tr class="memitem:gaa266bd2c5df60509cdf75fe73f22efe9" id="r_gaa266bd2c5df60509cdf75fe73f22efe9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga5f7b09ab26e7f33175e583379ebd2b64">SegmentBdData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa266bd2c5df60509cdf75fe73f22efe9">MR::NarrowNeckSegmentPolicy::bdFromEdge</a> (UndirectedEdgeId ue) const</td></tr>
+<tr class="memitem:ga4132ae2330f1e5c181dd92627b4ba0a2" id="r_ga4132ae2330f1e5c181dd92627b4ba0a2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4132ae2330f1e5c181dd92627b4ba0a2">MR::NarrowNeckSegmentPolicy::mergePenalty</a> (const <a class="el" href="#gaf6eb7e7b6ace94af407a1ef85f24d6ec">SegmentData</a> &amp;a, const <a class="el" href="#gaf6eb7e7b6ace94af407a1ef85f24d6ec">SegmentData</a> &amp;b, const <a class="el" href="#ga5f7b09ab26e7f33175e583379ebd2b64">SegmentBdData</a> &amp;bd) const</td></tr>
 <tr class="memitem:ga2c281ad2e2056d9b040ad3e365f4575a" id="r_ga2c281ad2e2056d9b040ad3e365f4575a"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga2c281ad2e2056d9b040ad3e365f4575a template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2c281ad2e2056d9b040ad3e365f4575a">MR::detail::signStep</a> (T x)</td></tr>
 <tr class="memdesc:ga2c281ad2e2056d9b040ad3e365f4575a"><td class="mdescLeft">&#160;</td><td class="mdescRight">+1 for positive x and -1 (all bits set) for negative x, as an unsigned integer of the same size as x  <br /></td></tr>
@@ -7938,6 +7958,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gadb3726c677eae05ad9e1d00f757913c0" id="r_gadb3726c677eae05ad9e1d00f757913c0"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classMR_1_1CNCMachineSettings.html">CNCMachineSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadb3726c677eae05ad9e1d00f757913c0">MR::SceneSettings::getCNCMachineSettings</a> ()</td></tr>
 <tr class="memitem:gaeeec7a68a9468bf16f9a6de3ab6566bf" id="r_gaeeec7a68a9468bf16f9a6de3ab6566bf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeeec7a68a9468bf16f9a6de3ab6566bf">MR::SceneSettings::setCNCMachineSettings</a> (const <a class="el" href="classMR_1_1CNCMachineSettings.html">CNCMachineSettings</a> &amp;settings)</td></tr>
 <tr class="memitem:gaabda96d9384f3d5e65c51a7147840ab1" id="r_gaabda96d9384f3d5e65c51a7147840ab1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga13c6625ef2ade2be056564a39a8474d2">GroupOrder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaabda96d9384f3d5e65c51a7147840ab1">MR::segmentMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;curvMetric, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
+<tr class="memitem:gaadad92953254c3303e9b0e68932419cf" id="r_gaadad92953254c3303e9b0e68932419cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaadad92953254c3303e9b0e68932419cf">MR::findLargestNarrowNeckSegment</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;curvMetric, double maxNeckLength, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
 <tr class="memitem:gaeebd4bef93283f73be72ea619fe1eca3" id="r_gaeebd4bef93283f73be72ea619fe1eca3"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeebd4bef93283f73be72ea619fe1eca3">MR::findSegmentBoundaries</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="#ga13c6625ef2ade2be056564a39a8474d2">GroupOrder</a> &amp;groupOrder, int numSegments, FaceColors *outFaceColors=nullptr)</td></tr>
 <tr class="memdesc:gaeebd4bef93283f73be72ea619fe1eca3"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output face coloring where all faces of one segment share the same color  <br /></td></tr>
 <tr class="memitem:gaa9b427c351c923636029040aa207f718" id="r_gaa9b427c351c923636029040aa207f718"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa9b427c351c923636029040aa207f718">MR::SegmPoint&lt; T &gt;::SegmPoint</a> ()=default</td></tr>
@@ -7976,6 +7997,11 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gaea174e0acc86ab90ebe3d0b222305838" id="r_gaea174e0acc86ab90ebe3d0b222305838"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Signal.html">Signal</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaea174e0acc86ab90ebe3d0b222305838">MR::Signal&lt; T &gt;::operator=</a> (boost::signals2::signal&lt; T &gt; &amp;&amp;b) noexcept</td></tr>
 <tr class="memitem:ga0180e90770c3a2421736b681e940f924" id="r_ga0180e90770c3a2421736b681e940f924"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0180e90770c3a2421736b681e940f924">MR::asString</a> (<a class="el" href="#ga03fba1fe0e5d6fe3c22dc41c9d57d309">SignDetectionMode</a> m)</td></tr>
 <tr class="memdesc:ga0180e90770c3a2421736b681e940f924"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns string representation of enum values  <br /></td></tr>
+<tr class="memitem:ga0c8bb5d9ff1315c4a73bd2d45eb7a4dc" id="r_ga0c8bb5d9ff1315c4a73bd2d45eb7a4dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SimpleSegmentData.html">SimpleSegmentData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0c8bb5d9ff1315c4a73bd2d45eb7a4dc">MR::SimpleSegmentData::operator+=</a> (const <a class="el" href="structMR_1_1SimpleSegmentData.html">SimpleSegmentData</a> &amp;r)</td></tr>
+<tr class="memitem:gad71ba39141760defa261f054c4546e35" id="r_gad71ba39141760defa261f054c4546e35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SimpleSegmentBdData.html">SimpleSegmentBdData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad71ba39141760defa261f054c4546e35">MR::SimpleSegmentBdData::operator+=</a> (const <a class="el" href="structMR_1_1SimpleSegmentBdData.html">SimpleSegmentBdData</a> &amp;r)</td></tr>
+<tr class="memitem:gaf7e112ce8d30b074d780a602f80cb0e2" id="r_gaf7e112ce8d30b074d780a602f80cb0e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gafac7c6b9e688ab6b8b34745b79824093">SegmentData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf7e112ce8d30b074d780a602f80cb0e2">MR::SimpleSegmentPolicy::segmentFromTri</a> (FaceId f) const</td></tr>
+<tr class="memitem:ga1b292efa39c3d76480645c3f012c3df6" id="r_ga1b292efa39c3d76480645c3f012c3df6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga353a64daee39a6033d72c9a7c35d2e86">SegmentBdData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1b292efa39c3d76480645c3f012c3df6">MR::SimpleSegmentPolicy::bdFromEdge</a> (UndirectedEdgeId ue) const</td></tr>
+<tr class="memitem:gac28caa0245167f71f49ba81e09b21998" id="r_gac28caa0245167f71f49ba81e09b21998"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac28caa0245167f71f49ba81e09b21998">MR::SimpleSegmentPolicy::mergePenalty</a> (const <a class="el" href="#gafac7c6b9e688ab6b8b34745b79824093">SegmentData</a> &amp;a, const <a class="el" href="#gafac7c6b9e688ab6b8b34745b79824093">SegmentData</a> &amp;b, const <a class="el" href="#ga353a64daee39a6033d72c9a7c35d2e86">SegmentBdData</a> &amp;bd)</td></tr>
 <tr class="memitem:ga387e788e5a4960ee13fb9d57cefc5c3d" id="r_ga387e788e5a4960ee13fb9d57cefc5c3d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga387e788e5a4960ee13fb9d57cefc5c3d">MR::sampleHalfSphere</a> ()</td></tr>
 <tr class="memdesc:ga387e788e5a4960ee13fb9d57cefc5c3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns quasi-uniform 145 samples on unit half-sphere z&gt;0  <br /></td></tr>
 <tr class="memitem:gad46cffad677b26b136b9c6fefc6049d8" id="r_gad46cffad677b26b136b9c6fefc6049d8"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad46cffad677b26b136b9c6fefc6049d8">MR::computeSkyViewFactor</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;terrain, const VertCoords &amp;samples, const VertBitSet &amp;validSamples, const std::vector&lt; <a class="el" href="structMR_1_1SkyPatch.html">SkyPatch</a> &gt; &amp;skyPatches, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> *outSkyRays=nullptr, std::vector&lt; <a class="el" href="structMR_1_1MeshIntersectionResult.html">MeshIntersectionResult</a> &gt; *outIntersections=nullptr)</td></tr>
@@ -13295,6 +13321,11 @@ Variables</h2></td></tr>
 <tr class="memitem:ga570e9c958781bc09007f518931ca7b74" id="r_ga570e9c958781bc09007f518931ca7b74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga570e9c958781bc09007f518931ca7b74">MR::MultiwayICPSamplingParameters::cb</a></td></tr>
 <tr class="memdesc:ga570e9c958781bc09007f518931ca7b74"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback for progress reports  <br /></td></tr>
 <tr class="memitem:gafe506db675110c0beedd8a6d3b8ab19e" id="r_gafe506db675110c0beedd8a6d3b8ab19e"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafe506db675110c0beedd8a6d3b8ab19e">MR::MutexOwner::m</a></td></tr>
+<tr class="memitem:gacfc373fb90fa96aaa6716059f3baff1f" id="r_gacfc373fb90fa96aaa6716059f3baff1f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacfc373fb90fa96aaa6716059f3baff1f">MR::HoleAwareSegmentData::holeBdLength</a> = 0</td></tr>
+<tr class="memdesc:gacfc373fb90fa96aaa6716059f3baff1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">the length of segment's boundary with mesh holes  <br /></td></tr>
+<tr class="memitem:gabe46259e5d12049617a46a17dbb8b0bd" id="r_gabe46259e5d12049617a46a17dbb8b0bd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabe46259e5d12049617a46a17dbb8b0bd">MR::NarrowNeckSegmentPolicy::mesh</a></td></tr>
+<tr class="memitem:gaab148f56cfbe14b0b8bd6bb296c2b064" id="r_gaab148f56cfbe14b0b8bd6bb296c2b064"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaab148f56cfbe14b0b8bd6bb296c2b064">MR::NarrowNeckSegmentPolicy::curvMetric</a></td></tr>
+<tr class="memitem:ga1e8a96ea64247af305e31f3645aef7e1" id="r_ga1e8a96ea64247af305e31f3645aef7e1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1e8a96ea64247af305e31f3645aef7e1">MR::NarrowNeckSegmentPolicy::maxNeckLength</a> = 0</td></tr>
 <tr class="memitem:ga7137a970db478b455991a3a8419cbfd3" id="r_ga7137a970db478b455991a3a8419cbfd3"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7137a970db478b455991a3a8419cbfd3">MR::Nesting::NestingResult::xf</a></td></tr>
 <tr class="memdesc:ga7137a970db478b455991a3a8419cbfd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">best found xf for this object (might be equal with input xf if no good nesting was found)  <br /></td></tr>
 <tr class="memitem:gad2ca6cbc05de79bee8739cc5d9c30c29" id="r_gad2ca6cbc05de79bee8739cc5d9c30c29"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad2ca6cbc05de79bee8739cc5d9c30c29">MR::Nesting::NestingResult::nested</a> { false }</td></tr>
@@ -13815,6 +13846,8 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga61f8231ef54870e7e1fb1335672a25a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">permit telemetry signal about saving  <br /></td></tr>
 <tr class="memitem:ga0f2bb31407f2693aa939c47e0052b527" id="r_ga0f2bb31407f2693aa939c47e0052b527"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0f2bb31407f2693aa939c47e0052b527">MR::SaveSettings::progress</a></td></tr>
 <tr class="memdesc:ga0f2bb31407f2693aa939c47e0052b527"><td class="mdescLeft">&#160;</td><td class="mdescRight">to report save progress and cancel saving if user desires  <br /></td></tr>
+<tr class="memitem:ga8a3b5b13ebd840d2c809e4657256a16b" id="r_ga8a3b5b13ebd840d2c809e4657256a16b"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8a3b5b13ebd840d2c809e4657256a16b">MR::prohibitMergePenalty</a> = DBL_MAX</td></tr>
+<tr class="memdesc:ga8a3b5b13ebd840d2c809e4657256a16b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the value to return from Policy::mergePenalty of <a class="el" href="classMR_1_1MeshSegmenter.html">MeshSegmenter</a> to forbid merging of two segments  <br /></td></tr>
 <tr class="memitem:ga5473b25338c8b8b27c9d38f2b6bb8f89" id="r_ga5473b25338c8b8b27c9d38f2b6bb8f89"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5473b25338c8b8b27c9d38f2b6bb8f89">MR::SegmPoint&lt; T &gt;::a</a> = 0</td></tr>
 <tr class="memdesc:ga5473b25338c8b8b27c9d38f2b6bb8f89"><td class="mdescLeft">&#160;</td><td class="mdescRight">a in [0,1], a=0 =&gt; point is in v0, a=1 =&gt; point is in v1  <br /></td></tr>
 <tr class="memitem:ga1cd8a648f7ab27b5d40ff1c7b036ba2e" id="r_ga1cd8a648f7ab27b5d40ff1c7b036ba2e"><td class="memItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1cd8a648f7ab27b5d40ff1c7b036ba2e">MR::SegmPoint&lt; T &gt;::eps</a> = 10 * std::numeric_limits&lt;T&gt;::epsilon()</td></tr>
@@ -13838,6 +13871,13 @@ Variables</h2></td></tr>
 <tr class="memitem:gae4db6dd1e297a15962be58deb8247dc6" id="r_gae4db6dd1e297a15962be58deb8247dc6"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae4db6dd1e297a15962be58deb8247dc6">MR::SharpenMarchingCubesMeshSettings::gridToMeshXf</a></td></tr>
 <tr class="memitem:ga0f708a94c94e32aa8001fe2cf18960d4" id="r_ga0f708a94c94e32aa8001fe2cf18960d4"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0f708a94c94e32aa8001fe2cf18960d4">MR::SharpenMarchingCubesMeshSettings::outSharpEdges</a> = nullptr</td></tr>
 <tr class="memdesc:ga0f708a94c94e32aa8001fe2cf18960d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">if non-null then created sharp edges will be saved here  <br /></td></tr>
+<tr class="memitem:ga2347a81ec1f5f88e0312ee4fd2542bcf" id="r_ga2347a81ec1f5f88e0312ee4fd2542bcf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2347a81ec1f5f88e0312ee4fd2542bcf">MR::SimpleSegmentData::area</a> = 0</td></tr>
+<tr class="memitem:ga3e718ce48308874d456bdcbdc4a9ea40" id="r_ga3e718ce48308874d456bdcbdc4a9ea40"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3e718ce48308874d456bdcbdc4a9ea40">MR::SimpleSegmentBdData::length</a> = 0</td></tr>
+<tr class="memdesc:ga3e718ce48308874d456bdcbdc4a9ea40"><td class="mdescLeft">&#160;</td><td class="mdescRight">the length of the boundary  <br /></td></tr>
+<tr class="memitem:ga3f22c4ae783102379ae6b8958f81ec02" id="r_ga3f22c4ae783102379ae6b8958f81ec02"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3f22c4ae783102379ae6b8958f81ec02">MR::SimpleSegmentBdData::lengthCurv</a> = 0</td></tr>
+<tr class="memdesc:ga3f22c4ae783102379ae6b8958f81ec02"><td class="mdescLeft">&#160;</td><td class="mdescRight">the integral of some curvature metric along the boundary  <br /></td></tr>
+<tr class="memitem:ga396e73f9efef20242656653e294d1f0d" id="r_ga396e73f9efef20242656653e294d1f0d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga396e73f9efef20242656653e294d1f0d">MR::SimpleSegmentPolicy::mesh</a></td></tr>
+<tr class="memitem:ga8c3aa9920e2b96cd1e5f73a5f47cb32c" id="r_ga8c3aa9920e2b96cd1e5f73a5f47cb32c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8c3aa9920e2b96cd1e5f73a5f47cb32c">MR::SimpleSegmentPolicy::curvMetric</a></td></tr>
 <tr class="memitem:gab2ea86c9173f3228c1adec10b4b8c48a" id="r_gab2ea86c9173f3228c1adec10b4b8c48a"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab2ea86c9173f3228c1adec10b4b8c48a">MR::SkyPatch::dir</a></td></tr>
 <tr class="memdesc:gab2ea86c9173f3228c1adec10b4b8c48a"><td class="mdescLeft">&#160;</td><td class="mdescRight">direction toward the center of the patch  <br /></td></tr>
 <tr class="memitem:ga511b8b1d8245fb415755ea6881577867" id="r_ga511b8b1d8245fb415755ea6881577867"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga511b8b1d8245fb415755ea6881577867">MR::SkyPatch::radiation</a> = 0</td></tr>
@@ -21730,6 +21770,94 @@ template&lt;typename T, typename I&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="#gaf2bd82f7a688dac76bdbfcf5f4f38ce8">MR::CNCMachineSettings::RotationLimits</a> = std::optional&lt;Vector2f&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga0b9724c22a293f5d879a6d6111fd7b4d" name="ga0b9724c22a293f5d879a6d6111fd7b4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0b9724c22a293f5d879a6d6111fd7b4d">&#9670;&#160;</a></span>SegmentBdData <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Policy&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1MeshSegmenter.html">MR::MeshSegmenter</a>&lt; Policy &gt;::SegmentBdData = typename Policy::SegmentBdData</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga5f7b09ab26e7f33175e583379ebd2b64" name="ga5f7b09ab26e7f33175e583379ebd2b64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5f7b09ab26e7f33175e583379ebd2b64">&#9670;&#160;</a></span>SegmentBdData <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga5f7b09ab26e7f33175e583379ebd2b64">MR::NarrowNeckSegmentPolicy::SegmentBdData</a> = <a class="el" href="structMR_1_1SimpleSegmentBdData.html">SimpleSegmentBdData</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga353a64daee39a6033d72c9a7c35d2e86" name="ga353a64daee39a6033d72c9a7c35d2e86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga353a64daee39a6033d72c9a7c35d2e86">&#9670;&#160;</a></span>SegmentBdData <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga353a64daee39a6033d72c9a7c35d2e86">MR::SimpleSegmentPolicy::SegmentBdData</a> = <a class="el" href="structMR_1_1SimpleSegmentBdData.html">SimpleSegmentBdData</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga6157c47e76c8b8f7e4d668dcd595bb7d" name="ga6157c47e76c8b8f7e4d668dcd595bb7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6157c47e76c8b8f7e4d668dcd595bb7d">&#9670;&#160;</a></span>SegmentData <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Policy&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1MeshSegmenter.html">MR::MeshSegmenter</a>&lt; Policy &gt;::SegmentData = typename Policy::SegmentData</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaf6eb7e7b6ace94af407a1ef85f24d6ec" name="gaf6eb7e7b6ace94af407a1ef85f24d6ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf6eb7e7b6ace94af407a1ef85f24d6ec">&#9670;&#160;</a></span>SegmentData <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#gaf6eb7e7b6ace94af407a1ef85f24d6ec">MR::NarrowNeckSegmentPolicy::SegmentData</a> = <a class="el" href="structMR_1_1HoleAwareSegmentData.html">HoleAwareSegmentData</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gafac7c6b9e688ab6b8b34745b79824093" name="gafac7c6b9e688ab6b8b34745b79824093"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafac7c6b9e688ab6b8b34745b79824093">&#9670;&#160;</a></span>SegmentData <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#gafac7c6b9e688ab6b8b34745b79824093">MR::SimpleSegmentPolicy::SegmentData</a> = <a class="el" href="structMR_1_1SimpleSegmentData.html">SimpleSegmentData</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -38016,6 +38144,60 @@ template&lt;class T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRMeshTopology_8h.html">MRMesh/MRMeshTopology.h</a>&gt;</code></p>
 <p>returns a boundary edge with given vertex in origin considering boundary of given region (or for whole mesh if region is nullptr); returns invalid edge if no boundary edge is found </p>
+
+</div>
+</div>
+<a id="gaa266bd2c5df60509cdf75fe73f22efe9" name="gaa266bd2c5df60509cdf75fe73f22efe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa266bd2c5df60509cdf75fe73f22efe9">&#9670;&#160;</a></span>bdFromEdge() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga5f7b09ab26e7f33175e583379ebd2b64">SegmentBdData</a> MR::NarrowNeckSegmentPolicy::bdFromEdge </td>
+          <td>(</td>
+          <td class="paramtype">UndirectedEdgeId</td>          <td class="paramname"><span class="paramname"><em>ue</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRNarrowNeckSegmentPolicy_8h.html">MRMesh/MRNarrowNeckSegmentPolicy.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga1b292efa39c3d76480645c3f012c3df6" name="ga1b292efa39c3d76480645c3f012c3df6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1b292efa39c3d76480645c3f012c3df6">&#9670;&#160;</a></span>bdFromEdge() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga353a64daee39a6033d72c9a7c35d2e86">SegmentBdData</a> MR::SimpleSegmentPolicy::bdFromEdge </td>
+          <td>(</td>
+          <td class="paramtype">UndirectedEdgeId</td>          <td class="paramname"><span class="paramname"><em>ue</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRSimpleSegmentPolicy_8h.html">MRMesh/MRSimpleSegmentPolicy.h</a>&gt;</code></p>
 
 </div>
 </div>
@@ -75621,6 +75803,53 @@ template&lt;typename I&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRRibbonSchema_8h.html">MRViewer/MRRibbonSchema.h</a>&gt;</code></p>
 
 <p>returns item tab index in schema.tabsOrder or -1 if no tab found (e.g. scene fast access panel or header access panel) </p>
+
+</div>
+</div>
+<a id="gaadad92953254c3303e9b0e68932419cf" name="gaadad92953254c3303e9b0e68932419cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaadad92953254c3303e9b0e68932419cf">&#9670;&#160;</a></span>findLargestNarrowNeckSegment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; FaceBitSet &gt; MR::findLargestNarrowNeckSegment </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>curvMetric</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>maxNeckLength</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRSegmentMesh_8h.html">MRMesh/MRSegmentMesh.h</a>&gt;</code></p>
+<p>segments the mesh using <a class="el" href="classMR_1_1MeshSegmenter.html">MeshSegmenter</a> with <a class="el" href="structMR_1_1NarrowNeckSegmentPolicy.html">NarrowNeckSegmentPolicy</a> till no more merges are allowed, and returns the faces of the largest by area segment; the parts attached to it only by a narrow neck (e.g. scanning artifacts) are not included in the result </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">maxNeckLength</td><td>two segments are not merged if their common boundary (neck) is shorter than this value, and at least one of them has the boundary with mesh holes longer than the neck </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -126883,6 +127112,78 @@ template&lt;typename B&gt; </div>
 
 </div>
 </div>
+<a id="ga4132ae2330f1e5c181dd92627b4ba0a2" name="ga4132ae2330f1e5c181dd92627b4ba0a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4132ae2330f1e5c181dd92627b4ba0a2">&#9670;&#160;</a></span>mergePenalty() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::NarrowNeckSegmentPolicy::mergePenalty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gaf6eb7e7b6ace94af407a1ef85f24d6ec">SegmentData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#gaf6eb7e7b6ace94af407a1ef85f24d6ec">SegmentData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga5f7b09ab26e7f33175e583379ebd2b64">SegmentBdData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bd</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRNarrowNeckSegmentPolicy_8h.html">MRMesh/MRNarrowNeckSegmentPolicy.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gac28caa0245167f71f49ba81e09b21998" name="gac28caa0245167f71f49ba81e09b21998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac28caa0245167f71f49ba81e09b21998">&#9670;&#160;</a></span>mergePenalty() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::SimpleSegmentPolicy::mergePenalty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gafac7c6b9e688ab6b8b34745b79824093">SegmentData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#gafac7c6b9e688ab6b8b34745b79824093">SegmentData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga353a64daee39a6033d72c9a7c35d2e86">SegmentBdData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bd</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRSimpleSegmentPolicy_8h.html">MRMesh/MRSimpleSegmentPolicy.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga7adba2e4aec682cc419aa32afb386e67" name="ga7adba2e4aec682cc419aa32afb386e67"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga7adba2e4aec682cc419aa32afb386e67">&#9670;&#160;</a></span>mergeSubtree() <span class="overload">[1/2]</span></h2>
 
@@ -143399,7 +143700,7 @@ template&lt;typename N&gt; </div>
 </div>
 </div>
 <a id="ga878fb317a1812fcecb1a38141767edce" name="ga878fb317a1812fcecb1a38141767edce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga878fb317a1812fcecb1a38141767edce">&#9670;&#160;</a></span>operator+=() <span class="overload">[1/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga878fb317a1812fcecb1a38141767edce">&#9670;&#160;</a></span>operator+=() <span class="overload">[1/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143426,7 +143727,7 @@ template&lt;typename N&gt; </div>
 </div>
 </div>
 <a id="ga91d690a2375168d047a346239b7c38b7" name="ga91d690a2375168d047a346239b7c38b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga91d690a2375168d047a346239b7c38b7">&#9670;&#160;</a></span>operator+=() <span class="overload">[2/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga91d690a2375168d047a346239b7c38b7">&#9670;&#160;</a></span>operator+=() <span class="overload">[2/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143453,7 +143754,7 @@ template&lt;typename N&gt; </div>
 </div>
 </div>
 <a id="ga1548c8b49e2d0748f03f7ea76d82aab4" name="ga1548c8b49e2d0748f03f7ea76d82aab4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1548c8b49e2d0748f03f7ea76d82aab4">&#9670;&#160;</a></span>operator+=() <span class="overload">[3/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1548c8b49e2d0748f03f7ea76d82aab4">&#9670;&#160;</a></span>operator+=() <span class="overload">[3/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143481,8 +143782,35 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gac8bc55af91198c44cd34f6b2bbc0e2a4" name="gac8bc55af91198c44cd34f6b2bbc0e2a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac8bc55af91198c44cd34f6b2bbc0e2a4">&#9670;&#160;</a></span>operator+=() <span class="overload">[4/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1HoleAwareSegmentData.html">HoleAwareSegmentData</a> &amp; MR::HoleAwareSegmentData::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1HoleAwareSegmentData.html">HoleAwareSegmentData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>r</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRNarrowNeckSegmentPolicy_8h.html">MRMesh/MRNarrowNeckSegmentPolicy.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga45a07dcbe1b8b9ac4949d19e26fecc99" name="ga45a07dcbe1b8b9ac4949d19e26fecc99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga45a07dcbe1b8b9ac4949d19e26fecc99">&#9670;&#160;</a></span>operator+=() <span class="overload">[4/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga45a07dcbe1b8b9ac4949d19e26fecc99">&#9670;&#160;</a></span>operator+=() <span class="overload">[5/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143511,7 +143839,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga337b0c21aac551ab640f040502beb1e2" name="ga337b0c21aac551ab640f040502beb1e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga337b0c21aac551ab640f040502beb1e2">&#9670;&#160;</a></span>operator+=() <span class="overload">[5/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga337b0c21aac551ab640f040502beb1e2">&#9670;&#160;</a></span>operator+=() <span class="overload">[6/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143538,7 +143866,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gadb51a18dba8809f1bec78ac608393a68" name="gadb51a18dba8809f1bec78ac608393a68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadb51a18dba8809f1bec78ac608393a68">&#9670;&#160;</a></span>operator+=() <span class="overload">[6/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadb51a18dba8809f1bec78ac608393a68">&#9670;&#160;</a></span>operator+=() <span class="overload">[7/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143565,7 +143893,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaf8035c21c5cd5903e8910e4bf376f47b" name="gaf8035c21c5cd5903e8910e4bf376f47b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf8035c21c5cd5903e8910e4bf376f47b">&#9670;&#160;</a></span>operator+=() <span class="overload">[7/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf8035c21c5cd5903e8910e4bf376f47b">&#9670;&#160;</a></span>operator+=() <span class="overload">[8/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143589,8 +143917,62 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gad71ba39141760defa261f054c4546e35" name="gad71ba39141760defa261f054c4546e35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad71ba39141760defa261f054c4546e35">&#9670;&#160;</a></span>operator+=() <span class="overload">[9/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1SimpleSegmentBdData.html">SimpleSegmentBdData</a> &amp; MR::SimpleSegmentBdData::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1SimpleSegmentBdData.html">SimpleSegmentBdData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>r</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRSimpleSegmentPolicy_8h.html">MRMesh/MRSimpleSegmentPolicy.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga0c8bb5d9ff1315c4a73bd2d45eb7a4dc" name="ga0c8bb5d9ff1315c4a73bd2d45eb7a4dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0c8bb5d9ff1315c4a73bd2d45eb7a4dc">&#9670;&#160;</a></span>operator+=() <span class="overload">[10/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1SimpleSegmentData.html">SimpleSegmentData</a> &amp; MR::SimpleSegmentData::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1SimpleSegmentData.html">SimpleSegmentData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>r</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRSimpleSegmentPolicy_8h.html">MRMesh/MRSimpleSegmentPolicy.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga7db8147e43ed44e6850f4f813a585247" name="ga7db8147e43ed44e6850f4f813a585247"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7db8147e43ed44e6850f4f813a585247">&#9670;&#160;</a></span>operator+=() <span class="overload">[8/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7db8147e43ed44e6850f4f813a585247">&#9670;&#160;</a></span>operator+=() <span class="overload">[11/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143611,7 +143993,7 @@ template&lt;typename C, typename D, D M&gt; </div>
 </div>
 </div>
 <a id="gaadb5fa684446a94e5c5b1148543e7761" name="gaadb5fa684446a94e5c5b1148543e7761"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaadb5fa684446a94e5c5b1148543e7761">&#9670;&#160;</a></span>operator+=() <span class="overload">[9/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaadb5fa684446a94e5c5b1148543e7761">&#9670;&#160;</a></span>operator+=() <span class="overload">[12/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143640,7 +144022,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7ea2ac738a97ccd6c1480da40d655c52" name="ga7ea2ac738a97ccd6c1480da40d655c52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7ea2ac738a97ccd6c1480da40d655c52">&#9670;&#160;</a></span>operator+=() <span class="overload">[10/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7ea2ac738a97ccd6c1480da40d655c52">&#9670;&#160;</a></span>operator+=() <span class="overload">[13/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143669,7 +144051,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga2d631de1df967d6ddca570a6e16d4938" name="ga2d631de1df967d6ddca570a6e16d4938"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2d631de1df967d6ddca570a6e16d4938">&#9670;&#160;</a></span>operator+=() <span class="overload">[11/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2d631de1df967d6ddca570a6e16d4938">&#9670;&#160;</a></span>operator+=() <span class="overload">[14/14]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166245,7 +166627,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga64b329cfce6e97b4dbf37b031815e913" name="ga64b329cfce6e97b4dbf37b031815e913"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga64b329cfce6e97b4dbf37b031815e913">&#9670;&#160;</a></span>run() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga64b329cfce6e97b4dbf37b031815e913">&#9670;&#160;</a></span>run() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166274,7 +166656,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga65449d4756ca8415fcdee1a1cb68a390" name="ga65449d4756ca8415fcdee1a1cb68a390"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga65449d4756ca8415fcdee1a1cb68a390">&#9670;&#160;</a></span>run() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga65449d4756ca8415fcdee1a1cb68a390">&#9670;&#160;</a></span>run() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166302,7 +166684,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab1421ec24db86f8e4775fee7e41e8ecc" name="gab1421ec24db86f8e4775fee7e41e8ecc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab1421ec24db86f8e4775fee7e41e8ecc">&#9670;&#160;</a></span>run() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab1421ec24db86f8e4775fee7e41e8ecc">&#9670;&#160;</a></span>run() <span class="overload">[3/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166330,7 +166712,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga0f5eb553cbf47775aa2a9325696ca9da" name="ga0f5eb553cbf47775aa2a9325696ca9da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0f5eb553cbf47775aa2a9325696ca9da">&#9670;&#160;</a></span>run() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0f5eb553cbf47775aa2a9325696ca9da">&#9670;&#160;</a></span>run() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166358,8 +166740,47 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gad2affac1d929ebbf25791148ac21a2d4" name="gad2affac1d929ebbf25791148ac21a2d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad2affac1d929ebbf25791148ac21a2d4">&#9670;&#160;</a></span>run() <span class="overload">[5/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Policy&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga13c6625ef2ade2be056564a39a8474d2">GroupOrder</a> &gt; <a class="el" href="classMR_1_1MeshSegmenter.html">MR::MeshSegmenter</a>&lt; Policy &gt;::run </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Policy &amp;</td>          <td class="paramname"><span class="paramname"><em>policy</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshSegmenter_8h.html">MRMesh/MRMeshSegmenter.h</a>&gt;</code></p>
+<p>policy.segmentFromTri and policy.bdFromEdge are called in parallel </p>
+
+</div>
+</div>
 <a id="gae336851ab46c31fc8f961484c2b45b5a" name="gae336851ab46c31fc8f961484c2b45b5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae336851ab46c31fc8f961484c2b45b5a">&#9670;&#160;</a></span>run() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae336851ab46c31fc8f961484c2b45b5a">&#9670;&#160;</a></span>run() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166400,7 +166821,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga267e2926e88f4480cedbfa3ff965547c" name="ga267e2926e88f4480cedbfa3ff965547c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga267e2926e88f4480cedbfa3ff965547c">&#9670;&#160;</a></span>run() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga267e2926e88f4480cedbfa3ff965547c">&#9670;&#160;</a></span>run() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166436,7 +166857,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga6d7fc1fe41862805d423e14a407367b8" name="ga6d7fc1fe41862805d423e14a407367b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6d7fc1fe41862805d423e14a407367b8">&#9670;&#160;</a></span>run() <span class="overload">[7/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6d7fc1fe41862805d423e14a407367b8">&#9670;&#160;</a></span>run() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -168430,6 +168851,60 @@ template&lt;typename ObjectT, bool visualRepresentationCheck, bool modelCheck&gt
 <p><code>#include &lt;<a class="el" href="MRRibbonSchema_8h.html">MRViewer/MRRibbonSchema.h</a>&gt;</code></p>
 
 <p>searches for tools with the most appropriate names (captions) or tooltips </p>
+
+</div>
+</div>
+<a id="ga4e721cfdc1c3174bc20ee223a78458e5" name="ga4e721cfdc1c3174bc20ee223a78458e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4e721cfdc1c3174bc20ee223a78458e5">&#9670;&#160;</a></span>segmentFromTri() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gaf6eb7e7b6ace94af407a1ef85f24d6ec">SegmentData</a> MR::NarrowNeckSegmentPolicy::segmentFromTri </td>
+          <td>(</td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRNarrowNeckSegmentPolicy_8h.html">MRMesh/MRNarrowNeckSegmentPolicy.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gaf7e112ce8d30b074d780a602f80cb0e2" name="gaf7e112ce8d30b074d780a602f80cb0e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf7e112ce8d30b074d780a602f80cb0e2">&#9670;&#160;</a></span>segmentFromTri() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gafac7c6b9e688ab6b8b34745b79824093">SegmentData</a> MR::SimpleSegmentPolicy::segmentFromTri </td>
+          <td>(</td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRSimpleSegmentPolicy_8h.html">MRMesh/MRSimpleSegmentPolicy.h</a>&gt;</code></p>
 
 </div>
 </div>
@@ -212171,7 +212646,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaae5226baaa9fd2fef60b3940f4d0951f" name="gaae5226baaa9fd2fef60b3940f4d0951f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaae5226baaa9fd2fef60b3940f4d0951f">&#9670;&#160;</a></span>area <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaae5226baaa9fd2fef60b3940f4d0951f">&#9670;&#160;</a></span>area <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -212184,8 +212659,22 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga2347a81ec1f5f88e0312ee4fd2542bcf" name="ga2347a81ec1f5f88e0312ee4fd2542bcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2347a81ec1f5f88e0312ee4fd2542bcf">&#9670;&#160;</a></span>area <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::SimpleSegmentData::area = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga890dc5714dfd53c95b4678e7afd830d0" name="ga890dc5714dfd53c95b4678e7afd830d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga890dc5714dfd53c95b4678e7afd830d0">&#9670;&#160;</a></span>area <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga890dc5714dfd53c95b4678e7afd830d0">&#9670;&#160;</a></span>area <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -218349,6 +218838,34 @@ template&lt;typename Tag&gt; </div>
 
 </div>
 </div>
+<a id="gaab148f56cfbe14b0b8bd6bb296c2b064" name="gaab148f56cfbe14b0b8bd6bb296c2b064"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaab148f56cfbe14b0b8bd6bb296c2b064">&#9670;&#160;</a></span>curvMetric <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a>&amp; MR::NarrowNeckSegmentPolicy::curvMetric</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga8c3aa9920e2b96cd1e5f73a5f47cb32c" name="ga8c3aa9920e2b96cd1e5f73a5f47cb32c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8c3aa9920e2b96cd1e5f73a5f47cb32c">&#9670;&#160;</a></span>curvMetric <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="#ga89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a>&amp; MR::SimpleSegmentPolicy::curvMetric</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="gada8d178143f6e08583ce6661e7e48c21" name="gada8d178143f6e08583ce6661e7e48c21"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gada8d178143f6e08583ce6661e7e48c21">&#9670;&#160;</a></span>customBackgroundMarks</h2>
 
@@ -224270,6 +224787,22 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gacfc373fb90fa96aaa6716059f3baff1f" name="gacfc373fb90fa96aaa6716059f3baff1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacfc373fb90fa96aaa6716059f3baff1f">&#9670;&#160;</a></span>holeBdLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::HoleAwareSegmentData::holeBdLength = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the length of segment's boundary with mesh holes </p>
+
+</div>
+</div>
 <a id="ga540414cc7fb82e34d5a10d971449fc9d" name="ga540414cc7fb82e34d5a10d971449fc9d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga540414cc7fb82e34d5a10d971449fc9d">&#9670;&#160;</a></span>holeIdx</h2>
 
@@ -226520,7 +227053,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga49761af205e8affe422e2ff23a49935b" name="ga49761af205e8affe422e2ff23a49935b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga49761af205e8affe422e2ff23a49935b">&#9670;&#160;</a></span>length <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga49761af205e8affe422e2ff23a49935b">&#9670;&#160;</a></span>length <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226536,7 +227069,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gad87c52072ac6532b21210fb8f8f48921" name="gad87c52072ac6532b21210fb8f8f48921"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad87c52072ac6532b21210fb8f8f48921">&#9670;&#160;</a></span>length <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad87c52072ac6532b21210fb8f8f48921">&#9670;&#160;</a></span>length <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226552,7 +227085,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaa183c2d5c3810c0fe6fe877b2486af67" name="gaa183c2d5c3810c0fe6fe877b2486af67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa183c2d5c3810c0fe6fe877b2486af67">&#9670;&#160;</a></span>length <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa183c2d5c3810c0fe6fe877b2486af67">&#9670;&#160;</a></span>length <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226564,6 +227097,38 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>overall tool length </p>
+
+</div>
+</div>
+<a id="ga3e718ce48308874d456bdcbdc4a9ea40" name="ga3e718ce48308874d456bdcbdc4a9ea40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3e718ce48308874d456bdcbdc4a9ea40">&#9670;&#160;</a></span>length <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::SimpleSegmentBdData::length = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the length of the boundary </p>
+
+</div>
+</div>
+<a id="ga3f22c4ae783102379ae6b8958f81ec02" name="ga3f22c4ae783102379ae6b8958f81ec02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3f22c4ae783102379ae6b8958f81ec02">&#9670;&#160;</a></span>lengthCurv</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::SimpleSegmentBdData::lengthCurv = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the integral of some curvature metric along the boundary </p>
 
 </div>
 </div>
@@ -228180,6 +228745,21 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga1e8a96ea64247af305e31f3645aef7e1" name="ga1e8a96ea64247af305e31f3645aef7e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1e8a96ea64247af305e31f3645aef7e1">&#9670;&#160;</a></span>maxNeckLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::NarrowNeckSegmentPolicy::maxNeckLength = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>two segments are not merged if their common boundary (neck) is shorter than this value, and at least one of them has the boundary with mesh holes longer than the neck </p>
+
+</div>
+</div>
 <a id="ga9561ff72aba23dad165d0922967bf343" name="ga9561ff72aba23dad165d0922967bf343"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga9561ff72aba23dad165d0922967bf343">&#9670;&#160;</a></span>maxNeighbors</h2>
 
@@ -228767,7 +229347,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gad1bf8f740e649b73d3a93bd0eba5e609" name="gad1bf8f740e649b73d3a93bd0eba5e609"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad1bf8f740e649b73d3a93bd0eba5e609">&#9670;&#160;</a></span>mesh <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad1bf8f740e649b73d3a93bd0eba5e609">&#9670;&#160;</a></span>mesh <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228782,8 +229362,22 @@ template&lt;typename RegionTag&gt; </div>
 
 </div>
 </div>
+<a id="gabe46259e5d12049617a46a17dbb8b0bd" name="gabe46259e5d12049617a46a17dbb8b0bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe46259e5d12049617a46a17dbb8b0bd">&#9670;&#160;</a></span>mesh <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&amp; MR::NarrowNeckSegmentPolicy::mesh</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="gac5cd01cdb303cbff8a43671466703190" name="gac5cd01cdb303cbff8a43671466703190"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac5cd01cdb303cbff8a43671466703190">&#9670;&#160;</a></span>mesh <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac5cd01cdb303cbff8a43671466703190">&#9670;&#160;</a></span>mesh <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228799,7 +229393,7 @@ template&lt;typename RegionTag&gt; </div>
 </div>
 </div>
 <a id="gab37aa2308b1d163cba441684f134762a" name="gab37aa2308b1d163cba441684f134762a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab37aa2308b1d163cba441684f134762a">&#9670;&#160;</a></span>mesh <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab37aa2308b1d163cba441684f134762a">&#9670;&#160;</a></span>mesh <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228812,8 +229406,22 @@ template&lt;typename RegionTag&gt; </div>
 
 </div>
 </div>
+<a id="ga396e73f9efef20242656653e294d1f0d" name="ga396e73f9efef20242656653e294d1f0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga396e73f9efef20242656653e294d1f0d">&#9670;&#160;</a></span>mesh <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&amp; MR::SimpleSegmentPolicy::mesh</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga335c5766297cd37d2bc6d54e7f0867da" name="ga335c5766297cd37d2bc6d54e7f0867da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga335c5766297cd37d2bc6d54e7f0867da">&#9670;&#160;</a></span>mesh <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga335c5766297cd37d2bc6d54e7f0867da">&#9670;&#160;</a></span>mesh <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236951,6 +237559,32 @@ template&lt;typename V&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga8a3b5b13ebd840d2c809e4657256a16b" name="ga8a3b5b13ebd840d2c809e4657256a16b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8a3b5b13ebd840d2c809e4657256a16b">&#9670;&#160;</a></span>prohibitMergePenalty</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::prohibitMergePenalty = DBL_MAX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRSegmentMesh_8h.html">MRMesh/MRSegmentMesh.h</a>&gt;</code></p>
+
+<p>the value to return from Policy::mergePenalty of <a class="el" href="classMR_1_1MeshSegmenter.html">MeshSegmenter</a> to forbid merging of two segments </p>
 
 </div>
 </div>

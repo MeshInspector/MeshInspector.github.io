@@ -1,5 +1,13 @@
 var NAVTREEINDEX38 =
 {
+"classmeshlib_1_1DenoiseWithCreasesSettings.html#ac000614b671516bc55293f35eec7d286":[9,6,1,0,0,269,9],
+"classmeshlib_1_1DenoiseWithCreasesSettings.html#af6ffe30f80ca716ca0b778017ef268b2":[9,6,0,0,0,269,7],
+"classmeshlib_1_1DenoiseWithCreasesSettings.html#af6ffe30f80ca716ca0b778017ef268b2":[9,6,1,0,0,269,7],
+"classmeshlib_1_1DenoiseWithCreasesSettings.html#aff5bb31e67f77f1748ac0a1b1ced8ec9":[9,6,0,0,0,269,4],
+"classmeshlib_1_1DenoiseWithCreasesSettings.html#aff5bb31e67f77f1748ac0a1b1ced8ec9":[9,6,1,0,0,269,4],
+"classmeshlib_1_1DenseBox.html":[9,6,0,0,0,270],
+"classmeshlib_1_1DenseBox.html":[9,6,1,0,0,270],
+"classmeshlib_1_1DenseBox.html#a0ba3772a67827e00dc903041b80c0b9d":[9,6,0,0,0,270,12],
 "classmeshlib_1_1DenseBox.html#a0ba3772a67827e00dc903041b80c0b9d":[9,6,1,0,0,270,12],
 "classmeshlib_1_1DenseBox.html#a0f0d1a16b5e6df7209adaa693873ea95":[9,6,0,0,0,270,3],
 "classmeshlib_1_1DenseBox.html#a0f0d1a16b5e6df7209adaa693873ea95":[9,6,1,0,0,270,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX38 =
 "classmeshlib_1_1Dipoles.html#ae466f54346b828fed7925e9e97523c80":[9,6,1,0,0,277,0],
 "classmeshlib_1_1Dipoles.html#aeb299dbd50e78cf9b11a452ea36ac52f":[9,6,0,0,0,277,22],
 "classmeshlib_1_1Dipoles.html#aeb299dbd50e78cf9b11a452ea36ac52f":[9,6,1,0,0,277,22],
-"classmeshlib_1_1Dipoles.html#af4159801fbab216cbb399741f7033ca3":[9,6,0,0,0,277,11],
-"classmeshlib_1_1Dipoles.html#af4159801fbab216cbb399741f7033ca3":[9,6,1,0,0,277,11],
-"classmeshlib_1_1Dipoles.html#af7f6fb953217501d067bdeb85dc7683a":[9,6,0,0,0,277,21],
-"classmeshlib_1_1Dipoles.html#af7f6fb953217501d067bdeb85dc7683a":[9,6,1,0,0,277,21],
-"classmeshlib_1_1Dipoles.html#af9d1ec2b95f55ad692c56aaed228c108":[9,6,0,0,0,277,24],
-"classmeshlib_1_1Dipoles.html#af9d1ec2b95f55ad692c56aaed228c108":[9,6,1,0,0,277,24],
-"classmeshlib_1_1Dipoles.html#afbbee286402731d1eef439a82acfd35e":[9,6,0,0,0,277,1],
-"classmeshlib_1_1Dipoles.html#afbbee286402731d1eef439a82acfd35e":[9,6,1,0,0,277,1],
-"classmeshlib_1_1Dirty.html":[9,6,0,0,0,278]
+"classmeshlib_1_1Dipoles.html#af4159801fbab216cbb399741f7033ca3":[9,6,0,0,0,277,11]
 };

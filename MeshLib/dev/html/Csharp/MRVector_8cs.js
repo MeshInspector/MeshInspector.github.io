@@ -137,6 +137,8 @@ var MRVector_8cs =
     [ "MR.Vector_StdFilesystemPath_MRTextureId", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html", "classMR_1_1Vector__StdFilesystemPath__MRTextureId" ],
     [ "MR.Const_Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Const__Vector__StdArrayMRVector3f3__MRFaceId.html", "classMR_1_1Const__Vector__StdArrayMRVector3f3__MRFaceId" ],
     [ "MR.Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId" ],
+    [ "MR.Const_Vector_Int_MRGraphEdgeId", "classMR_1_1Const__Vector__Int__MRGraphEdgeId.html", "classMR_1_1Const__Vector__Int__MRGraphEdgeId" ],
+    [ "MR.Vector_Int_MRGraphEdgeId", "classMR_1_1Vector__Int__MRGraphEdgeId.html", "classMR_1_1Vector__Int__MRGraphEdgeId" ],
     [ "MR.Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag.html", "classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag" ],
     [ "MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag", "classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag.html", "classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag" ],
     [ "MR.Const_Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html", "classMR_1_1Const__Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag" ],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX20 =
 {
+"classBox__unsigned__short.html#aceeff542f31d3cd810dc9010a9e1ad7f":[9,4,1,0,107,29],
+"classBox__unsigned__short.html#ad4d935076099b85bc6b9cf9f7d7ba8a6":[9,4,1,0,107,8],
+"classBox__unsigned__short.html#af307b310b417037d84eabb633dd68364":[9,4,1,0,107,20],
 "classBox__unsigned__short.html#af66b3869cc9d236db8cf017f8beb465f":[9,4,1,0,107,21],
 "classBox__unsigned__short.html#afc6ad0c1ce7995653ce303998916a285":[9,4,1,0,107,4],
 "classBoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html":[9,4,1,0,108],
@@ -246,8 +249,5 @@ var NAVTREEINDEX20 =
 "classBuffer__MR__TextureId__MR__TextureId.html#a371771808261aae8e64c90fd5286126d":[9,4,1,0,124,12],
 "classBuffer__MR__TextureId__MR__TextureId.html#a4157282e3ec3e83fd128e0e0721e0c2a":[9,4,1,0,124,2],
 "classBuffer__MR__TextureId__MR__TextureId.html#a46647d0f1b015aedb6e384274de8da9a":[9,4,1,0,124,0],
-"classBuffer__MR__TextureId__MR__TextureId.html#a47949a783f06ed8fef81d7b6ec4c465b":[9,4,1,0,124,1],
-"classBuffer__MR__TextureId__MR__TextureId.html#a52504f1dee17534c4b1fcf322fb991fe":[9,4,1,0,124,10],
-"classBuffer__MR__TextureId__MR__TextureId.html#a5ce8f54144e0e611d402801d045304c1":[9,4,1,0,124,5],
-"classBuffer__MR__TextureId__MR__TextureId.html#a685b68655efff9aadc08253e7713d18a":[9,4,1,0,124,6]
+"classBuffer__MR__TextureId__MR__TextureId.html#a47949a783f06ed8fef81d7b6ec4c465b":[9,4,1,0,124,1]
 };

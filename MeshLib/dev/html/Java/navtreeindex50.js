@@ -1,5 +1,13 @@
 var NAVTREEINDEX50 =
 {
+"classmeshlib_1_1FaceSetBitIterator.html#adc6e89a314581ce71f59ffcb762b1ef0":[9,6,1,0,0,416,2],
+"classmeshlib_1_1FaceSetBitIterator.html#ae2029f83a0247e41ce58dd45a4aea0a0":[9,6,0,0,0,416,6],
+"classmeshlib_1_1FaceSetBitIterator.html#ae2029f83a0247e41ce58dd45a4aea0a0":[9,6,1,0,0,416,6],
+"classmeshlib_1_1FaceSetBitIterator.html#afc3fe9ba5893e8e285fd1acbc3f851de":[9,6,0,0,0,416,1],
+"classmeshlib_1_1FaceSetBitIterator.html#afc3fe9ba5893e8e285fd1acbc3f851de":[9,6,1,0,0,416,1],
+"classmeshlib_1_1FaceSoup.html":[9,6,0,0,0,417],
+"classmeshlib_1_1FaceSoup.html":[9,6,1,0,0,417],
+"classmeshlib_1_1FaceSoup.html#a34ed4270ec09f2a759557263f1737655":[9,6,0,0,0,417,5],
 "classmeshlib_1_1FaceSoup.html#a34ed4270ec09f2a759557263f1737655":[9,6,1,0,0,417,5],
 "classmeshlib_1_1FaceSoup.html#a67271238be9a740b1151d76207977b42":[9,6,0,0,0,417,0],
 "classmeshlib_1_1FaceSoup.html#a67271238be9a740b1151d76207977b42":[9,6,1,0,0,417,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX50 =
 "classmeshlib_1_1FeatureObject.html#a6b7f7a88620242e40e22ae86142b10ec":[9,6,1,0,0,422,1],
 "classmeshlib_1_1FeatureObject.html#a6ba82e3ca88af4b3e506fa6343665c6b":[9,6,0,0,0,422,104],
 "classmeshlib_1_1FeatureObject.html#a6ba82e3ca88af4b3e506fa6343665c6b":[9,6,1,0,0,422,104],
-"classmeshlib_1_1FeatureObject.html#a6dbbe819294b10c2574c031b9d2d65b4":[9,6,0,0,0,422,12],
-"classmeshlib_1_1FeatureObject.html#a6dbbe819294b10c2574c031b9d2d65b4":[9,6,1,0,0,422,12],
-"classmeshlib_1_1FeatureObject.html#a6ec740bd44b8c0f770aa81ce79a11b68":[9,6,0,0,0,422,99],
-"classmeshlib_1_1FeatureObject.html#a6ec740bd44b8c0f770aa81ce79a11b68":[9,6,1,0,0,422,99],
-"classmeshlib_1_1FeatureObject.html#a6fd36a7dbcfae91385a1393aceec152d":[9,6,0,0,0,422,78],
-"classmeshlib_1_1FeatureObject.html#a6fd36a7dbcfae91385a1393aceec152d":[9,6,1,0,0,422,78],
-"classmeshlib_1_1FeatureObject.html#a6ffb97b05147c8df4374d38d16895af6":[9,6,0,0,0,422,39],
-"classmeshlib_1_1FeatureObject.html#a6ffb97b05147c8df4374d38d16895af6":[9,6,1,0,0,422,39],
-"classmeshlib_1_1FeatureObject.html#a7142f943cac065ec854a1432cdf3f010":[9,6,0,0,0,422,115]
+"classmeshlib_1_1FeatureObject.html#a6dbbe819294b10c2574c031b9d2d65b4":[9,6,0,0,0,422,12]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX16 =
 {
+"classAngleMeasurementObject.html#a3b2227f4ef325d938b4210db4668d877":[9,4,1,0,49,67],
+"classAngleMeasurementObject.html#a3c4b9ea29edc6d916fedc0eadec59532":[9,4,1,0,49,111],
+"classAngleMeasurementObject.html#a3ef82df638b10f6629f7ae87c1b224bb":[9,4,1,0,49,3],
 "classAngleMeasurementObject.html#a46cf301a0f36087bd8462cdea6eaf775":[9,4,1,0,49,77],
 "classAngleMeasurementObject.html#a4a815fb5b8d8a0cbd442c8fde4543dc3":[9,4,1,0,49,80],
 "classAngleMeasurementObject.html#a51c5fd2e53cdbfb5bc6b8e34e10f0240":[9,4,1,0,49,38],
@@ -246,8 +249,5 @@ var NAVTREEINDEX16 =
 "classBall3f.html#aed4cffd34147866fa3e94acb3b745f8a":[9,4,1,0,57,4],
 "classBallPivotCandidate.html":[9,4,1,0,58],
 "classBallPivotCandidate.html#a0c70714a162759cfc8075b649afabc35":[9,4,1,0,58,1],
-"classBallPivotCandidate.html#a544614786b4c61a169b683ee3a22a702":[9,4,1,0,58,0],
-"classBallPivotCandidate.html#a69608c6f2f2c2b94cbb3cd4be8798ced":[9,4,1,0,58,3],
-"classBallPivotCandidate.html#ab2208b3d037c90fb576f039e02111a30":[9,4,1,0,58,2],
-"classBallPivotCandidate.html#ad359542e30886aec1d1ba6132be0e280":[9,4,1,0,58,4]
+"classBallPivotCandidate.html#a544614786b4c61a169b683ee3a22a702":[9,4,1,0,58,0]
 };

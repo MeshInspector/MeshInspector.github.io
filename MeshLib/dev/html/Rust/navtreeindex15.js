@@ -1,5 +1,10 @@
 var NAVTREEINDEX15 =
 {
+"namespacemeshlib_1_1voxels__load.html#a43435939ba6fcc2f6e2477909ea1cf96":[9,5,0,0,0,34,19],
+"namespacemeshlib_1_1voxels__load.html#a4bf24ef61b812052db531eaf88d1b020":[9,5,0,0,0,34,21],
+"namespacemeshlib_1_1voxels__load.html#a5219f22d3fb9bfc4e25c794df9b2497d":[9,5,0,0,0,34,33],
+"namespacemeshlib_1_1voxels__load.html#a6b083e1a59aa41a0726ec89103c5be4d":[9,5,0,0,0,34,30],
+"namespacemeshlib_1_1voxels__load.html#a80e5ab28ca5f988b08a5365f530ce195":[9,5,0,0,0,34,29],
 "namespacemeshlib_1_1voxels__load.html#a8ed1b268bdb49a1be39ddec4ed8945aa":[9,5,0,0,0,34,9],
 "namespacemeshlib_1_1voxels__load.html#a9711a57c65a6d982cbabc06e32be03b3":[9,5,0,0,0,34,22],
 "namespacemeshlib_1_1voxels__load.html#a9ac7e526cf9107e5732568ce43deb6ed":[9,5,0,0,0,34,24],
@@ -244,10 +249,5 @@ var NAVTREEINDEX15 =
 "std__pair__const__MR__FaceId__MR__FaceId_8rs.html":[9,5,2,0,0,1,3,256],
 "std__pair__const__MR__GraphEdgeId__MR__GraphEdgeId_8rs.html":[9,5,2,0,0,1,3,257],
 "std__pair__const__MR__GraphVertId__MR__GraphVertId_8rs.html":[9,5,2,0,0,1,3,258],
-"std__pair__const__MR__Id__MR__ICPElemtTag__MR__Id__MR__ICPElemtTag_8rs.html":[9,5,2,0,0,1,3,259],
-"std__pair__const__MR__Id__MR__SurfaceDistanceStartTag__MR__Id__MR__SurfaceDistanceStartTag_8rs.html":[9,5,2,0,0,1,3,260],
-"std__pair__const__MR__NodeId__MR__NodeId_8rs.html":[9,5,2,0,0,1,3,261],
-"std__pair__const__MR__ObjId__MR__ObjId_8rs.html":[9,5,2,0,0,1,3,262],
-"std__pair__const__MR__PixelId__MR__PixelId_8rs.html":[9,5,2,0,0,1,3,263],
-"std__pair__const__MR__RegionId__MR__RegionId_8rs.html":[9,5,2,0,0,1,3,264]
+"std__pair__const__MR__Id__MR__ICPElemtTag__MR__Id__MR__ICPElemtTag_8rs.html":[9,5,2,0,0,1,3,259]
 };
