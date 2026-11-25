@@ -1115,6 +1115,7 @@ var annotated_dup =
       [ "Toolbar", "classMR_1_1Toolbar.html", "classMR_1_1Toolbar" ],
       [ "ToolPathParams", "structMR_1_1ToolPathParams.html", "structMR_1_1ToolPathParams" ],
       [ "ToolPathResult", "structMR_1_1ToolPathResult.html", "structMR_1_1ToolPathResult" ],
+      [ "Torus3", "structMR_1_1Torus3.html", "structMR_1_1Torus3" ],
       [ "TouchEndListener", "structMR_1_1TouchEndListener.html", "structMR_1_1TouchEndListener" ],
       [ "TouchesController", "classMR_1_1TouchesController.html", "classMR_1_1TouchesController" ],
       [ "TouchMoveListener", "structMR_1_1TouchMoveListener.html", "structMR_1_1TouchMoveListener" ],

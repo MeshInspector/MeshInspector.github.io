@@ -248,6 +248,6 @@ var NAVTREEINDEX8 =
 "MRBestFitQuadric_8h_source.html":[9,2,2,0,0,0,0,1,23],
 "MRBestFit_8h.html":[9,2,2,0,0,0,0,1,20],
 "MRBestFit_8h.html#a03b62bf0a6e19ffeb615cf1a4d0f1132":[9,2,2,0,0,0,0,1,20,7],
-"MRBestFit_8h.html#a07b7fe8bfa0f6483120eeaef97f26ada":[9,2,2,0,0,0,0,1,20,15],
-"MRBestFit_8h.html#a07fc26bd25964f4266ce258ea380b311":[9,2,2,0,0,0,0,1,20,31]
+"MRBestFit_8h.html#a07b7fe8bfa0f6483120eeaef97f26ada":[9,2,2,0,0,0,0,1,20,33],
+"MRBestFit_8h.html#a07fc26bd25964f4266ce258ea380b311":[9,2,2,0,0,0,0,1,20,49]
 };

@@ -1310,6 +1310,7 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters shared by all tool path generation functions.  <a href="structMR_1_1ToolPathParams.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ToolPathResult" id="r_ToolPathResult"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ToolPathResult.html">ToolPathResult</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Result of a tool path computation.  <a href="structMR_1_1ToolPathResult.html#details">More...</a><br /></td></tr>
+<tr class="memitem:Torus3" id="r_Torus3"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Torus3.html">Torus3</a></td></tr>
 <tr class="memitem:TouchEndListener" id="r_TouchEndListener"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TouchEndListener.html">TouchEndListener</a></td></tr>
 <tr class="memitem:TouchesController" id="r_TouchesController"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1TouchesController.html">TouchesController</a></td></tr>
 <tr class="memitem:TouchMoveListener" id="r_TouchMoveListener"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TouchMoveListener.html">TouchMoveListener</a></td></tr>
@@ -2521,6 +2522,16 @@ Functions</h2></td></tr>
 <tr class="memdesc:gadd8ec98f764c742961e5743805592c41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds in existing <a class="el" href="classMR_1_1PointAccumulator.html" title="Class to accumulate points and make best line / plane approximation.">PointAccumulator</a> all line centers with the weight equal to the length line.  <br /></td></tr>
 <tr class="memitem:ga38c918865ff22c325ba1364003248481" id="r_ga38c918865ff22c325ba1364003248481"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BestFitGroup.html#ga38c918865ff22c325ba1364003248481">accumulatePoints</a> (<a class="el" href="classMR_1_1PointAccumulator.html">PointAccumulator</a> &amp;accum, const <a class="el" href="structMR_1_1PointCloudPart.html">PointCloudPart</a> &amp;pcp, const AffineXf3f *xf=nullptr)</td></tr>
 <tr class="memdesc:ga38c918865ff22c325ba1364003248481"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds in existing <a class="el" href="classMR_1_1PointAccumulator.html" title="Class to accumulate points and make best line / plane approximation.">PointAccumulator</a> all points from the cloud (region) with weight 1.  <br /></td></tr>
+<tr class="memitem:a04ddfa41ff8dfea8daa4629969b1a322" id="r_a04ddfa41ff8dfea8daa4629969b1a322"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Sphere3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04ddfa41ff8dfea8daa4629969b1a322">findBestSphere</a> (const std::vector&lt; Vector3d &gt; &amp;points)</td></tr>
+<tr class="memitem:a14fe0d617e49c03deb39687419ac7657" id="r_a14fe0d617e49c03deb39687419ac7657"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Sphere2d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14fe0d617e49c03deb39687419ac7657">findBestCircle</a> (const std::vector&lt; Vector2d &gt; &amp;points)</td></tr>
+<tr class="memitem:ab4d90f1e3b3b82760b4b47c4cec29467" id="r_ab4d90f1e3b3b82760b4b47c4cec29467"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Line3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4d90f1e3b3b82760b4b47c4cec29467">findRevolutionAxis</a> (const std::vector&lt; Line3d &gt; &amp;normalLines)</td></tr>
+<tr class="memitem:a895c2bf97a9e6da71508f5195996fd2f" id="r_a895c2bf97a9e6da71508f5195996fd2f"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Cylinder3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a895c2bf97a9e6da71508f5195996fd2f">findBestCylinderByNormals</a> (const std::vector&lt; Vector3d &gt; &amp;points, const std::vector&lt; Vector3d &gt; &amp;normals)</td></tr>
+<tr class="memitem:af4ee492990daa1675a4c98389887d248" id="r_af4ee492990daa1675a4c98389887d248"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Cone3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4ee492990daa1675a4c98389887d248">findBestConeWithAxis</a> (const std::vector&lt; Vector3d &gt; &amp;points, const Line3d &amp;axis)</td></tr>
+<tr class="memitem:ad28ee549b34c0a531af9f14891b0a893" id="r_ad28ee549b34c0a531af9f14891b0a893"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Cone3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad28ee549b34c0a531af9f14891b0a893">findBestConeByTangentPlanes</a> (const std::vector&lt; Vector3d &gt; &amp;points, const std::vector&lt; Plane3d &gt; &amp;tangentPlanes)</td></tr>
+<tr class="memitem:ad7039dfb94d72e3d4f61ae5a76aa5792" id="r_ad7039dfb94d72e3d4f61ae5a76aa5792"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Torus3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7039dfb94d72e3d4f61ae5a76aa5792">findBestTorusWithAxis</a> (const std::vector&lt; Vector3d &gt; &amp;points, const Line3d &amp;axis)</td></tr>
+<tr class="memdesc:ad7039dfb94d72e3d4f61ae5a76aa5792"><td class="mdescLeft">&#160;</td><td class="mdescRight">torus with given axis fitted to the points: the circle of the tube section fitted in the plane (distance to the axis, position along it)  <br /></td></tr>
+<tr class="memitem:ab8687931c68228f6ee8992b4c4716088" id="r_ab8687931c68228f6ee8992b4c4716088"><td class="memItemLeft" align="right" valign="top">Torus3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8687931c68228f6ee8992b4c4716088">refineTorus</a> (const std::vector&lt; Vector3d &gt; &amp;points, const Torus3d &amp;torus)</td></tr>
+<tr class="memdesc:ab8687931c68228f6ee8992b4c4716088"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimizes the sum of squared distances from the points to the torus by Levenberg-Marquardt method starting from given torus  <br /></td></tr>
 <tr class="memitem:ga28db3c5e8ff0f5fe41f51c8376480d75" id="r_ga28db3c5e8ff0f5fe41f51c8376480d75"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga28db3c5e8ff0f5fe41f51c8376480d75">canSolvePolynomial</a> (auto degree)</td></tr>
 <tr class="memitem:ga074ffc418d95b187b57843611aef56d6" id="r_ga074ffc418d95b187b57843611aef56d6"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga074ffc418d95b187b57843611aef56d6">canMinimizePolynomial</a> (auto degree)</td></tr>
 <tr class="memitem:gaba5467b93d277b487924275e34615eb3" id="r_gaba5467b93d277b487924275e34615eb3"><td class="memTemplParams" colspan="2">template&lt;typename To, typename From&gt; </td></tr>
@@ -3377,8 +3388,9 @@ requires <a class="el" href="namespaceMR_1_1detail.html#af6206848d5379160c8a8684
 <tr class="memitem:gaad665292a0dadac96093e96293f5bf1d" id="r_gaad665292a0dadac96093e96293f5bf1d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaad665292a0dadac96093e96293f5bf1d">Parabola&lt; float &gt;</a> (Parabolad, <a class="el" href="structMR_1_1Parabola.html">Parabola</a>&lt; double &gt;)) 1((template&lt; typename T &gt; class)</td></tr>
 <tr class="memitem:ga7a58ad1eee70d9c073e3a4ae175ba4cc" id="r_ga7a58ad1eee70d9c073e3a4ae175ba4cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7a58ad1eee70d9c073e3a4ae175ba4cc">BestFitParabola&lt; float &gt;</a> (BestFitParabolad, <a class="el" href="classMR_1_1BestFitParabola.html">BestFitParabola</a>&lt; double &gt;)) 1((template&lt; typename T &gt; class)</td></tr>
 <tr class="memitem:ga40746a06c74f917e196ce5d5e8f4e133" id="r_ga40746a06c74f917e196ce5d5e8f4e133"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga40746a06c74f917e196ce5d5e8f4e133">Cylinder3&lt; float &gt;</a> (Cylinder3d, <a class="el" href="classMR_1_1Cylinder3.html">Cylinder3</a>&lt; double &gt;)) 1((template&lt; typename T &gt; class)</td></tr>
-<tr class="memitem:ga04c9a5f04585aa8c5818315dfbf0fe8e" id="r_ga04c9a5f04585aa8c5818315dfbf0fe8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga04c9a5f04585aa8c5818315dfbf0fe8e">Cone3&lt; float &gt;</a> (Cone3d, <a class="el" href="classMR_1_1Cone3.html">Cone3</a>&lt; double &gt;)) template&lt; typename V &gt; using <a class="el" href="group__GeneralGroup.html#gga67d34f41d5848c8437c87a4508f88574a0b3303e86f36d6d2b1266da88cf76e66">Contour</a></td></tr>
-<tr class="memdesc:ga04c9a5f04585aa8c5818315dfbf0fe8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">No canonical typedefs here, because those ultimately boil to <span class="tt">std::vector</span>, which isn't under our control.  <br /></td></tr>
+<tr class="memitem:ga6736ce0969735f4c2ec22dfc6ab34e4e" id="r_ga6736ce0969735f4c2ec22dfc6ab34e4e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6736ce0969735f4c2ec22dfc6ab34e4e">Cone3&lt; float &gt;</a> (Cone3d, <a class="el" href="classMR_1_1Cone3.html">Cone3</a>&lt; double &gt;)) 1((template&lt; typename T &gt; <a class="el" href="group__GeneralGroup.html#ga14a2b0f304716de7247bc521bb0f4b8b">struct</a>)</td></tr>
+<tr class="memitem:ga098e3b9d4abfb7a9e732ec34ab70837e" id="r_ga098e3b9d4abfb7a9e732ec34ab70837e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga098e3b9d4abfb7a9e732ec34ab70837e">Torus3&lt; float &gt;</a> (Torus3d, <a class="el" href="structMR_1_1Torus3.html">Torus3</a>&lt; double &gt;)) template&lt; typename V &gt; using <a class="el" href="group__GeneralGroup.html#gga67d34f41d5848c8437c87a4508f88574a0b3303e86f36d6d2b1266da88cf76e66">Contour</a></td></tr>
+<tr class="memdesc:ga098e3b9d4abfb7a9e732ec34ab70837e"><td class="mdescLeft">&#160;</td><td class="mdescRight">No canonical typedefs here, because those ultimately boil to <span class="tt">std::vector</span>, which isn't under our control.  <br /></td></tr>
 <tr class="memitem:ga5aee9f717d3d2a2a5c895883a3926f91" id="r_ga5aee9f717d3d2a2a5c895883a3926f91"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga5aee9f717d3d2a2a5c895883a3926f91">Plane3&lt; float &gt;</a> (Plane3d, <a class="el" href="structMR_1_1Plane3.html">Plane3</a>&lt; double &gt;)) 1((template&lt; typename V &gt; <a class="el" href="group__GeneralGroup.html#ga14a2b0f304716de7247bc521bb0f4b8b">struct</a>)</td></tr>
 <tr class="memitem:gaa17fe9d041945f62753eeef088626605" id="r_gaa17fe9d041945f62753eeef088626605"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa17fe9d041945f62753eeef088626605">Box&lt; int &gt;</a> (Box1i64, <a class="el" href="structMR_1_1Box.html">Box</a>&lt; std::int64_t &gt;)(Box1f</td></tr>
 <tr class="memitem:ga52d4c73dd39cffe01830b2bb1f53a190" id="r_ga52d4c73dd39cffe01830b2bb1f53a190"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga52d4c73dd39cffe01830b2bb1f53a190">Box&lt; float &gt;</a> (Box1d, <a class="el" href="structMR_1_1Box.html">Box</a>&lt; double &gt;)(Box2i</td></tr>
@@ -5421,6 +5433,8 @@ Variables</h2></td></tr>
 <tr class="memitem:ga1e1eeb9ec9e53f13003c0882dc66eaef" id="r_ga1e1eeb9ec9e53f13003c0882dc66eaef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga1e1eeb9ec9e53f13003c0882dc66eaef">Cylinder3f</a></td></tr>
 <tr class="memitem:gabcf951f0c16ac74004bf7cab1c0ddc51" id="r_gabcf951f0c16ac74004bf7cab1c0ddc51"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gabcf951f0c16ac74004bf7cab1c0ddc51">Cone3</a></td></tr>
 <tr class="memitem:gaacddd8dea45c1f5082893fce7fb5755d" id="r_gaacddd8dea45c1f5082893fce7fb5755d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaacddd8dea45c1f5082893fce7fb5755d">Cone3f</a></td></tr>
+<tr class="memitem:gad8f3ff0c291ec99f91f5b84028954079" id="r_gad8f3ff0c291ec99f91f5b84028954079"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gad8f3ff0c291ec99f91f5b84028954079">Torus3</a></td></tr>
+<tr class="memitem:ga4a0f02dc52ce6913bb6d38244933e7e2" id="r_ga4a0f02dc52ce6913bb6d38244933e7e2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4a0f02dc52ce6913bb6d38244933e7e2">Torus3f</a></td></tr>
 <tr class="memitem:ga12adcb83815d54cc12287034fc9e11ac" id="r_ga12adcb83815d54cc12287034fc9e11ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga12adcb83815d54cc12287034fc9e11ac">Plane3</a></td></tr>
 <tr class="memitem:ga6b8606e6618471611100352ed5a178a7" id="r_ga6b8606e6618471611100352ed5a178a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6b8606e6618471611100352ed5a178a7">Plane3f</a></td></tr>
 <tr class="memitem:ga28ad0ea821b120682bcfbd322884af64" id="r_ga28ad0ea821b120682bcfbd322884af64"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga28ad0ea821b120682bcfbd322884af64">Box</a></td></tr>
@@ -5762,6 +5776,205 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a14fe0d617e49c03deb39687419ac7657" name="a14fe0d617e49c03deb39687419ac7657"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14fe0d617e49c03deb39687419ac7657">&#9670;&#160;</a></span>findBestCircle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; Sphere2d &gt; MR::findBestCircle </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; Vector2d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>least squares circle through the points (algebraic fit of the centered points), stable for short arcs; for degenerate points (e.g. collinear) returns the minimum-norm solution, so check the distances to the points if they can be degenerate; returns nullopt if the solution has no real radius </p>
+
+</div>
+</div>
+<a id="ad28ee549b34c0a531af9f14891b0a893" name="ad28ee549b34c0a531af9f14891b0a893"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad28ee549b34c0a531af9f14891b0a893">&#9670;&#160;</a></span>findBestConeByTangentPlanes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; Cone3d &gt; MR::findBestConeByTangentPlanes </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; Plane3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>tangentPlanes</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>cone tangent to all given planes (e.g. of mesh triangles) with consistently oriented normals, and the angle fitted to the points; unlike findRevolutionAxis + findBestConeWithAxis, it works for a single strip of triangles; the height of the cone spans the points </p>
+
+</div>
+</div>
+<a id="af4ee492990daa1675a4c98389887d248" name="af4ee492990daa1675a4c98389887d248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4ee492990daa1675a4c98389887d248">&#9670;&#160;</a></span>findBestConeWithAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; Cone3d &gt; MR::findBestConeWithAxis </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Line3d &amp;</td>          <td class="paramname"><span class="paramname"><em>axis</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>cone with given axis fitted to the points, assuming linear dependence of the distance to the axis on the position along it; the height of the cone spans the points </p>
+
+</div>
+</div>
+<a id="a895c2bf97a9e6da71508f5195996fd2f" name="a895c2bf97a9e6da71508f5195996fd2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a895c2bf97a9e6da71508f5195996fd2f">&#9670;&#160;</a></span>findBestCylinderByNormals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; Cylinder3d &gt; MR::findBestCylinderByNormals </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>normals</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>cylinder with the axis orthogonal to all given surface normals, and the radius fitted to the points; the center and the length of the cylinder span the projections of the points on the axis </p>
+
+</div>
+</div>
+<a id="a04ddfa41ff8dfea8daa4629969b1a322" name="a04ddfa41ff8dfea8daa4629969b1a322"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04ddfa41ff8dfea8daa4629969b1a322">&#9670;&#160;</a></span>findBestSphere()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; Sphere3d &gt; MR::findBestSphere </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>least squares sphere through the points (algebraic fit of the centered points); for degenerate points (e.g. coplanar) returns the minimum-norm solution, so check the distances to the points if they can be degenerate; returns nullopt if the solution has no real radius </p>
+
+</div>
+</div>
+<a id="ad7039dfb94d72e3d4f61ae5a76aa5792" name="ad7039dfb94d72e3d4f61ae5a76aa5792"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7039dfb94d72e3d4f61ae5a76aa5792">&#9670;&#160;</a></span>findBestTorusWithAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; Torus3d &gt; MR::findBestTorusWithAxis </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Line3d &amp;</td>          <td class="paramname"><span class="paramname"><em>axis</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>torus with given axis fitted to the points: the circle of the tube section fitted in the plane (distance to the axis, position along it) </p>
+
+</div>
+</div>
+<a id="ab4d90f1e3b3b82760b4b47c4cec29467" name="ab4d90f1e3b3b82760b4b47c4cec29467"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4d90f1e3b3b82760b4b47c4cec29467">&#9670;&#160;</a></span>findRevolutionAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; Line3d &gt; MR::findRevolutionAxis </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; Line3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>normalLines</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>finds the line crossing all given lines in the least squares sense, e.g. the axis of a surface of revolution from the lines of its normals (lines with unit directions have equal weights); the result is ambiguous if many lines cross all given ones, e.g. for the normals of a plane or a sphere, so check the distances to the points then; returns nullopt if the best solution is the line at infinity </p>
+
+</div>
+</div>
 <a id="af57a9e992da58c4255497330494f5790" name="af57a9e992da58c4255497330494f5790"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af57a9e992da58c4255497330494f5790">&#9670;&#160;</a></span>moveMeshToVoxelMaxDeriv&lt; FunctionVolume &gt;()</h2>
 
@@ -5906,6 +6119,37 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8687931c68228f6ee8992b4c4716088" name="ab8687931c68228f6ee8992b4c4716088"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8687931c68228f6ee8992b4c4716088">&#9670;&#160;</a></span>refineTorus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Torus3d MR::refineTorus </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Torus3d &amp;</td>          <td class="paramname"><span class="paramname"><em>torus</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>minimizes the sum of squared distances from the points to the torus by Levenberg-Marquardt method starting from given torus </p>
 
 </div>
 </div>

@@ -237,6 +237,8 @@ var NAVTREEINDEX5 =
 "MRToolbar_8h_source.html":[9,0,3,0,11,138],
 "MRToolsLibrary_8h.html":[9,0,3,0,11,139],
 "MRToolsLibrary_8h_source.html":[9,0,3,0,11,139],
+"MRTorus3_8h.html":[9,0,3,0,7,428],
+"MRTorus3_8h_source.html":[9,0,3,0,7,428],
 "MRTorus_8h.html":[9,0,3,0,7,427],
 "MRTorus_8h_source.html":[9,0,3,0,7,427],
 "MRTouchesController_8h.html":[9,0,3,0,11,140],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "MRTouchpadController_8h_source.html":[9,0,3,0,11,142],
 "MRTouchpadParameters_8h.html":[9,0,3,0,11,143],
 "MRTouchpadParameters_8h_source.html":[9,0,3,0,11,143],
-"MRTouchpadWin32Handler_8h.html":[9,0,3,0,11,144],
-"MRTouchpadWin32Handler_8h_source.html":[9,0,3,0,11,144],
-"MRTriDist_8h.html":[9,0,3,0,7,429]
+"MRTouchpadWin32Handler_8h.html":[9,0,3,0,11,144]
 };

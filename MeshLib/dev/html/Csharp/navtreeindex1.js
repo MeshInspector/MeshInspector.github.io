@@ -246,8 +246,8 @@ var NAVTREEINDEX1 =
 "MRTiff_8cs.html":[9,3,1,0,0,0,1,14],
 "MRTimer_8cs.html":[9,3,1,0,0,0,2,362],
 "MRToolPath_8cs.html":[9,3,1,0,0,0,4,26],
+"MRTorus3_8cs.html":[9,3,1,0,0,0,2,364],
 "MRTorus_8cs.html":[9,3,1,0,0,0,2,363],
-"MRTriDist_8cs.html":[9,3,1,0,0,0,2,365],
-"MRTriMath_8cs.html":[9,3,1,0,0,0,2,366],
-"MRTriMeshPart_8cs.html":[9,3,1,0,0,0,2,368]
+"MRTriDist_8cs.html":[9,3,1,0,0,0,2,366],
+"MRTriMath_8cs.html":[9,3,1,0,0,0,2,367]
 };

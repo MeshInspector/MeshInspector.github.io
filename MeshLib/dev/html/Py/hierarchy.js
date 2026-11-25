@@ -708,6 +708,9 @@ var hierarchy =
     [ "mrmeshpy.Const_std_vector_Line3Mesh_float", "classmrmeshpy_1_1Const__std__vector__Line3Mesh__float.html", [
       [ "mrmeshpy.std_vector_Line3Mesh_float", "classmrmeshpy_1_1std__vector__Line3Mesh__float.html", null ]
     ] ],
+    [ "mrmeshpy.Const_std_vector_Line_Vector3_double", "classmrmeshpy_1_1Const__std__vector__Line__Vector3__double.html", [
+      [ "mrmeshpy.std_vector_Line_Vector3_double", "classmrmeshpy_1_1std__vector__Line__Vector3__double.html", null ]
+    ] ],
     [ "mrmeshpy.Const_std_vector_LineSegm_Vector3_float", "classmrmeshpy_1_1Const__std__vector__LineSegm__Vector3__float.html", [
       [ "mrmeshpy.std_vector_LineSegm_Vector3_float", "classmrmeshpy_1_1std__vector__LineSegm__Vector3__float.html", null ]
     ] ],
@@ -788,6 +791,9 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.Const_std_vector_PlanarTriangulation_IntersectionInfo", "classmrmeshpy_1_1Const__std__vector__PlanarTriangulation__IntersectionInfo.html", [
       [ "mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo", "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html", null ]
+    ] ],
+    [ "mrmeshpy.Const_std_vector_Plane3_double", "classmrmeshpy_1_1Const__std__vector__Plane3__double.html", [
+      [ "mrmeshpy.std_vector_Plane3_double", "classmrmeshpy_1_1std__vector__Plane3__double.html", null ]
     ] ],
     [ "mrmeshpy.Const_std_vector_PointCloud", "classmrmeshpy_1_1Const__std__vector__PointCloud.html", [
       [ "mrmeshpy.std_vector_PointCloud", "classmrmeshpy_1_1std__vector__PointCloud.html", null ]
@@ -3996,6 +4002,12 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ConstToolPathResult", "classmrmeshpy_1_1ConstToolPathResult.html", [
       [ "mrmeshpy.ToolPathResult", "classmrmeshpy_1_1ToolPathResult.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstTorus3d", "classmrmeshpy_1_1ConstTorus3d.html", [
+      [ "mrmeshpy.Torus3d", "classmrmeshpy_1_1Torus3d.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstTorus3f", "classmrmeshpy_1_1ConstTorus3f.html", [
+      [ "mrmeshpy.Torus3f", "classmrmeshpy_1_1Torus3f.html", null ]
     ] ],
     [ "mrmeshpy.ConstTransformedMesh", "classmrmeshpy_1_1ConstTransformedMesh.html", [
       [ "mrmeshpy.TransformedMesh", "classmrmeshpy_1_1TransformedMesh.html", null ]

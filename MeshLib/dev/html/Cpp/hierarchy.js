@@ -1374,6 +1374,7 @@ var hierarchy =
       [ "MR::ConstantCuspParams", "structMR_1_1ConstantCuspParams.html", null ]
     ] ],
     [ "MR::ToolPathResult", "structMR_1_1ToolPathResult.html", null ],
+    [ "MR::Torus3< T >", "structMR_1_1Torus3.html", null ],
     [ "MR::TouchpadParameters", "structMR_1_1TouchpadParameters.html", null ],
     [ "MR::TransformedMesh", "structMR_1_1TransformedMesh.html", null ],
     [ "MR::TransformVdbVolumeResult", "structMR_1_1TransformVdbVolumeResult.html", null ],

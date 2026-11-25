@@ -1,5 +1,7 @@
 var NAVTREEINDEX106 =
 {
+"classmeshlib_1_1OutliersDetector.html#a3ad261e6fe129c7ea772228a6b30bd8c":[9,6,1,0,0,777,1],
+"classmeshlib_1_1OutliersDetector.html#a3c7ed741b218be9cc8a5540589fb17fc":[9,6,0,0,0,777,4],
 "classmeshlib_1_1OutliersDetector.html#a3c7ed741b218be9cc8a5540589fb17fc":[9,6,1,0,0,777,4],
 "classmeshlib_1_1OutliersDetector.html#a458b71f6b3e783768981de2cf6b8ed40":[9,6,0,0,0,777,7],
 "classmeshlib_1_1OutliersDetector.html#a458b71f6b3e783768981de2cf6b8ed40":[9,6,1,0,0,777,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX106 =
 "classmeshlib_1_1Pdf.html#a0a92016f6a1cbd1e2d7d596fea8ab718":[9,6,1,0,0,789,23],
 "classmeshlib_1_1Pdf.html#a1840aa4a281937169beb3f23bd90ce2e":[9,6,0,0,0,789,13],
 "classmeshlib_1_1Pdf.html#a1840aa4a281937169beb3f23bd90ce2e":[9,6,1,0,0,789,13],
-"classmeshlib_1_1Pdf.html#a1bfb9269ec50e9833cbc30dfa21031c0":[9,6,0,0,0,789,14],
-"classmeshlib_1_1Pdf.html#a1bfb9269ec50e9833cbc30dfa21031c0":[9,6,1,0,0,789,14],
-"classmeshlib_1_1Pdf.html#a28129836d17cc243396c2cda8f5527bf":[9,6,0,0,0,789,4]
+"classmeshlib_1_1Pdf.html#a1bfb9269ec50e9833cbc30dfa21031c0":[9,6,0,0,0,789,14]
 };

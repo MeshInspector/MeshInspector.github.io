@@ -2403,6 +2403,12 @@ var hierarchy =
       [ "MR.Const_ToolPathResult", "classMR_1_1Const__ToolPathResult.html", [
         [ "MR.ToolPathResult", "classMR_1_1ToolPathResult.html", null ]
       ] ],
+      [ "MR.Const_Torus3d", "classMR_1_1Const__Torus3d.html", [
+        [ "MR.Torus3d", "classMR_1_1Torus3d.html", null ]
+      ] ],
+      [ "MR.Const_Torus3f", "classMR_1_1Const__Torus3f.html", [
+        [ "MR.Torus3f", "classMR_1_1Torus3f.html", null ]
+      ] ],
       [ "MR.Const_TransformVdbVolumeResult", "classMR_1_1Const__TransformVdbVolumeResult.html", [
         [ "MR.TransformVdbVolumeResult", "classMR_1_1TransformVdbVolumeResult.html", null ]
       ] ],
@@ -3616,6 +3622,8 @@ var hierarchy =
       [ "MR.Const_SymMatrix4i", "classMR_1_1Const__SymMatrix4i.html", null ],
       [ "MR.Const_SymMatrix4i64", "classMR_1_1Const__SymMatrix4i64.html", null ],
       [ "MR.Const_TexturePerFace", "classMR_1_1Const__TexturePerFace.html", null ],
+      [ "MR.Const_Torus3d", "classMR_1_1Const__Torus3d.html", null ],
+      [ "MR.Const_Torus3f", "classMR_1_1Const__Torus3f.html", null ],
       [ "MR.Const_TriCornerUVCoords", "classMR_1_1Const__TriCornerUVCoords.html", null ],
       [ "MR.Const_TriPointd", "classMR_1_1Const__TriPointd.html", null ],
       [ "MR.Const_TriPointf", "classMR_1_1Const__TriPointf.html", null ],
@@ -4572,6 +4580,8 @@ var hierarchy =
       [ "MR.Const_TiffSaveSettings", "classMR_1_1Const__TiffSaveSettings.html", null ],
       [ "MR.Const_ToolPathParams", "classMR_1_1Const__ToolPathParams.html", null ],
       [ "MR.Const_ToolPathResult", "classMR_1_1Const__ToolPathResult.html", null ],
+      [ "MR.Const_Torus3d", "classMR_1_1Const__Torus3d.html", null ],
+      [ "MR.Const_Torus3f", "classMR_1_1Const__Torus3f.html", null ],
       [ "MR.Const_TransformVdbVolumeResult", "classMR_1_1Const__TransformVdbVolumeResult.html", null ],
       [ "MR.Const_TransformedMesh", "classMR_1_1Const__TransformedMesh.html", null ],
       [ "MR.Const_TransparencyMode", "classMR_1_1Const__TransparencyMode.html", null ],

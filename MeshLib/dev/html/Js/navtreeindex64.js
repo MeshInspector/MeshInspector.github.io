@@ -1,5 +1,17 @@
 var NAVTREEINDEX64 =
 {
+"classPointsLoad_1_1MultiScanLoadSettings.html#acf1ca44d44d22960d3839ff7f9bd4edc":[9,4,1,0,12,1,1],
+"classPointsLoad_1_1MultiScanLoadSettings.html#af1aad716ff1b2b5557991999cae054a3":[9,4,0,0,25,1,0],
+"classPointsLoad_1_1MultiScanLoadSettings.html#af1aad716ff1b2b5557991999cae054a3":[9,4,1,0,12,1,0],
+"classPointsLoad_1_1NamedCloud.html":[9,4,0,0,25,2],
+"classPointsLoad_1_1NamedCloud.html":[9,4,1,0,12,2],
+"classPointsLoad_1_1NamedCloud.html#a2d6f8c635a9144c1eb79821e5a712075":[9,4,0,0,25,2,3],
+"classPointsLoad_1_1NamedCloud.html#a2d6f8c635a9144c1eb79821e5a712075":[9,4,1,0,12,2,3],
+"classPointsLoad_1_1NamedCloud.html#a3dfc4e372556067e82d888cf9ab852c4":[9,4,0,0,25,2,1],
+"classPointsLoad_1_1NamedCloud.html#a3dfc4e372556067e82d888cf9ab852c4":[9,4,1,0,12,2,1],
+"classPointsLoad_1_1NamedCloud.html#a677ae62f71778550c723db33ed1a5676":[9,4,0,0,25,2,2],
+"classPointsLoad_1_1NamedCloud.html#a677ae62f71778550c723db33ed1a5676":[9,4,1,0,12,2,2],
+"classPointsLoad_1_1NamedCloud.html#a9361d5ad955f73e6a6ff3799b55a701a":[9,4,0,0,25,2,4],
 "classPointsLoad_1_1NamedCloud.html#a9361d5ad955f73e6a6ff3799b55a701a":[9,4,1,0,12,2,4],
 "classPointsLoad_1_1NamedCloud.html#aad8174e43b10b3d7ac608d9095034009":[9,4,0,0,25,2,6],
 "classPointsLoad_1_1NamedCloud.html#aad8174e43b10b3d7ac608d9095034009":[9,4,1,0,12,2,6],
@@ -237,17 +249,5 @@ var NAVTREEINDEX64 =
 "classPolylineIntersectionResult2.html#a7eb431d9d64759d9c6842d9340f67fb9":[9,4,1,0,723,1],
 "classPolylineIntersectionResult2.html#a858e4e5794660b91d3adbe8c113b7bc2":[9,4,1,0,723,5],
 "classPolylineIntersectionResult2.html#af0218a6f2cccd8c576bdd4a87720afbf":[9,4,1,0,723,4],
-"classPolylineMaker.html":[9,4,1,0,724],
-"classPolylineMaker.html#a0a8a8440b30eb971cd2ae7e34902085e":[9,4,1,0,724,4],
-"classPolylineMaker.html#a2b84a41c29298504d75cd57f3fb5c2ba":[9,4,1,0,724,1],
-"classPolylineMaker.html#a59a4562e3e67d4538e251a691f7d3ccd":[9,4,1,0,724,3],
-"classPolylineMaker.html#a637ffe0bfea853a79b15194740a5671e":[9,4,1,0,724,5],
-"classPolylineMaker.html#a6e72960db9a10ff78ef9de8a73fe1dba":[9,4,1,0,724,6],
-"classPolylineMaker.html#a9bdc17b2a07d8e01b29e737b41664611":[9,4,1,0,724,2],
-"classPolylineMaker.html#af52139ce456ad4eb218c1713a9e6bc48":[9,4,1,0,724,0],
-"classPolylineProjectionResult2.html":[9,4,1,0,725],
-"classPolylineProjectionResult2.html#a1fb8adbfbfe5bf64ad952d414d7926f7":[9,4,1,0,725,6],
-"classPolylineProjectionResult2.html#a39c74851d508502af3c0552cd895bb65":[9,4,1,0,725,2],
-"classPolylineProjectionResult2.html#a3c9a65c87c58dc9335e122194476ada5":[9,4,1,0,725,5],
-"classPolylineProjectionResult2.html#a73d6e9848be50b0a80f0960a113bfb03":[9,4,1,0,725,8]
+"classPolylineMaker.html":[9,4,1,0,724]
 };

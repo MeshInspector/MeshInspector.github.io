@@ -1,5 +1,14 @@
 var NAVTREEINDEX15 =
 {
+"classMR_1_1Box__Color.html#a7e8d40591102c18b933ad87dba971b0b":[9,3,0,0,0,96,8],
+"classMR_1_1Box__Color.html#a80c1cbad5e77e02d0bfc1485a7639f55":[9,3,0,0,0,96,19],
+"classMR_1_1Box__Color.html#a9c047fbbaf942f9131159dc2335f4e41":[9,3,0,0,0,96,9],
+"classMR_1_1Box__Color.html#aa729ec8dd7ddd0c3bb7f183463241c54":[9,3,0,0,0,96,6],
+"classMR_1_1Box__Color.html#aab650255dd17c239a85d36abccbd6a2e":[9,3,0,0,0,96,5],
+"classMR_1_1Box__Color.html#ab717345344712b0138934af70d2003d2":[9,3,0,0,0,96,7],
+"classMR_1_1Box__Color.html#abb1482714528c17ca6796a00c226b63f":[9,3,0,0,0,96,2],
+"classMR_1_1Box__Color.html#ad84608b164e1c22768b5b90e7e300a9a":[9,3,0,0,0,96,4],
+"classMR_1_1Box__Color.html#ae53a945d902988aaa78711025c116d9b":[9,3,0,0,0,96,10],
 "classMR_1_1Box__EdgeId.html":[9,3,0,0,0,97],
 "classMR_1_1Box__EdgeId.html#a0c7be580e8887b560efa13bfd75be4c3":[9,3,0,0,0,97,10],
 "classMR_1_1Box__EdgeId.html#a12714fbbe1405e878e120e2e0400867f":[9,3,0,0,0,97,6],
@@ -240,14 +249,5 @@ var NAVTREEINDEX15 =
 "classMR_1_1Box__Matrix4d.html#a6e16173e207659c99539d5bd5eba122a":[9,3,0,0,0,113,19],
 "classMR_1_1Box__Matrix4d.html#a75540ffed33533d6a1ca3039b5c6abc6":[9,3,0,0,0,113,16],
 "classMR_1_1Box__Matrix4d.html#a8076cfb9e351bb5023cd6b43e04426a9":[9,3,0,0,0,113,17],
-"classMR_1_1Box__Matrix4d.html#a92e2373c005e3e3d483d7067a8b85cc0":[9,3,0,0,0,113,10],
-"classMR_1_1Box__Matrix4d.html#a94ecc8094bf71c34389ac3de58df839d":[9,3,0,0,0,113,20],
-"classMR_1_1Box__Matrix4d.html#abbefb900ab47fe7eb471fc287c794391":[9,3,0,0,0,113,1],
-"classMR_1_1Box__Matrix4d.html#abc33865d3d6fc7d3ea851beffe8488ea":[9,3,0,0,0,113,4],
-"classMR_1_1Box__Matrix4d.html#abef186fba4a73f8654057ae58a5d5bec":[9,3,0,0,0,113,2],
-"classMR_1_1Box__Matrix4d.html#ad60772bf7e075eeea9b6de1a4742acfc":[9,3,0,0,0,113,11],
-"classMR_1_1Box__Matrix4d.html#adea7adc4818c5f5dd05e0413a0937d77":[9,3,0,0,0,113,14],
-"classMR_1_1Box__Matrix4f.html":[9,3,0,0,0,114],
-"classMR_1_1Box__Matrix4f.html#a007df13f499c37fb7bad555cdcca644e":[9,3,0,0,0,114,10],
-"classMR_1_1Box__Matrix4f.html#a094d5e8fb14eb637509a8d3a21eb0e66":[9,3,0,0,0,114,6]
+"classMR_1_1Box__Matrix4d.html#a92e2373c005e3e3d483d7067a8b85cc0":[9,3,0,0,0,113,10]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX52 =
 {
+"classmeshlib_1_1FewSmallest__MR__PointsProjectionResult.html#af7903857fb67f5efa51b2bb2d7186d46":[9,6,1,0,0,428,3],
+"classmeshlib_1_1Ffi.html":[9,6,0,0,0,429],
 "classmeshlib_1_1Ffi.html":[9,6,1,0,0,429],
 "classmeshlib_1_1FillHoleItem.html":[9,6,0,0,0,430],
 "classmeshlib_1_1FillHoleItem.html":[9,6,1,0,0,430],
@@ -247,7 +249,5 @@ var NAVTREEINDEX52 =
 "classmeshlib_1_1FindOutliersParams.html#a33c860d63982c968362b903b0f65ca5c":[9,6,1,0,0,440,8],
 "classmeshlib_1_1FindOutliersParams.html#a3d77e01104f1b541c343b4c0b1c18c9c":[9,6,0,0,0,440,10],
 "classmeshlib_1_1FindOutliersParams.html#a3d77e01104f1b541c343b4c0b1c18c9c":[9,6,1,0,0,440,10],
-"classmeshlib_1_1FindOutliersParams.html#a5047886be3ce7514cb04a9e03ad47ae7":[9,6,0,0,0,440,3],
-"classmeshlib_1_1FindOutliersParams.html#a5047886be3ce7514cb04a9e03ad47ae7":[9,6,1,0,0,440,3],
-"classmeshlib_1_1FindOutliersParams.html#a6c94251fe3ee710739652ce257c55e5c":[9,6,0,0,0,440,0]
+"classmeshlib_1_1FindOutliersParams.html#a5047886be3ce7514cb04a9e03ad47ae7":[9,6,0,0,0,440,3]
 };

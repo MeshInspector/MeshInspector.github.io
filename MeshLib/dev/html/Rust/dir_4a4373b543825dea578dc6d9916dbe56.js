@@ -365,6 +365,7 @@ var dir_4a4373b543825dea578dc6d9916dbe56 =
     [ "MRTextureColors.rs", "MRTextureColors_8rs.html", "MRTextureColors_8rs" ],
     [ "MRTimer.rs", "MRTimer_8rs.html", "MRTimer_8rs" ],
     [ "MRTorus.rs", "MRTorus_8rs.html", "MRTorus_8rs" ],
+    [ "MRTorus3.rs", "MRTorus3_8rs.html", "MRTorus3_8rs" ],
     [ "MRTriangleIntersection.rs", "MRTriangleIntersection_8rs.html", "MRTriangleIntersection_8rs" ],
     [ "MRTriDist.rs", "MRTriDist_8rs.html", "MRTriDist_8rs" ],
     [ "MRTriMath.rs", "MRTriMath_8rs.html", "MRTriMath_8rs" ],

@@ -1,5 +1,17 @@
 var NAVTREEINDEX52 =
 {
+"classObjId.html#a66bd4f07cb7e9298777ffce5f8ab69bd":[9,4,1,0,659,4],
+"classObjId.html#a68c3dd33e850fff0508a3069719eb6e5":[9,4,1,0,659,11],
+"classObjId.html#a79d45d292192e5e3c489ff3ca9f42bd3":[9,4,1,0,659,9],
+"classObjId.html#a8a64b5b75311545554424965707a401b":[9,4,1,0,659,13],
+"classObjId.html#a9784c237587398d7cf1a45699cdf46e6":[9,4,1,0,659,1],
+"classObjId.html#aad3d714ee57757ed3754a58edc9ad4a9":[9,4,1,0,659,0],
+"classObjId.html#abc205f86fc2c9b13a114afe2a1e39edb":[9,4,1,0,659,10],
+"classObjId.html#accdcb13d4c42e04415fe604970348414":[9,4,1,0,659,5],
+"classObjId.html#ad27853a363f203f2b7934ec49c697723":[9,4,1,0,659,14],
+"classObjId.html#ad432b2c9b1f65bf1c007db2b86fccb42":[9,4,1,0,659,3],
+"classObjKindTraits__MR__FeaturesObjectKind__Circle.html":[9,4,1,0,660],
+"classObjKindTraits__MR__FeaturesObjectKind__Circle.html#a1658b0c714b6adef0e51b73c2dde02fd":[9,4,1,0,660,0],
 "classObjKindTraits__MR__FeaturesObjectKind__Circle.html#a3243d9db51e38746f070ae23ba3ad5a0":[9,4,1,0,660,2],
 "classObjKindTraits__MR__FeaturesObjectKind__Circle.html#a997e049b7991a83cee4c6c08134f96ae":[9,4,1,0,660,1],
 "classObjKindTraits__MR__FeaturesObjectKind__Cone.html":[9,4,1,0,661],
@@ -237,17 +249,5 @@ var NAVTREEINDEX52 =
 "classObjectDistanceMap.html#a26d14f920c6c6f0335c0f6bf86b15f7f":[9,4,1,0,643,5],
 "classObjectDistanceMap.html#a26e540cb87bda2c7241f48745db430b5":[9,4,1,0,643,27],
 "classObjectDistanceMap.html#a2a601c83e40099c09cf4b106e173764c":[9,4,1,0,643,133],
-"classObjectDistanceMap.html#a2aa49b3db688e2ad5255b72999145377":[9,4,1,0,643,77],
-"classObjectDistanceMap.html#a2b9c2646f389054fbcf1b62b14be1bdc":[9,4,1,0,643,124],
-"classObjectDistanceMap.html#a2c841fd9ebdd5d1ed048f58661534d98":[9,4,1,0,643,16],
-"classObjectDistanceMap.html#a2eb39765408d2fce6b41b2f59836fbb4":[9,4,1,0,643,162],
-"classObjectDistanceMap.html#a2f5f823e3fc9f60d5416d35f1e185f0c":[9,4,1,0,643,17],
-"classObjectDistanceMap.html#a334110d63e9d5c3c3fa46ca7268310e5":[9,4,1,0,643,173],
-"classObjectDistanceMap.html#a3443afa0e67996d631a024d57d1d6b6b":[9,4,1,0,643,147],
-"classObjectDistanceMap.html#a35ed6db052552242da018cdd13bedb08":[9,4,1,0,643,168],
-"classObjectDistanceMap.html#a360c11cfd28d75f95bf1e74b7dcbf37b":[9,4,1,0,643,137],
-"classObjectDistanceMap.html#a36218828339bc5376b3f858ca2314795":[9,4,1,0,643,106],
-"classObjectDistanceMap.html#a37df48b3b38d45194461f67db821aa4f":[9,4,1,0,643,156],
-"classObjectDistanceMap.html#a3c39b297c73073754017ce11a82f0c8f":[9,4,1,0,643,56],
-"classObjectDistanceMap.html#a3ed42dc32637864d9b451faf06b75c4f":[9,4,1,0,643,100]
+"classObjectDistanceMap.html#a2aa49b3db688e2ad5255b72999145377":[9,4,1,0,643,77]
 };

@@ -1,5 +1,17 @@
 var NAVTREEINDEX70 =
 {
+"classSharpOffsetParameters.html#a623b04133b3fea73bffc859017800251":[9,4,1,0,814,13],
+"classSharpOffsetParameters.html#a7691f079237c966e6fe9b1cb25d7d43a":[9,4,1,0,814,10],
+"classSharpOffsetParameters.html#a77d2dc1e963d0a851d3ffe39a2dc8c51":[9,4,1,0,814,18],
+"classSharpOffsetParameters.html#a90456af3e3d1f0a155661d7fc280791e":[9,4,1,0,814,11],
+"classSharpOffsetParameters.html#a985f2ae91392eefaa2953110e319c8da":[9,4,1,0,814,15],
+"classSharpOffsetParameters.html#aae0456217a93816df69d0d0393c00da2":[9,4,1,0,814,2],
+"classSharpOffsetParameters.html#abe5521b4044873f25427b71982fbc049":[9,4,1,0,814,9],
+"classSharpOffsetParameters.html#abe8ac97c32206a0e5f16073e60d1311c":[9,4,1,0,814,17],
+"classSharpOffsetParameters.html#ac4faa3a0b10a4291a5f4550a406596cb":[9,4,1,0,814,0],
+"classSharpOffsetParameters.html#acdc39c2db0485c985f7c426056184d21":[9,4,1,0,814,16],
+"classSharpOffsetParameters.html#ad0840d10926429d8f1746896be87d6f5":[9,4,1,0,814,14],
+"classSharpOffsetParameters.html#ad4d5a7873e70ed3c42d7efcc23b945ab":[9,4,1,0,814,20],
 "classSharpOffsetParameters.html#ae3ed7acd6ffdba01d7bb78b485fa76d8":[9,4,1,0,814,6],
 "classSharpOffsetParameters.html#ae45a0f846bd5701dbf14214ccb4602b5":[9,4,1,0,814,8],
 "classSharpOffsetParameters.html#afa468c45bdd8822a2ad89865122c7924":[9,4,1,0,814,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX70 =
 "classSortIntersectionsData.html#a79eab32a247f37dde01718a37e4fb10a":[9,4,1,0,833,7],
 "classSortIntersectionsData.html#a93fb82c9bc79517005e7f4ca1f516ba4":[9,4,1,0,833,6],
 "classSortIntersectionsData.html#aa5d4fb790eaa4efaf3785338564dff28":[9,4,1,0,833,3],
-"classSortIntersectionsData.html#aad9dcb14c12649d46c318e2de230431f":[9,4,1,0,833,4],
-"classSortIntersectionsData.html#aee5b00a2781d6bb03f5a65699c48974e":[9,4,1,0,833,5],
-"classSpacingSettings.html":[9,4,1,0,834],
-"classSpacingSettings.html#a075288f162f2a986c4b66a4074037583":[9,4,1,0,834,6],
-"classSpacingSettings.html#a2e4079fb273069e5319aa83d89d7b528":[9,4,1,0,834,4],
-"classSpacingSettings.html#a2ea88b8070331de86e5093aff1db77c5":[9,4,1,0,834,8],
-"classSpacingSettings.html#a35e07dc49e69862725211a432ba7ca20":[9,4,1,0,834,2],
-"classSpacingSettings.html#a51a699415b2d978ebb80786020e26387":[9,4,1,0,834,1],
-"classSpacingSettings.html#a5974ed7af2349eacfd056533c1053828":[9,4,1,0,834,9],
-"classSpacingSettings.html#a63c2f299a12c676f2c2b55bdada4cf4a":[9,4,1,0,834,0],
-"classSpacingSettings.html#a70cfc435f5712509a02c71c0fbac36f1":[9,4,1,0,834,5],
-"classSpacingSettings.html#aad9985c4f9b0f04b1def2915ff1e91ea":[9,4,1,0,834,3],
-"classSpacingSettings.html#abc81589912f8201882f158ad3fdf78ed":[9,4,1,0,834,7]
+"classSortIntersectionsData.html#aad9dcb14c12649d46c318e2de230431f":[9,4,1,0,833,4]
 };

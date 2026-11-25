@@ -364,6 +364,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRTextureColors.cs", "MRTextureColors_8cs.html", "MRTextureColors_8cs" ],
     [ "MRTimer.cs", "MRTimer_8cs.html", "MRTimer_8cs" ],
     [ "MRTorus.cs", "MRTorus_8cs.html", "MRTorus_8cs" ],
+    [ "MRTorus3.cs", "MRTorus3_8cs.html", "MRTorus3_8cs" ],
     [ "MRTriangleIntersection.cs", "MRTriangleIntersection_8cs.html", "MRTriangleIntersection_8cs" ],
     [ "MRTriDist.cs", "MRTriDist_8cs.html", "MRTriDist_8cs" ],
     [ "MRTriMath.cs", "MRTriMath_8cs.html", "MRTriMath_8cs" ],

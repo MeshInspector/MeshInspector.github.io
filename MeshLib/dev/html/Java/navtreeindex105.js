@@ -1,5 +1,7 @@
 var NAVTREEINDEX105 =
 {
+"classmeshlib_1_1OffsetParameters.html#af9ed40967eff28b02675dcc207549448":[9,6,1,0,0,765,1],
+"classmeshlib_1_1OffsetParameters.html#afd5011e0587d40becbf0a239673b966d":[9,6,0,0,0,765,0],
 "classmeshlib_1_1OffsetParameters.html#afd5011e0587d40becbf0a239673b966d":[9,6,1,0,0,765,0],
 "classmeshlib_1_1OneMeshContour.html":[9,6,0,0,0,766],
 "classmeshlib_1_1OneMeshContour.html":[9,6,1,0,0,766],
@@ -247,7 +249,5 @@ var NAVTREEINDEX105 =
 "classmeshlib_1_1OutliersDetector.html#a15d2d8d8e3b315d2fe5cc5f433ed9511":[9,6,1,0,0,777,0],
 "classmeshlib_1_1OutliersDetector.html#a1ec3a19ae674357c3ef161a046fc022f":[9,6,0,0,0,777,6],
 "classmeshlib_1_1OutliersDetector.html#a1ec3a19ae674357c3ef161a046fc022f":[9,6,1,0,0,777,6],
-"classmeshlib_1_1OutliersDetector.html#a3ad261e6fe129c7ea772228a6b30bd8c":[9,6,0,0,0,777,1],
-"classmeshlib_1_1OutliersDetector.html#a3ad261e6fe129c7ea772228a6b30bd8c":[9,6,1,0,0,777,1],
-"classmeshlib_1_1OutliersDetector.html#a3c7ed741b218be9cc8a5540589fb17fc":[9,6,0,0,0,777,4]
+"classmeshlib_1_1OutliersDetector.html#a3ad261e6fe129c7ea772228a6b30bd8c":[9,6,0,0,0,777,1]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX13 =
 {
+"classMR_1_1BMap__MRUndirectedEdgeId__SizeT.html#a0d2312a5593a489963f97c54db00a4ea":[9,3,0,0,0,59,0],
+"classMR_1_1BMap__MRUndirectedEdgeId__SizeT.html#a770ef96337c8302fd3865a7a4f5a275d":[9,3,0,0,0,59,4],
+"classMR_1_1BMap__MRUndirectedEdgeId__SizeT.html#a86a004f6377768c3151091fa3463d9b5":[9,3,0,0,0,59,2],
+"classMR_1_1BMap__MRUndirectedEdgeId__SizeT.html#aa78b95e3f1835ced3fbe105b433ab92a":[9,3,0,0,0,59,5],
+"classMR_1_1BMap__MRUndirectedEdgeId__SizeT.html#ad6c27b48db08209b57024125d91a22b0":[9,3,0,0,0,59,3],
+"classMR_1_1BMap__MRUndirectedEdgeId__SizeT.html#adcb47af675b53315d28935b193f9fd55":[9,3,0,0,0,59,1],
+"classMR_1_1BMap__MRVertId__SizeT.html":[9,3,0,0,0,60],
+"classMR_1_1BMap__MRVertId__SizeT.html#a04f81038355e7016fd5a4535ca6b22b8":[9,3,0,0,0,60,0],
+"classMR_1_1BMap__MRVertId__SizeT.html#a432a9a92d5ec97de109288da2f2d55fd":[9,3,0,0,0,60,3],
 "classMR_1_1BMap__MRVertId__SizeT.html#a43ffac7135138055d28286cf9615b8c3":[9,3,0,0,0,60,4],
 "classMR_1_1BMap__MRVertId__SizeT.html#a4a0c923adee0995017ac33ee557e5e95":[9,3,0,0,0,60,2],
 "classMR_1_1BMap__MRVertId__SizeT.html#a50b46ca9161a4c600512fe3675424ea8":[9,3,0,0,0,60,5],
@@ -240,14 +249,5 @@ var NAVTREEINDEX13 =
 "classMR_1_1BooleanParameters.html#a607c522b1dca425875024d2562aaa023":[9,3,0,0,0,63,2],
 "classMR_1_1BooleanParameters.html#a94fff11c1150a6c8bc5c13a60d644c09":[9,3,0,0,0,63,1],
 "classMR_1_1BooleanParameters.html#a9fa1fed12527b89559e229a002453d78":[9,3,0,0,0,63,12],
-"classMR_1_1BooleanParameters.html#aa575bb722008b6b8734d6f5dff719a32":[9,3,0,0,0,63,3],
-"classMR_1_1BooleanParameters.html#abf3789d887f8bff27ed3d65be8b2f7d6":[9,3,0,0,0,63,0],
-"classMR_1_1BooleanParameters.html#ac7c4b36c2c783b33d8371cd0e9417b60":[9,3,0,0,0,63,13],
-"classMR_1_1BooleanParameters.html#ad5e497e4879c97fd381f589e89690655":[9,3,0,0,0,63,5],
-"classMR_1_1BooleanParameters.html#ad9cbad0b57e02b14bfdc1531250d8366":[9,3,0,0,0,63,6],
-"classMR_1_1BooleanParameters.html#ae2205ffc85fa428c127fc66756977e1d":[9,3,0,0,0,63,9],
-"classMR_1_1BooleanPreCutResult.html":[9,3,0,0,0,64],
-"classMR_1_1BooleanPreCutResult.html#a0af7858421859bc775676734e60cadff":[9,3,0,0,0,64,7],
-"classMR_1_1BooleanPreCutResult.html#a0b9fd744e68b2789611ea1027040110b":[9,3,0,0,0,64,10],
-"classMR_1_1BooleanPreCutResult.html#a347ec655c5fe4cc2ee051cdf2d26e515":[9,3,0,0,0,64,0]
+"classMR_1_1BooleanParameters.html#aa575bb722008b6b8734d6f5dff719a32":[9,3,0,0,0,63,3]
 };

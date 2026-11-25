@@ -364,6 +364,7 @@ var dir_48a1ec47db35593d9d3f02b5df3192b0 =
     [ "MRTextureColors.h", "MRTextureColors_8h.html", "MRTextureColors_8h" ],
     [ "MRTimer.h", "MRTimer_8h.html", "MRTimer_8h" ],
     [ "MRTorus.h", "MRTorus_8h.html", "MRTorus_8h" ],
+    [ "MRTorus3.h", "MRTorus3_8h.html", "MRTorus3_8h" ],
     [ "MRTriangleIntersection.h", "MRTriangleIntersection_8h.html", "MRTriangleIntersection_8h" ],
     [ "MRTriDist.h", "MRTriDist_8h.html", "MRTriDist_8h" ],
     [ "MRTriMath.h", "MRTriMath_8h.html", "MRTriMath_8h" ],

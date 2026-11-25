@@ -1,5 +1,14 @@
 var NAVTREEINDEX77 =
 {
+"classMR_1_1Const__PreciseVertCoords2.html#a581ea9f226bf08eec657a0dd059d2723":[9,3,0,0,0,811,1],
+"classMR_1_1Const__PreciseVertCoords2.html#a61a3afd0cf592c5a74beaebf1cab9538":[9,3,0,0,0,811,7],
+"classMR_1_1Const__PreciseVertCoords2.html#a6937f7dadda4d6d08ad2aeb91a7d9e52":[9,3,0,0,0,811,9],
+"classMR_1_1Const__PreciseVertCoords2.html#a7e4300281212615babfa9b1a8314011b":[9,3,0,0,0,811,3],
+"classMR_1_1Const__PreciseVertCoords2.html#a8814d6e781a9d786289ab7579faff11b":[9,3,0,0,0,811,2],
+"classMR_1_1Const__PreciseVertCoords2.html#a8ed7a881090467c7f48c2933b7239f1d":[9,3,0,0,0,811,0],
+"classMR_1_1Const__PreciseVertCoords2.html#ab5ef3dfc9767686d265f240141048407":[9,3,0,0,0,811,6],
+"classMR_1_1Const__PreciseVertCoords2.html#ac878eb26d99b589ffaf0e69bb4818747":[9,3,0,0,0,811,8],
+"classMR_1_1Const__PreciseVertCoords2.html#ae71ca9a17d433df8fd26c313f3171b41":[9,3,0,0,0,811,5],
 "classMR_1_1Const__ProjectAttributeParams.html":[9,3,0,0,0,812],
 "classMR_1_1Const__ProjectAttributeParams.html#a02284a2cba5bba8744adfe01f85f84e5":[9,3,0,0,0,812,5],
 "classMR_1_1Const__ProjectAttributeParams.html#a02914db6d5afdeddabe4e90b19241ce9":[9,3,0,0,0,812,7],
@@ -240,14 +249,5 @@ var NAVTREEINDEX77 =
 "classMR_1_1Const__RasterInfo.html#a9463ace42a8b673ab3b6d56180014941":[9,3,0,0,0,822,7],
 "classMR_1_1Const__RasterInfo.html#acb51d09945b6adf31002194c8e97eb4c":[9,3,0,0,0,822,5],
 "classMR_1_1Const__RasterInfo.html#ae469ef60f3e113e79d80976c47309432":[9,3,0,0,0,822,16],
-"classMR_1_1Const__RasterInfo.html#aeb408ad5ff496354f2be1129ed7fc5e1":[9,3,0,0,0,822,1],
-"classMR_1_1Const__RasterInfo.html#af7da33676206c911b19ed36655220189":[9,3,0,0,0,822,9],
-"classMR_1_1Const__RasterLoadSettings.html":[9,3,0,0,0,823],
-"classMR_1_1Const__RasterLoadSettings.html#a01cae43e9386c31159df50a8d84104ca":[9,3,0,0,0,823,4],
-"classMR_1_1Const__RasterLoadSettings.html#a0821aaa16bf1f7a4a99ef3c105426456":[9,3,0,0,0,823,7],
-"classMR_1_1Const__RasterLoadSettings.html#a0c5beeb1c3f1f5e22a311e7d7f08aec0":[9,3,0,0,0,823,8],
-"classMR_1_1Const__RasterLoadSettings.html#a540e97149ec2e7feb64ca36350e8f47e":[9,3,0,0,0,823,6],
-"classMR_1_1Const__RasterLoadSettings.html#a7b17570279cf15429f2879573199c547":[9,3,0,0,0,823,2],
-"classMR_1_1Const__RasterLoadSettings.html#a8b542023637190efcb5c0eec9a68e5bd":[9,3,0,0,0,823,5],
-"classMR_1_1Const__RasterLoadSettings.html#aa31fb56d43db160f839e9f242c9f1e1c":[9,3,0,0,0,823,3]
+"classMR_1_1Const__RasterInfo.html#aeb408ad5ff496354f2be1129ed7fc5e1":[9,3,0,0,0,822,1]
 };

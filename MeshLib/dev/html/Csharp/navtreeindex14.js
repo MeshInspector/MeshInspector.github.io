@@ -1,5 +1,14 @@
 var NAVTREEINDEX14 =
 {
+"classMR_1_1BooleanParameters.html#abf3789d887f8bff27ed3d65be8b2f7d6":[9,3,0,0,0,63,0],
+"classMR_1_1BooleanParameters.html#ac7c4b36c2c783b33d8371cd0e9417b60":[9,3,0,0,0,63,13],
+"classMR_1_1BooleanParameters.html#ad5e497e4879c97fd381f589e89690655":[9,3,0,0,0,63,5],
+"classMR_1_1BooleanParameters.html#ad9cbad0b57e02b14bfdc1531250d8366":[9,3,0,0,0,63,6],
+"classMR_1_1BooleanParameters.html#ae2205ffc85fa428c127fc66756977e1d":[9,3,0,0,0,63,9],
+"classMR_1_1BooleanPreCutResult.html":[9,3,0,0,0,64],
+"classMR_1_1BooleanPreCutResult.html#a0af7858421859bc775676734e60cadff":[9,3,0,0,0,64,7],
+"classMR_1_1BooleanPreCutResult.html#a0b9fd744e68b2789611ea1027040110b":[9,3,0,0,0,64,10],
+"classMR_1_1BooleanPreCutResult.html#a347ec655c5fe4cc2ee051cdf2d26e515":[9,3,0,0,0,64,0],
 "classMR_1_1BooleanPreCutResult.html#a4490ff189b4743beb764eb7c670314c0":[9,3,0,0,0,64,8],
 "classMR_1_1BooleanPreCutResult.html#a45f1dcd61a2f899daf7580e98b23be8f":[9,3,0,0,0,64,12],
 "classMR_1_1BooleanPreCutResult.html#a467dcde1c3f18ddb767d6df39fc4ed66":[9,3,0,0,0,64,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1Box__Color.html#a3a50803c7abf4109b8e0713a80451d45":[9,3,0,0,0,96,15],
 "classMR_1_1Box__Color.html#a42b18daf7de64820c877e14511c9a8bd":[9,3,0,0,0,96,3],
 "classMR_1_1Box__Color.html#a6ba52e603167a9dfe9b2a7259d0dc6e7":[9,3,0,0,0,96,14],
-"classMR_1_1Box__Color.html#a6e11fe71f39e5110de898a3da15ea490":[9,3,0,0,0,96,0],
-"classMR_1_1Box__Color.html#a7e8d40591102c18b933ad87dba971b0b":[9,3,0,0,0,96,8],
-"classMR_1_1Box__Color.html#a80c1cbad5e77e02d0bfc1485a7639f55":[9,3,0,0,0,96,19],
-"classMR_1_1Box__Color.html#a9c047fbbaf942f9131159dc2335f4e41":[9,3,0,0,0,96,9],
-"classMR_1_1Box__Color.html#aa729ec8dd7ddd0c3bb7f183463241c54":[9,3,0,0,0,96,6],
-"classMR_1_1Box__Color.html#aab650255dd17c239a85d36abccbd6a2e":[9,3,0,0,0,96,5],
-"classMR_1_1Box__Color.html#ab717345344712b0138934af70d2003d2":[9,3,0,0,0,96,7],
-"classMR_1_1Box__Color.html#abb1482714528c17ca6796a00c226b63f":[9,3,0,0,0,96,2],
-"classMR_1_1Box__Color.html#ad84608b164e1c22768b5b90e7e300a9a":[9,3,0,0,0,96,4],
-"classMR_1_1Box__Color.html#ae53a945d902988aaa78711025c116d9b":[9,3,0,0,0,96,10]
+"classMR_1_1Box__Color.html#a6e11fe71f39e5110de898a3da15ea490":[9,3,0,0,0,96,0]
 };

@@ -428,6 +428,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRTimeRecord.h", "MRTimeRecord_8h.html", "MRTimeRecord_8h" ],
     [ "MRToFromEigen.h", "MRToFromEigen_8h.html", "MRToFromEigen_8h" ],
     [ "MRTorus.h", "MRTorus_8h.html", "MRTorus_8h" ],
+    [ "MRTorus3.h", "MRTorus3_8h.html", null ],
     [ "MRTriangleIntersection.h", "MRTriangleIntersection_8h.html", "MRTriangleIntersection_8h" ],
     [ "MRTriDist.h", "MRTriDist_8h.html", "MRTriDist_8h" ],
     [ "MRTriMath.h", "MRTriMath_8h.html", "MRTriMath_8h" ],

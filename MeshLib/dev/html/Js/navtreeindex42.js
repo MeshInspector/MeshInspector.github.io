@@ -1,5 +1,17 @@
 var NAVTREEINDEX42 =
 {
+"classMatrix3__unsigned__char.html#a85834d9f5c5d31145f607afdd13ba70f":[9,4,1,0,521,5],
+"classMatrix3__unsigned__char.html#a88a8bc8ed64d36fbeffec96d1a90180e":[9,4,1,0,521,11],
+"classMatrix3__unsigned__char.html#a8b9b5331660184446abda0ceec5f21cf":[9,4,1,0,521,10],
+"classMatrix3__unsigned__char.html#aa0c3358becf7b2c1521e60fd0cae261c":[9,4,1,0,521,4],
+"classMatrix3__unsigned__char.html#aa2ba011555c12ebbf1b71119b83094b7":[9,4,1,0,521,9],
+"classMatrix3__unsigned__char.html#ace6516d17207c9c8a68ec701c8bb4780":[9,4,1,0,521,8],
+"classMatrix3__unsigned__char.html#ad231008314c8c552a5e5a5c868ad8e1a":[9,4,1,0,521,13],
+"classMatrix3__unsigned__char.html#ae9e387bf52a0484094468900dc837840":[9,4,1,0,521,14],
+"classMatrix3__unsigned__char.html#af0b11399294ed8fa08c92ab45c2bb40a":[9,4,1,0,521,6],
+"classMatrix3__unsigned__char__QR.html":[9,4,1,0,522],
+"classMatrix3__unsigned__char__QR.html#a281f7b266a7bae2a0ebfa26927975619":[9,4,1,0,522,2],
+"classMatrix3__unsigned__char__QR.html#a8b48c24640f6dd7e58bac5827188781c":[9,4,1,0,522,4],
 "classMatrix3__unsigned__char__QR.html#a8c58b08ceeb03fdccc3aa42ea4a0e58d":[9,4,1,0,522,3],
 "classMatrix3__unsigned__char__QR.html#aa9f8f86371073f0b075f594363aa6a6b":[9,4,1,0,522,1],
 "classMatrix3__unsigned__char__QR.html#ac1d3e9115f48b9a086da4c962a83f200":[9,4,1,0,522,5],
@@ -237,17 +249,5 @@ var NAVTREEINDEX42 =
 "classMatrix4i64.html#ad6c6fc7a8249aa13b217997528275353":[9,4,1,0,533,6],
 "classMatrix4i64.html#ad8edca90707a79d0fdb471413e688e55":[9,4,1,0,533,1],
 "classMatrix4i64.html#ae854f35fb5dcbacb763db5bb0eb66119":[9,4,1,0,533,16],
-"classMatrix4i64.html#aeb0915a77b8d4d73854e2b88a69d0c0a":[9,4,1,0,533,8],
-"classMatrix4i64.html#af68611d5d4126996a1ce80935425c1db":[9,4,1,0,533,10],
-"classMatrix4i64.html#af6ba2771401f234773207db814e2582b":[9,4,1,0,533,12],
-"classMatrix4i64.html#aff2ec8071108e2726835d1c2d0cea309":[9,4,1,0,533,4],
-"classMatrix__float.html":[9,4,1,0,534],
-"classMatrix__float.html#a028ae86bd7339e9e48301502e6f59b04":[9,4,1,0,534,12],
-"classMatrix__float.html#a07fc07ee248e942bf1c79b36ce0db349":[9,4,1,0,534,17],
-"classMatrix__float.html#a10aba85b817dc253615ee3d6a2affc50":[9,4,1,0,534,3],
-"classMatrix__float.html#a119bddd25e4226772bda1c3dd4318746":[9,4,1,0,534,1],
-"classMatrix__float.html#a28c55df10d997d4af1fe4bcadb3892bb":[9,4,1,0,534,4],
-"classMatrix__float.html#a49e8680f95d365222d74a519d08c26e7":[9,4,1,0,534,10],
-"classMatrix__float.html#a4fc47254377653eea05c030d50951aec":[9,4,1,0,534,20],
-"classMatrix__float.html#a6b2120271e82721c6ff231ac8e7ceac4":[9,4,1,0,534,13]
+"classMatrix4i64.html#aeb0915a77b8d4d73854e2b88a69d0c0a":[9,4,1,0,533,8]
 };

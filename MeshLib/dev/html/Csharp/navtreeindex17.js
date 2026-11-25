@@ -1,5 +1,14 @@
 var NAVTREEINDEX17 =
 {
+"classMR_1_1Box__Vector2i64.html#adeb145badab0412f2dd9dd8135aaab63":[9,3,0,0,0,131,10],
+"classMR_1_1Box__Vector2i64.html#af01385e290216517a854dd9435d93e7d":[9,3,0,0,0,131,4],
+"classMR_1_1Box__Vector3b.html":[9,3,0,0,0,132],
+"classMR_1_1Box__Vector3b.html#a23ed66eacb5e3fe4a2d35ad76e9d1681":[9,3,0,0,0,132,8],
+"classMR_1_1Box__Vector3b.html#a2a59ca38fba087903d8f16a6dd7b527d":[9,3,0,0,0,132,11],
+"classMR_1_1Box__Vector3b.html#a472b274c2a17bcd51095e46a9e107066":[9,3,0,0,0,132,10],
+"classMR_1_1Box__Vector3b.html#a64a54700fbb84b8281449e998a3f33ea":[9,3,0,0,0,132,9],
+"classMR_1_1Box__Vector3b.html#a7c1e6c67bd476b67f306916d1635d280":[9,3,0,0,0,132,3],
+"classMR_1_1Box__Vector3b.html#a881b9b90b922cda915192c0f48913c0f":[9,3,0,0,0,132,6],
 "classMR_1_1Box__Vector3b.html#a8c1fba8d9b64044c0049c881652d2362":[9,3,0,0,0,132,13],
 "classMR_1_1Box__Vector3b.html#aa0df2a77ac17da0ac049fb2b1cfffa6e":[9,3,0,0,0,132,1],
 "classMR_1_1Box__Vector3b.html#aa9a219b5410b3502dcc3a9eb0bd428ab":[9,3,0,0,0,132,12],
@@ -240,14 +249,5 @@ var NAVTREEINDEX17 =
 "classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId.html#a2d903e68dbb49343249af1b9405718c4":[9,3,0,0,0,150,2],
 "classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId.html#a3cdedaf4aff21088d6532630d14a1b71":[9,3,0,0,0,150,0],
 "classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId.html#a4168811f64a1bb0023c7caa0e01fc3bf":[9,3,0,0,0,150,6],
-"classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId.html#a7bf00f9c3b63e7c2ee81271065b1cb75":[9,3,0,0,0,150,3],
-"classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId.html#a951ee5ed41e24e3864b08b26715ebbf5":[9,3,0,0,0,150,7],
-"classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId.html#acbc9a3e631997066598cbb5d90900767":[9,3,0,0,0,150,8],
-"classMR_1_1Buffer__MRFaceId.html":[9,3,0,0,0,151],
-"classMR_1_1Buffer__MRFaceId.html#a04bf11f2d5c7b3357e458c53baa7e0f8":[9,3,0,0,0,151,5],
-"classMR_1_1Buffer__MRFaceId.html#a105ed74754b3a2eda28caa3bbf9fe0a0":[9,3,0,0,0,151,4],
-"classMR_1_1Buffer__MRFaceId.html#a644444d2f01b72d789207737d430922a":[9,3,0,0,0,151,8],
-"classMR_1_1Buffer__MRFaceId.html#a69578f8deea59bb7d480899053895b2f":[9,3,0,0,0,151,3],
-"classMR_1_1Buffer__MRFaceId.html#a6d91deb7e8160a486be308adf3b8f5f5":[9,3,0,0,0,151,2],
-"classMR_1_1Buffer__MRFaceId.html#a771664157ae1f5edb709ee96baf67685":[9,3,0,0,0,151,6]
+"classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId.html#a7bf00f9c3b63e7c2ee81271065b1cb75":[9,3,0,0,0,150,3]
 };

@@ -1,5 +1,17 @@
 var NAVTREEINDEX61 =
 {
+"classPlanarTriangulation_1_1IntersectionInfo.html#a64cf01907a9916efcdc8993b21015450":[9,4,1,0,11,1,8],
+"classPlanarTriangulation_1_1IntersectionInfo.html#a706513a8a5baf76e9247e9bf1736077c":[9,4,0,0,23,1,1],
+"classPlanarTriangulation_1_1IntersectionInfo.html#a706513a8a5baf76e9247e9bf1736077c":[9,4,1,0,11,1,1],
+"classPlanarTriangulation_1_1IntersectionInfo.html#a841d44d6aed9a96ba0f9644a3dc784c6":[9,4,0,0,23,1,7],
+"classPlanarTriangulation_1_1IntersectionInfo.html#a841d44d6aed9a96ba0f9644a3dc784c6":[9,4,1,0,11,1,7],
+"classPlanarTriangulation_1_1IntersectionInfo.html#a8f7881eeed507fefbd18e690b0f1f26b":[9,4,0,0,23,1,10],
+"classPlanarTriangulation_1_1IntersectionInfo.html#a8f7881eeed507fefbd18e690b0f1f26b":[9,4,1,0,11,1,10],
+"classPlanarTriangulation_1_1IntersectionInfo.html#aacf840bfebe845c658a9b4a067037e6f":[9,4,0,0,23,1,3],
+"classPlanarTriangulation_1_1IntersectionInfo.html#aacf840bfebe845c658a9b4a067037e6f":[9,4,1,0,11,1,3],
+"classPlanarTriangulation_1_1IntersectionInfo.html#ac060f0e3d06593a35d09c1259293eeb8":[9,4,0,0,23,1,9],
+"classPlanarTriangulation_1_1IntersectionInfo.html#ac060f0e3d06593a35d09c1259293eeb8":[9,4,1,0,11,1,9],
+"classPlanarTriangulation_1_1IntersectionInfo.html#adc4f52811ba3c6b04b901fc7774c1ce2":[9,4,0,0,23,1,2],
 "classPlanarTriangulation_1_1IntersectionInfo.html#adc4f52811ba3c6b04b901fc7774c1ce2":[9,4,1,0,11,1,2],
 "classPlanarTriangulation_1_1IntersectionInfo.html#add0b5c0a54b7673b0e53c081af9e347f":[9,4,0,0,23,1,0],
 "classPlanarTriangulation_1_1IntersectionInfo.html#add0b5c0a54b7673b0e53c081af9e347f":[9,4,1,0,11,1,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX61 =
 "classPlyLoadParams.html#a5f5d2847bf0aaabde159d83690661f45":[9,4,1,0,698,14],
 "classPlyLoadParams.html#a7812d3708f5f6fda52b7afc991b04620":[9,4,1,0,698,9],
 "classPlyLoadParams.html#a7ba28b25cb1d51f6c557bd69ff171cc1":[9,4,1,0,698,3],
-"classPlyLoadParams.html#a89e8685bd14c9d9727d8cac2efdcd633":[9,4,1,0,698,0],
-"classPlyLoadParams.html#aa6eab01973d37e20e49140c433f3d3cc":[9,4,1,0,698,1],
-"classPlyLoadParams.html#ab0230722cbb1e7dda44d91a23b101acb":[9,4,1,0,698,13],
-"classPlyLoadParams.html#ac4b9764b2201f9340a414e8d8be8860c":[9,4,1,0,698,12],
-"classPlyLoadParams.html#ad1f9c9c0d4b62d207d2bdd3e0832c51b":[9,4,1,0,698,5],
-"classPlyLoadParams.html#adb14294588b7edad77cdebcc0a4af978":[9,4,1,0,698,11],
-"classPlyLoadParams.html#adbf51d992284385e5bce90f1ab0a0d34":[9,4,1,0,698,7],
-"classPlyLoadParams.html#aeb386205614388623753e875e8c0f474":[9,4,1,0,698,8],
-"classPointAccumulator.html":[9,4,1,0,699],
-"classPointAccumulator.html#a077bb68a0b83861e2c4fc8197fb8d74e":[9,4,1,0,699,2],
-"classPointAccumulator.html#a082a8377e39f2f83a3544c70c098d37f":[9,4,1,0,699,21],
-"classPointAccumulator.html#a26c28c2cd2e2e8425c4c8031a9ab1cc0":[9,4,1,0,699,10],
-"classPointAccumulator.html#a294351df87dd96ea6b4404fc0f5360f1":[9,4,1,0,699,19]
+"classPlyLoadParams.html#a89e8685bd14c9d9727d8cac2efdcd633":[9,4,1,0,698,0]
 };

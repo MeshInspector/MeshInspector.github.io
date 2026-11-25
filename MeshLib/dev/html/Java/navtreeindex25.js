@@ -1,5 +1,7 @@
 var NAVTREEINDEX25 =
 {
+"classmeshlib_1_1ChangeFacesColorMapAction.html#aaacfe79b84a6a9ad1321860297220bfa":[9,6,1,0,0,161,7],
+"classmeshlib_1_1ChangeFacesColorMapAction.html#aad8e196566400ac231be0d05c3f77d84":[9,6,0,0,0,161,0],
 "classmeshlib_1_1ChangeFacesColorMapAction.html#aad8e196566400ac231be0d05c3f77d84":[9,6,1,0,0,161,0],
 "classmeshlib_1_1ChangeFacesColorMapAction.html#ab003d9dc77dcd8f730b39e05a10fbaa5":[9,6,0,0,0,161,6],
 "classmeshlib_1_1ChangeFacesColorMapAction.html#ab003d9dc77dcd8f730b39e05a10fbaa5":[9,6,1,0,0,161,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX25 =
 "classmeshlib_1_1ChangeMeshUVCoordsAction.html#abd309806b0fa620b1c0ea24bb2a96888":[9,6,1,0,0,174,5],
 "classmeshlib_1_1ChangeMeshUVCoordsAction.html#afb0680230a50ffbf2e131b8bb27f7a7c":[9,6,0,0,0,174,3],
 "classmeshlib_1_1ChangeMeshUVCoordsAction.html#afb0680230a50ffbf2e131b8bb27f7a7c":[9,6,1,0,0,174,3],
-"classmeshlib_1_1ChangeNameAction.html":[9,6,0,0,0,175],
-"classmeshlib_1_1ChangeNameAction.html":[9,6,1,0,0,175],
-"classmeshlib_1_1ChangeNameAction.html#a47e0df06b48cbd2cfadf4030a68074be":[9,6,0,0,0,175,4]
+"classmeshlib_1_1ChangeNameAction.html":[9,6,0,0,0,175]
 };
