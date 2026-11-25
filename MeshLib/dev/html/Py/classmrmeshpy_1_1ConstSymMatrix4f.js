@@ -4,6 +4,7 @@ var classmrmeshpy_1_1ConstSymMatrix4f =
     [ "eigens", "classmrmeshpy_1_1ConstSymMatrix4f.html#a657d6414cd64de51a17e7d21a26d3dd1", null ],
     [ "normSq", "classmrmeshpy_1_1ConstSymMatrix4f.html#a47205794bc60fc469c52f4b791b19f0b", null ],
     [ "pseudoinverse", "classmrmeshpy_1_1ConstSymMatrix4f.html#a4949b428ba5d735e89e92b1bff5f38d7", null ],
+    [ "solveLDLT", "classmrmeshpy_1_1ConstSymMatrix4f.html#a24dc360d9843ae4489125a1913c52435", null ],
     [ "trace", "classmrmeshpy_1_1ConstSymMatrix4f.html#a45b91047325fa5ad5af72029f23a978d", null ],
     [ "ww", "classmrmeshpy_1_1ConstSymMatrix4f.html#a50581c3df215a46e2d950b3a57ce7235", null ],
     [ "xw", "classmrmeshpy_1_1ConstSymMatrix4f.html#ae140688ab31993bb8712391a99437584", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX89 =
 {
+"classMR_1_1Const__UiRenderParams.html#adb1058e161b5e4b69a5fa19178bb906f":[9,3,0,0,0,953,10],
+"classMR_1_1Const__UiRenderParams.html#ae4852596a280281eff4d90966060daeb":[9,3,0,0,0,953,4],
 "classMR_1_1Const__UiRenderParams.html#afeed344b045b2afe7accd804f5aa9bb6":[9,3,0,0,0,953,0],
 "classMR_1_1Const__UndirEdgeColorMapAggregator.html":[9,3,0,0,0,963],
 "classMR_1_1Const__UndirEdgeColorMapAggregator.html#a443958c4c21c753228e1993a11878b81":[9,3,0,0,0,963,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX89 =
 "classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html#a1bea22f78ec56a3893b5328337ad007b":[9,3,0,0,0,965,4],
 "classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html#a4bdab7ab58212d587550f927d6bfd036":[9,3,0,0,0,965,6],
 "classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html#a7b350b619d4d9882face5c51d360f4c8":[9,3,0,0,0,965,8],
-"classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html#a7c3cd93ab4924f237e28b4556a034759":[9,3,0,0,0,965,5],
-"classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html#a892f127af9eb2c10b0dac340f3973cfd":[9,3,0,0,0,965,11],
-"classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html#a8f8af6a197bee2d079a38dfa1361c583":[9,3,0,0,0,965,10]
+"classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html#a7c3cd93ab4924f237e28b4556a034759":[9,3,0,0,0,965,5]
 };

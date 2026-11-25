@@ -1,5 +1,7 @@
 var NAVTREEINDEX159 =
 {
+"std__optional__MR__Color_8h.html#adf3b0e282d95d0ac0ee88c6a53937da8":[9,2,2,0,0,0,0,2,217,0],
+"std__optional__MR__Color_8h.html#afa5f94d36e9ec4a86aeabcc6e7542a3b":[9,2,2,0,0,0,0,2,217,6],
 "std__optional__MR__Color_8h_source.html":[9,2,2,0,0,0,0,2,217],
 "std__optional__MR__DentalId_8h.html":[9,2,2,0,0,0,0,2,218],
 "std__optional__MR__DentalId_8h.html#a0cb575c3a7a6c498597f31f58abb4053":[9,2,2,0,0,0,0,2,218,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX159 =
 "std__optional__MR__PointCloud_8h.html#a7c971a495fbab9fac7166eb63bc33066":[9,2,2,0,0,0,0,2,234,7],
 "std__optional__MR__PointCloud_8h.html#a7f90a964b8eade7ce7edce35189191e7":[9,2,2,0,0,0,0,2,234,1],
 "std__optional__MR__PointCloud_8h.html#aa382ce7bf2cacc1101ff4e8064e37bf3":[9,2,2,0,0,0,0,2,234,2],
-"std__optional__MR__PointCloud_8h.html#aa77f6c605e7fb6ff4b6196fec4ca7cad":[9,2,2,0,0,0,0,2,234,3],
-"std__optional__MR__PointCloud_8h.html#acfe5917ed8cc98c36570e5feed059a98":[9,2,2,0,0,0,0,2,234,11],
-"std__optional__MR__PointCloud_8h.html#ad0bf2f00b1d91b5be4387eff22339e32":[9,2,2,0,0,0,0,2,234,4]
+"std__optional__MR__PointCloud_8h.html#aa77f6c605e7fb6ff4b6196fec4ca7cad":[9,2,2,0,0,0,0,2,234,3]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX185 =
 {
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Sphere3f.html#a37b30a3ab1c3189311929681a3658ec3":[9,5,0,0,0,3,1,4,0],
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Sphere3f.html#a37b30a3ab1c3189311929681a3658ec3":[9,5,1,0,0,1,1,4,0],
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Sphere3f__MR__Sphere3f.html":[9,5,0,0,0,3,1,5],
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Sphere3f__MR__Sphere3f.html":[9,5,1,0,0,1,1,5],
 "structmeshlib_1_1features_1_1traits_1_1Binary__MR__Sphere3f__MR__Sphere3f.html#a48c32a9d60c8ab6df42a0bf85736ec04":[9,5,0,0,0,3,1,5,0],
 "structmeshlib_1_1features_1_1traits_1_1Binary__MR__Sphere3f__MR__Sphere3f.html#a48c32a9d60c8ab6df42a0bf85736ec04":[9,5,1,0,0,1,1,5,0],
 "structmeshlib_1_1features_1_1traits_1_1Binary__MR__Sphere3f__MR__Sphere3f.html#afa6bd310e5bc6ed1c7b447de9f26825f":[9,5,0,0,0,3,1,5,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX185 =
 "structmeshlib_1_1mesh__builder_1_1Triangle.html#a9ec9704e7cb42832f593d06a1d631f84":[9,5,0,0,0,15,3,6],
 "structmeshlib_1_1mesh__builder_1_1Triangle.html#a9ec9704e7cb42832f593d06a1d631f84":[9,5,1,0,0,4,3,6],
 "structmeshlib_1_1mesh__builder_1_1Triangle.html#aa4bf03c7b9aa1d9dc2577a41ca56ae24":[9,5,0,0,0,15,3,8],
-"structmeshlib_1_1mesh__builder_1_1Triangle.html#aa4bf03c7b9aa1d9dc2577a41ca56ae24":[9,5,1,0,0,4,3,8],
-"structmeshlib_1_1mesh__builder_1_1Triangle.html#acd6fda8e2aeb1120bfe0d2156ff48863":[9,5,0,0,0,15,3,4],
-"structmeshlib_1_1mesh__builder_1_1Triangle.html#acd6fda8e2aeb1120bfe0d2156ff48863":[9,5,1,0,0,4,3,4],
-"structmeshlib_1_1mesh__builder_1_1Triangle.html#affdc271339137fd68f524e257d9be682":[9,5,0,0,0,15,3,7],
-"structmeshlib_1_1mesh__builder_1_1Triangle.html#affdc271339137fd68f524e257d9be682":[9,5,1,0,0,4,3,7]
+"structmeshlib_1_1mesh__builder_1_1Triangle.html#aa4bf03c7b9aa1d9dc2577a41ca56ae24":[9,5,1,0,0,4,3,8]
 };

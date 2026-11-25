@@ -19,6 +19,7 @@ var structmeshlib_1_1SymMatrix4f =
     [ "set_yz", "structmeshlib_1_1SymMatrix4f.html#a02cb63c97494dc506701ad48bef2df51", null ],
     [ "set_zw", "structmeshlib_1_1SymMatrix4f.html#a17a0dc55cd53b2079cc215dfd67e47e2", null ],
     [ "set_zz", "structmeshlib_1_1SymMatrix4f.html#a7898f45772821acfb64058e6d9ff0b64", null ],
+    [ "solve_ldlt", "structmeshlib_1_1SymMatrix4f.html#a52f8edf0da6851c5c7dbee994e159e0c", null ],
     [ "sub_assign", "structmeshlib_1_1SymMatrix4f.html#aa23f70ddbdb361b7a3e33c646740e6cc", null ],
     [ "trace", "structmeshlib_1_1SymMatrix4f.html#ac422b512ffa9db435096ec7978f15ea4", null ],
     [ "ww", "structmeshlib_1_1SymMatrix4f.html#ae1a9c7ea46d94d9f891fd1d5a3b4ff21", null ],

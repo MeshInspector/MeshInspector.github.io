@@ -1,5 +1,9 @@
 var NAVTREEINDEX156 =
 {
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#abdd01d64d171dae9150f934ca822402f":[9,1,0,0,2,1903,1,21],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#abdd01d64d171dae9150f934ca822402f":[9,1,1,0,1,1903,1,21],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#ad40a48abe2d0950e426c807bee24d3d8":[9,1,0,0,2,1903,1,15],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#ad40a48abe2d0950e426c807bee24d3d8":[9,1,1,0,1,1903,1,15],
 "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#ad67938a32c0ae6f0f5ac7d2804d08dc6":[9,1,0,0,2,1903,1,1],
 "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#ad67938a32c0ae6f0f5ac7d2804d08dc6":[9,1,1,0,1,1903,1,1],
 "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#ae5ce7fb3a374f088654a2a25ef507f71":[9,1,0,0,2,1903,1,12],
@@ -245,9 +249,5 @@ var NAVTREEINDEX156 =
 "classmrmeshpy_1_1Nesting_1_1SequentialNester.html":[9,1,0,0,2,1903,19],
 "classmrmeshpy_1_1Nesting_1_1SequentialNester.html":[9,1,1,0,1,1903,19],
 "classmrmeshpy_1_1Nesting_1_1SequentialNester.html#a0b2082c3e8a908956adc6562b222dd29":[9,1,0,0,2,1903,19,4],
-"classmrmeshpy_1_1Nesting_1_1SequentialNester.html#a0b2082c3e8a908956adc6562b222dd29":[9,1,1,0,1,1903,19,4],
-"classmrmeshpy_1_1Nesting_1_1SequentialNester.html#a1e2bb04b1af89c652247fa33734a8c91":[9,1,0,0,2,1903,19,0],
-"classmrmeshpy_1_1Nesting_1_1SequentialNester.html#a1e2bb04b1af89c652247fa33734a8c91":[9,1,1,0,1,1903,19,0],
-"classmrmeshpy_1_1Nesting_1_1SequentialNester.html#a7b2326c100d76903650f4999329759ff":[9,1,0,0,2,1903,19,1],
-"classmrmeshpy_1_1Nesting_1_1SequentialNester.html#a7b2326c100d76903650f4999329759ff":[9,1,1,0,1,1903,19,1]
+"classmrmeshpy_1_1Nesting_1_1SequentialNester.html#a0b2082c3e8a908956adc6562b222dd29":[9,1,1,0,1,1903,19,4]
 };

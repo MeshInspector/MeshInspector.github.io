@@ -22,6 +22,7 @@ var classmeshlib_1_1SymMatrix4d =
     [ "setYz", "classmeshlib_1_1SymMatrix4d.html#a2ba419018af5517ae9b58794f40bffe7", null ],
     [ "setZw", "classmeshlib_1_1SymMatrix4d.html#a090bd73cb3a1634a1b2b78c2ccf9e8d8", null ],
     [ "setZz", "classmeshlib_1_1SymMatrix4d.html#a99561567da507af728706d8195de3add", null ],
+    [ "solveLDLT", "classmeshlib_1_1SymMatrix4d.html#a155dd780fb8a1006c34a3941c3c1faf9", null ],
     [ "sub_assign", "classmeshlib_1_1SymMatrix4d.html#ac8388523fd6982893347fb39f29ac208", null ],
     [ "trace", "classmeshlib_1_1SymMatrix4d.html#a39f1790e040c612414fc9b9c56b0e96c", null ],
     [ "ww", "classmeshlib_1_1SymMatrix4d.html#ad2e6d48027743c7580578a492b3800ab", null ],

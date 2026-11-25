@@ -1,5 +1,9 @@
 var NAVTREEINDEX277 =
 {
+"std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__ref_8java.html":[9,6,2,0,0,1,0,0,1061],
+"std__function__void__from__const__std__filesystem__path__ref_8java.html":[9,6,2,0,0,1,0,0,1062],
+"std__function__void__from__const__std__variant__float__MR__Vector3f__ref__MR__FeatureObject__ptr__MR__ViewportId_8java.html":[9,6,2,0,0,1,0,0,1063],
+"std__function__void__from__int_8java.html":[9,6,2,0,0,1,0,0,1064],
 "std__istream_8java.html":[9,6,2,0,0,1,0,0,1083],
 "std__optional__MR__AffineXf3f_8java.html":[9,6,2,0,0,1,0,0,1086],
 "std__optional__MR__AllLocalTriangulations_8java.html":[9,6,2,0,0,1,0,0,1087],
@@ -245,9 +249,5 @@ var NAVTREEINDEX277 =
 "std__vector__MR__DistanceMap_8java.html":[9,6,2,0,0,1,0,0,1336],
 "std__vector__MR__EdgeBitSet_8java.html":[9,6,2,0,0,1,0,0,1337],
 "std__vector__MR__EdgeId_8java.html":[9,6,2,0,0,1,0,0,1338],
-"std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8java.html":[9,6,2,0,0,1,0,0,1339],
-"std__vector__MR__EdgePointPair_8java.html":[9,6,2,0,0,1,0,0,1341],
-"std__vector__MR__EdgePoint_8java.html":[9,6,2,0,0,1,0,0,1340],
-"std__vector__MR__EdgeSegment_8java.html":[9,6,2,0,0,1,0,0,1342],
-"std__vector__MR__EdgeTri_8java.html":[9,6,2,0,0,1,0,0,1343]
+"std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8java.html":[9,6,2,0,0,1,0,0,1339]
 };

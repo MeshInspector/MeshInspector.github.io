@@ -1,5 +1,9 @@
 var NAVTREEINDEX177 =
 {
+"classmeshlib_1_1VertBMap.html#abded815baca3b7194743c27e0f2e34fe":[9,6,1,0,0,1690,0],
+"classmeshlib_1_1VertBMap.html#ad29310cb5d44aeb87cfdabd967dfdb81":[9,6,0,0,0,1690,2],
+"classmeshlib_1_1VertBMap.html#ad29310cb5d44aeb87cfdabd967dfdb81":[9,6,1,0,0,1690,2],
+"classmeshlib_1_1VertBMap.html#ae3575b11033efebe7b1cfc6df11fbea6":[9,6,0,0,0,1690,6],
 "classmeshlib_1_1VertBMap.html#ae3575b11033efebe7b1cfc6df11fbea6":[9,6,1,0,0,1690,6],
 "classmeshlib_1_1VertBMap.html#af3477d1553023b305f53c625be213ecb":[9,6,0,0,0,1690,1],
 "classmeshlib_1_1VertBMap.html#af3477d1553023b305f53c625be213ecb":[9,6,1,0,0,1690,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX177 =
 "classmeshlib_1_1VertColors.html#af21c8b1e49478f23814fe003aa94a202":[9,6,1,0,0,1692,41],
 "classmeshlib_1_1VertColors.html#af32c88819b6d429f3bfe22d2a165d47f":[9,6,0,0,0,1692,37],
 "classmeshlib_1_1VertColors.html#af32c88819b6d429f3bfe22d2a165d47f":[9,6,1,0,0,1692,37],
-"classmeshlib_1_1VertColors.html#af9df028c7704503cfb56e437cb9bc8d2":[9,6,0,0,0,1692,29],
-"classmeshlib_1_1VertColors.html#af9df028c7704503cfb56e437cb9bc8d2":[9,6,1,0,0,1692,29],
-"classmeshlib_1_1VertColors.html#afdf78952af631011e6d5a5bea108d7cf":[9,6,0,0,0,1692,5],
-"classmeshlib_1_1VertColors.html#afdf78952af631011e6d5a5bea108d7cf":[9,6,1,0,0,1692,5],
-"classmeshlib_1_1VertCoords.html":[9,6,0,0,0,1693]
+"classmeshlib_1_1VertColors.html#af9df028c7704503cfb56e437cb9bc8d2":[9,6,0,0,0,1692,29]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX97 =
 {
+"classmrmeshpy_1_1Const__std__array__WeightedVertexT__double__3.html#abb6f7c9326b9d0d98c99dd92338c5eab":[9,1,0,0,2,311,3],
+"classmrmeshpy_1_1Const__std__array__WeightedVertexT__double__3.html#abb6f7c9326b9d0d98c99dd92338c5eab":[9,1,1,0,1,311,3],
+"classmrmeshpy_1_1Const__std__array__WeightedVertexT__double__3.html#ad0b30feee9b3d6332e3f50d26db5a16d":[9,1,0,0,2,311,2],
+"classmrmeshpy_1_1Const__std__array__WeightedVertexT__double__3.html#ad0b30feee9b3d6332e3f50d26db5a16d":[9,1,1,0,1,311,2],
 "classmrmeshpy_1_1Const__std__array__WeightedVertexT__float__3.html":[9,1,0,0,2,312],
 "classmrmeshpy_1_1Const__std__array__WeightedVertexT__float__3.html":[9,1,1,0,1,312],
 "classmrmeshpy_1_1Const__std__array__WeightedVertexT__float__3.html#a0ba359ae4c3dfcc992353c0d2d3fbb5b":[9,1,0,0,2,312,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX97 =
 "classmrmeshpy_1_1Const__std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomiebc46ba5962d26febfe880ba2b571745.html#ac90649a347c037dead326b38addb4cdb":[9,1,0,0,2,333,7],
 "classmrmeshpy_1_1Const__std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomiebc46ba5962d26febfe880ba2b571745.html#ac90649a347c037dead326b38addb4cdb":[9,1,1,0,1,333,7],
 "classmrmeshpy_1_1Const__std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomialbc188abb9e83355281b0de808ab1c538.html":[9,1,0,0,2,334],
-"classmrmeshpy_1_1Const__std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomialbc188abb9e83355281b0de808ab1c538.html":[9,1,1,0,1,334],
-"classmrmeshpy_1_1Const__std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomialbc188abb9e83355281b0de808ab1c538.html#a2b20f96c6c291c95fb396476f068d26f":[9,1,0,0,2,334,5],
-"classmrmeshpy_1_1Const__std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomialbc188abb9e83355281b0de808ab1c538.html#a2b20f96c6c291c95fb396476f068d26f":[9,1,1,0,1,334,5],
-"classmrmeshpy_1_1Const__std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomialbc188abb9e83355281b0de808ab1c538.html#a318bd6c88694ca1dc1b4edd115f62c40":[9,1,0,0,2,334,8],
-"classmrmeshpy_1_1Const__std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomialbc188abb9e83355281b0de808ab1c538.html#a318bd6c88694ca1dc1b4edd115f62c40":[9,1,1,0,1,334,8]
+"classmrmeshpy_1_1Const__std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomialbc188abb9e83355281b0de808ab1c538.html":[9,1,1,0,1,334]
 };

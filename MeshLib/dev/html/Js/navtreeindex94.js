@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"classVertBMap.html":[9,4,1,0,1535],
+"classVertBMap.html#a1ecd88c37d5eecb1cec9196acef0260a":[9,4,1,0,1535,4],
 "classVertBMap.html#a50d57a6d786715b964da5fcfe6b9978b":[9,4,1,0,1535,5],
 "classVertBMap.html#a698e7839d07e4ba898014f4297cdacb4":[9,4,1,0,1535,1],
 "classVertBMap.html#a6b181423971c9044fd8d7c3f2fc2d03d":[9,4,1,0,1535,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX94 =
 "classVertCoords2.html#ae98926e11adaea1c188d2fd2e0d4c379":[9,4,1,0,1539,18],
 "classVertCoords2.html#aeac8d56194759528fa3a78f55e4f4c94":[9,4,1,0,1539,7],
 "classVertCoords2.html#aebb135bc79c9b54b476e61d22ef434d8":[9,4,1,0,1539,3],
-"classVertCoords2.html#af19b7dc257338bc5b41477da23af030a":[9,4,1,0,1539,6],
-"classVertCoords2.html#af3cc002ea46a6318eb43dd56f89d0b9d":[9,4,1,0,1539,41],
-"classVertCoords2.html#afa53e2cd7101e6f9b784c32c3801f6a6":[9,4,1,0,1539,19]
+"classVertCoords2.html#af19b7dc257338bc5b41477da23af030a":[9,4,1,0,1539,6]
 };

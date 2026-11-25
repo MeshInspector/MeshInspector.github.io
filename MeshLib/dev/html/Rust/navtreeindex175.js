@@ -1,5 +1,9 @@
 var NAVTREEINDEX175 =
 {
+"structmeshlib_1_1VoxelBitSet.html#af7c3e02f78eec4aea063b123feaad23a":[9,5,0,0,0,1709,11],
+"structmeshlib_1_1VoxelBitSet.html#af7c3e02f78eec4aea063b123feaad23a":[9,5,1,0,0,1696,11],
+"structmeshlib_1_1VoxelBitSet.html#af9850fbf28a1dc21c1fe91643a116e3d":[9,5,0,0,0,1709,7],
+"structmeshlib_1_1VoxelBitSet.html#af9850fbf28a1dc21c1fe91643a116e3d":[9,5,1,0,0,1696,7],
 "structmeshlib_1_1VoxelBitSet.html#afdbcf85a2a1d3d636305cfea722032dc":[9,5,0,0,0,1709,42],
 "structmeshlib_1_1VoxelBitSet.html#afdbcf85a2a1d3d636305cfea722032dc":[9,5,1,0,0,1696,42],
 "structmeshlib_1_1VoxelFilterType.html":[9,5,0,0,0,1710],
@@ -245,9 +249,5 @@ var NAVTREEINDEX175 =
 "structmeshlib_1_1VoxelsVolume__MR__FloatGrid.html#a96e1d363a40b6f63b127ae210e1fb32f":[9,5,0,0,0,1715,9],
 "structmeshlib_1_1VoxelsVolume__MR__FloatGrid.html#a96e1d363a40b6f63b127ae210e1fb32f":[9,5,1,0,0,1702,9],
 "structmeshlib_1_1VoxelsVolume__MR__FloatGrid.html#aa0c6cafd26379d3c75c368af490eb36e":[9,5,0,0,0,1715,7],
-"structmeshlib_1_1VoxelsVolume__MR__FloatGrid.html#aa0c6cafd26379d3c75c368af490eb36e":[9,5,1,0,0,1702,7],
-"structmeshlib_1_1VoxelsVolume__MR__FloatGrid.html#aa9631300634490624664810023743972":[9,5,0,0,0,1715,6],
-"structmeshlib_1_1VoxelsVolume__MR__FloatGrid.html#aa9631300634490624664810023743972":[9,5,1,0,0,1702,6],
-"structmeshlib_1_1VoxelsVolume__MR__FloatGrid.html#aafe42d41d789c8eb113897286c4aa3c0":[9,5,0,0,0,1715,3],
-"structmeshlib_1_1VoxelsVolume__MR__FloatGrid.html#aafe42d41d789c8eb113897286c4aa3c0":[9,5,1,0,0,1702,3]
+"structmeshlib_1_1VoxelsVolume__MR__FloatGrid.html#aa0c6cafd26379d3c75c368af490eb36e":[9,5,1,0,0,1702,7]
 };

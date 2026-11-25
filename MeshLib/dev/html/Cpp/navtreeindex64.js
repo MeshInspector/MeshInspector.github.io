@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"namespacemembers_func_w.html":[9,0,1,1,1,22],
 "namespacemembers_func_x.html":[9,0,1,1,1,23],
 "namespacemembers_func_z.html":[9,0,1,1,1,24],
 "namespacemembers_g.html":[9,0,1,1,0,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1Box.html":[9,0,0,0,2,0],
 "structMR_1_1Box.html#a047eb0e28cab517e74255789df872504":[9,0,0,0,2,0,32],
 "structMR_1_1Box.html#a0b1e0b6b95e8b735eda8de2bb06fd987":[9,0,0,0,2,0,5],
-"structMR_1_1Box.html#a1425948e6f0f9ef6de04c45be07f81fd":[9,0,0,0,2,0,0],
-"structMR_1_1Box.html#a14ec2de1def8e99ce267fe830e9caa51":[9,0,0,0,2,0,20]
+"structMR_1_1Box.html#a1425948e6f0f9ef6de04c45be07f81fd":[9,0,0,0,2,0,0]
 };

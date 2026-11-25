@@ -1,5 +1,9 @@
 var NAVTREEINDEX192 =
 {
+"classmrmeshpy_1_1UniteManyMeshesParams.html#ae5c55ef79564ef80bdff99439b841e94":[9,1,0,0,2,2531,11],
+"classmrmeshpy_1_1UniteManyMeshesParams.html#ae5c55ef79564ef80bdff99439b841e94":[9,1,1,0,1,2531,11],
+"classmrmeshpy_1_1UniteManyMeshesParams.html#af10bfe5869f186fb3092c3ad575afb88":[9,1,0,0,2,2531,23],
+"classmrmeshpy_1_1UniteManyMeshesParams.html#af10bfe5869f186fb3092c3ad575afb88":[9,1,1,0,1,2531,23],
 "classmrmeshpy_1_1UniteMeshNormalizationParams.html":[9,1,0,0,2,2532],
 "classmrmeshpy_1_1UniteMeshNormalizationParams.html":[9,1,1,0,1,2532],
 "classmrmeshpy_1_1UniteMeshNormalizationParams.html#a045a2a369c464bc622ff294bda6ecb58":[9,1,0,0,2,2532,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX192 =
 "classmrmeshpy_1_1Vector2i64.html#a79b927a6c5b628539092db26fe69e037":[9,1,0,0,2,2544,4],
 "classmrmeshpy_1_1Vector2i64.html#a79b927a6c5b628539092db26fe69e037":[9,1,1,0,1,2544,4],
 "classmrmeshpy_1_1Vector2i64.html#ac37179cd6d64a8e57136f9871e873462":[9,1,0,0,2,2544,7],
-"classmrmeshpy_1_1Vector2i64.html#ac37179cd6d64a8e57136f9871e873462":[9,1,1,0,1,2544,7],
-"classmrmeshpy_1_1Vector2i64.html#acfe88c1f8cbbbf9476486a89526483e1":[9,1,0,0,2,2544,10],
-"classmrmeshpy_1_1Vector2i64.html#acfe88c1f8cbbbf9476486a89526483e1":[9,1,1,0,1,2544,10],
-"classmrmeshpy_1_1Vector2i64.html#ae5599d16aa88bbffe85d3758c639548a":[9,1,0,0,2,2544,5],
-"classmrmeshpy_1_1Vector2i64.html#ae5599d16aa88bbffe85d3758c639548a":[9,1,1,0,1,2544,5]
+"classmrmeshpy_1_1Vector2i64.html#ac37179cd6d64a8e57136f9871e873462":[9,1,1,0,1,2544,7]
 };

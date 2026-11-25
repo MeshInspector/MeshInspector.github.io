@@ -1,5 +1,7 @@
 var NAVTREEINDEX107 =
 {
+"classMR_1_1EdgePoint.html#a95e3ddd0151cac739884a28894cd425d":[9,3,0,0,0,1239,5],
+"classMR_1_1EdgePoint.html#a96e9be0dff1114a261f086d6084a9fc4":[9,3,0,0,0,1239,1],
 "classMR_1_1EdgePoint.html#ae5f75fe64f2411d7350e562e7ca200a8":[9,3,0,0,0,1239,9],
 "classMR_1_1EdgePointPair.html":[9,3,0,0,0,1241],
 "classMR_1_1EdgePointPair.html#a005454454f4ed6d066193e1cd2a8dfc4":[9,3,0,0,0,1241,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX107 =
 "classMR_1_1FaceBitSet.html#aedde1ea5457f9640d097fccbc4126bd2":[9,3,0,0,0,1256,4],
 "classMR_1_1FaceBitSet.html#af111f3112de5c93d39762a533c65c961":[9,3,0,0,0,1256,33],
 "classMR_1_1FaceBitSet.html#af3d7f835cabde18b0e9e309e2c2654ad":[9,3,0,0,0,1256,10],
-"classMR_1_1FaceBitSet.html#af7c30db0ab4e823bb032c508347e4582":[9,3,0,0,0,1256,17],
-"classMR_1_1FaceColorMapAggregator.html":[9,3,0,0,0,1258],
-"classMR_1_1FaceColorMapAggregator.html#a1563299567d6f797d8e499c4c2eebe79":[9,3,0,0,0,1258,13]
+"classMR_1_1FaceBitSet.html#af7c30db0ab4e823bb032c508347e4582":[9,3,0,0,0,1256,17]
 };

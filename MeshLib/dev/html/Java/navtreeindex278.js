@@ -1,5 +1,9 @@
 var NAVTREEINDEX278 =
 {
+"std__vector__MR__EdgePointPair_8java.html":[9,6,2,0,0,1,0,0,1341],
+"std__vector__MR__EdgePoint_8java.html":[9,6,2,0,0,1,0,0,1340],
+"std__vector__MR__EdgeSegment_8java.html":[9,6,2,0,0,1,0,0,1342],
+"std__vector__MR__EdgeTri_8java.html":[9,6,2,0,0,1,0,0,1343],
 "std__vector__MR__FaceBitSet_8java.html":[9,6,2,0,0,1,0,0,1344],
 "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8java.html":[9,6,2,0,0,1,0,0,1345],
 "std__vector__MR__FaceFaceFace_8java.html":[9,6,2,0,0,1,0,0,1347],

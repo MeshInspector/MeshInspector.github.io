@@ -1,5 +1,7 @@
 var NAVTREEINDEX165 =
 {
+"std__shared__ptr__MR__ChangeActiveBoxAction_8h_source.html":[9,2,2,0,0,0,0,2,318],
+"std__shared__ptr__MR__ChangeColoringType_8h.html":[9,2,2,0,0,0,0,2,319],
 "std__shared__ptr__MR__ChangeColoringType_8h.html#a030e8bc3f3c3e73d98f03f1aef9fc384":[9,2,2,0,0,0,0,2,319,6],
 "std__shared__ptr__MR__ChangeColoringType_8h.html#a0698103c9f6c3c7433048b0fca47917d":[9,2,2,0,0,0,0,2,319,12],
 "std__shared__ptr__MR__ChangeColoringType_8h.html#a1929b9dd9bb1e346290be21dc2991312":[9,2,2,0,0,0,0,2,319,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX165 =
 "std__shared__ptr__MR__ChangeMeshEdgeSelectionAction_8h.html#a052e1bbc5049bb1d7c270634d6542f56":[9,2,2,0,0,0,0,2,329,15],
 "std__shared__ptr__MR__ChangeMeshEdgeSelectionAction_8h.html#a05e8caff725b2f22525f83afb3f42857":[9,2,2,0,0,0,0,2,329,12],
 "std__shared__ptr__MR__ChangeMeshEdgeSelectionAction_8h.html#a1bbdc0832a10799df5c3b243fccf1895":[9,2,2,0,0,0,0,2,329,14],
-"std__shared__ptr__MR__ChangeMeshEdgeSelectionAction_8h.html#a27b7a217800dd46c711f5cbdd564f487":[9,2,2,0,0,0,0,2,329,11],
-"std__shared__ptr__MR__ChangeMeshEdgeSelectionAction_8h.html#a4ae061bc66fa4e56014b2f8dd75fa37b":[9,2,2,0,0,0,0,2,329,9],
-"std__shared__ptr__MR__ChangeMeshEdgeSelectionAction_8h.html#a4b4c80dfcdb4c714910899b01a47bc54":[9,2,2,0,0,0,0,2,329,20]
+"std__shared__ptr__MR__ChangeMeshEdgeSelectionAction_8h.html#a27b7a217800dd46c711f5cbdd564f487":[9,2,2,0,0,0,0,2,329,11]
 };

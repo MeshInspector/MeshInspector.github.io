@@ -1,5 +1,9 @@
 var NAVTREEINDEX184 =
 {
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a047fdbafe7fa03aed8ebc3bcc446a24c":[9,5,0,0,0,3,5,23],
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a047fdbafe7fa03aed8ebc3bcc446a24c":[9,5,1,0,0,1,5,23],
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a0a1b780a50292862b73ad59522abf449":[9,5,0,0,0,3,5,7],
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a0a1b780a50292862b73ad59522abf449":[9,5,1,0,0,1,5,7],
 "structmeshlib_1_1features_1_1MeasureResult__Angle.html#a1b20c8a06d8c6b3043a0d944701d86dc":[9,5,0,0,0,3,5,2],
 "structmeshlib_1_1features_1_1MeasureResult__Angle.html#a1b20c8a06d8c6b3043a0d944701d86dc":[9,5,1,0,0,1,5,2],
 "structmeshlib_1_1features_1_1MeasureResult__Angle.html#a1b6e398af8e162dff29842f4072bbf09":[9,5,0,0,0,3,5,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX184 =
 "structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Sphere3f.html":[9,5,0,0,0,3,1,4],
 "structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Sphere3f.html":[9,5,1,0,0,1,1,4],
 "structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Sphere3f.html#a1385057aca7cbbfc3985aa94b7e113d2":[9,5,0,0,0,3,1,4,1],
-"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Sphere3f.html#a1385057aca7cbbfc3985aa94b7e113d2":[9,5,1,0,0,1,1,4,1],
-"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Sphere3f.html#a37b30a3ab1c3189311929681a3658ec3":[9,5,0,0,0,3,1,4,0],
-"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Sphere3f.html#a37b30a3ab1c3189311929681a3658ec3":[9,5,1,0,0,1,1,4,0],
-"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Sphere3f__MR__Sphere3f.html":[9,5,0,0,0,3,1,5],
-"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Sphere3f__MR__Sphere3f.html":[9,5,1,0,0,1,1,5]
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Sphere3f.html#a1385057aca7cbbfc3985aa94b7e113d2":[9,5,1,0,0,1,1,4,1]
 };

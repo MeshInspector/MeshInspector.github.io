@@ -162,6 +162,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ac5f569f34b93e02db10f6dea22cd32" id="r_a6ac5f569f34b93e02db10f6dea22cd32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSymMatrix4f.html">SymMatrix4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ac5f569f34b93e02db10f6dea22cd32">div_assign</a> (number b)</td></tr>
 <tr class="memitem:a523295bfebc727f1e315faa30fefbf66" id="r_a523295bfebc727f1e315faa30fefbf66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector4f.html">Vector4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a523295bfebc727f1e315faa30fefbf66">eigens</a> (<a class="el" href="classMatrix4f.html">Matrix4f</a> eigenvectors)</td></tr>
 <tr class="memitem:a8e4655915693e2e0890200ae741287bc" id="r_a8e4655915693e2e0890200ae741287bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSymMatrix4f.html">SymMatrix4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e4655915693e2e0890200ae741287bc">pseudoinverse</a> (number tol, <a class="el" href="classint__output.html">int_output</a> rank)</td></tr>
+<tr class="memitem:a98ac81fcf8909d28e293fc1b41f5caec" id="r_a98ac81fcf8909d28e293fc1b41f5caec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector4f.html">Vector4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98ac81fcf8909d28e293fc1b41f5caec">solveLDLT</a> (<a class="el" href="classVector4f.html">Vector4f</a> b)</td></tr>
 <tr class="memitem:af9c7cfe9e5489ca2771f9111a9236fdb" id="r_af9c7cfe9e5489ca2771f9111a9236fdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="index_8d_8mts.html#abedb128c7b02a09945d87d2349274a60">boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9c7cfe9e5489ca2771f9111a9236fdb">opEqual</a> (<a class="el" href="classSymMatrix4f.html">SymMatrix4f</a> _1)</td></tr>
 <tr class="memitem:a6a08e2e57ed9d8990070316db34360e5" id="r_a6a08e2e57ed9d8990070316db34360e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="index_8d_8mts.html#abedb128c7b02a09945d87d2349274a60">boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a08e2e57ed9d8990070316db34360e5">opNotEqual</a> (<a class="el" href="classSymMatrix4f.html">SymMatrix4f</a> _1)</td></tr>
 <tr class="inherit_header pub_methods_classCppObject"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classCppObject')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classCppObject.html">CppObject</a></td></tr>
@@ -464,6 +465,25 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <p>Calls <span class="tt">MR_SymMatrix4f_pseudoinverse()</span>. <span class="tt">tol</span> defaults to <span class="tt">std::numeric_limits&lt;float&gt;::epsilon()</span>. <span class="tt">rank</span> defaults to <span class="tt">nullptr</span>. </p>
+
+</div>
+</div>
+<a id="a98ac81fcf8909d28e293fc1b41f5caec" name="a98ac81fcf8909d28e293fc1b41f5caec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98ac81fcf8909d28e293fc1b41f5caec">&#9670;&#160;</a></span>solveLDLT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classVector4f.html">Vector4f</a> SymMatrix4f::solveLDLT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classVector4f.html">Vector4f</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>solves M*x = b for positive definite M by LDL^T decomposition without pivoting, much faster than <a class="el" href="#a523295bfebc727f1e315faa30fefbf66">eigens()</a> or <a class="el" href="#a8e4655915693e2e0890200ae741287bc">pseudoinverse()</a>; pivots that are not positive are skipped Generated from method <span class="tt">MR::SymMatrix4f::solveLDLT</span>.</p>
+<p>Calls <span class="tt">MR_SymMatrix4f_solveLDLT()</span>. </p>
 
 </div>
 </div>

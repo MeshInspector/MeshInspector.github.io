@@ -11,6 +11,7 @@ var classSymMatrix4d =
     [ "opEqual", "classSymMatrix4d.html#a174e4b1d98b0dac62f56a4a7bae34a0e", null ],
     [ "opNotEqual", "classSymMatrix4d.html#aaac5fcc251db9788fd8855efd3f78f5c", null ],
     [ "pseudoinverse", "classSymMatrix4d.html#af418b1037122b4f55ca00616c37b5428", null ],
+    [ "solveLDLT", "classSymMatrix4d.html#aab8a5d71b3a08e028a493920c66ce735", null ],
     [ "sub_assign", "classSymMatrix4d.html#a8892513d5a1421bbce1ce0116d25d657", null ],
     [ "trace", "classSymMatrix4d.html#a217d44288b937fa57e450a42d336035a", null ],
     [ "ww", "classSymMatrix4d.html#a7218c5a3a33c8ce1f7820382d10f2307", null ],

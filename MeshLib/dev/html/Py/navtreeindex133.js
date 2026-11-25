@@ -1,5 +1,9 @@
 var NAVTREEINDEX133 =
 {
+"classmrmeshpy_1_1FindOverlappingSettings.html#abf2c321d6fe010a65e1ceeec15251c31":[9,1,0,0,2,1594,7],
+"classmrmeshpy_1_1FindOverlappingSettings.html#abf2c321d6fe010a65e1ceeec15251c31":[9,1,1,0,1,1594,7],
+"classmrmeshpy_1_1FindOverlappingSettings.html#ade09b45936539f29487c01c2f2bba4e0":[9,1,0,0,2,1594,4],
+"classmrmeshpy_1_1FindOverlappingSettings.html#ade09b45936539f29487c01c2f2bba4e0":[9,1,1,0,1,1594,4],
 "classmrmeshpy_1_1FindOverlappingSettings.html#ae1c0280f019064d19fdf3780be6327b8":[9,1,0,0,2,1594,5],
 "classmrmeshpy_1_1FindOverlappingSettings.html#ae1c0280f019064d19fdf3780be6327b8":[9,1,1,0,1,1594,5],
 "classmrmeshpy_1_1FindProjectionOnPointsSettings.html":[9,1,0,0,2,1595],
@@ -245,9 +249,5 @@ var NAVTREEINDEX133 =
 "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ae365dd0036ab9bcade08ad13f96acac7":[9,1,0,0,2,1598,7,8],
 "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ae365dd0036ab9bcade08ad13f96acac7":[9,1,1,0,1,1598,7,8],
 "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#af81656e628e296024bd610b499aadd34":[9,1,0,0,2,1598,7,7],
-"classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#af81656e628e296024bd610b499aadd34":[9,1,1,0,1,1598,7,7],
-"classmrmeshpy_1_1FlipEdge.html":[9,1,0,0,2,1599],
-"classmrmeshpy_1_1FlipEdge.html":[9,1,1,0,1,1599],
-"classmrmeshpy_1_1FlipEdge.html#a1c42c1ae3a9d81504854da2e0bcf257c":[9,1,0,0,2,1599,2],
-"classmrmeshpy_1_1FlipEdge.html#a1c42c1ae3a9d81504854da2e0bcf257c":[9,1,1,0,1,1599,2]
+"classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#af81656e628e296024bd610b499aadd34":[9,1,1,0,1,1598,7,7]
 };

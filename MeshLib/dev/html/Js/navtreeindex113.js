@@ -1,5 +1,7 @@
 var NAVTREEINDEX113 =
 {
+"classstd__pair__std__vector__MR__FaceBitSet__int.html#af6d34310c59bb28a6f90115880f84aa1":[9,4,1,0,1040,2],
+"classstd__pair__std__vector__MR__FaceBitSet__int.html#afcd73e36a006a2b3bfdfe792e18705ac":[9,4,1,0,1040,5],
 "classstd__pair__std__vector__MR__UndirectedEdgeBitSet__int.html":[9,4,1,0,1041],
 "classstd__pair__std__vector__MR__UndirectedEdgeBitSet__int.html#a102bfaf25a353636ef5209e9a445558f":[9,4,1,0,1041,6],
 "classstd__pair__std__vector__MR__UndirectedEdgeBitSet__int.html#a15fb3b374523375f13952c7779e643e2":[9,4,1,0,1041,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX113 =
 "classstd__shared__ptr__MR__ChangeLabelAction.html#ae2ffff553c3408511ee3f4f66e7aa3bd":[9,4,1,0,1062,5],
 "classstd__shared__ptr__MR__ChangeLinesColorMapAction.html":[9,4,1,0,1063],
 "classstd__shared__ptr__MR__ChangeLinesColorMapAction.html#a23b53b77f5a2e78f270a67d6b13679c7":[9,4,1,0,1063,7],
-"classstd__shared__ptr__MR__ChangeLinesColorMapAction.html#a55294a5dde891994b38fc419c92c1138":[9,4,1,0,1063,6],
-"classstd__shared__ptr__MR__ChangeLinesColorMapAction.html#a7208c4f74bc7941effdc67b4b39ae539":[9,4,1,0,1063,9],
-"classstd__shared__ptr__MR__ChangeLinesColorMapAction.html#a78043edae3b247eeb806add3a7332c36":[9,4,1,0,1063,4]
+"classstd__shared__ptr__MR__ChangeLinesColorMapAction.html#a55294a5dde891994b38fc419c92c1138":[9,4,1,0,1063,6]
 };

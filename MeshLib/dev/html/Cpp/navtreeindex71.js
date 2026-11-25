@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8":[9,0,0,1,37,2],
 "structMR_1_1PolylineProjectionResult.html#a954df3a650cf8eeea5e253acae8126bd":[9,0,0,1,37,4],
 "structMR_1_1PolylineProjectionResult3Arg.html":[9,0,0,1,38],
 "structMR_1_1PolylineProjectionResult3Arg.html#a2cf18e52c58f017c162f7f60ad2c514e":[9,0,0,1,38,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1ShrinkwrapParameters.html":[9,0,0,9,11],
 "structMR_1_1ShrinkwrapParameters.html#a183a87107e261430e1f648901026b0eb":[9,0,0,9,11,0],
 "structMR_1_1ShrinkwrapParameters.html#a6494558a624f34d76f7b2c33730173b6":[9,0,0,9,11,2],
-"structMR_1_1ShrinkwrapParameters.html#a7e99b9b0dac6abe3e30c3f2f95b2c5d4":[9,0,0,9,11,1],
-"structMR_1_1Signal.html":[9,0,0,19,530]
+"structMR_1_1ShrinkwrapParameters.html#a7e99b9b0dac6abe3e30c3f2f95b2c5d4":[9,0,0,9,11,1]
 };

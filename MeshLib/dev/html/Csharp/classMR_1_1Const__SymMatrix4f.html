@@ -176,6 +176,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2c4ffc0d2ad019077e8f0d273b5daf00"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns eigenvalues of the matrix in ascending order (diagonal matrix L), and optionally returns corresponding unit eigenvectors in the rows of orthogonal matrix V, M*V^T = V^T*L; M = V^T*L*V Generated from method <span class="tt"><a class="el" href="#a2c4ffc0d2ad019077e8f0d273b5daf00" title="returns eigenvalues of the matrix in ascending order (diagonal matrix L), and optionally returns corr...">MR.SymMatrix4f.eigens</a></span>.  <br /></td></tr>
 <tr class="memitem:aed69b55db1f01e00a698e00b8e325b17" id="r_aed69b55db1f01e00a698e00b8e325b17"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1SymMatrix4f.html">MR.SymMatrix4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed69b55db1f01e00a698e00b8e325b17">pseudoinverse</a> (float? tol=null, MR.Misc.InOut&lt; int &gt;? rank=null)</td></tr>
 <tr class="memdesc:aed69b55db1f01e00a698e00b8e325b17"><td class="mdescLeft">&#160;</td><td class="mdescRight">for not-degenerate matrix returns just inverse matrix, otherwise returns degenerate matrix, which performs inversion on not-kernel subspace;  <br /></td></tr>
+<tr class="memitem:a860535efa05c8259de32d94d8179be2d" id="r_a860535efa05c8259de32d94d8179be2d"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1Vector4f.html">MR.Vector4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a860535efa05c8259de32d94d8179be2d">solveLDLT</a> (in <a class="el" href="structMR_1_1Vector4f.html">MR.Vector4f</a> b)</td></tr>
+<tr class="memdesc:a860535efa05c8259de32d94d8179be2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">solves M*x = b for positive definite M by LDL^T decomposition without pivoting, much faster than <a class="el" href="#a2c4ffc0d2ad019077e8f0d273b5daf00" title="returns eigenvalues of the matrix in ascending order (diagonal matrix L), and optionally returns corr...">eigens()</a> or <a class="el" href="#aed69b55db1f01e00a698e00b8e325b17" title="for not-degenerate matrix returns just inverse matrix, otherwise returns degenerate matrix,...">pseudoinverse()</a>; pivots that are not positive are skipped Generated from method <span class="tt"><a class="el" href="#a860535efa05c8259de32d94d8179be2d" title="solves M*x = b for positive definite M by LDL^T decomposition without pivoting, much faster than eige...">MR.SymMatrix4f.solveLDLT</a></span>.  <br /></td></tr>
 <tr class="memitem:a8fca4f7b639ad7a31acaed9176fc0bda" id="r_a8fca4f7b639ad7a31acaed9176fc0bda"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fca4f7b639ad7a31acaed9176fc0bda">Equals</a> (<a class="el" href="classMR_1_1Const__SymMatrix4f.html">MR.Const_SymMatrix4f</a>? _1)</td></tr>
 <tr class="memitem:a89e7fe7f7a2cd242520286d3c9259b50" id="r_a89e7fe7f7a2cd242520286d3c9259b50"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89e7fe7f7a2cd242520286d3c9259b50">Equals</a> (object? other)</td></tr>
 </table><table class="memberdecls">
@@ -617,6 +619,33 @@ Properties</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a860535efa05c8259de32d94d8179be2d" name="a860535efa05c8259de32d94d8179be2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a860535efa05c8259de32d94d8179be2d">&#9670;&#160;</a></span>solveLDLT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="structMR_1_1Vector4f.html">MR.Vector4f</a> MR.Const_SymMatrix4f.solveLDLT </td>
+          <td>(</td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector4f.html">MR.Vector4f</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>solves M*x = b for positive definite M by LDL^T decomposition without pivoting, much faster than <a class="el" href="#a2c4ffc0d2ad019077e8f0d273b5daf00" title="returns eigenvalues of the matrix in ascending order (diagonal matrix L), and optionally returns corr...">eigens()</a> or <a class="el" href="#aed69b55db1f01e00a698e00b8e325b17" title="for not-degenerate matrix returns just inverse matrix, otherwise returns degenerate matrix,...">pseudoinverse()</a>; pivots that are not positive are skipped Generated from method <span class="tt"><a class="el" href="#a860535efa05c8259de32d94d8179be2d" title="solves M*x = b for positive definite M by LDL^T decomposition without pivoting, much faster than eige...">MR.SymMatrix4f.solveLDLT</a></span>. </p>
 
 </div>
 </div>

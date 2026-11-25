@@ -1,5 +1,9 @@
 var NAVTREEINDEX224 =
 {
+"classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html":[9,1,0,0,2,1629],
+"classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html":[9,1,1,0,1,1629],
+"classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#abd2d65b9753202cf77fcc4e3dfbd1c26":[9,1,0,0,2,1629,0],
+"classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#abd2d65b9753202cf77fcc4e3dfbd1c26":[9,1,1,0,1,1629,0],
 "classmrmeshpy_1_1func__double__from__double__double.html":[9,1,0,0,2,1626],
 "classmrmeshpy_1_1func__double__from__double__double.html":[9,1,1,0,1,1626],
 "classmrmeshpy_1_1func__double__from__double__double.html#ab66b0a3a3ad9366ccba9560226653238":[9,1,0,0,2,1626,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX224 =
 "classmrmeshpy_1_1phmap__flat__hash__map__Id__NodeTag__Id__NodeTag__phmap__Hash__Id__NodeTag__phmbf2c65898262827e2bde26eea09cb679.html#a60b2ddacd3181c8bac149a09a7724c32":[9,1,0,0,2,2016,3],
 "classmrmeshpy_1_1phmap__flat__hash__map__Id__NodeTag__Id__NodeTag__phmap__Hash__Id__NodeTag__phmbf2c65898262827e2bde26eea09cb679.html#a60b2ddacd3181c8bac149a09a7724c32":[9,1,1,0,1,2016,3],
 "classmrmeshpy_1_1phmap__flat__hash__map__Id__NodeTag__Id__NodeTag__phmap__Hash__Id__NodeTag__phmbf2c65898262827e2bde26eea09cb679.html#a6d055bda505307e510a421e0e2e1f5fe":[9,1,0,0,2,2016,1],
-"classmrmeshpy_1_1phmap__flat__hash__map__Id__NodeTag__Id__NodeTag__phmap__Hash__Id__NodeTag__phmbf2c65898262827e2bde26eea09cb679.html#a6d055bda505307e510a421e0e2e1f5fe":[9,1,1,0,1,2016,1],
-"classmrmeshpy_1_1phmap__flat__hash__map__Id__ObjTag__Id__ObjTag__phmap__Hash__Id__ObjTag__phmap_6970936b2f5c73ae057bb4da99b60dd5.html":[9,1,0,0,2,2017],
-"classmrmeshpy_1_1phmap__flat__hash__map__Id__ObjTag__Id__ObjTag__phmap__Hash__Id__ObjTag__phmap_6970936b2f5c73ae057bb4da99b60dd5.html":[9,1,1,0,1,2017],
-"classmrmeshpy_1_1phmap__flat__hash__map__Id__ObjTag__Id__ObjTag__phmap__Hash__Id__ObjTag__phmap_6970936b2f5c73ae057bb4da99b60dd5.html#a0dcf8b2962cfd9cf34c5d84d1e2f995f":[9,1,0,0,2,2017,2],
-"classmrmeshpy_1_1phmap__flat__hash__map__Id__ObjTag__Id__ObjTag__phmap__Hash__Id__ObjTag__phmap_6970936b2f5c73ae057bb4da99b60dd5.html#a0dcf8b2962cfd9cf34c5d84d1e2f995f":[9,1,1,0,1,2017,2]
+"classmrmeshpy_1_1phmap__flat__hash__map__Id__NodeTag__Id__NodeTag__phmap__Hash__Id__NodeTag__phmbf2c65898262827e2bde26eea09cb679.html#a6d055bda505307e510a421e0e2e1f5fe":[9,1,1,0,1,2016,1]
 };

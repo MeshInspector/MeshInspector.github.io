@@ -1,5 +1,9 @@
 var NAVTREEINDEX136 =
 {
+"structmeshlib_1_1TerminalVertex.html#adda6060e3f4d820878054c4e2415d965":[9,5,0,0,0,1516,1],
+"structmeshlib_1_1TerminalVertex.html#adda6060e3f4d820878054c4e2415d965":[9,5,1,0,0,1503,1],
+"structmeshlib_1_1TextMeshAlignParams.html":[9,5,0,0,0,1517],
+"structmeshlib_1_1TextMeshAlignParams.html":[9,5,1,0,0,1504],
 "structmeshlib_1_1TextMeshAlignParams.html#a003ffb4c50c7c533def7f1c76fcd0ede":[9,5,0,0,0,1517,23],
 "structmeshlib_1_1TextMeshAlignParams.html#a003ffb4c50c7c533def7f1c76fcd0ede":[9,5,1,0,0,1504,23],
 "structmeshlib_1_1TextMeshAlignParams.html#a01cb3e2ced4f6d92986b2683e3287165":[9,5,0,0,0,1517,35],
@@ -245,9 +249,5 @@ var NAVTREEINDEX136 =
 "structmeshlib_1_1TextureId.html#ab84c209b958b9e490b19a59b509b5a81":[9,5,0,0,0,1519,3],
 "structmeshlib_1_1TextureId.html#ab84c209b958b9e490b19a59b509b5a81":[9,5,1,0,0,1506,3],
 "structmeshlib_1_1TexturePerFace.html":[9,5,0,0,0,1520],
-"structmeshlib_1_1TexturePerFace.html":[9,5,1,0,0,1507],
-"structmeshlib_1_1TexturePerFace.html#a0f13d7f56a7cd1c1d831d9193c177235":[9,5,0,0,0,1520,20],
-"structmeshlib_1_1TexturePerFace.html#a0f13d7f56a7cd1c1d831d9193c177235":[9,5,1,0,0,1507,20],
-"structmeshlib_1_1TexturePerFace.html#a17c855d4e76e2ea321d88b4c95420f9c":[9,5,0,0,0,1520,9],
-"structmeshlib_1_1TexturePerFace.html#a17c855d4e76e2ea321d88b4c95420f9c":[9,5,1,0,0,1507,9]
+"structmeshlib_1_1TexturePerFace.html":[9,5,1,0,0,1507]
 };

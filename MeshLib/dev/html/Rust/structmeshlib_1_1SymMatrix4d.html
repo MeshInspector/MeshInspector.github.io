@@ -161,6 +161,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a133aa1ec307e5b174cb85870c891881c" id="r_a133aa1ec307e5b174cb85870c891881c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a133aa1ec307e5b174cb85870c891881c">div_assign</a> (b:f64) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1SymMatrix4d.html">meshlib::SymMatrix4d</a></td></tr>
 <tr class="memitem:a16a197e9e3c59750d43fa8791bb9c288" id="r_a16a197e9e3c59750d43fa8791bb9c288"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16a197e9e3c59750d43fa8791bb9c288">eigens</a> (eigenvectors:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1Matrix4d.html">meshlib::Matrix4d</a> &gt;) const -&gt; <a class="el" href="structmeshlib_1_1Vector4d.html">meshlib::Vector4d</a></td></tr>
 <tr class="memitem:a45298e39aa070e25eeb429e9d126b074" id="r_a45298e39aa070e25eeb429e9d126b074"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45298e39aa070e25eeb429e9d126b074">pseudoinverse</a> (tol:Option&lt; f64 &gt;, rank:Option&lt;&amp;mut core::ffi::c_int &gt;) const -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1SymMatrix4d.html">meshlib::SymMatrix4d</a> &gt;</td></tr>
+<tr class="memitem:a8caab674ca5436d2bfed5eb17d9d0152" id="r_a8caab674ca5436d2bfed5eb17d9d0152"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8caab674ca5436d2bfed5eb17d9d0152">solve_ldlt</a> (b:&amp;<a class="el" href="structmeshlib_1_1Vector4d.html">meshlib::Vector4d</a>) const -&gt; <a class="el" href="structmeshlib_1_1Vector4d.html">meshlib::Vector4d</a></td></tr>
 <tr class="memitem:a0e5ce239d5a32d4a7a3253b813334bf5" id="r_a0e5ce239d5a32d4a7a3253b813334bf5"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e5ce239d5a32d4a7a3253b813334bf5">op_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1SymMatrix4d.html">meshlib::SymMatrix4d</a>) const -&gt; bool</td></tr>
 <tr class="memitem:a1277ea33805048c6c98dd1a8adf15572" id="r_a1277ea33805048c6c98dd1a8adf15572"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1277ea33805048c6c98dd1a8adf15572">op_not_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1SymMatrix4d.html">meshlib::SymMatrix4d</a>) const -&gt; bool</td></tr>
 <tr class="memitem:af47356f8f8999ec2f44f4f244182baf4" id="r_af47356f8f8999ec2f44f4f244182baf4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af47356f8f8999ec2f44f4f244182baf4">xx</a> () const -&gt; &amp;f64</td></tr>
@@ -685,6 +686,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>zero matrix by default Modifies a member variable of class <span class="tt">MR::SymMatrix4d</span> named <span class="tt">zz</span>.</p>
 <p>Calls <span class="tt">MR_SymMatrix4d_Set_zz()</span>. </p>
+
+</div>
+</div>
+<a id="a8caab674ca5436d2bfed5eb17d9d0152" name="a8caab674ca5436d2bfed5eb17d9d0152"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8caab674ca5436d2bfed5eb17d9d0152">&#9670;&#160;</a></span>solve_ldlt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::SymMatrix4d::solve_ldlt </td>
+          <td>(</td>
+          <td class="paramtype">b:&amp;<a class="el" href="structmeshlib_1_1Vector4d.html">meshlib::Vector4d</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  <a class="el" href="structmeshlib_1_1Vector4d.html">meshlib::Vector4d</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>solves M*x = b for positive definite M by LDL^T decomposition without pivoting, much faster than <a class="el" href="#a16a197e9e3c59750d43fa8791bb9c288">eigens()</a> or <a class="el" href="#a45298e39aa070e25eeb429e9d126b074">pseudoinverse()</a>; pivots that are not positive are skipped Generated from method <span class="tt">MR::SymMatrix4d::solveLDLT</span>.</p>
+<p>Calls <span class="tt">MR_SymMatrix4d_solveLDLT()</span>. </p>
 
 </div>
 </div>

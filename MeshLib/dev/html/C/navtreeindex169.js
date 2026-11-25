@@ -1,5 +1,7 @@
 var NAVTREEINDEX169 =
 {
+"std__shared__ptr__MR__ConeObject_8h.html#a74307f763df6b328e632de85ea887ccf":[9,2,2,0,0,0,0,2,361,6],
+"std__shared__ptr__MR__ConeObject_8h.html#a7cac3d37a6c1570244d877fe6d54b559":[9,2,2,0,0,0,0,2,361,17],
 "std__shared__ptr__MR__ConeObject_8h.html#a84c1c3612222f86c35f8b164f7f02839":[9,2,2,0,0,0,0,2,361,16],
 "std__shared__ptr__MR__ConeObject_8h.html#a9559e3b4f3d63904e23c5871e1c10732":[9,2,2,0,0,0,0,2,361,19],
 "std__shared__ptr__MR__ConeObject_8h.html#a9a04ca88d821ad9f063aca67b4fde9f0":[9,2,2,0,0,0,0,2,361,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX169 =
 "std__shared__ptr__MR__IComputePointsToDistanceFunctionVolume_8h.html#af4bfe2f642f5e9c8b0f67c9a129f8e5d":[9,2,2,0,0,0,0,2,368,4],
 "std__shared__ptr__MR__IComputePointsToDistanceFunctionVolume_8h.html#af79380b8a6b437703a7ee8f5521ee41c":[9,2,2,0,0,0,0,2,368,3],
 "std__shared__ptr__MR__IComputePointsToDistanceFunctionVolume_8h.html#afb395794109f7b2c1c2dc9d73fc176e6":[9,2,2,0,0,0,0,2,368,11],
-"std__shared__ptr__MR__IComputePointsToDistanceFunctionVolume_8h_source.html":[9,2,2,0,0,0,0,2,368],
-"std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html":[9,2,2,0,0,0,0,2,370],
-"std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#a0b711f4a54b170705595f92db0815c46":[9,2,2,0,0,0,0,2,370,17]
+"std__shared__ptr__MR__IComputePointsToDistanceFunctionVolume_8h_source.html":[9,2,2,0,0,0,0,2,368]
 };

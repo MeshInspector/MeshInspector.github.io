@@ -14,6 +14,7 @@ var classMR_1_1Const__SymMatrix4d =
     [ "operator!=", "classMR_1_1Const__SymMatrix4d.html#a7bd345939bbe7e2266aea22961887aac", null ],
     [ "operator==", "classMR_1_1Const__SymMatrix4d.html#a8fdbe856ce33495adbd0ed3372bf47c8", null ],
     [ "pseudoinverse", "classMR_1_1Const__SymMatrix4d.html#ab0cba499b424abdfcccd0163684859c2", null ],
+    [ "solveLDLT", "classMR_1_1Const__SymMatrix4d.html#aa1b7d8bbb5f66b52fac364d47ba8ddf7", null ],
     [ "trace", "classMR_1_1Const__SymMatrix4d.html#abde88cc4f1e3ac961c9b07bb03e01aa2", null ],
     [ "__ref_storage_ww", "classMR_1_1Const__SymMatrix4d.html#ade62144244a32ff94d5e2335686cd722", null ],
     [ "__ref_storage_xw", "classMR_1_1Const__SymMatrix4d.html#a89dccab9fee661fa99d5339fddb7738b", null ],

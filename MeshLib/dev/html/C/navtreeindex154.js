@@ -1,5 +1,7 @@
 var NAVTREEINDEX154 =
 {
+"std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h.html#a7bfedc5b8eceaf7e4486ad6e9ad8e7bc":[9,2,2,0,0,0,0,2,177,12],
+"std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h.html#a8bc30fabf4890b92eddbdaba99386b66":[9,2,2,0,0,0,0,2,177,9],
 "std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h.html#aa13b0c24439a1ed2b09c0166e7ee9d24":[9,2,2,0,0,0,0,2,177,10],
 "std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h.html#aa2e0573c52cbe63032cb85fd2ff16fc2":[9,2,2,0,0,0,0,2,177,8],
 "std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h.html#ab0167a73e87e4fecef8dac7217c59a72":[9,2,2,0,0,0,0,2,177,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX154 =
 "std__function__bool__from__const__MR__MeshProjectionResult__ref_8h.html#aec1507b4ed2b3a6445f457387d02d37b":[9,2,2,0,0,0,0,2,130,10],
 "std__function__bool__from__const__MR__MeshProjectionResult__ref_8h_source.html":[9,2,2,0,0,0,0,2,130],
 "std__function__bool__from__const__MR__Object__ref_8h.html":[9,2,2,0,0,0,0,2,131],
-"std__function__bool__from__const__MR__Object__ref_8h.html#a002944b674ca1b0e81439cfd57706a69":[9,2,2,0,0,0,0,2,131,1],
-"std__function__bool__from__const__MR__Object__ref_8h.html#a025f0e94e2f71dbf16280668258f6b00":[9,2,2,0,0,0,0,2,131,8],
-"std__function__bool__from__const__MR__Object__ref_8h.html#a08c0cc1cd0c14fbfa2f90fca0078f23f":[9,2,2,0,0,0,0,2,131,5]
+"std__function__bool__from__const__MR__Object__ref_8h.html#a002944b674ca1b0e81439cfd57706a69":[9,2,2,0,0,0,0,2,131,1]
 };

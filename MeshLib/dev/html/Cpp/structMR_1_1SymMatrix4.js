@@ -11,6 +11,7 @@ var structMR_1_1SymMatrix4 =
     [ "operator/=", "group__GeneralGroup.html#gae0f862cb58c64e35b3da4f2f0698f466", null ],
     [ "operator==", "group__GeneralGroup.html#ga8ddbb2995c7659e3cc15a4e925ee3ca8", null ],
     [ "pseudoinverse", "group__GeneralGroup.html#gae27d4edb7fe7ace5118db1aeb1f35954", null ],
+    [ "solveLDLT", "group__GeneralGroup.html#ga853aeef2e232f4a9c66b8f565eb4c062", null ],
     [ "trace", "group__GeneralGroup.html#gaa81a146dfe065dc9e492ff69c83dfc33", null ],
     [ "operator*", "group__GeneralGroup.html#gafc0a6af3d8944b99ae426026e296ef03", null ],
     [ "outerSquare", "group__GeneralGroup.html#ga27b6e7fc3e23fc7528ad7a37f8629668", null ],

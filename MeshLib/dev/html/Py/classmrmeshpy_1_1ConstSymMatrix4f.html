@@ -155,6 +155,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a657d6414cd64de51a17e7d21a26d3dd1" id="r_a657d6414cd64de51a17e7d21a26d3dd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector4f.html">Vector4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a657d6414cd64de51a17e7d21a26d3dd1">eigens</a> (self, <a class="el" href="classmrmeshpy_1_1Matrix4f.html">Matrix4f</a> eigenvectors=None)</td></tr>
 <tr class="memitem:a47205794bc60fc469c52f4b791b19f0b" id="r_a47205794bc60fc469c52f4b791b19f0b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47205794bc60fc469c52f4b791b19f0b">normSq</a> (self)</td></tr>
 <tr class="memitem:a4949b428ba5d735e89e92b1bff5f38d7" id="r_a4949b428ba5d735e89e92b1bff5f38d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1SymMatrix4f.html">SymMatrix4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4949b428ba5d735e89e92b1bff5f38d7">pseudoinverse</a> (self, float tol='std::numeric_limits&lt; float &gt;::epsilon()', <a class="el" href="classmrmeshpy_1_1int__output.html">int_output</a> rank=None)</td></tr>
+<tr class="memitem:a24dc360d9843ae4489125a1913c52435" id="r_a24dc360d9843ae4489125a1913c52435"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector4f.html">Vector4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24dc360d9843ae4489125a1913c52435">solveLDLT</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVector4f.html">ConstVector4f</a> b)</td></tr>
 <tr class="memitem:a45b91047325fa5ad5af72029f23a978d" id="r_a45b91047325fa5ad5af72029f23a978d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45b91047325fa5ad5af72029f23a978d">trace</a> (self)</td></tr>
 <tr class="memitem:a50581c3df215a46e2d950b3a57ce7235" id="r_a50581c3df215a46e2d950b3a57ce7235"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50581c3df215a46e2d950b3a57ce7235">ww</a> (self)</td></tr>
 <tr class="memitem:ae140688ab31993bb8712391a99437584" id="r_ae140688ab31993bb8712391a99437584"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae140688ab31993bb8712391a99437584">xw</a> (self)</td></tr>
@@ -407,6 +408,29 @@ M*V^T = V^T*L; M = V^T*L*V
 returns degenerate matrix, which performs inversion on not-kernel subspace;
 \\param tol relative epsilon-tolerance for too small number detection
 \\param rank optional output for this matrix rank according to given tolerance
+</pre> 
+</div>
+</div>
+<a id="a24dc360d9843ae4489125a1913c52435" name="a24dc360d9843ae4489125a1913c52435"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24dc360d9843ae4489125a1913c52435">&#9670;&#160;</a></span>solveLDLT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector4f.html">Vector4f</a> mrmeshpy.ConstSymMatrix4f.solveLDLT </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVector4f.html">ConstVector4f</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">solves M*x = b for positive definite M by LDL^T decomposition without pivoting,
+much faster than eigens() or pseudoinverse(); pivots that are not positive are skipped
 </pre> 
 </div>
 </div>

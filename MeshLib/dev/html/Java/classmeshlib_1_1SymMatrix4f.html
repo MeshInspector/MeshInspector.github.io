@@ -163,6 +163,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a04dd38d44e0b2b2c527bb59563cc982f" id="r_a04dd38d44e0b2b2c527bb59563cc982f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1SymMatrix4f.html">meshlib.SymMatrix4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04dd38d44e0b2b2c527bb59563cc982f">div_assign</a> (float b)</td></tr>
 <tr class="memitem:ac0b5a294df62b783d4842bdc11b45a73" id="r_ac0b5a294df62b783d4842bdc11b45a73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1Vector4f.html">meshlib.Vector4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0b5a294df62b783d4842bdc11b45a73">eigens</a> (<a class="el" href="classmeshlib_1_1Matrix4f.html">meshlib.Matrix4f</a> eigenvectors)</td></tr>
 <tr class="memitem:ae6032771688775d514fad7f22867e820" id="r_ae6032771688775d514fad7f22867e820"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1SymMatrix4f.html">meshlib.SymMatrix4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6032771688775d514fad7f22867e820">pseudoinverse</a> (java.lang.Float tol, <a class="el" href="classmeshlib_1_1int__output.html">meshlib.int_output</a> rank)</td></tr>
+<tr class="memitem:a13b52bd1b4ff1cd50e958e173687b7c3" id="r_a13b52bd1b4ff1cd50e958e173687b7c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1Vector4f.html">meshlib.Vector4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13b52bd1b4ff1cd50e958e173687b7c3">solveLDLT</a> (<a class="el" href="classmeshlib_1_1Vector4f.html">meshlib.Vector4f</a> b)</td></tr>
 <tr class="memitem:afcbc96262af103ad846df8fe0e673773" id="r_afcbc96262af103ad846df8fe0e673773"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcbc96262af103ad846df8fe0e673773">opEqual</a> (<a class="el" href="classmeshlib_1_1SymMatrix4f.html">meshlib.SymMatrix4f</a> _1)</td></tr>
 <tr class="memitem:a4702ef90eb248b678b52e34a0b8d3e2f" id="r_a4702ef90eb248b678b52e34a0b8d3e2f"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4702ef90eb248b678b52e34a0b8d3e2f">opNotEqual</a> (<a class="el" href="classmeshlib_1_1SymMatrix4f.html">meshlib.SymMatrix4f</a> _1)</td></tr>
 <tr class="memitem:ad9ac9e7a30f1353fa186763730518b32" id="r_ad9ac9e7a30f1353fa186763730518b32"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9ac9e7a30f1353fa186763730518b32">xx</a> ()</td></tr>
@@ -693,6 +694,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>zero matrix by default Modifies a member variable of class <span class="tt">MR::SymMatrix4f</span> named <span class="tt">zz</span>.</p>
 <p>Calls <span class="tt">MR_SymMatrix4f_Set_zz()</span>. </p>
+
+</div>
+</div>
+<a id="a13b52bd1b4ff1cd50e958e173687b7c3" name="a13b52bd1b4ff1cd50e958e173687b7c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13b52bd1b4ff1cd50e958e173687b7c3">&#9670;&#160;</a></span>solveLDLT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmeshlib_1_1Vector4f.html">meshlib.Vector4f</a> meshlib.SymMatrix4f.solveLDLT </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1Vector4f.html">meshlib.Vector4f</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>solves M*x = b for positive definite M by LDL^T decomposition without pivoting, much faster than <a class="el" href="#ac0b5a294df62b783d4842bdc11b45a73">eigens()</a> or <a class="el" href="#ae6032771688775d514fad7f22867e820">pseudoinverse()</a>; pivots that are not positive are skipped Generated from method <span class="tt">MR::SymMatrix4f::solveLDLT</span>.</p>
+<p>Calls <span class="tt">MR_SymMatrix4f_solveLDLT()</span>. </p>
 
 </div>
 </div>
