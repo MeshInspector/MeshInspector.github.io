@@ -3,6 +3,7 @@ var classmrmeshpy_1_1ConstSymMatrix3f =
     [ "__init__", "classmrmeshpy_1_1ConstSymMatrix3f.html#a3331579e6a05230d304f92194b43e311", null ],
     [ "det", "classmrmeshpy_1_1ConstSymMatrix3f.html#a300ea7ebcc92a0c71a78a016c3e8f3c4", null ],
     [ "eigens", "classmrmeshpy_1_1ConstSymMatrix3f.html#a1695df624a8179b56d999c20013a331c", null ],
+    [ "eigensJacobi", "classmrmeshpy_1_1ConstSymMatrix3f.html#a8e6a2b9171be471bc2e35633d547125b", null ],
     [ "eigenvector", "classmrmeshpy_1_1ConstSymMatrix3f.html#ae74effb0ea8a57a39faeee05e06c5859", null ],
     [ "inverse", "classmrmeshpy_1_1ConstSymMatrix3f.html#a59492ffefca407eff8bda3899de8c4d8", null ],
     [ "inverse", "classmrmeshpy_1_1ConstSymMatrix3f.html#aa4804b352e880339412c813ec155b1f4", null ],

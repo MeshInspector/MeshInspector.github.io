@@ -1,5 +1,9 @@
 var NAVTREEINDEX74 =
 {
+"classmrmeshpy_1_1ConstVector4__unsigned__char.html#af8664c9b6632c72f9341815a60874f50":[9,1,0,0,2,1337,14],
+"classmrmeshpy_1_1ConstVector4__unsigned__char.html#af8664c9b6632c72f9341815a60874f50":[9,1,1,0,1,1337,14],
+"classmrmeshpy_1_1ConstVector4b.html":[9,1,0,0,2,1338],
+"classmrmeshpy_1_1ConstVector4b.html":[9,1,1,0,1,1338],
 "classmrmeshpy_1_1ConstVector4b.html#a34626da9219d6765f4573899f90551d9":[9,1,0,0,2,1338,0],
 "classmrmeshpy_1_1ConstVector4b.html#a34626da9219d6765f4573899f90551d9":[9,1,1,0,1,1338,0],
 "classmrmeshpy_1_1ConstVector4b.html#a4517ee4648bdad30e594e787afccf6f0":[9,1,0,0,2,1338,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX74 =
 "classmrmeshpy_1_1ConstVector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#ac9e8851beb77da0dabfe50fc585307f7":[9,1,0,0,2,1343,6],
 "classmrmeshpy_1_1ConstVector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#ac9e8851beb77da0dabfe50fc585307f7":[9,1,1,0,1,1343,6],
 "classmrmeshpy_1_1ConstVector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#aca0e8e36ce8feb1eb992ade71478e0a4":[9,1,0,0,2,1343,9],
-"classmrmeshpy_1_1ConstVector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#aca0e8e36ce8feb1eb992ade71478e0a4":[9,1,1,0,1,1343,9],
-"classmrmeshpy_1_1ConstVector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#ae23cfb8ae286102995a9206e04d7c6fa":[9,1,0,0,2,1343,1],
-"classmrmeshpy_1_1ConstVector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#ae23cfb8ae286102995a9206e04d7c6fa":[9,1,1,0,1,1343,1],
-"classmrmeshpy_1_1ConstVector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#ae97ebb06dc2889ae811f7e6893ab6d60":[9,1,0,0,2,1343,7],
-"classmrmeshpy_1_1ConstVector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#ae97ebb06dc2889ae811f7e6893ab6d60":[9,1,1,0,1,1343,7]
+"classmrmeshpy_1_1ConstVector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#aca0e8e36ce8feb1eb992ade71478e0a4":[9,1,1,0,1,1343,9]
 };

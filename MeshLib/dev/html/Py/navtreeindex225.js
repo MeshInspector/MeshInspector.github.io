@@ -1,5 +1,9 @@
 var NAVTREEINDEX225 =
 {
+"classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float.html#a59f57d8f5ec34a1865ebecf6b1b520e0":[9,1,0,0,2,1674,0],
+"classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float.html#a59f57d8f5ec34a1865ebecf6b1b520e0":[9,1,1,0,1,1674,0],
+"classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag.html":[9,1,0,0,2,1675],
+"classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag.html":[9,1,1,0,1,1675],
 "classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag.html#a4dad692ec0305bcf32351d45a9fbc319":[9,1,0,0,2,1675,0],
 "classmrmeshpy_1_1func__void__from__Id__GraphEdgeTag__Id__GraphEdgeTag.html#a4dad692ec0305bcf32351d45a9fbc319":[9,1,1,0,1,1675,0],
 "classmrmeshpy_1_1func__void__from__Id__ObjTag__MeshOrPoints__ProjectionResult.html":[9,1,0,0,2,1676],
@@ -245,9 +249,5 @@ var NAVTREEINDEX225 =
 "classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__VertPathInfo__phmap__Hash__Id__VertTag__ph0b68f7f3ae05fe3937b15a76ead045ca.html#a7be552231656953cfe806568df767032":[9,1,0,0,2,2032,0],
 "classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__VertPathInfo__phmap__Hash__Id__VertTag__ph0b68f7f3ae05fe3937b15a76ead045ca.html#a7be552231656953cfe806568df767032":[9,1,1,0,1,2032,0],
 "classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__VertPathInfo__phmap__Hash__Id__VertTag__ph0b68f7f3ae05fe3937b15a76ead045ca.html#a8bde3e564cc5832220b9a00f7c206204":[9,1,0,0,2,2032,1],
-"classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__VertPathInfo__phmap__Hash__Id__VertTag__ph0b68f7f3ae05fe3937b15a76ead045ca.html#a8bde3e564cc5832220b9a00f7c206204":[9,1,1,0,1,2032,1],
-"classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__VertPathInfo__phmap__Hash__Id__VertTag__ph0b68f7f3ae05fe3937b15a76ead045ca.html#a8c4cfb8b51e175180633b234a861bd22":[9,1,0,0,2,2032,3],
-"classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__VertPathInfo__phmap__Hash__Id__VertTag__ph0b68f7f3ae05fe3937b15a76ead045ca.html#a8c4cfb8b51e175180633b234a861bd22":[9,1,1,0,1,2032,3],
-"classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float__phmap__Hash__Id__VertTag__phmap__Eqa2602eb04b9fd6088d1ed78a26238f37.html":[9,1,0,0,2,2029],
-"classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float__phmap__Hash__Id__VertTag__phmap__Eqa2602eb04b9fd6088d1ed78a26238f37.html":[9,1,1,0,1,2029]
+"classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__VertPathInfo__phmap__Hash__Id__VertTag__ph0b68f7f3ae05fe3937b15a76ead045ca.html#a8bde3e564cc5832220b9a00f7c206204":[9,1,1,0,1,2032,1]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX112 =
 {
+"classstd__pair__MR__FaceBitSet__int.html#a63bb99b06b4377a1fe304757d40b0735":[9,4,1,0,1030,0],
+"classstd__pair__MR__FaceBitSet__int.html#a9f3d7cac2af761f597c1bf28a0274f19":[9,4,1,0,1030,3],
 "classstd__pair__MR__FaceBitSet__int.html#aa245672e67cd7fd6e8f92ab9be7490c0":[9,4,1,0,1030,2],
 "classstd__pair__MR__FaceBitSet__int.html#ad98e918f1033ee8035c37224b1403048":[9,4,1,0,1030,5],
 "classstd__pair__MR__FaceBitSet__int.html#ade3fc12c949c5e06b7fb0870609bd24c":[9,4,1,0,1030,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX112 =
 "classstd__pair__const__MR__VertId__MR__VertPathInfo.html#a879e9827811c4e458003402a4d701aa6":[9,4,1,0,1018,0],
 "classstd__pair__const__MR__VertId__MR__VertPathInfo.html#aafc6eb7b6bedb2ff9a88372bd3c0bd40":[9,4,1,0,1018,5],
 "classstd__pair__const__MR__VertId__MR__VertPathInfo.html#abfa686f8e6a6750aab5aa172dcfcf27a":[9,4,1,0,1018,2],
-"classstd__pair__const__MR__VertId__MR__VertPathInfo.html#aea5b6391a660ebdc4cca66fd23e29df5":[9,4,1,0,1018,4],
-"classstd__pair__const__MR__VertId__float.html":[9,4,1,0,1015],
-"classstd__pair__const__MR__VertId__float.html#a045d82aed9a373fc87533aabe5cfc7ac":[9,4,1,0,1015,5]
+"classstd__pair__const__MR__VertId__MR__VertPathInfo.html#aea5b6391a660ebdc4cca66fd23e29df5":[9,4,1,0,1018,4]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX277 =
 {
+"interfacemeshlib_1_1std__function__void__from__MR__Mesh__ref__const__MR__PartMapping__ref_1_1Fn.html#a3695f5ca00311896c77141733c828a60":[9,6,0,0,0,1071,0,0],
+"interfacemeshlib_1_1std__function__void__from__MR__Mesh__ref__const__MR__PartMapping__ref_1_1Fn.html#a3695f5ca00311896c77141733c828a60":[9,6,1,0,0,1071,0,0],
+"interfacemeshlib_1_1std__function__void__from__MR__Mesh__ref__float__float_1_1Fn.html":[9,6,0,0,0,1072,0],
+"interfacemeshlib_1_1std__function__void__from__MR__Mesh__ref__float__float_1_1Fn.html":[9,6,1,0,0,1072,0],
 "interfacemeshlib_1_1std__function__void__from__MR__Mesh__ref__float__float_1_1Fn.html#a69a0904a3e806aa22144599c90f1f0d3":[9,6,0,0,0,1072,0,0],
 "interfacemeshlib_1_1std__function__void__from__MR__Mesh__ref__float__float_1_1Fn.html#a69a0904a3e806aa22144599c90f1f0d3":[9,6,1,0,0,1072,0,0],
 "interfacemeshlib_1_1std__function__void__from__MR__ObjId__MR__MeshOrPoints__ProjectionResult_1_1Fn.html":[9,6,0,0,0,1073,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX277 =
 "std__function__double__from__double__double_8java.html":[9,6,2,0,0,1,0,0,1018],
 "std__function__expected__MR__LoadedObjects__std__string__from__const__std__filesystem__path__ref94f889516a97fe6f1fd080c2e6c77ba3.html":[9,6,2,0,0,1,0,0,1021],
 "std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref__int_8java.html":[9,6,2,0,0,1,0,0,1024],
-"std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int_8java.html":[9,6,2,0,0,1,0,0,1022],
-"std__function__expected__void__std__string__from__const__std__string__ref__std__vector__char__rvalue__ref_8java.html":[9,6,2,0,0,1,0,0,1023],
-"std__function__float__from__MR__EdgeId_8java.html":[9,6,2,0,0,1,0,0,1030],
-"std__function__float__from__MR__UndirectedEdgeId_8java.html":[9,6,2,0,0,1,0,0,1031],
-"std__function__float__from__MR__VertId_8java.html":[9,6,2,0,0,1,0,0,1032]
+"std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int_8java.html":[9,6,2,0,0,1,0,0,1022]
 };

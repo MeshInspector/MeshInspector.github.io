@@ -1,5 +1,9 @@
 var NAVTREEINDEX234 =
 {
+"structmeshlib_1_1std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i.html#a4be8ac3966713f1477c241e6cdae60ac":[9,5,1,0,0,1419,1],
+"structmeshlib_1_1std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i.html#a5889ae1e7f26c971921d2a41595a9d46":[9,5,0,0,0,1432,0],
+"structmeshlib_1_1std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i.html#a5889ae1e7f26c971921d2a41595a9d46":[9,5,1,0,0,1419,0],
+"structmeshlib_1_1std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i.html#a789b3fd8a4cc3a378c2229df9bfa651b":[9,5,0,0,0,1432,10],
 "structmeshlib_1_1std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i.html#a789b3fd8a4cc3a378c2229df9bfa651b":[9,5,1,0,0,1419,10],
 "structmeshlib_1_1std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i.html#a8cf9c0da9b5f9c29d19857ed4b720541":[9,5,0,0,0,1432,4],
 "structmeshlib_1_1std__vector__MR__Vector3i__MR__Allocator__MR__Vector3i.html#a8cf9c0da9b5f9c29d19857ed4b720541":[9,5,1,0,0,1419,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX234 =
 "structmeshlib_1_1std__vector__MR__VertBitSet__MR__Allocator__MR__VertBitSet.html#aef8844d925749c01278981a3a3b8f520":[9,5,1,0,0,1425,15],
 "structmeshlib_1_1std__vector__MR__VertBitSet__MR__Allocator__MR__VertBitSet.html#af31ceed08d4bc2af591c0f9020b8996b":[9,5,0,0,0,1438,12],
 "structmeshlib_1_1std__vector__MR__VertBitSet__MR__Allocator__MR__VertBitSet.html#af31ceed08d4bc2af591c0f9020b8996b":[9,5,1,0,0,1425,12],
-"structmeshlib_1_1std__vector__MR__VertBitSet__MR__Allocator__MR__VertBitSet.html#af558335cbf6ac55d57ec1c38481db8f1":[9,5,0,0,0,1438,4],
-"structmeshlib_1_1std__vector__MR__VertBitSet__MR__Allocator__MR__VertBitSet.html#af558335cbf6ac55d57ec1c38481db8f1":[9,5,1,0,0,1425,4],
-"structmeshlib_1_1std__vector__MR__VertBitSet__MR__Allocator__MR__VertBitSet.html#af8b7a23883dfef4e72f7e169d8241bec":[9,5,0,0,0,1438,13],
-"structmeshlib_1_1std__vector__MR__VertBitSet__MR__Allocator__MR__VertBitSet.html#af8b7a23883dfef4e72f7e169d8241bec":[9,5,1,0,0,1425,13],
-"structmeshlib_1_1std__vector__MR__VertId.html":[9,5,0,0,0,1439]
+"structmeshlib_1_1std__vector__MR__VertBitSet__MR__Allocator__MR__VertBitSet.html#af558335cbf6ac55d57ec1c38481db8f1":[9,5,0,0,0,1438,4]
 };

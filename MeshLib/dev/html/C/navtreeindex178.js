@@ -1,5 +1,7 @@
 var NAVTREEINDEX178 =
 {
+"std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f__MR__Allocator__MR__Boxe____2d69_8h.html#ac4cde85d21d1f258ac99c9c22cc2cc27":[9,2,2,0,0,0,0,2,455,2],
+"std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f__MR__Allocator__MR__Boxe____2d69_8h.html#ad00718e692a2dd4728d3d34570550b9e":[9,2,2,0,0,0,0,2,455,23],
 "std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f__MR__Allocator__MR__Boxe____2d69_8h.html#ad60e703bb11e750792fad5f579939b70":[9,2,2,0,0,0,0,2,455,5],
 "std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f__MR__Allocator__MR__Boxe____2d69_8h.html#ae18939c70e04c7a00ac531503d8a7ad9":[9,2,2,0,0,0,0,2,455,7],
 "std__vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f__MR__Allocator__MR__Boxe____2d69_8h.html#ae3eb5e4f3852c06e708953339a065ad9":[9,2,2,0,0,0,0,2,455,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX178 =
 "std__vector__MR__EdgeId_8h.html#a7a3a52504d766c644b00b378aff6196d":[9,2,2,0,0,0,0,2,464,13],
 "std__vector__MR__EdgeId_8h.html#a7e6b99a5f4dca2b46f857b9010afcb3e":[9,2,2,0,0,0,0,2,464,16],
 "std__vector__MR__EdgeId_8h.html#a83deb150bfaf1fd384282e85fcebcb96":[9,2,2,0,0,0,0,2,464,25],
-"std__vector__MR__EdgeId_8h.html#a9155b0b05b6ff1090779556d70730afc":[9,2,2,0,0,0,0,2,464,23],
-"std__vector__MR__EdgeId_8h.html#aa6c20b4db372fcb07d464a3be1def65b":[9,2,2,0,0,0,0,2,464,2],
-"std__vector__MR__EdgeId_8h.html#ac8aed026995617644a41fdbe439088cd":[9,2,2,0,0,0,0,2,464,8]
+"std__vector__MR__EdgeId_8h.html#a9155b0b05b6ff1090779556d70730afc":[9,2,2,0,0,0,0,2,464,23]
 };

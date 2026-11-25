@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"classTriCornerUVCoords.html#a68226ba2a1ccaab72d5505de14c533e0":[9,4,1,0,1406,28],
+"classTriCornerUVCoords.html#a6c890656812a8e8c8803044e5af14372":[9,4,1,0,1406,6],
 "classTriCornerUVCoords.html#a6cd3ac9bf1ec35055863231e8c8bda43":[9,4,1,0,1406,8],
 "classTriCornerUVCoords.html#a7101d9488f1cd0768056e5412ba61d77":[9,4,1,0,1406,34],
 "classTriCornerUVCoords.html#a7160fd83f86e9b7ff228982efd2706d4":[9,4,1,0,1406,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "classTriangulationHelpers_1_1TriangulatedFanData.html":[9,4,0,0,33,2],
 "classTriangulationHelpers_1_1TriangulatedFanData.html":[9,4,1,0,18,2],
 "classTriangulationHelpers_1_1TriangulatedFanData.html#a1c21cb2d356fbab35ea32af084e83668":[9,4,0,0,33,2,2],
-"classTriangulationHelpers_1_1TriangulatedFanData.html#a1c21cb2d356fbab35ea32af084e83668":[9,4,1,0,18,2,2],
-"classTriangulationHelpers_1_1TriangulatedFanData.html#a2e392dbd90b0c2aab2f0427a3b8a41af":[9,4,0,0,33,2,6],
-"classTriangulationHelpers_1_1TriangulatedFanData.html#a2e392dbd90b0c2aab2f0427a3b8a41af":[9,4,1,0,18,2,6]
+"classTriangulationHelpers_1_1TriangulatedFanData.html#a1c21cb2d356fbab35ea32af084e83668":[9,4,1,0,18,2,2]
 };

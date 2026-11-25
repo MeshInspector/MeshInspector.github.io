@@ -1,5 +1,9 @@
 var NAVTREEINDEX133 =
 {
+"classmrmeshpy_1_1FindInnerShellSettings.html#ae6828d8824070b532776bcfff6bb52c8":[9,1,0,0,2,1595,0],
+"classmrmeshpy_1_1FindInnerShellSettings.html#ae6828d8824070b532776bcfff6bb52c8":[9,1,1,0,1,1595,0],
+"classmrmeshpy_1_1FindInnerShellSettings.html#aeaaadc7bd6b656f89d9e865afed4f4a8":[9,1,0,0,2,1595,12],
+"classmrmeshpy_1_1FindInnerShellSettings.html#aeaaadc7bd6b656f89d9e865afed4f4a8":[9,1,1,0,1,1595,12],
 "classmrmeshpy_1_1FindOutliersParams.html":[9,1,0,0,2,1596],
 "classmrmeshpy_1_1FindOutliersParams.html":[9,1,1,0,1,1596],
 "classmrmeshpy_1_1FindOutliersParams.html#a014ab39668ffd19b8cbaa8c3d1fc2f71":[9,1,0,0,2,1596,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX133 =
 "classmrmeshpy_1_1FixUndercuts_1_1ConstImproveDirectionParameters.html#a70340b21cd35128acb672c3942eddd8e":[9,1,0,0,2,1602,3,2],
 "classmrmeshpy_1_1FixUndercuts_1_1ConstImproveDirectionParameters.html#a70340b21cd35128acb672c3942eddd8e":[9,1,1,0,1,1602,3,2],
 "classmrmeshpy_1_1FixUndercuts_1_1ConstImproveDirectionParameters.html#a93a19ca3ffe75906a26e9a7bacfd9ee2":[9,1,0,0,2,1602,3,4],
-"classmrmeshpy_1_1FixUndercuts_1_1ConstImproveDirectionParameters.html#a93a19ca3ffe75906a26e9a7bacfd9ee2":[9,1,1,0,1,1602,3,4],
-"classmrmeshpy_1_1FixUndercuts_1_1ConstImproveDirectionParameters.html#aa089095dd337b4c6ed25eeae9b81c4d2":[9,1,0,0,2,1602,3,1],
-"classmrmeshpy_1_1FixUndercuts_1_1ConstImproveDirectionParameters.html#aa089095dd337b4c6ed25eeae9b81c4d2":[9,1,1,0,1,1602,3,1],
-"classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[9,1,0,0,2,1602,4],
-"classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[9,1,1,0,1,1602,4]
+"classmrmeshpy_1_1FixUndercuts_1_1ConstImproveDirectionParameters.html#a93a19ca3ffe75906a26e9a7bacfd9ee2":[9,1,1,0,1,1602,3,4]
 };

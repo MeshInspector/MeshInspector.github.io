@@ -154,6 +154,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3331579e6a05230d304f92194b43e311" id="r_a3331579e6a05230d304f92194b43e311"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3331579e6a05230d304f92194b43e311">__init__</a> (self, *args, **kwargs)</td></tr>
 <tr class="memitem:a300ea7ebcc92a0c71a78a016c3e8f3c4" id="r_a300ea7ebcc92a0c71a78a016c3e8f3c4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a300ea7ebcc92a0c71a78a016c3e8f3c4">det</a> (self)</td></tr>
 <tr class="memitem:a1695df624a8179b56d999c20013a331c" id="r_a1695df624a8179b56d999c20013a331c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1695df624a8179b56d999c20013a331c">eigens</a> (self, <a class="el" href="classmrmeshpy_1_1Matrix3f.html">Matrix3f</a> eigenvectors=None)</td></tr>
+<tr class="memitem:a8e6a2b9171be471bc2e35633d547125b" id="r_a8e6a2b9171be471bc2e35633d547125b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e6a2b9171be471bc2e35633d547125b">eigensJacobi</a> (self, <a class="el" href="classmrmeshpy_1_1Matrix3f.html">Matrix3f</a> eigenvectors=None)</td></tr>
 <tr class="memitem:ae74effb0ea8a57a39faeee05e06c5859" id="r_ae74effb0ea8a57a39faeee05e06c5859"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae74effb0ea8a57a39faeee05e06c5859">eigenvector</a> (self, float eigenvalue)</td></tr>
 <tr class="memitem:a59492ffefca407eff8bda3899de8c4d8" id="r_a59492ffefca407eff8bda3899de8c4d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1SymMatrix3f.html">SymMatrix3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59492ffefca407eff8bda3899de8c4d8">inverse</a> (self)</td></tr>
 <tr class="memitem:aa4804b352e880339412c813ec155b1f4" id="r_aa4804b352e880339412c813ec155b1f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1SymMatrix3f.html">SymMatrix3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4804b352e880339412c813ec155b1f4">inverse</a> (self, float <a class="el" href="#a300ea7ebcc92a0c71a78a016c3e8f3c4">det</a>)</td></tr>
@@ -288,6 +289,29 @@ Implicit copy constructor.
 <pre class="fragment">returns eigenvalues of the matrix in ascending order (diagonal matrix L), and
 optionally returns corresponding unit eigenvectors in the rows of orthogonal matrix V,
 M*V^T = V^T*L; M = V^T*L*V
+</pre> 
+</div>
+</div>
+<a id="a8e6a2b9171be471bc2e35633d547125b" name="a8e6a2b9171be471bc2e35633d547125b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e6a2b9171be471bc2e35633d547125b">&#9670;&#160;</a></span>eigensJacobi()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> mrmeshpy.ConstSymMatrix3f.eigensJacobi </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Matrix3f.html">Matrix3f</a> </td>          <td class="paramname"><span class="paramname"><em>eigenvectors</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">same as eigens(), but by cyclic Jacobi method: somewhat slower, and precise also for tiny eigenvalues of an ill-conditioned matrix,
+where eigens() has the absolute error proportional to the largest eigenvalue
 </pre> 
 </div>
 </div>

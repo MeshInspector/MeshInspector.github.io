@@ -1,5 +1,9 @@
 var NAVTREEINDEX201 =
 {
+"structmeshlib_1_1std__optional__MR__Sphere3d.html":[9,5,1,0,0,1090],
+"structmeshlib_1_1std__optional__MR__Sphere3d.html#a358f26d42e903de723eb39e157aece07":[9,5,0,0,0,1103,1],
+"structmeshlib_1_1std__optional__MR__Sphere3d.html#a358f26d42e903de723eb39e157aece07":[9,5,1,0,0,1090,1],
+"structmeshlib_1_1std__optional__MR__Sphere3d.html#a5bb5f88615a678f2dedffb5566512122":[9,5,0,0,0,1103,0],
 "structmeshlib_1_1std__optional__MR__Sphere3d.html#a5bb5f88615a678f2dedffb5566512122":[9,5,1,0,0,1090,0],
 "structmeshlib_1_1std__optional__MR__Sphere3d.html#ab493d3c2896312e6bd575b0ade491ac5":[9,5,0,0,0,1103,4],
 "structmeshlib_1_1std__optional__MR__Sphere3d.html#ab493d3c2896312e6bd575b0ade491ac5":[9,5,1,0,0,1090,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX201 =
 "structmeshlib_1_1std__optional__std__vector__MR__SomeLocalTriangulations.html#ab776bf476047262e6645318c7735a60b":[9,5,1,0,0,1108,3],
 "structmeshlib_1_1std__optional__std__vector__MR__SomeLocalTriangulations.html#adf09deb6da743cb5bc8c10f726d4c57d":[9,5,0,0,0,1121,0],
 "structmeshlib_1_1std__optional__std__vector__MR__SomeLocalTriangulations.html#adf09deb6da743cb5bc8c10f726d4c57d":[9,5,1,0,0,1108,0],
-"structmeshlib_1_1std__optional__std__vector__MR__SomeLocalTriangulations.html#ae71bc2032ee5bdde34dc4e938bd5c172":[9,5,0,0,0,1121,2],
-"structmeshlib_1_1std__optional__std__vector__MR__SomeLocalTriangulations.html#ae71bc2032ee5bdde34dc4e938bd5c172":[9,5,1,0,0,1108,2],
-"structmeshlib_1_1std__optional__std__vector__std__string.html":[9,5,0,0,0,1122],
-"structmeshlib_1_1std__optional__std__vector__std__string.html":[9,5,1,0,0,1109],
-"structmeshlib_1_1std__optional__std__vector__std__string.html#a658523ff0993a725acaa9f4bb4edfd91":[9,5,0,0,0,1122,3]
+"structmeshlib_1_1std__optional__std__vector__MR__SomeLocalTriangulations.html#ae71bc2032ee5bdde34dc4e938bd5c172":[9,5,0,0,0,1121,2]
 };

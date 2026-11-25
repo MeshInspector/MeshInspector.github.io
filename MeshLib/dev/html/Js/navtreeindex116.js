@@ -1,5 +1,7 @@
 var NAVTREEINDEX116 =
 {
+"classstd__shared__ptr__MR__ChangeScaleAction.html#a97365f58266fcff821540af387fc0209":[9,4,1,0,1094,7],
+"classstd__shared__ptr__MR__ChangeScaleAction.html#ab7655e8f405086daf1d2da1ab2df4e42":[9,4,1,0,1094,2],
 "classstd__shared__ptr__MR__ChangeScaleAction.html#ac29f11cb9e31a9bd5bf07a724395399d":[9,4,1,0,1094,13],
 "classstd__shared__ptr__MR__ChangeScaleAction.html#ad67a81462ab04811a77504e5f98d2999":[9,4,1,0,1094,5],
 "classstd__shared__ptr__MR__ChangeScaleAction.html#ad6e1639c0df00544439a044f3c81d171":[9,4,1,0,1094,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX116 =
 "classstd__shared__ptr__MR__FeatureObject.html#afec36ca92962b23b990c363b01a78d94":[9,4,1,0,1110,3],
 "classstd__shared__ptr__MR__HistoryAction.html":[9,4,1,0,1111],
 "classstd__shared__ptr__MR__HistoryAction.html#a0db94f5e483abcc230c1941411b37ac4":[9,4,1,0,1111,1],
-"classstd__shared__ptr__MR__HistoryAction.html#a271b5446fccfbac58adc97a03b1ff1fb":[9,4,1,0,1111,14],
-"classstd__shared__ptr__MR__HistoryAction.html#a3faa66a903cf17b07503ebc015f2fe97":[9,4,1,0,1111,13],
-"classstd__shared__ptr__MR__HistoryAction.html#a4dc7bad8c028d1657be93eb84dc9b4f8":[9,4,1,0,1111,6]
+"classstd__shared__ptr__MR__HistoryAction.html#a271b5446fccfbac58adc97a03b1ff1fb":[9,4,1,0,1111,14]
 };

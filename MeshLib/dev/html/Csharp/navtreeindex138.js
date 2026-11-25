@@ -1,5 +1,7 @@
 var NAVTREEINDEX138 =
 {
+"classMR_1_1SetBitIteratorT__MRVoxelBitSet.html#a770149eb6bacfdede71ccf9a6df38eef":[9,3,0,0,0,1721,4],
+"classMR_1_1SetBitIteratorT__MRVoxelBitSet.html#a79dacdd058d092066786ad9640adf746":[9,3,0,0,0,1721,2],
 "classMR_1_1SetBitIteratorT__MRVoxelBitSet.html#aa1be29229799c2e2ce0a624cca9dd5c8":[9,3,0,0,0,1721,6],
 "classMR_1_1SetBitIteratorT__MRVoxelBitSet.html#aa4a06a6721f83522102b930ae439434c":[9,3,0,0,0,1721,1],
 "classMR_1_1SetBitIteratorT__MRVoxelBitSet.html#aba6bee7f648999aa297d445cf4bfd1e6":[9,3,0,0,0,1721,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX138 =
 "classMR_1_1SpacingSettings.html#abd3c7f927bd0d40e95a754a4dd015035":[9,3,0,0,0,1744,5],
 "classMR_1_1SpacingSettings.html#adeaea458c53836029d5d007afafb52a1":[9,3,0,0,0,1744,0],
 "classMR_1_1SpacingSettings.html#ae38a0a964f52696e4a8a8c661101fc11":[9,3,0,0,0,1744,2],
-"classMR_1_1SpacingSettings.html#aea8f32294eeca4cec2af9b05cb73931b":[9,3,0,0,0,1744,3],
-"classMR_1_1SpacingSettings.html#af059dcabd20fcd000546b46e355a9958":[9,3,0,0,0,1744,6],
-"classMR_1_1SpacingSettings.html#af9615190efb6008947e0e2b6978d5637":[9,3,0,0,0,1744,7]
+"classMR_1_1SpacingSettings.html#aea8f32294eeca4cec2af9b05cb73931b":[9,3,0,0,0,1744,3]
 };

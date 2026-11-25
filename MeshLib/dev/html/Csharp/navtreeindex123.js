@@ -1,5 +1,7 @@
 var NAVTREEINDEX123 =
 {
+"classMR_1_1MultiwayICP.html#a7bc6d78b1eddc91e0179fb73ddcacb64":[9,3,0,0,0,1492,8],
+"classMR_1_1MultiwayICP.html#ab40ecc7d1988d56294a3198330064ec1":[9,3,0,0,0,1492,9],
 "classMR_1_1MultiwayICP.html#ad2f07dda4a5478ad6f85163e8e1b08d8":[9,3,0,0,0,1492,5],
 "classMR_1_1MultiwayICP.html#adc72d721bc443d2a5386600ac02245db":[9,3,0,0,0,1492,6],
 "classMR_1_1MultiwayICPSamplingParameters.html":[9,3,0,0,0,1493],
@@ -247,7 +249,5 @@ var NAVTREEINDEX123 =
 "classMR_1_1Nesting_1_1NestingResult.html#af62d63b0f715538bf2cf01a2cc9ec3c9":[9,3,0,0,0,1496,18,0],
 "classMR_1_1Nesting_1_1SequentialNester.html":[9,3,0,0,0,1496,19],
 "classMR_1_1Nesting_1_1SequentialNester.html#a1ba7b004ea03b4be884e59a38b9a656f":[9,3,0,0,0,1496,19,4],
-"classMR_1_1Nesting_1_1SequentialNester.html#a3281fa29dd194d4b3a87ff64f7b0b23f":[9,3,0,0,0,1496,19,2],
-"classMR_1_1Nesting_1_1SequentialNester.html#a49f2aa6e4c4977599963651ed1bf9730":[9,3,0,0,0,1496,19,6],
-"classMR_1_1Nesting_1_1SequentialNester.html#a909f8efbd34b4c2abc3827161b7bd3c0":[9,3,0,0,0,1496,19,0]
+"classMR_1_1Nesting_1_1SequentialNester.html#a3281fa29dd194d4b3a87ff64f7b0b23f":[9,3,0,0,0,1496,19,2]
 };

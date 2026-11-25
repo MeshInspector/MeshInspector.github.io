@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"classMR_1_1Const__TriTriDistanceParams__Float.html#a440d4761e3497f148e25b23f82d21cf5":[9,3,0,0,0,946,6],
+"classMR_1_1Const__TriTriDistanceParams__Float.html#a45ebecdcaf140aac39c363204bc1596b":[9,3,0,0,0,946,11],
 "classMR_1_1Const__TriTriDistanceParams__Float.html#a4e3dab78449c0aa4f842f0d446359611":[9,3,0,0,0,946,8],
 "classMR_1_1Const__TriTriDistanceParams__Float.html#a80ef3ec7b798c5e73b3f58e586f20b3c":[9,3,0,0,0,946,3],
 "classMR_1_1Const__TriTriDistanceParams__Float.html#aac8dafeb5ca078b94a9de6a12d7741b4":[9,3,0,0,0,946,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX88 =
 "classMR_1_1Const__TypedBitSet__MRIdMRSurfaceDistanceStartTag.html#a40a27e5535c16d082aa4040b2503c6fd":[9,3,0,0,0,953,5],
 "classMR_1_1Const__TypedBitSet__MRIdMRSurfaceDistanceStartTag.html#a513a8c8a2a64d50eed8c26c131e6b3a6":[9,3,0,0,0,953,31],
 "classMR_1_1Const__TypedBitSet__MRIdMRSurfaceDistanceStartTag.html#a5a14980807d92b5a33078d3b0c682d40":[9,3,0,0,0,953,2],
-"classMR_1_1Const__TypedBitSet__MRIdMRSurfaceDistanceStartTag.html#a5b3df84486ab781480f676ec7147c886":[9,3,0,0,0,953,6],
-"classMR_1_1Const__TypedBitSet__MRIdMRSurfaceDistanceStartTag.html#a67159414a20ef9853aa0965851d8048b":[9,3,0,0,0,953,24],
-"classMR_1_1Const__TypedBitSet__MRIdMRSurfaceDistanceStartTag.html#a6e7046f07c11c6dd0691c306eb9bd108":[9,3,0,0,0,953,0]
+"classMR_1_1Const__TypedBitSet__MRIdMRSurfaceDistanceStartTag.html#a5b3df84486ab781480f676ec7147c886":[9,3,0,0,0,953,6]
 };

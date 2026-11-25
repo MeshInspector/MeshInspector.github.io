@@ -1,5 +1,7 @@
 var NAVTREEINDEX142 =
 {
+"classMR_1_1Torus3f.html#a0292a6dca404d4252d08acdd2ebb3cf0":[9,3,0,0,0,1791,5],
+"classMR_1_1Torus3f.html#a7ad7cbac2a06db76bbb7cbfe5fe50bdf":[9,3,0,0,0,1791,3],
 "classMR_1_1Torus3f.html#aa2a88d9cab56976bc5ab7facb06dea2b":[9,3,0,0,0,1791,7],
 "classMR_1_1Torus3f.html#aa3ecd0158c247ac1d3bc76126b276dc4":[9,3,0,0,0,1791,8],
 "classMR_1_1Torus3f.html#aaadc55f5c312396e89adfd4c00e7451c":[9,3,0,0,0,1791,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX142 =
 "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a6ca753f6817a1d2880fd549c467e14fb":[9,3,0,0,0,1798,1,25],
 "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a8722adffef6b1de7e08a6362b49a0cab":[9,3,0,0,0,1798,1,3],
 "classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a90908e354d3d9cd32c8c19bc761ab953":[9,3,0,0,0,1798,1,24],
-"classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a9bf6b4245005455ec53ffb5f4b033b4b":[9,3,0,0,0,1798,1,19],
-"classMR_1_1TriangulationHelpers_1_1Const__Settings.html#aa8c92446f39b9b92b8860a6eb9a28b09":[9,3,0,0,0,1798,1,20],
-"classMR_1_1TriangulationHelpers_1_1Const__Settings.html#aa9e0641b64f15101ac9574eff955ef39":[9,3,0,0,0,1798,1,15]
+"classMR_1_1TriangulationHelpers_1_1Const__Settings.html#a9bf6b4245005455ec53ffb5f4b033b4b":[9,3,0,0,0,1798,1,19]
 };

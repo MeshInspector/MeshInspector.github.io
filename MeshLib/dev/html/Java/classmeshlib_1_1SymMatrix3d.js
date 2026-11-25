@@ -8,6 +8,7 @@ var classmeshlib_1_1SymMatrix3d =
     [ "det", "classmeshlib_1_1SymMatrix3d.html#aa428d58a857c2eb0aef3e407f3b24d8a", null ],
     [ "div_assign", "classmeshlib_1_1SymMatrix3d.html#aa54cecb10542bf382d73b670ac705af4", null ],
     [ "eigens", "classmeshlib_1_1SymMatrix3d.html#a5edc9ba0d7cb66d9e73d2b35a7a6827c", null ],
+    [ "eigensJacobi", "classmeshlib_1_1SymMatrix3d.html#a8cef2f976f9830684d87fbaeb1b8297f", null ],
     [ "eigenvector", "classmeshlib_1_1SymMatrix3d.html#a6ebbf49abe88de9703b00afbc9a0065f", null ],
     [ "inverse", "classmeshlib_1_1SymMatrix3d.html#afa168fb0340ea5b1368dbfefa7cc7643", null ],
     [ "inverse", "classmeshlib_1_1SymMatrix3d.html#a7a223d5925c29ecb5f23285244f20475", null ],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX235 =
 {
+"structmeshlib_1_1std__vector__MR__VertBitSet__MR__Allocator__MR__VertBitSet.html#af558335cbf6ac55d57ec1c38481db8f1":[9,5,1,0,0,1425,4],
+"structmeshlib_1_1std__vector__MR__VertBitSet__MR__Allocator__MR__VertBitSet.html#af8b7a23883dfef4e72f7e169d8241bec":[9,5,0,0,0,1438,13],
+"structmeshlib_1_1std__vector__MR__VertBitSet__MR__Allocator__MR__VertBitSet.html#af8b7a23883dfef4e72f7e169d8241bec":[9,5,1,0,0,1425,13],
+"structmeshlib_1_1std__vector__MR__VertId.html":[9,5,0,0,0,1439],
 "structmeshlib_1_1std__vector__MR__VertId.html":[9,5,1,0,0,1426],
 "structmeshlib_1_1std__vector__MR__VertId.html#a070bbb003c7b28e6f666b0ed2537843d":[9,5,0,0,0,1439,9],
 "structmeshlib_1_1std__vector__MR__VertId.html#a070bbb003c7b28e6f666b0ed2537843d":[9,5,1,0,0,1426,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX235 =
 "structmeshlib_1_1std__vector__MR__WatershedGraph__BdInfo__MR__Allocator__MR__WatershedGraph__BdInfo.html#a0bd635c99ffdc58f4ae47d24b740f852":[9,5,1,0,0,1432,15],
 "structmeshlib_1_1std__vector__MR__WatershedGraph__BdInfo__MR__Allocator__MR__WatershedGraph__BdInfo.html#a37e1b364718cfb579e8cc3b454ebd4dc":[9,5,0,0,0,1445,2],
 "structmeshlib_1_1std__vector__MR__WatershedGraph__BdInfo__MR__Allocator__MR__WatershedGraph__BdInfo.html#a37e1b364718cfb579e8cc3b454ebd4dc":[9,5,1,0,0,1432,2],
-"structmeshlib_1_1std__vector__MR__WatershedGraph__BdInfo__MR__Allocator__MR__WatershedGraph__BdInfo.html#a3da95d9cfea8a95b96047a698bc56939":[9,5,0,0,0,1445,6],
-"structmeshlib_1_1std__vector__MR__WatershedGraph__BdInfo__MR__Allocator__MR__WatershedGraph__BdInfo.html#a3da95d9cfea8a95b96047a698bc56939":[9,5,1,0,0,1432,6],
-"structmeshlib_1_1std__vector__MR__WatershedGraph__BdInfo__MR__Allocator__MR__WatershedGraph__BdInfo.html#a3e69b3bd13765483c5ca0c39971a87d7":[9,5,0,0,0,1445,1],
-"structmeshlib_1_1std__vector__MR__WatershedGraph__BdInfo__MR__Allocator__MR__WatershedGraph__BdInfo.html#a3e69b3bd13765483c5ca0c39971a87d7":[9,5,1,0,0,1432,1],
-"structmeshlib_1_1std__vector__MR__WatershedGraph__BdInfo__MR__Allocator__MR__WatershedGraph__BdInfo.html#a3f8682a8c9cba9151f03b646545c1ce0":[9,5,0,0,0,1445,11]
+"structmeshlib_1_1std__vector__MR__WatershedGraph__BdInfo__MR__Allocator__MR__WatershedGraph__BdInfo.html#a3da95d9cfea8a95b96047a698bc56939":[9,5,0,0,0,1445,6]
 };

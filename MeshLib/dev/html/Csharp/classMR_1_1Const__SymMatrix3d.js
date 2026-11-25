@@ -8,6 +8,7 @@ var classMR_1_1Const__SymMatrix3d =
     [ "Dispose", "classMR_1_1Const__SymMatrix3d.html#a06d46d24e5ecfbdc28ba07844fcbc9c3", null ],
     [ "Dispose", "classMR_1_1Const__SymMatrix3d.html#a865d49f28ace4cfedcf3e602e768d551", null ],
     [ "eigens", "classMR_1_1Const__SymMatrix3d.html#a2f639724fc6a0f1b84d5f11e76b2879e", null ],
+    [ "eigensJacobi", "classMR_1_1Const__SymMatrix3d.html#ac0888b3491bc5bbe43634bfab8fea8d7", null ],
     [ "eigenvector", "classMR_1_1Const__SymMatrix3d.html#adadc7f6ad1c93569a3b13cecc7f47af6", null ],
     [ "identity", "classMR_1_1Const__SymMatrix3d.html#a0e7d13c9780bb73df5674658dcfe11e7", null ],
     [ "inverse", "classMR_1_1Const__SymMatrix3d.html#ab9ee6b283b53fd28364b8e146a495452", null ],

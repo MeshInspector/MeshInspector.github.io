@@ -1,5 +1,9 @@
 var NAVTREEINDEX245 =
 {
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#acfbc2e79a0e85ddb1fa78bec767707eb":[9,1,0,0,2,2399,1],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#acfbc2e79a0e85ddb1fa78bec767707eb":[9,1,1,0,1,2399,1],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#aed59a4d4bb8bf9b5606a7b47ad917fae":[9,1,0,0,2,2399,8],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#aed59a4d4bb8bf9b5606a7b47ad917fae":[9,1,1,0,1,2399,8],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#af04d48030e5e97fa6e2d0f6cd7675f7d":[9,1,0,0,2,2399,7],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#af04d48030e5e97fa6e2d0f6cd7675f7d":[9,1,1,0,1,2399,7],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#afc3eb96024f3ab98300abb9fcdd14915":[9,1,0,0,2,2399,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX245 =
 "classmrmeshpy_1_1std__vector__std__vector__Id__VertTag.html#ad1fd9c49ca6c1f9af12416c86a487fa7":[9,1,0,0,2,2408,11],
 "classmrmeshpy_1_1std__vector__std__vector__Id__VertTag.html#ad1fd9c49ca6c1f9af12416c86a487fa7":[9,1,1,0,1,2408,11],
 "classmrmeshpy_1_1std__vector__std__vector__Id__VertTag.html#ad3a224df9504b40e1d9d7fb71501e147":[9,1,0,0,2,2408,3],
-"classmrmeshpy_1_1std__vector__std__vector__Id__VertTag.html#ad3a224df9504b40e1d9d7fb71501e147":[9,1,1,0,1,2408,3],
-"classmrmeshpy_1_1std__vector__std__vector__Id__VertTag.html#ad4ef2bfab8be5cda85a39ade6ac25c35":[9,1,0,0,2,2408,6],
-"classmrmeshpy_1_1std__vector__std__vector__Id__VertTag.html#ad4ef2bfab8be5cda85a39ade6ac25c35":[9,1,1,0,1,2408,6],
-"classmrmeshpy_1_1std__vector__std__vector__ObjVertId__Allocator__std__vector__ObjVertId.html":[9,1,0,0,2,2409],
-"classmrmeshpy_1_1std__vector__std__vector__ObjVertId__Allocator__std__vector__ObjVertId.html":[9,1,1,0,1,2409]
+"classmrmeshpy_1_1std__vector__std__vector__Id__VertTag.html#ad3a224df9504b40e1d9d7fb71501e147":[9,1,1,0,1,2408,3]
 };

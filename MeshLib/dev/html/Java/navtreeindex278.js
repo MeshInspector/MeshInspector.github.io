@@ -1,5 +1,9 @@
 var NAVTREEINDEX278 =
 {
+"std__function__expected__void__std__string__from__const__std__string__ref__std__vector__char__rvalue__ref_8java.html":[9,6,2,0,0,1,0,0,1023],
+"std__function__float__from__MR__EdgeId_8java.html":[9,6,2,0,0,1,0,0,1030],
+"std__function__float__from__MR__UndirectedEdgeId_8java.html":[9,6,2,0,0,1,0,0,1031],
+"std__function__float__from__MR__VertId_8java.html":[9,6,2,0,0,1,0,0,1032],
 "std__function__float__from__const__MR__Vector3i__ref_8java.html":[9,6,2,0,0,1,0,0,1026],
 "std__function__float__from__const__char__ptr_8java.html":[9,6,2,0,0,1,0,0,1025],
 "std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__Offse147f88e2c710c6dcedd57a72ecee2399.html":[9,6,2,0,0,1,0,0,1027],
@@ -245,9 +249,5 @@ var NAVTREEINDEX278 =
 "std__shared__ptr__const__MR__Object_8java.html":[9,6,2,0,0,1,0,0,1190],
 "std__shared__ptr__const__MR__PointCloud_8java.html":[9,6,2,0,0,1,0,0,1191],
 "std__shared__ptr__const__MR__Polyline3_8java.html":[9,6,2,0,0,1,0,0,1192],
-"std__shared__ptr__const__MR__SceneRootObject_8java.html":[9,6,2,0,0,1,0,0,1193],
-"std__shared__ptr__const__void_8java.html":[9,6,2,0,0,1,0,0,1194],
-"std__shared__ptr__std__vector__std__string_8java.html":[9,6,2,0,0,1,0,0,1294],
-"std__shared__ptr__void_8java.html":[9,6,2,0,0,1,0,0,1295],
-"std__string_8java.html":[9,6,2,0,0,1,0,0,1296]
+"std__shared__ptr__const__MR__SceneRootObject_8java.html":[9,6,2,0,0,1,0,0,1193]
 };

@@ -8157,6 +8157,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga99e0be1e5bffb3b6359888a6e130687d" id="r_ga99e0be1e5bffb3b6359888a6e130687d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1SymMatrix3.html">SymMatrix3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga99e0be1e5bffb3b6359888a6e130687d">MR::SymMatrix3&lt; T &gt;::operator*=</a> (T b)</td></tr>
 <tr class="memitem:ga51d8fe8edf354cbdf97b8a6b14a30ef7" id="r_ga51d8fe8edf354cbdf97b8a6b14a30ef7"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1SymMatrix3.html">SymMatrix3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga51d8fe8edf354cbdf97b8a6b14a30ef7">MR::SymMatrix3&lt; T &gt;::operator/=</a> (T b)</td></tr>
 <tr class="memitem:ga67770e5a0f61e735f7d0ee98feb063d2" id="r_ga67770e5a0f61e735f7d0ee98feb063d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga67770e5a0f61e735f7d0ee98feb063d2">MR::SymMatrix3&lt; T &gt;::eigens</a> (<a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; *eigenvectors=nullptr) const</td></tr>
+<tr class="memitem:gaedb423fe805a978256ea0f57fc56fd9d" id="r_gaedb423fe805a978256ea0f57fc56fd9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaedb423fe805a978256ea0f57fc56fd9d">MR::SymMatrix3&lt; T &gt;::eigensJacobi</a> (<a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; *eigenvectors=nullptr) const</td></tr>
 <tr class="memitem:gaceb75dc50186b2d1ed1f0f7a98c6123b" id="r_gaceb75dc50186b2d1ed1f0f7a98c6123b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaceb75dc50186b2d1ed1f0f7a98c6123b">MR::SymMatrix3&lt; T &gt;::eigenvector</a> (T eigenvalue) const</td></tr>
 <tr class="memdesc:gaceb75dc50186b2d1ed1f0f7a98c6123b"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes not-unit eigenvector corresponding to a not-repeating eigenvalue  <br /></td></tr>
 <tr class="memitem:ga0933d72d3335abd2a99ae9c8f5afe198" id="r_ga0933d72d3335abd2a99ae9c8f5afe198"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SymMatrix3.html">SymMatrix3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0933d72d3335abd2a99ae9c8f5afe198">MR::SymMatrix3&lt; T &gt;::pseudoinverse</a> (T tol=std::numeric_limits&lt; T &gt;::epsilon(), int *rank=nullptr, <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; *space=nullptr) const</td></tr>
@@ -69164,6 +69165,28 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRSymMatrix4_8h.html">MRMesh/MRSymMatrix4.h</a>&gt;</code></p>
 <p>returns eigenvalues of the matrix in ascending order (diagonal matrix L), and optionally returns corresponding unit eigenvectors in the rows of orthogonal matrix V, M*V^T = V^T*L; M = V^T*L*V </p>
+
+</div>
+</div>
+<a id="gaedb423fe805a978256ea0f57fc56fd9d" name="gaedb423fe805a978256ea0f57fc56fd9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaedb423fe805a978256ea0f57fc56fd9d">&#9670;&#160;</a></span>eigensJacobi()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; <a class="el" href="structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt; T &gt;::eigensJacobi </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; *</td>          <td class="paramname"><span class="paramname"><em>eigenvectors</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRSymMatrix3_8h.html">MRMesh/MRSymMatrix3.h</a>&gt;</code></p>
+<p>same as <a class="el" href="#ga67770e5a0f61e735f7d0ee98feb063d2">eigens()</a>, but by cyclic Jacobi method: somewhat slower, and precise also for tiny eigenvalues of an ill-conditioned matrix, where <a class="el" href="#ga67770e5a0f61e735f7d0ee98feb063d2">eigens()</a> has the absolute error proportional to the largest eigenvalue </p>
 
 </div>
 </div>

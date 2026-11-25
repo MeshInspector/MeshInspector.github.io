@@ -1,5 +1,7 @@
 var NAVTREEINDEX111 =
 {
+"classstd__optional__MR__PolylineIntersectionResult2.html#af586962bf60a6f81da36ed4b77fdbb59":[9,4,1,0,976,0],
+"classstd__optional__MR__PolylineIntersectionResult2.html#af669fef77a0f04cc6494b3bd6243aa03":[9,4,1,0,976,5],
 "classstd__optional__MR__PolylineIntersectionResult2.html#af8f8b36d97b5c625766d87290b4b62aa":[9,4,1,0,976,2],
 "classstd__optional__MR__SignedDistanceToMeshResult.html":[9,4,1,0,977],
 "classstd__optional__MR__SignedDistanceToMeshResult.html#a2eec8aeec225d55a72116b596fc224d3":[9,4,1,0,977,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX111 =
 "classstd__pair__MR__FaceBitSet__int.html":[9,4,1,0,1030],
 "classstd__pair__MR__FaceBitSet__int.html#a1c0c273ed0421867ad4df2416dcbf33b":[9,4,1,0,1030,7],
 "classstd__pair__MR__FaceBitSet__int.html#a2f7064cd96c468abcde8b4d729bd1dc5":[9,4,1,0,1030,4],
-"classstd__pair__MR__FaceBitSet__int.html#a360b3ec135daa1c377f9c10f1eaa046c":[9,4,1,0,1030,1],
-"classstd__pair__MR__FaceBitSet__int.html#a63bb99b06b4377a1fe304757d40b0735":[9,4,1,0,1030,0],
-"classstd__pair__MR__FaceBitSet__int.html#a9f3d7cac2af761f597c1bf28a0274f19":[9,4,1,0,1030,3]
+"classstd__pair__MR__FaceBitSet__int.html#a360b3ec135daa1c377f9c10f1eaa046c":[9,4,1,0,1030,1]
 };

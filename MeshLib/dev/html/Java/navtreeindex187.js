@@ -1,5 +1,9 @@
 var NAVTREEINDEX187 =
 {
+"classmeshlib_1_1cuda_1_1DeviceInfo.html#a6782fa6bc15306d8aaf9f76eb6975847":[9,6,1,0,0,0,2,17],
+"classmeshlib_1_1cuda_1_1DeviceInfo.html#a761431925dcc81e9cbf41a7caaccc517":[9,6,0,0,0,0,2,13],
+"classmeshlib_1_1cuda_1_1DeviceInfo.html#a761431925dcc81e9cbf41a7caaccc517":[9,6,1,0,0,0,2,13],
+"classmeshlib_1_1cuda_1_1DeviceInfo.html#a76e4fbfb27f9f2711c83bb2e54ef4470":[9,6,0,0,0,0,2,16],
 "classmeshlib_1_1cuda_1_1DeviceInfo.html#a76e4fbfb27f9f2711c83bb2e54ef4470":[9,6,1,0,0,0,2,16],
 "classmeshlib_1_1cuda_1_1DeviceInfo.html#aaaad96980f38e00f2c7b72d4edbb21e3":[9,6,0,0,0,0,2,9],
 "classmeshlib_1_1cuda_1_1DeviceInfo.html#aaaad96980f38e00f2c7b72d4edbb21e3":[9,6,1,0,0,0,2,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX187 =
 "classmeshlib_1_1expected__MR__FaceSoup__std__string.html#a1af0bf74f1787fe5a717ea33354254e6":[9,6,1,0,0,330,6],
 "classmeshlib_1_1expected__MR__FaceSoup__std__string.html#a33ef3bf4021f956b450c54b6de09db78":[9,6,0,0,0,330,1],
 "classmeshlib_1_1expected__MR__FaceSoup__std__string.html#a33ef3bf4021f956b450c54b6de09db78":[9,6,1,0,0,330,1],
-"classmeshlib_1_1expected__MR__FaceSoup__std__string.html#a73b151b53ed087e6eadfb9877cb6117b":[9,6,0,0,0,330,4],
-"classmeshlib_1_1expected__MR__FaceSoup__std__string.html#a73b151b53ed087e6eadfb9877cb6117b":[9,6,1,0,0,330,4],
-"classmeshlib_1_1expected__MR__FaceSoup__std__string.html#a81f5d27d0f0d6097a866e51aa662a221":[9,6,0,0,0,330,7],
-"classmeshlib_1_1expected__MR__FaceSoup__std__string.html#a81f5d27d0f0d6097a866e51aa662a221":[9,6,1,0,0,330,7],
-"classmeshlib_1_1expected__MR__FaceSoup__std__string.html#a88e165fe4b2af840bedcdb7005dea846":[9,6,0,0,0,330,9]
+"classmeshlib_1_1expected__MR__FaceSoup__std__string.html#a73b151b53ed087e6eadfb9877cb6117b":[9,6,0,0,0,330,4]
 };

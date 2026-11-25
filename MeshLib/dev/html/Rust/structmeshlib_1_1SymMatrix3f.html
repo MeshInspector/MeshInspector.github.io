@@ -163,6 +163,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a893f87bc597cbf83b7f834a61a795ea7" id="r_a893f87bc597cbf83b7f834a61a795ea7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a893f87bc597cbf83b7f834a61a795ea7">mul_assign</a> (b:f32) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1SymMatrix3f.html">meshlib::SymMatrix3f</a></td></tr>
 <tr class="memitem:a0f486856e226c37bac8105e413bdd65b" id="r_a0f486856e226c37bac8105e413bdd65b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f486856e226c37bac8105e413bdd65b">div_assign</a> (b:f32) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1SymMatrix3f.html">meshlib::SymMatrix3f</a></td></tr>
 <tr class="memitem:a839d8c10e978ad3aff68552eb126cde4" id="r_a839d8c10e978ad3aff68552eb126cde4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a839d8c10e978ad3aff68552eb126cde4">eigens</a> (eigenvectors:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1Matrix3f.html">meshlib::Matrix3f</a> &gt;) const -&gt; <a class="el" href="structmeshlib_1_1Vector3f.html">meshlib::Vector3f</a></td></tr>
+<tr class="memitem:ac296d38be487a26859c0163b9c4a5c3b" id="r_ac296d38be487a26859c0163b9c4a5c3b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac296d38be487a26859c0163b9c4a5c3b">eigens_jacobi</a> (eigenvectors:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1Matrix3f.html">meshlib::Matrix3f</a> &gt;) const -&gt; <a class="el" href="structmeshlib_1_1Vector3f.html">meshlib::Vector3f</a></td></tr>
 <tr class="memitem:aba4e878e2b99018e60ec2f5f25322584" id="r_aba4e878e2b99018e60ec2f5f25322584"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba4e878e2b99018e60ec2f5f25322584">eigenvector</a> (eigenvalue:f32) const -&gt; <a class="el" href="structmeshlib_1_1Vector3f.html">meshlib::Vector3f</a></td></tr>
 <tr class="memitem:a0e21972dcb38ac36aeb8ea29c72af28c" id="r_a0e21972dcb38ac36aeb8ea29c72af28c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e21972dcb38ac36aeb8ea29c72af28c">pseudoinverse</a> (tol:Option&lt; f32 &gt;, rank:Option&lt;&amp;mut core::ffi::c_int &gt;, space:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1Vector3f.html">meshlib::Vector3f</a> &gt;) const -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1SymMatrix3f.html">meshlib::SymMatrix3f</a> &gt;</td></tr>
 <tr class="memitem:ac13bce1fc1d450724db0baee9425405c" id="r_ac13bce1fc1d450724db0baee9425405c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac13bce1fc1d450724db0baee9425405c">xx</a> () const -&gt; &amp;f32</td></tr>
@@ -345,6 +346,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>returns eigenvalues of the matrix in ascending order (diagonal matrix L), and optionally returns corresponding unit eigenvectors in the rows of orthogonal matrix V, M*V^T = V^T*L; M = V^T*L*V Generated from method <span class="tt">MR::SymMatrix3f::eigens</span>.</p>
 <p>Calls <span class="tt">MR_SymMatrix3f_eigens()</span>. </p>
+
+</div>
+</div>
+<a id="ac296d38be487a26859c0163b9c4a5c3b" name="ac296d38be487a26859c0163b9c4a5c3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac296d38be487a26859c0163b9c4a5c3b">&#9670;&#160;</a></span>eigens_jacobi()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::SymMatrix3f::eigens_jacobi </td>
+          <td>(</td>
+          <td class="paramtype">eigenvectors:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1Matrix3f.html">meshlib::Matrix3f</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  <a class="el" href="structmeshlib_1_1Vector3f.html">meshlib::Vector3f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>same as <a class="el" href="#a839d8c10e978ad3aff68552eb126cde4">eigens()</a>, but by cyclic Jacobi method: somewhat slower, and precise also for tiny eigenvalues of an ill-conditioned matrix, where <a class="el" href="#a839d8c10e978ad3aff68552eb126cde4">eigens()</a> has the absolute error proportional to the largest eigenvalue Generated from method <span class="tt">MR::SymMatrix3f::eigensJacobi</span>.</p>
+<p>Calls <span class="tt">MR_SymMatrix3f_eigensJacobi()</span>. </p>
 
 </div>
 </div>

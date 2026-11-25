@@ -165,6 +165,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae5732d0033800d31dde54e0dbc8a6f61" id="r_ae5732d0033800d31dde54e0dbc8a6f61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1SymMatrix3d.html">meshlib.SymMatrix3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5732d0033800d31dde54e0dbc8a6f61">mul_assign</a> (double b)</td></tr>
 <tr class="memitem:aa54cecb10542bf382d73b670ac705af4" id="r_aa54cecb10542bf382d73b670ac705af4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1SymMatrix3d.html">meshlib.SymMatrix3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa54cecb10542bf382d73b670ac705af4">div_assign</a> (double b)</td></tr>
 <tr class="memitem:a5edc9ba0d7cb66d9e73d2b35a7a6827c" id="r_a5edc9ba0d7cb66d9e73d2b35a7a6827c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1Vector3d.html">meshlib.Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5edc9ba0d7cb66d9e73d2b35a7a6827c">eigens</a> (<a class="el" href="classmeshlib_1_1Matrix3d.html">meshlib.Matrix3d</a> eigenvectors)</td></tr>
+<tr class="memitem:a8cef2f976f9830684d87fbaeb1b8297f" id="r_a8cef2f976f9830684d87fbaeb1b8297f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1Vector3d.html">meshlib.Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cef2f976f9830684d87fbaeb1b8297f">eigensJacobi</a> (<a class="el" href="classmeshlib_1_1Matrix3d.html">meshlib.Matrix3d</a> eigenvectors)</td></tr>
 <tr class="memitem:a6ebbf49abe88de9703b00afbc9a0065f" id="r_a6ebbf49abe88de9703b00afbc9a0065f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1Vector3d.html">meshlib.Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ebbf49abe88de9703b00afbc9a0065f">eigenvector</a> (double eigenvalue)</td></tr>
 <tr class="memitem:aa041642355f7d7143efdc7e6afd520fa" id="r_aa041642355f7d7143efdc7e6afd520fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1SymMatrix3d.html">meshlib.SymMatrix3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa041642355f7d7143efdc7e6afd520fa">pseudoinverse</a> (java.lang.Double tol, <a class="el" href="classmeshlib_1_1int__output.html">meshlib.int_output</a> rank, <a class="el" href="classmeshlib_1_1Vector3d.html">meshlib.Vector3d</a> space)</td></tr>
 <tr class="memitem:a40ba451da6e5a7132b70f89149172950" id="r_a40ba451da6e5a7132b70f89149172950"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40ba451da6e5a7132b70f89149172950">xx</a> ()</td></tr>
@@ -384,6 +385,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>returns eigenvalues of the matrix in ascending order (diagonal matrix L), and optionally returns corresponding unit eigenvectors in the rows of orthogonal matrix V, M*V^T = V^T*L; M = V^T*L*V Generated from method <span class="tt">MR::SymMatrix3d::eigens</span>.</p>
 <p>Calls <span class="tt">MR_SymMatrix3d_eigens()</span>. </p>
+
+</div>
+</div>
+<a id="a8cef2f976f9830684d87fbaeb1b8297f" name="a8cef2f976f9830684d87fbaeb1b8297f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cef2f976f9830684d87fbaeb1b8297f">&#9670;&#160;</a></span>eigensJacobi()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmeshlib_1_1Vector3d.html">meshlib.Vector3d</a> meshlib.SymMatrix3d.eigensJacobi </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1Matrix3d.html">meshlib.Matrix3d</a></td>          <td class="paramname"><span class="paramname"><em>eigenvectors</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>same as <a class="el" href="#a5edc9ba0d7cb66d9e73d2b35a7a6827c">eigens()</a>, but by cyclic Jacobi method: somewhat slower, and precise also for tiny eigenvalues of an ill-conditioned matrix, where <a class="el" href="#a5edc9ba0d7cb66d9e73d2b35a7a6827c">eigens()</a> has the absolute error proportional to the largest eigenvalue Generated from method <span class="tt">MR::SymMatrix3d::eigensJacobi</span>.</p>
+<p>Calls <span class="tt">MR_SymMatrix3d_eigensJacobi()</span>. </p>
 
 </div>
 </div>

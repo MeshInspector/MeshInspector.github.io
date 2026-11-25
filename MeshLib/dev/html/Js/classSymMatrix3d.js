@@ -7,6 +7,7 @@ var classSymMatrix3d =
     [ "det", "classSymMatrix3d.html#aef7c502ddf0037259ca58c281fc15c53", null ],
     [ "div_assign", "classSymMatrix3d.html#adda097746b1803be7b0c90dd7a8dae0a", null ],
     [ "eigens", "classSymMatrix3d.html#afc32ba602c07b4edff83c454774273b5", null ],
+    [ "eigensJacobi", "classSymMatrix3d.html#ab9503ee6fef1cb6547c8203acd776532", null ],
     [ "eigenvector", "classSymMatrix3d.html#a28278c832baa1cda17b13c0db36e8253", null ],
     [ "inverse", "classSymMatrix3d.html#af520a0de496980e67eddeb7dfbfb428c", null ],
     [ "inverse", "classSymMatrix3d.html#a6ac8d12c4bbebe965b5b77a61e3bc2dd", null ],

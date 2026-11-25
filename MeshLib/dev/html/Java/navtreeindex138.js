@@ -1,5 +1,9 @@
 var NAVTREEINDEX138 =
 {
+"classmeshlib_1_1SymMatrix4i64.html#af44cb3d86f61ad57cb5abc8d4dd45d36":[9,6,1,0,0,1529,17],
+"classmeshlib_1_1SymbolMeshParams.html":[9,6,0,0,0,1512],
+"classmeshlib_1_1SymbolMeshParams.html":[9,6,1,0,0,1512],
+"classmeshlib_1_1SymbolMeshParams.html#a1645fcddd9e0f14e902ff456fd825773":[9,6,0,0,0,1512,8],
 "classmeshlib_1_1SymbolMeshParams.html#a1645fcddd9e0f14e902ff456fd825773":[9,6,1,0,0,1512,8],
 "classmeshlib_1_1SymbolMeshParams.html#a16e74026df673bc59fb0a2f9f895c596":[9,6,0,0,0,1512,4],
 "classmeshlib_1_1SymbolMeshParams.html#a16e74026df673bc59fb0a2f9f895c596":[9,6,1,0,0,1512,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX138 =
 "classmeshlib_1_1TextureBitSet.html#a291c042ada4edb0b9ff05c0d7fc6f2f4":[9,6,1,0,0,1538,11],
 "classmeshlib_1_1TextureBitSet.html#a293c1441cd3e586d878799bca95e2681":[9,6,0,0,0,1538,30],
 "classmeshlib_1_1TextureBitSet.html#a293c1441cd3e586d878799bca95e2681":[9,6,1,0,0,1538,30],
-"classmeshlib_1_1TextureBitSet.html#a2945135b5d7ae826c1ea263d50af7441":[9,6,0,0,0,1538,25],
-"classmeshlib_1_1TextureBitSet.html#a2945135b5d7ae826c1ea263d50af7441":[9,6,1,0,0,1538,25],
-"classmeshlib_1_1TextureBitSet.html#a2a5bb1db21a8cf4595b841f758354ea5":[9,6,0,0,0,1538,20],
-"classmeshlib_1_1TextureBitSet.html#a2a5bb1db21a8cf4595b841f758354ea5":[9,6,1,0,0,1538,20],
-"classmeshlib_1_1TextureBitSet.html#a2b664c62e0555dcfc45269bd8a3731c0":[9,6,0,0,0,1538,47]
+"classmeshlib_1_1TextureBitSet.html#a2945135b5d7ae826c1ea263d50af7441":[9,6,0,0,0,1538,25]
 };

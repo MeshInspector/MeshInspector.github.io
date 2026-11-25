@@ -5,6 +5,7 @@ var structMR_1_1SymMatrix3 =
     [ "SymMatrix3", "group__GeneralGroup.html#ga3e599d3e372090b50badd690e36aa677", null ],
     [ "det", "group__GeneralGroup.html#ga2e918619ba379fad0f391438ef143b82", null ],
     [ "eigens", "group__GeneralGroup.html#ga67770e5a0f61e735f7d0ee98feb063d2", null ],
+    [ "eigensJacobi", "group__GeneralGroup.html#gaedb423fe805a978256ea0f57fc56fd9d", null ],
     [ "eigenvector", "group__GeneralGroup.html#gaceb75dc50186b2d1ed1f0f7a98c6123b", null ],
     [ "inverse", "group__GeneralGroup.html#gae429d9d10243a2e9b7e1446ed7235c36", null ],
     [ "inverse", "group__GeneralGroup.html#gaac8fe52f2316a4d0bc9fe09739a230ef", null ],

@@ -5,6 +5,7 @@ var structmeshlib_1_1SymMatrix3f =
     [ "det", "structmeshlib_1_1SymMatrix3f.html#add1f4839ff5d677ffdbb99d51790e59c", null ],
     [ "div_assign", "structmeshlib_1_1SymMatrix3f.html#a0f486856e226c37bac8105e413bdd65b", null ],
     [ "eigens", "structmeshlib_1_1SymMatrix3f.html#a839d8c10e978ad3aff68552eb126cde4", null ],
+    [ "eigens_jacobi", "structmeshlib_1_1SymMatrix3f.html#ac296d38be487a26859c0163b9c4a5c3b", null ],
     [ "eigenvector", "structmeshlib_1_1SymMatrix3f.html#aba4e878e2b99018e60ec2f5f25322584", null ],
     [ "inverse_0", "structmeshlib_1_1SymMatrix3f.html#a33e6d2a33513860833a4a5b1da86563a", null ],
     [ "inverse_1", "structmeshlib_1_1SymMatrix3f.html#a1991ffddc7ea725d01b21ed16a2e6834", null ],

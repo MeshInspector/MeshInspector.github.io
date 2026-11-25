@@ -1,5 +1,7 @@
 var NAVTREEINDEX104 =
 {
+"classMR_1_1Cuda_1_1FastWindingNumber.html#ab3f4bed59eca18e922092769bc817fc6":[9,3,0,0,0,1190,9,7],
+"classMR_1_1Cuda_1_1FastWindingNumber.html#ac301ca70f248d75615e7babb363ecea7":[9,3,0,0,0,1190,9,10],
 "classMR_1_1Cuda_1_1FastWindingNumber.html#acd2f61962da73d68f92625293dc6256d":[9,3,0,0,0,1190,9,0],
 "classMR_1_1Cuda_1_1FastWindingNumber.html#ad116968e77c88d443bd73b1692e83c51":[9,3,0,0,0,1190,9,5],
 "classMR_1_1Cuda_1_1FastWindingNumber.html#afdbe5d5d537d38c07ec4ffe7d7791bab":[9,3,0,0,0,1190,9,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX104 =
 "classMR_1_1DecimateSettings.html#a492c1ffd1bc957984b1d0f955ad47706":[9,3,0,0,0,1204,25],
 "classMR_1_1DecimateSettings.html#a4984b848772dfb665350a9ba3696eec5":[9,3,0,0,0,1204,29],
 "classMR_1_1DecimateSettings.html#a5e9863ef259f30192b2acbc1b3a78ec6":[9,3,0,0,0,1204,35],
-"classMR_1_1DecimateSettings.html#a64b662015397234cf4f4f4813befbeca":[9,3,0,0,0,1204,15],
-"classMR_1_1DecimateSettings.html#a7c571da61f8e47c5b445e4a1cdcb37cd":[9,3,0,0,0,1204,19],
-"classMR_1_1DecimateSettings.html#a7d0f6cbf05458bab4e5eb3e750801de4":[9,3,0,0,0,1204,33]
+"classMR_1_1DecimateSettings.html#a64b662015397234cf4f4f4813befbeca":[9,3,0,0,0,1204,15]
 };

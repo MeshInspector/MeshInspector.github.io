@@ -1,5 +1,9 @@
 var NAVTREEINDEX141 =
 {
+"classmeshlib_1_1Torus3f.html#ad665fce9539184c986a4f385fff07fe3":[9,6,1,0,0,1549,6],
+"classmeshlib_1_1Torus3f.html#af350491bf8cdae049d14101bab8a9341":[9,6,0,0,0,1549,8],
+"classmeshlib_1_1Torus3f.html#af350491bf8cdae049d14101bab8a9341":[9,6,1,0,0,1549,8],
+"classmeshlib_1_1Torus3f.html#af3666f0f8f3d71c4685bb4755554d85a":[9,6,0,0,0,1549,0],
 "classmeshlib_1_1Torus3f.html#af3666f0f8f3d71c4685bb4755554d85a":[9,6,1,0,0,1549,0],
 "classmeshlib_1_1Torus3f.html#afb7b20d8dc4005fdb68795c8c1169ac7":[9,6,0,0,0,1549,2],
 "classmeshlib_1_1Torus3f.html#afb7b20d8dc4005fdb68795c8c1169ac7":[9,6,1,0,0,1549,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX141 =
 "classmeshlib_1_1TriPointd.html#a9bb412b6b49931d9960baf710920cbfc":[9,6,1,0,0,1563,8],
 "classmeshlib_1_1TriPointd.html#afb9313a7cf96756a5ddc8a8dec7d1fff":[9,6,0,0,0,1563,15],
 "classmeshlib_1_1TriPointd.html#afb9313a7cf96756a5ddc8a8dec7d1fff":[9,6,1,0,0,1563,15],
-"classmeshlib_1_1TriPointf.html":[9,6,0,0,0,1564],
-"classmeshlib_1_1TriPointf.html":[9,6,1,0,0,1564],
-"classmeshlib_1_1TriPointf.html#a02509a6f86f7ad46ade5b45c28434282":[9,6,0,0,0,1564,6],
-"classmeshlib_1_1TriPointf.html#a02509a6f86f7ad46ade5b45c28434282":[9,6,1,0,0,1564,6],
-"classmeshlib_1_1TriPointf.html#a0b2589631f1fba89f8cf7689b1bcdc9f":[9,6,0,0,0,1564,14]
+"classmeshlib_1_1TriPointf.html":[9,6,0,0,0,1564]
 };
