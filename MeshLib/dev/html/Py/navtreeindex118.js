@@ -1,5 +1,13 @@
 var NAVTREEINDEX118 =
 {
+"classmrmeshpy_1_1CutAroundVertSetsParams.html":[9,1,0,0,2,1486],
+"classmrmeshpy_1_1CutAroundVertSetsParams.html":[9,1,1,0,1,1486],
+"classmrmeshpy_1_1CutAroundVertSetsParams.html#a11a48cc8286b987118ce19094a8a0525":[9,1,0,0,2,1486,6],
+"classmrmeshpy_1_1CutAroundVertSetsParams.html#a11a48cc8286b987118ce19094a8a0525":[9,1,1,0,1,1486,6],
+"classmrmeshpy_1_1CutAroundVertSetsParams.html#a2a04c4dc08234c13cbc5b76e712dff38":[9,1,0,0,2,1486,7],
+"classmrmeshpy_1_1CutAroundVertSetsParams.html#a2a04c4dc08234c13cbc5b76e712dff38":[9,1,1,0,1,1486,7],
+"classmrmeshpy_1_1CutAroundVertSetsParams.html#a355e3b2eb36713d5e2cf7d886b5c7ef3":[9,1,0,0,2,1486,1],
+"classmrmeshpy_1_1CutAroundVertSetsParams.html#a355e3b2eb36713d5e2cf7d886b5c7ef3":[9,1,1,0,1,1486,1],
 "classmrmeshpy_1_1CutAroundVertSetsParams.html#a771dca7063c060a9ed37aa1a19c3ab94":[9,1,0,0,2,1486,4],
 "classmrmeshpy_1_1CutAroundVertSetsParams.html#a771dca7063c060a9ed37aa1a19c3ab94":[9,1,1,0,1,1486,4],
 "classmrmeshpy_1_1CutAroundVertSetsParams.html#a8125383309b220398ed2bbb22719e78f":[9,1,0,0,2,1486,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX118 =
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a5f665c876adfc8619e51d7dc161be9e3":[9,1,0,0,2,1496,23],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a5f665c876adfc8619e51d7dc161be9e3":[9,1,1,0,1,1496,23],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a605d16579a81d6129ce9b68e0e5abfc1":[9,1,0,0,2,1496,19],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a605d16579a81d6129ce9b68e0e5abfc1":[9,1,1,0,1,1496,19],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a61b6c2f03496640d5bde39ff48696216":[9,1,0,0,2,1496,10],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a61b6c2f03496640d5bde39ff48696216":[9,1,1,0,1,1496,10],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a776da12f482c753a6a9d10d8f49248b0":[9,1,0,0,2,1496,13],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a776da12f482c753a6a9d10d8f49248b0":[9,1,1,0,1,1496,13],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a7ee195836dc417b577d0b8f4131289ea":[9,1,0,0,2,1496,18],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a7ee195836dc417b577d0b8f4131289ea":[9,1,1,0,1,1496,18],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a89381c7a5fb0e0b037956bd9159a2e37":[9,1,0,0,2,1496,9],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a89381c7a5fb0e0b037956bd9159a2e37":[9,1,1,0,1,1496,9]
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a605d16579a81d6129ce9b68e0e5abfc1":[9,1,1,0,1,1496,19]
 };

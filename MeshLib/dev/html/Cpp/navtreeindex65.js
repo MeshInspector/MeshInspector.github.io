@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1Box.html#a15892e58be32abb87c83d3929500dcfd":[9,0,0,0,2,0,1],
+"structMR_1_1Box.html#a1af67d1761b8fd15fa204b39d5f9bd46":[9,0,0,0,2,0,15],
 "structMR_1_1Box.html#a25efa79c9a3710f2c59fac06fb39ad12":[9,0,0,0,2,0,16],
 "structMR_1_1Box.html#a2cfcb26887cd979172fd1831229c8144":[9,0,0,0,2,0,13],
 "structMR_1_1Box.html#a2d9fecc0393e456242b1409f8a6a79f9":[9,0,0,0,2,0,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1EdgeLengthMesh.html":[9,0,0,19,214],
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html":[9,0,0,19,219],
 "structMR_1_1EdgePointPair.html":[9,0,0,19,224],
-"structMR_1_1EdgePointT.html":[9,0,0,19,223],
-"structMR_1_1EdgeSegmentT.html":[9,0,0,19,225],
-"structMR_1_1EdgeTri.html":[9,0,0,1,21]
+"structMR_1_1EdgePointT.html":[9,0,0,19,223]
 };

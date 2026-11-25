@@ -1,5 +1,13 @@
 var NAVTREEINDEX149 =
 {
+"structmeshlib_1_1Vector__MR__BallPivotCandidate.html#a6717bbb3a9d5eab5823de6ff46a6a45a":[9,5,0,0,0,1616,21],
+"structmeshlib_1_1Vector__MR__BallPivotCandidate.html#a6717bbb3a9d5eab5823de6ff46a6a45a":[9,5,1,0,0,1603,21],
+"structmeshlib_1_1Vector__MR__BallPivotCandidate.html#a768566f723a1235d4f17d569aa56367c":[9,5,0,0,0,1616,11],
+"structmeshlib_1_1Vector__MR__BallPivotCandidate.html#a768566f723a1235d4f17d569aa56367c":[9,5,1,0,0,1603,11],
+"structmeshlib_1_1Vector__MR__BallPivotCandidate.html#a77aa40f137d38ed4aff9843f4db91e3d":[9,5,0,0,0,1616,13],
+"structmeshlib_1_1Vector__MR__BallPivotCandidate.html#a77aa40f137d38ed4aff9843f4db91e3d":[9,5,1,0,0,1603,13],
+"structmeshlib_1_1Vector__MR__BallPivotCandidate.html#a78cb69cb8874ef9e32dd2434b2bccdce":[9,5,0,0,0,1616,24],
+"structmeshlib_1_1Vector__MR__BallPivotCandidate.html#a78cb69cb8874ef9e32dd2434b2bccdce":[9,5,1,0,0,1603,24],
 "structmeshlib_1_1Vector__MR__BallPivotCandidate.html#a7e86bb74c457ade5114de67af1d5bcf9":[9,5,0,0,0,1616,0],
 "structmeshlib_1_1Vector__MR__BallPivotCandidate.html#a7e86bb74c457ade5114de67af1d5bcf9":[9,5,1,0,0,1603,0],
 "structmeshlib_1_1Vector__MR__BallPivotCandidate.html#a8154bf729b974ba3ad6569c38e5ef279":[9,5,0,0,0,1616,15],
@@ -241,13 +249,5 @@ var NAVTREEINDEX149 =
 "structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#aa577eaa1ff3f0ecf543eaeb63c135411":[9,5,0,0,0,1619,5],
 "structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#aa577eaa1ff3f0ecf543eaeb63c135411":[9,5,1,0,0,1606,5],
 "structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#ab2608d875c561613750511ade11d1ad1":[9,5,0,0,0,1619,14],
-"structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#ab2608d875c561613750511ade11d1ad1":[9,5,1,0,0,1606,14],
-"structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#abe1933c02356e67cfb10c952bae6326a":[9,5,0,0,0,1619,15],
-"structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#abe1933c02356e67cfb10c952bae6326a":[9,5,1,0,0,1606,15],
-"structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#abe5a1cf197f09cc5508b1fd2c2f97eba":[9,5,0,0,0,1619,25],
-"structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#abe5a1cf197f09cc5508b1fd2c2f97eba":[9,5,1,0,0,1606,25],
-"structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#ac5f6f4ddd55c80e3d6be6d121242f607":[9,5,0,0,0,1619,0],
-"structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#ac5f6f4ddd55c80e3d6be6d121242f607":[9,5,1,0,0,1606,0],
-"structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#ad61739d4afb11f625d4727d212ad1cc0":[9,5,0,0,0,1619,3],
-"structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#ad61739d4afb11f625d4727d212ad1cc0":[9,5,1,0,0,1606,3]
+"structmeshlib_1_1Vector__MR__BoxedLeaf__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#ab2608d875c561613750511ade11d1ad1":[9,5,1,0,0,1606,14]
 };

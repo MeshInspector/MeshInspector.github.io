@@ -1,5 +1,9 @@
 var NAVTREEINDEX107 =
 {
+"classMR_1_1EdgePoint.html#ae5f75fe64f2411d7350e562e7ca200a8":[9,3,0,0,0,1239,9],
+"classMR_1_1EdgePointPair.html":[9,3,0,0,0,1241],
+"classMR_1_1EdgePointPair.html#a005454454f4ed6d066193e1cd2a8dfc4":[9,3,0,0,0,1241,2],
+"classMR_1_1EdgePointPair.html#a0d0faa28373fbd909abafe22f9a159ca":[9,3,0,0,0,1241,3],
 "classMR_1_1EdgePointPair.html#a2ef232149d93cc9e76fbcf22e631a160":[9,3,0,0,0,1241,0],
 "classMR_1_1EdgePointPair.html#a357b63dff2e7c7e5b0c2c8f37a062807":[9,3,0,0,0,1241,6],
 "classMR_1_1EdgePointPair.html#aadd1b597264d83129428b4db78c502f0":[9,3,0,0,0,1241,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX107 =
 "classMR_1_1FaceBitSet.html#af3d7f835cabde18b0e9e309e2c2654ad":[9,3,0,0,0,1256,10],
 "classMR_1_1FaceBitSet.html#af7c30db0ab4e823bb032c508347e4582":[9,3,0,0,0,1256,17],
 "classMR_1_1FaceColorMapAggregator.html":[9,3,0,0,0,1258],
-"classMR_1_1FaceColorMapAggregator.html#a1563299567d6f797d8e499c4c2eebe79":[9,3,0,0,0,1258,13],
-"classMR_1_1FaceColorMapAggregator.html#a2901b56b128a8fe2a6adbb04d4357525":[9,3,0,0,0,1258,9],
-"classMR_1_1FaceColorMapAggregator.html#a2c8eda7cc32120c00680e75d6f688be3":[9,3,0,0,0,1258,10],
-"classMR_1_1FaceColorMapAggregator.html#a3a467aabe6edfaac6ce14228eac6a46e":[9,3,0,0,0,1258,5],
-"classMR_1_1FaceColorMapAggregator.html#a4d960c94bd42c5c55b35291f21f6cd49":[9,3,0,0,0,1258,4]
+"classMR_1_1FaceColorMapAggregator.html#a1563299567d6f797d8e499c4c2eebe79":[9,3,0,0,0,1258,13]
 };

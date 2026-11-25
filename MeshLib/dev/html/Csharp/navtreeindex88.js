@@ -1,5 +1,9 @@
 var NAVTREEINDEX88 =
 {
+"classMR_1_1Const__TriangleSegmentIntersectResult.html#ac3ad793602c34182a643474d6444f2c7":[9,3,0,0,0,931,0],
+"classMR_1_1Const__TriangleSegmentIntersectResult.html#ac4803f516c37e31eac602fc193983888":[9,3,0,0,0,931,1],
+"classMR_1_1Const__TriangleSegmentIntersectResult.html#ada63789126823128a4aa1a3a5987f0c5":[9,3,0,0,0,931,5],
+"classMR_1_1Const__TriangleSegmentIntersectResult.html#adf50ea55aacf20e1cb3056c538999972":[9,3,0,0,0,931,9],
 "classMR_1_1Const__TriangulateHolesParams.html":[9,3,0,0,0,932],
 "classMR_1_1Const__TriangulateHolesParams.html#a0eed3e811249cfcbde84ea98fc81faa2":[9,3,0,0,0,932,8],
 "classMR_1_1Const__TriangulateHolesParams.html#a3750d08f9cb81dc5a0dfba9815891ac0":[9,3,0,0,0,932,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX88 =
 "classMR_1_1Const__UiRenderParams.html#a974e6ae635cbbfa8cf21e8bc6cfb5e04":[9,3,0,0,0,953,12],
 "classMR_1_1Const__UiRenderParams.html#ad6aa54affa08367f439fae04d01ff56c":[9,3,0,0,0,953,6],
 "classMR_1_1Const__UiRenderParams.html#adb1058e161b5e4b69a5fa19178bb906f":[9,3,0,0,0,953,10],
-"classMR_1_1Const__UiRenderParams.html#ae4852596a280281eff4d90966060daeb":[9,3,0,0,0,953,4],
-"classMR_1_1Const__UiRenderParams.html#afeed344b045b2afe7accd804f5aa9bb6":[9,3,0,0,0,953,0],
-"classMR_1_1Const__UndirEdgeColorMapAggregator.html":[9,3,0,0,0,963],
-"classMR_1_1Const__UndirEdgeColorMapAggregator.html#a443958c4c21c753228e1993a11878b81":[9,3,0,0,0,963,1],
-"classMR_1_1Const__UndirEdgeColorMapAggregator.html#a489bb94861bd329455f5abe7d5276b2a":[9,3,0,0,0,963,5]
+"classMR_1_1Const__UiRenderParams.html#ae4852596a280281eff4d90966060daeb":[9,3,0,0,0,953,4]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX236 =
 {
+"classmeshlib_1_1std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomie599cb3929156a943265afee63da30aa.html#af2d04bdcd15a2beb09855629e13719b3":[9,6,1,0,0,1299,32],
+"classmeshlib_1_1std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomie599cb3929156a943265afee63da30aa.html#affe409a0a9b1d7a7aba227fcb06588a9":[9,6,0,0,0,1299,7],
+"classmeshlib_1_1std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomie599cb3929156a943265afee63da30aa.html#affe409a0a9b1d7a7aba227fcb06588a9":[9,6,1,0,0,1299,7],
+"classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html":[9,6,0,0,0,1300],
+"classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html":[9,6,1,0,0,1300],
+"classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#a04d1f5601e0e2e0be9cc67c0d208590a":[9,6,0,0,0,1300,22],
+"classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#a04d1f5601e0e2e0be9cc67c0d208590a":[9,6,1,0,0,1300,22],
+"classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#a0809822d827333dcd46d397c7720f8dc":[9,6,0,0,0,1300,27],
 "classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#a0809822d827333dcd46d397c7720f8dc":[9,6,1,0,0,1300,27],
 "classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#a0cde2f20349611d7c5ab8b41e9314ec9":[9,6,0,0,0,1300,16],
 "classmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial144e477f944c7027e8cef28cf0d801cf.html#a0cde2f20349611d7c5ab8b41e9314ec9":[9,6,1,0,0,1300,16],
@@ -241,13 +249,5 @@ var NAVTREEINDEX236 =
 "classmeshlib_1_1std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty.html#a6ab4c003680f14e145de1243fd9c9fbd":[9,6,1,0,0,1295,8],
 "classmeshlib_1_1std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty.html#a6c5b751e57a99fa6cb2192696c808b3f":[9,6,0,0,0,1295,9],
 "classmeshlib_1_1std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty.html#a6c5b751e57a99fa6cb2192696c808b3f":[9,6,1,0,0,1295,9],
-"classmeshlib_1_1std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty.html#a70370e49ef7d8ea5f0a332b679af3412":[9,6,0,0,0,1295,0],
-"classmeshlib_1_1std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty.html#a70370e49ef7d8ea5f0a332b679af3412":[9,6,1,0,0,1295,0],
-"classmeshlib_1_1std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty.html#a768854c5f85ab1bd82c3ead736186db2":[9,6,0,0,0,1295,24],
-"classmeshlib_1_1std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty.html#a768854c5f85ab1bd82c3ead736186db2":[9,6,1,0,0,1295,24],
-"classmeshlib_1_1std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty.html#a8b74ef2ca5d7fb239ee16a9fa0557ed5":[9,6,0,0,0,1295,16],
-"classmeshlib_1_1std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty.html#a8b74ef2ca5d7fb239ee16a9fa0557ed5":[9,6,1,0,0,1295,16],
-"classmeshlib_1_1std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty.html#a8c534bc1b06dc81098f9b8a944fb1d40":[9,6,0,0,0,1295,11],
-"classmeshlib_1_1std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty.html#a8c534bc1b06dc81098f9b8a944fb1d40":[9,6,1,0,0,1295,11],
-"classmeshlib_1_1std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty.html#a95c7469bca237c60042902d52ef80eda":[9,6,0,0,0,1295,5]
+"classmeshlib_1_1std__variant__int__float__bool__std__string__MR__Pdf__Cell__Empty.html#a70370e49ef7d8ea5f0a332b679af3412":[9,6,0,0,0,1295,0]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX156 =
 {
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#ad67938a32c0ae6f0f5ac7d2804d08dc6":[9,1,0,0,2,1903,1,1],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#ad67938a32c0ae6f0f5ac7d2804d08dc6":[9,1,1,0,1,1903,1,1],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#ae5ce7fb3a374f088654a2a25ef507f71":[9,1,0,0,2,1903,1,12],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#ae5ce7fb3a374f088654a2a25ef507f71":[9,1,1,0,1,1903,1,12],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#ae9d82d9b29ae8eca9501357b961583a8":[9,1,0,0,2,1903,1,2],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#ae9d82d9b29ae8eca9501357b961583a8":[9,1,1,0,1,1903,1,2],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#aee39663443f58d42c77bfe828aeb6090":[9,1,0,0,2,1903,1,13],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#aee39663443f58d42c77bfe828aeb6090":[9,1,1,0,1,1903,1,13],
 "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#af298623283f8c071c7a5895272477b32":[9,1,0,0,2,1903,1,19],
 "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#af298623283f8c071c7a5895272477b32":[9,1,1,0,1,1903,1,19],
 "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#afe1ecda453d1d6aecf03d9a5e7607054":[9,1,0,0,2,1903,1,16],
@@ -241,13 +249,5 @@ var NAVTREEINDEX156 =
 "classmrmeshpy_1_1Nesting_1_1SequentialNester.html#a1e2bb04b1af89c652247fa33734a8c91":[9,1,0,0,2,1903,19,0],
 "classmrmeshpy_1_1Nesting_1_1SequentialNester.html#a1e2bb04b1af89c652247fa33734a8c91":[9,1,1,0,1,1903,19,0],
 "classmrmeshpy_1_1Nesting_1_1SequentialNester.html#a7b2326c100d76903650f4999329759ff":[9,1,0,0,2,1903,19,1],
-"classmrmeshpy_1_1Nesting_1_1SequentialNester.html#a7b2326c100d76903650f4999329759ff":[9,1,1,0,1,1903,19,1],
-"classmrmeshpy_1_1Nesting_1_1SequentialNester.html#aa8715e7134c697a2088fde83cb510946":[9,1,0,0,2,1903,19,3],
-"classmrmeshpy_1_1Nesting_1_1SequentialNester.html#aa8715e7134c697a2088fde83cb510946":[9,1,1,0,1,1903,19,3],
-"classmrmeshpy_1_1Nesting_1_1SequentialNester.html#ab24b68ade8a1935c89c3556a9efa00bd":[9,1,0,0,2,1903,19,2],
-"classmrmeshpy_1_1Nesting_1_1SequentialNester.html#ab24b68ade8a1935c89c3556a9efa00bd":[9,1,1,0,1,1903,19,2],
-"classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html":[9,1,0,0,2,1903,20],
-"classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html":[9,1,1,0,1,1903,20],
-"classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#a08f2c72f7518fd4518b09bf779b74948":[9,1,0,0,2,1903,20,14],
-"classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#a08f2c72f7518fd4518b09bf779b74948":[9,1,1,0,1,1903,20,14]
+"classmrmeshpy_1_1Nesting_1_1SequentialNester.html#a7b2326c100d76903650f4999329759ff":[9,1,1,0,1,1903,19,1]
 };

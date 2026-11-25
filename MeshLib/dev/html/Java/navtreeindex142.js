@@ -1,5 +1,13 @@
 var NAVTREEINDEX142 =
 {
+"classmeshlib_1_1TriTriDistanceParams__float.html#ae9bb9495d1289dc391bc129dad1c0be5":[9,6,1,0,0,1556,1],
+"classmeshlib_1_1TriTriDistanceResult__double.html":[9,6,0,0,0,1557],
+"classmeshlib_1_1TriTriDistanceResult__double.html":[9,6,1,0,0,1557],
+"classmeshlib_1_1TriTriDistanceResult__double.html#a27680982b322f0e657798f072488094a":[9,6,0,0,0,1557,13],
+"classmeshlib_1_1TriTriDistanceResult__double.html#a27680982b322f0e657798f072488094a":[9,6,1,0,0,1557,13],
+"classmeshlib_1_1TriTriDistanceResult__double.html#a2cc320daabafb1c95d936eb8327c24cf":[9,6,0,0,0,1557,10],
+"classmeshlib_1_1TriTriDistanceResult__double.html#a2cc320daabafb1c95d936eb8327c24cf":[9,6,1,0,0,1557,10],
+"classmeshlib_1_1TriTriDistanceResult__double.html#a2de4a93bd5ae4b487915f55351d4b88c":[9,6,0,0,0,1557,8],
 "classmeshlib_1_1TriTriDistanceResult__double.html#a2de4a93bd5ae4b487915f55351d4b88c":[9,6,1,0,0,1557,8],
 "classmeshlib_1_1TriTriDistanceResult__double.html#a38329a0579e9f4149dd206be23c67b31":[9,6,0,0,0,1557,11],
 "classmeshlib_1_1TriTriDistanceResult__double.html#a38329a0579e9f4149dd206be23c67b31":[9,6,1,0,0,1557,11],
@@ -241,13 +249,5 @@ var NAVTREEINDEX142 =
 "classmeshlib_1_1TriangulationParameters.html#af5c50e5f0f1804082ec1901d9ea28a4a":[9,6,1,0,0,1546,15],
 "classmeshlib_1_1TriangulationParameters.html#af8132431d242a2b327472f837632108b":[9,6,0,0,0,1546,2],
 "classmeshlib_1_1TriangulationParameters.html#af8132431d242a2b327472f837632108b":[9,6,1,0,0,1546,2],
-"classmeshlib_1_1TrimOptionalOutput.html":[9,6,0,0,0,1551],
-"classmeshlib_1_1TrimOptionalOutput.html":[9,6,1,0,0,1551],
-"classmeshlib_1_1TrimOptionalOutput.html#a1d2e8d6e53c0d6d14941f11707e5c9de":[9,6,0,0,0,1551,7],
-"classmeshlib_1_1TrimOptionalOutput.html#a1d2e8d6e53c0d6d14941f11707e5c9de":[9,6,1,0,0,1551,7],
-"classmeshlib_1_1TrimOptionalOutput.html#a2413798d817494a25dc23d7db6b337df":[9,6,0,0,0,1551,4],
-"classmeshlib_1_1TrimOptionalOutput.html#a2413798d817494a25dc23d7db6b337df":[9,6,1,0,0,1551,4],
-"classmeshlib_1_1TrimOptionalOutput.html#a2a7c26bac40f840349c712960b7e2074":[9,6,0,0,0,1551,5],
-"classmeshlib_1_1TrimOptionalOutput.html#a2a7c26bac40f840349c712960b7e2074":[9,6,1,0,0,1551,5],
-"classmeshlib_1_1TrimOptionalOutput.html#a36f0778bbb5a31efb10328f845dd0517":[9,6,0,0,0,1551,12]
+"classmeshlib_1_1TrimOptionalOutput.html":[9,6,0,0,0,1551]
 };

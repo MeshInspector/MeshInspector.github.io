@@ -1,5 +1,13 @@
 var NAVTREEINDEX207 =
 {
+"classmeshlib_1_1selfintersections_1_1Settings__Method.html#aa238ea0f535b8e99307a910b2f0407c2":[9,6,1,0,0,32,2,4],
+"classmeshlib_1_1selfintersections_1_1Settings__Method.html#ab5bd1c5b88605f10c65a8bbc0a2691ca":[9,6,0,0,0,32,2,0],
+"classmeshlib_1_1selfintersections_1_1Settings__Method.html#ab5bd1c5b88605f10c65a8bbc0a2691ca":[9,6,1,0,0,32,2,0],
+"classmeshlib_1_1selfintersections_1_1Settings__Method.html#ae3b2e9a2e5afbe95f340d6a3a945150f":[9,6,0,0,0,32,2,3],
+"classmeshlib_1_1selfintersections_1_1Settings__Method.html#ae3b2e9a2e5afbe95f340d6a3a945150f":[9,6,1,0,0,32,2,3],
+"classmeshlib_1_1std__array__MR__AffineXf3d__4.html":[9,6,0,0,0,980],
+"classmeshlib_1_1std__array__MR__AffineXf3d__4.html":[9,6,1,0,0,980],
+"classmeshlib_1_1std__array__MR__AffineXf3d__4.html#a566efff472930c41e9880031dda53b53":[9,6,0,0,0,980,4],
 "classmeshlib_1_1std__array__MR__AffineXf3d__4.html#a566efff472930c41e9880031dda53b53":[9,6,1,0,0,980,4],
 "classmeshlib_1_1std__array__MR__AffineXf3d__4.html#a99bf6c1d0bfe06984f606f5e7c40fa2a":[9,6,0,0,0,980,2],
 "classmeshlib_1_1std__array__MR__AffineXf3d__4.html#a99bf6c1d0bfe06984f606f5e7c40fa2a":[9,6,1,0,0,980,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX207 =
 "classmeshlib_1_1std__array__MR__Vector3d__3.html#ab64e8cdbbdffcda7c174fd93977c954d":[9,6,1,0,0,992,3],
 "classmeshlib_1_1std__array__MR__Vector3d__3.html#ac6fd7a8f9659b8bd8a28426fc34b857f":[9,6,0,0,0,992,0],
 "classmeshlib_1_1std__array__MR__Vector3d__3.html#ac6fd7a8f9659b8bd8a28426fc34b857f":[9,6,1,0,0,992,0],
-"classmeshlib_1_1std__array__MR__Vector3d__3.html#aec5558bd29f12235c835ec065aad4ded":[9,6,0,0,0,992,2],
-"classmeshlib_1_1std__array__MR__Vector3d__3.html#aec5558bd29f12235c835ec065aad4ded":[9,6,1,0,0,992,2],
-"classmeshlib_1_1std__array__MR__Vector3f__3.html":[9,6,0,0,0,993],
-"classmeshlib_1_1std__array__MR__Vector3f__3.html":[9,6,1,0,0,993],
-"classmeshlib_1_1std__array__MR__Vector3f__3.html#a28def8e8c8ba001f7a2ed267503d3b45":[9,6,0,0,0,993,1],
-"classmeshlib_1_1std__array__MR__Vector3f__3.html#a28def8e8c8ba001f7a2ed267503d3b45":[9,6,1,0,0,993,1],
-"classmeshlib_1_1std__array__MR__Vector3f__3.html#a5696e0fe311cd8aef21f908ade46ceff":[9,6,0,0,0,993,5],
-"classmeshlib_1_1std__array__MR__Vector3f__3.html#a5696e0fe311cd8aef21f908ade46ceff":[9,6,1,0,0,993,5],
-"classmeshlib_1_1std__array__MR__Vector3f__3.html#a5e4112b27bb26d3b1d8ad2f15896595f":[9,6,0,0,0,993,0]
+"classmeshlib_1_1std__array__MR__Vector3d__3.html#aec5558bd29f12235c835ec065aad4ded":[9,6,0,0,0,992,2]
 };

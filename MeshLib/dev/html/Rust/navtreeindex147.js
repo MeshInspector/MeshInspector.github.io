@@ -1,5 +1,13 @@
 var NAVTREEINDEX147 =
 {
+"structmeshlib_1_1Vector4i.html#abd0be0fbe097f58f89e93fb3f60cb110":[9,5,0,0,0,1598,5],
+"structmeshlib_1_1Vector4i.html#abd0be0fbe097f58f89e93fb3f60cb110":[9,5,1,0,0,1585,5],
+"structmeshlib_1_1Vector4i.html#ad379a3fb0b7418d029fc48189c69958a":[9,5,0,0,0,1598,7],
+"structmeshlib_1_1Vector4i.html#ad379a3fb0b7418d029fc48189c69958a":[9,5,1,0,0,1585,7],
+"structmeshlib_1_1Vector4i.html#ae811e2508cf776154c2447df0087ed84":[9,5,0,0,0,1598,4],
+"structmeshlib_1_1Vector4i.html#ae811e2508cf776154c2447df0087ed84":[9,5,1,0,0,1585,4],
+"structmeshlib_1_1Vector4i.html#af3991f66250638420a58d41136988079":[9,5,0,0,0,1598,1],
+"structmeshlib_1_1Vector4i.html#af3991f66250638420a58d41136988079":[9,5,1,0,0,1585,1],
 "structmeshlib_1_1Vector4i64.html":[9,5,0,0,0,1599],
 "structmeshlib_1_1Vector4i64.html":[9,5,1,0,0,1586],
 "structmeshlib_1_1Vector4i64.html#a06de244a6ef0e39486dc316899029276":[9,5,0,0,0,1599,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX147 =
 "structmeshlib_1_1Vector__MR__AABBTreeNode__MR__ObjTreeTraits__MR__NodeId.html#af9710fe3af8c74dfdc63bfe6ae701c70":[9,5,0,0,0,1612,3],
 "structmeshlib_1_1Vector__MR__AABBTreeNode__MR__ObjTreeTraits__MR__NodeId.html#af9710fe3af8c74dfdc63bfe6ae701c70":[9,5,1,0,0,1599,3],
 "structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html":[9,5,0,0,0,1613],
-"structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html":[9,5,1,0,0,1600],
-"structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a11529a83d3c2490883ed768d067a1db0":[9,5,0,0,0,1613,30],
-"structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a11529a83d3c2490883ed768d067a1db0":[9,5,1,0,0,1600,30],
-"structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a1fe5dbbda1495548c921e53a663ff473":[9,5,0,0,0,1613,24],
-"structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a1fe5dbbda1495548c921e53a663ff473":[9,5,1,0,0,1600,24],
-"structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a2e301c2fe3b6111571a6846c1a50711c":[9,5,0,0,0,1613,13],
-"structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a2e301c2fe3b6111571a6846c1a50711c":[9,5,1,0,0,1600,13],
-"structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a3358ab06bb0a012e9fcda19e30d79766":[9,5,0,0,0,1613,19],
-"structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html#a3358ab06bb0a012e9fcda19e30d79766":[9,5,1,0,0,1600,19]
+"structmeshlib_1_1Vector__MR__AABBTreeWideLeafTri.html":[9,5,1,0,0,1600]
 };

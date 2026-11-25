@@ -152,7 +152,9 @@ $(function(){initNavTree('classmrmeshpy_1_1ConstSymMatrix4d.html','','classmrmes
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a65f23b04ac33eba5e4cc667ad4b3ea6a" id="r_a65f23b04ac33eba5e4cc667ad4b3ea6a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65f23b04ac33eba5e4cc667ad4b3ea6a">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:ad7231ec0c3d4b74d8736d04f8c2a9970" id="r_ad7231ec0c3d4b74d8736d04f8c2a9970"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector4d.html">Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7231ec0c3d4b74d8736d04f8c2a9970">eigens</a> (self, <a class="el" href="classmrmeshpy_1_1Matrix4d.html">Matrix4d</a> eigenvectors=None)</td></tr>
 <tr class="memitem:ac31357c82284e887633fb1dea2135d8e" id="r_ac31357c82284e887633fb1dea2135d8e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac31357c82284e887633fb1dea2135d8e">normSq</a> (self)</td></tr>
+<tr class="memitem:ab5c7e78f30e7c21ecfaf9c90d4c8fa24" id="r_ab5c7e78f30e7c21ecfaf9c90d4c8fa24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1SymMatrix4d.html">SymMatrix4d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5c7e78f30e7c21ecfaf9c90d4c8fa24">pseudoinverse</a> (self, float tol='std::numeric_limits&lt; double &gt;::epsilon()', <a class="el" href="classmrmeshpy_1_1int__output.html">int_output</a> rank=None)</td></tr>
 <tr class="memitem:aa1b45c6b0acfcdf9b9fad7a86b882428" id="r_aa1b45c6b0acfcdf9b9fad7a86b882428"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1b45c6b0acfcdf9b9fad7a86b882428">trace</a> (self)</td></tr>
 <tr class="memitem:aab63fe89d807f3f1319657a9da7cf60a" id="r_aab63fe89d807f3f1319657a9da7cf60a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab63fe89d807f3f1319657a9da7cf60a">ww</a> (self)</td></tr>
 <tr class="memitem:a50ed78fda6d1aeb5b903f9544b59a97c" id="r_a50ed78fda6d1aeb5b903f9544b59a97c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50ed78fda6d1aeb5b903f9544b59a97c">xw</a> (self)</td></tr>
@@ -311,6 +313,30 @@ Implicit copy constructor.
 
 </div>
 </div>
+<a id="ad7231ec0c3d4b74d8736d04f8c2a9970" name="ad7231ec0c3d4b74d8736d04f8c2a9970"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7231ec0c3d4b74d8736d04f8c2a9970">&#9670;&#160;</a></span>eigens()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Vector4d.html">Vector4d</a> mrmeshpy.ConstSymMatrix4d.eigens </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Matrix4d.html">Matrix4d</a> </td>          <td class="paramname"><span class="paramname"><em>eigenvectors</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns eigenvalues of the matrix in ascending order (diagonal matrix L), and
+optionally returns corresponding unit eigenvectors in the rows of orthogonal matrix V,
+M*V^T = V^T*L; M = V^T*L*V
+</pre> 
+</div>
+</div>
 <a id="ac44e5d9103177f6544acabaaaff55596" name="ac44e5d9103177f6544acabaaaff55596"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac44e5d9103177f6544acabaaaff55596">&#9670;&#160;</a></span>identity()</h2>
 
@@ -351,6 +377,36 @@ Implicit copy constructor.
       </table>
 </div><div class="memdoc">
 <pre class="fragment">computes the squared norm of the matrix, which is equal to the sum of 16 squared elements
+</pre> 
+</div>
+</div>
+<a id="ab5c7e78f30e7c21ecfaf9c90d4c8fa24" name="ab5c7e78f30e7c21ecfaf9c90d4c8fa24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5c7e78f30e7c21ecfaf9c90d4c8fa24">&#9670;&#160;</a></span>pseudoinverse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1SymMatrix4d.html">SymMatrix4d</a> mrmeshpy.ConstSymMatrix4d.pseudoinverse </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float </td>          <td class="paramname"><span class="paramname"><em>tol</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'std::numeric_limits&lt;double&gt;::epsilon()'</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1int__output.html">int_output</a> </td>          <td class="paramname"><span class="paramname"><em>rank</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">for not-degenerate matrix returns just inverse matrix, otherwise
+returns degenerate matrix, which performs inversion on not-kernel subspace;
+\\param tol relative epsilon-tolerance for too small number detection
+\\param rank optional output for this matrix rank according to given tolerance
 </pre> 
 </div>
 </div>

@@ -1,5 +1,13 @@
 var NAVTREEINDEX276 =
 {
+"interfacemeshlib_1_1std__function__void__from__MR__VertId_1_1Fn.html#a70b73d69cbfa62aa526c3a75daaa513e":[9,6,0,0,0,1081,0,0],
+"interfacemeshlib_1_1std__function__void__from__MR__VertId_1_1Fn.html#a70b73d69cbfa62aa526c3a75daaa513e":[9,6,1,0,0,1081,0,0],
+"interfacemeshlib_1_1std__function__void__from__MR__VertId__const__MR__Vector3f__ref_1_1Fn.html":[9,6,0,0,0,1082,0],
+"interfacemeshlib_1_1std__function__void__from__MR__VertId__const__MR__Vector3f__ref_1_1Fn.html":[9,6,1,0,0,1082,0],
+"interfacemeshlib_1_1std__function__void__from__MR__VertId__const__MR__Vector3f__ref_1_1Fn.html#a1c7f5a6a42c43a90a9a30e34eee18ced":[9,6,0,0,0,1082,0,0],
+"interfacemeshlib_1_1std__function__void__from__MR__VertId__const__MR__Vector3f__ref_1_1Fn.html#a1c7f5a6a42c43a90a9a30e34eee18ced":[9,6,1,0,0,1082,0,0],
+"interfacemeshlib_1_1std__function__void__from__const__MR__EdgePoint__ref_1_1Fn.html":[9,6,0,0,0,1059,0],
+"interfacemeshlib_1_1std__function__void__from__const__MR__EdgePoint__ref_1_1Fn.html":[9,6,1,0,0,1059,0],
 "interfacemeshlib_1_1std__function__void__from__const__MR__EdgePoint__ref_1_1Fn.html#a39373638dedc3fdd600f18482139f141":[9,6,0,0,0,1059,0,0],
 "interfacemeshlib_1_1std__function__void__from__const__MR__EdgePoint__ref_1_1Fn.html#a39373638dedc3fdd600f18482139f141":[9,6,1,0,0,1059,0,0],
 "interfacemeshlib_1_1std__function__void__from__const__MR__Features__SubfeatureInfo__ref_1_1Fn.html":[9,6,0,0,0,1060,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX276 =
 "std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__ref_8java.html":[9,6,2,0,0,1,0,0,1061],
 "std__function__void__from__const__std__filesystem__path__ref_8java.html":[9,6,2,0,0,1,0,0,1062],
 "std__function__void__from__const__std__variant__float__MR__Vector3f__ref__MR__FeatureObject__ptr__MR__ViewportId_8java.html":[9,6,2,0,0,1,0,0,1063],
-"std__function__void__from__int_8java.html":[9,6,2,0,0,1,0,0,1064],
-"std__istream_8java.html":[9,6,2,0,0,1,0,0,1083],
-"std__optional__MR__AffineXf3f_8java.html":[9,6,2,0,0,1,0,0,1086],
-"std__optional__MR__AllLocalTriangulations_8java.html":[9,6,2,0,0,1,0,0,1087],
-"std__optional__MR__Box1f_8java.html":[9,6,2,0,0,1,0,0,1088],
-"std__optional__MR__Box3f_8java.html":[9,6,2,0,0,1,0,0,1089],
-"std__optional__MR__Color_8java.html":[9,6,2,0,0,1,0,0,1090],
-"std__optional__MR__DentalId_8java.html":[9,6,2,0,0,1,0,0,1091],
-"std__optional__MR__DimensionsVisualizePropertyType_8java.html":[9,6,2,0,0,1,0,0,1092]
+"std__function__void__from__int_8java.html":[9,6,2,0,0,1,0,0,1064]
 };

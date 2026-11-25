@@ -1,5 +1,9 @@
 var NAVTREEINDEX159 =
 {
+"std__optional__MR__Color_8h_source.html":[9,2,2,0,0,0,0,2,217],
+"std__optional__MR__DentalId_8h.html":[9,2,2,0,0,0,0,2,218],
+"std__optional__MR__DentalId_8h.html#a0cb575c3a7a6c498597f31f58abb4053":[9,2,2,0,0,0,0,2,218,6],
+"std__optional__MR__DentalId_8h.html#a2ef1f290c904a8e51dafa9b52c43bcf2":[9,2,2,0,0,0,0,2,218,9],
 "std__optional__MR__DentalId_8h.html#a70e90e25000fe83f068e20390c444a01":[9,2,2,0,0,0,0,2,218,1],
 "std__optional__MR__DentalId_8h.html#a767e86332b6a2186f3165682f5e6b2d7":[9,2,2,0,0,0,0,2,218,12],
 "std__optional__MR__DentalId_8h.html#a7d4a8b5b0b534e30d35f223682683dbe":[9,2,2,0,0,0,0,2,218,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX159 =
 "std__optional__MR__PointCloud_8h.html#aa382ce7bf2cacc1101ff4e8064e37bf3":[9,2,2,0,0,0,0,2,234,2],
 "std__optional__MR__PointCloud_8h.html#aa77f6c605e7fb6ff4b6196fec4ca7cad":[9,2,2,0,0,0,0,2,234,3],
 "std__optional__MR__PointCloud_8h.html#acfe5917ed8cc98c36570e5feed059a98":[9,2,2,0,0,0,0,2,234,11],
-"std__optional__MR__PointCloud_8h.html#ad0bf2f00b1d91b5be4387eff22339e32":[9,2,2,0,0,0,0,2,234,4],
-"std__optional__MR__PointCloud_8h.html#ae841f6c23349a4c298e34abd4c887e37":[9,2,2,0,0,0,0,2,234,6],
-"std__optional__MR__PointCloud_8h_source.html":[9,2,2,0,0,0,0,2,234],
-"std__optional__MR__PolylineIntersectionResult2_8h.html":[9,2,2,0,0,0,0,2,235],
-"std__optional__MR__PolylineIntersectionResult2_8h.html#a07020298ec1bdf81d71f8b27a3484d46":[9,2,2,0,0,0,0,2,235,11]
+"std__optional__MR__PointCloud_8h.html#ad0bf2f00b1d91b5be4387eff22339e32":[9,2,2,0,0,0,0,2,234,4]
 };

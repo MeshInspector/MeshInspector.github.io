@@ -1,5 +1,9 @@
 var NAVTREEINDEX144 =
 {
+"expected__MR__CurveFunc__std__string_8h.html#a85989ee549c689244ca6b1f23a0326ee":[9,2,2,0,0,0,0,2,5,7],
+"expected__MR__CurveFunc__std__string_8h.html#ab03d29b047520b38c7cf8173a8986b02":[9,2,2,0,0,0,0,2,5,2],
+"expected__MR__CurveFunc__std__string_8h.html#ab773f9940a6e80b902d6d013b7abd2f1":[9,2,2,0,0,0,0,2,5,0],
+"expected__MR__CurveFunc__std__string_8h.html#ab9806e3068615e599d609e3ad63bdfff":[9,2,2,0,0,0,0,2,5,10],
 "expected__MR__CurveFunc__std__string_8h.html#abc2c98c3cd11a14a4a4d1f9c5929dca5":[9,2,2,0,0,0,0,2,5,5],
 "expected__MR__CurveFunc__std__string_8h.html#ac1bacb4b5726707886b497812f35efad":[9,2,2,0,0,0,0,2,5,12],
 "expected__MR__CurveFunc__std__string_8h.html#aed0d36c692d134af31807436bc1f4987":[9,2,2,0,0,0,0,2,5,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX144 =
 "expected__MR__ObjectLines__std__string_8h.html#a5701d52ec2f4fc38b24ebee2eee234b9":[9,2,2,0,0,0,0,2,21,9],
 "expected__MR__ObjectLines__std__string_8h.html#a6192c5f68476922a70d01ffdb7b6e731":[9,2,2,0,0,0,0,2,21,0],
 "expected__MR__ObjectLines__std__string_8h.html#a715de7e334b8ada1134ad7a868c445b6":[9,2,2,0,0,0,0,2,21,8],
-"expected__MR__ObjectLines__std__string_8h.html#a85c02b8673f78b72e2879b408d55347d":[9,2,2,0,0,0,0,2,21,5],
-"expected__MR__ObjectLines__std__string_8h.html#a9524572747ec9bd42769f5cc2ceaab94":[9,2,2,0,0,0,0,2,21,7],
-"expected__MR__ObjectLines__std__string_8h.html#aa237c7dc7fde464d3def7ecc23d7044a":[9,2,2,0,0,0,0,2,21,6],
-"expected__MR__ObjectLines__std__string_8h.html#abb554c47cbf5a51975433b05e47b7fae":[9,2,2,0,0,0,0,2,21,3],
-"expected__MR__ObjectLines__std__string_8h.html#afcf6345943c674f110e42f5a49c0d706":[9,2,2,0,0,0,0,2,21,10]
+"expected__MR__ObjectLines__std__string_8h.html#a85c02b8673f78b72e2879b408d55347d":[9,2,2,0,0,0,0,2,21,5]
 };

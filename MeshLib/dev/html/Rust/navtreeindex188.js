@@ -1,5 +1,13 @@
 var NAVTREEINDEX188 =
 {
+"structmeshlib_1_1nesting_1_1BoxNestingCorner.html#ab0998430381858b288250748468ddd57":[9,5,0,0,0,19,0,0],
+"structmeshlib_1_1nesting_1_1BoxNestingCorner.html#ab0998430381858b288250748468ddd57":[9,5,1,0,0,8,0,0],
+"structmeshlib_1_1nesting_1_1BoxNestingCorner.html#adee42c39e1796474da577c7ae1d53756":[9,5,0,0,0,19,0,1],
+"structmeshlib_1_1nesting_1_1BoxNestingCorner.html#adee42c39e1796474da577c7ae1d53756":[9,5,1,0,0,8,0,1],
+"structmeshlib_1_1nesting_1_1BoxNestingCorner.html#af0964342eac8d44151e906bacb6683c6":[9,5,0,0,0,19,0,5],
+"structmeshlib_1_1nesting_1_1BoxNestingCorner.html#af0964342eac8d44151e906bacb6683c6":[9,5,1,0,0,8,0,5],
+"structmeshlib_1_1nesting_1_1BoxNestingOptions.html":[9,5,0,0,0,19,1],
+"structmeshlib_1_1nesting_1_1BoxNestingOptions.html":[9,5,1,0,0,8,1],
 "structmeshlib_1_1nesting_1_1BoxNestingOptions.html#a072440ec17fd2c7a9bcae5bf23fcc71a":[9,5,0,0,0,19,1,19],
 "structmeshlib_1_1nesting_1_1BoxNestingOptions.html#a072440ec17fd2c7a9bcae5bf23fcc71a":[9,5,1,0,0,8,1,19],
 "structmeshlib_1_1nesting_1_1BoxNestingOptions.html#a348f9a9f603be30406955e6fa6d6e137":[9,5,0,0,0,19,1,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX188 =
 "structmeshlib_1_1nesting_1_1TetrisDensifyParams.html#a82b7137f3f1c87f6bf0629d7aa109d27":[9,5,0,0,0,19,10,6],
 "structmeshlib_1_1nesting_1_1TetrisDensifyParams.html#a82b7137f3f1c87f6bf0629d7aa109d27":[9,5,1,0,0,8,10,6],
 "structmeshlib_1_1nesting_1_1TetrisDensifyParams.html#a9a817dfac9007cb9a6a7ead04df1c960":[9,5,0,0,0,19,10,5],
-"structmeshlib_1_1nesting_1_1TetrisDensifyParams.html#a9a817dfac9007cb9a6a7ead04df1c960":[9,5,1,0,0,8,10,5],
-"structmeshlib_1_1nesting_1_1TetrisDensifyParams.html#a9cb2542911b25c951cfe62eb6df8039c":[9,5,0,0,0,19,10,2],
-"structmeshlib_1_1nesting_1_1TetrisDensifyParams.html#a9cb2542911b25c951cfe62eb6df8039c":[9,5,1,0,0,8,10,2],
-"structmeshlib_1_1object__save_1_1Settings.html":[9,5,0,0,0,20,0],
-"structmeshlib_1_1object__save_1_1Settings.html":[9,5,1,0,0,9,0],
-"structmeshlib_1_1object__save_1_1Settings.html#a2ab2c2b36ab4ad3e696b3e714a612da9":[9,5,0,0,0,20,0,5],
-"structmeshlib_1_1object__save_1_1Settings.html#a2ab2c2b36ab4ad3e696b3e714a612da9":[9,5,1,0,0,9,0,5],
-"structmeshlib_1_1object__save_1_1Settings.html#a47778c8b6421fcded33c11f0b018b172":[9,5,0,0,0,20,0,7],
-"structmeshlib_1_1object__save_1_1Settings.html#a47778c8b6421fcded33c11f0b018b172":[9,5,1,0,0,9,0,7]
+"structmeshlib_1_1nesting_1_1TetrisDensifyParams.html#a9a817dfac9007cb9a6a7ead04df1c960":[9,5,1,0,0,8,10,5]
 };

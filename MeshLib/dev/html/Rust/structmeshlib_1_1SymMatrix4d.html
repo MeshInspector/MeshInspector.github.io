@@ -159,6 +159,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8ac3a119793d9ea6a39f4df69bd74f88" id="r_a8ac3a119793d9ea6a39f4df69bd74f88"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ac3a119793d9ea6a39f4df69bd74f88">sub_assign</a> (b:&amp;<a class="el" href="structmeshlib_1_1SymMatrix4d.html">meshlib::SymMatrix4d</a>) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1SymMatrix4d.html">meshlib::SymMatrix4d</a></td></tr>
 <tr class="memitem:a98de7685d3c778096344442d9e002537" id="r_a98de7685d3c778096344442d9e002537"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98de7685d3c778096344442d9e002537">mul_assign</a> (b:f64) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1SymMatrix4d.html">meshlib::SymMatrix4d</a></td></tr>
 <tr class="memitem:a133aa1ec307e5b174cb85870c891881c" id="r_a133aa1ec307e5b174cb85870c891881c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a133aa1ec307e5b174cb85870c891881c">div_assign</a> (b:f64) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1SymMatrix4d.html">meshlib::SymMatrix4d</a></td></tr>
+<tr class="memitem:a16a197e9e3c59750d43fa8791bb9c288" id="r_a16a197e9e3c59750d43fa8791bb9c288"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16a197e9e3c59750d43fa8791bb9c288">eigens</a> (eigenvectors:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1Matrix4d.html">meshlib::Matrix4d</a> &gt;) const -&gt; <a class="el" href="structmeshlib_1_1Vector4d.html">meshlib::Vector4d</a></td></tr>
+<tr class="memitem:a45298e39aa070e25eeb429e9d126b074" id="r_a45298e39aa070e25eeb429e9d126b074"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45298e39aa070e25eeb429e9d126b074">pseudoinverse</a> (tol:Option&lt; f64 &gt;, rank:Option&lt;&amp;mut core::ffi::c_int &gt;) const -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1SymMatrix4d.html">meshlib::SymMatrix4d</a> &gt;</td></tr>
 <tr class="memitem:a0e5ce239d5a32d4a7a3253b813334bf5" id="r_a0e5ce239d5a32d4a7a3253b813334bf5"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e5ce239d5a32d4a7a3253b813334bf5">op_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1SymMatrix4d.html">meshlib::SymMatrix4d</a>) const -&gt; bool</td></tr>
 <tr class="memitem:a1277ea33805048c6c98dd1a8adf15572" id="r_a1277ea33805048c6c98dd1a8adf15572"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1277ea33805048c6c98dd1a8adf15572">op_not_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1SymMatrix4d.html">meshlib::SymMatrix4d</a>) const -&gt; bool</td></tr>
 <tr class="memitem:af47356f8f8999ec2f44f4f244182baf4" id="r_af47356f8f8999ec2f44f4f244182baf4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af47356f8f8999ec2f44f4f244182baf4">xx</a> () const -&gt; &amp;f64</td></tr>
@@ -318,6 +320,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a16a197e9e3c59750d43fa8791bb9c288" name="a16a197e9e3c59750d43fa8791bb9c288"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16a197e9e3c59750d43fa8791bb9c288">&#9670;&#160;</a></span>eigens()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::SymMatrix4d::eigens </td>
+          <td>(</td>
+          <td class="paramtype">eigenvectors:Option&lt;&amp;mut <a class="el" href="structmeshlib_1_1Matrix4d.html">meshlib::Matrix4d</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  <a class="el" href="structmeshlib_1_1Vector4d.html">meshlib::Vector4d</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns eigenvalues of the matrix in ascending order (diagonal matrix L), and optionally returns corresponding unit eigenvectors in the rows of orthogonal matrix V, M*V^T = V^T*L; M = V^T*L*V Generated from method <span class="tt">MR::SymMatrix4d::eigens</span>.</p>
+<p>Calls <span class="tt">MR_SymMatrix4d_eigens()</span>. </p>
+
+</div>
+</div>
 <a id="ad5371f3081673ea4ec5fd44686b2d299" name="ad5371f3081673ea4ec5fd44686b2d299"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad5371f3081673ea4ec5fd44686b2d299">&#9670;&#160;</a></span>identity()</h2>
 
@@ -445,6 +466,35 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Generated from method <span class="tt">MR::SymMatrix4d::operator!=</span>.</p>
 <p>Calls <span class="tt">MR_not_equal_MR_SymMatrix4d()</span>. </p>
+
+</div>
+</div>
+<a id="a45298e39aa070e25eeb429e9d126b074" name="a45298e39aa070e25eeb429e9d126b074"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45298e39aa070e25eeb429e9d126b074">&#9670;&#160;</a></span>pseudoinverse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::SymMatrix4d::pseudoinverse </td>
+          <td>(</td>
+          <td class="paramtype">tol:Option&lt; f64 &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">rank:Option&lt;&amp;mut core::ffi::c_int &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;) const -&gt;  <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1SymMatrix4d.html">meshlib::SymMatrix4d</a> &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>for not-degenerate matrix returns just inverse matrix, otherwise returns degenerate matrix, which performs inversion on not-kernel subspace; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tol</td><td>relative epsilon-tolerance for too small number detection </td></tr>
+    <tr><td class="paramname">rank</td><td>optional output for this matrix rank according to given tolerance Generated from method <span class="tt">MR::SymMatrix4d::pseudoinverse</span>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Calls <span class="tt">MR_SymMatrix4d_pseudoinverse()</span>. </p>
 
 </div>
 </div>

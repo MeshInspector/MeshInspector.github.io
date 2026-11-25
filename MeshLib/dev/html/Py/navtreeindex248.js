@@ -1,5 +1,13 @@
 var NAVTREEINDEX248 =
 {
+"classmrviewerpy_1_1std__vector__PythonViewer__UiEntry.html#afb35a23ea9be2e4a9a517058e8e86a0f":[9,1,0,0,3,16,1],
+"classmrviewerpy_1_1std__vector__PythonViewer__UiEntry.html#afb35a23ea9be2e4a9a517058e8e86a0f":[9,1,1,0,2,16,1],
+"classmrviewerpy_1_1std__vector__PythonViewer__UiEntry.html#aff84170861093c43c2c62f47f1b2e876":[9,1,0,0,3,16,6],
+"classmrviewerpy_1_1std__vector__PythonViewer__UiEntry.html#aff84170861093c43c2c62f47f1b2e876":[9,1,1,0,2,16,6],
+"classmrviewerpy_1_1std__vector__std__pair__std__vector__std__string__PythonViewer__UiEntry.html":[9,1,0,0,3,17],
+"classmrviewerpy_1_1std__vector__std__pair__std__vector__std__string__PythonViewer__UiEntry.html":[9,1,1,0,2,17],
+"classmrviewerpy_1_1std__vector__std__pair__std__vector__std__string__PythonViewer__UiEntry.html#a0b6ac936a4b944d9e500d93a1461605d":[9,1,0,0,3,17,0],
+"classmrviewerpy_1_1std__vector__std__pair__std__vector__std__string__PythonViewer__UiEntry.html#a0b6ac936a4b944d9e500d93a1461605d":[9,1,1,0,2,17,0],
 "classmrviewerpy_1_1std__vector__std__pair__std__vector__std__string__PythonViewer__UiEntry.html#a4327366ad852c5eacf051fa879045fc5":[9,1,0,0,3,17,8],
 "classmrviewerpy_1_1std__vector__std__pair__std__vector__std__string__PythonViewer__UiEntry.html#a4327366ad852c5eacf051fa879045fc5":[9,1,1,0,2,17,8],
 "classmrviewerpy_1_1std__vector__std__pair__std__vector__std__string__PythonViewer__UiEntry.html#a65b41d9b59902fd11d3192c62fa826a8":[9,1,0,0,3,17,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX248 =
 "namespacemrmeshpy.html#a0143aadc0fc77eb12bd90ada4298b334":[9,1,0,0,2,5342],
 "namespacemrmeshpy.html#a014cfd2eadc77fd6d1734b5607e4cbe8":[9,1,0,0,2,3084],
 "namespacemrmeshpy.html#a014ea177b4f655d50a33e1cd74672e6f":[9,1,0,0,2,5556],
-"namespacemrmeshpy.html#a015ccbc4ef22aed20c7d328bbaab17bd":[9,1,0,0,2,3306],
-"namespacemrmeshpy.html#a01646d9ecb096b59949ba054c8ea40e6":[9,1,0,0,2,4225],
-"namespacemrmeshpy.html#a017799ac8cab2ea8a62f2a1efcae0fe0":[9,1,0,0,2,4170],
-"namespacemrmeshpy.html#a019c061f14c3d487b18607cf51e35289":[9,1,0,0,2,3216],
-"namespacemrmeshpy.html#a01a03a493c84a69d0dca422a6c8114c8":[9,1,0,0,2,4081],
-"namespacemrmeshpy.html#a01ab4220ed0a098e7312df242eed37b3":[9,1,0,0,2,3149],
-"namespacemrmeshpy.html#a01af3d18503154fb20d9ac2df0815519":[9,1,0,0,2,5126],
-"namespacemrmeshpy.html#a01d7d13803b3c93939816a657123f70b":[9,1,0,0,2,4377],
-"namespacemrmeshpy.html#a01df30e6f6525ea5b7dc4c8ab28bde39":[9,1,0,0,2,3693]
+"namespacemrmeshpy.html#a015ccbc4ef22aed20c7d328bbaab17bd":[9,1,0,0,2,3306]
 };

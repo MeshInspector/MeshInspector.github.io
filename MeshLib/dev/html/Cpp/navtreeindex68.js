@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html":[9,0,0,19,594],
+"structMR_1_1ImGuiMenu_1_1TagEditorState.html":[9,0,0,19,593],
 "structMR_1_1Image.html":[9,0,0,17,1],
 "structMR_1_1Image.html":[9,0,0,19,312],
 "structMR_1_1ImproveSamplingSettings.html":[9,0,0,19,313],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1Mesh.html#a15fe46302ae352c7822987de4ab6d9e3":[9,0,0,7,1,27],
 "structMR_1_1Mesh.html#a18b304c7bb132b9149d1ba45884fe700":[9,0,0,7,1,104],
 "structMR_1_1Mesh.html#a18e24b802c039dde02eeb902045cdb20":[9,0,0,7,1,31],
-"structMR_1_1Mesh.html#a19223c76e1742c8cf6a56fd51b5c2c68":[9,0,0,7,1,43],
-"structMR_1_1Mesh.html#a195c509bc89bff7c15ae4f20a0659b36":[9,0,0,7,1,89],
-"structMR_1_1Mesh.html#a1a6420269a152e58f76f327bc6324f05":[9,0,0,7,1,10]
+"structMR_1_1Mesh.html#a19223c76e1742c8cf6a56fd51b5c2c68":[9,0,0,7,1,43]
 };

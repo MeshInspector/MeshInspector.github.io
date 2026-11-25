@@ -1,5 +1,13 @@
 var NAVTREEINDEX184 =
 {
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a1b20c8a06d8c6b3043a0d944701d86dc":[9,5,0,0,0,3,5,2],
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a1b20c8a06d8c6b3043a0d944701d86dc":[9,5,1,0,0,1,5,2],
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a1b6e398af8e162dff29842f4072bbf09":[9,5,0,0,0,3,5,1],
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a1b6e398af8e162dff29842f4072bbf09":[9,5,1,0,0,1,5,1],
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a29cc4b160154c04baef3bfe777c1ddc8":[9,5,0,0,0,3,5,21],
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a29cc4b160154c04baef3bfe777c1ddc8":[9,5,1,0,0,1,5,21],
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a38f8ddc93c89cda487ee6f453e8e6d95":[9,5,0,0,0,3,5,5],
+"structmeshlib_1_1features_1_1MeasureResult__Angle.html#a38f8ddc93c89cda487ee6f453e8e6d95":[9,5,1,0,0,1,5,5],
 "structmeshlib_1_1features_1_1MeasureResult__Angle.html#a3d228e45f6b722f27a64abd04ffe0b70":[9,5,0,0,0,3,5,28],
 "structmeshlib_1_1features_1_1MeasureResult__Angle.html#a3d228e45f6b722f27a64abd04ffe0b70":[9,5,1,0,0,1,5,28],
 "structmeshlib_1_1features_1_1MeasureResult__Angle.html#a3e4b8f03e97939b280cdf33de9b6901a":[9,5,0,0,0,3,5,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX184 =
 "structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Sphere3f.html#a37b30a3ab1c3189311929681a3658ec3":[9,5,0,0,0,3,1,4,0],
 "structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Sphere3f.html#a37b30a3ab1c3189311929681a3658ec3":[9,5,1,0,0,1,1,4,0],
 "structmeshlib_1_1features_1_1traits_1_1Binary__MR__Sphere3f__MR__Sphere3f.html":[9,5,0,0,0,3,1,5],
-"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Sphere3f__MR__Sphere3f.html":[9,5,1,0,0,1,1,5],
-"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Sphere3f__MR__Sphere3f.html#a48c32a9d60c8ab6df42a0bf85736ec04":[9,5,0,0,0,3,1,5,0],
-"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Sphere3f__MR__Sphere3f.html#a48c32a9d60c8ab6df42a0bf85736ec04":[9,5,1,0,0,1,1,5,0],
-"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Sphere3f__MR__Sphere3f.html#afa6bd310e5bc6ed1c7b447de9f26825f":[9,5,0,0,0,3,1,5,1],
-"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Sphere3f__MR__Sphere3f.html#afa6bd310e5bc6ed1c7b447de9f26825f":[9,5,1,0,0,1,1,5,1],
-"structmeshlib_1_1features_1_1traits_1_1Unary__MR__Features__Primitives__ConeSegment.html":[9,5,0,0,0,3,1,6],
-"structmeshlib_1_1features_1_1traits_1_1Unary__MR__Features__Primitives__ConeSegment.html":[9,5,1,0,0,1,1,6],
-"structmeshlib_1_1features_1_1traits_1_1Unary__MR__Features__Primitives__ConeSegment.html#a642eb4381fd3189a25865d0424d7dce8":[9,5,0,0,0,3,1,6,1],
-"structmeshlib_1_1features_1_1traits_1_1Unary__MR__Features__Primitives__ConeSegment.html#a642eb4381fd3189a25865d0424d7dce8":[9,5,1,0,0,1,1,6,1]
+"structmeshlib_1_1features_1_1traits_1_1Binary__MR__Sphere3f__MR__Sphere3f.html":[9,5,1,0,0,1,1,5]
 };

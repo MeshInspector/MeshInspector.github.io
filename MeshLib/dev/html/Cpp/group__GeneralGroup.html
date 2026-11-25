@@ -8171,6 +8171,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga0a5e9e9469df428b50136b463c5350a4" id="r_ga0a5e9e9469df428b50136b463c5350a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SymMatrix4.html">SymMatrix4</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0a5e9e9469df428b50136b463c5350a4">MR::SymMatrix4&lt; T &gt;::operator-=</a> (const <a class="el" href="structMR_1_1SymMatrix4.html">SymMatrix4</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="memitem:gaa5a2bc6b458e7890d92c6220fbd4b2c8" id="r_gaa5a2bc6b458e7890d92c6220fbd4b2c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SymMatrix4.html">SymMatrix4</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa5a2bc6b458e7890d92c6220fbd4b2c8">MR::SymMatrix4&lt; T &gt;::operator*=</a> (T b)</td></tr>
 <tr class="memitem:gae0f862cb58c64e35b3da4f2f0698f466" id="r_gae0f862cb58c64e35b3da4f2f0698f466"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SymMatrix4.html">SymMatrix4</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae0f862cb58c64e35b3da4f2f0698f466">MR::SymMatrix4&lt; T &gt;::operator/=</a> (T b)</td></tr>
+<tr class="memitem:gac1d622983ed24d9657606e63a117bc89" id="r_gac1d622983ed24d9657606e63a117bc89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac1d622983ed24d9657606e63a117bc89">MR::SymMatrix4&lt; T &gt;::eigens</a> (<a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; *eigenvectors=nullptr) const</td></tr>
+<tr class="memitem:gae27d4edb7fe7ace5118db1aeb1f35954" id="r_gae27d4edb7fe7ace5118db1aeb1f35954"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SymMatrix4.html">SymMatrix4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae27d4edb7fe7ace5118db1aeb1f35954">MR::SymMatrix4&lt; T &gt;::pseudoinverse</a> (T tol=std::numeric_limits&lt; T &gt;::epsilon(), int *rank=nullptr) const</td></tr>
 <tr class="memitem:ga8ddbb2995c7659e3cc15a4e925ee3ca8" id="r_ga8ddbb2995c7659e3cc15a4e925ee3ca8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8ddbb2995c7659e3cc15a4e925ee3ca8">MR::SymMatrix4&lt; T &gt;::operator==</a> (const <a class="el" href="structMR_1_1SymMatrix4.html">SymMatrix4</a>&lt; T &gt; &amp;) const =default</td></tr>
 <tr class="memitem:ga9a5c53044fe97027656ba49e68fee1ff" id="r_ga9a5c53044fe97027656ba49e68fee1ff"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9a5c53044fe97027656ba49e68fee1ff">MR::getProductName</a> ()</td></tr>
 <tr class="memdesc:ga9a5c53044fe97027656ba49e68fee1ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the current application.  <br /></td></tr>
@@ -69047,7 +69049,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga60e49e5bc0d3433cc7f57f72dd639257" name="ga60e49e5bc0d3433cc7f57f72dd639257"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga60e49e5bc0d3433cc7f57f72dd639257">&#9670;&#160;</a></span>eigens() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga60e49e5bc0d3433cc7f57f72dd639257">&#9670;&#160;</a></span>eigens() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -69069,7 +69071,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga67770e5a0f61e735f7d0ee98feb063d2" name="ga67770e5a0f61e735f7d0ee98feb063d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga67770e5a0f61e735f7d0ee98feb063d2">&#9670;&#160;</a></span>eigens() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga67770e5a0f61e735f7d0ee98feb063d2">&#9670;&#160;</a></span>eigens() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -69086,6 +69088,28 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRSymMatrix3_8h.html">MRMesh/MRSymMatrix3.h</a>&gt;</code></p>
+<p>returns eigenvalues of the matrix in ascending order (diagonal matrix L), and optionally returns corresponding unit eigenvectors in the rows of orthogonal matrix V, M*V^T = V^T*L; M = V^T*L*V </p>
+
+</div>
+</div>
+<a id="gac1d622983ed24d9657606e63a117bc89" name="gac1d622983ed24d9657606e63a117bc89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac1d622983ed24d9657606e63a117bc89">&#9670;&#160;</a></span>eigens() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt; T &gt; <a class="el" href="structMR_1_1SymMatrix4.html">MR::SymMatrix4</a>&lt; T &gt;::eigens </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; *</td>          <td class="paramname"><span class="paramname"><em>eigenvectors</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRSymMatrix4_8h.html">MRMesh/MRSymMatrix4.h</a>&gt;</code></p>
 <p>returns eigenvalues of the matrix in ascending order (diagonal matrix L), and optionally returns corresponding unit eigenvectors in the rows of orthogonal matrix V, M*V^T = V^T*L; M = V^T*L*V </p>
 
 </div>
@@ -158015,7 +158039,7 @@ template&lt;typename F&gt; </div>
 </div>
 </div>
 <a id="gae4989d2ea045d9df73cfe6c4795293a8" name="gae4989d2ea045d9df73cfe6c4795293a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae4989d2ea045d9df73cfe6c4795293a8">&#9670;&#160;</a></span>pseudoinverse() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae4989d2ea045d9df73cfe6c4795293a8">&#9670;&#160;</a></span>pseudoinverse() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158053,7 +158077,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga0933d72d3335abd2a99ae9c8f5afe198" name="ga0933d72d3335abd2a99ae9c8f5afe198"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0933d72d3335abd2a99ae9c8f5afe198">&#9670;&#160;</a></span>pseudoinverse() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0933d72d3335abd2a99ae9c8f5afe198">&#9670;&#160;</a></span>pseudoinverse() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158084,6 +158108,38 @@ template&lt;typename T&gt; </div>
     <tr><td class="paramname">tol</td><td>relative epsilon-tolerance for too small number detection </td></tr>
     <tr><td class="paramname">rank</td><td>optional output for this matrix rank according to given tolerance </td></tr>
     <tr><td class="paramname">space</td><td>rank=1: unit direction of solution line, rank=2: unit normal to solution plane, rank=3: zero vector </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae27d4edb7fe7ace5118db1aeb1f35954" name="gae27d4edb7fe7ace5118db1aeb1f35954"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae27d4edb7fe7ace5118db1aeb1f35954">&#9670;&#160;</a></span>pseudoinverse() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1SymMatrix4.html">SymMatrix4</a>&lt; T &gt; <a class="el" href="structMR_1_1SymMatrix4.html">MR::SymMatrix4</a>&lt; T &gt;::pseudoinverse </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>tol</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::numeric_limits&lt;&#160;T&#160;&gt;::epsilon()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>rank</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRSymMatrix4_8h.html">MRMesh/MRSymMatrix4.h</a>&gt;</code></p>
+<p>for not-degenerate matrix returns just inverse matrix, otherwise returns degenerate matrix, which performs inversion on not-kernel subspace; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tol</td><td>relative epsilon-tolerance for too small number detection </td></tr>
+    <tr><td class="paramname">rank</td><td>optional output for this matrix rank according to given tolerance </td></tr>
   </table>
   </dd>
 </dl>

@@ -172,6 +172,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abde88cc4f1e3ac961c9b07bb03e01aa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes trace of the matrix Generated from method <span class="tt"><a class="el" href="#abde88cc4f1e3ac961c9b07bb03e01aa2" title="computes trace of the matrix Generated from method MR.SymMatrix4d.trace.">MR.SymMatrix4d.trace</a></span>.  <br /></td></tr>
 <tr class="memitem:a0d2ac8a834ced2c1157ab74f109fd11c" id="r_a0d2ac8a834ced2c1157ab74f109fd11c"><td class="memItemLeft" align="right" valign="top">unsafe double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d2ac8a834ced2c1157ab74f109fd11c">normSq</a> ()</td></tr>
 <tr class="memdesc:a0d2ac8a834ced2c1157ab74f109fd11c"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the squared norm of the matrix, which is equal to the sum of 16 squared elements Generated from method <span class="tt"><a class="el" href="#a0d2ac8a834ced2c1157ab74f109fd11c" title="computes the squared norm of the matrix, which is equal to the sum of 16 squared elements Generated f...">MR.SymMatrix4d.normSq</a></span>.  <br /></td></tr>
+<tr class="memitem:ab1bb0863b7165b6352c9fc33f0cce9ab" id="r_ab1bb0863b7165b6352c9fc33f0cce9ab"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1bb0863b7165b6352c9fc33f0cce9ab">eigens</a> (MR.Misc.InOut&lt; <a class="el" href="structMR_1_1Matrix4d.html">MR.Matrix4d</a> &gt;? eigenvectors=null)</td></tr>
+<tr class="memdesc:ab1bb0863b7165b6352c9fc33f0cce9ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns eigenvalues of the matrix in ascending order (diagonal matrix L), and optionally returns corresponding unit eigenvectors in the rows of orthogonal matrix V, M*V^T = V^T*L; M = V^T*L*V Generated from method <span class="tt"><a class="el" href="#ab1bb0863b7165b6352c9fc33f0cce9ab" title="returns eigenvalues of the matrix in ascending order (diagonal matrix L), and optionally returns corr...">MR.SymMatrix4d.eigens</a></span>.  <br /></td></tr>
+<tr class="memitem:ab0cba499b424abdfcccd0163684859c2" id="r_ab0cba499b424abdfcccd0163684859c2"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1SymMatrix4d.html">MR.SymMatrix4d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0cba499b424abdfcccd0163684859c2">pseudoinverse</a> (double? tol=null, MR.Misc.InOut&lt; int &gt;? rank=null)</td></tr>
+<tr class="memdesc:ab0cba499b424abdfcccd0163684859c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">for not-degenerate matrix returns just inverse matrix, otherwise returns degenerate matrix, which performs inversion on not-kernel subspace;  <br /></td></tr>
 <tr class="memitem:aab44ecae1b15068acd1d61fe607ffaba" id="r_aab44ecae1b15068acd1d61fe607ffaba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab44ecae1b15068acd1d61fe607ffaba">Equals</a> (<a class="el" href="classMR_1_1Const__SymMatrix4d.html">MR.Const_SymMatrix4d</a>? _1)</td></tr>
 <tr class="memitem:a1d1d0a95a85713e1fb6f77ce03a8c9e3" id="r_a1d1d0a95a85713e1fb6f77ce03a8c9e3"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d1d0a95a85713e1fb6f77ce03a8c9e3">Equals</a> (object? other)</td></tr>
 </table><table class="memberdecls">
@@ -387,6 +391,33 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="ab1bb0863b7165b6352c9fc33f0cce9ab" name="ab1bb0863b7165b6352c9fc33f0cce9ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1bb0863b7165b6352c9fc33f0cce9ab">&#9670;&#160;</a></span>eigens()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a> MR.Const_SymMatrix4d.eigens </td>
+          <td>(</td>
+          <td class="paramtype">MR.Misc.InOut&lt; <a class="el" href="structMR_1_1Matrix4d.html">MR.Matrix4d</a> &gt;?</td>          <td class="paramname"><span class="paramname"><em>eigenvectors</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns eigenvalues of the matrix in ascending order (diagonal matrix L), and optionally returns corresponding unit eigenvectors in the rows of orthogonal matrix V, M*V^T = V^T*L; M = V^T*L*V Generated from method <span class="tt"><a class="el" href="#ab1bb0863b7165b6352c9fc33f0cce9ab" title="returns eigenvalues of the matrix in ascending order (diagonal matrix L), and optionally returns corr...">MR.SymMatrix4d.eigens</a></span>. </p>
+
+</div>
+</div>
 <a id="aab44ecae1b15068acd1d61fe607ffaba" name="aab44ecae1b15068acd1d61fe607ffaba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aab44ecae1b15068acd1d61fe607ffaba">&#9670;&#160;</a></span>Equals() <span class="overload">[1/2]</span></h2>
 
@@ -548,6 +579,44 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt">MR::SymMatrix4d::operator==</span>. </p>
+
+</div>
+</div>
+<a id="ab0cba499b424abdfcccd0163684859c2" name="ab0cba499b424abdfcccd0163684859c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0cba499b424abdfcccd0163684859c2">&#9670;&#160;</a></span>pseudoinverse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1SymMatrix4d.html">MR.SymMatrix4d</a> MR.Const_SymMatrix4d.pseudoinverse </td>
+          <td>(</td>
+          <td class="paramtype">double?</td>          <td class="paramname"><span class="paramname"><em>tol</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Misc.InOut&lt; int &gt;?</td>          <td class="paramname"><span class="paramname"><em>rank</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>for not-degenerate matrix returns just inverse matrix, otherwise returns degenerate matrix, which performs inversion on not-kernel subspace; </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tol</td><td>relative epsilon-tolerance for too small number detection </td></tr>
+    <tr><td class="paramname">rank</td><td>optional output for this matrix rank according to given tolerance Generated from method <span class="tt"><a class="el" href="#ab0cba499b424abdfcccd0163684859c2" title="for not-degenerate matrix returns just inverse matrix, otherwise returns degenerate matrix,...">MR.SymMatrix4d.pseudoinverse</a></span>. Parameter <span class="tt">tol</span> defaults to <span class="tt">std::numeric_limits&amp;lt;double&amp;gt;::epsilon()</span>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

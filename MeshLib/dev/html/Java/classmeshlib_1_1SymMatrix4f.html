@@ -161,6 +161,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a70f7881beca2189285554c6f8de3c03d" id="r_a70f7881beca2189285554c6f8de3c03d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1SymMatrix4f.html">meshlib.SymMatrix4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70f7881beca2189285554c6f8de3c03d">sub_assign</a> (<a class="el" href="classmeshlib_1_1SymMatrix4f.html">meshlib.SymMatrix4f</a> b)</td></tr>
 <tr class="memitem:a6850b7d82e76ab0db6ca0f0ec6d5a90a" id="r_a6850b7d82e76ab0db6ca0f0ec6d5a90a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1SymMatrix4f.html">meshlib.SymMatrix4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6850b7d82e76ab0db6ca0f0ec6d5a90a">mul_assign</a> (float b)</td></tr>
 <tr class="memitem:a04dd38d44e0b2b2c527bb59563cc982f" id="r_a04dd38d44e0b2b2c527bb59563cc982f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1SymMatrix4f.html">meshlib.SymMatrix4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04dd38d44e0b2b2c527bb59563cc982f">div_assign</a> (float b)</td></tr>
+<tr class="memitem:ac0b5a294df62b783d4842bdc11b45a73" id="r_ac0b5a294df62b783d4842bdc11b45a73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1Vector4f.html">meshlib.Vector4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0b5a294df62b783d4842bdc11b45a73">eigens</a> (<a class="el" href="classmeshlib_1_1Matrix4f.html">meshlib.Matrix4f</a> eigenvectors)</td></tr>
+<tr class="memitem:ae6032771688775d514fad7f22867e820" id="r_ae6032771688775d514fad7f22867e820"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1SymMatrix4f.html">meshlib.SymMatrix4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6032771688775d514fad7f22867e820">pseudoinverse</a> (java.lang.Float tol, <a class="el" href="classmeshlib_1_1int__output.html">meshlib.int_output</a> rank)</td></tr>
 <tr class="memitem:afcbc96262af103ad846df8fe0e673773" id="r_afcbc96262af103ad846df8fe0e673773"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcbc96262af103ad846df8fe0e673773">opEqual</a> (<a class="el" href="classmeshlib_1_1SymMatrix4f.html">meshlib.SymMatrix4f</a> _1)</td></tr>
 <tr class="memitem:a4702ef90eb248b678b52e34a0b8d3e2f" id="r_a4702ef90eb248b678b52e34a0b8d3e2f"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4702ef90eb248b678b52e34a0b8d3e2f">opNotEqual</a> (<a class="el" href="classmeshlib_1_1SymMatrix4f.html">meshlib.SymMatrix4f</a> _1)</td></tr>
 <tr class="memitem:ad9ac9e7a30f1353fa186763730518b32" id="r_ad9ac9e7a30f1353fa186763730518b32"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9ac9e7a30f1353fa186763730518b32">xx</a> ()</td></tr>
@@ -353,6 +355,25 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ac0b5a294df62b783d4842bdc11b45a73" name="ac0b5a294df62b783d4842bdc11b45a73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0b5a294df62b783d4842bdc11b45a73">&#9670;&#160;</a></span>eigens()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmeshlib_1_1Vector4f.html">meshlib.Vector4f</a> meshlib.SymMatrix4f.eigens </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1Matrix4f.html">meshlib.Matrix4f</a></td>          <td class="paramname"><span class="paramname"><em>eigenvectors</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns eigenvalues of the matrix in ascending order (diagonal matrix L), and optionally returns corresponding unit eigenvectors in the rows of orthogonal matrix V, M*V^T = V^T*L; M = V^T*L*V Generated from method <span class="tt">MR::SymMatrix4f::eigens</span>.</p>
+<p>Calls <span class="tt">MR_SymMatrix4f_eigens()</span>. </p>
+
+</div>
+</div>
 <a id="af40e1751e378a77280e53e82d898918e" name="af40e1751e378a77280e53e82d898918e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af40e1751e378a77280e53e82d898918e">&#9670;&#160;</a></span>identity()</h2>
 
@@ -453,6 +474,35 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Generated from method <span class="tt">MR::SymMatrix4f::operator!=</span>.</p>
 <p>Calls <span class="tt">MR_not_equal_MR_SymMatrix4f()</span>. </p>
+
+</div>
+</div>
+<a id="ae6032771688775d514fad7f22867e820" name="ae6032771688775d514fad7f22867e820"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6032771688775d514fad7f22867e820">&#9670;&#160;</a></span>pseudoinverse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmeshlib_1_1SymMatrix4f.html">meshlib.SymMatrix4f</a> meshlib.SymMatrix4f.pseudoinverse </td>
+          <td>(</td>
+          <td class="paramtype">java.lang.Float</td>          <td class="paramname"><span class="paramname"><em>tol</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1int__output.html">meshlib.int_output</a></td>          <td class="paramname"><span class="paramname"><em>rank</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>for not-degenerate matrix returns just inverse matrix, otherwise returns degenerate matrix, which performs inversion on not-kernel subspace; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tol</td><td>relative epsilon-tolerance for too small number detection </td></tr>
+    <tr><td class="paramname">rank</td><td>optional output for this matrix rank according to given tolerance Generated from method <span class="tt">MR::SymMatrix4f::pseudoinverse</span>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Calls <span class="tt">MR_SymMatrix4f_pseudoinverse()</span>. </p>
 
 </div>
 </div>

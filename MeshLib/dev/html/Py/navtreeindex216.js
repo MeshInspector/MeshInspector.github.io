@@ -1,5 +1,13 @@
 var NAVTREEINDEX216 =
 {
+"classmrmeshpy_1_1VertColors.html#accf1abb09e4b15a13a10a81e2eb783d7":[9,1,0,0,2,2636,30],
+"classmrmeshpy_1_1VertColors.html#accf1abb09e4b15a13a10a81e2eb783d7":[9,1,1,0,1,2636,30],
+"classmrmeshpy_1_1VertColors.html#accfe746b3b4380af8fa238fc151a5278":[9,1,0,0,2,2636,12],
+"classmrmeshpy_1_1VertColors.html#accfe746b3b4380af8fa238fc151a5278":[9,1,1,0,1,2636,12],
+"classmrmeshpy_1_1VertColors.html#ad979e551ef2f8f57c689d33d26baf128":[9,1,0,0,2,2636,14],
+"classmrmeshpy_1_1VertColors.html#ad979e551ef2f8f57c689d33d26baf128":[9,1,1,0,1,2636,14],
+"classmrmeshpy_1_1VertColors.html#ae221d32d3ac0cb17e98b9338fb34685c":[9,1,0,0,2,2636,6],
+"classmrmeshpy_1_1VertColors.html#ae221d32d3ac0cb17e98b9338fb34685c":[9,1,1,0,1,2636,6],
 "classmrmeshpy_1_1VertColors.html#ae5be0e170296ed612fb7cccf1bc18b23":[9,1,0,0,2,2636,3],
 "classmrmeshpy_1_1VertColors.html#ae5be0e170296ed612fb7cccf1bc18b23":[9,1,1,0,1,2636,3],
 "classmrmeshpy_1_1VertColors.html#aeaa7c045ef254d60cb00f9c2728f90d0":[9,1,0,0,2,2636,17],
@@ -241,13 +249,5 @@ var NAVTREEINDEX216 =
 "classmrmeshpy_1_1VertMap.html#a739d5362f4c18897f8987b98bb9fbfe2":[9,1,0,0,2,2643,4],
 "classmrmeshpy_1_1VertMap.html#a739d5362f4c18897f8987b98bb9fbfe2":[9,1,1,0,1,2643,4],
 "classmrmeshpy_1_1VertMap.html#a7dd891eae806161e84b87ea9782d228a":[9,1,0,0,2,2643,17],
-"classmrmeshpy_1_1VertMap.html#a7dd891eae806161e84b87ea9782d228a":[9,1,1,0,1,2643,17],
-"classmrmeshpy_1_1VertMap.html#a7df136f55ea84ceffdd96c237fb27a9b":[9,1,0,0,2,2643,24],
-"classmrmeshpy_1_1VertMap.html#a7df136f55ea84ceffdd96c237fb27a9b":[9,1,1,0,1,2643,24],
-"classmrmeshpy_1_1VertMap.html#a820827ff73e6cf42ebf3337501291958":[9,1,0,0,2,2643,23],
-"classmrmeshpy_1_1VertMap.html#a820827ff73e6cf42ebf3337501291958":[9,1,1,0,1,2643,23],
-"classmrmeshpy_1_1VertMap.html#a84216d02096e5ec9b3450b4943f2e1fd":[9,1,0,0,2,2643,2],
-"classmrmeshpy_1_1VertMap.html#a84216d02096e5ec9b3450b4943f2e1fd":[9,1,1,0,1,2643,2],
-"classmrmeshpy_1_1VertMap.html#a8c0cdc095737f1a019d023ce8f87671b":[9,1,0,0,2,2643,34],
-"classmrmeshpy_1_1VertMap.html#a8c0cdc095737f1a019d023ce8f87671b":[9,1,1,0,1,2643,34]
+"classmrmeshpy_1_1VertMap.html#a7dd891eae806161e84b87ea9782d228a":[9,1,1,0,1,2643,17]
 };

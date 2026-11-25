@@ -1,5 +1,9 @@
 var NAVTREEINDEX132 =
 {
+"classstd__vector__MR__VoxelBitSet.html#a59d95af123336863b8c4401f53d25e8a":[9,4,1,0,1299,6],
+"classstd__vector__MR__VoxelBitSet.html#a69d48231e3d46cd7553f2cfe2bf079b9":[9,4,1,0,1299,3],
+"classstd__vector__MR__VoxelBitSet.html#a6a51c8aa092607f1a2fec7788567033a":[9,4,1,0,1299,19],
+"classstd__vector__MR__VoxelBitSet.html#a8be2575b6eaa9c51daac05183c238a41":[9,4,1,0,1299,18],
 "classstd__vector__MR__VoxelBitSet.html#a9be6e87ea63885841a3e503ea5d2cacc":[9,4,1,0,1299,5],
 "classstd__vector__MR__VoxelBitSet.html#ab0b5bbda80ba206685a2134333d0ebcc":[9,4,1,0,1299,14],
 "classstd__vector__MR__VoxelBitSet.html#ab48084ba36c17d5cc7c9f0b4aba4161e":[9,4,1,0,1299,11],
@@ -245,9 +249,5 @@ var NAVTREEINDEX132 =
 "classstd__vector__double__MR__Allocator__double.html#a4ebe4857ceb1758761da92d13fa30ecf":[9,4,1,0,1166,23],
 "classstd__vector__double__MR__Allocator__double.html#a641f3696be7ec626369d878ab7145f0e":[9,4,1,0,1166,14],
 "classstd__vector__double__MR__Allocator__double.html#a645730aba7625fcef161c06ae1325ab6":[9,4,1,0,1166,3],
-"classstd__vector__double__MR__Allocator__double.html#a84e15d3ffc570202a97be749d18f41a5":[9,4,1,0,1166,15],
-"classstd__vector__double__MR__Allocator__double.html#a8af5f36224d6f2db28a1cb39aad75d37":[9,4,1,0,1166,21],
-"classstd__vector__double__MR__Allocator__double.html#a9568f88791951baea8bab86cf091ea66":[9,4,1,0,1166,8],
-"classstd__vector__double__MR__Allocator__double.html#a98fb65f8d87dd90c712c3e6f5d5209da":[9,4,1,0,1166,22],
-"classstd__vector__double__MR__Allocator__double.html#a9b079a7b394c8fc5dec6f5e7451ecdb4":[9,4,1,0,1166,7]
+"classstd__vector__double__MR__Allocator__double.html#a84e15d3ffc570202a97be749d18f41a5":[9,4,1,0,1166,15]
 };
