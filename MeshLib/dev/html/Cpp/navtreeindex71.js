@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1PolylineProjectionResult3Arg.html#a2cf18e52c58f017c162f7f60ad2c514e":[9,0,0,1,38,0],
+"structMR_1_1PolylineProjectionWithOffsetResult.html":[9,0,0,1,39],
 "structMR_1_1PolylineProjectionWithOffsetResult.html#a11d0a9e4090b200e7152c1d2000db9c3":[9,0,0,1,39,1],
 "structMR_1_1PolylineProjectionWithOffsetResult.html#ac03c6975d60108034bbd6964a751d08d":[9,0,0,1,39,2],
 "structMR_1_1PolylineProjectionWithOffsetResult.html#af9b6fe85013195dcada09f829b2c552d":[9,0,0,1,39,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1ShrinkwrapParameters.html#a7e99b9b0dac6abe3e30c3f2f95b2c5d4":[9,0,0,9,11,1],
 "structMR_1_1Signal.html":[9,0,0,19,530],
 "structMR_1_1SignedDistanceToMeshOptions.html":[9,0,0,19,212],
-"structMR_1_1SignedDistanceToMeshResult.html":[9,0,0,1,31],
-"structMR_1_1SignedDistanceToMeshResult.html#ab2ab2feebc81103d19915755ccb48d23":[9,0,0,1,31,0],
-"structMR_1_1SignedProduct.html":[9,0,0,19,536]
+"structMR_1_1SignedDistanceToMeshResult.html":[9,0,0,1,31]
 };

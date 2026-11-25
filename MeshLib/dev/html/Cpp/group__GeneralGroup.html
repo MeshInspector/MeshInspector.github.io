@@ -3147,6 +3147,7 @@ Enumerations</h2></td></tr>
 <tr class="memdesc:ga22bc334022e40146fa414493170af7b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">gesture state  <a href="#ga22bc334022e40146fa414493170af7b4">More...</a><br /></td></tr>
 <tr class="memitem:ga5fa77fceab21954148047b9057cdadce" id="r_ga5fa77fceab21954148047b9057cdadce"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5fa77fceab21954148047b9057cdadce">MR::TouchpadParameters::SwipeMode</a> { <a class="el" href="#gga5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1">MR::TouchpadParameters::SwipeMode::SwipeRotatesCamera</a> = 0
 , <a class="el" href="#gga5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e">MR::TouchpadParameters::SwipeMode::SwipeMovesCamera</a> = 1
+, <a class="el" href="#gga5fa77fceab21954148047b9057cdadcea8a279d91645dad1ebccae4d5271fd147">MR::TouchpadParameters::SwipeMode::SwipeDoesNothing</a> = 2
 , <a class="el" href="#gga5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9">MR::TouchpadParameters::SwipeMode::Count</a>
  }</td></tr>
 <tr class="memdesc:ga5fa77fceab21954148047b9057cdadce"><td class="mdescLeft">&#160;</td><td class="mdescRight">swipe processing mode  <a href="#ga5fa77fceab21954148047b9057cdadce">More...</a><br /></td></tr>
@@ -14948,6 +14949,8 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga38a5a4681452f28c8f94a4b8f3bf7685"><td class="mdescLeft">&#160;</td><td class="mdescRight">pick_render_object parameters. Allow to use object in which pick exactly fell, instead of closer object in pick radius.  <br /></td></tr>
 <tr class="memitem:gae00077737e87f4f3c0abcaba59668721" id="r_gae00077737e87f4f3c0abcaba59668721"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae00077737e87f4f3c0abcaba59668721">MR::TouchesController::Info::id</a> {-1}</td></tr>
 <tr class="memitem:ga8cade6860ac779cf9a85b27030d85915" id="r_ga8cade6860ac779cf9a85b27030d85915"><td class="memItemLeft" align="right" valign="top">Vector2f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8cade6860ac779cf9a85b27030d85915">MR::TouchesController::Info::position</a></td></tr>
+<tr class="memitem:ga1a368df10da5e1b0810b5bf2ce196a0e" id="r_ga1a368df10da5e1b0810b5bf2ce196a0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1a368df10da5e1b0810b5bf2ce196a0e">MR::TouchpadParameters::gesturesEnabled</a> = true</td></tr>
+<tr class="memdesc:ga1a368df10da5e1b0810b5bf2ce196a0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">if false, all touchpad gestures are ignored  <br /></td></tr>
 <tr class="memitem:ga9ae8b021b03e91d547e512ba94391092" id="r_ga9ae8b021b03e91d547e512ba94391092"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9ae8b021b03e91d547e512ba94391092">MR::TouchpadParameters::ignoreKineticMoves</a> = false</td></tr>
 <tr class="memdesc:ga9ae8b021b03e91d547e512ba94391092"><td class="mdescLeft">&#160;</td><td class="mdescRight">most touchpads implement kinetic (or inertial) scrolling, this option disables handling of these events  <br /></td></tr>
 <tr class="memitem:gaddabc579478d3071f3b5a951ab574251" id="r_gaddabc579478d3071f3b5a951ab574251"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaddabc579478d3071f3b5a951ab574251">MR::TouchpadParameters::cancellable</a> = false</td></tr>
@@ -28729,6 +28732,7 @@ template&lt;typename Tag&gt; </div>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1" name="gga5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1"></a>SwipeRotatesCamera&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e" name="gga5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e"></a>SwipeMovesCamera&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga5fa77fceab21954148047b9057cdadcea8a279d91645dad1ebccae4d5271fd147" name="gga5fa77fceab21954148047b9057cdadcea8a279d91645dad1ebccae4d5271fd147"></a>SwipeDoesNothing&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9" name="gga5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -224386,6 +224390,22 @@ not recommended in most cases </dd></dl>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga1a368df10da5e1b0810b5bf2ce196a0e" name="ga1a368df10da5e1b0810b5bf2ce196a0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1a368df10da5e1b0810b5bf2ce196a0e">&#9670;&#160;</a></span>gesturesEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::TouchpadParameters::gesturesEnabled = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if false, all touchpad gestures are ignored </p>
 
 </div>
 </div>

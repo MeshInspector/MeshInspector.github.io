@@ -7777,9 +7777,11 @@ var group__GeneralGroup =
       [ "SwipeMode", "group__GeneralGroup.html#ga5fa77fceab21954148047b9057cdadce", [
         [ "SwipeRotatesCamera", "group__GeneralGroup.html#gga5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1", null ],
         [ "SwipeMovesCamera", "group__GeneralGroup.html#gga5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e", null ],
+        [ "SwipeDoesNothing", "group__GeneralGroup.html#gga5fa77fceab21954148047b9057cdadcea8a279d91645dad1ebccae4d5271fd147", null ],
         [ "Count", "group__GeneralGroup.html#gga5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9", null ]
       ] ],
       [ "cancellable", "group__GeneralGroup.html#gaddabc579478d3071f3b5a951ab574251", null ],
+      [ "gesturesEnabled", "group__GeneralGroup.html#ga1a368df10da5e1b0810b5bf2ce196a0e", null ],
       [ "ignoreKineticMoves", "group__GeneralGroup.html#ga9ae8b021b03e91d547e512ba94391092", null ],
       [ "swipeMode", "group__GeneralGroup.html#ga4c54fd86bf3e610a33c76ea0e5b8c508", null ]
     ] ],
@@ -10772,6 +10774,7 @@ var group__GeneralGroup =
     [ "MR::TouchpadParameters::SwipeMode", "group__GeneralGroup.html#ga5fa77fceab21954148047b9057cdadce", [
       [ "MR::TouchpadParameters::SwipeMode::SwipeRotatesCamera", "group__GeneralGroup.html#gga5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1", null ],
       [ "MR::TouchpadParameters::SwipeMode::SwipeMovesCamera", "group__GeneralGroup.html#gga5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e", null ],
+      [ "MR::TouchpadParameters::SwipeMode::SwipeDoesNothing", "group__GeneralGroup.html#gga5fa77fceab21954148047b9057cdadcea8a279d91645dad1ebccae4d5271fd147", null ],
       [ "MR::TouchpadParameters::SwipeMode::Count", "group__GeneralGroup.html#gga5fa77fceab21954148047b9057cdadceae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "MR::SystemPath::SystemFontType", "group__GeneralGroup.html#ga0cf7d55377d8e831c45ed8aa549b7ac8", [
@@ -18124,6 +18127,7 @@ var group__GeneralGroup =
     [ "MR::SurfaceManipulationWidget::generalEditingRegion_", "group__GeneralGroup.html#gacc7693d8223133cb63b0540ec58107aa", null ],
     [ "MR::SearchPathSettings::geodesicPathApprox", "group__GeneralGroup.html#ga73e36cb0460a39c6bf496d2038aced39", null ],
     [ "MR::ViewportGL::BasePickResult::geomId", "group__GeneralGroup.html#gab3a28df9902a6bfa722c359efdd91d44", null ],
+    [ "MR::TouchpadParameters::gesturesEnabled", "group__GeneralGroup.html#ga1a368df10da5e1b0810b5bf2ce196a0e", null ],
     [ "MR::FeatureObjectSharedProperty::getter", "group__GeneralGroup.html#ga6180b92925783a60e6236c09f9967409", null ],
     [ "MR::RibbonMenu::CustomContextMenuCheckbox::getter", "group__GeneralGroup.html#ga987c2c2fa357c3d0f1ac7320e72b2bab", null ],
     [ "MR::Viewer::globalBasis", "group__GeneralGroup.html#ga8e8017221bc14ddf989b5065726236ed", null ],
