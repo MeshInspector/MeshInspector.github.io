@@ -23,11 +23,13 @@ var searchData=
   ['affinexf2f_20',['AffineXf2f',['../classAffineXf2f.html',1,'']]],
   ['affinexf3d_21',['AffineXf3d',['../classAffineXf3d.html',1,'']]],
   ['affinexf3f_22',['AffineXf3f',['../classAffineXf3f.html',1,'']]],
-  ['alllocaltriangulations_23',['AllLocalTriangulations',['../classAllLocalTriangulations.html',1,'']]],
-  ['alphashapedata_24',['AlphaShapeData',['../classAlphaShapeData.html',1,'']]],
-  ['alphashapenei_25',['AlphaShapeNei',['../classAlphaShapeNei.html',1,'']]],
-  ['alphashapestats_26',['AlphaShapeStats',['../classAlphaShapeStats.html',1,'']]],
-  ['anglemeasurementobject_27',['AngleMeasurementObject',['../classAngleMeasurementObject.html',1,'']]],
-  ['anyvisualizemaskenum_28',['AnyVisualizeMaskEnum',['../classAnyVisualizeMaskEnum.html',1,'']]],
-  ['arcinterpolationparams_29',['ArcInterpolationParams',['../classArcInterpolationParams.html',1,'']]]
+  ['alignpair_23',['AlignPair',['../classFeatures_1_1AlignPair.html',1,'Features']]],
+  ['alignparams_24',['AlignParams',['../classFeatures_1_1AlignParams.html',1,'Features']]],
+  ['alllocaltriangulations_25',['AllLocalTriangulations',['../classAllLocalTriangulations.html',1,'']]],
+  ['alphashapedata_26',['AlphaShapeData',['../classAlphaShapeData.html',1,'']]],
+  ['alphashapenei_27',['AlphaShapeNei',['../classAlphaShapeNei.html',1,'']]],
+  ['alphashapestats_28',['AlphaShapeStats',['../classAlphaShapeStats.html',1,'']]],
+  ['anglemeasurementobject_29',['AngleMeasurementObject',['../classAngleMeasurementObject.html',1,'']]],
+  ['anyvisualizemaskenum_30',['AnyVisualizeMaskEnum',['../classAnyVisualizeMaskEnum.html',1,'']]],
+  ['arcinterpolationparams_31',['ArcInterpolationParams',['../classArcInterpolationParams.html',1,'']]]
 ];

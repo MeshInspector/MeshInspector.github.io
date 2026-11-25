@@ -33,5 +33,9 @@ var MRFeatures_8cs =
     [ "MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment" ],
     [ "MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment" ],
     [ "MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html", "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane" ],
-    [ "MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane" ]
+    [ "MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane" ],
+    [ "MR.Features.Const_AlignPair", "classMR_1_1Features_1_1Const__AlignPair.html", "classMR_1_1Features_1_1Const__AlignPair" ],
+    [ "MR.Features.AlignPair", "classMR_1_1Features_1_1AlignPair.html", "classMR_1_1Features_1_1AlignPair" ],
+    [ "MR.Features.Const_AlignParams", "classMR_1_1Features_1_1Const__AlignParams.html", "classMR_1_1Features_1_1Const__AlignParams" ],
+    [ "MR.Features.AlignParams", "classMR_1_1Features_1_1AlignParams.html", "classMR_1_1Features_1_1AlignParams" ]
 ];

@@ -2979,6 +2979,12 @@ var hierarchy =
       [ "MR.Cuda.Const_PointsToMeshProjector", "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html", [
         [ "MR.Cuda.PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", null ]
       ] ],
+      [ "MR.Features.Const_AlignPair", "classMR_1_1Features_1_1Const__AlignPair.html", [
+        [ "MR.Features.AlignPair", "classMR_1_1Features_1_1AlignPair.html", null ]
+      ] ],
+      [ "MR.Features.Const_AlignParams", "classMR_1_1Features_1_1Const__AlignParams.html", [
+        [ "MR.Features.AlignParams", "classMR_1_1Features_1_1AlignParams.html", null ]
+      ] ],
       [ "MR.Features.Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html", [
         [ "MR.Features.MeasureResult", "classMR_1_1Features_1_1MeasureResult.html", null ]
       ] ],
@@ -4758,6 +4764,8 @@ var hierarchy =
       [ "MR.Cuda.Const_FastWindingNumber", "classMR_1_1Cuda_1_1Const__FastWindingNumber.html", null ],
       [ "MR.Cuda.Const_PointsProjector", "classMR_1_1Cuda_1_1Const__PointsProjector.html", null ],
       [ "MR.Cuda.Const_PointsToMeshProjector", "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html", null ],
+      [ "MR.Features.Const_AlignPair", "classMR_1_1Features_1_1Const__AlignPair.html", null ],
+      [ "MR.Features.Const_AlignParams", "classMR_1_1Features_1_1Const__AlignParams.html", null ],
       [ "MR.Features.Const_MeasureResult", "classMR_1_1Features_1_1Const__MeasureResult.html", null ],
       [ "MR.Features.Const_MeasureResult.Const_Angle", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html", null ],
       [ "MR.Features.Const_MeasureResult.Const_BasicPart", "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__BasicPart.html", null ],

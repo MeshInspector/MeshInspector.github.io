@@ -1,5 +1,8 @@
 var NAVTREEINDEX26 =
 {
+"structmeshlib_1_1BendContoursAlongCurveParams.html#a7e4d90c2bcfd23184929dffc08501dba":[9,5,1,0,0,77,13],
+"structmeshlib_1_1BendContoursAlongCurveParams.html#a967cdb82eff327127df8fe124d8d9bef":[9,5,0,0,0,90,5],
+"structmeshlib_1_1BendContoursAlongCurveParams.html#a967cdb82eff327127df8fe124d8d9bef":[9,5,1,0,0,77,5],
 "structmeshlib_1_1BendContoursAlongCurveParams.html#a9b3edf6232724e70f9cefce60bcdcc91":[9,5,0,0,0,90,9],
 "structmeshlib_1_1BendContoursAlongCurveParams.html#a9b3edf6232724e70f9cefce60bcdcc91":[9,5,1,0,0,77,9],
 "structmeshlib_1_1BendContoursAlongCurveParams.html#aa6c68d961a6feca52b96e2e1e020dd90":[9,5,0,0,0,90,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX26 =
 "structmeshlib_1_1BooleanInternalParameters.html#ae15efdb89e76216e67efd42198db1846":[9,5,1,0,0,96,3],
 "structmeshlib_1_1BooleanInternalParameters.html#aed51c68713d2ff4612c18e72e6f03e7e":[9,5,0,0,0,109,8],
 "structmeshlib_1_1BooleanInternalParameters.html#aed51c68713d2ff4612c18e72e6f03e7e":[9,5,1,0,0,96,8],
-"structmeshlib_1_1BooleanOperation.html":[9,5,0,0,0,110],
-"structmeshlib_1_1BooleanOperation.html":[9,5,1,0,0,97],
-"structmeshlib_1_1BooleanParameters.html":[9,5,0,0,0,111],
-"structmeshlib_1_1BooleanParameters.html":[9,5,1,0,0,98]
+"structmeshlib_1_1BooleanOperation.html":[9,5,0,0,0,110]
 };

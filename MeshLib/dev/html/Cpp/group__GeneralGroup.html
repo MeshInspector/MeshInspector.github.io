@@ -494,6 +494,9 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AFeatures_3A_3ATraits_3A_3ABinary_3C_20Primitives_3A_3APlane_2C_20Primitives_3A_3AConeSegment_20_3E" id="r_MR_3A_3AFeatures_3A_3ATraits_3A_3ABinary_3C_20Primitives_3A_3APlane_2C_20Primitives_3A_3AConeSegment_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html">MR::Features::Traits::Binary&lt; Primitives::Plane, Primitives::ConeSegment &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3AFeatures_3A_3ATraits_3A_3ABinary_3C_20Primitives_3A_3APlane_2C_20Primitives_3A_3APlane_20_3E" id="r_MR_3A_3AFeatures_3A_3ATraits_3A_3ABinary_3C_20Primitives_3A_3APlane_2C_20Primitives_3A_3APlane_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html">MR::Features::Traits::Binary&lt; Primitives::Plane, Primitives::Plane &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">?? &lt;-&gt; Plane  <a href="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AFeatures_3A_3AAlignPair" id="r_MR_3A_3AFeatures_3A_3AAlignPair"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Features_1_1AlignPair.html">MR::Features::AlignPair</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A feature of the moving part and the matching feature of the fixed part, both in world space.  <a href="structMR_1_1Features_1_1AlignPair.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AFeatures_3A_3AAlignParams" id="r_MR_3A_3AFeatures_3A_3AAlignParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Features_1_1AlignParams.html">MR::Features::AlignParams</a></td></tr>
 <tr class="memitem:MR_3A_3AFewSmallest_3C_20T_20_3E" id="r_MR_3A_3AFewSmallest_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FewSmallest.html">MR::FewSmallest&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">the class stores some number of smallest elements from a larger number of candidates  <a href="classMR_1_1FewSmallest.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AFile" id="r_MR_3A_3AFile"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1File.html">MR::File</a></td></tr>
@@ -4974,6 +4977,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:ga8ae032d9a48f5e4e7669748c12b6f05c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same, but with a variant as the second argument.  <br /></td></tr>
 <tr class="memitem:gae0537612491fae86ac764b65a9835df9" id="r_gae0537612491fae86ac764b65a9835df9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Features_1_1MeasureResult.html">MeasureResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae0537612491fae86ac764b65a9835df9">MR::Features::measure</a> (const <a class="el" href="#ga955a7f843d9b5df0f393ec7699ada624">Primitives::Variant</a> &amp;a, const <a class="el" href="#ga955a7f843d9b5df0f393ec7699ada624">Primitives::Variant</a> &amp;b)</td></tr>
 <tr class="memdesc:gae0537612491fae86ac764b65a9835df9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same, but with variants as both argument.  <br /></td></tr>
+<tr class="memitem:ga58f5367f9a8fe53352757b9c0b0e10fe" id="r_ga58f5367f9a8fe53352757b9c0b0e10fe"><td class="memItemLeft" align="right" valign="top">AffineXf3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga58f5367f9a8fe53352757b9c0b0e10fe">MR::Features::align</a> (const <a class="el" href="structMR_1_1Features_1_1AlignPair.html">AlignPair</a> &amp;primary, const <a class="el" href="structMR_1_1Features_1_1AlignParams.html">AlignParams</a> &amp;params={})</td></tr>
 <tr class="memitem:gafe398061489451b6194321a60829929f" id="r_gafe398061489451b6194321a60829929f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafe398061489451b6194321a60829929f">MR::FewSmallest&lt; T &gt;::FewSmallest</a> ()</td></tr>
 <tr class="memitem:ga10dd64ad23fa331c4f425f5d5400e9ac" id="r_ga10dd64ad23fa331c4f425f5d5400e9ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga10dd64ad23fa331c4f425f5d5400e9ac">MR::FewSmallest&lt; T &gt;::FewSmallest</a> (size_t <a class="el" href="#ga9f76f3baaed046ba4f1047a35cd61248">maxElms</a>)</td></tr>
 <tr class="memdesc:ga10dd64ad23fa331c4f425f5d5400e9ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">configure the object to store at most given number of elements  <br /></td></tr>
@@ -12739,6 +12743,17 @@ Variables</h2></td></tr>
 <tr class="memitem:ga598c9f6b07a702e3e849bf9b0e6ec040" id="r_ga598c9f6b07a702e3e849bf9b0e6ec040"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Features_1_1MeasureResult_1_1Angle.html">Angle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga598c9f6b07a702e3e849bf9b0e6ec040">MR::Features::MeasureResult::angle</a></td></tr>
 <tr class="memitem:gae91b71d479c6bb30a6e9b3068dd1d0c2" id="r_gae91b71d479c6bb30a6e9b3068dd1d0c2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#ga955a7f843d9b5df0f393ec7699ada624">Primitives::Variant</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae91b71d479c6bb30a6e9b3068dd1d0c2">MR::Features::MeasureResult::intersections</a></td></tr>
 <tr class="memdesc:gae91b71d479c6bb30a6e9b3068dd1d0c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The primitives obtained from intersecting those two.  <br /></td></tr>
+<tr class="memitem:ga6372e909fd185468c8c761522462d498" id="r_ga6372e909fd185468c8c761522462d498"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga955a7f843d9b5df0f393ec7699ada624">Primitives::Variant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6372e909fd185468c8c761522462d498">MR::Features::AlignPair::moving</a></td></tr>
+<tr class="memitem:gaf52393b26b9b3a6a4c8426851ba70739" id="r_gaf52393b26b9b3a6a4c8426851ba70739"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga955a7f843d9b5df0f393ec7699ada624">Primitives::Variant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf52393b26b9b3a6a4c8426851ba70739">MR::Features::AlignPair::fixed</a></td></tr>
+<tr class="memitem:ga59b3e044bd00a182e20fafe1e7e97f41" id="r_ga59b3e044bd00a182e20fafe1e7e97f41"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structMR_1_1Features_1_1AlignPair.html">AlignPair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga59b3e044bd00a182e20fafe1e7e97f41">MR::Features::AlignParams::locators</a></td></tr>
+<tr class="memitem:ga408726bc6227a32adddf7127aec65862" id="r_ga408726bc6227a32adddf7127aec65862"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Features_1_1AlignPair.html">AlignPair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga408726bc6227a32adddf7127aec65862">MR::Features::AlignParams::clocking</a></td></tr>
+<tr class="memdesc:ga408726bc6227a32adddf7127aec65862"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set, its directions (projected on the plane orthogonal to the primary direction) set the spin instead of the locators.  <br /></td></tr>
+<tr class="memitem:ga8166f121bf5c51d70ea1958c3bd56e47" id="r_ga8166f121bf5c51d70ea1958c3bd56e47"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8166f121bf5c51d70ea1958c3bd56e47">MR::Features::AlignParams::flip</a> = false</td></tr>
+<tr class="memdesc:ga8166f121bf5c51d70ea1958c3bd56e47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Planes: same normals instead of opposite ones; axes: the farther direction instead of the closer one.  <br /></td></tr>
+<tr class="memitem:ga731f13b3d4c4682e0a206151de46f1c5" id="r_ga731f13b3d4c4682e0a206151de46f1c5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga731f13b3d4c4682e0a206151de46f1c5">MR::Features::AlignParams::gap</a> = 0</td></tr>
+<tr class="memdesc:ga731f13b3d4c4682e0a206151de46f1c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed distance between the matched planes or axis centers along the fixed primary normal or axis.  <br /></td></tr>
+<tr class="memitem:gaa92975ffea36348b416103b54b9674ed" id="r_gaa92975ffea36348b416103b54b9674ed"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa92975ffea36348b416103b54b9674ed">MR::Features::AlignParams::freeDofs</a> = nullptr</td></tr>
+<tr class="memdesc:gaa92975ffea36348b416103b54b9674ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional output: the number of rigid degrees of freedom the features leave free (0 - the placement is fully defined).  <br /></td></tr>
 <tr class="memitem:ga873defafe8bd5f0ef51bd6d0c3f92f2d" id="r_ga873defafe8bd5f0ef51bd6d0c3f92f2d"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga873defafe8bd5f0ef51bd6d0c3f92f2d">MR::SubdivideFillingSettings::notFlippable</a> = nullptr</td></tr>
 <tr class="memdesc:ga873defafe8bd5f0ef51bd6d0c3f92f2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation  <br /></td></tr>
 <tr class="memitem:ga82b0b627885b0136d5cbb0bd093cf88b" id="r_ga82b0b627885b0136d5cbb0bd093cf88b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga82b0b627885b0136d5cbb0bd093cf88b">MR::SubdivideFillingSettings::maxEdgeLen</a> = 0</td></tr>
@@ -34021,6 +34036,38 @@ template&lt;typename Tag&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRColorMapAggregator_8h.html">MRMesh/MRColorMapAggregator.h</a>&gt;</code></p>
 
 <p>get aggregated color map for active elements </p>
+
+</div>
+</div>
+<a id="ga58f5367f9a8fe53352757b9c0b0e10fe" name="ga58f5367f9a8fe53352757b9c0b0e10fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga58f5367f9a8fe53352757b9c0b0e10fe">&#9670;&#160;</a></span>align()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AffineXf3d MR::Features::align </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Features_1_1AlignPair.html">AlignPair</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>primary</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Features_1_1AlignParams.html">AlignParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRFeatures_8h.html">MRMesh/MRFeatures.h</a>&gt;</code></p>
+<p>Returns the rigid transformation in world space that moves the moving features onto the fixed ones. The <span class="tt">primary</span> pair is matched exactly: planes are seated against each other, axes (line, circle, cylinder, cone) become coaxial with coinciding centers, points (point, sphere) coincide; see <span class="tt"><a class="el" href="structMR_1_1Features_1_1AlignParams.html">AlignParams</a></span> for the rest. </p>
 
 </div>
 </div>
@@ -216136,6 +216183,22 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga408726bc6227a32adddf7127aec65862" name="ga408726bc6227a32adddf7127aec65862"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga408726bc6227a32adddf7127aec65862">&#9670;&#160;</a></span>clocking</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;<a class="el" href="structMR_1_1Features_1_1AlignPair.html">AlignPair</a>&gt; MR::Features::AlignParams::clocking</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If set, its directions (projected on the plane orthogonal to the primary direction) set the spin instead of the locators. </p>
+
+</div>
+</div>
 <a id="ga79e98fc0f869a338e1adbd9d61c767a4" name="ga79e98fc0f869a338e1adbd9d61c767a4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga79e98fc0f869a338e1adbd9d61c767a4">&#9670;&#160;</a></span>close</h2>
 
@@ -223299,6 +223362,20 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gaf52393b26b9b3a6a4c8426851ba70739" name="gaf52393b26b9b3a6a4c8426851ba70739"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf52393b26b9b3a6a4c8426851ba70739">&#9670;&#160;</a></span>fixed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga955a7f843d9b5df0f393ec7699ada624">Primitives::Variant</a> MR::Features::AlignPair::fixed</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga1fe34b378f38697c828575c8204e7b57" name="ga1fe34b378f38697c828575c8204e7b57"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga1fe34b378f38697c828575c8204e7b57">&#9670;&#160;</a></span>fixedRotationAxis</h2>
 
@@ -223368,6 +223445,22 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>if true then a tool path for a flat milling tool will be generated </p>
+
+</div>
+</div>
+<a id="ga8166f121bf5c51d70ea1958c3bd56e47" name="ga8166f121bf5c51d70ea1958c3bd56e47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8166f121bf5c51d70ea1958c3bd56e47">&#9670;&#160;</a></span>flip</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::Features::AlignParams::flip = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Planes: same normals instead of opposite ones; axes: the farther direction instead of the closer one. </p>
 
 </div>
 </div>
@@ -223935,6 +224028,22 @@ not recommended in most cases </dd></dl>
 
 </div>
 </div>
+<a id="gaa92975ffea36348b416103b54b9674ed" name="gaa92975ffea36348b416103b54b9674ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa92975ffea36348b416103b54b9674ed">&#9670;&#160;</a></span>freeDofs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int* MR::Features::AlignParams::freeDofs = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Optional output: the number of rigid degrees of freedom the features leave free (0 - the placement is fully defined). </p>
+
+</div>
+</div>
 <a id="ga0013d7ada21c45455c0bcddddde6e242" name="ga0013d7ada21c45455c0bcddddde6e242"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga0013d7ada21c45455c0bcddddde6e242">&#9670;&#160;</a></span>freeVolume</h2>
 
@@ -224182,7 +224291,7 @@ not recommended in most cases </dd></dl>
 </div>
 </div>
 <a id="ga00a86d77277d18dff9b4fa3f1744be9e" name="ga00a86d77277d18dff9b4fa3f1744be9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga00a86d77277d18dff9b4fa3f1744be9e">&#9670;&#160;</a></span>gap</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga00a86d77277d18dff9b4fa3f1744be9e">&#9670;&#160;</a></span>gap <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -224193,6 +224302,22 @@ not recommended in most cases </dd></dl>
       </table>
 </div><div class="memdoc">
 <p>keeps the regions of any two vertex sets from overlapping, even if the sets are closer than (2*distance + gap): in the vertices where the sum of two distance fields is less than (2*distance + gap), both values are scaled proportionally to make the sum exactly (2*distance + gap); so the gap is exact in the scaled fields, and the surface gap between two regions is about gap * setsDistance / (2*distance + gap); must be positive, otherwise the isolines of two close sets coincide </p>
+
+</div>
+</div>
+<a id="ga731f13b3d4c4682e0a206151de46f1c5" name="ga731f13b3d4c4682e0a206151de46f1c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga731f13b3d4c4682e0a206151de46f1c5">&#9670;&#160;</a></span>gap <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::Features::AlignParams::gap = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Signed distance between the matched planes or axis centers along the fixed primary normal or axis. </p>
 
 </div>
 </div>
@@ -227604,6 +227729,21 @@ template&lt;typename ObjectT = Object&gt; </div>
 
 </div>
 </div>
+<a id="ga59b3e044bd00a182e20fafe1e7e97f41" name="ga59b3e044bd00a182e20fafe1e7e97f41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga59b3e044bd00a182e20fafe1e7e97f41">&#9670;&#160;</a></span>locators</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structMR_1_1Features_1_1AlignPair.html">AlignPair</a>&gt; MR::Features::AlignParams::locators</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Their centers are matched in the least squares sense by the motion the primary pair leaves free: spin about the primary direction and, for planes, translation along them. For a point primary, the first locator sets the direction to spin about. A locator's lever arm (its distance from the primary axis, or for planes from the locator centroid) should be well above its fitting noise, otherwise the noise sets the spin. </p>
+
+</div>
+</div>
 <a id="ga1c122d1dc6393cbf06a33b2b7d33ef8e" name="ga1c122d1dc6393cbf06a33b2b7d33ef8e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga1c122d1dc6393cbf06a33b2b7d33ef8e">&#9670;&#160;</a></span>loDistLimitSq</h2>
 
@@ -230664,6 +230804,20 @@ template&lt;typename T, typename I&gt; </div>
 </div><div class="memdoc">
 
 <p>signal is called on mouse down </p>
+
+</div>
+</div>
+<a id="ga6372e909fd185468c8c761522462d498" name="ga6372e909fd185468c8c761522462d498"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6372e909fd185468c8c761522462d498">&#9670;&#160;</a></span>moving</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga955a7f843d9b5df0f393ec7699ada624">Primitives::Variant</a> MR::Features::AlignPair::moving</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

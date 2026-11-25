@@ -139,7 +139,7 @@ $(function(){initNavTree('MRFeatures_8h.html','',''); });
   <div class="headertitle"><div class="title">MRFeatures.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRAffineXf_8h_source.html">MRMesh/MRAffineXf.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRAffineXf3_8h_source.html">MRMesh/MRAffineXf3.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRCone3_8h_source.html">MRMesh/MRCone3.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRCylinder3_8h_source.html">MRMesh/MRCylinder3.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRPlane3_8h_source.html">MRMesh/MRPlane3.h</a>&quot;</code><br />
@@ -148,6 +148,7 @@ $(function(){initNavTree('MRFeatures_8h.html','',''); });
 <code>#include &lt;cassert&gt;</code><br />
 <code>#include &lt;optional&gt;</code><br />
 <code>#include &lt;variant&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="MRFeatures_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -174,6 +175,9 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AFeatures_3A_3ATraits_3A_3ABinary_3C_20Primitives_3A_3APlane_2C_20Primitives_3A_3AConeSegment_20_3E" id="r_MR_3A_3AFeatures_3A_3ATraits_3A_3ABinary_3C_20Primitives_3A_3APlane_2C_20Primitives_3A_3AConeSegment_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html">MR::Features::Traits::Binary&lt; Primitives::Plane, Primitives::ConeSegment &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3AFeatures_3A_3ATraits_3A_3ABinary_3C_20Primitives_3A_3APlane_2C_20Primitives_3A_3APlane_20_3E" id="r_MR_3A_3AFeatures_3A_3ATraits_3A_3ABinary_3C_20Primitives_3A_3APlane_2C_20Primitives_3A_3APlane_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html">MR::Features::Traits::Binary&lt; Primitives::Plane, Primitives::Plane &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">?? &lt;-&gt; Plane  <a href="structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AFeatures_3A_3AAlignPair" id="r_MR_3A_3AFeatures_3A_3AAlignPair"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Features_1_1AlignPair.html">MR::Features::AlignPair</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A feature of the moving part and the matching feature of the fixed part, both in world space.  <a href="structMR_1_1Features_1_1AlignPair.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AFeatures_3A_3AAlignParams" id="r_MR_3A_3AFeatures_3A_3AAlignParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Features_1_1AlignParams.html">MR::Features::AlignParams</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -239,6 +243,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:ga8ae032d9a48f5e4e7669748c12b6f05c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same, but with a variant as the second argument.  <br /></td></tr>
 <tr class="memitem:gae0537612491fae86ac764b65a9835df9" id="r_gae0537612491fae86ac764b65a9835df9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Features_1_1MeasureResult.html">MeasureResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gae0537612491fae86ac764b65a9835df9">MR::Features::measure</a> (const <a class="el" href="group__GeneralGroup.html#ga955a7f843d9b5df0f393ec7699ada624">Primitives::Variant</a> &amp;a, const <a class="el" href="group__GeneralGroup.html#ga955a7f843d9b5df0f393ec7699ada624">Primitives::Variant</a> &amp;b)</td></tr>
 <tr class="memdesc:gae0537612491fae86ac764b65a9835df9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same, but with variants as both argument.  <br /></td></tr>
+<tr class="memitem:ga58f5367f9a8fe53352757b9c0b0e10fe" id="r_ga58f5367f9a8fe53352757b9c0b0e10fe"><td class="memItemLeft" align="right" valign="top">AffineXf3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga58f5367f9a8fe53352757b9c0b0e10fe">MR::Features::align</a> (const <a class="el" href="structMR_1_1Features_1_1AlignPair.html">AlignPair</a> &amp;primary, const <a class="el" href="structMR_1_1Features_1_1AlignParams.html">AlignParams</a> &amp;params={})</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

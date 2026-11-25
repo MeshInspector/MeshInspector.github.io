@@ -2,7 +2,7 @@ var searchData=
 [
   ['g_0',['g',['../classColor.html#af7de185bad4910d0ab5867fdfb058324',1,'Color']]],
   ['gamma_1',['gamma',['../classDenoiseViaNormalsSettings.html#af756fd131c5b08ed32dfecb0e42ed276',1,'DenoiseViaNormalsSettings::gamma'],['../classDenoiseWithCreasesSettings.html#a8d5661c8e7790209817f4d4c5709ddd1',1,'DenoiseWithCreasesSettings::gamma']]],
-  ['gap_2',['gap',['../classCutAroundVertSetsParams.html#a987c1e15110707536d838a26d7a8ff93',1,'CutAroundVertSetsParams']]],
+  ['gap_2',['gap',['../classCutAroundVertSetsParams.html#a987c1e15110707536d838a26d7a8ff93',1,'CutAroundVertSetsParams::gap'],['../classFeatures_1_1AlignParams.html#a38c75298d687156028959874e0901dc6',1,'Features::AlignParams::gap']]],
   ['gaussian_3',['Gaussian',['../__all_8d_8mts.html#ac393961d1afb679b6e9943ae1ecc6abeaa11844f44df96808eb4e519ba04f088c',1,'_all.d.mts']]],
   ['gaussianfilter_4',['gaussianFilter',['../__all_8d_8mts.html#a2b5dcf3c6dfb2b562c4700188ee320b5',1,'_all.d.mts']]],
   ['gaussianfiltered_5',['gaussianFiltered',['../__all_8d_8mts.html#aae304cea2b6a0daecf7cf64563c88afd',1,'_all.d.mts']]],

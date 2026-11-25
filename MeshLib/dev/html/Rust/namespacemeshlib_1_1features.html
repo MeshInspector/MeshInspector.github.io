@@ -145,6 +145,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:AlignPair" id="r_AlignPair"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1features_1_1AlignPair.html">AlignPair</a></td></tr>
+<tr class="memitem:AlignParams" id="r_AlignParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1features_1_1AlignParams.html">AlignParams</a></td></tr>
 <tr class="memitem:MeasureResult" id="r_MeasureResult"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1features_1_1MeasureResult.html">MeasureResult</a></td></tr>
 <tr class="memitem:MeasureResult_5FAngle" id="r_MeasureResult_5FAngle"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1features_1_1MeasureResult__Angle.html">MeasureResult_Angle</a></td></tr>
 <tr class="memitem:MeasureResult_5FBasicPart" id="r_MeasureResult_5FBasicPart"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1features_1_1MeasureResult__BasicPart.html">MeasureResult_BasicPart</a></td></tr>
@@ -174,9 +176,33 @@ Functions</h2></td></tr>
 <tr class="memitem:aa415bf840da64e21bd9d815753800e5e" id="r_aa415bf840da64e21bd9d815753800e5e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa415bf840da64e21bd9d815753800e5e">to_string</a> (status:meshlib::features::MeasureResult_Status) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1std__string__view.html">meshlib::std_string_view</a> &gt;</td></tr>
 <tr class="memitem:a2214b8b12ca3cd1a6f014e28a2716ffa" id="r_a2214b8b12ca3cd1a6f014e28a2716ffa"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2214b8b12ca3cd1a6f014e28a2716ffa">name</a> (var:&amp;<a class="el" href="structmeshlib_1_1std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__Plane.html">meshlib::std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a>) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1std__string.html">meshlib::std_string</a> &gt;</td></tr>
 <tr class="memitem:a2187e3edb88e19bbfc7043790f4f326a" id="r_a2187e3edb88e19bbfc7043790f4f326a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2187e3edb88e19bbfc7043790f4f326a">measure</a> (a:&amp;<a class="el" href="structmeshlib_1_1std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__Plane.html">meshlib::std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a>, b:&amp;<a class="el" href="structmeshlib_1_1std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__Plane.html">meshlib::std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a>) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1features_1_1MeasureResult.html">meshlib::features::MeasureResult</a> &gt;</td></tr>
+<tr class="memitem:a681d5d42ef3716dd31f0bff973fd95fa" id="r_a681d5d42ef3716dd31f0bff973fd95fa"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a681d5d42ef3716dd31f0bff973fd95fa">align</a> (primary:&amp;<a class="el" href="structmeshlib_1_1features_1_1AlignPair.html">meshlib::features::AlignPair</a>, params:Option&lt;&amp;<a class="el" href="structmeshlib_1_1features_1_1AlignParams.html">meshlib::features::AlignParams</a> &gt;) -&gt; <a class="el" href="structmeshlib_1_1AffineXf3d.html">meshlib::AffineXf3d</a></td></tr>
 <tr class="memitem:ac133a133cb27ee95845caad8da2177d5" id="r_ac133a133cb27ee95845caad8da2177d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac133a133cb27ee95845caad8da2177d5">for_each_subfeature</a> (feature:&amp;<a class="el" href="structmeshlib_1_1std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__Plane.html">meshlib::std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</a>, func:&amp;<a class="el" href="structmeshlib_1_1std__function__void__from__const__MR__Features__SubfeatureInfo__ref.html">meshlib::std_function_void_from_const_MR_Features_SubfeatureInfo_ref</a>)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a681d5d42ef3716dd31f0bff973fd95fa" name="a681d5d42ef3716dd31f0bff973fd95fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a681d5d42ef3716dd31f0bff973fd95fa">&#9670;&#160;</a></span>align()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::features::align </td>
+          <td>(</td>
+          <td class="paramtype">primary:&amp;<a class="el" href="structmeshlib_1_1features_1_1AlignPair.html">meshlib::features::AlignPair</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params:Option&lt;&amp;<a class="el" href="structmeshlib_1_1features_1_1AlignParams.html">meshlib::features::AlignParams</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;) -&gt;  <a class="el" href="structmeshlib_1_1AffineXf3d.html">meshlib::AffineXf3d</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the rigid transformation in world space that moves the moving features onto the fixed ones. The <span class="tt">primary</span> pair is matched exactly: planes are seated against each other, axes (line, circle, cylinder, cone) become coaxial with coinciding centers, points (point, sphere) coincide; see <span class="tt"><a class="el" href="structmeshlib_1_1features_1_1AlignParams.html">AlignParams</a></span> for the rest. Generated from function <span class="tt">MR::Features::align</span>.</p>
+<p>Calls <span class="tt">MR_Features_align()</span>. </p>
+
+</div>
+</div>
 <a id="ac133a133cb27ee95845caad8da2177d5" name="ac133a133cb27ee95845caad8da2177d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac133a133cb27ee95845caad8da2177d5">&#9670;&#160;</a></span>for_each_subfeature()</h2>
 

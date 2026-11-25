@@ -1,5 +1,8 @@
 var NAVTREEINDEX32 =
 {
+"structmeshlib_1_1Buffer__MR__PixelId__MR__PixelId.html#a712389116db4a1d3957a3f2bd32288ac":[9,5,1,0,0,132,6],
+"structmeshlib_1_1Buffer__MR__PixelId__MR__PixelId.html#a7bdf610395bf1872e15ba599256e58f3":[9,5,0,0,0,145,5],
+"structmeshlib_1_1Buffer__MR__PixelId__MR__PixelId.html#a7bdf610395bf1872e15ba599256e58f3":[9,5,1,0,0,132,5],
 "structmeshlib_1_1Buffer__MR__PixelId__MR__PixelId.html#a83031e6565bb37e573903802869d1e61":[9,5,0,0,0,145,12],
 "structmeshlib_1_1Buffer__MR__PixelId__MR__PixelId.html#a83031e6565bb37e573903802869d1e61":[9,5,1,0,0,132,12],
 "structmeshlib_1_1Buffer__MR__PixelId__MR__PixelId.html#a940f64c0e0b7769bad72f4154972a7ab":[9,5,0,0,0,145,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX32 =
 "structmeshlib_1_1Buffer__char.html#ae71000a0dd5420b0cd68386ccecfb37b":[9,5,1,0,0,121,5],
 "structmeshlib_1_1Buffer__char.html#aec14f1303d3fa4a5fb995e40450836ff":[9,5,0,0,0,134,8],
 "structmeshlib_1_1Buffer__char.html#aec14f1303d3fa4a5fb995e40450836ff":[9,5,1,0,0,121,8],
-"structmeshlib_1_1Buffer__char.html#aef21d8102bb26d473d655d60ded716e0":[9,5,0,0,0,134,7],
-"structmeshlib_1_1Buffer__char.html#aef21d8102bb26d473d655d60ded716e0":[9,5,1,0,0,121,7],
-"structmeshlib_1_1Buffer__char.html#af03d587c4e785717c8ca262e932e5051":[9,5,0,0,0,134,4],
-"structmeshlib_1_1Buffer__char.html#af03d587c4e785717c8ca262e932e5051":[9,5,1,0,0,121,4]
+"structmeshlib_1_1Buffer__char.html#aef21d8102bb26d473d655d60ded716e0":[9,5,0,0,0,134,7]
 };

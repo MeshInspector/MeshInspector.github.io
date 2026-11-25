@@ -1,5 +1,8 @@
 var NAVTREEINDEX72 =
 {
+"structmeshlib_1_1MakeBridgeResult.html#a95fcc1c82ff20985b70e557c6fd89b0d":[9,5,1,0,0,551,2],
+"structmeshlib_1_1MakeBridgeResult.html#adf10bfa518579f30ed64416bba97e1ba":[9,5,0,0,0,564,8],
+"structmeshlib_1_1MakeBridgeResult.html#adf10bfa518579f30ed64416bba97e1ba":[9,5,1,0,0,551,8],
 "structmeshlib_1_1MakeDegenerateBandAroundRegionParams.html":[9,5,0,0,0,565],
 "structmeshlib_1_1MakeDegenerateBandAroundRegionParams.html":[9,5,1,0,0,552],
 "structmeshlib_1_1MakeDegenerateBandAroundRegionParams.html#a117cb9665ce01430dc16696d7242ff83":[9,5,0,0,0,565,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX72 =
 "structmeshlib_1_1MarchingCubesParams.html#a7a11c6d0382d6b5c7ad7efe4d8ad4fe5":[9,5,1,0,0,560,17],
 "structmeshlib_1_1MarchingCubesParams.html#a7b14e6c54c4e74a36a1164a297ffb0c8":[9,5,0,0,0,573,26],
 "structmeshlib_1_1MarchingCubesParams.html#a7b14e6c54c4e74a36a1164a297ffb0c8":[9,5,1,0,0,560,26],
-"structmeshlib_1_1MarchingCubesParams.html#a851140d4fde2f73c744371d9d8bba305":[9,5,0,0,0,573,12],
-"structmeshlib_1_1MarchingCubesParams.html#a851140d4fde2f73c744371d9d8bba305":[9,5,1,0,0,560,12],
-"structmeshlib_1_1MarchingCubesParams.html#a904491aadecd271d701c36fafdec9e79":[9,5,0,0,0,573,19],
-"structmeshlib_1_1MarchingCubesParams.html#a904491aadecd271d701c36fafdec9e79":[9,5,1,0,0,560,19]
+"structmeshlib_1_1MarchingCubesParams.html#a851140d4fde2f73c744371d9d8bba305":[9,5,0,0,0,573,12]
 };

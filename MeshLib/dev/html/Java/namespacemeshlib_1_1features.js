@@ -2,6 +2,8 @@ var namespacemeshlib_1_1features =
 [
     [ "primitives", "namespacemeshlib_1_1features_1_1primitives.html", "namespacemeshlib_1_1features_1_1primitives" ],
     [ "traits", "namespacemeshlib_1_1features_1_1traits.html", "namespacemeshlib_1_1features_1_1traits" ],
+    [ "AlignPair", "classmeshlib_1_1features_1_1AlignPair.html", "classmeshlib_1_1features_1_1AlignPair" ],
+    [ "AlignParams", "classmeshlib_1_1features_1_1AlignParams.html", "classmeshlib_1_1features_1_1AlignParams" ],
     [ "Functions", "classmeshlib_1_1features_1_1Functions.html", null ],
     [ "MeasureResult", "classmeshlib_1_1features_1_1MeasureResult.html", "classmeshlib_1_1features_1_1MeasureResult" ],
     [ "MeasureResult_Angle", "classmeshlib_1_1features_1_1MeasureResult__Angle.html", "classmeshlib_1_1features_1_1MeasureResult__Angle" ],

@@ -130,8 +130,9 @@ var searchData=
   ['modifiedmesh_127',['modifiedMesh',['../classToolPathResult.html#a88f055abc4d69d846bae6e6d93cf3b47',1,'ToolPathResult']]],
   ['modifiedregion_128',['modifiedRegion',['../classToolPathResult.html#a961b9d610f529aadbabcf58e2ce1bd6f',1,'ToolPathResult']]],
   ['modifybdvertices_129',['modifyBdVertices',['../classTriangulateHolesParams.html#ae138653133c3bf8e015c1f58d5907814',1,'TriangulateHolesParams']]],
-  ['mtlerrors_130',['mtlErrors',['../classMeshLoad_1_1ObjLoadSettings.html#a32437b447af1202a5f8aa74924c7543e',1,'MeshLoad::ObjLoadSettings']]],
-  ['mtp_131',['mtp',['../classMeshPointAndDistance.html#a895664e0915dbfffd125cd7511560d9a',1,'MeshPointAndDistance']]],
-  ['multipleedgesresolvemode_132',['multipleEdgesResolveMode',['../classFillHoleParams.html#ac454888a72d2277838db1f4d626312ec',1,'FillHoleParams']]],
-  ['mutualclosest_133',['mutualClosest',['../classICPProperties.html#a6de5a245d12c271892b87380cbcb7804',1,'ICPProperties']]]
+  ['moving_130',['moving',['../classFeatures_1_1AlignPair.html#acb62b3c66d29ad8cfbc5f5f22aa5521b',1,'Features::AlignPair']]],
+  ['mtlerrors_131',['mtlErrors',['../classMeshLoad_1_1ObjLoadSettings.html#a32437b447af1202a5f8aa74924c7543e',1,'MeshLoad::ObjLoadSettings']]],
+  ['mtp_132',['mtp',['../classMeshPointAndDistance.html#a895664e0915dbfffd125cd7511560d9a',1,'MeshPointAndDistance']]],
+  ['multipleedgesresolvemode_133',['multipleEdgesResolveMode',['../classFillHoleParams.html#ac454888a72d2277838db1f4d626312ec',1,'FillHoleParams']]],
+  ['mutualclosest_134',['mutualClosest',['../classICPProperties.html#a6de5a245d12c271892b87380cbcb7804',1,'ICPProperties']]]
 ];

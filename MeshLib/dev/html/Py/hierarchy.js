@@ -414,6 +414,9 @@ var hierarchy =
     [ "mrmeshpy.Const_std_optional_double", "classmrmeshpy_1_1Const__std__optional__double.html", [
       [ "mrmeshpy.std_optional_double", "classmrmeshpy_1_1std__optional__double.html", null ]
     ] ],
+    [ "mrmeshpy.Const_std_optional_Features_AlignPair", "classmrmeshpy_1_1Const__std__optional__Features__AlignPair.html", [
+      [ "mrmeshpy.std_optional_Features_AlignPair", "classmrmeshpy_1_1std__optional__Features__AlignPair.html", null ]
+    ] ],
     [ "mrmeshpy.Const_std_optional_float", "classmrmeshpy_1_1Const__std__optional__float.html", [
       [ "mrmeshpy.std_optional_float", "classmrmeshpy_1_1std__optional__float.html", null ]
     ] ],
@@ -581,6 +584,9 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.Const_std_vector_FeatureObjectSharedProperty", "classmrmeshpy_1_1Const__std__vector__FeatureObjectSharedProperty.html", [
       [ "mrmeshpy.std_vector_FeatureObjectSharedProperty", "classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty.html", null ]
+    ] ],
+    [ "mrmeshpy.Const_std_vector_Features_AlignPair", "classmrmeshpy_1_1Const__std__vector__Features__AlignPair.html", [
+      [ "mrmeshpy.std_vector_Features_AlignPair", "classmrmeshpy_1_1std__vector__Features__AlignPair.html", null ]
     ] ],
     [ "mrmeshpy.Const_std_vector_FillHoleItem", "classmrmeshpy_1_1Const__std__vector__FillHoleItem.html", [
       [ "mrmeshpy.std_vector_FillHoleItem", "classmrmeshpy_1_1std__vector__FillHoleItem.html", null ]
@@ -1131,6 +1137,12 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ConstAffineXf3f", "classmrmeshpy_1_1ConstAffineXf3f.html", [
       [ "mrmeshpy.AffineXf3f", "classmrmeshpy_1_1AffineXf3f.html", null ]
+    ] ],
+    [ "mrmeshpy.Features.ConstAlignPair", "classmrmeshpy_1_1Features_1_1ConstAlignPair.html", [
+      [ "mrmeshpy.Features.AlignPair", "classmrmeshpy_1_1Features_1_1AlignPair.html", null ]
+    ] ],
+    [ "mrmeshpy.Features.ConstAlignParams", "classmrmeshpy_1_1Features_1_1ConstAlignParams.html", [
+      [ "mrmeshpy.Features.AlignParams", "classmrmeshpy_1_1Features_1_1AlignParams.html", null ]
     ] ],
     [ "mrmeshpy.ConstAllLocalTriangulations", "classmrmeshpy_1_1ConstAllLocalTriangulations.html", [
       [ "mrmeshpy.AllLocalTriangulations", "classmrmeshpy_1_1AllLocalTriangulations.html", null ]

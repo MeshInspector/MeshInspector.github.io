@@ -100,6 +100,8 @@ var NAVTREEINDEX0 =
 "AffineXf2f_8java.html":[9,6,2,0,0,1,0,0,57],
 "AffineXf3d_8java.html":[9,6,2,0,0,1,0,0,58],
 "AffineXf3f_8java.html":[9,6,2,0,0,1,0,0,59],
+"AlignPair_8java.html":[9,6,2,0,0,1,0,0,3,2],
+"AlignParams_8java.html":[9,6,2,0,0,1,0,0,3,3],
 "AlignType_8java.html":[9,6,2,0,0,1,0,0,60],
 "AllLocalTriangulations_8java.html":[9,6,2,0,0,1,0,0,61],
 "AlphaShapeData_8java.html":[9,6,2,0,0,1,0,0,62],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "ChangePolylineAction_8java.html":[9,6,2,0,0,1,0,0,188],
 "ChangePolylinePointsAction_8java.html":[9,6,2,0,0,1,0,0,189],
 "ChangePolylineTopologyAction_8java.html":[9,6,2,0,0,1,0,0,190],
-"ChangeScaleAction_8java.html":[9,6,2,0,0,1,0,0,191],
-"ChangeSceneAction_8java.html":[9,6,2,0,0,1,0,0,192],
-"ChangeSceneAction__Type_8java.html":[9,6,2,0,0,1,0,0,193]
+"ChangeScaleAction_8java.html":[9,6,2,0,0,1,0,0,191]
 };

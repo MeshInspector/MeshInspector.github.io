@@ -53,6 +53,8 @@ var annotated_dup =
           [ "Unary< Primitives::Plane >", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4" ],
           [ "Unary< Primitives::Sphere >", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html", "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4" ]
         ] ],
+        [ "AlignPair", "structMR_1_1Features_1_1AlignPair.html", "structMR_1_1Features_1_1AlignPair" ],
+        [ "AlignParams", "structMR_1_1Features_1_1AlignParams.html", "structMR_1_1Features_1_1AlignParams" ],
         [ "MeasureResult", "structMR_1_1Features_1_1MeasureResult.html", "structMR_1_1Features_1_1MeasureResult" ],
         [ "SubfeatureInfo", "structMR_1_1Features_1_1SubfeatureInfo.html", "structMR_1_1Features_1_1SubfeatureInfo" ]
       ] ],

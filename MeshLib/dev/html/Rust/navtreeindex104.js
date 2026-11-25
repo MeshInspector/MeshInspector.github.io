@@ -1,5 +1,8 @@
 var NAVTREEINDEX104 =
 {
+"structmeshlib_1_1ObjectVoxels.html#abebfad5172c7b4be7ce805f7e62c5eb7":[9,5,1,0,0,718,167],
+"structmeshlib_1_1ObjectVoxels.html#abef1a9ccb27b676c78261d3c407e1490":[9,5,0,0,0,731,193],
+"structmeshlib_1_1ObjectVoxels.html#abef1a9ccb27b676c78261d3c407e1490":[9,5,1,0,0,718,193],
 "structmeshlib_1_1ObjectVoxels.html#ac093a03fd1107b1dbadbc3deaf2e4653":[9,5,0,0,0,731,11],
 "structmeshlib_1_1ObjectVoxels.html#ac093a03fd1107b1dbadbc3deaf2e4653":[9,5,1,0,0,718,11],
 "structmeshlib_1_1ObjectVoxels.html#ac1679d2be793212d83652ed5202f4659":[9,5,0,0,0,731,229],
@@ -246,8 +249,5 @@ var NAVTREEINDEX104 =
 "structmeshlib_1_1OffsetContoursParams.html#a77cdc207dcfac3b592d29b41b454e87b":[9,5,1,0,0,737,0],
 "structmeshlib_1_1OffsetContoursParams__CornerType.html":[9,5,0,0,0,751],
 "structmeshlib_1_1OffsetContoursParams__CornerType.html":[9,5,1,0,0,738],
-"structmeshlib_1_1OffsetContoursParams__EndType.html":[9,5,0,0,0,752],
-"structmeshlib_1_1OffsetContoursParams__EndType.html":[9,5,1,0,0,739],
-"structmeshlib_1_1OffsetContoursParams__Type.html":[9,5,0,0,0,753],
-"structmeshlib_1_1OffsetContoursParams__Type.html":[9,5,1,0,0,740]
+"structmeshlib_1_1OffsetContoursParams__EndType.html":[9,5,0,0,0,752]
 };

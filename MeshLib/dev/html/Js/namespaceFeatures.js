@@ -2,6 +2,8 @@ var namespaceFeatures =
 [
     [ "Primitives", "namespaceFeatures_1_1Primitives.html", "namespaceFeatures_1_1Primitives" ],
     [ "Traits", "namespaceFeatures_1_1Traits.html", "namespaceFeatures_1_1Traits" ],
+    [ "AlignPair", "classFeatures_1_1AlignPair.html", "classFeatures_1_1AlignPair" ],
+    [ "AlignParams", "classFeatures_1_1AlignParams.html", "classFeatures_1_1AlignParams" ],
     [ "MeasureResult", "classFeatures_1_1MeasureResult.html", "classFeatures_1_1MeasureResult" ],
     [ "MeasureResult_Angle", "classFeatures_1_1MeasureResult__Angle.html", "classFeatures_1_1MeasureResult__Angle" ],
     [ "MeasureResult_BasicPart", "classFeatures_1_1MeasureResult__BasicPart.html", "classFeatures_1_1MeasureResult__BasicPart" ],
@@ -14,6 +16,7 @@ var namespaceFeatures =
       [ "badRelativeLocation", "namespaceFeatures.html#a9670e944924b722f772b71446e3c81dea9ca8c8bbcb866353efe91293355fcbc5", null ],
       [ "notFinite", "namespaceFeatures.html#a9670e944924b722f772b71446e3c81dea0257a908746850b482b5dd55a207223a", null ]
     ] ],
+    [ "align", "namespaceFeatures.html#a830368eb60b7016803a4395ae0544092", null ],
     [ "forEachSubfeature", "namespaceFeatures.html#a85aed3fb89298e608d12ba2a7cba7736", null ],
     [ "measure", "namespaceFeatures.html#a135befdb58351db265f427073b13b2b6", null ],
     [ "name", "namespaceFeatures.html#ac9018f9d6ce1e0bf80dc23d5282ca872", null ],

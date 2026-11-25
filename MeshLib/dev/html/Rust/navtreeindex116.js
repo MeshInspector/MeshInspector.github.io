@@ -1,5 +1,8 @@
 var NAVTREEINDEX116 =
 {
+"structmeshlib_1_1PolylineProjectionWithOffsetResult3.html#ad108be3c723ddc9bd80a4b507c1b8b5b":[9,5,1,0,0,819,6],
+"structmeshlib_1_1PolylineProjectionWithOffsetResult3.html#ad277ffe25fae0f7541d370c704956662":[9,5,0,0,0,832,9],
+"structmeshlib_1_1PolylineProjectionWithOffsetResult3.html#ad277ffe25fae0f7541d370c704956662":[9,5,1,0,0,819,9],
 "structmeshlib_1_1PolylineProjectionWithOffsetResult3.html#adb0056071488773291564d403140eba1":[9,5,0,0,0,832,1],
 "structmeshlib_1_1PolylineProjectionWithOffsetResult3.html#adb0056071488773291564d403140eba1":[9,5,1,0,0,819,1],
 "structmeshlib_1_1PolylineSubdivideSettings.html":[9,5,0,0,0,833],
@@ -224,7 +227,7 @@ var NAVTREEINDEX116 =
 "structmeshlib_1_1PolylineTraits__MR__Vector3f.html#a82f3502e3ef23bd87a7516d88a57ad84":[9,5,1,0,0,825,0],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html":[9,5,0,0,0,839],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html":[9,5,1,0,0,826],
-"structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a051565ec6f85b8b1b8b0796637b71559":[9,5,0,0,0,3464],
+"structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a051565ec6f85b8b1b8b0796637b71559":[9,5,0,0,0,3466],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a051565ec6f85b8b1b8b0796637b71559":[9,5,0,0,0,839,3],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a051565ec6f85b8b1b8b0796637b71559":[9,5,1,0,0,826,3],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a524104fe078d3d9c604e42cb75065808":[9,5,0,0,0,839,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX116 =
 "structmeshlib_1_1PolynomialWrapper__double.html#a9062d49b7ea18cdc9ab4c21c9d638505":[9,5,0,0,0,854,5],
 "structmeshlib_1_1PolynomialWrapper__double.html#a9062d49b7ea18cdc9ab4c21c9d638505":[9,5,1,0,0,841,5],
 "structmeshlib_1_1PolynomialWrapper__double.html#ac4678099adadb83fab0e8906755662f3":[9,5,0,0,0,854,3],
-"structmeshlib_1_1PolynomialWrapper__double.html#ac4678099adadb83fab0e8906755662f3":[9,5,1,0,0,841,3],
-"structmeshlib_1_1PolynomialWrapper__double.html#af206cd189e48225974a898774f33172b":[9,5,0,0,0,854,2],
-"structmeshlib_1_1PolynomialWrapper__double.html#af206cd189e48225974a898774f33172b":[9,5,1,0,0,841,2],
-"structmeshlib_1_1PolynomialWrapper__float.html":[9,5,0,0,0,855]
+"structmeshlib_1_1PolynomialWrapper__double.html#ac4678099adadb83fab0e8906755662f3":[9,5,1,0,0,841,3]
 };

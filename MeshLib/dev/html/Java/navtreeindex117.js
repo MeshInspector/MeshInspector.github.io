@@ -1,5 +1,7 @@
 var NAVTREEINDEX117 =
 {
+"classmeshlib_1_1PolylineSubdivideSettings.html#a542648c00f4aec20ecdb532e83dbaea7":[9,6,1,0,0,842,11],
+"classmeshlib_1_1PolylineSubdivideSettings.html#a57fb60a3f28bd7371231d83b910cd856":[9,6,0,0,0,842,9],
 "classmeshlib_1_1PolylineSubdivideSettings.html#a57fb60a3f28bd7371231d83b910cd856":[9,6,1,0,0,842,9],
 "classmeshlib_1_1PolylineSubdivideSettings.html#a587e59e2f554060f8330b5bff0cc12f5":[9,6,0,0,0,842,4],
 "classmeshlib_1_1PolylineSubdivideSettings.html#a587e59e2f554060f8330b5bff0cc12f5":[9,6,1,0,0,842,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX117 =
 "classmeshlib_1_1PolynomialWrapper__double.html#ad560bd7494b2ba1286905edd4120a5f7":[9,6,1,0,0,863,5],
 "classmeshlib_1_1PolynomialWrapper__double.html#ae4590a6945a586135994f699253dca1c":[9,6,0,0,0,863,4],
 "classmeshlib_1_1PolynomialWrapper__double.html#ae4590a6945a586135994f699253dca1c":[9,6,1,0,0,863,4],
-"classmeshlib_1_1PolynomialWrapper__float.html":[9,6,0,0,0,864],
-"classmeshlib_1_1PolynomialWrapper__float.html":[9,6,1,0,0,864],
-"classmeshlib_1_1PolynomialWrapper__float.html#a027f711b937ac716b2380ab275025106":[9,6,0,0,0,864,6]
+"classmeshlib_1_1PolynomialWrapper__float.html":[9,6,0,0,0,864]
 };

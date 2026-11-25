@@ -1,6 +1,8 @@
 var MRFeatures_8rs =
 [
     [ "meshlib::features::MeasureResult_Status", "structmeshlib_1_1features_1_1MeasureResult__Status.html", null ],
+    [ "meshlib::features::AlignPair", "structmeshlib_1_1features_1_1AlignPair.html", "structmeshlib_1_1features_1_1AlignPair" ],
+    [ "meshlib::features::AlignParams", "structmeshlib_1_1features_1_1AlignParams.html", "structmeshlib_1_1features_1_1AlignParams" ],
     [ "meshlib::features::MeasureResult", "structmeshlib_1_1features_1_1MeasureResult.html", "structmeshlib_1_1features_1_1MeasureResult" ],
     [ "meshlib::features::MeasureResult_Angle", "structmeshlib_1_1features_1_1MeasureResult__Angle.html", "structmeshlib_1_1features_1_1MeasureResult__Angle" ],
     [ "meshlib::features::MeasureResult_BasicPart", "structmeshlib_1_1features_1_1MeasureResult__BasicPart.html", "structmeshlib_1_1features_1_1MeasureResult__BasicPart" ],
@@ -16,6 +18,7 @@ var MRFeatures_8rs =
     [ "meshlib::features::traits::Unary_MR_Features_Primitives_ConeSegment", "structmeshlib_1_1features_1_1traits_1_1Unary__MR__Features__Primitives__ConeSegment.html", "structmeshlib_1_1features_1_1traits_1_1Unary__MR__Features__Primitives__ConeSegment" ],
     [ "meshlib::features::traits::Unary_MR_Features_Primitives_Plane", "structmeshlib_1_1features_1_1traits_1_1Unary__MR__Features__Primitives__Plane.html", "structmeshlib_1_1features_1_1traits_1_1Unary__MR__Features__Primitives__Plane" ],
     [ "meshlib::features::traits::Unary_MR_Sphere3f", "structmeshlib_1_1features_1_1traits_1_1Unary__MR__Sphere3f.html", "structmeshlib_1_1features_1_1traits_1_1Unary__MR__Sphere3f" ],
+    [ "meshlib::features::align", "namespacemeshlib_1_1features.html#a681d5d42ef3716dd31f0bff973fd95fa", null ],
     [ "meshlib::features::measure", "namespacemeshlib_1_1features.html#a2187e3edb88e19bbfc7043790f4f326a", null ],
     [ "meshlib::features::name", "namespacemeshlib_1_1features.html#a2214b8b12ca3cd1a6f014e28a2716ffa", null ],
     [ "meshlib::features::primitives::op_equal_mr_features_primitives_cone_segment", "namespacemeshlib_1_1features_1_1primitives.html#a0c0c5e53005e4823eefe2c28ce2a9d88", null ],

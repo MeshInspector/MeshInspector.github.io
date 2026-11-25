@@ -1,5 +1,7 @@
 var NAVTREEINDEX116 =
 {
+"classmeshlib_1_1Polyline3.html#a0b4b5b9e267be6b84bb0903f8ba39835":[9,6,1,0,0,835,43],
+"classmeshlib_1_1Polyline3.html#a0b8ad2133e2c70e6d0c5d4165ecc55fa":[9,6,0,0,0,835,15],
 "classmeshlib_1_1Polyline3.html#a0b8ad2133e2c70e6d0c5d4165ecc55fa":[9,6,1,0,0,835,15],
 "classmeshlib_1_1Polyline3.html#a0c2f8b5d6bc4fd69b68839c9379d803a":[9,6,0,0,0,835,4],
 "classmeshlib_1_1Polyline3.html#a0c2f8b5d6bc4fd69b68839c9379d803a":[9,6,1,0,0,835,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX116 =
 "classmeshlib_1_1PolylineSubdivideSettings.html#a5019dfccacb3c5a1c4e1d6938a292837":[9,6,1,0,0,842,0],
 "classmeshlib_1_1PolylineSubdivideSettings.html#a505e120e4c3d3318298a67b624c16b2c":[9,6,0,0,0,842,13],
 "classmeshlib_1_1PolylineSubdivideSettings.html#a505e120e4c3d3318298a67b624c16b2c":[9,6,1,0,0,842,13],
-"classmeshlib_1_1PolylineSubdivideSettings.html#a542648c00f4aec20ecdb532e83dbaea7":[9,6,0,0,0,842,11],
-"classmeshlib_1_1PolylineSubdivideSettings.html#a542648c00f4aec20ecdb532e83dbaea7":[9,6,1,0,0,842,11],
-"classmeshlib_1_1PolylineSubdivideSettings.html#a57fb60a3f28bd7371231d83b910cd856":[9,6,0,0,0,842,9]
+"classmeshlib_1_1PolylineSubdivideSettings.html#a542648c00f4aec20ecdb532e83dbaea7":[9,6,0,0,0,842,11]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX18 =
 {
+"structmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html#a95e22fcbc65cf47f5c777e314ececdbf":[9,5,1,0,0,29,0],
+"structmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html":[9,5,0,0,0,43],
+"structmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html":[9,5,1,0,0,30],
 "structmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a3786fba4cef2eae089756d678f7742cd":[9,5,0,0,0,43,0],
 "structmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#a3786fba4cef2eae089756d678f7742cd":[9,5,1,0,0,30,0],
 "structmeshlib_1_1AABBTreeNode__MR__ObjTreeTraits.html":[9,5,0,0,0,44],
@@ -246,8 +249,5 @@ var NAVTREEINDEX18 =
 "structmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di40a01aa5ce3a7174a3613798fdee164e.html#a303154481153a72e3e733a3b7b7ce581":[9,5,1,0,0,41,124],
 "structmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di40a01aa5ce3a7174a3613798fdee164e.html#a311421da85177b0f7da906c39bea43c7":[9,5,0,0,0,54,103],
 "structmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di40a01aa5ce3a7174a3613798fdee164e.html#a311421da85177b0f7da906c39bea43c7":[9,5,1,0,0,41,103],
-"structmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di40a01aa5ce3a7174a3613798fdee164e.html#a33df173b28b0f4be55d151f34b4b4279":[9,5,0,0,0,54,95],
-"structmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di40a01aa5ce3a7174a3613798fdee164e.html#a33df173b28b0f4be55d151f34b4b4279":[9,5,1,0,0,41,95],
-"structmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di40a01aa5ce3a7174a3613798fdee164e.html#a3697199fe2217a2070e73e3be02460ec":[9,5,0,0,0,54,28],
-"structmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di40a01aa5ce3a7174a3613798fdee164e.html#a3697199fe2217a2070e73e3be02460ec":[9,5,1,0,0,41,28]
+"structmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di40a01aa5ce3a7174a3613798fdee164e.html#a33df173b28b0f4be55d151f34b4b4279":[9,5,0,0,0,54,95]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"IOFilter_8java.html":[9,6,2,0,0,1,0,0,527],
+"IPointPairs_8java.html":[9,6,2,0,0,1,0,0,528],
 "IPointsProjector_8java.html":[9,6,2,0,0,1,0,0,529],
 "IPointsToMeshProjector_8java.html":[9,6,2,0,0,1,0,0,530],
 "IRenderObject_8java.html":[9,6,2,0,0,1,0,0,531],
@@ -108,11 +110,11 @@ var NAVTREEINDEX2 =
 "Matrix4i_8java.html":[9,6,2,0,0,1,0,0,605],
 "Matrix__float_8java.html":[9,6,2,0,0,1,0,0,607],
 "McOffsetMeshOutputs_8java.html":[9,6,2,0,0,1,0,0,608],
-"MeasureResult_8java.html":[9,6,2,0,0,1,0,0,3,3],
-"MeasureResult__Angle_8java.html":[9,6,2,0,0,1,0,0,3,4],
-"MeasureResult__BasicPart_8java.html":[9,6,2,0,0,1,0,0,3,5],
-"MeasureResult__Distance_8java.html":[9,6,2,0,0,1,0,0,3,6],
-"MeasureResult__Status_8java.html":[9,6,2,0,0,1,0,0,3,7],
+"MeasureResult_8java.html":[9,6,2,0,0,1,0,0,3,5],
+"MeasureResult__Angle_8java.html":[9,6,2,0,0,1,0,0,3,6],
+"MeasureResult__BasicPart_8java.html":[9,6,2,0,0,1,0,0,3,7],
+"MeasureResult__Distance_8java.html":[9,6,2,0,0,1,0,0,3,8],
+"MeasureResult__Status_8java.html":[9,6,2,0,0,1,0,0,3,9],
 "MeasurementObject_8java.html":[9,6,2,0,0,1,0,0,609],
 "MergeVolumePartSettings_8java.html":[9,6,2,0,0,1,0,0,610],
 "MeshApproxRelaxParams_8java.html":[9,6,2,0,0,1,0,0,612],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "ObjMap_8java.html":[9,6,2,0,0,1,0,0,754],
 "ObjTreeTraits_8java.html":[9,6,2,0,0,1,0,0,755],
 "ObjVertId_8java.html":[9,6,2,0,0,1,0,0,756],
-"ObjectChildrenHolder_8java.html":[9,6,2,0,0,1,0,0,721],
-"ObjectComparableWithReference_8java.html":[9,6,2,0,0,1,0,0,722],
-"ObjectComparableWithReference__ComparableProperty_8java.html":[9,6,2,0,0,1,0,0,723]
+"ObjectChildrenHolder_8java.html":[9,6,2,0,0,1,0,0,721]
 };

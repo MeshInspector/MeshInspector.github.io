@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"ObjectComparableWithReference_8java.html":[9,6,2,0,0,1,0,0,722],
+"ObjectComparableWithReference__ComparableProperty_8java.html":[9,6,2,0,0,1,0,0,723],
 "ObjectComparableWithReference__ComparisonReferenceValue_8java.html":[9,6,2,0,0,1,0,0,724],
 "ObjectComparableWithReference__ComparisonTolerance_8java.html":[9,6,2,0,0,1,0,0,725],
 "ObjectDistanceMap_8java.html":[9,6,2,0,0,1,0,0,726],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "SortIntersectionsData_8java.html":[9,6,2,0,0,1,0,0,966],
 "SpacingSettings_8java.html":[9,6,2,0,0,1,0,0,967],
 "Sphere2d_8java.html":[9,6,2,0,0,1,0,0,968],
-"Sphere2f_8java.html":[9,6,2,0,0,1,0,0,969],
-"Sphere3d_8java.html":[9,6,2,0,0,1,0,0,970],
-"Sphere3f_8java.html":[9,6,2,0,0,1,0,0,971]
+"Sphere2f_8java.html":[9,6,2,0,0,1,0,0,969]
 };

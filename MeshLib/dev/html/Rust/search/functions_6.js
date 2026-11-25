@@ -2,8 +2,8 @@ var searchData=
 [
   ['gamma_0',['gamma',['../structmeshlib_1_1DenoiseViaNormalsSettings.html#afaab20792a2ec24b993dc3aace147576',1,'meshlib::DenoiseViaNormalsSettings::gamma()'],['../structmeshlib_1_1DenoiseWithCreasesSettings.html#ad8f3480e55dc2cd6a112b1030d1ec8e1',1,'meshlib::DenoiseWithCreasesSettings::gamma()']]],
   ['gamma_5fmut_1',['gamma_mut',['../structmeshlib_1_1DenoiseViaNormalsSettings.html#a346fb3d5e5fbc27669cfceafa83d42bc',1,'meshlib::DenoiseViaNormalsSettings::gamma_mut()'],['../structmeshlib_1_1DenoiseWithCreasesSettings.html#aae22ad304bae8dd19bdf8bb9c77654f6',1,'meshlib::DenoiseWithCreasesSettings::gamma_mut()']]],
-  ['gap_2',['gap',['../structmeshlib_1_1CutAroundVertSetsParams.html#abd9dd7d443b3fb452bdd1857bdb2e5a4',1,'meshlib::CutAroundVertSetsParams']]],
-  ['gap_5fmut_3',['gap_mut',['../structmeshlib_1_1CutAroundVertSetsParams.html#a0e5e5ca204529787b20dde27baf8e5eb',1,'meshlib::CutAroundVertSetsParams']]],
+  ['gap_2',['gap',['../structmeshlib_1_1CutAroundVertSetsParams.html#abd9dd7d443b3fb452bdd1857bdb2e5a4',1,'meshlib::CutAroundVertSetsParams::gap()'],['../structmeshlib_1_1features_1_1AlignParams.html#a815ccfcac5ce9ce4b731aec96629f958',1,'meshlib::features::AlignParams::gap()']]],
+  ['gap_5fmut_3',['gap_mut',['../structmeshlib_1_1CutAroundVertSetsParams.html#a0e5e5ca204529787b20dde27baf8e5eb',1,'meshlib::CutAroundVertSetsParams::gap_mut()'],['../structmeshlib_1_1features_1_1AlignParams.html#a8cb4aabc5c77903c9b1739c22390e5f8',1,'meshlib::features::AlignParams::gap_mut()']]],
   ['gaussian_5ffilter_4',['gaussian_filter',['../namespacemeshlib.html#a664a68fced89c8b90cd906c74e04d4ae',1,'meshlib']]],
   ['gaussian_5ffiltered_5',['gaussian_filtered',['../namespacemeshlib.html#a664cfd7cccbcda8517566a3776571dd8',1,'meshlib']]],
   ['gcode_5fsource_6',['gcode_source',['../structmeshlib_1_1ObjectGcode.html#ad4a9f418a71a6634380bbbf8436876c3',1,'meshlib::ObjectGcode']]],

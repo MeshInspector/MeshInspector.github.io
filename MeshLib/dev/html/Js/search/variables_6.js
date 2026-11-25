@@ -2,7 +2,7 @@ var searchData=
 [
   ['g_0',['g',['../classColor.html#af7de185bad4910d0ab5867fdfb058324',1,'Color']]],
   ['gamma_1',['gamma',['../classDenoiseViaNormalsSettings.html#af756fd131c5b08ed32dfecb0e42ed276',1,'DenoiseViaNormalsSettings::gamma'],['../classDenoiseWithCreasesSettings.html#a8d5661c8e7790209817f4d4c5709ddd1',1,'DenoiseWithCreasesSettings::gamma']]],
-  ['gap_2',['gap',['../classCutAroundVertSetsParams.html#a987c1e15110707536d838a26d7a8ff93',1,'CutAroundVertSetsParams']]],
+  ['gap_2',['gap',['../classCutAroundVertSetsParams.html#a987c1e15110707536d838a26d7a8ff93',1,'CutAroundVertSetsParams::gap'],['../classFeatures_1_1AlignParams.html#a38c75298d687156028959874e0901dc6',1,'Features::AlignParams::gap']]],
   ['geodesicpathapprox_3',['geodesicPathApprox',['../classSearchPathSettings.html#ac5c04976503c3dedd98bc6ddcaad94b5',1,'SearchPathSettings']]],
   ['getter_4',['getter',['../classFeatureObjectSharedProperty.html#a688bbe80f83224ac2c7636545b2e9224',1,'FeatureObjectSharedProperty']]],
   ['gradualpressuregrowth_5',['gradualPressureGrowth',['../classInflateSettings.html#a4f7c62f266b9a7700d0c402e487d8689',1,'InflateSettings']]],

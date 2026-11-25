@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"classmeshlib_1_1MultiRayMeshIntersectResult.html#a652df32429b5af6ba063800511262a10":[9,6,1,0,0,664,0],
+"classmeshlib_1_1MultiRayMeshIntersectResult.html#a78bc9805ad38f3f61a917e9e5e9f7646":[9,6,0,0,0,664,1],
 "classmeshlib_1_1MultiRayMeshIntersectResult.html#a78bc9805ad38f3f61a917e9e5e9f7646":[9,6,1,0,0,664,1],
 "classmeshlib_1_1MultiRayMeshIntersectResult.html#aa1c7f5164f5d8dc9095e6f00e7191797":[9,6,0,0,0,664,5],
 "classmeshlib_1_1MultiRayMeshIntersectResult.html#aa1c7f5164f5d8dc9095e6f00e7191797":[9,6,1,0,0,664,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "classmeshlib_1_1NextEdgeSameOrigin.html#af334187a326a7f653f6fa56a10f790a1":[9,6,1,0,0,677,3],
 "classmeshlib_1_1NoCtor__MR__EdgeId.html":[9,6,0,0,0,679],
 "classmeshlib_1_1NoCtor__MR__EdgeId.html":[9,6,1,0,0,679],
-"classmeshlib_1_1NoCtor__MR__EdgeId.html#a0b4778d8f43befcbf8721b52dca478c3":[9,6,0,0,0,679,2],
-"classmeshlib_1_1NoCtor__MR__EdgeId.html#a0b4778d8f43befcbf8721b52dca478c3":[9,6,1,0,0,679,2],
-"classmeshlib_1_1NoCtor__MR__EdgeId.html#a0d1a2df884c13dbf0bfaf6053e941b42":[9,6,0,0,0,679,0]
+"classmeshlib_1_1NoCtor__MR__EdgeId.html#a0b4778d8f43befcbf8721b52dca478c3":[9,6,0,0,0,679,2]
 };

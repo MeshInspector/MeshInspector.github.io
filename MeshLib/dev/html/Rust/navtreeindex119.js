@@ -1,5 +1,8 @@
 var NAVTREEINDEX119 =
 {
+"structmeshlib_1_1Quaterniond.html#afccc37bc3d502afee08459817ad31286":[9,5,0,0,0,873,12],
+"structmeshlib_1_1Quaterniond.html#afccc37bc3d502afee08459817ad31286":[9,5,1,0,0,860,12],
+"structmeshlib_1_1Quaternionf.html":[9,5,0,0,0,874],
 "structmeshlib_1_1Quaternionf.html":[9,5,1,0,0,861],
 "structmeshlib_1_1Quaternionf.html#a0d20abaf2f0e032fb7b81ef573458889":[9,5,0,0,0,874,20],
 "structmeshlib_1_1Quaternionf.html#a0d20abaf2f0e032fb7b81ef573458889":[9,5,1,0,0,861,20],
@@ -246,8 +249,5 @@ var NAVTREEINDEX119 =
 "structmeshlib_1_1RadiusMeasurementObject.html#aba8d0426bf82f011b98880088e3c2a0b":[9,5,0,0,0,875,10],
 "structmeshlib_1_1RadiusMeasurementObject.html#aba8d0426bf82f011b98880088e3c2a0b":[9,5,1,0,0,862,10],
 "structmeshlib_1_1RadiusMeasurementObject.html#ababe5a3734f66de116d591b8bc4dc999":[9,5,0,0,0,875,22],
-"structmeshlib_1_1RadiusMeasurementObject.html#ababe5a3734f66de116d591b8bc4dc999":[9,5,1,0,0,862,22],
-"structmeshlib_1_1RadiusMeasurementObject.html#abb630a71cc39ebd507e589210f9d5e27":[9,5,0,0,0,875,49],
-"structmeshlib_1_1RadiusMeasurementObject.html#abb630a71cc39ebd507e589210f9d5e27":[9,5,1,0,0,862,49],
-"structmeshlib_1_1RadiusMeasurementObject.html#abce37612f0bda5cefbf1703ce7c60e8d":[9,5,0,0,0,875,1]
+"structmeshlib_1_1RadiusMeasurementObject.html#ababe5a3734f66de116d591b8bc4dc999":[9,5,1,0,0,862,22]
 };

@@ -20,6 +20,8 @@ var hierarchy =
     [ "MR::AABBTreeWideLeafTri", "structMR_1_1AABBTreeWideLeafTri.html", null ],
     [ "MR::SpaceMouse::Action", "structMR_1_1SpaceMouse_1_1Action.html", null ],
     [ "MR::AffineXf< V >", "structMR_1_1AffineXf.html", null ],
+    [ "MR::Features::AlignPair", "structMR_1_1Features_1_1AlignPair.html", null ],
+    [ "MR::Features::AlignParams", "structMR_1_1Features_1_1AlignParams.html", null ],
     [ "MR::AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", null ],
     [ "MR::Allocator< T >", "structMR_1_1Allocator.html", null ],
     [ "MR::AlphaShapeData", "structMR_1_1AlphaShapeData.html", null ],

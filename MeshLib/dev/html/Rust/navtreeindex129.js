@@ -1,5 +1,8 @@
 var NAVTREEINDEX129 =
 {
+"structmeshlib_1_1Sphere3d.html#ae99f150a50d65907aa6aea6728875714":[9,5,0,0,0,959,9],
+"structmeshlib_1_1Sphere3d.html#ae99f150a50d65907aa6aea6728875714":[9,5,1,0,0,946,9],
+"structmeshlib_1_1Sphere3d.html#af7555648facd02b08efad5def4acaf11":[9,5,0,0,0,959,4],
 "structmeshlib_1_1Sphere3d.html#af7555648facd02b08efad5def4acaf11":[9,5,1,0,0,946,4],
 "structmeshlib_1_1Sphere3f.html":[9,5,0,0,0,960],
 "structmeshlib_1_1Sphere3f.html":[9,5,1,0,0,947],
@@ -246,8 +249,5 @@ var NAVTREEINDEX129 =
 "structmeshlib_1_1SphereObject.html#ab890560f4cf75b14a6bd3fde79503f20":[9,5,0,0,0,961,129],
 "structmeshlib_1_1SphereObject.html#ab890560f4cf75b14a6bd3fde79503f20":[9,5,1,0,0,948,129],
 "structmeshlib_1_1SphereObject.html#abfd3f31f639559dffda8671a5fdb44ec":[9,5,0,0,0,961,67],
-"structmeshlib_1_1SphereObject.html#abfd3f31f639559dffda8671a5fdb44ec":[9,5,1,0,0,948,67],
-"structmeshlib_1_1SphereObject.html#ac2a761d8e1846c12f914cb20c396f8dd":[9,5,0,0,0,961,130],
-"structmeshlib_1_1SphereObject.html#ac2a761d8e1846c12f914cb20c396f8dd":[9,5,1,0,0,948,130],
-"structmeshlib_1_1SphereObject.html#ac35e70501e95b8ff841dfecd76d2bf18":[9,5,0,0,0,961,45]
+"structmeshlib_1_1SphereObject.html#abfd3f31f639559dffda8671a5fdb44ec":[9,5,1,0,0,948,67]
 };

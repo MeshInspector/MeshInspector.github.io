@@ -2,7 +2,7 @@ var searchData=
 [
   ['g_0',['g',['../classmeshlib_1_1Color.html#a93c247bcff05fd0dcd5eae8747b708c9',1,'meshlib::Color']]],
   ['gamma_1',['gamma',['../classmeshlib_1_1DenoiseViaNormalsSettings.html#a504b80953dcb38507cb71d175833e161',1,'meshlib.DenoiseViaNormalsSettings.gamma()'],['../classmeshlib_1_1DenoiseWithCreasesSettings.html#a12d05a3415264c19e3dd1cb606a77379',1,'meshlib.DenoiseWithCreasesSettings.gamma()']]],
-  ['gap_2',['gap',['../classmeshlib_1_1CutAroundVertSetsParams.html#ad484472e75dc84dfbeaf7b1665a9c5f1',1,'meshlib::CutAroundVertSetsParams']]],
+  ['gap_2',['gap',['../classmeshlib_1_1CutAroundVertSetsParams.html#ad484472e75dc84dfbeaf7b1665a9c5f1',1,'meshlib.CutAroundVertSetsParams.gap()'],['../classmeshlib_1_1features_1_1AlignParams.html#af283118c4542f188465f593510a0d3f3',1,'meshlib.features.AlignParams.gap()']]],
   ['gaussianfilter_3',['gaussianFilter',['../classmeshlib_1_1Functions.html#aac8203adc070905d05eb8c8e2ce29d84',1,'meshlib::Functions']]],
   ['gaussianfiltered_4',['gaussianFiltered',['../classmeshlib_1_1Functions.html#a82723b602737ddd8714964312ff1b928',1,'meshlib::Functions']]],
   ['gcodeprocessor_5',['GcodeProcessor',['../classmeshlib_1_1GcodeProcessor.html#a46c669bd23faebfe888d599ee0d7bdd2',1,'meshlib.GcodeProcessor.GcodeProcessor(java.lang.foreign.MemorySegment ptr, boolean owned, java.lang.Object owner)'],['../classmeshlib_1_1GcodeProcessor.html#aeb7fc884b1f0dde6ea6893288c8fe719',1,'meshlib.GcodeProcessor.GcodeProcessor()'],['../classmeshlib_1_1GcodeProcessor.html#a517e43d1b92aa053cacc33ac8b82127b',1,'meshlib.GcodeProcessor.GcodeProcessor(meshlib.GcodeProcessor _other)']]],

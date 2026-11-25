@@ -1,5 +1,8 @@
 var NAVTREEINDEX114 =
 {
+"structmeshlib_1_1PointsLoadSettings.html#af8fc0000497012ac438b9415216d9857":[9,5,1,0,0,802,7],
+"structmeshlib_1_1PointsLoadSettings.html#affb3fabc471ee2ecef9fe819e21b7422":[9,5,0,0,0,815,6],
+"structmeshlib_1_1PointsLoadSettings.html#affb3fabc471ee2ecef9fe819e21b7422":[9,5,1,0,0,802,6],
 "structmeshlib_1_1PointsProjectionResult.html":[9,5,0,0,0,816],
 "structmeshlib_1_1PointsProjectionResult.html":[9,5,1,0,0,803],
 "structmeshlib_1_1PointsProjectionResult.html#a0a24dedf7f684db43d178e92f016bba4":[9,5,0,0,0,816,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX114 =
 "structmeshlib_1_1Polyline2.html#ae1fe2760a37b1fd33c2fa42dca7858c3":[9,5,1,0,0,811,28],
 "structmeshlib_1_1Polyline2.html#ae3e47be7ff9fa20abb9fe257117f5f5d":[9,5,0,0,0,824,32],
 "structmeshlib_1_1Polyline2.html#ae3e47be7ff9fa20abb9fe257117f5f5d":[9,5,1,0,0,811,32],
-"structmeshlib_1_1Polyline2.html#ae7cbbbe038c6925fe7238d115ce9ab1b":[9,5,0,0,0,824,9],
-"structmeshlib_1_1Polyline2.html#ae7cbbbe038c6925fe7238d115ce9ab1b":[9,5,1,0,0,811,9],
-"structmeshlib_1_1Polyline2.html#aed8807b43d497d4c8365ac8ff2637ddc":[9,5,0,0,0,824,23],
-"structmeshlib_1_1Polyline2.html#aed8807b43d497d4c8365ac8ff2637ddc":[9,5,1,0,0,811,23]
+"structmeshlib_1_1Polyline2.html#ae7cbbbe038c6925fe7238d115ce9ab1b":[9,5,0,0,0,824,9]
 };

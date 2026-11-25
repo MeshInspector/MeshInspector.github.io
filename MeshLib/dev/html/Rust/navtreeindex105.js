@@ -1,5 +1,8 @@
 var NAVTREEINDEX105 =
 {
+"structmeshlib_1_1OffsetContoursParams__EndType.html":[9,5,1,0,0,739],
+"structmeshlib_1_1OffsetContoursParams__Type.html":[9,5,0,0,0,753],
+"structmeshlib_1_1OffsetContoursParams__Type.html":[9,5,1,0,0,740],
 "structmeshlib_1_1OffsetContoursRestoreZParams.html":[9,5,0,0,0,754],
 "structmeshlib_1_1OffsetContoursRestoreZParams.html":[9,5,1,0,0,741],
 "structmeshlib_1_1OffsetContoursRestoreZParams.html#a321583844664c7e5db2e8b520d98899d":[9,5,0,0,0,754,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX105 =
 "structmeshlib_1_1OutputFlows.html#a5c234c18ae3696bef9b3b07b68af9723":[9,5,1,0,0,756,7],
 "structmeshlib_1_1OutputFlows.html#af4a6ce22b66df1aad3f32a8bf7c787b5":[9,5,0,0,0,769,4],
 "structmeshlib_1_1OutputFlows.html#af4a6ce22b66df1aad3f32a8bf7c787b5":[9,5,1,0,0,756,4],
-"structmeshlib_1_1OutputFlows.html#af86d3546b38fbaa42f4ee427f10e1dc3":[9,5,0,0,0,769,3],
-"structmeshlib_1_1OutputFlows.html#af86d3546b38fbaa42f4ee427f10e1dc3":[9,5,1,0,0,756,3],
-"structmeshlib_1_1Owned.html":[9,5,0,0,0,770],
-"structmeshlib_1_1Owned.html":[9,5,1,0,0,757]
+"structmeshlib_1_1OutputFlows.html#af86d3546b38fbaa42f4ee427f10e1dc3":[9,5,0,0,0,769,3]
 };

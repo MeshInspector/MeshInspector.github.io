@@ -1746,6 +1746,17 @@ var group__GeneralGroup =
     [ "MR::Features::Traits::Binary< Primitives::Plane, Primitives::Plane >", "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html", [
       [ "measure", "group__GeneralGroup.html#ga3c017debf3dd4d9d41f734c8aedbdfae", null ]
     ] ],
+    [ "MR::Features::AlignPair", "structMR_1_1Features_1_1AlignPair.html", [
+      [ "fixed", "group__GeneralGroup.html#gaf52393b26b9b3a6a4c8426851ba70739", null ],
+      [ "moving", "group__GeneralGroup.html#ga6372e909fd185468c8c761522462d498", null ]
+    ] ],
+    [ "MR::Features::AlignParams", "structMR_1_1Features_1_1AlignParams.html", [
+      [ "clocking", "group__GeneralGroup.html#ga408726bc6227a32adddf7127aec65862", null ],
+      [ "flip", "group__GeneralGroup.html#ga8166f121bf5c51d70ea1958c3bd56e47", null ],
+      [ "freeDofs", "group__GeneralGroup.html#gaa92975ffea36348b416103b54b9674ed", null ],
+      [ "gap", "group__GeneralGroup.html#ga731f13b3d4c4682e0a206151de46f1c5", null ],
+      [ "locators", "group__GeneralGroup.html#ga59b3e044bd00a182e20fafe1e7e97f41", null ]
+    ] ],
     [ "MR::FewSmallest< T >", "classMR_1_1FewSmallest.html", [
       [ "FewSmallest", "group__GeneralGroup.html#gafe398061489451b6194321a60829929f", null ],
       [ "FewSmallest", "group__GeneralGroup.html#ga10dd64ad23fa331c4f425f5d5400e9ac", null ],
@@ -11234,6 +11245,7 @@ var group__GeneralGroup =
     [ "MR::AffineXf< Vector2< float > >", "group__GeneralGroup.html#gaec972cf57a5eaa0aa5e93caac226ed1b", null ],
     [ "MR::AffineXf< Vector3< float > >", "group__GeneralGroup.html#ga7b2bc3d0ad1ddc7a028fcf106039bbf7", null ],
     [ "MR::ColorMapAggregator::aggregate", "group__GeneralGroup.html#ga266bfe77b1216a794ea433184f88e16f", null ],
+    [ "MR::Features::align", "group__GeneralGroup.html#ga58f5367f9a8fe53352757b9c0b0e10fe", null ],
     [ "MR::alignContoursToMesh", "group__GeneralGroup.html#ga619ceff20b592c254a41645fbe14fa4e", null ],
     [ "MR::UI::alignTextToButton", "group__GeneralGroup.html#gaa2a7445893c79401607de9a52a62a7d1", null ],
     [ "MR::UI::alignTextToCheckBox", "group__GeneralGroup.html#gae32b665c63449b0aa55f9462116b138e", null ],
@@ -17637,6 +17649,7 @@ var group__GeneralGroup =
     [ "MR::Viewer::clippingPlaneObject", "group__GeneralGroup.html#ga97b86b8de173c41ecb9d6b4c2abe7b65", null ],
     [ "MR::ModelBaseRenderParams::clipPlane", "group__GeneralGroup.html#ga62b1dc3636e8859d7b4f46b53d1e02c8", null ],
     [ "MR::PointInAllSpaces::clipSpace", "group__GeneralGroup.html#gac84dc0bf9782f486b05a9e4a3a738973", null ],
+    [ "MR::Features::AlignParams::clocking", "group__GeneralGroup.html#ga408726bc6227a32adddf7127aec65862", null ],
     [ "MR::LaunchParams::close", "group__GeneralGroup.html#ga79e98fc0f869a338e1adbd9d61c767a4", null ],
     [ "MR::ModalDialogSettings::closeButton", "group__GeneralGroup.html#gaa6a1e75f223b26a6dc2ad1ddd9771ab4", null ],
     [ "MR::PickPointManager::Params::closeContourPointColor", "group__GeneralGroup.html#ga9530ff46e6ad646ba04ba4460b560bca", null ],
@@ -18048,10 +18061,12 @@ var group__GeneralGroup =
     [ "MR::FanRecord::firstNei", "group__GeneralGroup.html#gade977d48f2f1f79c9a84ad421a2d5069", null ],
     [ "MR::MeshBuilder::VertSpan::firstVertex", "group__GeneralGroup.html#gaf483f48c26d9bb2d28b92af0b477712b", null ],
     [ "MR::UniteManyMeshesParams::fixDegenerations", "group__GeneralGroup.html#ga28505f79efacbde9b70d5d98148c26e4", null ],
+    [ "MR::Features::AlignPair::fixed", "group__GeneralGroup.html#gaf52393b26b9b3a6a4c8426851ba70739", null ],
     [ "MR::ICPProperties::fixedRotationAxis", "group__GeneralGroup.html#ga1fe34b378f38697c828575c8204e7b57", null ],
     [ "MR::UI::ButtonCustomizationParams::flags", "group__GeneralGroup.html#ga4f1e3048ba6230a8535ee31a43944921", null ],
     [ "MR::ObjectMeshHolder::flatShading_", "group__GeneralGroup.html#ga24fe3e12e40596c73eb4986aa7e32b75", null ],
     [ "MR::ToolPathParams::flatTool", "group__GeneralGroup.html#gadacfd8b713ae1664619abcff9d04fead", null ],
+    [ "MR::Features::AlignParams::flip", "group__GeneralGroup.html#ga8166f121bf5c51d70ea1958c3bd56e47", null ],
     [ "MR::UniteMeshNormalizationParams::flipInverted", "group__GeneralGroup.html#ga98e6be0126463385256bfc24f0fa7d45", null ],
     [ "MR::FlowAggregator::Flows::flowPerEdge", "group__GeneralGroup.html#ga1b00cb5cc3b4966d2b6b9b009a6ed153", null ],
     [ "MR::MeshBuilder::MeshPiece::fmap", "group__GeneralGroup.html#ga9d2f3c57986b646bdf6618a914511a38", null ],
@@ -18086,6 +18101,7 @@ var group__GeneralGroup =
     [ "MR::Viewer::framebufferSize", "group__GeneralGroup.html#gabcae9cdb5ec2a2c07ab8bad1508bd3d8", null ],
     [ "MR::StyleConsts::CustomCombo::framePadding", "group__GeneralGroup.html#ga56058d3872b6d96205debc3305df78a8", null ],
     [ "MR::ImGuiMenu::frameTimeMillisecThreshold_", "group__GeneralGroup.html#ga5ddf7775cb2ef343f9725d01c61e655b", null ],
+    [ "MR::Features::AlignParams::freeDofs", "group__GeneralGroup.html#gaa92975ffea36348b416103b54b9674ed", null ],
     [ "MR::MarchingCubesParams::freeVolume", "group__GeneralGroup.html#ga0013d7ada21c45455c0bcddddde6e242", null ],
     [ "MR::ConstantCuspParams::fromCenterToBoundary", "group__GeneralGroup.html#gae516e612489724b0fd33771eac4c5843", null ],
     [ "MR::WatershedGraph::OverflowPoint::fullBasin", "group__GeneralGroup.html#ga9b58bb17eb503942a4dcd7150690cfe2", null ],
@@ -18103,6 +18119,7 @@ var group__GeneralGroup =
     [ "MR::DenoiseViaNormalsSettings::gamma", "group__GeneralGroup.html#gad5c55319dff328b55475f07390acd505", null ],
     [ "MR::DenoiseWithCreasesSettings::gamma", "group__GeneralGroup.html#ga3d33a7031078f565b34961a3e568362d", null ],
     [ "MR::CutAroundVertSetsParams::gap", "group__GeneralGroup.html#ga00a86d77277d18dff9b4fa3f1744be9e", null ],
+    [ "MR::Features::AlignParams::gap", "group__GeneralGroup.html#ga731f13b3d4c4682e0a206151de46f1c5", null ],
     [ "MR::ObjectGcode::gcodeChangedSignal", "group__GeneralGroup.html#gaf7ac54e95de2f8914777e833e1a83678", null ],
     [ "MR::SurfaceManipulationWidget::generalEditingRegion_", "group__GeneralGroup.html#gacc7693d8223133cb63b0540ec58107aa", null ],
     [ "MR::SearchPathSettings::geodesicPathApprox", "group__GeneralGroup.html#ga73e36cb0460a39c6bf496d2038aced39", null ],
@@ -18314,6 +18331,7 @@ var group__GeneralGroup =
     [ "MR::ImGuiMenu::Local", "group__GeneralGroup.html#ga96f0bc9450fbe39ac5e90abcbc52c36a", null ],
     [ "MR::MenuItemInfo::localeDomainId", "group__GeneralGroup.html#ga7fb5cde33fc99b1ed5ef203ab985cffb", null ],
     [ "MR::RibbonTab::localeDomainId", "group__GeneralGroup.html#ga95385a994b5e54e71a51670a5e951aba", null ],
+    [ "MR::Features::AlignParams::locators", "group__GeneralGroup.html#ga59b3e044bd00a182e20fafe1e7e97f41", null ],
     [ "MR::MeshProjectionParameters::loDistLimitSq", "group__GeneralGroup.html#ga1c122d1dc6393cbf06a33b2b7d33ef8e", null ],
     [ "MR::OffsetContoursOrigins::lOrg", "group__GeneralGroup.html#gad5f2ee568aa0c645e5784e53f1ae0e72", null ],
     [ "MR::PlanarTriangulation::IntersectionInfo::lOrg", "group__GeneralGroup.html#ga2fa82e2dbbf17f35ba932bcd731f08c6", null ],
@@ -18499,6 +18517,7 @@ var group__GeneralGroup =
     [ "MR::SurfaceManipulationWidget::mousePressed_", "group__GeneralGroup.html#ga2bce77a98a1b42394a4f68d72bcb1637", null ],
     [ "MR::ViewerSignals::mouseScrollSignal", "group__GeneralGroup.html#gadcfb289fd724ae26e9e419d15291f2b7", null ],
     [ "MR::ViewerSignals::mouseUpSignal", "group__GeneralGroup.html#ga28dad40dee518e3fb6708f95a966bdc3", null ],
+    [ "MR::Features::AlignPair::moving", "group__GeneralGroup.html#ga6372e909fd185468c8c761522462d498", null ],
     [ "MR::RangeProcessorSingle::mProc", "group__GeneralGroup.html#ga264a04656289a9abfa5a0ce6ff0a9b96", null ],
     [ "MR::MeshPointAndDistance::mtp", "group__GeneralGroup.html#ga1a758547372340f32380f76222e7c0b0", null ],
     [ "MR::FileDialog::Parameters::multiselect", "group__GeneralGroup.html#ga3b16808165abc1930db418e488d58225", null ],

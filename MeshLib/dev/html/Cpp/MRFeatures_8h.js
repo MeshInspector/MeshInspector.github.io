@@ -2,6 +2,7 @@ var MRFeatures_8h =
 [
     [ "MR::Features::Primitives::Sphere", "group__GeneralGroup.html#ga37df2f34cbcd3fec213859b3ca57d3b6", null ],
     [ "MR::Features::Primitives::Variant", "group__GeneralGroup.html#ga955a7f843d9b5df0f393ec7699ada624", null ],
+    [ "MR::Features::align", "group__GeneralGroup.html#ga58f5367f9a8fe53352757b9c0b0e10fe", null ],
     [ "MR::Features::measure", "group__GeneralGroup.html#ga39b347d1c16a0e596d16c09cc7839ded", null ],
     [ "MR::Features::measure", "group__GeneralGroup.html#ga8ae032d9a48f5e4e7669748c12b6f05c", null ],
     [ "MR::Features::measure", "group__GeneralGroup.html#gada065f0f7c5b74946d5ae2826df2bf0d", null ],

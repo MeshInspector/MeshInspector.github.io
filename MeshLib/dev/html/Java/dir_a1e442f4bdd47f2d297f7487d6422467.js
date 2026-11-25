@@ -2,6 +2,8 @@ var dir_a1e442f4bdd47f2d297f7487d6422467 =
 [
     [ "primitives", "dir_ddfa33c03e6352cb92d7fab800bc5a70.html", "dir_ddfa33c03e6352cb92d7fab800bc5a70" ],
     [ "traits", "dir_0889e37e13f5544e9ca216ea962b0556.html", "dir_0889e37e13f5544e9ca216ea962b0556" ],
+    [ "AlignPair.java", "AlignPair_8java.html", "AlignPair_8java" ],
+    [ "AlignParams.java", "AlignParams_8java.html", "AlignParams_8java" ],
     [ "Functions.java", "features_2Functions_8java.html", "features_2Functions_8java" ],
     [ "MeasureResult.java", "MeasureResult_8java.html", "MeasureResult_8java" ],
     [ "MeasureResult_Angle.java", "MeasureResult__Angle_8java.html", "MeasureResult__Angle_8java" ],
