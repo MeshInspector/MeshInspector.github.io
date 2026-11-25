@@ -254,7 +254,8 @@ Prebuilt archive from GitHub Releases</h3>
 <div class="fragment"><div class="line">cmake -S . -B build -A x64 ^</div>
 <div class="line">  -D MESHLIB_INCLUDE_DIRS=C:/meshlib-built/install/include ^</div>
 <div class="line">  -D MESHLIB_LIB_DIRS=C:/meshlib-built/install/lib/Release</div>
-</div><!-- fragment --><div class="fragment"><div class="line">target_include_directories(your_project_name PUBLIC ${MESHLIB_INCLUDE_DIRS})</div>
+</div><!-- fragment --><p>An older archive that has <span class="tt">install/include/eigen3</span> instead of <span class="tt">install/include/Eigen</span> needs <span class="tt">C:/meshlib-built/install/include/eigen3</span> in <span class="tt">MESHLIB_INCLUDE_DIRS</span> as well.</p>
+<div class="fragment"><div class="line">target_include_directories(your_project_name PUBLIC ${MESHLIB_INCLUDE_DIRS})</div>
 <div class="line">target_link_directories(your_project_name PUBLIC ${MESHLIB_LIB_DIRS})</div>
 <div class="line">target_link_libraries(your_project_name PRIVATE MRMesh)</div>
 <div class="line"># if you want to use viewer libraries</div>

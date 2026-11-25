@@ -310,7 +310,8 @@ Installing the release build</h3>
 <li><b>General Properties -&gt; C++ Language Standard</b>: <br  />
  Set: <span class="tt">/std:c++20</span> or later</li>
 <li><b>C/C++ → General → Additional Include Directories</b>: <br  />
- Add: <span class="tt">C:\meshlib-built\install\include</span></li>
+ Add: <span class="tt">C:\meshlib-built\install\include</span> <br  />
+ An older archive that has <span class="tt">install\include\eigen3</span> instead of <span class="tt">install\include\Eigen</span> needs <span class="tt">C:\meshlib-built\install\include\eigen3</span> as well.</li>
 <li><b>C/C++ → All Options → Additional Options</b>: <br  />
  Add: <span class="tt">/bigobj /utf-8</span></li>
 <li><b>Linker → Input → Additional Dependencies</b>: <br  />
