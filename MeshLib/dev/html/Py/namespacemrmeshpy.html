@@ -17816,7 +17816,8 @@ negative if the faces form concave surface
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">expands the region on given euclidian distance. returns false if callback also returns false
+<pre class="fragment">expands the region on given euclidian distance: adds every point located within \\p dilation from a point of the region;
+returns false if callback also returns false
 </pre> 
 </div>
 </div>
@@ -23549,7 +23550,8 @@ structure - mesh with one open contour and +Z normal, that will be embedded in t
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">shrinks the region on given euclidian distance. returns false if callback also returns false
+<pre class="fragment">shrinks the region on given euclidian distance: removes every point located within \\p erosion from a valid point not in the region;
+returns false if callback also returns false
 </pre> 
 </div>
 </div>

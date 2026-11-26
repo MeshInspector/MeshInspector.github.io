@@ -21104,7 +21104,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>expands the region on given euclidian distance. returns false if callback also returns false Generated from function <span class="tt">MR::dilateRegion</span>.</p>
+<p>expands the region on given euclidian distance: adds every point located within <code class="param">dilation</code> from a point of the region; returns false if callback also returns false Generated from function <span class="tt">MR::dilateRegion</span>.</p>
 <p>Calls <span class="tt">MR_dilateRegion_5_const_MR_PointCloud_ref()</span>. <span class="tt">cb</span> defaults to <span class="tt">{}</span>. <span class="tt">xf</span> defaults to <span class="tt">nullptr</span>. </p>
 
 </div>
@@ -27604,7 +27604,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>shrinks the region on given euclidian distance. returns false if callback also returns false Generated from function <span class="tt">MR::erodeRegion</span>.</p>
+<p>shrinks the region on given euclidian distance: removes every point located within <code class="param">erosion</code> from a valid point not in the region; returns false if callback also returns false Generated from function <span class="tt">MR::erodeRegion</span>.</p>
 <p>Calls <span class="tt">MR_erodeRegion_5_const_MR_PointCloud_ref()</span>. <span class="tt">cb</span> defaults to <span class="tt">{}</span>. <span class="tt">xf</span> defaults to <span class="tt">nullptr</span>. </p>
 
 </div>
