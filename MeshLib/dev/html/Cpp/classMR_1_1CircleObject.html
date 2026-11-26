@@ -160,7 +160,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6619745b8f6bf405910373da45cb8f54" id="r_a6619745b8f6bf405910373da45cb8f54"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6619745b8f6bf405910373da45cb8f54">CircleObject</a> ()</td></tr>
 <tr class="memdesc:a6619745b8f6bf405910373da45cb8f54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates simple sphere object with center in zero and radius - 1.  <br /></td></tr>
 <tr class="memitem:af40b5dfb76c6edd2bff5609e1beb14e2" id="r_af40b5dfb76c6edd2bff5609e1beb14e2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af40b5dfb76c6edd2bff5609e1beb14e2">CircleObject</a> (const std::vector&lt; Vector3f &gt; &amp;pointsToApprox)</td></tr>
-<tr class="memdesc:af40b5dfb76c6edd2bff5609e1beb14e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds best sphere to approx given points.  <br /></td></tr>
 <tr class="memitem:a93090fe220169d0ebb34d3fcc16425d5" id="r_a93090fe220169d0ebb34d3fcc16425d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93090fe220169d0ebb34d3fcc16425d5">CircleObject</a> (<a class="el" href="classMR_1_1CircleObject.html">CircleObject</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="memitem:a213eae2656d58c2c869a7c592a70c899" id="r_a213eae2656d58c2c869a7c592a70c899"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1CircleObject.html">CircleObject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a213eae2656d58c2c869a7c592a70c899">operator=</a> (<a class="el" href="classMR_1_1CircleObject.html">CircleObject</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="memitem:a7dd05445d9524f457b174b86526f7917" id="r_a7dd05445d9524f457b174b86526f7917"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dd05445d9524f457b174b86526f7917">typeName</a> () const override</td></tr>
@@ -601,8 +600,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Finds best sphere to approx given points. </p>
+<p>Finds best circle to approx given points; coincident points keep the center in zero and radius 1 (no points assert in Debug) </p>
 
 </div>
 </div>

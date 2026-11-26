@@ -25271,9 +25271,10 @@ otherwise the returned point is not the one touched first by the rotating ball; 
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">least squares circle through the points (algebraic fit of the centered points), stable for short arcs;
-for degenerate points (e.g. collinear) returns the minimum-norm solution, so check the distances to the points if they can be degenerate;
-returns nullopt if the solution has no real radius
+<pre class="fragment">least squares circle through the points (algebraic fit of the centered points), stable for short arcs: exact for the points of a circle,
+but with noisy points of a short arc its radius is biased low (e.g. by 13% if the standard deviation of the noise is 13% of the arc height);
+for collinear points the result is not unique, and the one with the center closest to their centroid is returned (the minimum-norm solution):
+its center is on their line, e.g. at their centroid for symmetric points; returns nullopt for no points or coincident ones
 </pre> 
 </div>
 </div>
@@ -25296,8 +25297,10 @@ returns nullopt if the solution has no real radius
       </table>
 </div><div class="memdoc">
 <pre class="fragment">cone tangent to all given planes (e.g. of mesh triangles) with consistently oriented normals, and the angle fitted to the points;
-unlike findRevolutionAxis + findBestConeWithAxis, it works for a single strip of triangles;
-the height of the cone spans the points
+unlike findRevolutionAxis + findBestConeWithAxis, it works for a single strip of triangles; the planes with zero normals are ignored;
+the height of the cone spans the points; returns nullopt if the planes do not define the cone: fewer than 3 distinct normals or the normals
+within less than half a degree of a revolution (the two smallest eigenvalues of their covariance differ by less than 1e-6 of the largest one),
+all normals orthogonal to one direction (planes tangent to a cylinder), or no unique apex
 </pre> 
 </div>
 </div>
@@ -25319,8 +25322,8 @@ the height of the cone spans the points
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">cone with given axis fitted to the points, assuming linear dependence of the distance to the axis on the position along it;
-the height of the cone spans the points
+<pre class="fragment">cone with given axis fitted to the points: the line of the distance to the axis against the position along it, fitted orthogonally;
+the height of the cone spans the points; returns nullopt if the line is nearly parallel (a cylinder) or orthogonal (a plane) to the axis
 </pre> 
 </div>
 </div>
@@ -25342,8 +25345,11 @@ the height of the cone spans the points
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">cylinder with the axis orthogonal to all given surface normals, and the radius fitted to the points;
-the center and the length of the cylinder span the projections of the points on the axis
+<pre class="fragment">cylinder with the axis orthogonal to all given surface normals, and the radius fitted to the points by findBestCircle (biased low for noisy points of a short arc);
+the center and the length of the cylinder span the projections of the points on the axis;
+returns nullopt if findBestCircle does for the projections of the points, or if the normals do not define the axis:
+the two smallest eigenvalues of the sum of their outer squares differ by less than 1e-6 of the largest one, e.g. for the normals of a plane
+or of a sphere cap symmetric around its center; other sphere patches and noisy normals of a plane give a cylinder, so check its distances to the points
 </pre> 
 </div>
 </div>
@@ -25401,9 +25407,10 @@ returns new positions of ref grid
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">least squares sphere through the points (algebraic fit of the centered points);
-for degenerate points (e.g. coplanar) returns the minimum-norm solution, so check the distances to the points if they can be degenerate;
-returns nullopt if the solution has no real radius
+<pre class="fragment">least squares sphere through the points (algebraic fit of the centered points): exact for the points of a sphere,
+but with noisy points of a small cap its radius is biased low (e.g. by 16% if the standard deviation of the noise is 13% of the cap height);
+for coplanar points the result is not unique, and the one with the center closest to their centroid is returned (the minimum-norm solution):
+e.g. the sphere through the points of a circle is centered at that circle; returns nullopt for no points or coincident ones
 </pre> 
 </div>
 </div>
@@ -25425,7 +25432,9 @@ returns nullopt if the solution has no real radius
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">torus with given axis fitted to the points: the circle of the tube section fitted in the plane (distance to the axis, position along it)
+<pre class="fragment">torus with given axis fitted to the points: the circle of the tube section fitted by findBestCircle in the plane (distance to the axis, position along it),
+so the minor radius is biased low for noisy points of a short arc of the tube, and collinear sections (e.g. of a cylinder) give its minimum-norm circle;
+the result can have minorRadius &gt; majorRadius (a spindle torus)
 </pre> 
 </div>
 </div>
@@ -28814,8 +28823,8 @@ if both outRep3 and outRep2 are necessary then it is faster to call this functio
 </div><div class="memdoc">
 <pre class="fragment">finds the line crossing all given lines in the least squares sense,
 e.g. the axis of a surface of revolution from the lines of its normals (lines with unit directions have equal weights);
-the result is ambiguous if many lines cross all given ones, e.g. for the normals of a plane or a sphere, so check the distances to the points then;
-returns nullopt if the best solution is the line at infinity
+returns nullopt if the line is not unique: e.g. all lines through the center of a sphere cross its normals,
+and any line along the normal of a plane crosses its normals; with noisy normals of such surfaces, one of these lines can be returned
 </pre> 
 </div>
 </div>
@@ -45967,7 +45976,10 @@ returns the total number of flips done
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">minimizes the sum of squared distances from the points to the torus by Levenberg-Marquardt method starting from given torus
+<pre class="fragment">minimizes the sum of squared distances from the points to the torus by Levenberg-Marquardt method starting from given torus;
+the result is never worse than given torus (with unit axis and non-negative radii), which is returned for fewer than 8 points;
+it can be degenerate, so check its radii: majorRadius is about zero if a sphere fits the points better than any torus,
+and both radii can be very large if the points are nearly on a cylinder, a cone or a plane
 </pre> 
 </div>
 </div>

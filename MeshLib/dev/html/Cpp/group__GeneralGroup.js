@@ -5004,6 +5004,7 @@ var group__GeneralGroup =
     [ "MR::Torus3< T >", "structMR_1_1Torus3.html", [
       [ "Torus3", "group__GeneralGroup.html#gae9f3286f7105595c3fbe9aad1e30edb1", null ],
       [ "Torus3", "group__GeneralGroup.html#ga7de5e3c58d094d54285c6540ddb5f786", null ],
+      [ "Torus3", "group__GeneralGroup.html#ga29d1c28bb3a0b32f4b4bf40316258883", null ],
       [ "distance", "group__GeneralGroup.html#gaf6b544e9909456d933baf0cd9c123875", null ],
       [ "normal", "group__GeneralGroup.html#ga5f16b5d10d493533dbea96ef88607207", null ],
       [ "project", "group__GeneralGroup.html#ga4c0f0fb98193d9450e86fcf97e970179", null ],
@@ -16800,6 +16801,7 @@ var group__GeneralGroup =
     [ "MR::Features::toPrimitive", "group__GeneralGroup.html#gacbd075b92fa1a44ed1751506cecb9b3a", null ],
     [ "MR::GlTexture2::ToResolution", "group__GeneralGroup.html#ga8e2bbcd5e2ecf6bf2c331ea5dbb39b0b", null ],
     [ "MR::Torus3::Torus3", "group__GeneralGroup.html#gae9f3286f7105595c3fbe9aad1e30edb1", null ],
+    [ "MR::Torus3::Torus3", "group__GeneralGroup.html#ga29d1c28bb3a0b32f4b4bf40316258883", null ],
     [ "MR::Torus3::Torus3", "group__GeneralGroup.html#ga7de5e3c58d094d54285c6540ddb5f786", null ],
     [ "MR::Torus3< float >", "group__GeneralGroup.html#ga098e3b9d4abfb7a9e732ec34ab70837e", null ],
     [ "MR::Features::toString", "group__GeneralGroup.html#ga35468173f62fc640a383a299b8eab5e2", null ],

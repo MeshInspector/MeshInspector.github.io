@@ -29443,7 +29443,7 @@ Trivial fill with smooth</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>least squares circle through the points (algebraic fit of the centered points), stable for short arcs; for degenerate points (e.g. collinear) returns the minimum-norm solution, so check the distances to the points if they can be degenerate; returns nullopt if the solution has no real radius Generated from function <span class="tt">MR::findBestCircle</span>.</p>
+<p>least squares circle through the points (algebraic fit of the centered points), stable for short arcs: exact for the points of a circle, but with noisy points of a short arc its radius is biased low (e.g. by 13% if the standard deviation of the noise is 13% of the arc height); for collinear points the result is not unique, and the one with the center closest to their centroid is returned (the minimum-norm solution): its center is on their line, e.g. at their centroid for symmetric points; returns nullopt for no points or coincident ones Generated from function <span class="tt">MR::findBestCircle</span>.</p>
 <p>Calls <span class="tt">MR_findBestCircle()</span>. </p>
 
 </div>
@@ -29466,7 +29466,7 @@ Trivial fill with smooth</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>cone tangent to all given planes (e.g. of mesh triangles) with consistently oriented normals, and the angle fitted to the points; unlike findRevolutionAxis + findBestConeWithAxis, it works for a single strip of triangles; the height of the cone spans the points Generated from function <span class="tt">MR::findBestConeByTangentPlanes</span>.</p>
+<p>cone tangent to all given planes (e.g. of mesh triangles) with consistently oriented normals, and the angle fitted to the points; unlike findRevolutionAxis + findBestConeWithAxis, it works for a single strip of triangles; the planes with zero normals are ignored; the height of the cone spans the points; returns nullopt if the planes do not define the cone: fewer than 3 distinct normals or the normals within less than half a degree of a revolution (the two smallest eigenvalues of their covariance differ by less than 1e-6 of the largest one), all normals orthogonal to one direction (planes tangent to a cylinder), or no unique apex Generated from function <span class="tt">MR::findBestConeByTangentPlanes</span>.</p>
 <p>Calls <span class="tt">MR_findBestConeByTangentPlanes()</span>. </p>
 
 </div>
@@ -29489,7 +29489,7 @@ Trivial fill with smooth</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>cone with given axis fitted to the points, assuming linear dependence of the distance to the axis on the position along it; the height of the cone spans the points Generated from function <span class="tt">MR::findBestConeWithAxis</span>.</p>
+<p>cone with given axis fitted to the points: the line of the distance to the axis against the position along it, fitted orthogonally; the height of the cone spans the points; returns nullopt if the line is nearly parallel (a cylinder) or orthogonal (a plane) to the axis Generated from function <span class="tt">MR::findBestConeWithAxis</span>.</p>
 <p>Calls <span class="tt">MR_findBestConeWithAxis()</span>. </p>
 
 </div>
@@ -29512,7 +29512,7 @@ Trivial fill with smooth</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>cylinder with the axis orthogonal to all given surface normals, and the radius fitted to the points; the center and the length of the cylinder span the projections of the points on the axis Generated from function <span class="tt">MR::findBestCylinderByNormals</span>.</p>
+<p>cylinder with the axis orthogonal to all given surface normals, and the radius fitted to the points by findBestCircle (biased low for noisy points of a short arc); the center and the length of the cylinder span the projections of the points on the axis; returns nullopt if findBestCircle does for the projections of the points, or if the normals do not define the axis: the two smallest eigenvalues of the sum of their outer squares differ by less than 1e-6 of the largest one, e.g. for the normals of a plane or of a sphere cap symmetric around its center; other sphere patches and noisy normals of a plane give a cylinder, so check its distances to the points Generated from function <span class="tt">MR::findBestCylinderByNormals</span>.</p>
 <p>Calls <span class="tt">MR_findBestCylinderByNormals()</span>. </p>
 
 </div>
@@ -29569,7 +29569,7 @@ Trivial fill with smooth</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>least squares sphere through the points (algebraic fit of the centered points); for degenerate points (e.g. coplanar) returns the minimum-norm solution, so check the distances to the points if they can be degenerate; returns nullopt if the solution has no real radius Generated from function <span class="tt">MR::findBestSphere</span>.</p>
+<p>least squares sphere through the points (algebraic fit of the centered points): exact for the points of a sphere, but with noisy points of a small cap its radius is biased low (e.g. by 16% if the standard deviation of the noise is 13% of the cap height); for coplanar points the result is not unique, and the one with the center closest to their centroid is returned (the minimum-norm solution): e.g. the sphere through the points of a circle is centered at that circle; returns nullopt for no points or coincident ones Generated from function <span class="tt">MR::findBestSphere</span>.</p>
 <p>Calls <span class="tt">MR_findBestSphere()</span>. </p>
 
 </div>
@@ -29592,7 +29592,7 @@ Trivial fill with smooth</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>torus with given axis fitted to the points: the circle of the tube section fitted in the plane (distance to the axis, position along it) Generated from function <span class="tt">MR::findBestTorusWithAxis</span>.</p>
+<p>torus with given axis fitted to the points: the circle of the tube section fitted by findBestCircle in the plane (distance to the axis, position along it), so the minor radius is biased low for noisy points of a short arc of the tube, and collinear sections (e.g. of a cylinder) give its minimum-norm circle; the result can have minorRadius &gt; majorRadius (a spindle torus) Generated from function <span class="tt">MR::findBestTorusWithAxis</span>.</p>
 <p>Calls <span class="tt">MR_findBestTorusWithAxis()</span>. </p>
 
 </div>
@@ -33326,7 +33326,7 @@ Trivial fill with smooth</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds the line crossing all given lines in the least squares sense, e.g. the axis of a surface of revolution from the lines of its normals (lines with unit directions have equal weights); the result is ambiguous if many lines cross all given ones, e.g. for the normals of a plane or a sphere, so check the distances to the points then; returns nullopt if the best solution is the line at infinity Generated from function <span class="tt">MR::findRevolutionAxis</span>.</p>
+<p>finds the line crossing all given lines in the least squares sense, e.g. the axis of a surface of revolution from the lines of its normals (lines with unit directions have equal weights); returns nullopt if the line is not unique: e.g. all lines through the center of a sphere cross its normals, and any line along the normal of a plane crosses its normals; with noisy normals of such surfaces, one of these lines can be returned Generated from function <span class="tt">MR::findRevolutionAxis</span>.</p>
 <p>Calls <span class="tt">MR_findRevolutionAxis()</span>. </p>
 
 </div>
@@ -45412,9 +45412,9 @@ All new faces should be parallel to given direction It is measured in squared le
 <div class="line">subs.onEdgeSplit = <a class="code hl_function" href="#a35af6f96f07c3354e127cd4ceb9494e8">meshOnEdgeSplitAttribute</a>( *obj_-&gt;varMesh(), meshParams );</div>
 <div class="line"><a class="code hl_function" href="index_8d_8mts.html#ac6564b4ef04d59850c845865144dad1f">subdivideMesh</a>( *obj_-&gt;varMesh(), subs );</div>
 <div class="ttc" id="a__all_8d_8mts_html_a35af6f96f07c3354e127cd4ceb9494e8"><div class="ttname"><a href="#a35af6f96f07c3354e127cd4ceb9494e8">meshOnEdgeSplitAttribute</a></div><div class="ttdeci">std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(Mesh mesh, MeshAttributesToUpdate params)</div></div>
-<div class="ttc" id="aclassMeshAttributesToUpdate_html"><div class="ttname"><a href="classMeshAttributesToUpdate.html">MeshAttributesToUpdate</a></div><div class="ttdef"><b>Definition</b> _all.d.mts:72518</div></div>
-<div class="ttc" id="aclassMeshAttributesToUpdate_html_a13f4d9446a69b57d7cd9ea9fa449a87c"><div class="ttname"><a href="classMeshAttributesToUpdate.html#a13f4d9446a69b57d7cd9ea9fa449a87c">MeshAttributesToUpdate::uvCoords</a></div><div class="ttdeci">number uvCoords</div><div class="ttdef"><b>Definition</b> _all.d.mts:72526</div></div>
-<div class="ttc" id="aclassMeshAttributesToUpdate_html_a82d92282ec9bd757852e6a0a654a40f9"><div class="ttname"><a href="classMeshAttributesToUpdate.html#a82d92282ec9bd757852e6a0a654a40f9">MeshAttributesToUpdate::texturePerFace</a></div><div class="ttdeci">number texturePerFace</div><div class="ttdef"><b>Definition</b> _all.d.mts:72540</div></div>
+<div class="ttc" id="aclassMeshAttributesToUpdate_html"><div class="ttname"><a href="classMeshAttributesToUpdate.html">MeshAttributesToUpdate</a></div><div class="ttdef"><b>Definition</b> _all.d.mts:72531</div></div>
+<div class="ttc" id="aclassMeshAttributesToUpdate_html_a13f4d9446a69b57d7cd9ea9fa449a87c"><div class="ttname"><a href="classMeshAttributesToUpdate.html#a13f4d9446a69b57d7cd9ea9fa449a87c">MeshAttributesToUpdate::uvCoords</a></div><div class="ttdeci">number uvCoords</div><div class="ttdef"><b>Definition</b> _all.d.mts:72539</div></div>
+<div class="ttc" id="aclassMeshAttributesToUpdate_html_a82d92282ec9bd757852e6a0a654a40f9"><div class="ttname"><a href="classMeshAttributesToUpdate.html#a82d92282ec9bd757852e6a0a654a40f9">MeshAttributesToUpdate::texturePerFace</a></div><div class="ttdeci">number texturePerFace</div><div class="ttdef"><b>Definition</b> _all.d.mts:72553</div></div>
 <div class="ttc" id="aindex_8d_8mts_html_ac6564b4ef04d59850c845865144dad1f"><div class="ttname"><a href="index_8d_8mts.html#ac6564b4ef04d59850c845865144dad1f">subdivideMesh</a></div><div class="ttdeci">number subdivideMesh(Mesh mesh, SubdivideSettings settings)</div></div>
 </div><!-- fragment --><p>Generated from function <span class="tt">MR::meshOnEdgeSplitAttribute</span>.</p>
 <p>Calls <span class="tt">MR_meshOnEdgeSplitAttribute()</span>. </p>
@@ -45542,8 +45542,8 @@ All new faces should be parallel to given direction It is measured in squared le
 <div class="line"><a class="code hl_function" href="#a7fc924803a7fa5e632af4c75d5f268e7">decimateMesh</a>( mesh, <a class="code hl_class" href="classDecimateSettings.html">DecimateSettings</a>{ .preCollapse = preCollapse } );</div>
 <div class="ttc" id="a__all_8d_8mts_html_a7fc924803a7fa5e632af4c75d5f268e7"><div class="ttname"><a href="#a7fc924803a7fa5e632af4c75d5f268e7">decimateMesh</a></div><div class="ttdeci">DecimateResult decimateMesh(Mesh mesh, DecimateSettings settings)</div><div class="ttdoc">Performs mesh simplification in mesh region according to the settings.</div></div>
 <div class="ttc" id="a__all_8d_8mts_html_aee4901ffa3ecea6a43a640d8e9de923d"><div class="ttname"><a href="#aee4901ffa3ecea6a43a640d8e9de923d">meshPreCollapseVertAttribute</a></div><div class="ttdeci">std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref meshPreCollapseVertAttribute(Mesh mesh, MeshAttributesToUpdate params)</div></div>
-<div class="ttc" id="aclassDecimateSettings_html"><div class="ttname"><a href="classDecimateSettings.html">DecimateSettings</a></div><div class="ttdef"><b>Definition</b> _all.d.mts:74973</div></div>
-<div class="ttc" id="aclassMeshAttributesToUpdate_html_a53f0e8c1473a0a6ea88357e83e97d52d"><div class="ttname"><a href="classMeshAttributesToUpdate.html#a53f0e8c1473a0a6ea88357e83e97d52d">MeshAttributesToUpdate::colorMap</a></div><div class="ttdeci">number colorMap</div><div class="ttdef"><b>Definition</b> _all.d.mts:72533</div></div>
+<div class="ttc" id="aclassDecimateSettings_html"><div class="ttname"><a href="classDecimateSettings.html">DecimateSettings</a></div><div class="ttdef"><b>Definition</b> _all.d.mts:74986</div></div>
+<div class="ttc" id="aclassMeshAttributesToUpdate_html_a53f0e8c1473a0a6ea88357e83e97d52d"><div class="ttname"><a href="classMeshAttributesToUpdate.html#a53f0e8c1473a0a6ea88357e83e97d52d">MeshAttributesToUpdate::colorMap</a></div><div class="ttdeci">number colorMap</div><div class="ttdef"><b>Definition</b> _all.d.mts:72546</div></div>
 </div><!-- fragment --><p>Generated from function <span class="tt">MR::meshPreCollapseVertAttribute</span>.</p>
 <p>Calls <span class="tt">MR_meshPreCollapseVertAttribute()</span>. </p>
 
@@ -68814,7 +68814,7 @@ All new faces should be parallel to given direction It is measured in squared le
         </tr>
       </table>
 </div><div class="memdoc">
-<p>minimizes the sum of squared distances from the points to the torus by Levenberg-Marquardt method starting from given torus Generated from function <span class="tt">MR::refineTorus</span>.</p>
+<p>minimizes the sum of squared distances from the points to the torus by Levenberg-Marquardt method starting from given torus; the result is never worse than given torus (with unit axis and non-negative radii), which is returned for fewer than 8 points; it can be degenerate, so check its radii: majorRadius is about zero if a sphere fits the points better than any torus, and both radii can be very large if the points are nearly on a cylinder, a cone or a plane Generated from function <span class="tt">MR::refineTorus</span>.</p>
 <p>Calls <span class="tt">MR_refineTorus()</span>. </p>
 
 </div>

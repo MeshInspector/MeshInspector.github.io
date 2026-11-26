@@ -607,7 +607,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Finds best sphere to approx given points Generated from constructor <span class="tt">MR::CircleObject::CircleObject</span>. Parameter <span class="tt">pointsToApprox</span> can not be null. It is a single object. The reference to the parameter <span class="tt">pointsToApprox</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ae89f772cd001e0311fff5995d4434414" title="Destroys a heap-allocated instance of MR_CircleObject. Does nothing if the pointer is null.">MR_CircleObject_Destroy()</a></span> to free it when you're done using it. </p>
+<p>Finds best circle to approx given points; coincident points keep the center in zero and radius 1 (no points assert in Debug) Generated from constructor <span class="tt">MR::CircleObject::CircleObject</span>. Parameter <span class="tt">pointsToApprox</span> can not be null. It is a single object. The reference to the parameter <span class="tt">pointsToApprox</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ae89f772cd001e0311fff5995d4434414" title="Destroys a heap-allocated instance of MR_CircleObject. Does nothing if the pointer is null.">MR_CircleObject_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>

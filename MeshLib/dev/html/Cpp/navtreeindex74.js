@@ -1,5 +1,6 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1VoxelsSave_1_1SavingSettings.html":[9,0,1,0,1,57,0],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html":[9,0,2,0,1,37,0],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323":[9,0,1,0,1,57,0,0],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323":[9,0,2,0,1,37,0,0],

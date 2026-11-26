@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"group__SubvoxelMeshCorrection.html#ga1e8644361ce63a01cc5bf2f55019c438":[9,0,0,16,1,2],
 "group__SurfaceDistanceBuilder.html":[9,0,0,15,2],
 "group__SurfaceDistanceBuilder.html#ga6116f007cc43a35299cac2d382c9ba9e":[9,0,0,15,2,3],
 "group__SurfaceDistanceBuilder.html#ga6dbea68a5e40bf1878ced341fab86b83":[9,0,0,15,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475":[9,0,0,11,2,7,10],
 "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a48d2a0f89c21288fc6f9acde5fb8338d":[9,0,0,11,2,7,5],
 "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a4d37651692aaecc731860a4e8c4df169":[9,0,0,11,2,7,15],
-"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a":[9,0,0,11,2,7,18],
-"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a6c7eea869dc164adaaa93aa744a519f2":[9,0,0,11,2,7,17]
+"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a":[9,0,0,11,2,7,18]
 };

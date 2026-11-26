@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1SceneSave_1_1Settings.html":[9,0,1,0,1,48,0],
 "structMR_1_1SceneSave_1_1Settings.html":[9,0,2,0,1,31,0],
 "structMR_1_1SceneSave_1_1Settings.html#a5eba607b1b31e9aa25865db38feea83b":[9,0,1,0,1,48,0,1],
 "structMR_1_1SceneSave_1_1Settings.html#a5eba607b1b31e9aa25865db38feea83b":[9,0,2,0,1,31,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html":[9,0,0,19,798],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[9,0,1,0,1,53,14,0],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[9,0,2,0,1,35,12,0],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[9,0,1,0,1,53,14,0,0],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[9,0,2,0,1,35,12,0,0]
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[9,0,1,0,1,53,14,0,0]
 };
