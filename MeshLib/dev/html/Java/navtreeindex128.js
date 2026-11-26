@@ -1,5 +1,7 @@
 var NAVTREEINDEX128 =
 {
+"classmeshlib_1_1SetBitIteratorT__MR__NodeBitSet.html#a3abfaaa46b40fa26959a1fe16fd0a1e8":[9,6,1,0,0,937,3],
+"classmeshlib_1_1SetBitIteratorT__MR__NodeBitSet.html#a3c791db0900026815afce66c65baf153":[9,6,0,0,0,937,1],
 "classmeshlib_1_1SetBitIteratorT__MR__NodeBitSet.html#a3c791db0900026815afce66c65baf153":[9,6,1,0,0,937,1],
 "classmeshlib_1_1SetBitIteratorT__MR__NodeBitSet.html#a48ac1ec60eb30c386e8e6874afddc9e7":[9,6,0,0,0,937,8],
 "classmeshlib_1_1SetBitIteratorT__MR__NodeBitSet.html#a48ac1ec60eb30c386e8e6874afddc9e7":[9,6,1,0,0,937,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX128 =
 "classmeshlib_1_1SharpenMarchingCubesMeshSettings.html#a18ebb70d1085f6543cdb8e17fdfa673f":[9,6,1,0,0,946,3],
 "classmeshlib_1_1SharpenMarchingCubesMeshSettings.html#a23a145c5b2d572caf6018d347544b951":[9,6,0,0,0,946,11],
 "classmeshlib_1_1SharpenMarchingCubesMeshSettings.html#a23a145c5b2d572caf6018d347544b951":[9,6,1,0,0,946,11],
-"classmeshlib_1_1SharpenMarchingCubesMeshSettings.html#a29a1b7f1f4c25990c5d3ff59e3811954":[9,6,0,0,0,946,24],
-"classmeshlib_1_1SharpenMarchingCubesMeshSettings.html#a29a1b7f1f4c25990c5d3ff59e3811954":[9,6,1,0,0,946,24],
-"classmeshlib_1_1SharpenMarchingCubesMeshSettings.html#a2edd91c8211c8219da00a29245f812cf":[9,6,0,0,0,946,21]
+"classmeshlib_1_1SharpenMarchingCubesMeshSettings.html#a29a1b7f1f4c25990c5d3ff59e3811954":[9,6,0,0,0,946,24]
 };

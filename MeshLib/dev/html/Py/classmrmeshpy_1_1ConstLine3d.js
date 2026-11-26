@@ -2,6 +2,8 @@ var classmrmeshpy_1_1ConstLine3d =
 [
     [ "__init__", "classmrmeshpy_1_1ConstLine3d.html#a1bded8c3b0df28ece8d4f2c31e567d79", null ],
     [ "__call__", "classmrmeshpy_1_1ConstLine3d.html#a48ea873e1be2b924f243d050bce8f4a8", null ],
+    [ "__eq__", "classmrmeshpy_1_1ConstLine3d.html#a5a3b52aaa6c573be7ced3a8e060723e2", null ],
+    [ "__ne__", "classmrmeshpy_1_1ConstLine3d.html#aefa1278ce5e27e1f9d511f318a952c43", null ],
     [ "__neg__", "classmrmeshpy_1_1ConstLine3d.html#aa2e320481c9bf251ed2ac7d6eeca7e7e", null ],
     [ "__pos__", "classmrmeshpy_1_1ConstLine3d.html#abf302c5ac401ef758a061562691e9499", null ],
     [ "__repr__", "classmrmeshpy_1_1ConstLine3d.html#a7c121c7a2a672f35cde035dc95f4f836", null ],

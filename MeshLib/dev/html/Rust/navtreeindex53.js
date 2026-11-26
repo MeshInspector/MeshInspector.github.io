@@ -1,5 +1,13 @@
 var NAVTREEINDEX53 =
 {
+"structmeshlib_1_1EdgeSegment.html#a935a7c46f88999244c35d4e58d1390a4":[9,5,1,0,0,298,9],
+"structmeshlib_1_1EdgeSegment.html#a9626f1c1113bcddf89c0c9a05417ceab":[9,5,0,0,0,311,1],
+"structmeshlib_1_1EdgeSegment.html#a9626f1c1113bcddf89c0c9a05417ceab":[9,5,1,0,0,298,1],
+"structmeshlib_1_1EdgeSegment.html#a9848ef008bced3b20016c2d26321d687":[9,5,0,0,0,311,12],
+"structmeshlib_1_1EdgeSegment.html#a9848ef008bced3b20016c2d26321d687":[9,5,1,0,0,298,12],
+"structmeshlib_1_1EdgeSegment.html#aa5462ef9b92bb3b564e0d997d6972085":[9,5,0,0,0,311,13],
+"structmeshlib_1_1EdgeSegment.html#aa5462ef9b92bb3b564e0d997d6972085":[9,5,1,0,0,298,13],
+"structmeshlib_1_1EdgeSegment.html#aa6f0864fda0f349527d5053fabe8954b":[9,5,0,0,0,311,15],
 "structmeshlib_1_1EdgeSegment.html#aa6f0864fda0f349527d5053fabe8954b":[9,5,1,0,0,298,15],
 "structmeshlib_1_1EdgeSegment.html#ab072c316cfb1774d7a33abb41c4abd77":[9,5,0,0,0,311,6],
 "structmeshlib_1_1EdgeSegment.html#ab072c316cfb1774d7a33abb41c4abd77":[9,5,1,0,0,298,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX53 =
 "structmeshlib_1_1EnumNeihbourVertices.html":[9,5,1,0,0,308],
 "structmeshlib_1_1EnumNeihbourVertices.html#a105879183467bc9147d17f01b1353775":[9,5,0,0,0,321,1],
 "structmeshlib_1_1EnumNeihbourVertices.html#a105879183467bc9147d17f01b1353775":[9,5,1,0,0,308,1],
-"structmeshlib_1_1EnumNeihbourVertices.html#a171bec69f621e42a99af751a5934ec0b":[9,5,0,0,0,321,2],
-"structmeshlib_1_1EnumNeihbourVertices.html#a171bec69f621e42a99af751a5934ec0b":[9,5,1,0,0,308,2],
-"structmeshlib_1_1EnumNeihbourVertices.html#a51b704ffa2dcc9361bc3520d75537810":[9,5,0,0,0,321,0],
-"structmeshlib_1_1EnumNeihbourVertices.html#a51b704ffa2dcc9361bc3520d75537810":[9,5,1,0,0,308,0],
-"structmeshlib_1_1EnumNeihbourVertices.html#ae9283886a0bf3a7c2b7377fdf292f8b4":[9,5,0,0,0,321,3],
-"structmeshlib_1_1EnumNeihbourVertices.html#ae9283886a0bf3a7c2b7377fdf292f8b4":[9,5,1,0,0,308,3],
-"structmeshlib_1_1ExtraFormatSettings.html":[9,5,0,0,0,401],
-"structmeshlib_1_1ExtraFormatSettings.html":[9,5,1,0,0,388],
-"structmeshlib_1_1ExtraFormatSettings.html#a45ed36ddd9abaa51a2a898425b55d0b0":[9,5,0,0,0,401,0]
+"structmeshlib_1_1EnumNeihbourVertices.html#a171bec69f621e42a99af751a5934ec0b":[9,5,0,0,0,321,2]
 };

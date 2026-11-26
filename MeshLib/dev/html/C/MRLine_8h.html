@@ -139,6 +139,7 @@ $(function(){initNavTree('MRLine_8h.html','',''); });
 <div class="textblock"><code>#include &lt;<a class="el" href="MRVector2_8h_source.html">MRCMesh/MRVector2.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRLine_8h_source.html">Go to the source code of this file.</a></p>
@@ -255,6 +256,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ad1ad269de43cdf055aa4188fbeec74f8" id="r_ad1ad269de43cdf055aa4188fbeec74f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1ad269de43cdf055aa4188fbeec74f8">MR_Line3d_project</a> (const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *_this, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *x)</td></tr>
 <tr class="memitem:a72691acb6d5eb8a5621b78a4a81e5ccf" id="r_a72691acb6d5eb8a5621b78a4a81e5ccf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72691acb6d5eb8a5621b78a4a81e5ccf">MR_print_MR_Line3d</a> (<a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *s, const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *l)</td></tr>
 <tr class="memitem:a082ee46035c110a61615f12037ea2a43" id="r_a082ee46035c110a61615f12037ea2a43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a082ee46035c110a61615f12037ea2a43">MR_input_MR_Line3d</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *s, <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *l)</td></tr>
+<tr class="memitem:a066ff6678d7d022849253538f259f1fa" id="r_a066ff6678d7d022849253538f259f1fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a066ff6678d7d022849253538f259f1fa">MR_equal_MR_Line3d</a> (const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *a, const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *b)</td></tr>
+<tr class="memitem:a69288251fe58f291c91a9ea6cc33b832" id="r_a69288251fe58f291c91a9ea6cc33b832"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69288251fe58f291c91a9ea6cc33b832">MR_not_equal_MR_Line3d</a> (const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *a, const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *b)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a6992d64f6703ac6d7687c699042105a2" name="a6992d64f6703ac6d7687c699042105a2"></a>
@@ -288,6 +291,28 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a066ff6678d7d022849253538f259f1fa" name="a066ff6678d7d022849253538f259f1fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a066ff6678d7d022849253538f259f1fa">&#9670;&#160;</a></span>MR_equal_MR_Line3d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_equal_MR_Line3d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <span class="tt">MR::operator==&lt;MR::Vector3d&gt;</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="ad05cd88d5b28243c8997604029e9aebe" name="ad05cd88d5b28243c8997604029e9aebe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad05cd88d5b28243c8997604029e9aebe">&#9670;&#160;</a></span>MR_input_MR_Line2d()</h2>
 
@@ -2071,6 +2096,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>returns same line represented with flipped direction of d-vector Generated from method <span class="tt">MR::Line3f::operator-</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ae5a77e4191f839bd1e67e4d5fff8409c" title="Destroys a heap-allocated instance of MR_Line3f. Does nothing if the pointer is null.">MR_Line3f_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a69288251fe58f291c91a9ea6cc33b832" name="a69288251fe58f291c91a9ea6cc33b832"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69288251fe58f291c91a9ea6cc33b832">&#9670;&#160;</a></span>MR_not_equal_MR_Line3d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_not_equal_MR_Line3d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <span class="tt">MR::operator!=&lt;MR::Vector3d&gt;</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

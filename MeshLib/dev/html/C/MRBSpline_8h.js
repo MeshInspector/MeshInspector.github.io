@@ -6,8 +6,6 @@ var MRBSpline_8h =
     [ "MR_std_optional_MR_BSplineCurve", "MRBSpline_8h.html#aefcc29d0a9c23c724f6d499277402a15", null ],
     [ "MR_std_optional_MR_BSplineSurface", "MRBSpline_8h.html#ae837ca399f14fca1e258d53c5e1ed476", null ],
     [ "MR_Vector_double", "MRBSpline_8h.html#a21c825340597811e148ba7289f47e019", null ],
-    [ "MR_Vector_MR_Vector2d", "MRBSpline_8h.html#a16f2ffbf39c2c1dcdd9c92bb18abc247", null ],
-    [ "MR_Vector_MR_Vector3d", "MRBSpline_8h.html#a45612d3fa3d5257d8d91bfd32b3cf19f", null ],
     [ "MR_BSplineCurve_AssignFromAnother", "MRBSpline_8h.html#ac37ad5e9c1f2ef2dc9380381f6a57111", null ],
     [ "MR_BSplineCurve_ConstructFrom", "MRBSpline_8h.html#a690fc226b74a896082872a950deedad9", null ],
     [ "MR_BSplineCurve_ConstructFromAnother", "MRBSpline_8h.html#aaf061435e7d262b622c18b9bb9e64349", null ],

@@ -1,5 +1,13 @@
 var NAVTREEINDEX139 =
 {
+"structmeshlib_1_1Torus3f.html#ae9bbdb95a8d28c8e281cb8f187dd6fd4":[9,5,0,0,0,1544,1],
+"structmeshlib_1_1Torus3f.html#ae9bbdb95a8d28c8e281cb8f187dd6fd4":[9,5,1,0,0,1531,1],
+"structmeshlib_1_1Torus3f.html#aec50ae6fcb42cf30197af93919745a8d":[9,5,0,0,0,1544,13],
+"structmeshlib_1_1Torus3f.html#aec50ae6fcb42cf30197af93919745a8d":[9,5,1,0,0,1531,13],
+"structmeshlib_1_1Torus3f.html#af31f7f3dbe132dcba39f16094a989bdf":[9,5,0,0,0,1544,8],
+"structmeshlib_1_1Torus3f.html#af31f7f3dbe132dcba39f16094a989bdf":[9,5,1,0,0,1531,8],
+"structmeshlib_1_1Torus3f.html#afd9757b5541fbe230566402ad80e791b":[9,5,0,0,0,1544,15],
+"structmeshlib_1_1Torus3f.html#afd9757b5541fbe230566402ad80e791b":[9,5,1,0,0,1531,15],
 "structmeshlib_1_1TransformVdbVolumeResult.html":[9,5,0,0,0,1546],
 "structmeshlib_1_1TransformVdbVolumeResult.html":[9,5,1,0,0,1533],
 "structmeshlib_1_1TransformVdbVolumeResult.html#a1395077d9507d6133fe5cb185dd94844":[9,5,0,0,0,1546,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX139 =
 "structmeshlib_1_1TriTriDistanceParams__double.html#ae9b9a7823fb9ad79409e3a8189a837ba":[9,5,0,0,0,1560,4],
 "structmeshlib_1_1TriTriDistanceParams__double.html#ae9b9a7823fb9ad79409e3a8189a837ba":[9,5,1,0,0,1547,4],
 "structmeshlib_1_1TriTriDistanceParams__float.html":[9,5,0,0,0,1561],
-"structmeshlib_1_1TriTriDistanceParams__float.html":[9,5,1,0,0,1548],
-"structmeshlib_1_1TriTriDistanceParams__float.html#a0af4bff807d5d5465ca85040f8fa62ce":[9,5,0,0,0,1561,2],
-"structmeshlib_1_1TriTriDistanceParams__float.html#a0af4bff807d5d5465ca85040f8fa62ce":[9,5,1,0,0,1548,2],
-"structmeshlib_1_1TriTriDistanceParams__float.html#a0c3e3178b8d35f415faebe6ce3d9deeb":[9,5,0,0,0,1561,4],
-"structmeshlib_1_1TriTriDistanceParams__float.html#a0c3e3178b8d35f415faebe6ce3d9deeb":[9,5,1,0,0,1548,4],
-"structmeshlib_1_1TriTriDistanceParams__float.html#a0f2e7e650bf254ccb523825ef5ddccef":[9,5,0,0,0,1561,1],
-"structmeshlib_1_1TriTriDistanceParams__float.html#a0f2e7e650bf254ccb523825ef5ddccef":[9,5,1,0,0,1548,1],
-"structmeshlib_1_1TriTriDistanceParams__float.html#a5ab45cfad7afabc19aecc86e7b0b6c15":[9,5,0,0,0,1561,5],
-"structmeshlib_1_1TriTriDistanceParams__float.html#a5ab45cfad7afabc19aecc86e7b0b6c15":[9,5,1,0,0,1548,5]
+"structmeshlib_1_1TriTriDistanceParams__float.html":[9,5,1,0,0,1548]
 };

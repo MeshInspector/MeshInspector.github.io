@@ -1,5 +1,13 @@
 var NAVTREEINDEX28 =
 {
+"classDistanceMapSaveSettings.html#ac48b5071b007e72dd87e368ac8e30c92":[9,4,1,0,245,4],
+"classDistanceMapSaveSettings.html#adf4be17220b38114434b01e318d21b93":[9,4,1,0,245,2],
+"classDistanceMapToWorld.html":[9,4,1,0,246],
+"classDistanceMapToWorld.html#a0cd5742e743a3beb472308a963f83232":[9,4,1,0,246,0],
+"classDistanceMapToWorld.html#a5b7f7e30533585c4486b701ec930627d":[9,4,1,0,246,10],
+"classDistanceMapToWorld.html#a845b6ce8a1c56a81d9b7bd285612838f":[9,4,1,0,246,6],
+"classDistanceMapToWorld.html#a9527872c1a35be38bb3bdde83abf6b61":[9,4,1,0,246,7],
+"classDistanceMapToWorld.html#a9a44772b942e845f322f7040ac90b467":[9,4,1,0,246,4],
 "classDistanceMapToWorld.html#aa110e3a3be5b339894102b3929a2abac":[9,4,1,0,246,1],
 "classDistanceMapToWorld.html#aab8739940d807827586aa02948c07a85":[9,4,1,0,246,8],
 "classDistanceMapToWorld.html#ab05243856d059ae430699b598ec396f8":[9,4,1,0,246,9],
@@ -241,13 +249,5 @@ var NAVTREEINDEX28 =
 "classEdgeBitSet.html#a2005c1f2714aa10d06893a2c23a7cbcc":[9,4,1,0,256,55],
 "classEdgeBitSet.html#a27f918bc14edee2678c81f65966e4a8c":[9,4,1,0,256,24],
 "classEdgeBitSet.html#a314cc4f36b7b88c490141e4da7af4a52":[9,4,1,0,256,18],
-"classEdgeBitSet.html#a3337d1c32b374d379f64d77e7174e376":[9,4,1,0,256,61],
-"classEdgeBitSet.html#a37fcf5a8d1f92ef65ea3f013cd189aa5":[9,4,1,0,256,56],
-"classEdgeBitSet.html#a38c62759599fc3132c2f935c35975776":[9,4,1,0,256,1],
-"classEdgeBitSet.html#a3ccce2a22de94614acced0e6b9cbfc85":[9,4,1,0,256,70],
-"classEdgeBitSet.html#a3cd1fd181cdac0f16b4290e38d71e9be":[9,4,1,0,256,76],
-"classEdgeBitSet.html#a3facb0a2762b6fa45273b6262a7b0791":[9,4,1,0,256,60],
-"classEdgeBitSet.html#a445d14252d48e993276b4c56b812bddf":[9,4,1,0,256,28],
-"classEdgeBitSet.html#a4503e864669f5a4b43c36caf3394a5c2":[9,4,1,0,256,7],
-"classEdgeBitSet.html#a4d05ea511cfb48e9aed183cb25341344":[9,4,1,0,256,58]
+"classEdgeBitSet.html#a3337d1c32b374d379f64d77e7174e376":[9,4,1,0,256,61]
 };

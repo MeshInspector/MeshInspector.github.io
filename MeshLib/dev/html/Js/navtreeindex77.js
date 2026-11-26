@@ -1,5 +1,13 @@
 var NAVTREEINDEX77 =
 {
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a99e630d4856e3b462c12f02147f7b44e":[9,4,1,0,1429,80],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#aa30d23451ef5db86983016a043c707b2":[9,4,1,0,1429,36],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#aac50385d90a4acf6028b6b5f1e41f67e":[9,4,1,0,1429,5],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#aad2d0deb6acb79b4d8ba27bd224b6750":[9,4,1,0,1429,77],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#aaf5b9a82e70e2f456ded87090be6e6a4":[9,4,1,0,1429,19],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ab228d4d3cbe7ea1c0fea95695159f093":[9,4,1,0,1429,72],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ab3b88654c2812b27655e9ba4fac9421f":[9,4,1,0,1429,56],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ab3f3450e013e2ab40c8fc94ae40e2dd2":[9,4,1,0,1429,8],
 "classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ab5b8fca4698f29fcf36908b0c99d25ba":[9,4,1,0,1429,3],
 "classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ab844d19daec787bbf80b4d4d87e9d38c":[9,4,1,0,1429,25],
 "classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ab9011a84abfdc3326277df07ff70712f":[9,4,1,0,1429,21],
@@ -241,13 +249,5 @@ var NAVTREEINDEX77 =
 "classUndirectedEdgeColors.html#af276a649751a0bb9779eb39919f4d9e4":[9,4,1,0,1435,48],
 "classUndirectedEdgeColors.html#af3931459d7e9d01a19ae2308ebee9046":[9,4,1,0,1435,39],
 "classUndirectedEdgeColors.html#afd980bced398399c6d3c4ccd82b8c54d":[9,4,1,0,1435,9],
-"classUndirectedEdgeId.html":[9,4,1,0,1436],
-"classUndirectedEdgeId.html#a1b291fabc02306c4da333f32c94dc79e":[9,4,1,0,1436,6],
-"classUndirectedEdgeId.html#a2bd4d4e5e203b80e86689f03b82fb349":[9,4,1,0,1436,7],
-"classUndirectedEdgeId.html#a2c7b07079fdfd056c2f723e4e20b0f50":[9,4,1,0,1436,12],
-"classUndirectedEdgeId.html#a2fb4ef347584dd80598edeaaa5b61838":[9,4,1,0,1436,8],
-"classUndirectedEdgeId.html#a39ddf6c2a4b3e65f2ee2ec77d4651517":[9,4,1,0,1436,9],
-"classUndirectedEdgeId.html#a3c59f2edae4239fa8d289b80a310e347":[9,4,1,0,1436,4],
-"classUndirectedEdgeId.html#a50e29e145e6ecaa26383bf16cb7b50d6":[9,4,1,0,1436,5],
-"classUndirectedEdgeId.html#a6a49bb2a154708b8a9e8da86d277a200":[9,4,1,0,1436,1]
+"classUndirectedEdgeId.html":[9,4,1,0,1436]
 };

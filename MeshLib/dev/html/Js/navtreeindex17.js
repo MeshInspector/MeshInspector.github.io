@@ -1,5 +1,13 @@
 var NAVTREEINDEX17 =
 {
+"classBSplineSurfaceFitSettings.html#a3ef5f806ebd7d408cb7d46a983ee4b87":[9,4,1,0,113,5],
+"classBSplineSurfaceFitSettings.html#a5e9eda4ed9a483b994585994b91992ad":[9,4,1,0,113,1],
+"classBSplineSurfaceFitSettings.html#a99c9ebedf60ea6b29adf7fedb769a01d":[9,4,1,0,113,3],
+"classBSplineSurfaceFitSettings.html#ad4434f9f3c8120b3d8d183e69537d53f":[9,4,1,0,113,0],
+"classBSplineSurfaceFitSettings.html#ade1acac3af856b7d56b964bc96eb9365":[9,4,1,0,113,2],
+"classBSplineSurfaceFitSettings.html#ae1bf37f7c1d11b4c1ffc46f147236b5e":[9,4,1,0,113,4],
+"classBSplineSurfaceFitSettings.html#aff2572fd485cfe2c301f0ee04d40470f":[9,4,1,0,113,7],
+"classBall1d.html":[9,4,1,0,52],
 "classBall1d.html#a35a7ac04fa37254c29fa1466087da422":[9,4,1,0,52,3],
 "classBall1d.html#a3a713c94b56fb1c845de00e29647093b":[9,4,1,0,52,6],
 "classBall1d.html#a8d832720084d15c38d20f6acc59c64f3":[9,4,1,0,52,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX17 =
 "classBitSet.html#ab29967ed5cdfd847a1e5b89aead4459b":[9,4,1,0,72,29],
 "classBitSet.html#ab327088c4f996f3e979815bcb379ac73":[9,4,1,0,72,50],
 "classBitSet.html#ab390970da1678a94a74624ec6d315799":[9,4,1,0,72,24],
-"classBitSet.html#ab9767ae7ef347d600f25d3007e80297c":[9,4,1,0,72,22],
-"classBitSet.html#abb90111a9496f10a5fe62b44572cec0b":[9,4,1,0,72,17],
-"classBitSet.html#abe5d6f5656cfff5591b7ef90ed455452":[9,4,1,0,72,56],
-"classBitSet.html#ac45e40bebdf5c87da0d8ca441094ab7c":[9,4,1,0,72,0],
-"classBitSet.html#ac61fa9c5e2b0f615fb64b233dc89edf7":[9,4,1,0,72,32],
-"classBitSet.html#ac9c414add77d79e3a542660523d01de9":[9,4,1,0,72,23],
-"classBitSet.html#acc60496a20718f7f2161d3f569911f1d":[9,4,1,0,72,19],
-"classBitSet.html#ad3e93c87d70484370c4a42ffbb940101":[9,4,1,0,72,31],
-"classBitSet.html#ad8005e12966716411230ce4c355a1f25":[9,4,1,0,72,63]
+"classBitSet.html#ab9767ae7ef347d600f25d3007e80297c":[9,4,1,0,72,22]
 };

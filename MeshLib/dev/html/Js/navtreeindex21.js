@@ -1,5 +1,13 @@
 var NAVTREEINDEX21 =
 {
+"classBuffer__MR__NodeId__MR__NodeId.html#ad36fe11dab6b4435f7014d3d24dd301b":[9,4,1,0,123,12],
+"classBuffer__MR__NodeId__MR__NodeId.html#af8d47007b7ff3ddc2ac909b39a0598bc":[9,4,1,0,123,10],
+"classBuffer__MR__ObjId__MR__ObjId.html":[9,4,1,0,124],
+"classBuffer__MR__ObjId__MR__ObjId.html#a02a2e3253acfc910dd82c92c18a5ed00":[9,4,1,0,124,1],
+"classBuffer__MR__ObjId__MR__ObjId.html#a064949dfc504ca0eeb588eef36b32efa":[9,4,1,0,124,7],
+"classBuffer__MR__ObjId__MR__ObjId.html#a3074e925d0343541b98a59318aa1a3d6":[9,4,1,0,124,8],
+"classBuffer__MR__ObjId__MR__ObjId.html#a387be02e2e4dbbf163bf4dca242240ae":[9,4,1,0,124,16],
+"classBuffer__MR__ObjId__MR__ObjId.html#a4826023a61bab5252c8ac520d21fbe54":[9,4,1,0,124,2],
 "classBuffer__MR__ObjId__MR__ObjId.html#a49686915a8f8c77f7e761bc191002366":[9,4,1,0,124,15],
 "classBuffer__MR__ObjId__MR__ObjId.html#a65205b717820b8b73aaae60902524e85":[9,4,1,0,124,10],
 "classBuffer__MR__ObjId__MR__ObjId.html#a6b5200da81e5aef77d3a071fa254087a":[9,4,1,0,124,14],
@@ -241,13 +249,5 @@ var NAVTREEINDEX21 =
 "classCameraPointsTriangulationSettings.html#a80d8d0e6d5d89595ca4502b0e1be5a32":[9,4,1,0,135,7],
 "classCameraPointsTriangulationSettings.html#aa716ea8a511c688d49c0803de775b6f6":[9,4,1,0,135,2],
 "classCameraPointsTriangulationSettings.html#abaca19b367d6f9cf0df5f70f7b3894a4":[9,4,1,0,135,0],
-"classCameraPointsTriangulationSettings.html#ae28cb4eee58a3d77e5cdbb03e9ba5ecb":[9,4,1,0,135,1],
-"classCameraPointsTriangulationSettings.html#af447c776d7fb3e438c470d21c97d694d":[9,4,1,0,135,5],
-"classCameraPointsTriangulationSettings.html#af49f1555916a884b20ca161eb7df1dc5":[9,4,1,0,135,3],
-"classChangVoxelSelectionAction.html":[9,4,1,0,175],
-"classChangVoxelSelectionAction.html#a00a8f82f8ea8deeb0e91831280fcfb42":[9,4,1,0,175,0],
-"classChangVoxelSelectionAction.html#a0134842e20df416a2a4b26f6576484e8":[9,4,1,0,175,4],
-"classChangVoxelSelectionAction.html#a03d84a96ee427566fb6671a7a28daabe":[9,4,1,0,175,6],
-"classChangVoxelSelectionAction.html#a3c53f64f5dbe15540ca1a9594d317b21":[9,4,1,0,175,1],
-"classChangVoxelSelectionAction.html#a55efa3dfb2460b54ca63ab04a62abb25":[9,4,1,0,175,3]
+"classCameraPointsTriangulationSettings.html#ae28cb4eee58a3d77e5cdbb03e9ba5ecb":[9,4,1,0,135,1]
 };

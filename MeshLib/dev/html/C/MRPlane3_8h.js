@@ -1,9 +1,11 @@
 var MRPlane3_8h =
 [
+    [ "MR_equal_MR_Plane3d", "MRPlane3_8h.html#ae1dbfe054493f0f056a2541ebcdc5dc0", null ],
     [ "MR_input_MR_Plane3d", "MRPlane3_8h.html#aa6e0ea07c380ae48b0d3d655a5ba31ea", null ],
     [ "MR_input_MR_Plane3f", "MRPlane3_8h.html#a6c6ce1c312c8370942ebc59f8a0f7ec4", null ],
     [ "MR_neg_MR_Plane3d", "MRPlane3_8h.html#a23a39c97fb89286ee4e334b32a2b166f", null ],
     [ "MR_neg_MR_Plane3f", "MRPlane3_8h.html#af20a73df7c02ef3c38aebd6d345b4c39", null ],
+    [ "MR_not_equal_MR_Plane3d", "MRPlane3_8h.html#a4f36cb1cd17ba49e9eb7fd1fd2349b6a", null ],
     [ "MR_Plane3d_AssignFromAnother", "MRPlane3_8h.html#a817a8e3ab69835026b97a7241170903f", null ],
     [ "MR_Plane3d_Construct", "MRPlane3_8h.html#ab69f40b787a42b6779979cde29fa87c6", null ],
     [ "MR_Plane3d_Construct_float", "MRPlane3_8h.html#a8d71761b4ac5ea2de74b6145b6f73b38", null ],

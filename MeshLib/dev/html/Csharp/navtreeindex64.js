@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"classMR_1_1Const__NoDefInit__MRRegionId.html#ad1a720b864137a100aedfa19ed692d9b":[9,3,0,0,0,691,2],
+"classMR_1_1Const__NoDefInit__MRRegionId.html#ad78ce20f70856ef83c0cd9119c2dc395":[9,3,0,0,0,691,8],
+"classMR_1_1Const__NoDefInit__MRRegionId.html#ae2bf60c8e32a6faf63f083e24939d869":[9,3,0,0,0,691,3],
+"classMR_1_1Const__NoDefInit__MRRegionId.html#af3497f15314ba57e1b190ed7a0aea7a1":[9,3,0,0,0,691,15],
+"classMR_1_1Const__NoDefInit__MRRegionId.html#afb2bd0a7e1c9e6ac5c49195fe35d6ce4":[9,3,0,0,0,691,10],
+"classMR_1_1Const__NoDefInit__MRTextureId.html":[9,3,0,0,0,692],
+"classMR_1_1Const__NoDefInit__MRTextureId.html#a1b749e0eea5d9cbeacfc53ae79ce9e15":[9,3,0,0,0,692,4],
+"classMR_1_1Const__NoDefInit__MRTextureId.html#a2abc06c1ba6db9173c788a0983d5713e":[9,3,0,0,0,692,6],
 "classMR_1_1Const__NoDefInit__MRTextureId.html#a360745c0514e6146f407b72f92c3a09f":[9,3,0,0,0,692,13],
 "classMR_1_1Const__NoDefInit__MRTextureId.html#a3ffda4a36bdcccbf601317ec10df0adc":[9,3,0,0,0,692,14],
 "classMR_1_1Const__NoDefInit__MRTextureId.html#a41a2eb50bccf04859c96af76ee4e21cb":[9,3,0,0,0,692,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "classMR_1_1Const__ObjBitSet.html#af0c537ec3470cfe691ed6e69181ce34e":[9,3,0,0,0,702,6],
 "classMR_1_1Const__ObjBitSet.html#af8fef86d4c90c89a3958f01894cfd6a9":[9,3,0,0,0,702,28],
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html":[9,3,0,0,0,720],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#a2accab617efa2cbfcf2d204468501798":[9,3,0,0,0,720,3],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#a4efdc11faee6fb6dc97f7124ab564809":[9,3,0,0,0,720,1],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#a9fb502ece1e5720f23fb2cc659865b55":[9,3,0,0,0,720,4],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#adb43066437ef3fb9de903960db39ae0e":[9,3,0,0,0,720,0],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#aeb8473839d2b3e5862ee9692955cbb7d":[9,3,0,0,0,720,5],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#af95c798aa0d700c13401447a8a95f493":[9,3,0,0,0,720,2],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone.html":[9,3,0,0,0,721],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone.html#a5fb30146191e375777dd3e7462fe5522":[9,3,0,0,0,721,1],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone.html#a81ffa6e0e5036a203e151cf1066eceff":[9,3,0,0,0,721,4]
+"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#a2accab617efa2cbfcf2d204468501798":[9,3,0,0,0,720,3]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX45 =
 {
+"structmeshlib_1_1DecimateSettings.html#a96f56c223210503806ddbd0e3e42d318":[9,5,1,0,0,251,8],
+"structmeshlib_1_1DecimateSettings.html#a979632719defe577661727d32996f761":[9,5,0,0,0,264,39],
+"structmeshlib_1_1DecimateSettings.html#a979632719defe577661727d32996f761":[9,5,1,0,0,251,39],
+"structmeshlib_1_1DecimateSettings.html#a97a194c0ebd2e88e37f7c2013d143ac6":[9,5,0,0,0,264,98],
+"structmeshlib_1_1DecimateSettings.html#a97a194c0ebd2e88e37f7c2013d143ac6":[9,5,1,0,0,251,98],
+"structmeshlib_1_1DecimateSettings.html#a9a487546f694665557382bd477dffb91":[9,5,0,0,0,264,43],
+"structmeshlib_1_1DecimateSettings.html#a9a487546f694665557382bd477dffb91":[9,5,1,0,0,251,43],
+"structmeshlib_1_1DecimateSettings.html#aa04d604cdc0148a26c730bf3d16b91d0":[9,5,0,0,0,264,57],
 "structmeshlib_1_1DecimateSettings.html#aa04d604cdc0148a26c730bf3d16b91d0":[9,5,1,0,0,251,57],
 "structmeshlib_1_1DecimateSettings.html#aa64f62d8c1ee8686b4f79a4d44c1b262":[9,5,0,0,0,264,6],
 "structmeshlib_1_1DecimateSettings.html#aa64f62d8c1ee8686b4f79a4d44c1b262":[9,5,1,0,0,251,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX45 =
 "structmeshlib_1_1DenoiseWithCreasesSettings.html#ad8f3480e55dc2cd6a112b1030d1ec8e1":[9,5,1,0,0,256,1],
 "structmeshlib_1_1DenoiseWithCreasesSettings.html#ae20a5c56083299a21ac35211b4981f25":[9,5,0,0,0,269,12],
 "structmeshlib_1_1DenoiseWithCreasesSettings.html#ae20a5c56083299a21ac35211b4981f25":[9,5,1,0,0,256,12],
-"structmeshlib_1_1DenoiseWithCreasesSettings.html#af239f6d7ff12b50d2548de7ad47bb2d5":[9,5,0,0,0,269,4],
-"structmeshlib_1_1DenoiseWithCreasesSettings.html#af239f6d7ff12b50d2548de7ad47bb2d5":[9,5,1,0,0,256,4],
-"structmeshlib_1_1DenseBox.html":[9,5,0,0,0,270],
-"structmeshlib_1_1DenseBox.html":[9,5,1,0,0,257],
-"structmeshlib_1_1DenseBox.html#a0430368d876611ba5348d581e07d170a":[9,5,0,0,0,270,2],
-"structmeshlib_1_1DenseBox.html#a0430368d876611ba5348d581e07d170a":[9,5,1,0,0,257,2],
-"structmeshlib_1_1DenseBox.html#a23b06c41162886d4d5b15aed1bc409d0":[9,5,0,0,0,270,0],
-"structmeshlib_1_1DenseBox.html#a23b06c41162886d4d5b15aed1bc409d0":[9,5,1,0,0,257,0],
-"structmeshlib_1_1DenseBox.html#a84226a78e3054ce6568cb421c2f507d4":[9,5,0,0,0,270,1]
+"structmeshlib_1_1DenoiseWithCreasesSettings.html#af239f6d7ff12b50d2548de7ad47bb2d5":[9,5,0,0,0,269,4]
 };

@@ -1,5 +1,17 @@
 var NAVTREEINDEX87 =
 {
+"classMR_1_1Const__TextureBitSet.html#a547c7b0e7a0b36920b5d60688939a436":[9,3,0,0,0,927,24],
+"classMR_1_1Const__TextureBitSet.html#a55ec16b5b8faf23c985d4fd1e5cef978":[9,3,0,0,0,927,20],
+"classMR_1_1Const__TextureBitSet.html#a57d2577a990ebf747add562b37b66ccc":[9,3,0,0,0,927,21],
+"classMR_1_1Const__TextureBitSet.html#a66f51e76de28c744771a5df421ae7617":[9,3,0,0,0,927,48],
+"classMR_1_1Const__TextureBitSet.html#a692537478d3fe31235be40bfed9398bc":[9,3,0,0,0,927,22],
+"classMR_1_1Const__TextureBitSet.html#a6c8a604bf42aea48425c5163eab53942":[9,3,0,0,0,927,44],
+"classMR_1_1Const__TextureBitSet.html#a7050aebddbecab6747d9510da2700e17":[9,3,0,0,0,927,49],
+"classMR_1_1Const__TextureBitSet.html#a7301a973ba56ff90100c490cc8dc6e43":[9,3,0,0,0,927,7],
+"classMR_1_1Const__TextureBitSet.html#a7502fb15a6b2413b3b7bea0edd601586":[9,3,0,0,0,927,40],
+"classMR_1_1Const__TextureBitSet.html#a7747cd1938ec6af8d852365559c64a1c":[9,3,0,0,0,927,17],
+"classMR_1_1Const__TextureBitSet.html#a807cac95a6af440832bc529fb7b611ee":[9,3,0,0,0,927,1],
+"classMR_1_1Const__TextureBitSet.html#a8ab1be03b5746024a56354d6b5a421ec":[9,3,0,0,0,927,4],
 "classMR_1_1Const__TextureBitSet.html#a8b254ef037424771c57d99bebc9aa0c0":[9,3,0,0,0,927,25],
 "classMR_1_1Const__TextureBitSet.html#a90dd968d1d5226e9af58828722c7414a":[9,3,0,0,0,927,9],
 "classMR_1_1Const__TextureBitSet.html#a9425bd38b71a9178ab426928303018b7":[9,3,0,0,0,927,42],
@@ -237,17 +249,5 @@ var NAVTREEINDEX87 =
 "classMR_1_1Const__TriCornerUVCoords.html#a8a648ff1776725a8450b531a5734fe6c":[9,3,0,0,0,943,9],
 "classMR_1_1Const__TriCornerUVCoords.html#a8f27456a3b6bd00cd79dbed3a4d3cdad":[9,3,0,0,0,943,12],
 "classMR_1_1Const__TriCornerUVCoords.html#a9b0339c05fe7aa6f9308456b6facb584":[9,3,0,0,0,943,10],
-"classMR_1_1Const__TriCornerUVCoords.html#aa4c05638d58b2441665e5607bdb8fdc8":[9,3,0,0,0,943,7],
-"classMR_1_1Const__TriCornerUVCoords.html#aa750f784ff4fdd07f87e8b22e3071ba4":[9,3,0,0,0,943,23],
-"classMR_1_1Const__TriCornerUVCoords.html#aaf5f14570074b97ae63acfcbaceea4c1":[9,3,0,0,0,943,5],
-"classMR_1_1Const__TriCornerUVCoords.html#acc3d95594de6c5d4bae5300cf7f05fe1":[9,3,0,0,0,943,20],
-"classMR_1_1Const__TriCornerUVCoords.html#ad21c0c76a1f4f2f60a8660b47370a6df":[9,3,0,0,0,943,2],
-"classMR_1_1Const__TriCornerUVCoords.html#ad84e4d506a00971b3919f813217af064":[9,3,0,0,0,943,16],
-"classMR_1_1Const__TriCornerUVCoords.html#ad91795cf326dc9006480712da469f278":[9,3,0,0,0,943,17],
-"classMR_1_1Const__TriCornerUVCoords.html#add192d2dc00fd65fe7381cb4726f95b5":[9,3,0,0,0,943,21],
-"classMR_1_1Const__TriCornerUVCoords.html#addf800dc6a9e85c87ed09f626c054ee3":[9,3,0,0,0,943,6],
-"classMR_1_1Const__TriCornerUVCoords.html#aee33573799dd90998b6e3173054c31e6":[9,3,0,0,0,943,8],
-"classMR_1_1Const__TriCornerUVCoords.html#afa6792be5ce91248ed4c6843314a5750":[9,3,0,0,0,943,13],
-"classMR_1_1Const__TriIntersectResult.html":[9,3,0,0,0,944],
-"classMR_1_1Const__TriIntersectResult.html#a2545c1f2fd7598fc31d984ef62dac8e4":[9,3,0,0,0,944,0]
+"classMR_1_1Const__TriCornerUVCoords.html#aa4c05638d58b2441665e5607bdb8fdc8":[9,3,0,0,0,943,7]
 };

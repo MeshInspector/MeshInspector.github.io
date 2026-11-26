@@ -1,5 +1,7 @@
 var NAVTREEINDEX25 =
 {
+"classmeshlib_1_1CameraPointsTriangulationSettings.html":[9,6,1,0,0,160],
+"classmeshlib_1_1CameraPointsTriangulationSettings.html#a0c33eb90beb7130f0f913f896c8bafbc":[9,6,0,0,0,160,2],
 "classmeshlib_1_1CameraPointsTriangulationSettings.html#a0c33eb90beb7130f0f913f896c8bafbc":[9,6,1,0,0,160,2],
 "classmeshlib_1_1CameraPointsTriangulationSettings.html#a1b53258234b983beb078ae67f068f869":[9,6,0,0,0,160,4],
 "classmeshlib_1_1CameraPointsTriangulationSettings.html#a1b53258234b983beb078ae67f068f869":[9,6,1,0,0,160,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX25 =
 "classmeshlib_1_1ChangeMeshEdgeSelectionAction.html#a3ceca50dd20302c10b1b32de922ceb68":[9,6,1,0,0,172,6],
 "classmeshlib_1_1ChangeMeshEdgeSelectionAction.html#a44f56adcb080bef679f4c725c288e9f2":[9,6,0,0,0,172,2],
 "classmeshlib_1_1ChangeMeshEdgeSelectionAction.html#a44f56adcb080bef679f4c725c288e9f2":[9,6,1,0,0,172,2],
-"classmeshlib_1_1ChangeMeshEdgeSelectionAction.html#a4a219a9b8f75ab54bb9d36c302656be6":[9,6,0,0,0,172,7],
-"classmeshlib_1_1ChangeMeshEdgeSelectionAction.html#a4a219a9b8f75ab54bb9d36c302656be6":[9,6,1,0,0,172,7],
-"classmeshlib_1_1ChangeMeshEdgeSelectionAction.html#a50b250ab916fbd96bdddcac5f515dec3":[9,6,0,0,0,172,4]
+"classmeshlib_1_1ChangeMeshEdgeSelectionAction.html#a4a219a9b8f75ab54bb9d36c302656be6":[9,6,0,0,0,172,7]
 };

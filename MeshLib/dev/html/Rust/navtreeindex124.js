@@ -1,5 +1,13 @@
 var NAVTREEINDEX124 =
 {
+"structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#a176990c9037dab99336423fe6582747b":[9,5,0,0,0,906,6],
+"structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#a176990c9037dab99336423fe6582747b":[9,5,1,0,0,893,6],
+"structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#a6a858caf1b4ae54477a2102824cf9a3e":[9,5,0,0,0,906,4],
+"structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#a6a858caf1b4ae54477a2102824cf9a3e":[9,5,1,0,0,893,4],
+"structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#a8dc030c2572bdb51b4e680fb8e4e9411":[9,5,0,0,0,906,5],
+"structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#a8dc030c2572bdb51b4e680fb8e4e9411":[9,5,1,0,0,893,5],
+"structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#ab2e134be7a277673c5206f458cc6d820":[9,5,0,0,0,906,3],
+"structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#ab2e134be7a277673c5206f458cc6d820":[9,5,1,0,0,893,3],
 "structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#ab4b6c43596113a61ab954c8469cae76a":[9,5,0,0,0,906,2],
 "structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#ab4b6c43596113a61ab954c8469cae76a":[9,5,1,0,0,893,2],
 "structmeshlib_1_1RingIterator__MR__NextEdgeSameOrigin.html#af284bdc6506c83309c8bac83bb5488a7":[9,5,0,0,0,906,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX124 =
 "structmeshlib_1_1SearchPathSettings.html#a88eab2ff688a940f153e5fa8adf2e10d":[9,5,0,0,0,918,3],
 "structmeshlib_1_1SearchPathSettings.html#a88eab2ff688a940f153e5fa8adf2e10d":[9,5,1,0,0,905,3],
 "structmeshlib_1_1SearchPathSettings.html#acf73553beff5aaaabe148602010e77e9":[9,5,0,0,0,918,2],
-"structmeshlib_1_1SearchPathSettings.html#acf73553beff5aaaabe148602010e77e9":[9,5,1,0,0,905,2],
-"structmeshlib_1_1SearchPathSettings.html#adce3c99987a84a752b411030b35ff44c":[9,5,0,0,0,918,4],
-"structmeshlib_1_1SearchPathSettings.html#adce3c99987a84a752b411030b35ff44c":[9,5,1,0,0,905,4],
-"structmeshlib_1_1SearchPathSettings.html#adff38aacc7e8118206173e0978241fb8":[9,5,0,0,0,918,0],
-"structmeshlib_1_1SearchPathSettings.html#adff38aacc7e8118206173e0978241fb8":[9,5,1,0,0,905,0],
-"structmeshlib_1_1SegmPointd.html":[9,5,0,0,0,920],
-"structmeshlib_1_1SegmPointd.html":[9,5,1,0,0,907],
-"structmeshlib_1_1SegmPointd.html#a374fb6712643c2e375ade5253c43d365":[9,5,0,0,0,920,11],
-"structmeshlib_1_1SegmPointd.html#a374fb6712643c2e375ade5253c43d365":[9,5,1,0,0,907,11]
+"structmeshlib_1_1SearchPathSettings.html#acf73553beff5aaaabe148602010e77e9":[9,5,1,0,0,905,2]
 };

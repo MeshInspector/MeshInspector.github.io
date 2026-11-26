@@ -1,5 +1,13 @@
 var NAVTREEINDEX80 =
 {
+"classVector4d.html#a82d92cb6d56af6886078f6d73c17b567":[9,4,1,0,1471,10],
+"classVector4d.html#a8631b5bfe6718c2790aa2bf9c9c56002":[9,4,1,0,1471,0],
+"classVector4d.html#a890db66b3aaecb5380ee8b63d6426d4e":[9,4,1,0,1471,6],
+"classVector4d.html#a8a86ab5f4dea948a2b4324742036f858":[9,4,1,0,1471,12],
+"classVector4d.html#a980bba6095962f2e94d7b4a81c255be9":[9,4,1,0,1471,13],
+"classVector4d.html#aaac9cf54a29dbdef1c680d929c3960dd":[9,4,1,0,1471,8],
+"classVector4d.html#abbf39452f091655f11d4b8be0340bc25":[9,4,1,0,1471,7],
+"classVector4d.html#ac17f1dbb27846288e442d19214893c32":[9,4,1,0,1471,2],
 "classVector4d.html#ad6048ec402aa362292457fd6f9e8075c":[9,4,1,0,1471,9],
 "classVector4d.html#af151ef3216b74a49f65cf3a03b81f8b8":[9,4,1,0,1471,11],
 "classVector4d.html#afa0b16c7c024d60dbaa6074c1cf900d1":[9,4,1,0,1471,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX80 =
 "classVector__MR__AffineXf3f__MR__ObjId.html#a4a58307ed83c14d6907dadfb2c67cbef":[9,4,1,0,1490,46],
 "classVector__MR__AffineXf3f__MR__ObjId.html#a56233c0ec82663d1067ed9237620399b":[9,4,1,0,1490,43],
 "classVector__MR__AffineXf3f__MR__ObjId.html#a68188b06bfe987480fbea2dd5e56f971":[9,4,1,0,1490,5],
-"classVector__MR__AffineXf3f__MR__ObjId.html#a70059884b3e9a1a9694c734850646970":[9,4,1,0,1490,16],
-"classVector__MR__AffineXf3f__MR__ObjId.html#a7365a7ae48286a717a892163b093db18":[9,4,1,0,1490,29],
-"classVector__MR__AffineXf3f__MR__ObjId.html#a910ee4782fd048ed58e6d12a599ed410":[9,4,1,0,1490,15],
-"classVector__MR__AffineXf3f__MR__ObjId.html#a94aaffadb1c4d0ab5f922edf3129e5be":[9,4,1,0,1490,45],
-"classVector__MR__AffineXf3f__MR__ObjId.html#a94f949cae508899dacf641c46b3af8c1":[9,4,1,0,1490,13],
-"classVector__MR__AffineXf3f__MR__ObjId.html#a98b016feea70596155b922ad0bdbbc60":[9,4,1,0,1490,26],
-"classVector__MR__AffineXf3f__MR__ObjId.html#aa173e576eff6d697a6c089931621b087":[9,4,1,0,1490,11],
-"classVector__MR__AffineXf3f__MR__ObjId.html#aa444b2f1a17f2ffc807be7d66d67407b":[9,4,1,0,1490,9],
-"classVector__MR__AffineXf3f__MR__ObjId.html#aa55585217bb5c1267d50ae4e9233f3aa":[9,4,1,0,1490,6]
+"classVector__MR__AffineXf3f__MR__ObjId.html#a70059884b3e9a1a9694c734850646970":[9,4,1,0,1490,16]
 };

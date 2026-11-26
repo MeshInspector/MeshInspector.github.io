@@ -1,5 +1,13 @@
 var NAVTREEINDEX80 =
 {
+"structmeshlib_1_1MeshMeshSignedDistanceResult.html#a57d8aacaf9482f70adfa4c5ce33166a2":[9,5,1,0,0,605,1],
+"structmeshlib_1_1MeshMeshSignedDistanceResult.html#a5a67617fbd10eba248c4e870bc20b9c7":[9,5,0,0,0,618,5],
+"structmeshlib_1_1MeshMeshSignedDistanceResult.html#a5a67617fbd10eba248c4e870bc20b9c7":[9,5,1,0,0,605,5],
+"structmeshlib_1_1MeshMeshSignedDistanceResult.html#a614e9c9069e23891fc7b24bd83507539":[9,5,0,0,0,618,4],
+"structmeshlib_1_1MeshMeshSignedDistanceResult.html#a614e9c9069e23891fc7b24bd83507539":[9,5,1,0,0,605,4],
+"structmeshlib_1_1MeshMeshSignedDistanceResult.html#aac341f6432ff45ee62f939c415ca186f":[9,5,0,0,0,618,7],
+"structmeshlib_1_1MeshMeshSignedDistanceResult.html#aac341f6432ff45ee62f939c415ca186f":[9,5,1,0,0,605,7],
+"structmeshlib_1_1MeshMeshSignedDistanceResult.html#aacca62b73b2ff866960fa863dac877ae":[9,5,0,0,0,618,6],
 "structmeshlib_1_1MeshMeshSignedDistanceResult.html#aacca62b73b2ff866960fa863dac877ae":[9,5,1,0,0,605,6],
 "structmeshlib_1_1MeshMeshSignedDistanceResult.html#ac33f6f8b191ff3ea181b6e0bf500a834":[9,5,0,0,0,618,12],
 "structmeshlib_1_1MeshMeshSignedDistanceResult.html#ac33f6f8b191ff3ea181b6e0bf500a834":[9,5,1,0,0,605,12],
@@ -241,13 +249,5 @@ var NAVTREEINDEX80 =
 "structmeshlib_1_1MeshOrPointsObject.html#a8b3d4ed589f5dbac2cd27e148e1a075c":[9,5,1,0,0,615,4],
 "structmeshlib_1_1MeshOrPointsObject.html#a8d1f063618a3a4c6c924e5f3ad9ce1cf":[9,5,0,0,0,628,3],
 "structmeshlib_1_1MeshOrPointsObject.html#a8d1f063618a3a4c6c924e5f3ad9ce1cf":[9,5,1,0,0,615,3],
-"structmeshlib_1_1MeshOrPointsObject.html#a97c52324f59acba106435f640d69b222":[9,5,0,0,0,628,8],
-"structmeshlib_1_1MeshOrPointsObject.html#a97c52324f59acba106435f640d69b222":[9,5,1,0,0,615,8],
-"structmeshlib_1_1MeshOrPointsObject.html#aa1aa151a6657739b142864bd3faa90ba":[9,5,0,0,0,628,9],
-"structmeshlib_1_1MeshOrPointsObject.html#aa1aa151a6657739b142864bd3faa90ba":[9,5,1,0,0,615,9],
-"structmeshlib_1_1MeshOrPointsObject.html#ab37fbd31b47d6b17daee7964eeae29f8":[9,5,0,0,0,628,7],
-"structmeshlib_1_1MeshOrPointsObject.html#ab37fbd31b47d6b17daee7964eeae29f8":[9,5,1,0,0,615,7],
-"structmeshlib_1_1MeshOrPointsXf.html":[9,5,0,0,0,629],
-"structmeshlib_1_1MeshOrPointsXf.html":[9,5,1,0,0,616],
-"structmeshlib_1_1MeshOrPointsXf.html#a11a0f4465f5c839049b940e97e62bf69":[9,5,0,0,0,629,3]
+"structmeshlib_1_1MeshOrPointsObject.html#a97c52324f59acba106435f640d69b222":[9,5,0,0,0,628,8]
 };

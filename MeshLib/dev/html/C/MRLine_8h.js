@@ -2,6 +2,7 @@ var MRLine_8h =
 [
     [ "MR_Line2d", "MRLine_8h.html#a6992d64f6703ac6d7687c699042105a2", null ],
     [ "MR_Line2f", "MRLine_8h.html#a42f4324f3958a2b1ca19cd1728c5db67", null ],
+    [ "MR_equal_MR_Line3d", "MRLine_8h.html#a066ff6678d7d022849253538f259f1fa", null ],
     [ "MR_input_MR_Line2d", "MRLine_8h.html#ad05cd88d5b28243c8997604029e9aebe", null ],
     [ "MR_input_MR_Line2f", "MRLine_8h.html#a68df80f8b687a3bb70f9bdbd8427ed79", null ],
     [ "MR_input_MR_Line3d", "MRLine_8h.html#a082ee46035c110a61615f12037ea2a43", null ],
@@ -91,6 +92,7 @@ var MRLine_8h =
     [ "MR_neg_MR_Line2f", "MRLine_8h.html#a9779ff7988a7be4d107ca80a02abe3c2", null ],
     [ "MR_neg_MR_Line3d", "MRLine_8h.html#ad6440feacacab910724512440cdb1758", null ],
     [ "MR_neg_MR_Line3f", "MRLine_8h.html#ac99123cd113fd9063d7c3c40a2a810e4", null ],
+    [ "MR_not_equal_MR_Line3d", "MRLine_8h.html#a69288251fe58f291c91a9ea6cc33b832", null ],
     [ "MR_pos_MR_Line2d", "MRLine_8h.html#a566817184d6fea88a823d403a2c9403a", null ],
     [ "MR_pos_MR_Line2f", "MRLine_8h.html#a957bccc2f6a600332a0d2ca9584984cf", null ],
     [ "MR_pos_MR_Line3d", "MRLine_8h.html#a69c487a37dcd0f0f2e759a4af46c4bc0", null ],

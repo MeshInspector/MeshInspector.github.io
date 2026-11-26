@@ -1,5 +1,9 @@
 var NAVTREEINDEX99 =
 {
+"MRQuaternion_8h.html#a9b887a0f2f33c79e756b1ef72cf37e65":[9,2,2,0,0,0,0,1,310,44],
+"MRQuaternion_8h.html#a9cd1b5b2870fa0e6a70da1db022e5c55":[9,2,2,0,0,0,0,1,310,16],
+"MRQuaternion_8h.html#aa652708600b956c045f675ec8ad29f75":[9,2,2,0,0,0,0,1,310,81],
+"MRQuaternion_8h.html#aa84ce0d0b6984be550d5355717a75a3d":[9,2,2,0,0,0,0,1,310,79],
 "MRQuaternion_8h.html#aaaa579215f16f75421c23e0968c7a039":[9,2,2,0,0,0,0,1,310,45],
 "MRQuaternion_8h.html#aab05460a47eb3dce64b0f591d80a4915":[9,2,2,0,0,0,0,1,310,25],
 "MRQuaternion_8h.html#ab03688eaf2937aed9e0907eab5f01c84":[9,2,2,0,0,0,0,1,310,35],
@@ -245,9 +249,5 @@ var NAVTREEINDEX99 =
 "MRRaster_8h.html#a1c33a307e16ab67bd44705bc593fdc23":[9,2,2,0,0,0,0,1,313,19],
 "MRRaster_8h.html#a22058404b667a560bc77d1011dc05e5c":[9,2,2,0,0,0,0,1,313,24],
 "MRRaster_8h.html#a25951d63cf03f528dc57d191b18fae70":[9,2,2,0,0,0,0,1,313,56],
-"MRRaster_8h.html#a284ab2945f9524819a7b94ada4a25016":[9,2,2,0,0,0,0,1,313,25],
-"MRRaster_8h.html#a2a283fce5c74250fa541f538103e4472":[9,2,2,0,0,0,0,1,313,55],
-"MRRaster_8h.html#a2d54cced02f9a6a245148d17aef1b184":[9,2,2,0,0,0,0,1,313,38],
-"MRRaster_8h.html#a306e7f75194a9af797b23a6f8e55825a":[9,2,2,0,0,0,0,1,313,15],
-"MRRaster_8h.html#a33c8bfcebeec62f5df1d6d91a2db2e29":[9,2,2,0,0,0,0,1,313,9]
+"MRRaster_8h.html#a284ab2945f9524819a7b94ada4a25016":[9,2,2,0,0,0,0,1,313,25]
 };

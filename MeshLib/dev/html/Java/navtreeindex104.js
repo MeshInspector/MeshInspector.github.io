@@ -1,5 +1,7 @@
 var NAVTREEINDEX104 =
 {
+"classmeshlib_1_1ObjectVoxels.html#ae270869bdd6430659446d5522ad25aa9":[9,6,1,0,0,744,222],
+"classmeshlib_1_1ObjectVoxels.html#ae385fba76972199b8f1c352e880d66d9":[9,6,0,0,0,744,163],
 "classmeshlib_1_1ObjectVoxels.html#ae385fba76972199b8f1c352e880d66d9":[9,6,1,0,0,744,163],
 "classmeshlib_1_1ObjectVoxels.html#ae3d9d3cdcc24e00f7b67c40f57324456":[9,6,0,0,0,744,172],
 "classmeshlib_1_1ObjectVoxels.html#ae3d9d3cdcc24e00f7b67c40f57324456":[9,6,1,0,0,744,172],
@@ -247,7 +249,5 @@ var NAVTREEINDEX104 =
 "classmeshlib_1_1OffsetContoursParams.html#ae53dc2df84167750e7f7257ca1759149":[9,6,1,0,0,763,10],
 "classmeshlib_1_1OffsetContoursParams.html#ae7d0fabeae62ebb1dd089ad1a7b1343c":[9,6,0,0,0,763,4],
 "classmeshlib_1_1OffsetContoursParams.html#ae7d0fabeae62ebb1dd089ad1a7b1343c":[9,6,1,0,0,763,4],
-"classmeshlib_1_1OffsetContoursParams__CornerType.html":[9,6,0,0,0,764],
-"classmeshlib_1_1OffsetContoursParams__CornerType.html":[9,6,1,0,0,764],
-"classmeshlib_1_1OffsetContoursParams__CornerType.html#a9bfb3fa1f1725d736d9426c1bc94e331":[9,6,0,0,0,764,3]
+"classmeshlib_1_1OffsetContoursParams__CornerType.html":[9,6,0,0,0,764]
 };

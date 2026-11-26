@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"classmrmeshpy_1_1ConstSharpenMarchingCubesMeshSettings.html#a296bafbb1bd4a4c65060654494eefe4a":[9,1,0,0,2,1215,0],
+"classmrmeshpy_1_1ConstSharpenMarchingCubesMeshSettings.html#a296bafbb1bd4a4c65060654494eefe4a":[9,1,1,0,1,1215,0],
+"classmrmeshpy_1_1ConstSharpenMarchingCubesMeshSettings.html#a2f57768c1a2878bfc66a8c62f30f2a62":[9,1,0,0,2,1215,7],
+"classmrmeshpy_1_1ConstSharpenMarchingCubesMeshSettings.html#a2f57768c1a2878bfc66a8c62f30f2a62":[9,1,1,0,1,1215,7],
+"classmrmeshpy_1_1ConstSharpenMarchingCubesMeshSettings.html#a5e515217e54e1753ba85bd625cba01ce":[9,1,0,0,2,1215,11],
+"classmrmeshpy_1_1ConstSharpenMarchingCubesMeshSettings.html#a5e515217e54e1753ba85bd625cba01ce":[9,1,1,0,1,1215,11],
+"classmrmeshpy_1_1ConstSharpenMarchingCubesMeshSettings.html#a714ac9c2dd8fa2d077128fdf0f5c5289":[9,1,0,0,2,1215,1],
+"classmrmeshpy_1_1ConstSharpenMarchingCubesMeshSettings.html#a714ac9c2dd8fa2d077128fdf0f5c5289":[9,1,1,0,1,1215,1],
 "classmrmeshpy_1_1ConstSharpenMarchingCubesMeshSettings.html#a8cc68ac7832a3ce3819f22b531086651":[9,1,0,0,2,1215,2],
 "classmrmeshpy_1_1ConstSharpenMarchingCubesMeshSettings.html#a8cc68ac7832a3ce3819f22b531086651":[9,1,1,0,1,1215,2],
 "classmrmeshpy_1_1ConstSharpenMarchingCubesMeshSettings.html#a8e9fa09dd5b051d05b1b32ca4fd1014c":[9,1,0,0,2,1215,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "classmrmeshpy_1_1ConstSphere2f.html#a1d31ca101dfb3223c2a9520431a9b054":[9,1,0,0,2,1238,6],
 "classmrmeshpy_1_1ConstSphere2f.html#a1d31ca101dfb3223c2a9520431a9b054":[9,1,1,0,1,1238,6],
 "classmrmeshpy_1_1ConstSphere2f.html#a2be7519ff0623145590fe407f3e4bc8f":[9,1,0,0,2,1238,1],
-"classmrmeshpy_1_1ConstSphere2f.html#a2be7519ff0623145590fe407f3e4bc8f":[9,1,1,0,1,1238,1],
-"classmrmeshpy_1_1ConstSphere2f.html#a4178be9e15a2130cfefd87344920b0fd":[9,1,0,0,2,1238,5],
-"classmrmeshpy_1_1ConstSphere2f.html#a4178be9e15a2130cfefd87344920b0fd":[9,1,1,0,1,1238,5],
-"classmrmeshpy_1_1ConstSphere2f.html#a455e383a012ad29cacc3e118f2804e07":[9,1,0,0,2,1238,2],
-"classmrmeshpy_1_1ConstSphere2f.html#a455e383a012ad29cacc3e118f2804e07":[9,1,1,0,1,1238,2],
-"classmrmeshpy_1_1ConstSphere2f.html#a562d7fb8398a3daf19b81b158b95c04e":[9,1,0,0,2,1238,7],
-"classmrmeshpy_1_1ConstSphere2f.html#a562d7fb8398a3daf19b81b158b95c04e":[9,1,1,0,1,1238,7],
-"classmrmeshpy_1_1ConstSphere2f.html#a719433c3c55ecd647c96645a64e8da9c":[9,1,0,0,2,1238,3],
-"classmrmeshpy_1_1ConstSphere2f.html#a719433c3c55ecd647c96645a64e8da9c":[9,1,1,0,1,1238,3]
+"classmrmeshpy_1_1ConstSphere2f.html#a2be7519ff0623145590fe407f3e4bc8f":[9,1,1,0,1,1238,1]
 };

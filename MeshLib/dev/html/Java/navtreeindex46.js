@@ -1,5 +1,7 @@
 var NAVTREEINDEX46 =
 {
+"classmeshlib_1_1EdgeSegment.html#ac4d1c0dfbd8039d13a329704a3b76cf6":[9,6,1,0,0,315,15],
+"classmeshlib_1_1EdgeSegment.html#aec576bc0fd66e45f13a6f19ac1bf87a6":[9,6,0,0,0,315,12],
 "classmeshlib_1_1EdgeSegment.html#aec576bc0fd66e45f13a6f19ac1bf87a6":[9,6,1,0,0,315,12],
 "classmeshlib_1_1EdgeSegment.html#aee5314900b902e2716cdff4f67b3e1ae":[9,6,0,0,0,315,4],
 "classmeshlib_1_1EdgeSegment.html#aee5314900b902e2716cdff4f67b3e1ae":[9,6,1,0,0,315,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX46 =
 "classmeshlib_1_1EndMillCutter.html#af18f18ddc9a89b65cc74102599cff179":[9,6,1,0,0,321,5],
 "classmeshlib_1_1EndMillCutter__Type.html":[9,6,0,0,0,322],
 "classmeshlib_1_1EndMillCutter__Type.html":[9,6,1,0,0,322],
-"classmeshlib_1_1EndMillCutter__Type.html#a0543190e0f648ce26140e626f47d929f":[9,6,0,0,0,322,3],
-"classmeshlib_1_1EndMillCutter__Type.html#a0543190e0f648ce26140e626f47d929f":[9,6,1,0,0,322,3],
-"classmeshlib_1_1EndMillCutter__Type.html#a1e475be7a09419f744d33bbf9768b142":[9,6,0,0,0,322,4]
+"classmeshlib_1_1EndMillCutter__Type.html#a0543190e0f648ce26140e626f47d929f":[9,6,0,0,0,322,3]
 };

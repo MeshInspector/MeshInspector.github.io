@@ -708,8 +708,8 @@ var hierarchy =
     [ "mrmeshpy.Const_std_vector_Line3Mesh_float", "classmrmeshpy_1_1Const__std__vector__Line3Mesh__float.html", [
       [ "mrmeshpy.std_vector_Line3Mesh_float", "classmrmeshpy_1_1std__vector__Line3Mesh__float.html", null ]
     ] ],
-    [ "mrmeshpy.Const_std_vector_Line_Vector3_double", "classmrmeshpy_1_1Const__std__vector__Line__Vector3__double.html", [
-      [ "mrmeshpy.std_vector_Line_Vector3_double", "classmrmeshpy_1_1std__vector__Line__Vector3__double.html", null ]
+    [ "mrmeshpy.Const_std_vector_Line_Vector3_double_Allocator_Line_Vector3_double", "classmrmeshpy_1_1Const__std__vector__Line__Vector3__double__Allocator__Line__Vector3__double.html", [
+      [ "mrmeshpy.std_vector_Line_Vector3_double_Allocator_Line_Vector3_double", "classmrmeshpy_1_1std__vector__Line__Vector3__double__Allocator__Line__Vector3__double.html", null ]
     ] ],
     [ "mrmeshpy.Const_std_vector_LineSegm_Vector3_float", "classmrmeshpy_1_1Const__std__vector__LineSegm__Vector3__float.html", [
       [ "mrmeshpy.std_vector_LineSegm_Vector3_float", "classmrmeshpy_1_1std__vector__LineSegm__Vector3__float.html", null ]
@@ -792,8 +792,8 @@ var hierarchy =
     [ "mrmeshpy.Const_std_vector_PlanarTriangulation_IntersectionInfo", "classmrmeshpy_1_1Const__std__vector__PlanarTriangulation__IntersectionInfo.html", [
       [ "mrmeshpy.std_vector_PlanarTriangulation_IntersectionInfo", "classmrmeshpy_1_1std__vector__PlanarTriangulation__IntersectionInfo.html", null ]
     ] ],
-    [ "mrmeshpy.Const_std_vector_Plane3_double", "classmrmeshpy_1_1Const__std__vector__Plane3__double.html", [
-      [ "mrmeshpy.std_vector_Plane3_double", "classmrmeshpy_1_1std__vector__Plane3__double.html", null ]
+    [ "mrmeshpy.Const_std_vector_Plane3_double_Allocator_Plane3_double", "classmrmeshpy_1_1Const__std__vector__Plane3__double__Allocator__Plane3__double.html", [
+      [ "mrmeshpy.std_vector_Plane3_double_Allocator_Plane3_double", "classmrmeshpy_1_1std__vector__Plane3__double__Allocator__Plane3__double.html", null ]
     ] ],
     [ "mrmeshpy.Const_std_vector_PointCloud", "classmrmeshpy_1_1Const__std__vector__PointCloud.html", [
       [ "mrmeshpy.std_vector_PointCloud", "classmrmeshpy_1_1std__vector__PointCloud.html", null ]
@@ -4338,6 +4338,9 @@ var hierarchy =
     [ "mrmeshpy.ConstVector_int_VertId", "classmrmeshpy_1_1ConstVector__int__VertId.html", [
       [ "mrmeshpy.Vector_int_VertId", "classmrmeshpy_1_1Vector__int__VertId.html", null ]
     ] ],
+    [ "mrmeshpy.ConstVector_Line3d", "classmrmeshpy_1_1ConstVector__Line3d.html", [
+      [ "mrmeshpy.Vector_Line3d", "classmrmeshpy_1_1Vector__Line3d.html", null ]
+    ] ],
     [ "mrmeshpy.ConstVector_MeshBuilder_VertSpan_FaceId", "classmrmeshpy_1_1ConstVector__MeshBuilder__VertSpan__FaceId.html", [
       [ "mrmeshpy.Vector_MeshBuilder_VertSpan_FaceId", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html", null ]
     ] ],
@@ -4373,6 +4376,9 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ConstVector_PixelId_PixelId", "classmrmeshpy_1_1ConstVector__PixelId__PixelId.html", [
       [ "mrmeshpy.Vector_PixelId_PixelId", "classmrmeshpy_1_1Vector__PixelId__PixelId.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstVector_Plane3d", "classmrmeshpy_1_1ConstVector__Plane3d.html", [
+      [ "mrmeshpy.Vector_Plane3d", "classmrmeshpy_1_1Vector__Plane3d.html", null ]
     ] ],
     [ "mrmeshpy.ConstVector_QuadraticForm2f_VertId", "classmrmeshpy_1_1ConstVector__QuadraticForm2f__VertId.html", [
       [ "mrmeshpy.Vector_QuadraticForm2f_VertId", "classmrmeshpy_1_1Vector__QuadraticForm2f__VertId.html", null ]

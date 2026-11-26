@@ -1,5 +1,9 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html#a80b403dba49c3f07da8504ed0ebb2f17":[9,3,0,0,0,145,2],
+"classMR_1_1BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html#aa300b69420d0535f38ba8068d7ba9e3d":[9,3,0,0,0,145,3],
+"classMR_1_1BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f.html#aacaf5328e95f6727f740c68534630384":[9,3,0,0,0,145,1],
+"classMR_1_1BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html":[9,3,0,0,0,146],
 "classMR_1_1BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#a0c84674509f226f97fb0a3d287fd05e0":[9,3,0,0,0,146,0],
 "classMR_1_1BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#a2e09550cd502c527c73e912cfff9ecfc":[9,3,0,0,0,146,1],
 "classMR_1_1BoxedLeaf__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f.html#a7004e88b3ba59dde74456607e2767fbf":[9,3,0,0,0,146,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1CameraPointsTriangulationSettings.html#a47a81cede1fdd4902fe097eed17851e1":[9,3,0,0,0,172,0],
 "classMR_1_1CameraPointsTriangulationSettings.html#a5db609413c9dce21ca03c86856e39554":[9,3,0,0,0,172,7],
 "classMR_1_1CameraPointsTriangulationSettings.html#a897da607fd0647d5deca4d0137ed6d28":[9,3,0,0,0,172,5],
-"classMR_1_1CameraPointsTriangulationSettings.html#a90799b21d4856c3561f3d2f83a0ec8ad":[9,3,0,0,0,172,2],
-"classMR_1_1CameraPointsTriangulationSettings.html#acffa15c0615a30b54f0380d9f84bcbfd":[9,3,0,0,0,172,4],
-"classMR_1_1CameraPointsTriangulationSettings.html#ae1465c26afebd05c72f82bdba283d7bc":[9,3,0,0,0,172,6],
-"classMR_1_1CameraPointsTriangulationSettings.html#ae6e056b815ef7222b31d237882e1d25a":[9,3,0,0,0,172,1],
-"classMR_1_1CameraPointsTriangulationSettings.html#aebecab521d3f88f9135853e5ee842ea8":[9,3,0,0,0,172,3]
+"classMR_1_1CameraPointsTriangulationSettings.html#a90799b21d4856c3561f3d2f83a0ec8ad":[9,3,0,0,0,172,2]
 };

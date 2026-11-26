@@ -151,7 +151,9 @@ $(function(){initNavTree('classmrmeshpy_1_1ConstLine3d.html','','classmrmeshpy_1
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a48ea873e1be2b924f243d050bce8f4a8" id="r_a48ea873e1be2b924f243d050bce8f4a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3d.html">Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48ea873e1be2b924f243d050bce8f4a8">__call__</a> (self, float param)</td></tr>
+<tr class="memitem:a5a3b52aaa6c573be7ced3a8e060723e2" id="r_a5a3b52aaa6c573be7ced3a8e060723e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a3b52aaa6c573be7ced3a8e060723e2">__eq__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstLine3d.html">ConstLine3d</a> b)</td></tr>
 <tr class="memitem:a1bded8c3b0df28ece8d4f2c31e567d79" id="r_a1bded8c3b0df28ece8d4f2c31e567d79"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bded8c3b0df28ece8d4f2c31e567d79">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="memitem:aefa1278ce5e27e1f9d511f318a952c43" id="r_aefa1278ce5e27e1f9d511f318a952c43"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefa1278ce5e27e1f9d511f318a952c43">__ne__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstLine3d.html">ConstLine3d</a> b)</td></tr>
 <tr class="memitem:aa2e320481c9bf251ed2ac7d6eeca7e7e" id="r_aa2e320481c9bf251ed2ac7d6eeca7e7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Line3d.html">Line3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2e320481c9bf251ed2ac7d6eeca7e7e">__neg__</a> (self)</td></tr>
 <tr class="memitem:abf302c5ac401ef758a061562691e9499" id="r_abf302c5ac401ef758a061562691e9499"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstLine3d.html">ConstLine3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf302c5ac401ef758a061562691e9499">__pos__</a> (self)</td></tr>
 <tr class="memitem:a7c121c7a2a672f35cde035dc95f4f836" id="r_a7c121c7a2a672f35cde035dc95f4f836"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c121c7a2a672f35cde035dc95f4f836">__repr__</a> (self)</td></tr>
@@ -170,6 +172,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::Line3d
+Aliases:  Vector_Line3d.const_pointer, Vector_Line3d.const_reference, Vector_Line3d.pointer, Vector_Line3d.reference, Vector_Line3d.value_type
 
 2- or 3-dimensional line: cross( x - p, d ) = 0
 </pre> </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -232,6 +235,48 @@ Implicit copy constructor.
 </div><div class="memdoc">
 <pre class="fragment">returns point on the line, where param=0 returns p and param=1 returns p+d
 </pre> 
+</div>
+</div>
+<a id="a5a3b52aaa6c573be7ced3a8e060723e2" name="a5a3b52aaa6c573be7ced3a8e060723e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a3b52aaa6c573be7ced3a8e060723e2">&#9670;&#160;</a></span>__eq__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.ConstLine3d.__eq__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstLine3d.html">ConstLine3d</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefa1278ce5e27e1f9d511f318a952c43" name="aefa1278ce5e27e1f9d511f318a952c43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefa1278ce5e27e1f9d511f318a952c43">&#9670;&#160;</a></span>__ne__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.ConstLine3d.__ne__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstLine3d.html">ConstLine3d</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="aa2e320481c9bf251ed2ac7d6eeca7e7e" name="aa2e320481c9bf251ed2ac7d6eeca7e7e"></a>

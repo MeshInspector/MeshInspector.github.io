@@ -1,5 +1,13 @@
 var NAVTREEINDEX15 =
 {
+"namespacemeshlib_1_1polyline__components.html#afcb9a008b9f5783571a3f6b19eaa47d8":[9,5,0,0,0,27,8],
+"namespacemeshlib_1_1raster__load.html":[9,5,0,0,0,28],
+"namespacemeshlib_1_1raster__load.html#a1766f67cb8977863e1c511235c62ba9a":[9,5,0,0,0,28,1],
+"namespacemeshlib_1_1raster__load.html#a3c59b207db0e3971f8b3743f06962f28":[9,5,0,0,0,28,4],
+"namespacemeshlib_1_1raster__load.html#ac4fabfa304acd44babdf0a703d281baf":[9,5,0,0,0,28,2],
+"namespacemeshlib_1_1raster__load.html#aeeeaf496c7da3402d4a7fa3c5717ba3b":[9,5,0,0,0,28,3],
+"namespacemeshlib_1_1raster__save.html":[9,5,0,0,0,29],
+"namespacemeshlib_1_1raster__save.html#a462a79c32b9ba067fe15c273b8094412":[9,5,0,0,0,29,1],
 "namespacemeshlib_1_1raster__save.html#a9aba7445d19b886b75d4eab31ac91011":[9,5,0,0,0,29,2],
 "namespacemeshlib_1_1raster__save.html#ade9389c2f67096ef634a45d63abcbc37":[9,5,0,0,0,29,0],
 "namespacemeshlib_1_1scene__load.html":[9,5,0,0,0,30],
@@ -241,13 +249,5 @@ var NAVTREEINDEX15 =
 "std__optional__MR__Sphere2d_8rs.html":[9,5,2,0,0,1,3,242],
 "std__optional__MR__Sphere3d_8rs.html":[9,5,2,0,0,1,3,243],
 "std__optional__MR__ThreeVertIds_8rs.html":[9,5,2,0,0,1,3,244],
-"std__optional__MR__Torus3d_8rs.html":[9,5,2,0,0,1,3,245],
-"std__optional__MR__TriIntersectResult_8rs.html":[9,5,2,0,0,1,3,247],
-"std__optional__MR__Triangulation_8rs.html":[9,5,2,0,0,1,3,246],
-"std__optional__MR__Vector2d_8rs.html":[9,5,2,0,0,1,3,248],
-"std__optional__MR__Vector2f_8rs.html":[9,5,2,0,0,1,3,249],
-"std__optional__MR__Vector3d_8rs.html":[9,5,2,0,0,1,3,250],
-"std__optional__MR__Vector3f_8rs.html":[9,5,2,0,0,1,3,251],
-"std__optional__MR__Vector3i_8rs.html":[9,5,2,0,0,1,3,252],
-"std__optional__MR__VertBitSet_8rs.html":[9,5,2,0,0,1,3,253]
+"std__optional__MR__Torus3d_8rs.html":[9,5,2,0,0,1,3,245]
 };

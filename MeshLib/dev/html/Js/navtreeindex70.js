@@ -1,5 +1,13 @@
 var NAVTREEINDEX70 =
 {
+"classSetBitIteratorT__MR__RegionBitSet.html#a71d29c0188100dccb6332edd19bb60bb":[9,4,1,0,811,7],
+"classSetBitIteratorT__MR__RegionBitSet.html#a7b0ad29535c1b7c6620eec088207074b":[9,4,1,0,811,3],
+"classSetBitIteratorT__MR__RegionBitSet.html#aaab0fce99b8c2a602d2d26af35e3111c":[9,4,1,0,811,2],
+"classSetBitIteratorT__MR__RegionBitSet.html#ab7f1613207c9d6c5288efa41bac5f746":[9,4,1,0,811,0],
+"classSetBitIteratorT__MR__RegionBitSet.html#ac604a7b6a8009497eced17540a35153c":[9,4,1,0,811,6],
+"classSetBitIteratorT__MR__RegionBitSet.html#afafb7ce8c4f7d9789fcd12e2ecd6c87e":[9,4,1,0,811,5],
+"classSetBitIteratorT__MR__TextureBitSet.html":[9,4,1,0,812],
+"classSetBitIteratorT__MR__TextureBitSet.html#a429f4a593c3d4e4f87f840e2a0003f40":[9,4,1,0,812,6],
 "classSetBitIteratorT__MR__TextureBitSet.html#a7087ae3fb1b0b07695c80cb890bd8101":[9,4,1,0,812,5],
 "classSetBitIteratorT__MR__TextureBitSet.html#a848cb3b20298d92e74f32d9b1be09eb7":[9,4,1,0,812,1],
 "classSetBitIteratorT__MR__TextureBitSet.html#a87e5347d6aa6ba0a5a5fba93c29ca4b6":[9,4,1,0,812,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX70 =
 "classSliceInfo.html#a883f2a4d378c6ea748bd0dd70a0d3604":[9,4,1,0,832,11],
 "classSliceInfo.html#a8bdaa18b8f2be96b5a77acd045a080ab":[9,4,1,0,832,4],
 "classSliceInfo.html#a99f07b08df9a3fcfe1be5aa6435b2707":[9,4,1,0,832,13],
-"classSliceInfo.html#ab1079b5c40bb38bddcd7378dcd833d9c":[9,4,1,0,832,12],
-"classSliceInfo.html#ab7922b5795bddf42958f895357524eed":[9,4,1,0,832,6],
-"classSliceInfo.html#ad8b88c98e079d1c2ff645de820aefcfb":[9,4,1,0,832,8],
-"classSliceInfo.html#aff78be87addb8c1eda5755c6efc98a64":[9,4,1,0,832,14],
-"classSliceInfoBase.html":[9,4,1,0,833],
-"classSliceInfoBase.html#a2ce148479852146cc28fa13031c66e8a":[9,4,1,0,833,8],
-"classSliceInfoBase.html#a41d43955cd6d62c615b9ad1aff7ac0b2":[9,4,1,0,833,0],
-"classSliceInfoBase.html#a451386acb1fc3f8aceb4567a66ebb6e2":[9,4,1,0,833,2],
-"classSliceInfoBase.html#a47bdbc441112e016fff73f32cc3d40a4":[9,4,1,0,833,5]
+"classSliceInfo.html#ab1079b5c40bb38bddcd7378dcd833d9c":[9,4,1,0,832,12]
 };

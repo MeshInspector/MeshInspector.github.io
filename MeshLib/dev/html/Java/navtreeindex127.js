@@ -1,5 +1,7 @@
 var NAVTREEINDEX127 =
 {
+"classmeshlib_1_1SceneSettings__ShadingMode.html#a29edcccc523be8f8bce79832aeffeb62":[9,6,1,0,0,926,3],
+"classmeshlib_1_1SceneSettings__ShadingMode.html#a53a3868c1c7bd0d08f525e979a9838ad":[9,6,0,0,0,926,4],
 "classmeshlib_1_1SceneSettings__ShadingMode.html#a53a3868c1c7bd0d08f525e979a9838ad":[9,6,1,0,0,926,4],
 "classmeshlib_1_1SceneSettings__ShadingMode.html#a5d370b05d01aaa4443e0e4088c4530d4":[9,6,0,0,0,926,2],
 "classmeshlib_1_1SceneSettings__ShadingMode.html#a5d370b05d01aaa4443e0e4088c4530d4":[9,6,1,0,0,926,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX127 =
 "classmeshlib_1_1SetBitIteratorT__MR__NodeBitSet.html#a0c4a119bb1ae6ca00d4cece12db80776":[9,6,1,0,0,937,5],
 "classmeshlib_1_1SetBitIteratorT__MR__NodeBitSet.html#a3092f8c5d6d870a0d9d5f1fbdd9f7930":[9,6,0,0,0,937,6],
 "classmeshlib_1_1SetBitIteratorT__MR__NodeBitSet.html#a3092f8c5d6d870a0d9d5f1fbdd9f7930":[9,6,1,0,0,937,6],
-"classmeshlib_1_1SetBitIteratorT__MR__NodeBitSet.html#a3abfaaa46b40fa26959a1fe16fd0a1e8":[9,6,0,0,0,937,3],
-"classmeshlib_1_1SetBitIteratorT__MR__NodeBitSet.html#a3abfaaa46b40fa26959a1fe16fd0a1e8":[9,6,1,0,0,937,3],
-"classmeshlib_1_1SetBitIteratorT__MR__NodeBitSet.html#a3c791db0900026815afce66c65baf153":[9,6,0,0,0,937,1]
+"classmeshlib_1_1SetBitIteratorT__MR__NodeBitSet.html#a3abfaaa46b40fa26959a1fe16fd0a1e8":[9,6,0,0,0,937,3]
 };

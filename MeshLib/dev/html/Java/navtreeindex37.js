@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a6b3857ea58b712368c7b622003e1e5bf":[9,6,1,0,0,265,2],
+"classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a6d6000b348d89cd9c41ab8c0abe7fb74":[9,6,0,0,0,265,14],
 "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a6d6000b348d89cd9c41ab8c0abe7fb74":[9,6,1,0,0,265,14],
 "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a8b42d8ab2306a0e5e1bc9836855531e3":[9,6,0,0,0,265,23],
 "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a8b42d8ab2306a0e5e1bc9836855531e3":[9,6,1,0,0,265,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "classmeshlib_1_1DeloneFlipsCache.html#afb7eeb41bae2757877aa904ad5a02ef9":[9,6,1,0,0,269,4],
 "classmeshlib_1_1DeloneSettings.html":[9,6,0,0,0,270],
 "classmeshlib_1_1DeloneSettings.html":[9,6,1,0,0,270],
-"classmeshlib_1_1DeloneSettings.html#a14e119713b1a5e41383a94aecbf0dc59":[9,6,0,0,0,270,13],
-"classmeshlib_1_1DeloneSettings.html#a14e119713b1a5e41383a94aecbf0dc59":[9,6,1,0,0,270,13],
-"classmeshlib_1_1DeloneSettings.html#a1cdee047dcbad04456ae1e6bc0dec006":[9,6,0,0,0,270,11]
+"classmeshlib_1_1DeloneSettings.html#a14e119713b1a5e41383a94aecbf0dc59":[9,6,0,0,0,270,13]
 };

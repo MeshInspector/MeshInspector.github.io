@@ -1,5 +1,9 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1Const__ComputeSteepestDescentPathSettings.html#a2efc963246ccf11208dffa307b684560":[9,3,0,0,0,378,1],
+"classMR_1_1Const__ComputeSteepestDescentPathSettings.html#a33a5c9b53f8f05052dfebf75a6523f5f":[9,3,0,0,0,378,2],
+"classMR_1_1Const__ComputeSteepestDescentPathSettings.html#a47b76f3ae0f19500716d802094a648fc":[9,3,0,0,0,378,9],
+"classMR_1_1Const__ComputeSteepestDescentPathSettings.html#a6718773bfaba29fd22d59b4641726e54":[9,3,0,0,0,378,7],
 "classMR_1_1Const__ComputeSteepestDescentPathSettings.html#a83567992ee988201a4b336d292733004":[9,3,0,0,0,378,5],
 "classMR_1_1Const__ComputeSteepestDescentPathSettings.html#ad103125ca89bf805a1c7eae01a126e22":[9,3,0,0,0,378,0],
 "classMR_1_1Const__ComputeSteepestDescentPathSettings.html#ad1a2229f509053d3268b649430ee6367":[9,3,0,0,0,378,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1Const__ConstantCuspParams.html#af8a655fe488e246ab430f881332c9dab":[9,3,0,0,0,384,30],
 "classMR_1_1Const__ConstantCuspParams.html#afc6422d22b5c798afaa4ef7e5f5bd992":[9,3,0,0,0,384,9],
 "classMR_1_1Const__ContourToDistanceMapParams.html":[9,3,0,0,0,389],
-"classMR_1_1Const__ContourToDistanceMapParams.html#a04abf0952a8ddfa131b4a28966655393":[9,3,0,0,0,389,20],
-"classMR_1_1Const__ContourToDistanceMapParams.html#a0dacfc42ec950e55e13495e39d738236":[9,3,0,0,0,389,17],
-"classMR_1_1Const__ContourToDistanceMapParams.html#a3bd39c01d2eaa488864c9dbb2b19b2b1":[9,3,0,0,0,389,18],
-"classMR_1_1Const__ContourToDistanceMapParams.html#a48825164dd3da05935b0182ee8ee21c1":[9,3,0,0,0,389,9],
-"classMR_1_1Const__ContourToDistanceMapParams.html#a553d7aa33728b92f4d4d6a7521fd10f6":[9,3,0,0,0,389,4]
+"classMR_1_1Const__ContourToDistanceMapParams.html#a04abf0952a8ddfa131b4a28966655393":[9,3,0,0,0,389,20]
 };

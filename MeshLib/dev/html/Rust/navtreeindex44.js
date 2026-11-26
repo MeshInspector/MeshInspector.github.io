@@ -1,5 +1,13 @@
 var NAVTREEINDEX44 =
 {
+"structmeshlib_1_1DecimatePolylineSettings__MR__Vector2f.html#a7692f149610f3c98100e0f168233c74d":[9,5,1,0,0,248,6],
+"structmeshlib_1_1DecimatePolylineSettings__MR__Vector2f.html#a81831c54d7e52a5444e41cbe0208e9c3":[9,5,0,0,0,261,25],
+"structmeshlib_1_1DecimatePolylineSettings__MR__Vector2f.html#a81831c54d7e52a5444e41cbe0208e9c3":[9,5,1,0,0,248,25],
+"structmeshlib_1_1DecimatePolylineSettings__MR__Vector2f.html#a8c0f73923937174bcf8e8db1632c3e81":[9,5,0,0,0,261,1],
+"structmeshlib_1_1DecimatePolylineSettings__MR__Vector2f.html#a8c0f73923937174bcf8e8db1632c3e81":[9,5,1,0,0,248,1],
+"structmeshlib_1_1DecimatePolylineSettings__MR__Vector2f.html#a8d2182765ccb0397586b04301fee273d":[9,5,0,0,0,261,0],
+"structmeshlib_1_1DecimatePolylineSettings__MR__Vector2f.html#a8d2182765ccb0397586b04301fee273d":[9,5,1,0,0,248,0],
+"structmeshlib_1_1DecimatePolylineSettings__MR__Vector2f.html#a91d9f47713f93a8a88c418c52f8e9e06":[9,5,0,0,0,261,20],
 "structmeshlib_1_1DecimatePolylineSettings__MR__Vector2f.html#a91d9f47713f93a8a88c418c52f8e9e06":[9,5,1,0,0,248,20],
 "structmeshlib_1_1DecimatePolylineSettings__MR__Vector2f.html#a953a036420f6494b2ddb0f8231947ed2":[9,5,0,0,0,261,26],
 "structmeshlib_1_1DecimatePolylineSettings__MR__Vector2f.html#a953a036420f6494b2ddb0f8231947ed2":[9,5,1,0,0,248,26],
@@ -241,13 +249,5 @@ var NAVTREEINDEX44 =
 "structmeshlib_1_1DecimateSettings.html#a92db87b7fb30c3ffaa676193eaad796e":[9,5,1,0,0,251,56],
 "structmeshlib_1_1DecimateSettings.html#a94e36c94592e12004a640a58c709cf76":[9,5,0,0,0,264,4],
 "structmeshlib_1_1DecimateSettings.html#a94e36c94592e12004a640a58c709cf76":[9,5,1,0,0,251,4],
-"structmeshlib_1_1DecimateSettings.html#a96f56c223210503806ddbd0e3e42d318":[9,5,0,0,0,264,8],
-"structmeshlib_1_1DecimateSettings.html#a96f56c223210503806ddbd0e3e42d318":[9,5,1,0,0,251,8],
-"structmeshlib_1_1DecimateSettings.html#a979632719defe577661727d32996f761":[9,5,0,0,0,264,39],
-"structmeshlib_1_1DecimateSettings.html#a979632719defe577661727d32996f761":[9,5,1,0,0,251,39],
-"structmeshlib_1_1DecimateSettings.html#a97a194c0ebd2e88e37f7c2013d143ac6":[9,5,0,0,0,264,98],
-"structmeshlib_1_1DecimateSettings.html#a97a194c0ebd2e88e37f7c2013d143ac6":[9,5,1,0,0,251,98],
-"structmeshlib_1_1DecimateSettings.html#a9a487546f694665557382bd477dffb91":[9,5,0,0,0,264,43],
-"structmeshlib_1_1DecimateSettings.html#a9a487546f694665557382bd477dffb91":[9,5,1,0,0,251,43],
-"structmeshlib_1_1DecimateSettings.html#aa04d604cdc0148a26c730bf3d16b91d0":[9,5,0,0,0,264,57]
+"structmeshlib_1_1DecimateSettings.html#a96f56c223210503806ddbd0e3e42d318":[9,5,0,0,0,264,8]
 };

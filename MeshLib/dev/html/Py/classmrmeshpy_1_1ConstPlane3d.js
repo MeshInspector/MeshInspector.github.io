@@ -1,6 +1,8 @@
 var classmrmeshpy_1_1ConstPlane3d =
 [
     [ "__init__", "classmrmeshpy_1_1ConstPlane3d.html#a39d7a5eb6c033179a1e47c6d49f28267", null ],
+    [ "__eq__", "classmrmeshpy_1_1ConstPlane3d.html#a663f12e4efeb9ada8e0f3ae040bbcab7", null ],
+    [ "__ne__", "classmrmeshpy_1_1ConstPlane3d.html#af546c86a6e8b077af865654bb6a8ae4d", null ],
     [ "__neg__", "classmrmeshpy_1_1ConstPlane3d.html#a20334488f75d013bfeaad8ed436e524a", null ],
     [ "__pos__", "classmrmeshpy_1_1ConstPlane3d.html#a8c0ae3b216a45cb936eb7dea54fc961d", null ],
     [ "__repr__", "classmrmeshpy_1_1ConstPlane3d.html#af4f8bd99bcca82618bc561e7972ed9c8", null ],

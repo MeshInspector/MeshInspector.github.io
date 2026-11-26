@@ -1,5 +1,13 @@
 var NAVTREEINDEX27 =
 {
+"classDeloneFlipsCache.html#a38f015bff488c73645063a7f64425bd2":[9,4,1,0,230,4],
+"classDeloneFlipsCache.html#a429d65f5cd215790825cc9e39aea098c":[9,4,1,0,230,7],
+"classDeloneFlipsCache.html#a43c148cafff95b3042fa361b37f0c6ea":[9,4,1,0,230,2],
+"classDeloneFlipsCache.html#a4691a742af67c92487695b8b903de941":[9,4,1,0,230,5],
+"classDeloneFlipsCache.html#a5a5199a9e377f9e974a65ad941c7b9d7":[9,4,1,0,230,8],
+"classDeloneFlipsCache.html#aa6d8f67f5983cbb5ca018c40ca554a0b":[9,4,1,0,230,6],
+"classDeloneFlipsCache.html#ac32c69f7dd3e19fa918e46867535abd3":[9,4,1,0,230,0],
+"classDeloneSettings.html":[9,4,1,0,231],
 "classDeloneSettings.html#a08a3299d330851a65e7dc2837038351b":[9,4,1,0,231,7],
 "classDeloneSettings.html#a0fd25525c5c177e50c695d25da858fb5":[9,4,1,0,231,4],
 "classDeloneSettings.html#a107a410ba2621ea24122dfaaf1fa54c4":[9,4,1,0,231,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX27 =
 "classDistanceMapSaveSettings.html#a2f66e0428e9ec28de0f21a38dc5c0e25":[9,4,1,0,245,1],
 "classDistanceMapSaveSettings.html#a5ccbd4bfb2e60b022f3180ec5830bac8":[9,4,1,0,245,0],
 "classDistanceMapSaveSettings.html#a65718477a401e3af487184c2c51cc30b":[9,4,1,0,245,5],
-"classDistanceMapSaveSettings.html#abc0248ab75b686a30b1c0b98432040f5":[9,4,1,0,245,3],
-"classDistanceMapSaveSettings.html#ac48b5071b007e72dd87e368ac8e30c92":[9,4,1,0,245,4],
-"classDistanceMapSaveSettings.html#adf4be17220b38114434b01e318d21b93":[9,4,1,0,245,2],
-"classDistanceMapToWorld.html":[9,4,1,0,246],
-"classDistanceMapToWorld.html#a0cd5742e743a3beb472308a963f83232":[9,4,1,0,246,0],
-"classDistanceMapToWorld.html#a5b7f7e30533585c4486b701ec930627d":[9,4,1,0,246,10],
-"classDistanceMapToWorld.html#a845b6ce8a1c56a81d9b7bd285612838f":[9,4,1,0,246,6],
-"classDistanceMapToWorld.html#a9527872c1a35be38bb3bdde83abf6b61":[9,4,1,0,246,7],
-"classDistanceMapToWorld.html#a9a44772b942e845f322f7040ac90b467":[9,4,1,0,246,4]
+"classDistanceMapSaveSettings.html#abc0248ab75b686a30b1c0b98432040f5":[9,4,1,0,245,3]
 };

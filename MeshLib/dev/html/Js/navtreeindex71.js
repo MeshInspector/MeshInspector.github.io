@@ -1,5 +1,13 @@
 var NAVTREEINDEX71 =
 {
+"classSliceInfo.html#ab7922b5795bddf42958f895357524eed":[9,4,1,0,832,6],
+"classSliceInfo.html#ad8b88c98e079d1c2ff645de820aefcfb":[9,4,1,0,832,8],
+"classSliceInfo.html#aff78be87addb8c1eda5755c6efc98a64":[9,4,1,0,832,14],
+"classSliceInfoBase.html":[9,4,1,0,833],
+"classSliceInfoBase.html#a2ce148479852146cc28fa13031c66e8a":[9,4,1,0,833,8],
+"classSliceInfoBase.html#a41d43955cd6d62c615b9ad1aff7ac0b2":[9,4,1,0,833,0],
+"classSliceInfoBase.html#a451386acb1fc3f8aceb4567a66ebb6e2":[9,4,1,0,833,2],
+"classSliceInfoBase.html#a47bdbc441112e016fff73f32cc3d40a4":[9,4,1,0,833,5],
 "classSliceInfoBase.html#a57916b1d228d82802c77e7877ddae6d0":[9,4,1,0,833,4],
 "classSliceInfoBase.html#a675d17e2cfc5b005d52e930c1bc927c4":[9,4,1,0,833,6],
 "classSliceInfoBase.html#a8cbb5026cd913b7f7f105df2dc44387a":[9,4,1,0,833,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX71 =
 "classSphereParams.html#a2b03cce07335df9477d9f8af58322874":[9,4,1,0,844,2],
 "classSphereParams.html#a2f64ed665440c62e55f2e987e84030f4":[9,4,1,0,844,4],
 "classSphereParams.html#a44cbc1844714a43906690d56ccf04d73":[9,4,1,0,844,0],
-"classSphereParams.html#a6b96339fc9781af314524f772e07429f":[9,4,1,0,844,5],
-"classSphereParams.html#a6c4b23ace38eff367e53eb92e5e1d943":[9,4,1,0,844,1],
-"classSphereParams.html#ab3d36739692d6e6ce87a06e6935a6003":[9,4,1,0,844,3],
-"classSplineSettings.html":[9,4,1,0,845],
-"classSplineSettings.html#a13a5a284e3a5331df5bfedfbf4b04d56":[9,4,1,0,845,5],
-"classSplineSettings.html#a37ef35cde587f12388ff0c6d43190efb":[9,4,1,0,845,2],
-"classSplineSettings.html#a7286c0f5c740a66a47a4f7d13765322f":[9,4,1,0,845,7],
-"classSplineSettings.html#a9737dfb9d7d081ee40cc56782218229e":[9,4,1,0,845,6],
-"classSplineSettings.html#aa0e050b3dcd36ee0cbe7b12677556043":[9,4,1,0,845,4]
+"classSphereParams.html#a6b96339fc9781af314524f772e07429f":[9,4,1,0,844,5]
 };

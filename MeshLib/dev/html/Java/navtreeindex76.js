@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"classmeshlib_1_1MeshAttributesToUpdate.html#a437a6c36825c4ba8a86208103f1f775d":[9,6,1,0,0,617,1],
+"classmeshlib_1_1MeshAttributesToUpdate.html#a451727c82917949cc4e9c79d4d370dc8":[9,6,0,0,0,617,3],
 "classmeshlib_1_1MeshAttributesToUpdate.html#a451727c82917949cc4e9c79d4d370dc8":[9,6,1,0,0,617,3],
 "classmeshlib_1_1MeshAttributesToUpdate.html#a4f86fd21076cc924563a9070cbe88b2e":[9,6,0,0,0,617,0],
 "classmeshlib_1_1MeshAttributesToUpdate.html#a4f86fd21076cc924563a9070cbe88b2e":[9,6,1,0,0,617,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "classmeshlib_1_1MeshMeshDistanceResult.html":[9,6,1,0,0,625],
 "classmeshlib_1_1MeshMeshDistanceResult.html#a241076d56ef796798d9ac3c922c87b78":[9,6,0,0,0,625,5],
 "classmeshlib_1_1MeshMeshDistanceResult.html#a241076d56ef796798d9ac3c922c87b78":[9,6,1,0,0,625,5],
-"classmeshlib_1_1MeshMeshDistanceResult.html#a2ccd206f31cb2f9062fa168499ae93fe":[9,6,0,0,0,625,1],
-"classmeshlib_1_1MeshMeshDistanceResult.html#a2ccd206f31cb2f9062fa168499ae93fe":[9,6,1,0,0,625,1],
-"classmeshlib_1_1MeshMeshDistanceResult.html#a2ea3efff9730ae8e4698eb9347fb614d":[9,6,0,0,0,625,10]
+"classmeshlib_1_1MeshMeshDistanceResult.html#a2ccd206f31cb2f9062fa168499ae93fe":[9,6,0,0,0,625,1]
 };

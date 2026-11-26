@@ -2525,14 +2525,14 @@ Functions</h2></td></tr>
 <tr class="memdesc:gadd8ec98f764c742961e5743805592c41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds in existing <a class="el" href="classMR_1_1PointAccumulator.html" title="Class to accumulate points and make best line / plane approximation.">PointAccumulator</a> all line centers with the weight equal to the length line.  <br /></td></tr>
 <tr class="memitem:ga38c918865ff22c325ba1364003248481" id="r_ga38c918865ff22c325ba1364003248481"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BestFitGroup.html#ga38c918865ff22c325ba1364003248481">accumulatePoints</a> (<a class="el" href="classMR_1_1PointAccumulator.html">PointAccumulator</a> &amp;accum, const <a class="el" href="structMR_1_1PointCloudPart.html">PointCloudPart</a> &amp;pcp, const AffineXf3f *xf=nullptr)</td></tr>
 <tr class="memdesc:ga38c918865ff22c325ba1364003248481"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds in existing <a class="el" href="classMR_1_1PointAccumulator.html" title="Class to accumulate points and make best line / plane approximation.">PointAccumulator</a> all points from the cloud (region) with weight 1.  <br /></td></tr>
-<tr class="memitem:a04ddfa41ff8dfea8daa4629969b1a322" id="r_a04ddfa41ff8dfea8daa4629969b1a322"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Sphere3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04ddfa41ff8dfea8daa4629969b1a322">findBestSphere</a> (const std::vector&lt; Vector3d &gt; &amp;points)</td></tr>
-<tr class="memitem:a14fe0d617e49c03deb39687419ac7657" id="r_a14fe0d617e49c03deb39687419ac7657"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Sphere2d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14fe0d617e49c03deb39687419ac7657">findBestCircle</a> (const std::vector&lt; Vector2d &gt; &amp;points)</td></tr>
-<tr class="memitem:ab4d90f1e3b3b82760b4b47c4cec29467" id="r_ab4d90f1e3b3b82760b4b47c4cec29467"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Line3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4d90f1e3b3b82760b4b47c4cec29467">findRevolutionAxis</a> (const std::vector&lt; Line3d &gt; &amp;normalLines)</td></tr>
-<tr class="memitem:a895c2bf97a9e6da71508f5195996fd2f" id="r_a895c2bf97a9e6da71508f5195996fd2f"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Cylinder3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a895c2bf97a9e6da71508f5195996fd2f">findBestCylinderByNormals</a> (const std::vector&lt; Vector3d &gt; &amp;points, const std::vector&lt; Vector3d &gt; &amp;normals)</td></tr>
-<tr class="memitem:af4ee492990daa1675a4c98389887d248" id="r_af4ee492990daa1675a4c98389887d248"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Cone3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4ee492990daa1675a4c98389887d248">findBestConeWithAxis</a> (const std::vector&lt; Vector3d &gt; &amp;points, const Line3d &amp;axis)</td></tr>
-<tr class="memitem:ad28ee549b34c0a531af9f14891b0a893" id="r_ad28ee549b34c0a531af9f14891b0a893"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Cone3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad28ee549b34c0a531af9f14891b0a893">findBestConeByTangentPlanes</a> (const std::vector&lt; Vector3d &gt; &amp;points, const std::vector&lt; Plane3d &gt; &amp;tangentPlanes)</td></tr>
-<tr class="memitem:ad7039dfb94d72e3d4f61ae5a76aa5792" id="r_ad7039dfb94d72e3d4f61ae5a76aa5792"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Torus3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7039dfb94d72e3d4f61ae5a76aa5792">findBestTorusWithAxis</a> (const std::vector&lt; Vector3d &gt; &amp;points, const Line3d &amp;axis)</td></tr>
-<tr class="memitem:ab8687931c68228f6ee8992b4c4716088" id="r_ab8687931c68228f6ee8992b4c4716088"><td class="memItemLeft" align="right" valign="top">Torus3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8687931c68228f6ee8992b4c4716088">refineTorus</a> (const std::vector&lt; Vector3d &gt; &amp;points, const Torus3d &amp;torus)</td></tr>
+<tr class="memitem:a0d70627311b13bc093bdf511d1293453" id="r_a0d70627311b13bc093bdf511d1293453"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Sphere3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d70627311b13bc093bdf511d1293453">findBestSphere</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;points)</td></tr>
+<tr class="memitem:a0d655a482776038e52dba35a931c78a4" id="r_a0d655a482776038e52dba35a931c78a4"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Sphere2d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d655a482776038e52dba35a931c78a4">findBestCircle</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector2d &gt; &amp;points)</td></tr>
+<tr class="memitem:a22193b5d69e8355a5415e1b43b14a4b5" id="r_a22193b5d69e8355a5415e1b43b14a4b5"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Line3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22193b5d69e8355a5415e1b43b14a4b5">findRevolutionAxis</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Line3d &gt; &amp;normalLines)</td></tr>
+<tr class="memitem:a2042980ecde3c9de54ec61e229b9ace9" id="r_a2042980ecde3c9de54ec61e229b9ace9"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Cylinder3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2042980ecde3c9de54ec61e229b9ace9">findBestCylinderByNormals</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;points, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;normals)</td></tr>
+<tr class="memitem:a2f3782f5ad36c40649b07a9ac1914cad" id="r_a2f3782f5ad36c40649b07a9ac1914cad"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Cone3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f3782f5ad36c40649b07a9ac1914cad">findBestConeWithAxis</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;points, const Line3d &amp;axis)</td></tr>
+<tr class="memitem:abfcc71f6bb4d87d3836dcda7d9ba95f4" id="r_abfcc71f6bb4d87d3836dcda7d9ba95f4"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Cone3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfcc71f6bb4d87d3836dcda7d9ba95f4">findBestConeByTangentPlanes</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;points, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Plane3d &gt; &amp;tangentPlanes)</td></tr>
+<tr class="memitem:ad4dfa128e6464eb302c8d400b7e50ddb" id="r_ad4dfa128e6464eb302c8d400b7e50ddb"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Torus3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4dfa128e6464eb302c8d400b7e50ddb">findBestTorusWithAxis</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;points, const Line3d &amp;axis)</td></tr>
+<tr class="memitem:a194dbcf206332e1b520aadc94cd1cc14" id="r_a194dbcf206332e1b520aadc94cd1cc14"><td class="memItemLeft" align="right" valign="top">Torus3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a194dbcf206332e1b520aadc94cd1cc14">refineTorus</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;points, const Torus3d &amp;torus)</td></tr>
 <tr class="memitem:ga28db3c5e8ff0f5fe41f51c8376480d75" id="r_ga28db3c5e8ff0f5fe41f51c8376480d75"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga28db3c5e8ff0f5fe41f51c8376480d75">canSolvePolynomial</a> (auto degree)</td></tr>
 <tr class="memitem:ga074ffc418d95b187b57843611aef56d6" id="r_ga074ffc418d95b187b57843611aef56d6"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga074ffc418d95b187b57843611aef56d6">canMinimizePolynomial</a> (auto degree)</td></tr>
 <tr class="memitem:gaba5467b93d277b487924275e34615eb3" id="r_gaba5467b93d277b487924275e34615eb3"><td class="memTemplParams" colspan="2">template&lt;typename To, typename From&gt; </td></tr>
@@ -5780,8 +5780,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a14fe0d617e49c03deb39687419ac7657" name="a14fe0d617e49c03deb39687419ac7657"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14fe0d617e49c03deb39687419ac7657">&#9670;&#160;</a></span>findBestCircle()</h2>
+<a id="a0d655a482776038e52dba35a931c78a4" name="a0d655a482776038e52dba35a931c78a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d655a482776038e52dba35a931c78a4">&#9670;&#160;</a></span>findBestCircle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5792,7 +5792,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">std::optional&lt; Sphere2d &gt; MR::findBestCircle </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; Vector2d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector2d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -5806,8 +5806,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad28ee549b34c0a531af9f14891b0a893" name="ad28ee549b34c0a531af9f14891b0a893"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad28ee549b34c0a531af9f14891b0a893">&#9670;&#160;</a></span>findBestConeByTangentPlanes()</h2>
+<a id="abfcc71f6bb4d87d3836dcda7d9ba95f4" name="abfcc71f6bb4d87d3836dcda7d9ba95f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfcc71f6bb4d87d3836dcda7d9ba95f4">&#9670;&#160;</a></span>findBestConeByTangentPlanes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5818,12 +5818,12 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">std::optional&lt; Cone3d &gt; MR::findBestConeByTangentPlanes </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; Plane3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>tangentPlanes</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Plane3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>tangentPlanes</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -5836,8 +5836,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af4ee492990daa1675a4c98389887d248" name="af4ee492990daa1675a4c98389887d248"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4ee492990daa1675a4c98389887d248">&#9670;&#160;</a></span>findBestConeWithAxis()</h2>
+<a id="a2f3782f5ad36c40649b07a9ac1914cad" name="a2f3782f5ad36c40649b07a9ac1914cad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f3782f5ad36c40649b07a9ac1914cad">&#9670;&#160;</a></span>findBestConeWithAxis()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5848,7 +5848,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">std::optional&lt; Cone3d &gt; MR::findBestConeWithAxis </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -5866,8 +5866,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a895c2bf97a9e6da71508f5195996fd2f" name="a895c2bf97a9e6da71508f5195996fd2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a895c2bf97a9e6da71508f5195996fd2f">&#9670;&#160;</a></span>findBestCylinderByNormals()</h2>
+<a id="a2042980ecde3c9de54ec61e229b9ace9" name="a2042980ecde3c9de54ec61e229b9ace9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2042980ecde3c9de54ec61e229b9ace9">&#9670;&#160;</a></span>findBestCylinderByNormals()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5878,12 +5878,12 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">std::optional&lt; Cylinder3d &gt; MR::findBestCylinderByNormals </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>normals</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>normals</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -5896,8 +5896,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a04ddfa41ff8dfea8daa4629969b1a322" name="a04ddfa41ff8dfea8daa4629969b1a322"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04ddfa41ff8dfea8daa4629969b1a322">&#9670;&#160;</a></span>findBestSphere()</h2>
+<a id="a0d70627311b13bc093bdf511d1293453" name="a0d70627311b13bc093bdf511d1293453"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d70627311b13bc093bdf511d1293453">&#9670;&#160;</a></span>findBestSphere()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5908,7 +5908,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">std::optional&lt; Sphere3d &gt; MR::findBestSphere </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -5922,8 +5922,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad7039dfb94d72e3d4f61ae5a76aa5792" name="ad7039dfb94d72e3d4f61ae5a76aa5792"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7039dfb94d72e3d4f61ae5a76aa5792">&#9670;&#160;</a></span>findBestTorusWithAxis()</h2>
+<a id="ad4dfa128e6464eb302c8d400b7e50ddb" name="ad4dfa128e6464eb302c8d400b7e50ddb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4dfa128e6464eb302c8d400b7e50ddb">&#9670;&#160;</a></span>findBestTorusWithAxis()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5934,7 +5934,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">std::optional&lt; Torus3d &gt; MR::findBestTorusWithAxis </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -5952,8 +5952,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab4d90f1e3b3b82760b4b47c4cec29467" name="ab4d90f1e3b3b82760b4b47c4cec29467"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4d90f1e3b3b82760b4b47c4cec29467">&#9670;&#160;</a></span>findRevolutionAxis()</h2>
+<a id="a22193b5d69e8355a5415e1b43b14a4b5" name="a22193b5d69e8355a5415e1b43b14a4b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22193b5d69e8355a5415e1b43b14a4b5">&#9670;&#160;</a></span>findRevolutionAxis()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5964,7 +5964,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">std::optional&lt; Line3d &gt; MR::findRevolutionAxis </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; Line3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>normalLines</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Line3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>normalLines</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -6125,8 +6125,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab8687931c68228f6ee8992b4c4716088" name="ab8687931c68228f6ee8992b4c4716088"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8687931c68228f6ee8992b4c4716088">&#9670;&#160;</a></span>refineTorus()</h2>
+<a id="a194dbcf206332e1b520aadc94cd1cc14" name="a194dbcf206332e1b520aadc94cd1cc14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a194dbcf206332e1b520aadc94cd1cc14">&#9670;&#160;</a></span>refineTorus()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6137,7 +6137,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">Torus3d MR::refineTorus </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

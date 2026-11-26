@@ -1,5 +1,13 @@
 var NAVTREEINDEX52 =
 {
+"classObjBitSet.html#a88d047961e3db8b60c3a4d38541c509e":[9,4,1,0,640,31],
+"classObjBitSet.html#a89e7ed17c008772d514fa5cf0fcd1efe":[9,4,1,0,640,39],
+"classObjBitSet.html#a8cb6b7831971e1d43166732e7937b64b":[9,4,1,0,640,49],
+"classObjBitSet.html#a92e591a77947bc688c531868f713d46a":[9,4,1,0,640,32],
+"classObjBitSet.html#a938d14d8bebafb41e63b3bc227ee814a":[9,4,1,0,640,10],
+"classObjBitSet.html#a944b80f76043bdafbe2536512715866b":[9,4,1,0,640,6],
+"classObjBitSet.html#a95244cfbb61c34f201f273a0440782c9":[9,4,1,0,640,59],
+"classObjBitSet.html#a9c38ca9f9db62bbbf96430902ad171f1":[9,4,1,0,640,30],
 "classObjBitSet.html#a9f2b10fe1faf74f2c44247e4999c5191":[9,4,1,0,640,41],
 "classObjBitSet.html#aa166e705ef8faac0283ff506064d5aa8":[9,4,1,0,640,47],
 "classObjBitSet.html#aa74088b909e7fc93c7adf374ba2d06cb":[9,4,1,0,640,53],
@@ -241,13 +249,5 @@ var NAVTREEINDEX52 =
 "classObjectComparableWithReference__ComparableProperty.html#ae8d146accfab7d51db9712202e2ef064":[9,4,1,0,644,1],
 "classObjectComparableWithReference__ComparisonReferenceValue.html":[9,4,1,0,645],
 "classObjectComparableWithReference__ComparisonReferenceValue.html#a310da0830a9bf77bf17f34d22f9045de":[9,4,1,0,645,1],
-"classObjectComparableWithReference__ComparisonReferenceValue.html#a41b9a858dfacb15872467cebed8f03a9":[9,4,1,0,645,3],
-"classObjectComparableWithReference__ComparisonReferenceValue.html#a6d4bb62b1787ae3c09ccb9ba4c01f72e":[9,4,1,0,645,0],
-"classObjectComparableWithReference__ComparisonReferenceValue.html#a9bcb51e6e490dc7115cee2c28a3e5900":[9,4,1,0,645,5],
-"classObjectComparableWithReference__ComparisonReferenceValue.html#a9fbe4665773bce8ba488046463b79547":[9,4,1,0,645,2],
-"classObjectComparableWithReference__ComparisonReferenceValue.html#adfa61cca985d962c01fd54d5a7f2175f":[9,4,1,0,645,4],
-"classObjectComparableWithReference__ComparisonTolerance.html":[9,4,1,0,646],
-"classObjectComparableWithReference__ComparisonTolerance.html#a21d7f96c3d63c81973a6d3a5ff4edfed":[9,4,1,0,646,2],
-"classObjectComparableWithReference__ComparisonTolerance.html#a2324257f24b3409ab173c66d7ff7340a":[9,4,1,0,646,4],
-"classObjectComparableWithReference__ComparisonTolerance.html#a691d80736651426dbd1b006ba58d7de6":[9,4,1,0,646,0]
+"classObjectComparableWithReference__ComparisonReferenceValue.html#a41b9a858dfacb15872467cebed8f03a9":[9,4,1,0,645,3]
 };

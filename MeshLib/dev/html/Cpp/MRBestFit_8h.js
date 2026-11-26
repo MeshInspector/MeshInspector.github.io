@@ -6,12 +6,12 @@ var MRBestFit_8h =
     [ "MR::accumulatePoints", "group__BestFitGroup.html#ga38c918865ff22c325ba1364003248481", null ],
     [ "MR::accumulatePoints", "group__BestFitGroup.html#ga382b331863af4b9efc376e8a6b6a8f8d", null ],
     [ "MR::accumulateWeighedPoints", "group__BestFitGroup.html#ga1949e6a0bb8f1ea9cce492d3bc6822ae", null ],
-    [ "MR::findBestCircle", "namespaceMR.html#a14fe0d617e49c03deb39687419ac7657", null ],
-    [ "MR::findBestConeByTangentPlanes", "namespaceMR.html#ad28ee549b34c0a531af9f14891b0a893", null ],
-    [ "MR::findBestConeWithAxis", "namespaceMR.html#af4ee492990daa1675a4c98389887d248", null ],
-    [ "MR::findBestCylinderByNormals", "namespaceMR.html#a895c2bf97a9e6da71508f5195996fd2f", null ],
-    [ "MR::findBestSphere", "namespaceMR.html#a04ddfa41ff8dfea8daa4629969b1a322", null ],
-    [ "MR::findBestTorusWithAxis", "namespaceMR.html#ad7039dfb94d72e3d4f61ae5a76aa5792", null ],
-    [ "MR::findRevolutionAxis", "namespaceMR.html#ab4d90f1e3b3b82760b4b47c4cec29467", null ],
-    [ "MR::refineTorus", "namespaceMR.html#ab8687931c68228f6ee8992b4c4716088", null ]
+    [ "MR::findBestCircle", "namespaceMR.html#a0d655a482776038e52dba35a931c78a4", null ],
+    [ "MR::findBestConeByTangentPlanes", "namespaceMR.html#abfcc71f6bb4d87d3836dcda7d9ba95f4", null ],
+    [ "MR::findBestConeWithAxis", "namespaceMR.html#a2f3782f5ad36c40649b07a9ac1914cad", null ],
+    [ "MR::findBestCylinderByNormals", "namespaceMR.html#a2042980ecde3c9de54ec61e229b9ace9", null ],
+    [ "MR::findBestSphere", "namespaceMR.html#a0d70627311b13bc093bdf511d1293453", null ],
+    [ "MR::findBestTorusWithAxis", "namespaceMR.html#ad4dfa128e6464eb302c8d400b7e50ddb", null ],
+    [ "MR::findRevolutionAxis", "namespaceMR.html#a22193b5d69e8355a5415e1b43b14a4b5", null ],
+    [ "MR::refineTorus", "namespaceMR.html#a194dbcf206332e1b520aadc94cd1cc14", null ]
 ];

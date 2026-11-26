@@ -1,5 +1,13 @@
 var NAVTREEINDEX145 =
 {
+"structmeshlib_1_1UniformSamplingSettings.html#ae6e178ae504bee6241fc1fd4d30de168":[9,5,0,0,0,1584,3],
+"structmeshlib_1_1UniformSamplingSettings.html#ae6e178ae504bee6241fc1fd4d30de168":[9,5,1,0,0,1571,3],
+"structmeshlib_1_1UniformSamplingSettings.html#af8644aee4c91536fcef2c48ba412fab5":[9,5,0,0,0,1584,8],
+"structmeshlib_1_1UniformSamplingSettings.html#af8644aee4c91536fcef2c48ba412fab5":[9,5,1,0,0,1571,8],
+"structmeshlib_1_1UniformSamplingSettings.html#afdc5254c67e0c18721a55cc0f1cee8c0":[9,5,0,0,0,1584,9],
+"structmeshlib_1_1UniformSamplingSettings.html#afdc5254c67e0c18721a55cc0f1cee8c0":[9,5,1,0,0,1571,9],
+"structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html":[9,5,0,0,0,1585],
+"structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html":[9,5,1,0,0,1572],
 "structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#a0fe9bf28e813b35346516fedf3eff71a":[9,5,0,0,0,1585,11],
 "structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#a0fe9bf28e813b35346516fedf3eff71a":[9,5,1,0,0,1572,11],
 "structmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#a1b1bd6e7d50dede3aeda2932b8eb5e7b":[9,5,0,0,0,1585,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX145 =
 "structmeshlib_1_1VacantElements.html#a0d4f8b8d857db8c72adb6de1878f1232":[9,5,0,0,0,1596,9],
 "structmeshlib_1_1VacantElements.html#a0d4f8b8d857db8c72adb6de1878f1232":[9,5,1,0,0,1583,9],
 "structmeshlib_1_1VacantElements.html#a123095fb18bbfb5c26d685252d9b7e1f":[9,5,0,0,0,1596,3],
-"structmeshlib_1_1VacantElements.html#a123095fb18bbfb5c26d685252d9b7e1f":[9,5,1,0,0,1583,3],
-"structmeshlib_1_1VacantElements.html#a28a33a019bdddf74842ad9895999df80":[9,5,0,0,0,1596,4],
-"structmeshlib_1_1VacantElements.html#a28a33a019bdddf74842ad9895999df80":[9,5,1,0,0,1583,4],
-"structmeshlib_1_1VacantElements.html#a47df096dd5fc0deec3b9cb29faf51402":[9,5,0,0,0,1596,7],
-"structmeshlib_1_1VacantElements.html#a47df096dd5fc0deec3b9cb29faf51402":[9,5,1,0,0,1583,7],
-"structmeshlib_1_1VacantElements.html#a5f6f3f82d5ab22cf0ee2ada68191060e":[9,5,0,0,0,1596,6],
-"structmeshlib_1_1VacantElements.html#a5f6f3f82d5ab22cf0ee2ada68191060e":[9,5,1,0,0,1583,6],
-"structmeshlib_1_1VacantElements.html#a6dabe21768afa909650ab3d7e9872981":[9,5,0,0,0,1596,8],
-"structmeshlib_1_1VacantElements.html#a6dabe21768afa909650ab3d7e9872981":[9,5,1,0,0,1583,8]
+"structmeshlib_1_1VacantElements.html#a123095fb18bbfb5c26d685252d9b7e1f":[9,5,1,0,0,1583,3]
 };

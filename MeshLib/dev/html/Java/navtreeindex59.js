@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"classmeshlib_1_1Histogram.html#a771d521c7e11c00a3455e9de774fbc1d":[9,6,1,0,0,488,10],
+"classmeshlib_1_1Histogram.html#a77e5e90ccf9e8d0394587a320425f52f":[9,6,0,0,0,488,11],
 "classmeshlib_1_1Histogram.html#a77e5e90ccf9e8d0394587a320425f52f":[9,6,1,0,0,488,11],
 "classmeshlib_1_1Histogram.html#a8031b1c4c14033855099b5d95633e26d":[9,6,0,0,0,488,8],
 "classmeshlib_1_1Histogram.html#a8031b1c4c14033855099b5d95633e26d":[9,6,1,0,0,488,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "classmeshlib_1_1ICPMethod.html#af34eee57e2e813931f249815f8614a89":[9,6,1,0,0,501,4],
 "classmeshlib_1_1ICPMethod.html#aff9fdd66c03e707d5b2a396b06b1bee4":[9,6,0,0,0,501,3],
 "classmeshlib_1_1ICPMethod.html#aff9fdd66c03e707d5b2a396b06b1bee4":[9,6,1,0,0,501,3],
-"classmeshlib_1_1ICPMode.html":[9,6,0,0,0,502],
-"classmeshlib_1_1ICPMode.html":[9,6,1,0,0,502],
-"classmeshlib_1_1ICPMode.html#a1f4b351c8194653bad369401eae752a7":[9,6,0,0,0,502,4]
+"classmeshlib_1_1ICPMode.html":[9,6,0,0,0,502]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX49 =
 {
+"classMultiRayMeshIntersectResult.html#a6e9e8caf620bb6f8ca8725968fad92ab":[9,4,1,0,590,4],
+"classMultiRayMeshIntersectResult.html#ab861613029d11a9f64dab260d2a799c7":[9,4,1,0,590,6],
+"classMultiRayMeshIntersectResult.html#acbafb412ddfabd6b4f94a9d4b91e6760":[9,4,1,0,590,2],
+"classMultiRayMeshIntersectResult.html#aedfe41ffb17026435fd75a909921b457":[9,4,1,0,590,5],
+"classMultiwayAligningTransform.html":[9,4,1,0,591],
+"classMultiwayAligningTransform.html#a087d3e8da1678fd477d449b1805a0018":[9,4,1,0,591,14],
+"classMultiwayAligningTransform.html#a08ccf8c165def9bd04dc8db911f070fc":[9,4,1,0,591,0],
+"classMultiwayAligningTransform.html#a09303e8d5b9a467f052550951c099b57":[9,4,1,0,591,9],
 "classMultiwayAligningTransform.html#a12f43ae981331cac714a7f8d2e240491":[9,4,1,0,591,3],
 "classMultiwayAligningTransform.html#a1f106ae161ed3ad8c86f0ad94c3f9e9a":[9,4,1,0,591,13],
 "classMultiwayAligningTransform.html#a27d782b666c95774f9e470083debf7bf":[9,4,1,0,591,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX49 =
 "classNesting_1_1TetrisDensifyParams.html#a7c422cf73cbc6edfd1ee51389be68523":[9,4,1,0,7,10,0],
 "classNesting_1_1TetrisDensifyParams.html#a8a52c50e08de1001cd96da500d58960c":[9,4,0,0,19,10,1],
 "classNesting_1_1TetrisDensifyParams.html#a8a52c50e08de1001cd96da500d58960c":[9,4,1,0,7,10,1],
-"classNesting_1_1TetrisDensifyParams.html#ac25f1abdd9f7291bfd88fc928d56fa37":[9,4,0,0,19,10,4],
-"classNesting_1_1TetrisDensifyParams.html#ac25f1abdd9f7291bfd88fc928d56fa37":[9,4,1,0,7,10,4],
-"classNesting_1_1TetrisDensifyParams.html#af0608981754fb173137443a22c0139f7":[9,4,0,0,19,10,3],
-"classNesting_1_1TetrisDensifyParams.html#af0608981754fb173137443a22c0139f7":[9,4,1,0,7,10,3],
-"classNewEdgesMap.html":[9,4,1,0,597],
-"classNewEdgesMap.html#a193c54d79fcffdaef0d808aa7d37bf1e":[9,4,1,0,597,4],
-"classNewEdgesMap.html#a2cef11d32bef3c503a9a68d19c1bf2a1":[9,4,1,0,597,2],
-"classNewEdgesMap.html#a517e7a507897ccbf2c3a147a908243dc":[9,4,1,0,597,3],
-"classNewEdgesMap.html#a849e42c0a0b724b10f796e076454187f":[9,4,1,0,597,1]
+"classNesting_1_1TetrisDensifyParams.html#ac25f1abdd9f7291bfd88fc928d56fa37":[9,4,0,0,19,10,4]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX50 =
 {
+"classNesting_1_1TetrisDensifyParams.html#ac25f1abdd9f7291bfd88fc928d56fa37":[9,4,1,0,7,10,4],
+"classNesting_1_1TetrisDensifyParams.html#af0608981754fb173137443a22c0139f7":[9,4,0,0,19,10,3],
+"classNesting_1_1TetrisDensifyParams.html#af0608981754fb173137443a22c0139f7":[9,4,1,0,7,10,3],
+"classNewEdgesMap.html":[9,4,1,0,597],
+"classNewEdgesMap.html#a193c54d79fcffdaef0d808aa7d37bf1e":[9,4,1,0,597,4],
+"classNewEdgesMap.html#a2cef11d32bef3c503a9a68d19c1bf2a1":[9,4,1,0,597,2],
+"classNewEdgesMap.html#a517e7a507897ccbf2c3a147a908243dc":[9,4,1,0,597,3],
+"classNewEdgesMap.html#a849e42c0a0b724b10f796e076454187f":[9,4,1,0,597,1],
 "classNewEdgesMap.html#a988eae40d559a2e29633f0ba0274b6f9":[9,4,1,0,597,5],
 "classNewEdgesMap.html#aeda2bad4c6a366f76cb7772961533203":[9,4,1,0,597,0],
 "classNextEdgeSameLeft.html":[9,4,1,0,598],
@@ -241,13 +249,5 @@ var NAVTREEINDEX50 =
 "classNoDefInit__MR__TextureId.html#a6e51ba80795cdcfece5905b8f28e9593":[9,4,1,0,628,9],
 "classNoDefInit__MR__TextureId.html#a70d09cee79e18f0eb4f81d456391fcdd":[9,4,1,0,628,5],
 "classNoDefInit__MR__TextureId.html#a82993a4436dd2e97db2e66d37f4445e0":[9,4,1,0,628,8],
-"classNoDefInit__MR__TextureId.html#a87380398155bbdafe0520f67c0d067cb":[9,4,1,0,628,3],
-"classNoDefInit__MR__TextureId.html#a90d03529740164f6ce763f5544772279":[9,4,1,0,628,10],
-"classNoDefInit__MR__TextureId.html#a95b3367748055db2e29b3b4acf3ab54d":[9,4,1,0,628,4],
-"classNoDefInit__MR__TextureId.html#a9c6078cf638741c57a57e3be3c6d037e":[9,4,1,0,628,13],
-"classNoDefInit__MR__TextureId.html#ab2a196142db4b60794a6330c1d9e80fc":[9,4,1,0,628,1],
-"classNoDefInit__MR__TextureId.html#ac2ba8e763a0b0934eaf3a8bc9817a77a":[9,4,1,0,628,11],
-"classNoDefInit__MR__TextureId.html#ae4a6eab6be8797f59a10ae7d91e558ee":[9,4,1,0,628,6],
-"classNoDefInit__MR__TextureId.html#af59e23c7c7dcd6870d76dc9504285266":[9,4,1,0,628,12],
-"classNoDefInit__MR__TextureId.html#af6ed6ca1981cd9b925a0ac787b3c84e7":[9,4,1,0,628,2]
+"classNoDefInit__MR__TextureId.html#a87380398155bbdafe0520f67c0d067cb":[9,4,1,0,628,3]
 };

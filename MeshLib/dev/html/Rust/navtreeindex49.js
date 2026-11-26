@@ -1,5 +1,13 @@
 var NAVTREEINDEX49 =
 {
+"structmeshlib_1_1DistanceToMeshOptions.html#a4b5d1cf3d42df90f546bd662067b2112":[9,5,1,0,0,275,14],
+"structmeshlib_1_1DistanceToMeshOptions.html#a61225c1348c7c9ea7e6374dc8d7e591a":[9,5,0,0,0,288,13],
+"structmeshlib_1_1DistanceToMeshOptions.html#a61225c1348c7c9ea7e6374dc8d7e591a":[9,5,1,0,0,275,13],
+"structmeshlib_1_1DistanceToMeshOptions.html#a7136c1e495c137717b37502b6c268470":[9,5,0,0,0,288,1],
+"structmeshlib_1_1DistanceToMeshOptions.html#a7136c1e495c137717b37502b6c268470":[9,5,1,0,0,275,1],
+"structmeshlib_1_1DistanceToMeshOptions.html#a84fc4911296a72b289147445ac1bc49e":[9,5,0,0,0,288,2],
+"structmeshlib_1_1DistanceToMeshOptions.html#a84fc4911296a72b289147445ac1bc49e":[9,5,1,0,0,275,2],
+"structmeshlib_1_1DistanceToMeshOptions.html#a89386e86fea5a494844c43e46e501c08":[9,5,0,0,0,288,7],
 "structmeshlib_1_1DistanceToMeshOptions.html#a89386e86fea5a494844c43e46e501c08":[9,5,1,0,0,275,7],
 "structmeshlib_1_1DistanceToMeshOptions.html#a89aec1f46a4e2be329ec28314bbe8edc":[9,5,0,0,0,288,5],
 "structmeshlib_1_1DistanceToMeshOptions.html#a89aec1f46a4e2be329ec28314bbe8edc":[9,5,1,0,0,275,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX49 =
 "structmeshlib_1_1DracoSaveOptions.html#a66707a81a3a9f27c9ee65af584956284":[9,5,1,0,0,281,47],
 "structmeshlib_1_1DracoSaveOptions.html#a74138485240ff96c95d9c17838858826":[9,5,0,0,0,294,5],
 "structmeshlib_1_1DracoSaveOptions.html#a74138485240ff96c95d9c17838858826":[9,5,1,0,0,281,5],
-"structmeshlib_1_1DracoSaveOptions.html#a74e60c942b7fa4c48d7428c97c670dc8":[9,5,0,0,0,294,20],
-"structmeshlib_1_1DracoSaveOptions.html#a74e60c942b7fa4c48d7428c97c670dc8":[9,5,1,0,0,281,20],
-"structmeshlib_1_1DracoSaveOptions.html#a756a9ac69233c3f882a38c6db5c2209c":[9,5,0,0,0,294,41],
-"structmeshlib_1_1DracoSaveOptions.html#a756a9ac69233c3f882a38c6db5c2209c":[9,5,1,0,0,281,41],
-"structmeshlib_1_1DracoSaveOptions.html#a7e140c4700e69e438215440c2327997b":[9,5,0,0,0,294,45],
-"structmeshlib_1_1DracoSaveOptions.html#a7e140c4700e69e438215440c2327997b":[9,5,1,0,0,281,45],
-"structmeshlib_1_1DracoSaveOptions.html#a83dc4240efc20ec2d6ed05545160a57a":[9,5,0,0,0,294,2],
-"structmeshlib_1_1DracoSaveOptions.html#a83dc4240efc20ec2d6ed05545160a57a":[9,5,1,0,0,281,2],
-"structmeshlib_1_1DracoSaveOptions.html#a8abb4ee2076b653ec6d40a291403de74":[9,5,0,0,0,294,19]
+"structmeshlib_1_1DracoSaveOptions.html#a74e60c942b7fa4c48d7428c97c670dc8":[9,5,0,0,0,294,20]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX62 =
 {
+"classmrmeshpy_1_1ConstReduceTotalAngleParams.html#a9e90cf51a71d1a8328947656106fc18b":[9,1,0,0,2,1189,6],
+"classmrmeshpy_1_1ConstReduceTotalAngleParams.html#a9e90cf51a71d1a8328947656106fc18b":[9,1,1,0,1,1189,6],
+"classmrmeshpy_1_1ConstReduceTotalAngleParams.html#addb02257b1e652b2f4707d8fd8042908":[9,1,0,0,2,1189,0],
+"classmrmeshpy_1_1ConstReduceTotalAngleParams.html#addb02257b1e652b2f4707d8fd8042908":[9,1,1,0,1,1189,0],
+"classmrmeshpy_1_1ConstReduceTotalAngleParams.html#af1dc6b832da3756cad8c33a081919b0c":[9,1,0,0,2,1189,3],
+"classmrmeshpy_1_1ConstReduceTotalAngleParams.html#af1dc6b832da3756cad8c33a081919b0c":[9,1,1,0,1,1189,3],
+"classmrmeshpy_1_1ConstRefineParameters.html":[9,1,0,0,2,1190],
+"classmrmeshpy_1_1ConstRefineParameters.html":[9,1,1,0,1,1190],
 "classmrmeshpy_1_1ConstRefineParameters.html#a3fbf4dd06b5955f767c32a26e4b56151":[9,1,0,0,2,1190,6],
 "classmrmeshpy_1_1ConstRefineParameters.html#a3fbf4dd06b5955f767c32a26e4b56151":[9,1,1,0,1,1190,6],
 "classmrmeshpy_1_1ConstRefineParameters.html#a564592129deca44eca0445d67ca2ef23":[9,1,0,0,2,1190,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX62 =
 "classmrmeshpy_1_1ConstRingIterator__NextEdgeSameLeft.html#a58aa9a31ea6c34080ff91a6d41bbb834":[9,1,0,0,2,1202,0],
 "classmrmeshpy_1_1ConstRingIterator__NextEdgeSameLeft.html#a58aa9a31ea6c34080ff91a6d41bbb834":[9,1,1,0,1,1202,0],
 "classmrmeshpy_1_1ConstRingIterator__NextEdgeSameLeft.html#a5daf1db8805f6d7add477d2ae4e7bd65":[9,1,0,0,2,1202,2],
-"classmrmeshpy_1_1ConstRingIterator__NextEdgeSameLeft.html#a5daf1db8805f6d7add477d2ae4e7bd65":[9,1,1,0,1,1202,2],
-"classmrmeshpy_1_1ConstRingIterator__NextEdgeSameLeft.html#aa18220908c9591bb36b38050057fe56b":[9,1,0,0,2,1202,3],
-"classmrmeshpy_1_1ConstRingIterator__NextEdgeSameLeft.html#aa18220908c9591bb36b38050057fe56b":[9,1,1,0,1,1202,3],
-"classmrmeshpy_1_1ConstRingIterator__NextEdgeSameOrigin.html":[9,1,0,0,2,1203],
-"classmrmeshpy_1_1ConstRingIterator__NextEdgeSameOrigin.html":[9,1,1,0,1,1203],
-"classmrmeshpy_1_1ConstRingIterator__NextEdgeSameOrigin.html#a18931354b51e62549af3a1d0b3769e5a":[9,1,0,0,2,1203,0],
-"classmrmeshpy_1_1ConstRingIterator__NextEdgeSameOrigin.html#a18931354b51e62549af3a1d0b3769e5a":[9,1,1,0,1,1203,0],
-"classmrmeshpy_1_1ConstRingIterator__NextEdgeSameOrigin.html#a47266e0a0e170f6be583b4d64a30c350":[9,1,0,0,2,1203,2],
-"classmrmeshpy_1_1ConstRingIterator__NextEdgeSameOrigin.html#a47266e0a0e170f6be583b4d64a30c350":[9,1,1,0,1,1203,2]
+"classmrmeshpy_1_1ConstRingIterator__NextEdgeSameLeft.html#a5daf1db8805f6d7add477d2ae4e7bd65":[9,1,1,0,1,1202,2]
 };

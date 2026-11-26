@@ -1,5 +1,13 @@
 var NAVTREEINDEX16 =
 {
+"std__optional__MR__TriIntersectResult_8rs.html":[9,5,2,0,0,1,3,247],
+"std__optional__MR__Triangulation_8rs.html":[9,5,2,0,0,1,3,246],
+"std__optional__MR__Vector2d_8rs.html":[9,5,2,0,0,1,3,248],
+"std__optional__MR__Vector2f_8rs.html":[9,5,2,0,0,1,3,249],
+"std__optional__MR__Vector3d_8rs.html":[9,5,2,0,0,1,3,250],
+"std__optional__MR__Vector3f_8rs.html":[9,5,2,0,0,1,3,251],
+"std__optional__MR__Vector3i_8rs.html":[9,5,2,0,0,1,3,252],
+"std__optional__MR__VertBitSet_8rs.html":[9,5,2,0,0,1,3,253],
 "std__optional__MR__VertCoords2_8rs.html":[9,5,2,0,0,1,3,255],
 "std__optional__MR__VertCoords_8rs.html":[9,5,2,0,0,1,3,254],
 "std__optional__MR__VertMap_8rs.html":[9,5,2,0,0,1,3,256],
@@ -241,13 +249,5 @@ var NAVTREEINDEX16 =
 "std__vector__MR__Id__MR__ICPElemtTag__MR__Allocator__MR__Id__MR__ICPElemtTag_8rs.html":[9,5,2,0,0,1,3,497],
 "std__vector__MR__Id__MR__SurfaceDistanceStartTag__MR__Allocator__MR__Id__MR__SurfaceDistanceStartTag_8rs.html":[9,5,2,0,0,1,3,498],
 "std__vector__MR__Image_8rs.html":[9,5,2,0,0,1,3,499],
-"std__vector__MR__Line3Mesh__double_8rs.html":[9,5,2,0,0,1,3,502],
-"std__vector__MR__Line3Mesh__float_8rs.html":[9,5,2,0,0,1,3,503],
-"std__vector__MR__Line3d_8rs.html":[9,5,2,0,0,1,3,501],
-"std__vector__MR__LineSegm3f_8rs.html":[9,5,2,0,0,1,3,504],
-"std__vector__MR__MeshBuilder__MeshPiece_8rs.html":[9,5,2,0,0,1,3,507],
-"std__vector__MR__MeshBuilder__VertDuplication_8rs.html":[9,5,2,0,0,1,3,508],
-"std__vector__MR__MeshBuilder__VertSpan__MR__Allocator__MR__MeshBuilder__VertSpan_8rs.html":[9,5,2,0,0,1,3,509],
-"std__vector__MR__MeshIntersectionResult_8rs.html":[9,5,2,0,0,1,3,510],
-"std__vector__MR__MeshLoad__NamedMesh_8rs.html":[9,5,2,0,0,1,3,511]
+"std__vector__MR__Line3Mesh__double_8rs.html":[9,5,2,0,0,1,3,502]
 };

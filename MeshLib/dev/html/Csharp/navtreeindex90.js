@@ -1,5 +1,17 @@
 var NAVTREEINDEX90 =
 {
+"classMR_1_1Const__UndirectedEdgeBitSet.html#ae11b57dcc9b4682e62e80de95f5a2c8a":[9,3,0,0,0,963,23],
+"classMR_1_1Const__UndirectedEdgeBitSet.html#ae651f4748d2fff8c63001b35f99893b6":[9,3,0,0,0,963,10],
+"classMR_1_1Const__UndirectedEdgeBitSet.html#aebeb4779450e74dc0bcb4f10ef4ed116":[9,3,0,0,0,963,30],
+"classMR_1_1Const__UndirectedEdgeBitSet.html#aed320c2ab2373830f74e3f3feff3d9a2":[9,3,0,0,0,963,3],
+"classMR_1_1Const__UndirectedEdgeBitSet.html#aef9d184bd2f2eccbf6eb5763a8fa49a1":[9,3,0,0,0,963,35],
+"classMR_1_1Const__UndirectedEdgeBitSet.html#af33d96a78f2710b97c02cf8508e3d783":[9,3,0,0,0,963,8],
+"classMR_1_1Const__UndirectedEdgeBitSet.html#af6f6f2fa9a412bbf2a52f2bb71fe21e6":[9,3,0,0,0,963,24],
+"classMR_1_1Const__UndirectedEdgeBitSet.html#afd0c48cc1d0fdb2482dd7a0fc6e9c6fc":[9,3,0,0,0,963,22],
+"classMR_1_1Const__UndirectedEdgeBitSet.html#afd4a81305f4e3b3eb5873f3e8f5a016b":[9,3,0,0,0,963,5],
+"classMR_1_1Const__UndirectedEdgeColors.html":[9,3,0,0,0,965],
+"classMR_1_1Const__UndirectedEdgeColors.html#a06d7a1be2f770300af598747e583e07b":[9,3,0,0,0,965,12],
+"classMR_1_1Const__UndirectedEdgeColors.html#a071023a60536a6a89d101a69e3f71a12":[9,3,0,0,0,965,4],
 "classMR_1_1Const__UndirectedEdgeColors.html#a14fe463580d59789781e8b86c9b1ae87":[9,3,0,0,0,965,2],
 "classMR_1_1Const__UndirectedEdgeColors.html#a19e477cef18e5434382d9f8e8b780496":[9,3,0,0,0,965,8],
 "classMR_1_1Const__UndirectedEdgeColors.html#a39b3f3aa1bb1012586e379ca00fd1dc6":[9,3,0,0,0,965,17],
@@ -237,17 +249,5 @@ var NAVTREEINDEX90 =
 "classMR_1_1Const__UniteManyMeshesParams.html#af19aadcbec5afa48c8afecdc6d224e85":[9,3,0,0,0,978,14],
 "classMR_1_1Const__UniteMeshNormalizationParams.html":[9,3,0,0,0,979],
 "classMR_1_1Const__UniteMeshNormalizationParams.html#a06ea23d9987a7961c91dc05fe714c42e":[9,3,0,0,0,979,0],
-"classMR_1_1Const__UniteMeshNormalizationParams.html#a3debe233db5438044f9c8b386a873ed7":[9,3,0,0,0,979,10],
-"classMR_1_1Const__UniteMeshNormalizationParams.html#a7643dda062eacd8b2c5b64974a18ff44":[9,3,0,0,0,979,11],
-"classMR_1_1Const__UniteMeshNormalizationParams.html#a7bee7ee0cc50b9287721bca57b570f3c":[9,3,0,0,0,979,6],
-"classMR_1_1Const__UniteMeshNormalizationParams.html#a99f0a411637566778293f82eb54a5c8a":[9,3,0,0,0,979,7],
-"classMR_1_1Const__UniteMeshNormalizationParams.html#aaf75fb1407c7a5f831e504be84ea00f1":[9,3,0,0,0,979,4],
-"classMR_1_1Const__UniteMeshNormalizationParams.html#ab2bc17ce6098f7835c5424f9d6fec39d":[9,3,0,0,0,979,5],
-"classMR_1_1Const__UniteMeshNormalizationParams.html#abdd3abb08c4713cba88aadcb672d5ac8":[9,3,0,0,0,979,1],
-"classMR_1_1Const__UniteMeshNormalizationParams.html#abed2bef641dfb4f23da866116df5e795":[9,3,0,0,0,979,8],
-"classMR_1_1Const__UniteMeshNormalizationParams.html#ac3e59dedb1c3337c3669fb9cc4969ea6":[9,3,0,0,0,979,2],
-"classMR_1_1Const__UniteMeshNormalizationParams.html#ae15d414b8b3ce684cfaadd4bf2753b19":[9,3,0,0,0,979,3],
-"classMR_1_1Const__UniteMeshNormalizationParams.html#afb1b50ce92965c41c375acb1f289a7bc":[9,3,0,0,0,979,9],
-"classMR_1_1Const__UnorientedTriangle.html":[9,3,0,0,0,981],
-"classMR_1_1Const__UnorientedTriangle.html#a0a87cb741c23eb6360686d86a9f63d38":[9,3,0,0,0,981,8]
+"classMR_1_1Const__UniteMeshNormalizationParams.html#a3debe233db5438044f9c8b386a873ed7":[9,3,0,0,0,979,10]
 };

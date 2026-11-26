@@ -1,5 +1,13 @@
 var NAVTREEINDEX27 =
 {
+"structmeshlib_1_1BitSet.html#a1f3c76662095b14273c9bae30639038e":[9,5,1,0,0,81,3],
+"structmeshlib_1_1BitSet.html#a1fb4748c93f9ed69d5e49d4855953513":[9,5,0,0,0,94,30],
+"structmeshlib_1_1BitSet.html#a1fb4748c93f9ed69d5e49d4855953513":[9,5,1,0,0,81,30],
+"structmeshlib_1_1BitSet.html#a2c759ba2abb065822a979a703575d35d":[9,5,0,0,0,94,53],
+"structmeshlib_1_1BitSet.html#a2c759ba2abb065822a979a703575d35d":[9,5,1,0,0,81,53],
+"structmeshlib_1_1BitSet.html#a38ec0f25ad611e1dd9b00eda7b18b2cc":[9,5,0,0,0,94,39],
+"structmeshlib_1_1BitSet.html#a38ec0f25ad611e1dd9b00eda7b18b2cc":[9,5,1,0,0,81,39],
+"structmeshlib_1_1BitSet.html#a3ba8a338901f880826c082e6aeca09ff":[9,5,0,0,0,94,23],
 "structmeshlib_1_1BitSet.html#a3ba8a338901f880826c082e6aeca09ff":[9,5,1,0,0,81,23],
 "structmeshlib_1_1BitSet.html#a3d79ad53fb0471fb63551c059ac99fdc":[9,5,0,0,0,94,26],
 "structmeshlib_1_1BitSet.html#a3d79ad53fb0471fb63551c059ac99fdc":[9,5,1,0,0,81,26],
@@ -241,13 +249,5 @@ var NAVTREEINDEX27 =
 "structmeshlib_1_1BooleanResult.html":[9,5,1,0,0,100],
 "structmeshlib_1_1BooleanResult.html#a171a2904d9ef7ac49e11cd0e81e58130":[9,5,0,0,0,113,12],
 "structmeshlib_1_1BooleanResult.html#a171a2904d9ef7ac49e11cd0e81e58130":[9,5,1,0,0,100,12],
-"structmeshlib_1_1BooleanResult.html#a335b40b560fe37393fbcb129cf248e23":[9,5,0,0,0,113,13],
-"structmeshlib_1_1BooleanResult.html#a335b40b560fe37393fbcb129cf248e23":[9,5,1,0,0,100,13],
-"structmeshlib_1_1BooleanResult.html#a33db5231216918ed0ff4fefcd7cdcf06":[9,5,0,0,0,113,4],
-"structmeshlib_1_1BooleanResult.html#a33db5231216918ed0ff4fefcd7cdcf06":[9,5,1,0,0,100,4],
-"structmeshlib_1_1BooleanResult.html#a4dd4cb331e28a3a041cb028d3ea30ca9":[9,5,0,0,0,113,3],
-"structmeshlib_1_1BooleanResult.html#a4dd4cb331e28a3a041cb028d3ea30ca9":[9,5,1,0,0,100,3],
-"structmeshlib_1_1BooleanResult.html#a566aefbd2a7db07eb2961d769e21ff25":[9,5,0,0,0,113,11],
-"structmeshlib_1_1BooleanResult.html#a566aefbd2a7db07eb2961d769e21ff25":[9,5,1,0,0,100,11],
-"structmeshlib_1_1BooleanResult.html#a68786340e1c2ab16b1960d647bd7d337":[9,5,0,0,0,113,9]
+"structmeshlib_1_1BooleanResult.html#a335b40b560fe37393fbcb129cf248e23":[9,5,0,0,0,113,13]
 };

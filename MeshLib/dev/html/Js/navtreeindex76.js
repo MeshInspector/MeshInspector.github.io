@@ -1,5 +1,13 @@
 var NAVTREEINDEX76 =
 {
+"classTriangulationHelpers_1_1FanOptimizerQueueElement.html#a3de4a2ea8027f0d401187894812ad66f":[9,4,0,0,33,0,1],
+"classTriangulationHelpers_1_1FanOptimizerQueueElement.html#a3de4a2ea8027f0d401187894812ad66f":[9,4,1,0,18,0,1],
+"classTriangulationHelpers_1_1FanOptimizerQueueElement.html#a477b54dfb00d09570d5661dcb713c459":[9,4,0,0,33,0,5],
+"classTriangulationHelpers_1_1FanOptimizerQueueElement.html#a477b54dfb00d09570d5661dcb713c459":[9,4,1,0,18,0,5],
+"classTriangulationHelpers_1_1FanOptimizerQueueElement.html#a58ea4d3eb75c9c6d3f76923471d953ed":[9,4,0,0,33,0,11],
+"classTriangulationHelpers_1_1FanOptimizerQueueElement.html#a58ea4d3eb75c9c6d3f76923471d953ed":[9,4,1,0,18,0,11],
+"classTriangulationHelpers_1_1FanOptimizerQueueElement.html#a60c6840a19ea11bacfd433bf288139eb":[9,4,0,0,33,0,7],
+"classTriangulationHelpers_1_1FanOptimizerQueueElement.html#a60c6840a19ea11bacfd433bf288139eb":[9,4,1,0,18,0,7],
 "classTriangulationHelpers_1_1FanOptimizerQueueElement.html#a685a15a19003e726848fb451f182f46b":[9,4,0,0,33,0,0],
 "classTriangulationHelpers_1_1FanOptimizerQueueElement.html#a685a15a19003e726848fb451f182f46b":[9,4,1,0,18,0,0],
 "classTriangulationHelpers_1_1FanOptimizerQueueElement.html#a70f310b25faf3cfb5fda6ea048b96b3e":[9,4,0,0,33,0,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX76 =
 "classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a8f53ff60521da90da5473671731eb537":[9,4,1,0,1429,51],
 "classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a92ce3ef383d27c359dccacd8e762e0d8":[9,4,1,0,1429,4],
 "classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a94a36d51a0a875522520ac5bbc88680d":[9,4,1,0,1429,66],
-"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a99446b3803540e15c2ef51674a03d929":[9,4,1,0,1429,46],
-"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a99e630d4856e3b462c12f02147f7b44e":[9,4,1,0,1429,80],
-"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#aa30d23451ef5db86983016a043c707b2":[9,4,1,0,1429,36],
-"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#aac50385d90a4acf6028b6b5f1e41f67e":[9,4,1,0,1429,5],
-"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#aad2d0deb6acb79b4d8ba27bd224b6750":[9,4,1,0,1429,77],
-"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#aaf5b9a82e70e2f456ded87090be6e6a4":[9,4,1,0,1429,19],
-"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ab228d4d3cbe7ea1c0fea95695159f093":[9,4,1,0,1429,72],
-"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ab3b88654c2812b27655e9ba4fac9421f":[9,4,1,0,1429,56],
-"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ab3f3450e013e2ab40c8fc94ae40e2dd2":[9,4,1,0,1429,8]
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a99446b3803540e15c2ef51674a03d929":[9,4,1,0,1429,46]
 };
