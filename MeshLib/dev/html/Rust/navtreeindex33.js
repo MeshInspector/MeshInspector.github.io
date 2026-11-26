@@ -1,5 +1,7 @@
 var NAVTREEINDEX33 =
 {
+"structmeshlib_1_1Buffer__MR__UndirectedEdgeId.html#ab5d771930a80c8a948f5843e13d7eda7":[9,5,0,0,0,151,5],
+"structmeshlib_1_1Buffer__MR__UndirectedEdgeId.html#ab5d771930a80c8a948f5843e13d7eda7":[9,5,1,0,0,138,5],
 "structmeshlib_1_1Buffer__MR__UndirectedEdgeId.html#ad0da38b88999155440dbfcaea54491a0":[9,5,0,0,0,151,10],
 "structmeshlib_1_1Buffer__MR__UndirectedEdgeId.html#ad0da38b88999155440dbfcaea54491a0":[9,5,1,0,0,138,10],
 "structmeshlib_1_1Buffer__MR__UndirectedEdgeId.html#af2e98766874f99b0567dfa146321d201":[9,5,0,0,0,151,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX33 =
 "structmeshlib_1_1CNCMachineSettings__RotationAxisName.html":[9,5,0,0,0,209],
 "structmeshlib_1_1CNCMachineSettings__RotationAxisName.html":[9,5,1,0,0,196],
 "structmeshlib_1_1CameraPointsTriangulationSettings.html":[9,5,0,0,0,159],
-"structmeshlib_1_1CameraPointsTriangulationSettings.html":[9,5,1,0,0,146],
-"structmeshlib_1_1CameraPointsTriangulationSettings.html#a1c380941e0592ceec09f90dc960dd45c":[9,5,0,0,0,159,9],
-"structmeshlib_1_1CameraPointsTriangulationSettings.html#a1c380941e0592ceec09f90dc960dd45c":[9,5,1,0,0,146,9]
+"structmeshlib_1_1CameraPointsTriangulationSettings.html":[9,5,1,0,0,146]
 };

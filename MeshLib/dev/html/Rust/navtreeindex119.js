@@ -1,5 +1,7 @@
 var NAVTREEINDEX119 =
 {
+"structmeshlib_1_1PreciseVertCoords2.html":[9,5,1,0,0,857],
+"structmeshlib_1_1PreciseVertCoords2.html#a4e16a5b565debbe9133676b4be107bdd":[9,5,0,0,0,870,2],
 "structmeshlib_1_1PreciseVertCoords2.html#a4e16a5b565debbe9133676b4be107bdd":[9,5,1,0,0,857,2],
 "structmeshlib_1_1PreciseVertCoords2.html#a7e6ba47d16629411d414245763b13c63":[9,5,0,0,0,870,6],
 "structmeshlib_1_1PreciseVertCoords2.html#a7e6ba47d16629411d414245763b13c63":[9,5,1,0,0,857,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX119 =
 "structmeshlib_1_1Quaternionf.html#a8f6685db74235940771d881c5468890a":[9,5,1,0,0,868,5],
 "structmeshlib_1_1Quaternionf.html#a98e8bb6f1e88305bfb10984e5d1a3f0b":[9,5,0,0,0,881,2],
 "structmeshlib_1_1Quaternionf.html#a98e8bb6f1e88305bfb10984e5d1a3f0b":[9,5,1,0,0,868,2],
-"structmeshlib_1_1Quaternionf.html#a98ed64ca716c8722d75933bb188dcf57":[9,5,0,0,0,881,0],
-"structmeshlib_1_1Quaternionf.html#a98ed64ca716c8722d75933bb188dcf57":[9,5,1,0,0,868,0],
-"structmeshlib_1_1Quaternionf.html#a9fd2844d150002aa15f83482341cb3a7":[9,5,0,0,0,881,6]
+"structmeshlib_1_1Quaternionf.html#a98ed64ca716c8722d75933bb188dcf57":[9,5,0,0,0,881,0]
 };

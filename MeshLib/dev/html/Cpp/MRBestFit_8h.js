@@ -13,5 +13,7 @@ var MRBestFit_8h =
     [ "MR::findBestSphere", "namespaceMR.html#a0d70627311b13bc093bdf511d1293453", null ],
     [ "MR::findBestTorusWithAxis", "namespaceMR.html#ad4dfa128e6464eb302c8d400b7e50ddb", null ],
     [ "MR::findRevolutionAxis", "namespaceMR.html#a22193b5d69e8355a5415e1b43b14a4b5", null ],
-    [ "MR::refineTorus", "namespaceMR.html#a194dbcf206332e1b520aadc94cd1cc14", null ]
+    [ "MR::refineCone", "namespaceMR.html#ae0e6ba64aaea3c4a2b73a38b4c29cd00", null ],
+    [ "MR::refineCylinder", "namespaceMR.html#a1d72cbf6d06c8244e54e90eea6f775c8", null ],
+    [ "MR::refineTorus", "namespaceMR.html#a5cf66dec5d826d565c7fc66ea2bd01bb", null ]
 ];

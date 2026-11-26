@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#ae48ef2454e91343b51324c18fa937fe7":[9,0,0,20,0,2],
+"structMR_1_1PointsLoad_1_1NamedCloud.html":[9,0,1,0,1,36,2],
 "structMR_1_1PointsLoad_1_1NamedCloud.html":[9,0,2,0,1,22,2],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[9,0,1,0,1,36,2,3],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[9,0,2,0,1,22,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1RenderDimensions_1_1AngleParams.html":[9,0,0,19,684],
 "structMR_1_1RenderDimensions_1_1CommonParams.html":[9,0,0,19,679],
 "structMR_1_1RenderDimensions_1_1LengthParams.html":[9,0,0,19,686],
-"structMR_1_1RenderDimensions_1_1PointParams.html":[9,0,0,19,680],
-"structMR_1_1RenderDimensions_1_1RadiusParams.html":[9,0,0,19,682],
-"structMR_1_1RenderDimensions_1_1Tolerance.html":[9,0,0,19,678]
+"structMR_1_1RenderDimensions_1_1PointParams.html":[9,0,0,19,680]
 };

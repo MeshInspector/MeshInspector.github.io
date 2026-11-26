@@ -7,10 +7,10 @@ var structmeshlib_1_1Cone3ApproximationParams =
     [ "hemisphere_search_phi_resolution_mut", "structmeshlib_1_1Cone3ApproximationParams.html#af65361aa2d784d9351f62a963b5a7854", null ],
     [ "hemisphere_search_theta_resolution", "structmeshlib_1_1Cone3ApproximationParams.html#afb501f47ed2f33442c2b3d162bbb0c52", null ],
     [ "hemisphere_search_theta_resolution_mut", "structmeshlib_1_1Cone3ApproximationParams.html#a0358f751ddd1aaeebbb6d453da66f524", null ],
-    [ "levenberg_marquardt_max_iteration", "structmeshlib_1_1Cone3ApproximationParams.html#a498bcc0521d08402f8bd8eb398ca17d4", null ],
-    [ "levenberg_marquardt_max_iteration_mut", "structmeshlib_1_1Cone3ApproximationParams.html#a4dd75eaeed4ea944d48b5d00e22e2b61", null ],
+    [ "max_refine_points", "structmeshlib_1_1Cone3ApproximationParams.html#a89681845c71da43d6a95042ce75989c3", null ],
+    [ "max_refine_points_mut", "structmeshlib_1_1Cone3ApproximationParams.html#ae17541bb26dfde6d2c60b9fd31086595", null ],
     [ "set_cone_fitter_type", "structmeshlib_1_1Cone3ApproximationParams.html#a9a67aa2bd10a24630aedeb0184d597e1", null ],
     [ "set_hemisphere_search_phi_resolution", "structmeshlib_1_1Cone3ApproximationParams.html#afbd5bfd171192ccc3bb032299a8ecb6b", null ],
     [ "set_hemisphere_search_theta_resolution", "structmeshlib_1_1Cone3ApproximationParams.html#a01347f6d66af8c330346428d83824aad", null ],
-    [ "set_levenberg_marquardt_max_iteration", "structmeshlib_1_1Cone3ApproximationParams.html#a16514d46d51051a84fe0ccb01efacd3a", null ]
+    [ "set_max_refine_points", "structmeshlib_1_1Cone3ApproximationParams.html#a209a9fe7ec64ff4561127b6e02061754", null ]
 ];

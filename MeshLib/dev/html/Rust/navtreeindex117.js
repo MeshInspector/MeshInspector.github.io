@@ -1,5 +1,7 @@
 var NAVTREEINDEX117 =
 {
+"structmeshlib_1_1PolylineSubdivideSettings.html#abb70a1ba2960cffa0005a873e25c67c5":[9,5,0,0,0,840,15],
+"structmeshlib_1_1PolylineSubdivideSettings.html#abb70a1ba2960cffa0005a873e25c67c5":[9,5,1,0,0,827,15],
 "structmeshlib_1_1PolylineSubdivideSettings.html#ac7c8b76d4976cb7c6900b0dbd9ecbe9c":[9,5,0,0,0,840,4],
 "structmeshlib_1_1PolylineSubdivideSettings.html#ac7c8b76d4976cb7c6900b0dbd9ecbe9c":[9,5,1,0,0,827,4],
 "structmeshlib_1_1PolylineSubdivideSettings.html#ad41961b18ca9442edab5cab6c3911868":[9,5,0,0,0,840,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX117 =
 "structmeshlib_1_1Polynomial__double__1.html#a6a3473aa01101749f52d4ed90abb5e2d":[9,5,1,0,0,835,4],
 "structmeshlib_1_1Polynomial__double__1.html#ae2edf3b3695afc7030559092676d6dc6":[9,5,0,0,0,848,2],
 "structmeshlib_1_1Polynomial__double__1.html#ae2edf3b3695afc7030559092676d6dc6":[9,5,1,0,0,835,2],
-"structmeshlib_1_1Polynomial__double__2.html":[9,5,0,0,0,849],
-"structmeshlib_1_1Polynomial__double__2.html":[9,5,1,0,0,836],
-"structmeshlib_1_1Polynomial__double__2.html#a1d1a37e2e8adef0b8781060a53a4704f":[9,5,0,0,0,849,4]
+"structmeshlib_1_1Polynomial__double__2.html":[9,5,0,0,0,849]
 };

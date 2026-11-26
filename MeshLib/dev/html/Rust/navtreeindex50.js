@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"structmeshlib_1_1DracoSaveOptions.html#a64b12f56f22a7d41d7e8ab53ca65ff95":[9,5,0,0,0,294,7],
+"structmeshlib_1_1DracoSaveOptions.html#a64b12f56f22a7d41d7e8ab53ca65ff95":[9,5,1,0,0,281,7],
 "structmeshlib_1_1DracoSaveOptions.html#a66707a81a3a9f27c9ee65af584956284":[9,5,0,0,0,294,47],
 "structmeshlib_1_1DracoSaveOptions.html#a66707a81a3a9f27c9ee65af584956284":[9,5,1,0,0,281,47],
 "structmeshlib_1_1DracoSaveOptions.html#a74138485240ff96c95d9c17838858826":[9,5,0,0,0,294,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "structmeshlib_1_1EdgeColors.html#a95c04945a35ca367d371da2bfda6a9d0":[9,5,0,0,0,297,5],
 "structmeshlib_1_1EdgeColors.html#a95c04945a35ca367d371da2bfda6a9d0":[9,5,1,0,0,284,5],
 "structmeshlib_1_1EdgeColors.html#aa045bca494f48cd8246d1354f1b59647":[9,5,0,0,0,297,16],
-"structmeshlib_1_1EdgeColors.html#aa045bca494f48cd8246d1354f1b59647":[9,5,1,0,0,284,16],
-"structmeshlib_1_1EdgeColors.html#aa8a6a0fde5f8ae11230ad9ef95939d2a":[9,5,0,0,0,297,9],
-"structmeshlib_1_1EdgeColors.html#aa8a6a0fde5f8ae11230ad9ef95939d2a":[9,5,1,0,0,284,9]
+"structmeshlib_1_1EdgeColors.html#aa045bca494f48cd8246d1354f1b59647":[9,5,1,0,0,284,16]
 };

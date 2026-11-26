@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"classTorus3d.html#a069ec16fdb52ad4e7f2906079a7dc120":[9,4,1,0,1407,8],
+"classTorus3d.html#a203a1df01c9c745d08b68674647a7212":[9,4,1,0,1407,6],
 "classTorus3d.html#a2453dd1e2244f0f7899476656fc45ef3":[9,4,1,0,1407,9],
 "classTorus3d.html#a2aeaef517388ad60d84f6bebd47a44bf":[9,4,1,0,1407,7],
 "classTorus3d.html#a6c20ef3a2c4e470d86f24a966b4361ee":[9,4,1,0,1407,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "classTriangulation.html#aa8e9ed6011b3f4e7c96c57fd4a8b6c91":[9,4,1,0,1414,21],
 "classTriangulation.html#aacdc4eeae33d6d227fd7157830c2aa0e":[9,4,1,0,1414,46],
 "classTriangulation.html#ab702167a3b369d67788f1d6d01dc9f7f":[9,4,1,0,1414,26],
-"classTriangulation.html#abd782899a02e186ae97d40bd52a60c79":[9,4,1,0,1414,41],
-"classTriangulation.html#abf6f959758703f23cc2b82c55df83987":[9,4,1,0,1414,14],
-"classTriangulation.html#ac99ba5a647b374e5e7768eab0b6c9382":[9,4,1,0,1414,47]
+"classTriangulation.html#abd782899a02e186ae97d40bd52a60c79":[9,4,1,0,1414,41]
 };

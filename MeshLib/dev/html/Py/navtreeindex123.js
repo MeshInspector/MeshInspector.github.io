@@ -1,5 +1,9 @@
 var NAVTREEINDEX123 =
 {
+"classmrmeshpy_1_1Dipoles.html#a612c2b7d59cc5a7856debd1fd66d63fd":[9,1,0,0,2,1529,18],
+"classmrmeshpy_1_1Dipoles.html#a612c2b7d59cc5a7856debd1fd66d63fd":[9,1,1,0,1,1529,18],
+"classmrmeshpy_1_1Dipoles.html#a623c7575a7487b53d99937558ede665d":[9,1,0,0,2,1529,2],
+"classmrmeshpy_1_1Dipoles.html#a623c7575a7487b53d99937558ede665d":[9,1,1,0,1,1529,2],
 "classmrmeshpy_1_1Dipoles.html#a6d2e7b07c0e62cb1bc1373ba168a6169":[9,1,0,0,2,1529,29],
 "classmrmeshpy_1_1Dipoles.html#a6d2e7b07c0e62cb1bc1373ba168a6169":[9,1,1,0,1,1529,29],
 "classmrmeshpy_1_1Dipoles.html#a75448094605229feb04c9dd7e7cdcfb2":[9,1,0,0,2,1529,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX123 =
 "classmrmeshpy_1_1DistanceMeasurementObject.html#afad1685763ef695e65b14a596b15b6c9":[9,1,0,0,2,1540,6],
 "classmrmeshpy_1_1DistanceMeasurementObject.html#afad1685763ef695e65b14a596b15b6c9":[9,1,1,0,1,1540,6],
 "classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html":[9,1,0,0,2,1540,0],
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html":[9,1,1,0,1,1540,0],
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#a439e5f8878826f0b15050c59e1eb7057":[9,1,0,0,2,1540,0,1],
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#a439e5f8878826f0b15050c59e1eb7057":[9,1,1,0,1,1540,0,1],
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#a7674adb395150359deafa323340bafd2":[9,1,0,0,2,1540,0,0],
-"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html#a7674adb395150359deafa323340bafd2":[9,1,1,0,1,1540,0,0]
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html":[9,1,1,0,1,1540,0]
 };

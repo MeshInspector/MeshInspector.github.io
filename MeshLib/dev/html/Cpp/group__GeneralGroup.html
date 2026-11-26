@@ -4505,7 +4505,8 @@ Functions</h2></td></tr>
 <tr class="memitem:gad0a19bee1540de375bc6a6b7feb7973b" id="r_gad0a19bee1540de375bc6a6b7feb7973b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad0a19bee1540de375bc6a6b7feb7973b">MR::Cylinder3&lt; T &gt;::direction</a> (void) const</td></tr>
 <tr class="memitem:ga0e4a56fc93e558ba228d4ae40f56fa5b" id="r_ga0e4a56fc93e558ba228d4ae40f56fa5b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0e4a56fc93e558ba228d4ae40f56fa5b">MR::Cylinder3Approximation&lt; T &gt;::Cylinder3Approximation</a> ()</td></tr>
 <tr class="memitem:ga2630eea62fad502665d655fe9fb9a36c" id="r_ga2630eea62fad502665d655fe9fb9a36c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2630eea62fad502665d655fe9fb9a36c">MR::Cylinder3Approximation&lt; T &gt;::reset</a> ()</td></tr>
-<tr class="memitem:gadf91afbbc6b45a1b0a9f992d827b20ea" id="r_gadf91afbbc6b45a1b0a9f992d827b20ea"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadf91afbbc6b45a1b0a9f992d827b20ea">MR::Cylinder3Approximation&lt; T &gt;::solveGeneral</a> (const std::vector&lt; <a class="el" href="structMR_1_1Vector3.html">MR::Vector3</a>&lt; T &gt; &gt; &amp;points, <a class="el" href="classMR_1_1Cylinder3.html">Cylinder3</a>&lt; T &gt; &amp;cylinder, size_t theta=180, size_t phi=90, bool isMultithread=true)</td></tr>
+<tr class="memitem:ga0fce94548300141646ad57207dddb804" id="r_ga0fce94548300141646ad57207dddb804"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0fce94548300141646ad57207dddb804">MR::Cylinder3Approximation&lt; T &gt;::solveGeneral</a> (const std::vector&lt; <a class="el" href="structMR_1_1Vector3.html">MR::Vector3</a>&lt; T &gt; &gt; &amp;points, <a class="el" href="classMR_1_1Cylinder3.html">Cylinder3</a>&lt; T &gt; &amp;cylinder, size_t theta=180, size_t phi=90, bool isMultithread=true, size_t maxRefinePoints=10000)</td></tr>
+<tr class="memdesc:ga0fce94548300141646ad57207dddb804"><td class="mdescLeft">&#160;</td><td class="mdescRight">Both solvers return the mean of squared distances from the points to the found cylinder, or -1 for fewer than 6 points.  <br /></td></tr>
 <tr class="memitem:ga042c182d2a71ef03c119fc2c70045464" id="r_ga042c182d2a71ef03c119fc2c70045464"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga042c182d2a71ef03c119fc2c70045464">MR::Cylinder3Approximation&lt; T &gt;::solveSpecificAxis</a> (const std::vector&lt; <a class="el" href="structMR_1_1Vector3.html">MR::Vector3</a>&lt; T &gt; &gt; &amp;points, <a class="el" href="classMR_1_1Cylinder3.html">Cylinder3</a>&lt; T &gt; &amp;cylinder, <a class="el" href="structMR_1_1Vector3.html">MR::Vector3</a>&lt; T &gt; const &amp;cylinderAxis)</td></tr>
 <tr class="memitem:ga9e5ebeb3b2230f97a77faf36ec5708f0" id="r_ga9e5ebeb3b2230f97a77faf36ec5708f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9e5ebeb3b2230f97a77faf36ec5708f0">MR::CylinderObject::CylinderObject</a> ()</td></tr>
 <tr class="memdesc:ga9e5ebeb3b2230f97a77faf36ec5708f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates simple Cylinder object with center in zero and radius - 1.  <br /></td></tr>
@@ -12600,10 +12601,11 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga17cbe4ac01d2a5bacfd1909eeccb9488"><td class="mdescLeft">&#160;</td><td class="mdescRight">for any cone point dot( point , direction ) &gt;=0  <br /></td></tr>
 <tr class="memitem:ga1837f049b2e30d91b8cc20a4109d7e87" id="r_ga1837f049b2e30d91b8cc20a4109d7e87"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1837f049b2e30d91b8cc20a4109d7e87">MR::Cone3&lt; T &gt;::height</a> = 0</td></tr>
 <tr class="memdesc:ga1837f049b2e30d91b8cc20a4109d7e87"><td class="mdescLeft">&#160;</td><td class="mdescRight">cone angle, main axis vs side  <br /></td></tr>
-<tr class="memitem:ga6c4848e08b47fefbf24a221b15e00329" id="r_ga6c4848e08b47fefbf24a221b15e00329"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6c4848e08b47fefbf24a221b15e00329">MR::Cone3ApproximationParams::levenbergMarquardtMaxIteration</a> = 40</td></tr>
 <tr class="memitem:ga78abf2b4f9d3845ec382b09ec2c865d3" id="r_ga78abf2b4f9d3845ec382b09ec2c865d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga0ec93e9fcfd4b11654579d65e255bb7d">ConeFitterType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga78abf2b4f9d3845ec382b09ec2c865d3">MR::Cone3ApproximationParams::coneFitterType</a> = <a class="el" href="#gga0ec93e9fcfd4b11654579d65e255bb7da1a4728573c55a3c1ceca7af11776f64b">ConeFitterType::HemisphereSearchFit</a></td></tr>
 <tr class="memitem:ga5b47cd0b4ce1e73f079a35fdc80d2850" id="r_ga5b47cd0b4ce1e73f079a35fdc80d2850"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5b47cd0b4ce1e73f079a35fdc80d2850">MR::Cone3ApproximationParams::hemisphereSearchPhiResolution</a> = 30</td></tr>
 <tr class="memitem:ga0c389ccce5e8616195da9e724505f8c2" id="r_ga0c389ccce5e8616195da9e724505f8c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0c389ccce5e8616195da9e724505f8c2">MR::Cone3ApproximationParams::hemisphereSearchThetaResolution</a> = 30</td></tr>
+<tr class="memitem:ga7a5affb1b03a6519b242978927eb4f25" id="r_ga7a5affb1b03a6519b242978927eb4f25"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7a5affb1b03a6519b242978927eb4f25">MR::Cone3ApproximationParams::maxRefinePoints</a> = 10000</td></tr>
+<tr class="memdesc:ga7a5affb1b03a6519b242978927eb4f25"><td class="mdescLeft">&#160;</td><td class="mdescRight">passed to refineCone: at most this number of points is used in the minimization  <br /></td></tr>
 <tr class="memitem:ga3af4a8bfbe6579dc273d0b9f368f77aa" id="r_ga3af4a8bfbe6579dc273d0b9f368f77aa"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3af4a8bfbe6579dc273d0b9f368f77aa">MR::NewEdgesMap::splitEdges</a></td></tr>
 <tr class="memitem:ga1d44ed6247b64a9007baa4bbbf2903aa" id="r_ga1d44ed6247b64a9007baa4bbbf2903aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga9dfad208b725d59063370f3881b40552">HashMap</a>&lt; UndirectedEdgeId, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1d44ed6247b64a9007baa4bbbf2903aa">MR::NewEdgesMap::map</a></td></tr>
 <tr class="memitem:ga3aaef62dde9c7e4727195071089e409f" id="r_ga3aaef62dde9c7e4727195071089e409f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1SortIntersectionsData.html">SortIntersectionsData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3aaef62dde9c7e4727195071089e409f">MR::CutMeshParameters::sortData</a> {nullptr}</td></tr>
@@ -25279,7 +25281,8 @@ template&lt;typename Tag&gt; </div>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga0ec93e9fcfd4b11654579d65e255bb7da966805730aa004c013d26ce8985852a7" name="gga0ec93e9fcfd4b11654579d65e255bb7da966805730aa004c013d26ce8985852a7"></a>ApproximationPCM&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga0ec93e9fcfd4b11654579d65e255bb7da1a4728573c55a3c1ceca7af11776f64b" name="gga0ec93e9fcfd4b11654579d65e255bb7da1a4728573c55a3c1ceca7af11776f64b"></a>HemisphereSearchFit&#160;</td><td class="fielddoc"><p>approximation of cone axis by principal component method </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga0ec93e9fcfd4b11654579d65e255bb7da2c0500afc7ff11f210c486fe633f3384" name="gga0ec93e9fcfd4b11654579d65e255bb7da2c0500afc7ff11f210c486fe633f3384"></a>SpecificAxisFit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga0ec93e9fcfd4b11654579d65e255bb7da2c0500afc7ff11f210c486fe633f3384" name="gga0ec93e9fcfd4b11654579d65e255bb7da2c0500afc7ff11f210c486fe633f3384"></a>SpecificAxisFit&#160;</td><td class="fielddoc"><p>the initial approximation is found for the axis of the given cone </p>
+</td></tr>
 </table>
 
 </div>
@@ -187242,8 +187245,8 @@ template&lt;typename T, size_t degree&gt; </div>
 
 </div>
 </div>
-<a id="gadf91afbbc6b45a1b0a9f992d827b20ea" name="gadf91afbbc6b45a1b0a9f992d827b20ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadf91afbbc6b45a1b0a9f992d827b20ea">&#9670;&#160;</a></span>solveGeneral()</h2>
+<a id="ga0fce94548300141646ad57207dddb804" name="ga0fce94548300141646ad57207dddb804"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0fce94548300141646ad57207dddb804">&#9670;&#160;</a></span>solveGeneral()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -187273,13 +187276,20 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isMultithread</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isMultithread</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>maxRefinePoints</em></span><span class="paramdefsep"> = </span><span class="paramdefval">10000</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRCylinderApproximator_8h.html">MRMesh/MRCylinderApproximator.h</a>&gt;</code></p>
-<p>Solver for CylinderFitterType::HemisphereSearchFit type thetaResolution_, phiResolution_ must be positive and as large as it posible. Price is CPU time. (~ 100 gives good results). </p>
+
+<p>Both solvers return the mean of squared distances from the points to the found cylinder, or -1 for fewer than 6 points. </p>
+<p>Solver for CylinderFitterType::HemisphereSearchFit type: the best direction of the search is then refined by refineCylinder (see <a class="el" href="MRBestFit_8h.html">MRBestFit.h</a>) thetaResolution_, phiResolution_ must be positive and as large as it posible. Price is CPU time. (~ 100 gives good results). maxRefinePoints is passed to refineCylinder: at most this number of points is used in its minimization </p>
 
 </div>
 </div>
@@ -228519,20 +228529,6 @@ template&lt;typename ObjectT = Object&gt; </div>
 
 </div>
 </div>
-<a id="ga6c4848e08b47fefbf24a221b15e00329" name="ga6c4848e08b47fefbf24a221b15e00329"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6c4848e08b47fefbf24a221b15e00329">&#9670;&#160;</a></span>levenbergMarquardtMaxIteration</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int MR::Cone3ApproximationParams::levenbergMarquardtMaxIteration = 40</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ga7c7a861d6d96b26592bb64ac801d6f43" name="ga7c7a861d6d96b26592bb64ac801d6f43"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga7c7a861d6d96b26592bb64ac801d6f43">&#9670;&#160;</a></span>lexicographicalOrder</h2>
 
@@ -230379,6 +230375,22 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p>the maximum number of iterations to reduce approximate path length and convert it in geodesic path </p>
+
+</div>
+</div>
+<a id="ga7a5affb1b03a6519b242978927eb4f25" name="ga7a5affb1b03a6519b242978927eb4f25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7a5affb1b03a6519b242978927eb4f25">&#9670;&#160;</a></span>maxRefinePoints</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::Cone3ApproximationParams::maxRefinePoints = 10000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>passed to refineCone: at most this number of points is used in the minimization </p>
 
 </div>
 </div>

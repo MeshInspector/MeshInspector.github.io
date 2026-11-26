@@ -145,8 +145,6 @@ $(function(){initNavTree('MRCylinder3_8h.html','',''); });
 Typedefs</h2></td></tr>
 <tr class="memitem:a0c5f105c6381a1539730147b6aba3709" id="r_a0c5f105c6381a1539730147b6aba3709"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a></td></tr>
 <tr class="memdesc:a0c5f105c6381a1539730147b6aba3709"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class describing a cylinder as a mathematical object. A cylinder is represented by a centerline, a radius, and a length.  <br /></td></tr>
-<tr class="memitem:a9d1b221eca1c0b5750d2ca9dedce3ad6" id="r_a9d1b221eca1c0b5750d2ca9dedce3ad6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a></td></tr>
-<tr class="memdesc:a9d1b221eca1c0b5750d2ca9dedce3ad6"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class describing a cylinder as a mathematical object. A cylinder is represented by a centerline, a radius, and a length.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -175,50 +173,33 @@ Functions</h2></td></tr>
 <tr class="memitem:ad705ea947c2da9a0ca2d7d66a9b71bb8" id="r_ad705ea947c2da9a0ca2d7d66a9b71bb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad705ea947c2da9a0ca2d7d66a9b71bb8">MR_Cylinder3f_center</a> (const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this)</td></tr>
 <tr class="memitem:aac8983cea36af60b010b64bb02033743" id="r_aac8983cea36af60b010b64bb02033743"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac8983cea36af60b010b64bb02033743">MR_Cylinder3f_direction_mut</a> (<a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this)</td></tr>
 <tr class="memitem:ab70a934502831d2e7ce478f012836e86" id="r_ab70a934502831d2e7ce478f012836e86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab70a934502831d2e7ce478f012836e86">MR_Cylinder3f_direction</a> (const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this)</td></tr>
-<tr class="memitem:a1998ceeb2d2b1c2f05213e9a91eaa475" id="r_a1998ceeb2d2b1c2f05213e9a91eaa475"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1998ceeb2d2b1c2f05213e9a91eaa475">MR_Cylinder3d_Get_mainAxis</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
-<tr class="memitem:ae1a73561ed9b8a8ccb849d5e093a6371" id="r_ae1a73561ed9b8a8ccb849d5e093a6371"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1a73561ed9b8a8ccb849d5e093a6371">MR_Cylinder3d_Set_mainAxis</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this, const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *value)</td></tr>
-<tr class="memitem:a544b30557adbc80dbec845e8151a3740" id="r_a544b30557adbc80dbec845e8151a3740"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a544b30557adbc80dbec845e8151a3740">MR_Cylinder3d_GetMutable_mainAxis</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
-<tr class="memitem:a32854aef6af4985f870cad926100d5f2" id="r_a32854aef6af4985f870cad926100d5f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32854aef6af4985f870cad926100d5f2">MR_Cylinder3d_Get_radius</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
-<tr class="memitem:afe1225e7d00b83433f3f3944f1d28938" id="r_afe1225e7d00b83433f3f3944f1d28938"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe1225e7d00b83433f3f3944f1d28938">MR_Cylinder3d_Set_radius</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this, double value)</td></tr>
-<tr class="memitem:a52bd04a26435114207e6474c80aaaa24" id="r_a52bd04a26435114207e6474c80aaaa24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52bd04a26435114207e6474c80aaaa24">MR_Cylinder3d_GetMutable_radius</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
-<tr class="memitem:a399f36148f43bba0697fc600a7baf1bb" id="r_a399f36148f43bba0697fc600a7baf1bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a399f36148f43bba0697fc600a7baf1bb">MR_Cylinder3d_Get_length</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
-<tr class="memitem:a9d2e67cf734b056946bc99457ab64d03" id="r_a9d2e67cf734b056946bc99457ab64d03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d2e67cf734b056946bc99457ab64d03">MR_Cylinder3d_Set_length</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this, double value)</td></tr>
-<tr class="memitem:abcf55a64061bf471789a293bd887c0d3" id="r_abcf55a64061bf471789a293bd887c0d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcf55a64061bf471789a293bd887c0d3">MR_Cylinder3d_GetMutable_length</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
-<tr class="memitem:ab5340d259a1732a010792885f35ea2bb" id="r_ab5340d259a1732a010792885f35ea2bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5340d259a1732a010792885f35ea2bb">MR_Cylinder3d_DefaultConstruct</a> (void)</td></tr>
-<tr class="memitem:a275bdbff379e73180d78cdbd3c240cad" id="r_a275bdbff379e73180d78cdbd3c240cad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a275bdbff379e73180d78cdbd3c240cad">MR_Cylinder3d_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:a08eb5433790040caafd4d21d424e264d" id="r_a08eb5433790040caafd4d21d424e264d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08eb5433790040caafd4d21d424e264d">MR_Cylinder3d_OffsetPtr</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:a439a18425f9c7d96fd83571842d1880b" id="r_a439a18425f9c7d96fd83571842d1880b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a439a18425f9c7d96fd83571842d1880b">MR_Cylinder3d_OffsetMutablePtr</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:aeaf2835c8a642bd3c0c45223a6ac4aa4" id="r_aeaf2835c8a642bd3c0c45223a6ac4aa4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaf2835c8a642bd3c0c45223a6ac4aa4">MR_Cylinder3d_ConstructFromAnother</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_other)</td></tr>
-<tr class="memitem:a1a37772d2071757e64670c19c52dd2eb" id="r_a1a37772d2071757e64670c19c52dd2eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a37772d2071757e64670c19c52dd2eb">MR_Cylinder3d_Construct_4</a> (const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *inCenter, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *inDirectoin, double inRadius, double inLength)</td></tr>
-<tr class="memitem:aae5b86521a8f909f9901b7c619944d4b" id="r_aae5b86521a8f909f9901b7c619944d4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae5b86521a8f909f9901b7c619944d4b">MR_Cylinder3d_Construct_3</a> (const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *inAxis, double inRadius, double inLength)</td></tr>
-<tr class="memitem:a3957a55a3fc8c56bbe5d903c8eab218e" id="r_a3957a55a3fc8c56bbe5d903c8eab218e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3957a55a3fc8c56bbe5d903c8eab218e">MR_Cylinder3d_Destroy</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
-<tr class="memdesc:a3957a55a3fc8c56bbe5d903c8eab218e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6" title="A class describing a cylinder as a mathematical object. A cylinder is represented by a centerline,...">MR_Cylinder3d</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:aa8b499ea7d9ed3e8f885315bdff4199b" id="r_aa8b499ea7d9ed3e8f885315bdff4199b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8b499ea7d9ed3e8f885315bdff4199b">MR_Cylinder3d_DestroyArray</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
-<tr class="memdesc:aa8b499ea7d9ed3e8f885315bdff4199b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6" title="A class describing a cylinder as a mathematical object. A cylinder is represented by a centerline,...">MR_Cylinder3d</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a77be0a859a19cabe4553a6cac2c489cd" id="r_a77be0a859a19cabe4553a6cac2c489cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77be0a859a19cabe4553a6cac2c489cd">MR_Cylinder3d_AssignFromAnother</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this, const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_other)</td></tr>
-<tr class="memitem:a2959f6cd6877f24a8773ec527655e98c" id="r_a2959f6cd6877f24a8773ec527655e98c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2959f6cd6877f24a8773ec527655e98c">MR_Cylinder3d_center_mut</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
-<tr class="memitem:a1767f1f1176fe85016362988a441abac" id="r_a1767f1f1176fe85016362988a441abac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1767f1f1176fe85016362988a441abac">MR_Cylinder3d_center</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
-<tr class="memitem:a761bc064fa5d4ee9787296289985f747" id="r_a761bc064fa5d4ee9787296289985f747"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a761bc064fa5d4ee9787296289985f747">MR_Cylinder3d_direction_mut</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
-<tr class="memitem:af0e59472aa0b2d597bcd29c3e8e5bc95" id="r_af0e59472aa0b2d597bcd29c3e8e5bc95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0e59472aa0b2d597bcd29c3e8e5bc95">MR_Cylinder3d_direction</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="memitem:a1998ceeb2d2b1c2f05213e9a91eaa475" id="r_a1998ceeb2d2b1c2f05213e9a91eaa475"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1998ceeb2d2b1c2f05213e9a91eaa475">MR_Cylinder3d_Get_mainAxis</a> (const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="memitem:ae1a73561ed9b8a8ccb849d5e093a6371" id="r_ae1a73561ed9b8a8ccb849d5e093a6371"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1a73561ed9b8a8ccb849d5e093a6371">MR_Cylinder3d_Set_mainAxis</a> (<a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this, const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *value)</td></tr>
+<tr class="memitem:a544b30557adbc80dbec845e8151a3740" id="r_a544b30557adbc80dbec845e8151a3740"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a544b30557adbc80dbec845e8151a3740">MR_Cylinder3d_GetMutable_mainAxis</a> (<a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="memitem:a32854aef6af4985f870cad926100d5f2" id="r_a32854aef6af4985f870cad926100d5f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32854aef6af4985f870cad926100d5f2">MR_Cylinder3d_Get_radius</a> (const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="memitem:afe1225e7d00b83433f3f3944f1d28938" id="r_afe1225e7d00b83433f3f3944f1d28938"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe1225e7d00b83433f3f3944f1d28938">MR_Cylinder3d_Set_radius</a> (<a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this, double value)</td></tr>
+<tr class="memitem:a52bd04a26435114207e6474c80aaaa24" id="r_a52bd04a26435114207e6474c80aaaa24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52bd04a26435114207e6474c80aaaa24">MR_Cylinder3d_GetMutable_radius</a> (<a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="memitem:a399f36148f43bba0697fc600a7baf1bb" id="r_a399f36148f43bba0697fc600a7baf1bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a399f36148f43bba0697fc600a7baf1bb">MR_Cylinder3d_Get_length</a> (const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="memitem:a9d2e67cf734b056946bc99457ab64d03" id="r_a9d2e67cf734b056946bc99457ab64d03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d2e67cf734b056946bc99457ab64d03">MR_Cylinder3d_Set_length</a> (<a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this, double value)</td></tr>
+<tr class="memitem:abcf55a64061bf471789a293bd887c0d3" id="r_abcf55a64061bf471789a293bd887c0d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcf55a64061bf471789a293bd887c0d3">MR_Cylinder3d_GetMutable_length</a> (<a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="memitem:ab5340d259a1732a010792885f35ea2bb" id="r_ab5340d259a1732a010792885f35ea2bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5340d259a1732a010792885f35ea2bb">MR_Cylinder3d_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a275bdbff379e73180d78cdbd3c240cad" id="r_a275bdbff379e73180d78cdbd3c240cad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a275bdbff379e73180d78cdbd3c240cad">MR_Cylinder3d_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a08eb5433790040caafd4d21d424e264d" id="r_a08eb5433790040caafd4d21d424e264d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08eb5433790040caafd4d21d424e264d">MR_Cylinder3d_OffsetPtr</a> (const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a439a18425f9c7d96fd83571842d1880b" id="r_a439a18425f9c7d96fd83571842d1880b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a439a18425f9c7d96fd83571842d1880b">MR_Cylinder3d_OffsetMutablePtr</a> (<a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:aeaf2835c8a642bd3c0c45223a6ac4aa4" id="r_aeaf2835c8a642bd3c0c45223a6ac4aa4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaf2835c8a642bd3c0c45223a6ac4aa4">MR_Cylinder3d_ConstructFromAnother</a> (const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_other)</td></tr>
+<tr class="memitem:a1a37772d2071757e64670c19c52dd2eb" id="r_a1a37772d2071757e64670c19c52dd2eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a37772d2071757e64670c19c52dd2eb">MR_Cylinder3d_Construct_4</a> (const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *inCenter, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *inDirectoin, double inRadius, double inLength)</td></tr>
+<tr class="memitem:aae5b86521a8f909f9901b7c619944d4b" id="r_aae5b86521a8f909f9901b7c619944d4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae5b86521a8f909f9901b7c619944d4b">MR_Cylinder3d_Construct_3</a> (const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *inAxis, double inRadius, double inLength)</td></tr>
+<tr class="memitem:a3957a55a3fc8c56bbe5d903c8eab218e" id="r_a3957a55a3fc8c56bbe5d903c8eab218e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3957a55a3fc8c56bbe5d903c8eab218e">MR_Cylinder3d_Destroy</a> (const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="memdesc:a3957a55a3fc8c56bbe5d903c8eab218e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6" title="A class describing a cylinder as a mathematical object. A cylinder is represented by a centerline,...">MR_Cylinder3d</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:aa8b499ea7d9ed3e8f885315bdff4199b" id="r_aa8b499ea7d9ed3e8f885315bdff4199b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8b499ea7d9ed3e8f885315bdff4199b">MR_Cylinder3d_DestroyArray</a> (const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="memdesc:aa8b499ea7d9ed3e8f885315bdff4199b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6" title="A class describing a cylinder as a mathematical object. A cylinder is represented by a centerline,...">MR_Cylinder3d</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a77be0a859a19cabe4553a6cac2c489cd" id="r_a77be0a859a19cabe4553a6cac2c489cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77be0a859a19cabe4553a6cac2c489cd">MR_Cylinder3d_AssignFromAnother</a> (<a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this, const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_other)</td></tr>
+<tr class="memitem:a2959f6cd6877f24a8773ec527655e98c" id="r_a2959f6cd6877f24a8773ec527655e98c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2959f6cd6877f24a8773ec527655e98c">MR_Cylinder3d_center_mut</a> (<a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="memitem:a1767f1f1176fe85016362988a441abac" id="r_a1767f1f1176fe85016362988a441abac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1767f1f1176fe85016362988a441abac">MR_Cylinder3d_center</a> (const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="memitem:a761bc064fa5d4ee9787296289985f747" id="r_a761bc064fa5d4ee9787296289985f747"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a761bc064fa5d4ee9787296289985f747">MR_Cylinder3d_direction_mut</a> (<a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="memitem:af0e59472aa0b2d597bcd29c3e8e5bc95" id="r_af0e59472aa0b2d597bcd29c3e8e5bc95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0e59472aa0b2d597bcd29c3e8e5bc95">MR_Cylinder3d_direction</a> (const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="a9d1b221eca1c0b5750d2ca9dedce3ad6" name="a9d1b221eca1c0b5750d2ca9dedce3ad6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">&#9670;&#160;</a></span>MR_Cylinder3d</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>A class describing a cylinder as a mathematical object. A cylinder is represented by a centerline, a radius, and a length. </p>
-<p>Generated from class <span class="tt">MR::Cylinder3d</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
-
-</div>
-</div>
 <a id="a0c5f105c6381a1539730147b6aba3709" name="a0c5f105c6381a1539730147b6aba3709"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c5f105c6381a1539730147b6aba3709">&#9670;&#160;</a></span>MR_Cylinder3f</h2>
 
@@ -244,14 +225,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_AssignFromAnother </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -268,7 +249,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_Cylinder3d_center </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -286,7 +267,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_Cylinder3d_center_mut </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -302,7 +283,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_Construct_3 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_Construct_3 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *</td>          <td class="paramname"><span class="paramname"><em>inAxis</em></span>, </td>
         </tr>
@@ -329,7 +310,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_Construct_4 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_Construct_4 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>inCenter</em></span>, </td>
         </tr>
@@ -361,9 +342,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_ConstructFromAnother </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -379,7 +360,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -397,7 +378,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -417,13 +398,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Cylinder3d_Destroy </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6" title="A class describing a cylinder as a mathematical object. A cylinder is represented by a centerline,...">MR_Cylinder3d</a></span>. Does nothing if the pointer is null. </p>
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6" title="A class describing a cylinder as a mathematical object. A cylinder is represented by a centerline,...">MR_Cylinder3d</a></span>. Does nothing if the pointer is null. </p>
 
 </div>
 </div>
@@ -436,13 +417,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Cylinder3d_DestroyArray </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6" title="A class describing a cylinder as a mathematical object. A cylinder is represented by a centerline,...">MR_Cylinder3d</a></span>. Does nothing if the pointer is null. </p>
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6" title="A class describing a cylinder as a mathematical object. A cylinder is represented by a centerline,...">MR_Cylinder3d</a></span>. Does nothing if the pointer is null. </p>
 
 </div>
 </div>
@@ -455,7 +436,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_Cylinder3d_direction </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -473,7 +454,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_Cylinder3d_direction_mut </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -491,7 +472,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double * MR_Cylinder3d_Get_length </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -509,7 +490,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> * MR_Cylinder3d_Get_mainAxis </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -527,7 +508,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double * MR_Cylinder3d_Get_radius </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -545,7 +526,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double * MR_Cylinder3d_GetMutable_length </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -563,7 +544,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> * MR_Cylinder3d_GetMutable_mainAxis </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -581,7 +562,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double * MR_Cylinder3d_GetMutable_radius </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -597,9 +578,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_OffsetMutablePtr </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -619,9 +600,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_OffsetPtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_OffsetPtr </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -643,7 +624,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Cylinder3d_Set_length </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -665,7 +646,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Cylinder3d_Set_mainAxis </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -687,7 +668,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Cylinder3d_Set_radius </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

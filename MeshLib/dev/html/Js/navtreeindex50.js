@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"classNesting_1_1TetrisDensifyOptions.html#a3c7b377fbc9872803794f229cb4439b1":[9,4,1,0,7,9,8],
+"classNesting_1_1TetrisDensifyOptions.html#a599e71a33324623c3af03dc2a41f249d":[9,4,0,0,19,9,7],
 "classNesting_1_1TetrisDensifyOptions.html#a599e71a33324623c3af03dc2a41f249d":[9,4,1,0,7,9,7],
 "classNesting_1_1TetrisDensifyOptions.html#a7c60deeea775c54369098475cf81d0b0":[9,4,0,0,19,9,3],
 "classNesting_1_1TetrisDensifyOptions.html#a7c60deeea775c54369098475cf81d0b0":[9,4,1,0,7,9,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "classNoDefInit__MR__PixelId.html#a7b2b23cf41c0dcac8da6bdf175981494":[9,4,1,0,629,6],
 "classNoDefInit__MR__PixelId.html#a86bcaffd49336c75b9e621920905be11":[9,4,1,0,629,12],
 "classNoDefInit__MR__PixelId.html#a89c931a6ba4f61e1b270f1363b81fa0c":[9,4,1,0,629,7],
-"classNoDefInit__MR__PixelId.html#ab961447968d4696f8ded3d011ed5bf01":[9,4,1,0,629,4],
-"classNoDefInit__MR__PixelId.html#af9d7fc1fa0c158e377d37a281eb796e6":[9,4,1,0,629,13],
-"classNoDefInit__MR__PixelId.html#aff340e867675b8e8bd1dece9cb839bd8":[9,4,1,0,629,1]
+"classNoDefInit__MR__PixelId.html#ab961447968d4696f8ded3d011ed5bf01":[9,4,1,0,629,4]
 };

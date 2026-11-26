@@ -1,5 +1,7 @@
 var NAVTREEINDEX138 =
 {
+"classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#a7ce942ec03f179077d647f68391806fb":[9,4,1,0,1350,12],
+"classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#a8fe1130a1114023c6c69a873bde9f5f4":[9,4,1,0,1350,16],
 "classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#a93ed2636f2e9ce187b775b55f40e70fe":[9,4,1,0,1350,14],
 "classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#aaf1bb6a5f8dcc5ee44e7bac4704c6135":[9,4,1,0,1350,13],
 "classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#ab4e81cc7513fa3150c850eea9bf882c0":[9,4,1,0,1350,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX138 =
 "classstd__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo.html#a47284b88c64ee94f64d4c979c081a022":[9,4,1,0,1361,14],
 "classstd__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo.html#a4770c697880badb4fc96f8b1a408ef0c":[9,4,1,0,1361,13],
 "classstd__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo.html#a4c796084591c9360ffadebb72cb0a6b2":[9,4,1,0,1361,6],
-"classstd__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo.html#a52532595f1d9187931ec0c829615a0d4":[9,4,1,0,1361,17],
-"classstd__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo.html#a6f0bb3880d455c0e8e65d3cd13a9ec87":[9,4,1,0,1361,18],
-"classstd__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo.html#a74a00e64f6ef33d2dcc78562d8d5a709":[9,4,1,0,1361,5]
+"classstd__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo.html#a52532595f1d9187931ec0c829615a0d4":[9,4,1,0,1361,17]
 };

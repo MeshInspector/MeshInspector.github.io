@@ -1,5 +1,8 @@
 var NAVTREEINDEX31 =
 {
+"MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483":[9,2,2,0,0,0,0,1,66,0],
+"MRContoursStitch_8h.html#acaef55d0b7de9fd1c826b83e7b600d5d":[9,2,2,0,0,0,0,1,66,1],
+"MRContoursStitch_8h.html#ad9d3276c7ed3ba6975588ec16363c533":[9,2,2,0,0,0,0,1,66,2],
 "MRContoursStitch_8h_source.html":[9,2,2,0,0,0,0,1,66],
 "MRConvexHull_8h.html":[9,2,2,0,0,0,0,1,67],
 "MRConvexHull_8h.html#a5d06a16d6aac7eafa827eadcc7e29e58":[9,2,2,0,0,0,0,1,67,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX31 =
 "MRCudaFastWindingNumber_8h_source.html":[9,2,2,0,0,1,0,0,4],
 "MRCudaMeshDistanceMap_8h.html":[9,2,2,0,0,1,0,0,5],
 "MRCudaMeshDistanceMap_8h.html#aa9dd662e7996818e2ea8b44516892b41":[9,2,2,0,0,1,0,0,5,0],
-"MRCudaMeshDistanceMap_8h.html#ac513bbed34e4494b882b0443a98e5bf3":[9,2,2,0,0,1,0,0,5,1],
-"MRCudaMeshDistanceMap_8h_source.html":[9,2,2,0,0,1,0,0,5],
-"MRCudaPointsProject_8h.html":[9,2,2,0,0,1,0,0,6],
-"MRCudaPointsProject_8h.html#a01ab7b89cad12bf91a441958a156101e":[9,2,2,0,0,1,0,0,6,14]
+"MRCudaMeshDistanceMap_8h.html#ac513bbed34e4494b882b0443a98e5bf3":[9,2,2,0,0,1,0,0,5,1]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1BooleanParameters.html#a3c9ab9ed36085974e0aedcdba8ee7b0c":[9,0,1,0,1,108,6],
+"structMR_1_1BooleanParameters.html#a3c9ab9ed36085974e0aedcdba8ee7b0c":[9,0,2,0,1,88,6],
 "structMR_1_1BooleanParameters.html#a3e10d01aa0e3e192325518ba6d1ea24c":[9,0,1,0,1,108,0],
 "structMR_1_1BooleanParameters.html#a3e10d01aa0e3e192325518ba6d1ea24c":[9,0,2,0,1,88,0],
 "structMR_1_1BooleanParameters.html#a4502c74eb11e7d2d08ea54e0fa153ac1":[9,0,1,0,1,108,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[9,0,2,0,1,203,5],
 "structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[9,0,1,0,1,223,2],
 "structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[9,0,2,0,1,203,2],
-"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[9,0,1,0,1,223,4],
-"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[9,0,2,0,1,203,4],
-"structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[9,0,1,0,1,223,6]
+"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[9,0,1,0,1,223,4]
 };

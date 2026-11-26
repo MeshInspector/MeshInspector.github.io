@@ -1,5 +1,9 @@
 var NAVTREEINDEX182 =
 {
+"classmrmeshpy_1_1SomeLocalTriangulations.html#aa1482015a79edf9856fee8764fddf4aa":[9,1,0,0,2,2207,0],
+"classmrmeshpy_1_1SomeLocalTriangulations.html#aa1482015a79edf9856fee8764fddf4aa":[9,1,1,0,1,2207,0],
+"classmrmeshpy_1_1SomeLocalTriangulations.html#ac38dcae4b2c08ae7fab258444b6800da":[9,1,0,0,2,2207,6],
+"classmrmeshpy_1_1SomeLocalTriangulations.html#ac38dcae4b2c08ae7fab258444b6800da":[9,1,1,0,1,2207,6],
 "classmrmeshpy_1_1SomeLocalTriangulations.html#af2e22a196f54336ee9ee84de15f1f40a":[9,1,0,0,2,2207,5],
 "classmrmeshpy_1_1SomeLocalTriangulations.html#af2e22a196f54336ee9ee84de15f1f40a":[9,1,1,0,1,2207,5],
 "classmrmeshpy_1_1SortIntersectionsData.html":[9,1,0,0,2,2208],
@@ -245,9 +249,5 @@ var NAVTREEINDEX182 =
 "classmrmeshpy_1_1SubdivideFillingSettings.html#af71fc72ecb5d8bc14675be1a57f45873":[9,1,0,0,2,2473,12],
 "classmrmeshpy_1_1SubdivideFillingSettings.html#af71fc72ecb5d8bc14675be1a57f45873":[9,1,1,0,1,2473,12],
 "classmrmeshpy_1_1SubdivideFillingSettings.html#afa2d7ac8888376f46650c46fe18b4056":[9,1,0,0,2,2473,2],
-"classmrmeshpy_1_1SubdivideFillingSettings.html#afa2d7ac8888376f46650c46fe18b4056":[9,1,1,0,1,2473,2],
-"classmrmeshpy_1_1SubdivideSettings.html":[9,1,0,0,2,2474],
-"classmrmeshpy_1_1SubdivideSettings.html":[9,1,1,0,1,2474],
-"classmrmeshpy_1_1SubdivideSettings.html#a0328c23966ab54c890179f10d7332486":[9,1,0,0,2,2474,11],
-"classmrmeshpy_1_1SubdivideSettings.html#a0328c23966ab54c890179f10d7332486":[9,1,1,0,1,2474,11]
+"classmrmeshpy_1_1SubdivideFillingSettings.html#afa2d7ac8888376f46650c46fe18b4056":[9,1,1,0,1,2473,2]
 };

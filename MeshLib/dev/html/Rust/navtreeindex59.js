@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"structmeshlib_1_1FillHoleParams.html#a202d6f759f5f45b759e3d7c87cdcb29f":[9,5,0,0,0,434,8],
+"structmeshlib_1_1FillHoleParams.html#a202d6f759f5f45b759e3d7c87cdcb29f":[9,5,1,0,0,421,8],
 "structmeshlib_1_1FillHoleParams.html#a25792ed3166243f23d7ec21d4c07fb24":[9,5,0,0,0,434,12],
 "structmeshlib_1_1FillHoleParams.html#a25792ed3166243f23d7ec21d4c07fb24":[9,5,1,0,0,421,12],
 "structmeshlib_1_1FillHoleParams.html#a2f7f3e05ab00ca83bbc8baeaa8ef7f56":[9,5,0,0,0,434,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "structmeshlib_1_1FindProjectionOnPointsSettings.html#af435ad56010a5e12235cbdc98bcd42a4":[9,5,0,0,0,443,2],
 "structmeshlib_1_1FindProjectionOnPointsSettings.html#af435ad56010a5e12235cbdc98bcd42a4":[9,5,1,0,0,430,2],
 "structmeshlib_1_1FindProjectionOnPointsSettings.html#afb52b62d295c444ee0f4902655dbe1df":[9,5,0,0,0,443,9],
-"structmeshlib_1_1FindProjectionOnPointsSettings.html#afb52b62d295c444ee0f4902655dbe1df":[9,5,1,0,0,430,9],
-"structmeshlib_1_1FitBSplineSurfaceToMeshSettings.html":[9,5,0,0,0,444],
-"structmeshlib_1_1FitBSplineSurfaceToMeshSettings.html":[9,5,1,0,0,431]
+"structmeshlib_1_1FindProjectionOnPointsSettings.html#afb52b62d295c444ee0f4902655dbe1df":[9,5,1,0,0,430,9]
 };

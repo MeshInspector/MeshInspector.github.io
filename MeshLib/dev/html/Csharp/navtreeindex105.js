@@ -1,5 +1,7 @@
 var NAVTREEINDEX105 =
 {
+"classMR_1_1Cuda_1_1DeviceInfo.html":[9,3,0,0,0,1203,8],
+"classMR_1_1Cuda_1_1DeviceInfo.html#a11540c23bfe5df4433b853029235ad5f":[9,3,0,0,0,1203,8,11],
 "classMR_1_1Cuda_1_1DeviceInfo.html#a4b29477160f3d5b4ab27a91f36c24dcc":[9,3,0,0,0,1203,8,6],
 "classMR_1_1Cuda_1_1DeviceInfo.html#a511c6973291a9a12b4f4b08e9d4db247":[9,3,0,0,0,1203,8,4],
 "classMR_1_1Cuda_1_1DeviceInfo.html#a6e6c4939b6920c688230767ddcfd831f":[9,3,0,0,0,1203,8,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX105 =
 "classMR_1_1DecimateResult.html#aced91d188a3ac295b24ea646bc1b209c":[9,3,0,0,0,1216,7],
 "classMR_1_1DecimateResult.html#ade919f12c7cec4bf8a5d694bb01349a4":[9,3,0,0,0,1216,8],
 "classMR_1_1DecimateSettings.html":[9,3,0,0,0,1217],
-"classMR_1_1DecimateSettings.html#a040958d62d8f9cf6d834297c179c458a":[9,3,0,0,0,1217,18],
-"classMR_1_1DecimateSettings.html#a051e26d6cd8669e3ea6efd9397bd3f4d":[9,3,0,0,0,1217,34],
-"classMR_1_1DecimateSettings.html#a06306ed033b5ccfa3237dab3fb1c3a61":[9,3,0,0,0,1217,11]
+"classMR_1_1DecimateSettings.html#a040958d62d8f9cf6d834297c179c458a":[9,3,0,0,0,1217,18]
 };

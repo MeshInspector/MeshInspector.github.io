@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1Const__CameraPointsTriangulationSettings.html#a0e407c36fa78469fe1ca7aa78250aec3":[9,3,0,0,0,326,4],
+"classMR_1_1Const__CameraPointsTriangulationSettings.html#a0edf56608235ceb82c7d6d7ac0d2a847":[9,3,0,0,0,326,6],
 "classMR_1_1Const__CameraPointsTriangulationSettings.html#a142fdfd62e17635725bf45feacc5b34e":[9,3,0,0,0,326,2],
 "classMR_1_1Const__CameraPointsTriangulationSettings.html#a5ac6a57d2683e4d884c93c3c753fb381":[9,3,0,0,0,326,11],
 "classMR_1_1Const__CameraPointsTriangulationSettings.html#a9f510838d958e4dd3d5b64f942e490ad":[9,3,0,0,0,326,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1Const__ChangeMeshUVCoordsAction.html#ae0a585b8276783a977211d9564550761":[9,3,0,0,0,343,1],
 "classMR_1_1Const__ChangeNameAction.html":[9,3,0,0,0,344],
 "classMR_1_1Const__ChangeNameAction.html#a0ad1ac2006da4ad52808bfc0dc24c18c":[9,3,0,0,0,344,7],
-"classMR_1_1Const__ChangeNameAction.html#a1d8e9f9e23881361af39f6a964377d15":[9,3,0,0,0,344,2],
-"classMR_1_1Const__ChangeNameAction.html#a2acb72c97611cf785252b536e46eb7f1":[9,3,0,0,0,344,6],
-"classMR_1_1Const__ChangeNameAction.html#a33d83463b4459e358c3ba0f81820baf3":[9,3,0,0,0,344,3]
+"classMR_1_1Const__ChangeNameAction.html#a1d8e9f9e23881361af39f6a964377d15":[9,3,0,0,0,344,2]
 };

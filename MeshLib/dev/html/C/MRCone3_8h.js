@@ -1,6 +1,5 @@
 var MRCone3_8h =
 [
-    [ "MR_Cone3d", "MRCone3_8h.html#a549577e1777488686439a92a132547c8", null ],
     [ "MR_Cone3f", "MRCone3_8h.html#a91301ca230f5bfbd7247bd9438081b90", null ],
     [ "MR_Cone3d_apex", "MRCone3_8h.html#af01c1ee67945752336003a692afb0ab2", null ],
     [ "MR_Cone3d_apex_mut", "MRCone3_8h.html#a91b6de421d7a1c33eccbb3f99ac6851e", null ],

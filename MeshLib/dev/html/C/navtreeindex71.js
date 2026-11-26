@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"MRMeshTrimWithPlane_8h.html#a8ceb36d955fc254f765b9c1edf90b42f":[9,2,2,0,0,0,0,1,220,27],
+"MRMeshTrimWithPlane_8h.html#a95b686858ba78b4b189783a2ec3d3478":[9,2,2,0,0,0,0,1,220,15],
 "MRMeshTrimWithPlane_8h.html#a967a9c7084caa0156129eddf120311cf":[9,2,2,0,0,0,0,1,220,28],
 "MRMeshTrimWithPlane_8h.html#a9a5d87da7173cd0915d8dc48e5c38ea2":[9,2,2,0,0,0,0,1,220,34],
 "MRMeshTrimWithPlane_8h.html#a9bbda0f2abfdd8946d40dcb5abb95a63":[9,2,2,0,0,0,0,1,220,24],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "MRMoveMeshToVoxelMaxDeriv_8h.html#a49d1be899adb4d2c41478fdcbb3450da":[9,2,2,0,0,0,0,4,13,120],
 "MRMoveMeshToVoxelMaxDeriv_8h.html#a4bbc5eba0eba49954fb97f57cce5cafb":[9,2,2,0,0,0,0,4,13,65],
 "MRMoveMeshToVoxelMaxDeriv_8h.html#a4c34f6455a2be6bc9830b910b3fa0542":[9,2,2,0,0,0,0,4,13,127],
-"MRMoveMeshToVoxelMaxDeriv_8h.html#a4f8e9dc5cf679b7c8731252ee3d156ef":[9,2,2,0,0,0,0,4,13,13],
-"MRMoveMeshToVoxelMaxDeriv_8h.html#a5010cb5bc5ec595b7e7071177b005cec":[9,2,2,0,0,0,0,4,13,161],
-"MRMoveMeshToVoxelMaxDeriv_8h.html#a5324d56421bdebd481d7548fd7b3cb2b":[9,2,2,0,0,0,0,4,13,163]
+"MRMoveMeshToVoxelMaxDeriv_8h.html#a4f8e9dc5cf679b7c8731252ee3d156ef":[9,2,2,0,0,0,0,4,13,13]
 };

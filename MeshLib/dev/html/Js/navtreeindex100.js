@@ -1,5 +1,7 @@
 var NAVTREEINDEX100 =
 {
+"classWeightedShell_1_1DistanceVolumeCreationParams.html":[9,4,1,0,21,0],
+"classWeightedShell_1_1DistanceVolumeCreationParams.html#a2f2970eb53f61b124beb5e243b194c98":[9,4,0,0,36,0,3],
 "classWeightedShell_1_1DistanceVolumeCreationParams.html#a2f2970eb53f61b124beb5e243b194c98":[9,4,1,0,21,0,3],
 "classWeightedShell_1_1DistanceVolumeCreationParams.html#a46d6c6f4e8ee98a32361c0b80dafeb17":[9,4,0,0,36,0,2],
 "classWeightedShell_1_1DistanceVolumeCreationParams.html#a46d6c6f4e8ee98a32361c0b80dafeb17":[9,4,1,0,21,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX100 =
 "classexpected__MR__DistanceMap__std__string.html#ab9910c1490faa7dcaacdb3a92782f223":[9,4,1,0,285,1],
 "classexpected__MR__FaceBitSet__std__string.html":[9,4,1,0,286],
 "classexpected__MR__FaceBitSet__std__string.html#a08769d8c5a71a7209678fadfbbdb2221":[9,4,1,0,286,1],
-"classexpected__MR__FaceBitSet__std__string.html#a12860607f7a38a5fd7cce26a78935447":[9,4,1,0,286,5],
-"classexpected__MR__FaceBitSet__std__string.html#a20db6053b4c08feb0e7af67904034dc7":[9,4,1,0,286,7],
-"classexpected__MR__FaceBitSet__std__string.html#a3e9854c19d8baa931e862fe7988de203":[9,4,1,0,286,0]
+"classexpected__MR__FaceBitSet__std__string.html#a12860607f7a38a5fd7cce26a78935447":[9,4,1,0,286,5]
 };

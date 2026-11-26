@@ -1,5 +1,7 @@
 var NAVTREEINDEX46 =
 {
+"structmeshlib_1_1DenoiseWithCreasesSettings.html#ac50a06e79887b104aa77f6c5f1bba08c":[9,5,0,0,0,269,11],
+"structmeshlib_1_1DenoiseWithCreasesSettings.html#ac50a06e79887b104aa77f6c5f1bba08c":[9,5,1,0,0,256,11],
 "structmeshlib_1_1DenoiseWithCreasesSettings.html#ad8f3480e55dc2cd6a112b1030d1ec8e1":[9,5,0,0,0,269,1],
 "structmeshlib_1_1DenoiseWithCreasesSettings.html#ad8f3480e55dc2cd6a112b1030d1ec8e1":[9,5,1,0,0,256,1],
 "structmeshlib_1_1DenoiseWithCreasesSettings.html#ae20a5c56083299a21ac35211b4981f25":[9,5,0,0,0,269,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX46 =
 "structmeshlib_1_1DistanceFromWeightedPointsComputeParams.html#a5320a19fdccc5a2e88d11d1e9eca9cfa":[9,5,0,0,0,280,3],
 "structmeshlib_1_1DistanceFromWeightedPointsComputeParams.html#a5320a19fdccc5a2e88d11d1e9eca9cfa":[9,5,1,0,0,267,3],
 "structmeshlib_1_1DistanceFromWeightedPointsComputeParams.html#a569075c7e990716a2b8fdbe595a392e1":[9,5,0,0,0,280,4],
-"structmeshlib_1_1DistanceFromWeightedPointsComputeParams.html#a569075c7e990716a2b8fdbe595a392e1":[9,5,1,0,0,267,4],
-"structmeshlib_1_1DistanceFromWeightedPointsComputeParams.html#a678068c64a7b7269c69f4d7db3332945":[9,5,0,0,0,280,15],
-"structmeshlib_1_1DistanceFromWeightedPointsComputeParams.html#a678068c64a7b7269c69f4d7db3332945":[9,5,1,0,0,267,15]
+"structmeshlib_1_1DistanceFromWeightedPointsComputeParams.html#a569075c7e990716a2b8fdbe595a392e1":[9,5,1,0,0,267,4]
 };

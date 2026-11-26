@@ -1,5 +1,7 @@
 var NAVTREEINDEX112 =
 {
+"classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#a4013cf1e7b00fcba726992d198593c7f":[9,3,0,0,0,1291,9,15,3],
+"classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#a57e76b10aa53cb448c1fb4e9f9bc5cfd":[9,3,0,0,0,1291,9,15,0],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#a8628a38f22d71ae52f6fbcb0080a5344":[9,3,0,0,0,1291,9,15,2],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#ac0b55cf884e6f6a81252808687c1e2a6":[9,3,0,0,0,1291,9,15,1],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane.html":[9,3,0,0,0,1291,9,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX112 =
 "classMR_1_1FindProjectionOnPointsSettings.html#ae3192751bc405bc750438702ff6d3f85":[9,3,0,0,0,1303,2],
 "classMR_1_1FindProjectionOnPointsSettings.html#ae7e68ebe84cce6921c62907010ceda5a":[9,3,0,0,0,1303,4],
 "classMR_1_1FitBSplineSurfaceToMeshSettings.html":[9,3,0,0,0,1304],
-"classMR_1_1FitBSplineSurfaceToMeshSettings.html#a0c7fcf1db01a2bd054c31392a46ac901":[9,3,0,0,0,1304,1],
-"classMR_1_1FitBSplineSurfaceToMeshSettings.html#a4182dfa1daf6ac95549b6f140550b26c":[9,3,0,0,0,1304,0],
-"classMR_1_1FitBSplineSurfaceToMeshSettings.html#a57c1f513ca63d800115234c660a1bf86":[9,3,0,0,0,1304,2]
+"classMR_1_1FitBSplineSurfaceToMeshSettings.html#a0c7fcf1db01a2bd054c31392a46ac901":[9,3,0,0,0,1304,1]
 };

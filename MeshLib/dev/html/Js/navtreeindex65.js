@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"classPolyline2ProjectionWithOffsetResult.html#ae4f343e96729338db7e61e77633e19a6":[9,4,1,0,728,3],
+"classPolyline2ProjectionWithOffsetResult.html#aeaa13d8720fe073e945ec685ee112d12":[9,4,1,0,728,0],
 "classPolyline3.html":[9,4,1,0,729],
 "classPolyline3.html#a099d1605448b2fc124d59148d16e076d":[9,4,1,0,729,23],
 "classPolyline3.html#a0a2aba6338c06a44a0a8d507c4f269b5":[9,4,1,0,729,38],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "classPolynomial__double__0.html#a431cb6f4f7b927661510bbea1f2804cd":[9,4,1,0,743,3],
 "classPolynomial__double__0.html#a6cbf430d78935509c10b8d7c61ac3aed":[9,4,1,0,743,1],
 "classPolynomial__double__0.html#ab3fcfcac92cb93ef65b60b88a8cc0757":[9,4,1,0,743,2],
-"classPolynomial__double__1.html":[9,4,1,0,744],
-"classPolynomial__double__1.html#a1aa5a8c369810dc594584933e0a15137":[9,4,1,0,744,5],
-"classPolynomial__double__1.html#a3aa362c4554a4973784329c641a725d9":[9,4,1,0,744,1]
+"classPolynomial__double__1.html":[9,4,1,0,744]
 };

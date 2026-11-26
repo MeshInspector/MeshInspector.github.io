@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1CameraPointsTriangulationSettings.html#a47a81cede1fdd4902fe097eed17851e1":[9,3,0,0,0,172,0],
+"classMR_1_1CameraPointsTriangulationSettings.html#a5db609413c9dce21ca03c86856e39554":[9,3,0,0,0,172,7],
 "classMR_1_1CameraPointsTriangulationSettings.html#a897da607fd0647d5deca4d0137ed6d28":[9,3,0,0,0,172,5],
 "classMR_1_1CameraPointsTriangulationSettings.html#a90799b21d4856c3561f3d2f83a0ec8ad":[9,3,0,0,0,172,2],
 "classMR_1_1CameraPointsTriangulationSettings.html#acffa15c0615a30b54f0380d9f84bcbfd":[9,3,0,0,0,172,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1ChangePointCloudNormalsAction.html#a99fb827c41967277937cf7fe6808d2e5":[9,3,0,0,0,199,2],
 "classMR_1_1ChangePointCloudNormalsAction.html#aa2251976886e04940bc79fbf6860e9e4":[9,3,0,0,0,199,5],
 "classMR_1_1ChangePointCloudNormalsAction.html#aa7a2aeacaca06768fcba73c554ba8531":[9,3,0,0,0,199,0],
-"classMR_1_1ChangePointCloudNormalsAction.html#ab92d18db62085ec9f6b768b3eabb4d19":[9,3,0,0,0,199,3],
-"classMR_1_1ChangePointCloudNormalsAction.html#ac23c204350a22f16d96579d2dd7c08ab":[9,3,0,0,0,199,6],
-"classMR_1_1ChangePointCloudNormalsAction.html#ad9e478021c187636504d5a8ddaf62903":[9,3,0,0,0,199,7]
+"classMR_1_1ChangePointCloudNormalsAction.html#ab92d18db62085ec9f6b768b3eabb4d19":[9,3,0,0,0,199,3]
 };

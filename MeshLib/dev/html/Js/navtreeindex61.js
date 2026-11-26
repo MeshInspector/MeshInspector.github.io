@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"classPixelBitSet.html#aa7a2cbf518d48fa8241bb0cbc33c26fa":[9,4,1,0,699,60],
+"classPixelBitSet.html#aa97b36ced856f79529f122c9b98d2576":[9,4,1,0,699,51],
 "classPixelBitSet.html#aab19a1ff536d0ced2130804b97779870":[9,4,1,0,699,65],
 "classPixelBitSet.html#aac0be7e9df1b17e203cbf3373606c827":[9,4,1,0,699,12],
 "classPixelBitSet.html#aad42060d5ea82a0555c8d4c532a4ff01":[9,4,1,0,699,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "classPlaneObject.html#a85045989cd63859c2c15ba13676c64c8":[9,4,1,0,704,137],
 "classPlaneObject.html#a85890eb82dbfec61bd003caea1402c8f":[9,4,1,0,704,115],
 "classPlaneObject.html#a8728aca0fffc4b563f82bcb847468f3e":[9,4,1,0,704,55],
-"classPlaneObject.html#a87f90884f0892ef1ba993de0ca10cfe4":[9,4,1,0,704,5],
-"classPlaneObject.html#a8c075eba39114f1c6684b047b2dd8e4f":[9,4,1,0,704,105],
-"classPlaneObject.html#a8c135f953af1205c3fc08de4d55c1b24":[9,4,1,0,704,0]
+"classPlaneObject.html#a87f90884f0892ef1ba993de0ca10cfe4":[9,4,1,0,704,5]
 };

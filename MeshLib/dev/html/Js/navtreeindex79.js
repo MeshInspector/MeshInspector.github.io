@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"classUnitInfo.html#abd163bc079bea3e48dc71151fe48be3d":[9,4,1,0,1455,5],
+"classUnitInfo.html#ad6571e6be1dfd3e1153b7a910de30249":[9,4,1,0,1455,0],
 "classUnitInfo.html#aeb450f75fd55c7fb3c4dafadffbbab60":[9,4,1,0,1455,3],
 "classUnitInfo.html#af2360fb60a65097c9fe367b61a1e83c9":[9,4,1,0,1455,4],
 "classUniteManyMeshesParams.html":[9,4,1,0,1453],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "classVector4__unsigned__char.html#a11c5c07d9dc256b7a12a8bbe31c45599":[9,4,1,0,1472,12],
 "classVector4__unsigned__char.html#a1cb5cbffbed9c7e73198b74253d15d20":[9,4,1,0,1472,2],
 "classVector4__unsigned__char.html#a34b5599523e81c4be7e0787939a498c0":[9,4,1,0,1472,11],
-"classVector4__unsigned__char.html#a48dff376f7345be13f4c369f18093c31":[9,4,1,0,1472,4],
-"classVector4__unsigned__char.html#a4ce0c98b6edfe7d2f12c0900cc77eda3":[9,4,1,0,1472,6],
-"classVector4__unsigned__char.html#a52cfeb3775f82e36ae80028575b08273":[9,4,1,0,1472,0]
+"classVector4__unsigned__char.html#a48dff376f7345be13f4c369f18093c31":[9,4,1,0,1472,4]
 };

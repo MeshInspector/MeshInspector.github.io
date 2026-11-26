@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1Const__ComputePointsToDistanceVolume.html#aedb7b31627b60e645c5cae3ca25594ff":[9,3,0,0,0,377,8],
+"classMR_1_1Const__ComputeSteepestDescentPathSettings.html":[9,3,0,0,0,378],
 "classMR_1_1Const__ComputeSteepestDescentPathSettings.html#a02b607ad524426b1c1f2d9c90cf96a82":[9,3,0,0,0,378,10],
 "classMR_1_1Const__ComputeSteepestDescentPathSettings.html#a04f88a085cca958e5b26cbca92fb4b52":[9,3,0,0,0,378,8],
 "classMR_1_1Const__ComputeSteepestDescentPathSettings.html#a2efc963246ccf11208dffa307b684560":[9,3,0,0,0,378,1],
@@ -29,10 +31,12 @@ var NAVTREEINDEX40 =
 "classMR_1_1Const__ComputeSweptVolumeParameters.html#af4f1405a0183212e11f0ef3169ba4e13":[9,3,0,0,0,379,1],
 "classMR_1_1Const__Cone3ApproximationParams.html":[9,3,0,0,0,380],
 "classMR_1_1Const__Cone3ApproximationParams.html#a4ad08ac3680725471927eb410a9ef5e7":[9,3,0,0,0,380,4],
-"classMR_1_1Const__Cone3ApproximationParams.html#a6aa455b23f10e1f8d2125a2bceefd611":[9,3,0,0,0,380,1],
+"classMR_1_1Const__Cone3ApproximationParams.html#a6e2f0149b0b3bd043baf8b931961d483":[9,3,0,0,0,380,1],
+"classMR_1_1Const__Cone3ApproximationParams.html#a711bbe6e4136bc62cd054ae19a2d7ee5":[9,3,0,0,0,380,13],
 "classMR_1_1Const__Cone3ApproximationParams.html#a79a4e09436947ea85447e16e3aa3d0b3":[9,3,0,0,0,380,7],
 "classMR_1_1Const__Cone3ApproximationParams.html#a80b6c32ef93b00c6b8d26c12b0196215":[9,3,0,0,0,380,0],
 "classMR_1_1Const__Cone3ApproximationParams.html#a87d85e2aafa0c20c35a97213cced41df":[9,3,0,0,0,380,6],
+"classMR_1_1Const__Cone3ApproximationParams.html#ab66aad06cd66b3d3269e98aacc0b18f0":[9,3,0,0,0,380,9],
 "classMR_1_1Const__Cone3ApproximationParams.html#ab81287e4d0fee031c4df8f02077c3021":[9,3,0,0,0,380,5],
 "classMR_1_1Const__Cone3ApproximationParams.html#aba36f80609bfcae7cbdfaf955fac923e":[9,3,0,0,0,380,8],
 "classMR_1_1Const__Cone3ApproximationParams.html#ac5c025bffebfdc646cb83705a86b95a7":[9,3,0,0,0,380,10],
@@ -40,8 +44,6 @@ var NAVTREEINDEX40 =
 "classMR_1_1Const__Cone3ApproximationParams.html#acb380d43252a166f86c752a268488ac5":[9,3,0,0,0,380,3],
 "classMR_1_1Const__Cone3ApproximationParams.html#ad7a1e9bd73c625bc2468f1b1a5f379a6":[9,3,0,0,0,380,2],
 "classMR_1_1Const__Cone3ApproximationParams.html#adea3c44adfa1cfa9de26af898cb09f94":[9,3,0,0,0,380,12],
-"classMR_1_1Const__Cone3ApproximationParams.html#aeda3a6f93465f1aa04801511d035527e":[9,3,0,0,0,380,9],
-"classMR_1_1Const__Cone3ApproximationParams.html#aff545eb21f3d2d55b87d2249cbb8b33a":[9,3,0,0,0,380,13],
 "classMR_1_1Const__Cone3d.html":[9,3,0,0,0,381],
 "classMR_1_1Const__Cone3d.html#a001349d7a991484836eb75ba74a592bf":[9,3,0,0,0,381,14],
 "classMR_1_1Const__Cone3d.html#a2a02e19dd447a3c6589785baf662d89b":[9,3,0,0,0,381,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1Const__ConstantCuspParams.html#adcc4f6a739efdabc50b85721689052e7":[9,3,0,0,0,384,1],
 "classMR_1_1Const__ConstantCuspParams.html#aed2707fa8a79ccd6ec0a6f1d4722f4da":[9,3,0,0,0,384,15],
 "classMR_1_1Const__ConstantCuspParams.html#af07fabe5a564dc566783fb76df72a3a3":[9,3,0,0,0,384,20],
-"classMR_1_1Const__ConstantCuspParams.html#af6c09f5430adb65b8daf83e308f326dd":[9,3,0,0,0,384,43],
-"classMR_1_1Const__ConstantCuspParams.html#af8a655fe488e246ab430f881332c9dab":[9,3,0,0,0,384,30],
-"classMR_1_1Const__ConstantCuspParams.html#afc6422d22b5c798afaa4ef7e5f5bd992":[9,3,0,0,0,384,9]
+"classMR_1_1Const__ConstantCuspParams.html#af6c09f5430adb65b8daf83e308f326dd":[9,3,0,0,0,384,43]
 };

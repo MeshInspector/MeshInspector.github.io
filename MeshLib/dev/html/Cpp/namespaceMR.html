@@ -2535,7 +2535,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a2f3782f5ad36c40649b07a9ac1914cad" id="r_a2f3782f5ad36c40649b07a9ac1914cad"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Cone3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f3782f5ad36c40649b07a9ac1914cad">findBestConeWithAxis</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;points, const Line3d &amp;axis)</td></tr>
 <tr class="memitem:abfcc71f6bb4d87d3836dcda7d9ba95f4" id="r_abfcc71f6bb4d87d3836dcda7d9ba95f4"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Cone3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfcc71f6bb4d87d3836dcda7d9ba95f4">findBestConeByTangentPlanes</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;points, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Plane3d &gt; &amp;tangentPlanes)</td></tr>
 <tr class="memitem:ad4dfa128e6464eb302c8d400b7e50ddb" id="r_ad4dfa128e6464eb302c8d400b7e50ddb"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Torus3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4dfa128e6464eb302c8d400b7e50ddb">findBestTorusWithAxis</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;points, const Line3d &amp;axis)</td></tr>
-<tr class="memitem:a194dbcf206332e1b520aadc94cd1cc14" id="r_a194dbcf206332e1b520aadc94cd1cc14"><td class="memItemLeft" align="right" valign="top">Torus3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a194dbcf206332e1b520aadc94cd1cc14">refineTorus</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;points, const Torus3d &amp;torus)</td></tr>
+<tr class="memitem:a5cf66dec5d826d565c7fc66ea2bd01bb" id="r_a5cf66dec5d826d565c7fc66ea2bd01bb"><td class="memItemLeft" align="right" valign="top">Torus3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cf66dec5d826d565c7fc66ea2bd01bb">refineTorus</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;points, const Torus3d &amp;torus, size_t maxPoints=10000)</td></tr>
+<tr class="memitem:a1d72cbf6d06c8244e54e90eea6f775c8" id="r_a1d72cbf6d06c8244e54e90eea6f775c8"><td class="memItemLeft" align="right" valign="top">Cylinder3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d72cbf6d06c8244e54e90eea6f775c8">refineCylinder</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;points, const Cylinder3d &amp;cylinder, size_t maxPoints=10000)</td></tr>
+<tr class="memitem:ae0e6ba64aaea3c4a2b73a38b4c29cd00" id="r_ae0e6ba64aaea3c4a2b73a38b4c29cd00"><td class="memItemLeft" align="right" valign="top">Cone3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0e6ba64aaea3c4a2b73a38b4c29cd00">refineCone</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;points, const Cone3d &amp;cone, size_t maxPoints=10000)</td></tr>
 <tr class="memitem:ga28db3c5e8ff0f5fe41f51c8376480d75" id="r_ga28db3c5e8ff0f5fe41f51c8376480d75"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga28db3c5e8ff0f5fe41f51c8376480d75">canSolvePolynomial</a> (auto degree)</td></tr>
 <tr class="memitem:ga074ffc418d95b187b57843611aef56d6" id="r_ga074ffc418d95b187b57843611aef56d6"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga074ffc418d95b187b57843611aef56d6">canMinimizePolynomial</a> (auto degree)</td></tr>
 <tr class="memitem:gaba5467b93d277b487924275e34615eb3" id="r_gaba5467b93d277b487924275e34615eb3"><td class="memTemplParams" colspan="2">template&lt;typename To, typename From&gt; </td></tr>
@@ -6129,8 +6131,78 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a194dbcf206332e1b520aadc94cd1cc14" name="a194dbcf206332e1b520aadc94cd1cc14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a194dbcf206332e1b520aadc94cd1cc14">&#9670;&#160;</a></span>refineTorus()</h2>
+<a id="ae0e6ba64aaea3c4a2b73a38b4c29cd00" name="ae0e6ba64aaea3c4a2b73a38b4c29cd00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0e6ba64aaea3c4a2b73a38b4c29cd00">&#9670;&#160;</a></span>refineCone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Cone3d MR::refineCone </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Cone3d &amp;</td>          <td class="paramname"><span class="paramname"><em>cone</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>maxPoints</em></span><span class="paramdefsep"> = </span><span class="paramdefval">10000</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>minimizes the sum of squared distances from the points to the cone by Levenberg-Marquardt method starting from given cone; the distances are measured to the lines of the cone surface passing via the apex, so the points are expected at the side of the apex where the cone is, not behind it; the result is never worse than given cone; the direction of the result is unit, its angle is in [0, pi/2], and its height spans the points; it can be degenerate, so check its angle: about zero if the points are nearly on a cylinder (then the apex is far away), and about pi/2 if they are nearly on a plane; given cone is returned as is (e.g. with not-unit direction or the angle outside [0, pi/2]) for fewer than 7 points, or if the minimization gives not finite values or zero axis; more than maxPoints points are treated as in refineTorus (the minimization has 7 parameters here) </p>
+
+</div>
+</div>
+<a id="a1d72cbf6d06c8244e54e90eea6f775c8" name="a1d72cbf6d06c8244e54e90eea6f775c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d72cbf6d06c8244e54e90eea6f775c8">&#9670;&#160;</a></span>refineCylinder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Cylinder3d MR::refineCylinder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Cylinder3d &amp;</td>          <td class="paramname"><span class="paramname"><em>cylinder</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>maxPoints</em></span><span class="paramdefsep"> = </span><span class="paramdefval">10000</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>minimizes the sum of squared distances from the points to the infinite cylinder by Levenberg-Marquardt method starting from given cylinder; the result is never worse than given cylinder; the direction of the result is unit, and its center and length span the projections of the points on the axis; the radius can be very large if the points are nearly on a plane; given cylinder is returned as is (e.g. with not-unit direction) for fewer than 7 points, or if the minimization gives not finite values or zero axis; more than maxPoints points are treated as in refineTorus (the minimization has 7 parameters here) </p>
+
+</div>
+</div>
+<a id="a5cf66dec5d826d565c7fc66ea2bd01bb" name="a5cf66dec5d826d565c7fc66ea2bd01bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cf66dec5d826d565c7fc66ea2bd01bb">&#9670;&#160;</a></span>refineTorus()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6146,7 +6218,12 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Torus3d &amp;</td>          <td class="paramname"><span class="paramname"><em>torus</em></span>&#160;)</td>
+          <td class="paramtype">const Torus3d &amp;</td>          <td class="paramname"><span class="paramname"><em>torus</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>maxPoints</em></span><span class="paramdefsep"> = </span><span class="paramdefval">10000</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -6155,7 +6232,7 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>minimizes the sum of squared distances from the points to the torus by Levenberg-Marquardt method starting from given torus; the result is never worse than given torus (with unit axis and non-negative radii), which is returned for fewer than 8 points; it can be degenerate, so check its radii: majorRadius is about zero if a sphere fits the points better than any torus, and both radii can be very large if the points are nearly on a cylinder, a cone or a plane </p>
+<p>minimizes the sum of squared distances from the points to the torus by Levenberg-Marquardt method starting from given torus; the result is never worse than given torus (with unit axis and non-negative radii), which is returned for fewer than 8 points; it can be degenerate, so check its radii: majorRadius is about zero if a sphere fits the points better than any torus, and both radii can be very large if the points are nearly on a cylinder, a cone or a plane; if there are more than maxPoints points, then to bound the time only maxPoints of them are used in the minimization: one pseudo-random point from each of maxPoints equal ranges of the points (at least as many as the minimization has parameters, 8 here), and the result is still not worse than given torus for all the points; pass SIZE_MAX to use all the points always </p>
 
 </div>
 </div>

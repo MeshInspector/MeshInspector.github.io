@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"classPointMeasurementObject.html#a73d81a399e6c9f3589de2203a56641e3":[9,4,1,0,712,5],
+"classPointMeasurementObject.html#a746721e77d0c14eecdb10c0b9c0d101d":[9,4,1,0,712,55],
 "classPointMeasurementObject.html#a782fbf1a4b6f6dca10b27905d287ee27":[9,4,1,0,712,72],
 "classPointMeasurementObject.html#a7b4bc4aaa434929d8ea5e77cfc331633":[9,4,1,0,712,73],
 "classPointMeasurementObject.html#a7b9e40b5009c5f6c6c426413ba2ce815":[9,4,1,0,712,30],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "classPointPairs.html#a91a2744aca59a2325381dbc7ee0b9de3":[9,4,1,0,718,2],
 "classPointPairs.html#af6a06163ea30f8d9aa9345f2eafe0f2a":[9,4,1,0,718,7],
 "classPointToPlaneAligningTransform.html":[9,4,1,0,725],
-"classPointToPlaneAligningTransform.html#a05c26e223804cdf4e0dde0ff4129e100":[9,4,1,0,725,14],
-"classPointToPlaneAligningTransform.html#a05d509566f8496af42feb5a097e67a2d":[9,4,1,0,725,11],
-"classPointToPlaneAligningTransform.html#a067a59ec31a822fb20fe0bac62bcc02b":[9,4,1,0,725,10]
+"classPointToPlaneAligningTransform.html#a05c26e223804cdf4e0dde0ff4129e100":[9,4,1,0,725,14]
 };

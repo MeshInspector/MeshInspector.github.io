@@ -1,5 +1,7 @@
 var NAVTREEINDEX204 =
 {
+"structmeshlib_1_1std__optional__MR__Vector3i.html#a989d13f5e6c6bca463858d9992870249":[9,5,1,0,0,1108,2],
+"structmeshlib_1_1std__optional__MR__VertBitSet.html":[9,5,0,0,0,1122],
 "structmeshlib_1_1std__optional__MR__VertBitSet.html":[9,5,1,0,0,1109],
 "structmeshlib_1_1std__optional__MR__VertBitSet.html#a408de5b402ee305a63d26386287b80fc":[9,5,0,0,0,1122,2],
 "structmeshlib_1_1std__optional__MR__VertBitSet.html#a408de5b402ee305a63d26386287b80fc":[9,5,1,0,0,1109,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX204 =
 "structmeshlib_1_1std__pair__MR__Polyline2__MR__AffineXf3f.html#a285cf21671035c8b9c98630d13f64bd2":[9,5,1,0,0,1156,0],
 "structmeshlib_1_1std__pair__MR__Polyline2__MR__AffineXf3f.html#a361fa432b687b800acce073f975485f9":[9,5,0,0,0,1169,3],
 "structmeshlib_1_1std__pair__MR__Polyline2__MR__AffineXf3f.html#a361fa432b687b800acce073f975485f9":[9,5,1,0,0,1156,3],
-"structmeshlib_1_1std__pair__MR__Polyline2__MR__AffineXf3f.html#a511c4d8a8ed6eef2d510320f7e82b519":[9,5,0,0,0,1169,2],
-"structmeshlib_1_1std__pair__MR__Polyline2__MR__AffineXf3f.html#a511c4d8a8ed6eef2d510320f7e82b519":[9,5,1,0,0,1156,2],
-"structmeshlib_1_1std__pair__MR__Polyline2__MR__AffineXf3f.html#a55b457ba560d3bc0ead6c6c22e1d1096":[9,5,0,0,0,1169,4]
+"structmeshlib_1_1std__pair__MR__Polyline2__MR__AffineXf3f.html#a511c4d8a8ed6eef2d510320f7e82b519":[9,5,0,0,0,1169,2]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1Const__DividePointCloudOptionalOutput.html#a67b6f2a72167910ea3505b009e7b5f38":[9,3,0,0,0,433,0],
+"classMR_1_1Const__DividePointCloudOptionalOutput.html#a752ddf08d49916a65e40392f0af0d8cd":[9,3,0,0,0,433,11],
 "classMR_1_1Const__DividePointCloudOptionalOutput.html#a7fc43e2de30a983a093768d8a0651c21":[9,3,0,0,0,433,9],
 "classMR_1_1Const__DividePointCloudOptionalOutput.html#a8bf24a7d1113f862b5e8f5aaabc577f3":[9,3,0,0,0,433,5],
 "classMR_1_1Const__DividePointCloudOptionalOutput.html#aa460a9e7103e74cd84b8d534b67eac82":[9,3,0,0,0,433,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#a54e02adb25d5c16698864f97b0f3c8bb":[9,3,0,0,0,443,11],
 "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#a79092debf6cc436bdf68cf3a9469515c":[9,3,0,0,0,443,13],
 "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#a81922472cd9225def2926ea9825d8868":[9,3,0,0,0,443,8],
-"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#a8f102619988de05bf74e006b5b0198e6":[9,3,0,0,0,443,2],
-"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#aaf6a010d10ba3c43aff99e03dcece285":[9,3,0,0,0,443,12],
-"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#abdd18c7dc92b7e586b7bc886c75592b5":[9,3,0,0,0,443,4]
+"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#a8f102619988de05bf74e006b5b0198e6":[9,3,0,0,0,443,2]
 };

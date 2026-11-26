@@ -14,5 +14,7 @@ var MRBestFit_8rs =
     [ "meshlib::find_best_sphere", "namespacemeshlib.html#ac0a8d59a6942e6f6aaccf5db76fc59a4", null ],
     [ "meshlib::find_best_torus_with_axis", "namespacemeshlib.html#a09b8390261ebf58bca0dd60c51c2902a", null ],
     [ "meshlib::find_revolution_axis", "namespacemeshlib.html#a87627769ff8bf37c4f67e67fbee13c39", null ],
-    [ "meshlib::refine_torus", "namespacemeshlib.html#a4f98a42fde48d2a9dc385c295d1b991a", null ]
+    [ "meshlib::refine_cone", "namespacemeshlib.html#ae78470accda3f21a2a6b139d0ff22c7c", null ],
+    [ "meshlib::refine_cylinder", "namespacemeshlib.html#ae1f316e3a5677fad235d13d3a1d2b948", null ],
+    [ "meshlib::refine_torus", "namespacemeshlib.html#a7744a34fc7603fe9f9c61c288e0be126", null ]
 ];

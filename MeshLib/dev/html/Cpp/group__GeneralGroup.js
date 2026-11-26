@@ -1121,7 +1121,7 @@ var group__GeneralGroup =
       [ "coneFitterType", "group__GeneralGroup.html#ga78abf2b4f9d3845ec382b09ec2c865d3", null ],
       [ "hemisphereSearchPhiResolution", "group__GeneralGroup.html#ga5b47cd0b4ce1e73f079a35fdc80d2850", null ],
       [ "hemisphereSearchThetaResolution", "group__GeneralGroup.html#ga0c389ccce5e8616195da9e724505f8c2", null ],
-      [ "levenbergMarquardtMaxIteration", "group__GeneralGroup.html#ga6c4848e08b47fefbf24a221b15e00329", null ]
+      [ "maxRefinePoints", "group__GeneralGroup.html#ga7a5affb1b03a6519b242978927eb4f25", null ]
     ] ],
     [ "MR::Cone3Approximation< T >", "classMR_1_1Cone3Approximation.html", [
       [ "Cone3Approximation", "group__GeneralGroup.html#ga9d2c7bacbeba26d79da0394635646651", null ],
@@ -1270,7 +1270,7 @@ var group__GeneralGroup =
     [ "MR::Cylinder3Approximation< T >", "classMR_1_1Cylinder3Approximation.html", [
       [ "Cylinder3Approximation", "group__GeneralGroup.html#ga0e4a56fc93e558ba228d4ae40f56fa5b", null ],
       [ "reset", "group__GeneralGroup.html#ga2630eea62fad502665d655fe9fb9a36c", null ],
-      [ "solveGeneral", "group__GeneralGroup.html#gadf91afbbc6b45a1b0a9f992d827b20ea", null ],
+      [ "solveGeneral", "group__GeneralGroup.html#ga0fce94548300141646ad57207dddb804", null ],
       [ "solveSpecificAxis", "group__GeneralGroup.html#ga042c182d2a71ef03c119fc2c70045464", null ]
     ] ],
     [ "MR::CylinderObject", "classMR_1_1CylinderObject.html", [
@@ -16580,7 +16580,7 @@ var group__GeneralGroup =
     [ "MR::smoothSelection", "group__GeneralGroup.html#ga2e5a76df228902b02d151b1955e2ed3b", null ],
     [ "MR::Cone3Approximation::solve", "group__GeneralGroup.html#ga7c6a542eabe69884f78ec5044ab1df50", null ],
     [ "MR::Polynomial::solve", "group__GeneralGroup.html#ga5001ab42785d7fd024f3f75b296a25da", null ],
-    [ "MR::Cylinder3Approximation::solveGeneral", "group__GeneralGroup.html#gadf91afbbc6b45a1b0a9f992d827b20ea", null ],
+    [ "MR::Cylinder3Approximation::solveGeneral", "group__GeneralGroup.html#ga0fce94548300141646ad57207dddb804", null ],
     [ "MR::SymMatrix4::solveLDLT", "group__GeneralGroup.html#ga853aeef2e232f4a9c66b8f565eb4c062", null ],
     [ "MR::Cylinder3Approximation::solveSpecificAxis", "group__GeneralGroup.html#ga042c182d2a71ef03c119fc2c70045464", null ],
     [ "MR::RibbonSchemaLoader::sortFilesByOrder_", "group__GeneralGroup.html#gac6d1ad0e142487c7cb72a4b34a6935fd", null ],
@@ -18414,7 +18414,6 @@ var group__GeneralGroup =
     [ "MR::SaveSettings::lengthUnit", "group__GeneralGroup.html#ga1b152fd38e636ee6803cabaac71794cc", null ],
     [ "MR::MarchingCubesParams::lessInside", "group__GeneralGroup.html#gae07876a5272040c1fd50016127294f07", null ],
     [ "MR::ZlibCompressParams::level", "group__GeneralGroup.html#ga07efb01c2ca421042eac45a5e6ffeb64", null ],
-    [ "MR::Cone3ApproximationParams::levenbergMarquardtMaxIteration", "group__GeneralGroup.html#ga6c4848e08b47fefbf24a221b15e00329", null ],
     [ "MR::UniformSamplingSettings::lexicographicalOrder", "group__GeneralGroup.html#ga7c7a861d6d96b26592bb64ac801d6f43", null ],
     [ "MR::RibbonNotification::lifeTimeSec", "group__GeneralGroup.html#ga9f52a5c95f7b36adb01f422c470f7362", null ],
     [ "MR::ModelRenderParams::lightPos", "group__GeneralGroup.html#ga0e29cb9eb425bcc241a394492f68ca08", null ],
@@ -18526,6 +18525,7 @@ var group__GeneralGroup =
     [ "MR::ArcInterpolationParams::maxRadius", "group__GeneralGroup.html#ga527c4937cd106bad1847ff7adc254bea", null ],
     [ "MR::InSphereSearchSettings::maxRadius", "group__GeneralGroup.html#ga5454ee36cf1aaf8137df2df59f4a4e53", null ],
     [ "MR::SearchPathSettings::maxReduceIters", "group__GeneralGroup.html#gaa176e79c6812cb52b0c1dabdaa2e61c3", null ],
+    [ "MR::Cone3ApproximationParams::maxRefinePoints", "group__GeneralGroup.html#ga7a5affb1b03a6519b242978927eb4f25", null ],
     [ "MR::ObjectPointsHolder::maxRenderingPoints_", "group__GeneralGroup.html#ga1bf94b614f61d0c5f7e7e9128c767f12", null ],
     [ "MR::ObjectPointsHolder::MaxRenderingPointsDefault", "group__GeneralGroup.html#gaaac75458d3d39d711b336b903c273ba0", null ],
     [ "MR::ObjectPointsHolder::MaxRenderingPointsUnlimited", "group__GeneralGroup.html#ga64f6a6f37810695e4b48f8022a5bde9f", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX43 =
 {
+"classMR_1_1Const__DecimateSettings.html#a87f4d035bedb288de6b32f8f6b6aa6c1":[9,3,0,0,0,411,17],
+"classMR_1_1Const__DecimateSettings.html#a927f684d4ec8a3826764295430565dab":[9,3,0,0,0,411,62],
 "classMR_1_1Const__DecimateSettings.html#a9f9a5b2b79b1bfc14c3570811bd98b42":[9,3,0,0,0,411,12],
 "classMR_1_1Const__DecimateSettings.html#aa07a4410f188bbc1af8b3b55218232ab":[9,3,0,0,0,411,69],
 "classMR_1_1Const__DecimateSettings.html#aa4b3b4dd592ad694181074ba6ea99b51":[9,3,0,0,0,411,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "classMR_1_1Const__DistanceFromWeightedPointsParams.html#a090c95b97e84dfabb539f1253393f01a":[9,3,0,0,0,424,6],
 "classMR_1_1Const__DistanceFromWeightedPointsParams.html#a09498abcda8232f5e840e33c78ac4916":[9,3,0,0,0,424,10],
 "classMR_1_1Const__DistanceFromWeightedPointsParams.html#a0bb7cb9c93b3d8825c29f78d953596a1":[9,3,0,0,0,424,9],
-"classMR_1_1Const__DistanceFromWeightedPointsParams.html#a17eb17774c94d0349b8b771a14ef1711":[9,3,0,0,0,424,5],
-"classMR_1_1Const__DistanceFromWeightedPointsParams.html#a21ed4d7aab7a7b81f3bddce7e2f70336":[9,3,0,0,0,424,3],
-"classMR_1_1Const__DistanceFromWeightedPointsParams.html#a347b2c241782dcd131148d3539d6eb6a":[9,3,0,0,0,424,8]
+"classMR_1_1Const__DistanceFromWeightedPointsParams.html#a17eb17774c94d0349b8b771a14ef1711":[9,3,0,0,0,424,5]
 };

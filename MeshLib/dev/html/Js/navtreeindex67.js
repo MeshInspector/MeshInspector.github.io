@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"classQuaterniond.html#ae2c8c57c12860432d7d8deb3fbc87a20":[9,4,1,0,772,25],
+"classQuaterniond.html#ae942d60579d21ed2e95456e53892b78e":[9,4,1,0,772,13],
 "classQuaterniond.html#af0e1d8ce56d0b490cb0024a79858aed3":[9,4,1,0,772,5],
 "classQuaterniond.html#af1ff0a924ef77260d418c91db0315211":[9,4,1,0,772,7],
 "classQuaterniond.html#af4570f444d3750662ed8788d0141712c":[9,4,1,0,772,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "classRefineParameters.html#a5fe6c7e62c0026191baab1c3b1e1d1ba":[9,4,1,0,782,2],
 "classRefineParameters.html#a65fd08bf88d34995d98da436626d87ce":[9,4,1,0,782,7],
 "classRefineParameters.html#a69ab2cb5433e06aaff12abdff9b76a6f":[9,4,1,0,782,5],
-"classRefineParameters.html#a78a150b124c6715cb9956dac0f1c308f":[9,4,1,0,782,9],
-"classRefineParameters.html#aa0b8564ca24abbc76d1e448a0b8e23ef":[9,4,1,0,782,6],
-"classRefineParameters.html#aa3a2a8d3196aa3346ec6860e263eb384":[9,4,1,0,782,3]
+"classRefineParameters.html#a78a150b124c6715cb9956dac0f1c308f":[9,4,1,0,782,9]
 };

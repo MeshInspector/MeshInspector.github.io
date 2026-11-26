@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"classPointToPlaneAligningTransform.html#a05d509566f8496af42feb5a097e67a2d":[9,4,1,0,725,11],
+"classPointToPlaneAligningTransform.html#a067a59ec31a822fb20fe0bac62bcc02b":[9,4,1,0,725,10],
 "classPointToPlaneAligningTransform.html#a0d4725061c74d01242db58b8fa5c7b90":[9,4,1,0,725,1],
 "classPointToPlaneAligningTransform.html#a12be42b13f9b26cd020672dcd7d05f1a":[9,4,1,0,725,19],
 "classPointToPlaneAligningTransform.html#a2196b68a5e12adf3e69a33f50052b998":[9,4,1,0,725,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "classPolyline2ProjectionWithOffsetResult.html#a247c60dd9a8147c0d10ecd7c02238169":[9,4,1,0,728,2],
 "classPolyline2ProjectionWithOffsetResult.html#a569bd1cf704558018da2f2d2dcb8b2fe":[9,4,1,0,728,4],
 "classPolyline2ProjectionWithOffsetResult.html#a570ef368e5a6899a414b49e74afc510b":[9,4,1,0,728,5],
-"classPolyline2ProjectionWithOffsetResult.html#a8958ae917de99e2bc30d608f4b184a0c":[9,4,1,0,728,6],
-"classPolyline2ProjectionWithOffsetResult.html#ae4f343e96729338db7e61e77633e19a6":[9,4,1,0,728,3],
-"classPolyline2ProjectionWithOffsetResult.html#aeaa13d8720fe073e945ec685ee112d12":[9,4,1,0,728,0]
+"classPolyline2ProjectionWithOffsetResult.html#a8958ae917de99e2bc30d608f4b184a0c":[9,4,1,0,728,6]
 };

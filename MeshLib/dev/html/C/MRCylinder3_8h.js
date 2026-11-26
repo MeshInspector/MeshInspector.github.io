@@ -1,6 +1,5 @@
 var MRCylinder3_8h =
 [
-    [ "MR_Cylinder3d", "MRCylinder3_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6", null ],
     [ "MR_Cylinder3f", "MRCylinder3_8h.html#a0c5f105c6381a1539730147b6aba3709", null ],
     [ "MR_Cylinder3d_AssignFromAnother", "MRCylinder3_8h.html#a77be0a859a19cabe4553a6cac2c489cd", null ],
     [ "MR_Cylinder3d_center", "MRCylinder3_8h.html#a1767f1f1176fe85016362988a441abac", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX188 =
 {
+"structmeshlib_1_1filling__surface_1_1tpms_1_1MeshParams.html#ab6bbb2457259392f1e84fbaa4bb04a9c":[9,5,1,0,0,2,1,0,0],
+"structmeshlib_1_1filling__surface_1_1tpms_1_1MeshParams.html#ad006b2f496607596244988a60b9986b2":[9,5,0,0,0,4,1,0,1],
 "structmeshlib_1_1filling__surface_1_1tpms_1_1MeshParams.html#ad006b2f496607596244988a60b9986b2":[9,5,1,0,0,2,1,0,1],
 "structmeshlib_1_1filling__surface_1_1tpms_1_1MeshParams.html#afee6e51d16eac8597192071fe9be175c":[9,5,0,0,0,4,1,0,6],
 "structmeshlib_1_1filling__surface_1_1tpms_1_1MeshParams.html#afee6e51d16eac8597192071fe9be175c":[9,5,1,0,0,2,1,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX188 =
 "structmeshlib_1_1mesh__builder_1_1UniteCloseParams.html#ae46ad1faac8865730266f987cbd5fa86":[9,5,1,0,0,4,4,9],
 "structmeshlib_1_1mesh__builder_1_1UniteCloseParams.html#afa3f9f201c959043b95a582043217d74":[9,5,0,0,0,15,4,16],
 "structmeshlib_1_1mesh__builder_1_1UniteCloseParams.html#afa3f9f201c959043b95a582043217d74":[9,5,1,0,0,4,4,16],
-"structmeshlib_1_1mesh__builder_1_1VertDuplication.html":[9,5,0,0,0,15,5],
-"structmeshlib_1_1mesh__builder_1_1VertDuplication.html":[9,5,1,0,0,4,5],
-"structmeshlib_1_1mesh__builder_1_1VertDuplication.html#a3028a12edf8f14b3b1af43d6c0e6a886":[9,5,0,0,0,15,5,3]
+"structmeshlib_1_1mesh__builder_1_1VertDuplication.html":[9,5,0,0,0,15,5]
 };

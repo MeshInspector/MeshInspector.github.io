@@ -1,5 +1,7 @@
 var MRBestFit_8h =
 [
+    [ "MR_Cone3d", "MRBestFit_8h.html#a549577e1777488686439a92a132547c8", null ],
+    [ "MR_Cylinder3d", "MRBestFit_8h.html#a9d1b221eca1c0b5750d2ca9dedce3ad6", null ],
     [ "MR_Line3d", "MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95", null ],
     [ "MR_Line3f", "MRBestFit_8h.html#aca1d803422d4caa25c56d04a67efbc52", null ],
     [ "MR_Matrix3d", "MRBestFit_8h.html#af75d5aee2f1ffaf5e022bf46adacedaa", null ],
@@ -68,5 +70,7 @@ var MRBestFit_8h =
     [ "MR_PointAccumulator_OffsetMutablePtr", "MRBestFit_8h.html#af79f17995da1217ae5a971f6bc825fc2", null ],
     [ "MR_PointAccumulator_OffsetPtr", "MRBestFit_8h.html#a5e5f36d87eb981ca5c8a3d3cdbe36011", null ],
     [ "MR_PointAccumulator_valid", "MRBestFit_8h.html#a98cf86ec5d992347b4f5bc1ac6d6edf5", null ],
-    [ "MR_refineTorus", "MRBestFit_8h.html#a71e4cd772d99ab607ad757137d06be88", null ]
+    [ "MR_refineCone", "MRBestFit_8h.html#a51988b270700c4ba65825c62de181a67", null ],
+    [ "MR_refineCylinder", "MRBestFit_8h.html#a7858a9187081803b1758b27c498ce85c", null ],
+    [ "MR_refineTorus", "MRBestFit_8h.html#a7d1668789713f85542b05a91fc3fa0ab", null ]
 ];

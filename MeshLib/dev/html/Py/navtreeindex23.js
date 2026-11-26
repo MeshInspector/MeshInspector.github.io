@@ -1,5 +1,9 @@
 var NAVTREEINDEX23 =
 {
+"classmrmeshpy_1_1ConstCNCMachineSettings_1_1RotationAxisName.html#a8071e5964e21b3effc4126f42c4ae5fd":[9,1,0,0,2,698,0,2],
+"classmrmeshpy_1_1ConstCNCMachineSettings_1_1RotationAxisName.html#a8071e5964e21b3effc4126f42c4ae5fd":[9,1,1,0,1,698,0,2],
+"classmrmeshpy_1_1ConstCNCMachineSettings_1_1RotationAxisName.html#afbc56505e8bc1044234778176a24028d":[9,1,0,0,2,698,0,1],
+"classmrmeshpy_1_1ConstCNCMachineSettings_1_1RotationAxisName.html#afbc56505e8bc1044234778176a24028d":[9,1,1,0,1,698,0,1],
 "classmrmeshpy_1_1ConstCNCMachineSettings_1_1RotationAxisName.html#afe2e91ef8bf3dc075fe1989197344cf7":[9,1,0,0,2,698,0,0],
 "classmrmeshpy_1_1ConstCNCMachineSettings_1_1RotationAxisName.html#afe2e91ef8bf3dc075fe1989197344cf7":[9,1,1,0,1,698,0,0],
 "classmrmeshpy_1_1ConstCameraPointsTriangulationSettings.html":[9,1,0,0,2,650],
@@ -245,9 +249,5 @@ var NAVTREEINDEX23 =
 "classmrmeshpy_1_1ConstChangeOnePointInPolylineAction.html#a1b7c9dd7ba5f4d5612dadc4919709121":[9,1,0,0,2,675,0],
 "classmrmeshpy_1_1ConstChangeOnePointInPolylineAction.html#a1b7c9dd7ba5f4d5612dadc4919709121":[9,1,1,0,1,675,0],
 "classmrmeshpy_1_1ConstChangeOnePointInPolylineAction.html#ab3392f6db3de71c5a1ba4f8559b8876b":[9,1,0,0,2,675,2],
-"classmrmeshpy_1_1ConstChangeOnePointInPolylineAction.html#ab3392f6db3de71c5a1ba4f8559b8876b":[9,1,1,0,1,675,2],
-"classmrmeshpy_1_1ConstChangePointCloudAction.html":[9,1,0,0,2,676],
-"classmrmeshpy_1_1ConstChangePointCloudAction.html":[9,1,1,0,1,676],
-"classmrmeshpy_1_1ConstChangePointCloudAction.html#a5dec1c3087447b710c82297841135b95":[9,1,0,0,2,676,1],
-"classmrmeshpy_1_1ConstChangePointCloudAction.html#a5dec1c3087447b710c82297841135b95":[9,1,1,0,1,676,1]
+"classmrmeshpy_1_1ConstChangeOnePointInPolylineAction.html#ab3392f6db3de71c5a1ba4f8559b8876b":[9,1,1,0,1,675,2]
 };

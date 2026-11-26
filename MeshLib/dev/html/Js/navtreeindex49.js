@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"classMovementBuildBodyParams.html#a64e40fb0874698aefdaccb6b05994d0b":[9,4,1,0,590,4],
+"classMovementBuildBodyParams.html#a712818d0e91aa6fbeae6db04ed05e004":[9,4,1,0,590,10],
 "classMovementBuildBodyParams.html#a863ecd5c8870fefa23c94012a9d444bc":[9,4,1,0,590,0],
 "classMovementBuildBodyParams.html#af1c720f147fac81968b70f9ba5448e4a":[9,4,1,0,590,2],
 "classMovementBuildBodyParams.html#afc82e47f094896211e2b12ac93c663e7":[9,4,1,0,590,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "classNesting_1_1TetrisDensifyOptions.html#a1838cc5357f9f7c702eb96bf6c8f090f":[9,4,1,0,7,9,0],
 "classNesting_1_1TetrisDensifyOptions.html#a3536650d293fcb22c8f0900f1e2250e4":[9,4,0,0,19,9,6],
 "classNesting_1_1TetrisDensifyOptions.html#a3536650d293fcb22c8f0900f1e2250e4":[9,4,1,0,7,9,6],
-"classNesting_1_1TetrisDensifyOptions.html#a3c7b377fbc9872803794f229cb4439b1":[9,4,0,0,19,9,8],
-"classNesting_1_1TetrisDensifyOptions.html#a3c7b377fbc9872803794f229cb4439b1":[9,4,1,0,7,9,8],
-"classNesting_1_1TetrisDensifyOptions.html#a599e71a33324623c3af03dc2a41f249d":[9,4,0,0,19,9,7]
+"classNesting_1_1TetrisDensifyOptions.html#a3c7b377fbc9872803794f229cb4439b1":[9,4,0,0,19,9,8]
 };
