@@ -5,6 +5,7 @@ var structMR_1_1RibbonSchema =
     [ "updateCaptions", "group__GeneralGroup.html#ga8af5edf8dcfc7e614da42890828f9e3e", null ],
     [ "defaultQuickAccessList", "group__GeneralGroup.html#ga2001ba5c144da0024d60ad381cb6fc5b", null ],
     [ "groupsMap", "group__GeneralGroup.html#ga55e0334c55b2b6a85bc323a85f88ea10", null ],
+    [ "groupsPriority", "group__GeneralGroup.html#gad848564c05bba5a3d63d783ae17d29d4", null ],
     [ "headerQuickAccessList", "group__GeneralGroup.html#gaff336be3c724c96b01194c689d9bdac9", null ],
     [ "items", "group__GeneralGroup.html#gab33aec85ce2ca0672bc4605ba54e2fe1", null ],
     [ "sceneButtonsList", "group__GeneralGroup.html#ga10236edecf0d4d4b8fe8a8cec7faee6b", null ],

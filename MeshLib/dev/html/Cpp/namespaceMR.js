@@ -1179,6 +1179,7 @@ var namespaceMR =
     [ "GcodeSource", "group__GeneralGroup.html#ga0cc9f139078c5c5597f9bb7465fd7fda", null ],
     [ "GroupOrder", "group__GeneralGroup.html#ga13c6625ef2ade2be056564a39a8474d2", null ],
     [ "GroupsItemsMap", "group__GeneralGroup.html#gad42a75e584073228a798aaddab06e6f4", null ],
+    [ "GroupsPriorityMap", "group__GeneralGroup.html#ga240f0675f632b1a66ba249be68b51fce", null ],
     [ "HashMap", "group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552", null ],
     [ "HashSet", "group__GeneralGroup.html#ga73743648f725f7a8ba67d01ae0e466d5", null ],
     [ "HistoryActionsVector", "group__GeneralGroup.html#ga951264a40637210aff82d6b0e375446f", null ],

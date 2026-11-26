@@ -287,7 +287,8 @@ Tools Visualization Order File</h3>
 <li><b>"Priority"</b> - optional: tabs are ordered by this number</li>
 <li><b>"Groups"</b> - specify groups of tools in single tab, could be new groups or existing ones (specified plugins with less "Order" number)<ul>
 <li><b>"Name"</b> - name of the group (it is not used now)</li>
-<li><b>"List"</b> - list of the tools in this group<ul>
+<li><b>"Priority"</b> - optional: groups in a tab are ordered by this number; a plugin with greater "Order" number can set it for an existing group (0 included)</li>
+<li><b>"List"</b> - list of the tools in this group; a tool that is already in this same group moves to its position here, while other groups keep their copies of it<ul>
 <li><b>"Name"</b> - name of the tool, should be same as in the code and in the <span class="tt">items.json</span> file</li>
 </ul>
 </li>

@@ -219,6 +219,7 @@ var searchData=
   ['gridbypartsfunc_5',['GridByPartsFunc',['../group__GeneralGroup.html#ga5c3de03791425a98b64056f1b16f2caa',1,'MR::IFastWindingNumberByParts']]],
   ['grouporder_6',['GroupOrder',['../group__GeneralGroup.html#ga13c6625ef2ade2be056564a39a8474d2',1,'MR']]],
   ['groupsitemsmap_7',['GroupsItemsMap',['../group__GeneralGroup.html#gad42a75e584073228a798aaddab06e6f4',1,'MR']]],
+  ['groupsprioritymap_8',['GroupsPriorityMap',['../group__GeneralGroup.html#ga240f0675f632b1a66ba249be68b51fce',1,'MR']]],
   ['xfchangedsignal_0',['XfChangedSignal',['../classMR_1_1Object.html#adbe9460ebe355b8838a49e5a8a7d5830',1,'MR::Object']]],
   ['category_0',['Category',['../group__GeneralGroup.html#gacac503f87e678e4a4e1c3541d5915098',1,'MR::ShortcutManager']]],
   ['changebasetype_1',['ChangeBaseType',['../group__GeneralGroup.html#ga42bb0645b55adab533c9287aeff02ad0',1,'MR::VectorTraits::ChangeBaseType'],['../group__GeneralGroup.html#ga23e6bf37742e57ceeb89a472fc5828c0',1,'MR::VectorTraits&lt; Vector2&lt; T &gt; &gt;::ChangeBaseType'],['../group__GeneralGroup.html#ga5fd55f8cb6c26f1a29d3ba4b2c809a3b',1,'MR::VectorTraits&lt; Vector3&lt; T &gt; &gt;::ChangeBaseType'],['../group__GeneralGroup.html#ga851975d6696d5dd1f84296e6f1420c48',1,'MR::VectorTraits&lt; Vector4&lt; T &gt; &gt;::ChangeBaseType'],['../group__GeneralGroup.html#ga2eddd5b493699059c72e5edaf944e3f5',1,'MR::VectorTraits&lt; ImVec2 &gt;::ChangeBaseType'],['../group__GeneralGroup.html#ga7a34fb83d68aa2fcc53694b08e464479',1,'MR::VectorTraits&lt; ImVec4 &gt;::ChangeBaseType']]],
