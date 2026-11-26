@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"classBitSet.html#ab9767ae7ef347d600f25d3007e80297c":[9,4,1,0,72,22],
 "classBitSet.html#abb90111a9496f10a5fe62b44572cec0b":[9,4,1,0,72,17],
 "classBitSet.html#abe5d6f5656cfff5591b7ef90ed455452":[9,4,1,0,72,56],
 "classBitSet.html#ac45e40bebdf5c87da0d8ca441094ab7c":[9,4,1,0,72,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "classBox1i64.html#ac8a16030af96cbd07bf5c54caf48d0e5":[9,4,1,0,98,26],
 "classBox1i64.html#ad406889b2919745e966afa08ee38b4c4":[9,4,1,0,98,28],
 "classBox1i64.html#ad7b8254b399d0e7155a878b15dcdbc57":[9,4,1,0,98,31],
-"classBox1i64.html#ae0bd488e100dce43c3d8b7ff91e0bcc2":[9,4,1,0,98,19],
-"classBox1i64.html#af0361d54b9852e2bb694b2876d256bb7":[9,4,1,0,98,5]
+"classBox1i64.html#ae0bd488e100dce43c3d8b7ff91e0bcc2":[9,4,1,0,98,19]
 };

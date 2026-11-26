@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId.html#af111ab589eb26508f5f55c6448a7b819":[9,3,0,0,0,311,3],
+"classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId.html#af6651fb06f9b05a1123d82c40df890c9":[9,3,0,0,0,311,11],
 "classMR_1_1Const__Buffer__MRGraphVertId__MRGraphVertId.html#afc10439971a5265e8c8e0e4e8bbc8af7":[9,3,0,0,0,311,6],
 "classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html":[9,3,0,0,0,312],
 "classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a120dca78894ca60dd885c7b426b8bb7a":[9,3,0,0,0,312,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1Const__CameraPointsTriangulationSettings.html#a0a377ba24f0c1b643898d57ce0f0fc14":[9,3,0,0,0,326,12],
 "classMR_1_1Const__CameraPointsTriangulationSettings.html#a0b81644a972d0296cb7055b65bcbd7bd":[9,3,0,0,0,326,7],
 "classMR_1_1Const__CameraPointsTriangulationSettings.html#a0e407c36fa78469fe1ca7aa78250aec3":[9,3,0,0,0,326,4],
-"classMR_1_1Const__CameraPointsTriangulationSettings.html#a0edf56608235ceb82c7d6d7ac0d2a847":[9,3,0,0,0,326,6],
-"classMR_1_1Const__CameraPointsTriangulationSettings.html#a142fdfd62e17635725bf45feacc5b34e":[9,3,0,0,0,326,2],
-"classMR_1_1Const__CameraPointsTriangulationSettings.html#a5ac6a57d2683e4d884c93c3c753fb381":[9,3,0,0,0,326,11]
+"classMR_1_1Const__CameraPointsTriangulationSettings.html#a0edf56608235ceb82c7d6d7ac0d2a847":[9,3,0,0,0,326,6]
 };

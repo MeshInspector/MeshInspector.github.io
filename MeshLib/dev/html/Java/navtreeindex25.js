@@ -1,5 +1,7 @@
 var NAVTREEINDEX25 =
 {
+"classmeshlib_1_1CNCMachineSettings__RotationAxisName.html#af013032800b7e96cb3e62c0e223a8205":[9,6,1,0,0,211,1],
+"classmeshlib_1_1CameraPointsTriangulationSettings.html":[9,6,0,0,0,160],
 "classmeshlib_1_1CameraPointsTriangulationSettings.html":[9,6,1,0,0,160],
 "classmeshlib_1_1CameraPointsTriangulationSettings.html#a0c33eb90beb7130f0f913f896c8bafbc":[9,6,0,0,0,160,2],
 "classmeshlib_1_1CameraPointsTriangulationSettings.html#a0c33eb90beb7130f0f913f896c8bafbc":[9,6,1,0,0,160,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX25 =
 "classmeshlib_1_1ChangeMeshEdgeSelectionAction.html#a295b5f31496becee3091c95a536e8b3e":[9,6,1,0,0,172,3],
 "classmeshlib_1_1ChangeMeshEdgeSelectionAction.html#a3ceca50dd20302c10b1b32de922ceb68":[9,6,0,0,0,172,6],
 "classmeshlib_1_1ChangeMeshEdgeSelectionAction.html#a3ceca50dd20302c10b1b32de922ceb68":[9,6,1,0,0,172,6],
-"classmeshlib_1_1ChangeMeshEdgeSelectionAction.html#a44f56adcb080bef679f4c725c288e9f2":[9,6,0,0,0,172,2],
-"classmeshlib_1_1ChangeMeshEdgeSelectionAction.html#a44f56adcb080bef679f4c725c288e9f2":[9,6,1,0,0,172,2],
-"classmeshlib_1_1ChangeMeshEdgeSelectionAction.html#a4a219a9b8f75ab54bb9d36c302656be6":[9,6,0,0,0,172,7]
+"classmeshlib_1_1ChangeMeshEdgeSelectionAction.html#a44f56adcb080bef679f4c725c288e9f2":[9,6,0,0,0,172,2]
 };

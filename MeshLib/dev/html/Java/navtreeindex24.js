@@ -1,5 +1,7 @@
 var NAVTREEINDEX24 =
 {
+"classmeshlib_1_1Buffer__MR__VertId.html#ac589d8349b9dd3492df0b9c6fb2906b9":[9,6,1,0,0,154,14],
+"classmeshlib_1_1Buffer__MR__VertId.html#aca0b8b60fa82385c6aa7194dd94414ee":[9,6,0,0,0,154,7],
 "classmeshlib_1_1Buffer__MR__VertId.html#aca0b8b60fa82385c6aa7194dd94414ee":[9,6,1,0,0,154,7],
 "classmeshlib_1_1Buffer__MR__VertId__MR__VertId.html":[9,6,0,0,0,155],
 "classmeshlib_1_1Buffer__MR__VertId__MR__VertId.html":[9,6,1,0,0,155],
@@ -247,7 +249,5 @@ var NAVTREEINDEX24 =
 "classmeshlib_1_1CNCMachineSettings__RotationAxisName.html#a2509c06da4fb802f1cbb7aae11fa2a45":[9,6,1,0,0,211,4],
 "classmeshlib_1_1CNCMachineSettings__RotationAxisName.html#a5343c3981f74bb347cd6629396e72643":[9,6,0,0,0,211,3],
 "classmeshlib_1_1CNCMachineSettings__RotationAxisName.html#a5343c3981f74bb347cd6629396e72643":[9,6,1,0,0,211,3],
-"classmeshlib_1_1CNCMachineSettings__RotationAxisName.html#af013032800b7e96cb3e62c0e223a8205":[9,6,0,0,0,211,1],
-"classmeshlib_1_1CNCMachineSettings__RotationAxisName.html#af013032800b7e96cb3e62c0e223a8205":[9,6,1,0,0,211,1],
-"classmeshlib_1_1CameraPointsTriangulationSettings.html":[9,6,0,0,0,160]
+"classmeshlib_1_1CNCMachineSettings__RotationAxisName.html#af013032800b7e96cb3e62c0e223a8205":[9,6,0,0,0,211,1]
 };

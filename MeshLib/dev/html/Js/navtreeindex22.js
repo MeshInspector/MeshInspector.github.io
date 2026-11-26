@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"classCameraPointsTriangulationSettings.html#ae28cb4eee58a3d77e5cdbb03e9ba5ecb":[9,4,1,0,135,1],
 "classCameraPointsTriangulationSettings.html#af447c776d7fb3e438c470d21c97d694d":[9,4,1,0,135,5],
 "classCameraPointsTriangulationSettings.html#af49f1555916a884b20ca161eb7df1dc5":[9,4,1,0,135,3],
 "classChangVoxelSelectionAction.html":[9,4,1,0,175],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "classChangePolylineAction.html#a10f0a29cf05ed87ab42910980c126015":[9,4,1,0,165,0],
 "classChangePolylineAction.html#a39f41bb4944862f047610490630d21fe":[9,4,1,0,165,3],
 "classChangePolylineAction.html#a79c36d8107094c33096aa6b787a754fc":[9,4,1,0,165,5],
-"classChangePolylineAction.html#a9a89583e1dd3d62dd3cb603f71c85a4c":[9,4,1,0,165,1],
-"classChangePolylineAction.html#aa677a93c5b6a59f6ed4749c36481a5aa":[9,4,1,0,165,2]
+"classChangePolylineAction.html#a9a89583e1dd3d62dd3cb603f71c85a4c":[9,4,1,0,165,1]
 };

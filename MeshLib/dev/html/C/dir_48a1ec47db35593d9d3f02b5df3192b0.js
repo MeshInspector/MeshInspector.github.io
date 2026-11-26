@@ -111,6 +111,7 @@ var dir_48a1ec47db35593d9d3f02b5df3192b0 =
     [ "MRFillContours2D.h", "MRFillContours2D_8h.html", "MRFillContours2D_8h" ],
     [ "MRFillHoleNicely.h", "MRFillHoleNicely_8h.html", "MRFillHoleNicely_8h" ],
     [ "MRFilterCreaseEdges.h", "MRFilterCreaseEdges_8h.html", "MRFilterCreaseEdges_8h" ],
+    [ "MRFittedBSplineSurface.h", "MRFittedBSplineSurface_8h.html", "MRFittedBSplineSurface_8h" ],
     [ "MRFixSelfIntersections.h", "MRFixSelfIntersections_8h.html", "MRFixSelfIntersections_8h" ],
     [ "MRFreeFormDeformer.h", "MRFreeFormDeformer_8h.html", "MRFreeFormDeformer_8h" ],
     [ "MRGcodeLoad.h", "MRGcodeLoad_8h.html", "MRGcodeLoad_8h" ],

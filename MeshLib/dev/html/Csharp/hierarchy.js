@@ -1016,6 +1016,12 @@ var hierarchy =
       [ "MR.Const_FindProjectionOnPointsSettings", "classMR_1_1Const__FindProjectionOnPointsSettings.html", [
         [ "MR.FindProjectionOnPointsSettings", "classMR_1_1FindProjectionOnPointsSettings.html", null ]
       ] ],
+      [ "MR.Const_FitBSplineSurfaceToMeshSettings", "classMR_1_1Const__FitBSplineSurfaceToMeshSettings.html", [
+        [ "MR.FitBSplineSurfaceToMeshSettings", "classMR_1_1FitBSplineSurfaceToMeshSettings.html", null ]
+      ] ],
+      [ "MR.Const_FittedBSplineSurface", "classMR_1_1Const__FittedBSplineSurface.html", [
+        [ "MR.FittedBSplineSurface", "classMR_1_1FittedBSplineSurface.html", null ]
+      ] ],
       [ "MR.Const_FixCreasesParams", "classMR_1_1Const__FixCreasesParams.html", [
         [ "MR.FixCreasesParams", "classMR_1_1FixCreasesParams.html", null ]
       ] ],
@@ -4147,6 +4153,8 @@ var hierarchy =
       [ "MR.Const_FindOverhangsSettings", "classMR_1_1Const__FindOverhangsSettings.html", null ],
       [ "MR.Const_FindOverlappingSettings", "classMR_1_1Const__FindOverlappingSettings.html", null ],
       [ "MR.Const_FindProjectionOnPointsSettings", "classMR_1_1Const__FindProjectionOnPointsSettings.html", null ],
+      [ "MR.Const_FitBSplineSurfaceToMeshSettings", "classMR_1_1Const__FitBSplineSurfaceToMeshSettings.html", null ],
+      [ "MR.Const_FittedBSplineSurface", "classMR_1_1Const__FittedBSplineSurface.html", null ],
       [ "MR.Const_FixCreasesParams", "classMR_1_1Const__FixCreasesParams.html", null ],
       [ "MR.Const_FixMeshDegeneraciesParams", "classMR_1_1Const__FixMeshDegeneraciesParams.html", null ],
       [ "MR.Const_FloatGrid", "classMR_1_1Const__FloatGrid.html", null ],

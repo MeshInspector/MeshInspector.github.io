@@ -112,6 +112,7 @@ var dir_4a4373b543825dea578dc6d9916dbe56 =
     [ "MRFillContours2D.rs", "MRFillContours2D_8rs.html", "MRFillContours2D_8rs" ],
     [ "MRFillHoleNicely.rs", "MRFillHoleNicely_8rs.html", "MRFillHoleNicely_8rs" ],
     [ "MRFilterCreaseEdges.rs", "MRFilterCreaseEdges_8rs.html", "MRFilterCreaseEdges_8rs" ],
+    [ "MRFittedBSplineSurface.rs", "MRFittedBSplineSurface_8rs.html", "MRFittedBSplineSurface_8rs" ],
     [ "MRFixSelfIntersections.rs", "MRFixSelfIntersections_8rs.html", "MRFixSelfIntersections_8rs" ],
     [ "MRFreeFormDeformer.rs", "MRFreeFormDeformer_8rs.html", "MRFreeFormDeformer_8rs" ],
     [ "MRGcodeLoad.rs", "MRGcodeLoad_8rs.html", "MRGcodeLoad_8rs" ],

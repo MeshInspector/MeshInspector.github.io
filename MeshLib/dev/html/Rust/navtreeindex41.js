@@ -1,5 +1,8 @@
 var NAVTREEINDEX41 =
 {
+"structmeshlib_1_1ContourToDistanceMapParams.html#a8f0332cf55066126976f4dc2294c484e":[9,5,0,0,0,237,11],
+"structmeshlib_1_1ContourToDistanceMapParams.html#a8f0332cf55066126976f4dc2294c484e":[9,5,1,0,0,224,11],
+"structmeshlib_1_1ContourToDistanceMapParams.html#a923689d9582448bc5f9d067ba4e345de":[9,5,0,0,0,237,4],
 "structmeshlib_1_1ContourToDistanceMapParams.html#a923689d9582448bc5f9d067ba4e345de":[9,5,1,0,0,224,4],
 "structmeshlib_1_1ContourToDistanceMapParams.html#a973604bf049ab759dd10d6a1dda05d3e":[9,5,0,0,0,237,9],
 "structmeshlib_1_1ContourToDistanceMapParams.html#a973604bf049ab759dd10d6a1dda05d3e":[9,5,1,0,0,224,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX41 =
 "structmeshlib_1_1CurvePoint.html#a4af8d608196717bd3eac9f26a3609459":[9,5,0,0,0,249,8],
 "structmeshlib_1_1CurvePoint.html#a4af8d608196717bd3eac9f26a3609459":[9,5,1,0,0,236,8],
 "structmeshlib_1_1CurvePoint.html#a5893c8eeccddcb584643694e785a9a45":[9,5,0,0,0,249,7],
-"structmeshlib_1_1CurvePoint.html#a5893c8eeccddcb584643694e785a9a45":[9,5,1,0,0,236,7],
-"structmeshlib_1_1CurvePoint.html#a6e498399a592e2c82f8a9deaf517f1b9":[9,5,0,0,0,249,0],
-"structmeshlib_1_1CurvePoint.html#a6e498399a592e2c82f8a9deaf517f1b9":[9,5,1,0,0,236,0],
-"structmeshlib_1_1CurvePoint.html#aaf1d57039cf7a8029136bab7ab51189d":[9,5,0,0,0,249,2]
+"structmeshlib_1_1CurvePoint.html#a5893c8eeccddcb584643694e785a9a45":[9,5,1,0,0,236,7]
 };

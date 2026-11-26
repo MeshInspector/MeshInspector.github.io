@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"classDistanceMapSaveSettings.html#abc0248ab75b686a30b1c0b98432040f5":[9,4,1,0,245,3],
 "classDistanceMapSaveSettings.html#ac48b5071b007e72dd87e368ac8e30c92":[9,4,1,0,245,4],
 "classDistanceMapSaveSettings.html#adf4be17220b38114434b01e318d21b93":[9,4,1,0,245,2],
 "classDistanceMapToWorld.html":[9,4,1,0,246],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "classEdgeBitSet.html#a1ad1dd82fc18c41675b2b059018c612b":[9,4,1,0,256,35],
 "classEdgeBitSet.html#a2005c1f2714aa10d06893a2c23a7cbcc":[9,4,1,0,256,55],
 "classEdgeBitSet.html#a27f918bc14edee2678c81f65966e4a8c":[9,4,1,0,256,24],
-"classEdgeBitSet.html#a314cc4f36b7b88c490141e4da7af4a52":[9,4,1,0,256,18],
-"classEdgeBitSet.html#a3337d1c32b374d379f64d77e7174e376":[9,4,1,0,256,61]
+"classEdgeBitSet.html#a314cc4f36b7b88c490141e4da7af4a52":[9,4,1,0,256,18]
 };

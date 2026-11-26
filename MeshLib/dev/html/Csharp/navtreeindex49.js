@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"classMR_1_1Const__FeatureObject.html#aa10a1b0c29b326d64b6076939d9b9227":[9,3,0,0,0,478,55],
+"classMR_1_1Const__FeatureObject.html#aa2a382111a134efea2ffec22421401a5":[9,3,0,0,0,478,58],
 "classMR_1_1Const__FeatureObject.html#aa79ce1e3f9e6a73151f05af97300130d":[9,3,0,0,0,478,49],
 "classMR_1_1Const__FeatureObject.html#aa955e7c40c7d550be0b285bd2e32fa5c":[9,3,0,0,0,478,2],
 "classMR_1_1Const__FeatureObject.html#aaa0bda662155a843286fe4cbbd5a2bd8":[9,3,0,0,0,478,82],
@@ -242,12 +244,10 @@ var NAVTREEINDEX49 =
 "classMR_1_1Const__FindProjectionOnPointsSettings.html#aeb74fc30b895fa54ffb113570a375264":[9,3,0,0,0,492,7],
 "classMR_1_1Const__FindProjectionOnPointsSettings.html#afbf445411a620cdfef7b9fdaa05b4d45":[9,3,0,0,0,492,4],
 "classMR_1_1Const__FindProjectionOnPointsSettings.html#aff776183d72b9d88c68e19503d882a86":[9,3,0,0,0,492,5],
-"classMR_1_1Const__FixCreasesParams.html":[9,3,0,0,0,493],
-"classMR_1_1Const__FixCreasesParams.html#a0c89248da85d48d2374069b067c47aef":[9,3,0,0,0,493,1],
-"classMR_1_1Const__FixCreasesParams.html#a180c171543e7d904898a02a8230b96a5":[9,3,0,0,0,493,9],
-"classMR_1_1Const__FixCreasesParams.html#a281514f230f6688e17600e8c92bcab62":[9,3,0,0,0,493,3],
-"classMR_1_1Const__FixCreasesParams.html#a2abca3fa32d35a0292e1940d539f1b98":[9,3,0,0,0,493,0],
-"classMR_1_1Const__FixCreasesParams.html#a300abbe9e41904d6434e0072cf5093c1":[9,3,0,0,0,493,2],
-"classMR_1_1Const__FixCreasesParams.html#a49c83fdd98eb18575d643c0667d8e158":[9,3,0,0,0,493,4],
-"classMR_1_1Const__FixCreasesParams.html#a4bec42a1b48783d71c2523ecdefc208f":[9,3,0,0,0,493,11]
+"classMR_1_1Const__FitBSplineSurfaceToMeshSettings.html":[9,3,0,0,0,493],
+"classMR_1_1Const__FitBSplineSurfaceToMeshSettings.html#a052fc3d4778717b02750e4934c5a06c1":[9,3,0,0,0,493,10],
+"classMR_1_1Const__FitBSplineSurfaceToMeshSettings.html#a0ce5ba952713036f51390703fc334cc5":[9,3,0,0,0,493,8],
+"classMR_1_1Const__FitBSplineSurfaceToMeshSettings.html#a2d592823fd658ae933f6a0bce58ca1da":[9,3,0,0,0,493,9],
+"classMR_1_1Const__FitBSplineSurfaceToMeshSettings.html#a30038c3d83a13a3260033c878641a3da":[9,3,0,0,0,493,5],
+"classMR_1_1Const__FitBSplineSurfaceToMeshSettings.html#a5e92291a0c2569b995b23eae8e34e5c0":[9,3,0,0,0,493,4]
 };

@@ -2081,6 +2081,12 @@ var hierarchy =
     [ "mrmeshpy.ConstFindProjectionOnPointsSettings", "classmrmeshpy_1_1ConstFindProjectionOnPointsSettings.html", [
       [ "mrmeshpy.FindProjectionOnPointsSettings", "classmrmeshpy_1_1FindProjectionOnPointsSettings.html", null ]
     ] ],
+    [ "mrmeshpy.ConstFitBSplineSurfaceToMeshSettings", "classmrmeshpy_1_1ConstFitBSplineSurfaceToMeshSettings.html", [
+      [ "mrmeshpy.FitBSplineSurfaceToMeshSettings", "classmrmeshpy_1_1FitBSplineSurfaceToMeshSettings.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstFittedBSplineSurface", "classmrmeshpy_1_1ConstFittedBSplineSurface.html", [
+      [ "mrmeshpy.FittedBSplineSurface", "classmrmeshpy_1_1FittedBSplineSurface.html", null ]
+    ] ],
     [ "mrmeshpy.ConstFixCreasesParams", "classmrmeshpy_1_1ConstFixCreasesParams.html", [
       [ "mrmeshpy.FixCreasesParams", "classmrmeshpy_1_1FixCreasesParams.html", null ]
     ] ],

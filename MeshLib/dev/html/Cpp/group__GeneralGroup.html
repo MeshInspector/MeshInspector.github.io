@@ -510,6 +510,8 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AOutAttributesFillingSettings" id="r_MR_3A_3AOutAttributesFillingSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1OutAttributesFillingSettings.html">MR::OutAttributesFillingSettings</a></td></tr>
 <tr class="memitem:MR_3A_3AFillHoleNicelySettings" id="r_MR_3A_3AFillHoleNicelySettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FillHoleNicelySettings.html">MR::FillHoleNicelySettings</a></td></tr>
 <tr class="memitem:MR_3A_3AStitchHolesNicelySettings" id="r_MR_3A_3AStitchHolesNicelySettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1StitchHolesNicelySettings.html">MR::StitchHolesNicelySettings</a></td></tr>
+<tr class="memitem:MR_3A_3AFittedBSplineSurface" id="r_MR_3A_3AFittedBSplineSurface"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FittedBSplineSurface.html">MR::FittedBSplineSurface</a></td></tr>
+<tr class="memitem:MR_3A_3AFitBSplineSurfaceToMeshSettings" id="r_MR_3A_3AFitBSplineSurfaceToMeshSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FitBSplineSurfaceToMeshSettings.html">MR::FitBSplineSurfaceToMeshSettings</a></td></tr>
 <tr class="memitem:MR_3A_3ASelfIntersections_3A_3ASettings" id="r_MR_3A_3ASelfIntersections_3A_3ASettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setting set for mesh self-intersections fix.  <a href="structMR_1_1SelfIntersections_1_1Settings.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AFreeFormDeformer" id="r_MR_3A_3AFreeFormDeformer"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FreeFormDeformer.html">MR::FreeFormDeformer</a></td></tr>
@@ -5060,6 +5062,14 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:gab840077428711c450df977dffcef0380"><td class="mdescLeft">&#160;</td><td class="mdescRight">fills a hole in mesh specified by one of its edge, optionally subdivides new patch on smaller triangles, optionally make smooth connection with existing triangles outside the hole  <br /></td></tr>
 <tr class="memitem:ga5b7046fd268a56376489379737381aee" id="r_ga5b7046fd268a56376489379737381aee"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5b7046fd268a56376489379737381aee">MR::stitchHolesNicely</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId hole0Edge, EdgeId hole1Edge, const <a class="el" href="structMR_1_1StitchHolesNicelySettings.html">StitchHolesNicelySettings</a> &amp;settings)</td></tr>
 <tr class="memitem:gad903feed64243051f5347b7fab87f04d" id="r_gad903feed64243051f5347b7fab87f04d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad903feed64243051f5347b7fab87f04d">MR::filterCreaseEdges</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, UndirectedEdgeBitSet &amp;creaseEdges, float critLength, bool filterComponents=true, bool filterBranches=false)</td></tr>
+<tr class="memitem:gaa4c57b8fd82ce41fabcc0f1a4d1d4c20" id="r_gaa4c57b8fd82ce41fabcc0f1a4d1d4c20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa4c57b8fd82ce41fabcc0f1a4d1d4c20">MR::FittedBSplineSurface::buildGrid</a> (int <a class="el" href="#ga306ff1f62992b3eb33c446913b64188a">size</a>=60)</td></tr>
+<tr class="memdesc:gaa4c57b8fd82ce41fabcc0f1a4d1d4c20"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the grid with given number of points along u and v, at least 2; the surface must be valid  <br /></td></tr>
+<tr class="memitem:gada310c2d3870f434a4c4e462f2e75722" id="r_gada310c2d3870f434a4c4e462f2e75722"><td class="memItemLeft" align="right" valign="top">Vector2d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gada310c2d3870f434a4c4e462f2e75722">MR::FittedBSplineSurface::gridUV</a> (int i, int j) const</td></tr>
+<tr class="memdesc:gada310c2d3870f434a4c4e462f2e75722"><td class="mdescLeft">&#160;</td><td class="mdescRight">the parameters of the grid point (i, j): they divide the domain of the surface in ( gridSize - 1 )^2 equal cells  <br /></td></tr>
+<tr class="memitem:ga75ea90d9ab05cfb231182a35c18cc6e2" id="r_ga75ea90d9ab05cfb231182a35c18cc6e2"><td class="memItemLeft" align="right" valign="top">Vector2d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga75ea90d9ab05cfb231182a35c18cc6e2">MR::FittedBSplineSurface::project</a> (const Vector3d &amp;p) const</td></tr>
+<tr class="memitem:ga300744bcd71c0e976d9d4073f0a30c5b" id="r_ga300744bcd71c0e976d9d4073f0a30c5b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga300744bcd71c0e976d9d4073f0a30c5b">MR::FittedBSplineSurface::distanceSq</a> (const Vector3d &amp;p) const</td></tr>
+<tr class="memdesc:ga300744bcd71c0e976d9d4073f0a30c5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">squared distance from given point to the surface point found by project( p )  <br /></td></tr>
+<tr class="memitem:ga77e2edd14bd165925978a920ac1e4353" id="r_ga77e2edd14bd165925978a920ac1e4353"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1FittedBSplineSurface.html">FittedBSplineSurface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga77e2edd14bd165925978a920ac1e4353">MR::fitBSplineSurfaceToMesh</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1FitBSplineSurfaceToMeshSettings.html">FitBSplineSurfaceToMeshSettings</a> &amp;settings={}, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
 <tr class="memitem:ga069e732f3fcc74e807a5de08736596cd" id="r_ga069e732f3fcc74e807a5de08736596cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga069e732f3fcc74e807a5de08736596cd">MR::SelfIntersections::getFaces</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, bool touchIsIntersection=true, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:ga069e732f3fcc74e807a5de08736596cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find all self-intersections faces component-wise.  <br /></td></tr>
 <tr class="memitem:ga2c684aa402a06902dc7ed561e1af613f" id="r_ga2c684aa402a06902dc7ed561e1af613f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2c684aa402a06902dc7ed561e1af613f">MR::SelfIntersections::fix</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1SelfIntersections_1_1Settings.html">Settings</a> &amp;settings)</td></tr>
@@ -12862,6 +12872,17 @@ Variables</h2></td></tr>
 <tr class="memdesc:gad2e68e1f1a6709a037e454b3673663d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">if <span class="tt">smoothCurvature</span> is true and `triangulateOnly is false - these settings are used to smooth new filling  <br /></td></tr>
 <tr class="memitem:gaa0918f73a5da8336e98604cadd4373b1" id="r_gaa0918f73a5da8336e98604cadd4373b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1OutAttributesFillingSettings.html">OutAttributesFillingSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa0918f73a5da8336e98604cadd4373b1">MR::StitchHolesNicelySettings::outAttributes</a></td></tr>
 <tr class="memdesc:gaa0918f73a5da8336e98604cadd4373b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">structure with optional output attributes  <br /></td></tr>
+<tr class="memitem:gad168b88cdab00c57da91d64f62d027e9" id="r_gad168b88cdab00c57da91d64f62d027e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1BSplineSurface.html">BSplineSurface</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad168b88cdab00c57da91d64f62d027e9">MR::FittedBSplineSurface::surface</a></td></tr>
+<tr class="memitem:ga81cc49739904574917315248ac638555" id="r_ga81cc49739904574917315248ac638555"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga81cc49739904574917315248ac638555">MR::FittedBSplineSurface::maxError</a> = 0</td></tr>
+<tr class="memdesc:ga81cc49739904574917315248ac638555"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum distance from the fitted points to the surface; fitBSplineSurfaceToMesh measures it in the mesh vertices only  <br /></td></tr>
+<tr class="memitem:ga29eb363e2ae4322df3b73ad877e5a093" id="r_ga29eb363e2ae4322df3b73ad877e5a093"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga29eb363e2ae4322df3b73ad877e5a093">MR::FittedBSplineSurface::gridSize</a> = 0</td></tr>
+<tr class="memdesc:ga29eb363e2ae4322df3b73ad877e5a093"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of grid points along u and along v  <br /></td></tr>
+<tr class="memitem:gac8f40bf6463b47d519a48005bd00d784" id="r_gac8f40bf6463b47d519a48005bd00d784"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac8f40bf6463b47d519a48005bd00d784">MR::FittedBSplineSurface::grid</a></td></tr>
+<tr class="memdesc:gac8f40bf6463b47d519a48005bd00d784"><td class="mdescLeft">&#160;</td><td class="mdescRight">gridSize * gridSize points of the surface, the point (i, j) with the parameters gridUV( i, j ) has index i * gridSize + j  <br /></td></tr>
+<tr class="memitem:ga61e9f26f84be645f14db5cd6f29048b2" id="r_ga61e9f26f84be645f14db5cd6f29048b2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga61e9f26f84be645f14db5cd6f29048b2">MR::FitBSplineSurfaceToMeshSettings::tolerance</a> = 0</td></tr>
+<tr class="memitem:gaf9fb2894c5301703c0fce77e6b1320be" id="r_gaf9fb2894c5301703c0fce77e6b1320be"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf9fb2894c5301703c0fce77e6b1320be">MR::FitBSplineSurfaceToMeshSettings::margin</a> = 0.06</td></tr>
+<tr class="memitem:ga6df45ce241e93038c6fe0a78b921b14b" id="r_ga6df45ce241e93038c6fe0a78b921b14b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6df45ce241e93038c6fe0a78b921b14b">MR::FitBSplineSurfaceToMeshSettings::smoothing</a> = <a class="el" href="structMR_1_1BSplineSurfaceFitSettings.html">BSplineSurfaceFitSettings</a>{}.smoothing</td></tr>
+<tr class="memdesc:ga6df45ce241e93038c6fe0a78b921b14b"><td class="mdescLeft">&#160;</td><td class="mdescRight">see <a class="el" href="#ga399b1fa181bcd98cd318feccac07677a">BSplineSurfaceFitSettings::smoothing</a>  <br /></td></tr>
 <tr class="memitem:gae5606c4ebbd1f6f3acf27a76862219b0" id="r_gae5606c4ebbd1f6f3acf27a76862219b0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae5606c4ebbd1f6f3acf27a76862219b0">MR::SelfIntersections::Settings::touchIsIntersection</a> = true</td></tr>
 <tr class="memdesc:gae5606c4ebbd1f6f3acf27a76862219b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true then count touching faces as self-intersections.  <br /></td></tr>
 <tr class="memitem:gaface1dd6cc60f50dd76186b73d130994" id="r_gaface1dd6cc60f50dd76186b73d130994"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga89959b4882d33598d9220db080145bc5">Method</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaface1dd6cc60f50dd76186b73d130994">MR::SelfIntersections::Settings::method</a> = <a class="el" href="#gga89959b4882d33598d9220db080145bc5af2901a893d204f609b9d6d6b11a481b4">Method::Relax</a></td></tr>
@@ -40536,6 +40557,27 @@ if all even edges are consistently oriented, then the output contours will be or
 
 </div>
 </div>
+<a id="gaa4c57b8fd82ce41fabcc0f1a4d1d4c20" name="gaa4c57b8fd82ce41fabcc0f1a4d1d4c20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa4c57b8fd82ce41fabcc0f1a4d1d4c20">&#9670;&#160;</a></span>buildGrid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::FittedBSplineSurface::buildGrid </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>size</em></span><span class="paramdefsep"> = </span><span class="paramdefval">60</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRFittedBSplineSurface_8h.html">MRMesh/MRFittedBSplineSurface.h</a>&gt;</code></p>
+
+<p>computes the grid with given number of points along u and v, at least 2; the surface must be valid </p>
+
+</div>
+</div>
 <a id="gabc042ad8f2696ac5c81db13024c97742" name="gabc042ad8f2696ac5c81db13024c97742"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gabc042ad8f2696ac5c81db13024c97742">&#9670;&#160;</a></span>buildGridMesh()</h2>
 
@@ -62184,7 +62226,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gafe7f9b1ee8498444247bc2793cbe7f8c" name="gafe7f9b1ee8498444247bc2793cbe7f8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafe7f9b1ee8498444247bc2793cbe7f8c">&#9670;&#160;</a></span>distanceSq() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafe7f9b1ee8498444247bc2793cbe7f8c">&#9670;&#160;</a></span>distanceSq() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -62217,8 +62259,37 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga300744bcd71c0e976d9d4073f0a30c5b" name="ga300744bcd71c0e976d9d4073f0a30c5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga300744bcd71c0e976d9d4073f0a30c5b">&#9670;&#160;</a></span>distanceSq() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::FittedBSplineSurface::distanceSq </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3d &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRFittedBSplineSurface_8h.html">MRMesh/MRFittedBSplineSurface.h</a>&gt;</code></p>
+
+<p>squared distance from given point to the surface point found by project( p ) </p>
+
+</div>
+</div>
 <a id="ga33b2b7a0c2b8520be3e29171461a15d4" name="ga33b2b7a0c2b8520be3e29171461a15d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga33b2b7a0c2b8520be3e29171461a15d4">&#9670;&#160;</a></span>distanceSq() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga33b2b7a0c2b8520be3e29171461a15d4">&#9670;&#160;</a></span>distanceSq() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -62249,7 +62320,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gac6fe7dcb9fbe192141cde72e7f9a3551" name="gac6fe7dcb9fbe192141cde72e7f9a3551"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac6fe7dcb9fbe192141cde72e7f9a3551">&#9670;&#160;</a></span>distanceSq() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac6fe7dcb9fbe192141cde72e7f9a3551">&#9670;&#160;</a></span>distanceSq() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -62280,7 +62351,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga1b7a343939b1a92e61700fb5bd609b56" name="ga1b7a343939b1a92e61700fb5bd609b56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1b7a343939b1a92e61700fb5bd609b56">&#9670;&#160;</a></span>distanceSq() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1b7a343939b1a92e61700fb5bd609b56">&#9670;&#160;</a></span>distanceSq() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -62313,7 +62384,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga664e7947c3eb5d229c9ceb1c728a6f9b" name="ga664e7947c3eb5d229c9ceb1c728a6f9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga664e7947c3eb5d229c9ceb1c728a6f9b">&#9670;&#160;</a></span>distanceSq() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga664e7947c3eb5d229c9ceb1c728a6f9b">&#9670;&#160;</a></span>distanceSq() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -79281,6 +79352,43 @@ template&lt;typename N&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRBSpline_8h.html">MRMesh/MRBSpline.h</a>&gt;</code></p>
 <p>bicubic B-spline surface over [0, 1] x [0, 1] fitted by least squares to the points with given parameters, expected in this square (outside, the end polynomials are extrapolated): minimizes the sum of weight * squared distance between each point and the surface at its parameters; the solution is unique if smoothing &gt; 0 and no bilinear function of (u, v) but zero vanishes at all points with positive weights (which needs at least 4 points not all on one line), otherwise the control points can be arbitrary; </p><dl class="section return"><dt>Returns</dt><dd>nullopt if numU or numV is less than 4 or the factorization fails </dd></dl>
+
+</div>
+</div>
+<a id="ga77e2edd14bd165925978a920ac1e4353" name="ga77e2edd14bd165925978a920ac1e4353"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga77e2edd14bd165925978a920ac1e4353">&#9670;&#160;</a></span>fitBSplineSurfaceToMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1FittedBSplineSurface.html">FittedBSplineSurface</a> &gt; MR::fitBSplineSurfaceToMesh </td>
+          <td>(</td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1FitBSplineSurfaceToMeshSettings.html">FitBSplineSurfaceToMeshSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRFittedBSplineSurface_8h.html">MRMesh/MRFittedBSplineSurface.h</a>&gt;</code></p>
+<p>approximates a mesh part with disk topology by a bicubic B-spline surface passing near its vertices: the vertices are parametrized by leastSquaresConformalMap rotated to its bounding rectangle of the smallest area with u along the longer side (the triangles of the part are counterclockwise in the parameters, so the normals of the surface and of the part agree), then several times the surface is fitted by fitBSplineSurface and the vertices are projected on it to improve their parameters; additional points with small weights are taken inside the triangles much larger than the typical one; the grid of the returned surface is built, and its maxError is the maximum distance from the vertices of the part; if the part is not one disk (several components, or touching itself in a vertex) then the parametrization can be meaningless, and a surface with large maxError is returned, so pass a disk or check maxError; </p><dl class="section return"><dt>Returns</dt><dd>an error if the part cannot be parametrized, has fewer than 35 vertices (too few for 6x4 control points), the margin is wrong, no fit succeeds, or the operation is canceled via the callback, which gets the progress in one step per tried number of control points </dd></dl>
 
 </div>
 </div>
@@ -105588,6 +105696,39 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRVDBConversions_8h.html">MRVoxels/MRVDBConversions.h</a>&gt;</code></p>
 <p>converts OpenVDB Grid into mesh using Dual Marching Cubes algorithm; deletes grid in the middle to reduce peak memory consumption </p>
+
+</div>
+</div>
+<a id="gada310c2d3870f434a4c4e462f2e75722" name="gada310c2d3870f434a4c4e462f2e75722"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gada310c2d3870f434a4c4e462f2e75722">&#9670;&#160;</a></span>gridUV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2d MR::FittedBSplineSurface::gridUV </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>j</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRFittedBSplineSurface_8h.html">MRMesh/MRFittedBSplineSurface.h</a>&gt;</code></p>
+
+<p>the parameters of the grid point (i, j): they divide the domain of the surface in ( gridSize - 1 )^2 equal cells </p>
 
 </div>
 </div>
@@ -157393,7 +157534,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga2876b81d0f0ccfb26581ad04199ae942" name="ga2876b81d0f0ccfb26581ad04199ae942"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2876b81d0f0ccfb26581ad04199ae942">&#9670;&#160;</a></span>project() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2876b81d0f0ccfb26581ad04199ae942">&#9670;&#160;</a></span>project() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157430,8 +157571,36 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga75ea90d9ab05cfb231182a35c18cc6e2" name="ga75ea90d9ab05cfb231182a35c18cc6e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga75ea90d9ab05cfb231182a35c18cc6e2">&#9670;&#160;</a></span>project() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2d MR::FittedBSplineSurface::project </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3d &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRFittedBSplineSurface_8h.html">MRMesh/MRFittedBSplineSurface.h</a>&gt;</code></p>
+<p>parameters of the surface point closest to given one: <a class="el" href="#ga2876b81d0f0ccfb26581ad04199ae942" title="parameters in the domain of the surface point closest to given one: Gauss-Newton iterations with step...">BSplineSurface::project</a> starting from the closest point of the grid; requires <a class="el" href="#gaa4c57b8fd82ce41fabcc0f1a4d1d4c20" title="computes the grid with given number of points along u and v, at least 2; the surface must be valid">buildGrid()</a> to be called after the last change of the surface; the result is a local minimum of the distance, which can be not the closest point if the surface is strongly curved (e.g. nearly closed, where also the extensions of the fitted part come close to each other), or if the grid is sparse in space relative to the curvature (the grid is regular in the parameters, not in space) </p>
+
+</div>
+</div>
 <a id="gad80390a7c278a694e5d5be75f7679025" name="gad80390a7c278a694e5d5be75f7679025"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad80390a7c278a694e5d5be75f7679025">&#9670;&#160;</a></span>project() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad80390a7c278a694e5d5be75f7679025">&#9670;&#160;</a></span>project() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157462,7 +157631,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga3c50c85a67a6ef9fa20e8e11efbd2ac2" name="ga3c50c85a67a6ef9fa20e8e11efbd2ac2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3c50c85a67a6ef9fa20e8e11efbd2ac2">&#9670;&#160;</a></span>project() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3c50c85a67a6ef9fa20e8e11efbd2ac2">&#9670;&#160;</a></span>project() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157493,7 +157662,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7be349cb025864bef77e267cefdccd28" name="ga7be349cb025864bef77e267cefdccd28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7be349cb025864bef77e267cefdccd28">&#9670;&#160;</a></span>project() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7be349cb025864bef77e267cefdccd28">&#9670;&#160;</a></span>project() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157524,7 +157693,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga4c0f0fb98193d9450e86fcf97e970179" name="ga4c0f0fb98193d9450e86fcf97e970179"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4c0f0fb98193d9450e86fcf97e970179">&#9670;&#160;</a></span>project() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4c0f0fb98193d9450e86fcf97e970179">&#9670;&#160;</a></span>project() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -225359,6 +225528,38 @@ not recommended in most cases </dd></dl>
 
 </div>
 </div>
+<a id="gac8f40bf6463b47d519a48005bd00d784" name="gac8f40bf6463b47d519a48005bd00d784"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac8f40bf6463b47d519a48005bd00d784">&#9670;&#160;</a></span>grid</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;Vector3d&gt; MR::FittedBSplineSurface::grid</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>gridSize * gridSize points of the surface, the point (i, j) with the parameters gridUV( i, j ) has index i * gridSize + j </p>
+
+</div>
+</div>
+<a id="ga29eb363e2ae4322df3b73ad877e5a093" name="ga29eb363e2ae4322df3b73ad877e5a093"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga29eb363e2ae4322df3b73ad877e5a093">&#9670;&#160;</a></span>gridSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::FittedBSplineSurface::gridSize = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the number of grid points along u and along v </p>
+
+</div>
+</div>
 <a id="ga99be55423277b76383706585a2edc2dd" name="ga99be55423277b76383706585a2edc2dd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga99be55423277b76383706585a2edc2dd">&#9670;&#160;</a></span>gridToMeshXf <span class="overload">[1/2]</span></h2>
 
@@ -229047,6 +229248,21 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gaf9fb2894c5301703c0fce77e6b1320be" name="gaf9fb2894c5301703c0fce77e6b1320be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf9fb2894c5301703c0fce77e6b1320be">&#9670;&#160;</a></span>margin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::FitBSplineSurfaceToMeshSettings::margin = 0.06</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the vertices get initial parameters in [margin, 1 - margin]^2 (they can move a little during the fit), and the rest of the domain [0, 1]^2 is a natural extension of the surface; must be in [0, 0.5) </p>
+
+</div>
+</div>
 <a id="gaf4a0eb3a1b2a34ed0c90d37d6e36baa2" name="gaf4a0eb3a1b2a34ed0c90d37d6e36baa2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaf4a0eb3a1b2a34ed0c90d37d6e36baa2">&#9670;&#160;</a></span>marks <span class="overload">[1/2]</span></h2>
 
@@ -229590,7 +229806,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga53477903f660597feae1534ecba5ce74" name="ga53477903f660597feae1534ecba5ce74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga53477903f660597feae1534ecba5ce74">&#9670;&#160;</a></span>maxError</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga53477903f660597feae1534ecba5ce74">&#9670;&#160;</a></span>maxError <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229604,6 +229820,22 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p>Limit from above on the maximum distance from moved vertices to original contour. </p>
+
+</div>
+</div>
+<a id="ga81cc49739904574917315248ac638555" name="ga81cc49739904574917315248ac638555"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga81cc49739904574917315248ac638555">&#9670;&#160;</a></span>maxError <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::FittedBSplineSurface::maxError = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>maximum distance from the fitted points to the surface; fitBSplineSurfaceToMesh measures it in the mesh vertices only </p>
 
 </div>
 </div>
@@ -243142,7 +243374,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga399b1fa181bcd98cd318feccac07677a" name="ga399b1fa181bcd98cd318feccac07677a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga399b1fa181bcd98cd318feccac07677a">&#9670;&#160;</a></span>smoothing</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga399b1fa181bcd98cd318feccac07677a">&#9670;&#160;</a></span>smoothing <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -243153,6 +243385,22 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 <p>the weight of the second differences of the control net relative to the weights of the points, to keep the surface smooth where the points are sparse; the differences are divided by the distances of the Greville abscissae, so they are zero for bilinear functions of (u, v) </p>
+
+</div>
+</div>
+<a id="ga6df45ce241e93038c6fe0a78b921b14b" name="ga6df45ce241e93038c6fe0a78b921b14b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6df45ce241e93038c6fe0a78b921b14b">&#9670;&#160;</a></span>smoothing <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::FitBSplineSurfaceToMeshSettings::smoothing = <a class="el" href="structMR_1_1BSplineSurfaceFitSettings.html">BSplineSurfaceFitSettings</a>{}.smoothing</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>see <a class="el" href="#ga399b1fa181bcd98cd318feccac07677a">BSplineSurfaceFitSettings::smoothing</a> </p>
 
 </div>
 </div>
@@ -244617,6 +244865,20 @@ template&lt;typename T&gt; </div>
 <span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gad168b88cdab00c57da91d64f62d027e9" name="gad168b88cdab00c57da91d64f62d027e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad168b88cdab00c57da91d64f62d027e9">&#9670;&#160;</a></span>surface</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1BSplineSurface.html">BSplineSurface</a> MR::FittedBSplineSurface::surface</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -246281,8 +246543,23 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga61e9f26f84be645f14db5cd6f29048b2" name="ga61e9f26f84be645f14db5cd6f29048b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga61e9f26f84be645f14db5cd6f29048b2">&#9670;&#160;</a></span>tolerance <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::FitBSplineSurfaceToMeshSettings::tolerance = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>surfaces with more and more control points (from 6x4 to 40x8) are fitted until the maximum distance from the vertices is below this value; if it is not reached, then the surface with the smallest distance is returned </p>
+
+</div>
+</div>
 <a id="gaedc03a31de4a9eba015f5f1f99f93c11" name="gaedc03a31de4a9eba015f5f1f99f93c11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaedc03a31de4a9eba015f5f1f99f93c11">&#9670;&#160;</a></span>tolerance <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaedc03a31de4a9eba015f5f1f99f93c11">&#9670;&#160;</a></span>tolerance <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246298,7 +246575,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga3f121ad1c8bf6dae5c94c8fd8db92f3b" name="ga3f121ad1c8bf6dae5c94c8fd8db92f3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3f121ad1c8bf6dae5c94c8fd8db92f3b">&#9670;&#160;</a></span>tolerance <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3f121ad1c8bf6dae5c94c8fd8db92f3b">&#9670;&#160;</a></span>tolerance <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

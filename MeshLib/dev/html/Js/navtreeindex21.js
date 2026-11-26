@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"classBuffer__MR__NodeId__MR__NodeId.html#ac4227790fa2c03f52bd432731fbe27ad":[9,4,1,0,123,14],
 "classBuffer__MR__NodeId__MR__NodeId.html#ad36fe11dab6b4435f7014d3d24dd301b":[9,4,1,0,123,12],
 "classBuffer__MR__NodeId__MR__NodeId.html#af8d47007b7ff3ddc2ac909b39a0598bc":[9,4,1,0,123,10],
 "classBuffer__MR__ObjId__MR__ObjId.html":[9,4,1,0,124],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "classCameraPointsTriangulationSettings.html#a232a5bec92aa00be0f9ca1bec245435b":[9,4,1,0,135,6],
 "classCameraPointsTriangulationSettings.html#a80d8d0e6d5d89595ca4502b0e1be5a32":[9,4,1,0,135,7],
 "classCameraPointsTriangulationSettings.html#aa716ea8a511c688d49c0803de775b6f6":[9,4,1,0,135,2],
-"classCameraPointsTriangulationSettings.html#abaca19b367d6f9cf0df5f70f7b3894a4":[9,4,1,0,135,0],
-"classCameraPointsTriangulationSettings.html#ae28cb4eee58a3d77e5cdbb03e9ba5ecb":[9,4,1,0,135,1]
+"classCameraPointsTriangulationSettings.html#abaca19b367d6f9cf0df5f70f7b3894a4":[9,4,1,0,135,0]
 };

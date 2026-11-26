@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"classAngleMeasurementObject.html#a05302762998eaea3af3a30f16329b041":[9,4,1,0,49,20],
 "classAngleMeasurementObject.html#a06518d3c0384560a48d9a4f666046aaf":[9,4,1,0,49,22],
 "classAngleMeasurementObject.html#a08b7568161450f366db17f8e3ed8c231":[9,4,1,0,49,41],
 "classAngleMeasurementObject.html#a09131915f0c5264a46fb4ef0db57160d":[9,4,1,0,49,45],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classBSplineSurface.html#ae22f987c3e3364977a6b323bcd26e533":[9,4,1,0,112,4],
 "classBSplineSurface.html#ae6695e4adfebe59a34d8ab8a78d75a08":[9,4,1,0,112,12],
 "classBSplineSurface.html#af60ea927d2d52f2bfb5e89555fdbd5de":[9,4,1,0,112,3],
-"classBSplineSurfaceFitSettings.html":[9,4,1,0,113],
-"classBSplineSurfaceFitSettings.html#a04455ce31a137da6cbd447072f3a5d8b":[9,4,1,0,113,6]
+"classBSplineSurfaceFitSettings.html":[9,4,1,0,113]
 };

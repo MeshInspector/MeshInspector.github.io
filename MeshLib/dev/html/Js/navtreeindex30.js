@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"classEdgePathsBuilderT__MR__TrivialMetricToPenalty.html#a497264e56125a9e29aea4e60a0e2db0d":[9,4,1,0,265,2],
 "classEdgePathsBuilderT__MR__TrivialMetricToPenalty.html#a5f64f565a83489615b93cec34062e3e0":[9,4,1,0,265,13],
 "classEdgePathsBuilderT__MR__TrivialMetricToPenalty.html#a764ad8b57e8690de3e7e9f8c5e43f11e":[9,4,1,0,265,6],
 "classEdgePathsBuilderT__MR__TrivialMetricToPenalty.html#a7b16bb5dc89ac2549d99d8be2cd9ff85":[9,4,1,0,265,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "classEndMillCutter.html#a8394df1b51953e0bc43dfa13f0365a4b":[9,4,1,0,277,0],
 "classEndMillCutter.html#ab742db48e2e7c934fe1ae8c333bd95df":[9,4,1,0,277,7],
 "classEndMillCutter.html#ace05c01b4d3e4f302648f7fc45e017fd":[9,4,1,0,277,5],
-"classEndMillCutter.html#ae55f858cdbcd86b107f2bf121738b97d":[9,4,1,0,277,1],
-"classEndMillTool.html":[9,4,1,0,278]
+"classEndMillCutter.html#ae55f858cdbcd86b107f2bf121738b97d":[9,4,1,0,277,1]
 };
