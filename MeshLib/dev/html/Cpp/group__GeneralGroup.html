@@ -337,6 +337,9 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">class to override box nesting metrics  <a href="classMR_1_1Nesting_1_1IBoxNestingPriority.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ANesting_3A_3ABoxNestingOptions" id="r_MR_3A_3ANesting_3A_3ABoxNestingOptions"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Nesting_1_1BoxNestingOptions.html">MR::Nesting::BoxNestingOptions</a></td></tr>
 <tr class="memitem:MR_3A_3ANesting_3A_3ABoxNestingParams" id="r_MR_3A_3ANesting_3A_3ABoxNestingParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Nesting_1_1BoxNestingParams.html">MR::Nesting::BoxNestingParams</a></td></tr>
+<tr class="memitem:MR_3A_3ABSplineCurve" id="r_MR_3A_3ABSplineCurve"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BSplineCurve.html">MR::BSplineCurve</a></td></tr>
+<tr class="memitem:MR_3A_3ABSplineSurface" id="r_MR_3A_3ABSplineSurface"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BSplineSurface.html">MR::BSplineSurface</a></td></tr>
+<tr class="memitem:MR_3A_3ABSplineSurfaceFitSettings" id="r_MR_3A_3ABSplineSurfaceFitSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BSplineSurfaceFitSettings.html">MR::BSplineSurfaceFitSettings</a></td></tr>
 <tr class="memitem:MR_3A_3AZeroOnMove_3C_20T_20_3E" id="r_MR_3A_3AZeroOnMove_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ZeroOnMove.html">MR::ZeroOnMove&lt; T &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3ANoCtor_3C_20T_20_3E" id="r_MR_3A_3ANoCtor_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NoCtor.html">MR::NoCtor&lt; T &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3ANoCtor_3C_20T_20_3E" id="r_MR_3A_3ANoCtor_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1NoCtor_3_01T_01_4.html">MR::NoCtor&lt; T &gt;</a></td></tr>
@@ -3933,6 +3936,23 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8f860a129bbe1a4488d5582755393292" id="r_ga8f860a129bbe1a4488d5582755393292"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8f860a129bbe1a4488d5582755393292">MR::Nesting::fillNestingSocketCorneres</a> (const std::vector&lt; Box3f &gt; &amp;nestedBoxes, std::vector&lt; <a class="el" href="structMR_1_1Nesting_1_1BoxNestingCorner.html">BoxNestingCorner</a> &gt; &amp;outCorners, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memitem:ga1c60cc7888bc27a43856b1dfc9abaefd" id="r_ga1c60cc7888bc27a43856b1dfc9abaefd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1Nesting_1_1NestingResult.html">NestingResult</a>, ObjId &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1c60cc7888bc27a43856b1dfc9abaefd">MR::Nesting::boxNesting</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1Nesting_1_1MeshXf.html">MeshXf</a>, ObjId &gt; &amp;meshes, const <a class="el" href="structMR_1_1Nesting_1_1BoxNestingParams.html">BoxNestingParams</a> &amp;params)</td></tr>
 <tr class="memdesc:ga1c60cc7888bc27a43856b1dfc9abaefd"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds best positions of input meshes to fit the nest (checks them by contacting box corners)  <br /></td></tr>
+<tr class="memitem:ga94930b2b823f3201a063943a02e44fe4" id="r_ga94930b2b823f3201a063943a02e44fe4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga94930b2b823f3201a063943a02e44fe4">MR::BSplineCurve::valid</a> () const</td></tr>
+<tr class="memdesc:ga94930b2b823f3201a063943a02e44fe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the degree is supported, there are more control points than the degree, and the number of knots is as above  <br /></td></tr>
+<tr class="memitem:gae004d8338ee2bdc0309a7b67fbc445db" id="r_gae004d8338ee2bdc0309a7b67fbc445db"><td class="memItemLeft" align="right" valign="top">Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae004d8338ee2bdc0309a7b67fbc445db">MR::BSplineCurve::eval</a> (double t) const</td></tr>
+<tr class="memdesc:gae004d8338ee2bdc0309a7b67fbc445db"><td class="mdescLeft">&#160;</td><td class="mdescRight">the point of the curve at parameter t from [knots[degree], knots[controlPoints.size()]]; zero vector if not <a class="el" href="#ga94930b2b823f3201a063943a02e44fe4" title="whether the degree is supported, there are more control points than the degree, and the number of kno...">valid()</a>  <br /></td></tr>
+<tr class="memitem:gaede12fbda3f5371067a089b9e533160d" id="r_gaede12fbda3f5371067a089b9e533160d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaede12fbda3f5371067a089b9e533160d">MR::BSplineSurface::numU</a> () const</td></tr>
+<tr class="memdesc:gaede12fbda3f5371067a089b9e533160d"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of control points along u and v  <br /></td></tr>
+<tr class="memitem:gab270d22e19d735bf4758e854008e40f5" id="r_gab270d22e19d735bf4758e854008e40f5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab270d22e19d735bf4758e854008e40f5">MR::BSplineSurface::numV</a> () const</td></tr>
+<tr class="memitem:gad84059e7e6bffb1b53f2bcddb6af040f" id="r_gad84059e7e6bffb1b53f2bcddb6af040f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad84059e7e6bffb1b53f2bcddb6af040f">MR::BSplineSurface::valid</a> () const</td></tr>
+<tr class="memdesc:gad84059e7e6bffb1b53f2bcddb6af040f"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the degrees are supported, there are more control points along u and v than the degree, and their total number is as above  <br /></td></tr>
+<tr class="memitem:gac9057922d6a5b0644bd53d0bec2c0268" id="r_gac9057922d6a5b0644bd53d0bec2c0268"><td class="memItemLeft" align="right" valign="top">Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac9057922d6a5b0644bd53d0bec2c0268">MR::BSplineSurface::eval</a> (const Vector2d &amp;uv, Vector3d *du=nullptr, Vector3d *dv=nullptr) const</td></tr>
+<tr class="memdesc:gac9057922d6a5b0644bd53d0bec2c0268"><td class="mdescLeft">&#160;</td><td class="mdescRight">the point of the surface at given parameters, and optionally its partial derivatives; zero vectors if not <a class="el" href="#gad84059e7e6bffb1b53f2bcddb6af040f" title="whether the degrees are supported, there are more control points along u and v than the degree,...">valid()</a>  <br /></td></tr>
+<tr class="memitem:gae2eed7b7d086b0de1e7448cf166bbb6b" id="r_gae2eed7b7d086b0de1e7448cf166bbb6b"><td class="memItemLeft" align="right" valign="top">Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae2eed7b7d086b0de1e7448cf166bbb6b">MR::BSplineSurface::normal</a> (const Vector2d &amp;uv) const</td></tr>
+<tr class="memdesc:gae2eed7b7d086b0de1e7448cf166bbb6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">unit normal of the surface at given parameters: cross( du, dv ) normalized, or zero vector where du and dv are zero or parallel  <br /></td></tr>
+<tr class="memitem:ga2876b81d0f0ccfb26581ad04199ae942" id="r_ga2876b81d0f0ccfb26581ad04199ae942"><td class="memItemLeft" align="right" valign="top">Vector2d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2876b81d0f0ccfb26581ad04199ae942">MR::BSplineSurface::project</a> (const Vector3d &amp;p, Vector2d uv, int iterations=12) const</td></tr>
+<tr class="memdesc:ga2876b81d0f0ccfb26581ad04199ae942"><td class="mdescLeft">&#160;</td><td class="mdescRight">parameters in the domain of the surface point closest to given one: Gauss-Newton iterations with step control from uv clamped to the domain, stopping at rounding errors; given uv if not <a class="el" href="#gad84059e7e6bffb1b53f2bcddb6af040f" title="whether the degrees are supported, there are more control points along u and v than the degree,...">valid()</a>  <br /></td></tr>
+<tr class="memitem:ga2a5f92158d4659670575208fec04978b" id="r_ga2a5f92158d4659670575208fec04978b"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1BSplineCurve.html">BSplineCurve</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2a5f92158d4659670575208fec04978b">MR::interpolateBSplineCurve</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;points)</td></tr>
+<tr class="memitem:ga0ed088bcfb606781ba9bbf0138fad1e5" id="r_ga0ed088bcfb606781ba9bbf0138fad1e5"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1BSplineSurface.html">BSplineSurface</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0ed088bcfb606781ba9bbf0138fad1e5">MR::fitBSplineSurface</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;points, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector2d &gt; &amp;uvs, const <a class="el" href="structMR_1_1BSplineSurfaceFitSettings.html">BSplineSurfaceFitSettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:gaf504ba39107aabf4c055c1a1f651c586" id="r_gaf504ba39107aabf4c055c1a1f651c586"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf504ba39107aabf4c055c1a1f651c586">MR::ZeroOnMove&lt; T &gt;::ZeroOnMove</a> () noexcept</td></tr>
 <tr class="memitem:ga6c54d017113955a26465a32443707c9f" id="r_ga6c54d017113955a26465a32443707c9f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6c54d017113955a26465a32443707c9f">MR::ZeroOnMove&lt; T &gt;::ZeroOnMove</a> (const <a class="el" href="structMR_1_1ZeroOnMove.html">ZeroOnMove</a> &amp;) noexcept=delete</td></tr>
 <tr class="memitem:ga1eb512d1aea6742b0d8392f71ce425a2" id="r_ga1eb512d1aea6742b0d8392f71ce425a2"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1eb512d1aea6742b0d8392f71ce425a2">MR::ZeroOnMove&lt; T &gt;::ZeroOnMove</a> (<a class="el" href="structMR_1_1ZeroOnMove.html">ZeroOnMove</a> &amp;&amp;z) noexcept</td></tr>
@@ -4426,6 +4446,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga511ac76ed53aafae5ab8d337aeaa6795"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns json with content of this config  <br /></td></tr>
 <tr class="memitem:ga534db3261935504b918838858cff437a" id="r_ga534db3261935504b918838858cff437a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga534db3261935504b918838858cff437a">MR::Config::fromJson</a> (const Json::Value &amp;config)</td></tr>
 <tr class="memdesc:ga534db3261935504b918838858cff437a"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace current config content with given one  <br /></td></tr>
+<tr class="memitem:gafa9d13c572a0c0656f5760d77113d479" id="r_gafa9d13c572a0c0656f5760d77113d479"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertUVCoords &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafa9d13c572a0c0656f5760d77113d479">MR::leastSquaresConformalMap</a> (const MeshPart &amp;mp)</td></tr>
 <tr class="memitem:ga0ce0435d606c4d19a79a699eec18f7f2" id="r_ga0ce0435d606c4d19a79a699eec18f7f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0ce0435d606c4d19a79a699eec18f7f2">MR::ConstChildren::Iterator::Iterator</a> ()</td></tr>
 <tr class="memitem:ga3f09a9ae06179320e55182fd08d60238" id="r_ga3f09a9ae06179320e55182fd08d60238"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3f09a9ae06179320e55182fd08d60238">MR::ConstChildren::Iterator::Iterator</a> (Storage::const_iterator it)</td></tr>
 <tr class="memitem:ga9fc8635872b9c08c9cf067bbc26cf8cd" id="r_ga9fc8635872b9c08c9cf067bbc26cf8cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga0582f399e5067aa8b73a82cf10fd6c8f">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9fc8635872b9c08c9cf067bbc26cf8cd">MR::ConstChildren::Iterator::operator*</a> () const</td></tr>
@@ -12478,6 +12499,27 @@ Variables</h2></td></tr>
 <tr class="memdesc:gaa90701ba9a9b2cab452c35a74ff6cc02"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback indicating progress of the nesting  <br /></td></tr>
 <tr class="memitem:gad122019275fa58103f0a4c6c374ce6c4" id="r_gad122019275fa58103f0a4c6c374ce6c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Nesting_1_1NestingBaseParams.html">NestingBaseParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad122019275fa58103f0a4c6c374ce6c4">MR::Nesting::BoxNestingParams::baseParams</a></td></tr>
 <tr class="memitem:ga042471c183280fb8a554f6440fa46388" id="r_ga042471c183280fb8a554f6440fa46388"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Nesting_1_1BoxNestingOptions.html">BoxNestingOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga042471c183280fb8a554f6440fa46388">MR::Nesting::BoxNestingParams::options</a></td></tr>
+<tr class="memitem:ga62ada1a3caa42fcfefa7b4e5569953d9" id="r_ga62ada1a3caa42fcfefa7b4e5569953d9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga62ada1a3caa42fcfefa7b4e5569953d9">MR::BSplineCurve::degree</a> = 3</td></tr>
+<tr class="memdesc:ga62ada1a3caa42fcfefa7b4e5569953d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">from 1 to 7  <br /></td></tr>
+<tr class="memitem:gae4261ff7920587dc62f230552f159516" id="r_gae4261ff7920587dc62f230552f159516"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae4261ff7920587dc62f230552f159516">MR::BSplineCurve::knots</a></td></tr>
+<tr class="memdesc:gae4261ff7920587dc62f230552f159516"><td class="mdescLeft">&#160;</td><td class="mdescRight">non-decreasing, controlPoints.size() + degree + 1 values  <br /></td></tr>
+<tr class="memitem:ga1a1aca4d3fc3e8625b46c7657717b01a" id="r_ga1a1aca4d3fc3e8625b46c7657717b01a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1a1aca4d3fc3e8625b46c7657717b01a">MR::BSplineCurve::controlPoints</a></td></tr>
+<tr class="memitem:ga9e2ba9e700272218ca9e32d120764465" id="r_ga9e2ba9e700272218ca9e32d120764465"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9e2ba9e700272218ca9e32d120764465">MR::BSplineSurface::degreeU</a> = 3</td></tr>
+<tr class="memdesc:ga9e2ba9e700272218ca9e32d120764465"><td class="mdescLeft">&#160;</td><td class="mdescRight">from 1 to 7  <br /></td></tr>
+<tr class="memitem:gad4408f067488b5f45ee3dc3544f62f9b" id="r_gad4408f067488b5f45ee3dc3544f62f9b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad4408f067488b5f45ee3dc3544f62f9b">MR::BSplineSurface::degreeV</a> = 3</td></tr>
+<tr class="memdesc:gad4408f067488b5f45ee3dc3544f62f9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">from 1 to 7  <br /></td></tr>
+<tr class="memitem:ga955e7080ab955a2739c0a529cff31b61" id="r_ga955e7080ab955a2739c0a529cff31b61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga955e7080ab955a2739c0a529cff31b61">MR::BSplineSurface::knotsU</a></td></tr>
+<tr class="memdesc:ga955e7080ab955a2739c0a529cff31b61"><td class="mdescLeft">&#160;</td><td class="mdescRight">non-decreasing, <a class="el" href="#gaede12fbda3f5371067a089b9e533160d" title="the number of control points along u and v">numU()</a> + degreeU + 1 values  <br /></td></tr>
+<tr class="memitem:ga3936298b74e8e281898ca035cb044494" id="r_ga3936298b74e8e281898ca035cb044494"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3936298b74e8e281898ca035cb044494">MR::BSplineSurface::knotsV</a></td></tr>
+<tr class="memdesc:ga3936298b74e8e281898ca035cb044494"><td class="mdescLeft">&#160;</td><td class="mdescRight">non-decreasing, <a class="el" href="#gab270d22e19d735bf4758e854008e40f5">numV()</a> + degreeV + 1 values  <br /></td></tr>
+<tr class="memitem:ga1492c77f1e790eae9ba74f4e06f25810" id="r_ga1492c77f1e790eae9ba74f4e06f25810"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1492c77f1e790eae9ba74f4e06f25810">MR::BSplineSurface::controlPoints</a></td></tr>
+<tr class="memdesc:ga1492c77f1e790eae9ba74f4e06f25810"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="#gaede12fbda3f5371067a089b9e533160d" title="the number of control points along u and v">numU()</a> * <a class="el" href="#gab270d22e19d735bf4758e854008e40f5">numV()</a> points, the point (i, j) has index i * <a class="el" href="#gab270d22e19d735bf4758e854008e40f5">numV()</a> + j  <br /></td></tr>
+<tr class="memitem:ga2932fdbf87a70799efb8776fcd49c0fc" id="r_ga2932fdbf87a70799efb8776fcd49c0fc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2932fdbf87a70799efb8776fcd49c0fc">MR::BSplineSurfaceFitSettings::numU</a> = 4</td></tr>
+<tr class="memdesc:ga2932fdbf87a70799efb8776fcd49c0fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of control points along u and v, at least 4 (the degree is 3)  <br /></td></tr>
+<tr class="memitem:ga5635d41db8d8394aee378af03d6b8890" id="r_ga5635d41db8d8394aee378af03d6b8890"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5635d41db8d8394aee378af03d6b8890">MR::BSplineSurfaceFitSettings::numV</a> = 4</td></tr>
+<tr class="memitem:ga399b1fa181bcd98cd318feccac07677a" id="r_ga399b1fa181bcd98cd318feccac07677a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga399b1fa181bcd98cd318feccac07677a">MR::BSplineSurfaceFitSettings::smoothing</a> = 1e-7</td></tr>
+<tr class="memitem:ga3e314417fe4aa042d89f1c634b0145f0" id="r_ga3e314417fe4aa042d89f1c634b0145f0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3e314417fe4aa042d89f1c634b0145f0">MR::BSplineSurfaceFitSettings::weights</a> = nullptr</td></tr>
+<tr class="memdesc:ga3e314417fe4aa042d89f1c634b0145f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional weights of the points, all 1 if not given  <br /></td></tr>
 <tr class="memitem:ga2a13927970e03bd552e6ba6241206a15" id="r_ga2a13927970e03bd552e6ba6241206a15"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2a13927970e03bd552e6ba6241206a15">MR::ZeroOnMove&lt; T &gt;::val</a> = 0</td></tr>
 <tr class="memitem:gafdee9c0de187b30593f2f81ad1b516f7" id="r_gafdee9c0de187b30593f2f81ad1b516f7"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafdee9c0de187b30593f2f81ad1b516f7">MR::Buffer&lt; V, I &gt;::Deleter::n</a> = 0</td></tr>
 <tr class="memitem:ga092cf8a0fd74634e6e4d50b8cfc9956d" id="r_ga092cf8a0fd74634e6e4d50b8cfc9956d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T, I &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga092cf8a0fd74634e6e4d50b8cfc9956d">MR::BMap&lt; T, I &gt;::b</a></td></tr>
@@ -70999,8 +71041,75 @@ template&lt;typename T, typename I&gt; </div>
 
 </div>
 </div>
+<a id="gae004d8338ee2bdc0309a7b67fbc445db" name="gae004d8338ee2bdc0309a7b67fbc445db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae004d8338ee2bdc0309a7b67fbc445db">&#9670;&#160;</a></span>eval() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3d MR::BSplineCurve::eval </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>t</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRBSpline_8h.html">MRMesh/MRBSpline.h</a>&gt;</code></p>
+
+<p>the point of the curve at parameter t from [knots[degree], knots[controlPoints.size()]]; zero vector if not <a class="el" href="#ga94930b2b823f3201a063943a02e44fe4" title="whether the degree is supported, there are more control points than the degree, and the number of kno...">valid()</a> </p>
+
+</div>
+</div>
+<a id="gac9057922d6a5b0644bd53d0bec2c0268" name="gac9057922d6a5b0644bd53d0bec2c0268"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac9057922d6a5b0644bd53d0bec2c0268">&#9670;&#160;</a></span>eval() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3d MR::BSplineSurface::eval </td>
+          <td>(</td>
+          <td class="paramtype">const Vector2d &amp;</td>          <td class="paramname"><span class="paramname"><em>uv</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3d *</td>          <td class="paramname"><span class="paramname"><em>du</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3d *</td>          <td class="paramname"><span class="paramname"><em>dv</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRBSpline_8h.html">MRMesh/MRBSpline.h</a>&gt;</code></p>
+
+<p>the point of the surface at given parameters, and optionally its partial derivatives; zero vectors if not <a class="el" href="#gad84059e7e6bffb1b53f2bcddb6af040f" title="whether the degrees are supported, there are more control points along u and v than the degree,...">valid()</a> </p>
+
+</div>
+</div>
 <a id="gab0c3bc061463b886469241c7c3b17cd2" name="gab0c3bc061463b886469241c7c3b17cd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab0c3bc061463b886469241c7c3b17cd2">&#9670;&#160;</a></span>eval()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab0c3bc061463b886469241c7c3b17cd2">&#9670;&#160;</a></span>eval() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -79135,6 +79244,43 @@ template&lt;typename N&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRViewer_8h.html">MRViewer/MRViewer.h</a>&gt;</code></p>
 <p>Calls fitBox for single/each viewport in viewer fill = 0.6 parameter means that scene will 0.6 of screen, snapView - to snap camera angle to closest canonical quaternion </p>
+
+</div>
+</div>
+<a id="ga0ed088bcfb606781ba9bbf0138fad1e5" name="ga0ed088bcfb606781ba9bbf0138fad1e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0ed088bcfb606781ba9bbf0138fad1e5">&#9670;&#160;</a></span>fitBSplineSurface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="structMR_1_1BSplineSurface.html">BSplineSurface</a> &gt; MR::fitBSplineSurface </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector2d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>uvs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1BSplineSurfaceFitSettings.html">BSplineSurfaceFitSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRBSpline_8h.html">MRMesh/MRBSpline.h</a>&gt;</code></p>
+<p>bicubic B-spline surface over [0, 1] x [0, 1] fitted by least squares to the points with given parameters, expected in this square (outside, the end polynomials are extrapolated): minimizes the sum of weight * squared distance between each point and the surface at its parameters; the solution is unique if smoothing &gt; 0 and no bilinear function of (u, v) but zero vanishes at all points with positive weights (which needs at least 4 points not all on one line), otherwise the control points can be arbitrary; </p><dl class="section return"><dt>Returns</dt><dd>nullopt if numU or numV is less than 4 or the factorization fails </dd></dl>
 
 </div>
 </div>
@@ -113164,6 +113310,34 @@ template&lt;typename U&gt; </div>
 
 </div>
 </div>
+<a id="ga2a5f92158d4659670575208fec04978b" name="ga2a5f92158d4659670575208fec04978b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2a5f92158d4659670575208fec04978b">&#9670;&#160;</a></span>interpolateBSplineCurve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="structMR_1_1BSplineCurve.html">BSplineCurve</a> &gt; MR::interpolateBSplineCurve </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3d &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRBSpline_8h.html">MRMesh/MRBSpline.h</a>&gt;</code></p>
+<p>B-spline curve of degree min( 3, points.size() - 1 ) passing through all given points, with the parameters of the points proportional to the length of the polyline through them, in [0, 1]; </p><dl class="section return"><dt>Returns</dt><dd>nullopt for fewer than 2 points, two consecutive points equal, not finite coordinates, or a failed factorization </dd></dl>
+
+</div>
+</div>
 <a id="ga6209e9d14f32919cc6a9a9d7cd2e93ca" name="ga6209e9d14f32919cc6a9a9d7cd2e93ca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga6209e9d14f32919cc6a9a9d7cd2e93ca">&#9670;&#160;</a></span>interpolateLines()</h2>
 
@@ -119383,6 +119557,34 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRAABBTreeBase_8h.html">MRMesh/MRAABBTreeBase.h</a>&gt;</code></p>
 
 <p>returns the id of the leaf encoded in given node id </p>
+
+</div>
+</div>
+<a id="gafa9d13c572a0c0656f5760d77113d479" name="gafa9d13c572a0c0656f5760d77113d479"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafa9d13c572a0c0656f5760d77113d479">&#9670;&#160;</a></span>leastSquaresConformalMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertUVCoords &gt; MR::leastSquaresConformalMap </td>
+          <td>(</td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRConformalMap_8h.html">MRMesh/MRConformalMap.h</a>&gt;</code></p>
+<p>least squares conformal map of a mesh part to the plane, meant for a part with disk topology; two vertices most distant along the main direction of the part are mapped in (0,0) and (1,0); the part must be connected via the edges of its non-degenerate triangles: the system is singular in a component without both pinned vertices, which gives an error or meaningless coordinates there </p><dl class="section return"><dt>Returns</dt><dd>the planar coordinates of the vertices of the part, or an error for not finite coordinates or a degenerate system (e.g. without non-degenerate triangles) </dd></dl>
 
 </div>
 </div>
@@ -133581,8 +133783,37 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gae2eed7b7d086b0de1e7448cf166bbb6b" name="gae2eed7b7d086b0de1e7448cf166bbb6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae2eed7b7d086b0de1e7448cf166bbb6b">&#9670;&#160;</a></span>normal() <span class="overload">[1/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3d MR::BSplineSurface::normal </td>
+          <td>(</td>
+          <td class="paramtype">const Vector2d &amp;</td>          <td class="paramname"><span class="paramname"><em>uv</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRBSpline_8h.html">MRMesh/MRBSpline.h</a>&gt;</code></p>
+
+<p>unit normal of the surface at given parameters: cross( du, dv ) normalized, or zero vector where du and dv are zero or parallel </p>
+
+</div>
+</div>
 <a id="gaed2794fd3acdff753a827447e9814b5c" name="gaed2794fd3acdff753a827447e9814b5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaed2794fd3acdff753a827447e9814b5c">&#9670;&#160;</a></span>normal() <span class="overload">[1/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed2794fd3acdff753a827447e9814b5c">&#9670;&#160;</a></span>normal() <span class="overload">[2/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133612,7 +133843,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga4eeaaea51db3554932b5daf92209a962" name="ga4eeaaea51db3554932b5daf92209a962"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4eeaaea51db3554932b5daf92209a962">&#9670;&#160;</a></span>normal() <span class="overload">[2/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4eeaaea51db3554932b5daf92209a962">&#9670;&#160;</a></span>normal() <span class="overload">[3/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133649,7 +133880,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaeaaa231de17fd92490d5ffbdac7d7c16" name="gaeaaa231de17fd92490d5ffbdac7d7c16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaeaaa231de17fd92490d5ffbdac7d7c16">&#9670;&#160;</a></span>normal() <span class="overload">[3/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeaaa231de17fd92490d5ffbdac7d7c16">&#9670;&#160;</a></span>normal() <span class="overload">[4/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133687,7 +133918,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga3fb32b3b62d46ab4122204d35787fa88" name="ga3fb32b3b62d46ab4122204d35787fa88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3fb32b3b62d46ab4122204d35787fa88">&#9670;&#160;</a></span>normal() <span class="overload">[4/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3fb32b3b62d46ab4122204d35787fa88">&#9670;&#160;</a></span>normal() <span class="overload">[5/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133725,7 +133956,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab8a336bd7f4d118f0875b242298c3f68" name="gab8a336bd7f4d118f0875b242298c3f68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab8a336bd7f4d118f0875b242298c3f68">&#9670;&#160;</a></span>normal() <span class="overload">[5/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab8a336bd7f4d118f0875b242298c3f68">&#9670;&#160;</a></span>normal() <span class="overload">[6/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133756,7 +133987,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga668bccb3edee9cdfebdbdc80a502dde5" name="ga668bccb3edee9cdfebdbdc80a502dde5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga668bccb3edee9cdfebdbdc80a502dde5">&#9670;&#160;</a></span>normal() <span class="overload">[6/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga668bccb3edee9cdfebdbdc80a502dde5">&#9670;&#160;</a></span>normal() <span class="overload">[7/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133796,7 +134027,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaca6757bf3fe6058264ac14a06fbb616e" name="gaca6757bf3fe6058264ac14a06fbb616e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaca6757bf3fe6058264ac14a06fbb616e">&#9670;&#160;</a></span>normal() <span class="overload">[7/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaca6757bf3fe6058264ac14a06fbb616e">&#9670;&#160;</a></span>normal() <span class="overload">[8/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133831,7 +134062,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga5f16b5d10d493533dbea96ef88607207" name="ga5f16b5d10d493533dbea96ef88607207"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5f16b5d10d493533dbea96ef88607207">&#9670;&#160;</a></span>normal() <span class="overload">[8/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5f16b5d10d493533dbea96ef88607207">&#9670;&#160;</a></span>normal() <span class="overload">[9/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -135023,6 +135254,35 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gaede12fbda3f5371067a089b9e533160d" name="gaede12fbda3f5371067a089b9e533160d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaede12fbda3f5371067a089b9e533160d">&#9670;&#160;</a></span>numU()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::BSplineSurface::numU </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRBSpline_8h.html">MRMesh/MRBSpline.h</a>&gt;</code></p>
+
+<p>the number of control points along u and v </p>
+
+</div>
+</div>
 <a id="ga51d0fd14a1096bdd989bf91f74647583" name="ga51d0fd14a1096bdd989bf91f74647583"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga51d0fd14a1096bdd989bf91f74647583">&#9670;&#160;</a></span>numUndirectedEdges() <span class="overload">[1/2]</span></h2>
 
@@ -135078,6 +135338,33 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRObjectMeshHolder_8h.html">MRMesh/MRObjectMeshHolder.h</a>&gt;</code></p>
 
 <p>returns cached information about the number of undirected edges in the mesh </p>
+
+</div>
+</div>
+<a id="gab270d22e19d735bf4758e854008e40f5" name="gab270d22e19d735bf4758e854008e40f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab270d22e19d735bf4758e854008e40f5">&#9670;&#160;</a></span>numV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::BSplineSurface::numV </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRBSpline_8h.html">MRMesh/MRBSpline.h</a>&gt;</code></p>
 
 </div>
 </div>
@@ -157105,8 +157392,46 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga2876b81d0f0ccfb26581ad04199ae942" name="ga2876b81d0f0ccfb26581ad04199ae942"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2876b81d0f0ccfb26581ad04199ae942">&#9670;&#160;</a></span>project() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2d MR::BSplineSurface::project </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3d &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2d</td>          <td class="paramname"><span class="paramname"><em>uv</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>iterations</em></span><span class="paramdefsep"> = </span><span class="paramdefval">12</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRBSpline_8h.html">MRMesh/MRBSpline.h</a>&gt;</code></p>
+
+<p>parameters in the domain of the surface point closest to given one: Gauss-Newton iterations with step control from uv clamped to the domain, stopping at rounding errors; given uv if not <a class="el" href="#gad84059e7e6bffb1b53f2bcddb6af040f" title="whether the degrees are supported, there are more control points along u and v than the degree,...">valid()</a> </p>
+
+</div>
+</div>
 <a id="gad80390a7c278a694e5d5be75f7679025" name="gad80390a7c278a694e5d5be75f7679025"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad80390a7c278a694e5d5be75f7679025">&#9670;&#160;</a></span>project() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad80390a7c278a694e5d5be75f7679025">&#9670;&#160;</a></span>project() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157137,7 +157462,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga3c50c85a67a6ef9fa20e8e11efbd2ac2" name="ga3c50c85a67a6ef9fa20e8e11efbd2ac2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3c50c85a67a6ef9fa20e8e11efbd2ac2">&#9670;&#160;</a></span>project() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3c50c85a67a6ef9fa20e8e11efbd2ac2">&#9670;&#160;</a></span>project() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157168,7 +157493,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7be349cb025864bef77e267cefdccd28" name="ga7be349cb025864bef77e267cefdccd28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7be349cb025864bef77e267cefdccd28">&#9670;&#160;</a></span>project() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7be349cb025864bef77e267cefdccd28">&#9670;&#160;</a></span>project() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157199,7 +157524,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga4c0f0fb98193d9450e86fcf97e970179" name="ga4c0f0fb98193d9450e86fcf97e970179"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4c0f0fb98193d9450e86fcf97e970179">&#9670;&#160;</a></span>project() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4c0f0fb98193d9450e86fcf97e970179">&#9670;&#160;</a></span>project() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203679,8 +204004,66 @@ template&lt;typename I&gt; </div>
 
 </div>
 </div>
+<a id="ga94930b2b823f3201a063943a02e44fe4" name="ga94930b2b823f3201a063943a02e44fe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga94930b2b823f3201a063943a02e44fe4">&#9670;&#160;</a></span>valid() <span class="overload">[1/21]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::BSplineCurve::valid </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRBSpline_8h.html">MRMesh/MRBSpline.h</a>&gt;</code></p>
+
+<p>whether the degree is supported, there are more control points than the degree, and the number of knots is as above </p>
+
+</div>
+</div>
+<a id="gad84059e7e6bffb1b53f2bcddb6af040f" name="gad84059e7e6bffb1b53f2bcddb6af040f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad84059e7e6bffb1b53f2bcddb6af040f">&#9670;&#160;</a></span>valid() <span class="overload">[2/21]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::BSplineSurface::valid </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRBSpline_8h.html">MRMesh/MRBSpline.h</a>&gt;</code></p>
+
+<p>whether the degrees are supported, there are more control points along u and v than the degree, and their total number is as above </p>
+
+</div>
+</div>
 <a id="gaf0830c781cdfc67653c788b2211341bf" name="gaf0830c781cdfc67653c788b2211341bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf0830c781cdfc67653c788b2211341bf">&#9670;&#160;</a></span>valid() <span class="overload">[1/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf0830c781cdfc67653c788b2211341bf">&#9670;&#160;</a></span>valid() <span class="overload">[3/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203711,7 +204094,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga214653b779a4522f109338dae1067598" name="ga214653b779a4522f109338dae1067598"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga214653b779a4522f109338dae1067598">&#9670;&#160;</a></span>valid() <span class="overload">[2/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga214653b779a4522f109338dae1067598">&#9670;&#160;</a></span>valid() <span class="overload">[4/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203742,7 +204125,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga9c37820f22dbbb3c0a9fc9b01369abbc" name="ga9c37820f22dbbb3c0a9fc9b01369abbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9c37820f22dbbb3c0a9fc9b01369abbc">&#9670;&#160;</a></span>valid() <span class="overload">[3/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9c37820f22dbbb3c0a9fc9b01369abbc">&#9670;&#160;</a></span>valid() <span class="overload">[5/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203771,7 +204154,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gafa85942ca56264f08a03ebe4fded3c01" name="gafa85942ca56264f08a03ebe4fded3c01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafa85942ca56264f08a03ebe4fded3c01">&#9670;&#160;</a></span>valid() <span class="overload">[4/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafa85942ca56264f08a03ebe4fded3c01">&#9670;&#160;</a></span>valid() <span class="overload">[6/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203798,7 +204181,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaf07d1c7bc9944130437dcddb3c74465a" name="gaf07d1c7bc9944130437dcddb3c74465a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf07d1c7bc9944130437dcddb3c74465a">&#9670;&#160;</a></span>valid() <span class="overload">[5/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf07d1c7bc9944130437dcddb3c74465a">&#9670;&#160;</a></span>valid() <span class="overload">[7/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203825,7 +204208,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga5091e905ddd17f80fb7c3996ce095e58" name="ga5091e905ddd17f80fb7c3996ce095e58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5091e905ddd17f80fb7c3996ce095e58">&#9670;&#160;</a></span>valid() <span class="overload">[6/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5091e905ddd17f80fb7c3996ce095e58">&#9670;&#160;</a></span>valid() <span class="overload">[8/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203854,7 +204237,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga46ac2204a29916d4c70d8902b0a21868" name="ga46ac2204a29916d4c70d8902b0a21868"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga46ac2204a29916d4c70d8902b0a21868">&#9670;&#160;</a></span>valid() <span class="overload">[7/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga46ac2204a29916d4c70d8902b0a21868">&#9670;&#160;</a></span>valid() <span class="overload">[9/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203883,7 +204266,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7a52efda314a702396938241eecfd7c6" name="ga7a52efda314a702396938241eecfd7c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7a52efda314a702396938241eecfd7c6">&#9670;&#160;</a></span>valid() <span class="overload">[8/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7a52efda314a702396938241eecfd7c6">&#9670;&#160;</a></span>valid() <span class="overload">[10/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203912,7 +204295,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga43ac9ad72d19e4b6f5675b8b96c652a0" name="ga43ac9ad72d19e4b6f5675b8b96c652a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga43ac9ad72d19e4b6f5675b8b96c652a0">&#9670;&#160;</a></span>valid() <span class="overload">[9/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga43ac9ad72d19e4b6f5675b8b96c652a0">&#9670;&#160;</a></span>valid() <span class="overload">[11/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203939,7 +204322,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga102a63cb1cdbb7460fb946408538feec" name="ga102a63cb1cdbb7460fb946408538feec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga102a63cb1cdbb7460fb946408538feec">&#9670;&#160;</a></span>valid() <span class="overload">[10/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga102a63cb1cdbb7460fb946408538feec">&#9670;&#160;</a></span>valid() <span class="overload">[12/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203966,7 +204349,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga799a4d75cde699ab800ef755c3201cf6" name="ga799a4d75cde699ab800ef755c3201cf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga799a4d75cde699ab800ef755c3201cf6">&#9670;&#160;</a></span>valid() <span class="overload">[11/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga799a4d75cde699ab800ef755c3201cf6">&#9670;&#160;</a></span>valid() <span class="overload">[13/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203993,7 +204376,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gadf36a93304ddd8624d26589cec96401f" name="gadf36a93304ddd8624d26589cec96401f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadf36a93304ddd8624d26589cec96401f">&#9670;&#160;</a></span>valid() <span class="overload">[12/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadf36a93304ddd8624d26589cec96401f">&#9670;&#160;</a></span>valid() <span class="overload">[14/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204022,7 +204405,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga6de2f0520ee0205cf8eda1b3c4c32111" name="ga6de2f0520ee0205cf8eda1b3c4c32111"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6de2f0520ee0205cf8eda1b3c4c32111">&#9670;&#160;</a></span>valid() <span class="overload">[13/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6de2f0520ee0205cf8eda1b3c4c32111">&#9670;&#160;</a></span>valid() <span class="overload">[15/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204053,7 +204436,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gae382efff2f4e2a54df6db8e72d4c7420" name="gae382efff2f4e2a54df6db8e72d4c7420"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae382efff2f4e2a54df6db8e72d4c7420">&#9670;&#160;</a></span>valid() <span class="overload">[14/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae382efff2f4e2a54df6db8e72d4c7420">&#9670;&#160;</a></span>valid() <span class="overload">[16/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204080,7 +204463,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaaf61c67899c9c542304ca52c98efd6aa" name="gaaf61c67899c9c542304ca52c98efd6aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaaf61c67899c9c542304ca52c98efd6aa">&#9670;&#160;</a></span>valid() <span class="overload">[15/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaf61c67899c9c542304ca52c98efd6aa">&#9670;&#160;</a></span>valid() <span class="overload">[17/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204107,7 +204490,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga30b687a3ae4e9a8f1e2faf636e415f5c" name="ga30b687a3ae4e9a8f1e2faf636e415f5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga30b687a3ae4e9a8f1e2faf636e415f5c">&#9670;&#160;</a></span>valid() <span class="overload">[16/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga30b687a3ae4e9a8f1e2faf636e415f5c">&#9670;&#160;</a></span>valid() <span class="overload">[18/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204136,7 +204519,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga025f9557286d25c7be1c794fbb8ecafa" name="ga025f9557286d25c7be1c794fbb8ecafa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga025f9557286d25c7be1c794fbb8ecafa">&#9670;&#160;</a></span>valid() <span class="overload">[17/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga025f9557286d25c7be1c794fbb8ecafa">&#9670;&#160;</a></span>valid() <span class="overload">[19/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204165,7 +204548,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga9c4160116a71185cb85187fdd4b24784" name="ga9c4160116a71185cb85187fdd4b24784"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9c4160116a71185cb85187fdd4b24784">&#9670;&#160;</a></span>valid() <span class="overload">[18/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9c4160116a71185cb85187fdd4b24784">&#9670;&#160;</a></span>valid() <span class="overload">[20/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204194,7 +204577,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga8cae5aeb17ea9eba3d65c5cb39acbe29" name="ga8cae5aeb17ea9eba3d65c5cb39acbe29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8cae5aeb17ea9eba3d65c5cb39acbe29">&#9670;&#160;</a></span>valid() <span class="overload">[19/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8cae5aeb17ea9eba3d65c5cb39acbe29">&#9670;&#160;</a></span>valid() <span class="overload">[21/21]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -218283,6 +218666,36 @@ template&lt;typename Tag&gt; </div>
 
 </div>
 </div>
+<a id="ga1a1aca4d3fc3e8625b46c7657717b01a" name="ga1a1aca4d3fc3e8625b46c7657717b01a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1a1aca4d3fc3e8625b46c7657717b01a">&#9670;&#160;</a></span>controlPoints <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;Vector3d&gt; MR::BSplineCurve::controlPoints</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga1492c77f1e790eae9ba74f4e06f25810" name="ga1492c77f1e790eae9ba74f4e06f25810"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1492c77f1e790eae9ba74f4e06f25810">&#9670;&#160;</a></span>controlPoints <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;Vector3d&gt; MR::BSplineSurface::controlPoints</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="#gaede12fbda3f5371067a089b9e533160d" title="the number of control points along u and v">numU()</a> * <a class="el" href="#gab270d22e19d735bf4758e854008e40f5">numV()</a> points, the point (i, j) has index i * <a class="el" href="#gab270d22e19d735bf4758e854008e40f5">numV()</a> + j </p>
+
+</div>
+</div>
 <a id="ga7f3e029be9ca17a1b73f53ca166fe2ca" name="ga7f3e029be9ca17a1b73f53ca166fe2ca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga7f3e029be9ca17a1b73f53ca166fe2ca">&#9670;&#160;</a></span>controlStability</h2>
 
@@ -220010,6 +220423,22 @@ template&lt;UnitEnum E&gt; </div>
 
 </div>
 </div>
+<a id="ga62ada1a3caa42fcfefa7b4e5569953d9" name="ga62ada1a3caa42fcfefa7b4e5569953d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga62ada1a3caa42fcfefa7b4e5569953d9">&#9670;&#160;</a></span>degree</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::BSplineCurve::degree = 3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>from 1 to 7 </p>
+
+</div>
+</div>
 <a id="ga2d95d4ba6210441527d210b9e677228f" name="ga2d95d4ba6210441527d210b9e677228f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga2d95d4ba6210441527d210b9e677228f">&#9670;&#160;</a></span>degreesMode</h2>
 
@@ -220025,6 +220454,38 @@ template&lt;UnitEnum E&gt; </div>
 </div><div class="memdoc">
 
 <p>When printing degrees, this lets you display arcminutes and possibly arcseconds. Ignored for everything else. </p>
+
+</div>
+</div>
+<a id="ga9e2ba9e700272218ca9e32d120764465" name="ga9e2ba9e700272218ca9e32d120764465"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9e2ba9e700272218ca9e32d120764465">&#9670;&#160;</a></span>degreeU</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::BSplineSurface::degreeU = 3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>from 1 to 7 </p>
+
+</div>
+</div>
+<a id="gad4408f067488b5f45ee3dc3544f62f9b" name="gad4408f067488b5f45ee3dc3544f62f9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad4408f067488b5f45ee3dc3544f62f9b">&#9670;&#160;</a></span>degreeV</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::BSplineSurface::degreeV = 3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>from 1 to 7 </p>
 
 </div>
 </div>
@@ -227103,6 +227564,54 @@ template&lt;typename K, typename V&gt; </div>
 
 </div>
 </div>
+<a id="gae4261ff7920587dc62f230552f159516" name="gae4261ff7920587dc62f230552f159516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae4261ff7920587dc62f230552f159516">&#9670;&#160;</a></span>knots</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;double&gt; MR::BSplineCurve::knots</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>non-decreasing, controlPoints.size() + degree + 1 values </p>
+
+</div>
+</div>
+<a id="ga955e7080ab955a2739c0a529cff31b61" name="ga955e7080ab955a2739c0a529cff31b61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga955e7080ab955a2739c0a529cff31b61">&#9670;&#160;</a></span>knotsU</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;double&gt; MR::BSplineSurface::knotsU</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>non-decreasing, <a class="el" href="#gaede12fbda3f5371067a089b9e533160d" title="the number of control points along u and v">numU()</a> + degreeU + 1 values </p>
+
+</div>
+</div>
+<a id="ga3936298b74e8e281898ca035cb044494" name="ga3936298b74e8e281898ca035cb044494"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3936298b74e8e281898ca035cb044494">&#9670;&#160;</a></span>knotsV</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;double&gt; MR::BSplineSurface::knotsV</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>non-decreasing, <a class="el" href="#gab270d22e19d735bf4758e854008e40f5">numV()</a> + degreeV + 1 values </p>
+
+</div>
+</div>
 <a id="gab960a0faa33b95bf9a9609f31cd35219" name="gab960a0faa33b95bf9a9609f31cd35219"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gab960a0faa33b95bf9a9609f31cd35219">&#9670;&#160;</a></span>label <span class="overload">[1/2]</span></h2>
 
@@ -233091,6 +233600,22 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga2932fdbf87a70799efb8776fcd49c0fc" name="ga2932fdbf87a70799efb8776fcd49c0fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2932fdbf87a70799efb8776fcd49c0fc">&#9670;&#160;</a></span>numU</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::BSplineSurfaceFitSettings::numU = 4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the number of control points along u and v, at least 4 (the degree is 3) </p>
+
+</div>
+</div>
 <a id="ga93290385193f37f80ec2fe07e19fc8c9" name="ga93290385193f37f80ec2fe07e19fc8c9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga93290385193f37f80ec2fe07e19fc8c9">&#9670;&#160;</a></span>numUndirectedEdges_ <span class="overload">[1/2]</span></h2>
 
@@ -233131,6 +233656,20 @@ template&lt;typename T&gt; </div>
 <span class="mlabels"><span class="mlabel mutable">mutable</span><span class="mlabel protected">protected</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga5635d41db8d8394aee378af03d6b8890" name="ga5635d41db8d8394aee378af03d6b8890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5635d41db8d8394aee378af03d6b8890">&#9670;&#160;</a></span>numV</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::BSplineSurfaceFitSettings::numV = 4</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -242602,6 +243141,21 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga399b1fa181bcd98cd318feccac07677a" name="ga399b1fa181bcd98cd318feccac07677a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga399b1fa181bcd98cd318feccac07677a">&#9670;&#160;</a></span>smoothing</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::BSplineSurfaceFitSettings::smoothing = 1e-7</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the weight of the second differences of the control net relative to the weights of the points, to keep the surface smooth where the points are sparse; the differences are divided by the distances of the Greville abscissae, so they are zero for bilinear functions of (u, v) </p>
+
+</div>
+</div>
 <a id="ga34a56d380f672046a965d5bcc6f66e06" name="ga34a56d380f672046a965d5bcc6f66e06"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga34a56d380f672046a965d5bcc6f66e06">&#9670;&#160;</a></span>smoothSettings <span class="overload">[1/2]</span></h2>
 
@@ -249715,8 +250269,24 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga3e314417fe4aa042d89f1c634b0145f0" name="ga3e314417fe4aa042d89f1c634b0145f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3e314417fe4aa042d89f1c634b0145f0">&#9670;&#160;</a></span>weights <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;double&gt;* MR::BSplineSurfaceFitSettings::weights = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>optional weights of the points, all 1 if not given </p>
+
+</div>
+</div>
 <a id="gaa7e03f93869b8695b61ce8aaf08406f8" name="gaa7e03f93869b8695b61ce8aaf08406f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa7e03f93869b8695b61ce8aaf08406f8">&#9670;&#160;</a></span>weights</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa7e03f93869b8695b61ce8aaf08406f8">&#9670;&#160;</a></span>weights <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

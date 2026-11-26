@@ -36,6 +36,26 @@ var group__MathGroup =
       [ "addPoint", "group__GeneralGroup.html#ga4c491c30846d6d6051ac64bc66374e9f", null ],
       [ "calcBestCoefficients", "group__GeneralGroup.html#gab4c7110c71267480e00a1c55e9d226dc", null ]
     ] ],
+    [ "MR::BSplineCurve", "structMR_1_1BSplineCurve.html", [
+      [ "eval", "group__GeneralGroup.html#gae004d8338ee2bdc0309a7b67fbc445db", null ],
+      [ "valid", "group__GeneralGroup.html#ga94930b2b823f3201a063943a02e44fe4", null ],
+      [ "controlPoints", "group__GeneralGroup.html#ga1a1aca4d3fc3e8625b46c7657717b01a", null ],
+      [ "degree", "group__GeneralGroup.html#ga62ada1a3caa42fcfefa7b4e5569953d9", null ],
+      [ "knots", "group__GeneralGroup.html#gae4261ff7920587dc62f230552f159516", null ]
+    ] ],
+    [ "MR::BSplineSurface", "structMR_1_1BSplineSurface.html", [
+      [ "eval", "group__GeneralGroup.html#gac9057922d6a5b0644bd53d0bec2c0268", null ],
+      [ "normal", "group__GeneralGroup.html#gae2eed7b7d086b0de1e7448cf166bbb6b", null ],
+      [ "numU", "group__GeneralGroup.html#gaede12fbda3f5371067a089b9e533160d", null ],
+      [ "numV", "group__GeneralGroup.html#gab270d22e19d735bf4758e854008e40f5", null ],
+      [ "project", "group__GeneralGroup.html#ga2876b81d0f0ccfb26581ad04199ae942", null ],
+      [ "valid", "group__GeneralGroup.html#gad84059e7e6bffb1b53f2bcddb6af040f", null ],
+      [ "controlPoints", "group__GeneralGroup.html#ga1492c77f1e790eae9ba74f4e06f25810", null ],
+      [ "degreeU", "group__GeneralGroup.html#ga9e2ba9e700272218ca9e32d120764465", null ],
+      [ "degreeV", "group__GeneralGroup.html#gad4408f067488b5f45ee3dc3544f62f9b", null ],
+      [ "knotsU", "group__GeneralGroup.html#ga955e7080ab955a2739c0a529cff31b61", null ],
+      [ "knotsV", "group__GeneralGroup.html#ga3936298b74e8e281898ca035cb044494", null ]
+    ] ],
     [ "MR::PreciseCutPoint", "structMR_1_1PreciseCutPoint.html", [
       [ "isCrossing", "structMR_1_1PreciseCutPoint.html#a9e387bdf21acfb67f979c94f79db10e4", null ],
       [ "isVertex", "structMR_1_1PreciseCutPoint.html#a38110f3393d6264ef6ef771ef5c9f01b", null ],

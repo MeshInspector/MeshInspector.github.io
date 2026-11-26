@@ -1032,6 +1032,9 @@ var hierarchy =
     [ "mrmeshpy.Const_std_vector_Vector3_double", "classmrmeshpy_1_1Const__std__vector__Vector3__double.html", [
       [ "mrmeshpy.std_vector_Vector3_double", "classmrmeshpy_1_1std__vector__Vector3__double.html", null ]
     ] ],
+    [ "mrmeshpy.Const_std_vector_Vector3_double_Allocator_Vector3_double", "classmrmeshpy_1_1Const__std__vector__Vector3__double__Allocator__Vector3__double.html", [
+      [ "mrmeshpy.std_vector_Vector3_double_Allocator_Vector3_double", "classmrmeshpy_1_1std__vector__Vector3__double__Allocator__Vector3__double.html", null ]
+    ] ],
     [ "mrmeshpy.Const_std_vector_Vector3_float", "classmrmeshpy_1_1Const__std__vector__Vector3__float.html", [
       [ "mrmeshpy.std_vector_Vector3_float", "classmrmeshpy_1_1std__vector__Vector3__float.html", null ]
     ] ],
@@ -1530,6 +1533,15 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.Nesting.ConstBoxNestingParams", "classmrmeshpy_1_1Nesting_1_1ConstBoxNestingParams.html", [
       [ "mrmeshpy.Nesting.BoxNestingParams", "classmrmeshpy_1_1Nesting_1_1BoxNestingParams.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstBSplineCurve", "classmrmeshpy_1_1ConstBSplineCurve.html", [
+      [ "mrmeshpy.BSplineCurve", "classmrmeshpy_1_1BSplineCurve.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstBSplineSurface", "classmrmeshpy_1_1ConstBSplineSurface.html", [
+      [ "mrmeshpy.BSplineSurface", "classmrmeshpy_1_1BSplineSurface.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstBSplineSurfaceFitSettings", "classmrmeshpy_1_1ConstBSplineSurfaceFitSettings.html", [
+      [ "mrmeshpy.BSplineSurfaceFitSettings", "classmrmeshpy_1_1BSplineSurfaceFitSettings.html", null ]
     ] ],
     [ "mrmeshpy.ConstBuffer_char", "classmrmeshpy_1_1ConstBuffer__char.html", [
       [ "mrmeshpy.Buffer_char", "classmrmeshpy_1_1Buffer__char.html", null ]
@@ -4263,6 +4275,9 @@ var hierarchy =
     [ "mrmeshpy.ConstVector_char_VertId", "classmrmeshpy_1_1ConstVector__char__VertId.html", [
       [ "mrmeshpy.Vector_char_VertId", "classmrmeshpy_1_1Vector__char__VertId.html", null ]
     ] ],
+    [ "mrmeshpy.ConstVector_double", "classmrmeshpy_1_1ConstVector__double.html", [
+      [ "mrmeshpy.Vector_double", "classmrmeshpy_1_1Vector__double.html", null ]
+    ] ],
     [ "mrmeshpy.ConstVector_double_RegionId", "classmrmeshpy_1_1ConstVector__double__RegionId.html", [
       [ "mrmeshpy.Vector_double_RegionId", "classmrmeshpy_1_1Vector__double__RegionId.html", null ]
     ] ],
@@ -4404,8 +4419,14 @@ var hierarchy =
     [ "mrmeshpy.ConstVector_VarEdgeTri", "classmrmeshpy_1_1ConstVector__VarEdgeTri.html", [
       [ "mrmeshpy.Vector_VarEdgeTri", "classmrmeshpy_1_1Vector__VarEdgeTri.html", null ]
     ] ],
+    [ "mrmeshpy.ConstVector_Vector2d", "classmrmeshpy_1_1ConstVector__Vector2d.html", [
+      [ "mrmeshpy.Vector_Vector2d", "classmrmeshpy_1_1Vector__Vector2d.html", null ]
+    ] ],
     [ "mrmeshpy.ConstVector_Vector2d_VertId", "classmrmeshpy_1_1ConstVector__Vector2d__VertId.html", [
       [ "mrmeshpy.Vector_Vector2d_VertId", "classmrmeshpy_1_1Vector__Vector2d__VertId.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstVector_Vector3d", "classmrmeshpy_1_1ConstVector__Vector3d.html", [
+      [ "mrmeshpy.Vector_Vector3d", "classmrmeshpy_1_1Vector__Vector3d.html", null ]
     ] ],
     [ "mrmeshpy.ConstVector_Vector3f_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1ConstVector__Vector3f__Id__SurfaceDistanceStartTag.html", [
       [ "mrmeshpy.Vector_Vector3f_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1Vector__Vector3f__Id__SurfaceDistanceStartTag.html", null ]

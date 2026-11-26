@@ -1,5 +1,17 @@
 var NAVTREEINDEX14 =
 {
+"namespacemeshlib_1_1mesh__builder.html#a0417ef060d3d7f28bb5d5af67ac62e52":[9,5,0,0,0,15,17],
+"namespacemeshlib_1_1mesh__builder.html#a0c303b966f7fb9cefc6a8380aa30eded":[9,5,0,0,0,15,11],
+"namespacemeshlib_1_1mesh__builder.html#a25ff70ba2ac6cc84532b6d5a40c67af2":[9,5,0,0,0,15,10],
+"namespacemeshlib_1_1mesh__builder.html#a4785b260dc50e9991e6459970869e2b5":[9,5,0,0,0,15,16],
+"namespacemeshlib_1_1mesh__builder.html#a7f83cfdc867c41269ef8b1ea7c836ff1":[9,5,0,0,0,15,18],
+"namespacemeshlib_1_1mesh__builder.html#a828c7062f6ed5dc0c2bbec4c8a8c1b19":[9,5,0,0,0,15,14],
+"namespacemeshlib_1_1mesh__builder.html#a839d6b9bc7ef33830c82b6d2058ce970":[9,5,0,0,0,15,15],
+"namespacemeshlib_1_1mesh__builder.html#a8839882d682b6c38a8ff99dd4fa5b7d5":[9,5,0,0,0,15,20],
+"namespacemeshlib_1_1mesh__builder.html#a9f0b360ace03ec1d6ec8cb8ee970a145":[9,5,0,0,0,15,21],
+"namespacemeshlib_1_1mesh__builder.html#ac86ef6c3131a6f6d2071246ebced5fa8":[9,5,0,0,0,15,13],
+"namespacemeshlib_1_1mesh__builder.html#adfd83b0928b4943cea170f7ec905f839":[9,5,0,0,0,15,12],
+"namespacemeshlib_1_1mesh__builder.html#ae47d022f5a5644ed18149b4728ec8904":[9,5,0,0,0,15,19],
 "namespacemeshlib_1_1mesh__builder.html#ae72f4829f40e9e752dfeb19ae603286e":[9,5,0,0,0,15,22],
 "namespacemeshlib_1_1mesh__components.html":[9,5,0,0,0,16],
 "namespacemeshlib_1_1mesh__components.html#a06923875cd0431d415ed72b4e376e220":[9,5,0,0,0,16,27],
@@ -237,17 +249,5 @@ var NAVTREEINDEX14 =
 "namespacemeshlib_1_1raster__load.html#ac4fabfa304acd44babdf0a703d281baf":[9,5,0,0,0,28,2],
 "namespacemeshlib_1_1raster__load.html#aeeeaf496c7da3402d4a7fa3c5717ba3b":[9,5,0,0,0,28,3],
 "namespacemeshlib_1_1raster__save.html":[9,5,0,0,0,29],
-"namespacemeshlib_1_1raster__save.html#a462a79c32b9ba067fe15c273b8094412":[9,5,0,0,0,29,1],
-"namespacemeshlib_1_1raster__save.html#a9aba7445d19b886b75d4eab31ac91011":[9,5,0,0,0,29,2],
-"namespacemeshlib_1_1raster__save.html#ade9389c2f67096ef634a45d63abcbc37":[9,5,0,0,0,29,0],
-"namespacemeshlib_1_1scene__load.html":[9,5,0,0,0,30],
-"namespacemeshlib_1_1scene__load.html#a59f65ab02f25f404a8753c0564f67ce5":[9,5,0,0,0,30,2],
-"namespacemeshlib_1_1scene__load.html#aa9952d6e3dfadfefa9040953f934a997":[9,5,0,0,0,30,3],
-"namespacemeshlib_1_1scene__save.html":[9,5,0,0,0,31],
-"namespacemeshlib_1_1self__intersections.html":[9,5,0,0,0,32],
-"namespacemeshlib_1_1self__intersections.html#a4d11e157c9d479679e5fc77ee063cad5":[9,5,0,0,0,32,3],
-"namespacemeshlib_1_1self__intersections.html#a7696d270041087137529e4b924db10c9":[9,5,0,0,0,32,2],
-"namespacemeshlib_1_1triangulation__helpers.html":[9,5,0,0,0,33],
-"namespacemeshlib_1_1triangulation__helpers.html#a1420b024c88efe8d49819e03f9e7fe05":[9,5,0,0,0,33,10],
-"namespacemeshlib_1_1triangulation__helpers.html#a6d3ba667f1886321ab24c51661cf71ea":[9,5,0,0,0,33,3]
+"namespacemeshlib_1_1raster__save.html#a462a79c32b9ba067fe15c273b8094412":[9,5,0,0,0,29,1]
 };

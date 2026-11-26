@@ -259,11 +259,11 @@ $(function(){initNavTree('ExampleBooleanBenchmark.html','',''); });
 <div class="line">    MR_AffineXf3f rigidB2A = MR_AffineXf3f_linear( &amp;<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga52915fb5d2591590d669a60e03be75f2">rotation</a> );</div>
 <div class="line"> </div>
 <div class="line">    MR_BooleanResult* result = MR_boolean_withXf( sphereA, sphereB, MR_BooleanOperation_DifferenceAB, &amp;rigidB2A, NULL, MR_PassBy_DefaultArgument, NULL );</div>
-<div class="line">    <span class="keywordtype">bool</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga30b687a3ae4e9a8f1e2faf636e415f5c">valid</a> = MR_BooleanResult_valid( result );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga30b687a3ae4e9a8f1e2faf636e415f5c">valid</a> )</div>
+<div class="line">    <span class="keywordtype">bool</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga94930b2b823f3201a063943a02e44fe4">valid</a> = MR_BooleanResult_valid( result );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga94930b2b823f3201a063943a02e44fe4">valid</a> )</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to perform boolean: %s\n&quot;</span>, MR_std_string_data( MR_BooleanResult_Get_errorString( result ) ) );</div>
 <div class="line">    MR_BooleanResult_Destroy( result );</div>
-<div class="line">    <span class="keywordflow">return</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga30b687a3ae4e9a8f1e2faf636e415f5c">valid</a>;</div>
+<div class="line">    <span class="keywordflow">return</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga94930b2b823f3201a063943a02e44fe4">valid</a>;</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">static</span> <span class="keywordtype">double</span> nowSeconds( <span class="keywordtype">void</span> )</div>
@@ -304,9 +304,9 @@ $(function(){initNavTree('ExampleBooleanBenchmark.html','',''); });
 <div class="line">    MR_Mesh_Destroy( sphereA );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga30b687a3ae4e9a8f1e2faf636e415f5c"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga30b687a3ae4e9a8f1e2faf636e415f5c">valid</a></div><div class="ttdeci">bool valid() const</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga52915fb5d2591590d669a60e03be75f2"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga52915fb5d2591590d669a60e03be75f2">rotation</a></div><div class="ttdeci">static constexpr Matrix2 rotation(T angle) noexcept</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga5549735766833f3928cb969df8aff806"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga5549735766833f3928cb969df8aff806">MR::RenderNameObject::Task::params</a></div><div class="ttdeci">const UiRenderParams * params</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga94930b2b823f3201a063943a02e44fe4"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga94930b2b823f3201a063943a02e44fe4">valid</a></div><div class="ttdeci">bool valid() const</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaba68004d56f0100e523093390f939910"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaba68004d56f0100e523093390f939910">plusZ</a></div><div class="ttdeci">static constexpr Vector3 plusZ() noexcept</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>BooleanBenchmarkExample</div>

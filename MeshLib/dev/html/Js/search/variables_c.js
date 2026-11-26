@@ -50,5 +50,7 @@ var searchData=
   ['numneighbours_47',['numNeighbours',['../classTriangulationParameters.html#a37dbbfe5c12d066381a74429b9f39512',1,'TriangulationParameters']]],
   ['numneis_48',['numNeis',['../classTriangulationHelpers_1_1Settings.html#a9ddbd62f0e1e375fd80a906c72b9db5d',1,'TriangulationHelpers::Settings']]],
   ['numsmallercomponents_49',['numSmallerComponents',['../classMeshComponents_1_1LargeByAreaComponentsSettings.html#a51d5defb5b0d1c54ce9b7833d9853145',1,'MeshComponents::LargeByAreaComponentsSettings::numSmallerComponents'],['../classPolylineComponents_1_1LargeByLengthComponentsSettings.html#ab9612800e96c5f13f51ece5c3103418e',1,'PolylineComponents::LargeByLengthComponentsSettings::numSmallerComponents']]],
-  ['numtris_50',['numTris',['../classHoleFillPlan.html#a42c718ecd73e11d03c0f5e62e824de24',1,'HoleFillPlan']]]
+  ['numtris_50',['numTris',['../classHoleFillPlan.html#a42c718ecd73e11d03c0f5e62e824de24',1,'HoleFillPlan']]],
+  ['numu_51',['numU',['../classBSplineSurfaceFitSettings.html#ae1bf37f7c1d11b4c1ffc46f147236b5e',1,'BSplineSurfaceFitSettings']]],
+  ['numv_52',['numV',['../classBSplineSurfaceFitSettings.html#a3ef5f806ebd7d408cb7d46a983ee4b87',1,'BSplineSurfaceFitSettings']]]
 ];

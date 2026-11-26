@@ -5,5 +5,11 @@ var searchData=
   ['kind_2',['Kind',['../structmeshlib_1_1filling__surface_1_1Kind.html',1,'meshlib::filling_surface']]],
   ['kind_3',['kind',['../structmeshlib_1_1FeatureObjectSharedProperty.html#ab58a70ff1cfea813ca9a434814393223',1,'meshlib::FeatureObjectSharedProperty']]],
   ['kind_5fmut_4',['kind_mut',['../structmeshlib_1_1FeatureObjectSharedProperty.html#ad96d3323dcebb2e630e24edd40ca23b3',1,'meshlib::FeatureObjectSharedProperty']]],
-  ['knows_5ftwins_5',['knows_twins',['../structmeshlib_1_1AlphaShapeData.html#a33d4831b7573cd9973e7464653e27ee1',1,'meshlib::AlphaShapeData']]]
+  ['knots_5',['knots',['../structmeshlib_1_1BSplineCurve.html#aa3e15c421861cfbb5514c03d11b4f8d2',1,'meshlib::BSplineCurve']]],
+  ['knots_5fmut_6',['knots_mut',['../structmeshlib_1_1BSplineCurve.html#acbd46812d89a93f84809944b9cc08911',1,'meshlib::BSplineCurve']]],
+  ['knots_5fu_7',['knots_u',['../structmeshlib_1_1BSplineSurface.html#a15285a541c0637d1e51d21b00a2a7738',1,'meshlib::BSplineSurface']]],
+  ['knots_5fu_5fmut_8',['knots_u_mut',['../structmeshlib_1_1BSplineSurface.html#aa503a4915a95ba5946b8acac2a727f63',1,'meshlib::BSplineSurface']]],
+  ['knots_5fv_9',['knots_v',['../structmeshlib_1_1BSplineSurface.html#a5fd93f2cfb62c53574dce009b14768a6',1,'meshlib::BSplineSurface']]],
+  ['knots_5fv_5fmut_10',['knots_v_mut',['../structmeshlib_1_1BSplineSurface.html#a3050413886f64d8875bc199660b737f5',1,'meshlib::BSplineSurface']]],
+  ['knows_5ftwins_11',['knows_twins',['../structmeshlib_1_1AlphaShapeData.html#a33d4831b7573cd9973e7464653e27ee1',1,'meshlib::AlphaShapeData']]]
 ];
