@@ -1,5 +1,7 @@
 var NAVTREEINDEX52 =
 {
+"structmeshlib_1_1EdgePathsBuilderT__MR__MetricToAStarPenalty__ReachedVert.html#af9ceb2a0ff23397234ec9f940398d54f":[9,5,0,0,0,303,10],
+"structmeshlib_1_1EdgePathsBuilderT__MR__MetricToAStarPenalty__ReachedVert.html#af9ceb2a0ff23397234ec9f940398d54f":[9,5,1,0,0,290,10],
 "structmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty.html":[9,5,0,0,0,304],
 "structmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty.html":[9,5,1,0,0,291],
 "structmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty.html#a46daddcebc0da1475b48b19a974edec7":[9,5,0,0,0,304,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX52 =
 "structmeshlib_1_1EdgeSegment.html#a2f5b3e0d2ef6f12ee9eeb3658e52bf6a":[9,5,0,0,0,311,10],
 "structmeshlib_1_1EdgeSegment.html#a2f5b3e0d2ef6f12ee9eeb3658e52bf6a":[9,5,1,0,0,298,10],
 "structmeshlib_1_1EdgeSegment.html#a3bdf0d1967d2209aec80903032494fce":[9,5,0,0,0,311,5],
-"structmeshlib_1_1EdgeSegment.html#a3bdf0d1967d2209aec80903032494fce":[9,5,1,0,0,298,5],
-"structmeshlib_1_1EdgeSegment.html#a5f808f95fe5f2058582b0c00e81e25c1":[9,5,0,0,0,311,4],
-"structmeshlib_1_1EdgeSegment.html#a5f808f95fe5f2058582b0c00e81e25c1":[9,5,1,0,0,298,4]
+"structmeshlib_1_1EdgeSegment.html#a3bdf0d1967d2209aec80903032494fce":[9,5,1,0,0,298,5]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a86643849d573e87b6dd3e459323b97a3":[9,0,1,0,1,52,1,10],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a86643849d573e87b6dd3e459323b97a3":[9,0,2,0,1,34,1,10],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a97127b609f58b4ac11085781558f55f6":[9,0,1,0,1,52,1,9],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a97127b609f58b4ac11085781558f55f6":[9,0,2,0,1,34,1,9],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2":[9,0,1,0,1,52,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1VertDistance.html#a7e288480095c91d543447305bb312076":[9,0,0,15,2,0,1],
 "structMR_1_1VertDistance.html#ab32da452523a0d3cd61407d73b038145":[9,0,0,15,2,0,3],
 "structMR_1_1VertDistance.html#ae19ef1f7b79abb8e541d35f8cb12a614":[9,0,0,15,2,0,0],
-"structMR_1_1VertPathInfo.html":[9,0,0,15,5],
-"structMR_1_1VertPathInfo.html":[9,0,0,19,220],
-"structMR_1_1ViewerSignals.html":[9,0,0,19,861]
+"structMR_1_1VertPathInfo.html":[9,0,0,15,5]
 };

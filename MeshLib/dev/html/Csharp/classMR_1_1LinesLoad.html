@@ -157,6 +157,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0b9702efb941478bc73c3c99e9ec9a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads polyline from file in .PLY format Generated from function <span class="tt"><a class="el" href="#a0b9702efb941478bc73c3c99e9ec9a61" title="loads polyline from file in .PLY format Generated from function MR.LinesLoad.fromPly....">MR.LinesLoad.fromPly</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:ac1d340f0d3b23a558f46ce576334e6d2" id="r_ac1d340f0d3b23a558f46ce576334e6d2"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Polyline3.html">MR.Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1d340f0d3b23a558f46ce576334e6d2">fromPly</a> (MR.Std.Istream in_, <a class="el" href="classMR_1_1Const__LinesLoadSettings.html">MR.Const_LinesLoadSettings</a>? settings=null)</td></tr>
 <tr class="memdesc:ac1d340f0d3b23a558f46ce576334e6d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads polyline from stream in .PLY format; important on Windows: in stream must be open in binary mode Generated from function <span class="tt"><a class="el" href="#a0b9702efb941478bc73c3c99e9ec9a61" title="loads polyline from file in .PLY format Generated from function MR.LinesLoad.fromPly....">MR.LinesLoad.fromPly</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:a1ec095f9258a7b07f029a3a5bb8a84f3" id="r_a1ec095f9258a7b07f029a3a5bb8a84f3"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Polyline3.html">MR.Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ec095f9258a7b07f029a3a5bb8a84f3">fromDxf</a> (string file, <a class="el" href="classMR_1_1Const__LinesLoadSettings.html">MR.Const_LinesLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a1ec095f9258a7b07f029a3a5bb8a84f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads polyline from file in .DXF format: LINE, LWPOLYLINE, POLYLINE, CIRCLE and ARC entities of ENTITIES section; arcs (including bulges of polylines) are approximated by segments Generated from function <span class="tt"><a class="el" href="#a1ec095f9258a7b07f029a3a5bb8a84f3" title="loads polyline from file in .DXF format: LINE, LWPOLYLINE, POLYLINE, CIRCLE and ARC entities of ENTIT...">MR.LinesLoad.fromDxf</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:a77ccb75b552cadbd32b4b2d7d9e0f685" id="r_a77ccb75b552cadbd32b4b2d7d9e0f685"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Polyline3.html">MR.Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77ccb75b552cadbd32b4b2d7d9e0f685">fromDxf</a> (MR.Std.Istream in_, <a class="el" href="classMR_1_1Const__LinesLoadSettings.html">MR.Const_LinesLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a77ccb75b552cadbd32b4b2d7d9e0f685"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads polyline from stream in .DXF format Generated from function <span class="tt"><a class="el" href="#a1ec095f9258a7b07f029a3a5bb8a84f3" title="loads polyline from file in .DXF format: LINE, LWPOLYLINE, POLYLINE, CIRCLE and ARC entities of ENTIT...">MR.LinesLoad.fromDxf</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:ad8a88425db54e0b1d81936ca884b200b" id="r_ad8a88425db54e0b1d81936ca884b200b"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Polyline3.html">MR.Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8a88425db54e0b1d81936ca884b200b">fromAnySupportedFormat</a> (string file, <a class="el" href="classMR_1_1Const__LinesLoadSettings.html">MR.Const_LinesLoadSettings</a>? settings=null)</td></tr>
 <tr class="memdesc:ad8a88425db54e0b1d81936ca884b200b"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads polyline from file in the format detected from file extension Generated from function <span class="tt"><a class="el" href="#ad8a88425db54e0b1d81936ca884b200b" title="loads polyline from file in the format detected from file extension Generated from function MR....">MR.LinesLoad.fromAnySupportedFormat</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a1d551a44ea9216efbfaf21d4942f5bdb" id="r_a1d551a44ea9216efbfaf21d4942f5bdb"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Polyline3.html">MR.Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d551a44ea9216efbfaf21d4942f5bdb">fromAnySupportedFormat</a> (MR.Std.Istream in_, string extension, <a class="el" href="classMR_1_1Const__LinesLoadSettings.html">MR.Const_LinesLoadSettings</a>? settings=null)</td></tr>
@@ -227,6 +231,68 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>loads polyline from file in the format detected from file extension Generated from function <span class="tt"><a class="el" href="#ad8a88425db54e0b1d81936ca884b200b" title="loads polyline from file in the format detected from file extension Generated from function MR....">MR.LinesLoad.fromAnySupportedFormat</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. </p>
+
+</div>
+</div>
+<a id="a77ccb75b552cadbd32b4b2d7d9e0f685" name="a77ccb75b552cadbd32b4b2d7d9e0f685"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77ccb75b552cadbd32b4b2d7d9e0f685">&#9670;&#160;</a></span>fromDxf() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1Polyline3.html">MR.Polyline3</a> MR.LinesLoad.fromDxf </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Istream</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__LinesLoadSettings.html">MR.Const_LinesLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loads polyline from stream in .DXF format Generated from function <span class="tt"><a class="el" href="#a1ec095f9258a7b07f029a3a5bb8a84f3" title="loads polyline from file in .DXF format: LINE, LWPOLYLINE, POLYLINE, CIRCLE and ARC entities of ENTIT...">MR.LinesLoad.fromDxf</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. </p>
+
+</div>
+</div>
+<a id="a1ec095f9258a7b07f029a3a5bb8a84f3" name="a1ec095f9258a7b07f029a3a5bb8a84f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ec095f9258a7b07f029a3a5bb8a84f3">&#9670;&#160;</a></span>fromDxf() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1Polyline3.html">MR.Polyline3</a> MR.LinesLoad.fromDxf </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__LinesLoadSettings.html">MR.Const_LinesLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loads polyline from file in .DXF format: LINE, LWPOLYLINE, POLYLINE, CIRCLE and ARC entities of ENTITIES section; arcs (including bulges of polylines) are approximated by segments Generated from function <span class="tt"><a class="el" href="#a1ec095f9258a7b07f029a3a5bb8a84f3" title="loads polyline from file in .DXF format: LINE, LWPOLYLINE, POLYLINE, CIRCLE and ARC entities of ENTIT...">MR.LinesLoad.fromDxf</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX133 =
 {
+"structmeshlib_1_1SymMatrix2i64.html#af74434fd04f15fc053ed071b616f989f":[9,5,1,0,0,1502,11],
+"structmeshlib_1_1SymMatrix3__unsigned__char.html":[9,5,0,0,0,1516],
 "structmeshlib_1_1SymMatrix3__unsigned__char.html":[9,5,1,0,0,1503],
 "structmeshlib_1_1SymMatrix3__unsigned__char.html#a08dd3368eea6abbcbc542ced34575b30":[9,5,0,0,0,1516,6],
 "structmeshlib_1_1SymMatrix3__unsigned__char.html#a08dd3368eea6abbcbc542ced34575b30":[9,5,1,0,0,1503,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX133 =
 "structmeshlib_1_1SymMatrix3f.html#add1f4839ff5d677ffdbb99d51790e59c":[9,5,1,0,0,1506,2],
 "structmeshlib_1_1SymMatrix3f.html#ae4ca92dd5474c1d4a403ef615a0d792e":[9,5,0,0,0,1519,0],
 "structmeshlib_1_1SymMatrix3f.html#ae4ca92dd5474c1d4a403ef615a0d792e":[9,5,1,0,0,1506,0],
-"structmeshlib_1_1SymMatrix3i.html":[9,5,0,0,0,1520],
-"structmeshlib_1_1SymMatrix3i.html":[9,5,1,0,0,1507],
-"structmeshlib_1_1SymMatrix3i.html#a063c740613c804ad8b90b86ef55c0fda":[9,5,0,0,0,1520,17]
+"structmeshlib_1_1SymMatrix3i.html":[9,5,0,0,0,1520]
 };

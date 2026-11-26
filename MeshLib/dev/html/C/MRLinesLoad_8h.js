@@ -2,6 +2,8 @@ var MRLinesLoad_8h =
 [
     [ "MR_LinesLoad_fromAnySupportedFormat_2", "MRLinesLoad_8h.html#a0b9dd44e384f50087be2efa5f099bb56", null ],
     [ "MR_LinesLoad_fromAnySupportedFormat_3", "MRLinesLoad_8h.html#a7add80154a6684501460c767fb94ed1d", null ],
+    [ "MR_LinesLoad_fromDxf_std_filesystem_path", "MRLinesLoad_8h.html#a58dbf5575d1b79b50319d39b010ea836", null ],
+    [ "MR_LinesLoad_fromDxf_std_istream", "MRLinesLoad_8h.html#a8a59b2554a1980a444a3203af9736e52", null ],
     [ "MR_LinesLoad_fromMrLines_std_filesystem_path", "MRLinesLoad_8h.html#aede610f72fa2371fd8e2ac33c77eab23", null ],
     [ "MR_LinesLoad_fromMrLines_std_istream", "MRLinesLoad_8h.html#ac28551655eb7b022ace77854ef5e9db6", null ],
     [ "MR_LinesLoad_fromPly_std_filesystem_path", "MRLinesLoad_8h.html#ac26ce2cc28aad999ab203942ee6e3821", null ],

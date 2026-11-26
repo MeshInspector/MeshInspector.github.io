@@ -2,6 +2,8 @@ var classMR_1_1LinesLoad =
 [
     [ "fromAnySupportedFormat", "classMR_1_1LinesLoad.html#a1d551a44ea9216efbfaf21d4942f5bdb", null ],
     [ "fromAnySupportedFormat", "classMR_1_1LinesLoad.html#ad8a88425db54e0b1d81936ca884b200b", null ],
+    [ "fromDxf", "classMR_1_1LinesLoad.html#a77ccb75b552cadbd32b4b2d7d9e0f685", null ],
+    [ "fromDxf", "classMR_1_1LinesLoad.html#a1ec095f9258a7b07f029a3a5bb8a84f3", null ],
     [ "fromMrLines", "classMR_1_1LinesLoad.html#a0760d05b020a4ba0e450e058d06fc168", null ],
     [ "fromMrLines", "classMR_1_1LinesLoad.html#a26e2b386dbb84ac8d5df9682723e3110", null ],
     [ "fromPly", "classMR_1_1LinesLoad.html#ac1d340f0d3b23a558f46ce576334e6d2", null ],

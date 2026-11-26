@@ -1,5 +1,7 @@
 var NAVTREEINDEX118 =
 {
+"structmeshlib_1_1Polynomial__double__2.html#a1d1a37e2e8adef0b8781060a53a4704f":[9,5,1,0,0,836,4],
+"structmeshlib_1_1Polynomial__double__2.html#a27139d94184bf93a7060f4d4de62bda1":[9,5,0,0,0,849,1],
 "structmeshlib_1_1Polynomial__double__2.html#a27139d94184bf93a7060f4d4de62bda1":[9,5,1,0,0,836,1],
 "structmeshlib_1_1Polynomial__double__2.html#aa8f690ade32a443e7715bd9cbc1f1c7e":[9,5,0,0,0,849,2],
 "structmeshlib_1_1Polynomial__double__2.html#aa8f690ade32a443e7715bd9cbc1f1c7e":[9,5,1,0,0,836,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX118 =
 "structmeshlib_1_1PreciseVertCoords.html#aef9962514a55502340a8744973db5a33":[9,5,1,0,0,856,4],
 "structmeshlib_1_1PreciseVertCoords2.html":[9,5,0,0,0,870],
 "structmeshlib_1_1PreciseVertCoords2.html":[9,5,1,0,0,857],
-"structmeshlib_1_1PreciseVertCoords2.html#a4e16a5b565debbe9133676b4be107bdd":[9,5,0,0,0,870,2],
-"structmeshlib_1_1PreciseVertCoords2.html#a4e16a5b565debbe9133676b4be107bdd":[9,5,1,0,0,857,2],
-"structmeshlib_1_1PreciseVertCoords2.html#a7e6ba47d16629411d414245763b13c63":[9,5,0,0,0,870,6]
+"structmeshlib_1_1PreciseVertCoords2.html#a4e16a5b565debbe9133676b4be107bdd":[9,5,0,0,0,870,2]
 };

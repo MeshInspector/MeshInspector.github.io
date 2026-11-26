@@ -1,5 +1,7 @@
 var NAVTREEINDEX126 =
 {
+"structmeshlib_1_1SetBitIteratorT__MR__PixelBitSet.html":[9,5,1,0,0,919],
+"structmeshlib_1_1SetBitIteratorT__MR__PixelBitSet.html#a2ff3ac5f86aee80b102916c0d8e15df3":[9,5,0,0,0,932,3],
 "structmeshlib_1_1SetBitIteratorT__MR__PixelBitSet.html#a2ff3ac5f86aee80b102916c0d8e15df3":[9,5,1,0,0,919,3],
 "structmeshlib_1_1SetBitIteratorT__MR__PixelBitSet.html#a602a42a85904deceb1e8bb062c0e1ed5":[9,5,0,0,0,932,0],
 "structmeshlib_1_1SetBitIteratorT__MR__PixelBitSet.html#a602a42a85904deceb1e8bb062c0e1ed5":[9,5,1,0,0,919,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX126 =
 "structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#aeeea434e2cbb87be2f4dc4f17e43751c":[9,5,1,0,0,926,17],
 "structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#af44a5faffc0d889d9327a1b99c5c0385":[9,5,0,0,0,939,28],
 "structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#af44a5faffc0d889d9327a1b99c5c0385":[9,5,1,0,0,926,28],
-"structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#af61ebdf59a0b58971e92dac9d7b643c7":[9,5,0,0,0,939,12],
-"structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#af61ebdf59a0b58971e92dac9d7b643c7":[9,5,1,0,0,926,12],
-"structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#af833ba130e647173db6ecac1035abf32":[9,5,0,0,0,939,10]
+"structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#af61ebdf59a0b58971e92dac9d7b643c7":[9,5,0,0,0,939,12]
 };

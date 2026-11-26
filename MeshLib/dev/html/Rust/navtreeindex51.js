@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"structmeshlib_1_1EdgeColors.html#aabaa9652f20d0d895015e0b79c439446":[9,5,0,0,0,297,37],
+"structmeshlib_1_1EdgeColors.html#aabaa9652f20d0d895015e0b79c439446":[9,5,1,0,0,284,37],
 "structmeshlib_1_1EdgeColors.html#aafb5414ce7ee87a8e5d1305d2fe40869":[9,5,0,0,0,297,2],
 "structmeshlib_1_1EdgeColors.html#aafb5414ce7ee87a8e5d1305d2fe40869":[9,5,1,0,0,284,2],
 "structmeshlib_1_1EdgeColors.html#abb38de0e3c132bce8c683598f8cdc3d0":[9,5,0,0,0,297,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "structmeshlib_1_1EdgePathsBuilderT__MR__MetricToAStarPenalty__ReachedVert.html#af3aa6bec52ea6221730b3b4c25368dc3":[9,5,0,0,0,303,9],
 "structmeshlib_1_1EdgePathsBuilderT__MR__MetricToAStarPenalty__ReachedVert.html#af3aa6bec52ea6221730b3b4c25368dc3":[9,5,1,0,0,290,9],
 "structmeshlib_1_1EdgePathsBuilderT__MR__MetricToAStarPenalty__ReachedVert.html#af42a52f51dc6f1d8794fb4c602d51880":[9,5,0,0,0,303,11],
-"structmeshlib_1_1EdgePathsBuilderT__MR__MetricToAStarPenalty__ReachedVert.html#af42a52f51dc6f1d8794fb4c602d51880":[9,5,1,0,0,290,11],
-"structmeshlib_1_1EdgePathsBuilderT__MR__MetricToAStarPenalty__ReachedVert.html#af9ceb2a0ff23397234ec9f940398d54f":[9,5,0,0,0,303,10],
-"structmeshlib_1_1EdgePathsBuilderT__MR__MetricToAStarPenalty__ReachedVert.html#af9ceb2a0ff23397234ec9f940398d54f":[9,5,1,0,0,290,10]
+"structmeshlib_1_1EdgePathsBuilderT__MR__MetricToAStarPenalty__ReachedVert.html#af42a52f51dc6f1d8794fb4c602d51880":[9,5,1,0,0,290,11]
 };

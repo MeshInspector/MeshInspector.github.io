@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"structmeshlib_1_1ColoringType.html":[9,5,0,0,0,211],
+"structmeshlib_1_1ColoringType.html":[9,5,1,0,0,198],
 "structmeshlib_1_1CombinedHistoryAction.html":[9,5,0,0,0,218],
 "structmeshlib_1_1CombinedHistoryAction.html":[9,5,1,0,0,205],
 "structmeshlib_1_1CombinedHistoryAction.html#a229a0ccf73658efb57376c74156056ab":[9,5,0,0,0,218,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "structmeshlib_1_1Cone3f.html#a18fdfec620f766440a1c9e79ccc474e0":[9,5,0,0,0,226,0],
 "structmeshlib_1_1Cone3f.html#a18fdfec620f766440a1c9e79ccc474e0":[9,5,1,0,0,213,0],
 "structmeshlib_1_1Cone3f.html#a24d2417c28b918ab64802dae65506fce":[9,5,0,0,0,226,7],
-"structmeshlib_1_1Cone3f.html#a24d2417c28b918ab64802dae65506fce":[9,5,1,0,0,213,7],
-"structmeshlib_1_1Cone3f.html#a2832404376df49d81ea03ef4a378d104":[9,5,0,0,0,226,1],
-"structmeshlib_1_1Cone3f.html#a2832404376df49d81ea03ef4a378d104":[9,5,1,0,0,213,1]
+"structmeshlib_1_1Cone3f.html#a24d2417c28b918ab64802dae65506fce":[9,5,1,0,0,213,7]
 };

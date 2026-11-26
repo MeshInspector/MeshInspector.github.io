@@ -1,5 +1,7 @@
 var NAVTREEINDEX127 =
 {
+"structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#af61ebdf59a0b58971e92dac9d7b643c7":[9,5,1,0,0,926,12],
+"structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#af833ba130e647173db6ecac1035abf32":[9,5,0,0,0,939,10],
 "structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#af833ba130e647173db6ecac1035abf32":[9,5,1,0,0,926,10],
 "structmeshlib_1_1ShellVertexInfo.html":[9,5,0,0,0,941],
 "structmeshlib_1_1ShellVertexInfo.html":[9,5,1,0,0,928],
@@ -247,7 +249,5 @@ var NAVTREEINDEX127 =
 "structmeshlib_1_1SimpleVolume.html#afe693e72b6e80a6ae6a41747315fe2cf":[9,5,1,0,0,939,5],
 "structmeshlib_1_1SimpleVolumeMinMax.html":[9,5,0,0,0,953],
 "structmeshlib_1_1SimpleVolumeMinMax.html":[9,5,1,0,0,940],
-"structmeshlib_1_1SimpleVolumeMinMax.html#a0273b7e07ba7053ed53d6db5aa62b417":[9,5,0,0,0,953,15],
-"structmeshlib_1_1SimpleVolumeMinMax.html#a0273b7e07ba7053ed53d6db5aa62b417":[9,5,1,0,0,940,15],
-"structmeshlib_1_1SimpleVolumeMinMax.html#a151490b62133b6ac2c9e2bd41df2b49f":[9,5,0,0,0,953,16]
+"structmeshlib_1_1SimpleVolumeMinMax.html#a0273b7e07ba7053ed53d6db5aa62b417":[9,5,0,0,0,953,15]
 };

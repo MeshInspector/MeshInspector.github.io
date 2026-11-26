@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1VertPathInfo.html":[9,0,0,19,220],
+"structMR_1_1ViewerSignals.html":[9,0,0,19,861],
 "structMR_1_1ViewportGL_1_1BasePickResult.html":[9,0,0,19,875],
 "structMR_1_1ViewportGL_1_1PickParameters.html":[9,0,0,19,874],
 "structMR_1_1ViewportGL_1_1PickResult.html":[9,0,0,19,876],

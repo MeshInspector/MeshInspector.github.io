@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"std__optional__MR__SignedDistanceToMeshResult_8rs.html":[9,5,2,0,0,1,3,242],
+"std__optional__MR__Sphere2d_8rs.html":[9,5,2,0,0,1,3,243],
 "std__optional__MR__Sphere3d_8rs.html":[9,5,2,0,0,1,3,244],
 "std__optional__MR__ThreeVertIds_8rs.html":[9,5,2,0,0,1,3,245],
 "std__optional__MR__Torus3d_8rs.html":[9,5,2,0,0,1,3,246],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "std__vector__MR__Heap__float__MR__GraphVertId__std__greater__float__Element_8rs.html":[9,5,2,0,0,1,3,494],
 "std__vector__MR__HoleFillPlan_8rs.html":[9,5,2,0,0,1,3,495],
 "std__vector__MR__ICPGroupPair_8rs.html":[9,5,2,0,0,1,3,496],
-"std__vector__MR__ICPGroupPairs__MR__Allocator__MR__ICPGroupPairs_8rs.html":[9,5,2,0,0,1,3,497],
-"std__vector__MR__IOFilter_8rs.html":[9,5,2,0,0,1,3,501],
-"std__vector__MR__Id__MR__ICPElemtTag__MR__Allocator__MR__Id__MR__ICPElemtTag_8rs.html":[9,5,2,0,0,1,3,498]
+"std__vector__MR__ICPGroupPairs__MR__Allocator__MR__ICPGroupPairs_8rs.html":[9,5,2,0,0,1,3,497]
 };

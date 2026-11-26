@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[9,0,2,0,1,203,6],
+"structMR_1_1DeloneSettings.html#aa9b9e4eb7d2bb9781d1170012f3c98b2":[9,0,1,0,1,223,0],
 "structMR_1_1DeloneSettings.html#aa9b9e4eb7d2bb9781d1170012f3c98b2":[9,0,2,0,1,203,0],
 "structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[9,0,1,0,1,223,1],
 "structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[9,0,2,0,1,203,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1GeodesicPath.html#a8bce91a8b92164a84457e09d2f498961":[9,0,0,15,3,0,1],
 "structMR_1_1GeodesicPath.html#af134007969afd8d9e0854c05ab72e99b":[9,0,0,15,3,0,3],
 "structMR_1_1GlTexture_1_1Settings.html":[9,0,0,19,637],
-"structMR_1_1GlobalRegistrationParams.html":[9,0,0,19,290],
-"structMR_1_1GlobalRegistrationResult.html":[9,0,0,19,291],
-"structMR_1_1Graph_1_1EndVertices.html":[9,0,0,19,293]
+"structMR_1_1GlobalRegistrationParams.html":[9,0,0,19,290]
 };

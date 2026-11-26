@@ -1,5 +1,7 @@
 var NAVTREEINDEX217 =
 {
+"structmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomiafc2d05366f5347d774d1523b0a1de639.html#aa5b3daae7995156c72a4ce887e482f24":[9,5,1,0,0,1291,8],
+"structmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomiafc2d05366f5347d774d1523b0a1de639.html#ab7a034f5562462e396a80adef27a1dea":[9,5,0,0,0,1304,16],
 "structmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomiafc2d05366f5347d774d1523b0a1de639.html#ab7a034f5562462e396a80adef27a1dea":[9,5,1,0,0,1291,16],
 "structmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomiafc2d05366f5347d774d1523b0a1de639.html#abfe8b26657e82d9678224b7ac9d23b78":[9,5,0,0,0,1304,14],
 "structmeshlib_1_1std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomiafc2d05366f5347d774d1523b0a1de639.html#abfe8b26657e82d9678224b7ac9d23b78":[9,5,1,0,0,1291,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX217 =
 "structmeshlib_1_1std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__B8452a130bca70936780ae1e4904d0d74.html#adedb4d3cef147ec71ce459fad130f54d":[9,5,1,0,0,1309,17],
 "structmeshlib_1_1std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__B8452a130bca70936780ae1e4904d0d74.html#aea7ab1e9f6bb33d7f0cfcf4bc92390f2":[9,5,0,0,0,1322,16],
 "structmeshlib_1_1std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__B8452a130bca70936780ae1e4904d0d74.html#aea7ab1e9f6bb33d7f0cfcf4bc92390f2":[9,5,1,0,0,1309,16],
-"structmeshlib_1_1std__vector__MR__AABBTreeNode__MR__ObjTreeTraits__MR__Allocator__MR__AABBTreeNode__MR__ObjTreeTraits.html":[9,5,0,0,0,1323],
-"structmeshlib_1_1std__vector__MR__AABBTreeNode__MR__ObjTreeTraits__MR__Allocator__MR__AABBTreeNode__MR__ObjTreeTraits.html":[9,5,1,0,0,1310],
-"structmeshlib_1_1std__vector__MR__AABBTreeNode__MR__ObjTreeTraits__MR__Allocator__MR__AABBTreeNode__MR__ObjTreeTraits.html#a07678db8cab66e57ec123d51f732caa4":[9,5,0,0,0,1323,1]
+"structmeshlib_1_1std__vector__MR__AABBTreeNode__MR__ObjTreeTraits__MR__Allocator__MR__AABBTreeNode__MR__ObjTreeTraits.html":[9,5,0,0,0,1323]
 };

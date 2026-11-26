@@ -1,5 +1,7 @@
 var NAVTREEINDEX145 =
 {
+"MRWeightedPointsShell_8h.html#afa48f38f4c78e4a5bbb2fd060782d0d9":[9,2,2,0,0,0,0,4,40,2],
+"MRWeightedPointsShell_8h.html#afbe07936bd5ddc6db30899509b0a9f16":[9,2,2,0,0,0,0,4,40,90],
 "MRWeightedPointsShell_8h.html#afeabc302754f176c03033e1bb97f7701":[9,2,2,0,0,0,0,4,40,36],
 "MRWeightedPointsShell_8h_source.html":[9,2,2,0,0,0,0,4,40],
 "MRXfBasedCache_8h.html":[9,2,2,0,0,0,0,1,396],
@@ -247,7 +249,5 @@ var NAVTREEINDEX145 =
 "expected__MR__FaceBitSet__std__string_8h.html#a5938223e494eab5a1232cc0c9aee3d3c":[9,2,2,0,0,0,0,2,7,7],
 "expected__MR__FaceBitSet__std__string_8h.html#a658d9fd3423247e63cce4c66bdcd0f5e":[9,2,2,0,0,0,0,2,7,10],
 "expected__MR__FaceBitSet__std__string_8h.html#a80b9b99cb90a6411f3055c8f2d25d28b":[9,2,2,0,0,0,0,2,7,2],
-"expected__MR__FaceBitSet__std__string_8h.html#aba42a0a034a20bf97c863a2f1432b163":[9,2,2,0,0,0,0,2,7,9],
-"expected__MR__FaceBitSet__std__string_8h.html#ac17cae4c64f9a17975b75e7a899bdbab":[9,2,2,0,0,0,0,2,7,1],
-"expected__MR__FaceBitSet__std__string_8h.html#acce71c2990c0250a6836245e5766fdde":[9,2,2,0,0,0,0,2,7,6]
+"expected__MR__FaceBitSet__std__string_8h.html#aba42a0a034a20bf97c863a2f1432b163":[9,2,2,0,0,0,0,2,7,9]
 };

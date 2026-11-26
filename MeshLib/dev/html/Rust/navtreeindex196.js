@@ -1,5 +1,7 @@
 var NAVTREEINDEX196 =
 {
+"structmeshlib_1_1points__load_1_1MultiScanLoadSettings.html#a19053348f6b96b9f4602d65045473fd2":[9,5,1,0,0,13,1,1],
+"structmeshlib_1_1points__load_1_1MultiScanLoadSettings.html#a2963b711ae5bb8dbc0d07b5058222a83":[9,5,0,0,0,25,1,4],
 "structmeshlib_1_1points__load_1_1MultiScanLoadSettings.html#a2963b711ae5bb8dbc0d07b5058222a83":[9,5,1,0,0,13,1,4],
 "structmeshlib_1_1points__load_1_1MultiScanLoadSettings.html#a2a35a0a2d5f7420c0f6dd59b8ed143e1":[9,5,0,0,0,25,1,8],
 "structmeshlib_1_1points__load_1_1MultiScanLoadSettings.html#a2a35a0a2d5f7420c0f6dd59b8ed143e1":[9,5,1,0,0,13,1,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX196 =
 "structmeshlib_1_1scene__save_1_1Settings.html#aedd42b2622710100dde39aa5c7792e7a":[9,5,1,0,0,18,0,2],
 "structmeshlib_1_1self__intersections_1_1Settings.html":[9,5,0,0,0,32,0],
 "structmeshlib_1_1self__intersections_1_1Settings.html":[9,5,1,0,0,19,0],
-"structmeshlib_1_1self__intersections_1_1Settings.html#a1c34ae8152070440859086fc3ea30f54":[9,5,0,0,0,32,0,15],
-"structmeshlib_1_1self__intersections_1_1Settings.html#a1c34ae8152070440859086fc3ea30f54":[9,5,1,0,0,19,0,15],
-"structmeshlib_1_1self__intersections_1_1Settings.html#a28a5fd38e7f952c22e2a2bf968e122ee":[9,5,0,0,0,32,0,22]
+"structmeshlib_1_1self__intersections_1_1Settings.html#a1c34ae8152070440859086fc3ea30f54":[9,5,0,0,0,32,0,15]
 };

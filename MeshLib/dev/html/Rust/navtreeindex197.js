@@ -1,5 +1,7 @@
 var NAVTREEINDEX197 =
 {
+"structmeshlib_1_1self__intersections_1_1Settings.html#a1c34ae8152070440859086fc3ea30f54":[9,5,1,0,0,19,0,15],
+"structmeshlib_1_1self__intersections_1_1Settings.html#a28a5fd38e7f952c22e2a2bf968e122ee":[9,5,0,0,0,32,0,22],
 "structmeshlib_1_1self__intersections_1_1Settings.html#a28a5fd38e7f952c22e2a2bf968e122ee":[9,5,1,0,0,19,0,22],
 "structmeshlib_1_1self__intersections_1_1Settings.html#a36a78d0021df0bebcad973260560edda":[9,5,0,0,0,32,0,6],
 "structmeshlib_1_1self__intersections_1_1Settings.html#a36a78d0021df0bebcad973260560edda":[9,5,1,0,0,19,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX197 =
 "structmeshlib_1_1std__array__double__4.html#a4f9e518ecea99de74942fa8445a6aeb6":[9,5,1,0,0,959,0],
 "structmeshlib_1_1std__array__float__33.html":[9,5,0,0,0,973],
 "structmeshlib_1_1std__array__float__33.html":[9,5,1,0,0,960],
-"structmeshlib_1_1std__array__float__33.html#aca33d3135eaa95fffe8fe5999ed69c7c":[9,5,0,0,0,973,0],
-"structmeshlib_1_1std__array__float__33.html#aca33d3135eaa95fffe8fe5999ed69c7c":[9,5,1,0,0,960,0],
-"structmeshlib_1_1std__array__float__4.html":[9,5,0,0,0,974]
+"structmeshlib_1_1std__array__float__33.html#aca33d3135eaa95fffe8fe5999ed69c7c":[9,5,0,0,0,973,0]
 };

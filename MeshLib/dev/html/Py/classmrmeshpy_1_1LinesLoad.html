@@ -141,6 +141,8 @@ $(function(){initNavTree('classmrmeshpy_1_1LinesLoad.html','','classmrmeshpy_1_1
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab6c868d23f2799da4f04db699a19b4f9" id="r_ab6c868d23f2799da4f04db699a19b4f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6c868d23f2799da4f04db699a19b4f9">fromAnySupportedFormat</a> (os.PathLike|str|bytes file, <a class="el" href="classmrmeshpy_1_1ConstLinesLoadSettings.html">ConstLinesLoadSettings</a> settings=...)</td></tr>
 <tr class="memitem:a438015b9420c3a2f2560da2854fe9c7f" id="r_a438015b9420c3a2f2560da2854fe9c7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a438015b9420c3a2f2560da2854fe9c7f">fromAnySupportedFormat</a> (typing.Any in_, str extension, <a class="el" href="classmrmeshpy_1_1ConstLinesLoadSettings.html">ConstLinesLoadSettings</a> settings=...)</td></tr>
+<tr class="memitem:afe8c61de0ca163615692d3f30d2733ad" id="r_afe8c61de0ca163615692d3f30d2733ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe8c61de0ca163615692d3f30d2733ad">fromDxf</a> (os.PathLike|str|bytes file, <a class="el" href="classmrmeshpy_1_1ConstLinesLoadSettings.html">ConstLinesLoadSettings</a> settings=...)</td></tr>
+<tr class="memitem:aa454b78ae0e24248b1c2c4107307691c" id="r_aa454b78ae0e24248b1c2c4107307691c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa454b78ae0e24248b1c2c4107307691c">fromDxf</a> (typing.Any in_, <a class="el" href="classmrmeshpy_1_1ConstLinesLoadSettings.html">ConstLinesLoadSettings</a> settings=...)</td></tr>
 <tr class="memitem:a86e8fdb0f8de4310bd985702f661bca7" id="r_a86e8fdb0f8de4310bd985702f661bca7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86e8fdb0f8de4310bd985702f661bca7">fromMrLines</a> (os.PathLike|str|bytes file, <a class="el" href="classmrmeshpy_1_1ConstLinesLoadSettings.html">ConstLinesLoadSettings</a> settings=...)</td></tr>
 <tr class="memitem:ab8dd99494daf299e563529eb28816036" id="r_ab8dd99494daf299e563529eb28816036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8dd99494daf299e563529eb28816036">fromMrLines</a> (typing.Any in_, <a class="el" href="classmrmeshpy_1_1ConstLinesLoadSettings.html">ConstLinesLoadSettings</a> settings=...)</td></tr>
 <tr class="memitem:ad4609333ea25abd8018aeb9c3845396e" id="r_ad4609333ea25abd8018aeb9c3845396e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4609333ea25abd8018aeb9c3845396e">fromPly</a> (os.PathLike|str|bytes file, <a class="el" href="classmrmeshpy_1_1ConstLinesLoadSettings.html">ConstLinesLoadSettings</a> settings=...)</td></tr>
@@ -217,6 +219,67 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <pre class="fragment">loads polyline from stream in the format detected from given extension-string (`*.ext`);
 important on Windows: in stream must be open in binary mode
+</pre> 
+</div>
+</div>
+<a id="afe8c61de0ca163615692d3f30d2733ad" name="afe8c61de0ca163615692d3f30d2733ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe8c61de0ca163615692d3f30d2733ad">&#9670;&#160;</a></span>fromDxf() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a> mrmeshpy.LinesLoad.fromDxf </td>
+          <td>(</td>
+          <td class="paramtype">os.PathLike | str | bytes</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstLinesLoadSettings.html">ConstLinesLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">...</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads polyline from file in .DXF format: LINE, LWPOLYLINE, POLYLINE, CIRCLE and ARC entities of ENTITIES section;
+arcs (including bulges of polylines) are approximated by segments
+</pre> 
+</div>
+</div>
+<a id="aa454b78ae0e24248b1c2c4107307691c" name="aa454b78ae0e24248b1c2c4107307691c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa454b78ae0e24248b1c2c4107307691c">&#9670;&#160;</a></span>fromDxf() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a> mrmeshpy.LinesLoad.fromDxf </td>
+          <td>(</td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstLinesLoadSettings.html">ConstLinesLoadSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">...</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">loads polyline from stream in .DXF format
 </pre> 
 </div>
 </div>

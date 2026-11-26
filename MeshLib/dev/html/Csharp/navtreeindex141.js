@@ -1,5 +1,7 @@
 var NAVTREEINDEX141 =
 {
+"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#ace112ee2636b4c56f8018ec4b1f807d9":[9,3,0,0,0,1768,4,4],
+"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#ae287341475fb4c6cf9f8ba294a5624d6":[9,3,0,0,0,1768,4,0],
 "classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#ae6d939d19e60def089133853e31f0706":[9,3,0,0,0,1768,4,10],
 "classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html":[9,3,0,0,0,1768,5],
 "classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#a020e2180cb8de6a869bf6dc49a1fd880":[9,3,0,0,0,1768,5,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX141 =
 "classMR_1_1SymMatrix4__UnsignedChar.html#ae223c73900d3c2d09794c30edbaf22d9":[9,3,0,0,0,1785,10],
 "classMR_1_1SymMatrix4__UnsignedChar.html#aec1d5e18ca565fae2f680dcfae57a84e":[9,3,0,0,0,1785,6],
 "classMR_1_1SymMatrix4__UnsignedChar.html#aef0b053caa5fb9d3bcbfe12beeeeaa27":[9,3,0,0,0,1785,1],
-"classMR_1_1SymMatrix4__UnsignedChar.html#af1faa0c3f64c8991a7fafa937954ff9f":[9,3,0,0,0,1785,14],
-"classMR_1_1SymMatrix4__UnsignedChar.html#af7ad727ddfc2c8cd9d243bfe3e0d63d1":[9,3,0,0,0,1785,3],
-"classMR_1_1SymMatrix4b.html":[9,3,0,0,0,1786]
+"classMR_1_1SymMatrix4__UnsignedChar.html#af1faa0c3f64c8991a7fafa937954ff9f":[9,3,0,0,0,1785,14]
 };

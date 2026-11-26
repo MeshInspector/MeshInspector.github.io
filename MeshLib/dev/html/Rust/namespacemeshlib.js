@@ -54,6 +54,8 @@ var namespacemeshlib =
     [ "lines_load", "namespacemeshlib_1_1lines__load.html", [
       [ "from_any_supported_format_2", "namespacemeshlib_1_1lines__load.html#a1ad6d94af4f432a4f71857712bf7966a", null ],
       [ "from_any_supported_format_3", "namespacemeshlib_1_1lines__load.html#a089137ab9eb1a37ac781b3a666e91d66", null ],
+      [ "from_dxf_std_filesystem_path", "namespacemeshlib_1_1lines__load.html#a9ce9d78035a013dd3590358bd43d33be", null ],
+      [ "from_dxf_std_istream", "namespacemeshlib_1_1lines__load.html#aa905dbe25a399a526d32dbad57106235", null ],
       [ "from_mr_lines_std_filesystem_path", "namespacemeshlib_1_1lines__load.html#a927d169f84cce0eb6c5a17e5fc683501", null ],
       [ "from_mr_lines_std_istream", "namespacemeshlib_1_1lines__load.html#a052e4abbab1b5585cd5b5893728a3115", null ],
       [ "from_ply_std_filesystem_path", "namespacemeshlib_1_1lines__load.html#ac847978ab12b3194edb1666968c88b43", null ],

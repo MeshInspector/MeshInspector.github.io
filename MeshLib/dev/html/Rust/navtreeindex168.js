@@ -1,5 +1,7 @@
 var NAVTREEINDEX168 =
 {
+"structmeshlib_1_1Vector__int__MR__GraphEdgeId.html#a662333fa8a12f1c292e704c3d7b787b7":[9,5,1,0,0,1613,33],
+"structmeshlib_1_1Vector__int__MR__GraphEdgeId.html#a6ef0da16c2405789bafefd728ca9926b":[9,5,0,0,0,1626,1],
 "structmeshlib_1_1Vector__int__MR__GraphEdgeId.html#a6ef0da16c2405789bafefd728ca9926b":[9,5,1,0,0,1613,1],
 "structmeshlib_1_1Vector__int__MR__GraphEdgeId.html#a70fcffeb0d9ca20fa4a5f79dde8e7c13":[9,5,0,0,0,1626,36],
 "structmeshlib_1_1Vector__int__MR__GraphEdgeId.html#a70fcffeb0d9ca20fa4a5f79dde8e7c13":[9,5,1,0,0,1613,36],
@@ -247,7 +249,5 @@ var NAVTREEINDEX168 =
 "structmeshlib_1_1Vector__int__MR__UndirectedEdgeId.html#aa4d90668fc38b8df1a3ad161ce7572a2":[9,5,1,0,0,1616,10],
 "structmeshlib_1_1Vector__int__MR__UndirectedEdgeId.html#aa697792dc4aebacfec9e84f10442b285":[9,5,0,0,0,1629,13],
 "structmeshlib_1_1Vector__int__MR__UndirectedEdgeId.html#aa697792dc4aebacfec9e84f10442b285":[9,5,1,0,0,1616,13],
-"structmeshlib_1_1Vector__int__MR__UndirectedEdgeId.html#aab9ac962afd1cb9e9ce5d26f306d25ff":[9,5,0,0,0,1629,18],
-"structmeshlib_1_1Vector__int__MR__UndirectedEdgeId.html#aab9ac962afd1cb9e9ce5d26f306d25ff":[9,5,1,0,0,1616,18],
-"structmeshlib_1_1Vector__int__MR__UndirectedEdgeId.html#aaddb0e0123f060786535b87801c16d9c":[9,5,0,0,0,1629,8]
+"structmeshlib_1_1Vector__int__MR__UndirectedEdgeId.html#aab9ac962afd1cb9e9ce5d26f306d25ff":[9,5,0,0,0,1629,18]
 };

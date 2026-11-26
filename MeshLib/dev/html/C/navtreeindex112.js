@@ -1,5 +1,7 @@
 var NAVTREEINDEX112 =
 {
+"MRTorus3_8h.html#afb41e097c71f4f096d004d3a3ac7067f":[9,2,2,0,0,0,0,1,367,33],
+"MRTorus3_8h_source.html":[9,2,2,0,0,0,0,1,367],
 "MRTorus_8h.html":[9,2,2,0,0,0,0,1,366],
 "MRTorus_8h.html#a092c27385de77ac4ed467f3b117450d2":[9,2,2,0,0,0,0,1,366,3],
 "MRTorus_8h.html#a2400562ce98392bd3be072697a88addb":[9,2,2,0,0,0,0,1,366,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX112 =
 "MRTriPoint_8h.html#a367a5a0fdb968ff5f4d33bae22d28d32":[9,2,2,0,0,0,0,1,374,42],
 "MRTriPoint_8h.html#a3a95bc9908c7c4b6ca106ea04b7ca9af":[9,2,2,0,0,0,0,1,374,37],
 "MRTriPoint_8h.html#a3c408d3c78848249e37a218ba4f42a65":[9,2,2,0,0,0,0,1,374,39],
-"MRTriPoint_8h.html#a3f4fa186e8b2b8f257ab02098e5b322c":[9,2,2,0,0,0,0,1,374,20],
-"MRTriPoint_8h.html#a4e854ec778dc7c5cf2f3fb0984e53f67":[9,2,2,0,0,0,0,1,374,31],
-"MRTriPoint_8h.html#a5767de4b4e90ed2bb0d8e89022e74d0b":[9,2,2,0,0,0,0,1,374,13]
+"MRTriPoint_8h.html#a3f4fa186e8b2b8f257ab02098e5b322c":[9,2,2,0,0,0,0,1,374,20]
 };

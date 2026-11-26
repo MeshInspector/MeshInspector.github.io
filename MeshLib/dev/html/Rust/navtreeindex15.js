@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"namespacemeshlib_1_1polyline__components.html#a6d25987fe4ec9a809ccaf8b2196a7952":[9,5,0,0,0,27,4],
+"namespacemeshlib_1_1polyline__components.html#ab4ae19b616ea826c9d5a214e676060c3":[9,5,0,0,0,27,2],
 "namespacemeshlib_1_1polyline__components.html#ad30f53a290ca5eadd04e878cbaf2722d":[9,5,0,0,0,27,7],
 "namespacemeshlib_1_1polyline__components.html#af06000a717e8a0d4344833629b9dd72a":[9,5,0,0,0,27,5],
 "namespacemeshlib_1_1polyline__components.html#afb03989e0efad699dc985895785ea0c1":[9,5,0,0,0,27,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "std__optional__MR__Plane3d_8rs.html":[9,5,2,0,0,1,3,238],
 "std__optional__MR__Plane3f_8rs.html":[9,5,2,0,0,1,3,239],
 "std__optional__MR__PointCloud_8rs.html":[9,5,2,0,0,1,3,240],
-"std__optional__MR__PolylineIntersectionResult2_8rs.html":[9,5,2,0,0,1,3,241],
-"std__optional__MR__SignedDistanceToMeshResult_8rs.html":[9,5,2,0,0,1,3,242],
-"std__optional__MR__Sphere2d_8rs.html":[9,5,2,0,0,1,3,243]
+"std__optional__MR__PolylineIntersectionResult2_8rs.html":[9,5,2,0,0,1,3,241]
 };
