@@ -1,5 +1,13 @@
 var NAVTREEINDEX45 =
 {
+"classmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty__ReachedVert.html":[9,6,1,0,0,309],
+"classmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty__ReachedVert.html#a089d70dcb1e679a5f43cffba41641d20":[9,6,0,0,0,309,12],
+"classmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty__ReachedVert.html#a089d70dcb1e679a5f43cffba41641d20":[9,6,1,0,0,309,12],
+"classmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty__ReachedVert.html#a632f7ad9ab161388e98a800f03706ba6":[9,6,0,0,0,309,0],
+"classmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty__ReachedVert.html#a632f7ad9ab161388e98a800f03706ba6":[9,6,1,0,0,309,0],
+"classmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty__ReachedVert.html#a6ef14cdea0c4c580c0d4a3ec6cf09bed":[9,6,0,0,0,309,6],
+"classmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty__ReachedVert.html#a6ef14cdea0c4c580c0d4a3ec6cf09bed":[9,6,1,0,0,309,6],
+"classmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty__ReachedVert.html#a79137d484c3cd0d767009768713e35a0":[9,6,0,0,0,309,11],
 "classmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty__ReachedVert.html#a79137d484c3cd0d767009768713e35a0":[9,6,1,0,0,309,11],
 "classmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty__ReachedVert.html#a81f3b4a4fd4d34ac21deb7ad3d35cd10":[9,6,0,0,0,309,5],
 "classmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty__ReachedVert.html#a81f3b4a4fd4d34ac21deb7ad3d35cd10":[9,6,1,0,0,309,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX45 =
 "classmeshlib_1_1EdgeSegment.html#a3ef1b6888e375e59e97356f7943f4754":[9,6,1,0,0,315,6],
 "classmeshlib_1_1EdgeSegment.html#a4d83eea9de89cb85db5a484ea535510d":[9,6,0,0,0,315,5],
 "classmeshlib_1_1EdgeSegment.html#a4d83eea9de89cb85db5a484ea535510d":[9,6,1,0,0,315,5],
-"classmeshlib_1_1EdgeSegment.html#a6172ccacf5a3e2ec6a7cc25f5f50f8d4":[9,6,0,0,0,315,16],
-"classmeshlib_1_1EdgeSegment.html#a6172ccacf5a3e2ec6a7cc25f5f50f8d4":[9,6,1,0,0,315,16],
-"classmeshlib_1_1EdgeSegment.html#a798f33692dccd34898ac3df5aba25847":[9,6,0,0,0,315,10],
-"classmeshlib_1_1EdgeSegment.html#a798f33692dccd34898ac3df5aba25847":[9,6,1,0,0,315,10],
-"classmeshlib_1_1EdgeSegment.html#a8f2579663d4aa2609e67a7e0bd08aaca":[9,6,0,0,0,315,8],
-"classmeshlib_1_1EdgeSegment.html#a8f2579663d4aa2609e67a7e0bd08aaca":[9,6,1,0,0,315,8],
-"classmeshlib_1_1EdgeSegment.html#a945396fbc2ac40f6d304479b106f6229":[9,6,0,0,0,315,14],
-"classmeshlib_1_1EdgeSegment.html#a945396fbc2ac40f6d304479b106f6229":[9,6,1,0,0,315,14],
-"classmeshlib_1_1EdgeSegment.html#aa1bfd6e70bbc74ce9d892fefd69e5a87":[9,6,0,0,0,315,3]
+"classmeshlib_1_1EdgeSegment.html#a6172ccacf5a3e2ec6a7cc25f5f50f8d4":[9,6,0,0,0,315,16]
 };

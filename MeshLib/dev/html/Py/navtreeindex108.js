@@ -1,5 +1,9 @@
 var NAVTREEINDEX108 =
 {
+"classmrmeshpy_1_1Const__std__vector__OffsetContoursOrigins.html":[9,1,0,0,2,440],
+"classmrmeshpy_1_1Const__std__vector__OffsetContoursOrigins.html":[9,1,1,0,1,440],
+"classmrmeshpy_1_1Const__std__vector__OffsetContoursOrigins.html#a0e85dc4f72ba3e75b5df1ed4f22b1138":[9,1,0,0,2,440,5],
+"classmrmeshpy_1_1Const__std__vector__OffsetContoursOrigins.html#a0e85dc4f72ba3e75b5df1ed4f22b1138":[9,1,1,0,1,440,5],
 "classmrmeshpy_1_1Const__std__vector__OffsetContoursOrigins.html#a2688872d566d0868bfa44ccfd4f2baa2":[9,1,0,0,2,440,3],
 "classmrmeshpy_1_1Const__std__vector__OffsetContoursOrigins.html#a2688872d566d0868bfa44ccfd4f2baa2":[9,1,1,0,1,440,3],
 "classmrmeshpy_1_1Const__std__vector__OffsetContoursOrigins.html#a27365ad9b062fd098895978bc2a20752":[9,1,0,0,2,440,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX108 =
 "classmrmeshpy_1_1Const__std__vector__PointsProjectionResult.html#ac758282f8062719c1ca3ef944fb622de":[9,1,0,0,2,451,2],
 "classmrmeshpy_1_1Const__std__vector__PointsProjectionResult.html#ac758282f8062719c1ca3ef944fb622de":[9,1,1,0,1,451,2],
 "classmrmeshpy_1_1Const__std__vector__PointsProjectionResult.html#ad3073ceff0ced091d0bfadf5d1a1aecc":[9,1,0,0,2,451,6],
-"classmrmeshpy_1_1Const__std__vector__PointsProjectionResult.html#ad3073ceff0ced091d0bfadf5d1a1aecc":[9,1,1,0,1,451,6],
-"classmrmeshpy_1_1Const__std__vector__Polyline__Vector3__float.html":[9,1,0,0,2,452],
-"classmrmeshpy_1_1Const__std__vector__Polyline__Vector3__float.html":[9,1,1,0,1,452],
-"classmrmeshpy_1_1Const__std__vector__Polyline__Vector3__float.html#a0c0bf06d8b6c4d99603f7c83eca5efb9":[9,1,0,0,2,452,1],
-"classmrmeshpy_1_1Const__std__vector__Polyline__Vector3__float.html#a0c0bf06d8b6c4d99603f7c83eca5efb9":[9,1,1,0,1,452,1]
+"classmrmeshpy_1_1Const__std__vector__PointsProjectionResult.html#ad3073ceff0ced091d0bfadf5d1a1aecc":[9,1,1,0,1,451,6]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX161 =
 {
+"classmrmeshpy_1_1NodeBitSet.html#ad43491c6ae578af46e14a8e96a3b1363":[9,1,0,0,2,1944,20],
+"classmrmeshpy_1_1NodeBitSet.html#ad43491c6ae578af46e14a8e96a3b1363":[9,1,1,0,1,1944,20],
+"classmrmeshpy_1_1NodeBitSet.html#af6c815a34a987cecb8134cf9e26405ab":[9,1,0,0,2,1944,2],
+"classmrmeshpy_1_1NodeBitSet.html#af6c815a34a987cecb8134cf9e26405ab":[9,1,1,0,1,1944,2],
 "classmrmeshpy_1_1NodeId.html":[9,1,0,0,2,1959],
 "classmrmeshpy_1_1NodeId.html":[9,1,1,0,1,1959],
 "classmrmeshpy_1_1NodeId.html#a099a77c2ffe1a2e8cb64fb003d51ab66":[9,1,0,0,2,1959,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX161 =
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a4ea7c9dc4e5aff5cf742b2b2cd49e4cd":[9,1,0,0,2,1995,3],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a4ea7c9dc4e5aff5cf742b2b2cd49e4cd":[9,1,1,0,1,1995,3],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#afe00c9653e8d70f5dd643c25583d3672":[9,1,0,0,2,1995,1],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#afe00c9653e8d70f5dd643c25583d3672":[9,1,1,0,1,1995,1],
-"classmrmeshpy_1_1ObjMap.html":[9,1,0,0,2,1996],
-"classmrmeshpy_1_1ObjMap.html":[9,1,1,0,1,1996],
-"classmrmeshpy_1_1ObjMap.html#a01d3d947c5fc8301456123b0499edde3":[9,1,0,0,2,1996,2],
-"classmrmeshpy_1_1ObjMap.html#a01d3d947c5fc8301456123b0499edde3":[9,1,1,0,1,1996,2]
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#afe00c9653e8d70f5dd643c25583d3672":[9,1,1,0,1,1995,1]
 };

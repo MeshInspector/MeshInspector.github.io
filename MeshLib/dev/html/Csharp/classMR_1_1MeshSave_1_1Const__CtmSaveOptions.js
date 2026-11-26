@@ -16,6 +16,8 @@ var classMR_1_1MeshSave_1_1Const__CtmSaveOptions =
     [ "__ptr_storage_comment", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#aea274200d48bd6cc86df3c39487ae172", null ],
     [ "__ptr_storage_primitiveColors", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#a696e0c26351469995b2bb38196ddf01c", null ],
     [ "__ptr_storage_texture", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#ac8e6bf75b65a77be993e15f2d7a4a0f1", null ],
+    [ "__ptr_storage_texturePerFace", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#a12b2ccf79ac2dac207407d5be12e909c", null ],
+    [ "__ptr_storage_textures", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#a5ea39fc555849fb78c26b4424dd5e6c0", null ],
     [ "__ptr_storage_uvMap", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#a3f0f712c4166eca9f42f2b01f35fe191", null ],
     [ "__ptr_storage_xf", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#a45e1f3878a6d8ec0a0954dd469e1b27d", null ],
     [ "__ref_storage_compressionLevel", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#a1b3b2a6ffd6745272cc445d2d10c7122", null ],
@@ -39,6 +41,8 @@ var classMR_1_1MeshSave_1_1Const__CtmSaveOptions =
     [ "solidColor", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#a81aa74631bc9399c6ae7b4684b027781", null ],
     [ "telemetrySignal", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#a4089f9eed598931243f3aa88a59fbc67", null ],
     [ "texture", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#a06b37d1cccfb6b387e0142e003077f90", null ],
+    [ "texturePerFace", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#a687b921cfcdec8ef57a7656aaf7a082b", null ],
+    [ "textures", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#abfa7ded400605b207194edeaf938dbbf", null ],
     [ "uvMap", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#a1f0ebd68ab3f526a1ff6b1f533c03312", null ],
     [ "vertexPrecision", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#a0eb883f8424ef7bc4ad3c7f5bcb804bf", null ],
     [ "xf", "classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html#af3c6d438f18fe31f84d154354d2617f0", null ]

@@ -17,6 +17,8 @@ var classPointsSave_1_1CtmSavePointsOptions =
     [ "solidColor", "classPointsSave_1_1CtmSavePointsOptions.html#a85a3ada287ce8521b91c6a6ca11f320e", null ],
     [ "telemetrySignal", "classPointsSave_1_1CtmSavePointsOptions.html#a0f81ae41bbb9afc14c34e0bb8f384ba3", null ],
     [ "texture", "classPointsSave_1_1CtmSavePointsOptions.html#afa4c154b21c57bfa21f13d318578ef4c", null ],
+    [ "texturePerFace", "classPointsSave_1_1CtmSavePointsOptions.html#a76f93aad12d196b0e7cad2977aadd655", null ],
+    [ "textures", "classPointsSave_1_1CtmSavePointsOptions.html#acbc743785281c9c3d73b3507e9067254", null ],
     [ "uvMap", "classPointsSave_1_1CtmSavePointsOptions.html#a67fb5451d8b0a71208dc6ea05a3bf368", null ],
     [ "xf", "classPointsSave_1_1CtmSavePointsOptions.html#a175bf1d0bd0003413d753ee5a2d6856b", null ]
 ];

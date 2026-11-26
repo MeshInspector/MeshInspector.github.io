@@ -200,6 +200,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a3f0f712c4166eca9f42f2b01f35fe191" id="r_a3f0f712c4166eca9f42f2b01f35fe191"><td class="memItemLeft" align="right" valign="top">unsafe MR.Const_VertCoords2._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f0f712c4166eca9f42f2b01f35fe191">__ptr_storage_uvMap</a></td></tr>
 <tr class="memitem:ae4bdd403c8e69a2e6163a318af112f61" id="r_ae4bdd403c8e69a2e6163a318af112f61"><td class="memItemLeft" align="right" valign="top">unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4bdd403c8e69a2e6163a318af112f61">__ref_storage_saveTriCornerUVCoords</a></td></tr>
 <tr class="memitem:ac8e6bf75b65a77be993e15f2d7a4a0f1" id="r_ac8e6bf75b65a77be993e15f2d7a4a0f1"><td class="memItemLeft" align="right" valign="top">unsafe MR.Const_MeshTexture._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8e6bf75b65a77be993e15f2d7a4a0f1">__ptr_storage_texture</a></td></tr>
+<tr class="memitem:a5ea39fc555849fb78c26b4424dd5e6c0" id="r_a5ea39fc555849fb78c26b4424dd5e6c0"><td class="memItemLeft" align="right" valign="top">unsafe MR.Const_Vector_MRMeshTexture_MRTextureId._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ea39fc555849fb78c26b4424dd5e6c0">__ptr_storage_textures</a></td></tr>
+<tr class="memitem:a12b2ccf79ac2dac207407d5be12e909c" id="r_a12b2ccf79ac2dac207407d5be12e909c"><td class="memItemLeft" align="right" valign="top">unsafe MR.Const_TexturePerFace._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12b2ccf79ac2dac207407d5be12e909c">__ptr_storage_texturePerFace</a></td></tr>
 <tr class="memitem:a45e1f3878a6d8ec0a0954dd469e1b27d" id="r_a45e1f3878a6d8ec0a0954dd469e1b27d"><td class="memItemLeft" align="right" valign="top">unsafe MR.ConstBox_AffineXf3d._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45e1f3878a6d8ec0a0954dd469e1b27d">__ptr_storage_xf</a></td></tr>
 <tr class="memitem:a144b5a3356ea226df1f031a95ac6f394" id="r_a144b5a3356ea226df1f031a95ac6f394"><td class="memItemLeft" align="right" valign="top">unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a144b5a3356ea226df1f031a95ac6f394">__ref_storage_telemetrySignal</a></td></tr>
 </table><table class="memberdecls">
@@ -214,7 +216,7 @@ Properties</h2></td></tr>
 <tr class="memitem:a9a95c1183cd57bb848bf8b2a118d1a91" id="r_a9a95c1183cd57bb848bf8b2a118d1a91"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a95c1183cd57bb848bf8b2a118d1a91">onlyValidPoints</a><code> [get]</code></td></tr>
 <tr class="memdesc:a9a95c1183cd57bb848bf8b2a118d1a91"><td class="mdescLeft">&#160;</td><td class="mdescRight">true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices  <br /></td></tr>
 <tr class="memitem:ab2894815ec377fbc9af27ead0b50c883" id="r_ab2894815ec377fbc9af27ead0b50c883"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2894815ec377fbc9af27ead0b50c883">packPrimitives</a><code> [get]</code></td></tr>
-<tr class="memdesc:ab2894815ec377fbc9af27ead0b50c883"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only  <br /></td></tr>
+<tr class="memdesc:ab2894815ec377fbc9af27ead0b50c883"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; in .obj format with several textures, packPrimitives=true groups triangles by texture to write one material switch per texture; currently this flag affects the saving in .ctm, .ply and .obj formats only  <br /></td></tr>
 <tr class="memitem:ad09647ea5f4ded6ef5781a9750113fb4" id="r_ad09647ea5f4ded6ef5781a9750113fb4"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__VertColors.html">Const_VertColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad09647ea5f4ded6ef5781a9750113fb4">colors</a><code> [get]</code></td></tr>
 <tr class="memdesc:ad09647ea5f4ded6ef5781a9750113fb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional per-vertex color to save with the geometry  <br /></td></tr>
 <tr class="memitem:acce7e296b6d304662da1fc602c4a1c2a" id="r_acce7e296b6d304662da1fc602c4a1c2a"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__FaceColors.html">Const_FaceColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acce7e296b6d304662da1fc602c4a1c2a">primitiveColors</a><code> [get]</code></td></tr>
@@ -225,6 +227,9 @@ Properties</h2></td></tr>
 <tr class="memdesc:a89ebc0aa407a521039970d4f98519312"><td class="mdescLeft">&#160;</td><td class="mdescRight">if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software)  <br /></td></tr>
 <tr class="memitem:a06b37d1cccfb6b387e0142e003077f90" id="r_a06b37d1cccfb6b387e0142e003077f90"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__MeshTexture.html">Const_MeshTexture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06b37d1cccfb6b387e0142e003077f90">texture</a><code> [get]</code></td></tr>
 <tr class="memdesc:a06b37d1cccfb6b387e0142e003077f90"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional texture to save with the geometry  <br /></td></tr>
+<tr class="memitem:abfa7ded400605b207194edeaf938dbbf" id="r_abfa7ded400605b207194edeaf938dbbf"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__Vector__MRMeshTexture__MRTextureId.html">Const_Vector_MRMeshTexture_MRTextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfa7ded400605b207194edeaf938dbbf">textures</a><code> [get]</code></td></tr>
+<tr class="memdesc:abfa7ded400605b207194edeaf938dbbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional several textures and the texture of each face; if both are given and the format supports several textures (.OBJ), they are saved instead of <a class="el" href="#a06b37d1cccfb6b387e0142e003077f90">texture</a>  <br /></td></tr>
+<tr class="memitem:a687b921cfcdec8ef57a7656aaf7a082b" id="r_a687b921cfcdec8ef57a7656aaf7a082b"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__TexturePerFace.html">Const_TexturePerFace</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a687b921cfcdec8ef57a7656aaf7a082b">texturePerFace</a><code> [get]</code></td></tr>
 <tr class="memitem:a3e106b15f91958422a22c8757a9cc421" id="r_a3e106b15f91958422a22c8757a9cc421"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e106b15f91958422a22c8757a9cc421">materialName</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a3e106b15f91958422a22c8757a9cc421"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY)  <br /></td></tr>
 <tr class="memitem:af3c6d438f18fe31f84d154354d2617f0" id="r_af3c6d438f18fe31f84d154354d2617f0"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1ConstBox__AffineXf3d.html">ConstBox_AffineXf3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3c6d438f18fe31f84d154354d2617f0">xf</a><code> [get]</code></td></tr>
@@ -526,6 +531,50 @@ Properties</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">unsafe MR.Const_MeshTexture._Underlying** MR.MeshSave.Const_CtmSaveOptions.__ptr_storage_texture</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12b2ccf79ac2dac207407d5be12e909c" name="a12b2ccf79ac2dac207407d5be12e909c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12b2ccf79ac2dac207407d5be12e909c">&#9670;&#160;</a></span>__ptr_storage_texturePerFace</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Const_TexturePerFace._Underlying** MR.MeshSave.Const_CtmSaveOptions.__ptr_storage_texturePerFace</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ea39fc555849fb78c26b4424dd5e6c0" name="a5ea39fc555849fb78c26b4424dd5e6c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ea39fc555849fb78c26b4424dd5e6c0">&#9670;&#160;</a></span>__ptr_storage_textures</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Const_Vector_MRMeshTexture_MRTextureId._Underlying** MR.MeshSave.Const_CtmSaveOptions.__ptr_storage_textures</td>
         </tr>
       </table>
   </td>
@@ -922,7 +971,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only </p>
+<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; in .obj format with several textures, packPrimitives=true groups triangles by texture to write one material switch per texture; currently this flag affects the saving in .ctm, .ply and .obj formats only </p>
 
 </div>
 </div>
@@ -1067,6 +1116,52 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>optional texture to save with the geometry </p>
+
+</div>
+</div>
+<a id="a687b921cfcdec8ef57a7656aaf7a082b" name="a687b921cfcdec8ef57a7656aaf7a082b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a687b921cfcdec8ef57a7656aaf7a082b">&#9670;&#160;</a></span>texturePerFace</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.? <a class="el" href="classMR_1_1Const__TexturePerFace.html">Const_TexturePerFace</a> MR.MeshSave.Const_CtmSaveOptions.texturePerFace</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abfa7ded400605b207194edeaf938dbbf" name="abfa7ded400605b207194edeaf938dbbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfa7ded400605b207194edeaf938dbbf">&#9670;&#160;</a></span>textures</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.? <a class="el" href="classMR_1_1Const__Vector__MRMeshTexture__MRTextureId.html">Const_Vector_MRMeshTexture_MRTextureId</a> MR.MeshSave.Const_CtmSaveOptions.textures</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>optional several textures and the texture of each face; if both are given and the format supports several textures (.OBJ), they are saved instead of <a class="el" href="#a06b37d1cccfb6b387e0142e003077f90">texture</a> </p>
 
 </div>
 </div>

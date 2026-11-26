@@ -1,5 +1,15 @@
 var NAVTREEINDEX108 =
 {
+"classMR_1_1EdgeColors.html#aa9dbf471f0eddeaceb33a564a39a3ab0":[9,3,0,0,0,1247,2],
+"classMR_1_1EdgeColors.html#aae91d1a2298f0b834a450954da5764c1":[9,3,0,0,0,1247,25],
+"classMR_1_1EdgeColors.html#ab61118e49dba6e64558edb43474f9e02":[9,3,0,0,0,1247,27],
+"classMR_1_1EdgeColors.html#aba1eba42ff6dfc723b97b20dbc7df412":[9,3,0,0,0,1247,15],
+"classMR_1_1EdgeColors.html#ac210c64b19e5698b01d280486ccc510a":[9,3,0,0,0,1247,23],
+"classMR_1_1EdgeColors.html#ac9fb317f392ce5f7264ce43b78a32cae":[9,3,0,0,0,1247,18],
+"classMR_1_1EdgeColors.html#ad48de439f751767acf4bb72cbcbbb0e5":[9,3,0,0,0,1247,6],
+"classMR_1_1EdgeColors.html#ae087abfa4decdb54cf487136fbf3d30f":[9,3,0,0,0,1247,24],
+"classMR_1_1EdgeColors.html#ae11de232dd8fc5db2fe7b68d6fa756b5":[9,3,0,0,0,1247,14],
+"classMR_1_1EdgeColors.html#aedc8ac34e2bd732dd21e84ebb04c10a9":[9,3,0,0,0,1247,19],
 "classMR_1_1EdgeLengthMesh.html":[9,3,0,0,0,1249],
 "classMR_1_1EdgeLengthMesh.html#a045debb390ef5dc21b11133a6073bd62":[9,3,0,0,0,1249,8],
 "classMR_1_1EdgeLengthMesh.html#a475440e95dc0242144686642bb22ecad":[9,3,0,0,0,1249,6],
@@ -239,15 +249,5 @@ var NAVTREEINDEX108 =
 "classMR_1_1EnumNeihbourVertices.html#a2e38c0629b26b6c061cc4983be57983f":[9,3,0,0,0,1267,7],
 "classMR_1_1EnumNeihbourVertices.html#a2eeb4e576ccf64f868dd58d3886a1253":[9,3,0,0,0,1267,5],
 "classMR_1_1EnumNeihbourVertices.html#a2fbccad24de8aa6adba0983ec987d2f3":[9,3,0,0,0,1267,0],
-"classMR_1_1EnumNeihbourVertices.html#a37e1beab4fc2ea96620b1d0c4a2779a0":[9,3,0,0,0,1267,1],
-"classMR_1_1EnumNeihbourVertices.html#a851e1076361fb8ec917add02ed772809":[9,3,0,0,0,1267,4],
-"classMR_1_1EnumNeihbourVertices.html#a90ac5cb46e88ceb3df3a32235003d400":[9,3,0,0,0,1267,2],
-"classMR_1_1EnumNeihbourVertices.html#ae9fd6f9c55a9d2d39849f90725db924b":[9,3,0,0,0,1267,6],
-"classMR_1_1Expected__MRCudaDeviceInfo__StdString.html":[9,3,0,0,0,1268],
-"classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a32efd0b562c5b7b238eb95c7bdb9ff64":[9,3,0,0,0,1268,2],
-"classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a411a174fe93fcc9ee3441f7fa66d1ddd":[9,3,0,0,0,1268,3],
-"classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a4d05e5a746cdbb79d4b571b37715575e":[9,3,0,0,0,1268,4],
-"classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a55e26218fc9212e89f3428d85f34d9f1":[9,3,0,0,0,1268,0],
-"classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a7b5ac970f42b23a464a30d76ae9001ff":[9,3,0,0,0,1268,5],
-"classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a9bafa10c981549baadde43b4d408e9df":[9,3,0,0,0,1268,1]
+"classMR_1_1EnumNeihbourVertices.html#a37e1beab4fc2ea96620b1d0c4a2779a0":[9,3,0,0,0,1267,1]
 };

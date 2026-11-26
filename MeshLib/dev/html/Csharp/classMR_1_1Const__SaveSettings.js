@@ -1,7 +1,7 @@
 var classMR_1_1Const__SaveSettings =
 [
     [ "Const_SaveSettings", "classMR_1_1Const__SaveSettings.html#a74b9ca0113d8bede40794a2276790596", null ],
-    [ "Const_SaveSettings", "classMR_1_1Const__SaveSettings.html#a730ff9e0f2cf2ec765bcb7556d42260b", null ],
+    [ "Const_SaveSettings", "classMR_1_1Const__SaveSettings.html#a089866bf14829c338dda6f4b2dd4514d", null ],
     [ "Const_SaveSettings", "classMR_1_1Const__SaveSettings.html#a4f2b9f60633d28351cade5aa4ebc96c2", null ],
     [ "Const_SaveSettings", "classMR_1_1Const__SaveSettings.html#a506f91750aff9650135b9b0c05d8e27f", null ],
     [ "Const_SaveSettings", "classMR_1_1Const__SaveSettings.html#aafa05cfac60283d1f9d7aab90303711b", null ],
@@ -10,6 +10,8 @@ var classMR_1_1Const__SaveSettings =
     [ "__ptr_storage_colors", "classMR_1_1Const__SaveSettings.html#a5c1c9ea016c1fb2805d45b0d58b9c58d", null ],
     [ "__ptr_storage_primitiveColors", "classMR_1_1Const__SaveSettings.html#aefbb5a933456d1dad2e21108eea35b82", null ],
     [ "__ptr_storage_texture", "classMR_1_1Const__SaveSettings.html#a1b7b37741c8d81e40862d7b74fd783c6", null ],
+    [ "__ptr_storage_texturePerFace", "classMR_1_1Const__SaveSettings.html#ad841dda0c793024d2d857ad39bc2ce0d", null ],
+    [ "__ptr_storage_textures", "classMR_1_1Const__SaveSettings.html#a3afacc564edffe3a90daea01e30439b8", null ],
     [ "__ptr_storage_uvMap", "classMR_1_1Const__SaveSettings.html#a55343fb9b2629d8ab75faa9a32fbb8d0", null ],
     [ "__ptr_storage_xf", "classMR_1_1Const__SaveSettings.html#adb3a4884ed904a5de17afb6315e13cdd", null ],
     [ "__ref_storage_onlyValidPoints", "classMR_1_1Const__SaveSettings.html#a261715a00d47eda8ffb143a16c9576f1", null ],
@@ -27,6 +29,8 @@ var classMR_1_1Const__SaveSettings =
     [ "solidColor", "classMR_1_1Const__SaveSettings.html#a81207c6d4125a748e1d92b0f1e2ad7b7", null ],
     [ "telemetrySignal", "classMR_1_1Const__SaveSettings.html#a4abd4eb639467875b2e37ff09a3f25f8", null ],
     [ "texture", "classMR_1_1Const__SaveSettings.html#a1868b10519878c3215c93ccb0e0e4b0b", null ],
+    [ "texturePerFace", "classMR_1_1Const__SaveSettings.html#a9e1bb026a7ece007ea4ad850ca547c4e", null ],
+    [ "textures", "classMR_1_1Const__SaveSettings.html#a240652443cde5a02d4e9ffc65243d860", null ],
     [ "uvMap", "classMR_1_1Const__SaveSettings.html#a3267b87bd37a01c0e09160e8385ee040", null ],
     [ "xf", "classMR_1_1Const__SaveSettings.html#aee56c53cf4f101b9e1871da4bedbfb5d", null ]
 ];

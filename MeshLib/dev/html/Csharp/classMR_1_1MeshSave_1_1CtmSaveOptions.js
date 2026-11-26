@@ -20,6 +20,8 @@ var classMR_1_1MeshSave_1_1CtmSaveOptions =
     [ "solidColor", "classMR_1_1MeshSave_1_1CtmSaveOptions.html#a2ed7d23f734cc394370249a0c40f1475", null ],
     [ "telemetrySignal", "classMR_1_1MeshSave_1_1CtmSaveOptions.html#a47bbd3e62e507d976474fe4c6d1f2f44", null ],
     [ "texture", "classMR_1_1MeshSave_1_1CtmSaveOptions.html#aa5a9f26c25457491e7ad2248bba0f01e", null ],
+    [ "texturePerFace", "classMR_1_1MeshSave_1_1CtmSaveOptions.html#af7c12c6c24e3f2ce760a66b2f5c9bc6e", null ],
+    [ "textures", "classMR_1_1MeshSave_1_1CtmSaveOptions.html#a16fd67b03324985158b18503ceb3b1d4", null ],
     [ "uvMap", "classMR_1_1MeshSave_1_1CtmSaveOptions.html#a0e882f66de8a96efd477084ad2eaa011", null ],
     [ "vertexPrecision", "classMR_1_1MeshSave_1_1CtmSaveOptions.html#a75d0cae41189ee2a5cc7dd21e9feb705", null ],
     [ "xf", "classMR_1_1MeshSave_1_1CtmSaveOptions.html#acb721fca877e5719d45d9a7ec7cde161", null ]

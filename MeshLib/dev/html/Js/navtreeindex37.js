@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"classGraphEdgeBitSet.html#a8e94589eb2247d12a5d3b03ff102e1ea":[9,4,1,0,418,66],
+"classGraphEdgeBitSet.html#a8fa1496e73b81c3e120eda11dea1be46":[9,4,1,0,418,2],
 "classGraphEdgeBitSet.html#a916695bf3e4b09c51fc89d0fb14b2867":[9,4,1,0,418,78],
 "classGraphEdgeBitSet.html#a96105732fcf975ea8f8b470687488cd9":[9,4,1,0,418,73],
 "classGraphEdgeBitSet.html#aa1caf301a5b5da0a69fcbbec31195aa8":[9,4,1,0,418,37],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "classHistogram.html#a21a0831fa2d15dd7137bc60c9ce9812d":[9,4,1,0,429,8],
 "classHistogram.html#a7c072b7cd54b06436c5d8b7790baeee3":[9,4,1,0,429,4],
 "classHistogram.html#a8e7e9b43c1d43a357eb9cd9d07e8b23d":[9,4,1,0,429,3],
-"classHistogram.html#aa3dbb46565c484869d24a590fb25485e":[9,4,1,0,429,11],
-"classHistogram.html#ab5dfa81ea30ccbe5c9613b2a22e3e7b0":[9,4,1,0,429,1],
-"classHistogram.html#aba9cab2e56fe1e50bee7e7febd639916":[9,4,1,0,429,6]
+"classHistogram.html#aa3dbb46565c484869d24a590fb25485e":[9,4,1,0,429,11]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"classInSphere.html#acfe6949b865583379cfcc7a61dbe5d63":[9,4,1,0,451,2],
+"classInSphere.html#ad274a5f8c56a3c511966ebeb1bfaed74":[9,4,1,0,451,5],
 "classInSphere.html#af24c7efd0cea96d05dbc11c0409c3778":[9,4,1,0,451,3],
 "classInSphereSearchSettings.html":[9,4,1,0,452],
 "classInSphereSearchSettings.html#a0c923f927a1f69b191016db82aa8fff6":[9,4,1,0,452,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "classLine3Mesh__double.html#a00a68c6890442dbbe5a64f4c9d5ac7e0":[9,4,1,0,490,3],
 "classLine3Mesh__double.html#a217d175d31c53ae7b473efd1b3874ed1":[9,4,1,0,490,6],
 "classLine3Mesh__double.html#a23a9e550e849bd3d339581d3abd65f8f":[9,4,1,0,490,4],
-"classLine3Mesh__double.html#a2ce3b0f8997ce11c7b929051808976ab":[9,4,1,0,490,0],
-"classLine3Mesh__double.html#a59bee89be2fcf2b5bb2b6ebf9e514096":[9,4,1,0,490,8],
-"classLine3Mesh__double.html#a6fc85ff15c9cc11c2e573e27d9b72e0b":[9,4,1,0,490,7]
+"classLine3Mesh__double.html#a2ce3b0f8997ce11c7b929051808976ab":[9,4,1,0,490,0]
 };

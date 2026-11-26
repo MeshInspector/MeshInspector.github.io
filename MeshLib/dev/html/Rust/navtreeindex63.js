@@ -1,5 +1,17 @@
 var NAVTREEINDEX63 =
 {
+"structmeshlib_1_1GraphEdgeBitSet.html#aec3e577151b329831f0d9922590a9907":[9,5,0,0,0,471,52],
+"structmeshlib_1_1GraphEdgeBitSet.html#aec3e577151b329831f0d9922590a9907":[9,5,1,0,0,458,52],
+"structmeshlib_1_1GraphEdgeBitSet.html#afbb9bf7105ef4df62ba5ec0aefbe38bd":[9,5,0,0,0,471,31],
+"structmeshlib_1_1GraphEdgeBitSet.html#afbb9bf7105ef4df62ba5ec0aefbe38bd":[9,5,1,0,0,458,31],
+"structmeshlib_1_1GraphEdgeBitSet.html#afe4d82cbaa4ab473036e5412ce8c7d65":[9,5,0,0,0,471,22],
+"structmeshlib_1_1GraphEdgeBitSet.html#afe4d82cbaa4ab473036e5412ce8c7d65":[9,5,1,0,0,458,22],
+"structmeshlib_1_1GraphEdgeBitSet.html#aff7c3ecf977520175e946179068e4f21":[9,5,0,0,0,471,44],
+"structmeshlib_1_1GraphEdgeBitSet.html#aff7c3ecf977520175e946179068e4f21":[9,5,1,0,0,458,44],
+"structmeshlib_1_1GraphEdgeId.html":[9,5,0,0,0,472],
+"structmeshlib_1_1GraphEdgeId.html":[9,5,1,0,0,459],
+"structmeshlib_1_1GraphEdgeId.html#a03e4184f5ad4404e8614af828c23d1d7":[9,5,0,0,0,472,5],
+"structmeshlib_1_1GraphEdgeId.html#a03e4184f5ad4404e8614af828c23d1d7":[9,5,1,0,0,459,5],
 "structmeshlib_1_1GraphEdgeId.html#a0ed6060d79ce716ca0d01d185458ba77":[9,5,0,0,0,472,8],
 "structmeshlib_1_1GraphEdgeId.html#a0ed6060d79ce716ca0d01d185458ba77":[9,5,1,0,0,459,8],
 "structmeshlib_1_1GraphEdgeId.html#a1b6f0f9a89a77a63c9cbff5c94a6e7f1":[9,5,0,0,0,472,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX63 =
 "structmeshlib_1_1GridSettings.html#ab864527008106da7539be714a58809f2":[9,5,0,0,0,475,0],
 "structmeshlib_1_1GridSettings.html#ab864527008106da7539be714a58809f2":[9,5,1,0,0,462,0],
 "structmeshlib_1_1GridSettings.html#ac97f8ccdbb423746949d2f730d8dc048":[9,5,0,0,0,475,3],
-"structmeshlib_1_1GridSettings.html#ac97f8ccdbb423746949d2f730d8dc048":[9,5,1,0,0,462,3],
-"structmeshlib_1_1GridSettings.html#adc49fdd2a311c652f715abcf2768b271":[9,5,0,0,0,475,4],
-"structmeshlib_1_1GridSettings.html#adc49fdd2a311c652f715abcf2768b271":[9,5,1,0,0,462,4],
-"structmeshlib_1_1GridSettings.html#afa4ae7002aaf82e526310513b5622d52":[9,5,0,0,0,475,1],
-"structmeshlib_1_1GridSettings.html#afa4ae7002aaf82e526310513b5622d52":[9,5,1,0,0,462,1],
-"structmeshlib_1_1GridSettings__EdgeType.html":[9,5,0,0,0,476],
-"structmeshlib_1_1GridSettings__EdgeType.html":[9,5,1,0,0,463],
-"structmeshlib_1_1GridSettings__TriType.html":[9,5,0,0,0,477],
-"structmeshlib_1_1GridSettings__TriType.html":[9,5,1,0,0,464],
-"structmeshlib_1_1GridToMeshSettings.html":[9,5,0,0,0,478],
-"structmeshlib_1_1GridToMeshSettings.html":[9,5,1,0,0,465],
-"structmeshlib_1_1GridToMeshSettings.html#a052a7da59133848b5dd31892e833af2b":[9,5,0,0,0,478,17],
-"structmeshlib_1_1GridToMeshSettings.html#a052a7da59133848b5dd31892e833af2b":[9,5,1,0,0,465,17]
+"structmeshlib_1_1GridSettings.html#ac97f8ccdbb423746949d2f730d8dc048":[9,5,1,0,0,462,3]
 };

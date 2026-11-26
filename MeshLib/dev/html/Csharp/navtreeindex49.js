@@ -1,5 +1,9 @@
 var NAVTREEINDEX49 =
 {
+"classMR_1_1Const__FeatureObject.html#a7b377002c768785415de1694a3f02d63":[9,3,0,0,0,478,68],
+"classMR_1_1Const__FeatureObject.html#a8369e2258a0dd458f6a9d9fdb8a231f3":[9,3,0,0,0,478,23],
+"classMR_1_1Const__FeatureObject.html#a875a3e848c4ede5fca5ce95053c1d71a":[9,3,0,0,0,478,59],
+"classMR_1_1Const__FeatureObject.html#a89e76055acd799de5f81628b263c1b78":[9,3,0,0,0,478,33],
 "classMR_1_1Const__FeatureObject.html#a973d3060487676d7cbd64f3e73ef0f25":[9,3,0,0,0,478,19],
 "classMR_1_1Const__FeatureObject.html#a9bc6180199873f64957e9ea86b7c2b77":[9,3,0,0,0,478,13],
 "classMR_1_1Const__FeatureObject.html#aa10a1b0c29b326d64b6076939d9b9227":[9,3,0,0,0,478,55],
@@ -245,9 +249,5 @@ var NAVTREEINDEX49 =
 "classMR_1_1Const__FindProjectionOnPointsSettings.html#ac97e338584e10277b50eaaf3a7f0bb68":[9,3,0,0,0,492,3],
 "classMR_1_1Const__FindProjectionOnPointsSettings.html#aeb74fc30b895fa54ffb113570a375264":[9,3,0,0,0,492,7],
 "classMR_1_1Const__FindProjectionOnPointsSettings.html#afbf445411a620cdfef7b9fdaa05b4d45":[9,3,0,0,0,492,4],
-"classMR_1_1Const__FindProjectionOnPointsSettings.html#aff776183d72b9d88c68e19503d882a86":[9,3,0,0,0,492,5],
-"classMR_1_1Const__FitBSplineSurfaceToMeshSettings.html":[9,3,0,0,0,493],
-"classMR_1_1Const__FitBSplineSurfaceToMeshSettings.html#a052fc3d4778717b02750e4934c5a06c1":[9,3,0,0,0,493,10],
-"classMR_1_1Const__FitBSplineSurfaceToMeshSettings.html#a0ce5ba952713036f51390703fc334cc5":[9,3,0,0,0,493,8],
-"classMR_1_1Const__FitBSplineSurfaceToMeshSettings.html#a2d592823fd658ae933f6a0bce58ca1da":[9,3,0,0,0,493,9]
+"classMR_1_1Const__FindProjectionOnPointsSettings.html#aff776183d72b9d88c68e19503d882a86":[9,3,0,0,0,492,5]
 };

@@ -11,6 +11,8 @@ var classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions =
     [ "__ptr_storage_comment", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a275e9b2b5055b8a83bdbe4c0d58ae8f5", null ],
     [ "__ptr_storage_primitiveColors", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#ab259ea494b68bdc4d90d54f9e33be7e9", null ],
     [ "__ptr_storage_texture", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a491b54dd89edb61941fe64679b305369", null ],
+    [ "__ptr_storage_texturePerFace", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#ac2e78963036be9725dbd9c83bf9f794a", null ],
+    [ "__ptr_storage_textures", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a8625130b642e2fb9f58ccb3f6ada17a4", null ],
     [ "__ptr_storage_uvMap", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a1e29882192b70c47969da1ccaf8372ef", null ],
     [ "__ptr_storage_xf", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a4c45804986d65dd6a8218e2051e1005a", null ],
     [ "__ref_storage_compressionLevel", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a645260c4dffbef9d45fddb6e4e8a6702", null ],
@@ -31,6 +33,8 @@ var classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions =
     [ "solidColor", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a1637397189664c5feef48669988cf567", null ],
     [ "telemetrySignal", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#ab7316d0538844419b38219cee9b91b5b", null ],
     [ "texture", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#ab71a9b406d184f31efd20e4be1c154d0", null ],
+    [ "texturePerFace", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#ac383aaa40b365b819e21620c6cc7a694", null ],
+    [ "textures", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a80852cf110f139d6b034991e8e6ebe41", null ],
     [ "uvMap", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#a265d6499c8efb36484866e57f81bde58", null ],
     [ "xf", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html#abacc88695cc5dd73f34084eca3ed6366", null ]
 ];

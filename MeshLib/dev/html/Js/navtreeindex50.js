@@ -1,5 +1,11 @@
 var NAVTREEINDEX50 =
 {
+"classNesting_1_1TetrisDensifyOptions.html#a03e7180fd0362238351f4a88e6b38d51":[9,4,1,0,7,9,5],
+"classNesting_1_1TetrisDensifyOptions.html#a1838cc5357f9f7c702eb96bf6c8f090f":[9,4,0,0,19,9,0],
+"classNesting_1_1TetrisDensifyOptions.html#a1838cc5357f9f7c702eb96bf6c8f090f":[9,4,1,0,7,9,0],
+"classNesting_1_1TetrisDensifyOptions.html#a3536650d293fcb22c8f0900f1e2250e4":[9,4,0,0,19,9,6],
+"classNesting_1_1TetrisDensifyOptions.html#a3536650d293fcb22c8f0900f1e2250e4":[9,4,1,0,7,9,6],
+"classNesting_1_1TetrisDensifyOptions.html#a3c7b377fbc9872803794f229cb4439b1":[9,4,0,0,19,9,8],
 "classNesting_1_1TetrisDensifyOptions.html#a3c7b377fbc9872803794f229cb4439b1":[9,4,1,0,7,9,8],
 "classNesting_1_1TetrisDensifyOptions.html#a599e71a33324623c3af03dc2a41f249d":[9,4,0,0,19,9,7],
 "classNesting_1_1TetrisDensifyOptions.html#a599e71a33324623c3af03dc2a41f249d":[9,4,1,0,7,9,7],
@@ -243,11 +249,5 @@ var NAVTREEINDEX50 =
 "classNoDefInit__MR__PixelId.html#a3bda7b73873c70321fd900e5edee02d2":[9,4,1,0,629,9],
 "classNoDefInit__MR__PixelId.html#a51bf2fb38cf8cf459e814d4997f52a96":[9,4,1,0,629,3],
 "classNoDefInit__MR__PixelId.html#a562956ab36e73190734b052f78191fdc":[9,4,1,0,629,8],
-"classNoDefInit__MR__PixelId.html#a5728b931d69f1c31ca66bfad2a406958":[9,4,1,0,629,11],
-"classNoDefInit__MR__PixelId.html#a59d51c81acf371e0dee614499ce57700":[9,4,1,0,629,5],
-"classNoDefInit__MR__PixelId.html#a792f9cd634b355c4161d3886e65a9231":[9,4,1,0,629,0],
-"classNoDefInit__MR__PixelId.html#a7b2b23cf41c0dcac8da6bdf175981494":[9,4,1,0,629,6],
-"classNoDefInit__MR__PixelId.html#a86bcaffd49336c75b9e621920905be11":[9,4,1,0,629,12],
-"classNoDefInit__MR__PixelId.html#a89c931a6ba4f61e1b270f1363b81fa0c":[9,4,1,0,629,7],
-"classNoDefInit__MR__PixelId.html#ab961447968d4696f8ded3d011ed5bf01":[9,4,1,0,629,4]
+"classNoDefInit__MR__PixelId.html#a5728b931d69f1c31ca66bfad2a406958":[9,4,1,0,629,11]
 };

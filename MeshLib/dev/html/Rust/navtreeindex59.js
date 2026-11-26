@@ -1,5 +1,17 @@
 var NAVTREEINDEX59 =
 {
+"structmeshlib_1_1FillHoleNicelySettings.html#acff9fe01b4d29d8e0d059710e03e3346":[9,5,0,0,0,433,15],
+"structmeshlib_1_1FillHoleNicelySettings.html#acff9fe01b4d29d8e0d059710e03e3346":[9,5,1,0,0,420,15],
+"structmeshlib_1_1FillHoleNicelySettings.html#adede3c1f9e9cc129130303ae49b53449":[9,5,0,0,0,433,2],
+"structmeshlib_1_1FillHoleNicelySettings.html#adede3c1f9e9cc129130303ae49b53449":[9,5,1,0,0,420,2],
+"structmeshlib_1_1FillHoleNicelySettings.html#af4b2ba756b8e2544183ab211d9c02645":[9,5,0,0,0,433,12],
+"structmeshlib_1_1FillHoleNicelySettings.html#af4b2ba756b8e2544183ab211d9c02645":[9,5,1,0,0,420,12],
+"structmeshlib_1_1FillHoleParams.html":[9,5,0,0,0,434],
+"structmeshlib_1_1FillHoleParams.html":[9,5,1,0,0,421],
+"structmeshlib_1_1FillHoleParams.html#a0091db9bf054611a125fa8d12b6dce14":[9,5,0,0,0,434,0],
+"structmeshlib_1_1FillHoleParams.html#a0091db9bf054611a125fa8d12b6dce14":[9,5,1,0,0,421,0],
+"structmeshlib_1_1FillHoleParams.html#a0e482f4de64e93bd9119322ce7a5ba91":[9,5,0,0,0,434,10],
+"structmeshlib_1_1FillHoleParams.html#a0e482f4de64e93bd9119322ce7a5ba91":[9,5,1,0,0,421,10],
 "structmeshlib_1_1FillHoleParams.html#a202d6f759f5f45b759e3d7c87cdcb29f":[9,5,0,0,0,434,8],
 "structmeshlib_1_1FillHoleParams.html#a202d6f759f5f45b759e3d7c87cdcb29f":[9,5,1,0,0,421,8],
 "structmeshlib_1_1FillHoleParams.html#a25792ed3166243f23d7ec21d4c07fb24":[9,5,0,0,0,434,12],
@@ -237,17 +249,5 @@ var NAVTREEINDEX59 =
 "structmeshlib_1_1FindProjectionOnPointsSettings.html#a5dde8dbb83ba4e6b3560fec340669c7b":[9,5,0,0,0,443,5],
 "structmeshlib_1_1FindProjectionOnPointsSettings.html#a5dde8dbb83ba4e6b3560fec340669c7b":[9,5,1,0,0,430,5],
 "structmeshlib_1_1FindProjectionOnPointsSettings.html#a876b7490249549dc5ce09dea3faddfc5":[9,5,0,0,0,443,1],
-"structmeshlib_1_1FindProjectionOnPointsSettings.html#a876b7490249549dc5ce09dea3faddfc5":[9,5,1,0,0,430,1],
-"structmeshlib_1_1FindProjectionOnPointsSettings.html#a9fb0aec75a2edab73b3c4c711614b65c":[9,5,0,0,0,443,13],
-"structmeshlib_1_1FindProjectionOnPointsSettings.html#a9fb0aec75a2edab73b3c4c711614b65c":[9,5,1,0,0,430,13],
-"structmeshlib_1_1FindProjectionOnPointsSettings.html#aa5bb84a72d54f85cf594212e49ade7c7":[9,5,0,0,0,443,3],
-"structmeshlib_1_1FindProjectionOnPointsSettings.html#aa5bb84a72d54f85cf594212e49ade7c7":[9,5,1,0,0,430,3],
-"structmeshlib_1_1FindProjectionOnPointsSettings.html#ad12d7b71764e3d42a79df9a5c6a525a6":[9,5,0,0,0,443,6],
-"structmeshlib_1_1FindProjectionOnPointsSettings.html#ad12d7b71764e3d42a79df9a5c6a525a6":[9,5,1,0,0,430,6],
-"structmeshlib_1_1FindProjectionOnPointsSettings.html#ad2c2d458f8ac5846a130ab9834d6a3f4":[9,5,0,0,0,443,15],
-"structmeshlib_1_1FindProjectionOnPointsSettings.html#ad2c2d458f8ac5846a130ab9834d6a3f4":[9,5,1,0,0,430,15],
-"structmeshlib_1_1FindProjectionOnPointsSettings.html#af435ad56010a5e12235cbdc98bcd42a4":[9,5,0,0,0,443,2],
-"structmeshlib_1_1FindProjectionOnPointsSettings.html#af435ad56010a5e12235cbdc98bcd42a4":[9,5,1,0,0,430,2],
-"structmeshlib_1_1FindProjectionOnPointsSettings.html#afb52b62d295c444ee0f4902655dbe1df":[9,5,0,0,0,443,9],
-"structmeshlib_1_1FindProjectionOnPointsSettings.html#afb52b62d295c444ee0f4902655dbe1df":[9,5,1,0,0,430,9]
+"structmeshlib_1_1FindProjectionOnPointsSettings.html#a876b7490249549dc5ce09dea3faddfc5":[9,5,1,0,0,430,1]
 };

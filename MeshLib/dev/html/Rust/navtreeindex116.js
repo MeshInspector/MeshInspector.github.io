@@ -1,5 +1,17 @@
 var NAVTREEINDEX116 =
 {
+"structmeshlib_1_1Polyline2ProjectionWithOffsetResult.html#acbdc692ce08cf169d93cd29ea58439dc":[9,5,0,0,0,832,8],
+"structmeshlib_1_1Polyline2ProjectionWithOffsetResult.html#acbdc692ce08cf169d93cd29ea58439dc":[9,5,1,0,0,819,8],
+"structmeshlib_1_1Polyline2ProjectionWithOffsetResult.html#ad001a9b2bf0f23fcee701469689c6654":[9,5,0,0,0,832,9],
+"structmeshlib_1_1Polyline2ProjectionWithOffsetResult.html#ad001a9b2bf0f23fcee701469689c6654":[9,5,1,0,0,819,9],
+"structmeshlib_1_1Polyline2ProjectionWithOffsetResult.html#afab4250b0f6e21847883bb6941b25d11":[9,5,0,0,0,832,3],
+"structmeshlib_1_1Polyline2ProjectionWithOffsetResult.html#afab4250b0f6e21847883bb6941b25d11":[9,5,1,0,0,819,3],
+"structmeshlib_1_1Polyline3.html":[9,5,0,0,0,833],
+"structmeshlib_1_1Polyline3.html":[9,5,1,0,0,820],
+"structmeshlib_1_1Polyline3.html#a04c1f1018b7a28c8068155481a31d79d":[9,5,0,0,0,833,0],
+"structmeshlib_1_1Polyline3.html#a04c1f1018b7a28c8068155481a31d79d":[9,5,1,0,0,820,0],
+"structmeshlib_1_1Polyline3.html#a073db95d03ee0e28fb0e870afe218591":[9,5,0,0,0,833,11],
+"structmeshlib_1_1Polyline3.html#a073db95d03ee0e28fb0e870afe218591":[9,5,1,0,0,820,11],
 "structmeshlib_1_1Polyline3.html#a12476d29b0dc5863b12273192a2e4d80":[9,5,0,0,0,833,33],
 "structmeshlib_1_1Polyline3.html#a12476d29b0dc5863b12273192a2e4d80":[9,5,1,0,0,820,33],
 "structmeshlib_1_1Polyline3.html#a1a41c7046eedf0afe732c563d04d4def":[9,5,0,0,0,833,24],
@@ -237,17 +249,5 @@ var NAVTREEINDEX116 =
 "structmeshlib_1_1PolylineSubdivideSettings.html#a864c5fd84e8d647146a17da8347b3ddb":[9,5,0,0,0,840,0],
 "structmeshlib_1_1PolylineSubdivideSettings.html#a864c5fd84e8d647146a17da8347b3ddb":[9,5,1,0,0,827,0],
 "structmeshlib_1_1PolylineSubdivideSettings.html#a88e0a4b9cf7c9b9d957834da626341f8":[9,5,0,0,0,840,9],
-"structmeshlib_1_1PolylineSubdivideSettings.html#a88e0a4b9cf7c9b9d957834da626341f8":[9,5,1,0,0,827,9],
-"structmeshlib_1_1PolylineSubdivideSettings.html#a8c455fb8f78ac9378c7cac3d56c681af":[9,5,0,0,0,840,10],
-"structmeshlib_1_1PolylineSubdivideSettings.html#a8c455fb8f78ac9378c7cac3d56c681af":[9,5,1,0,0,827,10],
-"structmeshlib_1_1PolylineSubdivideSettings.html#a8ecb75db7193ce984ddceb942baa3e46":[9,5,0,0,0,840,21],
-"structmeshlib_1_1PolylineSubdivideSettings.html#a8ecb75db7193ce984ddceb942baa3e46":[9,5,1,0,0,827,21],
-"structmeshlib_1_1PolylineSubdivideSettings.html#a974a84e3991e284b1522d04a64346b84":[9,5,0,0,0,840,24],
-"structmeshlib_1_1PolylineSubdivideSettings.html#a974a84e3991e284b1522d04a64346b84":[9,5,1,0,0,827,24],
-"structmeshlib_1_1PolylineSubdivideSettings.html#a983085de395496a655a9a57336ef3532":[9,5,0,0,0,840,12],
-"structmeshlib_1_1PolylineSubdivideSettings.html#a983085de395496a655a9a57336ef3532":[9,5,1,0,0,827,12],
-"structmeshlib_1_1PolylineSubdivideSettings.html#aa64b5dea68c30d339c413bd06c266239":[9,5,0,0,0,840,16],
-"structmeshlib_1_1PolylineSubdivideSettings.html#aa64b5dea68c30d339c413bd06c266239":[9,5,1,0,0,827,16],
-"structmeshlib_1_1PolylineSubdivideSettings.html#aaf31b9d5f3e8a5f4b550b01e470782b0":[9,5,0,0,0,840,5],
-"structmeshlib_1_1PolylineSubdivideSettings.html#aaf31b9d5f3e8a5f4b550b01e470782b0":[9,5,1,0,0,827,5]
+"structmeshlib_1_1PolylineSubdivideSettings.html#a88e0a4b9cf7c9b9d957834da626341f8":[9,5,1,0,0,827,9]
 };

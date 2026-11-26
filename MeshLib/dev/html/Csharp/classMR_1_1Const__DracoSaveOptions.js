@@ -10,6 +10,8 @@ var classMR_1_1Const__DracoSaveOptions =
     [ "__ptr_storage_colors", "classMR_1_1Const__DracoSaveOptions.html#a55589bbdc6fefb2db0ef7c926f7f046e", null ],
     [ "__ptr_storage_primitiveColors", "classMR_1_1Const__DracoSaveOptions.html#ac8cbdb54bb7629b0f0f34eb1afec30a3", null ],
     [ "__ptr_storage_texture", "classMR_1_1Const__DracoSaveOptions.html#a048bf3cd8d19fb209ac9d5f780874677", null ],
+    [ "__ptr_storage_texturePerFace", "classMR_1_1Const__DracoSaveOptions.html#a5258e72eae1206b3e3782a093f61dbaf", null ],
+    [ "__ptr_storage_textures", "classMR_1_1Const__DracoSaveOptions.html#a5c0e2b053c9c9a542c5c6d86c9918bec", null ],
     [ "__ptr_storage_uvMap", "classMR_1_1Const__DracoSaveOptions.html#ac144de29b78067b1528caf9f44123453", null ],
     [ "__ptr_storage_xf", "classMR_1_1Const__DracoSaveOptions.html#afde376c20a9132240dc620ebd04d8bbe", null ],
     [ "__ref_storage_compressionLevel", "classMR_1_1Const__DracoSaveOptions.html#afdb03c0af63c5fde517a58bd21402563", null ],
@@ -31,6 +33,8 @@ var classMR_1_1Const__DracoSaveOptions =
     [ "solidColor", "classMR_1_1Const__DracoSaveOptions.html#af796d0818d91db9592bd087f0479a17c", null ],
     [ "telemetrySignal", "classMR_1_1Const__DracoSaveOptions.html#acdc488a5fcabfbb29e6cf168dd83ba85", null ],
     [ "texture", "classMR_1_1Const__DracoSaveOptions.html#ae710cf4de708ae66c469738353acf773", null ],
+    [ "texturePerFace", "classMR_1_1Const__DracoSaveOptions.html#a19436432af29d83c202bfea0aac18a07", null ],
+    [ "textures", "classMR_1_1Const__DracoSaveOptions.html#a2ada3b8a80fa685774b254180335ce7c", null ],
     [ "uvMap", "classMR_1_1Const__DracoSaveOptions.html#ad765bc93442266f0522322b6ff58f3a9", null ],
     [ "xf", "classMR_1_1Const__DracoSaveOptions.html#aa5f91250ed3e079f508238cd4d79d4d1", null ]
 ];

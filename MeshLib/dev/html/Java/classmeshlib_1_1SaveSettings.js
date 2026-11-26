@@ -2,7 +2,7 @@ var classmeshlib_1_1SaveSettings =
 [
     [ "SaveSettings", "classmeshlib_1_1SaveSettings.html#a553f48ec2410a2c9ce06f16f9794463c", null ],
     [ "SaveSettings", "classmeshlib_1_1SaveSettings.html#a6923d62665558a2ade999e7a3aef4ea9", null ],
-    [ "SaveSettings", "classmeshlib_1_1SaveSettings.html#a53c7c997c3e12bbca8af7f67a2a6ab3b", null ],
+    [ "SaveSettings", "classmeshlib_1_1SaveSettings.html#ab0f1f2fdb4e8a79bf0cf4dc5f2154510", null ],
     [ "SaveSettings", "classmeshlib_1_1SaveSettings.html#a2f79d1742abc7a44ea742477e913fa21", null ],
     [ "assignFromAnother", "classmeshlib_1_1SaveSettings.html#a5b6b812d7356ec0e0914ac93c938e93d", null ],
     [ "colors", "classmeshlib_1_1SaveSettings.html#a89fd09cc889c02f5210f23179ba367e9", null ],
@@ -24,11 +24,15 @@ var classmeshlib_1_1SaveSettings =
     [ "setSolidColor", "classmeshlib_1_1SaveSettings.html#adff87ba223086fcabb215452243788ad", null ],
     [ "setTelemetrySignal", "classmeshlib_1_1SaveSettings.html#a2952728ba84f5e5f1fa92d601a9a6857", null ],
     [ "setTexture", "classmeshlib_1_1SaveSettings.html#a2ff928269b307104413a8ddd8d7d70cc", null ],
+    [ "setTexturePerFace", "classmeshlib_1_1SaveSettings.html#a038ee619a4ba7e61c43d59a922a73710", null ],
+    [ "setTextures", "classmeshlib_1_1SaveSettings.html#a5fa3f5482b2b3168f5c5496dc0db49ff", null ],
     [ "setUvMap", "classmeshlib_1_1SaveSettings.html#a1a9bfb9d5692fb731b8c229a15eb9c63", null ],
     [ "setXf", "classmeshlib_1_1SaveSettings.html#a9798429c75ad37e713ede169e1fbfa4d", null ],
     [ "solidColor", "classmeshlib_1_1SaveSettings.html#aa1bce42f74107c0f56789486fa610c17", null ],
     [ "telemetrySignal", "classmeshlib_1_1SaveSettings.html#af21e32b856680ecd3bb88153ef5cbd51", null ],
     [ "texture", "classmeshlib_1_1SaveSettings.html#a3364a340c7baac94ba31c7e79dd21b43", null ],
+    [ "texturePerFace", "classmeshlib_1_1SaveSettings.html#a924a840befb6131686f28863cbb2b1cc", null ],
+    [ "textures", "classmeshlib_1_1SaveSettings.html#a8543bb3fcc3fb9e832a873476beedc03", null ],
     [ "uvMap", "classmeshlib_1_1SaveSettings.html#a198a2cfa3646a1b815ab23677254a25f", null ],
     [ "xf", "classmeshlib_1_1SaveSettings.html#a5ecae8db59694937dee93117580fcfa3", null ]
 ];

@@ -1,7 +1,7 @@
 var classMR_1_1SaveSettings =
 [
     [ "SaveSettings", "classMR_1_1SaveSettings.html#ae4cf7617b98c26fe584e4f7594cc49d6", null ],
-    [ "SaveSettings", "classMR_1_1SaveSettings.html#a239a406934f30ce8cb89e764f91ed4a6", null ],
+    [ "SaveSettings", "classMR_1_1SaveSettings.html#a07b46dda87c7e5299d6269078dce9200", null ],
     [ "SaveSettings", "classMR_1_1SaveSettings.html#a9ef910af319f987f5ac113a74802ced3", null ],
     [ "SaveSettings", "classMR_1_1SaveSettings.html#ab4bbb1235275abac6d3bdb8595450a3f", null ],
     [ "SaveSettings", "classMR_1_1SaveSettings.html#ad16752a9c1c605e496c0c05f990c7000", null ],
@@ -17,6 +17,8 @@ var classMR_1_1SaveSettings =
     [ "solidColor", "classMR_1_1SaveSettings.html#aa1caab12117b57c3e08054cfaddf977e", null ],
     [ "telemetrySignal", "classMR_1_1SaveSettings.html#accd2a5307a3530412f802e37b3dd1839", null ],
     [ "texture", "classMR_1_1SaveSettings.html#aa6cdc0dc8aba8a853203ec4d7358bd25", null ],
+    [ "texturePerFace", "classMR_1_1SaveSettings.html#acc02d23368556fec94fa42c7365388b1", null ],
+    [ "textures", "classMR_1_1SaveSettings.html#addde934274b05905d65e990f02dd3747", null ],
     [ "uvMap", "classMR_1_1SaveSettings.html#a603cb9e64ff00f546275d30d0514c1c7", null ],
     [ "xf", "classMR_1_1SaveSettings.html#a65abab80e05725aad1955e9671ebaeaa", null ]
 ];

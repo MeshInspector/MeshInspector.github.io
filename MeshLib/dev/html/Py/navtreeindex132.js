@@ -1,5 +1,9 @@
 var NAVTREEINDEX132 =
 {
+"classmrmeshpy_1_1Features_1_1MeasureResult_1_1ConstDistance.html":[9,1,0,0,2,1597,6,4],
+"classmrmeshpy_1_1Features_1_1MeasureResult_1_1ConstDistance.html":[9,1,1,0,1,1597,6,4],
+"classmrmeshpy_1_1Features_1_1MeasureResult_1_1ConstDistance.html#a00157f4c692d604711724deb6f6fdc30":[9,1,0,0,2,1597,6,4,6],
+"classmrmeshpy_1_1Features_1_1MeasureResult_1_1ConstDistance.html#a00157f4c692d604711724deb6f6fdc30":[9,1,1,0,1,1597,6,4,6],
 "classmrmeshpy_1_1Features_1_1MeasureResult_1_1ConstDistance.html#a40037a4a6755fa347ed4c97e3fb8da28":[9,1,0,0,2,1597,6,4,2],
 "classmrmeshpy_1_1Features_1_1MeasureResult_1_1ConstDistance.html#a40037a4a6755fa347ed4c97e3fb8da28":[9,1,1,0,1,1597,6,4,2],
 "classmrmeshpy_1_1Features_1_1MeasureResult_1_1ConstDistance.html#a56dfdd3498308bc6cb7c60367ae1cd59":[9,1,0,0,2,1597,6,4,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX132 =
 "classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Sphere3f.html":[9,1,0,0,2,1597,9,7],
 "classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Sphere3f.html":[9,1,1,0,1,1597,9,7],
 "classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Sphere3f.html#a9f2aaddfab09fcf1ac5fbd04d3f4e89d":[9,1,0,0,2,1597,9,7,0],
-"classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Sphere3f.html#a9f2aaddfab09fcf1ac5fbd04d3f4e89d":[9,1,1,0,1,1597,9,7,0],
-"classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Sphere3f.html#aef127809ddec0f89dab43a815c7e8b44":[9,1,0,0,2,1597,9,7,1],
-"classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Sphere3f.html#aef127809ddec0f89dab43a815c7e8b44":[9,1,1,0,1,1597,9,7,1],
-"classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html":[9,1,0,0,2,1597,9,8],
-"classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html":[9,1,1,0,1,1597,9,8]
+"classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Sphere3f.html#a9f2aaddfab09fcf1ac5fbd04d3f4e89d":[9,1,1,0,1,1597,9,7,0]
 };

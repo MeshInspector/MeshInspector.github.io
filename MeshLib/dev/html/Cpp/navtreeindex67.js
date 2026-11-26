@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1GeodesicPath.html#a8bce91a8b92164a84457e09d2f498961":[9,0,0,15,3,0,1],
+"structMR_1_1GeodesicPath.html#af134007969afd8d9e0854c05ab72e99b":[9,0,0,15,3,0,3],
 "structMR_1_1GlTexture_1_1Settings.html":[9,0,0,19,637],
 "structMR_1_1GlobalRegistrationParams.html":[9,0,0,19,290],
 "structMR_1_1GlobalRegistrationResult.html":[9,0,0,19,291],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ad91ba5b259552f2af641bf94826eeea1":[9,0,2,0,1,7,10,19],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ada8abd512f2564b6e933ba4332bdce0c":[9,0,1,0,1,17,10,17],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ada8abd512f2564b6e933ba4332bdce0c":[9,0,2,0,1,7,10,17],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc":[9,0,1,0,1,17,10,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc":[9,0,2,0,1,7,10,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#af8b5e638410d87130b72445eb3a009cd":[9,0,1,0,1,17,10,16]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc":[9,0,1,0,1,17,10,3]
 };

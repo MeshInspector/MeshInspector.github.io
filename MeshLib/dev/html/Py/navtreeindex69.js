@@ -1,5 +1,9 @@
 var NAVTREEINDEX69 =
 {
+"classmrmeshpy_1_1ConstTorus3d.html":[9,1,0,0,2,1284],
+"classmrmeshpy_1_1ConstTorus3d.html":[9,1,1,0,1,1284],
+"classmrmeshpy_1_1ConstTorus3d.html#a19e2acf2832fe805986be70b84899f6e":[9,1,0,0,2,1284,4],
+"classmrmeshpy_1_1ConstTorus3d.html#a19e2acf2832fe805986be70b84899f6e":[9,1,1,0,1,1284,4],
 "classmrmeshpy_1_1ConstTorus3d.html#a3502b8834e7af41d7f51feaae203a114":[9,1,0,0,2,1284,7],
 "classmrmeshpy_1_1ConstTorus3d.html#a3502b8834e7af41d7f51feaae203a114":[9,1,1,0,1,1284,7],
 "classmrmeshpy_1_1ConstTorus3d.html#a45db19bc3d8526023ae0e93a17f75b4d":[9,1,0,0,2,1284,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX69 =
 "classmrmeshpy_1_1ConstTriTriDistanceResult__float.html#ad060002ef089df2419ef37436374b6ea":[9,1,0,0,2,1304,3],
 "classmrmeshpy_1_1ConstTriTriDistanceResult__float.html#ad060002ef089df2419ef37436374b6ea":[9,1,1,0,1,1304,3],
 "classmrmeshpy_1_1ConstTriTriDistanceResult__float.html#adca953c92761bf2ae167e97381b38f4c":[9,1,0,0,2,1304,5],
-"classmrmeshpy_1_1ConstTriTriDistanceResult__float.html#adca953c92761bf2ae167e97381b38f4c":[9,1,1,0,1,1304,5],
-"classmrmeshpy_1_1ConstTriTriDistanceResult__float.html#ae351cc8402201ae276dba6dfb76efeed":[9,1,0,0,2,1304,1],
-"classmrmeshpy_1_1ConstTriTriDistanceResult__float.html#ae351cc8402201ae276dba6dfb76efeed":[9,1,1,0,1,1304,1],
-"classmrmeshpy_1_1ConstTriangleSegmentIntersectResult.html":[9,1,0,0,2,1289],
-"classmrmeshpy_1_1ConstTriangleSegmentIntersectResult.html":[9,1,1,0,1,1289]
+"classmrmeshpy_1_1ConstTriTriDistanceResult__float.html#adca953c92761bf2ae167e97381b38f4c":[9,1,1,0,1,1304,5]
 };

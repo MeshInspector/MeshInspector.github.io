@@ -1,5 +1,13 @@
 var NAVTREEINDEX105 =
 {
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a30c1365e012d872d8df43e12fbc76e53":[9,3,0,0,0,1203,7,0],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a345a2c3a2ad57fe98251e53d6119fb32":[9,3,0,0,0,1203,7,8],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a6b9df534abc4ddb6c2c9b95a674063ed":[9,3,0,0,0,1203,7,1],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a6dacf8fbd0207d569e3e35876ee708d6":[9,3,0,0,0,1203,7,7],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#ac3f7a8e10de898caab17054a19c1187b":[9,3,0,0,0,1203,7,3],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#ac8675580f0e0f03eaa9f73c5f5e0be3a":[9,3,0,0,0,1203,7,6],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#acd9ad7fc72d377e1afdc3d3cbbf74bbd":[9,3,0,0,0,1203,7,5],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#adfe1466efe7d1fc5372095f5e5f35082":[9,3,0,0,0,1203,7,4],
 "classMR_1_1Cuda_1_1DeviceInfo.html":[9,3,0,0,0,1203,8],
 "classMR_1_1Cuda_1_1DeviceInfo.html#a11540c23bfe5df4433b853029235ad5f":[9,3,0,0,0,1203,8,11],
 "classMR_1_1Cuda_1_1DeviceInfo.html#a4b29477160f3d5b4ab27a91f36c24dcc":[9,3,0,0,0,1203,8,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX105 =
 "classMR_1_1DecimateResult.html":[9,3,0,0,0,1216],
 "classMR_1_1DecimateResult.html#a1485417101447b1de97b0f684c956034":[9,3,0,0,0,1216,2],
 "classMR_1_1DecimateResult.html#a4907b767f454c980b94fb8385a459c6b":[9,3,0,0,0,1216,4],
-"classMR_1_1DecimateResult.html#a527166116e334bc77c78ef5ce736cda5":[9,3,0,0,0,1216,5],
-"classMR_1_1DecimateResult.html#a64552392c8ee7167f138222085aa9f03":[9,3,0,0,0,1216,0],
-"classMR_1_1DecimateResult.html#a877bdbe5430fac08446a155fbf450e3a":[9,3,0,0,0,1216,1],
-"classMR_1_1DecimateResult.html#a9c657ab91f569e655fccca5e33e67b2e":[9,3,0,0,0,1216,6],
-"classMR_1_1DecimateResult.html#ab39a6cda23e5c59ade07c3e4dff2ffcb":[9,3,0,0,0,1216,3],
-"classMR_1_1DecimateResult.html#aced91d188a3ac295b24ea646bc1b209c":[9,3,0,0,0,1216,7],
-"classMR_1_1DecimateResult.html#ade919f12c7cec4bf8a5d694bb01349a4":[9,3,0,0,0,1216,8],
-"classMR_1_1DecimateSettings.html":[9,3,0,0,0,1217],
-"classMR_1_1DecimateSettings.html#a040958d62d8f9cf6d834297c179c458a":[9,3,0,0,0,1217,18]
+"classMR_1_1DecimateResult.html#a527166116e334bc77c78ef5ce736cda5":[9,3,0,0,0,1216,5]
 };

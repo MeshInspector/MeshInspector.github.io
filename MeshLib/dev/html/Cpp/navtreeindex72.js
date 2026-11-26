@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1RenderDimensions_1_1LengthParams.html":[9,0,0,19,686],
+"structMR_1_1RenderDimensions_1_1PointParams.html":[9,0,0,19,680],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html":[9,0,0,19,682],
 "structMR_1_1RenderDimensions_1_1Tolerance.html":[9,0,0,19,678],
 "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html":[9,0,1,0,1,46,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa":[9,0,1,0,1,52,1,3],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa":[9,0,2,0,1,34,1,3],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7":[9,0,1,0,1,52,1,6],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7":[9,0,2,0,1,34,1,6],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a49d74151d155a2c96be9eb811e05757d":[9,0,1,0,1,52,1,2],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a49d74151d155a2c96be9eb811e05757d":[9,0,2,0,1,34,1,2]
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a45558230d0bcbdc7e5d3da4e7f7b3ab7":[9,0,2,0,1,34,1,6]
 };

@@ -12,6 +12,8 @@ var classmrmeshpy_1_1ConstSaveSettings =
     [ "solidColor", "classmrmeshpy_1_1ConstSaveSettings.html#a940e8a829ff8a4101b7f819688f4a040", null ],
     [ "telemetrySignal", "classmrmeshpy_1_1ConstSaveSettings.html#a4445422d950efccf5e9fdaf69461514e", null ],
     [ "texture", "classmrmeshpy_1_1ConstSaveSettings.html#a0d112cb79672242a268d520817f65510", null ],
+    [ "texturePerFace", "classmrmeshpy_1_1ConstSaveSettings.html#a08249d967964b5ff4d9c2f34ccf7ea55", null ],
+    [ "textures", "classmrmeshpy_1_1ConstSaveSettings.html#a07b32a4f48ef988b407f805a21ae89cc", null ],
     [ "uvMap", "classmrmeshpy_1_1ConstSaveSettings.html#a6d494a8de8e1ddd0d565bf378fd15aa0", null ],
     [ "xf", "classmrmeshpy_1_1ConstSaveSettings.html#a0a789b5f38f0a770a21f1c3010f01a9a", null ]
 ];

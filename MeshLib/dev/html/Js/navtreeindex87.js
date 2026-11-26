@@ -1,5 +1,17 @@
 var NAVTREEINDEX87 =
 {
+"classVector__MR__QuadraticForm2f__MR__VertId.html#a027ae6e478462d2a5eb1f0835475e60f":[9,4,1,0,1525,23],
+"classVector__MR__QuadraticForm2f__MR__VertId.html#a072f4d035f542b643cd68ba32ec68aeb":[9,4,1,0,1525,20],
+"classVector__MR__QuadraticForm2f__MR__VertId.html#a07c363ca663d4f0526c8fd4fba0ffb25":[9,4,1,0,1525,13],
+"classVector__MR__QuadraticForm2f__MR__VertId.html#a1aecb60d8540418471e82a03a54cfa40":[9,4,1,0,1525,25],
+"classVector__MR__QuadraticForm2f__MR__VertId.html#a22a4437864237578bb4084e893ccd13a":[9,4,1,0,1525,2],
+"classVector__MR__QuadraticForm2f__MR__VertId.html#a3b76772d9f158c03de2fda185c79c5b9":[9,4,1,0,1525,34],
+"classVector__MR__QuadraticForm2f__MR__VertId.html#a3d37e93c33e4d8ed002919d5e64443cb":[9,4,1,0,1525,18],
+"classVector__MR__QuadraticForm2f__MR__VertId.html#a495f3439514992e4c1de82d32fb7f095":[9,4,1,0,1525,26],
+"classVector__MR__QuadraticForm2f__MR__VertId.html#a49855976dea580740af5cbb104ffbe47":[9,4,1,0,1525,19],
+"classVector__MR__QuadraticForm2f__MR__VertId.html#a4aa7549012a47fba2921e53425e71ec4":[9,4,1,0,1525,32],
+"classVector__MR__QuadraticForm2f__MR__VertId.html#a4e29a2c2605982d5855bcc3b01dda6df":[9,4,1,0,1525,29],
+"classVector__MR__QuadraticForm2f__MR__VertId.html#a52fcc1becc09601423806f1ff7b2eba2":[9,4,1,0,1525,30],
 "classVector__MR__QuadraticForm2f__MR__VertId.html#a5cdb9ee0400f3883a5a160c272d1db47":[9,4,1,0,1525,11],
 "classVector__MR__QuadraticForm2f__MR__VertId.html#a7437c20e2d28df59b2d388581ffa1337":[9,4,1,0,1525,38],
 "classVector__MR__QuadraticForm2f__MR__VertId.html#a77f826896a0532dd19cc6bea980f2c99":[9,4,1,0,1525,35],
@@ -237,17 +249,5 @@ var NAVTREEINDEX87 =
 "classVector__MR__VarEdgeTri.html#a33aff33cb52bf9d1569df93a2abcdda2":[9,4,1,0,1530,34],
 "classVector__MR__VarEdgeTri.html#a34b2fe42733a01a19346dddfe82c4353":[9,4,1,0,1530,43],
 "classVector__MR__VarEdgeTri.html#a3a5bf5f0dc5c3b02de6173fbdb766da8":[9,4,1,0,1530,17],
-"classVector__MR__VarEdgeTri.html#a4ad0fe95825df2e2f78b9ab788a3524f":[9,4,1,0,1530,41],
-"classVector__MR__VarEdgeTri.html#a4c00531b5c5785a499851eb08ee8c42f":[9,4,1,0,1530,6],
-"classVector__MR__VarEdgeTri.html#a522a2855f3e0a0fba95c7da5b757d672":[9,4,1,0,1530,9],
-"classVector__MR__VarEdgeTri.html#a609663bcf899faf5a4d7a96112370303":[9,4,1,0,1530,10],
-"classVector__MR__VarEdgeTri.html#a6e6de710d6e0eedf6a323e21ca326d72":[9,4,1,0,1530,25],
-"classVector__MR__VarEdgeTri.html#a71d447b2f1c0eab033cd1516686e8892":[9,4,1,0,1530,23],
-"classVector__MR__VarEdgeTri.html#a74913b13a680af775a43f60395661cf8":[9,4,1,0,1530,18],
-"classVector__MR__VarEdgeTri.html#a7700881e01add86a7ae4e13fe617f025":[9,4,1,0,1530,21],
-"classVector__MR__VarEdgeTri.html#a7800b3dbada2690d2b2f2adba3cb66c0":[9,4,1,0,1530,35],
-"classVector__MR__VarEdgeTri.html#a7c8827ca66a9afb3fa4c50b53ba84695":[9,4,1,0,1530,29],
-"classVector__MR__VarEdgeTri.html#a7cc22fe5699e9634bd557997a4c92792":[9,4,1,0,1530,16],
-"classVector__MR__VarEdgeTri.html#a8154bf3a329585ebef6a7cb286ee1d1f":[9,4,1,0,1530,42],
-"classVector__MR__VarEdgeTri.html#a9783711883a06f9e40725974318a3c2d":[9,4,1,0,1530,40]
+"classVector__MR__VarEdgeTri.html#a4ad0fe95825df2e2f78b9ab788a3524f":[9,4,1,0,1530,41]
 };

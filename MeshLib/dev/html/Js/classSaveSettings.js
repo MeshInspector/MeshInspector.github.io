@@ -2,7 +2,7 @@ var classSaveSettings =
 [
     [ "SaveSettings", "classSaveSettings.html#a1e60dd19f26d6a9b9d14b9ac42c8b21e", null ],
     [ "SaveSettings", "classSaveSettings.html#a5255b3db5bea619e1e27984833868ca0", null ],
-    [ "SaveSettings", "classSaveSettings.html#a3a92f843fa32ecd5e77588acf4bcfeab", null ],
+    [ "SaveSettings", "classSaveSettings.html#a5cf7f4815c150fd7cda92563545b23c3", null ],
     [ "assignFromAnother", "classSaveSettings.html#ab1fde4c7d67e5422d08546da7f8fb409", null ],
     [ "colors", "classSaveSettings.html#ae819c93dcc956f1ce8b121c0fb05c8a5", null ],
     [ "lengthUnit", "classSaveSettings.html#ac4fca325cd83fc3bfc0b87c49c9e6235", null ],
@@ -15,6 +15,8 @@ var classSaveSettings =
     [ "solidColor", "classSaveSettings.html#af42f0b1373929e93391fa8ef9bc5ac54", null ],
     [ "telemetrySignal", "classSaveSettings.html#a10e8bd19dc9e3e0c1df58459110e40f8", null ],
     [ "texture", "classSaveSettings.html#a113aad4ac9ab2d3b93bd604dc299449f", null ],
+    [ "texturePerFace", "classSaveSettings.html#a52db1e3eed6e1cdc35e07cc7129915c4", null ],
+    [ "textures", "classSaveSettings.html#aac2974fcd9d1803766110b51ddb9a458", null ],
     [ "uvMap", "classSaveSettings.html#a0e770f452fd1d3ef0b26793538942152", null ],
     [ "xf", "classSaveSettings.html#a8800f3cd4b14d4bf8f385c06cd4a79cd", null ]
 ];

@@ -1,5 +1,13 @@
 var NAVTREEINDEX106 =
 {
+"classMR_1_1DecimateResult.html#a64552392c8ee7167f138222085aa9f03":[9,3,0,0,0,1216,0],
+"classMR_1_1DecimateResult.html#a877bdbe5430fac08446a155fbf450e3a":[9,3,0,0,0,1216,1],
+"classMR_1_1DecimateResult.html#a9c657ab91f569e655fccca5e33e67b2e":[9,3,0,0,0,1216,6],
+"classMR_1_1DecimateResult.html#ab39a6cda23e5c59ade07c3e4dff2ffcb":[9,3,0,0,0,1216,3],
+"classMR_1_1DecimateResult.html#aced91d188a3ac295b24ea646bc1b209c":[9,3,0,0,0,1216,7],
+"classMR_1_1DecimateResult.html#ade919f12c7cec4bf8a5d694bb01349a4":[9,3,0,0,0,1216,8],
+"classMR_1_1DecimateSettings.html":[9,3,0,0,0,1217],
+"classMR_1_1DecimateSettings.html#a040958d62d8f9cf6d834297c179c458a":[9,3,0,0,0,1217,18],
 "classMR_1_1DecimateSettings.html#a051e26d6cd8669e3ea6efd9397bd3f4d":[9,3,0,0,0,1217,34],
 "classMR_1_1DecimateSettings.html#a06306ed033b5ccfa3237dab3fb1c3a61":[9,3,0,0,0,1217,11],
 "classMR_1_1DecimateSettings.html#a07505c08c620c736e4f5041c08418e2d":[9,3,0,0,0,1217,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX106 =
 "classMR_1_1DistanceMapLoadSettings.html#ac3a3475c13d56c84d0de716ecedae55b":[9,3,0,0,0,1233,3],
 "classMR_1_1DistanceMapLoadSettings.html#acc3fa000e7cfd08ee22dee4337ffa449":[9,3,0,0,0,1233,7],
 "classMR_1_1DistanceMapLoadSettings.html#afb85e50d2e5a9883a7fb31329397dd27":[9,3,0,0,0,1233,5],
-"classMR_1_1DistanceMapSave.html":[9,3,0,0,0,1234],
-"classMR_1_1DistanceMapSave.html#a6287d978737eddc435dc514259ab1ab0":[9,3,0,0,0,1234,3],
-"classMR_1_1DistanceMapSave.html#a8d5a6944088df3384d615a495c64b210":[9,3,0,0,0,1234,1],
-"classMR_1_1DistanceMapSave.html#ad2c46a3796f8ae801f2fdc9d7fbf41b3":[9,3,0,0,0,1234,0],
-"classMR_1_1DistanceMapSave.html#af5f73d2b7ddf420b84901ac67016729f":[9,3,0,0,0,1234,2],
-"classMR_1_1DistanceMapSaveSettings.html":[9,3,0,0,0,1235],
-"classMR_1_1DistanceMapSaveSettings.html#a2f4f9fdb8967a93301a279f1c3e70bf1":[9,3,0,0,0,1235,4],
-"classMR_1_1DistanceMapSaveSettings.html#a603194d45b8ab62610ec0de558da7877":[9,3,0,0,0,1235,1],
-"classMR_1_1DistanceMapSaveSettings.html#a66e2579c66d13bbf394a0d66a8cc5ecb":[9,3,0,0,0,1235,7]
+"classMR_1_1DistanceMapSave.html":[9,3,0,0,0,1234]
 };

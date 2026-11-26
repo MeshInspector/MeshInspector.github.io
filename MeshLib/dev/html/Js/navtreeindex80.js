@@ -1,5 +1,17 @@
 var NAVTREEINDEX80 =
 {
+"classVector3i64.html#ab8493c79c07dab9034fe3479e4d5a335":[9,4,1,0,1471,11],
+"classVector3i64.html#ad3fc7a93441ca2a16aeb78cbad9ef41c":[9,4,1,0,1471,0],
+"classVector3i64.html#adc8145296a66e0623aa110d97daded21":[9,4,1,0,1471,10],
+"classVector3i64.html#af3b16216f0691707cfc0521eb330583c":[9,4,1,0,1471,2],
+"classVector3i64.html#afd4820b69198631a227ea1fc474271dc":[9,4,1,0,1471,7],
+"classVector3i64.html#afecfdb37bd6dad25d042d058ed903cda":[9,4,1,0,1471,5],
+"classVector4__unsigned__char.html":[9,4,1,0,1472],
+"classVector4__unsigned__char.html#a05f78481eea785dacb01975158f728b5":[9,4,1,0,1472,7],
+"classVector4__unsigned__char.html#a11c5c07d9dc256b7a12a8bbe31c45599":[9,4,1,0,1472,12],
+"classVector4__unsigned__char.html#a1cb5cbffbed9c7e73198b74253d15d20":[9,4,1,0,1472,2],
+"classVector4__unsigned__char.html#a34b5599523e81c4be7e0787939a498c0":[9,4,1,0,1472,11],
+"classVector4__unsigned__char.html#a48dff376f7345be13f4c369f18093c31":[9,4,1,0,1472,4],
 "classVector4__unsigned__char.html#a4ce0c98b6edfe7d2f12c0900cc77eda3":[9,4,1,0,1472,6],
 "classVector4__unsigned__char.html#a52cfeb3775f82e36ae80028575b08273":[9,4,1,0,1472,0],
 "classVector4__unsigned__char.html#a6006c2f7b31d9db9b10a4cf2263ff875":[9,4,1,0,1472,5],
@@ -237,17 +249,5 @@ var NAVTREEINDEX80 =
 "classVector__MR__AABBTreeWideLeafTri.html#a6e11f7ff15b7ea5e92f9dfb7c07aa402":[9,4,1,0,1492,35],
 "classVector__MR__AABBTreeWideLeafTri.html#a6f44e004419513cbd4b8dfccb69d9b09":[9,4,1,0,1492,36],
 "classVector__MR__AABBTreeWideLeafTri.html#a8e3cc71deb032799b9b36249c6e1910a":[9,4,1,0,1492,32],
-"classVector__MR__AABBTreeWideLeafTri.html#a9093feb62059025b9cc3009e173fa50c":[9,4,1,0,1492,24],
-"classVector__MR__AABBTreeWideLeafTri.html#a961d30af5d497791f8b9e8184df19445":[9,4,1,0,1492,31],
-"classVector__MR__AABBTreeWideLeafTri.html#a9e65f3b7aed69a5da0929b92a56df30a":[9,4,1,0,1492,8],
-"classVector__MR__AABBTreeWideLeafTri.html#a9e7dfa53a6d712eccf47194c1b5c6b3f":[9,4,1,0,1492,15],
-"classVector__MR__AABBTreeWideLeafTri.html#aa3005a9b6cd5852ec5b410f4c6731dcf":[9,4,1,0,1492,23],
-"classVector__MR__AABBTreeWideLeafTri.html#aa38d5ef2af38e3a812fbe9ebd24d4678":[9,4,1,0,1492,13],
-"classVector__MR__AABBTreeWideLeafTri.html#aab8197e756c3c6e1c8a006c6688b7d3f":[9,4,1,0,1492,39],
-"classVector__MR__AABBTreeWideLeafTri.html#ac4c572c44a5e879c5320e6211e5a31cc":[9,4,1,0,1492,20],
-"classVector__MR__AABBTreeWideLeafTri.html#acf77e836a329116f5696d82a9b2ff16b":[9,4,1,0,1492,10],
-"classVector__MR__AABBTreeWideLeafTri.html#ad02ddb64ca62bb527159645321941e1c":[9,4,1,0,1492,16],
-"classVector__MR__AABBTreeWideLeafTri.html#ad913553fde3df7c5fefa9c95175dbf3f":[9,4,1,0,1492,38],
-"classVector__MR__AABBTreeWideLeafTri.html#add8dd4be5586095fbeaa662fb2225fd8":[9,4,1,0,1492,29],
-"classVector__MR__AABBTreeWideLeafTri.html#aee9068505d82db1b4d2a866e4b0dcb80":[9,4,1,0,1492,1]
+"classVector__MR__AABBTreeWideLeafTri.html#a9093feb62059025b9cc3009e173fa50c":[9,4,1,0,1492,24]
 };

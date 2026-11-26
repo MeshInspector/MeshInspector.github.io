@@ -1,5 +1,13 @@
 var NAVTREEINDEX62 =
 {
+"classmeshlib_1_1ImproveSamplingSettings.html#a9f70167c029142335831672438896f70":[9,6,1,0,0,515,11],
+"classmeshlib_1_1ImproveSamplingSettings.html#aab5f96a3ee4e0ab72f71fb5d38677cdb":[9,6,0,0,0,515,13],
+"classmeshlib_1_1ImproveSamplingSettings.html#aab5f96a3ee4e0ab72f71fb5d38677cdb":[9,6,1,0,0,515,13],
+"classmeshlib_1_1ImproveSamplingSettings.html#aad8d3de68cdd948be1008a9531c69614":[9,6,0,0,0,515,10],
+"classmeshlib_1_1ImproveSamplingSettings.html#aad8d3de68cdd948be1008a9531c69614":[9,6,1,0,0,515,10],
+"classmeshlib_1_1ImproveSamplingSettings.html#ab22323147377ec69e926a44bb604789f":[9,6,0,0,0,515,15],
+"classmeshlib_1_1ImproveSamplingSettings.html#ab22323147377ec69e926a44bb604789f":[9,6,1,0,0,515,15],
+"classmeshlib_1_1ImproveSamplingSettings.html#aca3d31d5fdf654f934ac8236ef2207aa":[9,6,0,0,0,515,20],
 "classmeshlib_1_1ImproveSamplingSettings.html#aca3d31d5fdf654f934ac8236ef2207aa":[9,6,1,0,0,515,20],
 "classmeshlib_1_1ImproveSamplingSettings.html#acde794e45dcd1589a4c32afb38988793":[9,6,0,0,0,515,1],
 "classmeshlib_1_1ImproveSamplingSettings.html#acde794e45dcd1589a4c32afb38988793":[9,6,1,0,0,515,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX62 =
 "classmeshlib_1_1IntersectionPrecomputes2__double.html#a1239909939b0d6ba7fa3ff4c43f8015b":[9,6,1,0,0,527,5],
 "classmeshlib_1_1IntersectionPrecomputes2__double.html#a1554fd827d7f9a4e6e9719454c226f4d":[9,6,0,0,0,527,16],
 "classmeshlib_1_1IntersectionPrecomputes2__double.html#a1554fd827d7f9a4e6e9719454c226f4d":[9,6,1,0,0,527,16],
-"classmeshlib_1_1IntersectionPrecomputes2__double.html#a270f9aed276b0806f0b210f5b77892f0":[9,6,0,0,0,527,13],
-"classmeshlib_1_1IntersectionPrecomputes2__double.html#a270f9aed276b0806f0b210f5b77892f0":[9,6,1,0,0,527,13],
-"classmeshlib_1_1IntersectionPrecomputes2__double.html#a2988ea7c14d00723560a0de96dc87844":[9,6,0,0,0,527,3],
-"classmeshlib_1_1IntersectionPrecomputes2__double.html#a2988ea7c14d00723560a0de96dc87844":[9,6,1,0,0,527,3],
-"classmeshlib_1_1IntersectionPrecomputes2__double.html#a3545a0b2da54bc487ee252b4ccd60212":[9,6,0,0,0,527,0],
-"classmeshlib_1_1IntersectionPrecomputes2__double.html#a3545a0b2da54bc487ee252b4ccd60212":[9,6,1,0,0,527,0],
-"classmeshlib_1_1IntersectionPrecomputes2__double.html#a48733c964be6426e7824860f98c0edc6":[9,6,0,0,0,527,9],
-"classmeshlib_1_1IntersectionPrecomputes2__double.html#a48733c964be6426e7824860f98c0edc6":[9,6,1,0,0,527,9],
-"classmeshlib_1_1IntersectionPrecomputes2__double.html#a68fb34d951698febff62fe53f82a26d0":[9,6,0,0,0,527,4]
+"classmeshlib_1_1IntersectionPrecomputes2__double.html#a270f9aed276b0806f0b210f5b77892f0":[9,6,0,0,0,527,13]
 };

@@ -177,6 +177,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a840af74a769ebf02700e909c85c91ee6" id="r_a840af74a769ebf02700e909c85c91ee6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a840af74a769ebf02700e909c85c91ee6">setSaveTriCornerUVCoords</a> (boolean value)</td></tr>
 <tr class="memitem:a8fa2467b222cc2e4f09bdaeae3da75dd" id="r_a8fa2467b222cc2e4f09bdaeae3da75dd"><td class="memItemLeft" align="right" valign="top">java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fa2467b222cc2e4f09bdaeae3da75dd">texture</a> ()</td></tr>
 <tr class="memitem:acd7efa5889bb08c9f8560c015f058e77" id="r_acd7efa5889bb08c9f8560c015f058e77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd7efa5889bb08c9f8560c015f058e77">setTexture</a> (<a class="el" href="classmeshlib_1_1MeshTexture.html">meshlib.MeshTexture</a> value)</td></tr>
+<tr class="memitem:a937030682330ac96a0c1d1b431c21022" id="r_a937030682330ac96a0c1d1b431c21022"><td class="memItemLeft" align="right" valign="top">java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a937030682330ac96a0c1d1b431c21022">textures</a> ()</td></tr>
+<tr class="memitem:a33fdafb91df53631d903bc37c25ed97a" id="r_a33fdafb91df53631d903bc37c25ed97a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33fdafb91df53631d903bc37c25ed97a">setTextures</a> (<a class="el" href="classmeshlib_1_1Vector__MR__MeshTexture__MR__TextureId.html">meshlib.Vector_MR_MeshTexture_MR_TextureId</a> value)</td></tr>
+<tr class="memitem:adcc9379c1d6840e34b626c3295588d48" id="r_adcc9379c1d6840e34b626c3295588d48"><td class="memItemLeft" align="right" valign="top">java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcc9379c1d6840e34b626c3295588d48">texturePerFace</a> ()</td></tr>
+<tr class="memitem:aba65dca73b10fe51feadcb21a972062b" id="r_aba65dca73b10fe51feadcb21a972062b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba65dca73b10fe51feadcb21a972062b">setTexturePerFace</a> (<a class="el" href="classmeshlib_1_1TexturePerFace.html">meshlib.TexturePerFace</a> value)</td></tr>
 <tr class="memitem:a3c18c4aecd6ca79e5fff6db6f5049698" id="r_a3c18c4aecd6ca79e5fff6db6f5049698"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1std__string.html">meshlib.std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c18c4aecd6ca79e5fff6db6f5049698">materialName</a> ()</td></tr>
 <tr class="memitem:a9cb9a7869f2bdeb30aea0fb2c36c04c1" id="r_a9cb9a7869f2bdeb30aea0fb2c36c04c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cb9a7869f2bdeb30aea0fb2c36c04c1">setMaterialName</a> (java.lang.String value)</td></tr>
 <tr class="memitem:a3a78f81fd13b7ee2b03ee399c9af17bb" id="r_a3a78f81fd13b7ee2b03ee399c9af17bb"><td class="memItemLeft" align="right" valign="top">java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a78f81fd13b7ee2b03ee399c9af17bb">xf</a> ()</td></tr>
@@ -441,7 +445,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Returns a pointer to a member variable of class <span class="tt">MR::MeshSave::CtmSaveOptions</span> named <span class="tt">packPrimitives</span>. The reference to this object might be preserved as the return value.</p>
+<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; in .obj format with several textures, packPrimitives=true groups triangles by texture to write one material switch per texture; currently this flag affects the saving in .ctm, .ply and .obj formats only Returns a pointer to a member variable of class <span class="tt">MR::MeshSave::CtmSaveOptions</span> named <span class="tt">packPrimitives</span>. The reference to this object might be preserved as the return value.</p>
 <p>Calls <span class="tt">MR_MeshSave_CtmSaveOptions_Get_packPrimitives()</span>. </p>
 
 </div>
@@ -650,7 +654,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Modifies a member variable of class <span class="tt">MR::MeshSave::CtmSaveOptions</span> named <span class="tt">packPrimitives</span>.</p>
+<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; in .obj format with several textures, packPrimitives=true groups triangles by texture to write one material switch per texture; currently this flag affects the saving in .ctm, .ply and .obj formats only Modifies a member variable of class <span class="tt">MR::MeshSave::CtmSaveOptions</span> named <span class="tt">packPrimitives</span>.</p>
 <p>Calls <span class="tt">MR_MeshSave_CtmSaveOptions_Set_packPrimitives()</span>. </p>
 
 </div>
@@ -766,6 +770,44 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>optional texture to save with the geometry Modifies a member variable of class <span class="tt">MR::MeshSave::CtmSaveOptions</span> named <span class="tt">texture</span>. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">texture</span>.</p>
 <p>Calls <span class="tt">MR_MeshSave_CtmSaveOptions_Set_texture()</span>. </p>
+
+</div>
+</div>
+<a id="aba65dca73b10fe51feadcb21a972062b" name="aba65dca73b10fe51feadcb21a972062b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba65dca73b10fe51feadcb21a972062b">&#9670;&#160;</a></span>setTexturePerFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void meshlib.meshsave.CtmSaveOptions.setTexturePerFace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1TexturePerFace.html">meshlib.TexturePerFace</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <span class="tt">MR::MeshSave::CtmSaveOptions</span> named <span class="tt">texturePerFace</span>. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">texturePerFace</span>.</p>
+<p>Calls <span class="tt">MR_MeshSave_CtmSaveOptions_Set_texturePerFace()</span>. </p>
+
+</div>
+</div>
+<a id="a33fdafb91df53631d903bc37c25ed97a" name="a33fdafb91df53631d903bc37c25ed97a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33fdafb91df53631d903bc37c25ed97a">&#9670;&#160;</a></span>setTextures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void meshlib.meshsave.CtmSaveOptions.setTextures </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1Vector__MR__MeshTexture__MR__TextureId.html">meshlib.Vector_MR_MeshTexture_MR_TextureId</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional several textures and the texture of each face; if both are given and the format supports several textures (.OBJ), they are saved instead of <a class="el" href="#a8fa2467b222cc2e4f09bdaeae3da75dd">texture</a> Modifies a member variable of class <span class="tt">MR::MeshSave::CtmSaveOptions</span> named <span class="tt">textures</span>. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">textures</span>.</p>
+<p>Calls <span class="tt">MR_MeshSave_CtmSaveOptions_Set_textures()</span>. </p>
 
 </div>
 </div>
@@ -907,6 +949,44 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>optional texture to save with the geometry Returns a pointer to a member variable of class <span class="tt">MR::MeshSave::CtmSaveOptions</span> named <span class="tt">texture</span>. The reference to this object might be preserved as the return value.</p>
 <p>Calls <span class="tt">MR_MeshSave_CtmSaveOptions_Get_texture()</span>. Some types are raw C types, see the C bindings for the details. </p>
+
+</div>
+</div>
+<a id="adcc9379c1d6840e34b626c3295588d48" name="adcc9379c1d6840e34b626c3295588d48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcc9379c1d6840e34b626c3295588d48">&#9670;&#160;</a></span>texturePerFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">java.lang.foreign.MemorySegment meshlib.meshsave.CtmSaveOptions.texturePerFace </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <span class="tt">MR::MeshSave::CtmSaveOptions</span> named <span class="tt">texturePerFace</span>. The reference to this object might be preserved as the return value.</p>
+<p>Calls <span class="tt">MR_MeshSave_CtmSaveOptions_Get_texturePerFace()</span>. Some types are raw C types, see the C bindings for the details. </p>
+
+</div>
+</div>
+<a id="a937030682330ac96a0c1d1b431c21022" name="a937030682330ac96a0c1d1b431c21022"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a937030682330ac96a0c1d1b431c21022">&#9670;&#160;</a></span>textures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">java.lang.foreign.MemorySegment meshlib.meshsave.CtmSaveOptions.textures </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional several textures and the texture of each face; if both are given and the format supports several textures (.OBJ), they are saved instead of <a class="el" href="#a8fa2467b222cc2e4f09bdaeae3da75dd">texture</a> Returns a pointer to a member variable of class <span class="tt">MR::MeshSave::CtmSaveOptions</span> named <span class="tt">textures</span>. The reference to this object might be preserved as the return value.</p>
+<p>Calls <span class="tt">MR_MeshSave_CtmSaveOptions_Get_textures()</span>. Some types are raw C types, see the C bindings for the details. </p>
 
 </div>
 </div>

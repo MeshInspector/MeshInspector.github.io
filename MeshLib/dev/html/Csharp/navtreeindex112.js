@@ -1,5 +1,15 @@
 var NAVTREEINDEX112 =
 {
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html#ae444074c95b25ad1415fe2a9dc06c5ce":[9,3,0,0,0,1291,9,13,3],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html#ae9aea1ad5d5949b0d95bdf3e80d347fa":[9,3,0,0,0,1291,9,13,5],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html":[9,3,0,0,0,1291,9,14],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a08897de76dd821fe5e5ddaafead84542":[9,3,0,0,0,1291,9,14,0],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a163f3586ae9bfc4ee74aa457aa8cdfc0":[9,3,0,0,0,1291,9,14,4],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a54f5844b7ceea8bf77af3b75a97d1cb1":[9,3,0,0,0,1291,9,14,3],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a71be47e13196cd32169f62159e0714eb":[9,3,0,0,0,1291,9,14,1],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a73b3d869e258800de6c1d93d4cf69bd2":[9,3,0,0,0,1291,9,14,2],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#af9454f0191dfe593829132c296bde3b0":[9,3,0,0,0,1291,9,14,5],
+"classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html":[9,3,0,0,0,1291,9,15],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#a4013cf1e7b00fcba726992d198593c7f":[9,3,0,0,0,1291,9,15,3],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#a57e76b10aa53cb448c1fb4e9f9bc5cfd":[9,3,0,0,0,1291,9,15,0],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#a8628a38f22d71ae52f6fbcb0080a5344":[9,3,0,0,0,1291,9,15,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX112 =
 "classMR_1_1FindProjectionOnPointsSettings.html#a17b406f9dd2aac6ba9f0b7ae38292a82":[9,3,0,0,0,1303,6],
 "classMR_1_1FindProjectionOnPointsSettings.html#a1e180c4868011c58860dd2b901fa3938":[9,3,0,0,0,1303,7],
 "classMR_1_1FindProjectionOnPointsSettings.html#a3b4b688a4c5f65212c06abb32d98df6e":[9,3,0,0,0,1303,8],
-"classMR_1_1FindProjectionOnPointsSettings.html#a53543fd7e5c4199e8a688b1b4f5ac0e3":[9,3,0,0,0,1303,11],
-"classMR_1_1FindProjectionOnPointsSettings.html#a623b816a5bf7bfe5fcbbfb992f0013ac":[9,3,0,0,0,1303,9],
-"classMR_1_1FindProjectionOnPointsSettings.html#a7836daddb0ae8a4e7912b77e26f7afe8":[9,3,0,0,0,1303,3],
-"classMR_1_1FindProjectionOnPointsSettings.html#a8e4de168dc26fe7e4710894323b55cb8":[9,3,0,0,0,1303,0],
-"classMR_1_1FindProjectionOnPointsSettings.html#aaefefdbe5255b54029b22a1788375642":[9,3,0,0,0,1303,5],
-"classMR_1_1FindProjectionOnPointsSettings.html#abb60a27acf66c938fc50a52bda2eb266":[9,3,0,0,0,1303,1],
-"classMR_1_1FindProjectionOnPointsSettings.html#abef84fb0f410d26d99d8a886d1c0a0b3":[9,3,0,0,0,1303,10],
-"classMR_1_1FindProjectionOnPointsSettings.html#ae3192751bc405bc750438702ff6d3f85":[9,3,0,0,0,1303,2],
-"classMR_1_1FindProjectionOnPointsSettings.html#ae7e68ebe84cce6921c62907010ceda5a":[9,3,0,0,0,1303,4],
-"classMR_1_1FitBSplineSurfaceToMeshSettings.html":[9,3,0,0,0,1304],
-"classMR_1_1FitBSplineSurfaceToMeshSettings.html#a0c7fcf1db01a2bd054c31392a46ac901":[9,3,0,0,0,1304,1]
+"classMR_1_1FindProjectionOnPointsSettings.html#a53543fd7e5c4199e8a688b1b4f5ac0e3":[9,3,0,0,0,1303,11]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX55 =
 {
+"classmeshlib_1_1FreeFormBestFit.html#a6194a86d3bc68ca6d92d2ec55168baf2":[9,6,1,0,0,460,3],
+"classmeshlib_1_1FreeFormBestFit.html#a6f06efeca6f34a4e7b1655b5f5910ccb":[9,6,0,0,0,460,5],
+"classmeshlib_1_1FreeFormBestFit.html#a6f06efeca6f34a4e7b1655b5f5910ccb":[9,6,1,0,0,460,5],
+"classmeshlib_1_1FreeFormBestFit.html#a78e780ff5bb3d0749f1c226fa2da36e7":[9,6,0,0,0,460,1],
+"classmeshlib_1_1FreeFormBestFit.html#a78e780ff5bb3d0749f1c226fa2da36e7":[9,6,1,0,0,460,1],
+"classmeshlib_1_1FreeFormBestFit.html#a8713a7eabb654aed5f1cfa2437f2efcd":[9,6,0,0,0,460,8],
+"classmeshlib_1_1FreeFormBestFit.html#a8713a7eabb654aed5f1cfa2437f2efcd":[9,6,1,0,0,460,8],
+"classmeshlib_1_1FreeFormBestFit.html#aa669d87320c6b025bf8721354eb2b0dd":[9,6,0,0,0,460,2],
 "classmeshlib_1_1FreeFormBestFit.html#aa669d87320c6b025bf8721354eb2b0dd":[9,6,1,0,0,460,2],
 "classmeshlib_1_1FreeFormBestFit.html#aae6e3798fb3f6c6fa6d8f79f06ae94eb":[9,6,0,0,0,460,4],
 "classmeshlib_1_1FreeFormBestFit.html#aae6e3798fb3f6c6fa6d8f79f06ae94eb":[9,6,1,0,0,460,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX55 =
 "classmeshlib_1_1GcodeProcessor__MoveAction.html#ae5b9ce735ed23fdfc5102cb5134c7aa9":[9,6,1,0,0,469,0],
 "classmeshlib_1_1GcodeProcessor__MoveAction.html#aebc0f9f888c0fe089f344e39eb13a6e8":[9,6,0,0,0,469,12],
 "classmeshlib_1_1GcodeProcessor__MoveAction.html#aebc0f9f888c0fe089f344e39eb13a6e8":[9,6,1,0,0,469,12],
-"classmeshlib_1_1GeneralOffsetParameters.html":[9,6,0,0,0,471],
-"classmeshlib_1_1GeneralOffsetParameters.html":[9,6,1,0,0,471],
-"classmeshlib_1_1GeneralOffsetParameters.html#a023f5c0e9e72c09da3ae11da755cb153":[9,6,0,0,0,471,3],
-"classmeshlib_1_1GeneralOffsetParameters.html#a023f5c0e9e72c09da3ae11da755cb153":[9,6,1,0,0,471,3],
-"classmeshlib_1_1GeneralOffsetParameters.html#a03e63895eb27a9f52ad9ccf54bfd0750":[9,6,0,0,0,471,19],
-"classmeshlib_1_1GeneralOffsetParameters.html#a03e63895eb27a9f52ad9ccf54bfd0750":[9,6,1,0,0,471,19],
-"classmeshlib_1_1GeneralOffsetParameters.html#a042051bc53e5c7bdae0abe2a3af3ea37":[9,6,0,0,0,471,23],
-"classmeshlib_1_1GeneralOffsetParameters.html#a042051bc53e5c7bdae0abe2a3af3ea37":[9,6,1,0,0,471,23],
-"classmeshlib_1_1GeneralOffsetParameters.html#a1704197bb9e32e46ed0b5d27430f9deb":[9,6,0,0,0,471,17]
+"classmeshlib_1_1GeneralOffsetParameters.html":[9,6,0,0,0,471]
 };

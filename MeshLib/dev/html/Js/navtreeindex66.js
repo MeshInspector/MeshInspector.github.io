@@ -1,5 +1,15 @@
 var NAVTREEINDEX66 =
 {
+"classPolynomialWrapper__float.html#adca1c5a150fa8be7c3ae256edd35ee33":[9,4,1,0,758,0],
+"classPolynomialWrapper__float.html#af2933dce0696fc70d87df4486adea85f":[9,4,1,0,758,4],
+"classPolynomial__double__0.html":[9,4,1,0,743],
+"classPolynomial__double__0.html#a15644f5aed795ba71e1e4a45478984f0":[9,4,1,0,743,4],
+"classPolynomial__double__0.html#a18ccaf5e71dae7214722d2ab5ac4c9fb":[9,4,1,0,743,0],
+"classPolynomial__double__0.html#a26b860ca60716f3143d96d23f701af3f":[9,4,1,0,743,5],
+"classPolynomial__double__0.html#a431cb6f4f7b927661510bbea1f2804cd":[9,4,1,0,743,3],
+"classPolynomial__double__0.html#a6cbf430d78935509c10b8d7c61ac3aed":[9,4,1,0,743,1],
+"classPolynomial__double__0.html#ab3fcfcac92cb93ef65b60b88a8cc0757":[9,4,1,0,743,2],
+"classPolynomial__double__1.html":[9,4,1,0,744],
 "classPolynomial__double__1.html#a1aa5a8c369810dc594584933e0a15137":[9,4,1,0,744,5],
 "classPolynomial__double__1.html#a3aa362c4554a4973784329c641a725d9":[9,4,1,0,744,1],
 "classPolynomial__double__1.html#a6c8be55f3256e0fa35e08a6db4cfbc27":[9,4,1,0,744,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX66 =
 "classQuaterniond.html#a30f8624646d81388e657cb24370fd566":[9,4,1,0,772,22],
 "classQuaterniond.html#a3788f0034c012abc9c1b0b2f20746904":[9,4,1,0,772,24],
 "classQuaterniond.html#a4757b823f72563d2dc457fee37fe6e4e":[9,4,1,0,772,4],
-"classQuaterniond.html#a4afb0be3edf323a787ae06977560f406":[9,4,1,0,772,1],
-"classQuaterniond.html#a5b8c68cfde9faa1c594c1ba801279d72":[9,4,1,0,772,8],
-"classQuaterniond.html#a781a397455b0c1242a41fa61d8a2b56e":[9,4,1,0,772,15],
-"classQuaterniond.html#a81d86504da3de4c388d7351d8d72a337":[9,4,1,0,772,20],
-"classQuaterniond.html#a8da3d4052fcf560c094d83f0dd900c0e":[9,4,1,0,772,19],
-"classQuaterniond.html#a8ec8b843b0520f080601e9c6946e30f0":[9,4,1,0,772,14],
-"classQuaterniond.html#ab8890f409726aaefc00210ec7acd8d87":[9,4,1,0,772,18],
-"classQuaterniond.html#ac230f7eb2d75c970b476737f68c1e0fb":[9,4,1,0,772,9],
-"classQuaterniond.html#ac44e4ebcc58ea6570266c35e94735226":[9,4,1,0,772,10],
-"classQuaterniond.html#adc13e0b7a56061316f56ffaf62d8bedf":[9,4,1,0,772,17],
-"classQuaterniond.html#ae26a6cf8a03eb2747aab84a9c1550606":[9,4,1,0,772,11]
+"classQuaterniond.html#a4afb0be3edf323a787ae06977560f406":[9,4,1,0,772,1]
 };

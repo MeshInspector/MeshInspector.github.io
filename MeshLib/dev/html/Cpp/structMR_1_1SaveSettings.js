@@ -11,6 +11,8 @@ var structMR_1_1SaveSettings =
     [ "solidColor", "group__GeneralGroup.html#ga127d98f930cd561a8633297e3422f649", null ],
     [ "telemetrySignal", "group__GeneralGroup.html#ga61f8231ef54870e7e1fb1335672a25a4", null ],
     [ "texture", "group__GeneralGroup.html#ga0cd4cf82acb2f094f43f785282fcb76a", null ],
+    [ "texturePerFace", "group__GeneralGroup.html#ga004d5e5496cd954884f21e56edea3fc1", null ],
+    [ "textures", "group__GeneralGroup.html#ga654da331040d6d95901e61dd949bb499", null ],
     [ "uvMap", "group__GeneralGroup.html#ga71c2ed63cb6a101dbd9b47f8ca9898fd", null ],
     [ "xf", "group__GeneralGroup.html#ga972e4972bf3626cb56f22c55b69cccc0", null ]
 ];

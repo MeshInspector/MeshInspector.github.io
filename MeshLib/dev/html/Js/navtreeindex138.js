@@ -1,5 +1,17 @@
 var NAVTREEINDEX138 =
 {
+"classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html":[9,4,1,0,1350],
+"classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#a0414ceb306a7abac71c933b2ffc8da7c":[9,4,1,0,1350,3],
+"classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#a0f09410539bcb14e2496ff133781b927":[9,4,1,0,1350,2],
+"classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#a11ac5129d1e1d2120f19299abb837788":[9,4,1,0,1350,11],
+"classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#a1271019c6f1ebffbaf0b216010bbca24":[9,4,1,0,1350,10],
+"classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#a1aaed8d300342f6d43954b7ead40b1c4":[9,4,1,0,1350,8],
+"classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#a2056e81189deb74b09a8004da410538b":[9,4,1,0,1350,15],
+"classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#a29d9dd26e9e683ac9bc127438796546d":[9,4,1,0,1350,1],
+"classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#a39c2719e64071d1764840148227e4171":[9,4,1,0,1350,4],
+"classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#a3ba88393b0be5b316bda4cfef91cc180":[9,4,1,0,1350,5],
+"classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#a671cdf7e257145c9be21980701eb0fdb":[9,4,1,0,1350,17],
+"classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#a7be6f825935b0d5f67e39f6b21bc7e9f":[9,4,1,0,1350,9],
 "classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#a7ce942ec03f179077d647f68391806fb":[9,4,1,0,1350,12],
 "classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#a8fe1130a1114023c6c69a873bde9f5f4":[9,4,1,0,1350,16],
 "classstd__vector__std__shared__ptr__MR__ObjectPointsHolder.html#a93ed2636f2e9ce187b775b55f40e70fe":[9,4,1,0,1350,14],
@@ -237,17 +249,5 @@ var NAVTREEINDEX138 =
 "classstd__vector__std__vector__MR__OffsetContoursOrigins.html#ade19bed7c5997d3b9133157b37d56fc2":[9,4,1,0,1360,13],
 "classstd__vector__std__vector__MR__OffsetContoursOrigins.html#ade321b9a0a4a7bf49e5b8a699a9f557a":[9,4,1,0,1360,1],
 "classstd__vector__std__vector__MR__OffsetContoursOrigins.html#ae127d0c13031a28bccad6cfa372c721c":[9,4,1,0,1360,10],
-"classstd__vector__std__vector__MR__OffsetContoursOrigins.html#aee507681929e1f710270f248e0f4493b":[9,4,1,0,1360,15],
-"classstd__vector__std__vector__MR__OffsetContoursOrigins.html#af29afd5ae2da56c891f945420c00a4a9":[9,4,1,0,1360,11],
-"classstd__vector__std__vector__MR__OffsetContoursOrigins.html#af8b144c087c8678605aa8205a57e1387":[9,4,1,0,1360,14],
-"classstd__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo.html":[9,4,1,0,1361],
-"classstd__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo.html#a05704c8a13ecb414ca22e514633b2924":[9,4,1,0,1361,3],
-"classstd__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo.html#a09d56fa448769519c9d8849bcb533f29":[9,4,1,0,1361,1],
-"classstd__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo.html#a0c38407c101bafc1cc7f14063e41117c":[9,4,1,0,1361,8],
-"classstd__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo.html#a431ab6130cd7ab20498d686656fb989d":[9,4,1,0,1361,4],
-"classstd__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo.html#a441a1eb5561f5c86d2f887202a8cc56e":[9,4,1,0,1361,7],
-"classstd__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo.html#a47284b88c64ee94f64d4c979c081a022":[9,4,1,0,1361,14],
-"classstd__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo.html#a4770c697880badb4fc96f8b1a408ef0c":[9,4,1,0,1361,13],
-"classstd__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo.html#a4c796084591c9360ffadebb72cb0a6b2":[9,4,1,0,1361,6],
-"classstd__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo.html#a52532595f1d9187931ec0c829615a0d4":[9,4,1,0,1361,17]
+"classstd__vector__std__vector__MR__OffsetContoursOrigins.html#aee507681929e1f710270f248e0f4493b":[9,4,1,0,1360,15]
 };

@@ -8,8 +8,6 @@ var MRChangeMeshAction_8h =
     [ "MR_ChangeTextureAction", "MRChangeMeshAction_8h.html#ae7320f41fa5ef9a1eabb7ec4b6c95f72", null ],
     [ "MR_std_shared_ptr_MR_Mesh", "MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed", null ],
     [ "MR_std_shared_ptr_MR_ObjectMesh", "MRChangeMeshAction_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a", null ],
-    [ "MR_TexturePerFace", "MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d", null ],
-    [ "MR_Vector_MR_MeshTexture_MR_TextureId", "MRChangeMeshAction_8h.html#a9b857b6bfc1402811fa58f9b79be0ae1", null ],
     [ "MR_ChangeMeshAction_action", "MRChangeMeshAction_8h.html#a1d4134ad06c2317d0024e1b50b496f58", null ],
     [ "MR_ChangeMeshAction_Construct_2", "MRChangeMeshAction_8h.html#a4d88e2d8cdc54390659f0f7da3ea016d", null ],
     [ "MR_ChangeMeshAction_Construct_3", "MRChangeMeshAction_8h.html#af62bd17f865dfe7c65ae354a3a4b1b65", null ],

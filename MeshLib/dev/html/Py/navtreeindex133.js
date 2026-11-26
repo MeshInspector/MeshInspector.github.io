@@ -1,5 +1,9 @@
 var NAVTREEINDEX133 =
 {
+"classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Sphere3f.html#aef127809ddec0f89dab43a815c7e8b44":[9,1,0,0,2,1597,9,7,1],
+"classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Sphere3f.html#aef127809ddec0f89dab43a815c7e8b44":[9,1,1,0,1,1597,9,7,1],
+"classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html":[9,1,0,0,2,1597,9,8],
+"classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html":[9,1,1,0,1,1597,9,8],
 "classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html#a8f47192bcd72834dc5017d3f860ea14b":[9,1,0,0,2,1597,9,8,0],
 "classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html#a8f47192bcd72834dc5017d3f860ea14b":[9,1,1,0,1,1597,9,8,0],
 "classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html#af4e95b32ee41bc3c0a08ce6a7ffbaa81":[9,1,0,0,2,1597,9,8,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX133 =
 "classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a4210e5e34925ce1e2b9de7199751d7a6":[9,1,0,0,2,1606,0,1,6],
 "classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a4210e5e34925ce1e2b9de7199751d7a6":[9,1,1,0,1,1606,0,1,6],
 "classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a42b02942abc77f875216148613c204cc":[9,1,0,0,2,1606,0,1,8],
-"classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a42b02942abc77f875216148613c204cc":[9,1,1,0,1,1606,0,1,8],
-"classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a45f5f9209386926774635a13b32f5021":[9,1,0,0,2,1606,0,1,3],
-"classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a45f5f9209386926774635a13b32f5021":[9,1,1,0,1,1606,0,1,3],
-"classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a4f0a8d974ac88e2c0ef9ab6b3dade30e":[9,1,0,0,2,1606,0,1,4],
-"classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a4f0a8d974ac88e2c0ef9ab6b3dade30e":[9,1,1,0,1,1606,0,1,4]
+"classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params.html#a42b02942abc77f875216148613c204cc":[9,1,1,0,1,1606,0,1,8]
 };

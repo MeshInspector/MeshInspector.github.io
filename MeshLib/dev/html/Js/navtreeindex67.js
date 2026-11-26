@@ -1,5 +1,15 @@
 var NAVTREEINDEX67 =
 {
+"classQuaterniond.html#a5b8c68cfde9faa1c594c1ba801279d72":[9,4,1,0,772,8],
+"classQuaterniond.html#a781a397455b0c1242a41fa61d8a2b56e":[9,4,1,0,772,15],
+"classQuaterniond.html#a81d86504da3de4c388d7351d8d72a337":[9,4,1,0,772,20],
+"classQuaterniond.html#a8da3d4052fcf560c094d83f0dd900c0e":[9,4,1,0,772,19],
+"classQuaterniond.html#a8ec8b843b0520f080601e9c6946e30f0":[9,4,1,0,772,14],
+"classQuaterniond.html#ab8890f409726aaefc00210ec7acd8d87":[9,4,1,0,772,18],
+"classQuaterniond.html#ac230f7eb2d75c970b476737f68c1e0fb":[9,4,1,0,772,9],
+"classQuaterniond.html#ac44e4ebcc58ea6570266c35e94735226":[9,4,1,0,772,10],
+"classQuaterniond.html#adc13e0b7a56061316f56ffaf62d8bedf":[9,4,1,0,772,17],
+"classQuaterniond.html#ae26a6cf8a03eb2747aab84a9c1550606":[9,4,1,0,772,11],
 "classQuaterniond.html#ae2c8c57c12860432d7d8deb3fbc87a20":[9,4,1,0,772,25],
 "classQuaterniond.html#ae942d60579d21ed2e95456e53892b78e":[9,4,1,0,772,13],
 "classQuaterniond.html#af0e1d8ce56d0b490cb0024a79858aed3":[9,4,1,0,772,5],
@@ -239,15 +249,5 @@ var NAVTREEINDEX67 =
 "classReduceTotalAngleParams.html#a3e90ac306059ac36faba086377e199e6":[9,4,1,0,781,0],
 "classReduceTotalAngleParams.html#a5498d7265e0918bdc13586c862db47e2":[9,4,1,0,781,4],
 "classReduceTotalAngleParams.html#a6b8bfb747b2bc93a42614aad0fc1a634":[9,4,1,0,781,3],
-"classReduceTotalAngleParams.html#a782a594104a45ccf0f693ce575f5993d":[9,4,1,0,781,1],
-"classReduceTotalAngleParams.html#aa1ba996a6cb6f2e492ced9f9502d5efc":[9,4,1,0,781,2],
-"classReduceTotalAngleParams.html#abb666fa80a39dab4fa5af4adecdf2d3a":[9,4,1,0,781,7],
-"classReduceTotalAngleParams.html#aebc4eb0e1865002f9c2f6d784c8e7e80":[9,4,1,0,781,6],
-"classReduceTotalAngleParams.html#af55635712f29165704487bd2ea864f2e":[9,4,1,0,781,8],
-"classRefineParameters.html":[9,4,1,0,782],
-"classRefineParameters.html#a59607e5cfb55653ec61c27f3a0ef79b5":[9,4,1,0,782,0],
-"classRefineParameters.html#a5fe6c7e62c0026191baab1c3b1e1d1ba":[9,4,1,0,782,2],
-"classRefineParameters.html#a65fd08bf88d34995d98da436626d87ce":[9,4,1,0,782,7],
-"classRefineParameters.html#a69ab2cb5433e06aaff12abdff9b76a6f":[9,4,1,0,782,5],
-"classRefineParameters.html#a78a150b124c6715cb9956dac0f1c308f":[9,4,1,0,782,9]
+"classReduceTotalAngleParams.html#a782a594104a45ccf0f693ce575f5993d":[9,4,1,0,781,1]
 };

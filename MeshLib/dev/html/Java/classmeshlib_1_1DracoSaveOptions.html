@@ -173,6 +173,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaf1981732bfa048380844558c5bb1fee" id="r_aaf1981732bfa048380844558c5bb1fee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf1981732bfa048380844558c5bb1fee">setSaveTriCornerUVCoords</a> (boolean value)</td></tr>
 <tr class="memitem:a1a2100508eec9ea8a41a0aa394a81376" id="r_a1a2100508eec9ea8a41a0aa394a81376"><td class="memItemLeft" align="right" valign="top">java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a2100508eec9ea8a41a0aa394a81376">texture</a> ()</td></tr>
 <tr class="memitem:a2a06707f7b602a0761eb5f569d355633" id="r_a2a06707f7b602a0761eb5f569d355633"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a06707f7b602a0761eb5f569d355633">setTexture</a> (<a class="el" href="classmeshlib_1_1MeshTexture.html">meshlib.MeshTexture</a> value)</td></tr>
+<tr class="memitem:aa0b46820283b2e7b86184a0289a6c6b4" id="r_aa0b46820283b2e7b86184a0289a6c6b4"><td class="memItemLeft" align="right" valign="top">java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0b46820283b2e7b86184a0289a6c6b4">textures</a> ()</td></tr>
+<tr class="memitem:a9b3eabf7a0b3d1b1ab6848c8fac5f112" id="r_a9b3eabf7a0b3d1b1ab6848c8fac5f112"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b3eabf7a0b3d1b1ab6848c8fac5f112">setTextures</a> (<a class="el" href="classmeshlib_1_1Vector__MR__MeshTexture__MR__TextureId.html">meshlib.Vector_MR_MeshTexture_MR_TextureId</a> value)</td></tr>
+<tr class="memitem:a82866e1fd6d7258954769e6a6a2587bd" id="r_a82866e1fd6d7258954769e6a6a2587bd"><td class="memItemLeft" align="right" valign="top">java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82866e1fd6d7258954769e6a6a2587bd">texturePerFace</a> ()</td></tr>
+<tr class="memitem:a170f0f47d1fe1e3996faebbe9642fa04" id="r_a170f0f47d1fe1e3996faebbe9642fa04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a170f0f47d1fe1e3996faebbe9642fa04">setTexturePerFace</a> (<a class="el" href="classmeshlib_1_1TexturePerFace.html">meshlib.TexturePerFace</a> value)</td></tr>
 <tr class="memitem:ae0c91bcee4111c8411782286ad07ef92" id="r_ae0c91bcee4111c8411782286ad07ef92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1std__string.html">meshlib.std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0c91bcee4111c8411782286ad07ef92">materialName</a> ()</td></tr>
 <tr class="memitem:a537f675cc134288f0256f0db535b7b0d" id="r_a537f675cc134288f0256f0db535b7b0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a537f675cc134288f0256f0db535b7b0d">setMaterialName</a> (java.lang.String value)</td></tr>
 <tr class="memitem:af81069cb39fed9d3a0233ba7df99a285" id="r_af81069cb39fed9d3a0233ba7df99a285"><td class="memItemLeft" align="right" valign="top">java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af81069cb39fed9d3a0233ba7df99a285">xf</a> ()</td></tr>
@@ -399,7 +403,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Returns a pointer to a member variable of class <span class="tt">MR::DracoSaveOptions</span> named <span class="tt">packPrimitives</span>. The reference to this object might be preserved as the return value.</p>
+<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; in .obj format with several textures, packPrimitives=true groups triangles by texture to write one material switch per texture; currently this flag affects the saving in .ctm, .ply and .obj formats only Returns a pointer to a member variable of class <span class="tt">MR::DracoSaveOptions</span> named <span class="tt">packPrimitives</span>. The reference to this object might be preserved as the return value.</p>
 <p>Calls <span class="tt">MR_DracoSaveOptions_Get_packPrimitives()</span>. </p>
 
 </div>
@@ -589,7 +593,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only Modifies a member variable of class <span class="tt">MR::DracoSaveOptions</span> named <span class="tt">packPrimitives</span>.</p>
+<p>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; in .obj format with several textures, packPrimitives=true groups triangles by texture to write one material switch per texture; currently this flag affects the saving in .ctm, .ply and .obj formats only Modifies a member variable of class <span class="tt">MR::DracoSaveOptions</span> named <span class="tt">packPrimitives</span>.</p>
 <p>Calls <span class="tt">MR_DracoSaveOptions_Set_packPrimitives()</span>. </p>
 
 </div>
@@ -727,6 +731,44 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a170f0f47d1fe1e3996faebbe9642fa04" name="a170f0f47d1fe1e3996faebbe9642fa04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a170f0f47d1fe1e3996faebbe9642fa04">&#9670;&#160;</a></span>setTexturePerFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void meshlib.DracoSaveOptions.setTexturePerFace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1TexturePerFace.html">meshlib.TexturePerFace</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <span class="tt">MR::DracoSaveOptions</span> named <span class="tt">texturePerFace</span>. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">texturePerFace</span>.</p>
+<p>Calls <span class="tt">MR_DracoSaveOptions_Set_texturePerFace()</span>. </p>
+
+</div>
+</div>
+<a id="a9b3eabf7a0b3d1b1ab6848c8fac5f112" name="a9b3eabf7a0b3d1b1ab6848c8fac5f112"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b3eabf7a0b3d1b1ab6848c8fac5f112">&#9670;&#160;</a></span>setTextures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void meshlib.DracoSaveOptions.setTextures </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1Vector__MR__MeshTexture__MR__TextureId.html">meshlib.Vector_MR_MeshTexture_MR_TextureId</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional several textures and the texture of each face; if both are given and the format supports several textures (.OBJ), they are saved instead of <a class="el" href="#a1a2100508eec9ea8a41a0aa394a81376">texture</a> Modifies a member variable of class <span class="tt">MR::DracoSaveOptions</span> named <span class="tt">textures</span>. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">textures</span>.</p>
+<p>Calls <span class="tt">MR_DracoSaveOptions_Set_textures()</span>. </p>
+
+</div>
+</div>
 <a id="ac0094e5d05d1e3b46cd9a39725b19656" name="ac0094e5d05d1e3b46cd9a39725b19656"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac0094e5d05d1e3b46cd9a39725b19656">&#9670;&#160;</a></span>setUvMap()</h2>
 
@@ -846,6 +888,44 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>optional texture to save with the geometry Returns a pointer to a member variable of class <span class="tt">MR::DracoSaveOptions</span> named <span class="tt">texture</span>. The reference to this object might be preserved as the return value.</p>
 <p>Calls <span class="tt">MR_DracoSaveOptions_Get_texture()</span>. Some types are raw C types, see the C bindings for the details. </p>
+
+</div>
+</div>
+<a id="a82866e1fd6d7258954769e6a6a2587bd" name="a82866e1fd6d7258954769e6a6a2587bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82866e1fd6d7258954769e6a6a2587bd">&#9670;&#160;</a></span>texturePerFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">java.lang.foreign.MemorySegment meshlib.DracoSaveOptions.texturePerFace </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <span class="tt">MR::DracoSaveOptions</span> named <span class="tt">texturePerFace</span>. The reference to this object might be preserved as the return value.</p>
+<p>Calls <span class="tt">MR_DracoSaveOptions_Get_texturePerFace()</span>. Some types are raw C types, see the C bindings for the details. </p>
+
+</div>
+</div>
+<a id="aa0b46820283b2e7b86184a0289a6c6b4" name="aa0b46820283b2e7b86184a0289a6c6b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0b46820283b2e7b86184a0289a6c6b4">&#9670;&#160;</a></span>textures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">java.lang.foreign.MemorySegment meshlib.DracoSaveOptions.textures </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional several textures and the texture of each face; if both are given and the format supports several textures (.OBJ), they are saved instead of <a class="el" href="#a1a2100508eec9ea8a41a0aa394a81376">texture</a> Returns a pointer to a member variable of class <span class="tt">MR::DracoSaveOptions</span> named <span class="tt">textures</span>. The reference to this object might be preserved as the return value.</p>
+<p>Calls <span class="tt">MR_DracoSaveOptions_Get_textures()</span>. Some types are raw C types, see the C bindings for the details. </p>
 
 </div>
 </div>

@@ -1,5 +1,13 @@
 var NAVTREEINDEX54 =
 {
+"classmeshlib_1_1FitBSplineSurfaceToMeshSettings.html#a1ebd2e8847876a1c31795db1576ef61e":[9,6,1,0,0,449,4],
+"classmeshlib_1_1FitBSplineSurfaceToMeshSettings.html#a4d7b7ba82ca8d0a0cd14056653b7c082":[9,6,0,0,0,449,2],
+"classmeshlib_1_1FitBSplineSurfaceToMeshSettings.html#a4d7b7ba82ca8d0a0cd14056653b7c082":[9,6,1,0,0,449,2],
+"classmeshlib_1_1FitBSplineSurfaceToMeshSettings.html#a5b52b30998603d16efd6020a774c8b3a":[9,6,0,0,0,449,0],
+"classmeshlib_1_1FitBSplineSurfaceToMeshSettings.html#a5b52b30998603d16efd6020a774c8b3a":[9,6,1,0,0,449,0],
+"classmeshlib_1_1FitBSplineSurfaceToMeshSettings.html#a998993ccd89872e608240751ee16ba0a":[9,6,0,0,0,449,7],
+"classmeshlib_1_1FitBSplineSurfaceToMeshSettings.html#a998993ccd89872e608240751ee16ba0a":[9,6,1,0,0,449,7],
+"classmeshlib_1_1FitBSplineSurfaceToMeshSettings.html#acead9dff8695d7815ce18f9fd11b2e64":[9,6,0,0,0,449,5],
 "classmeshlib_1_1FitBSplineSurfaceToMeshSettings.html#acead9dff8695d7815ce18f9fd11b2e64":[9,6,1,0,0,449,5],
 "classmeshlib_1_1FitBSplineSurfaceToMeshSettings.html#ad405bd991ab0e29cc1e50a65b2da9555":[9,6,0,0,0,449,9],
 "classmeshlib_1_1FitBSplineSurfaceToMeshSettings.html#ad405bd991ab0e29cc1e50a65b2da9555":[9,6,1,0,0,449,9],
@@ -241,13 +249,5 @@ var NAVTREEINDEX54 =
 "classmeshlib_1_1FreeFormBestFit.html#a35589b7edaac31a7cd44343a6d98db81":[9,6,1,0,0,460,7],
 "classmeshlib_1_1FreeFormBestFit.html#a388e6c24ce0e1fac7b5e2a368da41657":[9,6,0,0,0,460,0],
 "classmeshlib_1_1FreeFormBestFit.html#a388e6c24ce0e1fac7b5e2a368da41657":[9,6,1,0,0,460,0],
-"classmeshlib_1_1FreeFormBestFit.html#a6194a86d3bc68ca6d92d2ec55168baf2":[9,6,0,0,0,460,3],
-"classmeshlib_1_1FreeFormBestFit.html#a6194a86d3bc68ca6d92d2ec55168baf2":[9,6,1,0,0,460,3],
-"classmeshlib_1_1FreeFormBestFit.html#a6f06efeca6f34a4e7b1655b5f5910ccb":[9,6,0,0,0,460,5],
-"classmeshlib_1_1FreeFormBestFit.html#a6f06efeca6f34a4e7b1655b5f5910ccb":[9,6,1,0,0,460,5],
-"classmeshlib_1_1FreeFormBestFit.html#a78e780ff5bb3d0749f1c226fa2da36e7":[9,6,0,0,0,460,1],
-"classmeshlib_1_1FreeFormBestFit.html#a78e780ff5bb3d0749f1c226fa2da36e7":[9,6,1,0,0,460,1],
-"classmeshlib_1_1FreeFormBestFit.html#a8713a7eabb654aed5f1cfa2437f2efcd":[9,6,0,0,0,460,8],
-"classmeshlib_1_1FreeFormBestFit.html#a8713a7eabb654aed5f1cfa2437f2efcd":[9,6,1,0,0,460,8],
-"classmeshlib_1_1FreeFormBestFit.html#aa669d87320c6b025bf8721354eb2b0dd":[9,6,0,0,0,460,2]
+"classmeshlib_1_1FreeFormBestFit.html#a6194a86d3bc68ca6d92d2ec55168baf2":[9,6,0,0,0,460,3]
 };

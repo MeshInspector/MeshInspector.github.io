@@ -1,5 +1,17 @@
 var NAVTREEINDEX77 =
 {
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a274da1854a06b202f454deddcc50fbdd":[9,4,1,0,1432,7],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a32fd9a8857b2864ea95dc9181911010d":[9,4,1,0,1432,64],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a3402712e9cd7c460d13d899e53dfe9cf":[9,4,1,0,1432,22],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a34703c27befc9c82906e2addcedcbe9c":[9,4,1,0,1432,20],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a34f6b38bc54af45d6467ef11f9513648":[9,4,1,0,1432,76],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a3f110847253ad95854cee05d106c402e":[9,4,1,0,1432,63],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a41a1eb13617fdd049d8cfc49336e6b49":[9,4,1,0,1432,42],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a421bbe6aed34dbb4ef4f21ff6479f5da":[9,4,1,0,1432,15],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a463c6b05aef323d773436e13b8fb7076":[9,4,1,0,1432,24],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a47d2c7dca6b73a02d59ae4f2e785d31f":[9,4,1,0,1432,52],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a486706728ccc10e664688ad2acfc3554":[9,4,1,0,1432,54],
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a4bf7106c758226893e232e4c73d315ea":[9,4,1,0,1432,55],
 "classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a5113034ec51ab9af5b8d3f108449afe2":[9,4,1,0,1432,44],
 "classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a51d80099da747da06b32bc142cbfa79f":[9,4,1,0,1432,17],
 "classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a5704d03b92668c92f2c189cdf9b859b1":[9,4,1,0,1432,59],
@@ -237,17 +249,5 @@ var NAVTREEINDEX77 =
 "classUndirectedEdgeColors.html#a29012f0c5cdc64acc04bdbf3bd133c52":[9,4,1,0,1438,13],
 "classUndirectedEdgeColors.html#a29e4b8a74c3f9a7d606c552f8333968f":[9,4,1,0,1438,47],
 "classUndirectedEdgeColors.html#a315d846bf6aa287154397c70fcb0202c":[9,4,1,0,1438,22],
-"classUndirectedEdgeColors.html#a374e48cc10affcc9c98c758811a28b41":[9,4,1,0,1438,19],
-"classUndirectedEdgeColors.html#a4076830d39739c2ae7c9d0f2bfd00296":[9,4,1,0,1438,10],
-"classUndirectedEdgeColors.html#a426dc1dafa0ed87dcce1c65eced80c4d":[9,4,1,0,1438,44],
-"classUndirectedEdgeColors.html#a46aa4dda1629a0270995d9b056fa75d5":[9,4,1,0,1438,43],
-"classUndirectedEdgeColors.html#a4dbb3db61d1049539f68591376991cef":[9,4,1,0,1438,42],
-"classUndirectedEdgeColors.html#a4fbf33bde432cd336628a30816317e4f":[9,4,1,0,1438,40],
-"classUndirectedEdgeColors.html#a58aec36786bdc80c7f0ba538fcc99bf6":[9,4,1,0,1438,46],
-"classUndirectedEdgeColors.html#a5c483b7cad32551f01f59478fb63406f":[9,4,1,0,1438,6],
-"classUndirectedEdgeColors.html#a5ed03fc08abc5247cb7ab70faab8ea1c":[9,4,1,0,1438,12],
-"classUndirectedEdgeColors.html#a644eab6f6385fccbb3241d763f071a40":[9,4,1,0,1438,17],
-"classUndirectedEdgeColors.html#a64777517c72c021074d59e14a23df1b9":[9,4,1,0,1438,32],
-"classUndirectedEdgeColors.html#a6c061992ad4b24878111f57e37882678":[9,4,1,0,1438,45],
-"classUndirectedEdgeColors.html#a70949f9dd7054d20d35695c4b1d62b0c":[9,4,1,0,1438,34]
+"classUndirectedEdgeColors.html#a374e48cc10affcc9c98c758811a28b41":[9,4,1,0,1438,19]
 };

@@ -19,6 +19,8 @@ var classMR_1_1DracoSaveOptions =
     [ "solidColor", "classMR_1_1DracoSaveOptions.html#a476701de0b3e21f67bf9555fe0ef3349", null ],
     [ "telemetrySignal", "classMR_1_1DracoSaveOptions.html#af9b2b40163acac2ab21c384816563aae", null ],
     [ "texture", "classMR_1_1DracoSaveOptions.html#afe73530dcbe09bd3ba7f42f9e3064f22", null ],
+    [ "texturePerFace", "classMR_1_1DracoSaveOptions.html#afd456251146a2b22a9e0e148acbe054f", null ],
+    [ "textures", "classMR_1_1DracoSaveOptions.html#a3f8ac6a9c95bd025cb97103fb5465c99", null ],
     [ "uvMap", "classMR_1_1DracoSaveOptions.html#ac1c0eea2ea89e3d4c2b0c58562448e0e", null ],
     [ "xf", "classMR_1_1DracoSaveOptions.html#a8e0814dbaa75f4cdd056089dd3c44d06", null ]
 ];

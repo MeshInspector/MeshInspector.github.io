@@ -1,5 +1,13 @@
 var NAVTREEINDEX82 =
 {
+"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a6ccb1a22458086652ee2fe797a49856b":[9,3,0,0,0,871,27],
+"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a733962192a6925fca6c49064b30420eb":[9,3,0,0,0,871,19],
+"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a74447bff78c98230dc63a70f18e2fea9":[9,3,0,0,0,871,12],
+"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a7d80fc337b3d26b624654d75938500d6":[9,3,0,0,0,871,13],
+"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a8a3fb808852b819b1939333402d9208d":[9,3,0,0,0,871,11],
+"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#ab4de875e7e2093ff37c7be5af1605e91":[9,3,0,0,0,871,5],
+"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#ac58acdd61e7e59ce4eb92e515e53101d":[9,3,0,0,0,871,2],
+"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#acea2f5c1482f2b3444712ac9c5489f89":[9,3,0,0,0,871,9],
 "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#ad04723307e2f1c541d3a6e60b932bd3c":[9,3,0,0,0,871,15],
 "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#ad2457b71ae1163ea2a8b241883e55113":[9,3,0,0,0,871,18],
 "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#ad6b1d9c1667914da302ca4b48161c790":[9,3,0,0,0,871,21],
@@ -241,13 +249,5 @@ var NAVTREEINDEX82 =
 "classMR_1_1Const__SkyPatch.html#afa8c2296414aa7ae8b7380010ca3a874":[9,3,0,0,0,885,1],
 "classMR_1_1Const__SliceInfo.html":[9,3,0,0,0,886],
 "classMR_1_1Const__SliceInfo.html#a034308ca1868f6ea19b89bf577114ca1":[9,3,0,0,0,886,11],
-"classMR_1_1Const__SliceInfo.html#a1679de9bcd6e5149c99dc0d5ffd22492":[9,3,0,0,0,886,14],
-"classMR_1_1Const__SliceInfo.html#a21ef3adb2caec534b546cae9dbc9b083":[9,3,0,0,0,886,1],
-"classMR_1_1Const__SliceInfo.html#a2f205a25719de3232d4f87bd01cce34c":[9,3,0,0,0,886,6],
-"classMR_1_1Const__SliceInfo.html#a316d70f4758d9c9aeab6787e8d5cf288":[9,3,0,0,0,886,21],
-"classMR_1_1Const__SliceInfo.html#a57cac0a0b4c5ffe021d2abcfbfdef928":[9,3,0,0,0,886,18],
-"classMR_1_1Const__SliceInfo.html#a634ed461e4b9c692a8b0ac65900ebce3":[9,3,0,0,0,886,17],
-"classMR_1_1Const__SliceInfo.html#a671c49d9a489628e4317d7425c3c49c5":[9,3,0,0,0,886,7],
-"classMR_1_1Const__SliceInfo.html#a7b3b19a652870e3fb803063b763e495f":[9,3,0,0,0,886,20],
-"classMR_1_1Const__SliceInfo.html#a7f50cc6c30c475183c7174425d2d37a8":[9,3,0,0,0,886,15]
+"classMR_1_1Const__SliceInfo.html#a1679de9bcd6e5149c99dc0d5ffd22492":[9,3,0,0,0,886,14]
 };
