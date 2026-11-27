@@ -1,0 +1,5 @@
+var NAVTREEINDEX75 =
+{
+"structWasm_1_1TypedArrayValType_3_01uint8__t_01_4.html#af1f7d02ee1de5ba0f9980457c80db195":[9,0,2,0,2,7,0],
+"topics.html":[9,0,0]
+};

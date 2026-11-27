@@ -1,13 +1,17 @@
 var NAVTREEINDEX59 =
 {
-"group__MathGroup.html#gad703c1d9a93f5cf4e177808cbfef4deb":[9,0,0,19,7440],
+"group__MathGroup.html#gac591d793fa5ee868f8255a94350e1aef":[9,0,0,0,40],
+"group__MathGroup.html#gad38e7e445e2b0faa925e3df9c0ee75a6":[9,0,0,0,84],
+"group__MathGroup.html#gad38e7e445e2b0faa925e3df9c0ee75a6":[9,0,0,19,7447],
+"group__MathGroup.html#gad703c1d9a93f5cf4e177808cbfef4deb":[9,0,0,0,81],
+"group__MathGroup.html#gad703c1d9a93f5cf4e177808cbfef4deb":[9,0,0,19,7444],
 "group__MathGroup.html#gad9b8ea723d950187f862ce89900a7534":[9,0,0,0,58],
-"group__MathGroup.html#gad9b8ea723d950187f862ce89900a7534":[9,0,0,19,3419],
+"group__MathGroup.html#gad9b8ea723d950187f862ce89900a7534":[9,0,0,19,3420],
 "group__MathGroup.html#gae96ef04bcc2364c6964eca4beee9dc5a":[9,0,0,0,63],
-"group__MathGroup.html#gae96ef04bcc2364c6964eca4beee9dc5a":[9,0,0,19,4519],
+"group__MathGroup.html#gae96ef04bcc2364c6964eca4beee9dc5a":[9,0,0,19,4521],
 "group__MathGroup.html#gaf5af7058ce54bba6fc77a344d28b9826":[9,0,0,0,69],
 "group__MathGroup.html#gafb9f0540202d96451dee9753314e960e":[9,0,0,0,71],
-"group__MathGroup.html#gafb9f0540202d96451dee9753314e960e":[9,0,0,19,5176],
+"group__MathGroup.html#gafb9f0540202d96451dee9753314e960e":[9,0,0,19,5177],
 "group__MathGroup.html#gga924383ee24cd4b41824111cdf4cd50b2a5ab5ae4c67e711f8cf3e94ea03d92e5c":[9,0,0,0,35,0],
 "group__MathGroup.html#gga924383ee24cd4b41824111cdf4cd50b2a76fbf0ccd7fcd64879c2ff2119dc15a4":[9,0,0,0,35,1],
 "group__MathGroup.html#gga924383ee24cd4b41824111cdf4cd50b2a9b6d3000134648fc9f1e71094ae0847d":[9,0,0,0,35,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX59 =
 "group__MeshSubdivideGroup.html#gacfadb132c513471bfcdc498067ae5207":[9,0,0,9,7,2],
 "group__MeshSubdivideGroup.html#gad5fa6e7eb325d6fac5aae27909ce7d8d":[9,0,0,9,7,3],
 "group__PlanarPathGroup.html":[9,0,0,15,0],
-"group__PlanarPathGroup.html#ga0d2e3afb7eada78ede593a4e0a0d0e81":[9,0,0,15,0,1],
-"group__PlanarPathGroup.html#ga4dcf8a62c1ef3b68774507c3d3557bc9":[9,0,0,15,0,2],
-"group__PlanarPathGroup.html#gaf1a65dfbfdcd23da6f9a48589ee8060e":[9,0,0,15,0,3],
-"group__PlanarPathGroup.html#gaf1dd390e537cb9342ced1b65ad2b29d6":[9,0,0,15,0,0],
-"group__PlanarPathGroup.html#gafc3a801f48da79fea27b2c5a60579ddb":[9,0,0,15,0,4]
+"group__PlanarPathGroup.html#ga0d2e3afb7eada78ede593a4e0a0d0e81":[9,0,0,15,0,1]
 };

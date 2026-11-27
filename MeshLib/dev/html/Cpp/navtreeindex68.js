@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a71c5fbbf63729c0ca109e02507b73f7c":[9,0,2,0,1,7,7,10],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a7d12a250d3482201dab55d16f5b3e96c":[9,0,1,0,1,18,7,4],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a7d12a250d3482201dab55d16f5b3e96c":[9,0,2,0,1,7,7,4],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a8a1c146ca3e43adede8f2fb9c453dbe9":[9,0,1,0,1,18,7,24],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a8a1c146ca3e43adede8f2fb9c453dbe9":[9,0,2,0,1,7,7,24],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a96b0074c622147da725720e6028cd5e2":[9,0,1,0,1,18,7,18],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a96b0074c622147da725720e6028cd5e2":[9,0,2,0,1,7,7,18],
@@ -173,7 +177,7 @@ var NAVTREEINDEX68 =
 "structMR_1_1InSphereSearchSettings.html":[9,0,0,19,396],
 "structMR_1_1InflateSettings.html":[9,0,0,19,497],
 "structMR_1_1InterpolateScalarsParams.html":[9,0,0,19,495],
-"structMR_1_1InterruptCloseListener.html":[9,0,0,19,844],
+"structMR_1_1InterruptCloseListener.html":[9,0,0,19,845],
 "structMR_1_1IntersectionPrecomputes.html":[9,0,0,1,19],
 "structMR_1_1IntersectionPrecomputes.html":[9,0,0,19,379],
 "structMR_1_1IntersectionPrecomputes.html#a1e89bb11cf7c4693e1c8839963994a08":[9,0,0,1,19,3],
@@ -240,14 +244,10 @@ var NAVTREEINDEX68 =
 "structMR_1_1IteratorRange.html#ae2c10b110d46799c0579751f41c9fcd5":[9,0,0,19,380,2],
 "structMR_1_1IteratorRange.html#af62765e0ec5f90f3aaafe5a6fd50938a":[9,0,0,3,0,0,4],
 "structMR_1_1IteratorRange.html#af62765e0ec5f90f3aaafe5a6fd50938a":[9,0,0,19,380,4],
-"structMR_1_1KeyDownListener.html":[9,0,0,19,834],
-"structMR_1_1KeyRepeatListener.html":[9,0,0,19,835],
-"structMR_1_1KeyUpListener.html":[9,0,0,19,833],
+"structMR_1_1KeyDownListener.html":[9,0,0,19,835],
+"structMR_1_1KeyRepeatListener.html":[9,0,0,19,836],
+"structMR_1_1KeyUpListener.html":[9,0,0,19,834],
 "structMR_1_1Laplacian_1_1Attractor.html":[9,0,0,19,337],
-"structMR_1_1LaunchParams.html":[9,0,0,19,818],
-"structMR_1_1Line.html":[9,0,0,0,23],
-"structMR_1_1Line.html":[9,0,0,19,338],
-"structMR_1_1Line3Mesh.html":[9,0,0,1,26],
-"structMR_1_1Line3Mesh.html#a0de1e3305b0aa64219ac2de3c2abb2f3":[9,0,0,1,26,0],
-"structMR_1_1Line3Mesh.html#a13bcc7a7757286de5b44e0d5157828d2":[9,0,0,1,26,1]
+"structMR_1_1LaunchParams.html":[9,0,0,19,819],
+"structMR_1_1Line.html":[9,0,0,0,23]
 };

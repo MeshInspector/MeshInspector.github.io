@@ -1,7 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"classMR_1_1MultiwayAligningTransform.html#a18d82c619c188edfbe08da3191876261":[9,0,0,0,8,0,1],
-"classMR_1_1MultiwayAligningTransform.html#a1efd4fe910e9f4f9f64b14d2fd1929d4":[9,0,0,0,8,0,8],
 "classMR_1_1MultiwayAligningTransform.html#a26f658626fe3c1d58d5b4bbbc294cca8":[9,0,0,0,8,0,11],
 "classMR_1_1MultiwayAligningTransform.html#a3435c7509f89fa86d930d3d9a27cf514":[9,0,0,0,8,0,13],
 "classMR_1_1MultiwayAligningTransform.html#a3e5b35fce7e3307e85f2dbf172d70b17":[9,0,0,0,8,0,12],
@@ -14,7 +12,7 @@ var NAVTREEINDEX10 =
 "classMR_1_1MultiwayAligningTransform.html#af0e61313e6d6ed7885bc216dbafbb659":[9,0,0,0,8,0,5],
 "classMR_1_1MultiwayICP.html":[9,0,0,19,411],
 "classMR_1_1Nesting_1_1IBoxNestingPriority.html":[9,0,0,19,145],
-"classMR_1_1Nesting_1_1SequentialNester.html":[9,0,0,19,927],
+"classMR_1_1Nesting_1_1SequentialNester.html":[9,0,0,19,928],
 "classMR_1_1NextEdgeSameLeft.html":[9,0,0,19,525],
 "classMR_1_1NextEdgeSameOrigin.html":[9,0,0,19,524],
 "classMR_1_1NoInitId.html":[9,0,0,19,312],
@@ -155,7 +153,7 @@ var NAVTREEINDEX10 =
 "classMR_1_1ObjectTransformWidget.html":[9,0,0,19,663],
 "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html":[9,0,0,19,664],
 "classMR_1_1ObjectVoxels.html":[9,0,0,11,16],
-"classMR_1_1ObjectVoxels.html":[9,0,0,19,902],
+"classMR_1_1ObjectVoxels.html":[9,0,0,19,903],
 "classMR_1_1OpenDICOMsMenuItem.html":[9,0,0,19,63],
 "classMR_1_1OpenDirectoryMenuItem.html":[9,0,0,19,61],
 "classMR_1_1OpenFilesMenuItem.html":[9,0,0,19,62],
@@ -205,12 +203,12 @@ var NAVTREEINDEX10 =
 "classMR_1_1PlaneObject.html":[9,0,0,11,0,4],
 "classMR_1_1PlaneObject.html":[9,0,0,19,472],
 "classMR_1_1PlaneWidget.html":[9,0,0,19,674],
-"classMR_1_1PluginCloseOnChangeMesh.html":[9,0,0,19,786],
-"classMR_1_1PluginCloseOnChangePointCloud.html":[9,0,0,19,788],
-"classMR_1_1PluginCloseOnEscPressed.html":[9,0,0,19,789],
-"classMR_1_1PluginCloseOnSelectedObjectRemove.html":[9,0,0,19,785],
-"classMR_1_1PluginUpdateOnChangeMeshPart.html":[9,0,0,19,787],
-"classMR_1_1PluginUpdateOr.html":[9,0,0,19,790],
+"classMR_1_1PluginCloseOnChangeMesh.html":[9,0,0,19,787],
+"classMR_1_1PluginCloseOnChangePointCloud.html":[9,0,0,19,789],
+"classMR_1_1PluginCloseOnEscPressed.html":[9,0,0,19,790],
+"classMR_1_1PluginCloseOnSelectedObjectRemove.html":[9,0,0,19,786],
+"classMR_1_1PluginUpdateOnChangeMeshPart.html":[9,0,0,19,788],
+"classMR_1_1PluginUpdateOr.html":[9,0,0,19,791],
 "classMR_1_1PointAccumulator.html":[9,0,0,0,1,0],
 "classMR_1_1PointAccumulator.html#a1796a9a708940c023b28e492508dbc64":[9,0,0,0,1,0,5],
 "classMR_1_1PointAccumulator.html#a2f5614b00ab9f0a3e993de5c7762aed4":[9,0,0,0,1,0,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX10 =
 "classMR_1_1PointToPointAligningTransform.html":[9,0,0,0,8,2],
 "classMR_1_1PointToPointAligningTransform.html#a1aa61a6aa29e1ed1cc269c3e147ce9b0":[9,0,0,0,8,2,7],
 "classMR_1_1PointToPointAligningTransform.html#a1f94659f434039a0d815dc1cc7926025":[9,0,0,0,8,2,2],
-"classMR_1_1PointToPointAligningTransform.html#a28ee1d360198448e23e00615c086e7ff":[9,0,0,0,8,2,1]
+"classMR_1_1PointToPointAligningTransform.html#a28ee1d360198448e23e00615c086e7ff":[9,0,0,0,8,2,1],
+"classMR_1_1PointToPointAligningTransform.html#a36c54b01cd263e2fd5108051a8588576":[9,0,0,0,8,2,11],
+"classMR_1_1PointToPointAligningTransform.html#a443f77a80d33d459b4eb9d37264241cd":[9,0,0,0,8,2,0]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"classMR_1_1PointToPointAligningTransform.html#a36c54b01cd263e2fd5108051a8588576":[9,0,0,0,8,2,11],
-"classMR_1_1PointToPointAligningTransform.html#a443f77a80d33d459b4eb9d37264241cd":[9,0,0,0,8,2,0],
 "classMR_1_1PointToPointAligningTransform.html#a4e2b650956d9ae729830232e6464e313":[9,0,0,0,8,2,10],
 "classMR_1_1PointToPointAligningTransform.html#a71bc17188dc3fb99ec66eca0caadcb0e":[9,0,0,0,8,2,4],
 "classMR_1_1PointToPointAligningTransform.html#a7c5ce61a849b6f702c6d585049995ef0":[9,0,0,0,8,2,3],
@@ -65,12 +63,12 @@ var NAVTREEINDEX11 =
 "classMR_1_1QuadricApprox.html":[9,0,0,0,15],
 "classMR_1_1QuadricApprox.html":[9,0,0,19,142],
 "classMR_1_1RadiusMeasurementObject.html":[9,0,0,19,514],
-"classMR_1_1RangeCounter.html":[9,0,0,19,914],
-"classMR_1_1RangeProcessor.html":[9,0,0,19,909],
-"classMR_1_1RangeProcessor.html#gae9524032175e7503af1f3c23a7d5b962":[9,0,0,19,909,14],
-"classMR_1_1RangeProcessorSingle.html":[9,0,0,19,912],
-"classMR_1_1RangeProcessorSingle.html#ga2a51228138a8994ccaa8fab17ec60f75":[9,0,0,19,912,12],
-"classMR_1_1RangeProgress.html":[9,0,0,19,911],
+"classMR_1_1RangeCounter.html":[9,0,0,19,915],
+"classMR_1_1RangeProcessor.html":[9,0,0,19,910],
+"classMR_1_1RangeProcessor.html#gae9524032175e7503af1f3c23a7d5b962":[9,0,0,19,910,14],
+"classMR_1_1RangeProcessorSingle.html":[9,0,0,19,913],
+"classMR_1_1RangeProcessorSingle.html#ga2a51228138a8994ccaa8fab17ec60f75":[9,0,0,19,913,12],
+"classMR_1_1RangeProgress.html":[9,0,0,19,912],
 "classMR_1_1RayWidget.html":[9,0,0,19,676],
 "classMR_1_1RecentFilesStore.html":[9,0,0,19,677],
 "classMR_1_1RectIndexer.html":[9,0,0,5,8],
@@ -249,5 +247,7 @@ var NAVTREEINDEX11 =
 "classMR_1_1RibbonMenu.html":[9,0,0,19,720],
 "classMR_1_1RibbonMenuItem.html":[9,0,0,19,723],
 "classMR_1_1RibbonMenuItemAdder.html":[9,0,0,19,730],
-"classMR_1_1RibbonMenuItemAdderT.html":[9,0,0,19,731]
+"classMR_1_1RibbonMenuItemAdderT.html":[9,0,0,19,731],
+"classMR_1_1RibbonMenuItemCall.html":[9,0,0,19,744],
+"classMR_1_1RibbonMenuSearch.html":[9,0,0,19,724]
 };

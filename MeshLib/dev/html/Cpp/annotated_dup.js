@@ -1021,6 +1021,7 @@ var annotated_dup =
       [ "SaveSceneMenuItem", "classMR_1_1SaveSceneMenuItem.html", "classMR_1_1SaveSceneMenuItem" ],
       [ "SaveSelectedMenuItem", "classMR_1_1SaveSelectedMenuItem.html", "classMR_1_1SaveSelectedMenuItem" ],
       [ "SaveSettings", "structMR_1_1SaveSettings.html", "structMR_1_1SaveSettings" ],
+      [ "ScannerBackendAdder", "classMR_1_1ScannerBackendAdder.html", "classMR_1_1ScannerBackendAdder" ],
       [ "ScannerCapabilities", "structMR_1_1ScannerCapabilities.html", "structMR_1_1ScannerCapabilities" ],
       [ "ScannerLiveFrame", "structMR_1_1ScannerLiveFrame.html", "structMR_1_1ScannerLiveFrame" ],
       [ "SceneCache", "classMR_1_1SceneCache.html", "classMR_1_1SceneCache" ],

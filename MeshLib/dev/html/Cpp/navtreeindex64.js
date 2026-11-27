@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"namespaceMR_1_1UnitSettings.html#a94861183b1976b5e7b549d50ce37805d":[9,0,1,0,1,55,11],
+"namespaceMR_1_1UnitSettings.html#a9660ba5f25b3c345a1d75f38de621842":[9,0,1,0,1,55,10],
+"namespaceMR_1_1UnitSettings.html#ac410a1fcd84e320251f853094123a7c9":[9,0,1,0,1,55,16],
+"namespaceMR_1_1UnitSettings.html#ad0f4b58308b6afde0805f1a15314ec36":[9,0,1,0,1,55,8],
 "namespaceMR_1_1UnitSettings.html#ad5bb619905d31722d3e7f5a91afb1c46":[9,0,1,0,1,55,2],
 "namespaceMR_1_1UnitSettings.html#ae83d1247da6bf1d2bf28212e19246978":[9,0,1,0,1,55,7],
 "namespaceMR_1_1UnitSettings.html#af40b003a9c4deee8e921de1a4f03e0b2":[9,0,1,0,1,55,17],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "structImGui_1_1MultiDragRes.html":[9,0,2,0,0,2],
 "structImGui_1_1MultiDragRes.html#a2cbca753ea91bb78dd7129cd9d593887":[9,0,1,0,0,2,0],
 "structImGui_1_1MultiDragRes.html#a2cbca753ea91bb78dd7129cd9d593887":[9,0,2,0,0,2,0],
-"structImGui_1_1MultiDragRes.html#a4eedb4fce9de2f5613159499ddda2284":[9,0,1,0,0,2,1],
-"structImGui_1_1MultiDragRes.html#a4eedb4fce9de2f5613159499ddda2284":[9,0,2,0,0,2,1],
-"structImGui_1_1MultiDragRes.html#adb7b2a2769c456894115e619b520e720":[9,0,1,0,0,2,2],
-"structImGui_1_1MultiDragRes.html#adb7b2a2769c456894115e619b520e720":[9,0,2,0,0,2,2],
-"structImGui_1_1SavedWindowPosParams.html":[9,0,1,0,0,3]
+"structImGui_1_1MultiDragRes.html#a4eedb4fce9de2f5613159499ddda2284":[9,0,1,0,0,2,1]
 };

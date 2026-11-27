@@ -113,7 +113,6 @@ var dir_9f7f527b3d798641b224411d64f042be =
     [ "MRSaveObjects.h", "MRSaveObjects_8h.html", "MRSaveObjects_8h" ],
     [ "MRSaveOnClose.h", "MRSaveOnClose_8h.html", null ],
     [ "MRScannerBackend.h", "MRScannerBackend_8h.html", "MRScannerBackend_8h" ],
-    [ "MRScannerPlugin.h", "MRScannerPlugin_8h.html", "MRScannerPlugin_8h" ],
     [ "MRScannerSchemaUi.h", "MRScannerSchemaUi_8h.html", "MRScannerSchemaUi_8h" ],
     [ "MRSceneCache.h", "MRSceneCache_8h.html", null ],
     [ "MRSceneObjectsListDrawer.h", "MRSceneObjectsListDrawer_8h.html", "MRSceneObjectsListDrawer_8h" ],

@@ -1,7 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"classMR_1_1ChangePointPointSelectionAction.html#a7ebe140792b37c16fdd8f129492ad4c8":[9,0,0,4,32,5],
-"classMR_1_1ChangePointPointSelectionAction.html#ac11863b18cf6233f258a49395537c69c":[9,0,0,4,32,3],
 "classMR_1_1ChangePointPointSelectionAction.html#aced37c6f615d0a18b1743ee3895a5d3b":[9,0,0,4,32,4],
 "classMR_1_1ChangePointPointSelectionAction.html#adf6db1de62ed6cf97b83d0a1c00a9999":[9,0,0,4,32,0],
 "classMR_1_1ChangePolylineAction.html":[9,0,0,4,22],
@@ -81,7 +79,7 @@ var NAVTREEINDEX8 =
 "classMR_1_1CombinedHistoryAction.html":[9,0,0,4,36],
 "classMR_1_1CombinedHistoryAction.html":[9,0,0,19,190],
 "classMR_1_1CommandLoop.html":[9,0,0,19,615],
-"classMR_1_1ComputePointsToDistanceVolume.html":[9,0,0,19,919],
+"classMR_1_1ComputePointsToDistanceVolume.html":[9,0,0,19,920],
 "classMR_1_1Cone3.html":[9,0,0,19,191],
 "classMR_1_1Cone3Approximation.html":[9,0,0,19,193],
 "classMR_1_1ConeObject.html":[9,0,0,11,0,1],
@@ -89,7 +87,7 @@ var NAVTREEINDEX8 =
 "classMR_1_1Config.html":[9,0,0,19,195],
 "classMR_1_1ConstChildren.html":[9,0,0,19,196],
 "classMR_1_1ConstChildren_1_1Iterator.html":[9,0,0,19,197],
-"classMR_1_1CornerControllerObject.html":[9,0,0,19,876],
+"classMR_1_1CornerControllerObject.html":[9,0,0,19,877],
 "classMR_1_1CudaAccessor.html":[9,0,0,19,618],
 "classMR_1_1Cuda_1_1ComputePointsToDistanceVolume.html":[9,0,0,19,92],
 "classMR_1_1Cuda_1_1ComputeToolDistance.html":[9,0,1,0,1,2,1],
@@ -158,9 +156,9 @@ var NAVTREEINDEX8 =
 "classMR_1_1Cylinder3Approximation.html":[9,0,0,19,206],
 "classMR_1_1CylinderObject.html":[9,0,0,11,0,2],
 "classMR_1_1CylinderObject.html":[9,0,0,19,207],
-"classMR_1_1DefaultSplashWindow.html":[9,0,0,19,781],
+"classMR_1_1DefaultSplashWindow.html":[9,0,0,19,782],
 "classMR_1_1DemoPlugin.html":[9,0,0,19,619],
-"classMR_1_1DentalId.html":[9,0,0,19,930],
+"classMR_1_1DentalId.html":[9,0,0,19,931],
 "classMR_1_1DepthPeelingGL.html":[9,0,0,19,620],
 "classMR_1_1DirectionWidget.html":[9,0,0,19,621],
 "classMR_1_1DirectionWidget_1_1ChangeDirAction.html":[9,0,0,19,622],
@@ -249,5 +247,7 @@ var NAVTREEINDEX8 =
 "classMR_1_1FloatGrid.html#a73a8d78bd5974d77513cecea0cf92ed1":[9,0,0,17,5,3],
 "classMR_1_1FloatGrid.html#ae1df5fdac1a03f7e347a9b7c48b7229d":[9,0,0,17,5,8],
 "classMR_1_1FloatGrid.html#af8d34216336615815311c279c1f5ea36":[9,0,0,17,5,1],
-"classMR_1_1FlowAggregator.html":[9,0,0,19,125]
+"classMR_1_1FlowAggregator.html":[9,0,0,19,125],
+"classMR_1_1FormatRegistry.html":[9,0,1,0,1,320],
+"classMR_1_1FormatRegistry.html":[9,0,2,0,1,299]
 };

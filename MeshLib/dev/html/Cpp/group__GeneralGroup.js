@@ -7353,6 +7353,12 @@ var group__GeneralGroup =
       [ "unloadRuntime", "group__GeneralGroup.html#ga7b2aa33e85f7d9aa566d2f2e1404f608", null ],
       [ "upDirection", "group__GeneralGroup.html#gaf91a7dbaca94ece6ae42b63db06b6245", null ]
     ] ],
+    [ "MR::ScannerBackendAdder", "classMR_1_1ScannerBackendAdder.html", [
+      [ "ScannerBackendAdder", "group__GeneralGroup.html#ga249dbc5989d1c9467e5892c2bee76d1d", null ],
+      [ "~ScannerBackendAdder", "group__GeneralGroup.html#gac1cad4b4c3c3a376e2f1ec0a9d4f3346", null ],
+      [ "ScannerBackendAdder", "group__GeneralGroup.html#gabfd13a0571414cefb52bb74a4f885902", null ],
+      [ "operator=", "group__GeneralGroup.html#gaea937e4569c9c5431d5a6852d9b684d7", null ]
+    ] ],
     [ "MR::SceneCache", "classMR_1_1SceneCache.html", [
       [ "ObjectList", "group__GeneralGroup.html#ga9d132145ed6e28c339f8a129698217d6", null ]
     ] ],
@@ -13554,6 +13560,7 @@ var group__GeneralGroup =
     [ "MR::getScalarTypeMinMax", "group__GeneralGroup.html#gab6e8e67fbea857421ad3a3283681c636", null ],
     [ "MR::getScalarTypeSize", "group__GeneralGroup.html#gaecb1b9cc74ab928d3f2f8dc150689984", null ],
     [ "MR::FeatureObject::getScaleShearMatrix", "group__GeneralGroup.html#ga4812ae385ef5a66bbcc0779f54025502", null ],
+    [ "MR::getScannerBackends", "group__GeneralGroup.html#gaad6ca836e23dd365a2f985af7b1e46b3", null ],
     [ "MR::Viewport::getSceneBox", "group__GeneralGroup.html#gaa161054d6ad945482f167defcae351e2", null ],
     [ "MR::ImGuiMenu::getSceneInfoItemWidth_", "group__GeneralGroup.html#gaf1877fc755762a20d997b8f1a9742043", null ],
     [ "MR::ImGuiMenu::getSceneObjectsList", "group__GeneralGroup.html#ga48fd92cd17ef9d58c9f021cfa8d2658d", null ],
@@ -14428,7 +14435,6 @@ var group__GeneralGroup =
     [ "MR::makeRegularGridMesh", "group__GeneralGroup.html#gaae27e6fa67b4e0d5a59574d504d53a61", null ],
     [ "MR::makeRenderObjectConstructor", "group__GeneralGroup.html#ga328bb54e142966b09b529c5ed868e453", null ],
     [ "MR::makeRigidXf", "group__GeneralGroup.html#gaafcab5cb1e6ba0fb12f08dc9041a1503", null ],
-    [ "MR::makeScannerPlugin", "group__GeneralGroup.html#ga1c1dd332dd5d3fb13cf0d0882b390294", null ],
     [ "MR::makeSignedByWindingNumber", "group__GeneralGroup.html#ga5ff1cebb6fb035f8908029aa5fc6a672", null ],
     [ "MR::makeSolidOfRevolution", "group__GeneralGroup.html#gabbe6d9d5f0b3716ea3a9824b82181f26", null ],
     [ "MR::makeSphere", "group__GeneralGroup.html#ga1c2da48497693f219de4c05f49173277", null ],
@@ -15248,6 +15254,7 @@ var group__GeneralGroup =
     [ "MR::PointObject::operator=", "group__GeneralGroup.html#gae0b89143bda253553841055632c8f8bd", null ],
     [ "MR::ProvidesViewportWidget::operator=", "group__GeneralGroup.html#ga7f6c27b4d8d26bfca58a49fc3a614732", null ],
     [ "MR::RadiusMeasurementObject::operator=", "group__GeneralGroup.html#ga881370b0a38e287dc6a8ef290f2747e6", null ],
+    [ "MR::ScannerBackendAdder::operator=", "group__GeneralGroup.html#gaea937e4569c9c5431d5a6852d9b684d7", null ],
     [ "MR::SceneRootObject::operator=", "group__GeneralGroup.html#gaf5adb3060c521b2e091eff673e8780ce", null ],
     [ "MR::ShadowsGL::operator=", "group__GeneralGroup.html#ga3e74b18bef132d73cfbd57d646961b95", null ],
     [ "MR::Signal::operator=", "group__GeneralGroup.html#gaea174e0acc86ab90ebe3d0b222305838", null ],
@@ -16013,6 +16020,8 @@ var group__GeneralGroup =
     [ "MR::UI::scale", "group__GeneralGroup.html#ga1f1e28fea78aec9cd7466142e64d5dc8", null ],
     [ "MR::Color::scaledAlpha", "group__GeneralGroup.html#gab12a1e450b868138a87d0feb4f9e3d8b", null ],
     [ "MR::ConvertToIntVector::scaleOnly", "group__GeneralGroup.html#ga302937794bba230f16ea82f89f30fe3d", null ],
+    [ "MR::ScannerBackendAdder::ScannerBackendAdder", "group__GeneralGroup.html#gabfd13a0571414cefb52bb74a4f885902", null ],
+    [ "MR::ScannerBackendAdder::ScannerBackendAdder", "group__GeneralGroup.html#ga249dbc5989d1c9467e5892c2bee76d1d", null ],
     [ "MR::scannerParam", "group__GeneralGroup.html#gaab70bd78d37a220de4019173d79c832d", null ],
     [ "MR::sceneReorderWithUndo", "group__GeneralGroup.html#gaf7b59424fe3d8f4942cfc555758c294a", null ],
     [ "MR::SceneRootObject::SceneRootObject", "group__GeneralGroup.html#ga10ee56f1c6e8cdd403c6c199d3cd1481", null ],
@@ -17176,6 +17185,7 @@ var group__GeneralGroup =
     [ "MR::Viewport::unprojectFromViewportSpace", "group__GeneralGroup.html#gae8a56f2400988d9bb463d6669e20455a", null ],
     [ "MR::Viewport::unprojectFromViewportSpace", "group__GeneralGroup.html#ga0c86336ca4a6c0660f4f6eaa3a1745b2", null ],
     [ "MR::Viewport::unprojectPixelRay", "group__GeneralGroup.html#ga5ef038bd9bf8c8911bcb10f103fcc0ec", null ],
+    [ "MR::unregisterScannerBackends", "group__GeneralGroup.html#ga5898b58e9a519a2c5301f9bb75de4053", null ],
     [ "MR::VisualObjectTagManager::unregisterTag", "group__GeneralGroup.html#ga9033728ee24edf0f374021b2608fbf05", null ],
     [ "MR::Vector3::unsignZeroValues", "group__GeneralGroup.html#ga8a737d6b966f9953f4dbf5cb90b409e7", null ],
     [ "MR::Features::Primitives::ConeSegment::untruncateCone", "group__GeneralGroup.html#gaa67d4ba56151139e957a1d94f9b2a5a1", null ],
@@ -17526,6 +17536,7 @@ var group__GeneralGroup =
     [ "MR::RibbonMenuItemCall::~RibbonMenuItemCall", "group__GeneralGroup.html#gaab9fa332237b77530d49e4712f168e4f", null ],
     [ "MR::RibbonSchemaLoader::~RibbonSchemaLoader", "group__GeneralGroup.html#ga0bdc0e74b5b855dc50f9d3ed83b7ecad", null ],
     [ "MR::RibbonSchemaLoadListener::~RibbonSchemaLoadListener", "group__GeneralGroup.html#gad5aac79f51a7cd04adfe98f468a0fbea", null ],
+    [ "MR::ScannerBackendAdder::~ScannerBackendAdder", "group__GeneralGroup.html#gac1cad4b4c3c3a376e2f1ec0a9d4f3346", null ],
     [ "MR::SceneObjectsListDrawer::~SceneObjectsListDrawer", "group__GeneralGroup.html#gaffefc47d2b779b451bc3f420ddfdbdf8", null ],
     [ "MR::SceneStateAndCheck::~SceneStateAndCheck", "group__GeneralGroup.html#gaeeef0efbedfc98eea8fe606f14398bc2", null ],
     [ "MR::SceneStateAtLeastCheck::~SceneStateAtLeastCheck", "group__GeneralGroup.html#gaba4af468f0b66ad5618bb28ec7515f03", null ],

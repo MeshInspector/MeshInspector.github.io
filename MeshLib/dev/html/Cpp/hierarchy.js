@@ -1250,6 +1250,7 @@ var hierarchy =
     ] ],
     [ "MR::VoxelsSave::SavingSettings", "structMR_1_1VoxelsSave_1_1SavingSettings.html", null ],
     [ "MR::ViewportGL::ScaledPickRes", "structMR_1_1ViewportGL_1_1ScaledPickRes.html", null ],
+    [ "MR::ScannerBackendAdder", "classMR_1_1ScannerBackendAdder.html", null ],
     [ "MR::ScannerCapabilities", "structMR_1_1ScannerCapabilities.html", null ],
     [ "MR::ScannerLiveFrame", "structMR_1_1ScannerLiveFrame.html", null ],
     [ "MR::SceneCache", "classMR_1_1SceneCache.html", null ],
