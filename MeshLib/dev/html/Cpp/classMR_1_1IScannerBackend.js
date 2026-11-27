@@ -1,0 +1,28 @@
+var classMR_1_1IScannerBackend =
+[
+    [ "~IScannerBackend", "group__GeneralGroup.html#gab56f6dd720c14d2e21ffcb3d9363d111", null ],
+    [ "capabilities", "group__GeneralGroup.html#ga69f4146a5c72ee965cd4961dd9fc0627", null ],
+    [ "capture", "group__GeneralGroup.html#gaba9decbf875fa57e4d46ddc96dfbf19c", null ],
+    [ "captureFrame", "group__GeneralGroup.html#gae761ba824f60dcd842571f6388cafcf2", null ],
+    [ "connect", "group__GeneralGroup.html#ga8583e48bd24df472ef4e4d5d36478c53", null ],
+    [ "disconnect", "group__GeneralGroup.html#gab4c237d6c5c0348e8e4c51a0dc342de5", null ],
+    [ "isReady", "group__GeneralGroup.html#gab8e52cdba81b7ccd235c13c1a259811b", null ],
+    [ "livePreviewActive", "group__GeneralGroup.html#ga8fc4baf3ac08391dcec6b2378b509660", null ],
+    [ "loadRuntime", "group__GeneralGroup.html#ga5c6950d32ce2a532f0a6065480c55f5b", null ],
+    [ "loadSettings", "group__GeneralGroup.html#gab7a53b62cf0fb0fb741f8adadd63a24e", null ],
+    [ "name", "group__GeneralGroup.html#gadfbb565d94f79449942dac0f7a7dcf22", null ],
+    [ "paramSchema", "group__GeneralGroup.html#ga2546356a521416e644af2147ae6dded1", null ],
+    [ "previewImages", "group__GeneralGroup.html#ga9626d1a9d86c33c95f0fcb1915b5fce3", null ],
+    [ "resetSettings", "group__GeneralGroup.html#ga80efd1429d3ed6ed107c8fd3dc8dcdd6", null ],
+    [ "runAction", "group__GeneralGroup.html#ga705df27c1763273c206a0f75802143fc", null ],
+    [ "runtimeDir", "group__GeneralGroup.html#ga288b07762bfdf12f229595f6c585c014", null ],
+    [ "runtimeHint", "group__GeneralGroup.html#ga8f551b7f78bfe9bf49d6876c228a3bf2", null ],
+    [ "runtimeLoaded", "group__GeneralGroup.html#ga48a635e95dd38ffeaa3e7fef684dfd83", null ],
+    [ "saveSettings", "group__GeneralGroup.html#ga717a7dfc5ebf5ce2e831991de49c228c", null ],
+    [ "setLiveFrameCallback", "group__GeneralGroup.html#ga8614c377675b3713581a48e0f63e6308", null ],
+    [ "setParam", "group__GeneralGroup.html#gaee3e525146baae76d764423a4410bc97", null ],
+    [ "startLivePreview", "group__GeneralGroup.html#ga554087d6b6bdaa26136cc360be8c741a", null ],
+    [ "stopLivePreview", "group__GeneralGroup.html#gaf78fcd38ad435792d60ed881d3509533", null ],
+    [ "unloadRuntime", "group__GeneralGroup.html#ga7b2aa33e85f7d9aa566d2f2e1404f608", null ],
+    [ "upDirection", "group__GeneralGroup.html#gaf91a7dbaca94ece6ae42b63db06b6245", null ]
+];

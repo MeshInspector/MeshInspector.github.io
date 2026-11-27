@@ -290,6 +290,9 @@ var hierarchy =
       [ "MR::MultiListener< DragStartListener, DragListener, DragEndListener, NameTagClickListener >", "structMR_1_1MultiListener.html", [
         [ "MR::PlaneWidget", "classMR_1_1PlaneWidget.html", null ]
       ] ],
+      [ "MR::MultiListener< DragStartListener, DragListener, DragEndListener, MouseClickListener >", "structMR_1_1MultiListener.html", [
+        [ "MR::RayWidget", "classMR_1_1RayWidget.html", null ]
+      ] ],
       [ "MR::MultiListener< PreDrawListener >", "structMR_1_1MultiListener.html", [
         [ "MR::ResetSceneMenuItem", "classMR_1_1ResetSceneMenuItem.html", null ]
       ] ],
@@ -738,6 +741,7 @@ var hierarchy =
       [ "MR::RenderResetDirtyComponent", "classMR_1_1RenderResetDirtyComponent.html", null ],
       [ "MR::RenderVolumeObject", "classMR_1_1RenderVolumeObject.html", null ]
     ] ],
+    [ "MR::IScannerBackend", "classMR_1_1IScannerBackend.html", null ],
     [ "MR::ISceneSelectionChange", "classMR_1_1ISceneSelectionChange.html", [
       [ "MR::SceneSelectionChangeClose", "classMR_1_1SceneSelectionChangeClose.html", null ],
       [ "MR::SceneSelectionChangeRestart", "classMR_1_1SceneSelectionChangeRestart.html", null ],
@@ -1246,6 +1250,8 @@ var hierarchy =
     ] ],
     [ "MR::VoxelsSave::SavingSettings", "structMR_1_1VoxelsSave_1_1SavingSettings.html", null ],
     [ "MR::ViewportGL::ScaledPickRes", "structMR_1_1ViewportGL_1_1ScaledPickRes.html", null ],
+    [ "MR::ScannerCapabilities", "structMR_1_1ScannerCapabilities.html", null ],
+    [ "MR::ScannerLiveFrame", "structMR_1_1ScannerLiveFrame.html", null ],
     [ "MR::SceneCache", "classMR_1_1SceneCache.html", null ],
     [ "MR::SceneColors", "structMR_1_1SceneColors.html", null ],
     [ "MR::SceneObjectsListDrawer", "classMR_1_1SceneObjectsListDrawer.html", [

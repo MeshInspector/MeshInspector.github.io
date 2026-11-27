@@ -166,6 +166,8 @@ var NAVTREEINDEX0 =
 "MRBestFitQuadric_8h_source.html":[9,0,3,0,7,30],
 "MRBestFit_8h.html":[9,0,3,0,7,27],
 "MRBestFit_8h_source.html":[9,0,3,0,7,27],
+"MRBestView_8h.html":[9,0,3,0,11,11],
+"MRBestView_8h_source.html":[9,0,3,0,11,11],
 "MRBezier_8h.html":[9,0,3,0,7,31],
 "MRBezier_8h_source.html":[9,0,3,0,7,31],
 "MRBinaryOperationsPlugin_8h.html":[9,0,3,0,1,3,0],
@@ -241,13 +243,11 @@ var NAVTREEINDEX0 =
 "MRChunkIterator_8h_source.html":[9,0,3,0,7,59],
 "MRCircleObject_8h.html":[9,0,3,0,7,60],
 "MRCircleObject_8h_source.html":[9,0,3,0,7,60],
-"MRClipboard_8h.html":[9,0,3,0,11,11],
-"MRClipboard_8h_source.html":[9,0,3,0,11,11],
+"MRClipboard_8h.html":[9,0,3,0,11,12],
+"MRClipboard_8h_source.html":[9,0,3,0,11,12],
 "MRCloseVertices_8h.html":[9,0,3,0,7,63],
 "MRCloseVertices_8h_source.html":[9,0,3,0,7,63],
 "MRClosestPointInTriangle_8h.html":[9,0,3,0,7,61],
 "MRClosestPointInTriangle_8h_source.html":[9,0,3,0,7,61],
-"MRClosestWeightedPoint_8h.html":[9,0,3,0,7,62],
-"MRClosestWeightedPoint_8h_source.html":[9,0,3,0,7,62],
-"MRCloudPartMapping_8h.html":[9,0,3,0,7,64]
+"MRClosestWeightedPoint_8h.html":[9,0,3,0,7,62]
 };
