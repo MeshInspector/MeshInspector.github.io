@@ -3895,7 +3895,7 @@ var classMR =
     [ "makeSpline", "classMR.html#a88e6c6ce4c7aa397165191e6614e787b", null ],
     [ "makeSubdividedObjectMeshData", "classMR.html#a4b2f4af301e0923eac1d19abf22f287f", null ],
     [ "makeThickMesh", "classMR.html#ae3405f3ef708f2bf57e66017b1896cf6", null ],
-    [ "makeTorus", "classMR.html#a3cd9b3a36e2b440be5944272785745d4", null ],
+    [ "makeTorus", "classMR.html#aeae4bf9dcb939378689ce81f9f631016", null ],
     [ "makeTorusWithComponents", "classMR.html#ac45f6835b1617f892e0c699e5c6fe8cc", null ],
     [ "makeTorusWithSelfIntersections", "classMR.html#aa0e686492e754904c2a10678f93a1494", null ],
     [ "makeTorusWithSpikes", "classMR.html#ae23d2eb7e314670bb8205400dedb2756", null ],

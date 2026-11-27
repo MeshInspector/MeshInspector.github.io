@@ -4917,7 +4917,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a0ee0c33655b6f62a606590d8b84fb868" id="r_a0ee0c33655b6f62a606590d8b84fb868"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ee0c33655b6f62a606590d8b84fb868">printTimingTreeAtEnd</a> (<a class="el" href="index_8d_8mts.html#abedb128c7b02a09945d87d2349274a60">boolean</a> on, number minTimeSec)</td></tr>
 <tr class="memitem:a6d36d21663c7972f2b0a4c9d750d884a" id="r_a6d36d21663c7972f2b0a4c9d750d884a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d36d21663c7972f2b0a4c9d750d884a">printCurrentTimerBranch</a> ()</td></tr>
 <tr class="memitem:a2a0b3f6a8ef5c6c8d027c5623a0e08d7" id="r_a2a0b3f6a8ef5c6c8d027c5623a0e08d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a0b3f6a8ef5c6c8d027c5623a0e08d7">printTimingTree</a> (number minTimeSec)</td></tr>
-<tr class="memitem:a20c1aa53b312aac8a665df234403a4a1" id="r_a20c1aa53b312aac8a665df234403a4a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20c1aa53b312aac8a665df234403a4a1">makeTorus</a> (number primaryRadius, number secondaryRadius, number primaryResolution, number secondaryResolution, <a class="el" href="classstd__vector__MR__Vector3f.html">std_vector_MR_Vector3f</a> points)</td></tr>
+<tr class="memitem:a8396ec31573507983efed32399ae06d7" id="r_a8396ec31573507983efed32399ae06d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8396ec31573507983efed32399ae06d7">makeTorus</a> (number primaryRadius, number secondaryRadius, number primaryResolution, number secondaryResolution, <a class="el" href="classstd__vector__MR__Vector3f.html">std_vector_MR_Vector3f</a> points, number profileAngle)</td></tr>
 <tr class="memitem:afaa1e98e29864626d897314ecc42fdc2" id="r_afaa1e98e29864626d897314ecc42fdc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaa1e98e29864626d897314ecc42fdc2">makeOuterHalfTorus</a> (number primaryRadius, number secondaryRadius, number primaryResolution, number secondaryResolution, <a class="el" href="classstd__vector__MR__Vector3f.html">std_vector_MR_Vector3f</a> points)</td></tr>
 <tr class="memitem:a5a28f5df4d5b006d06358ffe3d7692ad" id="r_a5a28f5df4d5b006d06358ffe3d7692ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a28f5df4d5b006d06358ffe3d7692ad">makeTorusWithUndercut</a> (number primaryRadius, number secondaryRadiusInner, number secondaryRadiusOuter, number primaryResolution, number secondaryResolution, <a class="el" href="classstd__vector__MR__Vector3f.html">std_vector_MR_Vector3f</a> points)</td></tr>
 <tr class="memitem:ad6f767d681f1d5282b3c5b48b4ea4641" id="r_ad6f767d681f1d5282b3c5b48b4ea4641"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6f767d681f1d5282b3c5b48b4ea4641">makeTorusWithSpikes</a> (number primaryRadius, number secondaryRadiusInner, number secondaryRadiusOuter, number primaryResolution, number secondaryResolution, <a class="el" href="classstd__vector__MR__Vector3f.html">std_vector_MR_Vector3f</a> points)</td></tr>
@@ -44477,8 +44477,8 @@ All new faces should be parallel to given direction It is measured in squared le
 
 </div>
 </div>
-<a id="a20c1aa53b312aac8a665df234403a4a1" name="a20c1aa53b312aac8a665df234403a4a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20c1aa53b312aac8a665df234403a4a1">&#9670;&#160;</a></span>makeTorus()</h2>
+<a id="a8396ec31573507983efed32399ae06d7" name="a8396ec31573507983efed32399ae06d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8396ec31573507983efed32399ae06d7">&#9670;&#160;</a></span>makeTorus()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -44506,12 +44506,17 @@ All new faces should be parallel to given direction It is measured in squared le
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classstd__vector__MR__Vector3f.html">std_vector_MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classstd__vector__MR__Vector3f.html">std_vector_MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">number</td>          <td class="paramname"><span class="paramname"><em>profileAngle</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Z is symmetry axis of this torus points - optional out points of main circle Generated from function <span class="tt">MR::makeTorus</span>.</p>
-<p>Calls <span class="tt">MR_makeTorus()</span>. <span class="tt">primaryRadius</span> defaults to <span class="tt">1.0f</span>. <span class="tt">secondaryRadius</span> defaults to <span class="tt">0.100000001f</span>. <span class="tt">primaryResolution</span> defaults to <span class="tt">16</span>. <span class="tt">secondaryResolution</span> defaults to <span class="tt">16</span>. <span class="tt">points</span> defaults to <span class="tt">nullptr</span>. </p>
+<p>Z is symmetry axis of this torus points - optional out points of main circle profileAngle - rotation of the secondary circle (profile) around its center in radians, e.g. secondaryResolution = 4 and profileAngle = pi/4 give a square profile with flat top and bottom Generated from function <span class="tt">MR::makeTorus</span>.</p>
+<p>Calls <span class="tt">MR_makeTorus()</span>. <span class="tt">primaryRadius</span> defaults to <span class="tt">1.0f</span>. <span class="tt">secondaryRadius</span> defaults to <span class="tt">0.100000001f</span>. <span class="tt">primaryResolution</span> defaults to <span class="tt">16</span>. <span class="tt">secondaryResolution</span> defaults to <span class="tt">16</span>. <span class="tt">points</span> defaults to <span class="tt">nullptr</span>. <span class="tt">profileAngle</span> defaults to <span class="tt">0.0f</span>. </p>
 
 </div>
 </div>

@@ -1271,7 +1271,7 @@ var searchData=
   ['makesubdividedobjectmeshdata_59',['makeSubdividedObjectMeshData',['../namespacemrmeshpy.html#a57ca3a07eb4071f91592259fca52f909',1,'mrmeshpy']]],
   ['makesweeplinecache_60',['makeSweepLineCache',['../classmrmeshpy_1_1PlanarTriangulation.html#a5e103615c1e418af8f60bc67f4f7d75f',1,'mrmeshpy::PlanarTriangulation']]],
   ['makethickmesh_61',['makeThickMesh',['../namespacemrmeshpy.html#a9749938366fa52f5fa0ddf845e2aefa5',1,'mrmeshpy']]],
-  ['maketorus_62',['makeTorus',['../namespacemrmeshpy.html#a9c5e4d2b97766486151c0dc4b90e113f',1,'mrmeshpy']]],
+  ['maketorus_62',['makeTorus',['../namespacemrmeshpy.html#a927f3e83b9b9a186a4e6c565c02db2b9',1,'mrmeshpy']]],
   ['maketoruswithcomponents_63',['makeTorusWithComponents',['../namespacemrmeshpy.html#a6d34a4fc84a31b68474f99f5fa9266ce',1,'mrmeshpy']]],
   ['maketoruswithselfintersections_64',['makeTorusWithSelfIntersections',['../namespacemrmeshpy.html#ae672342821e8ed12e8a2c5f6ccb0eca5',1,'mrmeshpy']]],
   ['maketoruswithspikes_65',['makeTorusWithSpikes',['../namespacemrmeshpy.html#a66466457e52b6e1872316c71b99e65ec',1,'mrmeshpy']]],

@@ -4530,7 +4530,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.makeSpline", "namespacemrmeshpy.html#a32965207021d851feee87c0d12ecac2d", null ],
     [ "mrmeshpy.makeSubdividedObjectMeshData", "namespacemrmeshpy.html#a57ca3a07eb4071f91592259fca52f909", null ],
     [ "mrmeshpy.makeThickMesh", "namespacemrmeshpy.html#a9749938366fa52f5fa0ddf845e2aefa5", null ],
-    [ "mrmeshpy.makeTorus", "namespacemrmeshpy.html#a9c5e4d2b97766486151c0dc4b90e113f", null ],
+    [ "mrmeshpy.makeTorus", "namespacemrmeshpy.html#a927f3e83b9b9a186a4e6c565c02db2b9", null ],
     [ "mrmeshpy.makeTorusWithComponents", "namespacemrmeshpy.html#a6d34a4fc84a31b68474f99f5fa9266ce", null ],
     [ "mrmeshpy.makeTorusWithSelfIntersections", "namespacemrmeshpy.html#ae672342821e8ed12e8a2c5f6ccb0eca5", null ],
     [ "mrmeshpy.makeTorusWithSpikes", "namespacemrmeshpy.html#a66466457e52b6e1872316c71b99e65ec", null ],

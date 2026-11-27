@@ -4115,7 +4115,7 @@ var __all_8d_8mts =
     [ "makeSubdividedObjectMeshData", "__all_8d_8mts.html#a8b2701be2457f9f7054241c795834ab1", null ],
     [ "PlanarTriangulation::makeSweepLineCache", "namespacePlanarTriangulation.html#a6a3ee1952a2009a11c64dfc91f7ecbb9", null ],
     [ "makeThickMesh", "__all_8d_8mts.html#add0bba56fcff4f2b4b4f492b3951de09", null ],
-    [ "makeTorus", "__all_8d_8mts.html#a20c1aa53b312aac8a665df234403a4a1", null ],
+    [ "makeTorus", "__all_8d_8mts.html#a8396ec31573507983efed32399ae06d7", null ],
     [ "makeTorusWithComponents", "__all_8d_8mts.html#ac12d5bd730a4cadefadc67546afaa950", null ],
     [ "makeTorusWithSelfIntersections", "__all_8d_8mts.html#a2e156d9eed15c0ed418b1233cdb3a6c5", null ],
     [ "makeTorusWithSpikes", "__all_8d_8mts.html#ad6f767d681f1d5282b3c5b48b4ea4641", null ],

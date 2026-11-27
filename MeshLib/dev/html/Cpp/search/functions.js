@@ -3185,7 +3185,7 @@ var searchData=
   ['makesweeplinecache_78',['makeSweepLineCache',['../group__GeneralGroup.html#ga6aa55c423349c3200c91a32652683cca',1,'MR::PlanarTriangulation']]],
   ['makethickmesh_79',['makeThickMesh',['../group__GeneralGroup.html#ga34f71b57fc7b583b62d9b1eac40249b7',1,'MR']]],
   ['maketitlefromscenerootpath_80',['makeTitleFromSceneRootPath',['../group__GeneralGroup.html#ga9937d813493b08183d9e450ab55b6e77',1,'MR::Viewer']]],
-  ['maketorus_81',['makeTorus',['../group__GeneralGroup.html#ga638324ed49e28189a1c35cf398dc6a73',1,'MR']]],
+  ['maketorus_81',['makeTorus',['../group__GeneralGroup.html#gaed4ec2f46ef1b340aeb07c400c55357d',1,'MR']]],
   ['maketoruswithcomponents_82',['makeTorusWithComponents',['../group__GeneralGroup.html#ga57eb865bddfea0b83ba03d7d424a3589',1,'MR']]],
   ['maketoruswithselfintersections_83',['makeTorusWithSelfIntersections',['../group__GeneralGroup.html#gaefe2a3413e9ffcfb9ee62b40c3eb6f90',1,'MR']]],
   ['maketoruswithspikes_84',['makeTorusWithSpikes',['../group__GeneralGroup.html#ga196a0dd004b8640ecf44ab19177397b8',1,'MR']]],

@@ -81,7 +81,7 @@ var searchData=
   ['make_5fsubdivided_5fobject_5fmesh_5fdata_78',['make_subdivided_object_mesh_data',['../namespacemeshlib.html#a8d74bfa8fef216f36c014d8397cb38b9',1,'meshlib']]],
   ['make_5fsweep_5fline_5fcache_79',['make_sweep_line_cache',['../namespacemeshlib_1_1planar__triangulation.html#a08a1d6b4161ae85b714ad1caaa2509f1',1,'meshlib::planar_triangulation']]],
   ['make_5fthick_5fmesh_80',['make_thick_mesh',['../namespacemeshlib.html#aead53e8488443913b684fb3cee6748b2',1,'meshlib']]],
-  ['make_5ftorus_81',['make_torus',['../namespacemeshlib.html#a7494399a8e873463227dd07bcb5b2b7f',1,'meshlib']]],
+  ['make_5ftorus_81',['make_torus',['../namespacemeshlib.html#a3665999388221b3d124c0832aaa33085',1,'meshlib']]],
   ['make_5ftorus_5fwith_5fcomponents_82',['make_torus_with_components',['../namespacemeshlib.html#add35d09d3cce5623e121a6631dcf9e9e',1,'meshlib']]],
   ['make_5ftorus_5fwith_5fself_5fintersections_83',['make_torus_with_self_intersections',['../namespacemeshlib.html#a8445572c3cff0f36b0bd31f6d2e44741',1,'meshlib']]],
   ['make_5ftorus_5fwith_5fspikes_84',['make_torus_with_spikes',['../namespacemeshlib.html#a1ba76adcd5199f73fdf554c4bcfa8bd8',1,'meshlib']]],

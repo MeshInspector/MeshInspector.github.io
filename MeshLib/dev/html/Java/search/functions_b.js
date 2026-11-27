@@ -65,7 +65,7 @@ var searchData=
   ['makesubdividedobjectmeshdata_62',['makeSubdividedObjectMeshData',['../classmeshlib_1_1Functions.html#a0559e92a7b451f34069ea8acdb32075d',1,'meshlib::Functions']]],
   ['makesweeplinecache_63',['makeSweepLineCache',['../classmeshlib_1_1planartriangulation_1_1Functions.html#ac9fa28a91d7b3e69cdbc347576479731',1,'meshlib::planartriangulation::Functions']]],
   ['makethickmesh_64',['makeThickMesh',['../classmeshlib_1_1Functions.html#a3fe3074071e48b4a9ef6f16b68fff203',1,'meshlib::Functions']]],
-  ['maketorus_65',['makeTorus',['../classmeshlib_1_1Functions.html#a95a40994fa9125b663a6d214a8666eb8',1,'meshlib::Functions']]],
+  ['maketorus_65',['makeTorus',['../classmeshlib_1_1Functions.html#aba43d5ab315fd6e57da78dd2e4c98635',1,'meshlib::Functions']]],
   ['maketoruswithcomponents_66',['makeTorusWithComponents',['../classmeshlib_1_1Functions.html#a9c21378a7ec1648d21cce421ea9e6559',1,'meshlib::Functions']]],
   ['maketoruswithselfintersections_67',['makeTorusWithSelfIntersections',['../classmeshlib_1_1Functions.html#a1f59de558ac3b9d04e8beb388f5d8db0',1,'meshlib::Functions']]],
   ['maketoruswithspikes_68',['makeTorusWithSpikes',['../classmeshlib_1_1Functions.html#a5857712e89555e7d4e56eb7c847a1a9f',1,'meshlib::Functions']]],

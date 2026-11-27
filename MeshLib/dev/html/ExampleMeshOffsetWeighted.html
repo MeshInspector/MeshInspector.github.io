@@ -151,7 +151,7 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga9da69906a8753c1bbec83769cf687367">MR::loadIOExtras</a>();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Create some mesh</span></div>
-<div class="line">    <span class="keyword">auto</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga638324ed49e28189a1c35cf398dc6a73">MR::makeTorus</a>();</div>
+<div class="line">    <span class="keyword">auto</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaed4ec2f46ef1b340aeb07c400c55357d">MR::makeTorus</a>();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Create VertScalars obj with weights for every vertex</span></div>
 <div class="line">    <span class="keyword">auto</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gac31feb99fa40a7a7fee0c9806f676b11">vertSize</a> = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.vertSize();</div>
@@ -194,11 +194,11 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="ttc" id="aMRWeightedPointsShell_8h_html"><div class="ttname"><a href="./Cpp/MRWeightedPointsShell_8h.html">MRWeightedPointsShell.h</a></div></div>
 <div class="ttc" id="agroup__BasicGroup_html_gaf184f372f735726148d7a07cbbbb29af"><div class="ttname"><a href="./Cpp/group__BasicGroup.html#gaf184f372f735726148d7a07cbbbb29af">MR::ParallelFor</a></div><div class="ttdeci">auto ParallelFor(I begin, I end, F &amp;&amp;f, Cb &amp;&amp;... cb)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga3fbe95187540b89c884e647eb8377e03"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga3fbe95187540b89c884e647eb8377e03">end</a></div><div class="ttdeci">Iterator end() const</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga638324ed49e28189a1c35cf398dc6a73"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga638324ed49e28189a1c35cf398dc6a73">MR::makeTorus</a></div><div class="ttdeci">Mesh makeTorus(float primaryRadius=1.0f, float secondaryRadius=0.1f, int primaryResolution=16, int secondaryResolution=16, std::vector&lt; Vector3f &gt; *points=nullptr)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga8134bd36bc30764272b23a2c614b0e84"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga8134bd36bc30764272b23a2c614b0e84">MR::suggestVoxelSize</a></div><div class="ttdeci">float suggestVoxelSize(const MeshPart &amp;mp, float approxNumVoxels)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga9da69906a8753c1bbec83769cf687367"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga9da69906a8753c1bbec83769cf687367">MR::loadIOExtras</a></div><div class="ttdeci">void loadIOExtras()</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gac31feb99fa40a7a7fee0c9806f676b11"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gac31feb99fa40a7a7fee0c9806f676b11">vertSize</a></div><div class="ttdeci">size_t vertSize() const</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gacd9980e9c53367fa384cfdf9704f5a35"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gacd9980e9c53367fa384cfdf9704f5a35">begin</a></div><div class="ttdeci">Iterator begin() const</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaed4ec2f46ef1b340aeb07c400c55357d"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaed4ec2f46ef1b340aeb07c400c55357d">MR::makeTorus</a></div><div class="ttdeci">Mesh makeTorus(float primaryRadius=1.0f, float secondaryRadius=0.1f, int primaryResolution=16, int secondaryResolution=16, std::vector&lt; Vector3f &gt; *points=nullptr, float profileAngle=0.0f)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga8c3547484d9f9d64e8d1d967225e190f"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="anamespaceMR_1_1WeightedShell_html_a0a1a97bb2e01d6e33cc69b5e0295543e"><div class="ttname"><a href="./Cpp/namespaceMR_1_1WeightedShell.html#a0a1a97bb2e01d6e33cc69b5e0295543e">MR::WeightedShell::meshShell</a></div><div class="ttdeci">Expected&lt; Mesh &gt; meshShell(const Mesh &amp;mesh, const ParametersMetric &amp;params)</div></div>
@@ -258,7 +258,7 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="line">{</div>
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line">    <span class="comment">// Create some mesh</span></div>
-<div class="line">    MR_Mesh* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = MR_makeTorus( NULL, NULL, NULL, NULL, NULL );</div>
+<div class="line">    MR_Mesh* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = MR_makeTorus( NULL, NULL, NULL, NULL, NULL, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Create VertScalars obj with weights for every vertex</span></div>
 <div class="line">    <span class="keywordtype">size_t</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gac31feb99fa40a7a7fee0c9806f676b11">vertSize</a> = MR_MeshTopology_vertSize( MR_Mesh_Get_topology( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> ) );</div>
@@ -384,7 +384,7 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
 <div class="line">{</div>
 <div class="line">    // Create some mesh</div>
-<div class="line">    let mesh = meshlib::make_torus(None, None, None, None, None);</div>
+<div class="line">    let mesh = meshlib::make_torus(None, None, None, None, None, None);</div>
 <div class="line"> </div>
 <div class="line">    // Create VertScalars obj with weights for every vertex</div>
 <div class="line">    let vert_size = mesh.topology().vert_size();</div>
@@ -424,7 +424,7 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
 <div class="line">    {</div>
 <div class="line">        <span class="comment">// Create some mesh</span></div>
-<div class="line">        Mesh <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = Functions.makeTorus(<span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>);</div>
+<div class="line">        Mesh <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = Functions.makeTorus(<span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>);</div>
 <div class="line"> </div>
 <div class="line">        <span class="comment">// Create VertScalars obj with weights for every vertex</span></div>
 <div class="line">        <span class="keywordtype">long</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gac31feb99fa40a7a7fee0c9806f676b11">vertSize</a> = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology().vertSize();</div>

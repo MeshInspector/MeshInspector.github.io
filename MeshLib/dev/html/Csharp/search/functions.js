@@ -1943,7 +1943,7 @@ var searchData=
   ['makesubdividedobjectmeshdata_58',['makeSubdividedObjectMeshData',['../classMR.html#a4b2f4af301e0923eac1d19abf22f287f',1,'MR']]],
   ['makesweeplinecache_59',['makeSweepLineCache',['../classMR_1_1PlanarTriangulation.html#aa48fb76901da62e249f43ddab18bcdf3',1,'MR::PlanarTriangulation']]],
   ['makethickmesh_60',['makeThickMesh',['../classMR.html#ae3405f3ef708f2bf57e66017b1896cf6',1,'MR']]],
-  ['maketorus_61',['makeTorus',['../classMR.html#a3cd9b3a36e2b440be5944272785745d4',1,'MR']]],
+  ['maketorus_61',['makeTorus',['../classMR.html#aeae4bf9dcb939378689ce81f9f631016',1,'MR']]],
   ['maketoruswithcomponents_62',['makeTorusWithComponents',['../classMR.html#ac45f6835b1617f892e0c699e5c6fe8cc',1,'MR']]],
   ['maketoruswithselfintersections_63',['makeTorusWithSelfIntersections',['../classMR.html#aa0e686492e754904c2a10678f93a1494',1,'MR']]],
   ['maketoruswithspikes_64',['makeTorusWithSpikes',['../classMR.html#ae23d2eb7e314670bb8205400dedb2756',1,'MR']]],

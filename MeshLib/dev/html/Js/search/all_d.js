@@ -89,7 +89,7 @@ var searchData=
   ['makesubdividedobjectmeshdata_86',['makeSubdividedObjectMeshData',['../__all_8d_8mts.html#a8b2701be2457f9f7054241c795834ab1',1,'_all.d.mts']]],
   ['makesweeplinecache_87',['makeSweepLineCache',['../namespacePlanarTriangulation.html#a6a3ee1952a2009a11c64dfc91f7ecbb9',1,'PlanarTriangulation']]],
   ['makethickmesh_88',['makeThickMesh',['../__all_8d_8mts.html#add0bba56fcff4f2b4b4f492b3951de09',1,'_all.d.mts']]],
-  ['maketorus_89',['makeTorus',['../__all_8d_8mts.html#a20c1aa53b312aac8a665df234403a4a1',1,'_all.d.mts']]],
+  ['maketorus_89',['makeTorus',['../__all_8d_8mts.html#a8396ec31573507983efed32399ae06d7',1,'_all.d.mts']]],
   ['maketoruswithcomponents_90',['makeTorusWithComponents',['../__all_8d_8mts.html#ac12d5bd730a4cadefadc67546afaa950',1,'_all.d.mts']]],
   ['maketoruswithselfintersections_91',['makeTorusWithSelfIntersections',['../__all_8d_8mts.html#a2e156d9eed15c0ed418b1233cdb3a6c5',1,'_all.d.mts']]],
   ['maketoruswithspikes_92',['makeTorusWithSpikes',['../__all_8d_8mts.html#ad6f767d681f1d5282b3c5b48b4ea4641',1,'_all.d.mts']]],

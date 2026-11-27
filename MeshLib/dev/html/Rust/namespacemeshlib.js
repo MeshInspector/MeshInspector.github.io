@@ -3227,7 +3227,7 @@ var namespacemeshlib =
     [ "make_spline_3_std_vector_mr_vector3f", "namespacemeshlib.html#a53521d93297df2ef1fa0d83fec73e6b2", null ],
     [ "make_subdivided_object_mesh_data", "namespacemeshlib.html#a8d74bfa8fef216f36c014d8397cb38b9", null ],
     [ "make_thick_mesh", "namespacemeshlib.html#aead53e8488443913b684fb3cee6748b2", null ],
-    [ "make_torus", "namespacemeshlib.html#a7494399a8e873463227dd07bcb5b2b7f", null ],
+    [ "make_torus", "namespacemeshlib.html#a3665999388221b3d124c0832aaa33085", null ],
     [ "make_torus_with_components", "namespacemeshlib.html#add35d09d3cce5623e121a6631dcf9e9e", null ],
     [ "make_torus_with_self_intersections", "namespacemeshlib.html#a8445572c3cff0f36b0bd31f6d2e44741", null ],
     [ "make_torus_with_spikes", "namespacemeshlib.html#a1ba76adcd5199f73fdf554c4bcfa8bd8", null ],

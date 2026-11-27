@@ -13915,7 +13915,7 @@ var searchData=
   ['mr_5fmakespline_5f3_5fstd_5fvector_5fmr_5fvector3f_13911',['MR_makeSpline_3_std_vector_MR_Vector3f',['../MRMarkedContour_8h.html#a30909015f692f1b1c81a08b866d8f0aa',1,'MRMarkedContour.h']]],
   ['mr_5fmakesubdividedobjectmeshdata_13912',['MR_makeSubdividedObjectMeshData',['../MRMeshSubdivide_8h.html#a845731bb02a1c8cd68589622d8b6ecd4',1,'MRMeshSubdivide.h']]],
   ['mr_5fmakethickmesh_13913',['MR_makeThickMesh',['../MROffsetVerts_8h.html#a17ec19d8ea4c71d7d676e78dce6292c8',1,'MROffsetVerts.h']]],
-  ['mr_5fmaketorus_13914',['MR_makeTorus',['../MRTorus_8h.html#ad75f7fc4482dfb1265495d664597e838',1,'MRTorus.h']]],
+  ['mr_5fmaketorus_13914',['MR_makeTorus',['../MRTorus_8h.html#a0140e10aaec590a620c811897db65c9d',1,'MRTorus.h']]],
   ['mr_5fmaketoruswithcomponents_13915',['MR_makeTorusWithComponents',['../MRTorus_8h.html#aedce57ebd8030966ed44e08c2903b25e',1,'MRTorus.h']]],
   ['mr_5fmaketoruswithselfintersections_13916',['MR_makeTorusWithSelfIntersections',['../MRTorus_8h.html#a092c27385de77ac4ed467f3b117450d2',1,'MRTorus.h']]],
   ['mr_5fmaketoruswithspikes_13917',['MR_makeTorusWithSpikes',['../MRTorus_8h.html#aa7d6f497d1907ead04427707bed888a1',1,'MRTorus.h']]],
