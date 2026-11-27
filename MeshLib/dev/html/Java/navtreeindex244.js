@@ -1,5 +1,6 @@
 var NAVTREEINDEX244 =
 {
+"classmeshlib_1_1std__vector__MR__CNCMachineSettings__RotationAxisName.html#acd60d67f096752f1bbb84e25607b840e":[9,6,0,0,0,1346,13],
 "classmeshlib_1_1std__vector__MR__CNCMachineSettings__RotationAxisName.html#acd60d67f096752f1bbb84e25607b840e":[9,6,1,0,0,1346,13],
 "classmeshlib_1_1std__vector__MR__CNCMachineSettings__RotationAxisName.html#afc4a653e5fe663652f076187e567f233":[9,6,0,0,0,1346,12],
 "classmeshlib_1_1std__vector__MR__CNCMachineSettings__RotationAxisName.html#afc4a653e5fe663652f076187e567f233":[9,6,1,0,0,1346,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX244 =
 "classmeshlib_1_1std__vector__MR__DistanceMap.html#acf7996088b74a8f8e5465c54c9436a50":[9,6,0,0,0,1351,3],
 "classmeshlib_1_1std__vector__MR__DistanceMap.html#acf7996088b74a8f8e5465c54c9436a50":[9,6,1,0,0,1351,3],
 "classmeshlib_1_1std__vector__MR__DistanceMap.html#adb2a4f5aae841508440fc73a96cbe94c":[9,6,0,0,0,1351,15],
-"classmeshlib_1_1std__vector__MR__DistanceMap.html#adb2a4f5aae841508440fc73a96cbe94c":[9,6,1,0,0,1351,15],
-"classmeshlib_1_1std__vector__MR__DistanceMap.html#ae514e7db2f3ab1ee0022fb6fd906315a":[9,6,0,0,0,1351,16]
+"classmeshlib_1_1std__vector__MR__DistanceMap.html#adb2a4f5aae841508440fc73a96cbe94c":[9,6,1,0,0,1351,15]
 };

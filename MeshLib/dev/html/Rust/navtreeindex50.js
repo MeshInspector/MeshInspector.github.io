@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"structmeshlib_1_1DistanceVolumeParams.html#a316f4fc56431adecde4c77f14460a25c":[9,5,1,0,0,276,6],
 "structmeshlib_1_1DistanceVolumeParams.html#a6680c40126da073bc3c6c7a431c08e4d":[9,5,0,0,0,289,2],
 "structmeshlib_1_1DistanceVolumeParams.html#a6680c40126da073bc3c6c7a431c08e4d":[9,5,1,0,0,276,2],
 "structmeshlib_1_1DistanceVolumeParams.html#a9357393d132341f6c6df4dd784e3c063":[9,5,0,0,0,289,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "structmeshlib_1_1DracoSaveOptions.html#ab413fa989e6ba47e8f97bd7f46ea31cc":[9,5,1,0,0,281,0],
 "structmeshlib_1_1DracoSaveOptions.html#ab9a623619440c37921c568f8e33f9245":[9,5,0,0,0,294,9],
 "structmeshlib_1_1DracoSaveOptions.html#ab9a623619440c37921c568f8e33f9245":[9,5,1,0,0,281,9],
-"structmeshlib_1_1DracoSaveOptions.html#abc41f0108b4edf8a24bdbe723ce5a48f":[9,5,0,0,0,294,48],
-"structmeshlib_1_1DracoSaveOptions.html#abc41f0108b4edf8a24bdbe723ce5a48f":[9,5,1,0,0,281,48]
+"structmeshlib_1_1DracoSaveOptions.html#abc41f0108b4edf8a24bdbe723ce5a48f":[9,5,0,0,0,294,48]
 };

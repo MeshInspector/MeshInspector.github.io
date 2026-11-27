@@ -1,5 +1,6 @@
 var NAVTREEINDEX158 =
 {
+"classMR_1_1VertSetBitIterator.html#a786355d8a9820468f96e4eabc3dbf741":[9,3,0,0,0,1969,4],
 "classMR_1_1VertSetBitIterator.html#a93fe6d3fb2a8e5de5d1b3615a0262493":[9,3,0,0,0,1969,1],
 "classMR_1_1VertSetBitIterator.html#abb4e6f9ea63a0592b849d8159a2e0627":[9,3,0,0,0,1969,0],
 "classMR_1_1ViewportIterator.html":[9,3,0,0,0,1971],
@@ -248,6 +249,5 @@ var NAVTREEINDEX158 =
 "classMR_1_1VoxelMetricParameters.html#aaf7981485a2688b63b0e34b345637060":[9,3,0,0,0,1987,5],
 "classMR_1_1VoxelMetricParameters.html#ac5d6f12e9fef00f04b63dd55daab1187":[9,3,0,0,0,1987,2],
 "classMR_1_1VoxelMetricParameters.html#afb66cb572adba934723dec3add59a4d9":[9,3,0,0,0,1987,0],
-"classMR_1_1VoxelScalars.html":[9,3,0,0,0,1988],
-"classMR_1_1VoxelScalars.html#a01a7658530ec5b5669194708823b0406":[9,3,0,0,0,1988,3]
+"classMR_1_1VoxelScalars.html":[9,3,0,0,0,1988]
 };

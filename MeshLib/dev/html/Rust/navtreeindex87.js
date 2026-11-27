@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"structmeshlib_1_1MultiwayAligningTransform.html":[9,5,1,0,0,651],
 "structmeshlib_1_1MultiwayAligningTransform.html#a249f75735e918c3f6faa3e2732643c10":[9,5,0,0,0,664,2],
 "structmeshlib_1_1MultiwayAligningTransform.html#a249f75735e918c3f6faa3e2732643c10":[9,5,1,0,0,651,2],
 "structmeshlib_1_1MultiwayAligningTransform.html#a5506e6837506beb7685b4b32c3ce9447":[9,5,0,0,0,664,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "structmeshlib_1_1NoDefInit__MR__EdgeId.html#a88f94432e83a061dea5ea823b5b0ddc5":[9,5,1,0,0,681,5],
 "structmeshlib_1_1NoDefInit__MR__EdgeId.html#a8a418b5bba95b9dcbd26aadcef7ba911":[9,5,0,0,0,694,18],
 "structmeshlib_1_1NoDefInit__MR__EdgeId.html#a8a418b5bba95b9dcbd26aadcef7ba911":[9,5,1,0,0,681,18],
-"structmeshlib_1_1NoDefInit__MR__EdgeId.html#ab35f1f2e07c98859ff1a580c34656742":[9,5,0,0,0,694,13],
-"structmeshlib_1_1NoDefInit__MR__EdgeId.html#ab35f1f2e07c98859ff1a580c34656742":[9,5,1,0,0,681,13]
+"structmeshlib_1_1NoDefInit__MR__EdgeId.html#ab35f1f2e07c98859ff1a580c34656742":[9,5,0,0,0,694,13]
 };

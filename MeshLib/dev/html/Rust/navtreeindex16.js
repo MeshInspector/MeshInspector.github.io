@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"namespacemeshlib_1_1voxels__load.html#a2f454618331789ce1deeb1b33ea15280":[9,5,0,0,0,34,23],
 "namespacemeshlib_1_1voxels__load.html#a371d82d976e9a9e8094a86c0c166b29a":[9,5,0,0,0,34,13],
 "namespacemeshlib_1_1voxels__load.html#a43435939ba6fcc2f6e2477909ea1cf96":[9,5,0,0,0,34,19],
 "namespacemeshlib_1_1voxels__load.html#a4bf24ef61b812052db531eaf88d1b020":[9,5,0,0,0,34,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8rs.html":[9,5,2,0,0,1,3,301],
 "std__pair__MR__UndirectedEdgeId__bool_8rs.html":[9,5,2,0,0,1,3,302],
 "std__pair__MR__Vector3d__MR__TriPointd_8rs.html":[9,5,2,0,0,1,3,303],
-"std__pair__MR__Vector3d__MR__Vector3d_8rs.html":[9,5,2,0,0,1,3,304],
-"std__pair__MR__Vector3f__MR__TriPointf_8rs.html":[9,5,2,0,0,1,3,305]
+"std__pair__MR__Vector3d__MR__Vector3d_8rs.html":[9,5,2,0,0,1,3,304]
 };

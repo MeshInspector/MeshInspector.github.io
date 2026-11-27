@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"classMR_1_1RibbonMenuSearch.html":[9,0,0,19,724],
 "classMR_1_1RibbonNotifier.html":[9,0,0,19,729],
 "classMR_1_1RibbonSceneHideAll.html":[9,0,0,19,75],
 "classMR_1_1RibbonSceneObjectsListDrawer.html":[9,0,0,19,732],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "classMR_1_1UI_1_1LineAntialiasingDisabler.html":[9,0,0,19,814],
 "classMR_1_1UI_1_1NonOverlappingLabelTask.html":[9,0,1,0,1,54,11],
 "classMR_1_1UI_1_1NonOverlappingLabelTask.html":[9,0,2,0,1,35,9],
-"classMR_1_1UI_1_1NonOverlappingLabelTask.html#a164e1c8a5a97cca9b58502d77f780996":[9,0,1,0,1,54,11,4],
-"classMR_1_1UI_1_1NonOverlappingLabelTask.html#a164e1c8a5a97cca9b58502d77f780996":[9,0,2,0,1,35,9,4]
+"classMR_1_1UI_1_1NonOverlappingLabelTask.html#a164e1c8a5a97cca9b58502d77f780996":[9,0,1,0,1,54,11,4]
 };

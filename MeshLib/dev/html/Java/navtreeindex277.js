@@ -1,5 +1,6 @@
 var NAVTREEINDEX277 =
 {
+"classmeshlib_1_1std__vector__std__vector__MR__EdgePoint.html#adb011b55c8aba17689dbc6aff40c0543":[9,6,0,0,0,1503,17],
 "classmeshlib_1_1std__vector__std__vector__MR__EdgePoint.html#adb011b55c8aba17689dbc6aff40c0543":[9,6,1,0,0,1503,17],
 "classmeshlib_1_1std__vector__std__vector__MR__EdgePoint.html#ae0d7ec4045b8d9d5b317583b258642ce":[9,6,0,0,0,1503,9],
 "classmeshlib_1_1std__vector__std__vector__MR__EdgePoint.html#ae0d7ec4045b8d9d5b317583b258642ce":[9,6,1,0,0,1503,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX277 =
 "classmeshlib_1_1std__vector__std__vector__MR__Vector2d.html":[9,6,0,0,0,1509],
 "classmeshlib_1_1std__vector__std__vector__MR__Vector2d.html":[9,6,1,0,0,1509],
 "classmeshlib_1_1std__vector__std__vector__MR__Vector2d.html#a1a9b01e3f6f5ea9c6fab5b280d088811":[9,6,0,0,0,1509,1],
-"classmeshlib_1_1std__vector__std__vector__MR__Vector2d.html#a1a9b01e3f6f5ea9c6fab5b280d088811":[9,6,1,0,0,1509,1],
-"classmeshlib_1_1std__vector__std__vector__MR__Vector2d.html#a33e765286f0ce1db104a15f069ec4f5b":[9,6,0,0,0,1509,17]
+"classmeshlib_1_1std__vector__std__vector__MR__Vector2d.html#a1a9b01e3f6f5ea9c6fab5b280d088811":[9,6,1,0,0,1509,1]
 };

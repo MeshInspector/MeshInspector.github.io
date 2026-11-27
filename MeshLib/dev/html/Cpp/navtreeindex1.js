@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"MRClosestWeightedPoint_8h.html":[9,0,3,0,7,62],
 "MRClosestWeightedPoint_8h_source.html":[9,0,3,0,7,62],
 "MRCloudPartMapping_8h.html":[9,0,3,0,7,64],
 "MRCloudPartMapping_8h_source.html":[9,0,3,0,7,64],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "MRFrameRedrawRequest_8h.html":[9,0,3,0,11,30],
 "MRFrameRedrawRequest_8h_source.html":[9,0,3,0,11,30],
 "MRFreeFormDeformer_8h.html":[9,0,3,0,7,138],
-"MRFreeFormDeformer_8h_source.html":[9,0,3,0,7,138],
-"MRFunctional_8h.html":[9,0,3,0,7,139]
+"MRFreeFormDeformer_8h_source.html":[9,0,3,0,7,138]
 };

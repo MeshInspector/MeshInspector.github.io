@@ -1,5 +1,6 @@
 var NAVTREEINDEX132 =
 {
+"classmeshlib_1_1SortIntersectionsData.html":[9,6,0,0,0,973],
 "classmeshlib_1_1SortIntersectionsData.html":[9,6,1,0,0,973],
 "classmeshlib_1_1SortIntersectionsData.html#a11327c09b061ff03c606a50c09b700c4":[9,6,0,0,0,973,11],
 "classmeshlib_1_1SortIntersectionsData.html#a11327c09b061ff03c606a50c09b700c4":[9,6,1,0,0,973,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX132 =
 "classmeshlib_1_1SphereObject.html#a3ba2db7cec72c56a785be9fc1e9b0aa8":[9,6,0,0,0,979,94],
 "classmeshlib_1_1SphereObject.html#a3ba2db7cec72c56a785be9fc1e9b0aa8":[9,6,1,0,0,979,94],
 "classmeshlib_1_1SphereObject.html#a3eea9ec786f30d53032a3a7839e2557e":[9,6,0,0,0,979,67],
-"classmeshlib_1_1SphereObject.html#a3eea9ec786f30d53032a3a7839e2557e":[9,6,1,0,0,979,67],
-"classmeshlib_1_1SphereObject.html#a4260bc65293326bf980249a71f9ab020":[9,6,0,0,0,979,96]
+"classmeshlib_1_1SphereObject.html#a3eea9ec786f30d53032a3a7839e2557e":[9,6,1,0,0,979,67]
 };

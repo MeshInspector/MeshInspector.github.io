@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"structmeshlib_1_1EdgeSegment.html#af5b5ad7cb4e122541c51ab57b18aa2f2":[9,5,1,0,0,298,2],
 "structmeshlib_1_1EdgeSegmentd.html":[9,5,0,0,0,312],
 "structmeshlib_1_1EdgeSegmentd.html":[9,5,1,0,0,299],
 "structmeshlib_1_1EdgeSegmentd.html#a042ee512d4214908d089496d1b21fc00":[9,5,0,0,0,312,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "structmeshlib_1_1Face2RegionMap.html#a23deba04f458d04bc4fbf770715f1f36":[9,5,1,0,0,391,3],
 "structmeshlib_1_1Face2RegionMap.html#a3537134bb8069823fdb9348e26107272":[9,5,0,0,0,404,30],
 "structmeshlib_1_1Face2RegionMap.html#a3537134bb8069823fdb9348e26107272":[9,5,1,0,0,391,30],
-"structmeshlib_1_1Face2RegionMap.html#a43e64cbb0472d1c1cc3017de180acdf0":[9,5,0,0,0,404,20],
-"structmeshlib_1_1Face2RegionMap.html#a43e64cbb0472d1c1cc3017de180acdf0":[9,5,1,0,0,391,20]
+"structmeshlib_1_1Face2RegionMap.html#a43e64cbb0472d1c1cc3017de180acdf0":[9,5,0,0,0,404,20]
 };

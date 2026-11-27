@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"structmeshlib_1_1DepthFunction.html":[9,5,1,0,0,259],
 "structmeshlib_1_1DetectTunnelSettings.html":[9,5,0,0,0,273],
 "structmeshlib_1_1DetectTunnelSettings.html":[9,5,1,0,0,260],
 "structmeshlib_1_1DetectTunnelSettings.html#a00b5b129e67de824789d76a90fb20ddd":[9,5,0,0,0,273,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "structmeshlib_1_1DistanceFromWeightedPointsParams.html#a3300bee2247473048fc9921e61ddc820":[9,5,1,0,0,268,4],
 "structmeshlib_1_1DistanceFromWeightedPointsParams.html#a35e0c31bc4d5140883264e86b86c8436":[9,5,0,0,0,281,12],
 "structmeshlib_1_1DistanceFromWeightedPointsParams.html#a35e0c31bc4d5140883264e86b86c8436":[9,5,1,0,0,268,12],
-"structmeshlib_1_1DistanceFromWeightedPointsParams.html#a5498bb4e6f24dc0ce810b5cdf583c66e":[9,5,0,0,0,281,14],
-"structmeshlib_1_1DistanceFromWeightedPointsParams.html#a5498bb4e6f24dc0ce810b5cdf583c66e":[9,5,1,0,0,268,14]
+"structmeshlib_1_1DistanceFromWeightedPointsParams.html#a5498bb4e6f24dc0ce810b5cdf583c66e":[9,5,0,0,0,281,14]
 };

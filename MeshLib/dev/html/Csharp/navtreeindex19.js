@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1Buffer__MREdgeId__MREdgeId.html#a5d41dc2f4588db87f89804bd804694e3":[9,3,0,0,0,152,1],
 "classMR_1_1Buffer__MREdgeId__MREdgeId.html#a684e2ddf7bf61adcde774f6907593ddd":[9,3,0,0,0,152,4],
 "classMR_1_1Buffer__MREdgeId__MREdgeId.html#aaa25d279ed251b934092e607c8595315":[9,3,0,0,0,152,5],
 "classMR_1_1Buffer__MREdgeId__MREdgeId.html#ae02a292347c50d08db4ec9fe2ad0ac48":[9,3,0,0,0,152,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1ChangeDualMarchingCubesAction.html#a34e811eb37b658a0a8b956a5f9281b66":[9,3,0,0,0,175,4],
 "classMR_1_1ChangeDualMarchingCubesAction.html#a630f9ea7c6b5f5f5fd9a89460594cb10":[9,3,0,0,0,175,1],
 "classMR_1_1ChangeDualMarchingCubesAction.html#a9102b0632faab78ca5303b8f2e191b70":[9,3,0,0,0,175,7],
-"classMR_1_1ChangeDualMarchingCubesAction.html#ab375dcfa8f7bdde60122b387ab336ec4":[9,3,0,0,0,175,6],
-"classMR_1_1ChangeDualMarchingCubesAction.html#aba246c956e4a86c2125b1617ba03ca39":[9,3,0,0,0,175,0]
+"classMR_1_1ChangeDualMarchingCubesAction.html#ab375dcfa8f7bdde60122b387ab336ec4":[9,3,0,0,0,175,6]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"classPointMeasurementObject.html#ab8ed4f87a14afcbbce6e5bac7e13760c":[9,4,1,0,712,113],
 "classPointMeasurementObject.html#abb20bac8f5e1581407afd25d940e6bdc":[9,4,1,0,712,82],
 "classPointMeasurementObject.html#ac34d51093d56ab4810e57a363a0ee09a":[9,4,1,0,712,123],
 "classPointMeasurementObject.html#ac8e88d4b64cd4bc1070eb3712e8ba0aa":[9,4,1,0,712,44],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "classPointToPointAligningTransform.html#ab34bacaf13390faba7769029d51623a5":[9,4,1,0,726,3],
 "classPointToPointAligningTransform.html#ab50d2dceb423f9630d51bebbaae108b2":[9,4,1,0,726,5],
 "classPointToPointAligningTransform.html#ab67effc07481ac8ed4395cbcf760d3d6":[9,4,1,0,726,13],
-"classPointToPointAligningTransform.html#ac4cf58a8cd09e9c9667b82d8aa5b98a7":[9,4,1,0,726,1],
-"classPointToPointAligningTransform.html#acae2fd32f65f45676cb929a1f9aebe01":[9,4,1,0,726,4]
+"classPointToPointAligningTransform.html#ac4cf58a8cd09e9c9667b82d8aa5b98a7":[9,4,1,0,726,1]
 };

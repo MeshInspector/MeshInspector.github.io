@@ -1,5 +1,6 @@
 var NAVTREEINDEX116 =
 {
+"structmeshlib_1_1PointsToDistanceVolumeParams.html#a675ff25b7d9eb863f6a4bf24affafd25":[9,5,1,0,0,812,1],
 "structmeshlib_1_1PointsToDistanceVolumeParams.html#a677763c2df59ebc1c5aa5139517999d9":[9,5,0,0,0,825,21],
 "structmeshlib_1_1PointsToDistanceVolumeParams.html#a677763c2df59ebc1c5aa5139517999d9":[9,5,1,0,0,812,21],
 "structmeshlib_1_1PointsToDistanceVolumeParams.html#a6b534b15ed9a7e5fdc643d103db5b6f2":[9,5,0,0,0,825,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX116 =
 "structmeshlib_1_1Polyline3.html#a5864cd6a7229f3b9e3fdb6eab6089dfd":[9,5,1,0,0,820,12],
 "structmeshlib_1_1Polyline3.html#a60405bedd6a73bb669a26058dcd8e6c4":[9,5,0,0,0,833,14],
 "structmeshlib_1_1Polyline3.html#a60405bedd6a73bb669a26058dcd8e6c4":[9,5,1,0,0,820,14],
-"structmeshlib_1_1Polyline3.html#a65789532708ab9dc42740ba85426d31b":[9,5,0,0,0,833,6],
-"structmeshlib_1_1Polyline3.html#a65789532708ab9dc42740ba85426d31b":[9,5,1,0,0,820,6]
+"structmeshlib_1_1Polyline3.html#a65789532708ab9dc42740ba85426d31b":[9,5,0,0,0,833,6]
 };

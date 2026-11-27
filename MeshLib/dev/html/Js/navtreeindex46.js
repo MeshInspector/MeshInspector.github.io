@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"classMeshBuilder_1_1VertInfo.html#a4967553923863cf926edcc7ea8f8da29":[9,4,0,0,15,7,12],
 "classMeshBuilder_1_1VertInfo.html#a4967553923863cf926edcc7ea8f8da29":[9,4,1,0,3,7,12],
 "classMeshBuilder_1_1VertInfo.html#a6c3ef85b0b674a4bb3328be232bf0f92":[9,4,0,0,15,7,0],
 "classMeshBuilder_1_1VertInfo.html#a6c3ef85b0b674a4bb3328be232bf0f92":[9,4,1,0,3,7,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "classMeshMeshDistanceResult.html#a8b13053c9d53dc47fab47c8f6b5e84a8":[9,4,1,0,554,0],
 "classMeshMeshDistanceResult.html#a958b2ba437949ed0f3d0caad5b415c0c":[9,4,1,0,554,1],
 "classMeshMeshDistanceResult.html#ab3b45ed469e4a8904056ce336614cb35":[9,4,1,0,554,4],
-"classMeshMeshDistanceResult.html#abbed007e8732e839c4abd22ac0ef8e58":[9,4,1,0,554,2],
-"classMeshMeshSignedDistanceResult.html":[9,4,1,0,555]
+"classMeshMeshDistanceResult.html#abbed007e8732e839c4abd22ac0ef8e58":[9,4,1,0,554,2]
 };

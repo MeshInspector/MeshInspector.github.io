@@ -1,5 +1,6 @@
 var NAVTREEINDEX132 =
 {
+"structmeshlib_1_1SphereObject.html#affd9d69d324d28142f7e310ef11f53ff":[9,5,0,0,0,968,135],
 "structmeshlib_1_1SphereObject.html#affd9d69d324d28142f7e310ef11f53ff":[9,5,1,0,0,955,135],
 "structmeshlib_1_1SphereObject.html#affe528e291586de26badee8ac2c2ed19":[9,5,0,0,0,968,128],
 "structmeshlib_1_1SphereObject.html#affe528e291586de26badee8ac2c2ed19":[9,5,1,0,0,955,128],
@@ -248,6 +249,5 @@ var NAVTREEINDEX132 =
 "structmeshlib_1_1SubdivideSettings.html#af3f4b2663257f3a833c52445e61d6d4a":[9,5,0,0,0,1508,36],
 "structmeshlib_1_1SubdivideSettings.html#af3f4b2663257f3a833c52445e61d6d4a":[9,5,1,0,0,1495,36],
 "structmeshlib_1_1SubdivideSettings.html#af94e0e5ad62909eda3c007923d86bbfe":[9,5,0,0,0,1508,5],
-"structmeshlib_1_1SubdivideSettings.html#af94e0e5ad62909eda3c007923d86bbfe":[9,5,1,0,0,1495,5],
-"structmeshlib_1_1SurfaceDistanceBuilder.html":[9,5,0,0,0,1509]
+"structmeshlib_1_1SubdivideSettings.html#af94e0e5ad62909eda3c007923d86bbfe":[9,5,1,0,0,1495,5]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX115 =
 {
+"classstd__pair__const__MR__GraphEdgeId__MR__GraphEdgeId.html#ad8bc1fb4387a3ba4b5aa4de58e5b2603":[9,4,1,0,1012,2],
 "classstd__pair__const__MR__GraphEdgeId__MR__GraphEdgeId.html#ade8df141abc10c3b73f18344ac541ca7":[9,4,1,0,1012,3],
 "classstd__pair__const__MR__GraphVertId__MR__GraphVertId.html":[9,4,1,0,1013],
 "classstd__pair__const__MR__GraphVertId__MR__GraphVertId.html#a1d224247fdca4bf8c65ef41c18cdc29f":[9,4,1,0,1013,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX115 =
 "classstd__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizeProper668f39795a2d30725df52f1da960e10b.html#aea434e5f8771342694738a187706c22e":[9,4,1,0,1068,0],
 "classstd__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizeProper668f39795a2d30725df52f1da960e10b.html#aec8b6ba9a881e3df26730bae7c0c745d":[9,4,1,0,1068,1],
 "classstd__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizeProper668f39795a2d30725df52f1da960e10b.html#afa11183088ee0119feacf35c2670e525":[9,4,1,0,1068,9],
-"classstd__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizeProperf0ac97d962fe15e5db9fff8acf07355d.html":[9,4,1,0,1067],
-"classstd__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizeProperf0ac97d962fe15e5db9fff8acf07355d.html#a16ad1e466a14751b69f36ccd69247a1a":[9,4,1,0,1067,1]
+"classstd__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizeProperf0ac97d962fe15e5db9fff8acf07355d.html":[9,4,1,0,1067]
 };

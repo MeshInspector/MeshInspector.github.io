@@ -1,5 +1,6 @@
 var NAVTREEINDEX197 =
 {
+"structmeshlib_1_1points__load_1_1MultiScanLoadSettings.html#a2963b711ae5bb8dbc0d07b5058222a83":[9,5,0,0,0,25,1,4],
 "structmeshlib_1_1points__load_1_1MultiScanLoadSettings.html#a2963b711ae5bb8dbc0d07b5058222a83":[9,5,1,0,0,13,1,4],
 "structmeshlib_1_1points__load_1_1MultiScanLoadSettings.html#a2a35a0a2d5f7420c0f6dd59b8ed143e1":[9,5,0,0,0,25,1,8],
 "structmeshlib_1_1points__load_1_1MultiScanLoadSettings.html#a2a35a0a2d5f7420c0f6dd59b8ed143e1":[9,5,1,0,0,13,1,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX197 =
 "structmeshlib_1_1scene__save_1_1Settings.html#a7dce48aff8cd135930b7e0355368cbe3":[9,5,0,0,0,31,0,0],
 "structmeshlib_1_1scene__save_1_1Settings.html#a7dce48aff8cd135930b7e0355368cbe3":[9,5,1,0,0,18,0,0],
 "structmeshlib_1_1scene__save_1_1Settings.html#aa3e14643eeabbb8632a5aed5e0258e18":[9,5,0,0,0,31,0,6],
-"structmeshlib_1_1scene__save_1_1Settings.html#aa3e14643eeabbb8632a5aed5e0258e18":[9,5,1,0,0,18,0,6],
-"structmeshlib_1_1scene__save_1_1Settings.html#ac3e0df7c5a071cb0be4a5ebe116b2187":[9,5,0,0,0,31,0,1]
+"structmeshlib_1_1scene__save_1_1Settings.html#aa3e14643eeabbb8632a5aed5e0258e18":[9,5,1,0,0,18,0,6]
 };

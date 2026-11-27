@@ -100,6 +100,7 @@ var NAVTREE =
       [ "How to use С++ Example Plugin", "ExamplePluginOverview.html", null ],
       [ "State Plugins Overview", "StatePluginsHelp.html", null ],
       [ "How to Add Plugin", "HowtoAddPluginOverview.html", null ],
+      [ "How to Connect a 3D Scanner", "ScannerBackendGuide.html", null ],
       [ "Internationalization Guide", "I18nGuide.html", null ]
     ] ],
     [ "API", "APIPage.html", [

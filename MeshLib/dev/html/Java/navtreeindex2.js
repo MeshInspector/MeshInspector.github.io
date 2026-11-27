@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"IComputePointsToDistanceVolume_8java.html":[9,6,2,0,0,1,0,0,497],
 "IComputeToolDistance_8java.html":[9,6,2,0,0,1,0,0,499],
 "IFastWindingNumberByParts_8java.html":[9,6,2,0,0,1,0,0,511],
 "IFastWindingNumber_8java.html":[9,6,2,0,0,1,0,0,510],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "ObjKindTraits__MR__FeaturesObjectKind__Cylinder_8java.html":[9,6,2,0,0,1,0,0,756],
 "ObjKindTraits__MR__FeaturesObjectKind__Line_8java.html":[9,6,2,0,0,1,0,0,757],
 "ObjKindTraits__MR__FeaturesObjectKind__Plane_8java.html":[9,6,2,0,0,1,0,0,758],
-"ObjKindTraits__MR__FeaturesObjectKind__Point_8java.html":[9,6,2,0,0,1,0,0,759],
-"ObjKindTraits__MR__FeaturesObjectKind__Sphere_8java.html":[9,6,2,0,0,1,0,0,760]
+"ObjKindTraits__MR__FeaturesObjectKind__Point_8java.html":[9,6,2,0,0,1,0,0,759]
 };

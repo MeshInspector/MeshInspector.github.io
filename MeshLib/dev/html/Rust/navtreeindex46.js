@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"structmeshlib_1_1DecimateSettings.html#ac0c242a846828ecdb6bd96f39b309eb3":[9,5,1,0,0,251,11],
 "structmeshlib_1_1DecimateSettings.html#ac1770fb2690f367a15d0b7eb27d385c0":[9,5,0,0,0,264,28],
 "structmeshlib_1_1DecimateSettings.html#ac1770fb2690f367a15d0b7eb27d385c0":[9,5,1,0,0,251,28],
 "structmeshlib_1_1DecimateSettings.html#ac41d0833212a1875b71eefba9355ad93":[9,5,0,0,0,264,62],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "structmeshlib_1_1DentalId.html#ab7ddba304c36e56fdc40aca186ebb568":[9,5,1,0,0,258,0],
 "structmeshlib_1_1DentalId.html#addf73704535f8f9b78ff61573f5fb8dd":[9,5,0,0,0,271,5],
 "structmeshlib_1_1DentalId.html#addf73704535f8f9b78ff61573f5fb8dd":[9,5,1,0,0,258,5],
-"structmeshlib_1_1DepthFunction.html":[9,5,0,0,0,272],
-"structmeshlib_1_1DepthFunction.html":[9,5,1,0,0,259]
+"structmeshlib_1_1DepthFunction.html":[9,5,0,0,0,272]
 };

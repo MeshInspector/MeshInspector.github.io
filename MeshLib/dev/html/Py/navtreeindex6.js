@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"classmrmeshpy_1_1BooleanParameters.html#a1451aaf12a81cdad4bbb362f9195a17f":[9,1,1,0,1,71,13],
 "classmrmeshpy_1_1BooleanParameters.html#a252efea7855c2cb6f78f3178c4ff7126":[9,1,0,0,2,71,3],
 "classmrmeshpy_1_1BooleanParameters.html#a252efea7855c2cb6f78f3178c4ff7126":[9,1,1,0,1,71,3],
 "classmrmeshpy_1_1BooleanParameters.html#a389a3e051bec0c6ec89b266112e1b49a":[9,1,0,0,2,71,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "classmrmeshpy_1_1Box1i.html#a5003bd5185230c16be8497f10357943f":[9,1,1,0,1,78,5],
 "classmrmeshpy_1_1Box1i.html#a5d369a473bbb2e39f4322d6e9e076f71":[9,1,0,0,2,78,6],
 "classmrmeshpy_1_1Box1i.html#a5d369a473bbb2e39f4322d6e9e076f71":[9,1,1,0,1,78,6],
-"classmrmeshpy_1_1Box1i.html#a85bcf86e6e698b9ab79a1dfc4328e8dd":[9,1,0,0,2,78,0],
-"classmrmeshpy_1_1Box1i.html#a85bcf86e6e698b9ab79a1dfc4328e8dd":[9,1,1,0,1,78,0]
+"classmrmeshpy_1_1Box1i.html#a85bcf86e6e698b9ab79a1dfc4328e8dd":[9,1,0,0,2,78,0]
 };

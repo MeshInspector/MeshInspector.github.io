@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"namespacemeshlib.html#a57872da944a4897bebb71ff8b82ae919":[9,5,0,0,0,3099],
 "namespacemeshlib.html#a5788a87670c328f6962a9d8365925716":[9,5,0,0,0,3080],
 "namespacemeshlib.html#a57911c750b74cb37c5fecf667fa4d776":[9,5,0,0,0,4183],
 "namespacemeshlib.html#a57a3c3241da95d78e4d9f88f9c79abd0":[9,5,0,0,0,3493],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "namespacemeshlib.html#a6dc02a1e06288ac42c65e259ec4a63d4":[9,5,0,0,0,4318],
 "namespacemeshlib.html#a6de6ebde748d121273af2400470fc44b":[9,5,0,0,0,4077],
 "namespacemeshlib.html#a6e053402bf3de2ffd3fbc0dfecabba07":[9,5,0,0,0,3042],
-"namespacemeshlib.html#a6e0b827bbc0dd0fad8358321cb0b158a":[9,5,0,0,0,4369],
-"namespacemeshlib.html#a6e33462cc71b95e4cbd4c74c50472b32":[9,5,0,0,0,2334]
+"namespacemeshlib.html#a6e0b827bbc0dd0fad8358321cb0b158a":[9,5,0,0,0,4369]
 };

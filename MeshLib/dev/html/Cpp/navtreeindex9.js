@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"classMR_1_1FormatRegistry.html":[9,0,2,0,1,299],
 "classMR_1_1FrameCounter.html":[9,0,0,19,633],
 "classMR_1_1FrameRedrawRequest.html":[9,0,0,19,634],
 "classMR_1_1FramebufferData.html":[9,0,0,19,696],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "classMR_1_1MoveObjectByMouseImpl.html":[9,0,0,19,656],
 "classMR_1_1MultiwayAligningTransform.html":[9,0,0,0,8,0],
 "classMR_1_1MultiwayAligningTransform.html#a143920da717c5e1c0e592184293e62ce":[9,0,0,0,8,0,6],
-"classMR_1_1MultiwayAligningTransform.html#a18d82c619c188edfbe08da3191876261":[9,0,0,0,8,0,1],
-"classMR_1_1MultiwayAligningTransform.html#a1efd4fe910e9f4f9f64b14d2fd1929d4":[9,0,0,0,8,0,8]
+"classMR_1_1MultiwayAligningTransform.html#a18d82c619c188edfbe08da3191876261":[9,0,0,0,8,0,1]
 };

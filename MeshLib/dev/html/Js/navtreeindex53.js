@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"classObjBitSet.html#aa166e705ef8faac0283ff506064d5aa8":[9,4,1,0,643,47],
 "classObjBitSet.html#aa74088b909e7fc93c7adf374ba2d06cb":[9,4,1,0,643,53],
 "classObjBitSet.html#aa9abdb62d3cd32cabf372cdb0790991c":[9,4,1,0,643,50],
 "classObjBitSet.html#aab6ec344c52ae7ac888e2fc4a46646f3":[9,4,1,0,643,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX53 =
 "classObjectComparableWithReference__ComparisonTolerance.html#a21d7f96c3d63c81973a6d3a5ff4edfed":[9,4,1,0,649,2],
 "classObjectComparableWithReference__ComparisonTolerance.html#a2324257f24b3409ab173c66d7ff7340a":[9,4,1,0,649,4],
 "classObjectComparableWithReference__ComparisonTolerance.html#a691d80736651426dbd1b006ba58d7de6":[9,4,1,0,649,0],
-"classObjectComparableWithReference__ComparisonTolerance.html#a7fb9fc5bc57743fe0a53ffc2670fce2b":[9,4,1,0,649,3],
-"classObjectComparableWithReference__ComparisonTolerance.html#a95b5bdbf201278d4198b6df1e8e6dd25":[9,4,1,0,649,5]
+"classObjectComparableWithReference__ComparisonTolerance.html#a7fb9fc5bc57743fe0a53ffc2670fce2b":[9,4,1,0,649,3]
 };

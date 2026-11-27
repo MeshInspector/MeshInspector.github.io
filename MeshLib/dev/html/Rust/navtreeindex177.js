@@ -1,5 +1,6 @@
 var NAVTREEINDEX177 =
 {
+"structmeshlib_1_1VisualObject.html#a1e479c870b6a92c81f6f22ff48870e03":[9,5,0,0,0,1727,36],
 "structmeshlib_1_1VisualObject.html#a1e479c870b6a92c81f6f22ff48870e03":[9,5,1,0,0,1714,36],
 "structmeshlib_1_1VisualObject.html#a20eae9c7c0628e0ec5920b53168a380a":[9,5,0,0,0,1727,22],
 "structmeshlib_1_1VisualObject.html#a20eae9c7c0628e0ec5920b53168a380a":[9,5,1,0,0,1714,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX177 =
 "structmeshlib_1_1VolumeSegmentationParameters.html#aeed1f04167dec585a153317366553e83":[9,5,0,0,0,1729,7],
 "structmeshlib_1_1VolumeSegmentationParameters.html#aeed1f04167dec585a153317366553e83":[9,5,1,0,0,1716,7],
 "structmeshlib_1_1VolumeSegmenter.html":[9,5,0,0,0,1730],
-"structmeshlib_1_1VolumeSegmenter.html":[9,5,1,0,0,1717],
-"structmeshlib_1_1VolumeSegmenter.html#a250d8c82bb9f8202e733c4363cbc6602":[9,5,0,0,0,1730,7]
+"structmeshlib_1_1VolumeSegmenter.html":[9,5,1,0,0,1717]
 };

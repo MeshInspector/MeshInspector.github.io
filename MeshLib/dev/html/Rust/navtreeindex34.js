@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"structmeshlib_1_1Buffer__MR__VertId.html#a3f9f5da060a56986ce9b7fbfc521a9eb":[9,5,1,0,0,140,10],
 "structmeshlib_1_1Buffer__MR__VertId.html#a53e415da739e20dc864bdeac5cd7f139":[9,5,0,0,0,153,12],
 "structmeshlib_1_1Buffer__MR__VertId.html#a53e415da739e20dc864bdeac5cd7f139":[9,5,1,0,0,140,12],
 "structmeshlib_1_1Buffer__MR__VertId.html#a6545b24b3d20c23f6a5e2a512e2f7b2f":[9,5,0,0,0,153,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "structmeshlib_1_1ChangVoxelSelectionAction.html#ae23ca76dcc855680fa1fe7d511eb0cdd":[9,5,1,0,0,188,1],
 "structmeshlib_1_1ChangVoxelSelectionAction.html#ae5399fba63d9916991e53eb85e2c9a60":[9,5,0,0,0,201,3],
 "structmeshlib_1_1ChangVoxelSelectionAction.html#ae5399fba63d9916991e53eb85e2c9a60":[9,5,1,0,0,188,3],
-"structmeshlib_1_1ChangVoxelSelectionAction.html#afa020483c1b6b68cbb0e86855024e4a7":[9,5,0,0,0,201,5],
-"structmeshlib_1_1ChangVoxelSelectionAction.html#afa020483c1b6b68cbb0e86855024e4a7":[9,5,1,0,0,188,5]
+"structmeshlib_1_1ChangVoxelSelectionAction.html#afa020483c1b6b68cbb0e86855024e4a7":[9,5,0,0,0,201,5]
 };

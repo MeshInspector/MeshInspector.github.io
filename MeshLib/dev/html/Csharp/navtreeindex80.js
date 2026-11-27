@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"classMR_1_1Const__RegionBitSet.html#abc041d5dfe3650d21aedf3abcbdd9566":[9,3,0,0,0,837,13],
 "classMR_1_1Const__RegionBitSet.html#ac50164d7cc6a77189fff456cf416ee29":[9,3,0,0,0,837,48],
 "classMR_1_1Const__RegionBitSet.html#ac694e700dc527e23be96a6f10896cc15":[9,3,0,0,0,837,37],
 "classMR_1_1Const__RegionBitSet.html#acafce64c8cbc7193830997ba2803a781":[9,3,0,0,0,837,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "classMR_1_1Const__SceneColors.html#a47898d03f87d23d5ac50a9bc8f003352":[9,3,0,0,0,850,1],
 "classMR_1_1Const__SceneColors.html#a9e8ced06b99e59b9a94c19c94d9f2ea0":[9,3,0,0,0,850,2],
 "classMR_1_1Const__SceneColors.html#aaff6be28e5b89ff716071ca005bded72":[9,3,0,0,0,850,0],
-"classMR_1_1Const__SceneColors.html#aaff6be28e5b89ff716071ca005bded72a08c22b851e77f326668ddaa738b48310":[9,3,0,0,0,850,0,5],
-"classMR_1_1Const__SceneColors.html#aaff6be28e5b89ff716071ca005bded72a0c98b01e9116b07f07dd4a2a7b94a5be":[9,3,0,0,0,850,0,2]
+"classMR_1_1Const__SceneColors.html#aaff6be28e5b89ff716071ca005bded72a08c22b851e77f326668ddaa738b48310":[9,3,0,0,0,850,0,5]
 };

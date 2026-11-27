@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structmeshlib_1_1GeodesicPath.html#a6595c5ae659b247c256be6b49884f80d":[9,5,1,0,0,452,6],
 "structmeshlib_1_1GeodesicPath.html#a82da84f53a0ca91cf4706e88a608151e":[9,5,0,0,0,465,5],
 "structmeshlib_1_1GeodesicPath.html#a82da84f53a0ca91cf4706e88a608151e":[9,5,1,0,0,452,5],
 "structmeshlib_1_1GeodesicPath.html#a855429ed8579d53e18eea04adc9bb94d":[9,5,0,0,0,465,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structmeshlib_1_1GraphEdgeId.html#aec5716df116adf580a7d1ae05052f0a0":[9,5,1,0,0,459,9],
 "structmeshlib_1_1GraphEdgeId.html#af56b43df958348149f93f398bb0fa62e":[9,5,0,0,0,472,10],
 "structmeshlib_1_1GraphEdgeId.html#af56b43df958348149f93f398bb0fa62e":[9,5,1,0,0,459,10],
-"structmeshlib_1_1GraphVertBitSet.html":[9,5,0,0,0,473],
-"structmeshlib_1_1GraphVertBitSet.html":[9,5,1,0,0,460]
+"structmeshlib_1_1GraphVertBitSet.html":[9,5,0,0,0,473]
 };

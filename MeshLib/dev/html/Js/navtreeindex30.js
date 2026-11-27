@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"classEdgeBitSet.html#a99d3482e98ed0c07db2048dfdd1ce1ea":[9,4,1,0,256,42],
 "classEdgeBitSet.html#a9f6e9f33bc87c86f566b69a2ed375021":[9,4,1,0,256,64],
 "classEdgeBitSet.html#aa029f09b6a5b3ad5cce8d8ddd7ec1be9":[9,4,1,0,256,11],
 "classEdgeBitSet.html#aa03cdaa8ea47fbef9121caa37790ec64":[9,4,1,0,256,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "classEdgePoint.html#a5191230453b7e7cf531deb1c89790fa2":[9,4,1,0,267,18],
 "classEdgePoint.html#a63898a5dd26c4898334c95574949f992":[9,4,1,0,267,0],
 "classEdgePoint.html#a6969cbae1b7b1d0b843ae7af0dd0587b":[9,4,1,0,267,26],
-"classEdgePoint.html#a6aab02c51db68e22ec80a6ebb64b4b06":[9,4,1,0,267,25],
-"classEdgePoint.html#a6f8c9cab0f04edf5cab473911dfd86fc":[9,4,1,0,267,28]
+"classEdgePoint.html#a6aab02c51db68e22ec80a6ebb64b4b06":[9,4,1,0,267,25]
 };

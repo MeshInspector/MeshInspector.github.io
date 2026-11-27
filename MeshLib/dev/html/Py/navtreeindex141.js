@@ -1,5 +1,6 @@
 var NAVTREEINDEX141 =
 {
+"classmrmeshpy_1_1ImproveSamplingSettings.html#a471a6e493245c2e394412e61d2859e5f":[9,1,1,0,1,1757,10],
 "classmrmeshpy_1_1ImproveSamplingSettings.html#a4cf91221062c5888f8d154fd47a1ce41":[9,1,0,0,2,1757,9],
 "classmrmeshpy_1_1ImproveSamplingSettings.html#a4cf91221062c5888f8d154fd47a1ce41":[9,1,1,0,1,1757,9],
 "classmrmeshpy_1_1ImproveSamplingSettings.html#a8a2058127117d08bcd634aeb240fdecc":[9,1,0,0,2,1757,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX141 =
 "classmrmeshpy_1_1IntersectionPrecomputes2__float.html#af08d3a2b04269d666ae644741269bf8c":[9,1,1,0,1,1770,9],
 "classmrmeshpy_1_1IntersectionPrecomputes2__float.html#af98522de43c520b974156a9befe1d197":[9,1,0,0,2,1770,3],
 "classmrmeshpy_1_1IntersectionPrecomputes2__float.html#af98522de43c520b974156a9befe1d197":[9,1,1,0,1,1770,3],
-"classmrmeshpy_1_1IntersectionPrecomputes2__float.html#af9df0e5fd0ce995ad86eaeae1e6b135f":[9,1,0,0,2,1770,7],
-"classmrmeshpy_1_1IntersectionPrecomputes2__float.html#af9df0e5fd0ce995ad86eaeae1e6b135f":[9,1,1,0,1,1770,7]
+"classmrmeshpy_1_1IntersectionPrecomputes2__float.html#af9df0e5fd0ce995ad86eaeae1e6b135f":[9,1,0,0,2,1770,7]
 };

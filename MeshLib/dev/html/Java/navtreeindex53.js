@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"classmeshlib_1_1FillHoleParams.html#a81baf1afb4946283d71709b10296ea22":[9,6,0,0,0,439,6],
 "classmeshlib_1_1FillHoleParams.html#a81baf1afb4946283d71709b10296ea22":[9,6,1,0,0,439,6],
 "classmeshlib_1_1FillHoleParams.html#a9dcf50e6d7c2173b825c9406ebfb4749":[9,6,0,0,0,439,4],
 "classmeshlib_1_1FillHoleParams.html#a9dcf50e6d7c2173b825c9406ebfb4749":[9,6,1,0,0,439,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX53 =
 "classmeshlib_1_1FitBSplineSurfaceToMeshSettings.html#a0da0d7eb0bde312633f10e3977161ff6":[9,6,0,0,0,449,8],
 "classmeshlib_1_1FitBSplineSurfaceToMeshSettings.html#a0da0d7eb0bde312633f10e3977161ff6":[9,6,1,0,0,449,8],
 "classmeshlib_1_1FitBSplineSurfaceToMeshSettings.html#a10d79de4ca53e8be953d545e455b9d26":[9,6,0,0,0,449,1],
-"classmeshlib_1_1FitBSplineSurfaceToMeshSettings.html#a10d79de4ca53e8be953d545e455b9d26":[9,6,1,0,0,449,1],
-"classmeshlib_1_1FitBSplineSurfaceToMeshSettings.html#a1ebd2e8847876a1c31795db1576ef61e":[9,6,0,0,0,449,4]
+"classmeshlib_1_1FitBSplineSurfaceToMeshSettings.html#a10d79de4ca53e8be953d545e455b9d26":[9,6,1,0,0,449,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"MRTelemetry_8rs.html":[9,5,2,0,0,1,2,364],
 "MRTetrisNesting_8rs.html":[9,5,2,0,0,1,5,26],
 "MRTextureColors_8rs.html":[9,5,2,0,0,1,2,365],
 "MRTiff_8rs.html":[9,5,2,0,0,1,1,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "namespacemembers_func_i.html":[9,5,0,1,1,8],
 "namespacemembers_func_l.html":[9,5,0,1,1,9],
 "namespacemembers_func_m.html":[9,5,0,1,1,10],
-"namespacemembers_func_n.html":[9,5,0,1,1,11],
-"namespacemembers_func_o.html":[9,5,0,1,1,12]
+"namespacemembers_func_n.html":[9,5,0,1,1,11]
 };

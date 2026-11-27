@@ -1,5 +1,6 @@
 var NAVTREEINDEX118 =
 {
+"structmeshlib_1_1PolylineToDistanceVolumeParams.html#a47c30af6c529dbad4aead88b4bcea359":[9,5,1,0,0,828,2],
 "structmeshlib_1_1PolylineToDistanceVolumeParams.html#a50202508677ce0752ee87d4ebb957603":[9,5,0,0,0,841,9],
 "structmeshlib_1_1PolylineToDistanceVolumeParams.html#a50202508677ce0752ee87d4ebb957603":[9,5,1,0,0,828,9],
 "structmeshlib_1_1PolylineToDistanceVolumeParams.html#a586fcce7a74f353bd01670d620fd1018":[9,5,0,0,0,841,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX118 =
 "structmeshlib_1_1Polynomial__double__4.html":[9,5,0,0,0,851],
 "structmeshlib_1_1Polynomial__double__4.html":[9,5,1,0,0,838],
 "structmeshlib_1_1Polynomial__double__4.html#a7a986e5c190c6f1b2a590bcfb0760027":[9,5,0,0,0,851,3],
-"structmeshlib_1_1Polynomial__double__4.html#a7a986e5c190c6f1b2a590bcfb0760027":[9,5,1,0,0,838,3],
-"structmeshlib_1_1Polynomial__double__4.html#a9c6f5494c8b35ae845625c417084535f":[9,5,0,0,0,851,2]
+"structmeshlib_1_1Polynomial__double__4.html#a7a986e5c190c6f1b2a590bcfb0760027":[9,5,1,0,0,838,3]
 };

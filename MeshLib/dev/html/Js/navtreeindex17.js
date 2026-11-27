@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"classAngleMeasurementObject.html#a52e7f2af6d0bbffb6df9a6134debd3d9":[9,4,1,0,49,40],
 "classAngleMeasurementObject.html#a5a70ba319b69e05fd9d14c9ae824e39d":[9,4,1,0,49,21],
 "classAngleMeasurementObject.html#a5a8783519ec91a41c7ab074fa9a4b8e5":[9,4,1,0,49,6],
 "classAngleMeasurementObject.html#a5d2d2a89c87626a95cf046dc4adc1883":[9,4,1,0,49,96],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "classBall2d.html#ad0ede7cd42ff3dd31e0373a30a090da4":[9,4,1,0,54,7],
 "classBall2d.html#ade6a98a18fe840ab44688f0ee10cb1f4":[9,4,1,0,54,0],
 "classBall2f.html":[9,4,1,0,55],
-"classBall2f.html#a09eff4d49ec84e07228959a5bbe783fe":[9,4,1,0,55,3],
-"classBall2f.html#a20714a8bf010c48dcc8af444a2ea1e12":[9,4,1,0,55,2]
+"classBall2f.html#a09eff4d49ec84e07228959a5bbe783fe":[9,4,1,0,55,3]
 };

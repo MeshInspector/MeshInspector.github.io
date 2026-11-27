@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"classChangeFacesColorMapAction.html#aab7e6dcc42394d1b0f272d2d990123c6":[9,4,1,0,139,4],
 "classChangeFacesColorMapAction.html#abf42715b0d874992eecc16270eb0f42a":[9,4,1,0,139,0],
 "classChangeFacesColorMapAction.html#ac203650ab9d6934b83d8b2e03ae672a2":[9,4,1,0,139,5],
 "classChangeFacesColorMapAction.html#ad574e8238cedfbf5e07165937ff51f12":[9,4,1,0,139,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "classChangeSceneObjectsOrder.html#a396ac6f7d7dd7b22716dd8c5988d83d2":[9,4,1,0,170,5],
 "classChangeSceneObjectsOrder.html#a45f156357c35603fe6fff99ef170a7aa":[9,4,1,0,170,2],
 "classChangeSceneObjectsOrder.html#a844dd44f8d5e21be0bc5b54e381bd04c":[9,4,1,0,170,3],
-"classChangeSceneObjectsOrder.html#aa6bf5d9ed8337228fecb444550ea392f":[9,4,1,0,170,4],
-"classChangeSceneObjectsOrder.html#ae68d8d779470f0e9e281c4ef3c02b5fa":[9,4,1,0,170,1]
+"classChangeSceneObjectsOrder.html#aa6bf5d9ed8337228fecb444550ea392f":[9,4,1,0,170,4]
 };

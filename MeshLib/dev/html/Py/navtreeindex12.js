@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"classmrmeshpy_1_1ChunkIterator.html#a01510381466efa5dff2194697cf60fb9":[9,1,1,0,1,160,2],
 "classmrmeshpy_1_1ChunkIterator.html#a3239c0fb04af16c1b6e67191812e6867":[9,1,0,0,2,160,3],
 "classmrmeshpy_1_1ChunkIterator.html#a3239c0fb04af16c1b6e67191812e6867":[9,1,1,0,1,160,3],
 "classmrmeshpy_1_1ChunkIterator.html#a79cba603c585844f511fe35368a77cc7":[9,1,0,0,2,160,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "classmrmeshpy_1_1CompensateRadiusParams.html#aed51e2f2eccb85c769a119d08088f828":[9,1,1,0,1,175,14],
 "classmrmeshpy_1_1CompensateRadiusParams.html#af69bd06a033b9ccacdd9f5c43745238d":[9,1,0,0,2,175,17],
 "classmrmeshpy_1_1CompensateRadiusParams.html#af69bd06a033b9ccacdd9f5c43745238d":[9,1,1,0,1,175,17],
-"classmrmeshpy_1_1CompressZipSettings.html":[9,1,0,0,2,176],
-"classmrmeshpy_1_1CompressZipSettings.html":[9,1,1,0,1,176]
+"classmrmeshpy_1_1CompressZipSettings.html":[9,1,0,0,2,176]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX122 =
 {
+"classmrmeshpy_1_1DeloneSettings.html#a6f3e0cd4d7fd8fcdeac0587b83569177":[9,1,1,0,1,1519,6],
 "classmrmeshpy_1_1DeloneSettings.html#a76845ab04c0635b101bf76601b744f34":[9,1,0,0,2,1519,10],
 "classmrmeshpy_1_1DeloneSettings.html#a76845ab04c0635b101bf76601b744f34":[9,1,1,0,1,1519,10],
 "classmrmeshpy_1_1DeloneSettings.html#a7daa18a8e07241e8a9f1692a0c13b4e3":[9,1,0,0,2,1519,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX122 =
 "classmrmeshpy_1_1Dipoles.html#a2642704342f5d4e95afbedb877038332":[9,1,1,0,1,1529,17],
 "classmrmeshpy_1_1Dipoles.html#a2c96d0a5c505922f46cb207346c9d0aa":[9,1,0,0,2,1529,32],
 "classmrmeshpy_1_1Dipoles.html#a2c96d0a5c505922f46cb207346c9d0aa":[9,1,1,0,1,1529,32],
-"classmrmeshpy_1_1Dipoles.html#a3688b558f19217277d2915f5deac9ab8":[9,1,0,0,2,1529,0],
-"classmrmeshpy_1_1Dipoles.html#a3688b558f19217277d2915f5deac9ab8":[9,1,1,0,1,1529,0]
+"classmrmeshpy_1_1Dipoles.html#a3688b558f19217277d2915f5deac9ab8":[9,1,0,0,2,1529,0]
 };

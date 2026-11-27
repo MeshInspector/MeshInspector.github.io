@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"classObjectVoxels.html#a47fe17acaa19f497b4f96870a285c25a":[9,4,1,0,663,54],
 "classObjectVoxels.html#a492ec4922bc50ae755ea9aac32304af9":[9,4,1,0,663,12],
 "classObjectVoxels.html#a4a103a1da8263d9c3b8832768c88a98b":[9,4,1,0,663,169],
 "classObjectVoxels.html#a4ba62dce7abbe2c1d401a5fdb7ee356a":[9,4,1,0,663,39],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "classOneMeshContours.html":[9,4,1,0,683],
 "classOneMeshContours.html#a1a83b0517a69369856e2ec2fa4b4b3ac":[9,4,1,0,683,3],
 "classOneMeshContours.html#a44c23a8b3dbb3b42f5bc4273fb93fcde":[9,4,1,0,683,11],
-"classOneMeshContours.html#a561307d49f84c0bf1b3f27bd299757e1":[9,4,1,0,683,8],
-"classOneMeshContours.html#a5aa1a0b10697fe4ac3420e5db1a761e7":[9,4,1,0,683,2]
+"classOneMeshContours.html#a561307d49f84c0bf1b3f27bd299757e1":[9,4,1,0,683,8]
 };

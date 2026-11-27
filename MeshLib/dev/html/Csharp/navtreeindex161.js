@@ -1,5 +1,6 @@
 var NAVTREEINDEX161 =
 {
+"classMR_1_1XfBasedCache__MRBox3f.html#ab585698bbf56f2c5c4e47308f5ab6b4e":[9,3,0,0,0,2011,2],
 "classMR_1_1ZCompensateParams.html":[9,3,0,0,0,2012],
 "classMR_1_1ZCompensateParams.html#a48e999dd952836f0b1abf7e52d610be8":[9,3,0,0,0,2012,1],
 "classMR_1_1ZCompensateParams.html#a4b5bf5e96693a295db34a12482033d1d":[9,3,0,0,0,2012,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX161 =
 "structMR_1_1AffineXf3f.html#a31762c4abb8d7103338935df9d5d3fba":[9,3,0,0,0,21,2],
 "structMR_1_1AffineXf3f.html#a32a0a6d85fdcf8d5d9ddcefad765f983":[9,3,0,0,0,21,8],
 "structMR_1_1AffineXf3f.html#a3b9c59e5dbe0da42c4a82c005106b574":[9,3,0,0,0,21,7],
-"structMR_1_1AffineXf3f.html#a45a60acd09a515bbaad6028b7b444f1d":[9,3,0,0,0,21,17],
-"structMR_1_1AffineXf3f.html#a499132956d7fb2a01ca6acf5194ea02e":[9,3,0,0,0,21,12]
+"structMR_1_1AffineXf3f.html#a45a60acd09a515bbaad6028b7b444f1d":[9,3,0,0,0,21,17]
 };

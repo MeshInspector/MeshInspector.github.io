@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"MRFillHoleNicely_8h.html#a36254607d1823afb28a3bbd59480e0d9":[9,2,2,0,0,0,0,1,109,31],
 "MRFillHoleNicely_8h.html#a3643f0f31c74615cf94e917b1ed0f0c8":[9,2,2,0,0,0,0,1,109,19],
 "MRFillHoleNicely_8h.html#a36f034a5f3ee527eea4beaf9859cc291":[9,2,2,0,0,0,0,1,109,48],
 "MRFillHoleNicely_8h.html#a37199f45cc5294e4f3a97c8fe6f8706f":[9,2,2,0,0,0,0,1,109,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "MRFittedBSplineSurface_8h.html#afa0bc47b3a064227f47d25dbf8f6fb4d":[9,2,2,0,0,0,0,1,111,15],
 "MRFittedBSplineSurface_8h.html#afb686419a3f45a45303f3176045cd1fe":[9,2,2,0,0,0,0,1,111,44],
 "MRFittedBSplineSurface_8h.html#afba95505bafcb3ba0ad5afed492795ed":[9,2,2,0,0,0,0,1,111,14],
-"MRFittedBSplineSurface_8h_source.html":[9,2,2,0,0,0,0,1,111],
-"MRFixSelfIntersections_8h.html":[9,2,2,0,0,0,0,1,112]
+"MRFittedBSplineSurface_8h_source.html":[9,2,2,0,0,0,0,1,111]
 };

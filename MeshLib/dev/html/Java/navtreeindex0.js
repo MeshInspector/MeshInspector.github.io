@@ -53,7 +53,7 @@ var NAVTREEINDEX0 =
 "../FirstPluginTutorial.html":[5,0],
 "../FloatVSDouble.html":[8,3],
 "../HowtoAddPluginOverview.html":[8,8],
-"../I18nGuide.html":[8,9],
+"../I18nGuide.html":[8,10],
 "../InstallationGuide.html":[2],
 "../Js/APIJsPage.html":[9,4],
 "../License.html":[3],
@@ -69,6 +69,7 @@ var NAVTREEINDEX0 =
 "../PackageOverview.html":[8],
 "../Py/APIPyPage.html":[9,1],
 "../Rust/APIRustPage.html":[9,5],
+"../ScannerBackendGuide.html":[8,9],
 "../SpacesHelp.html":[8,5],
 "../StatePluginsHelp.html":[8,7],
 "../SupportGeneratorTutorial.html":[5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "ChangePointCloudAction_8java.html":[9,6,2,0,0,1,0,0,187],
 "ChangePointCloudNormalsAction_8java.html":[9,6,2,0,0,1,0,0,188],
 "ChangePointCloudPointsAction_8java.html":[9,6,2,0,0,1,0,0,189],
-"ChangePointPointSelectionAction_8java.html":[9,6,2,0,0,1,0,0,190],
-"ChangePolylineAction_8java.html":[9,6,2,0,0,1,0,0,191]
+"ChangePointPointSelectionAction_8java.html":[9,6,2,0,0,1,0,0,190]
 };

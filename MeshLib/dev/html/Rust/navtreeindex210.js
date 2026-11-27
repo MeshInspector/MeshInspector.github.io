@@ -1,5 +1,6 @@
 var NAVTREEINDEX210 =
 {
+"structmeshlib_1_1std__shared__ptr__MR__ChangeMeshUVCoordsAction.html#ac856a935dfee284378af8656389949b2":[9,5,0,0,0,1214,5],
 "structmeshlib_1_1std__shared__ptr__MR__ChangeMeshUVCoordsAction.html#ac856a935dfee284378af8656389949b2":[9,5,1,0,0,1201,5],
 "structmeshlib_1_1std__shared__ptr__MR__ChangeMeshUVCoordsAction.html#adce1bb547fa5888826955d3684fef8ab":[9,5,0,0,0,1214,8],
 "structmeshlib_1_1std__shared__ptr__MR__ChangeMeshUVCoordsAction.html#adce1bb547fa5888826955d3684fef8ab":[9,5,1,0,0,1201,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX210 =
 "structmeshlib_1_1std__shared__ptr__MR__ChangePointCloudPointsAction.html#af34d1b6780e4be3d4b7a7b9aa0e7bf40":[9,5,0,0,0,1225,5],
 "structmeshlib_1_1std__shared__ptr__MR__ChangePointCloudPointsAction.html#af34d1b6780e4be3d4b7a7b9aa0e7bf40":[9,5,1,0,0,1212,5],
 "structmeshlib_1_1std__shared__ptr__MR__ChangePointCloudPointsAction.html#af9a6da91933791f1176071e9b881c1ee":[9,5,0,0,0,1225,6],
-"structmeshlib_1_1std__shared__ptr__MR__ChangePointCloudPointsAction.html#af9a6da91933791f1176071e9b881c1ee":[9,5,1,0,0,1212,6],
-"structmeshlib_1_1std__shared__ptr__MR__ChangePointPointSelectionAction.html":[9,5,0,0,0,1226]
+"structmeshlib_1_1std__shared__ptr__MR__ChangePointCloudPointsAction.html#af9a6da91933791f1176071e9b881c1ee":[9,5,1,0,0,1212,6]
 };

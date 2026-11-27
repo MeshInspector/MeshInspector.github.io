@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"SmoothFillingSettings_8java.html":[9,6,2,0,0,1,0,0,971],
 "SomeLocalTriangulations_8java.html":[9,6,2,0,0,1,0,0,972],
 "SortIntersectionsData_8java.html":[9,6,2,0,0,1,0,0,973],
 "SpacingSettings_8java.html":[9,6,2,0,0,1,0,0,974],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "ViewportProperty__MR__Matrix3f_8java.html":[9,6,2,0,0,1,0,0,1735],
 "ViewportProperty__MR__Vector4__unsigned__char_8java.html":[9,6,2,0,0,1,0,0,1736],
 "ViewportProperty__MR__XfBasedCache__MR__Box3f_8java.html":[9,6,2,0,0,1,0,0,1737],
-"ViewportProperty__unsigned__char_8java.html":[9,6,2,0,0,1,0,0,1738],
-"VisualObject_8java.html":[9,6,2,0,0,1,0,0,1740]
+"ViewportProperty__unsigned__char_8java.html":[9,6,2,0,0,1,0,0,1738]
 };

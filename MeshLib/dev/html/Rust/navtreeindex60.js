@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"structmeshlib_1_1FillHoleParams.html#a8ab4cb8cc0b544fdb0d41ca594db9613":[9,5,1,0,0,421,6],
 "structmeshlib_1_1FillHoleParams.html#a94f0ef26e2090c2aa5ae303a5c3f897a":[9,5,0,0,0,434,14],
 "structmeshlib_1_1FillHoleParams.html#a94f0ef26e2090c2aa5ae303a5c3f897a":[9,5,1,0,0,421,14],
 "structmeshlib_1_1FillHoleParams.html#ac0a0695b676e4be2071a2a4608f4c37a":[9,5,0,0,0,434,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structmeshlib_1_1FittedBSplineSurface.html":[9,5,1,0,0,432],
 "structmeshlib_1_1FittedBSplineSurface.html#a01a39d883d1b6c0d1dcb594ff389c6d4":[9,5,0,0,0,445,15],
 "structmeshlib_1_1FittedBSplineSurface.html#a01a39d883d1b6c0d1dcb594ff389c6d4":[9,5,1,0,0,432,15],
-"structmeshlib_1_1FittedBSplineSurface.html#a1011e8d89c7cedca654efb3878be015d":[9,5,0,0,0,445,14],
-"structmeshlib_1_1FittedBSplineSurface.html#a1011e8d89c7cedca654efb3878be015d":[9,5,1,0,0,432,14]
+"structmeshlib_1_1FittedBSplineSurface.html#a1011e8d89c7cedca654efb3878be015d":[9,5,0,0,0,445,14]
 };

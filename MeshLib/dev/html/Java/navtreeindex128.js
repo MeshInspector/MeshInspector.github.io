@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"classmeshlib_1_1SeparationPointStorage__Block.html#ab6989695f536946655b82d3aab9e70d2":[9,6,0,0,0,936,0],
 "classmeshlib_1_1SeparationPointStorage__Block.html#ab6989695f536946655b82d3aab9e70d2":[9,6,1,0,0,936,0],
 "classmeshlib_1_1SeparationPointStorage__Block.html#ac14fd448f16673b4fd3e6bb13b9a7da9":[9,6,0,0,0,936,15],
 "classmeshlib_1_1SeparationPointStorage__Block.html#ac14fd448f16673b4fd3e6bb13b9a7da9":[9,6,1,0,0,936,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "classmeshlib_1_1SharpOffsetParameters.html#a07127643c1f21b844b91eee72198ddce":[9,6,0,0,0,950,34],
 "classmeshlib_1_1SharpOffsetParameters.html#a07127643c1f21b844b91eee72198ddce":[9,6,1,0,0,950,34],
 "classmeshlib_1_1SharpOffsetParameters.html#a0fe7f42629e37e50d438932e28242ff9":[9,6,0,0,0,950,16],
-"classmeshlib_1_1SharpOffsetParameters.html#a0fe7f42629e37e50d438932e28242ff9":[9,6,1,0,0,950,16],
-"classmeshlib_1_1SharpOffsetParameters.html#a1683442dd240c94f3a62c78735499401":[9,6,0,0,0,950,18]
+"classmeshlib_1_1SharpOffsetParameters.html#a0fe7f42629e37e50d438932e28242ff9":[9,6,1,0,0,950,16]
 };

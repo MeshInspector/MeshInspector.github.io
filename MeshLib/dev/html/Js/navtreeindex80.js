@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"classUnorientedTriangle.html":[9,4,1,0,1456],
 "classUnorientedTriangle.html#a0529f128583dd08cbc0e45d97aae5ab7":[9,4,1,0,1456,3],
 "classUnorientedTriangle.html#a05cf9f0b16190283a0c9a5a63d5ee450":[9,4,1,0,1456,0],
 "classUnorientedTriangle.html#a11d293771ecfe38e9286470d2e39609a":[9,4,1,0,1456,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "classVector4d.html#a7e24d8de7f0590350e59cb3d31dff7f5":[9,4,1,0,1474,1],
 "classVector4d.html#a82d92cb6d56af6886078f6d73c17b567":[9,4,1,0,1474,10],
 "classVector4d.html#a8631b5bfe6718c2790aa2bf9c9c56002":[9,4,1,0,1474,0],
-"classVector4d.html#a890db66b3aaecb5380ee8b63d6426d4e":[9,4,1,0,1474,6],
-"classVector4d.html#a8a86ab5f4dea948a2b4324742036f858":[9,4,1,0,1474,12]
+"classVector4d.html#a890db66b3aaecb5380ee8b63d6426d4e":[9,4,1,0,1474,6]
 };

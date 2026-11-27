@@ -53,7 +53,7 @@ var NAVTREEINDEX0 =
 "../FirstPluginTutorial.html":[5,0],
 "../FloatVSDouble.html":[8,3],
 "../HowtoAddPluginOverview.html":[8,8],
-"../I18nGuide.html":[8,9],
+"../I18nGuide.html":[8,10],
 "../InstallationGuide.html":[2],
 "../Java/APIJavaPage.html":[9,6],
 "../Js/APIJsPage.html":[9,4],
@@ -69,6 +69,7 @@ var NAVTREEINDEX0 =
 "../MeshStructureOverview.html":[8,1],
 "../PackageOverview.html":[8],
 "../Rust/APIRustPage.html":[9,5],
+"../ScannerBackendGuide.html":[8,9],
 "../SpacesHelp.html":[8,5],
 "../StatePluginsHelp.html":[8,7],
 "../SupportGeneratorTutorial.html":[5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classmrcudapy_1_1int__output.html#a306883b054de6eaeba8d1d5b19c8a2a2":[9,1,1,0,0,12,2],
 "classmrcudapy_1_1int__output.html#a3852f0351ba9675c2bf59a66eefcf2ac":[9,1,0,0,0,12,3],
 "classmrcudapy_1_1int__output.html#a3852f0351ba9675c2bf59a66eefcf2ac":[9,1,1,0,0,12,3],
-"classmrcudapy_1_1int__output.html#ac5f8adaf65a269b06475a6778a657e8e":[9,1,0,0,0,12,1],
-"classmrcudapy_1_1int__output.html#ac5f8adaf65a269b06475a6778a657e8e":[9,1,1,0,0,12,1]
+"classmrcudapy_1_1int__output.html#ac5f8adaf65a269b06475a6778a657e8e":[9,1,0,0,0,12,1]
 };

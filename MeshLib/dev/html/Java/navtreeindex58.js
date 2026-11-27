@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"classmeshlib_1_1GraphVertBitSet.html#ae78aa86caf82642c30f38be211690fbf":[9,6,0,0,0,480,39],
 "classmeshlib_1_1GraphVertBitSet.html#ae78aa86caf82642c30f38be211690fbf":[9,6,1,0,0,480,39],
 "classmeshlib_1_1GraphVertBitSet.html#aee8bd2358b6e521037a5de3c0a12e504":[9,6,0,0,0,480,6],
 "classmeshlib_1_1GraphVertBitSet.html#aee8bd2358b6e521037a5de3c0a12e504":[9,6,1,0,0,480,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "classmeshlib_1_1Heap__float__MR__GraphVertId__std__greater__float.html":[9,6,0,0,0,488],
 "classmeshlib_1_1Heap__float__MR__GraphVertId__std__greater__float.html":[9,6,1,0,0,488],
 "classmeshlib_1_1Heap__float__MR__GraphVertId__std__greater__float.html#a0f9c7d9b469f461fd8cd7525b4cfc134":[9,6,0,0,0,488,14],
-"classmeshlib_1_1Heap__float__MR__GraphVertId__std__greater__float.html#a0f9c7d9b469f461fd8cd7525b4cfc134":[9,6,1,0,0,488,14],
-"classmeshlib_1_1Heap__float__MR__GraphVertId__std__greater__float.html#a15760cfc6139a4d4265a61108827edc0":[9,6,0,0,0,488,4]
+"classmeshlib_1_1Heap__float__MR__GraphVertId__std__greater__float.html#a0f9c7d9b469f461fd8cd7525b4cfc134":[9,6,1,0,0,488,14]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"std__pair__MR__Vector3f__MR__TriPointf_8rs.html":[9,5,2,0,0,1,3,305],
 "std__pair__MR__Vector3f__MR__Vector3f_8rs.html":[9,5,2,0,0,1,3,306],
 "std__pair__MR__VertId__MR__FaceId_8rs.html":[9,5,2,0,0,1,3,308],
 "std__pair__MR__VertId__MR__VertId_8rs.html":[9,5,2,0,0,1,3,309],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "std__vector__MR__Pdf__Cell_8rs.html":[9,5,2,0,0,1,3,531],
 "std__vector__MR__Pdf__PaletteRowStats_8rs.html":[9,5,2,0,0,1,3,532],
 "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8rs.html":[9,5,2,0,0,1,3,533],
-"std__vector__MR__PlanarTriangulation__IntersectionInfo_8rs.html":[9,5,2,0,0,1,3,534],
-"std__vector__MR__Plane3d__MR__Allocator__MR__Plane3d_8rs.html":[9,5,2,0,0,1,3,535]
+"std__vector__MR__PlanarTriangulation__IntersectionInfo_8rs.html":[9,5,2,0,0,1,3,534]
 };

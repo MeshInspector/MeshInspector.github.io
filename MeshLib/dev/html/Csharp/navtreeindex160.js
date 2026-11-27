@@ -1,5 +1,6 @@
 var NAVTREEINDEX160 =
 {
+"classMR_1_1VoxelsSave_1_1SavingSettings.html#a72f0aa885190cb5164d09439ef3943a1":[9,3,0,0,0,1990,1,5],
 "classMR_1_1VoxelsSave_1_1SavingSettings.html#aa41b8878c39920807683e9c499c9a65e":[9,3,0,0,0,1990,1,1],
 "classMR_1_1VoxelsSave_1_1SavingSettings.html#aaab2a1591f8bf775213801f081a95ea4":[9,3,0,0,0,1990,1,9],
 "classMR_1_1VoxelsSave_1_1SavingSettings.html#aba86846c1a0bec0eacd07c533bfbf96a":[9,3,0,0,0,1990,1,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX160 =
 "classMR_1_1XfBasedCache__MRBox3f.html#a1587cbafac478bdfe7ff2b0cd8451189":[9,3,0,0,0,2011,5],
 "classMR_1_1XfBasedCache__MRBox3f.html#a32900f8b614e428d9c827fff4021a466":[9,3,0,0,0,2011,3],
 "classMR_1_1XfBasedCache__MRBox3f.html#a7ea027bc30a34dbcce72ea438b34de28":[9,3,0,0,0,2011,4],
-"classMR_1_1XfBasedCache__MRBox3f.html#a9add51b04ac1cd8af1cfbc551816c44f":[9,3,0,0,0,2011,1],
-"classMR_1_1XfBasedCache__MRBox3f.html#ab585698bbf56f2c5c4e47308f5ab6b4e":[9,3,0,0,0,2011,2]
+"classMR_1_1XfBasedCache__MRBox3f.html#a9add51b04ac1cd8af1cfbc551816c44f":[9,3,0,0,0,2011,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX284 =
 {
+"phmap__flat__hash__map__MR__VoxelId__MR__VoxelId__phmap__Hash__MR__VoxelId__phmap__EqualTo__MR__5ca029cdbb41e1f111a15165130d8521.html":[9,6,2,0,0,1,0,0,22,38],
 "phmap__flat__hash__map__int__MR__Box3i__phmap__Hash__int32__t__phmap__EqualTo__int__MR__Allocato2bdc9f9e2f4611b7f2ec74d601c2aae1.html":[9,6,2,0,0,1,0,0,22,0],
 "phmap__flat__hash__map__int__MR__Box3i__phmap__Hash__int32__t__phmap__EqualTo__int__MR__Allocato33f7967c5673d3665d3b661c567e4642.html":[9,6,2,0,0,1,0,0,22,1],
 "phmap__flat__hash__map__size__t__size__t__phmap__Hash__size__t__phmap__EqualTo__size__t__MR__All59c122f6bd0f20f5d90d93a139fd61e3.html":[9,6,2,0,0,1,0,0,22,41],
@@ -248,6 +249,5 @@ var NAVTREEINDEX284 =
 "std__shared__ptr__MR__ChangeFacesColorMapAction_8java.html":[9,6,2,0,0,1,0,0,1212],
 "std__shared__ptr__MR__ChangeGridAction_8java.html":[9,6,2,0,0,1,0,0,1213],
 "std__shared__ptr__MR__ChangeIsoAction_8java.html":[9,6,2,0,0,1,0,0,1214],
-"std__shared__ptr__MR__ChangeLabelAction_8java.html":[9,6,2,0,0,1,0,0,1215],
-"std__shared__ptr__MR__ChangeLinesColorMapAction_8java.html":[9,6,2,0,0,1,0,0,1216]
+"std__shared__ptr__MR__ChangeLabelAction_8java.html":[9,6,2,0,0,1,0,0,1215]
 };

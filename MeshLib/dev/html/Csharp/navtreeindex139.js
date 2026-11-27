@@ -1,5 +1,6 @@
 var NAVTREEINDEX139 =
 {
+"classMR_1_1SaveSettings.html#a2db28e4449528ee19634a01d654f48f0":[9,3,0,0,0,1713,12],
 "classMR_1_1SaveSettings.html#a58b76e1e39c101b87925043fb9c4f93e":[9,3,0,0,0,1713,5],
 "classMR_1_1SaveSettings.html#a603cb9e64ff00f546275d30d0514c1c7":[9,3,0,0,0,1713,19],
 "classMR_1_1SaveSettings.html#a65abab80e05725aad1955e9671ebaeaa":[9,3,0,0,0,1713,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX139 =
 "classMR_1_1SetBitIteratorT__MRObjBitSet.html#a3f53cba6365a2377c61b9026c18e7c0f":[9,3,0,0,0,1730,2],
 "classMR_1_1SetBitIteratorT__MRObjBitSet.html#a4c48e7943aba393477b04bf01b921c6f":[9,3,0,0,0,1730,5],
 "classMR_1_1SetBitIteratorT__MRObjBitSet.html#a4e0b4ff417d8312047f9267e761751bd":[9,3,0,0,0,1730,1],
-"classMR_1_1SetBitIteratorT__MRObjBitSet.html#a9613bbe3241cd575da4caf2676d6134a":[9,3,0,0,0,1730,6],
-"classMR_1_1SetBitIteratorT__MRObjBitSet.html#af64bf6623bade8b907bfccf51a671ea4":[9,3,0,0,0,1730,0]
+"classMR_1_1SetBitIteratorT__MRObjBitSet.html#a9613bbe3241cd575da4caf2676d6134a":[9,3,0,0,0,1730,6]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"structmeshlib_1_1ContoursDistanceMapOptions.html#a5ff2e172133a31ae1281c1bed739d209":[9,5,1,0,0,221,8],
 "structmeshlib_1_1ContoursDistanceMapOptions.html#a7a2768ae0c403e6fef310556725a038e":[9,5,0,0,0,234,11],
 "structmeshlib_1_1ContoursDistanceMapOptions.html#a7a2768ae0c403e6fef310556725a038e":[9,5,1,0,0,221,11],
 "structmeshlib_1_1ContoursDistanceMapOptions.html#a7bf6486595930ba25834d14a3ec9cfee":[9,5,0,0,0,234,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "structmeshlib_1_1CutByProjectionSettings.html#a16e113ee390798751a32e1e92bebcb3f":[9,5,1,0,0,238,6],
 "structmeshlib_1_1CutByProjectionSettings.html#a379f84bf79d3392c050f54a94f869899":[9,5,0,0,0,251,4],
 "structmeshlib_1_1CutByProjectionSettings.html#a379f84bf79d3392c050f54a94f869899":[9,5,1,0,0,238,4],
-"structmeshlib_1_1CutByProjectionSettings.html#ac81c7b3063fb40fd3aab132bddbe98f1":[9,5,0,0,0,251,5],
-"structmeshlib_1_1CutByProjectionSettings.html#ac81c7b3063fb40fd3aab132bddbe98f1":[9,5,1,0,0,238,5]
+"structmeshlib_1_1CutByProjectionSettings.html#ac81c7b3063fb40fd3aab132bddbe98f1":[9,5,0,0,0,251,5]
 };

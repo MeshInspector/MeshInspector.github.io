@@ -52,7 +52,7 @@ var NAVTREEINDEX0 =
 "../FirstPluginTutorial.html":[5,0],
 "../FloatVSDouble.html":[8,3],
 "../HowtoAddPluginOverview.html":[8,8],
-"../I18nGuide.html":[8,9],
+"../I18nGuide.html":[8,10],
 "../InstallationGuide.html":[2],
 "../Java/APIJavaPage.html":[9,6],
 "../Js/APIJsPage.html":[9,4],
@@ -69,6 +69,7 @@ var NAVTREEINDEX0 =
 "../PackageOverview.html":[8],
 "../Py/APIPyPage.html":[9,1],
 "../Rust/APIRustPage.html":[9,5],
+"../ScannerBackendGuide.html":[8,9],
 "../SpacesHelp.html":[8,5],
 "../StatePluginsHelp.html":[8,7],
 "../SupportGeneratorTutorial.html":[5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRCloseVertices_8h.html":[9,0,3,0,7,63],
 "MRCloseVertices_8h_source.html":[9,0,3,0,7,63],
 "MRClosestPointInTriangle_8h.html":[9,0,3,0,7,61],
-"MRClosestPointInTriangle_8h_source.html":[9,0,3,0,7,61],
-"MRClosestWeightedPoint_8h.html":[9,0,3,0,7,62]
+"MRClosestPointInTriangle_8h_source.html":[9,0,3,0,7,61]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX253 =
 {
+"structmeshlib_1_1triangulation__helpers_1_1Settings.html#a7d6840e363a4178df7ae5bc58ee18bd5":[9,5,0,0,0,33,1,9],
 "structmeshlib_1_1triangulation__helpers_1_1Settings.html#a7d6840e363a4178df7ae5bc58ee18bd5":[9,5,1,0,0,20,1,9],
 "structmeshlib_1_1triangulation__helpers_1_1Settings.html#a8c5e1cbaad04cdd200128cbcae1b6042":[9,5,0,0,0,33,1,14],
 "structmeshlib_1_1triangulation__helpers_1_1Settings.html#a8c5e1cbaad04cdd200128cbcae1b6042":[9,5,1,0,0,20,1,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX253 =
 "structmeshlib_1_1weighted__shell_1_1ParametersBase.html#a6106908f948db00728e12dcfb0294cba":[9,5,0,0,0,36,1,2],
 "structmeshlib_1_1weighted__shell_1_1ParametersBase.html#a6106908f948db00728e12dcfb0294cba":[9,5,1,0,0,23,1,2],
 "structmeshlib_1_1weighted__shell_1_1ParametersBase.html#a763d71147aaf6515f923d51049b928ce":[9,5,0,0,0,36,1,7],
-"structmeshlib_1_1weighted__shell_1_1ParametersBase.html#a763d71147aaf6515f923d51049b928ce":[9,5,1,0,0,23,1,7],
-"structmeshlib_1_1weighted__shell_1_1ParametersBase.html#a865a155cfa7d811bdfd722658ba762b9":[9,5,0,0,0,36,1,6]
+"structmeshlib_1_1weighted__shell_1_1ParametersBase.html#a763d71147aaf6515f923d51049b928ce":[9,5,1,0,0,23,1,7]
 };

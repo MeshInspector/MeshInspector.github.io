@@ -1,5 +1,6 @@
 var NAVTREEINDEX84 =
 {
+"classVector__MR__GraphEdgeId__MR__GraphEdgeId.html#a3b4417aeb3442652e08c5b8540ee8b34":[9,4,1,0,1505,46],
 "classVector__MR__GraphEdgeId__MR__GraphEdgeId.html#a3cc738ccc3fdf0ae87755b0fcc547bbe":[9,4,1,0,1505,26],
 "classVector__MR__GraphEdgeId__MR__GraphEdgeId.html#a40548dc77be48f423f96637a7df16a5e":[9,4,1,0,1505,21],
 "classVector__MR__GraphEdgeId__MR__GraphEdgeId.html#a45cb97022204fdbb6498a7649a9ffff5":[9,4,1,0,1505,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX84 =
 "classVector__MR__Id__MR__SurfaceDistanceStartTag__MR__Id__MR__SurfaceDistanceStartTag.html#a45a140c8c3cfe1704b1efae9c5bba65e":[9,4,1,0,1509,41],
 "classVector__MR__Id__MR__SurfaceDistanceStartTag__MR__Id__MR__SurfaceDistanceStartTag.html#a48c1cf62b599d54053d2ae42ab91772c":[9,4,1,0,1509,29],
 "classVector__MR__Id__MR__SurfaceDistanceStartTag__MR__Id__MR__SurfaceDistanceStartTag.html#a49e57fc17d5d92158884e64469d1bc0f":[9,4,1,0,1509,35],
-"classVector__MR__Id__MR__SurfaceDistanceStartTag__MR__Id__MR__SurfaceDistanceStartTag.html#a4ac08f87f0ec851c7ec76bdc4c7cc61a":[9,4,1,0,1509,13],
-"classVector__MR__Id__MR__SurfaceDistanceStartTag__MR__Id__MR__SurfaceDistanceStartTag.html#a5782c3112ae89cf64e42209565789525":[9,4,1,0,1509,33]
+"classVector__MR__Id__MR__SurfaceDistanceStartTag__MR__Id__MR__SurfaceDistanceStartTag.html#a4ac08f87f0ec851c7ec76bdc4c7cc61a":[9,4,1,0,1509,13]
 };

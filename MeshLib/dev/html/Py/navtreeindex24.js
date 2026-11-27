@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"classmrmeshpy_1_1ConstChangeOnePointInPolylineAction.html#ab3392f6db3de71c5a1ba4f8559b8876b":[9,1,1,0,1,675,2],
 "classmrmeshpy_1_1ConstChangePointCloudAction.html":[9,1,0,0,2,676],
 "classmrmeshpy_1_1ConstChangePointCloudAction.html":[9,1,1,0,1,676],
 "classmrmeshpy_1_1ConstChangePointCloudAction.html#a5dec1c3087447b710c82297841135b95":[9,1,0,0,2,676,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "classmrmeshpy_1_1ConstColorMapAggregator__UndirectedEdgeTag__PartialColorMap.html":[9,1,1,0,1,701],
 "classmrmeshpy_1_1ConstColorMapAggregator__UndirectedEdgeTag__PartialColorMap.html#a0607d69b5e439c15a1fdcb3c3b812fbb":[9,1,0,0,2,701,0],
 "classmrmeshpy_1_1ConstColorMapAggregator__UndirectedEdgeTag__PartialColorMap.html#a0607d69b5e439c15a1fdcb3c3b812fbb":[9,1,1,0,1,701,0],
-"classmrmeshpy_1_1ConstColorMapAggregator__UndirectedEdgeTag__PartialColorMap.html#ae73171eb31d00ee973ffebb78359b1b8":[9,1,0,0,2,701,2],
-"classmrmeshpy_1_1ConstColorMapAggregator__UndirectedEdgeTag__PartialColorMap.html#ae73171eb31d00ee973ffebb78359b1b8":[9,1,1,0,1,701,2]
+"classmrmeshpy_1_1ConstColorMapAggregator__UndirectedEdgeTag__PartialColorMap.html#ae73171eb31d00ee973ffebb78359b1b8":[9,1,0,0,2,701,2]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"MRObjectSave_8h_source.html":[9,0,3,0,7,291],
 "MRObjectTagEventDispatcher_8h.html":[9,0,3,0,7,293],
 "MRObjectTagEventDispatcher_8h_source.html":[9,0,3,0,7,293],
 "MRObjectTransformWidget_8h.html":[9,0,3,0,11,68],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "MRRenderImGui_8h.html":[9,0,3,0,11,85],
 "MRRenderImGui_8h_source.html":[9,0,3,0,11,85],
 "MRRenderLabelObject_8h.html":[9,0,3,0,11,87],
-"MRRenderLabelObject_8h_source.html":[9,0,3,0,11,87],
-"MRRenderLinesObject_8h.html":[9,0,3,0,11,88]
+"MRRenderLabelObject_8h_source.html":[9,0,3,0,11,87]
 };

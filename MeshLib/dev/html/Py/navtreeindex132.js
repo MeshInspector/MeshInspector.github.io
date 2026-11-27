@@ -1,5 +1,6 @@
 var NAVTREEINDEX132 =
 {
+"classmrmeshpy_1_1Features_1_1MeasureResult_1_1ConstBasicPart.html#acbb6c1dd6fc3789d22053f2b20bfed72":[9,1,1,0,1,1597,6,3,1],
 "classmrmeshpy_1_1Features_1_1MeasureResult_1_1ConstDistance.html":[9,1,0,0,2,1597,6,4],
 "classmrmeshpy_1_1Features_1_1MeasureResult_1_1ConstDistance.html":[9,1,1,0,1,1597,6,4],
 "classmrmeshpy_1_1Features_1_1MeasureResult_1_1ConstDistance.html#a00157f4c692d604711724deb6f6fdc30":[9,1,0,0,2,1597,6,4,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX132 =
 "classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Features__Primitives__ConeSegment.html#a11d54cf9a6ca5b99ade1ffdf1a069a77":[9,1,1,0,1,1597,9,6,1],
 "classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Sphere3f.html":[9,1,0,0,2,1597,9,7],
 "classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Sphere3f.html":[9,1,1,0,1,1597,9,7],
-"classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Sphere3f.html#a9f2aaddfab09fcf1ac5fbd04d3f4e89d":[9,1,0,0,2,1597,9,7,0],
-"classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Sphere3f.html#a9f2aaddfab09fcf1ac5fbd04d3f4e89d":[9,1,1,0,1,1597,9,7,0]
+"classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Sphere3f.html#a9f2aaddfab09fcf1ac5fbd04d3f4e89d":[9,1,0,0,2,1597,9,7,0]
 };

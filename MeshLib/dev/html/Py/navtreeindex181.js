@@ -1,5 +1,6 @@
 var NAVTREEINDEX181 =
 {
+"classmrmeshpy_1_1SignedDistanceToMeshOptions.html#ad55b383858a0417d2464b5c247b39436":[9,1,1,0,1,2191,0],
 "classmrmeshpy_1_1SignedDistanceToMeshOptions.html#af3e46181f0f05d279f96d44cd590c86d":[9,1,0,0,2,2191,2],
 "classmrmeshpy_1_1SignedDistanceToMeshOptions.html#af3e46181f0f05d279f96d44cd590c86d":[9,1,1,0,1,2191,2],
 "classmrmeshpy_1_1SignedDistanceToMeshResult.html":[9,1,0,0,2,2192],
@@ -248,6 +249,5 @@ var NAVTREEINDEX181 =
 "classmrmeshpy_1_1SmoothFillingSettings.html#ad216bf985893fd3396aed4210c80d1d2":[9,1,1,0,1,2206,9],
 "classmrmeshpy_1_1SomeLocalTriangulations.html":[9,1,0,0,2,2207],
 "classmrmeshpy_1_1SomeLocalTriangulations.html":[9,1,1,0,1,2207],
-"classmrmeshpy_1_1SomeLocalTriangulations.html#a1c21b3534645ed483504e4b3b459c2a1":[9,1,0,0,2,2207,1],
-"classmrmeshpy_1_1SomeLocalTriangulations.html#a1c21b3534645ed483504e4b3b459c2a1":[9,1,1,0,1,2207,1]
+"classmrmeshpy_1_1SomeLocalTriangulations.html#a1c21b3534645ed483504e4b3b459c2a1":[9,1,0,0,2,2207,1]
 };

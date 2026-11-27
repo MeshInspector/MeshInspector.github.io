@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"classUndirectedEdgeId.html#a2fb4ef347584dd80598edeaaa5b61838":[9,4,1,0,1439,8],
 "classUndirectedEdgeId.html#a39ddf6c2a4b3e65f2ee2ec77d4651517":[9,4,1,0,1439,9],
 "classUndirectedEdgeId.html#a3c59f2edae4239fa8d289b80a310e347":[9,4,1,0,1439,4],
 "classUndirectedEdgeId.html#a50e29e145e6ecaa26383bf16cb7b50d6":[9,4,1,0,1439,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX79 =
 "classUniteMeshNormalizationParams.html#a761b5e39997a02088a5d430a93f8f6f4":[9,4,1,0,1454,6],
 "classUniteMeshNormalizationParams.html#aa2093e8d6f70a2ce9f9ff704a2613e4f":[9,4,1,0,1454,4],
 "classUniteMeshNormalizationParams.html#aad2c4ea08758afcfa93afd3321ad97be":[9,4,1,0,1454,0],
-"classUniteMeshNormalizationParams.html#acebd5768b70ce02d24256299831894e1":[9,4,1,0,1454,2],
-"classUnorientedTriangle.html":[9,4,1,0,1456]
+"classUniteMeshNormalizationParams.html#acebd5768b70ce02d24256299831894e1":[9,4,1,0,1454,2]
 };

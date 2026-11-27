@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1PythonViewer_1_1UiValueUint.html":[9,0,1,0,1,41,4],
 "structMR_1_1PythonViewer_1_1UiValueUint.html":[9,0,2,0,1,25,4],
 "structMR_1_1PythonViewer_1_1UiValueUint.html#a4c2014f4123048e8f920905d9707589e":[9,0,1,0,1,41,4,1],
 "structMR_1_1PythonViewer_1_1UiValueUint.html#a4c2014f4123048e8f920905d9707589e":[9,0,2,0,1,25,4,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1SurfaceManipulationWidget_1_1PickedVertData.html":[9,0,0,19,794],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[9,0,0,19,793],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html":[9,0,0,19,796],
-"structMR_1_1SymMatrix2.html":[9,0,0,0,7,4],
-"structMR_1_1SymMatrix2.html":[9,0,0,19,545]
+"structMR_1_1SymMatrix2.html":[9,0,0,0,7,4]
 };

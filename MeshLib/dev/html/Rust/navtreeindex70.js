@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"structmeshlib_1_1Laplacian.html#a6f981827d8eca8563da76f336680bd7c":[9,5,1,0,0,533,6],
 "structmeshlib_1_1Laplacian.html#a91dd778fd0c6506d5a30274059d7405b":[9,5,0,0,0,546,13],
 "structmeshlib_1_1Laplacian.html#a91dd778fd0c6506d5a30274059d7405b":[9,5,1,0,0,533,13],
 "structmeshlib_1_1Laplacian.html#ab72b41798c141d4ff3ff4c3dc5dd4ab0":[9,5,0,0,0,546,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "structmeshlib_1_1LineInterpolationParams.html#ad9eff87a5e47210f238f926858a980c0":[9,5,1,0,0,542,9],
 "structmeshlib_1_1LineObject.html":[9,5,0,0,0,556],
 "structmeshlib_1_1LineObject.html":[9,5,1,0,0,543],
-"structmeshlib_1_1LineObject.html#a069269f2c58709727641f5f33a65b5e3":[9,5,0,0,0,556,16],
-"structmeshlib_1_1LineObject.html#a069269f2c58709727641f5f33a65b5e3":[9,5,1,0,0,543,16]
+"structmeshlib_1_1LineObject.html#a069269f2c58709727641f5f33a65b5e3":[9,5,0,0,0,556,16]
 };

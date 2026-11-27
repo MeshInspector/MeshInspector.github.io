@@ -1,5 +1,6 @@
 var NAVTREEINDEX167 =
 {
+"structmeshlib_1_1Vector__char__MR__VertId.html":[9,5,0,0,0,1620],
 "structmeshlib_1_1Vector__char__MR__VertId.html":[9,5,1,0,0,1607],
 "structmeshlib_1_1Vector__char__MR__VertId.html#a02b038a3aa7b5e99c843dbc1616fcebd":[9,5,0,0,0,1620,29],
 "structmeshlib_1_1Vector__char__MR__VertId.html#a02b038a3aa7b5e99c843dbc1616fcebd":[9,5,1,0,0,1607,29],
@@ -248,6 +249,5 @@ var NAVTREEINDEX167 =
 "structmeshlib_1_1Vector__float__MR__Id__MR__SurfaceDistanceStartTag.html#a29e9edb84bd264f80faede9b99aeff58":[9,5,0,0,0,1623,10],
 "structmeshlib_1_1Vector__float__MR__Id__MR__SurfaceDistanceStartTag.html#a29e9edb84bd264f80faede9b99aeff58":[9,5,1,0,0,1610,10],
 "structmeshlib_1_1Vector__float__MR__Id__MR__SurfaceDistanceStartTag.html#a3301466cd944d1436bb441ace83a0720":[9,5,0,0,0,1623,33],
-"structmeshlib_1_1Vector__float__MR__Id__MR__SurfaceDistanceStartTag.html#a3301466cd944d1436bb441ace83a0720":[9,5,1,0,0,1610,33],
-"structmeshlib_1_1Vector__float__MR__Id__MR__SurfaceDistanceStartTag.html#a41638c39a5a1588ad6705bb80be61f9f":[9,5,0,0,0,1623,20]
+"structmeshlib_1_1Vector__float__MR__Id__MR__SurfaceDistanceStartTag.html#a3301466cd944d1436bb441ace83a0720":[9,5,1,0,0,1610,33]
 };

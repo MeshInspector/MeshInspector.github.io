@@ -1,5 +1,6 @@
 var NAVTREEINDEX84 =
 {
+"classMR_1_1Const__SliceInfoBase.html#adc17eeabbb4981d0a5be17ac9894d31b":[9,3,0,0,0,887,4],
 "classMR_1_1Const__SliceInfoBase.html#af116a345c847596e710745a369da6c2a":[9,3,0,0,0,887,10],
 "classMR_1_1Const__SliceInfoBase.html#af6c4e50093bd64d38e772125b8771506":[9,3,0,0,0,887,8],
 "classMR_1_1Const__SliceInfoBase.html#afd6bcea0ef7b827c7a08238b5fb2ef07":[9,3,0,0,0,887,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX84 =
 "classMR_1_1Const__SphereObject.html#afe97931a6f0e7cefa70ee838fcb41e37":[9,3,0,0,0,897,57],
 "classMR_1_1Const__SphereParams.html":[9,3,0,0,0,898],
 "classMR_1_1Const__SphereParams.html#a0e33c4121c85e05664103c085fff9f59":[9,3,0,0,0,898,6],
-"classMR_1_1Const__SphereParams.html#a2b7cfffc19bb8e3078d0e55cc9503052":[9,3,0,0,0,898,1],
-"classMR_1_1Const__SphereParams.html#a31bf0cf22c5aa4034bd387b586c86634":[9,3,0,0,0,898,3]
+"classMR_1_1Const__SphereParams.html#a2b7cfffc19bb8e3078d0e55cc9503052":[9,3,0,0,0,898,1]
 };

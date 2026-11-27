@@ -1,5 +1,6 @@
 var NAVTREEINDEX162 =
 {
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#afe00c9653e8d70f5dd643c25583d3672":[9,1,1,0,1,1995,1],
 "classmrmeshpy_1_1ObjMap.html":[9,1,0,0,2,1996],
 "classmrmeshpy_1_1ObjMap.html":[9,1,1,0,1,1996],
 "classmrmeshpy_1_1ObjMap.html#a01d3d947c5fc8301456123b0499edde3":[9,1,0,0,2,1996,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX162 =
 "classmrmeshpy_1_1ObjectComparableWithReference_1_1ConstComparisonReferenceValue.html#a78411ca9053e43cb46495453247ef047":[9,1,1,0,1,1970,4,2],
 "classmrmeshpy_1_1ObjectComparableWithReference_1_1ConstComparisonReferenceValue.html#aedc16bc715a03f28c173a6aea1e9f2c8":[9,1,0,0,2,1970,4,1],
 "classmrmeshpy_1_1ObjectComparableWithReference_1_1ConstComparisonReferenceValue.html#aedc16bc715a03f28c173a6aea1e9f2c8":[9,1,1,0,1,1970,4,1],
-"classmrmeshpy_1_1ObjectComparableWithReference_1_1ConstComparisonTolerance.html":[9,1,0,0,2,1970,5],
-"classmrmeshpy_1_1ObjectComparableWithReference_1_1ConstComparisonTolerance.html":[9,1,1,0,1,1970,5]
+"classmrmeshpy_1_1ObjectComparableWithReference_1_1ConstComparisonTolerance.html":[9,1,0,0,2,1970,5]
 };

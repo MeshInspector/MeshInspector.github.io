@@ -1,5 +1,6 @@
 var NAVTREEINDEX94 =
 {
+"classmrmeshpy_1_1Const__func__float__from__int__int.html#abf50ba1cdfd10333affe14a2528ce351":[9,1,1,0,1,215,0],
 "classmrmeshpy_1_1Const__func__float__from__int__int.html#aebbb85a082437f9cffa45b52226ab717":[9,1,0,0,2,215,4],
 "classmrmeshpy_1_1Const__func__float__from__int__int.html#aebbb85a082437f9cffa45b52226ab717":[9,1,1,0,1,215,4],
 "classmrmeshpy_1_1Const__func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins.html":[9,1,0,0,2,216],
@@ -248,6 +249,5 @@ var NAVTREEINDEX94 =
 "classmrmeshpy_1_1Const__func__void__from__Id__UndirectedEdgeTag__Vector2__float__float.html#a15538021893babc626cc17121caccb26":[9,1,1,0,1,255,2],
 "classmrmeshpy_1_1Const__func__void__from__Id__UndirectedEdgeTag__Vector2__float__float.html#a1ad111fec7c7db80c07bb98c4d8ca772":[9,1,0,0,2,255,1],
 "classmrmeshpy_1_1Const__func__void__from__Id__UndirectedEdgeTag__Vector2__float__float.html#a1ad111fec7c7db80c07bb98c4d8ca772":[9,1,1,0,1,255,1],
-"classmrmeshpy_1_1Const__func__void__from__Id__UndirectedEdgeTag__Vector2__float__float.html#a28ca1ac6bc322196f28379b906a90cf8":[9,1,0,0,2,255,0],
-"classmrmeshpy_1_1Const__func__void__from__Id__UndirectedEdgeTag__Vector2__float__float.html#a28ca1ac6bc322196f28379b906a90cf8":[9,1,1,0,1,255,0]
+"classmrmeshpy_1_1Const__func__void__from__Id__UndirectedEdgeTag__Vector2__float__float.html#a28ca1ac6bc322196f28379b906a90cf8":[9,1,0,0,2,255,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"classSplineSettings.html#a13a5a284e3a5331df5bfedfbf4b04d56":[9,4,1,0,848,5],
 "classSplineSettings.html#a37ef35cde587f12388ff0c6d43190efb":[9,4,1,0,848,2],
 "classSplineSettings.html#a7286c0f5c740a66a47a4f7d13765322f":[9,4,1,0,848,7],
 "classSplineSettings.html#a9737dfb9d7d081ee40cc56782218229e":[9,4,1,0,848,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "classSymMatrix3d.html#af520a0de496980e67eddeb7dfbfb428c":[9,4,1,0,1383,9],
 "classSymMatrix3d.html#af876cf2320e8457d6ddd35ce947b229e":[9,4,1,0,1383,14],
 "classSymMatrix3d.html#afc32ba602c07b4edff83c454774273b5":[9,4,1,0,1383,6],
-"classSymMatrix3f.html":[9,4,1,0,1384],
-"classSymMatrix3f.html#a032f31ebcb81275d020591cd2dcec4e2":[9,4,1,0,1384,17]
+"classSymMatrix3f.html":[9,4,1,0,1384]
 };

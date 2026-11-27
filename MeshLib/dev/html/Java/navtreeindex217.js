@@ -1,5 +1,6 @@
 var NAVTREEINDEX217 =
 {
+"classmeshlib_1_1std__function__void__from__MR__SignDetectionMode.html#ad6590ce359a797c21cf548ccbe88602e":[9,6,0,0,0,1083,2],
 "classmeshlib_1_1std__function__void__from__MR__SignDetectionMode.html#ad6590ce359a797c21cf548ccbe88602e":[9,6,1,0,0,1083,2],
 "classmeshlib_1_1std__function__void__from__MR__SignDetectionMode.html#ae129bc1c7c969a111e8635ea2b10d41a":[9,6,0,0,0,1083,6],
 "classmeshlib_1_1std__function__void__from__MR__SignDetectionMode.html#ae129bc1c7c969a111e8635ea2b10d41a":[9,6,1,0,0,1083,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX217 =
 "classmeshlib_1_1std__optional__MR__AllLocalTriangulations.html":[9,6,0,0,0,1094],
 "classmeshlib_1_1std__optional__MR__AllLocalTriangulations.html":[9,6,1,0,0,1094],
 "classmeshlib_1_1std__optional__MR__AllLocalTriangulations.html#a28b6f0e8e2471c5816d702b7fc015731":[9,6,0,0,0,1094,5],
-"classmeshlib_1_1std__optional__MR__AllLocalTriangulations.html#a28b6f0e8e2471c5816d702b7fc015731":[9,6,1,0,0,1094,5],
-"classmeshlib_1_1std__optional__MR__AllLocalTriangulations.html#a5174ec42d74f89bbb18fc19655139dda":[9,6,0,0,0,1094,6]
+"classmeshlib_1_1std__optional__MR__AllLocalTriangulations.html#a28b6f0e8e2471c5816d702b7fc015731":[9,6,1,0,0,1094,5]
 };

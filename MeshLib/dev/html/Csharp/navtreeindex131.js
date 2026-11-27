@@ -1,5 +1,6 @@
 var NAVTREEINDEX131 =
 {
+"classMR_1_1ObjectSave_1_1Settings.html#a2282543d73724cbcd2f635a27e088564":[9,3,0,0,0,1570,1,0],
 "classMR_1_1ObjectSave_1_1Settings.html#a48b77ee3c7c045f6386616669ecbe2cb":[9,3,0,0,0,1570,1,1],
 "classMR_1_1ObjectSave_1_1Settings.html#a4ab83bbb53de6611e6868e6dfbb699ef":[9,3,0,0,0,1570,1,7],
 "classMR_1_1ObjectSave_1_1Settings.html#a5c6e05d7daa5a16ddad366222d11db46":[9,3,0,0,0,1570,1,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX131 =
 "classMR_1_1OutliersDetector.html#a1a133a0e86f74d4b9b3b15863ebe58f6":[9,3,0,0,0,1597,3],
 "classMR_1_1OutliersDetector.html#a447054174391f5d937d86161d5930a9c":[9,3,0,0,0,1597,8],
 "classMR_1_1OutliersDetector.html#a5d308407320edf3f1cb4dbfda06d0951":[9,3,0,0,0,1597,6],
-"classMR_1_1OutliersDetector.html#a683bd8730f7da6ff36bf9ce29918cb0c":[9,3,0,0,0,1597,4],
-"classMR_1_1OutliersDetector.html#a7b1516bdcd2f22b8e5cb1f5763e26ae5":[9,3,0,0,0,1597,0]
+"classMR_1_1OutliersDetector.html#a683bd8730f7da6ff36bf9ce29918cb0c":[9,3,0,0,0,1597,4]
 };

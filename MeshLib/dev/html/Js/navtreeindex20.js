@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classBox2d.html#aff4d2db05b488bf4652806af4751510f":[9,4,1,0,99,0],
 "classBox2f.html":[9,4,1,0,100],
 "classBox2f.html#a010141ab9cd5a1ab249570febb055e65":[9,4,1,0,100,32],
 "classBox2f.html#a0410f28fa30fc3b7433daa6b63e429f9":[9,4,1,0,100,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classBox__unsigned__short.html":[9,4,1,0,107],
 "classBox__unsigned__short.html#a01aedc6e98c55c8a155b63f5b15fa6fc":[9,4,1,0,107,18],
 "classBox__unsigned__short.html#a039e586b7c1cf0b6f7c8ffcac489e4ab":[9,4,1,0,107,10],
-"classBox__unsigned__short.html#a0a28097a43595042668836867865af97":[9,4,1,0,107,24],
-"classBox__unsigned__short.html#a10809d0d7f5089f53e27894112533114":[9,4,1,0,107,2]
+"classBox__unsigned__short.html#a0a28097a43595042668836867865af97":[9,4,1,0,107,24]
 };

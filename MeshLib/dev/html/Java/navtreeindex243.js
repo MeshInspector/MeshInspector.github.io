@@ -1,5 +1,6 @@
 var NAVTREEINDEX243 =
 {
+"classmeshlib_1_1std__vector__MR__Box3f.html#af902ee000c735afc09c738fef035f8f3":[9,6,0,0,0,1341,19],
 "classmeshlib_1_1std__vector__MR__Box3f.html#af902ee000c735afc09c738fef035f8f3":[9,6,1,0,0,1341,19],
 "classmeshlib_1_1std__vector__MR__Box3f.html#af948c6f1ed8a81ee49a4683cc0f4e9e5":[9,6,0,0,0,1341,5],
 "classmeshlib_1_1std__vector__MR__Box3f.html#af948c6f1ed8a81ee49a4683cc0f4e9e5":[9,6,1,0,0,1341,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX243 =
 "classmeshlib_1_1std__vector__MR__CNCMachineSettings__RotationAxisName.html#abd39e6369a6faa4668351ee986797482":[9,6,0,0,0,1346,1],
 "classmeshlib_1_1std__vector__MR__CNCMachineSettings__RotationAxisName.html#abd39e6369a6faa4668351ee986797482":[9,6,1,0,0,1346,1],
 "classmeshlib_1_1std__vector__MR__CNCMachineSettings__RotationAxisName.html#ac96de779d6635b1e1bab7f4af0e07d75":[9,6,0,0,0,1346,2],
-"classmeshlib_1_1std__vector__MR__CNCMachineSettings__RotationAxisName.html#ac96de779d6635b1e1bab7f4af0e07d75":[9,6,1,0,0,1346,2],
-"classmeshlib_1_1std__vector__MR__CNCMachineSettings__RotationAxisName.html#acd60d67f096752f1bbb84e25607b840e":[9,6,0,0,0,1346,13]
+"classmeshlib_1_1std__vector__MR__CNCMachineSettings__RotationAxisName.html#ac96de779d6635b1e1bab7f4af0e07d75":[9,6,1,0,0,1346,2]
 };

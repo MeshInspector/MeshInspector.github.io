@@ -1,5 +1,6 @@
 var NAVTREEINDEX267 =
 {
+"classmeshlib_1_1std__vector__MR__VoxelId__MR__Allocator__MR__VoxelId.html#a00570536dd4e3398c9e0f1a8b192ffee":[9,6,0,0,0,1464,20],
 "classmeshlib_1_1std__vector__MR__VoxelId__MR__Allocator__MR__VoxelId.html#a00570536dd4e3398c9e0f1a8b192ffee":[9,6,1,0,0,1464,20],
 "classmeshlib_1_1std__vector__MR__VoxelId__MR__Allocator__MR__VoxelId.html#a0eb6f9386d34ab1bd3f3a5519ed42887":[9,6,0,0,0,1464,0],
 "classmeshlib_1_1std__vector__MR__VoxelId__MR__Allocator__MR__VoxelId.html#a0eb6f9386d34ab1bd3f3a5519ed42887":[9,6,1,0,0,1464,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX267 =
 "classmeshlib_1_1std__vector__MR__WeightedVertex.html#a2142610b077d4b471735e6e318f06ad7":[9,6,0,0,0,1469,2],
 "classmeshlib_1_1std__vector__MR__WeightedVertex.html#a2142610b077d4b471735e6e318f06ad7":[9,6,1,0,0,1469,2],
 "classmeshlib_1_1std__vector__MR__WeightedVertex.html#a231e941446c953a91a3c5b615a6cd232":[9,6,0,0,0,1469,3],
-"classmeshlib_1_1std__vector__MR__WeightedVertex.html#a231e941446c953a91a3c5b615a6cd232":[9,6,1,0,0,1469,3],
-"classmeshlib_1_1std__vector__MR__WeightedVertex.html#a256eadd696ccee5fcd9001545081ced5":[9,6,0,0,0,1469,10]
+"classmeshlib_1_1std__vector__MR__WeightedVertex.html#a231e941446c953a91a3c5b615a6cd232":[9,6,1,0,0,1469,3]
 };

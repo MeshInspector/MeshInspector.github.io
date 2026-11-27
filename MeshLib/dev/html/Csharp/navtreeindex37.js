@@ -1,5 +1,6 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html#a36868ad3e655f3bf11d1ad5d76d2db81":[9,3,0,0,0,314,13],
 "classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html#a3ce6888cb2c19665d765de248461cedc":[9,3,0,0,0,314,7],
 "classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html#a81d076e1212e5f465c192b0592e92f97":[9,3,0,0,0,314,9],
 "classMR_1_1Const__Buffer__MRNodeId__MRNodeId.html#a8373d4d7890363f9fdf100dd2713ba2c":[9,3,0,0,0,314,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1Const__ChangeActiveBoxAction.html#ad97f3c24ac018ce601518f15544c9346":[9,3,0,0,0,327,10],
 "classMR_1_1Const__ChangeColoringType.html":[9,3,0,0,0,328],
 "classMR_1_1Const__ChangeColoringType.html#a146a0e140cd19017b7b8a11d75278d26":[9,3,0,0,0,328,5],
-"classMR_1_1Const__ChangeColoringType.html#a177f9369c6343c2d5e432ed323dc71e7":[9,3,0,0,0,328,2],
-"classMR_1_1Const__ChangeColoringType.html#a639d95e664b872203dcc88f4d3227d82":[9,3,0,0,0,328,7]
+"classMR_1_1Const__ChangeColoringType.html#a177f9369c6343c2d5e432ed323dc71e7":[9,3,0,0,0,328,2]
 };

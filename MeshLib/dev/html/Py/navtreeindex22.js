@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"classmrmeshpy_1_1ConstBuffer__RegionId__RegionId.html#a189d82ca3a96d5476ba3c43f601c0bc3":[9,1,1,0,1,641,2],
 "classmrmeshpy_1_1ConstBuffer__RegionId__RegionId.html#a24a873d3c04ae78177c74c29c3174d49":[9,1,0,0,2,641,6],
 "classmrmeshpy_1_1ConstBuffer__RegionId__RegionId.html#a24a873d3c04ae78177c74c29c3174d49":[9,1,1,0,1,641,6],
 "classmrmeshpy_1_1ConstBuffer__RegionId__RegionId.html#a3bf4065e416df8c8a1f2a644dd704d76":[9,1,0,0,2,641,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "classmrmeshpy_1_1ConstCNCMachineSettings.html#aca7ea4d3da3667aaffafed6349f139fe":[9,1,1,0,1,698,3],
 "classmrmeshpy_1_1ConstCNCMachineSettings.html#afcc49e49281cd9214a4e5c612859516e":[9,1,0,0,2,698,2],
 "classmrmeshpy_1_1ConstCNCMachineSettings.html#afcc49e49281cd9214a4e5c612859516e":[9,1,1,0,1,698,2],
-"classmrmeshpy_1_1ConstCNCMachineSettings_1_1RotationAxisName.html":[9,1,0,0,2,698,0],
-"classmrmeshpy_1_1ConstCNCMachineSettings_1_1RotationAxisName.html":[9,1,1,0,1,698,0]
+"classmrmeshpy_1_1ConstCNCMachineSettings_1_1RotationAxisName.html":[9,1,0,0,2,698,0]
 };

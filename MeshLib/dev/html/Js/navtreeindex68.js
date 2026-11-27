@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"classQuaternionf.html#aec5ff7bf4b678ac4b297c3358a61cd4b":[9,4,1,0,773,13],
 "classQuaternionf.html#af3b54caed56e9c4eef621ba7e990f215":[9,4,1,0,773,0],
 "classQuaternionf.html#afa4dedba5df18360f8d3351d161554a1":[9,4,1,0,773,12],
 "classQuaternionf.html#afda061414a27ee4b50438bc175acfd75":[9,4,1,0,773,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "classRegionBitSet.html#a2722b632398ad1b233a8a19a12f298d8":[9,4,1,0,783,4],
 "classRegionBitSet.html#a27458636bcccf2e0e5a0e36fc1a62206":[9,4,1,0,783,70],
 "classRegionBitSet.html#a38bcceb59566baca0a0a619df7a01efc":[9,4,1,0,783,19],
-"classRegionBitSet.html#a3b77d087ee6ce1d2aeb7c143bc607771":[9,4,1,0,783,56],
-"classRegionBitSet.html#a47c7ff4974cd657ca5c529ed67b854e7":[9,4,1,0,783,69]
+"classRegionBitSet.html#a3b77d087ee6ce1d2aeb7c143bc607771":[9,4,1,0,783,56]
 };

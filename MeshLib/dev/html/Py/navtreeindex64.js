@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"classmrmeshpy_1_1ConstSeparationPointStorage_1_1ConstBlock.html#a488cec41225d7742ea50bc643a0f4806":[9,1,1,0,1,1215,1,1],
 "classmrmeshpy_1_1ConstSeparationPointStorage_1_1ConstBlock.html#a5dbe4e420360ddcc15724d1723155ea3":[9,1,0,0,2,1215,1,0],
 "classmrmeshpy_1_1ConstSeparationPointStorage_1_1ConstBlock.html#a5dbe4e420360ddcc15724d1723155ea3":[9,1,1,0,1,1215,1,0],
 "classmrmeshpy_1_1ConstSeparationPointStorage_1_1ConstBlock.html#a75937770d395446338f82133c3bf827b":[9,1,0,0,2,1215,1,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "classmrmeshpy_1_1ConstSortIntersectionsData.html#aee67d55a1d553dfd59575ad1331ddc89":[9,1,1,0,1,1237,3],
 "classmrmeshpy_1_1ConstSpacingSettings.html":[9,1,0,0,2,1238],
 "classmrmeshpy_1_1ConstSpacingSettings.html":[9,1,1,0,1,1238],
-"classmrmeshpy_1_1ConstSpacingSettings.html#a15a5516f3018ae3630b27537263171ff":[9,1,0,0,2,1238,5],
-"classmrmeshpy_1_1ConstSpacingSettings.html#a15a5516f3018ae3630b27537263171ff":[9,1,1,0,1,1238,5]
+"classmrmeshpy_1_1ConstSpacingSettings.html#a15a5516f3018ae3630b27537263171ff":[9,1,0,0,2,1238,5]
 };

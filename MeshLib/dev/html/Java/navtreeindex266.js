@@ -1,5 +1,6 @@
 var NAVTREEINDEX266 =
 {
+"classmeshlib_1_1std__vector__MR__VertBitSet__MR__Allocator__MR__VertBitSet.html":[9,6,0,0,0,1459],
 "classmeshlib_1_1std__vector__MR__VertBitSet__MR__Allocator__MR__VertBitSet.html":[9,6,1,0,0,1459],
 "classmeshlib_1_1std__vector__MR__VertBitSet__MR__Allocator__MR__VertBitSet.html#a05f96e077cf019d36549e8d0ba14c95e":[9,6,0,0,0,1459,17],
 "classmeshlib_1_1std__vector__MR__VertBitSet__MR__Allocator__MR__VertBitSet.html#a05f96e077cf019d36549e8d0ba14c95e":[9,6,1,0,0,1459,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX266 =
 "classmeshlib_1_1std__vector__MR__VoxelBitSet.html#af9a99238b50a070c4b02d154129079ef":[9,6,0,0,0,1463,15],
 "classmeshlib_1_1std__vector__MR__VoxelBitSet.html#af9a99238b50a070c4b02d154129079ef":[9,6,1,0,0,1463,15],
 "classmeshlib_1_1std__vector__MR__VoxelId__MR__Allocator__MR__VoxelId.html":[9,6,0,0,0,1464],
-"classmeshlib_1_1std__vector__MR__VoxelId__MR__Allocator__MR__VoxelId.html":[9,6,1,0,0,1464],
-"classmeshlib_1_1std__vector__MR__VoxelId__MR__Allocator__MR__VoxelId.html#a00570536dd4e3398c9e0f1a8b192ffee":[9,6,0,0,0,1464,20]
+"classmeshlib_1_1std__vector__MR__VoxelId__MR__Allocator__MR__VoxelId.html":[9,6,1,0,0,1464]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX146 =
 {
+"structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#a2b92cb1b3a8033625257e275434cbde0":[9,5,0,0,0,1585,1],
 "structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#a2b92cb1b3a8033625257e275434cbde0":[9,5,1,0,0,1572,1],
 "structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#a5f2e1fc4c555f9f4cc943c111880da79":[9,5,0,0,0,1585,8],
 "structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#a5f2e1fc4c555f9f4cc943c111880da79":[9,5,1,0,0,1572,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX146 =
 "structmeshlib_1_1UniteManyMeshesParams.html#afe294e6b904d229345bba7d2b72cc91d":[9,5,0,0,0,1593,10],
 "structmeshlib_1_1UniteManyMeshesParams.html#afe294e6b904d229345bba7d2b72cc91d":[9,5,1,0,0,1580,10],
 "structmeshlib_1_1UniteMeshNormalizationParams.html":[9,5,0,0,0,1594],
-"structmeshlib_1_1UniteMeshNormalizationParams.html":[9,5,1,0,0,1581],
-"structmeshlib_1_1UniteMeshNormalizationParams.html#a22b65c3de54094b04ad5008c3122abdd":[9,5,0,0,0,1594,7]
+"structmeshlib_1_1UniteMeshNormalizationParams.html":[9,5,1,0,0,1581]
 };

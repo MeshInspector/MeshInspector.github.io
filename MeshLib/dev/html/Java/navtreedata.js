@@ -100,6 +100,7 @@ var NAVTREE =
       [ "How to use С++ Example Plugin", "../ExamplePluginOverview.html", null ],
       [ "State Plugins Overview", "../StatePluginsHelp.html", null ],
       [ "How to Add Plugin", "../HowtoAddPluginOverview.html", null ],
+      [ "How to Connect a 3D Scanner", "../ScannerBackendGuide.html", null ],
       [ "Internationalization Guide", "../I18nGuide.html", null ]
     ] ],
     [ "API", "../APIPage.html", [
@@ -135,11 +136,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../APIPage.html",
-"ChangePolylinePointsAction_8java.html",
-"IComputeToolDistance_8java.html",
-"ObjLoadSettings_8java.html",
-"SomeLocalTriangulations_8java.html",
-"VisualizeMaskType_8java.html",
+"ChangePolylineAction_8java.html",
+"IComputePointsToDistanceVolume_8java.html",
+"ObjKindTraits__MR__FeaturesObjectKind__Sphere_8java.html",
+"SmoothFillingSettings_8java.html",
+"VisualObject_8java.html",
 "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html#a080d9df69d79c9ee98cded43de02d91b",
 "classmeshlib_1_1AABBTreePolyline3.html#a818b9b96ff21e1d0be15354da23a7a35",
 "classmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__dia987e70379948a7e98350dfa48b23bbe0.html#aa1a598e9b7e1b7224f0ca1600611a7ed",
@@ -416,11 +417,11 @@ var NAVTREEINDEX =
 "classmeshlib_1_1std__vector__uint64__t__MR__Allocator__uint64__t.html#a337b081225ea871908f794bb813f8465",
 "classmeshlib_1_1triangulationhelpers_1_1TriangulatedFanData.html#a9b891b3baa451c34b97730e017626069",
 "classmeshlib_1_1weightedshell_1_1ParametersMetric.html",
-"functions_func_g.html",
-"interfacemeshlib_1_1std__function__expected__void__std__string__from__const__std__string__ref__s8097090a971a561410f052b8657c540d.html#a4792582a6f8307d5558aae36f998c52b",
-"phmap__flat__hash__map__int__MR__Box3i__phmap__Hash__int32__t__phmap__EqualTo__int__MR__Allocato2bdc9f9e2f4611b7f2ec74d601c2aae1.html",
-"std__shared__ptr__MR__ChangeMeshAction_8java.html",
-"std__vector__double_8java.html"
+"functions_func_f.html",
+"interfacemeshlib_1_1std__function__expected__void__std__string__from__const__std__string__ref__s8097090a971a561410f052b8657c540d.html",
+"phmap__flat__hash__map__MR__VoxelId__MR__VoxelId__phmap__Hash__MR__VoxelId__phmap__EqualTo__MR__5ca029cdbb41e1f111a15165130d8521.html",
+"std__shared__ptr__MR__ChangeLinesColorMapAction_8java.html",
+"std__vector__const__MR__Mesh__ptr_8java.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

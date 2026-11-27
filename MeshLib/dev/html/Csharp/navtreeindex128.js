@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"classMR_1_1ObjTreeTraits.html":[9,3,0,0,0,1583],
 "classMR_1_1ObjTreeTraits.html#a38cbc67c7dae6b4265157259fc7d6b8b":[9,3,0,0,0,1583,0],
 "classMR_1_1ObjTreeTraits.html#a7421104a2fb422ae0458f9dd7545045c":[9,3,0,0,0,1583,2],
 "classMR_1_1ObjTreeTraits.html#a9582d67376d2413fe05e036428dd1649":[9,3,0,0,0,1583,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "classMR_1_1ObjectLabel.html#a9ac76bf7cb541953f9c1b1f1869389f0":[9,3,0,0,0,1561,44],
 "classMR_1_1ObjectLabel.html#a9e4c661d3da210875e5546f48e0fad84":[9,3,0,0,0,1561,39],
 "classMR_1_1ObjectLabel.html#aa3cb3db10ffbc35d357880159b983ee3":[9,3,0,0,0,1561,16],
-"classMR_1_1ObjectLabel.html#aa56aadbc3a5b6467b0cf4c48a6a3753c":[9,3,0,0,0,1561,57],
-"classMR_1_1ObjectLabel.html#aa8eb1d8de5a62ebbb62c386b3dbb8512":[9,3,0,0,0,1561,20]
+"classMR_1_1ObjectLabel.html#aa56aadbc3a5b6467b0cf4c48a6a3753c":[9,3,0,0,0,1561,57]
 };

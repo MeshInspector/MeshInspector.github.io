@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"structmeshlib_1_1AngleMeasurementObject.html#a37f562b76f1eee37fa6854fe1e4cd478":[9,5,1,0,0,52,91],
 "structmeshlib_1_1AngleMeasurementObject.html#a388e7b80518eb8e81f0f96bd597a0795":[9,5,0,0,0,65,38],
 "structmeshlib_1_1AngleMeasurementObject.html#a388e7b80518eb8e81f0f96bd597a0795":[9,5,1,0,0,52,38],
 "structmeshlib_1_1AngleMeasurementObject.html#a39dcfd3c6773d354171c5aa5d4e4e524":[9,5,0,0,0,65,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "structmeshlib_1_1BMap__MR__GraphEdgeId__MR__GraphEdgeId.html":[9,5,1,0,0,84],
 "structmeshlib_1_1BMap__MR__GraphEdgeId__MR__GraphEdgeId.html#a474eb2a789a72f1ada9ea75ab018ca5d":[9,5,0,0,0,97,4],
 "structmeshlib_1_1BMap__MR__GraphEdgeId__MR__GraphEdgeId.html#a474eb2a789a72f1ada9ea75ab018ca5d":[9,5,1,0,0,84,4],
-"structmeshlib_1_1BMap__MR__GraphEdgeId__MR__GraphEdgeId.html#a5cc0ecd23a854007c0e256be92e5aaad":[9,5,0,0,0,97,3],
-"structmeshlib_1_1BMap__MR__GraphEdgeId__MR__GraphEdgeId.html#a5cc0ecd23a854007c0e256be92e5aaad":[9,5,1,0,0,84,3]
+"structmeshlib_1_1BMap__MR__GraphEdgeId__MR__GraphEdgeId.html#a5cc0ecd23a854007c0e256be92e5aaad":[9,5,0,0,0,97,3]
 };

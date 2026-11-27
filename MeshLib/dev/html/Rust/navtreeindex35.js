@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"structmeshlib_1_1ChangVoxelSelectionAction.html#afa020483c1b6b68cbb0e86855024e4a7":[9,5,1,0,0,188,5],
 "structmeshlib_1_1ChangeActiveBoxAction.html":[9,5,0,0,0,160],
 "structmeshlib_1_1ChangeActiveBoxAction.html":[9,5,1,0,0,147],
 "structmeshlib_1_1ChangeActiveBoxAction.html#a1bd34e7fde5a619dc4b730db9efa36bd":[9,5,0,0,0,160,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "structmeshlib_1_1ChangeObjectColorAction.html#a41a2af405246bd9f073aa2d0199e4d58":[9,5,1,0,0,166,1],
 "structmeshlib_1_1ChangeObjectColorAction.html#a7488aebed91df6b81ce6edbe5826c843":[9,5,0,0,0,179,4],
 "structmeshlib_1_1ChangeObjectColorAction.html#a7488aebed91df6b81ce6edbe5826c843":[9,5,1,0,0,166,4],
-"structmeshlib_1_1ChangeObjectColorAction.html#a790f337fe4e00d3f45f76d4bdb86302d":[9,5,0,0,0,179,3],
-"structmeshlib_1_1ChangeObjectColorAction.html#a790f337fe4e00d3f45f76d4bdb86302d":[9,5,1,0,0,166,3]
+"structmeshlib_1_1ChangeObjectColorAction.html#a790f337fe4e00d3f45f76d4bdb86302d":[9,5,0,0,0,179,3]
 };

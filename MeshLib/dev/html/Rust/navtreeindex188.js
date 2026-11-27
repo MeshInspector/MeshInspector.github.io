@@ -1,5 +1,6 @@
 var NAVTREEINDEX188 =
 {
+"structmeshlib_1_1features_1_1MeasureResult__BasicPart.html#a21112f3cab8c3930e9810650d1d9494d":[9,5,0,0,0,3,6,4],
 "structmeshlib_1_1features_1_1MeasureResult__BasicPart.html#a21112f3cab8c3930e9810650d1d9494d":[9,5,1,0,0,1,6,4],
 "structmeshlib_1_1features_1_1MeasureResult__BasicPart.html#a5bb78b41cb5aa3487040241fe43e153a":[9,5,0,0,0,3,6,2],
 "structmeshlib_1_1features_1_1MeasureResult__BasicPart.html#a5bb78b41cb5aa3487040241fe43e153a":[9,5,1,0,0,1,6,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX188 =
 "structmeshlib_1_1fix__undercuts_1_1DistMapImproveDirectionParameters.html":[9,5,0,0,0,5,0],
 "structmeshlib_1_1fix__undercuts_1_1DistMapImproveDirectionParameters.html":[9,5,1,0,0,3,0],
 "structmeshlib_1_1fix__undercuts_1_1DistMapImproveDirectionParameters.html#a0309b587c8c4a8dff23fc1ea27ba68d3":[9,5,0,0,0,5,0,1],
-"structmeshlib_1_1fix__undercuts_1_1DistMapImproveDirectionParameters.html#a0309b587c8c4a8dff23fc1ea27ba68d3":[9,5,1,0,0,3,0,1],
-"structmeshlib_1_1fix__undercuts_1_1DistMapImproveDirectionParameters.html#a054695a7ab7dd5a54644cf08df1f8394":[9,5,0,0,0,5,0,12]
+"structmeshlib_1_1fix__undercuts_1_1DistMapImproveDirectionParameters.html#a0309b587c8c4a8dff23fc1ea27ba68d3":[9,5,1,0,0,3,0,1]
 };

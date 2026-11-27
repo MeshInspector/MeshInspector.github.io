@@ -53,7 +53,7 @@ var NAVTREEINDEX0 =
 "../FirstPluginTutorial.html":[5,0],
 "../FloatVSDouble.html":[8,3],
 "../HowtoAddPluginOverview.html":[8,8],
-"../I18nGuide.html":[8,9],
+"../I18nGuide.html":[8,10],
 "../InstallationGuide.html":[2],
 "../Java/APIJavaPage.html":[9,6],
 "../Js/APIJsPage.html":[9,4],
@@ -69,6 +69,7 @@ var NAVTREEINDEX0 =
 "../MeshStructureOverview.html":[8,1],
 "../PackageOverview.html":[8],
 "../Py/APIPyPage.html":[9,1],
+"../ScannerBackendGuide.html":[8,9],
 "../SpacesHelp.html":[8,5],
 "../StatePluginsHelp.html":[8,7],
 "../SupportGeneratorTutorial.html":[5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRId_8rs.html":[9,5,2,0,0,1,2,130],
 "MRIdentifyVertices_8rs.html":[9,5,2,0,0,1,2,131],
 "MRImageLoad_8rs.html":[9,5,2,0,0,1,2,133],
-"MRImageSave_8rs.html":[9,5,2,0,0,1,2,134],
-"MRImageTransform_8rs.html":[9,5,2,0,0,1,2,135]
+"MRImageSave_8rs.html":[9,5,2,0,0,1,2,134]
 };

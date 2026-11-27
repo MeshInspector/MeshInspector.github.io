@@ -1,5 +1,6 @@
 var NAVTREEINDEX142 =
 {
+"classmrmeshpy_1_1IntersectionPrecomputes2__float.html#af9df0e5fd0ce995ad86eaeae1e6b135f":[9,1,1,0,1,1770,7],
 "classmrmeshpy_1_1IntersectionPrecomputes2__float.html#afc1230266d063ac4f6bace49cf688cf3":[9,1,0,0,2,1770,12],
 "classmrmeshpy_1_1IntersectionPrecomputes2__float.html#afc1230266d063ac4f6bace49cf688cf3":[9,1,1,0,1,1770,12],
 "classmrmeshpy_1_1IntersectionPrecomputes__double.html":[9,1,0,0,2,1771],
@@ -248,6 +249,5 @@ var NAVTREEINDEX142 =
 "classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#a01ccae6b113a5e3e5c4550ed3b9f7a9e":[9,1,1,0,1,1794,4],
 "classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#a393f491a57a68f49922dbce97fec3be3":[9,1,0,0,2,1794,6],
 "classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#a393f491a57a68f49922dbce97fec3be3":[9,1,1,0,1,1794,6],
-"classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#a48af104e27fad439d98c3f6aa4be15af":[9,1,0,0,2,1794,0],
-"classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#a48af104e27fad439d98c3f6aa4be15af":[9,1,1,0,1,1794,0]
+"classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html#a48af104e27fad439d98c3f6aa4be15af":[9,1,0,0,2,1794,0]
 };

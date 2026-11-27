@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"classTriangulationHelpers_1_1FanOptimizerQueueElement.html#a477b54dfb00d09570d5661dcb713c459":[9,4,1,0,18,0,5],
 "classTriangulationHelpers_1_1FanOptimizerQueueElement.html#a58ea4d3eb75c9c6d3f76923471d953ed":[9,4,0,0,33,0,11],
 "classTriangulationHelpers_1_1FanOptimizerQueueElement.html#a58ea4d3eb75c9c6d3f76923471d953ed":[9,4,1,0,18,0,11],
 "classTriangulationHelpers_1_1FanOptimizerQueueElement.html#a60c6840a19ea11bacfd433bf288139eb":[9,4,0,0,33,0,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a99446b3803540e15c2ef51674a03d929":[9,4,1,0,1432,46],
 "classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#a99e630d4856e3b462c12f02147f7b44e":[9,4,1,0,1432,80],
 "classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#aa30d23451ef5db86983016a043c707b2":[9,4,1,0,1432,36],
-"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#aac50385d90a4acf6028b6b5f1e41f67e":[9,4,1,0,1432,5],
-"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#aad2d0deb6acb79b4d8ba27bd224b6750":[9,4,1,0,1432,77]
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#aac50385d90a4acf6028b6b5f1e41f67e":[9,4,1,0,1432,5]
 };

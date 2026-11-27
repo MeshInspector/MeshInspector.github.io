@@ -1,5 +1,6 @@
 var NAVTREEINDEX210 =
 {
+"classmeshlib_1_1selfintersections_1_1Settings__Method.html#a6ce726fa649e464caf25542eca05c29f":[9,6,0,0,0,32,2,2],
 "classmeshlib_1_1selfintersections_1_1Settings__Method.html#a6ce726fa649e464caf25542eca05c29f":[9,6,1,0,0,32,2,2],
 "classmeshlib_1_1selfintersections_1_1Settings__Method.html#aa238ea0f535b8e99307a910b2f0407c2":[9,6,0,0,0,32,2,4],
 "classmeshlib_1_1selfintersections_1_1Settings__Method.html#aa238ea0f535b8e99307a910b2f0407c2":[9,6,1,0,0,32,2,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX210 =
 "classmeshlib_1_1std__array__MR__SimpleVolumeMinMax__3.html#a915e31955fe049e8fed594b008fe1806":[9,6,0,0,0,997,10],
 "classmeshlib_1_1std__array__MR__SimpleVolumeMinMax__3.html#a915e31955fe049e8fed594b008fe1806":[9,6,1,0,0,997,10],
 "classmeshlib_1_1std__array__MR__SimpleVolumeMinMax__3.html#a9706370f23b05a0728232f134ecb3b0d":[9,6,0,0,0,997,7],
-"classmeshlib_1_1std__array__MR__SimpleVolumeMinMax__3.html#a9706370f23b05a0728232f134ecb3b0d":[9,6,1,0,0,997,7],
-"classmeshlib_1_1std__array__MR__SimpleVolumeMinMax__3.html#aa952ee808d0633a722098ecc6daf247d":[9,6,0,0,0,997,5]
+"classmeshlib_1_1std__array__MR__SimpleVolumeMinMax__3.html#a9706370f23b05a0728232f134ecb3b0d":[9,6,1,0,0,997,7]
 };

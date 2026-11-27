@@ -1,5 +1,6 @@
 var NAVTREEINDEX212 =
 {
+"classmrmeshpy_1_1Vector__VertId__EdgeId.html#a904a8e92c35c53aac5206163eb9daef2":[9,1,1,0,1,2655,15],
 "classmrmeshpy_1_1Vector__VertId__EdgeId.html#a908e4717ab5d8cf13e922d5dfbfb387f":[9,1,0,0,2,2655,24],
 "classmrmeshpy_1_1Vector__VertId__EdgeId.html#a908e4717ab5d8cf13e922d5dfbfb387f":[9,1,1,0,1,2655,24],
 "classmrmeshpy_1_1Vector__VertId__EdgeId.html#a970315d9b7b803504215a322b2b7d44f":[9,1,0,0,2,2655,28],
@@ -248,6 +249,5 @@ var NAVTREEINDEX212 =
 "classmrmeshpy_1_1Vector__VoxelId__VoxelId.html#aff47459fa31541632e14aaea65b65375":[9,1,1,0,1,2658,21],
 "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html":[9,1,0,0,2,2659],
 "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html":[9,1,1,0,1,2659],
-"classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#a14b2ebc2f73b4c38188613a86f9cc551":[9,1,0,0,2,2659,15],
-"classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#a14b2ebc2f73b4c38188613a86f9cc551":[9,1,1,0,1,2659,15]
+"classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#a14b2ebc2f73b4c38188613a86f9cc551":[9,1,0,0,2,2659,15]
 };

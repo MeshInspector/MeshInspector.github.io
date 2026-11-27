@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"classSetBitIteratorT__MR__RegionBitSet.html#ab7f1613207c9d6c5288efa41bac5f746":[9,4,1,0,814,0],
 "classSetBitIteratorT__MR__RegionBitSet.html#ac604a7b6a8009497eced17540a35153c":[9,4,1,0,814,6],
 "classSetBitIteratorT__MR__RegionBitSet.html#afafb7ce8c4f7d9789fcd12e2ecd6c87e":[9,4,1,0,814,5],
 "classSetBitIteratorT__MR__TextureBitSet.html":[9,4,1,0,815],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "classSliceInfo.html#ab1079b5c40bb38bddcd7378dcd833d9c":[9,4,1,0,835,12],
 "classSliceInfo.html#ab7922b5795bddf42958f895357524eed":[9,4,1,0,835,6],
 "classSliceInfo.html#ad8b88c98e079d1c2ff645de820aefcfb":[9,4,1,0,835,8],
-"classSliceInfo.html#aff78be87addb8c1eda5755c6efc98a64":[9,4,1,0,835,14],
-"classSliceInfoBase.html":[9,4,1,0,836]
+"classSliceInfo.html#aff78be87addb8c1eda5755c6efc98a64":[9,4,1,0,835,14]
 };

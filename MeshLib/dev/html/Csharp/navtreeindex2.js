@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"MRTorus3_8cs.html":[9,3,1,0,0,0,2,367],
 "MRTorus_8cs.html":[9,3,1,0,0,0,2,366],
 "MRTriDist_8cs.html":[9,3,1,0,0,0,2,369],
 "MRTriMath_8cs.html":[9,3,1,0,0,0,2,370],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "classMR.html#a147fecb3f47bcfa7c6ed910219f95a78":[9,3,0,0,0,2569],
 "classMR.html#a148d4361e966685962dc37ca4d2037de":[9,3,0,0,0,3055],
 "classMR.html#a149b7cf564a5973414cb951dc0965402":[9,3,0,0,0,3445],
-"classMR.html#a14b2390ce36c6b5154acaad12c38c383":[9,3,0,0,0,2371],
-"classMR.html#a14e40d0e84c2eccb9ae6a601bface5fb":[9,3,0,0,0,2931]
+"classMR.html#a14b2390ce36c6b5154acaad12c38c383":[9,3,0,0,0,2371]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX126 =
 {
+"classstd__vector__MR__EdgeSegment.html#af5d31199f0922a761f4582b2e0c1944c":[9,4,1,0,1213,15],
 "classstd__vector__MR__EdgeSegment.html#afb25b77856927c081c5953f93a195880":[9,4,1,0,1213,19],
 "classstd__vector__MR__EdgeTri.html":[9,4,1,0,1214],
 "classstd__vector__MR__EdgeTri.html#a06d0c86bee07863e841e34b30df1d2e1":[9,4,1,0,1214,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX126 =
 "classstd__vector__MR__Features__AlignPair.html#a1a989b2af0440e6687c9eb07a5ac07d0":[9,4,1,0,1224,18],
 "classstd__vector__MR__Features__AlignPair.html#a258855d0d6e7d3a46e260b5ccc465ac0":[9,4,1,0,1224,17],
 "classstd__vector__MR__Features__AlignPair.html#a27465524585ca5a903f52e4845c24b51":[9,4,1,0,1224,15],
-"classstd__vector__MR__Features__AlignPair.html#a36e04fc24942e1fc40ad84c5b10d0333":[9,4,1,0,1224,1],
-"classstd__vector__MR__Features__AlignPair.html#a3aa1c709144bf3803f51d1892b15471a":[9,4,1,0,1224,2]
+"classstd__vector__MR__Features__AlignPair.html#a36e04fc24942e1fc40ad84c5b10d0333":[9,4,1,0,1224,1]
 };

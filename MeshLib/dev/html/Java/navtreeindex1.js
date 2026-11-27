@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"ChangePolylineAction_8java.html":[9,6,2,0,0,1,0,0,191],
 "ChangePolylinePointsAction_8java.html":[9,6,2,0,0,1,0,0,192],
 "ChangePolylineTopologyAction_8java.html":[9,6,2,0,0,1,0,0,193],
 "ChangeScaleAction_8java.html":[9,6,2,0,0,1,0,0,194],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "ICPProperties_8java.html":[9,6,2,0,0,1,0,0,507],
 "ICP_8java.html":[9,6,2,0,0,1,0,0,500],
 "IComputePointsToDistanceFunctionVolume_8java.html":[9,6,2,0,0,1,0,0,496],
-"IComputePointsToDistanceVolumeByParts_8java.html":[9,6,2,0,0,1,0,0,498],
-"IComputePointsToDistanceVolume_8java.html":[9,6,2,0,0,1,0,0,497]
+"IComputePointsToDistanceVolumeByParts_8java.html":[9,6,2,0,0,1,0,0,498]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX100 =
 {
+"classVoxelTraits__MR__VoxelScalars.html#aa5a4633402eb4ab582954c6fde5525e2":[9,4,1,0,1603,0],
 "classVoxelTraits__std__function__float__func__from__const__MR__Vector3i__ref.html":[9,4,1,0,1604],
 "classVoxelTraits__std__function__float__func__from__const__MR__Vector3i__ref.html#a328b9c448af5113eca29f0a753277c05":[9,4,1,0,1604,1],
 "classVoxelTraits__std__function__float__func__from__const__MR__Vector3i__ref.html#a69929fb9d4bf7668708e82c5cd4fb867":[9,4,1,0,1604,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX100 =
 "classWeightedShell_1_1ParametersBase.html#a93078c80952e692b23ab07b75d01e325":[9,4,0,0,36,1,7],
 "classWeightedShell_1_1ParametersBase.html#a93078c80952e692b23ab07b75d01e325":[9,4,1,0,21,1,7],
 "classWeightedShell_1_1ParametersBase.html#a94accff8d795fff49604d36c4be892f8":[9,4,0,0,36,1,4],
-"classWeightedShell_1_1ParametersBase.html#a94accff8d795fff49604d36c4be892f8":[9,4,1,0,21,1,4],
-"classWeightedShell_1_1ParametersBase.html#a9afe9825568f5ce2a4b7d8c212f07e0e":[9,4,0,0,36,1,1]
+"classWeightedShell_1_1ParametersBase.html#a94accff8d795fff49604d36c4be892f8":[9,4,1,0,21,1,4]
 };

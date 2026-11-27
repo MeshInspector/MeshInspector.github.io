@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"classColorMapAggregator__MR__UndirectedEdgeTag__PartialColorMap.html#aa178dcddca6e887799b601f7958bbb99":[9,4,1,0,186,3],
 "classColorMapAggregator__MR__UndirectedEdgeTag__PartialColorMap.html#ae6ddbc4502a7ca2e6b96ac0e9df7130c":[9,4,1,0,186,1],
 "classColorMapAggregator__MR__VertTag__PartialColorMap.html":[9,4,1,0,187],
 "classColorMapAggregator__MR__VertTag__PartialColorMap.html#a0ba0d10a575578db328702c1f24ffe80":[9,4,1,0,187,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "classConeObject.html#af25542eee19d1627fde7b461c0545f56":[9,4,1,0,197,129],
 "classConeObject.html#af42153e8f325ef93be890373b6844be4":[9,4,1,0,197,123],
 "classConeObject.html#af58a01f18fb60a914777bc095341415a":[9,4,1,0,197,111],
-"classConeObject.html#af8298e7f670e55342a32dde0f4cd3faa":[9,4,1,0,197,45],
-"classConeObject.html#af8603f9dda9dfdb059b303ea11f7f995":[9,4,1,0,197,127]
+"classConeObject.html#af8298e7f670e55342a32dde0f4cd3faa":[9,4,1,0,197,45]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"classmrmeshpy_1_1ConstUniformSamplingSettings.html":[9,1,1,0,1,1322],
 "classmrmeshpy_1_1ConstUniformSamplingSettings.html#a01f91b367b0a32364a4128139cf66d9a":[9,1,0,0,2,1322,2],
 "classmrmeshpy_1_1ConstUniformSamplingSettings.html#a01f91b367b0a32364a4128139cf66d9a":[9,1,1,0,1,1322,2],
 "classmrmeshpy_1_1ConstUniformSamplingSettings.html#a2d326ed9e0a25651fe12dc5b97720bff":[9,1,0,0,2,1322,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "classmrmeshpy_1_1ConstVector2f.html#a3454d6cd1a6e9fdbd6727f125c5dd6de":[9,1,1,0,1,1337,16],
 "classmrmeshpy_1_1ConstVector2f.html#a3b80bb52fc69b508ace003db4f444f94":[9,1,0,0,2,1337,6],
 "classmrmeshpy_1_1ConstVector2f.html#a3b80bb52fc69b508ace003db4f444f94":[9,1,1,0,1,1337,6],
-"classmrmeshpy_1_1ConstVector2f.html#a3d6d0697bfae7c2e6c081bb36889ef7a":[9,1,0,0,2,1337,15],
-"classmrmeshpy_1_1ConstVector2f.html#a3d6d0697bfae7c2e6c081bb36889ef7a":[9,1,1,0,1,1337,15]
+"classmrmeshpy_1_1ConstVector2f.html#a3d6d0697bfae7c2e6c081bb36889ef7a":[9,1,0,0,2,1337,15]
 };

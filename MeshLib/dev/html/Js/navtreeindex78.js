@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#aad2d0deb6acb79b4d8ba27bd224b6750":[9,4,1,0,1432,77],
 "classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#aaf5b9a82e70e2f456ded87090be6e6a4":[9,4,1,0,1432,19],
 "classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ab228d4d3cbe7ea1c0fea95695159f093":[9,4,1,0,1432,72],
 "classTypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html#ab3b88654c2812b27655e9ba4fac9421f":[9,4,1,0,1432,56],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "classUndirectedEdgeId.html":[9,4,1,0,1439],
 "classUndirectedEdgeId.html#a1b291fabc02306c4da333f32c94dc79e":[9,4,1,0,1439,6],
 "classUndirectedEdgeId.html#a2bd4d4e5e203b80e86689f03b82fb349":[9,4,1,0,1439,7],
-"classUndirectedEdgeId.html#a2c7b07079fdfd056c2f723e4e20b0f50":[9,4,1,0,1439,12],
-"classUndirectedEdgeId.html#a2fb4ef347584dd80598edeaaa5b61838":[9,4,1,0,1439,8]
+"classUndirectedEdgeId.html#a2c7b07079fdfd056c2f723e4e20b0f50":[9,4,1,0,1439,12]
 };

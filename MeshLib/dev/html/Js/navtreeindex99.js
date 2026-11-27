@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"classVisualObject.html#ad234fda95fe5e00962706fd5e64f0412":[9,4,1,0,1582,36],
 "classVisualObject.html#ad66b076bc4a99be6e11ffadcf2d9d0b6":[9,4,1,0,1582,27],
 "classVisualObject.html#ad7657a8c400d368b0a0e1744134977f4":[9,4,1,0,1582,22],
 "classVisualObject.html#ad7c69a89a50d3323d2847e1f09aca6e8":[9,4,1,0,1582,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX99 =
 "classVoxelTraits__MR__VoxelBitSet.html#ac75e76a30befb208738bc6e8ea7fb4fa":[9,4,1,0,1602,1],
 "classVoxelTraits__MR__VoxelScalars.html":[9,4,1,0,1603],
 "classVoxelTraits__MR__VoxelScalars.html#a0af7976de8cb805ca449d0da51459dbc":[9,4,1,0,1603,1],
-"classVoxelTraits__MR__VoxelScalars.html#a4dfb3ad415302df779e19f45ad65f075":[9,4,1,0,1603,2],
-"classVoxelTraits__MR__VoxelScalars.html#aa5a4633402eb4ab582954c6fde5525e2":[9,4,1,0,1603,0]
+"classVoxelTraits__MR__VoxelScalars.html#a4dfb3ad415302df779e19f45ad65f075":[9,4,1,0,1603,2]
 };

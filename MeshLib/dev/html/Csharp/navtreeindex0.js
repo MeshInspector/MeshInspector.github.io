@@ -52,7 +52,7 @@ var NAVTREEINDEX0 =
 "../FirstPluginTutorial.html":[5,0],
 "../FloatVSDouble.html":[8,3],
 "../HowtoAddPluginOverview.html":[8,8],
-"../I18nGuide.html":[8,9],
+"../I18nGuide.html":[8,10],
 "../InstallationGuide.html":[2],
 "../Java/APIJavaPage.html":[9,6],
 "../Js/APIJsPage.html":[9,4],
@@ -69,6 +69,7 @@ var NAVTREEINDEX0 =
 "../PackageOverview.html":[8],
 "../Py/APIPyPage.html":[9,1],
 "../Rust/APIRustPage.html":[9,5],
+"../ScannerBackendGuide.html":[8,9],
 "../SpacesHelp.html":[8,5],
 "../StatePluginsHelp.html":[8,7],
 "../SupportGeneratorTutorial.html":[5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRImproveSampling_8cs.html":[9,3,1,0,0,0,2,135],
 "MRInSphere_8cs.html":[9,3,1,0,0,0,2,137],
 "MRInTreePathBuilder_8cs.html":[9,3,1,0,0,0,2,142],
-"MRInnerShell_8cs.html":[9,3,1,0,0,0,2,136],
-"MRIntersectionContour_8cs.html":[9,3,1,0,0,0,2,139]
+"MRInnerShell_8cs.html":[9,3,1,0,0,0,2,136]
 };

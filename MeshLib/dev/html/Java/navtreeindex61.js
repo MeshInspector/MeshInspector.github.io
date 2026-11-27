@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"classmeshlib_1_1IFillContours2DPlanCache.html#a3f752e2a2383e88308c0873e4a3503ec":[9,6,0,0,0,512,0],
 "classmeshlib_1_1IFillContours2DPlanCache.html#a3f752e2a2383e88308c0873e4a3503ec":[9,6,1,0,0,512,0],
 "classmeshlib_1_1IICPTreeIndexer.html":[9,6,0,0,0,513],
 "classmeshlib_1_1IICPTreeIndexer.html":[9,6,1,0,0,513],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "classmeshlib_1_1ImproveSamplingSettings.html#a6aba5ed6d4e88aec73b947239c22787d":[9,6,0,0,0,515,6],
 "classmeshlib_1_1ImproveSamplingSettings.html#a6aba5ed6d4e88aec73b947239c22787d":[9,6,1,0,0,515,6],
 "classmeshlib_1_1ImproveSamplingSettings.html#a9542cc2be28d9aeac2c954921813ba2d":[9,6,0,0,0,515,18],
-"classmeshlib_1_1ImproveSamplingSettings.html#a9542cc2be28d9aeac2c954921813ba2d":[9,6,1,0,0,515,18],
-"classmeshlib_1_1ImproveSamplingSettings.html#a9f70167c029142335831672438896f70":[9,6,0,0,0,515,11]
+"classmeshlib_1_1ImproveSamplingSettings.html#a9542cc2be28d9aeac2c954921813ba2d":[9,6,1,0,0,515,18]
 };

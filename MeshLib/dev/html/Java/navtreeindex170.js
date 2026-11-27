@@ -1,5 +1,6 @@
 var NAVTREEINDEX170 =
 {
+"classmeshlib_1_1Vector__MR__VertBitSet__MR__ObjId.html#a45b701c8119d995ab3f7a4ef5e2a1fc8":[9,6,0,0,0,1695,30],
 "classmeshlib_1_1Vector__MR__VertBitSet__MR__ObjId.html#a45b701c8119d995ab3f7a4ef5e2a1fc8":[9,6,1,0,0,1695,30],
 "classmeshlib_1_1Vector__MR__VertBitSet__MR__ObjId.html#a47ffeddd69344303e519f9503f14086e":[9,6,0,0,0,1695,35],
 "classmeshlib_1_1Vector__MR__VertBitSet__MR__ObjId.html#a47ffeddd69344303e519f9503f14086e":[9,6,1,0,0,1695,35],
@@ -248,6 +249,5 @@ var NAVTREEINDEX170 =
 "classmeshlib_1_1Vector__MR__VertId__MR__Id__MR__SurfaceDistanceStartTag.html#a355bc016cbcba10403fb8aa340bd278e":[9,6,0,0,0,1698,28],
 "classmeshlib_1_1Vector__MR__VertId__MR__Id__MR__SurfaceDistanceStartTag.html#a355bc016cbcba10403fb8aa340bd278e":[9,6,1,0,0,1698,28],
 "classmeshlib_1_1Vector__MR__VertId__MR__Id__MR__SurfaceDistanceStartTag.html#a396ff7a35e6b5bc42f610becc8b01cae":[9,6,0,0,0,1698,21],
-"classmeshlib_1_1Vector__MR__VertId__MR__Id__MR__SurfaceDistanceStartTag.html#a396ff7a35e6b5bc42f610becc8b01cae":[9,6,1,0,0,1698,21],
-"classmeshlib_1_1Vector__MR__VertId__MR__Id__MR__SurfaceDistanceStartTag.html#a3b7dd74812ea679fad96b2d9307c13f6":[9,6,0,0,0,1698,39]
+"classmeshlib_1_1Vector__MR__VertId__MR__Id__MR__SurfaceDistanceStartTag.html#a396ff7a35e6b5bc42f610becc8b01cae":[9,6,1,0,0,1698,21]
 };

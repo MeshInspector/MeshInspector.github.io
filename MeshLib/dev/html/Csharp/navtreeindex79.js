@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"classMR_1_1Const__RadiusMeasurementObject.html#a20e6797646be8f883ef2096d39488bc7":[9,3,0,0,0,828,40],
 "classMR_1_1Const__RadiusMeasurementObject.html#a26b33d70abee6142422afb41c7928a93":[9,3,0,0,0,828,55],
 "classMR_1_1Const__RadiusMeasurementObject.html#a271405805b7d46eba0211aec5136ca39":[9,3,0,0,0,828,24],
 "classMR_1_1Const__RadiusMeasurementObject.html#a289caffafb6fc21922540d7cc4fc8eb3":[9,3,0,0,0,828,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX79 =
 "classMR_1_1Const__RegionBitSet.html#aa1deeb11a7f3bb4d23f4cd4950d8fede":[9,3,0,0,0,837,26],
 "classMR_1_1Const__RegionBitSet.html#aa797a54956c192f7d278ab8baa2f050d":[9,3,0,0,0,837,18],
 "classMR_1_1Const__RegionBitSet.html#aad1e4bbbc4b905fd58c260676b48a3bd":[9,3,0,0,0,837,11],
-"classMR_1_1Const__RegionBitSet.html#ab19afb85d9c819c8a51c59b739a463d9":[9,3,0,0,0,837,21],
-"classMR_1_1Const__RegionBitSet.html#abc041d5dfe3650d21aedf3abcbdd9566":[9,3,0,0,0,837,13]
+"classMR_1_1Const__RegionBitSet.html#ab19afb85d9c819c8a51c59b739a463d9":[9,3,0,0,0,837,21]
 };

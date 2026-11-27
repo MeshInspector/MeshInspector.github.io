@@ -1,5 +1,6 @@
 var NAVTREEINDEX31 =
 {
+"MRContoursStitch_8h.html#acaef55d0b7de9fd1c826b83e7b600d5d":[9,2,2,0,0,0,0,1,66,1],
 "MRContoursStitch_8h.html#ad9d3276c7ed3ba6975588ec16363c533":[9,2,2,0,0,0,0,1,66,2],
 "MRContoursStitch_8h_source.html":[9,2,2,0,0,0,0,1,66],
 "MRConvexHull_8h.html":[9,2,2,0,0,0,0,1,67],
@@ -248,6 +249,5 @@ var NAVTREEINDEX31 =
 "MRCudaFastWindingNumber_8h.html#aaffa8d847ba54f244fd2ccb08f114502":[9,2,2,0,0,1,0,0,4,7],
 "MRCudaFastWindingNumber_8h.html#ab843c9b99a18533fa32decb590fd52fd":[9,2,2,0,0,1,0,0,4,6],
 "MRCudaFastWindingNumber_8h.html#ac603b14f0824468d3b74f2e55ce2a6dd":[9,2,2,0,0,1,0,0,4,22],
-"MRCudaFastWindingNumber_8h.html#accd5ea5539bc6dce1d6fc1c254a8add8":[9,2,2,0,0,1,0,0,4,26],
-"MRCudaFastWindingNumber_8h.html#add859e58225ba11dbc6e984daed4e01d":[9,2,2,0,0,1,0,0,4,2]
+"MRCudaFastWindingNumber_8h.html#accd5ea5539bc6dce1d6fc1c254a8add8":[9,2,2,0,0,1,0,0,4,26]
 };

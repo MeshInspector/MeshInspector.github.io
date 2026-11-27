@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"MRAddVisualPropertiesMixin_8h.html#aff93746de8efe15fd5fa764838b71e9b":[9,2,2,0,0,0,0,1,9,6],
 "MRAddVisualPropertiesMixin_8h.html#afffc19a9541bf155a7ed439950921a3b":[9,2,2,0,0,0,0,1,9,137],
 "MRAddVisualPropertiesMixin_8h_source.html":[9,2,2,0,0,0,0,1,9],
 "MRAffineXf_8h.html":[9,2,2,0,0,0,0,1,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "MRAlignTextToMesh_8h.html#a47851414c3b4941bfebf4cd48ec37f37":[9,2,2,0,0,0,0,3,0,28],
 "MRAlignTextToMesh_8h.html#a48c2a5ff40aeaa8596fefba36d43c319":[9,2,2,0,0,0,0,3,0,33],
 "MRAlignTextToMesh_8h.html#a4e4139eb41b059a7f9415a4d3f8ed503":[9,2,2,0,0,0,0,3,0,22],
-"MRAlignTextToMesh_8h.html#a506ad7514a5f44ba659c3b883a20786d":[9,2,2,0,0,0,0,3,0,36],
-"MRAlignTextToMesh_8h.html#a515b2eea645e75f304aa0c16a4600905":[9,2,2,0,0,0,0,3,0,56]
+"MRAlignTextToMesh_8h.html#a506ad7514a5f44ba659c3b883a20786d":[9,2,2,0,0,0,0,3,0,36]
 };

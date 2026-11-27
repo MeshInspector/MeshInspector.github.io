@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"classDenoiseWithCreasesSettings.html#a3651a5ace751dc4d38265e1f001bc451":[9,4,1,0,233,0],
 "classDenoiseWithCreasesSettings.html#a4c0e772b9e956e1039d1437f47496845":[9,4,1,0,233,3],
 "classDenoiseWithCreasesSettings.html#a536d642b79cb437f1bf834ea21751d4b":[9,4,1,0,233,2],
 "classDenoiseWithCreasesSettings.html#a58f1bc123c76351ea3cb7a214312a80f":[9,4,1,0,233,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "classDistanceMeasurementObject.html#a11ffda3cbceb56719fa033de9aeeb039":[9,4,1,0,247,3],
 "classDistanceMeasurementObject.html#a120135225ca98db070dd601df9040a77":[9,4,1,0,247,97],
 "classDistanceMeasurementObject.html#a130cbcf73f22a6cf88a0bf395e24a93a":[9,4,1,0,247,94],
-"classDistanceMeasurementObject.html#a135167bf373c48de0751fbcefff3ddbd":[9,4,1,0,247,109],
-"classDistanceMeasurementObject.html#a1921ec68a45ddd579538e673450f6afb":[9,4,1,0,247,39]
+"classDistanceMeasurementObject.html#a135167bf373c48de0751fbcefff3ddbd":[9,4,1,0,247,109]
 };

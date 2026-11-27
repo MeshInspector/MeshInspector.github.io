@@ -52,7 +52,7 @@ var NAVTREEINDEX0 =
 "../FirstPluginTutorial.html":[5,0],
 "../FloatVSDouble.html":[8,3],
 "../HowtoAddPluginOverview.html":[8,8],
-"../I18nGuide.html":[8,9],
+"../I18nGuide.html":[8,10],
 "../InstallationGuide.html":[2],
 "../Java/APIJavaPage.html":[9,6],
 "../Js/APIJsPage.html":[9,4],
@@ -69,6 +69,7 @@ var NAVTREEINDEX0 =
 "../PackageOverview.html":[8],
 "../Py/APIPyPage.html":[9,1],
 "../Rust/APIRustPage.html":[9,5],
+"../ScannerBackendGuide.html":[8,9],
 "../SpacesHelp.html":[8,5],
 "../StatePluginsHelp.html":[8,7],
 "../SupportGeneratorTutorial.html":[5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRAABBTreeBase_8h.html#a60f3dc601d20fc9c5ecd6edf41cc86bc":[9,2,2,0,0,0,0,1,2,5],
 "MRAABBTreeBase_8h.html#a6322e9970f5f7ef0b8d557d72eb6012f":[9,2,2,0,0,0,0,1,2,69],
 "MRAABBTreeBase_8h.html#a69f6c863a252c38cff5f4f3d20648f39":[9,2,2,0,0,0,0,1,2,17],
-"MRAABBTreeBase_8h.html#a6bc3ba2505397baa6e141b8738dc3d26":[9,2,2,0,0,0,0,1,2,83],
-"MRAABBTreeBase_8h.html#a7174e310e545e9b2499f063938f851da":[9,2,2,0,0,0,0,1,2,14]
+"MRAABBTreeBase_8h.html#a6bc3ba2505397baa6e141b8738dc3d26":[9,2,2,0,0,0,0,1,2,83]
 };

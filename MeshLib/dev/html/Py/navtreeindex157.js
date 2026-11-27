@@ -1,5 +1,6 @@
 var NAVTREEINDEX157 =
 {
+"classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a5bb02d8a14d7fc12ba5f963fb9ca879c":[9,1,1,0,1,1912,2],
 "classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a727f46fda827f56a9f2b2f3e658d0c9d":[9,1,0,0,2,1912,14],
 "classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a727f46fda827f56a9f2b2f3e658d0c9d":[9,1,1,0,1,1912,14],
 "classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a7924ab0b08ea91f2007b131450007e7e":[9,1,0,0,2,1912,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX157 =
 "classmrmeshpy_1_1Nesting_1_1BoxNestingCorner.html":[9,1,1,0,1,1923,0],
 "classmrmeshpy_1_1Nesting_1_1BoxNestingCorner.html#a09d65d6c288c7ab998d42a86600abb88":[9,1,0,0,2,1923,0,1],
 "classmrmeshpy_1_1Nesting_1_1BoxNestingCorner.html#a09d65d6c288c7ab998d42a86600abb88":[9,1,1,0,1,1923,0,1],
-"classmrmeshpy_1_1Nesting_1_1BoxNestingCorner.html#a3aa6401c6686fb79ca3e61e0958c31ae":[9,1,0,0,2,1923,0,3],
-"classmrmeshpy_1_1Nesting_1_1BoxNestingCorner.html#a3aa6401c6686fb79ca3e61e0958c31ae":[9,1,1,0,1,1923,0,3]
+"classmrmeshpy_1_1Nesting_1_1BoxNestingCorner.html#a3aa6401c6686fb79ca3e61e0958c31ae":[9,1,0,0,2,1923,0,3]
 };

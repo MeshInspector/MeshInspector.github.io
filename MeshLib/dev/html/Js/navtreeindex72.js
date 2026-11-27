@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"classSliceInfoBase.html":[9,4,1,0,836],
 "classSliceInfoBase.html#a2ce148479852146cc28fa13031c66e8a":[9,4,1,0,836,8],
 "classSliceInfoBase.html#a41d43955cd6d62c615b9ad1aff7ac0b2":[9,4,1,0,836,0],
 "classSliceInfoBase.html#a451386acb1fc3f8aceb4567a66ebb6e2":[9,4,1,0,836,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "classSphereParams.html#a6b96339fc9781af314524f772e07429f":[9,4,1,0,847,5],
 "classSphereParams.html#a6c4b23ace38eff367e53eb92e5e1d943":[9,4,1,0,847,1],
 "classSphereParams.html#ab3d36739692d6e6ce87a06e6935a6003":[9,4,1,0,847,3],
-"classSplineSettings.html":[9,4,1,0,848],
-"classSplineSettings.html#a13a5a284e3a5331df5bfedfbf4b04d56":[9,4,1,0,848,5]
+"classSplineSettings.html":[9,4,1,0,848]
 };

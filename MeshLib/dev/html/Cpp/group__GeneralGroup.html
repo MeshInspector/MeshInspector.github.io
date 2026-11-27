@@ -1172,7 +1172,7 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ASaveOnClosePlugin" id="r_MR_3A_3ASaveOnClosePlugin"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SaveOnClosePlugin.html">MR::SaveOnClosePlugin</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">this plugin will show a message to the user if she closes the application when something is modified  <a href="classMR_1_1SaveOnClosePlugin.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AScannerCapabilities" id="r_MR_3A_3AScannerCapabilities"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ScannerCapabilities.html">MR::ScannerCapabilities</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional <a class="el" href="namespaceMR_1_1UI.html">UI</a> regions, queried every frame.  <a href="structMR_1_1ScannerCapabilities.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional <a class="el" href="namespaceMR_1_1UI.html">UI</a> regions of the Scanner tool, queried every frame.  <a href="structMR_1_1ScannerCapabilities.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AScannerLiveFrame" id="r_MR_3A_3AScannerLiveFrame"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ScannerLiveFrame.html">MR::ScannerLiveFrame</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">One live-preview frame: 2D images (an empty one keeps its slot's previous image) and, if streamed, points.  <a href="structMR_1_1ScannerLiveFrame.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AIScannerBackend" id="r_MR_3A_3AIScannerBackend"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IScannerBackend.html">MR::IScannerBackend</a></td></tr>
@@ -10512,31 +10512,38 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:ga6ea54d4f1a94548bc1b8a7a08183ca74"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called before shutdown.  <br /></td></tr>
 <tr class="memitem:gab56f6dd720c14d2e21ffcb3d9363d111" id="r_gab56f6dd720c14d2e21ffcb3d9363d111"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab56f6dd720c14d2e21ffcb3d9363d111">MR::IScannerBackend::~IScannerBackend</a> ()=default</td></tr>
 <tr class="memitem:gadfbb565d94f79449942dac0f7a7dcf22" id="r_gadfbb565d94f79449942dac0f7a7dcf22"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadfbb565d94f79449942dac0f7a7dcf22">MR::IScannerBackend::name</a> () const =0</td></tr>
-<tr class="memdesc:gadfbb565d94f79449942dac0f7a7dcf22"><td class="mdescLeft">&#160;</td><td class="mdescRight">The scanner's name, e.g. "Polyga".  <br /></td></tr>
+<tr class="memdesc:gadfbb565d94f79449942dac0f7a7dcf22"><td class="mdescLeft">&#160;</td><td class="mdescRight">The scanner's name, e.g. "MyScanner": the tool lists backends by it, and <span class="tt">toLower( name() )</span> is the <a class="el" href="classMR_1_1Config.html">Config</a> key of the settings.  <br /></td></tr>
 <tr class="memitem:ga48a635e95dd38ffeaa3e7fef684dfd83" id="r_ga48a635e95dd38ffeaa3e7fef684dfd83"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga48a635e95dd38ffeaa3e7fef684dfd83">MR::IScannerBackend::runtimeLoaded</a> () const =0</td></tr>
+<tr class="memdesc:ga48a635e95dd38ffeaa3e7fef684dfd83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the SDK runtime is loaded.  <br /></td></tr>
 <tr class="memitem:gab8e52cdba81b7ccd235c13c1a259811b" id="r_gab8e52cdba81b7ccd235c13c1a259811b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab8e52cdba81b7ccd235c13c1a259811b">MR::IScannerBackend::isReady</a> () const =0</td></tr>
+<tr class="memdesc:gab8e52cdba81b7ccd235c13c1a259811b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether <a class="el" href="#gaba9decbf875fa57e4d46ddc96dfbf19c" title="One scan with the current parameters: a new ObjectPoints or ObjectMesh without a parent,...">capture()</a> can run now, e.g. connected.  <br /></td></tr>
 <tr class="memitem:ga288b07762bfdf12f229595f6c585c014" id="r_ga288b07762bfdf12f229595f6c585c014"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga288b07762bfdf12f229595f6c585c014">MR::IScannerBackend::runtimeDir</a> () const =0</td></tr>
-<tr class="memdesc:ga288b07762bfdf12f229595f6c585c014"><td class="mdescLeft">&#160;</td><td class="mdescRight">can <a class="el" href="#gaba9decbf875fa57e4d46ddc96dfbf19c" title="One scan with the current parameters.">capture()</a>, e.g. connected  <br /></td></tr>
+<tr class="memdesc:ga288b07762bfdf12f229595f6c585c014"><td class="mdescLeft">&#160;</td><td class="mdescRight">The persisted SDK runtime folder.  <br /></td></tr>
 <tr class="memitem:ga5c6950d32ce2a532f0a6065480c55f5b" id="r_ga5c6950d32ce2a532f0a6065480c55f5b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5c6950d32ce2a532f0a6065480c55f5b">MR::IScannerBackend::loadRuntime</a> (const std::string &amp;dir)=0</td></tr>
+<tr class="memdesc:ga5c6950d32ce2a532f0a6065480c55f5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the SDK runtime from the folder and persists it; then the host calls <a class="el" href="#ga8583e48bd24df472ef4e4d5d36478c53" title="Finds the scanner if needed and connects; does nothing when connected.">connect()</a>  <br /></td></tr>
 <tr class="memitem:ga7b2aa33e85f7d9aa566d2f2e1404f608" id="r_ga7b2aa33e85f7d9aa566d2f2e1404f608"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7b2aa33e85f7d9aa566d2f2e1404f608">MR::IScannerBackend::unloadRuntime</a> ()=0</td></tr>
+<tr class="memdesc:ga7b2aa33e85f7d9aa566d2f2e1404f608"><td class="mdescLeft">&#160;</td><td class="mdescRight">Releases every SDK object, also when the runtime was never loaded.  <br /></td></tr>
 <tr class="memitem:ga8f551b7f78bfe9bf49d6876c228a3bf2" id="r_ga8f551b7f78bfe9bf49d6876c228a3bf2"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8f551b7f78bfe9bf49d6876c228a3bf2">MR::IScannerBackend::runtimeHint</a> () const =0</td></tr>
+<tr class="memdesc:ga8f551b7f78bfe9bf49d6876c228a3bf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">A hint shown while the runtime is not loaded.  <br /></td></tr>
 <tr class="memitem:ga8583e48bd24df472ef4e4d5d36478c53" id="r_ga8583e48bd24df472ef4e4d5d36478c53"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8583e48bd24df472ef4e4d5d36478c53">MR::IScannerBackend::connect</a> ()=0</td></tr>
 <tr class="memdesc:ga8583e48bd24df472ef4e4d5d36478c53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the scanner if needed and connects; does nothing when connected.  <br /></td></tr>
 <tr class="memitem:gab4c237d6c5c0348e8e4c51a0dc342de5" id="r_gab4c237d6c5c0348e8e4c51a0dc342de5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab4c237d6c5c0348e8e4c51a0dc342de5">MR::IScannerBackend::disconnect</a> ()=0</td></tr>
 <tr class="memitem:ga69f4146a5c72ee965cd4961dd9fc0627" id="r_ga69f4146a5c72ee965cd4961dd9fc0627"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structMR_1_1ScannerCapabilities.html">ScannerCapabilities</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga69f4146a5c72ee965cd4961dd9fc0627">MR::IScannerBackend::capabilities</a> () const =0</td></tr>
 <tr class="memitem:ga9626d1a9d86c33c95f0fcb1915b5fce3" id="r_ga9626d1a9d86c33c95f0fcb1915b5fce3"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="structMR_1_1Image.html">Image</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9626d1a9d86c33c95f0fcb1915b5fce3">MR::IScannerBackend::previewImages</a> () const</td></tr>
-<tr class="memdesc:ga9626d1a9d86c33c95f0fcb1915b5fce3"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D images of the current or last capture.  <br /></td></tr>
+<tr class="memdesc:ga9626d1a9d86c33c95f0fcb1915b5fce3"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D images of the current or last capture  <br /></td></tr>
 <tr class="memitem:ga8614c377675b3713581a48e0f63e6308" id="r_ga8614c377675b3713581a48e0f63e6308"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8614c377675b3713581a48e0f63e6308">MR::IScannerBackend::setLiveFrameCallback</a> (std::function&lt; void(<a class="el" href="structMR_1_1ScannerLiveFrame.html">ScannerLiveFrame</a> &amp;&amp;)&gt;)</td></tr>
 <tr class="memitem:ga554087d6b6bdaa26136cc360be8c741a" id="r_ga554087d6b6bdaa26136cc360be8c741a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga554087d6b6bdaa26136cc360be8c741a">MR::IScannerBackend::startLivePreview</a> (bool withPoints)</td></tr>
 <tr class="memitem:gaf78fcd38ad435792d60ed881d3509533" id="r_gaf78fcd38ad435792d60ed881d3509533"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf78fcd38ad435792d60ed881d3509533">MR::IScannerBackend::stopLivePreview</a> ()</td></tr>
 <tr class="memitem:ga8fc4baf3ac08391dcec6b2378b509660" id="r_ga8fc4baf3ac08391dcec6b2378b509660"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8fc4baf3ac08391dcec6b2378b509660">MR::IScannerBackend::livePreviewActive</a> () const</td></tr>
 <tr class="memitem:gae761ba824f60dcd842571f6388cafcf2" id="r_gae761ba824f60dcd842571f6388cafcf2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae761ba824f60dcd842571f6388cafcf2">MR::IScannerBackend::captureFrame</a> ()</td></tr>
+<tr class="memdesc:gae761ba824f60dcd842571f6388cafcf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends one live frame to the sink.  <br /></td></tr>
 <tr class="memitem:ga2546356a521416e644af2147ae6dded1" id="r_ga2546356a521416e644af2147ae6dded1"><td class="memItemLeft" align="right" valign="top">virtual Json::Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2546356a521416e644af2147ae6dded1">MR::IScannerBackend::paramSchema</a> () const =0</td></tr>
 <tr class="memitem:gaee3e525146baae76d764423a4410bc97" id="r_gaee3e525146baae76d764423a4410bc97"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaee3e525146baae76d764423a4410bc97">MR::IScannerBackend::setParam</a> (const std::string &amp;key, const Json::Value &amp;value)=0</td></tr>
+<tr class="memdesc:gaee3e525146baae76d764423a4410bc97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a parameter changed in the <a class="el" href="namespaceMR_1_1UI.html">UI</a>: a bool, a double, an int, an enum index, or a UTF-8 path string.  <br /></td></tr>
 <tr class="memitem:ga705df27c1763273c206a0f75802143fc" id="r_ga705df27c1763273c206a0f75802143fc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga705df27c1763273c206a0f75802143fc">MR::IScannerBackend::runAction</a> (const std::string &amp;key, const Json::Value &amp;arg)=0</td></tr>
 <tr class="memdesc:ga705df27c1763273c206a0f75802143fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs a schema action; returns the produced scan, or null.  <br /></td></tr>
 <tr class="memitem:gaba9decbf875fa57e4d46ddc96dfbf19c" id="r_gaba9decbf875fa57e4d46ddc96dfbf19c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaba9decbf875fa57e4d46ddc96dfbf19c">MR::IScannerBackend::capture</a> ()=0</td></tr>
-<tr class="memdesc:gaba9decbf875fa57e4d46ddc96dfbf19c"><td class="mdescLeft">&#160;</td><td class="mdescRight">One scan with the current parameters.  <br /></td></tr>
+<tr class="memdesc:gaba9decbf875fa57e4d46ddc96dfbf19c"><td class="mdescLeft">&#160;</td><td class="mdescRight">One scan with the current parameters: a new <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> or <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> without a parent, in the scanner's frame.  <br /></td></tr>
 <tr class="memitem:gaf91a7dbaca94ece6ae42b63db06b6245" id="r_gaf91a7dbaca94ece6ae42b63db06b6245"><td class="memItemLeft" align="right" valign="top">virtual Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf91a7dbaca94ece6ae42b63db06b6245">MR::IScannerBackend::upDirection</a> () const</td></tr>
 <tr class="memdesc:gaf91a7dbaca94ece6ae42b63db06b6245"><td class="mdescLeft">&#160;</td><td class="mdescRight">The up direction of the scanner's frame, to orient the camera to a new scan.  <br /></td></tr>
 <tr class="memitem:gab7a53b62cf0fb0fb741f8adadd63a24e" id="r_gab7a53b62cf0fb0fb741f8adadd63a24e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab7a53b62cf0fb0fb741f8adadd63a24e">MR::IScannerBackend::loadSettings</a> ()=0</td></tr>
@@ -14979,9 +14986,11 @@ Variables</h2></td></tr>
 <tr class="memitem:ga8ddb9e6259b392820926db823e35a6bb" id="r_ga8ddb9e6259b392820926db823e35a6bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8ddb9e6259b392820926db823e35a6bb">MR::SaveObjectSettings::callback</a></td></tr>
 <tr class="memdesc:ga8ddb9e6259b392820926db823e35a6bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback function to set progress (for progress bar)  <br /></td></tr>
 <tr class="memitem:gaee059b52d6c3457dfdd5660a393a40bb" id="r_gaee059b52d6c3457dfdd5660a393a40bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaee059b52d6c3457dfdd5660a393a40bb">MR::ScannerCapabilities::livePreview</a> = false</td></tr>
+<tr class="memdesc:gaee059b52d6c3457dfdd5660a393a40bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">the Live, Live + 3D, Stop and Capture frame buttons  <br /></td></tr>
 <tr class="memitem:ga65a89a0ba3edd80fac6c71c899c97f0c" id="r_ga65a89a0ba3edd80fac6c71c899c97f0c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga65a89a0ba3edd80fac6c71c899c97f0c">MR::ScannerCapabilities::connectButtons</a> = true</td></tr>
+<tr class="memdesc:ga65a89a0ba3edd80fac6c71c899c97f0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">off where connecting is not a user step, e.g. for a file camera  <br /></td></tr>
 <tr class="memitem:gac402444e00320ceb47c309e1a21691bd" id="r_gac402444e00320ceb47c309e1a21691bd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac402444e00320ceb47c309e1a21691bd">MR::ScannerCapabilities::actions</a> = true</td></tr>
-<tr class="memdesc:gac402444e00320ceb47c309e1a21691bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">off where connecting is not a user step, e.g. for a file camera  <br /></td></tr>
+<tr class="memdesc:gac402444e00320ceb47c309e1a21691bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the Current Scan tab with the schema's action groups; off when it has none  <br /></td></tr>
 <tr class="memitem:gaacaaf25ca757288ece59b4e152c7076e" id="r_gaacaaf25ca757288ece59b4e152c7076e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structMR_1_1Image.html">Image</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaacaaf25ca757288ece59b4e152c7076e">MR::ScannerLiveFrame::images</a></td></tr>
 <tr class="memitem:ga14712660fa21fe04a7c4b53be250af68" id="r_ga14712660fa21fe04a7c4b53be250af68"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga14712660fa21fe04a7c4b53be250af68">MR::ScannerLiveFrame::points</a></td></tr>
 <tr class="memitem:ga298b1987dbe5d8d598ab8a165c6c6e61" id="r_ga298b1987dbe5d8d598ab8a165c6c6e61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga9d132145ed6e28c339f8a129698217d6">ObjectList</a>&lt; ObjectType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga298b1987dbe5d8d598ab8a165c6c6e61">MR::SceneCache::VectorHolder&lt; ObjectType, SelectivityType &gt;::value</a></td></tr>
@@ -44142,7 +44151,7 @@ template&lt;typename T, typename I&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRScannerBackend_8h.html">MRViewer/MRScannerBackend.h</a>&gt;</code></p>
 
-<p>One scan with the current parameters. </p>
+<p>One scan with the current parameters: a new <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> or <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> without a parent, in the scanner's frame. </p>
 
 </div>
 </div>
@@ -44170,6 +44179,8 @@ template&lt;typename T, typename I&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRScannerBackend_8h.html">MRViewer/MRScannerBackend.h</a>&gt;</code></p>
+
+<p>Sends one live frame to the sink. </p>
 
 </div>
 </div>
@@ -118835,6 +118846,8 @@ template&lt;typename C, typename D, D M&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRScannerBackend_8h.html">MRViewer/MRScannerBackend.h</a>&gt;</code></p>
 
+<p>Whether <a class="el" href="#gaba9decbf875fa57e4d46ddc96dfbf19c" title="One scan with the current parameters: a new ObjectPoints or ObjectMesh without a parent,...">capture()</a> can run now, e.g. connected. </p>
+
 </div>
 </div>
 <a id="gabfe7262e1e5d80122b05aa8e68fc0545" name="gabfe7262e1e5d80122b05aa8e68fc0545"></a>
@@ -123166,6 +123179,8 @@ returns true if load was succeed </p>
 
 <p><code>#include &lt;<a class="el" href="MRScannerBackend_8h.html">MRViewer/MRScannerBackend.h</a>&gt;</code></p>
 
+<p>Loads the SDK runtime from the folder and persists it; then the host calls <a class="el" href="#ga8583e48bd24df472ef4e4d5d36478c53" title="Finds the scanner if needed and connects; does nothing when connected.">connect()</a> </p>
+
 </div>
 </div>
 <a id="gaca44e2332e7de600e47bb62bb01f93c5" name="gaca44e2332e7de600e47bb62bb01f93c5"></a>
@@ -123246,7 +123261,7 @@ returns true if load was succeed </p>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRScannerBackend_8h.html">MRViewer/MRScannerBackend.h</a>&gt;</code></p>
-<p>All settings, in the <a class="el" href="classMR_1_1Config.html">Config</a> object toLower( name() ) shared with the host's settings (rotate*, registration), so <a class="el" href="#ga717a7dfc5ebf5ce2e831991de49c228c">saveSettings()</a> updates its own fields there, never replaces the object. The host loads them once and saves them whenever it closes the backend. </p>
+<p>All settings, in the <a class="el" href="classMR_1_1Config.html">Config</a> object <span class="tt">toLower( name() )</span> shared with the host's settings (<span class="tt">rotate*</span>, <span class="tt">registration</span>, <span class="tt">ransac</span>), so <a class="el" href="#ga717a7dfc5ebf5ce2e831991de49c228c">saveSettings()</a> updates its own fields there, never replaces the object. The host loads them when it opens the backend and saves them whenever it closes the backend. </p>
 
 </div>
 </div>
@@ -133879,7 +133894,7 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRScannerBackend_8h.html">MRViewer/MRScannerBackend.h</a>&gt;</code></p>
 
-<p>The scanner's name, e.g. "Polyga". </p>
+<p>The scanner's name, e.g. "MyScanner": the tool lists backends by it, and <span class="tt">toLower( name() )</span> is the <a class="el" href="classMR_1_1Config.html">Config</a> key of the settings. </p>
 
 </div>
 </div>
@@ -153023,7 +153038,9 @@ template&lt;typename I&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRScannerBackend_8h.html">MRViewer/MRScannerBackend.h</a>&gt;</code></p>
-<p>The <a class="el" href="namespaceMR_1_1UI.html">UI</a> as data, rebuilt on every call: { "groups": [ { "title"?, "params": [<span class="tt">&lt;param&gt;</span>...] } ], "actionGroups": [ { "title"?, "status"?, "statusArg"?, "actions": [<span class="tt">&lt;action&gt;</span>...] } ] } <span class="tt">&lt;param&gt;</span>: key, type (float|int|bool|enum|info|path), label, value; for a path also filters ("*.a;*.b", named by the label; the value is a UTF-8 path picked from such files); optional: enabled, tooltip, min, max, step, unit ("ms"), precision, options (enum labels; the value is the index). <span class="tt">&lt;action&gt;</span>: key, label; optional: tooltip, enabled, filters (pick a file, passed as a UTF-8 path), save (pick a file to write), advanced (shown with Ctrl+Shift), experimental. Texts are English, marked _t; "{}" in a status is replaced by statusArg. Widget IDs are <span class="tt">label##key</span> (a path: <span class="tt">##key</span> and <span class="tt">...##key</span>). </p>
+<p>The <a class="el" href="namespaceMR_1_1UI.html">UI</a> as data, rebuilt on every call: </p><div class="fragment"><div class="line">{ <span class="stringliteral">&quot;groups&quot;</span>: [ { <span class="stringliteral">&quot;title&quot;</span>?, <span class="stringliteral">&quot;params&quot;</span>: [ &lt;param&gt;... ] } ],</div>
+<div class="line">  <span class="stringliteral">&quot;actionGroups&quot;</span>: [ { <span class="stringliteral">&quot;title&quot;</span>?, <span class="stringliteral">&quot;status&quot;</span>?, <span class="stringliteral">&quot;statusArg&quot;</span>?, <span class="stringliteral">&quot;actions&quot;</span>: [ &lt;action&gt;... ] } ] }</div>
+</div><!-- fragment --><p> <span class="tt">&lt;param&gt;</span>: key, type (float|int|bool|enum|info|path), label, value; for a path also filters ("*.a;*.b", named by the label; the value is a UTF-8 path picked from such files); optional: enabled, tooltip, min, max, step, unit ("ms"), precision, options (enum labels; the value is the index). <span class="tt">&lt;action&gt;</span>: key, label; optional: tooltip, enabled, filters (pick a file, passed as a UTF-8 path), save (pick a file to write), advanced (shown with Ctrl+Shift), experimental. Texts are English, marked <span class="tt">_t</span>; "{}" in a status is replaced by statusArg. Widget IDs are <span class="tt">label##key</span> (a path: <span class="tt">##key</span> and <span class="tt">...##key</span>). </p>
 
 </div>
 </div>
@@ -157772,7 +157789,7 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRScannerBackend_8h.html">MRViewer/MRScannerBackend.h</a>&gt;</code></p>
 
-<p>2D images of the current or last capture. </p>
+<p>2D images of the current or last capture </p>
 
 </div>
 </div>
@@ -168877,8 +168894,7 @@ template&lt;typename Policy&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRScannerBackend_8h.html">MRViewer/MRScannerBackend.h</a>&gt;</code></p>
 
-<p>can <a class="el" href="#gaba9decbf875fa57e4d46ddc96dfbf19c" title="One scan with the current parameters.">capture()</a>, e.g. connected </p>
-<p>The SDK runtime: the persisted folder, loading from it (then the host calls <a class="el" href="#ga8583e48bd24df472ef4e4d5d36478c53" title="Finds the scanner if needed and connects; does nothing when connected.">connect()</a>), releasing every SDK object (also when never loaded), and a hint while not loaded. </p>
+<p>The persisted SDK runtime folder. </p>
 
 </div>
 </div>
@@ -168907,6 +168923,8 @@ template&lt;typename Policy&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRScannerBackend_8h.html">MRViewer/MRScannerBackend.h</a>&gt;</code></p>
 
+<p>A hint shown while the runtime is not loaded. </p>
+
 </div>
 </div>
 <a id="ga48a635e95dd38ffeaa3e7fef684dfd83" name="ga48a635e95dd38ffeaa3e7fef684dfd83"></a>
@@ -168933,6 +168951,8 @@ template&lt;typename Policy&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRScannerBackend_8h.html">MRViewer/MRScannerBackend.h</a>&gt;</code></p>
+
+<p>Whether the SDK runtime is loaded. </p>
 
 </div>
 </div>
@@ -178643,7 +178663,7 @@ template&lt;typename TreeT, typename Proc&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRScannerBackend_8h.html">MRViewer/MRScannerBackend.h</a>&gt;</code></p>
-<p>Live preview: the sink may be called on any thread, also from <a class="el" href="#gae761ba824f60dcd842571f6388cafcf2">captureFrame()</a>; it must not wait for the GUI thread, which <a class="el" href="#gaf78fcd38ad435792d60ed881d3509533">stopLivePreview()</a> may block. </p>
+<p>Live preview: the sink may be called on any thread, also from <a class="el" href="#gae761ba824f60dcd842571f6388cafcf2" title="Sends one live frame to the sink.">captureFrame()</a>; it must not wait for the GUI thread, which <a class="el" href="#gaf78fcd38ad435792d60ed881d3509533">stopLivePreview()</a> may block </p>
 
 </div>
 </div>
@@ -180463,6 +180483,8 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRScannerBackend_8h.html">MRViewer/MRScannerBackend.h</a>&gt;</code></p>
+
+<p>Applies a parameter changed in the <a class="el" href="namespaceMR_1_1UI.html">UI</a>: a bool, a double, an int, an enum index, or a UTF-8 path string. </p>
 
 </div>
 </div>
@@ -203033,6 +203055,8 @@ template&lt;UnitEnum E, VectorOrScalar T, typename F&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRScannerBackend_8h.html">MRViewer/MRScannerBackend.h</a>&gt;</code></p>
 
+<p>Releases every SDK object, also when the runtime was never loaded. </p>
+
 </div>
 </div>
 <a id="gaa917f541ba687e11cb12638018c11f49" name="gaa917f541ba687e11cb12638018c11f49"></a>
@@ -214558,7 +214582,7 @@ template&lt;class T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>off where connecting is not a user step, e.g. for a file camera </p>
+<p>the Current Scan tab with the schema's action groups; off when it has none </p>
 
 </div>
 </div>
@@ -220320,6 +220344,8 @@ template&lt;typename Tag&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>off where connecting is not a user step, e.g. for a file camera </p>
 
 </div>
 </div>
@@ -230599,6 +230625,8 @@ template&lt;typename ObjectT = Object&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>the Live, Live + 3D, Stop and Capture frame buttons </p>
 
 </div>
 </div>

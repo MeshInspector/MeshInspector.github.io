@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1ChangeDualMarchingCubesAction.html#aba246c956e4a86c2125b1617ba03ca39":[9,3,0,0,0,175,0],
 "classMR_1_1ChangeDualMarchingCubesAction.html#ac75375da5fbd1e7c9fcfbc6190db272d":[9,3,0,0,0,175,5],
 "classMR_1_1ChangeDualMarchingCubesAction.html#ae93684965fbccaaaaf217d2665e1dd88":[9,3,0,0,0,175,2],
 "classMR_1_1ChangeFacesColorMapAction.html":[9,3,0,0,0,176],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ChangePolylinePointsAction.html#ade2373c4b8162efc8334402e45199065":[9,3,0,0,0,203,4],
 "classMR_1_1ChangePolylinePointsAction.html#ade6d73dbb8cbe99f25a3771cf1018374":[9,3,0,0,0,203,1],
 "classMR_1_1ChangePolylinePointsAction.html#aed3d495bef2af410ca4fabf168c464cd":[9,3,0,0,0,203,3],
-"classMR_1_1ChangePolylineTopologyAction.html":[9,3,0,0,0,204],
-"classMR_1_1ChangePolylineTopologyAction.html#a076864d17c825043e1db7aba87d5fd52":[9,3,0,0,0,204,4]
+"classMR_1_1ChangePolylineTopologyAction.html":[9,3,0,0,0,204]
 };

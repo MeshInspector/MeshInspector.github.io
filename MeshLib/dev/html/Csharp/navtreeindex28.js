@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"classMR_1_1ConstBox__ObjVertId.html#ad3f1e99bff17aab0a8e7af2503ccb9bb":[9,3,0,0,0,1166,11],
 "classMR_1_1ConstBox__ObjVertId.html#afea1ff5b8ecb4c9befd1f7c1df1372a1":[9,3,0,0,0,1166,2],
 "classMR_1_1ConstBox__PixelId.html":[9,3,0,0,0,1167],
 "classMR_1_1ConstBox__PixelId.html#a0b759b58a785c7bb5caa78f588b209d4":[9,3,0,0,0,1167,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "classMR_1_1ConstBox__Vector2i64.html#a5490b59e259deec8eeb55de2d96af3ac":[9,3,0,0,0,1176,27],
 "classMR_1_1ConstBox__Vector2i64.html#a54c5de5282203aea43616da5e3b9eb5d":[9,3,0,0,0,1176,30],
 "classMR_1_1ConstBox__Vector2i64.html#a56a0e4eec4b1ee3acdb69591c120cce8":[9,3,0,0,0,1176,15],
-"classMR_1_1ConstBox__Vector2i64.html#a5a3e26ad5d9d6727289a991a1dd7171d":[9,3,0,0,0,1176,26],
-"classMR_1_1ConstBox__Vector2i64.html#a5a85d9599f3b1cf7c224df255c2593d0":[9,3,0,0,0,1176,18]
+"classMR_1_1ConstBox__Vector2i64.html#a5a3e26ad5d9d6727289a991a1dd7171d":[9,3,0,0,0,1176,26]
 };

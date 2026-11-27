@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"classmrmeshpy_1_1ConstBooleanResultMapper.html#af75d24f6f3fe2981f852c5ecf263749f":[9,1,1,0,1,608,4],
 "classmrmeshpy_1_1ConstBooleanResultMapper_1_1ConstMaps.html":[9,1,0,0,2,608,0],
 "classmrmeshpy_1_1ConstBooleanResultMapper_1_1ConstMaps.html":[9,1,1,0,1,608,0],
 "classmrmeshpy_1_1ConstBooleanResultMapper_1_1ConstMaps.html#a05cf6da58c411d29391ccc1b113ddd10":[9,1,0,0,2,608,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "classmrmeshpy_1_1ConstBox1i64.html#ad0b57b04c67cbaa32522fb01039875ce":[9,1,1,0,1,613,8],
 "classmrmeshpy_1_1ConstBox1i64.html#ae0cc1677efd68b9f8e97cd224495b608":[9,1,0,0,2,613,0],
 "classmrmeshpy_1_1ConstBox1i64.html#ae0cc1677efd68b9f8e97cd224495b608":[9,1,1,0,1,613,0],
-"classmrmeshpy_1_1ConstBox1i64.html#ae55a359a0c7a264f8e615c0ec236f452":[9,1,0,0,2,613,1],
-"classmrmeshpy_1_1ConstBox1i64.html#ae55a359a0c7a264f8e615c0ec236f452":[9,1,1,0,1,613,1]
+"classmrmeshpy_1_1ConstBox1i64.html#ae55a359a0c7a264f8e615c0ec236f452":[9,1,0,0,2,613,1]
 };

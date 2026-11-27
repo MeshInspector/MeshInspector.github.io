@@ -1,5 +1,6 @@
 var NAVTREEINDEX237 =
 {
+"structmeshlib_1_1std__vector__MR__UndirectedEdgeBitSet.html#a79487651fea32f1adff9bb3e3272acf2":[9,5,0,0,0,1426,2],
 "structmeshlib_1_1std__vector__MR__UndirectedEdgeBitSet.html#a79487651fea32f1adff9bb3e3272acf2":[9,5,1,0,0,1413,2],
 "structmeshlib_1_1std__vector__MR__UndirectedEdgeBitSet.html#a7b563ddc180ffe449f59c83bb689b117":[9,5,0,0,0,1426,18],
 "structmeshlib_1_1std__vector__MR__UndirectedEdgeBitSet.html#a7b563ddc180ffe449f59c83bb689b117":[9,5,1,0,0,1413,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX237 =
 "structmeshlib_1_1std__vector__MR__VdbVolume.html#a257cf1d09590ec868d4c144a59e3a938":[9,5,0,0,0,1432,9],
 "structmeshlib_1_1std__vector__MR__VdbVolume.html#a257cf1d09590ec868d4c144a59e3a938":[9,5,1,0,0,1419,9],
 "structmeshlib_1_1std__vector__MR__VdbVolume.html#a2d381619b17ae257752e568741c9ea19":[9,5,0,0,0,1432,15],
-"structmeshlib_1_1std__vector__MR__VdbVolume.html#a2d381619b17ae257752e568741c9ea19":[9,5,1,0,0,1419,15],
-"structmeshlib_1_1std__vector__MR__VdbVolume.html#a399f8536106234844c7d7bd6bfadd8f6":[9,5,0,0,0,1432,8]
+"structmeshlib_1_1std__vector__MR__VdbVolume.html#a2d381619b17ae257752e568741c9ea19":[9,5,1,0,0,1419,15]
 };

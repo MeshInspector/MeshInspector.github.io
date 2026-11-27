@@ -1,5 +1,6 @@
 var NAVTREEINDEX187 =
 {
+"classmeshlib_1_1VoxelsVolumeAccessor__MR__SimpleVolume.html#a7fa29ebb25145fa1c7cf68bcfeebb53b":[9,6,0,0,0,1755,4],
 "classmeshlib_1_1VoxelsVolumeAccessor__MR__SimpleVolume.html#a7fa29ebb25145fa1c7cf68bcfeebb53b":[9,6,1,0,0,1755,4],
 "classmeshlib_1_1VoxelsVolumeAccessor__MR__SimpleVolume.html#aab9c9de6ace1fea576fe29ef32d0a651":[9,6,0,0,0,1755,1],
 "classmeshlib_1_1VoxelsVolumeAccessor__MR__SimpleVolume.html#aab9c9de6ace1fea576fe29ef32d0a651":[9,6,1,0,0,1755,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX187 =
 "classmeshlib_1_1WeightedVertex.html#a0e445dd6847745c4b5fdd10f50d3cda6":[9,6,0,0,0,1771,6],
 "classmeshlib_1_1WeightedVertex.html#a0e445dd6847745c4b5fdd10f50d3cda6":[9,6,1,0,0,1771,6],
 "classmeshlib_1_1WeightedVertex.html#a13c302d69b59f110055b189e2e029794":[9,6,0,0,0,1771,8],
-"classmeshlib_1_1WeightedVertex.html#a13c302d69b59f110055b189e2e029794":[9,6,1,0,0,1771,8],
-"classmeshlib_1_1WeightedVertex.html#a3419d3b9bbf3dd3f293c19fdf881f7da":[9,6,0,0,0,1771,4]
+"classmeshlib_1_1WeightedVertex.html#a13c302d69b59f110055b189e2e029794":[9,6,1,0,0,1771,8]
 };

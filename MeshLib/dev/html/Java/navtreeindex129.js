@@ -1,5 +1,6 @@
 var NAVTREEINDEX129 =
 {
+"classmeshlib_1_1SharpOffsetParameters.html#a1683442dd240c94f3a62c78735499401":[9,6,0,0,0,950,18],
 "classmeshlib_1_1SharpOffsetParameters.html#a1683442dd240c94f3a62c78735499401":[9,6,1,0,0,950,18],
 "classmeshlib_1_1SharpOffsetParameters.html#a21c8376fe6446f8e498b2360702e1c89":[9,6,0,0,0,950,5],
 "classmeshlib_1_1SharpOffsetParameters.html#a21c8376fe6446f8e498b2360702e1c89":[9,6,1,0,0,950,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX129 =
 "classmeshlib_1_1SignedDistanceToMeshOptions.html#aa0dc8abcdbe1781fed96489f08869bb7":[9,6,0,0,0,956,5],
 "classmeshlib_1_1SignedDistanceToMeshOptions.html#aa0dc8abcdbe1781fed96489f08869bb7":[9,6,1,0,0,956,5],
 "classmeshlib_1_1SignedDistanceToMeshOptions.html#aa1b930f9018235bbe715a1173d09b9e0":[9,6,0,0,0,956,14],
-"classmeshlib_1_1SignedDistanceToMeshOptions.html#aa1b930f9018235bbe715a1173d09b9e0":[9,6,1,0,0,956,14],
-"classmeshlib_1_1SignedDistanceToMeshOptions.html#ab593935edf10e95e789917bd5deed799":[9,6,0,0,0,956,4]
+"classmeshlib_1_1SignedDistanceToMeshOptions.html#aa1b930f9018235bbe715a1173d09b9e0":[9,6,1,0,0,956,14]
 };

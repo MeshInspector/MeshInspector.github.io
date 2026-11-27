@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"MRBuffer_8h.html#acc5cd79a3aa0ee5d94085444233aa5f1":[9,2,2,0,0,0,0,1,31,882],
 "MRBuffer_8h.html#acce26120216f5aa2a9d9a1cae5fa3a28":[9,2,2,0,0,0,0,1,31,342],
 "MRBuffer_8h.html#acd2ed831cb3023d2740c89cc3ba6ad95":[9,2,2,0,0,0,0,1,31,912],
 "MRBuffer_8h.html#acd3dbe94235e7d617cff53765b0f0ef9":[9,2,2,0,0,0,0,1,31,507],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "MRCNCMachineSettings_8h.html#a8958492f4377352a629cdd478465daab":[9,2,2,0,0,0,0,1,54,24],
 "MRCNCMachineSettings_8h.html#a8f3a5d38f368c90e000fd30f25907812":[9,2,2,0,0,0,0,1,54,19],
 "MRCNCMachineSettings_8h.html#aa7c9f35f996c1c9289fbe3dac40af316":[9,2,2,0,0,0,0,1,54,16],
-"MRCNCMachineSettings_8h.html#aa9bd91452515f76a68711991d16fe8c4":[9,2,2,0,0,0,0,1,54,14],
-"MRCNCMachineSettings_8h.html#aaad98f4791940b48d73de8c12400fec6":[9,2,2,0,0,0,0,1,54,1]
+"MRCNCMachineSettings_8h.html#aa9bd91452515f76a68711991d16fe8c4":[9,2,2,0,0,0,0,1,54,14]
 };

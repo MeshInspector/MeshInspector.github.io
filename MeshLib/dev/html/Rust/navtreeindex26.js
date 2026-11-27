@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"structmeshlib_1_1BSplineSurface.html#acc536a5a7d66ba524ee7578b32085d46":[9,5,1,0,0,122,7],
 "structmeshlib_1_1BSplineSurface.html#adcc634cc54a0e1af8e220d9abf41daa2":[9,5,0,0,0,135,21],
 "structmeshlib_1_1BSplineSurface.html#adcc634cc54a0e1af8e220d9abf41daa2":[9,5,1,0,0,122,21],
 "structmeshlib_1_1BSplineSurface.html#ae3e6d49b2a9a0f8a10bc8cb4f765390a":[9,5,0,0,0,135,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "structmeshlib_1_1BaseUnionFind__MR__Id__MR__SurfaceDistanceStartTag.html#a487e2eaeaeebeeba6451748ea64afdae":[9,5,1,0,0,70,1],
 "structmeshlib_1_1BaseUnionFind__MR__Id__MR__SurfaceDistanceStartTag.html#a4d206e3b2deaa463ca272f438abe5611":[9,5,0,0,0,83,5],
 "structmeshlib_1_1BaseUnionFind__MR__Id__MR__SurfaceDistanceStartTag.html#a4d206e3b2deaa463ca272f438abe5611":[9,5,1,0,0,70,5],
-"structmeshlib_1_1BaseUnionFind__MR__Id__MR__SurfaceDistanceStartTag.html#a523be43b39f6a05009e67b80fa0ee1f4":[9,5,0,0,0,83,8],
-"structmeshlib_1_1BaseUnionFind__MR__Id__MR__SurfaceDistanceStartTag.html#a523be43b39f6a05009e67b80fa0ee1f4":[9,5,1,0,0,70,8]
+"structmeshlib_1_1BaseUnionFind__MR__Id__MR__SurfaceDistanceStartTag.html#a523be43b39f6a05009e67b80fa0ee1f4":[9,5,0,0,0,83,8]
 };

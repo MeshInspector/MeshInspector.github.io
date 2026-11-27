@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"classmrmeshpy_1_1ConstPolylineTraits__Vector3f.html#af5f1ac766baf88be0104d647979cd836":[9,1,1,0,1,1152,0],
 "classmrmeshpy_1_1ConstPolylineUndirectedEdgeIterator.html":[9,1,0,0,2,1153],
 "classmrmeshpy_1_1ConstPolylineUndirectedEdgeIterator.html":[9,1,1,0,1,1153],
 "classmrmeshpy_1_1ConstPolylineUndirectedEdgeIterator.html#a4a7a78c46545e609cd491957d82e5322":[9,1,0,0,2,1153,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "classmrmeshpy_1_1ConstPrecipitationSimulator_1_1SimulationStep.html#a7e61578acd1bfa6201bedf643bf3d5cf":[9,1,1,0,1,1172,2,5],
 "classmrmeshpy_1_1ConstPrecipitationSimulator_1_1SimulationStep.html#a7fd636a611cd657003d1424dac51bd20":[9,1,0,0,2,1172,2,0],
 "classmrmeshpy_1_1ConstPrecipitationSimulator_1_1SimulationStep.html#a7fd636a611cd657003d1424dac51bd20":[9,1,1,0,1,1172,2,0],
-"classmrmeshpy_1_1ConstPrecipitationSimulator_1_1SimulationStep.html#a9257786009c73f94e0ab232a5050d1c2":[9,1,0,0,2,1172,2,4],
-"classmrmeshpy_1_1ConstPrecipitationSimulator_1_1SimulationStep.html#a9257786009c73f94e0ab232a5050d1c2":[9,1,1,0,1,1172,2,4]
+"classmrmeshpy_1_1ConstPrecipitationSimulator_1_1SimulationStep.html#a9257786009c73f94e0ab232a5050d1c2":[9,1,0,0,2,1172,2,4]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"classBox__unsigned__short.html#a10809d0d7f5089f53e27894112533114":[9,4,1,0,107,2],
 "classBox__unsigned__short.html#a1bd9db5b5968f09cf6944a723e63ec01":[9,4,1,0,107,0],
 "classBox__unsigned__short.html#a29380501bf7690cf7841b262f44b7d37":[9,4,1,0,107,34],
 "classBox__unsigned__short.html#a2b28ce15dd983988418f8e8d46c16f79":[9,4,1,0,107,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "classBuffer__MR__PixelId__MR__PixelId.html#a92bf678fe59ca0e71ea4426ddb4f6e61":[9,4,1,0,125,16],
 "classBuffer__MR__PixelId__MR__PixelId.html#aa298dff2d9089bbef96674e031a733dd":[9,4,1,0,125,0],
 "classBuffer__MR__PixelId__MR__PixelId.html#ab18f03eadb5f426427cc28d44ba06f5a":[9,4,1,0,125,6],
-"classBuffer__MR__PixelId__MR__PixelId.html#ad16c82dbee0dbebbcbf311f814f43c8b":[9,4,1,0,125,10],
-"classBuffer__MR__PixelId__MR__PixelId.html#ad464a80ba552ce819aaa171faa13ef54":[9,4,1,0,125,15]
+"classBuffer__MR__PixelId__MR__PixelId.html#ad16c82dbee0dbebbcbf311f814f43c8b":[9,4,1,0,125,10]
 };

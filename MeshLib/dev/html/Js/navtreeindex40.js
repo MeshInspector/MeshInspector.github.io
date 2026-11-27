@@ -1,5 +1,6 @@
 var NAVTREEINDEX40 =
 {
+"classInSphereTester__int.html#a11dd335e5de9ff00caaca4ad0d0d01e3":[9,4,1,0,455,1],
 "classInSphereTester__int.html#a2637212f1d82b76299eeef9a2424a96d":[9,4,1,0,455,2],
 "classInSphereTester__int.html#a73765d60d704e01166a071217e445129":[9,4,1,0,455,3],
 "classInSphereTester__int.html#aa6bb99bc9909fa5a294c6e8983caad5a":[9,4,1,0,455,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "classLine3f.html#a85c2800466e2d181286f1906c6777f6b":[9,4,1,0,489,13],
 "classLine3f.html#a98fd8f80b2ccb64e97c0deb9548b0f8d":[9,4,1,0,489,0],
 "classLine3f.html#ab753dc594d5e9f1df17846cbbf63b16c":[9,4,1,0,489,6],
-"classLine3f.html#ab9d94765dfdabc1c7d196eedb9f436b2":[9,4,1,0,489,12],
-"classLine3f.html#acb11a2f9cd9e221d85c0a2092c7a6726":[9,4,1,0,489,5]
+"classLine3f.html#ab9d94765dfdabc1c7d196eedb9f436b2":[9,4,1,0,489,12]
 };

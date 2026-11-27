@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"classmrmeshpy_1_1Box3i.html#ae1fb0dd697987b28d3cea86ed1fa702a":[9,1,1,0,1,86,11],
 "classmrmeshpy_1_1Box3i.html#aecd2c7ac04335d752ab15fd8d62b9873":[9,1,0,0,2,86,10],
 "classmrmeshpy_1_1Box3i.html#aecd2c7ac04335d752ab15fd8d62b9873":[9,1,1,0,1,86,10],
 "classmrmeshpy_1_1Box3i.html#af840841a75a2def46310d609d037e7c1":[9,1,0,0,2,86,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "classmrmeshpy_1_1Buffer__GraphVertId__GraphVertId.html#a5b2d6d01ba0f1ed97521e8a5a458edbf":[9,1,1,0,1,101,4],
 "classmrmeshpy_1_1Buffer__GraphVertId__GraphVertId.html#a98a1b91e6aaa34c51f1fc8d4728dc3ff":[9,1,0,0,2,101,2],
 "classmrmeshpy_1_1Buffer__GraphVertId__GraphVertId.html#a98a1b91e6aaa34c51f1fc8d4728dc3ff":[9,1,1,0,1,101,2],
-"classmrmeshpy_1_1Buffer__GraphVertId__GraphVertId.html#ab04a4b1974b069a9249f6ae1abc21575":[9,1,0,0,2,101,1],
-"classmrmeshpy_1_1Buffer__GraphVertId__GraphVertId.html#ab04a4b1974b069a9249f6ae1abc21575":[9,1,1,0,1,101,1]
+"classmrmeshpy_1_1Buffer__GraphVertId__GraphVertId.html#ab04a4b1974b069a9249f6ae1abc21575":[9,1,0,0,2,101,1]
 };

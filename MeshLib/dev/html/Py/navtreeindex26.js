@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"classmrmeshpy_1_1ConstContoursMeshAlignParams.html#a173a2c845e735e3b05ef764eaa5b86d6":[9,1,1,0,1,717,5],
 "classmrmeshpy_1_1ConstContoursMeshAlignParams.html#a1f8326ead58133460eccb231d64cfee3":[9,1,0,0,2,717,2],
 "classmrmeshpy_1_1ConstContoursMeshAlignParams.html#a1f8326ead58133460eccb231d64cfee3":[9,1,1,0,1,717,2],
 "classmrmeshpy_1_1ConstContoursMeshAlignParams.html#a6742119a5583f3302f7efcf6e4557618":[9,1,0,0,2,717,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "classmrmeshpy_1_1ConstDecimatePolylineSettings__Vector3f.html#a260b979028e6b3eacff4c7617df1d590":[9,1,1,0,1,738,7],
 "classmrmeshpy_1_1ConstDecimatePolylineSettings__Vector3f.html#a65140607f01f5fccbaeb226f7de55fe2":[9,1,0,0,2,738,4],
 "classmrmeshpy_1_1ConstDecimatePolylineSettings__Vector3f.html#a65140607f01f5fccbaeb226f7de55fe2":[9,1,1,0,1,738,4],
-"classmrmeshpy_1_1ConstDecimatePolylineSettings__Vector3f.html#a6c1cc6b6cec2e1e53cae2b77c0de6f33":[9,1,0,0,2,738,1],
-"classmrmeshpy_1_1ConstDecimatePolylineSettings__Vector3f.html#a6c1cc6b6cec2e1e53cae2b77c0de6f33":[9,1,1,0,1,738,1]
+"classmrmeshpy_1_1ConstDecimatePolylineSettings__Vector3f.html#a6c1cc6b6cec2e1e53cae2b77c0de6f33":[9,1,0,0,2,738,1]
 };

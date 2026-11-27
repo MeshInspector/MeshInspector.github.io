@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"classChangeSceneObjectsOrder.html#ae68d8d779470f0e9e281c4ef3c02b5fa":[9,4,1,0,170,1],
 "classChangeSurfaceAction.html":[9,4,1,0,171],
 "classChangeSurfaceAction.html#a0f5fefe6496697fbbcc7bbe92458348a":[9,4,1,0,171,1],
 "classChangeSurfaceAction.html#a20b3215db18554fa2a5507b46f79df31":[9,4,1,0,171,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "classColorMapAggregator__MR__UndirectedEdgeTag__PartialColorMap.html#a0473908cc6f2befa6c3bd856239995ed":[9,4,1,0,186,2],
 "classColorMapAggregator__MR__UndirectedEdgeTag__PartialColorMap.html#a07783f287d4003562fba69e342f0f47a":[9,4,1,0,186,4],
 "classColorMapAggregator__MR__UndirectedEdgeTag__PartialColorMap.html#a66fb8e866b655ce8355fcdd73cdbe6f9":[9,4,1,0,186,0],
-"classColorMapAggregator__MR__UndirectedEdgeTag__PartialColorMap.html#a81de1908575ded0528d76499477fc0b2":[9,4,1,0,186,5],
-"classColorMapAggregator__MR__UndirectedEdgeTag__PartialColorMap.html#aa178dcddca6e887799b601f7958bbb99":[9,4,1,0,186,3]
+"classColorMapAggregator__MR__UndirectedEdgeTag__PartialColorMap.html#a81de1908575ded0528d76499477fc0b2":[9,4,1,0,186,5]
 };

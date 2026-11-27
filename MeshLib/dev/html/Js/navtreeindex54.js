@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"classObjectComparableWithReference__ComparisonTolerance.html#a95b5bdbf201278d4198b6df1e8e6dd25":[9,4,1,0,649,5],
 "classObjectComparableWithReference__ComparisonTolerance.html#aab60987b10d2b165ecab3fcb58c969c0":[9,4,1,0,649,1],
 "classObjectDistanceMap.html":[9,4,1,0,650],
 "classObjectDistanceMap.html#a00e65977ec030b9d8403cde6e7fa83e4":[9,4,1,0,650,160],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "classObjectGcode.html#a5e51bbb0cc4c1694902932e4de3a3e00":[9,4,1,0,652,124],
 "classObjectGcode.html#a62a55a0a725adc7f3069364b1fd10ae5":[9,4,1,0,652,53],
 "classObjectGcode.html#a6325e440acd9941d3f8979a794c0386b":[9,4,1,0,652,97],
-"classObjectGcode.html#a64472eebebb37bc6276045091f19bf27":[9,4,1,0,652,64],
-"classObjectGcode.html#a647fe0ee81562ea101b411300e1485b4":[9,4,1,0,652,94]
+"classObjectGcode.html#a64472eebebb37bc6276045091f19bf27":[9,4,1,0,652,64]
 };

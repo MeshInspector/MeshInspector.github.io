@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"MRToolbar_8h.html":[9,0,3,0,11,143],
 "MRToolbar_8h_source.html":[9,0,3,0,11,143],
 "MRToolsLibrary_8h.html":[9,0,3,0,11,144],
 "MRToolsLibrary_8h_source.html":[9,0,3,0,11,144],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "classMR_1_1AABBTreePoints.html":[9,0,0,1,9],
 "classMR_1_1AABBTreePoints.html#a0a3153bc33501dfaf6ae6f57573a703e":[9,0,0,1,9,4],
 "classMR_1_1AABBTreePoints.html#a0f0edac8d95fa30b01aeb66950911da9":[9,0,0,1,9,14],
-"classMR_1_1AABBTreePoints.html#a28a4d08720511965f02737e2ec12006c":[9,0,0,1,9,18],
-"classMR_1_1AABBTreePoints.html#a2c793bd3c62f465fbdf1e4d9494943e8":[9,0,0,1,9,16]
+"classMR_1_1AABBTreePoints.html#a28a4d08720511965f02737e2ec12006c":[9,0,0,1,9,18]
 };

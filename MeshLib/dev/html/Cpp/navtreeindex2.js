@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"MRFunctional_8h.html":[9,0,3,0,7,139],
 "MRFunctional_8h_source.html":[9,0,3,0,7,139],
 "MRGLDriverKnownIssues_8h.html":[9,0,3,0,11,32],
 "MRGLDriverKnownIssues_8h_source.html":[9,0,3,0,11,32],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "MRMacros_8h.html#ae5183c759a85bf4bf2bfebf125c3b783":[9,0,3,0,7,194,22],
 "MRMacros_8h.html#af2577133e8c02d830609dc0c74a53949":[9,0,3,0,7,194,9],
 "MRMacros_8h_source.html":[9,0,3,0,7,194],
-"MRMakePlane_8h.html":[9,0,3,0,7,195],
-"MRMakePlane_8h_source.html":[9,0,3,0,7,195]
+"MRMakePlane_8h.html":[9,0,3,0,7,195]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX113 =
 {
+"classMR_1_1FewSmallest__MRPointsProjectionResult.html#a42f9e24121eebfed83297a5cbbb93b26":[9,3,0,0,0,1292,6],
 "classMR_1_1FewSmallest__MRPointsProjectionResult.html#a75db4670ad6baf9f2f68a0c55cb697a2":[9,3,0,0,0,1292,8],
 "classMR_1_1FewSmallest__MRPointsProjectionResult.html#a833d3856af94cb66dfd101b6f6c30a66":[9,3,0,0,0,1292,0],
 "classMR_1_1FewSmallest__MRPointsProjectionResult.html#a95e0e62ce78763b764c06117e0f9e802":[9,3,0,0,0,1292,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX113 =
 "classMR_1_1FittedBSplineSurface.html#a9503ed02a336e9f746ab323d28cd51b4":[9,3,0,0,0,1305,1],
 "classMR_1_1FittedBSplineSurface.html#a9926dd75be159a61fbe3fab2b1948302":[9,3,0,0,0,1305,9],
 "classMR_1_1FittedBSplineSurface.html#ad6dd9ef5b6cd153193a37e333118d7d1":[9,3,0,0,0,1305,8],
-"classMR_1_1FittedBSplineSurface.html#aebd89263b0b5d40aba009bfc935a71c2":[9,3,0,0,0,1305,2],
-"classMR_1_1FixCreasesParams.html":[9,3,0,0,0,1306]
+"classMR_1_1FittedBSplineSurface.html#aebd89263b0b5d40aba009bfc935a71c2":[9,3,0,0,0,1305,2]
 };

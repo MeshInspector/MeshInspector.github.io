@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"classCylinderObject.html#a1320a63d80ed67d79f4960c1623fc995":[9,4,1,0,224,30],
 "classCylinderObject.html#a16dafe17ac18fb52ac7d9420be022d46":[9,4,1,0,224,64],
 "classCylinderObject.html#a17c2bd7f754c77d789b99518bad088fb":[9,4,1,0,224,2],
 "classCylinderObject.html#a192e42725eb7aa02aa663d233a614f94":[9,4,1,0,224,105],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "classDenoiseViaNormalsSettings.html#ae45959d09e59fb39893d6dd8d5eb1dc8":[9,4,1,0,232,12],
 "classDenoiseViaNormalsSettings.html#af756fd131c5b08ed32dfecb0e42ed276":[9,4,1,0,232,6],
 "classDenoiseWithCreasesSettings.html":[9,4,1,0,233],
-"classDenoiseWithCreasesSettings.html#a34ef64102514e4854ee95fff3680857a":[9,4,1,0,233,5],
-"classDenoiseWithCreasesSettings.html#a3651a5ace751dc4d38265e1f001bc451":[9,4,1,0,233,0]
+"classDenoiseWithCreasesSettings.html#a34ef64102514e4854ee95fff3680857a":[9,4,1,0,233,5]
 };

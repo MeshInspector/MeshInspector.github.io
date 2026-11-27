@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"classBuffer__MR__PixelId__MR__PixelId.html#ad464a80ba552ce819aaa171faa13ef54":[9,4,1,0,125,15],
 "classBuffer__MR__PixelId__MR__PixelId.html#ae16c43a7c17f99f8bdd12a6c847eef10":[9,4,1,0,125,7],
 "classBuffer__MR__RegionId__MR__RegionId.html":[9,4,1,0,126],
 "classBuffer__MR__RegionId__MR__RegionId.html#a0048362d014583cb474603e9735c1298":[9,4,1,0,126,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "classChangeDualMarchingCubesAction.html#aea6bfd36d762964c5647dfd041c8618b":[9,4,1,0,138,3],
 "classChangeFacesColorMapAction.html":[9,4,1,0,139],
 "classChangeFacesColorMapAction.html#a091f9ec2c9c76145e9de33b79ee49466":[9,4,1,0,139,6],
-"classChangeFacesColorMapAction.html#a3137e511682306f2f96dd9be92ef44cf":[9,4,1,0,139,2],
-"classChangeFacesColorMapAction.html#aab7e6dcc42394d1b0f272d2d990123c6":[9,4,1,0,139,4]
+"classChangeFacesColorMapAction.html#a3137e511682306f2f96dd9be92ef44cf":[9,4,1,0,139,2]
 };

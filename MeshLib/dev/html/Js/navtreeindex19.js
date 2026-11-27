@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"classBooleanInternalParameters.html#af6785d83bba9559bcdf686d277ec409c":[9,4,1,0,88,6],
 "classBooleanParameters.html":[9,4,1,0,89],
 "classBooleanParameters.html#a0acc0cd8759ed75b21597627a192b5e7":[9,4,1,0,89,10],
 "classBooleanParameters.html#a299c52f58bc235a8fdcb65729c7aa61c":[9,4,1,0,89,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "classBox2d.html#af1ddcf171d86018b2f7d2f4a86eb2c2d":[9,4,1,0,99,14],
 "classBox2d.html#af3cfa82d6736126725f32bcc524bb358":[9,4,1,0,99,19],
 "classBox2d.html#af7d979e05ebf14f490eb7fda7a2f4b8f":[9,4,1,0,99,8],
-"classBox2d.html#afce2f8b9d04861a1494b9b019a6471f5":[9,4,1,0,99,18],
-"classBox2d.html#aff4d2db05b488bf4652806af4751510f":[9,4,1,0,99,0]
+"classBox2d.html#afce2f8b9d04861a1494b9b019a6471f5":[9,4,1,0,99,18]
 };

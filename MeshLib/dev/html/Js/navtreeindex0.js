@@ -53,7 +53,7 @@ var NAVTREEINDEX0 =
 "../FirstPluginTutorial.html":[5,0],
 "../FloatVSDouble.html":[8,3],
 "../HowtoAddPluginOverview.html":[8,8],
-"../I18nGuide.html":[8,9],
+"../I18nGuide.html":[8,10],
 "../InstallationGuide.html":[2],
 "../Java/APIJavaPage.html":[9,6],
 "../License.html":[3],
@@ -69,6 +69,7 @@ var NAVTREEINDEX0 =
 "../PackageOverview.html":[8],
 "../Py/APIPyPage.html":[9,1],
 "../Rust/APIRustPage.html":[9,5],
+"../ScannerBackendGuide.html":[8,9],
 "../SpacesHelp.html":[8,5],
 "../StatePluginsHelp.html":[8,7],
 "../SupportGeneratorTutorial.html":[5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "__all_8d_8mts.html#a09dfa20887071e73a8f262afc743133a":[9,4,2,0,0,1,0,0,0,0,3724],
 "__all_8d_8mts.html#a0a7bd7a866baa0a05d0ab31f4e6cead1":[9,4,2,0,0,1,0,0,0,0,4441],
 "__all_8d_8mts.html#a0a8601eb3acdfd3994709049c6dccdf5":[9,4,2,0,0,1,0,0,0,0,3605],
-"__all_8d_8mts.html#a0aaa2ca9f0e16f29713208cff96951ae":[9,4,2,0,0,1,0,0,0,0,4245],
-"__all_8d_8mts.html#a0ab42b5bad02d69a29783861f042e627":[9,4,2,0,0,1,0,0,0,0,4485]
+"__all_8d_8mts.html#a0aaa2ca9f0e16f29713208cff96951ae":[9,4,2,0,0,1,0,0,0,0,4245]
 };

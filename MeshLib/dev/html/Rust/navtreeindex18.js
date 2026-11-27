@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"std__vector__MR__Plane3d__MR__Allocator__MR__Plane3d_8rs.html":[9,5,2,0,0,1,3,535],
 "std__vector__MR__PointCloud_8rs.html":[9,5,2,0,0,1,3,536],
 "std__vector__MR__PointPair_8rs.html":[9,5,2,0,0,1,3,537],
 "std__vector__MR__PointsLoad__NamedCloud_8rs.html":[9,5,2,0,0,1,3,538],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#a9c3f86fb3f68617f683048d6d3a1f21c":[9,5,1,0,0,27,4],
 "structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#ad507ce8459929b57755b72ea4a078d05":[9,5,0,0,0,40,14],
 "structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#ad507ce8459929b57755b72ea4a078d05":[9,5,1,0,0,27,14],
-"structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#ae4e0f0f9af86fa9a4a87395d6ca3e82a":[9,5,0,0,0,40,15],
-"structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#ae4e0f0f9af86fa9a4a87395d6ca3e82a":[9,5,1,0,0,27,15]
+"structmeshlib_1_1AABBTreeBase__MR__ObjTreeTraits.html#ae4e0f0f9af86fa9a4a87395d6ca3e82a":[9,5,0,0,0,40,15]
 };

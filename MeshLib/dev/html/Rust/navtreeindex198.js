@@ -1,5 +1,6 @@
 var NAVTREEINDEX198 =
 {
+"structmeshlib_1_1scene__save_1_1Settings.html#ac3e0df7c5a071cb0be4a5ebe116b2187":[9,5,0,0,0,31,0,1],
 "structmeshlib_1_1scene__save_1_1Settings.html#ac3e0df7c5a071cb0be4a5ebe116b2187":[9,5,1,0,0,18,0,1],
 "structmeshlib_1_1scene__save_1_1Settings.html#acf12efed1cd81e68f33b44c019ea58c4":[9,5,0,0,0,31,0,4],
 "structmeshlib_1_1scene__save_1_1Settings.html#acf12efed1cd81e68f33b44c019ea58c4":[9,5,1,0,0,18,0,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX198 =
 "structmeshlib_1_1std__array__MR__VertId__2.html":[9,5,0,0,0,990],
 "structmeshlib_1_1std__array__MR__VertId__2.html":[9,5,1,0,0,977],
 "structmeshlib_1_1std__array__MR__VertId__2.html#abfa4a42d49e53c4f4a3af52c1356b18f":[9,5,0,0,0,990,0],
-"structmeshlib_1_1std__array__MR__VertId__2.html#abfa4a42d49e53c4f4a3af52c1356b18f":[9,5,1,0,0,977,0],
-"structmeshlib_1_1std__array__MR__VertId__3.html":[9,5,0,0,0,991]
+"structmeshlib_1_1std__array__MR__VertId__2.html#abfa4a42d49e53c4f4a3af52c1356b18f":[9,5,1,0,0,977,0]
 };

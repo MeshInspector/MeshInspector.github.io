@@ -1,5 +1,6 @@
 var NAVTREEINDEX209 =
 {
+"classmeshlib_1_1pointssave_1_1CtmSavePointsOptions.html#a10dadae3e1d9e7acf3d0764357e48db2":[9,6,0,0,0,26,0,8],
 "classmeshlib_1_1pointssave_1_1CtmSavePointsOptions.html#a10dadae3e1d9e7acf3d0764357e48db2":[9,6,1,0,0,26,0,8],
 "classmeshlib_1_1pointssave_1_1CtmSavePointsOptions.html#a1f208bd552f08a46b9600f7333b924ac":[9,6,0,0,0,26,0,18],
 "classmeshlib_1_1pointssave_1_1CtmSavePointsOptions.html#a1f208bd552f08a46b9600f7333b924ac":[9,6,1,0,0,26,0,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX209 =
 "classmeshlib_1_1selfintersections_1_1Settings__Method.html":[9,6,0,0,0,32,2],
 "classmeshlib_1_1selfintersections_1_1Settings__Method.html":[9,6,1,0,0,32,2],
 "classmeshlib_1_1selfintersections_1_1Settings__Method.html#a2b3f64235700887016c959c2b7d8aecc":[9,6,0,0,0,32,2,1],
-"classmeshlib_1_1selfintersections_1_1Settings__Method.html#a2b3f64235700887016c959c2b7d8aecc":[9,6,1,0,0,32,2,1],
-"classmeshlib_1_1selfintersections_1_1Settings__Method.html#a6ce726fa649e464caf25542eca05c29f":[9,6,0,0,0,32,2,2]
+"classmeshlib_1_1selfintersections_1_1Settings__Method.html#a2b3f64235700887016c959c2b7d8aecc":[9,6,1,0,0,32,2,1]
 };

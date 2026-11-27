@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"classmrmeshpy_1_1ConstMeshTopology.html#a4ee7c4f3f6010fbc2d0f71e0f2e68208":[9,1,1,0,1,993,52],
 "classmrmeshpy_1_1ConstMeshTopology.html#a4f08a632c088f6e93d08bcdfd5561bc9":[9,1,0,0,2,993,2],
 "classmrmeshpy_1_1ConstMeshTopology.html#a4f08a632c088f6e93d08bcdfd5561bc9":[9,1,1,0,1,993,2],
 "classmrmeshpy_1_1ConstMeshTopology.html#a4fe625b6f48838115d82790d5bdc9913":[9,1,0,0,2,993,60],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "classmrmeshpy_1_1ConstMinMaxArg__float__VertId.html#a1019734dbeb8bd317d2938dd68a5791f":[9,1,1,0,1,1001,4],
 "classmrmeshpy_1_1ConstMinMaxArg__float__VertId.html#a2ea7726c793b6449fc5556a5d7bcfd05":[9,1,0,0,2,1001,1],
 "classmrmeshpy_1_1ConstMinMaxArg__float__VertId.html#a2ea7726c793b6449fc5556a5d7bcfd05":[9,1,1,0,1,1001,1],
-"classmrmeshpy_1_1ConstMinMaxArg__float__VertId.html#a3389e9c00c04b4e843154e95d36ef7e2":[9,1,0,0,2,1001,3],
-"classmrmeshpy_1_1ConstMinMaxArg__float__VertId.html#a3389e9c00c04b4e843154e95d36ef7e2":[9,1,1,0,1,1001,3]
+"classmrmeshpy_1_1ConstMinMaxArg__float__VertId.html#a3389e9c00c04b4e843154e95d36ef7e2":[9,1,0,0,2,1001,3]
 };

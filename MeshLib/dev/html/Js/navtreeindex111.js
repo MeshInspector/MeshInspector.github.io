@@ -1,5 +1,6 @@
 var NAVTREEINDEX111 =
 {
+"classstd__function__double__from__MR__VertId__MR__VertId__MR__VertId__MR__VertId.html#adb28104d4077beb31c13dc3547f6cb60":[9,4,1,0,894,6],
 "classstd__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref.html":[9,4,1,0,891],
 "classstd__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref.html#a32714052b8e9574fd7c8682362d2718c":[9,4,1,0,891,3],
 "classstd__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref.html#a327b37651a077c325c48b303fa0ff399":[9,4,1,0,891,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX111 =
 "classstd__function__void__from__MR__SceneLoad__Result.html#a9a6b0dd2ef840e93ed7df424ca7fe58d":[9,4,1,0,947,4],
 "classstd__function__void__from__MR__SceneLoad__Result.html#ac6ac040013f5fa8c54a1edbafe108284":[9,4,1,0,947,3],
 "classstd__function__void__from__MR__SceneLoad__Result.html#afbb9730e5905c6df43a417677996c129":[9,4,1,0,947,2],
-"classstd__function__void__from__MR__SignDetectionMode.html":[9,4,1,0,948],
-"classstd__function__void__from__MR__SignDetectionMode.html#a0ab9fe85e1f18f0aa779658fa703ac5f":[9,4,1,0,948,5]
+"classstd__function__void__from__MR__SignDetectionMode.html":[9,4,1,0,948]
 };

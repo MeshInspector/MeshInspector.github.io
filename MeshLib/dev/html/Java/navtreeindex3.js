@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"ObjKindTraits__MR__FeaturesObjectKind__Sphere_8java.html":[9,6,2,0,0,1,0,0,760],
 "ObjLoadSettings_8java.html":[9,6,2,0,0,1,0,0,17,2],
 "ObjMap_8java.html":[9,6,2,0,0,1,0,0,761],
 "ObjTreeTraits_8java.html":[9,6,2,0,0,1,0,0,762],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "SliceInfoBase_8java.html":[9,6,2,0,0,1,0,0,968],
 "SliceInfo_8java.html":[9,6,2,0,0,1,0,0,967],
 "SlicePlane_8java.html":[9,6,2,0,0,1,0,0,969],
-"SmoothCameraMeshDepthSettings_8java.html":[9,6,2,0,0,1,0,0,970],
-"SmoothFillingSettings_8java.html":[9,6,2,0,0,1,0,0,971]
+"SmoothCameraMeshDepthSettings_8java.html":[9,6,2,0,0,1,0,0,970]
 };
