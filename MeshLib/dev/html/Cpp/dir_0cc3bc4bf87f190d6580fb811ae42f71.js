@@ -419,7 +419,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRSurfacePath.h", "MRSurfacePath_8h.html", "MRSurfacePath_8h" ],
     [ "MRSurroundingContour.h", "MRSurroundingContour_8h.html", "MRSurroundingContour_8h" ],
     [ "MRSymMatrix2.h", "MRSymMatrix2_8h.html", null ],
-    [ "MRSymMatrix3.h", "MRSymMatrix3_8h.html", null ],
+    [ "MRSymMatrix3.h", "MRSymMatrix3_8h.html", "MRSymMatrix3_8h" ],
     [ "MRSymMatrix4.h", "MRSymMatrix4_8h.html", null ],
     [ "MRSystem.h", "MRSystem_8h.html", "MRSystem_8h" ],
     [ "MRSystemPath.h", "MRSystemPath_8h.html", null ],

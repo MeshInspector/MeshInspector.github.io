@@ -1,5 +1,8 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1Laplacian_1_1Attractor.html":[9,0,0,19,337],
+"structMR_1_1LaunchParams.html":[9,0,0,19,819],
+"structMR_1_1Line.html":[9,0,0,0,23],
 "structMR_1_1Line.html":[9,0,0,19,338],
 "structMR_1_1Line3Mesh.html":[9,0,0,1,26],
 "structMR_1_1Line3Mesh.html#a0de1e3305b0aa64219ac2de3c2abb2f3":[9,0,0,1,26,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1Mesh.html#abdde9d2b2de53657f20a2739ed8c9bea":[9,0,0,7,1,91],
 "structMR_1_1Mesh.html#abe211d973521963165b09ad25d9a971c":[9,0,0,7,1,70],
 "structMR_1_1Mesh.html#abe28c0649ca99c11e22e99fcce026ffe":[9,0,0,7,1,71],
-"structMR_1_1Mesh.html#ac05aec705a09ff41edd35394ade19c16":[9,0,0,7,1,0],
-"structMR_1_1Mesh.html#ac103b0f7382c3183b4e466a8abcdd796":[9,0,0,7,1,95],
-"structMR_1_1Mesh.html#ac127a110cf4ae135424a266306fc6788":[9,0,0,7,1,5],
-"structMR_1_1Mesh.html#ac30bc19abb82dba07bc51836c6fb4218":[9,0,0,7,1,44]
+"structMR_1_1Mesh.html#ac05aec705a09ff41edd35394ade19c16":[9,0,0,7,1,0]
 };

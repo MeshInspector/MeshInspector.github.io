@@ -1,5 +1,8 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1UniquePtr.html":[9,0,0,19,564],
+"structMR_1_1UnitInfo.html":[9,0,0,19,569],
+"structMR_1_1UnitToStringParams.html":[9,0,0,19,816],
 "structMR_1_1UniteManyMeshesParams.html":[9,0,0,19,567],
 "structMR_1_1UniteMeshNormalizationParams.html":[9,0,0,19,568],
 "structMR_1_1UnorientedTriangle.html":[9,0,0,19,570],
@@ -246,8 +249,5 @@ var NAVTREEINDEX74 =
 "structWasm_1_1TypedArrayValType_3_01uint32__t_01_4.html":[9,0,1,0,3,6],
 "structWasm_1_1TypedArrayValType_3_01uint32__t_01_4.html":[9,0,2,0,2,6],
 "structWasm_1_1TypedArrayValType_3_01uint32__t_01_4.html#a8aeb7f8f8881d26f5fbed7b8f64604a3":[9,0,1,0,3,6,0],
-"structWasm_1_1TypedArrayValType_3_01uint32__t_01_4.html#a8aeb7f8f8881d26f5fbed7b8f64604a3":[9,0,2,0,2,6,0],
-"structWasm_1_1TypedArrayValType_3_01uint8__t_01_4.html":[9,0,1,0,3,7],
-"structWasm_1_1TypedArrayValType_3_01uint8__t_01_4.html":[9,0,2,0,2,7],
-"structWasm_1_1TypedArrayValType_3_01uint8__t_01_4.html#af1f7d02ee1de5ba0f9980457c80db195":[9,0,1,0,3,7,0]
+"structWasm_1_1TypedArrayValType_3_01uint32__t_01_4.html#a8aeb7f8f8881d26f5fbed7b8f64604a3":[9,0,2,0,2,6,0]
 };
