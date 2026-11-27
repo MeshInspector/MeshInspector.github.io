@@ -10549,7 +10549,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gabfd13a0571414cefb52bb74a4f885902" id="r_gabfd13a0571414cefb52bb74a4f885902"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabfd13a0571414cefb52bb74a4f885902">MR::ScannerBackendAdder::ScannerBackendAdder</a> (const <a class="el" href="classMR_1_1ScannerBackendAdder.html">ScannerBackendAdder</a> &amp;)=delete</td></tr>
 <tr class="memitem:gaea937e4569c9c5431d5a6852d9b684d7" id="r_gaea937e4569c9c5431d5a6852d9b684d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ScannerBackendAdder.html">ScannerBackendAdder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaea937e4569c9c5431d5a6852d9b684d7">MR::ScannerBackendAdder::operator=</a> (const <a class="el" href="classMR_1_1ScannerBackendAdder.html">ScannerBackendAdder</a> &amp;)=delete</td></tr>
 <tr class="memitem:gaad6ca836e23dd365a2f985af7b1e46b3" id="r_gaad6ca836e23dd365a2f985af7b1e46b3"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::unique_ptr&lt; <a class="el" href="classMR_1_1IScannerBackend.html">IScannerBackend</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaad6ca836e23dd365a2f985af7b1e46b3">MR::getScannerBackends</a> ()</td></tr>
-<tr class="memdesc:gaad6ca836e23dd365a2f985af7b1e46b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The registered scanner backends, in registration order.  <br /></td></tr>
+<tr class="memdesc:gaad6ca836e23dd365a2f985af7b1e46b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The registered scanner backends, sorted by name.  <br /></td></tr>
 <tr class="memitem:ga5898b58e9a519a2c5301f9bb75de4053" id="r_ga5898b58e9a519a2c5301f9bb75de4053"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5898b58e9a519a2c5301f9bb75de4053">MR::unregisterScannerBackends</a> ()</td></tr>
 <tr class="memitem:ga26841b819956c41171ec43c058b3bc74" id="r_ga26841b819956c41171ec43c058b3bc74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga26841b819956c41171ec43c058b3bc74">MR::drawScannerParams</a> (<a class="el" href="classMR_1_1IScannerBackend.html">IScannerBackend</a> &amp;backend)</td></tr>
 <tr class="memdesc:ga26841b819956c41171ec43c058b3bc74"><td class="mdescLeft">&#160;</td><td class="mdescRight">The schema's parameter groups.  <br /></td></tr>
@@ -100246,7 +100246,7 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRScannerBackend_8h.html">MRViewer/MRScannerBackend.h</a>&gt;</code></p>
 
-<p>The registered scanner backends, in registration order. </p>
+<p>The registered scanner backends, sorted by name. </p>
 
 </div>
 </div>
