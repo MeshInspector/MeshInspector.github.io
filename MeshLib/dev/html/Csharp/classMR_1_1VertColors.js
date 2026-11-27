@@ -15,6 +15,7 @@ var classMR_1_1VertColors =
     [ "clear", "classMR_1_1VertColors.html#aca7ce46ce17a2634d67866db8811ed95", null ],
     [ "data", "classMR_1_1VertColors.html#a819475399037335c0aedca5047ae2973", null ],
     [ "front", "classMR_1_1VertColors.html#aeeb763073cc748252841352587f922ef", null ],
+    [ "GetEnumerator", "classMR_1_1VertColors.html#aa53951f0ce8eb3b29f151127ac1e1422", null ],
     [ "popBack", "classMR_1_1VertColors.html#a3fd4b75759e9535814f50af401073df4", null ],
     [ "pushBack", "classMR_1_1VertColors.html#af03c356e55aa7a456501ad5ee54854fa", null ],
     [ "pushBack", "classMR_1_1VertColors.html#af384437afa67236d37dd1e3c1ab69cd3", null ],

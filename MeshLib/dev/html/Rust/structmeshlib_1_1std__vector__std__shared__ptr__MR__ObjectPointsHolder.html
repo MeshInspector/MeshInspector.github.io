@@ -169,7 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0612d80d9cf09b4ccc9fec6eec4a5fe8" id="r_a0612d80d9cf09b4ccc9fec6eec4a5fe8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0612d80d9cf09b4ccc9fec6eec4a5fe8">insert</a> (position:usize, new_elem:&amp;<a class="el" href="structmeshlib_1_1std__shared__ptr__MR__ObjectPointsHolder.html">meshlib::std_shared_ptr_MR_ObjectPointsHolder</a>)</td></tr>
 <tr class="memitem:a4865ec42b18a8fb814e0719e2576f880" id="r_a4865ec42b18a8fb814e0719e2576f880"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4865ec42b18a8fb814e0719e2576f880">erase</a> (position:usize)</td></tr>
 <tr class="memitem:a7a926cd21c20bcd4c2d701519da4dc07" id="r_a7a926cd21c20bcd4c2d701519da4dc07"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a926cd21c20bcd4c2d701519da4dc07">begin</a> () const -&gt; *const meshlib::ffi::MR_std_shared_ptr_MR_ObjectPointsHolder</td></tr>
+<tr class="memitem:a612354372db0e246ce741a086b971192" id="r_a612354372db0e246ce741a086b971192"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a612354372db0e246ce741a086b971192">begin_mut</a> () -&gt; *mut meshlib::ffi::MR_std_shared_ptr_MR_ObjectPointsHolder</td></tr>
 <tr class="memitem:a9f8a2739b2f137a685d387c91291136f" id="r_a9f8a2739b2f137a685d387c91291136f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f8a2739b2f137a685d387c91291136f">end</a> () const -&gt; *const meshlib::ffi::MR_std_shared_ptr_MR_ObjectPointsHolder</td></tr>
+<tr class="memitem:a1b12c7d94f931e98d7303e861c78ee3f" id="r_a1b12c7d94f931e98d7303e861c78ee3f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b12c7d94f931e98d7303e861c78ee3f">end_mut</a> () -&gt; *mut meshlib::ffi::MR_std_shared_ptr_MR_ObjectPointsHolder</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -298,6 +300,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a612354372db0e246ce741a086b971192" name="a612354372db0e246ce741a086b971192"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a612354372db0e246ce741a086b971192">&#9670;&#160;</a></span>begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_std_shared_ptr_MR_ObjectPointsHolder::begin_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_std_shared_ptr_MR_ObjectPointsHolder</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_begin_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="acec16947365a0204812852d243f973e2" name="acec16947365a0204812852d243f973e2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acec16947365a0204812852d243f973e2">&#9670;&#160;</a></span>clear()</h2>
 
@@ -379,6 +400,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers.</p>
 <p>Calls <span class="tt">MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a1b12c7d94f931e98d7303e861c78ee3f" name="a1b12c7d94f931e98d7303e861c78ee3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b12c7d94f931e98d7303e861c78ee3f">&#9670;&#160;</a></span>end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_std_shared_ptr_MR_ObjectPointsHolder::end_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_std_shared_ptr_MR_ObjectPointsHolder</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_end_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

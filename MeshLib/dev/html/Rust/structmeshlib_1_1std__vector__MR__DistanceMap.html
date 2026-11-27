@@ -169,7 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a902646e9f9187f2fbecda034b12f6e49" id="r_a902646e9f9187f2fbecda034b12f6e49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a902646e9f9187f2fbecda034b12f6e49">insert</a> (position:usize, new_elem:&amp;<a class="el" href="structmeshlib_1_1DistanceMap.html">meshlib::DistanceMap</a>)</td></tr>
 <tr class="memitem:a52d0954202de35e5becf94fa697b36fa" id="r_a52d0954202de35e5becf94fa697b36fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52d0954202de35e5becf94fa697b36fa">erase</a> (position:usize)</td></tr>
 <tr class="memitem:a4ffe1c9d8f56573810892e531afad790" id="r_a4ffe1c9d8f56573810892e531afad790"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ffe1c9d8f56573810892e531afad790">begin</a> () const -&gt; *const meshlib::ffi::MR_DistanceMap</td></tr>
+<tr class="memitem:a5f068df1804f2ff7bd497656190c19f5" id="r_a5f068df1804f2ff7bd497656190c19f5"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f068df1804f2ff7bd497656190c19f5">begin_mut</a> () -&gt; *mut meshlib::ffi::MR_DistanceMap</td></tr>
 <tr class="memitem:ae5907dae57eb9963e3d83bcf5efa0f47" id="r_ae5907dae57eb9963e3d83bcf5efa0f47"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5907dae57eb9963e3d83bcf5efa0f47">end</a> () const -&gt; *const meshlib::ffi::MR_DistanceMap</td></tr>
+<tr class="memitem:a17d5af8952a047ce8d469a4d8ed376a2" id="r_a17d5af8952a047ce8d469a4d8ed376a2"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17d5af8952a047ce8d469a4d8ed376a2">end_mut</a> () -&gt; *mut meshlib::ffi::MR_DistanceMap</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -298,6 +300,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a5f068df1804f2ff7bd497656190c19f5" name="a5f068df1804f2ff7bd497656190c19f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f068df1804f2ff7bd497656190c19f5">&#9670;&#160;</a></span>begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_DistanceMap::begin_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_DistanceMap</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_DistanceMap_begin_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a19411089716cf47cbb9aa6046f25d6d9" name="a19411089716cf47cbb9aa6046f25d6d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a19411089716cf47cbb9aa6046f25d6d9">&#9670;&#160;</a></span>clear()</h2>
 
@@ -379,6 +400,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers.</p>
 <p>Calls <span class="tt">MR_std_vector_MR_DistanceMap_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a17d5af8952a047ce8d469a4d8ed376a2" name="a17d5af8952a047ce8d469a4d8ed376a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17d5af8952a047ce8d469a4d8ed376a2">&#9670;&#160;</a></span>end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_DistanceMap::end_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_DistanceMap</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_DistanceMap_end_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

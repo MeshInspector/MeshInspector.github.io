@@ -15,6 +15,7 @@ var classMR_1_1FaceMap =
     [ "clear", "classMR_1_1FaceMap.html#a53a9c4f072c7758b4b493b4e5ccf6b71", null ],
     [ "data", "classMR_1_1FaceMap.html#a6d617c5184a6a30b3471936c0e51224c", null ],
     [ "front", "classMR_1_1FaceMap.html#a5881716a99854db1af85c349bdadc23f", null ],
+    [ "GetEnumerator", "classMR_1_1FaceMap.html#a9535c204484b8e19927f5821fb3cac81", null ],
     [ "popBack", "classMR_1_1FaceMap.html#abdc7722e4456670870c948ab9cdf566c", null ],
     [ "pushBack", "classMR_1_1FaceMap.html#aa4c3dcea5fd1ceec105774266ca510e4", null ],
     [ "pushBack", "classMR_1_1FaceMap.html#abadf19f58611f4558ba756bd64a8ee7a", null ],

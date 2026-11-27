@@ -15,6 +15,7 @@ var classMR_1_1VoxelScalars =
     [ "clear", "classMR_1_1VoxelScalars.html#ad8cddc014c03c95368f0c6bcba47e084", null ],
     [ "data", "classMR_1_1VoxelScalars.html#a84f11d58e47e739a1094c70f815bcd07", null ],
     [ "front", "classMR_1_1VoxelScalars.html#a374d1d01beb248801cc33b28cbd58d2e", null ],
+    [ "GetEnumerator", "classMR_1_1VoxelScalars.html#a3ca08ee284eadc096508f68a75129d02", null ],
     [ "popBack", "classMR_1_1VoxelScalars.html#a487ed97970c3a4c93792ee8e8c1e07ae", null ],
     [ "pushBack", "classMR_1_1VoxelScalars.html#a48546851a01977c2082a8386153d6ec7", null ],
     [ "pushBack", "classMR_1_1VoxelScalars.html#a98cb4cc87f5da3b5cf86bacc3316a6ae", null ],

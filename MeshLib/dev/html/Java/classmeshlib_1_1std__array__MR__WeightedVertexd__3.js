@@ -7,7 +7,9 @@ var classmeshlib_1_1std__array__MR__WeightedVertexd__3 =
     [ "at", "classmeshlib_1_1std__array__MR__WeightedVertexd__3.html#a637eab76d5bde0da6a04d596eb46904e", null ],
     [ "at_mut", "classmeshlib_1_1std__array__MR__WeightedVertexd__3.html#a8d0830fc02aacf19dc96cfc5599797e4", null ],
     [ "begin", "classmeshlib_1_1std__array__MR__WeightedVertexd__3.html#a2712fa4d5d83f96f707fb8edb5edbdc2", null ],
+    [ "begin_mut", "classmeshlib_1_1std__array__MR__WeightedVertexd__3.html#a1b71a9efa79580d3889f005c76d8b560", null ],
     [ "data", "classmeshlib_1_1std__array__MR__WeightedVertexd__3.html#ac437091735daa14d3349d10900b9594e", null ],
     [ "data_mut", "classmeshlib_1_1std__array__MR__WeightedVertexd__3.html#aaf109d0c83fc2fb0a828797b8e2a038c", null ],
-    [ "end", "classmeshlib_1_1std__array__MR__WeightedVertexd__3.html#aa173fea6f0ba6289b153b2ebc13e0102", null ]
+    [ "end", "classmeshlib_1_1std__array__MR__WeightedVertexd__3.html#aa173fea6f0ba6289b153b2ebc13e0102", null ],
+    [ "end_mut", "classmeshlib_1_1std__array__MR__WeightedVertexd__3.html#a32690d8ab55a86a53c339eb3b2dd051e", null ]
 ];

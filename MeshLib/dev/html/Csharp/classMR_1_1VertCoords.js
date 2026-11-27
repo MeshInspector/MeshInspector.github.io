@@ -15,6 +15,7 @@ var classMR_1_1VertCoords =
     [ "clear", "classMR_1_1VertCoords.html#ab5d5ae4b8cfe09f947d7174788b2f879", null ],
     [ "data", "classMR_1_1VertCoords.html#accc1e4248c939c10dd20d9c87133f6fd", null ],
     [ "front", "classMR_1_1VertCoords.html#afc0c4940ff9169622bf196e88c4b5e8c", null ],
+    [ "GetEnumerator", "classMR_1_1VertCoords.html#a7d1609b7e7f2069609c6832c0c7be123", null ],
     [ "popBack", "classMR_1_1VertCoords.html#a8e160cf2265ab9beeb163b80423a09a2", null ],
     [ "pushBack", "classMR_1_1VertCoords.html#a352232521d9a3adbcf2ed820a0110f72", null ],
     [ "pushBack", "classMR_1_1VertCoords.html#a30f65da31f5a367ee9ee4a96bb51e342", null ],

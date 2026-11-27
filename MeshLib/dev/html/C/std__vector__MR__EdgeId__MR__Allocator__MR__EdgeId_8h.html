@@ -173,7 +173,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a2402913f24d719f4fe39bfaec4a0babf" id="r_a2402913f24d719f4fe39bfaec4a0babf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2402913f24d719f4fe39bfaec4a0babf">MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_insert</a> (<a class="el" href="MRVector_8h.html#a15d43a83816fa7dc3dc3e5684b1fea1b">MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId</a> *_this, size_t position, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> new_elem)</td></tr>
 <tr class="memitem:ac7bfa11c516ef465344c401dc2aa7b89" id="r_ac7bfa11c516ef465344c401dc2aa7b89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7bfa11c516ef465344c401dc2aa7b89">MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_erase</a> (<a class="el" href="MRVector_8h.html#a15d43a83816fa7dc3dc3e5684b1fea1b">MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId</a> *_this, size_t position)</td></tr>
 <tr class="memitem:a74e9050950ac4ed76538a20dbe195803" id="r_a74e9050950ac4ed76538a20dbe195803"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74e9050950ac4ed76538a20dbe195803">MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_begin</a> (const <a class="el" href="MRVector_8h.html#a15d43a83816fa7dc3dc3e5684b1fea1b">MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId</a> *_this)</td></tr>
+<tr class="memitem:a4e7569aba307bce0774e678aee2c95d6" id="r_a4e7569aba307bce0774e678aee2c95d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e7569aba307bce0774e678aee2c95d6">MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_begin_mut</a> (<a class="el" href="MRVector_8h.html#a15d43a83816fa7dc3dc3e5684b1fea1b">MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId</a> *_this)</td></tr>
 <tr class="memitem:a624b7c651a1171a3db57fe1cce108862" id="r_a624b7c651a1171a3db57fe1cce108862"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a624b7c651a1171a3db57fe1cce108862">MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_end</a> (const <a class="el" href="MRVector_8h.html#a15d43a83816fa7dc3dc3e5684b1fea1b">MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId</a> *_this)</td></tr>
+<tr class="memitem:a33a848bbb1a7924bacf81b68353e8605" id="r_a33a848bbb1a7924bacf81b68353e8605"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33a848bbb1a7924bacf81b68353e8605">MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_end_mut</a> (<a class="el" href="MRVector_8h.html#a15d43a83816fa7dc3dc3e5684b1fea1b">MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId</a> *_this)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a86ce9e2567022ed998a99f748629c4d2" name="a86ce9e2567022ed998a99f748629c4d2"></a>
@@ -298,6 +300,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>The begin iterator, const. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a4e7569aba307bce0774e678aee2c95d6" name="a4e7569aba307bce0774e678aee2c95d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e7569aba307bce0774e678aee2c95d6">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> * MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_begin_mut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a15d43a83816fa7dc3dc3e5684b1fea1b">MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -484,6 +504,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a33a848bbb1a7924bacf81b68353e8605" name="a33a848bbb1a7924bacf81b68353e8605"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33a848bbb1a7924bacf81b68353e8605">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> * MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_end_mut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a15d43a83816fa7dc3dc3e5684b1fea1b">MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

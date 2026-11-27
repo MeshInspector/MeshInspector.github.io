@@ -15,6 +15,7 @@ var classMR_1_1Vector__MRNestingNestingResult__MRObjId =
     [ "clear", "classMR_1_1Vector__MRNestingNestingResult__MRObjId.html#a1b7128e2176921f242d56d7b40e9b10f", null ],
     [ "data", "classMR_1_1Vector__MRNestingNestingResult__MRObjId.html#ac9501517cfad4866fbecee58b791aa17", null ],
     [ "front", "classMR_1_1Vector__MRNestingNestingResult__MRObjId.html#a7cbf231a5e2c8a571fce121846a6d552", null ],
+    [ "GetEnumerator", "classMR_1_1Vector__MRNestingNestingResult__MRObjId.html#a50eb2eb94818987b32da3379aff49b0c", null ],
     [ "popBack", "classMR_1_1Vector__MRNestingNestingResult__MRObjId.html#a2047f4ff909455ba1ec1d5ea1db61bf7", null ],
     [ "pushBack", "classMR_1_1Vector__MRNestingNestingResult__MRObjId.html#a556980178509542081a4273942259546", null ],
     [ "pushBack", "classMR_1_1Vector__MRNestingNestingResult__MRObjId.html#ac2e348e4da22f03a5af8f7caa2d09840", null ],

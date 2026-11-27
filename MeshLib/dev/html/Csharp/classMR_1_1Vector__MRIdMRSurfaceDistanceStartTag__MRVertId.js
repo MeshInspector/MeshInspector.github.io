@@ -15,6 +15,7 @@ var classMR_1_1Vector__MRIdMRSurfaceDistanceStartTag__MRVertId =
     [ "clear", "classMR_1_1Vector__MRIdMRSurfaceDistanceStartTag__MRVertId.html#a1909f3fc1c359a6aeedde1c60366e262", null ],
     [ "data", "classMR_1_1Vector__MRIdMRSurfaceDistanceStartTag__MRVertId.html#abe6d99d3c3e867717a3bc1b81761c0eb", null ],
     [ "front", "classMR_1_1Vector__MRIdMRSurfaceDistanceStartTag__MRVertId.html#ab42afde31bac22b95b24eb4ccd319dda", null ],
+    [ "GetEnumerator", "classMR_1_1Vector__MRIdMRSurfaceDistanceStartTag__MRVertId.html#ae9bf830bd4ccb3235f6acbd90f190e00", null ],
     [ "popBack", "classMR_1_1Vector__MRIdMRSurfaceDistanceStartTag__MRVertId.html#acba71a0c02e9aa7ecf2ca71c84c75f61", null ],
     [ "pushBack", "classMR_1_1Vector__MRIdMRSurfaceDistanceStartTag__MRVertId.html#a048dfb4a7319c5ce7056ba9cf74fc574", null ],
     [ "pushBack", "classMR_1_1Vector__MRIdMRSurfaceDistanceStartTag__MRVertId.html#a7fdd3cc39dde5906685d321d39fac9ce", null ],

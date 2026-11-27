@@ -15,6 +15,7 @@ var classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICP
     [ "clear", "classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html#ae81d95bab5216a656b8b5ee73ac52d94", null ],
     [ "data", "classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html#a1d0548a1887068cb8934076dbd0e346b", null ],
     [ "front", "classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html#a62361aaa42c4c4588a85f1e2d19d083c", null ],
+    [ "GetEnumerator", "classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html#aeeb47d5fba7f33ffec0c76708927ff86", null ],
     [ "popBack", "classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html#a2b3c3d80b84854296ba040660d8abd57", null ],
     [ "pushBack", "classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html#a0b2195214702ee66de4ae567a4d15f01", null ],
     [ "pushBack", "classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int.html#a744a4e91b885d5820fef7b2e1160775b", null ],

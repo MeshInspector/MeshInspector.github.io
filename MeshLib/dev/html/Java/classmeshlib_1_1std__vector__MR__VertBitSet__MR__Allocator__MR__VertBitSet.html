@@ -170,7 +170,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a05f96e077cf019d36549e8d0ba14c95e" id="r_a05f96e077cf019d36549e8d0ba14c95e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05f96e077cf019d36549e8d0ba14c95e">insert</a> (long position, <a class="el" href="classmeshlib_1_1VertBitSet.html">meshlib.VertBitSet</a> new_elem)</td></tr>
 <tr class="memitem:a6097b31e88cbb407a4ed6f084e247e7a" id="r_a6097b31e88cbb407a4ed6f084e247e7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6097b31e88cbb407a4ed6f084e247e7a">erase</a> (long position)</td></tr>
 <tr class="memitem:a88ee9df4ad65d2122b350c100dac0e60" id="r_a88ee9df4ad65d2122b350c100dac0e60"><td class="memItemLeft" align="right" valign="top">java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88ee9df4ad65d2122b350c100dac0e60">begin</a> ()</td></tr>
+<tr class="memitem:a28e81c215844a222d0d96fbc975f2785" id="r_a28e81c215844a222d0d96fbc975f2785"><td class="memItemLeft" align="right" valign="top">java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28e81c215844a222d0d96fbc975f2785">begin_mut</a> ()</td></tr>
 <tr class="memitem:a25b2bdafe53319f7cc83e1b2855a5412" id="r_a25b2bdafe53319f7cc83e1b2855a5412"><td class="memItemLeft" align="right" valign="top">java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25b2bdafe53319f7cc83e1b2855a5412">end</a> ()</td></tr>
+<tr class="memitem:ae8eba40e32d97741951a5490c2189a3c" id="r_ae8eba40e32d97741951a5490c2189a3c"><td class="memItemLeft" align="right" valign="top">java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8eba40e32d97741951a5490c2189a3c">end_mut</a> ()</td></tr>
 <tr class="inherit_header pub_methods_classmeshlib_1_1CppObject"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmeshlib_1_1CppObject')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmeshlib_1_1CppObject.html">meshlib.CppObject</a></td></tr>
 <tr class="memitem:a50e9c0c04aa6405ed71f1f41a882a450 inherit pub_methods_classmeshlib_1_1CppObject" id="r_a50e9c0c04aa6405ed71f1f41a882a450"><td class="memItemLeft" align="right" valign="top">final java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1CppObject.html#a50e9c0c04aa6405ed71f1f41a882a450">rawPointer</a> ()</td></tr>
 <tr class="memitem:a13a1dffc41acfd1d81b88c42f47ecd36 inherit pub_methods_classmeshlib_1_1CppObject" id="r_a13a1dffc41acfd1d81b88c42f47ecd36"><td class="memItemLeft" align="right" valign="top">final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1CppObject.html#a13a1dffc41acfd1d81b88c42f47ecd36">isOwned</a> ()</td></tr>
@@ -366,6 +368,25 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a28e81c215844a222d0d96fbc975f2785" name="a28e81c215844a222d0d96fbc975f2785"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28e81c215844a222d0d96fbc975f2785">&#9670;&#160;</a></span>begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">java.lang.foreign.MemorySegment meshlib.std_vector_MR_VertBitSet_MR_Allocator_MR_VertBitSet.begin_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers. The reference to this object might be preserved as the return value.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_VertBitSet_MR_Allocator_MR_VertBitSet_begin_mut()</span>. Some types are raw C types, see the C bindings for the details. </p>
+
+</div>
+</div>
 <a id="a974701c293adbddfa74529a6de5a9694" name="a974701c293adbddfa74529a6de5a9694"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a974701c293adbddfa74529a6de5a9694">&#9670;&#160;</a></span>clear()</h2>
 
@@ -420,6 +441,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers. The reference to this object might be preserved as the return value.</p>
 <p>Calls <span class="tt">MR_std_vector_MR_VertBitSet_MR_Allocator_MR_VertBitSet_end()</span>. Some types are raw C types, see the C bindings for the details. </p>
+
+</div>
+</div>
+<a id="ae8eba40e32d97741951a5490c2189a3c" name="ae8eba40e32d97741951a5490c2189a3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8eba40e32d97741951a5490c2189a3c">&#9670;&#160;</a></span>end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">java.lang.foreign.MemorySegment meshlib.std_vector_MR_VertBitSet_MR_Allocator_MR_VertBitSet.end_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers. The reference to this object might be preserved as the return value.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_VertBitSet_MR_Allocator_MR_VertBitSet_end_mut()</span>. Some types are raw C types, see the C bindings for the details. </p>
 
 </div>
 </div>

@@ -15,6 +15,7 @@ var classMR_1_1Vector__MRNestingMeshXf__MRObjId =
     [ "clear", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html#abf81f934c9be05cbd25c2b4a0624a30a", null ],
     [ "data", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html#a7f3c359703ec85ea1351e210c121b673", null ],
     [ "front", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html#ae4a4da2e49b09f8eee63880e0b041c14", null ],
+    [ "GetEnumerator", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html#ad4974d4bc3e3024d7d6771b045bc66ae", null ],
     [ "popBack", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html#a9e07deab3fe136d81f39f228327ad44e", null ],
     [ "pushBack", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html#a8e59ee1f5a251aa934d1bf3b4b1834d9", null ],
     [ "pushBack", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html#ade1881719a310fbdba32234a854e0810", null ],

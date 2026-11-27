@@ -168,7 +168,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a938e2537a6fb5e0798fa82a6e8cf0db7" id="r_a938e2537a6fb5e0798fa82a6e8cf0db7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a938e2537a6fb5e0798fa82a6e8cf0db7">insert</a> (number <a class="el" href="__all_8d_8mts.html#ac9966ec2ccbd317ac52c5a9bb7c14ebda186286c1e4467cf7aeb7d01bca2ba162">position</a>, string new_elem)</td></tr>
 <tr class="memitem:a2749e3dd84cac42deee56079be180311" id="r_a2749e3dd84cac42deee56079be180311"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2749e3dd84cac42deee56079be180311">erase</a> (number <a class="el" href="__all_8d_8mts.html#ac9966ec2ccbd317ac52c5a9bb7c14ebda186286c1e4467cf7aeb7d01bca2ba162">position</a>)</td></tr>
 <tr class="memitem:a81ba78d197999ca56d4a4e9f56171304" id="r_a81ba78d197999ca56d4a4e9f56171304"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81ba78d197999ca56d4a4e9f56171304">begin</a> ()</td></tr>
+<tr class="memitem:a3703de54b3e7331bdaf23a5b270e05b6" id="r_a3703de54b3e7331bdaf23a5b270e05b6"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3703de54b3e7331bdaf23a5b270e05b6">begin_mut</a> ()</td></tr>
 <tr class="memitem:a94b1983fd32113c8e264535d417159d3" id="r_a94b1983fd32113c8e264535d417159d3"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94b1983fd32113c8e264535d417159d3">end</a> ()</td></tr>
+<tr class="memitem:a7d0de034bb51c14f04015bd356efac97" id="r_a7d0de034bb51c14f04015bd356efac97"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d0de034bb51c14f04015bd356efac97">end_mut</a> ()</td></tr>
 <tr class="inherit_header pub_methods_classCppObject"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classCppObject')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classCppObject.html">CppObject</a></td></tr>
 <tr class="memitem:a844238da7582c79edba29c4d3815e0a8 inherit pub_methods_classCppObject" id="r_a844238da7582c79edba29c4d3815e0a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCppObject.html#a844238da7582c79edba29c4d3815e0a8">CppObject</a> (number ptr, function destroy, unknown owner)</td></tr>
 <tr class="memitem:a5d2f2ec68a560add80ca5cee6429537d inherit pub_methods_classCppObject" id="r_a5d2f2ec68a560add80ca5cee6429537d"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCppObject.html#a5d2f2ec68a560add80ca5cee6429537d">rawPointer</a> ()</td></tr>
@@ -333,6 +335,25 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a3703de54b3e7331bdaf23a5b270e05b6" name="a3703de54b3e7331bdaf23a5b270e05b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3703de54b3e7331bdaf23a5b270e05b6">&#9670;&#160;</a></span>begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">number std_vector_std_string::begin_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers. The reference to this object might be preserved as the return value.</p>
+<p>Calls <span class="tt">MR_std_vector_std_string_begin_mut()</span>. Some types are raw C types (pointers as numbers), see the C bindings for the details. </p>
+
+</div>
+</div>
 <a id="a2eca428ffaab4435cedcd816101cdb1e" name="a2eca428ffaab4435cedcd816101cdb1e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2eca428ffaab4435cedcd816101cdb1e">&#9670;&#160;</a></span>clear()</h2>
 
@@ -387,6 +408,25 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers. The reference to this object might be preserved as the return value.</p>
 <p>Calls <span class="tt">MR_std_vector_std_string_end()</span>. Some types are raw C types (pointers as numbers), see the C bindings for the details. </p>
+
+</div>
+</div>
+<a id="a7d0de034bb51c14f04015bd356efac97" name="a7d0de034bb51c14f04015bd356efac97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d0de034bb51c14f04015bd356efac97">&#9670;&#160;</a></span>end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">number std_vector_std_string::end_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers. The reference to this object might be preserved as the return value.</p>
+<p>Calls <span class="tt">MR_std_vector_std_string_end_mut()</span>. Some types are raw C types (pointers as numbers), see the C bindings for the details. </p>
 
 </div>
 </div>

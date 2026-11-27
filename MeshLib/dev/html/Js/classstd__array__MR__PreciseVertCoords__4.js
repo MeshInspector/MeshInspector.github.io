@@ -6,7 +6,9 @@ var classstd__array__MR__PreciseVertCoords__4 =
     [ "at", "classstd__array__MR__PreciseVertCoords__4.html#ac5027f38b283fcae6395f6cbf0aba764", null ],
     [ "at_mut", "classstd__array__MR__PreciseVertCoords__4.html#a1df31ff72f933473142acabef26088f7", null ],
     [ "begin", "classstd__array__MR__PreciseVertCoords__4.html#adbc7cae319bc1fc7b166977e7f1a24ae", null ],
+    [ "begin_mut", "classstd__array__MR__PreciseVertCoords__4.html#a7f71907cbbff48fbdc20db5f27389727", null ],
     [ "data", "classstd__array__MR__PreciseVertCoords__4.html#add5bb001401c2f6c239e9979b3a684a6", null ],
     [ "data_mut", "classstd__array__MR__PreciseVertCoords__4.html#a6af42eb26aa29e493f8e51d1f6e6207b", null ],
-    [ "end", "classstd__array__MR__PreciseVertCoords__4.html#accc9da3815e98e04b184329d60374900", null ]
+    [ "end", "classstd__array__MR__PreciseVertCoords__4.html#accc9da3815e98e04b184329d60374900", null ],
+    [ "end_mut", "classstd__array__MR__PreciseVertCoords__4.html#a00d89b282073797d5d81372d66c5b826", null ]
 ];

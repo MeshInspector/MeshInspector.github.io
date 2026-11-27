@@ -15,6 +15,7 @@ var classMR_1_1Vector__MRAlphaShapeNei =
     [ "clear", "classMR_1_1Vector__MRAlphaShapeNei.html#a9413e2b0afe22c3cd98ad1c37b95003e", null ],
     [ "data", "classMR_1_1Vector__MRAlphaShapeNei.html#ad73a9d8a31bff659042872fc63c2584c", null ],
     [ "front", "classMR_1_1Vector__MRAlphaShapeNei.html#aa2e282919e3f92b2744b81d2a675a673", null ],
+    [ "GetEnumerator", "classMR_1_1Vector__MRAlphaShapeNei.html#a9252810d1069a5302c727f8b4cd8a532", null ],
     [ "popBack", "classMR_1_1Vector__MRAlphaShapeNei.html#aac18c0dae25f27f8125a445d9b4f4f42", null ],
     [ "pushBack", "classMR_1_1Vector__MRAlphaShapeNei.html#a743664c42772451759ba6c8731c7cd30", null ],
     [ "pushBack", "classMR_1_1Vector__MRAlphaShapeNei.html#a74dc671b73b65b3bf9246ab88ffdb613", null ],

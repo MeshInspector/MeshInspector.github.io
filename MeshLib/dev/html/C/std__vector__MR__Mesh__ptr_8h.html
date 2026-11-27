@@ -170,7 +170,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a97bc371fbececd10bfc4bdd1a9fb7966" id="r_a97bc371fbececd10bfc4bdd1a9fb7966"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97bc371fbececd10bfc4bdd1a9fb7966">MR_std_vector_MR_Mesh_ptr_insert</a> (<a class="el" href="MRUniteManyMeshes_8h.html#ab880c29b9e846c71bb3d6f92ced5e0d6">MR_std_vector_MR_Mesh_ptr</a> *_this, size_t position, <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *new_elem)</td></tr>
 <tr class="memitem:aad5d1ca0400bbcfa8b76a090e7148c4c" id="r_aad5d1ca0400bbcfa8b76a090e7148c4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad5d1ca0400bbcfa8b76a090e7148c4c">MR_std_vector_MR_Mesh_ptr_erase</a> (<a class="el" href="MRUniteManyMeshes_8h.html#ab880c29b9e846c71bb3d6f92ced5e0d6">MR_std_vector_MR_Mesh_ptr</a> *_this, size_t position)</td></tr>
 <tr class="memitem:a8389bbc1060df481d915132732cedcf9" id="r_a8389bbc1060df481d915132732cedcf9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8389bbc1060df481d915132732cedcf9">MR_std_vector_MR_Mesh_ptr_begin</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#ab880c29b9e846c71bb3d6f92ced5e0d6">MR_std_vector_MR_Mesh_ptr</a> *_this)</td></tr>
+<tr class="memitem:a1e7b0d693cd7ad4e208e35f64bb5c3a2" id="r_a1e7b0d693cd7ad4e208e35f64bb5c3a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e7b0d693cd7ad4e208e35f64bb5c3a2">MR_std_vector_MR_Mesh_ptr_begin_mut</a> (<a class="el" href="MRUniteManyMeshes_8h.html#ab880c29b9e846c71bb3d6f92ced5e0d6">MR_std_vector_MR_Mesh_ptr</a> *_this)</td></tr>
 <tr class="memitem:a90083fc5dfdeb51c28df1cabd47146d0" id="r_a90083fc5dfdeb51c28df1cabd47146d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90083fc5dfdeb51c28df1cabd47146d0">MR_std_vector_MR_Mesh_ptr_end</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#ab880c29b9e846c71bb3d6f92ced5e0d6">MR_std_vector_MR_Mesh_ptr</a> *_this)</td></tr>
+<tr class="memitem:a20dec31ab2b93858dbf3c84f52bdae5b" id="r_a20dec31ab2b93858dbf3c84f52bdae5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20dec31ab2b93858dbf3c84f52bdae5b">MR_std_vector_MR_Mesh_ptr_end_mut</a> (<a class="el" href="MRUniteManyMeshes_8h.html#ab880c29b9e846c71bb3d6f92ced5e0d6">MR_std_vector_MR_Mesh_ptr</a> *_this)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="aac1f4723fd0ef2aeb3924047b5d9e70f" name="aac1f4723fd0ef2aeb3924047b5d9e70f"></a>
@@ -295,6 +297,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>The begin iterator, const. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a1e7b0d693cd7ad4e208e35f64bb5c3a2" name="a1e7b0d693cd7ad4e208e35f64bb5c3a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e7b0d693cd7ad4e208e35f64bb5c3a2">&#9670;&#160;</a></span>MR_std_vector_MR_Mesh_ptr_begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> ** MR_std_vector_MR_Mesh_ptr_begin_mut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#ab880c29b9e846c71bb3d6f92ced5e0d6">MR_std_vector_MR_Mesh_ptr</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -445,6 +465,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a20dec31ab2b93858dbf3c84f52bdae5b" name="a20dec31ab2b93858dbf3c84f52bdae5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20dec31ab2b93858dbf3c84f52bdae5b">&#9670;&#160;</a></span>MR_std_vector_MR_Mesh_ptr_end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> ** MR_std_vector_MR_Mesh_ptr_end_mut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#ab880c29b9e846c71bb3d6f92ced5e0d6">MR_std_vector_MR_Mesh_ptr</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

@@ -169,7 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af31ceed08d4bc2af591c0f9020b8996b" id="r_af31ceed08d4bc2af591c0f9020b8996b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af31ceed08d4bc2af591c0f9020b8996b">insert</a> (position:usize, new_elem:&amp;<a class="el" href="structmeshlib_1_1VertBitSet.html">meshlib::VertBitSet</a>)</td></tr>
 <tr class="memitem:ad7e4a9fef8b35b0c4b03f1f6816b9f52" id="r_ad7e4a9fef8b35b0c4b03f1f6816b9f52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7e4a9fef8b35b0c4b03f1f6816b9f52">erase</a> (position:usize)</td></tr>
 <tr class="memitem:a0fec631310adc3d6c352136c3cc06f7c" id="r_a0fec631310adc3d6c352136c3cc06f7c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fec631310adc3d6c352136c3cc06f7c">begin</a> () const -&gt; *const meshlib::ffi::MR_VertBitSet</td></tr>
+<tr class="memitem:a942c3c770d1ccf91409449591560d8bd" id="r_a942c3c770d1ccf91409449591560d8bd"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a942c3c770d1ccf91409449591560d8bd">begin_mut</a> () -&gt; *mut meshlib::ffi::MR_VertBitSet</td></tr>
 <tr class="memitem:a6e7f9f98876e8ceed3e1ba5268c889de" id="r_a6e7f9f98876e8ceed3e1ba5268c889de"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e7f9f98876e8ceed3e1ba5268c889de">end</a> () const -&gt; *const meshlib::ffi::MR_VertBitSet</td></tr>
+<tr class="memitem:ae524187e8750de6b061619b490839587" id="r_ae524187e8750de6b061619b490839587"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae524187e8750de6b061619b490839587">end_mut</a> () -&gt; *mut meshlib::ffi::MR_VertBitSet</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -298,6 +300,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a942c3c770d1ccf91409449591560d8bd" name="a942c3c770d1ccf91409449591560d8bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a942c3c770d1ccf91409449591560d8bd">&#9670;&#160;</a></span>begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_VertBitSet_MR_Allocator_MR_VertBitSet::begin_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_VertBitSet</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_VertBitSet_MR_Allocator_MR_VertBitSet_begin_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a2ae4c84a278b89e06c97feb40278fb27" name="a2ae4c84a278b89e06c97feb40278fb27"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2ae4c84a278b89e06c97feb40278fb27">&#9670;&#160;</a></span>clear()</h2>
 
@@ -379,6 +400,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers.</p>
 <p>Calls <span class="tt">MR_std_vector_MR_VertBitSet_MR_Allocator_MR_VertBitSet_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ae524187e8750de6b061619b490839587" name="ae524187e8750de6b061619b490839587"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae524187e8750de6b061619b490839587">&#9670;&#160;</a></span>end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_VertBitSet_MR_Allocator_MR_VertBitSet::end_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_VertBitSet</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_VertBitSet_MR_Allocator_MR_VertBitSet_end_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

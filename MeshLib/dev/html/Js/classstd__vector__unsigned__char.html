@@ -171,7 +171,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a83a524d5c5394ce218acccb7f4d46f8a" id="r_a83a524d5c5394ce218acccb7f4d46f8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83a524d5c5394ce218acccb7f4d46f8a">insert</a> (number <a class="el" href="__all_8d_8mts.html#ac9966ec2ccbd317ac52c5a9bb7c14ebda186286c1e4467cf7aeb7d01bca2ba162">position</a>, number new_elem)</td></tr>
 <tr class="memitem:a5c0c4c63c3bfbcee936c5cf6b74c790e" id="r_a5c0c4c63c3bfbcee936c5cf6b74c790e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c0c4c63c3bfbcee936c5cf6b74c790e">erase</a> (number <a class="el" href="__all_8d_8mts.html#ac9966ec2ccbd317ac52c5a9bb7c14ebda186286c1e4467cf7aeb7d01bca2ba162">position</a>)</td></tr>
 <tr class="memitem:a829e5623b283c05cba95ec72b3d7d4b7" id="r_a829e5623b283c05cba95ec72b3d7d4b7"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a829e5623b283c05cba95ec72b3d7d4b7">begin</a> ()</td></tr>
+<tr class="memitem:a789aa8fab439a35d26bd8bf366a4d3f7" id="r_a789aa8fab439a35d26bd8bf366a4d3f7"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a789aa8fab439a35d26bd8bf366a4d3f7">begin_mut</a> ()</td></tr>
 <tr class="memitem:a049ab8da8cd27cf46fab2e430c9ce5a0" id="r_a049ab8da8cd27cf46fab2e430c9ce5a0"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a049ab8da8cd27cf46fab2e430c9ce5a0">end</a> ()</td></tr>
+<tr class="memitem:ac59bb1d1ece9c55fa5d8150e3377b729" id="r_ac59bb1d1ece9c55fa5d8150e3377b729"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac59bb1d1ece9c55fa5d8150e3377b729">end_mut</a> ()</td></tr>
 <tr class="memitem:a7819834051a849a88e5f175e3e4d48a2" id="r_a7819834051a849a88e5f175e3e4d48a2"><td class="memItemLeft" align="right" valign="top">Uint8Array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7819834051a849a88e5f175e3e4d48a2">toArray</a> ()</td></tr>
 <tr class="memitem:a9291760026a9fc056f823c3b6acd6966" id="r_a9291760026a9fc056f823c3b6acd6966"><td class="memItemLeft" align="right" valign="top">Uint8Array&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9291760026a9fc056f823c3b6acd6966">view</a> ()</td></tr>
 <tr class="memitem:ad57f294bf6301ba89f51d8e8b3257d84" id="r_ad57f294bf6301ba89f51d8e8b3257d84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad57f294bf6301ba89f51d8e8b3257d84">setFromArray</a> (ArrayLike array)</td></tr>
@@ -343,6 +345,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a789aa8fab439a35d26bd8bf366a4d3f7" name="a789aa8fab439a35d26bd8bf366a4d3f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a789aa8fab439a35d26bd8bf366a4d3f7">&#9670;&#160;</a></span>begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">number std_vector_unsigned_char::begin_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers. The reference to this object might be preserved as the return value.</p>
+<p>Calls <span class="tt">MR_std_vector_unsigned_char_begin_mut()</span>. Some types are raw C types (pointers as numbers), see the C bindings for the details. </p>
+
+</div>
+</div>
 <a id="ab0f76a451dfac7c273e7dc97f39dafc4" name="ab0f76a451dfac7c273e7dc97f39dafc4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab0f76a451dfac7c273e7dc97f39dafc4">&#9670;&#160;</a></span>clear()</h2>
 
@@ -435,6 +456,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers. The reference to this object might be preserved as the return value.</p>
 <p>Calls <span class="tt">MR_std_vector_unsigned_char_end()</span>. Some types are raw C types (pointers as numbers), see the C bindings for the details. </p>
+
+</div>
+</div>
+<a id="ac59bb1d1ece9c55fa5d8150e3377b729" name="ac59bb1d1ece9c55fa5d8150e3377b729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac59bb1d1ece9c55fa5d8150e3377b729">&#9670;&#160;</a></span>end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">number std_vector_unsigned_char::end_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers. The reference to this object might be preserved as the return value.</p>
+<p>Calls <span class="tt">MR_std_vector_unsigned_char_end_mut()</span>. Some types are raw C types (pointers as numbers), see the C bindings for the details. </p>
 
 </div>
 </div>

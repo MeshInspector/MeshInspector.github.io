@@ -168,7 +168,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2be79436f1f00567b3a9b205af232277" id="r_a2be79436f1f00567b3a9b205af232277"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2be79436f1f00567b3a9b205af232277">insert</a> (position:usize, new_elem:&amp;<a class="el" href="structmeshlib_1_1MeshOrPointsXf.html">meshlib::MeshOrPointsXf</a>)</td></tr>
 <tr class="memitem:a218b25318a397e80095a8c3b331f85ca" id="r_a218b25318a397e80095a8c3b331f85ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a218b25318a397e80095a8c3b331f85ca">erase</a> (position:usize)</td></tr>
 <tr class="memitem:aa6994e40a630cbdfbd1f3cd20f05e9ad" id="r_aa6994e40a630cbdfbd1f3cd20f05e9ad"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6994e40a630cbdfbd1f3cd20f05e9ad">begin</a> () const -&gt; *const meshlib::ffi::MR_MeshOrPointsXf</td></tr>
+<tr class="memitem:a5782f73bb42b69ea5b666437dbf88778" id="r_a5782f73bb42b69ea5b666437dbf88778"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5782f73bb42b69ea5b666437dbf88778">begin_mut</a> () -&gt; *mut meshlib::ffi::MR_MeshOrPointsXf</td></tr>
 <tr class="memitem:a9d4215a805d1552bfdcb48aa31f76d50" id="r_a9d4215a805d1552bfdcb48aa31f76d50"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d4215a805d1552bfdcb48aa31f76d50">end</a> () const -&gt; *const meshlib::ffi::MR_MeshOrPointsXf</td></tr>
+<tr class="memitem:a8e2a809a259c819911322a9bfa0a6365" id="r_a8e2a809a259c819911322a9bfa0a6365"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e2a809a259c819911322a9bfa0a6365">end_mut</a> () -&gt; *mut meshlib::ffi::MR_MeshOrPointsXf</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -297,6 +299,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a5782f73bb42b69ea5b666437dbf88778" name="a5782f73bb42b69ea5b666437dbf88778"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5782f73bb42b69ea5b666437dbf88778">&#9670;&#160;</a></span>begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_MeshOrPointsXf_MR_Allocator_MR_MeshOrPointsXf::begin_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_MeshOrPointsXf</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_MeshOrPointsXf_MR_Allocator_MR_MeshOrPointsXf_begin_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a790dc8a04be55029ce52e6a9cde3996f" name="a790dc8a04be55029ce52e6a9cde3996f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a790dc8a04be55029ce52e6a9cde3996f">&#9670;&#160;</a></span>clear()</h2>
 
@@ -378,6 +399,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers.</p>
 <p>Calls <span class="tt">MR_std_vector_MR_MeshOrPointsXf_MR_Allocator_MR_MeshOrPointsXf_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a8e2a809a259c819911322a9bfa0a6365" name="a8e2a809a259c819911322a9bfa0a6365"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e2a809a259c819911322a9bfa0a6365">&#9670;&#160;</a></span>end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_MeshOrPointsXf_MR_Allocator_MR_MeshOrPointsXf::end_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_MeshOrPointsXf</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_MeshOrPointsXf_MR_Allocator_MR_MeshOrPointsXf_end_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

@@ -171,7 +171,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab7417bb09c2109b1aac7ca343766eb82" id="r_ab7417bb09c2109b1aac7ca343766eb82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7417bb09c2109b1aac7ca343766eb82">insert</a> (position:usize, new_elem:meshlib::Color)</td></tr>
 <tr class="memitem:a843021230ba098fe59d5cbc9e6fc0fdb" id="r_a843021230ba098fe59d5cbc9e6fc0fdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a843021230ba098fe59d5cbc9e6fc0fdb">erase</a> (position:usize)</td></tr>
 <tr class="memitem:aa971071c17526d258f60b272e323a622" id="r_aa971071c17526d258f60b272e323a622"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa971071c17526d258f60b272e323a622">begin</a> () const -&gt; *const <a class="el" href="structmeshlib_1_1Color.html">meshlib::Color</a></td></tr>
+<tr class="memitem:a41be03faa006fcf61932808725b8af8e" id="r_a41be03faa006fcf61932808725b8af8e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41be03faa006fcf61932808725b8af8e">begin_mut</a> () -&gt; *mut <a class="el" href="structmeshlib_1_1Color.html">meshlib::Color</a></td></tr>
 <tr class="memitem:ad4d8ba7eefde15cd7ca08bc0d93665dd" id="r_ad4d8ba7eefde15cd7ca08bc0d93665dd"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4d8ba7eefde15cd7ca08bc0d93665dd">end</a> () const -&gt; *const <a class="el" href="structmeshlib_1_1Color.html">meshlib::Color</a></td></tr>
+<tr class="memitem:a5a40c1f051f511d6941c304b768498b4" id="r_a5a40c1f051f511d6941c304b768498b4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a40c1f051f511d6941c304b768498b4">end_mut</a> () -&gt; *mut <a class="el" href="structmeshlib_1_1Color.html">meshlib::Color</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -300,6 +302,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a41be03faa006fcf61932808725b8af8e" name="a41be03faa006fcf61932808725b8af8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41be03faa006fcf61932808725b8af8e">&#9670;&#160;</a></span>begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_Color_MR_Allocator_MR_Color::begin_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut <a class="el" href="structmeshlib_1_1Color.html">meshlib::Color</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_Color_MR_Allocator_MR_Color_begin_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a48ef6b7687071f1590ab5dcedb307489" name="a48ef6b7687071f1590ab5dcedb307489"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a48ef6b7687071f1590ab5dcedb307489">&#9670;&#160;</a></span>clear()</h2>
 
@@ -419,6 +440,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers.</p>
 <p>Calls <span class="tt">MR_std_vector_MR_Color_MR_Allocator_MR_Color_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a5a40c1f051f511d6941c304b768498b4" name="a5a40c1f051f511d6941c304b768498b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a40c1f051f511d6941c304b768498b4">&#9670;&#160;</a></span>end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_Color_MR_Allocator_MR_Color::end_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut <a class="el" href="structmeshlib_1_1Color.html">meshlib::Color</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_Color_MR_Allocator_MR_Color_end_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

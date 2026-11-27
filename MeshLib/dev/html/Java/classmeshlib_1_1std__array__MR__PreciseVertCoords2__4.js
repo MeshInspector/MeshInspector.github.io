@@ -7,7 +7,9 @@ var classmeshlib_1_1std__array__MR__PreciseVertCoords2__4 =
     [ "at", "classmeshlib_1_1std__array__MR__PreciseVertCoords2__4.html#a939d5039fe9cd449b8e69825527e5e18", null ],
     [ "at_mut", "classmeshlib_1_1std__array__MR__PreciseVertCoords2__4.html#a74458da655bf255b686cb6a00e37c0da", null ],
     [ "begin", "classmeshlib_1_1std__array__MR__PreciseVertCoords2__4.html#a64d383645288a45c0bac97a2389cef55", null ],
+    [ "begin_mut", "classmeshlib_1_1std__array__MR__PreciseVertCoords2__4.html#a14ef1ddc5f0ea24da02e4a27d016ee92", null ],
     [ "data", "classmeshlib_1_1std__array__MR__PreciseVertCoords2__4.html#aae80c43e36c26b7fc89bf494c343fb1f", null ],
     [ "data_mut", "classmeshlib_1_1std__array__MR__PreciseVertCoords2__4.html#a68be9ece08e88e3a2b520679e619e391", null ],
-    [ "end", "classmeshlib_1_1std__array__MR__PreciseVertCoords2__4.html#ac527c7a034e612dc8b7cfd5be1b93954", null ]
+    [ "end", "classmeshlib_1_1std__array__MR__PreciseVertCoords2__4.html#ac527c7a034e612dc8b7cfd5be1b93954", null ],
+    [ "end_mut", "classmeshlib_1_1std__array__MR__PreciseVertCoords2__4.html#a4a7813fc603b60b52ecd0b04329f4e4f", null ]
 ];

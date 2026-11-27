@@ -169,7 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a175eb34afd76b2f3ad30d17531f37ebb" id="r_a175eb34afd76b2f3ad30d17531f37ebb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a175eb34afd76b2f3ad30d17531f37ebb">insert</a> (position:usize, new_elem:&amp;<a class="el" href="structmeshlib_1_1SliceInfo.html">meshlib::SliceInfo</a>)</td></tr>
 <tr class="memitem:a9ef02bedc5362756d3f3334757144b58" id="r_a9ef02bedc5362756d3f3334757144b58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ef02bedc5362756d3f3334757144b58">erase</a> (position:usize)</td></tr>
 <tr class="memitem:ad43404caec074838c36de2763af61394" id="r_ad43404caec074838c36de2763af61394"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad43404caec074838c36de2763af61394">begin</a> () const -&gt; *const meshlib::ffi::MR_SliceInfo</td></tr>
+<tr class="memitem:abf08ddd527c8b122a5a3248ac45aed88" id="r_abf08ddd527c8b122a5a3248ac45aed88"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf08ddd527c8b122a5a3248ac45aed88">begin_mut</a> () -&gt; *mut meshlib::ffi::MR_SliceInfo</td></tr>
 <tr class="memitem:a45a205ce02e64c07263435ecf1c03ec4" id="r_a45a205ce02e64c07263435ecf1c03ec4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45a205ce02e64c07263435ecf1c03ec4">end</a> () const -&gt; *const meshlib::ffi::MR_SliceInfo</td></tr>
+<tr class="memitem:ad37a8be1c26abd63d4868c1679be6e1a" id="r_ad37a8be1c26abd63d4868c1679be6e1a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad37a8be1c26abd63d4868c1679be6e1a">end_mut</a> () -&gt; *mut meshlib::ffi::MR_SliceInfo</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -298,6 +300,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="abf08ddd527c8b122a5a3248ac45aed88" name="abf08ddd527c8b122a5a3248ac45aed88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf08ddd527c8b122a5a3248ac45aed88">&#9670;&#160;</a></span>begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_SliceInfo::begin_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_SliceInfo</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_SliceInfo_begin_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a5fd7c9f0acbf4383153949bddbafb2af" name="a5fd7c9f0acbf4383153949bddbafb2af"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5fd7c9f0acbf4383153949bddbafb2af">&#9670;&#160;</a></span>clear()</h2>
 
@@ -379,6 +400,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers.</p>
 <p>Calls <span class="tt">MR_std_vector_MR_SliceInfo_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ad37a8be1c26abd63d4868c1679be6e1a" name="ad37a8be1c26abd63d4868c1679be6e1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad37a8be1c26abd63d4868c1679be6e1a">&#9670;&#160;</a></span>end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_SliceInfo::end_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_SliceInfo</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_SliceInfo_end_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

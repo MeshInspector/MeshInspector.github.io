@@ -169,7 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a684495ee0dafc2f9255596ce2a67a9a3" id="r_a684495ee0dafc2f9255596ce2a67a9a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a684495ee0dafc2f9255596ce2a67a9a3">insert</a> (position:usize, new_elem:&amp;<a class="el" href="structmeshlib_1_1UndirectedEdgeUndirectedEdge.html">meshlib::UndirectedEdgeUndirectedEdge</a>)</td></tr>
 <tr class="memitem:aeab2c6f1e7c09a7ef3b9348b3ed3f071" id="r_aeab2c6f1e7c09a7ef3b9348b3ed3f071"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeab2c6f1e7c09a7ef3b9348b3ed3f071">erase</a> (position:usize)</td></tr>
 <tr class="memitem:ae8012936f0e38ea73fbc3ac7915e9181" id="r_ae8012936f0e38ea73fbc3ac7915e9181"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8012936f0e38ea73fbc3ac7915e9181">begin</a> () const -&gt; *const meshlib::ffi::MR_UndirectedEdgeUndirectedEdge</td></tr>
+<tr class="memitem:a70353e3245d98a9b9f027df3f591f5c5" id="r_a70353e3245d98a9b9f027df3f591f5c5"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70353e3245d98a9b9f027df3f591f5c5">begin_mut</a> () -&gt; *mut meshlib::ffi::MR_UndirectedEdgeUndirectedEdge</td></tr>
 <tr class="memitem:acbe57530c149ad36912a7c6d25b7f927" id="r_acbe57530c149ad36912a7c6d25b7f927"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbe57530c149ad36912a7c6d25b7f927">end</a> () const -&gt; *const meshlib::ffi::MR_UndirectedEdgeUndirectedEdge</td></tr>
+<tr class="memitem:ab64b6a25770c1259471641a740630c85" id="r_ab64b6a25770c1259471641a740630c85"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab64b6a25770c1259471641a740630c85">end_mut</a> () -&gt; *mut meshlib::ffi::MR_UndirectedEdgeUndirectedEdge</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -298,6 +300,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a70353e3245d98a9b9f027df3f591f5c5" name="a70353e3245d98a9b9f027df3f591f5c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70353e3245d98a9b9f027df3f591f5c5">&#9670;&#160;</a></span>begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_UndirectedEdgeUndirectedEdge::begin_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_UndirectedEdgeUndirectedEdge</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_UndirectedEdgeUndirectedEdge_begin_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="ab19289ddc97950bae134e7020c279a7b" name="ab19289ddc97950bae134e7020c279a7b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab19289ddc97950bae134e7020c279a7b">&#9670;&#160;</a></span>clear()</h2>
 
@@ -379,6 +400,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers.</p>
 <p>Calls <span class="tt">MR_std_vector_MR_UndirectedEdgeUndirectedEdge_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ab64b6a25770c1259471641a740630c85" name="ab64b6a25770c1259471641a740630c85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab64b6a25770c1259471641a740630c85">&#9670;&#160;</a></span>end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_UndirectedEdgeUndirectedEdge::end_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_UndirectedEdgeUndirectedEdge</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_UndirectedEdgeUndirectedEdge_end_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

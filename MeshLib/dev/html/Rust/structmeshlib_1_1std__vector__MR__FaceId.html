@@ -171,7 +171,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a47b8775b5f27e37e5cd480b7cfd22644" id="r_a47b8775b5f27e37e5cd480b7cfd22644"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47b8775b5f27e37e5cd480b7cfd22644">insert</a> (position:usize, new_elem:meshlib::FaceId)</td></tr>
 <tr class="memitem:a9a4380988d9d22dffa3204e07739aa7e" id="r_a9a4380988d9d22dffa3204e07739aa7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a4380988d9d22dffa3204e07739aa7e">erase</a> (position:usize)</td></tr>
 <tr class="memitem:addd1b21f1f5f30ffd46cb96f7ff03b05" id="r_addd1b21f1f5f30ffd46cb96f7ff03b05"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addd1b21f1f5f30ffd46cb96f7ff03b05">begin</a> () const -&gt; *const <a class="el" href="structmeshlib_1_1FaceId.html">meshlib::FaceId</a></td></tr>
+<tr class="memitem:a8f1596a45b501ae3544f248b5cdc0b46" id="r_a8f1596a45b501ae3544f248b5cdc0b46"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f1596a45b501ae3544f248b5cdc0b46">begin_mut</a> () -&gt; *mut <a class="el" href="structmeshlib_1_1FaceId.html">meshlib::FaceId</a></td></tr>
 <tr class="memitem:ac936307516b9502e4fe46f969bc4616e" id="r_ac936307516b9502e4fe46f969bc4616e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac936307516b9502e4fe46f969bc4616e">end</a> () const -&gt; *const <a class="el" href="structmeshlib_1_1FaceId.html">meshlib::FaceId</a></td></tr>
+<tr class="memitem:a39e99c93634c22a2cd01f29835fc0273" id="r_a39e99c93634c22a2cd01f29835fc0273"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39e99c93634c22a2cd01f29835fc0273">end_mut</a> () -&gt; *mut <a class="el" href="structmeshlib_1_1FaceId.html">meshlib::FaceId</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -300,6 +302,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8f1596a45b501ae3544f248b5cdc0b46" name="a8f1596a45b501ae3544f248b5cdc0b46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f1596a45b501ae3544f248b5cdc0b46">&#9670;&#160;</a></span>begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_FaceId::begin_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut <a class="el" href="structmeshlib_1_1FaceId.html">meshlib::FaceId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_FaceId_begin_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="aa57bcf0d8c6ad955de7b47476e8319da" name="aa57bcf0d8c6ad955de7b47476e8319da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa57bcf0d8c6ad955de7b47476e8319da">&#9670;&#160;</a></span>clear()</h2>
 
@@ -419,6 +440,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers.</p>
 <p>Calls <span class="tt">MR_std_vector_MR_FaceId_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a39e99c93634c22a2cd01f29835fc0273" name="a39e99c93634c22a2cd01f29835fc0273"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39e99c93634c22a2cd01f29835fc0273">&#9670;&#160;</a></span>end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_FaceId::end_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut <a class="el" href="structmeshlib_1_1FaceId.html">meshlib::FaceId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_FaceId_end_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

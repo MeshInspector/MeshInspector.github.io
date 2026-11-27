@@ -4,7 +4,9 @@ var structmeshlib_1_1std__array__MR__BooleanResultMapper__Maps__2 =
     [ "at", "structmeshlib_1_1std__array__MR__BooleanResultMapper__Maps__2.html#aaf47a06a0914d87007330fd2b1462ee9", null ],
     [ "at_mut", "structmeshlib_1_1std__array__MR__BooleanResultMapper__Maps__2.html#a796e08e76caaed1f79c81ad2301602ef", null ],
     [ "begin", "structmeshlib_1_1std__array__MR__BooleanResultMapper__Maps__2.html#ac8edb0ff974af0f5efac8f5ffed5cfd7", null ],
+    [ "begin_mut", "structmeshlib_1_1std__array__MR__BooleanResultMapper__Maps__2.html#af4b551e7c4b1eb0078a0170a22528544", null ],
     [ "data", "structmeshlib_1_1std__array__MR__BooleanResultMapper__Maps__2.html#af023edc6d67e741886d4f93eb2562c0a", null ],
     [ "data_mut", "structmeshlib_1_1std__array__MR__BooleanResultMapper__Maps__2.html#ad93d2a565137954da4d2e242a5cfa581", null ],
-    [ "end", "structmeshlib_1_1std__array__MR__BooleanResultMapper__Maps__2.html#ab2c84a3794dd7a8e4169717bf4bb5385", null ]
+    [ "end", "structmeshlib_1_1std__array__MR__BooleanResultMapper__Maps__2.html#ab2c84a3794dd7a8e4169717bf4bb5385", null ],
+    [ "end_mut", "structmeshlib_1_1std__array__MR__BooleanResultMapper__Maps__2.html#a48e6a96c3dc637f0045c38cb221344d9", null ]
 ];

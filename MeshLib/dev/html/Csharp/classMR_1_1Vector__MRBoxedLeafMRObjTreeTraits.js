@@ -15,6 +15,7 @@ var classMR_1_1Vector__MRBoxedLeafMRObjTreeTraits =
     [ "clear", "classMR_1_1Vector__MRBoxedLeafMRObjTreeTraits.html#aa9ff3e3ff2e8db708308fe6db85253a0", null ],
     [ "data", "classMR_1_1Vector__MRBoxedLeafMRObjTreeTraits.html#a6a192f765f595bf3b45e1383a36e6cd5", null ],
     [ "front", "classMR_1_1Vector__MRBoxedLeafMRObjTreeTraits.html#acb34bbb57d6349ffb6180806eabeaa49", null ],
+    [ "GetEnumerator", "classMR_1_1Vector__MRBoxedLeafMRObjTreeTraits.html#a646284c6d65105ea95f1ddfe473bc307", null ],
     [ "popBack", "classMR_1_1Vector__MRBoxedLeafMRObjTreeTraits.html#afa32301bf8edec9bd9eeeed9ab90d7ad", null ],
     [ "pushBack", "classMR_1_1Vector__MRBoxedLeafMRObjTreeTraits.html#aae6eadf6e0c7014f3032cb5bb6002f48", null ],
     [ "pushBack", "classMR_1_1Vector__MRBoxedLeafMRObjTreeTraits.html#a191cf18772cbf872bed3adac1fb57a72", null ],

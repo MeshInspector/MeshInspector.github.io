@@ -169,7 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa39f3669d139d6b33d5c81acd41988b1" id="r_aa39f3669d139d6b33d5c81acd41988b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa39f3669d139d6b33d5c81acd41988b1">insert</a> (position:usize, new_elem:&amp;<a class="el" href="structmeshlib_1_1EdgeBitSet.html">meshlib::EdgeBitSet</a>)</td></tr>
 <tr class="memitem:a1c0ca6a091bd126d4a7c41f8907746e4" id="r_a1c0ca6a091bd126d4a7c41f8907746e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c0ca6a091bd126d4a7c41f8907746e4">erase</a> (position:usize)</td></tr>
 <tr class="memitem:adcf400f2c530b317a032fef8b8953b18" id="r_adcf400f2c530b317a032fef8b8953b18"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcf400f2c530b317a032fef8b8953b18">begin</a> () const -&gt; *const meshlib::ffi::MR_EdgeBitSet</td></tr>
+<tr class="memitem:a8f49e2038d4cf159e3588a1099999451" id="r_a8f49e2038d4cf159e3588a1099999451"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f49e2038d4cf159e3588a1099999451">begin_mut</a> () -&gt; *mut meshlib::ffi::MR_EdgeBitSet</td></tr>
 <tr class="memitem:a5d35325cc00658be436cc8c9f117de95" id="r_a5d35325cc00658be436cc8c9f117de95"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d35325cc00658be436cc8c9f117de95">end</a> () const -&gt; *const meshlib::ffi::MR_EdgeBitSet</td></tr>
+<tr class="memitem:aebc5abf8a251917c76ce2c4ac33d72a6" id="r_aebc5abf8a251917c76ce2c4ac33d72a6"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebc5abf8a251917c76ce2c4ac33d72a6">end_mut</a> () -&gt; *mut meshlib::ffi::MR_EdgeBitSet</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -298,6 +300,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8f49e2038d4cf159e3588a1099999451" name="a8f49e2038d4cf159e3588a1099999451"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f49e2038d4cf159e3588a1099999451">&#9670;&#160;</a></span>begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_EdgeBitSet::begin_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_EdgeBitSet</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_EdgeBitSet_begin_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="afe2e0fa44a7a795603d32acd252ae55a" name="afe2e0fa44a7a795603d32acd252ae55a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afe2e0fa44a7a795603d32acd252ae55a">&#9670;&#160;</a></span>clear()</h2>
 
@@ -379,6 +400,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers.</p>
 <p>Calls <span class="tt">MR_std_vector_MR_EdgeBitSet_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="aebc5abf8a251917c76ce2c4ac33d72a6" name="aebc5abf8a251917c76ce2c4ac33d72a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebc5abf8a251917c76ce2c4ac33d72a6">&#9670;&#160;</a></span>end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_EdgeBitSet::end_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_EdgeBitSet</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_EdgeBitSet_end_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

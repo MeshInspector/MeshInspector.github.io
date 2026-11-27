@@ -169,7 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a70336407b483ee0f82444f23a8ab21e5" id="r_a70336407b483ee0f82444f23a8ab21e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70336407b483ee0f82444f23a8ab21e5">insert</a> (position:usize, new_elem:&amp;<a class="el" href="structmeshlib_1_1AABBTreePoints__Point.html">meshlib::AABBTreePoints_Point</a>)</td></tr>
 <tr class="memitem:a4a0f5243e04c60280444efdadff6edf4" id="r_a4a0f5243e04c60280444efdadff6edf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a0f5243e04c60280444efdadff6edf4">erase</a> (position:usize)</td></tr>
 <tr class="memitem:a092a2bb90bdba58327f9f324d15217ad" id="r_a092a2bb90bdba58327f9f324d15217ad"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a092a2bb90bdba58327f9f324d15217ad">begin</a> () const -&gt; *const meshlib::ffi::MR_AABBTreePoints_Point</td></tr>
+<tr class="memitem:a52d11a1a1d83037a2c666ae6cdbaeda7" id="r_a52d11a1a1d83037a2c666ae6cdbaeda7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52d11a1a1d83037a2c666ae6cdbaeda7">begin_mut</a> () -&gt; *mut meshlib::ffi::MR_AABBTreePoints_Point</td></tr>
 <tr class="memitem:a7102709949b066d230c5d3b0a7341d09" id="r_a7102709949b066d230c5d3b0a7341d09"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7102709949b066d230c5d3b0a7341d09">end</a> () const -&gt; *const meshlib::ffi::MR_AABBTreePoints_Point</td></tr>
+<tr class="memitem:a6ad266691cd49d23ad38a4f999985d2f" id="r_a6ad266691cd49d23ad38a4f999985d2f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ad266691cd49d23ad38a4f999985d2f">end_mut</a> () -&gt; *mut meshlib::ffi::MR_AABBTreePoints_Point</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -298,6 +300,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a52d11a1a1d83037a2c666ae6cdbaeda7" name="a52d11a1a1d83037a2c666ae6cdbaeda7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52d11a1a1d83037a2c666ae6cdbaeda7">&#9670;&#160;</a></span>begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_AABBTreePoints_Point::begin_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_AABBTreePoints_Point</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_AABBTreePoints_Point_begin_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a3d52ee31c50cda761ea24320f6fb7735" name="a3d52ee31c50cda761ea24320f6fb7735"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d52ee31c50cda761ea24320f6fb7735">&#9670;&#160;</a></span>clear()</h2>
 
@@ -379,6 +400,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers.</p>
 <p>Calls <span class="tt">MR_std_vector_MR_AABBTreePoints_Point_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a6ad266691cd49d23ad38a4f999985d2f" name="a6ad266691cd49d23ad38a4f999985d2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ad266691cd49d23ad38a4f999985d2f">&#9670;&#160;</a></span>end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_AABBTreePoints_Point::end_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_AABBTreePoints_Point</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_AABBTreePoints_Point_end_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

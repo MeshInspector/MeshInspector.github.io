@@ -6,7 +6,9 @@ var classstd__array__MR__WeightedVertex__3 =
     [ "at", "classstd__array__MR__WeightedVertex__3.html#a772011d052f9a0a2630d551e585b160a", null ],
     [ "at_mut", "classstd__array__MR__WeightedVertex__3.html#a9ebd4a71239ef4181ab339d32fbd87f9", null ],
     [ "begin", "classstd__array__MR__WeightedVertex__3.html#aaf3d8c89fd788279e595c5b811b9bd76", null ],
+    [ "begin_mut", "classstd__array__MR__WeightedVertex__3.html#aea38ef115adebfb57c7a5fdbd234a44b", null ],
     [ "data", "classstd__array__MR__WeightedVertex__3.html#aaebc67af94bfa5c920d6d1ccae9b99a1", null ],
     [ "data_mut", "classstd__array__MR__WeightedVertex__3.html#a88ec1965bf9167ed6f8a32df77392c58", null ],
-    [ "end", "classstd__array__MR__WeightedVertex__3.html#a34b6578b714fff8d86b5b94937972a66", null ]
+    [ "end", "classstd__array__MR__WeightedVertex__3.html#a34b6578b714fff8d86b5b94937972a66", null ],
+    [ "end_mut", "classstd__array__MR__WeightedVertex__3.html#a34a4c25b685da3020e8e806bf0a9f1dd", null ]
 ];

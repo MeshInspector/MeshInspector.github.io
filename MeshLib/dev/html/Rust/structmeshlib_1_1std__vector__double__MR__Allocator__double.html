@@ -171,7 +171,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7f4957ce229a0369fdfb195b9a041d3b" id="r_a7f4957ce229a0369fdfb195b9a041d3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f4957ce229a0369fdfb195b9a041d3b">insert</a> (position:usize, new_elem:f64)</td></tr>
 <tr class="memitem:a4da3d4a7cec6ea1990d13b9ac4c57193" id="r_a4da3d4a7cec6ea1990d13b9ac4c57193"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4da3d4a7cec6ea1990d13b9ac4c57193">erase</a> (position:usize)</td></tr>
 <tr class="memitem:a95cbcee1b77b1098af055fee9681c691" id="r_a95cbcee1b77b1098af055fee9681c691"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95cbcee1b77b1098af055fee9681c691">begin</a> () const -&gt; *const f64</td></tr>
+<tr class="memitem:aa12809fa5dc48d67e8ae46f060aaa773" id="r_aa12809fa5dc48d67e8ae46f060aaa773"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa12809fa5dc48d67e8ae46f060aaa773">begin_mut</a> () -&gt; *mut f64</td></tr>
 <tr class="memitem:ace2a53a009798ac33140d73886bd4374" id="r_ace2a53a009798ac33140d73886bd4374"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace2a53a009798ac33140d73886bd4374">end</a> () const -&gt; *const f64</td></tr>
+<tr class="memitem:a7367c6f2420d4a423ec61805f453de52" id="r_a7367c6f2420d4a423ec61805f453de52"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7367c6f2420d4a423ec61805f453de52">end_mut</a> () -&gt; *mut f64</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -300,6 +302,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aa12809fa5dc48d67e8ae46f060aaa773" name="aa12809fa5dc48d67e8ae46f060aaa773"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa12809fa5dc48d67e8ae46f060aaa773">&#9670;&#160;</a></span>begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_double_MR_Allocator_double::begin_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut f64</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_double_MR_Allocator_double_begin_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a106e066751e1c9f6b80150e821000a06" name="a106e066751e1c9f6b80150e821000a06"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a106e066751e1c9f6b80150e821000a06">&#9670;&#160;</a></span>clear()</h2>
 
@@ -419,6 +440,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers.</p>
 <p>Calls <span class="tt">MR_std_vector_double_MR_Allocator_double_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a7367c6f2420d4a423ec61805f453de52" name="a7367c6f2420d4a423ec61805f453de52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7367c6f2420d4a423ec61805f453de52">&#9670;&#160;</a></span>end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_double_MR_Allocator_double::end_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut f64</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_double_MR_Allocator_double_end_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

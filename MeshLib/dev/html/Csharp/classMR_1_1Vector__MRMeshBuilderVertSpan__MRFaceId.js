@@ -15,6 +15,7 @@ var classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId =
     [ "clear", "classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId.html#aebde8c50190cd8e45c88df3f116bbb84", null ],
     [ "data", "classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId.html#a7f93d0289fc2c4feb40dd4298fd6549e", null ],
     [ "front", "classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId.html#a1f896306b4fdc63b8e9d106a0a0ac168", null ],
+    [ "GetEnumerator", "classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId.html#a7fed29fa4458d475921febb0bda62d8b", null ],
     [ "popBack", "classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId.html#a50b321703f2381029d927ae09fe4a7f3", null ],
     [ "pushBack", "classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId.html#a98a263daa34170e19efe9b764ef4ba06", null ],
     [ "pushBack", "classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId.html#a2349ab126350b77ff2c236c602c658d9", null ],

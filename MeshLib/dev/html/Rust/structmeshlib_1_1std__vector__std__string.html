@@ -169,7 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a37929c2d00ab02e391198c62fcecd740" id="r_a37929c2d00ab02e391198c62fcecd740"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37929c2d00ab02e391198c62fcecd740">insert</a> (position:usize, new_elem:&amp;str)</td></tr>
 <tr class="memitem:adfc51ac28d522a09ce033b82c51a53be" id="r_adfc51ac28d522a09ce033b82c51a53be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfc51ac28d522a09ce033b82c51a53be">erase</a> (position:usize)</td></tr>
 <tr class="memitem:a3df61e4ca35f91196b9730f5a90080ce" id="r_a3df61e4ca35f91196b9730f5a90080ce"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df61e4ca35f91196b9730f5a90080ce">begin</a> () const -&gt; *const meshlib::ffi::MR_std_string</td></tr>
+<tr class="memitem:adb7b4ee9837e47ce11adf77052864b4c" id="r_adb7b4ee9837e47ce11adf77052864b4c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb7b4ee9837e47ce11adf77052864b4c">begin_mut</a> () -&gt; *mut meshlib::ffi::MR_std_string</td></tr>
 <tr class="memitem:a5d024c29f25cfce6c6c89c8e2336f50a" id="r_a5d024c29f25cfce6c6c89c8e2336f50a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d024c29f25cfce6c6c89c8e2336f50a">end</a> () const -&gt; *const meshlib::ffi::MR_std_string</td></tr>
+<tr class="memitem:a7e9c75b766195ef199dda51afe998f06" id="r_a7e9c75b766195ef199dda51afe998f06"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e9c75b766195ef199dda51afe998f06">end_mut</a> () -&gt; *mut meshlib::ffi::MR_std_string</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -298,6 +300,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="adb7b4ee9837e47ce11adf77052864b4c" name="adb7b4ee9837e47ce11adf77052864b4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb7b4ee9837e47ce11adf77052864b4c">&#9670;&#160;</a></span>begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_std_string::begin_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_std_string</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_std_string_begin_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a356bd0f19745142620aabc879ad19bd8" name="a356bd0f19745142620aabc879ad19bd8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a356bd0f19745142620aabc879ad19bd8">&#9670;&#160;</a></span>clear()</h2>
 
@@ -379,6 +400,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers.</p>
 <p>Calls <span class="tt">MR_std_vector_std_string_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a7e9c75b766195ef199dda51afe998f06" name="a7e9c75b766195ef199dda51afe998f06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e9c75b766195ef199dda51afe998f06">&#9670;&#160;</a></span>end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_std_string::end_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_std_string</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_std_string_end_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

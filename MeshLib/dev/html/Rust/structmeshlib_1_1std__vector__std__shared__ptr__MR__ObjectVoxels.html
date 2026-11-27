@@ -169,7 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae5066dafab34a06b8ac09ffaed420b87" id="r_ae5066dafab34a06b8ac09ffaed420b87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5066dafab34a06b8ac09ffaed420b87">insert</a> (position:usize, new_elem:&amp;<a class="el" href="structmeshlib_1_1std__shared__ptr__MR__ObjectVoxels.html">meshlib::std_shared_ptr_MR_ObjectVoxels</a>)</td></tr>
 <tr class="memitem:aa5128aecbb0df0f8694bfd5803df225c" id="r_aa5128aecbb0df0f8694bfd5803df225c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5128aecbb0df0f8694bfd5803df225c">erase</a> (position:usize)</td></tr>
 <tr class="memitem:ae1371c23d681692cb56a0c090a35531f" id="r_ae1371c23d681692cb56a0c090a35531f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1371c23d681692cb56a0c090a35531f">begin</a> () const -&gt; *const meshlib::ffi::MR_std_shared_ptr_MR_ObjectVoxels</td></tr>
+<tr class="memitem:af32e8304f7019e44ff13e431279fda45" id="r_af32e8304f7019e44ff13e431279fda45"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af32e8304f7019e44ff13e431279fda45">begin_mut</a> () -&gt; *mut meshlib::ffi::MR_std_shared_ptr_MR_ObjectVoxels</td></tr>
 <tr class="memitem:a172597a94c0864926ea50fc6e742eb4a" id="r_a172597a94c0864926ea50fc6e742eb4a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a172597a94c0864926ea50fc6e742eb4a">end</a> () const -&gt; *const meshlib::ffi::MR_std_shared_ptr_MR_ObjectVoxels</td></tr>
+<tr class="memitem:af24ad6381d72cde41399844bcdc7930d" id="r_af24ad6381d72cde41399844bcdc7930d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af24ad6381d72cde41399844bcdc7930d">end_mut</a> () -&gt; *mut meshlib::ffi::MR_std_shared_ptr_MR_ObjectVoxels</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -298,6 +300,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af32e8304f7019e44ff13e431279fda45" name="af32e8304f7019e44ff13e431279fda45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af32e8304f7019e44ff13e431279fda45">&#9670;&#160;</a></span>begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_std_shared_ptr_MR_ObjectVoxels::begin_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_std_shared_ptr_MR_ObjectVoxels</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_std_shared_ptr_MR_ObjectVoxels_begin_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="ad931f654cddb9eabdbd25f41374cc572" name="ad931f654cddb9eabdbd25f41374cc572"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad931f654cddb9eabdbd25f41374cc572">&#9670;&#160;</a></span>clear()</h2>
 
@@ -379,6 +400,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers.</p>
 <p>Calls <span class="tt">MR_std_vector_std_shared_ptr_MR_ObjectVoxels_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="af24ad6381d72cde41399844bcdc7930d" name="af24ad6381d72cde41399844bcdc7930d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af24ad6381d72cde41399844bcdc7930d">&#9670;&#160;</a></span>end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_std_shared_ptr_MR_ObjectVoxels::end_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_std_shared_ptr_MR_ObjectVoxels</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_std_shared_ptr_MR_ObjectVoxels_end_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

@@ -169,7 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad4917fd86ed99fe389020a8970be78ab" id="r_ad4917fd86ed99fe389020a8970be78ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4917fd86ed99fe389020a8970be78ab">insert</a> (position:usize, new_elem:&amp;<a class="el" href="structmeshlib_1_1FlowOrigin.html">meshlib::FlowOrigin</a>)</td></tr>
 <tr class="memitem:a7810e044e0595e2eaab444a9365e6b69" id="r_a7810e044e0595e2eaab444a9365e6b69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7810e044e0595e2eaab444a9365e6b69">erase</a> (position:usize)</td></tr>
 <tr class="memitem:af5002c25cb16fdb99da9aea9e5e2fdaa" id="r_af5002c25cb16fdb99da9aea9e5e2fdaa"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5002c25cb16fdb99da9aea9e5e2fdaa">begin</a> () const -&gt; *const meshlib::ffi::MR_FlowOrigin</td></tr>
+<tr class="memitem:a92f01356c6f49def1bd2f34cba2fbbbc" id="r_a92f01356c6f49def1bd2f34cba2fbbbc"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92f01356c6f49def1bd2f34cba2fbbbc">begin_mut</a> () -&gt; *mut meshlib::ffi::MR_FlowOrigin</td></tr>
 <tr class="memitem:af878b8502e1fba4a069301d9c8b37c24" id="r_af878b8502e1fba4a069301d9c8b37c24"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af878b8502e1fba4a069301d9c8b37c24">end</a> () const -&gt; *const meshlib::ffi::MR_FlowOrigin</td></tr>
+<tr class="memitem:a0a4e33a3ab86b9a0be19de0f342ef864" id="r_a0a4e33a3ab86b9a0be19de0f342ef864"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a4e33a3ab86b9a0be19de0f342ef864">end_mut</a> () -&gt; *mut meshlib::ffi::MR_FlowOrigin</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -298,6 +300,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a92f01356c6f49def1bd2f34cba2fbbbc" name="a92f01356c6f49def1bd2f34cba2fbbbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92f01356c6f49def1bd2f34cba2fbbbc">&#9670;&#160;</a></span>begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_FlowOrigin::begin_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_FlowOrigin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_FlowOrigin_begin_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="adb260e0226c0bfa98f0b5799579e62dd" name="adb260e0226c0bfa98f0b5799579e62dd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adb260e0226c0bfa98f0b5799579e62dd">&#9670;&#160;</a></span>clear()</h2>
 
@@ -379,6 +400,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers.</p>
 <p>Calls <span class="tt">MR_std_vector_MR_FlowOrigin_end()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a0a4e33a3ab86b9a0be19de0f342ef864" name="a0a4e33a3ab86b9a0be19de0f342ef864"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a4e33a3ab86b9a0be19de0f342ef864">&#9670;&#160;</a></span>end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::std_vector_MR_FlowOrigin::end_mut </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  *mut meshlib::ffi::MR_FlowOrigin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers.</p>
+<p>Calls <span class="tt">MR_std_vector_MR_FlowOrigin_end_mut()</span>. Some types are raw C types, see the C bindings for the details. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

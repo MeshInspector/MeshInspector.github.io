@@ -170,7 +170,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ae2705876c35db298d441804a130dc37c" id="r_ae2705876c35db298d441804a130dc37c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2705876c35db298d441804a130dc37c">MR_std_vector_MR_IOFilter_insert</a> (<a class="el" href="MRIOFilters_8h.html#ac9eb9a9e1e6066f522661733a7c739df">MR_std_vector_MR_IOFilter</a> *_this, size_t position, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="MRIOFilters_8h.html#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *new_elem)</td></tr>
 <tr class="memitem:a74dfc574549ef18c411d3843bf8beff2" id="r_a74dfc574549ef18c411d3843bf8beff2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74dfc574549ef18c411d3843bf8beff2">MR_std_vector_MR_IOFilter_erase</a> (<a class="el" href="MRIOFilters_8h.html#ac9eb9a9e1e6066f522661733a7c739df">MR_std_vector_MR_IOFilter</a> *_this, size_t position)</td></tr>
 <tr class="memitem:a0bb601528c8d9e2809934e5a68fa4129" id="r_a0bb601528c8d9e2809934e5a68fa4129"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRIOFilters_8h.html#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bb601528c8d9e2809934e5a68fa4129">MR_std_vector_MR_IOFilter_begin</a> (const <a class="el" href="MRIOFilters_8h.html#ac9eb9a9e1e6066f522661733a7c739df">MR_std_vector_MR_IOFilter</a> *_this)</td></tr>
+<tr class="memitem:a7cf06095b29a33ff0d0aa575284e3d00" id="r_a7cf06095b29a33ff0d0aa575284e3d00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIOFilters_8h.html#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cf06095b29a33ff0d0aa575284e3d00">MR_std_vector_MR_IOFilter_begin_mut</a> (<a class="el" href="MRIOFilters_8h.html#ac9eb9a9e1e6066f522661733a7c739df">MR_std_vector_MR_IOFilter</a> *_this)</td></tr>
 <tr class="memitem:a76fe0275a91e7ad2448ecd1e5f4e66c7" id="r_a76fe0275a91e7ad2448ecd1e5f4e66c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRIOFilters_8h.html#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76fe0275a91e7ad2448ecd1e5f4e66c7">MR_std_vector_MR_IOFilter_end</a> (const <a class="el" href="MRIOFilters_8h.html#ac9eb9a9e1e6066f522661733a7c739df">MR_std_vector_MR_IOFilter</a> *_this)</td></tr>
+<tr class="memitem:a2cc29e420d5be01aa5bbb57108f3fb33" id="r_a2cc29e420d5be01aa5bbb57108f3fb33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIOFilters_8h.html#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cc29e420d5be01aa5bbb57108f3fb33">MR_std_vector_MR_IOFilter_end_mut</a> (<a class="el" href="MRIOFilters_8h.html#ac9eb9a9e1e6066f522661733a7c739df">MR_std_vector_MR_IOFilter</a> *_this)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a780051809a74bf22edd214b3d2075ebb" name="a780051809a74bf22edd214b3d2075ebb"></a>
@@ -295,6 +297,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>The begin iterator, const. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a7cf06095b29a33ff0d0aa575284e3d00" name="a7cf06095b29a33ff0d0aa575284e3d00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cf06095b29a33ff0d0aa575284e3d00">&#9670;&#160;</a></span>MR_std_vector_MR_IOFilter_begin_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIOFilters_8h.html#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> * MR_std_vector_MR_IOFilter_begin_mut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIOFilters_8h.html#ac9eb9a9e1e6066f522661733a7c739df">MR_std_vector_MR_IOFilter</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -445,6 +465,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>The end iterator, const. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a2cc29e420d5be01aa5bbb57108f3fb33" name="a2cc29e420d5be01aa5bbb57108f3fb33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cc29e420d5be01aa5bbb57108f3fb33">&#9670;&#160;</a></span>MR_std_vector_MR_IOFilter_end_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIOFilters_8h.html#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> * MR_std_vector_MR_IOFilter_end_mut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIOFilters_8h.html#ac9eb9a9e1e6066f522661733a7c739df">MR_std_vector_MR_IOFilter</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Iterators of this container are plain pointers. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

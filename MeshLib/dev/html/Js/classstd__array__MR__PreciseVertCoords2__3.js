@@ -6,7 +6,9 @@ var classstd__array__MR__PreciseVertCoords2__3 =
     [ "at", "classstd__array__MR__PreciseVertCoords2__3.html#ae6979962c129b5e5b1b996e28b337ece", null ],
     [ "at_mut", "classstd__array__MR__PreciseVertCoords2__3.html#adc83e76ba0bb0945b15d0b16ce265604", null ],
     [ "begin", "classstd__array__MR__PreciseVertCoords2__3.html#a029b64c13150c66d530d7cb0644e8d3c", null ],
+    [ "begin_mut", "classstd__array__MR__PreciseVertCoords2__3.html#a37bbe538c20cc8150a754b4a27533abc", null ],
     [ "data", "classstd__array__MR__PreciseVertCoords2__3.html#a6462f1bd6fdd9a7d20e8c3f0daa0bb6c", null ],
     [ "data_mut", "classstd__array__MR__PreciseVertCoords2__3.html#a348ab7cfe3a8c1b7173d17b089fe9ea1", null ],
-    [ "end", "classstd__array__MR__PreciseVertCoords2__3.html#aeddafa5e4956f5d02bde4c358871144e", null ]
+    [ "end", "classstd__array__MR__PreciseVertCoords2__3.html#aeddafa5e4956f5d02bde4c358871144e", null ],
+    [ "end_mut", "classstd__array__MR__PreciseVertCoords2__3.html#a221679b4c17927306a08602e95971649", null ]
 ];
